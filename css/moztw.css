@@ -86,6 +86,10 @@ div#firefox-feature div.download{
 	background: url("/images/product-netscape-screen.png") no-repeat;
 }
 
+.product-nvu {
+	background: url("/images/product-nvu-screen.jpg") no-repeat;
+}
+
 .courier {
 	/* this is for showing 'moztw.org' in header. */
 	font-family: courier, mono;
@@ -101,6 +105,11 @@ a#featurelink { background: none;  }
 	padding: 1px 0 1px 5px;
 	margin-left: 40px;
 }
+
+#header form #q {
+	width: 130px;
+}
+
 
 .news .date {
 	width: 6em;

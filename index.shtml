@@ -49,9 +49,9 @@
 <div>
     <div style='width: 35%; float: right;'>
 
-  <h2><a href="/dls/nvu/nvu-0.50-win32-zhTW-installer.exe">NVU 0.5</a></h2>
-  <img src="images/product-front-nvu.png" alt="NVU" class="promo" width="50" height="50"></a>
-  NVU 是獨立的網頁設計工具，具有不輸一般商用軟體的可塑性。
+  <h2><a href="nvu">NVU 0.5</a></h2>
+  <a href="nvu"><img src="images/product-front-nvu.png" alt="NVU" class="promo" width="50" height="50"></a>
+  <a href="nvu">NVU</a> 是獨立的網頁設計工具，具有不輸一般商用軟體的可塑性。
   <br/><br/>
 
   <h2 ><a href="http://www.MozillaStore.com/">購買與贊助</a></h2>
