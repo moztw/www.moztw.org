@@ -4,6 +4,8 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+	<li><div class="date"> 9 月 23 日 </div>
+	Firefox 1.0PR 中文版預計在下星期前可推出測試版
 	<li><div class="date"> 9 月 14 日 </div>
 	Firefox 1.0PR 與 Thunderbird 0.8 已發佈，但因為有非常大的改變，
 	中文化仍在製作中。 事實上，其它語言的版本也都還無法發佈，請耐心等待。
