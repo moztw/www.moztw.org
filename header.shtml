@@ -14,9 +14,14 @@
  <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
  <link rel="home" title="Home" href="http://www.moztw.org/">
+ <!--
+ <script type="text/javascript" src="js/JSCookMenu.js"></script>
+ <script type="text/javascript" src="css/CJK/theme.js"></script>
+ -->
  <style type='text/css'>
  <!--
  @import url(/css/moztw.css);
+ /* @import url(/css/CJK/theme.css); */
  -->
  </style>
 </head>
@@ -35,7 +40,7 @@
   <li id="menu_docs"><a href="/doc" title="Installation, trouble-shooting, and the knowledge base">文件</a></li>
   <li id="menu_products"><a href="/dl" title="All software Mozilla currently offers">下載</a></li>
  </ul>
- <form id="search" method="get" action="http://www.google.com/custom" title="moztw.org Search">
+ <form id="search" method="get" action="http://www.google.com/custom">
  <div>
   <label for="q" title="Search moztw.org">搜尋:</label>
   <input type="hidden" name="cof" value="LW:174;LH:60;L:http://www.mozilla.org/images/mlogosm.gif;GIMP:#cc0000;T:black;ALC:#0000ff;GFNT:grey;LC:#990000;BGC:white;AH:center;VLC:purple;GL:0;GALT:#666633;AWFID:9262c37cefe23a86;">
@@ -43,6 +48,19 @@
   <input type="hidden" name="sitesearch" value="moztw.org">
   <input type="text" id="q" name="q" accesskey="s" size="30">
   <input type="submit" id="submit" value="Go">
+  &nbsp;
+  <select value='' id='cjk' onChange='location.href = document.getElementById("cjk").value;'><option>Mozilla Asia(CJK)</option>
+	  <option style='background: no-repeat top right url(/icons/flags/tw.png);' 
+	  value='http://moztw.org/'>Chinese (Taiwan)</option>
+	  <option style='background: no-repeat top right url(/icons/flags/jp.png);' 
+	  value='http://mozilla-japan.org/'>Japanese (Japan)</option>
+	  <option style='background: no-repeat top right url(/icons/flags/kr.png);' 
+	  value='http://mozilla.or.kr/'>Korean (Korea)</option>
+	  <!--
+	  <option style='background: no-repeat top right url(/icons/flags/cn.png);' 
+	  value='http://people.linux.net.cn/holywen/'>Chinese (China)</option>
+	  -->
+  </select>
  </div>
  </form>
 </div>

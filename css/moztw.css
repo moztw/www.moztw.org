@@ -73,6 +73,14 @@ div#firefox-feature div.download{
   float: left;
 }
 
+#header form #cjk {
+	font-size: 90%;
+	border:	1px solid #9097A2;
+	background: #D9DBE1;
+	padding: 2px;
+	font-family: georgia,sans-serif;
+}
+
 /* fix up */
 a#featurelink { background: none;  }
 #firefox-feature li a {
