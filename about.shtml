@@ -32,10 +32,13 @@
 	關於它的定位與所能提供的資訊與服務，我們也還在規畫中，歡迎給予建議與指教！
 	<p>
 	<h3>我有問題</h3>
-	關於 Mozilla, Mozilla Firefox, Mozilla Thunderbird
-	使用上的問題請至 <a href='http://www.mozilla.org'>mozilla.org</a> 網站查詢, 
-	另外也可利用<a href='forum'> Mozilla@Taiwan 討論區 </a> ， 
-	有很多熱心的使用者願意分享經驗。
+	若您有關於 Mozilla, Mozilla Firefox, Mozilla Thunderbird
+	使用上的問題：
+	<ul><li>請至 <a href='http://www.mozilla.org'>mozilla.org</a> 網站查詢
+	<li>或請查閱<a href="/doc">本站文件區</a>
+	<li>也可利用<a href='forum'> Mozilla@Taiwan 討論區 </a> ， 
+	有很多熱心的使用者願意分享經驗。</li>
+	</ul>
 	<h3>報告錯誤</h3>
 	程式上的錯誤或是建議請直接到 
 	<a href='http://bugzilla.mozilla.org/enter_bug.cgi'> Bugzilla </a> 提出。

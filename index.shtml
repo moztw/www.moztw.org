@@ -1,22 +1,15 @@
 <!--#include file="header.shtml" -->
 <div class="key-point cnet" id="firefox-feature">
-
-  <a href="firefox" title="Learn more about Firefox" id="featurelink">進一步了解 Firefox</a>
+<div id="onepointoh">
+    <a href="/firefox/" title="見識 Firefox 1.0 過人之處"><img src="images/firefox-oneoh-top.png" alt="Firefox 1.0" height="136" width="289"><br><img src="images/firefox-oneoh-bottom.png" alt="" height="134" width="289"></a>
+  </div>
   <div id="feature-content">
-	<h2 style="margin: 0; font-size: 2px;"><a href="/firefox"><img src="images/t_firefox_pr.gif" alt="Firefox 1.0 Preview Release" height="26" width="343"></a></h2>
-	<!--
-	<h2 style="margin: 0; "><a href="firefox" style='font-weight: bold; font-size: 120%; color: #457;'>Firefox 0.9</a></h2>
-	-->
-	<p><b style='color: #88f;'>
-		Firefox 1.0 PR 搶鮮中文版已可開始下載。</b></p>
-	<p>
-	更安全、快速也更好的網頁瀏覽器，具<a href="/docs/ff/tabbed-browsing">分頁瀏覽</a>、<a href="/docs/ff/search">整合搜尋</a>及<a href="/docs/ff/live-bookmarks">即時書籤功能</a>。
-	&nbsp; 現在就<a href="http://www.spreadfirefox.com/">告訴全世界</a>，你要的是 <a href="/firefox/">Firefox</a>！<br/>
-	“I suggest dumping Microsoft's Internet Explorer” — <a href="http://ptech.wsj.com/archive/ptech-20040916.html">Walt Mossberg, Wall Street Journal, Sept 16</a></p>
+    <h2><a href="/firefox/"><img src="images/t_firefox.gif" alt="Firefox 1.0" height="33" width="275"></a></h2>
+    <p>漫長等待終於結束，現在就下載 Firefox 1.0 中文版 － <a href="/firefox/">更快更好的瀏覽器</a>！Firefox 1.0 有數十種語言版本、跨 Windows、MacOS X 及 Linux 等各種平台。 &#8220;I suggest dumping Microsoft's Internet Explorer&#8221; &#8212;&nbsp;<a href="http://ptech.wsj.com/archive/ptech-20040916.html">Walt&nbsp;Mossberg, Wall Street Journal</a>.
+
 	<div class="download">
 		<h3><strong class="downloadText">免費下載</strong></h3>
 		<div style='background: url(/images/product-firefox.png) no-repeat;'>
-	<!-- img src='/images/product-firefox.png' style='float: left; padding: 2px;' -->
 		<!--#include file='dlff-js.shtml' -->
 	</div>
 	</div>
@@ -31,41 +24,60 @@
 	是 Mozilla 家族新生代的 e-mail 程式，具有完整的功能，與最新的垃圾信控制。</p>
   </div>
   <div class="frontcolumn">
-    <h2><a href="mozilla/">Mozilla 1.8a4 </a></h2>
-    <a href="mozilla"><img src="images/product-front-mozilla.png" alt="Mozilla" class="promo" width="60" height="60"></a>
-	<p>
-	<a href='mozilla/'> Mozilla</a>,
-	為新時代設計的網路瀏覽器、進階的 e-mail 與 news 管理程式、 IRC 線上交談、與簡易的 HTML 編輯工具。
-  </div>
-  <div class="frontcolumnlast">
-    <h2><a href="netscape/">Netscape 7.2</a></h2>
-    <a href="netscape"><img src="images/product-front-netscape.png" alt="Netscape" class="promo" width="60" height="60"></a>
-    <p><a href="netscape/">Netscape</a>,
-    由 moztw.org 提供的 Netscape 非官方中文化版本
-  </div>
-  <br style="clear: both;">
-
-  <!-- Start News Columns -->
-<div>
-    <div style='width: 35%; float: right;'>
-
-  <h2><a href="nvu/">NVU 0.5</a></h2>
+    <h2><a href="nvu/">NVU 0.5</a></h2>
   <a href="nvu"><img src="images/product-front-nvu.png" alt="NVU" class="promo" width="50" height="50"></a>
   <a href="nvu/">NVU</a> 是獨立的網頁設計工具，具有不輸一般商用軟體的可塑性。
-  <br/><br/>
-
+    
+  </div>
+  <div class="frontcolumnlast">
   <h2 ><a href="http://www.MozillaStore.com/">購買與贊助</a></h2>
     <a href="http://www.MozillaStore.com/"><img src="images/front-store.jpg" alt="Mozilla Store" class="promo" width="75" height="75"></a>
     <p> 現在你可以利用 <a href="http://www.MozillaStore.com/">Mozilla 線上商店 (英文界面)</a>
     買到 <a href="http://store.mozilla.org/products/software/"> CD (軟體)</a> 
     或 <a href="http://store.mozilla.org/products/clothing">其它週邊商品</a></p>
+
+  </div>
+  <br style="clear: both;">
+
+  <!-- Start News Columns -->
+
+
+<div>
+    <div style='width: 35%; float: right;'>
+        <h2 style="margin-top: 0pt;">
+      <a href="/dl">其他軟體</a>
+    </h2>
+
+    <ul class="news" style="margin-left: 10px;">
+        <li>
+          <a href="mozilla/" style="text-decoration: none;">
+            <img src="images/mozilla16.png" alt="Mozilla icon" style="vertical-align: middle;" height="16" width="16">
+            <span style="text-decoration: underline;">Mozilla 1.8a4</span>
+          </a>
+
+        </li>
+        <li>
+          <a href="netscape/" style="text-decoration: none;" title="由 moztw.org 提供的 Netscape 非官方中文化版本">
+            <img src="images/netscape16.png" alt="Netscape icon" style="vertical-align: middle;" height="16" width="16">
+            <span style="text-decoration: underline;">Netscape 7.2</span>
+          </a>
+        </li>
+        <li>
+          <a href="products/" style="text-decoration: none;">
+            <img src="images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
+            <span style="text-decoration: underline;">軟體列表...</span>
+          </a>
+        </li>
+    </ul>   
+
+  
     </div>
     <div style='float: left; width: 63%;'>
     <a href="/xmlnews.rdf">
       <img class="rss" src="images/rss.png" alt="Announcements in RSS" width="28" height="16">
     </a>
     <h2 style="margin-top: 0;">
-      <a href="http://www.mozilla.org/news.html">最新消息與公告</a>
+      <a href="/news">最新消息與公告</a>
     </h2>
 	<!--#include virtual='news-latest.shtml' -->
 </div>
@@ -76,19 +88,4 @@
   </div>
 	<a href='news'>所有公告記錄</a>
   </div>
-
-  <script type="text/javascript">
-  <!--
-   function randFrontFeature() {
-    var classes = new Array("cnet", "wired", "nytimes", "nasa", "slate", "onion");
-    var date = new Date();
-    var seconds;
-    var classid;
-    seconds = date.getSeconds();
-    classid = seconds % classes.length;
-    document.getElementById('firefox-feature').className = 'key-point front-feature-' + classes[classid];
-   }
-   randFrontFeature();
-  -->
-  </script>
 <!--#include file="footer.shtml" -->

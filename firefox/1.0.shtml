@@ -9,6 +9,8 @@
     -->
     </style>
 <!--#include virtual='/header_b.shtml' -->
+<div id="mBody">
+    <div id="mainContent" class="right">
   	  <div class="key-point">
   		  <div id="product-desc" class="firefox-releasenotes">
           <!-- Introduction -->
@@ -232,7 +234,8 @@ cd /Applications/Firefox.app/Contents/MacOS/<br>
         Thunderbird</a>。</p></li>
 </ol>
       </ol>
-   
+</div>
+
     <div id="side" class="right">
       <ul id="nav">
         <li><a href="/firefox/">回到 Firefox 首頁</a></li>
@@ -254,4 +257,5 @@ cd /Applications/Firefox.app/Contents/MacOS/<br>
         <li><a href="#otherlanguages">其他語言</a></li>
       </ul>
     </div>
+</div>
 <!--#include virtual='/footer.shtml' -->

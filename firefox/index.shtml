@@ -1,11 +1,11 @@
-<!--#set var="my_title" value="Mozilla Firefox - 還你原 Web!" -->
+<!--#set var="my_title" value="Mozilla Firefox - rediscover the web!" -->
 <!--#include virtual="/header.shtml" -->
 	<div class="key-point">
 		<div id="product-desc" class="product-firefox">
-			<h2>Firefox: the browser, reloaded</h2>
+			<h2>Firefox: rediscover the web</h2>
 			<p>
-			<a href="http://www.oreillynet.com/pub/wlg/5588">世界上最棒的瀏覽器又向前邁進了。</a><b>全新</b> Firefox Preview Release（預覽版）是<a href="http://www.mozilla.org/products/firefox/shelf.html">數度獲獎</a>的 Mozilla 新生代瀏覽器， 提供你更快速、更安全、而且更有效率的網路生活。
-			<a href="/docs/ff/switch">現在就改用 Firefox</a>－Firefox 可以將您的「我的最愛」、設定及其他資訊全數匯入，您不會遺漏任何東西。
+			您渴望的網路生活就在眼前：<strong>全新</strong> Firefox 1.0 是<a href="http://www.mozilla.org/products/firefox/shelf.html">數度獲獎</a>的 Mozilla 新生代瀏覽器， 提供你更快速、更安全、而且更有效率的瀏覽體驗，一定要試試！
+			</p><p><a href="/docs/ff/switch">現在就改用 Firefox</a>－Firefox 可以將您的「我的最愛」、設定及其他資訊全數匯入，您不會遺漏任何東西。
 			</p>
 		</div>
 		<div id="product-side">
@@ -14,7 +14,7 @@
 				<!--#include virtual='/dlff-js.shtml' -->
 				</div><ul>
 			<li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
-			<li><a class="ancilliaryLink" href="/firefox/0.10">版本資訊</a></li>
+			<li><a class="ancilliaryLink" href="/firefox/1.0">版本資訊</a></li>
                         </ul>
 			
 		</div>
@@ -63,22 +63,36 @@
 <h3>其它資源與鏈結</h3>
       <ul class="compact">
         <li><a href="http://update.mozilla.org/?application=firefox">取得擴充套件及佈景主題</a></li>
-		<li><a href="http://mozilla.org/products/firefox/buttons.html">推廣用按鈕圖</a></li>
-		<li><a href="/thunderbird">下載 Thunderbird</a></li>
-		<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區(中)</a></li>
+        	<li><a href="/dlsrch">新增中文搜尋引擎</a></li>
+		<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區</a></li>
+        	<li><a href="http://www.mozilla.org/support/firefox/">Firefox 支援中心</a>*</li>
+		<li><a href="http://www.spreadfirefox.com/">推廣 Firefox!(英)</a></li>
 		<li><a href="http://forums.mozillazine.org/viewforum.php?f=38">技術支援(英)</a></li>
         <li><a href="http://forums.mozillazine.org/index.php?c=4">Firefox 討論區(英)</a></li>
-      </ul>	   
+      </ul>
+      <p>* 中文版製作中</p>	   
     
-	    <h3>Firefox PR 新功能</h3>
+	    <h3>Firefox 特色</h3>
       <ul class="compact">
         <li>即時書籤</li>
-        <li>增強「隨打即找」</li>
+        <li>擴充套件</li>
+        <li>佈景主題</li>
+        <li>搜尋快手－「隨打即找」</li>
         <li>增強安全性</li>
-        <li>主密碼功能</li>
-        <li>自動更新</li>
-        <li>檔案大小再瘦身</li>
+        <li>更完善的分頁瀏覽功能</li>
         </ul>
-	  
+        
+      <h3>特別介紹</h3>
+      <div style="margin: 6px 0pt 0pt 4px;">
+        <img src="featuring-flash.gif" alt="Flash" height="28" width="100">
+        <img src="featuring-shockwave.gif" alt="Shockwave" height="28" width="120"><br>
+        <img src="featuring-realplayer.gif" alt="RealPlayer" height="29" width="97">
+        <img src="featuring-java.gif" alt="Java" height="34" width="72">
+      </div>
+      <h3>獲獎</h3>
+      <div style="margin: 6px 0pt 0pt 4px;">
+
+        <a href="http://reviews.cnet.com/Mozilla_Firefox_1_0/4505-9241_7-31117280.html?part=editchoice&amp;subj=Mozilla&amp;tag=logo" target="_blank"><img src="http://i.i.com.com/cnwk.1d/i/cobd/ec/EC_nov04_39x72.gif" alt="CNET 編輯精選－2004年十一月： Firefox1.0" border="0" height="72" width="39"></a>      
+      </div>
     </div>
 <!--#include virtual="/footer.shtml" -->

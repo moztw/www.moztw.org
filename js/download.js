@@ -2,7 +2,7 @@
 function getPlatform()
 {
   if (navigator.platform.indexOf("Win32") != -1)
-    return "win32";
+    return "win";
   else if (navigator.platform.indexOf("Linux") != -1)
     return "linux";
   else if (navigator.userAgent.indexOf("Mac OS X") != -1)
