@@ -49,16 +49,16 @@
   <input type="text" id="q" name="q" accesskey="s" size="30">
   <input type="submit" id="submit" value="Go">
   &nbsp;
-  <select value='' id='cjk' onChange='location.href = document.getElementById("cjk").value;'><option>Mozilla Asia(CJK)</option>
-	  <option style='background: no-repeat top right url(/icons/flags/tw.png);' 
-	  value='http://moztw.org/'>Chinese (Taiwan)</option>
-	  <option style='background: no-repeat top right url(/icons/flags/jp.png);' 
-	  value='http://mozilla-japan.org/'>Japanese (Japan)</option>
-	  <option style='background: no-repeat top right url(/icons/flags/kr.png);' 
-	  value='http://mozilla.or.kr/'>Korean (Korea)</option>
+  <select id="cjk" onChange="location.href = document.getElementById('cjk').value;"><option>Mozilla Asia(CJK)</option>
+	  <option style="background: no-repeat top right url(/icons/flags/tw.png);' 
+	  value="http://moztw.org/">Chinese (Taiwan)</option>
+	  <option style="background: no-repeat top right url(/icons/flags/jp.png);" 
+	  value="http://mozilla-japan.org/">Japanese (Japan)</option>
+	  <option style="background: no-repeat top right url(/icons/flags/kr.png);" 
+	  value="http://mozilla.or.kr/">Korean (Korea)</option>
 	  <!--
-	  <option style='background: no-repeat top right url(/icons/flags/cn.png);' 
-	  value='http://people.linux.net.cn/holywen/'>Chinese (China)</option>
+	  <option style="background: no-repeat top right url(/icons/flags/cn.png);" 
+	  value="http://people.linux.net.cn/holywen/">Chinese (China)</option>
 	  -->
   </select>
  </div>
