@@ -5,6 +5,9 @@
 #front-feature #feature-content {
 	padding-right: 290px;
 }
+#front-feature .download ul {
+	padding-left: 80px;
+}
 -->
 </style>
 <!--#include virtual="/header_b.shtml" -->
