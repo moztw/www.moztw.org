@@ -5,11 +5,11 @@
 	<p> 請在下載後複製到個人設定檔的 chrome 目錄下。
 	<h3>讓狀態列或選單的字型變大</h3>
 	<ul><li>
-		<a href='dls/chrome/userChrome.css'> userChrome.css</a>
+		<a href='/dls/chrome/userChrome.css'> userChrome.css</a>
 	</li></ul>
 	<h3> 解決 MSDN KB 網頁overlap的錯誤 </h3>
 	<ul><li>
-		<a href='dls/chrome/userContent.css'> userContent.css</a>
+		<a href='/dls/chrome/userContent.css'> userContent.css</a>
 	</li></ul>
 </div>
 <!--#include file="footer.shtml" -->

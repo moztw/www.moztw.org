@@ -1,4 +1,4 @@
-<!--#include file="header.shtml" -->
+<!--#include virtual="/header.shtml" -->
 	<div class="key-point">
 		<div id="product-desc" class="product-thunderbird">
 			<h2>Thunderbird: reclaim your inbox.</h2>
@@ -12,7 +12,7 @@
 		<div id="product-side">
 			<div class="download">
 				<h3>馬上下載</h3>
-				<!--#include file='dltb-js.shtml' -->
+				<!--#include virtual='/dltb-js.shtml' -->
 			</div>
 		</div>
 	</div>
@@ -81,4 +81,4 @@
       </ul>
     </div>
 
-<!--#include file="footer.shtml" -->
+<!--#include virtual="/footer.shtml" -->

@@ -1,4 +1,4 @@
-<!--#include file="header.shtml" -->
+<!--#include virtual="/header.shtml" -->
 	<div class="key-point">
 		<div id="product-desc" class="product-netscape">
 			<h2>Netscape 7.2</h2>
@@ -13,7 +13,7 @@
 				<h3>馬上下載</h3>
 				[註：由於目前在測試中所以只有線上安裝檔，
 				在測試期結束後會提供完整離線安裝檔]
-				<!--#include file='dlns-js.shtml' -->
+				<!--#include virtual='/dlns-js.shtml' -->
 			</div>
 		</div>
 	</div>
@@ -47,4 +47,4 @@
 	      <li><a href="http://plugins.netscape.org/">更多 Plug-ins</a>
       </ul>
     </div>
-<!--#include file="footer.shtml" -->
+<!--#include virtual="/footer.shtml" -->
