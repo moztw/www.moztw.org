@@ -1,4 +1,5 @@
 <!--#set var="my_title" value="Mozilla Firefox - rediscover the web!" -->
+<!--#set var="page_class" value="moztw" -->
 <!--#include virtual="/header.shtml" -->
 	<div class="key-point">
 		<div id="product-desc" class="product-firefox">
@@ -60,11 +61,15 @@
 		 </dl>
 	</div>
     <div id="side" class="right">
-<h3>其它資源與鏈結</h3>
-      <ul class="compact">
-        <li><a href="http://update.mozilla.org/?application=firefox">取得擴充套件及佈景主題</a></li>
-        	<li><a href="/dlsrch">新增中文搜尋引擎</a></li>
-		<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區</a></li>
+      <h3>中文社群資源</h3>
+    	<ul class="compact">
+        <li><a href="http://wiki.moztw.org/index.php?title=FireAnything">某瀏覽器功能，Firefox 有沒有？</a></li>
+        <li><a href="/dlsrch">新增中文搜尋引擎</a></li>
+        <li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區</a></li>
+        </ul>
+	  <h3>其它資源與鏈結</h3>
+	  <ul class="compact">
+      <li><a href="http://update.mozilla.org/?application=firefox">取得擴充套件及佈景主題</a></li>
         	<li><a href="http://www.mozilla.org/support/firefox/">Firefox 支援中心</a>*</li>
 		<li><a href="http://www.spreadfirefox.com/">推廣 Firefox!(英)</a></li>
 		<li><a href="http://forums.mozillazine.org/viewforum.php?f=38">技術支援(英)</a></li>
@@ -84,10 +89,10 @@
         
       <h3>特別介紹</h3>
       <div style="margin: 6px 0pt 0pt 4px;">
-        <img src="featuring-flash.gif" alt="Flash" height="28" width="100">
+        <a href="http://www.flash.com/"><img src="featuring-flash.gif" alt="Flash" height="28" width="100"></a>
         <img src="featuring-shockwave.gif" alt="Shockwave" height="28" width="120"><br>
         <img src="featuring-realplayer.gif" alt="RealPlayer" height="29" width="97">
-        <img src="featuring-java.gif" alt="Java" height="34" width="72">
+        <a href="http://java.sun.com/j2se/"><img src="featuring-java.gif" alt="Java" height="34" width="72"></a>
       </div>
       <h3>獲獎</h3>
       <div style="margin: 6px 0pt 0pt 4px;">
