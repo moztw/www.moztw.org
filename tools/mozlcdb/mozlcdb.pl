@@ -54,6 +54,8 @@ our ($now, $glossaryfn, $currentfn);
 our (%db,%sys);
 
 # version info
+my $progid = '$Id$';
+my $progdate = '$Date$';
 my $progver = '0.1';
 my $dbver = '0.1';
 
@@ -328,23 +330,25 @@ sub updateFromCurrent { # update from current results {{{
 				print STDERR "You must have [FILE] first: stop at L$lineno: $l\n";
 				exit(-1);
 			} elsif ($k eq 'id') { # new entry
+				$id = $v;
+				$en = $tr = $cm = $kp = undef;
 				if (!exists $db{$f}{$v}) {
 					if ($flForceImport) {
-						$db{$f}{$v} = {};
+						$db{$f}{$v} = { $now => {} };
 						if ($v eq '') {
 							print STDERR "Invalid id=$v: stop at L$lineno: $l\n";
 							exit(-1);
 						}
+						$ts = $now;
 					} else {
 						print STDERR "Unknown id=$v: stop at L$lineno: $l\n";
 						exit(-1);
 					}
 				}
-				$id = $v;
-				$en = $tr = $cm = $kp = undef;
 				my %hist = %{$db{$f}{$id}};
 				my @hist = &reverseTimestamps(keys(%hist));
 				$ts = $hist[0];
+				$ts ||= $now if ($flForceImport);
 				$olds ++;
 			} elsif (!defined $id) {
 				print STDERR "You must have id=KEY first: stop at L$lineno: $l\n";
@@ -405,7 +409,8 @@ sub main { # {{{ main entry
 	$cmd = shift @ARGV if (@ARGV > 0);
 	print STDERR "[MozLCDB] Mozilla Locale Database v$progver\n";
 	print STDERR "Contact Hung-Te Lin <piaip\@csie.ntu.edu.tw> if you have problem.\n";
-	print STDERR "Project page and manual: http://moztw.org/tools/mozlcdb/\n\n";
+	print STDERR "Project page and manual: http://moztw.org/tools/mozlcdb/\n";
+	print STDERR "Last update: $progdate\n\n";
 
 	&readDb();
 
