@@ -1,20 +1,14 @@
-<!--#set var="page_class" value="homepage" -->
-<!--#include file="header_a.shtml" -->
-<style type="text/css">
-.front-feature-card {
-	background: #E4ECEC url(images/feature-back-card.png) top right no-repeat;
-}
-#feature-content p{
-	margin-right: 100px;
-}
-</style>
-<!--#include file="header_b.shtml" -->
-<div class="key-point front-feature-card" id="firefox-feature">
+<!--#include file="header.shtml" -->
+<div class="key-point cnet" id="firefox-feature">
+<div id="onepointoh">
+    <a href="/firefox/" title="見識 Firefox 1.0 過人之處"><img src="images/firefox-oneoh-top.png" alt="Firefox 1.0" height="136" width="289"><br><img src="images/firefox-oneoh-bottom.png" alt="" height="134" width="289"></a>
+  </div>
   <div id="feature-content">
-    <h2><a href="http://photos.moztw.org/thumbnails.php?album=7"><img src="images/t_2005_newyearcard.png" alt="寄張卡片給親朋好友吧！" height="29" width="339"></a></h2>
-    <p>春節快到了，你有多久沒跟遠方的親朋好友聯絡了呢？打個電話聊聊，也寄一張電子賀卡給他們吧！Mozilla Taiwan 社群成員提供您 Firefox/Thunderbird 特製新年賀卡，讓您表達心意的同時也能幫忙推廣好用的軟體喔！<a href="http://photos.moztw.org/thumbnails.php?album=7">現在就看看有哪些卡片！</a>
+    <h2><a href="/firefox/"><img src="images/t_firefox.gif" alt="Firefox 1.0" height="33" width="275"></a></h2>
+    <p>漫長等待終於結束，現在就下載 Firefox 1.0 中文版 － <a href="/firefox/">更快更好的瀏覽器</a>！Firefox 1.0 有數十種語言版本、跨 Windows、MacOS X 及 Linux 等各種平台。 &#8220;I suggest dumping Microsoft's Internet Explorer&#8221; &#8212;&nbsp;<a href="http://ptech.wsj.com/archive/ptech-20040916.html">Walt&nbsp;Mossberg, Wall Street Journal</a>.
+
 	<div class="download">
-		<h3><a href="/firefox/"><strong class="downloadText">免費下載 Firefox 中文版</strong></a></h3>
+		<h3><a href="/firefox/"><strong class="downloadText">免費下載</strong></a></h3>
  		<div style='background: url(/images/product-firefox.png) no-repeat;'>
 		<!--#include file='dlff-js.shtml' -->
 	</div>
