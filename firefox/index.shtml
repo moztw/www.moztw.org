@@ -5,13 +5,13 @@
 		<div id="product-desc" class="product-firefox">
 			<h2>Firefox: rediscover the web</h2>
 			<p>
-			您渴望的網路生活就在眼前：<strong>全新</strong> Firefox 1.0 是<a href="http://www.mozilla.org/products/firefox/shelf.html">數度獲獎</a>的 Mozilla 新生代瀏覽器， 提供你更快速、更安全、而且更有效率的瀏覽體驗，一定要試試！
+			您渴望的網路生活就在眼前：<strong>全新</strong> Firefox 1.0 是<a href="http://www.mozilla.org/products/firefox/shelf.html">數度獲獎</a>的新生代網頁瀏覽器， 提供你更快速、更安全、而且更有效率的瀏覽體驗，一定要試試！
 			</p><p><a href="/docs/ff/switch">現在就改用 Firefox</a>－Firefox 可以將您的「我的最愛」、設定及其他資訊全數匯入，您不會遺漏任何東西。
 			</p>
 		</div>
 		<div id="product-side">
 			<div class="download">
-				<h3>馬上下載</h3>
+				<h3>免費下載</h3>
 				<!--#include virtual='/dlff-js.shtml' -->
 				</div><ul>
 			<li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>

@@ -1,76 +1,7 @@
-<!--#set var="my_title" value="Firefox 擴充套件 Top 15" -->
-<!--#set var="page_class" value="deepLevel" -->
+<!--#set var="my_title" value="Firefox 擴充套件 Top 15" --><!--#set var="page_class" value="deepLevel" -->
 <!--#include virtual="/header_a.shtml" -->
-<style type="text/css">
-.active-extensiontop15
-{
-    background: url(active-extensiontop15.png) no-repeat;
-}
-#mainContent h3 {
-	border: none;
-	border-bottom: solid 1px gray;
-	background: #f0f0f0;
-}
-.extension-info {
-	position: relative;
-	margin-bottom: 1em;
-}
-.extension-info blockquote {
-	margin: 1em 2em 0 12em;
-	padding-top: 1.5em;
-	color: #3B84BF;
-}
-.extension-info p{
-	margin-left: 10em;
-} 
-.extension-info blockquote cite{
-	display: block;
-	text-align: right;
-	font-style: normal;
-}
-.extension-info ul{
-	position: absolute;
-	margin: 0; padding: 0;
-	top: -.25em; left: 0;
-	padding-left: 1.5em;
-	width: 8em;
-	border: gray 1px;
-	border-style: none solid solid none; 
-}
-
-#mainContent .install-options {
-	text-align: right;
-	margin: 0; padding: 0;
-}
-
-label {font-weight: normal;}
-
-#mainContent .download:before {
-	content: url("download_tl_content.gif");
-}
-#mainContent .download {
-	background: #C4EFA1 url("download_back_content.gif") top right no-repeat;
-}
-#mainContent .download:after {
-	content:  url("download_bl_content.gif");
-	background: transparent url("download_br_content.gif") scroll no-repeat bottom right ;
-}
-#mainContent .download h3 {
-	background: transparent;
-}
-#install-extensions {
-	position: relative;
-}
-
-p.targetuser {
-	margin: 0;
-	text-align: right;
-	color: #1D9101;
-	position: absolute;
-	top: -1.8em;
-	right: 0;
-}
-</style>
+<link href="extensiontop15.css" type="text/css" rel="stylesheet" />
+<link title="隱藏套件說明" href="hidden-description.css" type="text/css" rel="alternate stylesheet" />
 <script type="application/x-javascript">
 var dupArray=new Array(
 	["Tab Mix", "Tabbrowser Extensions"],
@@ -111,11 +42,23 @@ function tongwen_click(){
 	var jslibObj = document.forms['select_and_install'].elements['jslib'];
 
 	if (tongwenObj.checked) {
+		if (jslibObj.checked == true) return;
+	
 		if (confirm("同文堂系列必須先安裝 jslib (另一組程式用的套件)，如果您不確定是否已安裝，請務必連同 jslib 一起安裝。\n\n您是否要一併選取 jslib？"))
 			jslibObj.checked = true;
 	}else{
 		jslibObj.checked = false; //一併取消 jslib... 好還是不好就不管了 =.= 
 	}
+}
+
+function hidden_descript(obj) {
+   var i, a;
+   for(i=0; (a = document.getElementsByTagName('link')[i]); i++) {
+     if(a.getAttribute("rel").indexOf("style") != -1
+        && a.getAttribute("title")== "隱藏套件說明") {
+       a.disabled = !obj.checked;
+     }
+   }
 }
 </script>
 <!--#include virtual="/header_b.shtml" -->
@@ -126,7 +69,9 @@ function tongwen_click(){
 <h2>Firefox 擴充套件 Top 15</h2>
 			<p>在你心目中最棒的 Firefox 擴充套件是哪些呢？現在就來看看社群成員在 2005 年一月共同推舉的十五個最佳幫手！</p>
 			<p>想親自試試嗎？勾選套件的「列入安裝清單」後，按下頁尾的「安裝這些套件」便可一次安裝喔！您必須以 Firefox 觀看本頁才能安裝這些套件。</p>
-			</div>
+			<div><form name="hide_desc"><label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;"><input id="hidden_desc" value="true" type="checkbox" onclick="hidden_descript(this)">進階選項：隱藏套件說明及相關連結</label></form></div> 
+			
+			</div> 
 		<div id="product-side">
 
 <div class="download">
@@ -155,7 +100,7 @@ function tongwen_click(){
 	<label title="點選此處，將此套件列入安裝清單。"><input name="jslib" value="jslib_current_lite.xpi" type="checkbox">jslib</label>
 	</div>
 	<blockquote>「同文堂真是看不習慣簡體字者的救星」<cite>--社群成員 leolinfly</cite></blockquote>
-	<p>這個套件能幫你把網頁上的簡體字全部轉為繁體（或繁體轉簡體），並且會自動轉換用語。原作為哈少，後由 softcup 更新並加入 vertex 編寫的詞彙表。此處提供「新同文堂」createTreeWalker 版。</p>
+	<p>同文堂能把網頁上的簡體字轉為繁體（或繁體轉簡體）。此處提供由 softcup 更新改版的「新同文堂」createTreeWalker 版，欲加裝詞彙修正表者請參考「套件網站」文章說明。</p>
 	</div>
 	<h3 id="flashgot">NO.2 FlashGot</h3>
 	<div class="extension-info">
