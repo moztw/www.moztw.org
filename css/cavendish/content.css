@@ -372,8 +372,7 @@
 /* Firefox Central styles  */                                                   
 
     
-        #ffcentral-desc {background: url("/firefox/t-welcomefirefox.gif") n
-o-repeat;
+        #ffcentral-desc {background: url("/firefox/t-welcomefirefox.gif") no-repeat;
 	width: 60%;
                 float: left;
                 line-height: 140%;
