@@ -98,7 +98,7 @@
 	<h2><a name="install" id="install">安裝 Firefox</a></h2>
     <p>下載 Firefox 安裝程式或壓縮檔後，請依下列步驟進行安裝：</p>
     <h3>Windows</h3>
-    <p>以滑鼠左鍵雙點 <tt class="filename">FirefoxSetup-0.10.exe</tt> (中文版應為 <tt class="filename">FirefoxSetup-0.10-win32-zhTW.exe</tt>) 安裝程式圖示以開始安裝。</p>
+    <p>以滑鼠左鍵雙點 <tt class="filename">Firefox-1.0PR.exe</tt> (中文版應為 <tt class="filename">/Firefox-1.0PR-win32-zhTW.exee</tt>) 安裝程式圖示以開始安裝。</p>
 
     <h3>MacOS X</h3>
     <p>以滑鼠雙點 Firefox 壓縮磁碟映像檔圖示以便裝載(mount)， 則瀏覽器便應能自動解壓縮並安裝完畢。再以滑鼠雙點解壓後的 Firefox 磁碟映像圖示，然後將
