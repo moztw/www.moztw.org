@@ -1,80 +1,80 @@
 <!--#set var="my_title" value="Mozilla Firefox - Firefox Central" -->
 <!--#include virtual="/header_a.shtml" -->
-<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/print.css"  media="print">
 <link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/base/content.css"  media="all">
 <link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/cavendish/content.css" title="Cavendish" media="screen">
 <link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/base/template.css"  media="screen">
 <link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/cavendish/template.css" title="Cavendish" media="screen">
 <!--#include virtual="/header_b.shtml" -->
-<div id="main">
+	<div class="key-point" id="ffcentral">
+		<div id="ffcentral-desc">
+			<div>
+			<p>
+			�P�±z��� Firefox�I �����N�޾ɱz�J�� �X �z�i�b���o�� Firefox �S��A���A����o���U�B�W�j Firefox �\��δ����s�����ϥ����窺��k�C
+			</p>
 
-<div class="key-point">
+			<h3><a href="/firefox/">�}�l�s��</a></h3>
 
-<p>感謝您選用 Firefox！ 本頁將引導您入門 — 您可在此得知 Firefox 特色，並瞭解獲得幫助、增強 Firefox 功能及提升瀏覽器使用體驗的方法。</p>
+			</div>
+		</div>
+		<div id="product-side">
+			<h3>�[�j Firefox �\��</h3>
+			<ul>
+			<li>�w��<a href="http://update.mozilla.org/extensions/?application=firefox">�X�R�M��</a>�A�� Firefox �ܪ���n�C</li>
 
-<h3><a href="/firefox/">開始瀏覽 </a></h3>
-</div>
-
-<h2>Firefox 特色</h2>
-
-<h3> 使用 Firefox 搜尋網頁</h3>
-<p>Firefox 在「瀏覽工具列」中加入了搜尋方塊，並將 Google 的「好手氣」功能整合到「位址列」中（輸入網址的空白處），能讓您更快速地搜尋網頁。</p>
-
-<p>您可點選瀏覽器右上角的搜尋方塊來使用這項功能，只要輸入關鍵字再按下 <kbd>Enter</kbd> 就行了。今後再也不用跑到特定網站去找資料，因為搜尋功能就在瀏覽器上。</p>
-<p>Firefox 已經預先安裝了最常見也最有用的搜尋引擎，像是 Google、Yahoo、Amazon、eBay 及 Dictionary.com 等等。甚至，您也可以自行<a href="http://moztw.org/dlsrch">下載更多搜尋引擎</a>，真是太棒了！</p>
-
-<h3>即時書籤</h3>
-<p>「即時書籤」是 Firefox 的新技術，方便您觀看書籤中的 RSS 新聞及 Blog（網誌、部落格）文章。只要一眼，就可以瞧見所選網站上最新的文章標題；您可直接跳到感興趣的文章，節省許多時間。</p>
-
-<p>當您在 Firefox 右下角看到 <img alt="RSS" src="rss.png" class="inline" /> 圖示時，表示此站台可以使用「即時書籤」功能。點擊此圖示並選一個 RSS 收取點（RSS feed）後會出現「加入書籤」對話方塊。按下「確定」之後，您就可以看到「即時書籤」和其他書籤排在一起。很多人會把「即時書籤」放在書籤工具列資料夾中，覺得這樣子特別方便。</p>
-
-<h3>分頁瀏覽 </h3>
-<p>「分頁」讓瀏覽網頁更快更方便。網頁分別在同視窗中一個個的「分頁」裡載入，方便您來回切換數個網頁。分頁瀏覽最適合用來閱讀新聞，也適合瀏覽搜尋結果中的各網站。</p>
-
-<p>您可選擇「檔案／新增分頁」或按下 <kbd>Ctrl+T</kbd> 以開啟新分頁。如果想將連結開啟於分頁中，只要在連結上按下滑鼠右鍵、選擇「用新分頁開啟連結」，或直接以滑鼠中鍵點選連結即可。</p>
-
-<p>只要按個鍵，您也可以一次愛看的網站全數開啟。首先將每天都要看的網站放在書籤的某個資料夾中，然後於書籤選單中選擇「開至分頁」便可一次全部打開，大大節省時間。</p>
-
-<h3>一起幫忙 </h3>
-<p>Mozilla 是個開放原始碼的組織，您有許多機會可以一起貢獻心力。</p>
-
-<ul>
-<!-- <li><a href="../../../contribute/">人人皆宜</a>、幫助 Mozilla 的方法。</li> -->
-
-<li><a href="http://www.spreadfirefox.com/" hreflang="en"> 協助推廣 Firefox，讓更多人認識它</a></li>
-<li><a href="http://www.mozilla.org/contribute/#technical" hreflang="en"> 較熟悉技術的朋友，請看這裡</a></li>
+			<li>�w��<a href="http://update.mozilla.org/themes/?application=firefox">�G���D�D</a>�A�� Firefox �صM�@�s�C</li>
+			<li><a href="http://moztw.org/firefox/1.0">������T</a></li>
 </ul>
+			</div>
 
-</div> <!-- end #main -->
+	</div>
+	<div id="mainContent" class="right">
+	     	<h3>Firefox �S��</h3>
 
-<div id="rightCol">
-<h3>加強 Firefox 功能</h3>
-<ul>
-<li>安裝<a href="http://update.mozilla.org/extensions/?application=firefox">擴充套件</a>，讓 Firefox 變的更好。</li>
+			<h3>�ϥ� Firefox �j�M���� <br>
+</h3>
 
-<li>安裝<a href="http://update.mozilla.org/themes/?application=firefox">佈景主題</a>，，讓 Firefox 煥然一新。</li>
+Firefox �b�u�s���u��C�v���[�J�F�j�M����A�ñN Google ���u�n���v�\���X��u��}�C�v���]��J���}���ťճB�^�A�����z��ֳt�a�j�M�����C
 
-<li><a href="http://moztw.org/firefox/1.0">版本資訊</a></li>
-</ul>
+<p>�z�i�I���s�����k�W�����j�M����Өϥγo���\��A�u�n��J����r�A���U Enter �N��F�C����A�]���ζ]��S�w�����h���ơA�]���j�M�\��N�b�s�����W�C</p>
 
-<h3>支持我們</h3>
-<p><a href="http://www.mozillastore.com/products/clothing/firefoxtee/?ad=mozorg13"><img src="ff_shirt.jpg" width="90" height="109" class="imgright" alt="Firefox Shirt" /></a>歡迎<a href="http://www.mozillastore.com/products/donations/?ad=mozorg10">贊助</a>或到 <a href="http://www.mozillastore.com/?ad=mozorg12">Mozilla Store</a> 買件 <a href="http://www.mozillastore.com/products/clothing/firefoxtee/?ad=mozorg11">Firefox T恤</a>，支持 Firefox 和其他專案的同時又得好東西。</p>
 
-<h3>資源和鏈結 </h3>
-<ul>
-<li><a href="http://www.spreadfirefox.com/" hreflang="en">Spread the Word!</a></li>
-<li><a href="http://www.mozillazine.org/" hreflang="en">MozillaZine</a></li>
-<li><a href="http://www.mozilla.org/projects/firefox/" hreflang="en">Project Information</a></li>
-</ul>
 
-</div> <!-- end #rightCol -->
+<p>Firefox �w�g�w���w�ˤF�̱`���]�̦��Ϊ��j�M�����A���O Google�BYahoo�BAmazon�BeBay �� Dictionary.com �����C�ƦܡA�z�]�i�H�ۦ�<a href="http://moztw.org/dlsrch">�U����h�j�M����</a>�A�u�O�ӴΤF�I</p>
+<h3>�Y�ɮ���<br>
+</h3>
+<p>�u�Y�ɮ��ҡv�O Firefox ���s�޳N�A��K�z�[�ݮ��Ҥ��� RSS �s�D�� Blog�]���x�B������^�峹�C�u�n�@���A�N�i�H�@���ҿ�����W�̷s���峹���D�F�z�i��������P���쪺�峹�A�`�ٳ\�h�ɶ��C</p>
 
-<div id="leftCol">
 
-<ul id="nav2nd">
-<li id="toHome"><a href="/">Home Page</a></li>
-<li><a href="/firefox/">Mozilla Firefox</a></li>
-<li><a href="/thunderbird/">Mozilla Thunderbird</a></li>
-</ul>
+<p>���z�b Firefox �k�U���ݨ� <img alt="RSS" src="rss.png" class="inline" /> �ϥܮɡA���ܦ����x�i�H�ϥΡu�Y�ɮ��ҡv�\��C�I�����ϥܨÿ�@�� RSS �����I�]RSS feed�^��|�X�{�u�[�J���ҡv��ܤ���C���U�u�T�w�v����A�z�N�i�H�ݨ�u�Y�ɮ��ҡv�M��L���ұƦb�@�_�C�ܦh�H�|��u�Y�ɮ��ҡv��b���Ҥu��C��Ƨ����Aı�o�o�ˤl�S�O��K�C</p>
+<h3>�����s�� <br>
+</h3>
+<p>�u�����v���s��������֧��K�C�������O�b�P�������@�ӭӪ��u�����v�̸��J�A��K�z�Ӧ^�����ƭӺ����C�����s���̾A�X�ΨӾ\Ū�s�D�A�]�A�X�s���j�M���G�����U�����C</p>
 
-</div> <!-- end #leftCol --><!--#include virtual="/footer.shtml" -->
+
+<p>�z�i��ܡu�ɮס��s�W�����v�Ϋ��U Ctrl+T �H�}�ҷs�����C�p�G�Q�N�s���}�ҩ�������A�u�n�b�s���W���U�ƹ��k��B��ܡu�ηs�����}�ҳs���v�A�Ϊ����H�ƹ������I��s���Y�i�C</p>
+
+
+<p>�u�n������A�z�]�i�H�@���R�ݪ��������ƶ}�ҡC�����N�C�ѳ��n�ݪ�������b���Ҫ��Y�Ӹ�Ƨ����A�M�����ҿ�椤��ܡu�}�ܤ����v�K�i�@���������}�A�j�j�`�ٮɶ��C</p>
+
+			<h3>�@�_����</h3>
+			<p>
+			Mozilla �O�Ӷ}���l�X����´�A�z���\�h���|�i�H�@�_�^�m�ߤO�C
+			</p>
+			<ul>
+			<!--<li><a href="http://www.mozilla.org/contribute/#easy">Several ways <strong>anyone</strong> can help</a></li>--><li><a href="http://www.spreadfirefox.com">��U���s Firefox�A����h�H�{�ѥ�</a></li>
+
+			<li><a href="http://www.mozilla.org/contribute/#technical">�����x�޳N���B�͡A�Ьݳo��</a></li>
+			</ul>
+	</div>
+    <div id="side" class="right">
+      <h3>����ڭ�</h3>
+      <p><a href="http://www.MozillaStore.com/products/clothing/firefoxtee/?ad=mozorg13"><img src="ff_shirt.jpg" width="90" height="109" class="imgright" alt="Firefox Shirt"></a>�w��<a href="http://www.mozillastore.com/products/donations/?ad=mozorg10">�٧U</a>�Ψ� <a href="http://www.mozillastore.com/?ad=mozorg12">Mozilla Store</a> �R�� <a href="http://www.mozillastore.com/products/clothing/firefoxtee/?ad=mozorg11">Firefox T��</a>�A��� Firefox �M��L�M�ת��P�ɤS�o�n�F��C</p>
+
+      <h3>�귽�M�쵲</h3>
+      <ul class="compact">
+        <li><a href="http://www.spreadfirefox.com/">���s Firefox�I</a></li>
+        <li><a href="http://www.mozillazine.org/">MozillaZine</a></li>
+        <li><a href="../../projects/firefox/">�M�׸�T</a></li>
+      </ul>
+
+    </div>
