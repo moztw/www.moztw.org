@@ -656,8 +656,8 @@ sub parsemozdtd {
 	$xml =~ s{<!--.*?-->}{}gs;
 	$xml =~ s{<\?.*?\?>}{}gs;
 
-	while ($xml =~ s{<!ENTITY\s+(?:(%)\s*)?($name)\s*"(.*?)"\s*>}{}io) {
-		my ($percent, $entity, $definition) = ($1,$2,$3);
+	while ($xml =~ s{<!ENTITY\s+(?:(%)\s*)?($name)\s*(\"|\')([^\3]*?)\3\s*>}{}io) {
+		my ($percent, $entity, $definition) = ($1,$2,$4);
 		# ignore access keys
 		#$percent = '&' unless $percent;
 		#$definitions{"$percent$entity"} = $definition;
