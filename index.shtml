@@ -1,5 +1,13 @@
 <!--#set var="page_class" value="homepage" -->
-<!--#include file="header.shtml" -->
+<!--#include virtual="/header_a.shtml" -->
+<style type="css/text">
+<!--
+#firefox-feature #feature-content {
+	padding-right: 290px;
+}
+-->
+</style>
+<!--#include virtual="/header_b.shtml" -->
 <div class="key-point front-feature-cnet" id="firefox-feature">
 <script type="text/javascript">
     <!--
