@@ -1,3 +1,4 @@
+!--#set var="my_title" value="入門與推廣文件" -->
 <!--#include file="header.shtml" -->
 <div id='mainContent' class='right'>
 	<h1> 入門與推廣文件 </h1>
@@ -12,7 +13,8 @@
 		<li><a href='docs/ff/errNoXblBinding'>解決「No XBL Binding 錯誤」</a>
 		<li><a href='docs/ff/roadmap1.0'>Firefox 1.0 開發準則</a>
 		<li><a href='docs/ff/tabbed-browsing'>功能介紹：分頁瀏覽</a><li><a href='docs/ff/search'>功能介紹：搜尋功能</a><li><a href='docs/ff/live-bookmarks'>功能介紹：即時書籤</a><li><a href="/docs/ff/text-zoom">功能介紹：放大／縮小文字</a><li><a href="/docs/ff/ui-customize">功能介紹：自訂介面</a>
-        <li><a href="/docs/ff/end-hassle">功能介紹：拒絕麻煩，保護隱私</a>                
+        <li><a href="/docs/ff/end-hassle">功能介紹：拒絕麻煩，保護隱私</a>
+        <li><a href="/docs/ff/extension">功能介紹：擴充套件及佈景主題</a>  
         <li><a href='docs/ff/switch'>從 Internet Explorer 改用 Mozilla Firefox</a>
 	</ul>
 	<h3> Thunderbird 專屬文件 </h3>

@@ -1,4 +1,4 @@
-<!--#set var="my_title" value="Firefox - 放大／縮小文字" -->
+<!--#set var="my_title" value="Firefox - 擴充套件及佈景主題" -->
 <!--#include virtual="/header.shtml" -->
  <div id="mainContent" class="right">
 
@@ -7,14 +7,13 @@
    的自訂功能堪稱軟體界的佼佼者，也就是說設計師甚至能更動瀏覽器的介面。</p>
 <p>Firefox 強調的「簡單不囉唆」深得您心，但有時就是希望能多那麼一兩種功能？優異的擴充能力讓這一切成真：網頁設計師可以下載 Web Developer
   套件，提升網頁編寫／測試的速度；喜歡邊上網邊聽音樂的朋友可以下載 FoxyTunes，在 Firefox 的介面中操控您的播放軟體...... 全球程式設計師共同提供數十種擴充套件，天天都有新功能！</p>
-<p>想找合用的擴充套件或佈景主題嗎？請到 update.mozilla.org。只要按下「擴充套件管理員」 或「佈景主題管理員」右下方的連結即可。</p>
+<p>想找合用的擴充套件或佈景主題嗎？請到 <a href="http://update.mozilla.org">update.mozilla.org</a>。只要按下「擴充套件管理員」 或「佈景主題管理員」右下方的連結即可。</p>
 <h2>實際瞧瞧</h2>
 
 <p>現有的 Firefox 佈景主題為數眾多，您甚至可以將介面改得跟 Internet Explorer 一樣！</p>
 
 <p>
-<img alt="Firefox 文字縮放畫面" src="text-zoom.gif"
- width="425" height="261"><br>
+<img alt="Firefox 佈景主題畫面" src="extension.png" width="450" height="298"><br>
 兩兔傍地走，安能辨我是雄雌？</p>
 
 <h2>進階技巧</h2>
@@ -26,7 +25,7 @@
    <dt>其他擴充套件集散中心</dt>
 
    <dd>
-     <p>除了 update.mozilla.org 之外，您也可以到 Mozdev.org 或 ExtensionMirror 尋找擴充套件。</p>
+     <p>除了 <a href="http://update.mozilla.org">update.mozilla.org</a> 之外，您也可以到 <a href="http://www.mozdev.org">Mozdev.org</a> 或 <a href="http://www.extensionsmirror.nl/">ExtensionsMirror</a> 尋找擴充套件。</p>
     </dd>
 
   </dl>
