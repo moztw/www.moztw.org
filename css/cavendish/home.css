@@ -1,3 +1,4 @@
+/* update to 1.5 */
 h2 a { text-decoration: none; }
 h2 a:link { color: #000; }
 h2 a:visited { color: #000; }
@@ -6,15 +7,14 @@ h2 a:hover { color: #039; }
 #mBody h2 { margin-top: 0; }
 #mBody p { margin-top: 0; }
 
-.front-feature-cnet { background: #E4ECEC url(/images/feature-back-cnet.png) bottom right no-repeat; }
-.front-feature-wired { background: #E4ECEC url(/images/feature-back-wired.png) bottom right no-repeat; }
-.front-feature-nytimes { background: #E4ECEC url(/images/feature-back-nytimes.png) bottom right no-repeat; }
-.front-feature-onion { background: #E4ECEC url(/images/feature-back-onion.png) bottom right no-repeat; }
-.front-feature-slate { background: #E4ECEC url(/images/feature-back-slate.png) bottom right no-repeat; }
-.front-feature-nasa { background: #E4ECEC url(/images/feature-back-nasa.png) bottom right no-repeat; }
+.front-feature-cnet { background: #E4ECEC url(../../images/feature-back-cnet.png) bottom right no-repeat; }
+.front-feature-wired { background: #E4ECEC url(../../images/feature-back-wired.png) bottom right no-repeat; }
+.front-feature-nytimes { background: #E4ECEC url(../../images/feature-back-nytimes.png) bottom right no-repeat; }
+.front-feature-onion { background: #E4ECEC url(../../images/feature-back-onion.png) bottom right no-repeat; }
+.front-feature-slate { background: #E4ECEC url(../../images/feature-back-slate.png) bottom right no-repeat; }
+.front-feature-nasa { background: #E4ECEC url(../../images/feature-back-nasa.png) bottom right no-repeat; }
 
 #firefox-feature {
-	position: relative;
 }
 
 #firefox-feature ul {
@@ -39,8 +39,9 @@ h2 a:hover { color: #039; }
 
 a#shopLink {
 	display: block;
-	padding: 2px 4px 10px 32px;
-	background: url(/images/front-shop.gif) no-repeat;	
+	padding: 6px 4px 18px 50px;
+	width: 260px;
+	background: url(../../images/firefox-shop.gif) no-repeat;
 }
 
 div.extrainfo {
@@ -53,7 +54,7 @@ div.extrainfo {
 }
 
 #firefox-feature #feature-content {
-	padding: 6px 330px 6px 10px;
+	padding: 6px 230px 6px 10px;
 }
 
 #featurelink {
@@ -95,10 +96,16 @@ ul.news {
 	color: #666;
 }
 
+#onepointoh {
+	line-height: 0px;
+	width: 289px;
+	float: right;
+}
+
 img.rss {
 	float: right;
 	margin: 0;
-	padding: 4px 4px 0 0;
+	padding: 4px 2px 0 0;
 }
 
 img.promo {
@@ -111,6 +118,11 @@ img.promo {
 	float: left;
 	padding-right: 3%;
 }
+.frontcolumndouble {
+	width: 63%;
+	float: left;
+	padding-right: 3%;
+}
 
 .frontcolumnlast {
 	width: 33%;
@@ -118,7 +130,7 @@ img.promo {
 }
 
 .homepage .download {
-	width: 200px;
+	width: 260px;
 }
 
 .homepage .shop {
