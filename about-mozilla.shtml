@@ -1,0 +1,11 @@
+<!--#include file="header.shtml" -->
+<div>
+<h2>關於 Mozilla Firefox</h2>
+
+<a href="/firefox/">Mozilla Firefox</a> 是由 Mozilla 專案推出、吸引全球矚目的全新開放原始碼瀏覽器。
+Mozilla 專案是個非營利開放原始碼活動，任務是維持網際網路的自由選擇與創新。本專案由 <a href="http://www.mozilla.org" hreflang="en">Mozilla 基金會</a>（美國）、<a href="http://www.mozilla-europe.org/">Mozilla Europe</a>（歐洲）與 <a href="http://www.mozilla-japan.org/" hreflang="ja">Mozilla Japan</a>（日本）等組織支援並推動運行，全球有數千名志工參與其中。
+
+<h2>關於正體中文版</h2>
+<p>Firefox 的正體中文版部分由 <a href="http://moztw.org">moztw.org</a> 製作。moztw.org 提供 Mozilla 相關資訊，並有台灣本地及海外志工組成的 Mozilla 社群提供文件等支援。 </p>
+</div>
+<!--#include file="footer.shtml" -->
