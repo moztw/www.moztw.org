@@ -9,7 +9,7 @@
 
 	<div class="download">
 		<h3><strong class="downloadText">免費下載</strong></h3>
-		<div style='background: url(/images/product-firefox.png) no-repeat;'>
+ 		<div style='background: url(/images/product-firefox.png) no-repeat;'>
 		<!--#include file='dlff-js.shtml' -->
 	</div>
 	</div>
