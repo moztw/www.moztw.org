@@ -1,18 +1,15 @@
 <ul class="news">
 	<li><div class="date"> 11 月 6 日 </div>
-	<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0rc2/win32/zh-TW/">1.0RC2 中文版</a>已經出爐。<span style='color: red;'>僅供測試，一般使用者並不須要下載這個版本</span>。
-	<li><div class="date"> 10 月 16 日 </div>
-	開放下載 Firefox 1.0-RC1 中文搶鮮版 (Edit: 已停止下載)</a>
-	<li><div class="date"> 10 月 14 日 </div>
-	開放下載 <a href='/nvu/'> NVU 0.50 中文版(win32,Linux,及跨平台語言資源檔)</a>
-	<li><div class="date"> 10 月 10 日 </div>
-	開放下載 <a href='/dls/ns/netscape-7.2-zhTW-macosx.dmg.bz2'> Netscape 7.2 Mac OS X 中文版</a>
-	與 Win32 完整安裝檔
-	<li style='color: red;'><div class="date"> 10 月 2 日 </div>
-	<a href='http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.10.1/patches/259708.xpi'>安全性更新！</a>請 Firefox 1.0PR 使用者盡速安裝。
-	你可以利用前面的鏈結或是從你的 Firefox 的
-	「工具」「選項」「進階」「軟體更新」「馬上檢查」安裝。<br/>
-	此更新修正<a href='http://www.mozilla.org/press/mozilla-2004-10-01-02.html'
-		>「惡意的網頁可能誘導使用者試圖儲存檔案但實際上會刪除下載目錄中的檔案」</a>
+	<a href='/thunderbird/'> Thunderbird 0.9 中文版(win32,linux)</a> 已發行
+	<li><div class="date"> 11 月 6 日 </div>
+	<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0rc2/"> Firefox 1.0RC2</a>
+	官方中文版已出爐：
+	<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0rc2/win32/zh-TW/">
+		Windows </a>,
+	<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0rc2/mac/zh-TW/">
+		Mac OS X</a>,
+	<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0rc2/linux-i686/zh-TW/">
+	       Linux</a>,
+       <span style='color: red;'>僅供 1.0 正式版發行前測試，一般使用者並不須要下載這個版本</span>。
 
 </ul>
