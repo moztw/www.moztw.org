@@ -1,0 +1,14 @@
+# 全國圖書聯合目錄資料查詢
+# Author: Bob Chao <bobchao@ms1.url.com.tw>
+
+
+<search 
+   name="NBINet"
+   description="Taiwan Libraries"
+   method="GET"
+   action="http://nbinet.ncl.edu.tw/search*cht/t"
+   queryEncoding="big5"
+   queryCharset="big5"
+>
+<input name="SEARCH" user>
+</search>

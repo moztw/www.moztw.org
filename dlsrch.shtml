@@ -77,6 +77,13 @@ function addEngine(name,ext,cat)
 			<a href='dls/sp/yhdic_ec.gif'> yhdic_ec.gif</a>
 			<a href='dls/sp/yhdic_ec.src'> yhdic_ec.src</a>
 		</ul>
+		<dt>全國圖書聯合目錄 (BobChao 提供)
+		<dd><ul><li>
+			<a href="javascript:;" onClick="addEngine('NBINet','png','General' );">自動安裝</a>
+			<li> 手動安裝：
+			<a href='dls/sp/NBINet.gif'> NBINet.gif</a>
+			<a href='dls/sp/NBINet.src'> NBINet.src</a>
+		</ul>
 	</dl>
 </div>
 <!--#include file="footer.shtml" -->
