@@ -76,7 +76,7 @@ dt.im {
 	content: " (http://www.mozilla.org" attr(href) ") ";
 }
 
-#tools, #search, #ad, #bn, #int, .skipLink, #brd {
+#tools, #search, #ad, #bn, #int, .skipLink, #brd, ul#nav, .hide {
 	display: none;
 }
 #header + hr {

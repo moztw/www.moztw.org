@@ -1,6 +1,6 @@
 </head>
-
-<body id="www-mozilla-org" class="<!--#if expr="!$page_class" -->homepage<!--#else --><!--#echo var="page_class" --><!--#endif -->">
+<!-- 這邊寫 www-moztw-org 或 www.mozilla.org 似乎各有好處？ -->
+<body id="www-moztw-org" class="<!--#echo var="page_class" -->">
 <div id="container">
 
 <p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>

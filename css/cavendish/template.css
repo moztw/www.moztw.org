@@ -1,5 +1,3 @@
-/* update to 1.9 */
-
 /* mozilla.org Cavendish Template Styles
  * Initial Design by Daniel Burka and Steven Garrity
 */
@@ -85,7 +83,7 @@
 	body.sectionSupport li#menu_support,
 	body.sectionDevelopers li#menu_developers,
 	body.sectionStore li#menu_store {
-		border-bottom: 1px solid #fff;
+		background-position: 100% -200px;
 		border-bottom: 1px solid #fff;
 	}
 	
@@ -101,7 +99,7 @@
 	body.sectionProducts li#menu_products:hover a,
 	body.sectionSupport li#menu_support:hover a,
 	body.sectionDevelopers li#menu_developers:hover a,
-	body.sectionStore li#menu_store:hover {
+	body.sectionStore li#menu_store:hover a {
 		background-position: 0% 0%;
 		color: #333;
 	}
@@ -160,7 +158,6 @@
 	}
 	#nav:after {
 		display: block;
-
 		padding-top: 0;
 		line-height: 0.1;
 		font-size: 1px;
@@ -200,7 +197,7 @@
 	
 	#nav li a {
 		display: block;
-		padding: 6px 10px;
+		padding: 8px 10px;
 		text-decoration: none;
 		background: #EDF2F2;
 		border-bottom: 1px solid #ddd;
@@ -217,7 +214,7 @@
 	}
 	
 	#nav li li a {
-		padding: 4px 8px 4px 20px;
+		padding: 6px 8px 6px 20px;
 	}
 	
 	#oN {

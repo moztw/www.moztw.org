@@ -1,3 +1,4 @@
+<!--#set var="page_class" value="homepage" -->
 <!--#include file="header.shtml" -->
 <div class="key-point cnet" id="firefox-feature">
 <div id="onepointoh">

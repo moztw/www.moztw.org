@@ -9,8 +9,8 @@
  <link rel="stylesheet" type="text/css" href="/css/base/content.css" media="all">
  <link rel="stylesheet" type="text/css" href="/css/cavendish/content.css" title="Cavendish" media="all">
  <link rel="stylesheet" type="text/css" href="/css/base/template.css" media="screen">
- <link rel="stylesheet" type="text/css" href="/css/cavendish/template.css" title="Cavendish" media="screen">
- <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+ <link rel="stylesheet" type="text/css" href="/css/cavendish/template.css" title="Cavendish" media="screen"><!--#if expr="$page_class='homepage'" -->
+ <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen"><!--#endif -->
  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
  <link rel="home" title="Home" href="http://www.moztw.org/">
  <link rel="alternate" type="application/xml" title="RSS" href="/xmlnews.rdf">

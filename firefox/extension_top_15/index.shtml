@@ -1,0 +1,265 @@
+<!--#set var="my_title" value="Firefox 擴充套件 Top 15" -->
+<!--#set var="page_class" value="deepLevel" -->
+<!--#include virtual="/header_a.shtml" -->
+<style type="text/css">
+.active-extensiontop15
+{
+    background: url(active-extensiontop15.png) no-repeat;
+}
+#mainContent h3 {
+	border: none;
+	clear: both;
+}
+.extension-info ul{
+	padding-left: 1em; margin:0 1em 1em 0;
+	width: 6em;
+	float: left;
+	border: gray 1px;
+	border-style: none solid solid none;
+}
+</style>
+<script type="application/x-javascript">
+var boxObjs;
+
+window.onload = function (){
+  boxObjs = document.getElementById("mainContent").getElementsByTagName("input");
+}
+
+function doInstall(){
+  var installObj = {}
+  for (i=0; i<boxObjs.length; i++) {
+    if (boxObjs[i].checked) installObj[boxObjs[i].name]=boxObjs[i].value;
+  }
+  InstallTrigger.install(installObj)
+}
+
+function checkAll(){
+  for (i=0; i<boxObjs.length; i++) boxObjs[i].checked = true;
+}
+</script>
+<!--#include virtual="/header_b.shtml" -->
+	<div class="key-point">
+	
+<div id="product-desc" class="active-extensiontop15">
+	
+<h2>Firefox 擴充套件 Top 15</h2>
+			<p>在你心目中最棒的 Firefox 擴充套件是哪些呢？ 2005 年一月舉辦的「擴充套件票選」活動中，社群成員紛紛表示意見、支持自己心中的最佳套件。歷經兩週的提名與拉票，最後一星期從五十四個候選套件中選出了十五個最佳幫手，現在就看看上榜的名單！</p></div>
+		<div id="product-side">
+
+<div class="download">
+				<h3>下載 Firefox 中文版</h3>
+		<!--#include virtual="/dlff-js.shtml" -->
+	</div><ul>
+			<li><a class="ancilliaryLink" href="/firefox/">Firefox 中文版介紹</a></li>
+			<li><a class="ancilliaryLink" href="http://forum.moztw.org/viewforum.php?f=11">Mozilla Taiwan 擴充套件討論區</a></li>
+                        </ul>
+			
+	
+</div>
+	</div>
+	<form onsubmit="doInstall(); return false;">
+	<div id="mainContent" class="right">
+
+	<h3>NO.1 Tongwen 同文堂 <input name="新同文堂" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝新同文堂"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.2 FlashGot <input name="FlashGot" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 FlashGot"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.3 IEView <input name="IEView" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 IEView"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.4 Adblock <input name="Adblock" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 Adblock"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.5 All-in-One Gestures Extension <input name="All-in-One Gestures Extension" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 All-in-One Gestures Extension"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.6 Tab Mix <input name="Tab Mix" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 Tab Mix"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.7 Super Drag and Go <input name="Super Drag and Go" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 Super Drag and Go"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.8 Right Encoding <input name="Right Encoding" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 Right Encoding"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.9 Tabbrowser Extensions <input name="Tabbrowser Extensions" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 Tabbrowser Extensions"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.10 ScrapBook <input name="ScrapBook" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 ScrapBook"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.11 Web Developer <input name="Web Developer" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 Web Developer"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.11 ForecastFox <input name="ForecastFox" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 ForecastFox"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.13 Sage <input name="Sage" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 Sage"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.14 Download Status Bar <input name="Download Status Bar" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 Download Status Bar"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	<h3>NO.15 Show Image <input name="Show Image" value="{XPI File Path}" type="checkbox" title="點選此處，稍後一併安裝 Show Image"></h3>
+	<div class="extension-info">
+	<ul>
+		<li>套件網站</li>
+		<li>相關討論</li>
+		<li>有中文版</li>
+	</ul>
+	<blockquote>「一句話一句話一句話一句話一句話一句話一句話一句話」<cite>--某人</cite></blockquote>
+	<p>介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹介紹</p>
+	</div>
+	</div>
+    <div id="side" class="right">
+    <h3>擴充套件 Top 
+15 名單</h3>
+	      <ol>
+	     <li>Tongwen 同文堂 (150 票) </li> 
+<li>FlashGot (135 票)</li> <li>IEView (131 票)</li> <li>Adblock 
+(122 票)</li> <li>All-in-One Gestures Extension (99 票)</li> 
+<li>Tab Mix (原 TBP Lite Repackaged) (97 票)</li> <li>Super Drag 
+and Go (87 票)</li> <li>Right Encoding (81 票)</li> <li>Tabbrowser 
+Extensions (TBE) (70 票)</li> <li>ScrapBook (67 票)</li> <li>Web 
+Developer (63 票)</li> <li value="11">ForecastFox (63 票)</li> <li 
+value="13">Sage (61 票)</li> <li>Download Status Bar (51 票)</li> 
+<li>Show Image (47 票)</li>
+	      </ol>
+      <h3>我要安裝這些套件！</h3>
+ 
+<p style="margin: 6px 0pt 0pt 4px;">
+      您可以：
+           </p>
+ 
+<ol>
+	     <li>前往「套件資訊」中提供的網頁安裝</li> 
+<li>勾選各套件名稱旁的核取方塊後，點選「全部安裝」鈕。</li>
+	  </ol>
+	  <div 
+style="margin: 6px 0pt 0pt 4px;">
+      <input value="全部安裝" 
+type="submit"> </div>
+      <ul>
+ 
+<li>如果您按下「全部安裝」卻無反應，請依序按下上方淡黃色訊息列之「編輯選項」、「允許」、「確定」以便將 moztw.org 
+加入信任網站，再行按下「全部安裝」鈕。</li> 
+<li>此服務提供目前（2005/01/25）最新套件，所有套件皆由作者提供。請參閱相關訊息、檢視安裝網址後再行安裝，並自負責任。</li>
+<li>亦可參考由社群成員蕭易玄所製作的 <a href="">Firefox PowerPack 特別版</a>。</li>
+      </ul>
+      <h3>活動記實</h3>
+      <ul>
+ 
+<li>主辦：社群成員蕭易玄、趙柏強</li>
+      <li>活動期間：2005/01/01 - 01/22</li>
+ 
+<li>總投票人數：249 人</li>
+<li>每人最多 15 票，平均每人投 9 票</li>
+      </ul>
+      <h3>網頁協助</h3>
+      <div style="margin: 6px 0pt 0pt 4px;">
+      此網頁由社群成員 ....... 共同協助完成。
+      </div>
+    </div>
+    </form>
+<!--#include 
+virtual="/footer.shtml" -->
