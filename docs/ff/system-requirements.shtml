@@ -22,8 +22,8 @@
  </div>
  <!-- closes #side -->
  <hr class="hide">
- 
- <div id="mainContent" class="bodyleft">
+ <div id="mainContentOuter"
+ <div id="mainContent">
 
   <h2>Firefox 系統需求</h2>
   <h3>Windows</h3>
@@ -45,7 +45,7 @@
 
   <h3>Linux</h3>
   <h6>軟體需求</h6>
-  <p><em>These are currently under review and should be used as a general guideline.</em><br />
+  <p><em>以下內容有待審查，僅供指引。</em><br />
      請留意：Linux 隨附的 Package 依發佈版本亦可能有不同需求。</p>
   <ul>
     <li>Linux kernel - 2.2.14，最少需安裝以下函式庫：
@@ -82,6 +82,8 @@
   </ul>  
  </div>
  <!-- closes #mainContent-->
+ </div>
+ <!-- closes #mainContentOuter-->
 </div>
 <!-- closes #mBody-->
 <!--#include virtual="/footer.shtml" -->
