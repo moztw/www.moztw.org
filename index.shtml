@@ -1,13 +1,22 @@
+<!--#set var="page_class" value="homepage" -->
 <!--#include file="header.shtml" -->
-<div class="key-point cnet" id="firefox-feature">
-<div id="onepointoh">
-    <a href="/firefox/" title="見識 Firefox 1.0 過人之處"><img src="images/firefox-oneoh-top.png" alt="Firefox 1.0" height="136" width="289"><br><img src="images/firefox-oneoh-bottom.png" alt="" height="134" width="289"></a>
-  </div>
+<div class="key-point front-feature-cnet" id="firefox-feature">
+<script type="text/javascript">
+    <!--
+    var classes = new Array("cnet", "wired", "nytimes", "nasa", "slate", "onion");
+    var date = new Date();
+    var seconds;
+    var classid;
+    seconds = date.getSeconds();
+    classid = seconds % classes.length;
+    document.getElementById('front-feature').className = 'key-point front-feature-' + classes[classid];
+    -->
+  </script>
   <div id="feature-content">
     <h2><a href="/firefox/"><img src="images/t_firefox.gif" alt="Firefox 1.0" height="33" width="275"></a></h2>
-    <p>漫長等待終於結束，現在就下載 Firefox 1.0 中文版 － <a href="/firefox/">更快更好的瀏覽器</a>！Firefox 1.0 有數十種語言版本、跨 Windows、MacOS X 及 Linux 等各種平台。 &#8220;I suggest dumping Microsoft's Internet Explorer&#8221; &#8212;&nbsp;<a href="http://ptech.wsj.com/archive/ptech-20040916.html">Walt&nbsp;Mossberg, Wall Street Journal</a>.
-
-	<div class="download">
+    <p>現在就下載 Firefox 1.0 中文版 － <a href="/firefox/">更快更好的瀏覽器</a>！Firefox 1.0 有數十種語言版本、跨 Windows、MacOS X 及 Linux 等各種平台。 <a href="http://ptech.wsj.com/archive/ptech-20041230.html">「Firefox 的安全性及超酷特色勝過 Microsoft 的 IE」</a> - Walt Mossberg, 華爾街日報
+</p>
+    <div class="download">
 		<h3><a href="/firefox/"><strong class="downloadText">免費下載</strong></a></h3>
  		<div style='background: url(/images/product-firefox.png) no-repeat;'>
 		<!--#include file='dlff-js.shtml' -->
