@@ -1,0 +1,103 @@
+/*
+	Original layout was taken from the Why Firebird document
+	by Ben Goodger <mozilla@bengoodger.com>
+	http://www.mozilla.org/products/firebird/why/
+*/
+
+div.downloadbox {
+	background-color: #FAEECE; /*FAE8BA*/
+	color: black;
+	float: right;
+	width: 30em;
+	margin: 3em 15px 15px 2em;
+	padding: 7px;
+	border-style: solid;
+	border-width: 1px 4px 1px 4px;
+	border-color: #F1D79E; /*#F1D79E*/
+	-moz-border-radius: 9px;
+}
+
+div.downloadbox p {
+	font-weight: bold;
+}
+
+div.intro {
+	margin-left: 15px;
+}
+
+div.screenshot-right, div.screenshot-left {
+	padding: 4px;
+	text-align: center;	
+	background: #eee;
+	color: black;
+} 
+
+
+div.screenshot-left p, div.screenshot-right p {
+	margin-top: 2px !important;
+	margin-bottom: 0px !important;
+	font-size: 70% !important;
+	text-align: center !important;
+}
+
+div.screenshot-right {
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+
+div.screenshot-left {
+	float: left;
+	margin: 0px 10px 5px 0px;
+}
+
+div.author {
+	margin: 1em 0 1em 0;
+	font-size: 115%;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.clear {
+	clear: both;
+}
+
+h1 {
+	font-size: 155% !important;
+}
+
+h2 {
+	font-size: 110% !important;
+	color: black !important;
+}
+
+h3 {
+	font-size: 100% !important;
+	color: #666 !important;
+	margin-top: 2em !important;
+}
+h3.firstRow {
+	margin-top: 0 !important;
+}
+
+h4 {
+	margin-bottom: 1ex;
+}
+
+p {
+	margin-top: 0 !important;
+	margin-bottom: 1em !important;
+	line-height: 1.3em !important;
+}
+
+#featureTable {
+	margin-left: 15px;
+	margin-right: 15px;
+	background-color: #FAFAFA;  
+}
+
+#featureTable p {
+	text-align: justify;
+	font-size: 90% !important;
+}
+
+
