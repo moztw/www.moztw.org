@@ -1,14 +1,8 @@
 <!--#set var="my_title" value="Mozilla Firefox Preview Release 版本資訊" --><!--#include virtual='/header_a.shtml' -->
-<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/print.css"  media="print">
-<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/base/content.css"  media="all">
-<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/cavendish/content.css" title="Cavendish" media="screen">
-<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/base/template.css"  media="screen">
-<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/cavendish/template.css" title="Cavendish" media="screen">
-
 	<style type="text/css">
     <!--
       .firefox-releasenotes {
-		    background: url("../../../images/product-firefox-1.0-relnote.png") no-repeat;
+		    background: url("http://www.mozilla.org/images/product-firefox-1.0-relnote.png") no-repeat;
 		    padding-top: 70px !important;
     		width: 100% !important;
     	}

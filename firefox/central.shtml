@@ -1,9 +1,5 @@
 <!--#set var="my_title" value="Mozilla Firefox - Firefox Central" -->
 <!--#include virtual="/header_a.shtml" -->
-<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/base/content.css"  media="all">
-<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/cavendish/content.css" title="Cavendish" media="screen">
-<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/base/template.css"  media="screen">
-<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/cavendish/template.css" title="Cavendish" media="screen">
 <!--#include virtual="/header_b.shtml" -->
 	<div class="key-point" id="ffcentral">
 		<div id="ffcentral-desc">
