@@ -1,4 +1,5 @@
 <!--#include file="header.shtml" -->
+<div id='mainContent' class='right'>
 	<h2> 進階文件與開發者資訊 </h2>
 
 	<h3> Gecko 技術文件與網頁製作 </h3>
@@ -22,4 +23,12 @@
 		<li><a href='docs/expired/whymoz'>Why mozilla</a>
 		<li><a href='docs/expired/reimportbookmark'> Reimport Bookmarks </a>
 	</ul>
+</div>
+<div id="side" class="right">
+	<ul id="nav">
+		<li><a href="/">^回 MozTW.org 首頁</a></li>
+		<li><a href="/doc">入門與推廣文件</a></li>
+		<li><a href="/devdoc">進階文件與開發者資訊</a></li>
+	</ul>
+</div>
 <!--#include file="footer.shtml" -->

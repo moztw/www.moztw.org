@@ -50,6 +50,15 @@
 	<li>
 	<h3><a href="/dlplugins" class="producttitle"><strong>Plugins 相關</strong></a></h3>
 	Plugins 相關的下載與鏈結。
+</ul>
+
+<h2>本地化(Localization)工具與相關資源</h2>
+<ul class="productlist" title="L10N Tools">
+	<li>
+	<h3><a href='/tools/'><b>moztw.org 目前使用的工具</b></a></h3>
+	提供了 moztw.org 所有使用的工具及文件，
+	目前完全由林弘德(Hung-Te Lin, piaip)自行開發維護，
+	包括大多數 Mozilla L10N Team 都在用的 mozip。
 	<li>
 	<h3>[CVS snapshot] &nbsp;</h3>
 	<a href='/dls/ff/firefox-CVS-localesrc-zhTW.tar.bz2'><b>Firefox zh-TW locale,</b></a>

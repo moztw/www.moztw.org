@@ -1,5 +1,5 @@
 <!--#include file="header.shtml" -->
-<div>
+<div id='mainContent' class='right'>
 	<h1> 入門與推廣文件 </h1>
 	<h3> 一般操作、設定技巧 </h3>
 	<ul>
@@ -33,5 +33,12 @@
 	以上文件來自許多人的努力，在此感謝所有參與的朋友們：<br/>
 	BobChao, dwx, contagious,<br/>
 	若有遺漏煩請來信告知。
+</div>
+<div id="side" class="right">
+	<ul id="nav">
+		<li><a href="/">^回 MozTW.org 首頁</a></li>
+		<li><a href="/doc">入門與推廣文件</a></li>
+		<li><a href="/devdoc">進階文件與開發者資訊</a></li>
+	</ul>
 </div>
 <!--#include file="footer.shtml" -->
