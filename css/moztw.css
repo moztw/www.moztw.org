@@ -94,7 +94,7 @@ div#firefox-feature div.download{
 /* fix up */
 a#featurelink { background: none;  }
 #firefox-feature li a {
-	padding: 1px 0 1px 34px;
+	padding: 1px 0 1px 40px;
 }
 
 .news .date {
