@@ -1,4 +1,44 @@
-<!--#include virtual='/header.shtml' -->
+<!--#set var="my_title" value="Mozilla Firefox Preview Release Release Notes" --><!--#include virtual='/header_a.shtml' -->
+<style type="text/css">
+	<!--
+	h2 {
+		border-bottom: 2px solid #ccc;
+		padding-bottom: 1px;
+		width: 35ex;
+	}
+	h2.center {
+		text-align: center;
+		border-bottom: 0px;
+		padding-bottom: 0px;
+		width: 100%;
+	}
+	ol.faq li {
+		font-style: italic;
+	}
+	ul.news li {
+		font-weight: bold;
+	}
+	ol.faq li p {
+		font-style: normal;
+	}
+	ul.news li p {
+		font-weight: normal;
+	}
+	kbd {
+		padding: 0px 1px 0px 1px;
+		border-width: 1px 2px 2px 1px;
+		border-style: solid;
+		background: #faf6f6;
+		color: #000;
+		border-color:#edd #baa #baa #eed;
+	}
+	span.mnu {
+		background: #e8e8e8;
+		color: #333;
+		padding: 0 3px 0 3px;
+	}
+--></style>
+<!--#include virtual='/header_b.shtml' -->
 <p>source: <a href="http://www.mozilla.org/products/firefox/releases/">http://www.mozilla.org/products/firefox/releases/</a></p>
 
 <h1>版本資訊 - Firefox 1.0 Preview Release <span style="font-size: x-small; font-style: italic;">("Greenlane")</span></h1>
