@@ -1,6 +1,6 @@
 </head>
 
-<body id="www-mozilla-org" class="homepage">
+<body id="www-mozilla-org" class="<!--#if expr="!$page_class" -->homepage<!--#else --><!--#echo var="page_class" --><!--#endif -->">
 <div id="container">
 
 <p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
