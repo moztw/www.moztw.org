@@ -16,16 +16,26 @@
 		<b>E-mail:</b>&nbsp; piaip at csie dot ntu dot edu dot tw
 	</fieldset>
 	<p>
+	<h3>我有問題</h3>
 	關於 Mozilla, Mozilla Firefox, Mozilla Thunderbird
 	使用上的問題請至 <a href='http://www.mozilla.org'>mozilla.org</a> 網站查詢, 
 	另外也可利用<a href='forum'> Mozilla@Taiwan 討論區 </a> ， 
 	有很多熱心的使用者願意分享經驗。
-	<p>
+	<h3>報告錯誤</h3>
 	程式上的錯誤或是建議請直接到 
 	<a href='http://bugzilla.mozilla.org/enter_bug.cgi'> Bugzilla </a> 提出。
 	我只處理中文語言套件相關 (翻譯或使用) 或是中文安裝版
 	(請確定只發生在中文版而英文版不會發生) 的問題，謝謝。
-	<p>網站的樣式是修改自 Mozilla.org ，原作是 Dave Shea，
+	<h3>關於此網路主機</h3>
+	<p> 為了提供更好的穩定性與更大的網路頻寬及空間，目前主機是由 
+	<a href="http://www.sinica.edu.tw">中央研究院(sinica)</a>
+	<a href="http://www.iis.sinica.edu.tw"> 資訊科學研究所(iis)</a>
+	<a href="http://ossf.iis.sinica.edu.tw"> 自由軟體鑄造場(OSSF)</a>
+	所贊助。
+	</p>
+
+	<h3>關於網頁樣式</h3>
+	<p>網站的樣式是修改自 Mozilla.org ，
 	在取得原作者同意後作為 Mozilla 中文站的樣式。
 </div>
 <!--#include file="footer.shtml" -->

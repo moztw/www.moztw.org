@@ -1,0 +1,24 @@
+<!--#include file='header.shtml' -->
+<H1>下載 Netscape </H1>
+注意，由於版權問題，這裡提供的是非官方的中文版。<br/>
+關於是否會再製作更新版的 Netscape，目前尚無定論。<br/>
+還是比較推薦使用 Mozilla 或 Firefox。<br/>
+<div class='dlall'>
+<h3> 7.01 </h3><ul>
+<li><a name='dlwin' href='dls/ns/netscape-7.01-win32-zhTW-installer.exe'>Windows</a></li>
+<li><a name='dllnx' href='dls/ns/netscape-7.01-i686-linux-zhTW-sea.tar.gz'>Linux</a></li>
+</ul>
+<H3>安裝語言套件 </H3><ul>
+<li><a href='/instlp'>安裝語言套件</a>
+</ul>
+<br/>
+<h3> 7.0 PR1</h3><ul>
+	<li><a name='dlwin' href='dls/ns/netscape-7.0pr1-zhtw.exe'>Windows</a></li>
+</ul>
+<h3> 6.2</h3><ul>
+	<li><a name='dlwin' href='dls/ns/netscape-6.2-zh-tw.exe'>Windows</a></li>
+</ul>
+
+</div>
+
+<!--#include file='footer.shtml' -->
