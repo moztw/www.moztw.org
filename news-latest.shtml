@@ -1,4 +1,7 @@
 <ul class="news">
+	<li><div class="date"> 12 月 11 日 </div>
+	<a href='dls/tb/thunderbird-1.0.zh-TW.win32.installer.exe'>Thunderbird 1.0 (win32)</a>
+	中文版開放下載測試中！
 	<li><div class="date"> 11 月 21 日 </div>
 	漫長等待終於結束，為您介紹 － <a href='/firefox/'> Firefox 1.0 中文版</a>！
 </ul> 
