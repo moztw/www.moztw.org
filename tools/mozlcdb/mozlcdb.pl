@@ -336,6 +336,10 @@ sub updateFromCurrent { # update from current results {{{
 				exit(-1);
 			} elsif ($k eq 'id') { # new entry
 				$id = $v;
+				if ($v =~ /[\r\n]$/) {
+					print STDERR "You are mixing DOS and UNIX files. Please correct your input table.\n";
+					exit(0);
+				}
 				$en = $tr = $cm = $kp = undef;
 				if (!exists $db{$f}{$id}) {
 					if ($flForceImport) {
