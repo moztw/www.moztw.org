@@ -24,8 +24,8 @@
 </ul>
 
 <h3>0.7</h3><ul>
-<li><a title="MD5: 9bb288efc09d2b259b4a50b433d246ef9bb288efc09d2b259b4a50b433d246ef9bb288efc09d2b259b4a50b433d246ef" href="dls/ff/MozillaFirebird-0.7-win32-zhTW.exe"> Windows (6.7M) </a>
-<li><a title="MD5: 58b7ce92a5c3d00913bc580bbd504f9f58b7ce92a5c3d00913bc580bbd504f9f58b7ce92a5c3d00913bc580bbd504f9f" href="dls/ff/MozillaFirebird-0.7-linux-gnu-zhTW.tar.gz"> Linux (tgz) </a>
+<li><a title="MD5: 9bb288efc09d2b259b4a50b433d246ef" href="dls/ff/MozillaFirebird-0.7-win32-zhTW.exe"> Windows (6.7M) </a>
+<li><a title="MD5: 58b7ce92a5c3d00913bc580bbd504f9f" href="dls/ff/MozillaFirebird-0.7-linux-gnu-zhTW.tar.gz"> Linux (tgz) </a>
 </ul>
 
 </div>
@@ -33,13 +33,13 @@
 <div style='width: 30%;'>
 
 <h3>0.6</h3><ul>
-<li><a title="MD5:" href="dls/ff/MozillaFirebird-0.6-win32-zhTW.exe"> Windows (5.4M) </a>
-<li><a title="MD5: 32ff32aadf81d5647218ec3ccb81554c32ff32aadf81d5647218ec3ccb81554c32ff32aadf81d5647218ec3ccb81554c" href="dls/ff/MozillaFirebird-0.6-i686-pc-linux-gnu-zhTW.tar.gz"> Linux (9.6M) </a>
+<li><a title="MD5: 788b809e65b05acca6e04dfd3c0cdd5f" href="dls/ff/MozillaFirebird-0.6-win32-zhTW-installer.exe"> Windows (5.4M) </a>
+<li><a title="MD5: 32ff32aadf81d5647218ec3ccb81554c" href="dls/ff/MozillaFirebird-0.6-i686-pc-linux-gnu-zhTW.tar.gz"> Linux (9.6M) </a>
 </ul>
 
 <h3>0.5</h3><ul>
-<li><a title="MD5:" href="dls/ff/phoenix-0.5-win32-zhTW.exe"> Windows (5.6M) </a>
-<li><a title="MD5: 7413f5b6aa450588101dd43ff035ec5a7413f5b6aa450588101dd43ff035ec5a7413f5b6aa450588101dd43ff035ec5a" href="dls/ff/phoenix-0.5-i686-pc-linux-gnu-zhTW.tar.gz"> Linux (9.0M) </a>
+<li><a title="MD5: bea6be96c5c64fbacfba629db8afe34e" href="dls/ff/phoenix-0.5-win32-zhTW-installer.exe"> Windows (5.6M) </a>
+<li><a title="MD5: 7413f5b6aa450588101dd43ff035ec5a" href="dls/ff/phoenix-0.5-i686-pc-linux-gnu-zhTW.tar.gz"> Linux (9.0M) </a>
 </ul>
 
 </div>
@@ -47,19 +47,19 @@
 <div style='width: 30%;'>
 
 <h3>0.4</h3><ul>
-<li><a title="MD5:" href="dls/ff/phoenix-0.4-win32-zhTW.exe"> Windows (5.6M) </a>
-<li><a title="MD5:" href="dls/ff/phoenix-0.4-i686-pc-linux-gnu-zhTW.tar.gz"> Linux (9.4M) </a>
-<li><a title="MD5: f7ce3a593db74c0d351e9554e4e8945f7ce3a593db74c0d351e9554e4e8945f7ce3a593db74c0d351e9554e4e8945f" href="dls/ff/phoenix-0.4-freebsd4.7-zhTW.tar.gz"> FreeBSD 4.7 (10.1M) </a>
+<li><a title="MD5: e188acca35fa5244c7f1c793893f86e1" href="dls/ff/phoenix-0.4-win32-zhTW-installer.exe"> Windows (5.6M) </a>
+<li><a title="MD5: 594aa9a3d16ec14e1c4ed8f4d170c360" href="dls/ff/phoenix-0.4-i686-pc-linux-gnu-zhTW.tgz"> Linux (9.4M) </a>
+<li><a title="MD5: f7ce3a593db74c0d351e9554e4e8945f" href="dls/ff/phoenix-0.4-freebsd4.7-zhTW.tar.gz"> FreeBSD 4.7 (10.1M) </a>
 </ul>
 
 <h3>0.3</h3><ul>
-<li><a title="MD5:" href="dls/ff/phoenix-0.3-win32-zhTW.exe"> Windows (6.2M) </a>
-<li><a title="MD5:" href="dls/ff/phoenix-0.4-i686-pc-linux-gnu-zhTW.tar.gz"> Linux (9.3M) </a>
-<li><a title="MD5:" href="dls/ff/phoenix-0.4-os2.zhTW.zip"> OS/2 (12.6M) </a>
+<li><a title="MD5: ebd4b0243b829662393e8c4ea5e8a4e9" href="dls/ff/phoenix-0.3-win32-zhTW-installer.exe"> Windows (6.2M) </a>
+<li><a title="MD5: 7d8b80a089c624bfe2dc3061e8e98ed3" href="dls/ff/phoenix-0.3-i686-pc-linux-gnu-zhTW.tgz"> Linux (9.3M) </a>
+<li><a title="MD5: d2941cae8e551b0c65a4c4341eb4d04b" href="dls/ff/phoenix-0.3-os2-zhTW.zip"> OS/2 (12.6M) </a>
 </ul>
 
 <h3>0.2</h3><ul>
-<li><a title="MD5:" href="dls/ff/phoenix-0.2-win32-zhTW.exe"> Windows (6.2M) </a>
+<li><a title="MD5: 81606a1bb770ebe019f0246840f74c95" href="dls/ff/phoenix-0.2-win32-zhTW-installer.exe"> Windows (6.2M) </a>
 </ul>
 
 </div>

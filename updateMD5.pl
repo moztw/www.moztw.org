@@ -16,14 +16,16 @@ foreach(@ARGV) {
 
 	open OUTF, ">$_";
 	foreach (@src) {
-		if ($_ =~ /MD5:\s*([a-zA-Z]{0,32})(.*)href=['"]\/?($chkroot[^'"]*)['"]/i) {
-			if (-r $3) {
-				open EMD5, "/sbin/md5 -q '$3'|";
+		if ($_ =~ /MD5:\s*([^'"]*)['"].*href=['"]\/?($chkroot[^'"]*)['"]/i) {
+			if (-r $2) {
+				open EMD5, "/sbin/md5 -q '$2'|";
 				my @md5 = <EMD5>;
 				close EMD5;
 				my $md5 = join('', @md5);
 				$md5 =~ s/\s//g;
-				$_ =~ s/MD5:\s*([a-zA-Z]{0,32})/MD5: $md5/;
+				$_ =~ s/MD5:\s*([^'"]*)(['"])/MD5: $md5$2/;
+			} else {
+				print STDERR "No such file: $2 \n";
 			}
 		}
 		print OUTF $_;
