@@ -9,8 +9,8 @@ function addEngine(name,ext,cat)
     //cat="Web";
     //cat=prompt("In what category should this engine be installed?","Web")
     window.sidebar.addSearchEngine(
-      "http://moztw.org/srch/"+name+".src",
-      "http://moztw.org/srch/"+name+"."+ext,
+      "http://moztw.org/dls/sp/"+name+".src",
+      "http://moztw.org/dls/sp/"+name+"."+ext,
       name,
       cat );
   }
