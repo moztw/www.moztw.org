@@ -1,14 +1,14 @@
 <!--#include file="header.shtml" -->
 <div class="key-point cnet" id="firefox-feature">
 <div id="onepointoh">
-    <a href="/firefox/" title="見識 Firefox 1.0 過人之處"><img src="images/firefox-oneoh-top.png" alt="Firefox 1.0" height="136" width="289"><br><img src="images/firefox-oneoh-bottom.png" alt="" height="134" width="289"></a>
+    <a href="http://forum.moztw.org/viewforum.php?f=23" title="向世人推薦你最愛的擴充套件"><img src="images/2004_ff_extselect.png" alt="選出最佳擴充套件" height="240" width="257" style="margin-left: 3em;"></a>
   </div>
   <div id="feature-content">
-    <h2><a href="/firefox/"><img src="images/t_firefox.gif" alt="Firefox 1.0" height="33" width="275"></a></h2>
-    <p>漫長等待終於結束，現在就下載 Firefox 1.0 中文版 － <a href="/firefox/">更快更好的瀏覽器</a>！Firefox 1.0 有數十種語言版本、跨 Windows、MacOS X 及 Linux 等各種平台。 &#8220;I suggest dumping Microsoft's Internet Explorer&#8221; &#8212;&nbsp;<a href="http://ptech.wsj.com/archive/ptech-20040916.html">Walt&nbsp;Mossberg, Wall Street Journal</a>.
-
+    <h2><a href="http://forum.moztw.org/viewforum.php?f=23"><img src="images/t_2004_ff_extselect.gif" alt="Firefox 1.0" height="29" width="278"></a></h2>
+    <p>Firefox 是非常自由的瀏覽器，要什麼功能自己決定！Moztw.org 邀請您選出年度最佳 Firefox 擴充套件，請<a href="http://forum.moztw.org/viewtopic.php?t=5955">到討論區閱覽各參選者資料</a>、與大家分享使用心得，並從中<a href="http://forum.moztw.org/viewtopic.php?t=5961">選出值得推薦的好幫手</a>。
+    <p>還不知道擴充套件是什麼東西？請參考<a href="http://moztw.org/docs/ff/extension">相關介紹</a>或社群成員路人乙的 <a href="http://forum.moztw.org/viewtopic.php?t=4162">擴充套件 Q&amp;A</a>。
 	<div class="download">
-		<h3><strong class="downloadText">免費下載</strong></h3>
+		<h3><strong class="downloadText">免費下載 Firefox 中文版</strong></h3>
  		<div style='background: url(/images/product-firefox.png) no-repeat;'>
 		<!--#include file='dlff-js.shtml' -->
 	</div>
