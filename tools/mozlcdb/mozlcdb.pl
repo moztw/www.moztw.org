@@ -26,12 +26,12 @@
 # MozLCDB: Mozilla Locale Database
 #
 # Project Page: http://moztw.org/tools/mozlcdb/
-# Author:   Hung-Te Lin <piaip@csie.ntu.edu.tw
+# Author:   Hung-Te Lin <piaip@csie.ntu.edu.tw>
 # Original: Fri Sep 17 09:22:48 CST 2004
-# $LastChangedBy$
-# #Date#
-# $Rev#
-# #Id#
+#
+# $Date$
+# $Rev$
+# $Id$
 #
 # The idea:
 # We keep a glossary history database of (orig, trandlated)
