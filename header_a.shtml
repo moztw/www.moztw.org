@@ -2,7 +2,7 @@
 <html lang="zh-tw">
 
 <head>
-<title>Moztw.Org: <!--#if expr="!$my_title" -->Traditional Chinese Localization<!--#else --><!--#echo var="my_title" --><!--#endif --></title>
+<title>Moztw.Org: <!--#if expr="!$my_title" -->Mozilla Traditional Chinese Localization<!--#else --><!--#echo var="my_title" --><!--#endif --></title>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
  <meta name="keywords" content="web browser mozilla firefox firebird camino thunderbird bugzilla user agent web links cool sites">
 
