@@ -167,6 +167,9 @@ Run 'mozlcdb.pl -h' to see its syntax:
 -X ROOT: extract and update files in ROOT, ignore errors.
 -e     : generate latest version of full table from database
 -n ROOT1 ROOT2: init with ROOT1 as en while ROOT2 as tr [CARE]
+-c     : check database
+-r aa-BB DispName: update "contents.rdf" locale entries
+         from en-US to aa-BB with DispName
 </code>
 </ul>
 
@@ -317,6 +320,11 @@ here's how to make it work:
 	Now identify your ROOT. In the case above, it is just 'locale'.
 	<li>Export with: <code>perl mozlcdb.pl -x ROOT </code>
 	For example, <code>perl mozlcdb.pl -x locale </code>
+
+	<li>If you are building a jar with new locale instead of replacing en-US, use
+	<code>perl mozlcdb.perl -r aa-BB "Language Name" ROOT</code>
+	which will update all the 'contents.rdf' in ROOT. However, using a new locale
+	name will require a mechanism of locale switching.
 	<li> Package your ROOT to a jar(ZIP) just like the layout of en-US.jar. <br/>
 	For Windows, use your favorite archiver (WinRAR, or WinZIP, ... etc)<br/>
 	For UNIX:

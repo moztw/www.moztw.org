@@ -4,6 +4,13 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+	<li><div class="date"> 10 月 1 日 </div>
+	提供 <a href='/mozilla'> Mozilla 1,8a4 中文安裝檔(win32, Linux)</a> 
+	與 <a href='/instlp'>語言套件</a>
+	<li><div class="date"> 9 月 29 日 </div>
+	正式把 <a href='/netscape'> Netscape</a>列入主要下載頁
+	<li><div class="date"> 9 月 28 日 </div>
+	提供 FF1.0PR 與 TB0.8 Linux 版的<a href='/dl'>下載</a>
 	<li><div class="date"> 9 月 28 日 </div>
 	開放測試 Netscape 7.2 win32 中文版，目前因測試關係只提供線上安裝檔：
 	<a href='http://www.moztw.org/tmp/ns72setup.exe'> Windows </a> 與

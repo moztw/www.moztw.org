@@ -1,8 +1,11 @@
 <ul class="news">
-	<li><div class="date"> 10 月 1 日 </div>
-	提供 <a href='/mozilla'> Mozilla 1,8a4 中文安裝檔(win32, Linux)</a> 與 <a href='/instlp'>語言套件</a>
-	<li><div class="date"> 9 月 29 日 </div>
-	正式把 <a href='/netscape'> Netscape</a>列入主要下載頁
-	<li><div class="date"> 9 月 28 日 </div>
-	提供 FF1.0PR 與 TB0.8 Linux 版的<a href='/dl'>下載</a>
+	<li style='color: red;'><div class="date"> 10 月 2 日 </div>
+	<a href='http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.10.1/patches/259708.xpi'>安全性更新！</a>請 Firefox 1.0PR 使用者盡速安裝。
+	你可以利用前面的鏈結或是從你的 Firefox 的
+	「工具」「選項」「進階」「軟體更新」「馬上檢查」安裝。<br/>
+	此更新修正<a href='http://www.mozilla.org/press/mozilla-2004-10-01-02.html'
+		>「惡意的網頁可能誘導使用者試圖儲存檔案但實際上卻刪除了下載目錄中的檔案」</a>
+
+	<li><div class="date"> 10 月 2 日 </div>
+	開放下載測試 <a href='/dls/nvu/nvu-0.41-win32-zhTW-installer.exe'> NVU 0.41 中文安裝檔(win32)</a>
 </ul>
