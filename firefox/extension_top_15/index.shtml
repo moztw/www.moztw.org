@@ -184,7 +184,7 @@ function hidden_descript(obj) {
 	</ul>
 	<div class="install-options">列入安裝清單：
 	<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go" value="SuperDragAndGo-0.2.4.xpi" type="checkbox" onclick="return checkDup(3, this.name)">原文版</label>
-	<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go 中文修改版" value="http://forum.moztw.org/download.php?id=637" type="checkbox" onclick="return checkDup(3, this.name)">中文修改版</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go 中文修改版" value="http://forum.moztw.org/download.php?id=509" type="checkbox" onclick="return checkDup(3, this.name)">中文修改版</label>
 	</div>
 	<blockquote>「推薦這個套件的拖曳圖片存檔功能，太方便了！」<cite>--社群成員 BobChao</cite></blockquote>
 	<p>就如同 Maxthon (myIE2) 的「超級拖放（Super Drag and Drop）」功能，用滑鼠拖拉後放開便可達到搜尋、存圖、開啟純文字網址、開新分頁等功能。</p>
