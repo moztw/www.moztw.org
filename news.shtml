@@ -4,6 +4,8 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+	<li><div class="date"> 11 月 21 日 </div>
+	漫長等待終於結束，為您介紹 － <a href='/firefox/'> Firefox 1.0 中文版</a>！
 	<li><div class="date"> 11 月 6 日 </div>
 	<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0rc2/"> Firefox 1.0RC2</a>
 	官方中文版已出爐：
