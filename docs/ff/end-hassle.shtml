@@ -29,6 +29,6 @@
   <ul id="nav">
    <li><a href="/firefox">^回 Firefox 首頁</a></li>
   </ul>
-  <h3><em><a href="http://forum.moztw.org/viewtopic.php?p=12601">本文件由 Bob Chao 撰寫</a>。</em></h3>
+  <p><em><a href="http://forum.moztw.org/viewtopic.php?p=12601">本文件由 Bob Chao 撰寫</a>。</em></p>
 </div>
  <!--#include virtual="/footer.shtml" -->
