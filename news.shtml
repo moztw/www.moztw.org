@@ -6,16 +6,20 @@
 <ul class="news">
 	<li><div class="date"> 9 月 14 日 </div>
 	Firefox 1.0PR 與 Thunderbird 0.8 已發佈，但因為有非常大的改變，
-	中文化仍在製作中。 事實上，其它語言的版本也都還無法出來，
-	請耐心等待。
-	<li><div class="date"> 9 月 10 日 </div> 下載區的搜尋引擎自動安裝之前會出問題，現在已修正。
+	中文化仍在製作中。 事實上，其它語言的版本也都還無法發佈，請耐心等待。
+	<li><div class="date"> 9 月 10 日 </div> 
+	下載區的搜尋引擎自動安裝之前會出問題，現在已修正。
 	<li><div class="date"> 9 月 6 日 </div>
 	網頁大改版，改用 moztw.org 的獨立網域名稱，且所有資源的 URL 網址大風吹。
 	是的，這樣會造成使用舊鏈結的人抓不到檔案，但新的架構與網址結構比較適合
 	未來的成長，所以決定還是要換掉。
-	<li><div class="date"> 9 月 6 日 </div>重建網站。 
-	<li><div class="date"> 9 月 5 日 </div>復原無望，重來一次 :~~~~~~~~~~~~~~~~~~~~
-	<li><div class="date"> 9 月 4 日 </div>SVN 備份失敗，不小心把網站全刪了... :~~~
-	<li><div class="date"> 9 月 3 日 </div><a href="http://moztw.org">網站新樣式</a>
+	<li><div class="date"> 9 月 6 日 </div>
+	重建網站。 
+	<li><div class="date"> 9 月 5 日 </div>
+	復原無望，重來一次 :~~~~~~~~~~~~~~~~~~~~
+	<li><div class="date"> 9 月 4 日 </div>
+	SVN 備份失敗，不小心把網站全刪了... :~~~
+	<li><div class="date"> 9 月 3 日 </div>
+	<a href="http://moztw.org">網站新樣式</a>
 </ul>
 <!--#include virtual='footer.shtml' -->

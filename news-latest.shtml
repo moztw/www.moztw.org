@@ -1,4 +1,7 @@
 <ul class="news">
+	<li><div class="date"> 9 月 28 日 </div>
+	開放測試 Netscape 7.2 win32 中文版，目前因測試關係只提供
+	<a href='http://www.moztw.org/tmp/ns72setup.exe'> 線上安裝檔 </a>
 	<li><div class="date"> 9 月 27 日 </div>
 	開始提供 Firefox 1.0PR 與 Thunderbird 0.8 Win32 中文版的下載
 	<li><div class="date"> 9 月 23 日 </div>

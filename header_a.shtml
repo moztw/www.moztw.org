@@ -2,9 +2,9 @@
 <html lang="zh-tw">
 
 <head>
-<title>Moztw.Org: <!--#if expr="!$my_title" -->Mozilla Traditional Chinese Localization<!--#else --><!--#echo var="my_title" --><!--#endif --></title>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
- <meta name="keywords" content="web browser mozilla firefox firebird camino thunderbird bugzilla user agent web links cool sites">
+ <meta name="keywords" content="web browser mozilla firefox thunderbird localization l10n chinese taiwan zh-TW">
+<title>Moztw.Org: <!--#if expr="!$my_title" -->Mozilla Traditional Chinese Localization, 正體中文/台灣<!--#else --><!--#echo var="my_title" --><!--#endif --></title>
 
  <link rel="stylesheet" type="text/css" href="/css/print.css" media="print">
  <link rel="stylesheet" type="text/css" href="/css/base/content.css" media="all">
@@ -14,6 +14,7 @@
  <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
  <link rel="home" title="Home" href="http://www.moztw.org/">
+ <link rel="alternate" type="application/xml" title="RSS" href="/xmlnews.rdf">
  <style type='text/css'>
  <!--
  @import url(/css/moztw.css);
