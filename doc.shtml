@@ -7,11 +7,11 @@
 	<ul>
 		<li><a href='docs/usage/uifont'>設定操作界面(選單、狀態列)的字型大小</a>
 		<li><a href='docs/moz/getstarted'> 開始使用 Mozilla </a>
-		<li><a href='docs/ff/errNoXblBinding'>解決「No XBML Binding 錯誤」</a>
+		<li><a href='docs/ff/errNoXblBinding'>解決「No XBL Binding 錯誤」</a>
 	</ul>
 	<h3> Firefox 專屬文件 </h3>
 	<ul>
-		<li><a href='docs/ff/errNoXblBinding'>解決「No XBML Binding 錯誤」</a>
+		<li><a href='docs/ff/errNoXblBinding'>解決「No XBL Binding 錯誤」</a>
 		<li><a href='docs/ff/roadmap1.0'>Firefox 1.0 開發準則</a>
 	</ul>
 	<h3> Thunderbird 專屬文件 </h3>
