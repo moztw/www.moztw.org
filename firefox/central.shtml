@@ -1,6 +1,11 @@
 <!--#set var="my_title" value="Mozilla Firefox - Firefox Central" -->
-<!--#include virtual="/header.shtml" -->
-
+<!--#include virtual="/header_a.shtml" -->
+<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/print.css"  media="print">
+<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/base/content.css"  media="all">
+<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/cavendish/content.css" title="Cavendish" media="screen">
+<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/base/template.css"  media="screen">
+<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/css/cavendish/template.css" title="Cavendish" media="screen">
+<!--#include virtual="/header_b.shtml" -->
 <div id="main">
 
 <div class="key-point">
