@@ -1,6 +1,6 @@
 <!--#set var="page_class" value="homepage" -->
 <!--#include virtual="/header_a.shtml" -->
-<style type="css/text">
+<style type="text/css">
 <!--
 #firefox-feature #feature-content {
 	padding-right: 290px;
