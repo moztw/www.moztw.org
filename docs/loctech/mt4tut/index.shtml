@@ -1,12 +1,14 @@
+<!--#include virtual='/header.shtml' -->
+<pre>
 This tutorial is written by piaip@csie.ntu.edu.tw
 
 
 On Fri, 12 Jan 2001, Helgi Hrafn Gunnarsson wrote:
 
-> > > instructions on how to use this program. Mozilla is already in
-> > > version 0.7, and I would really, *really* like to have an
-> > > Icelandic version of 1.0.
-> > Perhaps, we need a more detailed documentation about MozillaTranslator.
+&gt; &gt; &gt; instructions on how to use this program. Mozilla is already in
+&gt; &gt; &gt; version 0.7, and I would really, *really* like to have an
+&gt; &gt; &gt; Icelandic version of 1.0.
+&gt; &gt; Perhaps, we need a more detailed documentation about MozillaTranslator.
 
    I've also get confused with MozillaTranslator before...
    So here is my experience, hope this helps...
@@ -26,7 +28,7 @@ I'll take Windows versions as example:
      Seamonkey\
         +------- chrome\
 	+------- components\
-`	+------- default\
+	+------- default\
 	+------- Plugins\
 	    .
 	    .
@@ -58,7 +60,7 @@ I'll take Windows versions as example:
   You must have Java JRE(or JDK) 1.3 installed to run MozillaTranslator 4.
 
   Now go to C:\Mozilla\mt4 and run
-    C:\Mozilla\mt4> javaw -jar mt4nn.jar
+    C:\Mozilla\mt4&gt; javaw -jar mt4nn.jar
 
   Java is slow, but finally you should see a GUI window with title 
   'Mozilla Translator, Version 4.xx', that's it. I'm using 4.36 to
@@ -68,7 +70,7 @@ I'll take Windows versions as example:
 
   The 'Installs' in MT4 means the Mozilla you've installed.
   Now use menu: 
-    File -> Manage Installs, then 'Add'
+    File -&gt; Manage Installs, then 'Add'
   You can enter Mozilla's version for the 'Name' field, eg: 'Mozilla R0.7'  
   And for the 'Location', we have to give it the location of locale bundles.
 
@@ -80,7 +82,7 @@ I'll take Windows versions as example:
   So after you've filled 'Name' and 'Location' fields, press 'OK' then 'Exit'.
 
   Now use menu:
-    File -> Update Install
+    File -&gt; Update Install
   Everytime you've downloaded a new build of Mozilla, you have to do 'Update 
   Install' once. It will merge new locale strings with your previous work.
 
@@ -91,14 +93,15 @@ I'll take Windows versions as example:
 
   If you success, you'll see a window titled 'Changed Strings' with
   lots of strings listed. If you see nothing, you've set wrong location.
-  Go back (Manage Installs->Edit)and try again.
+  Go back (Manage Installs-&gt;Edit)and try again.
 
 --- 4. Using Mozilla Translator 4
 
+<img src='chromeview.png' alt='screenshot'>
   Each time you start MT4, you can start you work by selecting one browse
   method from menu 'Edit'.
 
-    Edit -> Chrome View
+    Edit -&gt; Chrome View
          |- Untranslated strings
 	 |- Reddundant strings
 	 |- Edit select phrase
@@ -129,7 +132,7 @@ I'll take Windows versions as example:
    +-necko
   Each maintains a part of Mozilla string resources. 
   Double-click on an item collapses it. Now try to open
-  Communicator->bookmarks->,
+  Communicator-&gt;bookmarks-&gt;,
      you'll see files like 'bm-find.dtd', 'bm-props.dtd' ....
   Click on them will bring its contents on the right panel of the window.   
 
@@ -144,7 +147,7 @@ I'll take Windows versions as example:
   you change selection on the tree-view.
 
   Also remember to 'Save glossary' when you leave. If the 'X' button does
-  not work, select menu: File->Quit.
+  not work, select menu: File-&gt;Quit.
 
 --- 5. Try and Commit your work
  
@@ -158,7 +161,7 @@ I'll take Windows versions as example:
   Let me explain in detail. Take locale zh-TW for example, the first time
   you wanna try it you have to install and register a new locale for your
   Mozilla. So use MT4 menu:
-   Export -> Write XPI
+   Export -&gt; Write XPI
 
    Enter where you want to save the XPI to 'Save to' field, eg:
      C:\Mozilla\mt4\langzhtw.xpi
@@ -176,7 +179,7 @@ I'll take Windows versions as example:
 
    Now start up your mozilla, and browse c:\Mozilla\mt4, then
    double click on 'langzhtw.xpi'. After installation restart Mozilla,
-   and you should see your new locale in View -> Select languages
+   and you should see your new locale in View -&gt; Select languages
    Select it and restart, you should see a localized Mozilla now.
 
    To submit the langpack you must mail langXXYY.xpi to tao@netscape.com
@@ -196,8 +199,10 @@ I'll take Windows versions as example:
    like me before :)
 
 			Francis S.Lin
-			<piaip@csie.ntu.edu.tw>, Fri Jan 12 22:22:09 2001
+			&lt;piaip@csie.ntu.edu.tw&gt;, Fri Jan 12 22:22:09 2001
 
 
 --
 	piaip, Francis.S.Lin
+</pre>
+<!--#include virtual='/footer.shtml' -->
