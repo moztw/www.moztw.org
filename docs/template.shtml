@@ -1,0 +1,5 @@
+<!--#include virtual='/header.shtml' -->
+<div class='article'>
+<H1></H1>
+</div>
+<!--#include virtual='/footer.shtml' -->

@@ -1,0 +1,20 @@
+<!--#include virtual='/header.shtml' -->
+<div class='article'>
+<H1>關於文件物件模型(DOM)</H1>
+<a href='http://www.mozilla.org/docs/dom/about/'>About the Document Object Model</a>
+<h3>什麼是 DOM？</h3>
+<p>
+文件物件模型（Document Object Model，DOM）是給 HTML 與 XML 文件使用的一組 API。它提供了文件的結構表述（representation），讓你可以更動其中的內容及可見物。其本質是建立網頁與 Script 或程式語言溝通的橋樑。
+<p>
+所有網頁設計師可操作及建立文件的屬性、方法及事件都以[物件]來展現（例如，document 就代表「文件本身」這個物件，table 物件則代表 HTML 的表格物件等等）。這些物件可以由當今大多數的瀏覽器以 Script 來取用。
+<p>
+DOM 最常被用以[與 JavaScript 溝通]，也就是說雖然程式以 JavaScript? 寫成，但使用 DOM 來存取頁面及其元素。無論如何，DOM 本身是設計為一種獨立的程式語言，以一致的 API 存取文件的結構表述；是以雖然本站的焦點放在 JavaScript? 上，但 DOM 其實可以與[任何程式語言]共同運作。
+<p>[全球資訊網協會]（World Wide Web Consortium，W3C）建立了 [DOM] 的標準，稱之為「W3C DOM」。在當今主要瀏覽器都已正確實作的情況下，W3C DOM 使強大、跨瀏覽器的應用程式成真。這是眾網頁設計師在 Netscape 4 與 MSIE 多不相容的時代從未夢想過的事情。
+<h3>為什麼在 Mozilla 中支援 DOM 如此重要？</h3>
+<p>
+某些提倡者以「動態 HTML」這個字眼描述 HTML、樣式表及 script 程式語言三者結合，讓文件栩栩如生。W3C DOM WG（Working Group）為此致力於建立可互聯並中立於各程式語言之外的解決方案（參見 [W3C 常見問題集]）。 Mozilla 自許為「網際網路應用程式平台」，支援 DOM 便成為最需要的功能之一，也是 Mozilla 與其他瀏覽器競爭之時的必備要件。現在我們對 W3C DOM 的支援已然技冠群雄，但依然有人可以找出我們實做中的缺失，揮舞「Mozilla 爛透了」的旗幟。
+<p>
+我們的重點在於，我們需要你的幫助才能讓 Mozilla 成為眾所皆知、網頁設計中的最佳平台。這也就是為何要有「[如何貢獻]」等文章的原因 ;-)。
+
+</div>
+<!--#include virtual='/footer.shtml' -->

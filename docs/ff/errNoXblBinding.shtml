@@ -1,0 +1,92 @@
+<!--#include virtual='/header.shtml' -->
+<div class='article'>
+<p><a href="source:http://www.mozilla.org/products/firefox/releases/fix-extensions.html">source:http://www.mozilla.org/products/firefox/releases/fix-extensions.html</a></p>
+
+
+<h2>我開不了 Firefox！</h2>
+<p>你下載並安裝了 Firefox 0.8，但試著啟動它時卻出現了這樣的字句：</p>
+
+<p><strong> Error launching browser <a href="[window:no window:no]">window:no</a> XBL binding for browser </strong></p>
+
+<p><img src="http://www.mozilla.org/products/firefox/releases/xblerror/noxblbinding.png" alt="noxblbinding.png" /></p>
+
+
+<p>這是因為你自前一版的 Firefox、Firebird 或 Phoenix 時安裝了一些與現今版本不相容的擴充套件（像是 Tabbrowser Extensions）。</p>
+
+
+<h3>如何修復</h3>
+<h4>於 Windows:</h4><ol><li>開啟<strong>「我的電腦」</strong>。
+</li>
+<li>打開<strong>「本機磁碟（C:）」</strong>（或你使用者設定檔儲存之磁碟）。(<a href="http://www.mozilla.org/products/firefox/releases/xblerror/findingprofile-1.png">[Show Me]</a>)
+</li>
+<li>開啟<strong>「Documents and Settings」</strong>資料夾。(<a href="http://www.mozilla.org/products/firefox/releases/xblerror/findingprofile-2.png">[Show Me]</a>)
+</li>
+<li>開啟以你 Windows 使用者名稱為名的資料夾。(<a href="http://www.mozilla.org/products/firefox/releases/xblerror/findingprofile-3.png">[Show Me]</a>)
+</li>
+<li>開啟功能表的<strong>「工具」</strong>並選擇<strong>「選項...」</strong>。(<a href="http://www.mozilla.org/products/firefox/releases/xblerror/findingprofile-4.png">[Show Me]</a>)
+</li>
+<li>按下<strong>「檢視」</strong>分頁、確定<strong>「進階設定」</strong>中的<strong>「顯示所有檔案和資料夾」</strong>已被選取，接著請按下<strong>「確定」</strong>來關閉該面板。 (<a href="http://www.mozilla.org/products/firefox/releases/xblerror/findingprofile-5.png">[Show Me]</a>)
+</li>
+<li>現在你應可看見有個名為<strong>「Application Data」</strong>的資料夾，請打開它。(<a href="http://www.mozilla.org/products/firefox/releases/xblerror/findingprofile-6.png">[Show Me]</a>)
+</li>
+<li>開啟<strong>「Phoenix」</strong>資料夾。(<a href="http://www.mozilla.org/products/firefox/releases/xblerror/findingprofile-7.png">[Show Me]</a>)
+</li>
+<li>開啟<strong>「Profiles」</strong>資料夾。(<a href="http://www.mozilla.org/products/firefox/releases/xblerror/findingprofile-8.png">[Show Me]</a>)
+</li>
+<li>開啟那個叫做<strong>「default」</strong>的資料夾。（如果你正使用別的 Firefox 使用者設定檔，請開啟與其名相符之資料夾。）(<a href="http://www.mozilla.org/products/firefox/releases/xblerror/findingprofile-9.png">[Show Me]</a>)
+</li>
+<li>開啟那個有著一串奇怪字元並帶著「.slt」附檔名的資料夾。(<a href="http://www.mozilla.org/products/firefox/releases/xblerror/findingprofile-10.png">[Show Me]</a>)
+</li>
+<li>找出<strong>「chrome」</strong>資料夾。(<a href="http://www.mozilla.org/products/firefox/releases/xblerror/findingprofile-11.png">[Show Me]</a>)
+</li>
+<li>將<strong>「chrome」</strong>資料夾更換成其他像是<em>「chrome-backup」</em>等的名稱。(<a href="http://www.mozilla.org/products/firefox/releases/xblerror/findingprofile-12.png">[Show Me]</a>)
+</li>
+<li>關閉檔案總管視窗，重新啟動 Firefox 試試。
+</li>
+</ol>
+
+<p>如果是過以上步驟後仍舊出現相同的錯誤，請先徹底移除 Firefox，接著將安裝 Firefox 程式的資料夾（像是 <a href="[C:\Program C:\Program]">C:\Program</a> Files\Mozilla Firefox）完全刪除，之後再重新安裝 Firefox。</p>
+
+
+<h4>於 MacOS X：</h4><ol><li>開啟你的<strong>「Home」</strong>資料夾。
+</li>
+<li>打開稱為<strong>「Library」</strong>的資料夾。
+</li>
+<li>打開稱為<strong>「Phoenix」</strong>的資料夾。
+</li>
+<li>打開稱為<strong>「Profiles」</strong>的資料夾。
+</li>
+<li>打開稱為<strong>「default」</strong>的資料夾。（如果你正使用別的 Firefox 使用者設定檔，請開啟與其名相符之資料夾。）
+</li>
+<li>開啟那個有著一串奇怪字元並以<strong>「.slt」</strong>作為結尾的資料夾。
+</li>
+<li>找出<strong>「chrome」</strong>資料夾，將它更換成像是<em>「chrome-backup」</em>等其他名稱。
+</li>
+<li>關閉 Finder 視窗，重新啟動 Firefox。
+</li>
+</ol>
+
+<h4>於 Unix：</h4><ol><li>開啟一個終端機視窗（terminal），以 cd 命令切換到<strong>「~/.phoenix/」</strong>目錄
+</li>
+<li>以 cd 命令切換到稱為<strong>「default」</strong>的目錄。（如果你正使用別的 Firefox 使用者設定檔，請以 cd 命令切換到與設定檔名相符之目錄。）
+</li>
+<li>以 cd 命令切換到那個有著一串奇怪字元並以「.slt」作為結尾的目錄。
+</li>
+<li>將<strong>「chrome」</strong>目錄以<strong>「mv chome chrome-backup」</strong>命令更換為 chrome-backup 或其他名稱。
+</li>
+<li>關閉終端機視窗，重新啟動 Firefox。
+</li>
+</ol>
+
+<h4>備註：</h4><p>你永遠不該將新版 Firefox 直接安裝在過去存放舊版的目錄之中，請先移除舊版，接著將過去曾安放舊版本的安裝目錄刪除。</p>
+
+
+<p>在安裝某個釋出版本或在我們的支援討論區之前請一定要先閱讀<a href="http://noellab.net/ernest/tavi/index.php?page=BC_MFReleases">釋出備註</a>，它們涵括了有用及緊要的資訊。</p>
+
+
+<p>這個問題在未來的 Firefox 版本（希望是 0.9）中便該消失，那時 Firefox 應能自動處理不相容的擴充套件。</p>
+
+</div>
+</div>
+</div>
+<!--#include virtual='/footer.shtml' -->
