@@ -1,4 +1,4 @@
-<!--#include virtual='../header.shtml' -->
+<!--#include virtual='/header.shtml' -->
     <b>
 	From: "yawnp" <a href="mailto:yawanp@ma.ks.edu.tw">
 	    &lt;yawnp@ma.ks.edu.tw&gt;</A> <br>
@@ -155,4 +155,4 @@ To edit your personal information or privacy options, including whether you want
 to receive other Netscape mailings, please go to the Netscape Member 
 Center.<BR><A 
 href="http://home.netscape.com/netcenter/membercenter.html">http://home.netscape.com/netcenter/membercenter.html</A></FONT></DIV>
-<!--#include virtual='../footer.shtml' -->
+<!--#include virtual='/footer.shtml' -->
