@@ -7,6 +7,7 @@ use strict;
 
 my $fnLatest = '/home/moztw/htdocs/news-latest.shtml';
 my $fnAll = '/home/moztw/htdocs/news.shtml';
+my $maxEntries = 10;
 
 my $HTTP_HEADER=<<HERE;
 Content-Type: text/xml; charset=UTF-8
@@ -80,8 +81,8 @@ if (@ARGV == 1) {
 	print $HTTP_HEADER;
 }
 print $RDF_HEADER;
-my $i = 0;
-for (reverse @ents) {
+my $i = 1;
+foreach (@ents) {
 	my %e = %{$_};
 	print '<item>';
 	for my $k (keys %e) {
@@ -92,7 +93,7 @@ for (reverse @ents) {
 		print "<$k>$v</$k>";
 	}
 	print "</item>\n";
-	last if($i++ > 10);
+	last if(++$i > $maxEntries);
 }
 print $RDF_FOOTER;
 close STDOUT;

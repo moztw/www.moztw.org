@@ -92,9 +92,13 @@ div#firefox-feature div.download{
 
 
 /* fix up */
+.download strong {
+	color: #290;
+}
 a#featurelink { background: none;  }
 #firefox-feature li a {
-	padding: 1px 0 1px 40px;
+	padding: 1px 0 1px 5px;
+	margin-left: 40px;
 }
 
 .news .date {

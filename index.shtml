@@ -29,7 +29,6 @@
     <a href="thunderbird"><img src="images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
 	<p><a href="thunderbird">Thunderbird</a> 
 	是 Mozilla 家族新生代的 e-mail 程式，具有完整的功能，與最新的垃圾信控制。</p>
-	<p>最新版本： <a href='thunderbird'> Thunderbird 0.8 </a>
   </div>
   <div class="frontcolumn">
     <h2><a href="mozilla">Mozilla </a></h2>
@@ -39,7 +38,7 @@
 	為新時代設計的網路瀏覽器、進階的 e-mail 與 news 管理程式、 IRC 線上交談、與簡易的 HTML 編輯工具。
   </div>
   <div class="frontcolumnlast">
-    <h2><a href="netscape">Netscape</a></h2>
+    <h2><a href="netscape">Netscape 7.2</a></h2>
     <a href="netscape"><img src="images/product-front-netscape.png" alt="Netscape" class="promo" width="60" height="60"></a>
     <p><a href="netscape">Netscape</a>,
     由 moztw.org 提供的 Netscape 非官方中文化版本
