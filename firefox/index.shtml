@@ -1,5 +1,5 @@
 <!--#set var="my_title" value="Mozilla Firefox - rediscover the web!" -->
-<!--#set var="page_class" value="moztw" -->
+<!--#set var="page_class" value="deepLevel" -->
 <!--#include virtual="/header.shtml" -->
 	<div class="key-point">
 		<div id="product-desc" class="product-firefox">
