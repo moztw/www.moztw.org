@@ -1,0 +1,90 @@
+<!--#include file="header.shtml" -->
+<div><div id="mainContent" class="right">
+	<h1 style="font-family: Courier;" id="about-moztw">關於本站 moztw.org </h1>
+	<p> moztw.org 是台灣專屬於 <a href='http://www.mozilla.org'>Mozilla</a> 相關資訊的網站，
+	於 2004 年九月正式開張。目前本站管理、維護 Mozilla 的正體中文語言套件(Language
+	Pack) 跟已本地化 (Localized) 的安裝檔，提供 <a href='http://www.moztw.org'>WWW (下載、文件)</a>與
+	<a href='http://forum.moztw.org'>討論區</a> 等服務。關於本站定位及其他服務還在規畫中，
+	歡迎給予建議與指教！</p>
+	<p>moztw.org 網站上的內容皆由社群成員提供，由
+	<a href="mailto:piaip@csie.ntu.edu.tw?subject=moztw:">
+		林弘德 (piaip, Hung-Te Lin)</a> 
+	及 <a href="mailto:bobchao@ms1.url.com.tw?subject=moztw:">
+		趙柏強 (Bob, Po-Chiang Chao)</a> 維護。提供的服務清單如下：</p>
+	<ul>
+	<li><a href="/dl">Mozilla 相關中文軟體下載</a></li>
+	<li><a href="/doc">說明及文件</a></li>
+	<li><a href="http://forum.mozilla.org">社群討論區</a></li>
+	<li><a href="http://wiki.mozilla.org">社群共筆系統</a></li>
+	</ul>
+	
+	<h3>我有問題</h3>
+	若您有關於軟體使用上的問題：
+	<ul><li>可至 <a href='http://www.mozilla.org'>mozilla.org</a> 網站查詢
+	<li>或可查閱<a href="/doc">本站文件區</a>
+	<li>也可利用<a href='forum'> Mozilla@Taiwan 討論區 </a> ， 
+	有很多熱心的使用者願意分享經驗。</li>
+	</ul>
+	<h3>報告錯誤</h3>
+	程式上的錯誤或是建議請直接到 
+	<a href='http://bugzilla.mozilla.org/enter_bug.cgi'> Bugzilla </a> 提出。
+	這裡主要處理中文語言套件相關 (翻譯或使用) 或是中文安裝版
+	(請確定只發生在中文版而英文版不會發生) 的問題，謝謝。
+	
+	<h2 style="font-family: Courier;" id="about-mozilla">關於 mozilla.org</h2>
+	<p>Mozilla 專案是個非營利開放原始碼活動，任務是維持網際網路的自由選擇與創新。
+	此專案由 <a href="http://www.mozilla.org" hreflang="en">Mozilla 基金會</a>
+	（美國）、<a href="http://www.mozilla-europe.org/">Mozilla Europe</a>（歐洲）
+	與 <a href="http://www.mozilla-japan.org/" hreflang="ja">Mozilla Japan</a>（日本）
+	等組織支援並推動運行，全球有數千名志工參與其中。<br/><br/><a href="http://www.mozilla.org/about/">詳盡資訊(英文)</a></p>
+	
+	<h2 id="host">關於此網路主機</h2>
+	<p> 為了提供更好的穩定性與更大的網路頻寬及空間，目前主機是由 
+	<a href="http://www.sinica.edu.tw">中央研究院(sinica)</a>
+	<a href="http://www.iis.sinica.edu.tw"> 資訊科學研究所(iis)</a>
+	<a href="http://www.openfoundry.org/"> 自由軟體鑄造場(OSSF)</a>
+	所提供。<br/>
+	也感謝台大資訊系到 2004/08 前的支援。<br/>
+	<br/>
+	<A href='/awstats'>流量與相關統計資料</A>
+	</p>
+
+	<h2 id="page-style">關於網頁樣式</h2>
+	<p>網站的樣式是修改自 Mozilla.org ，在取得原作者同意後作為 Mozilla 中文站的樣式。</p>
+	
+	<h2 id="license">軟體授權問題</h2>
+	<p>Mozilla 產品 (Mozilla, Mozilla Firefox, Mozilla Thunderbird) 採 Mozilla Public License 授權。moztw.org 為 mozilla.org 維護中文本地化專案，軟體授權問題請直接<a href="http://www.mozilla.org">聯絡 mozilla.org</a> 處理。</p>
+	<ul>
+	  <li><a href="http://www.mozilla.org/foundation/trademarks/">Mozilla 授權專區</li>
+	  <li>如果您欲使用 Mozilla 相關商標（包括 Firefox 及 Thunderbird 圖示等），請參考 <a href="http://www.mozilla.org/foundation/trademarks/index.html">Mozilla 商標使用政策</a></li>
+	</ul>	
+	
+	<h2 id="contact">聯絡資訊</h2>
+	<fieldset>
+		<legend>林弘德 (piaip, Hung-Te Lin)</legend>
+		<b>WWW:</b>&nbsp;  <a href='http://ntu.csie.org/~piaip/'> http://ntu.csie.org/~piaip/ </a><br/>
+		<b>E-mail:</b>&nbsp; piaip at csie dot ntu dot edu dot tw<br/>
+		主要負責語言套件的維護、各版本的製作、程式與除錯等等
+	</fieldset>
+	<fieldset>
+		<legend>趙柏強 (Bob, Po-Chiang Chao)</legend>
+		<b>WWW:</b>&nbsp;  <a href='http://leolo.ath.cx/~bobchao/'> http://leolo.ath.cx/~bobchao/ </a><br/>
+		<b>E-mail:</b>&nbsp; bobchao at ms1 dot url dot com dot tw<br/>
+		主要負責網站的維護及文件的編輯統整
+	</fieldset>
+
+	</div>
+	
+	<div id="side" class="right">
+	      <ul id="nav">
+	        <li><a href="#about-moztw">關於本站 moztw.org</a></li>
+	        <li><a href="#about-mozilla">關於 mozilla.org</a></li>
+	        <li><a href="#host">關於此網路主機</a></li>
+	        <li><a href="#page-style">關於網頁樣式</a></li>
+	
+	        <li><a href="#license">軟體授權問題</a></li>	
+	        <li><a href="#contact">聯絡資訊</a></li>
+	      </ul>
+	</div>
+</div>
+<!--#include file="footer.shtml" -->

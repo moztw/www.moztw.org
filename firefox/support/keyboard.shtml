@@ -5,7 +5,7 @@
 <ul id="nav">
 <!--        <li><span><a href="index.html">Firefox Help</a></span>
         <ul>
-                <li><a href="faq.html" id="linkfaq" >Mozilla Firefox 常問集</a></li>
+                <li><a href="faq.html" id="linkfaq" >Mozilla Firefox 常見問題</a></li>
                 <li><a href="tips.html" id="linktips" >使用秘訣</a></li>
                 <li><a href="keyboard.html" id="linkkeyboard" >鍵盤捷徑</a></li>
                 <li><a href="mouse.html" id="linkmouse" >滑鼠捷徑</a></li>
