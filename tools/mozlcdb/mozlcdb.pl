@@ -107,7 +107,9 @@ sub importFile { # {{{
 				# make it with higher priority in history.
 				my $ts = $now;
 				if (exists $db{$fn}{$k}{$lk}{'tr'} ||
-					$db{$fn}{$k}{$lk}{'keep'}) {
+					(exists $db{$fn}{$k}{$lk}{'keep'} &&
+						exists $db{$fn}{$k}{$lk}{'keep'} == 1)
+					) {
 					$ts--; # because =now will output
 				}
 				$db{$fn}{$k}{$ts} = $db{$fn}{$k}{$lk};
@@ -316,7 +318,7 @@ sub updateFromCurrent { # update from current results {{{
 			if (!exists $db{$f}) {
 				if($flForceImport) {
 					# generate it
-					$db{$1} = {};
+					$db{$f} = {};
 				} else {
 					print STDERR "Unknown [FILE]: stop at L$lineno: $l\n";
 					exit(-1);
@@ -332,7 +334,7 @@ sub updateFromCurrent { # update from current results {{{
 			} elsif ($k eq 'id') { # new entry
 				$id = $v;
 				$en = $tr = $cm = $kp = undef;
-				if (!exists $db{$f}{$v}) {
+				if (!exists $db{$f}{$id}) {
 					if ($flForceImport) {
 						$db{$f}{$v} = { $now => {} };
 						if ($v eq '') {
@@ -344,11 +346,15 @@ sub updateFromCurrent { # update from current results {{{
 						print STDERR "Unknown id=$v: stop at L$lineno: $l\n";
 						exit(-1);
 					}
+				} else {
+					my %hist = %{$db{$f}{$id}};
+					my @hist = &reverseTimestamps(keys(%hist));
+					$ts = $hist[0];
 				}
-				my %hist = %{$db{$f}{$id}};
-				my @hist = &reverseTimestamps(keys(%hist));
-				$ts = $hist[0];
-				$ts ||= $now if ($flForceImport);
+				if (!defined $ts) {
+					print STDERR "[ERROR]: Program internal error (DB has 0 entry)\n";
+					exit(-1);
+				}
 				$olds ++;
 			} elsif (!defined $id) {
 				print STDERR "You must have id=KEY first: stop at L$lineno: $l\n";
@@ -365,19 +371,34 @@ sub updateFromCurrent { # update from current results {{{
 				}
 				if ($db{$f}{$id}{$ts}{'en'} ne $v) {
 					print STDERR "[WARN] en(original) not match. Not sync? [$f:$id]\n";
-				   print STDERR " Orig=[$db{$f}{$id}{$ts}{en}]\n Dest=[$v]\n";
+					print STDERR " Orig=[$db{$f}{$id}{$ts}{en}]\n Dest=[$v]\n";
 					if (!$flForceImport) {
 						print STDERR " stop at L$lineno: $l\n";
 						exit(-1);
 					} else {
-						# force to upgrade.
-						while (exists $db{$f}{$id}{$ts}) {
-							$ts --;
+						# try to lookup all in ForceImport mode
+						my %hist = %{$db{$f}{$id}};
+						my @hist = &reverseTimestamps(keys(%hist));
+						foreach my $h (@hist) {
+							my $lastmsg = $db{$f}{$id}{$h}{'en'};
+							if($lastmsg eq $v) {
+								$ts = $h;
+								last;
+							}
 						}
-						$db{$f}{$id}{$ts} = $db{$f}{$id}{$now};
-						$db{$f}{$id}{$now} = {};
-						$db{$f}{$id}{$now}{en} = $v;
-						$ts = $now;
+						# ts = old ts = a record with $v equal.
+						if ($db{$f}{$id}{$ts}{'en'} ne $v) {
+							# force to upgrade. Add a new record.
+							$ts = $now;
+							$db{$f}{$id}{$ts} = { 
+								'en' => $v
+							};
+						} else {
+							# found. Reorder it.
+							$db{$f}{$id}{$now} = $db{$f}{$id}{$ts};
+							delete $db{$f}{$id}{$ts};
+							$ts = $now;
+						}
 					}
 				}
 			} elsif (!defined $en) {
