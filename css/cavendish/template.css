@@ -1,3 +1,5 @@
+/* update to 1.9 */
+
 /* mozilla.org Cavendish Template Styles
  * Initial Design by Daniel Burka and Steven Garrity
 */
@@ -69,17 +71,11 @@
 	#header ul li:hover a { background-position: 0% -400px; }
 	#header ul li:hover { background-position: 100% -400px; }
 	
-	body.sectionAbout li#menu_aboutus,
-	body.sectionProducts li#menu_products,
-	body.sectionSupport li#menu_support,
-	body.sectionDevelopers li#menu_developers {
-		background-position: 100% -200px;
-	}
-	
 	body.sectionAbout li#menu_aboutus a,
 	body.sectionProducts li#menu_products a,
 	body.sectionSupport li#menu_support a,
-	body.sectionDevelopers li#menu_developers a {
+	body.sectionDevelopers li#menu_developers a,
+	body.sectionStore li#menu_store a {
 		background-position: 0% -200px;
 		color: #039;
 	}
@@ -87,21 +83,25 @@
 	body.sectionAbout li#menu_aboutus,
 	body.sectionProducts li#menu_products,
 	body.sectionSupport li#menu_support,
-	body.sectionDevelopers li#menu_developers {
+	body.sectionDevelopers li#menu_developers,
+	body.sectionStore li#menu_store {
+		border-bottom: 1px solid #fff;
 		border-bottom: 1px solid #fff;
 	}
 	
 	body.sectionAbout li#menu_aboutus:hover,
 	body.sectionProducts li#menu_products:hover,
 	body.sectionSupport li#menu_support:hover,
-	body.sectionDevelopers li#menu_developers:hover {
+	body.sectionDevelopers li#menu_developers:hover,
+	body.sectionStore li#menu_store:hover {
 		background-position: 100% 0%;
 	}
 	
 	body.sectionAbout li#menu_aboutus:hover a,
 	body.sectionProducts li#menu_products:hover a,
 	body.sectionSupport li#menu_support:hover a,
-	body.sectionDevelopers li#menu_developers:hover a {
+	body.sectionDevelopers li#menu_developers:hover a,
+	body.sectionStore li#menu_store:hover {
 		background-position: 0% 0%;
 		color: #333;
 	}
@@ -160,7 +160,7 @@
 	}
 	#nav:after {
 		display: block;
-		clear: both;
+
 		padding-top: 0;
 		line-height: 0.1;
 		font-size: 1px;
@@ -212,6 +212,10 @@
 		background: #E0E9E9;
 	}
 	
+	#nav li li span { /* used for un-linked menu items */
+		padding: 4px 8px 4px 20px;
+	}
+	
 	#nav li li a {
 		padding: 4px 8px 4px 20px;
 	}
@@ -226,7 +230,7 @@
 /* Footer */
 
 	#footer {
-		border-top: 1px solid #666;
+		border-top: 1px solid #999;
 		margin: 2em 0;
 		padding: 1em 0;
 		text-align: center;

@@ -1,3 +1,4 @@
+/* update to 1.14*/
 /* mozilla.org MezzoTan Content Styles
  * Initial Design by Dave Shea
  * Reorganized and Expanded to include Markup Reference classes by fantasai
@@ -84,6 +85,10 @@
 		font-family: arial, verdana, sans-serif;
 	}
 
+	li h1, li h2, li h3, li h4, li h5, li h6 {
+		border: none;
+	}
+
 	#header h1 { border: 0; }
 
 	h1 { font-size: 160%; font-weight: normal; }
@@ -92,13 +97,13 @@
 	h4 { font-size: 100%; }
 	h5 { font-size: 90%; }
 	h6 { font-size: 90%; border: 0; }
-	
+
 /* Navigation */
 
-        a:link { color: #039; }
-        a:visited { color: #636; }
-        a:hover { color: #333; }
-        a:active { color: #000; }
+        :link { color: #039; }
+        :visited { color: #636; }
+        :link:hover, :visited:hover { color: #333; }
+        :link:active, :link:active { color: #000; }
 
 /* Quotations */
 
@@ -109,11 +114,11 @@
 		color: #666;
 		font-style: normal;
 	}
-	
+
 	.remark {
 		color: #666;
 	}
-	
+
 	.sidenote {
 		border: #666;
 	}
@@ -144,12 +149,12 @@
 		height: 8px;
 		background: transparent url("../../images/key-point_br.gif") scroll no-repeat bottom right ;
 	}
-	
+
 	.key-point h2, .key-point h3, .key-point h4, .key-point h5 {
 		border: none;
 		margin-top: 0;
 	}
-	
+
 	.news dt {
 		font-weight: normal;
 		color: #666;
@@ -157,19 +162,17 @@
 	.news dt a {
 		font-weight: bold;
 	}
-	
+
 	ul.compact {
 		margin-left: 0;
 		padding-left: 20px;
 	}
-			
+
 /* Emphasis */
 
 /* Computers - General */
 
 	kbd {
-		margin: 0.1em;
-		padding: 0.1em;
 		border: 1px #ccc;
 	}
 
@@ -185,7 +188,7 @@
 		padding: 0.1em;
 		background: #EEECF6;
 	}
-	
+
 	code > em,
 	code > strong,
 	pre.code > em,
@@ -204,19 +207,16 @@
 
 /* Tables */
 
-	table.data {
-		border-style: none hidden;
-	}
-	
-	table.data thead {
-		 background: #EEECF6;
+	table.data thead th {
+		background: #e4ecec;
+		empty-cells: hide;
 	}
 
 	table.data th,
 	table.data td {
-		border: 1px dotted #D6CCBD;
+		border: 1px solid #ccc;
 	}
-	
+
 	tr.odd {
 		background: #F5F5F5;
 	}
@@ -228,7 +228,7 @@
 	}
 
 /* Product Specific CSS */
-	
+
 	.productlist h3 {
 		border: none;
 	}
@@ -236,37 +236,37 @@
 	.key-point h3 {
 		margin: 0;
 	}
-	
+
 	#product-desc h2 {
 		text-indent: -700em;
 		height: 25px;
 		line-height: 2px;
 		font-size: 2px;
 	}
-	
+
 	#product-desc p {
 		padding-left: 170px;
 	}
-	
+
 	#product-desc ul {
 		padding-left: 190px;
-		margin-bottom: 0;		
+		margin-bottom: 0;
 	}
-	
+
 	#product-side {
 		margin-left: 65%;
 	}
-	
+
 	#product-side ul {
 		margin-left: 0;
 		padding-bottom: 0;
 		padding-left: 20px;
 	}
-	
+
 	#product-side li {
 		padding-bottom: 0.2em;
 	}
-	
+
 	#product-desc {
 		padding: 40px 0 25px 0;
 		color: #4C5C5C;
@@ -274,7 +274,7 @@
 		float: left;
 		line-height: 140%;
 	}
-	
+
 	.product-firefox {
 		background: url("../../images/product-firefox-screen.png") no-repeat;
 	}
@@ -287,7 +287,7 @@
 	.product-mozilla {
 		background: url("../../images/product-mozilla-screen.png") no-repeat;
 	}
-	
+
 	#product-side .download h3 {
 		color: #1D9101;
 		font-weight: bold;
@@ -295,16 +295,16 @@
 		font-size: 140%;
 	}
 
-	.download h3 a:link,
-	.download h3 a:visited,
-	.download h3 a:active {
+	.download h3 :link,
+	.download h3 :visited,
+	.download h3 :link:active, .download h3 :visited:active {
 		color: #1D9101;
 	}
-	
+
 	.download h3 a:hover {
 		color: #156B01;
 	}
-	
+
 	.download li {
 		padding: 0;
 		margin: 0;
@@ -314,6 +314,9 @@
 		margin-bottom: 0;
 		padding-bottom: 0;
 	}
+	.download .other { font-size: 85%; }
+	.download .other a:link, .download .other a:visited { color: #666; }
+	.download .other a:hover { color: #000; }
 	.download:before {
 		line-height: 0.1;
 		font-size: 1px;
@@ -338,7 +341,7 @@
 		height: 8px;
 		background: transparent url("../../images/download_br.gif") scroll no-repeat bottom right ;
 	}
-	
+
 	.shop:before, .shopmoz:before {
 		line-height: 0.1;
 		font-size: 1px;
@@ -366,3 +369,23 @@
 		height: 8px;
 		background: transparent url("../../images/shop_br.gif") scroll no-repeat bottom right ;
 	}
+/* Firefox Central styles  */                                                   
+
+    
+        #ffcentral-desc {background: url("../../products/firefox/t-welcomefirefox.gif") n
+o-repeat;
+	width: 60%;
+                float: left;
+                line-height: 140%;
+               }                                                                       
+
+                                                                                
+
+        
+
+        #ffcentral-desc div {
+        	padding: 40px 0 0 100px;}
+        #ffcentral h3, #ffcentral h2, #ffcentral p, #ffcentral ul {
+        	margin-top: 0;
+        	color: #4C5C5C;
+        }                                                                       
