@@ -1,13 +1,18 @@
 <!--#set var="page_class" value="homepage" -->
-<!--#include file="header.shtml" -->
-<div class="key-point cnet" id="firefox-feature">
-<div id="onepointoh">
-    <a href="http://forum.moztw.org/viewforum.php?f=23" title="向世人推薦你最愛的擴充套件"><img src="images/2004_ff_extselect.png" alt="選出最佳擴充套件" height="240" width="257" style="margin-left: 3em;"></a>
-  </div>
+<!--#include file="header_a.shtml" -->
+<style type="text/css">
+.front-feature-card {
+	background: #E4ECEC url(images/feature-back-card.png) top right no-repeat;
+}
+#feature-content p{
+	margin-right: 100px;
+}
+</style>
+<!--#include file="header_b.shtml" -->
+<div class="key-point front-feature-card" id="firefox-feature">
   <div id="feature-content">
-    <h2><a href="http://forum.moztw.org/viewforum.php?f=23"><img src="images/t_2004_ff_extselect.gif" alt="Firefox 1.0" height="29" width="278"></a></h2>
-    <p>Firefox 是非常自由的瀏覽器，要什麼功能自己決定！Moztw.org 邀請您選出年度最佳 Firefox 擴充套件，請<a href="http://forum.moztw.org/viewtopic.php?t=5955">到討論區閱覽各參選者資料</a>、與大家分享使用心得，並從中<a href="http://forum.moztw.org/viewtopic.php?t=5961">選出值得推薦的好幫手</a>。
-    <p>還不知道擴充套件是什麼東西？請參考<a href="http://moztw.org/docs/ff/extension">相關介紹</a>或社群成員路人乙的 <a href="http://forum.moztw.org/viewtopic.php?t=4162">擴充套件 Q&amp;A</a>。
+    <h2><a href="http://photos.moztw.org/thumbnails.php?album=7"><img src="images/t_2005_newyearcard.png" alt="寄張卡片給親朋好友吧！" height="29" width="339"></a></h2>
+    <p>春節快到了，你有多久沒跟遠方的親朋好友聯絡了呢？打個電話聊聊，也寄一張電子賀卡給他們吧！Mozilla Taiwan 社群成員提供您 Firefox/Thunderbird 特製新年賀卡，讓您表達心意的同時也能幫忙推廣好用的軟體喔！<a href="http://photos.moztw.org/thumbnails.php?album=7">現在就看看有哪些卡片！</a>
 	<div class="download">
 		<h3><a href="/firefox/"><strong class="downloadText">免費下載 Firefox 中文版</strong></a></h3>
  		<div style='background: url(/images/product-firefox.png) no-repeat;'>
@@ -25,13 +30,13 @@
 	是 Mozilla 家族新生代的 e-mail 程式，具有完整的功能，與最新的垃圾信控制。</p>
   </div>
   <div class="frontcolumn">
-    <h2><a href="nvu/">NVU 0.5</a></h2>
-  <a href="nvu"><img src="images/product-front-nvu.png" alt="NVU" class="promo" width="50" height="50"></a>
-  <a href="nvu/">NVU</a> 是獨立的網頁設計工具，具有不輸一般商用軟體的可塑性。
+    <h2><a href="/firefox/extension_top_15/">Firefox 擴充套件 Top 15</a></h2>
+  <a href="/firefox/extension_top_15/"><img src="images/extension50.png" alt="Extension Top 15" class="promo" width="50" height="50"></a>
+  <p>歷經三個星期的提名及票選，最後十五名脫穎而出的擴充套件名單及介紹出爐！</p>
     
   </div>
   <div class="frontcolumnlast">
-  <h2 ><a href="http://www.MozillaStore.com/">購買與贊助</a></h2>
+  <h2><a href="http://www.MozillaStore.com/">購買與贊助</a></h2>
     <a href="http://www.MozillaStore.com/"><img src="images/front-store.jpg" alt="Mozilla Store" class="promo" width="75" height="75"></a>
     <p> 現在你可以利用 <a href="http://www.MozillaStore.com/">Mozilla 線上商店 (英文界面)</a>
     買到 <a href="http://store.mozilla.org/products/software/"> CD (軟體)</a> 
@@ -64,7 +69,13 @@
           </a>
         </li>
         <li>
-          <a href="products/" style="text-decoration: none;">
+          <a href="nvu/" style="text-decoration: none;" title="由 moztw.org 提供的 Nvu 非官方中文化版本">
+            <img src="images/nvu16.png" alt="NVU icon" style="vertical-align: middle;" height="16" width="16">
+            <span style="text-decoration: underline;">NVU 0.5</span>
+          </a>
+        </li>
+        <li>
+          <a href="/dl" style="text-decoration: none;">
             <img src="images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
             <span style="text-decoration: underline;">軟體列表...</span>
           </a>

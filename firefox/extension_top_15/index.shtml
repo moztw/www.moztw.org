@@ -77,7 +77,9 @@ var dupArray=new Array(
 	["IEView","IEView 中文修改版"],
 	["AdBlock","AdBlock 中文修改版"],
 	["Super Drag and Go","Super Drag and Go 中文修改版"],
-	["Show Image","Show Image 中文修改版"]
+	["Show Image","Show Image 中文修改版"],
+	["Download Status Bar","Download Status Bar 中文修改版"],
+	["Web Developer","Web Developer 中文修改版"]
 	); //相衝套件 name, 這個可以設定多組, 應該要讓 Script 自己去 assign event handler 給每個 input 比較有效率, 以後再說吧
 
 // 第一個參數：要比對的 dupArray 群組
@@ -104,8 +106,16 @@ function doInstall(){
   InstallTrigger.install(installObj);
 }
 
-function checkAll(){
-  for (i=0; i<boxObjs.length; i++) boxObjs[i].checked = true;
+function tongwen_click(){
+	var tongwenObj = document.forms['select_and_install'].elements['新同文堂'];
+	var jslibObj = document.forms['select_and_install'].elements['jslib'];
+
+	if (tongwenObj.checked) {
+		if (confirm("同文堂系列必須先安裝 jslib (另一組程式用的套件)，如果您不確定是否已安裝，請務必連同 jslib 一起安裝。\n\n您是否要一併選取 jslib？"))
+			jslibObj.checked = true;
+	}else{
+		jslibObj.checked = false; //一併取消 jslib... 好還是不好就不管了 =.= 
+	}
 }
 </script>
 <!--#include virtual="/header_b.shtml" -->
@@ -140,11 +150,12 @@ function checkAll(){
 		<li><a href="http://forum.moztw.org/viewtopic.php?p=23891">相關討論</a></li>
 		<li>原生中文</li>
 	</ul>
-	<div class="install-options">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂" value="http://softcup.mp.sina.com.tw/tongwen/tongwen_0.2.0_e2_jslib.xpi" type="checkbox">列入安裝清單</label>
+	<div class="install-options">列入安裝清單：
+	<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂" value="http://forum.moztw.org/files/tongwen_0.2.0_e2_884.xpi" type="checkbox" onclick="tongwen_click()">主程式</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="jslib" value="jslib_current_lite.xpi" type="checkbox">jslib</label>
 	</div>
 	<blockquote>「同文堂真是看不習慣簡體字者的救星」<cite>--社群成員 leolinfly</cite></blockquote>
-	<p>這個套件能幫你把網頁上的簡體字全部轉為繁體（或繁體轉簡體），並且會自動轉換用語。原作為哈少，後由 softcup 更新並加入 vertex 編寫的詞彙表。（此為「新同文堂＋jslib」createTreeWalker 版。）</p>
+	<p>這個套件能幫你把網頁上的簡體字全部轉為繁體（或繁體轉簡體），並且會自動轉換用語。原作為哈少，後由 softcup 更新並加入 vertex 編寫的詞彙表。此處提供「新同文堂」createTreeWalker 版。</p>
 	</div>
 	<h3 id="flashgot">NO.2 FlashGot</h3>
 	<div class="extension-info">
@@ -248,6 +259,7 @@ function checkAll(){
 	<ul>
 		<li><a href="http://piro.sakura.ne.jp/xul/_tabextensions.html.en">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=3954">相關討論</a></li>
+		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="Tabbrowser Extensions" value="tabextensions_en.xpi" type="checkbox" onclick="return checkDup(0, this.name)">列入安裝清單</label>
@@ -274,10 +286,11 @@ function checkAll(){
 	<ul>
 		<li><a href="http://www.chrispederick.com/work/firefox/webdeveloper/">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=1368">相關討論</a></li>
+		<li><a href="">中文修改版</a></li>
 	</ul>
-	<div class="install-options">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="Web Developer" value="webdevelope0.9.2.xpi" type="checkbox">列入安裝清單</label>
-	</div>
+	<div class="install-options">列入安裝清單：
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Web Developer" value="webdevelope0.9.2.xpi" type="checkbox" onclick="return checkDup(6, this.name)">原文版</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Web Developer 中文修改版" value="http://forum.moztw.org/files/webdeveloper_0.9.3_zh-tw.xpi" type="checkbox" onclick="return checkDup(6, this.name)">中文修改版</label></div>
 	<blockquote>「對網頁寫作者來說，這是一個相當好用的套件；就算不會寫，衝著可以關閉網頁裡的各種元件也值得一試！」<cite>--社群成員 raphael</cite></blockquote>
 	<p>這是一個為網頁設計師量身訂做的套件，可以隨時關閉圖片、JavaScript、CSS 樣式等效果，也可以輕鬆檢閱別人寫的 JavaScript 與 CSS，還有更改網頁尺寸、標示區塊元素等功能。</p>
 	<p class="targetuser">適合網頁設計師使用</p>
@@ -287,7 +300,7 @@ function checkAll(){
 	<ul>
 		<li><a href="https://addons.update.mozilla.org/extensions/moreinfo.php?application=firefox&id=398">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=4394">相關討論</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=5401">可中文化</a></li>
+		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="ForecastFox" value="forecastfox-0.5.8-fx.xpi" type="checkbox">列入安裝清單</label>
@@ -312,9 +325,11 @@ function checkAll(){
 	<ul>
 		<li><a href="http://downloadstatusbar.mozdev.org/index.html">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=5519">相關討論</a></li>
+		<li>原生中文</li>
 	</ul>
-	<div class="install-options">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="Download Status Bar" value="downbar0.9.2.xpi" type="checkbox">列入安裝清單</label>
+	<div class="install-options">列入安裝清單:
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Download Status Bar" value="downbar0.9.2.xpi" type="checkbox" onclick="return checkDup(5, this.name)">原文版</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Download Status Bar 中文修改版" value="downbar0.9.2.xpi" type="checkbox" onclick="return checkDup(5, this.name)">中文修改版</label>
 	</div>
 	<blockquote>「整合在一起就乾淨多了！」<cite>--社群成員 ufgsemil</cite></blockquote>
 	<p>Download Status Bar 可以在你下載檔案時，使用視窗底端的一行下載列取代 Firefox 的下載視窗。直覺、下載進度一目瞭然，也免去下載視窗的干擾。</p>
