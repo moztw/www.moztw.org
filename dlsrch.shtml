@@ -81,7 +81,7 @@ function addEngine(name,ext,cat)
 		<dd><ul><li>
 			<a href="javascript:;" onClick="addEngine('NBINet','png','General' );">自動安裝</a>
 			<li> 手動安裝：
-			<a href='dls/sp/NBINet.gif'> NBINet.gif</a>
+			<a href='dls/sp/NBINet.png'> NBINet.png</a>
 			<a href='dls/sp/NBINet.src'> NBINet.src</a>
 		</ul>
 	</dl>
