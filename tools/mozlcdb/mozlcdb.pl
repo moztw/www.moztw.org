@@ -682,7 +682,7 @@ sub prop_escape_value {
 
 sub prop_unescape {
     $_[0]=~s/\\([\\"' =:#!])|\\u(000[aAdD])|\\u([\da-fA-F]{4})/
-	defined $1 ? $1 : defined $2? '\n' : encode('utf-8', chr hex $2) /ge;
+	defined $1 ? $1 : defined $2? '\n' : encode('utf-8', chr hex $3) /ge;
 }
 
 sub outputmozproperties {
