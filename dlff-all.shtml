@@ -11,21 +11,28 @@
 
 <div style='width: 30%;'>
 
+<h3> 1.0 </h3><ul>
+<li><a title='MD5: f9788988999c3103f7db25b50e56b99a' href="/dls/ff/1.0/win32/zh-TW/Firefox Setup 1.0.exe"> Windows (4.6M) </a>
+<li><a title='MD5: 302f87e78e8987fdd201aaf57b571b92' href="/dls/ff/1.0/linux-i686/zh-TW/firefox-1.0.installer.tar.gz"> Linux (Installer) </a>
+<li><a title='MD5: 1024fa9b38f1fec42abcf9f1887193df' href="/dls/ff/1.0/linux-i686/zh-TW/firefox-1.0.tar.gz"> Linux (直接解壓執行) </a>
+<li><a title='MD5: 04b5441cc75a60f35fc92d07d90ede93' href="/dls/ff/1.0/mac/zh-TW/Firefox 1.0.dmg.gz"> MacOSX (DMG+gz) </a>
+</ul>
+
 <h3> 1.0PR </h3><ul>
 <li><a title="MD5: 8c2a1f4b0e51633d78a70f129c3babb5" href="/dls/ff/Firefox-1.0PR-win32-zhTW.exe">Windows (4.4MB)</a></li>
 <li><a title="MD5: 5b0b25761b3d2d97b43567fd1d6c7e7b" href="/dls/ff/Firefox-1.0PR-linux-zhTW.tar.gz"> Linux (8.3M 安裝檔) </a>
 </ul>
 
 <h3> 0.9 </h3><ul>
-<li><a title='MD5' href="/dls/ff/Firefox-0.9.1-win32-zhTW.exe"> 0.9.1 Windows (4.6M) </a>
-<li><a title='MD5' href="/dls/ff/Firefox-0.9.0-win32-zhTW.exe"> Windows (4.6M) </a>
-<li><a title='MD5' href="/dls/ff/Firefox-0.9-linux-zhTW.tar.bz2"> Linux (bz2) </a>
-<li><a title='MD5' href="/dls/ff/Firefox-0.9-mac-zhTW.dmg.gz"> MacOSX (DMG+gz) </a>
+<li><a title='MD5: 777eb0150536f48543ae4548f9dabd82' href="/dls/ff/Firefox-0.9.1-win32-zhTW.exe"> 0.9.1 Windows (4.6M) </a>
+<li><a title='MD5: 29c0f2e08530edb4538014f12184c9d5' href="/dls/ff/Firefox-0.9.0-win32-zhTW.exe"> Windows (4.6M) </a>
+<li><a title='MD5: ec7e30a1ef497e82531ed6a0320c283e' href="/dls/ff/Firefox-0.9-linux-zhTW.tar.bz2"> Linux (bz2) </a>
+<li><a title='MD5: d602dea834e77abe2f41f594b7f5e337' href="/dls/ff/Firefox-0.9-mac-zhTW.dmg.gz"> MacOSX (DMG+gz) </a>
 </ul>
 
 <h3>0.8</h3><ul>
-<li><a title='MD5' href="/dls/ff/Firefox-0.8-win32-zhTW.exe"> Windows (6.7M) </a>
-<li><a title='MD5' href="/dls/ff/Firefox-0.8-linux-gnu-zhTW.tar.bz2"> Linux (bz2) </a>
+<li><a title='MD5: 0e1092b38f7292705deedeadc9fff1ad' href="/dls/ff/Firefox-0.8-win32-zhTW.exe"> Windows (6.7M) </a>
+<li><a title='MD5: c08fa9d69125497e101fc527a1a9d9f9' href="/dls/ff/Firefox-0.8-linux-gnu-zhTW.tar.bz2"> Linux (bz2) </a>
 </ul>
 
 <h3>0.7</h3><ul>
