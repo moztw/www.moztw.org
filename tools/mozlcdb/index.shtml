@@ -65,10 +65,10 @@ Get these files:
 <ul>
 	<li>Latest version: <a href='archive/mozlcdb_latest.zip'> 
 		<!--#flastmod file='archive/mozlcdb_latest.zip' --> </a> (hack on your own!)
-	<li>Releases: 
+	<li>Releases: <ul>
 	<li><a href='archive/mozlcdb_v0.2.zip'> Version 0.2 </a>(Stable, approved with FF1.0/TB0.8)</li>
 	<li><a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a>(a little buggy)</li>
-	</ul>
+	</ul></ul>
 </ul>
 <h3> Background Knowledge </h3>
 <b>This section explains the basic idea about MozLCDB. It helps you to understand it more
@@ -380,7 +380,7 @@ go on.
 You can also use mozilla-l10n mailing list.
 <h3> Copyright </h3>
 MozLCDB is licensed under <a href='http://www.mozilla.org/MPL/MPL-1.1.html'> MPL 1.1 </a>.
-This program and document is made by <a href="mailto:piaip@csie.ntu.edu.tw"> Hung-Te Lin</a>.
+This program and document is made by <a href="mailto:piaip@csie.ntu.edu.tw?Subject=[MozLCDB]:"> Hung-Te Lin</a>.
 Allrights reserved.
 </div>
 <!--#include virtual='/footer.shtml' -->

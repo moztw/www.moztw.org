@@ -14,15 +14,21 @@
 	</li>
 	<li>
 	<a href="/mozilla"><img src="/images/product-mozilla.png" width="60" height="60" alt=""></a>
-	<h3><a href="/mozilla" class="producttitle"><strong>Mozilla: 完整的 Internet 方案</strong></a></h3>
+	<h3><a href="/mozilla" class="producttitle"><strong>Mozilla</strong>:完整的 Internet 方案</a></h3>
 	為新時代設計的網路瀏覽器、進階的 e-mail 與 news 管理程式、
 	IRC 線上交談、與簡易的 HTML 編輯工具。
 	</li>
 	<li>
-	<a href="/netscape"><img src="/images/product-netscape.png" alt=""></a>
+	<a href="/netscape"><img src="/images/product-netscape.png" alt="Netscape"></a>
 	<h3><a href="/netscape" class="producttitle"><strong 
-	class='courier'>Netscape: moztw.org 非官方中文版</strong></a></h3>
+	class='courier'>Netscape</strong>: moztw.org 非官方中文版</a></h3>
 	由 moztw.org 特別提供的 Netscape 中文版
+	</li>
+	<li>
+	<a href="/nvu/"><img src="/images/product-nvu.png" alt="NVU"></a>
+	<h3><a href="/nvu/" class="producttitle"><strong>NVU</strong>: 作網頁不再是難事</a></h3>
+	NVU 是不輸給 Dreamweaver、Frontpage 的網頁製作工具，
+	而且免費提供各種平台的版本。
 	</li>
 </ul>
 </ul>
@@ -65,8 +71,8 @@
 	目前只有 Firefox 1.0 branch 有提供這個部份，請用下列命令：
 	<code style='margin: 3px; padding: 1px; border: 1px solid #ccc;'
 >cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/l10n checkout -rAVIARY_1_0_20040515_BRANCH mozilla</code>
-	我們另外也提供送交 CVS 的副本。 把下列檔案解壓縮到適當的位置後編譯即可。<br/>
-	<a href='/dls/ff/firefox-CVS-localesrc-zhTW.tar.bz2'><b>Firefox zh-TW locale,</b></a>
+	<p>我們另外也提供送交 CVS 的副本。 把下列檔案解壓縮到適當的位置後編譯即可：
+	<p><a href='/dls/ff/firefox-CVS-localesrc-zhTW.tar.bz2'><b>Firefox zh-TW locale,</b></a>
 	Last update: <!--#flastmod virtual="/dls/ff/firefox-CVS-localesrc-zhTW.tar.bz2" --><br/>
 </ul>
 <!--#include file='footer.shtml' -->
