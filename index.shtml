@@ -3,7 +3,7 @@
 
   <a href="firefox" title="Learn more about Firefox" id="featurelink">進一步了解 Firefox</a>
   <div id="feature-content">
-	<h2 style="margin: 0; font-size: 2px;"><a href="products/firefox/"><img src="images/t_firefox_pr.gif" alt="Firefox 1.0 Preview Release" height="26" width="343"></a></h2>
+	<h2 style="margin: 0; font-size: 2px;"><a href="/firefox"><img src="images/t_firefox_pr.gif" alt="Firefox 1.0 Preview Release" height="26" width="343"></a></h2>
 	   
 	<!--
 	<h2 style="margin: 0; "><a href="firefox" style='font-weight: bold; font-size: 120%; color: #457;'>Firefox 0.9</a></h2>
