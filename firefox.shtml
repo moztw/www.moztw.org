@@ -56,7 +56,7 @@
 		 </dl>
 	</div>
     <div id="side" class="right">
-	    <h3>Firefox 0.9 新功能</h3>
+	    <h3><a href='/relnotes/ff/0.9'>Firefox 0.9 新功能</a></h3>
       <ul class="compact">
         <li>擴充套件管理員</li>
         <li>佈景主題管理員</li>
