@@ -176,7 +176,7 @@ sub exportFile { # {{{
 		exit(0);
 	}
 
-	$olds = keys(%{$db{$fn}});
+	$olds = keys(%{$set});
 	# load database entries
 	my %ents = ();
 	for my $k (keys %{$set}) {
@@ -202,13 +202,16 @@ sub exportFile { # {{{
 			}
 		} else {
 		}
-		if ($ts eq '' && !$flIgnore) {
-			# no entries?
-			print STDERR "[WARN] Orig Msg Not Match: [$k @ $fn]\n";
-			print STDERR "Maybe you should import again or invoke with -X.\n";
-			exit(0);
-			# or use best match
-			$ts = $hist[0];
+		if ($ts eq '') {
+			if(!$flIgnore) {
+				# no entries?
+				print STDERR "[WARN] Orig Msg Not Match: [$k @ $fn]\n";
+				print STDERR "Maybe you should import again or invoke with -X.\n";
+				exit(0);
+			} else {
+				# or use best match
+				$ts = $hist[0];
+			}
 		}
 		# found entry.
 		my $v = $set->{$k};
@@ -694,9 +697,18 @@ sub prop_escape_key {
 }
 
 sub prop_escape_value {
+	my %prop_esc = ( "\n" => 'n',
+		"\r" => 'r',
+		"\t" => 't' );
+	my %prop_unesc = reverse %prop_esc;
+	# only unquote on this.
 	$_[0] = decode('utf-8', $_[0]);
-    $_[0]=~s{([\\])}{
-	"\\".($1) }ge;
+	# resolve \n
+	$_[0]=~s/\\([tnr])/
+		$prop_unesc{$1} /ge;
+	# normal
+    $_[0]=~s{([\t\n\r\\])}{
+	"\\".($prop_esc{$1}||$1) }ge;
     $_[0]=~s{([^\x20-\x7e])}{sprintf "\\u%04x", ord $1}ge;
     $_[0]=~s/^ /\\ /;
 }
