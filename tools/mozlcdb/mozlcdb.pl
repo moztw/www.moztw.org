@@ -479,6 +479,37 @@ sub main { # {{{ main entry
 		print STDERR "\n";
 		&writeDb();
 		print STDERR "Done.\n";
+	} elsif ($cmd eq '-r') {
+		if (@ARGV < 3) {
+			print STDERR "Please assign aa-BB DispName RootPath.\n";
+			exit(0);
+		}
+		my $aaBB = shift @ARGV;
+		my $dispname = shift @ARGV;
+		my $BB = $aaBB;
+		$BB =~ s/[a-zA-Z]*-//;
+		my @roots = @ARGV;
+
+		print STDERR "Updating contents.rdf...\n";
+		foreach my $root (@roots) { 
+			my @filelist = &listdir($root);
+			foreach my $fn (@filelist) {
+				next if ($fn !~ /contents\.rdf/);
+				print STDERR "$fn\n";
+				open CRDF, "<$fn";
+				my @data = <CRDF>;
+				close CRDF;
+				open CRDF, ">$fn";
+				foreach (@data) {
+					$_ =~ s/en-US/$aaBB/g;
+					$_ =~ s/US/$BB/g;
+					$_ =~ s/English/$dispname/g;
+					print CRDF $_;
+				}
+				close CRDF;
+			}
+		}
+
 	} elsif ($cmd eq '-i' || $cmd eq '-x' || $cmd eq '-X') {
 		# -i: import
 		# -x: extract
@@ -618,6 +649,8 @@ usage: mozlcdb.pl [-uUixXen] [PATH] ...
 -e     : generate latest version of full table from database
 -n ROOT1 ROOT2: init with ROOT1 as en while ROOT2 as tr [CARE]
 -c     : check database
+-r aa-BB DispName: update "contents.rdf" locale entries 
+         from en-US to aa-BB with DispName
 
 HERE
 		exit(0);
