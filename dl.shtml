@@ -20,6 +20,11 @@
 	</li>
 </ul>
 </div>
+<h2>OSSF - OpenFoundry Mirror</h2>
+這裡提供的檔案多在 OpenFoundry 上另有下載點，<Br/>
+<a href='http://rt.openfoundry.org/Foundry/Project/Download/index.html?Queue=62'>
+	可利用此鏈結下載。</a>
+
 <h2>安裝語言套件</h2>
 如果你裝的是英文版的 Mozilla ，可以利用安裝語言套件直接轉為中文界面。
 <ul class="productlist" title="安裝語言套件">
