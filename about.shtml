@@ -1,15 +1,17 @@
 <!--#include file="header.shtml" -->
 <div>
-	<h1>關於本站</h1>
-	<p> 這是 <a href='http://www.mozilla.org'>Mozilla</a>  的正體中文網站。 
-	Mozilla 是一套跨平台 
-	免費開放源碼(Open Source)的瀏覽器(Browser)，
-	任何人都可以自由下載使用，而且有非常多先進的設計， 更新也很迅速。
+	<h1 style='font-family: "Courier";'>關於本站 moztw.org </h1>
+	<p> moztw.org 是 <a href='http://www.mozilla.org'>Mozilla</a>  
+	的正體中文網站。 Mozilla 是一套跨平台 免費開放源碼(Open
+	Source)的瀏覽器(Browser)， 任何人都可以自由下載使用，
+	而且有非常多先進的設計，更新也很迅速。
 	<p>
-	這個網站管理、維護 Mozilla 的正體中文語言套件(Language
+	moztw.org 管理、維護 Mozilla 的正體中文語言套件(Language
 	Pack)跟已本地化(Localized)的安裝檔，並提供下載及討論區， 目前由
 	<a href="mailto:piaip@csie.ntu.edu.tw?subject=moztw:">
-		林弘德 (piaip, Hung-Te Lin)</a> 及 <a href="mailto:bobchao@ms1.url.com.tw?subject=moztw:">趙柏強 (Bob, Po-Chiang Chao)</a> 維護。
+		林弘德 (piaip, Hung-Te Lin)</a> 
+	及 <a href="mailto:bobchao@ms1.url.com.tw?subject=moztw:">
+		趙柏強 (Bob, Po-Chiang Chao)</a> 維護。
 	<fieldset>
 		<legend>林弘德 (piaip, Hung-Te Lin) 聯絡資訊</legend>
 		<b>WWW:</b>&nbsp;  <a href='http://ntu.csie.org/~piaip/'> http://ntu.csie.org/~piaip/ </a><br/>
