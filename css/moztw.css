@@ -55,8 +55,9 @@ div#firefox-feature div.download{
 }
 /* new logo */
 #header h1 a {
-		background: transparent url("/images/header_logo2.gif") no-repeat;
+		background: transparent url("/images/header_logo2.png") no-repeat;
 		width: 354px;
+		height: 65px;
 }
 
 .article {
