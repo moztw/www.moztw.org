@@ -29,10 +29,15 @@
 		  只有修改語系資源檔以及修改安裝程序檔 (script)。
 
 		  <p>但由於未取得 Netscape 公司正式的授權，
-		  所以請記得在這裡取得的版本僅供測試及方便使用，
+		  所以請記得在這裡取得的版本僅供測試，
 		  Netscape 本身以及實際重製的 moztw.org 
 		  並不為這些版本提供任何保障。
 
+		  <p>有問題請利用 <a 
+			  href='http://forum.moztw.org/viewforum.php?f=5'>
+			  討論區</a>，不過如前所言， moztw.org 還是以
+		  Mozilla 相關產品為主。 Netscape 只算暫時的支援，
+		  所以請保持您的耐心，謝謝。
 	</div>
     <div id="side" class="right">
       <h3>資源與鏈結</h3>
