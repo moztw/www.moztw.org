@@ -35,7 +35,12 @@
 	<p>
 	This page contains program/tools made (or tweaked from other's work)
 	by myself to help translating Mozilla (localization).
-	<p style='color: red;'>
+	<p style='color: red; font-weight: bold;'>
+	Since Firefox 1.0PR, the locale structure has changed entirely.
+	The old MozillaTranslator cannot keep going anymore, so I've made a
+	whole new system named 'MozLCDB' (Mozilla Locale Database).
+	</p>
+	<p style='color: blue;'>
 	Some notes for Firefox 0.9+, Thunderbird 0.7:<br/>
 	Recently Firefox/Thunderbird has changed their win32 installer from
 	Mozilla SFX to 7zip SFX. That means you CAN NOT use mozip to extract
@@ -47,6 +52,9 @@
 	<hr>
 	<b> Tools for download </b>
 	<dl>
+		<dt><a href='mozlcdb'> MozLCDB: Mozilla Locale Database </a>
+		<dd>The new total solution for Mozilla, Firefox, Thunderbird, Netscape,
+		replacement for MozillaTranslator.
 		<dt><a href="mozextrdf_pl.html">mozextrdf.pl</a>
 		<dd> A perl program to generate install.rdf for new Firefox/Thunderbird
 		extension.
@@ -75,6 +83,8 @@
 	    </dd>
 	    <dt><a href="mtx/mtx12.jar">Mozilla Translator 4.36 + piaip eXtension (mtX)</a></dt>
 	    <dd> <b> Current Version: 1.2 </b><br>
+	    <b>This project has been shutdown. And for versions after Firefox 1.0PR,
+		    Thunderbird 0.8, Mozilla 1.8, you'd better change to MozLCDB.</b><br/>
 	    MtX (MozillaTranslator + eXtension) is my tweaked version from 
 	    <a href="http://www.mozillatranslator.org"> MozillaTranslator </a>
 	    version4.36.<br> 

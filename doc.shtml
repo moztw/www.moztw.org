@@ -33,13 +33,14 @@
 	</ul>
 	<h3> 翻譯/本地化(Localization)用技術性資源</h3>
 	<ul>
+		<li><A href='docs/mozlcdb/'>MozLCDB: 為全方位 Mozilla Product 設計的翻譯工具</a>
 		<li><a href='docs/glossaries'>詞彙表</a>
 		<li><a href='tools'>軟體工具</a>
-		<li><a href='docs/loctech/localized_build'> 製作 Mozilla Localized builds </a>
-		<li><a href='docs/loctech/mt4tut'> Mozilla Translator 4.36 Tutorial </a>
 	</ul>
 	<h3> 舊文件 </h3>
 	<ul>
+		<li><a href='docs/loctech/localized_build'> 製作 Mozilla Localized builds </a>
+		<li><a href='docs/loctech/mt4tut'> Mozilla Translator 4.36 Tutorial </a>
 		<li><a href='docs/ns/activation'>Netscape Activation</a>
 		<li><a href='docs/expired/gecko'>Gecko Engine</a>
 		<li><a href='docs/expired/tip'>Tips 小技巧</a>

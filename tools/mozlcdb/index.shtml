@@ -61,7 +61,7 @@ You  need these stuff:
 <h3> Download </h3>
 Get these files:
 <ul>
-	<li>Current version: <a href='mozlcdb_v0.1.zip'> Version 0.1 </a> (still in beta)
+	<li>Current version: <a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a> (still in beta)
 </ul>
 <h3> Background Knowledge </h3>
 <b>This section explains the basic idea about MozLCDB. It helps you to understand it more
@@ -167,7 +167,7 @@ Run 'mozlcdb.pl -h' to see its syntax:
 <b>If you don't need to import from MozillaTranslator, skip this section.<br/>
 	You must have python working before you start the procedure.</b><br/><br/>
 I know this is weird: why python, not perl? Because this python script 
-is modified by another python script I wrote years ago and I'm too lazy
+is modified by another python script I wrote years ago and I'm too tired
 to make another perl version.<br/>
 <ul>
 	<li> First, unzip your glossary.zip which is in same directory of
@@ -176,7 +176,7 @@ to make another perl version.<br/>
 	directory. <code>python&nbsp;mt2mldb.py</code>
 	<li>If no errors occurs, You will see a "mldb.out".
 	<li>Run the main program: <code>perl&nbsp;mozlcdb.pl&nbsp;-U&nbsp;mldb.out</code>
-	Usually you'll get some warnings about "Not sync". Don't worry, about that.
+	Usually you'll get some warnings about "Not sync". Don't worry about that.
 	<li>If you have a "<b>mozlcdb.txt</b>" which is not 0 bytes in your
 	directory now, congradulations, you have successfully imported MT glossary.
 	<li>Check mozlcdb.txt. Entries of chrome nodes should be look like 
@@ -237,7 +237,7 @@ The format is very simple. Take this for example:
 
 <font color="#00ff00">id=</font>aboutVersion
 <font color="#00ff00">en=</font>version
-<font color="#00ff00">tr=</font>版本 (This is Chinese string, just for sample. Don't worry if you can't read this).
+<font color="#00ff00">tr=</font>PUT YOUR LOCALIZED STRING HERE.
 </code>
 <li>All lines stared with '<b>;</b>' are comments.
 <li><b>[ ]</b> marks the chrome node. i.e., the file path after ROOT. DO NOT CHANGE THIS.
@@ -276,18 +276,19 @@ for X in `find en-US -name "*.dtd"` ; do cp $X ${X/en-US/aa-BB} ; cvs add ${X/en
 	</blockquote>
 	<li>Run the export command. <code>perl mozlcdb.pl -x ROOT</code>For example:
 	<code>perl mozlcdb.pl -x aa-BB-toolkit aa-BB-browser</code>
-	<li>After your first export, you may try the exported stuff.
+	<li>After your first export, you may try (see the next subsection)the exported stuff.
 	Then you can modify the input table and 'update' database again.
-	And for the second time you wannt 'export', things get easier.
+	And for the second time you want to 'export', things get easier.
 	You don't have to prepare directory again. just use same ROOT and change -x to -X:
 	<code>perl mozlcdb.pl -X ROOT</code>
 	<li> Finally, after you get a stable version, pleas make sure you have all *.dtd and
-	*.properties in CVS. And CVS commit!
+	*.properties added into CVS. And CVS commit!
 </ul>
 
-<h3> Usage: Export database to a standalone language pack </h3>
+<h3> Usage: Export database to a standalone language pack, or JAR files </h3>
 Before you start, there's something you have to know.
-Currently we don't have a really good method for changing locale in Firefox,
+Currently we don't have a really good method for changing locale in Firefox
+(maybe we will never do),
 and the bug of "using extensions without corresponding 
 locale leads to crashing" is still there (maybe will be solved in 1.0 release),
 so trying to provide language packs for end user is <b>really a mess</b>.
@@ -318,33 +319,34 @@ here's how to make it work:
         a localized Firefox now.
 	<li>After your first export, you may try the exported stuff.
 	Then you can modify the input table and 'update' database again.
-	And for the second time you wannt 'export', things get easier.
+	And for the second time you want to 'export', things get easier.
 	You don't have to prepare directory again. just use same ROOT and change -x to -X:
 	<code>perl mozlcdb.pl -X ROOT</code>
 	<li>If you want to create language pack or localized builds (again, this is NOT EASY
 	and NOT SUGGESTED if you want to release files in this way. 
 	You should use CVS and let mozilla.org do this work. 
-	Care....  files made in this way cannot be called 'Official' to new  
+	Care....  files made in this way cannot be called 'Official' due to new  
 	<a href='http://www.mozilla.org/foundation/trademarks/l10n-policy.html'> L10N policy</a>),
 	please see 
 	<a href='http://www.mozilla.org/projects/firefox/l10n/localize-release.html'>
 		Creating a Localized Installera</a> and 
 	<a href='http://www.mozilla.org/projects/firefox/l10n/'> Localizing Firefox </a> .<br/>
-	An easy hack is just put the new en-US.jar into a Firefox installer, anyway.
+	An easy hack is just to put the new en-US.jar into a Firefox installer, anyway.
 	</li>
 </ul>
 <h3> Usage: Things left </h3>
 Some commands are not explained in previous sections.<br/>
 <ul>
-	<li>-e can export whole keys in a database.
+	<li>-e can export whole keys in a database (used if your input table is broken).
 	<li>-U can update database with editing tables with less checking.
 </div>
 <h3> Epilogue </h3>
-<p>This program is still under development. I used it to sucessfully make a working language pack
-(well, the en-US.jar) for Mozilla Firefox 1.0PR, Traditional Chinese. I'm not sure whether
-it is easy enough for most people or not, but it is designed for all what I need.
-So here I present it to all who needs to localize new Mozilla products but could not find
-any working tools to go on.
+<p>This program is still under development. I used it sucessfully to make a
+working language pack (well, the en-US.jar) for Mozilla Firefox 1.0PR,
+Traditional Chinese. I'm not sure whether it is easy enough for most people or
+not, but it is designed for all what I need.  So here I present it to all who
+needs to localize new Mozilla products but could not find any working tools to
+go on.
 <p>If you have any suggestions/problems, feel free to contact me.
 You can also use mozilla-l10n mailing list.
 <h3> Copyright </h3>
