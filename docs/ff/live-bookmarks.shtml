@@ -1,0 +1,33 @@
+<!--#include file="header.shtml" -->
+<div id="mBody">
+ <div id="mainContent" class="right">
+  <h2>什麼是「即時書籤」（Live Bookmarks）？</h2>
+  <p>「即時書籤」是 Firefox 的新技術，方便您觀看書籤選單（工具列）中的 RSS 新聞及部落格（Blog）文章。只要一眼，就可以瞧見您所選站台上最新的文章標題；您可直接跳到感興趣的文章，藉此節省您的時間。</p>
+  <p>當你在 Firefox 右下角看到「<img alt="" src="http://www.mozilla.org/images/rss.png" style="height: 16px; width: 28px; vertical-align: middle;">」圖示時，表示此站台可以使用「即時書籤」功能。點擊該圖示並選一個 RSS 收取點（RSS feed）後會出現「加入書籤」對話方塊。選「OK」之後，您就可以看到「即時書籤」和其他書籤排在一起。很多人會把「即時書籤」存放於書籤工具列資料夾中，覺得這樣子特別方便。</p>
+  <h2>實際運作上的「即時書籤」</h2>
+  <p>許多網站和部落格用 RSS 出版最新的文章，顯示的標題數及更新週期是由網站本身決定的。</p>
+<p style="padding-bottom: 2em;"><img alt="「及時書籤」螢幕抓圖" src="http://www.mozilla.org/images/lb-screen.gif" style="width: 300px; height: 241px; margin: 0 1em 0 0;" align="left"> 書籤方塊中顯示來自 <a href="http://www.slashdot.org">Slashdot</a>（<a href="http://slashdot.org/index.rss">RSS</a>）及 <a href="http://news.bbc.co.uk">BBC 新聞</a>（<a href="http://news.bbc.co.uk/rss/newsonline_world_edition/front_page/rss091.xml">RSS</a>）的文章標題，在標題上點擊滑鼠可直接前往所選文章。</p><p style="clear: both;">&nbsp;</p>
+<h2>進階撇步</h2>
+  <dl>
+   <dt>手動添加「即時書籤」</dt>
+   <dd><p>有些網站雖然支援即時書籤，但並不會告訴 Firefox。如果您知道某網站 RSS 收取點的網址（以 .rdf 或 .xml 結尾的 URL），便可以手動為此站台建立即時書籤。請選擇「書籤」選單中的「管理書籤...」，在「檔案」選單中選擇「新增即時書籤」。為此即時書籤命名並填上 URL 後，網站上的新文章就會以即時書籤的形式出現在 Firefox 中。</p></dd>
+   <dt>分享你的書籤</dt>
+
+   <dd><p>獨樂樂不如眾樂樂，某些如 <a href="http://del.icio.us/" class="external" title="http://del.icio.us">http://del.icio.us</a> 的服務可以讓您將書籤以 RSS 收取點形式發表，那麼其他 Firefox 使用者便能以「即時書籤」功能訂閱您的書籤。「即時書籤」及 del.icio.us 幫你更輕鬆地與朋友分享酷站。</p><p>您也可以把書籤放進私人 RSS 收取點中，在數台電腦間共用書籤。</p></dd>
+  </dl>
+ </div>
+ <!-- closes #mainContent-->
+ <div id="side" class="right">
+  <ul id="nav">
+   <li><a href="/firefox">^回 Firefox 首頁</a></li>
+  </ul>
+  <h3>RSS 是什麼？</h3>
+  <p>RSS（全名是「Rich Site Summary」或後來新創的「Really Simple Syndication」）是種讓網站製作內容摘要（如新聞摘要）的方法，使摘要能以不同方式閱覽。</p>
+  <p>比方說，<a href="http://news.yahoo.com">Yahoo 新聞</a>（<a href="http://rss.news.yahoo.com/rss/topstories">RSS</a>）標題能在 Firefox 中以書籤方式閱覽，也能在T hunderbird 中以郵件方式來看。</p>
+
+  <p>許多網站都有 RSS 收取點，像是 <a href="http://news.bbc.co.uk">BBC News</a>（<a href="http://news.bbc.co.uk/rss/newsonline_world_edition/front_page/rss091.xml">RSS</a>）、<a href="http://news.yahoo.com">Yahoo News</a>（<a href="http://rss.news.yahoo.com/rss/topstories">RSS</a>）及你喜歡的部落格等。RSS 本身也有諸多風貌，包括 RSS 0.9、RSS 1.0、RSS 2.0 及 Atom－－這些格式， Mozilla Firefox 全都支援。</p>
+  <p>您可以在 <a href="http://technorati.com/">Technorati</a> 及 <a href="http://www.syndic8.com/">Syndic8.com</a> 找到許多 RSS 收取點。</p>
+
+  <p><i><a href="http://www.mozilla.org/products/firefox/live-bookmarks.html" title="本文出處">本文件原文</a>由 Mozilla Wordsmiths 團隊協助撰寫，<a href="http://forum.moztw.org/viewtopic.php?t=3025" title="翻譯文件張貼／討論處">中文版由 MilchFlasche 翻譯</a>、Bob Chao 編修。</i></p>
+ </div>
+ <!--#include file="footer.shtml" -->

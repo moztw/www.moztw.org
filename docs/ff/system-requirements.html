@@ -1,0 +1,90 @@
+<!--#include file="header.shtml" -->
+<div id="mBody">
+ <div id="side" class="left">
+  <ul id="nav">
+   <li><a href="/firefox">^回 Firefox 首頁</a></li>
+  </ul>
+  <!--<script type="text/javascript" src="download.js"></script>-->
+  <!--<script type="text/javascript">-->
+  <!--
+    writeDownloadsSidebar();
+  //-->
+  <!--</script>
+  <noscript>-->
+    <h2>馬上下載</h2>
+    <ul id="nav">
+      <li><a href="%%FIREFOX-WIN32%%">Windows (%%FIREFOX-WIN32-SIZE%%)</a> </li>
+      <li><a href="%%FIREFOX-X86LINUX%%">Linux (%%FIREFOX-X86LINUX-SIZE%%)</a></li>
+      <li><a href="%%FIREFOX-MACOSX%%">Mac OS X (%%FIREFOX-MACOSX-SIZE%%)</a></li>
+      <li><a href="%%FIREFOX-OTHER%%">其他作業系統</a></li>
+      <li><a href="releases/#externalcontrib">其他語言</a></li>
+      <li><a href="system-requirements.html">系統需求</a></li>
+    </ul>
+  <!--</noscript>-->
+	
+ </div>
+ <!-- closes #side -->
+ <hr class="hide">
+ 
+ <div id="mainContent" class="bodyleft">
+
+  <h2>Firefox 系統需求</h2>
+  <h3>Windows</h3>
+  <h6>作業系統版本</h6>
+  <ul>
+    <li>Windows 98</li>
+    <li>Windows 98SE</li>
+    <li>Windows ME</li>
+    <li>Windows NT 4.0</li>
+    <li>Windows 2000</li>
+    <li>Windows XP (<em>推薦使用此版本</em>)</li>
+  </ul>
+  <h6>硬體最低需求</h6>
+  <ul>
+    <li>Pentium 233 MHz (<em>建議</em> Pentium 500MHz 以上)</li>
+    <li>64 MB RAM (<em>建議</em> 128 MB 以上)</li>
+    <li>52 MB 硬碟空間</li>
+  </ul>
+
+  <h3>Linux</h3>
+  <h6>軟體需求</h6>
+  <p><em>These are currently under review and should be used as a general guideline.</em><br />
+     請留意：Linux 隨附的 Package 依發佈版本亦可能有不同需求。</p>
+  <ul>
+    <li>Linux kernel - 2.2.14，最少需安裝以下函式庫：
+      <ul>
+        <li>glibc 2.2.4</li>
+        <li>gtk+ - 1.2.0 (最好為 1.2.5 以上版本)</li>
+<!--    xxxmpc: this is probably bogus, needs testing/fixing probably
+        <li>libstdc++5</li>  -->
+        <li>XFree86-3.3.6</li>
+        <li>fontconfig (亦稱為 xft)</li>
+        <li>gtk+2.0</li>
+      </ul>
+    </li>
+    <li>Firefox 已於 Red Hat Linux 8.0 以上版本測試過。</li>
+  </ul>
+  <h6>硬體最低需求</h6>
+  <ul>
+    <li>Intel Pentium II 或 AMD K6-III+ 233 MHz CPU (<em>建議</em> 500MHz 以上)</li>
+    <li>64 MB RAM (<em>建議</em> 128 MB 以上)</li>
+    <li>52 MB 硬碟空間</li>
+  </ul>
+
+  <h3>Mac</h3>
+  <h6>作業系統版本</h6>
+  <ul>
+    <li>Mac OS X 10.1.x</li>
+    <li>Mac OS X 10.2.x and later</li>
+  </ul>
+  <h6>Minimum Hardware</h6>
+  <ul>
+    <li>PowerPC 604e 266 MHz (<em>建議</em> PowerPC G4 667MHz 以上)</li>
+    <li>G3, G4, 64 MB RAM (<em>建議</em> 256 MB 以上)</li>
+    <li>72 MB 硬碟空間</li>
+  </ul>  
+ </div>
+ <!-- closes #mainContent-->
+</div>
+<!-- closes #mBody-->
+<!--#include file="footer.shtml" -->
