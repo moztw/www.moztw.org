@@ -1,0 +1,53 @@
+<!--#include virtual="/header.shtml" -->
+ <div id="mainContent" class="right">
+
+<h2>使用 Firefox 搜尋網頁 </h2>
+<p>Firefox 在瀏覽工具列中加入了搜尋方塊，並將位址列整合 Google 的「好手氣」功能，能更快速的搜尋網頁。</p>
+
+<p>您可以藉由點選瀏覽器右上角的搜尋方塊來使用這項功能。輸入關鍵字、按下 Enter，您再也不需要瀏覽特定網站，搜尋功能就在瀏覽器上。</p>
+
+<p>Firefox 已經預先安裝了最常見也最有用的搜尋引擎，包括 Google、Yahoo、Amazon、eBay、Dictionary.com；更棒的是，您可以自行<a href="http://mycroft.mozdev.org">下載更多搜尋引擎</a>。</p>
+
+<h2>實際瞧瞧</h2>
+
+<p>Firefox 整合 Google 的「好手氣」搜尋功能，只要在網址列輸入「台北市政府」或「中央氣象局」這樣的關鍵字，您就可以直接連上這些官方網站。 </p>
+
+<p>
+<img alt="Firefox 搜尋畫面" src="search.gif"
+ width="450" height="277"><br>
+在網址列輸入「中央氣象局」，您就可以直接連上官方網站。</p>
+
+<h2>進階技巧</h2>
+<h3>快上加快</h3>
+<p>這裡有一些能讓您搜尋資料更加快速的方法</p>
+
+<ul>
+  <li>您可為任何搜尋網站的查詢字句設立<a  href="http://devedge.netscape.com/viewsource/2002/bookmarks/">關鍵字</a>，在網站上的關鍵字輸入區按下右鍵，選擇「對此次搜尋加入關鍵字」，接著輸入一個關鍵字，將查詢式加入書籤吧。</li>
+  <li>搜尋時同時按下 <strong>Alt</strong> 和 <strong>Enter</strong> 便能以新<a href="./tabbed-browsing" class="new" title="分頁瀏覽">分頁</a>顯示搜尋結果。</li>
+  <li>您可以選取網頁中一段文字，然後拖曳到搜尋方塊上進行搜尋。</li>
+</ul>
+
+<h3>更多搜尋引擎 </h3>
+<p>不只能用 Google－透過搜尋方塊，您可使用網路上許多的搜尋引擎：</p>
+<ul>
+  <li>如果您按下搜尋方塊左側的圖示，便會出現搜尋引擎清單。您可在欲使用的引擎圖示上按一下、將其設定為現行搜尋引擎，往後按下 Enter 時就能使用此引擎搜尋了。</li>
+
+  <li>如欲新增搜尋引擎，只要點選搜尋方塊左側的圖示並選擇「新增搜尋引擎...」，便可以連到 Mycroft 網頁選擇額外的引擎。
+  </li>
+</ul> 
+
+
+ </div>
+ <!-- closes #mainContent-->
+
+ <div id="side" class="right">
+  <ul id="nav">
+   <li><a href="/firefox">^回 Firefox 首頁</a></li>
+  </ul>
+  <h3>您知道嗎？</h3>
+<p>如果您要找的是網頁上的文字，請按下 Ctrl+F，「搜尋工具列」便會出現在瀏覽器下方；您可以利用此工具列標示頁面上的相關字詞。</p>
+
+<p><em><a href="http://www.mozilla.org/products/firefox/search.html" title="本文出處">本文件原文</a>由 Mozilla Wordsmiths 團隊協助撰寫，<a href="http://forum.moztw.org/viewtopic.php?p=12241" title="翻譯文件張貼／討論處">中文版由 xacid 翻譯</a>、Bob Chao 編修。</em></p>
+ </div>
+ <!-- closes #side -->
+<!--#include virtual="/footer.shtml" -->
