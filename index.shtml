@@ -10,7 +10,8 @@
 	-->
 	<p><b style='color: #88f;'>
 		Firefox 1.0 PR 搶鮮中文版已可開始下載。</b></p>
-	<p>更安全、快速也更好的網頁瀏覽器，具<a href="/docs/ff/tabbed-browsing">分頁瀏覽</a>、<a href="/docs/ff/search">整合搜尋</a>及<a href="/docs/ff/live-bookmarks">即時書籤功能</a>。現在就<a href="http://www.spreadfirefox.com/">告訴全世界</a>，你要的是 <a href="/firefox">Firefox</a>！“I suggest dumping Microsoft's Internet Explorer” — <a href="http://ptech.wsj.com/archive/ptech-20040916.html">Walt Mossberg, Wall Street Journal, Sept 16</a></p>
+	<p>更安全、快速也更好的網頁瀏覽器，具<a href="/docs/ff/tabbed-browsing">分頁瀏覽</a>、<a href="/docs/ff/search">整合搜尋</a>及<a href="/docs/ff/live-bookmarks">即時書籤功能</a>。現在就<a href="http://www.spreadfirefox.com/">告訴全世界</a>，你要的是 <a href="/firefox">Firefox</a>！<br/>
+	“I suggest dumping Microsoft's Internet Explorer” — <a href="http://ptech.wsj.com/archive/ptech-20040916.html">Walt Mossberg, Wall Street Journal, Sept 16</a></p>
 	<div class="download"><h3><strong class="downloadText">免費下載</strong></h3>
 		<!--#include file='dlff-js.shtml' -->
 	</div>

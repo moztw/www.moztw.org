@@ -9,35 +9,35 @@
 <div style='width: 30%;'>
 
 <h3>0.7</h3><ul>
-<li><a href="dls/tb/thunderbird-0.7.1-win32-zhTW.exe">Windows (5.4MB)</a></li>
-<li><a href="dls/tb/thunderbird-0.7-linux-gtk2xft-zhTW.tar.bz2">Linux (8.8MB)</a></li>
-<li><a href="dls/tb/thunderbird-0.7-mac-zhTW.dmg.gz">Mac OS X (12MB)</a></li>
+<li><a title="MD5: a62e606ca6f6115494d084d3779d1e1e62e606ca6f6115494d084d3779d1e1e" href="dls/tb/thunderbird-0.7.1-win32-zhTW.exe">Windows (5.4MB)</a></li>
+<li><a title="MD5: 989539464044fdf17ce0537d6c997115989539464044fdf17ce0537d6c997115" href="dls/tb/thunderbird-0.7-linux-gtk2xft-zhTW.tar.bz2">Linux (8.8MB)</a></li>
+<li><a title="MD5: 0c2668d805e269f571cea8530cd124cf0c2668d805e269f571cea8530cd124cf" href="dls/tb/thunderbird-0.7-mac-zhTW.dmg.gz">Mac OS X (12MB)</a></li>
 </ul>
 
 <h3>0.5</h3><ul>
-<li><a href="dls/tb/thunderbird-0.5-win32-zhTW.exe"> Windows (5.8M) </a>
-<li><a href="dls/tb/thunderbird-0.5-linux-gnu-zhTW.tar.bz2"> Linux (11M) </a>
+<li><a title="MD5: d030201a0fd5aba8276ccf51552df004030201a0fd5aba8276ccf51552df004" href="dls/tb/thunderbird-0.5-win32-zhTW.exe"> Windows (5.8M) </a>
+<li><a title="MD5: ed21ada342431af5fdfc28eaec64fcaf21ada342431af5fdfc28eaec64fcaf" href="dls/tb/thunderbird-0.5-linux-gnu-zhTW.tar.bz2"> Linux (11M) </a>
 </ul>
 
 <h3>0.4</h3><ul>
-<li><a href="dls/tb/thunderbird-0.4-win32-zhTW.exe"> Windows (5.8M) </a>
-<li><a href="dls/tb/thunderbird-0.4-i686-pc-linux-gtk2-gnu-zhTW.tar.bz2"> Linux (10M) </a>
+<li><a title="MD5: 8931e45cc98dff278d4e5d9bcfb98c8a8931e45cc98dff278d4e5d9bcfb98c8a" href="dls/tb/thunderbird-0.4-win32-zhTW.exe"> Windows (5.8M) </a>
+<li><a title="MD5: 0727f51ec37390bbeef44039047a9a9a0727f51ec37390bbeef44039047a9a9a" href="dls/tb/thunderbird-0.4-i686-pc-linux-gtk2-gnu-zhTW.tar.bz2"> Linux (10M) </a>
 </ul>
 
 </div>
 <div style='width: 30%;'>
 
 <h3>0.3</h3><ul>
-<li><a href="dls/tb/thunderbird-0.3-win32-zhTW.exe"> Windows (5.8M) </a>
-<li><a href="dls/tb/thunderbird-0.3-i686-pc-linux-gtk2-gnu-zhTW.tar.bz2"> Linux (10M) </a>
+<li><a title="MD5:" href="dls/tb/thunderbird-0.3-win32-zhTW.exe"> Windows (5.8M) </a>
+<li><a title="MD5: 452ab23e73f11de0c8f6eccef24f1d62452ab23e73f11de0c8f6eccef24f1d62" href="dls/tb/thunderbird-0.3-i686-pc-linux-gtk2-gnu-zhTW.tar.bz2"> Linux (10M) </a>
 </ul>
 
 <h3>0.2</h3><ul>
-<li><a href="dls/tb/thunderbird-0.2-win32-zhTW-SEAinstaller.exe"> Windows (5.7M) </a>
+<li><a title="MD5: 9a5ea5bcf4caeba215590d3c588b31d89a5ea5bcf4caeba215590d3c588b31d8" href="dls/tb/thunderbird-0.2-win32-zhTW-SEAinstaller.exe"> Windows (5.7M) </a>
 </ul>
 
 <h3>0.1</h3><ul>
-<li><a href="dls/tb/thunderbird-0.1-win32-zhTW.exe"> Windows (6.6M) </a>
+<li><a title="MD5: 4b606c96397d117b4ef0154f9fa03be24b606c96397d117b4ef0154f9fa03be2" href="dls/tb/thunderbird-0.1-win32-zhTW.exe"> Windows (6.6M) </a>
 </ul>
 
 </div>
