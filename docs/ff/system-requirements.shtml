@@ -13,11 +13,8 @@
   <noscript>-->
     <h2>馬上下載</h2>
     <ul id="nav">
-      <li><a href="%%FIREFOX-WIN32%%">Windows (%%FIREFOX-WIN32-SIZE%%)</a> </li>
-      <li><a href="%%FIREFOX-X86LINUX%%">Linux (%%FIREFOX-X86LINUX-SIZE%%)</a></li>
-      <li><a href="%%FIREFOX-MACOSX%%">Mac OS X (%%FIREFOX-MACOSX-SIZE%%)</a></li>
-      <li><a href="%%FIREFOX-OTHER%%">其他作業系統</a></li>
-      <li><a href="releases/#externalcontrib">其他語言</a></li>
+      <!--#include virtual="/dlff-latest.shtml" -->
+      <li><a href="/dlff-all">其他版本</a></li>
       <li><a href="system-requirements.html">系統需求</a></li>
     </ul>
   <!--</noscript>-->
