@@ -1,7 +1,31 @@
 #!/usr/bin/env perl
-
+#***** BEGIN LICENSE BLOCK *****
+# Version: MPL 1.1
+#
+# The contents of this file are subject to the Mozilla Public License Version
+# 1.1 (the "License"); you may not use this file except in compliance with
+# the License. You may obtain a copy of the License at
+# http://www.mozilla.org/MPL/
+#
+# Software distributed under the License is distributed on an "AS IS" basis,
+# WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+# for the specific language governing rights and limitations under the
+# License.
+#
+# The Original Code is MozLCDB: Mozilla Locale Database
+#
+# The Initial Developer of the Original Code is
+# Hung-Te Lin <piaip@csie.ntu.edu.tw>.
+# Portions created by the Initial Developer are Copyright (C) 2004
+# the Initial Developer. All Rights Reserved.
+#
+# Contributor(s):
+#
+# ***** END LICENSE BLOCK *****
+#
 # MozLCDB: Mozilla Locale Database
 #
+# Project Page: http://moztw.org/tools/mozlcdb/
 # Author:   Hung-Te Lin <piaip@csie.ntu.edu.tw
 # Original: Fri Sep 17 09:22:48 CST 2004
 
@@ -25,8 +49,14 @@ use Data::Dumper;
 our ($now, $glossaryfn, $currentfn);
 our (%db,%sys);
 
+# version info
+my $progver = '0.1';
+my $dbver = '0.1';
+
 %db = ();
-%sys= ();
+%sys= (
+	'VER' => $dbver,
+);
 
 $now = time;
 $glossaryfn = 'mozlcdb.txt';
@@ -367,9 +397,9 @@ sub updateFromCurrent { # update from current results {{{
 sub main { # {{{ main entry
 	my $cmd = '-u';
 	$cmd = shift @ARGV if (@ARGV > 0);
-	print STDERR "[MozLCDB] Mozilla Locale Database\n";
-	print STDERR 'Contact Hung-Te Lin <piaip@csien.ntu.edu.tw> if you have problem.' . "\n";
-	print STDERR "Project page: http://moztw.org/tools/mozlcdb/\n\n";
+	print STDERR "[MozLCDB] Mozilla Locale Database v$progver\n";
+	print STDERR "Contact Hung-Te Lin <piaip\@csie.ntu.edu.tw> if you have problem.\n";
+	print STDERR "Project page and manual: http://moztw.org/tools/mozlcdb/\n\n";
 
 	&readDb();
 
@@ -482,7 +512,7 @@ sub main { # {{{ main entry
 		&printCurrent($currentfn, 0);
 	} else {
 		print <<"HERE";
-usage: parse.pl [-uUixXen] [PATH] ...
+usage: mozlcdb.pl [-uUixXen] [PATH] ...
 
 [-u]   : (default) update editing table ($currentfn) to database
 -U [files...]: import/update from editing table
