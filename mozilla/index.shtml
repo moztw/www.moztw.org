@@ -1,4 +1,4 @@
-<!--#include file="header.shtml" -->
+<!--#include virtual="/header.shtml" -->
 	<div class="key-point">
 		<div id="product-desc" class="product-mozilla">
 			<h2>Mozilla 1.8a4</h2>
@@ -12,7 +12,7 @@
 		<div id="product-side">
 			<div class="download">
 				<h3>馬上下載</h3>
-				<!--#include file='dlmoz-js.shtml' -->
+				<!--#include virtual='/dlmoz-js.shtml' -->
 			</div>
 		</div>
 	</div>
@@ -74,4 +74,4 @@
 	      <li><a href="http://plugindoc.mozdev.org/">尋找 Plug-ins</a>
       </ul>
     </div>
-<!--#include file="footer.shtml" -->
+<!--#include virtual="/footer.shtml" -->

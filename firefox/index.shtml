@@ -1,5 +1,5 @@
 <!--#set var="my_title" value="Mozilla Firefox - 還你原 Web!" -->
-<!--#include file="header.shtml" -->
+<!--#include virtual="/header.shtml" -->
 	<div class="key-point">
 		<div id="product-desc" class="product-firefox">
 			<h2>Firefox: the browser, reloaded</h2>
@@ -11,10 +11,10 @@
 		<div id="product-side">
 			<div class="download">
 				<h3>馬上下載</h3>
-				<!--#include file='dlff-js.shtml' -->
+				<!--#include virtual='/dlff-js.shtml' -->
 				</div><ul>
 			<li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
-			<li><a class="ancilliaryLink" href="/relnotes/ff/0.10">版本資訊</a></li>
+			<li><a class="ancilliaryLink" href="/firefox/0.10">版本資訊</a></li>
                         </ul>
 			
 		</div>
@@ -81,4 +81,4 @@
         </ul>
 	  
     </div>
-<!--#include file="footer.shtml" -->
+<!--#include virtual="/footer.shtml" -->
