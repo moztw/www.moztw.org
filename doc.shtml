@@ -33,7 +33,7 @@
 	</ul>
 	<h3> 翻譯/本地化(Localization)用技術性資源</h3>
 	<ul>
-		<li><A href='docs/mozlcdb/'>MozLCDB: 為全方位 Mozilla Product 設計的翻譯工具</a>
+		<li><A href='tools/mozlcdb/'>MozLCDB: 為全方位 Mozilla Product 設計的翻譯工具</a>
 		<li><a href='docs/glossaries'>詞彙表</a>
 		<li><a href='tools'>軟體工具</a>
 	</ul>
