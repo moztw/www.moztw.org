@@ -37,14 +37,14 @@
 	border: gray 1px;
 	border-style: none solid solid none; 
 }
-#mainContent label {
-	font-weight: normal;
+#mainContent .install-options {
 	position: absolute;
 	top: -.8em;
 	right: 0;
-	display: block;
 	text-align: right;
 }
+
+label {font-weight: normal;}
 
 #mainContent .download:before {
 	content: url("download_tl_content.gif");
@@ -74,15 +74,19 @@ p.targetuser {
 </style>
 <script type="application/x-javascript">
 var dupArray=new Array(
-	["Tab Mix", "Tabbrowser Extensions"]
-	); //相衝套件 name, 這個可以設定多組
+	["Tab Mix", "Tabbrowser Extensions"],
+	["IEView","IEView 中文修改版"],
+	["AdBlock","AdBlock 中文修改版"],
+	["Super Drag and Go","Super Drag and Go 中文修改版"],
+	["Show Image","Show Image 中文修改版"]
+	); //相衝套件 name, 這個可以設定多組, 應該要讓 Script 自己去 assign event handler 給每個 input 比較有效率, 以後再說吧
 
 // 第一個參數：要比對的 dupArray 群組
 // 第二個參數：目前的 input name
 function checkDup(checkId, clickName){
 	for (i=0; i<dupArray[checkId].length; i++){
 		if (dupArray[checkId][i]!=clickName && document.forms['select_and_install'].elements[dupArray[checkId][i]].checked==true){
-			if (confirm("您現在選的「"+clickName+"」與之前選的「"+dupArray[checkId][i]+"」兩者相衝，可能導致錯誤，我們建議您只安裝其中一種。\n\n您要安裝「"+clickName+"」並取消「"+dupArray[checkId][i]+"」嗎？（按下「取消」則不會選擇此項。）")){
+			if (confirm("您現在選的「"+clickName+"」與之前選的「"+dupArray[checkId][i]+"」兩者不可同時安裝，否則可能導致錯誤或其他問題。\n\n您要安裝「"+clickName+"」並取消「"+dupArray[checkId][i]+"」嗎？（按下「取消」則不會選擇此項。）")){
 				document.forms['select_and_install'].elements[dupArray[checkId][i]].checked = false;
 				return true;
 			} else {
@@ -132,7 +136,9 @@ function checkAll(){
 	<div id="installList">
 	<h3 id="tongwen">NO.1 Tongwen 同文堂</h3>
 	<div class="extension-info">
+	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂" value="http://softcup.mp.sina.com.tw/tongwen/tongwen_0.2.0_e2_jslib.xpi" type="checkbox">列入安裝清單</label>
+	</div>
 	<ul>
 		<li><a href="http://forum.moztw.org/viewtopic.php?p=19073">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?p=23891">相關討論</a></li>
@@ -143,13 +149,15 @@ function checkAll(){
 	</div>
 	<h3 id="flashgot">NO.2 FlashGot</h3>
 	<div class="extension-info">
+	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="FlashGot" value="flashgot-0.5.7.1.xpi" type="checkbox">列入安裝清單</label>
+	</div>
 	<ul>
 		<li><a href="http://www.flashgot.net/whats">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=6077">配合 NetTransport</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=5724">配合 FlashGet</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=5431">配合其他軟體</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=4332">另有中文版</a></li>
+		<li>原生中文</li>
 	</ul>
 	<blockquote>「Firefox 終於可以方便地使用右鍵輕鬆下載檔案！FlashGot，我不能沒有你啊！」<cite>--社群成員 coolcd</cite></blockquote>
 	<p>這是 FlashGet 等下載軟體的遙控器，安裝後可自動判斷您的下載程式。此後欲下載檔案時，按下滑鼠右鍵就可以看到「使用XXXX下載此鏈結」等選項！亦有「下載選取部份包含的所有鏈結」及自行加入參考頁等功能。</p>
@@ -157,7 +165,10 @@ function checkAll(){
 	</div>
 	<h3 id="ieview">NO.3 IEView</h3>
 	<div class="extension-info">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="IEView" value="ieview.xpi" type="checkbox">列入安裝清單</label>
+	<div class="install-options">列入安裝清單：
+	<label title="點選此處，將此套件列入安裝清單。"><input name="IEView" value="ieview.xpi" type="checkbox" onclick="return checkDup(1, this.name)">原文版</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="IEView 中文修改版" value="http://forum.moztw.org/files/ie_view_v0.84_zh-tw.xpi" type="checkbox" onclick="return checkDup(1, this.name)">中文修改版</label>
+	</div>
 	<ul>
 		<li><a href="http://ieview.mozdev.org">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=1613">相關討論</a></li>
@@ -169,7 +180,10 @@ function checkAll(){
 	</div>
 	<h3 id="adblock">NO.4 Adblock</h3>
 	<div class="extension-info">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="AdBlock" value="http://www.extensionsmirror.nl/extfirefox/Adblock_0.5.2.039.xpi" type="checkbox">列入安裝清單</label>
+	<div class="install-options">列入安裝清單：
+	<label title="點選此處，將此套件列入安裝清單。"><input name="AdBlock" value="adblock-0.5-dev.xpi" type="checkbox" onclick="return checkDup(2, this.name)">原文版</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="AdBlock 中文修改版" value="http://forum.moztw.org/files/adblock_v0.5.2__nightly_39_pass3_zh-tw_715.xpi" type="checkbox" onclick="return checkDup(2, this.name)">中文修改版</label>
+	</div>
 	<ul>
 		<li><a href="http://adblock.mozdev.org/">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=1737">相關討論</a></li>
@@ -180,7 +194,9 @@ function checkAll(){
 	</div>
 	<h3 id="allinone">NO.5 All-in-One Gestures Extension</h3>
 	<div class="extension-info">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="All-in-One Gestures Extension" value="http://perso.wanadoo.fr/marc.boullet/ext/allinonegest013.xpi" type="checkbox">列入安裝清單</label>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="All-in-One Gestures Extension" value="allinonegest013.xpi" type="checkbox">列入安裝清單</label>
+	</div>
 	<ul>
 		<li><a href="http://perso.wanadoo.fr/marc.boullet/ext/extensions-en.html">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=3481">相關討論 (1)</a></li>
@@ -191,7 +207,9 @@ function checkAll(){
 	</div>
 	<h3 id="tabmix">NO.6 Tab Mix</h3>
 	<div class="extension-info">
+	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="Tab Mix" value="tabmix-0.1.xpi" type="checkbox" onclick="return checkDup(0, this.name)">列入安裝清單</label>
+	</div>
 	<ul>
 		<li><a href="http://hemiolapei.free.fr/divers/tabmix/tabmix.html.zh">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=4148">相關討論</a></li>
@@ -202,7 +220,10 @@ function checkAll(){
 	</div>
 	<h3 id="superdrag">NO.7 Super Drag and Go</h3>
 	<div class="extension-info">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go" value="SuperDragAndGo-0.2.4.xpi" type="checkbox">列入安裝清單</label>
+	<div class="install-options">列入安裝清單：
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go" value="SuperDragAndGo-0.2.4.xpi" type="checkbox" onclick="return checkDup(3, this.name)">原文版</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go 中文修改版" value="http://forum.moztw.org/files/super_drag_and_go_0.2.4.xpi" type="checkbox" onclick="return checkDup(3, this.name)">中文修改版</label>
+	</div>
 	<ul>
 		<li><a href="http://superdragandgo.mozdev.org/">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=2722">相關討論</a></li>
@@ -213,7 +234,9 @@ function checkAll(){
 	</div>
 	<h3 id="rightencoding">NO.8 Right Encoding</h3>
 	<div class="extension-info">
+	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="Right Encoding" value="right_encoding-0.1-fx.xpi" type="checkbox">列入安裝清單</label>
+	</div>
 	<ul>
 		<li><a href="https://addons.update.mozilla.org/extensions/moreinfo.php?application=firefox&id=371">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=5455">相關討論</a></li>
@@ -223,7 +246,9 @@ function checkAll(){
 	</div>
 	<h3 id="tbe">NO.9 Tabbrowser Extensions</h3>
 	<div class="extension-info">
+	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="Tabbrowser Extensions" value="tabextensions_en.xpi" type="checkbox" onclick="return checkDup(0, this.name)">列入安裝清單</label>
+	</div>
 	<ul>
 		<li><a href="http://piro.sakura.ne.jp/xul/_tabextensions.html.en">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=3954">相關討論</a></li>
@@ -234,7 +259,9 @@ function checkAll(){
 	</div>
 	<h3 id="scrapbook">NO.10 ScrapBook</h3>
 	<div class="extension-info">
+	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="ScrapBook" value="ScrapBook_0.13.7.xpi" type="checkbox">列入安裝清單</label>
+	</div>
 	<ul>
 		<li><a href="http://amb.vis.ne.jp/mozilla/scrapbook/">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=4035">相關討論</a></li>
@@ -245,7 +272,9 @@ function checkAll(){
 	</div>
 	<h3 id="webdeveloper">NO.11 Web Developer</h3>
 	<div class="extension-info">
+	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="Web Developer" value="webdevelope0.9.2.xpi" type="checkbox">列入安裝清單</label>
+	</div>
 	<ul>
 		<li><a href="http://www.chrispederick.com/work/firefox/webdeveloper/">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=1368">相關討論</a></li>
@@ -256,7 +285,9 @@ function checkAll(){
 	</div>
 	<h3 id="forecastfox">NO.11 ForecastFox</h3>
 	<div class="extension-info">
+	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="ForecastFox" value="forecastfox-0.5.8-fx.xpi" type="checkbox">列入安裝清單</label>
+	</div>
 	<ul>
 		<li><a href="https://addons.update.mozilla.org/extensions/moreinfo.php?application=firefox&id=398">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=4394">相關討論</a></li>
@@ -267,7 +298,9 @@ function checkAll(){
 	</div>
 	<h3 id="sage">NO.13 Sage</h3>
 	<div class="extension-info">
+	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="Sage" value="sage-1.3-fx.xpi" type="checkbox">列入安裝清單</label>
+	</div>
 	<ul>
 		<li><a href="http://sage.mozdev.org/" title="Sage 官方網站">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=5018" title="好用而且免費的 RSS Reader">相關討論</a></li>
@@ -277,7 +310,9 @@ function checkAll(){
 	</div>
 	<h3 id="downloadbar">NO.14 Download Status Bar</h3>
 	<div class="extension-info">
+	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="Download Status Bar" value="downbar0.9.2.xpi" type="checkbox">列入安裝清單</label>
+	</div>
 	<ul>
 		<li><a href="http://downloadstatusbar.mozdev.org/index.html">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=5519">相關討論</a></li>
@@ -287,7 +322,10 @@ function checkAll(){
 	</div>
 	<h3 id="showimage">NO.15 Show Image</h3>
 	<div class="extension-info">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="Show Image" value="showimage-0.3.xpi" type="checkbox">列入安裝清單</label>
+	<div class="install-options">列入安裝清單：
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Show Image" value="showimage-0.3.xpi" type="checkbox" onclick="return checkDup(4, this.name)">原文版</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Show Image 中文修改版" value="http://forum.moztw.org/files/showimage_v0.3_zh-tw.xpi" type="checkbox" onclick="return checkDup(4, this.name)">中文修改版</label>
+	</div>
 	<ul>
 		<li><a href="http://showimage.mozdev.org/">套件網站</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=5597">另有中文版</a></li>
@@ -312,7 +350,18 @@ function checkAll(){
     <h3>擴充套件是什麼玩意？</h3>
     <div style="margin: 6px 0pt 0pt 4px;">
     <p>Firefox 有符合上網需求的基礎功能，若想加強它的能力，可安裝擴充套件。這些套件大多與 Firefox 完美整合，您只會感到 Firefox「長」出了一個功能，而不會當作使用另一套軟體。</p>
-    <p>其他資訊可參考社群成員路人乙撰寫的<a href="">擴充套件 Q&amp;A</a>。</p>
+    <p>其他資訊可參考社群成員路人乙撰寫的<a href="http://forum.moztw.org/viewtopic.php?t=4162">擴充套件 Q&amp;A</a>。</p>
+    </div>
+    <h3>這些套件裝了安全嗎？</h3>
+    <div style="margin: 6px 0pt 0pt 4px;">
+    Mozilla Taiwan 無法提供任何保證，如果您有顧慮，可以先參考隨附的連結：
+    </div>
+    <ul>
+    <li>原文版或原生中文套件皆由套件作者提供，您可前往套件網站查閱相關資訊。</li>
+    <li>「中文修改版」為社群成員製作，您可檢閱「另有中文版」的資訊。</li>
+    </ul>
+    <div style="margin: 6px 0pt 0pt 4px;">
+    若您發現套件可能有安全性問題，請到擴充套件討論區或各修改版討論串發表意見。
     </div>
     <h3>擴充套件 Top 15 名單</h3>
 	      <ol>
