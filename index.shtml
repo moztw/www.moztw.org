@@ -3,10 +3,13 @@
 
   <a href="firefox" title="Learn more about Firefox" id="featurelink">進一步了解 Firefox</a>
   <div id="feature-content">
-	  <!--
-    <h2 style="margin: 0; font-size: 2px;"><a href="firefox"><img src="/images/t_firefox.gif" alt="Firefox 0.9.3" height="33" width="159"></a></h2>
-	-->
+	<h2 style="margin: 0; font-size: 2px;"><a href="products/firefox/"><img src="images/t_firefox_pr.gif" alt="Firefox 1.0 Preview Release" height="26" width="343"></a></h2>
+	   
+	<!--
 	<h2 style="margin: 0; "><a href="firefox" style='font-weight: bold; font-size: 120%; color: #457;'>Firefox 0.9</a></h2>
+	-->
+	<p><b style='color: #88f;'>
+		Firefox 1.0 PR 搶鮮中文版已可開始下載。</b></p>
 	<p><a href="firefox">更安全、更快、更好的網頁瀏覽器</a> 
 	，而且具有許多令人驚豔的新功能如分頁瀏覽與整合搜尋，
 	從此不用再見到廣告視窗、間諜軟體(spyware)、病毒等等討人厭的東西。<br/>
@@ -23,6 +26,7 @@
     <a href="thunderbird"><img src="images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
 	<p><a href="thunderbird">Thunderbird</a> 
 	是 Mozilla 家族新生代的 e-mail 程式，具有完整的功能，與最新的垃圾信控制。</p>
+	<p>最新版本： <a href='thunderbird'> Thunderbird 0.8 </a>
   </div>
   <div class="frontcolumn">
     <h2><a href="mozilla">Mozilla </a></h2>

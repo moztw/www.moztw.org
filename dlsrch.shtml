@@ -29,12 +29,12 @@ function addEngine(name,ext,cat)
 	若您想提供新的資料，也建議您順便送往 mycroft 一份。</p>
 	<p> 若要手動安裝，請下載檔案後複製到 Mozilla 程式目錄的 searchplugins 子目錄底下。</p>
 	<dl>
-		<dt>Google 中文搜尋
+		<dt>Google 台灣站
 		<dd><ul><li> 
-			<a href="#" onClick="addEngine('google_tw','gif','General' );">自動安裝</a>
+			<a href="#" onClick="addEngine('googletw','gif','General' );">自動安裝</a>
 			<li> 手動安裝：
-			<a href='dls/sp/google_tw.gif'> google_tw.gif</a>
-			<a href='dls/sp/google_tw.src'> google_tw.src</a>
+			<a href='dls/sp/googletw.gif'> googletw.gif</a>
+			<a href='dls/sp/googletw.src'> googletw.src</a>
 		</ul>
 
 		<dt>Openfind 搜尋 (sam 提供)

@@ -12,7 +12,8 @@
 <div style='width: 30%;'>
 
 <h3> 0.9 </h3><ul>
-<li><a href="dls/ff/Firefox-0.9.1-win32-zhTW.exe"> Windows (4.6M) </a>
+<li><a href="dls/ff/Firefox-0.9.1-win32-zhTW.exe"> 0.9.1 Windows (4.6M) </a>
+<li><a href="dls/ff/Firefox-0.9.0-win32-zhTW.exe"> Windows (4.6M) </a>
 <li><a href="dls/ff/Firefox-0.9-linux-zhTW.tar.bz2"> Linux (bz2) </a>
 <li><a href="dls/ff/Firefox-0.9-mac-zhTW.dmg.gz"> MacOSX (DMG+gz) </a>
 </ul>

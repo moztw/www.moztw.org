@@ -14,14 +14,9 @@
  <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
  <link rel="home" title="Home" href="http://www.moztw.org/">
- <!--
- <script type="text/javascript" src="js/JSCookMenu.js"></script>
- <script type="text/javascript" src="css/CJK/theme.js"></script>
- -->
  <style type='text/css'>
  <!--
  @import url(/css/moztw.css);
- /* @import url(/css/CJK/theme.css); */
  -->
  </style>
 

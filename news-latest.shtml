@@ -1,10 +1,6 @@
 <ul class="news">
+	<li><div class="date"> 9 月 27 日 </div>
+	開始提供 Firefox 1.0PR 與 Thunderbird 0.8 Win32 中文版的下載
 	<li><div class="date"> 9 月 23 日 </div>
 	Firefox 1.0PR 中文版預計在下星期前可推出測試版
-	<li><div class="date"> 9 月 14 日 </div>
-	Firefox 1.0PR 與 Thunderbird 0.8 已發佈，但因為有非常大的改變，
-	中文化仍在製作中。 事實上，其它語言的版本也都還無法出來，
-	請耐心等待。
-	<li><div class="date"> 9 月 10 日 </div>
-	下載區的搜尋引擎自動安裝之前會出問題，現在已修正。
 </ul>
