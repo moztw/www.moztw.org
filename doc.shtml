@@ -1,4 +1,4 @@
-!--#set var="my_title" value="入門與推廣文件" -->
+<!--#set var="my_title" value="入門與推廣文件" -->
 <!--#include file="header.shtml" -->
 <div id='mainContent' class='right'>
 	<h1> 入門與推廣文件 </h1>
