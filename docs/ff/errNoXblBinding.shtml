@@ -6,7 +6,7 @@
 <h2>我開不了 Firefox！</h2>
 <p>你下載並安裝了 Firefox 0.8，但試著啟動它時卻出現了這樣的字句：</p>
 
-<p><strong> Error launching browser <a href="[window:no window:no]">window:no</a> XBL binding for browser </strong></p>
+<p><strong> Error launching browser window: no XBL binding for browser </strong></p>
 
 <p><img src="http://www.mozilla.org/products/firefox/releases/xblerror/noxblbinding.png" alt="noxblbinding.png" /></p>
 
