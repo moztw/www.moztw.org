@@ -10,7 +10,8 @@ var dupArray=new Array(
 	["Super Drag and Go","Super Drag and Go 中文修改版"],
 	["Show Image","Show Image 中文修改版"],
 	["Download Status Bar","Download Status Bar 中文修改版"],
-	["Web Developer","Web Developer 中文修改版"]
+	["Web Developer","Web Developer 中文修改版"],
+	["All-in-One Gestures Extension","All-in-One Gestures Extension 中文修改版"]
 	); //相衝套件 name, 這個可以設定多組, 應該要讓 Script 自己去 assign event handler 給每個 input 比較有效率, 以後再說吧
 
 // 第一個參數：要比對的 dupArray 群組
@@ -154,8 +155,9 @@ function hidden_descript(obj) {
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=3481">相關討論 (1)</a></li>
 		<li><a href="http://forum.moztw.org/viewtopic.php?t=5485">相關討論 (2)</a></li>
 	</ul>
-	<div class="install-options">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="All-in-One Gestures Extension" value="allinonegest013.xpi" type="checkbox">列入安裝清單</label>
+	<div class="install-options">列入安裝清單:
+	<label title="點選此處，將此套件列入安裝清單。"><input name="All-in-One Gestures Extension" value="allinonegest013.xpi" type="checkbox" onclick="return checkDup(7, this.name)">原文版</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="All-in-One Gestures Extension 中文修改版" value="allinonegest013.xpi" type="checkbox" onclick="return checkDup(7, this.name)">中文修改版</label>
 	</div>
 	<blockquote>「有了它，幾乎所有動作都可以滑鼠手勢解決。」<cite>--社群成員 hemiola</cite></blockquote>
 	<p>按住滑鼠右鍵劃出上下左右，就能夠控制 Firefox 的許多功能(如上一頁、下一頁等)，也可自訂滑鼠手勢的功能。特別推薦想學哈利波特揮舞魔杖耍法術的朋友使用。</p>
