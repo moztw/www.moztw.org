@@ -6,7 +6,9 @@
 	<ul>
 	<li> <a href='http://www.mozilla.org'>Mozilla.org 官方網站 </a>
 	<li> <a href='http://www.mozilla.org/projects/l10n'>Mozilla.org L10N (本地化)官方網站 </a>
+	<li> <a href='http://bugzilla.mozilla.org/'>Bugzilla: 回報 Mozilla 錯誤 </a>
 	</ul>
+
 <H3> Plugins </H3>
 這裡提供 Plugins 的鏈結(由於版權問題所以不直接提供下載檔案)。
 <ul>
@@ -14,7 +16,18 @@
 	<li><a href='http://www.flash.com'>Macromedia Flash</a>
 	<li><a href='http://plugindoc.mozdev.org/'> Mozilla 官方 plugins 整理網站 </a><br/>
 	    <a href="http://plugindoc.mozdev.org/zh-TW/windows.html"> Windows plugins (中文) </a>
-		<li><a href="http://home.netscape.com/plugins/"> Netscape Plugins 網站 </a>
+	<li><a href="http://home.netscape.com/plugins/"> Netscape Plugins 網站 </a>
 </ul>
+
+<h3>社群網頁</h3>
+許多關心 Mozilla 且熱心的朋友們所製作關於 Mozilla 的網頁：
+<ul>
+	<li>Hemiola: 
+	<a href='http://hemiolapei.free.fr/divers/mozilla.html'>推薦網頁瀏覽器Firefox</a>
+	<a href='http://hemiolapei.free.fr/divers/myfx.html'>我的 Firefox</a>
+
+</ul>
+若有遺漏或建議，歡迎至討論區回報。
+
 </div>
 <!--#include file="footer.shtml" -->
