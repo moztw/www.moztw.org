@@ -30,7 +30,7 @@ $EXT_URL	= ""; 		#"http://ntu.csie.org/~piaip/mozilla/";
 $EXT_UPDATE_URL	= "";	#
 $EXT_ICON_URL	= "";	#
 $EXT_ABOUT_URL	= ""; 	#"http://ntu.csie.org/~piaip/mozilla/";
-$EXT_OPTIONS_URL= "";	#"chrome://selectlocale/content/locale.xul";
+$EXT_OPTIONS_URL= "";	#"chrome://global/locale/swlocalelite.xul";
 # the selectlocale is a tiny locale switch inspired by lpswitcher
 # and can be fetched from
 #   http://ntu.csie.org/~piaip/mozilla/tools/selectlocale.jar

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0"?>
+<!-- ***** BEGIN LICENSE BLOCK *****
+   - Version: MPL 1.1
+   -
+   - The contents of this file are subject to the Mozilla Public License Version
+   - 1.1 (the "License"); you may not use this file except in compliance with
+   - the License. You may obtain a copy of the License at
+   - http://www.mozilla.org/MPL/
+   -
+   - Software distributed under the License is distributed on an "AS IS" basis,
+   - WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License
+   - for the specific language governing rights and limitations under the
+   - License.
+   -
+   - The Original Code is Simple Locale Switcher for Firefox 1.0+
+   -
+   - The Initial Developer of the Original Code is
+   - Hung-Te Lin <piaip@csie.ntu.edu.tw>
+   - Portions created by the Initial Developer are Copyright (C) 2004
+   - the Initial Developer. All Rights Reserved.
+   -
+   - Contributor(s):
+   -
+   - ***** END LICENSE BLOCK ***** -->
+
+<!DOCTYPE window [
+	<!-- Put your languagepack locale here. -->
+	<!ENTITY MyLocaleCode "zh-TW"> 
+	<!ENTITY MyLocaleMsg "Traditional Chinese (zh-TW)">
+
+	<!-- Override/localize things below if you want. But care. 
+		 I don't use external files because I want to make
+		 debugging and packaging easier. -->
+	<!ENTITY SLW_TITLE "Locale Switcher Lite">
+	<!ENTITY SLW_CAPTION "Change Locale">
+	<!ENTITY SLW_DESCRIPTION "Please select which locale to use:">
+	<!ENTITY SLW_ENUS_CODE "en-US">
+	<!ENTITY SLW_ENUS_MSG "English (en-US)">
+	<!ENTITY SLW_SET_MSG_PREFIX "New locale is ">
+	<!ENTITY SLW_SET_MSG_POSTFIX ".\nPlease restart to take effect.">
+	<!ENTITY SLW_OK "OK">
+]>
+
+<window id="locale-switcher-win" 
+        width="320" height="175"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        title="&SLW_TITLE;"
+		screenX="10" screenY="10"
+> 
+
+<script type="application/x-javascript">
+	// Ths Javascript. Setting UA.locale requires Firefox 1.0 trunk
+	// WARNING: NOT WORKING IN Firefox 1.0PR
+
+function setLocale(newLocale, msg) {
+	netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+	var pref = Components.classes[
+		"@mozilla.org/preferences-service;1"].getService(
+		Components.interfaces.nsIPrefBranch);
+	var ual_key = "general.useragent.locale";
+	// var oldLocale=pref.getCharPref(ual_key);
+	// alert(oldLocale);
+	pref.setCharPref(ual_key, newLocale);
+	// oldLocale=pref.getCharPref(ual_key);
+	// alert(oldLocale);
+	alert("&SLW_SET_MSG_PREFIX;" + msg + "&SLW_SET_MSG_POSTFIX;");
+}
+</script>
+
+  <vbox flex="1">
+    <groupbox flex="1">
+      <caption label="&SLW_CAPTION;"/>
+      <vbox>
+	  <label value="&SLW_DESCRIPTION;"/>
+		  <button label="&SLW_ENUS_MSG;" 
+			  oncommand="setLocale('&SLW_ENUS_CODE;', '&SLW_ENUS_MSG;');"/>
+		  <button label="&MyLocaleMsg;" 
+			  oncommand="setLocale('&MyLocaleCode;', '&MyLocaleMsg;');"/>
+      </vbox>
+    </groupbox>
+  </vbox>  
+  <button label="&SLW_OK;" oncommand="window.close();"/>
+</window>

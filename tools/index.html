@@ -1,10 +1,16 @@
 <html>
     <head>
-	<title> Piaip's tools to Mozilla Translation</title>
+	<title> Piaip's tools for Mozilla Translation</title>
 	<style>
 	    <!-- 
 	    BODY {
 		background-color: #e0f0f0;
+	    }
+	    fieldset.current {
+		    background: #e8f8f8;
+	    }
+	    fieldset.expired {
+	        background: #ede;
 	    }
 	    A:hover {
 		text-decoration: none;
@@ -27,11 +33,21 @@
 	    DD {
 		margin-bottom: 1em;
 	    }
+	    h2 {
+		    padding: 2px;
+		    border-bottom: 2px dotted #aac;
+		    border-right: 2px dotted #aac;
+		    background: #eff;
+		    display: inline;
+	    }
+	    legend {
+		    background: #eff;
+	    }
 	    -->
 	</style>
     </head>
     <body>
-	<h3> Piaip's tools to Mozilla Translation</h3>
+	    <h2> Piaip's tools for Mozilla Translation</h2><br/>
 	<p>
 	This page contains program/tools made (or tweaked from other's work)
 	by myself to help translating Mozilla (localization).
@@ -49,15 +65,33 @@
 	Some notes about how to make extension versions of firefox language
 	pack is also included in the note.
 	</p>
-	<hr>
-	<b> Tools for download </b>
+	<fieldset class='current'>
+		<legend> Current Tools for download </legend>
 	<dl>
 		<dt><a href='mozlcdb'> MozLCDB: Mozilla Locale Database </a>
 		<dd>The new total solution for Mozilla, Firefox, Thunderbird, Netscape,
 		replacement for MozillaTranslator.
-		<dt><a href="mozextrdf_pl.html">mozextrdf.pl</a>
+		<dt><a href="lpext/mozextrdf_pl.html">mozextrdf.pl</a>
 		<dd> A perl program to generate install.rdf for new Firefox/Thunderbird
 		extension.
+		<dt><a href="lpext/swlocalelite.xul">swlocalelite.xul</a> (Please save
+		the link target to another file, of you'll just see a demo)
+		<dd> To make "language pack as extension" possible, you must generate
+		a correct "install.rdf" and a locale switcher. For Firefox 1.0+ ,
+		(1.0PR is NOT INCLUDED!) Firefox team says there are 2 ways to switch 
+		locale. Set <b>general.useragent.locale</b>, or invoke command line
+		with <b>-UILocale aa-BB</b>. Appraently, command line is only for
+		localized installers, so a LP as extension needs to set pref.<br/>
+		<u><b>swlocalelite.xul</b></u> is a lite weight locale switcher
+		written by me to do locale switching. It is written to be small and
+		easily attached to any language pack and modified.<br/>
+		To install: fetch the file by URL given above, copy it into anywhere
+		with correct contents.rdf
+		<!-- (I'd prefer locale/global/ inside your aa-BB.jar)-->
+		, and update your
+		<b>optionsURL</b> entry in install.rdf to match its new location. For
+		example, <b>optionsURL="chrome://lp-zh-TW/content/swlocalelite.xul"</b>
+
 	    <dt><a href="mozip.c">mozip.c </a> and <a href="mozip.exe">mozip.exe</a></dt>
 	    <dd> <b>Current version: 0.2 </b><br>
 	    The 'mozip' is a program to create W32 localized builds.<br>
@@ -81,6 +115,12 @@
 	    on your own. mozip used system calls to update 'Resource' so
 	    you'd better run it on NT series.
 	    </dd>
+    </dl>
+    </fieldset>
+    <br/>
+    <fieldset class='expired'>
+	    <legend>Expired Stuff. Most people don't need them. </legend>
+    <dl>
 	    <dt><a href="mtx/mtx12.jar">Mozilla Translator 4.36 + piaip eXtension (mtX)</a></dt>
 	    <dd> <b> Current Version: 1.2 </b><br>
 	    <b>This project has been shutdown. And for versions after Firefox 1.0PR,
@@ -172,9 +212,10 @@
 	    for memorial reason. A <A href="../doc/chromeview.png">screenshot </a> 
 	    was included in that mail.
 	</dl>
-	<hr>
+</fieldset><p>&nbsp;<br/>
+<fieldset>
 	All tools here are used to make language packs and localized builds in 
-	<a href="http://www.csie.ntu.edu.tw/~b7506051/mozilla/">
+	<a href="http://moztw.org/">
 	    Mozilla Localization: Traditional Chinese </a>
 <pre><i>
 Best Regards,
@@ -182,5 +223,6 @@ Best Regards,
 Hung-Te Lin (Francis S.Lin) <a href="mailto:piaip@csie.ntu.edu.tw?subject=MozTrTools%3a">&lt;piaip@csie.ntu.edu.tw&gt;</a>
     Find me on internet by using Google for 'piaip'
 </i></pre>
+    </fieldset>
     </body>
 </html>
