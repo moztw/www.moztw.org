@@ -28,7 +28,11 @@
 # Project Page: http://moztw.org/tools/mozlcdb/
 # Author:   Hung-Te Lin <piaip@csie.ntu.edu.tw
 # Original: Fri Sep 17 09:22:48 CST 2004
-
+# $LastChangedBy$
+# #Date#
+# $Rev#
+# #Id#
+#
 # The idea:
 # We keep a glossary history database of (orig, trandlated)
 # and export a text for current version.
