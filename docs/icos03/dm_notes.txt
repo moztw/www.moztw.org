@@ -1,0 +1,35 @@
+1. 推銷文宣
+   * 101 things you can do in Mozilla
+     http://www.xulplanet.com/ndeakin/arts/reasons.html
+     或許可以找人翻成中文
+   * http://netscape17.tripod.com/setup01.htm
+     這是 Netscape 的，可以參考一下
+   * http://www.csie.ntu.edu.tw/~b7506051/mozilla/whymoz.html
+   * http://www.csie.ntu.edu.tw/~b7506051/mozilla/tip.html
+   最近我覺得比較重要的有
+   * Type Ahead Find
+   * Tabbed Browsing
+   * Zip Support
+
+2. Localization task:
+   a. writing notes on howto
+     introduction to translation and localization
+     First refer: http://www.mozilla.org/projects/l10n/mlp_howto.html
+     Then you'll need tool: http://www.mozillatranslator.org/
+     My own tool page: http://www.csie.ntu.edu.tw/~r91034/mozilla/tools/
+     My other docs: http://www.csie.ntu.edu.tw/~r91034/mozilla/docs.html
+   b. online help translation
+     現在有人在做了
+     http://www.csie.ntu.edu.tw/~b7506051/mozilla/forum/viewtopic.php?t=916
+     http://mail.ht.net.tw/~tonyho72/
+     可以跟 nakehokimo@yahoo.com.tw 聯絡
+   c. search for tools
+     tools for usage 障礙排除
+     另待有空的人去整理吧
+     Ref: http://www.mozdev.org/
+
+3. how to write good page
+   http://www.w3c.org/
+   Refer to standards, and other tutorials online.
+   其它我計畫放在 http://www.csie.ntu.edu.tw/~r91034/mozilla/gecko.html
+

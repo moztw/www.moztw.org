@@ -1,0 +1,19 @@
+<!--#include file="header.shtml" -->
+<div>
+	<h1> 網路資源/鏈結 </h1>
+	這裡放了相關的鏈結。
+	<h3> Mozilla.org </h3>
+	<ul>
+		<li> <a href='http://www.mozilla.org'>Mozilla.org 官方網站 </a>
+	</ul>
+<H3> Plugins </H3>
+這裡提供 Plugins 的鏈結(由於版權問題所以不直接提供下載檔案)。
+<ul>
+	<li><a href='http://java.sun.com/j2se/'> Java 2 (Sun) </a>
+	<li><a href='http://www.flash.com'>Macromedia Flash</a>
+	<li><a href='http://plugindoc.mozdev.org/'> Mozilla 官方 plugins 整理網站 </a><br/>
+	    <a href="http://plugindoc.mozdev.org/zh-TW/windows.html"> Windows plugins (中文) </a>
+		<li><a href="http://home.netscape.com/plugins/"> Netscape Plugins 網站 </a>
+</ul>
+</div>
+<!--#include file="footer.shtml" -->

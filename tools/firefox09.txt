@@ -1,0 +1,82 @@
+From piaip@csie.ntu.edu.tw Thu Jun 17 19:52:51 2004
+Date: Thu, 17 Jun 2004 19:52:51 +0800
+From: Hung-Te Lin <piaip@csie.ntu.edu.tw>
+To: =?big5?Q?H=E5vard?= Mork <havarmor@stud.ntnu.no>
+Cc: mozilla-l10n@mozilla.org
+Subject: Re: How to repack firefox-installer?
+Message-ID: <20040617115251.GA11916@ntucsa.csie.ntu.edu.tw>
+References: <carrvm$qoo1@ripley.netscape.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=big5
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+In-Reply-To: <carrvm$qoo1@ripley.netscape.com>
+User-Agent: Mutt/1.4.2i
+X-Mailer: Mutt on Solaris or FreeBSD, http://www.mutt.org/
+X-Location: Taipei, Taiwan
+X-Editor: VIM, http://www.vim.org/
+Status: RO
+Content-Length: 2934
+Lines: 60
+
+* Håvard Mork <havarmor@stud.ntnu.no> [040617 18:42]:
+> Since mozip.exe don't work anymore, I tried 7-zip to repackage the ff0.9 
+> installer, but it only seems to work with extraction (0.9) -- it fails 
+> to modify the archives.
+> So ... is there any way of repackaging it back into the installer?
+   You don't have to "modify". You can create a new one, it's even simpler
+   than the way we used to with mozip.
+
+   http://lxr.mozilla.org/mozilla/source/browser/installer/windows/
+   Get app.tag and 7zip.bat from the url above.
+   Of course you should have 7zip installed.
+
+   Now zip all your files into a 7zip file.
+   Modify 7zip.bat to match the PATH of your own system environment.
+   Then just run 7zip.bat and you'll have a working installer.
+
+   However you need one more file described in the 7zip.bat, the SFX
+   loader itself. You may use the SFXs provided by officla 7zip (*.sfx)
+   but their icons were different. If you want to use the SFX by Mozilla
+   Firefox, use some software, search for the app.tag file inside the
+   big SFX exe, then split it up.
+
+
+> I've also pretty much given up on creating an extension package for the 
+> installation of the norwegian bokmål language pack. Now I seem to know 
+   After trying for hours I realized that it was not so hard...
+   Get the JP or FR or IT language pack ones they've posted
+   (Thank you all who have been pioneers), extract the XPI and
+   get the install.rdf and locale switcher program. Take JP langpack
+   for example, it was lpswitcher.jar.
+
+   Integrate the 2 files to your package and modify them.
+   You must get a GUID, of course (Currently it seems like that
+   a random number not generated as real GUID also works. But if
+   you want a real GUID, google for 'guidgen', a program by microsoft).
+
+   And after you package your file in same layout, the new XPI should work.
+
+   Some hints in my experience:
+   If your XPI does not work (mostly firefox pops up showing
+   'installing' messages when startup and then frozen), check your
+   install.rdf. Every chrome registeration and file MUST be exactly
+   existing. (If you were using install.js, registering for a 
+   non-exist chrome will not cause any error)
+
+
+> why Mozilla.org can reduce the size of Firefox so much: They remove 
+> every single error- and diagnostic message there is in the codebase.
+   That's not so the true. The major improvement comes from 7zip.
+   7zip with LZMA is an amazing compression method that can make the archive
+   smaller about 30~40% in comparision to traditional ZIP/gz which is
+   used by original Mozilla (including Firefox).
+   And during 0.8 to 0.9 some people checked the resource (locale,
+   content, ... stuff) in Mozilla * to remove several comments and code
+   not in use. That speeds up the startup time.
+
+May the source be with you,
+--
+    Hung-Te Lin <HungTe@gmail.com> <piaip@csie.ntu.edu.tw>
+    Traditional Chinese for Mozilla, Firefox, Thunderbird
+

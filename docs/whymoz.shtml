@@ -1,0 +1,70 @@
+<!--#include virtual='/header.shtml' -->
+<H3 class="dashbox"> Why Mozilla? (aka Why IE Sucks?) </H3>
+<DL>
+    <!-- {{{ --> <DT class="en"> <!-- py:en -->
+<IMG src="en.png" alt="English">
+    TKirby's Cellular Automata
+    </DT><DD> 
+    ref: <a href="http://www.csie.ntu.edu.tw/~b88039/nn/ca.html">
+	http://www.csie.ntu.edu.tw/~b88039/nn/ca.html</a><br>
+    "If you view the page with IE and Mozilla
+    You can know which one has better performance immediately!",
+    said by TKirby.
+    </DD> <DT class="ch"> <!-- py:ch --> 
+<IMG src="ch.png" alt="Chinese">
+    TKirby 的 Cellular Automata 
+    </dt> <DD> 
+    請參考: <a href="http://www.csie.ntu.edu.tw/~b88039/nn/ca.html">
+	http://www.csie.ntu.edu.tw/~b88039/nn/ca.html</a>網頁<br>
+    據 TKirby 說可以比較出 IE 與 Mozilla 的效能差異
+    </DD> <!-- }}} --> 
+
+    <!-- {{{ --> <DT class="en"> <!-- py:en -->
+<IMG src="en.png" alt="English">
+    101 things that the Mozilla browser can do that IE cannot
+    </DT><DD> 
+    ref: <a href="http://www.xulplanet.com/ndeakin/arts/reasons.html">
+    http://www.xulplanet.com/ndeakin/arts/reasons.html</a>
+    </DD> <DT class="ch"> <!-- py:ch --> 
+<IMG src="ch.png" alt="Chinese">
+    * 101 件 Mozilla 做得到而 IE 作不到的事
+    </dt> <DD> 
+    請參考: <a href="http://www.xulplanet.com/ndeakin/arts/reasons.html"> 
+     http://www.xulplanet.com/ndeakin/arts/reasons.html</a>網頁
+    </DD> <!-- }}} --> 
+
+    <!-- {{{ --> <DT class="en"> <!-- py:en -->
+<IMG src="en.png" alt="English">
+    * Mozilla supports standard HTML, DOM and CSS. IE sucks.
+    </DT><DD> 
+    ref: <a href="http://www.w3c.org"> w3c </a>pages, especially 
+    <a href="http://www.w3.org/Style/CSS/"> CSS </A>
+    </DD> <DT class="ch"> <!-- py:ch --> 
+<IMG src="ch.png" alt="Chinese">
+    * Mozilla 對 HTML 及 CSS, DOM 的支援遠較 IE 完整。
+    </dt> <DD> 
+    請參考: <a href="http://www.w3c.org"> w3c </a>網頁, 特別是
+    <a href="http://www.w3.org/Style/CSS/"> CSS </A>。
+    CSS的網頁本來是一個半透明的 menu 固定在 browser 右半邊不會被被捲動走，
+    IE 看起來是不透明的醜 menu 在文件開頭左邊而且會捲走。
+    再來，該網頁用 Mozilla 可由「檢視」「使用 Stylesheet 」選用不同 style
+    sheet，IE也不支援。還有，w3c 的網頁大多有 website navigation bar
+    (檢視→顯示/隱藏→網站瀏覽列)，IE也不支援
+    <hr>
+    Mozilla 1.0 的 Demo page 中的好網頁:
+    <a href="http://www.meyerweb.com/eric/css/edge/complexspiral/demo.html">
+    http://www.meyerweb.com/eric/css/edge/complexspiral/demo.html
+    </a>, IE 又再次遜掉
+    </DD> <!-- }}} --> 
+
+    <!-- {{{ --> <DT class="en"> <!-- py:ch -->
+<IMG src="ch.png" alt="Chinese">
+    * KKMan 也是很棒的軟體啊！ 為什麼不用國人開發的東西呢？
+    </dt> <DD> 
+    答： KKMan 我沒在用，不予置評，呵呵 (傻笑中) <br>
+    BTW 有人說開 KKMan 的 Help - About 會看到不可思議的事情。
+    </DD> <!-- }}} --> 
+ </DL>
+
+ <hr>
+<!--#include virtual='/footer.shtml' -->

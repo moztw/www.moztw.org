@@ -1,0 +1,176 @@
+<html>
+    <head>
+	<title> Piaip's tools to Mozilla Translation</title>
+	<style>
+	    <!-- 
+	    BODY {
+		background-color: #e0f0f0;
+	    }
+	    A:hover {
+		text-decoration: none;
+		background-color: #888;
+		color: #eff;
+		border: 1px solid black;
+		border-left: 10px solid black;
+	    }
+	    A {
+		background-color: #d8e8e8;
+		border: 1px solid #e0f0f0;
+		border-left: 10px solid #8aa;
+		padding: 2px;
+		text-decoration: none;
+	    }
+	    DT, DT * {
+		text-decoration: underline;
+		font-family: sans-serif;
+	    }
+	    DD {
+		margin-bottom: 1em;
+	    }
+	    -->
+	</style>
+    </head>
+    <body>
+	<h3> Piaip's tools to Mozilla Translation</h3>
+	<p>
+	This page contains program/tools made (or tweaked from other's work)
+	by myself to help translating Mozilla (localization).
+	<p style='color: red;'>
+	Some notes for Firefox 0.9+, Thunderbird 0.7:<br/>
+	Recently Firefox/Thunderbird has changed their win32 installer from
+	Mozilla SFX to 7zip SFX. That means you CAN NOT use mozip to extract
+	the files anymore. What you need now is a <a href="http://www.7zip.org">
+	    7zip</a> and read <a href="firefox09.txt"> this note </a> by me.
+	Some notes about how to make extension versions of firefox language
+	pack is also included in the note.
+	</p>
+	<hr>
+	<b> Tools for download </b>
+	<dl>
+		<dt><a href="mozextrdf_pl.html">mozextrdf.pl</a>
+		<dd> A perl program to generate install.rdf for new Firefox/Thunderbird
+		extension.
+	    <dt><a href="mozip.c">mozip.c </a> and <a href="mozip.exe">mozip.exe</a></dt>
+	    <dd> <b>Current version: 0.2 </b><br>
+	    The 'mozip' is a program to create W32 localized builds.<br>
+	    <b>This version does not need Cygwin anymore.</b><br>
+	    <span style="color: red;">
+		Warning: mozip used Windows API that implemented correcly on
+		NT based environments, like Windows 2000/XP. If you want to 
+		use it on 95/98/ME systems, you're on your own. It is reported
+		that on 98/ME, some people cannot compress(update) files.
+	    </span>
+	    <br>
+	    <A href="http://members.madasafish.com/~tyndall/create-installer.html">
+	    If you are new to mozip, take a look at this good tutorial by Mark
+	    Tyndall. </a> <br/>
+	    I've posted its usage on the mailing list (some are
+	    archived below), so no more documents here.
+	    And do not disturb me for that.<br>
+	    P.S.: The mozip is ONLY tested and purposed to run on
+	    Windows 2000 platform (now turned into XP Pro since I've got a new
+	    Compaq Evo N800v).  If you want to try on Windows 95/98, you are
+	    on your own. mozip used system calls to update 'Resource' so
+	    you'd better run it on NT series.
+	    </dd>
+	    <dt><a href="mtx/mtx12.jar">Mozilla Translator 4.36 + piaip eXtension (mtX)</a></dt>
+	    <dd> <b> Current Version: 1.2 </b><br>
+	    MtX (MozillaTranslator + eXtension) is my tweaked version from 
+	    <a href="http://www.mozillatranslator.org"> MozillaTranslator </a>
+	    version4.36.<br> 
+	    I don't suggest you using this if you are not very familiar with 
+	    Mozilla Localization. You may better try the latest version of
+	    original MozillaTranslator (at least 5.02 now) instead.<br>
+	    The version number of all MtX are based on which version of
+	    Mozilla are they dedicated to. Eg, 'mt099' are developed for
+	    Mozilla 0.9.9 and later versions.<hr>
+	    Version release notes (what has been changed): 
+	    <dl>
+	    <dt><a href="mtx/mtx12.jar">mtx12 (1.2)</a></dt><dd>
+	    <ol>
+		<li>'Import' has been removed since we use almost the same format
+                    with MT4.36.</li>
+		<li>'Export' has been reduced. Currently only 'Write specified JAR'
+                    works. 'Write XPI' has been removed because packing on my own
+		    will be better. 'Write all jar' is used to export all jars
+		    according to names specified in 'Manage install'.</li>
+		<li>The 'contents.rdf' generation has been extremly changed to
+                    overcome recently broken localeVersion in chromes. I used
+		    regular expression to make it more correct. This is so great.</li>
+		<li>Images (help/image) are known not to work. You have to
+		    extract and repackage it. </li>
+		<li>Too bad my JDK 1.4.1 keeps crashing
+		    after running JBuilder on my XP SP1, so I will stop
+		    developing new version for a while until some big change
+		    forced me to do so.</li>
+		<li>Maybe I will stop developing this program since I've
+		    found that batch processing the glossary file with Python
+		    is much more easier. Recently I use my own python script
+		    named 'fixmt.py' to do advanced merge, strip work. With
+		    Netscape 7.01 (I started with Moz1.2.1 glossary), it
+		    helped me to reduce 3000 untranslated mesages to 13XX
+		    untranslated. That really helps. Maybe I will put it here
+		    someday.</li>
+	    </ol>
+	    </dd>
+	    <dt><a href="mtx/mtx099.jar">mtx099 (0.9.9)</a></dt><dd>
+	    <ol>
+		<li>'localeVersion' has been supported in both generating'contents.rdf'
+		    and in UI.</li>
+		<li>for installs with name containing 'Region', MtX will automatically
+                    treat it as 'region' locale and make necessary changes.</li>
+		<li> After update, those original text with only one char will
+		    be set as 'keep origin' automatically.</li>
+	    </ol>
+	    </dd>
+	    <dt><a href="mtx/mtx094.jar">mtx094 (0.9.4)</a></dt><dd>
+                I forgot what has been changed in this release
+	    </dd>
+	    </dl>
+	    </dd>
+	    <dt><a href="wintools.zip">wintools.zip</a></dt>
+	    <dd>is the wintools.zip from Mozilla.org .</dd>
+	</dl>
+	<b> Notes and documents </b>
+	<dl>
+	    <dt><a href="phtr.txt"> Introduction to Phoenix Localization </a></dt>
+	    <dd>My notes posted on mozilla-l10n mailing list to help translating
+	    Phoenix.</dd>
+	    <dt> Articles about mozip posted on mozilla-l10n mailing list</dt>
+	    <dd>
+	    As I told, usage of mozip can be fetched from mozilla-l10n 
+	    mailing list. You may also google 'mozip' on 
+	    <a href="http://groups.google.com"> groups.google.com</a>
+	    (the mailing-list and newsgroup google).<br>
+	    Whatever I've copied several important articles here: <br>
+	    <ol>
+		<li> <a href="mozip.1.txt"> The first announce of mozip </a>
+		and the original <a href="premozip.txt"> information for localized
+		    builds </a> mentioned inside (provided by MARUYAMA) </li>
+		<li> <a href="mozip.2.txt"> First Q and A</a></li>
+		<li> <a href="mozip.3.txt"> (v0.1, maybe) new args </a></li>
+		<li> <a href="mozip.4.txt"> v0.2 announce </a></li>
+	    </ol>
+	    </dd>
+	    <dt><a href="../doc/mt4tut.txt"> Tutorial to Using Mozilla Translator </a></dt>
+	    <dd>My tutorial posted on mozilla-l10n mailing list to help using
+	    MozillaTranslator 4.36. This is maybe the first tutorial to MT.
+	    Some people then made HTML versions, manuals and all kinds of
+	    documents for MozillaTranslator, while this is the original.<br>
+	    This tutorial is expired since Mozilla Translator has been
+	    advanced to 5.* and other documents are better, it's here just
+	    for memorial reason. A <A href="../doc/chromeview.png">screenshot </a> 
+	    was included in that mail.
+	</dl>
+	<hr>
+	All tools here are used to make language packs and localized builds in 
+	<a href="http://www.csie.ntu.edu.tw/~b7506051/mozilla/">
+	    Mozilla Localization: Traditional Chinese </a>
+<pre><i>
+Best Regards,
+--
+Hung-Te Lin (Francis S.Lin) <a href="mailto:piaip@csie.ntu.edu.tw?subject=MozTrTools%3a">&lt;piaip@csie.ntu.edu.tw&gt;</a>
+    Find me on internet by using Google for 'piaip'
+</i></pre>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+<!--#include file='header.shtml' -->
+<H1>下載 Mozilla </H1>
+<div class='dlall'>
+<div><h3> 最新版本 </h3><ul>
+	<!--#include file='dlmoz-latest.shtml' -->
+</ul>
+</div>
+<br/>
+
+<div style='width: 30%;'>
+
+<h3> 1.7 </h3><ul>
+<li><a href="dls/moz/mozilla-win32-1.7-zhTW-installer.exe">Windows (11MB)</a></li>
+<li><a href="dls/moz/mozilla-linux-1.7-gnu-zhTW.tar.bz2">Linux (12MB)</a></li>
+<li><a href="dls/moz/mozilla-mac-1.7-zhTW.dmg.gz">Mac OS X (16MB)</a></li>
+</ul>
+
+<h3> 1.6 </h3><ul>
+<li><a href="dls/moz/mozilla-win32-1.6-zhTW-installer.exe">Windows (16MB)</a></li>
+<li><a href="dls/moz/mozilla-i686-pc-linux-gnu-full-installer-1.6-zhTW.tar.gz">Linux (14.5MB)</a></li>
+</ul>
+</div>
+
+<div style='width: 30%;'>
+<h3> 1.5 </h3><ul>
+<li><a href="dls/moz/mozilla-win32-1.5-zhTW-installer.exe">Windows (16MB)</a></li>
+<li><a href="dls/moz/mozilla-i686-pc-linux-gnu-1.5-zhTW-sea.tar.gz">Linux (13MB)</a></li>
+</ul>
+
+<h3> 1.4 </h3><ul>
+<li><a href="dls/moz/mozilla-win32-1.4-zhTW-installer.exe">Windows (13MB)</a></li>
+<li><a href="dls/moz/mozilla-i686-pc-linux-gnu-1.4-zhTW-sea.tar.gz">Linux (13MB)</a></li>
+</ul>
+
+<h3> 1.2 </h3><ul>
+<li><a href="dls/moz/mozilla-win32-1.2-zhTW-installer.exe">Windows (12MB)</a></li>
+<li><a href="dls/moz/mozilla-i686-pc-linux-gnu-1.2-zhTW.tar.gz">Linux (14MB)</a></li>
+</ul>
+</div>
+
+<div style='width: 30%;'>
+
+<h3> 1.0.1 </h3><ul>
+<li><a href="dls/moz/mozilla-win32-1.1-zhTW-installer.exe">Windows (13MB)</a></li>
+<li><a href="dls/moz/mozilla-os2-1.1-zhTW.zip">OS/2 (17MB)</a></li>
+</ul>
+
+<h3> 1.0 </h3><ul>
+<li><a href="dls/moz/mozilla-win32-1.0-zhTW-installer.exe">Windows (12MB)</a></li>
+<li><a href="dls/moz/mozilla-i686-pc-linux-gnu-1.0-zhTW.tar.gz">Linux (13MB)</a></li>
+<li><a href="dls/moz/mozilla-i686-pc-linux-gnu-1.0-zhTW-sea.tar.gz">Linux Installer(13MB)</a></li>
+<li><a href="dls/moz/mozilla-os2-1.0-zhTW.zip">OS/2 (17MB)</a></li>
+</ul>
+</div>
+</div>
+<!--#include file='footer.shtml' -->

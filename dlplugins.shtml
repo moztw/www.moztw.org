@@ -1,0 +1,11 @@
+<!--#include virtual='header.shtml' -->
+<H1> Plugins </H1>
+這裡提供 Plugins 的鏈結(由於版權問題所以不直接提供下載檔案)。
+<ul>
+	<li><a href='http://java.sun.com/j2se/'> Java 2 (Sun) </a>
+	<li><a href='http://www.flash.com'>Macromedia Flash</a>
+	<li><a href='http://plugindoc.mozdev.org/'> Mozilla 官方 plugins 整理網站 </a><br/>
+	    <a href="http://plugindoc.mozdev.org/zh-TW/windows.html"> Windows plugins (中文) </a>
+		<li><a href="http://home.netscape.com/plugins/"> Netscape Plugins 網站 </a>
+</ul>
+<!--#include virtual='footer.shtml' -->

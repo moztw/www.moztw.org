@@ -1,0 +1,31 @@
+From: piaip@csie.ntu.edu.tw (Hung-Te Lin)
+Newsgroups: netscape.public.mozilla.l10n
+Subject: New build of mozip (mozip.exe)
+Date: 17 Sep 2002 04:59:30 GMT
+Organization: Another Netscape Collabra Server User
+Lines: 17
+Message-ID: <20020917045930.GA12568@stego.csie.ntu.edu.tw>
+NNTP-Posting-Host: gila.mozilla.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+To: L10N-Maillist <mozilla-l10n@mozilla.org>
+
+
+Hello all,
+
+  I've made a new build of mozip.exe (from mozip.c).
+  This version is compiled as (cygwin) gcc -static -mno-cygwin
+  so cygwin1.dll and cygz.dll (or zlib.dll for prior builds)
+  are NOT REQUIRED ANYMORE.
+
+  http://www.csie.ntu.edu.tw/~b7506051/mozilla/tools/mozip.exe
+
+  P.S: The mozip is ONLY tested and purposed to run on Windows 2000
+       platform.  If you want to try on Windows XP or 95/98,
+       you are on your own.
+
+Best Regards,
+--
+	piaip, Francis.S.Lin
+
+

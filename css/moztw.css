@@ -1,0 +1,67 @@
+/* Mozilla Taiwan special overriding */
+pre {
+	font-family: "Lucida Console", "Courier New", "Courier", monospace;
+}
+
+.dlall div {
+	float: left;
+	margin: 5px;
+	display: block;
+	border: 1px solid #aaa;
+	padding: 7px;
+}
+.dlall br {
+	clear: both;
+}
+
+.download a:hover {
+	background: #dfb;
+	color: #240;
+}
+
+.download a {
+	text-decoration: none;
+	padding: 1px;
+	margin: 0px;
+}
+.download li {
+	padding: 1px;
+	margin: 1px;
+}
+
+.download a.preselected {
+	background: #efd;
+	font-weight: bold;
+	border-right: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+}
+.download a.preselected:hover {
+	background: #dfe;
+	color: red;
+	border: 0px;
+	border-left: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+}
+
+a:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+a:visited {
+	color: navy;
+}
+div#firefox-feature div.download{
+	width: 17em;
+}
+/* new logo */
+#header h1 a {
+		background: transparent url("/images/header_logo2.gif") no-repeat;
+		width: 354px;
+}
+
+/* fix up */
+a#featurelink { background: none;  }
+
+.news .date {
+	width: 6em;
+}

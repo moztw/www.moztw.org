@@ -1,0 +1,40 @@
+From: piaip@csie.ntu.edu.tw (Francis S.Lin)
+Newsgroups: netscape.public.mozilla.l10n
+Subject: Re: Making a Localized Build W32 Installer
+Date: 1 Nov 2001 09:29:28 GMT
+Organization: Another Netscape Collabra Server User
+Lines: 24
+Message-ID: <20011101172928.A14688@ntucst.csie.ntu.edu.tw>
+References: <20011025231934.A4782@ntucst.csie.ntu.edu.tw> <3BDD2B69.5040402@ikhlas.com> <20011029174344.A24246@ntucst.csie.ntu.edu.tw> <3BDEB1E2.8020607@ikhlas.com>
+NNTP-Posting-Host: gila.mozilla.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+To: "Hasbullah Bin Pit (sebol)" <sebol@ikhlas.com>
+CC: mozilla-l10n@mozilla.org
+
+
+* Hasbullah Bin Pit (sebol) <sebol@ikhlas.com> [011030 21:17]:
+> >>is that any other way to repacking the
+> >>mozilla-win32-X.X.X-installer.exe ?
+> >      Yes. That's what the "mozip.exe" for :)
+> i've done this but the Mozilla*installer.exe seem like unchange
+> did u get error msg telling it's require nsinstall.exe?
+  I've uploaded a new-compiled (Cygwin 1.3.3 + static libz linked) version:
+  http://www.csie.ntu.edu.tw/~b7506051/mozilla/langpack/tools/mozip.exe
+  http://www.csie.ntu.edu.tw/~b7506051/mozilla/langpack/tools/cygwin1.dll
+
+   This time it has more verbose messages.
+   mozip [-x|-t] installer.exe [filelist]
+   -x: extract the installer.exe
+   -t: test (list) files already compressed inside the installer.exe
+
+   When you run 'mozip installer.exe some_file' it should output 
+   what was compressed into.
+
+   And the source is availble on:
+   http://www.csie.ntu.edu.tw/~b7506051/mozilla/langpack/tools/mozip.c
+
+--
+	piaip, Francis.S.Lin
+
+

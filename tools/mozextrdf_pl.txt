@@ -1,0 +1,194 @@
+#!/usr/bin/env perl
+#
+# Name:   Mozilla Extension RDF Generator for New Toolkit
+# Author: Hung-Te Lin <piaip@csie.ntu.edu.tw>
+# Create: Sat Jun 19 15:33:44 2004
+# All rights reserved.
+#
+
+use Archive::Zip;
+
+# Define contstants here!
+# WARNING: PLEASE USE PLAIN ENGLISH/ASCII.
+# I've written sample in TCLP after # comments.
+# ---------------------------------------
+# You must first have a unique GUID, not using Firefox.
+# google for 'guidgen' if you need a real one.
+$EXT_GUID	= ""; 		#"{CHANGEME-THIS-IDIS-FAKE-GUIDTOCHANGE}";
+$EXT_VER	= "0.9"; 	# extension version. Does NOT need to be same as Target.
+# Target Application
+$TA_GUID	= "Firefox"; # predefined are Firefox and Thunderbird.
+$TA_MINVER	= "0.9";
+$TA_MAXVER	= $TA_MINVER; #"0.9"; # language packs
+# Extension Data
+$EXT_NAME	= ""; 		#"TCLP for $TA_GUID $TA_MINVER";
+$EXT_DESC	= ""; 		#"Traditional Chinese Language Pack for $TA_GUID $TA_MINVER";
+$EXT_CREATOR= ""; 		#"Hung-Te Lin, piaip@csie.ntu.edu.tw";
+# For URLs, leave it blank if you don't need/have one.
+# You may use both chrome:// or http://.
+$EXT_URL	= ""; 		#"http://ntu.csie.org/~piaip/mozilla/";
+$EXT_UPDATE_URL	= "";	#
+$EXT_ICON_URL	= "";	#
+$EXT_ABOUT_URL	= ""; 	#"http://ntu.csie.org/~piaip/mozilla/";
+$EXT_OPTIONS_URL= "";	#"chrome://selectlocale/content/locale.xul";
+# the selectlocale is a tiny locale switch inspired by lpswitcher
+# and can be fetched from
+#   http://ntu.csie.org/~piaip/mozilla/tools/selectlocale.jar
+# Required Component
+$REQ_GUID		= $TA_GUID; 	#"Firefox";
+$REQ_MINVER		= $TA_MINVER; 	#"0.9";
+$REQ_MAXVER		= $TA_MAXVER; 	#"0.9";
+# ---------------------------------------
+
+# copyright
+print STDERR "\n-- Mozilla Extension RDF Generator (install.rdf maintainer)\n";
+print STDERR '      * Hung-Te Lin, <piaip@csie.ntu.edu.tw>, 2004';
+print STDERR "\n\n";
+
+# start to find chrome files
+print STDERR "Checking files in chrome/ directory...\n";
+opendir CHROME, "chrome"; 
+@jars = grep { /\.jar$/ } readdir(CHROME);
+closedir CHROME;
+
+# const GUIDs
+$guids{Firefox} = "{ec8030f7-c20a-464f-9b0e-13a3a9e97384}";
+$guids{Thunderbird} = "{3550f703-e582-4d05-9a08-453d09bdfdc6}";
+
+sub getGUID() {
+	my ($g) = (@_);
+	$g = $guids{$g} if (exists $guids{$g});
+	return $g;
+}
+sub checkGUID() {
+	my ($g) = (@_);
+	if ($g !~ /^{........-....-....-....-............}$/) {
+		die "Error GUID: $g.\nYou must have an unique GUID.\n";
+	}
+}
+
+# keep this for late check, maybe for optionsURL usage.
+@entries = ();
+
+$EXT_CHROME_LIST = "";
+for my $jar (@jars) {
+	print STDERR "$jar, ";
+	my $zip = Archive::Zip->new('chrome/' . $jar);
+	my @crdfs = $zip->membersMatching('/contents\.rdf$');
+	for my $node (@crdfs) {
+		$node = $node->fileName();
+		$node =~ s/contents\.rdf$//;
+		push @entries, ($node);
+	}
+	$EXT_CHROME_LIST .= &RDF_ChromeList($jar, @crdfs);
+}
+print STDERR "complete.\n\n";
+
+
+sub RDF_ChromeList() {
+	my ($fn, @chromes) = @_;
+	my $r = "";
+	$r .= "<em:file><Description about=\"urn:mozilla:extension:file:$fn\">\n";
+	for my $rec (@chromes) {
+		my $rectype = '';
+		if ($rec =~ /^locale/) {
+			$rectype = 'locale';
+		} elsif ($rec =~ /^content/) {
+			$rectype = 'package';
+		} elsif ($rec =~ /^skin/) {
+			$rectype = 'skin';
+		} else {
+			print STDERR "UNKOWN CHROME: $rec\n";
+		}
+		$r .= "\t<em:$rectype>$rec</em:$rectype>\n";
+	}
+	$r .= "</Description></em:file>\n";
+	return $r;
+}
+
+sub XmlEntry() {
+	my ($key, $val) = @_;
+	return "<em:$key>$val</em:$key>" if ($val and $val ne '');
+	return "<!-- em:$key -->";
+}
+
+sub checkURL() {
+	my ($u) = (@_);
+	if ($u =~ /^chrome/) {
+		my $ue = $u;
+		$ue =~ s/^chrome:\/\///;
+		$ue =~ s/^([^\/]*)\/([^\/]*)\/.*/$2\/$1\//;
+		# chromes! should be local.
+		for my $e (@entries) {
+			if ($ue =~ $e) {
+				# found entry. safe.
+				return;
+			}
+		}
+		die "Error chrome: $u not found. This usually causes error...\n";
+	}
+}
+
+# update optional entries
+&checkURL($EXT_URL);
+&checkURL($EXT_UPDATE_URL);
+&checkURL($EXT_ABOUT_URL);
+&checkURL($EXT_OPTIONS_URL);
+&checkURL($EXT_ICON_URL);
+$EXT_DESC = &XmlEntry('description', $EXT_DESC);
+$EXT_CREATOR = &XmlEntry('creator', $EXT_CREATOR);
+$EXT_URL = &XmlEntry('homepageURL', $EXT_URL);
+$EXT_UPDATE_URL = &XmlEntry('updateURL', $EXT_UPDATE_URL);
+$EXT_ABOUT_URL = &XmlEntry('aboutURL', $EXT_ABOUT_URL);
+$EXT_OPTIONS_URL = &XmlEntry('optionsURL', $EXT_OPTIONS_URL);
+$EXT_ICON_URL = &XmlEntry('iconURL', $EXT_ICON_URL);
+
+# update and guids
+$TA_GUID	= &getGUID($TA_GUID);
+$REQ_GUID	= &getGUID($REQ_GUID);
+&checkGUID($TA_GUID);
+&checkGUID($REQ_GUID);
+&checkGUID($EXT_GUID);
+
+$rdf_template = <<HERE;
+<?xml version="1.0"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>$EXT_GUID</em:id>
+    <em:version>$EXT_VER</em:version>
+    <em:targetApplication>
+      <Description><em:id>$TA_GUID</em:id>
+        <em:minVersion>$TA_MINVER</em:minVersion>
+        <em:maxVersion>$TA_MAXVER</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <!-- Front End MetaData -->
+    <em:name>$EXT_NAME</em:name>
+	$EXT_DESC
+    $EXT_CREATOR
+	$EXT_URL
+	$EXT_UPDATE_URL
+	$EXT_ABOUT_URL
+	$EXT_OPTIONS_URL
+	$EXT_ICON_URL
+	$EXT_CHROME_LIST
+  <em:requires>
+    <Description><em:id>$REQ_GUID</em:id>
+      <em:minVersion>$REQ_MINVER</em:minVersion>
+      <em:maxVersion>$REQ_MAXVER</em:maxVersion>
+    </Description>
+  </em:requires>
+  </Description>      
+</RDF>
+HERE
+
+open INSTALLRDF, ">install.rdf" or die "! Cannot create install.rdf";
+print INSTALLRDF $rdf_template;
+#print $rdf_template;
+close INSTALLRDF;
+print "install.rdf is updated. Now you can package the files.";
+
+# list known entries
+#print join ("\n", @entries);
+

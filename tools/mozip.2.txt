@@ -1,0 +1,44 @@
+From: piaip@csie.ntu.edu.tw (Francis S.Lin)
+Newsgroups: netscape.public.mozilla.l10n
+Subject: Re: (zh-TW) Localized Build + Langpack update for Moz0.9.5
+Date: 29 Oct 2001 09:43:44 GMT
+Organization: Another Netscape Collabra Server User
+Lines: 28
+Message-ID: <20011029174344.A24246@ntucst.csie.ntu.edu.tw>
+References: <20011025231934.A4782@ntucst.csie.ntu.edu.tw> <3BDD2B69.5040402@ikhlas.com>
+NNTP-Posting-Host: gila.mozilla.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+To: "Hasbullah Bin Pit (sebol)" <sebol@ikhlas.com>
+CC: mozilla-l10n@mozilla.org
+
+
+* Hasbullah Bin Pit (sebol) <sebol@ikhlas.com> [011029 17:34]:
+> >    4) mozip mozilla-win32-X.X.X-installer.exe INSTALL.INI CONFIG.INI
+> >       And prepare you language pack (eg: langXXXX.xpi)
+> >       mozip mozilla-win32-X.X.X-installer.exe langXXXX.xpi
+> I dont really understand this.
+> in your case , the mozilla-win32-X.X.X-installer.exe is not exist yet
+> OR using existence mozilla-win32-X.X.X-installer.exe ?
+     Use the already existed mozilla-win32-X.X.X-installer.exe
+
+> is that any other way to repacking the
+> mozilla-win32-X.X.X-installer.exe ?
+     Yes. That's what the "mozip.exe" for :)
+
+     Syntax of mozip.exe:
+     mozip [-x] installer.exe [add/update file list]
+     -x means extract all files in installer.exe
+
+     So, in the case mentioned above, you should run
+     mozip mozilla-win32-X.X.X-installer.exe INSTALL.INI
+     mozip mozilla-win32-X.X.X-installer.exe CONFIG.INI
+     mozip mozilla-win32-X.X.X-installer.exe langXXXX.xpi
+
+> I have problem
+     Hope these solved your problem :)
+
+--
+	piaip, Francis.S.Lin
+
+

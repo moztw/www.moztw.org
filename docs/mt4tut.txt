@@ -1,0 +1,203 @@
+This tutorial is written by piaip@csie.ntu.edu.tw
+
+
+On Fri, 12 Jan 2001, Helgi Hrafn Gunnarsson wrote:
+
+> > > instructions on how to use this program. Mozilla is already in
+> > > version 0.7, and I would really, *really* like to have an
+> > > Icelandic version of 1.0.
+> > Perhaps, we need a more detailed documentation about MozillaTranslator.
+
+   I've also get confused with MozillaTranslator before...
+   So here is my experience, hope this helps...
+   And a snapshot on MozillaTranslator with Chrome View is attached.
+
+--- 1. Setting up Mozilla and knowing the directory structure
+
+First of all, you have to download a build of Mozilla then install it.
+I'll take Windows versions as example:
+  The Windows builds usually distribute in 2 kinds of bundles:
+    1) Windows Installer (.exe)
+    2) a large ZIP file  (.zip)
+  For WindowsInstaller, all you have to do is just run it and press 'Next'.
+  For ZIP, unzip it to one directory. (I suggest '\Mozilla').
+
+  The WindowsInstaller will create directories like
+     Seamonkey\
+        +------- chrome\
+	+------- components\
+`	+------- default\
+	+------- Plugins\
+	    .
+	    .
+	+------- Mozilla.exe
+  and the ZIP versions rename 'Seamonkey' to 'bin'.
+
+  Assume you have installed your ZIPPED mozilla in C:\Mozilla, i.e. you have
+     C:\Mozilla\bin\
+     C:\Mozilla\bin\chrome\
+     C:\Mozilla\bin\mozilla.exe
+	 .
+	 .
+
+  Now I'll use the term $MOZILLA_DIR to refer to the directory which
+  contains 'mozilla.exe'. It is C:\Mozilla\Bin or C:\Mozilla\Seamonkey
+  in the cases above.
+
+--- 2. Start MozillaTranslator 4
+
+  Allright, now fetch latest MozillaTranslator program, and you'll get
+  'mt4nn.jar' -- nn is a version number. (eg: mt436.jar)
+
+  Copy the jar to a working directory. C:\Mozilla\mt4 is a not bad choice :)
+  And there're also 'mpl_dtd.txt' and 'mpl_properties.txt' that you can
+  find them from http://www.mozilla/projects/l10n/, they can help you add
+  Mozilla Public License to your language pack files. Please put them in the
+  directory you put mt4nn.jar
+
+  You must have Java JRE(or JDK) 1.3 installed to run MozillaTranslator 4.
+
+  Now go to C:\Mozilla\mt4 and run
+    C:\Mozilla\mt4> javaw -jar mt4nn.jar
+
+  Java is slow, but finally you should see a GUI window with title 
+  'Mozilla Translator, Version 4.xx', that's it. I'm using 4.36 to
+  write steps below:
+  
+--- 3. Setting up MozillaTranslator 4 'Installs'
+
+  The 'Installs' in MT4 means the Mozilla you've installed.
+  Now use menu: 
+    File -> Manage Installs, then 'Add'
+  You can enter Mozilla's version for the 'Name' field, eg: 'Mozilla R0.7'  
+  And for the 'Location', we have to give it the location of locale bundles.
+
+  Normally it's $MOZILLA_DIR\chrome\en-US.jar if you have a en-US.jar in
+  that directory, or directory 'en-US' if you have it.
+  Whatever you have to find something like 'en-US' in your
+  $MOZILLA_DIR\chrome directory, whethere it is a file or a directory.
+
+  So after you've filled 'Name' and 'Location' fields, press 'OK' then 'Exit'.
+
+  Now use menu:
+    File -> Update Install
+  Everytime you've downloaded a new build of Mozilla, you have to do 'Update 
+  Install' once. It will merge new locale strings with your previous work.
+
+  When you see a prompt window with title 'Show what', 
+  you have to enter your new locale in the 'Locale' field, then press OK.
+  The locale is something like en-US, zh-TW, ja-JP, .....
+  Go to L10N page (http://www.mozilla.org/projects/l10n/) for more details.
+
+  If you success, you'll see a window titled 'Changed Strings' with
+  lots of strings listed. If you see nothing, you've set wrong location.
+  Go back (Manage Installs->Edit)and try again.
+
+--- 4. Using Mozilla Translator 4
+
+  Each time you start MT4, you can start you work by selecting one browse
+  method from menu 'Edit'.
+
+    Edit -> Chrome View
+         |- Untranslated strings
+	 |- Reddundant strings
+	 |- Edit select phrase
+	 |- Simple Search
+	 |    .
+	 |    . 
+
+  Every method will prompt you 'Show what' first. You can choose fields you
+  need on it. (Hold your Ctrl key then single click on items) The most import 
+  ones are: Key, Org.Text, Keep, Tranlated Text
+  Please select at least these 4 items.
+
+  Most time I use Chrome View to translate. It has tree-view representing
+  the directory and file structure in chrome/locale directory. Though we have
+  jarred locale file(en-US.jar) now, it was a directory before. (In fact
+  the jar is just a zip containing the locale directory)
+
+  Untranslated and Reddundant are useful, too. And the simple/advanced
+  search is really helpful if you want to find some special entries. 
+  You can try these methods, but I'll only demonstrate on Chrome View below.
+
+  Usually you'll see chrome view like:
+   +-communicator
+   |-editor
+   |-global
+   |-messenger
+   |-navigator
+   +-necko
+  Each maintains a part of Mozilla string resources. 
+  Double-click on an item collapses it. Now try to open
+  Communicator->bookmarks->,
+     you'll see files like 'bm-find.dtd', 'bm-props.dtd' ....
+  Click on them will bring its contents on the right panel of the window.   
+
+  If you remembered to select 'Translated text', you can click on one entry
+  and try to type something now. If your text appears on the field, you are
+  doing translation for that Org.Text .
+  If you need better interface (eg. Multi lines), Hold Alt then press E
+  This will popup a 'Edit Phrase' window.
+
+  There's still onething... Don't forget to press Enter after you've filled
+  the translated text field each time, or you might leave it unchanged if 
+  you change selection on the tree-view.
+
+  Also remember to 'Save glossary' when you leave. If the 'X' button does
+  not work, select menu: File->Quit.
+
+--- 5. Try and Commit your work
+ 
+  When you want to try your new langpack, you have to 'Export' it. 
+  The mozilla can install your langpack via a special bundle name '.XPI',
+  it's like a ZIP with a install script inside.
+
+  After you've installed your langpack, you can update your langpack quickly
+  by 'Write a JAR' to overwrite the JAR installed by XPI.
+
+  Let me explain in detail. Take locale zh-TW for example, the first time
+  you wanna try it you have to install and register a new locale for your
+  Mozilla. So use MT4 menu:
+   Export -> Write XPI
+
+   Enter where you want to save the XPI to 'Save to' field, eg:
+     C:\Mozilla\mt4\langzhtw.xpi
+
+     (you'd better change the 'zhtw' to your own locale name, say XXYY
+      if your locale is set to XX-YY)
+
+   And fill the 'Author name' as your name. 'Display name' will be shown
+   on Mozilla's locale selection menu, eg: 'Traditional Chinese (zh-TW)'.
+   About 'Preview URL' and 'Version'... you can ignore them if you don't want
+   to waste time typing that :)
+
+   Afterall press OK. If the .xpi does not appear, look at 
+   'C:\Mozilla\mt4\MozillaTranslator.errors' for help.
+
+   Now start up your mozilla, and browse c:\Mozilla\mt4, then
+   double click on 'langzhtw.xpi'. After installation restart Mozilla,
+   and you should see your new locale in View -> Select languages
+   Select it and restart, you should see a localized Mozilla now.
+
+   To submit the langpack you must mail langXXYY.xpi to tao@netscape.com
+
+   After you've installed the langpack first time, you can update it
+   quickly by 'Write JAR'.
+   Usually langXXYY.xpi contains a XX-YY.jar and a install script which
+   will copy the XX-YY.jar to $MOZILLA_DIR\chrome\, where your old en-US.jar
+   exists. So when you use 'Write JAR', find your XX-YY.jar location
+   and fill it in the 'Save to' field. Then just restart Mozilla and
+   you'll changes without having to install it again.
+
+---------------------------------------------------------
+
+   OK, now keep exploring the MozillaTranslator on you own.
+   Hope this helps someone who gets confused with MT4 just 
+   like me before :)
+
+			Francis S.Lin
+			<piaip@csie.ntu.edu.tw>, Fri Jan 12 22:22:09 2001
+
+
+--
+	piaip, Francis.S.Lin

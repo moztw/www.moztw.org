@@ -1,0 +1,42 @@
+<!--#include file='header.shtml' -->
+<div class="key-point">
+<ul class="productlist" title="下載列表">
+	<li>
+	<a href="/firefox"><img src="../../images/product-firefox.png" width="60" height="60" alt=""></a>
+	<h3><a href="/firefox" class="producttitle"><strong>Firefox</strong>: 重新體驗網路</a></h3>
+	Firefox 是多次獲獎的 Mozilla 新生代網頁瀏覽器。
+	</li>
+	<li>
+	<a href="thunderbird"><img src="../../images/product-thunderbird.png" width="60" height="60" alt=""></a>
+	<h3><a href="/thunderbird" class="producttitle"><strong>Thunderbird</strong>: 改善你的信箱</a></h3>
+	Thunderbird 是 Mozilla 新生代的 email 程式。
+	使用 Thunderbird ，讓你發送信件更快、更安全，也更簡單。
+	</li>
+	<li>
+	<a href="/mozilla"><img src="../../images/product-mozilla.png" width="60" height="60" alt=""></a>
+	<h3><a href="/mozilla" class="producttitle"><strong>Mozilla: 完整的 Internet 方案</strong></a></h3>
+	為新時代設計的網路瀏覽器、進階的 e-mail 與 news 管理程式、
+	IRC 線上交談、與簡易的 HTML 編輯工具。
+	</li>
+</ul>
+</div>
+<h2>安裝語言套件</h2>
+如果你裝的是英文版的 Mozilla ，可以利用安裝語言套件直接轉為中文界面。
+<ul class="productlist" title="安裝語言套件">
+	<li>
+	<h3><a href='/instlp'><b>安裝語言套件</b></a></h3>
+</ul>
+
+<h2>其它可下載資源</h2>
+<ul class="productlist" title="其它可下載資源">
+	<li>
+	<h3><a href="/dlsrch" class="producttitle"><strong>搜尋引擎(含字典)</strong></a></h3>
+	Mozilla 的搜尋引擎。
+	<li>
+	<h3><a href="/dlchrome" class="producttitle"><strong>自訂與修正 Mozilla 界面</strong></a></h3>
+	放大界面字型或調整 CSS 顯示。
+	<li>
+	<h3><a href="/dlplugins" class="producttitle"><strong>Plugins 相關</strong></a></h3>
+	Plugins 相關的下載與鏈結。
+</ul>
+<!--#include file='footer.shtml' -->

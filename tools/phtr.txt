@@ -1,0 +1,83 @@
+From piaip@csie.ntu.edu.tw Mon Oct 21 11:50:11 2002
+Date: Mon, 21 Oct 2002 11:50:11 +0800
+From: Hung-Te Lin <piaip@csie.ntu.edu.tw>
+To: David Tenser <david.tenser@telia.com>
+Cc: ciopz@bigfoot.com, L10N-Maillist <mozilla-l10n@mozilla.org>
+Subject: Intro: Phoenix Localization
+Message-ID: <20021021115011.A27942@ntucst.csie.ntu.edu.tw>
+References: <3DB2CD86.3070608@telia.com>
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+User-Agent: Mutt/i
+In-Reply-To: <3DB2CD86.3070608@telia.com>; from david.tenser@telia.com on Sun, Oct 20, 2002 at 05:36:38PM +0200
+X-Mailer: Mutt on Solaris or FreeBSD, http://www.mutt.org/
+X-Location: Taipei, Taiwan
+Status: RO
+Content-Length: 3177
+Lines: 63
+
+* David Tenser <david.tenser@telia.com> [021020 23:39]:
+> I am about to translate Phoenix to Swedish and was hoping that you could 
+> give me some initial advice. I got your email from Andrea.
+> 1. Exactly which files needs to be translated?
+   First I think you must have some experience about translating
+   Mozilla, or at least knowing how to translate Mozilla.
+   Translating Phoenix is just like translating Mozilla.
+   As you know, Phoenix is a special version of Mozilla.
+
+   For information about translating Mozilla, Ref:
+   http://www.mozilla.org/projects/l10n/mlp_howto.html
+   http://www.asturies.com/viesca/software/mozilla/MANUAL.HTM
+
+   Then you'll find out that only files in chrome/en-*.jar, chrome/US.jar
+   and some optional jars containing 'locale' directories need to
+   be translated.
+  
+> 2. What software is best to use (or is it best to just edit the text files?)
+   Just like Mozilla, I'd prefer MozillaTranslator.
+   You may download the latest version (5.x?), though I use a tweaked
+   version from 4.36 by myself.
+
+> 3. How do you keep up with the changes in each release? Do you 
+> "migrate/import" the changes from the previous release or do you have to 
+> redo all your work from scratch every time?
+   With MozillaTranslator you can easily get the answer.
+   MozillaTranslator has a feature to 'update' your glossary file.
+   So every time getting a new release of Phoenix, I try to 'update' from
+   both latest Mozilla glossary and previous version of Phoenix, then
+   compare and decide which to use.
+
+> 4. When you have translated the files, how do you actually distribute 
+> it? I don't have a compiler so I can't make translated binaries.
+   I have compilers, but I don't like building the lizzard (or the phoenix) either.
+   After getting the knowledge about translating Mozilla, you'll know
+   that no binaries should be re-compiled. Just pack the locale files
+   (maybe in jar, like zh-TW.jar, zh-win.jar...) into Phoenix's zip file.
+   (Maybe you've heard of mozip for Win32, but that's not needed in Phoenix
+    because we don't have an official sea installer now)
+
+   Some tips:
+   Phoenix does not have any interface to change locale, so you must do
+   this on your own. My steps:
+     (1) Translate and build your own locale archive like zh-TW.jar, TW.jar, ...
+     (2) Remove en-*.jar, US.jar. Put your archives in chrome/.
+     (3) Edit chrome/installed-chrome.txt and change all en-US to your
+         locale. I do this inside VI(M) with these commands:
+         :%s/en-US/zh-TW/g
+         :%s/en-/zh-/g
+         :%s/US/TW/g
+     (4) delete the chrome/chrome.rdf and subdirectories 'overlayinfo'.
+         In fact you can remove all subdirectories in chrome/.
+         Don't worry. They'll be created automatically when Phoenix starts.
+     (5) Pack your changes to zip, or (in my case) make a SFX
+         (self-extractable) version to help user install Phoenix.
+         On Win32, I'd like WinRAR.
+     (6) Remember to remove all your previous profiles before you try
+         the localized version.
+
+Best Regards,
+--
+    Hung-Te Lin (Francis S.Lin) <piaip@csie.ntu.edu.tw>
+    Find me on internet by using Google for 'piaip'
+

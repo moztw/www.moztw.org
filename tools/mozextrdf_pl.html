@@ -1,0 +1,204 @@
+<html>
+<head>
+<title>~/htdocs/mozilla/tools/mozextrdf.pl.html</title>
+<meta name="Generator" content="Vim/6.3">
+</head>
+<body bgcolor="#000000" text="#ffffff">
+<pre>
+<font color="#8080ff"><b>#!/usr/bin/env perl</b></font>
+<font color="#00ffff"><b>#</b></font>
+<font color="#00ffff"><b># Name:   Mozilla Extension RDF Generator for New Toolkit</b></font>
+<font color="#00ffff"><b># Author: Hung-Te Lin &lt;piaip@csie.ntu.edu.tw&gt;</b></font>
+<font color="#00ffff"><b># Create: Sat Jun 19 15:33:44 2004</b></font>
+<font color="#00ffff"><b># All rights reserved.</b></font>
+<font color="#00ffff"><b>#</b></font>
+
+<font color="#ffff00"><b>use </b></font>Archive::Zip;
+
+<font color="#00ffff"><b># Define contstants here!</b></font>
+<font color="#00ffff"><b># WARNING: PLEASE USE PLAIN ENGLISH/ASCII.</b></font>
+<font color="#00ffff"><b># I've written sample in TCLP after # comments.</b></font>
+<font color="#00ffff"><b># ---------------------------------------</b></font>
+<font color="#00ffff"><b># You must first have a unique GUID, not using Firefox.</b></font>
+<font color="#00ffff"><b># google for 'guidgen' if you need a real one.</b></font>
+<font color="#00ffff"><b>$EXT_GUID</b></font>   = <font color="#ff40ff"><b>&quot;&quot;</b></font>;       <font color="#00ffff"><b>#&quot;{CHANGEME-THIS-IDIS-FAKE-GUIDTOCHANGE}&quot;;</b></font>
+<font color="#00ffff"><b>$EXT_VER</b></font>    = <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>0.9</b></font><font color="#ff40ff"><b>&quot;</b></font>;    <font color="#00ffff"><b># extension version. Does NOT need to be same as Target.</b></font>
+<font color="#00ffff"><b># Target Application</b></font>
+<font color="#00ffff"><b>$TA_GUID</b></font>    = <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>Firefox</b></font><font color="#ff40ff"><b>&quot;</b></font>; <font color="#00ffff"><b># predefined are Firefox and Thunderbird.</b></font>
+<font color="#00ffff"><b>$TA_MINVER</b></font>  = <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>0.9</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+<font color="#00ffff"><b>$TA_MAXVER</b></font>  = <font color="#00ffff"><b>$TA_MINVER</b></font>; <font color="#00ffff"><b>#&quot;0.9&quot;; # language packs</b></font>
+<font color="#00ffff"><b># Extension Data</b></font>
+<font color="#00ffff"><b>$EXT_NAME</b></font>   = <font color="#ff40ff"><b>&quot;&quot;</b></font>;       <font color="#00ffff"><b>#&quot;TCLP for $TA_GUID $TA_MINVER&quot;;</b></font>
+<font color="#00ffff"><b>$EXT_DESC</b></font>   = <font color="#ff40ff"><b>&quot;&quot;</b></font>;       <font color="#00ffff"><b>#&quot;Traditional Chinese Language Pack for $TA_GUID $TA_MINVER&quot;;</b></font>
+<font color="#00ffff"><b>$EXT_CREATOR</b></font>= <font color="#ff40ff"><b>&quot;&quot;</b></font>;       <font color="#00ffff"><b>#&quot;Hung-Te Lin, piaip@csie.ntu.edu.tw&quot;;</b></font>
+<font color="#00ffff"><b># For URLs, leave it blank if you don't need/have one.</b></font>
+<font color="#00ffff"><b># You may use both chrome:// or <A HREF="http://.">http://.</A></b></font>
+<font color="#00ffff"><b>$EXT_URL</b></font>    = <font color="#ff40ff"><b>&quot;&quot;</b></font>;       <font color="#00ffff"><b>#&quot;<A HREF="http://ntu.csie.org/~piaip/mozilla/&quot;;">http://ntu.csie.org/~piaip/mozilla/&quot;;</A></b></font>
+<font color="#00ffff"><b>$EXT_UPDATE_URL</b></font> = <font color="#ff40ff"><b>&quot;&quot;</b></font>;   <font color="#00ffff"><b>#</b></font>
+<font color="#00ffff"><b>$EXT_ICON_URL</b></font>   = <font color="#ff40ff"><b>&quot;&quot;</b></font>;   <font color="#00ffff"><b>#</b></font>
+<font color="#00ffff"><b>$EXT_ABOUT_URL</b></font>  = <font color="#ff40ff"><b>&quot;&quot;</b></font>;   <font color="#00ffff"><b>#&quot;<A HREF="http://ntu.csie.org/~piaip/mozilla/&quot;;">http://ntu.csie.org/~piaip/mozilla/&quot;;</A></b></font>
+<font color="#00ffff"><b>$EXT_OPTIONS_URL</b></font>= <font color="#ff40ff"><b>&quot;&quot;</b></font>;   <font color="#00ffff"><b>#&quot;chrome://selectlocale/content/locale.xul&quot;;</b></font>
+<font color="#00ffff"><b># the selectlocale is a tiny locale switch inspired by lpswitcher</b></font>
+<font color="#00ffff"><b># and can be fetched from</b></font>
+<font color="#00ffff"><b>#   <A HREF="http://ntu.csie.org/~piaip/mozilla/tools/selectlocale.jar">http://ntu.csie.org/~piaip/mozilla/tools/selectlocale.jar</A></b></font>
+<font color="#00ffff"><b># Required Component</b></font>
+<font color="#00ffff"><b>$REQ_GUID</b></font>       = <font color="#00ffff"><b>$TA_GUID</b></font>;     <font color="#00ffff"><b>#&quot;Firefox&quot;;</b></font>
+<font color="#00ffff"><b>$REQ_MINVER</b></font>     = <font color="#00ffff"><b>$TA_MINVER</b></font>;   <font color="#00ffff"><b>#&quot;0.9&quot;;</b></font>
+<font color="#00ffff"><b>$REQ_MAXVER</b></font>     = <font color="#00ffff"><b>$TA_MAXVER</b></font>;   <font color="#00ffff"><b>#&quot;0.9&quot;;</b></font>
+<font color="#00ffff"><b># ---------------------------------------</b></font>
+
+<font color="#00ffff"><b># copyright</b></font>
+<font color="#ffff00"><b>print</b></font> <font color="#00ffff"><b>STDERR</b></font> <font color="#ff40ff"><b>&quot;</b></font><font color="#ff6060"><b>\n</b></font><font color="#ff40ff"><b>-- Mozilla Extension RDF Generator (install.rdf maintainer)</b></font><font color="#ff6060"><b>\n</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+<font color="#ffff00"><b>print</b></font> <font color="#00ffff"><b>STDERR</b></font> <font color="#ff40ff"><b>'</b></font><font color="#ff40ff"><b>      * Hung-Te Lin, &lt;piaip@csie.ntu.edu.tw&gt;, 2004</b></font><font color="#ff40ff"><b>'</b></font>;
+<font color="#ffff00"><b>print</b></font> <font color="#00ffff"><b>STDERR</b></font> <font color="#ff40ff"><b>&quot;</b></font><font color="#ff6060"><b>\n\n</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+
+<font color="#00ffff"><b># start to find chrome files</b></font>
+<font color="#ffff00"><b>print</b></font> <font color="#00ffff"><b>STDERR</b></font> <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>Checking files in chrome/ directory...</b></font><font color="#ff6060"><b>\n</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+<font color="#ffff00"><b>opendir</b></font> <font color="#00ffff"><b>CHROME</b></font>, <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>chrome</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+<font color="#00ffff"><b>@jars</b></font> = <font color="#ffff00"><b>grep</b></font> { <font color="#ffff00"><b>/</b></font><font color="#ff6060"><b>\.</b></font><font color="#ff40ff"><b>jar$</b></font><font color="#ffff00"><b>/</b></font> } <font color="#ffff00"><b>readdir</b></font>(<font color="#00ffff"><b>CHROME</b></font>);
+<font color="#ffff00"><b>closedir</b></font> <font color="#00ffff"><b>CHROME</b></font>;
+
+<font color="#00ffff"><b># const GUIDs</b></font>
+<font color="#00ffff"><b>$guids</b></font>{Firefox} = <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+<font color="#00ffff"><b>$guids</b></font>{Thunderbird} = <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>{3550f703-e582-4d05-9a08-453d09bdfdc6}</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+
+<font color="#ffff00"><b>sub</b></font><font color="#00ffff"><b> </b></font><font color="#00ffff"><b>getGUID</b></font><font color="#00ffff"><b>()</b></font><font color="#00ffff"><b> </b></font>{
+    <font color="#ffff00"><b>my</b></font> (<font color="#00ffff"><b>$g</b></font>) = (<font color="#00ffff"><b>@_</b></font>);
+    <font color="#00ffff"><b>$g</b></font> = <font color="#00ffff"><b>$guids</b></font>{<font color="#00ffff"><b>$g</b></font>} <font color="#ffff00"><b>if</b></font> (<font color="#ffff00"><b>exists</b></font> <font color="#00ffff"><b>$guids</b></font>{<font color="#00ffff"><b>$g</b></font>});
+    <font color="#ffff00"><b>return</b></font> <font color="#00ffff"><b>$g</b></font>;
+}
+<font color="#ffff00"><b>sub</b></font><font color="#00ffff"><b> </b></font><font color="#00ffff"><b>checkGUID</b></font><font color="#00ffff"><b>()</b></font><font color="#00ffff"><b> </b></font>{
+    <font color="#ffff00"><b>my</b></font> (<font color="#00ffff"><b>$g</b></font>) = (<font color="#00ffff"><b>@_</b></font>);
+    <font color="#ffff00"><b>if</b></font> (<font color="#00ffff"><b>$g</b></font> !~<font color="#ffff00"><b> /</b></font><font color="#ff40ff"><b>^{</b></font><font color="#ff6060"><b>........</b></font><font color="#ff40ff"><b>-</b></font><font color="#ff6060"><b>....</b></font><font color="#ff40ff"><b>-</b></font><font color="#ff6060"><b>....</b></font><font color="#ff40ff"><b>-</b></font><font color="#ff6060"><b>....</b></font><font color="#ff40ff"><b>-</b></font><font color="#ff6060"><b>............</b></font><font color="#ff40ff"><b>}$</b></font><font color="#ffff00"><b>/</b></font>) {
+        <font color="#ffff00"><b>die</b></font> <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>Error GUID: </b></font><font color="#00ffff"><b>$g</b></font><font color="#ff40ff"><b>.</b></font><font color="#ff6060"><b>\n</b></font><font color="#ff40ff"><b>You must have an unique GUID.</b></font><font color="#ff6060"><b>\n</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+    }
+}
+
+<font color="#00ffff"><b># keep this for late check, maybe for optionsURL usage.</b></font>
+<font color="#00ffff"><b>@entries</b></font> = ();
+
+<font color="#00ffff"><b>$EXT_CHROME_LIST</b></font> = <font color="#ff40ff"><b>&quot;&quot;</b></font>;
+<font color="#ffff00"><b>for</b></font> <font color="#ffff00"><b>my</b></font> <font color="#00ffff"><b>$jar</b></font> (<font color="#00ffff"><b>@jars</b></font>) {
+    <font color="#ffff00"><b>print</b></font> <font color="#00ffff"><b>STDERR</b></font> <font color="#ff40ff"><b>&quot;</b></font><font color="#00ffff"><b>$jar</b></font><font color="#ff40ff"><b>, </b></font><font color="#ff40ff"><b>&quot;</b></font>;
+    <font color="#ffff00"><b>my</b></font> <font color="#00ffff"><b>$zip</b></font> = Archive::Zip-&gt;<font color="#ffff00"><b>new</b></font>(<font color="#ff40ff"><b>'</b></font><font color="#ff40ff"><b>chrome/</b></font><font color="#ff40ff"><b>'</b></font> . <font color="#00ffff"><b>$jar</b></font>);
+    <font color="#ffff00"><b>my</b></font> <font color="#00ffff"><b>@crdfs</b></font> = <font color="#00ffff"><b>$zip</b></font>-&gt;membersMatching(<font color="#ff40ff"><b>'</b></font><font color="#ff40ff"><b>/contents\.rdf$</b></font><font color="#ff40ff"><b>'</b></font>);
+    <font color="#ffff00"><b>for</b></font> <font color="#ffff00"><b>my</b></font> <font color="#00ffff"><b>$node</b></font> (<font color="#00ffff"><b>@crdfs</b></font>) {
+        <font color="#00ffff"><b>$node</b></font> = <font color="#00ffff"><b>$node</b></font>-&gt;fileName();
+        <font color="#00ffff"><b>$node</b></font> =~ <font color="#ffff00"><b>s/</b></font><font color="#ff40ff"><b>contents</b></font><font color="#ff6060"><b>\.</b></font><font color="#ff40ff"><b>rdf$</b></font><font color="#ffff00"><b>//</b></font>;
+        <font color="#ffff00"><b>push</b></font> <font color="#00ffff"><b>@entries</b></font>, (<font color="#00ffff"><b>$node</b></font>);
+    }
+    <font color="#00ffff"><b>$EXT_CHROME_LIST</b></font> .= <font color="#00ffff"><b>&amp;RDF_ChromeList</b></font>(<font color="#00ffff"><b>$jar</b></font>, <font color="#00ffff"><b>@crdfs</b></font>);
+}
+<font color="#ffff00"><b>print</b></font> <font color="#00ffff"><b>STDERR</b></font> <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>complete.</b></font><font color="#ff6060"><b>\n\n</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+
+
+<font color="#ffff00"><b>sub</b></font><font color="#00ffff"><b> </b></font><font color="#00ffff"><b>RDF_ChromeList</b></font><font color="#00ffff"><b>()</b></font><font color="#00ffff"><b> </b></font>{
+    <font color="#ffff00"><b>my</b></font> (<font color="#00ffff"><b>$fn</b></font>, <font color="#00ffff"><b>@chromes</b></font>) = <font color="#00ffff"><b>@_</b></font>;
+    <font color="#ffff00"><b>my</b></font> <font color="#00ffff"><b>$r</b></font> = <font color="#ff40ff"><b>&quot;&quot;</b></font>;
+    <font color="#00ffff"><b>$r</b></font> .= <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>&lt;em:file&gt;&lt;Description about=</b></font><font color="#ff6060"><b>\&quot;</b></font><font color="#ff40ff"><b>urn:mozilla:extension:file:</b></font><font color="#00ffff"><b>$fn</b></font><font color="#ff6060"><b>\&quot;</b></font><font color="#ff40ff"><b>&gt;</b></font><font color="#ff6060"><b>\n</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+    <font color="#ffff00"><b>for</b></font> <font color="#ffff00"><b>my</b></font> <font color="#00ffff"><b>$rec</b></font> (<font color="#00ffff"><b>@chromes</b></font>) {
+        <font color="#ffff00"><b>my</b></font> <font color="#00ffff"><b>$rectype</b></font> = <font color="#ff40ff"><b>''</b></font>;
+        <font color="#ffff00"><b>if</b></font> (<font color="#00ffff"><b>$rec</b></font> =~<font color="#ffff00"><b> /</b></font><font color="#ff40ff"><b>^locale</b></font><font color="#ffff00"><b>/</b></font>) {
+            <font color="#00ffff"><b>$rectype</b></font> = <font color="#ff40ff"><b>'</b></font><font color="#ff40ff"><b>locale</b></font><font color="#ff40ff"><b>'</b></font>;
+        } <font color="#ffff00"><b>elsif</b></font> (<font color="#00ffff"><b>$rec</b></font> =~<font color="#ffff00"><b> /</b></font><font color="#ff40ff"><b>^content</b></font><font color="#ffff00"><b>/</b></font>) {
+            <font color="#00ffff"><b>$rectype</b></font> = <font color="#ff40ff"><b>'</b></font><font color="#ff40ff"><b>package</b></font><font color="#ff40ff"><b>'</b></font>;
+        } <font color="#ffff00"><b>elsif</b></font> (<font color="#00ffff"><b>$rec</b></font> =~<font color="#ffff00"><b> /</b></font><font color="#ff40ff"><b>^skin</b></font><font color="#ffff00"><b>/</b></font>) {
+            <font color="#00ffff"><b>$rectype</b></font> = <font color="#ff40ff"><b>'</b></font><font color="#ff40ff"><b>skin</b></font><font color="#ff40ff"><b>'</b></font>;
+        } <font color="#ffff00"><b>else</b></font> {
+            <font color="#ffff00"><b>print</b></font> <font color="#00ffff"><b>STDERR</b></font> <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>UNKOWN CHROME: </b></font><font color="#00ffff"><b>$rec</b></font><font color="#ff6060"><b>\n</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+        }
+        <font color="#00ffff"><b>$r</b></font> .= <font color="#ff40ff"><b>&quot;</b></font><font color="#ff6060"><b>\t</b></font><font color="#ff40ff"><b>&lt;em:</b></font><font color="#00ffff"><b>$rectype</b></font><font color="#ff40ff"><b>&gt;</b></font><font color="#00ffff"><b>$rec</b></font><font color="#ff40ff"><b>&lt;/em:</b></font><font color="#00ffff"><b>$rectype</b></font><font color="#ff40ff"><b>&gt;</b></font><font color="#ff6060"><b>\n</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+    }
+    <font color="#00ffff"><b>$r</b></font> .= <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>&lt;/Description&gt;&lt;/em:file&gt;</b></font><font color="#ff6060"><b>\n</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+    <font color="#ffff00"><b>return</b></font> <font color="#00ffff"><b>$r</b></font>;
+}
+
+<font color="#ffff00"><b>sub</b></font><font color="#00ffff"><b> </b></font><font color="#00ffff"><b>XmlEntry</b></font><font color="#00ffff"><b>()</b></font><font color="#00ffff"><b> </b></font>{
+    <font color="#ffff00"><b>my</b></font> (<font color="#00ffff"><b>$key</b></font>, <font color="#00ffff"><b>$val</b></font>) = <font color="#00ffff"><b>@_</b></font>;
+    <font color="#ffff00"><b>return</b></font> <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>&lt;em:</b></font><font color="#00ffff"><b>$key</b></font><font color="#ff40ff"><b>&gt;</b></font><font color="#00ffff"><b>$val</b></font><font color="#ff40ff"><b>&lt;/em:</b></font><font color="#00ffff"><b>$key</b></font><font color="#ff40ff"><b>&gt;</b></font><font color="#ff40ff"><b>&quot;</b></font> <font color="#ffff00"><b>if</b></font> (<font color="#00ffff"><b>$val</b></font> <font color="#ffff00"><b>and</b></font> <font color="#00ffff"><b>$val</b></font> <font color="#ffff00"><b>ne</b></font> <font color="#ff40ff"><b>''</b></font>);
+    <font color="#ffff00"><b>return</b></font> <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>&lt;!-- em:</b></font><font color="#00ffff"><b>$key</b></font><font color="#ff40ff"><b> --&gt;</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+}
+
+<font color="#ffff00"><b>sub</b></font><font color="#00ffff"><b> </b></font><font color="#00ffff"><b>checkURL</b></font><font color="#00ffff"><b>()</b></font><font color="#00ffff"><b> </b></font>{
+    <font color="#ffff00"><b>my</b></font> (<font color="#00ffff"><b>$u</b></font>) = (<font color="#00ffff"><b>@_</b></font>);
+    <font color="#ffff00"><b>if</b></font> (<font color="#00ffff"><b>$u</b></font> =~<font color="#ffff00"><b> /</b></font><font color="#ff40ff"><b>^chrome</b></font><font color="#ffff00"><b>/</b></font>) {
+        <font color="#ffff00"><b>my</b></font> <font color="#00ffff"><b>$ue</b></font> = <font color="#00ffff"><b>$u</b></font>;
+        <font color="#00ffff"><b>$ue</b></font> =~ <font color="#ffff00"><b>s/</b></font><font color="#ff40ff"><b>^chrome:</b></font><font color="#ff6060"><b>\/\/</b></font><font color="#ffff00"><b>//</b></font>;
+        <font color="#00ffff"><b>$ue</b></font> =~ <font color="#ffff00"><b>s/</b></font><font color="#ff40ff"><b>^</b></font><font color="#ff6060"><b>(</b></font><font color="#ff40ff"><b>[^</b></font><font color="#ff6060"><b>\/</b></font><font color="#ff40ff"><b>]</b></font><font color="#ff6060"><b>*)</b></font><font color="#ff6060"><b>\/</b></font><font color="#ff6060"><b>(</b></font><font color="#ff40ff"><b>[^</b></font><font color="#ff6060"><b>\/</b></font><font color="#ff40ff"><b>]</b></font><font color="#ff6060"><b>*)</b></font><font color="#ff6060"><b>\/</b></font><font color="#ff6060"><b>.*</b></font><font color="#ffff00"><b>/</b></font><font color="#00ffff"><b>$2</b></font><font color="#ff6060"><b>\/</b></font><font color="#00ffff"><b>$1</b></font><font color="#ff6060"><b>\/</b></font><font color="#ffff00"><b>/</b></font>;
+        <font color="#00ffff"><b># chromes! should be local.</b></font>
+        <font color="#ffff00"><b>for</b></font> <font color="#ffff00"><b>my</b></font> <font color="#00ffff"><b>$e</b></font> (<font color="#00ffff"><b>@entries</b></font>) {
+            <font color="#ffff00"><b>if</b></font> (<font color="#00ffff"><b>$ue</b></font> =~ <font color="#00ffff"><b>$e</b></font>) {
+                <font color="#00ffff"><b># found entry. safe.</b></font>
+                <font color="#ffff00"><b>return</b></font>;
+            }
+        }
+        <font color="#ffff00"><b>die</b></font> <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>Error chrome: </b></font><font color="#00ffff"><b>$u</b></font><font color="#ff40ff"><b> not found. This usually causes error...</b></font><font color="#ff6060"><b>\n</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+    }
+}
+
+<font color="#00ffff"><b># update optional entries</b></font>
+<font color="#00ffff"><b>&amp;checkURL</b></font>(<font color="#00ffff"><b>$EXT_URL</b></font>);
+<font color="#00ffff"><b>&amp;checkURL</b></font>(<font color="#00ffff"><b>$EXT_UPDATE_URL</b></font>);
+<font color="#00ffff"><b>&amp;checkURL</b></font>(<font color="#00ffff"><b>$EXT_ABOUT_URL</b></font>);
+<font color="#00ffff"><b>&amp;checkURL</b></font>(<font color="#00ffff"><b>$EXT_OPTIONS_URL</b></font>);
+<font color="#00ffff"><b>&amp;checkURL</b></font>(<font color="#00ffff"><b>$EXT_ICON_URL</b></font>);
+<font color="#00ffff"><b>$EXT_DESC</b></font> = <font color="#00ffff"><b>&amp;XmlEntry</b></font>(<font color="#ff40ff"><b>'</b></font><font color="#ff40ff"><b>description</b></font><font color="#ff40ff"><b>'</b></font>, <font color="#00ffff"><b>$EXT_DESC</b></font>);
+<font color="#00ffff"><b>$EXT_CREATOR</b></font> = <font color="#00ffff"><b>&amp;XmlEntry</b></font>(<font color="#ff40ff"><b>'</b></font><font color="#ff40ff"><b>creator</b></font><font color="#ff40ff"><b>'</b></font>, <font color="#00ffff"><b>$EXT_CREATOR</b></font>);
+<font color="#00ffff"><b>$EXT_URL</b></font> = <font color="#00ffff"><b>&amp;XmlEntry</b></font>(<font color="#ff40ff"><b>'</b></font><font color="#ff40ff"><b>homepageURL</b></font><font color="#ff40ff"><b>'</b></font>, <font color="#00ffff"><b>$EXT_URL</b></font>);
+<font color="#00ffff"><b>$EXT_UPDATE_URL</b></font> = <font color="#00ffff"><b>&amp;XmlEntry</b></font>(<font color="#ff40ff"><b>'</b></font><font color="#ff40ff"><b>updateURL</b></font><font color="#ff40ff"><b>'</b></font>, <font color="#00ffff"><b>$EXT_UPDATE_URL</b></font>);
+<font color="#00ffff"><b>$EXT_ABOUT_URL</b></font> = <font color="#00ffff"><b>&amp;XmlEntry</b></font>(<font color="#ff40ff"><b>'</b></font><font color="#ff40ff"><b>aboutURL</b></font><font color="#ff40ff"><b>'</b></font>, <font color="#00ffff"><b>$EXT_ABOUT_URL</b></font>);
+<font color="#00ffff"><b>$EXT_OPTIONS_URL</b></font> = <font color="#00ffff"><b>&amp;XmlEntry</b></font>(<font color="#ff40ff"><b>'</b></font><font color="#ff40ff"><b>optionsURL</b></font><font color="#ff40ff"><b>'</b></font>, <font color="#00ffff"><b>$EXT_OPTIONS_URL</b></font>);
+<font color="#00ffff"><b>$EXT_ICON_URL</b></font> = <font color="#00ffff"><b>&amp;XmlEntry</b></font>(<font color="#ff40ff"><b>'</b></font><font color="#ff40ff"><b>iconURL</b></font><font color="#ff40ff"><b>'</b></font>, <font color="#00ffff"><b>$EXT_ICON_URL</b></font>);
+
+<font color="#00ffff"><b># update and guids</b></font>
+<font color="#00ffff"><b>$TA_GUID</b></font>    = <font color="#00ffff"><b>&amp;getGUID</b></font>(<font color="#00ffff"><b>$TA_GUID</b></font>);
+<font color="#00ffff"><b>$REQ_GUID</b></font>   = <font color="#00ffff"><b>&amp;getGUID</b></font>(<font color="#00ffff"><b>$REQ_GUID</b></font>);
+<font color="#00ffff"><b>&amp;checkGUID</b></font>(<font color="#00ffff"><b>$TA_GUID</b></font>);
+<font color="#00ffff"><b>&amp;checkGUID</b></font>(<font color="#00ffff"><b>$REQ_GUID</b></font>);
+<font color="#00ffff"><b>&amp;checkGUID</b></font>(<font color="#00ffff"><b>$EXT_GUID</b></font>);
+
+<font color="#00ffff"><b>$rdf_template</b></font> = <font color="#ff40ff"><b>&lt;&lt;HERE</b></font><font color="#ff40ff"><b>;</b></font>
+<font color="#ff40ff"><b>&lt;?xml version=&quot;1.0&quot;?&gt;</b></font>
+<font color="#ff40ff"><b>&lt;RDF xmlns=&quot;<A HREF="http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;">http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</A></b></font>
+<font color="#ff40ff"><b>     xmlns:em=&quot;<A HREF="http://www.mozilla.org/2004/em-rdf#&quot;">http://www.mozilla.org/2004/em-rdf#&quot;</A>&gt;</b></font>
+<font color="#ff40ff"><b>  &lt;Description about=&quot;urn:mozilla:install-manifest&quot;&gt;</b></font>
+<font color="#ff40ff"><b>    &lt;em:id&gt;</b></font><font color="#00ffff"><b>$EXT_GUID</b></font><font color="#ff40ff"><b>&lt;/em:id&gt;</b></font>
+<font color="#ff40ff"><b>    &lt;em:version&gt;</b></font><font color="#00ffff"><b>$EXT_VER</b></font><font color="#ff40ff"><b>&lt;/em:version&gt;</b></font>
+<font color="#ff40ff"><b>    &lt;em:targetApplication&gt;</b></font>
+<font color="#ff40ff"><b>      &lt;Description&gt;&lt;em:id&gt;</b></font><font color="#00ffff"><b>$TA_GUID</b></font><font color="#ff40ff"><b>&lt;/em:id&gt;</b></font>
+<font color="#ff40ff"><b>        &lt;em:minVersion&gt;</b></font><font color="#00ffff"><b>$TA_MINVER</b></font><font color="#ff40ff"><b>&lt;/em:minVersion&gt;</b></font>
+<font color="#ff40ff"><b>        &lt;em:maxVersion&gt;</b></font><font color="#00ffff"><b>$TA_MAXVER</b></font><font color="#ff40ff"><b>&lt;/em:maxVersion&gt;</b></font>
+<font color="#ff40ff"><b>      &lt;/Description&gt;</b></font>
+<font color="#ff40ff"><b>    &lt;/em:targetApplication&gt;</b></font>
+<font color="#ff40ff"><b>    &lt;!-- Front End MetaData --&gt;</b></font>
+<font color="#ff40ff"><b>    &lt;em:name&gt;</b></font><font color="#00ffff"><b>$EXT_NAME</b></font><font color="#ff40ff"><b>&lt;/em:name&gt;</b></font>
+<font color="#ff40ff"><b>    </b></font><font color="#00ffff"><b>$EXT_DESC</b></font>
+<font color="#ff40ff"><b>    </b></font><font color="#00ffff"><b>$EXT_CREATOR</b></font>
+<font color="#ff40ff"><b>    </b></font><font color="#00ffff"><b>$EXT_URL</b></font>
+<font color="#ff40ff"><b>    </b></font><font color="#00ffff"><b>$EXT_UPDATE_URL</b></font>
+<font color="#ff40ff"><b>    </b></font><font color="#00ffff"><b>$EXT_ABOUT_URL</b></font>
+<font color="#ff40ff"><b>    </b></font><font color="#00ffff"><b>$EXT_OPTIONS_URL</b></font>
+<font color="#ff40ff"><b>    </b></font><font color="#00ffff"><b>$EXT_ICON_URL</b></font>
+<font color="#ff40ff"><b>    </b></font><font color="#00ffff"><b>$EXT_CHROME_LIST</b></font>
+<font color="#ff40ff"><b>  &lt;em:requires&gt;</b></font>
+<font color="#ff40ff"><b>    &lt;Description&gt;&lt;em:id&gt;</b></font><font color="#00ffff"><b>$REQ_GUID</b></font><font color="#ff40ff"><b>&lt;/em:id&gt;</b></font>
+<font color="#ff40ff"><b>      &lt;em:minVersion&gt;</b></font><font color="#00ffff"><b>$REQ_MINVER</b></font><font color="#ff40ff"><b>&lt;/em:minVersion&gt;</b></font>
+<font color="#ff40ff"><b>      &lt;em:maxVersion&gt;</b></font><font color="#00ffff"><b>$REQ_MAXVER</b></font><font color="#ff40ff"><b>&lt;/em:maxVersion&gt;</b></font>
+<font color="#ff40ff"><b>    &lt;/Description&gt;</b></font>
+<font color="#ff40ff"><b>  &lt;/em:requires&gt;</b></font>
+<font color="#ff40ff"><b>  &lt;/Description&gt;      </b></font>
+<font color="#ff40ff"><b>&lt;/RDF&gt;</b></font>
+<font color="#ff40ff"><b>HERE</b></font>
+
+<font color="#ffff00"><b>open</b></font> <font color="#00ffff"><b>INSTALLRDF</b></font>, <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>&gt;install.rdf</b></font><font color="#ff40ff"><b>&quot;</b></font> <font color="#ffff00"><b>or</b></font> <font color="#ffff00"><b>die</b></font> <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>! Cannot create install.rdf</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+<font color="#ffff00"><b>print</b></font> <font color="#00ffff"><b>INSTALLRDF</b></font> <font color="#00ffff"><b>$rdf_template</b></font>;
+<font color="#00ffff"><b>#print $rdf_template;</b></font>
+<font color="#ffff00"><b>close</b></font> <font color="#00ffff"><b>INSTALLRDF</b></font>;
+<font color="#ffff00"><b>print</b></font> <font color="#ff40ff"><b>&quot;</b></font><font color="#ff40ff"><b>install.rdf is updated. Now you can package the files.</b></font><font color="#ff40ff"><b>&quot;</b></font>;
+
+<font color="#00ffff"><b># list known entries</b></font>
+<font color="#00ffff"><b>#print join (&quot;\n&quot;, @entries);</b></font>
+
+</pre>
+</body>
+</html>

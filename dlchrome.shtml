@@ -1,0 +1,15 @@
+<!--#include file="header.shtml" -->
+<div>
+	<h1>自訂與修正 Mozilla 界面 (Chrome)</h1>
+	<p> 這裡提供了自訂或修正 Mozilla 界面的檔案。</p>
+	<p> 請在下載後複製到個人設定檔的 chrome 目錄下。
+	<h3>讓狀態列或選單的字型變大</h3>
+	<ul><li>
+		<a href='dls/chrome/userChrome.css'> userChrome.css</a>
+	</li></ul>
+	<h3> 解決 MSDN KB 網頁overlap的錯誤 </h3>
+	<ul><li>
+		<a href='dls/chrome/userContent.css'> userContent.css</a>
+	</li></ul>
+</div>
+<!--#include file="footer.shtml" -->

@@ -1,0 +1,31 @@
+<!--#include file="header.shtml" -->
+<div>
+	<h1> 相關文件 </h1>
+	這裡放了許多相關的文件。
+	<h3> Mozilla 界面設定 </h3>
+	<ul>
+		<li> <a href='docs/uifont'>設定操作界面(選單、狀態列)的字型大小</a>
+	</ul>
+	<h3> ICOS 2003 講義 </h3>
+	<ul>
+		<li><a href='docs/icos03/MI.pdf'>Mozilla Introduction</a>
+		<li><a href='docs/icos03/MTI.pdf'>Mozilla Technology Introduction</a>
+	</ul>
+	<h3> 翻譯/本地化(Localization)用資源</h3>
+	<ul>
+		<li><a href='docs/glossaries'>詞彙表</a>
+		<li><a href='tools'>軟體工具</a>
+		<li><a href='docs/localized_build'> 製作 Mozilla Localized builds </a>
+		<li><a href='docs/mt4tut'> Mozilla Translator 4.36 Tutorial </a>
+		<li><a href='docs/chromeview'> Mozilla Translator 4.36 Tutorial / Attached screenshot </a>
+	</ul>
+	<h3> 舊文件 </h3>
+	<ul>
+		<li><a href='docs/activation'>Netscape Activation</a>
+		<li><a href='docs/gecko'>Gecko Engine</a>
+		<li><a href='docs/tip'>Tips 小技巧</a>
+		<li><a href='docs/whymoz'>Why mozilla</a>
+		<li><a href='docs/reimportbookmark'> Reimport Bookmarks </a>
+	</ul>
+</div>
+<!--#include file="footer.shtml" -->

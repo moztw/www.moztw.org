@@ -1,0 +1,77 @@
+<!--#include file="header.shtml" -->
+	<div class="key-point">
+		<div id="product-desc" class="product-mozilla">
+			<h2>Mozilla 1.7.2</h2>
+			<p>
+			為 2004 年的新世代量身打造的瀏覽工具、
+			進階的電子郵件與 Newsgroup 管理程式、
+			IRC 線上聊天、簡易 HTML 編輯 --
+			所有你對 Internet 的需求，全在一個應用程式中得到滿足。
+			</p>
+		</div>
+		<div id="product-side">
+			<div class="download">
+				<h3>馬上下載</h3>
+				<!--#include file='dlmoz-js.shtml' -->
+			</div>
+		</div>
+	</div>
+	<div id="mainContent" class="right">
+	      <h2>使用 Mozilla 的理由</h2>
+		  <dl id="quotes">
+		    <dt>&#147;<a href=
+	            "http://www.pcworld.com/reviews/article/0,aid,110653,pg,11,00.asp"
+	            >Best of 2003</a>&#147;</dt>
+		    <dd> <cite>&#8212;PCWORLD</cite></dd>
+		    <dt>&#147;Mozilla is the best free alternative to Microsoft IE and it's faster to boot.&#147;</dt>
+		    <dd> <cite>&#8212;Rex Baldazo, C|Net</cite></dd>
+		  </dl>
+		  <h3>網頁瀏覽</h3>
+
+		  <p><strong>分頁瀏覽</strong>讓你對瀏覽網頁有全新的體驗。
+		  你不用再每次開一個網頁就要開一個視窗弄得工作列滿滿的看不清楚，
+		  也不用在每次點選只能開一個網頁。 分頁瀏覽配合書籤，
+		  可以一次把一組網頁全部一起打開，連首頁也可以設定為好幾組網頁！</p>
+		  <p><strong>拒絕彈出型廣告視窗</strong> 
+		  讓你免受廣告之苦。 新的偵測程式在遇到網頁有彈出型視窗時會警告你，
+		  你也可以對每個網站個別設定是否接受彈出型視窗。</p>
+		  <p><strong>圖片管理員</strong>讓你可以設定哪些網站不顯示圖片，
+		  有效加速載入網頁，也可以減少廣告圖片。</p>
+		  <p><strong>隨打即找</strong> 方便你快速瀏覽頁面。
+		  不用先叫出任何對話窗，直接打字， Mozilla 會在頁面中幫你找到
+		  所打入字串的鏈結或文字。</p>
+		
+		  <p>除了上面提到的特點外，Mozilla 也具備了所有現代瀏覽器該有的功能：
+		  密碼管理員、下載與 Cookie 管理員、佈景主題、
+		  多國語言界面、多重平台支援、最新的網頁標準......</p>
+		
+		  <h3>電子郵件與 Newsgroup</h3>
+		
+		  <p><strong>垃圾郵件控制</strong> 
+		  幫助你減少廣告商寄來的垃圾信。
+		  Mozilla 的偵測引擎會利用你收到的信件自動學習，分辨效果會越來越好。<p>
+		
+		  <p>利用自訂的<strong>標籤(Labels)</strong> 與
+		  <strong>郵件檢視方式</strong> 來管理你的電子郵件.  
+		  不同優先順序的郵件可用不同的顏色顯示。
+		  排序後可方便你更快速的處理郵件。</p>
+		
+		  <p>Mozilla 支援 <strong>同時使用多組帳號</strong> 
+		  以幫助你在同一個界面下組織與分類郵件。</p>
+		  <p>Mozilla 同時支援 S/MIME、收執回函、
+		  LDAP、數位簽章等企業級安全標準。</p>
+		
+		  <h3>設計師</h3>
+		  <p>Mozilla 的 <strong>HTML 編輯器</strong>
+		  正在持續改進中，目前對動態圖片、表格縮放、快速插入與刪除儲存格、
+		  加強的 CSS 、定位圖層 (layer) 等等都已有不錯的支援。
+		  從簡易的文件到複雜的網頁專案，設計師都是你的好選擇。
+		  </p>
+	</div>
+    <div id="side" class="right">
+      <h3>資源與鏈結</h3>
+      <ul class="compact">
+	      <li><a href="http://plugindoc.mozdev.org/">尋找 Plug-ins</a>
+      </ul>
+    </div>
+<!--#include file="footer.shtml" -->

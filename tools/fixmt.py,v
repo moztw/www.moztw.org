@@ -1,0 +1,263 @@
+head	1.2;
+access;
+symbols;
+locks
+	Administrator:1.2; strict;
+comment	@# @;
+
+
+1.2
+date	2002.12.12.06.00.11;	author Administrator;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2002.12.11.18.22.29;	author Administrator;	state Exp;
+branches;
+next	;
+
+
+desc
+@Fix and hack MozillaTranslator Glossary File
+A python tools made by piaip to help MozillaLocalization
+@
+
+
+1.2
+log
+@More rules, n7-related
+@
+text
+@#!/usr/bin/env python
+# vim:foldmethod=marker:foldenable:foldlevel=0:foldtext=getline(v\:foldstart+1):
+#
+# Author: piaip@@csie.ntu.edu.tw
+# Purpose: 'Mozilla Translator' glossary file fixing
+#
+
+def keyequ(g, name, val) : # {{{
+    """ keyequ(g, name, val):  return g[name] == val """
+    if g.has_key(name) and g[name] == val : return 1
+    return 0
+# }}}
+def cutdot(name) : # {{{
+    """ cutdot(name):  cut one level of dot domain from name """
+    return name[:name.rfind(".")]
+# }}}
+def taildot(name) : # {{{
+    """ taildot(name):  return the last level of dot domain from name """
+    return name[name.rfind(".")+1:]
+# }}}
+def read_glossary(filename, g) : # {{{
+    """ read_glossary(filename, g): read original file data"""
+    glos = open(filename, "r")
+    print "Reading data from '"+filename+"'..."
+    for s in glos.readlines() :
+	if s[0] == '#' : continue
+	s = s[:-1]
+	# s format: 0.0.0.type = value
+	t = s.split("=", 1)
+	# t = ['0.0.0.type', 'value']
+	ets = cutdot(t[0]) 	# 0.0.0
+	ete = taildot(t[0])	# type
+	et = {}
+	if g.has_key(ets) : et = g[ets]
+	et[ete] = t[1]	# [type]=value
+	g[ets] = et
+    glos.close()
+    # read ok
+    print "Total %d entries read." % (len(g))
+# }}}
+def write_glossary(filename, g) : # {{{
+    """ write_glossary(filename, g): write out"""
+    print "Writting out to '" + filename + "'..."
+    a=open(filename, "w")
+    for k in g.keys() : # k: { "type": "value" }
+	for k2 in g[k].keys() :
+	    a.write("%s.%s=%s\n" % (k, k2, g[k][k2]))
+    a.close()
+# }}}
+def strip_enus(g) : # {{{
+    """ strip_enus(g): strip en-US data """
+    print "Stripping en-US data..."
+    count = 0
+    for k in g.keys() :
+	if not g.has_key(k) : continue # may be stripped
+	if keyequ( g[k], 'name', 'en-US') :
+	    k2 = cutdot(k)
+	    g[k2]['count'] = int(g[k2]['count'])-1
+	    count = count + 1
+	    #print g[k2]
+	    if taildot(k) == '0' :
+		# use k2.1, the zh-TW ver
+		g[k] = g[k2 + ".1"]
+		del g[k2 + ".1"]
+		g[k]['name'] = 'zh-TW'
+	    else :
+		if taildot(k) == '1' :
+		    # ok. just delete it
+		    del g[k]
+		else :
+		    print "error!"
+    print "Total %d en-US entries stripped." % (count)
+# }}}
+def strip_keep(g) : # {{{
+    """ strip_keep(g): strip keep in zh-TW data """
+    print "Stripping keep data..."
+    count = 0
+    for k in g.keys() :
+	if keyequ(g[k], 'keep', 'true') :
+	    k2 = k + '.0' # zh-TW ref
+	    if not g.has_key(k2) : continue
+	    if not g[k2]['name'] == 'zh-TW' : 
+		print "not zh-tw!?"
+		continue
+	    if g[k2]['text'] == "" : continue
+	    if g[k2]['text'] == g[k]['text'] :
+		g[k2]['text'] = ''
+		count = count + 1
+    print "Total %d keep entries stripped." % (count)
+# }}}
+def duplicate_copy(g) : # {{{
+    """ duplicate_copy(g): sync and copy duplicated (key/orig) entries """
+    print "syncing and copying duplicated key entries..."
+    count = 0
+    # construct redundency table
+    print "constructing redundency table"
+    g2 = {}
+    for k in g.keys() :
+	if not keyequ(g[k], 'count', '1') : continue
+	if not keyequ(g[k], 'keep', 'false') : continue
+	kx = g[k]['text'].lower()
+	if not g2.has_key(kx) : 
+	    g2[kx]=[]
+	# g2[kx] contains a list[] of {'text':text, 'keys': key[]}
+	flAdded = 0
+	tr = {}
+	for tr in g2[kx] :
+	    if  tr['text'] == g[k + ".0"]["text"] :
+		tr['keys'].append(g[k]["key"])
+		flAdded = 1
+	if not flAdded : # create
+	    tr = {}
+	    tr['keys'] = [g[k]["key"]]
+	    tr['text'] = g[k+".0"]["text"]
+	    g2[kx].append(tr)
+    # sync
+    for k in g.keys() :
+	# find not translated yet entries to determine for duplicated
+	if not keyequ(g[k], 'keep', 'false') : continue
+	if not keyequ(g[k], 'count', '0') : continue
+	# get original pattern
+	orig = g[k]['text'].lower()
+	# smart look up
+	tr_tail = ''
+	if not g2.has_key(orig) :
+	    tr_tail = '.'
+	    if not (orig.endswith(tr_tail) and g2.has_key(orig[:-len(tr_tail)])):
+		tr_tail = '...'
+		if not (orig.endswith(tr_tail) and g2.has_key(orig[:-len(tr_tail)])):
+		    tr_tail = '\\:'
+		    if not (orig.endswith(tr_tail) and g2.has_key(orig[:-len(tr_tail)])):
+			# give up
+			continue
+	if len(tr_tail) > 0 :
+	    z = g2[orig[:-len(tr_tail)]]
+	else :
+	    z = g2[orig]
+	print '.',
+	if len(z) == 1 : # exactly match, ok
+	    g[k]['count'] = '1'
+	    g[k+'.0'] = {}
+	    g[k+'.0']['name'] = 'zh-TW'
+	    g[k+'.0']['text'] = z[0]['text'] + tr_tail
+	    # exact match
+	    print '+',
+	    count = count + 1
+	else : # try other match
+	    maxcnt = z[0]
+	    for z2 in z :
+		if g[k]['key'] in z2['keys'] :
+		    g[k]['count'] = '1'
+		    g[k+'.0'] = {}
+		    g[k+'.0']['name'] = 'zh-TW'
+		    g[k+'.0']['text'] = z2['text'] + tr_tail
+		    # keyname match
+		    print '*',
+		    count = count + 1
+		else :
+		    if len(z2['keys']) > len(maxcnt['keys']) : maxcnt = z2
+	    # do vote(max) match?
+	    if not g[k]['count'] == '1' :
+		z2 = maxcnt
+		g[k]['count'] = '1'
+		g[k+'.0'] = {}
+		g[k+'.0']['name'] = 'zh-TW'
+		g[k+'.0']['text'] = z2['text'] + tr_tail
+		# vote(max) match
+		print '!',
+		count = count + 1
+    print ''
+    print "Total %d synced." % (count)
+# }}}
+def more_keep(g) : # {{{
+    """ more_keep(g): using simple rules to make more keep original """
+    print "Making more keep original..."
+    count = 0
+    g2 = {}
+    for k in g.keys() :
+	if not keyequ(g[k], 'keep', 'false') : continue
+	t = g[k]['text']
+	tk = g[k]['key']
+	# check rules
+	if t.isdigit() or t.isspace() or t == '' or len(t) < 2 or \
+	    (g[k]['count'] == '0' and tk.startswith('country') and \
+	      (tk.endswith('Code') or tk.split('y')[1].isdigit())) or \
+	    tk.endswith('.img') or tk.endswith('.url') or \
+	    t.startswith('VK_') or \
+	    t == 'AIM' or t == 'ICQ' or t == 'ICQ#' or t == 'ICQ#\\:':
+	    g[k]['keep'] = 'true'
+	    count = count + 1
+	    continue
+    print "Total %d made keep original." % (count)
+# }}}
+
+# main start
+g = {}
+read_glossary("glossary2.txt", g)
+# print g['0.0.0.0.0']
+#strip_enus(g)
+#strip_keep(g)
+#more_keep(g)
+# always do duplicate_copy
+duplicate_copy(g)
+write_glossary("glossary.out", g)
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d101 1
+a101 1
+	kx = g[k]['text']
+d122 16
+a137 4
+	orig = g[k]['text']
+	# look up
+	if not g2.has_key(orig) : continue
+	z = g2[orig]
+d143 1
+a143 1
+	    g[k+'.0']['text'] = z[0]['text']
+d154 1
+a154 1
+		    g[k+'.0']['text'] = z2['text']
+d166 1
+a166 1
+		g[k+'.0']['text'] = z2['text']
+d173 21
+d201 2
+@

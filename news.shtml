@@ -1,0 +1,12 @@
+<!--#include virtual='header.shtml' -->
+<H1> 最新消息與公告 </H1>
+<!--#include virtual='news-latest.shtml' -->
+
+<H1> 過去的公告記錄 </H1>
+<ul class="news">
+	<li><div class="date"> 9 月 6 日 </div>重建網站。 
+	<li><div class="date"> 9 月 5 日 </div>復原無望，重來一次 :~~~~~~~~~~~~~~~~~~~~
+	<li><div class="date"> 9 月 4 日 </div>SVN 備份失敗，不小心把網站全刪了... :~~~
+	<li><div class="date"> 9 月 3 日 </div><a href="http://moztw.org">網站新樣式</a>
+</ul>
+<!--#include virtual='footer.shtml' -->

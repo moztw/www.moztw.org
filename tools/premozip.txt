@@ -1,0 +1,65 @@
+Hi, piaip.
+
+Francis S.Lin wrote:
+
+> * Tsukasa Maruyama <mal@owl.office.ne.jp> [011020 01:49]:
+> 
+>>binary:
+>>http://dev.jp/mozilla-win32-0.9.5-ja-JP-talkback.zip
+>>http://dev.jp/mozilla-i686-pc-linux-gnu-0.9.5-ja-JP.tar.gz
+>>
+>    Hello, I'm curious about how you made those binary localized
+>    builds? Can you give me a detailed hint on how to make that?
+> 
+
+Is already the localization language pack ready?
+It's simple. Example for Japanesed win32 binary.
+
+1. unzip mozilla-win32-VER-talkback.zip,
+    and unzip Japanese language packs.
+2. add locale files (ja-JP.jar, ja-win.jar, JP.jar) to mozilla's
+    \bin\chrome directry.
+3. remove files and directry
+    bin\chrome\*.rdf
+    bin\chrome\overlayinfo\
+4. add below lines to bin\chrome\installed-chrome.txt
+######
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/global/
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/communicator/
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/messenger/
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/editor/
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/navigator/
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/necko/
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/cookie/
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/wallet/
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/pipnss/
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/pippki/
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/help/
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/content-packs/
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/mozldap/
+locale,install,url,jar:resource:/chrome/ja-JP.jar!/locale/ja-JP/chatzilla/
+locale,install,url,jar:resource:/chrome/ja-win.jar!/locale/ja-JP/global-platform/
+locale,install,url,jar:resource:/chrome/ja-win.jar!/locale/ja-JP/communicator-platform/
+locale,install,url,jar:resource:/chrome/ja-win.jar!/locale/ja-JP/navigator-platform/
+locale,install,url,jar:resource:/chrome/JP.jar!/locale/JP/global-region/
+locale,install,url,jar:resource:/chrome/JP.jar!/locale/JP/communicator-region/
+locale,install,url,jar:resource:/chrome/JP.jar!/locale/JP/editor-region/
+locale,install,url,jar:resource:/chrome/JP.jar!/locale/JP/messenger-region/
+locale,install,url,jar:resource:/chrome/JP.jar!/locale/JP/navigator-region/
+locale,install,select,ja-JP
+locale,install,select,JP
+#####
+5. make bin\defaluts\profile\JP directry that
+    JP profile templates copy to.
+6. JP Search Plugins copy to bin\searchplugins
+7. bin\ package as zip file.
+
+It's complete, OK?
+
+When linux binary make, you may launch mozilla one time
+to generate bin\chrome\*.rdf files and overlayinfo dir,
+needs to contained to linux package.
+
+-- 
+mal / MARUYAMA Tsukasa
+

@@ -1,0 +1,11 @@
+<ul>
+<!--#include file='dlff-latest.shtml' -->
+<li><a href='/instlp'>安裝語言套件</a></li>
+<li><a href='dlff-all'> 下載其它版本 </a></li>
+</ul>
+<script type='text/javascript' src='js/download.js'></script>
+<script type='text/javascript'>
+	<!--
+	window.onload = highlightDownload;
+	// -->
+</script>

@@ -1,0 +1,23 @@
+Notes after icos'03:
+
+(1) [ericyu] IE 事實上是有 UNIX 版的，雖然不多
+    HP-UX 有過， Solaris 有過
+    [hlb] http://browsers.evolt.org/?ie/  要裝裝看嗎 :p
+(2) [mjhsieh] Sherlock 的 copyright 是 Apple 的 
+    19:11 <@mjhsieh> Sherlock 這件事情是 mycroft 有點問題
+    19:12 <@mjhsieh> 假使坐大，是一定會被告的
+    19:12 <@mjhsieh> Apple 長大是跟 Microsoft 一樣
+    04:12 <@mjhsieh> piaip: Sherlock (mozilla) 的語法跟 
+		    Sherlock (MacOS 9) 的語法相同！
+(3) [hlb] CSS3 還早呢：
+    19:24 <hlb> 喔對了, 昨天提到 CSS 的部分, CSS3 離 Recommendation
+    還有很遠的路要走.  http://www.w3.org/Style/CSS/current-work#table
+(4) [hlb] IE 的 box model:
+    http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnie60/html/cssenhancements.asp
+    19:27 <hlb> 另外這個是 IE 的 box model 問題(及其他 :/)
+    19:28 <hlb> 簡單講就是 width 的定義不一樣
+(5) [ericyu] http://forcecontenttype.mozdev.org/
+    強制設定 Content Type 的東西
+(6) [plugindoc] http://plugindoc.mozdev.org/windows.html#ActiveX
+    Mozilla 是有人在寫 ActiveX Plugin 。目前只吃 Media Player，
+    以後或許就可以吃別的了。

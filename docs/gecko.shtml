@@ -1,0 +1,20 @@
+<!--#include virtual='/header.shtml' -->
+<H3 class="dashbox"> Gecko Engine </H3>
+這裡有一些關於 Gecko (Netscape 6 and Mozilla)
+的資料。
+<div style="border: dotted 1px #e0e0e0; color: #8080FF; background: #f0f0c0;">
+    要寫出 IE 與 Gecko 共同可用，並且儘量標準的網頁的 tips:<br>
+    <ol>
+	<li> 對於 innerHTML, 請不要用 document.all['blah'].innerHTML; 
+	請用 document.getElementById('blah').innerHTML</li>
+	<li> 以往圖片之類會用 'alt' 來放 TipText (滑鼠移上去停一會
+	顯示的小方塊)，但新的 HTML 標準說 alt 不能亂拿來做那個。
+	請用 title= 來代替。不過 IE 不吃，所以你如果很在意可把兩個
+	tag 設成一樣。</li>
+    </ol>
+</div>
+<ul>
+    <li class="en"><a href="http://www.mozilla.org/docs/dom/domref/">
+	(mozilla.org) Gecko DOM Reference</a></li>
+</ul>
+<!--#include virtual='/footer.shtml' -->

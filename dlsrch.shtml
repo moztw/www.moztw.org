@@ -1,0 +1,82 @@
+<!--#include file="header.shtml" -->
+<script type="text/javascript">
+     <!-- 
+function addEngine(name,ext,cat)
+{
+  if ((typeof window.sidebar == "object") && (typeof
+	  window.sidebar.addSearchEngine == "function"))
+  {
+    //cat="Web";
+    //cat=prompt("In what category should this engine be installed?","Web")
+    window.sidebar.addSearchEngine(
+      "http://moztw.org/srch/"+name+".src",
+      "http://moztw.org/srch/"+name+"."+ext,
+      name,
+      cat );
+  }
+  else
+  {
+    alert("You must use Mozilla or Netscape to install these engines.");
+  }
+}
+     // -->
+</script>
+
+<div>
+	<h1>下載搜尋引擎</h1>
+	<p> 這裡提供了部份可下載的搜尋引擎。 另外也別忘了去
+	<a href="http://mycroft.mozdev.org/"> mycroft </a> 找找。
+	若您想提供新的資料，也建議您順便送往 mycroft 一份。</p>
+	<p> 若要手動安裝，請下載檔案後複製到 Mozilla 程式目錄的 searchplugins 子目錄底下。</p>
+	<dl>
+		<dt>Google 中文搜尋
+		<dd><ul><li> 
+			<a href="#" onClick="addEngine('google_tw','gif','General' );">自動安裝</a>
+			<li> 手動安裝：
+			<a href='dls/sp/google_tw.gif'> google_tw.gif</a>
+			<a href='dls/sp/google_tw.src'> google_tw.src</a>
+		</ul>
+
+		<dt>Openfind 搜尋 (sam 提供)
+		<dd><ul><li> 
+			<a href="#" onClick="addEngine('openfind','gif','General' );">自動安裝</a>
+			<li> 手動安裝：
+			<a href='dls/sp/openfind.gif'> openfind.gif</a>
+			<a href='dls/sp/openfind.src'> openfind.src</a>
+		</ul>
+
+		<dt>教育部國語辭典(xamous_shih提供)
+		<dd><ul><li> 
+			<a href="#" onClick="addEngine('edudict','gif','General' );">自動安裝</a>
+			<li> 手動安裝：
+			<a href='dls/sp/edudict.gif'> edudict.gif</a>
+			<a href='dls/sp/edudict.src'> edudict.src</a>
+		</ul>
+		<dt>Encyclopedia and Wikipedia (Rickz提供)
+		<dd><ul><li> 
+			<a href="#" onClick="addEngine('encyclopedia','gif','General' );">自動安裝</a>
+			<li> 手動安裝：
+			<a href='dls/sp/encyclopedia.gif'> encyclopedia.gif</a>
+			<a href='dls/sp/encyclopedia.src'> encyclopedia.src</a>
+		</ul>
+		<dt>顏元叔網路 英英/英漢辭典(ChenHsiu提供)
+		<dd><ul><li> 
+			<a href="#" onClick="addEngine('onlinedict','gif','General' );">自動安裝</a>
+			<li> 手動安裝：
+			<a href='dls/sp/onlinedict.gif'> onlinedict.gif</a>
+			<a href='dls/sp/onlinedict.src'> onlinedict.src</a>
+		</ul>
+		<dt>Yahoo-Kimo 中英字典
+		<dd><ul><li> 自動安裝：
+			<a href="#" onClick="addEngine('yhdic_ce','gif','General' );">中英</a>
+			<a href="#" onClick="addEngine('yhdic_ec','gif','General' );">英中</a>
+			<li> 手動安裝：
+			<a href='dls/sp/yhdic_ce.gif'> yhdic_ce.gif</a>
+			<a href='dls/sp/yhdic_ce.src'> yhdic_ce.src</a>
+			|
+			<a href='dls/sp/yhdic_ec.gif'> yhdic_ec.gif</a>
+			<a href='dls/sp/yhdic_ec.src'> yhdic_ec.src</a>
+		</ul>
+	</dl>
+</div>
+<!--#include file="footer.shtml" -->

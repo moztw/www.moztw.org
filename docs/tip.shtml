@@ -1,0 +1,128 @@
+<!--#include virtual='/header.shtml' -->
+ <H3 class="dashbox"> Tips on Using Mozilla <br> 使用 Mozilla 的小技巧 </H3>
+ <!-- {{{ -->
+<style type="text/css">
+<!-- 
+ DT.en {
+     background-color: #E0E0FF;
+     color: #000080;
+     padding: 3px;
+     margin-top: 15px;
+ }
+ DT.ch {
+     background-color: #E0F0F0;
+     color: #6080B0;
+     padding: 3px;
+ }
+  -->
+</style>
+<!-- }}} -->
+<DL>
+
+    <!-- {{{ --> <DT class="en"> <!-- py:en --><a name="urlicon">
+
+       Mozilla 1.3+ has Type Ahead Find
+   </A></DT><DD> 
+    </DD> <DT class="ch"> <!-- py:ch --> 
+
+    Mozilla  1.3 後支援 Type Ahead Find, 隨打即找。
+    </dt> <DD> 
+    你不用再按 Ctrl-F 來找字串了，直接打字， Mozilla 就會開始找。
+    找下一個是按 Ctrl-G，而預設是找鏈結，如果想找字就先按 / 。
+    反之，找鏈結就按 ' 。
+    </DD> <!-- }}} --> 
+
+    <!-- {{{ --> <DT class="en"> <!-- py:en --><A name="zip">
+
+       Zip your HTML!!!
+   </A></DT><DD> 
+       You may zip your HTML files and browse them via Mozilla -- without
+       extracting them to disk!!! <br>
+       Use this form:
+       <div><code>jar:URL!PATH<hr>Example:
+       jar:file:///c|/jdk1.3/j2sdk1_3_0-doc.zip!/jdk1.3/docs/index.html
+       </code></div>
+       <A href="jar:http://www.csie.ntu.edu.tw/~b7506051/mozilla/test.zip!/index.html"> Try this to read a remote zip file on this site: <br>
+jar:http://www.csie.ntu.edu.tw/~b7506051/mozilla/test.zip!/index.html</A>
+    </DD> <DT class="ch"> <!-- py:ch --> 
+
+       Mozilla 支援直接讀取 Zip 檔 (或 jar 檔)
+    </dt> <DD> 
+       嫌一堆 HTML 檔太煩, 太佔空間嗎? 把他 zip 起來可是瀏覽器沒辦法讀嗎?
+       使用 Mozilla!!! <br>
+       使用如下格式讀取:
+       <div><code>jar:URL!PATH<hr>例:
+       jar:file:///c|/jdk1.3/j2sdk1_3_0-doc.zip!/jdk1.3/docs/index.html
+       </code></div>
+       <A href="jar:http://www.csie.ntu.edu.tw/~b7506051/mozilla/test.zip!/index.html"> 請按此處測試線上瀏覽 ZIP 檔: <br> 
+jar:http://www.csie.ntu.edu.tw/~b7506051/mozilla/test.zip!/index.html </A>
+    </DD> <!-- }}} --> 
+
+    <!-- {{{ --> <DT class="en"> <!-- py:en --><A name="truetype">
+
+	Enabling TrueType support on UNIX Mozilla
+   </A></DT><DD> 
+   (Thanks to Blishs)
+   <A href="http://www.mozilla.org/projects/fonts/unix/enabling_truetype.html">
+       http://www.mozilla.org/projects/fonts/unix/enabling_truetype.html</a>
+    </DD> <DT class="ch"> <!-- py:ch --> 
+
+       讓 UNIX 的 Mozilla 支援 TrueType
+    </dt> <DD> 
+    <b>(底下由 Blishs 提供及翻譯)</b><br>
+    首先你的 mozilla/netscape 要有支援 TrueType，
+    然後你要有 FreeType2 的 library。<br>
+    *在你的設定檔啟動 TrueType 的功能<br>
+    *ex.)  "/mozilla/defaults/pref/unix.js"<br>
+    user_pref("font.FreeType2.enable", true);<br>
+    我是寫到 ~/.mozilla/default/XXXXXXXX.slt/prefs.js<br>
+    <code><pre>
+    user_pref("font.FreeType2.autohinted", true);
+    user_pref("font.FreeType2.enable", true);
+    user_pref("font.directory.truetype.1","/usr/X11R6/lib/X11/fonts/webfonts");
+    user_pref("font.directory.truetype.2","/usr/X11R6/lib/X11/fonts/TrueType");
+    user_pref("font.freetype2.shared-library", "libfreetype.so.9");
+    </pre></code>
+    ps. mozilla default 是用 libfreetype.so.6 的樣子，如果你的系統不是，
+    就像上面改一下吧！如果是，那麼 shared-library 那一行就不用了。<br>
+    在更改設定檔的時候記得要先把 mozilla 關掉，
+    否則設定檔不會改變，改好後啟動 mozilla，<br>
+    Edit -&gt; Preferences -&gt; Appearance -&gt; Fonts<br>
+    (編輯 -&gt; 個人功能設定 -&gt; 外觀設定 -&gt; 字型設定)<br>
+    選擇語言 選擇字型 這時你會發現多了一些字型在最上面<br>
+    那些就是啦！請自行選擇你喜歡的用。
+
+
+
+
+    </DD> <!-- }}} --> 
+
+    <!-- {{{ --> <DT class="en"> <!-- py:en --><a name="urlicon">
+
+       Mozilla 0.9.6+ Has Cusomizable URL ICON
+   </A></DT><DD> 
+        In HTML, you can specify your URL ICON by: <br>
+        &lt;LINK REL="icon" HREF="images/XXX.png" TYPE="image/png"&gt;
+	<br>&lt;LINK REL="SHORTCUT ICON" HREF="/images/XXX.ico"&gt;
+    </DD> <DT class="ch"> <!-- py:ch --> 
+
+    Mozilla 0.9.6 後支援自訂網址列圖示
+    </dt> <DD> 
+    只要在 HTML 裡面用下面的設定, 就可以自訂你的網頁的圖示了: <br>
+        &lt;LINK REL="icon" HREF="images/XXX.png" TYPE="image/png"&gt;
+	<br>&lt;LINK REL="SHORTCUT ICON" HREF="/images/XXX.ico"&gt;
+    </DD> <!-- }}} --> 
+
+    <!-- {{{ --> <DT class="en"> <!-- py:en --><a name="multitab">
+
+       Mozilla 0.9.5+ Has Multi-tab (Multizilla like)
+   </A></DT><DD> 
+       You can now press Ctrl-T to create a new tab page in Mozilla 0.9.5+.
+    </DD> <DT class="ch"> <!-- py:ch --> 
+
+       Mozilla 0.9.5 後支援分頁顯示
+    </dt> <DD> 
+       0.9.5+ 把 Multizilla 按下 Ctrl-T 就新增分頁的能力加入了
+    </DD> <!-- }}} --> 
+</DL>
+<!--#include virtual='/footer.shtml' -->

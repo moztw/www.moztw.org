@@ -1,0 +1,28 @@
+<!--#include virtual='/header.shtml' -->
+	<H1> Updating Mozilla Font Size </H1>
+問題: Mozilla 的字 (尤其是 MacOS/UNIX 版) 太小了! 所以很難看; 怎麼變大?
+	<hr>
+	如果你覺得 Mozilla 字型太小，請下載 userChrome.css 並安裝後
+	修改裡面的設定。
+    基本上就是要用 userChrome.css
+    去一個個改掉你覺得太小的元件(如果改好歡迎寄給我 :D)。
+    <p>
+    不過如果你沒時間也不懂, 有個簡單的方法: 下載並安裝 Download 下載頁的
+    userChrome.css, 然後編輯它。在檔案的最後面有些我寫的註解，可以用來
+    快速指定字型大小 (不過這會改掉全部的元件!!)。請照上面的指示，
+    修改後重開 Mozilla 即可。
+	<hr>
+	以 1024x768 的 Macintoch OS X 為例(建議11pt)，
+	底下是剛裝好 Mozilla 的樣子：
+	<br>
+	<div style="color: red; font-weight: bold;">
+	(感謝<a href="mailto:allenchu@lysia.com.hk">Allen Chu</a>
+	提供以下 snapshot 及點數設定)</div>
+	<p>
+	<img src="MacBefore.jpeg" alt="Mac, Before">
+	<hr>
+	下面是使用 11pt 後的樣子：
+	<p>
+	<img src="MacAfter.jpeg" alt="Mac, After">
+	<img src="MacAfter1.jpeg" alt="Mac, Another After">
+<!--#include virtual='/footer.shtml' -->

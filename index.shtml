@@ -1,0 +1,80 @@
+<!--#include file="header.shtml" -->
+<div class="key-point cnet" id="firefox-feature">
+
+  <a href="firefox" title="Learn more about Firefox" id="featurelink">進一步了解 Firefox</a>
+  <div id="feature-content">
+	  <!--
+    <h2 style="margin: 0; font-size: 2px;"><a href="firefox"><img src="/images/t_firefox.gif" alt="Firefox 0.9.3" height="33" width="159"></a></h2>
+	-->
+	<h2 style="margin: 0; "><a href="firefox" style='font-weight: bold; font-size: 120%; color: #457;'>Firefox 0.9</a></h2>
+	<p><a href="firefox">更安全、更快、更好的網頁瀏覽器</a> 
+	，而且具有許多令人驚豔的新功能如分頁瀏覽與整合搜尋，
+	從此不用再見到廣告視窗、間諜軟體(spyware)、病毒等等討人厭的東西。<br/>
+	&#8220;Firefox: wired. IE: expired.&#8221; - <a href="http://www.wired.com/wired/archive/12.09/start.html?pg=12">Wired, Sep 04</a></p>
+	<div class="download"><h3><strong class="downloadText">免費下載</strong></h3>
+		<!--#include file='dlff-js.shtml' -->
+	</div>
+  </div>
+</div>
+
+<div id="mBody">
+  <div class="frontcolumn">
+    <h2><a href="thunderbird">Thunderbird</a></h2>
+    <a href="thunderbird"><img src="images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
+	<p><a href="thunderbird">Thunderbird</a> 
+	是 Mozilla 家族新生代的 e-mail 程式，具有完整的功能，與最新的垃圾信控制。</p>
+  </div>
+  <div class="frontcolumn">
+    <h2><a href="mozilla">Mozilla </a></h2>
+    <a href="mozilla"><img src="images/product-front-mozilla.png" alt="Mozilla" class="promo" width="60" height="60"></a>
+	<p>
+	<a href='mozilla'> Mozilla</a>,
+	為新時代設計的網路瀏覽器、進階的 e-mail 與 news 管理程式、 IRC 線上交談、與簡易的 HTML 編輯工具。
+  </div>
+  <div class="frontcolumnlast">
+  <h2><a href="http://www.MozillaStore.com/">購買與贊助</a></h2>
+    <a href="http://www.MozillaStore.com/"><img src="images/front-store.jpg" alt="Mozilla Store" class="promo" width="75" height="75"></a>
+	<p> 現在你可以買到
+	<a href="http://store.mozilla.org/products/software/"> Mozilla CD (軟體)</a> 
+	或 <a href="http://store.mozilla.org/products/clothing">其它週邊商品</a>，
+    只要利用 <a href="http://www.MozillaStore.com/">Mozilla 線上商店 (英文界面)</a>。</p>
+  </div>
+
+  <br style="clear: both;"><br>
+
+  <!-- Start News Columns -->
+    <div>
+		<!--
+    <a href="http://www.mozilla.org/news.rdf">
+      <img class="rss" src="images/rss.png" alt="Announcements in RSS" width="28" height="16">
+    </a>
+	-->
+  
+        
+    <h2 style="margin-top: 0;">
+	<span style='font-size: 60%; float: right;'>最後更新：
+		<!--#flastmod virtual='/index.shtml' --></span>
+      <a href="http://www.mozilla.org/news.html">最新消息與公告</a>
+    </h2>
+	<!--#include virtual='news-latest.shtml' -->
+	<br style="clear: both;">
+	<a href='news'>所有公告記錄</a>
+  </div>
+  <!-- End News Columns -->  
+</div>
+
+  <script type="text/javascript">
+  <!--
+   function randFrontFeature() {
+    var classes = new Array("cnet", "wired", "nytimes", "nasa", "slate", "onion");
+    var date = new Date();
+    var seconds;
+    var classid;
+    seconds = date.getSeconds();
+    classid = seconds % classes.length;
+    document.getElementById('firefox-feature').className = 'key-point front-feature-' + classes[classid];
+   }
+   randFrontFeature();
+  -->
+  </script>
+<!--#include file="footer.shtml" -->

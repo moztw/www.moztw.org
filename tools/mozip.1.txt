@@ -1,0 +1,50 @@
+From: piaip@csie.ntu.edu.tw (Francis S.Lin)
+Newsgroups: netscape.public.mozilla.l10n
+Subject: (zh-TW) Localized Build + Langpack update for Moz0.9.5
+Date: 25 Oct 2001 15:19:34 GMT
+Organization: Another Netscape Collabra Server User
+Lines: 35
+Message-ID: <20011025231934.A4782@ntucst.csie.ntu.edu.tw>
+NNTP-Posting-Host: gila.mozilla.org
+Mime-Version: 1.0
+Content-Type: text/plain; charset=us-ascii
+To: L10N-Maillist <mozilla-l10n@mozilla.org>,
+   MLP staff <mlp-staff@mozilla.org>
+
+
+Hello folks,
+
+   I've made a update version of Traditional Chinese language pack
+   for Mozilla 0.9.5. And thanks to MARUYAMA Tsukasa who told me
+   how to make localized builds (talkback.zip), I've also made
+   a win32-self installer EXE file.
+
+   May MLP-Staff upload these two files to mozilla ftp?
+
+[Updated Language pack for zh-TW]
+http://www.csie.ntu.edu.tw/~b7506051/mozilla/langpack/langzhtw-0.9.5-1025.xpi
+
+[A localized build self-extract installer]
+http://www.csie.ntu.edu.tw/~b7506051/mozilla/langpack/mozilla-win32-0.9.5-zh-tw-installer.exe
+
+   And for those who wants to make installer version of your own locale,
+   here is a little tip:
+   1) download http://www.csie.ntu.edu.tw/~b7506051/mozilla/langpack/mozip.exe
+      This is a program I've little hacked from 'nsztool.c'.
+      Cygwin is required.
+   2) mozip -x mozilla-win32-X.X.X-installer.exe
+      This will extract all files inside the installer file
+   3) Edit and localize the INSTALL.INI, CONFIG.INI
+      Add a [Component XXXX] in your CONFIG.INI which describes
+      your language pack. If you want the locale to be default,
+      put it just after BROWSER part of components list, before
+      any other locale (eg: en-US langpack) components.
+   4) mozip mozilla-win32-X.X.X-installer.exe INSTALL.INI CONFIG.INI
+      And prepare you language pack (eg: langXXXX.xpi)
+      mozip mozilla-win32-X.X.X-installer.exe langXXXX.xpi
+   5) OK :) Try it now...
+  
+--
+	piaip, Francis.S.Lin
+
+

@@ -1,0 +1,27 @@
+http://bugzilla.mozilla.org/show_bug.cgi?id=130079
+
+
+
+
+
+------- Additional Comments From ryan@michonline.com  2002-04-19 10:25 -------
+For those looking for a (semi-painful) way to reimport, do this:
+
+Export your Mozilla bookmarks.  (So you can go back and make sure you got
+everything.)
+
+Rname your "Mozilla" folder off somewhere, for me this was C:\Documents and
+Settings\ryan\Application Data\Mozilla - I renamed it "Mozilla.old"
+
+Uninstall Mozilla.
+
+Install RC1.
+
+Export your bookmarks.
+
+Rename the *new* Mozilla folder out of the way.  ("Mozilla.rc1" makes sense.)
+
+Rename your old one back. ("Mozilla.old" -> "Mozilla")
+
+Go in, manage your bookmarks, import the bookmarks you exported 3 steps ago,
+edit  for a while to merge the lists.

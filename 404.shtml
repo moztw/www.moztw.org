@@ -1,0 +1,8 @@
+<!--#include file="header.shtml" -->
+<div>
+	<h1>404 Not Found / 找不到指定的資源</h1>
+	<p> The requested URL does not exist. Please check or find it again.<p>
+	<p> 你所指定的網址不存在。
+	    請試著重新瀏覽此網站以找到你要的內容。
+</div>
+<!--#include file="footer.shtml" -->
