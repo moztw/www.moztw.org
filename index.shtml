@@ -11,7 +11,7 @@
 		Firefox 1.0 PR 搶鮮中文版已可開始下載。</b></p>
 	<p>
 	更安全、快速也更好的網頁瀏覽器，具<a href="/docs/ff/tabbed-browsing">分頁瀏覽</a>、<a href="/docs/ff/search">整合搜尋</a>及<a href="/docs/ff/live-bookmarks">即時書籤功能</a>。
-	&nbsp; 現在就<a href="http://www.spreadfirefox.com/">告訴全世界</a>，你要的是 <a href="/firefox">Firefox</a>！<br/>
+	&nbsp; 現在就<a href="http://www.spreadfirefox.com/">告訴全世界</a>，你要的是 <a href="/firefox/">Firefox</a>！<br/>
 	“I suggest dumping Microsoft's Internet Explorer” — <a href="http://ptech.wsj.com/archive/ptech-20040916.html">Walt Mossberg, Wall Street Journal, Sept 16</a></p>
 	<div class="download">
 		<h3><strong class="downloadText">免費下載</strong></h3>
@@ -25,22 +25,22 @@
 
 <div id="mBody">
   <div class="frontcolumn">
-    <h2><a href="thunderbird">Thunderbird 0.8</a></h2>
+    <h2><a href="thunderbird/">Thunderbird 0.8</a></h2>
     <a href="thunderbird"><img src="images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
-	<p><a href="thunderbird">Thunderbird</a> 
+	<p><a href="thunderbird/">Thunderbird</a> 
 	是 Mozilla 家族新生代的 e-mail 程式，具有完整的功能，與最新的垃圾信控制。</p>
   </div>
   <div class="frontcolumn">
-    <h2><a href="mozilla">Mozilla 1.8a4 </a></h2>
+    <h2><a href="mozilla/">Mozilla 1.8a4 </a></h2>
     <a href="mozilla"><img src="images/product-front-mozilla.png" alt="Mozilla" class="promo" width="60" height="60"></a>
 	<p>
-	<a href='mozilla'> Mozilla</a>,
+	<a href='mozilla/'> Mozilla</a>,
 	為新時代設計的網路瀏覽器、進階的 e-mail 與 news 管理程式、 IRC 線上交談、與簡易的 HTML 編輯工具。
   </div>
   <div class="frontcolumnlast">
-    <h2><a href="netscape">Netscape 7.2</a></h2>
+    <h2><a href="netscape/">Netscape 7.2</a></h2>
     <a href="netscape"><img src="images/product-front-netscape.png" alt="Netscape" class="promo" width="60" height="60"></a>
-    <p><a href="netscape">Netscape</a>,
+    <p><a href="netscape/">Netscape</a>,
     由 moztw.org 提供的 Netscape 非官方中文化版本
   </div>
   <br style="clear: both;">
@@ -49,9 +49,9 @@
 <div>
     <div style='width: 35%; float: right;'>
 
-  <h2><a href="nvu">NVU 0.5</a></h2>
+  <h2><a href="nvu/">NVU 0.5</a></h2>
   <a href="nvu"><img src="images/product-front-nvu.png" alt="NVU" class="promo" width="50" height="50"></a>
-  <a href="nvu">NVU</a> 是獨立的網頁設計工具，具有不輸一般商用軟體的可塑性。
+  <a href="nvu/">NVU</a> 是獨立的網頁設計工具，具有不輸一般商用軟體的可塑性。
   <br/><br/>
 
   <h2 ><a href="http://www.MozillaStore.com/">購買與贊助</a></h2>

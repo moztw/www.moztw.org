@@ -11,8 +11,10 @@
 		<div id="product-side">
 			<div class="download">
 				<h3>馬上下載</h3>
+				<!--
 				[註：由於目前在測試中所以只有線上安裝檔，
 				在測試期結束後會提供完整離線安裝檔]
+				-->
 				<!--#include virtual='/dlns-js.shtml' -->
 			</div>
 		</div>
