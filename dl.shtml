@@ -50,5 +50,12 @@
 	<li>
 	<h3><a href="/dlplugins" class="producttitle"><strong>Plugins 相關</strong></a></h3>
 	Plugins 相關的下載與鏈結。
+	<li>
+	<h3>[CVS snapshot]: &nbsp;
+		<a href='/dls/ff/firefox-CVS-localesrc-zhTW.tar.bz2'>
+			<b>Firefox zh-TW locale </b></a></h3>
+	如果你想自行編譯中文版，可利用 Mozilla CVS 中的 zh-TW locale。
+	但目前此部份尚不接受 anonymous checkout，所以我們另外提供送交 CVS 的副本。
+	把上述檔案解壓縮到適當的位置後編譯即可。
 </ul>
 <!--#include file='footer.shtml' -->

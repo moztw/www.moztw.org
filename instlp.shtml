@@ -4,6 +4,7 @@
 // Available List
 lpList = [
 //{"dv":"Firefox 0.8", "date":"0214", "fv":"ff0.8", "s":"RELEASE", "rv":"1.7"},
+{"dv":"Mozilla 1.8a4", "date":"1001", "fv":"1.8a4", "s":"RELEASE", "rv":"1.8a4"},
 {"dv":"Firefox 0.9.1", "date":"0617", "fv":"ff0.9", "s":"RELEASE", "rv":"1.7-ff0.9.1"},
 {"dv":"Firefox 0.9", "date":"0617", "fv":"ff0.9", "s":"RELEASE", "rv":"1.7-ff0.9"},
 {"dv":"Mozilla 1.7", "date":"0619", "fv":"1.7", "s":"RELEASE", "rv":"1.7"},
