@@ -34,6 +34,7 @@ lpList = [
 {"dv":"Netscape 6.0","date":"0112","fv":"N.6.0","s":"Release", "rv":"0.8.1"},
 {"dv":"Mozilla 0.7.0", "date":"0111", "fv":"0.7.0", "s":"Release", "rv":"0.7"},
 ];
+
 // {{{
 	// Start Common Programs
 	BaseURL = "http://moztw.org/dls/lp/";

@@ -3,7 +3,7 @@
 <div class='dlall'>
 <div><h3> 最新版本 </h3><ul>
 	<!--#include file='dltb-latest.shtml' -->
-</ul></div>
+</ul>
 <br/>
 
 <div style='width: 30%;'>
@@ -40,6 +40,8 @@
 <li><a href="dls/tb/thunderbird-0.1-win32-zhTW.exe"> Windows (6.6M) </a>
 </ul>
 
+</div>
+</div>
 </div>
 
 <!--#include file='footer.shtml' -->

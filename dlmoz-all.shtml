@@ -4,7 +4,9 @@
 <div><h3> 最新版本 </h3><ul>
 	<!--#include file='dlmoz-latest.shtml' -->
 </ul>
-</div>
+<H3>安裝語言套件 </H3><ul>
+<li><a href='/instlp'>安裝語言套件</a>
+</ul>
 <br/>
 
 <div style='width: 30%;'>
@@ -51,6 +53,7 @@
 <li><a href="dls/moz/mozilla-i686-pc-linux-gnu-1.0-zhTW-sea.tar.gz">Linux Installer(13MB)</a></li>
 <li><a href="dls/moz/mozilla-os2-1.0-zhTW.zip">OS/2 (17MB)</a></li>
 </ul>
+</div>
 </div>
 </div>
 <!--#include file='footer.shtml' -->
