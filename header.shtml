@@ -50,7 +50,7 @@
   <input type="submit" id="submit" value="Go">
   &nbsp;
   <select id="cjk" onChange="location.href = document.getElementById('cjk').value;"><option>Mozilla Asia(CJK)</option>
-	  <option style="background: no-repeat top right url(/icons/flags/tw.png);' 
+	  <option style="background: no-repeat top right url(/icons/flags/tw.png);" 
 	  value="http://moztw.org/">Chinese (Taiwan)</option>
 	  <option style="background: no-repeat top right url(/icons/flags/jp.png);" 
 	  value="http://mozilla-japan.org/">Japanese (Japan)</option>
