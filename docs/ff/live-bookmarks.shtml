@@ -4,7 +4,7 @@
  <div id="mainContent" class="right">
   <h2>什麼是「即時書籤」（Live Bookmarks）？</h2>
   <p>「即時書籤」是 Firefox 的新技術，方便您觀看書籤選單（工具列）中的 RSS 新聞及部落格（Blog）文章。只要一眼，就可以瞧見您所選站台上最新的文章標題；您可直接跳到感興趣的文章，藉此節省您的時間。</p>
-  <p>當你在 Firefox 右下角看到「<img alt="" src="http://www.mozilla.org/images/rss.png" style="height: 16px; width: 28px; vertical-align: middle;">」圖示時，表示此站台可以使用「即時書籤」功能。點擊該圖示並選一個 RSS 收取點（RSS feed）後會出現「加入書籤」對話方塊。選「OK」之後，您就可以看到「即時書籤」和其他書籤排在一起。很多人會把「即時書籤」存放於書籤工具列資料夾中，覺得這樣子特別方便。</p>
+  <p>當你在 Firefox 右下角看到「<img alt="" src="/images/livemarks16.png" style="vertical-align: middle;">」圖示時，表示此站台可以使用「即時書籤」功能。點擊該圖示並選一個 RSS 收取點（RSS feed）後會出現「加入書籤」對話方塊。選「OK」之後，您就可以看到「即時書籤」和其他書籤排在一起。很多人會把「即時書籤」存放於書籤工具列資料夾中，覺得這樣子特別方便。</p>
   <h2>實際瞧瞧</h2>
   <p>許多網站和部落格用 RSS 出版最新的文章，顯示的標題數及更新週期是由網站本身決定的。</p>
 <p style="padding-bottom: 2em;"><img alt="「及時書籤」畫面" src="http://www.mozilla.org/images/lb-screen.gif" style="width: 300px; height: 241px; margin: 0 1em 0 0;" align="left"> 書籤方塊中顯示來自 <a href="http://www.slashdot.org">Slashdot</a>（<a href="http://slashdot.org/index.rss">RSS</a>）及 <a href="http://news.bbc.co.uk">BBC 新聞</a>（<a href="http://news.bbc.co.uk/rss/newsonline_world_edition/front_page/rss091.xml">RSS</a>）的文章標題，在標題上點擊滑鼠可直接前往所選文章。</p><p style="clear: both;">&nbsp;</p>
