@@ -53,10 +53,12 @@
 	  <option style="background: no-repeat top right url(/icons/flags/tw.png);" 
 	  value="http://moztw.org/">Chinese (Taiwan)</option>
 	  <option style="background: no-repeat top right url(/icons/flags/jp.png);" 
-	  value="http://mozilla-japan.org/">Japanese (Japan)</option>
+	  value="http://www.mozilla.gr.jp/">Japanese (Japan)</option>
 	  <option style="background: no-repeat top right url(/icons/flags/kr.png);" 
 	  value="http://mozilla.or.kr/">Korean (Korea)</option>
 	  <!--
+	  <option style="background: no-repeat top right url(/icons/flags/jp.png);" 
+	  value="http://mozilla-japan.org/">Mozilla-Japanese</option>
 	  <option style="background: no-repeat top right url(/icons/flags/cn.png);" 
 	  value="http://people.linux.net.cn/holywen/">Chinese (China)</option>
 	  -->
