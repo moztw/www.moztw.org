@@ -63,6 +63,7 @@
     <div id="side" class="right">
       <h3>中文社群資源</h3>
     	<ul class="compact">
+    	<li><a href="/firefox/extension_top_15/">社群嚴選：年度最佳擴充套件</a></li>
         <li><a href="http://wiki.moztw.org/index.php?title=FireAnything">某瀏覽器功能，Firefox 有沒有？</a></li>
         <li><a href="/dlsrch">新增中文搜尋引擎</a></li>
         <li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區</a></li>

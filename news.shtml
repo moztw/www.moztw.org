@@ -4,6 +4,9 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+	<li><div class="date"> 12 月 11 日 </div>
+	<a href='dls/tb/thunderbird-1.0.zh-TW.win32.installer.exe'>Thunderbird 1.0 (win32)</a>
+	中文版開放下載測試中！
 	<li><div class="date"> 1 月 16 日 </div>
 	擴充套件 Top 15 <a href='http://forum.moztw.org/viewtopic.php?p=27414'>開始投票！</a>
 	<li><div class="date"> 12 月 27 日 </div>

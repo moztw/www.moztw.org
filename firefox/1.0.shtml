@@ -22,8 +22,76 @@
         </div>
       </div> 
       <!-- What's New -->
-      <h2><a name="new">新鮮事</a></h2>
-      <p>以下是 Firefox 此版的新鮮事：</p>
+      <h2><a name="new">1.0.1 新鮮事</a></h2>
+      <h3><a name="important101">重要注意事項</a></h3>
+      <p>如果您在 Firefox 的位址列輸入網址時 Firefox 常當掉，您可以先移除 Firefox 1.0.1、刪除 Firefox 程式資料夾（Windows 版可能會在 C:\Program Files\Mozilla Firefox 下、Linux 版則可能在
+         /home/&lt;user&gt;/firefox-installer/ 下）後重新安裝 Firefox 1.0.1，如此應可解決問題。</p>
+      <p class="important101text">為避免這類問題發生，以安裝程式安裝新版時，請不要將程式裝到舊 Zip 版本的同一目錄中。</p>
+
+      <p>以下是 Firefox 1.0.1 版的新鮮事：</p>
+
+      <ul class="news">
+        <li>提高穩定性。</li>
+        <li>International Domain Name（<a href="http://xn--fiq228c.tw/definition/definition_01.htm" title="中文.tw 域名標準">國際化域名</a>，IDN）現在都會以 <a href="http://xn--fiq228c.tw/faq/faq_01.htm#8" title="中文.tw FAQ 解釋篇">punycode</a> 顯示，若想讓 IDN 以 Unicode 顯示，請將「network.IDN_show_punycode」設定為 false。
+        </li>
+        <li>修復一些安全性問題：
+        <ul><li><a href="http://www.mozilla.org/security/announce/mfsa2005-29.html" class="high">MFSA 2005-29</a>
+    Internationalized Domain Name (IDN) homograph spoofing</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-28.html" class="critical">MFSA 2005-28</a>
+    Unsafe /tmp/plugtmp directory exploitable to erase user's files</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-27.html" class="critical">MFSA 2005-27</a>
+    Plugins can be used to load privileged content</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-26.html" class="high">MFSA 2005-26</a>
+    Cross-site scripting by dropping javascript: link on tab</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-25.html" class="moderate">MFSA 2005-25</a>
+
+    Image drag and drop executable spoofing</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-24.html" class="low">MFSA 2005-24</a>
+    HTTP auth prompt tab spoofing</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-23.html" class="low">MFSA 2005-23</a>
+    Download dialog source spoofing</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-22.html" class="low">MFSA 2005-22</a>
+    Download dialog spoofing using Content-Disposition header</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-21.html" class="critical">MFSA 2005-21</a>
+    Overwrite arbitrary files downloading .lnk twice</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-20.html" class="moderate">MFSA 2005-20</a>
+
+    XSLT can include stylesheets from arbitrary hosts</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-19.html" class="moderate">MFSA 2005-19</a>
+    Autocomplete data leak</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-18.html" class="low">MFSA 2005-18</a>
+    Memory overwrite in string library</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-17.html" class="low">MFSA 2005-17</a>
+    Install source spoofing with user:pass@host</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-16.html" class="moderate">MFSA 2005-16</a>
+    Spoofing download and security dialogs with overlapping windows</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-15.html" class="moderate">MFSA 2005-15</a>
+
+    Heap overflow possible in UTF8 to Unicode conversion</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-14.html" class="moderate">MFSA 2005-14</a>
+    SSL "secure site" indicator spoofing</li><li>
+
+    <a href="http://www.mozilla.org/security/announce/mfsa2005-13.html" class="low">MFSA 2005-13</a>
+    Window Injection Spoofing</li></ul>
+        </li>
+      </ul>
+      <h2><a name="new10">1.0 新鮮事</a></h2>
+      <p>以下是 Firefox 1.0 版的新鮮事：</p>
       <ul class="news">
         <li>更棒的分頁瀏覽控制方式
             <p>您現在可以決定要將其他程式開啟的網頁放到新分頁、直接替換現有分頁或開啟在新視窗中。</p>

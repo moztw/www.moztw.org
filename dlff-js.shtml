@@ -1,8 +1,9 @@
 <ul>
 <!--#include file='dlff-latest.shtml' -->
 <!-- <li><a href='/instlp'>安裝語言套件</a></li> -->
+<!-- <a href="/dlff-all">下載其它版本</a> -->
 </ul>
-<span class="other"><a href="/dlff-all">下載其它版本</a> <a href='http://pryan.org/firefox/jayfromtaiwan/blog'>非官方最佳化加速版</a></span>
+<span class="other"><a href="http://www.mozilla.org/products/firefox/all.html">其它語言版本</a> <a href='http://pryan.org/firefox/jayfromtaiwan/blog'>非官方加速版</a></span>
 <script type='text/javascript' src='/js/download.js'></script>
 <script type='text/javascript'>
 	<!--
