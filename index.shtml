@@ -47,13 +47,18 @@
 
   <!-- Start News Columns -->
 <div>
-    <div style='width: 30%; float: right;'>
-  <h2><a href="http://www.MozillaStore.com/">購買與贊助</a></h2>
+    <div style='width: 35%; float: right;'>
+
+  <h2><a href="/dls/nvu/nvu-0.50-win32-zhTW-installer.exe">NVU 0.5</a></h2>
+  <img src="images/product-front-nvu.png" alt="NVU" class="promo" width="50" height="50"></a>
+  NVU 是獨立的網頁設計工具，具有不輸一般商用軟體的可塑性。
+  <br/><br/>
+
+  <h2 ><a href="http://www.MozillaStore.com/">購買與贊助</a></h2>
     <a href="http://www.MozillaStore.com/"><img src="images/front-store.jpg" alt="Mozilla Store" class="promo" width="75" height="75"></a>
-	<p> 現在你可以買到
-	<a href="http://store.mozilla.org/products/software/"> Mozilla CD (軟體)</a> 
-	或 <a href="http://store.mozilla.org/products/clothing">其它週邊商品</a>，
-    只要利用 <a href="http://www.MozillaStore.com/">Mozilla 線上商店 (英文界面)</a>即可。</p>
+    <p> 現在你可以利用 <a href="http://www.MozillaStore.com/">Mozilla 線上商店 (英文界面)</a>
+    買到 <a href="http://store.mozilla.org/products/software/"> CD (軟體)</a> 
+    或 <a href="http://store.mozilla.org/products/clothing">其它週邊商品</a></p>
     </div>
     <div style='float: left; width: 63%;'>
     <a href="/xmlnews.rdf">

@@ -4,6 +4,8 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+	<li><div class="date"> 10 月 2 日 </div>
+	開放下載測試 <a href='/dls/nvu/nvu-0.41-win32-zhTW-installer.exe'> NVU 0.41 中文安裝檔(win32)</a>
 	<li><div class="date"> 10 月 1 日 </div>
 	提供 <a href='/mozilla'> Mozilla 1,8a4 中文安裝檔(win32, Linux)</a> 
 	與 <a href='/instlp'>語言套件</a>
