@@ -14,8 +14,10 @@ blockquote {margin: 1px; padding: 1px; margin-left: 2em;}
 It is designed to resolve issues introduced since Mozilla Firefox 1.0 branch, and
 a replacement for MozillaTranslator.
 <h3> The author and "Why a new tool?"</h3>
-<p> &nbsp; This is Hung-Te Lin, maintainer of Traditional Chinese Mozilla Localization
-and the famous "mozip" (a tool to make Win32 localized builds).<br/>
+<p> &nbsp; This is Hung-Te Lin, maintainer of 
+<a href='http://moztw.org/'>Traditional Chinese Mozilla Localization</a>
+and the famous <a href='http://moztw.org/tools/'> "mozip" </a>
+(a tool to make Win32 localized builds).<br/>
 <p>&nbsp; I have been using MozillaTranslator for years
 (whether the official builds or my own tweaked versions) since Mozilla M14
 (Milestone 14, not 1.4. The M series are older than Mozilla 0.6).
@@ -64,8 +66,8 @@ Get these files:
 	<li>Latest version: <a href='archive/mozlcdb_latest.zip'> 
 		<!--#flastmod file='archive/mozlcdb_latest.zip' --> </a> (hack on your own!)
 	<li>Releases: 
-	<li><a href='archive/mozlcdb_v0.2.zip'> Version 0.2 </a>(Stable)</li>
-	<li><a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a></li>
+	<li><a href='archive/mozlcdb_v0.2.zip'> Version 0.2 </a>(Stable, approved with FF1.0/TB0.8)</li>
+	<li><a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a>(a little buggy)</li>
 	</ul>
 </ul>
 <h3> Background Knowledge </h3>
@@ -344,6 +346,8 @@ Some commands are not explained in previous sections.<br/>
 <ul>
 	<li>-e can export whole keys in a database (used if your input table is broken).
 	<li>-U can update database with editing tables with less checking.
+	<li>-c can check database with some rules to help you find buggy phrases like
+	a typo of %s and %S or "&amp;nbsp;" without the trailing ';'.
 </ul>
 <h3> Usage: Tips </h3>
 <ul>
