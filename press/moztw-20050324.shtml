@@ -1,0 +1,22 @@
+<!--#set var="my_title" value="Mozilla 基金會推出 Firefox 1.0.2 中文更新" -->
+<!--#set var="page_class" value="deepLevel" -->
+<!--#include virtual="/header_a.shtml" -->
+<!--#include virtual="/header_b.shtml" -->
+<!-- 先翻譯好了，慢慢練習... -->
+<h1>Mozilla 基金會推出 Firefox 1.0.2 安全更新</h1>
+
+<p><em>Firefox 1.0.2 在問題擴大前搶先修復</em></p>
+
+<p>維護網路自由選擇、創新的非營利組織 Mozilla 基金會於今（三月二十四）日推出 Mozilla Firefox 瀏覽器中文版的安全性更新。此版本修復由資訊安全廠商 Internet Security Systems 找出的安全性問題。截至更新檔發佈為止，尚未傳出有任何惡意程式及網站利用此漏洞攻擊。中文版使用者可至正體中文網站 Mozilla Taiwan (http://moztw.org) 下載更新。</p>
+
+<p>Mozilla 基金會軟體工程總監 Chris Hofmann 表示，Mozilla 基金會承諾要盡最大努力提供使用者最安全的網路使用體驗，為此必須搶先修補潛在的問題。舉例來說，這一版所修補的漏洞，甚至尚未傳出任何被利用以攻擊的先例。Mozilla 基金會不斷追蹤、評估安全性風險，確保能適時發佈安全更新，並鼓勵所有使用者到網站下載更新版。</p>
+
+<p>Firefox 以其穩定、可靠的特質享譽國際，並有分頁瀏覽、即時書籤、內建廣告視窗阻擋等優秀功能。使用者亦可選用上百種擴充套件，自訂符合需求的瀏覽環境。目前 Firefox 有 28 種語言的版本可供選擇。</p>
+
+<h4>關於 Mozilla 基金會</h4>
+<p>Mozilla 基金會為一非營利組織，於 2003 年七月為維護網路自由選擇及創新而生。基金會總部位於美國加州，為 Mozilla 開放原始碼軟體專案提供組織、法律及財務上的支援。其他資訊請參考 www.mozilla.org。</p>
+
+<h4>關於 Mozilla Taiwan</h4>
+<p>Mozilla Taiwan (moztw.org) 為 Mozilla 正體中文化專案官方網站，於 2004 年九月正式開張，負責管理、維護 Mozilla 的正體中文語言套件及安裝檔。本站資源由中央研究院資訊科學研究所及自由軟體鑄造場提供，目前有軟體下載、技術文件與產品討論區等服務。其他資訊請參考 http://moztw.org/about 。</p>
+
+<!--#include virtual='/footer.shtml' -->

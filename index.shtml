@@ -25,7 +25,7 @@
   </script>
   <div id="feature-content">
     <h2><a href="/firefox/"><img src="images/t_firefox.gif" alt="Firefox" height="33" width="275"></a></h2>
-    <p>現在就下載 Firefox 中文版 － <a href="/firefox/">更快更好的瀏覽器</a>！Firefox 有數十種語言版本、跨 Windows、MacOS X 及 Linux 等各種平台。 <a href="http://ptech.wsj.com/archive/ptech-20041230.html">「Firefox 的安全性及超酷特色勝過 Microsoft 的 IE」</a> - Walt Mossberg, 華爾街日報
+    <p>現在就下載 Firefox 中文版 － <a href="/firefox/">更快更好的瀏覽器</a>！Firefox 有二十數種語言版本、跨 Windows、MacOS X 及 Linux 等各種平台。 <a href="http://ptech.wsj.com/archive/ptech-20041230.html">「Firefox 的安全性及超酷特色勝過 Microsoft 的 IE」</a> - Walt Mossberg, 華爾街日報
 </p>
     <div class="download">
 		<h3><a href="/firefox/"><strong class="downloadText">免費下載</strong></a></h3>
@@ -50,11 +50,12 @@
     
   </div>
   <div class="frontcolumnlast">
-  <h2><a href="http://www.MozillaStore.com/">購買與贊助</a></h2>
-    <a href="http://www.MozillaStore.com/"><img src="images/front-store.jpg" alt="Mozilla Store" class="promo" width="75" height="75"></a>
-    <p> 現在你可以利用 <a href="http://www.MozillaStore.com/">Mozilla 線上商店 (英文界面)</a>
-    買到 <a href="http://store.mozilla.org/products/software/"> CD (軟體)</a> 
-    或 <a href="http://store.mozilla.org/products/clothing">其它週邊商品</a></p>
+  <h2>快速捷徑</h2>
+    <ul class="news" style="margin-left: 10px;">
+    	<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
+    	<li><a href="http://wiki.moztw.org/index.php?title=Search_Plugins">新增 Firefox 搜尋工具</a></li>
+    	<li><a href="http://wiki.moztw.org/index.php?title=Documents">Wiki 文件專案</a></li>
+    </ul>
 
   </div>
   <br style="clear: both;">
