@@ -1,0 +1,18 @@
+<!--#include virtual='/header.shtml' -->
+<H1>下載 NVU </H1>
+注意，由於版權問題，這裡提供的是非官方的中文版。<br/>
+<div class='dlall'>
+<div><h3> 最新版本 </h3><ul>
+	<!--#include virtual='/dlnvu-latest.shtml' -->
+</ul>
+<br/>
+
+<div style='width: 30%;'>
+<h3> 0.45</h3><ul>
+	<li><a title="MD5: dbd3bb0b7e12e303c7cc77796c3833e2" href='/dls/nvu/nvu-0.41-win32-zhTW-installer.exe'>Windows</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+<!--#include virtual='/footer.shtml' -->

@@ -1,6 +1,6 @@
 <!--#include file='header.shtml' -->
 <H1>下載 Mozilla </H1>
-<div class='/dlall'>
+<div class='dlall'>
 <div><h3> 最新版本 </h3><ul>
 	<!--#include file='dlmoz-latest.shtml' -->
 </ul>

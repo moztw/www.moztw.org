@@ -4,6 +4,11 @@
 關於是否會再製作更新版的 Netscape，目前尚無定論。<br/>
 還是比較推薦使用 Mozilla 或 Firefox。<br/>
 <div class='dlall'>
+<div><h3> 最新版本 </h3><ul>
+	<!--#include virtual='/dlns-latest.shtml' -->
+</ul>
+<br/>
+<div style='width: 30%;'>
 <h3> 7.01 </h3><ul>
 <li><a name='dlwin' title="MD5: 5c420bf76037c1ec1db5d61874076e39" href='/dls/ns/netscape-7.01-win32-zhTW-installer.exe'>Windows</a></li>
 <li><a name='dllnx' title="MD5: 7e8a5023c646c362b4fb951825e4f75f" href='/dls/ns/netscape-7.01-i686-linux-zhTW-sea.tar.gz'>Linux</a></li>
@@ -19,6 +24,8 @@
 	<li><a name='dlwin' title="MD5: 6249e054b41278ea9104b5b12d61ce43" href='/dls/ns/netscape-6.2-zh-tw.exe'>Windows</a></li>
 </ul>
 
+</div>
+</div>
 </div>
 
 <!--#include file='footer.shtml' -->
