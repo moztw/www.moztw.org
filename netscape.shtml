@@ -11,6 +11,8 @@
 		<div id="product-side">
 			<div class="download">
 				<h3>馬上下載</h3>
+				[註：由於目前在測試中所以只有線上安裝檔，
+				在測試期結束後會提供完整離線安裝檔]
 				<!--#include file='dlns-js.shtml' -->
 			</div>
 		</div>
@@ -20,7 +22,7 @@
 		  <dl id="quotes">
 		  <h3>Netscape 非官方正體中文版</h3>
 		  <p><strong>Netscape</strong> 系列目前沒有
-		  Traditional Chinese 正體中文版的發行，所以 Mozilla
+		  Traditional Chinese 正體中文版的發行，所以臺灣 Mozilla
 		  中文化小組 (moztw.org) 為了推廣 Mozilla 與 Netscape
 		  特別製作了這邊的中文版。
 
