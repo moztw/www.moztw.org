@@ -4,18 +4,18 @@
 			<h2>Firefox: the browser, reloaded</h2>
 			<p>
 			<a href="http://www.oreillynet.com/pub/wlg/5588">世界上最棒的瀏覽器又向前邁進了。</a><b>全新</b> Firefox Preview Release（預覽版）是<a href="http://www.mozilla.org/products/firefox/shelf.html">數度獲獎</a>的 Mozilla 新生代瀏覽器， 提供你更快速、更安全、而且更有效率的網路生活。
-			<a href="/docs/ff/switch.html">現在就改用 Firefox</a>－Firefox 可以將您的「我的最愛」、設定及其他資訊全數匯入，您不會遺漏任何東西。
+			<a href="/docs/ff/switch">現在就改用 Firefox</a>－Firefox 可以將您的「我的最愛」、設定及其他資訊全數匯入，您不會遺漏任何東西。
 			</p>
 		</div>
 		<div id="product-side">
 			<div class="download">
 				<h3>馬上下載</h3>
 				<!--#include file='dlff-js.shtml' -->
-				<ul>
+				</div><ul>
 			<li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
 			<li><a class="ancilliaryLink" href="/relnotes/ff/0.10">版本資訊</a></li>
                         </ul>
-			</div>
+			
 		</div>
 	</div>
 	<div id="mainContent" class="right">
@@ -37,7 +37,7 @@
 		  <dd>在工具列中便已內建 Google 搜尋功能，此外還有眾多搜尋工具如「關鍵字」及新的「尋找工具列」等功能。在位址列輸入「dict [欲查詢單字]」便可查閱字典，而隨手輸入網頁上的文字，Firefox 便會將您帶往該處。</dd>
 	
 	      <dt>即時書籤</dt>
-	      <dd>整合 RSS，方便您訂閱最新頭條及網站更新訊息。<a href="/docs/ff/live-bookmarks.html">相關資訊</a></dd>
+	      <dd>整合 RSS，方便您訂閱最新頭條及網站更新訊息。<a href="/docs/ff/live-bookmarks">相關資訊</a></dd>
 	
 	      <dt>下載檔案無麻煩</dt>
 	      <dd>您下載的檔案可自動置於桌面上，容易尋找。減少問東問西的情形，讓下載更流暢快速。</dd>
@@ -69,7 +69,7 @@
         <li><a href="http://forums.mozillazine.org/index.php?c=4">Firefox 討論區(英)</a></li>
       </ul>	   
     
-	    <h3><a href='/relnotes/ff/0.9'>Firefox PR 新功能</a></h3>
+	    <h3>Firefox PR 新功能</h3>
       <ul class="compact">
         <li>即時書籤</li>
         <li>增強版隨打即找</li>
