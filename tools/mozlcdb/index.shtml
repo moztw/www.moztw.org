@@ -61,7 +61,9 @@ You  need these stuff:
 <h3> Download </h3>
 Get these files:
 <ul>
-	<li>Current version: <a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a> (still in beta)
+	<li>Latest version: <a href='archive/mozlcdb_latest.zip'> 
+		<!--#flastmod file='archive/mozlcdb_latest.zip' --> </a> (hack on your own!)
+	<li>Releases: <a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a> (still in beta)
 </ul>
 <h3> Background Knowledge </h3>
 <b>This section explains the basic idea about MozLCDB. It helps you to understand it more
@@ -339,7 +341,19 @@ Some commands are not explained in previous sections.<br/>
 <ul>
 	<li>-e can export whole keys in a database (used if your input table is broken).
 	<li>-U can update database with editing tables with less checking.
-</div>
+</ul>
+<h3> Usage: Tips </h3>
+<ul>
+	<li>This program is still under development. Please backup your database (mozlcdb.txt)
+	before doing any big changes, like -U or -i.
+	<li>Each time you have imported something, the 'current.txt' will be overwritten by
+	a new one. So before you do an import, make a copy of last edited 'current.txt'.
+	<li> If you find any file with all-new locales (the information was displayed when
+	you import/...etc), try to take a look at it. Maybe it's file just being renamed/moved.
+	You may edit database to change/duplicate a copy of that to avoid doing all stuff
+	again.
+	<li> A smarter rule of guessing new values is on plan.
+</ul>
 <h3> Epilogue </h3>
 <p>This program is still under development. I used it sucessfully to make a
 working language pack (well, the en-US.jar) for Mozilla Firefox 1.0PR,
@@ -353,4 +367,5 @@ You can also use mozilla-l10n mailing list.
 MozLCDB is licensed under <a href='http://www.mozilla.org/MPL/MPL-1.1.html'> MPL 1.1 </a>.
 This program and document is made by <a href="mailto:piaip@csie.ntu.edu.tw"> Hung-Te Lin</a>.
 Allrights reserved.
+</div>
 <!--#include virtual='/footer.shtml' -->
