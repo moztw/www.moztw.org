@@ -59,6 +59,20 @@ div#firefox-feature div.download{
 		width: 354px;
 }
 
+.article {
+  font-size: 16px;
+  line-height: 150%;
+}
+.article img {
+  margin: 0.5em;
+}
+.article img.r {
+  float: right;
+}
+.article img.l {
+  float: left;
+}
+
 /* fix up */
 a#featurelink { background: none;  }
 
