@@ -1,4 +1,4 @@
-<!--#include file="header.shtml" -->
+<!--#include virtual="/header.shtml" -->
 <div id="mBody">
  <div id="side" class="left">
   <ul id="nav">
@@ -87,4 +87,4 @@
  <!-- closes #mainContent-->
 </div>
 <!-- closes #mBody-->
-<!--#include file="footer.shtml" -->
+<!--#include virtual="/footer.shtml" -->

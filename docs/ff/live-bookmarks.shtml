@@ -1,4 +1,4 @@
-<!--#include file="header.shtml" -->
+<!--#include virtual="/header.shtml" -->
 <div id="mBody">
  <div id="mainContent" class="right">
   <h2>什麼是「即時書籤」（Live Bookmarks）？</h2>
@@ -30,4 +30,4 @@
 
   <p><i><a href="http://www.mozilla.org/products/firefox/live-bookmarks.html" title="本文出處">本文件原文</a>由 Mozilla Wordsmiths 團隊協助撰寫，<a href="http://forum.moztw.org/viewtopic.php?t=3025" title="翻譯文件張貼／討論處">中文版由 MilchFlasche 翻譯</a>、Bob Chao 編修。</i></p>
  </div>
- <!--#include file="footer.shtml" -->
+ <!--#include virtual="/footer.shtml" -->
