@@ -1,6 +1,8 @@
 <ul class="news">
+	<li><div class="date"> 10 月 26 日 </div>
+	mozilla.org 已開放中文 nightly（逐日測試）版下載，請到<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-0.9-l10n/">官方 FTP</a> 下載各平台版本進行測試。
 	<li><div class="date"> 10 月 16 日 </div>
-	開放下載 <a href='/dls/ff/firefox-1.0RC1.zh-TW.win32.installer.exe'> Firefox 1.0-RC1 中文搶鮮版</a>
+	開放下載 Firefox 1.0-RC1 中文搶鮮版 (Edit: 已停止下載)</a>
 	<li><div class="date"> 10 月 14 日 </div>
 	開放下載 <a href='/nvu/'> NVU 0.50 中文版(win32,Linux,及跨平台語言資源檔)</a>
 	<li><div class="date"> 10 月 10 日 </div>
