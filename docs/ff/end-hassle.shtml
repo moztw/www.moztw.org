@@ -1,0 +1,34 @@
+<!--#set var="my_title" value="Firefox - 拒絕麻煩，保護隱私" -->
+<!--#include virtual="/header.shtml" -->
+ <div id="mainContent" class="right">
+
+<h2>拒絕麻煩，保護隱私</h2>
+<p>您上網時的安全與感覺是 Firefox 最在乎的事情，於是 Firefox 中內建了許多減少麻煩及保護隱私的措施。這些措施除了能保護您的隱私與資料安全之外，如有必要也可以隨時解除。</p>
+
+<p>有些網站以鎖定右鍵選單的方式防止訪客下載圖片，但許多功能也因此無法使用。您可以在「工具＞選項」中「網頁」裡的「JavaScript」中決定網站是否有權鎖定選單。同樣地，您也可以在此處設定其他功能，讓討人厭的小把戲一一失效。</p>
+
+<p>Firefox 內建了極為強大的彈出視窗阻擋程式 (Popup-blocker)，當您前往某個有彈出視窗的網站時，Firefox 會提醒您已檔除此網站的彈出視窗。此時，您可自行決定是否開啟此彈出視窗。</p>
+
+<p>若您使用公用電腦，Firefox 可以提供您以單鍵刪除自己留下的資料（如 Cookies、快取資料等），避免您的資料外洩。</p>
+
+<h2>實際瞧瞧</h2>
+
+<p>使用公用電腦後，選擇「工具選項」中「個人隱私」一項，按下「全部刪除」便可清理自己的私人資料。</p>
+
+<p>
+<img alt="Firefox 保護隱私畫面" src="end-hassle.gif"
+ width="340" height="282"><br>
+單鍵刪除自己在公用電腦上的各項私人資料。</p>
+
+<h2>進階技巧</h2>
+<h3>您有相關技巧可以提供嗎？<a href="http://forum.moztw.org/viewtopic.php?p=12601">歡迎前往討論區</a>。</h3>
+</div>
+ <!-- closes #mainContent-->
+
+ <div id="side" class="right">
+  <ul id="nav">
+   <li><a href="/firefox">^回 Firefox 首頁</a></li>
+  </ul>
+  <h3><em><a href="http://forum.moztw.org/viewtopic.php?p=12601">本文件由 Bob Chao 撰寫</a>。</em></h3>
+</div>
+ <!--#include virtual="/footer.shtml" -->
