@@ -39,13 +39,16 @@ lpList = [
 // {{{
 	// Start Common Programs
 
-var msgManualInstall = "新版 Mozilla 只接受被認可的網站。\n所以請複製此鏈結後手動貼到網址列上安裝";
+var msgManualInstall = "新版 Mozilla 只接受被認可的網站。\n" +
+	"所以請複製此鏈結後手動貼到網址列上安裝，\n" +
+	"或是把 moztw.org 加入你信任的網域。";
+
     function genEntry(dispClass, lpi, faction) {
 	clp = lpList[lpi];
 	var BaseURL = "http://moztw.org/dls/lp/";
 	var url = BaseURL + "langzhtw-" + clp["fv"] + "-" + clp["date"] + ".xpi";
 	entry = "<a onClick='alert(msgManualInstall);' class='flat' href='" + url + "'> " +
-		clp["dv"] + " ( " + clp["s"] + "/" + clp["date"] + ")" +
+		clp["dv"] + " ( " + clp["s"] + "/" + clp["date"] + " )" +
 		"</a>";
 	return entry;
     }
