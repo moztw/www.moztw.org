@@ -45,7 +45,7 @@
 <ul ><li>深入內部<ul ><li> Mozilla 自 1.7 版起於檔案大小及效能方面有著顯著的提升：比起 Mozilla 1.6 來說，Mozilla 1.7 RC 1 的速度在啟動時快了 7%、在開啟視窗時快了 8%、在頁面讀取時快了 9%，並且降低了 5% 的檔案大小。</li>
 <li> 長久以來處理表格元素的 CSS 背景時有個問題，在此版中 (的標準模式裡) 已經被修復了。</li>
 <li> 使用 GSSAPI 以支援 的 Kerberos HTTP 認證，此讓 Unix-like 的平台 (包括 Linux 及 OS X) 皆能受惠。</li>
-<li> 使用 gnome-vfs 函式庫以支援「<a href="[smb://」URL smb://」URL]">smb://」URL</a> 協定 (此功能僅於 GTK2+XFT Linux 版上啟用)。</li>
+<li> 使用 gnome-vfs 函式庫以支援「smb://」URL 協定 (此功能僅於 GTK2+XFT Linux 版上啟用)。</li>
 <li> 支援伺服器以 multipart/x-mixed-replace 及 XMLHttpRequest<a href="http://noellab.net/ernest/tavi/edit/XMLHttpRequest">?</a> 所推送的 XML 文件檔。</li>
 <li> 現在當 Java applet 的 codebase 跨網域時，Liveconnect 可以運行無誤。</li>
 <li> 在 Mac 上已能顯示非常寬（多過 4095 像素）的影像。</li>
