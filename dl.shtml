@@ -2,22 +2,29 @@
 <div class="key-point">
 <ul class="productlist" title="下載列表">
 	<li>
-	<a href="/firefox"><img src="../../images/product-firefox.png" width="60" height="60" alt=""></a>
+	<a href="/firefox"><img src="/images/product-firefox.png" width="60" height="60" alt=""></a>
 	<h3><a href="/firefox" class="producttitle"><strong>Firefox</strong>: 重新體驗網路</a></h3>
 	Firefox 是多次獲獎的 Mozilla 新生代網頁瀏覽器。
 	</li>
 	<li>
-	<a href="thunderbird"><img src="../../images/product-thunderbird.png" width="60" height="60" alt=""></a>
+	<a href="thunderbird"><img src="/images/product-thunderbird.png" width="60" height="60" alt=""></a>
 	<h3><a href="/thunderbird" class="producttitle"><strong>Thunderbird</strong>: 改善你的信箱</a></h3>
 	Thunderbird 是 Mozilla 新生代的 email 程式。
 	使用 Thunderbird ，讓你發送信件更快、更安全，也更簡單。
 	</li>
 	<li>
-	<a href="/mozilla"><img src="../../images/product-mozilla.png" width="60" height="60" alt=""></a>
+	<a href="/mozilla"><img src="/images/product-mozilla.png" width="60" height="60" alt=""></a>
 	<h3><a href="/mozilla" class="producttitle"><strong>Mozilla: 完整的 Internet 方案</strong></a></h3>
 	為新時代設計的網路瀏覽器、進階的 e-mail 與 news 管理程式、
 	IRC 線上交談、與簡易的 HTML 編輯工具。
 	</li>
+	<li>
+	<a href="/netscape"><img src="/images/product-netscape.png" alt=""></a>
+	<h3><a href="/netscape" class="producttitle"><strong 
+	class='courier'>Netscape: moztw.org 非官方中文版</strong></a></h3>
+	由 moztw.org 特別提供的 Netscape 中文版
+	</li>
+</ul>
 </ul>
 </div>
 <h2>OSSF - OpenFoundry Mirror</h2>
@@ -30,11 +37,6 @@
 <ul class="productlist" title="安裝語言套件">
 	<li>
 	<h3><a href='/instlp'><b>安裝語言套件</b></a></h3>
-</ul>
-<h2>Netscape </h2>
-<ul class="productlist" title="下載 Netscape">
-	<li>
-	<h3><a href='/dlns'><b>下載 Netscape </b></a></h3>
 </ul>
 
 <h2>其它可下載資源</h2>

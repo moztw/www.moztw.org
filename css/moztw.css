@@ -81,6 +81,16 @@ div#firefox-feature div.download{
 	font-family: georgia,sans-serif;
 }
 
+.product-netscape {
+	background: url("/images/product-netscape-screen.png") no-repeat;
+}
+
+.courier {
+	/* this is for showing 'moztw.org' in header. */
+	font-family: courier, mono;
+}
+
+
 /* fix up */
 a#featurelink { background: none;  }
 #firefox-feature li a {

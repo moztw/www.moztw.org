@@ -2,7 +2,7 @@
 <!--#include file='dlmoz-latest.shtml' -->
 <li><a href='/instlp'>安裝語言套件</a></li>
 <li><a href='dlmoz-all'> 下載其它版本 </a></li>
-<li><a href='/relnotes/moz/1.7news'> 1.7 新鮮事 </a><li>
+<li><a href='/relnotes/moz/1.7news'> 1.7 新鮮事 </a></li>
 </ul>
 <script type='text/javascript' src='js/download.js'></script>
 <script type='text/javascript'>
