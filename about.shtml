@@ -9,11 +9,16 @@
 	這個網站管理、維護 Mozilla 的正體中文語言套件(Language
 	Pack)跟已本地化(Localized)的安裝檔，並提供下載及討論區， 目前由
 	<a href="mailto:piaip@csie.ntu.edu.tw?subject=moztw:">
-		林弘德 (piaip, Hung-Te Lin)</a>維護。
+		林弘德 (piaip, Hung-Te Lin)</a> 及 <a href="mailto:bobchao@ms1.url.com.tw?subject=moztw:">趙柏強 (Bob, Po-Chiang Chao)</a> 維護。
 	<fieldset>
-		<legend>聯絡資訊</legend>
+		<legend>林弘德 (piaip, Hung-Te Lin) 聯絡資訊</legend>
 		<b>WWW:</b>&nbsp;  <a href='http://ntu.csie.org/~piaip/'> http://ntu.csie.org/~piaip/ </a><br/>
 		<b>E-mail:</b>&nbsp; piaip at csie dot ntu dot edu dot tw
+	</fieldset>
+	<fieldset>
+		<legend>趙柏強 (Bob, Po-Chiang Chao) 聯絡資訊</legend>
+		<b>WWW:</b>&nbsp;  <a href='http://leolo.ath.cx/~bobchao/'> http://leolo.ath.cx/~bobchao/ </a><br/>
+		<b>E-mail:</b>&nbsp; bobchao at ms1 dot url dot com dot tw
 	</fieldset>
 	<p>
 	<h3>我有問題</h3>
