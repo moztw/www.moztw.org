@@ -56,7 +56,7 @@ our (%db,%sys);
 # version info
 my $progid = '$Id$';
 my $progdate = '$Date$';
-my $progver = '0.1';
+my $progver = '0.2';
 my $dbver = '0.1';
 
 %db = ();

@@ -63,7 +63,10 @@ Get these files:
 <ul>
 	<li>Latest version: <a href='archive/mozlcdb_latest.zip'> 
 		<!--#flastmod file='archive/mozlcdb_latest.zip' --> </a> (hack on your own!)
-	<li>Releases: <a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a> (still in beta)
+	<li>Releases: 
+	<li><a href='archive/mozlcdb_v0.2.zip'> Version 0.2 </a>(Stable)</li>
+	<li><a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a></li>
+	</ul>
 </ul>
 <h3> Background Knowledge </h3>
 <b>This section explains the basic idea about MozLCDB. It helps you to understand it more
