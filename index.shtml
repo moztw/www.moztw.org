@@ -8,7 +8,7 @@
 -->
 </style>
 <!--#include virtual="/header_b.shtml" -->
-<div class="key-point front-feature-cnet" id="firefox-feature">
+<div class="key-point front-feature-cnet" id="front-feature">
 <script type="text/javascript">
     <!--
     var classes = new Array("cnet", "wired", "nytimes", "nasa", "slate", "onion");
