@@ -1,3 +1,5 @@
+/* Bob: update to 1.10 */
+
 /* mozilla.org Base Styles
  * maintained by fantasai
  * (classes defined in the Markup Guide - http://mozilla.org/contribute/writing/markup )
@@ -47,16 +49,16 @@
 	dt {
 		font-weight: bold;
 	}
-	
+
 	dd {
 		margin: 0 0 1em 1em;
 	}
-	
+
 	li {
 		margin-top: 0.2em;
 		margin-bottom: 0.2em;
 	}
-	
+
 	sup {
 		font-size: 70%;
 	}
@@ -81,7 +83,7 @@
 	}
 
 /* General Structure */
-	
+
 	.subtitle {
 		font-style: italic;
 	}
@@ -102,12 +104,17 @@
 	div.section > h6 {
 		margin-left: -1.3%;
 	}
-	
+
+	.block {
+		display: block;
+		margin: 0.1em 1em;
+	}
+
 	.imgright {
 		float: right;
 		margin: 0 0 2em 2em;
 	}
-	
+
 	.first {
 		margin-top: 0; /* For IE not understanding first:child */
 	}
@@ -317,9 +324,13 @@
 	}
 
 /* Code */
+	code, pre {
+		/* override IE6 default */
+		font-size: 1em;
+	}
 
 	code {
-		white-space: pre;
+		white-space: nowrap;
 	}
 
 	pre.code {
@@ -438,6 +449,10 @@
 		padding: 0.2em;
 		border: 1px solid;
 	}
+	
+	table.data th:first-child {
+		text-align: right;
+	}
 
 /* Meta */
 
@@ -466,7 +481,7 @@
 	#side > h6:first-child {
 		margin-top: 0;
 	}
-	
+
 
 /* Specific to Products Pages */
 

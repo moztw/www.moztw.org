@@ -26,9 +26,14 @@
 		width: 23%;
 		margin-bottom: 1em;
 	}
-
-	#mainContent {
+	
+	#mainContentOuter { 
 		margin-left: 25%;
+	}
+	
+	#mainContent {
+		float: left;
+		width: 100%;
 	}
 	.nomenu #mainContent {
 		margin-left: 0;
