@@ -1,7 +1,7 @@
 <!--#include file="header.shtml" -->
 <div>
-	<h1 style='font-family: "Courier";'>關於本站 moztw.org </h1>
-	<p> moztw.org 是 <a href='http://www.mozilla.org'>Mozilla</a>  
+	<h1 style='font-family: "Courier";'>關於本站 www.moztw.org </h1>
+	<p> www.moztw.org 是 <a href='http://www.mozilla.org'>Mozilla</a>  
 	的正體中文網站。 Mozilla 是一套跨平台 免費開放源碼(Open
 	Source)的瀏覽器(Browser)， 任何人都可以自由下載使用，
 	而且有非常多先進的設計，更新也很迅速。
@@ -25,6 +25,12 @@
 		主要負責網站的維護及文件的編輯統整
 	</fieldset>
 	<p>
+	<h1 style='font-family: "Courier";'>關於 moztw.org </h1>
+	<p> 2004 年九月， moztw.org 開張了： 這是台灣專屬於 Mozilla 
+	相關資訊的網站，包括主要的 <a href='http://www.moztw.org'>WWW (下載與文件)</a>、
+	<a href='http://forum.moztw.org'>討論區</a>，還有其它各種服務。<br/>
+	關於它的定位與所能提供的資訊與服務，我們也還在規畫中，歡迎給予建議與指教！
+	<p>
 	<h3>我有問題</h3>
 	關於 Mozilla, Mozilla Firefox, Mozilla Thunderbird
 	使用上的問題請至 <a href='http://www.mozilla.org'>mozilla.org</a> 網站查詢, 
@@ -33,7 +39,7 @@
 	<h3>報告錯誤</h3>
 	程式上的錯誤或是建議請直接到 
 	<a href='http://bugzilla.mozilla.org/enter_bug.cgi'> Bugzilla </a> 提出。
-	我只處理中文語言套件相關 (翻譯或使用) 或是中文安裝版
+	這裡主要處理中文語言套件相關 (翻譯或使用) 或是中文安裝版
 	(請確定只發生在中文版而英文版不會發生) 的問題，謝謝。
 	<h3>關於此網路主機</h3>
 	<p> 為了提供更好的穩定性與更大的網路頻寬及空間，目前主機是由 
@@ -41,6 +47,7 @@
 	<a href="http://www.iis.sinica.edu.tw"> 資訊科學研究所(iis)</a>
 	<a href="http://www.openfoundry.org/"> 自由軟體鑄造場(OSSF)</a>
 	所提供。<br/>
+	<A href='/awstats'>流量與相關統計資料</A>。<br/>
 	也感謝台大資訊系到 2004/08 前的支援。
 	</p>
 
