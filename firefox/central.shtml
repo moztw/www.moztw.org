@@ -1,5 +1,12 @@
 <!--#set var="my_title" value="Mozilla Firefox - Firefox Central" -->
 <!--#include virtual="/header_a.shtml" -->
+<style type="text/css">
+<!--
+#ffcentral-desc {
+background: url("t-welcomefirefox.gif") no-repeat;
+}
+-->
+</style>
 <!--#include virtual="/header_b.shtml" -->
 	<div class="key-point" id="ffcentral">
 		<div id="ffcentral-desc">
@@ -18,7 +25,7 @@
 			<li>安裝<a href="http://update.mozilla.org/extensions/?application=firefox">擴充套件</a>，讓 Firefox 變的更好。</li>
 
 			<li>安裝<a href="http://update.mozilla.org/themes/?application=firefox">佈景主題</a>，讓 Firefox 煥然一新。</li>
-			<li><a href="http://moztw.org/firefox/1.0">版本資訊</a></li>
+			<li><a href="http://moztw.org/firefox/release">版本資訊</a></li>
 </ul>
 			</div>
 
