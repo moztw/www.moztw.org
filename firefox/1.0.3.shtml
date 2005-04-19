@@ -34,32 +34,32 @@
       <ul class="news">
         <li>* 修復一些安全性問題：
         <ul>
-        <li><a href="/security/announce/mfsa2005-33.html" class="moderate">MFSA 2005-33</a>
+        <li><a href="http://www.mozilla.org/security/announce/mfsa2005-33.html" class="moderate">MFSA 2005-33</a>
     Javascript "lambda" replace exposes memory contents</li>
 
-    <li><a href="/security/announce/mfsa2005-34.html" class="high">MFSA 2005-34</a>
+    <li><a href="http://www.mozilla.org/security/announce/mfsa2005-34.html" class="high">MFSA 2005-34</a>
     javascript: PLUGINSPAGE code execution</li>
 
-    <li><a href="/security/announce/mfsa2005-35.html" class="moderate">MFSA 2005-35</a>
+    <li><a href="http://www.mozilla.org/security/announce/mfsa2005-35.html" class="moderate">MFSA 2005-35</a>
     Showing blocked javascript: popup uses wrong privilege context</li>
 
-    <li><a href="/security/announce/mfsa2005-36.html" class="high">MFSA 2005-36</a>
+    <li><a href="http://www.mozilla.org/security/announce/mfsa2005-36.html" class="high">MFSA 2005-36</a>
     Cross-site scripting through global scope pollution</li>
 
-    <li><a href="/security/announce/mfsa2005-37.html" class="critical">MFSA 2005-37</a>
+    <li><a href="http://www.mozilla.org/security/announce/mfsa2005-37.html" class="critical">MFSA 2005-37</a>
 
     Code execution through javascript: favicons</li>
 
-    <li><a href="/security/announce/mfsa2005-38.html" class="moderate">MFSA 2005-38</a>
+    <li><a href="http://www.mozilla.org/security/announce/mfsa2005-38.html" class="moderate">MFSA 2005-38</a>
     Search plugin cross-site scripting</li>
 
-    <li><a href="/security/announce/mfsa2005-39.html" class="critical">MFSA 2005-39</a>
+    <li><a href="http://www.mozilla.org/security/announce/mfsa2005-39.html" class="critical">MFSA 2005-39</a>
     Arbitrary code execution from Firefox sidebar panel II</li>
 
-    <li><a href="/security/announce/mfsa2005-40.html" class="moderate">MFSA 2005-40</a>
+    <li><a href="http://www.mozilla.org/security/announce/mfsa2005-40.html" class="moderate">MFSA 2005-40</a>
     Missing Install object instance checks</li>
 
-    <li><a href="/security/announce/mfsa2005-41.html" class="critical">MFSA 2005-41</a>
+    <li><a href="http://www.mozilla.org/security/announce/mfsa2005-41.html" class="critical">MFSA 2005-41</a>
     Privilege escalation via DOM property overrides</li>
         </ul>
         </li>
