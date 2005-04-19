@@ -1,5 +1,5 @@
 /* Mozilla Taiwan special overriding */
-pre {
+pre, code {
 	font-family: "Lucida Console", "Courier New", "Courier", monospace;
 }
 
@@ -113,4 +113,14 @@ a#featurelink { background: none;  }
 
 .news .date {
 	width: 6em;
+}
+
+/* ¤¤¤åÁ×§K±×Åé¦r */
+em {
+	font-style: normal !important;
+	font-weight: bolder;
+}
+
+address {
+	font-style: normal !important;
 }

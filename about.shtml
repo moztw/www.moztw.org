@@ -17,7 +17,18 @@
 </li>
 <li><a title="聯絡資訊" href="#contact"><strong>聯絡資訊</strong></a></li>
 </ul>
-
+<form action="http://groups-beta.google.com/group/moztw-testing/boxsubscribe">
+<div style="border: 1px solid #e0e9e9; font-size: small; background-color: rgb(237, 242, 242); padding: 5px;">
+<strong>協助測試，訂閱中文版測試通知</strong><br/>
+<div style="border: 1px outset blue; padding: 3px 5px; background-color: #e0e9e9; position: relative;">
+Email:
+<p style="margin:0; margin-right: 4em; padding: 0;"><input type="text" name="email" style="width: 100%;"/></p>
+<input type="submit" name="sub" value="訂閱" style="width: 3.5em; position: absolute; right: .4em; top: 1.5em;" />
+</div>
+<p>訂閱後，在 moztw.org 中文軟體新版需要測試時便能獲得通知。特別需要 Mac OS X 的使用者幫忙喔！感謝您的協助。</p>
+<p style="font-size: xx-small; text-align: right; margin: 0;">powerd by Google Groups</p>
+</div>
+</form>
 </div>
 <hr class="hide">
 
@@ -90,7 +101,7 @@
 		<legend>趙柏強 (Bob, Po-Chiang Chao)</legend>
 		<b>WWW:</b>&nbsp;  <a href='http://leolo.ath.cx/~bobchao/'> http://leolo.ath.cx/~bobchao/ </a><br/>
 		<b>E-mail:</b>&nbsp; bobchao at ms1 dot url dot com dot tw<br/>
-		網站維護、文件編輯統整
+		新聞連絡、網站維護等
 	</fieldset>
 
 	</div>

@@ -5,8 +5,8 @@
 		<div id="product-desc" class="product-firefox">
 			<h2>Firefox: rediscover the web</h2>
 			<p>
-			您渴望的網路生活就在眼前：<strong>全新</strong> Firefox 1.0 是<a href="http://www.mozilla.org/products/firefox/shelf.html">數度獲獎</a>的新生代網頁瀏覽器， 提供你更快速、更安全、而且更有效率的瀏覽體驗，一定要試試！
-			</p><p><a href="/docs/ff/switch">現在就改用 Firefox</a>－Firefox 可以將您的「我的最愛」、設定及其他資訊全數匯入，您不會遺漏任何東西。
+			您渴望的網路生活就在眼前：Firefox 提供你更快速、更安全、更有效率的瀏覽體驗，一定要試試！
+			現在就<strong>與全球數千萬使用者一起<a href="/docs/ff/switch">改用 Firefox</a></strong> － Firefox 可以將您的「我的最愛」、設定及其他資訊全數匯入，您不會遺漏任何東西。
 			</p>
 		</div>
 		<div id="product-side">
@@ -48,7 +48,7 @@
 	      <dd>簡單又直覺的 Firefox 擁有符合您習慣的完整功能：除了書籤、瀏覽記錄、全螢幕等工具之外，還可以<a href="/docs/ff/text-zoom">自由縮放文字</a>，符合您閱讀上的需求。</dd>
 	
 	      <dt>放大縮小，隨心所欲</dt>
-	      <dd>Firefox 是世上最容易自訂的瀏覽器了！您可自訂工具列添加按鈕、可以安裝新的擴充套件來增加新功能、可以安裝符合個人風格的佈景主題、還可以自行挑選上百種搜尋引擎與瀏覽器介面整合，方便使用。Firefox 的功能該多或少、體態該大或小，由您決定。</dd>
+	      <dd>Firefox 是世上最容易自訂的瀏覽器了！您可自訂工具列添加按鈕、可以安裝新的擴充套件來增加新功能、可以安裝符合個人風格的<a href="/docs/ff/extension">佈景主題</a>、還可以自行挑選上百種搜尋引擎與瀏覽器介面整合，方便使用。Firefox 的功能該多或少、體態該大或小，由您決定。</dd>
 	
 	      <dt>超容易的裝配方式</dt>
 	      <dd>Firefox（的 Windows 版）僅僅 4.5 MB，以寬頻下載僅需數分鐘時間。安裝程式讓您迅速安裝 Firefox，而嶄新的移轉系統可將您的「我的最愛」、儲存密碼及其他各種設定資料從 Internet Explorer 或其他瀏覽器中匯入 Firefox，您立刻能在網路上四處遊玩。</dd>
@@ -63,6 +63,7 @@
     <div id="side" class="right">
       <h3>中文社群資源</h3>
     	<ul class="compact">
+    	<li><a href="http://wiki.moztw.org/index.php?title=FAQ:Firefox">常見問題解答</a></li>
     	<li><a href="/firefox/extension_top_15/">社群嚴選：年度最佳擴充套件</a></li>
         <li><a href="http://wiki.moztw.org/index.php?title=FireAnything">某瀏覽器功能，Firefox 有沒有？</a></li>
         <li><a href="/dlsrch">新增中文搜尋引擎</a></li>
