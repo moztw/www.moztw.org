@@ -44,7 +44,7 @@
     Code execution via javascript: IconURL</li>
         </ul>
         </li>
-        <li>* 修正 1.0.3 後某些網站會碰上的 DHTML 問題，如果您是網頁設計師可以參考<href="http://developer-test.mozilla.org/docs/Working_around_the_Firefox_1.0.3_DHTML_regression">相關資訊</a>。</li>
+        <li>* 修正 1.0.3 後某些網站會碰上的 DHTML 問題，如果您是網頁設計師可以參考<a href="http://developer-test.mozilla.org/docs/Working_around_the_Firefox_1.0.3_DHTML_regression">相關資訊</a>。</li>
       </ul>
       <p>* 英文資訊</p>
 
