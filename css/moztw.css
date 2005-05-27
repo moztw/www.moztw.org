@@ -1,6 +1,6 @@
 /* Mozilla Taiwan special overriding */
 pre, code {
-	font-family: "Lucida Console", "Courier New", "Courier", monospace;
+	font-family: "Lucida Console", ç´°æ˜é«”, "Courier New", Courier, monospace;
 }
 
 .dlall div {
@@ -115,12 +115,29 @@ a#featurelink { background: none;  }
 	width: 6em;
 }
 
-/* ¤¤¤åÁ×§K±×Åé¦r */
+/* ä¸­æ–‡å¼·èª¿æ–¹å¼ */
 em {
-	font-style: normal !important;
+	font-style: normal;
+	font-weight: bold;
+}
+
+strong.stronger {
+	font-style: normal;
 	font-weight: bolder;
 }
 
+strong.very-strong {
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: 1.1em;
+}
+
+/* å…¶ä»–æœ‰é—œæ–œé«”çš„ */
+
+pre.code .remark {
+	font-style: normal;
+}
+
 address {
-	font-style: normal !important;
+	font-style: normal;
 }
