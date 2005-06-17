@@ -319,7 +319,6 @@
 		margin-bottom: 0;
 		padding-bottom: 0;
 	}
-	.download .other { font-size: 85%; }
 	.other a:link, .other a:visited { color: #666; }
 	.download .other a:hover { color: #000; }
 	.download:before {
@@ -346,8 +345,12 @@
 		height: 8px;
 		background: transparent url("../../images/download_br.gif") scroll no-repeat bottom right ;
 	}
+	.configParent {
+		display: block;
+		font-size: 85%;
+	}
 	
-	.shop:before, .shopmoz:before {
+.shop:before, .shopmoz:before {
 		line-height: 0.1;
 		font-size: 1px;
 		margin: -15px -15px 0 -15px;

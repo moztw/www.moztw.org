@@ -70,16 +70,6 @@
 		font-weight: bold;
 	}
 
-	.deepLevel #mainContent :link img,
-	.deepLevel #mainContent :visited img {
-		border: medium solid;
-	}
-
-	.deepLevel #mainContent #buttons :link img,
-	.deepLevel #mainContent #buttons :visited img {
-		border: 0;
-	}
-
 /* General Structure */
 	
 	.subtitle {
@@ -88,6 +78,13 @@
 
 	div.para {
 		margin: 1em 0;
+	}
+
+	div.para > ul,
+	div.para > ol,
+	div.para > blockquote {
+		margin-top: 0.2em;
+		margin-bottom: 0.2em;
 	}
 
 	div.section {
@@ -123,6 +120,14 @@
 	:visited img {
 		border: 0;
 	}
+	.deepLevel #mainContent :link img,
+	.deepLevel #mainContent :visited img {
+		border: medium solid;
+	}
+	.deepLevel #mainContent #buttons :link img,
+	.deepLevel #mainContent #buttons :visited img {
+		border: 0;
+	}
 
 	.ex-ref {
 		font-style: italic;
@@ -154,9 +159,9 @@
 		margin: 0.7em 10%;
 		padding: .2em;
 		text-align: center;
+		list-style-type: none;
 	}
 	ul.snav > li {
-		list-style-type: none;
 		margin: 0;
 		padding: 0;
 	}
@@ -457,10 +462,15 @@
 	table.data td {
 		padding: 0.2em;
 		border: 1px solid;
+		vertical-align: baseline;
 	}
 
 	table.data tbody th:first-child {
 		text-align: right;
+	}
+
+	table.data thead th {
+		vertical-align: bottom;
 	}
 
 /* Meta */
