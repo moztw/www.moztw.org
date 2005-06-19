@@ -41,7 +41,7 @@
       <h2 id="downloadandinstall">下載與安裝</h2>
 
       <h3 id="requirements">系統需求</h3>
-      <p>在安裝 Firefox 前請先確定您的電腦合乎<a href="/docs/ff/system-requirements.shtml">系統需求</a>。</p>
+      <p>在安裝 Firefox 前請先確定您的電腦合乎<a href="/docs/ff/system-requirements">系統需求</a>。</p>
 
       <h3 id="download"><a name="download">下載 Firefox</a></h3>
       <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上多種語言版的 Firefox。欲下載最新的 Firefox，可到 <a href="http://getfirefox.com/">GetFirefox.com</a> 或瀏覽 <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/">FTP</a>。
@@ -240,9 +240,9 @@ cd /Applications/Firefox.app/Contents/MacOS/<br>
 
       <p>&nbsp;</p>         
       
-      <small>舊版本資訊：<a href="0.9">
+      <small>舊版本資訊：<a href="0.9.html">
 
-          0.9</a> | <a href="0.10">1.0 預覽版</a> | <a href="1.0">1.0-1.0.1</a> | <a href="1.0.2">1.0.2</a> | <a href="1.0.3">1.0.3</a></small>
+          0.9</a> | <a href="0.10.html">1.0 預覽版</a> | <a href="1.0.html">1.0-1.0.1</a> | <a href="1.0.2.html">1.0.2</a> | <a href="1.0.3.html">1.0.3</a></small>
 </div>
 
     <div id="side" class="right">

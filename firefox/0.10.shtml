@@ -87,7 +87,7 @@
   <p>詳情請見<a href="http://www.squarefree.com/burningedge/bigger-picture.html">The
     Burning Edge's Bigger Picture</a>。</p>
     <h2 id="requirements">系統需求</h2>
-    <p>在安裝 Firefox 前請先確定您的電腦合乎<a href="/docs/ff/system-requirements.shtml"><!--/products/firefox/system-requirements.html-->系統需求</a>。</p>
+    <p>在安裝 Firefox 前請先確定您的電腦合乎<a href="/docs/ff/system-requirements"><!--/products/firefox/system-requirements.html-->系統需求</a>。</p>
     <h2 id="download"><a name="download" id="download">下載 Firefox</a></h2>
 
     <p>mozilla.org 提供了 Windows、Linux 及 Mac OS X 版的 Firefox。</p>
