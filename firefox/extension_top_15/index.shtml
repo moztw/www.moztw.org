@@ -1,6 +1,10 @@
 <!--#include virtual="/inc/meta.html" -->
 <title>Firefox 擴充套件 Top 15</title>
-<link href="extensiontop15.css" type="text/css" rel="stylesheet" />
+<style type='text/css'>
+    <!--
+    @import url(extensiontop15.css);
+    -->
+</style>
 <link title="隱藏套件說明" href="hidden-description.css" type="text/css" rel="alternate stylesheet" />
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
@@ -15,7 +19,9 @@ var dupArray=new Array(
 	["Download Status Bar","Download Status Bar 中文修改版"],
 	["Web Developer","Web Developer 中文修改版"],
 	["All-in-One Gestures Extension","All-in-One Gestures Extension 中文修改版"]
-	); //相衝套件 name, 這個可以設定多組, 應該要讓 Script 自己去 assign event handler 給每個 input 比較有效率, 以後再說吧
+	); 
+// 相衝套件 name, 這個可以設定多組, 應該要讓 Script 自己去 
+// assign event handler 給每個 input 比較有效率, 以後再說吧
 
 // 第一個參數：要比對的 dupArray 群組
 // 第二個參數：目前的 input name
@@ -80,7 +86,7 @@ function hidden_descript(obj) {
 
 <div class="download">
 				<h3>下載 Firefox 中文版</h3>
-		<!--#include virtual="/dlff-js.shtml" -->
+		<!--#include virtual="/inc/dlff.html" -->
 	</div><ul>
 			<li><a class="ancilliaryLink" href="/firefox/">Firefox 中文版介紹</a></li>
 			<li><a class="ancilliaryLink" href="http://forum.moztw.org/viewforum.php?f=11">Mozilla Taiwan 擴充套件討論區</a></li>

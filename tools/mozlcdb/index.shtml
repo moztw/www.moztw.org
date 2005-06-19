@@ -2,9 +2,11 @@
 <!--#include virtual="/inc/title.html" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
+
 <style type='text/css'>
 <!--
-code { display: block; background: black; color: white; padding: 5px; margin: 3px; }
+code { white-space: pre; display: block; background: black; color: white; padding: 5px; margin: 3px; }
+pre { white-space: pre; display: block; background: black; color: white; padding: 5px; margin: 3px; }
 b { color: blue; }
 u { color: green; }
 blockquote {margin: 1px; padding: 1px; margin-left: 2em;}
@@ -161,7 +163,7 @@ which will not check for keys.
 <h3> Usage: Syntax Overview </h3>
 <ul><li>
 Run 'mozlcdb.pl -h' to see its syntax:
-<code>usage: mozlcdb.pl [-uUixXen] [PATH] ...
+<pre>usage: mozlcdb.pl [-uUixXen] [PATH] ...
 
 [-u]   : (default) update editing table (current.txt) to database
 -U [files...]: import/update from editing table
@@ -173,7 +175,7 @@ Run 'mozlcdb.pl -h' to see its syntax:
 -c     : check database
 -r aa-BB DispName: update "contents.rdf" locale entries
          from en-US to aa-BB with DispName
-</code>
+</pre>
 </ul>
 
 <h3> Usage: Import from MozillaTranslator </h3>
@@ -186,9 +188,9 @@ to make another perl version.<br/>
 	<li> First, unzip your glossary.zip which is in same directory of
 	MozillaTranslator.  You will find a "glossary.txt". Then run
 	<b>mt2mldb.py</b> which is included in the program archive in same
-	directory. <code>python&nbsp;mt2mldb.py</code>
+	directory. <pre>python&nbsp;mt2mldb.py</pre>
 	<li>If no errors occurs, You will see a "mldb.out".
-	<li>Run the main program: <code>perl&nbsp;mozlcdb.pl&nbsp;-U&nbsp;mldb.out</code>
+	<li>Run the main program: <pre>perl&nbsp;mozlcdb.pl&nbsp;-U&nbsp;mldb.out</pre>
 	Usually you'll get some warnings about "Not sync". Don't worry about that.
 	<li>If you have a "<b>mozlcdb.txt</b>" which is not 0 bytes in your
 	directory now, congradulations, you have successfully imported MT glossary.
@@ -207,7 +209,7 @@ its matching version of en-US package or importing may be useless.</b><br/>
 	BB/ and US/ to aa-BB/ and en-US/
 	<li>Move directories so that you can see en-US/ and aa-BB/ and your 
 	<b> mozlcdb.pl</b> in <b>same</b> directory.
-	<li><code>perl mozlcdb.pl -n en-US aa-BB</code>
+	<li><pre>perl mozlcdb.pl -n en-US aa-BB</pre>
 	<li>If it stopped and giving you errors, try to identify what file stopped it.
 	Try to resolve on your own if you know perl (feedback welcome), or mail me.
 	<li>If you have a "<b>mozlcdb.txt</b>" which is not 0 bytes in your
@@ -224,8 +226,8 @@ because you can rollback if anything goes wrong.
 	If you have CVS pulled as 'mozilla/toolkit/locales' and 'mozilla/browser/locales' in
 	your current directory, please use ROOT as 
 	"<u>mozilla/toolkit/locales/en-US/chrome mozilla/browser/locales/en-US/chrome</u>".
-	<li>Run this command: <code> perl mozlcdb.pl -i ROOT</code>
-	Example: <code> perl&nbsp;mozlcdb.pl&nbsp;-i&nbsp;mozilla/toolkit/locales/en-US/chrome&nbsp;mozilla/browser/locales/en-US/chrome</code>
+	<li>Run this command: <pre> perl mozlcdb.pl -i ROOT</pre>
+	Example: <pre> perl&nbsp;mozlcdb.pl&nbsp;-i&nbsp;mozilla/toolkit/locales/en-US/chrome&nbsp;mozilla/browser/locales/en-US/chrome</pre>
 	<li>You should see a 'current.txt' generated now.
 </ul>
 
@@ -236,8 +238,8 @@ because you can rollback if anything goes wrong.
 	<li> Extract en-US.jar (and en-[win|unix|mac].jar, US.jar if you have them) to some place
 	<li> Now make sure what's your ROOT. Look at the previous section of 'Background Knowledge'.
 	If you are working with Firefox 1.0PR, you'll see a directory named 'locale'. That's the ROOT.
-	<li>Run this command: <code> perl mozlcdb.pl -i ROOT</code>
-	Example: <code> perl&nbsp;mozlcdb.pl&nbsp;-i&nbsp;locale</code>
+	<li>Run this command: <pre> perl mozlcdb.pl -i ROOT</pre>
+	Example: <pre> perl&nbsp;mozlcdb.pl&nbsp;-i&nbsp;locale</pre>
 	<li>You should see a 'current.txt' generated now.
 </ul>
 <h3> Usage: Working with input(editing) table</h3>
@@ -245,13 +247,13 @@ The input(editing) table is named '<b>current.txt</b>'. You should see it after 
 imported something (except importing from MozillaTranslator or already localized language pack).
 <br/>
 The format is very simple. Take this for example:
-<ul><li><code><font color="#00ffff">;comment</font>
+<ul><li><pre><font color="#00ffff">;comment</font>
 <font color="#ff6060">[browser/aboutDialog.dtd]</font>
 
 <font color="#00ff00">id=</font>aboutVersion
 <font color="#00ff00">en=</font>version
 <font color="#00ff00">tr=</font>PUT YOUR LOCALIZED STRING HERE.
-</code>
+</pre>
 <li>All lines stared with '<b>;</b>' are comments.
 <li><b>[ ]</b> marks the chrome node. i.e., the file path after ROOT. DO NOT CHANGE THIS.
 <li><b>id=</b> means the 'key' in file. DO NOT CHANGE THIS.
@@ -267,7 +269,7 @@ Keep in mind that you should use UTF-8 file encoding.
 <h3> Usage: Update database with an input table</h3>
 When you finished editing, you have to update database.
 This is the default action if you give no arguments to MozLCDB.
-<ul><li><code>perl mozlcdb.pl<br/><b style='color: cyan;'>(or)</b> perl mozlcdb.pl -u</code>
+<ul><li><pre>perl mozlcdb.pl<br/><b style='color: cyan;'>(or)</b> perl mozlcdb.pl -u</pre>
 </ul>
 <h3> Usage: Export database to CVS </h3>
 Before you export, you have to request for CVS account. Although you may already checked in
@@ -276,24 +278,24 @@ the section of 'Background Knowledge' for 'The procedure of Export'. You have to
 original dtd and properties files from en-US.
 <ul>
 	<li>Prepare a directory of original files. You may just copy from original 
-	en-US directory, like<code>cp -R mozilla/toolkit/locales/en-US/chrome aa-BB-toolkit
-cp -R mozilla/browser/locales/en-US/chrome aa-BB-browser</code>
+	en-US directory, like<pre>cp -R mozilla/toolkit/locales/en-US/chrome aa-BB-toolkit<br/>
+cp -R mozilla/browser/locales/en-US/chrome aa-BB-browser</pre>
 	The commands (UNIX only) above will generate ROOT of "<b>aa-BB-toolkit aa-BB-browser</b>".<Br/>
 	If you use Windows, you can use Explorer to copy.<br/>
 	<blockquote style='color: #666; background: #eee;'>
 	For me, I'd like to copy original files into aa-BB CVS directory:
 	(the aa-BB is exactly the CVS directory of locale aa-BB in the example, and
 	the commands are witten with bash. You have to modify it to fit your own environment.)
-<code style='background: #888; color: aaa;'>find aa-BB -name "*.dtd" -delete; find aa-BB -name "*.properties" -delete;
-for X in `find en-US -name "*.dtd"` ; do cp $X ${X/en-US/aa-BB} ; cvs add ${X/en-US/aa-BB}; done </code>
+<pre style='background: #888; color: aaa;'>find aa-BB -name "*.dtd" -delete; find aa-BB -name "*.properties" -delete;
+for X in `find en-US -name "*.dtd"` ; do cp $X ${X/en-US/aa-BB} ; cvs add ${X/en-US/aa-BB}; done </pre>
 	</blockquote>
-	<li>Run the export command. <code>perl mozlcdb.pl -x ROOT</code>For example:
-	<code>perl mozlcdb.pl -x aa-BB-toolkit aa-BB-browser</code>
+	<li>Run the export command. <pre>perl mozlcdb.pl -x ROOT</pre>For example:
+	<pre>perl mozlcdb.pl -x aa-BB-toolkit aa-BB-browser</pre>
 	<li>After your first export, you may try (see the next subsection)the exported stuff.
 	Then you can modify the input table and 'update' database again.
 	And for the second time you want to 'export', things get easier.
 	You don't have to prepare directory again. just use same ROOT and change -x to -X:
-	<code>perl mozlcdb.pl -X ROOT</code>
+	<pre>perl mozlcdb.pl -X ROOT</pre>
 	<li> Finally, after you get a stable version, pleas make sure you have all *.dtd and
 	*.properties added into CVS. And CVS commit!
 </ul>
@@ -321,17 +323,17 @@ here's how to make it work:
 	<li>Prepare a directory of original files. 
 	You may extract from en-US.jar, and mostly you will have a directory named 'locale'.
 	Now identify your ROOT. In the case above, it is just 'locale'.
-	<li>Export with: <code>perl mozlcdb.pl -x ROOT </code>
-	For example, <code>perl mozlcdb.pl -x locale </code>
+	<li>Export with: <pre>perl mozlcdb.pl -x ROOT </pre>
+	For example, <pre>perl mozlcdb.pl -x locale </pre>
 
 	<li>If you are building a jar with new locale instead of replacing en-US, use
-	<code>perl mozlcdb.perl -r aa-BB "Language Name" ROOT</code>
+	<pre>perl mozlcdb.perl -r aa-BB "Language Name" ROOT</pre>
 	which will update all the 'contents.rdf' in ROOT. However, using a new locale
 	name will require a mechanism of locale switching.
 	<li> Package your ROOT to a jar(ZIP) just like the layout of en-US.jar. <br/>
 	For Windows, use your favorite archiver (WinRAR, or WinZIP, ... etc)<br/>
 	For UNIX:
-	<code>zip -r0 en-US.jar locale</code>
+	<pre>zip -r0 en-US.jar locale</pre>
 	<li>Now move the newly created jar to where your Firefox's en-US.jar is,
 	replace it, and restart Firefox! You should be able to see your results,
         a localized Firefox now.
@@ -339,7 +341,7 @@ here's how to make it work:
 	Then you can modify the input table and 'update' database again.
 	And for the second time you want to 'export', things get easier.
 	You don't have to prepare directory again. just use same ROOT and change -x to -X:
-	<code>perl mozlcdb.pl -X ROOT</code>
+	<pre>perl mozlcdb.pl -X ROOT</pre>
 	<li>If you want to create language pack or localized builds (again, this is NOT EASY
 	and NOT SUGGESTED if you want to release files in this way. 
 	You should use CVS and let mozilla.org do this work. 

@@ -1,0 +1,37 @@
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
+<div id='mainContent' class='right'>
+	<h2> 進階文件與開發者資訊 </h2>
+
+	<h3> Gecko 技術文件與網頁製作 </h3>
+	<ul>
+		<li><a href='/docs/gecko/webdevfaq'>有關網頁設計的常見問題</a>
+		<li><a href='/docs/gecko/aboutdom'>關於文件物件模型(DOM)</a>
+	</ul>
+	<h3> 翻譯/本地化(Localization)用技術性資源</h3>
+	<ul>
+		<li><A href='/tools/mozlcdb/'>MozLCDB: 為全方位 Mozilla Product 設計的翻譯工具</a>
+		<li><a href='/docs/glossaries'>詞彙表</a>
+		<li><a href='/tools'>軟體工具</a>
+	</ul>
+	<h3> 舊文件 </h3>
+	<ul>
+		<li><a href='/docs/loctech/localized_build.txt'> 製作 Mozilla Localized builds </a>
+		<li><a href='/docs/loctech/mt4tut'> Mozilla Translator 4.36 Tutorial </a>
+		<li><a href='/docs/expired/gecko.html'>Gecko Engine</a>
+		<li><a href='/docs/expired/tip.html'>Tips 小技巧</a>
+		<li><a href='/docs/expired/whymoz.html'>Why mozilla</a>
+		<li><a href='/docs/expired/reimportbookmark.html'> Reimport Bookmarks </a>
+		<li><a href='/docs/ns/activation'>Netscape Activation</a>
+	</ul>
+</div>
+<div id="side" class="right">
+	<ul id="nav">
+		<li><a href="/">^回 MozTW.org 首頁</a></li>
+		<li><a href="/docs">入門與推廣文件</a></li>
+		<li><a href="/docs/dev">進階文件與開發者資訊</a></li>
+	</ul>
+</div>
+<!--#include virtual="/inc/footer.html" -->

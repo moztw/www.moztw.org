@@ -2,86 +2,87 @@
 <!--#include virtual="/inc/title.html" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
-	<div class="key-point">
-		<div id="product-desc" class="product-thunderbird">
-			<h2>Thunderbird: reclaim your inbox.</h2>
-			<p>
-			Thunderbird 
-			是 Mozilla 新生代的郵件管理程式。
-			使用 Thunderbird 可以幫助你快速而安全的處理郵件，操作非常簡單，
-			還內建了最先進的智慧型廣告信自動偵測引擎、拼字檢查工具、......
-			</p>
-		</div>
-		<div id="product-side">
-			<div class="download">
-				<h3>馬上下載</h3>
-				<!--#include virtual='/dltb-js.shtml' -->
-			</div>
-		</div>
-	</div>
-	<div id="mainContent" class="right">
-	      <h3>使用 Thunderbird 的理由</h3>
-		  <p>Thunderbird 設計的目標是全面提昇效能，
-		  所以它可以幫助你輕易的完成工作，
-		  不用被討厭的廣告與垃圾信騷擾。
-		  改用 Thunderbird 可以讓使用 E-Mail 
-		  的過程既有效又方便。</p>
-		  
-			<dl id="quotes">
-			 <dt>&#147;<a href="http://www.pcworld.com">This surprisingly full-featured 
-                open-source program is a snap to use...</a>&#148;</dt>
-            <dd>
-              <em>- PC World</em></dd>
-            <dt>&#147;<a href="http://www.linuxmagazine.com/">...a killer app for users who 
-                deal with massive amounts of email</a>&#148;</dt>
-            <dd>
-              <em>- Linux Magazine</em></dd>
-			</dl> 
-		  
-		  <dl id="features">
-	
-	      <dt>跟廣告信說「不」的好方法</dt>
-		  <dd>
-		  Thunderbird 提供了最有效的方式來偵測垃圾信。
-		  它會自動分析你的郵件，並判斷哪些是廣告。
-		  你可以設定自動刪除這些垃圾信，或是放到某個信件夾再慢慢檢視。
-	      </dd>
-	      
-	      <dt>照你的習慣讀取郵件</dt>
-		  <dd>
-		  照你喜歡的方式讀 email。
-		  Thunderbird 提供了新式的三欄畫面，同時也可以自訂工具列、
-		  變更佈景主題，或快速排序你的信件。
-	      </dd>
-	      
-	      <dt>安全又迅速</dt>
-		  <dd>Thunderbird 提供企業或政府級的安全需求如
-		  S/MIME、數位簽章、郵件編碼，支援憑證與安全裝置。
-		  </dd>
-	
-	      <dt>完整而豐富的功能</dt>
-		  <dd>Thunderbird 提供 IMAP/POP 的支援，
-		  還有 HTML 郵件、標籤、快速搜尋、
-		  自動通訊錄、回函通知、郵件分析引擎、
-		  LDAP 位址補完、 匯入工具、強大的搜尋工具，
-		  還可以管理多重 email 或 News 的帳號。</dd>
-	     
-	     <dt>無窮的擴充</dt>
-		 <dd>Thunderbird 可以用加裝「擴充套件」的方式來加強功能。
-		 安裝這些套件後，你可以打造出符合自己需求的環境。
-	     </dd>
-		</dl>
-	</div>
-    <div id="side" class="right">
-      <h3>資源與鏈結</h3>
-      <ul class="compact">
-        <li><a href="http://update.mozilla.org/extensions/?application=thunderbird">取得擴充套件</a></li>
-        <li><a href="http://update.mozilla.org/themes/?application=thunderbird">取得佈景主題</a></li>
-        <li><a href="http://www.mozilla.org/products/thunderbird/buttons.html">推廣用按鈕圖</a></li>
-        <li><a href="http://www.mozillazine.org/">MozillaZine (英)</a></li>
-        <li><a href="http://texturizer.net/thunderbird/faq.html">FAQ (英)</a></li>
-        <li><a href="http://texturizer.net/thunderbird/">Thunderbird Help (英)</a></li>
-      </ul>
+
+<div class="key-point">
+    <div id="product-desc" class="product-thunderbird">
+	<h2>Thunderbird: reclaim your inbox.</h2>
+	<p>
+	Thunderbird 
+	是 Mozilla 新生代的郵件管理程式。
+	使用 Thunderbird 可以幫助你快速而安全的處理郵件，操作非常簡單，
+	還內建了最先進的智慧型廣告信自動偵測引擎、拼字檢查工具、......
+	</p>
     </div>
+    <div id="product-side">
+	<div class="download">
+	    <h3>馬上下載</h3>
+	    <!--#include virtual="/inc/dltb.html" -->
+	</div>
+    </div>
+</div>
+<div id="mainContent" class="right">
+    <h3>使用 Thunderbird 的理由</h3>
+    <p>Thunderbird 設計的目標是全面提昇效能，
+    所以它可以幫助你輕易的完成工作，
+    不用被討厭的廣告與垃圾信騷擾。
+    改用 Thunderbird 可以讓使用 E-Mail 
+    的過程既有效又方便。</p>
+
+    <dl id="quotes">
+	<dt>&#147;<a href="http://www.pcworld.com">This surprisingly full-featured 
+	    open-source program is a snap to use...</a>&#148;</dt>
+	<dd>
+	<em>- PC World</em></dd>
+	<dt>&#147;<a href="http://www.linuxmagazine.com/">...a killer app for users who 
+	    deal with massive amounts of email</a>&#148;</dt>
+	<dd>
+	<em>- Linux Magazine</em></dd>
+    </dl> 
+
+    <dl id="features">
+
+	<dt>跟廣告信說「不」的好方法</dt>
+	<dd>
+	Thunderbird 提供了最有效的方式來偵測垃圾信。
+	它會自動分析你的郵件，並判斷哪些是廣告。
+	你可以設定自動刪除這些垃圾信，或是放到某個信件夾再慢慢檢視。
+	</dd>
+
+	<dt>照你的習慣讀取郵件</dt>
+	<dd>
+	照你喜歡的方式讀 email。
+	Thunderbird 提供了新式的三欄畫面，同時也可以自訂工具列、
+	變更佈景主題，或快速排序你的信件。
+	</dd>
+
+	<dt>安全又迅速</dt>
+	<dd>Thunderbird 提供企業或政府級的安全需求如
+	S/MIME、數位簽章、郵件編碼，支援憑證與安全裝置。
+	</dd>
+
+	<dt>完整而豐富的功能</dt>
+	<dd>Thunderbird 提供 IMAP/POP 的支援，
+	還有 HTML 郵件、標籤、快速搜尋、
+	自動通訊錄、回函通知、郵件分析引擎、
+	LDAP 位址補完、 匯入工具、強大的搜尋工具，
+	還可以管理多重 email 或 News 的帳號。</dd>
+
+	<dt>無窮的擴充</dt>
+	<dd>Thunderbird 可以用加裝「擴充套件」的方式來加強功能。
+	安裝這些套件後，你可以打造出符合自己需求的環境。
+	</dd>
+    </dl>
+</div>
+<div id="side" class="right">
+    <h3>資源與鏈結</h3>
+    <ul class="compact">
+	<li><a href="http://update.mozilla.org/extensions/?application=thunderbird">取得擴充套件</a></li>
+	<li><a href="http://update.mozilla.org/themes/?application=thunderbird">取得佈景主題</a></li>
+	<li><a href="http://www.mozilla.org/products/thunderbird/buttons.html">推廣用按鈕圖</a></li>
+	<li><a href="http://www.mozillazine.org/">MozillaZine (英)</a></li>
+	<li><a href="http://texturizer.net/thunderbird/faq.html">FAQ (英)</a></li>
+	<li><a href="http://texturizer.net/thunderbird/">Thunderbird Help (英)</a></li>
+    </ul>
+</div>
 
 <!--#include virtual="/inc/footer.html" -->

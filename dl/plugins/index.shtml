@@ -1,5 +1,8 @@
 <!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
+<style type='text/css'>
+    .dlAll { display: none; }
+</style>
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 

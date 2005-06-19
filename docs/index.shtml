@@ -7,26 +7,26 @@
 	<h1> 入門與推廣文件 </h1>
 	<h3> 一般操作、設定技巧 </h3>
 	<ul>
-		<li><a href='docs/usage/uifont'>設定操作界面(選單、狀態列)的字型大小</a>
-		<li><a href='docs/moz/getstarted'> 開始使用 Mozilla </a>
-		<li><a href='docs/ff/errNoXblBinding'>解決「No XBL Binding 錯誤」</a>
+		<li><a href='/docs/usage/uifont'>設定操作界面(選單、狀態列)的字型大小</a>
+		<li><a href='/docs/moz/getstarted'> 開始使用 Mozilla </a>
+		<li><a href='/docs/ff/errNoXblBinding'>解決「No XBL Binding 錯誤」</a>
 	</ul>
 	<h3> Firefox 專屬文件 </h3>
 	<ul>
-		<li><a href='docs/ff/errNoXblBinding'>解決「No XBL Binding 錯誤」</a></li>
-		<li><a href='docs/ff/roadmap1.0'>Firefox 1.0 開發準則</a></li>
+		<li><a href='/docs/ff/errNoXblBinding'>解決「No XBL Binding 錯誤」</a></li>
+		<li><a href='/docs/ff/roadmap1.0'>Firefox 1.0 開發準則</a></li>
 		<li>功能介紹
 			<ul>
-			<li><a href='docs/ff/tabbed-browsing'>分頁瀏覽</a></li>
-			<li><a href='docs/ff/search'>便利搜尋</a></li>
-			<li><a href='docs/ff/live-bookmarks'>即時書籤</a></li>
+			<li><a href='/docs/ff/tabbed-browsing'>分頁瀏覽</a></li>
+			<li><a href='/docs/ff/search'>便利搜尋</a></li>
+			<li><a href='/docs/ff/live-bookmarks'>即時書籤</a></li>
 			<li><a href="/docs/ff/text-zoom">縮放文字</a></li>
 			<li><a href="/docs/ff/ui-customize">自訂介面</a></li>
 			<li><a href="/docs/ff/end-hassle">拒絕麻煩，保護隱私</a></li>
         		<li><a href="/docs/ff/extension">擴充套件及佈景主題</a></li>
         		</ul>
         	</li>
-        	<li><a href='docs/ff/switch'>從 Internet Explorer 改用 Mozilla Firefox</a></li>
+        	<li><a href='/docs/ff/switch'>從 Internet Explorer 改用 Mozilla Firefox</a></li>
         	<li>Firefox Support
         		<ul>
         		<li><a href="/firefox/support/keyboard">Firefox 快速鍵列表</a></li>
@@ -35,17 +35,17 @@
 	</ul>
 	<h3> Thunderbird 專屬文件 </h3>
 	<ul>
-		<li><a href='docs/tb/'>[尚無]</a>
+		<li><a href='/docs/tb/'>[尚無]</a>
 	</ul>
 	<h3> ICOS 2003 講義 </h3>
 	<ul>
-		<li><a href='docs/icos03/MI.pdf'>Mozilla Introduction</a>
-		<li><a href='docs/icos03/MTI.pdf'>Mozilla Technology Introduction</a>
+		<li><a href='/docs/icos03/MI.pdf'>Mozilla Introduction</a>
+		<li><a href='/docs/icos03/MTI.pdf'>Mozilla Technology Introduction</a>
 	</ul>
-	<h2> <a href='/devdoc'>進階文件與開發者資訊 </a></h2>
+	<h2> <a href='/docs/dev'>進階文件與開發者資訊 </a></h2>
 	若您想找進一步的資訊，或是有關網頁編寫、 Mozilla 如何進行中文化(與相關工具)等資訊，
 	請參考上面的 ICOS 2003 "Mozilla Technology Introduction" 與
-	<a href='/devdoc'>[進階文件與開發者資訊]</a> 頁面。
+	<a href='/docs/dev'>[進階文件與開發者資訊]</a> 頁面。
 <h2>感謝</h2>
 	以上文件來自許多人的努力，限於篇幅不個別列出（部分列於各文件中），在此感謝所有參與的朋友們。
 </div>
@@ -54,8 +54,8 @@
 <div id="side" class="right">
 	<ul id="nav">
 		<li><a href="/">^回 MozTW.org 首頁</a></li>
-		<li><a href="/doc">入門與推廣文件</a></li>
-		<li><a href="/devdoc">進階文件與開發者資訊</a></li>
+		<li><a href="/docs">入門與推廣文件</a></li>
+		<li><a href="/docs/dev">進階文件與開發者資訊</a></li>
 	</ul>
 </div>
 <!--#include virtual="/inc/footer.html" -->

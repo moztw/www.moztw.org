@@ -2,6 +2,7 @@
 <!--#include virtual="/inc/title.html" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
+
 <div style='text-align: center;'>
 <img src='/images/product-nvu-screen.jpg' alt='nvu banner'>
 </div>
@@ -42,7 +43,7 @@
     <div id="side" class="right">
 <div class="download">
 	<h3>馬上下載</h3>
-	<!--#include virtual='/dlnvu-js.shtml' -->
+	<!--#include virtual="/inc/dlnvu.html" -->
 </div>
       <h3>資源與鏈結</h3>
       <ul class="compact">

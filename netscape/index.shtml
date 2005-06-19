@@ -2,54 +2,55 @@
 <!--#include virtual="/inc/title.html" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
-	<div class="key-point">
-		<div id="product-desc" class="product-netscape">
-			<h2>Netscape 7.2</h2>
-			<p>
-			全新設計的 Netscape 7 系列，
-			快速、簡單、免費、完整，
-			是為滿足對網路有全方位需求的你量身訂作的！
-			</p>
-		</div>
-		<div id="product-side">
-			<div class="download">
-				<h3>馬上下載</h3>
-				<!--
-				[註：由於目前在測試中所以只有線上安裝檔，
-				在測試期結束後會提供完整離線安裝檔]
-				-->
-				<!--#include virtual='/dlns-js.shtml' -->
-			</div>
-		</div>
-	</div>
-	<div id="mainContent" class="right">
-	      <h2 class='courier'>moztw.org 免責聲明</h2>
-		  <dl id="quotes">
-		  <h3>Netscape 非官方正體中文版</h3>
-		  <p>由於<strong>Netscape</strong> 系列目前沒有
-		  Traditional Chinese 正體中文版的發行，所以臺灣 Mozilla
-		  中文化小組 (moztw.org) 為了推廣 Mozilla 與 Netscape
-		  特別製作了這邊的中文版。
 
-		  <p>中文版的製作是基於使用與 Mozilla 本地化同樣的技術，
-		  並沒有重新編譯任何程式碼，
-		  只有修改語系資源檔以及修改安裝程序檔 (script)。
-
-		  <p>但由於未取得 Netscape 公司正式的授權，
-		  所以請記得在這裡取得的版本僅供測試，
-		  Netscape 本身以及實際重製的 moztw.org 
-		  並不為這些版本提供任何保障。
-
-		  <p>有問題請利用 <a 
-			  href='http://forum.moztw.org/viewforum.php?f=5'>
-			  討論區</a>，不過如前所言， moztw.org 還是以
-		  Mozilla 相關產品為主。 Netscape 只算暫時的支援，
-		  所以請保持您的耐心，謝謝。
-	</div>
-    <div id="side" class="right">
-      <h3>資源與鏈結</h3>
-      <ul class="compact">
-	      <li><a href="http://plugins.netscape.com/">更多 Plug-ins</a>
-      </ul>
+<div class="key-point">
+    <div id="product-desc" class="product-netscape">
+	<h2>Netscape 7.2</h2>
+	<p>
+	全新設計的 Netscape 7 系列，
+	快速、簡單、免費、完整，
+	是為滿足對網路有全方位需求的你量身訂作的！
+	</p>
     </div>
-<!--#include virtual="/inc/footer.html" -->
+    <div id="product-side">
+	<div class="download">
+	    <h3>馬上下載</h3>
+	    <!--
+	    [註：由於目前在測試中所以只有線上安裝檔，
+	    在測試期結束後會提供完整離線安裝檔]
+	    -->
+	    <!--#include virtual="/inc/dlns.html" -->
+	</div>
+    </div>
+</div>
+<div id="mainContent" class="right">
+    <h2 class='courier'>moztw.org 免責聲明</h2>
+    <dl id="quotes">
+	<h3>Netscape 非官方正體中文版</h3>
+	<p>由於<strong>Netscape</strong> 系列目前沒有
+	Traditional Chinese 正體中文版的發行，所以臺灣 Mozilla
+	中文化小組 (moztw.org) 為了推廣 Mozilla 與 Netscape
+	特別製作了這邊的中文版。
+
+	<p>中文版的製作是基於使用與 Mozilla 本地化同樣的技術，
+	並沒有重新編譯任何程式碼，
+	只有修改語系資源檔以及修改安裝程序檔 (script)。
+
+	<p>但由於未取得 Netscape 公司正式的授權，
+	所以請記得在這裡取得的版本僅供測試，
+	Netscape 本身以及實際重製的 moztw.org 
+	並不為這些版本提供任何保障。
+
+	<p>有問題請利用 <a 
+	    href='http://forum.moztw.org/viewforum.php?f=5'>
+	    討論區</a>，不過如前所言， moztw.org 還是以
+	Mozilla 相關產品為主。 Netscape 只算暫時的支援，
+	所以請保持您的耐心，謝謝。
+    </div>
+    <div id="side" class="right">
+	<h3>資源與鏈結</h3>
+	<ul class="compact">
+	    <li><a href="http://plugins.netscape.com/">更多 Plug-ins</a>
+	</ul>
+    </div>
+    <!--#include virtual="/inc/footer.html" -->

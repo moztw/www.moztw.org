@@ -79,7 +79,9 @@ Firefox 在「瀏覽工具列」中加入了搜尋方塊，並將 Google 的「�
       <ul class="compact">
         <li><a href="http://www.spreadfirefox.com/">推廣 Firefox！</a></li>
         <li><a href="http://www.mozillazine.org/">MozillaZine</a></li>
+	<!--
         <li><a href="../../projects/firefox/">專案資訊</a></li>
+	-->
       </ul>
 
     </div>

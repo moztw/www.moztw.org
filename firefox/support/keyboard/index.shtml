@@ -17,7 +17,7 @@
                 <li><a href="edit.html" id="linkedit">編輯配置檔案</a></li>
                 <li><a href="bugs.html" id="linkbugs">回報錯誤</a></li>
 -->
-                <li><a href="../">回 Firefox 首頁</a></li>
+                <li><a href="/firefox">回 Firefox 首頁</a></li>
         <!-- </ul>
         </li> -->
 </ul>

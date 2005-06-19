@@ -23,7 +23,7 @@
     <div class="download">
 		<h3><a href="/firefox/"><strong class="downloadText">免費下載</strong></a></h3>
  		<div style='background: url(/images/product-firefox.png) no-repeat;'>
-		<!--#include file='dlff-js.shtml' -->
+		<!--#include virtual="/inc/dlff.html" -->
 	</div>
 	</div>
   </div>
@@ -31,14 +31,14 @@
 
 <div id="mBody">
   <div class="frontcolumn">
-    <h2><a href="thunderbird/">Thunderbird 0.9</a></h2>
-    <a href="thunderbird"><img src="images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
-	<p><a href="thunderbird/">Thunderbird</a> 
+    <h2><a href="/thunderbird/">Thunderbird 0.9</a></h2>
+    <a href="thunderbird"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
+	<p><a href="/thunderbird/">Thunderbird</a> 
 	是 Mozilla 家族新生代的 e-mail 程式，具有完整的功能，與最新的垃圾信控制。</p>
   </div>
   <div class="frontcolumn">
     <h2><a href="/firefox/extension_top_15/">Firefox 擴充套件 Top 15</a></h2>
-  <a href="/firefox/extension_top_15/"><img src="images/extension50.png" alt="Extension Top 15" class="promo" width="50" height="50"></a>
+  <a href="/firefox/extension_top_15/"><img src="/images/extension50.png" alt="Extension Top 15" class="promo" width="50" height="50"></a>
   <p>歷經三個星期的提名及票選，最後十五名脫穎而出的擴充套件名單及介紹出爐！</p>
     
   </div>
@@ -64,27 +64,27 @@
 
     <ul class="news" style="margin-left: 10px;">
         <li>
-          <a href="mozilla/" style="text-decoration: none;">
+          <a href="/mozilla/" style="text-decoration: none;">
             <img src="images/mozilla16.png" alt="Mozilla icon" style="vertical-align: middle;" height="16" width="16">
             <span style="text-decoration: underline;">Mozilla 1.8a4</span>
           </a>
 
         </li>
         <li>
-          <a href="netscape/" style="text-decoration: none;" title="由 moztw.org 提供的 Netscape 非官方中文化版本">
-            <img src="images/netscape16.png" alt="Netscape icon" style="vertical-align: middle;" height="16" width="16">
+          <a href="/netscape/" style="text-decoration: none;" title="由 moztw.org 提供的 Netscape 非官方中文化版本">
+            <img src="/images/netscape16.png" alt="Netscape icon" style="vertical-align: middle;" height="16" width="16">
             <span style="text-decoration: underline;">Netscape 7.2</span>
           </a>
         </li>
         <li>
-          <a href="nvu/" style="text-decoration: none;" title="由 moztw.org 提供的 Nvu 非官方中文化版本">
-            <img src="images/nvu16.png" alt="NVU icon" style="vertical-align: middle;" height="16" width="16">
+          <a href="/nvu/" style="text-decoration: none;" title="由 moztw.org 提供的 Nvu 非官方中文化版本">
+            <img src="/images/nvu16.png" alt="NVU icon" style="vertical-align: middle;" height="16" width="16">
             <span style="text-decoration: underline;">NVU 0.5</span>
           </a>
         </li>
         <li>
           <a href="/dl" style="text-decoration: none;">
-            <img src="images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
+            <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
             <span style="text-decoration: underline;">軟體列表...</span>
           </a>
         </li>
@@ -94,7 +94,7 @@
     </div>
     <div style='float: left; width: 63%;'>
     <a href="/xmlnews.rdf">
-      <img class="rss" src="images/rss.png" alt="Announcements in RSS" width="28" height="16">
+      <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16">
     </a>
     <h2 style="margin-top: 0;">
       <a href="/news">最新消息與公告</a>
@@ -103,7 +103,7 @@
 </div>
 	<br style="clear: both;">
 	<!-- span style='vertical-align: bottom; font-size: 60%; float: right;'>最後更新：
-	<!- #flastmod virtual='/index.shtml' -></span>-->
+	<!- #flastmod virtual="/index.shtml" -></span>-->
   <!-- End News Columns -->  
   </div>
 	<a href='news'>所有公告記錄</a>

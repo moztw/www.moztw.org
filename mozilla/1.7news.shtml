@@ -2,6 +2,7 @@
 <!--#include virtual="/inc/title.html" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
+
 <div class='article'>
 <h2>Mozilla 1.7 新鮮事</h2>
 <p>本文件列出在 Mozilla 1.7 中實作的一些新功能、重要的錯誤修復事宜及新問題。如欲得到更廣泛的修正項目列表，請參閱「<a href="http://www.mozilla.org/releases/mozilla1.7/changelog.html">[更動記錄略表]</a>」。本列表含括 1.7 Alpha、1.7 Beta 及各備選版以來所有的新功能及修正。</p>
@@ -66,7 +67,7 @@
 
 <ul ><li>一般<ul ><li> 使用者回報 <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=76831">[bug 76831]</a>：將 Windows 版的 Mozilla 最小化數小時後，若每每於還原時延遲非常久的時間，則將 config.trim_on_minimize 設定為 false 可能可以解決問題。詳見該 bug <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=76831#c0">[第 0]</a> 及<a href="http://bugzilla.mozilla.org/show_bug.cgi?id=76831#c303">[第 303 篇評論]</a>。</li>
 <li> 在 Mac OS X 上預設關閉 IPv6 的支援。這是因為在 Mac OS X 中尚未找到能關閉 IPv6 DNS lookups 的方法，而它會讓 severe slowdowns in the presence of broken DNS servers and/or home routers，請參照 <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=68796">[bug 68796]</a> 及 <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=231607">[bug 231607]</a>。在 OS X 10.3 中，您可以將 network.dns.disableIPv6 的偏好設定改為 false 來重啟 IPv6 功能。</li>
-<li> Users of Fedora Core 2 may experience unusually long delays in resolving hostnames. This results from the fact that IPv6 is enabled by default in Fedora Core 2. If you do not need IPv6 support (which is most likely the case), then it is advised that you disable it in the kernel. To do this run the following command as root: echo "alias net-pf-10 off" >> /etc/modprobe.conf You will need to reboot to have this take effect (or simply unload the ipv6 kernel module).</li>
+<li> Users of Fedora Core 2 may experience unusually long delays in resolving hostnames. This results from the fact that IPv6 is enabled by default in Fedora Core 2. If you do not need IPv6 support (which is most likely the case), then it is advised that you disable it in the kernel. To do this run the following command as root: echo "alias net-pf-10 off" &gt;&gt; /etc/modprobe.conf You will need to reboot to have this take effect (or simply unload the ipv6 kernel module).</li>
 </ul>
 </li>
 </ul>
