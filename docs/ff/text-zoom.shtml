@@ -1,5 +1,8 @@
 <!--#set var="my_title" value="Firefox - 放大／縮小文字" -->
-<!--#include virtual="/header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
  <div id="mainContent" class="right">
 
 <h2>放大／縮小文字</h2>
@@ -43,4 +46,4 @@
 <p><em>本文件由 Bob Chao 撰寫。</em></p>
  </div>
  <!-- closes #side -->
-<!--#include virtual="/footer.shtml" -->
+<!--#include virtual="/inc/footer.html" -->

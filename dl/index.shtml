@@ -1,4 +1,7 @@
-<!--#include file='header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div class="key-point">
 <ul class="productlist" title="下載列表">
 	<li>
@@ -75,4 +78,4 @@
 	<p><a href='/dls/ff/firefox-CVS-localesrc-zhTW.tar.bz2'><b>Firefox zh-TW locale,</b></a>
 	Last update: <!--#flastmod virtual="/dls/ff/firefox-CVS-localesrc-zhTW.tar.bz2" --><br/>
 </ul>
-<!--#include file='footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

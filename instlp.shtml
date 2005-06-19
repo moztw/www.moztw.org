@@ -1,4 +1,7 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <script type="text/javascript">
 <!--
 // Available List
@@ -195,7 +198,7 @@ value="列出所有可下載[不建議直接安裝]的套件] &raquo;">
 	startLpDetection();
 // -->
 </script>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->
 <!--  }}}
 vim:foldmethod=marker
 -->

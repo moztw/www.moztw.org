@@ -1,3 +1,6 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <H1></H1>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

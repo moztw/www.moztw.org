@@ -1,4 +1,7 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <H3 class="dashbox"> Gecko Engine </H3>
 這裡有一些關於 Gecko (Netscape 6 and Mozilla)
 的資料。
@@ -17,4 +20,4 @@
     <li class="en"><a href="http://www.mozilla.org/docs/dom/domref/">
 	(mozilla.org) Gecko DOM Reference</a></li>
 </ul>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

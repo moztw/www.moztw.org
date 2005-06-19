@@ -1,9 +1,0 @@
-<ul>
-<!--#include file='dlnvu-latest.shtml' -->
-<li><a href='/dlnvu-all'> 下載其它版本 </a></li>
-<script type='text/javascript' src='/js/download.js'></script>
-<script type='text/javascript'>
-	<!--
-	window.onload = highlightDownload;
-	// -->
-</script>

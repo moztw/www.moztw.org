@@ -1,4 +1,7 @@
-<!--#include virtual="/header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div id="mBody">
  <div id="side" class="left">
   <ul id="nav">
@@ -86,4 +89,4 @@
  <!-- closes #mainContentOuter-->
 </div>
 <!-- closes #mBody-->
-<!--#include virtual="/footer.shtml" -->
+<!--#include virtual="/inc/footer.html" -->

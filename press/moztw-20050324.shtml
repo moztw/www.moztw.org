@@ -19,4 +19,4 @@
 <h4>關於 Mozilla Taiwan</h4>
 <p>Mozilla Taiwan (moztw.org) 為 Mozilla 正體中文化專案官方網站，於 2004 年九月正式開張，負責管理、維護 Mozilla 的正體中文語言套件及安裝檔。本站資源由中央研究院資訊科學研究所及自由軟體鑄造場提供，目前有軟體下載、技術文件與產品討論區等服務。其他資訊請參考 http://moztw.org/about 。</p>
 
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

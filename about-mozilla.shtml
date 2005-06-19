@@ -1,4 +1,7 @@
-<!--#include file="header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div>
 <h2>關於 Mozilla Firefox</h2>
 
@@ -8,4 +11,4 @@ Mozilla 專案是個非營利開放原始碼活動，任務是維持網際網路
 <h2>關於正體中文版</h2>
 <p>Firefox 的正體中文版部分由 <a href="http://moztw.org">moztw.org</a> 製作。moztw.org 提供 Mozilla 相關資訊，並有台灣本地及海外志工組成的 Mozilla 社群提供文件等支援。 </p>
 </div>
-<!--#include file="footer.shtml" -->
+<!--#include virtual="/inc/footer.html" -->

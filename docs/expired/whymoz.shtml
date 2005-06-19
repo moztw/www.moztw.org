@@ -1,4 +1,7 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <H3 class="dashbox"> Why Mozilla? (aka Why IE Sucks?) </H3>
 <DL>
     <!-- {{{ --> <DT class="en"> <!-- py:en -->
@@ -67,4 +70,4 @@
  </DL>
 
  <hr>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

@@ -1,4 +1,7 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div class='article'>
 <H1>關於文件物件模型(DOM)</H1>
 <a href='http://www.mozilla.org/docs/dom/about/'>About the Document Object Model</a>
@@ -17,4 +20,4 @@ DOM 最常被用以[與 JavaScript 溝通]，也就是說雖然程式以 JavaScr
 我們的重點在於，我們需要你的幫助才能讓 Mozilla 成為眾所皆知、網頁設計中的最佳平台。這也就是為何要有「[如何貢獻]」等文章的原因 ;-)。
 
 </div>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

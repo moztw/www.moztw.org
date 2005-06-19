@@ -1,4 +1,7 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div class='article'>
 <H1></H1>
 <h1>開始使用 Mozilla</h1><br />
@@ -131,4 +134,4 @@ Mozilla 可以與其它網路軟體並存，所以你不需卸除任何軟體。
 </div>
 </div>
 </div>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

@@ -1,4 +1,7 @@
-<!--#include virtual="/header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div style='text-align: center;'>
 <img src='/images/product-nvu-screen.jpg' alt='nvu banner'>
 </div>
@@ -46,4 +49,4 @@
 	      <li><a href="http://nvu.com/">NVU 官方網站(英)</a>
       </ul>
     </div>
-<!--#include virtual="/footer.shtml" -->
+<!--#include virtual="/inc/footer.html" -->

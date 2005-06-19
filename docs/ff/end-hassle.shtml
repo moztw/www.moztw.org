@@ -1,5 +1,8 @@
 <!--#set var="my_title" value="Firefox - 拒絕麻煩，保護隱私" -->
-<!--#include virtual="/header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
  <div id="mainContent" class="right">
 
 <h2>拒絕麻煩，保護隱私</h2>
@@ -31,4 +34,4 @@
   </ul>
   <p><em><a href="http://forum.moztw.org/viewtopic.php?p=12601">本文件由 Bob Chao 撰寫</a>。</em></p>
 </div>
- <!--#include virtual="/footer.shtml" -->
+ <!--#include virtual="/inc/footer.html" -->

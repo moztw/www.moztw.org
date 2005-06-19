@@ -1,4 +1,7 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div class='article'>
 <p>source: <a href="http://www.mozilla.org/projects/firefox/roadmap.html">http://www.mozilla.org/projects/firefox/roadmap.html</a></p>
 
@@ -53,4 +56,4 @@
 </div>
 </div>
 </div>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

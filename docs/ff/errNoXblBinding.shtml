@@ -1,4 +1,7 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div class='article'>
 <p><a href="source:http://www.mozilla.org/products/firefox/releases/fix-extensions.html">source:http://www.mozilla.org/products/firefox/releases/fix-extensions.html</a></p>
 
@@ -89,4 +92,4 @@
 </div>
 </div>
 </div>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

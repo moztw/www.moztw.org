@@ -1,6 +1,9 @@
-<!--#include virtual='header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <H1> 最新消息與公告 </H1>
-<!--#include virtual='news-latest.shtml' -->
+<!--#include virtual='/news-latest.shtml' -->
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
@@ -73,4 +76,4 @@
 	<li><div class="date"> 9 月 3 日 </div>
 	<a href="http://moztw.org">網站新樣式</a>
 </ul>
-<!--#include virtual='footer.shtml' -->
+<!--#include virtual='inc/footer.html' -->

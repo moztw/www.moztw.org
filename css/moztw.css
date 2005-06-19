@@ -1,6 +1,6 @@
 /* Mozilla Taiwan special overriding */
 pre, code {
-	font-family: "Lucida Console", 細明體, "Courier New", Courier, monospace;
+	font-family: "Lucida Console", "細明體", "Courier New", Courier, monospace;
 }
 
 .dlall div {
@@ -53,6 +53,7 @@ a:visited {
 div#firefox-feature div.download{
 	width: 17em;
 }
+
 /* new logo */
 #header h1 a {
 		background: transparent url("/images/header_logo2.png") no-repeat;
@@ -110,6 +111,12 @@ a#featurelink { background: none;  }
 	width: 130px;
 }
 
+#front-feature #feature-content {
+	padding-right: 350px;
+}
+#front-feature .download ul {
+	padding-left: 80px;
+}
 
 .news .date {
 	width: 6em;

@@ -1,4 +1,7 @@
-<!--#include virtual="/header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 	<div class="key-point">
 		<div id="product-desc" class="product-thunderbird">
 			<h2>Thunderbird: reclaim your inbox.</h2>
@@ -81,4 +84,4 @@
       </ul>
     </div>
 
-<!--#include virtual="/footer.shtml" -->
+<!--#include virtual="/inc/footer.html" -->

@@ -1,4 +1,7 @@
-<!--#include file="header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div>
 	<h1> 網路資源/鏈結 </h1>
 	這裡放了相關的鏈結。
@@ -30,4 +33,4 @@
 若有遺漏或建議，歡迎至討論區回報。
 
 </div>
-<!--#include file="footer.shtml" -->
+<!--#include virtual="/inc/footer.html" -->

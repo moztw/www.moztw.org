@@ -1,4 +1,7 @@
-<!--#include file="header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 	<div class="key-point">
 		<div id="product-desc" class="product-firefox">
 			<h2>Firefox: the browser, reloaded</h2>
@@ -80,4 +83,4 @@
         </ul>
 	  
     </div>
-<!--#include file="footer.shtml" -->
+<!--#include virtual="/inc/footer.html" -->

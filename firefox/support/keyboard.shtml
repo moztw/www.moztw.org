@@ -359,4 +359,4 @@
 <p><a id="f1"><sup>1</sup></a>: Web Search moves the cursor to the Search bar and only works if the Search Bar is visible. If the Search Bar is hidden, this keyboard shortcut has no effect.</p>
 <p><a id="windows"><sup>Windows</sup></a>: This shortcut only works in Microsoft Windows.</p>
 <p><a id="linux"><sup>Linux</sup></a>: This shortcut only works in Unix/Linux.</p></div>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

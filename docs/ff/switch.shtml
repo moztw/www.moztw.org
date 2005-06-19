@@ -1,4 +1,7 @@
-<!--#include virtual="/header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <h2>從 Internet Explorer 改用 Mozilla Firefox</h2>
 <h3>下載 Mozilla Firefox</h3>
 <ol>
@@ -77,4 +80,4 @@ href="http://update.mozilla.org/extensions/?application=">擴充套件</a>
 </table>
 <h3 id="Keyboard_Shortcuts">快速鍵</h3>
 <p>您會發現 Microsoft Internet Explorer 和 Firefox 有許多快速鍵功能相似。快速鍵的完整清單請參考 <a href="http://texturizer.net/firefox/keyboard.html">List of Firefox Keyboard Shortcuts</a>。</p>
- <!--#include virtual="/footer.shtml" -->
+ <!--#include virtual="/inc/footer.html" -->

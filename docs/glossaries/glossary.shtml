@@ -1,4 +1,7 @@
-<!--#include virtual="/header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <DL>
     <DT>(SSL) Certificate</DT>
     <DD>憑證 (thanks to imacat)</DD>
@@ -21,4 +24,4 @@
     <DT>Type Ahead Find</DT><DD>隨打即找 (by jwbai)</DD>
     <DT>Filter</DT><DD>過濾器</DD>
 </DL>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

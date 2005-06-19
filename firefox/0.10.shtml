@@ -211,4 +211,4 @@
   <p>Firefox 能與您預設的任何郵件程式協同運作， 而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="http://www.mozilla.org/products/thunderbird/">Mozilla
         Thunderbird</a>。</p></li>
 </ol>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

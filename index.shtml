@@ -1,16 +1,9 @@
-<!--#set var="page_class" value="homepage" -->
-<!--#include virtual="/header_a.shtml" -->
-<style type="text/css">
-<!--
-#front-feature #feature-content {
-	padding-right: 350px;
-}
-#front-feature .download ul {
-	padding-left: 80px;
-}
--->
-</style>
-<!--#include virtual="/header_b.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class_homepage.html" -->
+<!--#include virtual="/inc/header.html" -->
+
 <div class="key-point front-feature-cnet" id="front-feature">
 <script type="text/javascript">
     <!--
@@ -115,4 +108,4 @@
   </div>
 	<a href='news'>所有公告記錄</a>
   </div>
-<!--#include file="footer.shtml" -->
+<!--#include file="footer.html" -->

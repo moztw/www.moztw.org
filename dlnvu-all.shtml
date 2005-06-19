@@ -1,4 +1,7 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <H1>下載 NVU </H1>
 注意，由於版權問題，這裡提供的是非官方的中文版。<br/>
 <div class='dlall'>
@@ -15,4 +18,4 @@
 </div>
 </div>
 
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

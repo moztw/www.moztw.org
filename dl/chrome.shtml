@@ -1,4 +1,7 @@
-<!--#include file="header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div>
 	<h1>自訂與修正 Mozilla 界面 (Chrome)</h1>
 	<p> 這裡提供了自訂或修正 Mozilla 界面的檔案。</p>
@@ -12,4 +15,4 @@
 		<a href='/dls/chrome/userContent.css'> userContent.css</a>
 	</li></ul>
 </div>
-<!--#include file="footer.shtml" -->
+<!--#include virtual="/inc/footer.html" -->

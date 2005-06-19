@@ -351,4 +351,4 @@ value="13">(61 票) Sage </li> <li>(51 票) Download Status Bar </li>
       </div>
     </div>
     </form>
-<!--#include virtual="/footer.shtml" -->
+<!--#include virtual="/inc/footer.html" -->

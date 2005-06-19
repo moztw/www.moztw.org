@@ -1,4 +1,7 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div class='article'>
 <h2>Mozilla 1.7 新鮮事</h2>
 <p>本文件列出在 Mozilla 1.7 中實作的一些新功能、重要的錯誤修復事宜及新問題。如欲得到更廣泛的修正項目列表，請參閱「<a href="http://www.mozilla.org/releases/mozilla1.7/changelog.html">[更動記錄略表]</a>」。本列表含括 1.7 Alpha、1.7 Beta 及各備選版以來所有的新功能及修正。</p>
@@ -70,4 +73,4 @@
 </div>
 </div>
 </div>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

@@ -1,4 +1,7 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div class='article'>
 <span class="Forum"><div align="center">Mozilla@Taiwan</div></span><br />
 <span class="Topic">問題網頁與技術傳教 - [翻譯] Mozilla 網站設計常見問題</span><br />
@@ -280,4 +283,4 @@ thx lockchou
   Group</a></div>
 
 </div>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

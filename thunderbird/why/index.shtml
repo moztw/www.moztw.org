@@ -105,4 +105,4 @@
 <hr class="hide">
 <hr class="hide">
 </div>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

@@ -1,4 +1,7 @@
-<!--#include file="header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div>
 	<h1>404 Not Found / 找不到指定的資源</h1>
 	<p> The requested URL does not exist. Please check or find it again.<p>
@@ -12,4 +15,4 @@
 	<p> 如果你是想下載檔案，不用擔心，只是你的鏈結錯了</p>
 	<p> 請用 <a href='/dl'>下載頁</a> 進入，有完整的分類喔！
 </div>
-<!--#include file="footer.shtml" -->
+<!--#include virtual="/inc/footer.html" -->

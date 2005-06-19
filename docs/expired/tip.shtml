@@ -1,4 +1,7 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
  <H3 class="dashbox"> Tips on Using Mozilla <br> 使用 Mozilla 的小技巧 </H3>
  <!-- {{{ -->
 <style type="text/css">
@@ -125,4 +128,4 @@ jar:http://www.csie.ntu.edu.tw/~b7506051/mozilla/test.zip!/index.html </A>
        0.9.5+ 把 Multizilla 按下 Ctrl-T 就新增分頁的能力加入了
     </DD> <!-- }}} --> 
 </DL>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

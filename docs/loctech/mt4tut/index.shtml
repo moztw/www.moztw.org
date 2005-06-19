@@ -1,4 +1,7 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <pre>
 This tutorial is written by piaip@csie.ntu.edu.tw
 
@@ -205,4 +208,4 @@ I'll take Windows versions as example:
 --
 	piaip, Francis.S.Lin
 </pre>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

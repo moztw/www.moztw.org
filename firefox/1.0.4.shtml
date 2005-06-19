@@ -275,4 +275,4 @@ cd /Applications/Firefox.app/Contents/MacOS/<br>
       </ul>
     </div>
 </div>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

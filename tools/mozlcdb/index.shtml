@@ -1,4 +1,7 @@
-<!--#include virtual='/header.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <style type='text/css'>
 <!--
 code { display: block; background: black; color: white; padding: 5px; margin: 3px; }
@@ -383,4 +386,4 @@ MozLCDB is licensed under <a href='http://www.mozilla.org/MPL/MPL-1.1.html'> MPL
 This program and document is made by <a href="mailto:piaip@csie.ntu.edu.tw?Subject=[MozLCDB]:"> Hung-Te Lin</a>.
 Allrights reserved.
 </div>
-<!--#include virtual='/footer.shtml' -->
+<!--#include virtual="/inc/footer.html" -->

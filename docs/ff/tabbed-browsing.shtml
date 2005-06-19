@@ -1,5 +1,8 @@
 <!--#set var="my_title" value="Firefox - 什麼叫「分頁瀏覽」（Tabbed Browsing）？" -->
-<!--#include virtual="/header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
  <div id="mainContent" class="right">
  <h2>什麼叫「分頁瀏覽」（Tabbed Browsing）？</h2>
 
@@ -51,4 +54,4 @@
 <p><em><a href="http://www.mozilla.org/products/firefox/tabbed-browsing.html" title="本文出處">本文件原文</a>由 Mozilla Wordsmiths 團隊協助撰寫，<a href="http://forum.moztw.org/viewtopic.php?p=12241" title="翻譯文件張貼／討論處">中文版由 Bob Chao 編譯</a>。</em></p>
 
 </div>
-<!--#include virtual="/footer.shtml" -->
+<!--#include virtual="/inc/footer.html" -->

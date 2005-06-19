@@ -1,6 +1,10 @@
 <!--#set var="my_title" value="About Moztw.org" -->
+<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <!--#set var="page_class" value="secondLevel sectionAbout" -->
-<!--#include file="header.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
 <div id="mBody">
 <div id="side">
 
@@ -107,4 +111,4 @@ Email:
 	</div>
 
 </div>
-<!--#include file="footer.shtml" -->
+<!--#include virtual="/inc/footer.html" -->
