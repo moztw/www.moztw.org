@@ -62,7 +62,7 @@
     <ul class="news">
       <li>Live Bookmarks
           <p>您現在可以將 RSS feeds 訂閱成為書籤。當您參訪某個以 &lt;link&gt; 標籤公布 RSS feed 的網頁時，狀態列會出現 
-             <img src="http://www.mozilla.org/images/rss.png" alt="RSS" width="28" height="16" />圖示。按下該圖示可查閱網頁提供的
+             <img src="/images/rss.png" alt="RSS" width="28" height="16" />圖示。按下該圖示可查閱網頁提供的
   RSS 檔列表。按下列表中的項目以便訂閱，如此便可新增一個書籤資料夾，其中含括此 RSS 檔的新近文章。</p>
 	</li>
       <li>增強版尋找功能

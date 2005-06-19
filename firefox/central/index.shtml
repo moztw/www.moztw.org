@@ -27,7 +27,7 @@ background: url("t-welcomefirefox.gif") no-repeat;
 			<li>安裝<a href="http://update.mozilla.org/extensions/?application=firefox">擴充套件</a>，讓 Firefox 變的更好。</li>
 
 			<li>安裝<a href="http://update.mozilla.org/themes/?application=firefox">佈景主題</a>，讓 Firefox 煥然一新。</li>
-			<li><a href="http://moztw.org/firefox/release">版本資訊</a></li>
+			<li><a href="/firefox/release">版本資訊</a></li>
 </ul>
 			</div>
 
@@ -44,7 +44,7 @@ Firefox 在「瀏覽工具列」中加入了搜尋方塊，並將 Google 的「�
 
 
 
-<p>Firefox 已經預先安裝了最常見也最有用的搜尋引擎，像是 Google、Yahoo、Amazon、eBay 及 Dictionary.com 等等。甚至，您也可以自行<a href="http://moztw.org/dl/search">下載更多搜尋引擎</a>，真是太棒了！</p>
+<p>Firefox 已經預先安裝了最常見也最有用的搜尋引擎，像是 Google、Yahoo、Amazon、eBay 及 Dictionary.com 等等。甚至，您也可以自行<a href="/dl/search">下載更多搜尋引擎</a>，真是太棒了！</p>
 <h3>即時書籤<br>
 </h3>
 <p>「即時書籤」是 Firefox 的新技術，方便您觀看書籤中的 RSS 新聞及 Blog（網誌、部落格）文章。只要一眼，就可以瞧見所選網站上最新的文章標題；您可直接跳到感興趣的文章，節省許多時間。</p>
