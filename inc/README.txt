@@ -12,12 +12,16 @@ BEFORE YOU START:
       <!--#include virtual='a.html'> (do not use '')
       <!--#include virtual="a.shtml"> (do not use shtml)
     Usually you should only include html files from /inc/.
-(2) Pages will be cached as a pure html on moztw.org site,
+(2) Furthermore, to help porting (for the future, maybe),
+    please use only these SSI tags:
+    <!--#include virtual="filename.html">
+    <!--#flastmod virtual="filename.ext" -->
+(3) Pages will be cached as a pure html on moztw.org site,
     so link hrefs may use ".html" as file extension.
-(3) If you are going to put some large/executable/installble stuff,
+(4) If you are going to put some large/executable/installble stuff,
     don't put it into SVN repository. Please put them into "dls"
     directory and just write links to /dls directory..
-(4) If you want to apply Mozilla.org style/images, 
+(5) If you want to apply Mozilla.org style/images, 
     make a copy to local css/ images/ js/ directory.
 
 BASIC DIRECTORY LAYOUT:
