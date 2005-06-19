@@ -9,7 +9,7 @@
 還是比較推薦使用 Mozilla 或 Firefox。<br/>
 <div class='dlall'>
 <div><h3> 最新版本 </h3><ul>
-	<!--#include virtual="/inc/dlns-js.html" -->
+	<!--#include virtual="/inc/dlns.html" -->
 </ul>
 <br/>
 <div style='width: 30%;'>
