@@ -2,15 +2,16 @@
 <!--#include virtual="/inc/title.html" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
+
 <H1> 最新消息與公告 </H1>
-<!--#include virtual='/news-latest.shtml' -->
+<!--#include virtual="/inc/news.html" -->
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
 	<li><div class="date"> 1 月 30 日 </div>
-	擴充套件 Top 15 <a href='firefox/extension_top_15/'>名單出爐！</a>
+	擴充套件 Top 15 <a href='/firefox/extension_top_15/'>名單出爐！</a>
 	<li><div class="date"> 12 月 11 日 </div>
-	<a href='dls/tb/thunderbird-1.0.zh-TW.win32.installer.exe'>Thunderbird 1.0 (win32)</a>
+	<a href='/dls/tb/thunderbird-1.0.zh-TW.win32.installer.exe'>Thunderbird 1.0 (win32)</a>
 	中文版開放下載測試中！
 	<li><div class="date"> 1 月 16 日 </div>
 	擴充套件 Top 15 <a href='http://forum.moztw.org/viewtopic.php?p=27414'>開始投票！</a>
@@ -45,7 +46,7 @@
 		>「惡意的網頁可能誘導使用者試圖儲存檔案但實際上會刪除下載目錄中的檔案」</a>
 	<li><div class="date"> 10 月 1 日 </div>
 	提供 <a href='/mozilla'> Mozilla 1,8a4 中文安裝檔(win32, Linux)</a> 
-	與 <a href='/instlp'>語言套件</a>
+	與 <a href='/dl/langpack'>語言套件</a>
 	<li><div class="date"> 9 月 29 日 </div>
 	正式把 <a href='/netscape'> Netscape</a>列入主要下載頁
 	<li><div class="date"> 9 月 28 日 </div>
@@ -76,4 +77,4 @@
 	<li><div class="date"> 9 月 3 日 </div>
 	<a href="http://moztw.org">網站新樣式</a>
 </ul>
-<!--#include virtual='inc/footer.html' -->
+<!--#include virtual="/inc/footer.html" -->

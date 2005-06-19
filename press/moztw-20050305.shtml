@@ -1,7 +1,8 @@
-<!--#set var="my_title" value="Mozilla 基金會推出 Firefox 中文更新版" -->
-<!--#set var="page_class" value="deepLevel" -->
-<!--#include virtual="/header_a.shtml" -->
-<!--#include virtual="/header_b.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<title>Mozilla 基金會推出 Firefox 中文更新版</title>
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/inc/header.html" -->
+
 <!-- Well, 你可以說這是試做品... -->
 <h1>Mozilla 基金會推出 Firefox 更新版</h1>
 

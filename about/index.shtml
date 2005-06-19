@@ -1,10 +1,9 @@
-<!--#set var="my_title" value="About Moztw.org" -->
-<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <!--#set var="page_class" value="secondLevel sectionAbout" -->
 <!--#include virtual="/inc/meta.html" -->
-<!--#include virtual="/inc/title.html" -->
-<!--#include virtual="/inc/class.html" -->
+<title>About Mozilla Taiwan Community - Moztw.org</title>
+<!--#include virtual="/inc/class_about.html" -->
 <!--#include virtual="/inc/header.html" -->
+
 <div id="mBody">
 <div id="side">
 

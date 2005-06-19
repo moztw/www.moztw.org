@@ -1,6 +1,9 @@
-<!--#set var="my_title" value="Mozilla Firefox 支援：快速鍵" --><!--#include virtual='/header_a.shtml' -->
-<link rel="stylesheet" type="text/css" href="http://www.mozilla.org/products/firefox/support/local.css">
-<!--#include virtual='/header_b.shtml' -->
+<!--#include virtual="/inc/meta.html" -->
+<title>Mozilla Firefox 支援：快速鍵</title>
+<link rel="stylesheet" type="text/css" href="local.css">
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
+
 <div id="side" class="left">
 <ul id="nav">
 <!--        <li><span><a href="index.html">Firefox Help</a></span>

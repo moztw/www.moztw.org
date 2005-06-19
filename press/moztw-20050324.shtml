@@ -1,7 +1,10 @@
-<!--#set var="my_title" value="Mozilla 基金會推出 Firefox 1.0.2 中文更新" -->
-<!--#set var="page_class" value="deepLevel" -->
-<!--#include virtual="/header_a.shtml" -->
-<!--#include virtual="/header_b.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<title>
+Mozilla 基金會推出 Firefox 1.0.2 中文更新
+</title>
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/inc/header.html" -->
+
 <!-- 先翻譯好了，慢慢練習... -->
 <h1>Mozilla 基金會推出 Firefox 1.0.2 安全更新</h1>
 

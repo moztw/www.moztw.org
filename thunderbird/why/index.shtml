@@ -1,8 +1,9 @@
-<!--#set var="my_title" value="為什麼您該改用 Mozilla Thunderbird 電子郵件程式" -->
-<!--#set var="page_class" value="deepLevel nomenu" -->
-<!--#include virtual="/header_a.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<title>為什麼您該改用 Mozilla Thunderbird 電子郵件程式</title>
 <link rel="stylesheet" type="text/css" href="why.css">
-<!--#include virtual="/header_b.shtml" -->
+<!--#include virtual="/inc/class_nomenu.html" -->
+<!--#include virtual="/inc/header.html" -->
+
 <div id="mBody"> 
   
   <h1>為什麼您該改用 Mozilla Thunderbird 電子郵件程式</h1>

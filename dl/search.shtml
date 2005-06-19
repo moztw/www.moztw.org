@@ -2,6 +2,7 @@
 <!--#include virtual="/inc/title.html" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
+
 <script type="text/javascript">
      <!-- 
 function addEngine(name,ext,cat)
@@ -36,56 +37,56 @@ function addEngine(name,ext,cat)
 		<dd><ul><li> 
 			<a href="#" onClick="addEngine('googletw','gif','General' );">自動安裝</a>
 			<li> 手動安裝：
-			<a href='dls/sp/googletw.gif'> googletw.gif</a>
-			<a href='dls/sp/googletw.src'> googletw.src</a>
+			<a href='/dls/sp/googletw.gif'> googletw.gif</a>
+			<a href='/dls/sp/googletw.src'> googletw.src</a>
 		</ul>
 
 		<dt>Openfind 搜尋 (sam 提供)
 		<dd><ul><li> 
 			<a href="#" onClick="addEngine('openfind','gif','General' );">自動安裝</a>
 			<li> 手動安裝：
-			<a href='dls/sp/openfind.gif'> openfind.gif</a>
-			<a href='dls/sp/openfind.src'> openfind.src</a>
+			<a href='/dls/sp/openfind.gif'> openfind.gif</a>
+			<a href='/dls/sp/openfind.src'> openfind.src</a>
 		</ul>
 
 		<dt>教育部國語辭典(xamous_shih提供)
 		<dd><ul><li> 
 			<a href="#" onClick="addEngine('edudict','gif','General' );">自動安裝</a>
 			<li> 手動安裝：
-			<a href='dls/sp/edudict.gif'> edudict.gif</a>
-			<a href='dls/sp/edudict.src'> edudict.src</a>
+			<a href='/dls/sp/edudict.gif'> edudict.gif</a>
+			<a href='/dls/sp/edudict.src'> edudict.src</a>
 		</ul>
 		<dt>Encyclopedia and Wikipedia (Rickz提供)
 		<dd><ul><li> 
 			<a href="#" onClick="addEngine('encyclopedia','gif','General' );">自動安裝</a>
 			<li> 手動安裝：
-			<a href='dls/sp/encyclopedia.gif'> encyclopedia.gif</a>
-			<a href='dls/sp/encyclopedia.src'> encyclopedia.src</a>
+			<a href='/dls/sp/encyclopedia.gif'> encyclopedia.gif</a>
+			<a href='/dls/sp/encyclopedia.src'> encyclopedia.src</a>
 		</ul>
 		<dt>顏元叔網路 英英/英漢辭典(ChenHsiu提供)
 		<dd><ul><li> 
 			<a href="#" onClick="addEngine('onlinedict','gif','General' );">自動安裝</a>
 			<li> 手動安裝：
-			<a href='dls/sp/onlinedict.gif'> onlinedict.gif</a>
-			<a href='dls/sp/onlinedict.src'> onlinedict.src</a>
+			<a href='/dls/sp/onlinedict.gif'> onlinedict.gif</a>
+			<a href='/dls/sp/onlinedict.src'> onlinedict.src</a>
 		</ul>
 		<dt>Yahoo-Kimo 中英字典
 		<dd><ul><li> 自動安裝：
 			<a href="#" onClick="addEngine('yhdic_ce','gif','General' );">中英</a>
 			<a href="#" onClick="addEngine('yhdic_ec','gif','General' );">英中</a>
 			<li> 手動安裝：
-			<a href='dls/sp/yhdic_ce.gif'> yhdic_ce.gif</a>
-			<a href='dls/sp/yhdic_ce.src'> yhdic_ce.src</a>
+			<a href='/dls/sp/yhdic_ce.gif'> yhdic_ce.gif</a>
+			<a href='/dls/sp/yhdic_ce.src'> yhdic_ce.src</a>
 			|
-			<a href='dls/sp/yhdic_ec.gif'> yhdic_ec.gif</a>
-			<a href='dls/sp/yhdic_ec.src'> yhdic_ec.src</a>
+			<a href='/dls/sp/yhdic_ec.gif'> yhdic_ec.gif</a>
+			<a href='/dls/sp/yhdic_ec.src'> yhdic_ec.src</a>
 		</ul>
 		<dt>全國圖書聯合目錄 (BobChao 提供)
 		<dd><ul><li>
 			<a href="javascript:;" onClick="addEngine('NBINet','png','General' );">自動安裝</a>
 			<li> 手動安裝：
-			<a href='dls/sp/NBINet.png'> NBINet.png</a>
-			<a href='dls/sp/NBINet.src'> NBINet.src</a>
+			<a href='/dls/sp/NBINet.png'> NBINet.png</a>
+			<a href='/dls/sp/NBINet.src'> NBINet.src</a>
 		</ul>
 	</dl>
 </div>

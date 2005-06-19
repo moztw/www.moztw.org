@@ -99,7 +99,7 @@
     <h2 style="margin-top: 0;">
       <a href="/news">最新消息與公告</a>
     </h2>
-	<!--#include virtual='news-latest.shtml' -->
+	<!--#include virtual="/inc/news.html" -->
 </div>
 	<br style="clear: both;">
 	<!-- span style='vertical-align: bottom; font-size: 60%; float: right;'>最後更新：
@@ -108,4 +108,4 @@
   </div>
 	<a href='news'>所有公告記錄</a>
   </div>
-<!--#include file="footer.html" -->
+<!--#include virtual="/inc/footer.html" -->

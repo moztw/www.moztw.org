@@ -2,10 +2,11 @@
 <!--#include virtual="/inc/title.html" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
+
 <H1>下載 Mozilla Thunderbird</H1>
 <div class='dlall'>
 <div><h3> 最新版本 </h3><ul>
-	<!--#include virtual='/dltb-latest.shtml' -->
+	<!--#include virtual="/inc/dltb-js.html" -->
 </ul>
 <br/>
 

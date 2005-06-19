@@ -118,6 +118,16 @@ a#featurelink { background: none;  }
 	padding-left: 80px;
 }
 
+.firefox-releasenotes {
+    background: url("/images/releasenotes-firefox.png") no-repeat;
+    padding-top: 70px !important;
+    width: 100% !important;
+}
+
+.important101text {
+    color: #FF0000;
+}
+
 .news .date {
 	width: 6em;
 }

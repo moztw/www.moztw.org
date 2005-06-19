@@ -1,5 +1,5 @@
-<!--#set var="my_title" value="Mozilla Firefox - Firefox Central" -->
-<!--#include virtual="/header_a.shtml" -->
+<!--#include virtual="/inc/meta.html" -->
+<title>Mozilla Firefox - Firefox Central</title>
 <style type="text/css">
 <!--
 #ffcentral-desc {
@@ -7,7 +7,9 @@ background: url("t-welcomefirefox.gif") no-repeat;
 }
 -->
 </style>
-<!--#include virtual="/header_b.shtml" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
+
 	<div class="key-point" id="ffcentral">
 		<div id="ffcentral-desc">
 			<div>

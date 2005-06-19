@@ -2,13 +2,14 @@
 <!--#include virtual="/inc/title.html" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
+
 <H1>下載 Mozilla Firefox</H1>
 <div class='dlall'>
 <div><h3> 最新版本 </h3><ul>
-	<!--#include file='dlff-latest.shtml' -->
+	<!--#include virtual="/inc/dlff-js.html" -->
 </ul>
 <H3>安裝語言套件 </H3><ul>
-<li><a href='/instlp'>安裝語言套件</a>
+<li><a href='/dl/langpack'>安裝語言套件</a>
 </ul>
 <br/>
 

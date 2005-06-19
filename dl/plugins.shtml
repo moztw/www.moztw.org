@@ -2,6 +2,7 @@
 <!--#include virtual="/inc/title.html" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
+
 <H1> Plugins </H1>
 這裡提供 Plugins 的鏈結(由於版權問題所以不直接提供下載檔案)。
 <ul>
@@ -11,4 +12,4 @@
 	    <a href="http://plugindoc.mozdev.org/zh-TW/windows.html"> Windows plugins (中文) </a>
 		<li><a href="http://home.netscape.com/plugins/"> Netscape Plugins 網站 </a>
 </ul>
-<!--#include virtual='inc/footer.html' -->
+<!--#include virtual="/inc/footer.html" -->

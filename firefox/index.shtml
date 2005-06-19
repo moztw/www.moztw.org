@@ -15,7 +15,7 @@
 		<div id="product-side">
 			<div class="download">
 				<h3>免費下載</h3>
-				<!--#include virtual='/dlff-js.shtml' -->
+				<!--#include virtual="/dlff-js.shtml" -->
 				</div><ul>
 			<li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
 			<li><a class="ancilliaryLink" href="/firefox/release">版本資訊</a></li>
