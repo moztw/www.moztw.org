@@ -15,7 +15,7 @@
  }
   -->
 </style>
-<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/class_docs.html" -->
 <!--#include virtual="/inc/header.html" -->
 
  <H3 class="dashbox"> Tips on Using Mozilla <br> 使用 Mozilla 的小技巧 </H3>

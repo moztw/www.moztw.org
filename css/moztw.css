@@ -1,6 +1,6 @@
 /* Mozilla Taiwan special overriding */
 pre, code {
-	font-family: "Lucida Console", "細明體", "Courier New", Courier, monospace;
+	font-family: "Lucida Console", "MingLi", "MingLiu", "Courier New", Courier, monospace;
 }
 
 .dlall div {
@@ -131,6 +131,38 @@ a#featurelink { background: none;  }
 .news .date {
 	width: 6em;
 }
+
+body.sectionDocs li#menu_docs a,
+body.sectionForum li#menu_forum a,
+body.sectionWiki li#menu_wiki a,
+body.sectionLinks li#menu_links a {
+    background-position: 0% -200px;
+    color: #039;
+}
+
+body.sectionDocs li#menu_docs,
+body.sectionForum li#menu_forum ,
+body.sectionWiki li#menu_wiki,
+body.sectionLinks li#menu_links {
+    background-position: 100% -200px;
+    border-bottom: 1px solid #fff;
+}
+
+body.sectionDocs li#menu_docs:hover,
+body.sectionForum li#menu_forum :hover,
+body.sectionWiki li#menu_wiki:hover,
+body.sectionLinks li#menu_links:hover {
+    background-position: 100% 0%;
+}
+
+body.sectionDocs li#menu_docs:hover a,
+body.sectionForum li#menu_forum :hover a,
+body.sectionWiki li#menu_wiki:hover a,
+body.sectionLinks li#menu_links:hover a{
+    background-position: 0% 0%;
+    color: #333;
+}
+
 
 /* 中文強調方式 */
 em {

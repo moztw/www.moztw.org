@@ -1,6 +1,6 @@
 <!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
-<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/class_docs.html" -->
 <!--#include virtual="/inc/header.html" -->
 
 <H3 class="dashbox"> Gecko Engine </H3>

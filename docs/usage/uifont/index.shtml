@@ -1,6 +1,6 @@
 <!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
-<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/class_docs.html" -->
 <!--#include virtual="/inc/header.html" -->
 	<H1> Updating Mozilla Font Size </H1>
 問題: Mozilla 的字 (尤其是 MacOS/UNIX 版) 太小了! 所以很難看; 怎麼變大?
