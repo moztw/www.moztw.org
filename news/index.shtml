@@ -8,8 +8,15 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+	<li><div class="date"> 4 月 19 日 </div>
+	Mozilla 推出 Firefox 1.0.3 安全更新版，請由首頁下載更新。
+	<li><div class="date"> 3 月 24 日 </div>
+	Mozilla 推出 <a href='/press/moztw-20050324'>Firefox 1.0.2 安全更新版</a>，
+	請下載更新。
 	<li><div class="date"> 1 月 30 日 </div>
 	擴充套件 Top 15 <a href='/firefox/extension_top_15/'>名單出爐！</a>
+	<li><div class="date"> 1 月 30 日 </div>
+	寄張 <a href='http://photos.moztw.org/thumbnails.php?album=7'>Firefox 新年賀卡</a> 給你的親朋好友吧！
 	<li><div class="date"> 12 月 11 日 </div>
 	<a href='/dls/tb/thunderbird-1.0.zh-TW.win32.installer.exe'>Thunderbird 1.0 (win32)</a>
 	中文版開放下載測試中！

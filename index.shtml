@@ -1,6 +1,15 @@
 <!--#include virtual="/inc/meta.html" -->
-<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <!--#include virtual="/inc/title.html" -->
+<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<!--
+#front-feature #feature-content {
+	padding-right: 350px;
+}
+#front-feature .download ul {
+	padding-left: 80px;
+}
+-->
+</style>
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
