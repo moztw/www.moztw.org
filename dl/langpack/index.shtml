@@ -3,7 +3,7 @@
 <style type='text/css'>
     .dlAll { display: none; }
 </style>
-<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/class_dl.html" -->
 <!--#include virtual="/inc/header.html" -->
 
 <script type="text/javascript">
