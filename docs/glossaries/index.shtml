@@ -1,0 +1,115 @@
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<style='text/css'>
+    DL {
+    float: left;
+    width: 30%;
+    }
+    em {
+    color: red;
+    }
+    i {
+    color: green;
+    }
+    DT {
+    color: blue;
+    }
+    H2 {
+    clear: both;
+    background: #eee;
+    }
+    H1 {
+    clear: both;
+    }
+    HR {
+    clear: both;
+    }
+</style>
+<!--#include virtual="/inc/class_docs.html" -->
+<!--#include virtual="/inc/header.html" -->
+<h1> Mozilla Traditional Chinese Glossaries </h1>
+這裡整理了部份翻譯詞彙表。<i>綠色斜體字</i>表示它的起源或建議者。<br/>
+詞彙的選擇，一向都無可避免有主觀的問題。
+不敢說這裡的選擇就是完美的，不過會盡量參考下列的準則取捨:
+<ul>
+    <li>正確性，表意跟易懂重於字面的直譯
+    <li>「本地化」而非單純翻譯，重臺灣地區的用法而非其它中文地區
+    <li>社群意見
+</ul>
+
+<h2> 較不常見的名詞</h2>
+<DL>
+<DT>Sidebar</DT><DD><b>資訊方塊列</b> (thanks to <i>clkao</i>):
+Sidebar 在 IE 中稱為瀏覽(器)列，簡單的說就是左邊的直排。
+早期在 Mozilla 上的 Sidebar 是有一堆元件的，
+當初試了很多名詞總覺得都不好達意， clkao 建議說當時 elixus
+有些類似的東西，上面一個個的元件稱之為資訊方塊，
+於是這名詞就一路延用至今。
+</DD>
+</DL><DL>
+<DT>Go</DT><DD><b>衝</b> (thanks to <i>kcwu</i>):
+英文的 "Go" 簡潔卻又強而有力，中文翻成「移至」「瀏覽」的話，
+過長(因為 Go 通常會放在很小的一格)且不夠力；若是「去」「到」
+又難以表意，kcwu 建議的「衝」則在提出時獲得大部份人的贊同。
+不過由於這個翻法有點過度有創意了，以前它只出現在 Phoenix 中文版上（當時的
+Phoenix 定位就是「非官方版」），只是日換星移，曾幾何時 Phoenix
+成為 Firefox 並反客為主成為正式產品，所以這個詞也受到一些質疑。
+目前仍在尋找更合適、更正式的翻法。
+</DD>
+</DD>
+</DL><DL>
+<DT>Traditional Chinese</DT><DD><b>正體中文</b>:
+這可能是 Mozilla 中文化有始以來爭議最多的名詞 -- 正體或繁體？
+(台北市政府有份<a href="http://www.taipei.gov.tw/cgi-bin/SM_theme?page=42241d78&p=/41f46a99/42119aed/42241d78">「推行使用正體字說帖」</a>可以參考)
+以前的 FAQ 或論戰也多到不計其數了，像什麼正統、有歧視或政治的色彩、
+或是已有約定成俗等等的說法，
+其實不管那些，我(piaip)個人的想法是，
+<em>一個國家的語言要怎麼自己稱呼自己應該是那個國家自己可以決定的</em>。
+就好像當年凱達格蘭大道改名，還不是有約定成俗的舊稱？一樣有各種含義的可能性？
+但這是國家決定的，決定後如果真的不合適就該用正確的方式去尋求改變，
+否則就應該尊重它。 個人對這個詞是否有政治或其它意圖沒興趣，
+堅持使用它的理由是 "Traditional Chinese" 正式翻法由我國規定就是叫「正體中文」。
+<a href='http://www.mofa.gov.tw/'>外交部</a>也是使用這個翻法。
+雖說追求易懂，但人名地名這種東西不能亂改，同理語言名也是。
+</DL>
+<h2> SSL 相關專有名詞</h2>
+<DL>
+    <DT>Certificate</DT>
+    <DD>憑證 <i>(imacat)</i></DD>
+    <DT>Authentication</DT>
+    <DD>驗證 <i>(imacat)</i></DD>
+</DL>
+<DL>
+    <DT>CA</DT>
+    <DD>認證中心 <i>(imacat)</i> </DD>
+</DL>
+<DL>
+    <DT>CA Root</DT>
+    <DD>最高層認證中心 <i>(imacat)</i></DD>
+</DL>
+<h2> 一般性名詞 </h2>
+<DL>
+    <DT>Theme</DT><DD>佈景主題</DD>
+    <DT>Extension</DT><DD>擴充套件</DD>
+    <DT>Title</DT><DD>標題</DD>
+    <DT>Subject</DT><DD>主題</DD>
+    <DT>Caption</DT><DD>題要</DD>
+</DL><DL>
+    <DT>Panel</DT><DD>面板</DD>
+    <DT>Tab(Window)</DT><DD>分頁</DD>
+    <DT>Heading</DT><DD>段落標題</DD>
+    <DT>Header(Mail)</DT><DD>(欄位標題?)</DD>
+</DL><DL>
+    <DT>Flag(Mail)</DT><DD>標註</DD>
+    <DT>Preference</DT><DD>偏好設定</DD>
+    <DT>Type Ahead Find</DT><DD>隨打即找 (by jwbai)</DD>
+    <DT>Filter</DT><DD>過濾器</DD>
+</DL>
+<h2> Old glossary database </h2>
+<ul>
+    <li><a href='MozillaGlossary.txt.bz2'>Misc Mozilla glossaries</a>
+    <li><a href='fb06_glos_zhTW.txt.bz2'>Firebird 0.6 full glossary</a>
+    <li><a href='moz14_glos_zhTW.txt.bz2'>Mozilla 1.4 full glossary</a>
+    <li><a href='tb01a_glos_zhTW.txt.bz2'>Thunderbird 0.1a glossary</a>
+</ul>
+<!--#include virtual="/inc/footer.html" -->
