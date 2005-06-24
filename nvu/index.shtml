@@ -4,50 +4,50 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div style='text-align: center;'>
-<img src='/images/product-nvu-screen.jpg' alt='nvu banner'>
+    <img src='/images/product-nvu-screen.jpg' alt='nvu banner'>
 </div>
-	<div id="mainContent" class="right">
-		<h2> NVU </h2>
-		<p>
-		<a href='http://www.nvu.com'>NVU</a> 是一套同樣以 Mozilla 
-		為核心的網頁編輯器 (就像市面上常見的 FrontPage 或是 
-		Dreamweaver 等等網頁編輯程式)，
-		目前由 <a href='http://www.linspire.com/'>Linspire</a>
-		(以前的 Lindows) 主導開發。
-		</p> <p>
-		承襲了 Mozilla 的特色， NVU 是一套開放源碼(Open Source)、
-		跨平台(Cross Platform)、免費的程式， 任何人都可以自由下載使用。
-		</p>
-	      <h2 class='courier'>moztw.org 免責聲明</h2>
-		  <dl id="quotes">
-		  <h3>NVU 非官方正體中文版</h3>
-		  <p><strong>NVU</strong> 系列目前沒有正式授權
-		  Traditional Chinese 正體中文版的發行，臺灣 Mozilla
-		  中文化小組 (moztw.org) 為了推廣 Mozilla 與 NVU
-		  特別製作了這邊的中文版。
+<div id="mainContent" class="right">
+    <h2> NVU </h2>
+    <p>
+    <a href='http://www.nvu.com'>NVU</a> 是一套同樣以 Mozilla 
+    為核心的網頁編輯器 (就像市面上常見的 FrontPage 或是 
+    Dreamweaver 等等網頁編輯程式)，
+    目前由 <a href='http://www.linspire.com/'>Linspire</a>
+    (以前的 Lindows) 主導開發。
+    </p> <p>
+    承襲了 Mozilla 的特色， NVU 是一套開放源碼(Open Source)、
+    跨平台(Cross Platform)、免費的程式， 任何人都可以自由下載使用。
+    </p>
+    <h2 class='courier'>moztw.org 免責聲明</h2>
+    <dl id="quotes">
+	<h3>NVU 正體中文版</h3>
+	<p>目前 <strong>NVU</strong> 的官方單位 Linspire 並不提供
+	其它語言版本的支援與服務，但也不特別反對社群自行製作本地化的版本。
+	所以目前 Traditional Chinese 正體中文版的發行，是臺灣 Mozilla
+	中文化小組 (moztw.org) 為了推廣 Mozilla 與 NVU
+	特別製作的。 
 
-		  <p>中文版的製作是基於使用與 Mozilla 本地化同樣的技術，
-		  並沒有重新編譯任何程式碼，
-		  只有修改語系資源檔以及修改安裝程序檔 (script)。
+	<p>中文版的製作是基於使用與 Mozilla 本地化同樣的技術，
+	並沒有重新編譯任何程式碼，
+	只有修改語系資源檔以及修改安裝程序檔 (script)。
 
-		  <p>但由於未取得 NVU (Linspire) 公司正式的授權，
-		  所以請記得在這裡取得的版本僅供測試，
-		  NVU 本身以及實際重製的 moztw.org 
-		  並不為這些版本提供任何保障。
+	<p>原則上此版本有取得相關單位(NVU Linspire)的同意，
+	但請記得在這裡取得的版本並不能算是原始版本，
+	NVU 本身以及實際重製的 moztw.org 
+	仍然不會為這些版本提供任何保障、支援或服務。
 
-		  <p>有問題請利用 <a href='http://forum.moztw.org/viewforum.php?f=19'>
-		  討論區</a>，不過如前所言， moztw.org 還是以
-		  Mozilla 相關產品為主。 NVU 只算暫時的支援，
-		  所以請保持您的耐心，謝謝。
-	</div>
-    <div id="side" class="right">
-<div class="download">
-	<h3>馬上下載</h3>
-	<!--#include virtual="/inc/dlnvu.html" -->
-</div>
-      <h3>資源與鏈結</h3>
-      <ul class="compact">
-	      <li><a href="http://nvu.com/">NVU 官方網站(英)</a>
-      </ul>
+	<p>有問題請利用 <a href='http://forum.moztw.org/viewforum.php?f=19'>
+	    討論區</a>，不過如前所言， moztw.org 還是以
+	Mozilla.org 相關產品的討論為主，所以請保持您的耐心，謝謝。
     </div>
-<!--#include virtual="/inc/footer.html" -->
+    <div id="side" class="right">
+	<div class="download">
+	    <h3>馬上下載</h3>
+	    <!--#include virtual="/inc/dlnvu.html" -->
+	</div>
+	<h3>資源與鏈結</h3>
+	<ul class="compact">
+	    <li><a href="http://nvu.com/">NVU 官方網站(英)</a>
+	</ul>
+    </div>
+    <!--#include virtual="/inc/footer.html" -->
