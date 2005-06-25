@@ -73,8 +73,8 @@
 	<h3>[CVS snapshot] &nbsp;</h3>
 	如果你想自行編譯中文版，可利用 Mozilla CVS 中的 zh-TW locale。<br/>
 	目前只有 Firefox 1.0 branch 有提供這個部份，請用下列命令：
-	<code style='margin: 3px; padding: 1px; border: 1px solid #ccc;'
->cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/l10n checkout -rAVIARY_1_0_20040515_BRANCH mozilla</code>
+	<div style='margin: 3px; padding: 1px; border: 1px solid #ccc;'
+>cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/l10n checkout -rAVIARY_1_0_20040515_BRANCH mozilla</div>
 	<p>我們另外也提供送交 CVS 的副本。 把下列檔案解壓縮到適當的位置後編譯即可：
 	<p><a href='/dls/ff/firefox-CVS-localesrc-zhTW.tar.bz2'><b>Firefox zh-TW locale,</b></a>
 	Last update: <!--#flastmod virtual="/dls/ff/firefox-CVS-localesrc-zhTW.tar.bz2" --><br/>
