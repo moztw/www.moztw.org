@@ -7,7 +7,10 @@
 <!--#include virtual="/inc/header.html" -->
 
 <H1>下載 NVU </H1>
-注意，由於版權問題，這裡提供的是非官方的中文版。<br/>
+原則上這裡的版本有取得相關單位(NVU Linspire)的同意，
+但請記得在這裡取得的版本並不能算是原始版本，
+NVU 本身以及實際重製的 moztw.org 
+仍然不會為這些版本提供任何保障、支援或服務。
 <div class='dlall'>
 <div><h3> 最新版本 </h3><ul>
 	<!--#include virtual="/inc/dlnvu.html" -->
@@ -15,8 +18,17 @@
 <br/>
 
 <div style='width: 30%;'>
+<h3> 0.50</h3><ul>
+<li><a title="MD5: 2095f8f6604bc3bbaa86efa14ca02cc5" href="/dls/nvu/nvu-0.50-win32-zhTW-installer.exe">Windows</a></li>
+<li><a title="MD5: 11fe445a31e73e570d2533f4258bbd2e" href="/dls/nvu/nvu-0.50-pc-fedora2-zhTW.tar.gz">Linux(Fedora2)</a></li>
+<li><a title="MD5: da59deedfb6ab569f1cb1effa2044c28" href="/dls/nvu/nvu-0.50-pc-linux-gnu-zhTW.tar.gz">Linux(Debian 或其它)</a></li>
+<li><a title="" href="/dls/nvu/jaronly/0.50/en-US.jar">0.5 語言資源檔(各平台通用)</a><br/>
+<span style='font-size: 12px; color: #44f;'>語言資源檔可將已安裝的英文版轉換為中文，
+請將下載後的 en-US.jar 拿去蓋掉已安裝 NVU 目錄下 chrome 子目錄內的 en-US.jar 即可。</span>
+</li>
+</ul>
 <h3> 0.45</h3><ul>
-	<li><a title="MD5: dbd3bb0b7e12e303c7cc77796c3833e2" href='/dls/nvu/nvu-0.41-win32-zhTW-installer.exe'>Windows</a></li>
+<li><a title="MD5: dbd3bb0b7e12e303c7cc77796c3833e2" href='/dls/nvu/nvu-0.41-win32-zhTW-installer.exe'>Windows</a></li>
 </ul>
 </div>
 </div>
