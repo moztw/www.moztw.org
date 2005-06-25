@@ -1,8 +1,6 @@
-<!--#set var="my_title" value="Mozilla Firefox - rediscover the web!" -->
-<!--#set var="page_class" value="deepLevel" -->
 <!--#include virtual="/inc/meta.html" -->
-<!--#include virtual="/inc/title.html" -->
-<!--#include virtual="/inc/class.html" -->
+<title>Mozilla Firefox 中文版 - 重新體驗網路 - Mozilla Taiwan, MozTW.org</title>
+<!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point">
