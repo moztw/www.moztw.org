@@ -27,7 +27,7 @@
     <h2 class='courier'>moztw.org 免責聲明</h2>
     <dl id="quotes">
 	<h3>Netscape 非官方正體中文版</h3>
-	<p>由於<strong>Netscape</strong> 系列目前沒有
+	<p>由於<strong>Netscape</strong> (網景) 系列目前沒有
 	Traditional Chinese 正體中文版的發行，所以臺灣 Mozilla
 	中文化小組 (moztw.org) 為了推廣 Mozilla 與 Netscape
 	特別製作了這邊的中文版。
@@ -40,17 +40,23 @@
 	所以請記得在這裡取得的版本僅供測試，
 	Netscape 本身以及實際重製的 moztw.org 
 	並不為這些版本提供任何保障。
+	
+<h3>Netscape 8</h3>
+	<p>Netscape 目前的最新的版本是8.0.2, 目前官方沒有發行任何中文版</p>
+	
+	<p>Netscape 8 是以 Firefox 1.0.x 為基礎，有安全核心。也保證網頁不會版面或功能亂掉，即使這些網頁是專是為 IE 設計。使用開放原始碼和支持標準的 Firefox 1.0 核心，網站控制允許你調整安全級（Java、JavaScript、cookies 選項）允許你在必要時切換使用 IE 核心給某網頁。</p>
 
-	<p>有問題請利用 <a 
-	    href='http://forum.moztw.org/viewforum.php?f=5'>
-	    討論區</a>，不過如前所言， moztw.org 還是以
+	<p>有問題請利用 <a href='http://forum.moztw.org/viewforum.php?f=5'>Netscape 討論區</a>，不過如前所言， moztw.org 還是以
 	Mozilla 相關產品為主。 Netscape 只算暫時的支援，
 	所以請保持您的耐心，謝謝。
     </div>
     <div id="side" class="right">
 	<h3>資源與鏈結</h3>
 	<ul class="compact">
-	    <li><a href="http://plugins.netscape.com/">更多 Plug-ins</a>
+	    <li><a href="http://browser.netscape.com/ns8/community/plugin.jsp">更多 Plug-ins</a>
+	    <li><a href="http://browser.netscape.com/ns8/download/default.jsp">下載 Netscape 8</a> (英文版)
+	    <li><a href="http://wiki.moztw.org/index.php/Netscape_FAQ">Netscape FAQ 專區</a> (MozTW Wiki)
+	    <li><a href="http://sillydog.org/narchive/">Netscape Browser Archive</a> - 所有網景瀏覽器版本的下載中心。 (英語)
 	</ul>
     </div>
     <!--#include virtual="/inc/footer.html" -->
