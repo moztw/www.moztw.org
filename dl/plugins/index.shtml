@@ -9,10 +9,13 @@
 <H1> Plugins </H1>
 這裡提供 Plugins 的鏈結(由於版權問題所以不直接提供下載檔案)。
 <ul>
-	<li><a href='http://java.sun.com/j2se/'> Java 2 (Sun) </a>
-	<li><a href='http://www.flash.com'>Macromedia Flash</a>
-	<li><a href='http://plugindoc.mozdev.org/'> Mozilla 官方 plugins 整理網站 </a><br/>
-	    <a href="http://plugindoc.mozdev.org/zh-TW/windows.html"> Windows plugins (中文) </a>
-	<li><a href="http://home.netscape.com/plugins/"> Netscape Plugins 網站 </a>
+	<li><a href='http://www.apple.com.tw/quicktime/download/'>QuickTime Player</a> (Apple, 中文)
+	<li><a href='http://www.flash.com'>Macromedia Flash Player</a> (Macromedia)
+	<li><a href='http://www.adobe.com/products/acrobat/readstep2.html'>Adobe Reader</a> (Adobe, 前名: Acrobat Reader)
+	<li><a href='http://java.sun.com/j2se/'>Java 2</a> (Sun)
+	<li><a href='http://www.realnetworks.com/'>RealPlayer</a> (Real Networks)
+	<li><a href='http://plugindoc.mozdev.org/'>Mozilla 官方 plugins 整理網站 </a><br/>
+	    - <a href="http://plugindoc.mozdev.org/zh-TW/windows.html"> Windows plugins (中文) </a>
+	<li><a href="http://browser.netscape.com/ns8/community/plugin.jsp"> Netscape Plugins 網站 </a>
 </ul>
 <!--#include virtual="/inc/footer.html" -->
