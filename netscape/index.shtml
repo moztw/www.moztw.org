@@ -26,7 +26,7 @@
 <div id="mainContent" class="right">
     <h2 class='courier'>moztw.org 免責聲明</h2>
     <dl id="quotes">
-	<h3>Netscape 非官方正體中文版</h3>
+	<h3>Netscape 非官方正體中文版 (Netscape 7.2)</h3>
 	<p>由於<strong>Netscape</strong> (網景) 系列目前沒有
 	Traditional Chinese 正體中文版的發行，所以臺灣 Mozilla
 	中文化小組 (moztw.org) 為了推廣 Mozilla 與 Netscape
@@ -45,6 +45,8 @@
 	<p>Netscape 目前的最新的版本是8.0.2, 目前官方沒有發行任何中文版</p>
 	
 	<p>Netscape 8 是以 Firefox 1.0.x 為基礎，有安全核心。也保證網頁不會版面或功能亂掉，即使這些網頁是專是為 IE 設計。使用開放原始碼和支持標準的 Firefox 1.0 核心，網站控制允許你調整安全級（Java、JavaScript、cookies 選項）允許你在必要時切換使用 IE 核心給某網頁。</p>
+
+	<p>Netscape 8 目前只有 Windows 版本。</p>
 
 	<p>有問題請利用 <a href='http://forum.moztw.org/viewforum.php?f=5'>Netscape 討論區</a>，不過如前所言， moztw.org 還是以
 	Mozilla 相關產品為主。 Netscape 只算暫時的支援，
