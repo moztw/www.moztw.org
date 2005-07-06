@@ -1,0 +1,76 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>Camino - Mozilla 的威力、Mac 的風格 - Mozilla Taiwan, MozTW.org</title>
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+<div class="key-point">
+    <div id="product-desc" class="product-camino">
+	<h2>Camino: Mozilla 的威力、Mac 的風格</h2>
+	<p>
+	能代替 Mozilla Firefox 的另一個 Mac OS X 瀏覽器再進化！Camino 0.8 增加了許多方便新功能、更快的效能、更佳的穩定性及改良後的佈局引擎。
+	</p>
+    </div>
+    <div id="product-side">
+	<div class="download">
+		<h3>免費下載</h3>
+		   Mac OS X 專用<br>
+		<ul>
+		<li><a href="http://download.mozilla.org/?product=firefox-1.0.4&os=osx&lang=zh-TW" title="MD5: 57abafd2b9e459ecfae0941f465f7abd"> 0.8.4 國際版 (8.7M) </a>
+		</ul>
+		<p>國際版包含了正體中文在內的 17 種語言。</p>
+		</div><ul>
+	    <li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
+	    <li><a class="ancilliaryLink" href="/firefox/release">版本資訊</a></li>
+	</ul>
+
+    </div>
+</div>
+<div id="mainContent" class="right">
+    <h3>使用 Camino 的理由</h3>
+    <p>&ldquo;<strong>It's brisk, baby.</strong>&rdquo;<em> - <a href="http://gigaom.com/2005/06/25/camino-09-its-brisk-baby/">Om Malik</a> of Business 2.0</em></p>
+    <p>&ldquo;<strong>Best. Browser. Ever.</strong>&rdquo;<em>- Justin Collins</em></p>
+    <p>&ldquo;<strong>Camino offers top-notch performance, elegant tabbed browsing, and an easy way to view and hide histories and bookmarks.</strong>&rdquo;<em> - John Rizzo, <a href="http://www.cnet.com/">c|Net</a></em></p>
+    <dl id="features">
+	<dt>Gecko 佈局引擎</dt>
+	<dd>Camino 使用與 Firefox 相同的 Gecko 佈局引擎，支援最新的 W3C 標準，能給您最佳的瀏覽體驗。</dd>
+	
+	<dt>Mac OS X 原生介面</dt>
+	<dd>Camino 以 Cocoa 使用者介面撰寫而成，並針對 Mac OS X 做了最佳化處理。能與 Mac OS X 緊密結合。</dd>
+	
+	<dt>友善的操作介面</dt>
+	<dd>Camino 重新設計過的操作介面使瀏覽網路變的非常簡單，並內建所有新世代瀏覽器必備的分頁瀏覽與彈出型視窗阻擋等功能。<a href="/docs/ff/tabbed-browsing">相關資訊...</a></dd>
+
+	<dt>方便的 Google 搜尋</dt>
+	<dd>在工具列中便已內建 Google 搜尋功能，讓您彈指之間找到您想要瀏覽的網站。</dd>
+
+	<dt>隱私及安全</dt>
+	<dd>Camino 能讓您用簡單的方式管理或刪除您在網路上留下的 Cookies、歷史紀錄、快取及下載的檔案。</dd>
+
+	<dt>更有效率</dt>
+	<dd>Camino 提供了方便的鍵盤快速鍵供您使用。遇上需要登入的網頁，Camino 也能自動幫您填入所需的登入資訊。</dd>
+    </dl>
+</div>
+<div id="side" class="right">
+    <h3>系統需求</h3>
+    <ul class="compact">
+	<li>Mac OS X 10.1.5 或更新版本</li>
+    <li>Mac OS X 10.1.5 的使用者需要下載 MRJPlugin 以使 Java 能正常使用</li>
+    <li>128 MB 記憶體</li>
+    <li>30 MB 可用的磁碟空間</li>
+    <li>0.9a1 與逐日建製版需要 Mac OS X 10.2 或更高版本</li>
+	</ul>
+	
+    <h3>其它資源與鏈結</h3>
+    <ul class="compact">
+	<li><a href="http://update.mozilla.org/?application=firefox">查閱釋出備註(Release Notes)</a></li>
+	<li><a href="http://www.mozilla.org/support/firefox/">下載外掛程式</a></li>
+	<li><a href="http://www.spreadfirefox.com/">Camino 本地化專案</a></li>
+	<li><a href="http://forums.mozillazine.org/viewforum.php?f=38">MozTW Camino 討論區</a></li>
+	<li><a href="http://forums.mozillazine.org/index.php?c=4">問題回報與官方討論區(英)</a></li>
+    </ul>
+
+    <h3>技術預覽版</h3>
+    <p>雖然 Camino 已經足以作為您日常生活上的主要瀏覽器，但是在 1.0 版釋出之前，我們並不保證軟體的穩定性。請查看授權協議來獲得更多資訊。</p>
+    </div>
+</div>
+<!--#include virtual="/inc/footer.html" -->
