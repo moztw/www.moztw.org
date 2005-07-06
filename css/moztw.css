@@ -91,6 +91,11 @@ div#firefox-feature div.download{
 	background: url("/images/product-nvu-screen.jpg") no-repeat;
 }
 
+.product-camino {
+	background: url("/images/product-camino-screen.jpg") no-repeat;
+}
+
+
 .courier {
 	/* this is for showing 'moztw.org' in header. */
 	font-family: courier, mono;
