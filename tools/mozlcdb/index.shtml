@@ -69,7 +69,7 @@ You  need these stuff:
 Get these files:
 <ul>
 	<li>Latest version: <a href='archive/mozlcdb_latest.zip'> 
-		<!--#flastmod file='archive/mozlcdb_latest.zip' --> </a> (hack on your own!)
+		<!--#flastmod virtual="archive/mozlcdb_latest.zip" --> </a> (hack on your own!)
 	<li>Releases: <ul>
 	<li><a href='archive/mozlcdb_v0.2.zip'> Version 0.2 </a>(Stable, approved with FF1.0/TB0.8)</li>
 	<li><a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a>(a little buggy)</li>
