@@ -18,67 +18,74 @@
 
 <div style='width: 30%;'>
 
+<h3> 1.0.6 </h3><ul>
+<li><a title='MD5: 462443d3d295ceee3184ea2847a49974' href="/dls/fx/1.0.6/Firefox Setup 1.0.6.exe"> Windows (4.7M) </a>
+<li><a title='MD5: e7c6e3adf3a715d7788298a5d9c52bd4' href="/dls/fx/1.0.6/firefox-1.0.6.installer.tar.gz"> Linux (安裝檔) </a>
+<li><a title='MD5: 73d94b0b0a53e3bda5a7c8c758ad0a9c' href="/dls/fx/1.0.6/firefox-1.0.6.tar.gz"> Linux (直接解壓執行) </a>
+<li><a title='MD5: bc3886b21bef9e2ee4d69f35a24ce25e' href="/dls/fx/1.0.6/Firefox 1.0.6.dmg"> MacOSX (DMG) </a>
+</ul>
+
 <h3> 1.0 </h3><ul>
-<li><a title='MD5: f9788988999c3103f7db25b50e56b99a' href="/dls/ff/1.0/win32/zh-TW/Firefox Setup 1.0.exe"> Windows (4.6M) </a>
-<li><a title='MD5: 302f87e78e8987fdd201aaf57b571b92' href="/dls/ff/1.0/linux-i686/zh-TW/firefox-1.0.installer.tar.gz"> Linux (Installer) </a>
-<li><a title='MD5: 1024fa9b38f1fec42abcf9f1887193df' href="/dls/ff/1.0/linux-i686/zh-TW/firefox-1.0.tar.gz"> Linux (直接解壓執行) </a>
-<li><a title='MD5: 04b5441cc75a60f35fc92d07d90ede93' href="/dls/ff/1.0/mac/zh-TW/Firefox 1.0.dmg.gz"> MacOSX (DMG+gz) </a>
+<li><a title='MD5: f9788988999c3103f7db25b50e56b99a' href="/dls/fx/1.0/win32/zh-TW/Firefox Setup 1.0.exe"> Windows (4.6M) </a>
+<li><a title='MD5: 302f87e78e8987fdd201aaf57b571b92' href="/dls/fx/1.0/linux-i686/zh-TW/firefox-1.0.installer.tar.gz"> Linux (Installer) </a>
+<li><a title='MD5: 1024fa9b38f1fec42abcf9f1887193df' href="/dls/fx/1.0/linux-i686/zh-TW/firefox-1.0.tar.gz"> Linux (直接解壓執行) </a>
+<li><a title='MD5: 04b5441cc75a60f35fc92d07d90ede93' href="/dls/fx/1.0/mac/zh-TW/Firefox 1.0.dmg.gz"> MacOSX (DMG+gz) </a>
 </ul>
 
 <h3> 1.0PR </h3><ul>
-<li><a title="MD5: 8c2a1f4b0e51633d78a70f129c3babb5" href="/dls/ff/Firefox-1.0PR-win32-zhTW.exe">Windows (4.4MB)</a></li>
-<li><a title="MD5: 5b0b25761b3d2d97b43567fd1d6c7e7b" href="/dls/ff/Firefox-1.0PR-linux-zhTW.tar.gz"> Linux (8.3M 安裝檔) </a>
+<li><a title="MD5: 8c2a1f4b0e51633d78a70f129c3babb5" href="/dls/fx/Firefox-1.0PR-win32-zhTW.exe">Windows (4.4MB)</a></li>
+<li><a title="MD5: 5b0b25761b3d2d97b43567fd1d6c7e7b" href="/dls/fx/Firefox-1.0PR-linux-zhTW.tar.gz"> Linux (8.3M 安裝檔) </a>
 </ul>
+
+</div>
+
+<div style='width: 30%;'>
 
 <h3> 0.9 </h3><ul>
-<li><a title='MD5: 777eb0150536f48543ae4548f9dabd82' href="/dls/ff/Firefox-0.9.1-win32-zhTW.exe"> 0.9.1 Windows (4.6M) </a>
-<li><a title='MD5: 29c0f2e08530edb4538014f12184c9d5' href="/dls/ff/Firefox-0.9.0-win32-zhTW.exe"> Windows (4.6M) </a>
-<li><a title='MD5: ec7e30a1ef497e82531ed6a0320c283e' href="/dls/ff/Firefox-0.9-linux-zhTW.tar.bz2"> Linux (bz2) </a>
-<li><a title='MD5: d602dea834e77abe2f41f594b7f5e337' href="/dls/ff/Firefox-0.9-mac-zhTW.dmg.gz"> MacOSX (DMG+gz) </a>
+<li><a title='MD5: 777eb0150536f48543ae4548f9dabd82' href="/dls/fx/Firefox-0.9.1-win32-zhTW.exe"> 0.9.1 Windows (4.6M) </a>
+<li><a title='MD5: 29c0f2e08530edb4538014f12184c9d5' href="/dls/fx/Firefox-0.9.0-win32-zhTW.exe"> Windows (4.6M) </a>
+<li><a title='MD5: ec7e30a1ef497e82531ed6a0320c283e' href="/dls/fx/Firefox-0.9-linux-zhTW.tar.bz2"> Linux (bz2) </a>
+<li><a title='MD5: d602dea834e77abe2f41f594b7f5e337' href="/dls/fx/Firefox-0.9-mac-zhTW.dmg.gz"> MacOSX (DMG+gz) </a>
 </ul>
 
-<h3>0.8</h3><ul>
-<li><a title='MD5: 0e1092b38f7292705deedeadc9fff1ad' href="/dls/ff/Firefox-0.8-win32-zhTW.exe"> Windows (6.7M) </a>
-<li><a title='MD5: c08fa9d69125497e101fc527a1a9d9f9' href="/dls/ff/Firefox-0.8-linux-gnu-zhTW.tar.bz2"> Linux (bz2) </a>
+<h3>Firefox 0.8</h3><ul>
+<li><a title='MD5: 0e1092b38f7292705deedeadc9fff1ad' href="/dls/fx/Firefox-0.8-win32-zhTW.exe"> Windows (6.7M) </a>
+<li><a title='MD5: c08fa9d69125497e101fc527a1a9d9f9' href="/dls/fx/Firefox-0.8-linux-gnu-zhTW.tar.bz2"> Linux (bz2) </a>
 </ul>
 
-<h3>0.7</h3><ul>
-<li><a title="MD5: 9bb288efc09d2b259b4a50b433d246ef" href="/dls/ff/MozillaFirebird-0.7-win32-zhTW.exe"> Windows (6.7M) </a>
-<li><a title="MD5: 58b7ce92a5c3d00913bc580bbd504f9f" href="/dls/ff/MozillaFirebird-0.7-linux-gnu-zhTW.tar.gz"> Linux (tgz) </a>
+<h3>Mozilla Firebird 0.7</h3><ul>
+<li><a title="MD5: 9bb288efc09d2b259b4a50b433d246ef" href="/dls/fx/MozillaFirebird-0.7-win32-zhTW.exe"> Windows (6.7M) </a>
+<li><a title="MD5: 58b7ce92a5c3d00913bc580bbd504f9f" href="/dls/fx/MozillaFirebird-0.7-linux-gnu-zhTW.tar.gz"> Linux (tgz) </a>
 </ul>
 
-</div>
-
-<div style='width: 30%;'>
-
-<h3>0.6</h3><ul>
-<li><a title="MD5: 788b809e65b05acca6e04dfd3c0cdd5f" href="/dls/ff/MozillaFirebird-0.6-win32-zhTW-installer.exe"> Windows (5.4M) </a>
-<li><a title="MD5: 32ff32aadf81d5647218ec3ccb81554c" href="/dls/ff/MozillaFirebird-0.6-i686-pc-linux-gnu-zhTW.tar.gz"> Linux (9.6M) </a>
-</ul>
-
-<h3>0.5</h3><ul>
-<li><a title="MD5: bea6be96c5c64fbacfba629db8afe34e" href="/dls/ff/phoenix-0.5-win32-zhTW-installer.exe"> Windows (5.6M) </a>
-<li><a title="MD5: 7413f5b6aa450588101dd43ff035ec5a" href="/dls/ff/phoenix-0.5-i686-pc-linux-gnu-zhTW.tar.gz"> Linux (9.0M) </a>
+<h3>Mozilla Firebird 0.6</h3><ul>
+<li><a title="MD5: 788b809e65b05acca6e04dfd3c0cdd5f" href="/dls/fx/MozillaFirebird-0.6-win32-zhTW-installer.exe"> Windows (5.4M) </a>
+<li><a title="MD5: 32ff32aadf81d5647218ec3ccb81554c" href="/dls/fx/MozillaFirebird-0.6-i686-pc-linux-gnu-zhTW.tar.gz"> Linux (9.6M) </a>
 </ul>
 
 </div>
 
 <div style='width: 30%;'>
 
-<h3>0.4</h3><ul>
-<li><a title="MD5: e188acca35fa5244c7f1c793893f86e1" href="/dls/ff/phoenix-0.4-win32-zhTW-installer.exe"> Windows (5.6M) </a>
-<li><a title="MD5: 594aa9a3d16ec14e1c4ed8f4d170c360" href="/dls/ff/phoenix-0.4-i686-pc-linux-gnu-zhTW.tgz"> Linux (9.4M) </a>
-<li><a title="MD5: f7ce3a593db74c0d351e9554e4e8945f" href="/dls/ff/phoenix-0.4-freebsd4.7-zhTW.tar.gz"> FreeBSD 4.7 (10.1M) </a>
+<h3>Phoenix 0.5</h3><ul>
+<li><a title="MD5: bea6be96c5c64fbacfba629db8afe34e" href="/dls/fx/phoenix-0.5-win32-zhTW-installer.exe"> Windows (5.6M) </a>
+<li><a title="MD5: 7413f5b6aa450588101dd43ff035ec5a" href="/dls/fx/phoenix-0.5-i686-pc-linux-gnu-zhTW.tar.gz"> Linux (9.0M) </a>
 </ul>
 
-<h3>0.3</h3><ul>
-<li><a title="MD5: ebd4b0243b829662393e8c4ea5e8a4e9" href="/dls/ff/phoenix-0.3-win32-zhTW-installer.exe"> Windows (6.2M) </a>
-<li><a title="MD5: 7d8b80a089c624bfe2dc3061e8e98ed3" href="/dls/ff/phoenix-0.3-i686-pc-linux-gnu-zhTW.tgz"> Linux (9.3M) </a>
-<li><a title="MD5: d2941cae8e551b0c65a4c4341eb4d04b" href="/dls/ff/phoenix-0.3-os2-zhTW.zip"> OS/2 (12.6M) </a>
+<h3>Phoenix 0.4</h3><ul>
+<li><a title="MD5: e188acca35fa5244c7f1c793893f86e1" href="/dls/fx/phoenix-0.4-win32-zhTW-installer.exe"> Windows (5.6M) </a>
+<li><a title="MD5: 594aa9a3d16ec14e1c4ed8f4d170c360" href="/dls/fx/phoenix-0.4-i686-pc-linux-gnu-zhTW.tgz"> Linux (9.4M) </a>
+<li><a title="MD5: f7ce3a593db74c0d351e9554e4e8945f" href="/dls/fx/phoenix-0.4-freebsd4.7-zhTW.tar.gz"> FreeBSD 4.7 (10.1M) </a>
 </ul>
 
-<h3>0.2</h3><ul>
-<li><a title="MD5: 81606a1bb770ebe019f0246840f74c95" href="/dls/ff/phoenix-0.2-win32-zhTW-installer.exe"> Windows (6.2M) </a>
+<h3>Phoenix 0.3</h3><ul>
+<li><a title="MD5: ebd4b0243b829662393e8c4ea5e8a4e9" href="/dls/fx/phoenix-0.3-win32-zhTW-installer.exe"> Windows (6.2M) </a>
+<li><a title="MD5: 7d8b80a089c624bfe2dc3061e8e98ed3" href="/dls/fx/phoenix-0.3-i686-pc-linux-gnu-zhTW.tgz"> Linux (9.3M) </a>
+<li><a title="MD5: d2941cae8e551b0c65a4c4341eb4d04b" href="/dls/fx/phoenix-0.3-os2-zhTW.zip"> OS/2 (12.6M) </a>
+</ul>
+
+<h3>Phoenix 0.2</h3><ul>
+<li><a title="MD5: 81606a1bb770ebe019f0246840f74c95" href="/dls/fx/phoenix-0.2-win32-zhTW-installer.exe"> Windows (6.2M) </a>
 </ul>
 
 </div>
