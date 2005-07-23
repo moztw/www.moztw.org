@@ -11,6 +11,7 @@
 // Available List
 lpList = [
 //{"dv":"Firefox 0.8", "date":"0214", "fv":"ff0.8", "s":"RELEASE", "rv":"1.7"},
+{"dv":"Mozilla 1.7.10", "date":"0723", "fv":"1.7.10", "s":"RELEASE", "rv":"1.7.10"},
 {"dv":"Mozilla 1.8a4", "date":"1001", "fv":"1.8a4", "s":"RELEASE", "rv":"1.8a4"},
 {"dv":"Firefox 0.9.1", "date":"0617", "fv":"ff0.9", "s":"RELEASE", "rv":"1.7-ff0.9.1"},
 {"dv":"Firefox 0.9", "date":"0617", "fv":"ff0.9", "s":"RELEASE", "rv":"1.7-ff0.9"},
@@ -46,8 +47,9 @@ lpList = [
 // {{{
 	// Start Common Programs
 
-var msgManualInstall = "新版 Mozilla 只接受被認可的網站。\n" +
-	"所以請複製此鏈結後手動貼到網址列上安裝，\n" +
+var msgManualInstall = "新版 Mozilla 有的只接受被認可的網站。\n" +
+	"所以若等一下沒有自動顯示安裝畫面，\n" +
+	"請複製此鏈結後手動貼到網址列上安裝，\n" +
 	"或是把 moztw.org 加入你信任的網域。";
 
     function genEntry(dispClass, lpi, faction) {
@@ -168,7 +170,10 @@ var msgManualInstall = "新版 Mozilla 只接受被認可的網站。\n" +
 
 <p> 這裡可以安裝與下載語言套件。
 <p> Mozilla 系列的語言套件是跨平台的，不過你要先有已安裝好的英文版程式，
-並在此找到對應的版本才能正確使用中文界面。
+並在此找到對應的版本才能正確使用中文界面。 安裝後請關閉並完全結束執行中的 Mozilla，
+然後重開程式，到 Edit, Preferences, Appearance, Langauges 選 Traditional
+Chinese (TW) 按 OK 然後再完全關閉、結束 Mozilla，最後再重新執行 Mozilla 就會
+變成中文的畫面了。
 <p> 下面會試圖用 JavaScript 偵測你使用的 Mozilla 以列出你可以使用的語言套件版本。
 
 <ul>
