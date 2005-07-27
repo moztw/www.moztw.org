@@ -21,6 +21,13 @@
 <li><a title='MD5: bc3886b21bef9e2ee4d69f35a24ce25e' href="/dls/fx/1.0.6/Firefox 1.0.6.dmg"> MacOSX (DMG) </a>
 </ul>
 
+<h3> Deer Park Alpha 2 </h3>(1.1 測試版，不建議新手使用)<ul>
+<li><a title='MD5: a6af5d80c936d3007feed72aa5a4ae26' href="/dls/fx/DPA2/DPA2.zh-TW.win32.installer.exe"> Windows 安裝檔 (4.5M) </a>
+<li><a title='MD5: 355e0db7f9cf14c1c898820ddf155898' href="/dls/fx/DPA2/DPA2.zh-TW.win32.zip"> Windows 壓縮檔 </a>
+<li><a title='MD5: 29dd667948f3c42e072cb85f922584e1' href="/dls/fx/DPA2/DPA2.zh-TW.linux-i686.tar.gz"> Linux (直接解壓執行) </a>
+<li><a title='MD5: bbe0eadf8c774ef55d929e63bdc75ef0' href="/dls/fx/DPA2/DPA2.zh-TW.mac.dmg"> MacOSX (DMG) </a>
+</ul>
+
 <h3> 1.0 </h3><ul>
 <li><a title='MD5: f9788988999c3103f7db25b50e56b99a' href="/dls/fx/1.0/win32/zh-TW/Firefox Setup 1.0.exe"> Windows (4.6M) </a>
 <li><a title='MD5: 302f87e78e8987fdd201aaf57b571b92' href="/dls/fx/1.0/linux-i686/zh-TW/firefox-1.0.installer.tar.gz"> Linux (Installer) </a>
@@ -28,14 +35,14 @@
 <li><a title='MD5: 04b5441cc75a60f35fc92d07d90ede93' href="/dls/fx/1.0/mac/zh-TW/Firefox 1.0.dmg.gz"> MacOSX (DMG+gz) </a>
 </ul>
 
+</div>
+<div style='width: 30%;'>
+
+
 <h3> 1.0PR </h3><ul>
 <li><a title="MD5: 8c2a1f4b0e51633d78a70f129c3babb5" href="/dls/fx/Firefox-1.0PR-win32-zhTW.exe">Windows (4.4MB)</a></li>
 <li><a title="MD5: 5b0b25761b3d2d97b43567fd1d6c7e7b" href="/dls/fx/Firefox-1.0PR-linux-zhTW.tar.gz"> Linux (8.3M 安裝檔) </a>
 </ul>
-
-</div>
-
-<div style='width: 30%;'>
 
 <h3> 0.9 </h3><ul>
 <li><a title='MD5: 777eb0150536f48543ae4548f9dabd82' href="/dls/fx/Firefox-0.9.1-win32-zhTW.exe"> 0.9.1 Windows (4.6M) </a>
