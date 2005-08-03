@@ -7,7 +7,7 @@
 <div id="side">
 
 <ul id="nav">
-<li><a title="關於本站 moztw.org" href="#about-moztw"><strong>關於本站 moztw.org</strong></a>
+<li><a title="關於 Mozilla Taiwan - moztw.org" href="#about-moztw"><strong>關於 Mozilla Taiwan - moztw.org</strong></a>
 <ul>
 <li><a title="軟體使用問題" href="#moztw-question">軟體使用問題</a></li>
 <li><a title="回報錯誤或建議" href="#moztw-bug-report">回報錯誤或建議</a></li>
