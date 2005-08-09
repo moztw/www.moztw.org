@@ -450,6 +450,7 @@ void AddFile(HANDLE hExe, LPSTR lpszFile)
   }
 
   free(lpBuf);
+  free(lpBufCmp);
   if(!CloseHandle(hInputFile))
   {
     PrintError("CloseHandle() failed", ERROR_CODE_SHOW);
