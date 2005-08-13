@@ -72,14 +72,20 @@
 	<li>
 	<h3>[CVS snapshot] &nbsp;</h3>
 	如果你想自行編譯中文版，可利用 Mozilla CVS 中的 zh-TW locale。
+
 	<p>Firefox 1.0.* branch 請用下列命令：
 	<div style='margin: 3px; padding: 1px; border: 1px solid #ccc;'
 >cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/l10n checkout -rAVIARY_1_0_20040515_BRANCH mozilla</div>
+	<p>Firefox 1.5, Thunderbird 1.5, Mozilla 1.8 branch 請用下列命令：
+	<div style='margin: 3px; padding: 1px; border: 1px solid #ccc;'
+>cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/l10n checkout -rMOZILLA_1_8_BRANCH l10n/zh-TW</div>
+	<p>最新的版本 (Trunk) 請用下列命令:
+	<div style='margin: 3px; padding: 1px; border: 1px solid #ccc;'
+> cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/l10n checkout l10n/zh-TW</div>
+<!--
 	<p>另外也提供 1.0.* 送交 CVS 的副本, 
 	把下列檔案解壓縮到適當的位置後編譯即可：
 	<p><a href='/dls/ff/firefox-CVS-localesrc-zhTW.tar.bz2'><b>Firefox 1.0 zh-TW locale,</b></a>
-	<p>其它最新的版本 (trunk, 包含 Thunderbird) 請用下列命令:
-	<div style='margin: 3px; padding: 1px; border: 1px solid #ccc;'
-> cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/l10n checkout l10n/zh-TW</div>
+	-->
 </ul>
 <!--#include virtual="/inc/footer.html" -->
