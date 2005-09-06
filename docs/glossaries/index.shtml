@@ -1,6 +1,6 @@
 <!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
-<style='text/css'>
+<style type='text/css'>
     DL {
     float: left;
     width: 30%;
@@ -88,19 +88,21 @@ Phoenix 定位就是「非官方版」），只是日換星移，曾幾何時 Ph
 雖說追求易懂，但人名地名這種東西不能亂改，同理語言名也是。
 </DL>
 <h2> SSL 相關專有名詞</h2>
+這邊的名詞除了舊版沿用 imacat 建議的列表外， 
+其它及未來將參考 http://grca.nat.gov.tw/qanda1.htm 的名詞翻譯。
 <DL>
     <DT>Certificate</DT>
     <DD>憑證 <i>(imacat)</i></DD>
     <DT>Authentication</DT>
-    <DD>驗證 <i>(imacat)</i></DD>
+    <DD>鑑別 <i>(imacat: 驗證)</i></DD>
 </DL>
 <DL>
     <DT>CA</DT>
-    <DD>認證中心 <i>(imacat)</i> </DD>
+    <DD> 憑證機構 <i>(imacat: 認證中心)</i> </DD>
 </DL>
 <DL>
     <DT>CA Root</DT>
-    <DD>最高層認證中心 <i>(imacat)</i></DD>
+    <DD>憑證總管理中心 <i>(imacat: 最高層認證中心)</i></DD>
 </DL>
 <h2> 一般性名詞 </h2>
 <DL>
