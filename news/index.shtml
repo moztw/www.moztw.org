@@ -8,6 +8,11 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+	<li><div class="date"> 8 月 03 日</div>
+	<a href='http://moztw.org/mozilla/'>Mozilla Suite 1.7.11 中文版</a>全系列(Win,Linux,Mac)開放下載,
+	同時提供跨平台的<a href='http://moztw.org/dl/langpack/'>語言套件</a>
+	供已安裝英文版的朋友們直接安裝中文語系。
+
 	<li><div class="date"> 7 月 27 日</div>
 	Mozilla.org 近日即將推出 Mozilla 1.7.11,
 	(1.7.10 的郵件系統有點問題)
@@ -24,6 +29,8 @@
 	但由於有重大瑕疵，官方已決定暫不發行其它各國各國語言的版本、
 	將在近日直接昇級 1.0.6 版。
 
+	<li><div class="date"> 6 月 29 </div>
+	<a href="http://moztw.org/nvu/">NVU 1.0 正體中文版</a>全系列與官方同步發行！
 	<li><div class="date"> 6 月 24 日 </div>
 	NVU 1.0 即將推出， Mozilla Taiwan 預計將於下週二與 
 	NVU 官方同步發行 NVU 1.0 中文版，敬請期待。
@@ -46,7 +53,7 @@
 	<li><div class="date"> 12 月 11 日 </div>
 	<a href='/dls/tb/thunderbird-1.0.zh-TW.win32.installer.exe'>Thunderbird 1.0 (win32)</a>
 	中文版開放下載測試中！
-	<li><div class="date"> 1 月 16 日 </div>
+	<li><div class="date"> 2005 年 1 月 16 日 </div>
 	擴充套件 Top 15 <a href='http://forum.moztw.org/viewtopic.php?p=27414'>開始投票！</a>
 	<li><div class="date"> 12 月 27 日 </div>
 	Firefox 新年賀卡 <a href='http://forum.moztw.org/viewtopic.php?p=23952#23952'>招募中！</a>
@@ -107,7 +114,7 @@
 	復原無望，重來一次 :~~~~~~~~~~~~~~~~~~~~
 	<li><div class="date"> 9 月 4 日 </div>
 	SVN 備份失敗，不小心把網站全刪了... :~~~
-	<li><div class="date"> 9 月 3 日 </div>
+	<li><div class="date"> 2004 年 9 月 3 日 </div>
 	<a href="http://moztw.org">網站新樣式</a>
 </ul>
 <!--#include virtual="/inc/footer.html" -->
