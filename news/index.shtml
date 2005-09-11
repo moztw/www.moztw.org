@@ -8,20 +8,26 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
-	<li><div class="date"> 7 月 27 </div>
+	<li><div class="date"> 7 月 27 日</div>
 	Mozilla.org 近日即將推出 Mozilla 1.7.11,
 	(1.7.10 的郵件系統有點問題)
-	<li><div class="date"> 7 月 23 </div>
+	<li><div class="date"> 7 月 23 日</div>
 	<a href='http://moztw.org/mozilla/'>Mozilla 1.7.10 中文版</a>全系列(Win,Linux,Mac)開放下載,
 	同時提供跨平台的<a href='http://moztw.org/dl/langpack/'>語言套件</a>
 	供已安裝英文版的朋友們直接安裝中文語系。
+	<li><div class="date"> 7 月 20 </div>
+	Mozilla 推出 Firefox 1.0.6 安全更新版、中文版同步釋出，
+	請由首頁下載更新。<br/> Thunderbird 1.0.6 中文版也已釋出。
+
 	<li><div class="date"> 7 月 17 日 </div>
 	Firefox 1.0.5 與 Thunderbird 1.0.5 英文版雖然已經發行，
 	但由於有重大瑕疵，官方已決定暫不發行其它各國各國語言的版本、
 	將在近日直接昇級 1.0.6 版。
+
 	<li><div class="date"> 6 月 24 日 </div>
 	NVU 1.0 即將推出， Mozilla Taiwan 預計將於下週二與 
 	NVU 官方同步發行 NVU 1.0 中文版，敬請期待。
+
 	<li><div class="date"> 6 月 18 日 </div>
 	Mozilla Taiwan 即將開始一連串的更新，首先是主機即將更換、
 	配合軟體架構調整，以提供更好更穩定的服務，所以在 6/19~6/21
