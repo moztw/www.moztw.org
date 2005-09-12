@@ -22,19 +22,26 @@
 <li><a href="/dls/tb/jaronly/1.0.6/zh-TW-mail.jar"> 中文語系檔(給進階使用者) </a>
 </ul>
 
+<h3> 1.5 Beta 1 </h3>(1.4 = 1.5 測試版，不建議新手使用)<ul>
+<li><a title='MD5: ' href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.win32.installer.exe"> Windows 安裝檔 </a>
+<li><a title='MD5: ' href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.win32.zip"> Windows 壓縮檔 </a>
+<li><a title='MD5: ' href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.linux-i686.tar.gz"> Linux (直接解壓執行) </a>
+<li><a title='MD5: ' href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.mac.dmg"> MacOSX (DMG) </a>
+</ul>
+
 <h3>1.0.2</h3><ul>
 <li><a title='MD5: 0a594fac3fe60c2666763023bffc4075' href="/dls/tb/thunderbird-1.0.2-win32-zhTW.exe">Windows (5.6MB)</a></li>
 <li><a title="MD5: dd3a1818fa50e9faf5830decfdd91b6c" href="/dls/tb/thunderbird-1.0.2-linux-zhTW.tar.gz">Linux (10.3MB)</a></li>
 <li><a title="MD5: 38ea5999755549bff1ef58bf686e90c7" href="/dls/tb/thunderbird-1.0.2-mac-zhTW.dmg">Mac OS X (14.0MB)</a></li>
 </ul>
 
+</div>
+<div style='width: 30%;'>
+
 <h3>1.0 (測試版)</h3><ul>
 <li><a title='MD5: 9d0e6313e370352106e97d1b2ab9857c' href="/dls/tb/thunderbird-1.0-win32-zhTW.exe">Windows (5.6MB)</a></li>
 <li><a href="/dls/tb/jaronly/1.0/en-US-mail.jar"> 中文語系(直接蓋掉英文語系檔) </a>
 </ul>
-
-</div>
-<div style='width: 30%;'>
 
 <h3>0.9</h3><ul>
 <li><a title='MD5: dfca483a4f139d15eeea4cf2274697ee' href="/dls/tb/thunderbird-0.9-win32-zhTW.exe">Windows (5.4MB)</a></li>

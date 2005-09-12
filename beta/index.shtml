@@ -26,7 +26,7 @@
 
     <hr style='clear: both;'/>
     <img src='/images/firefox-1.5-beta1.png' alt='' style='float: left;'>
-    <h3>Firefox 1.5 Beta 1 (1.5 測試版，0910 Build, 開發版號: 1.4)</h3>
+    <h3>Firefox 1.5 Beta 1 (測試版，0910 Build)</h3>
     <dl id="features">
 	<dt>Windows</dt>
 	<dd><a href='/dls/fx/1.4/firefox-1.5beta1.zh-TW.win32.installer.exe'>
@@ -45,7 +45,7 @@
     </dl>
     <hr style='clear: both;'/>
     <img src='/images/thunderbird-1.5-beta1.png' alt='' style='float: left;'>
-    <h3>Thunderbird 1.5 Beta 1 (1.5 測試版，0910 Build, 開發版號: 1.4)</h3>
+    <h3>Thunderbird 1.5 Beta 1 (測試版，0910 Build)</h3>
     <dl>
 	<dt>Windows</dt>
 	<dd><a href='/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.win32.installer.exe'>
