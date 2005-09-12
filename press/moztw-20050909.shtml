@@ -7,7 +7,7 @@ overflow) 的安全性漏洞</title>
 <h1>Firefox 及 Mozilla 使用者都應該了解有關國際網域名稱緩衝區溢位(IDN buffer
 overflow) 的安全性漏洞</h1>
 
-<p><strong>此為正體中文譯文，如欲瀏覽英文原文 <a href="https://addons.mozilla.org/messages/307259.html">請按此處</a></strong></p>。
+<p><strong>此為正體中文譯文，如欲瀏覽英文原文 <a href="https://addons.mozilla.org/messages/307259.html">請按此處</a>。</strong></p>
 
 <p>九月六日，Tom Ferris 回報了 Mozilla 一項影響 Firefox 及 Mozilla Suite 所有
 版本的安全性弱點。九月八日，此弱點被公開。</p>
