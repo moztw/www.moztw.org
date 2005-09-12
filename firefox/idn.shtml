@@ -1,0 +1,67 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>Firefox 及 Mozilla 使用者都應該了解有關國際網域名稱緩衝區溢位(IDN buffer
+overflow) 的安全性漏洞</title>
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+<div id="mainContent" class="right">
+<h1>Firefox 及 Mozilla 使用者都應該了解有關國際網域名稱緩衝區溢位(IDN buffer
+overflow) 的安全性漏洞</h1>
+
+<p><strong>此為正體中文譯文，如欲瀏覽英文原文 <a href="https://addons.mozilla.org/messages/307259.html">請按此處</a></strong></p>。
+
+<p>九月六日，Tom Ferris 回報了 Mozilla 一項影響 Firefox 及 Mozilla Suite 所有
+版本的安全性弱點。九月八日，此弱點被公開。</p>
+
+<p>
+九月九日，Mozilla 開發團隊釋出了一個暫時解決此問題的設定方法 -- 停用瀏覽器的國際
+域名(IDN) 解析功能。在未來的版本中，IDN 功能就會被修復。使用者可以選擇手動變更組
+態設定或下載修正檔來自動變更設定。下面是執行此變更的詳細步驟。
+</p>
+
+<h2>如何更新</h2>
+
+<p>目前有兩種方法可以暫時解決此問題。第一種方法是安裝我們提供的修正檔，或者您也可
+以手動變更瀏覽器的組態設定。您只要在兩種方法中擇一使用即可。</p>
+
+<h3>安裝修正檔</h3>
+<ul>
+  <li>您可以依照以下步驟安裝給 Firefox 或 Mozilla Suite 的修正檔案：
+    <ol>
+      <li>Firefox 及 Mozilla Suite 使用者請按一下此連結：<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0.6/patches/307259.xpi">http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0.6/patches/307259.xpi</a>
+      <li>接下來會出現「軟體安裝」的視窗，等待三秒後，按一下「立刻安裝」按鈕。
+      <li>關閉並重新啟動 Mozilla 或 Firefox 瀏覽器。
+    </ol>
+  <li>如需驗證修正檔案是否有用，請重新啟動瀏覽器後進行下列步驟：
+    <ol>
+      <li>Firefox - 按一下功能表中的「說明」-&gt; 「關於 Mozilla Firefox」然後檢查代理
+      程式識別碼(User Agent) 中有無包含 "(noIDN)" 字樣。
+      <li>Mozilla - 按一下功能表中的「說明」-&gt; 「關於 Mozilla」然後檢查代理
+      程式識別碼(User Agent) 中有無包含 "(noIDN)" 字樣。</ol>
+
+</ul>
+
+<h3>手動變更組態設定</h3>
+<ul>
+  <li>請依下列步驟手動變更 Firefox 或 Mozilla Suite 的組態設定：
+    <ol>
+      <li>於位址列中輸入 "about:config" 後，按一下 Enter 鍵。</li>
+      <li>於「過濾器」列輸入 <code>network.enableIDN</code>。</li>
+      <li>於 network.enableIDN 項目上按一下右鍵後，選擇「切換」將值變更為 false。</li>
+
+    </ol>
+  <li>如需驗證您的修正動作是否成功，請重新啟動瀏覽器後進行下列步驟：
+
+    <ol>
+      <li>於位址列中輸入 "about:config" 後，按一下 Enter 鍵。</li>
+      <li>於「過濾器」列輸入 <code>network.enableIDN</code>。</li>
+      <li>確定該項目的值設定為 false。</li>
+    </ol>
+
+</ul>
+
+<p>我們很重視使用者的安全性，並會盡全力繼續提供安全的產品及確保當軟體
+發現安全漏洞時能快速的反應。</p>
+
+</div>
+<!--#include virtual="/inc/footer.html" -->
