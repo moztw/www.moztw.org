@@ -1,25 +1,32 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Mozilla Firefox 測試版 - Mozilla Taiwan</title>
+<title>Mozilla Suite/Firefox/Thunderbrid 測試版 - Mozilla Taiwan</title>
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
 
 <div class="right">
-    <h3>Firefox 測試版 </h3>
+    <h3>Mozilla Suite/Firefox/Thunderbird 中文測試版 </h3>
     <p>請注意: <b>這裡的版本並不是正式發行的版本</b>，僅供測試用，
-    <b style="color: red">不建議新手下載與安裝</b>，
+    <b style="color: red">不建議新手使用者下載與安裝</b>，
     <b>因為它可能會有各種相容性問題、
 	且多數的套件與佈景主題可能都無法使用</b>。</p>
 
     <h3>注意事項</h3>
-    <p>下面的檔案是為了方便增進未來 1.5 正式版發行時中文語系的翻譯品質，
-    若有發現任何中文翻譯錯誤或建議請至 
+    <p>下面的檔案是為了方便增進未來 Firefox/Thunderbird 1.5
+    正式版發行時中文語系的翻譯品質， 若有發現任何中文翻譯錯誤或建議請至 
     <a href="http://forum.moztw.org/viewforum.php?f=4">
-	Mozilla Taiwan 討論區</a>回報。
-    </p>
+	Mozilla Taiwan 討論區</a>回報。<br/><br/>
+    <b>
+    檔案的來源為 Mozilla.org Nightly Builds 
+    (每日編譯供測試的版本，非正式發行用) FTP:
+    <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla1.8-l10n/"> Firefox </a>
+    與
+    <a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-mozilla1.8-l10n/"> Thunderbird </a>
+    </b>
+	</p>
 
     <hr style='clear: both;'/>
     <img src='/images/firefox-1.5-beta1.png' alt='' style='float: left;'>
-    <h3>Firefox 1.5 Beta 1 (1.5 測試版，開發版號: 1.4)</h3>
+    <h3>Firefox 1.5 Beta 1 (1.5 測試版，0910 Build, 開發版號: 1.4)</h3>
     <dl id="features">
 	<dt>Windows</dt>
 	<dd><a href='/dls/fx/1.4/firefox-1.5beta1.zh-TW.win32.installer.exe'>
@@ -37,20 +44,21 @@
 	</dd>
     </dl>
     <hr style='clear: both;'/>
-    <h3>Thunderbird 1.5 Beta 1 (1.5 測試版，開發版號: 1.4)</h3>
+    <img src='/images/thunderbird-1.5-beta1.png' alt='' style='float: left;'>
+    <h3>Thunderbird 1.5 Beta 1 (1.5 測試版，0910 Build, 開發版號: 1.4)</h3>
     <dl>
 	<dt>Windows</dt>
-	<dd><a href='/dls/fx/1.4/thunderbird-1.5beta1.zh-TW.win32.installer.exe'>
+	<dd><a href='/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.win32.installer.exe'>
 	    Windows 自解安裝檔 </a><br/>
-	    <a href='/dls/fx/1.4/thunderbird-1.5beta1.zh-TW.win32.zip'>
+	    <a href='/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.win32.zip'>
 	    ZIP 免安裝直接執行</a>
 	</dd>
 	<dt>Linux</dt>
-	<dd><a href='/dls/fx/1.4/thunderbird-1.5beta1.zh-TW.linux-i686.tar.gz'>
+	<dd><a href='/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.linux-i686.tar.gz'>
 	    Linux, 解壓縮後直接執行即可</a>
 	</dd>
 	<dt>Mac OS X</dt>
-	<dd><a href='/dls/fx/1.4/thunderbird-1.5beta1.zh-TW.mac.dmg'>
+	<dd><a href='/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.mac.dmg'>
 	    Mac DMG ，解開後拖至應用程式內即可</a>
 	</dd>
     </dl>
