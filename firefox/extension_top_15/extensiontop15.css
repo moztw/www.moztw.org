@@ -42,14 +42,14 @@
 label {font-weight: normal;}
 
 #mainContent .download:before {
-	content: url("download_tl_content.gif");
+	content: url("/images/download_tl_content.gif");
 }
 #mainContent .download {
-	background: #C4EFA1 url("download_back_content.gif") top right no-repeat;
+	background: #C4EFA1 url("/images/download_back_content.gif") top right no-repeat;
 }
 #mainContent .download:after {
-	content:  url("download_bl_content.gif");
-	background: transparent url("download_br_content.gif") scroll no-repeat bottom right ;
+	content:  url("/images/download_bl_content.gif");
+	background: transparent url("/images/download_br_content.gif") scroll no-repeat bottom right ;
 }
 #mainContent .download h3 {
 	background: transparent;
