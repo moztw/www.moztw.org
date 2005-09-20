@@ -184,6 +184,11 @@ strong.stronger {
 	font-weight: bolder;
 }
 
+strong.warning {
+	font-style: normal;
+	color: red;
+}
+
 strong.very-strong {
 	font-weight: bolder;
 	text-transform: uppercase;
