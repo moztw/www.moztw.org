@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Mozilla Firefox 1.0.4 版本資訊</title>
+<title>Mozilla Firefox 1.0.7 版本資訊</title>
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 
@@ -9,33 +9,28 @@
   		  <div id="product-desc" class="firefox-releasenotes">
           <!-- Introduction -->
           <p>Firefox 是速度快、功能又齊全的瀏覽器，它讓上網比以往更有效率。其它關於 Firefox 的訊息，請參考 <a href="/firefox/">Firefox 產品首頁</a>。</p>
-          <p>此版本資訊包含了 Firefox 1.0.4 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://texturizer.net/firefox/bugs.html">錯誤回報注意事項</a>閱讀完畢，再到
+          <p>此版本資訊包含了 Firefox 1.0.7 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://texturizer.net/firefox/bugs.html">錯誤回報注意事項</a>閱讀完畢，再到
   <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
           <p>我們想知道您對 Firefox 的意見。歡迎到討論區討論相關議題：您可至<a href="http://www.mozillazine.org/">MozillaZine</a>上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="http://moztw.org/">MozillaTaiwan</a>的<a href="http://moztw.org/forum/viewforum.php?f=2">Firefox
     中文討論區</a>與我們分享意見。</p>
         </div>
       </div> 
       <!-- What's New -->
-      <h2><a name="new">1.0.4 新鮮事</a></h2>
-      <p>我們提供客戶安全的網路體驗，而 Firefox 1.0.4 便是安全更新版。建議所有使用者更新。</p>
-
-      <p>以下是 Firefox 1.0.4 版的新鮮事：</p>
+      <h2><a name="new">1.0.7 新鮮事</a></h2>
+      <p>Firefox 1.0.7 是增強安全及穩定性的更新版，<strong>我們強烈建議所有用戶更新</strong>。此版本修正許多安全及穩定性問題，包括緩衝區溢位、Linux 命令列問題等等。</p>
+      <p>Firefox 1.0.7 版新鮮事中較值得一提的有：</p>
 
       <ul class="news">
-        <li>* 修復一些安全性問題：
-        <ul>
-        <li><a href="http://www.mozilla.org/security/announce/mfsa2005-44.html" class="critical">MFSA 2005-44</a>
-    Privilege escalation via non-DOM property overrides</li>
+# Fix for a potential buffer overflow vulnerability when loading a hostname with all soft-hyphens
+# Fix to prevent URLs passed from external programs from being parsed by the shell (Linux only)
+# Fix to prevent a crash when loading a Proxy Auto-Config (PAC) script that uses an "eval" statement
+# Fix to restore InstallTrigger.getVersion() for Extension authors
+        <li>修正讀取連字符（soft-hypen）網址時可能產生的緩衝區溢位漏洞</li>
+        <li>避免由其他程式傳來的網址經 Sheel 執行（Linux 專有問題）</li>
+        <li>修正讀取內含「eval」敘述句的 Proxy 自動設定檔（PAC）時會當機的問題</li>
+        <li>恢復 InstallTrigger.getVersion() 功能，方便擴充套件設計師取用。</li>
 
-    <li><a href="http://www.mozilla.org/security/announce/mfsa2005-43.html" class="critical">MFSA 2005-43</a>
-    "Wrapped" javascript: urls bypass security checks</li>
-
-    <li><a href="http://www.mozilla.org/security/announce/mfsa2005-42.html" class="critical">MFSA 2005-42</a>
-    Code execution via javascript: IconURL</li>
-        </ul>
-        </li>
-        <li>* 修正 1.0.3 後某些網站會碰上的 DHTML 問題，如果您是網頁設計師可以參考<a href="http://developer-test.mozilla.org/docs/Working_around_the_Firefox_1.0.3_DHTML_regression">相關資訊</a>。</li>
-      </ul>
+        <li>* <a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html#Firefox">其他安全相關修正</a></li>      </ul>
       <p>* 英文資訊</p>
 
       <h2 id="downloadandinstall">下載與安裝</h2>
@@ -49,15 +44,15 @@
       <h3><a name="install">安裝 Firefox</a></h3>
       <p>下載 Firefox 安裝程式或壓縮檔後，請依下列步驟進行安裝：</p>
       <h3>Windows</h3>
-    <p>以滑鼠左鍵雙點 <tt class="filename">Firefox Setup 1.0.4.exe</tt> 安裝程式圖示以開始安裝。</p>
+    <p>以滑鼠左鍵雙點 <tt class="filename">Firefox Setup 1.0.7.exe</tt> 安裝程式圖示以開始安裝。</p>
 
     <h3>MacOS X</h3>
-    <p>下載 Firefox 1.0.4.dmg 檔後，請雙點 Firefox 磁碟映像檔圖示以便開啟於 Finder 中，隨後將 Firefox 應用程式拖曳至您的硬碟中。您亦可將圖示拖曳至 Dock 上方便取用。</p>
+    <p>下載 Firefox 1.0.7.dmg 檔後，請雙點 Firefox 磁碟映像檔圖示以便開啟於 Finder 中，隨後將 Firefox 應用程式拖曳至您的硬碟中。<strong>請不要直接雙點磁碟映像檔中的圖示！</strong>一定要將 Firefox 相關檔案拖進硬碟後才執行。您亦可將圖示拖曳至 Dock 上方便取用。</p>
     <h3>Linux/GTK2</h3>
     <p>解壓縮後以下列方式執行安裝程式：
       <p>
         <code>
-          tar -xzvf ffirefox-1.0.4.installer.tar.gz<br>
+          tar -xzvf ffirefox-1.0.7.installer.tar.gz<br>
           cd firefox-installer<br>
           ./firefox-installer
         </code></p>
@@ -68,7 +63,7 @@
 <h3 id="uninstall">移除 Firefox</h3>
 <p>欲移除 Firefox，請依下列步驟操作：</p>
 <h3>Windows</h3>
-<p>選擇「<kbd>開始＞控制台</kbd>」，當控制台出現時，請以滑鼠左鍵雙點「<kbd>新增或移除程式</kbd>」， 然後在清單中找到「<kbd>Mozilla Firefox (1.0.4)</kbd>」並按下「<kbd>移除</kbd>」。</p>
+<p>選擇「<kbd>開始＞控制台</kbd>」，當控制台出現時，請以滑鼠左鍵雙點「<kbd>新增或移除程式</kbd>」， 然後在清單中找到「<kbd>Mozilla Firefox (1.0.7)</kbd>」並按下「<kbd>移除</kbd>」。</p>
 <h3>MacOS X</h3>
 <p>將 <tt class="filename">Firefox</tt> 程式拖曳至垃圾桶。</p>
 <h3>其他平台</h3>
@@ -102,14 +97,14 @@
         </tr>
       </table>
 
-      <p>如果您在升級至 Firefox 1.0.4 前將 Firefox 0.8 設為預設瀏覽器，那麼您的設定檔將被複製至新的位置， 您可自行決定是否將舊的「Phoenix」刪除。</p>
+      <p>如果您在升級至 Firefox 1.0.7 前將 Firefox 0.8 設為預設瀏覽器，那麼您的設定檔將被複製至新的位置， 您可自行決定是否將舊的「Phoenix」刪除。</p>
 
       <h3 id="extensions">擴充套件及佈景主題</h3>
       <p>當您升級到新版的 Firefox 時，所有的擴充套件及佈景主題會自動停用，直到 Firefox 發現  1) 已安裝的套件可用於新版 或 2)有新版套件可相容新版 Firefox。這是因為 Firefox 每一版都有所更新，與擴充套件的整合模式也不盡相同，如果使用舊版套件反而可能發生問題。如果您喜歡的擴充套件或佈景主題未能相容新版，請寫信給作者，鼓勵作者更新。
-      <p>若您自 0.8 或更早的版本升級，則您首次啟動 Firefox 1.0.4 時，Firefox 無法自動查閱擴充套件及佈景主題是否有更新相容版本，請自行尋找並安裝相容新版。   
+      <p>若您自 0.8 或更早的版本升級，則您首次啟動 Firefox 1.0.7 時，Firefox 無法自動查閱擴充套件及佈景主題是否有更新相容版本，請自行尋找並安裝相容新版。   
       </p>
       <p>在 0.8 版時部分使用者曾因「No XBL Binding for Browser」錯誤訊息而無法啟動 Firefox，並隨即發現佈景主題失效。為了避免這種問題，在您改用
-  Firefox 1.0.4 時，所有的擴充套件將自動停用。如果您曾使用 0.9 或 1.0PR 版，則當您首次啟動 1.0 時，Firefox 會試著連上 update.mozilla.org
+  Firefox 1.0.7 時，所有的擴充套件將自動停用。如果您曾使用 0.9 或 1.0PR 版，則當您首次啟動 1.0.7 時，Firefox 會試著連上 update.mozilla.org
   查閱擴充套件是否有更新的相容版本。如果有，則會下載並安裝之。如果您用的是 0.8 版，則得請您自行尋找相容新版。
       </p>
       
@@ -123,11 +118,11 @@
 
       <p>&nbsp;</p>
       <h2><a name="issues">已知問題</a></h2>
-      <p>以下列出 Firefox 1.0 部分已知問題， 請閱讀後再回報新的程式錯誤，並請定期檢查本欄的更新內容﹝如在此版本發現新問題，我們會隨時在<a href="http://www.mozilla.org/products/firefox/releases/1.0.4.html">英文網頁</a>更新此欄﹞。</p>
+      <p>以下列出 Firefox 1.0.7 部分已知問題， 請閱讀後再回報新的程式錯誤，並請定期檢查本欄的更新內容﹝如在此版本發現新問題，我們會隨時在<a href="http://www.mozilla.org/products/firefox/releases/1.0.7.html">英文網頁</a>更新此欄﹞。</p>
         
       <h3>所有系統</h3>
       <ul>
-        <li>安裝 Firefox 1.0.4 之前，請確保您安裝在新目錄中，切勿直接覆蓋任何舊版 Firefox。
+        <li>安裝 Firefox 1.0.7 之前，請確保您安裝在新目錄中，切勿直接覆蓋任何舊版 Firefox。
         </li>
         <li>
         如果您將 Firefox 安裝於權限有所管制的區域，那麼就得先由擁有權限的使用者啟動一次 Firefox，以便建立應有的初始啟動檔案。若由權限不足的使用者先行啟動，則可能會因為無法完整建立初始啟動檔案而不斷重新啟動。
@@ -162,7 +157,7 @@
       <h3>MacOS X</h3>
       <ul>
         <li>
-        <strong>不要由磁碟映像中啟動 Firefox！</strong>這麼一來 Firefox 可能會不斷重新啟動（症狀是 Firefox 圖示在 Dock 中不斷跳起、消失再出現）。若要從不斷啟動的情形中終止 Firefox，請開啟
+        <strong>不要由磁碟映像檔中直接啟動 Firefox！</strong>這麼一來 Firefox 可能會不斷重新啟動（症狀是 Firefox 圖示在 Dock 中不斷跳起、消失再出現）。若要從不斷啟動的情形中終止 Firefox，請開啟
       終端機（Terminal）後輸入「killall firefox-bin」並按下 Enter。之後請將 Firefox 安裝於有權寫入的位置、再試一次。若安裝於多人共用的電腦上，可以管理員身份安裝於共用位置，執行一次後所有使用者就都能用了。</li>
         <li>
           <strong>如果 Firefox 未顯示瀏覽器視窗</strong>，請按 Cmd+Q 離開 Firefox，然後開啟 <code>~/Library/Application Support/Firefox/Profiles/&lt;garble&gt;.default/</code>
@@ -176,7 +171,7 @@
           若 Firefox 安裝的路徑中含有空白字元，則可能無法設定為預設瀏覽器。這樣每次啟動時變會不斷詢問「是否要設為預設瀏覽器」。將 Firefox 安裝在不含空白字元的路徑就不會有這個問題。
         </li>
 <li>
-在Fedora Core 3(FC3)中，GNOME integration並不能適當的運作。FC3的使用者需要安裝<a href="http://download.fedora.redhat.com/pub/fedora/linux/core/2/i386/os/Fedora/RPMS/linc-1.0.4-3.1.i386.rpm">linc-1.0.4-3.1.i386.rpm</a>。安裝好這個RPM後，在您安裝Firefox的目錄下執行以下的命令(您需要有寫入的權限)：
+在Fedora Core 3(FC3)中，GNOME integration並不能適當的運作。FC3的使用者需要安裝<a href="http://download.fedora.redhat.com/pub/fedora/linux/core/2/i386/os/Fedora/RPMS/linc-1.0.3-3.1.i386.rpm">linc-1.0.3-3.1.i386.rpm</a>。安裝好這個RPM後，在您安裝Firefox的目錄下執行以下的命令(您需要有寫入的權限)：
 <p>
 <code>touch .autoreg</code>
 </p>
@@ -244,7 +239,8 @@ cd /Applications/Firefox.app/Contents/MacOS/<br>
 	  | <a href="/firefox/release/0.10">1.0 預覽版</a> 
 	  | <a href="/firefox/release/1.0">1.0-1.0.1</a> 
 	  | <a href="/firefox/release/1.0.2">1.0.2</a>
-	  | <a href="/firefox/release/1.0.3">1.0.3</a></small>
+	  | <a href="/firefox/release/1.0.3">1.0.3</a>
+	  | <a href="/firefox/release/1.0.4">1.0.4</a></small>
 </div>
 
     <div id="side" class="right">
