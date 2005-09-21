@@ -21,10 +21,10 @@
       <p>Firefox 1.0.7 版新鮮事中較值得一提的有：</p>
 
       <ul class="news">
-# Fix for a potential buffer overflow vulnerability when loading a hostname with all soft-hyphens
+<!-- # Fix for a potential buffer overflow vulnerability when loading a hostname with all soft-hyphens
 # Fix to prevent URLs passed from external programs from being parsed by the shell (Linux only)
 # Fix to prevent a crash when loading a Proxy Auto-Config (PAC) script that uses an "eval" statement
-# Fix to restore InstallTrigger.getVersion() for Extension authors
+# Fix to restore InstallTrigger.getVersion() for Extension authors -->
         <li>修正讀取連字符（soft-hypen）網址時可能產生的緩衝區溢位漏洞</li>
         <li>避免由其他程式傳來的網址經 Sheel 執行（Linux 專有問題）</li>
         <li>修正讀取內含「eval」敘述句的 Proxy 自動設定檔（PAC）時會當機的問題</li>
