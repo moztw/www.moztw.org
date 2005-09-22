@@ -72,10 +72,16 @@
 <div>
     <div style='width: 35%; float: right;'>
         <h2 style="margin-top: 0pt;">
-      <a href="/dl">其他軟體</a>
+      <a href="/dl">其它軟體</a>
     </h2>
 
     <ul class="news" style="margin-left: 10px;">
+        <li>
+	<a href="/beta/" style="text-decoration: none;" title="想試試最新的 Firefox? 歡迎幫忙測試! [不建議新手使用]">
+            <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
+            <span style="text-decoration: underline;">Beta 測試版專區</span>
+          </a>
+        </li>
         <li>
           <a href="/nvu/" style="text-decoration: none;" title="由 moztw.org 提供的 Nvu 非官方中文化版本">
             <img src="/images/nvu16.png" alt="NVU icon" style="vertical-align: middle;" height="16" width="16">
@@ -85,7 +91,7 @@
         <li>
           <a href="/mozilla/" style="text-decoration: none;">
             <img src="images/mozilla16.png" alt="Mozilla icon" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">Mozilla 1.7.11</span>
+            <span style="text-decoration: underline;">Mozilla 1.7.12</span>
           </a>
 
         </li>
