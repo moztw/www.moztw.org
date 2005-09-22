@@ -17,6 +17,14 @@
 
 <div style='width: 30%;'>
 
+<h3> 1.7.12 </h3><ul>
+<li><a title="MD5: 5a82015819a57d4e57c91f679d84ee4c" href="/dls/moz/1.7.12/mozilla-1.7.12.zh-TW.win32.installer.exe">Windows 安裝檔</a></li>
+<li><a title="MD5: c03ca9be0f20e155775ea85351dc41df" href="/dls/moz/1.7.12/mozilla-1.7.12.zh-TW.win32.zip">Windows 直接解壓執行</a></li>
+<li><a title="MD5: cfc9cc2dce8f405f2bf363bb782cc19a" href="/dls/moz/1.7.12/mozilla-1.7.12.zh-TW.linux-i686.installer.tar.gz">Linux 安裝程式</a></li>
+<li><a title="MD5: fc74b4cdd89d43198d53eb923de65d98" href="/dls/moz/1.7.12/mozilla-1.7.12.zh-TW.linux-i686.tar.gz">Linux 直接解壓執行</a></li>
+<li><a title="MD5: 0ef08ee51fdb306c3fd275e137a3ba0c" href="/dls/moz/1.7.12/mozilla-1.7.12.zh-TW.mac.dmg">Mac OSX </a></li>
+</ul>
+
 <h3> 1.7.11 </h3><ul>
 <li><a title="MD5: 5ae738dc5b1afd655616e3d3d5106b99" href="/dls/moz/1.7.11/mozilla-1.7.11.zh-TW.win32.installer.exe">Windows 安裝檔</a></li>
 <li><a title="MD5: aaf95007dc1fbde3816ee3f5dae4a827" href="/dls/moz/1.7.11/mozilla-1.7.11.zh-TW.win32.zip">Windows 直接解壓執行</a></li>
@@ -33,6 +41,8 @@
 <li><a title="MD5: 6aa7d87c02d7065cc9136608ef3d4291" href="/dls/moz/mozilla-mac-1.7.10-zhTW.dmg">Mac OSX </a></li>
 </ul>
 
+</div><div style='width: 30%;'>
+
 <h3> 1.8a4 </h3><ul>
 <li><a title="MD5: 113405f9d87fa4297dd699b313aacc3d" href="/dls/moz/mozilla-win32-1.8a4-zhTW-installer.exe">Windows (12.1MB)</a></li>
 <li><a title="MD5: 781a6f59ee7e4f012a9c54ac727e3051" href="/dls/moz/mozilla-i686-pc-linux-gnu-1.8a4-zhTW.tar.gz">Linux 直接解壓版</a></li>
@@ -44,9 +54,6 @@
 <li><a title="MD5: 853743caf2ef1d3ffe20438e16d378f7" href="/dls/moz/mozilla-linux-1.7-gnu-zhTW.tar.bz2">Linux (12MB)</a></li>
 <li><a title="MD5: f4de6be0623903dc3372bd58a9223b30" href="/dls/moz/mozilla-mac-1.7-zhTW.dmg.gz">Mac OS X (16MB)</a></li>
 </ul>
-</div>
-
-<div style='width: 30%;'>
 
 <h3> 1.6 </h3><ul>
 <li><a title="MD5: cf7c5b8f4335782eb47c90bc9537e6b7" href="/dls/moz/mozilla-win32-1.6-zhTW-installer.exe">Windows (16MB)</a></li>
@@ -67,12 +74,12 @@
 <li><a title="MD5: e3f97196a91b181f8c68b604b60ac5cb" href="/dls/moz/mozilla-i686-pc-linux-gnu-1.2-zhTW.tar.gz">Linux (14MB)</a></li>
 </ul>
 
+</div><div style='width: 30%;'>
+
 <h3> 1.0.1 </h3><ul>
 <li><a title="MD5: 4a4f609674c2218a111d6ab7a18260f2" href="/dls/moz/mozilla-win32-1.1-zhTW-installer.exe">Windows (13MB)</a></li>
 <li><a title="MD5: 1795e646210c3d9b0231338267f10b4b" href="/dls/moz/mozilla-os2-1.1-zhTW.zip">OS/2 (17MB)</a></li>
 </ul>
-
-</div><div style='width: 30%;'>
 
 <h3> 1.0 </h3><ul>
 <li><a title="MD5: 9094de6f94e796b5c88d1c2e5c9f6f15" href="/dls/moz/mozilla-win32-1.0-zhTW-installer.exe">Windows (12MB)</a></li>
