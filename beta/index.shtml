@@ -1,78 +1,86 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Mozilla Suite/Firefox/Thunderbrid 測試版 - Mozilla Taiwan</title>
-<!--#include virtual="/inc/class_press.html" -->
+<title>測試版專區 - Mozilla Taiwan</title>
+
+<style type="text/css">
+#mainContent .download:before {
+	content: url("/images/download_tl_content.gif") !important;
+}
+#mainContent .download {
+	background: #C4EFA1 url("/images/download_back_content.gif") top right no-repeat !important;
+}
+#mainContent .download:after {
+	content:  url("/images/download_bl_content.gif") !important;
+	background: transparent url("/images/download_br_content.gif") scroll no-repeat bottom right !important;
+}
+#mainContent .download h3 {
+	background: transparent;
+}
+#product-desc.product-beta{
+	width: 90%;
+	padding-top: 0;
+	padding-bottom: 0;
+	background: url(/images/t_beta.gif) no-repeat top center;
+}
+
+#firefox-beta.download{}
+
+#thunderbird-beta.download
+{}
+</style>
+<!--#include virtual="/inc/class_dl.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-<div class="right">
-    <h3>Mozilla Suite/Firefox/Thunderbird 中文測試版 </h3>
-    <p>請注意: <b>這裡的版本並不是正式發行的版本</b>，僅供測試用，
-    <b style="color: red">不建議新手使用者下載與安裝</b>，
-    <b>因為它可能會有各種相容性問題、
-	且多數的套件與佈景主題可能都無法使用</b>。</p>
+<div class="key-point">
+    <div id="product-desc" class="product-beta">
+	<img src='/images/moztw_beta.png' style='float: left;' alt='' title='beta, this is only beta!'/>
+	<h2>Mozilla Taiwan 相關軟體中文測試版</h2>
+	<p>
+	歡迎您協助測試此處的中文軟體，您的貢獻能讓我們更好。</p><p>請注意：這裡列出的版本尚未正式發行，僅供測試用，<a href="http://moztw.org/dl">一般使用者請下載正式版本</a>。<strong class="warning">使用測試版軟體可能會有各種相容性問題、套件及佈景主題亦可能失效</strong>。
+	</p></div>
+</div>
+<div id="mainContent" class="right">
+    <h2>注意事項</h2>
+    <p>Mozilla Taiwan 為提昇軟體中文翻譯品質，提供下列軟體中文測試版。</p>
+    <ul>
+    <li>如軟體操作時發生錯誤或有建議，請至 <a href="http://bugzilla.mozilla.org">Buzilla</a> 回報。</li>
+    <li>若發現任何中文翻譯錯誤或建議，請至 <a href="http://forum.moztw.org/viewforum.php?f=4">
+	Mozilla Taiwan 討論區</a>回報。</li></ul>
+    <p>本區檔案來源為 Mozilla.org Nightly Builds 
+    (每日編譯供測試的版本，非正式發行用)：</p>
+    <ul><li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla1.8-l10n/">Firefox L10n Nightly</a></li>
+    <li><a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-mozilla1.8-l10n/"> Thunderbird L10n Nightly</a></li></ul>    
+<div class="download">
+    <div id="firefox-beta">
+    <h3>Firefox 1.5 Beta 1 (<strong class="warning">測試版</strong>，0922 Build)</h3> 
+	<ul><li>Windows: <a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.win32.installer.exe">自解安裝檔</a>、<a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.win32.zip">ZIP 免安裝</a></li>
 
-    <h3>注意事項</h3>
-    <p>下面的檔案是為了方便增進未來 Firefox/Thunderbird 1.5
-    正式版發行時中文語系的翻譯品質， 若有發現任何中文翻譯錯誤或建議請至 
-    <a href="http://forum.moztw.org/viewforum.php?f=4">
-	Mozilla Taiwan 討論區</a>回報。<br/><br/>
-    <b>
-    檔案的來源為 Mozilla.org Nightly Builds 
-    (每日編譯供測試的版本，非正式發行用) FTP:
-    <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla1.8-l10n/"> Firefox </a>
-    與
-    <a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-mozilla1.8-l10n/"> Thunderbird </a>
-    </b>
-    </p>
-    <h3>關於 Firefox 與 Thunderbird 1.5 beta 的新功能</h3>
-    <p>
-    <a href='http://forum.moztw.org/viewtopic.php?t=10481'>
-	Firefox 1.5 beta 1: What's new
-    </a><br/>
-    <a href='http://forum.moztw.org/viewtopic.php?t=9966'>
+<li>Linux: <a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.linux-i686.tar.gz">ZIP 免安裝</a></li>
+<li>Mac OS X: <a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.mac.dmg"> DMG，解開後拖至應用程式內即可</a></li></ul>
+</div>
+
+
+<div id="thunderbird-beta"><h3>Thunderbird 1.5 Beta 1 (<strong class="warning">測試版</strong>，0921 Build)</h3>
+ <ul><li>Windows: <a href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.win32.installer.exe">自解安裝檔</a>、<a href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.win32.zip">ZIP 免安裝</a></li><li>Linux: <a href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.linux-i686.tar.gz">ZIP 免安裝</a></li><li>Mac OS X: <a href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.mac.dmg">DMG，解開後拖至應用程式內即可</a></li></ul></div>
+ </div>
+ </div>
+
+<div id="side" class="right">
+	<h3>關於 Firefox 1.5 Beta</h3>
+			<p>Firefox 1.5 正式版預計於今年底推出，目前測試版提供擴充套件作者及網頁設計師測試相容問題，其他相關資訊請見 <a href="http://developer.mozilla.org/en/docs/Firefox_1.5_Beta_for_Developers">Mozilla Developer Center</a> 上的文章。</p>
+			<h3>關於 Thunderbird 1.5 Beta</h3>
+					<p>Thunderbird 1.5 正式版推出時間未定，目前測試版提供擴充套件作者及社群成員測試相容及使用問題，其他相關資訊請見 <a href="http://www.mozilla.org/products/thunderbird/releases/1.5beta1.html">Thunderbird 1.5 Beta 1 Release Note</a> 上的文章。</p>	
+					<h3>其他資訊</h3>
+    <ul class="compact">
+	<li><a href='http://forum.moztw.org/viewtopic.php?t=10481'>
+	Firefox 1.5 beta 1: 新鮮事
+    </a></li>
+	<li><a href='http://forum.moztw.org/viewtopic.php?t=9966'>
 	Firefox 1.5 系列重大新功能簡介
-    </a><br/>
-    <a href='http://forum.moztw.org/viewtopic.php?t=10482'>
+    </a></li>
+	<li><a href='http://forum.moztw.org/viewtopic.php?t=10482'>
 	Thunderbird 1.5 beta1 新鮮事
-    </a><br/>
-    </p>
-
-    <hr style='clear: both;'/>
-    <img src='/images/firefox-1.5-beta1.png' alt='' style='float: left;'>
-    <h3>Firefox 1.5 Beta 1 (測試版，0910 Build)</h3>
-    <dl id="features">
-	<dt>Windows</dt>
-	<dd><a href='/dls/fx/1.4/firefox-1.5beta1.zh-TW.win32.installer.exe'>
-	    Windows 自解安裝檔 </a><br/>
-	    <a href='/dls/fx/1.4/firefox-1.5beta1.zh-TW.win32.zip'>
-	    ZIP 免安裝直接執行</a>
-	</dd>
-	<dt>Linux</dt>
-	<dd><a href='/dls/fx/1.4/firefox-1.5beta1.zh-TW.linux-i686.tar.gz'>
-	    Linux, 解壓縮後直接執行即可</a>
-	</dd>
-	<dt>Mac OS X</dt>
-	<dd><a href='/dls/fx/1.4/firefox-1.5beta1.zh-TW.mac.dmg'>
-	    Mac DMG ，解開後拖至應用程式內即可</a>
-	</dd>
-    </dl>
-    <hr style='clear: both;'/>
-    <img src='/images/thunderbird-1.5-beta1.png' alt='' style='float: left;'>
-    <h3>Thunderbird 1.5 Beta 1 (測試版，0910 Build)</h3>
-    <dl>
-	<dt>Windows</dt>
-	<dd><a href='/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.win32.installer.exe'>
-	    Windows 自解安裝檔 </a><br/>
-	    <a href='/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.win32.zip'>
-	    ZIP 免安裝直接執行</a>
-	</dd>
-	<dt>Linux</dt>
-	<dd><a href='/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.linux-i686.tar.gz'>
-	    Linux, 解壓縮後直接執行即可</a>
-	</dd>
-	<dt>Mac OS X</dt>
-	<dd><a href='/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.mac.dmg'>
-	    Mac DMG ，解開後拖至應用程式內即可</a>
-	</dd>
-    </dl>
+    </a>
+    </ul>
+    <img src='/images/moztw_beta2.png' alt='' title='beta, this is only beta!'/>
 </div>
 <!--#include virtual="/inc/footer.html" -->
