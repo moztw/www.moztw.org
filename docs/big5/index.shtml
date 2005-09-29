@@ -1,0 +1,135 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>Big5 Variants in Mozilla: Mozilla 系列與 Big5 中文字碼</title>
+<style>
+    <!--
+    .big5list dt {
+	color: #55f;
+    }
+    b.g {
+	color: green;
+    }
+    b.b {
+	color: blue;
+    }
+    b.r {
+	color: red;
+    }
+    -->
+</style>
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+<div >
+    <h1>Mozilla 系列與 Big5 中文字碼</h1>
+    <h3>前言</h3>
+    還在寫
+    <h3> Big5 主要版本及字碼表</h3>
+    下面列出目前主要常見的 Big5 版本，及 Mozilla Taiwan 所收集的字碼表。
+    字碼表一律以 Big5 與 Unicode 的對應關係表示，每行的格式一律是 
+    <b class='g'>[Big5 Unicode]</b> ，每種版本各有一份 
+    <b class='g'>Big5 &raquo; Unicode (b2u) </b>與 
+    <b class='g'>Unicode &raquo; Big5 (u2b) </b>的表格。
+    b2u 的表格照 Big5 碼的順序排序，u2b 的表格則照 Unicode 的順序排列。
+    <dl class='big5list'>
+	<dt>CP950</dt>
+	<dd>Microsoft Windows 使用的表格。
+	<br/><b>字碼表: <a href='table/cp950-b2u.txt'> CP950 b2u </a>&nbsp;
+	    <a href='table/cp950-u2b.txt'> CP950 u2b </a></b><br/>
+	(來源: <a href='http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP950.TXT'> Unicode.org </a>)
+	</dd>
+	<dt>Big5-2003</dt>
+	<dd>
+	台灣政府單位正式制定的最新 Big5 標準，目前以 
+	<a href='http://www.cns11643.gov.tw'>CNS11643</a>的
+	<a href='http://www.cns11643.gov.tw/web/big5/'>附錄</a>形式發行。
+	<br/><b>字碼表: 
+	    <a href='table/big5_2003-b2u.txt'> Big5-2003 b2u </a>&nbsp;
+	    <a href='table/big5_2003-u2b.txt'> Big5-2003 u2b </a> </b><br/>
+	(此為 2004/08/12 修訂版， 感謝
+	<a href='http://www.csie.ntu.edu.tw/~r92030/project/big5/'> kcwu </a> 
+	提供)
+	</dd>
+	<dt>Unicode-at-on (UAO)</dt>
+	<dd>
+	「<a href='http://cpatch.org/unicode'>Unicode 補完計畫</a>」，
+	舊名「BIG5 Extension」，由 <a href='http://cpatch.org'> cpatch </a>
+	主導，最早是為了解決所謂 CP950 沒有正確對應日文假名的問題，
+	並加入了中國海字集（DOS 時代最流行的外字集）的部份，
+	最後又自訂編碼加入了大量日文漢字及簡体字，變成最大的外字集。
+	不相容 Big5-HKSCS。
+	<br/><b>字碼表: 
+	    <a href='table/uao241-b2u.txt'> UAO 2.41 b2u </a>&nbsp;
+	    <a href='table/uao241-u2b.txt'> UAO 2.41 u2b </a></b><br/>
+	(感謝 UAO / witchfive 提供)
+	</dd>
+	<dt>Big5-HKSCS</dt>
+	<dd>
+	香港地區專用字集。
+	<!--
+	<br/>字碼表: <a href='table/cp950-b2u.txt'> CP950 b2u </a>&nbsp;
+	<a href='table/cp950-u2b.txt'> CP950 u2b </a>
+	-->
+	<dt>Unicode 1.1</dt>
+	<dd>這是一份非常糟糕的字碼表，其中有不少錯誤，
+	它有所謂的日文假名，但也是錯的。 
+	雖說 Unicode.org 宣稱這些表格已過時(OBSOLETE)了，
+	不幸的是國外有不少軟體因為不知道上哪找 Big5 標準，
+	所以仍直接使用這個表格。
+	所以如果你發現某個軟體怪怪的，請給它這裡列的其它表格。
+	真的，這裡隨便任何一個其它的表都比這個好。<br/>
+	<b>字碼表(僅供參考，千萬別用這個！):
+	    <a href='http://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/OTHER/BIG5.TXT'>
+		Unicode 1.1 Big5 Mapping (OBSOLETE)
+	    </a>
+	</dd>
+	</dd>
+    </dl>
+    <!--
+    <h3> Firefox 專屬文件 </h3>
+    <ul>
+		<li><a href='/docs/ff/errNoXblBinding'>解決「No XBL Binding 錯誤」</a></li>
+		<li><a href='/docs/ff/roadmap1.0'>Firefox 1.0 開發準則</a></li>
+		<li>功能介紹
+			<ul>
+			<li><a href='/docs/ff/tabbed-browsing'>分頁瀏覽</a></li>
+			<li><a href='/docs/ff/search'>便利搜尋</a></li>
+			<li><a href='/docs/ff/live-bookmarks'>即時書籤</a></li>
+			<li><a href="/docs/ff/text-zoom">縮放文字</a></li>
+			<li><a href="/docs/ff/ui-customize">自訂介面</a></li>
+			<li><a href="/docs/ff/end-hassle">拒絕麻煩，保護隱私</a></li>
+        		<li><a href="/docs/ff/extension">擴充套件及佈景主題</a></li>
+        		</ul>
+        	</li>
+        	<li><a href='/docs/ff/switch'>從 Internet Explorer 改用 Mozilla Firefox</a></li>
+        	<li>Firefox Support
+        		<ul>
+        		<li><a href="/firefox/support/keyboard">Firefox 快速鍵列表</a></li>
+        		</ul>
+        	</li>
+	</ul>
+	<h3> Thunderbird 專屬文件 </h3>
+	<ul>
+		<li><a href='/docs/tb/'>[尚無]</a>
+	</ul>
+	<h3> ICOS 2003 講義 </h3>
+	<ul>
+		<li><a href='/docs/icos03/MI.pdf'>Mozilla Introduction</a>
+		<li><a href='/docs/icos03/MTI.pdf'>Mozilla Technology Introduction</a>
+	</ul>
+	<h2> <a href='/docs/dev'>進階文件與開發者資訊 </a></h2>
+	若您想找進一步的資訊，或是有關網頁編寫、 Mozilla 如何進行中文化(與相關工具)等資訊，
+	請參考上面的 ICOS 2003 "Mozilla Technology Introduction" 與
+	<a href='/docs/dev'>[進階文件與開發者資訊]</a> 頁面。
+<h2>感謝</h2>
+	以上文件來自許多人的努力，限於篇幅不個別列出（部分列於各文件中），在此感謝所有參與的朋友們。
+	-->
+</div>
+
+<!--
+<div id="side" class="right">
+	<ul id="nav">
+		<li><a href="/">^回 MozTW.org 首頁</a></li>
+	</ul>
+</div>
+-->
+<!--#include virtual="/inc/footer.html" -->
