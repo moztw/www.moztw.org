@@ -41,8 +41,9 @@
 	    <a href='table/cp950-b2u.txt'> 
 		 CP950 b2u </a>&nbsp;
 	    <a href='table/cp950-u2b.txt'> 
-		CP950 u2b </a></b><br/>
-	(來源: <a href='http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP950.TXT'> Unicode.org </a>)
+		CP950 u2b </a></b> &nbsp;
+	(來源: <a href='http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP950.TXT'> 
+	    Unicode.org </a>)
 	</dd>
 	<dt>Big5-2003</dt>
 	<dd>
@@ -62,22 +63,38 @@
 	舊名「BIG5 Extension」，由 <a href='http://cpatch.org'> cpatch </a>
 	主導，最早是為了解決所謂 CP950 沒有正確對應日文假名的問題，
 	並加入了中國海字集（DOS 時代最流行的外字集）的部份，
-	2.0 後又自訂編碼在 Big5 的造字區加入了大量日文漢字及簡体字，
-	變成可能是 Big5 所有分枝中史上最大的外字集。
+	2.0 後又自訂編碼在 Big5 的造字區加入了大量日文漢字及簡体字。
 	不相容 Big5-HKSCS。
 	<br/><b>字碼表: 
 	    <a href='table/uao241-b2u.txt'> UAO 2.41 b2u </a>&nbsp;
-	    <a href='table/uao241-u2b.txt'> UAO 2.41 u2b </a></b><br/>
+	    <a href='table/uao241-u2b.txt'> UAO 2.41 u2b </a></b> &nbsp;
 	(感謝 UAO / witchfive 提供)
+	</dd>
+	<dt>Mozilla 1.8 [測試中]</dt>
+	<dd>
+	為了解決 Big5 眾多版本的問題、獲得最大的可用性， 
+	Mozilla Taiwan 於 2005 年重新整理的版本。
+	<a href='table/moz18-b2u-rule.txt'>主體是以 Big5-2003 為主，
+	    但在造字與保留區則引入 UAO 的字集。</a>
+	另外為了避免其它 Big5 使用者看不到， Unicode 轉 Big5 的部份
+	則是以 CP950 為主，加進 Big5-2003 與 UAO 內增加的異體字對映，
+	但不增加 CP950 原本會指到造字區區域的字集對映。
+	<br/><b>字碼表: 
+	    <a href='table/moz18-b2u.txt'> Mozilla 1.8 b2u </a>&nbsp;
+	    <a href='table/moz18-u2b.txt'> Mozilla 1.8 u2b </a></b>
+	    &nbsp; (Mozilla Taiwan 製作)
 	</dd>
 	<dt>Big5-HKSCS</dt>
 	<dd>
-	香港地區專用字集。 雖說不相容 UAO，但注意在香港地區也是有人直接用 UAO
+	香港地區政府單位正式制定的專用字集。 雖說不相容 UAO，但注意在香港地區也是有人直接用 UAO
 	而不用 HKSCS 的。
 	<br/><b>字碼表: 
 	    <a href='table/hkscs2001-b2u.txt'> Big5HKSCS-2001 b2u </a>&nbsp;
-	    <a href='table/hkscs2001-u2b.txt'> Big5HKSCS-2001 u2b </a></b><br/>
-	(來源: Mozilla source, last update by Anthony Fok)
+	    <a href='table/hkscs2001-u2b.txt'> Big5HKSCS-2001 u2b </a></b>
+	    &nbsp;(來源: Mozilla source, last update by Anthony Fok)
+	<Br/><b>參考對照表:
+	    <a href='table/hkscs1999.txt'> Big5HKSCS-1999 </a> &nbsp;
+	    <a href='table/hkscs2001.txt'> Big5HKSCS-2001 </a> </b>
 	</dd>
     </dl>
     <h3> 其它舊 Big5 字碼表 </h3>
@@ -89,17 +106,29 @@
 	的子集合，因為 CP950 沒有 Big5-1984 定義的控制區 A3C0-A3E0。
 	<br/><b>字碼表: 
 	    <a href='table/big5_1984-b2u.txt'> Big5-1984 b2u </a>&nbsp;
-	    <a href='table/big5_1984-u2b.txt'> Big5-1984 u2b </a></b><br/>
-	(來源: Big5-2003 整理資料)
+	    <a href='table/big5_1984-u2b.txt'> Big5-1984 u2b </a></b>
+	    &nbsp;(來源: Big5-2003 整理資料)<br/>
+	<Br/><b>參考對照表:
+	    <a href='table/big5_1984.txt'> Big5-1984 </a> </b>
 	</dd>
-	<dt>IBM</dt>
+
+	<dt>IBM(5550)</dt>
 	<dd>
-	IBM 舊型機器所使用的版本。 現僅供參考，不建議使用。
+	IBM 舊型機器(IBM-5550與同時代機種為主)所使用的版本。 現僅供參考，不建議使用。
 	<br/><b>字碼表: 
 	    <a href='table/ibm-b2u.txt'> IBM b2u </a>&nbsp;
-	    <a href='table/ibm-u2b.txt'> IBM u2b </a></b><br/>
-	(來源: Big5-2003 整理資料)
+	    <a href='table/ibm-u2b.txt'> IBM u2b </a></b>
+	    &nbsp; (來源: Big5-2003 整理資料)
 	</dd>
+
+	<dt> Big5-ETEN (倚天)</dt>
+	<dd>
+	DOS 時代最重要的倚天中文(ETEN)所使用的版本，可惜與 CP950
+	略有不同(主要有日文假名區等)。
+	<Br/><b>參考對照表:
+	    <a href='table/eten.txt'> ETEN </a> </b>
+	</dd>
+
 	<dt> Mozilla 1.5 </dt>
 	<dd>
 	這是 Mozilla 1.5 (2003/07) 起使用的表格，主要是在
@@ -112,20 +141,44 @@
 	    <a href='table/moz15-u2b.txt'> Mozilla 1.5 u2b </a></b><br/>
 	(來源: Mozilla Source)
 	</dd>
-	</dd>
+
 	<dt>Unicode 1.1</dt>
 	<dd>這是一份非常糟糕的字碼表，其中有不少錯誤，
 	它有所謂的日文假名，但也是錯的。 
 	雖說 Unicode.org 宣稱這些表格已過時(OBSOLETE)了，
 	不幸的是國外有不少軟體因為不知道上哪找 Big5 標準，
 	所以仍直接使用這個表格。
-	所以如果你發現某個軟體怪怪的，請給它這裡列的其它表格。
-	真的，這裡隨便任何一個其它的表都比這個好。<br/>
-	<b>字碼表(僅供參考，千萬別用這個！):
+	所以如果你發現某個軟體怪怪的，請給它前面列的其它表格。
+	真的，前面隨便任何一個其它的表都比這個好。
+	<Br/><b>參考對照表(僅供參考，千萬別用這個！):
 	    <a href='http://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/OTHER/BIG5.TXT'>
-		Unicode 1.1 Big5 Mapping (OBSOLETE)
-	    </a>
+		Unicode 1.1 Big5 Mapping (OBSOLETE, uncode.org)
+	    </a>&nbsp;
+	    <a href='table/unicode1.1-obsolete.txt'>
+		本地複本
+	</a></b>
 	</dd>
+
+	<dt>Big5+ (Big5 Plus)</dt>
+	<dd>如果有比 Unicode1.1 更糟糕的字碼表，那一定就是它了:
+	Big5+, 從被公佈到宣告死亡間從沒有系統實際支援過
+	(除了發行者中推會自己的一些程式)。
+	Big5+ 試圖從 Unicode 塞進跟 GBK 一樣多的字，但很不幸的它改變了原始
+	Big5 的範圍以塞進兩萬多個字(史上最大的 Big5 字集)，以至於無人問津。 
+	Big5+ 很快的就被修正版的 Big5-E 取代掉了。
+	<br/><b>參考對照表(僅供參考，千萬別用這個！):
+	    <a href='table/big5plus-obsolete.txt'>
+		Big5+ Mapping Table (OBSOLETE and NEVER USED)
+	    </a></b>
+	</dd>
+
+	<dt>Big5E (Big5-Ext)</dt>
+	<dd>由於 Big5+ 明顯的失敗， Bi5E 拿掉了許多字碼以塞回傳統 Big5
+	的範圍內。 但同樣的，沒什麼系統支援它。
+	<br/><b>參考對照表:
+	    <a href='table/big5ext.txt'>
+		Big5E Mapping Table 
+	    </a></b>
 	</dd>
     </dl>
 </div>
