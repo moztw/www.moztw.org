@@ -30,11 +30,18 @@
     <b class='g'>Big5 &raquo; Unicode (b2u) </b>與 
     <b class='g'>Unicode &raquo; Big5 (u2b) </b>的表格。
     b2u 的表格照 Big5 碼的順序排序，u2b 的表格則照 Unicode 的順序排列。
+    <br/>
     <dl class='big5list'>
 	<dt>CP950</dt>
-	<dd>Microsoft Windows 使用的表格。
-	<br/><b>字碼表: <a href='table/cp950-b2u.txt'> CP950 b2u </a>&nbsp;
-	    <a href='table/cp950-u2b.txt'> CP950 u2b </a></b><br/>
+	<dd>Microsoft Windows 使用的表格。 除了某些字(如日文假名)
+	沒有正確的 Unicode 對映(mapping)外，還算是個滿正確的表。 
+	若想避免程式產生別人可能會看不到的內容，請使用 CP950
+	的 u2b 表格。
+	<br/><b>字碼表: 
+	    <a href='table/cp950-b2u.txt'> 
+		 CP950 b2u </a>&nbsp;
+	    <a href='table/cp950-u2b.txt'> 
+		CP950 u2b </a></b><br/>
 	(來源: <a href='http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP950.TXT'> Unicode.org </a>)
 	</dd>
 	<dt>Big5-2003</dt>
@@ -55,7 +62,8 @@
 	舊名「BIG5 Extension」，由 <a href='http://cpatch.org'> cpatch </a>
 	主導，最早是為了解決所謂 CP950 沒有正確對應日文假名的問題，
 	並加入了中國海字集（DOS 時代最流行的外字集）的部份，
-	最後又自訂編碼加入了大量日文漢字及簡体字，變成最大的外字集。
+	2.0 後又自訂編碼在 Big5 的造字區加入了大量日文漢字及簡体字，
+	變成可能是 Big5 所有分枝中史上最大的外字集。
 	不相容 Big5-HKSCS。
 	<br/><b>字碼表: 
 	    <a href='table/uao241-b2u.txt'> UAO 2.41 b2u </a>&nbsp;
@@ -64,11 +72,30 @@
 	</dd>
 	<dt>Big5-HKSCS</dt>
 	<dd>
-	香港地區專用字集。
-	<!--
-	<br/>字碼表: <a href='table/cp950-b2u.txt'> CP950 b2u </a>&nbsp;
-	<a href='table/cp950-u2b.txt'> CP950 u2b </a>
-	-->
+	香港地區專用字集。 雖說不相容 UAO，但注意在香港地區也是有人直接用 UAO
+	而不用 HKSCS 的。
+	<br/><b>字碼表: 
+	    <a href='table/hkscs2001-b2u.txt'> Big5HKSCS-2001 b2u </a>&nbsp;
+	    <a href='table/hkscs2001-u2b.txt'> Big5HKSCS-2001 u2b </a></b><br/>
+	(來源: Mozilla source, last update by Anthony Fok)
+	</dd>
+	<dt>Big5-1984</dt>
+	<dd>
+	最早的 Big5 版本，由台灣資策會所制定。 遺憾的是它並不是 CP950 
+	的子集合，因為 CP950 沒有 Big5-1984 定義的控制區 A3C0-A3E0。
+	<br/><b>字碼表: 
+	    <a href='table/big5_1984-b2u.txt'> Big5-1984 b2u </a>&nbsp;
+	    <a href='table/big5_1984-u2b.txt'> Big5-1984 u2b </a></b><br/>
+	(來源: Big5-2003 整理資料)
+	</dd>
+	<dt>IBM</dt>
+	<dd>
+	IBM 舊型機器所使用的版本。 現僅供參考，不建議使用。
+	<br/><b>字碼表: 
+	    <a href='table/ibm-b2u.txt'> IBM b2u </a>&nbsp;
+	    <a href='table/ibm-u2b.txt'> IBM u2b </a></b><br/>
+	(來源: Big5-2003 整理資料)
+	</dd>
 	<dt>Unicode 1.1</dt>
 	<dd>這是一份非常糟糕的字碼表，其中有不少錯誤，
 	它有所謂的日文假名，但也是錯的。 

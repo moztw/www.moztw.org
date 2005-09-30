@@ -12,10 +12,10 @@
 	</ul>
 	<h3> 翻譯/本地化(Localization)用技術性資源</h3>
 	<ul>
+		<li><a href='/docs/big5/'>Big5 中文字碼表相關問題與各版本字碼表</a>
+		<li><a href='/docs/glossaries'>Mozilla 系列詞彙表(部份)</a>
 		<li><A href='/tools/mozlcdb/'>MozLCDB: 為全方位 Mozilla Product 設計的翻譯工具</a>
-		<li><a href='/docs/glossaries'>詞彙表</a>
 		<li><a href='/tools'>軟體工具</a>
-		<li><a href='/docs/big5/big5-2003.txt'>Big5-2003 與 Unicode 的對應表</a>
 	</ul>
 	<h3> 舊文件 </h3>
 	<ul>

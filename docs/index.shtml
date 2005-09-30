@@ -45,8 +45,15 @@
 	<h2> <a href='/docs/dev'>進階文件與開發者資訊 </a></h2>
 	若您想找進一步的資訊，或是有關網頁編寫、 Mozilla 如何進行中文化(與相關工具)等資訊，
 	請參考上面的 ICOS 2003 "Mozilla Technology Introduction" 與
-	<a href='/docs/dev'>[進階文件與開發者資訊]</a> 頁面。
-<h2>感謝</h2>
+	<a href='/docs/dev'>[進階文件與開發者資訊]</a> 頁面。<br/>
+	熱門資訊列表:
+	<ul>
+	    <li><a href='/docs/big5/'>Big5 中文字碼表相關問題與各版本字碼表</a>
+	    <li><a href='/docs/glossaries'>Mozilla 系列詞彙表(部份)</a>
+	    <li><a href='/tools'>本地化用軟體工具</a>
+	</ul>
+
+	<h2>感謝</h2>
 	以上文件來自許多人的努力，限於篇幅不個別列出（部分列於各文件中），在此感謝所有參與的朋友們。
 </div>
 	
