@@ -79,9 +79,13 @@
 	    <a href='table/hkscs2001-u2b.txt'> Big5HKSCS-2001 u2b </a></b><br/>
 	(來源: Mozilla source, last update by Anthony Fok)
 	</dd>
+    </dl>
+    <h3> 其它舊 Big5 字碼表 </h3>
+    下面的 Big5 版本比較<b style='color: red;'>不建議</b>使用。
+    <dl class='big5list'>
 	<dt>Big5-1984</dt>
 	<dd>
-	最早的 Big5 版本，由台灣資策會所制定。 遺憾的是它並不是 CP950 
+	最早 (1984) 的 Big5 版本，由台灣資策會所制定。 遺憾的是它並不是 CP950 
 	的子集合，因為 CP950 沒有 Big5-1984 定義的控制區 A3C0-A3E0。
 	<br/><b>字碼表: 
 	    <a href='table/big5_1984-b2u.txt'> Big5-1984 b2u </a>&nbsp;
@@ -95,6 +99,19 @@
 	    <a href='table/ibm-b2u.txt'> IBM b2u </a>&nbsp;
 	    <a href='table/ibm-u2b.txt'> IBM u2b </a></b><br/>
 	(來源: Big5-2003 整理資料)
+	</dd>
+	<dt> Mozilla 1.5 </dt>
+	<dd>
+	這是 Mozilla 1.5 (2003/07) 起使用的表格，主要是在
+	<a href='https://bugzilla.mozilla.org/show_bug.cgi?id=9686'> Bug#9686</a>
+	根據 OpenI18N-Big5 subgroup 的 TW-Big5 所做的對照表。基本上可視為
+	CP950 加上日文假名與部份數字及符號。 但由於是雙向的對照表，會造成與 CP950 系統
+	不相容的問題。 預計於 2005/09 的 Mozilla 1.8 中修正為新版。
+	<br/><b>字碼表: 
+	    <a href='table/moz15-b2u.txt'> Mozilla 1.5 b2u </a>&nbsp;
+	    <a href='table/moz15-u2b.txt'> Mozilla 1.5 u2b </a></b><br/>
+	(來源: Mozilla Source)
+	</dd>
 	</dd>
 	<dt>Unicode 1.1</dt>
 	<dd>這是一份非常糟糕的字碼表，其中有不少錯誤，
@@ -111,45 +128,6 @@
 	</dd>
 	</dd>
     </dl>
-    <!--
-    <h3> Firefox 專屬文件 </h3>
-    <ul>
-		<li><a href='/docs/ff/errNoXblBinding'>解決「No XBL Binding 錯誤」</a></li>
-		<li><a href='/docs/ff/roadmap1.0'>Firefox 1.0 開發準則</a></li>
-		<li>功能介紹
-			<ul>
-			<li><a href='/docs/ff/tabbed-browsing'>分頁瀏覽</a></li>
-			<li><a href='/docs/ff/search'>便利搜尋</a></li>
-			<li><a href='/docs/ff/live-bookmarks'>即時書籤</a></li>
-			<li><a href="/docs/ff/text-zoom">縮放文字</a></li>
-			<li><a href="/docs/ff/ui-customize">自訂介面</a></li>
-			<li><a href="/docs/ff/end-hassle">拒絕麻煩，保護隱私</a></li>
-        		<li><a href="/docs/ff/extension">擴充套件及佈景主題</a></li>
-        		</ul>
-        	</li>
-        	<li><a href='/docs/ff/switch'>從 Internet Explorer 改用 Mozilla Firefox</a></li>
-        	<li>Firefox Support
-        		<ul>
-        		<li><a href="/firefox/support/keyboard">Firefox 快速鍵列表</a></li>
-        		</ul>
-        	</li>
-	</ul>
-	<h3> Thunderbird 專屬文件 </h3>
-	<ul>
-		<li><a href='/docs/tb/'>[尚無]</a>
-	</ul>
-	<h3> ICOS 2003 講義 </h3>
-	<ul>
-		<li><a href='/docs/icos03/MI.pdf'>Mozilla Introduction</a>
-		<li><a href='/docs/icos03/MTI.pdf'>Mozilla Technology Introduction</a>
-	</ul>
-	<h2> <a href='/docs/dev'>進階文件與開發者資訊 </a></h2>
-	若您想找進一步的資訊，或是有關網頁編寫、 Mozilla 如何進行中文化(與相關工具)等資訊，
-	請參考上面的 ICOS 2003 "Mozilla Technology Introduction" 與
-	<a href='/docs/dev'>[進階文件與開發者資訊]</a> 頁面。
-<h2>感謝</h2>
-	以上文件來自許多人的努力，限於篇幅不個別列出（部分列於各文件中），在此感謝所有參與的朋友們。
-	-->
 </div>
 
 <!--

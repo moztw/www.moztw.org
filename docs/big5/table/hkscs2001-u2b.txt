@@ -1,4 +1,6 @@
 # big5 unicode
+# WARNING: this table may be incomplete.
+# please apply moz15-u2b.txt first then this one.
 0xC6D8 0x00A8
 0x8859 0x00C0
 0x8857 0x00C1
