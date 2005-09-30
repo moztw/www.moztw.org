@@ -98,7 +98,9 @@
 	香港增補字符集 (Hong Kong Supplementary Character Set)，
 	香港地區政府單位正式制定的專用字集。 雖說不相容 UAO，
 	但注意在香港地區也是有人直接用 UAO 而不用 HKSCS 的。
-	目前為止有 1999、2001、2004 三版。
+	目前為止有 1999、2001、2004 三版。 許多字碼在三次版本中逐次移動，
+	從造字區移向 Unihan、最後移向 ext A/ext B (+U2XXXX 的都是)。
+	使用上請務必小心。
 	<br/><b>字碼表: 
 	    <a href='table/hkscs2001-b2u.txt'> Big5HKSCS-2001 b2u </a>&nbsp;
 	    <a href='table/hkscs2001-u2b.txt'> Big5HKSCS-2001 u2b </a></b>
@@ -106,6 +108,7 @@
 	<Br/><b>參考對照表:
 	    <a href='table/hkscs1999.txt'> Big5HKSCS-1999 </a> &nbsp;
 	    <a href='table/hkscs2001.txt'> Big5HKSCS-2001 </a> </b>
+	    <a href='table/hkscs2004.txt'> Big5HKSCS-2004 </a> </b>
 	</dd>
     </dl>
     <h3> 其它舊 Big5 字碼表 </h3>
