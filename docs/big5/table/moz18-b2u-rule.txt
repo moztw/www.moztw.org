@@ -57,6 +57,8 @@ b2u=uao241
 0xC6D6 0x2FA1  |  0xC6D6 0x8FB5
 0xC6D7 0x2FAA  |  0xC6D7 0x96B6
 
-b2u=big5-2003
-(big5-2003 is wide width while uao241 is narrow)
+b2u=uao241
+(big5-2003 is wide width while uao241 is narrow
+ but in ETEN definition: MODIFIER LETTER CIRCUMFLEX ACCENT
+ so Big5-2003 does not fit the original purpose.)
 0xC6D9 0xFF3E  |  0xC6D9 0x02C6

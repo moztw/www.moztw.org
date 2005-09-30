@@ -87,13 +87,18 @@
 	但不增加 CP950 原本會指到造字區區域的字集對映。
 	<br/><b>字碼表: 
 	    <a href='table/moz18-b2u.txt'> Mozilla 1.8 b2u </a>&nbsp;
-	    <a href='table/moz18-u2b.txt'> Mozilla 1.8 u2b </a></b>
-	    &nbsp; (Mozilla Taiwan 製作)
+	    <a href='table/moz18-u2b.txt'> Mozilla 1.8 u2b </a>&nbsp;
+	    &nbsp; * &nbsp;
+	    <a href='table/moz18-b2u-strict.txt' title='以跟 HKSCS 相容'> 
+		b2u-strict(不使用UAO字集) </a>&nbsp;
+	    </b> &nbsp; (Mozilla Taiwan 製作)
 	</dd>
 	<dt>Big5-HKSCS</dt>
 	<dd>
-	香港地區政府單位正式制定的專用字集。 雖說不相容 UAO，但注意在香港地區也是有人直接用 UAO
-	而不用 HKSCS 的。
+	香港增補字符集 (Hong Kong Supplementary Character Set)，
+	香港地區政府單位正式制定的專用字集。 雖說不相容 UAO，
+	但注意在香港地區也是有人直接用 UAO 而不用 HKSCS 的。
+	目前為止有 1999、2001、2004 三版。
 	<br/><b>字碼表: 
 	    <a href='table/hkscs2001-b2u.txt'> Big5HKSCS-2001 b2u </a>&nbsp;
 	    <a href='table/hkscs2001-u2b.txt'> Big5HKSCS-2001 u2b </a></b>
@@ -146,6 +151,16 @@
 	    <a href='table/moz15-b2u.txt'> Mozilla 1.5 b2u </a>&nbsp;
 	    <a href='table/moz15-u2b.txt'> Mozilla 1.5 u2b </a></b><br/>
 	(來源: Mozilla Source)
+	</dd>
+
+	<dt> Big5-GCCS </dt>
+	<dd> 香港政府通用中文字庫(Government Chinese Character Set)，
+	可說是 HKSCS 的前身。 1995 年公佈，收了 3049 個字，
+	可惜 1999 年的 HKSCS-1999 並非完全相容於 GCCS ，只保留了 2943 個。
+	<br/><b>參考對照表:
+	    <a href='table/gccs.txt'>
+		Big5-GCCS Mapping Table 
+	    </a></b>
 	</dd>
 
 	<dt>Unicode 1.1</dt>
