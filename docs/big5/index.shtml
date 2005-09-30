@@ -31,6 +31,12 @@
     <b class='g'>Unicode &raquo; Big5 (u2b) </b>的表格。
     b2u 的表格照 Big5 碼的順序排序，u2b 的表格則照 Unicode 的順序排列。
     <br/>
+    如果這裡沒有你想找的，還可以再參考
+    <a href='http://www.haible.de/bruno/charsets/conversion-tables/Big5.html'>
+	這裡</a> (感謝 rafan/ericyu 提供此鏈結)。 注意該網站及下面部份 Big5
+    只有 Unicode Mapping Table (下面寫「參考對照表」的)，並沒有分 b2u 跟 u2b 的資料，
+    若要實際使用時 u2b 通常要再手動調整。
+    <br/>
     <dl class='big5list'>
 	<dt>CP950</dt>
 	<dd>Microsoft Windows 使用的表格。 除了某些字(如日文假名)
@@ -176,7 +182,7 @@
 	<dd>由於 Big5+ 明顯的失敗， Bi5E 拿掉了許多字碼以塞回傳統 Big5
 	的範圍內。 但同樣的，沒什麼系統支援它。
 	<br/><b>參考對照表:
-	    <a href='table/big5ext.txt'>
+	    <a href='table/big5e.txt'>
 		Big5E Mapping Table 
 	    </a></b>
 	</dd>
