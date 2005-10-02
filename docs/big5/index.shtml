@@ -55,7 +55,13 @@
 	<dd>
 	台灣政府單位正式制定的最新 Big5 標準，目前以 
 	<a href='http://www.cns11643.gov.tw'>CNS11643</a>的
-	<a href='http://www.cns11643.gov.tw/web/big5/'>附錄</a>形式發行。
+	<a href='http://www.cns11643.gov.tw/web/big5/'>附錄</a>形式發行。<br/>
+	由於 Big5-2003 試圖減少 Unicode 字寬有問題的 Ambigious CJK 部份，
+	它把某些符號的 b2u 做了改變，導致 CP950 並不完全是 Big5-2003 的子集合
+	(或說 Big5-2003 不是 CP950 的 superset)。 某些字 (共 14 個符號)
+	字型 "看起來" 一樣，但在 Unicode 的位置不一樣。 另外 Big5-2003 把部首區的字
+	對應到 Unicode 的康熙字典部首區，但遺憾的是目前大多數字型都沒有準備這區。
+
 	<br/><b>字碼表: 
 	    <a href='table/big5_2003-b2u.txt'> Big5-2003 b2u </a>&nbsp;
 	    <a href='table/big5_2003-u2b.txt'> Big5-2003 u2b </a> </b><br/>
@@ -79,12 +85,18 @@
 	<dt>Mozilla 1.8 [測試中]</dt>
 	<dd>
 	為了解決 Big5 眾多版本的問題、獲得最大的可用性， 
-	Mozilla Taiwan 於 2005 年重新整理的版本。
+	Mozilla Taiwan 於 2005 年與 UAO 合作，重新整理的版本。
 	<a href='table/moz18-b2u-rule.txt'>主體是以 Big5-2003 為主，
 	    但在造字與保留區則引入 UAO 的字集。</a>
 	另外為了避免其它 Big5 使用者看不到， Unicode 轉 Big5 的部份
 	則是以 CP950 為主，加進 Big5-2003 與 UAO 內增加的異體字對映，
-	但不增加 CP950 原本會指到造字區區域的字集對映。
+	但不增加 CP950 原本會指到造字區區域的字集對映。<br/>
+	(註: 由於 UAO 同時也在為與 Big5-2003 相容而修訂，
+	最後此修訂版的 mozilla1.8 b2u 與 UAO 2.41 的 b2u 一致。
+	另外由於這樣的字碼表與其它有使用到造字區的外字集不相容 [如 HKSCS]，
+	所以下面另外提供 b2u-strict 是不使用 UAO 的標準 Big5-2003。
+	如果您的系統有另行支援 HKSCS, 可使用標準 b2u; 若您的系統無法分開處理
+	Big5-hkscs 與 Big5, 則請用 b2u-strict)
 	<br/><b>字碼表: 
 	    <a href='table/moz18-b2u.txt'> Mozilla 1.8 b2u </a>&nbsp;
 	    <a href='table/moz18-u2b.txt'> Mozilla 1.8 u2b </a>&nbsp;
