@@ -26,6 +26,23 @@
 
 #thunderbird-beta.download
 {}
+
+#old-beta:hover
+{
+    color: black;
+}
+#old-beta 
+{
+    color: #888;
+}
+#old-beta a
+{
+    color: #88a;
+}
+#old-beta a:visited
+{
+    color: #88a;
+}
 </style>
 <!--#include virtual="/inc/class_dl.html" -->
 <!--#include virtual="/inc/header.html" -->
@@ -51,18 +68,47 @@
     <li><a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-mozilla1.8-l10n/"> Thunderbird L10n Nightly</a></li></ul>    
 <div class="download">
     <div id="firefox-beta">
-    <h3>Firefox 1.5 Beta 1 (<strong class="warning">測試版</strong>，0929 Build)</h3> 
-	<ul><li>Windows: <a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.win32.installer.exe">自解安裝檔</a>、<a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.win32.zip">ZIP 免安裝</a></li>
+    <h3>Firefox 1.5 Beta 2 (<strong class="warning">測試版</strong>，1006 Build)</h3> 
+    <ul>
+	<li>Windows: <a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.win32.installer.exe">自解安裝檔</a>、
+	<a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.win32.zip">ZIP 免安裝</a></li>
 
-<li>Linux: <a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.linux-i686.tar.gz">ZIP 免安裝</a></li>
-<li>Mac OS X: <a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.mac.dmg"> DMG，解開後拖至應用程式內即可</a></li></ul>
+	<li>Linux: <a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.linux-i686.tar.gz">ZIP 免安裝</a></li>
+	<li>Mac OS X: <a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.mac.dmg"> DMG，解開後拖至應用程式內即可</a></li>
+    </ul>
+    </div>
+
+
+    <div id="thunderbird-beta">
+    <h3>Thunderbird 1.5 Beta 2 (<strong class="warning">測試版</strong>，1006 Build)</h3>
+    <ul>
+	<li>Windows: <a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.win32.installer.exe">自解安裝檔</a>、
+	<a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.win32.zip">ZIP 免安裝</a></li>
+	<li>Linux: <a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.linux-i686.tar.gz">ZIP 免安裝</a></li>
+	<li>Mac OS X: <a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.mac.dmg">DMG，解開後拖至應用程式內即可</a></li>
+    </ul>
+
+    </div>
+
+    <div id="old-beta">
+    <h3>Firefox 1.5 Beta 1 (0929 Build)</h3> 
+    <ul><li>Windows: <a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.win32.installer.exe">自解安裝檔</a>、
+	<a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.win32.zip">ZIP 免安裝</a></li>
+
+	<li>Linux: <a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.linux-i686.tar.gz">ZIP 免安裝</a></li>
+	<li>Mac OS X: <a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.mac.dmg"> DMG，解開後拖至應用程式內即可</a></li>
+    </ul>
+    <h3>Thunderbird 1.5 Beta 1 (0929 Build)</h3>
+    <ul>
+	<li>Windows: <a href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.win32.installer.exe">自解安裝檔</a>、
+	<a href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.win32.zip">ZIP 免安裝</a></li>
+	<li>Linux: <a href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.linux-i686.tar.gz">ZIP 免安裝</a></li>
+	<li>Mac OS X: <a href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.mac.dmg">DMG，解開後拖至應用程式內即可</a></li>
+    </ul>
+    </div>
+
 </div>
-
-
-<div id="thunderbird-beta"><h3>Thunderbird 1.5 Beta 1 (<strong class="warning">測試版</strong>，0929 Build)</h3>
- <ul><li>Windows: <a href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.win32.installer.exe">自解安裝檔</a>、<a href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.win32.zip">ZIP 免安裝</a></li><li>Linux: <a href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.linux-i686.tar.gz">ZIP 免安裝</a></li><li>Mac OS X: <a href="/dls/tb/1.4/thunderbird-1.5beta1.zh-TW.mac.dmg">DMG，解開後拖至應用程式內即可</a></li></ul></div>
- </div>
- </div>
+</div>
 
 <div id="side" class="right">
 	<h3>關於 Firefox 1.5 Beta</h3>

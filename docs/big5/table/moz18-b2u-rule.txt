@@ -21,7 +21,10 @@ b2u=cp950
 0xC255 0x5F5E  |  0xC255 0x5F5D
 
 b2u=cp950
-(round corder v.s. double line)
+(this should be "double line with round corner" in Big5,
+ however there's no "double line with round corner" in Unicode
+ so we have to choose from one of them.
+ Big5-2003 is double line while CP950 is round corner.)
 0xF9FA 0x2554  |  0xF9FA 0x256D
 0xF9FB 0x2557  |  0xF9FB 0x256E
 0xF9FC 0x255A  |  0xF9FC 0x2570
