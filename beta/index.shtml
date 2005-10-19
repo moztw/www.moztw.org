@@ -73,7 +73,7 @@
 	<li>Windows: <a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.win32.installer.exe">自解安裝檔</a>、
 	<a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.win32.zip">ZIP 免安裝</a></li>
 
-	<li>Linux: <a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.linux-i686.tar.gz">ZIP 免安裝</a></li>
+	<li>Linux: <a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.linux-i686.tar.gz">TGZ 免安裝</a></li>
 	<li>Mac OS X: <a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.mac.dmg"> DMG，解開後拖至應用程式內即可</a></li>
     </ul>
     </div>
@@ -84,7 +84,7 @@
     <ul>
 	<li>Windows: <a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.win32.installer.exe">自解安裝檔</a>、
 	<a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.win32.zip">ZIP 免安裝</a></li>
-	<li>Linux: <a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.linux-i686.tar.gz">ZIP 免安裝</a></li>
+	<li>Linux: <a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.linux-i686.tar.gz">TGZ 免安裝</a></li>
 	<li>Mac OS X: <a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.mac.dmg">DMG，解開後拖至應用程式內即可</a></li>
     </ul>
 
