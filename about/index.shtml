@@ -35,12 +35,20 @@ Email:
 <hr class="hide">
 
 <div id="mainContent">
-	<h1 id="about-moztw">關於本站 moztw.org </h1>
-	<p> moztw.org 是台灣專屬於 <a href='http://www.mozilla.org'>Mozilla</a> 相關資訊的網站，
+	<h1 id="about-moztw">關於 Mozilla Taiwan </h1>
+	<p> Mozilla Taiwan - moztw.org 是台灣專屬於 
+	<a href='http://www.mozilla.org'>Mozilla</a> 相關資訊的網站，
 	於 2004 年九月正式開張。目前本站管理、維護 Mozilla 的正體中文語言套件(Language
 	Pack) 跟已本地化 (Localized) 的安裝檔，提供 <a href='http://www.moztw.org'>WWW (下載、文件)</a>與
 	<a href='http://forum.moztw.org'>討論區</a> 等服務。關於本站定位及其他服務還在規畫中，
 	歡迎給予建議與指教！</p>
+	<p> Mozilla Taiwan 名稱的正式寫法:
+	<ul>
+	    <li> 英文全名: Mozilla Taiwan</li>
+	    <li> 英文縮寫: MozTW </li>
+	    <li> 網址: moztw.org 或 mozilla-taiwan.org </li>
+	</ul>
+	</p>
 	<p>moztw.org 網站上的內容皆由社群成員提供，由
 	<a href="mailto:piaip@csie.ntu.edu.tw?subject=moztw:">
 		林弘德 (piaip, Hung-Te Lin)</a> 
