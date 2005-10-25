@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/meta.html" -->
-<!--#include virtual="/inc/title.html" -->
+<title>MozLCDB: Excellent Localization Tool for Mozilla Products, from Mozilla Taiwan / Hung-Te Lin</title>
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 
@@ -19,8 +19,9 @@ blockquote {margin: 1px; padding: 1px; margin-left: 2em;}
 It is designed to resolve issues introduced since Mozilla Firefox 1.0 branch, and
 a replacement for MozillaTranslator.
 <h3> The author and "Why a new tool?"</h3>
-<p> &nbsp; This is Hung-Te Lin, maintainer of 
-<a href='http://moztw.org/'>Traditional Chinese Mozilla Localization</a>
+<p> &nbsp; This is <a href='http://ntu.csie.org/~piaip/' title="piaip@csie.ntu.edu.tw">Hung-Te Lin</a>,
+maintainer of <a href='http://moztw.org/'>Traditional Chinese Mozilla Localization</a>,
+<!-- Traditional Chinese VIM Localization,-->
 and the famous <a href='http://moztw.org/tools/'> "mozip" </a>
 (a tool to make Win32 localized builds).<br/>
 <p>&nbsp; I have been using MozillaTranslator for years
@@ -71,9 +72,16 @@ Get these files:
 	<li>Latest version: <a href='archive/mozlcdb_latest.zip'> 
 		<!--#flastmod virtual="archive/mozlcdb_latest.zip" --> </a> (hack on your own!)
 	<li>Releases: <ul>
-	<li><a href='archive/mozlcdb_v0.3.zip'> Version 0.3 </a>(Stable, approved with Fx1.1trunk,Tb1.1trunk)</li>
+	<li><a href='archive/mozlcdb_v0.4.zip'> Version 0.4 </a>(Stable, approved with Fx1.5b/moz1.8)
+	<br/> <i>- added: output string table by specified timestamp<br/>
+                 - modified: handle DTD Reference entries</i>
+        </li>
+    
+	<li><a href='archive/mozlcdb_v0.3.zip'> Version 0.3 </a>(Stable, approved with Fx1.1trunk,Tb1.1trunk)
+	<br/> <i>- added: N-way merge, better root guessing, check db, ... lots of new features</i>
+	</li>
 	<li><a href='archive/mozlcdb_v0.2.zip'> Version 0.2 </a>(Stable, approved with FF1.0/TB0.8)</li>
-	<li><a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a>(a little buggy)</li>
+	<li><a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a>(Deprecated)</li>
 	</ul></ul>
 </ul>
 <h3> Background Knowledge </h3>
@@ -183,8 +191,8 @@ Run 'mozlcdb.pl -h' to see its syntax:
 <b>If you don't need to import from MozillaTranslator, skip this section.<br/>
 	You must have python working before you start the procedure.</b><br/><br/>
 I know this is weird: why python, not perl? Because this python script 
-is modified by another python script I wrote years ago and I'm too tired
-to make another perl version.<br/>
+is modified by another python script I wrote years ago and I'm tired
+of making another perl version.<br/>
 <ul>
 	<li> First, unzip your glossary.zip which is in same directory of
 	MozillaTranslator.  You will find a "glossary.txt". Then run
