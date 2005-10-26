@@ -8,14 +8,24 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
-    <li><div class="date"> 9 月 12 </div>
+    <li><div class="date"> 9 月 12 日</div>
     想先試試未來的 Firefox 1.5 嗎？
     <a href='http://moztw.org/beta/'>
 	Mozilla Firefox 1.5 beta1 (測試版) 與 
 	Thunderbird 1.5 beta1 (測試版)</a> 
     中文測試版釋出；但請注意這是測試版，暫不建議新手馬上更新。
 
-    <li><div class="date"> 9 月 09 </div>
+    <li style='color: red;'><div class="date"> 9 月 11 日</div>
+    安全性更新: 
+    <a href='http://moztw.org/press/moztw-20050909.html'> 
+	國際網域名稱緩衝區溢位漏洞 (IDN Buffer Overflow) [中文]</a>，
+    惡意網站可能在使用者按下刻意設計過的超長鏈結時
+    得以在該使用者的電腦上執行任意程式。
+    建議昇級到 Firefox 1.0.7/Mozilla 1.7.12 或安裝此
+    <a href='http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0.6/patches/307259.xpi '>
+	安全修正</a>(包括 Mozilla 1.7.11, Firefox 1.0.6 及 1.5b1 的所有版本)。
+
+    <li><div class="date"> 9 月 09 日</div>
     Mozilla Firefox 1.5b1 英文版已釋出，但是否要釋出其它語系的版本仍待 Mozilla 官方的決定。
     (註: 包括中文的其它許多語系其實都已準備完成，只待 Mozilla Foundation 官方點頭即可)
     另，由於 1.5b1 (beta 1) 是測試版，暫不建議新手馬上更新。

@@ -69,20 +69,22 @@ You  need these stuff:
 <h3> Download </h3>
 Get these files:
 <ul>
-	<li>Latest version: <a href='archive/mozlcdb_latest.zip'> 
-		<!--#flastmod virtual="archive/mozlcdb_latest.zip" --> </a> (hack on your own!)
 	<li>Releases: <ul>
-	<li><a href='archive/mozlcdb_v0.4.zip'> Version 0.4 </a>(Stable, approved with Fx1.5b/moz1.8)
+	<li><a href='archive/mozlcdb_v0.4.zip'> Version 0.4 </a>(Current, approved with Fx1.5b/moz1.8, 2005/10/26)
 	<br/> <i>- added: output string table by specified timestamp<br/>
-                 - modified: handle DTD Reference entries</i>
+                 - fixed: support DTD Reference entries and #expand preprocessing</i>
         </li>
     
-	<li><a href='archive/mozlcdb_v0.3.zip'> Version 0.3 </a>(Stable, approved with Fx1.1trunk,Tb1.1trunk)
+	<li><a href='archive/mozlcdb_v0.3.zip'> Version 0.3 </a>(Stable, approved with Fx1.1trunk,Tb1.1trunk, 2005/07/20)
 	<br/> <i>- added: N-way merge, better root guessing, check db, ... lots of new features</i>
 	</li>
-	<li><a href='archive/mozlcdb_v0.2.zip'> Version 0.2 </a>(Stable, approved with FF1.0/TB0.8)</li>
+	<li><a href='archive/mozlcdb_v0.2.zip'> Version 0.2 </a>(Stable, approved with FF1.0/TB0.8, 2004/09/27)</li>
 	<li><a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a>(Deprecated)</li>
-	</ul></ul>
+	</ul>
+	<li style='padding-top: 10px;'>Latest beta: <ul><li><a href='archive/mozlcdb_latest.zip'> 
+		<!--#flastmod virtual="archive/mozlcdb_latest.zip" --> </a> (hack on your own!)</li>
+	</ul>
+    </ul>
 </ul>
 <h3> Background Knowledge </h3>
 <b>This section explains the basic idea about MozLCDB. It helps you to understand it more
