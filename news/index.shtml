@@ -8,6 +8,13 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+    <li><div class="date"> 9 月 22 </div>
+    Firefox 1.0.7 與 Mozilla 1.7.12 中英文版釋出 
+    (主要是修正
+    <a href='http://moztw.org/press/moztw-20050909.html'> 
+	IDN 安全漏洞</a>)，
+    建議各版使用者進行更新。
+
     <li><div class="date"> 9 月 12 日</div>
     想先試試未來的 Firefox 1.5 嗎？
     <a href='http://moztw.org/beta/'>

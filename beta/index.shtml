@@ -68,13 +68,11 @@
     <li><a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-mozilla1.8-l10n/"> Thunderbird L10n Nightly</a></li></ul>    
 <div class="download">
     <div id="firefox-beta">
-    <h3>Firefox 1.5 Beta 2 (<strong class="warning">測試版</strong>，1006 Build)</h3> 
+    <h3>Firefox 1.5 RC 1 (<strong class="warning">測試版</strong>，1101 Build)</h3> 
     <ul>
-	<li>Windows: <a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.win32.installer.exe">自解安裝檔</a>、
-	<a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.win32.zip">ZIP 免安裝</a></li>
-
-	<li>Linux: <a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.linux-i686.tar.gz">TGZ 免安裝</a></li>
-	<li>Mac OS X: <a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.mac.dmg"> DMG，解開後拖至應用程式內即可</a></li>
+	<li>Windows: <a href="/dls/fx/1.4/firefox-1.5rc1.zh-TW.win32.installer.exe">自解安裝檔</a></li>
+	<li>Linux: <a href="/dls/fx/1.4/firefox-1.5rc1.zh-TW.linux-i686.tar.gz">TGZ 免安裝</a></li>
+	<li>Mac OS X: <a href="/dls/fx/1.4/firefox-1.5rc1.zh-TW.mac.dmg"> DMG 解開後拖至應用程式內即可</a></li>
     </ul>
     </div>
 
@@ -85,12 +83,20 @@
 	<li>Windows: <a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.win32.installer.exe">自解安裝檔</a>、
 	<a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.win32.zip">ZIP 免安裝</a></li>
 	<li>Linux: <a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.linux-i686.tar.gz">TGZ 免安裝</a></li>
-	<li>Mac OS X: <a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.mac.dmg">DMG，解開後拖至應用程式內即可</a></li>
+	<li>Mac OS X: <a href="/dls/tb/1.4/thunderbird-1.5beta2.zh-TW.mac.dmg">DMG 解開後拖至應用程式內即可</a></li>
     </ul>
 
     </div>
 
     <div id="old-beta">
+    <h3>Firefox 1.5 Beta 2 (1006 Build)</h3> 
+    <ul>
+	<li>Windows: <a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.win32.installer.exe">自解安裝檔</a>、
+	<a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.win32.zip">ZIP 免安裝</a></li>
+
+	<li>Linux: <a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.linux-i686.tar.gz">TGZ 免安裝</a></li>
+	<li>Mac OS X: <a href="/dls/fx/1.4/firefox-1.5beta2.zh-TW.mac.dmg"> DMG 解開後拖至應用程式內即可</a></li>
+    </ul>
     <h3>Firefox 1.5 Beta 1 (0929 Build)</h3> 
     <ul><li>Windows: <a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.win32.installer.exe">自解安裝檔</a>、
 	<a href="/dls/fx/1.4/firefox-1.5beta1.zh-TW.win32.zip">ZIP 免安裝</a></li>
@@ -111,9 +117,9 @@
 </div>
 
 <div id="side" class="right">
-	<h3>關於 Firefox 1.5 Beta</h3>
+	<h3>關於 Firefox 1.5 Beta/RC</h3>
 			<p>Firefox 1.5 正式版預計於今年底推出，目前測試版提供擴充套件作者及網頁設計師測試相容問題，其他相關資訊請見 <a href="http://developer.mozilla.org/en/docs/Firefox_1.5_Beta_for_Developers">Mozilla Developer Center</a> 上的文章。</p>
-			<h3>關於 Thunderbird 1.5 Beta</h3>
+			<h3>關於 Thunderbird 1.5 Beta/RC</h3>
 					<p>Thunderbird 1.5 正式版推出時間未定，目前測試版提供擴充套件作者及社群成員測試相容及使用問題，其他相關資訊請見 <a href="http://www.mozilla.org/products/thunderbird/releases/1.5beta1.html">Thunderbird 1.5 Beta 1 Release Note</a> 上的文章。</p>	
 					<h3>其他資訊</h3>
     <ul class="compact">
