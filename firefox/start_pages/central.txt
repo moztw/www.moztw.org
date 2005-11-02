@@ -19,7 +19,7 @@
 您可在此得知 Firefox 的特色，並瞭解增強 Firefox 功能及提升瀏覽器使用體驗的方法
 </p>
 
-<h3><a href="http://start.mozilla.com/firefox?client=firefox-a&rls=org.mozilla:zh-TW">開始瀏覽</a></h3>
+<h3><a href="http://start.mozilla.com/firefox?client=firefox-a&rls=org.mozilla:zh-TW">探索網際網路</a></h3>
 </div>
 </div>
 
@@ -27,14 +27,14 @@
 
 <h3>使用 Firefox 搜尋網頁</h3>
 <p>
-Firefox 在「瀏覽工具列」中加入了搜尋方塊，
-並將 Google 的「好手氣」功能整合到「位址列」中（輸入網址的空白處），
+Firefox 在工具列中加入了可輸入文字後直接搜尋網路的欄位，
+並將 Google「好手氣」功能整合於網址列（輸入網址的空白處），
 能讓您更方便而快速地找到需要的資料。
 </p>
 <p>
 您可點選瀏覽器右上角的搜尋方塊來使用這項功能，
 只要輸入關鍵字再按下 <kdb>Enter</kbd> 就行了。
-今後再也不用跑到特定網站去開始搜尋，因為搜尋功能就在瀏覽器上。
+今後您再也不用跑到特定網站去開始搜尋，因為搜尋功能就在瀏覽器上。
 </p>
 <p>
 Firefox 已經預先安裝了幾個最常見也最有用的搜尋引擎，像是
@@ -51,11 +51,13 @@ Google、eBay 等等，另外您還可以
 </p>
 
 <p>
-當您在 Firefox 右下角看到 <img alt="RSS" src="rss.png" class="inline" />
+當您在 Firefox 網址列或右下角狀態列看到 
+<img alt="RSS" src="rss.png" class="inline" />
 圖示時，表示此站台可以使用「即時書籤」功能。
 點擊此圖示並選一個 RSS 收取點 (RSS feed) 後會出現「新增即時書籤」對話方塊。
-按下「確定」之後，您就可以看到「即時書籤」和其他書籤排在一起。
-另外，很多人會把「即時書籤」放在書籤工具列資料夾中以便瀏覽。
+按下「確定」您就可以看到「即時書籤」和其他書籤排在一起，
+只要打開它就可看到最新的內容
+(很多人會把「即時書籤」放在書籤工具列資料夾中以便瀏覽)。
 </p>
 
 <h3>分頁瀏覽</h3>
@@ -72,7 +74,7 @@ Google、eBay 等等，另外您還可以
 </p>
 
 <p>
-只要按個鍵，您也可以一次開啟全部愛看的網站。
+您也可以按個鍵就一次開啟全部愛看的網站。
 首先將每天常看的網站放在書籤的某個資料夾中，
 然後從書籤選單中選擇「開至分頁」便可一次全部打開，大大節省時間。
 </p>
@@ -86,7 +88,7 @@ Mozilla 專案是由開放源碼 (Open Source) 的組織
 
 <ul>
 <li><a href="../../../contribute/"><strong>每個人</strong> 都能幫忙的事情 </a></li>
-<li><a href="http://www.spreadfirefox.com/" hreflang="en">推廣 Firefox</a></li>
+<li><a href="http://www.spreadfirefox.com/" hreflang="en">推廣 Firefox [英]</a></li>
 <li><a href="http://www.mozilla.org/contribute/#technical" hreflang="en">軟體開發者資訊 [英]</a></li>
 </ul>
 
@@ -94,17 +96,16 @@ Mozilla 專案是由開放源碼 (Open Source) 的組織
 
 <div id="rightCol">
 
-<h3>加強 Firefox</h3>
+<h3>加強你的 Firefox</h3>
 <ul>
-<li>想讓 Firefox 威力大增？ 試試
-<a href="https://addons.update.mozilla.org/extensions/?application=firefox">
-	擴充套件 </a>！</li>
+<li><a href="https://addons.update.mozilla.org/extensions/?application=firefox">
+	擴充套件 </a>讓你威力大增!</li>
 
-<li>想讓 Firefox 與眾不同？ 試試
+<li>
 <a href="https://addons.update.mozilla.org/themes/?application=firefox">
-	佈景主題 </a>！</li>
+	佈景主題 </a>給你全新感受!</li>
 
-<li><a href="http://moztw.org/firefox/release/">版本資訊</a></li>
+<li><a href="http://mozilla-taiwan.org/firefox/release/">版本資訊</a></li>
 </ul>
 
 <h3>贊助與週邊商品</h3>
@@ -113,8 +114,8 @@ Mozilla 專案是由開放源碼 (Open Source) 的組織
 <h3>其它資源與鏈結</h3>
 <ul>
 <li><a href="http://forum.moztw.org/" hreflang="zh-TW">Mozilla Taiwan 中文討論區</a></li>
-<li><a href="http://www.spreadfirefox.com/" hreflang="en">推廣 Firefox!</a></li>
-<li><a href="http://www.mozilla.org/projects/firefox/" hreflang="en">專案資訊 [英]</a></li>
+<li><a href="http://mozilla-taiwan.org/firefox/" hreflang="zh-TW">專案資訊</a></li>
+<li><a href="http://www.spreadfirefox.com/" hreflang="en">推廣 Firefox! [英]</a></li>
 </ul>
 
 </div> <!-- end #rightCol -->
@@ -122,9 +123,10 @@ Mozilla 專案是由開放源碼 (Open Source) 的組織
 <div id="leftCol">
 
 <ul id="nav2nd">
-<li id="toHome"><a href="../../../">首頁</a></li>
-<li><a href="../">Mozilla Firefox</a></li>
-<li><a href="../../thunderbird/">Mozilla Thunderbird</a></li>
+<li id="toHome"><a href="http://mozilla-taiwan.org/">Mozilla Taiwan 中文首頁</a></li>
+<li><a href="http://mozilla-taiwan.org/firefox/">Mozilla Firefox</a></li>
+<li><a href="http://mozilla-taiwan.org/thunderbird/">Mozilla Thunderbird</a></li>
+<li><a href="http://www.mozilla.org/">Mozilla.org [英]</a></li>
 </ul>
 
 </div> <!-- end #leftCol -->
