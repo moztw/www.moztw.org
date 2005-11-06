@@ -5,11 +5,13 @@
 
 <div class="key-point">
     <div id="product-desc" class="product-netscape">
-	<h2>Netscape 7.2</h2>
+	<h2>Netscape 7.2 and Netscape 8</h2>
 	<p>
-	全新設計的 Netscape 7 系列，
+	Netscape 7 系列，
 	快速、簡單、免費、完整，
-	是為滿足對網路有全方位需求的你量身訂作的！
+	是為滿足對網路有全方位需求的你量身訂作的！<br />
+	全新設計的 Netscape 8
+	網站控制（雙核心，網站安全級別控制）
 	</p>
     </div>
     <div id="product-side">
@@ -42,13 +44,13 @@
 	並不為這些版本提供任何保障。
 	
 <h3>Netscape 8</h3>
-	<p>Netscape 目前的最新的版本是8.0.2, 目前官方沒有發行任何中文版</p>
+	<p>Netscape 目前的最新的版本是8.0.4, 目前官方沒有發行任何中文版</p>
 	
 	<p>Netscape 8 是以 Firefox 1.0.x 為基礎，有安全核心。也保證網頁不會版面或功能亂掉，即使這些網頁是專是為 IE 設計。使用開放原始碼和支持標準的 Firefox 1.0 核心，網站控制允許你調整安全級（Java、JavaScript、cookies 選項）允許你在必要時切換使用 IE 核心給某網頁。</p>
 
 	<p>Netscape 8 目前只有 Windows 版本。</p>
 
-	<p>有問題請利用 <a href='http://forum.moztw.org/viewforum.php?f=5'>Netscape 討論區</a>，不過如前所言， moztw.org 還是以
+	<p>有問題請利用 <a href='http://forum.moztw.org/viewforum.php?f=5'>Netscape 討論區</a>，不過如前所言， MozTW 還是以
 	Mozilla 相關產品為主。 Netscape 只算暫時的支援，
 	所以請保持您的耐心，謝謝。
     </div>
