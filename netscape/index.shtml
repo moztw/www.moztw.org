@@ -16,7 +16,7 @@
     </div>
     <div id="product-side">
 	<div class="download">
-	    <h3>馬上下載</h3>
+	    <h3>下載 Netscape 7.2</h3>
 	    <!--
 	    [註：由於目前在測試中所以只有線上安裝檔，
 	    在測試期結束後會提供完整離線安裝檔]
@@ -58,7 +58,7 @@
 	<h3>資源與鏈結</h3>
 	<ul class="compact">
 	    <li><a href="http://browser.netscape.com/ns8/community/plugin.jsp">更多 Plug-ins</a>
-	    <li><a href="http://browser.netscape.com/ns8/download/default.jsp">下載 Netscape 8</a> (英文版)
+	    <li><a href="http://browser.netscape.com/ns8/download/default.jsp"><b>下載 Netscape 8</b></a> (英文版)
 	    <li><a href="http://wiki.moztw.org/index.php/Netscape_FAQ">Netscape FAQ 專區</a> (MozTW Wiki)
 	    <li><a href="http://sillydog.org/narchive/">Netscape Browser Archive</a> - 所有網景瀏覽器版本的下載中心。 (英語)
 	</ul>
