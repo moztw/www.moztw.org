@@ -8,7 +8,27 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
-    <li><div class="date"> 9 月 22 </div>
+
+    <li><div class="date"> 11 月 11 </div>
+    Mozilla Firefox 1.5 RC2 英文版已釋出，包括中文版在內的其它語言版
+    預計於下週二發行。 迫不及待的朋友們可先至 <a href='/beta/'> 
+	Mozilla Taiwan Beta 測試區</a> 下載 RC2 的中文測試版。
+
+    <li><div class="date"> 11 月 02 日</div>
+    <a href='http://www.mozilla.org/projects/firefox/'>Mozilla Firefox 1.5 RC1</a>
+    (候選版本，<b style='color:red;'>非最終正式版</b>
+    ) 已正式釋出，中文版同步釋出，歡迎加入測試的行列！
+    (對於要求穩定的朋友們，建議您等到正式版釋出再進行昇級)
+
+    <li><div class="date"> 10 月 26 日</div>
+    活動消息: Mozilla Taiwan 社群成員 softcup/Kourge 將於 11/10~11/12 
+    <a href='http://2005.icos.org.tw/'>開放源碼研討會 (ICOS 2005)</a>中演講，
+    主題包括<em style='color: blue;'>
+	「Firefox Extension 製作經驗與教學 -TabMix」
+	、「Gecko - 下一代的網路平台」、「Nvu - 優質網頁就在彈指之間」</em>等，
+    歡迎參加。
+
+    <li><div class="date"> 9 月 22 日</div>
     Firefox 1.0.7 與 Mozilla 1.7.12 中英文版釋出 
     (主要是修正
     <a href='http://moztw.org/press/moztw-20050909.html'> 
