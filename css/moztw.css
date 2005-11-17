@@ -133,6 +133,12 @@ a#featurelink { background: none;  }
     width: 100% !important;
 }
 
+.thunderbird-releasenotes {
+    background: url("/images/releasenotes-thunderbird.png") no-repeat;
+    padding-top: 70px !important;
+    width: 100% !important;
+}
+
 .important101text {
     color: #FF0000;
 }

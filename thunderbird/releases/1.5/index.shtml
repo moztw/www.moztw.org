@@ -32,11 +32,11 @@
         <li>Podcast 和其他 RSS 功能增強。</li>
         <li>從郵件中刪除附件。</li>
         <li>與伺服器端的垃圾信過濾機制整合。</li>
-        <li>Reply and forward actions for message filters.</li>
+        <li>從郵件過濾器中直接回覆或轉寄郵件。</li>
         <li>Kerbero 認證。</li>
         <li>撰寫郵件時自動儲存草稿。</li>
-        <li>Message aging.</li>
-        <li>Filters for Global Inbox.</li>
+        <li>自動刪除郵件。</li>
+        <li>全域資料夾的過濾器。</li>
         <li>產品使用體驗的改進，包括重新設計的選項介面和 SMTP 伺服器管理等。</li>
         <li>其他的安全性修正。</li>
       </ul>
@@ -53,7 +53,7 @@
        <p><strong>Linux</strong>: <a href="http://download.mozilla.org/?product=thunderbird-1.5&amp;os=linux&amp;lang=zh-TW">GTK2 + XFT</a> （無安裝程式）</p>
        <p><strong>Mac OS X</strong>: <a href="http://download.mozilla.org/?product=thunderbird-1.5&amp;os=osx&amp;lang=zh-TW">壓縮磁碟映像檔</a></p>
 
-       <p>For builds for other systems and languages not provided by Mozilla.org, see the Contributed Builds section at the end of this document.
+       <p>其他 Mozilla.org 未提供的系統或語系，請閱讀文件最後的「非官方建製版」一節。</p>
         
       <h3><a name="install">安裝 Thunderbird</a></h3>
       <p>下載 Thundbird 安裝程式或壓縮檔後，請依下列步驟進行安裝：</p><br>                           
