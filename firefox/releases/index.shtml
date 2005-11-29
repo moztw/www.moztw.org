@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Mozilla Firefox 1.0.7 版本資訊</title>
+<title>Mozilla Firefox 1.5 版本資訊</title>
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 
@@ -8,51 +8,62 @@
   	  <div class="key-point">
   		  <div id="product-desc" class="firefox-releasenotes">
           <!-- Introduction -->
-          <p>Firefox 是速度快、功能又齊全的瀏覽器，它讓上網比以往更有效率。其它關於 Firefox 的訊息，請參考 <a href="/firefox/">Firefox 產品首頁</a>。</p>
-          <p>此版本資訊包含了 Firefox 1.0.7 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://texturizer.net/firefox/bugs.html">錯誤回報注意事項</a>閱讀完畢，再到
+	  <p>Firefox 1.5 是獲得無數獎項的 Firefox 瀏覽器的下個重大發行版本。
+	  其它關於 Firefox 的訊息，請參考 <a href="/firefox/">Firefox 產品首頁</a>。</p>
+          <p>此版本資訊包含了 Firefox 1.5 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
   <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
-          <p>我們想知道您對 Firefox 的意見。歡迎到討論區討論相關議題：您可至<a href="http://www.mozillazine.org/">MozillaZine</a>上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="http://moztw.org/">MozillaTaiwan</a>的<a href="http://moztw.org/forum/viewforum.php?f=2">Firefox
+          <p>我們想知道您對 Firefox 的意見。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="http://moztw.org/">MozillaTaiwan</a> 的<a href="http://moztw.org/forum/viewforum.php?f=2">Firefox
     中文討論區</a>與我們分享意見。</p>
         </div>
       </div> 
       <!-- What's New -->
-      <h2><a name="new">1.0.7 新鮮事</a></h2>
-      <p>Firefox 1.0.7 是增強安全及穩定性的更新版，<strong>我們強烈建議所有用戶更新</strong>。此版本修正許多安全及穩定性問題，包括緩衝區溢位、Linux 命令列問題等等。</p>
-      <p>Firefox 1.0.7 版新鮮事中較值得一提的有：</p>
+      <h2><a name="new">Firefox 1.5 新鮮事</a></h2>
+      <p>Firefox 1.5 是我們獲得無數獎項的瀏覽器的下一個重大發行版本。</p>
+      <p>Firefox 1.5 版新鮮事中較值得一提的有：</p>
 
       <ul class="news">
-<!--# Fix for a potential buffer overflow vulnerability when loading a hostname with all soft-hyphens
-# Fix to prevent URLs passed from external programs from being parsed by the shell (Linux only)
-# Fix to prevent a crash when loading a Proxy Auto-Config (PAC) script that uses an "eval" statement
-# Fix to restore InstallTrigger.getVersion() for Extension authors-->
-        <li>修正讀取連字符（soft-hypen）網址時可能產生的緩衝區溢位漏洞</li>
-        <li>避免由其他程式傳來的網址經 Sheel 執行（Linux 專有問題）</li>
-        <li>修正讀取內含「eval」敘述句的 Proxy 自動設定檔（PAC）時會當機的問題</li>
-        <li>恢復 InstallTrigger.getVersion() 功能，方便擴充套件設計師取用。</li>
-
-        <li>* <a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html#Firefox">其他安全相關修正</a></li>      </ul>
-      <p>* 英文資訊</p>
+      <!-- 待更新 -->
+        <li><strong>自動更新</strong><br />
+        	全新的線上更新功能會用更明顯的方式提醒用戶有新的更新，且所需下載的檔案大小可能不到 0.5 MB。此外擴充套件的更新方式也更加友善。</li>
+        <li><strong>快速往返</strong><br />
+        上一頁 / 下一頁的速度變得飛快！</li>
+        <li><strong>拖放方式重新排列分頁次序</strong></li>
+        <li><strong>清除隱私資料</strong><br />
+	只需點選功能表或按下鍵盤快捷鍵，輕鬆清除所有敏感的個人隱私。</li>
+	<li><strong>可用性的增強</strong><br/>
+	更友善的錯誤頁面、重新設計的選項視窗、RSS 自動搜尋和功能更強的「安全模式」等多項可用性的改進。</li>
+	<li><strong>更佳的無障礙使用體驗</strong><br />
+	支援 DHTML 無障礙及閱讀協助技術（如 Microsoft Windows 上的 Window-Eyes 5.5 beta 螢幕閱讀程式）。
+	「螢幕閱讀程式」能夠念出程式或文件中所有有用的訊息或顯示在「點字閱讀器」上，
+	這樣能使失明或視力受損的用戶也能像一般人一樣執行程式的所有功能。</li>
+	<li><strong>回報有問題的網站</strong><br />
+	於 Firefox 程式中直接回報無法正常瀏覽的網站。</li>
+	<li><strong>更好的 Mac OS X 相容性</strong><br />
+	MacOX X（10.2 以上版本）可以從 Safari 和 Mac 版 Internet Explorer 轉移設定檔資訊。</li>
+	<li>支援 SVG, CSS 2, CSS 3 及 JavaScript 1.6 等最新網路標準。</li>
+        <li>** <a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html#Firefox">其他安全相關修正</a></li>      </ul>
+      <p> ** 此為英文網站</p>
 
       <h2 id="downloadandinstall">下載與安裝</h2>
 
       <h3 id="requirements">系統需求</h3>
-      <p>在安裝 Firefox 前請先確定您的電腦合乎<a href="/docs/ff/system-requirements">系統需求</a>。</p>
+      <p>在安裝 Firefox 前請先確定您的電腦合乎<a href="/docs/ff/system-requirements">系統需求</a>。從 1.5 開始，MacOS X 用戶必須在 MacOX X 10.2 以上版本執行本程式。</p>
 
       <h3 id="download"><a name="download">下載 Firefox</a></h3>
-      <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上多種語言版的 Firefox。欲下載最新的 Firefox，可到 <a href="http://getfirefox.com/">GetFirefox.com</a> 或瀏覽 <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/">FTP</a>。
+      <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上多種語言版的 Firefox。欲下載最新的 Firefox，可於<a href="/firefox/">產品首頁</a>、瀏覽 <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/">FTP</a> 或到 <a href="http://getfirefox.com/">GetFirefox.com</a> 下載。
 
       <h3><a name="install">安裝 Firefox</a></h3>
       <p>下載 Firefox 安裝程式或壓縮檔後，請依下列步驟進行安裝：</p>
       <h3>Windows</h3>
-    <p>以滑鼠左鍵雙點 <tt class="filename">Firefox Setup 1.0.7.exe</tt> 安裝程式圖示以開始安裝。</p>
+    <p>以滑鼠左鍵雙點 <tt class="filename">Firefox Setup 1.5.exe</tt> 安裝程式圖示以開始安裝。</p>
 
     <h3>MacOS X</h3>
-    <p>下載 Firefox 1.0.7.dmg 檔後，請雙點 Firefox 磁碟映像檔圖示以便開啟於 Finder 中，隨後將 Firefox 應用程式拖曳至您的硬碟中。<strong>請不要直接雙點磁碟映像檔中的圖示！</strong>一定要將 Firefox 相關檔案拖進硬碟後才執行。您亦可將圖示拖曳至 Dock 上方便取用。</p>
+    <p>下載 Firefox 1.5.dmg 檔後，請雙點 Firefox 磁碟映像檔圖示以便開啟於 Finder 中，隨後將 Firefox 應用程式拖曳至您的硬碟中。<strong>請不要直接雙點磁碟映像檔中的圖示！</strong>一定要將 Firefox 相關檔案拖進硬碟後才執行。您亦可將圖示拖曳至 Dock 上方便取用。</p>
     <h3>Linux/GTK2</h3>
     <p>解壓縮後以下列方式執行安裝程式：
       <p>
         <code>
-          tar -xzvf ffirefox-1.0.7.installer.tar.gz<br>
+          tar -xzvf ffirefox-1.5.installer.tar.gz<br>
           cd firefox-installer<br>
           ./firefox-installer
         </code></p>
@@ -63,7 +74,7 @@
 <h3 id="uninstall">移除 Firefox</h3>
 <p>欲移除 Firefox，請依下列步驟操作：</p>
 <h3>Windows</h3>
-<p>選擇「<kbd>開始＞控制台</kbd>」，當控制台出現時，請以滑鼠左鍵雙點「<kbd>新增或移除程式</kbd>」， 然後在清單中找到「<kbd>Mozilla Firefox (1.0.7)</kbd>」並按下「<kbd>移除</kbd>」。</p>
+<p>選擇「<kbd>開始＞控制台</kbd>」，當控制台出現時，請以滑鼠左鍵雙點「<kbd>新增或移除程式</kbd>」， 然後在清單中找到「<kbd>Mozilla Firefox (1.5)</kbd>」並按下「<kbd>移除</kbd>」。</p>
 <h3>MacOS X</h3>
 <p>將 <tt class="filename">Firefox</tt> 程式拖曳至垃圾桶。</p>
 <h3>其他平台</h3>
@@ -97,17 +108,8 @@
         </tr>
       </table>
 
-      <p>如果您在升級至 Firefox 1.0.7 前將 Firefox 0.8 設為預設瀏覽器，那麼您的設定檔將被複製至新的位置， 您可自行決定是否將舊的「Phoenix」刪除。</p>
+      <p>如果您在升級至 Firefox 1.5 前將 Firefox 0.8 設為預設瀏覽器，那麼您的設定檔將被複製至新的位置， 您可自行決定是否將舊的「Phoenix」資料夾刪除。</p>
 
-      <h3 id="extensions">擴充套件及佈景主題</h3>
-      <p>當您升級到新版的 Firefox 時，所有的擴充套件及佈景主題會自動停用，直到 Firefox 發現  1) 已安裝的套件可用於新版 或 2)有新版套件可相容新版 Firefox。這是因為 Firefox 每一版都有所更新，與擴充套件的整合模式也不盡相同，如果使用舊版套件反而可能發生問題。如果您喜歡的擴充套件或佈景主題未能相容新版，請寫信給作者，鼓勵作者更新。
-      <p>若您自 0.8 或更早的版本升級，則您首次啟動 Firefox 1.0.7 時，Firefox 無法自動查閱擴充套件及佈景主題是否有更新相容版本，請自行尋找並安裝相容新版。   
-      </p>
-      <p>在 0.8 版時部分使用者曾因「No XBL Binding for Browser」錯誤訊息而無法啟動 Firefox，並隨即發現佈景主題失效。為了避免這種問題，在您改用
-  Firefox 1.0.7 時，所有的擴充套件將自動停用。如果您曾使用 0.9 或 1.0PR 版，則當您首次啟動 1.0.7 時，Firefox 會試著連上 update.mozilla.org
-  查閱擴充套件是否有更新的相容版本。如果有，則會下載並安裝之。如果您用的是 0.8 版，則得請您自行尋找相容新版。
-      </p>
-      
       <h3 id="otherchanges">其他變動</h3>
       <ul>
         <li>
@@ -118,26 +120,26 @@
 
       <p>&nbsp;</p>
       <h2><a name="issues">已知問題</a></h2>
-      <p>以下列出 Firefox 1.0.7 部分已知問題， 請閱讀後再回報新的程式錯誤，並請定期檢查本欄的更新內容﹝如在此版本發現新問題，我們會隨時在<a href="http://www.mozilla.org/products/firefox/releases/1.0.7.html">英文網頁</a>更新此欄﹞。</p>
-        
+      <p>以下列出 Firefox 1.5 部分已知問題，請閱讀後再回報新的程式錯誤，並請定期檢查本欄的更新內容（如在此版本發現新問題，我們會隨時在<a href="http://www.mozilla.org/products/firefox/releases/1.5.html">英文網頁</a>更新此欄）。</p>
+      
+	  <h3 id="extensions">擴充套件與佈景主題</h3>
+
+		<p>您可能會在我們新設計的擴充套件相容和更新機制上遇到問題。下面列出了已知三個問題的簡單解決方法。</p>
+		<ul><li>當您執行 Firefox 安裝程式後，沒有出現擴充套件相容性和更新精靈的話，您可以打開「擴充套件管理員」，手動檢查更新檔。</li>
+		
+		<li>如果擴充套件相容性和更新精靈有出現，但顯示不完全，請先試著點選其他視窗後再點選回該視窗。如果還是沒有解決問題，按一下「取消」後，打開「擴充套件管理員」手動檢查更新檔。</li>
+		<li>如果擴充套件相容性和更新精靈下載並安裝了更新檔，但是安裝失敗的話，請打開「擴充套件管理員」再次檢查有無更新檔。</li>
+		</ul>
+      <p>在 Firefox 1.0 安裝的擴充套件，到了 Firefox 1.5 時可能並不相容。這時您需要檢查該套件有無更新檔，使其可在 Firefox 1.5 上運作。如果您喜歡的擴充套件或佈景主題未能相容新版，請寫信給作者，鼓勵作者更新。當您升級到 Firefox 1.5 時，所有的擴充套件及佈景主題會自動停用，直到 Firefox 發現  1) 此套件原本就相容於 Firefox 1.5 或 2) 有新版套件可相容於 Firefox 1.5。這是因為 Firefox 每一版都有所更新，與擴充套件的整合模式也不盡相同，如果使用舊版套件反而可能發生問題。
+      </p>  
+      
       <h3>所有系統</h3>
       <ul>
-        <li>安裝 Firefox 1.0.7 之前，請確保您安裝在新目錄中，切勿直接覆蓋任何舊版 Firefox。
-        </li>
         <li>
         如果您將 Firefox 安裝於權限有所管制的區域，那麼就得先由擁有權限的使用者啟動一次 Firefox，以便建立應有的初始啟動檔案。若由權限不足的使用者先行啟動，則可能會因為無法完整建立初始啟動檔案而不斷重新啟動。
         </li>
         <li>
-當您升級時，所有的擴充套件及佈景主題都將停用。這其實不算是「問題」，但可能有人會問（所以就列在這裡。）原理請參考前述「擴充套件及佈景主題」一節。
-        </li>
-        <li>
-          軟體升級程序不會進行 Proxy 驗證，所以如果您需透過 Proxy 伺服器上網，自動更新將無法進行。（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=259429">錯誤資訊</a>）您可先於瀏覽器中查閱網頁，藉此進行驗證後再行升級。
-        </li>
-        <li>
           若您未擁有 Firefox 安裝處的檔案寫入權限，軟體升級程序便無法進行，這是因為軟體升級必須於安裝處替換或建立檔案。
-        </li>
-        <li>
-          「Single Window Mode」（單視窗模式）選項的說明文件中，提到可以「強制令視窗開於新分頁或同分頁」。這個功能最後在推出前取消了，因為我們碰到一些問題暫無法解決，所以請跳過那一段。如果想重新啟用單視窗模式，可以使用設定控制台（在位址列輸入「about:config」然後按下 Enter），將 <code>browser.tabs.showSingleWindowModePrefs</code> 設定為 <strong>true</strong>。重新啟用此功能可能造成當機等問題，請自負風險。
         </li>
       </ul>
       
@@ -149,34 +151,21 @@
         <li>
           若使用某些舊版的 Adobe Acrobat Reader plug in，閱讀 PDF 後 Firefox 可能會當掉。如果您碰到這種問題，請到 Adobe 網站下載 <a href="http://www.adobe.com/products/acrobat/readstep2.html">新版 Plug in</a>。
         </li>
-        <li>
-          在 Windows 98 系統上，應用程式的圖示可能會顯示為 Windows 圖示。
-        </li>
       </ul>
           
-      <h3>MacOS X</h3>
-      <ul>
-        <li>
-        <strong>不要由磁碟映像檔中直接啟動 Firefox！</strong>這麼一來 Firefox 可能會不斷重新啟動（症狀是 Firefox 圖示在 Dock 中不斷跳起、消失再出現）。若要從不斷啟動的情形中終止 Firefox，請開啟
-      終端機（Terminal）後輸入「killall firefox-bin」並按下 Enter。之後請將 Firefox 安裝於有權寫入的位置、再試一次。若安裝於多人共用的電腦上，可以管理員身份安裝於共用位置，執行一次後所有使用者就都能用了。</li>
-        <li>
-          <strong>如果 Firefox 未顯示瀏覽器視窗</strong>，請按 Cmd+Q 離開 Firefox，然後開啟 <code>~/Library/Application Support/Firefox/Profiles/&lt;garble&gt;.default/</code>
-          資料夾並刪除 <code>localstore.rdf</code> 檔，再重新啟動 Firefox。您之前的自訂的工具列及視窗位置等設定將因而消失。
-        </li>
-      </ul>
-
       <h3>Linux 及 Unix 系統</h3>
       <ul>
         <li>
           若 Firefox 安裝的路徑中含有空白字元，則可能無法設定為預設瀏覽器。這樣每次啟動時變會不斷詢問「是否要設為預設瀏覽器」。將 Firefox 安裝在不含空白字元的路徑就不會有這個問題。
         </li>
-<li>
-在Fedora Core 3(FC3)中，GNOME integration並不能適當的運作。FC3的使用者需要安裝<a href="http://download.fedora.redhat.com/pub/fedora/linux/core/2/i386/os/Fedora/RPMS/linc-1.0.3-3.1.i386.rpm">linc-1.0.3-3.1.i386.rpm</a>。安裝好這個RPM後，在您安裝Firefox的目錄下執行以下的命令(您需要有寫入的權限)：
-<p>
-<code>touch .autoreg</code>
-</p>
-<p>下一次您啟動Firefox時，GNOME integration將會正常的運作。</p>
-</li>
+		<li>
+		在 Fedora Core 3(FC3) 中，GNOME integration 並不能適當的運作。
+		FC3 的使用者需要安裝 <a href="http://download.fedora.redhat.com/pub/fedora/linux/core/2/i386/os/Fedora/RPMS/linc-1.0.3-3.1.i386.rpm">linc-1.0.3-3.1.i386.rpm</a>。安裝好這個 RPM 後，在您安裝 Firefox 的目錄下執行以下的命令(您需要有寫入的權限)：
+		<p>
+		<code>touch .autoreg</code>
+		</p>
+		<p>下一次您啟動 Firefox 時，GNOME integration 將會正常的運作。</p>
+		</li>
 </ul>
 
 <h3>網頁展現問題</h3>
@@ -224,7 +213,7 @@ cd /Applications/Firefox.app/Contents/MacOS/<br>
   <li>哪些人正致力於 Firefox 的開發工作？ 
   <p>很多人。詳細列表請參考「說明＞關於 Firefox」</p></li>
   <li>Firefox 的原始碼在何處？ 
-  <p>Firefox 1.0.4 原始碼可<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0.4/source/firefox-1.0.4-source.tar.bz2">點此下載</a>，目前最新的程式碼則需以 <a href="http://www.mozilla.org/cvs.html">CVS</a> 取得。Firefox 相關程式為「mozilla/browser」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href="http://www.mozilla.org/projects/firefox/build.html">建製步驟</a>。</p></li>
+  <p>Firefox 1.5 原始碼可<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.5/source/firefox-1.5-source.tar.bz2">點此下載</a>，目前最新的程式碼則需以 <a href="http://www.mozilla.org/cvs.html">CVS</a> 取得。Firefox 相關程式為「mozilla/browser」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href="http://www.mozilla.org/projects/firefox/build.html">建製步驟</a>。</p></li>
   <li>電子郵件程式呢？ 
   <p>Firefox 能與您預設的任何郵件程式協同運作， 而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="http://www.mozilla.org/products/thunderbird/">Mozilla
         Thunderbird</a>。</p></li>
@@ -232,15 +221,52 @@ cd /Applications/Firefox.app/Contents/MacOS/<br>
   <p>就拼做 F-i-r-e-f-o-x，只有第一個字是大寫，不是 FireFox、Foxfire、FoxFire 等玩意。我們偏好的簡寫方式為「Fx」或「fx」。</p></li>
 </ol>
 
+     <p>&nbsp;</p>
+<h2 id="links">其他資源和連結</h2>
+
+下面提供了幾個有用的連結：
+	<ol>
+    <li><a href="http://www.mozilla.org/support/firefox/">Firefox 線上說明</a>（英文）</li>
+    <li><a href="http://kb.mozillazine.org/Mozilla_Firefox">MozillaZine 知識庫</a>（英文）</li>
+    <li><a href="http://www.mozilla.org/projects/firefox/">開發者資訊</a>（英文）</li>
+    <li><a href="/docs/">中文相關說明文件</a></li>
+    <li><a href="http://forum.moztw.org">Firefox 中文討論區</a></li>
+    </ol>
+    
+	<p>&nbsp;</p>
+      <h2>非官方建製版</h2>
+      <p>下面提供的非官方建製版的設定值可能和 Mozilla.org 官方版本不同。通常這些版本會針對特定 CPU 或平台特別設計。</p>
+
+      <h3 id="othersystems">其他系統</h3>
+
+      <p>Mozilla.org 除了官方版本還提供了其他平台的版本，您可以在 <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.5/contrib/">FTP 站</a> 找到。</p>
+
+        <!--
+            Build contributors, please put your builds under:
+              pub/mozilla.org/firefox/releases/<version>/contrib/
+
+            Your build file name should match the pattern set by official builds 
+            and include a README explaining any build peculiarities and identifying
+            yourself as the contributor. Thanks.
+          -->
+      <h3 id="otherlanguages">地方化版本</h3>
+      <p>Mozilla 代表<a href="http://www.mozilla.org/projects/l10n/mlp_otherproj.html#firefox" title="Mozilla Localization Project">
+      各國作者</a>提供了各國語系的地方化版本。您可以到 <a href="http://getfirefox.com/">GetFirefox.com</a> 或 <a href="http://www.mozilla.org/products/firefox/all">
+      所有系統與語言列表</a> 下載我們提供各種語言的官方版本。
+          
+      <p>其他尚未被官方 Firefox 1.5 驗證通過的本地化版本可以在
+         <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.5rc2/contrib-localized/">FTP 站台</a> 上找到。</p>
 
       <p>&nbsp;</p>         
       
-      <small>舊版本資訊：<a href="/firefox/release/0.9"> 0.9</a> 
-	  | <a href="/firefox/release/0.10">1.0 預覽版</a> 
-	  | <a href="/firefox/release/1.0">1.0-1.0.1</a> 
-	  | <a href="/firefox/release/1.0.2">1.0.2</a>
-	  | <a href="/firefox/release/1.0.3">1.0.3</a>
-	  | <a href="/firefox/release/1.0.4">1.0.4</a></small>
+      <small>舊版本資訊：<a href="/firefox/releases/0.9"> 0.9</a> 
+	  | <a href="/firefox/releases/0.10">1.0 預覽版</a> 
+	  | <a href="/firefox/releases/1.0">1.0 - 1.0.1</a> 
+	  | <a href="/firefox/releases/1.0.2">1.0.2</a>
+	  | <a href="/firefox/releases/1.0.3">1.0.3</a>
+	  | <a href="/firefox/releases/1.0.4">1.0.4</a>
+	  | <a href="/firefox/releases/1.0.7">1.0.7</a>
+	  </small>
 </div>
 
     <div id="side" class="right">
@@ -260,6 +286,9 @@ cd /Applications/Firefox.app/Contents/MacOS/<br>
         <li><a href="#issues">已知問題</a></li>
         <li><a href="#troubleshooting">疑難排解</a></li>
         <li><a href="#FAQ">常見問題</a></li>
+        <li><a href="#othersystems">其他系統</a></li>
+        <li><a href="#otherlanguages">其他語言</a></li>
+        <li><a href="#links">其他資源與連結</a></li>
       </ul>
     </div>
 </div>

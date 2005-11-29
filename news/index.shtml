@@ -9,6 +9,24 @@
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
 
+    <li><div class="date"> 11 月 23 </div>
+    Firefox 1.5 正式版仍在進行最後的修正及檢查，<b>尚未發佈</b>。
+    實際發佈時間未定，但可能在最近數週內完成。
+
+    <li><div class="date"> 11 月 23 </div>
+    <b>目前 Firefox 只有發佈到 1.5 RC2(及英文版的 RC3) 候選版本，
+	候選版本的意思是為避免正式版有重大瑕疵所以先行測試
+	(使用時並不會顯示為候選版本)，功能上與未來的正式版一致；
+	若您在別處網路看到號稱 1.5 "正式版" 都是不正確的說法。</b>
+
+    <li><div class="date"> 11 月 15 </div>
+    <a href='http://www.mozilla.org/projects/firefox/'>Mozilla Firefox 1.5 RC2</a>
+    (候選版本，<b style='color:red;'>非最終正式版</b>
+    ) 中文版已釋出，歡迎加入測試的行列！
+    (對於要求穩定的朋友們，建議您等到正式版釋出再進行昇級)
+    若已安裝 RC1 可利用 說明 檢查更新 進行線上更新，只要下載 400k
+    左右的資料即可完成！
+
     <li><div class="date"> 11 月 11 </div>
     Mozilla Firefox 1.5 RC2 英文版已釋出，包括中文版在內的其它語言版
     預計於下週二發行。 迫不及待的朋友們可先至 <a href='/beta/'> 
