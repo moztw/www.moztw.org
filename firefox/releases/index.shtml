@@ -8,9 +8,9 @@
   	  <div class="key-point">
   		  <div id="product-desc" class="firefox-releasenotes">
           <!-- Introduction -->
-	  <p>Firefox 1.5 是獲得無數獎項的 Firefox 瀏覽器的下個重大發行版本。
+	  <p>Firefox 1.5 是獲得無數獎項之 Firefox 瀏覽器的下個重大發行版本。
 	  其它關於 Firefox 的訊息，請參考 <a href="/firefox/">Firefox 產品首頁</a>。</p>
-          <p>此版本資訊包含了 Firefox 1.5 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
+          <p>此版本資訊包含了 Firefox 1.5 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 1.5 <a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
   <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
           <p>我們想知道您對 Firefox 的意見。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="http://moztw.org/">MozillaTaiwan</a> 的<a href="http://moztw.org/forum/viewforum.php?f=2">Firefox
     中文討論區</a>與我們分享意見。</p>
@@ -18,11 +18,10 @@
       </div> 
       <!-- What's New -->
       <h2><a name="new">Firefox 1.5 新鮮事</a></h2>
-      <p>Firefox 1.5 是我們獲得無數獎項的瀏覽器的下一個重大發行版本。</p>
+      <p>Firefox 1.5 是我們獲得無數獎項之瀏覽器的下一個重大發行版本。</p>
       <p>Firefox 1.5 版新鮮事中較值得一提的有：</p>
 
       <ul class="news">
-      <!-- 待更新 -->
         <li><strong>自動更新</strong><br />
         	全新的線上更新功能會用更明顯的方式提醒用戶有新的更新，且所需下載的檔案大小可能不到 0.5 MB。此外擴充套件的更新方式也更加友善。</li>
         <li><strong>快速往返</strong><br />
@@ -33,16 +32,17 @@
 	<li><strong>可用性的增強</strong><br/>
 	更友善的錯誤頁面、重新設計的選項視窗、RSS 自動搜尋和功能更強的「安全模式」等多項可用性的改進。</li>
 	<li><strong>更佳的無障礙使用體驗</strong><br />
-	支援 DHTML 無障礙及閱讀協助技術（如 Microsoft Windows 上的 Window-Eyes 5.5 beta 螢幕閱讀程式）。
-	「螢幕閱讀程式」能夠念出程式或文件中所有有用的訊息或顯示在「點字閱讀器」上，
+	支援 <a href="http://www.mozilla.org/access/dhtml/">DHTML 無障礙</a>及閱讀協助技術，如 Microsoft Windows 上的
+	 <a href="http://www.gwmicro.com/products">Window-Eyes 5.5 beta 螢幕閱讀程式。</a>
+	「螢幕閱讀程式」能夠念出程式或文件中所有有用的訊息或顯示在「<a href="http://www.deafblind.com/display.html">點字閱讀器</a>」上，
 	這樣能使失明或視力受損的用戶也能像一般人一樣執行程式的所有功能。</li>
 	<li><strong>回報有問題的網站</strong><br />
 	於 Firefox 程式中直接回報無法正常瀏覽的網站。</li>
 	<li><strong>更好的 Mac OS X 相容性</strong><br />
 	MacOX X（10.2 以上版本）可以從 Safari 和 Mac 版 Internet Explorer 轉移設定檔資訊。</li>
-	<li>支援 SVG, CSS 2, CSS 3 及 JavaScript 1.6 等最新網路標準。</li>
-        <li>** <a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html#Firefox">其他安全相關修正</a></li>      </ul>
-      <p> ** 此為英文網站</p>
+	<li>支援 SVG, CSS 2, CSS 3 及 JavaScript 1.6 等<a href="http://developer.mozilla.org/en/docs/Firefox_1.5_Beta_for_Developers">最新網路標準</a>。</li>
+        <li>* Burning Edge 有<a href="http://www.squarefree.com/burningedge/releases/1.5-comprehensive.html">更詳細的新功能及錯誤修正列表。</a></li>      </ul>
+      <p> * 此為英文網站</p>
 
       <h2 id="downloadandinstall">下載與安裝</h2>
 
@@ -69,7 +69,7 @@
         </code></p>
       <p>如果您有 Nautilus 能執行 Executable Text File，那麼只要雙點 firefox-installer 即可。</p>
       <h3>其它平台</h3>
-    <p>將壓縮檔解壓縮後執行 <tt>firefox</tt></p>
+    <p>將壓縮檔解壓縮後執行 <tt>firefox</tt>。</p>
 
 <h3 id="uninstall">移除 Firefox</h3>
 <p>欲移除 Firefox，請依下列步驟操作：</p>
@@ -79,7 +79,7 @@
 <p>將 <tt class="filename">Firefox</tt> 程式拖曳至垃圾桶。</p>
 <h3>其他平台</h3>
 <p>移除 <tt class="filename">firefox</tt> 資料夾。</p>
-<p>上述步驟將保留您的個人設定檔，供日後重新安裝時使用。如果您想移除 Firefox 的個人設定檔資料夾，請依循「個人設定資料夾」一節的步驟。請注意：這麼一來您將失去所有書籤、儲存密碼、設定及其他資訊，重新安裝 Firefox 時就必須重新建立個人設定。</p>
+<p>上述步驟將保留您的個人設定檔，供日後重新安裝時使用。如果您想移除 Firefox 的個人設定檔資料夾，請依循<strong>「個人設定資料夾」</strong>一節的步驟。請注意：這麼一來您將失去所有書籤、儲存密碼、設定及其他資訊，重新安裝 Firefox 時就必須重新建立個人設定。</p>
          
       <p>&nbsp;</p>
       <h2>其他資訊</h2>
@@ -136,11 +136,19 @@
       <h3>所有系統</h3>
       <ul>
         <li>
-        如果您將 Firefox 安裝於權限有所管制的區域，那麼就得先由擁有權限的使用者啟動一次 Firefox，以便建立應有的初始啟動檔案。若由權限不足的使用者先行啟動，則可能會因為無法完整建立初始啟動檔案而不斷重新啟動。
+        某些軟體防火牆執行時會悄悄封鎖 Firefox 的對外連線，但大部分的防火牆會先問您是否允許此程式連線到網路上。要能正常執行 Firefox，請確定您選擇了「永遠允許」Firefox 的網路存取。如果您選擇拒絕連線，您必須到防火牆的組態設定中重新允許連線。某些軟體防火牆就連停用時還是會持續封鎖網路連線。<a href="http://kb.mozillazine.org/Error_loading_any_website#Firewalls">此篇文件詳細說明了如何設定您的防火牆。</a>
+        </li>
+        <li>
+        如果您將 Firefox 安裝於權限有所管制的區域，那麼就得先由擁有權限的使用者啟動一次 Firefox，以便建立應有的初始啟動檔案。若由權限不足的使用者先行啟動，則可能會因為無法完整建立初始啟動檔案而不斷重新啟動。如果問題還是無法解決，請於下列路徑建立一空白檔案：&lt;install-directory&gt;/extensions/talkback@mozilla.org/chrome.manifest
         </li>
         <li>
           若您未擁有 Firefox 安裝處的檔案寫入權限，軟體升級程序便無法進行，這是因為軟體升級必須於安裝處替換或建立檔案。
         </li>
+        <li>
+       若您於 Firefox 1.0.x 的設定中未勾選「允許網站安裝軟體」的選項而使 xpinstall 停用。（此設定於 Firefox 1.5 已移除），請用 about: config 將 xpinstall.enabled 設定為 true 即可重新啟用安裝功能>。
+       </li>
+       <li>
+       較舊的 Adblock 版本可能會使 Firefox 1.5 啟動時自動出現「清除隱私資料」視窗。如果妳遇到此問題，只要將您的 Adblock 或 Adblock Plus 升級到最新版本即可。
       </ul>
       
       <h3>Windows</h3>
