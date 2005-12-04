@@ -33,7 +33,7 @@
 	更友善的錯誤頁面、重新設計的選項視窗、RSS 自動搜尋和功能更強的「安全模式」等多項可用性的改進。</li>
 	<li><strong>更佳的無障礙使用體驗</strong><br />
 	支援 <a href="http://www.mozilla.org/access/dhtml/">DHTML 無障礙</a>及閱讀協助技術，如 Microsoft Windows 上的
-	 <a href="http://www.gwmicro.com/products">Window-Eyes 5.5 beta 螢幕閱讀程式。</a>
+	 <a href="http://www.gwmicro.com/products">Window-Eyes 5.5 beta 螢幕閱讀程式</a>。
 	「螢幕閱讀程式」能夠念出程式或文件中所有有用的訊息或顯示在「<a href="http://www.deafblind.com/display.html">點字閱讀器</a>」上，
 	這樣能使失明或視力受損的用戶也能像一般人一樣執行程式的所有功能。</li>
 	<li><strong>回報有問題的網站</strong><br />
@@ -41,7 +41,7 @@
 	<li><strong>更好的 Mac OS X 相容性</strong><br />
 	MacOX X（10.2 以上版本）可以從 Safari 和 Mac 版 Internet Explorer 轉移設定檔資訊。</li>
 	<li>支援 SVG, CSS 2, CSS 3 及 JavaScript 1.6 等<a href="http://developer.mozilla.org/en/docs/Firefox_1.5_Beta_for_Developers">最新網路標準</a>。</li>
-        <li>* Burning Edge 有<a href="http://www.squarefree.com/burningedge/releases/1.5-comprehensive.html">更詳細的新功能及錯誤修正列表。</a></li>      </ul>
+        <li>* Burning Edge 有<a href="http://www.squarefree.com/burningedge/releases/1.5-comprehensive.html">更詳細的新功能及錯誤修正列表</a>。</li>      </ul>
       <p> * 此為英文網站</p>
 
       <h2 id="downloadandinstall">下載與安裝</h2>
@@ -60,14 +60,12 @@
     <h3>MacOS X</h3>
     <p>下載 Firefox 1.5.dmg 檔後，請雙點 Firefox 磁碟映像檔圖示以便開啟於 Finder 中，隨後將 Firefox 應用程式拖曳至您的硬碟中。<strong>請不要直接雙點磁碟映像檔中的圖示！</strong>一定要將 Firefox 相關檔案拖進硬碟後才執行。您亦可將圖示拖曳至 Dock 上方便取用。</p>
     <h3>Linux/GTK2</h3>
-    <p>解壓縮後以下列方式執行安裝程式：
+    <p>請將下載回來的 tarball 檔解壓縮至您想要安裝 Firefox 的資料夾：
       <p>
         <code>
-          tar -xzvf ffirefox-1.5.installer.tar.gz<br>
-          cd firefox-installer<br>
-          ./firefox-installer
+          tar -xzvf firefox-1.5.tar.gz<br>
         </code></p>
-      <p>如果您有 Nautilus 能執行 Executable Text File，那麼只要雙點 firefox-installer 即可。</p>
+      <p>這會自動建立 firefox 子目錄，之後執行 firefox 即可。</p>
       <h3>其它平台</h3>
     <p>將壓縮檔解壓縮後執行 <tt>firefox</tt>。</p>
 
@@ -136,7 +134,7 @@
       <h3>所有系統</h3>
       <ul>
         <li>
-        某些軟體防火牆執行時會悄悄封鎖 Firefox 的對外連線，但大部分的防火牆會先問您是否允許此程式連線到網路上。要能正常執行 Firefox，請確定您選擇了「永遠允許」Firefox 的網路存取。如果您選擇拒絕連線，您必須到防火牆的組態設定中重新允許連線。某些軟體防火牆就連停用時還是會持續封鎖網路連線。<a href="http://kb.mozillazine.org/Error_loading_any_website#Firewalls">此篇文件詳細說明了如何設定您的防火牆。</a>
+        某些軟體防火牆執行時會悄悄封鎖 Firefox 的對外連線，但大部分的防火牆會先問您是否允許此程式連線到網路上。要能正常執行 Firefox，請確定您選擇了「永遠允許」Firefox 的網路存取。如果您選擇拒絕連線，您必須到防火牆的組態設定中重新允許連線。某些軟體防火牆就連停用時還是會持續封鎖網路連線。<a href="http://kb.mozillazine.org/Error_loading_any_website#Firewalls">此篇文件詳細說明了如何設定您的防火牆</a>。
         </li>
         <li>
         如果您將 Firefox 安裝於權限有所管制的區域，那麼就得先由擁有權限的使用者啟動一次 Firefox，以便建立應有的初始啟動檔案。若由權限不足的使用者先行啟動，則可能會因為無法完整建立初始啟動檔案而不斷重新啟動。如果問題還是無法解決，請於下列路徑建立一空白檔案：&lt;install-directory&gt;/extensions/talkback@mozilla.org/chrome.manifest
@@ -184,7 +182,7 @@ Firefox 與其他 Mozilla 產品都使用相同的 Gecko 佈局引擎。如果�
 </ul>
 
 <p>欲閱讀其他問題的訊息、常見問題集、使用技巧以及一般 Firefox 協助，請參考 <a href="http://www.mozilla.org/support/firefox/">Firefox
-    Help</a> 及 <a href="http://www.mozillazine.org/">MozillaZine</a>的<a href="http://forums.mozillazine.org/index.php?c=4">Firefox
+    Help</a> 及 <a href="http://www.mozillazine.org/">MozillaZine</a> 的 <a href="http://forums.mozillazine.org/index.php?c=4">Firefox
     英文討論區</a>。中文相關資訊則可參考社群成員維護的 <a href="http://wiki.moztw.org/index.php?title=FAQ:Firefox">Firefox FAQ</a>或<a href="http://moztw.org/forum/viewforum.php?f=2">Firefox
     中文討論區</a>。 </p>
 
