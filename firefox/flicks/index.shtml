@@ -5,30 +5,6 @@
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-    <div id="navigation">
-      <div id="bar">
-        <div>
-						<ul id="personal">
-					    <li>&nbsp;</li>
-						</ul>
-						<ul id="contenttypes">
-
-              <li class=""><a href="http://www.spreadfirefox.com">Spread Firefox</a></li>
-							<li class=""><a href="/advertcontest/">Ad-Contest</a></li>
-							<li class=""><a href="/testimonials/">Testimonials</a></li>
-							<li class="selected"><a href="/">Home</a></li>
-						</ul>
-        </div>
-      </div>
-
-    </div>
-
-
-  <div id="page">
-  <div id="breadcrumbs">
-	 <a href="/">Home</a>
-  </div>
-
   <div id="sidebar">
 	 <div id="related">
 
@@ -107,19 +83,6 @@ written testimonials.</p>
 
 </div>
 
-</div>
-</div>
-
-<div id="footer">
-  <div class="trademark">
-
-  Mozilla, Firefox, and the Mozilla and Firefox Logos are trademarks or
-  registered trademarks of the Mozilla Foundation.
-  <br />
-  All other trademarks are property of their respective owners.
-  </div>
-<a href="http://www.spreadfirefox.com">Spread Firefox</a> | <a href="http://www.mozilla.org">Mozilla.org</a>
-</div>
 </div>
 </div>
 <!--#include virtual="/inc/footer.html" -->
