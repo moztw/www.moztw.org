@@ -1,0 +1,136 @@
+<!--#include virtual="/inc/meta.html" -->
+		<title>Mozilla Firefox Flicks : Brought to you by www.spreadfirefox.com</title>
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+<body id="developer-mozilla-org">
+  <div id="container">
+    <p class="skipLink"><a href="#content" accesskey="2">Skip to main content</a></p>
+
+    <div id="mozilla-org"><a href="http://www.mozilla.org/">Visit Mozilla.org</a></div>
+
+    <div id="header">
+      <h1><a href="/" title="Return to home page" accesskey="1">Firefox Flicks</a></h1>
+
+    </div>
+
+    <div id="navigation">
+      <div id="bar">
+        <div>
+						<ul id="personal">
+					    <li>&nbsp;</li>
+						</ul>
+						<ul id="contenttypes">
+
+              <li class=""><a href="http://www.spreadfirefox.com">Spread Firefox</a></li>
+							<li class=""><a href="/advertcontest/">Ad-Contest</a></li>
+							<li class=""><a href="/testimonials/">Testimonials</a></li>
+							<li class="selected"><a href="/">Home</a></li>
+						</ul>
+        </div>
+      </div>
+
+    </div>
+
+
+  <div id="page">
+  <div id="breadcrumbs">
+	 <a href="/">Home</a>
+  </div>
+
+  <div id="sidebar">
+	 <div id="related">
+
+		<div>
+			<h3>Important Links</h3>
+			<ul>
+			  <li><a href="http://video.spreadfirefox.com/testimonials/tool">Testimonials - view & record</a></li>
+			  <li><a href="http://www.mozilla.com/firefox/">Get Firefox 1.5</a></li>
+			  <li><a href="http://www.spreadfirefox.com">Spread Firefox Site </a></li>
+
+			  <li><a href="http://developer.mozilla.org/contests/extendfirefox/">Extend Firefox Contest</a></li>
+		  </ul>
+		</div>
+	</div>
+
+	<div class="stickers">
+		<h3>Host</h3>
+	  <a href="http://www.mozilla.com"><img src="/images/mozilla-corp.png" alt="Mozilla Corporation" width="150" height="46" /></a>
+
+	</div>
+  </div>
+
+<div id="content">
+<div class="post">
+
+<h2>Calling All Firefox Fans...</h2>
+<p class="entry">Join us in celebrating the launch of Firefox 1.5 and the
+  amazing people who have made the first year a raging success. Last year
+  at Spread Firefox we launched community marketing into the mainstream with
+written testimonials.</p>
+<p class="entry">This year we're taking it "live" with video testimonials and
+  ads! From the casual user to the creative professional, Firefox Flicks is
+  your opportunity to speak out for Firefox and express yourself in front of a
+  worldwide audience. </p>
+
+<div class="entry">
+  <div id="wrapper-mainbar">
+
+  <div id="mainbar1">
+  <div id="greenbox">
+    <div id="feature-content">
+      <a href="testimonials/"><img src="images/fxf-testimonials.gif" alt="Firefox Flicks Testimonials" width="250" height="80" border="0" /></a>
+    <h3>Tell The World About Firefox!</h3>
+        <p>We・re making it easy for you to speak out for Firefox.  You don't
+          have to be a video professional, just ready, willing and excited to
+        tell your Firefox story.</p>
+        <p>Record your own video testimonial using the Testimonials tool and
+        a Web cam or video camera.</p>
+
+        <p>Don't have a Web cam? Our friends at <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&tag=mozilla-q405promo-20&camp=1789&creative=9325&path=tg/new-for-you/top-sellers/-/pc/172511/">Amazon.com</a>
+        have a wide selection fo under $100.</p>
+        <p>It・s an easy, fast way for you to tell the world about Firefox and
+        a chance to win fun prizes too.</p>
+        <p><a href="testimonials/">Just follow this to the Testimonials page and
+        you・re on your way.</a></p>
+    </div>
+  </div>
+
+</div>
+<div id="mainbar2">
+  <div id="greenbox">
+    <div id="feature-content">
+      <a href="advertcontest/"><img src="images/fxf-ad-contest.gif" alt="Firefox Flicks Ad Contest" width="250" height="80" border="0" /></a>
+    <h3>Lights, Camera and... Action!</h3>
+        <p>Are you a creative person with media smarts and the technical
+          ability to conceptualize and produce a quality 30-second ad?</p>
+        <p>We・re looking for people who can create great ads to help us spread
+          the news about Firefox.</p>
+
+        <p><a href="advertcontest/" target="_self">Learn more about
+          the Firefox Flicks Ad Contest.</a></p>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div id="footer">
+  <div class="trademark">
+
+  Mozilla, Firefox, and the Mozilla and Firefox Logos are trademarks or
+  registered trademarks of the Mozilla Foundation.
+  <br />
+  All other trademarks are property of their respective owners.
+  </div>
+<a href="http://www.spreadfirefox.com">Spread Firefox</a> | <a href="http://www.mozilla.org">Mozilla.org</a>
+</div>
+</div>
+</div>
+<!--#include virtual="/inc/footer.html" -->
+
+
