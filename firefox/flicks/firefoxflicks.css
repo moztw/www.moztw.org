@@ -1,0 +1,42 @@
+img {
+	border: none;
+}
+
+#header h1 a,#header h1 a:hover {
+}
+
+.trademark {
+	font-size: 0.8em;
+	color: #666;
+	font-style: italic;
+}
+
+.stickers {
+	text-align: center;
+}
+
+.stickers img {
+	border: none;
+	margin: 3px 0 3px 0;
+}
+
+img.bio {
+	border: solid black 2px;
+	float: right;
+	margin: 0 0 15px 15px;
+	width: 120px;
+	height: 160px;
+}
+
+img.sponsor {
+	border: none;
+	float: right;
+	margin: 0 0 15px 15px;
+}
+
+img.main {
+	border: none;
+	float: right;
+	margin: 0 0 15px 15px;
+}
+

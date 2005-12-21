@@ -1,18 +1,12 @@
 <!--#include virtual="/inc/meta.html" -->
-		<title>Mozilla Firefox Flicks : Brought to you by www.spreadfirefox.com</title>
+		<title>Mozilla Firefox Flicks</title>
+		<style type='text/css'>
+		    <!--
+		    @import url(firefoxflicks.css);
+	    	-->
+		</style>
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
-
-<body id="developer-mozilla-org">
-  <div id="container">
-    <p class="skipLink"><a href="#content" accesskey="2">Skip to main content</a></p>
-
-    <div id="mozilla-org"><a href="http://www.mozilla.org/">Visit Mozilla.org</a></div>
-
-    <div id="header">
-      <h1><a href="/" title="Return to home page" accesskey="1">Firefox Flicks</a></h1>
-
-    </div>
 
     <div id="navigation">
       <div id="bar">
