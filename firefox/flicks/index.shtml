@@ -1,10 +1,7 @@
 <!--#include virtual="/inc/meta.html" -->
 		<title>Mozilla Firefox Flicks</title>
-		<style type='text/css'>
-		    <!--
-		    @import url(firefoxflicks.css);
-	    	-->
-		</style>
+		<link rel="stylesheet" type="text/css" href="base.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="firefoxflicks.css" media="all" />
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
 
