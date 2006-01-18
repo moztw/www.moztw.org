@@ -2,7 +2,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>Mozilla Firefox Flicks : Testimonials</title>
+		<title>Mozilla Firefox Flicks : 推推樂</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="stylesheet" type="text/css" href="../css/base.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="../css/blog.css" media="all" />
@@ -46,12 +46,12 @@
             </map>
         </td>
         <td class="header" align="right" valign="bottom">
-		<div id="nav"> <a href="../testimonials/" title="Firefox Flicks" target="_self">Testimonials Home</a> | <a href="http://video2.spreadfirefox.com" target="_self">Tool</a> | <a href="rules.html" title="Firefox Flicks Testimonials" target="_self">Rules</a> | <a href="faq.html" title="Firefox Flicks Testimonials" target="_self">FAQ</a> </div></td>
+		<div id="nav"> <a title="Mozilla Taiwan 首頁" href="http://moztw.org/">Mozilla Taiwan </a> | <a href="../testimonials/" title="Firefox Flicks" target="_self">推推樂首頁</a> | <a href="http://video2.spreadfirefox.com" target="_self">「推推樂」工具</a> | <a href="rules.html" title="Firefox Flicks Testimonials" target="_self">參賽規則</a> | <a href="faq.html" title="Firefox Flicks Testimonials" target="_self">常見問題</a> </div></td>
       </tr>
     </table>
     <table width="770" border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td><div id="breadcrumbs"> <a href="../">Firefox Flicks</a> /  <a href="../testimonials/" target="_self">Testimonials</a> / Rules</div></td>
+        <td><div id="breadcrumbs"> <a href="../">Firefox Flicks</a> /  <a href="../testimonials/" target="_self">推推樂</a> / 參賽規則</div></td>
       </tr>
     </table>  
     <div id="pagesplit">
@@ -115,12 +115,12 @@
       <h3><a href="http://www.mozilla.com"><img src="../images/mozilla-corp.png" alt="Mozilla Corporation" width="150" height="46" /></a><br />
         <br />
         <br />
-          <strong>Sponsor</strong>        <br />
+          <strong>贊助廠商</strong>        <br />
           <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=mozilla-q405promo-20&amp;camp=1789&amp;creative=9325&amp;path=tg/new-for-you/top-sellers/-/pc/172511/" target="_self"><img src="../images/120x60-w-logo.gif" alt="amazon.com" width="120" height="60" border="0" /></a></h3>
       <table width="100%"  border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td><div align="center">
-          <p>Don't have a Web cam? Our friends at <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=mozilla-q405promo-20&amp;camp=1789&amp;creative=9325&amp;path=tg/new-for-you/top-sellers/-/pc/172511/" target="_self">Amazon.com</a> have a wide selection for under $100.</p>
+          <p>沒有 Web cam？合作夥伴 <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=mozilla-q405promo-20&amp;camp=1789&amp;creative=9325&amp;path=tg/new-for-you/top-sellers/-/pc/172511/" target="_self">Amazon.com</a> 有一堆不到美金 100 元的 Web Cam 供你挑選。</p>
         </div></td>
       </tr>
     </table>
@@ -132,8 +132,18 @@
 
 
     <div class="sponsor" id="footer">
-			<div class="entry">Mozilla, Firefox, and the Mozilla and Firefox Logos are trademarks or registered trademarks of the Mozilla Foundation. <br />
-All other trademarks are property of their respective owners. </div>
+			<div class="entry">Mozilla, Firefox 與 Mozilla 和 Firefox 的代表圖案均為 Mozilla Foundation 的商標或註冊商標。<br>
+          所有出現的其他商標為都分屬於其擁有者所有。
+          <br /><br />
+    <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a href="http://moztw.org/">Mozilla 正體中文/台灣</a></li>
+	<li><a href="/about">聯絡資訊</a></li>
+
+   </ul>
+   <p>&copy; <abbr title="Mozilla Localization Project">MLP</abbr>: Traditional Chinese and <a href="http://www.mozilla.org/">Mozilla Foundation</a><br/>
+   Mozilla Taiwan 是 Mozilla Localization 的正體中文專案網站</p>
+</div>
 	</div>
     
 </div>
