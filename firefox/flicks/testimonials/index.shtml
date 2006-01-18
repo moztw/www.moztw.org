@@ -2,7 +2,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>Mozilla Firefox Flicks : Testimonials</title>
+		<title>Mozilla Firefox Flicks : 推推樂</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="stylesheet" type="text/css" href="../css/base.css" media="all" />
 		<link rel="stylesheet" type="text/css" href="../css/blog.css" media="all" />
@@ -42,16 +42,16 @@
       <tr>
         <td valign="top" class="header"><img align="left" src="../images/header-testimonials2.png" width="317" height="71" alt="header" border="0" usemap="#Map" />
             <map name="Map" id="Map">
-              <area shape="rect" coords="0,-15,332,50" href="../index.html" alt="Firefox Flicks Home" />
+              <area shape="rect" coords="0,-15,332,50" href="../index.html" alt="Firefox Flicks 首頁" />
             </map>
         </td>
         <td class="header" align="right" valign="bottom">
-		<div id="nav"> <a title="Firefox Flicks" href="">Testimonials Home</a> | <a href="http://video2.spreadfirefox.com" target="_self">Tool</a> | <a href="rules.html" title="Firefox Flicks Testimonials" target="_self">Rules</a> | <a href="faq.html" title="Firefox Flicks Testimonials" target="_self">FAQ</a> </div></td>
+		<div id="nav"> <a title="Mozilla Taiwan 首頁" href="http://moztw.org/">Mozilla Taiwan</a> | <a title="Firefox Flicks" href="">「推推樂」首頁</a> | <a href="http://video2.spreadfirefox.com" target="_self">「推推樂」工具</a> | <a href="rules.html" title="Firefox Flicks Testimonials" target="_self">參賽規則</a> | <a href="faq.html" title="Firefox Flicks 推推樂" target="_self">常見問題</a> </div></td>
       </tr>
     </table>
     <table width="770" border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td><div id="breadcrumbs"> <a href="../">Firefox Flicks</a> /  Testimonials</div></td>
+        <td><div id="breadcrumbs"> <a href="../">Firefox Flicks</a> /  推推樂</div></td>
       </tr>
     </table>  
     <div id="pagesplit">
@@ -64,21 +64,21 @@
                 <tr>
                   <td valign="top" bgcolor="#cdf2ad" style="-moz-border-radius: 6px; color: black; border:thin solid #608e5b;"> <p align="center"><img src="../images/this-weeks-winners.png" width="162" height="95" border="0" /></p>
                     <p align="center"><span class="main"><strong></strong></span> <img src="../images/1_zep.jpg" width="160" height="105" border="0" usemap="#Map6" /><br />
-1st: Zep, from the city of Quimper, France<br />
+第一名：Zep, 法國 坎佩爾市<br />
 <br />
 <img src="../images/2_kemper.jpg" width="160" height="105" border="0" usemap="#Map4" /> <br />
-2nd: Kemper from San Francisco, California, USA <br />
+第二名： Kemper, 美國加州 舊金山<br />
 <br />
 <img src="../images/3_piers.jpg" width="160" height="103" border="0" usemap="#Map5" /><br />
-3rd: Piers Jones from Reigate, England<br />
+第三名：Piers Jones, 英國 賴蓋特<br />
 <br />
 <img src="../images/4_marc.jpg" width="160" height="105" border="0" usemap="#Map3" /><br />
 
-4th: Marc from Montreal, Canada<br />
+第四名：Marc, 加拿大 蒙特利爾<br />
 <br />
 <img src="../images/5_george.jpg" width="160" height="104" border="0" usemap="#Map2" /><br />
 
-5th: George, from Brooklyn, New York, USA </p>
+第五名：George, 美國紐約 布魯克林</p>
                   <map name="Map6" id="Map6">
                       <area shape="rect" coords="4,80,29,102" href="http://video2.spreadfirefox.com/ref.php?id=3b12e6be-d157-488e-8a93-9a0761798c15" target="_self" />
                     </map>
@@ -108,20 +108,20 @@
 
 	<div id="pagecenter-testimonials">
 	  <div id="content">
-      <h4><strong>Tell the world about Firefox! <br />
+      <h4><strong>向世界說出 Firefox 的好！<br />
                 <a href="http://video2.spreadfirefox.com" target="_self"><br />
-                <img src="../images/viewtestimonials.gif" alt="View Testimonials" width="142" height="22" border="0" align="absbottom" /></a> <br />
+                <img src="../images/viewtestimonials.gif" alt="檢視「推推樂」" width="142" height="22" border="0" align="absbottom" /></a> <br />
         </strong></h4>
-      <ul><li><strong>            What to do?</strong> Record and submit your own short testimonial telling the world what you love about Firefox. Your testimonial will be added to the Testimonial viewer (which will be available very soon) for others to see by clicking your location on the globe. Just read the simple instructions on how to use the Testimonial tool and fill out the submission form telling us what you’re going to talk about. Your testimonial will be reviewed by Spread Firefox Administrators and, after their review, published for others to see.</li>
+      <ul><li><strong> 怎麼做？ </strong> 只要錄下你愛上 Firefox 的原因後送出，馬上讓全世界瞭解 Firefox 的過人之處！你所送出的短片會依地區分類後出現在「推推樂」網站上讓大眾觀賞。只要讀一下有關「推推樂」工具的說明，再填個簡單的問卷告訴我們你要說甚麼，三兩下輕鬆表達你對 Firefox 的愛意！你的短片在 Spread Firefox 管理員們審核後就會發佈到網站上供人觀賞。</li>
       </ul>
           <ul>
-            <li><strong> When to do it?</strong> The Testimonial campaign will be open until February 21st 2006 so plan on checking back to see what testimonials others have recorded. We’ll be giving out Firefox gear each week to submitters of the most creative and entertaining testimonials.</li>
+            <li><strong> 何時開始？ </strong> 「推推樂」大賽將開放到 2006 年 2 月 21 日止，歡迎你隨時進來看看別人錄的短片。每週我們都會送出 Firefox 週邊商品給最具創意和笑點的短片作者。</li>
         </ul>
           <ul>
-            <li><strong> Why do it?</strong> To tell the world about why you use Firefox and to be eligible for great prizes! Between now and the end of the contest we’ll be announcing weekly winners who will receive an Amazon.com gift certificate for $50 as well as Firefox gear from the Mozilla store. The grand prize winner will receive a $500 gift certificate from Amazon.com. Other great prizes will be given out along the way. At the end of the contest we’ll also pick the best of the best, and feature those testimonials on Mozilla web sites.<br />
+            <li><strong> 為甚麼要參加？ </strong> 讓全世界的人知道 Firefox 好在哪裡，順便獲得贏得大獎的資格！大賽期間我們每週都會選出當週得獎者。得獎者除了獲得 Amazon.com 美金 50 元的禮券之外還有 Firefox 的週邊商品可拿！另外，超級大獎得主可以贏得美金 500 元的  Amazon.com 禮券，其他獎項的獎品也會陸續公佈。在大賽結束後，我們會挑出最優秀的短片於 Mozilla 網站上播放！<br />
                 <br />
             </li>
-            <li><strong>How?</strong> Visit the <a href="http://video2.spreadfirefox.com" target="_self">Firefox Flicks Testimonial tool</a> where you’ll be guided through the Web cam set up process. If you don’t have a Web cam you may be able to just plug in your digital video camcorder. If you need to buy a Web cam, try Amazon.com for a wide selection of Web cams under $100.</li>
+            <li><strong> 怎麼參加？ </strong> <a href="http://video2.spreadfirefox.com" target="_self">「推推樂」工具</a> 會一步步教你如何使用 Web Cam 上傳短片。有 DV 攝影機也可以插上電腦直接錄影。有滿腹愛意卻苦無工具上傳？ Amazon.com 上有一堆不到美金 100 元的 Web Cam 供你挑選。</li>
           </ul>
           <h4>              <br />
         </h4>
@@ -134,12 +134,12 @@
       <h3><a href="http://www.mozilla.com"><img src="../images/mozilla-corp.png" alt="Mozilla Corporation" width="150" height="46" /></a><br />
         <br />
         <br />
-          <strong>Sponsor</strong>        <br />
+          <strong>贊助廠商</strong>        <br />
           <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=mozilla-q405promo-20&amp;camp=1789&amp;creative=9325&amp;path=tg/new-for-you/top-sellers/-/pc/172511/" target="_self"><img src="../images/120x60-w-logo.gif" alt="amazon.com" width="120" height="60" border="0" /></a></h3>
       <table width="100%"  border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td><div align="center">
-          <p>Don't have a Web cam? Our friends at <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=mozilla-q405promo-20&amp;camp=1789&amp;creative=9325&amp;path=tg/new-for-you/top-sellers/-/pc/172511/" target="_self">Amazon.com</a> have a wide selection for under $100.</p>
+          <p>沒有 Web cam？合作夥伴 <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=mozilla-q405promo-20&amp;camp=1789&amp;creative=9325&amp;path=tg/new-for-you/top-sellers/-/pc/172511/" target="_self">Amazon.com</a> 有一堆不到美金 100 元的 Web Cam 供你挑選。</p>
         </div></td>
       </tr>
     </table>
@@ -151,16 +151,11 @@
 
 
     <div id="footer">
-			<div class="sponsor">Mozilla, Firefox, and the Mozilla and Firefox Logos are trademarks or registered trademarks of the Mozilla Foundation. <br />
-	        All other trademarks are property of their respective owners. 
+			<div class="sponsor">Mozilla, Firefox 與 Mozilla 和 Firefox 的代表圖案均為 Mozilla Foundation 的商標或註冊商標。<br>
+          所有出現的其他商標為都分屬於其擁有者所有。
+
 	  </div>
 	</div>
     
 </div>
-
-    
-  
-
-	</body>
-</html>
-
+<!--#include virtual="/inc/footer.html" -->

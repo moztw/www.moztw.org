@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Mozilla Firefox Flicks : Ad Contest</title>
+    <title>Mozilla Firefox Flicks : 首頁</title>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <style type="text/css">
 
@@ -42,12 +42,12 @@
         <td valign="top" class="header">
           <img align="left" src="./images/header-home2.png" width="400" height="71" alt="header" border="0" usemap="#Map">
             <map name="Map" id="Map">
-              <area shape="rect" coords="3,3,335,68" href="../" alt="Firefox Flicks Home">
+              <area shape="rect" coords="3,3,335,68" href="../" alt="Firefox Flicks 首頁">
             </map>
         </td>
         <td class="header" align="right" valign="bottom">
             <div id="nav">
-            <a title="Firefox Flicks" href="">Firefox Flicks Home</a> | <a title="Firefox Flicks Ad Contest" href="adcontest">Ad Contest</a> | <a title="Firefox Flicks Testimonials" href="testimonials">Testimonials</a>
+            <a title="Mozilla Taiwan 首頁" href="http://moztw.org/">Mozilla Taiwan</a> | <a title="Firefox Flicks" href="">Firefox Flicks 首頁</a> | <a title="Firefox Flicks 廣告賞" href="adcontest">廣告賞</a> | <a title="Firefox Flicks 推推樂" href="testimonials">推推樂</a>
             </div>
         </td>
       </tr>
@@ -94,18 +94,19 @@
               <br />
               <span style="font-size: smaller; margin-left:2em;">(Alex Polvi)</span></a>
               </div>
-              <p style="font-size: larger; margin-top:0;"><b>Share your story.</b>
-              <p>Record your Firefox testimonial today.
-              <p>We’re making it easy for you to speak out for Firefox.
-              <p>Record your own video testimonial using the Testimonials tool and a Web cam or video camera.
+              <p style="font-size: larger; margin-top:0;"><b>分享你的故事。</b>
+              <p>現在就錄下你愛 Firefox 的理由！
+              <p>全球開講超容易，不必有影片剪輯大師的功力，只要準備好把你跟 Firefox 的故事說出來就行啦！
+              
+              <p>使用「推推樂」錄影工具加上你的 WebCam 就能輕鬆錄影。
               <div style="float:right; margin-left: 1em; margin-top: .35em;">
               <a href="http://video2.spreadfirefox.com/ref.php?id=3f8b49f6-3464-4e83-b022-0dc35a97116f"><img src="images/ruthie.jpg" alt="Ruthie" width="118" height="85" style=" border: 1px solid rgb(0, 51, 170);">
               <br />
               <span style="font-size: smaller; margin-left:3em;">(Ruthie)</span></a>
               </div>
 
-              <p>Don't have a Web cam? Our friends at <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=mozilla-q405promo-20&amp;camp=1789&amp;creative=9325&amp;path=tg/new-for-you/top-sellers/-/pc/172511/">Amazon.com</a> have a wide selection for under $100.
-              <p>It’s an easy, fast way for you to tell the world about Firefox and a chance to win fun prizes too.</p>
+              <p>沒有 Web cam？合作夥伴 <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=mozilla-q405promo-20&amp;camp=1789&amp;creative=9325&amp;path=tg/new-for-you/top-sellers/-/pc/172511/">Amazon.com</a> 有一堆不到美金 100 元的 Web Cam 供你挑選。
+              <p>簡單、快速，又有大獎可拿，現在就瞧瞧別人的作品。錄下自己的身影，告訴全世界 Firefox 的過人之處。</p>
             </div>
               </td>
             </tr>
@@ -119,9 +120,8 @@
     <table width="" border="0" cellpadding="0" cellspacing="12">
       <tr>
         <td valign="top">
-          <p id="footer">Mozilla, Firefox, and the Mozilla and Firefox Logos are
-          trademarks or registered trademarks of the Mozilla Foundation. <br>
-          All other trademarks are property of their respective owners.
+          <p id="footer">Mozilla, Firefox 與 Mozilla 和 Firefox 的代表圖案均為 Mozilla Foundation 的商標或註冊商標。<br>
+          所有出現的其他商標為都分屬於其擁有者所有。
           </p>
         </td>
       </tr>
@@ -129,6 +129,4 @@
 
 
 </div>
-
-    </body>
-</html>
+<!--#include virtual="/inc/footer.html" -->
