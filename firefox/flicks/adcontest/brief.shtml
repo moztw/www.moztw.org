@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+  <head>
+    <title>Firefox Flicks : Ad Contest : Creative Brief</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+
+      body           {width:100%; margin-right:0; margin-left:0; margin-top:0; font-family: verdana, san-serif;}
+      table          {margin-left:auto;margin-right:auto;}
+      td.header      {background-image: url('../images/header-adcontest2-bg.png'); background-repeat: repeat-x;}
+      #nav           {color: rgb(222,224,229); padding-bottom:5px; padding-right: 6px; font-size: 13px;}
+      #nav A:link    {text-decoration: none; color:rgb(222,224,229);}
+      #nav A:visited {text-decoration: none; color:rgb(222,224,229);}
+      #nav A:active  {text-decoration: none; color:rgb(222,224,229);}
+      #nav A:hover   {text-decoration: none; color:white; background-color: #2f3d58;}
+
+      #breadcrumbs           {color: #778397; font-size: 14px; font-weight:bold; margin-top: 11px; padding-left:1px;}
+      #breadcrumbs A:link    {text-decoration: none; color:#2A3C79;}
+      #breadcrumbs A:visited {text-decoration: none; color:#2A3C79;}
+      #breadcrumbs A:hover   {text-decoration: underline;}
+
+      img.bio {border: solid black 2px; float: right; margin: 0px 8px 15px 15px; width: 120px; height: 160px;}
+      img.sponsor {border: none; float: right;	margin: 0 0 15px 15px;}
+      p#footer  {text-align: center; font-size: x-small;}
+      h2  {font-size: 14px; font-weight: bold; color:#000; margin-bottom: 0;}
+      h3  {font-size: 14px; font-weight: bold; font-style: italic; color:#5D5D5D; margin-top:0;}
+      .crunch   {font-size: small;}
+      p {margin-top:0;}
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <div class="crunch">
+    <table width="770" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="header">
+          <img align="left" src="../images/header-adcontest2.png" width="317" height="71" alt="header" border="0" usemap="#Map">
+            <map name="Map" id="Map">
+              <area shape="rect" coords="3,3,335,68" href="../adcontest/" alt="Firefox Flicks Home">
+            </map>
+        </td>
+        <td class="header" align="right" valign="bottom">
+            <div id="nav">
+            <a title="Ad Contest Home" href="../adcontest/">Home</a> | <a title="Judges" href="../adcontest/judges.html">Judges</a> | <a title="Creative Brief" href="../adcontest/brief.html">Creative Brief</a> | <a title="Contest Rules" href="../adcontest/rules.html">Contest Rules</a> | <a title="Frequently Asked Questions" href="../adcontest/faq.html">FAQ</a> | <a title="Submit your ad" href="../adcontest/submit.php">Submit Ad</a>
+            </div>
+        </td>
+      </tr>
+    </table>
+
+    <table width="770" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <div id="breadcrumbs">
+            <a href="../">Firefox Flicks</a> / <a href="../adcontest">Ad Contest</a> / Creative Brief</div>
+        </td>
+      </tr>
+    </table>
+<br>
+<br>
+    <table width="770" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <h2>Project Description</h2>
+          <p>Create a 30-second ad, in any style (live action or animated,) that brings Firefox to life for the millions of Web users who have yet to discover Firefox and the better Web experience it delivers.
+
+          <h2>Project Summary</h2>
+          <p>Mozilla seeks to expand awareness of Firefox among a broader audience for Web browsers: mainstream consumers who may have little knowledge of the value proposition for Firefox. To help increase awareness of Firefox among this target audience, Mozilla would like to produce a high-quality, innovative 30-second ad that introduces Firefox to mainstream Web users.
+
+          <p>In line with its history and orientation, Mozilla is opening up the creation of its initial advertising creative to film/TV/advertising/multimedia professionals, students and aspiring pros as part of the Firefox Flicks Ad Contest.
+
+          <h2>Target Audience</h2>
+          <p>The primary target audience for the Firefox advertising campaign are moderately experienced Web users, who are comfortable with using the Web but are not necessarily power users. These users understand how to download and install software, and use the Web for basic activities: reading news, web-based email, limited online shopping and banking. They may rely as much on the physical Yellow Pages as they do Yahoo! or Google. They may also have had negative experiences with the Web as a result of spyware, viruses and other Web nuisances. Yet they see the value in the Web, and so return. But they likely do not clearly understand how a Web browser can improve their Web experience.
+
+          <h2>Objective</h2>
+          <p>After watching the ad, the audience should be intrigued enough by Firefox to visit getfirefox.com to learn more.
+
+          <h2>Ad Perception/Tone/Guidelines</h2>
+            <ol>
+              <li>Exciting, easy, simple, fun, modern, smart, cool, adventurous, young, empowering, helpful. We're sure there are other angles you can think of.
+              <li>Ad should function more at brand level than at product features/benefits level.
+              <li>Ad can be in any style: live action, animated, etc.
+              <li>Don't overhype. If you have to, err on the side of subtlety, and let the audience connect the dots to get the message.
+              <li>Take risks. The brand is new. The product is one-year old. Be fresh.
+              <li>Use these guidelines as very broad suggestions. We are most interested in seeing how creative you can be in expressing the core premise of Firefox: making the Web experience better for everyone, and getting that message out to mainstream Web users.
+              <li>Entries must be submitted no later than midnight, March 31, 2006.
+            </ol>
+
+          <h2>Key Messages</h2>
+          <p>You don't have to incorporate all of these messages or ideas. These are here to show you what we're interested in getting across. Pick and choose.
+            <ol>
+              <li>Firefox offers a better way to experience the Web. It's secure, easy to use, and customizable.
+              <li>Having a choice in Web browsers matters.
+              <li>The Web is too important to too many people to let a single company decide how we all get there.
+              <li>The Web browser has a dramatic impact on the user's experience of the web.
+            </ol>
+
+          <h3>More Information</h3>
+          <p>Contest overview:
+        <p><a href="http://www.firefoxflicks.com/adcontest">http://www.firefoxflicks.com/adcontest</a>
+
+          <p>Official Rules:
+        <p><a href="http://www.firefoxflicks.com/adcontest/rules.html">http://www.firefoxflicks.com/adcontest/rules.html</a>
+
+          <p>FAQ:
+          <p><a href="http://www.firefoxflicks.com/adcontest/faq.html">http://www.firefoxflicks.com/adcontest/faq.html</a>
+
+          <p>Technical details for submissions:
+        <p><a href="http://www.firefoxflicks.com/adcontest/submit.php">http://www.firefoxflicks.com/adcontest/submit.php</a>
+
+          <p>Judges:
+          <p><a href="http://www.firefoxflicks.com/adcontest/judges.html">http://www.firefoxflicks.com/adcontest/judges.html</a>
+          <p>Prizes:
+          <p><a href="http://www.firefoxflicks.com/adcontest/prizes-sponsors.html">http://www.firefoxflicks.com/adcontest/prizes-sponsors.html</a>
+        </td>
+
+        <td valign="top" align="center">
+          <h3>Contest Host</h3>
+          <a href="http://mozilla.com"><img src="../images/mozilla-corp.png" width="150" height="46" border="0"></a><br><br>
+
+          <br><br><h3>Prize Sponsor</h3>
+    	    <a href="http://9xmedia.com"><img src="../images/9xmedia-expand.jpg" width="105" height="63" border="0" /></a><br>
+
+    	    <br><br><br><h3>Grand Prizes</h3>
+    	    <a href="../adcontest/prizes-sponsors.html"><img src="../images/bh-giftcards-small.gif" border="0"></a><br><br>
+    	    <a href="../adcontest/prizes-sponsors.html"><img src="../images/9x-3-across-small.gif" border="0"></a><br><br>
+    	    <a href="../adcontest/prizes-sponsors.html"><img src="../images/alienware-dhs5-small.jpg" border="0"></a><br>
+
+    	     <br><br><br><h3>Friends of Flicks</h3>
+    	    <a href="http://www.celtx.com/"><img src="../images/celtx-logo-small.png" border="0"></a>
+    	    </td>
+
+      </tr>
+    </table>
+    </div>
+
+
+    <table width="" border="0" cellpadding="0" cellspacing="12">
+      <tr>
+        <td>
+          <p id="footer">Mozilla, Firefox, and the Mozilla and Firefox Logos are
+          trademarks or registered trademarks of the Mozilla Foundation. <br>
+          All other trademarks are property of their respective owners.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+
+
+
+    </body>
+</html>

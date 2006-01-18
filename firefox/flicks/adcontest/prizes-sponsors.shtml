@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+  <head>
+    <title>Firefox Flicks : Ad Contest : Prizes and Sponsors</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+
+      body           {width:100%; margin-right:0; margin-left:0; margin-top:0; font-family: verdana, san-serif; overflow: -moz-scrollbars-vertical;}
+      table          {margin-left:auto;margin-right:auto;}
+      td.header      {background-image: url('../images/header-adcontest2-bg.png'); background-repeat: repeat-x;}
+      #nav           {color: rgb(222,224,229); padding-bottom:5px; padding-right: 6px; font-size: 13px;}
+      #nav A:link    {text-decoration: none; color:rgb(222,224,229);}
+      #nav A:visited {text-decoration: none; color:rgb(222,224,229);}
+      #nav A:active  {text-decoration: none; color:rgb(222,224,229);}
+      #nav A:hover   {text-decoration: none; color:white; background-color: #2f3d58;}
+
+      #breadcrumbs           {color: #778397; font-size: 14px; font-weight:bold; margin-top: 11px; padding-left:1px;}
+      #breadcrumbs A:link    {text-decoration: none; color:#2A3C79;}
+      #breadcrumbs A:visited {text-decoration: none; color:#2A3C79;}
+      #breadcrumbs A:hover   {text-decoration: underline;}
+      p#footer  {text-align: center; font-size: x-small;}
+      img.bio {border: solid black 2px; float: right; margin: 0px 8px 15px 15px; width: 120px; height: 160px;}
+      img.sponsor {border: none; float: right;	margin: 0 0 15px 15px;}
+      h2  {font-size: 16px; font-weight: bold; color:#000; margin-bottom: 0;}
+      h3  {font-size: 15px; font-weight: bold; color:#5D5D5D; margin-top:.5;}
+      .crunch   {font-size: small;}
+
+    </style>
+  </head>
+
+  <body>
+    <div class="crunch">
+    <table width="770" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="header">
+          <img align="left" src="../images/header-adcontest2.png" width="317" height="71" alt="header graphic" border="0" usemap="#Map">
+            <map name="Map" id="Map">
+              <area shape="rect" coords="3,3,335,68" href="../adcontest/" alt="Firefox Flicks Home">
+            </map>
+        </td>
+        <td class="header" align="right" valign="bottom">
+            <div id="nav">
+            <a title="Ad Contest Home" href="../adcontest/">Home</a> | <a title="Judges" href="../adcontest/judges.html">Judges</a> | <a title="Creative Brief" href="../adcontest/brief.html">Creative Brief</a> | <a title="Contest Rules" href="../adcontest/rules.html">Contest Rules</a> | <a title="Frequently Asked Questions" href="../adcontest/faq.html">FAQ</a> | <a title="Submit your ad" href="../adcontest/submit.php">Submit Ad</a>
+            </div>
+        </td>
+      </tr>
+    </table>
+
+    <table width="770" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <div id="breadcrumbs">
+          <a href="../">Firefox Flicks</a> / <a href="../adcontest">Ad Contest</a> / Prizes & Sponsors </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+<br>
+
+    <table width="779" border="0" cellpadding="0" cellspacing="9">
+      <tr>
+        <td colspan="2">
+          <h2>Firefox Flicks Ad Contest Prizes</h2>
+          <p>We have put together a great set of prizes for contest winners with
+          three grand prize packages. The first place winner will receive a $5,000 gift certificate to <a href="http://www.bhphotovideo.com/">B&H</a>, the professional's
+          source for photo, video, and pro audio. Thanks to prize sponsor 9X Media, we have an amazing multi-screen
+          display to give away. We'll also be awarding an Alienware media center PC.
+        </td>
+      </tr>
+      <table width="770" border="0" cellpadding="0" cellspacing="9">
+      <tr>
+        <td>
+        <p><b>First Place</b> will receive $5,000 in gift certificates to <a href="http://www.bhphotovideo.com/">B&H</a>.<p>B&H is the professional's source for photo, video, and pro-audio equipment and accessories. B&H Gift Cards allow our winner to purchase any item available at B&H Photo Video, whether they shop over the web, on the phone or in the B&H superstore.<p>
+        </td>
+        <td>
+          <img src="../images/bh-giftcards.png">
+        </td>
+      </tr>
+      <tr>
+        <td>
+      <p><b>Second Place</b> wins a <a href="http://www.9XMedia.com/pages-Build_a_system/X-Top---3across.html">9X Media X-Top Triple LCD</a> scalable ergonomic Multi Screen Display, integrating 3 19" SlimLine tiling LCDs. <p>All 9X Media Multi-Screen X-Top systems are <a href="http://www.9xmedia.com/pages-Build_a_system/X-Top_Design_a_system-Configurations.html">expandable and customizable</a>. Providing the ultimate in personalization, they include multiple and varied screen size combinations ranging from 19" SlimLine LCDs to 40" SlimLine LCDs integrated into an elegant structure machined in the USA - to the highest standard and of the finest materials.</p>
+        <p>9X Media’s SlimLine LCDs feature world-class specs in the world's only display designed to dramatically enhance Multi-Screen tiling and viewing.
+        </td>
+        <td>
+          <img src="../images/9x-3-across.gif">
+        </td>
+      </tr>
+      <tr>
+        <td>
+      <p><b>Third Place</b> wins Alienware DHS 5 media center PC.<p>The Alienware DHS 5 series of media center systems brings the latest in audio and video content-management technology to your entire home. The DHS 5 series features Microsoft® Windows® XP Media Center Edition 2005, which integrates the functionality of individual A/V components into a single unit, complete with a common user interface and remote control.</p>
+        </td>
+        <td>
+          <img src="../images/alienware-dhs5.jpg">
+        </td>
+      </tr>
+    </table>
+</table>
+      <br>
+      <hr width="770" >
+      <br>
+    <table width="779" border="0" cellpadding="0" cellspacing="9">
+      <tr>
+        <td colspan="2">
+          <h2 class="judge-name">Prize Sponsor</h2>
+          <h3 class="judge-title"><a href="http://9xmedia.com">9X Media</a></h3>
+          <a href="http://9xmedia.com"><img class="sponsor" alt="9X Media" src="../images/9xmedia-large.jpg" /></a>
+          <p>9X Media specializes in the invention, design and manufacture of advanced high-performance Multi-Screen solutions. Our innovative product line includes expandable multiple monitor desktop displays, video walls, digital signage solutions, portable media centers, computers and controllers. </p>
+        <p>The X-Top can scale from 2 to 34 screens in 1000’s of <a href="http://www.9xmedia.com/pages-Build_a_system/X-Top_Design_a_system-Configurations.html">configurations</a>, and can incorporate multiple screen types and sizes including 5:4 and 16:9 aspect ratios.</p>
+        <p>X-Hub PC Control Center, an after market upgrade option, integrates & centralizes desktop access to popular data bus, A/V and wireless technologies such as: Bluetooth, FireWire, USB, MP3, iPod and DVD. The innovative X-Hub is available exclusively from 9X Media and only for the 9X Media X-Top Dimension Series of Multi-Screen Displays.
+        <p>9X Media's innovative solutions enable a <a href="http://www.9XMedia.com/Pages-Applications/Applications.html">wide variety of applications</a> including: Corporate / SOHO Productivity, Presentation & Tradeshows, Retail, Restaurant & Museum Video Wall Installations, Hotel & Casino Digital Signage & TV Broadcast. <br style="clear: both;" />
+          </p>
+<br>
+<hr>
+<br>
+          <h2 class="judge-name">Friends of Firefox Flicks</h2>
+          <h3 class="judge-title"><a href="http://www.celtx.com">Celtx</a></h3>
+          <a href="http://www.celtx.com"><img class="sponsor" alt="Celtx" src="../images/celtx-logo.png" /></a>
+          <p>Celtx is a comprehensive software package designed for people who work in the Film, TV, Theatre and New Media industries. It combines full-feature scriptwriting with media rich pre-production support and enables online collaboration.</p>
+        </td>
+      </tr>
+    </table>
+</div>
+
+    </body>
+    </html>

@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+  <head>
+    <title>Firefox Flicks : Ad Contest : Judges</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+
+      body           {width:100%; margin-right:0; margin-left:0; margin-top:0; font-family: verdana, san-serif;}
+      table          {margin-left:auto;margin-right:auto;}
+      td.header      {background-image: url('../images/header-adcontest2-bg.png'); background-repeat: repeat-x;}
+      #nav           {color: rgb(222,224,229); padding-bottom:5px; padding-right: 6px; font-size: 13px;}
+      #nav A:link    {text-decoration: none; color:rgb(222,224,229);}
+      #nav A:visited {text-decoration: none; color:rgb(222,224,229);}
+      #nav A:active  {text-decoration: none; color:rgb(222,224,229);}
+      #nav A:hover   {text-decoration: none; color:white; background-color: #2f3d58;}
+
+      #breadcrumbs           {color: #778397; font-size: 14px; font-weight:bold; margin-top: 11px; padding-left:1px;}
+      #breadcrumbs A:link    {text-decoration: none; color:#2A3C79;}
+      #breadcrumbs A:visited {text-decoration: none; color:#2A3C79;}
+      #breadcrumbs A:hover   {text-decoration: underline;}
+
+      img.bio {border: solid black 2px; float: right; margin: 0px 8px 15px 15px; width: 120px; height: 160px;}
+      img.sponsor {border: none; float: right;	margin: 0 0 15px 15px;}
+      p#footer  {text-align: center; font-size: x-small;}
+      h2.judge-name  {font-size: 18px; font-weight: bold; color:#000; margin-bottom: 0;}
+      h3.judge-title  {font-size: 16px; font-weight: bold; font-style: italic; color:#5D5D5D; margin-top:0;}
+      .crunch   {font-size: small; text-align:justify;}
+
+
+    </style>
+  </head>
+
+  <body>
+
+    <table width="770" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="header">
+          <img align="left" src="../images/header-adcontest2.png" width="317" height="71" alt="header" border="0" usemap="#Map">
+            <map name="Map" id="Map">
+              <area shape="rect" coords="3,3,335,68" href="../adcontest/" alt="Firefox Flicks Home">
+            </map>
+        </td>
+        <td class="header" align="right" valign="bottom">
+            <div id="nav">
+            <a title="Ad Contest Home" href="../adcontest/">Home</a> | <a title="Judges" href="../adcontest/judges.html">Judges</a> | <a title="Creative Brief" href="../adcontest/brief.html">Creative Brief</a> | <a title="Contest Rules" href="../adcontest/rules.html">Contest Rules</a> | <a title="Frequently Asked Questions" href="../adcontest/faq.html">FAQ</a> | <a title="Submit your ad" href="../adcontest/submit.php">Submit Ad</a>
+            </div>
+        </td>
+      </tr>
+    </table>
+
+    <table width="770" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <div id="breadcrumbs">
+          <a href="../">Firefox Flicks</a> / <a href="../adcontest">Ad Contest</a> / Judges</div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <table width="" border="0" cellpadding="0" cellspacing="8">
+      <tr>
+        <td>
+          <img src="../images/judge-bar-adcontest2.gif" width="770" height="89" usemap="#judge-bar" border="0" alt="expert judges">
+            <map name="judge-bar" id="judge-bar">
+              <area shape="poly" coords="669,1,730,5,727,79,664,76" href="../adcontest/judges.html#zide" alt="Warren Zide" title="Warren Zide">
+              <area shape="poly" coords="564,6,625,1,634,74,573,82" href="../adcontest/judges.html#younger" alt="Ben Younger title="Ben Younger">
+              <area shape="poly" coords="472,2,530,14,516,84,455,74" href="../adcontest/judges.html#santini" alt="Geo Santini title="Geo Santini">
+              <area shape="poly" coords="349,6,411,4,416,78,354,82" href="../adcontest/judges.html#rodriguez" alt="Freddy Rodriguez title="Freddy Rodriguez">
+              <area shape="poly" coords="235,13,251,84,313,73,294,0" href="../adcontest/judges.html#mcg" alt="McG title="McG">
+              <area shape="poly" coords="125,71,187,84,199,10,138,0" href="../adcontest/judges.html#goodson" alt="Scott Goodson title="Scott Goodson">
+              <area shape="poly" coords="29,2,32,78,94,79,91,1" href="../adcontest/judges.html#denault" alt="Jim Denault title="Jim Denault">
+            </map>
+        </td>
+      </tr>
+    </table>
+
+    <div class="crunch">
+    <table width="770" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+
+          <div><a name="denault">
+              <h2 class="judge-name">Jim Denault</h2>
+              <h3 class="judge-title">Cinematographer</h3>
+              <img alt="Jim Denault" src="../images/denault.jpg" class="bio" />
+              <p>Jim Denault has received outstanding recognition for his talents in cinematography during his 17-year career behind the camera. These include an Independent Spirit Award nomination for Best Cinematography in 1996 for <i>Nadja</i>, and an Emmy award nomination for Outstanding Cinematography for a Single-Camera Series category for the series <i>Carnivale</i>. </p>
+              <p>Denault graduated from Rochester Institute of Technology in 1980. He began his career shooting video for a Rochester cable access channel, which eventually led to work in a lighting rental house. He made an atypical ascent to the role of director of photography through the electrical ranks while working on independent films. He credits this experience for developing his keen talent for framing scenes.</p>
+              <p>Denault's recent work includes <i>Maria Full of Grace</i>, <i>Boys Don't Cry</i> and <i>Six Feet Under</i>.
+               <p> <a href="http://www.imdb.com/name/nm0002681/">Jim Denault at IMDB</a> </p>
+          </div>
+          <br style="clear: both;" />
+
+          <div><a name="goodson">
+              <h2 class="judge-name">Scott Goodson</h2>
+              <h3 class="judge-title">Founder and Chief Creative Officer, StrawberryFrog</h3>
+              <img alt="Scott Goodson" src="../images/goodson.jpg" class="bio" />
+              <p>Scott is a true frog. Born into an advertising family, he worked his way up in the biz. Originally from Canada, he has worked on the world's most iconic brands in the US and globally.
+              <p>He is a writer, traveller, philosopher, amateur chef, and entrepreneur.
+              <p>He spent 10 years in Sweden as co-owner of a Stockholm ad agency, named Media International's European agency of the year, with clients like Virgin Airlines, Daimler Chrysler and Ericsson.
+              <p>He was Executive Creative Director of JWT where he learned that a focused team can do it smarter, faster and more efficiently than huge ad conglomerates.
+              <p>Then, in 1999, Scott co-founded StrawberryFrog with Karin Drakenberg, Brian Elliott and with Uli Wisendsanger-the 'W' of TBWA-as Chairman. Their mission was to build a very rare kind of agency staffed with a very unique group of people, all focused on delivering "Total Engagement". An approach the team coined to describe the merger of advertising, content, entertainment and actions. And to this day, the agency has thrived developing work for some of the worlds most respected brands including Heineken, Diet Coke, Old Navy, Google, TBS, Asics Tiger, Sara Lee, Ikea, MTV, Mega Bloks and Mitsubishi Motors in  Europe.</div>
+              <p>Fortune Magazine recently named StrawberryFrog as one of the hottest new ad agencies in the United States. Fast Company named StrawberryFrog as on of the agencies to watch in the new year.
+              <p>&nbsp;</p>
+          </div>
+          <br style="clear: both;" />
+
+          <div><a name="mcg">
+              <h2 class="judge-name">McG</h2>
+              <h3 class="judge-title">Film/Television Director and Producer</h3>
+              <img alt="McG" src="../images/mcg.jpg" class="bio" />
+              <p>McG's feature film directorial debut, <i>Charlie's Angels</i>, boasts the biggest opening ever for a first-time director. The film debuted at No. 1 in the United States reaching total grosses over $250 million worldwide. McG also directed the sequel <i>Charlie's Angels: Full Throttle</i>, which went on to gross an additional $265 million. </p>
+              <p>With two hit films and over $500 million at the box office, McG formed a production company, Wonderland Sound and Vision, with producing partner Stephanie Savage. Wonderland has a first-look film deal with Columbia Pictures, a television deal with Warner Bros. and a record deal with Warner Music.
+              <p>In television, Wonderland produces the phenomenon <i>The OC</i> as well as the WB's new ratings darling <i>Supernatural</i>. Wonderland also produced <i>The Dan Finnerty Show</i> special that will air on Bravo this summer.
+            <p>McG got his start by producing records for rock group Sugar Ray, directing commercials for The Gap and Coca- Cola, and directing more than 50 music videos for diverse artists such as Sublime, Korn and Wyclef Jean. These music videos have contributed to the sale of over 100 million albums worldwide.  Wonderland released its first album <i>Music From The OC</i>, which has become the highest selling television soundtrack of this year.
+            <p><a href="http://www.imdb.com/name/nm0629334/">McG at IMDB</a></p>
+          </div>
+          <br style="clear: both;" />
+
+          <div><a name="rodriguez">
+              <h2 class="judge-name">Freddy Rodriguez</h2>
+              <h3 class="judge-title">Film/Television Actor</h3>
+              <img alt="Freddy Rodriguez" src="../images/rodriguez.jpg" class="bio" />
+              <p>Freddy Rodriguez recently ended a successful six-year run as a series regular on HBO's award-winning drama <i>Six Feet Under</i> as the artful mortician, 'Federico Diaz.' He is working on several feature films to be released soon. Rodriguez co-stars in the independent film <i>Harsh Times</i> opposite Christian Bale and Eva Longoria (who plays his girlfriend), directed by David Ayer (<i>Training Day</i>). <i>Harsh Times</i> is scheduled to be released in March 2006. Rodriguez will also co-star in Warner Brother's <i>Poseidon</i>, which is the remake of <i>The Poseidon Adventure</i>, opposite Kurt Russell and Richard Dreyfuss.</p>
+            <p>Recently, Rodriguez finished filming M. Night Shyamalan's <i>Lady in the Water</i> which is scheduled to be released July 2006. He just began filming the independent film <i>Bobby</i> this month with an all star cast which includes Demi Moore and Anthony Hopkins. Rodriguez also co-starred in New Line's drama <i>Havoc</i>, soon to be released on DVD, a modern day <i>West Side Story</i> (minus the music) opposite Ann Hathaway and Bijou Phillips. Steve Gaghan (<i>Traffic</i>) wrote the provocative story.
+            <p><a href="http://www.imdb.com/name/nm0735843/">Freddy Rodriguez at IMDB</p>
+          </div>
+          <br style="clear: both;" />
+
+          <div><a name="santini">
+              <h2 class="judge-name">Geo Santini</h2>
+              <h3 class="judge-title">Music Video Director</h3>
+              <img alt="Geo Santini" src="../images/santini.jpg" class="bio" />
+              <p>Geo Santini's passion for music and film began at an early age. By the time he reached his sophomore year of college, Santini had already learned to successfully combine music and film, adding his own unique style to the art of production. As a result, he landed his first directing project -- a music video for up-and-coming reggae artist Lexxus. The video became an instant success in the Caribbean, remaining at the top of the music charts for 10 weeks in a row. Due to its success, Lexxus was able to secure a record deal with the major reggae record label, VP Records. </p>
+              <p>Santini's successful music video earned him credibility among many hip-hop artists and spawned his career as a director. Santini went on to direct videos for many major hip hop artists and companies, including: Arista; Universal Music Group; Motown Records and more. </p>
+          </div>
+          <br style="clear: both;" />
+
+          <div><a name="younger">
+              <h2 class="judge-name">Ben Younger</h2>
+              <h3 class="judge-title">Film Director</h3>
+              <img alt="Ben Younger" src="../images/younger.jpg" class="bio" />
+              <p>Born and bred in New York, Ben Younger trained in the art of filmmaking by working as a grip on such feature films as <i>Walking and Talking</i> as well as numerous music videos. A graduate of Queens College with a degree in political science, Younger has worked as both a policy analyst and campaign manager. </p>
+              <p>A long ago job interview at a less-than-respectable brokerage house in Long Island became the inspiration for his first screenplay. At the age of 27, Younger wrote and directed his first film <i>Boiler Room</i> for New Line, starring Ben Affleck and Giovanni Ribisi. </p>
+              <p>Younger's latest project is <i>Prime</i>, which he wrote and directed in fall 2004, starring Uma Thurman and Meryl Streep.</p>
+              <p>An accomplished writer, as well as director, Younger has been published in The New Yorker and Talk and has sold a television pilot to ABC.
+               <p> <a href="http://www.imdb.com/name/nm0950226/">Ben Younger at IMDB</a></p>
+          </div>
+          <br style="clear: both;" />
+
+          <div><a name="zide">
+              <h2 class="judge-name">Warren Zide</h2>
+              <h3 class="judge-title">Film Producer</h3>
+              <img alt="Warren Zide" src="../images/zide.jpg" class="bio" />
+              <p>Warren Zide, the president/CEO of ScoreRunner and Matinee Pictures & Management, has forged a career in the film industry that epitomizes his entrepreneurial spirit.
+              <p>Zide is credited with starting the first literary management company devoted exclusively to the representation and management of screenwriters. He has since helped to build and accelerate the careers of well over 100 screenwriters. </p>
+              <p>Producer of such hits as Universal Pictures' <i>American Pie</i> three-picture franchise and New Line's <i>Final Destination</i> three-picture franchise, it took only seven films for Zide to achieve worldwide box office totals of over $1 billion.
+              <p><a href="http://www.imdb.com/name/nm0956015/">Warren Zide at IMDB</a></p>
+          </div>
+
+    </div>
+
+    <table width="" border="0" cellpadding="0" cellspacing="12">
+      <tr>
+        <td>
+          <p id="footer">Mozilla, Firefox, and the Mozilla and Firefox Logos are
+          trademarks or registered trademarks of the Mozilla Foundation. <br>
+          All other trademarks are property of their respective owners.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>

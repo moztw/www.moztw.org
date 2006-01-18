@@ -1,0 +1,246 @@
+/* 1) Main ********************************************************************** */
+
+body {
+	margin: 0 30px 2em 30px;
+	color: #333;
+	line-height: 140%;
+	background: #fff url(images/body_back.gif) repeat-x;
+	font-size: 0.9em;
+}
+
+body, td, th, h3, input { /* redundant rules for bad browsers  */
+	font-family: verdana, sans-serif;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+}
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+}
+#page {
+	padding: 2.15em 0 0 0;
+}
+#content {
+	margin: 0 0 0 0;
+	background: url(images/page-background.gif) repeat-x top left;
+}
+
+
+
+/* 2) Links********************************************************************** */
+
+a:link { color: #0033aa; }
+a:visited { color: #66A; }
+
+a:hover { color: #333; }
+a:active { color: #000; }
+
+
+
+/* 3) Mozilla ******************************************************************* */
+
+#mozilla-org {
+	position: relative;
+	height: 25px;
+}
+#mozilla-org a {
+	position: absolute;
+	right: 0; 
+	top: 0;
+	display: block;
+	width: 110px; 
+	height: 25px;
+	background: url(images/mozilla-org.gif) no-repeat;
+	text-decoration: none;
+	text-indent: -5000em;
+}
+
+/* 4) Header ******************************************************************** */
+
+#header {
+	clear: both;
+	position: relative;
+	margin: 10px 0 0 0;
+	height: 10px;
+}
+
+#header h1 {
+	position: absolute;
+	top: 0; 
+	left: 0;
+	margin: 0;
+}
+#header h1 a,#header h1 a:hover {
+	display: block;
+	width: 481px; height: 38px;
+	background: url(images/title.gif) no-repeat;
+	font-size: 1px;
+	text-indent: -7000em;
+	text-decoration: none;
+}
+
+#header form {
+	position: absolute;
+	top: 8px; 
+	right: 0;
+	font-family: tahoma, arial, sans-serif;
+	font-size: 85%;
+}
+#header form label {
+	font-weight: bold;
+}
+#header form .searchButton, #submit {
+	font-size: 100%;
+	padding: 1px;
+	font-family: tahoma, arial, sans-serif;
+}
+#header form #searchInput, #s {
+	width: 90px;
+	font-size: 100%;
+	font-weight: normal;
+	border:	1px solid #9097A2;
+	padding: 2px;
+	font-family: tahoma, arial, sans-serif;
+}
+
+/* Footer ****************************************************** */
+#footer {
+	clear: both;
+	background: url(images/page-background.gif) repeat-x top left;
+	margin: 10px 0 0 auto;
+	width: auto;
+	text-align: center;
+	font-size: 0.8em;
+}
+#footer ul {
+	margin: 0;
+	padding: 0;
+}
+#footer li {
+	display: inline;
+	list-style: none;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#footer #stickers {
+	padding-top: 20px;
+}
+#footer #stickers div {
+	display: inline;
+}
+#footer #stickers img {
+	border: none;
+}
+	
+	
+
+/* 5) Navigation **************************************************************** */
+
+#navigation {
+	margin: 0;
+	padding: 0;
+	background: #1e4176 url(images/sfx-hold-navigation-background.png) repeat-x bottom right; 
+	height: 70px;
+}
+#navigation div#bar {
+	padding: 0; 
+	margin: 0;
+	background: url(images/spreadfirefox-header-hold.png) no-repeat top left; 
+	height: 70px; 
+	white-space: nowrap; 
+}
+#navigation div#bar div {
+	position: relative;
+	padding: 0; 
+	margin: 0;
+	background: url(images/navigation-top-left.gif) no-repeat top left; 
+	height: 70px; 
+}
+#navigation div#bar div {
+	position: relative;
+	padding: 0; 
+	margin: 0;
+	background: url(images/navigation-top-right.gif) no-repeat top right; 
+	height: 70px; 
+}
+#navigation #contenttypes {
+	position: absolute;
+	bottom: 0; 
+	left: 0;
+	right: 10px;
+	margin: 0; 
+	padding: 0 0 0 0.7em;
+	list-style-type: none;
+	/*background: url(/images/navigation-bottom-left.gif) no-repeat bottom left; */
+}
+#navigation #contenttypes li {
+	margin: 0 2px 0 0; padding: 0; 
+	float: right;
+	background-image: url(images/tab-right.gif);
+	background-position: top right;
+	background-repeat: no-repeat;
+	height: 1.7em;
+}
+#navigation #contenttypes li.selected {
+	background-image: url(images/tab-right-selected.gif);
+}
+#navigation #contenttypes li a {
+	display: block;
+	font-family: verdana, arial, sans-serif;
+	text-decoration: none;
+	font-size: 85%;
+	font-weight: bold;
+	color: #fff;
+	height: 2em;
+	line-height: 2em;
+	background-image: url(images/tab-left.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+	padding: 0px 6px;
+	_width: 1%;
+}
+#navigation #contenttypes li.selected a {
+	color: #003366;
+	background-image: url(images/tab-left-selected.gif);
+}
+
+#navigation #personal {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 0; 
+	padding: 0 0.4em 0 0;
+	height: 1.8em;
+	list-style-type: none;
+	background: url(images/navigation-bottom-right.gif) no-repeat bottom right; 
+}
+#navigation #personal li {
+	margin: 0 4px;
+	padding: 0;
+	float: left;
+	line-height: 2em;
+}
+#navigation #personal a {
+	font-family: tahoma, arial, sans-serif;
+	font-size: 80%;
+	font-weight: bold;
+	color: #fff;
+	display: block;
+	text-decoration: none;
+	margin: 0;
+	_width: 1%;
+}
+#navigation #personal a:hover {
+	text-decoration: underline;
+}
+
+
+
+.hide {
+	display: none;
+}
+
+#printheader {
+	display: none;
+}

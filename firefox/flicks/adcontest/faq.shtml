@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+  <head>
+    <title>Firefox Flicks : Ad Contest : FAQ</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+
+      body           {width:100%; margin-right:0; margin-left:0; margin-top:0; font-family: verdana, san-serif;}
+      table          {margin-left:auto;margin-right:auto;}
+      td.header      {background-image: url('../images/header-adcontest2-bg.png'); background-repeat: repeat-x;}
+      #nav           {color: rgb(222,224,229); padding-bottom:5px; padding-right: 6px; font-size: 13px;}
+      #nav A:link    {text-decoration: none; color:rgb(222,224,229);}
+      #nav A:visited {text-decoration: none; color:rgb(222,224,229);}
+      #nav A:active  {text-decoration: none; color:rgb(222,224,229);}
+      #nav A:hover   {text-decoration: none; color:white; background-color: #2f3d58;}
+
+      #breadcrumbs           {color: #778397; font-size: 14px; font-weight:bold; margin-top: 11px; padding-left:1px;}
+      #breadcrumbs A:link    {text-decoration: none; color:#2A3C79;}
+      #breadcrumbs A:visited {text-decoration: none; color:#2A3C79;}
+      #breadcrumbs A:hover   {text-decoration: underline;}
+
+      img.bio {border: solid black 2px; float: right; margin: 0px 8px 15px 15px; width: 120px; height: 160px;}
+      img.sponsor {border: none; float: right;	margin: 0 0 15px 15px;}
+      p#footer  {text-align: center; font-size: x-small;}
+      h2  {font-size: 14px; font-weight: bold; color:#000; margin-bottom: 0;}
+      h3  {font-size: 14px; font-weight: bold; font-style: italic; color:#5D5D5D; margin-top:0;}
+      .crunch   {font-size: small;}
+      p {margin-top:0;}
+
+
+
+    </style>
+  </head>
+
+  <body>
+    <div class="crunch">
+    <table width="770" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="header">
+          <img align="left" src="../images/header-adcontest2.png" width="317" height="71" alt="header" border="0" usemap="#Map">
+            <map name="Map" id="Map">
+              <area shape="rect" coords="3,3,335,68" href="../adcontest/" alt="Firefox Flicks Home">
+            </map>
+        </td>
+        <td class="header" align="right" valign="bottom">
+            <div id="nav">
+            <a title="Ad Contest Home" href="../adcontest/">Home</a> | <a title="Judges" href="../adcontest/judges.html">Judges</a> | <a title="Creative Brief" href="../adcontest/brief.html">Creative Brief</a> | <a title="Contest Rules" href="../adcontest/rules.html">Contest Rules</a> | <a title="Frequently Asked Questions" href="../adcontest/faq.html">FAQ</a> | <a title="Submit your ad" href="../adcontest/submit.php">Submit Ad</a>
+            </div>
+        </td>
+      </tr>
+    </table>
+
+    <table width="770" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <div id="breadcrumbs">
+			     <a href="../">Firefox Flicks</a> / <a href="../adcontest">Ad Contest</a> / FAQ </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+<br>
+<br>
+
+    <table width="770" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+			  <h2>Ad Contest Frequently Asked Questions</h2>
+			  <ol>
+          <li><a href="#1">How long does the contest last?</a></li>
+          <li><a href="#2">Can I submit more than one ad?</a></li>
+          <li><a href="#3">Can a team develop the ad?</a></li>
+          <li><a href="#4">Is the contest open to international entries?</a></li>
+          <li><a href="#5">What are the judging criteria?</a></li>
+          <li><a href="#6">Who are the judges?</a></li>
+          <li><a href="#7">What can I win?</a></li>
+          <li><a href="#8">How do I submit my ad and enter the contest?</a></li>
+          <li><a href="#9">What files do I need to submit?</a></li>
+          <li><a href="#10">How do I know you've received my ad?</a></li>
+          <li><a href="#11">Who can I contact if I have additional questions on the contest?</a></li>
+          <li><a href="#12">Can I submit an entry as a university project?</a></li>
+          <li><a href="#13">Can I use the Firefox name and logo in my ad?</a></li>
+          <li><a href="#14">Can I use 3rd party trademarks or copyrighted materials in my commercial?</a></li>
+          <li><a href="#15">Can I submit an ad in a language other than English?</a></li>
+          <li><a href="#16">How do I get high resolution Firefox name and logo artwork?</a></li>
+		    </ol>
+		    <br>
+			    <hr />
+			    <br>
+          <a name="1" id="1"></a>
+          <h3>How long does the contest last?</h3>
+          <p>December 21, 2005 through March 31, 2006. All entries must be received by 11:59 p.m. Pacific Time on March 31, 2006.
+           <a name="2" id="2"></a>
+          <h3>Can I submit more than one ad?</h3>
+          <p>Yes, you may enter as many times as you like, but you must fill out a new form for each entry.
+           <a name="3" id="3"></a>
+          <h3>Can a team develop the ad?</h3>
+          <p>Yes, however, only one prize will be awarded per entry.
+           <a name="4" id="4"></a>
+          <h3>Is the contest open to international entries?</h3>
+        <p>Yes. Please see the <a href="./rules.html">Contest Rules</a> for more information.
+           <a name="5" id="5"></a>
+          <h3>What are the judging criteria?</h3>
+          <p>Entries will be judged based on the following four criteria: 1) Concept (30%); 2) Production Quality (30%); 3) Script/Screenplay (20%); 4) Use of Firefox Logo, Name, or Tagline (10%); 5) Jingle or Soundtrack (10%).
+           <a name="6" id="6"></a>
+          <h3>Who are the judges?</h3>
+          <p>We've assembled an amazing panel of judges from advertising to both the big and small screens. See the <a href="../adcontest/judges.html">Judges page</a> for information.
+           <a name="7" id="7"></a>
+          <h3>What can I win?</h3>
+        <p>First, this is a great to get your work in front of a panel of expert judges from the film, television, and advertising world. As far as the package that will arrive on your doorstep, you could win a grand prize of either a $5,000 gift certificate to B&amp;H, the premier photo and video source for professionals, a 9X Media multi-screen display, or an AlienWare media PC. You can read more about our prizes and prize sponsors at the <a href="./prizes-sponsors.html">Prizes and Sponsors page</a>.
+           <a name="8" id="8"></a>
+          <h3>How do I submit my ad and enter the contest?</h3>
+          <p>To enter the contest, go to the <a href="../adcontest/submit.php">Ad Contest submission page</a>. Complete and submit the online registration form and using the tools provided on the Entry Page, submit your 30-second video ad.
+           <a name="9" id="9"></a>
+          <h3>What files do I need to submit?</h3>
+          <p>For initial consideration, you will need to upload a compressed, half-NTSC-resolution, full frame rate MPEG-4. When your entry is accepted, you will receive a confirmation email with instructions for mailing us the full-size media. Your final media should be uncompressed and full resolution -- minimum 720x480 DV or 720x486 NTSC, though HD formats are also accepted. In the event that we decide to broadcast the winning entries, the target broadcast format will be NTSC, so 29.97fps is preferred; however, 24/30fps is also acceptable.
+           <a name="10" id="10"></a>
+          <h3>How do I know you've received my ad?</h3>
+          <p>All entrants who submit ads will receive email confirmation with instructions for mailing in the full sized media. If you don't receive an email confirmation after submitting your ad (remember, it may take several hours to upload and register your ad), please contact us at ad-submissions@mozilla.com.
+           <a name="11" id="11"></a>
+          <h3>Who can I contact if I have additional questions on the contest?</h3>
+          <p>Should you have any additional questions on the contest, please contact us at <a href="mailto:ad-support@mozilla.com">ad-support@mozilla.com</a>.
+          <a name="12" id="12"></a>
+          <h3>Can I submit an entry as a university project?</h3>
+          <p>Absolutely! We think that Firefox Flicks is a great opportunity for students to participate in a real world, high visibility campaign with expert judges from the film, television, and advertising industries.
+          <a name="13" id="13"></a>
+          <h3>Can I use the Firefox name and logo in my ad?</h3>
+          <p>Yes. For the purposes of this contest, you may use the Firefox name and logo. For more information, see the <a href="http://www.mozilla.org/foundation/trademarks/policy.html">Mozilla Trademark Policy</a>.
+          <a name="14" id="14"></a>
+          <h3>Can I use 3rd party trademarks or copyrighted materials in my commercial?</h3>
+          <p>Not without permission from the owner of those materials.
+          <a name="15" id="15"></a>
+          <h3>Can I submit an ad in a language other than English?</h3>
+          <p>Yes. You may submit ads in languages other than English. For non-English ads, you will need to submit a full and accurate script or subtitles.
+          <a name="16" id="16"></a>
+          <h3>How do I get high resolution Firefox name and logo artwork?</h3>
+          <p>To receive high resolution copies of the Firefox name and logo artwork, please send mail to <a href="mailto:ad-support@mozilla.com?subject=Firefox Flicks Artwork Request&body=Name:&body=Address:&body=Intended Usage:&body=Resolution and Size Requirements:">ad-support@mozilla.com</a> with your full name, your address, the intended use, and the size and resolution required.
+        </td>
+
+       <td valign="top" align="center">
+          <h3>Contest Host</h3>
+          <a href="http://mozilla.com"><img src="../images/mozilla-corp.png" width="150" height="46" border="0"></a><br><br>
+
+          <br><br><h3>Prize Sponsor</h3>
+    	    <a href="http://9xmedia.com"><img src="../images/9xmedia-expand.jpg" width="105" height="63" border="0" /></a><br>
+
+    	    <br><br><br><h3>Grand Prizes</h3>
+    	    <a href="../adcontest/prizes-sponsors.html"><img src="../images/bh-giftcards-small.gif" border="0"></a><br><br>
+    	    <a href="../adcontest/prizes-sponsors.html"><img src="../images/9x-3-across-small.gif" border="0"></a><br><br>
+    	    <a href="../adcontest/prizes-sponsors.html"><img src="../images/alienware-dhs5-small.jpg" border="0"></a><br>
+
+    	     <br><br><br><h3>Friends of Flicks</h3>
+    	    <a href="http://www.celtx.com/"><img src="../images/celtx-logo-small.png" border="0"></a>
+    	    </td>
+      </tr>
+    </table>
+    </div>
+
+
+    <table width="" border="0" cellpadding="0" cellspacing="12">
+      <tr>
+        <td>
+          <p id="footer">Mozilla, Firefox, and the Mozilla and Firefox Logos are
+          trademarks or registered trademarks of the Mozilla Foundation. <br>
+          All other trademarks are property of their respective owners.
+          </p>
+        </td>
+      </tr>
+    </table>
