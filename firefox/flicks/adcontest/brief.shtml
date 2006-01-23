@@ -2,7 +2,7 @@
 
 <html>
   <head>
-    <title>Firefox Flicks : Ad Contest : Creative Brief</title>
+    <title>Firefox Flicks : 廣告賞 : 創意簡報</title>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <style type="text/css">
 
@@ -22,7 +22,9 @@
 
       img.bio {border: solid black 2px; float: right; margin: 0px 8px 15px 15px; width: 120px; height: 160px;}
       img.sponsor {border: none; float: right;	margin: 0 0 15px 15px;}
-      p#footer  {text-align: center; font-size: x-small;}
+      p.footer  {text-align: center; font-size: x-small;}
+      #bn {text-align: center; font-size: x-small;}
+      #bn li {display: inline;padding: 0 20px 0 0;margin: 0;white-space: nowrap;}
       h2  {font-size: 14px; font-weight: bold; color:#000; margin-bottom: 0;}
       h3  {font-size: 14px; font-weight: bold; font-style: italic; color:#5D5D5D; margin-top:0;}
       .crunch   {font-size: small;}
@@ -40,12 +42,12 @@
         <td class="header">
           <img align="left" src="../images/header-adcontest2.png" width="317" height="71" alt="header" border="0" usemap="#Map">
             <map name="Map" id="Map">
-              <area shape="rect" coords="3,3,335,68" href="../adcontest/" alt="Firefox Flicks Home">
+              <area shape="rect" coords="3,3,335,68" href="../adcontest/" alt="Firefox Flicks 首頁">
             </map>
         </td>
         <td class="header" align="right" valign="bottom">
             <div id="nav">
-            <a title="Ad Contest Home" href="../adcontest/">Home</a> | <a title="Judges" href="../adcontest/judges.html">Judges</a> | <a title="Creative Brief" href="../adcontest/brief.html">Creative Brief</a> | <a title="Contest Rules" href="../adcontest/rules.html">Contest Rules</a> | <a title="Frequently Asked Questions" href="../adcontest/faq.html">FAQ</a> | <a title="Submit your ad" href="../adcontest/submit.php">Submit Ad</a>
+            <a title="Ad Contest Home" href="../adcontest/">首頁</a> | <a title="幕後花絮 - Firefox Flicks 活動 Blog" href="../backstage">Blog</a> | <a title="評審團" href="../adcontest/judges.html">評審團</a> | <a title="創意簡報" href="../adcontest/brief.html">創意簡報</a> | <a title="參賽規則" href="../adcontest/rules.html">參賽規則</a> | <a title="常見問題" href="../adcontest/faq.html">常見問題</a> | <a title="提交作品" href="../adcontest/submit.php">提交作品</a>
             </div>
         </td>
       </tr>
@@ -55,7 +57,7 @@
       <tr>
         <td>
           <div id="breadcrumbs">
-            <a href="../">Firefox Flicks</a> / <a href="../adcontest">Ad Contest</a> / Creative Brief</div>
+            <a href="../">Firefox Flicks</a> / <a href="../adcontest">廣告賞</a> / 創意簡報</div>
         </td>
       </tr>
     </table>
@@ -64,93 +66,88 @@
     <table width="770" border="0" cellpadding="0" cellspacing="0">
       <tr>
         <td>
-          <h2>Project Description</h2>
-          <p>Create a 30-second ad, in any style (live action or animated,) that brings Firefox to life for the millions of Web users who have yet to discover Firefox and the better Web experience it delivers.
+          <h2>企劃說明</h2>
+          <p>創作一部 30 秒的廣告，可以用任何手法表現（真人演出或動畫表現等），目標是讓 Firefox 進入那些從未聽過它的網友的日常生活中，並傳達使用 Firefox 能獲得更佳網路體驗的意象。
 
-          <h2>Project Summary</h2>
-          <p>Mozilla seeks to expand awareness of Firefox among a broader audience for Web browsers: mainstream consumers who may have little knowledge of the value proposition for Firefox. To help increase awareness of Firefox among this target audience, Mozilla would like to produce a high-quality, innovative 30-second ad that introduces Firefox to mainstream Web users.
+          <h2>企劃概要</h2>
+          <p>Mozilla 想辦法要提升 Firefox 在廣大網路使用者間的知名度：主流消費者通常不太知道 Firefox 到底好在哪裡。為了提高這些廣告對象對 Firefox 的知名度，Mozilla 想要創作出一部高品質、充滿創意的 30 秒廣告，介紹 Firefox 給主流的網路使用者。
 
-          <p>In line with its history and orientation, Mozilla is opening up the creation of its initial advertising creative to film/TV/advertising/multimedia professionals, students and aspiring pros as part of the Firefox Flicks Ad Contest.
+          <p>與我們的歷史及方向一樣，Mozilla 把我們廣告創意開放給電影、電視、廣告及多媒體等領域的職業人士、學生和有抱負的業餘專家一同參與 Firefox 的廣告賞。
 
-          <h2>Target Audience</h2>
-          <p>The primary target audience for the Firefox advertising campaign are moderately experienced Web users, who are comfortable with using the Web but are not necessarily power users. These users understand how to download and install software, and use the Web for basic activities: reading news, web-based email, limited online shopping and banking. They may rely as much on the physical Yellow Pages as they do Yahoo! or Google. They may also have had negative experiences with the Web as a result of spyware, viruses and other Web nuisances. Yet they see the value in the Web, and so return. But they likely do not clearly understand how a Web browser can improve their Web experience.
+          <h2>廣告對象</h2>
+          <p>這次 Firefox 廣告活動的主要廣告對象為能輕鬆上網的一般使用者，而不只是進階使用者。這些使用者知道怎麼下載檔案、安裝軟體，會基本的網路活動：看看新聞、收發網頁郵件、偶爾透過網路購物或轉帳。這些人依賴 Yahoo! 或 Google 的程度可能和依賴電話簿差不多。他們可能因為網上充斥的間諜軟體 (spyware)、病毒和其他麻煩事而對上網抱持著負面的看法，然而等他們知道網路的好處後又回過頭來使用。但是他們並不知道何種瀏覽器才能改善他們的上網體驗。
 
-          <h2>Objective</h2>
-          <p>After watching the ad, the audience should be intrigued enough by Firefox to visit getfirefox.com to learn more.
+          <h2>廣告目的</h2>
+          <p>觀眾看了這部廣告後，應該要讓他們對 Firefox 產生足夠的好奇心，進而連上 getfirefox.com 瀏覽進一步的訊息。
 
-          <h2>Ad Perception/Tone/Guidelines</h2>
+          <h2>廣告的整體感覺、風格和指導原則</h2>
             <ol>
-              <li>Exciting, easy, simple, fun, modern, smart, cool, adventurous, young, empowering, helpful. We're sure there are other angles you can think of.
+              <li>有趣、輕鬆、簡單、現代、活潑、夠酷、大膽、有活力、有幫助的。我們相信你還能想到更多角度切入主題。
               <li>Ad should function more at brand level than at product features/benefits level.
-              <li>Ad can be in any style: live action, animated, etc.
-              <li>Don't overhype. If you have to, err on the side of subtlety, and let the audience connect the dots to get the message.
+              <li>可以用任何手法來呈現：真人演出、動畫…皆可。
+              <li>不要過份渲染(overhype)。 If you have to, err on the side of subtlety, and let the audience connect the dots to get the message.
               <li>Take risks. The brand is new. The product is one-year old. Be fresh.
               <li>Use these guidelines as very broad suggestions. We are most interested in seeing how creative you can be in expressing the core premise of Firefox: making the Web experience better for everyone, and getting that message out to mainstream Web users.
               <li>Entries must be submitted no later than midnight, March 31, 2006.
             </ol>
 
-          <h2>Key Messages</h2>
-          <p>You don't have to incorporate all of these messages or ideas. These are here to show you what we're interested in getting across. Pick and choose.
+          <h2>關鍵訊息</h2>
+          <p>底下的訊息或想法不一定要全部用到，但是這裡列出的訊息能讓你知道哪些是我們感興趣的主題，隨便選幾個用吧！
             <ol>
-              <li>Firefox offers a better way to experience the Web. It's secure, easy to use, and customizable.
+              <li>Firefox 提供更佳的網路體驗，安全、易用、個人化。
               <li>Having a choice in Web browsers matters.
               <li>The Web is too important to too many people to let a single company decide how we all get there.
               <li>The Web browser has a dramatic impact on the user's experience of the web.
             </ol>
 
-          <h3>More Information</h3>
-          <p>Contest overview:
+          <h3>其他相關資訊</h3>
+          <p>比賽簡介：
         <p><a href="http://www.firefoxflicks.com/adcontest">http://www.firefoxflicks.com/adcontest</a>
 
-          <p>Official Rules:
+         <p>比賽 Blog（這是英文網站）：
+          <p><a href="http://www.firefoxflicks.com/backstage">http://www.firefoxflicks.com/backstage</a>
+          
+          <p>官方規則：
         <p><a href="http://www.firefoxflicks.com/adcontest/rules.html">http://www.firefoxflicks.com/adcontest/rules.html</a>
 
-          <p>FAQ:
+          <p>常見問題集：
           <p><a href="http://www.firefoxflicks.com/adcontest/faq.html">http://www.firefoxflicks.com/adcontest/faq.html</a>
 
-          <p>Technical details for submissions:
+          <p>提交作品與技術細節：
         <p><a href="http://www.firefoxflicks.com/adcontest/submit.php">http://www.firefoxflicks.com/adcontest/submit.php</a>
 
-          <p>Judges:
+          <p>評審團：
           <p><a href="http://www.firefoxflicks.com/adcontest/judges.html">http://www.firefoxflicks.com/adcontest/judges.html</a>
-          <p>Prizes:
+          
+          <p>獎品介紹：
           <p><a href="http://www.firefoxflicks.com/adcontest/prizes-sponsors.html">http://www.firefoxflicks.com/adcontest/prizes-sponsors.html</a>
+          
+          <p>Firefox 背景資料：
+          <p><a href="http://www.firefoxflicks.com/adcontest/background.html">http://www.firefoxflicks.com/adcontest/background.html</a>
+
+        </td>
         </td>
 
-        <td valign="top" align="center">
-          <h3>Contest Host</h3>
-          <a href="http://mozilla.com"><img src="../images/mozilla-corp.png" width="150" height="46" border="0"></a><br><br>
-
-          <br><br><h3>Prize Sponsor</h3>
-    	    <a href="http://9xmedia.com"><img src="../images/9xmedia-expand.jpg" width="105" height="63" border="0" /></a><br>
-
-    	    <br><br><br><h3>Grand Prizes</h3>
-    	    <a href="../adcontest/prizes-sponsors.html"><img src="../images/bh-giftcards-small.gif" border="0"></a><br><br>
-    	    <a href="../adcontest/prizes-sponsors.html"><img src="../images/9x-3-across-small.gif" border="0"></a><br><br>
-    	    <a href="../adcontest/prizes-sponsors.html"><img src="../images/alienware-dhs5-small.jpg" border="0"></a><br>
-
-    	     <br><br><br><h3>Friends of Flicks</h3>
-    	    <a href="http://www.celtx.com/"><img src="../images/celtx-logo-small.png" border="0"></a>
-    	    </td>
-
       </tr>
-    </table>
-    </div>
-
+ </table>
 
     <table width="" border="0" cellpadding="0" cellspacing="12">
       <tr>
         <td>
-          <p id="footer">Mozilla, Firefox, and the Mozilla and Firefox Logos are
-          trademarks or registered trademarks of the Mozilla Foundation. <br>
-          All other trademarks are property of their respective owners.
-          </p>
-        </td>
-      </tr>
-    </table>
-
-
-
-
-    </body>
+	<p class="footer">Mozilla, Firefox 與 Mozilla 和 Firefox 的代表圖案均為 Mozilla Foundation 的商標或註冊商標。<br>
+          所有出現的其他商標為都分屬於其擁有者所有。
+    <br /><br />
+    <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a href="http://moztw.org/">Mozilla 正體中文/台灣</a></li>
+	   <li><a href="/about">聯絡資訊</a></li>
+   </ul>
+   <p class="footer">&copy; <abbr title="Mozilla Localization Project">MLP</abbr>: Traditional Chinese and <a href="http://www.mozilla.org/">Mozilla Foundation</a><br/>
+   Mozilla Taiwan 是 Mozilla Localization 的正體中文專案網站</p>
+	    </p>
+   	  </td>
+   	 </tr>
+ 	</table>
+ </div>
+</body>
 </html>

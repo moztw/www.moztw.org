@@ -22,7 +22,9 @@
 
       img.bio {border: solid black 2px; float: right; margin: 0px 8px 15px 15px; width: 120px; height: 160px;}
       img.sponsor {border: none; float: right;	margin: 0 0 15px 15px;}
-      p#footer  {text-align: center; font-size: x-small;}
+      p.footer  {text-align: center; font-size: x-small;}
+      #bn {text-align: center; font-size: x-small;}
+      #bn li {display: inline;padding: 0 20px 0 0;margin: 0;white-space: nowrap;}
       h2  {font-size: 14px; font-weight: bold; color:#000; margin-bottom: 0;}
       h3  {font-size: 14px; font-weight: bold; font-style: italic; color:#5D5D5D; margin-top:0;}
       .crunch   {font-size: small;}
@@ -40,12 +42,12 @@
         <td class="header">
           <img align="left" src="../images/header-adcontest2.png" width="317" height="71" alt="header" border="0" usemap="#Map">
             <map name="Map" id="Map">
-              <area shape="rect" coords="3,3,335,68" href="../adcontest/" alt="Firefox Flicks Home">
+              <area shape="rect" coords="3,3,335,68" href="../adcontest/" alt="Firefox Flicks 首頁">
             </map>
         </td>
         <td class="header" align="right" valign="bottom">
             <div id="nav">
-            <a title="Ad Contest Home" href="../adcontest/">Home</a> | <a title="Judges" href="../adcontest/judges.html">Judges</a> | <a title="Creative Brief" href="../adcontest/brief.html">Creative Brief</a> | <a title="Contest Rules" href="../adcontest/rules.html">Contest Rules</a> | <a title="Frequently Asked Questions" href="../adcontest/faq.html">FAQ</a> | <a title="Submit your ad" href="../adcontest/submit.php">Submit Ad</a>
+            <a title="Ad Contest Home" href="../adcontest/">首頁</a> | <a title="幕後花絮 - Firefox Flicks 活動 Blog" href="../backstage">Blog</a> | <a title="評審團" href="../adcontest/judges.html">評審團</a> | <a title="創意簡報" href="../adcontest/brief.html">創意簡報</a> | <a title="參賽規則" href="../adcontest/rules.html">參賽規則</a> | <a title="常見問題" href="../adcontest/faq.html">常見問題</a> | <a title="提交作品" href="../adcontest/submit.php">提交作品</a>
             </div>
         </td>
       </tr>
@@ -55,7 +57,7 @@
       <tr>
         <td>
           <div id="breadcrumbs">
-            <a href="../">Firefox Flicks</a> / <a href="../adcontest">Ad Contest</a> / Entries</div>
+            <a href="../">Firefox Flicks</a> / <a href="../adcontest">廣告賞</a> / 參賽作品</div>
         </td>
       </tr>
     </table>
@@ -63,9 +65,27 @@
     <div class="crunch">
     <table width="770" border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td>No entries yet!</td>
+        <td>還沒有參賽作品！</td>
       </tr>
     </table>
-
-  </body>
+    
+    
+    <table width="" border="0" cellpadding="0" cellspacing="12">
+      <tr>
+        <td>
+	<p class="footer">Mozilla, Firefox 與 Mozilla 和 Firefox 的代表圖案均為 Mozilla Foundation 的商標或註冊商標。<br>
+          所有出現的其他商標為都分屬於其擁有者所有。
+    <br /><br />
+    <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a href="http://moztw.org/">Mozilla 正體中文/台灣</a></li>
+	   <li><a href="/about">聯絡資訊</a></li>
+   </ul>
+   <p class="footer">&copy; <abbr title="Mozilla Localization Project">MLP</abbr>: Traditional Chinese and <a href="http://www.mozilla.org/">Mozilla Foundation</a><br/>
+   Mozilla Taiwan 是 Mozilla Localization 的正體中文專案網站</p>
+	    </p>
+   	  </td>
+   	 </tr>
+ 	</table>
+</body>
 </html>

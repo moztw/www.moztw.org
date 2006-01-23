@@ -46,7 +46,7 @@
             </map>
         </td>
         <td class="header" align="right" valign="bottom">
-		<div id="nav"> <a title="Mozilla Taiwan 首頁" href="http://moztw.org/">Mozilla Taiwan </a> | <a href="../testimonials/" title="Firefox Flicks" target="_self">推推樂首頁</a> | <a href="http://video2.spreadfirefox.com" target="_self">「推推樂」工具</a> | <a href="rules.html" title="Firefox Flicks Testimonials" target="_self">參賽規則</a> | <a href="faq.html" title="Firefox Flicks Testimonials" target="_self">常見問題</a> </div></td>
+		<div id="nav"> <a href="../testimonials/" title="Firefox Flicks" target="_self">推推樂首頁</a> | <a href="http://video2.spreadfirefox.com" target="_self">「推推樂」工具</a> | <a href="rules.html" title="Firefox Flicks Testimonials" target="_self">參賽規則</a> | <a href="faq.html" title="Firefox Flicks Testimonials" target="_self">常見問題</a> </div></td>
       </tr>
     </table>
     <table width="770" border="0" cellpadding="0" cellspacing="0">
