@@ -239,7 +239,7 @@ function hidden_descript(obj) {
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="ScrapBook" value="http://moztw.org/dls/xpi/ScrapBook_0.13.7.xpi" type="checkbox">列入安裝清單</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="ScrapBook" value="http://forum.moztw.org/download.php/3305/files/scrapbook_0185_193.xpi" type="checkbox">列入安裝清單</label>
 	</div>
 	<blockquote>「逛網拍、看到好文時，狂抓 － 真幸福呀！￣▽￣」<cite>--社群成員 Chris</cite></blockquote>
 	<p>堪稱知識工作者必備套件，方便您擷取全部或部分網頁資料，並有方便的註解、標記、搜尋等功能。擷取下來的資料也可以離線閱讀或匯出供他人使用。</p>
@@ -294,7 +294,7 @@ function hidden_descript(obj) {
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="Download Statusbar" value="http://moztw.org/dls/xpi/sage-1.3-fx.xpi" type="checkbox">列入安裝清單</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Download Statusbar" value="http://forum.moztw.org/download.php/3309/files/downbar_094_617.xpi" type="checkbox">列入安裝清單</label>
 	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="Download Status Bar" value="http://moztw.org/dls/xpi/downbar0.9.2.xpi" type="checkbox" onclick="return checkDup(5, this.name)">原文版</label>-->
 	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="Download Status Bar 中文修改版" value="http://forum.moztw.org/download.php?id=637" type="checkbox" onclick="return checkDup(5, this.name)">中文修改版</label>-->
 	</div>
