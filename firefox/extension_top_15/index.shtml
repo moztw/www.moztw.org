@@ -1,4 +1,4 @@
-<!--#include virtual="/inc/meta.html" -->
+﻿<!--#include virtual="/inc/meta.html" -->
 <title>Firefox 擴充套件 Top 15</title>
 <style type='text/css'>
     <!--
@@ -177,7 +177,7 @@ function hidden_descript(obj) {
 	<blockquote>「有了它，幾乎所有動作都可以滑鼠手勢解決。」<cite>--社群成員 hemiola</cite></blockquote>
 	<p>按住滑鼠右鍵劃出上下左右，就能夠控制 Firefox 的許多功能(如上一頁、下一頁等)，也可自訂滑鼠手勢的功能。特別推薦想學哈利波特揮舞魔杖耍法術的朋友使用。</p>
 	</div>
-	<h3 id="tabmix">NO.6 Tab Mix Lite 0.5.10</h3>
+	<h3 id="tabmix">NO.6 Tab Mix Lite 1.5.10</h3>
 	<div class="extension-info">
 	<ul>
 		<li><a href="http://hemiolapei.free.fr/divers/tabmix/tabmixlite.html">套件網站</a></li>
