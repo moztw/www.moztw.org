@@ -9,6 +9,18 @@
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
 
+    <li><div class="date"> 11 月 30 </div>
+    Firefox 1.5 中文版與英文版已同步釋出，
+    歡迎立刻更新、加入 1.5 的世界！<br/>
+    <a href="http://moztw.org/firefox/release/"> 1.5 新鮮事請見此</a>
+    
+    <li><div class="date"> 11 月 30 </div>
+    Firefox 1.5 起亞洲地區 (臺灣 韓國 日本 中國)
+    改用 Yahoo 為預設搜尋引擎 (Google 仍在列表中供選用)，
+    詳情請見 
+    <a href="http://moztw.org/press/moztw-20051129.html">
+	官方新聞</a>。
+	
     <li><div class="date"> 11 月 23 </div>
     Firefox 1.5 正式版仍在進行最後的修正及檢查，<b>尚未發佈</b>。
     實際發佈時間未定，但可能在最近數週內完成。
