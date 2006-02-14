@@ -44,7 +44,7 @@
 
 <div id="mBody">
   <div class="frontcolumn">
-    <h2><a href="/thunderbird/">Thunderbird 1.0.6</a></h2>
+    <h2><a href="/thunderbird/">Thunderbird 1.5</a></h2>
     <a href="thunderbird"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
 	<p><a href="/thunderbird/">Thunderbird</a> 
 	是 Mozilla 家族新生代的 e-mail 程式，具有完整的功能，與最新的垃圾信控制。</p>
@@ -98,7 +98,7 @@
         <li>
           <a href="/netscape/" style="text-decoration: none;" title="由 MozTW 提供的 Netscape 非官方中文化版本">
             <img src="/images/netscape16.png" alt="Netscape icon" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">Netscape 7.2 及 8.0.4</span>
+            <span style="text-decoration: underline;">Netscape 7.2 及 8.1</span>
           </a>
         </li>
         <li>
