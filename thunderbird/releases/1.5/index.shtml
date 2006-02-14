@@ -45,7 +45,7 @@
 
       <h3 id="requirements">系統需求</h3>
       <p>在安裝 Thunderbird 前請先確定您的電腦合乎<a href="/docs/ff/system-requirements">系統需求</a>。
-      從 1.5 開始，MacOS X 用戶必須在 MacOX X 10.2 以上版本運行本程式。</p>
+      從 1.5 開始，Mac OS X 用戶必須在 MacOX X 10.2 以上版本運行本程式。</p>
 
       <h3 id="download"><a name="download">下載 Thunderbird</a></h3>
        <p>Mozilla 基金會提供 Windows 版、Linux 版和 Mac OS X 版的 Thunderbird。</p>
@@ -59,7 +59,7 @@
       <p>下載 Thundbird 安裝程式或壓縮檔後，請依下列步驟進行安裝：</p><br>                           
       <h3>Windows</h3>
     <p>以滑鼠左鍵雙點 <tt class="filename">Thunderbird Setup 1.5.exe</tt> 安裝程式圖示以開始安裝。</p>
-    <h3>MacOS X</h3>
+    <h3>Mac OS X</h3>
     <p>下載 Thunderbird 1.5.dmg 檔後，請雙點 Thunderbird 磁碟映像檔圖示以便開啟於 Finder 中，隨後將 Thunderbird 應用程式拖曳至您的硬碟中。<strong>請不要直接雙點磁碟映像檔中的圖示！</strong>一定要將 Thunderbird相關檔案拖進硬碟後才執行。您亦可將圖示拖曳至 Dock 上方便取用。</p>
       <h3>其他系統</h3>
       <p>解壓縮下載回來的壓縮檔後執行 <tt>thunderbird</tt></p>
@@ -69,7 +69,7 @@
       <h3>Windows</h3>
 		<p>選擇「<kbd>開始＞控制台</kbd>」，當控制台出現時，請以滑鼠左鍵雙點「<kbd>新增或移除程式</kbd>」， 
 		然後在清單中找到「<kbd>Mozilla Thunderbird (1.5)</kbd>」並按下「<kbd>移除</kbd>」。</p>
-      <h3>MacOS X</h3>
+      <h3>Mac OS X</h3>
 		<p>將 <tt class="filename">Thunderbird</tt> 程式拖曳至垃圾桶。</p>
       <h3>其他系統</h3>
       <p>移除 <tt class="filename">thunderbird</tt> 資料夾。</p>
@@ -93,7 +93,7 @@
           <td>Windows\Application Data\Mozilla Thunderbird</td>
         </tr>
         <tr>
-          <td><img src="../../../images/ico-osx.png" alt=""> MacOS X</td>
+          <td><img src="../../../images/ico-osx.png" alt=""> Mac OS X</td>
           <td>~/Library/Thunderbird</td>
         </tr>
         <tr>
@@ -151,7 +151,7 @@
     
       </ul>
           
-      <h3>MacOS X</h3>
+      <h3>Mac OS X</h3>
       <ul>
        <li>
         <strong>不要由磁碟映像檔中直接啟動 Thunderbird！</strong>這麼一來 Thunderbird 可能會不斷重新啟動（症狀是 Thunderbird 圖示在 Dock 中不斷跳起、消失再出現）。若要從不斷啟動的情形中終止 Thunderbird，請開啟
