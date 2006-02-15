@@ -77,9 +77,9 @@
 
     <ul class="news" style="margin-left: 10px;">
         <li>
-	<a href="/beta/" style="text-decoration: none;" title="想試試最新的 Firefox? 歡迎幫忙測試! [不建議新手使用]">
-            <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">Beta 測試版專區</span>
+          <a href="/camino/" style="text-decoration: none;" title="Mozilla 的威力、Mac 的風格">
+            <img src="/images/camino16.gif" alt="Camino" style="vertical-align: middle;" height="16" width="16">
+            <span style="text-decoration: underline;">Camino 1.0</span>
           </a>
         </li>
         <li>
@@ -105,6 +105,12 @@
           <a href="/dl/" style="text-decoration: none;">
             <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
             <span style="text-decoration: underline;">軟體列表...</span>
+          </a>
+        </li>
+        <li>
+	<a href="/beta/" style="text-decoration: none;" title="想試試最新的 Firefox? 歡迎幫忙測試! [不建議新手使用]">
+            <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
+            <span style="text-decoration: underline;">Beta 測試版專區</span>
           </a>
         </li>
     </ul>   

@@ -7,7 +7,7 @@
     <div id="product-desc" class="product-camino">
 	<h2>Camino: Mozilla 的威力、Mac 的風格</h2>
 	<p>
-	能代替 Mozilla Firefox 的另一個 Mac OS X 瀏覽器再進化！Camino 0.8 增加了許多方便新功能、更快的效能、更佳的穩定性及改良後的佈局引擎。
+	能代替 Mozilla Firefox 的另一個 Mac OS X 瀏覽器再進化！ Camino 1.0 增加了許多方便新功能、更快的效能、更佳的穩定性及改良後的佈局引擎。
 	</p>
     </div>
     <div id="product-side">
@@ -15,12 +15,12 @@
 		<h3>免費下載</h3>
 		   Mac OS X 專用<br>
 		<ul>
-		<li><a href="http://download.mozilla.org/?product=firefox-1.0.4&os=osx&lang=zh-TW" title="MD5: 57abafd2b9e459ecfae0941f465f7abd"> 0.8.4 國際版 (8.7M) </a>
+		<li><a href="http://www.caminobrowser.org/download/releases/1.0-MultiLang/"> 1.0 國際版 (19.5 MB) </a>
 		</ul>
-		<p>國際版包含了正體中文在內的 17 種語言。</p>
+		<p>國際版<s>包含了正體中文在內的</s> 14 種語言。(Note: it does not include Traditional Chinese or Simplified Chinese)</p>
 		</div><ul>
 	    <li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
-	    <li><a class="ancilliaryLink" href="/firefox/release">版本資訊</a></li>
+	    <li><a class="ancilliaryLink" href="/camino/release">版本資訊</a></li>
 	</ul>
 
     </div>
@@ -53,24 +53,24 @@
 <div id="side" class="right">
     <h3>系統需求</h3>
     <ul class="compact">
-	<li>Mac OS X 10.1.5 或更新版本</li>
-    <li>Mac OS X 10.1.5 的使用者需要下載 MRJPlugin 以使 Java 能正常使用</li>
+	<li>Mac OS X 10.2 或更新版本</li>
     <li>128 MB 記憶體</li>
-    <li>30 MB 可用的磁碟空間</li>
-    <li>0.9a1 與逐日建製版需要 Mac OS X 10.2 或更高版本</li>
+    <li>50 MB 可用的磁碟空間</li>
+    <li>Camino 1.0 is a universal binary and runs natively on both PowerPC- and Intel-based Macs.</li>
 	</ul>
 	
     <h3>其它資源與鏈結</h3>
     <ul class="compact">
-	<li><a href="http://update.mozilla.org/?application=firefox">查閱釋出備註(Release Notes)</a></li>
+	<li><a href="http://www.caminobrowser.org/">Camino 官方</a></li>
+	<li><a href="http://www.caminobrowser.org/releases/1.0.php">查閱釋出備註(Release Notes)</a></li>
 	<li><a href="http://www.mozilla.org/support/firefox/">下載外掛程式</a></li>
-	<li><a href="http://www.spreadfirefox.com/">Camino 本地化專案</a></li>
-	<li><a href="http://forums.mozillazine.org/viewforum.php?f=38">MozTW Camino 討論區</a></li>
-	<li><a href="http://forums.mozillazine.org/index.php?c=4">問題回報與官方討論區(英)</a></li>
+	<li><a href="http://caminol10n.mozdev.org/">Camino 本地化專案</a> (Camino Localization Project)</li>
+	<li><a href="http://forum.moztw.org/viewforum.php?f=35">MozTW Camino 討論區</a></li>
+	<li><a href="http://forums.mozillazine.org/viewforum.php?f=12">問題回報與官方討論區(英)</a></li>
     </ul>
 
-    <h3>Camino 是技術預覽版</h3>
-    <p>Camino 為「技術預覽」版。即使本軟體性能良好，在大多數情形下足以成為您的主要瀏覽器，但我們不對其性能與可靠性做任何保證。這是尚未完工的版本，不應在重要關鍵作業上使用。詳情請見 [授權協議]。</p>
+    <h3>Mac OS X 10.1 users</h3>
+    <p>Users of Mac OS X 10.1 should download <a href="http://www.caminobrowser.org/download/releases/0.8.4/">Camino 0.8.4</a> and the <a href="ftp://ftp.mozilla.org/pub/mozilla.org/camino/releases/MRJPlugin.gz">MRJplugin</a>.</p>
     </div>
 </div>
 <!--#include virtual="/inc/footer.html" -->
