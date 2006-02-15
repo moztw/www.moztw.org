@@ -152,10 +152,14 @@
 
 <div id="side" class="right">
 	<h3>關於 Firefox 1.5 Beta/RC</h3>
+			<p>Firefox 1.5 正式版已經釋出 (29 Nov 2005)。</p>
 			<p>Firefox 1.5 正式版預計於今年底推出，目前測試版提供擴充套件作者及網頁設計師測試相容問題，其他相關資訊請見 <a href="http://developer.mozilla.org/en/docs/Firefox_1.5_Beta_for_Developers">Mozilla Developer Center</a> 上的文章。</p>
-			<h3>關於 Thunderbird 1.5 Beta/RC</h3>
-					<p>Thunderbird 1.5 正式版推出時間未定，目前測試版提供擴充套件作者及社群成員測試相容及使用問題，其他相關資訊請見 <a href="http://www.mozilla.org/products/thunderbird/releases/1.5beta1.html">Thunderbird 1.5 Beta 1 Release Note</a> 上的文章。</p>	
-					<h3>其他資訊</h3>
+	<h3>關於 Thunderbird 1.5 Beta/RC</h3>
+			<p>Thunderbird 1.5 正式版已經釋出 (11 Jan 2006)。</p>
+			<p>Thunderbird 1.5 正式版推出時間未定，目前測試版提供擴充套件作者及社群成員測試相容及使用問題，其他相關資訊請見 <a href="http://www.mozilla.org/products/thunderbird/releases/1.5beta1.html">Thunderbird 1.5 Beta 1 Release Note</a> 上的文章。</p>	
+	<h3>其他資訊</h3>
+			<p>Camino 1.0 正式版已經釋出 (14 Feb 2006)。</p>
+			<p>SeaMonkey 1.0 正式版已經釋出 (31 Jan 2006)。</p>
     <ul class="compact">
 	<li><a href='http://forum.moztw.org/viewtopic.php?t=10481'>
 	Firefox 1.5 beta 1: 新鮮事
