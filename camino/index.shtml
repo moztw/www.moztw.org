@@ -17,7 +17,7 @@
 		<ul>
 		<li><a href="http://www.caminobrowser.org/download/releases/1.0-MultiLang/"> 1.0 國際版 (19.5 MB) </a>
 		</ul>
-		<p>國際版<s>包含了正體中文在內的</s> 14 種語言。(Note: it does not include Traditional Chinese or Simplified Chinese)</p>
+		<p>國際版包含了 14 種語言。 <small>(不包含繁體中文或簡體中文)</small><br />您可以安裝<a href="http://applewoods.org/files/Camino10zhTW_installer.zip">Camino 1.0 繁體中文套件</a>*</p>
 		</div><ul>
 	    <li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
 	    <li><a class="ancilliaryLink" href="/camino/release">版本資訊</a></li>
@@ -56,21 +56,25 @@
 	<li>Mac OS X 10.2 或更新版本</li>
     <li>128 MB 記憶體</li>
     <li>50 MB 可用的磁碟空間</li>
-    <li>Camino 1.0 is a universal binary and runs natively on both PowerPC- and Intel-based Macs.</li>
+    <li>Camino 1.0 已是 Universal Binary 程式，可在 PowerPC 與 Intel-based 的麥金塔電腦上使用。</li>
 	</ul>
 	
     <h3>其它資源與鏈結</h3>
     <ul class="compact">
 	<li><a href="http://www.caminobrowser.org/">Camino 官方</a></li>
-	<li><a href="http://www.caminobrowser.org/releases/1.0.php">查閱釋出備註(Release Notes)</a></li>
-	<li><a href="http://www.mozilla.org/support/firefox/">下載外掛程式</a></li>
+	<li><a href="http://www.caminobrowser.org/releases/1.0.php">查閱釋出備註 (Release Notes)</a></li>
+	<li><a href="http://www.caminobrowser.org/support/docs/search/">自訂搜尋引擎</a></li>
+	<li><a href="http://www.caminobrowser.org/support/docs/shortcuts/">鍵盤快速鍵</a></li>
 	<li><a href="http://caminol10n.mozdev.org/">Camino 本地化專案</a> (Camino Localization Project)</li>
 	<li><a href="http://forum.moztw.org/viewforum.php?f=35">MozTW Camino 討論區</a></li>
-	<li><a href="http://forums.mozillazine.org/viewforum.php?f=12">問題回報與官方討論區(英)</a></li>
+	<li><a href="http://forums.mozillazine.org/viewforum.php?f=12">問題回報與官方討論區</a> (英)</li>
     </ul>
 
-    <h3>Mac OS X 10.1 users</h3>
-    <p>Users of Mac OS X 10.1 should download <a href="http://www.caminobrowser.org/download/releases/0.8.4/">Camino 0.8.4</a> and the <a href="ftp://ftp.mozilla.org/pub/mozilla.org/camino/releases/MRJPlugin.gz">MRJplugin</a>.</p>
+    <h3>Mac OS X 10.1 使用者</h3>
+    <p>使用 Mac OS X 10.1 的使用者應下載 <a href="http://www.caminobrowser.org/download/releases/0.8.4/">Camino 0.8.4</a> 及 <a href="ftp://ftp.mozilla.org/pub/mozilla.org/camino/releases/MRJPlugin.gz">MRJplugin</a>.</p>
+
+    <h3>* 關於 Camino 1.0 繁體中文套件</h3>
+    <p>Camino 1.0 繁體中文套件是由 <a href="http://applewoods.org/">applewoods</a> 提供，若須更多關於此套件的資訊，請參閱<a href="http://applewoods.org/archives/2006/02/camino_10_localization.php">此篇文章</a>。</p>
     </div>
 </div>
 <!--#include virtual="/inc/footer.html" -->
