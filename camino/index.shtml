@@ -62,6 +62,7 @@
     <h3>其它資源與鏈結</h3>
     <ul class="compact">
 	<li><a href="http://www.caminobrowser.org/">Camino 官方</a></li>
+	<li><a href="http://mac.sillydog.org/backup/camino_backup.php">Camino Backup 'QuickPick'</a> (備份 Camino 瀏覽器的資料)</li>
 	<li><a href="http://www.caminobrowser.org/releases/1.0.php">查閱釋出備註 (Release Notes)</a></li>
 	<li><a href="http://www.caminobrowser.org/support/docs/search/">自訂搜尋引擎</a></li>
 	<li><a href="http://www.caminobrowser.org/support/docs/shortcuts/">鍵盤快速鍵</a></li>
