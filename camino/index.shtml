@@ -17,7 +17,7 @@
 		<ul>
 		<li><a href="http://www.caminobrowser.org/download/releases/1.0-MultiLang/"> 1.0 國際版 (19.5 MB) </a>
 		</ul>
-		<p>國際版包含了 14 種語言。 <small>(不包含繁體中文或簡體中文)</small><br />您可以安裝<a href="http://applewoods.org/files/Camino10zhTW_installer.zip">Camino 1.0 繁體中文套件</a>*</p>
+		<p>國際版包含了 14 種語言。 <small>(不包含繁體中文或簡體中文)</small><br />您可以安裝 <a href="http://applewoods.org/files/Camino10zhTW_installer.zip">Camino 1.0 繁體中文套件</a><sup>*</sup></p>
 		</div><ul>
 	    <li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
 	    <li><a class="ancilliaryLink" href="/camino/release">版本資訊</a></li>
@@ -74,7 +74,7 @@
     <h3>Mac OS X 10.1 使用者</h3>
     <p>使用 Mac OS X 10.1 的使用者應下載 <a href="http://www.caminobrowser.org/download/releases/0.8.4/">Camino 0.8.4</a> 及 <a href="ftp://ftp.mozilla.org/pub/mozilla.org/camino/releases/MRJPlugin.gz">MRJplugin</a>.</p>
 
-    <h3>* 關於 Camino 1.0 繁體中文套件</h3>
+    <h3><sup>*</sup> 關於 Camino 1.0 繁體中文套件</h3>
     <p>Camino 1.0 繁體中文套件是由 <a href="http://applewoods.org/">applewoods</a> 提供，若須更多關於此套件的資訊，請參閱<a href="http://applewoods.org/archives/2006/02/camino_10_localization.php">此篇文章</a>。</p>
     </div>
 </div>
