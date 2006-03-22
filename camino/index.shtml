@@ -17,38 +17,41 @@
 		<ul>
 		<li><a href="http://www.caminobrowser.org/download/releases/1.0-MultiLang/"> 1.0 國際版 (19.5 MB) </a>
 		</ul>
-		<p>國際版包含了 14 種語言。 <small>(不包含繁體中文或簡體中文)</small><br />您可以安裝 <a href="http://applewoods.org/files/Camino10zhTW_installer.zip">Camino 1.0 繁體中文套件</a><sup>*</sup></p>
-		</div><ul>
-	    <li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
-	    <li><a class="ancilliaryLink" href="/camino/release">版本資訊</a></li>
-	</ul>
-
+		<p>國際版包含了 14 種語言，但尚未加入正體中文。<br /><sup>*</sup> 但您可以安裝 <a href="http://rt.openfoundry.org/Foundry/Project/Download/Attachment/56197/39375/Camino10zhTW_installer.zip">正體中文套件</a></p>
+		</div>
     </div>
 </div>
 <div id="mainContent" class="right">
     <h3>使用 Camino 的理由</h3>
-    <p>&ldquo;<strong>It's brisk, baby.</strong>&rdquo;<em> - <a href="http://gigaom.com/2005/06/25/camino-09-its-brisk-baby/">Om Malik</a> of Business 2.0</em></p>
+    <p>&ldquo;<strong><a href="http://gigaom.com/2005/06/25/camino-09-its-brisk-baby/">It's brisk, baby.</a></strong>&rdquo;<em> - Om Malik of Business 2.0</em></p>
     <p>&ldquo;<strong>Best. Browser. Ever.</strong>&rdquo;<em>- Justin Collins</em></p>
-    <p>&ldquo;<strong>Camino offers top-notch performance, elegant tabbed browsing, and an easy way to view and hide histories and bookmarks.</strong>&rdquo;<em> - John Rizzo, <a href="http://www.cnet.com/">c|Net</a></em></p>
+    <p>&ldquo;<strong><a href="http://www.cnet.com/">Camino offers top-notch performance, elegant tabbed browsing, and an easy way to view and hide histories and bookmarks.</a></strong>&rdquo;<em> - John Rizzo, c|Net</em></p>
     <dl id="features">
-	<dt>Gecko 佈局引擎</dt>
-	<dd>Camino 使用與 Firefox 相同的 Gecko 佈局引擎，支援最新的 W3C 標準，能給您最佳的瀏覽體驗。</dd>
+	<dt>世界最棒的佈局引擎</dt>
+	<dd>Camino 使用與 Firefox 相同的 Gecko 佈局引擎，不只顯示快速，還支援像 XML、XHTML、DOM、CSS 及 SVG 等最新 W3C 標準，和 QuickTime、Java、Flash、Shockwave 等 Plugins 也有更好的整合。</dd>
 	
-	<dt>Mac OS X 原生介面</dt>
-	<dd>Camino 以 Cocoa 使用者介面撰寫而成，並針對 Mac OS X 做了最佳化處理。能與 Mac OS X 緊密結合。</dd>
+	<dt>完美整合</dt>
+	<dd>Camino 和 Mac OS X 緊密結合。原生的 Cocoa 介面讓程式更有質感，符合整體操作環境。Camino 也能和 Spotlight、通訊錄、鑰匙圈、Finder、Dock、Bonjour、服務及系統偏好設定等一起協同使用。</dd>
 	
-	<dt>友善的操作介面</dt>
-	<dd>Camino 重新設計過的操作介面使瀏覽網路變的非常簡單，並內建所有新世代瀏覽器必備的分頁瀏覽與彈出型視窗阻擋等功能。<a href="/docs/ff/tabbed-browsing">相關資訊...</a></dd>
+	<dt>廣告視窗控制</dt>
+	<dd>Camino 能終結擾人的彈出型視窗和廣告，讓您上網興致更佳。內建的廣告阻擋技術讓您在茫茫網海中不易分心。Camino 會在狀態列上顯示圖示，您有興趣的廣告也能立即顯示。</dd>
 
-	<dt>方便的 Google 搜尋</dt>
-	<dd>在工具列中便已內建 Google 搜尋功能，讓您彈指之間找到您想要瀏覽的網站。</dd>
+	<dt>搜尋工具</dt>
+	<dd>現代網路瀏覽中，搜尋是最主要的功能。不論是整個網路或是單獨的網頁，Camino 都提供了有用的搜尋工具。工具列上能直接以 Google 或其他搜尋引擎搜尋，隨打即找讓您快速搜尋頁面中的文字，書籤管理員中也能搜尋瀏覽過的網站，在 Mac OS X 10.4 中更能用 Spotlight 搜尋。</dd>
 
-	<dt>隱私及安全</dt>
-	<dd>Camino 能讓您用簡單的方式管理或刪除您在網路上留下的 Cookies、歷史紀錄、快取及下載的檔案。</dd>
+	<dt>隱私權及安全工具</dt>
+	<dd>Camino 讓管理或刪除您在網路上留下的資訊變得更簡單。新的「重置 Camino」 鈕能瞬間消去所有資訊。Camino 的隱私權設定能讓您簡單的管理儲存在電腦中的 Cookie。支援額外的認證管理，更允許您對安全連線做進一步的控制。</dd>
 
-	<dt>更有效率</dt>
-	<dd>Camino 提供了方便的鍵盤快速鍵供您使用。遇上需要登入的網頁，Camino 也能自動幫您填入所需的登入資訊。</dd>
+	<dt>分頁瀏覽</dt>
+	<dd>分頁瀏覽讓您瀏覽網路變得更簡單。您可在單一視窗中開啟多個分頁，每個視窗中所開的分頁數也不受限制，甚至還能選擇要在前景或背景開啟網頁。</dd>
     </dl>
+  	<dt>下載檔案</dt>
+	<dd>Camino 的檔案下載非常友善，可顯示所有下載檔案的狀態、速度及剩餘時間。還提供像暫停、續傳等進一步的下載控制。</dd>
+    </dl>
+  	<dt>開放原始碼</dt>
+	<dd>Camino Project 是 100% 的開放原始碼軟體。任何人都能瀏覽程式原始碼，有問題也能快速修正，這就是為甚麼 Camino 這麼穩定和安全的原因。</dd>
+    </dl>
+
 </div>
 <div id="side" class="right">
     <h3>系統需求</h3>
@@ -56,17 +59,17 @@
 	<li>Mac OS X 10.2 或更新版本</li>
     <li>128 MB 記憶體</li>
     <li>50 MB 可用的磁碟空間</li>
-    <li>Camino 1.0 已是 Universal Binary 程式，可在 PowerPC 與 Intel-based 的麥金塔電腦上使用。</li>
+    <li>Camino 1.0 已是 Universal Binary 程式，PowerPC 或 Intel-based 的麥金塔電腦上都可使用。</li>
 	</ul>
 	
     <h3>其它資源與鏈結</h3>
     <ul class="compact">
-	<li><a href="http://www.caminobrowser.org/">Camino 官方</a></li>
-	<li><a href="http://mac.sillydog.org/backup/camino_backup.php">Camino Backup 'QuickPick'</a> (備份 Camino 瀏覽器的資料)</li>
-	<li><a href="http://www.caminobrowser.org/releases/1.0.php">查閱釋出備註 (Release Notes)</a></li>
-	<li><a href="http://www.caminobrowser.org/support/docs/search/">自訂搜尋引擎</a></li>
-	<li><a href="http://www.caminobrowser.org/support/docs/shortcuts/">鍵盤快速鍵</a></li>
-	<li><a href="http://caminol10n.mozdev.org/">Camino 本地化專案</a> (Camino Localization Project)</li>
+	<li><a href="http://www.caminobrowser.org/">Camino 官方網站 (英)</a></li>
+	<li><a href="http://www.caminobrowser.org/releases/1.0.php">1.0 版本資訊 (英)</a></li>
+	<li><a href="http://www.caminobrowser.org/support/docs/shortcuts/">鍵盤快速鍵 (英)</a></li>
+	<li><a href="http://www.caminobrowser.org/support/docs/search/">自訂搜尋引擎 (英)</a></li>
+	<li><a href="http://mac.sillydog.org/backup/camino_backup.php">Camino Backup 'QuickPick'</a> (快速備份 Camino 資料)</li>
+	<li><a href="http://caminol10n.mozdev.org/">Camino 本地化專案 (英)</a></li>
 	<li><a href="http://forum.moztw.org/viewforum.php?f=35">MozTW Camino 討論區</a></li>
 	<li><a href="http://forums.mozillazine.org/viewforum.php?f=12">問題回報與官方討論區</a> (英)</li>
     </ul>
@@ -75,7 +78,7 @@
     <p>使用 Mac OS X 10.1 的使用者應下載 <a href="http://www.caminobrowser.org/download/releases/0.8.4/">Camino 0.8.4</a> 及 <a href="ftp://ftp.mozilla.org/pub/mozilla.org/camino/releases/MRJPlugin.gz">MRJplugin</a>.</p>
 
     <h3><sup>*</sup> 關於 Camino 1.0 繁體中文套件</h3>
-    <p>Camino 1.0 繁體中文套件是由 <a href="http://applewoods.org/">applewoods</a> 提供，若須更多關於此套件的資訊，請參閱<a href="http://applewoods.org/archives/2006/02/camino_10_localization.php">此篇文章</a>。</p>
+    <p>Camino 1.0 繁體中文套件是由 <a href="http://applewoods.org/">applewoods</a>、Janus Ng 和 MozTW 共同提供，更多資訊請參閱<a href="http://applewoods.org/archives/2006/02/camino_10_localization.php">此篇文章</a>。</p>
     </div>
 </div>
 <!--#include virtual="/inc/footer.html" -->
