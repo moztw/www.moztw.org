@@ -8,6 +8,13 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+    <li><div class="date"> 2 月 14 </div>
+    <a href="http://moztw.org/camino/">Camino</a> 1.0 已經釋出，此版本修正了上百個錯誤和增加許多新功能。您可至 <a href="http://moztw.org/camino/">Camino 下載頁</a>取得正體中文套件。
+    <li><div class="date"> 2 月 9 </div>
+    Firefox 1.5.0.1 已經釋出，改善記憶體不斷耗用的問題，您可透過自動更新系統更新或下載完整安裝檔。<br/>
+    <a href="http://moztw.org/firefox/release/"> 1.5.0.1 新鮮事請見此</a>
+    <li><div class="date"> 1 月 31 </div>
+    SeaMonkey 1.0（前稱 Mozilla Suite）已經釋出，提供網路瀏覽、郵件收發、新聞群組閱覽、網頁編輯、IRC 聊天等全方位的網路瀏覽解決方案。</a>
 	<li><div class="date"> 1 月 23 </div>
     <a href="http://moztw.org/firefox/extension_top_15/">擴充套件 Top 15</a>現已支援 Firefox 1.5，
     歡迎各位多加利用。
