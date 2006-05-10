@@ -51,9 +51,9 @@
 	<small>最新的英文版是 1.5 版</small></p>
   </div>
   <div class="frontcolumn">
-    <h2><a href="/firefox/extension_top_15/">Firefox 擴充套件 Top 15</a></h2>
+    <h2><a href="/firefox/extension_top_15/">第二屆 Top 15 擴充套件票選</a></h2>
   <a href="/firefox/extension_top_15/"><img src="/images/extension50.png" alt="Extension Top 15" class="promo" width="50" height="50"></a>
-  <p>歷經三個星期的提名及票選，最後十五名脫穎而出的擴充套件名單及介紹出爐！</p>
+  <p>2006 年最新社群嚴選擴充套件出爐！</p>
     
   </div>
   <div class="frontcolumnlast">
@@ -80,7 +80,7 @@
         <li>
           <a href="/camino/" style="text-decoration: none;" title="Mozilla 的威力、Mac 的風格">
             <img src="/images/camino16.gif" alt="Camino" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">Camino 1.0</span>
+            <span style="text-decoration: underline;">Camino 1.0.1</span>
           </a>
         </li>
         <li>
