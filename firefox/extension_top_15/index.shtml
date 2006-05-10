@@ -11,8 +11,8 @@
 
 <script type="application/x-javascript">
 var dupArray=new Array(
+	["Super Drag and Go","Super Drag and Go 中文修改版"],
 	["Web Developer","Web Developer 中文修改版"],
-	["Super Drag and Go","Super Drag and Go 中文修改版"]
 	); 
 // 相衝套件 name, 這個可以設定多組, 應該要讓 Script 自己去 
 // assign event handler 給每個 input 比較有效率, 以後再說吧
