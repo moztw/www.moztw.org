@@ -108,8 +108,8 @@ function hidden_descript(obj) {
 	<h3 id="tongwen">No.2 New Tong Wen Tang 新同文堂  0.2.9.4.5</h3>
 	<div class="extension-info">
 	<ul>
-		<li><a href="http://forum.moztw.org/viewtopic.php?p=23891">套件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=12022">相關討論</a></li>
+		<li><a href="http://rt.openfoundry.org/Foundry/Project/Download/?Queue=333">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?p=19073">相關討論</a></li>
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
@@ -248,7 +248,7 @@ function hidden_descript(obj) {
 	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="Show Image" value="http://forum.moztw.org/download.php/3307/files/showimage-0.4.1_981.xpi" type="checkbox">列入安裝清單</label>
 	</div>
-	<blockquote>「如果你沒裝這個外掛，會覺得 Firefox 像是斷了隻腳」<cite>--社群成員 Sheng</cite></blockquote>
+	<blockquote>「如果你沒裝這個套件，會覺得 Firefox 像是斷了隻腳」<cite>--社群成員 Sheng</cite></blockquote>
 	<p>這個套件可以在 Firefox 的右鍵選單中加上 Show Image 的功能，讓你在發現 Firefox 讀取漏掉／失敗某張圖片時不用大費周章的按下 Reload 重新來過。</p>
 	</div>
 	<h3 id="pcman">No.13 PCMan Plug-in for Mozilla/Firefox 1.0.5</h3>
