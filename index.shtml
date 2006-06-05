@@ -28,7 +28,7 @@
   <div id="feature-content">
     <h2><a href="/firefox/"><img src="images/firefox-15-headline.png" alt="Firefox 1.5" height="51" width="219"></a></h2>
     <p>現在就下載 Firefox 中文版 － <a href="/firefox/">更快更好的瀏覽器</a>！
-    Firefox 有二十多種語言的版本、並可在 Windows、MacOS X 及 Linux 
+    Firefox 有二十多種語言的版本、並可在 Windows、Mac OS X 及 Linux 
     等各種平台執行。 
     <a href="http://ptech.wsj.com/archive/ptech-20041230.html">
     「Firefox 的安全性及超酷特色勝過 Microsoft 的 IE」</a> - Walt Mossberg, 華爾街日報
@@ -48,7 +48,7 @@
     <a href="thunderbird"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
 	<p><a href="/thunderbird/">Thunderbird</a> 
 	是 Mozilla 家族新生代的 e-mail 程式，具有完整的功能，與最新的垃圾信控制。<br />
-	<small>最新的英文版是 1.5 版</small></p>
+	<small>最新的英文版是 1.5.0.4 版 (<a href="http://forum.moztw.org/viewtopic.php?t=14364">討論</a>)</small></p>
   </div>
   <div class="frontcolumn">
     <h2><a href="/firefox/extension_top_15/">第二屆 Top 15 擴充套件票選</a></h2>
