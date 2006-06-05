@@ -27,7 +27,7 @@
       <h2 id="downloadandinstall">下載與安裝</h2>
 
       <h3 id="requirements">系統需求</h3>
-      <p>在安裝 Firefox 前請先確定您的電腦合乎<a href="/docs/ff/system-requirements">系統需求</a>。從 1.5 開始，MacOS X 用戶必須在 Mac OS X 10.2 以上版本執行本程式。</p>
+      <p>在安裝 Firefox 前請先確定您的電腦合乎<a href="/docs/ff/system-requirements">系統需求</a>。從 1.5 開始，Mac OS X 用戶必須在 Mac OS X 10.2 以上版本執行本程式。</p>
 
       <h3 id="download"><a name="download">下載 Firefox</a></h3>
       <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上多種語言版的 Firefox。欲下載最新的 Firefox，可於<a href="http://getfirefox.com/">產品首頁</a>或到 <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/">FTP</a> 下載。若想自行編譯其他不支援的平台或語言，請見本文件最末節。</p>
@@ -37,7 +37,7 @@
       <h3>Windows</h3>
     <p>以滑鼠左鍵雙點 <tt class="filename">Firefox Setup 1.5.0.4.exe</tt> 安裝程式圖示以開始安裝。</p>
 
-    <h3>MacOS X</h3>
+    <h3>Mac OS X</h3>
     <p>下載 Firefox 1.5.0.4.dmg 檔後，請雙點 Firefox 磁碟映像檔圖示以便開啟於 Finder 中，隨後將 Firefox 應用程式拖曳至您的硬碟中。<strong>請不要直接雙點磁碟映像檔中的圖示！</strong>一定要將 Firefox 相關檔案拖進硬碟後才執行。您亦可將圖示拖曳至 Dock 上方便取用。</p>
     <h3>Linux/GTK2</h3>
     <p>請將下載回來的 tarball 檔解壓縮至您想要安裝 Firefox 的資料夾：
@@ -53,7 +53,7 @@
 <p>欲移除 Firefox，請依下列步驟操作：</p>
 <h3>Windows</h3>
 <p>選擇「<kbd>開始＞控制台</kbd>」，當控制台出現時，請以滑鼠左鍵雙點「<kbd>新增或移除程式</kbd>」， 然後在清單中找到「<kbd>Mozilla Firefox (1.5.0.4)</kbd>」並按下「<kbd>移除</kbd>」。</p>
-<h3>MacOS X</h3>
+<h3>Mac OS X</h3>
 <p>將 <tt class="filename">Firefox</tt> 程式拖曳至垃圾桶。</p>
 <h3>其他平台</h3>
 <p>移除 <tt class="filename">firefox</tt> 資料夾。</p>
@@ -77,7 +77,7 @@
           <td>Windows\Application Data\Mozilla\Firefox</td>
         </tr>
         <tr>
-          <td><img src="http://www.mozilla.org/images/ico-osx.png" alt=""> MacOS X</td>
+          <td><img src="http://www.mozilla.org/images/ico-osx.png" alt=""> Mac OS X</td>
           <td>~/Library/Application Support/Firefox</td>
         </tr>
         <tr>
@@ -181,9 +181,9 @@ Firefox 與其他 Mozilla 產品都使用相同的 Gecko 佈局引擎。如果�
 
 <h2><a name="troubleshooting">疑難排解</a></h2>
 <ul>  
-<li>設計不良或不相容的套件將導致瀏覽器發生問題，發生的問題包含當機或網頁瀏覽速度變慢等等。如果您遇到瀏覽器無法開啟、視窗顯示不正常等等奇怪的問題，您可能是遇到擴充套件或佈景主題的問題。將瀏覽器重新啟動在安全模式。在Windows下用「Safe Mode」捷徑或在命令列下<code>firefox.exe -safe-mode</code>指令。在Linux下執行<code>./firefox -safe-mode</code>指令。在MacOS X下
+<li>設計不良或不相容的套件將導致瀏覽器發生問題，發生的問題包含當機或網頁瀏覽速度變慢等等。如果您遇到瀏覽器無法開啟、視窗顯示不正常等等奇怪的問題，您可能是遇到擴充套件或佈景主題的問題。將瀏覽器重新啟動在安全模式。在Windows下用「Safe Mode」捷徑或在命令列下<code>firefox.exe -safe-mode</code>指令。在Linux下執行<code>./firefox -safe-mode</code>指令。在Mac OS X下
 <p><code>
-cd /Applications/Firefox.app/Contents/MacOS/<br>
+cd /Applications/Firefox.app/Contents/Mac OS/<br>
 ./firefox-bin -safe-mode
 </code></p>
 當啟動安全模式時，所有的擴充套件將停止使用，並使用預設的佈景主題。在安全模式下移除有問題的擴充套件/佈景主題，然後再正常的啟動瀏覽器。

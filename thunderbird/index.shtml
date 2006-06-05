@@ -76,10 +76,11 @@
 <div id="side" class="right">
     <h3>資源與鏈結</h3>
     <ul class="compact">
+    <li><a href="http://forum.moztw.org/viewforum.php?f=9">Thunderbird 討論區</a> (中文)</li>
 	<li><a href="http://update.mozilla.org/extensions/?application=thunderbird">取得擴充套件</a></li>
 	<li><a href="http://update.mozilla.org/themes/?application=thunderbird">取得佈景主題</a></li>
 	<li><a href="http://www.mozilla.org/products/thunderbird/buttons.html">推廣用按鈕圖</a></li>
-	<li><a href="http://www.mozillazine.org/">MozillaZine (英)</a></li>
+	<li><a href="http://forums.mozillazine.org/viewforum.php?f=39">MozillaZine Thunderbird Support Forum(英)</a></li>
 	<li><a href="http://www.mozilla.org/support/thunderbird/faq">FAQ (英)</a></li>
 	<li><a href="http://www.mozilla.org/support/thunderbird/">Thunderbird Help (英)</a></li>
     </ul>
@@ -88,6 +89,9 @@
 	<li>Mozilla Thunderbird 最新的正體(繁體)中文版是 1.0.6 版</li>
     <li>最新的英文版是 1.5.0.4 版 (<a href="http://forum.moztw.org/viewtopic.php?t=14364">討論</a>)</li>
     </ul>
+    <ul class="compact">
+	<li>Thunderbird 1.5.0.4 已是 <a href="http://www.apple.com.tw/universal/">Universal 應用程式</a>，在採用 Intel 與 PowerPC 處理器的 Mac 電腦上皆可執行。</li>
+	</ul>
 </div>
 
 <!--#include virtual="/inc/footer.html" -->
