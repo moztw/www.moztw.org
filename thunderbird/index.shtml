@@ -80,8 +80,13 @@
 	<li><a href="http://update.mozilla.org/themes/?application=thunderbird">取得佈景主題</a></li>
 	<li><a href="http://www.mozilla.org/products/thunderbird/buttons.html">推廣用按鈕圖</a></li>
 	<li><a href="http://www.mozillazine.org/">MozillaZine (英)</a></li>
-	<li><a href="http://texturizer.net/thunderbird/faq.html">FAQ (英)</a></li>
-	<li><a href="http://texturizer.net/thunderbird/">Thunderbird Help (英)</a></li>
+	<li><a href="http://www.mozilla.org/support/thunderbird/faq">FAQ (英)</a></li>
+	<li><a href="http://www.mozilla.org/support/thunderbird/">Thunderbird Help (英)</a></li>
+    </ul>
+    <h3>正體(繁體)中文版</h3>
+    <ul class="compact">
+	<li>Mozilla Thunderbird 最新的正體(繁體)中文版是 1.0.6 版</li>
+    <li>最新的英文版是 1.5.0.4 版 (<a href="http://forum.moztw.org/viewtopic.php?t=14364">討論</a>)</li>
     </ul>
 </div>
 
