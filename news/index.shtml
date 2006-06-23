@@ -8,6 +8,9 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+	<li><div class="date"> 5 月 4 </div>
+	<a href="http://moztw.org/camino/">Camino</a> 1.0.1 發佈，請至 <a href="http://moztw.org/camino/">Camino 下載頁</a>取得 1.0.1 正體中文套件。
+
 	<li><div class="date"> 5 月 2 </div>
 	Firefox 1.5.0.3 已經發佈，修正一項嚴重的安全性問題，您可透過自動更新升級到最新版本。
 	<a href="http://moztw.org/firefox/releases"> 1.5.0.3 新鮮事</a>
