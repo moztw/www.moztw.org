@@ -10,6 +10,8 @@
 <ul class="news">
     <li><div class="date"> 6 月 1 </div>
 	Firefox 1.5.0.4 已發佈，修正數項安全性問題，您可透過自動更新升級或由本站下載。
+	<li><div class="date"> 5 月 11 </div>
+	由社群票選出的第二屆擴充套件 Top 15 已經更新，您可至<a href="http://moztw.org/firefox/extension_top_15/">下載頁</a>下載到全部的 Top 15 擴充套件。
 	<a href="http://moztw.org/firefox/releases"> 1.5.0.4 新鮮事</a>
 	<li><div class="date"> 5 月 4 </div>
 	<a href="http://moztw.org/camino/">Camino</a> 1.0.1 發佈，請至 <a href="http://moztw.org/camino/">Camino 下載頁</a>取得 1.0.1 正體中文套件。
