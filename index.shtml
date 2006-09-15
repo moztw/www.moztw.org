@@ -34,7 +34,7 @@
     「Firefox 的安全性及超酷特色勝過 Microsoft 的 IE」</a> - Walt Mossberg, 華爾街日報
 </p>
     <div class="download">
-		<h3><a href="/firefox/"><strong class="downloadText">下載 1.5.0.6</strong></a></h3>
+		<h3><a href="/firefox/"><strong class="downloadText">下載 1.5.0.7</strong></a></h3>
  		<div style='background: url(/images/product-firefox.png) no-repeat;'>
 		<!--#include virtual="/inc/dlff.html" -->
 	</div>
@@ -48,7 +48,7 @@
     <a href="thunderbird"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
 	<p><a href="/thunderbird/">Thunderbird</a> 
 	是 Mozilla 家族新生代的 e-mail 程式，具有完整的功能，與最新的垃圾信控制。<br />
-	<small>最新的英文版是 1.5.0.4 版 (<a href="http://forum.moztw.org/viewtopic.php?t=14364">討論</a>)</small></p>
+	<small>英文版為 1.5.0.7 版 (<a href="http://forum.moztw.org/viewtopic.php?t=14364">討論</a>)</small></p>
   </div>
   <div class="frontcolumn">
     <h2><a href="/firefox/extension_top_15/">第二屆 Top 15 擴充套件票選</a></h2>
