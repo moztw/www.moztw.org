@@ -48,7 +48,7 @@
     <a href="thunderbird"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
 	<p><a href="/thunderbird/">Thunderbird</a> 
 	是 Mozilla 家族新生代的 e-mail 程式，具有完整的功能，與最新的垃圾信控制。<br />
-	<small>英文版為 1.5.0.7 版 (<a href="http://forum.moztw.org/viewtopic.php?t=14364">討論</a>)</small></p>
+	<small>英文版為 1.5.0.7 版 (<a href="http://forum.moztw.org/viewtopic.php?t=15609">討論</a>)</small></p>
   </div>
   <div class="frontcolumn">
     <h2><a href="/firefox/extension_top_15/">第二屆 Top 15 擴充套件票選</a></h2>
@@ -80,7 +80,7 @@
         <li>
           <a href="/camino/" style="text-decoration: none;" title="Mozilla 的威力、Mac 的風格">
             <img src="/images/camino16.gif" alt="Camino" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">Camino 1.0.1</span>
+            <span style="text-decoration: underline;">Camino 1.0.3</span>
           </a>
         </li>
         <li>
