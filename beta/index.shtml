@@ -68,6 +68,13 @@
     <li><a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-mozilla1.8-l10n/"> Thunderbird L10n Nightly</a></li></ul>    
 <div class="download">
     <div id="firefox-beta">
+   	<h3>Firefox 2.0 RC1 (<strong class="warning">發行候選第一版</strong>，0926 Build)</h3> 
+    <ul>
+	<li>Windows: <a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0rc1/win32/zh-TW/Firefox%20Setup%202.0%20RC%201.exe">自解安裝檔</a></li>
+	<li>Linux: <a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0rc1/linux-i686/zh-TW/firefox-2.0rc1.tar.gz">TGZ 免安裝</a></li>
+	<li>Mac OS X: <a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0rc1/mac/zh-TW/Firefox%202.0%20RC%201.dmg"> DMG 解開後拖至應用程式內即可</a></li>
+    </ul>
+
 	<h3>Firefox 2.0 Beta 2 (<strong class="warning">測試版</strong>，0831 Build)</h3> 
     <ul>
 	<li>Windows: <a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0b2/win32/zh-TW/Firefox%20Setup%202.0%20Beta%202.exe">自解安裝檔</a></li>
