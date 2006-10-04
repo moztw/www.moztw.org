@@ -8,6 +8,9 @@
 
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+	<li><div class="date"> 9 月 15 </div>
+	Firefox 1.5.0.7 及 Thunderbird 1.5.0.7 已發佈，修正數個安全性弱點，請由自動更新或下載安裝程式升級。
+	<a href="http://moztw.org/firefox/releases"> 1.5.0.7 新鮮事</a>
 	<li><div class="date"> 9 月 1 </div>
 	想一窺十月才正式發行的 Firefox 2.0 真面目嗎？MozTW 釋出 Firefox 2.0 Beta 2 中文測試版，請至 <a href='http://moztw.org/beta/'>測試區</a>下載。<br/>
 	任何使用上的問題歡迎至 <a href="http://forum.moztw.org/viewforum.php?f=18">討論區</a> 討論。<b style='color:red;'>注意：Beta 2 仍有許多程式錯誤，新手勿試。</b>
@@ -58,7 +61,7 @@
     詳情請見 
     <a href="http://moztw.org/press/moztw-20051129.html">
 	官方新聞</a>。
-	
+		
     <li><div class="date"> 11 月 23 </div>
     Firefox 1.5 正式版仍在進行最後的修正及檢查，<b>尚未發佈</b>。
     實際發佈時間未定，但可能在最近數週內完成。
