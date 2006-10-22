@@ -1,0 +1,123 @@
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<!--
+#front-feature #feature-content {
+	padding-right: 350px;
+}
+#front-feature .download ul {
+	padding-left: 80px;
+}
+
+/* Start -- Firefox 2 launch event Promote*/
+.front-feature-fx2special {
+	background: #E4EcEc url(firefox/flicks/images/splash-adcontest2.jpg) bottom center no-repeat;
+}
+#feature-content {
+	padding: 6px 380px 6px 10px;
+}
+
+/* End -- Firefox 2 launch event Promote*/
+-->
+</style>
+<!--#include virtual="/inc/class_homepage.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+<div class="key-point front-feature-fx2special" id="front-feature">
+
+  <div id="feature-content">
+    <h2><a href="/firefox/events.shtml">Firefox 2 活動，熱鬧展開！</a></h2>
+    <p>加入我們，一同慶祝 Firefox 2 誕生 － 馬上下載 Firefox 顯示圖片、桌布、部落格佈景主題，參加 11/12 在台北舉辦的火狐風雲會 2.0！</p>
+  </div>
+</div>
+
+<div id="mBody">
+  <div class="frontcolumn">
+    <h2><a href="/firefox/">Firefox 2</a></h2>
+    <a href="/firefox/"><img src="/images/product-firefox.png" alt="Firefox" class="promo" width="60" height="60"></a>
+	<p>備受肯定的 <a href="/firefox/">Firefox</a> 瀏覽器再掀波韜！更穩定、更靈巧的 Firefox 2 升級搜尋、分頁等功能，更增加防止詐騙網站、即時拼字檢查等功能。</p>
+  </div>
+  <div class="frontcolumn">
+    <h2><a href="/thunderbird/">Thunderbird 1.0.6 (中)</a></h2>
+    <a href="thunderbird"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
+	<p><a href="/thunderbird/">Thunderbird</a> 
+	是 Mozilla 家族新生代的 e-mail 程式，具有完整的功能，與最新的垃圾信控制。</p>
+	<p><small>英文版為 1.5.0.7 版 (<a href="http://forum.moztw.org/viewtopic.php?t=15609">討論</a>)</small></p>
+    
+  </div>
+  <div class="frontcolumnlast">
+<h2 style="margin-top: 0pt;">
+      <a href="/dl">其它軟體</a>
+    </h2>
+
+    <ul class="news" style="margin-left: 10px;">
+        <li>
+          <a href="/camino/" style="text-decoration: none;" title="Mozilla 的威力、Mac 的風格">
+            <img src="/images/camino16.gif" alt="Camino" style="vertical-align: middle;" height="16" width="16">
+            <span style="text-decoration: underline;">Camino 1.0.3</span>
+          </a>
+        </li>
+        <li>
+          <a href="/nvu/" style="text-decoration: none;" title="由 MozTW 提供的 Nvu 非官方中文化版本">
+            <img src="/images/nvu16.png" alt="NVU icon" style="vertical-align: middle;" height="16" width="16">
+            <span style="text-decoration: underline;">NVU 1.0</span>
+          </a>
+        </li>
+        <li>
+          <a href="/mozilla/" style="text-decoration: none;">
+            <img src="images/mozilla16.png" alt="Mozilla icon" style="vertical-align: middle;" height="16" width="16">
+            <span style="text-decoration: underline;">Mozilla 1.7.12</span>
+          </a>
+
+        
+        <li>
+          <a href="/dl/" style="text-decoration: none;">
+            <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
+            <span style="text-decoration: underline;">軟體列表...</span>
+          </a>
+        </li>
+        <li>
+	<a href="/beta/" style="text-decoration: none;" title="想試試最新的 Firefox? 歡迎幫忙測試! [不建議新手使用]">
+            <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
+            <span style="text-decoration: underline;">Beta 測試版專區</span>
+          </a>
+        </li>
+    </ul>
+
+  </div>
+  <br style="clear: both;">
+
+  <!-- Start News Columns -->
+
+
+<div>
+    <div style='width: 35%; float: right;'>
+	  <h2>快速捷徑</h2>
+    <ul class="news" style="margin-left: 10px;">
+    	<li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15 </a></li>
+    	<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
+    	<li><a href="http://wiki.moztw.org/index.php?title=Search_Plugins">新增 Firefox 搜尋工具</a></li>
+    	<li><a href="http://wiki.moztw.org/index.php?title=Documents">Wiki 文件專案</a></li>
+    </ul>
+	
+           
+
+  
+    </div>
+    <div style='float: left; width: 63%;'>
+    <a href="/xmlnews.rdf">
+      <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16">
+    </a>
+    <h2 style="margin-top: 0;">
+      <a href="/news">最新消息與公告</a>
+    </h2>
+	<!--#include virtual="/inc/news.html" -->
+</div>
+	<br style="clear: both;">
+	<!-- span style='vertical-align: bottom; font-size: 60%; float: right;'>最後更新：
+	<!- #flastmod virtual="/index.shtml" -></span>-->
+  <!-- End News Columns -->  
+  </div>
+	<a href='news'>所有公告記錄</a>
+  </div>
+<!--#include virtual="/inc/footer.html" -->
