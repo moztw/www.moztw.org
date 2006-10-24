@@ -1,4 +1,4 @@
-<!--#include virtual="/inc/meta.html" -->
+﻿<!--#include virtual="/inc/meta.html" -->
 <title>About Mozilla Taiwan Community - Moztw.org</title>
 <!--#include virtual="/inc/class_about.html" -->
 <!--#include virtual="/inc/header.html" -->
@@ -7,27 +7,27 @@
 <div id="side">
 
 <ul id="nav">
-<li><a title="���� Mozilla Taiwan - moztw.org" href="#about-moztw"><strong>���� Mozilla Taiwan - moztw.org</strong></a>
+<li><a title="關於 Mozilla Taiwan - moztw.org" href="#about-moztw"><strong>關於 Mozilla Taiwan - moztw.org</strong></a>
 <ul>
-<li><a title="�n��ϥΰ��D" href="#moztw-question">�n��ϥΰ��D</a></li>
-<li><a title="�^�����~�Ϋ�ĳ" href="#moztw-bug-report">�^�����~�Ϋ�ĳ</a></li>
+<li><a title="軟體使用問題" href="#moztw-question">軟體使用問題</a></li>
+<li><a title="回報錯誤或建議" href="#moztw-bug-report">回報錯誤或建議</a></li>
 </ul></li>
-<li><a title="���� mozilla.org" href="#about-mozilla"><strong>���� mozilla.org</strong></a>
+<li><a title="關於 mozilla.org" href="#about-mozilla"><strong>關於 mozilla.org</strong></a>
 <ul>
-<li><a title="�n��ΰӼб��v" href="#mozilla-license">�n��ΰӼб��v</a></li>
+<li><a title="軟體及商標授權" href="#mozilla-license">軟體及商標授權</a></li>
 </ul>
 </li>
-<li><a title="�p����T" href="#contact"><strong>�p����T</strong></a></li>
+<li><a title="聯絡資訊" href="#contact"><strong>聯絡資訊</strong></a></li>
 </ul>
 <form action="http://groups-beta.google.com/group/moztw-testing/boxsubscribe">
 <div style="border: 1px solid #e0e9e9; font-size: small; background-color: rgb(237, 242, 242); padding: 5px;">
-<strong>��U���աA�q�\���媩���ճq��</strong><br/>
+<strong>協助測試，訂閱中文版測試通知</strong><br/>
 <div style="border: 1px outset blue; padding: 3px 5px; background-color: #e0e9e9; position: relative;">
 Email:
 <p style="margin:0; margin-right: 4em; padding: 0;"><input type="text" name="email" style="width: 100%;"/></p>
-<input type="submit" name="sub" value="�q�\" style="width: 3.5em; position: absolute; right: .4em; top: 1.5em;" />
+<input type="submit" name="sub" value="訂閱" style="width: 3.5em; position: absolute; right: .4em; top: 1.5em;" />
 </div>
-<p>�q�\��A�b moztw.org ����n��s���ݭn���ծɫK����o�q���C�S�O�ݭn Mac OS X ���ϥΪ�������I�P�±z����U�C</p>
+<p>訂閱後，在 moztw.org 中文軟體新版需要測試時便能獲得通知。特別需要 Mac OS X 的使用者幫忙喔！感謝您的協助。</p>
 <p style="font-size: xx-small; text-align: right; margin: 0;">powerd by Google Groups</p>
 </div>
 </form>
@@ -35,104 +35,104 @@ Email:
 <hr class="hide">
 
 <div id="mainContent">
-	<h1 id="about-moztw">���� Mozilla Taiwan </h1>
-	<p> Mozilla Taiwan - moztw.org �O�x�W�M�ݩ� 
-	<a href='http://www.mozilla.org'>Mozilla</a> ������T�������A
-	�� 2004 �~�E�륿���}�i�C�ثe�����޲z�B���@ Mozilla �����餤��y���M��(Language
-	Pack) ��w���a�� (Localized) ���w���ɡA���� <a href='http://www.moztw.org'>WWW (�U���B���)</a>�P
-	<a href='http://forum.moztw.org'>�Q�װ�</a> ���A�ȡC���󥻯��w��Ψ�L�A���٦b�W�e���A
-	�w�ﵹ����ĳ�P���СI</p>
-	<p> Mozilla Taiwan �W�٪������g�k:
+	<h1 id="about-moztw">關於 Mozilla Taiwan </h1>
+	<p> Mozilla Taiwan - moztw.org 是台灣專屬於 
+	<a href='http://www.mozilla.org'>Mozilla</a> 相關資訊的網站，
+	於 2004 年九月正式開張。目前本站管理、維護 Mozilla 的正體中文語言套件(Language
+	Pack) 跟已本地化 (Localized) 的安裝檔，提供 <a href='http://www.moztw.org'>WWW (下載、文件)</a>與
+	<a href='http://forum.moztw.org'>討論區</a> 等服務。關於本站定位及其他服務還在規畫中，
+	歡迎給予建議與指教！</p>
+	<p> Mozilla Taiwan 名稱的正式寫法:
 	<ul>
-	    <li> �^����W: Mozilla Taiwan</li>
-	    <li> �^���Y�g: MozTW </li>
-	    <li> ���}: moztw.org �� mozilla-taiwan.org </li>
+	    <li> 英文全名: Mozilla Taiwan</li>
+	    <li> 英文縮寫: MozTW </li>
+	    <li> 網址: moztw.org 或 mozilla-taiwan.org </li>
 	</ul>
 	</p>
-	<p>moztw.org �����ثe��<a href="mailto:josesun@mail.moztw.org">
-		�]���� (Jose, Wei-Lun Sun)</a> 
-	�� <a href="mailto:bobchao@mail.moztw.org">
-		���f�j (Bob, Po-Chiang Chao)</a> ���@�C���Ѫ��A�ȲM��p�U�G</p>
+	<p>moztw.org 網站目前由<a href="mailto:josesun@mail.moztw.org">
+		孫偉倫 (Jose, Wei-Lun Sun)</a> 
+	及 <a href="mailto:bobchao@mail.moztw.org">
+		趙柏強 (Bob, Po-Chiang Chao)</a> 維護。提供的服務清單如下：</p>
 	<ul>
-	<li><a href="/dl">Mozilla ��������n��U��</a></li>
-	<li><a href="/docs">�����Τ��</a></li>
-	<li><a href="http://forum.moztw.org">���s�Q�װ�</a></li>
-	<li><a href="http://wiki.moztw.org">���s�@���t��</a></li>
+	<li><a href="/dl">Mozilla 相關中文軟體下載</a></li>
+	<li><a href="/docs">說明及文件</a></li>
+	<li><a href="http://forum.moztw.org">社群討論區</a></li>
+	<li><a href="http://wiki.moztw.org">社群共筆系統</a></li>
 	</ul>
 	
-	<p>�����˦��ק�� mozilla.org�A�g��@�̦P�N�� moztw.org �ϥΡC�D���� 
-	<a href="http://www.sinica.edu.tw">������s�|(sinica)</a>
-	<a href="http://www.iis.sinica.edu.tw">��T��Ǭ�s��(iis)</a>
-	<a href="http://www.openfoundry.org/">�ۥѳn��ű�y��(OSSF)</a>
-	���ѡA�]�P��<a href="http://www.csie.ntu.edu.tw/">�x�j��T�t(NTU CSIE)</a>�� 2004/08 �e���䴩�C</p>
-	<p> MozTW.org ���e���O Mozilla Localization: Traditional Chinese (1999~2004) 
-	�P Mozilla@Taiwan �Q�װ� (2000~2004), �̦����_���O�b���ɤ����x�j��u�ǥͪ��L���w�s�@
-	Mozilla ���奻�a�Ʈɩ�ӤH�����W�o�G�����ɮת��p�Ŷ��A��Ӥ@���t�ܡB
-	���� Mozilla �����U���~���餤�媩���o�G�����ά�����T�����a�A�üW�[�F���ʪ��Q�װϡC
-	2004 �~�A�{ Firefox �Y�N�o�� 1.0, �M�w�N�s�P���O�q���X�_�Ӿ�X���� Mozilla Taiwan
-	(moztw.org)�A�t�~���F����ӭp�e������}�񪺲�´�ӱq�ӤH�����U���X�B
-	���ಾ�줤����s�|���D���U�C
+	<p>本站樣式修改自 mozilla.org，經原作者同意由 moztw.org 使用。主機由 
+	<a href="http://www.sinica.edu.tw">中央研究院(sinica)</a>
+	<a href="http://www.iis.sinica.edu.tw">資訊科學研究所(iis)</a>
+	<a href="http://www.openfoundry.org/">自由軟體鑄造場(OSSF)</a>
+	提供，也感謝<a href="http://www.csie.ntu.edu.tw/">台大資訊系(NTU CSIE)</a>到 2004/08 前的支援。</p>
+	<p> MozTW.org 的前身是 Mozilla Localization: Traditional Chinese (1999~2004) 
+	與 Mozilla@Taiwan 討論區 (2000~2004), 最早的起源是在當時仍為台大資工學生的林弘德製作
+	Mozilla 中文本地化時於個人網站上發佈測試檔案的小空間，後來一路演變、
+	成為 Mozilla 相關各產品正體中文版的發佈網站及相關資訊收集地，並增加了互動的討論區。
+	2004 年適逢 Firefox 即將發行 1.0, 決定將零星的力量集合起來整合成為 Mozilla Taiwan
+	(moztw.org)，另外為了讓整個計畫成為更開放的組織而從個人網頁下移出、
+	並轉移到中央研究院的主機下。
 	</p>
 
-	<p><A href='/awstats'>�y�q�P�����έp���</A></p>
+	<p><A href='/awstats'>流量與相關統計資料</A></p>
 	
-	<h3 id="moztw-question">�n��ϥΰ��D</h3>
-	�n��ϥΤW�����D�G
-	<ul><li>�i�� <a href='http://www.mozilla.org'>mozilla.org</a> �����d��
-	<li>�Υi�d�\<a href="/docs">��������</a>
-	<li>�]�i�Q��<a href="http://forum.moztw.org">�����Q�װ�</a>�A
-	�ܦh���ߪ��s�����@�N���ɸg��C���s�����Ҭ��q�������A�o�ݽЫO��§�`�C</li>
+	<h3 id="moztw-question">軟體使用問題</h3>
+	軟體使用上的問題：
+	<ul><li>可至 <a href='http://www.mozilla.org'>mozilla.org</a> 網站查詢
+	<li>或可查閱<a href="/docs">本站文件區</a>
+	<li>也可利用<a href="http://forum.moztw.org">本站討論區</a>，
+	很多熱心社群成員願意分享經驗。社群成員皆為義務幫忙，發問請保持禮節。</li>
 	</ul>
-	<h3 id="moztw-bug-report">�^�����~�Ϋ�ĳ</h3>
+	<h3 id="moztw-bug-report">回報錯誤或建議</h3>
 	<ul>
-		<li>�P�����]�˦��B��󤺮e�B��´�覡���^���������D�A�Ш�Q�װϡu<a href="http://forum.moztw.org/viewforum.php?f=7">���� moztw.org</a>�v�B���X�C</li>
-		<li>�n��½Ķ���~�Τ���w�˪��S�������D�A�Ш�Q�װϡu<a href="http://forum.moztw.org/viewforum.php?f=4">½Ķ���~�P��ĳ�^��</a>�v�B���X�C</li>
+		<li>與網站（樣式、文件內容、組織方式等）相關的問題，請到討論區「<a href="http://forum.moztw.org/viewforum.php?f=7">有關 moztw.org</a>」處提出。</li>
+		<li>軟體翻譯錯誤或中文安裝版特有的問題，請到討論區「<a href="http://forum.moztw.org/viewforum.php?f=4">翻譯錯誤與建議回報</a>」處提出。</li>
 	</ul>
-	<p>�{���W�����~�άO��ĳ�Цۦ��
-	<a href='http://bugzilla.mozilla.org/enter_bug.cgi'>Bugzilla</a> ���X�A
-	moztw.org �D�n�B�z�P����y���M����� (½Ķ�B�ϥ�) �����D�C�Y�o�{����w�˪����{�����D�A
-	�^���e�нT�w�^�媩�b�����ާ@�W���T�L�~�A���¡C</p>
+	<p>程式上的錯誤或是建議請自行至
+	<a href='http://bugzilla.mozilla.org/enter_bug.cgi'>Bugzilla</a> 提出，
+	moztw.org 主要處理與中文語言套件相關 (翻譯、使用) 的問題。若發現中文安裝版有程式問題，
+	回報前請確定英文版在相關操作上正確無誤，謝謝。</p>
 	
-	<h2 id="about-mozilla">���� mozilla.org</h2>
-	<p>Mozilla �M�׬O�ӫD��Q�}���l�X���ʡA���ȬO�������ں������ۥѿ�ܻP�зs�C
-	���M�ץ� <a href="http://www.mozilla.org" hreflang="en">Mozilla ����|</a>
-	�]����^�B<a href="http://www.mozilla-europe.org/">Mozilla Europe</a>�]�ڬw�^
-	�P <a href="http://www.mozilla-japan.org/" hreflang="ja">Mozilla Japan</a>�]�饻�^
-	����´�䴩�ñ��ʹB��A���y���Ƥd�W�Ӥu�ѻP�䤤�C</p><p><a href="http://www.mozilla.org/about/">�Ժɸ�T(�^��)...</a></p>
+	<h2 id="about-mozilla">關於 mozilla.org</h2>
+	<p>Mozilla 專案是個非營利開放原始碼活動，任務是維持網際網路的自由選擇與創新。
+	此專案由 <a href="http://www.mozilla.org" hreflang="en">Mozilla 基金會</a>
+	（美國）、<a href="http://www.mozilla-europe.org/">Mozilla Europe</a>（歐洲）
+	與 <a href="http://www.mozilla-japan.org/" hreflang="ja">Mozilla Japan</a>（日本）
+	等組織支援並推動運行，全球有數千名志工參與其中。</p><p><a href="http://www.mozilla.org/about/">詳盡資訊(英文)...</a></p>
 	
-	<h3 id="mozilla-license">�n��ΰӼб��v</h2>
-	<p>Mozilla ���~ (Mozilla�BMozilla Firefox�BMozilla Thunderbird) �� Mozilla Public License ���v�A�������D�Ъ���<a href="http://www.mozilla.org/about/">�p�� mozilla.org</a>�Amoztw.org ���N���B�z�C</p>
+	<h3 id="mozilla-license">軟體及商標授權</h2>
+	<p>Mozilla 產品 (Mozilla、Mozilla Firefox、Mozilla Thunderbird) 採 Mozilla Public License 授權，相關問題請直接<a href="http://www.mozilla.org/about/">聯絡 mozilla.org</a>，moztw.org 不代為處理。</p>
 	<ul>
 	  <li><a href="http://www.mozilla.org/MPL/MPL-1.1.html">Mozilla Public License 1.1</a></li>
-	  <li><a href="http://www.mozilla.org/foundation/licensing.html">Mozilla ���v�M��</a></li>
-	  <li>Mozilla �����ӼС]�U���~�W�١B�ϥܵ��^�� Mozilla ����|�Ҧ��A�аѦ� <a href="http://www.mozilla.org/foundation/trademarks/index.html">Mozilla �ӼШϥάF��</a></li>
+	  <li><a href="http://www.mozilla.org/foundation/licensing.html">Mozilla 授權專區</a></li>
+	  <li>Mozilla 相關商標（各產品名稱、圖示等）為 Mozilla 基金會所有，請參考 <a href="http://www.mozilla.org/foundation/trademarks/index.html">Mozilla 商標使用政策</a></li>
 	</ul>	
 	
-	<h2 id="contact">�p����T</h2>
+	<h2 id="contact">聯絡資訊</h2>
 	<fieldset>
-		<legend>�]���� (Jose, Wei-Lun Sun)</legend>
+		<legend>孫偉倫 (Jose, Wei-Lun Sun)</legend>
 		<b>WWW:</b>&nbsp;  <a href='http://blog.josesun.org/'> http://blog.josesun.org/ </a><br/>
 		<b>E-mail:</b> josesun@mail.moztw.org<br/>
-		�y���M����@�B�s�@���餤�媩��
+		語言套件維護、製作正體中文版等
 	</fieldset>
 	<fieldset>
-		<legend>���f�j (Bob, Po-Chiang Chao)</legend>
+		<legend>趙柏強 (Bob, Po-Chiang Chao)</legend>
 		<b>WWW:</b>&nbsp;  <a href='http://bobchao.wordpress.com/'> http://bobchao.wordpress.com/ </a><br/>
 		<b>E-mail:</b> bobchao@mail.moztw.org<br/>
-		���s�pô�B�������@��
+		社群聯繫、網站維護等
 	</fieldset>
 	<fieldset>
-		<legend>��q (Ching Chiao)</legend>
+		<legend>喬敬 (Ching Chiao)</legend>
 		<b>WWW:</b> <a href='http://chiao.typepad.com/'> http://chiao.typepad.com/ </a><br/>
 		<b>E-mail:</b> ching.chiao@mail.moztw.org<br/>
-		�s�D������
+		新聞接洽等
 	</fieldset>
 	<hr/>
 	<fieldset>
-		<legend>�L���w (piaip, Hung-Te Lin)</legend>
+		<legend>林弘德 (piaip, Hung-Te Lin)</legend>
 		<b>WWW:</b> <a href='http://ntu.csie.org/~piaip/'> http://ntu.csie.org/~piaip/ </a><br/>
 		<b>E-mail:</b> piaip at csie dot ntu dot edu dot tw<br/>
-		Mozilla Taiwan �Хߪ�
+		Mozilla Taiwan 創立者
 	</fieldset>
 
 	</div>
