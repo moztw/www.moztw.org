@@ -4,7 +4,7 @@
 <!--#include virtual="/inc/header.html" -->
       
 
-<h1>Mozilla發行Firefox最新版本 網路瀏覽體驗再創新高</h1>
+<h1>Mozilla 發行 Firefox 最新版本 網路瀏覽體驗再創新高</h1>
 <em>強化使用性,安全性及客製性的 Firefox 2, 全球網友現熱烈升級中 </em>
 <p>[<strong>10 月 25 日 台北訊</strong>] Mozilla 今日正式推出 Firefox<sup>®</sup> 2，為此免費開放源碼的網路瀏覽器近期之重大更新。Firefox 為全球網路社群所共同開發製作，在 Mozilla 基金會的羽翼孵化下， 以非營利公益性的組織方式， 致力推動全球各地人們的網路瀏覽經驗提升。</p>
 <p>在不到二年的時間內， 全球上千萬的使用者已發現證實，Firefox 提供了更簡易、更快速，並且更安全的線上瀏覽經驗。Firefox 2 在發行當日，已有超過 35 種語言版本可供下載， 較其它任何瀏覽器提供更多當地語言的選擇。 </p>
@@ -32,17 +32,19 @@
 <hr/>
 <h4>關於 Mozilla Corporation</h4>
 <p>Mozilla 公司是由非營利的 Mozilla 基金會所設立。主要負責基金會本身對於網際網路前瞻性的公益事務，進行研發及推廣。藉由屢次獲奬、免費開放源碼的 Mozilla Firefox 瀏覽器，數以百萬計的全球用戶得以享有更好的網路瀏覽品質。欲知更多公司及產品訊息，請至 www.mozilla.com 網站查詢。</p> 
-<h4>關於 Mozilla Taiwan</h2>
+<h4>關於 Mozilla Taiwan
+  </h2>
+</h4>
 <p>Mozilla Taiwan 是台灣專屬於 Mozilla 相關資訊的網站，目前為全球華語社群提供 Mozilla 相關軟體的正體中文語言套件、產品推廣、網頁標準傳教和技術支援等服務。</p>
 <hr/>
 <h4>Mozilla Press Contact:</h4>
 <p>(Asia)<br/>
 Gen Kanai<br/>
-<a href="mailto:gen@mozilla.com">gen@mozilla.com</a></p>
+<a href="mailto:gen@mozilla.com"></a><img src="../images/gen-mail.png" alt="gen [at] mozilla dot com" width="106" height="13"></p>
 
 <p>(Taipei)<br/>
 Angelia Chen<br/>
 +886-935-069-361<br/>
-<a href="mailto:angeliachen@yahoo.com">angeliachen@yahoo.com</a></p>
+<a href="mailto:angeliachen@yahoo.com"></a><img src="../images/angelia-mail.png" alt="angeliachen [at] yahoo dot com" width="150" height="13"></p>
 
 <!--#include virtual="/inc/footer.html" -->
