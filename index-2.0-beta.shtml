@@ -1,20 +1,22 @@
 <!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+
 <!--
 #front-feature #feature-content {
 	padding-right: 350px;
 }
 #front-feature .download ul {
 	padding-left: 80px;
-}
-
-/* Start -- Firefox 2 launch event Promote*/
+}-->
+<style >
+<!--
+/* Start -- Firefox 2 launch event Promote
 .front-feature-fx2special {
-	background: #E4EcEc url(firefox/flicks/images/splash-adcontest2.jpg) bottom center no-repeat;
-}
-#feature-content {
-	padding: 6px 380px 6px 10px;
+	background: #E4EcEc url(/firefox/flicks/images/splash-adcontest2.jpg) bottom center no-repeat;
+}*/
+#front-feature #feature-content {
+	padding: 6px 380px 6px 10px !important;
 }
 
 /* End -- Firefox 2 launch event Promote*/
@@ -27,7 +29,7 @@
 
   <div id="feature-content">
     <h2><a href="/firefox/events.shtml">Firefox 2 活動，熱鬧展開！</a></h2>
-    <p>加入我們，一同慶祝 Firefox 2 誕生 － 馬上下載 Firefox 顯示圖片、桌布、部落格佈景主題，參加 11/12 在台北舉辦的火狐風雲會 2.0！</p>
+    <p>加入我們，一同慶祝 Firefox 2 誕生 － 馬上下載 Firefox 顯示圖片、桌布、部落格佈景主題，參加 11/12 在台北舉辦的火狐大轟趴 2.0！</p>
   </div>
 </div>
 
@@ -35,7 +37,7 @@
   <div class="frontcolumn">
     <h2><a href="/firefox/">Firefox 2</a></h2>
     <a href="/firefox/"><img src="/images/product-firefox.png" alt="Firefox" class="promo" width="60" height="60"></a>
-	<p>備受肯定的 <a href="/firefox/">Firefox</a> 瀏覽器再掀波韜！更穩定、更靈巧的 Firefox 2 升級搜尋、分頁等功能，更增加防止詐騙網站、即時拼字檢查等功能。</p>
+	<p>備受肯定的 <a href="/firefox/">Firefox</a> 瀏覽器再掀波韜！更穩定、更靈巧的 Firefox 2 升級搜尋、分頁等功能，更增加防止詐騙網站、即時拼字檢查等特色。</p>
   </div>
   <div class="frontcolumn">
     <h2><a href="/thunderbird/">Thunderbird 1.0.6 (中)</a></h2>
