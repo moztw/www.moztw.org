@@ -14,7 +14,7 @@ h2 a:hover { color: #039; }
 .front-feature-slate { background: #E4ECEC url(../../images/feature-back-slate.png) bottom right no-repeat; }
 .front-feature-nasa { background: #E4ECEC url(../../images/feature-back-nasa.png) bottom right no-repeat; }
 .front-feature-thunderbird { background: #E4EcEc url(../../images/front-feature-thunderbird.png) bottom right no-repeat; }
-.front-feature-cwb { background: #E4EcEc url(../../images/front-feature-cwb.png) bottom right no-repeat;}
+.front-feature-cwb { background: #E4EcEc url(../../images/feature-back-cwb.png) bottom right no-repeat;}
 
 a#shopLink {
 	display: block;
