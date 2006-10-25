@@ -13,20 +13,9 @@
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-<div class="key-point front-feature-cnet" id="front-feature">
-<script type="text/javascript">
-    <!--
-    var classes = new Array("cnet", "wired", "nytimes", "nasa", "slate", "onion");
-    var date = new Date();
-    var seconds;
-    var classid;
-    seconds = date.getSeconds();
-    classid = seconds % classes.length;
-    document.getElementById('front-feature').className = 'key-point front-feature-' + classes[classid];
-    -->
-  </script>
+<div class="key-point front-feature-cwb" id="front-feature">
   <div id="feature-content">
-    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 2.0" height="51" width="219"></a></h2>
+    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 2.0" height="55" width="252"></a></h2>
     <p>獲獎連連的 Firefox 網路瀏覽器，以更快、更安全、更容易自訂的面貌現身，全面升級您的網際瀏覽體驗。 
 </p>
     <div class="download">
