@@ -11,10 +11,11 @@
 }-->
 <style >
 <!--
-/* Start -- Firefox 2 launch event Promote
+/* Start -- Firefox 2 launch event Promote*/
 .front-feature-fx2special {
-	background: #E4EcEc url(/firefox/flicks/images/splash-adcontest2.jpg) bottom center no-repeat;
-}*/
+	background: #E4EcEc url(file:///C:/feature-foxtwet.jpg) bottom center no-repeat;
+	height: 230px;
+}
 #front-feature #feature-content {
 	padding: 6px 380px 6px 10px !important;
 }
@@ -56,34 +57,19 @@
         <li>
           <a href="/camino/" style="text-decoration: none;" title="Mozilla 的威力、Mac 的風格">
             <img src="/images/camino16.gif" alt="Camino" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">Camino 1.0.3</span>
-          </a>
-        </li>
+            <span style="text-decoration: underline;">Camino 1.0.3</span>          </a>        </li>
         <li>
           <a href="/nvu/" style="text-decoration: none;" title="由 MozTW 提供的 Nvu 非官方中文化版本">
             <img src="/images/nvu16.png" alt="NVU icon" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">NVU 1.0</span>
-          </a>
-        </li>
-        <li>
-          <a href="/mozilla/" style="text-decoration: none;">
-            <img src="images/mozilla16.png" alt="Mozilla icon" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">Mozilla 1.7.12</span>
-          </a>
-
-        
+        <span style="text-decoration: underline;">NVU 1.0</span>          </a></li>
         <li>
           <a href="/dl/" style="text-decoration: none;">
             <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">軟體列表...</span>
-          </a>
-        </li>
+            <span style="text-decoration: underline;">軟體列表...</span>          </a>        </li>
         <li>
 	<a href="/beta/" style="text-decoration: none;" title="想試試最新的 Firefox? 歡迎幫忙測試! [不建議新手使用]">
             <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">Beta 測試版專區</span>
-          </a>
-        </li>
+            <span style="text-decoration: underline;">Beta 測試版專區</span>          </a>        </li>
     </ul>
 
   </div>
@@ -114,10 +100,8 @@
       <a href="/news">最新消息與公告</a>
     </h2>
 	<!--#include virtual="/inc/news.html" -->
-</div>
+    </div>
 	<br style="clear: both;">
-	<!-- span style='vertical-align: bottom; font-size: 60%; float: right;'>最後更新：
-	<!- #flastmod virtual="/index.shtml" -></span>-->
   <!-- End News Columns -->  
   </div>
 	<a href='news'>所有公告記錄</a>
