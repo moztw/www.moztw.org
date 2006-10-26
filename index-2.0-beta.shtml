@@ -15,9 +15,29 @@
 .front-feature-fx2special {
 	background: #E4EcEc url(file:///C:/feature-foxtwet.jpg) bottom center no-repeat;
 	height: 230px;
+	position: relative;
 }
 #front-feature #feature-content {
 	padding: 6px 380px 6px 10px !important;
+	height: 218px;
+}
+#front-feature #feature-content h2{
+	font-size: 1.2em;
+	height: 218px
+	margin: 0; padding: 0;
+}
+#front-feature #feature-content a {
+	position: absolute;
+	bottom: 10px;
+	display: block;
+	width: auto;
+}
+#front-feature #feature-content span {
+	display: block;
+	width: auto;
+	background-color: #fff;
+	border: 1px black solid;
+	padding: 3px;
 }
 
 /* End -- Firefox 2 launch event Promote*/
@@ -29,8 +49,7 @@
 <div class="key-point front-feature-fx2special" id="front-feature">
 
   <div id="feature-content">
-    <h2><a href="/firefox/events.shtml">Firefox 2 活動，熱鬧展開！</a></h2>
-    <p>加入我們，一同慶祝 Firefox 2 誕生 － 馬上下載 Firefox 顯示圖片、桌布、部落格佈景主題，參加 11/12 在台北舉辦的火狐大轟趴 2.0！</p>
+    <h2><a href="/firefox/events.shtml"><span>Firefox 2 活動，熱鬧展開！</span></a></h2>
   </div>
 </div>
 
