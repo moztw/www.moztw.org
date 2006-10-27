@@ -1,0 +1,19 @@
+/* CSS Document */
+div#mainContent img{
+	border:1px black solid;
+} 
+ul.rev_nav{
+	height: 1.5em;
+	border: 1px black solid;
+	padding: .3em;
+}
+ul.rev_nav li{
+	list-style: none;
+	display: block;
+}
+ul.rev_nav li.back{
+	float: left;
+}
+ul.rev_nav li.next{
+	float: right;
+}

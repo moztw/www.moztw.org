@@ -1,0 +1,50 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>資訊安全、附加元件 | Firefox 2 要點概覽</title>
+<link href="revguide.css" rel="stylesheet" type="text/css">
+<!--#include virtual="/inc/class_docs.html" -->
+<!--#include virtual="/inc/header.html" -->
+<div id="mBody">
+ <div id="mainContent" class="right">
+<h2>Firefox 與資訊安全</h2>
+<p>Firefox 強化了網頁瀏覽的安全性，包含下列數項獲獎的特性抵擋惡意軟體的進攻：偽造網頁或詐騙網站偵測、阻擋彈出型視窗、個人機密資訊完全受您控制等。 Firefox 透過透明化的開發模式撰寫，任何人都能檢驗並貢獻程式碼，當發現潛在的威脅或弱點時 Mozilla 能迅速辨識並修復。</p>
+<p>我們致力達到下列目標：</p>
+<ul>
+<li>提供業界最快的程式弱點反應時間</li>
+<li>堅持透明化開發流程</li>
+<li>結構化的修改加強安全性，不讓程式越趨複雜</li>
+<li>快速修復弱點、不做不必要的爭論</li>
+</ul>
+
+<h3>開放原始碼更安全</h3>
+<p>Firefox 的核心是由全世界數千位充滿熱情的資深開發者和資安專家投入其中的開放原始碼專案，並有公開且活躍的專業社群協助確保產品更安全、更新更迅速，我們也利用先進的第三方弱點掃描及評估工具加強整體安全性。</p>
+
+<h3>如何估算安全性–風險日數的概念</h3>
+<p>目前資安業界常用一套軟體的弱點個數來估算它有多安全，越少弱點被公開就被認為越安全。可是情況通常比資安公司提出的報告所述的更複雜，而且誰也無法保證一套軟體百分百安全。所以更準確的估算方式是看當弱點確認後多少天軟體廠商才修復錯誤，這段時間使用者會處於高危險中。透過全心奉獻的社群，我們能對潛在弱點快速做出反應，並盡力縮短這段危險的空窗期。 </p>
+
+<h2>附加元件</h2>
+<p>Firefox 有豐富且持續成長的附加元件生態系，方便您自訂瀏覽器的功能及外觀以便符合需求。現在 Firefox 2 有全新的附加元件管理員，讓您更易發現、安裝及使用附加元件。</p>
+<p>您可從 https://addons.mozilla.com 下載數千種附加元件。這些元件能方便您購物時貨比三家、與朋友分享書籤、觀看天氣預報、寫作部落格文章、閱讀新聞、聆聽音樂等，一切都不需要離開您已熟悉的瀏覽器。您還可以調整外觀，從裡到外、由按鈕到字型，都可以依您個人風格改變瀏覽器的樣子。</p><ul class="rev_nav">
+      <li class="back"><a href="improved.shtml">&lt;上一頁</a></li>
+      <li class="next"><a href="underthehood.shtml">下一頁&gt;</a></li>
+    </ul>
+ </div>
+ <!-- closes #mainContent-->
+ <div id="side" class="right">
+  <ul id="nav">
+   <li><a href="/firefox">^回 Firefox 首頁</a></li>
+   <li><a href="/firefox/revguide/">Firefox 2 要點概覽首頁</a>
+     <ul>
+       <li><a href="/firefox/revguide/whatsnew.shtml">Firefox 2 新功能</a></li>
+       <li><a href="/firefox/revguide/improved.shtml">重要改良項目</a></li>
+       <li><a href="/firefox/revguide/secutiry_and_addons.shtml">資訊安全、附加元件</a></li>
+       <li><a href="/firefox/revguide/underthehood.shtml">新技術內涵</a></li>
+       <li><a href="/firefox/revguide/corefeatures.shtml">Firefox 重要特色</a></li>
+     </ul>
+   </li>
+   
+	  <li><a href="/firefox/revguide/revguide-zhtw.pdf">下載本文件 PDF 版</a></li>
+  </ul>
+
+
+  </div>
+ <!--#include virtual="/inc/footer.html" -->

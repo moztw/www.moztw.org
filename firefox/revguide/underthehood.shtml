@@ -1,0 +1,46 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>新技術內涵 | Firefox 2 要點概覽</title>
+<link href="revguide.css" rel="stylesheet" type="text/css">
+<!--#include virtual="/inc/class_docs.html" -->
+<!--#include virtual="/inc/header.html" -->
+<div id="mBody">
+ <div id="mainContent" class="right">
+<h2>新技術內涵</h2>
+<p>為了提供使用者最棒的網際瀏覽體驗，Firefox 2 還提供其他更新更豐富的技術內涵。以下列舉 Firefox 2 的技術更新： </p>
+
+<h3>支援 JavaScript 1.7</h3>
+JavaScript 更新為 1.7 版，提供諸如特定產生器 (generators)、迴圈器 (iterators)、陣列簡約式 (array comprehensions)、let 表達式、以及跨結構指定 (destructuring assignment) 等新功能，同時也包含 JavaScript 1.6 的所有特色。</p>
+
+<h3>新搜尋模組格式</h3>
+<p>Firefox 的搜尋欄現在同時支援 Sherlock 及 OpenSearch 格式，也能讓各引擎提供搜尋字詞建議。</p>
+
+<h3>更新擴充套件系統</h3>
+<p>為了提升安全性、方便擴充套件本地化，Firefox 2 也更新了擴充套件系統。Mozilla 亦可為使用者把關，將已知有安全問題或個人隱私疑慮的套件停用。</p>
+
+<h3>支援於用戶端儲存工作階段資料</h3>
+<p>Firefox 2 實作了 WhatWG 的 DOMStorage 規格，能於用戶端儲存結構化的資料。此技術能讓網頁開發者製作出更豐富的互動性網站。</p>
+
+<h3>新版 Windows 安裝程式</h3>
+<p>新安裝程式基於 Nullsoft Scriptable Install System (NSIS) 製作，安裝更為迅速。 </p>
+<ul class="rev_nav">
+      <li class="back"><a href="secutiry_and_addons.shtml">&lt;上一頁</a></li>
+      <li class="next"><a href="corefeatures.shtml">下一頁&gt;</a></li>
+    </ul>
+ </div>
+ <!-- closes #mainContent-->
+ <div id="side" class="right">
+  <ul id="nav">
+   <li><a href="/firefox">^回 Firefox 首頁</a></li>
+   <li><a href="/firefox/revguide/">Firefox 2 要點概覽首頁</a>     
+     <ul>
+       <li><a href="/firefox/revguide/whatsnew.shtml">Firefox 2 新功能</a></li>
+       <li><a href="/firefox/revguide/improved.shtml">重要改良項目</a></li>
+       <li><a href="/firefox/revguide/secutiry_and_addons.shtml">資訊安全、附加元件</a></li>
+       <li><a href="/firefox/revguide/underthehood.shtml">新技術內涵</a></li>
+       <li><a href="/firefox/revguide/corefeatures.shtml">Firefox 重要特色</a></li>
+     </ul>
+   </li>
+   <li><a href="/firefox/revguide/revguide-zhtw.pdf">下載本文件 PDF 版</a></li>
+  </ul>
+  </div>
+ <!--#include virtual="/inc/footer.html" -->
