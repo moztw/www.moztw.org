@@ -59,7 +59,7 @@ text-decoration: none;
 		padding-top: 50px;
 		height: 0;
 		width: 238px;
-		oevrflow: hidden;
+		overflow: hidden;
 	}
 	
 </style>
