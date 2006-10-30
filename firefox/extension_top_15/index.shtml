@@ -105,7 +105,7 @@ function hidden_descript(obj) {
 	<blockquote>「讓您可以直接在 Firefox 分頁中以內嵌的 IE 引擎，瀏覽 IE Only 的網頁。 」<cite>--社群成員 tszkin</cite></blockquote>
 	<p>結合 PCMan 製作的 Plugin 和 yuoo2k 撰寫的擴充套件後，現在 Firefox 也有雙核心功能。</p>
 	</div>
-	<h3 id="tongwen">No.2 New Tong Wen Tang 新同文堂  0.2.9.4.5</h3>
+	<h3 id="tongwen">No.2 新同文堂  0.2.9.4.5</h3>
 	<div class="extension-info">
 	<ul>
 		<li><a href="http://rt.openfoundry.org/Foundry/Project/Download/?Queue=333">套件網站</a></li>
@@ -251,7 +251,7 @@ function hidden_descript(obj) {
 	<blockquote>「如果你沒裝這個套件，會覺得 Firefox 像是斷了隻腳」<cite>--社群成員 Sheng</cite></blockquote>
 	<p>這個套件可以在 Firefox 的右鍵選單中加上 Show Image 的功能，讓你在發現 Firefox 讀取漏掉／失敗某張圖片時不用大費周章的按下 Reload 重新來過。</p>
 	</div>
-	<h3 id="pcman">No.13 PCMan Plug-in for Mozilla/Firefox 1.0.5</h3>
+	<h3 id="pcman">No.13 PCMan Plug-in 1.0.5</h3>
 	<div class="extension-info">
 	<ul>
 		<li><a href="http://pcmanmoz.mozdev.org/" title="PCMan Plugin 官方網站">套件網站</a></li>
@@ -350,6 +350,8 @@ function hidden_descript(obj) {
 <!--      <h3>感謝</h3>
       <div style="margin: 6px 0pt 0pt 4px;">
       </div> -->
+	  <h3>歷史紀錄</h3>
+	  <a href="1nd.shtml">第一屆投票結果</a>
     </div>
     </form>
 <!--#include virtual="/inc/footer.html" -->

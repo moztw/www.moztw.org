@@ -5,7 +5,6 @@
 
 <H1> 最新消息與公告 </H1>
 <!--#include virtual="/inc/news.html" -->
-
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
 <li><div class="date"> 10 月 13 </div>
