@@ -1,4 +1,4 @@
-<!--#include virtual="/inc/meta.html" -->
+﻿<!--#include virtual="/inc/meta.html" -->
 <title>Firefox 2 Go! 慶祝活動 - Mozilla Taiwan</title>
 <style type='text/css'>
 	.key-point {
@@ -20,20 +20,18 @@
 	.item-block img{
 		float: left;
 	}
-	.item-block h2{
+	.item-block h3{
 		font-size: 1.3em;
 		font-weight: bold;
 		margin: 0 0 0 40px;
 		border: none;
 	}
-	.item-block h2 a{
-		color: #000;
+	.item-block h3 a:link{
+text-decoration: none;
 	}
-	.item-block h2 a:visited{
-		color: #000;
-	}
-	.item-block h2 a:hover{
-		color: #333;
+.item-block h3 a:visited{
+color: navy
+text-decoration: none;
 	}
 	.item-block p{
 		margin: 0 0 auto 40px;
@@ -59,6 +57,7 @@
 	#feature h2{
 		background: url(/images/event-firefox-2-events.png) no-repeat;
 		padding-top: 50px;
+		height: 0;
 		width: 238px;
 		oevrflow: hidden;
 	}
@@ -78,7 +77,7 @@
       <p>Firefox Party 又來囉，11/12 下午 2:00 在信義誠品 6F 「The Library」與同好喝茶飲酒吃蛋糕，慶祝 Firefox 2 的誕生。會場還有豐富紀念品，立刻報名！</p>
     </div>
     <div class="item-block campus"><img src="" alt="" name="campusicon" width="32" height="32" id="campusicon" style="background-color: #FFFF00">
-      <h3><a href="campus.shtml">Firefox 校園巡迴推廣講座</a></h3>
+      <h3><a href="campus.shtml">校園巡迴推廣講座</a></h3>
       <p>tbd</p>
     </div>
     <div class="item-block street"><img src="" alt="" name="streeticon" width="32" height="32" id="streeticon" style="background-color: #FFFF00">
