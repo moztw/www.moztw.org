@@ -1,93 +1,6 @@
 ﻿<!--#include virtual="/inc/meta.html" -->
 <title>Firefox 2 Go! 慶祝活動 - Mozilla Taiwan</title>
-<style type='text/css'>
-	.key-point {
-		background: #e4ecec url("/images/feature-firefox-2-party.jpg") 130% 30% no-repeat;
-		padding: 15px;
-		margin-bottom: 1em;
-	}
-	#feature {
-	height: 130px;
-	margin-right: 65%;
-	
-	position:relative;
-	}
-	.item-block{
-		background: transparent url(/images/green-corner-box.jpg) left top no-repeat;
-		padding: 12px 15px 20px;
-		margin: 0 1%;
-		float: left;
-		width: 28%;
-	}
-	.item-block img{
-		float: left;
-	}
-	.item-block h3{
-		font-size: 1.3em;
-		font-weight: bold;
-		margin: 0 0 0 40px;
-		border: none;
-	}
-	.item-block h3 a:link{
-text-decoration: none;
-	}
-.item-block h3 a:visited{
-color: navy
-text-decoration: none;
-	}
-	.item-block p{
-		margin: 0 0 auto 40px;
-	}
-	.street{
-		float: none;
-		margin-left: 68%;
-		width: auto;
-	}
-	#sponsor {
-		background: transparent url(/images/gray-corner-box.jpg) left top no-repeat;
-		padding: 5px 5px 5px;
-	}
-	#sponsor h2 {
-		font-size: 1.2em;
-		margin:0;
-		border-bottom: none;
-		clear: both;
-	}
-	#mainContent{
-		margin-left: 0;
-	}
-	#feature h2{
-		background: url(/images/event-firefox-2-events.png) no-repeat;
-		padding-top: 50px;
-		height: 0;
-		width: 245px;
-		overflow: hidden;
-	}
-	.ft[class]{
-
-	background:#FFF;
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	z-index:-1;
-	opacity:0.8;
-}
-#sponsor ul{
-	margin:1em 0; padding:0; list-style: none;
-}
-#sponsor ul li{
-	display: block;
-	float: left;
-	margin: 0 .3em;
-}
-#sponsor ul li a{
-	display: block;
-	height: 100%;
-	width: 100%;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="firefox2party.css" media="screen"/>
 <!--#include virtual="/inc/class_press.html" --><div id="container">
   <!--#include virtual="/inc/header.html" -->
   <div class="key-point">
@@ -115,9 +28,28 @@ text-decoration: none;
 	<div id="sponsor">
   	<h2>協力單位：</h2>
 	<ul>
-	    <li><a href="http://www.openfoundry.org/"><img src="http://www.openfoundry.org/images/OSSF_logo211x55.jpg" alt="自由軟體鑄造場" width="194" height="50" border="0"></a></li>
-		<li><a href="http://www.ossacc.org"><img src="http://fsoss.fcu.org.tw/ossacc.gif" width="73" height="50" alt="全國中小學校園自由軟體應用諮詢中心"></a></li>
-	    <li>...tbc (這些放的應該是 logo)</li>
+	    <li><a href="http://www.openfoundry.org/"><img src="sponsor/ossf-logo.png" alt="自由軟體鑄造場" width="192" height="50" border="0"></a></li>
+		<li><a href="http://www.ossacc.org"><img src="sponsor/ossacc.png" width="85" height="50" alt="全國中小學校園自由軟體應用諮詢中心"></a></li>
+	    <li><a href="http://www.ttn.com.tw/"><img src="sponsor/ttn.png" alt="TTN 台灣電訊" width="142" height="50" border="0"></a></li>
+	    <li><a href="http://www.seed.net.tw/"><img src="sponsor/seednet.png" alt="SeedNet" width="86" height="50" border="0"></a></li>
+	    <li>中華電信</li>
+	    <li>無名小站</li>
+	    <li>Flock.com</li>
+	    <li>Songbirdnest.com</li>
+	    <li>Mozilla Corp. </li>
+	</ul>
+	<ul class="campustour">
+	    <li>南一中資訊社</li>
+		<li><a href="http://www.fg.tp.edu.tw/~fgisc/fgisc20th/">北一女中資研社</a></li>
+		<li><a href="http://infor.org">建中資訊社</a></li>
+	    <li><a href="http://cdpa.nsysu.edu.tw/">中山大學網推會</a></li>
+	    <li><a href="http://www2.nsysu.edu.tw/cc/">中山大學計中</a></li>
+	    <li><a href="http://www.nethistory.org.tw/">高科大資管系學會</a></li>
+	    <li><a href="http://163.32.84.102/khedu/association/t1/007/index.htm">(高雄)三民高中電腦社</a></li>
+	    <li><a href="http://www.cna.isu.edu.tw/">義守大學網策會</a></li>
+	    <li><a href="http://www.cgucccc.org/">長庚大學資策會</a></li>
+	    <li><a href="http://www.cna.ccu.edu.tw/">中正大學網策會</a></li>
+	    <li></li>
 	</ul>
 	<br style="clear: both"/>
   </div>

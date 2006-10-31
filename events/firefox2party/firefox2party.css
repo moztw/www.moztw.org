@@ -1,0 +1,112 @@
+﻿#mainContent{
+	margin-left: 0;
+}
+.key-point {
+	background: #e4ecec url("/images/feature-firefox-2-party.jpg") 130% 30% no-repeat;
+	padding: 15px;
+	margin-bottom: 1em;
+}
+#feature {
+	height: 130px;
+	margin-right: 65%;
+	position:relative;
+}
+#feature h2{
+	background: url(/images/event-firefox-2-events.png) no-repeat;
+	padding-top: 50px;
+	height: 0;
+	width: 245px;
+	overflow: hidden;
+}
+.ft[class]{
+	background:#FFF;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:-1;
+	opacity:0.8;
+	width: 100%;
+	height: 100%;
+}
+
+
+/*=======================
+  三個 promote block
+  =======================*/
+
+.item-block{
+	background: transparent url(/images/green-corner-box.jpg) left top no-repeat;
+	padding: 12px 15px 20px;
+	margin: 0 1%;
+	float: left;
+	width: 28%;
+}
+.item-block img{
+	float: left;
+}
+.item-block h3{
+	font-size: 1.3em;
+	font-weight: bold;
+	margin: 0 0 0 40px;
+	border: none;
+}
+.item-block h3 a:link{
+	text-decoration: none;
+}
+.item-block h3 a:visited{
+	color: navy
+	text-decoration: none;
+}
+.item-block p{
+	margin: 0 0 auto 40px;
+}
+.street{
+	float: none;
+	margin-left: 68%;
+	width: auto;
+}
+
+/*=======================
+  content
+  =======================*/
+
+
+
+/*=======================
+  sponsor
+  =======================*/
+
+#sponsor {
+	background: transparent url(/images/gray-corner-box.jpg) left top no-repeat;
+	padding: 5px 5px 5px;
+}
+#sponsor h2 {
+	font-size: 1.2em;
+	margin:0;
+	border-bottom: none;
+	clear: both;
+}
+#sponsor ul{
+	margin:1em 0; padding:0; list-style: none;
+}
+#sponsor ul li{
+	display: block;
+	float: left;
+	margin: .2em .3em;
+	height: 50px;
+}
+#sponsor ul li a{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+#sponsor ul.campustour{
+clear: both;
+}
+#sponsor ul.campustour li{
+height: auto;
+margin-left: 1em;
+margin-right: 1em;
+}
