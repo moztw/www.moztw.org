@@ -5,11 +5,12 @@
 	background: #e4ecec url("/images/feature-firefox-2-party.jpg") 130% 30% no-repeat;
 	padding: 15px;
 	margin-bottom: 1em;
+	position: relative;
 }
 #feature {
 	height: 130px;
 	margin-right: 65%;
-	position:relative;
+	position: relative;
 	background: url(bg-alpha.png);
 }
 #feature h2{
@@ -20,6 +21,22 @@
 	overflow: hidden;
 }
 
+ul#global-info {
+	margin:0; padding:0; list-style: none;
+	position: absolute;
+	right: 10px;
+	bottom: 8px;
+}
+ul#global-info li{
+	display: block;
+	float: left;
+	margin: auto 3px;
+}
+ul#global-info li a{
+	padding: 3px;
+	background-color: #FFF;
+	border: 1px solid #000;
+}
 /*=======================
   三個 promote block
   =======================*/
@@ -60,7 +77,30 @@
   content
   =======================*/
 
+div.information {
+	margin-left: 25%;
+}
+div.information h2 {
+	margin-left: -2.2em;
+}
+div.information h2 img{
+	width: 1em;
+	height: 1em;
+}
 
+div.information table {
+	width: 98%;
+	margin: .3em auto 1em;
+}
+
+div.information table th{
+	background: #000;
+	color: #FFF;
+}
+
+div.information table td{
+	border-bottom: 1px solid gray;
+}
 
 /*=======================
   sponsor
