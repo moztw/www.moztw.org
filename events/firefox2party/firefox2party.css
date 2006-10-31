@@ -62,7 +62,7 @@
 .item-block p{
 	margin: 0 0 auto 40px;
 }
-.street{
+#street-block{
 	float: none;
 	margin-left: 68%;
 	width: auto;
@@ -81,6 +81,7 @@
 #sponsor {
 	background: transparent url(/images/gray-corner-box.jpg) left top no-repeat;
 	padding: 5px 5px 5px;
+	margin: auto 1%;
 }
 #sponsor h2 {
 	font-size: 1.2em;
