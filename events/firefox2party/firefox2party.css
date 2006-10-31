@@ -10,27 +10,15 @@
 	height: 130px;
 	margin-right: 65%;
 	position:relative;
+	background: url(bg-alpha.png);
 }
 #feature h2{
 	background: url(/images/event-firefox-2-events.png) no-repeat;
-	padding-top: 50px;
+	padding-top: 55px;
 	height: 0;
 	width: 245px;
 	overflow: hidden;
 }
-.ft[class]{
-	background:#FFF;
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-	z-index:-1;
-	opacity:0.8;
-	width: 100%;
-	height: 100%;
-}
-
 
 /*=======================
   三個 promote block
