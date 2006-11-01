@@ -7,19 +7,24 @@
 	width: 6em;
 	float: left;
 }
+
 #sponsor ul{
 	clear: right;
+	margin-left: 7em;
 }
+
 #sponsor ul li{
 	display: block;
 	float: left;
-	margin: .2em 1em;
+	margin: .5em 1em;
 }
+
 #sponsor ul li a{
 	display: block;
 	height: 100%;
 	width: 100%;
 }
+
 #sponsor ul.logo li{
 	height: 35px;
 	margin: .2em .3em;
