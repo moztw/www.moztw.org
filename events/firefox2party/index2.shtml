@@ -3,16 +3,19 @@
 <link rel="stylesheet" type="text/css" href="firefox2party.css" media="screen"/>
 <style type="text/css">
 #sponsor h2{
-	clear: left;
 	width: 6em;
 	float: left;
 }
 #sponsor ul{
-	margin-left: 7em;
-	clear: right;
+	padding: 0;
+	margin: 0 0 5px 8em;
 }
 #sponsor ul.logo li{
 	height: 35px;
+}
+#sponsor ul.logo img{
+	background-color: #FFF;
+	border: none;
 }
 </style>
 <!--#include virtual="/inc/class_press.html" -->
@@ -166,6 +169,7 @@
       <li><a href="http://www.openfoundry.org/"><img src="sponsor/ossf-logo.png" alt="自由軟體鑄造場"  height="35" border="0"></a></li>
       <li><a href="http://www.ossacc.org"><img src="sponsor/ossacc.png" height="35" alt="全國中小學校園自由軟體應用諮詢中心"></a></li>
     </ul>
+	<h2>合作學校：</h2>
     <ul>
       <li>南一中資訊社</li>
       <li><a href="http://www.fg.tp.edu.tw/~fgisc/fgisc20th/">北一女中資研社</a></li>
