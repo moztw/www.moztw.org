@@ -29,9 +29,18 @@
 	display: block;
 	height: 226px;
 	width: 100%;
+	position: relative;
 }
 #feature-content a:hover {
 	background: transparent;
+}
+#feature-content a img{
+background: url(/events/firefox2party/bg-alpha.png);
+}
+#feature-content a:hover img{
+margin: -10px;
+border: 5px dashed yellow;
+padding: 5px;
 }
 #feature-content span {
 	position: absolute;
@@ -48,7 +57,7 @@
 <div class="key-point front-feature-fx2special" id="front-feature">
 
   <div id="feature-content">
-    <h2><a href="/firefox/events.shtml"><img src="images/event-firefox-2-events.png" alt="Taiwan Firefox 2 火狐月！" width="242" height="54"></a></h2>
+    <h2><a href="/firefox/events.shtml" title="前往火狐月首頁"><span><img src="images/event-firefox-2-events.png" alt="Taiwan Firefox 2 火狐月！" width="242" height="54"></span></a></h2>
   </div>
 </div>
 
