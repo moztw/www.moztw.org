@@ -1,35 +1,6 @@
 ﻿<!--#include virtual="/inc/meta.html" -->
 <title>Firefox 2 Go! 慶祝活動 - Mozilla Taiwan</title>
 <link rel="stylesheet" type="text/css" href="firefox2party.css" media="screen"/>
-<style type="text/css">
-#sponsor h2 {
-	clear: left;
-	width: 6em;
-	float: left;
-}
-
-#sponsor ul{
-	clear: right;
-	margin-left: 7em;
-}
-
-#sponsor ul li{
-	display: block;
-	float: left;
-	margin: .5em 1em;
-}
-
-#sponsor ul li a{
-	display: block;
-	height: 100%;
-	width: 100%;
-}
-
-#sponsor ul.logo li{
-	height: 40px;
-	margin: .2em .3em;
-}
-</style>
 <!--#include virtual="/inc/class_press.html" -->
 <div id="container">
 <!--#include virtual="/inc/header.html" -->
@@ -186,7 +157,7 @@
   <div id="sponsor">
     <h2>熱情贊助：</h2>
     <ul class="logo">
-      <li><a href="http://www.ttn.com.tw/"><img src="sponsor/ttn.png" alt="TTN 台灣電訊" height="405" border="0"></a></li>
+      <li><a href="http://www.ttn.com.tw/"><img src="sponsor/ttn.png" alt="TTN 台灣電訊" height="40" border="0"></a></li>
       <li><a href="http://www.seed.net.tw/"><img src="sponsor/seednet.png" alt="SeedNet"  height="40" border="0"></a></li>
       <li>無名小站</li>
       <li>中華電信</li>
