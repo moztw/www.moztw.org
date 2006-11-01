@@ -148,7 +148,7 @@
   </div>
   <div id="sponsor">
     <h2>協力單位：</h2>
-    <ul>
+    <ul class="logo">
       <li><a href="http://www.openfoundry.org/"><img src="sponsor/ossf-logo.png" alt="自由軟體鑄造場" width="192" height="50" border="0"></a></li>
       <li><a href="http://www.ossacc.org"><img src="sponsor/ossacc.png" width="85" height="50" alt="全國中小學校園自由軟體應用諮詢中心"></a></li>
       <li><a href="http://www.ttn.com.tw/"><img src="sponsor/ttn.png" alt="TTN 台灣電訊" width="142" height="50" border="0"></a></li>
@@ -157,7 +157,7 @@
       <li>無名小站</li>
       <li>Songbirdnest.com</li>
     </ul>
-    <ul class="campustour">
+    <ul>
       <li>南一中資訊社</li>
       <li><a href="http://www.fg.tp.edu.tw/~fgisc/fgisc20th/">北一女中資研社</a></li>
       <li><a href="http://infor.org">建中資訊社</a></li>

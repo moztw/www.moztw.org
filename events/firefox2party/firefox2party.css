@@ -119,23 +119,19 @@ div.information table td{
 }
 #sponsor ul{
 	margin:1em 0; padding:0; list-style: none;
+	clear: both;
 }
 #sponsor ul li{
 	display: block;
 	float: left;
-	margin: .2em .3em;
-	height: 50px;
+	margin: .2em 1em;
 }
 #sponsor ul li a{
 	display: block;
 	height: 100%;
 	width: 100%;
 }
-#sponsor ul.campustour{
-clear: both;
-}
-#sponsor ul.campustour li{
-height: auto;
-margin-left: 1em;
-margin-right: 1em;
+#sponsor ul.logo li{
+	height: 50px;
+	margin: .2em .3em;
 }

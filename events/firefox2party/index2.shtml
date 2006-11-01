@@ -2,20 +2,27 @@
 <title>Firefox 2 Go! 慶祝活動 - Mozilla Taiwan</title>
 <link rel="stylesheet" type="text/css" href="firefox2party.css" media="screen"/>
 <style type="text/css">
-#sponsor h2{
+#sponsor h2 {
+	clear: left;
 	width: 6em;
 	float: left;
 }
 #sponsor ul{
-	padding: 0;
-	margin: 0 0 5px 8em;
+	clear: right;
+}
+#sponsor ul li{
+	display: block;
+	float: left;
+	margin: .2em 1em;
+}
+#sponsor ul li a{
+	display: block;
+	height: 100%;
+	width: 100%;
 }
 #sponsor ul.logo li{
 	height: 35px;
-}
-#sponsor ul.logo img{
-	background-color: #FFF;
-	border: none;
+	margin: .2em .3em;
 }
 </style>
 <!--#include virtual="/inc/class_press.html" -->
