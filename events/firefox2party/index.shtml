@@ -8,11 +8,11 @@
     <div id="feature">
       <h2>Firefox 2 Go - 火狐月！</h2>
       <p>11 月 12 起，與全球同步慶祝 Firefox 2 降臨人間！老手新手都有適合活動，呼朋引伴來參加吧！</p>
-    </div>
-    <ul id="global-info">
+	  <ul id="global-info">
       <li><a href="http://mozlinks-zh.blogspot.com/atom.xml" title="Mozilla Taiwan 相關消息 RSS"><img src="/images/livemarks16.png" alt="RSS" border="0"></a></li>
       <li><a href="http://www.google.com/calendar/embed?src=oib3k43ofedochrh6tqaqdva04%40group.calendar.google.com" title="活動行事曆"><img src="/images/ical.png" alt="行事曆" border="0"></a></li>
     </ul>
+    </div>    
   </div>
   <div id="mainContent">
     <div class="item-block"><img name="partyicon" src="/images/star_32.png" width="32" height="32" alt="">
@@ -28,7 +28,8 @@
       <p>【網路訊】據網友指出，火狐將在台灣街頭進行一個現身的動作，可信度高達八成。</p>
     </div>
   </div>
-  <div id="party" class="information">
+  <div class="information">
+  <div id="party">
     <h2><img name="partyicon" src="/images/star_32.png" alt="">火狐大轟趴 2.0 - Firefox 2 Taiwan!</h2>
     <p> 火狐熱力燃燒台北，兩歲生日普天同慶。Firefox 使用者大會師，技客駭客部落客齊聲歡唱，邀請您 11/12 一起瘋 Firefox 2。</p>
     <h3>內容</h3>
@@ -55,7 +56,7 @@
     <h3>協力推廣</h3>
     <p>呼朋引伴趁今朝！使用由社群成員熱情支援的 <a href="http://forum.moztw.org/viewtopic.php?p=88654">MSN Messenger / 即時通 / GTalk 顯示圖片</a>，拉朋友一起來 Party！</p>
   </div>
-  <div id="campus" class="information">
+  <div id="campus">
     <h2><img src="/images/toy_gold_32.png" alt="" name="campusicon" id="campusicon" />校園巡迴推廣講座</h2>
     <p>想多認識 Firefox 2？十一月中起，參加 Firefox 校園巡迴推廣講座，再造網路新體驗！我們將介紹 Firefox 2 的特異功能，帶您了解在全球造成「火狐熱」的原因。</p>
     <h3>內容</h3>
@@ -152,9 +153,10 @@
     <h3>教師研習</h3>
     <p>Mozilla Taiwan 與全國中小學校園自由軟體應用諮詢中心合作，將在十二月於北中南三地各舉辦一場教師研習。時程表將於近日公佈。</p>
     </div>
-  <div id="street" class="information">
+  <div id="street">
     <h2><img src="/images/firefox-ko_32.png" alt="" name="streeticon" id="streeticon"/>目擊 Firefox！</h2>
     <p>行人注意！火狐子與雷鳥子將出現在台灣街頭，請密切注意相關消息！</p>
+  </div>
   </div>
   <div id="sponsor">
     <h2>熱情贊助：</h2>

@@ -13,31 +13,30 @@
 <!--
 /* Start -- Firefox 2 launch event Promote*/
 .front-feature-fx2special {
-	background: #E4EcEc url(file:///C:/feature-foxtwet.jpg) bottom center no-repeat;
+	background: #E4EcEc url(/images/feature-firefox-2-party.jpg) bottom center no-repeat;
 	height: 230px;
 	position: relative;
 }
 #front-feature #feature-content {
-	padding: 6px 380px 6px 10px !important;
-	height: 218px;
+	padding: 6px 0px !important;
+	height: 226px;
 }
 #front-feature #feature-content h2{
-	font-size: 1.2em;
-	height: 218px
+	font-size: 1.5em;
 	margin: 0; padding: 0;
 }
 #front-feature #feature-content a {
+	display: block;
+	height: 226px;
+	width: 100%;
+}
+#feature-content a:hover {
+	background: transparent;
+}
+#feature-content span {
 	position: absolute;
 	bottom: 10px;
 	display: block;
-	width: auto;
-}
-#front-feature #feature-content span {
-	display: block;
-	width: auto;
-	background-color: #fff;
-	border: 1px black solid;
-	padding: 3px;
 }
 
 /* End -- Firefox 2 launch event Promote*/
@@ -49,7 +48,7 @@
 <div class="key-point front-feature-fx2special" id="front-feature">
 
   <div id="feature-content">
-    <h2><a href="/firefox/events.shtml"><span>Firefox 2 活動，熱鬧展開！</span></a></h2>
+    <h2><a href="/firefox/events.shtml"><img src="images/event-firefox-2-events.png" alt="Taiwan Firefox 2 火狐月！" width="242" height="54"></a></h2>
   </div>
 </div>
 
