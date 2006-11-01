@@ -109,7 +109,7 @@ div.information table td{
 #sponsor {
 	background: transparent url(/images/gray-corner-box.jpg) left top no-repeat;
 	padding: 5px 5px 5px;
-	margin: auto 1%;
+	margin: 50px 1% auto;
 }
 #sponsor h2 {
 	font-size: 1.2em;
