@@ -26,7 +26,7 @@
 }
 
 #sponsor ul.logo li{
-	height: 35px;
+	height: 40px;
 	margin: .2em .3em;
 }
 </style>
@@ -184,15 +184,23 @@
     <p>行人注意！火狐子與雷鳥子將出現在台灣街頭，請密切注意相關消息！</p>
   </div>
   <div id="sponsor">
+    <h2>熱情贊助：</h2>
+    <ul class="logo">
+      <li><a href="http://www.ttn.com.tw/"><img src="sponsor/ttn.png" alt="TTN 台灣電訊" height="405" border="0"></a></li>
+      <li><a href="http://www.seed.net.tw/"><img src="sponsor/seednet.png" alt="SeedNet"  height="40" border="0"></a></li>
+      <li>無名小站</li>
+      <li>中華電信</li>
+       <li>Songbirdnest.com</li>
+    </ul>
 	<h2>協辦單位：</h2>
     <ul class="logo">
-      <li><a href="http://www.openfoundry.org/"><img src="sponsor/ossf-logo.png" alt="自由軟體鑄造場"  height="35" border="0"></a></li>
-      <li><a href="http://www.ossacc.org"><img src="sponsor/ossacc.png" height="35" alt="全國中小學校園自由軟體應用諮詢中心"></a></li>
+      <li><a href="http://www.openfoundry.org/"><img src="sponsor/ossf-logo.png" alt="自由軟體鑄造場"  height="40" border="0"></a></li>
+      <li><a href="http://www.ossacc.org"><img src="sponsor/ossacc.png" height="40" alt="全國中小學校園自由軟體應用諮詢中心"></a></li>
     </ul>
 	<h2>合作學校：</h2>
     <ul>
       <li><a href="telnet://sony.tfcis.org">臺南一中資訊社</a></li>
-      <li><a href="http://www.fg.tp.edu.tw/~fgisc/fgisc20th/">北一女中資研社</a></li>
+      <li><a href="http://www.fg.tp.edu.tw/~fgisc/fgisc20th/">北一資研社</a></li>
       <li><a href="http://ckeisc.org">建中電研社</a></li>
       <li><a href="http://cdpa.nsysu.edu.tw/">中山大學網推會</a></li>
       <li><a href="http://www2.nsysu.edu.tw/cc/">中山大學計中</a></li>
@@ -202,14 +210,6 @@
       <li><a href="http://www.cgucccc.org/">長庚大學資策會</a></li>
       <li><a href="http://www.cna.ccu.edu.tw/">中正大學網策會</a></li>
       <li></li>
-    </ul>
-    <h2>熱情贊助：</h2>
-    <ul class="logo">
-      <li><a href="http://www.ttn.com.tw/"><img src="sponsor/ttn.png" alt="TTN 台灣電訊" height="35" border="0"></a></li>
-      <li><a href="http://www.seed.net.tw/"><img src="sponsor/seednet.png" alt="SeedNet"  height="35" border="0"></a></li>
-      <li>無名小站</li>
-      <li>中華電信</li>
-       <li>Songbirdnest.com</li>
     </ul>
     <br style="clear: both"/>
   </div>

@@ -115,16 +115,17 @@ div.information table td{
 	font-size: 1.2em;
 	margin:0;
 	border-bottom: none;
-	clear: both;
+	clear: left;
+	width: 6em;
 }
 #sponsor ul{
-	margin:1em 0; padding:0; list-style: none;
-	clear: both;
+	margin:1em 0 1em 7em; padding:0; list-style: none;
+	clear: right;
 }
 #sponsor ul li{
 	display: block;
 	float: left;
-	margin: .2em 1em;
+	margin: .5em 1em;
 }
 #sponsor ul li a{
 	display: block;
@@ -132,6 +133,6 @@ div.information table td{
 	width: 100%;
 }
 #sponsor ul.logo li{
-	height: 50px;
+	height: 40px;
 	margin: .2em .3em;
 }
