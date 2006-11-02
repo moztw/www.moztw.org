@@ -55,7 +55,7 @@
     </ul>
     <h3>協力推廣</h3>
 <p><a href="http://moztw.org/events/firefox2party/" title="參加 Firefox 2 火狐月活動!"><img src="/images/fpxtwetbutton.png" width="80" height="15" alt="參加火狐月!"/></a></p>
-<textarea onfocus="this.select();" style="width: 200px;">&lt;a href=&quot;http://moztw.org/events/firefox2party/&quot; title=&quot;參加 Firefox 2 火狐月活動!&quot;&gt;&lt;img src=&quot;http://moztw.org/images/fpxtwetbutton.png&quot; width=&quot;80&quot; height=&quot;15&quot; alt=&quot;參加火狐月!&quot;/&gt;&lt;/a&gt;</textarea>
+<textarea onfocus="this.select();" style="width: 450px;">&lt;a href=&quot;http://moztw.org/events/firefox2party/&quot; title=&quot;參加 Firefox 2 火狐月活動!&quot;&gt;&lt;img src=&quot;http://moztw.org/images/fpxtwetbutton.png&quot; width=&quot;80&quot; height=&quot;15&quot; alt=&quot;參加火狐月!&quot;/&gt;&lt;/a&gt;</textarea>
     <p>呼朋引伴趁今朝！使用由社群成員熱情支援的 <a href="http://forum.moztw.org/viewtopic.php?p=88654">推廣圖 及 MSN 顯示圖片</a>，拉朋友一起來 Party！</p>
   </div>
   <div id="campus">
