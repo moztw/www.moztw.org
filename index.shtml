@@ -1,4 +1,4 @@
-<!--#include virtual="/inc/meta.html" -->
+﻿<!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 
@@ -65,7 +65,7 @@
   <div class="frontcolumn">
     <h2><a href="/firefox/">Firefox 2</a></h2>
     <a href="/firefox/"><img src="/images/product-firefox.png" alt="Firefox" class="promo" width="60" height="60"></a>
-	<p>備受肯定的 <a href="/firefox/">Firefox</a> 瀏覽器再掀波韜！更穩定、更靈巧的 Firefox 2 升級搜尋、分頁等功能，更增加防止詐騙網站、即時拼字檢查等特色。</p>
+	<p>備受肯定的 <a href="/firefox/">Firefox</a> 瀏覽器再掀波濤！更穩定、更靈巧的 Firefox 2 升級搜尋、分頁等功能，更增加防止詐騙網站、即時拼字檢查等特色。</p>
   </div>
   <div class="frontcolumn">
     <h2><a href="/thunderbird/">Thunderbird 1.0.6 (中)</a></h2>
