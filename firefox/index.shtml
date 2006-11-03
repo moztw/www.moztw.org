@@ -1,4 +1,4 @@
-<!--#include virtual="/inc/meta.html" -->
+﻿<!--#include virtual="/inc/meta.html" -->
 <title>Mozilla Firefox 中文版 - 網路生活的全新體驗 - Mozilla Taiwan, MozTW.org</title>
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
@@ -104,7 +104,11 @@
     <h3>獲獎</h3>
     <div style="margin: 6px 0pt 0pt 4px;">
 
-	<a href="http://reviews.cnet.com/Mozilla_Firefox_1_0/4505-9241_7-31117280.html?part=editchoice&amp;subj=Mozilla&amp;tag=logo" target="_blank"><img src="http://i.i.com.com/cnwk.1d/i/cobd/ec/EC_nov04_39x72.gif" alt="CNET 編輯精選－2004年十一月： Firefox1.0" border="0" height="72" width="39"></a>      
+<a href="http://reviews.cnet.com/Firefox_2/4505-9241_7-32126746.html" target="_blank"><img src="/images/ec_seal_1006.gif" alt="CNET 編輯精選 (2006.10) - Firefox 2.0" border="0" height="72"/></a>  
+
+<a href="http://www.pcmag.com/article2/0,1895,2047445,00.asp" target="_blank"><img src="/images/pcm_exec_sum_ec.gif" alt="PC Magazine 編輯精選 (2006.10) - Firefox 2.0" border="0" height="72"/></a>      
+	<a href="http://reviews.cnet.com/Mozilla_Firefox_1_0/4505-9241_7-31117280.html?part=editchoice&amp;subj=Mozilla&amp;tag=logo" target="_blank"><img src="http://i.i.com.com/cnwk.1d/i/cobd/ecimages/EC_nov04_39x72.gif" alt="CNET 編輯精選 (2004.11) - Firefox 1.0" border="0" height="72" width="39"></a>      
+    
     </div>
 </div>
 <!--#include virtual="/inc/footer.html" -->
