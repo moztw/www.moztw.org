@@ -17,11 +17,11 @@
   <div id="mainContent">
     <div class="item-block"><img name="partyicon" src="/images/star_32.png" width="32" height="32" alt="">
       <h3><a href="#party">火狐大轟趴 2.0</a> </h3>
-      <p>11/12 與同好喝茶聊天吃蛋糕，慶祝 Firefox 2 誕生還有豐富紀念品可拿，<a href="#signup">立刻報名！</a></p>
+      <p>11/12 與同好喝茶聊天吃蛋糕，慶祝 Firefox 2 誕生還有豐富紀念品可拿，<a href="#signup">立刻報名！</a> <span class="update">UPDATE: 賀人數爆表...</span></p>
     </div>
     <div class="item-block"><img src="/images/toy_gold_32.png" alt="" name="campusicon" width="32" height="32" id="campusicon" />
       <h3><a href="#campus">校園巡迴推廣講座</a></h3>
-      <p>想多認識 Firefox 2？參加 Firefox 校園巡迴推廣講座，再造網路新體驗！</p>
+      <p>想多認識 Firefox 2？參加 Firefox 校園巡迴推廣講座，再造網路新體驗！<span class="update">UPDATE: 教師研習訊息發表!</span></p>
     </div>
     <div id="street-block" class="item-block"><img src="/images/firefox-ko_32.png" alt="" name="streeticon" width="32" height="32" id="streeticon"/>
       <h3><a href="#street">目擊 Firefox！</a></h3>
@@ -40,8 +40,8 @@
       <li>滿載紀念品而歸是一定要的啊！</li>
     </ul>
     <h3 id="signup">報名</h3>
-    </p>
-    <p>完全免費，<a href="http://wiki.moztw.org/index.php/Firefox_2_Go_Launch_Party" title="Wiki 報名頁">速至 Wiki 報名</a>！</p>
+    
+    <p>完全免費，<a href="http://wiki.moztw.org/index.php/Firefox_2_Go_Launch_Party" title="Wiki 報名頁">速至 Wiki 報名</a>！<span class="update">大會報告，報名人數兩天內<strong>迅速爆表</strong>，您還是可以前往 Wiki/來信 登記候補，但 T-shirt 可能就要期待抽獎囉！</span></p>
     <p>不會用 Wiki？可以<a href="http://wiki.moztw.org/index.php/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%94%A8%E7%B6%AD%E5%AE%A2%E5%B0%B1%E4%B8%8A%E6%89%8B" title="第一次用 Wiki 就上手">現學現賣</a>，或<a href="mailto:bobchao+party@mail.moztw.org?subject=我要報名啦！">來信報名</a> <strong>(請註明您的姓名、性別、衣服尺寸)</strong>。 </p>
     <h3>資訊</h3>
     <ul>
@@ -84,7 +84,7 @@
         <td>中山大學</td>
         <td>計中 B1 電腦教室</td>
         <td>CDPA社課</td>
-        <td><a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (中山大學)&dates=20061123T120000Z/20061123T140000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能&location=計中B1電腦教室&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
+        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (中山大學)&dates=20061123T120000Z/20061123T140000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能&location=計中B1電腦教室&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
       </tr>
       <tr>
         <td>11/24</td>
@@ -100,7 +100,7 @@
         <td>義守大學</td>
         <td>電腦教室/演講廳</td>
         <td>地點確認中</td>
-        <td><a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (義守大學)&dates=20061205T110000Z/20061205T124500Z&details=Mozilla Taiwan 介紹 Firefox 2 功能 (地點確認中)&location=電腦教室or演講廳&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
+        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (義守大學)&dates=20061205T110000Z/20061205T124500Z&details=Mozilla Taiwan 介紹 Firefox 2 功能 (地點確認中)&location=電腦教室or演講廳&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
       </tr>
       <tr>
         <td>12/06</td>
@@ -108,7 +108,7 @@
         <td>長庚大學</td>
         <td>管院 3F 電腦教室(二)</td>
         <td>資策會講座課<br/>(具通識認證)</td>
-        <td><a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (長庚大學)&dates=20061206T103000Z/20061206T120000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能 (資策會講座課, 具通識認證)&location=管院三樓電腦教室(二)&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
+        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (長庚大學)&dates=20061206T103000Z/20061206T120000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能 (資策會講座課, 具通識認證)&location=管院三樓電腦教室(二)&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
       </tr>
       <tr>
         <td>12/07</td>
@@ -116,7 +116,7 @@
         <td>高雄第一科技大學</td>
         <td>綜合大樓B1階梯教室</td>
         <td>&nbsp;</td>
-        <td><a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (高科大)&dates=20061207T053000Z/20061207T073000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能&location=綜合大樓 B1 階梯教室&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
+        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (高科大)&dates=20061207T053000Z/20061207T073000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能&location=綜合大樓 B1 階梯教室&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
       </tr>
       <tr>
         <td>12/07</td>
@@ -132,7 +132,7 @@
         <td>高雄三民高中</td>
         <td>西側大樓 3F 電腦教室</td>
         <td>資研社社課</td>
-        <td><a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (高雄三民高中)&dates=20061215T073000Z/20061215T090000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能 (資研社社課)&location=西側大樓 3F 電腦教室&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
+        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (高雄三民高中)&dates=20061215T073000Z/20061215T090000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能 (資研社社課)&location=西側大樓 3F 電腦教室&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
       </tr>
       <tr>
         <td>12/19</td>
@@ -140,7 +140,7 @@
         <td>台北第一女中</td>
         <td>至善二樓210電腦教室</td>
         <td>資研社社課</td>
-        <td><a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (北一女)&dates=20061219T092000Z/20061219T105000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能 (資研社社課)&location=至善二樓210電腦教室&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
+        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (北一女)&dates=20061219T092000Z/20061219T105000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能 (資研社社課)&location=至善二樓210電腦教室&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
       </tr>
       <tr>
         <td>12/22</td>
@@ -148,20 +148,62 @@
         <td>建國中學</td>
         <td>莊敬樓 4F 會議室</td>
         <td>&nbsp;</td>
-        <td><a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (建國中學)&dates=20061222T070000Z/20061222T090000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能&location=莊敬樓 4F 會議室&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
+        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (建國中學)&dates=20061222T070000Z/20061222T090000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能&location=莊敬樓 4F 會議室&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
       </tr>
       <tr>
         <td>12/23</td>
         <td>14:00-16:00</td>
         <td>台南一中</td>
         <td>綜合教育大樓 3F 302 教室</td>
-        <td>*</td>
-        <td><a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (南一中)&dates=20061223T060000Z/20061223T080000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能&location=綜合教育大樓三樓 302 教室&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
+        <td>&nbsp;</td>
+        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (南一中)&dates=20061223T060000Z/20061223T080000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能&location=綜合教育大樓三樓 302 教室&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
       </tr>
     </table>
     <p>* 歡迎有興趣配合的學校／社團接洽推廣講座。經費有限、場次已近額滿，<a href="mailto:bobchao+campus@mail.moztw.org">請速來信</a>！</p>
     <h3>教師研習</h3>
-    <p>Mozilla Taiwan 與全國中小學校園自由軟體應用諮詢中心合作，將在十二月於北中南三地各舉辦一場教師研習。時程表將於近日公佈。</p>
+    <p>Mozilla Taiwan 與全國中小學校園自由軟體應用諮詢中心合作，將在十二月於北中南三地各舉辦一場 Firefox 2 教師研習課程。台北台中的行程已經敲定，資料及報名網址如下 (報名前請先閱讀 <a href="http://www.ossacc.org/Announcement/Training/roster">OSSACC 課程報名相關事宜</a>)：</p>
+
+    <table border="0" cellspacing="0" cellpadding="3">
+      <tr>
+<th scope="col">場次</th>
+        <th scope="col">日期</th>
+        <th scope="col">時間</th>
+        <th scope="col">地點</th>
+        <th scope="col">報名</th>
+<th scope="col">截止日期</th> 
+       <th scope="col">行事曆</th>
+      </tr>
+<tr>
+<td>台中場</td>
+        <td>12/09</td>
+        <td>13:30-16:30</td>
+        <td>清水國小</td>
+        <td><a href="http://www.ossacc.org/Announcement/Training/EduRegForm?course_id=MOZ2A061">我要報名</a></td>
+        <td>2006/12/01 截止</td>
+        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 教師研習 (台中場)&dates=20061209T053000Z/20061209T083000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能&location=清水國小&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan &amp; OSSACC" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
+</tr>
+<tr>
+<td>台北場</td>
+        <td>12/13</td>
+        <td>13:30-16:30</td>
+        <td>五常國中</td>
+        <td><a href="http://www.ossacc.org/Announcement/Training/EduRegForm?course_id=MOZ2A3101">我要報名</a></td>
+        <td>2006/12/05 截止</td>
+        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 教師研習 (台北場)&dates=20061213T053000Z/20061213T083000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能&location=五常國中&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan &amp; OSSACC" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
+</tr>
+<!--
+<tr>
+ <td>高雄場</td>
+        <td>12/**</td>
+        <td>13:30-16:30</td>
+        <td>中山國中</td>
+        <td><a href="http://www.ossacc.org/Announcement/Training/EduRegForm?course_id=MOZ2*****">我要報名</a></td>
+        <td>2006/12/05 截止</td>
+        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 教師研習 (台北場)&dates=200612**T053000Z/200612**T083000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能&location=中山國中&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan &amp; OSSACC" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
+</tr>-->
+</table>
+
+<p>* 高雄行程最後洽談中，近日公佈。</p>
     </div>
   <div id="street">
     <h2><img src="/images/firefox-ko_32.png" alt="" name="streeticon" id="streeticon"/>目擊 Firefox！</h2>
