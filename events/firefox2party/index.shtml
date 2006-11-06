@@ -2,7 +2,6 @@
 <title>Firefox 2 Go! 慶祝活動 - Mozilla Taiwan</title>
 <link rel="stylesheet" type="text/css" href="firefox2party.css" media="screen">
 <!--#include virtual="/inc/class_press.html" -->
-<div id="container">
 <!--#include virtual="/inc/header.html" -->
   <div class="key-point">
     <div id="feature">
@@ -241,6 +240,5 @@
       <li></li>
     </ul>
     <br style="clear: both">
-  </div>
   </div>
   <!--#include virtual="/inc/footer.html" -->
