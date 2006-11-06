@@ -9,7 +9,7 @@
 #front-feature .download ul {
 	padding-left: 80px;
 }-->
-<style >
+<style type="text/css">
 <!--
 /* Start -- Firefox 2 launch event Promote*/
 .front-feature-fx2special {

@@ -65,7 +65,7 @@
 </div>
 <div id="side" class="right">
     <h3>火狐大轟趴 2.0 </h3>
-    <p><a href="../events/firefox2party/index.shtml"><img src="../images/firefox2party-tw-small.png" alt="Firefox 2 Party 火狐大轟趴 2.0" width="300" height="88" border="0"></a> </p>
+    <p><a href="../events/firefox2party/index.shtml"><img src="../images/firefox2party-tw-small.png" alt="Firefox 2 Party 火狐大轟趴 2.0" width="300" height="88"></a> </p>
     <h3>中文社群資源</h3>
     <ul class="compact">
 	<li><a href="http://wiki.moztw.org/index.php?title=FAQ:Firefox">常見問題解答</a></li>
@@ -104,9 +104,9 @@
     <h3>獲獎</h3>
     <div style="margin: 6px 0pt 0pt 4px;">
 
-<a href="http://reviews.cnet.com/Firefox_2/4505-9241_7-32126746.html" target="_blank"><img src="/images/ec_seal_1006.gif" alt="CNET 編輯精選 (2006.10) - Firefox 2.0" border="0"/></a>  
+<a href="http://reviews.cnet.com/Firefox_2/4505-9241_7-32126746.html"><img src="/images/ec_seal_1006.gif" alt="CNET 編輯精選 (2006.10) - Firefox 2.0" border="0"/></a>  
 
-<a href="http://www.pcmag.com/article2/0,1895,2047445,00.asp" target="_blank"><img src="/images/pcm_exec_sum_ec.gif" alt="PC Magazine 編輯精選 (2006.10) - Firefox 2.0" border="0"/></a>      
+<a href="http://www.pcmag.com/article2/0,1895,2047445,00.asp"><img src="/images/pcm_exec_sum_ec.gif" alt="PC Magazine 編輯精選 (2006.10) - Firefox 2.0" border="0"/></a>      
 	
     
     </div>
