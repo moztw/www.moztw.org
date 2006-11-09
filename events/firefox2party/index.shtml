@@ -16,11 +16,11 @@
   <div id="mainContent">
     <div class="item-block"><img name="partyicon" src="/images/star_32.png" width="32" height="32" alt="">
       <h3><a href="#party">火狐大轟趴 2.0</a> </h3>
-      <p>11/12 與同好喝茶聊天吃蛋糕，慶祝 Firefox 2 誕生還有豐富紀念品可拿，<a href="#signup">立刻報名！</a> <span class="update">UPDATE: 賀人數爆表...</span></p>
+      <p>11/12 與同好喝茶聊天吃蛋糕，慶祝 Firefox 2 誕生還有豐富紀念品可拿，立刻報名！ <span class="update">UPDATE: 人數爆滿，下回請早～</span></p>
     </div>
     <div class="item-block"><img src="/images/toy_gold_32.png" alt="" name="campusicon" width="32" height="32" id="campusicon">
       <h3><a href="#campus">校園巡迴推廣講座</a></h3>
-      <p>想多認識 Firefox 2？參加 Firefox 校園巡迴推廣講座，再造網路新體驗！<span class="update">UPDATE: 教師研習訊息發表!</span></p>
+      <p>想多認識 Firefox 2？參加 Firefox <a href="#campus_student">學生講座</a>及<a href="#campus_teacher">教師研習</a>，再造網路新體驗！<span class="update">UPDATE: 教師研習訊息發表!</span></p>
     </div>
     <div id="street-block" class="item-block"><img src="/images/firefox-ko_32.png" alt="" name="streeticon" width="32" height="32" id="streeticon">
       <h3><a href="#street">目擊 Firefox！</a></h3>
@@ -40,8 +40,10 @@
     </ul>
     <h3 id="signup">報名</h3>
     
-    <p>完全免費，<a href="http://wiki.moztw.org/index.php/Firefox_2_Go_Launch_Party" title="Wiki 報名頁">速至 Wiki 報名</a>！<span class="update">大會報告，報名人數兩天內<strong>迅速爆表</strong>，您還是可以前往 Wiki/來信 登記候補，但 T-shirt 可能就要期待抽獎囉！</span></p>
-    <p>不會用 Wiki？可以<a href="http://wiki.moztw.org/index.php/%E7%AC%AC%E4%B8%80%E6%AC%A1%E7%94%A8%E7%B6%AD%E5%AE%A2%E5%B0%B1%E4%B8%8A%E6%89%8B" title="第一次用 Wiki 就上手">現學現賣</a>，或<a href="mailto:bobchao+party@mail.moztw.org?subject=我要報名啦！">來信報名</a> <strong>(請註明您的姓名、性別、衣服尺寸)</strong>。 </p>
+    <p>由於人數大爆滿，現已截止報名，您可至<a href="http://wiki.moztw.org/index.php/Firefox_2_Go_Launch_Party" title="Wiki 報名頁"> Wiki 查閱報名狀況</a>！ </p>
+    <ul>
+      <li>日前報名的朋友，請至 Wiki 查閱您的編號及報到注意事項！</li>
+    </ul>
     <h3>資訊</h3>
     <ul>
       <li>日期時間：11/12 中午12:30~14:30 <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=火狐大轟趴 2.0&amp;dates=20061112T040000Z/20061112T063000Z&amp;details=信義誠品六樓「The Library」12%3A00 開始進場，12%3A30 正式開始&amp;location=信義誠品 6F「The Library」(台北市信義區松高路11號)&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a><br>
@@ -65,7 +67,7 @@
       <li>更快、更好、更方便的使用小技巧</li>
       <li>幫 Firefox 「長」功能 － 附加元件篇</li>
     </ul>
-    <h3>學生講座一覽表</h3>
+    <h3 id="campus_student">學生講座一覽表</h3>
     <p>以下為已經排定的講座，陸續增加中：</p>
     <table border="0" cellspacing="0" cellpadding="3">
       <tr>
@@ -158,7 +160,7 @@
       </tr>
     </table>
     <p>* 歡迎有興趣配合的學校／社團接洽推廣講座。經費有限、場次已近額滿，<a href="mailto:bobchao+campus@mail.moztw.org">請速來信</a>！</p>
-    <h3>教師研習</h3>
+    <h3 id="campus_teacher">教師研習</h3>
     <p>Mozilla Taiwan 與全國中小學校園自由軟體應用諮詢中心合作，將在十二月於北中南三地各舉辦一場 Firefox 2 教師研習課程。台北台中的行程已經敲定，資料及報名網址如下 (報名前請先閱讀 <a href="http://www.ossacc.org/Announcement/Training/roster">OSSACC 課程報名相關事宜</a>)：</p>
 
     <table border="0" cellspacing="0" cellpadding="3">
@@ -192,16 +194,14 @@
 <!--
 <tr>
  <td>高雄場</td>
-        <td>12/**</td>
-        <td>13:30-16:30</td>
+        <td>01/06</td>
+        <td>09:00-12:00</td>
         <td>中山國中</td>
         <td><a href="http://www.ossacc.org/Announcement/Training/EduRegForm?course_id=MOZ2*****">我要報名</a></td>
         <td>2006/12/05 截止</td>
-        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 教師研習 (台北場)&amp;dates=200612**T053000Z/200612**T083000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能&amp;location=中山國中&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan &amp; OSSACC" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></td>
+        <td><a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 教師研習 (高雄場)&amp;dates=20070106T010000Z/20070106T040000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能&amp;location=中山國中&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan &amp; OSSACC" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></td>
 </tr>-->
 </table>
-
-<p>* 高雄行程最後洽談中，近日公佈。</p>
     </div>
   <div id="street">
     <h2><img src="/images/firefox-ko_32.png" alt="">目擊 Firefox！</h2>
@@ -213,16 +213,19 @@
     <ul class="logo">
       <li><a href="http://www.ttn.com.tw/"><img src="sponsor/ttn.png" alt="TTN 台灣電訊" width="114" height="40"></a></li>
       <li><a href="http://www.mw.net.tw/"><img src="sponsor/mawa.png" alt="MAWA" width="63" height="40"></a></li>
-      <li><a href="http://www.seed.net.tw/"><img src="sponsor/seednet.png" alt="SeedNet" width="69"  height="40"></a></li>
+      <li><a href="http://www.seed.net.tw/"><img src="sponsor/seednet.png" alt="SeedNet" width="89"  height="40"></a></li>
       <li><a href="http://www.wretch.cc"><img src="sponsor/wretch.png" alt="無名小站" width="104" height="40"></a></li>
-      <li><a href="http://www.hinet.net/"><img src="sponsor/hinet.png" alt="HiNet" name="HiNet" width="77" height="40"></a></li>
-      <li><a href="http://www.xuite.net/"><img src="sponsor/xuite.png" alt="Xuite" name="xuite" width="91" height="40"></a></li>
+      <li><a href="http://www.hinet.net/"><img src="sponsor/hinet.png" alt="HiNet" width="77" height="40"></a></li>
+      <li><a href="http://www.xuite.net/"><img src="sponsor/xuite.png" alt="Xuite" width="91" height="40"></a></li>
        <li><a href="http://www.songbirdnest.com"><img src="sponsor/songbirdnest.png" alt="Songbirdnest.com" width="97" height="40"></a></li>
+       <li><a href="http://www.bnext.com.tw/"><img src="sponsor/bnext.png" alt="BNEXT" width="104" height="40"></a></li>
     </ul>
 	<h2>協辦單位：</h2>
     <ul class="logo">
       <li><a href="http://www.openfoundry.org/"><img src="sponsor/ossf-logo.png" alt="自由軟體鑄造場" width="154"  height="40"></a></li>
       <li><a href="http://www.ossacc.org"><img src="sponsor/ossacc.png" alt="全國中小學校園自由軟體應用諮詢中心" width="68" height="40"></a></li>
+	  <li>淡江大學<br>
+      田野調查研究室</li>
     </ul>
 	<h2>合作學校：</h2>
     <ul>
