@@ -131,14 +131,14 @@
         <td>資研社社課</td>
         <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (高雄三民高中)&amp;dates=20061215T073000Z/20061215T090000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能 (資研社社課)&amp;location=西側大樓 3F 電腦教室&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></td>
       </tr>
-     <!--<tr>
+     <tr>
         <td>12/21</td>
         <td>17:20-18:50</td>
         <td>台北第一女中</td>
         <td>至善二樓210電腦教室</td>
         <td>資研社社課</td>
         <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (北一女)&amp;dates=20061221T092000Z/20061221T105000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能 (資研社社課)&amp;location=至善二樓210電腦教室&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></td>
-      </tr>-->
+      </tr>
       <tr>
         <td>12/22</td>
         <td>15:00-17:00</td>
@@ -273,7 +273,7 @@
 <li><a href="http://bm.nsysu.edu.tw/">中山大學企管系學會</a></li>
 <li><a href="http://www.nksh.tp.edu.tw/">台北市立南港高中</a></li>
 <li><a href="http://ckshcnca.cksh.tp.edu.tw">成功高中網策會</a></li>
-<li><a href="http://www.cyut.edu.tw/admin/cc/">朝陽科技大學計中</a></li>
+<li><a href="http://www.cyut.edu.tw/cc">朝陽科技大學計中</a></li>
 <li>(陸續洽談中)</li>
       <li></li>
     </ul>
