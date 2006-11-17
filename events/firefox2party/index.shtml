@@ -60,11 +60,19 @@
       </tr>
       <tr>
         <td>11/24</td>
+        <td>10:00-11:30</td>
+        <td>高雄應用科技大學</td>
+        <td>*</td>
+        <td>&nbsp;</td>
+        <td><!--<a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (高應大)&amp;dates=20061124T020000Z/20061124T033000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能 &amp;location={未定}&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a>--> </td>
+      </tr>
+      <tr>
+        <td>11/24</td>
         <td>13:30-15:00</td>
         <td>TWAREN 研討會 </td>
         <td>計中 B1 視訊研討室</td>
         <td>&nbsp;</td>
-        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox 推廣講座 (TWAREN 研討會)&dates=20061124T053000Z/20061124T070000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能 (TWAREN 研討會)&location=計中 B1 視訊研討室&trp=true&sprop=http%3A//moztw.org&sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
+        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (TWAREN 研討會)&amp;dates=20061124T053000Z/20061124T070000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能 (TWAREN 研討會)&amp;location=計中 B1 視訊研討室&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
       </tr>
       <tr>
         <td>12/01</td>
@@ -262,7 +270,7 @@
     <ul>
       <li><a href="telnet://sony.tfcis.org">臺南一中資訊社</a></li>
       <li><a href="http://www.fg.tp.edu.tw/~fgisc/fgisc20th/">北一資研社</a></li>
-      <li><a href="http://ckeisc.org">建中電研社</a></li>
+      <li><a href="telnet://StandAway.twbbs.org">建中電研社</a></li>
       <li><a href="http://cdpa.nsysu.edu.tw/">中山大學網推會</a></li>
       <li><a href="http://www2.nsysu.edu.tw/cc/">中山大學計中</a></li>
       <li><a href="http://www.mis.nkfust.edu.tw/">高科大資管系&amp;系學會網路部</a></li>
@@ -274,6 +282,7 @@
 <li><a href="http://www.nksh.tp.edu.tw/">台北市立南港高中</a></li>
 <li><a href="http://ckshcnca.cksh.tp.edu.tw">成功高中網策會</a></li>
 <li><a href="http://www.cyut.edu.tw/cc">朝陽科技大學計中</a></li>
+<li><a href="http://www.cyut.edu.tw/cc">高應大資管系</a></li>
 <li>(陸續洽談中)</li>
       <li></li>
     </ul>
