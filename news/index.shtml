@@ -7,10 +7,12 @@
 <!--#include virtual="/inc/news.html" -->
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
-<li><div class="date"> 10 月 24 </div>
-台灣電訊公司 (TTN) 正式加入 <a href="http://www.mozilla.org/mirrors.html">Mozilla Mirror</a>，成為兩岸三地首家提供 Mozilla 下載服務之商業 ISP。MozTW 感謝 TTN 的支持，也歡迎更多 ISP 加入映射站協助推廣。(<a href="http://mirror.ttn.net/mozilla.org/">TTN Mirror</a>)</li>
-<li><div class="date"> 10 月 13 </div>
-Sunbird 0.3 與 Lightning 0.3 發佈 (<a href="http://forum.moztw.org/viewtopic.php?t=15884">相關討論串</a>)
+	<li><div class="date"> 10 月 29 </div>
+	<a href="http://forum.moztw.org/viewtopic.php?t=16089">火狐 30 秒計畫啟動，送 Firefox 相關紀念品。</a></li>
+	<li><div class="date"> 10 月 24 </div>
+	台灣電訊公司 (TTN) 正式加入 <a href="http://www.mozilla.org/mirrors.html">Mozilla Mirror</a>，成為兩岸三地首家提供 Mozilla 下載服務之商業 ISP。MozTW 感謝 TTN 的支持，也歡迎更多 ISP 加入映射站協助推廣。(<a href="http://mirror.ttn.net/mozilla.org/">TTN Mirror</a>)</li>
+	<li><div class="date"> 10 月 13 </div>
+	Sunbird 0.3 與 Lightning 0.3 發佈 (<a href="http://forum.moztw.org/viewtopic.php?t=15884">相關討論串</a>)
 	<li><div class="date"> 10 月 3 </div>
 	<a href="http://moztw.org/press/moztw-20061003.html">Mozilla.com 與 PCHome 合作推出 Mozilla Firefox for Portal 2.0。</a>
 	<li><div class="date"> 9 月 28 </div>
