@@ -24,7 +24,7 @@
     </div>
     <div id="street-block" class="item-block"><img src="/images/firefox-ko_32.png" alt="" name="streeticon" width="32" height="32" id="streeticon">
       <h3><a href="#street">目擊 Firefox！</a></h3>
-      <p>【網路訊】據不願具名的 MozTW 社群成員指出，火狐子將於 11/26 下午於台北市區某處現身街頭...</p>
+      <p>【網路訊】據不願具名的 MozTW 社群成員指出，火狐子將於 11/26 下午於台北市區某處現身街頭...<span class="update">UPDATE: 新增影片與照片</span></p>
     </div>
   </div>
   <div class="information">
@@ -86,9 +86,9 @@
         <td>12/05</td>
         <td>19:00-20:45</td>
         <td>義守大學</td>
-        <td>電腦教室/演講廳</td>
-        <td>地點確認中</td>
-        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (義守大學)&amp;dates=20061205T110000Z/20061205T124500Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能 (地點確認中)&amp;location=電腦教室or演講廳&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></td>
+        <td>科技大樓3701演講廳</td>
+        <td> </td>
+        <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (義守大學)&amp;dates=20061205T110000Z/20061205T124500Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能&amp;location=科技大樓3701演講廳&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></td>
       </tr>
       <tr>
         <td>12/06</td>
@@ -220,8 +220,9 @@
     </div>
   <div id="street">
     <h2><img src="/images/firefox-ko_32.png" alt="">目擊 Firefox！</h2>
-    <p>【11/14 網路訊】據不願具名的 MozTW 社群成員指出，火狐子將於 11/26 下午於台北市區某處現身街頭，號召路人加入挺狐行列。這名成員說，除了想當然爾會發送「Firefox 2 火速安裝碟」之外，還可能有 Firefox 貼紙及 T-shirt。MozTW 成員 Josesun 再度一臉囧樣，沒有正面證實這項消息。</p>
-	<p>Josesun 接著表示，其了台北之外，MozTW 也正為這位嬌客規劃高雄行程，其他詳細資訊將在火狐月的「目擊 Firefox」區塊持續公佈，一定會給狐狸迷一個完整的交代。</p>
+<p>以下為 11/26 於台北信義區的街頭推廣活動部份相片，感謝幼狼提供：</p>
+	<p><a title="火狐子與雷鳥子" href="http://flickr.com/photos/70005494@N00/308701039/in/datetaken/"><img width="75" height="75" alt="火狐子與雷鳥子" src="http://static.flickr.com/112/308701039_052d4174cd_s.jpg" /></a> <a title="街頭活動" href="http://flickr.com/photos/70005494@N00/308700137/in/datetaken/"><img width="75" height="75" alt="街頭活動" src="http://static.flickr.com/120/308700137_d636a70ad0_s.jpg" /></a> <a title="街頭活動" href="http://flickr.com/photos/70005494@N00/308700472/in/datetaken/"><img width="75" height="75" alt="街頭活動" src="http://static.flickr.com/102/308700472_614acff6c3_s.jpg" /></a> <a title="街頭活動" href="http://flickr.com/photos/70005494@N00/308700229/in/datetaken/"><img width="75" height="75" alt="街頭活動" src="http://static.flickr.com/101/308700229_7b61700a08_s.jpg" /></a> <a title="街頭活動" href="http://flickr.com/photos/70005494@N00/308700681/in/datetaken/"><img width="75" height="75" alt="街頭活動" src="http://static.flickr.com/115/308700681_51fc76781c_s.jpg" /></a> <a title="街頭活動" href="http://flickr.com/photos/70005494@N00/308700885/in/datetaken/"><img width="75" height="75" alt="街頭活動" src="http://static.flickr.com/120/308700885_f1236ecc90_s.jpg" /></a></p>
+<p>其他相片將陸續於 <a href="http://wiki.moztw.org/index.php/Firefox_2_Go_Photos" title="Wiki 照片蒐集中心">Wiki</a> 更新，亦可觀看 <a href="http://chiao.typepad.com/cc20/2006/11/firefox_the_rea.html">Chiao 提供的影片</a>。</p>
   </div><div id="party">
     <h2><img name="partyicon" src="/images/star_32.png" alt="">火狐大轟趴 2.0 - Firefox 2 Taiwan!</h2>
     <p>UPDATE: 火狐大轟趴已經圓滿結束囉！您可以<a href="http://wiki.moztw.org/index.php/Firefox_2_Go_Photos" title="Wiki 照片蒐集中心">瀏覽活動照片</a>或<a href="http://wiki.moztw.org/index.php?title=Firefox_2_Go_Photos&action=edit&section=2" title="新增相簿網址">加上您的相簿連結</a>。各種火狐月相關照片請加上「fxpartytw」標籤。</p>
