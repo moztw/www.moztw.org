@@ -20,11 +20,11 @@
     </div>
     <div class="item-block"><img src="/images/toy_gold_32.png" alt="" name="campusicon" width="32" height="32" id="campusicon">
       <h3><a href="#campus">校園巡迴推廣講座</a></h3>
-      <p>想多認識 Firefox 2？參加 Firefox <a href="#campus_student">學生講座</a>及<a href="#campus_teacher">教師研習</a>，再造網路新體驗！<span class="update">UPDATE: 新增朝陽科技大學、高應大等校</span></p>
+      <p>想多認識 Firefox 2？參加 Firefox <a href="#campus_student">學生講座</a>及<a href="#campus_teacher">教師研習</a>，再造網路新體驗！<span class="update">UPDATE: 義守、交大資訊更新</span></p>
     </div>
     <div id="street-block" class="item-block"><img src="/images/firefox-ko_32.png" alt="" name="streeticon" width="32" height="32" id="streeticon">
       <h3><a href="#street">目擊 Firefox！</a></h3>
-      <p>【網路訊】據不願具名的 MozTW 社群成員指出，火狐子將於 11/26 下午於台北市區某處現身街頭...<span class="update">UPDATE: 新增影片與照片</span></p>
+      <p>【網路訊】據不願具名的 MozTW 社群成員指出，火狐子於 11/26 下午於台北市區某處現身街頭...<span class="update">UPDATE: 新增影片與照片</span></p>
     </div>
   </div>
   <div class="information">
@@ -130,7 +130,14 @@
         <td></td>
         <td><!--<a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (朝陽科技大學)&amp;dates=20061208T063000Z/20061208T082000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能&amp;location={地點未定}&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a>--></td>
       </tr>
-      
+      <tr>
+        <td>12/14</td>
+        <td>18:30-20:30</td>
+        <td>交通大學</td>
+        <td>浩然B1國際會議廳</td>
+        <td> </td>
+        <td><a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (交通大學)&amp;dates=20061214T103000Z/20061214T123000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能&amp;location=浩然B1國際會議廳&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></td>
+      </tr> 
       <tr>
         <td>12/15</td>
         <td>15:30-17:00</td>
@@ -284,6 +291,7 @@
 <li><a href="http://ckshcnca.cksh.tp.edu.tw">成功高中網策會</a></li>
 <li><a href="http://www.cyut.edu.tw/cc">朝陽科技大學計中</a></li>
 <li><a href="http://www.mis.kuas.edu.tw">高應大資管系</a></li>
+<li><a href="http://ccca.nctu.edu.tw/">交大網策會</a></li>
 <li>(陸續洽談中)</li>
       <li></li>
     </ul>
