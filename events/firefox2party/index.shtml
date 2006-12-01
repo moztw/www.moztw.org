@@ -50,7 +50,7 @@
         <th scope="col">備註</th>
         <th scope="col">行事曆</th>
       </tr>
-      <tr>
+      <tr class="outdated">
         <td>11/23</td>
         <td>20:00-22:00</td>
         <td>中山大學</td>
@@ -58,7 +58,7 @@
         <td>CDPA社課</td>
         <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (中山大學)&amp;dates=20061123T120000Z/20061123T140000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能&amp;location=計中B1電腦教室&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></td>
       </tr>
-      <tr>
+      <tr class="outdated">
         <td>11/24</td>
         <td>10:00-11:30</td>
         <td>高雄應用科技大學</td>
@@ -66,7 +66,7 @@
         <td>&nbsp;</td>
         <td><a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (高應大)&amp;dates=20061124T020000Z/20061124T033000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能 &amp;location=資管系南306電腦教室&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
       </tr>
-      <tr>
+      <tr class="outdated">
         <td>11/24</td>
         <td>14:30-16:00</td>
         <td>中山大學 </td>
@@ -74,7 +74,7 @@
         <td>TWAREN 研討會</td>
         <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (中山大學 TWAREN 研討會)&amp;dates=20061124T063000Z/20061124T080000Z&details=Mozilla Taiwan 介紹 Firefox 2 功能 (TWAREN 研討會)&amp;location=計中 B1 視訊研討室&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt="" border="0"></a></td>
       </tr>
-      <tr>
+      <tr class="outdated">
         <td>12/01</td>
         <td>15:20-16:50</td>
         <td>南港高中</td>
@@ -128,7 +128,15 @@
         <td>朝陽科技大學</td>
         <td>*</td>
         <td></td>
-        <td><!--<a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (朝陽科技大學)&amp;dates=20061208T063000Z/20061208T082000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能&amp;location={地點未定}&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a>--></td>
+        <td><a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (朝陽科技大學)&amp;dates=20061208T063000Z/20061208T082000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能&amp;location=&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></td>
+      </tr>
+      <tr>
+        <td>12/14</td>
+        <td>13:10-14:10</td>
+        <td>台南二中</td>
+        <td>*</td>
+        <td> </td>
+        <td><a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (台南二中)&amp;dates=20061214T051000Z/20061214T061000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能&amp;location=&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></td>
       </tr>
       <tr>
         <td>12/14</td>
@@ -266,13 +274,13 @@
       <li><a href="http://www.xuite.net/"><img src="sponsor/xuite.png" alt="Xuite" width="91" height="40"></a></li>
        <li><a href="http://www.songbirdnest.com"><img src="sponsor/songbirdnest.png" alt="Songbirdnest.com" width="97" height="40"></a></li>
        <li><a href="http://www.bnext.com.tw/"><img src="sponsor/bnext.png" alt="BNEXT" width="104" height="40"></a></li>
+       <li><img src="sponsor/dfun.png" alt="D-FUN 數位享樂誌" width="118" height="40"></li>
     </ul>
 	<h2>協辦單位：</h2>
     <ul class="logo">
       <li><a href="http://www.openfoundry.org/"><img src="sponsor/ossf-logo.png" alt="自由軟體鑄造場" width="154"  height="40"></a></li>
       <li><a href="http://www.ossacc.org"><img src="sponsor/ossacc.png" alt="全國中小學校園自由軟體應用諮詢中心" width="68" height="40"></a></li>
-	  <li>淡江大學<br>
-      田野調查研究室</li>
+	  <li><img src="sponsor/filogo.png" alt="淡江大學田野調查研究室" width="153" height="40"></li>
     </ul>
 	<h2>合作學校：</h2>
     <ul>
@@ -292,6 +300,7 @@
 <li><a href="http://www.cyut.edu.tw/cc">朝陽科技大學計中</a></li>
 <li><a href="http://www.mis.kuas.edu.tw">高應大資管系</a></li>
 <li><a href="http://ccca.nctu.edu.tw/">交大網策會</a></li>
+<li>台南二中資研社</li>
 <li>(陸續洽談中)</li>
       <li></li>
     </ul>
