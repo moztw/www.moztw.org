@@ -16,7 +16,8 @@
 	<div class="download">
 	    <h3>免費下載</h3>
 	    <!--#include virtual="/inc/dlff.html" -->
-	    </div><ul>
+	</div>
+	<ul>
 	    <li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
 	    <li><a class="ancilliaryLink" href="/firefox/release">版本資訊</a></li>
 	</ul>
@@ -64,7 +65,7 @@
     </dl>
 </div>
 <div id="side" class="right">
-    <h3>火狐大轟趴 2.0 </h3>
+    <h3>大轟趴、講座、街頭活動！ </h3>
     <p><a href="../events/firefox2party/index.shtml"><img src="../images/firefox2party-tw-small.png" alt="Firefox 2 Party 火狐大轟趴 2.0" width="300" height="88"></a> </p>
     <h3>中文社群資源</h3>
     <ul class="compact">
