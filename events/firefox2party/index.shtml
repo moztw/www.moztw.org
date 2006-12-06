@@ -83,7 +83,7 @@
         <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (南港高中)&amp;dates=20061201T072000Z/20061201T085000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能&amp;location=台北市立南港高中&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></td>
       </tr>
       <tr>
-        <td>12/05</td>
+        <td class="outdated">12/05</td>
         <td>19:00-20:45</td>
         <td>義守大學</td>
         <td>科技大樓3701演講廳</td>
@@ -187,6 +187,7 @@
         <td> <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox 推廣講座 (成功高中)&amp;dates=20061227T092000Z/20061227T105000Z&amp;details=Mozilla Taiwan 介紹 Firefox 2 功能&amp;location=求是樓3F電腦教室(2)&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></td>
       </tr>
     </table>
+<p>通用教材: <a href="http://wiki.moztw.org/index.php/Firefox_2_%E6%A0%A1%E5%9C%92%E8%AC%9B%E5%BA%A7%E6%95%99%E6%9D%90">Firefox 2 校園講座教材</a></p>
     <h3 id="campus_teacher">教師研習</h3>
     <p>Mozilla Taiwan 與全國中小學校園自由軟體應用諮詢中心合作，將在北中南三地各舉辦一場 Firefox 2 教師研習課程。各地行程及報名網址如下 (報名前請先閱讀 <a href="http://www.ossacc.org/Announcement/Training/roster">OSSACC 課程報名相關事宜</a>)：</p>
 
