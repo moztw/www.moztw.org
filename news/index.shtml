@@ -7,7 +7,7 @@
 <!--#include virtual="/inc/news.html" -->
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
-  	<div class="date"> 11 月 2 </div>
+  	<li><div class="date"> 11 月 2 </div>
   	<a href="http://moztw.org/events/firefox2party/">火狐月開展</a>，邀請您參加 11/12「火狐大轟趴 2.0」。</li>
 	<li><div class="date"> 10 月 29 </div>
 	<a href="http://forum.moztw.org/viewtopic.php?t=16089">火狐 30 秒計畫啟動，送 Firefox 相關紀念品。</a></li>
