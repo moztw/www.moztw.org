@@ -7,6 +7,8 @@
 <!--#include virtual="/inc/news.html" -->
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+  	<div class="date"> 11 月 2 </div>
+  	<a href="http://moztw.org/events/firefox2party/">火狐月開展</a>，邀請您參加 11/12「火狐大轟趴 2.0」。</li>
 	<li><div class="date"> 10 月 29 </div>
 	<a href="http://forum.moztw.org/viewtopic.php?t=16089">火狐 30 秒計畫啟動，送 Firefox 相關紀念品。</a></li>
 	<li><div class="date"> 10 月 25 </div>
@@ -26,29 +28,29 @@
 	<a href="http://moztw.org/camino/">Camino 1.0.3</a> 及 SeaMonkey 1.0.5 發佈，修正數個安全性弱點。(<a href="http://forum.moztw.org/viewtopic.php?t=15586">討論</a>)
 	<li><div class="date"> 9 月 15 </div>
 	Firefox 1.5.0.7 及 Thunderbird 1.5.0.7 已發佈，修正數個安全性弱點，請由自動更新或下載安裝程式升級。
-	<a href="http://moztw.org/firefox/releases"> 1.5.0.7 新鮮事</a>
+	<a href="http://moztw.org/firefox/releases/1.5.0.7"> 1.5.0.7 新鮮事</a>
 	<li><div class="date"> 9 月 1 </div>
 	想一窺十月才正式發行的 Firefox 2.0 真面目嗎？MozTW 釋出 Firefox 2.0 Beta 2 中文測試版，請至 <a href='http://moztw.org/beta/'>測試區</a>下載。<br/>
 	任何使用上的問題歡迎至 <a href="http://forum.moztw.org/viewforum.php?f=18">討論區</a> 討論。<b style='color:red;'>注意：Beta 2 仍有許多程式錯誤，新手勿試。</b>
 	<li><div class="date"> 8 月 2 </div>
 	Firefox 1.5.0.6 已發佈，修正播放 WMV 影片時的錯誤，請由自動更新或下載安裝程式升級。
-	<a href="http://moztw.org/firefox/releases"> 1.5.0.6 新鮮事</a>
+	<a href="http://moztw.org/firefox/releases/1.5.0.6"> 1.5.0.6 新鮮事</a>
 	<li><div class="date"> 7 月 26 </div>
 	Firefox 1.5.0.5 已發佈，您可透過自動更新升級或由本站下載。
-	<a href="http://moztw.org/firefox/releases"> 1.5.0.5 新鮮事</a>
+	<a href="http://moztw.org/firefox/releases/1.5.0.5"> 1.5.0.5 新鮮事</a>
     <li><div class="date"> 6 月 1 </div>
 	Firefox 1.5.0.4 已發佈，修正數項安全性問題，您可透過自動更新升級或由本站下載。
 	<li><div class="date"> 5 月 11 </div>
 	由社群票選出的第二屆擴充套件 Top 15 已經更新，您可至<a href="http://moztw.org/firefox/extension_top_15/">下載頁</a>下載到全部的 Top 15 擴充套件。
-	<a href="http://moztw.org/firefox/releases"> 1.5.0.4 新鮮事</a>
+	<a href="http://moztw.org/firefox/releases/1.5.0.4"> 1.5.0.4 新鮮事</a>
 	<li><div class="date"> 5 月 4 </div>
 	<a href="http://moztw.org/camino/">Camino</a> 1.0.1 發佈，請至 <a href="http://moztw.org/camino/">Camino 下載頁</a>取得 1.0.1 正體中文套件。
 	<li><div class="date"> 5 月 2 </div>
 	Firefox 1.5.0.3 已經發佈，修正一項嚴重的安全性問題，您可透過自動更新升級到最新版本。
-	<a href="http://moztw.org/firefox/releases"> 1.5.0.3 新鮮事</a>
+	<a href="http://moztw.org/firefox/releases/1.5.0.3"> 1.5.0.3 新鮮事</a>
 	<li><div class="date"> 4 月 14 </div>
     Firefox 1.5.0.2 已經發佈，除了原生支援 Intel-base 的 Mac 電腦也修正數項安全性問題。
-    <a href="http://moztw.org/firefox/releases"> 1.5.0.2 新鮮事</a>
+    <a href="http://moztw.org/firefox/releases/1.5.0.5"> 1.5.0.2 新鮮事</a>
 	<li><div class="date"> 4 月 14 </div>
     Firefox 1.0.8 已經發佈，此版本修正數項安全性問題，此版本也是 1.0.x 的最後一個更新版本。
     <a href="http://moztw.org/firefox/releases/1.0.8/"> 1.0.8 新鮮事</a>
@@ -59,7 +61,7 @@
     <a href="http://moztw.org/camino/">Camino</a> 1.0 已經釋出，此版本修正了上百個錯誤和增加許多新功能。您可至 <a href="http://moztw.org/camino/">Camino 下載頁</a>取得正體中文套件。
     <li><div class="date"> 2 月 9 </div>
     Firefox 1.5.0.1 已經釋出，改善記憶體不斷耗用的問題，您可透過自動更新系統更新或下載完整安裝檔。<br/>
-    <a href="http://moztw.org/firefox/release/"> 1.5.0.1 新鮮事請見此</a>
+    <a href="http://moztw.org/firefox/release/1.5.0.1"> 1.5.0.1 新鮮事請見此</a>
     <li><div class="date"> 1 月 31 </div>
     SeaMonkey 1.0（前稱 Mozilla Suite）已經釋出，提供網路瀏覽、郵件收發、新聞群組閱覽、網頁編輯、IRC 聊天等全方位的網路瀏覽解決方案。</a>
 	<li><div class="date"> 1 月 23 </div>
@@ -69,7 +71,7 @@
     <li><div class="date"> 11 月 30 </div>
     Firefox 1.5 中文版與英文版已同步釋出，
     歡迎立刻更新、加入 1.5 的世界！<br/>
-    <a href="http://moztw.org/firefox/release/"> 1.5 新鮮事請見此</a>
+    <a href="http://moztw.org/firefox/release/1.5"> 1.5 新鮮事請見此</a>
     
     <li><div class="date"> 11 月 30 </div>
     Firefox 1.5 起亞洲地區 (臺灣 韓國 日本 中國)
