@@ -21,7 +21,7 @@
 	          <li><p><b>發行日期：</b> 2006 年 12 月 19 日</p></li>
     	      <li><p><b>安全性修正：</b><a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html#firefox2.0.0.1">數項安全性問題</a>已被修正。</p></li>
     	      <li><p><b>Windows Vista 支援：</b>在<a href="#vista">下列問題尚待解決</a>的前提下支援 Windows Vista。</p></li>
-        	  <li><p><b>Firefox&nbsp;2 新鮮事：</b> 其餘有關 Firefox&nbsp;2 的新功能，請見 <a href="/firefox/2.0/releasenotes/#whatsnew">Firefox&nbsp;2 新鮮事</a>。</p></li>
+        	  <li><p><b>Firefox&nbsp;2 新鮮事：</b> 其餘有關 Firefox&nbsp;2 的新功能，請見 <a href="/firefox/releases/2.0/#whatsnew">Firefox&nbsp;2 新鮮事</a>。</p></li>
 </ul>
 
       <h2 id="downloadandinstall">下載與安裝</h2>
