@@ -9,70 +9,46 @@
 #front-feature .download ul {
 	padding-left: 80px;
 }-->
-<style type="text/css">
-<!--
-/* Start -- Firefox 2 launch event Promote*/
-.front-feature-fx2special {
-	background: #E4EcEc url(/images/feature-firefox-2-party.jpg) bottom center no-repeat;
-	height: 230px;
-	position: relative;
-}
-#front-feature #feature-content {
-	padding: 6px 0px !important;
-	height: 226px;
-}
-#front-feature #feature-content h2{
-	font-size: 1.5em;
-	margin: 0; padding: 0;
-}
-#front-feature #feature-content a {
-	display: block;
-	height: 226px;
-	width: 100%;
-	position: relative;
-}
-#feature-content a:hover {
-	background: transparent;
-}
-#feature-content a img{
-	background: url(/events/firefox2party/bg-alpha.png);
-}
-#feature-content a:hover img{
-	margin: -10px;
-	border: 5px dashed yellow;
-	padding: 5px;
-}
-#feature-content span {
-	position: absolute;
-	bottom: 0px;
-	display: block;
-}
 
-/* End -- Firefox 2 launch event Promote*/
--->
-</style>
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-<div class="key-point front-feature-fx2special" id="front-feature">
-
+<div class="key-point front-feature-cnet" id="front-feature">
+<script type="text/javascript">
+    <!--
+    var classes = new Array("cnet", "wired", "nytimes", "nasa", "slate", "onion");
+    var date = new Date();
+    var seconds;
+    var classid;
+    seconds = date.getSeconds();
+    classid = seconds % classes.length;
+    document.getElementById('front-feature').className = 'key-point front-feature-' + classes[classid];
+    -->
+  </script>
   <div id="feature-content">
-    <h2><a href="/events/firefox2party/" title="前往火狐月首頁"><span><img src="images/event-firefox-2-events.png" alt="Taiwan Firefox 2 火狐月！" width="242" height="54"></span></a></h2>
+    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 2.0" height="51" width="219"></a></h2>
+    <p>獲獎連連的 Firefox 網路瀏覽器，以更快、更安全、更容易自訂的面貌現身，全面升級您的網際瀏覽體驗。 
+</p>
+    <div class="download">
+		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 2 </strong></a></h3>
+ 		<div style='background: url(/images/product-firefox.png) no-repeat;'>
+		<!--#include virtual="/inc/dlff.html" -->
+	</div>
+	</div>
   </div>
 </div>
 
 <div id="mBody">
   <div class="frontcolumn">
-    <h2><a href="/firefox/">Firefox 2</a></h2>
-    <a href="/firefox/"><img src="/images/product-firefox.png" alt="Firefox" class="promo" width="60" height="60"></a>
-	<p>備受肯定的 <a href="/firefox/">Firefox</a> 瀏覽器再掀波濤！更穩定、更靈巧的 Firefox 2 升級搜尋、分頁等功能，更增加防止詐騙網站、即時拼字檢查等特色。</p>
+    <h2><a href="/events/firefox2party/index.shtml">火狐月</a></h2>
+    <a href="/firefox/"><img src="events/firefox2party/ff_all_emoti.gif" width="50" height="34" class="promo"></a>
+	<p>呼朋引伴！<a href="events/firefox2party/index.shtml#campus">Firefox 2 校園推廣講座</a>熱鬧進行中。Firefox Party 及街頭活動照片也不能少，狐狸跟火狐+雷鳥子共襄盛舉！</p>
   </div>
   <div class="frontcolumn">
-    <h2><a href="/thunderbird/">Thunderbird 1.0.6 (中)</a></h2>
+    <h2><a href="/thunderbird/">Thunderbird</a></h2>
     <a href="thunderbird"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
 	<p><a href="/thunderbird/">Thunderbird</a> 
 	是 Mozilla 家族新生代的 e-mail 程式，具有完整的功能，與最新的垃圾信控制。</p>
-	<p><small>英文版為 1.5.0.7 版 (<a href="http://forum.moztw.org/viewtopic.php?t=15609">討論</a>)</small></p>
     
   </div>
   <div class="frontcolumnlast">
