@@ -159,7 +159,7 @@ function hidden_descript(obj) {
 	<blockquote>「第一次用火狐狸時，就覺得好像少了什麼功能，後來才發現是右鍵編碼的功能。」<cite>--社群成員 浩</cite></blockquote>
 	<p>當網頁編碼顯示錯誤時，原本只能從「檢視／語系及字元編碼」裡加以調整，加裝這個套件以後便會直接在右鍵選單中放入語系及字元編碼選單，方便點選。</p>
 	</div>
-	<h3 id="downloadbar">No.6 Download Statusbar 0.9.5</h3>
+	<h3 id="downloadbar">No.6 Download Statusbar 0.9.4.5</h3>
 	<div class="extension-info">
 	<ul>
 		<li><a href="http://downloadstatusbar.mozdev.org/index.html">套件網站</a></li>
