@@ -15,7 +15,7 @@
 
 <div class="key-point front-feature-cwb" id="front-feature">
   <div id="feature-content">
-    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 2.0" height="51" width="219"></a></h2>
+    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 2.0" height="55" width="252"></a></h2>
     <p>獲獎連連的 Firefox 網路瀏覽器，以更快、更安全、更容易自訂的面貌現身，全面升級您的網際瀏覽體驗。 
 </p>
     <div class="download">
@@ -31,7 +31,7 @@
   <div class="frontcolumn">
     <h2><a href="/events/firefox2party/index.shtml">火狐月</a></h2>
     <a href="/firefox/"><img src="events/firefox2party/ff_all_emoti.gif" width="50" height="34" class="promo"></a>
-	<p>回顧火狐月相關活動。</p>
+	<p>回顧 2006 年 11 月起舉辦的火狐月相關活動，含火狐大轟趴、街頭推廣及校園推廣講座的照片。</p>
   </div>
   <div class="frontcolumn">
     <h2><a href="/thunderbird/">Thunderbird</a></h2>
@@ -78,6 +78,7 @@
     	<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
     	<li><a href="http://wiki.moztw.org/index.php?title=Search_Plugins">新增 Firefox 搜尋工具</a></li>
     	<li><a href="http://wiki.moztw.org/index.php?title=Documents">Wiki 文件專案</a></li>
+    	<li><a href="http://wiki.moztw.org/index.php/%E7%B6%B2%E8%B7%AF%E8%B3%87%E6%BA%90">網路資源</a></li>
     </ul>
 	
            

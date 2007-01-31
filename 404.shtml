@@ -3,16 +3,28 @@
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 <div>
-	<h1>404 Not Found / 找不到指定的資源</h1>
-	<p> The requested URL does not exist. Please check or find it again.<p>
-	<p> Looking for <b> mozip </b> ? Try the <a href='/tools'> tools </a> 
+	<h1>404 Not Found  找不到指定的資源</h1>
+	<p>The requested URL does not exist. Please check or find it again.<p>
+	<p>你所指定的網址不存在，請試著重新瀏覽此網站以找到你要的內容。</p>
+	
+	<h2>Are you looking for...</h2>
+	<ul><li> Looking for <strong>mozip</strong> ? Try the <a href='/tools'>tools</a> 
 	page! (Don't worry about Chinese, the tools page is in pure English).
-	</p>
-	<p>
-	<p> 你所指定的網址不存在。
-	    請試著重新瀏覽此網站以找到你要的內容。
-	<h3> 下載檔案？</h3>
-	<p> 如果你是想下載檔案，不用擔心，只是你的鏈結錯了</p>
-	<p> 請用 <a href='/dl'>下載頁</a> 進入，有完整的分類喔！
+	</li><li>下載檔案？不用擔心，只是連結錯了，<a href="/dl">請到下載頁</a>。</li>
+	<li><a href="http://forum.moztw.org" >Mozilla Taiwan 討論區</a></li>
+	</ul>
+	
+	<h2>Search</h2>
+	<p>搜尋 Mozilla Taiwan 網站</p>
+	 <div><form id="404_search" method="get" action="http://www.google.com/custom">
+   <input type="hidden" name="cof" value="LW:174;LH:60;L:http://www.mozilla.org/images/mlogosm.gif;GIMP:#cc0000;T:black;ALC:#0000ff;GFNT:grey;LC:#990000;BGC:white;AH:center;VLC:purple;GL:0;GALT:#666633;AWFID:9262c37cefe23a86;">
+  <input type="hidden" name="domains" value="moztw.org">
+  <input type="hidden" name="sitesearch" value="moztw.org">
+  <input name="inlang" value="zh-TW" type="hidden">
+  <input name="ie" value="UTF-8" type="hidden">
+  <input name="oe" value="UTF-8" type="hidden">
+  <input type="text" id="q" name="q" accesskey="s" size="30">
+  <input type="submit" id="submit" value="Go">
+ </form></div>
 </div>
 <!--#include virtual="/inc/footer.html" -->
