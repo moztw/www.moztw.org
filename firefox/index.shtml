@@ -1,4 +1,4 @@
-﻿<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/meta.html" -->
 <title>Mozilla Firefox 中文版 - 網路生活的全新體驗 - Mozilla Taiwan, MozTW.org</title>
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
@@ -14,14 +14,11 @@
     </div>
     <div id="product-side">
 	<div class="download">
-	    <h3>免費下載</h3>
-	    <!--#include virtual="/inc/dlff.html" -->
+	    <h3>免費下載</h3><!--#include virtual="/inc/dlff.html" -->
 	</div>
-	<ul>
-	    <li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
+	<ul><li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
 	    <li><a class="ancilliaryLink" href="/firefox/releases">版本資訊</a></li>
 	</ul>
-
     </div>
 </div>
 <div id="mainContent" class="right">
@@ -102,9 +99,9 @@
     <h3>獲獎</h3>
     <div style="margin: 6px 0pt 0pt 4px;">
 
-<a href="http://reviews.cnet.com/Firefox_2/4505-9241_7-32126746.html"><img src="/images/ec_seal_1006.gif" alt="CNET 編輯精選 (2006.10) - Firefox 2.0" border="0"/></a>  
+<a href="http://reviews.cnet.com/Firefox_2/4505-9241_7-32126746.html"><img src="/images/ec_seal_1006.gif" alt="CNET 編輯精選 (2006.10) - Firefox 2.0"/></a>  
 
-<a href="http://www.pcmag.com/article2/0,1895,2047445,00.asp"><img src="/images/pcm_exec_sum_ec.gif" alt="PC Magazine 編輯精選 (2006.10) - Firefox 2.0" border="0"/></a>      
+<a href="http://www.pcmag.com/article2/0,1895,2047445,00.asp"><img src="/images/pcm_exec_sum_ec.gif" alt="PC Magazine 編輯精選 (2006.10) - Firefox 2.0"/></a>      
 	
     
     </div>

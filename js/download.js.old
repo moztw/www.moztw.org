@@ -21,7 +21,7 @@ function highlightDownload() {
   var e = null;
   for (di = 0; di < foundList.length; di++) {
     e = foundList[di];
-    if (e.href.indexOf(platform) == -1) continue; //這邊應該會有個 bug 把 mac 跟 mac9 混在一起？
+    if (e.href.indexOf(platform) == -1) continue;
 	e.className = e.className + ' preselected';
   }
 }
