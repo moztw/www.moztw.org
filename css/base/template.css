@@ -28,26 +28,25 @@
 	}
 
 	#mainContent {
-		float: right;
-		width: 75%;
-		margin-bottom: 1em;
+		margin-left: 25%;
 	}
 	.nomenu #mainContent {
-		float: none;
-		width: 100%;
+		margin-left: 0;
 	}
 	.bodyleft {
-		float: right !important;
-		width: 75% !important;
+		margin-left: 25% ! important
 	}
 	#mainContent.right {
 		float: left;
 		width: 62%;
+		margin-bottom: 1em;
+		margin-left: 0;
 	}
 	
 	#side.right {
-		float: right;
-		width: 35%;
+		float: none;
+		width: auto;
+		margin-left: 65%;
 	}
 
 /* Header */

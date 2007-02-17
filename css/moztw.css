@@ -88,6 +88,19 @@ div#firefox-feature div.download{
 	font-family: georgia,sans-serif;
 }
 
+.product-netscape {
+	background: url("/images/product-netscape-screen.png") no-repeat;
+}
+
+.product-nvu {
+	background: url("/images/product-nvu-screen.jpg") no-repeat;
+}
+
+.product-camino {
+	background: url("/images/product-camino-screen.png") no-repeat;
+}
+
+
 .courier {
 	/* this is for showing 'moztw.org' in header. */
 	font-family: courier, mono;
@@ -164,7 +177,6 @@ body.sectionLinks li#menu_links:hover {
 }
 
 body.sectionDocs li#menu_docs:hover a,
-
 body.sectionForum li#menu_forum :hover a,
 body.sectionWiki li#menu_wiki:hover a,
 body.sectionLinks li#menu_links:hover a{
@@ -203,35 +215,4 @@ pre.code .remark {
 
 address {
 	font-style: normal;
-}
-
-/* MozTW 額外在地化產品 */
-
-.product-netscape {
-	background: url("/images/product-netscape-screen.png") no-repeat;
-}
-
-.product-nvu {
-	background: url("/images/product-nvu-screen.jpg") no-repeat;
-}
-
-.product-camino {
-	background: url("/images/product-camino-screen.png") no-repeat;
-}
-
-/* 與 mozilla.org 路徑有所不同 */
-#ffcentral-desc {
-	background: url("../../firefox/central/t-welcomefirefox.gif") no-repeat;
-}
-
-/* 保留 mozilla.org 未與 mozilla.com 拆開前原先的樣式*/
-
-.front-feature-cwb { background: #E4EcEc url(../../images/feature-back-cwb.png) bottom right no-repeat;}
-
-#front-feature div {
-  text-align: left !important;
-}
-
-#front-feature div.download, #front-feature div.download div {
-  padding-right: 0px !important;
 }

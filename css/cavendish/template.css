@@ -33,12 +33,12 @@
 	}
 	#header h1 a {
 		display: block;
-		width: 268px;
-		height: 64px;
+		width: 204px;
+		height: 55px;
 		background: transparent url("../../images/header_logo.gif") no-repeat;
 		text-indent: -700em;
 		text-decoration: none;
-	} 
+	}
 	#header ul {
 		width: auto;
 		position: absolute;
@@ -243,8 +243,18 @@
 		display: inline;
 	}
 	
-	#footer a {
+	#footer span,#footer a {
 		white-space: nowrap;
+		padding: 0 1em;
+	}
+	
+	#footer p span,#footer p a {
+		white-space: nowrap;
+		padding: 0 0.3em;
+	}
+	
+	#footer span a {
+		padding: 0;
 	}
 	
 	#footer p,#footer p a {
@@ -253,8 +263,4 @@
 	
 	#footer p a:hover {
 		color: #000;
-	}
-
-	#footer p span {
-		padding-right: 1em;
 	}

@@ -109,9 +109,6 @@
         :visited { color: #636; }
         :link:hover, :visited:hover { color: #333; }
         :link:active, :link:active { color: #000; }
-        
-        p.crumbs :link { color: #999; }
-	p.crumbs :visited { color: #666; }
 
 /* Quotations */
 
@@ -128,7 +125,7 @@
 	}
 	
 	.sidenote {
-		border-color: #666;
+		border: #666;
 	}
 
 	.key-point:before {
@@ -161,17 +158,6 @@
 	.key-point h2, .key-point h3, .key-point h4, .key-point h5 {
 		border: none;
 		margin-top: 0;
-		color: #4C5C5C;
-	}
-	
-	div.important,
-	p.important {
-		margin: 1em 0;
-		padding: 1em;
-		border: 1px solid #FF9999;
-		background: #FFFF99;
-		color: black;
-		font-size: 1.1em;
 	}
 	
 	.news dt {
@@ -205,7 +191,6 @@
 /* Code */
 
 	pre.code {
-		padding: 1em; 
 		background: #EEECF6;
 	}
 	
@@ -221,21 +206,9 @@
 	div.example {
 		border-color: #554FA0;
 	}
-	div.example:before {
+	div.example::before {
 		color: #666;
 	}
-
-/* Q and A (FAQ) */
-
-ol.faq li a {
-	text-decoration: none;
-	border-bottom: 1px dotted #6C98EE;
-}
-
-ol.faq li a:hover {
-	border-color: #039;
-}
-
 
 /* Tables */
 
@@ -265,7 +238,7 @@ ol.faq li a:hover {
 		border: none;
 	}
 
-	.key-point h1, .key-point h3 {
+	.key-point h3 {
 		margin: 0;
 	}
 	
@@ -280,39 +253,31 @@ ol.faq li a:hover {
 		padding-left: 170px;
 	}
 	
-	#product-desc ul, #key-desc {
+	#product-desc ul {
 		padding-left: 190px;
 		margin-bottom: 0;		
 	}
 	
-	#product-side, #key-side {
+	#product-side {
 		margin-left: 65%;
 	}
 	
-	#product-side ul, #key-side ul {
+	#product-side ul {
 		margin-left: 0;
 		padding-bottom: 0;
 		padding-left: 20px;
 	}
 	
-	#product-side li, #key-side {
+	#product-side li {
 		padding-bottom: 0.2em;
 	}
 	
-	#product-desc, #key-desc {
+	#product-desc {
 		padding: 40px 0 25px 0;
 		color: #4C5C5C;
 		width: 60%;
 		float: left;
 		line-height: 140%;
-	}
-	
-	#key-desc {
-		padding: 0;
-	}
-	
-	#key-side {
-		color: #4C5C5C;
 	}
 	
 	.product-firefox {
@@ -415,7 +380,7 @@ ol.faq li a:hover {
 
 /* Firefox Central styles  */
         #ffcentral-desc {
-                background: url("../../products/firefox/t-welcomefirefox.gif") no-repeat;
+                background: url("../../firefox/central/t-welcomefirefox.gif") no-repeat;
                 width: 60%;
                 float: left;
                 line-height: 140%;
