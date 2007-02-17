@@ -1,19 +1,15 @@
 ﻿<!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
-
+<style type="text/css">
 <!--
-#front-feature #feature-content {
-	padding-right: 350px;
-}
-#front-feature .download ul {
-	padding-left: 80px;
-}-->
-
+.front-feature-foxmosa_newyear_2007 { background: #E4EcEc url(images/foxmosa_ch_newyear.png) bottom right no-repeat;}
+-->
+</style>
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-<div class="key-point front-feature-cwb" id="front-feature">
+<div class="key-point front-feature-foxmosa_newyear_2007" id="front-feature">
   <div id="feature-content">
     <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 2.0" height="55" width="252"></a></h2>
     <p>獲獎連連的 Firefox 網路瀏覽器，以更快、更安全、更容易自訂的面貌現身，全面升級您的網際瀏覽體驗。 
