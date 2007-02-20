@@ -111,7 +111,7 @@
 	}
 	
 	.first {
-		margin-top: 0; /* For IE not understanding first:child */
+		margin-top: 0; /* For IE not understanding :first-child */
 	}
 
 /* Navigation */
@@ -175,6 +175,17 @@
 		content: "";
 	}
 
+	@media screen, print, handheld, projection {
+		p.crumbs em {
+			display: none;
+		}
+	}
+
+	#mainContent > p.crumbs:first-child,
+	#side > p.crumbs:first-child {
+		margin-top: 0;
+	}
+	
 	a.cont {
 		display: block;
 		margin-right: 0;
@@ -293,6 +304,14 @@
 		padding: 0.1em;
 		border: solid #F00;
 		font-size: larger;
+	}
+	
+	span.important {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: smaller;
+		color: #c00;
 	}
 
 /* Computers - General */
@@ -470,7 +489,7 @@
 	}
 
 	table.data thead th {
-		vertical-align: bottom;
+		vertical-align: middle;
 	}
 
 /* Meta */

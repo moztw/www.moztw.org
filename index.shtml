@@ -1,4 +1,4 @@
-﻿<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <style type="text/css">
@@ -26,7 +26,7 @@
 <div id="mBody">
   <div class="frontcolumn">
     <h2><a href="/events/firefox2party/index.shtml">火狐月</a></h2>
-    <a href="/firefox/"><img src="events/firefox2party/ff_all_emoti.gif" width="50" height="34" class="promo"></a>
+    <a href="/events/firefox2party/index.shtml"><img src="/events/firefox2party/ff_all_emoti.gif" width="50" height="34" class="promo"></a>
 	<p>回顧 2006 年 11 月起舉辦的火狐月相關活動，含火狐大轟趴、街頭推廣及校園推廣講座的照片。</p>
   </div>
   <div class="frontcolumn">

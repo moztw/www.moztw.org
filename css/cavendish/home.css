@@ -6,21 +6,16 @@ h2 a:hover { color: #039; }
 #mBody h2 { margin-top: 0; }
 #mBody p { margin-top: 0; }
 
-.front-feature-cnet { background: #E4ECEC url(../../images/feature-back-cnet.png) bottom right no-repeat; }
-.front-feature-wired { background: #E4ECEC url(../../images/feature-back-wired.png) bottom right no-repeat; }
-.front-feature-nytimes { background: #E4ECEC url(../../images/feature-back-nytimes.png) bottom right no-repeat; }
-.front-feature-craigslist { background: #E4ECEC url(../../images/feature-back-craigslist.png) bottom right no-repeat; }
-.front-feature-onion { background: #E4ECEC url(../../images/feature-back-onion.png) bottom right no-repeat; }
-.front-feature-slate { background: #E4ECEC url(../../images/feature-back-slate.png) bottom right no-repeat; }
-.front-feature-nasa { background: #E4ECEC url(../../images/feature-back-nasa.png) bottom right no-repeat; }
-.front-feature-thunderbird { background: #E4EcEc url(../../images/front-feature-thunderbird.png) bottom right no-repeat; }
-.front-feature-cwb { background: #E4EcEc url(../../images/feature-back-cwb.png) bottom right no-repeat;}
+#front-feature div {
+  padding: 15px 15px 25px 15px;
+  text-align: center; 
+}
 
 a#shopLink {
 	display: block;
 	padding: 6px 4px 18px 50px;
 	width: 260px;
-	background: url(../../images/front-shop.gif) no-repeat;
+	background: url(../../images/firefox-shop.gif) no-repeat;
 }
 
 div.extrainfo {
@@ -36,6 +31,15 @@ div.extrainfo {
 	padding: 6px 330px 6px 10px;
 }
 
+#feature-content p {
+	line-height: 160%;
+	color: #4C5C5C;
+}
+
+.download {
+	line-height: 140%;
+ }
+
 #feature-content h2 {
 	margin: 0;
 }
@@ -49,12 +53,6 @@ div.extrainfo {
 	right: 0;
 	text-decoration: none;
 	text-indent: -2500px;
-}
-
-#onepointoh {
-	line-height: 0px;
-	width: 289px;
-	float: right;
 }
 
 ul.news {

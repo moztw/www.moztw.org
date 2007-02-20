@@ -68,33 +68,11 @@
     <li><a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-mozilla1.8-l10n/"> Thunderbird L10n Nightly</a></li></ul>    
 <div class="download">
     <div id="firefox-beta">
-	<h3>Firefox 2.0 RC3 (<strong class="warning">發行候選第三版</strong>，1018 Build)</h3> 
-    <ul>
-	<li>Windows: <a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0rc3/win32/zh-TW/Firefox%20Setup%202.0%20RC%203.exe">自解安裝檔</a></li>
-	<li>Linux: <a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0rc3/linux-i686/zh-TW/firefox-2.0rc3.tar.gz">TGZ 免安裝</a></li>
-	<li>Mac OS X: <a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0rc3/mac/zh-TW/Firefox%202.0%20RC%203.dmg"> DMG 解開後拖至應用程式內即可</a></li>
-    </ul>
-   	<h3>Firefox 2.0 RC1 (<strong class="warning">發行候選第一版</strong>，0926 Build)</h3> 
-    <ul>
-	<li>Windows: <a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0rc1/win32/zh-TW/Firefox%20Setup%202.0%20RC%201.exe">自解安裝檔</a></li>
-	<li>Linux: <a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0rc1/linux-i686/zh-TW/firefox-2.0rc1.tar.gz">TGZ 免安裝</a></li>
-	<li>Mac OS X: <a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0rc1/mac/zh-TW/Firefox%202.0%20RC%201.dmg"> DMG 解開後拖至應用程式內即可</a></li>
-    </ul>
-
-	<h3>Firefox 2.0 Beta 2 (<strong class="warning">測試版</strong>，0831 Build)</h3> 
-    <ul>
-	<li>Windows: <a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0b2/win32/zh-TW/Firefox%20Setup%202.0%20Beta%202.exe">自解安裝檔</a></li>
-	<li>Linux: <a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0b2/linux-i686/zh-TW/firefox-2.0b2.tar.gz">TGZ 免安裝</a></li>
-	<li>Mac OS X: <a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0b2/mac/zh-TW/Firefox%202.0%20Beta%202.dmg"> DMG 解開後拖至應用程式內即可</a></li>
-    </ul>
     </div>
-
     <div id="thunderbird-beta">
-    <h3>Thunderbird 1.5 RC 3 (<strong class="warning">測試版</strong>，1117 Build)</h3>
+    <h3>Thunderbird 2.0 beta 1 (<strong class="warning">測試版</strong>)</h3>
     <ul>
-	<li>Windows: <a href="/dls/tb/1.4/thunderbird-1.5rc3.zh-TW.win32.installer.exe">自解安裝檔</a>
-	<li>Linux: <a href="/dls/tb/1.4/thunderbird-1.5rc3.zh-TW.linux-i686.tar.gz">TGZ 免安裝</a></li>
-	<li>Mac OS X: <a href="/dls/tb/1.4/thunderbird-1.5rc3.zh-TW.mac.dmg">DMG 解開後拖至應用程式內即可</a></li>
+	<li><a href="http://forum.moztw.org/viewtopic.php?p=95919">語言包</a></li>
     </ul>
     </div>
 
@@ -122,11 +100,10 @@
 </div>
 
 <div id="side" class="right">
-	<h3>關於 Firefox 2.0 Beta</h3>
-			<p>Firefox 2.0 正式版預計於今年 10 月推出，目前測試版僅供擴充套件作者及網頁設計師測試相容問題，相關資訊請見 <a href="http://developer.mozilla.org/en/docs/Firefox_2_for_developers">Mozilla Developer Center（英）</a>上的文章。</p>
 	<h3>關於 Thunderbird 2.0 Beta</h3>
-			<p>Thunderbird 2.0 正式版預定今年底推出，目前測試版提供擴充套件作者及社群成員測試相容及使用問題。</p>	
+			<p>Thunderbird 2.0 正式版預定 2007 年第一季推出，目前測試版提供擴充套件作者及社群成員測試相容及使用問題。</p>	
 	<h3>其他資訊</h3>
+			<p>Firefox 2.0 正式版已經釋出 (24 Oct 2006)。</p>
 			<p>Camino 1.0 正式版已經釋出 (14 Feb 2006)。</p>
 			<p>SeaMonkey 1.0 正式版已經釋出 (31 Jan 2006)。</p>
 <!--    <ul class="compact">
