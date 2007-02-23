@@ -7,6 +7,9 @@
 <!--#include virtual="/inc/news.html" -->
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+<li>
+  <div class="date"> 11 月 20 </div>
+  社群投票產生的擴充套件 Top 15 現已支援 Firefox 2.0，您可至<a href="http://moztw.org/firefox/extension_top_15/">下載頁</a>下載全部的 Top 15 擴充套件。</li>
   	<li><div class="date"> 11 月 2 </div>
   	<a href="http://moztw.org/events/firefox2party/">火狐月開展</a>，邀請您參加 11/12「火狐大轟趴 2.0」。</li>
 	<li><div class="date"> 10 月 29 </div>
