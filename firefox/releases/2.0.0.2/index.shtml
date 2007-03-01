@@ -146,28 +146,7 @@
       </ul>
       </dd>
       </dl>
-      <p id="changesearchengine">以下列出有關自此版本起亞洲地區變更預設搜尋引擎為 Google 的常見問題集。</p>
-     <ol class="faq">
-        <li>改了哪些地方？
-          <p>目前已經使用 Firefox 的使用者不會受到任何影響，而對台灣以及其他中日韓語系的 Firefox 2.0.0.2 新使用者來說，預設起始頁改為使用 Google 搜尋，且內建搜尋列的預設引擎亦為 Google。</p>
-        </li>
-        <li>預設起始頁何時會從 Yahoo! 搜尋改為 Google？
-          <p>Firefox 2.0.0.2 發行時（預計是 2007 年一月下旬或二月上旬）</p>
-        </li>
-        <li>為何要改呢？
-          <p>亞洲的使用者告訴我們，大家比較常用 Google 搜尋，所以我們順應大家的意思修改。</p>
-        </li>
-        <li>這次變動有跟 Google 訂立與金錢上相關的契約嗎？
-          <p>有，我們與 Google 訂立了全球合作契約。</p>
-        </li>
-        <li>那麼涉及多少金額？
-          <p>我們無法透漏與合作夥伴間的財務往來狀況。</p>
-        </li>
-        <li>那麼從今起跟 Yahoo! 的關係是？
-          <p>Yahoo! 依然是 Mozilla 在世界上的重要夥伴，我們也希望能與 Yahoo! 繼續提供 Mozilla Firefox 瀏覽器。</p>
-        </li>
-      </ol>
-      
+    
 
       <h2 id="troubleshooting">疑難排解</h2>
       <ul class="spaced">
@@ -215,6 +194,28 @@
           <p>Firefox 2 能與您預設的任何郵件程式協同運作， 而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="/thunderbird/">Mozilla Thunderbird</a>。</p>
         </li>
       </ol>
+<p id="changesearchengine"><strong>以下列出有關自此版本起亞洲地區變更預設搜尋引擎為 Google 的常見問題集。</strong></p>
+     <ol class="faq">
+        <li>改了哪些地方？
+          <p>目前已經使用 Firefox 的使用者不會受到任何影響，而對台灣以及其他中日韓語系的 Firefox 2.0.0.2 新使用者來說，預設起始頁改為使用 Google 搜尋，且內建搜尋列的預設引擎亦為 Google。</p>
+        </li>
+        <li>預設起始頁何時會從 Yahoo! 搜尋改為 Google？
+          <p>Firefox 2.0.0.2 發行時（預計是 2007 年一月下旬或二月上旬）</p>
+        </li>
+        <li>為何要改呢？
+          <p>亞洲的使用者告訴我們，大家比較常用 Google 搜尋，所以我們順應大家的意思修改。</p>
+        </li>
+        <li>這次變動有跟 Google 訂立與金錢上相關的契約嗎？
+          <p>有，我們與 Google 訂立了全球合作契約。</p>
+        </li>
+        <li>那麼涉及多少金額？
+          <p>我們無法透漏與合作夥伴間的財務往來狀況。</p>
+        </li>
+        <li>那麼從今起跟 Yahoo! 的關係是？
+          <p>Yahoo! 依然是 Mozilla 在世界上的重要夥伴，我們也希望能與 Yahoo! 繼續提供 Mozilla Firefox 瀏覽器。</p>
+        </li>
+      </ol>
+
 
       <h2 id="localizedbuilds">在地化版本</h2>
       <p>Firefox 現提供下列語言版本供測試：</p>
