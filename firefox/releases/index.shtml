@@ -30,7 +30,8 @@
     	      <li>
     	        <p><strong>新增語言:</strong> <a href="#localizedbuilds">數種新語言版本</a>現已提供測試。</p>
   	        </li>
-    	      <li><strong>修補權限問題:</strong> Windows 及 Linux 上的德語版碰上唯讀檔<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=364599">曾有問題</a>，現已修補。</li>
+    	      <li><p><strong>修補權限問題:</strong> Windows 及 Linux 上的德語版碰上唯讀檔<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=364599">曾有問題</a>，現已修補。</p></li>
+    	      <li><strong>變更預設搜尋引擎:</strong> 自此版本起，亞洲地區（中國、台灣、日本及韓國）的在地化版本預設使用 Google 搜尋，舊使用者則不受影響，請參閱<a href="#changesearchengine">文後 FAQ</a>。</li>
       </ul>
 
                <h2 id="downloadandinstall">下載與安裝</h2>
@@ -140,11 +141,33 @@
           <a href="http://download.fedora.redhat.com/pub/fedora/linux/core/2/i386/os/Fedora/RPMS/linc-1.0.3-3.1.i386.rpm">linc-1.0.3-3.1.i386.rpm</a> 後安裝，安裝完畢後在 Firefox 的安裝目錄下執行此命令 (需要寫入權限)：
           <p>
             <code>touch .autoreg</code>          </p>
-          下回使用 Firefox 時，便應該能正確整合至 GNOME 環境。      </li>
+          下回使用 Firefox 時，便應該能正確整合至 GNOME 環境。</li>
       <li><tt>firefox -remote</tt> (mozilla-xremote-client) 已經棄用，也無法正確處理含有逗號的網址。<tt>firefox -new-window /url/</tt> 會將網址開於新視窗中，而 <tt>firefox -new-tab /url/</tt> 則會開啟於新分頁中。      </li>
       </ul>
       </dd>
       </dl>
+      <p id="changesearchengine">以下列出有關自此版本起亞洲地區變更預設搜尋引擎為 Google 的常見問題集。</p>
+     <ol class="faq">
+        <li>改了哪些地方？
+          <p>目前已經使用 Firefox 的使用者不會受到任何影響，而對台灣以及其他中日韓語系的 Firefox 2.0.0.2 新使用者來說，預設起始頁改為使用 Google 搜尋，且內建搜尋列的預設引擎亦為 Google。</p>
+        </li>
+        <li>預設起始頁何時會從 Yahoo! 搜尋改為 Google？
+          <p>Firefox 2.0.0.2 發行時（預計是 2007 年一月下旬或二月上旬）</p>
+        </li>
+        <li>為何要改呢？
+          <p>亞洲的使用者告訴我們，大家比較常用 Google 搜尋，所以我們順應大家的意思修改。</p>
+        </li>
+        <li>這次變動有跟 Google 訂立與金錢上相關的契約嗎？
+          <p>有，我們與 Google 訂立了全球合作契約。</p>
+        </li>
+        <li>那麼涉及多少金額？
+          <p>我們無法透漏與合作夥伴間的財務往來狀況。</p>
+        </li>
+        <li>那麼從今起跟 Yahoo! 的關係是？
+          <p>Yahoo! 依然是 Mozilla 在世界上的重要夥伴，我們也希望能與 Yahoo! 繼續提供 Mozilla Firefox 瀏覽器。</p>
+        </li>
+      </ol>
+      
 
       <h2 id="troubleshooting">疑難排解</h2>
       <ul class="spaced">
@@ -155,7 +178,7 @@
         <li>在 MacOS X 下請輸入
           <p> cd /Applications/Firefox.app/Contents/MacOS/<br>
             ./firefox-bin -safe-mode </p></ul>
-          當啟動安全模式時，所有的附加元件將停使並使用預設的佈景主題。在安全模式下移除有問題的擴充套件/佈景主題，然後再正常的啟動瀏覽器。 
+          當啟動安全模式時，所有的附加元件將停用並使用預設的佈景主題。在安全模式下移除有問題的擴充套件/佈景主題，然後再正常的啟動瀏覽器。 
           </li>
       
       <li>如果您想在移除某擴充套件後，以 -install-global-extension 指令將同一擴充套件裝到每個使用者設定檔中，則必須在重新安裝前先重開瀏覽器一次，以便徹底移除擴充套件。如果您沒這麼做，則擴充套件清單可能會有衝突項目而不能為所有設定檔安裝。        </li>
@@ -165,7 +188,7 @@
       <ol class="faq">
 
         <li>我該怎麼幫忙呢？
-          <p>我們需要開發元和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
+          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
         </li>
 
         <li>你們為什麼都沒有回信？
