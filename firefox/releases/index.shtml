@@ -1,5 +1,5 @@
-<!--#include virtual="/inc/meta.html" -->
-<title>Mozilla Firefox 2.0.0.2 版本資訊</title>
+﻿<!--#include virtual="/inc/meta.html" -->
+<title>Mozilla Firefox 2.0.0.3 版本資訊</title>
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 
@@ -15,23 +15,21 @@
         </div>
       </div> 
       <!-- What's New -->
-               <h2 id="whatsnew">Firefox&nbsp;2.0.0.2 新鮮事</h2>
+               <h2 id="whatsnew">Firefox&nbsp;2.0.0.3 新鮮事</h2>
 
                <ul class="news spaced">
 	          <li>
-	            <p><b>發行日期：</b> 2007 年 2 月 23 日</p>
+	            <p><b>發行日期：</b> 2007 年 3 月 20 日</p>
 	          </li>
     	      <li>
-    	        <p><strong>安全更新：</strong> 修補數項安全問題，請查閱 <a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html#firefox2.0.0.2">安全議題列表</a>。</p>
+    	        <p><strong>安全更新：</strong>修補數項安全問題，請查閱 <a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html#firefox2.0.0.3">安全議題列表</a>。</p>
   	        </li>
     	      <li>
-    	        <p><strong>Windows Vista 支援度：</strong>已針對 Windows Vista 增強或修補問題，亦請參閱<a href="#vista">文後的警示</a>。</p>
+    	        <p><strong>網站支援：</strong>修復數個網站相容問題。</p>
   	        </li>
-    	      <li>
-    	        <p><strong>新增語言:</strong> <a href="#localizedbuilds">數種新語言版本</a>現已提供測試。</p>
+<li>
+    	        <p><strong>前一版：</strong>欲知 2.0.0.2 版更新項目，請參考其<a href="firefox/releases/2.0.0.2/">版本資訊</a>。</p>
   	        </li>
-    	      <li><p><strong>修補權限問題:</strong> Windows 及 Linux 上的德語版碰上唯讀檔<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=364599">曾有問題</a>，現已修補。</p></li>
-    	      <li><strong>變更預設搜尋引擎:</strong> 自此版本起，亞洲地區（中國、台灣、日本及韓國）的在地化版本預設使用 Google 搜尋，舊使用者則不受影響，請參閱<a href="#changesearchengine">文後 FAQ</a>。</li>
       </ul>
 
                <h2 id="downloadandinstall">下載與安裝</h2>
@@ -194,36 +192,14 @@
           <p>Firefox 2 能與您預設的任何郵件程式協同運作， 而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="/thunderbird/">Mozilla Thunderbird</a>。</p>
         </li>
       </ol>
-<p id="changesearchengine"><strong>以下列出有關自此版本起亞洲地區變更預設搜尋引擎為 Google 的常見問題集。</strong></p>
-     <ol class="faq">
-        <li>改了哪些地方？
-          <p>目前已經使用 Firefox 的使用者不會受到任何影響，而對台灣以及其他中日韓語系的 Firefox 2.0.0.2 新使用者來說，預設起始頁改為使用 Google 搜尋，且內建搜尋列的預設引擎亦為 Google。</p>
-        </li>
-        <li>預設起始頁何時會從 Yahoo! 搜尋改為 Google？
-          <p>Firefox 2.0.0.2 發行時（預計是 2007 年一月下旬或二月上旬）</p>
-        </li>
-        <li>為何要改呢？
-          <p>亞洲的使用者告訴我們，大家比較常用 Google 搜尋，所以我們順應大家的意思修改。</p>
-        </li>
-        <li>這次變動有跟 Google 訂立與金錢上相關的契約嗎？
-          <p>有，我們與 Google 訂立了全球合作契約。</p>
-        </li>
-        <li>那麼涉及多少金額？
-          <p>我們無法透漏與合作夥伴間的財務往來狀況。</p>
-        </li>
-        <li>那麼從今起跟 Yahoo! 的關係是？
-          <p>Yahoo! 依然是 Mozilla 在世界上的重要夥伴，我們也希望能與 Yahoo! 繼續提供 Mozilla Firefox 瀏覽器。</p>
-        </li>
-      </ol>
-
 
       <h2 id="localizedbuilds">在地化版本</h2>
       <p>Firefox 現提供下列語言版本供測試：</p>
       <ul>
-        <li>Afrikaans 非洲語 (af) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.2&os=win&lang=af">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.2&os=osx&lang=af">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.2&amp;os=linux&amp;lang=af">Linux</a></li>
-        <li>Belarusian 白俄羅斯 (be) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.2&os=win&lang=be">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.2&os=osx&lang=be">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.2&amp;os=linux&amp;lang=be">Linux</a></li>
-        <li>Georgian 喬治亞語 (ka) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.2&os=win&lang=ka">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.2&os=osx&lang=ka">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.2&amp;os=linux&amp;lang=ka">Linux</a></li>
-        <li>Kurdish 庫德爾語 (ku) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.2&os=win&lang=ku">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.2&os=osx&lang=ku">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.2&amp;os=linux&amp;lang=ku">Linux</a></li>
+        <li>Afrikaans 非洲語 (af) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=win&lang=af">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=osx&lang=af">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&amp;os=linux&amp;lang=af">Linux</a></li>
+        <li>Belarusian 白俄羅斯 (be) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=win&lang=be">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=osx&lang=be">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&amp;os=linux&amp;lang=be">Linux</a></li>
+        <li>Georgian 喬治亞語 (ka) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=win&lang=ka">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=osx&lang=ka">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&amp;os=linux&amp;lang=ka">Linux</a></li>
+        <li>Kurdish 庫德爾語 (ku) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=win&lang=ku">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=osx&lang=ku">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&amp;os=linux&amp;lang=ku">Linux</a></li>
       </ul>
       <h2 id="contributedbuilds">非官方建製版</h2>
 
