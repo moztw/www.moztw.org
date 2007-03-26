@@ -7,7 +7,16 @@
 <!--#include virtual="/inc/news.html" -->
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
-<li>
+<li><div class="date"> 2007 年</div></li>
+
+<li><div class="date"> 2 月 24 </div>
+  Firefox 2.0.0.2 安全更新已經發行，請參考<a href="http://moztw.org/firefox/releases/2.0.0.2">版本資訊</a></li>
+
+
+<li><div class="date"> 2006 年</div></li>
+
+<li><div class="date"> 12 月 20 </div>
+  Firefox 2.0.0.1 已經發行。此次更新修正了數個安全性問題並支援 Windows Vista 作業系統。另 1.5.0.9 也已發行，修正數個錯誤。<a href="http://moztw.org/firefox/releases/2.0.0.1">2.0.0.1 新鮮事</a></li>
 <div class="date"> 12 月 5 </div>
   聖誕禮大放送！！！ Mozilla Taiwan 和 FON 合作，提供社群成員免費無線 AP，若你曾在 MozTW 討論區上註冊，別懷疑，<a href="http://forum.moztw.org/viewtopic.php?t=16702">快上討論區看活動辦法吧</a>！！！</li>
   <div class="date"> 11 月 20 </div>
@@ -72,6 +81,8 @@
 	<li><div class="date"> 1 月 23 </div>
     <a href="http://moztw.org/firefox/extension_top_15/">擴充套件 Top 15</a>現已支援 Firefox 1.5，
     歡迎各位多加利用。
+
+<li><div class="date"> 2005 年</div></li>
     
     <li><div class="date"> 11 月 30 </div>
     Firefox 1.5 中文版與英文版已同步釋出，
@@ -193,6 +204,9 @@
 	擴充套件 Top 15 <a href='/firefox/extension_top_15/'>名單出爐！</a>
 	<li><div class="date"> 1 月 30 日 </div>
 	寄張 <a href='http://photos.moztw.org/thumbnails.php?album=7'>Firefox 新年賀卡</a> 給你的親朋好友吧！
+
+<li><div class="date"> 2004 年</div></li>
+
 	<li><div class="date"> 12 月 11 日 </div>
 	<a href='/dls/tb/thunderbird-1.0.zh-TW.win32.installer.exe'>Thunderbird 1.0 (win32)</a>
 	中文版開放下載測試中！
