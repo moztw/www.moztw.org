@@ -12,7 +12,7 @@
           <p>Thunderbird 2 是頗受好評的 Mozilla Thunderbird 電子郵件軟體第二版。</p>
           <p>此版本資訊包含 Thunderbird 2 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#links">技術支援與意見回饋</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.com/support/thunderbird/bugs">錯誤回報注意事項</a>閱讀完畢，再到
           <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
-          <p>我們想知道您對 Thunderbird 的意見。您可填寫<a href="http://feedback.mozilla.org/">回報表單</a>，或到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/viewforum.php?f=39">英文討論區</a>或 <a href="http://moztw.org/">MozillaTaiwan</a> 的<a href="http://moztw.org/forum/viewforum.php?f=9">Thunderbird
+          <p>我們想知道您對 Thunderbird 的意見。您可填寫<a href="http://feedback.mozilla.org/">回報表單</a>，或到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/viewforum.php?f=39">英文討論區</a>或 <a href="http://moztw.org/">MozillaTaiwan</a> 的 <a href="http://moztw.org/forum/viewforum.php?f=9">Thunderbird
     中文討論區</a>與我們分享意見。</p>         
         </div>
       </div> 
@@ -50,7 +50,7 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
       <p>請注意：安裝 Thunderbird 2 將<em>覆蓋</em>您現存的 Thunderbird 程式，這並不會遺失你的任何郵件，但有些附加元件可能需要更新才能繼續使用。</p>
       
       <h3 id="uninstall">移除 Thunderbird</h3>
-      <p>在 Windows 作業系統中，您可以自「開始」選單中的「控制台」移除 Thunderbird 2。OS X 的使用者請直接移除「Thunderbird」應用程式，Linux 使用者則請移除「thunderbird」資料夾。</p>
+      <p>在 Windows 作業系統中，您可以自「開始」功能表中的「控制台」移除 Thunderbird 2。OS X 的使用者請直接移除「Thunderbird」應用程式，Linux 使用者則請移除「thunderbird」資料夾。</p>
       
       <p>移除 Thunderbird 2 並不會將你的任何郵件和其他附加元件一併刪除，這些資料會留在您的「<em>個人設定資料夾</em>」中，此資料夾存放位置則視作業系統而定：</p>
       
@@ -112,7 +112,7 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
         <li>
           在全域收件匣和 POP3 帳號的收件匣之間切換時，請確定已將郵件備份到其他資料夾。
         </li>
-        <li>提供給擴充套件和佈景主題開發者使用的新 DOM 檢視器可用擴充套件的形式安裝：<a href="https://addons.mozilla.org/thunderbird/1806/">https://addons.mozilla.org/thunderbird/1806/</a>.。
+        <li>提供給擴充套件和佈景主題開發者使用的新 DOM 檢視器可用擴充套件的形式安裝：<a href="https://addons.mozilla.org/thunderbird/1806/">https://addons.mozilla.org/thunderbird/1806/</a>。
 
         </li>
        </ul>
@@ -165,7 +165,7 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
       <h2><a name="FAQ">常見問題集</a></h2>
 <ol class="faq">
   <li>我該怎麼幫忙呢？
-  <p>我們需要大量曝光。讓推廣 Thunderbird 成為您的任務，使您的親朋好友上司下屬都認識它： 如果您是個學生，就讓它廣佈校園之中；寫篇文章投稿至<a href="http://www.slashdot.org/">Slashdot</a>等新聞站台上，發布
+  <p>我們需要大量曝光。讓推廣 Thunderbird 成為您的任務，使您的親朋好友上司下屬都認識它： 如果您是個學生，就讓它廣佈校園之中；寫篇文章投稿至 <a href="http://www.slashdot.org/">Slashdot</a> 等新聞站台上，發布
       Thunderbird 新版的新聞；也可以在您的 Blog 上透漏一點相關訊息；總之，儘可能的在網際網路中散佈就對了！ </li>
   <li>你們為什麼都沒有回信？
   <p>請使用<a href="http://forums.mozillazine.org/index.php?c=8">討論區</a>， Thunderbird 團隊會定期閱讀上面的文章。我們常常都收到大量的信件，而您的可能不小心漏失了。</p></li>
@@ -179,11 +179,11 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
 
       <h2 id="contributedbuilds">非官方建製版</h2>
 
-      <p>Mozilla 代表 <a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="http://www.mozilla.com/thunderbird/all.html">Thunderbird 2 下載頁</a>取得檔案。
+      <p>Mozilla 代表<a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="http://www.mozilla.com/thunderbird/all.html">Thunderbird 2 下載頁</a>取得檔案。
       </p>
          
       <p>其他尚未被官方 Firefox 2 驗證通過的本地化版本可以在
-         <a href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/2.0.0.0/contrib-localized/">>FTP 站台</a>取得。</p>
+         <a href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/2.0.0.0/contrib-localized/">FTP 站台</a>取得。</p>
 
       <h2 id="links">其他資源和連結</h2>  
       <p>下面提供了幾個有用的連結：</p>
