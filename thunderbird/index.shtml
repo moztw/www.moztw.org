@@ -17,60 +17,30 @@
 	<div class="download">
 	    <h3>馬上下載</h3><!--#include virtual="/inc/dltb.html" -->
 	</div>
+    	<ul></li>
+	    <li><a class="ancilliaryLink" href="/thunderbird/releases/">版本資訊</a></li>
+	</ul>
     </div>
 </div>
-<div id="mainContent" class="right">
-    <h3>使用 Thunderbird 的理由</h3>
-    <p>Thunderbird 設計的目標是全面提昇效能，
-    所以它可以幫助你輕易的完成工作，
-    不用被討厭的廣告與垃圾信騷擾。
-    改用 Thunderbird 可以讓使用 E-Mail 
-    的過程既有效又方便。</p>
+<div id="mainContent" class="right features">
+    	<div class="corner-box">
+		<h3>掌控關鍵資訊</h3>
+		<p>Thunderbird 2 增強許多功能，協助您管理郵件資料匣並永遠跟上最新資訊。您不但能在 Thunderbird 2 中找到方便的管理功能，還能發現一切如此容易使用、正符需求。</p>
+	</div>
 
-    <dl id="quotes">
-	<dt>&#147;<a href="http://www.pcworld.com">This surprisingly full-featured 
-	    open-source program is a snap to use...</a>&#148;</dt>
-	<dd>
-	<em>- PC World</em></dd>
-	<dt>&#147;<a href="http://www.linuxmagazine.com/">...a killer app for users who 
-	    deal with massive amounts of email</a>&#148;</dt>
-	<dd>
-	<em>- Linux Magazine</em></dd>
-    </dl> 
+	<div class="corner-box">
+		<h3>保護郵件，安全無慮</h3>
 
-    <dl id="features">
+		<p>我們很重視 Thunderbird 的資安及隱私保護功能，讓您在通訊上倍感安心 -- 這雷鳥號就像裝了網際防護罩一樣！</p>
+	</div>
 
-	<dt>跟廣告信說「不」的好方法</dt>
-	<dd>
-	Thunderbird 提供了最有效的方式來偵測垃圾信。
-	它會自動分析你的郵件，並判斷哪些是廣告。
-	你可以設定自動刪除這些垃圾信，或是放到某個信件夾再慢慢檢視。
-	</dd>
+	<div class="corner-box">
+		<h3>你的軟體最像你</h3>
+		<p>Thunderbird 最能符合需求，它可以藉各種附加元件增強或調整功能，甚至不用離開郵件匣就能找資訊、聽音樂！</p>
+	</div>
 
-	<dt>照你的習慣讀取郵件</dt>
-	<dd>
-	照你喜歡的方式讀 email。
-	Thunderbird 提供了新式的三欄畫面，同時也可以自訂工具列、
-	變更佈景主題，或快速排序你的信件。
-	</dd>
+	<!--<p class="learn-more"><a href="features.html">深入瞭解 Thunderbird 2 的功能...</a></p>-->
 
-	<dt>安全又迅速</dt>
-	<dd>Thunderbird 提供企業或政府級的安全需求如
-	S/MIME、數位簽章、郵件編碼，支援憑證與安全裝置。
-	</dd>
-
-	<dt>完整而豐富的功能</dt>
-	<dd>Thunderbird 提供 IMAP/POP 的支援，
-	還有 HTML 郵件、標籤、快速搜尋、
-	自動通訊錄、回函通知、郵件分析引擎、
-	LDAP 位址補完、 匯入工具、強大的搜尋工具，
-	還可以管理多重 email 或 News 的帳號。</dd>
-
-	<dt>無窮的擴充</dt>
-	<dd>Thunderbird 可以用加裝「擴充套件」的方式來加強功能。
-	安裝這些套件後，你可以打造出符合自己需求的環境。
-	</dd>
-    </dl>
 </div>
 <div id="side" class="right">
     <h3>資源與鏈結</h3>
@@ -83,13 +53,8 @@
 	<li><a href="http://www.mozilla.org/support/thunderbird/faq">FAQ</a> (英)</li>
 	<li><a href="http://www.mozilla.org/support/thunderbird/">Thunderbird Help</a> (英)</li>
     </ul>
-<!--    <h3>正體(繁體)中文版</h3>
-    <ul class="compact">
-	<li>Mozilla Thunderbird 最新版為 1.5.0.x 系列，官方正體中文版僅至 1.0.6。 (<a href="http://forum.moztw.org/viewtopic.php?t=15609">討論</a>)</li>
-    </ul>
-    <ul class="compact">
-	<li>Thunderbird 1.5.0.4 已是 <a href="http://www.apple.com.tw/universal/">Universal 應用程式</a>，在採用 Intel 與 PowerPC 處理器的 Mac 電腦上皆可執行。</li>
-	</ul>-->
+    <h3>得獎榮耀</h3>
+    <p><a href="http://www.computershopper.com/shopperschoice"><img src="shoppers-choice-2006.png" alt="2006 Shoppers' Choice Award, Best Communications Software" width="65" height="69" title="2006 Shoppers' Choice Award, Best Communications Software"></a></p>
 </div>
 
 <!--#include virtual="/inc/footer.html" -->

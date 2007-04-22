@@ -198,7 +198,7 @@ strong.very-strong {
 	letter-spacing: 1.1em;
 }
 
-/* 中文沒有協體 */
+/* 中文沒有斜體 */
 
 pre.code .remark {
 	font-style: normal;
@@ -245,6 +245,27 @@ address {
 
 .download div{
 	padding: 0 !important;
+}
+
+/* 加入 mozilla.com 樣式 */
+.corner-box {
+	background: url(/images/left-top-corner-box.jpg) top left no-repeat;
+	padding: 12px 15px;
+}
+
+.corner-box h3 {
+	margin-top: 0;
+}
+
+.features .corner-box h3 {
+	display: block;
+	background: url(/images/checkmark.png) top left no-repeat;
+	padding: 2px 0 6px 32px;
+	text-decoration: none;
+}
+
+.features .corner-box p{
+	padding-left: 32px;
 }
 
 /* microformat */
