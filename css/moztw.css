@@ -129,6 +129,12 @@ a#featurelink { background: none;  }
     width: 100% !important;
 }
 
+.thunderbird-releasenotes-v2 {
+    background: url("/images/releasenotes-thunderbird-2.png") no-repeat;
+    padding-top: 70px !important;
+    width: 100% !important;
+}
+
 .important101text {
     color: #FF0000;
 }

@@ -3,21 +3,21 @@
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <style type="text/css">
 <!--
-.front-feature-foxmosa_newyear_2007 { background: #E4EcEc url(images/foxmosa_ch_newyear.png) bottom right no-repeat;}
+.front-feature { background: #E4EcEc url(images/tbheading.png) bottom right no-repeat;}
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-<div class="key-point front-feature-foxmosa_newyear_2007" id="front-feature">
+<div class="key-point front-feature" id="front-feature">
   <div id="feature-content">
-    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 2.0" height="55" width="252"></a></h2>
-    <p>獲獎連連的 Firefox 網路瀏覽器，以更快、更安全、更容易自訂的面貌現身，全面升級您的網際瀏覽體驗。 
-</p>
+    <h2><a href="/thunderbird/"><img src="images/thunderbird-title.png" alt="Firefox 2.0" height="59" width="359"></a></h2>
+    <p>輕巧方便的 Thunderbird 
+	電子郵件軟體再度加強郵件管理及安全等諸多功能，讓您享受資訊盡握手中的快感！</p>
     <div class="download">
-		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 2 </strong></a></h3>
- 		<div style='background: url(/images/product-firefox.png) no-repeat;'>
-		<!--#include virtual="/inc/dlff.html" -->
+		<h3><a href="/firefox/"><strong class="downloadText">下載 Thunderbird 2 </strong></a></h3>
+ 		<div style='background: url(/images/product-front-thunderbird.png) no-repeat;'>
+		<!--#include virtual="/inc/dltb.html" -->
 	</div>
 	</div>
   </div>
@@ -25,16 +25,15 @@
 
 <div id="mBody">
   <div class="frontcolumn">
-    <h2><a href="/events/firefox2party/index.shtml">火狐月</a></h2>
-    <a href="/events/firefox2party/index.shtml"><img src="/events/firefox2party/ff_all_emoti.gif" width="50" height="34" class="promo"></a>
-	<p>回顧 2006 年 11 月起舉辦的火狐月相關活動，含火狐大轟趴、街頭推廣及校園推廣講座的照片。</p>
+      <h2><a href="/firefox/">Firefox</a></h2>
+    <a href="/firefox/"><img src="/images/product-firefox.png" alt="Firefox" class="promo" width="60" height="60"></a>
+	<p>獲獎連連的 <a href="/firefox/">Firefox 網路瀏覽器</a>，以更快、更安全、更容易自訂的面貌現身，全面升級您的網際瀏覽體驗。 </p>
+
   </div>
   <div class="frontcolumn">
-    <h2><a href="/thunderbird/">Thunderbird</a></h2>
-    <a href="thunderbird"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
-	<p><a href="/thunderbird/">Thunderbird</a> 
-	電子郵件程式具有完整的功能，含垃圾信控制及新聞閱讀等功能。</p>
-    
+    <h2><a href="/events/firefox2party/index.shtml">火狐月</a></h2>
+    <a href="/events/firefox2party/index.shtml"><img src="/events/firefox2party/ff_all_emoti.gif" width="50" height="34" class="promo"></a>
+	<p>回顧 2006 年 11 月起舉辦的火狐月相關活動，含火狐大轟趴、街頭推廣及校園推廣講座的照片。</p>    
   </div>
   <div class="frontcolumnlast">
 <h2 style="margin-top: 0pt;">
