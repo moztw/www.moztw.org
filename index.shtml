@@ -11,11 +11,11 @@
 
 <div class="key-point front-feature" id="front-feature">
   <div id="feature-content">
-    <h2><a href="/thunderbird/"><img src="images/thunderbird-title.png" alt="Firefox 2.0" height="59" width="359"></a></h2>
+    <h2><a href="/thunderbird/"><img src="images/thunderbird-title.png" alt="Thunderbird 2.0" height="59" width="359"></a></h2>
     <p>輕巧方便的 Thunderbird 
 	電子郵件軟體再度加強郵件管理及安全等諸多功能，讓您享受資訊盡握手中的快感！</p>
     <div class="download">
-		<h3><a href="/firefox/"><strong class="downloadText">下載 Thunderbird 2 </strong></a></h3>
+		<h3><a href="/thunderbird/"><strong class="downloadText">下載 Thunderbird 2 </strong></a></h3>
  		<div style='background: url(/images/product-front-thunderbird.png) no-repeat;'>
 		<!--#include virtual="/inc/dltb.html" -->
 	</div>
