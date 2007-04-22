@@ -12,7 +12,7 @@
           <p>Thunderbird 2 是頗受好評的 Mozilla Thunderbird 電子郵件軟體第二版。</p>
           <p>此版本資訊包含 Thunderbird 2 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#links">技術支援與意見回饋</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.com/support/thunderbird/bugs">錯誤回報注意事項</a>閱讀完畢，再到
           <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
-          <p>我們想知道您對 Thunderbird 的意見。您可填寫<a href="http://feedback.mozilla.org/">回報表單</a>，或到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/viewforum.php?f=39">英文討論區</a>或 <a href="http://moztw.org/">MozillaTaiwan</a> 的 <a href="http://moztw.org/forum/viewforum.php?f=9">Thunderbird
+          <p>我們想知道您對 Thunderbird 的意見。您可填寫<a href="http://feedback.mozilla.org/">回報表單</a>，或到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/viewforum.php?f=39">英文討論區</a>或 <a href="http://moztw.org/">MozillaTaiwan</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=9">Thunderbird
     中文討論區</a>與我們分享意見。</p>         
         </div>
       </div> 
@@ -40,7 +40,7 @@
 Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/archives/2007/03/tb_2.html">重要錯誤修正</a>詳細清單。
 
       <h3 id="requirements">系統需求</h3>
-      <p>在安裝 Thunderbird 前請先確定您的電腦合乎<a href="/docs/thunderbird/system-requirements">系統需求</a>。
+      <p>在安裝 Thunderbird 前請先確定您的電腦合乎<a href="/thunderbird/system-requirements">系統需求</a>。
       從 1.5 開始，Mac OS X 用戶必須在 MacOX X 10.2 以上版本運行本程式。</p>
 
       <h2 id="download">下載 Thunderbird</h3>
