@@ -6,7 +6,7 @@
 <div id="mBody">
  <div id="side" class="left">
   <ul id="nav">
-   <li><a href="/firefox">^回 Firefox 首頁</a></li>
+   <li><a href="/thunderbird/">^回 Thunderbird 首頁</a></li>
   </ul>
   <!--<script type="text/javascript" src="download.js"></script>-->
   <!--<script type="text/javascript">-->
@@ -17,8 +17,8 @@
   <noscript>-->
     <h2>馬上下載</h2>
     <ul id="nav">
-      <!--#include virtual="/inc/dlff.html" -->
-      <li><a href="/firefox/releases/">版本資訊</a></li>
+      <!--#include virtual="/inc/dltb.html" -->
+      <li><a href="/thunderbird/releases/">版本資訊</a></li>
     </ul>
   <!--</noscript>-->
 	
@@ -27,7 +27,7 @@
  <hr class="hide">
  <div id="mainContent">
 
-  <h2>Firefox 系統需求</h2>
+  <h2>Thunderbird 系統需求</h2>
   <h3>Windows</h3>
   <h6>作業系統版本</h6>
   <ul>
@@ -37,6 +37,7 @@
     <li>Windows NT 4.0</li>
     <li>Windows 2000</li>
     <li>Windows XP (<em>推薦使用此版本</em>)</li>
+    <li>Windows Vista</li>
   </ul>
   <h6>硬體最低需求</h6>
   <ul>
@@ -47,21 +48,18 @@
 
   <h3>Linux</h3>
   <h6>軟體需求</h6>
-  <p><em>以下內容有待審查，僅供指引。</em><br />
-     請留意：Linux 隨附的 Package 依發佈版本亦可能有不同需求。</p>
+     請留意：Linux 隨附的 Package 依發佈版本亦可能有不同需求。
   <ul>
     <li>Linux kernel - 2.2.14，最少需安裝以下函式庫：
       <ul>
-        <li>glibc 2.2.4</li>
-        <li>gtk+ - 1.2.0 (最好為 1.2.5 以上版本)</li>
-<!--    xxxmpc: this is probably bogus, needs testing/fixing probably
-        <li>libstdc++5</li>  -->
+        <li>glibc 2.3.2</li>
+        <li>libstdc++5</li>
         <li>XFree86-3.3.6</li>
         <li>fontconfig (亦稱為 xft)</li>
         <li>gtk+2.0</li>
       </ul>
     </li>
-    <li>Firefox 已於 Red Hat Linux 8.0 以上版本測試過。</li>
+    <li>Thunderbird 已於 Linux Fedora Core 4 測試過。</li>
   </ul>
   <h6>硬體最低需求</h6>
   <ul>
@@ -73,14 +71,13 @@
   <h3>Mac</h3>
   <h6>作業系統版本</h6>
   <ul>
-    <li>Mac OS X 10.1.x</li>
     <li>Mac OS X 10.2.x 以上</li>
   </ul>
   <h6>硬體最低需求</h6>
   <ul>
-    <li>PowerPC 604e 266 MHz (<em>建議</em> PowerPC G4 667MHz 以上)</li>
-    <li>G3, G4, 64 MB RAM (<em>建議</em> 256 MB 以上)</li>
-    <li>72 MB 硬碟空間</li>
+    <li>麥金塔電腦，核心為 Intel x86 或 PowerPC G3-G5 處理器</li>
+    <li>128 MB RAM (<em>建議</em> 256 MB 以上)</li>
+    <li>200 MB 硬碟空間</li>
   </ul>  
  </div>
  <!-- closes #mainContent-->
