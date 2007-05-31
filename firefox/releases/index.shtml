@@ -1,5 +1,5 @@
 ﻿<!--#include virtual="/inc/meta.html" -->
-<title>Mozilla Firefox 2.0.0.3 版本資訊</title>
+<title>Mozilla Firefox 2.0.0.4 版本資訊</title>
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 
@@ -15,20 +15,24 @@
         </div>
       </div> 
       <!-- What's New -->
-               <h2 id="whatsnew">Firefox&nbsp;2.0.0.3 新鮮事</h2>
+               <h2 id="whatsnew">Firefox&nbsp;2.0.0.4 新鮮事</h2>
 
                <ul class="news spaced">
 	          <li>
-	            <p><b>發行日期：</b> 2007 年 3 月 20 日</p>
+	            <p><b>發行日期：</b> 2007 年 5 月 30 日</p>
 	          </li>
     	      <li>
-    	        <p><strong>安全更新：</strong>修補數項安全問題，請查閱 <a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html#firefox2.0.0.3">安全議題列表</a>。</p>
+    	        <p><strong>安全更新：</strong>修補了數項<a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html#firefox2.0.0.4">安全問題</a>。</p>
   	        </li>
     	      <li>
-    	        <p><strong>網站支援：</strong>修復數個網站相容問題。</p>
+    	        <p><strong>Windows Vista 支援：</strong>此版本在<a href="#vista">某些限制下</a>針對 Vista 做了增強及修正。</p>
   	        </li>
-<li>
-    	        <p><strong>前一版：</strong>欲知 2.0.0.2 版更新項目，請參考其<a href="/firefox/releases/2.0.0.2/">版本資訊</a>。</p>
+       	      <li>
+    	        <p><strong>新介面語言：</strong>新增南非語 (af)、白俄羅斯語 (be)，並提供<a href="#localizedbuilds">多種新語言</a>的測試版本。</p>
+  	        </li>
+
+			<li>
+    	        <p><strong>前一版：</strong>欲知 2.0.0.3 版更新項目，請參考其<a href="/firefox/releases/2.0.0.3/">版本資訊</a>。</p>
   	        </li>
       </ul>
 
@@ -109,8 +113,7 @@
       <dt id="vista">Windows 及 Windows Vista</dt>
       <dd>
       <ul class="spaced">
-      <li>在 Vista 上建議您將 Firefox 安裝到預設目錄。如果安裝到非預設目錄，自動更新可能會失敗。請重新安裝程式到預設目錄，或將程式安裝所在的資料夾更名為 "Mozilla Firefox"。
-          或者你也可以在 Firefox 上按右鍵，從選單中選擇「以管理員身份執行」來啟動 Firefox。      </li>
+      <li>在某些程式中（例如某些即時通訊軟體）按下連結可能無法用 Firefox 開啟網頁，就算你已經設為預設瀏覽器也一樣。要解決這個問題請到「開始＞預設程式＞設定此台電腦的預設程式」，展開「自訂」欄位後選擇你想要設定為預設使用的應用程式（就是 Firefox）後點「套用」即可。</li>
       <li>Windows Vista 並不提供 Windows Media Player (WMP) plugin，若要觀看 Windows Media 內容，可安裝 <a href="http://www.microsoft.com/windows/windowsmedia/player/version64/plugin.aspx">WMP Plugin v6.4 for Netscape Navigator</a>。</li>
       <li>尚未能完全遵循 Vista 家長控制的設定，下載的檔案<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=355554">並不遵從</a> Vista 的家長控制設定，這點往後會處理。</li>
       <li>自 Internet Explorer 7 轉移至 Firefox 時，<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=369910">cookies</a> 與<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=369916">既存表單內容</a>無法匯入。</li>
@@ -196,10 +199,9 @@
       <h2 id="localizedbuilds">在地化版本</h2>
       <p>Firefox 現提供下列語言版本供測試：</p>
       <ul>
-        <li>Afrikaans 非洲語 (af) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=win&lang=af">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=osx&lang=af">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&amp;os=linux&amp;lang=af">Linux</a></li>
-        <li>Belarusian 白俄羅斯 (be) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=win&lang=be">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=osx&lang=be">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&amp;os=linux&amp;lang=be">Linux</a></li>
-        <li>Georgian 喬治亞語 (ka) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=win&lang=ka">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=osx&lang=ka">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&amp;os=linux&amp;lang=ka">Linux</a></li>
-        <li>Kurdish 庫德爾語 (ku) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=win&lang=ku">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&os=osx&lang=ku">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.3&amp;os=linux&amp;lang=ku">Linux</a></li>
+        <li>Georgian 喬治亞語 (ka) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.4&os=win&lang=ka">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.4&os=osx&lang=ka">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.4&amp;os=linux&amp;lang=ka">Linux</a></li>
+        <li>Kurdish 庫德爾語 (ku) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.4&os=win&lang=ku">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.4&os=osx&lang=ku">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.4&amp;os=linux&amp;lang=ku">Linux</a></li>
+        <li>Romanian 羅馬尼亞語 (ro) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.4&amp;os=win&amp;lang=ro">Windows</a>,        <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.4&amp;os=osx&amp;lang=ro">Mac</a>,        <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.4&amp;os=linux&amp;lang=ro">Linux</a></li>
       </ul>
       <h2 id="contributedbuilds">非官方建製版</h2>
 
