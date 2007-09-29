@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <style type="text/css">
 <!--
-.front-feature { background: #E4EcEc url(images/tbheading.png) bottom right no-repeat;}
+.front-feature { background: #E4EcEc url(images/feature-back-cwb.png) bottom right no-repeat;}
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
@@ -11,13 +11,12 @@
 
 <div class="key-point front-feature" id="front-feature">
   <div id="feature-content">
-    <h2><a href="/thunderbird/"><img src="images/thunderbird-title.png" alt="Thunderbird 2.0" height="59" width="359"></a></h2>
-    <p>輕巧方便的 Thunderbird 
-	電子郵件軟體再度加強郵件管理及安全等諸多功能，讓您享受資訊盡握手中的快感！</p>
+    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 2" height="55" width="252"></a></h2>
+    <p>獲獎連連的 <a href="/firefox/">Firefox 網路瀏覽器</a>，以更快、更安全、更容易自訂的面貌現身，全面升級您的網際瀏覽體驗。</p>
     <div class="download">
-		<h3><a href="/thunderbird/"><strong class="downloadText">下載 Thunderbird 2 </strong></a></h3>
- 		<div style='background: url(/images/product-front-thunderbird.png) no-repeat;'>
-		<!--#include virtual="/inc/dltb.html" -->
+		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 2 </strong></a></h3>
+ 		<div style='background: url(/images/product-firefox.png) no-repeat;'>
+		<!--#include virtual="/inc/dlff.html" -->
 	</div>
 	</div>
   </div>
@@ -25,9 +24,10 @@
 
 <div id="mBody">
   <div class="frontcolumn">
-      <h2><a href="/firefox/">Firefox</a></h2>
-    <a href="/firefox/"><img src="/images/product-firefox.png" alt="Firefox" class="promo" width="60" height="60"></a>
-	<p>獲獎連連的 <a href="/firefox/">Firefox 網路瀏覽器</a>，以更快、更安全、更容易自訂的面貌現身，全面升級您的網際瀏覽體驗。 </p>
+      <h2><a href="/thunderbird/">Thunderbird</a></h2>
+      <a href="/thunderbird/"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
+	<p>輕巧方便的 <a href="/thunderbird/">Thunderbird</a>
+	電子郵件軟體再度加強郵件管理及安全等諸多功能，讓您享受資訊盡握手中的快感！</p>
 
   </div>
   <div class="frontcolumn">
