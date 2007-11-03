@@ -1,5 +1,5 @@
 ﻿<!--#include virtual="/inc/meta.html" -->
-<title>Mozilla Firefox 2.0.0.9 版本資訊</title>
+<title>Mozilla Firefox 2.0.0.8 版本資訊</title>
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 
@@ -15,17 +15,20 @@
         </div>
       </div> 
       <!-- What's New -->
-               <h2 id="whatsnew">Firefox&nbsp;2.0.0.9 新鮮事</h2>
+               <h2 id="whatsnew">Firefox&nbsp;2.0.0.8 新鮮事</h2>
 
                <ul class="news spaced">
 	          <li>
-	            <p><b>發行日期：</b> 2007 年 11 月 1 日</p>
+	            <p><b>發行日期：</b> 2007 年 10 月 18 日</p>
 	          </li>
     	      <li>
-    	        <p><strong>穩定性更新：</strong>修補了數項 <a href="http://developer.mozilla.org/devnews/index.php/2007/10/22/firefox-2008-update-to-be-updated/">Firefox 2.0.0.8 中發現的問題</a>。</p>
+    	        <p><strong>安全更新：</strong>修補了數項<a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html#firefox2.0.0.8">安全問題</a>。</p>
+  	        </li>
+<li>
+    	        <p><strong>支援 Mac OS X 10.5（Leopard）：</strong>目前已支援此作業系統，唯有<a href="#macosx">部分問題</a>尚待解決。</p>
   	        </li>
 			<li>
-    	        <p><strong>前一版：</strong>欲知 2.0.0.8 版更新項目，請參考其<a href="/firefox/releases/2.0.0.8/">版本資訊</a>。</p>
+    	        <p><strong>前一版：</strong>欲知 2.0.0.7 版更新項目，請參考其<a href="/firefox/releases/2.0.0.7/">版本資訊</a>。</p>
   	        </li>
       </ul>
 
@@ -117,8 +120,7 @@
 
       <dd>
       <ul class="spaced">
-<li>在 OS X 10.5（Leopard）上，有些網站的下拉式選單可能無法使用。</li>
-<li>在 OS X 10.5（Leopard）上，有些內含 binary 元件的 plugin 或套件可能有問題，此外「偏好設定＞進階」下的頁籤顯示上有問題。</li>
+      <li>在 OS X 10.5（Leopard）上，有些內含 binary 元件的 plugin 或套件可能有問題，此外「偏好設定＞進階」下的頁籤顯示上有問題。</li>
       <li>一旦開啟的分頁超過二十個，快捷選單的「關閉其他分頁」功能就可能失效。      </li>
       <li>有些使用者發現在 Intel 核心的麥金塔電腦上瀏覽 Macromedia Flash 內容會有問題，此時您可以自<tt>/Library/Internet Plug-Ins</tt> 當中將 PowerPC 版的「Flash Player」刪除。      </li>
       <li>安裝新 plug-in 後，在 about:plugins 有可能會依然顯示舊版的資訊，此時請離開
@@ -194,7 +196,7 @@
       <h2 id="localizedbuilds">在地化版本</h2>
       <p>Firefox 現提供下列語言版本供測試：</p>
       <ul>
-        <li>Kurdish 庫德爾語 (ku) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.9&os=win&lang=ku">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.9&os=osx&lang=ku">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.9&amp;os=linux&amp;lang=ku">Linux</a></li>
+        <li>Kurdish 庫德爾語 (ku) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.8&os=win&lang=ku">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.8&os=osx&lang=ku">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.8&amp;os=linux&amp;lang=ku">Linux</a></li>
       </ul>
       <h2 id="contributedbuilds">非官方建製版</h2>
 
