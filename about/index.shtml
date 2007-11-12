@@ -1,4 +1,4 @@
-<!--#include virtual="/inc/meta_about.html" -->
+﻿<!--#include virtual="/inc/meta_about.html" -->
 <title>About Mozilla Taiwan Community - Moztw.org</title>
 <!--#include virtual="/inc/class_about.html" -->
 <!--#include virtual="/inc/header.html" -->
@@ -95,7 +95,8 @@ Email:
 	
 	<h2 id="about-mozilla">關於 mozilla.org</h2>
 	<p>Mozilla 是非營利開放源碼專案，任務是維持網路自由選擇、確保網路科技不斷創新。
-	此專案由 <a href="http://www.mozilla.org">Mozilla 基金會</a>及其合作夥伴組織支援並推動運行，全球有數千名志工參與其中。</p><p><a href="http://www.mozilla.org/about/">詳盡資訊(英文)...</a></p>
+	此專案由 <a href="http://www.mozilla.org">Mozilla 基金會</a>及其合作夥伴組織支援並推動運行，全球有數千名志工參與其中。關於 Mozilla 基金會的理念，請參考 <a href="mozillamanifesto.shtml">Mozilla 宣言</a>。</p>
+	<p><a href="http://www.mozilla.org/about/">詳盡資訊(英文)...</a></p>
 	
 	<h3 id="mozilla-license">軟體及商標授權</h3>
 	<p>Mozilla 產品 (Mozilla、Mozilla Firefox、Mozilla Thunderbird) 採 Mozilla Public License 授權，相關問題請直接<a href="http://www.mozilla.org/about/">聯絡 mozilla.org</a>，moztw.org 不代為處理。</p>
@@ -106,7 +107,6 @@ Email:
 	</ul>	
 	
 	<h2 id="contact">聯絡資訊</h2>
-	<h3>MozTW 網站及社群</h3>
 	<div class="vcard">
 		<p class="fn n"> 
 			<span class="family-name">孫</span><span class="given-name">偉倫</span> <span class="nickname">Jose</span>
@@ -132,18 +132,8 @@ Email:
 			<span class="adr"><span class="country-name">Taiwan (R.O.C.)</span></span>
 		</div>
 	</div>
-	<h3>Mozilla 中文相關</h3>
-	<div class="vcard">
-		<p class="fn n"> 
-			<span class="family-name">喬</span><span class="given-name">敬</span> <span class="nickname">Ching Chiao</span>
-		</p>
-		<p>WWW: <a href="http://chiao.typepad.com/" class="url"> http://chiao.typepad.com/ </a></p>
-		<p>E-mail: <a class="email" href="mailto:ching.chiao@mail.moztw.org">ching.chiao@mail.moztw.org</a>
-		<p class="note">Mozilla 公司亞洲區聯絡</p>
-		<div class="vcard-additional-info">
-			<span class="org">Mozilla Corp.</span>
-		</div>
-	</div>
+
+	<p>特別感謝：</p>
 	<div class="vcard">
 		<p class="fn n"> 
 			<span class="family-name">林</span><span class="given-name">弘德</span> <span class="nickname">Piaip</span>
