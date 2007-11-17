@@ -95,8 +95,12 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
       <dt>所有系統</dt>
       <dd>
       <ul class="spaced">
+
+	<li>如果你曾在 Thunderbird 1.5.0.x 安裝過 <a href="https://addons.mozilla.org/thunderbird/addon/106">Buttons!</a> 擴充套件，然後更新到 Thunderbird 2，則會看到視	窗下方出現「----------------^&lt;menuitem」這樣的灰色區塊。要解決這個問題，可以停用 Buttons! 套件，或者升級該套件。</li>
+	<li>如果你曾在 Thunderbird 1.5.0.x 安裝過 ScheduleWorld 套件，且發現信件匣在升級到 Thunderbird 2 後消失了，請停用該套件後重新啟動 Thunderbird，信件匣即應出現。</li>
         <li>某些軟體防火牆執行時會悄悄封鎖 Thunderbird 的對外連線，此類問題通常會在 Thunderbird 升級或自舊版覆蓋安裝時發生。您可參考<a href="http://kb.mozillazine.org/Firewalls">防火牆設定步驟</a>確保 Thunderbird 於網路上通行無阻。
         </li>
+        <li>若 Thunderbird 安裝在你沒有權限寫入的地方，則軟體更新將失效，因為更新時會更換檔案、需要寫入權限。</li>
         <li>預設的拼字檢查字典只有英文，其它非英文的字典可以用擴充套件的形式安裝，請至 <a href="https://addons.mozilla.org/thunderbird/dictionaries/?lang=zh-TW">addons.mozilla.org</a> 下載。
         </li>
         <li>
@@ -112,6 +116,13 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
 
         </li>
        </ul>
+      </dd>
+      <dt>Windows</dt>
+      <dd>
+        <ul class="spaced">
+          <li>使用 NVIDIA RIVA TNT2 或 GeForce2 相容顯示卡時，可能會發現信件清單處的顯示有重疊情形或亂碼文字。這個問題的起因是 NVIDIA 驅動程式中的一個程式錯誤，你可以更新驅動程式，或者從「控制台＞顯示＞設定＞進階」中降低硬體加速等級來解決這個問題。又或者，安裝這個<a href="https://addons.mozilla.org/thunderbird/addon/5204">Thunderbird 的擴充套件</a>也能避開這個問題。</li>
+
+        </ul>
       </dd>
 
       <dt>Mac OS X</dt>
