@@ -8,6 +8,8 @@
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
 <li><div class="date"> 2007 年</div></li>
+<li><div class="date"> 11 月 17</div>
+  Thunderbird 2.0.0.9 更新版本已發行。（<a href="http://moztw.org/thunderbird/releases/2.0.0.9">版本資訊</a>）</li>
 <li><div class="date"> 11 月 3</div>
   Firefox 2.0.0.9 更新版本已發行。（<a href="http://moztw.org/firefox/releases/2.0.0.9">版本資訊</a>）</li>
 <li><div class="date"> 9 月 29</div>
