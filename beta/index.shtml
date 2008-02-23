@@ -75,7 +75,7 @@
 
 <div id="mainContent" class="right">
 <h2>Firefox 3 Beta 3 已知問題</h2>
-<p>Firefox 3 Beta 3 以新版 Gecko 1.9 網頁佈局引擎構成。研發此全新的引擎耗時 27 個月、更改了近兩百萬行程式碼，亦改善了超過一萬一千個大小問題。以下簡要列出此版本的已知問題，請閱讀後再回報新的程式錯誤。新功能及其他詳細內容，請參考<a href="http://moztw.org/firefox/release">版本資訊</a></p>
+<p>Firefox 3 Beta 3 以新版 Gecko 1.9 網頁佈局引擎構成。研發此全新的引擎耗時 27 個月、更改了近兩百萬行程式碼，亦改善了超過一萬一千個大小問題。以下簡要列出此版本的已知問題，請閱讀後再回報新的程式錯誤。新功能及其他詳細內容，請參考<a href="http://moztw.org/firefox/release/3.0b3/">版本資訊</a></p>
       <dl>
       <dt>所有系統</dt>
       <dd>

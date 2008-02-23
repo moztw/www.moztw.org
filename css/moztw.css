@@ -122,6 +122,11 @@ a#featurelink { background: none;  }
 	padding-top: 70px !important;
     width: 100% !important;
 }
+.firefox-releasenotes-beta {
+    background: url("/images/releasenotes-firefox-beta.png") no-repeat;
+    padding-top: 70px !important;
+    width: 100% !important;
+}
 
 .thunderbird-releasenotes {
     background: url("/images/releasenotes-thunderbird.png") no-repeat;
