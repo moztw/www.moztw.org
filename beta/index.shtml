@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>測試版專區 - Mozilla Taiwan</title>
+<title>測試專區 - Mozilla Taiwan</title>
 
 <style type="text/css">
 #mainContent .download:before {
@@ -48,77 +48,159 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point">
-    <div id="product-desc" class="product-beta">
-	<img src='/images/moztw_beta.png' style='float: left;' alt='' title='beta, this is only beta!'/>
-	<h2>Mozilla Taiwan 相關軟體中文測試版</h2>
-	<p>
-	歡迎您協助測試此處的中文軟體，您的貢獻能讓我們更好。</p><p>請注意：這裡列出的版本尚未正式發行，僅供測試用，<a href="http://moztw.org/dl">一般使用者請下載正式版本</a>。<strong class="warning">使用測試版軟體可能會有各種相容性問題、套件及佈景主題亦可能失效</strong>。
-	</p></div>
+	<div id="product-desc">
+		<img src="http://moztw.org/images/moztw_beta.png" style='float: left;' alt='' title='Look Mom, it's only a beta!'/>
+		<h2>Firefox 3 Beta 3 中文測試版</h2>
+<p>Firefox 3 Beta 3 是給開發者預覽測試的新版 Firefox 瀏覽器，僅供測試使用。如果曾安裝<a title="最新版本的Firefox" href="http://www.getfirefox.com.tw/">最新的正式版 Firefox</a>，之前安裝的附加元件非常可能無法於此測試版正常使用。本測試版可讓您認識對 Firefox 3 的模樣及功能，但仍有新功能尚未加入，且許多部分仍會修改補強。</p>
+				<p>如發現任何問題，非常歡迎您到 <a href="http://forum.moztw.org/viewforum.php?f=4">Mozilla Taiwan 討論區</a> 與我們參與討論或是直接到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報錯誤訊息。</p>
+
+	</div>
+	<div id="product-side">
+		<div class="download">
+			<div id="firefox-beta">
+				<h3>Firefox 3 beta 3 (<strong class="warning">測試版</strong>)</h3>
+				<ul>
+					<li><a href="http://www.mozilla.com/products/download.html?product=firefox-3.0b3&os=win&lang=zh-TW" class="download-windows">Windows</a></li>
+
+					<li><a href="http://www.mozilla.com/products/download.html?product=firefox-3.0b3&os=osx&lang=zh-TW" class="download-osx-uni">Mac OS X</a></li>
+					<li><a href="http://www.mozilla.com/products/download.html?product=firefox-3.0b3&os=linux&lang=zh-TW" class="download-linux">Linux</a></li>
+					<li><a href="http://www.mozilla.com/en-US/firefox/all-beta.html">其他語言或平台</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
 </div>
+
+
 <div id="mainContent" class="right">
-    <h2>注意事項</h2>
-    <p>Mozilla Taiwan 為提昇軟體中文翻譯品質，提供下列軟體中文測試版。</p>
+<h2>Firefox 3 Beta 3 已知問題</h2>
+<p>Firefox 3 Beta 3 以新版 Gecko 1.9 網頁佈局引擎構成。研發此全新的引擎耗時 27 個月、更改了近兩百萬行程式碼，亦改善了超過一萬一千個大小問題。以下簡要列出此版本的已知問題，請閱讀後再回報新的程式錯誤。新功能及其他詳細內容，請參考<a href="http://moztw.org/firefox/release">版本資訊</a></p>
+      <dl>
+      <dt>所有系統</dt>
+      <dd>
+      <ul class="spaced">
+      <li>Windows Live Mail 無法使用; 必須切換到 Hotmail 舊版介面 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=396259">bug 396259</a>)</li>
+      <li>新版的 GMail 聯絡人無法顯示 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=415252">bug 415252</a>)</li>
+
+      <li>新版 Yahoo! Mail 錯誤更新中，使用者暫時切換到舊版的介面
+		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=398381">bug
+		398381</a>)
+		</li>
+		<li>
+		無法在智慧書籤中拖曳書籤，現在只能利用剪下、貼上步驟來移動書籤
+		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=405198">bug
+		405198</a>)
+		</li>
+		<li>
+		MathML 功能在 Firefox 3 Beta 3 尚未完全穩定
+		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=324857">bug
+		324857</a> and
+		<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=363240">bug
+		363240</a>)
+		</li>
+
+		<li>
+		新的網址列，當使用 Window-Eyes 時加入書籤對話框與下載管理員通知的訊息不一致，使用 JAWS 8.0
+		或其他<font size="-1">螢幕閱讀程式來測試 Firefox 3 Beta 3</font>
+		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=393398">bug
+		393398</a>)
+		</li>
+		<li>
+		續傳檔案系統會因為伺服器不允許重新連線時發生錯誤 
+		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=401846">bug
+		401846</a>)
+		</li>
+
+		<li>
+		在安裝部份的附加元件後，"重新啟動"的按鈕不會顯示
+		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=414936">bug
+		414936</a>)
+		</li>
+		<li>
+		部份附加元件在停用或移除後仍會被載入
+		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=406118">bug
+		406118</a>)
+		</li>
+		<li>
+		使用 Internet Download Manager 附加元件會使 Firefox 當掉，建議關閉或是移除該套件
+		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=382356">bug
+		382356</a>)
+		</li>
+
+		<li>
+		個人隱私 > 瀏覽紀錄 > 保留瀏覽紀錄裡的網址設定為 0 時沒有作用
+		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=366075">bug
+		366075</a>)
+      </ul>
+      </dd>
+      <dt id="vista">Windows 及 Windows Vista</dt>
+      <dd>
+		<ul class="spaced">
+		<li>Windows Vista 及某些其他版本Windows並沒有提供一個Windows Media Player (WMP) 的plugin。必須透過一些步驟才能安裝plugin及開啟Windows Media檔案。安裝完畢後可能也需要做Windows Updates才能讓plugin正常地顯示這些檔案。</li>
+
+		<li>當物件被拖放到書籤工具列時，資料夾不會自動展開。(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=337761">bug 337761</a>)</li>
+		<li>同一時間利用下載管理員下載許多檔案後，AVG Virus 進行掃毒時會造成 Firefox 當掉 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=412565">bug 412565</a>)</li></ul>
+		</dd>
+      </dd>
+      <dt id="macosx">Mac OS X</dt>
+
+		<dd>
+		<ul class="spaced">
+		<li>當使用 Google 文件時 Firefox 無法回應按鍵輸入 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=413882">bug 413882</a>) 
+		</li><li>上一頁、下一頁的選單尚不完善 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=415444">bug 415444</a>) 
+		</li><li>Flash Player r60 以上本版存在一些問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=395983">bug 395983</a>) 
+		</li><li>建立新設定資料夾時, 可選擇性的匯入 Internet Explorer 資料。 從 Safari 匯入資料後， 書籤資料會錯置於 "由Internet Explorer" 資料夾 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=413021">bug 413021</a>)</li><li>在非 en-US 的語系下，應用程式資料夾的圖示會遺失 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=416055">bug 416055</a>) </li></ul>
+
+		</dd>
+     <dt>Linux 及 Unix</dt>
+     <dd>
+		<ul class="spaced">
+		<li>在某些散佈版裡，逛某些網站時無法列印 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=414314">bug 414314</a>) 	</li>
+		<li>使用較舊散佈版的使用者需要更新認證才能送出當機報告 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=407748#c4">bug 407748</a>) </li>
+
+		<li>瀏覽 SMB 分享使用較舊的 Gnome VFS 版本無法列出使用非 ASCII 字碼的檔案 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=255949">bug 255949</a>) </li>
+		<li>AT-SPI 事件無法觸發當焦點再次回到 Firefox (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=415919">bug 415919</a>)</li>
+		</ul></dl>
+</div>
+
+<div id="side" class="right">
+    <h3>注意事項</h3>
+    <p>Mozilla Taiwan 為提昇軟體中文翻譯品質，提供軟體中文測試版。</p>
+
     <ul>
     <li>如軟體操作時發生錯誤或有建議，請至 <a href="http://bugzilla.mozilla.org">Buzilla</a> 回報。</li>
+
     <li>若發現任何中文翻譯錯誤或建議，請至 <a href="http://forum.moztw.org/viewforum.php?f=4">
 	Mozilla Taiwan 討論區</a>回報。</li></ul>
     <p>本區檔案來源為 Mozilla.org Nightly Builds 
     (每日編譯供測試的版本，非正式發行用)：</p>
-    <ul><li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla1.8-l10n/">Firefox L10n Nightly</a></li>
-    <li><a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-mozilla1.8-l10n/"> Thunderbird L10n Nightly</a></li></ul>    
-<div class="download">
-    <div id="firefox-beta">
-    </div>
-    <div id="thunderbird-beta">
-    <h3>Thunderbird 2.0 beta 1 (<strong class="warning">測試版</strong>)</h3>
     <ul>
-	<li><a href="http://forum.moztw.org/viewtopic.php?p=95919">語言包</a></li>
-    </ul>
-    </div>
+		<li></li>
+	</ul>
+	<h3>協助！</h3>
 
-<!--    <div id="old-beta">
-    <h3>Firefox 1.5 RC 2 (1107 Build)</h3> 
-    <ul>
-	<li>Windows: <a href="/dls/fx/1.4/firefox-1.5rc2.zh-TW.win32.installer.exe">自解安裝檔</a></li>
-	<li>Linux: <a href="/dls/fx/1.4/firefox-1.5rc2.zh-TW.linux-i686.tar.gz">TGZ 免安裝</a></li>
-	<li>Mac OS X: <a href="/dls/fx/1.4/firefox-1.5rc2.zh-TW.mac.dmg"> DMG 解開後拖至應用程式內即可</a></li>
-    </ul>
+	<form action="http://groups-beta.google.com/group/moztw-testing/boxsubscribe">
+		<div style="border: 1px solid #e0e9e9; font-size: small; background-color: rgb(237, 242, 242); padding: 5px;">
+			<strong>協助測試，訂閱中文版測試通知</strong><br>
+			<div style="border: 1px outset blue; padding: 3px 5px; background-color: #e0e9e9; position: relative;">
+				Email:
+				<p style="margin:0; margin-right: 4em; padding: 0;"><input type="text" name="email" style="width: 100%;"></p>
+				<input type="submit" name="sub" value="訂閱" style="width: 3.5em; position: absolute; right: .4em; top: 1.5em;">
+			</div>
+			<p>訂閱後，在 moztw.org 中文軟體新版需要測試時便能獲得通知，感謝您的協助。</p>
 
-    
-
-    <div id="thunderbird-beta">
-    <h3>Thunderbird 1.5 RC 2 (1107 Build)</h3>
-    <ul>
-	<li>Windows: <a href="/dls/tb/1.4/thunderbird-1.5rc2.zh-TW.win32.installer.exe">自解安裝檔</a>
-	<li>Linux: <a href="/dls/tb/1.4/thunderbird-1.5rc2.zh-TW.linux-i686.tar.gz">TGZ 免安裝</a></li>
-	<li>Mac OS X: <a href="/dls/tb/1.4/thunderbird-1.5rc2.zh-TW.mac.dmg">DMG 解開後拖至應用程式內即可</a></li>
-    </ul>
-    </div>
-  </div> -->
-
-</div>
-</div>
-
-<div id="side" class="right">
-	<h3>關於 Thunderbird 2.0 Beta</h3>
-			<p>Thunderbird 2.0 正式版預定 2007 年第一季推出，目前測試版提供擴充套件作者及社群成員測試相容及使用問題。</p>	
+			<p style="font-size: xx-small; text-align: right; margin: 0;">powerd by Google Groups</p>
+		</div>
+	</form>
+	<h3>逐日測試版</h3>
+	<p>每天依照修補測試項目更新的測試版，更新、更前衛、更容易採到地雷 :P 一般使用者切勿進入，歡迎熟手協助測試：</p>
+	<ul><li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk/">Firefox</a></li>
+	<li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk-l10n/">Firefox (多語)</a></li>
+	<li><a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-trunk/">Thunderbird</a></li>
+	<li><a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-trunk-l10n/">Thunderbird (多語)</a></li></ul>
 	<h3>其他資訊</h3>
-			<p>Firefox 2.0 正式版已經釋出 (24 Oct 2006)。</p>
-			<p>Camino 1.0 正式版已經釋出 (14 Feb 2006)。</p>
-			<p>SeaMonkey 1.0 正式版已經釋出 (31 Jan 2006)。</p>
-<!--    <ul class="compact">
-	<li><a href='http://forum.moztw.org/viewtopic.php?t=10481'>
-	Firefox 1.5 beta 1: 新鮮事
-    </a></li>
-	<li><a href='http://forum.moztw.org/viewtopic.php?t=9966'>
-	Firefox 1.5 系列重大新功能簡介
-    </a></li>
-	<li><a href='http://forum.moztw.org/viewtopic.php?t=10482'>
-	Thunderbird 1.5 beta1 新鮮事
-    </a>
-    </ul> -->
-    <!--
-    <img src='/images/moztw_beta2.png' alt='' title='beta, this is only beta!'/>
-    -->
+		<ul><li><a href="http://bugzilla.mozilla.org/">Bugzilla 錯誤回報</a></li>
+		<li><a href="http://forum.moztw.org/">Mozilla Taiwan 討論區</a></li></ul>
 </div>
 <!--#include virtual="/inc/footer.html" -->
