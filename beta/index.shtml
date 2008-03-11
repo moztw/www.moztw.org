@@ -50,20 +50,20 @@
 <div class="key-point">
 	<div id="product-desc">
 		<img src="http://moztw.org/images/moztw_beta.png" style='float: left;' alt='' title='Look Mom, it's only a beta!'/>
-		<h2>Firefox 3 Beta 3 中文測試版</h2>
-<p>Firefox 3 Beta 3 是給開發者預覽測試的新版 Firefox 瀏覽器，僅供測試使用。如果曾安裝<a title="最新版本的Firefox" href="http://www.getfirefox.com.tw/">最新的正式版 Firefox</a>，之前安裝的附加元件非常可能無法於此測試版正常使用。本測試版可讓您認識對 Firefox 3 的模樣及功能，但仍有新功能尚未加入，且許多部分仍會修改補強。</p>
+		<h2>Firefox 3 Beta 4 中文測試版</h2>
+<p>Firefox 3 Beta 4 是給開發者預覽測試的新版 Firefox 瀏覽器，僅供測試使用。如果曾安裝<a title="最新版本的Firefox" href="http://www.getfirefox.com.tw/">最新的正式版 Firefox</a>，之前安裝的附加元件非常可能無法於此測試版正常使用。本測試版可讓您認識對 Firefox 3 的模樣及功能，但仍有新功能尚未加入，且許多部分仍會修改補強。</p>
 				<p>如發現任何問題，非常歡迎您到 <a href="http://forum.moztw.org/viewforum.php?f=4">Mozilla Taiwan 討論區</a> 與我們參與討論或是直接到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報錯誤訊息。</p>
 
 	</div>
 	<div id="product-side">
 		<div class="download">
 			<div id="firefox-beta">
-				<h3>Firefox 3 beta 3 (<strong class="warning">測試版</strong>)</h3>
+				<h3>Firefox 3 Beta 4 (<strong class="warning">測試版</strong>)</h3>
 				<ul>
-					<li><a href="http://www.mozilla.com/products/download.html?product=firefox-3.0b3&os=win&lang=zh-TW" class="download-windows">Windows</a></li>
+					<li><a href="http://www.mozilla.com/products/download.html?product=firefox-3.0b4&os=win&lang=zh-TW" class="download-windows"  onclick="urchinTracker('/download_trace/fx3b4win');">Windows</a></li>
 
-					<li><a href="http://www.mozilla.com/products/download.html?product=firefox-3.0b3&os=osx&lang=zh-TW" class="download-osx-uni">Mac OS X</a></li>
-					<li><a href="http://www.mozilla.com/products/download.html?product=firefox-3.0b3&os=linux&lang=zh-TW" class="download-linux">Linux</a></li>
+					<li><a href="http://www.mozilla.com/products/download.html?product=firefox-3.0b4&os=osx&lang=zh-TW" class="download-osx-uni"  onclick="urchinTracker('/download_trace/fx3b4mac');">Mac OS X</a></li>
+					<li><a href="http://www.mozilla.com/products/download.html?product=firefox-3.0b4&os=linux&lang=zh-TW" class="download-linux"  onclick="urchinTracker('/download_trace/fx3b4linux');">Linux</a></li>
 					<li><a href="http://www.mozilla.com/en-US/firefox/all-beta.html">其他語言或平台</a></li>
 				</ul>
 			</div>
@@ -74,35 +74,34 @@
 
 
 <div id="mainContent" class="right">
-<h2>Firefox 3 Beta 3 已知問題</h2>
-<p>Firefox 3 Beta 3 以新版 Gecko 1.9 網頁佈局引擎構成。研發此全新的引擎耗時 27 個月、更改了近兩百萬行程式碼，亦改善了超過一萬一千個大小問題。以下簡要列出此版本的已知問題，請閱讀後再回報新的程式錯誤。新功能及其他詳細內容，請參考<a href="http://moztw.org/firefox/release/3.0b3/">版本資訊</a></p>
+<h2>Firefox 3 Beta 4 已知問題</h2>
+<p>Firefox 3 Beta 4 以新版 Gecko 1.9 網頁佈局引擎構成。研發此全新的引擎耗時 31 個月，改善了超過一萬兩千個大小問題。以下簡要列出此版本的已知問題，請閱讀後再回報新的程式錯誤。新功能及其他詳細內容，請參考<a href="http://moztw.org/firefox/release/3.0b4/">版本資訊</a></p>
       <dl>
-      <dt>所有系統</dt>
+
+     <dt>所有系統</dt>
       <dd>
       <ul class="spaced">
       <li>Windows Live Mail 無法使用; 必須切換到 Hotmail 舊版介面 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=396259">bug 396259</a>)</li>
       <li>新版的 GMail 聯絡人無法顯示 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=415252">bug 415252</a>)</li>
 
-      <li>新版 Yahoo! Mail 錯誤更新中，使用者暫時切換到舊版的介面
-		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=398381">bug
-		398381</a>)
+      <li>「回報偽造網頁」選項目前暫無法使用 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=420677">bug 420677</a>)
 		</li>
 		<li>
-		無法在智慧書籤中拖曳書籤，現在只能利用剪下、貼上步驟來移動書籤
-		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=405198">bug
-		405198</a>)
+		Firefox 不會問使用者是否要更改既存密碼
+		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=421058">bug
+		421058</a>)
 		</li>
 		<li>
-		MathML 功能在 Firefox 3 Beta 3 尚未完全穩定
-		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=324857">bug
-		324857</a> and
+		MathML 功能在 Firefox 3 Beta 4 尚未完全穩定
+		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=413115">bug
+		413115</a> 及
 		<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=363240">bug
 		363240</a>)
 		</li>
 
 		<li>
-		新的網址列，當使用 Window-Eyes 時加入書籤對話框與下載管理員通知的訊息不一致，使用 JAWS 8.0
-		或其他<font size="-1">螢幕閱讀程式來測試 Firefox 3 Beta 3</font>
+		當使用 Window-Eyes 時，新的網址列、加入書籤對話框與下載管理員通知的訊息不一致，請使用 JAWS 8.0
+		或其他螢幕閱讀程式來測試 Firefox 3 Beta 4
 		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=393398">bug
 		393398</a>)
 		</li>
@@ -111,58 +110,49 @@
 		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=401846">bug
 		401846</a>)
 		</li>
-
+<li>
+		以 <code>text/html</code> 型態傳來的資料來源無法正確載入 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=381357">bug
+		381357</a>)
+		</li>
 		<li>
-		在安裝部份的附加元件後，"重新啟動"的按鈕不會顯示
+		某些附加元件安裝後不會顯示「重新啟動」鈕
 		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=414936">bug
 		414936</a>)
 		</li>
 		<li>
-		部份附加元件在停用或移除後仍會被載入
-		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=406118">bug
-		406118</a>)
-		</li>
-		<li>
-		使用 Internet Download Manager 附加元件會使 Firefox 當掉，建議關閉或是移除該套件
-		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=382356">bug
-		382356</a>)
+		部份採用已棄用程式碼的附加元件無法正確安裝
+		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=406807">bug
+		406807</a>)
 		</li>
 
 		<li>
 		個人隱私 > 瀏覽紀錄 > 保留瀏覽紀錄裡的網址設定為 0 時沒有作用
 		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=366075">bug
-		366075</a>)
+		366075</a>)</li>
+<li>
+		DOM 觀查器已被移除，以額外的<a href="https://addons.mozilla.org/zh-TW/firefox/addon/6622">擴充套件</a>形式提供。</li>
       </ul>
       </dd>
       <dt id="vista">Windows 及 Windows Vista</dt>
       <dd>
 		<ul class="spaced">
-		<li>Windows Vista 及某些其他版本Windows並沒有提供一個Windows Media Player (WMP) 的plugin。必須透過一些步驟才能安裝plugin及開啟Windows Media檔案。安裝完畢後可能也需要做Windows Updates才能讓plugin正常地顯示這些檔案。</li>
+		<li>Windows Vista 及某些其他版本Windows並沒有提供一個Windows Media Player (WMP) 的plugin。必須透過一些步驟才能安裝plugin及開啟Windows Media檔案。安裝完畢後可能也需要做Windows Updates才能讓plugin正常地顯示這些檔案。
+		</li><li>若在 Windows 網際網路選項中設定為高安全性，執行檔下載後會被立即刪除 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=416683">bug 416683</a>)</li></ul>
 
-		<li>當物件被拖放到書籤工具列時，資料夾不會自動展開。(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=337761">bug 337761</a>)</li>
-		<li>同一時間利用下載管理員下載許多檔案後，AVG Virus 進行掃毒時會造成 Firefox 當掉 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=412565">bug 412565</a>)</li></ul>
 		</dd>
       </dd>
       <dt id="macosx">Mac OS X</dt>
-
 		<dd>
-		<ul class="spaced">
-		<li>當使用 Google 文件時 Firefox 無法回應按鍵輸入 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=413882">bug 413882</a>) 
-		</li><li>上一頁、下一頁的選單尚不完善 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=415444">bug 415444</a>) 
-		</li><li>Flash Player r60 以上本版存在一些問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=395983">bug 395983</a>) 
-		</li><li>建立新設定資料夾時, 可選擇性的匯入 Internet Explorer 資料。 從 Safari 匯入資料後， 書籤資料會錯置於 "由Internet Explorer" 資料夾 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=413021">bug 413021</a>)</li><li>在非 en-US 的語系下，應用程式資料夾的圖示會遺失 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=416055">bug 416055</a>) </li></ul>
+		<ul class="spaced"><li>網站認證對話方塊的「更多資訊」鈕無法正確叫出網頁資訊視窗  (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=415704">bug 415704</a>) </li></ul>
 
 		</dd>
      <dt>Linux 及 Unix</dt>
      <dd>
 		<ul class="spaced">
-		<li>在某些散佈版裡，逛某些網站時無法列印 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=414314">bug 414314</a>) 	</li>
-		<li>使用較舊散佈版的使用者需要更新認證才能送出當機報告 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=407748#c4">bug 407748</a>) </li>
+		<li>Ubuntu 7.10 的使用者需要更新認證才能送出當機報告 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=407748#c4">bug 407748</a>) </li>
 
-		<li>瀏覽 SMB 分享使用較舊的 Gnome VFS 版本無法列出使用非 ASCII 字碼的檔案 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=255949">bug 255949</a>) </li>
-		<li>AT-SPI 事件無法觸發當焦點再次回到 Firefox (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=415919">bug 415919</a>)</li>
-		</ul></dl>
-</div>
+		<li>多功能滑鼠中，控制上、下頁的按鍵必須重新設定  (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=420294">bug 420294</a>)</li>
+		</ul></dl></div>
 
 <div id="side" class="right">
     <h3>注意事項</h3>
