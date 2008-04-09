@@ -24,9 +24,9 @@
       					<dt><strong>安全性更新：</strong></dt>
       					<dd>下列 <a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html#firefox2.0.0.13">安全問題</a> 已修復。</dd>
       					<dt><strong>前一版：</strong></dt>
-						<dd>欲知 2.0.0.12 版更新項目，請參考 <a href="../../2.0.0.12/releasenotes/">Firefox 2.0.0.12 版本資訊</a>。</dd>
+						<dd>欲知 2.0.0.12 版更新項目，請參考 <a href="/firefox/releases/2.0.0.12/">Firefox 2.0.0.12 版本資訊</a>。</dd>
 				        <dt><strong>Firefox&nbsp;2 特色：</strong></dt>
-      					<dd>欲知 Firefox 2 的所有功能，請見 <a href="/en-US/firefox/features.html">Firefox&nbsp;2 功能介紹</a>。</dd>
+      					<dd>欲知 Firefox 2 的所有功能，請見 <a href="/firefox/">Firefox&nbsp;2 功能介紹</a>。</dd>
 			    </dl>
                <h2 id="downloadandinstall">下載與安裝</h2>
 
