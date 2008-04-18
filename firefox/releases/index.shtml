@@ -1,5 +1,5 @@
 ﻿<!--#include virtual="/inc/meta.html" -->
-<title>Mozilla Firefox 2.0.0.13 版本資訊</title>
+<title>Mozilla Firefox 2.0.0.14 版本資訊</title>
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 
@@ -15,16 +15,16 @@
         </div>
       </div> 
       <!-- What's New -->
-               <h2 id="whatsnew">Firefox&nbsp;2.0.0.13 新鮮事</h2>
+               <h2 id="whatsnew">Firefox&nbsp;2.0.0.14 新鮮事</h2>
 
                <ul class="news spaced">
                    <dl>
       					<dt><strong>發行日期：</strong></dt>
-				        <dd>2008 年 3 月 25 日</dd>
+				        <dd>2008 年 4 月 16 日</dd>
       					<dt><strong>安全性更新：</strong></dt>
-      					<dd>下列 <a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html#firefox2.0.0.13">安全問題</a> 已修復。</dd>
+      					<dd>下列 <a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html#firefox2.0.0.14">安全問題</a> 已修復。</dd>
       					<dt><strong>前一版：</strong></dt>
-						<dd>欲知 2.0.0.12 版更新項目，請參考 <a href="../../2.0.0.12/releasenotes/">Firefox 2.0.0.12 版本資訊</a>。</dd>
+						<dd>欲知 2.0.0.13 版更新項目，請參考 <a href="../../2.0.0.13/releasenotes/">Firefox 2.0.0.13 版本資訊</a>。</dd>
 				        <dt><strong>Firefox&nbsp;2 特色：</strong></dt>
       					<dd>欲知 Firefox 2 的所有功能，請見 <a href="/en-US/firefox/features.html">Firefox&nbsp;2 功能介紹</a>。</dd>
 			    </dl>
@@ -194,28 +194,28 @@
          <a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0/contrib-localized/">FTP 站台</a>取得。</p>
  
       <h3 id="solarisbuilds">Solaris (由 SUN Desktop 北京團隊提供)</h3> 
-      <p><strong><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_tarball/README.txt">README</a></strong></p> 
+      <p><strong><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/README.txt">README</a></strong></p> 
       <p><strong>Tarball 格式</strong></p> 
       <ul> 
-      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_tarball/firefox-2.0.0.13.en-US.solaris10-i386.tar.bz2">firefox-2.0.0.13.en-US.solaris10-i386.tar.bz2</a> 
-        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_tarball/firefox-2.0.0.13.en-US.solaris10-i386.tar.bz2.cksum">cksum</a>)<br /></li> 
-      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_tarball/firefox-2.0.0.13.en-US.solaris10-sparc.tar.bz2">firefox-2.0.0.13.en-US.solaris10-sparc.tar.bz2</a> 
-        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_tarball/firefox-2.0.0.13.en-US.solaris10-sparc.tar.bz2.cksum">cksum</a>)<br /></li> 
-      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_tarball/firefox-2.0.0.13.en-US.solaris8-i386-gtk1.tar.bz2">firefox-2.0.0.13.en-US.solaris8-i386-gtk1.tar.bz2</a> 
-        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_tarball/firefox-2.0.0.13.en-US.solaris8-i386-gtk1.tar.bz2.cksum">cksum</a>)<br /></li> 
-      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_tarball/firefox-2.0.0.13.en-US.solaris8-sparc-gtk1.tar.bz2">firefox-2.0.0.13.en-US.solaris8-sparc-gtk1.tar.bz2</a> 
-        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_tarball/firefox-2.0.0.13.en-US.solaris8-sparc-gtk1.tar.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris10-i386.tar.bz2">firefox-2.0.0.14.en-US.solaris10-i386.tar.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris10-i386.tar.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris10-sparc.tar.bz2">firefox-2.0.0.14.en-US.solaris10-sparc.tar.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris10-sparc.tar.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris8-i386-gtk1.tar.bz2">firefox-2.0.0.14.en-US.solaris8-i386-gtk1.tar.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris8-i386-gtk1.tar.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris8-sparc-gtk1.tar.bz2">firefox-2.0.0.14.en-US.solaris8-sparc-gtk1.tar.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris8-sparc-gtk1.tar.bz2.cksum">cksum</a>)<br /></li> 
       </ul> 
       <p><strong>Pkgadd 格式</strong></p> 
       <ul> 
-      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_pkgadd/firefox-2.0.0.13.en-US.solaris10-i386-pkg.bz2">firefox-2.0.0.13.en-US.solaris10-i386-pkg.bz2</a> 
-        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_pkgadd/firefox-2.0.0.13.en-US.solaris10-i386-pkg.bz2.cksum">cksum</a>)<br /></li> 
-      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_pkgadd/firefox-2.0.0.13.en-US.solaris10-sparc-pkg.bz2">firefox-2.0.0.13.en-US.solaris10-sparc-pkg.bz2</a> 
-        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_pkgadd/firefox-2.0.0.13.en-US.solaris10-sparc-pkg.bz2.cksum">cksum</a>)<br /></li> 
-      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_pkgadd/firefox-2.0.0.13.en-US.solaris8-i386-gtk1-pkg.bz2">firefox-2.0.0.13.en-US.solaris8-i386-gtk1-pkg.bz2</a> 
-        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_pkgadd/firefox-2.0.0.13.en-US.solaris8-i386-gtk1-pkg.bz2.cksum">cksum</a>)<br /></li> 
-      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_pkgadd/firefox-2.0.0.13.en-US.solaris8-sparc-gtk1-pkg.bz2">firefox-2.0.0.13.en-US.solaris8-sparc-gtk1-pkg.bz2</a> 
-        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.13/contrib/solaris_pkgadd/firefox-2.0.0.13.en-US.solaris8-sparc-gtk1-pkg.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris10-i386-pkg.bz2">firefox-2.0.0.14.en-US.solaris10-i386-pkg.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris10-i386-pkg.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris10-sparc-pkg.bz2">firefox-2.0.0.14.en-US.solaris10-sparc-pkg.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris10-sparc-pkg.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris8-i386-gtk1-pkg.bz2">firefox-2.0.0.14.en-US.solaris8-i386-gtk1-pkg.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris8-i386-gtk1-pkg.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris8-sparc-gtk1-pkg.bz2">firefox-2.0.0.14.en-US.solaris8-sparc-gtk1-pkg.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris8-sparc-gtk1-pkg.bz2.cksum">cksum</a>)<br /></li> 
       </ul> 
 
       <h2 id="links">其他資源和連結</h2>  
