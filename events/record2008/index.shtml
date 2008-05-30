@@ -2,7 +2,7 @@
 <title>Firefox Download Day 2008</title>
 <style type="text/css">
 div#r2008heading { position: relative;}
-div#r2008heading h1 {height: 0; padding-top: 139px; overflow: hidden; background: no-repeat url(http://www.spreadfirefox.com/sites/all/themes/spreadfirefox_RCS/images/download-day/dday_header.jpg);}
+div#r2008heading h1 {height: 0; padding-top: 139px; overflow: hidden; background: no-repeat url(dday_header.jpg);}
 </style>
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->

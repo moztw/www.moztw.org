@@ -49,22 +49,22 @@
 
 <div class="key-point">
 	<div id="product-desc">
-		<img src="http://moztw.org/images/moztw_beta.png" style='float: left;' alt='' title='Look Mom, it's only a beta!'/>
-		<h2>Firefox 3 Beta 4 中文測試版</h2>
-<p>Firefox 3 Beta 4 是給開發者預覽測試的新版 Firefox 瀏覽器，僅供測試使用。如果曾安裝<a title="最新版本的Firefox" href="http://www.getfirefox.com.tw/">最新的正式版 Firefox</a>，之前安裝的附加元件非常可能無法於此測試版正常使用。本測試版可讓您認識對 Firefox 3 的模樣及功能，但仍有新功能尚未加入，且許多部分仍會修改補強。</p>
+		<img src="http://moztw.org/images/moztw_beta.png" style='float: left;' alt='' title="Look Mom, it's only a beta!"/>
+		<h2>Firefox 3 RC1 中文測試版</h2>
+<p>Firefox 3 RC1 是給開發者預覽測試的新版 Firefox 瀏覽器，僅供測試使用。如果曾安裝<a title="最新版本的Firefox" href="http://www.getfirefox.com.tw/">最新的正式版 Firefox</a>，之前安裝的附加元件非常可能無法於此測試版正常使用。本測試版可讓您認識對 Firefox 3 的模樣及功能，但仍有新功能尚未加入，且許多部分仍會修改補強。</p>
 				<p>如發現任何問題，非常歡迎您到 <a href="http://forum.moztw.org/viewforum.php?f=4">Mozilla Taiwan 討論區</a> 與我們參與討論或是直接到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報錯誤訊息。</p>
 
 	</div>
 	<div id="product-side">
 		<div class="download">
 			<div id="firefox-beta">
-				<h3>Firefox 3 Beta 4 (<strong class="warning">測試版</strong>)</h3>
+				<h3>Firefox 3 RC1 (<strong class="warning">測試版</strong>)</h3>
 				<ul>
-					<li><a href="http://www.mozilla.com/products/download.html?product=firefox-3.0b4&os=win&lang=zh-TW" class="download-windows"  onclick="urchinTracker('/download_trace/fx3b4win');">Windows</a></li>
+					<li><a href="http://download.mozilla.org/?product=firefox-3.0rc1&os=win&lang=zh-TW" class="download-windows"  onclick="urchinTracker('/download_trace/fx3rcwin');">Windows</a></li>
 
-					<li><a href="http://www.mozilla.com/products/download.html?product=firefox-3.0b4&os=osx&lang=zh-TW" class="download-osx-uni"  onclick="urchinTracker('/download_trace/fx3b4mac');">Mac OS X</a></li>
-					<li><a href="http://www.mozilla.com/products/download.html?product=firefox-3.0b4&os=linux&lang=zh-TW" class="download-linux"  onclick="urchinTracker('/download_trace/fx3b4linux');">Linux</a></li>
-					<li><a href="http://www.mozilla.com/en-US/firefox/all-beta.html">其他語言或平台</a></li>
+					<li><a href="http://download.mozilla.org/?product=firefox-3.0rc1&os=osx&lang=zh-TW" class="download-osx-uni"  onclick="urchinTracker('/download_trace/fx3b4mac');">Mac OS X</a></li>
+					<li><a href="http://download.mozilla.org/?product=firefox-3.0rc1&os=linux&lang=zh-TW" class="download-linux"  onclick="urchinTracker('/download_trace/fx3b4linux');">Linux</a></li>
+					<li><a href="http://www.mozilla.com/en-US/firefox/all-rc.html">其他語言或平台</a></li>
 				</ul>
 			</div>
 		</div>
@@ -75,6 +75,7 @@
 
 <div id="mainContent" class="right">
 <h2>Firefox 3 Beta 4 已知問題</h2>
+<p>目前未及翻譯 RC 1 已知問題，請前往<a href="http://www.mozilla.com/en-US/firefox/3.0rc1/releasenotes/">版本資訊原文</a>閱讀，或閱讀以下 Firefox 3 Beta 4 的問題做為參考。</p>
 <p>Firefox 3 Beta 4 以新版 Gecko 1.9 網頁佈局引擎構成。研發此全新的引擎耗時 31 個月，改善了超過一萬兩千個大小問題。以下簡要列出此版本的已知問題，請閱讀後再回報新的程式錯誤。新功能及其他詳細內容，請參考<a href="http://moztw.org/firefox/release/3.0b4/">版本資訊</a></p>
       <dl>
 
