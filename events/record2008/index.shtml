@@ -16,23 +16,23 @@ div#r2008heading h1 {height: 0; padding-top: 139px; overflow: hidden; background
 
 <p>有意思吧！請<a href="#steps">依循這裡的說明</a>，到 Download Day 網站登記成為參與者，待 Firefox 3 發表後在約定日 (將會公佈於此，並寄 Email 通知你) 一起下載 Firefox 3，我們就有機會一起達成「單日最多人下載軟體」的金氏世界紀錄！在 Firefox 2 時，第一天的下載次數是 160 萬次，那麼這次就把目標隨便訂個 500 萬吧 :P 總之是越多越好啊！先來看看目前有多少人要一起拼紀錄：</p>
 
-<script type="text/javascript" src="http://www.spreadfirefox.com/misc/downloadday.js"></script>
+  <script type="text/javascript" src="http://www.spreadfirefox.com/misc/downloadday.js"></script>
 
-<div id="flashcontent">
-            <p id="flash_needed">為正常顯示下載分佈圖，您需要安裝 <a href="http://www.adobe.com/tw/products/flashplayer/">Adobe Flash</a>。或者您可以 <a href="http://www.spreadfirefox.com/en-US/worldrecord/?showtable=true" id="view_table">查看下載數據的統計表格</a>。</p>
-
+<div id="flashcontent" style="width: 740px; margin: 0 auto;">
+            <p id="flash_needed">此地圖需要安裝<a href="http://www.adobe.com/tw/products/flashplayer/">Adobe Flash Player</a>才能觀看，如果不想裝也可以到<a href="http://www.spreadfirefox.com/en-US/worldrecord/?showtable=true" id="view_table">原來的網站檢視表格版本</a>。</p>
         </div>
         
         <script type="text/javascript">
-        		var so = new SWFObject("http://www.spreadfirefox.com/sites/all/themes/spreadfirefox_RCS/images/download-day/ammap/ammap.swf", "ammap", "100%", "420", "8", "#FFFFFF");
+        		var so = new SWFObject("http://www.spreadfirefox.com/sites/all/themes/spreadfirefox_RCS/images/download-day/ammap/ammap.swf", "ammap", "740", "420", "8", "#E4F5FF");
         		so.addVariable("path", "http://www.spreadfirefox.com/sites/all/themes/spreadfirefox_RCS/images/download-day/ammap/");
-        		so.addVariable("settings_file", escape("http://www.spreadfirefox.com/sites/all/themes/spreadfirefox_RCS/images/download-day/ammap/ammap_settings.xml"));                  
-        		so.addVariable("data_file", escape("http://www.spreadfirefox.com/en-US/worldrecord/map_data"));		
+        		so.addVariable("settings_file", escape("http://www.spreadfirefox.com/sites/all/themes/spreadfirefox_RCS/images/download-day/ammap/ammap_settings.php"));                  
+        		so.addVariable("data_file", escape("http://www.spreadfirefox.com/en-US/worldrecord/mapdata"));		
                 so.addVariable("preloader_color", "#999999");
                 so.addVariable("wmode", "opaque")
         		so.write("flashcontent");
 
         </script>
+
 
 <p>嫌 Taiwan 的數字太少？就是缺你一個啊！快跟著操作說明一起登記吧！除了登記下載外，也歡迎你在 Blog、網站等地方貼上我們的<a href="#promoting">宣傳小貼紙</a>，號召親朋好友一起共創紀錄喔！</p>
 
@@ -41,7 +41,7 @@ div#r2008heading h1 {height: 0; padding-top: 139px; overflow: hidden; background
 <p><a href="/firefox/">試試無妨</a>！Firefox 是免費的，安全無毒，不喜歡也可以先刪除、一起等待 Firefox 3 的到來。</p>
 <h2 id="steps">操作步驟</h2>
 <p><strong class="step">Step1：</strong>請先連到 <a href="http://www.spreadfirefox.com/en-US/worldrecord/">Download Day 2008</a> 網頁</p><p><strong class="step">Step2：</strong>在網頁中按下 PLEDGE NOW 按鈕(如下圖)</p>  <p><img style="border-width: 0px;" alt="00_PLEDGENOW" src="http://lh6.ggpht.com/yuanlin/SD-rJZet7bI/AAAAAAAAAzQ/B1EQ1KAnX_4/00_PLEDGENOW_thumb.jpg?imgmax=800" height="149" width="215" border="0"><br>圖說：「我願承諾、在 Download Day 下載 Firefox 3，一同完成「24 小時內最多下載次數軟體」金氏世界紀錄。」</p>  <p><strong class="step">Step3：</strong> 按下後會出現一個視窗，選擇你的國家並填入E-Mail，填完後再按下 PLEDGE NOW 送出你的資訊。</p>  <p>資料視窗，請填入相關資訊<br><img style="border-width: 0px;" alt="01_Email" src="http://lh6.ggpht.com/yuanlin/SD-rSZet7dI/AAAAAAAAAzg/McugQx-rK8c/01_Email_thumb%5B1%5D.jpg?imgmax=800" height="439" width="308" border="0"><br>簡要翻譯：「輸入你的郵件地址，日後一旦下載日決定，我們會通知你。我們跟你一樣討厭垃圾信，所以保證不寄垃圾。」「* 此為選填，Mozilla 僅會在確認登記、Firefox 3 發表時通知下載、通知紀錄締造結果等情況下寄信給你，不會流出你的資料。如果你打錯了日後想更正，請寄信到 privacy@mozilla.org。」</p>  <p>送出後會看到    <br><img style="border-width: 0px;" alt="02_finishemail" src="http://lh6.ggpht.com/yuanlin/SD-rZZet7fI/AAAAAAAAAzw/ntMfjbapi3M/02_finishemail_thumb%5B1%5D.jpg?imgmax=800" height="200" width="306" border="0"></p>  <p><strong class="step">Step4：</strong>別以為這樣就結束了喔！這時候在信箱收信，會收到署名為 Firefox Download Day 且信件標題為 "Thanks for pledging to help Firefox" 的信。(如下圖)</p>  <p><img style="border-width: 0px;" alt="03_confirm" src="http://lh3.ggpht.com/yuanlin/SD-r-pet7hI/AAAAAAAAA0A/cb5xeKclBls/03_confirm_thumb%5B1%5D.jpg?imgmax=800" height="449" width="565" border="0"></p>  <p><strong class="step">Step5：</strong>靜待 Download Day 2008 的通知信件，在約定之日 24 小時內下載 Firefox 3！</p>
-<p>本操作步驟感謝 <a href="http://blog.yalinfo.com/2008/05/firefox-download-day-2008.html">yalin</a> 協助撰寫，並授權 MozTW 轉以創用 CC: 姓名標示-相同方式分享授權大眾使用 (意思就是，跟 moztw.org 整個網站一樣)。如需轉貼請提供連往此頁的連結，讓你的朋友們能看到更新的消息！</p>
+<p>本操作步驟感謝 <a href="http://blog.yalinfo.com/2008/05/firefox-download-day-2008.html">yuanlin</a> 協助撰寫，並授權 MozTW 轉以創用 CC: 姓名標示-相同方式分享授權大眾使用 (意思就是，跟 moztw.org 整個網站一樣)。如需轉貼請提供連往本頁的連結，讓你的朋友們能看到更新的消息！</p>
 <h2 id="promoting">宣傳貼紙</h2>
 <p>除了 <a href="http://www.spreadfirefox.com/?q=affiliates/homepage">Download Day 網站上的貼紙</a>之外，這邊我們也再度請出前年轟動武林的 MozTW 小狐狸 -- 狐耳摩莎登場，化身為正體中文特製貼紙，看官請慢用！</p><form>
 <p><a href="http://moztw.org/events/record2008/"><img src="http://forum.moztw.org/files/record2008_1_788.png" alt="火狐鬥陣拼紀錄，有你一份！" border="0"></a><br>199x60<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href=&quot;http://moztw.org/events/record2008/&quot;&gt;&lt;img src=&quot;http://forum.moztw.org/files/record2008_1_788.png&quot; alt=&quot;火狐鬥陣拼紀錄，有你一份！&quot; border=&quot;0&quot;&gt;&lt;/a&gt;</textarea></p>
