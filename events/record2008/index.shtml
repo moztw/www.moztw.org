@@ -3,7 +3,7 @@
 <style type="text/css">
 div#r2008heading { position: relative;}
 div#r2008heading h1 {height: 0; padding-top: 139px; overflow: hidden; background: no-repeat url(dday_header.jpg);}
-.inline-nav { text-align: center; margin: 2em 0; padding: 2px; border: 1px solid darkyellow;}
+.inline-nav { text-align: center; margin: 2em 0; padding: 2px; border: 1px solid #FF8F19;}
 </style>
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
