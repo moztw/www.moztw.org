@@ -33,7 +33,7 @@
 <div class="frontcolumn">
     <h2><a href="/events/record2008">下載新火狐，手滑創記錄</a></h2>
     <a href="/events/record2008/"><img src="http://forum.moztw.org/files/record2008_4_154.png" class="promo" alt="火狐鬥陣拼紀錄，有你一份！" border="0"></a>
-	<p>這麼棒的瀏覽器免費給你用，還可以不小心手滑一起創下金氏世界紀錄！如此有趣的事情也只有在這裡有啦！你不用會些驚人的特技，只要在對的時間呼朋引伴一起下載火熱出爐的 Firefox 3，就成啦！<a href="/events/record2008/">快來瞧瞧怎麼玩！</a></p>
+	<p>這麼棒的瀏覽器免費給你用，還可以不小心手滑一起創下金氏世界紀錄！如此有趣的事情也只有在這裡有啦！你不用會些驚人的特技，只要在對的時間呼朋引伴一起下載火熱出爐的 Firefox 3，就成啦！<a href="/events/record2008/">快來瞧瞧怎麼玩！</a></p><p style="color: red;">賀：臺灣目前已破萬，繼續衝啊！</p>
   </div>
   <div class="frontcolumnlast">
 <h2 style="margin-top: 0pt;">
@@ -41,6 +41,10 @@
     </h2>
 
     <ul class="news" style="margin-left: 10px;">
+    <li>
+	<a href="/beta/" style="text-decoration: none;" title="想試試最新的 Firefox? 歡迎幫忙測試! [不建議新手使用]">
+            <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
+            <span style="text-decoration: underline;">Firefox 3 測試版</span>          </a>        </li>
         <li>
           <a href="/camino/" style="text-decoration: none;" title="Mozilla 的威力、Mac 的風格">
             <img src="/images/camino16.gif" alt="Camino" style="vertical-align: middle;" height="16" width="16">
@@ -53,10 +57,6 @@
           <a href="/dl/" style="text-decoration: none;">
             <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
             <span style="text-decoration: underline;">軟體列表...</span>          </a>        </li>
-        <li>
-	<a href="/beta/" style="text-decoration: none;" title="想試試最新的 Firefox? 歡迎幫忙測試! [不建議新手使用]">
-            <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">Beta 測試版專區</span>          </a>        </li>
     </ul>
 
   </div>
