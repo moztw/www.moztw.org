@@ -43,3 +43,5 @@ background: url("t-firefoxbuttons.png") no-repeat;
 <p><a href="http://moztw.org/firefox/"><img src="http://moztw.org/firefox/buttons/type06-6-1.png" alt="Firefox 3 火熱上映" border="0"></a><br>598x141<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href="http://moztw.org/firefox/"&gt;&lt;img src="http://moztw.org/firefox/buttons/type06-6-1.png" alt="Firefox 3 火熱上映" border="0"&gt;&lt;/a&gt;</textarea></p>
 
     </div>
+</div>
+<!--#include virtual="/inc/footer.html" -->
