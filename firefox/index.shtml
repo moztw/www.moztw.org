@@ -22,49 +22,73 @@
     </div>
 </div>
 <div id="mainContent" class="right">
-    <h3>使用 Firefox 的理由</h3>
-    <p>&ldquo;<strong><a href="http://www.usatoday.com/tech/news/computersecurity/2004-09-08-zombieinfect_x.htm">Beware of spyware. If you can, use the Firefox browser.</a></strong>&rdquo; <em>-&nbsp;USA&nbsp;Today</em></p>
-    <p>&ldquo;<strong><a href="http://forbes.com/infoimaging/2004/02/04/cx_ah_0204tentech.html">...a breath of fresh air... Microsoft should be worried</a>.</strong>&rdquo; <em>-&nbsp;FORBES</em></p>
-    <dl id="features">
-	<dt>阻擋彈出廣告視窗</dt>
-	<dd>Firefox 內建阻擋彈出視窗功能，將煩人的彈出視窗阻殺於半途之中。</dd>
-
-	<dt>分頁瀏覽</dt>
-	<dd>使用這個節省時間的功能，您可以在同一視窗內觀看多個網頁。將連結開啟於背景分頁之中，當您準備好要閱讀其他頁面時，它們已經載入完畢，您不需花費時間等待。<a href="/docs/ff/tabbed-browsing">相關資訊...</a></dd>
-
-	<dt>隱私及安全</dt>
-	<dd>Firefox 留心您的安全及隱私，不讓惡意的間諜程式入侵您的電腦。內建多種隱私保護工具，讓您能掌控自己在線上的一舉一動。	</dd>
-
-	<dt>更聰明的搜尋功能</dt>
-	<dd>網址列中內建 Yahoo!奇摩 搜尋功能，頗受好評的「搜尋欄」此次伴隨「搜尋建議」等貼心功能，還有眾多搜尋工具如「關鍵字」及「尋找工具列」。</dd>
-
-	<dt>即時書籤</dt>
-	<dd>整合 RSS，方便您訂閱最新頭條及網站更新訊息。<a href="/docs/ff/live-bookmarks">相關資訊...</a></dd>
-
-	<dt>下載檔案無麻煩</dt>
-	<dd>您下載的檔案可自動置於桌面上，容易尋找。減少問東問西的情形，讓下載更流暢快速。</dd>
-
-	<dt>體貼你心</dt>
-	<dd>簡單又直覺的 Firefox 擁有符合您習慣的完整功能：除了書籤、瀏覽記錄、全螢幕等工具之外，還可以<a href="/docs/ff/text-zoom">自由縮放文字</a>，符合您閱讀上的需求。</dd>
-
-	<dt>放大縮小，隨心所欲</dt>
-	<dd>Firefox 是世上最容易自訂的瀏覽器了！您可自訂工具列添加按鈕、可以安裝新的擴充套件來增加新功能、可以安裝符合個人風格的<a href="/docs/ff/extension">佈景主題</a>、還可以自行挑選上百種搜尋引擎與瀏覽器介面整合，方便使用。Firefox 的功能該多或少、體態該大或小，由您決定。</dd>
-
-	<dt>超容易的裝配方式</dt>
-	<dd>Firefox（的 Windows 版）僅僅 4.5 MB，以寬頻下載僅需數分鐘時間。安裝程式讓您迅速安裝 Firefox，而嶄新的移轉系統可將您的「我的最愛」、儲存密碼及其他各種設定資料從 Internet Explorer 或其他瀏覽器中匯入 Firefox，您立刻能在網路上四處遊玩。</dd>
-
-	<dt>開發員最好的朋友</dt>
-	<dd>Firefox 擁有一組開發員用的工具，包括強大的 JavaScript/CSS 錯誤訊息警示控制台、選用的文件檢視器（DOM Inspector）等，提供您洞察網頁運作詳情的能力。</dd>
-
-	<dt>只要郵件，不要垃圾</dt>
-	<dd><a href='/thunderbird'>Thunderbird</a> 是 Firefox 的最佳拍檔。</dd>
-    </dl>
+    <h3><span lang="EN-US">Firefox 3</span>: 不會不上手，會讓您愛不釋手</h3>
+	<ul>
+		<li>
+			<strong>更快速的網路服務</strong>
+			<p><span lang="EN-US">Firefox 3</span>的開啟網頁比以往更流暢、更快速，不用再發呆數小橫槓，讓您遨遊網海更有效率。</p>
+		</li>
+		<li>
+			<strong>阻擋廣告視窗更有效</strong>
+			<p>內建阻擋彈出視窗功能，煩人的彈出視窗將不會打擾您愉快的心情。</p>
+		</li>
+		<li>
+			<strong>更順眼的風格介面</strong>
+			<p><span lang="EN-US">Firefox 3</span>新一代的介面，如同變色龍般神奇，不論是任何的作業系統與風格主題，都能夠做出最適合的配搭。您更可以透過下載主題，打造個人風格的<span lang="EN-US">Firefox</span>。</p>
+		</li>
+		<li>
+			<strong>分頁瀏覽</strong>
+			<p>使用這個節省時間的功能，您可以在同一視窗內觀看多個網頁。將連結開啟於背景分頁之中，當您準備好要閱讀其他頁面時，它們已經載入完畢，您不需花費時間等待。相關資訊<span lang="EN-US">...</span></p>
+		</li>
+		<li>
+			<strong>維護您的隱私及安全</strong>
+			<p><span lang="EN-US">Firefox</span>內建多種隱私保護工具，不論是密碼管理或是惡意網站的過濾都更加升級，讓您在網路的世界不用擔心多餘的威脅。</p>
+		</li>
+		<li>
+			<strong>更聰明的搜尋功能</strong>
+			<p>網址列中內建多種入口網站的搜尋功能，「搜尋欄」中的「搜尋建議」等貼心功能仍隨侍在列，幫助您更快的找到你所需要的資訊。</p>
+		</li>
+		<li>
+			<strong>即時書籤</strong>
+			<p>整合<span lang="EN-US">RSS</span>，方便您訂閱最新頭條及網站更新訊息。在瀏覽網頁時，還可以按下網址列上的「星」型小圖示，快速地把網頁加入收藏、加到資料夾及加入<span lang="EN-US">tag </span>等。</p>
+		</li>
+		<li>
+			<strong>系統資源更節省</strong>
+			<p></strong><span lang="EN-US"> Firefox 3</span>一改過去開多個分頁或視窗會增加系統資源消耗，使執行速度變慢的困擾，『特性指引最佳化』能依據內部執行的方式不同而產生最佳化的<span lang="EN-US">Firefox </span>執行檔；『記憶體再生器』能隨時釋放不用的記憶體。您將不會感受到<span lang="EN-US">Firefox</span>對您的電腦有任何拖累。</p>
+		</li>
+		<li>
+			<strong>下載檔案更便利</strong>
+			<p>您可以任意調整檔案下載的位置，下載管理員具備有查找功能，幫助您掌握下載的狀況，而且不減您的使用效率。</p>
+		</li>
+		<li>
+			<strong>完全符合您的使用習慣</strong>
+			<p><span lang="EN-US">Firefox 3</span>的設定有最大的自由度，您可以任意的調整書籤、工具列、狀態列、添加按鈕等等。使<span lang="EN-US">Firefox</span>符合您習慣的完整功能：想要全螢幕還可以自由縮放文字，符合您閱讀上的需求。</p>
+		</li>
+	</ul>
+	<h5>更進步的擴充套件</h5>
+	<ul>
+		<li>
+			<strong>完整保留您的設定</strong>
+			<p>請不用擔心跳槽的麻煩，不論從<span lang="EN-US">Internet Explorer</span>或其他瀏覽器，或是從<span lang="EN-US">Firefox 2</span>升級時，都不會流失任何資訊，您原本的設定、我的最愛、密碼儲存、書籤等等，升級時都將一併保留。</p>
+		</li>
+		<li>
+			<strong>更開放的網頁工具</strong>
+			<p><span lang="EN-US">Firefox</span>擁有一組開發員用的工具，包括強大的<span lang="EN-US">JavaScript/CSS </span>錯誤訊息警示控制台、選用的文件檢視器（<span lang="EN-US">DOM Inspector</span>）等，提供您洞察網頁運作詳情的能力。</p>
+		</li>
+		<li>
+			<strong><span lang="EN-US">Firefox</span>隨身版使您更便利</strong>
+			<p>我們不擔心您不願意使用<span lang="EN-US">Firefox</span>，我們只擔心你使用過<span lang="EN-US">Firefox</span>以後，再也不習慣其他的瀏覽器！</p>
+		</li>
+		<li>
+			<strong>趕快下載<span lang="EN-US">Firefox 3</span>！</strong>
+			<p>加入我們<span lang="EN-US"><a href="http://www.spreadfirefox.com/en-US/worldrecord" title="Firefox下載日" target="_blank">Firefox<span lang="EN-US"><span lang="EN-US">下載日</span></span></a></span>（<span lang="EN-US">6/17</span>）的活動，一起與全世界共創紀錄</p>
+			<p><span lang="EN-US">Firefox 3</span>將帶給您更便利、更理想的網路經驗！</p>
+		</li>
+	</ul>
 </div>
 <div id="side" class="right">
-<h3>Firefox 3 即將上場</h3>
-<p><a href="/events/record2008/"><img src="http://moztw.org/firefox/buttons/type03-3-1.png" alt="Firefox 3 火熱上映" border="0"></a></p>
-<ul class="compact">
-	<li><a href="/events/record2008/">鬥陣拼金氏紀錄！</a></li>
+<h3>協助推廣 Firefox 3</h3>
+	<ul>
 	<li><a href="buttons/">取得推廣小貼紙</a></li>
     </ul>
   <h3>中文社群資源</h3>

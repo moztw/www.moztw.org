@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <style type="text/css">
 <!--
-.front-feature { background: #E4EcEc url(images/feature-back-cwb.png) bottom right no-repeat;}
+.front-feature { background: #E4EcEc url(images/feature-back-cwb-fx3.png) bottom right no-repeat;}
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
@@ -11,10 +11,10 @@
 
 <div class="key-point front-feature" id="front-feature">
   <div id="feature-content">
-    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 2" height="55" width="252"></a></h2>
-    <p>獲獎連連的 <a href="/firefox/">Firefox 網路瀏覽器</a>，以更快、更安全、更容易自訂的面貌現身，全面升級您的網際瀏覽體驗。</p>
+    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 3" height="55" width="252"></a></h2>
+    <p>Mozilla 史上最強！<a href="/firefox/">Firefox 3 網路瀏覽器</a>再度以嶄新姿態，重新定義網路體驗標竿！</p>
     <div class="download">
-		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 2 </strong></a></h3>
+		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 3 </strong></a></h3>
  		<div style='background: url(/images/product-firefox.png) no-repeat;'>
 		<!--#include virtual="/inc/dlff.html" -->
 	</div>

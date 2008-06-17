@@ -240,7 +240,7 @@ address {
 
 /* 保持 mozilla.org 原先未分出 .com 時的樣式 */
 
-.front-feature-cwb { background: #E4EcEc url(../../images/feature-back-cwb.png) bottom right no-repeat;}
+.front-feature-cwb { background: #E4EcEc url(../../images/feature-back-cwb-fx3.png) bottom right no-repeat;}
 
 #front-feature div {
 	text-align: left !important;
