@@ -33,7 +33,7 @@ table {
 
                <h2 id="whatsnew">Firefox 3 新鮮事</h2>
 
-				<p>Firefox 3 以全新 Gecko 1.9 網頁佈局引擎構成。此引擎研發耗時 31 個月、修正了近兩百萬行程式碼，亦改善了超過一萬兩千個大小問題。Gecko 1.9 為<a href="#performance">提升效能</a>、穩定度、正確性，重構了部份程式架構，因此 Firefox 3 <a href="#secure">更加安全</a>、<a href="#easy">更容易使用</a>、<a href="#personal">自訂更輕鬆</a>，同時提供許多給網 頁及擴充套件開發員的<a href="#engine">內部修改</a>。</p>
+				<p>Firefox 3 以全新 Gecko 1.9 網頁佈局引擎構成。此引擎研發耗時 31 個月、修正了近兩百萬行程式碼，亦改善了超過一萬兩千個大小問題。Gecko 1.9 為<a href="#performance">提升效能</a>、穩定度、正確性，重構了部份程式架構，因此 Firefox 3 <a href="#secure">更加安全</a>、<a href="#easy">更容易使用</a>、<a href="#personal">自訂更輕鬆</a>，同時提供許多給網頁及擴充套件開發員的<a href="#engine">內部修改</a>。</p>
 
 				<dt id="secure">更安全 
 			<dd><ul class="spaced"><li>網站安全資訊：點選位址列網站圖示即可查閱此網站的識別資訊，該網站的驗證資料會在點選後以輕鬆易懂的方式呈現。若該網站使用 SSL 延伸驗證（Extended Validation），則網站圖示鈕將轉以綠色顯示，並列出你連到的網站公司名稱。 (<a href="https://www.paypal.com/">按此測試！</a>) 
@@ -96,7 +96,7 @@ table {
 			</dd><dt id="performance">改善效能 
 			</dt><dd>
 
-			<ul class="spaced"><li>更快速：大幅調整架構（使用 Cairo、重寫網頁佈局程序、改良 JavaScript 引擎等）提升程式效能。以 Gmail 及 Zoho Office 為例，速度約達 Firefox 2 的兩倍快，Apple 的 SunSpider 效能測試證實了我們的進步。。 
+			<ul class="spaced"><li>更快速：大幅調整架構（使用 Cairo、重寫網頁佈局程序、改良 JavaScript 引擎等）提升程式效能。以 Gmail 及 Zoho Office 為例，速度約達 Firefox 2 的兩倍快，Apple 的 SunSpider 效能測試證實了我們的進步。
 			</li>
 			<li> 更有效使用記憶體：加入數項處理記憶體的新科技，記憶體碎裂將以自動回收程式掌控，另處理了進百個的記憶體流失問題，快取策略也有了調整。</li>
 			<li>更可靠：使用者的書籤、瀏覽歷史、Cookies 及偏好設定現在存放在具安全異動能力（transaction）的資料庫格式中，即使系統當機也能避免資料流失。 
