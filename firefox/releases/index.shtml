@@ -33,7 +33,7 @@ table {
 
                <h2 id="whatsnew">Firefox 3 新鮮事</h2>
 
-				<p>Firefox 3 以全新 Gecko 1.9 網頁佈局引擎構成。此引擎研發耗時 31 個月、修正了近兩百萬行程式碼，亦改善了超過一萬兩千個大小問題。Gecko 1.9 為<a href="#performance">提升效能</a>、穩定度、正確性，重構了部份程式架構，因此 Firefox 3 <a href="#secure">更加安全</a>、<a href="#easy">更容易使用</a>、<a href="#personal">自訂更輕鬆</a>，同時提供許多給網頁及擴充套件開發員的<a href="#engine">內部修改</a>。</p>
+				<p>Firefox 3 以全新 Gecko 1.9 網頁佈局引擎構成。此引擎研發耗時 34 個月、修正了近兩百萬行程式碼，亦改善了超過 15000 個大小問題，為<a href="#performance">提升效能</a>、穩定度、正確性，重構了部份程式架構，因此 Firefox 3 <a href="#secure">更加安全</a>、<a href="#easy">更容易使用</a>、<a href="#personal">自訂更輕鬆</a>，同時提供許多給網頁及擴充套件開發員的<a href="#engine">內部修改</a>。</p>
 
 				<dt id="secure">更安全 
 			<dd><ul class="spaced"><li>網站安全資訊：點選位址列網站圖示即可查閱此網站的識別資訊，該網站的驗證資料會在點選後以輕鬆易懂的方式呈現。若該網站使用 SSL 延伸驗證（Extended Validation），則網站圖示鈕將轉以綠色顯示，並列出你連到的網站公司名稱。 (<a href="https://www.paypal.com/">按此測試！</a>) 
@@ -76,11 +76,11 @@ table {
 
 			<li>星星按鈕：網址列加入星星圖示，按一次圖示可以快速的加入書籤；再按一次可以編輯相關書籤資訊 。
 			</li><li>標籤功能：為書籤加上關鍵字，方便你以其主題排序及搜尋 。
-			</li><li>在位址列裡輸入網頁的部份標題、標籤或網址，即可自瀏覽歷史中查找要看的網頁。此建議清單以網頁的使用率等數據排序，更能聰明地依據你的使用方式調整，方便使用。
+			</li><li>智慧網址列：在位址列裡輸入網頁的部份標題、標籤或網址，即可自瀏覽歷史中查找要看的網頁。此建議清單以網頁的使用率等數據排序，更能聰明地依據你的使用方式調整，方便使用。
 			</li>
-			<li>智慧書籤夾：有了書籤工具列中的智慧書籤夾，您可快速查閱最常閱讀或最近加入書籤、標籤的網頁。</li>
+			<li>智慧書籤匣：有了書籤工具列中的智慧書籤匣，您可快速查閱最常閱讀或最近加入書籤、標籤的網頁。</li>
 			<li>組織書籤及瀏覽歷史：使用多種檢視模式及智慧資料夾，搭配更好的搜尋功能在書籤及瀏覽歷史中查找資訊 。</li>
-			<li>整合網頁式協定處理程式：可以用網際網路應用程式（像是 Gmail）處理各式協定的連結，以代替一般的單機軟體。網際應用程式需先行在 Firefox 中登記其協定方能使用
+			<li>網頁式協定處理程式 (Web-based protocol handlers)：可以用網際網路應用程式（像是 Gmail）處理各式協定的連結，以代替一般的單機軟體。網際應用程式需先行在 Firefox 中登記其協定方能使用
 。			</li>
 			<li>下載及安裝附加元件: 可以透過附加元件管理員(工具&gt; 附加元件)，從<a id="zwxs" title="附加元件社群網站" href="https://addons.mozilla.org/">附加元件社群網站</a>的數千種選擇中下載及安裝客制化的附加元件。當首次開啟附加元件管理員時，也會看到推薦的附加元件清單
 。				</li><li>自訂下載後動作：新的「應用程式」設定面板，可供調整各式檔案類型及協定的處理方式 </li></ul>
@@ -159,16 +159,18 @@ table {
         <li>在已經安裝 Firefox 3 的路徑中安裝 Firefox 2 可能會使 Firefox 2 不穩定。( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=423226">bug 423226 </a>) </li>
         <li>如果 Firefox 發生錯誤時 Flash 是開啟的，那麼錯誤回報器可能不會執行。 ( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=422308">bug 422308 </a>) </li>
         <li>在「歷史收藏庫」中刪除一筆紀錄，然後使用「清除隱私資料」可能會導致 Firefox 發生錯誤。 ( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=426275">bug 426275 </a>) </li>
-        <li>一些透過不適用的安裝碼安裝的套件可能無法正確安裝。(詳情請見<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=406807">bug 406807 </a>) </li>
+<li>中文輸入法的選字視窗可能會被「加入書籤」面版蓋住。未來會修復這個問題，請暫以「書籤＞組織書籤」功能表進入收藏庫修改相關屬性。 ( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=433340">bug 433340 </a>)
+        <li>一些採用已揚棄之程式碼的套件可能無法正確安裝。(詳情請見<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=406807">bug 406807 </a>) </li>
         <li>「工具&gt;選項」中的「個人隱私&gt;歷史&gt;保存我的歷史最少…天」，輸入 "0" 沒有反應。( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=366075">bug 366075 </a>) </li>
-        <li>如果一些使用者自訂工具列，然後發現「上一頁」、「下一頁」的按鈕不見了，請重新設定他們。(bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=426026">426026 </a>) </li>
+        <li>如果一些使用者自訂工具列，然後發現「上一頁」、「下一頁」的按鈕不見了，請<a href="http://support.mozilla.com/en-US/kb/Back+and+forward+or+other+toolbar+buttons+are+missing">重新設定</a>。(bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=426026">426026 </a>) </li>
         <li>某些網頁(像是 mlb.com)無法正確的偵測「Silverlight」是否被安裝，並且無法執行功能。( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=432371">bug 432371 </a>) </li>
+<li>選取部份網頁、列印選取區域時，可能有些部份無法印出( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=433373">bug 433373 </a>) </li>
         <li>
-		當使用 Window-Eyes 時，新的網址列、加入書籤對話框與下載管理員通知的訊息不一致，請使用 JAWS 8.0
-		或其他螢幕閱讀程式來測試 Firefox 3。
+		當使用 Window-Eyes 時，新的網址列、加入書籤對話框與下載管理員通知的訊息不一致。
 		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=393398">bug
 		393398</a>)
 		</li>
+<li>在忽略「是否記憶密碼」的提示後，Firefox 有時無法使用網頁上的表單，請重新讀取一次即可。( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=433942">bug 433373 </a>) </li>
 		<li>
 		DOM 觀查器已被移除，以額外的<a href="https://addons.mozilla.org/zh-TW/firefox/addon/6622">擴充套件</a>形式提供。</li>
       </ul>
@@ -177,7 +179,8 @@ table {
 
       <dd>
 		<ul class="spaced">
-		<li>Windows Vista 及某些其他版本Windows並沒有提供一個Windows Media Player (WMP) 的plugin。必須透過一些步驟才能安裝plugin及開啟Windows Media檔案。安裝完畢後可能也需要做Windows Updates才能讓plugin正常地顯示這些檔案。
+		<li>Windows Vista 及某些其他版本Windows並沒有提供一個Windows Media Player (WMP) 的plugin。必須<a href="http://support.mozilla.com/kb/Windows+Media+Player">透過一些步驟才能安裝plugin及開啟Windows Media檔案</a>。安裝完畢後可能也需要做Windows Updates才能讓plugin正常地顯示這些檔案。
+		</li><li>先前安裝過 Google 桌面搜尋的使用者，可能會在啟動 Firefox 時便當掉。重裝 Google 桌面搜尋便可解決此問題。( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=401513">bug 401513 </a>)
 		</li></ul>
 
 		</dd>

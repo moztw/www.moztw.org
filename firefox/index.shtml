@@ -7,9 +7,7 @@
     <div id="product-desc" class="product-firefox">
 	<h2>Firefox: rediscover the web</h2>
 	<p>
-	您渴望的網路生活就在眼前：Firefox 提供你更快速、更安全、更有效率的瀏覽體驗，一定要試試！
-	現在就<strong>與全球數千萬使用者一起<a href="/docs/ff/switch">改用 Firefox</a></strong> － 
-	Firefox 可以將您的「我的最愛」、設定及其他資訊全數匯入，不會遺漏任何東西。
+	Firefox 3 改良超過 15000 個項目，是 Mozilla 史上最快、最安全，也最聰明的網路瀏覽器。
 	</p>
     </div>
     <div id="product-side">
@@ -73,24 +71,25 @@
 		</li>
 		<li>
 			<strong>更開放的網頁工具</strong>
-			<p><span lang="EN-US">Firefox</span>擁有一組開發員用的工具，包括強大的<span lang="EN-US">JavaScript/CSS </span>錯誤訊息警示控制台、選用的文件檢視器（<span lang="EN-US">DOM Inspector</span>）等，提供您洞察網頁運作詳情的能力。</p>
-		</li>
-		<li>
-			<strong><span lang="EN-US">Firefox</span>隨身版使您更便利</strong>
-			<p>我們不擔心您不願意使用<span lang="EN-US">Firefox</span>，我們只擔心你使用過<span lang="EN-US">Firefox</span>以後，再也不習慣其他的瀏覽器！</p>
+			<p><span lang="EN-US">Firefox</span>擁有一組開發員用的工具，包括強大的<span lang="EN-US">JavaScript/CSS </span>錯誤訊息警示控制台等，提供您洞察網頁運作詳情的能力。</p>
 		</li>
 		<li>
 			<strong>趕快下載<span lang="EN-US">Firefox 3</span>！</strong>
-			<p>加入我們<span lang="EN-US"><a href="http://www.spreadfirefox.com/en-US/worldrecord" title="Firefox下載日" target="_blank">Firefox<span lang="EN-US"><span lang="EN-US">下載日</span></span></a></span>（<span lang="EN-US">6/17</span>）的活動，一起與全世界共創紀錄</p>
+			<p>加入我們 <span lang="EN-US"><a href="/events/record2008" title="Firefox下載日" target="_blank">Firefox 鬥陣拼紀錄</a></span>（<span lang="EN-US">6/18</span>）的活動，一起與全世界共創紀錄</p>
 			<p><span lang="EN-US">Firefox 3</span>將帶給您更便利、更理想的網路經驗！</p>
 		</li>
 	</ul>
 </div>
 <div id="side" class="right">
-<h3>協助推廣 Firefox 3</h3>
-	<ul>
+<h3>Firefox 3</h3>
+	<ul class="compact">
+<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/security/">安全性</a> *</li>
+<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/customize/">自訂能力</a> *</li>
+<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/organic/">100% 純天然有機軟體</a> *</li>
+<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/tips/">使用技巧</a> *</li>
 	<li><a href="buttons/">取得推廣小貼紙</a></li>
     </ul>
+<p>* 連結至 Mozilla 網站</p>
   <h3>中文社群資源</h3>
     <ul class="compact">
 	<li><a href="http://wiki.moztw.org/index.php?title=FAQ:Firefox">常見問題解答</a></li>
@@ -101,38 +100,17 @@
     </ul>
     <h3>其它資源與鏈結</h3>
     <ul class="compact">
-	<li><a href="http://update.mozilla.org/?application=firefox">取得擴充套件及佈景主題</a></li>
-	<li><a href="http://www.mozilla.org/support/firefox/">Firefox 支援中心</a>*</li>
+	<li><a href="http://addons.moztw.org">取得擴充套件及佈景主題</a></li>
+	<li><a href="http://support.mozilla.com/en-US/kb/?locale=zh-TW">Firefox 支援中心</a></li>
 	<li><a href="http://www.spreadfirefox.com/">推廣 Firefox!(英)</a></li>
-	<li><a href="http://forums.mozillazine.org/viewforum.php?f=38">技術支援(英)</a></li>
-	<li><a href="http://forums.mozillazine.org/index.php?c=4">Firefox 討論區(英)</a></li>
     </ul>
-
-    <h3>Firefox 特色</h3>
-    <ul class="compact">
-	<li>即時書籤</li>
-	<li>擴充套件</li>
-	<li>佈景主題</li>
-	<li>搜尋快手－「隨打即找」</li>
-	<li>增強安全性</li>
-	<li>更完善的分頁瀏覽功能</li>
-	<li>Firefox 1.5.0.2 已是 <a href="http://www.apple.com.tw/universal/">Universal 應用程式</a>，在採用 Intel 與 PowerPC 處理器的 Mac 電腦上皆可執行。</li>
-    </ul>
-
-    <h3>特別介紹</h3>
-    <div style="margin: 6px 0pt 0pt 4px;">
-	<a href="http://www.flash.com/"><img src="featuring-flash.gif" alt="Flash" height="28" width="100"></a>
-	<img src="featuring-shockwave.gif" alt="Shockwave" height="28" width="120"><br>
-	<img src="featuring-realplayer.gif" alt="RealPlayer" height="29" width="97">
-	<a href="http://java.sun.com/j2se/"><img src="featuring-java.gif" alt="Java" height="34" width="72"></a>
-    </div>
-    <h3>獲獎</h3>
+    <h3>獲獎</h3>
     <div style="margin: 6px 0pt 0pt 4px;">
 
 <a href="http://reviews.cnet.com/Firefox_2/4505-9241_7-32126746.html"><img src="/images/ec_seal_1006.gif" alt="CNET 編輯精選 (2006.10) - Firefox 2.0"/></a>  
 
-<a href="http://www.pcmag.com/article2/0,1895,2047445,00.asp"><img src="/images/pcm_exec_sum_ec.gif" alt="PC Magazine 編輯精選 (2006.10) - Firefox 2.0"/></a>      
-	
+<a href="http://www.pcmag.com/article2/0,1895,2047445,00.asp"><img src="/images/pcm_exec_sum_ec.gif" alt="PC Magazine 編輯精選 (2006.10) - Firefox 2.0"/></a>  
+<p>Firefox 得過<a href="http://www.mozilla.com/en-US/press/awards.html">許多大大小小的獎項</a>，是名家推薦的瀏覽器。</p>
     
     </div>
 </div>
