@@ -2,12 +2,12 @@
 	margin-left: 0;
 }
 .key-point {
-	background: #e4ecec url("feature-firefox-3-party.png") 100% 30% no-repeat;
+	background: #e4ecec url("feature-firefox-3-party.png") 100% 85% no-repeat;
 	padding: 15px;
 	margin-bottom: 1em;
 }
 #feature {
-	height: 130px;
+	height: 150px;
 	margin-right: 65%;
 	position: relative;
 	background: url(bg-alpha.png);
@@ -88,7 +88,7 @@ ul#global-info li{
 	padding-left: 2.2em;
 }
 .information div h2 {
-	margin-left: -2.2em;
+	margin-left: -1.2em;
 }.information div h2 img{
 	width: 1em;
 	height: 1em;
