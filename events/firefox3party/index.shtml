@@ -3,6 +3,8 @@
 <link rel="stylesheet" type="text/css" href="firefox3party.css" media="screen">
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
+
+<div style="border: red 1px solid;text-align:center;padding: 5px">目前是草稿， todo: 贊助，協辦，報名資訊，貼紙</div>
   <div class="key-point">
     <div id="feature">
       <h2>Firefox 3 發行系列活動！</h2>
