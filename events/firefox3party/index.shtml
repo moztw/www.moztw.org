@@ -1,0 +1,92 @@
+﻿<!--#include virtual="/inc/meta.html" -->
+<title>Firefox 3 發行系列活動 - Mozilla Taiwan</title>
+<link rel="stylesheet" type="text/css" href="firefox3party.css" media="screen">
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/inc/header.html" -->
+  <div class="key-point">
+    <div id="feature">
+      <h2>Firefox 3 發行系列活動！</h2>
+      <p>慶祝 Firefox 3 正式發行！第三屆社群嚴選套件票選、Firefox Party 3.0、狐耳摩莎遊台灣接連登場！</p>
+	  <ul id="global-info">
+      <li><a href="http://mozlinks-zh.blogspot.com/atom.xml" title="Mozilla Links RSS"><img src="/images/livemarks16.png" alt="RSS"></a></li>
+      <li><a href="http://www.google.com/calendar/embed?src=oib3k43ofedochrh6tqaqdva04%40group.calendar.google.com" title="活動行事曆"><img src="/images/ical.png" alt="行事曆"></a></li>
+    </ul>
+    </div>    
+  </div>
+
+<div id="mainContent">
+    <div class="item-block"><img name="partyicon" src="party_icon.png" alt="">
+      <h3><a href="#party">Firefox Party 3.0</a></h3>
+
+      <p>慶祝全新的 Firefox 3 正式登場！7月19日，一起來關渡的會場狂歡吧！</p>
+    </div>
+    <div class="item-block"><img src="extension_icon.png" alt="">
+      <h3><a href="#extension">第三屆附加元件票選</a></h3>
+      <p>已經是火狐的重度使用者？歡迎推薦您最愛的擴充套件、覺得最搶眼的佈景主題，讓新手一瞬間愛上火狐！</p>
+    </div>
+    <div id="street-block" class="item-block"><img src="foxmosa_icon.png" alt="">
+
+      <h3><a href="#foxmosa">Foxmosa 遊台灣</a></h3>
+       
+      <p>帶著 MozTW 吉祥物「狐耳摩莎」一起遊山玩水，遍地放火吧！詳細事項即將公佈，敬請期待！</p>
+    </div>
+  </div>
+  <div class="information">
+  <div id="party">
+    <h2><img name="partyicon" src="party_icon.png" alt="">Firefox Party 3.0 - 火狐三 之 橫掃全球創紀錄慶生派對</h2>
+
+    <p>火狐三度來報到！隨著 Firefox 3 勢如破竹地在發表首日創下突破八百萬人下載的佳績，MozTW 當然也少不了要再來一次 Firefox Party！吃喝、分享、以及絕對不會忘記的大抽獎即將在 7/19 與大家再度見面。</p><p>有了上次超級大爆滿的經驗，這次將限制入場人數以求取更好的品質，所以快快前往報名吧，晚了就只好等 Firefox 4 囉！</p>
+    <h3>時間</h3>
+      <p>日期時間：2008 年 7 月 19 日 13:30 - 17:30 <a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox Party 3.0&amp;dates=20080719T053000Z/20080719T093000Z&amp;details=華碩電腦企業營運總部三樓咖啡廳13%3A30 正式開始&amp;location=台北市北投區立德路15號&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></p>
+	<h3>地點</h3>  
+      <p>華碩電腦企業營運總部三樓咖啡廳<br/>
+        台北市北投區立德路15號 <a href="http://www.urmap.com/?link=Qhs10-0sd11s1T000W0E0101010W0Q0E0Q0s0-0s0W0a0YWE0W0T0W0W0Q0Q0W0W010Q000d0-0Q010s0YWa0W0a0T0-TRTE0a0shRT112ThgEfQW2gdf2Ydf11-fT0-TRTE0a0shRT112ThgEfh2QTTY1fhEEfTfEfhEEfR1EfQs10-0sd11s1T0Q0T0-0T000W0E0101010W0Q0E0Q0s0-0s0W0a0YWE0W0T0W0W0Q0Q0W0W010Q000d0-0Q010s0YWa0W0a0">(看地圖)</a> <a href="http://ehr.asus.com/directions.htm#a">(交通資訊)</a></p>
+
+	<h3>費用</h3>
+		<p>經費分攤價 150 元 (支付餐點等費用)</p>
+	<h3>內容</h3>
+		<ul>
+			<li>Firefox 3 新功能介紹</li>
+			<li>社群分享：擴充套件私家秘技</li>
+			<li>狐迷閒聊話家常</li>
+			<li>專題分享：Firefox 使用議題</li>
+			<li>火狐大抽獎</li>
+			</ul>
+
+	<h3>有吃又看又有拿</h3>
+	<p>這次依然費盡心思為大家準備以堆計算的有趣紀念品及抽獎贈品：</p>
+		<ul>
+			<li>空運來台的原裝 Firefox Party 慶祝包 (送完為止)：
+			<ul>
+				<li>Firefox 派對帽</li>
+				<li>Mozilla「我挺開放網路」手環</li>
+				<li>Firefox 紋身貼紙</li>
+				<li>Firefox 2008 下載準紀錄貼紙</li>
+				<li>Firefox 徽章</li></ul></li>
+			<li>MozTW Party 貼紙特別版</li>
+			<li>抽獎獎項：</li><ul><li>Firefox Party T-shirt</li><li>MozTW 自由新生代 T-shirt</li><li>Firefox 自行車轉燈</li><li>MyDocuments 公事包</li><li>陸續洽談中...</li></ul>
+		<ul>
+  </div>
+  <div id="extension">
+    <h2><img src="extension_icon.png" alt="">第三屆附加元件票選</h2>
+
+  </div>
+  <div id="foxmosa">
+    <h2><img src="foxmosa_icon.png" alt="">Foxmosa 遊台灣</h2>
+  </div>
+ </div>
+ <div id="sponsor">
+    <h2>熱情贊助：</h2>
+    <ul class="logo">
+
+<!--      <li><a href="{url}"><img src="{img_src}" alt="{name}"></a></li>--> 
+	   -->
+    </ul>
+	<h2>協辦單位：</h2>
+    <ul class="logo">
+ <!--     <li><a href="{url}"><img src="{img_src}" alt="{name}"></a></li>--> -->
+    </ul>
+    <br style="clear: both">
+  </div>
+
+  <!--#include virtual="/inc/footer.html" -->
