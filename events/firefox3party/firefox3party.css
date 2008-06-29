@@ -78,7 +78,9 @@ ul#global-info li{
 /*=======================
   content
   =======================*/
-
+.information {
+	clear: both;
+}
 .information div h2 {
 	margin-left: -2.2em;
 }
