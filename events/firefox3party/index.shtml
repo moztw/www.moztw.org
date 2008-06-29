@@ -75,17 +75,6 @@
     <h2><img src="foxmosa_icon.png" alt="">Foxmosa 遊台灣</h2>
   </div>
  </div>
- <div id="sponsor">
-    <h2>熱情贊助：</h2>
-    <ul class="logo">
-
-<!--      <li><a href="{url}"><img src="{img_src}" alt="{name}"></a></li>--> 
-	   -->
-    </ul>
-	<h2>協辦單位：</h2>
-    <ul class="logo">
- <!--     <li><a href="{url}"><img src="{img_src}" alt="{name}"></a></li>--> -->
-    </ul>
     <br style="clear: both">
   </div>
 

@@ -2,7 +2,7 @@
 	margin-left: 0;
 }
 .key-point {
-	background: #e4ecec url("/images/feature-firefox-3-party.png") 130% 30% no-repeat;
+	background: #e4ecec url("feature-firefox-3-party.png") 100% 30% no-repeat;
 	padding: 15px;
 	margin-bottom: 1em;
 }
@@ -13,7 +13,7 @@
 	background: url(bg-alpha.png);
 }
 #feature h2{
-	background: url(/images/event-firefox-3-events.png) no-repeat;
+	background: url(event-firefox-3-events.png) no-repeat;
 	padding-top: 55px;
 	height: 0;
 	width: 245px;
@@ -34,7 +34,10 @@ ul#global-info li{
 /*=======================
   三個 promote block
   =======================*/
-
+#mainContent{
+	float: none;
+	width: 100%
+}
 .item-block{
 	background: transparent url(/images/green-corner-box.jpg) left top no-repeat;
 	padding: 12px 15px 20px;
@@ -81,10 +84,12 @@ ul#global-info li{
 .information {
 	clear: both;
 }
+.information div {
+	padding-left: 2.2em;
+}
 .information div h2 {
 	margin-left: -2.2em;
-}
-.information div h2 img{
+}.information div h2 img{
 	width: 1em;
 	height: 1em;
 }
