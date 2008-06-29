@@ -1,5 +1,5 @@
 ﻿<!--#include virtual="/inc/meta.html" -->
-<title>Firefox 3 發行系列活動 - Mozilla Taiwan</title>
+<title>Firefox 3 Party 慶祝活動 - Mozilla Taiwan</title>
 <link rel="stylesheet" type="text/css" href="firefox3party.css" media="screen">
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
@@ -70,13 +70,29 @@
   </div>
   <div id="extension">
     <h2><img src="extension_icon.png" alt="">第三屆附加元件票選</h2>
-
+	 <p>第三屆<a href="/firefox/extension_top_15/">社群嚴選附加元件</a>票選活動即將於 7/1 開始接受提名、7/19-8/9 投票。歡迎提名好用的套件，提供初學者更快上手的入門選擇！投票結果將於 <a href="http://addons.mozilla.org">addons.mozilla.org 正體中文區</a>同步推薦，並在 8/23 號舉辦的 <a href="http://coscup.org">COSCUP 2008</a> 上發表喔！</p>
+	 <p><a href="http://forum.moztw.org/viewtopic.php?t=23044">主辦人 Timdream 的預告文</a></p>
   </div>
   <div id="foxmosa">
     <h2><img src="foxmosa_icon.png" alt="">Foxmosa 遊台灣</h2>
+    <p>號召全台狐迷慶祝 Firefox 3，共同參與 Foxmosa 遊台灣！藉由你的協助，讓 Foxmosa 環繞台灣一圈，到各縣市的著名景點或者有趣的、有代表性的地方合影或者攝影留念，紀錄全程的活動紀錄。這是個慶祝 Firefox3 上市，並且向全世界狐迷們宣傳 MozTW、台灣跟狐耳摩莎的大好機會！</p>
+    <p>詳細事項即將公佈，別忘了隨時回來這裡看看喔！</p>
   </div>
  </div>
     <br style="clear: both">
   </div>
-
+  <!-- 
+<div id="sponsor">
+    <h2>烈火支持：</h2>
+    <h2>熱火支持：</h2>
+    <h2>文火支持：</h2>
+    <ul class="logo"><li>25togo 我我的店</li><li><a href="http://www.openfoundry.org/"><img src="sponsor/ossf-logo.png" alt="自由軟體鑄造場" width="154" height="40"></a></li>
+    </ul>
+	<h2>協辦單位：</h2>
+    <ul class="logo">
+      <li>國立中央大學學生會</li>
+    </ul>
+    <br style="clear: both;">
+  </div>
+ -->
   <!--#include virtual="/inc/footer.html" -->
