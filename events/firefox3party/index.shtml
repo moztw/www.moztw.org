@@ -76,19 +76,19 @@
 	<p>
 	<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/88x31.png" alt="Firefox Party 3.0"></a><br>
 	88x31<br>
-	<textarea>&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/88x31.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
+	<textarea onclick="this.select()">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/88x31.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
 	<p>
 		<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/199x60.gif" alt="Firefox Party 3.0"></a><br>
 		199x60<br>
-		<textarea>&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/199x60.gif&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
+		<textarea onclick="this.select()">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/199x60.gif&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
 		<p>
 			<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/210x90.png" alt="Firefox Party 3.0"></a><br>
 			210x90<br>
-			<textarea>&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/210x90.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
+			<textarea onclick="this.select()">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/210x90.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
 			<p>
 				<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/468x60.png" alt="Firefox Party 3.0"></a><br>
 				468x60<br>
-				<textarea>&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/468x60.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
+				<textarea onclick="this.select()">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/468x60.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
 	</form>
   </div>
   <div id="extension">
