@@ -4,7 +4,7 @@
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-<div style="border: red 1px solid;text-align:center;padding: 5px; font-size: 3em;">目前是草稿， todo: 贊助，協辦，貼紙</div>
+<div style="border: red 1px solid;text-align:center;padding: 5px; font-size: 3em;">目前是草稿， todo: 贊助，協辦</div>
   <div class="key-point">
     <div id="feature" style="padding: 6px">
       <h2>Firefox 3 發行系列活動！</h2>
@@ -70,6 +70,7 @@
 				<li>Firefox 徽章</li></ul></li>
 			<li>MozTW Party 貼紙特別版</li>
 			<li>抽獎獎項：</li><ul><li>Firefox Party T-shirt</li><li>MozTW 自由新生代 T-shirt</li><li>Firefox 自行車轉燈</li><li>MyDocuments 公事包</li><li>陸續洽談中...</li></ul>
+			</ul>
 		<ul>
 	<h3>協助宣傳</h3>
 	<p>由 OOBE、Tobby 及 Indigo 協助製作的宣傳用網路小貼紙，歡迎使用：</p>
@@ -96,7 +97,10 @@
     <h2><img src="extension_icon.png" alt="">第三屆附加元件票選</h2>
 	 <p>第三屆<a href="/firefox/extension_top_15/">社群嚴選附加元件</a>票選活動即將於 7/1 開始接受提名、7/19-8/9 投票。歡迎提名好用的套件，提供初學者更快上手的入門選擇！投票結果將於 <a href="http://addons.mozilla.org">addons.mozilla.org 正體中文區</a>同步推薦，並在 8/23 號舉辦的 <a href="http://coscup.org">COSCUP 2008</a> 上發表喔！</p>
 	 <p><a href="http://forum.moztw.org/viewtopic.php?t=23044">主辦人 Timdream 的預告文</a></p>
-  </div>
+	 <h3>我們需要你！</h3>
+	 <p><strong>套件中文說明：</strong>Firefox 3 的附加元件管理員內建了推薦套件功能，你是否跟我們一樣、對大部分套件說明都是英文感到遺憾？敦請四方大德協助，提供套件作者中文翻譯！<a href="http://forum.moztw.org/viewtopic.php?t=22585">進一步說明…</p>
+	 <p><strong>套件相容敦促升級：</strong>你最愛的附加元件是否還沒搭上 Firefox 3 特快車？我們提供了簡單的標準信，方便你向套件作者表達急切的渴望！ <a href="http://forum.moztw.org/viewtopic.php?p=127689">看看標準信</a></p>
+	 </div>
   <div id="foxmosa">
     <h2><img src="foxmosa_icon.png" alt="">Foxmosa 遊台灣</h2>
     <p>號召全台狐迷慶祝 Firefox 3，共同參與 Foxmosa 遊台灣！藉由你的協助，讓 Foxmosa 環繞台灣一圈，到各縣市的著名景點或者有趣的、有代表性的地方合影或者攝影留念，紀錄全程的活動紀錄。這是個慶祝 Firefox3 上市，並且向全世界狐迷們宣傳 MozTW、台灣跟狐耳摩莎的大好機會！</p>
@@ -107,10 +111,12 @@
   </div>
   <!-- 
 <div id="sponsor">
-    <h2>烈火支持：</h2>
-    <h2>熱火支持：</h2>
-    <h2>文火支持：</h2>
-    <ul class="logo"><li>25togo 我我的店</li><li><a href="http://www.openfoundry.org/"><img src="sponsor/ossf-logo.png" alt="自由軟體鑄造場" width="154" height="40"></a></li>
+    <h2>熱情支持：</h2>
+    <ul class="logo">
+    	<li>遊戲橘子</li>
+    	<li>25togo 我我的店</li>
+    	<li><a href="http://www.openfoundry.org/"><img src="sponsor/ossf-logo.png" alt="自由軟體鑄造場" width="154" height="40"></a></li>
+    	<li>資策會創研所</li>
     </ul>
 	<h2>協辦單位：</h2>
     <ul class="logo">
