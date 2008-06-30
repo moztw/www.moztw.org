@@ -109,11 +109,10 @@
   </div>
 <div id="sponsor">
     <h2>首席贊助：</h2>
+    <p><img src="gamania.png" alt="Web 戰牌: 神樣の年代記"> Web 戰牌: 神樣の年代記 (官方網站 7/18 公開)</p>
+    <p><a href="http://mozillaonline.com" title="謀智網路"><img src="mozillaonline.png" alt="謀智網路"></a> 謀智網路</p>
+    <h2>熱情支援：</h2>
     <ul class="logo">
-    	<li><img src="gamania.png" alt="Web 戰牌: 神樣の年代記"> Web 戰牌: 神樣の年代記 (官方網站 7/18 公開)</li>
-    	<li><a href="http://mozillaonline.com" title="謀智網路"><img src="mozillaonline.png" alt="謀智網路"></a> 謀智網路</li>
-    </ul>
-    <h2>熱情贊助：</h2>
     	<li><a href="http://eeepc.asus.com/tw/index.htm" title="ASUS EeePC"><img src="eeepc.png" alt="ASUS EeePC"></a></li>
     	<li><a href="http://ideas.org.tw/" title="資訊工業策進會 創新應用服務研究所"><img src="ideas.png" alt="資訊工業策進會 創新應用服務研究所"></a></li>
     	<li><a href="http://www.25togo.com/" title="25togo.com 我我的店"><img src="25togo.png" alt="25togo.com 我我的店"></a></li>
