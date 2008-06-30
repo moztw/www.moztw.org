@@ -114,7 +114,7 @@ ul#global-info li{
 .badgets textarea{
 	font-size: 10px;
 	width: 30em;
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 }
 
 .badgets img{
@@ -131,8 +131,9 @@ ul#global-info li{
 	margin: 50px 1% auto;
 	max-width:70em;
 padding:10px;
+clear: both;
 }
-}
+
 #sponsor h2 {
 	font-size: 1.2em;
 	margin:0;
