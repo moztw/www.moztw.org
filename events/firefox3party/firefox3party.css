@@ -109,6 +109,19 @@ ul#global-info li{
 }
 
 /*=======================
+  Badgets
+  =======================*/
+.badgets textarea{
+	font-size: 10px;
+	width: 30em;
+
+}
+
+.badgets img{
+	border: 0;
+}
+
+/*=======================
   sponsor
   =======================*/
 

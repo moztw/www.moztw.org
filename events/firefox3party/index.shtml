@@ -71,6 +71,26 @@
 			<li>MozTW Party 貼紙特別版</li>
 			<li>抽獎獎項：</li><ul><li>Firefox Party T-shirt</li><li>MozTW 自由新生代 T-shirt</li><li>Firefox 自行車轉燈</li><li>MyDocuments 公事包</li><li>陸續洽談中...</li></ul>
 		<ul>
+	<h3>協助宣傳</h3>
+	<p>由 OOBE、Tobby 及 Indigo 協助製作的宣傳用網路小貼紙，歡迎使用：</p>
+	<form class="badgets">
+	<p>
+	<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/88x31.png" alt="Firefox Party 3.0"></a><br>
+	88x31<br>
+	<textarea>&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/88x31.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
+	<p>
+		<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/199x60.gif" alt="Firefox Party 3.0"></a><br>
+		199x60<br>
+		<textarea>&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/199x60.gif&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
+		<p>
+			<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/210x90.png" alt="Firefox Party 3.0"></a><br>
+			210x90<br>
+			<textarea>&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/210x90.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
+			<p>
+				<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/468x60.png" alt="Firefox Party 3.0"></a><br>
+				468x60<br>
+				<textarea>&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/468x60.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
+	</form>
   </div>
   <div id="extension">
     <h2><img src="extension_icon.png" alt="">第三屆附加元件票選</h2>
