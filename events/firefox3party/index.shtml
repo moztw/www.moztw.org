@@ -26,7 +26,7 @@
     </div>
     <div id="street-block" class="item-block"><img src="foxmosa_icon.png" alt="">
 
-      <h3><a href="#foxmosa">Foxmosa 遊台灣</a></h3>
+      <h3><a href="#foxmosa">火狐鬥陣遊台灣</a></h3>
        
       <p>帶著 MozTW 吉祥物「狐耳摩莎」一起遊山玩水，遍地放火吧！詳細事項即將公佈，敬請期待！</p>
     </div>
@@ -40,13 +40,13 @@
     </div>
     
     <h3>資訊</h3>
-      <p>日期時間：2008 年 7 月 19 日 13:30 - 17:30 (13:00 開始入場)<a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox Party 3.0&amp;dates=20080719T053000Z/20080719T093000Z&amp;details=華碩電腦企業營運總部三樓咖啡廳13%3A30 正式開始&amp;location=台北市北投區立德路15號&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></p>
+      <p>日期時間：2008 年 7 月 19 日 14:00 - 17:30 (13:30 開始入場)<a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox Party 3.0&amp;dates=20080719T060000Z/20080719T093000Z&amp;details=華碩電腦企業營運總部三樓咖啡廳13%3A30 開始入場&amp;location=台北市北投區立德路15號&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></p>
       <p>地點：華碩電腦企業營運總部三樓咖啡廳<br/>
         台北市北投區立德路15號 <a href="http://www.urmap.com/?link=Qhs10-0sd11s1T000W0E0101010W0Q0E0Q0s0-0s0W0a0YWE0W0T0W0W0Q0Q0W0W010Q000d0-0Q010s0YWa0W0a0T0-TRTE0a0shRT112ThgEfQW2gdf2Ydf11-fT0-TRTE0a0shRT112ThgEfh2QTTY1fhEEfTfEfhEEfR1EfQs10-0sd11s1T0Q0T0-0T000W0E0101010W0Q0E0Q0s0-0s0W0a0YWE0W0T0W0W0Q0Q0W0W010Q000d0-0Q010s0YWa0W0a0">(UrMap)</a> <a href="http://ehr.asus.com/directions.htm#a">(交通資訊)</a></p>
 
-	<p>費用：分攤價 150 元 (支付餐點等費用)</p>
+	<p>費用：分攤價 150 元 (分攤餐點設備等費用)</p>
 	
-	<p>人數：限 170 名，<a href="http://registrano.com/events/firefox3party/"><strong>7 月 3 日開始報名！</strong></a></p>
+	<p>人數：限 170 名，<a href="http://registrano.com/events/firefox3party/"><strong>7 月 3 日 17:00 起開始報名！</strong></a></p>
 	<h3>內容</h3>
 		<ul>
 			<li>Firefox 3 新功能介紹</li>
@@ -95,20 +95,35 @@
     <h2><img src="extension_icon.png" alt="">第三屆附加元件票選</h2>
 	 <p>第三屆<a href="/firefox/extension_top_15/">社群嚴選附加元件</a>票選活動即將於 7/1 開始接受提名、7/19-8/9 投票。歡迎提名好用的套件，提供初學者更快上手的入門選擇！投票結果將於 <a href="http://addons.mozilla.org">addons.mozilla.org 正體中文區</a>同步推薦，並在 8/23 號舉辦的 <a href="http://coscup.org">COSCUP 2008</a> 上發表喔！</p>
 	 <p><a href="http://forum.moztw.org/viewtopic.php?t=23044">主辦人 Timdream 的預告文</a></p>
+
+<p><a href="http://forum.moztw.org/viewforum.php?f=44">票選提名討論區</a></p>
+        <h3 id="share">Party 社群分享套件使用</h3>
+        <p>有什麼套件使用密技不吐不快嗎？除了在討論區提名擴充套件，分享使用經驗以外，在 Party 現場也有宣傳的機會！只要願意上台發表使用套
+件心得、密技等，<strong>Party 報名費是全免的喔</strong>！有興趣報名者，請到討論區丟私人訊息給主辦人 timdream，或寄信到螢幕上這個 email: timdream 在 mail 點 moztw.org。</p>
+
 	 <h3>我們需要你！</h3>
 	 <p><strong>套件中文說明：</strong>Firefox 3 的附加元件管理員內建了推薦套件功能，你是否跟我們一樣、對大部分套件說明都是英文感到遺憾？敦請四方大德協助，提供套件作者中文翻譯！<a href="http://forum.moztw.org/viewtopic.php?t=22585">進一步說明…</a></p>
 	 <p><strong>套件相容敦促升級：</strong>你最愛的附加元件是否還沒搭上 Firefox 3 特快車？我們提供了簡單的標準信，方便你向套件作者表達急切的渴望！ <a href="http://forum.moztw.org/viewtopic.php?p=127689">看看標準信</a></p>
 	 </div>
   <div id="foxmosa">
-    <h2><img src="foxmosa_icon.png" alt="">Foxmosa 遊台灣</h2>
-    <p>號召全台狐迷慶祝 Firefox 3，共同參與 Foxmosa 遊台灣！藉由你的協助，讓 Foxmosa 環繞台灣一圈，到各縣市的著名景點或者有趣的、有代表性的地方合影或者攝影留念，紀錄全程的活動紀錄。這是個慶祝 Firefox3 上市，並且向全世界狐迷們宣傳 MozTW、台灣跟狐耳摩莎的大好機會！</p>
-    <p>詳細事項即將公佈，別忘了隨時回來這裡看看喔！</p>
+    <h2><img src="foxmosa_icon.png" alt="">火狐鬥陣遊台灣</h2>
+    <p>全台狐迷瘋狂慶祝 Firefox 3 上市，MozTW 的吉祥物狐耳摩莎要出遊啦！</p>
+<p>誠徵各縣市嚮導，由狐迷們帶領狐耳摩莎繞行台灣一圈，行經各縣市著名景點時記得攝影、錄影留念，各地狐迷身影將在《狐耳摩莎遊台灣 Foxmosa's tour around Taiwan》部落格上出現（即將推出）。這是個向全世界狐迷們宣傳台灣跟狐耳摩莎的大好機會，您可別錯過了！</p>
+<h3>如何參與？</h3>
+<p>嚮導的任務是，在負責縣市的火車站從上一個接待人處接下狐耳摩莎，然後一天內帶領狐耳摩莎市區觀光，到代表性或者特色景點，攝影跟拍照留念，最後讓狐耳摩莎夜宿一晚，隔天負責將它送到下一個站交給下位接待人。完成任務後，需要上傳相片原始檔，並且附上一篇遊記與圖說。</p>
+<h3>乖寶寶獎勵</h3>
+<p>嚮導們這麼辛苦，當然有所獎勵啦！完成任務的嚮導可以獲得以下獎品：</p>
+<ul><li>Foxmosa T-shirt 一件</li><li>Foxmosa 貼紙首刷限量版全套兩組</li></ul>
+<h3>美麗寶島獎</h3>
+<p>只要嚮導們能讓狐耳摩莎與有特色的景物，以相片方式一同入鏡，結束後將舉行美麗寶島獎相片票選。 狐耳摩莎遊台灣計劃團隊將開放討論區成員提名，再交由全員投票及核心成員評選出<strong>一名優勝者、獨得 Firefox 原版 T-shirt 及帽子各一件</strong>。</p>
+<h3>快去報名！</h3>
+<p>很簡單吧？想要加入狐耳摩莎嚮導團，帶領她遊歷您在地縣市嗎？快到<a href="http://registrano.com/events/foxmosa">報名網頁</a>查詢相關資訊吧！</p>
   </div>
  </div>
     <br style="clear: both">
   </div>
 <div id="sponsor">
-    <h2>首席贊助：</h2>
+    <h2>搶先支持：</h2>
     <p><img src="gamania.png" alt="Web 戰牌: 神樣の年代記"> Web 戰牌: 神樣の年代記 (官方網站 7/18 公開)</p>
     <p><a href="http://mozillaonline.com" title="謀智網路"><img src="mozillaonline.png" alt="謀智網路"></a> 謀智網路</p>
     <h2>熱情支援：</h2>
@@ -121,7 +136,7 @@
 	<h2>協辦單位：</h2>
     <ul class="logo">
     	<li><a href="http://mozilla.com" title="Mozilla"><img src="mozilla.png" alt="Mozilla"></a></li>
-    	<li>國立中央大學學生會</li>
+    	<li><a href="http://www.student.ncu.edu.tw/">國立中央大學學生會</a></li>
     </ul>
     <br style="clear: both;">
   </div>
