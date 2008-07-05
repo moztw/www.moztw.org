@@ -71,6 +71,7 @@ function hidden_descript(obj) {
 <div id="product-desc" class="active-extensiontop15">
 	
 <h2>第二屆 Top 15 票選活動</h2>
+<p style="font-size: 1.2em;">報！<a href="http://forum.moztw.org/viewforum.php?f=44">第三屆 Top 15 票選活動</a>熱烈展開中，與 Firefox 3 相容之套件推薦清單稍後便來！</p>
 			<p>繼 2005 年選出的最佳套件之後，2006 年的第二屆 Top 15 票選結果現已出爐！</p>
 			<p>想知道大家都裝些甚麼套件嗎？勾選套件的「列入安裝清單」後，按下頁尾的「安裝這些套件」便可一次安裝喔！您必須以 Firefox 觀看本頁才能安裝這些套件。</p>
 			<div><form name="hide_desc"><label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;"><input id="hidden_desc" value="true" type="checkbox" onclick="hidden_descript(this)">進階選項：隱藏套件說明及相關連結</label></form></div> 
