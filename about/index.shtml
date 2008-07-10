@@ -41,8 +41,8 @@ Email:
 	<a href='http://www.mozilla.org'>Mozilla</a> 相關資訊的網站，
 	於 2004 年九月正式開張。目前本站管理、維護 Mozilla 的正體中文語言套件(Language
 	Pack) 跟已在地化 (Localized) 的安裝檔，提供 <a href='http://www.moztw.org'>WWW (下載、文件)</a>與
-	<a href='http://forum.moztw.org'>討論區</a> 等服務。關於本站定位及其他服務還在規畫中，
-	歡迎給予建議與指教！</p>
+	<a href='http://forum.moztw.org'>討論區</a> 等服務。</p>
+	<p>Mozilla Taiwan 本著推廣主力 — Firefox 易學常用的特性，自許為使用者接觸自由文化的起點。我們持續辦理推廣自由文化的課程與活動，若有相關需求或合作提案，請連絡<a href="#contact">社群連繫長</a>。</p>
 	<p> Mozilla Taiwan 名稱的正式寫法:</p>
 	<ul>
 	    <li> 英文全名: Mozilla Taiwan</li>
@@ -69,8 +69,8 @@ Email:
 	原先的測試網站演化為 Mozilla 相關產品正體中文版及資訊收集地，也有了固定支持的社群。</p>
 	<p>2004 年，piaip 為了讓更多人參與專案，將 Mozilla 正體中文站自個人網站獨立而成為 Mozilla Taiwan
 	(moztw.org)，並轉移到中央研究院的主機下。自此，MozTW 正式開張。</p>
-	<p>現任的正體中文在地化專案經理為孫偉倫（Josesun），自 2006 年開始接手。</p>
-
+	<p>piaip 退休後，MozTW 的在地化工作自 2006 起轉交由孫偉倫（Josesun）負責，而在 2008 年中完成第二次交接、由簡冠廷 (timdream) 與賴韋辰 (irabbit) 分別負責 Firefox 及 Thunderbird 的在地化事宜。</p>
+	<p>MozTW 另有新聞專案 Mozilla Links 中文版網站，以獨立的角色率領編輯群報導 Mozilla 相關消息。總編輯工作由程仁勇 (Alicekey) 負責。</p>
 	<!-- <p><A href='/awstats'>流量與相關統計資料</A></p> 這不確定是否還該放-->
 	
 	<h3 id="moztw-question">軟體使用問題</h3>
@@ -109,30 +109,41 @@ Email:
 	<h2 id="contact">聯絡資訊</h2>
 	<div class="vcard">
 		<p class="fn n"> 
-			<span class="family-name">孫</span><span class="given-name">偉倫</span> <span class="nickname">Jose</span>
-		</p>
-		<p>WWW: <a href="http://blog.josesun.org" class="url ">http://blog.josesun.org</a></p>
-		<p>E-mail: <a class="email" href="mailto:josesun@mail.moztw.org">josesun@mail.moztw.org</a>
-		<p class="note">正體中文在地化專案經理，協調 MozTW 各在地化專案事宜。</p>
-		<div class="vcard-additional-info">
-			<span class="org">Mozilla Taiwan</span>
-			<span class="adr"><span class="country-name">Taiwan (R.O.C.)</span></span>
-		</div>
-	</div>
-
-	<div class="vcard">
-		<p class="fn n"> 
 			<span class="family-name">趙</span><span class="given-name">柏強</span> <span class="nickname">Bob</span>
 		</p>
 		<p>WWW: <a href="http://blog.bobchao.net" class="url ">http://blog.bobchao.net</a></p>
 		<p>E-mail: <a class="email" href="mailto:bobchao@mail.moztw.org">bobchao@mail.moztw.org</a>
-		<p class="note">社群庶務經營連繫，網站管理</p>
+		<p class="note">社群連繫長，處理社群庶務經營，新聞與合作案連絡人‎</p>
 		<div class="vcard-additional-info">
 			<span class="org">Mozilla Taiwan</span>
 			<span class="adr"><span class="country-name">Taiwan (R.O.C.)</span></span>
 		</div>
 	</div>
 
+<div class="vcard">
+		<p class="fn n"> 
+			<span class="family-name">簡</span><span class="given-name">冠庭</span> <span class="nickname">Tim</span>
+		</p>
+		<p>WWW: <a href="http://blog.timc.idv.tw/" class="url ">http://blog.timc.idv.tw/</a></p>
+		<p>E-mail: <a class="email" href="mailto:timdream@mail.moztw.org">timdream@mail.moztw.org</a>
+		<p class="note">Firefox 正體中文在地化專案經理，協調 MozTW 各在地化專案事宜。</p>
+		<div class="vcard-additional-info">
+			<span class="org">Mozilla Taiwan</span>
+			<span class="adr"><span class="country-name">Taiwan (R.O.C.)</span></span>
+		</div>
+	</div>
+<div class="vcard">
+		<p class="fn n"> 
+			<span class="family-name">賴</span><span class="given-name">賴</span> <span class="nickname">lrabbit</span>
+		</p>
+		<p>WWW: <a href="http://abev66.blogspot.com/" class="url ">http://abev66.blogspot.com/</a></p>
+		<p>E-mail: <a class="email" href="mailto:timdream@mail.moztw.org">abev66@mail.moztw.org</a>
+		<p class="note">Thunderbird 正體中文在地化專案經理。</p>
+		<div class="vcard-additional-info">
+			<span class="org">Mozilla Taiwan</span>
+			<span class="adr"><span class="country-name">Taiwan (R.O.C.)</span></span>
+		</div>
+	</div>
 	<p>特別感謝：</p>
 	<div class="vcard">
 		<p class="fn n"> 

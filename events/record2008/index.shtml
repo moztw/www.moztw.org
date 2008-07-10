@@ -15,10 +15,11 @@ a[href="#firefox3party"]{ color: red;}
 <p class="inline-nav"><a href="#description">手滑創記錄</a> | <a href="#whatisfirefox">火狐是啥？</a> | <a href="#promoting">一起推廣！</a> | <a href="http://wiki.moztw.org/index.php/Firefox_Download_Day_2008_%E5%95%8F%E7%AD%94%E9%9B%86">活動問答集</a> | <a href="#firefox3party">其他 Firefox 3 活動</a></p>
 <h2 id="description">超炫瀏覽器，手滑創紀錄</h2>
 
-<p>這麼棒的瀏覽器免費給你用，還可以不小心手滑一起創下金氏世界紀錄！如此有趣的事情也只有在這裡有啦！你不用會些驚人的特技，只要在對的時間<a href="#promoting">呼朋引伴</a>一起下載火熱出爐的 Firefox 3，就成啦！</p>
+<p><strong>恭喜，我們成功了！</strong>Firefox 以 8,002,530 次的下載次數，成功登上發表首日下載量最大軟體金氏世界紀錄寶座！</p>
 
-<p>有意思吧！<strong>臺灣時間 6 月 18 日凌晨 1 點後 24 小時內</strong>一起下載 Firefox 3，我們就有機會達成「單日最多人下載軟體」的金氏世界紀錄！在 Firefox 2 時，第一天的下載次數是 160 萬次，那麼這次就把目標隨便訂個 500 萬吧 :P 總之是越多越好啊！來看看目前已經有多少人下載了！</p>
-
+<p>一直以來 Firefox 仰賴大家的協助，以有限的資源做出最大的推廣效益。根據創世紀市調於 2008 年 5 月發佈的報告，Firefox 在台灣市佔率已經達到 10% — 這是十分重要的關鍵數字！你可以開始告訴不願支援 Firefox 的網路商店、銀行、機關網站，他們並不尊重您與這 10% 的網友的選擇，督促他們改進，加速開放網際世界的到來。</p>
+<h2 id="firefox3party">還有其他 Firefox 3 活動嗎？</h2>
+<p><a href="/events/firefox3party/">Firefox 3 Party</a> 與其他 Firefox 3 慶祝活動正在熱烈展開中，一樣好玩、一樣滿載好康！快來參加吧！</p>
   <script type="text/javascript" src="http://www.spreadfirefox.com/misc/downloadday.js"></script>
 
 <div id="flashcontent" style="width: 740px; margin: 0 auto;">
@@ -52,8 +53,7 @@ a[href="#firefox3party"]{ color: red;}
 <p><a href="http://moztw.org/firefox/"><img src="http://moztw.org/firefox/buttons/type06-3.png" alt="Firefox 3 火熱上映" border="0"></a><br>531x140<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href="http://moztw.org/firefox/"&gt;&lt;img src="http://moztw.org/firefox/buttons/type06-3.png" alt="Firefox 3 火熱上映" border="0"&gt;&lt;/a&gt;</textarea></p>
 <p>覺得這些貼紙太醜？歡迎你發揮創意製作更棒的版本，貼到<a href="http://forum.moztw.org/viewtopic.php?t=22548">討論區</a>與我們共襄盛舉！</p>
 <p class="inline-nav"><a href="#description">手滑創記錄</a> | <a href="#whatisfirefox">火狐是啥？</a> | <a href="#promoting">一起推廣！</a> | <a href="http://wiki.moztw.org/index.php/Firefox_Download_Day_2008_%E5%95%8F%E7%AD%94%E9%9B%86">活動問答集</a> | <a href="#firefox3party">其他 Firefox 3 活動</a></p>
-<h2 id="firefox3party">還有其他 Firefox 3 活動嗎？</h2>
-<p>正在規畫中，有意願參加者<a href="http://spreadsheets.google.com/viewform?key=pgCLmf2kXn6uzp0j0d1vafQ">請填寫問卷</a>，也<a href="http://groups.google.com/group/moztw-party?hl=zh-TW">歡迎您一同共襄盛舉，協助籌辦！</a></p>
+
 </form>
 
 <!--#include virtual="/inc/footer.html" -->

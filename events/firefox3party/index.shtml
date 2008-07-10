@@ -138,6 +138,7 @@
 	<h2>協辦單位：</h2>
     <ul class="logo">
     	<li><a href="http://mozilla.com" title="Mozilla"><img src="mozilla.png" alt="Mozilla"></a></li>
+    	<li><a href="http://www.slat.org"><img src="slat.png" alt="中華民國軟體自由協會"></a></li>
     	<li><img src="ncustudent.gif" alt="國立中央大學學生議會"></li>
     </ul>
     <br style="clear: both;">
