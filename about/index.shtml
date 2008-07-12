@@ -62,16 +62,15 @@ Email:
 	<a href="http://www.iis.sinica.edu.tw">資訊科學研究所(iis)</a>
 	<a href="http://www.openfoundry.org/">自由軟體鑄造場(OSSF)</a>
 	提供，也感謝<a href="http://www.csie.ntu.edu.tw/">台大資訊系(NTU CSIE)</a>到 2004/08 前的支援。</p>
-	<h3 id="moztw-history">緣起</h3>
+	<h3 id="moztw-history">緣起與發展</h3>
 
 	<p>1999 年，當時尚就讀台大資工的林弘德（piaip）為 Mozilla 正體中文在地化專案管理員，並開始於個人網站上發佈測試檔案。
 	隨後 piaip 製作「Mozilla Localization: Traditional Chinese」網站，並於 2000 年啟用 Mozilla@Taiwan 討論區；
 	原先的測試網站演化為 Mozilla 相關產品正體中文版及資訊收集地，也有了固定支持的社群。</p>
 	<p>2004 年，piaip 為了讓更多人參與專案，將 Mozilla 正體中文站自個人網站獨立而成為 Mozilla Taiwan
 	(moztw.org)，並轉移到中央研究院的主機下。自此，MozTW 正式開張。</p>
-	<p>piaip 退休後，MozTW 的在地化工作自 2006 起轉交由孫偉倫（Josesun）負責，而在 2008 年中完成第二次交接、由簡冠廷 (timdream) 與賴韋辰 (irabbit) 分別負責 Firefox 及 Thunderbird 的在地化事宜。</p>
-	<p>MozTW 另有新聞專案 Mozilla Links 中文版網站，以獨立的角色率領編輯群報導 Mozilla 相關消息。總編輯工作由程仁勇 (Alicekey) 負責。</p>
-	<!-- <p><A href='/awstats'>流量與相關統計資料</A></p> 這不確定是否還該放-->
+	<p>piaip 退休後，MozTW 的在地化工作自 2006 起轉交由孫偉倫（Josesun）負責，而在 2008 年中完成第二次交接、由簡冠庭 (timdream) 與賴韋辰 (irabbit) 分別負責 Firefox 及 Thunderbird 的在地化事宜。</p>
+	<p>目前 MozTW 正式進入多人共治時代，討論區、新聞專案、文件等各有獨立負責人運作。</p>
 	
 	<h3 id="moztw-question">軟體使用問題</h3>
 	軟體使用上的問題：
@@ -107,6 +106,7 @@ Email:
 	</ul>	
 	
 	<h2 id="contact">聯絡資訊</h2>
+	<p>翻譯建議與錯誤可於討論區回報或連絡各軟體在地化經理，其他事項請連絡社群連繫長。</p>
 	<div class="vcard">
 		<p class="fn n"> 
 			<span class="family-name">趙</span><span class="given-name">柏強</span> <span class="nickname">Bob</span>
@@ -134,10 +134,10 @@ Email:
 	</div>
 <div class="vcard">
 		<p class="fn n"> 
-			<span class="family-name">賴</span><span class="given-name">賴</span> <span class="nickname">lrabbit</span>
+			<span class="family-name">賴</span><span class="given-name">韋辰</span> <span class="nickname">lrabbit</span>
 		</p>
 		<p>WWW: <a href="http://abev66.blogspot.com/" class="url ">http://abev66.blogspot.com/</a></p>
-		<p>E-mail: <a class="email" href="mailto:timdream@mail.moztw.org">abev66@mail.moztw.org</a>
+		<p>E-mail: <a class="email" href="mailto:abev66@mail.moztw.org">abev66@mail.moztw.org</a>
 		<p class="note">Thunderbird 正體中文在地化專案經理。</p>
 		<div class="vcard-additional-info">
 			<span class="org">Mozilla Taiwan</span>
@@ -147,11 +147,23 @@ Email:
 	<p>特別感謝：</p>
 	<div class="vcard">
 		<p class="fn n"> 
+			<span class="family-name">孫</span><span class="given-name">偉倫</span> <span class="nickname">Josesun</span>
+		</p>
+		
+		<p>E-mail: <span class="email">josesun 在 mail .moztw. org</span>
+		<p class="note">在地化經理二代目</p>
+		<div class="vcard-additional-info">
+			<span class="org">Mozilla Taiwan</span>
+			<span class="adr"><span class="country-name">Taiwan (R.O.C.)</span></span>
+		</div>
+	</div>
+	<div class="vcard">
+		<p class="fn n"> 
 			<span class="family-name">林</span><span class="given-name">弘德</span> <span class="nickname">Piaip</span>
 		</p>
 		<p>WWW: <a href="http://ntu.csie.org/~piaip/" class="url"> http://ntu.csie.org/~piaip/ </a></p>
 		<p>E-mail: <span class="email">piaip at csie dot ntu dot edu dot tw</span>
-		<p class="note">Mozilla Taiwan 創立者</p>
+		<p class="note">Mozilla Taiwan 創立者，元祖在地化經理</p>
 		<div class="vcard-additional-info">
 			<span class="org">Mozilla Taiwan</span>
 			<span class="adr"><span class="country-name">Taiwan (R.O.C.)</span></span>
