@@ -34,7 +34,7 @@ table {
                <h2 id="whatsnew">Firefox 3 新鮮事</h2>
 
 				<p>Firefox 3 以全新 Gecko 1.9 網頁佈局引擎構成。此引擎研發耗時 34 個月、修正了近兩百萬行程式碼，亦改善了超過 15000 個大小問題，為<a href="#performance">提升效能</a>、穩定度、正確性，重構了部份程式架構，因此 Firefox 3 <a href="#secure">更加安全</a>、<a href="#easy">更容易使用</a>、<a href="#personal">自訂更輕鬆</a>，同時提供許多給網頁及擴充套件開發員的<a href="#engine">內部修改</a>。</p>
-
+<dl>
 				<dt id="secure">更安全 
 			<dd><ul class="spaced"><li>網站安全資訊：點選位址列網站圖示即可查閱此網站的識別資訊，該網站的驗證資料會在點選後以輕鬆易懂的方式呈現。若該網站使用 SSL 延伸驗證（Extended Validation），則網站圖示鈕將轉以綠色顯示，並列出你連到的網站公司名稱。 (<a href="https://www.paypal.com/">按此測試！</a>) 
 			</li>
@@ -208,13 +208,13 @@ table {
       <h2 id="troubleshooting">疑難排解</h2>
       <ul class="spaced">
 
-        <li>設計不良或不相容的套件將導致瀏覽器發生問題，發生的問題包含當機或網頁瀏覽速度變慢等等。如果您碰上瀏覽器無法開啟、視窗顯示不正常等等狀況，便可能是擴充套件或佈景主題的問題。這時，請將瀏覽器重新啟動在安全模式：</li>
+        <li>設計不良或不相容的套件將導致瀏覽器發生問題，發生的問題包含當機或網頁瀏覽速度變慢等等。如果您碰上瀏覽器無法開啟、視窗顯示不正常等等狀況，便可能是擴充套件或佈景主題的問題。這時，請將瀏覽器重新啟動在安全模式：
         <ul><li>在 Windows 下用「Safe Mode」捷徑或在命令列中輸入 firefox.exe -safe-mode 指令。</li>
-        <li>在 Linux 下請執行./firefox -safe-mode 指令。</li>
+              <li>在 Linux 下請執行./firefox -safe-mode 指令。</li>
 
         <li>在 MacOS X 下請輸入
           <p> cd /Applications/Firefox.app/Contents/MacOS/<br>
-            ./firefox-bin -safe-mode </p></ul>
+            ./firefox-bin -safe-mode </p><li></ul>
 
           當啟動安全模式時，所有的附加元件將停用並使用預設的佈景主題。在安全模式下移除有問題的擴充套件/佈景主題，然後再正常的啟動瀏覽器。 
           </li>
@@ -281,10 +281,6 @@ table {
     <div id="side" class="right">
       <ul id="nav">
         <li><a href="/firefox/">回到 Firefox 首頁</a></li>
-      </ul>
-      
-      <ul id="nav">
-
         <li><a href="#downloadandinstall">下載與安裝</a></li>
 
         <li><a href="#requirements">系統需求</a></li>

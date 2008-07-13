@@ -36,12 +36,12 @@
     <h2><img name="partyicon" src="party_icon.png" alt="">Firefox Party 3.0 - 火狐三 之 橫掃全球創紀錄慶生派對</h2>
 
     <p>火狐三度來報到！隨著 Firefox 3 勢如破竹地在發表首日創下突破八百萬人下載的佳績，MozTW 當然也少不了要再來一次 Firefox Party！吃喝、分享、以及絕對不會忘記的大抽獎即將在 7/19 與大家再度見面。</p><p>有了上次超級大爆滿的經驗，這次將限制入場人數以求取更好的品質，所以快快前往報名吧，晚了就只好等 Firefox 4 囉！</p>
-    <div style="float: right; width:460px; margin-left: 10px; padding: 6px; border: 1px solid #ccc; background: #fff;"><iframe width="460" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.tw/maps/ms?hl=zh-TW&amp;ie=UTF8&amp;s=AARTsJoNT_yxonsCGzaGlNTQleHno6ksjA&amp;msa=0&amp;msid=109931952884685931086.000450a7508efa09f8df5&amp;ll=25.125295,121.469328&amp;spn=0.0068,0.009871&amp;z=16&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com.tw/maps/ms?hl=zh-TW&amp;ie=UTF8&amp;msa=0&amp;msid=109931952884685931086.000450a7508efa09f8df5&amp;ll=25.125295,121.469328&amp;spn=0.0068,0.009871&amp;z=16&amp;source=embed" style="color:#0000FF;text-align:left">檢視較大的地圖</a></small>
+    <div style="float: right; width:460px; margin-left: 10px; padding: 6px; border: 1px solid #ccc; background: #fff;"><iframe width="460" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.tw/maps/ms?hl=zh-TW&amp;ie=UTF8&amp;s=AARTsJoNT_yxonsCGzaGlNTQleHno6ksjA&amp;msa=0&amp;msid=109931952884685931086.000450a7508efa09f8df5&amp;ll=25.125295,121.469328&amp;spn=0.0068,0.009871&amp;z=16&amp;output=embed"></iframe><br><small><a href="http://maps.google.com.tw/maps/ms?hl=zh-TW&amp;ie=UTF8&amp;msa=0&amp;msid=109931952884685931086.000450a7508efa09f8df5&amp;ll=25.125295,121.469328&amp;spn=0.0068,0.009871&amp;z=16&amp;source=embed" style="color:#0000FF;text-align:left">檢視較大的地圖</a></small>
     </div>
     
     <h3>資訊</h3>
       <p>日期時間：2008 年 7 月 19 日 14:00 - 17:30 (13:30 開始入場)<a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox Party 3.0&amp;dates=20080719T060000Z/20080719T093000Z&amp;details=華碩電腦企業營運總部三樓咖啡廳13%3A30 開始入場&amp;location=台北市北投區立德路15號&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></p>
-      <p>地點：華碩電腦企業營運總部三樓咖啡廳<br/>
+      <p>地點：華碩電腦企業營運總部三樓咖啡廳<br>
         台北市北投區立德路15號 <a href="http://www.urmap.com/?link=Qhs10-0sd11s1T000W0E0101010W0Q0E0Q0s0-0s0W0a0YWE0W0T0W0W0Q0Q0W0W010Q000d0-0Q010s0YWa0W0a0T0-TRTE0a0shRT112ThgEfQW2gdf2Ydf11-fT0-TRTE0a0shRT112ThgEfh2QTTY1fhEEfTfEfhEEfR1EfQs10-0sd11s1T0Q0T0-0T000W0E0101010W0Q0E0Q0s0-0s0W0a0YWE0W0T0W0W0Q0Q0W0W010Q000d0-0Q010s0YWa0W0a0">(UrMap)</a> <a href="http://ehr.asus.com/directions.htm#a">(交通資訊)</a></p>
 
 	<p>費用：分攤價 150 元 (分攤餐點設備等費用)</p>
@@ -68,28 +68,28 @@
 				<li>Firefox 世界紀錄紀念貼紙</li>
 				<li>Firefox 徽章</li></ul></li>
 			<li>MozTW Party 貼紙特別版</li>
-			<li>抽獎獎項：</li><ul><li>Firefox Party T-shirt</li><li>MozTW 自由新生代 T-shirt</li><li>Firefox 自行車轉燈</li><li>MyDocument 公事包</li><li>陸續洽談中...</li></ul>
+			<li>抽獎獎項：<ul><li>Firefox Party T-shirt</li><li>MozTW 自由新生代 T-shirt</li><li>Firefox 自行車轉燈</li><li>MyDocument 公事包</li><li>陸續洽談中...</li></ul></li>
 			</ul>
-		<ul>
+
 	<h3>協助宣傳</h3>
 	<p>由 OOBE、Tobby 及 Indigo 協助製作的宣傳用網路小貼紙，歡迎使用：</p>
-	<form class="badgets">
+	<form class="badgets" action="">
 	<p>
 	<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/88x31.png" alt="Firefox Party 3.0"></a><br>
 	88x31<br>
-	<textarea onclick="this.select()">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/88x31.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
+	<textarea onclick="this.select()" rows="5" cols="30">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/88x31.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
 	<p>
 		<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/199x60.gif" alt="Firefox Party 3.0"></a><br>
 		199x60<br>
-		<textarea onclick="this.select()">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/199x60.gif&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
+		<textarea onclick="this.select()" rows="5" cols="30">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/199x60.gif&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
 		<p>
 			<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/210x90.png" alt="Firefox Party 3.0"></a><br>
 			210x90<br>
-			<textarea onclick="this.select()">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/210x90.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
+			<textarea onclick="this.select()" rows="5" cols="30">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/210x90.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
 			<p>
 				<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/468x60.png" alt="Firefox Party 3.0"></a><br>
 				468x60<br>
-				<textarea onclick="this.select()">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/468x60.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
+				<textarea onclick="this.select()" rows="5" cols="30">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/468x60.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
 	</form>
   </div>
   <div id="extension">

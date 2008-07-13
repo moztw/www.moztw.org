@@ -17,7 +17,7 @@
 	<div class="download">
 	    <h3>馬上下載</h3><!--#include virtual="/inc/dltb.html" -->
 	</div>
-    	<ul></li>
+    	<ul>
 	    <li><a href="system-requirements/index.shtml">系統需求</a></li>
 	    <li><a class="ancilliaryLink" href="/thunderbird/releases/">版本資訊</a></li>
    	  </ul>
