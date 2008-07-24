@@ -3,11 +3,7 @@
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <style type="text/css">
 <!--
-.front-feature { background: #E4EcEc url(/events/firefox3party/feature-firefox-3-party.png) bottom right no-repeat;}
-
-/*fx3party special*/
-.homepage .download {width: 180px; line-height: 120%; margin-bottom:0em;}
-
+.front-feature { background: #E4EcEc url(/images/feature-foxmosa-tour.png) bottom right no-repeat;}
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
@@ -15,8 +11,8 @@
 
 <div class="key-point front-feature" id="front-feature">
   <div id="feature-content">
-    <h2><a href="/events/firefox3party/"><img src="images/firefox3party-title.png" alt="Firefox Party 3.0: 狐迷同樂會" height="55" width="252"></a></h2>
-    <p><a href="/events/firefox3party/">Firefox Party 再現</a>，依然要你 High 翻天！</p>
+    <h2><a href="/events/foxmosa-tour/"><img src="images/foxmosa-tour-title.png" alt="火狐鬥陣遊台灣" height="57" width="294"></a></h2>
+    <p><a href="/events/foxmosa-tour/">帶著狐耳摩莎</a>，一同遊台灣！</p>
     <div class="download">
 		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 3 </strong></a></h3>
  		<div style='background: url(/images/product-firefox.png) no-repeat;'>
@@ -35,9 +31,9 @@
 
   </div>
 <div class="frontcolumn">
-    <h2><a href="/events/firefox3party">狐迷們！7/19 關渡見！</a></h2>
+    <h2><a href="/events/firefox3party">鬥陣遊台灣</a></h2>
     <a href="/events/firefox3party/"><img src="/events/firefox3party/foxmosa_icon.png" class="promo" alt=""></a>
-	<p>Firefox 3 慶祝活動正式開鑼，第三屆社群嚴選套件票選、Firefox Party 3.0、火狐鬥陣遊台灣遊台灣接連登場，快來看看 MozTW 這回又帶來什麼有趣、好玩、有吃又有拿的活動！</p>
+	<p>Firefox 3 慶祝系列活動：火狐鬥陣遊台灣與第三屆社群嚴選套件票選，熱烈進行中！</p>
   </div>
   <div class="frontcolumnlast">
 <h2 style="margin-top: 0pt;">

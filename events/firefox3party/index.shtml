@@ -32,7 +32,35 @@
     </div>
   </div>
   <div class="information">
-  <div id="party">
+
+  <div id="extension">
+    <h2><img src="extension_icon.png" alt="">第三屆附加元件票選</h2>
+	 <p>第三屆<a href="/firefox/extension_top_15/">社群嚴選附加元件</a>票選活動即將於 7/1 開始接受提名、7/22-8/12 投票。歡迎提名好用的套件，提供初學者更快上手的入門選擇！投票結果將於 <a href="http://addons.mozilla.org">addons.mozilla.org 正體中文區</a>同步推薦，並在 8/23 號舉辦的 <a href="http://coscup.org">COSCUP 2008</a> 上發表！</p>
+	 <p style="font-size: 2em;">票選已經開始了，你準備好了嗎？<a href="http://forum.moztw.org/viewtopic.php?t=23617">馬上去投票！</a></p>
+	 <ul><li><a href="http://forum.moztw.org/viewtopic.php?t=23044">主辦人 Timdream 的預告文</a></li><li><a href="http://forum.moztw.org/viewforum.php?f=44">票選提名討論區</a></li></ul>
+        <h3 id="share">Party 社群分享套件使用</h3>
+        <p>有什麼套件使用密技不吐不快嗎？除了在討論區提名擴充套件，分享使用經驗以外，在 Party 現場也有宣傳的機會！只要願意上台發表使用套
+件心得、密技等，<strong>Party 報名費是全免的喔</strong>！有興趣報名者，請到討論區丟私人訊息給主辦人 timdream，或寄信到螢幕上這個 email: timdream 在 mail 點 moztw.org。</p>
+
+	 <h3>我們需要你！</h3>
+	 <p><strong>套件中文說明：</strong>Firefox 3 的附加元件管理員內建了推薦套件功能，你是否跟我們一樣、對大部分套件說明都是英文感到遺憾？敦請四方大德協助，提供套件作者中文翻譯！<a href="http://forum.moztw.org/viewtopic.php?t=22585">進一步說明…</a></p>
+	 <p><strong>套件相容敦促升級：</strong>你最愛的附加元件是否還沒搭上 Firefox 3 特快車？我們提供了簡單的標準信，方便你向套件作者表達急切的渴望！ <a href="http://forum.moztw.org/viewtopic.php?p=127689">看看標準信</a></p>
+	 </div>
+  <div id="foxmosa">
+    <h2><img src="foxmosa_icon.png" alt="">火狐鬥陣遊台灣</h2>
+    <p>全台狐迷瘋狂慶祝 Firefox 3 上市，MozTW 的吉祥物狐耳摩莎要出遊啦！</p>
+<p>誠徵各縣市嚮導，由狐迷們帶領狐耳摩莎繞行台灣一圈，行經各縣市著名景點時記得攝影、錄影留念，各地狐迷身影將在《狐耳摩莎遊台灣 Foxmosa's tour around Taiwan》部落格上出現（即將推出）。這是個向全世界狐迷們宣傳台灣跟狐耳摩莎的大好機會，您可別錯過了！</p>
+<h3>如何參與？</h3>
+<p>嚮導的任務是，在負責縣市的火車站從上一個接待人處接下狐耳摩莎，然後一天內帶領狐耳摩莎市區觀光，到代表性或者特色景點，攝影跟拍照留念，最後讓狐耳摩莎夜宿一晚，隔天負責將它送到下一個站交給下位接待人。完成任務後，需要上傳相片原始檔，並且附上一篇遊記與圖說。</p>
+<h3>乖寶寶獎勵</h3>
+<p>嚮導們這麼辛苦，當然有所獎勵啦！完成任務的嚮導可以獲得以下獎品：</p>
+<ul><li>Foxmosa T-shirt 一件</li><li>Foxmosa 貼紙首刷限量版全套兩組</li></ul>
+<h3>美麗寶島獎</h3>
+<p>只要嚮導們能讓狐耳摩莎與有特色的景物，以相片方式一同入鏡，結束後將舉行美麗寶島獎相片票選。 狐耳摩莎遊台灣計劃團隊將開放討論區成員提名，再交由全員投票及核心成員評選出<strong>一名優勝者、獨得 Firefox 原版 T-shirt 及帽子各一件</strong>。</p>
+<h3>快去報名！</h3>
+<p>很簡單吧？想要加入狐耳摩莎嚮導團，帶領她遊歷您在地縣市嗎？快到<a href="http://registrano.com/events/foxmosa">報名網頁</a>查詢相關資訊吧！</p>
+  </div>
+    <div id="party">
     <h2><img name="partyicon" src="party_icon.png" alt="">Firefox Party 3.0 - 火狐三 之 橫掃全球創紀錄慶生派對</h2>
 
     <p>火狐三度來報到！隨著 Firefox 3 勢如破竹地在發表首日創下突破八百萬人下載的佳績，MozTW 當然也少不了要再來一次 Firefox Party！吃喝、分享、以及絕對不會忘記的大抽獎即將在 7/19 與大家再度見面。</p><p>有了上次超級大爆滿的經驗，這次將限制入場人數以求取更好的品質，所以快快前往報名吧，晚了就只好等 Firefox 4 囉！</p>
@@ -91,34 +119,6 @@
 				468x60<br>
 				<textarea onclick="this.select()" rows="5" cols="30">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/468x60.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
 	</form>
-  </div>
-  <div id="extension">
-    <h2><img src="extension_icon.png" alt="">第三屆附加元件票選</h2>
-	 <p>第三屆<a href="/firefox/extension_top_15/">社群嚴選附加元件</a>票選活動即將於 7/1 開始接受提名、7/19-8/9 投票。歡迎提名好用的套件，提供初學者更快上手的入門選擇！投票結果將於 <a href="http://addons.mozilla.org">addons.mozilla.org 正體中文區</a>同步推薦，並在 8/23 號舉辦的 <a href="http://coscup.org">COSCUP 2008</a> 上發表喔！</p>
-	 <p><a href="http://forum.moztw.org/viewtopic.php?t=23044">主辦人 Timdream 的預告文</a></p>
-
-<p><a href="http://forum.moztw.org/viewforum.php?f=44">票選提名討論區</a></p>
-        <h3 id="share">Party 社群分享套件使用</h3>
-        <p>有什麼套件使用密技不吐不快嗎？除了在討論區提名擴充套件，分享使用經驗以外，在 Party 現場也有宣傳的機會！只要願意上台發表使用套
-件心得、密技等，<strong>Party 報名費是全免的喔</strong>！有興趣報名者，請到討論區丟私人訊息給主辦人 timdream，或寄信到螢幕上這個 email: timdream 在 mail 點 moztw.org。</p>
-
-	 <h3>我們需要你！</h3>
-	 <p><strong>套件中文說明：</strong>Firefox 3 的附加元件管理員內建了推薦套件功能，你是否跟我們一樣、對大部分套件說明都是英文感到遺憾？敦請四方大德協助，提供套件作者中文翻譯！<a href="http://forum.moztw.org/viewtopic.php?t=22585">進一步說明…</a></p>
-	 <p><strong>套件相容敦促升級：</strong>你最愛的附加元件是否還沒搭上 Firefox 3 特快車？我們提供了簡單的標準信，方便你向套件作者表達急切的渴望！ <a href="http://forum.moztw.org/viewtopic.php?p=127689">看看標準信</a></p>
-	 </div>
-  <div id="foxmosa">
-    <h2><img src="foxmosa_icon.png" alt="">火狐鬥陣遊台灣</h2>
-    <p>全台狐迷瘋狂慶祝 Firefox 3 上市，MozTW 的吉祥物狐耳摩莎要出遊啦！</p>
-<p>誠徵各縣市嚮導，由狐迷們帶領狐耳摩莎繞行台灣一圈，行經各縣市著名景點時記得攝影、錄影留念，各地狐迷身影將在《狐耳摩莎遊台灣 Foxmosa's tour around Taiwan》部落格上出現（即將推出）。這是個向全世界狐迷們宣傳台灣跟狐耳摩莎的大好機會，您可別錯過了！</p>
-<h3>如何參與？</h3>
-<p>嚮導的任務是，在負責縣市的火車站從上一個接待人處接下狐耳摩莎，然後一天內帶領狐耳摩莎市區觀光，到代表性或者特色景點，攝影跟拍照留念，最後讓狐耳摩莎夜宿一晚，隔天負責將它送到下一個站交給下位接待人。完成任務後，需要上傳相片原始檔，並且附上一篇遊記與圖說。</p>
-<h3>乖寶寶獎勵</h3>
-<p>嚮導們這麼辛苦，當然有所獎勵啦！完成任務的嚮導可以獲得以下獎品：</p>
-<ul><li>Foxmosa T-shirt 一件</li><li>Foxmosa 貼紙首刷限量版全套兩組</li></ul>
-<h3>美麗寶島獎</h3>
-<p>只要嚮導們能讓狐耳摩莎與有特色的景物，以相片方式一同入鏡，結束後將舉行美麗寶島獎相片票選。 狐耳摩莎遊台灣計劃團隊將開放討論區成員提名，再交由全員投票及核心成員評選出<strong>一名優勝者、獨得 Firefox 原版 T-shirt 及帽子各一件</strong>。</p>
-<h3>快去報名！</h3>
-<p>很簡單吧？想要加入狐耳摩莎嚮導團，帶領她遊歷您在地縣市嗎？快到<a href="http://registrano.com/events/foxmosa">報名網頁</a>查詢相關資訊吧！</p>
   </div>
  </div>
     <br style="clear: both">
