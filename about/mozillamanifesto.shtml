@@ -3,6 +3,11 @@
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 <div>
+	<!--
+To Future Editors: Please submit any changes to Bugzilla so that the translation hosted on Mozilla.org can also be changed.
+Bugzilla bug: http://www.mozilla.org/about/manifesto.zh-tw.html
+Manifesto on Mozilla.org: http://www.mozilla.org/about/manifesto.zh-tw.html
+	-->
   <H2>Mozilla 宣言 (<A href="http://weblogs.mozillazine.org/mitchell/archives/2007/02/the_mozilla_manifesto_introduc.html">0.9   版</A>)</H2>
   <H3>引言 </H3>
   <p>網際網路在我們生命中的重要性日漸增加。 </p>
