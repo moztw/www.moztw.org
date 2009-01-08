@@ -21,8 +21,6 @@
 
 <div >
     <h1>Mozilla 系列與 Big5 中文字碼</h1>
-    <h3>前言</h3>
-    還在寫
     <h3> Big5 主要版本及字碼表</h3>
     下面列出目前主要常見的 Big5 版本，及 Mozilla Taiwan 所收集的字碼表。
     字碼表一律以 Big5 與 Unicode 的對應關係表示，每行的格式一律是 
@@ -82,7 +80,7 @@
 	    <a href='table/uao241-u2b.txt'> UAO 2.41 u2b </a></b> &nbsp;
 	(感謝 UAO / witchfive 提供)
 	</dd>
-	<dt>Mozilla 1.8 [測試中]</dt>
+	<dt>Mozilla 1.8</dt>
 	<dd>
 	為了解決 Big5 眾多版本的問題、獲得最大的可用性， 
 	Mozilla Taiwan 於 2005 年與 UAO 合作，重新整理的版本。
@@ -96,7 +94,10 @@
 	另外由於這樣的字碼表與其它有使用到造字區的外字集不相容 [如 HKSCS]，
 	所以下面另外提供 b2u-strict 是不使用 UAO 的標準 Big5-2003。
 	如果您的系統有另行支援 HKSCS, 可使用標準 b2u; 若您的系統無法分開處理
-	Big5-hkscs 與 Big5, 則請用 b2u-strict)
+	Big5-hkscs 與 Big5, 則請用 b2u-strict)<br/>
+	<b>此字碼表已於 2006 年 6 月 29 進入 Mozilla Respitory，Firefox 在 2 
+	之後的版本接使用此「非雙向」字碼表轉碼，以求最大相容性
+	(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=310299">bug 310299</a>)。</b>
 	<br/><b>字碼表: 
 	    <a href='table/moz18-b2u.txt'> Mozilla 1.8 b2u </a>&nbsp;
 	    <a href='table/moz18-u2b.txt'> Mozilla 1.8 u2b </a>&nbsp;
@@ -111,15 +112,19 @@
 	香港地區政府單位正式制定的專用字集。 雖說不相容 UAO，
 	但注意在香港地區也是有人直接用 UAO 而不用 HKSCS 的。
 	目前為止有 1999、2001、2004 三版。 許多字碼在三次版本中逐次移動，
-	從造字區移向 Unihan、最後移向 ext A/ext B (+U2XXXX 的都是)。
-	使用上請務必小心。
-	<br/><b>字碼表: 
+	從造字區(PUA; Private User Area)移向 Unihan、最後移向 ext A/ext B (U+2XXXX 的都是)。
+	使用上請務必小心。<br/>
+	Mozilla 應用程式因為 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=162431">bug 162431</a>，
+	無法完全遵守 2004 版將外字完全移至 extA/ext B 區，故截至目前(2009年初)使用的字碼表依然是 
+	<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=343129">bug 343129</a> 所折衷設計的 2001/2004 混合字碼表，
+	即將部份 HKSCS 外字集對應到 ext A，對應到 ext B 的部份則留在舊版所定義造字區碼位。
+	<br/><b>字碼表(舊版，新版請參考 bug 343129): 
 	    <a href='table/hkscs2001-b2u.txt'> Big5HKSCS-2001 b2u </a>&nbsp;
 	    <a href='table/hkscs2001-u2b.txt'> Big5HKSCS-2001 u2b </a></b>
 	    &nbsp;(來源: Mozilla source, last update by Anthony Fok)
 	<Br/><b>參考對照表:
 	    <a href='table/hkscs1999.txt'> Big5HKSCS-1999 </a> &nbsp;
-	    <a href='table/hkscs2001.txt'> Big5HKSCS-2001 </a> </b>
+	    <a href='table/hkscs2001.txt'> Big5HKSCS-2001 </a> &nbsp;
 	    <a href='table/hkscs2004.txt'> Big5HKSCS-2004 </a> </b>
 	</dd>
     </dl>
