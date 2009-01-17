@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Mozilla Firefox 3.0.5 版本資訊</title>
+<title>Mozilla Firefox 3.0.4 版本資訊</title>
 <style type="text/css">
 <!--
 td {
@@ -30,20 +30,25 @@ table {
       </div> 
       <!-- What's New -->
 
-               <h2 id="whatsnew">Firefox 3.0.5 新鮮事</h2>
+               <h2 id="whatsnew">Firefox 3.0.4 新鮮事</h2>
 
-				<p>Firefox 3.0.5 修正了許多在 Firefox 3.0.4 上發現的問題：</p>
+				<p>Firefox 3.0.4 修正了許多在 Firefox 3.0.3 上發現的問題：</p>
 
 				
                    <ul>
-      					<li>修正許多<a href="http://www.mozilla.org/security/known-vulnerabilities/firefox30.html#firefox3.0.5">安全性問題</a>以及穩定性問題。</li>
-      					<li>正式釋出<a href="http://www.mozilla.com/firefox/all.html#languages">孟加拉 (Bengali)、世界語 (Esperanto)、加利西亞 (Galician)、印地 (Hindi)、拉脫維亞 (Latvian)</a> 語言支援。</li>
-      					<li>Beta 釋出<a href="http://www.mozilla.com/firefox/all.html#beta_versions">保加利亞語 (Bulgarian)、、愛沙尼亞語 (Estonian)、拉脫維亞語 (Latvian)、奧西坦語 (Occitan)、威爾斯語 (Welsh)</a>語言支援以供測試。</li>
-      					<li>初次安裝時，以新的「關於你的權利」資訊列取代使用者授權合約 (End-User License Agreement)。</li>
-                <li>同時安裝多個已簽署的 XPI 時，前一個版本的 Firefox 會發生錯誤。</li>
-                <li>修正許多親和力實作的問題。</li>
-                <li>錯誤回報器現在能傳送作業系統特有訊息。</li>
-                <li>前一個版本的更新，請參考 <a href="/firefox/releases/3.0.4/">Firefox 3.0.4 新鮮事</a>。</li>
+      					<li>修正許多<a href="http://www.mozilla.org/security/known-vulnerabilities/firefox30.html#firefox3.0.4">安全性問題</a>以及穩定性問題。</li>
+      					<li>正式釋出<a href="http://www.mozilla.com/firefox/all.html#languages">冰島 (Icelandic)、泰語 (Thai)</a>語言支援。</li>
+      					<li>Beta 釋出<a href="http://www.mozilla.com/firefox/all.html#beta_versions">保加利亞 (Bulgarian)、世界語 (Esperanto)、愛沙尼亞 (Estonian)、拉脫維亞 (Latvian)、奧西坦 (Occitan)、威爾斯 (Welsh)</a> 語言支援以供測試。</li>
+      					<li>更新內建的<a href="http://publicsuffix.org/">公開字尾 (Public Suffix)</a> 列表。</li>
+      					<li>修正以 IME 輸入中文、韓文、日文和印度文時，被「加入書籤」面板覆蓋的問題。
+                    (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=433340">bug 433340</a>)</li>
+      					<li>啟用追加的延伸認證 (Extended Validation, EV) 根憑證。
+                    (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=451305">bug 451305</a>)</li>
+                <li>修正某些以 Firefox 3.0.2 儲存的密碼無效的問題。
+                    (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=457358">bug 457358</a>)</li>
+      					<li>有時候 Firefox 無法正常儲存非 HTTP 協定的代理伺服器 (Proxy) 設定。
+                    (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=446536">bug 446536</a>)</li>
+                <li>前一個版本的更新，請參考 <a href="/firefox/releases/3.0.3/">Firefox 3.0.3 新鮮事</a>。</li>
 
 			    </ul>
 			    <p>欲知 Firefox 3 的所有功能，請見 <a href="/firefox/">Firefox&nbsp;網頁</a>。</p>
@@ -104,19 +109,17 @@ table {
       <dd>
       <ul class="spaced">
         
-        <li>如果 Firefox 發生錯誤時 Flash 是開啟的，那麼錯誤回報器可能不會執行 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=422308">bug 422308</a>)。
-            這個問題已經在 Flash 10 中修復。</li>
+        <li>如果 Firefox 發生錯誤時 Flash 是開啟的，那麼錯誤回報器可能不會執行。 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=422308">bug 422308</a>)</li>
         <li>在「歷史收藏庫」中刪除一筆紀錄，然後使用「清除隱私資料」可能會導致 Firefox 發生錯誤。(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=426275">bug 426275</a>)</li>
 
         <li>一些透過不適用的安裝碼安裝的套件可能無法正確安裝。(詳情請見<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=406807">bug 406807</a>) </li>
         <li>「工具&gt;選項」中的「個人隱私&gt;歷史&gt;保存我的歷史最少…天」，輸入 "0" 沒有反應。(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=366075">bug 366075</a>) </li>
-        <li>某些網頁(像是 mlb.com)無法正確的偵測「Silverlight」是否被安裝，並且無法執行功能 ( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=432371">bug 432371 </a>)。這個問題已經在 Silverlight 2.0 beta 中修復。</li>
+        <li>某些網頁(像是 mlb.com)無法正確的偵測「Silverlight」是否被安裝，並且無法執行功能。( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=432371">bug 432371 </a>)。這個問題已經在 Silverlight 2.0 beta 中修復。</li>
         
-		    <li>DOM 觀查器已被移除，以額外的<a href="https://addons.mozilla.org/zh-TW/firefox/addon/6622">擴充套件</a>形式提供。</li>
-		    <li>Cross-Site XmlHttpRequest 支援暫時被移除。等到其規格更穩定、安全模組改進之後才會再加入。(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=424923">bug 424923</a>)</li>
-		    <li>當離開「你想要Firefox記住這個密碼嗎?」的提示後，有時候會出現除非重新載入頁面，不然會無法點擊表單的情形。(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=433942">bug 433942</a>)</li>
-		    <li>當使用 Window-Eyes 時，新的網址列、加入書籤對話框與下載管理員通知的訊息不一致，請使用 JAWS 8.0 或其他螢幕閱讀程式來測試 Firefox 3 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=393398">bug 393398</a>)。
-            這個問題已經在新版的 Window-Eyes 中修復。</li>
+		<li>DOM 觀查器已被移除，以額外的<a href="https://addons.mozilla.org/zh-TW/firefox/addon/6622">擴充套件</a>形式提供。</li>
+		<li>Cross-Site XmlHttpRequest 支援暫時被移除。等到其規格更穩定、安全模組改進之後才會再加入。(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=424923">bug 424923</a>)</li>
+		<li>當離開「你想要Firefox記住這個密碼嗎?」的提示後，有時候會出現除非重新載入頁面，不然會無法點擊表單的情形。(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=433942">bug 433942</a>)</li>
+		<li>當使用 Window-Eyes 時，新的網址列、加入書籤對話框與下載管理員通知的訊息不一致，請使用 JAWS 8.0 或其他螢幕閱讀程式來測試 Firefox 3。(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=393398">bug 393398</a>)</li>
       </ul>
       </dd>
       <dt id="vista">Windows 及 Windows Vista</dt>
@@ -146,8 +149,7 @@ table {
           <li>Ubuntu 7.10 的使用者需要更新認證才能送出當機報告 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=407748#c4">bug 407748</a>) </li>
           <li>多功能滑鼠中，控制上、下頁的按鍵必須重新設定  (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=420294">bug 420294</a>)</li>
           <li> NVIDIA 驅動程式與某些版本的 X server 的不相容可能會導致灰階圖片顯示不正確。 ( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=411831">bug 411831 </a>) </li>
-          <li>Orca 螢幕朗讀軟體無法閱讀某些文字，像是儲存密碼的通告、網頁個人隱私資料、或者是搜尋欄中預設的文字－這三點是 Orca 已知的問題 (詳情請見<a href="http://bugzilla.gnome.org/show_bug.cgi?id=533109">Gnome bug 533109 </a> 以及 <a href="http://bugzilla.gnome.org/show_bug.cgi?id=533125">533125 </a>)
-              這個問題已經在新版的 Orca 中修復。</li>
+          <li>Orca 螢幕朗讀軟體無法閱讀某些文字，像是儲存密碼的通告、網頁個人隱私資料、或者是搜尋欄中預設的文字－這三點是 Orca 已知的問題 (詳情請見<a href="http://bugzilla.gnome.org/show_bug.cgi?id=533109">Gnome bug 533109 </a> 以及<a href="http://bugzilla.gnome.org/show_bug.cgi?id=533125">533125 </a>) </li>
           
 		
 		</ul></dl>
@@ -193,8 +195,8 @@ table {
         <li>
 
           Firefox 3 的原始碼在何處？
-          <p>Firefox 3.0.5 原始碼已<a href=
-             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0.5/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
+          <p>Firefox 3.0.4 原始碼已<a href=
+             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0.4/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
              "http://developer.mozilla.org/en/docs/Mozilla_Source_Code_Via_CVS">以 CVS 取得</a>。Firefox 相關程式為「mozilla/browser」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href=
              "http://developer.mozilla.org/en/docs/Build_Documentation">建製步驟</a>。</p>
         </li>
@@ -212,7 +214,7 @@ table {
 
          
       <p>其他尚未被官方 Firefox 3 驗證通過的本地化版本可以在
-         <a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0.5/contrib/">官方站台</a>取得。</p>      <h2 id="links">其他資源和連結</h2>  
+         <a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0.4/contrib/">官方站台</a>取得。</p>      <h2 id="links">其他資源和連結</h2>  
       <p>下面提供了幾個有用的連結：</p>
 
 		<ul class="spaced"> 
