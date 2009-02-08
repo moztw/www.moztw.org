@@ -160,7 +160,7 @@ table {
 
         <li>在 MacOS X 下請輸入
           <p> cd /Applications/Firefox.app/Contents/MacOS/<br>
-            ./firefox-bin -safe-mode </p></ul>
+            ./firefox-bin -safe-mode </p>
 
           當啟動安全模式時，所有的附加元件將停用並使用預設的佈景主題。在安全模式下移除有問題的擴充套件/佈景主題，然後再正常的啟動瀏覽器。 
           </li>
