@@ -12,12 +12,14 @@ height: 95px; float: none;
 </style>
 <script type="text/javascript">
 var download = function () {
-	//Due to security bar of IE6+, we do not initate download on it.
+	//Due to security bar of IE6+, we do not initiate download on it.
 	if (navigator.appVersion.indexOf('MSIE') === -1) {
 		location.href = document.getElementById("download-url").href;
-		document.getElementById("wait-a-sec").style.display = 'block';
-		document.getElementById("click-to-download").style.display = 'none';
 	}
+	/* Still show wait-a-sec in IE because the user might already initiate download from the popup previously started */
+	document.getElementById("wait-a-sec").style.display = 'block';
+	/* click-to-download is reserved for non-javascript users */
+	document.getElementById("click-to-download").style.display = 'none';
 }
 if ( navigator.appVersion.indexOf('Safari') !== -1 ) {
 	window.setTimeout(download, 2500);

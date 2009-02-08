@@ -12,7 +12,7 @@ height: 95px; float: none;
 </style>
 <script type="text/javascript">
 var download = function () {
-	//Due to security bar of IE6+, we do not initate download on it.
+	//Due to security bar of IE6+, we do not initiate download on it.
 	if (navigator.appVersion.indexOf('MSIE') === -1) {
 		location.href = document.getElementById("download-url").href;
 		document.getElementById("wait-a-sec").style.display = 'block';
