@@ -1,0 +1,76 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>下載 Mozilla Firefox 中文版 - Mozilla Taiwan, MozTW.org</title>
+<style type="text/css">
+#wait-a-sec {
+	display: none;
+}
+#ffcentral-desc {
+background: url("t-firefoxdownload.png") no-repeat;
+height: 95px; float: none;
+}
+
+</style>
+<script type="text/javascript">
+var download = function () {
+	//Due to security bar of IE6+, we do not initate download on it.
+	if (navigator.appVersion.indexOf('MSIE') === -1) {
+		location.href = document.getElementById("download-url").href;
+		document.getElementById("wait-a-sec").style.display = 'block';
+		document.getElementById("click-to-download").style.display = 'none';
+	}
+}
+if ( navigator.appVersion.indexOf('Safari') !== -1 ) {
+	window.setTimeout(download, 2500);
+} else {
+	window.onload = download;
+}
+
+</script>
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/inc/header.html" -->
+<div class="key-point" id="ffcentral">
+	<div id="ffcentral-desc">
+		<div>
+			<!--<h2>感謝您選擇 <span lang="en-US">Firefox</span>！</h2>-->
+			<p id="wait-a-sec">下載即將在幾秒內開始，如果沒有請按<a id="download-url" href="<!--#include virtual="downloadurl.txt" -->&amp;os=linux">這裡</a>。</p>
+			<p id="click-to-download">請按<a href="<!--#include virtual="downloadurl.txt" -->&amp;os=linux">這裡</a>開始您的下載。</p>
+		</div>
+	</div>
+  </div>
+
+<div id="mainContent" class="right">
+	<h3>接下來您可以...</h3>
+	<h4>尋求中文社群支援、協助</h4>
+	<ul>
+	<li><a href="http://wiki.moztw.org/index.php?title=FAQ:Firefox">常見問題解答</a></li>
+	<li><a href="/firefox/extension_top_15/">社群嚴選：年度最佳擴充套件</a></li>
+	<li><a href="http://wiki.moztw.org/index.php?title=FireAnything">某瀏覽器功能，Firefox 有沒有？</a></li>
+	<li><a href="/dl/search">新增中文搜尋引擎</a></li>
+	<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區</a></li>
+	</ul>
+	<h4>其他資源與鏈結</h4>
+	<ul>
+	<li><a href="http://addons.moztw.org">取得擴充套件及佈景主題</a></li>
+	<li><a href="http://support.mozilla.com/en-US/kb/?locale=zh-TW">Firefox 支援中心</a></li>
+	</ul>
+	<h4>和我們一起推廣 <span lang="en-US">Firefox</span>！</h4>
+	<ul>
+	<li><a href="/events/foxmosa-tour/">和 Foxmosa，我們的吉祥物，一起環遊台灣！</a></li>
+	<!--<li><a href="http://gfx.tw/">建立屬於您的火狐推廣網頁！</a></li>-->
+	<li><a href="http://www.spreadfirefox.com/">推廣 Firefox!(英)</a></li>
+	</ul>
+</div>
+<div id="side" class="right">
+<h3>Firefox 3 相關介紹</h3>
+	<ul class="compact">
+	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/security/">安全性</a> *</li>
+	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/customize/">自訂能力</a> *</li>
+	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/organic/">100% 純天然有機軟體</a> *</li>
+	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/tips/">使用技巧</a> *</li>
+	<li><a href="../buttons/">取得推廣小貼紙</a></li>
+	</ul>
+<p>* 連結至 Mozilla 網站</p>
+<h3>協助改善</h3>
+<p>本下載頁面實驗中，有任何建議歡迎<a href="http://forum.moztw.org/viewtopic.php?p=142359#142359">協助我們改善</a>。</p>
+</div>
+<!--#include virtual="/inc/footer.html" -->

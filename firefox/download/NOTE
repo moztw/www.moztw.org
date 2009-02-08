@@ -1,0 +1,11 @@
+NOTE:
+downloadurl.txt should be a single line of url WITHOUT trailing line break,
+which means you should NOT edit it with {vim}.
+
+A safe thing to do is to use {echo -n}, e.g.,
+
+ $ echo -n http://download.mozilla.org/?product=firefox-3.0.6\&amp;lang=zh-TW > downloadurl.txt
+
+then there will be no line breaks in the file.
+ 
+
