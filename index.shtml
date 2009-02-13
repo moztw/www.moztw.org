@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <style type="text/css">
 <!--
-.front-feature { background: #E4EcEc url(/images/feature-foxmosa-tour.png) bottom right no-repeat;}
+.front-feature { background: #E4EcEc url(/images/feature-foxmosa-vdaycard.png) bottom top no-repeat;}
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
@@ -11,8 +11,8 @@
 
 <div class="key-point front-feature" id="front-feature">
   <div id="feature-content">
-    <h2><a href="/events/foxmosa-tour/"><img src="images/foxmosa-tour-title.png" alt="火狐鬥陣遊台灣" height="57" width="294"></a></h2>
-    <p><a href="/events/foxmosa-tour/">帶著狐耳摩莎</a>，一同遊台灣！</p>
+    <h2><a href="/events/vday2009/index.html"><img src="images/vday2009banner.png" alt="寄卡片吧！" height="55" width="450"></a></h2>
+    <p><a href="/events/vday2009/index.html">讓狐耳摩莎為您傳情</a>，每日五百張電子賀卡限量發送中！</p>
     <div class="download">
 		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 3 </strong></a></h3>
  		<div style='background: url(/images/product-firefox.png) no-repeat;'>
