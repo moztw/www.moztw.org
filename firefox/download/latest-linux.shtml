@@ -42,32 +42,32 @@ if ( navigator.appVersion.indexOf('Safari') !== -1 ) {
 	<h3>接下來您可以...</h3>
 	<h4>尋求中文社群支援、協助</h4>
 	<ul>
-	<li><a href="http://wiki.moztw.org/index.php?title=FAQ:Firefox">常見問題解答</a></li>
-	<li><a href="/firefox/extension_top_15/">社群嚴選：年度最佳擴充套件</a></li>
-	<li><a href="http://wiki.moztw.org/index.php?title=FireAnything">某瀏覽器功能，Firefox 有沒有？</a></li>
-	<li><a href="/dl/search">新增中文搜尋引擎</a></li>
-	<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區</a></li>
+	<li><a href="http://wiki.moztw.org/index.php?title=FAQ:Firefox" onClick="urchinTracker('/landingpage_trace/faq');">常見問題解答</a></li>
+	<li><a href="/firefox/extension_top_15/" onClick="urchinTracker('/landingpage_trace/ext_top_15');">社群嚴選：年度最佳擴充套件</a></li>
+	<li><a href="http://wiki.moztw.org/index.php?title=FireAnything" onClick="urchinTracker('/landingpage_trace/fireanything');">某瀏覽器功能，Firefox 有沒有？</a></li>
+	<li><a href="/dl/search" onClick="urchinTracker('/landingpage_trace/searchengine');">新增中文搜尋引擎</a></li>
+	<li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="urchinTracker('/landingpage_trace/forum');">Firefox 討論區</a></li>
 	</ul>
 	<h4>其他資源與鏈結</h4>
 	<ul>
-	<li><a href="http://addons.moztw.org">取得擴充套件及佈景主題</a></li>
-	<li><a href="http://support.mozilla.com/en-US/kb/?locale=zh-TW">Firefox 支援中心</a></li>
+	<li><a href="http://addons.moztw.org/"  onClick="urchinTracker('/landingpage_trace/amo');">取得擴充套件及佈景主題</a></li>
+	<li><a href="http://support.mozilla.com/en-US/kb/?locale=zh-TW" onClick="urchinTracker('/landingpage_trace/sumo');">Firefox 支援中心</a></li>
 	</ul>
 	<h4>和我們一起推廣 <span lang="en-US">Firefox</span>！</h4>
 	<ul>
-	<li><a href="/events/foxmosa-tour/">和 Foxmosa，我們的吉祥物，一起環遊台灣！</a></li>
+	<li><a href="/events/foxmosa-tour/" onClick="urchinTracker('/landingpage_trace/foxmosa_tour');">和 Foxmosa，我們的吉祥物，一起環遊台灣！</a></li>
 	<!--<li><a href="http://gfx.tw/">建立屬於您的火狐推廣網頁！</a></li>-->
-	<li><a href="http://www.spreadfirefox.com/">推廣 Firefox!(英)</a></li>
+	<li><a href="http://www.spreadfirefox.com/" onClick="urchinTracker('/landingpage_trace/spreadfirefox');">推廣 Firefox!(英)</a></li>
 	</ul>
 </div>
 <div id="side" class="right">
 <h3>Firefox 3 相關介紹</h3>
 	<ul class="compact">
-	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/security/">安全性</a> *</li>
-	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/customize/">自訂能力</a> *</li>
-	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/organic/">100% 純天然有機軟體</a> *</li>
-	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/tips/">使用技巧</a> *</li>
-	<li><a href="../buttons/">取得推廣小貼紙</a></li>
+	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/security/" onClick="urchinTracker('/landingpage_trace/mozilla');">安全性</a> *</li>
+	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/customize/" onClick="urchinTracker('/landingpage_trace/mozilla');">自訂能力</a> *</li>
+	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/organic/" onClick="urchinTracker('/landingpage_trace/mozilla');">100% 純天然有機軟體</a> *</li>
+	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/tips/" onClick="urchinTracker('/landingpage_trace/mozilla');">使用技巧</a> *</li>
+	<li><a href="../buttons/" onClick="urchinTracker('/landingpage_trace/buttons');">取得推廣小貼紙</a></li>
 	</ul>
 <p>* 連結至 Mozilla 網站</p>
 <h3>協助改善</h3>
