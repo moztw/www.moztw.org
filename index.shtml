@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <style type="text/css">
 <!--
-.front-feature { background: #E4EcEc url(/images/feature-foxmosa-vdaycard.png) bottom top no-repeat;}
+.front-feature { background: #E4EcEc url(/images/feature-foxmosa-vdaycard.png) right top no-repeat;}
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
