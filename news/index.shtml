@@ -7,6 +7,8 @@
 <!--#include virtual="/inc/news.html" -->
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+<li><div class="date"> 12 月 16</div>
+  MozTW 主機將於 12 月 18 日(星期四) 9:30 AM 短暫停機，若需下載各項軟體請至 <a href="http://www.mozilla.com/">Mozilla Corp.</a> 首頁。
 <li><div class="date"> 7 月 24</div>
   第三屆社群嚴選擴充套件票選活動已經開始了，快來<a href="http://forum.moztw.org/viewtopic.php?t=23623">將你的最愛推給全世界！</a></li>
 <li><div class="date"> 7 月 24</div>
