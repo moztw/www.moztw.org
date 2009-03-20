@@ -19,7 +19,7 @@
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-<script type="application/x-javascript">
+<script type="text/javascript">
 var dupArray=[
 	['gTranslate', 'gTranslate 中文修改版'],
 	['DownThemAll!', 'DownThemAll! 正體中文修改版']
@@ -54,11 +54,12 @@ function doInstall(){
   try {
     InstallTrigger.install(installObj);
   } catch (e) {
-	window.alert('無法安裝，您敝需要使用 Firefox 或其他 Gecko 系列瀏覽器。');
+	window.alert('無法安裝，您需要使用 Firefox 或其他 Gecko 系列瀏覽器。');
   }
 }
 
 function hidden_descript(obj) {
+	/* Won't work in IE */
    var i, a;
    for(i=0; (a = document.getElementsByTagName('link')[i]); i++) {
      if(a.getAttribute("rel").indexOf("style") != -1
