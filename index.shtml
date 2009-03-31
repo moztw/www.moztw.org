@@ -3,7 +3,78 @@
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <style type="text/css">
 <!--
-.front-feature { background: #E4EcEc url(/images/feature-foxmosa-vdaycard.png) right top no-repeat;}
+
+#header h1 a {
+	background:transparent url(/events/ie8/header_moztwsoft_taiwan.png) no-repeat scroll 0 0!important;
+}
+
+.front-feature {
+	background: #2773BB url('/events/ie8/ie8bg.png')  left bottom no-repeat;
+}
+
+#front-feature #feature-content {
+	margin: 46px 0 6px 0;
+	padding: 0 10px 0 380px;
+	height: 249px;
+}
+
+#feature-content h2 {
+	margin: 0;
+}
+
+#feature-content p {
+	color: #B4D0EB;
+}
+
+#feature-content a {
+	color: #FED336;
+	text-decoration: none;
+}
+
+#feature-content a:hover {
+	text-decoration: underline;
+	background: transparent;
+}
+
+
+/* Style to put download block into frontcolumn */
+.frontcolumn .download:before {
+	content: url("/images/download_tl_content.gif");
+}
+.frontcolumn .download {
+	width: auto;
+	background: #C4EFA1 url("/images/download_back_content.gif") top right no-repeat;
+}
+.frontcolumn .download:after {
+	content:  url("/images/download_bl_content.gif");
+	background: transparent url("/images/download_br_content.gif") scroll no-repeat bottom right ;
+}
+
+.frontcolumn .download ul {
+	padding-left:80px;
+}
+
+#front-feature div.ie8parody {
+	padding: 0;
+	height: 120px;
+	margin-left: 40px;
+}
+
+#ie8experiencebutton {
+	margin: 1.5em auto 1.2em auto;
+}
+
+#ie8experiencebutton a {
+	display: block;
+	width: 93px; height: 24px;
+	background: #FED336 url(/events/ie8/ie8experiencebutton.png) top left no-repeat;
+	color: #000000;
+	text-indent: -10000px;
+}
+#ie8experiencebutton a:hover {
+	background: #FED336 url(/events/ie8/ie8experiencebutton.png) top left no-repeat;
+}
+
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
@@ -11,29 +82,30 @@
 
 <div class="key-point front-feature" id="front-feature">
   <div id="feature-content">
-    <h2><a href="/events/vday2009/"><img src="images/vday2009banner.png" alt="寄卡片吧！" height="55" width="450"></a></h2>
-    <p><a href="/events/vday2009/">讓狐耳摩莎為您傳情</a>，每日五百張電子賀卡限量發送中！</p>
-    <div class="download">
-		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 3 </strong></a></h3>
- 		<div style='background: url(/images/product-download-firefox.png) no-repeat;'>
-		<!--#include virtual="/inc/dlff.html" -->
-	</div>
+    <h2><a href="/events/ie8/"><img src="/events/ie8/ie8banner.png" alt="立刻體驗 Internet Explorer 8 最新功能" height="55" width="450" /></a></h2>
+	<div class="ie8parody">
+		<p>立即體驗 Internet Explorer 8！</p>
+		<p id="ie8experiencebutton"><a href="/events/ie8/">立即體驗</a></p>
+		<p><a href="/events/ie8/">所有的作業系統和語言</a> | <a href="/events/ie8/">觀賞導覽</a></p>
 	</div>
   </div>
 </div>
 
 <div id="mBody">
+<div class="frontcolumn">
+     <h2><a href="/firefox/">下載 Firefox 3</a></h2>
+    <div class="download">
+ 		<div style='background: url(/images/product-download-firefox.png) no-repeat;'>
+		<!--#include virtual="/inc/dlff.html" -->
+		</div>
+	</div>
+  </div>
   <div class="frontcolumn">
       <h2><a href="/thunderbird/">Thunderbird</a></h2>
       <a href="/thunderbird/"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
 	<p>輕巧方便的 <a href="/thunderbird/">Thunderbird</a>
 	電子郵件軟體再度加強郵件管理及安全等諸多功能，讓您享受資訊盡握手中的快感！</p>
 
-  </div>
-<div class="frontcolumn">
-    <h2><a href="/events/foxmosa-tour/">鬥陣遊台灣</a></h2>
-    <a href="/events/foxmosa-tour/"><img src="/events/firefox3party/foxmosa_icon.png" class="promo" alt=""></a>
-	<p>Firefox 3 慶祝系列活動：火狐鬥陣遊台灣與第三屆社群嚴選套件票選，熱烈進行中！</p>
   </div>
   <div class="frontcolumnlast">
 <h2 style="margin-top: 0pt;">
