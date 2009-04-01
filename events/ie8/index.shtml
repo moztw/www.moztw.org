@@ -89,7 +89,7 @@ ul#tab-menu {
 	margin: 0; padding: 0;
 	list-style: none;
 	height: 100px; overflow: visible;
-	width: 580px;
+	width: 620px;
 }
 ul#tab-menu li {
 	float: left; 
