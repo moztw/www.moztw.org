@@ -167,9 +167,8 @@ ul#tab-menu li a img {
 	</div>
 	<div id="webslices" class="tab-block">
 		<h3>使用網頁快訊隨時掌控最重要的資訊</h3>
-		<p><img src="fig-webslices.png" alt="網頁快訊" class="fig" />只要新增網頁快訊，您可以不必一再地回到相同網站，即可取得新聞、股票報價、線上拍賣、天氣預報，甚至比賽分數的更新資訊。
-利用 <a href="https://addons.mozilla.org/zh-TW/firefox/addon/8494">WebChunks</a> 的「網頁快訊」功能，在「書籤工具列」下方顯示您所關心的最新資訊。使用 WebChunks，<strong>您甚至不必等網站服務商提供網頁快訊，可以自行「切」出想看的內容</strong>！</p>
-		<p><small>本功能仍屬測試中，歡迎協助測試回報問題。</small></p>
+		<p><img src="fig-webslices.png" alt="網頁快訊" class="fig" />只要新增網頁快訊，您可以不必一再地回到相同網站，即可取得新聞、股票報價、線上拍賣、天氣預報，甚至比賽分數的更新資訊。<p><p>利用 <a href="https://addons.mozilla.org/zh-TW/firefox/addon/8494">WebChunks</a> 的「網頁快訊」功能，在「書籤工具列」下方顯示您所關心的最新資訊。使用 WebChunks，<strong>您甚至不必等網站服務商提供網頁快訊，可以自行「切」出想看的內容</strong>！</p>
+		<p><small>本套件仍屬測試版，歡迎協助測試回報問題。</small></p>
 	</div>
 	<div id="smartscreen" class="tab-block">
 		<h3>阻擋壞網站，保全您的網路體驗</h3>
@@ -178,26 +177,26 @@ ul#tab-menu li a img {
 	</div>
 	<div id="speed" class="tab-block">
 		<h3>速度快</h3>
-		<p><img src="fig-speed.png" alt="速度快" class="fig" />是的！<strong>只要不開</strong>啟如網路地圖、文件、撲浪等有趣活潑的 Web 2.0 網站，Internet Explorer 8 顯示網頁的速度<a href="http://www.microsoft.com/windows/internet-explorer/videos.aspx?mname=IE8_Perf_Test2">跟其他瀏覽器都差不多快</a> —— 甚至在某些網站比 Firefox 快 <em>0.02</em> 秒！即使將目前網站必備的「JavaScript」執行速度也列入考量，根據 <a href="http://taiwan.cnet.com/crave/0,2000088746,20136427,00.htm">CNET</a> 的測試 (縱軸為時間，越短越快)、在五大瀏覽器中 IE8 仍有第五名的優秀表現。多花 Firefox 3 的 30% 時間，您一樣可以享受豐富的網路體驗。</p><p><small>mindfield 是 Firefox 3.5 的開發中版本</small></p>
+		<p><img src="fig-speed.png" alt="速度快" class="fig" />有人說<strong>只要不開</strong>啟如網路地圖、Google 文件、撲浪等有趣活潑的 Web 2.0 網站，Internet Explorer 8 顯示網頁的速度跟其他瀏覽器<a href="http://www.microsoft.com/windows/internet-explorer/videos.aspx?mname=IE8_Perf_Test2">都差不多快</a> —— 甚至開啟 Google 首頁時比 Firefox 快 <em>0.02</em> 秒！</p><p>即使將目前許多網站必備的「JavaScript」執行速度也列入考量，根據 <a href="http://taiwan.cnet.com/crave/0,2000088746,20136427,00.htm">CNET</a> 的測試 (縱軸為時間，越短越快)、在五大瀏覽器中，IE8 仍維持第五名的佳績（同時 Firefox 3.5 開發中版本「Mindfield」則緊追 Safari 不放）。如果不介意多花一些時間等待，您一樣可以享受豐富的網路體驗。</p>
 	</div>
 </div>
 <div id="side" class="right">
 <h3>宣傳</h3>
-	<p><a href="http://stickeraction.com/ie8infx/go" title="體驗 IE8 最新功能"><img src="http://stickeraction.com/ie8infx/sticker" alt="體驗 IE8 最新功能" /></a></p>
+	<p><a href="http://stickeraction.com/ie8infx" title="體驗 IE8 最新功能"><img src="http://stickeraction.com/ie8infx/sticker/2" alt="取得「體驗 IE8」貼紙" /></a></p>
 	<p>喜歡 IE8 最新功能嗎？<a href="http://stickeraction.com/ie8infx">在部落格秀出你的愛</a>！</p>
 <h3>立刻體驗IE8最新功能，這啥鬼？！</h3>
-	<p>愚人節快樂！為了歡慶台灣微軟推出 IE8 <del title="據說沒這回事？我們被騙了 XD">記者會</del>，MozTW 特別推出 IE8 新功能體驗網頁，
-讓您立即體驗 IE8 的最新功能 ——好吧，大部份你老早就用過了，因為你用 Firefox 嘛。(笑)</p>
-	<p>IE8 新增加速器、網頁快訊等功能，您只要輕鬆發揮 Firefox 的爆炸強自訂功能、
-安裝擴充套件就可以馬上體驗一下；如果您還沒試過 Firefox，何不<a href="http://moztw.org/firefox/">立即下載</a>？如果您非 IE 不用，也請<a  href="http://blog.libraene.com/2008/04/02/426">救救網頁設計師，試試 IE8</a> 吧！ (如果您使用 KKMAN 或 PCman，升級 IE8 不會影響原本程式的運作，反而會增加網頁顯示效能喔！)</p>
+	<p>愚人節快樂！XD</p><p>為了與微軟一同歡慶 Internet Explorer 8 上市，MozTW 特別推出 IE8 新功能體驗網頁，讓您立即體驗 IE8 的超強最新功能 —— 嗯… 說不定這些功能你老早就用過了，因為你向來都用 Firefox 嘛（笑）</p>
+	<p>IE8 新增加速器、網頁快訊等功能，您只要輕鬆發揮 Firefox 爆炸強的自訂功能，安裝擴充套
+件，就可以馬上體驗！如果您還沒試過 Firefox，何不<a href="http://moztw.org/firefox/">立即下載</a>？</p><p>
+<p>如果您非 IE 不用，也請<a href="http://blog.libraene.com/2008/04/02/426">救救陷入 IE6 深淵而水深火熱的網頁設計師</a>，試試 IE8 吧！（如果您使用 KKMAN 或 PCman 上網，升級 IE8 不但不會影響您的上網狀況，還會提昇開啟網頁的效能喔！）</p>
 <h3>活動資訊</h3>
 	<ul>
 		<li>概念：BobChao、timdream</li>
 		<li>美術：Irvin</li>
 		<li>版面：timdream</li>
 		<li>協力：Alica、Alicekey、Aminzai、lobstershia、wini</li>
-		<li>文案：所有人</li>
-		<li>特別感謝：微軟 IE8 (汗…)</li>
+		<li>文案：John Smith &amp; Jane Smith</li>
+		<li>特別感謝：<a href="http://www.microsoft.com/taiwan/windows/internet-explorer/default.aspx">微軟 IE8</a> (汗…)</li>
 	<ul>
 </div>
 <script src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
