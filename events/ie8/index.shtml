@@ -178,7 +178,7 @@ ul#tab-menu li a img {
 	</div>
 	<div id="speed" class="tab-block">
 		<h3>速度快</h3>
-		<p><img src="fig-speed.png" alt="速度快" class="fig" />是的！<strong>只要不開</strong>啟如網路地圖、文件、撲浪等有趣活潑的 Web 2.0 網站，Internet Explorer 8 顯示網頁的速度<a href="http://www.microsoft.com/windows/internet-explorer/videos.aspx?mname=IE8_Perf_Test2">跟其他瀏覽器都差不多快</a> —— 甚至在某些網站比 Firefox 快 <em>0.02</em> 秒！即使將目前網站必備的「JavaScript」執行速度也列入考量，根據 <a href="http://taiwan.cnet.com/crave/0,2000088746,20136427,00.htm">CNET</a> 的測試 (縱軸為時間，越短越快)、在五大瀏覽器中 IE8 仍有第五名的優秀表現。多花 Firefox 3 的 30% 時間，您一樣可以享受豐富的網路體驗。</p>
+		<p><img src="fig-speed.png" alt="速度快" class="fig" />是的！<strong>只要不開</strong>啟如網路地圖、文件、撲浪等有趣活潑的 Web 2.0 網站，Internet Explorer 8 顯示網頁的速度<a href="http://www.microsoft.com/windows/internet-explorer/videos.aspx?mname=IE8_Perf_Test2">跟其他瀏覽器都差不多快</a> —— 甚至在某些網站比 Firefox 快 <em>0.02</em> 秒！即使將目前網站必備的「JavaScript」執行速度也列入考量，根據 <a href="http://taiwan.cnet.com/crave/0,2000088746,20136427,00.htm">CNET</a> 的測試 (縱軸為時間，越短越快)、在五大瀏覽器中 IE8 仍有第五名的優秀表現。多花 Firefox 3 的 30% 時間，您一樣可以享受豐富的網路體驗。</p><p><small>mindfield 是 Firefox 3.5 的開發中版本</small></p>
 	</div>
 </div>
 <div id="side" class="right">
