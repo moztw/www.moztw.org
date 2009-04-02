@@ -107,30 +107,23 @@
 	電子郵件軟體再度加強郵件管理及安全等諸多功能，讓您享受資訊盡握手中的快感！</p>
 
   </div>
-  <div class="frontcolumnlast">
-<h2 style="margin-top: 0pt;">
+  <div class="frontcolumnlast"><h2 style="margin-top: 0pt;">
       <a href="/dl">其它軟體</a>
     </h2>
 
     <ul class="news" style="margin-left: 10px;">
-    <li>
-	<a href="/beta/" style="text-decoration: none;" title="想試試最新的 Firefox? 歡迎幫忙測試! [不建議新手使用]">
-            <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">測試版專區</span>          </a>        </li>
-        <li>
-          <a href="/camino/" style="text-decoration: none;" title="Mozilla 的威力、Mac 的風格">
-            <img src="/images/camino16.gif" alt="Camino" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">Camino 1.0.4</span>          </a>        </li>
-        <li>
-          <a href="/nvu/" style="text-decoration: none;" title="由 MozTW 提供的 Nvu 非官方中文化版本">
-            <img src="/images/nvu16.png" alt="NVU icon" style="vertical-align: middle;" height="16" width="16">
-        <span style="text-decoration: underline;">NVU 1.0</span>          </a></li>
+		<li>
+		<a href="http://www.mozilla.com/en-US/firefox/all-beta.html" style="text-decoration: none;" title="想試試最新的 Firefox? 歡迎幫忙測試! [不建議新手使用]">
+				<img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
+				<span style="text-decoration: underline;">Firefox 3.1 beta 3</span> *</a>
+		</li>
         <li>
           <a href="/dl/" style="text-decoration: none;">
             <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">軟體列表...</span>          </a>        </li>
+            <span style="text-decoration: underline;">MozTW 軟體列表...</span></a>
+		</li>
     </ul>
-
+	<p>* 連結至 Mozilla 英文網站 (提供正體中文版)</p>
   </div>
   <br style="clear: both;">
 

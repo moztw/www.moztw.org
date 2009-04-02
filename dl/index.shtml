@@ -5,6 +5,7 @@
 
 <div class="key-point">
 <ul class="productlist" title="下載列表">
+
 	<li>
 	<a href="/firefox/"><img src="/images/product-firefox.png" width="60" height="60" alt=""></a>
 	<h3><a href="/firefox/" class="producttitle"><strong>Firefox</strong>: 重新體驗網路</a></h3>
@@ -13,83 +14,50 @@
 	<li>
 	<a href="/thunderbird/"><img src="/images/product-thunderbird.png" width="60" height="60" alt=""></a>
 	<h3><a href="/thunderbird/" class="producttitle"><strong>Thunderbird</strong>: 改善你的信箱</a></h3>
+
 	Thunderbird 是 Mozilla 新生代的 email 程式。
 	使用 Thunderbird ，讓你發送信件更快、更安全，也更簡單。
 	</li>
-	<li>
-	<a href="/mozilla/"><img src="/images/product-mozilla.png" width="60" height="60" alt=""></a>
-	<h3><a href="/mozilla/" class="producttitle"><strong>Mozilla</strong>:完整的 Internet 方案</a></h3>
-	為新時代設計的網路瀏覽器、進階的 e-mail 與 news 管理程式、
-	IRC 線上交談、與簡易的 HTML 編輯工具。
-	</li>
-	<li>
-	<a href="/netscape/"><img src="/images/product-netscape.png" alt="Netscape"></a>
-	<h3><a href="/netscape/" class="producttitle">
-	Netscape: Mozilla Taiwan 非官方中文版</a></h3>
-	由 Mozilla Taiwan 特別提供的 Netscape 中文版
-	</li>
-	<li>
-	<a href="/nvu/"><img src="/images/product-nvu.png" alt="NVU"></a>
-	<h3><a href="/nvu/" class="producttitle"><strong>NVU</strong>: 作網頁不再是難事</a></h3>
-	NVU 是不輸給 Dreamweaver、Frontpage 的網頁製作工具，
-	而且免費提供各種平台的版本。
-	</li>
-	<li>
-	<a href="/camino/"><img src="/images/product-camino.png" alt="Camino"></a>
-	<h3><a href="/camino/" class="producttitle"><strong>Camino</strong>: Mozilla 的威力、Mac 的風格</a></h3>
-	Camino 是專為麥金塔電腦打造的新世代瀏覽器，Gecko 引擎和 MacOS X 的完美結合。
-	</li>
+
 </ul>
 </div>
 <h2>OSSF - OpenFoundry Mirror</h2>
-這裡提供的檔案多在 OpenFoundry 上另有下載點，<br>
-<a href='http://rt.openfoundry.org/Foundry/Project/Download/index.html?Queue=62'>
-	可利用此鏈結下載。</a>
-
-<h2>安裝語言套件</h2>
-如果你裝的是英文版的 Mozilla ，可以利用安裝語言套件直接轉為中文界面。
-<ul class="productlist" title="安裝語言套件">
-	<li>
-	<h3><a href='/dl/langpack'><b>安裝語言套件</b></a></h3>
-</ul>
-
+	<p>舊版的檔案在 OpenFoundry 上另有下載點，<a href='http://of.openfoundry.org/projects/62/download'>可利用此鏈結下載</a>。</p>
 <h2>其它可下載資源</h2>
-<ul class="productlist" title="其它可下載資源">
+<ul>
 	<li>
-	<h3><a href="/dl/search" class="producttitle"><strong>搜尋引擎(含字典)</strong></a></h3>
+	<a href="/dl/search" class="producttitle"><strong>搜尋引擎(含字典)</strong></a>：
 	Mozilla 的搜尋引擎。
 	<li>
-	<h3><a href="/dl/chrome" class="producttitle"><strong>自訂與修正 Mozilla 界面</strong></a></h3>
+	<a href='/dl/langpack'><b>安裝語言套件</b></a>：舊版 Mozilla/Firefox 語言套件下載
+	<li>
+	<a href="/dl/chrome" class="producttitle"><strong>自訂與修正 Mozilla 界面</strong></a>：
 	放大界面字型或調整 CSS 顯示。
 	<li>
-	<h3><a href="/dl/plugins" class="producttitle"><strong>Plugins 相關</strong></a></h3>
+	<a href="/dl/plugins" class="producttitle"><strong>Plugins 相關</strong></a>：
 	Plugins 相關的下載與鏈結。
 </ul>
-
+<h2>舊軟體</h2>
+	<p>下列軟體不再更新，僅提供鍊結參考。</p>
+<ul>
+	<li><a href="/mozilla/" class="producttitle"><strong>Mozilla</strong>:完整的 Internet 方案</a>：
+	為新時代設計的網路瀏覽器、進階的 e-mail 與 news 管理程式、
+	IRC 線上交談、與簡易的 HTML 編輯工具。</li>
+	<li><a href="/netscape/" class="producttitle">
+	<strong>Netscape</strong>: Mozilla Taiwan 非官方中文版</a>：
+	由 Mozilla Taiwan 特別提供的 Netscape 中文版
+	<li><a href="/nvu/" class="producttitle"><strong>NVU</strong>: 作網頁不再是難事</a>：
+	NVU 是不輸給 Dreamweaver、Frontpage 的網頁製作工具，
+	而且免費提供各種平台的版本。</li>
+	<li><a href="/camino/" class="producttitle"><strong>Camino</strong>: Mozilla 的威力、Mac 的風格</a>：
+	Camino 是專為麥金塔電腦打造的新世代瀏覽器，Gecko 引擎和 MacOS X 的完美結合。
+	</li>
+</ul>
 <h2>本地化(Localization)工具與相關資源</h2>
-<ul class="productlist" title="L10N Tools">
-	<li>
-	<h3><a href='/tools'><b>moztw.org 目前使用的工具</b></a></h3>
-	提供了 moztw.org 所有使用的工具及文件，
-	目前完全由林弘德(Hung-Te Lin, piaip)自行開發維護，
-	包括大多數 Mozilla L10N Team 都在用的 mozip。
-	<li>
-	<h3>[CVS snapshot] &nbsp;</h3>
-	如果你想自行編譯中文版，可利用 Mozilla CVS 中的 zh-TW locale。
-
-	<p>Firefox 1.0.* branch 請用下列命令：
-	<div style='margin: 3px; padding: 1px; border: 1px solid #ccc;'
->cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/l10n checkout -rAVIARY_1_0_20040515_BRANCH mozilla</div>
-	<p>Firefox 1.5, Thunderbird 1.5, Mozilla 1.8 branch 請用下列命令：
-	<div style='margin: 3px; padding: 1px; border: 1px solid #ccc;'
->cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/l10n checkout -rMOZILLA_1_8_BRANCH l10n/zh-TW</div>
-	<p>最新的版本 (Trunk) 請用下列命令:
-	<div style='margin: 3px; padding: 1px; border: 1px solid #ccc;'
-> cvs -d :pserver:anonymous@cvs-mirror.mozilla.org:/l10n checkout l10n/zh-TW</div>
-<!--
-	<p>另外也提供 1.0.* 送交 CVS 的副本, 
-	把下列檔案解壓縮到適當的位置後編譯即可：
-	<p><a href='/dls/ff/firefox-CVS-localesrc-zhTW.tar.bz2'><b>Firefox 1.0 zh-TW locale,</b></a>
-	-->
+<ul>
+	<li><a href='/tools'>Piaip's tools for Mozilla Translation</a>：
+	提供了過去 moztw.org 使用的工具及文件，
+	完全由林弘德(Hung-Te Lin, piaip)自行開發維護，
+	包括當時大多數 Mozilla L10N Team 都在用的 mozip。</li>
 </ul>
 <!--#include virtual="/inc/footer.html" -->
