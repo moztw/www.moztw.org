@@ -3,78 +3,7 @@
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <style type="text/css">
 <!--
-
-#header h1 a {
-	background:transparent url(/events/ie8/header_moztwsoft_taiwan.png) no-repeat scroll 0 0!important;
-}
-
-.front-feature {
-	background: #2773BB url('/events/ie8/ie8bg.png')  left bottom no-repeat;
-}
-
-#front-feature #feature-content {
-	margin: 46px 0 6px 0;
-	padding: 0 10px 0 380px;
-	height: 249px;
-}
-
-#feature-content h2 {
-	margin: 0;
-}
-
-#feature-content p {
-	color: #B4D0EB;
-}
-
-#feature-content a {
-	color: #FED336;
-	text-decoration: none;
-}
-
-#feature-content a:hover {
-	text-decoration: underline;
-	background: transparent;
-}
-
-
-/* Style to put download block into frontcolumn */
-.frontcolumn .download:before {
-	content: url("/images/download_tl_content.gif");
-}
-.frontcolumn .download {
-	width: auto;
-	background: #C4EFA1 url("/images/download_back_content.gif") top right no-repeat;
-}
-.frontcolumn .download:after {
-	content:  url("/images/download_bl_content.gif");
-	background: transparent url("/images/download_br_content.gif") scroll no-repeat bottom right ;
-}
-
-.frontcolumn .download ul {
-	padding-left:80px;
-}
-
-#front-feature div.ie8parody {
-	padding: 0;
-	height: 120px;
-	margin-left: 40px;
-}
-
-#ie8experiencebutton {
-	margin: 1.5em auto 1.2em auto;
-}
-
-#ie8experiencebutton a {
-	display: block;
-	width: 93px; height: 24px;
-	background: #FED336 url(/events/ie8/ie8experiencebutton.png) top left no-repeat;
-	color: #000000;
-	text-indent: -10000px;
-}
-#ie8experiencebutton a:hover {
-	background: #FED336 url(/events/ie8/ie8experiencebutton.png) top left no-repeat;
-}
-
+.front-feature { background: #E4EcEc url(images/feature-back-cwb-fx3.png) bottom right no-repeat;}
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
@@ -82,24 +11,18 @@
 
 <div class="key-point front-feature" id="front-feature">
   <div id="feature-content">
-    <h2><a href="/events/ie8/"><img src="/events/ie8/ie8banner.png" alt="立刻體驗 Internet Explorer 8 最新功能" height="55" width="450" /></a></h2>
-	<div class="ie8parody">
-		<p>立即體驗 Internet Explorer 8！</p>
-		<p id="ie8experiencebutton"><a href="/events/ie8/">立即體驗</a></p>
-		<p><a href="/events/ie8/">所有的作業系統和語言</a> | <a href="/events/ie8/">觀賞導覽</a></p>
+    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 3" height="55" width="252"></a></h2>
+    <p>Mozilla 史上最強！<a href="/firefox/">Firefox 3 網路瀏覽器</a> 再度以嶄新姿態，重新定義網路體驗標竿！</p>
+    <div class="download">
+		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 3 </strong></a></h3>
+ 		<div style='background: url(/images/product-firefox.png) no-repeat;'>
+		<!--#include virtual="/inc/dlff.html" -->
+	</div>
 	</div>
   </div>
 </div>
 
 <div id="mBody">
-<div class="frontcolumn">
-     <h2><a href="/firefox/">下載 Firefox 3</a></h2>
-    <div class="download">
- 		<div style='background: url(/images/product-download-firefox.png) no-repeat;'>
-		<!--#include virtual="/inc/dlff.html" -->
-		</div>
-	</div>
-  </div>
   <div class="frontcolumn">
       <h2><a href="/thunderbird/">Thunderbird</a></h2>
       <a href="/thunderbird/"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
@@ -107,7 +30,13 @@
 	電子郵件軟體再度加強郵件管理及安全等諸多功能，讓您享受資訊盡握手中的快感！</p>
 
   </div>
-  <div class="frontcolumnlast"><h2 style="margin-top: 0pt;">
+<div class="frontcolumn">
+    <h2><a href="/events/ie8/">用 Firefox 體驗 IE8 新功能</a></h2>
+    <a href="/events/ie8/"><img src="/events/ie8/ie8-parody-icon.png" class="promo" alt="體驗 IE8" border="0"></a>
+	<p>除了 IE8 的新功能，Firefox 還能給您更多。來看看如何發揮 Firefox 的自訂功能，為您的網路瀏覽<a href="/events/ie8/">創造新體驗</a>！</p>
+  </div>
+  <div class="frontcolumnlast">
+<h2 style="margin-top: 0pt;">
       <a href="/dl">其它軟體</a>
     </h2>
 
