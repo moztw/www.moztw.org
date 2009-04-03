@@ -3,10 +3,11 @@
 <style type="text/css">
 <!--
 
+/*
 #header h1 a {
 	background:transparent url(/events/ie8/header_moztwsoft_taiwan.png) no-repeat scroll 0 0!important;
 }
-
+*/
 .front-feature {
 	background: #2773BB url('/events/ie8/ie8bg.png')  left bottom no-repeat;
 }
@@ -152,10 +153,10 @@ ul#tab-menu li a img {
 	<div id="accelerators" class="tab-block">
 		<h3>使用加速器更快地完成工作</h3>
 		<p><img src="fig-accelerators.png" alt="加速器" class="fig" />IE8 的「加速器」讓你叫出快捷選單後可以執行相應的動作，操作方式想像成 Firefox 快捷選單的「以 Google 搜尋 {所選文字}」就相去不遠了。使用加速器可以方便您查詢地圖、相關物品等等功能。</p>
-		<p>Michael Kaply 的<a href="https://addons.mozilla.org/zh-TW/firefox/addon/6777">Firefox Activities</a>擴充套件複製了 IE8 的「加速器」功能，您甚至可以在 IE8 附加元件網站安裝原先只給 IE8 使用的加速器！馬上裝裝看吧</p>
+		<p>Michael Kaply 的 <a href="https://addons.mozilla.org/zh-TW/firefox/addon/6777">Firefox Activities</a> 擴充套件複製了 IE8 的「加速器」功能，您甚至可以在 IE8 附加元件網站安裝原先只給 IE8 使用的加速器！馬上裝裝看吧</p>
 		<h4>立即試用這些加速器</h4>
 		<ul>
-			<li><a href="http://ieaddons.com/ct/Details.aspx?Id=1911">URMAP 你的地圖</a> - 安裝 URMAP 加速器，在網頁上圈選想查詢的地址，就可以快速取得該地址的地圖。</li>
+			<li><a href="http://ieaddons.com/ct/Details.aspx?Id=1911">UrMap 你的地圖</a> - 安裝 UrMap 加速器，在網頁上圈選想查詢的地址，就可以快速取得該地址的地圖。</li>
 			<li><a href="http://ieaddons.com/ct/accelerators/">尋找其他有用的「加速器」</a>
 		</ul>
 	</div>
@@ -173,7 +174,7 @@ ul#tab-menu li a img {
 	</div>
 	<div id="smartscreen" class="tab-block">
 		<h3>阻擋壞網站，保全您的網路體驗</h3>
-		<p><img src="fig-smartscreen.png" alt="SmartScreen" class="fig" />2006 年的 Firefox 2 起，你家的火狐早已內建阻擋惡意網站功能，與 IE8 的「SmartScreen 篩選器」相似。Firefox 阻擋這些壞網站的能力藉助了<a href="http://www.google.com/">Google</a>及<a href="http://www.phishtank.com/">PhishTank</a>提供的惡意網站資訊，保全您的網路體驗。</p>
+		<p><img src="fig-smartscreen.png" alt="SmartScreen" class="fig" />2006 年的 Firefox 2 起，你家的火狐早已內建阻擋惡意網站功能，與 IE8 的「SmartScreen 篩選器」相似。Firefox 阻擋這些壞網站的能力藉助了 <a href="http://www.google.com/">Google</a> 及 <a href="http://www.phishtank.com/">PhishTank</a> 提供的惡意網站資訊，保全您的網路體驗。</p>
 	</div>
 	<div id="speed" class="tab-block">
 		<h3>速度快</h3>
@@ -187,7 +188,7 @@ ul#tab-menu li a img {
 	<ul><li>IE8 終於跟上其他先進瀏覽器的腳步，較為完整地支援了 CSS 2.1。這麼一來網頁設計師可以設計更為美觀的網頁，不必擔心僅有 IE 看不到效果的問題。</li>
 		<li>「視覺化搜尋」是其他瀏覽器目前沒有的功能</li>
 		<li>下一代的 Firefox (3.5 版，預計 2009 六月推出) 才會有類似 IE8 InPrivate 隱私瀏覽的功能。(如果您使用 Firefox，目前可以先使用「清除隱私資訊」以達成類似效果。)</li>
-		<li>目前 IE 是唯一可以跑微軟自家 ActiveX 技術的瀏覽器，也就是說絕大多數的網路 ATM 轉帳只能在 IE 上使用。</li></ul>	<p>如果您的工作或生活上非用 IE 不可，那麼或許可以考慮升級 IE8、<a href="http://blog.libraene.com/2008/04/02/426">救救網頁設計師。</p>
+		<li>目前 IE 是唯一可以跑微軟自家 ActiveX 技術的瀏覽器，也就是說絕大多數的網路 ATM 轉帳只能在 IE 上使用。</li></ul>	<p>如果您的工作或生活上非用 IE 不可，那麼或許可以考慮升級 IE8、<a href="http://blog.libraene.com/2008/04/02/426">救救網頁設計師</a>。</p>
 	</div>
 
 </div>
