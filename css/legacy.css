@@ -25,6 +25,10 @@
 	margin: 0 0.5em 1em 0;
 }
 
+.legacy p {
+	clear: both;
+}
+
 p.important {
 	font-weight: bold;
 	text-align: center;
