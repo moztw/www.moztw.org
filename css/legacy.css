@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+.legacy {
+	background:#FCF4C4 repeat-y scroll right center;
+}
+.legacy ul {
+	margin: 0;
+	padding: 0 0 0 5px;
+}
+
+.legacy ul li {
+	clear: left;
+	list-style: none;
+	padding: 0 0 1em 0;
+	margin-left: 0;
+}
+
+.legacy ul h2 {
+	margin: 0 0 0.2em 0;
+}
+
+.legacy ul img {
+	float: left;
+	margin: 0 0.5em 1em 0;
+}
+
+p.important {
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.25em;
+	border-width: 2px;
+}

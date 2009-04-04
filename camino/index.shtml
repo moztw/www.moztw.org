@@ -1,7 +1,21 @@
 <!--#include virtual="/inc/meta.html" -->
+<link rel="stylesheet" type="text/css" href="/css/legacy.css" media="all">
 <title>Camino - Mozilla 的威力、Mac 的風格 - Mozilla Taiwan, MozTW.org</title>
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
+<div class="key-point legacy">
+<h2>Camino 繁體中文套件已停止更新</h2>
+<p>我們建議您<strong><a href="http://www.caminobrowser.org/">至英文網站下載最新版</a>，或是改用 Firefox：</p>
+<ul>
+	<li>
+	<a href="/firefox/"><img src="/images/product-firefox.png" width="60" height="60" alt=""></a>
+	<h3><a href="/firefox/" class="producttitle"><strong>Firefox</strong>: 重新體驗網路</a></h3>
+	Firefox 是多次獲獎的 Mozilla 新生代網頁瀏覽器。
+	</li>
+</ul>
+<p>從 Firefox 3 開始 Mac 版 Firefox 已內建符合作業系統風格的佈景主題。</p>
+</div>
+<p class="important">下列內容僅供參考。基於安全疑慮，我們不建議您使用舊版軟體做為日常使用。</p>
 
 <div class="key-point">
     <div id="product-desc" class="product-camino">

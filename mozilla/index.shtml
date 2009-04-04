@@ -1,8 +1,33 @@
 <!--#include virtual="/inc/meta.html" -->
+<link rel="stylesheet" type="text/css" href="/css/legacy.css" media="all">
 <!--#include virtual="/inc/title.html" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
+<div class="key-point legacy">
+<h2>Mozilla Suite 已停止更新</h2>
+<p>Mozilla Suite 自 2005 年起不再推出新版，下列軟體或許能滿足您的需求：</p>
+<ul>
+	<li>
+	<a href="http://www.seamonkey-project.org/"><img src="/images/project-seamonkey.png" style="width: 60px; height: 96px; margin-bottom: -24px" alt=""></a>
+	<h3><a href="http://www.seamonkey-project.org/" class="producttitle"><strong>SeaMonkey</strong>: 完整的 Internet 方案</a></h3>
+	SeaMonkey 繼承 Mozilla Suite，作為下一代的 Internet 套裝軟體。
+	<strong>目前沒有提供正體中文版</strong>，有興趣進行在地化的同好請與我們聯繫。
+	</li>
+	<li>
+	<a href="/firefox/"><img src="/images/product-firefox.png" width="60" height="60" alt=""></a>
+	<h3><a href="/firefox/" class="producttitle"><strong>Firefox</strong>: 重新體驗網路</a></h3>
+	Firefox 是多次獲獎的 Mozilla 新生代網頁瀏覽器。
+	</li>
+	<li>
+	<a href="/thunderbird/"><img src="/images/product-thunderbird.png" width="60" height="60" alt=""></a>
+	<h3><a href="/thunderbird/" class="producttitle"><strong>Thunderbird</strong>: 改善你的信箱</a></h3>
 
+	Thunderbird 是 Mozilla 新生代的 email 程式。
+	使用 Thunderbird ，讓你發送信件更快、更安全，也更簡單。
+	</li>
+</ul>
+</div>
+<p class="important">下列內容僅供參考。基於安全疑慮，我們不建議您使用舊版軟體做為日常使用。</p>
 <div class="key-point">
     <div id="product-desc" class="product-mozilla">
 	<h2>Mozilla 1.8a4</h2>
