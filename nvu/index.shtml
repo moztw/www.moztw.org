@@ -5,9 +5,8 @@
 <!--#include virtual="/inc/header.html" -->
 <div class="key-point legacy">
 <h2>NVU 已停止更新</h2>
-<p>NVU 自 2006 年起不再推出新版。
-我們推薦您改用 <a href="http://www.kompozer.net/">KompoZer</a>，NVU 的存續修正版。</p>
-<p>您也可以同時持續關注繼承 Nvu 的 <a href="http://bluegriffon.org/">BlueGriffon</a> 的開發進度。</p>
+<p>NVU 自 2006 年起不再推出新版，我們推薦您改用 <a href="http://www.kompozer.net/">KompoZer</a>，NVU 的存續修正版。</p>
+<p>您也可以同時持續關注 <a href="http://bluegriffon.org/">BlueGriffon</a> —— 繼承 Nvu 的網頁編輯器 —— 的開發進度。</p>
 </div>
 <p class="important">下列內容僅供參考。基於安全疑慮，我們不建議您使用舊版軟體做為日常使用。</p>
 <div style='text-align: center;'>
