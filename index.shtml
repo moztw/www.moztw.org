@@ -3,8 +3,41 @@
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <style type="text/css">
 <!--
-.front-feature { background: #E4EcEc url(images/feature-back-cwb-fx3.png) bottom right no-repeat;}
--->
+.front-feature { 
+	background: #E4EcEc url("events/may2009/may5.jpg") bottom left no-repeat;
+	width: 880px;
+	position: relative;
+}
+
+#calendar-overlay {
+	position: absolute;
+	height: 300px;
+	left: 460px;
+	top: 10px;
+	width: 420px;
+	text-indent: -10000px;
+	background: url("events/may2009/blank.gif");
+	cursor: pointer; 
+}
+
+#front-feature #feature-content {
+	padding:10px 440px 16px 10px;
+}
+#front-feature #feature-content a:hover{
+	background-color:transparent;
+}
+.download {
+	background:transparent url("events/may2009/index-download_back.png") no-repeat scroll right top;
+}
+.download:before {
+	content: none !important;
+}
+.download:after {
+	content: none !important;
+	background: none !important;
+}
+
+-->	
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
@@ -20,6 +53,7 @@
 	</div>
 	</div>
   </div>
+  <p><a href="/events/may2009/" title="MozTW五月系列活動"><span id="calendar-overlay">MozTW五月系列活動</span></a></p>
 </div>
 
 <div id="mBody">
