@@ -59,13 +59,13 @@ ul#tab-menu {
 ul#tab-menu li {
 	float: left; 
 	margin: 0; padding: 0;
-	height: 100px; width: 150px
+	height: 100px; width: 130px
 }
 
 ul#tab-menu li a {
 	display: block;
 	margin: 0; padding: 0;
-	height: 100px; width: 150px;
+	height: 100px; width: 130px;
 }
 
 a#button-gathering-tp1 {
@@ -86,6 +86,16 @@ a#button-workshop1 {
 a#button-workshop1.active,
 a#button-workshop1:hover {
 	background: transparent url(button-workshop1-hover.png) center center no-repeat;
+}
+
+a#button-yzu {
+	text-indent: -1000px;
+	background: transparent url(button-yzu.png) center center no-repeat;
+}
+
+a#button-yzu.active,
+a#button-yzu:hover {
+	background: transparent url(button-yzu-hover.png) center center no-repeat;
 }
 
 a#button-workshop2 {
@@ -144,6 +154,7 @@ a#button-gfxtw:hover {
 		<ul id="tab-menu">
 			<li><a href="#gathering-tp1" id="button-gathering-tp1" class="active">MozTW 摩茲連續聚 TP #1</a></li>
 			<li><a href="#workshop1" id="button-workshop1">Firefox 3.5 技術新功能概述</a></li>
+			<li><a href="#yzu" id="button-yzu">元智大學開放原始碼社團講座</a></li>			
 			<li><a href="#workshop2" id="button-workshop2">擴充套件開發前導課程</a></li>
 			<li><a href="#workshop3" id="button-workshop3">擴充套件開發：入門篇</a></li>
 			<li><a href="#workshop4" id="button-workshop4">擴充套件開發：進階篇</a></li>
@@ -190,6 +201,23 @@ a#button-gfxtw:hover {
 			<li>連絡方式：timdream -at- mail -dot- moztw -dot- org</li>
 			<li>部落格：<a href="http://blog.timc.idv.tw/">Blog: timdream</a></li>			
 		</ul>
+	</div>
+
+	<div id="yzu" class="tab-block">
+		<h3><img src="foxmosa-1.png" class="fox-icon" /><img src="fig-yzu.png" title="摩茲連續聚 第六集" class="fig" />5/1 元智大學開放原始碼社團講座</h3>
+		<p>主題：Firefox擴充套件開發解密</p>		
+		<ul>
+			<li>時間：2009/5/1 18:30 ~ 20:30</li>
+			<li>地點：元智大學資訊工程學系1009教室</li>		
+			<li>費用：完全免費</li>
+		</ul>
+		<h4>講師簡介</h4>
+		<ul>
+			<li>尤孝庭（笨笨的小B / ybite）是台大電機的就學中學生，長期研究網頁相關技術，目前是 Firefox 擴充套件 <a href="https://addons.mozilla.org/addon/8888">NicoFox</a> 的作者。</li>
+			<li>主要專長：網頁相關前後端程式設計（PHP/HTML/JavaScript）</li>
+			<li>連絡方式：sst.dreams 在 Gmail</li>
+			<li>部落格：<a href="http://littlebtc.blogspot.com">小鎮遊跡</a></li>			
+		</ul>	
 	</div>
 	
 	<div id="workshop2" class="tab-block">
