@@ -114,10 +114,11 @@ function hidden_descript(obj) {
 	<div class="extension-info highlight">
 	<ul>
 		<li><a href="http://of.openfoundry.org/projects/show/333">套件網站</a></li>
+		<li><a href="https://addons.mozilla.org/firefox/addon/6113">Mozilla 附加元件網站</a></li>
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂" value="http://of.openfoundry.org/download_path/tongwen/0.3.0/tongwen_0.3.9.1.xpi" type="checkbox">列入安裝清單</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂" value="https://addons.mozilla.org/zh-TW/firefox/downloads/latest/6113/addon-6113-latest.xpi" type="checkbox">列入安裝清單</label>
 	</div>
 	<blockquote>「看不懂對岸的字體？放心！不用隨身帶著繁簡對照字典，乾脆把責任交給繁簡轉換的老大哥：新同文堂吧！」<cite>--社群成員 余弘兵</cite></blockquote>
 	<p>可以轉換繁體或簡體的網頁，並有詞彙轉換表，不會有轉換問題出現。也有自動轉換功能能夠把任何繁體或簡體的網站自動轉換，還可以指定文字的字體，和把UTF-8等萬國碼的文字轉換。功能多到介紹不完，XD！（其實還有快速鍵、剪貼簿、文字縮放等功能。）</p>
