@@ -59,13 +59,13 @@ ul#tab-menu {
 ul#tab-menu li {
 	float: left; 
 	margin: 0; padding: 0;
-	height: 100px; width: 130px
+	height: 100px; width: 110px
 }
 
 ul#tab-menu li a {
 	display: block;
 	margin: 0; padding: 0;
-	height: 100px; width: 130px;
+	height: 100px; width: 110px;
 }
 
 a#button-gathering-tp1 {
@@ -128,6 +128,16 @@ a#button-workshop4:hover {
 	background: transparent url(button-workshop4-hover.png) center center no-repeat;
 }
 
+a#button-gathering-dyu {
+	text-indent: -1000px;
+	background: transparent url(button-gathering-dyu.png) center center no-repeat;
+}
+
+a#button-gathering-dyu.active,
+a#button-gathering-dyu:hover {
+	background: transparent url(button-gathering-dyu-hover.png) center center no-repeat;
+}
+
 a#button-gfxtw {
 	text-indent: -1000px;
 	background: transparent url(button-gfxtw.png) center center no-repeat;
@@ -158,6 +168,7 @@ a#button-gfxtw:hover {
 			<li><a href="#workshop2" id="button-workshop2" class="active">擴充套件開發前導課程</a></li>
 			<li><a href="#workshop3" id="button-workshop3">擴充套件開發：入門篇</a></li>
 			<li><a href="#workshop4" id="button-workshop4">擴充套件開發：進階篇</a></li>
+			<li><a href="#gathering-dyu" id="button-gathering-dyu">MozTW 摩茲校園聚</a></li>			
 			<li><a href="#gfxtw" id="button-gfxtw">gFx推廣平台發表</a></li>
 		</ul>
 	</div>
@@ -166,7 +177,7 @@ a#button-gfxtw:hover {
 		<h3><img src="foxmosa-5.png" class="fox-icon" /><img src="fig-gathering-tp1.png" title="連續聚#7台南" class="fig" />4/26 MozTW 摩茲連續聚 TP #1</h3>
 		<p>MozTW 摩茲連續聚，以輕鬆歡樂無負擔的方式、要與大家一起提升彼此的網際體驗。每月一次、主題不限、時間地點都好談。歡迎提出建議！</p>
 		<p>這一集將在台北南京東路捷運佔附近的「果子咖啡」上映。</p>
-		<h4>報名：<a href="http://registrano.com/events/moztw-gathering-tp-1">開放報名中</a></h4>
+		<h4>報名：<a href="http://registrano.com/events/moztw-gathering-tp-1">活動已結束</a></h4>
 		<ul>
 			<li>時間：2009/4/26 14:00 ~ 18:00</li>
 			<li>地點：<a href="http://www.gozcafe.com/2008/11/blog-post_27.html">果子咖啡</a></li>
@@ -184,7 +195,7 @@ a#button-gfxtw:hover {
 	</div>
 
 	<div id="workshop1" class="tab-block">
-		<h3><img src="foxmosa-1.png" class="fox-icon" /><img src="fig-workshop1.png" title="timdream (smile!)" class="fig" />4/28 Mozilla Firefox 3.5 技術新功能概述</h3>
+		<h3><img src="foxmosa-4.png" class="fox-icon" /><img src="fig-workshop1.png" title="timdream (smile!)" class="fig" />4/28 Mozilla Firefox 3.5 技術新功能概述</h3>
 		<p>本活動將簡介 Firefox 3.5 中新增的相關網頁技術，以及對於網頁程式開發設計師 （Web Developers / Web Application Developers）來說，這些功能所能給使用者帶來的不同體驗。</p>		
 		<h4>報名網頁：<a href="http://whoswho.openfoundry.org/workshop/details/35.html">活動已結束</a>。<a href="workshop1.pdf">下載投影片(PDF)</a></h4>
 		<ul>
@@ -223,7 +234,7 @@ a#button-gfxtw:hover {
 	<div id="workshop2" class="tab-block">
 		<h3><img src="foxmosa-2.png" class="fox-icon" /><img src="fig-workshop2.png" title="othree in his sudo make t-shirt" class="fig" />5/5 & 5/7 Mozilla Firefox 擴充套件開發 - 前導課程</h3>
 		<p>JavaScript 在 Web 2.0 時代搖身一變成為最受矚目的語言之一，除了開發 Web Application 外，JavaScript 還是 Firefox Extension 所使用的程式語言。本課程將從基礎的 JavaScript 開始介紹，逐步深入，讓學員能具備開發 Firefox Extension 所需要的基礎知識。</p>
-		<h4>報名網頁：<a href="http://whoswho.openfoundry.org/workshop/details/27.html">前導課程-上：開放報名中</a>、<a href="http://whoswho.openfoundry.org/workshop/details/28.html">前導課程-下：開放報名中</a></h4>
+		<h4>報名網頁：<a href="http://whoswho.openfoundry.org/workshop/details/27.html">前導課程-上：活動已結束</a>、<a href="http://whoswho.openfoundry.org/workshop/details/28.html">前導課程-下：開放報名中</a></h4>
 		<ul>
 			<li>時間：2009/5/5 19:00 ~ 22:00（前導課程上）<br />　　　2009/5/7 19:00 ~ 22:00（前導課程下）</li> 
 			<li>地點：<a href="http://whoswho.openfoundry.org/workshop/venueevents/2-Gjun.html">台北市中正區公園路 30 號 3F</a></li>
@@ -285,9 +296,23 @@ a#button-gfxtw:hover {
 		</ul>
 	</div>	
 	
+	<div id="gathering-dyu" class="tab-block">
+		<h3><img src="foxmosa-5.png" class="fox-icon" />5/24 大葉大學 MozTW 摩茲校園聚</h3>
+		<p>摩茲校園聚活動為針對全校師生及校友，以自由軟體及 Firefox 套件在地化、Mozilla 相關自由軟體為主題，於校園內進行推廣及教學，促進彼此交流。</p>
+		<p>（課程籌備中，隨時更新詳細資料，請密切注意！）</p>
+		<h4>主辦單位：大葉大學資訊管理學系暨系學會</h4>
+		<ul>
+			<li>時間：2009/5/24 9:00 ~ 17:00</li>
+			<li>地點：行政大樓 A404 資管系專用電腦教室</a></li>
+			<li>對象：大葉全校師生及校友</li>
+			<li>人數：60 人</li>
+			<li>講師：BobChao、timdream、othree、Irvin</li>			
+		</ul>
+	</div>
+
 	
 	<div id="gfxtw" class="tab-block">
-		<h3><img src="fig-gfx.png" title="gFx absolutely secret screenshot" class="fig" />gFx: 你的火狐推廣平台</h3>
+		<h3><img src="foxmosa-3.png" class="fox-icon" /><img src="fig-gfx.png" title="gFx absolutely secret screenshot" class="fig" />gFx: 你的火狐推廣平台</h3>
 		<p>？？？？？？（即將發表，請密切注意！）</p>
 	</div>		
 
