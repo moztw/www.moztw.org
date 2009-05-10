@@ -256,7 +256,7 @@ a#button-gfxtw:hover {
 		<h3><img src="foxmosa-3.png" class="fox-icon" /><img src="fig-workshop3.png" title="ybite on his Nicofox extension" class="fig" />5/9 Mozilla Firefox 擴充套件開發：入門篇</h3>
 		<p>本課程介紹如何在 Firefox 下開發一個基礎的擴充套件：內容包含 Mozilla 平台下的 XUL 介面語言基礎、XUL 與 JavaScript 的整合、瀏覽器調整相關程式片段、XPCOM API 等基礎 Firefox 元件的方法，並介紹如何散播完成的附加元件。</p>
 		<p>本課程雖以 Firefox 為主，但所用之 Moziila 平台基礎技巧，亦可運用於跨平台 XULRunner 應用程式或附加元件之開發。應適合所有對 Mozilla 相關技術（包含如 Flock / Songbird 等 XULRunner 軟體）開發有興趣者。</p>
-		<h4>報名網頁：<a href="http://whoswho.openfoundry.org/workshop/details/29.html">活動已結束</a></h4>		
+		<h4>報名網頁：<a href="http://whoswho.openfoundry.org/workshop/details/29.html">活動已結束</a>。<a href="http://docs.google.com/View?docid=ajh4wzf7vhph_49dhhz92ct">課程講義</a></h4>		
 		<ul>
 			<li>時間：2009/5/9 9:00 ~ 17:00</li> 
 			<li>地點：<a href="http://whoswho.openfoundry.org/workshop/venueevents/2-Gjun.html">台北市中正區公園路 30 號 3F</a></li>
