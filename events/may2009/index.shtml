@@ -278,7 +278,7 @@ a#button-gfxtw:hover {
 		<h3><img src="foxmosa-4.png" class="fox-icon" /><img src="fig-workshop4.png" title="Firefox with Nicofox on ubuntu 8.10 screenshot from https://addons.mozilla.org/zh-TW/firefox/addon/8888" class="fig" />5/23 Mozilla Firefox 擴充套件開發：進階篇</h3>
 		<p>本課程介紹是「Mozilla Firefox 擴充套件開發：入門篇」的進一階課程，介紹在 Mozilla 平台下進一步的程式開發。課程介紹進一步的擴充套件撰寫，例如選項的設置和調整、檔案的讀寫、XUL Tree Controls、與 XBL 等技術。</p>
 		<p>本課程雖以 Firefox 為主，但所用之 Moziila 平台基礎技巧，亦可運用於跨平台 XULRunner 應用程式或附加元件之開發。應適合所有對 Mozilla 相關技術（包含如 Flock / Songbird 等 XULRunner 軟體）開發有興趣者。</p>
-		<h4>報名網頁：<a href="http://whoswho.openfoundry.org/workshop/details/30.html">開放報名中</a></h4>		
+		<h4>報名網頁：<a href="http://whoswho.openfoundry.org/workshop/details/30.html">報名已額滿</a></h4>		
 		<ul>
 			<li>時間：2009/5/23 9:00 ~ 17:00</li> 
 			<li>地點：<a href="http://whoswho.openfoundry.org/workshop/venueevents/2-Gjun.html">台北市中正區公園路 30 號 3F</a></li>
@@ -299,17 +299,19 @@ a#button-gfxtw:hover {
 	<div id="gathering-dyu" class="tab-block">
 		<h3><img src="foxmosa-5.png" class="fox-icon" />5/24 大葉大學 MozTW 摩茲校園聚</h3>
 		<p>摩茲校園聚活動為針對全校師生及校友，以自由軟體及 Firefox 套件在地化、Mozilla 相關自由軟體為主題，於校園內進行推廣及教學，促進彼此交流。</p>
-		<p>（課程籌備中，隨時更新詳細資料，請密切注意！）</p>
+		<p>講座內容：Firefox 簡介、開放的網路世界、Mozilla 正體中文在地化專案、網際標準：CSS3 與 HTML5、網路未來實驗室：Mozilla Labs、如何參與 MozTW</p>
 		<h4>主辦單位：大葉大學資訊管理學系暨系學會</h4>
 		<ul>
 			<li>時間：2009/5/24 9:00 ~ 17:00</li>
-			<li>地點：行政大樓 A404 資管系專用電腦教室</a></li>
+			<li>地點：行政大樓 A404 資管系專用電腦教室</li>
+			<li>主辦單位：資訊管理學系暨系學會</li>
+			<li>報名地點：管院大樓 C203 資訊管理系辦公室</li>
 			<li>對象：大葉全校師生及校友</li>
-			<li>人數：60 人</li>
-			<li>講師：BobChao、timdream、othree、Irvin</li>			
+			<li>費用：每人100元（含午餐、講義）</li>
+			<li>講師：BobChao、timdream、othree、Irvin</li>
+			<li>活動總召：<a href="mailto:r9721032@mail.dyu.edu.tw">曹文豪</a>（C303代理人研究室）</li>		
 		</ul>
 	</div>
-
 	
 	<div id="gfxtw" class="tab-block">
 		<h3><img src="foxmosa-3.png" class="fox-icon" /><img src="fig-gfx.png" title="gFx absolutely secret screenshot" class="fig" />gFx: 你的火狐推廣平台</h3>
