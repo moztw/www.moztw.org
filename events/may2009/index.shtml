@@ -167,8 +167,8 @@ a#button-gfxtw:hover {
 			<li><a href="#yzu" id="button-yzu">元智大學開放原始碼社團講座</a></li>			
 			<li><a href="#workshop2" id="button-workshop2">擴充套件開發前導課程</a></li>
 			<li><a href="#workshop3" id="button-workshop3">擴充套件開發：入門篇</a></li>
-			<li><a href="#workshop4" id="button-workshop4" class="active">擴充套件開發：進階篇</a></li>
-			<li><a href="#gathering-dyu" id="button-gathering-dyu">MozTW 摩茲校園聚</a></li>			
+			<li><a href="#workshop4" id="button-workshop4">擴充套件開發：進階篇</a></li>
+			<li><a href="#gathering-dyu" id="button-gathering-dyu" class="active">MozTW 摩茲校園聚</a></li>			
 			<li><a href="#gfxtw" id="button-gfxtw">gFx推廣平台發表</a></li>
 		</ul>
 	</div>
@@ -328,7 +328,7 @@ a#button-gfxtw:hover {
 <script src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
 <script type="text/javascript">
 $(function () {
-	$('.tab-block:not(#workshop4)').hide();
+	$('.tab-block:not(#gathering-dyu)').hide();
 	$('#tab-menu a:first').bind(
 		'mouseover',
 		function (e) {
