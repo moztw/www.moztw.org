@@ -48,7 +48,7 @@
     <p>Mozilla 史上最強！<a href="/firefox/">Firefox 3 網路瀏覽器</a> 再度以嶄新姿態，重新定義網路體驗標竿！</p>
     <div class="download">
 		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 3 </strong></a></h3>
- 		<div style='background: url(/images/product-firefox.png) no-repeat;'>
+ 		<div style='background: url(/images/product-download-firefox.png) no-repeat;'>
 		<!--#include virtual="/inc/dlff.html" -->
 	</div>
 	</div>
@@ -76,7 +76,7 @@
 
     <ul class="news" style="margin-left: 10px;">
 		<li>
-		<a href="http://www.mozilla.com/en-US/firefox/all-beta.html" style="text-decoration: none;" title="想試試最新的 Firefox? 歡迎幫忙測試! [不建議新手使用]">
+		<a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/all-beta.html" style="text-decoration: none;" title="想試試最新的 Firefox? 歡迎幫忙測試! [不建議新手使用]">
 				<img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
 				<span style="text-decoration: underline;">Firefox 3.5 beta 4</span> *</a>
 		</li>
@@ -86,7 +86,7 @@
             <span style="text-decoration: underline;">MozTW 軟體列表...</span></a>
 		</li>
     </ul>
-	<p>* 連結至 Mozilla 英文網站 (提供正體中文版)</p>
+	<p>* 連結至 Mozilla 網站 (提供正體中文版)</p>
   </div>
   <br style="clear: both;">
 
