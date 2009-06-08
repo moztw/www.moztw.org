@@ -22,20 +22,6 @@
   </div>
 </div>
 
-<div class="key-point front-feature" id="front-feature">
-  <div id="feature-content">
-    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 3" height="55" width="252"></a></h2>
-    <p>Mozilla 史上最強！<a href="/firefox/">Firefox 3 網路瀏覽器</a> 再度以嶄新姿態，重新定義網路體驗標竿！</p>
-    <div class="download">
-		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 3 </strong></a></h3>
- 		<div style='background: url(/images/product-download-firefox.png) no-repeat;'>
-		<!--#include virtual="/inc/dlff.html" -->
-	</div>
-	</div>
-  </div>
-  <p><a href="/events/may2009/" title="MozTW五月系列活動"><span id="calendar-overlay">MozTW五月系列活動</span></a></p>
-</div>
-
 <div id="mBody">
   <div class="frontcolumn">
       <h2><a href="/thunderbird/">Thunderbird</a></h2>
