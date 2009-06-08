@@ -3,44 +3,24 @@
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <style type="text/css">
 <!--
-.front-feature { 
-	background: #E4EcEc url("events/may2009/may5.jpg") bottom left no-repeat;
-	width: 880px;
-	position: relative;
-}
-
-#calendar-overlay {
-	position: absolute;
-	height: 300px;
-	left: 460px;
-	top: 10px;
-	width: 420px;
-	text-indent: -10000px;
-	background: url("events/may2009/blank.gif");
-	cursor: pointer; 
-}
-
-#front-feature #feature-content {
-	padding:10px 440px 16px 10px;
-}
-#front-feature #feature-content a:hover{
-	background-color:transparent;
-}
-.download {
-	background:transparent url("events/may2009/index-download_back.png") no-repeat scroll right top;
-}
-.download:before {
-	content: none !important;
-}
-.download:after {
-	content: none !important;
-	background: none !important;
-}
-
--->	
+.front-feature { background: #E4EcEc url(images/feature-back-cwb-fx3.png) bottom right no-repeat;}
+-->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
+
+<div class="key-point front-feature" id="front-feature">
+  <div id="feature-content">
+    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 3" height="55" width="252"></a></h2>
+    <p>Mozilla 史上最強！<a href="/firefox/">Firefox 3 網路瀏覽器</a> 再度以嶄新姿態，重新定義網路體驗標竿！</p>
+    <div class="download">
+		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 3 </strong></a></h3>
+ 		<div style='background: url(/images/product-firefox.png) no-repeat;'>
+		<!--#include virtual="/inc/dlff.html" -->
+	</div>
+	</div>
+  </div>
+</div>
 
 <div class="key-point front-feature" id="front-feature">
   <div id="feature-content">
