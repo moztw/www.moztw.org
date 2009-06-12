@@ -187,7 +187,7 @@ table {
 
           Firefox 3 的原始碼在何處？
           <p>Firefox 3.0.10 原始碼已<a href=
-             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0.7/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
+             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0.10/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
              "http://developer.mozilla.org/en/docs/Mozilla_Source_Code_Via_CVS">以 CVS 取得</a>。Firefox 相關程式為「mozilla/browser」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href=
              "http://developer.mozilla.org/en/docs/Build_Documentation">建製步驟</a>。</p>
         </li>
