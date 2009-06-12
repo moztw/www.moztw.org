@@ -1,5 +1,6 @@
 NOTE:
-downloadurl.txt should be a single line of url WITHOUT trailing line break,
+
+/firefox/download/downloadurl.txt should be a single line of url WITHOUT trailing line break,
 which means you should NOT edit it with {vim}.
 
 A safe thing to do is to use {echo -n}, e.g.,
@@ -8,4 +9,6 @@ A safe thing to do is to use {echo -n}, e.g.,
 
 then there will be no line breaks in the file.
  
+Also please don't forget to change /inc/dlff.html,
+we cannot conbine two files coz lighttpd shtml does not support nested includes.
 
