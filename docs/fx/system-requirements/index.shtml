@@ -6,21 +6,21 @@
 <div id="mBody">
  <div id="side" class="left">
   <ul id="nav">
-   <li><a href="/firefox">^回 Firefox 首頁</a></li>
+   <li><a href="/firefox">回到 Firefox 首頁</a></li>
   </ul>
   <!--<script type="text/javascript" src="download.js"></script>-->
   <!--<script type="text/javascript">-->
   <!--
     writeDownloadsSidebar();
-  //-->
-  <!--</script>
-  <noscript>-->
+  //
+  </script>
+  <noscript>
     <h2>馬上下載</h2>
     <ul id="nav">
-      <!--#include virtual="/inc/dlff.html" -->
+      <!--#include virtual="/inc/dlff.html" 
       <li><a href="/firefox/releases/">版本資訊</a></li>
     </ul>
-  <!--</noscript>-->
+  </noscript>-->
 	
  </div>
  <!-- closes #side -->
@@ -31,56 +31,50 @@
   <h3>Windows</h3>
   <h6>作業系統版本</h6>
   <ul>
-    <li>Windows 98</li>
-    <li>Windows 98SE</li>
-    <li>Windows ME</li>
-    <li>Windows NT 4.0</li>
     <li>Windows 2000</li>
-    <li>Windows XP (<em>推薦使用此版本</em>)</li>
+    <li>Windows XP</li>
+    <li>Windows Server 2003</li>
+    <li>Windows Vista</li>    
   </ul>
   <h6>硬體最低需求</h6>
   <ul>
-    <li>Pentium 233 MHz (<em>建議</em> Pentium 500MHz 以上)</li>
+    <li>Pentium 233 MHz CPU (<em>建議</em> Pentium 500MHz 以上)</li>
     <li>64 MB RAM (<em>建議</em> 128 MB 以上)</li>
     <li>52 MB 硬碟空間</li>
   </ul>
 
   <h3>Linux</h3>
   <h6>軟體需求</h6>
-  <p><em>以下內容有待審查，僅供指引。</em><br />
-     請留意：Linux 隨附的 Package 依發佈版本亦可能有不同需求。</p>
+  <p>請留意：各 Linux 發行版隨附的 Firefox 套件可能有不同的硬體需求。</p>
   <ul>
-    <li>Linux kernel - 2.2.14，最少需安裝以下函式庫：
+    <li>Firefox 需要以下函式庫以正常執行：
       <ul>
-        <li>glibc 2.2.4</li>
-        <li>gtk+ - 1.2.0 (最好為 1.2.5 以上版本)</li>
-<!--    xxxmpc: this is probably bogus, needs testing/fixing probably
-        <li>libstdc++5</li>  -->
-        <li>XFree86-3.3.6</li>
-        <li>fontconfig (亦稱為 xft)</li>
-        <li>gtk+2.0</li>
+        <li>gtk+ 2.10 (或以上版本)</li>
+        <li>GLib 2.12 (或以上版本)</li>
+        <li>Pango 1.14 (或以上版本)</li>
+        <li>X.Org 1.0 (或以上版本)</li>
       </ul>
     </li>
-    <li>Firefox 已於 Red Hat Linux 8.0 以上版本測試過。</li>
-  </ul>
-  <h6>硬體最低需求</h6>
-  <ul>
-    <li>Intel Pentium II 或 AMD K6-III+ 233 MHz CPU (<em>建議</em> 500MHz 以上)</li>
-    <li>64 MB RAM (<em>建議</em> 128 MB 以上)</li>
-    <li>52 MB 硬碟空間</li>
+    <li>我們建議安裝以下函式庫及套件以取得最佳效能。
+      <ul>
+		<li>NetworkManager 0.7 (或以上版本)</li>
+    	<li>DBus 1.0 (或以上版本)</li>
+    	<li>HAL 0.5.8 (或以上版本)</li>
+    	<li>GNOME 2.16 (或以上版本)</li>
+	  </ul>
+	</li>
   </ul>
 
   <h3>Mac</h3>
   <h6>作業系統版本</h6>
   <ul>
-    <li>Mac OS X 10.1.x</li>
-    <li>Mac OS X 10.2.x 以上</li>
+    <li>Mac OS X 10.4 以上</li>
   </ul>
   <h6>硬體最低需求</h6>
   <ul>
-    <li>PowerPC 604e 266 MHz (<em>建議</em> PowerPC G4 667MHz 以上)</li>
-    <li>G3, G4, 64 MB RAM (<em>建議</em> 256 MB 以上)</li>
-    <li>72 MB 硬碟空間</li>
+    <li>使用 Intel x86 或 PowerPC G3、G4、或 G5 CPU 之麥金塔</li>
+    <li>128 MB RAM (<em>建議</em> 256 MB 以上)</li>
+    <li>200 MB 硬碟空間</li>
   </ul>  
  </div>
  <!-- closes #mainContent-->
