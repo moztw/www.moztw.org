@@ -17,7 +17,7 @@
   <noscript>
     <h2>馬上下載</h2>
     <ul id="nav">
-      <!--#include virtual="/inc/dlff.html" 
+      #include virtual="/inc/dlff.html" 
       <li><a href="/firefox/releases/">版本資訊</a></li>
     </ul>
   </noscript>-->
