@@ -15,7 +15,7 @@
     <p>Mozilla 史上最強！<a href="/firefox/">Firefox 3 網路瀏覽器</a> 再度以嶄新姿態，重新定義網路體驗標竿！</p>
     <div class="download">
 		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 3 </strong></a></h3>
- 		<div style='background: url(/images/product-download-firefox.png) no-repeat;'>
+ 		<div style='background: url(/images/product-firefox.png) no-repeat;'>
 		<!--#include virtual="/inc/dlff.html" -->
 	</div>
 	</div>
