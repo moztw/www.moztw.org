@@ -8,7 +8,7 @@
 
 
 <H1> 最新消息與公告 </H1>
-﻿<!--#include virtual="/inc/news.html" -->
+<!--#include virtual="/inc/news.html" -->
 
 </ul>
 <H1> 過去的公告記錄 </H1>
