@@ -210,7 +210,7 @@ ul#tab-menu li a img {
 		<li>特別感謝：<a href="http://www.microsoft.com/taiwan/windows/internet-explorer/default.aspx">微軟 IE8</a> (汗…)</li>
 	<ul>
 </div>
-<script src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script type="text/javascript">
 $(function () {
 	$('.tab-block:not(#accelerators)').hide();
