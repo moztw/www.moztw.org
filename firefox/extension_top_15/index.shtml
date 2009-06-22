@@ -223,7 +223,7 @@ function hidden_descript(obj) {
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="DownloadHelper" value="https://addons.mozilla.org/zh-TW/firefox/downloads/latest/3006/addon-13006-latest.xpi" type="checkbox">列入安裝清單</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="DownloadHelper" value="https://addons.mozilla.org/zh-TW/firefox/downloads/latest/3006/addon-3006-latest.xpi" type="checkbox">列入安裝清單</label>
 	</div>
 	<blockquote>「你還在為了抓取youtube的影片苦惱嗎？喜愛ニコニコ動画上的影片卻不知如何下手？再者聽到 yam 天空部落-影音分享的音樂想抓卻抓不到？這套件一次解決你的需求。」<cite>--社群成員 kikiqqp</cite></blockquote>
 	<p>從影音網站自動下載到你的電腦裡，還可設定自動轉檔。</p>
@@ -318,7 +318,6 @@ function hidden_descript(obj) {
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
-	列入安裝清單：
 	<label title="點選此處，將此套件列入安裝清單。"><input name="gTranslate" value="https://addons.mozilla.org/zh-TW/firefox/downloads/latest/918/addon-918-latest.xpi" type="checkbox">列入安裝清單</label>
 	</div>
 	<blockquote>「有即時翻譯單字和整篇文章內容的功能；套件是抓取 Google 的翻譯功能，免除翻譯還要手動去開啟翻譯的網頁。」<cite>--社群成員 goodjimmy</cite></blockquote>
