@@ -56,7 +56,7 @@ if ( navigator.appVersion.indexOf('Safari') !== -1 ) {
 	</ul>
 	<h4>和我們一起推廣 <span lang="en-US">Firefox</span>！</h4>
 	<ul>
-	<li>和狐耳摩莎（Foxmosa）在<a href="http://www.plurk.com/foxmosa">推特</a>／<a href="http://twitter.com/foxmosa">噗浪</a>做朋友！</li>
+	<li>和狐耳摩莎（Foxmosa）在<a href="http://twitter.com/foxmosa">推特</a>／<a href="http://www.plurk.com/foxmosa">噗浪</a>做朋友！</li>
 	<!--<li><a href="/events/foxmosa-tour/" onClick="urchinTracker('/landingpage_trace/foxmosa_tour');">和 Foxmosa，我們的吉祥物，一起環遊台灣！</a></li>-->
 	<!--<li><a href="http://gfx.tw/">建立屬於您的火狐推廣網頁！</a></li>-->
 	<li><a href="http://www.spreadfirefox.com/" onClick="urchinTracker('/landingpage_trace/spreadfirefox');">推廣 Firefox!(英)</a></li>
