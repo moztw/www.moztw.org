@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <style type="text/css">
 <!--
-.front-feature { background: #E4EcEc url(images/feature-back-cwb-fx3.png) bottom right no-repeat;}
+.front-feature { background: #E4EcEc url(images/feature-back-ossf-fx35.png) bottom right no-repeat;}
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
@@ -11,11 +11,11 @@
 
 <div class="key-point front-feature" id="front-feature">
   <div id="feature-content">
-    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 3" height="55" width="252"></a></h2>
-    <p>Mozilla 史上最強！<a href="/firefox/">Firefox 3 網路瀏覽器</a> 再度以嶄新姿態，重新定義網路體驗標竿！</p>
+    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 3.5" height="54" width="283"></a></h2>
+    <p>Mozilla 再度挑戰自我自信作！<a href="/firefox/">Firefox 3.5</a> 隆重登場！</p>
     <div class="download">
-		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 3 </strong></a></h3>
- 		<div style='background: url(/images/product-firefox.png) no-repeat;'>
+		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 3.5 </strong></a></h3>
+ 		<div style='background: url(/images/product-download-firefox.png) no-repeat;margin-top: 5px;'>
 		<!--#include virtual="/inc/dlff.html" -->
 	</div>
 	</div>
@@ -31,9 +31,9 @@
 
   </div>
 <div class="frontcolumn">
-    <h2><a href="/events/ie8/">用 Firefox 體驗 IE8 新功能</a></h2>
-    <a href="/events/ie8/"><img src="/events/ie8/ie8-parody-icon.png" class="promo" alt="體驗 IE8" border="0"></a>
-	<p>除了 IE8 的新功能，Firefox 還能給您更多。來看看如何發揮 Firefox 的自訂功能，為您的網路瀏覽<a href="/events/ie8/">創造新體驗</a>！</p>
+    <h2>遇見狐耳摩莎</h2>
+    <img src="/foxmosa/images/foxmosa-twitplurk.png" class="promo" alt="foxmosa plurk/twitter icon" border="0">
+	<p>可愛的狐耳摩莎（Foxmosa）正在<a href="http://twitter.com/foxmosa">推特</a>／<a href="http://www.plurk.com/foxmosa">噗浪</a>上出沒，快快將它加入好友吧！</p>
   </div>
   <div class="frontcolumnlast">
 <h2 style="margin-top: 0pt;">
@@ -41,18 +41,12 @@
     </h2>
 
     <ul class="news" style="margin-left: 10px;">
-		<li>
-		<a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/all-beta.html" style="text-decoration: none;" title="想試試最新的 Firefox？歡迎幫忙測試！（不建議新手使用）">
-				<img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
-				<span style="text-decoration: underline;">Firefox 3.5rc3</span> *</a>
-		</li>
         <li>
           <a href="/dl/" style="text-decoration: none;">
             <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
             <span style="text-decoration: underline;">MozTW 軟體列表...</span></a>
 		</li>
     </ul>
-	<p>* 連結至 Mozilla 網站 (提供正體中文版)</p>
   </div>
   <br style="clear: both;">
 
