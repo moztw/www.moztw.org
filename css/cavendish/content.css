@@ -318,6 +318,9 @@ ol.faq li a:hover {
 	.product-firefox {
 		background: url("../../images/product-firefox-screen.png") no-repeat;
 	}
+	.product-firefox35 {
+		background: url("images/product-firefox-screen.png") no-repeat;
+	}
 	.product-thunderbird {
 		background: url("../../images/product-thunderbird-screen.png") no-repeat;
 	}
