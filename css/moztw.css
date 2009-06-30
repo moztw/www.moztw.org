@@ -128,6 +128,12 @@ a#featurelink { background: none;  }
     width: 100% !important;
 }
 
+.firefox-releasenotes-v35 {
+        background: url("/images/releasenotes-firefox-35.png") no-repeat;
+        padding-top: 70px !important;
+    width: 100% !important;
+}
+
 .firefox-releasenotes-beta {
     background: url("/images/releasenotes-firefox-beta.png") no-repeat;
     padding-top: 70px !important;

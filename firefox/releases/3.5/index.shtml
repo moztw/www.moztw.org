@@ -19,7 +19,7 @@ table {
 <div id="mBody">
     <div id="mainContent" class="right">
   	  <div class="key-point">
-  		  <div id="product-desc" class="firefox-releasenotes-v3">
+  		  <div id="product-desc" class="firefox-releasenotes-v35">
 <!-- Introduction -->
 
           <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3.5 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
