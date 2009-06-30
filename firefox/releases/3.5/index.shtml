@@ -11,6 +11,10 @@ td {
 table {
 	border-collapse:collapse;
 }
+
+#product-desc p {
+	padding-left:250px;
+}
 -->
 </style>
 <!--#include virtual="/inc/class.html" -->
