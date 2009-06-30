@@ -52,24 +52,26 @@ if ( navigator.appVersion.indexOf('Safari') !== -1 ) {
 	</ul>
 	<h4>其他資源與鏈結</h4>
 	<ul>
+	<li><a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:7" onClick="urchinTracker('/landingpage_trace/amo_plugin');">下載外掛程式，新增 Flash 等特殊多媒體檔案格式支援</a></li>
 	<li><a href="http://addons.moztw.org/"  onClick="urchinTracker('/landingpage_trace/amo');">取得擴充套件及佈景主題</a></li>
 	<li><a href="http://support.mozilla.com/en-US/kb/?locale=zh-TW" onClick="urchinTracker('/landingpage_trace/sumo');">Firefox 支援中心</a></li>
 	</ul>
 	<h4>和我們一起推廣 <span lang="en-US">Firefox</span>！</h4>
 	<ul>
-	<li><a href="/events/foxmosa-tour/" onClick="urchinTracker('/landingpage_trace/foxmosa_tour');">和 Foxmosa，我們的吉祥物，一起環遊台灣！</a></li>
+	<li>和狐耳摩莎（Foxmosa）在<a href="http://www.plurk.com/foxmosa">推特</a>／<a href="http://twitter.com/foxmosa">噗浪</a>做朋友！</li>
+	<!--<li><a href="/events/foxmosa-tour/" onClick="urchinTracker('/landingpage_trace/foxmosa_tour');">和 Foxmosa，我們的吉祥物，一起環遊台灣！</a></li>-->
 	<!--<li><a href="http://gfx.tw/">建立屬於您的火狐推廣網頁！</a></li>-->
 	<li><a href="http://www.spreadfirefox.com/" onClick="urchinTracker('/landingpage_trace/spreadfirefox');">推廣 Firefox!(英)</a></li>
 	</ul>
 </div>
 <div id="side" class="right">
-<h3>Firefox 3 相關介紹</h3>
+<h3>Firefox 相關介紹</h3>
 	<ul class="compact">
 	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/security/" onClick="urchinTracker('/landingpage_trace/mozilla');">安全性</a> *</li>
 	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/customize/" onClick="urchinTracker('/landingpage_trace/mozilla');">自訂能力</a> *</li>
 	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/organic/" onClick="urchinTracker('/landingpage_trace/mozilla');">100% 純天然有機軟體</a> *</li>
 	<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/tips/" onClick="urchinTracker('/landingpage_trace/mozilla');">使用技巧</a> *</li>
-	<li><a href="../buttons/" onClick="urchinTracker('/landingpage_trace/buttons');">取得推廣小貼紙</a></li>
+<!--	<li><a href="../buttons/" onClick="urchinTracker('/landingpage_trace/buttons');">取得推廣小貼紙</a></li>-->
 	</ul>
 <p>* 連結至 Mozilla 網站</p>
 <h3>協助改善</h3>
