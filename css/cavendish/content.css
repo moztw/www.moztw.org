@@ -1,4 +1,3 @@
-
 /* mozilla.org Cavendish Content Styles
  * Design by SilverOrange
  * Markup Reference classes organized by fantasai
@@ -423,17 +422,6 @@ ol.faq li a:hover {
                 width: 60%;
                 float: left;
                 line-height: 140%;
-<<<<<<< .mine
-        }
-        #ffcentral-desc div {
-                padding: 40px 0 0 100px;
-        }
-        #ffcentral h3, #ffcentral h2, #ffcentral p, #ffcentral ul {
-                margin-top: 0;
-                color: #4C5C5C;
-        }
-
-=======
         }
         #ffcentral-desc div {
                 padding: 40px 0 10px 107px;
@@ -442,5 +430,3 @@ ol.faq li a:hover {
                 margin-top: 0;
                 color: #4C5C5C;
         }
-
->>>>>>> .r959
