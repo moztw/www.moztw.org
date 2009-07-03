@@ -26,27 +26,17 @@
   <div class="frontcolumn">
       <h2><a href="/thunderbird/">Thunderbird</a></h2>
       <a href="/thunderbird/"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
-	<p>輕巧方便的 <a href="/thunderbird/">Thunderbird</a>
-	電子郵件軟體再度加強郵件管理及安全等諸多功能，讓您享受資訊盡握手中的快感！</p>
-
+	  <p>輕巧方便的 <a href="/thunderbird/">Thunderbird</a>	電子郵件軟體再度加強郵件管理及安全等諸多功能，讓您享受資訊盡握手中的快感！</p>
   </div>
-<div class="frontcolumn">
+  <div class="frontcolumn">
     <h2>遇見狐耳摩莎</h2>
     <img src="/foxmosa/images/foxmosa-twitplurk.png" class="promo" alt="foxmosa plurk/twitter icon" border="0">
 	<p>可愛的狐耳摩莎（Foxmosa）正在<a href="http://twitter.com/foxmosa">推特</a>／<a href="http://www.plurk.com/foxmosa">噗浪</a>上出沒，快快將它加入好友吧！</p>
   </div>
+  
   <div class="frontcolumnlast">
-<h2 style="margin-top: 0pt;">
-      <a href="/dl">其它軟體</a>
-    </h2>
-
-    <ul class="news" style="margin-left: 10px;">
-        <li>
-          <a href="/dl/" style="text-decoration: none;">
-            <img src="/images/all-products16.png" alt="All products icon" style="vertical-align: middle;" height="16" width="16">
-            <span style="text-decoration: underline;">MozTW 軟體列表...</span></a>
-		</li>
-    </ul>
+    <h2>7/13 <a href="http://www.x-man.kuas.edu.tw/xoops/modules/eguide/event.php?eid=2">高應大 Moztw & Ubuntu 自由新生代</a></h2>
+	<p>結合 Ubuntu 及 Firefox，搞定您自由的網路生活所需。講座包含了簡介、使用、調校及熱血，完全免費，歡迎 <a href="http://www.x-man.kuas.edu.tw/xoops/modules/eguide/event.php?eid=2">報名參加！</a></p>
   </div>
   <br style="clear: both;">
 
