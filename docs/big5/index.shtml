@@ -78,7 +78,9 @@
 	<br/><b>字碼表: 
 	    <a href='table/uao241-b2u.txt'>UAO 2.41 b2u</a>&nbsp;
 	    <a href='table/uao241-u2b.txt'>UAO 2.41 u2b</a></b> &nbsp;
-	(感謝 UAO / witchfive 提供)
+            <a href='table/uao250-b2u.txt'>UAO 2.50 b2u</a>&nbsp;
+            <a href='table/uao250-u2b.txt'>UAO 2.50 u2b</a></b> &nbsp;
+	(感謝 UAO / witchfive 提供 / UAO 安裝程式中取出)
 	</dd>
 	<dt>Mozilla 1.8</dt>
 	<dd>
