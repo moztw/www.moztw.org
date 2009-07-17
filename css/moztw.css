@@ -6,6 +6,14 @@ pre, code {
 acronym {
     cursor: pointer;
 }
+.firefox-releasenotes-v35 {
+	background: url("/images/releasenotes-firefox-35.png") no-repeat;
+	padding-top: 70px !important;
+    width: 100% !important;
+}
+.firefox-releasenotes-v35 p {
+  padding-left: 234px !important;
+}
 
 .dlall div {
 	float: left;
