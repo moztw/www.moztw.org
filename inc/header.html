@@ -11,21 +11,27 @@
   <li id="menu_docs"><a href="/docs" title="各項使用說明、介紹與文件資料">文件</a></li>
   <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
  </ul>
- <form id="search" method="get" action="http://www.google.com/custom">
- <div>
-  <label for="q" title="搜尋 moztw.org 網站">搜尋:</label>
-  <input type="hidden" name="cof" value="LW:174;LH:60;L:http://www.mozilla.org/images/mlogosm.gif;GIMP:#cc0000;T:black;ALC:#0000ff;GFNT:grey;LC:#990000;BGC:white;AH:center;VLC:purple;GL:0;GALT:#666633;AWFID:9262c37cefe23a86;">
-  <input type="hidden" name="domains" value="moztw.org">
-  <input type="hidden" name="sitesearch" value="moztw.org">
-  <input name="inlang" value="zh-TW" type="hidden">
-  <input name="ie" value="UTF-8" type="hidden">
-  <input name="oe" value="UTF-8" type="hidden">
-  <input type="text" id="q" name="q" accesskey="s" size="30">
-  <input type="submit" id="submit" value="Go">
-  &nbsp;
- </div>
- </form>
-</div>
+ 
+ 
+ <!-- Google 自訂搜索 -->
+<form action="http://forum.moztw.org/google_results.php" id="cse-search-box">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+
+<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="http://www.google.com/coop/cse/t13n?form=cse-search-box&t13n_langs=zh-Hant"></script>
+
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&lang=zh-Hant"></script>
+<!-- End of Google Search -->
+ 
+
 <!-- closes #header-->
 
 <hr class="hide">
