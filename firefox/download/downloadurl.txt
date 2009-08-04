@@ -1,1 +1,1 @@
-http://download.mozilla.org/?product=firefox-3.5.1&amp;lang=zh-TW
+http://download.mozilla.org/?product=firefox-3.5.2&amp;lang=zh-TW
