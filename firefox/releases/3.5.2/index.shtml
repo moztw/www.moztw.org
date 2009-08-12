@@ -51,8 +51,7 @@ table {
 
       <h3 id="requirements">系統需求</h3>
 
-      <p>在安裝 Firefox 3.5 前請先確定您的電腦是否合乎 <a href="http://www.mozilla.com/en-US/firefox/system-requirements-v3.html">
-         系統需求</a>。</p>
+      <p>在安裝 Firefox 3.5 前請先確定您的電腦是否合乎 <a href="http://moztw.org/docs/fx/system-requirements/">系統需求</a>。</p>
 
       <h3 id="download">下載 Firefox 3.5</h3>
 
