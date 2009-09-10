@@ -41,7 +41,6 @@ table {
           <ul>
             <li><a href="http://www.mozilla.org/security/known-vulnerabilities/firefox35.html#firefox3.5.3">許多安全性問題</a>。</li>
             <li>許多穩定性問題。</li>
-            <li>具 ICC 設定檔的圖像可以在所有顯示器上正確顯示了。</li>
 			    </ul>
 			    
 			    <p>請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL%20status1.9.1%3A.3-fixed">完整變更清單</a>。或前往 <a href="/firefox/releases/3.5.2/">Firefox 3.5.2 新鮮事</a>瞭解前一個版本的更新。</p>
