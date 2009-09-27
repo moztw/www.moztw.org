@@ -1,0 +1,16 @@
+#!/usr/bin/env perl
+# [MozLCDB] Database File
+sub loadDatabase {
+
+$VAR1 = {};
+$VAR2 = {
+  'VER' => '0.1'
+};
+	my $ret = {
+		DB => $VAR1,
+		SYS => $VAR2,
+	};
+	return $ret;
+}
+1;
+# vim:sw=2:ts=2:so=4
