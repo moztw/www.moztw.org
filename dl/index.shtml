@@ -26,10 +26,21 @@
 <h2>其它可下載資源</h2>
 <ul>
 	<li>
+	<a href='/dl/langpack'><b>安裝語言套件</b></a>：安裝語言套件而不重新安裝正體中文版軟體；將非正式支援的作業系統上的軟體轉成中文而不需重新 build。
+	<li>
+	<a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:4"><strong>安裝搜尋引擎</strong></a>：至 Mozilla 附加元件網站尋找更多有用的搜尋引擎
+	<li>
+	<a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:7"><strong>安裝外掛程式</strong></a>：至 Mozilla 附加元件網站下載外掛程式，新增 Flash 等特殊多媒體檔案格式支援
+	<li>
+	<a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:3"><strong>安裝字典套件</strong></a>：至 Mozilla 附加元件網站安裝拼字檢查用字典，或是其他實驗中的語言的語言套件
+
+</ul>
+<h2>舊的下載資源頁</h2>
+	<p>以下內容僅供參考。</p>
+<ul>
+	<li>
 	<a href="/dl/search" class="producttitle"><strong>搜尋引擎(含字典)</strong></a>：
 	Mozilla 的搜尋引擎。
-	<li>
-	<a href='/dl/langpack'><b>安裝語言套件</b></a>：舊版 Mozilla/Firefox 語言套件下載
 	<li>
 	<a href="/dl/chrome" class="producttitle"><strong>自訂與修正 Mozilla 界面</strong></a>：
 	放大界面字型或調整 CSS 顯示。
