@@ -26,15 +26,18 @@
 <h2>其它可下載資源</h2>
 <ul>
 	<li>
-	<a href='/dl/langpack'><b>安裝語言套件</b></a>：安裝語言套件而不重新安裝正體中文版軟體；將非正式支援的作業系統上的軟體轉成中文而不需重新 build。
+	<a href="https://addons.mozilla.org/zh-TW/"><strong>附加元件</strong></a>：為您的 Mozilla 軟體擴充新功能 * 
 	<li>
-	<a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:4"><strong>安裝搜尋引擎</strong></a>：至 Mozilla 附加元件網站尋找更多有用的搜尋引擎
+	<a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:4"><strong>搜尋引擎</strong></a>：在 Firefox 搜尋列上新增更多搜尋引擎 *
 	<li>
-	<a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:7"><strong>安裝外掛程式</strong></a>：至 Mozilla 附加元件網站下載外掛程式，新增 Flash 等特殊多媒體檔案格式支援
+	<a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:7"><strong>外掛程式</strong></a>：下載外掛程式，新增 Flash 等特殊多媒體檔案格式支援 *
 	<li>
-	<a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:3"><strong>安裝字典套件</strong></a>：至 Mozilla 附加元件網站安裝拼字檢查用字典，或是其他實驗中的語言的語言套件
+	<a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:3"><strong>字典套件</strong></a>：安裝拼字檢查用字典，或是其他實驗中的語言的語言套件 *
+	<li>
+	<a href='/dl/langpack'><b>語言套件</b></a>：修改畫面語言而不需重新安裝中文版軟體；將非正式支援的作業系統上的軟體轉成中文而不重新 build
 
 </ul>
+	<p>* 連至 Mozilla 附加元件網站。</p>
 <h2>舊的下載資源頁</h2>
 	<p>以下內容僅供參考。</p>
 <ul>
