@@ -3,7 +3,95 @@
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <style type="text/css">
 <!--
-.front-feature { background: #E4EcEc url(images/feature-back-ossf-fx35.png) bottom right no-repeat;}
+/* Font and images from fyfx proj */
+
+@font-face {
+	font-family:"Folk solid";
+	src: url(/images/fyfx/Folksolid.eot);
+	src: local('Folk solid'), url(/images/fyfx/Folksolid.otf) format("opentype");
+}
+
+@font-face {
+	font-family: 'Droid Sans Fallback Regular';
+	src: url('/images/fyfx/DroidSansFallback-subset.eot');
+	src: local('Droid Sans Fallback Regular'), local('DroidSansFallback'),
+		url('/images/fyfx/DroidSansFallback-subset.otf') format('opentype');
+}
+
+.front-feature h2 {
+	margin-bottom: -10px !important;
+
+}
+
+.front-feature h2 a {
+	color: #4D4433;
+	font-family: 'Folk solid','Droid Sans Fallback Regular', Georgia, serif;
+}
+
+.front-feature h2 a span {
+	font-size: 2.3em;
+}
+
+.front-feature h2 a span.firefox-text {
+	font-size: 3.5em;
+}
+
+#feature-content p {
+	color: #4D4433;
+	margin-bottom: 15px;
+}
+
+#feature-content p a {
+	color: #235987;
+}
+#feature-content p a:hover {
+	color: #2d76b7;
+}
+
+.front-feature {
+	background: #D1BD79 url(http://www.spreadfirefox.com/5years/assets/images/backgrounds/home_background.jpg);
+	padding-bottom: 0;
+}
+
+.key-point:after {
+	content: none;
+}
+
+.front-feature #fyfx-overlay {
+	height: 260px;
+	background: transparent url(http://www.spreadfirefox.com/5years/assets/images/backgrounds/footer_gallery_image_background.jpg) no-repeat scroll 160px top;
+	margin: -200px -15px 0 -15px; padding: 0;
+}
+
+#front-feature #feature-content {
+	width: 600px;
+	padding:6px 0 6px 10px;
+
+	position: relative;
+	z-index: 2;
+}
+
+/* Remove image based round corners */
+
+.homepage .download {
+	width:200px;
+}
+
+.download:before {
+	content: none;
+}
+
+.download:after {
+	content: none;
+}
+
+.download {
+	background: #C4EFA1;
+	border: 1px #C4EFA1 outset;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
@@ -11,14 +99,16 @@
 
 <div class="key-point front-feature" id="front-feature">
   <div id="feature-content">
-    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox 3.5" height="54" width="283"></a></h2>
-    <p>Mozilla 再度挑戰自我自信作！<a href="/firefox/">Firefox 3.5</a> 隆重登場！</p>
+    <h2><a href="http://www.spreadfirefox.com/5years/zh-TW/"><span class="firefox-text">FIREFOX</span><span> 五週年！</span></a></h2>
+    <p>讓我們一起慶祝這五年以來的合作，讓網路變得更好的過程。&nbsp;<a href="http://www.spreadfirefox.com/5years/zh-TW/">活動網站 »</a></p>
     <div class="download">
 		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 3.5 </strong></a></h3>
  		<div style='background: url(/images/product-download-firefox.png) no-repeat;margin-top: 5px;'>
 		<!--#include virtual="/inc/dlff.html" -->
-	</div>
-	</div>
+	        </div>
+    </div>
+  </div>
+  <div id="fyfx-overlay">
   </div>
 </div>
 
@@ -62,6 +152,7 @@
       <a href="/news">最新消息與公告</a>
     </h2>
 	<!--#include virtual="/inc/news.html" -->
+	</ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
     </div>
 	<br style="clear: both;">
   <!-- End News Columns -->  
