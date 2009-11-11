@@ -1,6 +1,7 @@
 <!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan News" href="http://moztw.org/xmlnews.rdf" />
 <style type="text/css">
 <!--
 /* Font and images from fyfx proj */
