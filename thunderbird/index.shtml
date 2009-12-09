@@ -1,61 +1,68 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Thunderbird - 電子郵件的明日之星 - Mozilla Taiwan, MozTW.org</title>
+<title>Thunderbird - 以您為本的郵件體驗 - Mozilla Taiwan, MozTW.org</title>
+<style type="text/css">
+<!--
+#product-desc.product-thunderbird {
+	background: transparent url(images/product-thunderbird3-screen.png) no-repeat scroll 0 0;
+	padding: 40px 0 75px;
+}
+#product-desc.product-thunderbird p {
+	padding-left:177px;
+	padding-top:7px;
+}
+-->
+</style>
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point">
     <div id="product-desc" class="product-thunderbird">
-	<h2>Thunderbird: reclaim your inbox.</h2>
+	<h2>Thunderbird 3: Email Innovations That Put You In Charge 以您為主的郵件體驗</h2>
 	<p>
-	Thunderbird 
-	是 Mozilla 新生代的郵件管理程式。
-	使用 Thunderbird 可以幫助你快速而安全的處理郵件，操作非常簡單，
-	還內建了最先進的智慧型廣告信自動偵測引擎、拼字檢查工具、......
+	Thunderbird 3 帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。
 	</p>
     </div>
     <div id="product-side">
 	<div class="download">
-	    <h3>馬上下載</h3><!--#include virtual="/inc/dltb.html" -->
+	    <h3>免費下載</h3><!--#include virtual="/inc/dltb.html" -->
 	</div>
     	<ul>
-	    <li><a href="system-requirements/index.shtml">系統需求</a></li>
-	    <li><a class="ancilliaryLink" href="/thunderbird/releases/">版本資訊</a></li>
+	    <li><a href="http://www.mozillamessaging.com/thunderbird/system-requirements/">系統需求</a>（英）</li>
+	    <li><a class="ancilliaryLink" href="http://www.mozillamessaging.com/thunderbird/3.0/releasenotes/">版本資訊</a>（英）</li>
    	  </ul>
     </div>
 </div>
 <div id="mainContent" class="right features">
     	<div class="corner-box">
-		<h3>掌控關鍵資訊</h3>
-		<p>Thunderbird 2 增強許多功能，協助您管理郵件資料匣並永遠跟上最新資訊。您不但能在 Thunderbird 2 中找到方便的管理功能，還能發現一切如此容易使用、正符需求。</p>
+		<h3>分頁與搜索</h3>
+		<p>Thunderbird 3 提供您分頁郵件支援，使你得以快速在郵件間切換。<br>威力倍增的搜索功能，包含了時間軸及篩選器工具，幫助您在昨日、上個月或數年前的郵件中，精確找出您的所需。
 	</div>
 
 	<div class="corner-box">
-		<h3>保護郵件，安全無慮</h3>
+		<h3>用您的方式收您的郵件</h3>
 
-		<p>我們很重視 Thunderbird 的資安及隱私保護功能，讓您在通訊上倍感安心 -- 這雷鳥號就像裝了網際防護罩一樣！</p>
+		<p>你可以依自己的喜好自訂 Thunderbird，使用附加元件管理員在數百個套件中選擇：例如 <a href="https://addons.mozilla.org/thunderbird/addon/2313">Lightning</a>（行程管理）或 <a href="https://addons.mozilla.org/thunderbird/addon/10900">Personas</a>（個性面板）等各式各樣的套件，不但能提升您的生產力、同時帶來更多樂趣。</p>
 	</div>
 
 	<div class="corner-box">
-		<h3>你的軟體最像你</h3>
-		<p>Thunderbird 最能符合需求，它可以藉各種附加元件增強或調整功能，甚至不用離開郵件匣就能找資訊、聽音樂！</p>
+		<h3>簡單上手</h3>
+		<p>全新的聰明帳號管理員，幫助您快速設定郵件帳號。就算您不懂什麼是 IMAP、SMTP、SSL/TLS，只要輸入姓名、email 網址、密碼，剩下的 Thunderbird 幫您搞定。</p>
+		<p>社群精神永存！如果 Thunderbird 找不到您所使用的郵件服務資料，您也可以提供這些設定資訊，其他人就可以得益於您的貢獻。</p>
 	</div>
 
-	<!--<p class="learn-more"><a href="features.html">深入瞭解 Thunderbird 2 的功能...</a></p>-->
+	<!--<p class="learn-more"><a href="features.html">深入瞭解 Thunderbird 3 的功能...</a></p>-->
 
 </div>
 <div id="side" class="right">
     <h3>資源與鏈結</h3>
     <ul class="compact">
-    <li><a href="http://forum.moztw.org/viewforum.php?f=9">Thunderbird 討論區</a> (中文)</li>
-	<li><a href="http://update.mozilla.org/extensions/?application=thunderbird">取得擴充套件</a></li>
-	<li><a href="http://update.mozilla.org/themes/?application=thunderbird">取得佈景主題</a></li>
-	<li><a href="http://www.mozilla.org/products/thunderbird/buttons.html">推廣用按鈕圖</a></li>
-	<li><a href="http://forums.mozillazine.org/viewforum.php?f=39">MozillaZine Thunderbird Support Forum</a> (英)</li>
-	<li><a href="http://www.mozilla.org/support/thunderbird/faq">FAQ</a> (英)</li>
-	<li><a href="http://www.mozilla.org/support/thunderbird/">Thunderbird Help</a> (英)</li>
+    <li><a href="http://forum.moztw.org/viewforum.php?f=9">MozTw Thunderbird 中文討論區</a></li>
+	<li><a href="https://addons.mozilla.org/zh-TW/thunderbird/">Thunderbird 附加元件網站</a></li>	
+	<li><a href="https://addons.mozilla.org/zh-TW/thunderbird/browse/type:2/cat:all?sort=popular">取得佈景主題</a></li>
+	<li><a href="http://spreadthunderbird.com/affiliates">尋找推廣貼紙</a>（英）</li>
+	<li><a href="http://forums.mozillazine.org/viewforum.php?f=39">mozillaZine Thunderbird Support Forum</a>（英）</li>
+	<li><a href="http://www.mozillamessaging.com/support/">Thunderbird Help & Tutorials</a>（英）</li>
     </ul>
-    <h3>得獎榮耀</h3>
-    <p><a href="http://www.computershopper.com/shopperschoice"><img src="shoppers-choice-2006.png" alt="2006 Shoppers' Choice Award, Best Communications Software" width="65" height="69" title="2006 Shoppers' Choice Award, Best Communications Software"></a></p>
 </div>
 
 <!--#include virtual="/inc/footer.html" -->

@@ -13,6 +13,8 @@
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
 <li><div class="date"> 10 月 28</div>
+  <a href="/firefox/releases/3.5.4/">Firefox 3.5.4 安全更新</a></li>
+<li><div class="date"> 10 月 28</div>
   <a href="/firefox/releases/3.0.15/">Firefox 3.0.15 安全更新</a></li>
 <li><div class="date"> 9 月 10</div>
   <a href="/firefox/releases/3.0.14/">Firefox 3.0.14 安全更新</a></li>
