@@ -2,12 +2,14 @@
 <title>Mozilla Firefox 中文版 - 網路生活的全新體驗 - Mozilla Taiwan, MozTW.org</title>
 <style type="text/css">
 <!--
-#product-desc.product-firefox35 {
-	background: transparent url(images/product-firefox-screen.png) no-repeat scroll 0 0;
-	padding: 40px 0 90px;
+#product-desc.product-firefox36 {
+	background: transparent url(images/36-product-firefox-screen.png) no-repeat scroll 0 0;
+	padding: 40px 0 50px;
 }
 #product-desc p {
-	padding-left: 173px;	
+	padding-left: 188px;	
+	font-size: 1.2em;
+	line-height: 1.5em;
 }
 
 .top-features {
@@ -79,7 +81,7 @@
     <div id="product-desc" class="product-firefox35">
 	<h2>Firefox: rediscover the web</h2>
 	<p>
-	Firefox 3.5 不斷提升網路體驗，上網更快、更好、更安全。
+	忠於開放使命，致力提升網路體驗<br>更創新、更自由、超個性！
 	</p>
     </div>
     <div id="product-side">
@@ -92,8 +94,11 @@
     </div>
 </div>
 <div id="mainContent" class="right">
-    <h3>重要特色</h3>
 		<ul class="top-features">
+		<li>
+			<strong>個性面板</strong>
+			<p><span class="new">新增</span> 上千種特色面板供您選擇，隨手更換 Firefox 外觀主題。</p>
+		</li>		
 		<li>
 			<strong>私密瀏覽模式</strong>
 			<p><span class="new">新增</span> 瀏覽網路，不留痕跡。</p>
@@ -124,7 +129,7 @@
 		</li>
 		<li>
 			<strong>輕鬆自訂</strong>
-			<p><span class="improved">強化</span> 上千種附加元件讓您自由調整、您的瀏覽器更像您。</p>
+			<p><span class="improved">強化</span> 上千種附加元件讓您自由調整、您的瀏覽器更有您的風格。</p>
 		</li>
 		<li>
 			<strong>分頁</strong>
@@ -135,18 +140,18 @@
 			<p>用簡單的網站識別資訊，拒絕網路詐騙及不安全的購物網站。</p>
 		</li>
 	</ul>
-	<h3 style="clear: both"><span lang="en-US">Firefox 3.5</span>: 不可不試的最佳選擇</h3>
-	<h4>目前最快的 Firefox！</h4>
-	<p>網路上對速度的要求越來越嚴格，我們也為此調整了 Firefox 的引擎，讓你可以快上加快：Firefox 3.5 的速度是 Firefox 3 的兩倍以上，而較舊版的 Firefox 2 更是快了 9 倍(*)！因此，您的網路信箱、相片網站及各式網際應用服務用起來更順暢、更歡樂。</p>
+	<h3 style="clear: both"><span lang="en-US">Firefox 3.6</span>: 總是您的最佳選擇</h3>
+	<h4>至今最快的 Firefox，又更快了！</h4>
+	<p>網路上對速度的要求越來越嚴格，我們也為此持續改善 Firefox 的引擎，讓你快上加快：Firefox 3.6 的速度較 Firefox 3.5 提昇 20%，更是 Firefox 3 的三倍速。因此，您的網路信箱、相片網站及各式網際應用服務用起來更加順暢、更加歡樂。</p>
 	<div class="upgrade-img">
 		<h5>Firefox 效能：快 — 更快 — 超快</h5>
-		<img src="images/upgrade-img-1.png" alt="速度比較" />
+		<img src="images/performance-chart.png" alt="速度比較" />
 		<ul id="performance-chart-time">
 			<li>18,148 ms</li>
 			<li>3,669 ms</li>
 			<li>1,524 ms!</li>
 		</ul>
-		<p>* 本測試數據為在 Windows XP 上以 SunSpider 測試而得。</p>
+		<p>* 測試環境：在 Windows 7 上進行 SunSpider 測試</p>
 	</div>
 	<h4>更能保護您的網路安全</h4>
 	<p>維護您上網時的資訊安全是我們最優先的任務，因此 Firefox 再度增強了反詐騙、反惡意程式的技術，並且加上私密瀏覽模式、「刪除與此網站有關的紀錄」等功能，保護您的隱私。</p>
@@ -162,26 +167,30 @@
 		<img src="images/upgrade-img-3.png" alt="附加元件管理員" />
 	</div>
 	<h4>不斷提升的網路體驗</h4>
-	<p>我們努力讓 Firefox 3.5 帶給您最新、最棒的網路體驗，例如私密瀏覽模式、再度升級的智慧位址列，以及可在視窗間拆開、組合的分頁等。當然，Firefox 3.5 也大幅提升效能，讓你享受技術尖端的衝浪快感。</p>
+	<p>我們努力讓 Firefox 3.6 帶給您最新、最棒的網路體驗，例如私密瀏覽模式、再度升級的智慧位址列，以及可在視窗間拆開、組合的分頁等。當然，Firefox 3.6 也大幅提升效能，讓你享受技術尖端的衝浪快感。</p>
 	<div class="upgrade-img">
-		<h5>Awsomebar</h5>
+		<h5>Awsomebar 智慧位址列</h5>
 		<img src="images/upgrade-img-4.png" alt="Awsomebar" />
 	</div>
 </div>
+
 <div id="side" class="right">
-	<h3><img src="/foxmosa/images/foxmosa-twitplurk.png" class="promo" alt="foxmosa plurk/twitter icon" style="float: right; border: none; margin: 0 0 20px 20px">遇見狐耳摩莎</h3>
-		<p>可愛的狐耳摩莎（Foxmosa）正在<a href="http://twitter.com/foxmosa">推特</a>／<a href="http://www.plurk.com/foxmosa">噗浪</a>上出沒，快快將它加入好友吧！</p>
-	<h3>Mini Party</h3>
-		<p>這次的小型低調慶生趴踢辦在<strong>台中</strong>喔！名額有限，<a href="http://forum.moztw.org/viewtopic.php?t=27261">快來參加</a>吧。</p>
-	<h3 lang="en-US">Firefox 3.5</h3>
+
+		<img src="images/product-personas-title.png" alt="Personas 個性面板" />
+		<p>Personas 個性面板是輕量級的佈景主題，包含五花八門的外觀與設計，讓您隨時個性化 Firefox 的外貌，如同選擇衣服一般樂趣。</p>
+		<p>→ <a href="http://www.getpersonas.com/en-US/">立刻至 Personas for Firefox 網站挑選個性面板！</a></p>
+
+	<h3>深入資訊</h3>
 		<ul class="compact">
-		<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/security/">安全性</a> *</li>
-		<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/customize/">自訂能力</a> *</li>
-		<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/organic/">100% 純天然有機軟體</a> *</li>
-		<li><a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/tips/">使用技巧</a> *</li>
-	<!--	<li><a href="buttons/">取得推廣小貼紙</a></li>-->
+		<li><a href="http://www.mozilla.com/en-US/firefox/underthehood/">底層機制</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/security/">安全性</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/customize/">自訂能力</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/organic/">100% 純天然有機軟體</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/tips/">使用技巧與秘技</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/video/">影片</a> *</li>
+		<!--	<li><a href="buttons/">取得推廣小貼紙</a></li>-->
     </ul>
-<p>* 連結至 Mozilla 網站</p>
+<p>* 連結至 Mozilla 網站，英文頁面</p>
 	<h3>中文社群資源</h3>
 		<ul class="compact">
 		<li><a href="http://wiki.moztw.org/index.php?title=FAQ:Firefox">常見問題解答</a></li>
@@ -192,10 +201,11 @@
 		</ul>
 	<h3>其它資源與鏈結</h3>
 		<ul class="compact">
-		<li><a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:7">下載外掛程式，新增 Flash 等特殊多媒體檔案格式支援</a></li>
+		<li><a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:7">下載外掛程式（新增 Flash、多媒體檔案支援）</a></li>
 		<li><a href="http://addons.moztw.org">取得擴充套件及佈景主題</a></li>
 		<li><a href="http://support.mozilla.com/en-US/kb/?locale=zh-TW">Firefox 支援中心</a></li>
-		<li><a href="http://www.spreadfirefox.com/">推廣 Firefox!(英)</a></li>
+		<li><a href="http://www.spreadfirefox.com/">推廣 Firefox!（英）</a></li>
 		</ul>
 </div>
+
 <!--#include virtual="/inc/footer.html" -->
