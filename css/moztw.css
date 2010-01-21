@@ -11,7 +11,7 @@ acronym {
 	float: left;
 	margin: 5px;
 	display: block;
-	border: 1px solid #aaa;
+	border: 1px solid #aaa
 	padding: 7px;
 }
 .dlall br {
@@ -130,6 +130,12 @@ a#featurelink { background: none;  }
 
 .firefox-releasenotes-v35 {
         background: url("/images/releasenotes-firefox-35.png") no-repeat;
+        padding-top: 70px !important;
+    width: 100% !important;
+}
+
+.firefox-releasenotes-v36 {
+        background: url("/images/releasenotes-firefox-36.png") no-repeat;
         padding-top: 70px !important;
     width: 100% !important;
 }
