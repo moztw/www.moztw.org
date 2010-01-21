@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Mozilla Firefox 3.5.7 版本資訊</title>
+<title>Mozilla Firefox 3.5.6 版本資訊</title>
 <style type="text/css">
 <!--
 td {
@@ -23,28 +23,28 @@ table {
 <div id="mBody">
     <div id="mainContent" class="right">
   	  <div class="key-point">
-  		  <div id="product-desc" class="firefox-releasenotes-v36">
+  		  <div id="product-desc" class="firefox-releasenotes-v35">
 <!-- Introduction -->
 
-          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3.6 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
+          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3.5 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
   <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
 
-          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozTW</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
+          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
         </div>
       </div> 
       <!-- What's New -->
 
-        <h2 id="whatsnew">Firefox 3.5.7 新鮮事</h2>
+               <h2 id="whatsnew">Firefox 3.5.6 新鮮事</h2>
 
-        <p>Firefox 3.5.7 修正了以下問題：</p>
+          <p>Firefox 3.5.6 修正了以下問題：</p>
 
-        <ul>
-            <li>一個普遍的穩定性問題。</li>
-            <li>修正呈現更新訊息給使用者的方式。</li>
-        </ul>
+          <ul>
+            <li>數個<a href="http://www.mozilla.org/security/known-vulnerabilities/firefox35.html#firefox3.5.6">安全性</a>問題。</li>
+            <li>數個穩定性問題。</li>
+			    </ul>
 			    
-			    <p>請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL%20status1.9.1%3A.7-fixed">完整變更清單</a>。或前往 <a href="/firefox/releases/3.5.6/">Firefox 3.5.6 新鮮事</a>瞭解前一個版本的更新。</p>
-
+			    <p>請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL%20status1.9.1%3A.6-fixed">完整變更清單</a>。或前往 <a href="/firefox/releases/3.5.5/">Firefox 3.5.5 新鮮事</a>瞭解前一個版本的更新。</p>
+			    
 			    <p>欲知 Firefox 3.5 的所有功能，請見 <a href="/firefox/">Firefox&nbsp;網頁</a>。</p>
 				
                <h2 id="downloadandinstall">下載與安裝</h2>
@@ -184,7 +184,7 @@ table {
 
           Firefox 3.5 的原始碼在何處？
           <p>Firefox 3.5 原始碼已<a href=
-             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.5.7/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
+             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.5.6/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
              "http://developer.mozilla.org/en/docs/Mozilla_Source_Code_Via_CVS">以 CVS 取得</a>。Firefox 相關程式為「mozilla/browser」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href=
              "http://developer.mozilla.org/en/docs/Build_Documentation">建製步驟</a>。</p>
         </li>
@@ -201,7 +201,7 @@ table {
       </p>
 
          
-      <p>其他尚未被官方 Firefox 3.5 驗證通過的本地化版本可以在<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.5.7/contrib/">官方站台</a>取得。</p>
+      <p>其他尚未被官方 Firefox 3.5 驗證通過的本地化版本可以在<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.5.6/contrib/">官方站台</a>取得。</p>
       <h2 id="links">其他資源和連結</h2>  
       <p>下面提供了幾個有用的連結：</p>
 

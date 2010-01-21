@@ -12,6 +12,8 @@
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+<li><div class="date"> 12 月 9</div>
+  <a href="http://moztw.org/thunderbird/">Thunderbird 3 全新發表</a></li>
 <li><div class="date"> 11 月 9</div>
   <a href="http://www.spreadfirefox.com/5years/zh-TW/">Firefox 五歲生日快樂！</a></li>
 <li><div class="date"> 11 月 6</div>
