@@ -4,83 +4,68 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div id="mBody">
- <div id="side" class="left">
-  <ul id="nav">
-   <li><a href="/firefox">回到 Firefox 首頁</a></li>
-   <li><a href="/firefox/releases/">版本資訊</a></li>
-  </ul>
-  <!--<script type="text/javascript" src="download.js"></script>-->
-  <!--<script type="text/javascript">-->
-  <!--
-    writeDownloadsSidebar();
-  //
-  </script>
-  <noscript>
-    <h2>馬上下載</h2>
-    <ul id="nav">
-      #include virtual="/inc/dlff.html" 
-      <li><a href="/firefox/releases/">版本資訊</a></li>
-    </ul>
-  </noscript>-->
-	
- </div>
- <!-- closes #side -->
- <hr class="hide">
- <div id="mainContent">
-
-  <h2>Firefox 系統需求</h2>
-  <h3>Windows</h3>
-  <h6>作業系統版本</h6>
-  <ul>
-    <li>Windows 2000</li>
-    <li>Windows XP</li>
-    <li>Windows Server 2003</li>
-    <li>Windows Vista</li>    
-  </ul>
-  <h6>硬體最低需求</h6>
-  <ul>
-    <li>Pentium 233 MHz CPU（建議 Pentium 500MHz 以上）</li>
-    <li>64 MB RAM（建議 128 MB 以上）</li>
-    <li>52 MB 硬碟空間</li>
-  </ul>
-
-  <h3>Linux</h3>
-  <h6>軟體需求</h6>
-  <p>請留意：各 Linux 發行版隨附的 Firefox 套件可能有其不同需求。</p>
-  <ul>
-    <li>Firefox 需要以下函式庫以正常執行：
-      <ul>
-        <li>GTK+ - 2.10 或以上版本</li>
-        <li>GLib - 2.1.2 或以上版本</li>
-        <li>Pango - 1.14 或以上版本</li>
-        <li>X.Org - 1.0 或以上版本</li>
-      </ul>
-    </li><br>
-    <li>我們建議安裝以下函式庫及套件，以取得最佳效能：
-      <ul>
-		<li>NetworkManager - 0.7 或以上版本</li>
-    	<li>DBus - 1.0 或以上版本</li>
-    	<li>HAL - 0.5.8 或以上版本</li>
-    	<li>GNOME - 2.16 或以上版本</li>
-	  </ul>
-	</li>
-  </ul>
-
-  <h3>Mac</h3>
-  <h6>作業系統版本</h6>
-  <ul>
-    <li>Mac OS X 10.4 以上</li>
-  </ul>
-  <h6>硬體最低需求</h6>
-  <ul>
-    <li>使用 Intel x86 或 PowerPC G3、G4、G5 CPU 之麥金塔電腦</li>
-    <li>128 MB RAM（建議 256 MB 以上）</li>
-    <li>200 MB 硬碟空間</li>
-  </ul>  
- </div>
- <!-- closes #mainContent-->
- </div>
- <!-- closes #mainContentOuter-->
+	<div id="side" class="left">
+		<ul id="nav">
+			<li><a href="/firefox">回到 Firefox 首頁</a></li>
+			<li><a href="/firefox/releases/">版本資訊</a></li>
+		</ul>
+	</div>
+	<!-- closes #side -->
+	<hr class="hide">
+	<div id="mainContent">
+		
+		<h2>Firefox 系統需求</h2>
+		<h3>Windows</h3>
+		<h6>作業系統版本</h6>
+		<ul>
+			<li>Windows 2000</li>
+			<li>Windows XP</li>
+			<li>Windows Server 2003</li>
+			<li>Windows Vista</li>
+			<li>Windows 7</li>
+		</ul>
+		<h6>硬體最低需求</h6>
+		<ul>
+			<li>Pentium 233 MHz CPU（建議 Pentium 500MHz 以上）</li>
+			<li>64 MB RAM（建議 128 MB 以上）</li>
+			<li>52 MB 硬碟空間</li>
+		</ul>
+		
+		<h3>Linux</h3>
+		<h6>軟體需求</h6>
+		<p>請留意：各 Linux 發行版隨附的 Firefox 套件可能有其不同需求。</p>
+		<ul>
+			<li>Firefox 需要以下函式庫以正常執行：
+				<ul>
+					<li>GTK+ - 2.10 或以上版本</li>
+					<li>GLib - 2.12 或以上版本</li>
+					<li>Pango - 1.14 或以上版本</li>
+					<li>X.Org - 1.0 或以上版本</li>
+				</ul>
+			</li><br>
+			<li>我們建議安裝以下函式庫及套件，以取得最佳效能：
+				<ul>
+					<li>NetworkManager - 0.7 或以上版本</li>
+					<li>DBus - 1.0 或以上版本</li>
+					<li>HAL - 0.5.8 或以上版本</li>
+					<li>GNOME - 2.16 或以上版本</li>
+				</ul>
+			</li>
+		</ul>
+		
+		<h3>Mac</h3>
+		<h6>作業系統版本</h6>
+		<ul>
+			<li>Mac OS X 10.4 以上</li>
+		</ul>
+		<h6>硬體最低需求</h6>
+		<ul>
+			<li>使用 Intel x86 或 PowerPC G3、G4、G5 CPU 之麥金塔電腦</li>
+			<li>128 MB RAM（建議 256 MB 以上）</li>
+			<li>200 MB 硬碟空間</li>
+		</ul>  
+	</div>
+	<!-- closes #mainContent-->
 </div>
 <!-- closes #mBody-->
 <!--#include virtual="/inc/footer.html" -->
