@@ -1,4 +1,4 @@
-<!--#include virtual="/inc/meta.html" -->
+u<!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan News" href="http://moztw.org/xmlnews.rdf" />
@@ -36,9 +36,9 @@
   </div>
   
   <div class="frontcolumnlast">
-    <h2><a href="http://gfx.tw/">gfx.tw 抓火狐網站</a></h2>
-    <a href="http://gfx.tw/"><img src="/foxmosa/images/foxmosa-twitplurk-gfx.png" class="promo" alt="foxmosa gfx icon" border="0"></a> 
-	<p><a href="http://gfx.tw/">抓火狐</a> 是屬於您的個人化 Firefox 推廣平台。現在就加入大家的行列，向您的親朋好友推薦 Firefox！</p>
+    <h2><a href="http://gfx.tw/">秀出你的風格</a></h2>
+    <a href="/events/3.6personas/index.html"><img src="/images/personas-icon.png" alt="Personas icon" width="72" height="60" border="0" class="promo"></a> 
+	<p>Firefox 3.6 新增了 Personas 個性面板，你用過了嗎？跟我們<a href="/events/3.6personas/index.html">一起拍有趣的照片</a>，讓草根推廣力量再現奇蹟！</p>
   </div>
   <br style="clear: both;">
 
@@ -49,9 +49,10 @@
     <div style='width: 35%; float: right;'>
 	  <h2>快速捷徑</h2>
     <ul class="news" style="margin-left: 10px;">
+      <li><a href="http://gfx.tw/">gfx.tw 抓火狐</a></li>
       <li><a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
-    	<li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
     	<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
+    	<li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
     	<li><a href="http://wiki.moztw.org/index.php/%E7%B6%B2%E8%B7%AF%E8%B3%87%E6%BA%90">網路資源</a></li>
     </ul>
     </div>
