@@ -147,9 +147,9 @@
 		<h5>Firefox 效能：快 — 更快 — 超快</h5>
 		<img src="images/performance-chart.png" alt="速度比較" />
 		<ul id="performance-chart-time">
-			<li>18,148 ms</li>
-			<li>3,669 ms</li>
-			<li>1,524 ms!</li>
+			<li>3,198 ms</li>
+			<li>1,188 ms</li>
+			<li>995 ms!</li>
 		</ul>
 		<p>* 測試環境：在 Windows 7 上進行 SunSpider 測試</p>
 	</div>
