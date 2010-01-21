@@ -44,7 +44,7 @@ table {
         <p>值得一提的功能包括：</p>
 
         <ul>
-            <li>提供超過 70 種語言支援——取得您的<a href="/en-US/firefox/all.html#languages">本地化版本</a>。</li>
+            <li>提供超過 70 種語言支援——取得您的<a href="http://www.mozilla.com/en-US/firefox/all.html#languages">本地化版本</a>。</li>
             <li>支援新型態的佈景主題 <a href="http://www.getpersonas.com/">Personas</a> 個性面板，只要點一下滑鼠即可更換 Firefox 的外觀。</li>
             <li>藉由停用<a href="http://theunfocused.net/2009/10/06/firefox-3-6-knows-when-your-plugins-are-out-of-date/">久未更新的外掛程式</a>提供使用者較安全的瀏覽環境。</li>
             <li>開放、原生的影片現在可以<a href="http://mozillalinks.org/wp/2009/10/firefox-3-6-gets-full-screen-native-video/">全螢幕</a>顯示，且支援 <a href="https://developer.mozilla.org/En/HTML/Element/Video">poster frames</a>。</li>
