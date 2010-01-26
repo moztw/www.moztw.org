@@ -19,13 +19,16 @@
 }
 .top-features li {
 	float: left;
-	width: 33%; height: 90px;
+	width: 33%; 
+	height: 7.5em;
 	list-style: none;
 	display: block;
 }
 
 .top-features strong {
 	font-size: 1.2em;
+	height:1.5em;
+	overflow:hidden;
 	display: block; width: 95%;
 	border-bottom: 1px solid #cccccc;
 }
@@ -41,6 +44,10 @@
 }
 .top-features .improved {
 	background-color: #CB44A9;
+}
+
+#mainContent h3 {
+	padding-top:20px;
 }
 
 .upgrade-img {
@@ -116,7 +123,7 @@
 			<p><span class="new">新增</span> 瀏覽網頁更快速，且使用更少記憶體！</p>
 		</li>
 		<li>
-			<strong>反偽造、惡意程式網站</strong>
+			<strong>反偽造、惡意網站</strong>
 			<p><span class="improved">強化</span> 享受最高級的防護措施，幫您把線上壞蛋擋在門外。</p>
 		</li>
 		<li>
