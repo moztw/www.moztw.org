@@ -25,6 +25,10 @@
 	display: block;
 }
 
+.top-features li p{
+	margin-top:5px;
+}
+
 .top-features strong {
 	font-size: 1.2em;
 	height:1.5em;
