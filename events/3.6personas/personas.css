@@ -9,11 +9,12 @@ body {
     margin : 15px;
     padding : 0;
     border : 2px dashed #7e7e7e;
-    font : 12px, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font : 1em, Verdana, Geneva, Arial, Helvetica, sans-serif;
     line-height : 1.6;
     color : #444;
 }
 h1 { 
+	font-family:Georgia,"Times New Roman", sans-serif;
 	margin : 0; 
 	font-size: 1.5em;
 }
@@ -41,7 +42,7 @@ hr {
 }
 ul, ol { 
 	margin : 0 0 0 10px; 
-	font-size: 0.9em;
+	font-size: 1em;
 }
 
 #instructions {
