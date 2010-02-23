@@ -1,19 +1,14 @@
 <!--#include virtual="/inc/meta.html" -->
 <title> 五月系列活動 - Mozilla Taiwan, MozTW.org</title>
 <style type="text/css">
-<!--
 
-.front-feature {
-	background: #FFFFFF url('eventpic.php')  left bottom no-repeat;
+<!--
+@import url(/css/keypoint-radius.css);
+-->
+.key-point {
+	background:url('20090602.jpg') no-repeat left bottom #E4ECEC;
 	height:295px;
 	width:880px;
-}
-
-#front-feature #feature-content {
-	margin: 0px;
-	padding: 0 10px;
-	height: 302px;
-	width:860px;
 }
 
 #mainContent {
