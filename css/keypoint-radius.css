@@ -1,0 +1,21 @@
+/* mozilla.org Cavendish Content Styles
+ * Design by SilverOrange
+ * Markup Reference classes organized by fantasai
+ * 取消 Feature Block CSS 圓角 Hack，
+ * 新增 CSS 圓角 
+ */
+
+.key-point:before {
+	display: none;
+}
+.key-point {
+	background: #e4ecec;
+	-moz-border-radius:6px 6px 6px 6px;
+	border-radius: 6px;
+	-moz-box-shadow: 1px 1px 0px #DDD;
+	-webkit-box-shadow: 1px 1px 0px #DDD;
+}
+.key-point:after {
+	display: none;
+	clear: both;
+}

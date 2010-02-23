@@ -1,0 +1,325 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>參與我們 - MozTW, Mozilla Taiwan 正體中文</title>
+<style type="text/css">
+<!--
+@import url(/css/keypoint-radius.css);
+-->
+.key-point {
+	background:url("contribute.png") no-repeat scroll right top #E4ECEC;
+	height:93px;
+}
+ul.mailing-list li {
+	clear: both;
+}
+ul.mailing-list span.title {
+	clear: both;
+	display: block;
+	font-weight: bold;
+}
+ul.mailing-list span.length {
+	float: right;
+	color: #999;
+	clear: both;
+}
+ul.mailing-list a { /* author */
+	float: left;
+	clear: left;
+}
+ul.mailing-list span.date {
+	float: right;
+	clear: right;
+}
+div.toggle, ol.toggle {
+	display: none;
+}
+h3.toggle, span.toggle {
+	cursor: pointer;
+	display: block;
+}
+li {
+	clear: left;
+}
+h3 .indicator, span .indicator {
+	background-color: #888;
+	color: #fff;
+	float: left;
+	width: 15px; height: 15px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	font: 15px/15px sans-serif;
+	text-align: center;	
+	margin: 3px 4px 2px 0;
+}
+.vacant {
+	background-color: #CB44A9;
+	color: #fff;
+	font-weight: normal;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	padding: 0 2px;
+}
+.wanted {
+	background-color: #65B253;
+	color: #fff;
+	font-weight: normal;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	padding: 0 2px;
+}
+</style>
+<noscript>
+<style type="text/css">
+.mailing-list { display: none }
+div.toggle, ol.toggle {
+	display: block;
+}
+h3.toggle, span.toggle {
+	cursor: default;
+}
+</style>
+</noscript>
+
+<!--#include virtual="/inc/class_contribute.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+<div class="key-point">
+	<div>
+		<div>
+			<h2>參與我們</h2>
+			<p>我們想要讓網路變的更好。歡迎參與我們的任務，成為推廣網路自由的一份子！</p>
+		</div>
+	</div>
+</div>
+
+<div id="mainContent" class="right">
+	<p>您不一定得是專業的程式設計師，只要有個熱情的心，願意自己探索該任務的工作內容。歡迎來 MozTW 貢獻自己的時間與心力，開創散播自由的無限可能！目前正在進行下列工作，誠徵同好輔助或是接手以下工作 —— 不用怕自己的能力不符要求，我們完全接受 on-the-job training！</p>
+<h3>文件專案 / 技術支援服務</h3>
+<p>整理說明文件，提供軟體使用問題方面的協助；對一般使用者的第一線！</p>
+<div>
+<ul>
+<li><strong>討論區技術支援 -  使用者技術支援<sup class="wanted">長期招募中</sup></strong>：回答新使用者在 <a title="MozTW 討論區" href="http://forum.moztw.org/">MozTW 討論區</a>上詢問的軟體使用問題 －－  是的，不需向我們報名，只要您有回過文章，您就已經參與我們了！</li>
+<li><strong>討論區技術支援 - 軟體除錯<sup class="wanted">長期招募中</sup></strong>：確認使用者回報的軟體問題，向開發方提出錯誤報告（英文或中文；可以使用中文由在地化經理轉介）</li>
+<li><strong>文件專案 - Mozilla Links 中文版「機動隊隊長」<sup class="vacant">徵才中</sup></strong>：規劃 <a title="Mozilla  Links 部落格" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 部落格</a>文章主題，協調翻譯與校訂。</li>
+<li><strong>文件專案編輯 - Mozilla Links 中文版<sup class="wanted">長期招募中</sup></strong>：翻譯與校訂文章內容；使用 Mozilla  Links Editors 郵件群組和其他編輯溝通。</li>
+<li><strong>文件專案 - <a title="Mozilla Support" href="http://support.mozilla.com/">Mozilla  Support</a> 與 <a title="MozTW  Wiki" href="http://wiki.moztw.org/">MozTW Wiki</a> 管理<sup class="vacant">徵才中</sup></strong>：整理說明文件與常見的技術支援需求；轉移主網站上的舊內容。 </li>
+<li><strong>討論區管理員<sup class="wanted">長期招募中</sup></strong>：整理討論區內容，移動/移除不適合的文章，執行管理規則。</li>
+</ul>
+</div>
+<h3>活動企劃</h3>
+<p>規劃 MozTW 的實體與線上推廣活動。</p>
+<div>
+<ul>
+<li><strong>活動企劃 - 單一與例行活動<sup class="vacant">徵才中</sup></strong>：處理 MozTW 實體活動的地點、活動內容等安排。例如 <a title="MozTW at COSCUP  2009" href="http://blog.toomore.net/2009/08/moztw-at-coscup-2009.html">MozTW at COSCUP 2009</a>、<a href="http://wiki.moztw.org/index.php/%E5%88%86%E9%A1%9E:%E6%91%A9%E8%8C%B2%E9%80%A3%E7%BA%8C%E8%81%9A">MozTW 連續聚</a>、<a href="http://mozlinks-zh.blogspot.com/2009/03/moztw-lab_08.html">MozTW Labs</a></li>
+<li><strong>活動企劃 - Release 規劃</strong>：規劃新版軟體釋出時需要的相關實體與線上宣傳活動，例如 <a title="Firefox 3 Release Party" href="http://moztw.org/events/firefox3party/">Firefox 3 狐迷同樂會</a>。</li>
+<li><strong>推廣活動企劃</strong>：社群推廣活動規劃及執行，專營網路社群低成本、高歡樂的活動。</li>
+</ul>
+</div>
+<h3>在地化專案</h3>
+<p>教狐狸說中文 －－ 負責管理與對 Mozilla 提交在地版本的程式碼與決策。</p>
+<div>
+<ul>
+<li><strong>Localization project owner - Firefox and Firefox for Mobile<sup class="vacant">Vacant</sup></strong></li>
+<li><strong>Localization project owner - Thunderbird<sup class="vacant">Vacant</sup></strong></li>
+<li><strong>Localization project owner - Sunbird</strong></li>
+<li><strong>Localization project owner - SeaMonkey<sup class="vacant">Vacant</sup></strong> 
+<ul>
+<li><span class="toggle">Requirement: </span>
+<ol class="toggle">
+<li>A time frame  available to see through at least one version of software releases,  usually lasting 6 to 9 months.&nbsp;</li>
+<li>Ability to collect, accept,  and organize UI translation suggestions on various channels, e.g. <a title="forum" href="http://forum.moztw.org/viewforum.php?f=4">forum</a>,  e-mails, even <a title="Twitter" href="http://twitter.com/">Twitter</a>.</li>
+<li>Ability to handle  software UI wording with great care, and with patience on UI testing.</li>
+<li>Ability to read  through and follow instructions from Mozilla localization team.</li>
+<li>Ability to  communicate with Mozilla personnel in English at <a title="Bugzilla" href="http://bugzilla.mozilla.org/">Bugzilla</a> and mailing lists. </li>
+<li>Willingness to give  presentations to the OSS community at large when required. </li>
+</ol>
+</li>
+</ul>
+</li>
+<li><strong>Localization project owner - Camino<sup class="vacant">Vacant</sup></strong> 
+<ul>
+<li>Refer to above for requirements. <ol>
+<li>Also, knowledge of Mac software localization is required. </li>
+</ol></li>
+</ul>
+</li>
+<li><strong>Localization project owner - addons.mozilla.org</strong></li>
+<li><strong>Localization project owner - Mozilla websites<sup class="vacant">Vacant</sup></strong><br /> 
+<ul>
+<li>Refer to above for requirements. </li>
+</ul>
+</li>
+</ul>
+</div>
+<h3>美術設計</h3>
+<p>為所有網頁與出版物設計漂亮的畫面；妝點大家的螢幕與生活。</p>
+<div>
+<ul>
+<li><strong>美術設計/互動設計 - 網站<sup class="vacant">徵才中</sup></strong>：MozTW 主網站、抓火狐、其他活動頁面<br /> 
+<ul>
+<li><span class="toggle">需求: </span><ol class="toggle">
+<li>願意和網頁設計師合作，建立符合需求的互動設計 </li>
+<li>願意在 UI 互動測試後重新改善設計 </li>
+</ol></li>
+</ul>
+</li>
+<li><strong>美術設計 - 平面/圖形宣傳物<sup class="wanted">長期招募中</sup></strong>：配合實體活動製作</li>
+<li><strong>美術設計 - 個性面版「Personas」<sup class="wanted">長期招募中</sup></strong>：製作人人喜愛的個性面版，讓火狐穿新衣！</li>
+<li><strong>美術設計 - 狐耳摩莎<sup class="wanted">長期招募中</sup></strong>：為 MozTW 吉祥物「狐耳摩莎」設計各種活動用的圖像。需以 CC 授權釋出著作。</li>
+</ul>
+</div>
+<h3>Developer /  System Admin</h3>
+<p>開發與技術傳教；網站系統維護。</p>
+<div>
+<ul>
+<li><strong>Add-on Developer</strong>: 開發 Mozilla 程式的擴充套件；舉辦開發講座時擔任講者。</li>
+<li><strong>Computer system administrator</strong>: 維護 MozTW 網站主機的順利運作。<br /> 
+<ul>
+<li><span class="toggle">Requirement: </span><ol class="toggle">
+<li>Ability to work on POSIX shell. </li>
+<li>Experience in Ubuntu/Debian  or FreeBSD server administration. </li>
+</ol></li>
+</ul>
+</li>
+<li><strong>Web developer - <a title="gfx.tw" href="http://gfx.tw/">gfx.tw</a></strong>: 協助開發社群行銷計畫「抓火狐」的相關功能。 
+<ul>
+<li><span class="toggle">Requirement: </span><ol class="toggle">
+<li>Knowledge of web development on the LAMP platform. </li>
+<li>Intermediate skills of JavaScript, PHP, and any of the MVC model frameworks (e.g.  CodeIgniter, CakePHP) </li>
+<li>Willingness to read through English  documentations and issue lists when debugging. </li>
+<li>Experience and knowledge in building a user-generated content website, with understanding to methods in boosting user participation. </li>
+<li>Optionally,  the ability to design UI graphics. </li>
+</ol></li>
+</ul>
+</li>
+<li><strong>Web developer -  <a title="moztw.org" href="http://moztw.org/">moztw.org</a><sup class="vacant">Vacant</sup></strong>: 協助維護 MozTW 網站<br /> 
+<ul>
+<li><span class="toggle">Requirement: </span><ol class="toggle">
+<li>Knowledge of various web software, e.g. phpBB, Planet, MediaWiki, etc. </li>
+<li>Willingness to be on call for unfortunate emergencies. </li>
+<li>Ability to work on  POSIX shell. </li>
+</ol></li>
+</ul>
+</li>
+<li><strong>Web developer - other projects<sup class="wanted">長期招募中</sup></strong>: 實作其他人企劃的網路服務，或是實做/架設自己的；例如<a href="http://www.youtube.com/watch?v=cDvp7Ap2f_A">MozTW 自投羅網</a>、<a href="http://translate.moztw.org/">協同翻譯站</a>。</li>
+</ul>
+</div>
+</div>
+<div id="side" class="right">
+<h3>如何報名？</h3>
+<p>大部分的工作都不用報名，做就對了！在地化、網站等相關工作，您需要找到目前負責協調的社群成員，請到 <a href="https://groups.google.com/group/moztw-general">moztw-general</a> 郵件群組自我介紹，並說明您想協助哪些工作。</p>
+<h3>關於 MozTW</h3>
+<p>關於 Mozilla Taiwan Community 的緣起、任務與目前主要成員，請參考<a href="/about/">關於本站</a>頁面。</p>
+<h3>MozTW 郵件群組</h3>
+<p>歡迎您至 MozTW 的 Google Groups 郵件討論群組「<a href="https://groups.google.com/group/moztw-general">moztw-general</a>」參與我們的討論。請注意：</p>
+<ul>
+	<li>這<strong>不是技術支援信箱</strong>——Firefox 疑難雜症請至<a href="http://forum.moztw.org/">討論區</a>發問。</li>
+	<li>您可以使用任何的信箱訂閱與發言，但網頁介面發言需使用 Google 帳號（這是技術限制）</li>
+	<li>為了抵禦 spam，首次發言將經過人工審核；請保持耐心，謝謝！</li>
+</ul>
+<h4 class="mailing-list">郵件群組近期主題</h4>
+<ul class="mailing-list">
+	<li id="mailing-list-loading">載入中...</li>
+</ul>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+/*
+ * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
+ *
+ * Copyright (c) 2009 jQuery HowTo
+ *
+ * Licensed under the GPL license:
+ *   http://www.gnu.org/licenses/gpl.html
+ *
+ * URL:
+ *   http://jquery-howto.blogspot.com
+ *
+ * Author URL:
+ *   http://me.boo.uz
+ *
+ */
+(function($){$.extend({jGFeed:function(url,fnk,num,key){if(url==null){return false;}var gurl="http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;if(num!=null){gurl+="&num="+num;}if(key!=null){gurl+="&key="+key;}$.getJSON(gurl,function(data){if(typeof fnk=="function"){ if (data.responseData)fnk.call(this,data.responseData.feed);else fnk.call(this,false);}else{return false;}});}});})(jQuery);
+</script>
+<script type="text/javascript">
+function updateFeed() {
+	$.jGFeed(
+		'http://groups.google.com/group/moztw-general/feed/atom_v1_0_msgs.xml', //?' + parseInt((new Date()).getTime()/30*60*1000), // Don't use this hack coz we need scoring=h
+		function (feed) {
+			if (!feed) {
+				//Failed
+				$('.mailing-list').hide();
+				return;
+			}
+			$ul = $('ul.mailing-list');
+			var thread = {};
+			$.each(
+				feed.entries,
+				function () {
+					var cleantitle = this.title.replace(/(Re|回覆)(:|：) ?/g, '').replace(/\[(moztw-general|MozTW-Dev)\] ?/g, '');
+					if (!thread[cleantitle]) {
+						thread[cleantitle] = [];
+					}
+					if (thread[cleantitle].length >= 3) {
+						if (!thread[cleantitle].mlength) thread[cleantitle].mlength = 0;
+						thread[cleantitle].mlength++;
+						return;
+					}
+					var d = new Date(this.publishedDate);
+					thread[cleantitle].push(
+						{
+							link: this.link.replace(/^http:/,'https:'),
+							author: this.author,
+							date: (d.getMonth()+1).toString(10) + '/' + d.getDate().toString(10) + ' ' + d.getHours().toString(10) + ':' + ((d.getMinutes() < 10)?'0':'') + d.getMinutes().toString(10)
+						}
+					);
+				}
+			);
+			$ul.empty();
+			$.each(
+				thread,
+				function (key) {
+					var $li = $('<li />').append($('<span class="title" />').text(key));
+					$.each(
+						this,
+						function () {
+							$li
+							.append($('<a />').attr('href', this.link).text(this.author))
+							.append($('<span class="date" />').text(this.date))
+						}
+					);
+					if (this.mlength) {
+						//$li.append($('<span class="length" />').text('超過' + (this.mlength + this.length).toString(10) + '篇...'));
+						$li.append($('<span class="length" />').text('(~' + (this.mlength + this.length).toString(10) + ')'));
+					} else {
+						$li.append($('<span class="length" />').text('(' + this.length.toString(10) + ')'));
+					}
+					$ul.append($li);
+				}
+			);
+		},
+		100 // As many as we could get.
+	);
+}
+
+$(function(){
+	updateFeed();
+	setInterval(
+		updateFeed,
+		60*60*1000 // 1hr "The Google feed crawler ("Feedfetcher") retrieves feeds from most sites less than once every hour."
+	);
+	$('h3.toggle, span.toggle')
+	.prepend($('<span class="indicator" />').text('+'))
+	.bind('click', function () {
+		$(this).nextAll('div.toggle:first, ol.toggle:first').slideToggle(250); 
+		$i = $(this).children('.indicator');
+		if ($i.text() === '+') $i.text('-');
+		else $i.text('+');
+	});
+});
+</script>
+
+<!--#include virtual="/inc/footer.html" -->
+

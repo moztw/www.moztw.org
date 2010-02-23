@@ -70,6 +70,7 @@
 	#header ul li:hover { background-position: 100% -400px; }
 	
 	body.sectionAbout li#menu_aboutus a,
+	body.sectionContribute li#menu_contribute a,
 	body.sectionProducts li#menu_products a,
 	body.sectionSupport li#menu_support a,
 	body.sectionDevelopers li#menu_developers a,
@@ -79,6 +80,7 @@
 	}
 	
 	body.sectionAbout li#menu_aboutus,
+	body.sectionContribute li#menu_contribute,
 	body.sectionProducts li#menu_products,
 	body.sectionSupport li#menu_support,
 	body.sectionDevelopers li#menu_developers,
@@ -88,6 +90,7 @@
 	}
 	
 	body.sectionAbout li#menu_aboutus:hover,
+	body.sectionContribute li#menu_contribute:hover,
 	body.sectionProducts li#menu_products:hover,
 	body.sectionSupport li#menu_support:hover,
 	body.sectionDevelopers li#menu_developers:hover,
@@ -96,6 +99,7 @@
 	}
 	
 	body.sectionAbout li#menu_aboutus:hover a,
+	body.sectionContribute li#menu_contribute:hover a,
 	body.sectionProducts li#menu_products:hover a,
 	body.sectionSupport li#menu_support:hover a,
 	body.sectionDevelopers li#menu_developers:hover a,

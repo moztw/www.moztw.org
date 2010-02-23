@@ -1,8 +1,12 @@
 <!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
+<link rel="stylesheet" type="text/css" href="/css/legacy.css" media="all">
 <!--#include virtual="/inc/class_docs.html" -->
 <!--#include virtual="/inc/header.html" -->
-
+<div class="key-point legacy">
+<h2>舊文件</h2>
+<p>此處文件僅供參考，請自行考量時效性與適用程度。</p>
+</div>
 <div id='mainContent' class='right'>
 	<h1> 入門與推廣文件 </h1>
 	<h3> 一般操作、設定技巧 </h3>
