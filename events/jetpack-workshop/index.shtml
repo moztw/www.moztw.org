@@ -1,0 +1,96 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>Jetpack 擴充套件工作坊 - Mozilla Taiwan</title>
+<link rel="stylesheet" type="text/css" href="/css/keypoint-radius.css" media="screen">
+<link rel="stylesheet" type="text/css" href="event.css" media="screen">
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/inc/header.html" -->
+  <div class="key-point front-feature">
+    <div id="feature">
+      <h2>Jetpack 擴充套件工作坊</h2>
+      <p>Jetpack 是 Firefox 未來的擴充套件設計架構，比起舊有的擴充套件架構更為直接、簡單。</p>
+      <p>現在 OSSF 和 MozTW 聯手教你如何用 Jetpack 架構開發 Firefox 擴充套件。</p>
+<!--
+      <a href="#"><p id="applyNow">有興趣嗎？現在就前往 OSSF 網站報名吧。</p></a>
+	  	<ul id="global-info">
+    	  <li><a href="http://mozlinks-zh.blogspot.com/atom.xml" title="Mozilla Links RSS"><img src="/images/livemarks16.png" alt="RSS"></a></li>
+    	  <li><a href="http://www.google.com/calendar/embed?src=oib3k43ofedochrh6tqaqdva04%40group.calendar.google.com" title="活動行事曆"><img src="/images/ical.png" alt="行事曆"></a></li>
+    	</ul>
+-->
+    </div>    
+  </div>
+
+<div id="mainContent">
+  <div class="item-block" id="jw-tp">
+    <h3>Jetpack 工作坊台北場</h3>
+  	<ul>
+   	  <li>日期：2010年3月6日</li>
+   	  <li>時間：09:30 ~ 17:00</li>
+   	  <li>地點：復興北路99號12樓</li>
+   	  <li>人數：約 30 人</li>
+   	  <li>費用：全程免費</li>
+   	</ul>  
+    <div class='applyNow'><a href="http://whoswho.openfoundry.org/workshop/details/76--mozilla-firefox-jetpack.html">由此報名！</a></div>
+  </div>
+  <div class="item-block" id="jw-kh">
+    <h3>Jetpack 工作坊高雄場</h3>
+  	<ul>
+   	  <li>日期：2010年3月20日</li>
+   	  <li>時間：確定後公佈</li>
+   	  <li>地點：確定後公佈</li>
+   	  <li>人數：確定後公佈</li>
+   	  <li>費用：全程免費</li>
+   	</ul>  
+   	<div class='applyLater'><em>尚未開放報名，請隨時注意最新動態。</em></div>
+  </div>
+  <div class="item-block" id="jw-tc">
+    <h3>Jetpack 工作坊台中場</h3>
+  	<ul>
+   	  <li>日期：2010年4月3日</li>
+   	  <li>時間：確定後公佈</li>
+   	  <li>地點：確定後公佈</li>
+   	  <li>人數：確定後公佈</li>
+   	  <li>費用：全程免費。</li>
+   	</ul>  
+   	<div class='applyLater'><em>尚未開放報名，請隨時注意最新動態。</em></div>
+   </div>
+  <br style="clear:both;">
+  <h2>Jetpack 工作坊：加入<!--紅色有角-->三倍速開發的行列！</h2>
+	<p><a href="https://jetpack.mozillalabs.com/" title="Jetpack">Jetpack</a> 是 <A HREF="https://mozillalabs.com/">Mozilla Labs</A> 正在積極研發，將用於 Firefox 的新擴充套件開發框架，提供超簡單而更快速的套件開發、維護和散佈方案。只需要會簡單的 HTML 和 JavaScript，就可以輕鬆加入開發的行列。想了解目前的 Jetpack 框架和即將推出的 Jetpack Reboot 新結構嗎？</p>
+	<p>就讓「Jetpack 大使」小B 帶領您，一步一步學習<!--紅色有角-->三倍速的套件開發，並動手實做自己的 Jetpack 擴充套件！</p>
+	<p>本課程適合對 Firefox 套件開發有興趣、具備基本 JavaScript 程式設計能力者。<em>也歡迎想踏入瀏覽器擴充套件領域的網頁設計師參加</em>。</p>
+
+  <h2>講師介紹</h2>
+	<p><A HREF="http://blog.littleb.tc">尤孝庭</A> ( 笨笨的小B / ybite )，台大電機系就學中，長期研究網頁相關技術，是Mozilla首期「Jetpack 大使」的成員之一。</p>
+  <p>擴充套件作品有 <A HREF="https://addons.mozilla.org/zh-TW/firefox/addon/14650">Voyage</A> 及 <A HREF="https://addons.mozilla.org/zh-TW/firefox/addon/8888">nicoFox</A> 等，其中Voyage 獲得 Firefox 3.5 Extension Contest 優選獎。</p>
+
+	<h2>課程教材</h2>
+	<p>上課用的教材將會提供下載。<p>
+
+	<h2>學員作品</h2>
+	<p>學員作品將會在此展示。<p>
+</div>
+
+<!--
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript">
+function showItem(item){
+	$('#tab-menu a').removeClass('active');
+	$(item+'-button').addClass('active');
+	$('.tab-block:not(' + item + ')').slideUp(300);
+	$(item).slideDown(300);
+}
+$(function () {
+	$('.tab-block:not(#material)').hide();
+	$('#tab-menu a').bind(
+		'click',
+		function () {
+			var item = this.href.substr(this.href.indexOf('#'), this.href.length);
+			showItem(item);
+			return false;
+		}
+	);
+	showItem('#material');
+});
+</script>
+-->
+<!--#include virtual="/inc/footer.html" -->
