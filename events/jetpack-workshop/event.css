@@ -1,12 +1,15 @@
-﻿#mainContent{
-	margin-left: 0;
+#mainContent{
+	margin:1em;
+}
+#mainContent h2{
+	font-weight:bold;
 }
 .front-feature {
 	background: #e4ecec url("feature_bg.jpg") no-repeat scroll center left !important;
+	height:160px;
 }
 #feature {
 	padding:6px;
-	height: 150px;
 	margin-left: 55%;
 	position: relative;
 	background: url(bg-alpha.png);
@@ -73,15 +76,19 @@ ul#global-info li{
 
 .item-block{
 	float:left;
-	/*width: 78%;*/
-	width: 30%;
+	width: 29%;
 	padding:1%;
-	margin-left:1%;
 	-moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-  background-color:#E0F7C5;
+	border-radius: 8px;
+	background-color:#E0F7C5;
+	margin-left:15px;
+	margin-bottom:5px;
+	-moz-box-shadow:1px 1px 0 #DDDDDD;
 }
+.item-block#jw-tp{
+	margin-left:5px;
+}
+
 .item-block h3{
 	font-size: 1.3em;
 	font-weight: bold;
