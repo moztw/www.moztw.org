@@ -119,8 +119,7 @@ Email:
 			<span class="adr"><span class="country-name">Taiwan (R.O.C.)</span></span>
 		</div>
 	</div>
-
-<div class="vcard">
+	<div class="vcard">
 		<p class="fn n"> 
 			<span class="family-name">簡</span><span class="given-name">冠庭</span> <span class="nickname">Tim</span>
 		</p>
@@ -132,19 +131,19 @@ Email:
 			<span class="adr"><span class="country-name">Taiwan (R.O.C.)</span></span>
 		</div>
 	</div>
-<div class="vcard">
+	<p>特別感謝：</p>
+	<div class="vcard">
 		<p class="fn n"> 
 			<span class="family-name">賴</span><span class="given-name">韋辰</span> <span class="nickname">lRabbit</span>
 		</p>
 		<p>WWW: <a href="http://abev66.blogspot.com/" class="url ">http://abev66.blogspot.com/</a></p>
 		<p>E-mail: <a class="email" href="mailto:abev66@mail.moztw.org">abev66@mail.moztw.org</a>
-		<p class="note">Thunderbird 正體中文在地化專案經理。</p>
+		<p class="note">Thunderbird 正體中文在地化專案經理 (專職第一代)</p>
 		<div class="vcard-additional-info">
 			<span class="org">Mozilla Taiwan</span>
 			<span class="adr"><span class="country-name">Taiwan (R.O.C.)</span></span>
 		</div>
 	</div>
-	<p>特別感謝：</p>
 	<div class="vcard">
 		<p class="fn n"> 
 			<span class="family-name">孫</span><span class="given-name">偉倫</span> <span class="nickname">Josesun</span>
@@ -169,7 +168,6 @@ Email:
 			<span class="adr"><span class="country-name">Taiwan (R.O.C.)</span></span>
 		</div>
 	</div>
-
 	</div>
 </div>
 <!--#include virtual="/inc/footer.html" -->
