@@ -4,7 +4,7 @@
 <!--
 #product-desc.product-thunderbird {
 	background: transparent url(images/product-thunderbird3-screen.png) no-repeat scroll 0 0;
-	padding: 40px 0 75px;
+	padding: 40px 0 60px;
 }
 #product-desc.product-thunderbird p {
 	padding-left:177px;
@@ -54,15 +54,16 @@
 
 </div>
 <div id="side" class="right">
-    <h3>資源與鏈結</h3>
-    <ul class="compact">
-    <li><a href="http://forum.moztw.org/viewforum.php?f=9">MozTW Thunderbird 中文討論區</a></li>
+	<h3>資源與鏈結</h3>
+	<ul class="compact">
+	<li><img src="images/gmail-favicon.ico">&nbsp;<a href="http://blog.bobchao.net/2009/12/thunderbird-3-google.html">GMail 用戶請注意 IMAP 相關設定</a>（柏強 Blog）</li>
+	<li><a href="http://forum.moztw.org/viewforum.php?f=9">MozTW Thunderbird 中文討論區</a></li>
 	<li><a href="https://addons.mozilla.org/zh-TW/thunderbird/">Thunderbird 附加元件網站</a></li>	
 	<li><a href="https://addons.mozilla.org/zh-TW/thunderbird/browse/type:2/cat:all?sort=popular">取得佈景主題</a></li>
 	<li><a href="http://spreadthunderbird.com/affiliates">尋找推廣貼紙</a>（英）</li>
 	<li><a href="http://forums.mozillazine.org/viewforum.php?f=39">mozillaZine Thunderbird Support Forum</a>（英）</li>
 	<li><a href="http://www.mozillamessaging.com/support/">Thunderbird Help & Tutorials</a>（英）</li>
-    </ul>
+	</ul>
 </div>
 
 <!--#include virtual="/inc/footer.html" -->

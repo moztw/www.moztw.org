@@ -1,24 +1,75 @@
 <!--#include virtual="/inc/meta.html" -->
-
-<title>MozTW Events</title>
-<link rel="stylesheet" type="text/css" href="events.css" media="screen"> 
-
-<!--#include virtual="/inc/class_press.html" -->
-
+<!--#include virtual="/inc/title.html" -->
+<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan News" href="http://moztw.org/xmlnews.rdf" />
+<style type="text/css">
+<!--
+.front-feature { background: #E4EcEc url(images/36-feature-back.png) bottom right no-repeat;}
+-->
+</style>
+<!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-<h1>MozTW 過去、現在及未來的活動</h1>
+<div class="key-point front-feature" id="front-feature">
+  <div id="feature-content">
+    <h2><a href="/firefox/"><img src="images/36-firefox-title.png" alt="Firefox 3.6" height="54" width="283"></a></h2>
+    <p>享受網路超個性，<a href="/firefox/">Firefox 3.6</a> 隆重登場，更創新、更自由！</p>
+    <div class="download">
+		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 3.6</strong></a></h3>
+ 		<div style='background: url(/images/product-download-firefox.png) no-repeat;margin-top: 5px;'>
+		<!--#include virtual="/inc/dlff.html" -->
+		</div>
+    </div>
+  </div>
+</div>
 
-<ol id="event-list">
-    <li id="jetpack-workshop"><a href="jetpack-workshop/">Jetpack 擴充套件工作坊<span class="date">2010/03</span></a>
-    <li id="personas"><a href="3.6personas/">秀風格<span class="date">2010/01</span></a>
-    <li id="may2009"><a href="may2009/">火狐月<span class="date">2009/05</span></a>
-    <li id="ie8"><a href="ie8/">用 Firefox 體驗 IE8 功能<span class="date">2009/04/01</span></a>
-    <li id="vday2009"><a href="vday2009/">MozTW Foxmosa 情人節電子賀卡<span class="date">2009/02/14</span></a>
-    <li id="foxmosa-tour"><a href="foxmosa-tour/">火狐鬥陣遊台灣<span class="date">2009/05</span></a>
-    <li id="firefox3party"><a href="firefox3party/">Firefox 3 Party<span class="date">2008/07/19</span></a>
-    <li id="record2008"><a href="record2008/">手滑創記錄<span class="date">2008/05/30</span></a>
-    <li id="firefox2party"><a href="firefox2party/">Firefox 2 Party<span class="date">2006/11/12</span></a>
-</ol>
+<div id="mBody">
+  <div class="frontcolumn">
+      <h2><a href="/thunderbird/">Thunderbird</a></h2>
+      <a href="/thunderbird/"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
+	  <p><a href="/thunderbird/">Thunderbird 3</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
+  </div>
+  <div class="frontcolumn">
+    <h2><a href="/events/jetpack-workshop/">Jetpack 擴充套件工作坊</a></h2>
+    <a href="/events/jetpack-workshop/"><img src="/events/jetpack-workshop/jetpack-icon.png" class="promo" alt="Jetpack icon" border="0"></a>
+    <p><a href="/events/jetpack-workshop/">台北場搶先報名中！</a><br>三四月間，由 Mozilla Jetpack 大使小B，在北中南三場工作坊中，帶領您認識 Firefox 全新 Jetpack 套件開發框架，並動手實作 Jetpack 套件。</p>
+  </div>
+  
+  <div class="frontcolumnlast">
+    <h2>遇見狐耳摩莎</h2>
+    <img src="/foxmosa/images/foxmosa-plurking-64.png" class="promo" alt="foxmosa plurk/twitter icon" border="0">
+	<p>可愛的狐耳摩莎 Foxmosa 正在 <a href="http://twitter.com/foxmosa">推特</a>／<a href="http://www.plurk.com/foxmosa">噗浪</a> 上出沒，快快將它加入好友吧！</p>
+  </div>
+  <br style="clear: both;">
 
+  <!-- Start News Columns -->
+
+
+<div>
+    <div style='width: 35%; float: right;'>
+	  <h2>快速捷徑</h2>
+    <ul class="news" style="margin-left: 10px;">
+      <li><a href="http://gfx.tw/">gfx.tw 抓火狐</a></li>
+      <li><a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
+    	<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
+    	<li><a href="/events/">主題活動</a></li>
+    	<li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
+    	<li><a href="http://wiki.moztw.org/index.php/%E7%B6%B2%E8%B7%AF%E8%B3%87%E6%BA%90">網路資源</a></li>
+    </ul>
+    </div>
+    <div style='float: left; width: 63%;'>
+    <a href="/xmlnews.rdf">
+      <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16">
+    </a>
+    <h2 style="margin-top: 0;">
+      <a href="/news">最新消息與公告</a>
+    </h2>
+	<!--#include virtual="/inc/news.html" -->
+	</ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
+    </div>
+	<br style="clear: both;">
+  <!-- End News Columns -->  
+  </div>
+	<a href='news'>所有公告記錄</a>
+  </div>
 <!--#include virtual="/inc/footer.html" -->
