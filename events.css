@@ -1,0 +1,95 @@
+
+#event-list {
+    display: block;
+    padding: 1.7em 0 0;
+    margin: 0 -2.3em 0 0;
+}
+#event-list li {
+    display: block;
+    position: relative;
+    width: 34em;
+    margin: 0 1.7em 1.7em 0;
+    text-indent: 0;
+    padding: 0;
+    float: left;
+    border: 1px solid #aa6;
+    background: #ffd;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+#event-list li a,
+#event-list li a:hover {
+    display: block;
+    padding: 10px;
+    height: 70px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -webkit-text-stroke:1px transparent;
+    background: transparent;
+    font-size: 144%;
+    font-weight: bold;
+    text-indent: 5px;
+    text-decoration: underline;
+    text-shadow: 1px 0 6px #fff, -1px 0 6px #fff, 0 1px 6px #fff, 0 -1px 6px #fff, 1px 0 6px #fff, -1px 0 6px #fff, 0 1px 6px #fff, 0 -1px 6px #fff;
+}
+#event-list li a:hover {
+    color: #fff;
+    text-shadow: 1px 0 6px #f00, -1px 0 6px #f00, 0 1px 6px #f00, 0 -1px 6px #f00, 1px 0 6px #f00, -1px 0 6px #f00, 0 1px 6px #f00, 0 -1px 6px #f00;
+}
+#event-list li:hover {
+    border-color: #666;
+    -moz-box-shadow: 0 0 10px #666, 0 0 10px #666;
+    -webkit-box-shadow: 0 0 10px #666, 0 0 10px #666;
+    box-shadow: 0 0 10px #666, 0 0 10px #666;
+}
+
+#event-list li a .date,
+#event-list li a:hover .date {
+    color: #000;
+    font-size: 70%;
+    font-weight: normal;
+    text-shadow: none;
+    text-indent: 2px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6.2em;
+    padding: 4px;
+    background: #fff;
+    -moz-border-radius-topright: 9px;
+    -webkit-border-top-right-radius: 9px;
+    border-top-right-radius: 9px;
+    border: 1px solid #aa6;
+    border-width: 0 0 1px 1px;
+    
+}
+
+#event-list #firefox3party {
+    background: url("firefox3party/feature-firefox-3-party.png") no-repeat right bottom;
+}
+#event-list #firefox2party {
+    background: url("/images/feature-firefox-2-party.jpg") no-repeat right bottom;
+}
+#event-list #record2008 {
+    background: url("record2008/dday_header.jpg") no-repeat left top;
+}
+#event-list #ie8 {
+    background: url("ie8/ie8banner.png") no-repeat 30px 30px #2773bb;
+}
+#event-list #may2009 {
+    background: url("may2009/may5.jpg") no-repeat right bottom;
+}
+#event-list #foxmosa-tour {
+    background: url("foxmosa-tour/feature-foxmosa.png") no-repeat right bottom;
+}
+#event-list #vday2009 {
+    background: url("/images/vday_2009_card_800x500.png") no-repeat center center;
+}
+#event-list #personas {
+    background: url("/images/36-feature-back.png") no-repeat right bottom;
+}
+#event-list #jetpack-workshop {
+    background: url("/events/jetpack-workshop/feature_bg.jpg") no-repeat left -40px;
+}

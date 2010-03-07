@@ -39,41 +39,6 @@ ul#global-info li{
 /*=======================
   各場次資料
   =======================*/
-
-#tab-scroll {
-	font-size:1.3em;
-	width:17%;
-	float:left;
-	-moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-  background-color:#E0F7C5;
-}
-#tab-scroll a{
-	color: navy;
-	text-decoration:none;
-}
-#tab-scroll ul{
-	list-style-type:none;
-	margin:0;
-	padding:0;
-}
-#tab-scroll li{
-  display:block;
-	margin-top:0.5em;
-	padding:0.2em;
-	-moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
-}
-#tab-scroll li .active{
-	font-weight:bold;
-}
-
-.tab-block{
-	margin-left:18%;
-}
-
 .item-block{
 	float:left;
 	width: 29%;
@@ -85,17 +50,35 @@ ul#global-info li{
 	margin-bottom:5px;
 	-moz-box-shadow:1px 1px 0 #DDDDDD;
 }
-.item-block#jw-tp{
-	margin-left:5px;
+
+
+.tab-menu {
+	font-size:1.3em;
+	float:left;
+}
+li .active {
+	font-weight:bold;
 }
 
-.item-block h3{
-	font-size: 1.3em;
-	font-weight: bold;
-	border: none;
-	color: navy;
-	margin:0.2em 0;
+.tab-menu a{
+	text-decoration:none;
 }
+.tab-menu ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	-webkit-padding-start:0;
+}
+.tab-menu li{
+  display:block;
+	margin-top:0.5em;
+	padding:0.2em;
+}
+
+.tab-scroll{
+	margin-left:18%;
+}
+
 
 .applyLater{
 	margin:0.5em 1em;

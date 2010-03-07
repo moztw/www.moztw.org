@@ -6,7 +6,7 @@
 -->
 .key-point {
 	background:url("contribute.png") no-repeat scroll right top #E4ECEC;
-	height:93px;
+	height:100px;
 }
 ul.mailing-list li {
 	clear: both;
