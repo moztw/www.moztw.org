@@ -10,6 +10,7 @@
 <h1>MozTW 過去、現在及未來的活動</h1>
 
 <ol id="event-list">
+    <li id="jetpack-workshop"><a href="jetpack-workshop/">Jetpack 擴充套件工作坊<span class="date">2010/03</span></a>
     <li id="personas"><a href="3.6personas/">秀風格<span class="date">2010/01</span></a>
     <li id="may2009"><a href="may2009/">火狐月<span class="date">2009/05</span></a>
     <li id="ie8"><a href="ie8/">用 Firefox 體驗 IE8 功能<span class="date">2009/04/01</span></a>
