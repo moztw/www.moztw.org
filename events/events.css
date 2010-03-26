@@ -90,3 +90,6 @@
 #event-list #personas {
     background: url("/images/36-feature-back.png") no-repeat right bottom;
 }
+#event-list #jetpack-workshop {
+    background: url("/events/jetpack-workshop/feature_bg.jpg") no-repeat left -40px;
+}
