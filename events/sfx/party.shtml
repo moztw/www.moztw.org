@@ -13,7 +13,7 @@
 <body>
 <div id="outline">
 <!--#set var="titleString" value="Firefox 1.0 Party!" -->
-<!--#include virtual="/sfx/top_block.shtml" -->
+<!--#include virtual="/events/sfx/top_block.shtml" -->
 
 
 <div id="main-content">

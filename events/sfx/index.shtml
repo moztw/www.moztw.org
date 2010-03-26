@@ -17,7 +17,7 @@
 <div id="outline">
 <!-- ================================== TOP BOX ================================ -->
 <!--#set var="titleString" value="台灣 Firefox 放火行動展開!!" -->
-<!--#include virtual="/sfx/top_block.shtml" -->
+<!--#include virtual="/events/sfx/top_block.shtml" -->
 <!-- ======================= LEFT BOLOCK=======================
 											========================================-->
 <div id="leftbar">
