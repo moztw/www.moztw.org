@@ -15,7 +15,7 @@ Starting Update...
     style='padding: 5px; maring: 5px; cursor: wait;
 	    border: 1px solid green; 
             border-bottom: 1px dotted red'><?
-    $cmd = '/home/moztw/autoupdate/update.cgi';
+    $cmd = '/home/moztw/htdocs/autoupdate/update.cgi';
     $opt = '';
 
     if(isset($_POST["rebuild_md5"]) && $_POST["rebuild_md5"])
@@ -33,6 +33,7 @@ Starting Update...
     while($s= fgets($handle, 1024)) {
 	// read from the pipe
 	print htmlspecialchars($s);
+	fwrite($handle, "p\n");
 	ob_flush(); flush(); 
     }
     pclose($handle);
