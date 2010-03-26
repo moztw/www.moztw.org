@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>真是火大了!!</title>
+	<link rel="Shortcut Icon" type="image/png" href="pics/ffico.png">
+	<style type="text/css">
+	<!--
+		@import url("activityc.css");
+		@import url("common.css");
+	-->
+	</style>
+</head>
+
+<body>
+<div id="outline">
+<!-- ============================ top block ================================= -->
+<div id="topbar">
+    <div id="titleimg"><img src="pics/newfirefox_newlogo.png"></div>
+	<div id="title">
+	<h1>這下真的是<span class="fire">火</span>大了啦!!</h1></div>
+   	<div id="topmenu">
+	<a class="menulink" href="index">首頁</a>
+	<a class="menulink" href="party">Party</a>
+	<a class="menulink" href="conference">研討會</a>
+	<a class="menulink" href="activity">推廣活動</a>
+	<a class="menulink" href="http://photos.moztw.org/">相簿</a>
+	<a class="menulink" href="http://wiki.moztw.org/">Wiki</a>
+	<a class="menulink" href="http://forum.moztw.org">討論區</a>
+	</div>
+</div>
+<div style="clear:both"><hr></div>
+<!-- =============================== LEFT BLOCK ==========================
+										================================================= -->
+<div id="leftbar">
+	<h2>推廣週(11/15~11/21)</h2>
+	<p>
+		為了 Party 即將的到來，我們決定為期一個星期的宣傳活動，有鑑於此，我們決定徵召各也的愛好者，
+		配合我們的宣傳活動，並在當地舉辦 Party，這個 Party 不用相當的盛大(要辦的很大也可以，決定在您)，只要
+		三、五好友聚在一起，為 Firefox 祝賀，就可以了，同時，台北會有盛大的活動，為了廣大的外地朋友，我們有
+		許多活動，可以讓大家一起來參與的，底下是我們有一些活動。
+		
+			<h4>1.在各大 bbs 上宣傳</h4>
+			<div id="textbox">
+			你可以加上簽名檔、掛上動態看板、甚至申請進站畫面，底下是您可以下載的資源
+				<ul><li><a href="resource/firefox_sign1.ans">bbs 簽名檔1</a>(<a href="http://photos.moztw.org/displayimage.php?album=lastup&cat=0&pos=0">附圖</a>)作者：dinos</li>
+					<li><a href="resource/firefox_sign2.ans">bbs 簽名檔2</a>(<a href="http://photos.moztw.org/displayimage.php?album=lastup&cat=0&pos=1">附圖</a>)作者：dinos</li>
+					<li><a href="resource/firefox_note.ans">bbs 動態看板</a>作者：dinos</li>
+					<li><a href="resource/firefox_inbbs.ans">bbs 進站畫面</a>作者：dinos</li>
+					<li><a href="http://www.ossacc.org/Announcement/misc/FirefoxParty-1.0/party.html">EDM(電子海報)</a></li>
+				</ul>
+			</div>
+			
+			<h4>2.在當地舉辦 Party</h4>
+			<div id="textbox">
+			您可以辦一個聚會，不論大小，只要您願意一起來慶祝 Firefox 1.0 的推出即可，有一個重點需要注意的
+			是，如果可以的話，請回傳您的 Party 現場照片，讓更多人來分享您 Party 的喜悅，我們也很歡迎有創意的照
+			片，那樣更能展現 Firefox 的熱情，底下是流程 :)
+				<ol>
+					<li>到<a href="http://www.openforce.at/mozparty2/?view=TW"> mozilla party2 </a>報名，如果你們是一個團體，
+					請按右上角的 "Add your party"，就可以新建一個了，當然，如果您一個人的話，也可以自行挑選一個場地參加。</li>
+					<li>到台灣 mozilla 的 <a href="http://wiki.moztw.org/index.php/Current_events">wiki 系統</a>上回報。</li>
+					<li>最後，如果可以的話，傳回您的 Party 照片到<a href="http://photos.moztw.org/"> Moztw 相簿</a>上，因為，
+					會讓全世界都看到!!<img src="pics/XD.gif"></li>
+				</ol>
+			</div>
+	</p>
+</div>
+<!-- ========================== RIGHT BLOCK =============================
+								=============================================================== -->
+
+<div id="rightbar">
+	<h2>放<span class="fire">火</span>行動(11/1~11/21)</h2>
+	<p>我們學校的電腦，就該有 Firefox！是啊、是啊，你也是這麼想的吧！那麼，該你出馬囉...
+		你就是愛用 Firefox，可是一到計中或系／院的電腦教室，翻遍了電腦也找不著她的蹤影？
+		極力推動朋友使用 Firefox，但他們沒親眼看到也實在使不上力？機會來了！
+		Firefox 放火行動要你拿著我們提供的「傢伙」，到學校的電腦教室公然放火！
+		<span class="fire">選定目標＞掏傢伙＞放火！＞拍照炫耀!!</span>
+		
+  <h4>1.放火的方法</h4>
+		<ul>
+			<li>任何您想得到的宣傳方式</li>
+			<li>任何我們想不到的宣傳方式</li>
+			<li>任何大家想不到的宣傳方式</li>
+			<li>只要能宣傳 Firefox 給你身邊的人知道就是好方式</li>
+			<li>記得拍下您的宣傳照片</li>
+		</ul>
+		
+		<h4>2.上 wiki 回報：<a href="http://wiki.moztw.org/index.php/FirefoxWeek/Spread:Camp">大專院校串連放火聯絡區</a></h4>
+		<div id="textbox">
+			在這個地方，您可以號名更多的同好，您可以討論你們的活動，更可以參考其他學校的做法，達到全台串連的效果哦!!
+		</div>
+		
+		<h4>3.務必請上傳您的成果</h4>
+		<blockquote><span class="fire">我曾經有機會秀給全世界知道，可是我沒有把握.....</span>
+		<p>如果您不想出現以上的悔恨，那麼 Just do it! 上傳到 <a href="http://photos.moztw.org/">MozTW 寫真館</a>吧 ^_^</p>
+		</blockquote>
+		
+	
+		<h4>4.對 Firefox 傾訴您的愛</h4>
+		<div id="textbox">
+		你有什麼祝福的話，或者對 Firefox 鼓勵的話，我們都相當歡迎哦!! 來這裡訴說您的浪漫吧!!網址是：<a href="http://wiki.moztw.org/index.php/Firefox_bless">
+		http://wiki.moztw.org/index.php/Firefox_bless</a>
+		</div>		
+	</p>
+	
+</div>	
+<div style="clear:both"><hr></div>
+<!-- ==================== FOOT BOX ======================
+										============================================ -->
+<div id="footbar">
+<span style="float:left">Mozilla@Taiwan 官方社群</span><span style="float:right">網頁維護：dken</span> 
+</div>					
+</div>
+</body>
+</html>

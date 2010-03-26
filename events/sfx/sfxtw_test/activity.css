@@ -1,0 +1,36 @@
+.partyday {
+	color:#3399FF;
+	font-weight: bolder;
+	margin: 0px 2%;
+	text-decoration: none;
+}
+ol li {
+	margin: 0px 0px 4px 0px;
+}
+#leftbar {
+	float:left;
+	width: 45%;
+	padding: 0px 2% 20px 1%;
+	margin: 0px 0px 20px 0px;
+	border-right:2px solid #CCCCCC;
+}
+.leftbox {
+	padding: 0px 2% 0px 1%;
+}
+#leftbar h2 {
+	border-left:30px solid #FF9900;
+	border-bottom: 1px solid #FF9900;
+	padding: 5px 0px 0px 5px;
+}
+#rightbar {
+	float:left;
+	width: 45%;
+	padding: 0px 1%;
+	
+}
+#rightbar h2 {
+	border-left:30px solid #FF9900;
+	border-bottom: 1px solid #FF9900;
+	padding: 5px 0px 0px 5px;
+}
+

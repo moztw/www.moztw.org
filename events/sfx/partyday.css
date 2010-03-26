@@ -1,0 +1,120 @@
+.fire {
+	display: run-in;
+	margin: 0px;
+	color: #FF0000;
+}
+.menulink {
+	color: #FFFFFF;
+	font-weight: bolder;
+	margin: 0px 2%;
+	text-decoration: none;
+}
+.partyday {
+	color:#3399FF;
+	font-weight: bolder;
+	margin: 0px 2%;
+	text-decoration: none;
+}
+a {
+	color: #3399FF;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF9900;
+}
+body {
+	margin: 0px 0px 0px 2%;
+	padding: 0px;
+	line-height: 20px;
+}
+h1 {
+	line-height:2;
+	font-size: 250%;
+	font-weight: bold;
+	background-color: #CCFFCC;
+	padding:0px;
+	margin:0px;
+}
+h4 {
+	border-bottom: 1px solid #CCCCCC;
+}
+#title {
+	float:left;
+	width:80%;
+	display: block;
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-family: "Times New Roman", Times, serif;
+	border-top: 10px solid #CCCCCC;
+}
+#titleimg {
+	float: left;
+	width: 129px;
+	height: 127px;
+	margin: 0px 3px 0px 2%;
+}
+#topbar {
+	width:100%;
+}
+#topmenu {
+	float:left;
+	width: 80%;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	background-color: #666666;
+}
+hr {
+	width:80%;
+	clear:both;
+	visibility:hidden;
+}
+/* --------------------------------- */
+#leftbar {
+	width: 30%;
+	float: left;
+	margin: 0px 0px 0px 0px;
+}
+.ltextextbox {
+	width: inherit;
+	margin: 20px 1% 0px 1%;
+	
+}
+.ltextbox p {
+	margin: 0px;
+	padding: 0px 8% 0px 3%;
+}
+
+/* --------------------------------- */
+#rightbar {
+	float:left;
+	width:60%;
+	padding: 2% 0px 0px 4%;
+}
+table {
+	width: 100%;
+	border-bottom: 2px solid #000000;
+}
+#rowtitle th {
+	border-bottom: 2px solid #000000;
+}
+#partybox {
+	margin: 60px 0px 0px 0px;
+	text-align:center;
+}
+.tip {
+	margin: 0px 0px 0px 25px;
+	color: #FF0000;
+}
+#footbar {
+	float:left;
+	color: #999999;
+	font-size:18px;
+	width:95%;
+	font-weight: bold;
+	border-top: 2px solid #CCCCCC;
+	border-bottom: 2px solid #CCCCCC;
+	margin: 30px 0px 30px 0px;
+	padding:0px;
+}

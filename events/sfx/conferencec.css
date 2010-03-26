@@ -1,0 +1,21 @@
+/* CSS Document */
+/*----------- Table ********************/
+table {
+	width: 100%;
+	
+}
+caption {
+	margin: 0px 0px 10px 0px;
+}
+#rowtitle th {
+	
+	padding: 0px;
+}
+td {
+	padding: 4px 2px;
+
+}
+/*------------- html structure ----------------*/
+#midbar {
+	margin: 30px 0px 0px 0px;
+}
