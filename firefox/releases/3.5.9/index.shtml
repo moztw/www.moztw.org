@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Mozilla Firefox 3.6.3 版本資訊</title>
+<title>Mozilla Firefox 3.5.9 版本資訊</title>
 <style type="text/css">
 <!--
 td {
@@ -23,47 +23,48 @@ table {
 <div id="mBody">
     <div id="mainContent" class="right">
       <div class="key-point">
-          <div id="product-desc" class="firefox-releasenotes-v36">
+          <div id="product-desc" class="firefox-releasenotes-v35">
 <!-- Introduction -->
 
-          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3.6 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3.5 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
+  <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
 
-          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozTW</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
+          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
         </div>
       </div>
       <!-- What's New -->
 
-        <h2 id="whatsnew">Firefox 3.6.3 新鮮事</h2>
+        <h2 id="whatsnew">Firefox 3.5.9 新鮮事</h2>
 
-        <p>
-            Firefox&nbsp;3.6.3&nbsp; 修正了下列先前版本的問題：</p>
+        <p>Firefox 3.5.9 修正了以下問題：</p>
 
         <ul>
-            <li>修正一個可能潛在地允許遠端程式執行的<a href="http://www.mozilla.org/security/announce/2010/mfsa2010-25.html">關鍵安全性問題</a>。</li>
+            <li>數個<a href="http://www.mozilla.org/security/known-vulnerabilities/firefox35.html#firefox3.5.9">安全性問題</a>。</li>
+            <li>數個穩定性問題。</li>
         </ul>
 
-        <p>請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL%20status1.9.2%3A.3-fixed">完整變更清單</a>。或前往 <a href="/firefox/releases/3.6.2/">Firefox 3.6.2 新鮮事</a>瞭解前一個版本的更新。</p>
+                <p>請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL%20status1.9.1%3A.9-fixed">完整變更清單</a>。或前往 <a href="/firefox/releases/3.5.8/">Firefox 3.5.8 新鮮事</a>瞭解前一個版本的更新。</p>
 
-        <p>欲知 Firefox 3.6 的所有功能，請見 <a href="/firefox/">Firefox&nbsp;網頁</a>。</p>
+                <p>欲知 Firefox 3.5 的所有功能，請見 <a href="/firefox/">Firefox&nbsp;網頁</a>。</p>
 
-    <h2 id="downloadandinstall">下載與安裝</h2>
+               <h2 id="downloadandinstall">下載與安裝</h2>
 
       <h3 id="requirements">系統需求</h3>
 
-      <p>在安裝 Firefox 3.6 前請先確定您的電腦是否合乎 <a href="http://moztw.org/docs/fx/system-requirements/">系統需求</a>。</p>
+      <p>在安裝 Firefox 3.5 前請先確定您的電腦是否合乎 <a href="http://moztw.org/docs/fx/system-requirements/">系統需求</a>。</p>
 
-      <h3 id="download">下載 Firefox 3.6</h3>
+      <h3 id="download">下載 Firefox 3.5</h3>
 
-      <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上多種語言版的 Firefox 3.6，您可<a href="http://moztw.org/firefox/">由此下載最新的 Firefox 3.6 </a>。若想自行編譯其他不支援的平台或語言，請見本文件最末節。</p>
+      <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上多種語言版的 Firefox 3.5，您可<a href="http://moztw.org/firefox/">由此下載最新的 Firefox 3.5 </a>。若想自行編譯其他不支援的平台或語言，請見本文件最末節。</p>
 
-      <h3 id="install">安裝 Firefox 3.6</h3>
-      <p>請注意：安裝 Firefox 3.6 將<em>覆蓋</em>您現存的 Firefox 程式，這並不會造成書籤或瀏覽記錄遺失，但可能會有些附加元件要更新才能繼續使用。您可以稍後重新安裝舊版本，如果想要降級的話。</p>
+      <h3 id="install">安裝 Firefox 3</h3>
+      <p>請注意：安裝 Firefox 3.5 將<em>覆蓋</em>您現存的 Firefox 程式，這並不會造成書籤或瀏覽記錄遺失，但可能會有些附加元件要更新才能繼續使用。您可以稍後重新安裝舊版本，如果想要降級的話。</p>
 
-      <h3 id="uninstall">移除 Firefox 3.6</h3>
+      <h3 id="uninstall">移除 Firefox 3.5</h3>
 
-      <p>在 Windows 作業系統中，您可以自「開始」選單中的「控制台」移除 Firefox 3.6。OS X 的使用者請移除「<tt>Firefox</tt>」 程式、Linux 使用者則請移除「<tt>firefox</tt>」 資料夾。</p>
+      <p>在 Windows 作業系統中，您可以自「<span class="location-item">開始<span>」選單中的「<span class="location-item">控制台<span>」移除 Firefox 3.5。OS X 的使用者請移除「<span class="location-item">Firefox</span>」 程式、Linux 使用者則請移除「<span class="location-item">firefox</span>」 資料夾。</p>
 
-      <p>移除 Firefox 3.6 並不會將書籤、瀏覽記錄、擴充套件和其他附加元件一併刪除，這些資料會留在您的「<em>個人設定資料夾</em>」中，此資料夾存放位置則視作業系統而定：</p>
+      <p>移除 Firefox 3.5 並不會將書籤、瀏覽記錄、擴充套件和其他附加元件一併刪除，這些資料會留在您的「<em>個人設定資料夾</em>」中，此資料夾存放位置則視作業系統而定：</p>
 <table>
     <tbody>
         <tr>
@@ -86,37 +87,42 @@ table {
         </tr>
       </tbody>
 </table>
-      <p>移除 Firefox 3.6 後所安裝的任一版本 Firefox 將繼續使用個人設定資料夾中的資料。</p>
+      <p>移除 Firefox 3.5 後所安裝的任一版本 Firefox 將繼續使用個人設定資料夾中的資料。</p>
 
    <h3 id="extensions">擴充套件及佈景主題</h3>
 
-      <p>Firefox 3.6 安裝的擴充套件可能已不相容於先前的版本而應加以升級，如發生此類問題，請回報附加元件原作者。一旦安裝 Firefox 3.6 ，所有擴充套件及佈景主題會先停用，待 Firefox 3.6  偵測出此套件無相容問題或能升級才會啟用。</p>
+      <p>Firefox 3.5 安裝的擴充套件可能已不相容於先前的版本而應加以升級，如發生此類問題，請回報附加元件原作者。一旦安裝 Firefox 3.5 ，所有擴充套件及佈景主題會先停用，待 Firefox 3.5  偵測出此套件無相容問題或能升級才會啟用。</p>
 
       <h2 id="issues">已知問題</h2>
 
-      <p>以下列出部分 Firefox 3.6 已知問題，請閱讀後再回報新的程式錯誤。</p>
+      <p>以下列出部分 Firefox 3.5 已知問題，請閱讀後再回報新的程式錯誤。</p>
       <dl>
 
       <dt>所有系統</dt>
       <dd>
       <ul class="spaced">
-         <li>如果設定了 Hotmail 的「閱讀視窗」選項，捲軸箭頭將無法正常運作（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=511075">bug 511075</a>）。</li>
-         <li>附加元件 MapQuest 和 AOL 工具列與此版本的 Firefox 不相容，在元件推出新版之前，最好手動停用以避免瀏覽器不穩定（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=539361">bug 539361</a>）。</li>
-         <li>若啟用 FIPS 模式，且移除了系統上的特定檔案，瀏覽器可能會在開啟時當機（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=522041">bug 522041</a>）。</li>
+        <li>由備份中復原您的書籤可能會花點時間，其間瀏覽器可能會看似沒有回應（見 <a
+                                href="https://bugzilla.mozilla.org/show_bug.cgi?id=493731">bug 493731</a>）。</li>
+        <li>Firefox 3.5 將只支援 ICC v2 標準的色彩設定檔，後續版本將增加支援 ICC v4（見 <a
+                                href="https://bugzilla.mozilla.org/show_bug.cgi?id=463221">bug 463221</a>）。</li>
+        <li>使用動態下載字型的網站，若要以 <tt>:hover</tt> 改變字體顏色，需新增 <tt>text-rendering&nbsp;:&nbsp;optimizeLegibility</tt> 以適用於字體大小 20 像素以下者（見 <a
+                                href="https://bugzilla.mozilla.org/show_bug.cgi?id=495455">bug 495455</a>）。</li>
+        <li>有些使用 Flash 的網站可能引起 Cookie 對話框的問題（見 <a
+                                href="https://bugzilla.mozilla.org/show_bug.cgi?id=495035">bug 495035</a>）。</li>
+        <li>網頁不再能自動安裝 PKCS1 加密符記。使用者現在必須手動，或安裝附加元件才能安裝（見 <a
+                                href="https://developer.mozilla.org/en/PKCS11_Module_Installation">instructions
+                                and documentation</a>）。</li>
       </ul>
       </dd>
 <!--
       <dt id="vista">Microsoft Windows</dt>
-
       <dd>
         <ul class="spaced">
         </ul>
-
-        </dd>
+      </dd>
 -->
 <!--
       <dt id="macosx">Mac OS X</dt>
-
         <dd>
             <ul class="spaced">
             </ul>
@@ -126,8 +132,8 @@ table {
      <dd>
         <ul class="spaced">
 
-          <li>在某些發佈版本的 Linux，Firefox 可能難以播放系統音效（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=536996">bug 536996</a>）。</li>
-          <li>在某些網站縮小頁面會出現灰線或黑線（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=468496">bug 468496</a>）。</li>
+          <li>在某些網站縮小檢視尺寸可能會出現灰或黑線（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=477552">bug 477552</a>）。</li>
+
 
         </ul></dl>
       <h2 id="troubleshooting">疑難排解</h2>
@@ -166,40 +172,41 @@ table {
         </li>
         <li>
 
-          Firefox 3.6 是哪些人做出來的？
-          <p>很多人。從「說明＞關於 Mozilla Firefox」中有份名單，列出部分曾對 Firefox 3.6 有所貢獻的人。</p>
+          Firefox 3.5 是哪些人做出來的？
+          <p>很多人。從「說明＞關於 Mozilla Firefox」中有份名單，列出部分曾對 Firefox 3.5 有所貢獻的人。</p>
         </li>
         <li>
 
-          Firefox 3.6 的原始碼在何處？
-          <p>Firefox 3.6 原始碼已<a href=
-             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.6.3/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
+          Firefox 3.5 的原始碼在何處？
+          <p>Firefox 3.5 原始碼已<a href=
+             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.5.9/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
              "http://developer.mozilla.org/en/docs/Mozilla_Source_Code_Via_CVS">以 CVS 取得</a>。Firefox 相關程式為「mozilla/browser」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href=
-             "http://developer.mozilla.org/En/docs/Build_Documentation">建製步驟</a>。</p>
+             "http://developer.mozilla.org/en/docs/Build_Documentation">建製步驟</a>。</p>
         </li>
 
         <li>
 
           電子郵件程式呢？
-          <p>Firefox 3.6 能與您預設的任何郵件程式協同運作， 而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="http://www.mozillamessaging.com/thunderbird/">Mozilla Thunderbird</a>。</p>
+          <p>Firefox 3.5 能與您預設的任何郵件程式協同運作， 而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="/thunderbird/">Mozilla Thunderbird</a>。</p>
         </li>
       </ol>
 
       <h2 id="contributedbuilds">非官方建製版</h2>
-      <p>Mozilla 代表<a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="http://www.mozilla.com/en-US/firefox/all-beta.html" onclick="urchinTracker('/outgoing/fx3download');">Firefox 3.6 下載頁</a>取得檔案。
+      <p>Mozilla 代表<a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="http://www.mozilla.com/en-US/firefox/all-beta.html" onclick="urchinTracker('/outgoing/fx3download');">Firefox 3.5 下載頁</a>取得檔案。
       </p>
 
 
-      <p>其他尚未被官方 Firefox 3.6 驗證通過的本地化版本可以在<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.6.3/contrib/">官方站台</a>取得。</p>
+      <p>其他尚未被官方 Firefox 3.5 驗證通過的本地化版本可以在<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.5.9/contrib/">官方站台</a>取得。</p>
       <h2 id="links">其他資源和連結</h2>
       <p>下面提供了幾個有用的連結：</p>
 
         <ul class="spaced">
         <li><a id="oj3s" title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
-    <li><a href="http://wiki.mozilla.org/Firefox3.6">Firefox 3.6 Project Page</a></li>
+    <li><a href="http://wiki.mozilla.org/Firefox3.5">Firefox 3.5 Project Page</a></li>
     <li><a href="http://kb.mozillazine.org/">MozillaZine's Knowledge Base</a></li>
     <li><a href="http://www.mozilla.org/projects/firefox/">Developer Information</a></li>
     <li><a href="http://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li>
+    <li><a href="http://www.google.com/privacy-lsf.html">Google Geolocation Privacy Policy</a></li>
     </ul>
 
 </div>
