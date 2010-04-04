@@ -38,13 +38,13 @@
   <div class="item-block" id="jw-tc">
     <h3>Jetpack 工作坊台中場</h3>
   	<ul>
-   	  <li>日期：2010年4月3日</li>
-   	  <li>時間：9:30 ~ 16:30</li>
-   	  <li>地點：台中市中山路27號1F</li>
-   	  <li>名額：約 30 人</li>
+   	  <li>日期：2010年4月上旬</li>
+   	  <li>時間：確定後公佈</li>
+   	  <li>地點：確定後公佈</li>
+   	  <li>名額：確定後公佈</li>
    	  <li>費用：完全免費！</li>
    	</ul>  
-   	<div class='applyNow'><a href="http://whoswho.openfoundry.org/workshop/details/80">由此報名！</a></div>
+   	<div class='applyLater'><a href="http://whoswho.openfoundry.org/workshop/details/80"><em>活動已結束。</em></a></div>
    </div>
   <br style="clear:both;">
   <h2>加入 Jetpack <!--紅色有角-->三倍速套件開發行列！</h2>
@@ -57,23 +57,7 @@
   <p>擴充套件作品有 <a href="https://addons.mozilla.org/zh-TW/firefox/addon/14650">Voyage</A> 及 <A HREF="https://addons.mozilla.org/zh-TW/firefox/addon/8888">nicoFox</A> 等，其中 Voyage 獲得 <a href="http://mozillalabs.com/contests/extendfirefox3.5/">Extend Firefox 3.5 Contest</a> "Grand Prize" 優選。</p>
 
 	<h2>課程教材</h2>
-  	<ul class="tab-menu">
-   	  <li id="#tp-button"><a href="#tp">台北場教材</a></li>
-   	  <li id="#kh-button">高雄場教材<a href="#kh"></a></li>
-   	  <li id="#tc-button">台中場教材<a href="#tc"></a></li>
-   	</ul>  
-	  <div class="tab-scroll" >
-		  <div id="tp" class="tab-block">
-		  	<div style="width:425px" id="__ss_3346803"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/littlebtc/moztw-jetpack-workshop-taipei" title="MozTW Jetpack Workshop: Taipei">MozTW Jetpack Workshop: Taipei</a></strong><object width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=taipei-100305143855-phpapp02&stripped_title=moztw-jetpack-workshop-taipei" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=taipei-100305143855-phpapp02&stripped_title=moztw-jetpack-workshop-taipei" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/littlebtc">littlebtc</a>.</div></div>
-			</div>
-		  <div id="kh" class="tab-block">
-		  	目前尚無
-			</div>
-		  <div id="tc" class="tab-block">
-		  	目前尚無
-			</div>
-		</div>
-  <br style="clear:both;">
+  	<div style="width:425px" id="__ss_3625673"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/littlebtc/moztw-jetpack-workshop-taichung" title="MozTW Jetpack Workshop: Taichung">MozTW Jetpack Workshop: Taichung</a></strong><object width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=taichung-100402203543-phpapp01&stripped_title=moztw-jetpack-workshop-taichung" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=taichung-100402203543-phpapp01&stripped_title=moztw-jetpack-workshop-taichung" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/littlebtc">littlebtc</a>.</div></div>
 	<h2>學員作品</h2>
 	<p>學員實作作品將在此展示。<p>
 </div>
