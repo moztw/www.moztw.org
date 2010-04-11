@@ -104,53 +104,10 @@ li .active {
 	width:100%;
 }
 /*=======================
-  sponsor
+  others
   =======================*/
-/*
-#sponsor {
-	background: transparent url(/images/gray-corner-box.jpg) left top no-repeat;
-	padding: 5px 5px 5px;
-	margin: 50px auto;
-	max-width:70em;
-  padding:10px;
-  clear: both;
-}
-
-#sponsor h2 {
-	font-size: 1.2em;
-	margin:0;
-	border-bottom: none;
-	clear: left;
-	width: 6em;
-}
-#sponsor p {
-    margin-left: 7.4em;
-    border-bottom: 1px solid #ccc;
-    text-align: center;
-    width: 70%;
-}
-#sponsor p img {
-    display: block;
-    margin: 0 auto;
-}
-#sponsor ul{
-	margin: -1.3em 0 1em 7em; padding:0; list-style: none;
-}
-#sponsor ul li{
-	display: block;
-	float: left;
-	margin: .5em 1em;
-}
-#sponsor ul li a{
-	display: block;
-	height: 100%;
-	width: 100%;
-}
-#sponsor ul.logo li{
-	height: 40px;
-	margin: .2em .3em;
-}
-#sponsor ul.logo img{
-	border: 1px solid black;
-}
-*/
+  .col3{
+  	float:left;
+  	width:31%;
+  	margin-left:2%;
+  }

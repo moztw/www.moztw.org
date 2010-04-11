@@ -59,7 +59,36 @@
 	<h2>課程教材</h2>
   	<div id="__ss_3625673"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/littlebtc/moztw-jetpack-workshop-taichung" title="MozTW Jetpack Workshop: Taichung">MozTW Jetpack Workshop: Taichung</a></strong><object width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=taichung-100402203543-phpapp01&stripped_title=moztw-jetpack-workshop-taichung" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=taichung-100402203543-phpapp01&stripped_title=moztw-jetpack-workshop-taichung" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="480"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/littlebtc">littlebtc</a>.</div></div>
 	<h2>學員作品</h2>
-	<p>學員實作作品將在此展示。<p>
+	<div class="col3">
+		<h3>台北場</h3>
+		<ul>
+			<li><a href="https://gist.github.com/0cba2eba894e9c24c7a4">Plurk & Facebook Slidebar</a></li>
+			<li><a href="https://gist.github.com/dc8ee85d6b763c30ac58">TranslateIt!</a></li>
+			<li><a href="https://gist.github.com/0ca7f2eb766674481c7f">Image List</a></li>
+			<li>RDF parser (By Kennyluck)</li>
+		</ul>
+	</div>
+	<div class="col3">
+		<h3>高雄場</h3>
+		<ul>
+			<li><a href="http://gist.github.com/338560">字典</a></li>
+			<li><a href="http://gist.github.com/338561">振奮精神</a> (By CQD)</li>
+			<li><a href="http://jetpackgallery.mozillalabs.com/jetpacks/377">認錯</a> (by BobChao)</li>
+		</ul>
+	</div>
+	<div class="col3">
+		<h3>台中場</h3>
+		<ul>
+			<li><a href="https://gist.github.com/8d482f748ddc6881e639">複製超連結HTML code</a> (by markmcm)</li>
+			<li><a href="http://jetpackgallery.mozillalabs.com/jetpacks/392">PctBot</a> (by GDX)</li>
+			<li><a href="http://jetpackgallery.mozillalabs.com/jetpacks/391">Girl Attack!</a> (by GDX)</li>
+			<li><a href="http://jetpackgallery.mozillalabs.com/jetpacks/390">Clockm</a> (by GDX)</li>
+			<li><a href="http://gist.github.com/354264">BBS Mail Striper</a> (by alextwl, Thunderbird)</li>
+			<li><a href="http://jetpackgallery.mozillalabs.com/jetpacks/393">有XX快拜</a> (by RJ45)</li>
+			<li><a href="http://gist.github.com/354283">選取字串記錄器</a> (by jazztao)</li>
+			<li><a href="http://gist.github.com/354281">字典slidebar</a> (by SC)</li>
+		</ul>
+	</div>
 </div>
 
 
