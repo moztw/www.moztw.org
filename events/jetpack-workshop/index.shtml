@@ -57,7 +57,18 @@
   <p>擴充套件作品有 <a href="https://addons.mozilla.org/zh-TW/firefox/addon/14650">Voyage</A> 及 <A HREF="https://addons.mozilla.org/zh-TW/firefox/addon/8888">nicoFox</A> 等，其中 Voyage 獲得 <a href="http://mozillalabs.com/contests/extendfirefox3.5/">Extend Firefox 3.5 Contest</a> "Grand Prize" 優選。</p>
 
 	<h2>課程教材</h2>
-  	<div id="__ss_3625673"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/littlebtc/moztw-jetpack-workshop-taichung" title="MozTW Jetpack Workshop: Taichung">MozTW Jetpack Workshop: Taichung</a></strong><object width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=taichung-100402203543-phpapp01&stripped_title=moztw-jetpack-workshop-taichung" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=taichung-100402203543-phpapp01&stripped_title=moztw-jetpack-workshop-taichung" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="480"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/littlebtc">littlebtc</a>.</div></div>
+	<div class="tab-menu"><a href="#slide">投影片</a>、<a href="#vid1">錄影一</a>、<a href="#vid2">錄影二</a>、<a href="#vid3">錄影三</a></div>
+	<div style="clear:both"></div>
+  	<div  class="tab-block" id="slide"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/littlebtc/moztw-jetpack-workshop-taichung" title="MozTW Jetpack Workshop: Taichung">MozTW Jetpack Workshop: Taichung</a></strong><object width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=taichung-100402203543-phpapp01&stripped_title=moztw-jetpack-workshop-taichung" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=taichung-100402203543-phpapp01&stripped_title=moztw-jetpack-workshop-taichung" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="480"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/littlebtc">littlebtc</a>.</div></div>
+  	<div class="tab-block" id="vid1">
+  		<embed src="http://blip.tv/play/AYHUtkUC" type="application/x-shockwave-flash" width="600" height="438" allowscriptaccess="always" allowfullscreen="true"></embed>
+	</div>
+	<div class="tab-block" id="vid2">
+		<embed src="http://blip.tv/play/AYHUtxwC" type="application/x-shockwave-flash" width="600" height="438" allowscriptaccess="always" allowfullscreen="true"></embed>
+	</div>
+	<div class="tab-block" id="vid3">
+		<embed src="http://blip.tv/play/AYHUuFsC" type="application/x-shockwave-flash" width="600" height="438" allowscriptaccess="always" allowfullscreen="true"></embed>
+	</div>
 	<h2>學員作品</h2>
 	<div class="col3">
 		<h3>台北場</h3>
@@ -101,7 +112,7 @@ function showItem(item){
 	$(item).slideDown(300);
 }
 $(function () {
-	$('.tab-block:not(#tp)').hide();
+	$('.tab-block:not(#slide)').hide();
 	$('.tab-menu a').bind(
 		'click',
 		function () {
