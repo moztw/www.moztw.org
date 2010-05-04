@@ -100,10 +100,10 @@ h3.toggle, span.toggle {
 <p>整理說明文件，提供軟體使用問題方面的協助；對一般使用者的第一線！</p>
 <div>
 <ul>
-<li><strong>討論區技術支援 -  使用者技術支援<sup class="wanted">長期招募中</sup></strong>：回答新使用者在 <a title="MozTW 討論區" href="http://forum.moztw.org/">MozTW 討論區</a>上詢問的軟體使用問題 －－  是的，不需向我們報名，只要您有回過文章，您就已經參與我們了！</li>
-<li><strong>討論區技術支援 - 軟體除錯<sup class="wanted">長期招募中</sup></strong>：確認使用者回報的軟體問題，向開發方提出錯誤報告（英文或中文；可以使用中文由在地化經理轉介）</li>
+<li><strong>討論區技術支援 - 使用者技術支援<sup class="wanted">長期招募中</sup></strong>：回答新使用者在 <a title="MozTW 討論區" href="http://forum.moztw.org/">MozTW 討論區</a>上詢問的軟體使用問題 －－ 是的，不需向我們報名，只要您有回過文章，您就已經參與我們了！</li>
+<li><strong>討論區技術支援 - 軟體除錯<sup class="wanted">長期招募中</sup></strong>：確認使用者回報的軟體問題，向開發方提出錯誤報告（英文或中文；可以使用中文由在地化團隊轉介）</li>
 <li><strong>文件專案 - Mozilla Links 中文版「機動隊隊長」<sup class="vacant">徵才中</sup></strong>：規劃 <a title="Mozilla  Links 部落格" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 部落格</a>文章主題，協調翻譯與校訂。</li>
-<li><strong>文件專案編輯 - Mozilla Links 中文版<sup class="wanted">長期招募中</sup></strong>：翻譯與校訂文章內容；使用 Mozilla  Links Editors 郵件群組和其他編輯溝通。</li>
+<li><strong>文件專案編輯 - Mozilla Links 中文版<sup class="wanted">長期招募中</sup></strong>：翻譯與校訂文章內容；使用 Mozilla Links Editors 郵件群組和其他編輯溝通。</li>
 <li><strong>文件專案 - <a title="Mozilla Support" href="http://support.mozilla.com/">Mozilla  Support</a> 與 <a title="MozTW  Wiki" href="http://wiki.moztw.org/">MozTW Wiki</a> 管理<sup class="vacant">徵才中</sup></strong>：整理說明文件與常見的技術支援需求；轉移主網站上的舊內容。 </li>
 <li><strong>討論區管理員<sup class="wanted">長期招募中</sup></strong>：整理討論區內容，移動/移除不適合的文章，執行管理規則。</li>
 </ul>
@@ -203,7 +203,7 @@ h3.toggle, span.toggle {
 </ol></li>
 </ul>
 </li>
-<li><strong>Web developer - other projects<sup class="wanted">長期招募中</sup></strong>: 實作其他人企劃的網路服務，或是實做/架設自己的；例如<a href="http://www.youtube.com/watch?v=cDvp7Ap2f_A">MozTW 自投羅網</a>、<a href="http://translate.moztw.org/">協同翻譯站</a>。</li>
+<li><strong>Web developer - other projects<sup class="wanted">長期招募中</sup></strong>: 實作其他人企劃的網路服務，或是實做/架設自己的；例如<a href="http://translate.moztw.org/">協同翻譯站</a>。</li>
 </ul>
 </div>
 </div>
