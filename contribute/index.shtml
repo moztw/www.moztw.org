@@ -121,8 +121,8 @@ h3.toggle, span.toggle {
 <p>教狐狸說中文 －－ 負責管理與對 Mozilla 提交在地版本的程式碼與決策。</p>
 <div>
 <ul>
-<li><strong>Localization project owner - Firefox and Firefox for Mobile<sup class="vacant">Vacant</sup></strong></li>
-<li><strong>Localization project owner - Thunderbird<sup class="vacant">Vacant</sup></strong></li>
+<li><strong>Localization project owner - Firefox and Firefox for Mobile</strong></li>
+<li><strong>Localization project owner - Thunderbird</strong></li>
 <li><strong>Localization project owner - Sunbird</strong></li>
 <li><strong>Localization project owner - SeaMonkey<sup class="vacant">Vacant</sup></strong> 
 <ul>
