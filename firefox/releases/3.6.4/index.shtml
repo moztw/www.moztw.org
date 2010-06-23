@@ -39,10 +39,10 @@ table {
             Firefox&nbsp;3.6.4 於 Windows 和 Linux 提供了當機防護功能，當 Adobe Flash、Apple Quicktime 或 Microsoft Silverlight 外掛程式當機時，使用者仍能繼續瀏覽而不被中斷。
         </p>
         <p>
-            如果外掛程式當機或凍結，將不會影響整個 Firefox。只要重新讀取網頁，便可重開外掛程式再試一次。
+            外掛程式當機或凍結時，將不會影響整個 Firefox。只要重新讀取網頁，便能重啟外掛程式、再試一次。
         </p>
         <p>
-            此外，Firefox&nbsp;3.6.4&nbsp; 亦修正了下列先前版本的問題：
+            此外，Firefox&nbsp;3.6.4&nbsp;亦修正下列先前版本的問題：
         </p>
 
         <ul>
