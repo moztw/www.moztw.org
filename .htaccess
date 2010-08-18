@@ -1,0 +1,3 @@
+Options +MultiViews -Indexes
+AddType text/rdf+n3 .n3  #It's timbl's fault that this is not yet standardized
+DirectoryIndex index Overview

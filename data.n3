@@ -1,0 +1,12 @@
+@prefix : <http://moztw.org/data#>.
+@prefix foaf:  <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dc: <http://purl.org/dc/terms/>.
+
+:moztw	a	foaf:Group;
+	foaf:name "MozTW"@en;
+	foaf:member <http://www.ernestchiang.com/card#i>,
+			   <http://dig.csail.mit.edu/People/kennyluck#I>,
+			   <http://me.bobchao.net/card#i>;
+	foaf:homepage <http://moztw.org/>;
+	foaf:birthday "09-06";
