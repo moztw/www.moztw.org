@@ -5,8 +5,14 @@
 
 :moztw	a	foaf:Group;
 	foaf:name "MozTW"@en;
+	foaf:nickname "Mozilla Taiwan Community"@en;
 	foaf:member <http://www.ernestchiang.com/card#i>,
 			   <http://dig.csail.mit.edu/People/kennyluck#I>,
-			   <http://me.bobchao.net/card#i>;
+			   <http://me.bobchao.net/card#i>,
+			   <http://othree.net/card#I>;
+
+# Drop admins a line with your URI if you want be included here.
+
 	foaf:homepage <http://moztw.org/>;
-	foaf:birthday "09-06".
+	foaf:birthday "09-06";
+	rdfs:seeAlso <http://moztw.org/about>.
