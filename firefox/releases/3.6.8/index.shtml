@@ -39,7 +39,6 @@ table {
             Firefox&nbsp;3.6.8 修正了下列先前版本的問題。
         </p>
         <ul>
-        <li>Fixed a single stability issue affecting some pages containing plugins.</li>
             <li>修正一個在某些網頁包含外掛程式會引起的穩定性問題。</li>
         </ul>
 
