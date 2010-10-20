@@ -1,1 +1,1 @@
-http://download.mozilla.org/?product=firefox-3.6.10&amp;lang=zh-TW
+http://download.mozilla.org/?product=firefox-3.6.11&amp;lang=zh-TW
