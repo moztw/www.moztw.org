@@ -23,8 +23,8 @@ body.mascots {
     margin: 0 0;
 }
 #icon-list li.l1 {
-    top: 60px;
-    left: 29px;
+    top: 29px;
+    left: 60px;
 }
 #icon-list li.l2 {
     top: 98px;
@@ -55,8 +55,8 @@ body.mascots {
 }
 #icon-list li.l1 a:hover, #icon-list li.l1 a:active {
     background-position: 0 0;
-    top: -10px;
-    left: -7px;
+    top: -7px;
+    left: -10px;
 }
 #icon-list li.l2 a:link, #icon-list li.l2 a:visited {
     background-position: 0 -345px;
