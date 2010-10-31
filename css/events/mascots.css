@@ -15,22 +15,23 @@ body.mascots {
 #icon-list li {
     display: list-item;
     list-style: none;
-    position: relative;
+    position: absolute;
     width: 100px;
+    height: 115px;
+    margin: 0 0;
 }
-#icon-list li.li {
+#icon-list li.l1 {
     top: 0;
     left: 0;
-    height: 115px;
 }
 #icon-list li.l2 {
-    top: 43px;
-    left: 80px;
-    height: 110px;
+    top: 95px;
+    left: 50px;
 }
 #icon-list a:link, #icon-list a:visited {
     display: block;
     width: 100px;
+    height: 115px;
     text-decoration: none;
     background-color: transparent;
     background-image: url("/images/mascots_i.png");
@@ -41,19 +42,18 @@ body.mascots {
 
 }
 #icon-list li.l1 a:link, #icon-list li.l1 a:visited {
-    height: 115px;
     background-position: 0 0;
 }
 #icon-list li.l1 a:hover, #icon-list li.l1 a:active {
     background-position: 0 -115px;
 }
 #icon-list li.l2 a:link, #icon-list li.l2 a:visited {
-    height: 110px;
     background-position: 0 -230px;
 }
 #icon-list li.l2 a:hover, #icon-list li.l2 a:active {
-    background-position: 0 -340px;
+    background-position: 0 -345px;
 }
 #icon-list span {
-    text-indent: -1000px;
+    text-indent: 1000px;
+    display:block;
 }
