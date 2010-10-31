@@ -42,18 +42,19 @@ body.mascots {
 
 }
 #icon-list li.l1 a:link, #icon-list li.l1 a:visited {
-    background-position: 0 0;
-}
-#icon-list li.l1 a:hover, #icon-list li.l1 a:active {
     background-position: 0 -115px;
 }
-#icon-list li.l2 a:link, #icon-list li.l2 a:visited {
-    background-position: 0 -230px;
+#icon-list li.l1 a:hover, #icon-list li.l1 a:active {
+    background-position: 0 0;
 }
-#icon-list li.l2 a:hover, #icon-list li.l2 a:active {
+#icon-list li.l2 a:link, #icon-list li.l2 a:visited {
     background-position: 0 -345px;
 }
+#icon-list li.l2 a:hover, #icon-list li.l2 a:active {
+    background-position: 0 -230px;
+}
 #icon-list span {
-    text-indent: 1000px;
+    position: relative;
+    top: 1000px;
     display:block;
 }
