@@ -1,0 +1,58 @@
+body.mascots {
+    background: #FFFFFF url("../../images/mascots_i.png") repeat-x scroll 0 -776px;
+}
+#container {
+    position: relative;
+}
+#icon-list {
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    list-style: none;
+    width: 300px;
+    height: 150px;
+}
+#icon-list li {
+    display: list-item;
+    list-style: none;
+    position: relative;
+    width: 100px;
+}
+#icon-list li.li {
+    top: 0;
+    left: 0;
+    height: 115px;
+}
+#icon-list li.l2 {
+    top: 43px;
+    left: 80px;
+    height: 110px;
+}
+#icon-list a:link, #icon-list a:visited {
+    display: block;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: url("/images/mascots_i.png");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+#icon-list a:hover, #icon-list a:active {
+
+}
+#icon-list a.l1:link, #icon-list a.l1:visited {
+    height: 115px;
+    background-position: 0 0;
+}
+#icon-list a.l1:hover, #icon-list a.l1:active {
+    background-position: 0 -115px;
+}
+#icon-list a.l2:link, #icon-list a.l2:visited {
+    height: 110px;
+    background-position: 0 -230px;
+}
+#icon-list a.l2:hover, #icon-list a.l2:active {
+    background-position: 0 -340px;
+}
+#icon-list span {
+    text-indent: -1000px;
+}
