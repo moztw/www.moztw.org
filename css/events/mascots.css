@@ -31,8 +31,8 @@ body.mascots {
     left: 100px;
 }
 #icon-list li.l3 {
-    top: 0px;
-    left: 150px;
+    top: 29px;
+    left: 139px;
 }
 #icon-list a:link, #icon-list a:visited {
     display: block;
@@ -55,7 +55,7 @@ body.mascots {
 }
 #icon-list li.l1 a:hover, #icon-list li.l1 a:active {
     background-position: 0 0;
-    top: -7px;
+    top: -5px;
     left: -10px;
 }
 #icon-list li.l2 a:link, #icon-list li.l2 a:visited {
@@ -70,9 +70,13 @@ body.mascots {
 }
 #icon-list li.l3 a:link, #icon-list li.l3 a:visited {
     background-position: 0 -345px;
+    top: 0px;
+    left: 0px;
 }
 #icon-list li.l3 a:hover, #icon-list li.l3 a:active {
     background-position: 0 -230px;
+    top: -5px;
+    left: 10px;
 }
 #icon-list span {
     position: relative;
