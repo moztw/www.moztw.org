@@ -1,5 +1,6 @@
 <!--#include virtual="/inc/meta.html" -->
 <title>Test Title</title>
+<link rel="stylesheet" type="text/css" href="/css/events/mascots.css" media="screen"> 
 </head><body id="www-moztw-org" class="mascots">
 <!--#include virtual="/inc/header.html" -->
 
