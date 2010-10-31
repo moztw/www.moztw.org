@@ -30,6 +30,7 @@ body.mascots {
 }
 #icon-list a:link, #icon-list a:visited {
     display: block;
+    width: 100px;
     text-decoration: none;
     background-color: transparent;
     background-image: url("/images/mascots_i.png");
