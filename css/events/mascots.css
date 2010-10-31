@@ -11,6 +11,8 @@ body.mascots {
     list-style: none;
     width: 300px;
     height: 150px;
+    padding: 0;
+    margin: 0;
 }
 #icon-list li {
     display: list-item;
@@ -21,12 +23,16 @@ body.mascots {
     margin: 0 0;
 }
 #icon-list li.l1 {
-    top: 0;
-    left: 0;
+    top: 60px;
+    left: 29px;
 }
 #icon-list li.l2 {
-    top: 95px;
-    left: 50px;
+    top: 98px;
+    left: 100px;
+}
+#icon-list li.l3 {
+    top: 0px;
+    left: 150px;
 }
 #icon-list a:link, #icon-list a:visited {
     display: block;
@@ -37,20 +43,35 @@ body.mascots {
     background-image: url("/images/mascots_i.png");
     background-attachment: scroll;
     background-repeat: no-repeat;
+    position: relative;
 }
 #icon-list a:hover, #icon-list a:active {
 
 }
 #icon-list li.l1 a:link, #icon-list li.l1 a:visited {
     background-position: 0 -115px;
+    top: 0px;
+    left: 0px;
 }
 #icon-list li.l1 a:hover, #icon-list li.l1 a:active {
     background-position: 0 0;
+    top: -10px;
+    left: -7px;
 }
 #icon-list li.l2 a:link, #icon-list li.l2 a:visited {
     background-position: 0 -345px;
+    top: 0px;
+    left: 0px;
 }
 #icon-list li.l2 a:hover, #icon-list li.l2 a:active {
+    background-position: 0 -230px;
+    top: 10px;
+    left: 0px;
+}
+#icon-list li.l3 a:link, #icon-list li.l3 a:visited {
+    background-position: 0 -345px;
+}
+#icon-list li.l3 a:hover, #icon-list li.l3 a:active {
     background-position: 0 -230px;
 }
 #icon-list span {

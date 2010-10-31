@@ -8,7 +8,7 @@
 <ul id="icon-list">
     <li class="l1"><a href="#"><span>火狐大哥</span></a></li>
     <li class="l2"><a href="#"><span>小莎</span></a></li>
-    <!-- <li class="l3"><a href="#"><span>雷鳥</span></a></li> -->
+    <li class="l3"><a href="#"><span>雷鳥</span></a></li>
 </ul>
 
 <!--#include virtual="/inc/footer.html" -->
