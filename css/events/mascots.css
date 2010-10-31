@@ -23,16 +23,16 @@ body.mascots {
     margin: 0 0;
 }
 #icon-list li.l1 {
-    top: 29px;
-    left: 60px;
+    top: 27px;
+    left: 57px;
 }
 #icon-list li.l2 {
-    top: 98px;
+    top: 101px;
     left: 100px;
 }
 #icon-list li.l3 {
-    top: 29px;
-    left: 139px;
+    top: 27px;
+    left: 142px;
 }
 #icon-list a:link, #icon-list a:visited {
     display: block;
