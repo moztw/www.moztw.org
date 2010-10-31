@@ -40,18 +40,18 @@ body.mascots {
 #icon-list a:hover, #icon-list a:active {
 
 }
-#icon-list a.l1:link, #icon-list a.l1:visited {
+#icon-list li.l1 a:link, #icon-list li.l1 a:visited {
     height: 115px;
     background-position: 0 0;
 }
-#icon-list a.l1:hover, #icon-list a.l1:active {
+#icon-list li.l1 a:hover, #icon-list li.l1 a:active {
     background-position: 0 -115px;
 }
-#icon-list a.l2:link, #icon-list a.l2:visited {
+#icon-list li.l2 a:link, #icon-list li.l2 a:visited {
     height: 110px;
     background-position: 0 -230px;
 }
-#icon-list a.l2:hover, #icon-list a.l2:active {
+#icon-list li.l2 a:hover, #icon-list li.l2 a:active {
     background-position: 0 -340px;
 }
 #icon-list span {
