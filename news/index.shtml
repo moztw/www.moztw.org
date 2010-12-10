@@ -12,6 +12,8 @@
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+<li><div class="date"> 9 月 16</div>
+  <a href="/firefox/releases/3.6.10/">Firefox 3.6.10</a> 及 <a href="/firefox/releases/3.5.13/">3.5.13</a> 更新</li>
 <li><div class="date"> 9 月 10</div>
   因中研院高壓電維護，MozTW 主機將於 9 月 12 日(星期日) 10:00 AM 起停機一天，若需下載各項軟體請至 <a href="http://www.mozilla.com/">Mozilla Corp.</a> 首頁。</li>
 <li><div class="date"> 9 月 8</div>
