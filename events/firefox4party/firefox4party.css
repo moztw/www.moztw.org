@@ -1,0 +1,173 @@
+﻿#mainContent{
+	margin-left: 0;
+}
+.key-point {
+	background: #e4ecec url("feature-firefox-4-party.png") 100% 85% no-repeat;
+	padding: 15px;
+	margin-bottom: 1em;
+}
+#feature {
+	height: 150px;
+	margin-right: 65%;
+	position: relative;
+	background: url(bg-alpha.png);
+}
+#feature h2{
+	background: url(event-firefox-4-events.png) no-repeat;
+	padding-top: 55px;
+	height: 0;
+	width: 245px;
+	overflow: hidden;
+}
+
+ul#global-info {
+	margin:0; padding:0; list-style: none;
+	position: absolute;
+	right: 2px;
+	bottom: 2px;
+}
+ul#global-info li{
+	display: block;
+	float: left;
+	margin: auto 3px;
+}
+/*=======================
+  三個 promote block
+  =======================*/
+#mainContent{
+	float: none;
+	width: 100%
+}
+.item-block{
+	background: transparent url(/images/green-corner-box.jpg) left top no-repeat;
+	padding: 12px 15px 20px;
+	margin: 0 1%;
+	float: left;
+	width: 28%;
+}
+.item-block img{
+	float: left;
+}
+.item-block h3{
+	font-size: 1.3em;
+	font-weight: bold;
+	margin: 0 0 0 40px;
+	border: none;
+}
+.item-block h3 a:link{
+	text-decoration: none;
+}
+.item-block h3 a:visited{
+	color: navy
+	text-decoration: none;
+}
+.item-block p{
+	margin: 0 0 auto 40px;
+}
+#street-block{
+	float: none;
+	margin-left: 68%;
+	width: auto;
+}
+.outdated {
+	color: gray;
+}
+.update {
+	color: red;
+	font-size: .8em;
+	display: block;
+	margin-top: 0;
+}
+/*=======================
+  content
+  =======================*/
+.information {
+	clear: both;
+}
+.information div {
+	padding-left: 2.2em;
+}
+.information div h2 {
+	margin-left: -1.2em;
+}.information div h2 img{
+	width: 1em;
+	height: 1em;
+}
+
+.information div table {
+	width: 98%;
+	margin: .3em auto 1em;
+}
+
+.information div table th{
+	background: #000;
+	color: #FFF;
+}
+
+.information div table td{
+	border-bottom: 1px solid gray;
+}
+
+/*=======================
+  Badgets
+  =======================*/
+.badgets textarea{
+	font-size: 10px;
+	width: 30em;
+	margin-bottom: 1.5em;
+}
+
+.badgets img{
+	border: 0;
+}
+
+/*=======================
+  sponsor
+  =======================*/
+
+#sponsor {
+	background: transparent url(/images/gray-corner-box.jpg) left top no-repeat;
+	padding: 5px 5px 5px;
+	margin: 50px auto;
+	max-width:70em;
+    padding:10px;
+    clear: both;
+}
+
+#sponsor h2 {
+	font-size: 1.2em;
+	margin:0;
+	border-bottom: none;
+	clear: left;
+	width: 6em;
+}
+#sponsor p {
+    margin-left: 7.4em;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    width: 70%;
+}
+#sponsor p img {
+    display: block;
+    margin: 0 auto;
+}
+#sponsor ul{
+	margin: -1.3em 0 1em 7em; padding:0; list-style: none;
+}
+#sponsor ul li{
+	display: block;
+	float: left;
+	margin: .5em 1em;
+}
+#sponsor ul li a{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+#sponsor ul.logo li{
+	height: 40px;
+	margin: .2em .3em;
+}
+#sponsor ul.logo img{
+	border: 1px solid black;
+}
