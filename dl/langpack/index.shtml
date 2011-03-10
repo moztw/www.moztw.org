@@ -38,14 +38,17 @@ Remove this part since this page is indend for advanced user
 	<ul>
 		<li>Firefox 與同源瀏覽器
 		<ul>
+			<li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/latest-3.6/win32/xpi/zh-TW.xpi">3.6.x</a></li>
 			<li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/latest-3.5/win32/xpi/zh-TW.xpi">3.5.x</a></li>
 			<li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/latest-3.0/win32/xpi/zh-TW.xpi">3.0.x</a></li>
-			 <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/latest-2.0/win32/xpi/zh-TW.xpi">2.0.0.x</a></li>
+			<li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/latest-2.0/win32/xpi/zh-TW.xpi">2.0.0.x</a></li>
 
 		</ul>
 		</li>
 		<li>Thunderbird 與同源郵件軟體
 		<ul>
+			<li><a href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/latest-3.1/win32/xpi/zh-TW.xpi">3.1.x</a></li>
+			<li><a href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/latest-3.0/win32/xpi/zh-TW.xpi">3.0.x</a></li>
 			<li><a href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/latest-2.0/win32/xpi/zh-TW.xpi">2.0.0.x</a></li>
 		</ul>
 		<li>Sunbird
