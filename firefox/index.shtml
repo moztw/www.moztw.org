@@ -2,8 +2,8 @@
 <title>Mozilla Firefox 中文版 - 網路生活的全新體驗 - Mozilla Taiwan, MozTW.org</title>
 <style type="text/css">
 <!--
-#product-desc.product-firefox36 {
-	background: transparent url(images/36-product-firefox-screen.png) no-repeat scroll 0 0;
+#product-desc.product-firefox4 {
+	background: transparent url(images/4-product-firefox-screen.png) no-repeat scroll 0 0;
 	padding: 40px 0 50px;
 }
 #product-desc p {
@@ -89,10 +89,10 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point">
-    <div id="product-desc" class="product-firefox36">
+    <div id="product-desc" class="product-firefox4">
 	<h2>Firefox: rediscover the web</h2>
 	<p>
-	忠於開放使命，致力提升網路體驗<br>更創新、更自由、超個性！
+	忠於開放使命，致力提升網路體驗<br>全新外觀、速度超快、一切都變得更棒！
 	</p>
     </div>
     <div id="product-side">
@@ -107,81 +107,75 @@
 <div id="mainContent" class="right">
 		<ul class="top-features">
 		<li>
-			<strong>個性面板</strong>
-			<p><span class="new">新增</span> 上千種特色面板供您選擇，隨手更換 Firefox 外觀主題。</p>
+			<strong>應用程式分頁</strong>
+			<p><span class="new">新增</span> 把網路服務當成常駐程式，節省分頁列的空間，更彈性，更好用。</p>
 		</li>		
 		<li>
-			<strong>私密瀏覽模式</strong>
-			<p><span class="new">新增</span> 瀏覽網路，不留痕跡。</p>
+			<strong>全新打造的 JägerMonkey JavaScript 引擎</strong>
+			<p><span class="new">新增</span> 比起以往，全新的 JägerMonkey JavaScript 引擎速度更快。</p>
 		</li>
 		<li>
-			<strong>密碼管理員</strong>
-			<p>記憶網站密碼，輕鬆管理帳號。</p>
+			<strong>硬體加速</strong>
+			<p><span class="new">新增</span> 讓網頁顯示得更快、更順。</p>
 		</li>
 		<li>
 			<strong>智慧位址列</strong>
-			<p><span class="improved">強化</span> 彈指之間找到您最愛的網站，無須記憶長串網址。</p>
+			<p><span class="improved">強化</span> 大幅改進的搜尋效能，讓您可以為網站貼上標籤，更快找到最愛的網站。</p>
 		</li>
 		<li>
-			<strong>高速瀏覽</strong>
-			<p><span class="new">新增</span> 瀏覽網頁更快速，且使用更少記憶體！</p>
+			<strong>分頁群組</strong>
+			<p><span class="new">新增</span> 用視覺化的方式管理開啟的分頁，幫助您的工作效率，超好玩！</p>
 		</li>
 		<li>
 			<strong>反偽造、惡意網站</strong>
 			<p><span class="improved">強化</span> 享受最高級的防護措施，幫您把線上壞蛋擋在門外。</p>
 		</li>
 		<li>
-			<strong>恢復瀏覽狀態</strong>
+			<strong>回復瀏覽狀態</strong>
 			<p><span class="improved">強化</span> 瀏覽器不小心掛了？重新啟動後立即恢復原來的樣子。</p>
 		</li>
 		<li>
-			<strong>書籤一點靈</strong>
-			<p>輕鬆將網站加入書籤，方便搜尋、組織網站。</p>
+			<strong>全新外觀</strong>
+			<p><span class="new">新增</span> 全新的視窗介面，更簡潔、更好用。</p>
 		</li>
 		<li>
-			<strong>輕鬆自訂</strong>
-			<p><span class="improved">強化</span> 上千種附加元件讓您自由調整、您的瀏覽器更有您的風格。</p>
+			<strong>保持同步</strong>
+			<p><span class="new">新增</span> 無縫連結電腦與手機，讓瀏覽紀錄、密碼、書籤、開啟分頁隨身帶著走！</p>
 		</li>
 		<li>
-			<strong>分頁</strong>
-			<p><span class="improved">強化</span> 使用分頁，以滑鼠拖曳快速組織，事半功倍。</p>
+			<strong>私密瀏覽</strong>
+			<p><span class="improved">強化</span> 在圖書館上網的時候忘了登出某個網站嗎？別擔心，離開私密瀏覽後會自動忘記您的登入狀態。</p>
 		</li>
 		<li>
 			<strong>快捷網站識別資訊</strong>
-			<p>用簡單的網站識別資訊，拒絕網路詐騙及不安全的購物網站。</p>
+			<p><span class="improved">強化</span> 點一下就可檢視網站識別資訊，拒絕網路詐騙及不安全的購物網站。</p>
 		</li>
 	</ul>
-	<h3 style="clear: both"><span lang="en-US">Firefox 3.6</span>: 總是您的最佳選擇</h3>
-	<h4>至今最快的 Firefox，又更快了！</h4>
-	<p>網路上對速度的要求越來越嚴格，我們也為此持續改善 Firefox 的引擎，讓你快上加快：Firefox 3.6 的速度較 Firefox 3.5 提昇 20%，更是 Firefox 3 的三倍速。因此，您的網路信箱、相片網站及各式網際應用服務用起來更加順暢、更加歡樂。</p>
+	<h3 style="clear: both"><span lang="en-US">Firefox 4.0</span>: 被打造來讓網路變成更好的地方。</h3>
+	<h4>火狐沒跑那麼快過</h4>
+	<p>Firefox 現在比以前快六倍！我們強化了開啟程式、頁面載入、網頁應用程式及圖形硬體加速等效能，並且對於瀏覽豐富且高互動性的網頁進行了最佳化。</p>
 	<div class="upgrade-img">
-		<h5>Firefox 效能：快 — 更快 — 超快</h5>
-		<img src="images/performance-chart.png" alt="速度比較" />
-		<ul id="performance-chart-time">
-			<li>3,198 ms</li>
-			<li>1,188 ms</li>
-			<li>995 ms!</li>
-		</ul>
-		<p>* 測試環境：在 Windows 7 上進行 SunSpider 測試</p>
+		<h5>Firefox 效能</h5>
+		<img src="images/4-performance-chart.png" alt="速度比較" />
 	</div>
 	<h4>更能保護您的網路安全</h4>
-	<p>維護您上網時的資訊安全是我們最優先的任務，因此 Firefox 再度增強了反詐騙、反惡意程式的技術，並且加上私密瀏覽模式、「刪除與此網站有關的紀錄」等功能，保護您的隱私。</p>
+	<p>除了原有的的反詐騙、反惡意程式、私密瀏覽模式變得更強，在 4.0 裡面還可以告訴網站不要追蹤你、對某些網站強制使用安全連線，並透過內容安全政策等功能，保護您的安全。</p>
 	<div class="upgrade-img">
 		<h5>詐騙網頁防護</h5>
 		<img src="images/upgrade-img-2.png" alt="詐騙網頁防護" />
 	</div>
 	<p>此外，我們開放原始碼的安全程序也讓全球資安專家隨時協助您緊盯漏洞，讓你更感安心。</p>
 	<h4>沒有一個瀏覽器能適合所有人</h4>
-	<p>我們清楚，你跟別人用網路的方式就是有點不同，也當然沒必要要求你跟鄰居用一模一樣的瀏覽器。無論你上網想閒聊、找食譜或寫程式，Firefox 擁有超過 6000 種附加元件，協助您依最適合自己的方式調整瀏覽器，完成任務。</p>
+	<p>我們清楚，你跟別人用網路的方式就是有點不同，也當然沒必要要求你跟鄰居用一模一樣的瀏覽器。無論你是要尋找新功能，或是讓 Firefox 更漂亮，超過二十萬套的附加元件，協助您依最適合自己的方式調整瀏覽器，完成任務。</p>
 	<div class="upgrade-img">
 		<h5>附加元件管理員</h5>
-		<img src="images/upgrade-img-3.png" alt="附加元件管理員" />
+		<img src="images/4-upgrade-img-3.png" alt="附加元件管理員" />
 	</div>
-	<h4>不斷提升的網路體驗</h4>
-	<p>我們努力讓 Firefox 3.6 帶給您最新、最棒的網路體驗，例如私密瀏覽模式、再度升級的智慧位址列，以及可在視窗間拆開、組合的分頁等。當然，Firefox 3.6 也大幅提升效能，讓你享受技術尖端的衝浪快感。</p>
+	<h4>全新的簡潔介面</h4>
+	<p>您使用 Firefox 4 時首先會注意到的就是全新的簡潔介面。原有的一些功能已經被整合、簡化，或是搬到其他地方去了。我們把重點放在網頁內容，讓您可以調整其他的區域需要什麼東西。</p>
 	<div class="upgrade-img">
-		<h5>Awesome Bar 智慧位址列</h5>
-		<img src="images/upgrade-img-4.png" alt="Awesome Bar" />
+		<h5>Firefox 按鈕（Windows 與 Linux）</h5>
+		<img src="images/4-upgrade-img-4.png" alt="Firefox 按鈕" />
 	</div>
 </div>
 
