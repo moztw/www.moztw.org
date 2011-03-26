@@ -11,9 +11,43 @@ td {
 table {
     border-collapse:collapse;
 }
-
 #product-desc p {
-    padding-left:250px;
+    padding-left:10px;
+}
+#mainContent.right {
+	width:78%;
+}
+#side.right {
+	width:20%;
+}
+.key-point {
+	background:url("/firefox/images/4beta-firstrun-illustration.jpg") no-repeat right bottom;
+	border-radius: 10px;
+	box-shadow: 1px 1px #BBBBBB;
+}
+.key-point:before {
+	background:none;
+	content:none;
+}
+.key-point:after {
+	background:none;
+	content:none;
+}
+.firefox-releasenotes-v4 {
+	background:url("/firefox/images/releasenotes-firefox-40.png") no-repeat scroll left top transparent;
+	float:none !important;
+	line-height:150% !important;
+	margin:85px 0 15px 10px;
+	padding:70px 20px 4px 0 !important;
+}
+#product-desc p {
+	color:#276787;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:6px;
+}
+#product-desc p a{
+	color:#276787;
 }
 -->
 </style>
@@ -23,7 +57,7 @@ table {
 <div id="mBody">
     <div id="mainContent" class="right">
       <div class="key-point">
-          <div id="product-desc" class="firefox-releasenotes-v36">
+          <div id="product-desc" class="firefox-releasenotes-v4">
 <!-- Introduction -->
 
           <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 4 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
