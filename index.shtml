@@ -4,7 +4,7 @@
 <link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan News" href="http://moztw.org/xmlnews.rdf" />
 <style type="text/css">
 <!--
-.front-feature { background: #E4EcEc url(images/4-feature-back.png) top right no-repeat;}
+.front-feature { background: #E4EcEc url(images/4-feature-win.png) top right no-repeat;}
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
