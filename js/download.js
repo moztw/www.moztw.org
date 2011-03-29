@@ -1,11 +1,15 @@
 // piaip's lightweight implementation of download.js
 // March 2011: modified by littlebtc orz
-function getPlatform()
-{
+// March 2011: modified by petercpg for detecting mobile platforms
+function getPlatform() {
   if (navigator.platform.indexOf("Win32") != -1 || navigator.platform.indexOf("Win64") != -1)
     return "win";
   else if (navigator.platform.indexOf("Linux") != -1)
-    return "linux";
+    if (navigator.userAgent.indexOf("Android") != -1)
+	    return "android";
+    else if (navigator.userAgent.indexOf("Maemo") != -1)
+	    return "maemo";
+    else return "linux";    
   else if (navigator.userAgent.indexOf("Mac OS X") != -1)
     return "mac";
   return "unknown";
