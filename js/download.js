@@ -19,7 +19,9 @@ function highlightDownload() {
   var platform = getPlatform();
   if (platform != "unknown") { // Unknown 的情況就不 Prefer 任何平台的連結
     var e = document.getElementById("download-link-" + platform);
-    e.className = e.className + ' preselected';
+    if (e) {
+      e.className = e.className + ' preselected';
+    }
   }
   // 換首頁圖
   var eFeature = document.getElementById("front-feature");
