@@ -12,6 +12,8 @@ function getPlatform() {
     else return "linux";    
   else if (navigator.userAgent.indexOf("Mac OS X") != -1)
     return "mac";
+  else if(navigator.userAgent.match(/iP(hone|od)/i))
+    return "ios";
   return "unknown";
 }
 

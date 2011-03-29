@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>下載行動版 Firefox</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+<link rel="icon" href="/images/mozilla-16.png" type="image/png">
+<link rel="home" title="Home" href="http://www.moztw.org/">
+<link rel="alternate" type="application/xml" title="RSS" href="/xmlnews.rdf">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--<link rel="stylesheet" type="text/css" href="/css/moztw.css">-->
+<style type="text/css">
+html{padding:0;margin:0;}
+body{
+	max-width:700px;
+	margin:0 auto;
+	padding:0 5px;
+	color:#555;
+	font-family: verdana,sans-serif;
+    font-size: small;
+	text-align:center;
+}
+:link {color: #003399;}
+:visited {color: #663366;}
+:link:hover, *:visited:hover {color: #333333;}
+:link:active, *:link:active {color: #000000;}
+
+#header{
+	background: #455372 url("/images/header_bl.png") bottom right repeat-x;
+	border-radius: 0px 0px 5px 5px;
+}
+#header h1{
+    background: url("mobile_header.png") no-repeat scroll 10px 3px transparent;
+	text-indent:-700em;
+	font-size:2px;
+	display:block;
+	height:20px;
+	margin:0;
+	padding:0;
+}
+.key-point{
+	background-color:#E4ECEC;
+	border-right:1px solid #ddd;
+	border-bottom:1px solid #ccc;
+	border-radius: 5px;
+	padding:10px;
+	margin-top:1em;
+}
+#product-desc{
+	background: url("/images/product-firefox.png") no-repeat 10% 5px;	
+	padding-left:30%;
+}
+#download{
+	position:relative;
+	background-color:#C4EFA1;
+	padding:25px 0 20px 0;
+	border-radius: 5px;
+}
+#download:before{
+	background: url("./download_arrow.png") no-repeat;
+	height: 25px;
+	width: 25px;
+	display: block;
+	border: none;
+	position:absolute;
+	top:-2px;
+	right:30px;
+	content: '';
+}
+#download a,#download a:visited{
+	font-size:150%;
+	color:#fff;
+	display:block;
+	width:90%;
+	margin:0 5% 20px;
+	background-color:#4a1;
+    background-image:-moz-linear-gradient(#83c53c, #519d1b);
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#83c53c), to(#519d1b));
+	text-decoration:none;
+	padding: 40px 0;
+	border-radius: 5px;
+	border-bottom: 2px solid #481
+}
+#footer {
+    border-top: 1px solid #999999;
+    margin: 2em 0;
+    padding: 1em 0;
+    text-align: center;
+	clear:both;
+}
+#footer p, #footer p a {
+    color: #666666;
+}
+
+</style>
+</head>
+
+<body id="www-moztw-org">
+<div id="container">
+
+<div id="header">
+<h1><a href="http://moztw.org/" title="回到 Mozilla Taiwan 首頁" accesskey="1">Mozilla Taiwan 正體中文在地化</a></h1>
+</div>
+
+<div class="key-point">
+    <div id="product-desc">
+		<h2>下載 Firefox Mobile</h2>
+		<p>忠於開放使命，致力提升網路體驗<br>全新外觀、速度超快、颯爽登場</p>
+    </div>
+	<div id="download">
+		<a id="download-link-android" href="market://details?id=org.mozilla.firefox">下載 Android 的 <br>Firefox 瀏覽器</a>
+		<a id="download-link-maemo" href="https://download.mozilla.org/?product=firefox-mobile-4.0&os=maemo&lang=multi">下載 Meamo 的<br>Firefox 瀏覽器</a>
+		<a id="download-link-ios" href="http://itunes.apple.com/us/app/firefox-home/id380366933?mt=8">下載 iOS 的<br>Firefox Home</a>
+		<div style="clear:both; zoom: 1;"> </div>
+    </div>
+</div>
+<script type='text/javascript' src='/js/download.js'></script>
+<script type='text/javascript'>
+<!--
+var MOBILEOS = ["android", "maemo", "ios"];
+function checkOS(){
+	var platform = getPlatform();
+	for(i in MOBILEOS){
+		if(platform == MOBILEOS[i]){
+			switchTo(platform);
+			break;
+		}
+	}
+}
+function switchTo(platform){
+	for(i in MOBILEOS){
+		e = document.getElementById("download-link-" + MOBILEOS[i]);
+		if(e) e.style.display="none";
+	}
+
+	e = document.getElementById("download-link-" + platform);
+	if(e) e.style.display="block";
+}
+window.onload = checkOS;
+//checkOS();
+// -->
+</script>
+
+
+
+<div id="footer">
+   <p>MozTW (Mozilla Taiwan)，Mozilla 軟體正體中文在地化專案/社群</p>
+   <p><a href="http://creativecommons.org/licenses/by-sa/3.0/tw/" rel="license"><img src="http://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" style="border-width:0" alt="Creative Commons License"></a></p>
+</div>
+
+
+</div>
+</body>
+</html>
+
