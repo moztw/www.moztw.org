@@ -1,0 +1,218 @@
+Index: css/cavendish/content.css
+===================================================================
+--- css/cavendish/content.css	(revision 1168)
++++ css/cavendish/content.css	(working copy)
+@@ -131,32 +131,15 @@
+ 		border-color: #666;
+ 	}
+ 
+-	.key-point:before {
+-		line-height: 0.1;
+-		font-size: 1px;
+-		background: transparent url("../../images/key-point_tr.gif") no-repeat top right;
+-		margin: -15px -15px 0 -15px;
+-		height: 15px;
+-		display: block;
+-		border: none;
+-		content: url("../../images/key-point_tl.gif");
+-	}
+ 	.key-point {
+ 		background: #e4ecec url("../../images/key-point_back.gif") right repeat-y;
+ 		padding: 15px;
+ 		margin-bottom: 1em;
++		-webkit-border-radius: 8px;
++		-moz-border-radius: 8px;
++		border-radius: 8px;
++		border-bottom:1px solid #ddd;
+ 	}
+-	.key-point:after {
+-		display: block;
+-		clear: both;
+-		padding-top: 15px;
+-		line-height: 0.1;
+-		font-size: 1px;
+-		content:  url("../../images/key-point_bl.gif");
+-		margin: -15px;
+-		height: 8px;
+-		background: transparent url("../../images/key-point_br.gif") scroll no-repeat bottom right ;
+-	}
+ 	
+ 	.key-point h2, .key-point h3, .key-point h4, .key-point h5 {
+ 		border: none;
+@@ -360,29 +343,27 @@
+ 	.other a:link, .other a:visited { color: #666; }
+ 	.download .other a:hover { color: #000; }
+ 	.download:before {
+-		line-height: 0.1;
+-		font-size: 1px;
+-		margin: -15px -15px 0 -15px;
+-		height: 15px;
++		height: 50px;
++		width: 50px;
+ 		display: block;
+ 		border: none;
+-		content: url("../../images/download_tl.gif");
++		position:absolute;
++		top:-3px;
++		right:0px;
++		background: transparent url("../../images/download_back_arrow.png") top right no-repeat;
++		content: '';
+ 	}
+ 	.download {
+-		background: #C4EFA1 url("../../images/download_back.gif") top right no-repeat;
++		position:relative;
++		background-color: #C4EFA1;
+ 		padding: 15px 45px 15px 15px;
++		-webkit-border-radius: 8px;
++		-moz-border-radius: 8px;
++		border-radius: 8px;
++		border-bottom:1px solid #AED48F;
++		border-right:1px solid #B6DE96;
+ 		margin-bottom: 0.5em;
+ 	}
+-	.download:after {
+-		display: block;
+-		padding-top: 15px;
+-		line-height: 0.1;
+-		font-size: 1px;
+-		content:  url("../../images/download_bl.gif");
+-		margin: -10px -45px -15px -15px;
+-		height: 8px;
+-		background: transparent url("../../images/download_br.gif") scroll no-repeat bottom right ;
+-	}
+ 	.configParent {
+ 		display: block;
+ 		font-size: 85%;
+@@ -429,4 +410,4 @@
+         #ffcentral h3, #ffcentral h2, #ffcentral p, #ffcentral ul {
+                 margin-top: 0;
+                 color: #4C5C5C;
+-        }
+\ No newline at end of file
++        }
+Index: css/cavendish/template.css
+===================================================================
+--- css/cavendish/template.css	(revision 1168)
++++ css/cavendish/template.css	(working copy)
+@@ -10,7 +10,10 @@
+ /* Header */
+ 
+ 	#header {
+-		background: #455372 url("../../images/header_bl.png") bottom left repeat-x;
++		background: #455372 url("../../images/header_bl.png") bottom right repeat-x;
++		-webkit-border-radius: 8px;
++		-moz-border-radius: 8px;
++		border-radius: 8px;
+ 		position: relative;
+ 		min-height: 39px;
+ 		height: 5em;
+@@ -27,7 +30,6 @@
+ 		left: 0;
+ 		margin: 0;
+ 		font-size: 2px;
+-		background: url("../../images/header_tl.gif") no-repeat;
+ 		height: 8px;
+ 		z-index: 100; /* above the UL */
+ 	}
+@@ -35,7 +37,6 @@
+ 		display: block;
+ 		width: 268px;
+ 		height: 64px;
+-		background: transparent url("../../images/header_logo.gif") no-repeat;
+ 		text-indent: -700em;
+ 		text-decoration: none;
+ 	} 
+@@ -47,28 +48,32 @@
+ 		margin: 0;
+ 		padding: 0 15px 0 0;
+ 		list-style: none;
+-		background: url("../../images/header_br.gif") no-repeat bottom right;
+ 		z-index: 90; /* below the H1 */
+ 	}
+ 	#header li {
+ 		float: right;
+-		background: transparent url("../../images/header_tab.gif") 100% -600px no-repeat;
+-		padding: 0 6px 0 0;
++		padding:0;
+ 		margin: 0 1px 0 0;
+ 		border-bottom: 1px solid #515358;
+ 	}
+ 	#header ul a {
+ 		float: left;
+ 		display: block;
+-		padding: 4px 4px 4px 10px;
+-		background: transparent url("../../images/header_tab.gif") 0% -600px no-repeat;
++		padding: 4px 10px 4px 10px;
++		background-color:#5F697E;
++		-webkit-border-top-left-radius: 6px;
++		-webkit-border-top-right-radius: 6px;
++		-moz-border-radius-topleft: 6px;
++		-moz-border-radius-topright: 6px;
++		border-top-left-radius:6px;
++		border-top-right-radius:6px;
+ 		font-weight: bold;
+ 		color: #fff;
+ 		text-decoration: none;
+ 	}
+-	#header ul li:hover a { background-position: 0% -400px; }
+-	#header ul li:hover { background-position: 100% -400px; }
+-	
++
++	#header ul li:hover a { background-color:#747F96; }
++
+ 	body.sectionAbout li#menu_aboutus a,
+ 	body.sectionContribute li#menu_contribute a,
+ 	body.sectionProducts li#menu_products a,
+@@ -115,7 +120,6 @@
+ 		top: 0;
+ 		right: 0;
+ 		padding: 12px 20px 0 0;
+-		background: url("../../images/header_tr.gif") no-repeat top right;
+ 		margin: 0; /* need for IE Mac */
+ 		text-align: right; /* need for IE Mac */
+ 		white-space: nowrap; /* for Opera */
+Index: css/moztw.css
+===================================================================
+--- css/moztw.css	(revision 1168)
++++ css/moztw.css	(working copy)
+@@ -61,7 +61,7 @@
+ 
+ /* new logo */
+ #header h1 a {
+-		background: transparent url("/images/header_logo2.png") no-repeat;
++		background: transparent url("/images/header_logo2_no_tl.png") no-repeat;
+ 		width: 354px;
+ 		height: 65px;
+ }
+@@ -311,4 +311,4 @@
+ div.vcard a {font-weight: normal;}
+ 
+ .vcard-additional-info{display: none;}
+-.vcard .note:before {content: "" !important;}
+\ No newline at end of file
++.vcard .note:before {content: "" !important;}
+Index: inc/meta.html
+===================================================================
+--- inc/meta.html	(revision 1168)
++++ inc/meta.html	(working copy)
+@@ -15,9 +15,10 @@
+  <!--
+  @import url(/css/moztw.css);
+  -->
+- </style><script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+
+-</script>
+
+-<script type="text/javascript">
+
+-_uacct = "UA-1035080-1";
+
+-urchinTracker();
+
++ </style>
++ <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen, projection" /><![endif]-->
++<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
++<script type="text/javascript">
++_uacct = "UA-1035080-1";
++urchinTracker();
+ </script>
