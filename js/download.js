@@ -4,16 +4,20 @@
 function getPlatform() {
   if (navigator.platform.indexOf("Win32") != -1 || navigator.platform.indexOf("Win64") != -1)
     return "win";
-  else if (navigator.platform.indexOf("Linux") != -1)
-    if (navigator.userAgent.indexOf("Android") != -1)
-	    return "android";
-    else if (navigator.userAgent.indexOf("Maemo") != -1)
-	    return "maemo";
-    else return "linux";    
-  else if (navigator.userAgent.indexOf("Mac OS X") != -1)
-    return "mac";
-  else if(navigator.userAgent.match(/iP(hone|od)/i))
+  
+  //Linux 放在最後，以免其他 Linux based 裝置也被當成桌面 linux
+  if (navigator.userAgent.indexOf("Android") != -1)
+    return "android";
+  if (navigator.userAgent.indexOf("Maemo") != -1)
+    return "maemo";
+  if (navigator.platform.indexOf("Linux") != -1)
+    return "linux";    
+  
+  //Mac 放在最後，以免其他 OSX based 裝置也被當成桌面 OSX
+  if(navigator.userAgent.match(/iP(hone|od|ad)/i))
     return "ios";
+  if (navigator.userAgent.indexOf("Mac OS X") != -1)
+    return "mac";
   return "unknown";
 }
 
