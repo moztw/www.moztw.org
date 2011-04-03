@@ -66,6 +66,9 @@
     
 }
 
+#event-list #firefox4party {
+    background: url("firefox4party/feature-firefox-4-party.png") no-repeat right 62% #2773bb;
+}
 #event-list #firefox3party {
     background: url("firefox3party/feature-firefox-3-party.png") no-repeat right bottom;
 }
