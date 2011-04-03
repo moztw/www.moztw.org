@@ -12,19 +12,20 @@
 <style type="text/css">
 html{padding:0;margin:0;}
 body{
-	max-width:600px;
+	max-width:500px;
 	min-width:300px;
 	margin:0 auto;
 	padding:0 5px;
 	color:#555;
 	font-family: verdana,sans-serif;
-    font-size: small;
-	text-align:center;
 }
 :link {color: #003399;}
 :visited {color: #663366;}
 :link:hover, *:visited:hover {color: #333333;}
 :link:active, *:link:active {color: #000000;}
+
+h2{margin-top:2em; border-bottom: 1px dotted #666;}
+
 
 #header{
 	background: #455372 url("/images/header_bl.png") bottom right repeat-x;
@@ -49,15 +50,20 @@ body{
 	border-radius: 5px;
 	padding:10px;
 	margin-top:1em;
+	text-align:center;
 }
-#product-desc{
-	background: url("/images/product-firefox.png") no-repeat 7% 0px;	
-	padding-left:25%;
+#product-desc h2{
+	height:60px;
+	padding:0;
+	background: url("/images/product-firefox.png") no-repeat 18% 0px;	
+	padding-left:30%;
+	margin-top:1em;
+	border:none;
 }
 #download{
 	position:relative;
 	background-color:#C4EFA1;
-	padding:25px 0 20px 0;
+	padding:25px 0 1px 0;
 	border-radius: 5px;
 }
 #download:before{
@@ -92,6 +98,22 @@ a#unknown-device{
     background-image:-webkit-gradient(linear, left top, left bottom, from(#e5b43c), to(#bd871b));	
 	border-bottom: 2px solid #841;
 }
+
+ul#features,ul#moztw{padding:0;}
+#features li,#moztw li{
+    list-style-type: none;
+    min-height:79px;
+    padding-left:90px;
+    margin-bottom:1em;
+}
+#features li{
+background: url("/m/features-new.png") no-repeat scroll left top transparent;
+}
+li#customize{background-position:left center;}
+li#search{background-position:left bottom;}
+li#foxmosa{background: url("/foxmosa/images/foxmosa-plurking-64.png") 5px top no-repeat;}
+li#gfx{background: url("/foxmosa/images/foxmosa-twitplurk-gfx.png") 5px top no-repeat;}
+li#events{background: url("/images/toy_gold_32.png") 5px top no-repeat; background-size:64px;}
 #footer {
     border-top: 1px solid #999999;
     margin: 2em 0;
@@ -155,7 +177,18 @@ checkOS();
 // -->
 </script>
 
-
+<h2>隨身攜帶的好 Firefox</h2>
+<ul id="features">
+<li id="sync"><b>同步</b><br>無縫同步您的桌面與行動瀏覽</li>
+<li id="customize"><b>自訂</b><br>安裝附加元件讓 Firefox 變成您所想要的樣子</li>
+<li id="search"><b>搜尋</b><br>透過智慧位址列，讓您輸入的更少，更快到達您想到的網站</li>
+</ul>
+<h2>MozTW</h2>
+<ul id="moztw">
+<li id="foxmosa"><a href="http://plurk.com/foxmosa">狐耳摩莎</a><br>MozTW 的可愛吉祥物，陪你一起在網路世界玩耍</li>
+<li id="gfx"><a href="http://gfx.tw">抓火狐</a><br>你也可以為推廣 Firefox 出一份力</li>
+<li id="events"><a href="/events/">主題活動</a><br>MozTW 過去、現在及未來的活動</li>
+</ul>
 
 <div id="footer">
    <p>MozTW (Mozilla Taiwan)，Mozilla 軟體正體中文在地化專案/社群</p>
