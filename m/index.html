@@ -12,7 +12,8 @@
 <style type="text/css">
 html{padding:0;margin:0;}
 body{
-	max-width:700px;
+	max-width:600px;
+	min-width:300px;
 	margin:0 auto;
 	padding:0 5px;
 	color:#555;
@@ -48,8 +49,8 @@ body{
 	margin-top:1em;
 }
 #product-desc{
-	background: url("/images/product-firefox.png") no-repeat 10% 5px;	
-	padding-left:30%;
+	background: url("/images/product-firefox.png") no-repeat 7% 0px;	
+	padding-left:25%;
 }
 #download{
 	position:relative;
@@ -71,16 +72,22 @@ body{
 #download a,#download a:visited{
 	font-size:150%;
 	color:#fff;
-	display:block;
-	width:90%;
-	margin:0 5% 20px;
+	margin:0 10% 20px;
 	background-color:#4a1;
     background-image:-moz-linear-gradient(#83c53c, #519d1b);
     background-image:-webkit-gradient(linear, left top, left bottom, from(#83c53c), to(#519d1b));
 	text-decoration:none;
-	padding: 40px 0;
+	padding: 40px 20px;
 	border-radius: 5px;
-	border-bottom: 2px solid #481
+	border-bottom: 2px solid #481;
+	display:block;
+}
+a#unknown-device{
+	display:none; /*hidden by default, shown if identified as unknow device*/
+	background-color:#c81;
+    background-image:-moz-linear-gradient(#e5b43c, #bd871b);
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#e5b43c), to(#bd871b));	
+	border-bottom: 2px solid #841;
 }
 #footer {
     border-top: 1px solid #999999;
@@ -112,6 +119,7 @@ body{
 		<a id="download-link-android" href="market://details?id=org.mozilla.firefox">下載 Android 的 <br>Firefox 瀏覽器</a>
 		<a id="download-link-maemo" href="https://download.mozilla.org/?product=firefox-mobile-4.0&os=maemo&lang=multi">下載 Meamo 的<br>Firefox 瀏覽器</a>
 		<a id="download-link-ios" href="http://itunes.apple.com/us/app/firefox-home/id380366933?mt=8">下載 iOS 的<br>Firefox Home</a>
+		<a id="unknown-device">很抱歉，您所使用的裝置無法安裝 Firefox Mobile </a>
 		<div style="clear:both; zoom: 1;"> </div>
     </div>
 </div>
@@ -120,25 +128,27 @@ body{
 <!--
 var MOBILEOS = ["android", "maemo", "ios"];
 function checkOS(){
-	var platform = getPlatform();
+	var platform = getPlatform(), supported=false;
 	for(i in MOBILEOS){
 		if(platform == MOBILEOS[i]){
-			switchTo(platform);
-			break;
+			setDisplay("download-link-"+platform, "block");
+			supported=true;
+		}
+		else{
+			setDisplay("download-link-"+MOBILEOS[i], "none");
 		}
 	}
-}
-function switchTo(platform){
-	for(i in MOBILEOS){
-		e = document.getElementById("download-link-" + MOBILEOS[i]);
-		if(e) e.style.display="none";
+	
+	if(!supported || true){
+		setDisplay("unknown-device", "block");
 	}
-
-	e = document.getElementById("download-link-" + platform);
-	if(e) e.style.display="block";
 }
-window.onload = checkOS;
-//checkOS();
+function setDisplay(id, disp){
+	e = document.getElementById(id);
+	if(e) e.style.display=disp;
+}
+//window.onload = checkOS;
+checkOS();
 // -->
 </script>
 
