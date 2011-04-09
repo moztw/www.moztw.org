@@ -54,12 +54,11 @@
 		float: right;
 		padding:0;
 		margin: 0 1px 0 0;
-		border-bottom: 1px solid #515358;
 	}
 	#header ul a {
 		float: left;
 		display: block;
-		padding: 4px 10px 4px 10px;
+		padding: 4px 10px 5px 10px;
 		background-color: #5F697E;
 		background-image: -webkit-gradient(linear, left top, left bottom, from(#6A748A), to(#5F697E));
 	   background-image: -webkit-linear-gradient(#6A748A, #5F697E); 
@@ -98,7 +97,6 @@
 	body.sectionSupport li#menu_support,
 	body.sectionDevelopers li#menu_developers,
 	body.sectionStore li#menu_store {
-		border-bottom: 1px solid #fff;
 	}
 	
 	body.sectionAbout li#menu_aboutus a:hover,
