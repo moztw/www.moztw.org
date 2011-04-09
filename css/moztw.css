@@ -61,7 +61,7 @@ div#firefox-feature div.download{
 
 /* new logo */
 #header h1 a {
-		background: transparent url("/images/header_logo2.png") no-repeat;
+		background: transparent url("/images/header_logo2_no_tl.png") no-repeat;
 		width: 354px;
 		height: 65px;
 }
@@ -263,7 +263,7 @@ address {
 }
 
 .download{
-	padding: 15px 45px 15px 15px !important;
+	padding: 13px 13px 13px 15px !important;
 }
 
 .download div{

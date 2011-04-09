@@ -131,31 +131,14 @@
 		border-color: #666;
 	}
 
-	.key-point:before {
-		line-height: 0.1;
-		font-size: 1px;
-		background: transparent url("../../images/key-point_tr.gif") no-repeat top right;
-		margin: -15px -15px 0 -15px;
-		height: 15px;
-		display: block;
-		border: none;
-		content: url("../../images/key-point_tl.gif");
-	}
 	.key-point {
 		background: #e4ecec url("../../images/key-point_back.gif") right repeat-y;
 		padding: 15px;
 		margin-bottom: 1em;
-	}
-	.key-point:after {
-		display: block;
-		clear: both;
-		padding-top: 15px;
-		line-height: 0.1;
-		font-size: 1px;
-		content:  url("../../images/key-point_bl.gif");
-		margin: -15px;
-		height: 8px;
-		background: transparent url("../../images/key-point_br.gif") scroll no-repeat bottom right ;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		border-bottom:1px solid #ddd;
 	}
 	
 	.key-point h2, .key-point h3, .key-point h4, .key-point h5 {
@@ -360,28 +343,25 @@ ol.faq li a:hover {
 	.other a:link, .other a:visited { color: #666; }
 	.download .other a:hover { color: #000; }
 	.download:before {
-		line-height: 0.1;
-		font-size: 1px;
-		margin: -15px -15px 0 -15px;
-		height: 15px;
+		height: 50px;
+		width: 50px;
 		display: block;
 		border: none;
-		content: url("../../images/download_tl.gif");
+		position:absolute;
+		top:-3px;
+		right:0px;
+		background: transparent url("../../images/download_back_arrow.png") top right no-repeat;
+		content: '';
 	}
 	.download {
-		background: #C4EFA1 url("../../images/download_back.gif") top right no-repeat;
+		position:relative;
+		background-color: #C4EFA1;
 		padding: 15px 45px 15px 15px;
-		margin-bottom: 0.5em;
-	}
-	.download:after {
-		display: block;
-		padding-top: 15px;
-		line-height: 0.1;
-		font-size: 1px;
-		content:  url("../../images/download_bl.gif");
-		margin: -10px -45px -15px -15px;
-		height: 8px;
-		background: transparent url("../../images/download_br.gif") scroll no-repeat bottom right ;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		border-bottom:1px solid #AED48F;
+		border-right:1px solid #B6DE96;
 	}
 	.configParent {
 		display: block;
