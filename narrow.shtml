@@ -1,0 +1,81 @@
+<!--#include virtual="/inc/meta.html" -->
+<!--<meta name="viewport" content="width=device-width">-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--#include virtual="/inc/title.html" -->
+<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 600px)">
+<!--<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 300pt)"> this is a failed attemp to detect physical size of mobile devices-->
+<link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan News" href="http://moztw.org/xmlnews.rdf" />
+<style type="text/css">
+<!--
+.front-feature { background: #E4EcEc url(images/4-feature-win.png) top right no-repeat;}
+-->
+</style>
+<!--#include virtual="/inc/class_homepage.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+<div class="key-point front-feature" id="front-feature">
+  <div id="feature-content">
+    <h2><a href="/firefox/"><img src="images/4-firefox-title.png" alt="Firefox 4.0" height="60" width="246"></a></h2>
+    <p>全新外觀、速度超快，<a href="/firefox/">Firefox 4.0</a> 讓一切都變得更加美好！</p>
+    <div class="download">
+		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 4</strong></a></h3>
+ 		<div style='background: url(/images/product-download-firefox.png) no-repeat;margin-top: 5px;'>
+		<!--#include virtual="/inc/dlff.html" -->
+		</div>
+    </div>
+  </div>
+</div>
+
+<div id="mBody">
+  <div class="frontcolumn">
+      <h2><a href="/thunderbird/">Thunderbird</a></h2>
+      <a href="/thunderbird/"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
+	  <p><a href="/thunderbird/">Thunderbird 3</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
+  </div>
+  <div class="frontcolumn">
+    <h2><a href="https://demos.mozilla.org/">Web O’ Wonder</a></h2>
+    <a href="https://demos.mozilla.org/"><img src="/images/HTML5_Badge_64.png" alt="HTML5 Logo" width="60" height="60" border="0" class="promo"></a> 
+    <p>立刻造訪 <a href="https://demos.mozilla.org/">Mozilla 奇幻網路</a>，看看設計師們透過 HTML5 & WebGL 的技術，所打造出各種無與倫比的網路旅程！</p>
+  </div>
+ <div class="frontcolumnlast">
+    <h2><a href="events/firefox4party">火狐四之曠４奇派</a></h2>
+    <img width="60" height="60" border="0" alt="" class="promo" src="/images/toy_gold_32.png">
+	<p>慶祝 Firefox 4 閃亮登場，今年最歡樂的火狐派對，開始報名！<a href="events/firefox4party/">快點搶個席位</a>，晚了就只好在門外畫圈圈嘍。</p>
+  </div>
+  <br style="clear: both;">
+
+  <!-- Start News Columns -->
+
+
+<div>
+    <div class="frontcolumndouble">
+    <a href="/xmlnews.rdf">
+      <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16">
+    </a>
+    <h2>
+      <a href="/news">最新消息與公告</a>
+    </h2>
+	<!--#include virtual="/inc/news.html" -->
+	</ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
+    </div>
+    <div class="frontcolumnlast">
+	  <h2>快速捷徑</h2>
+    <ul class="news">
+      <li><a href="http://gfx.tw/">gfx.tw 抓火狐</a></li>
+      <li><a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
+    	<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
+    	<li><a href="/events/">主題活動</a></li>
+    	<li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
+    	<li><a href="http://wiki.moztw.org/index.php/%E7%B6%B2%E8%B7%AF%E8%B3%87%E6%BA%90">網路資源</a></li>
+    </ul>
+    </div>
+	<br style="clear: both;">
+  <!-- End News Columns -->  
+  </div>
+	<a href='news'>所有公告記錄</a>
+  </div>
+<!--#include virtual="/inc/footer.html" -->
+<script>
+//window.alert(document.body.clientWidth);
+</script>
