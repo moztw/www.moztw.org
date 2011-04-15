@@ -6,14 +6,15 @@
 
 #front-feature #feature-content{
 	padding:6px;
+	text-shadow:#eceeee 1px 1px 0px;
 }
 
 #front-feature{
-	-moz-background-size:50%; 
-	-o-background-size:50%;
-	-webkit-background-size:50%;
-	background-size:300px;	
-	background-position:right bottom;
+	-moz-background-size:100%; 
+	-o-background-size:100%;
+	-webkit-background-size:100%;
+	background-size:100%;	
+	background-position:50% 120px;
 	padding-bottom:150px;
 }
 .download{
@@ -44,14 +45,14 @@
 #header ul:before{ clear:both; display:block;content:'';}
 #header ul:after{ clear:both; display:block;content:'';}
 #header ul a{
-	margin:0 4px 4px 0;
+	margin:0 2px 4px;
 	border-top:1px solid #aaa;
 	border-bottom:1px solid #333;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
 	border-radius:5px;
 }
-#header #search{ position:absolute; padding:0.5em 0;top:0; left:0; bottom:0; width:90%; z-index:100;}
+#header #search{ position:absolute; padding:0.5em 0;top:0; left:0; bottom:0; width:90%;}
 #header #search #q{width:70%;}
 #footer{
 	font-size:67%;
