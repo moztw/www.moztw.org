@@ -1,6 +1,8 @@
 <!--#include virtual="/inc/meta.html" -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!--#include virtual="/inc/title.html" -->
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
 <link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan News" href="http://moztw.org/xmlnews.rdf" />
 <style type="text/css">
 <!--

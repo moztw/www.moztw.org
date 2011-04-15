@@ -41,7 +41,7 @@
 	display:block;
 	float:left;
 }
-#header ul{position:relative; margin:0; padding:0;}
+#header ul{position:relative; margin:0; padding:0; font-size:115%;}
 #header ul:before{ clear:both; display:block;content:'';}
 #header ul:after{ clear:both; display:block;content:'';}
 #header ul a{
