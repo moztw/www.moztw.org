@@ -10,11 +10,11 @@
 }
 
 #front-feature{
-	-moz-background-size:100%; 
-	-o-background-size:100%;
-	-webkit-background-size:100%;
-	background-size:100%;	
-	background-position:50% 120px;
+	-moz-background-size:300px; 
+	-o-background-size:300px;
+	-webkit-background-size:300px;
+	background-size:300px;	
+	background-position:100% 100%;
 	padding-bottom:150px;
 }
 .download{
