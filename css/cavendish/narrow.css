@@ -61,7 +61,10 @@
 }
 body{
 	min-width:300px;
-	font-size:123%;
+	font-size:103%;
 	padding:0;
 	margin:3px 7px;
 }
+
+/*隱藏「所有公告紀錄」, this one is dirty*/
+#mBody>a{display:none;}
