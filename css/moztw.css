@@ -59,6 +59,10 @@ div#firefox-feature div.download{
 	width: 17em;
 }
 
+.hide {
+	display: none;
+}
+
 /* new logo */
 #header h1 a {
 		background: transparent url("/images/header_logo2_no_tl.png") no-repeat;

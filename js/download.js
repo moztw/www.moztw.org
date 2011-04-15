@@ -34,5 +34,19 @@ function highlightDownload() {
   if (eFeature && platform != "unknown" && platform != "win") {
     eFeature.style.backgroundImage = "url(images/4-feature-" + platform + ".png)";
   }
+  
+  // 換首頁 Feature Block
+  eFeature = document.getElementById("replace-this");
+  if (eFeature && platform != "unknown")
+	if (platform == "ios"){
+		eFeature.className += " hide";
+		eFeature = document.getElementById("mobile-feature-ios");
+		eFeature.className = eFeature.className.replace(/\bhide\b/,'')
+	}
+	else if (platform == "android" || platform == "maemo" ){
+		eFeature.className += " hide";
+		eFeature = document.getElementById("mobile-feature-android");
+		eFeature.className = eFeature.className.replace(/\bhide\b/,'')
+	}
 }
 
