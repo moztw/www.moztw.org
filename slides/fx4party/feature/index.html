@@ -113,7 +113,9 @@
           font-family: fface;
           */
         }
-
+        .footnote {
+          font-size: 40%;
+        }
         /* This part define the transitions between the slides
            Here I propose 3 differents effect:
              Default translation (classic "sliding" effect)
@@ -207,73 +209,127 @@
       </section>
 
       <section>
-        <h1>Firefox 4 Features</h1>
-        <p><a href="http://www.mozilla.com/en-US/firefox/features/">宣傳頁</a></p>
-        <p><a href="http://moztw.org/firefox/releases/">版本資訊</a></p>
-      </section>
-
-      <section>
-        <h2>Overview</h2>
+        <h2>改變中的瀏覽器</h2>
         <ul>
-          <li>Performance</li>
-          <li>UX</li>
-          <li>Technology</li>
-          <li>Future</li>
+          <li>介面</li>
+          <li>速度</li>
+          <li>技術</li>
         </ul>
       </section>
 
       <section>
-        <h1 style="text-shadow: red 5px 5px 3px;">Performance</h1>
+        <p><img src="war.png"></p>
       </section>
 
-	  <section>
-	  	<p><img src="performance.png" alt="JS Benchmark" /></p>
-	  	<p><a href="http://www.mozilla.com/en-US/firefox/performance/">與 3.6 相比快三到六倍！</a></p>
-	  </section>
-	  
-	  <section>
-	    <h1>Mighty Monkey</h1>
-	  	<p>JägerMonkey<br />JavaScript engine</p>
-	  </section>
-	  
-	  <section>
-	  	<h1>Graphics Hardware Acceleration</h1>
-	  	<p>enter about:support to see more info.</p>	
-	  </section>
-	  
       <section>
-      	<h1>Slow Performing Add-ons</h1>
-        <p><a href="https://addons.mozilla.org/zh-TW/firefox/performance/">降低使用效能的附加元件</a></p>
-        <p><br />IE9表示：附加元件效能警告器<strike>比較好用喔！</strike></p>
+        <h2>Firefox 4 誕生</h2>
+        <p><img src="happy_and_snappy.jpg"></p>
+        <p class="footnote"><a href="http://creative.mozilla.org/designs/2959">Image by Koen Hendrix</a>, CC BY-NC-SA 3.0 US</p>
+      </section>
+      <section>
+        <h2>What's new in Firefox 4</h2>
+        <ul>
+          <li>User Experience</li>
+          <li>Performance</li>
+          <li>Web Technology</li>
+        </ul>
       </section>
 
+
 	  <section>
-	  	<h1 style="text-shadow: red 5px 5px 3px;">UX</h1>	
+	  	<h1 style="text-shadow: red 5px 5px 3px;">User Experience</h1>	
+	  </section>
+
+	  <section>
+	  	<p><img src="windows.png" alt="Windows screenshot" /></p>
+	  </section>
+	 
+
+	  <section>
+	  	<h1>Tabs Groups</h1>
+	  	<p><img src="tabgroups.png" alt="Tab Groups on OSX" /></p>
+	  	<p>Also known as "Panorama" :P</p>	
 	  </section>
 	  
+	  <section>
+	  	<h1>App Tabs</h1>
+	  	<p><img src="apptabs.png" alt="App Tabs on OSX" /></p>
+	  	<p>But I think only icon is too small to access…</p>	
+	  </section>
+	  
+	  <section>
+	  	<h1>Revamped Add-ons Manager</h1>
+	  	<p><img src="addon_manager.png" alt="Add-ons Manager" /></p>	
+	  </section>
+	  
+	  <section>
+	  	<h1>Web Console</h1>
+	  	<p><img src="webconsole.png" alt="Web Console on OSX" /></p>
+
+	  </section>
+	  
+	  <section>
+	  	<h1>Switch to Tab</h1>
+	  	<p><img src="switchtotab.png" alt="Switch to Tab on OSX" /></p>
+	  	<p>Use % to search in current tabs.</p>	
+	  </section>
+	  
+	  <section>
+	  	<h1>Modal Dialogs</h1>
+	  	<p><a href="javascript:alert('Yoooooooo!');">ALERT</a></p>
+	  	<p><a href="javascript:var x = confirm('やらないか？');">CONFIRM</a></p>
+	  	<p>No longer block other tabs.</p>	
+	  </section>
+	  
+	  
+	  <section>
+	  	<h1>Firefox Sync</h1>
+	  	<p><img src="sync.png" alt="Firefox Sync on OSX" /></p>
+	  </section>
+	  <section>
+	  	<h1>Sync to go</h1>
+	  	<p><img src="sync_mobile.png" alt="Firefox shows desktop tabs on HTC Desire" /></p>
+	  	<p class="footnote">Sync with <a href="http://www.mozilla.com/zh-TW/mobile/">Firefox Mobile</a> on Android/Maemo, or <a href="http://www.mozilla.com/zh-TW/mobile/home/">Firefox Home</a> on iPhone</p>
+	  </section>
+	  <section>
+	  	<h1>Platform-specific improvement</h1>
+    </section>
 	  <section>
 	  	<h1>Windows</h1>
 	  	<p><img src="windows.png" alt="Windows screenshot" /></p>
 	  </section>
 	  
 	  <section>
-	  	<h1>AeroGlass</h1>
-	  	<p><img src="aeroglass.png" alt="Mac OOPP" /></p>
+	  	<h2>Aero Glass</h2>
+	  	<p><img src="aeroglass.png" alt="Aero Glass with Tab Groups on Windows 7" /></p>
 	  </section>
 	  
 	  <section>
-	  	<h1>Macintosh</h1>
+	  	<h2>Firefox Menu</h2>
+	  	<p><img src="fx4menu.png" alt="Single-Access Menu" /></p>
+	  </section>
+
+	  <section>
+	  	<h2>...Bug :(</h2>
+	  	<p><img src="fx4menubug.png" alt="Single-Access Menu" /></p>
+	  	<p class="footnote">The duplicate item issue has been fixed, but the absence of Page Style hasn't.</p>
+	  </section>
+
+	  <section>
+	  	<h1>Mac OS X</h1>
 	  	<p><img src="macos.png" alt="Mac OS X screenshot" /></p>
 	  </section>
 	  
 	  <section>
-	  	<h1>OOPP</h1>
+	  	<h2>OOPP on Mac</h2>
+	  	<p class="footnote">Keeps Flash crashes away!</p>
 	  	<p><img src="mac.png" alt="Mac OOPP" /></p>
-	  </section>
-	  
-	  <section>
-	  	<h1>Flash Fails</h1>
 	  	<p><img src="mac2.png" alt="Mac OOPP" /></p>
+	  </section>
+	  <section>
+      <h2>Core Text support</h2>
+      <p><img src="old_font_bug.png"</p>
+      <p>Also fix 幾百隻「眼睛」 bug on Firefox 3.6</p>
 	  </section>
 	  
 	  <section>
@@ -285,74 +341,60 @@
 	  	<h1>Image Zoom Antialias</h1>
 	  	<p>3.6<img src="antialias.png" alt="3.6 Image Zoom" />4.0<img src="antialias2.png" alt="4.0 Image Zoom" /></p>
 	  </section>
-	  
 	  <section>
-	  	<h1>Common Changes</h1>	
+	  	<h1>Opt-in Firefox menu</h1>
+	  	<p><img src="linuxfirefoxmenu.png" alt="Firefox with Firefox Menu on Ubuntu" /></p>
+      <p>Hide the menu bar and Firefox menu will appear</p>
+	  </section>
+	  
+      <section>
+        <h1 style="text-shadow: red 5px 5px 3px;">Performance</h1>
+      </section>
+
+	  <section>
+      <h2>JavaScript is faster</h2>
+	  	<p><img src="performance.png" alt="JS Benchmark" /></p>
+	  	<p class="footnote"><a href="http://www.mozilla.com/en-US/firefox/performance/">Data source</a></p>
 	  </section>
 	  
 	  <section>
-	  	<h1>Single-Access Menu</h1>
-	  	<p><img src="fx4menu.png" alt="Single-Access Menu" /></p>
-	  	<p>The duplicate item issue has been fixed, but the absence of Page Style hasn't.</p>
+	    <h2>Mighty Monkeys &hearts; JS</h2>
+      <ul>
+        <li>Tracemonkey <span style="border: 2px solid white; border-radius: 10px; font-size: 50%; padding: 0px 10px;">3.5</span> : Tracing JIT </li>
+	  	  <li>JägerMonkey <span style="border: 2px solid white; border-radius: 10px; font-size: 50%; padding: 0px 10px;">4.0</span> : Method JIT</li>
+      </ul>
 	  </section>
 	  
 	  <section>
-	  	<h1>Restart Firefox and disable all addons</h1>
-	  	<p>圖需要支援</p>	
+	  	<h2>Graphics Hardware Acceleration</h2>
+      <ul>
+        <li>New layer framework</li>
+        <li>Content and Compositing acceleration</li>
+      </ul>
+      <p class="footnote">Needs newer grphics card driver. Check about:support in your browser.</p>
 	  </section>
 	  
 	  <section>
-	  	<h1>Faster restore of a previous browsing session</h1>
-	  	<p>圖需要支援</p>	
+	  	<h2>How fast?</h2>
+	  	<p><img src="howfast.png"></p>	
+	  	<p class="footnote"><a href="http://hacks.mozilla.org/2010/09/hardware-acceleration/">Try it yourself</a> (建議使用 Windows)</p>
 	  </section>
-	  
+
 	  <section>
-	  	<h1>Tabs Group</h1>
-	  	<p>圖需要支援</p>
-	  	<p>Also known as "Panorama" :P</p>	
-	  </section>
-	  
-	  <section>
-	  	<h1>Application Tabs</h1>
-	  	<p>圖需要支援</p>
-	  	<p>But I think only icon is too small to access…</p>	
-	  </section>
-	  
-	  <section>
-	  	<h1>Revamped Add-ons Manager</h1>
-	  	<p><img src="addon_manager.png" alt="Add-ons Manager" /></p>	
-	  </section>
-	  
-	  <section>
-	  	<h1>Web Console</h1>
-	  	<p>圖需要支援</p>	
-	  </section>
-	  
-	  <section>
-	  	<h1>Switch to Tab</h1>
-	  	<p>圖需要支援</p>
-	  	<p>Use % to search in current tabs.</p>	
-	  </section>
-	  
-	  <section>
-	  	<h1>Modal Dialogs</h1>
-	  	<p><a href="javascript:alert('Yoooooooo!');">ALERT</a></p>
-	  	<p><a href="javascript:var x = confirm('やらないか？');">CONFIRM</a></p>
-	  	<p>No longer block other tabs.</p>	
-	  </section>
-	  
-	  <section>
-	  	<h1>Retained Layers</h1>
-	  	<p>圖要展示什麼？</p>
+	  	<h2>Retained Layers</h2>
+      <p>Cache part of the contents when rendering</p> 
 	  	<p>More smooth scrolling with complex pages, especially for those full of box-shadow effects.</p>	
 	  </section>
-	  
+
 	  <section>
-	  	<h1>Firefox Sync</h1>
-	  	<p>圖需要支援</p>
-	  	<p><a href="http://www.mozilla.com/zh-TW/mobile/sync/">Sync with your Firefox Mobile</a></p>	
+	  	<h2>Faster startup</h2>
+      <ul>
+        <li>Omnijar<br /> <span class="footnote">檔案包在一起，減少 I/O</span></li>
+        <li>Cascaded Session Restore<br /> <span class="footnote">回復時「慢慢」重載所有分頁，不塞車</span></li>
+        <li>Slow Performing Add-ons<br /> <span class="footnote"><a href="https://addons.mozilla.org/zh-TW/firefox/performance/">套件拖慢速度？公諸於世！</a></span></li>
+      </ul>
+      <p class="footnote"><br />IE9表示：附加元件效能警告器<strike>比較好用喔！</strike></p>      
 	  </section>
-	  
 	  <section>
 	  	<h1 style="text-shadow: red 5px 5px 3px;">Technology</h1>	
 	  </section>
@@ -407,8 +449,9 @@
 	  </section>
 	  
 	  <section>
-	  	<h1>Aurora Channel</h1>
-	  	<img src="aurora.png" alt="Aurora Channel" />
+	  	<h1>Faster Development</h1>
+      <p>Firefox 5, 6, 7 this year!!</p>
+      <p class="footnote">Is it possible?</p>
 	  </section>
 	  
 	  <section>
@@ -418,13 +461,19 @@
 	  </section>
 	  
 	  <section>
+	  	<h1>Aurora is born.</h1>
+	  	<img src="aurora.png" alt="Aurora Channel" />
+	  </section>
+
+	  <section>
 	  	<h1>New Channels</h1>
 	  	<img src="newchannel.png" alt="Firefox Channels" />	
 	  </section>
 	  
 	  <section>
-	  	<h1>Update Channels</h1>
-	  	<img src="updatechannel.png" alt="Firefox Channels" />	
+	  	<h1>Development and Testing</h1>
+	  	<p><img src="updatechannel.png" alt="Firefox Channels" /></p>
+      <p>6 Weeks for each process</p>
 	  </section>
 	  
       <section>
@@ -438,6 +487,14 @@
       	<p><a href="http://areweprettyyet.com/">Are we pretty yet?</a></p>
       </section>
 
+      <section>
+        <h1>More aboout Firefox 4</h1>
+        <ul>
+          <li><a href="http://www.mozilla.com/en-US/firefox/features/">功能介紹</a></li>
+          <li><a href="http://moztw.org/firefox/releases/">版本資訊</a></li>
+          <li><a href="https://developer.mozilla.org/en/Firefox_4_for_developers">開發者資訊</a></li>
+        </ul>
+      </section>
       <section>
       	<p><img src="end.png" alt="Thanks!" /></p>
       	<p><br />http://moztw.org/slides/fx4party/feature/</p>
