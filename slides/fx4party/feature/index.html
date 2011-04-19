@@ -222,19 +222,28 @@
 	  </section>
 
 	  <section>
+	  	<h2>UI Change Overview</h2>
+	  	<p>3.6</p>
+	  	<p><img src="fx_3.6.png" alt="Firefox 3.6" /></p>
+	  	<p>↓</p>
+	  	<p><img src="fx_4.0.png" alt="Firefox 4.0" /></p>
+	  	<p>4.0</p>
+	  </section>
+	  
+	  <section>
 	  	<h2>Firefox Button</h2>
 	  	<p><img src="firefox_button.png" alt="Single-Access Menu" /></p>
+	  </section>
+	 
+	  <section>
+	  	<h1>Tabs-On-Top and App Tabs</h1>
+	  	<p><br /><img src="apptabs.png" alt="App Tabs on OSX" /></p>	
 	  </section>
 	 
 	  <section>
 	  	<h1>Tabs Groups</h1>
 	  	<p><img src="tabgroups.png" alt="Tab Groups on OSX" /></p>
 	  	<p>"Panorama" :P</p>	
-	  </section>
-	  
-	  <section>
-	  	<h1>App Tabs</h1>
-	  	<p><br /><img src="apptabs.png" alt="App Tabs on OSX" /></p>	
 	  </section>
 	  
 	  <section>
@@ -267,36 +276,37 @@
 	  </section>
 	  
 	  <section>
-	  	<h1>Platform-specific improvement</h1>
+	  	<h1>Platform-Specific Improvement</h1>
+	  	<p><img src="ui_in_3os.png" alt="UI in different OS" /></p>
      </section>
-     
+     <!--
 	  <section>
 	  	<h1>Windows</h1>
 	  	<p><img src="windows.png" alt="Windows screenshot" /></p>
 	  </section>
-	  
+	  -->
 	  <section>
 	  	<h2>Aero Glass</h2>
 	  	<p><img src="aeroglass.png" alt="Aero Glass with Tab Groups on Windows 7" /></p>
 	  </section>
-
+	  <!--
 	  <section>
 	  	<h1>Mac OS X</h1>
 	  	<p><img src="macos.png" alt="Mac OS X screenshot" /></p>
 	  </section>
-	  
+	  -->
 	  <section>
 	  	<h2>OOPP on Mac</h2>
 	  	<p><img src="mac.png" alt="Mac OOPP" /></p>
 	  	<p><img src="mac2.png" alt="Mac OOPP" /></p>
 	  	<p class="footnote">Flash Fails…</p>
 	  </section>
-	  
+	  <!--
 	  <section>
 	  	<h1>Linux</h1>
 	  	<p><img src="ubuntu.png" alt="Ubuntu screenshot" /></p>
 	  </section>
-	  
+	  -->
 	  <section>
 	  	<h1>Image Zoom Antialias</h1>
 	  	<p>3.6<img src="antialias.png" alt="3.6 Image Zoom" />4.0<img src="antialias2.png" alt="4.0 Image Zoom" /></p>
@@ -312,10 +322,8 @@
 	  </section>
 	  
 	  <section>
-	    <h2>Mighty Monkeys &hearts; JS</h2>
-        <ul>
-          <li>TraceMonkey <span style="border: 2px solid white; border-radius: 10px; font-size: 50%; padding: 0px 10px;">3.5</span> : Tracing JIT </li>
-	  	  <li>JägerMonkey <span style="border: 2px solid white; border-radius: 10px; font-size: 50%; padding: 0px 10px;">4.0</span> : Method JIT</li>
+	    <h1>Mighty Monkeys &hearts; JS</h1>
+        <p><br />TraceMonkey <span style="border: 2px solid white; border-radius: 10px; font-size: 50%; padding: 0px 10px;">3.5</span><br />+<br />JägerMonkey <span style="border: 2px solid white; border-radius: 10px; font-size: 50%; padding: 0px 10px;">4.0</p>
         </ul>
 	  </section>
 	  
@@ -323,7 +331,6 @@
 	  	<h1>Graphics Hardware Acceleration</h1>
       	<p>Check <strong>about:support</strong> for detail.</p>
 	  </section>
-	  
 	  <!--
 	  <section>
 	  	<h1>Faster Startup</h1>
@@ -332,7 +339,6 @@
       </ul>      
 	  </section>
 	  -->
-	  
 	  <section>
 	    <h1>Slow Performing Add-ons</h1>
 	    <p><a href="https://addons.mozilla.org/zh-TW/firefox/performance/">拖慢啟動速度的套件？</a></p>
@@ -345,49 +351,67 @@
 	  </section>
 	  
 	  <section>
-	  	<h1>HTML5</h1>
+	  	<p><img src="html5.png" alt="HTML5 Logo" /></p>
+	  </section>
+	  <!--
+	  <section>
+	  	<h1>FORMS</h1>
 	  	<p><a href="http://hacks.mozilla.org/2010/11/firefox-4-html5-forms/">Forms</a></p>
 	  </section>
-	  
+	  -->
 	  <section>
 	  	<h1>Audio API</h1>
-	  	<p><a href="http://moztw.org/demo/audioplayer/">Our Audioplayer Demo</a></p>	
+	  	<p><iframe src="http://moztw.org/demo/audioplayer/?to=1" width="1200px" height="560px" frameborder="0"></iframe></p>
+	  	<p class="footnote"><a href="http://moztw.org/demo/audioplayer/">Our Audioplayer Demo</a></p>	
 	  </section>
 	  
 	  <section>
+	  	<script type="text/javascript">
+	  		function toggle() {
+	  			var box = document.getElementById('webm');
+  				if (box.paused) {
+  					box.play();
+  				}
+  				else {
+  					box.pause();
+  				}
+			}
+	  	</script>
 	  	<h1>WebM</h1>
-	  	<p><video controls autobuffer preload src="bunny.webm" type='video/webm; codecs="vp8, vorbis"'></video></p>
-	  	<p>We always demo this silly bunny…</p>
+	  	<p style="box-shadow: 0 0 15px 15px #000; display: inline-block; margin: 15px" onclick="toggle(); return false;"><video id="webm" controls autobuffer src="http://www.webmfiles.org/wp-content/uploads/video/big-buck-bunny_trailer.webm" type='video/webm; codecs="vp8, vorbis"'></video></p>
 	  </section>
 	  
 	  <section>
 	  	<h1>CSS3</h1>
-	  	<p><div style="display: inline-block; box-shadow: 0 0 15px 15px #888; border-radius: 15px; padding: 10px">box-shadow<br />border-radius</div></p>
+	  	<p><div style="box-shadow: 0 0 15px 15px #000; border-radius: 15px; padding: 15px; margin: 15px">box-shadow<br />border-radius</div></p>
 	  	<p>no more need for -moz- perfix</p>
 	  	<p><br /><a href="https://developer.mozilla.org/en/CSS/CSS_transitions">CSS Transitions</a></p>
 	  </section>
 	  
 	  <section>
 	  	<h1>WebGL</h1>
-	  	<p><a href="http://bodybrowser.googlelabs.com/">Google Body</a></p>
-	  	<p><a href="http://www.rozengain.com/files/webgl/WebGLAnimation/">Blender to WebGL</a></p>
+	  	<p class="footnote"><a href="http://bodybrowser.googlelabs.com/">Google Body</a></p>
+	  	<p><img src="googlebody.png" alt="Google Body" /></p>
+	  	<!--<p><a href="http://www.rozengain.com/files/webgl/WebGLAnimation/">Blender to WebGL</a></p>-->
 	  </section>
 	  
 	  <section>
 	  	<h1>WOFF</h1>
-	  	<p><a href="http://hacks.mozilla.org/2010/11/firefox-4-font-feature-support/">OpenType font features</a></p>
-	  	<p><br /><img src="woff.png" alt="Lost World's Fairs" /></p>
-	  	<p class="footnote"><a href="http://lostworldsfairs.com/">Lost World's Fairs</a></p>	
+	  	<p><iframe src="http://people.mozilla.org/~jdaggett/webfonts/sugarspice.html" width="800px" height="500px" frameborder="0"></iframe></p>
+	  	<p class="footnote">Go to <a href="http://lostworldsfairs.com/">Lost World's Fairs</a> to see more…</p>	
 	  </section>
 	  
 	  <section>
 	  	<h1>GAME</h1>
-	  	<p><a href="https://gaming.mozillalabs.com/">Mozilla Labs Gaming</a></p>	
+	  	<p class="footnote"><a href="https://gaming.mozillalabs.com/">Mozilla Labs Gaming</a></p>
+	  	<p><img src="gameon.png" alt="Mozilla Labs Gaming" /></p>
+	  	<p><a href="http://mozillademos.org/demos/runfield/demo.html?theme=http%3A%2F%2Fd.dropbox.com%2Fu%2F3280872%2Frunfield%2Ffield%2F">Play with our cute Foxmosa!</a></p>
 	  </section>
 	  
 	  <section>
 	  	<h1>Web O'(pen) Wonder</h1>
-	  	<p><a href="https://demos.mozilla.org/zh-TW/">Mozilla 之奇幻網路</a></p>
+	  	<p style="box-shadow: 0 0 15px 15px #888; display: inline-block; margin: 15px"><img src="wow.png" alt="Web O'(pen) Wonder" /></p>
+	  	<p class="footnote"><a href="https://demos.mozilla.org/zh-TW/">Mozilla 之奇幻網路</a></p>
 	  </section>
 	  
 	  <section>
