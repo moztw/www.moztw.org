@@ -5,7 +5,7 @@
 <!--#include virtual="/inc/header.html" -->
   <div class="key-point">
     <div id="feature" style="padding: 6px">
-      <h2>Firefox 4 發行系列活動！</h2>
+      <h2>曠 4 奇派！</h2>
       <p>慶祝 Firefox 4 正式發行！</p>
 	  <ul id="global-info">
       <li><a href="http://mozlinks-zh.blogspot.com/atom.xml" title="Mozilla Links RSS"><img src="/images/livemarks16.png" alt="RSS"></a></li>
@@ -16,115 +16,130 @@
 
 <div id="mainContent">
     <div class="item-block"><img name="partyicon" src="party_icon.png" alt="">
-      <h3><a href="#party">Firefox Party 4.0</a></h3>
-
-      <p>慶祝全新的 Firefox 4 正式登場！4 月 24 日，一起來會場狂歡吧！</p>
+      <h3><a href="http://moztw.org/slides/fx4party/feature/#1">Firefox 4 Party - 火狐再臨</a></h3>
+      <p>Firefox 4 Party 主題簡報，Firefox 4 的一切新東西，都在 WM 與 littlebtc 為您帶來的投影片中，！</p>
     </div>
     <div class="item-block"><img src="extension_icon.png" alt="">
-      <h3><a href="#extension">標題B</a></h3>
-      <p>這裡放文字，放文字喔，要放文字喔，一瞬間愛上火狐！</p>
+      <h3><a href="https://demos.mozilla.org/zh-TW/">Mozilla 之奇幻網路</a></h3>
+      <p>瞧瞧這些絢麗的網路作品！驚奇、夢幻、將讓你津津樂道的奇蹟，就在你的瀏覽器中發生！</p>
     </div>
     <div id="street-block" class="item-block"><img src="foxmosa_icon.png" alt="">
-
-      <h3><a href="#foxmosa">標題 C</a></h3>
-       
-      <p>一定要來玩一下 SUMO 的啦！</p>
+      <h3><a href="http://creative.mozilla.org/challenges/8">Firefox 4 T-shirt 設計大賽</a></h3>
+      <p>想要讓全世界的使用者穿上你設計的 Firefox 4 T-shirt 嗎？</p>
     </div>
   </div>
   <div class="information">
 
-  <div id="extension">
-    <h2><img src="extension_icon.png" alt="">Firefox 4 Party 熱鬧籌備中</h2>
-	 <p>..........！</p>
 
-	<h3 id="share">參與籌備</h3>
-	<p>.....</p>
-
-	 <h3>我們需要你！</h3>
-	 <p>.....</p>
-	 </div>
-  <div id="foxmosa">
-    <h2><img src="foxmosa_icon.png" alt="">火狐鬥陣遊台灣</h2>
-    <p>全台狐迷瘋狂慶祝 Firefox 4 上市，MozTW ....</p>
-	<p>....您可別錯過了！</p>
-	<h3>如何參與？</h3>
-	<p>嚮導的任務是....</p>
-
-	<h3>美麗寶島獎</h3>
-	<p>...</p>
-	<h3>快去報名！</h3>
-	<p>很簡單吧？...</p>
-  </div>
     <div id="party">
-    <h2><img name="partyicon" src="party_icon.png" alt="">Firefox Party 4.0 - 火狐四 之 橫掃全球創紀錄慶生派對</h2>
+    <h2><img name="partyicon" src="party_icon.png" alt="">Firefox 4 Party - 火狐四 之 曠 4 奇派！</h2>
+    <p>Firefox 4 無論外觀或內在都是史上最大幅度的改版，而「火狐發威之曠4奇派」也即將成為最歡樂的火狐派對！無論你是想吃喝、想交流、想要知性、想要感性、或者單純就是想來看看，記得在 3/24 20:00 開放報名時快點搶個席位，晚了就只好在門外畫圈圈了 :(</p>
+    <div style="float: right; width:425px; margin-left: 10px; padding: 6px; border: 1px solid #ccc; background: #fff;">
+      <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.tw/maps/ms?hl=zh-TW&ie=UTF8&brcurrent=3,0x3442a99bd1adbcc7:0xc5ab69bb7491162a,0,0x3442ac6b61dbbd9d:0xc0c243da98cba64b&msa=0&msid=211565165749517597023.00049ec38a84dce6929ee&ll=25.019745,121.528611&spn=0.001701,0.00228&z=18&output=embed"></iframe><br /><small>在較大的地圖上查看<a href="http://maps.google.com.tw/maps/ms?hl=zh-TW&ie=UTF8&brcurrent=3,0x3442a99bd1adbcc7:0xc5ab69bb7491162a,0,0x3442ac6b61dbbd9d:0xc0c243da98cba64b&msa=0&msid=211565165749517597023.00049ec38a84dce6929ee&ll=25.019745,121.528611&spn=0.001701,0.00228&z=18&source=embed" style="color:#0000FF;text-align:left">Firefox 4 Party</a></small>
 
-    <p>火狐四度來報到！....</p>
-    <div style="float: right; width:460px; margin-left: 10px; padding: 6px; border: 1px solid #ccc; background: #fff;"><iframe width="460" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.tw/maps/ms?hl=zh-TW&amp;ie=UTF8&amp;s=AARTsJoNT_yxonsCGzaGlNTQleHno6ksjA&amp;msa=0&amp;msid=109931952884685931086.000450a7508efa09f8df5&amp;ll=25.125295,121.469328&amp;spn=0.0068,0.009871&amp;z=16&amp;output=embed"></iframe><br><small><a href="http://maps.google.com.tw/maps/ms?hl=zh-TW&amp;ie=UTF8&amp;msa=0&amp;msid=109931952884685931086.000450a7508efa09f8df5&amp;ll=25.125295,121.469328&amp;spn=0.0068,0.009871&amp;z=16&amp;source=embed" style="color:#0000FF;text-align:left">檢視較大的地圖</a></small>
     </div>
     
     <h3>資訊</h3>
-      <p>日期時間：2011 年 4 月 24 日 1x:00 - 1x:30 (1x:30 開始入場)<a href="http://www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox Party 3.0&amp;dates=20080719T060000Z/20080719T093000Z&amp;details=華碩電腦企業營運總部三樓咖啡廳13%3A30 開始入場&amp;location=台北市北投區立德路15號&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></p>
-      <p>地點：TBD<br>
-        {put address here}<a href="http://www.urmap.com/?link=Qhs10-0sd11s1T000W0E0101010W0Q0E0Q0s0-0s0W0a0YWE0W0T0W0W0Q0Q0W0W010Q000d0-0Q010s0YWa0W0a0T0-TRTE0a0shRT112ThgEfQW2gdf2Ydf11-fT0-TRTE0a0shRT112ThgEfh2QTTY1fhEEfTfEfhEEfR1EfQs10-0sd11s1T0Q0T0-0T000W0E0101010W0Q0E0Q0s0-0s0W0a0YWE0W0T0W0W0Q0Q0W0W010Q000d0-0Q010s0YWa0W0a0">(UrMap)</a> <a href="http://ehr.asus.com/directions.htm#a">(交通資訊)</a></p>
+      <p>日期：2011 年 4 月 24 日 <br/>時間：13:30 - 17:30 (13:00 開始入場)
+        <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox%204%20Party&dates=20110424T050000Z/20110424T093000Z&details=%E8%80%95%E8%8E%98%E6%96%87%E6%95%99%E9%99%A2%EF%BC%88%E8%BF%91%E5%8F%B0%E5%8C%97%E6%8D%B7%E9%81%8B%E5%8F%B0%E9%9B%BB%E5%A4%A7%E6%A8%93%E7%AB%99%EF%BC%89%0A%E6%AF%8F%E4%BA%BA%E8%B2%BB%E7%94%A8%20NT%24%20150&location=%E8%87%BA%E5%8C%97%E5%B8%82%E8%BE%9B%E4%BA%A5%E8%B7%AF%E4%B8%80%E6%AE%B522%E8%99%9F&trp=false&sprop=http%3A%2F%2Fmoztw.org%2Fevents%2Ffirefox4party%2F&sprop=name:Firefox%204%20Party" title="加到 Google Calendar 中" target="_blank"><img src="/images/ical.png" alt=""></a>
+      </p>
+      <p>地點：耕莘文教院（近台北捷運台電大樓站）<br>
+        　　　臺北市辛亥路一段22號
+      </p>
 
-	<p>費用：分攤價 ??? 元 (分攤餐點設備等費用)</p>
+	<p>費用：分攤價 150 元</p>
 	
-	<p>人數：限 ??? 名</p>
-<p style="font-size: 2em;"><a href="kavascript:;"><!--這裡更新報名網址 -->火速報名去！</a></p>
+        <p style="font-size: 2em;"><a href="http://registrano.com/events/firefox4party">席次有限，3/24 開放報名！</a></p>
 	<h3>內容</h3>
 		<ul>
+			<li>吃吃喝喝（這當然要擺第一個阿 XD）</li>
 			<li>Firefox 4 新功能介紹</li>
-			<li>社群分享：擴充套件私家秘技</li>
-			<li>....</li>
-			<li>專題分享：....</li>
-			<li>.....</li>
-			</ul>
+			<li>社群分享：私家秘技</li>
+		</ul>
 
 	<h3>有吃又看又有拿</h3>
 	<p>這次依然費盡心思為大家準備以堆計算的有趣紀念品及抽獎贈品：</p>
 		<ul>
 			<li>空運來台的原裝 Firefox Party 慶祝包 (數量不一送完為止)：
 			<ul>
-				<li>Firefox 派對帽</li>
-				<li>Mozilla「我挺開放網路」手環</li>
+				<li>Mozilla 手環</li>
 				<li>Firefox 紋身貼紙</li>
-				<li>Firefox 世界紀錄紀念貼紙</li>
-				<li>Firefox 徽章</li></ul></li>
-			<li>MozTW Party 貼紙特別版</li>
-			<li>抽獎獎項：<ul><li>Firefox Party T-shirt</li><li>MozTW 自由新生代 T-shirt</li><li>Firefox 自行車轉燈</li><li>MyDocument 公事包</li><li>陸續洽談中...</li></ul></li>
+				<li>Firefox 徽章</li>
+                                <li>還有更多慶祝幸運物，敬請期待！</li>
+                        </ul></li>
 			</ul>
 
 	<h3>協助宣傳</h3>
-	<p>網路小貼紙，歡迎使用：</p>
+	<p>網路小貼紙，歡迎使用：<br/>（更多小貼紙即將推出！）</p>
 	<form class="badgets" action="">
+
+	<p>	
+	<a href="http://moztw.org/events/firefox4party/" title="參加 Firefox 4 慶祝活動！"><img src="http://moztw.org/events/firefox4party/200x60.gif" alt="Firefox 4 Party"></a><br>
+		200x60<br>
+		<textarea onclick="this.select()" rows="5" cols="30">&lt;a href=&quot;http://moztw.org/events/firefox4party/&quot; title=&quot;參加 Firefox 4 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox4party/200x60.png&quot; alt=&quot;Firefox 4 Party&quot;&gt;&lt;/a&gt;</textarea>
+	</p>
+
 	<p>
-	<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/88x31.png" alt="Firefox Party 3.0"></a><br>
-	88x31<br>
-	<textarea onclick="this.select()" rows="5" cols="30">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/88x31.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
-	<p>
-		<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/199x60.gif" alt="Firefox Party 3.0"></a><br>
-		199x60<br>
-		<textarea onclick="this.select()" rows="5" cols="30">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/199x60.gif&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
-		<p>
-			<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/210x90.png" alt="Firefox Party 3.0"></a><br>
-			210x90<br>
-			<textarea onclick="this.select()" rows="5" cols="30">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/210x90.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
-			<p>
-				<a href="http://moztw.org/events/firefox3party/" title="參加 Firefox 3 慶祝活動！"><img src="http://moztw.org/events/firefox3party/468x60.png" alt="Firefox Party 3.0"></a><br>
-				468x60<br>
-				<textarea onclick="this.select()" rows="5" cols="30">&lt;a href=&quot;http://moztw.org/events/firefox3party/&quot; title=&quot;參加 Firefox 3 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox3party/468x60.png&quot; alt=&quot;Firefox Partya3.0&quot;&gt;&lt;/a&gt;</textarea></p>
-	</form>
+	<a href="http://moztw.org/events/firefox4party/" title="參加 Firefox 4 慶祝活動！"><img src="http://moztw.org/events/firefox4party/468x60.gif" alt="Firefox 4 Party"></a><br>
+		468x60<br>
+		<textarea onclick="this.select()" rows="5" cols="30">&lt;a href=&quot;http://moztw.org/events/firefox4party/&quot; title=&quot;參加 Firefox 4 慶祝活動！&quot;&gt;&lt;img src=&quot;http://moztw.org/events/firefox4party/468x60.png&quot; alt=&quot;Firefox 4 Party&quot;&gt;&lt;/a&gt;</textarea>
+	</p>
+
+      <h3>宣傳海報</h3>
+      圖檔網址：<a href="http://moztw.org/events/firefox4party/fx4party_poster_latest_compressed.jpg" target="_blank">http://moztw.org/events/firefox4party/fx4party_poster_latest_compressed.jpg</a><br/>
+      歡迎散佈 :) <br/>
+      <p>
+      <a href="http://moztw.org/events/firefox4party/fx4party_poster_latest_compressed.jpg" target="_blank"><img src="http://moztw.org/events/firefox4party/fx4party_poster_preview.jpg" alt="Firefox 4 Party Poster" /></a>
+      </p>
   </div>
  </div>
     <br style="clear: both">
   </div>
 <div id="sponsor">
     <h2>熱情支援：</h2>
+    <p>刊頭圖片修改自 <a href="http://creative.mozilla.org/designs/3491" target="_blank">http://creative.mozilla.org/designs/3491</a><br/>&nbsp;</p>
     <ul class="logo">
-    	<li><a href="javascript:;" title="sponsor A"><img src="xxx.png" alt="sponsor A"></a></li>
-    	<li><a href="javascript:;" title="sponsor A"><img src="xxx.png" alt="sponsor A"></a></li>
-		<li><a href="javascript:;" title="sponsor A"><img src="xxx.png" alt="sponsor A"></a></li>
+    	<li><a href="http://www.openfoundry.org/" title="OSSF" target="_blank"><img src="sponsor-ossf.png" alt="OSSF"></a></li>
     </ul>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script type="text/javascript" src="./jquery.wordcloud.min.js?3"></script>
+  <script type="text/javascript">
+jQuery(function ($) {
+	if ($.wordCloudSupported) {
+		var img = new Image();
+		img.src = './feature-firefox-4-party.png';
+		$.getJSON(
+			'./mozlinks-zh.json.js',
+			function (list) {
+				var $c = $('<canvas width="460" height="260" />');
+				$c[0].getContext('2d').drawImage(
+					img,
+					460, 0, 460, 260,
+					0, 0, 460, 260
+				);
+				$('.key-point').append($c);
+				$c.wordCloud({
+					gridSize: 6,
+					wordList: list,
+					backgroundColor: 'rgb(0,112,192)',
+					wordColor: 'rgba(255, 255, 255, 0.7)',
+					fontFamily: 'STFangsong, STSong, "Apple LiSong", "Hiragino Mincho Pro", 新細明體, sans-serif',
+					weightFactor: function (w) {
+						if (w < 60) return 0;
+						if (w*0.2 > 3) return w*0.2;
+					},
+					abortThreshold: 150,
+					abort: function () {
+						$c.hide();
+					},
+					clearCanvas: false
+				});
+			}
+		);
+	}
+});
+  </script>
 
     <br style="clear: both;">
 

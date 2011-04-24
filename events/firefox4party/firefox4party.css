@@ -5,6 +5,12 @@
 	background: #e4ecec url("feature-firefox-4-party.png") 100% 85% no-repeat;
 	padding: 15px;
 	margin-bottom: 1em;
+	position: relative;
+	overflow: hidden;
+}
+.key-point canvas {
+	position: absolute;
+	top: -15%; right: 0;
 }
 #feature {
 	height: 150px;
@@ -13,11 +19,13 @@
 	background: url(bg-alpha.png);
 }
 #feature h2{
-	background: url(event-firefox-4-events.png) no-repeat;
+	/*background: url(event-firefox-4-events.png) no-repeat;
 	padding-top: 55px;
-	height: 0;
+	height: 0;*/
 	width: 245px;
-	overflow: hidden;
+	color: black;
+	font-size: 3em;
+	/*overflow: hidden;*/
 }
 
 ul#global-info {
@@ -143,8 +151,8 @@ ul#global-info li{
 }
 #sponsor p {
     margin-left: 7.4em;
-    border-bottom: 1px solid #ccc;
-    text-align: center;
+    /*border-bottom: 1px solid #ccc;*/
+    text-align: left;
     width: 70%;
 }
 #sponsor p img {
