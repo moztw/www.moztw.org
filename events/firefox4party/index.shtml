@@ -15,17 +15,17 @@
   </div>
 
 <div id="mainContent">
+    <div class="item-block"><img src="extension_icon.png" alt="">
+      <h3><a href="#opening">Firefox 4 Party Opening</a></h3>
+      <p>透過 Bobchao 精彩的手繪風<strike>草稿</strike>簡報，向您介紹 Mozilla 與 MozTW 社群。</p>
+    </div>
     <div class="item-block"><img name="partyicon" src="party_icon.png" alt="">
-      <h3><a href="http://moztw.org/slides/fx4party/feature/#1">Firefox 4 Party - 火狐再臨</a></h3>
+      <h3><a href="#reloaded">Firefox 4 Party - 火狐再臨</a></h3>
       <p>Firefox 4 Party 簡報，Firefox 4 的一切新玩意與新設計，都在 WM 與 littlebtc 為您帶來的這份投影片中！</p>
     </div>
-    <div class="item-block"><img src="extension_icon.png" alt="">
+    <div id="street-block" class="item-block"><img src="foxmosa_icon.png" alt="">
       <h3><a href="https://demos.mozilla.org/zh-TW/">Mozilla 之奇幻網路</a></h3>
       <p>瞧瞧這些絢麗的網路作品！驚奇、夢幻、將讓你津津樂道的奇蹟，就在你的瀏覽器中發生！</p>
-    </div>
-    <div id="street-block" class="item-block"><img src="foxmosa_icon.png" alt="">
-      <h3><a href="http://creative.mozilla.org/challenges/8">Firefox 4 T-shirt 設計大賽</a></h3>
-      <p>想要讓全世界的使用者穿上你設計的 Firefox 4 T-shirt 嗎？</p>
     </div>
   </div>
   <div class="information">
@@ -33,12 +33,18 @@
 
     <div id="party">
     <h2><img name="partyicon" src="party_icon.png" alt="">Firefox 4 Party - 火狐四 之 曠 4 奇派！</h2>
-    <p>Firefox 4 無論外觀或內在都是史上最大幅度的改版，而「火狐發威之曠4奇派」也即將成為最歡樂的火狐派對！無論你是想吃喝、想交流、想要知性、想要感性、或者單純就是想來看看，記得在 3/24 20:00 開放報名時快點搶個席位，晚了就只好在門外畫圈圈了 :(</p>
+    <p>Firefox 4 無論外觀或內在都是史上最大幅度的改版，而「火狐發威之曠4奇派」果然就是最歡樂的火狐派對！在此就讓我們透過簡報與照片來回味一下吧。</p>
+
+    <h3 id="opening">Firefox 4 Party Opening</h3>
+      <div style="width:595px" id="__ss_7720836"><iframe src="http://www.slideshare.net/slideshow/embed_code/7720836?rel=0" width="595" height="497" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>    
+    <h3 id="reloaded">火狐再臨</h3>
+      <div style="width:595px" id="__ss_7720836"><iframe src="http://moztw.org/slides/fx4party/feature/#1" width="595" height="500" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>請按下左右鍵切換投影片，<a href="http://moztw.org/slides/fx4party/feature/#1" target="_blank">點此將投影片打開為新視窗</a></div>    
+
+
     <div style="float: right; width:425px; margin-left: 10px; padding: 6px; border: 1px solid #ccc; background: #fff;">
       <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com.tw/maps/ms?hl=zh-TW&ie=UTF8&brcurrent=3,0x3442a99bd1adbcc7:0xc5ab69bb7491162a,0,0x3442ac6b61dbbd9d:0xc0c243da98cba64b&msa=0&msid=211565165749517597023.00049ec38a84dce6929ee&ll=25.019745,121.528611&spn=0.001701,0.00228&z=18&output=embed"></iframe><br /><small>在較大的地圖上查看<a href="http://maps.google.com.tw/maps/ms?hl=zh-TW&ie=UTF8&brcurrent=3,0x3442a99bd1adbcc7:0xc5ab69bb7491162a,0,0x3442ac6b61dbbd9d:0xc0c243da98cba64b&msa=0&msid=211565165749517597023.00049ec38a84dce6929ee&ll=25.019745,121.528611&spn=0.001701,0.00228&z=18&source=embed" style="color:#0000FF;text-align:left">Firefox 4 Party</a></small>
-
     </div>
-    
+    <p></p>
     <h3>資訊</h3>
       <p>日期：2011 年 4 月 24 日 <br/>時間：13:30 - 17:30 (13:00 開始入場)
         <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Firefox%204%20Party&dates=20110424T050000Z/20110424T093000Z&details=%E8%80%95%E8%8E%98%E6%96%87%E6%95%99%E9%99%A2%EF%BC%88%E8%BF%91%E5%8F%B0%E5%8C%97%E6%8D%B7%E9%81%8B%E5%8F%B0%E9%9B%BB%E5%A4%A7%E6%A8%93%E7%AB%99%EF%BC%89%0A%E6%AF%8F%E4%BA%BA%E8%B2%BB%E7%94%A8%20NT%24%20150&location=%E8%87%BA%E5%8C%97%E5%B8%82%E8%BE%9B%E4%BA%A5%E8%B7%AF%E4%B8%80%E6%AE%B522%E8%99%9F&trp=false&sprop=http%3A%2F%2Fmoztw.org%2Fevents%2Ffirefox4party%2F&sprop=name:Firefox%204%20Party" title="加到 Google Calendar 中" target="_blank"><img src="/images/ical.png" alt=""></a>
