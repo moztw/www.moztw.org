@@ -163,6 +163,7 @@ ul#global-info li{
 }
 #sponsor ul{
 	margin: -1.3em 0 1em 7em; padding:0; list-style: none;
+	height: 65px;
 }
 #sponsor ul li{
 	display: block;
@@ -175,9 +176,9 @@ ul#global-info li{
 	width: 100%;
 }
 #sponsor ul.logo li{
-	height: 40px;
+	height: 65px;
 	margin: .2em .3em;
 }
 #sponsor ul.logo img{
-	border: 1px solid black;
+	border: none;
 }

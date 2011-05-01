@@ -117,10 +117,11 @@
   </div>
 <div id="sponsor">
     <h2>熱情支援：</h2>
-    <p>刊頭圖片修改自 <a href="http://creative.mozilla.org/designs/3491" target="_blank">http://creative.mozilla.org/designs/3491</a><br/>&nbsp;</p>
     <ul class="logo">
-    	<li><a href="http://www.openfoundry.org/" title="OSSF" target="_blank"><img src="sponsor-ossf.png" alt="OSSF"></a></li>
+    	<li><a href="http://www.openfoundry.org/" title="OpenFoundry" target="_blank"><img src="sponsor-openfoundry.png" alt="OpenFoundry" width="194" height="35" style="margin-top: 25px; margin-right: 5px;"></a></li>
+		<li><a href="http://chinese.engadget.com/" title="Engadget" target="_blank"><img src="sponsor-engadget.png" alt="Engadget中文版" width="173" height="60"></a></li>
     </ul>
+    <p>刊頭圖片修改自 <a href="http://creative.mozilla.org/designs/3491" target="_blank">Simply Four - Mozilla Creative Collective</a></p>
     <br style="clear: both;">
 
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
