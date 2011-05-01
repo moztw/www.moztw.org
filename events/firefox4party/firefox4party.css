@@ -1,4 +1,4 @@
-﻿#mainContent{
+#mainContent{
 	margin-left: 0;
 }
 .key-point {
@@ -97,9 +97,11 @@ ul#global-info li{
 }
 .information div h2 {
 	margin-left: -1.2em;
-}.information div h2 img{
-	width: 1em;
+}
+.information div h2 img{
 	height: 1em;
+	margin-right: 4px;
+	width: 1em;
 }
 
 .information div table {
