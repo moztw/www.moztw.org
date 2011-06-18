@@ -27,7 +27,7 @@
 			<p>請留意雖然 32 與 64 位元版本的 Windows Vista 與 Windows 7 皆可執行 Firefox 4，我們目前只支援 32 位元版本的 Firefox 4。</p>
 			<h6>建議硬體需求</h6>
 			<ul>
-				<li>Pentium 4 或更新處理器，支援 SSE2 指令及</li>
+				<li>Pentium 4 或更新處理器，支援 SSE2 指令集</li>
 				<li>512MB RAM</li>
 				<li>200MB 硬碟空間</li>
 			</ul>
