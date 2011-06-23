@@ -1,0 +1,83 @@
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class_docs.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+<div id="mBody">
+	<div id="side" class="left">
+		<ul id="nav">
+			<li><a href="/mobile">回到 Firefox Mobile 首頁</a></li>
+			<li><a href="/mobile/releases/">版本資訊</a></li>
+		</ul>
+	</div>
+	<!-- closes #side -->
+	<hr class="hide">
+	<div id="mainContent">
+		<div id="fnRequiresments">
+			<h2>Firefox 行動版系統需求</h2>
+			<p>Firefox 可於 Android （2.0 或更新版）以及 Nokia N900 手機使用。</p>
+
+			<h3>支援裝置</h3>
+			<p>下列是經過測試，確認支援 Firefox 的行動裝置清單</p>
+
+			<h6>Maemo</h6>
+			<ul>
+				<li>Nokia N900</li>
+			</ul>
+
+			<h6>Android</h6>
+			<ul>
+				<li>Firefox 與 Android 2.0 或更新版本的裝置相容。</li>
+				<li>需要大約 17MB 的內部儲存或記憶卡空間，以及 512 MB 的記憶體。</li>
+			</ul>
+													
+			<h6>經過測試可用的裝置</h6>
+			<ul>
+				<li>Acer Iconia Tab A500</li>
+				<li>Advent Vega (P10AN01)</li>
+				<li>Dell Streak</li>
+				<li>Dell Streak 7</li>
+				<li>HTC Desire</li>
+				<li>HTC Desire S</li>
+				<li>HTC Desire Z (T-Mobile G2)</li>
+				<li>HTC Desire HD (AT&amp;T Inspire 4G)</li>
+				<li>HTC Droid Incredible</li>
+				<li>HTC Flyer</li>
+				<li>HTC EVO 4G</li>
+				<li>HTC EVO Shift 4G</li>
+				<li>HTC Glacier (T-Mobile myTouch 4G)</li>
+				<li>HTC Incredible S (HTC Droid Incredible 2)</li>
+				<li>HTC Nexus One</li>
+				<li>HTC Thunderbolt 4G</li>
+				<li>Huawei Ideos S7</li>
+				<li>LG Optimus 2X</li>
+				<li>LG Optimus Black (P970)</li>
+				<li>LG Optimuz Z</li>
+				<li>Motorola Atrix 4G</li>
+				<li>Motorola Bravo</li>
+				<li>Motorola Defy</li>
+				<li>Motorola Droid 2, Droid 2 Global</li>
+				<li>Motorola Droid Pro</li>
+				<li>Motorola Droid X</li>
+				<li>Motorola Xoom</li>
+				<li>POV Mobii Tegra Tablet</li>
+				<li>Samsung 4G LTE SCH-i520/Inspiration/Droid Charge/Stealth V</li>
+				<li>Samsung Continuum (i400) </li>
+				<li>Samsung Galaxy S (i9000, Captivate, Fascinate, Vibrant, Epic 4G)</li>
+				<li>Samsung Galaxy S2</li>
+				<li>Samsung Galaxy Tab</li>
+				<li>Samsung Galaxy Tab 10.1</li>
+				<li>Samsung Nexus S</li>
+				<li>Sharp Galapagos 003SH</li>
+				<li>Sharp Galapagos 005SH</li>
+				<li>Viewsonic gTablet</li>
+			</ul>
+			<p>您可以參考 MozillaWiki 上的 <a href="https://wiki.mozilla.org/Mobile/Platforms/Android#System_Requirements">系統需求列表</a> 以取得更完整的支援與未支援裝置清單。</p>
+		</div>
+		<!-- closes #fnRequiresments -->
+		
+	</div>
+	<!-- closes #mainContent-->
+</div>
+<!-- closes #mBody-->
+<!--#include virtual="/inc/footer.html" -->
