@@ -3,7 +3,7 @@
 <style type="text/css">
 <!--
 #product-desc.product-firefox4 {
-	background: transparent url(images/4-product-firefox-screen.png) no-repeat scroll 0 0;
+	background: transparent url(images/product-firefox-screen.png) no-repeat scroll 0 0;
 	padding: 40px 0 50px;
 }
 #product-desc p {
