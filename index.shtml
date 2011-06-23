@@ -18,9 +18,9 @@
 <div class="key-point front-feature" id="front-feature">
   <div id="feature-content">
     <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox" height="60" width="200"></a></h2>
-    <p>全新外觀、速度超快，<a href="/firefox/">Firefox 4</a> 讓一切都變得更加美好！</p>
+    <p>全新外觀、速度超快，<a href="/firefox/">Firefox</a> 讓一切都變得更加美好！</p>
     <div class="download">
-		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 4</strong></a></h3>
+		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 5</strong></a></h3>
  		<div style='background: url(/images/product-download-firefox.png) no-repeat;margin-top: 5px;'>
 		<!--#include virtual="/inc/dlff.html" -->
 		</div>
