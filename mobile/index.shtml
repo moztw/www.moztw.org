@@ -3,7 +3,7 @@
 <style type="text/css">
 <!--
 #product-desc.product-mobile4 {
-	background: transparent url(images/4-product-mobile-screen.png) no-repeat scroll 0 0;
+	background: transparent url(images/product-mobile-screen.png) no-repeat scroll 0 0;
 	padding: 40px 0 50px;
 }
 #product-desc p {
@@ -103,7 +103,7 @@
 	<div class="download">
 	    <h3>免費下載</h3><!--#include virtual="/inc/dlfn.html" -->
 	</div>
-	<ul><li><a class="ancilliaryLink" href="//www.mozilla.com/en-US/mobile/platforms/">支援裝置</a></li>
+	<ul><li><a class="ancilliaryLink" href="//www.mozilla.com/mobile/platforms/">支援裝置</a></li>
 	    
 	    <li><a class="ancilliaryLink" href="/docs/fn/system-requirements">系統需求</a></li>
 
