@@ -15,6 +15,9 @@ table {
 #product-desc p {
     padding-left:250px;
 }
+.key-point {
+	height: 280px;
+}
 -->
 </style>
 <!--#include virtual="/inc/class.html" -->

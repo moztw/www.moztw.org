@@ -34,7 +34,7 @@ table {
 	content:none;
 }
 .firefox-releasenotes-v4 {
-	background:url("/firefox/images/releasenotes-firefox-40.png") no-repeat scroll left top transparent;
+	background:url("/firefox/images/releasenotes-firefox.png") no-repeat scroll left top transparent;
 	float:none !important;
 	line-height:150% !important;
 	margin:85px 0 15px 10px;
