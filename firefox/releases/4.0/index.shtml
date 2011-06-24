@@ -76,7 +76,7 @@ table {
         <ul>
           <li>Firefox&nbsp;4 提供超過 <a href="http://www.mozilla.com/firefox/all-beta.html">80 種語言支援</a>。</li>
           <li>採用 <a href="http://blog.mozilla.com/dmandelin/2010/09/08/presenting-jagermonkey/">J&auml;gerMonkey</a>——更新、更快的 JavaScript 引擎——比  Firefox 3.6 快六倍。</li>
-          <li>支援「別追踨我」（<a href="http://blog.sidstamm.com/2011/01/opting-out-of-behavioral-ads.html">Do Not Track, "DNT"</a>）網頁檔頭，擺脫被追蹤網路瀏覽的行為。</li>
+          <li>支援「別追蹤我」（<a href="http://blog.sidstamm.com/2011/01/opting-out-of-behavioral-ads.html">Do Not Track, "DNT"</a>）網頁標頭，擺脫被追蹤網路瀏覽的行為。</li>
           <li>預設開啟了 <a href="http://www.mozilla.com/mobile/sync/">Firefox Sync</a> 功能，安全同步多台電腦、行動裝置上的設定。</li>
           <li>使用 Direct3D 9 (Windows XP)、Direct3D 10 (Windows Vista 或 7)、OpenGL (Mac OS) 對特定圖形進行<a href="http://hacks.mozilla.org/2010/09/hardware-acceleration/">硬體加速</a>。（將來會增加 Linux 上的 OpenGL 支援）</li>
           <li>為 Windows 7 使用者預設啟用了 <a href="https://wiki.mozilla.org/Platform/GFX/Direct2DDemo">Direct2D 硬體加速</a>。</li>
