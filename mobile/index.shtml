@@ -4,7 +4,7 @@
 <!--
 #product-desc.product-mobile4 {
 	background: transparent url(images/product-mobile-screen.png) no-repeat scroll 0 0;
-	padding: 40px 0 50px;
+	padding: 40px 0 100px;
 }
 #product-desc p {
 	padding-left: 188px;	
