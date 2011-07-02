@@ -16,10 +16,10 @@
 
 <div class="key-point front-feature" id="front-feature">
   <div id="feature-content">
-    <h2><a href="/firefox/"><img src="images/4-firefox-title.png" alt="Firefox 4.0" height="60" width="246"></a></h2>
-    <p>全新外觀、速度超快，<a href="/firefox/">Firefox 4.0</a> 讓一切都變得更加美好！</p>
+    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox" height="60" width="246"></a></h2>
+    <p>全新外觀、速度超快，<a href="/firefox/">Firefox</a> 讓一切都變得更加美好！</p>
     <div class="download">
-		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox 4</strong></a></h3>
+		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox</strong></a></h3>
  		<div style='background: url(/images/product-download-firefox.png) no-repeat;margin-top: 5px;'>
 		<!--#include virtual="/inc/dlff.html" -->
 		</div>
@@ -31,7 +31,7 @@
   <div class="frontcolumn">
       <h2><a href="/thunderbird/">Thunderbird</a></h2>
       <a href="/thunderbird/"><img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="60" height="60"></a>
-	  <p><a href="/thunderbird/">Thunderbird 3</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
+	  <p><a href="/thunderbird/">Thunderbird 5</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
   </div>
   <div class="frontcolumn">
     <h2><a href="https://demos.mozilla.org/">Web O’ Wonder</a></h2>
@@ -41,7 +41,7 @@
  <div class="frontcolumnlast">
     <h2><a href="events/firefox4party">火狐四之曠４奇派</a></h2>
     <img width="60" height="60" border="0" alt="" class="promo" src="/images/toy_gold_32.png">
-	<p>慶祝 Firefox 4 閃亮登場，今年最歡樂的火狐派對，開始報名！<a href="events/firefox4party/">快點搶個席位</a>，晚了就只好在門外畫圈圈嘍。</p>
+	<p>慶祝 Firefox 4 閃亮登場，今年最歡樂的火狐派對！</p>
   </div>
   <br style="clear: both;">
 

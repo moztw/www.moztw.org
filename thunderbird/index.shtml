@@ -1,9 +1,9 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Thunderbird - 以您為本的郵件體驗 - Mozilla Taiwan, MozTW.org</title>
+<title>Thunderbird - 讓收發電子郵件變得更簡單 - Mozilla Taiwan, MozTW.org</title>
 <style type="text/css">
 <!--
 #product-desc.product-thunderbird {
-	background: transparent url(images/product-thunderbird3-screen.png) no-repeat scroll 0 0;
+	background: transparent url(images/product-thunderbird-screen.png) no-repeat scroll 0 0;
 	padding: 40px 0 60px;
 }
 #product-desc.product-thunderbird p {
@@ -17,9 +17,9 @@
 
 <div class="key-point">
     <div id="product-desc" class="product-thunderbird">
-	<h2>Thunderbird 3: Email Innovations That Put You In Charge 以您為主的郵件體驗</h2>
+	<h2>Thunderbird: 讓收發電子郵件變得更簡單</h2>
 	<p>
-	Thunderbird 3 帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。
+	Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。
 	</p>
     </div>
     <div id="product-side">
@@ -27,21 +27,20 @@
 	    <h3>免費下載</h3><!--#include virtual="/inc/dltb.html" -->
 	</div>
     	<ul>
-	    <li><a href="http://www.mozillamessaging.com/thunderbird/system-requirements/">系統需求</a>（英）</li>
-	    <li><a class="ancilliaryLink" href="http://www.mozillamessaging.com/thunderbird/3.1/releasenotes/">版本資訊</a>（英）</li>
+	    <li><a href="system-requirements/">系統需求</a></li>
+	    <li><a class="ancilliaryLink" href="https://www.mozilla.org/en-US/thunderbird/5.0/releasenotes/">版本資訊</a>（英）</li>
    	  </ul>
     </div>
 </div>
 <div id="mainContent" class="right features">
     	<div class="corner-box">
 		<h3>分頁與搜索</h3>
-		<p>Thunderbird 3 提供您分頁郵件支援，使你得以快速在郵件間切換。<br>威力倍增的搜索功能，包含了時間軸及篩選器工具，幫助您在昨日、上個月或數年前的郵件中，精確找出您的所需。
+		<p>Thunderbird 提供您分頁郵件支援，使你得以快速在郵件間切換。<br>威力倍增的搜索功能，包含了時間軸及篩選器工具，幫助您在昨日、上個月或數年前的郵件中，精確找出您的所需。</p>
 	</div>
 
 	<div class="corner-box">
 		<h3>用您的方式收您的郵件</h3>
-
-		<p>你可以依自己的喜好自訂 Thunderbird，使用附加元件管理員在數百個套件中選擇：例如 <a href="https://addons.mozilla.org/thunderbird/addon/2313">Lightning</a>（行程管理）或 <a href="https://addons.mozilla.org/thunderbird/addon/10900">Personas</a>（個性面板）等各式各樣的套件，不但能提升您的生產力、同時帶來更多樂趣。</p>
+		<p>你可以依自己的喜好自訂 Thunderbird，使用附加元件管理員在數百個套件中選擇：例如 <a href="https://addons.mozilla.org/thunderbird/addon/2313">Lightning</a>（行程管理）或 <a href="https://addons.mozilla.org/thunderbird/addon/10900">Personas Plus</a>個性面板等各式各樣套件，不但能提升您的生產力、同時帶來更多樂趣。</p>
 	</div>
 
 	<div class="corner-box">
@@ -50,19 +49,21 @@
 		<p>社群精神永存！如果 Thunderbird 找不到您所使用的郵件服務資料，您也可以提供這些設定資訊，其他人就可以得益於您的貢獻。</p>
 	</div>
 
-	<!--<p class="learn-more"><a href="features.html">深入瞭解 Thunderbird 3 的功能...</a></p>-->
+	<p class="learn-more">
+		<a href="https://www.mozilla.org/zh-TW/thunderbird/features">深入瞭解 Thunderbird 的功能...</a>
+	</p>
 
 </div>
 <div id="side" class="right">
 	<h3>資源與鏈結</h3>
 	<ul class="compact">
-	<li><img src="images/gmail-favicon.ico">&nbsp;<a href="http://blog.bobchao.net/2009/12/thunderbird-3-google.html">GMail 用戶請注意 IMAP 相關設定</a>（柏強 Blog）</li>
-	<li><a href="http://forum.moztw.org/viewforum.php?f=9">MozTW Thunderbird 中文討論區</a></li>
-	<li><a href="https://addons.mozilla.org/zh-TW/thunderbird/">Thunderbird 附加元件網站</a></li>	
-	<li><a href="https://addons.mozilla.org/zh-TW/thunderbird/browse/type:2/cat:all?sort=popular">取得佈景主題</a></li>
-	<li><a href="http://spreadthunderbird.com/affiliates">尋找推廣貼紙</a>（英）</li>
-	<li><a href="http://forums.mozillazine.org/viewforum.php?f=39">mozillaZine Thunderbird Support Forum</a>（英）</li>
-	<li><a href="http://www.mozillamessaging.com/support/">Thunderbird Help & Tutorials</a>（英）</li>
+		<li><img src="images/gmail-favicon.ico">&nbsp;<a href="http://blog.bobchao.net/2009/12/thunderbird-3-google.html">GMail 用戶請注意 IMAP 相關設定</a>（柏強 Blog）</li>
+		<li><a href="http://forum.moztw.org/viewforum.php?f=9">MozTW Thunderbird 中文討論區</a></li>
+		<li><a href="https://addons.mozilla.org/zh-TW/thunderbird/">Thunderbird 附加元件網站</a></li>
+		<li><a href="https://addons.mozilla.org/zh-TW/thunderbird/browse/type:2/cat:all?sort=popular">取得佈景主題</a></li>
+		<li><a href="https://support.mozillamessaging.com/zh-TW/">Thunderbird 技術支援</a></li>
+		<li><a href="http://spreadthunderbird.com/affiliates">尋找推廣貼紙</a>（英）</li>
+		<li><a href="http://forums.mozillazine.org/viewforum.php?f=39">mozillaZine Thunderbird Support Forum</a>（英）</li>
 	</ul>
 </div>
 
