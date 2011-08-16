@@ -101,7 +101,7 @@
     </div>
     <div id="product-side">
 	<div class="download">
-	    <h3>免費下載</h3><!--#include virtual="/inc/dlfn.html" -->
+	    <h3>免費下載 Firefox 6 行動版</h3><!--#include virtual="/inc/dlfn.html" -->
 	</div>
 	<ul><li><a class="ancilliaryLink" href="//www.mozilla.com/mobile/platforms/">支援裝置</a></li>
 	    
