@@ -12,6 +12,12 @@
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
+<li><div class="date"> 8 月 22</div>
+由於主機移機，MozTW 網站將於 2011/08/31 暫停服務。屆時請直接到 <a href="http://www.mozilla.org/">Mozilla 首頁</a> 下載軟體，若造成您的不便敬請見諒。</li>
+<li><div class="date"> 8 月 17</div>
+<a href="/firefox/releases/6.0/">Firefox 6.0</a> 登場，<a href="/firefox/releases/3.6.20/">Firefox 3.6.20</a> 安全更新<br></li>
+<li><div class="date"> 8 月 6</div>
+<a href="http://www.slideshare.net/irvinfly/apple-plan-user-group-meeting-2011">ApplePlan User Group Meeting 2011 Lion 體驗會 - Firefox 簡報</a></li>
 <li><div class="date"> 8 月 5</div>
 <a href="http://registrano.com/events/moztw-beyond-html5">超越 HTML5：網路開發者與瀏覽器專家對談</a> 8/23，MozTW 和 <a href="http://www.opera.com/">Opera</a> 合辦的網路設計師 HTML5 座談會，8/9 開始報名！</li>
 <li><div class="date"> 7 月 13</div>
