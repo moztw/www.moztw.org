@@ -10,6 +10,7 @@
 <h1>MozTW 過去、現在及未來的活動</h1>
 
 <ol id="event-list">
+    <li id="sfd2011"><a href="sfd2011/">2011 SFD Party<span class="date">2011/09</span></a>
     <li id="firefox4party"><a href="firefox4party/">Firefox 4 Party<span class="date">2011/04</span></a>
     <li id="jetpack-workshop"><a href="jetpack-workshop/">Jetpack 擴充套件工作坊<span class="date">2010/03</span></a>
     <li id="personas"><a href="3.6personas/">秀風格<span class="date">2010/01</span></a>
