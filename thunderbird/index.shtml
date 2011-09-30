@@ -24,7 +24,7 @@
     </div>
     <div id="product-side">
 	<div class="download">
-	    <h3>免費下載 Thunderbird 6</h3><!--#include virtual="/inc/dltb.html" -->
+	    <h3>免費下載 Thunderbird</h3><!--#include virtual="/inc/dltb.html" -->
 	</div>
     	<ul>
 	    <li><a href="system-requirements/">系統需求</a></li>
