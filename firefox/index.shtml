@@ -97,7 +97,7 @@
     </div>
     <div id="product-side">
 	<div class="download">
-	    <h3>免費下載 Firefox 6</h3><!--#include virtual="/inc/dlff.html" -->
+	    <h3>免費下載 Firefox</h3><!--#include virtual="/inc/dlff.html" -->
 	</div>
 	<ul><li><a class="ancilliaryLink" href="/docs/fx/system-requirements">系統需求</a></li>
 	    <li><a class="ancilliaryLink" href="/firefox/releases">版本資訊</a></li>
@@ -151,9 +151,9 @@
 			<p><span class="improved">強化</span> 點一下就可檢視網站識別資訊，拒絕網路詐騙及不安全的購物網站。</p>
 		</li>
 	</ul>
-	<h3 style="clear: both"><span lang="en-US">Firefox 4.0</span>: 被打造來讓網路變成更好的地方。</h3>
+	<h3 style="clear: both"><span lang="en-US">Firefox</span>: 被打造來讓網路變成更好的地方。</h3>
 	<h4>火狐沒跑那麼快過</h4>
-	<p>Firefox 現在比以前快六倍！我們強化了開啟程式、頁面載入、網頁應用程式及圖形硬體加速等效能，並且對於瀏覽豐富且高互動性的網頁進行了最佳化。</p>
+	<p>我們強化了開啟程式、頁面載入、網頁應用程式及圖形硬體加速等效能，並且對於瀏覽豐富且高互動性的網頁進行了最佳化。</p>
 	<div class="upgrade-img">
 		<h5>Firefox 效能</h5>
 		<img src="images/4-performance-chart.png" alt="速度比較" />
@@ -171,8 +171,6 @@
 		<h5>附加元件管理員</h5>
 		<img src="images/4-upgrade-img-3.png" alt="附加元件管理員" />
 	</div>
-	<h4>全新的簡潔介面</h4>
-	<p>您使用 Firefox 4 時首先會注意到的就是全新的簡潔介面。原有的一些功能已經被整合、簡化，或是搬到其他地方去了。我們把重點放在網頁內容，讓您可以調整其他的區域需要什麼東西。</p>
 	<div class="upgrade-img">
 		<h5>Firefox 按鈕（Windows 與 Linux）</h5>
 		<img src="images/4-upgrade-img-4.png" alt="Firefox 按鈕" />
