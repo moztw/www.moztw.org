@@ -152,73 +152,131 @@ h3.toggle, span.toggle {
 <p>為所有網頁與出版物設計漂亮的畫面；妝點大家的螢幕與生活。</p>
 <div>
 <ul>
-<li><strong>美術設計/互動設計 - 網站<sup class="vacant">徵才中</sup></strong>：MozTW 主網站、抓火狐、其他活動頁面<br /> 
-<ul>
-<li><span class="toggle">需求: </span><ol class="toggle">
-<li>願意和網頁設計師合作，建立符合需求的互動設計 </li>
-<li>願意在 UI 互動測試後重新改善設計 </li>
-</ol></li>
-</ul>
-</li>
-<li><strong>美術設計 - 平面/圖形宣傳物<sup class="wanted">長期招募中</sup></strong>：配合實體活動製作</li>
-<li><strong>美術設計 - 個性面版「Personas」<sup class="wanted">長期招募中</sup></strong>：製作人人喜愛的個性面版，讓火狐穿新衣！</li>
-<li><strong>美術設計 - 狐耳摩莎<sup class="wanted">長期招募中</sup></strong>：為 MozTW 吉祥物「狐耳摩莎」設計各種活動用的圖像。需以 CC 授權釋出著作。</li>
-</ul>
-</div>
+			<li>
+				<strong>
+				美術設計/互動設計 - 網站
+				<sup class="vacant">徵才中</sup>
+				</strong>：MozTW 主網站、抓火狐、其他活動頁面
+				<br />
+				<ul>
+					<li>
+						<span class="toggle">需求: </span>
+						<ol class="toggle">
+							<li>願意和網頁設計師合作，建立符合需求的互動設計</li>
+							<li>願意在 UI 互動測試後重新改善設計</li>
+						</ol>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<strong>
+				美術設計 - 平面/圖形宣傳物
+				<sup class="wanted">長期招募中</sup>
+				</strong>：配合實體活動製作
+			</li>
+			<li>
+				<strong>
+				美術設計 - 個性面版「Personas」
+				<sup class="wanted">長期招募中</sup>
+				</strong>：製作人人喜愛的個性面版，讓火狐穿新衣！
+			</li>
+			<li>
+				<strong>
+				美術設計 - 狐耳摩莎
+				<sup class="wanted">長期招募中</sup>
+				</strong>：為 MozTW 吉祥物「狐耳摩莎」設計各種活動用的圖像。需以 CC 授權釋出著作。
+			</li>
+		</ul>
+		</div>
 <h3>Developer / System Admin</h3>
 <p>開發與技術傳教；網站系統維護。</p>
 <div>
 <ul>
-<li><strong>Add-on Developer</strong>: 開發 Mozilla 程式的擴充套件；舉辦開發講座時擔任講者。</li>
-<li><strong>Computer system administrator</strong>: 維護 MozTW 網站主機的順利運作。<br /> 
-<ul>
-<li><span class="toggle">Requirement: </span><ol class="toggle">
-<li>Ability to work on POSIX shell. </li>
-<li>Experience in Ubuntu/Debian or FreeBSD server administration. </li>
-</ol></li>
-</ul>
-</li>
-<li><strong>Web developer - <a title="gfx.tw" href="http://gfx.tw/">gfx.tw</a></strong>: 協助開發社群行銷計畫「抓火狐」的相關功能。 
-<ul>
-<li><span class="toggle">Requirement: </span><ol class="toggle">
-<li>Knowledge of web development on the LAMP platform. </li>
-<li>Intermediate skills of JavaScript, PHP, and any of the MVC model frameworks (e.g. CodeIgniter, CakePHP) </li>
-<li>Willingness to read through English documentations and issue lists when debugging. </li>
-<li>Experience and knowledge in building a user-generated content website, with understanding to methods in boosting user participation. </li>
-<li>Optionally, the ability to design UI graphics. </li>
-</ol></li>
-</ul>
-</li>
-<li><strong>Web developer - <a title="moztw.org" href="http://moztw.org/">moztw.org</a><sup class="vacant">Vacant</sup></strong>: 協助維護 MozTW 網站<br /> 
-<ul>
-<li><span class="toggle">Requirement: </span><ol class="toggle">
-<li>Knowledge of various web software, e.g. phpBB, Planet, MediaWiki, etc. </li>
-<li>Willingness to be on call for unfortunate emergencies. </li>
-<li>Ability to work on POSIX shell. </li>
-</ol></li>
-</ul>
-</li>
-<li><strong>Web developer - other projects<sup class="wanted">長期招募中</sup></strong>: 實作其他人企劃的網路服務，或是實做/架設自己的；例如<a href="http://translate.moztw.org/">協同翻譯站</a>。</li>
-</ul>
+			<li>
+				<strong>Add-on Developer</strong>: 開發 Mozilla 程式的擴充套件；舉辦開發講座時擔任講者。
+			</li>
+			<li>
+				<strong>Computer system administrator</strong>: 維護 MozTW 網站主機的順利運作。
+				<br />
+				<ul>
+					<li>
+						<span class="toggle">Requirement: </span>
+						<ol class="toggle">
+							<li>Ability to work on POSIX shell.</li>
+							<li>Experience in Ubuntu/Debian or FreeBSD server administration.</li>
+						</ol>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<strong>
+				Web developer - <a title="gfx.tw" href="http://gfx.tw/">gfx.tw</a>
+				</strong>: 協助開發社群行銷計畫「抓火狐」的相關功能。
+				<ul>
+					<li>
+						<span class="toggle">Requirement: </span>
+						<ol class="toggle">
+							<li>Knowledge of web development on the LAMP platform.</li>
+							<li>Intermediate skills of JavaScript, PHP, and any of the MVC model frameworks (e.g. CodeIgniter, CakePHP)</li>
+							<li>Willingness to read through English documentations and issue lists when debugging.</li>
+							<li>Experience and knowledge in building a user-generated content website, with understanding to methods in boosting user participation.</li>
+							<li>Optionally, the ability to design UI graphics.</li>
+						</ol>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<strong>
+				Web developer - <a title="moztw.org" href="http://moztw.org/">moztw.org</a>
+				<sup class="vacant">Vacant</sup>
+				</strong>: 協助維護 MozTW 網站
+				<br />
+				<ul>
+					<li>
+						<span class="toggle">Requirement: </span>
+						<ol class="toggle">
+							<li>Knowledge of various web software, e.g. phpBB, Planet, MediaWiki, etc.</li>
+							<li>Willingness to be on call for unfortunate emergencies.</li>
+							<li>Ability to work on POSIX shell.</li>
+						</ol>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<strong>Web developer - other projects<sup class="wanted">長期招募中</sup></strong>: 實作其他人企劃的網路服務，或是實做/架設自己的；例如<a href="http://translate.moztw.org/">協同翻譯站</a>。
+			</li>
+		</ul>
 </div>
 </div>
 <div id="side" class="right">
 <h3>如何報名？</h3>
-<p>大部分的工作都不用報名，做就對了！在地化、網站等相關工作，您需要找到目前負責協調的社群成員，請到 <a href="https://groups.google.com/group/moztw-general">moztw-general</a> 郵件群組自我介紹，並說明您想協助哪些工作。</p>
-<h3>關於 MozTW</h3>
-<p>關於 Mozilla Taiwan Community 的緣起、任務與目前主要成員，請參考<a href="/about/">關於本站</a>頁面。</p>
-<h3>MozTW 郵件群組</h3>
-<p>歡迎您至 MozTW 的 Google Groups 郵件討論群組「<a href="https://groups.google.com/group/moztw-general">moztw-general</a>」參與我們的討論。請注意：</p>
-<ul>
-	<li>這<strong>不是技術支援信箱</strong>——Firefox 疑難雜症請至<a href="http://forum.moztw.org/">討論區</a>發問。</li>
-	<li>您可以使用任何的信箱訂閱與發言，但網頁介面發言需使用 Google 帳號（這是技術限制）</li>
-	<li>為了抵禦 spam，首次發言將經過人工審核；請保持耐心，謝謝！</li>
-</ul>
-<h4 class="mailing-list">郵件群組近期主題</h4>
-<ul class="mailing-list">
-	<li id="mailing-list-loading">載入中...</li>
-</ul>
-</div>
+	<p>
+		大部分的工作都不用報名，做就對了！在地化、網站等相關工作，您需要找到目前負責協調的社群成員，請到
+		<a href="https://groups.google.com/group/moztw-general">moztw-general</a> 郵件群組自我介紹，並說明您想協助哪些工作。
+	</p>
+	<h3>關於 MozTW</h3>
+	<p>
+		關於 Mozilla Taiwan Community 的緣起、任務與目前主要成員，請參考
+		<a href="/about/">關於本站</a>頁面。
+	</p>
+	<h3>MozTW 郵件群組</h3>
+	<p>
+		歡迎您至 MozTW 的 Google Groups 郵件討論群組
+		「<a href="https://groups.google.com/group/moztw-general" onclick="_gaq.push(['trackPageview', '/contribute/moztw-general']);">moztw-general</a>」
+		參與我們的討論。請注意：
+	</p>
+	<ul>
+		<li>這<strong>不是技術支援信箱</strong>——Firefox 疑難雜症請至<a href="http://forum.moztw.org/">討論區</a>發問。</li>
+		<li>您可以使用任何的信箱訂閱與發言，但網頁介面發言需使用 Google 帳號（這是技術限制）</li>
+		<li>為了抵禦 spam，首次發言將經過人工審核；請保持耐心，謝謝！</li>
+	</ul>
+	<h4 class="mailing-list">郵件群組近期主題</h4>
+	<ul class="mailing-list">
+		<li id="mailing-list-loading">
+			載入中...
+		</li>
+	</ul>
+	</div>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
 <script type="text/javascript">
 /*
