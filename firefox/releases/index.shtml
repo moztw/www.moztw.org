@@ -74,7 +74,7 @@ table {
         </p>
         <ul>
           <li>
-            修正一個罕見問題，更新 Firefox 後，部分附加元件會隱藏不見（參考 <a href="http://blog.mozilla.com/addons/2011/09/28/issue-discovered-with-firefox-add-on-upgrades/">這篇文章</a>）。
+            修正一個罕見問題，更新 Firefox 後，部分附加元件會隱藏不見（參考<a href="http://blog.mozilla.com/addons/2011/09/28/issue-discovered-with-firefox-add-on-upgrades/">這篇文章</a>）。
           </li>
         </ul>
 
