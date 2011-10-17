@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>參與 SUMO - MozTW, Mozilla Taiwan 正體中文</title>
+<title>參與 SUMO - MozTW</title>
 <style type="text/css">
 <!--
 @import url(/css/keypoint-radius.css);
@@ -159,7 +159,7 @@ h3.toggle, span.toggle {
 	<h3>如何報名？</h3>
 	<p>大部分的工作都不用報名，做就對了！在地化、網站等相關工作，您需要找到目前負責協調的社群成員，請到 <a href="https://groups.google.com/group/moztw-general">moztw-general</a> 郵件群組自我介紹，並說明您想協助哪些工作。</p>
 	<h3>關於 MozTW</h3>
-	<p>關於 Mozilla Taiwan Community 的緣起、任務與目前主要成員，請參考<a href="/about/">關於本站</a>頁面。</p>
+	<p>關於 MozTW Community 的緣起、任務與目前主要成員，請參考<a href="/about/">關於本站</a>頁面。</p>
 	<h3>MozTW 郵件群組</h3>
 	<p>歡迎您至 MozTW 的 Google Groups 郵件討論群組「<a href="https://groups.google.com/group/moztw-general">moztw-general</a>」參與我們的討論。請注意：</p>
 	<ul>

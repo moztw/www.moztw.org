@@ -113,7 +113,7 @@ Mozilla 專案是由開放源碼 (Open Source) 的組織
 
 <h3>其它資源與鏈結</h3>
 <ul>
-<li><a href="http://forum.moztw.org/" hreflang="zh-TW">Mozilla Taiwan 中文討論區</a></li>
+<li><a href="http://forum.moztw.org/" hreflang="zh-TW">MozTW 中文討論區</a></li>
 <li><a href="http://mozilla-taiwan.org/firefox/" hreflang="zh-TW">專案資訊</a></li>
 <li><a href="http://www.spreadfirefox.com/" hreflang="en">推廣 Firefox! [英]</a></li>
 </ul>
@@ -123,7 +123,7 @@ Mozilla 專案是由開放源碼 (Open Source) 的組織
 <div id="leftCol">
 
 <ul id="nav2nd">
-<li id="toHome"><a href="http://mozilla-taiwan.org/">Mozilla Taiwan 中文首頁</a></li>
+<li id="toHome"><a href="http://mozilla-taiwan.org/">MozTW 中文首頁</a></li>
 <li><a href="http://mozilla-taiwan.org/firefox/">Mozilla Firefox</a></li>
 <li><a href="http://mozilla-taiwan.org/thunderbird/">Mozilla Thunderbird</a></li>
 <li><a href="http://www.mozilla.org/">Mozilla.org [英]</a></li>

@@ -11,11 +11,11 @@
 	<ul><li> Looking for <strong>mozip</strong> ? Try the <a href='/tools'>tools</a> 
 	page! (Don't worry about Chinese, the tools page is in pure English).
 	</li><li>下載檔案？不用擔心，只是連結錯了，<a href="/dl">請到下載頁</a>。</li>
-	<li><a href="http://forum.moztw.org" >Mozilla Taiwan 討論區</a></li>
+	<li><a href="http://forum.moztw.org" >MozTW 討論區</a></li>
 	</ul>
 	
 	<h2>Search</h2>
-	<p>搜尋 Mozilla Taiwan 網站</p>
+	<p>搜尋 MozTW 網站</p>
 	 <div><form id="404_search" method="get" action="http://www.google.com/custom">
    <input type="hidden" name="cof" value="LW:174;LH:60;L:http://www.mozilla.org/images/mlogosm.gif;GIMP:#cc0000;T:black;ALC:#0000ff;GFNT:grey;LC:#990000;BGC:white;AH:center;VLC:purple;GL:0;GALT:#666633;AWFID:9262c37cefe23a86;">
   <input type="hidden" name="domains" value="moztw.org">

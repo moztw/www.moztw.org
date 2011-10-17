@@ -22,7 +22,7 @@
 <div >
     <h1>Mozilla 系列與 Big5 中文字碼</h1>
     <h3> Big5 主要版本及字碼表</h3>
-    下面列出目前主要常見的 Big5 版本，及 Mozilla Taiwan 所收集的字碼表。
+    下面列出目前主要常見的 Big5 版本，及 MozTW 所收集的字碼表。
     字碼表一律以 Big5 與 Unicode 的對應關係表示，每行的格式一律是 
     <b class='g'>[Big5 Unicode]</b> ，每種版本各有一份 
     <b class='g'>Big5 &raquo; Unicode (b2u) </b>與 
@@ -85,7 +85,7 @@
 	<dt>Mozilla 1.8</dt>
 	<dd>
 	為了解決 Big5 眾多版本的問題、獲得最大的可用性， 
-	Mozilla Taiwan 於 2005 年與 UAO 合作，重新整理的版本。
+	Mozilla 台灣社群於 2005 年與 UAO 合作，重新整理的版本。
 	<a href='table/moz18-b2u-rule.txt'>主體是以 Big5-2003 為主，
 	但在造字與保留區則引入 UAO 的字集。</a>
 	另外為了避免其它 Big5 使用者看不到， Unicode 轉 Big5 的部份
@@ -104,7 +104,7 @@
 	    <a href='table/moz18-b2u.txt'>Mozilla 1.8 b2u</a>&nbsp;
 	    <a href='table/moz18-u2b.txt'>Mozilla 1.8 u2b</a>&nbsp;
 	    &nbsp; * <a href='table/moz18-b2u-strict.txt' title='以跟 HKSCS 相容'>b2u-strict(不使用UAO字集)</a>&nbsp;
-	    </b> &nbsp; (Mozilla Taiwan 製作)
+	    </b> &nbsp; (Mozilla 台灣社群製作)
 	</dd>
 	<dt>Big5-HKSCS</dt>
 	<dd>

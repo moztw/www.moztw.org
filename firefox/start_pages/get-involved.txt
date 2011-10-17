@@ -42,10 +42,10 @@ Mozilla 專案中的學生貢獻者們一向能給予我們不少幫助，
 
 <!-- END NON-EUROPEAN LANGUAGE ONLY -->
 
-<h3 id="localization">Mozilla Taiwan</h3>
-<p>如果你對中文的部份特別感興趣， <a href="http://moztw.org/">Mozilla Taiwan</a>
+<h3 id="localization">MozTW</h3>
+<p>如果你對中文的部份特別感興趣， <a href="http://moztw.org/">MozTW</a>
 歡迎你的加入。 你可以幫忙翻譯各類文件或套件、整理資訊、測試與回報錯誤、... 
-等等，請至 <a href="http://forum.moztw.org"> Mozilla Taiwan 討論區 </a>
+等等，請至 <a href="http://forum.moztw.org"> MozTW 討論區 </a>
 參與討論以獲得進一步資訊。
 </p>
 

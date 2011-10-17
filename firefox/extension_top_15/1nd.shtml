@@ -336,7 +336,7 @@ function hidden_descript(obj) {
     </div>
     <h3>這些套件裝了安全嗎？</h3>
     <div style="margin: 6px 0pt 0pt 4px;">
-    Mozilla Taiwan 無法提供任何保證，若有顧慮建議您先參考隨附的連結：
+    Mozilla 台灣社群無法提供任何保證，若有顧慮建議您先參考隨附的連結：
     </div>
     <ul>
     <li>原文版或原生中文套件皆由套件作者提供，您可前往套件網站查閱相關資訊。</li>

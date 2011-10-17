@@ -1,6 +1,6 @@
 <!--#include virtual="/inc/meta.html" -->
 <link rel="stylesheet" type="text/css" href="/css/legacy.css" media="all">
-<title>測試專區 - Mozilla Taiwan</title>
+<title>測試專區 - MozTW</title>
 
 <style type="text/css">
 #mainContent .download:before {
@@ -60,7 +60,7 @@
 		<img src="http://moztw.org/images/moztw_beta.png" style='float: left;' alt='' title="Look Mom, it's only a beta!"/>
 		<h2>Firefox 3 RC2 中文測試版</h2>
 <p>Firefox 3 RC2 是給開發者預覽測試的新版 Firefox 瀏覽器，僅供測試使用。如果曾安裝<a title="最新版本的Firefox" href="http://www.getfirefox.com.tw/">最新的正式版 Firefox</a>，之前安裝的附加元件非常可能無法於此測試版正常使用。本測試版可讓您認識對 Firefox 3 的模樣及功能，但仍有新功能尚未加入，且許多部分仍會修改補強。</p>
-				<p>如發現任何問題，非常歡迎您到 <a href="http://forum.moztw.org/viewforum.php?f=4">Mozilla Taiwan 討論區</a> 與我們參與討論或是直接到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報錯誤訊息。</p>
+				<p>如發現任何問題，非常歡迎您到 <a href="http://forum.moztw.org/viewforum.php?f=4">MozTW 討論區</a> 與我們參與討論或是直接到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報錯誤訊息。</p>
 
 	</div>
 	<div id="product-side">
@@ -165,13 +165,12 @@
 
 <div id="side" class="right">
     <h3>注意事項</h3>
-    <p>Mozilla Taiwan 為提昇軟體中文翻譯品質，提供軟體中文測試版。</p>
+    <p>MozTW 為提昇軟體中文翻譯品質，提供軟體中文測試版。</p>
 
     <ul>
     <li>如軟體操作時發生錯誤或有建議，請至 <a href="http://bugzilla.mozilla.org">Buzilla</a> 回報。</li>
 
-    <li>若發現任何中文翻譯錯誤或建議，請至 <a href="http://forum.moztw.org/viewforum.php?f=4">
-	Mozilla Taiwan 討論區</a>回報。</li></ul>
+    <li>若發現任何中文翻譯錯誤或建議，請至 <a href="http://forum.moztw.org/viewforum.php?f=4"> MozTW 討論區</a>回報。</li></ul>
     <p>本區檔案來源為 Mozilla.org Nightly Builds 
     (每日編譯供測試的版本，非正式發行用)：</p>
     <ul>
@@ -200,6 +199,6 @@
 	<li><a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-trunk-l10n/">Thunderbird (多語)</a></li></ul>
 	<h3>其他資訊</h3>
 		<ul><li><a href="http://bugzilla.mozilla.org/">Bugzilla 錯誤回報</a></li>
-		<li><a href="http://forum.moztw.org/">Mozilla Taiwan 討論區</a></li></ul>
+		<li><a href="http://forum.moztw.org/">MozTW 討論區</a></li></ul>
 </div>
 <!--#include virtual="/inc/footer.html" -->

@@ -25,8 +25,8 @@ Mozilla 專案是非營利的開放源碼 (Open Source) 活動，
 （日本）等組織支援並推動運行，全球有數千名志工參與其中。
 </p>
 
-<h2>關於 Mozilla Taiwan </h2>
-<p><a href="http://www.moztw.org/">Mozilla Taiwan</a> 是由臺灣本地及海外志工
+<h2>關於 MozTW</h2>
+<p><a href="http://www.moztw.org/">MozTW</a> 是由臺灣本地及海外志工
 所組成的社群，負責維護 Mozilla 專案的正體中文語系、處理中文相關問題，
 並提供中文文件等各種支援。</p>
 

@@ -4,7 +4,7 @@ include("inc/title.html");
 include("inc/class.html");
 include("inc/header.html");
 ?>
-<H1>Mozilla Taiwan Website Online Update</H1>
+<H1>MozTW Website Online Update</H1>
 <?
 if(isset($_POST["rebuild_yes"]) && $_POST["rebuild_yes"])
 {

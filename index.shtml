@@ -3,7 +3,7 @@
 <!--#include virtual="/inc/title.html" -->
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
-<link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan News" href="http://moztw.org/xmlnews.rdf" />
+<link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan Community News" href="http://moztw.org/xmlnews.rdf" />
 <style type="text/css">
 <!--
 .front-feature { background: #E4EcEc url(images/4-feature-win.png) top right no-repeat; }

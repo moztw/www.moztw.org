@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/meta_about.html" -->
-<title>About Mozilla Taiwan Community - Moztw.org</title>
+<title>關於 MozTW (Mozilla 台灣社群) - MozTW</title>
 <!--#include virtual="/inc/class_about.html" -->
 <!--#include virtual="/inc/header.html" -->
 
@@ -7,7 +7,7 @@
 <div id="side">
 
 <ul id="nav">
-<li><a title="關於 Mozilla Taiwan - moztw.org" href="#about-moztw"><strong>關於 Mozilla Taiwan</strong></a>
+<li><a title="關於 MozTW (Mozilla 台灣社群) - moztw.org" href="#about-moztw"><strong>關於 MozTW (Mozilla 台灣社群)</strong></a>
 <ul>
 <li><a title="緣起" href="#moztw-history">緣起</a></li>
 <li><a title="軟體使用問題" href="#moztw-question">軟體使用問題</a></li>
@@ -36,18 +36,17 @@ Email:
 <hr class="hide">
 
 <div id="mainContent">
-	<h1 id="about-moztw">關於 Mozilla Taiwan </h1>
-	<p> Mozilla Taiwan - moztw.org 是台灣專屬於 
-	<a href='http://www.mozilla.org'>Mozilla</a> 相關資訊的網站，
-	於 2004 年九月正式開張。目前本站管理、維護 Mozilla 的正體中文語言套件(Language
+	<h1 id="about-moztw">關於 MozTW </h1>
+	<p> MozTW - moztw.org 是台灣專屬於 <a href='http://www.mozilla.org'>Mozilla</a> 相關資訊的網站，
+	於 2004 年九月正式開張。目前本站管理、維護 Mozilla 軟體的正體中文語言套件(Language
 	Pack) 跟已在地化 (Localized) 的安裝檔，提供 <a href='http://www.moztw.org'>WWW (下載、文件)</a>與
 	<a href='http://forum.moztw.org'>討論區</a> 等服務。</p>
-	<p>Mozilla Taiwan 本著推廣主力 — Firefox 易學常用的特性，自許為使用者接觸自由文化的起點。我們持續辦理推廣自由文化的課程與活動，若有相關需求或合作提案，請連絡<a href="#contact">社群連繫長</a>。</p>
-	<p> Mozilla Taiwan 名稱的正式寫法:</p>
+	<p>MozTW 本著推廣主力 — Firefox 易學常用的特性，自許為使用者接觸自由文化的起點。我們持續辦理推廣自由文化的課程與活動，若有相關需求或合作提案，請連絡<a href="#contact">社群連繫長</a>。</p>
+	<p> MozTW 名稱的正式寫法:</p>
 	<ul>
-	    <li> 英文全名: Mozilla Taiwan</li>
+	    <li> 英文全名: Mozilla Taiwan Community</li>
 	    <li> 英文縮寫: MozTW </li>
-	    <li> 網址: moztw.org 或 mozilla-taiwan.org </li>
+	    <li> 網址: moztw.org <!--或 mozilla-taiwan.org--> </li>
 	</ul>
 	<p>moztw.org 網站提供的服務清單如下：</p>
 	<ul>
@@ -76,8 +75,7 @@ Email:
 	軟體使用上的問題：
 	<ul>
 		<li>可至 <a href='http://www.mozilla.com'>Mozilla</a> 網站查詢</li>
-		<li>可至<a href="http://forum.moztw.org">本站討論區</a>發問，
-		很多熱心社群成員願意分享經驗。社群成員皆為義務幫忙，發問請保持禮節。</li>
+		<li>可至<a href="http://forum.moztw.org">本站討論區</a>發問，很多熱心社群成員願意分享經驗。社群成員皆為義務幫忙，發問請保持禮節。</li>
 		<li>或可查閱<a href="/docs">本站文件區</a></li>
 	</ul>
 
@@ -115,7 +113,7 @@ Email:
 		<p>E-mail: <a class="email" href="mailto:bobchao@mail.moztw.org">bobchao@mail.moztw.org</a>
 		<p class="note">社群連繫長，處理社群庶務經營，新聞與合作案連絡人‎</p>
 		<div class="vcard-additional-info">
-			<span class="org">Mozilla Taiwan</span>
+			<span class="org">MozTW (Mozilla Taiwan Community)</span>
 			<span class="adr"><span class="country-name">Taiwan</span></span>
 		</div>
 	</div>
@@ -126,7 +124,7 @@ Email:
 		<p>E-mail: <a class="email" href="mailto:petercpg@mail.moztw.org">petercpg@mail.moztw.org</a>
 		<p class="note">在地化專案經理，協調 MozTW 各在地化專案事宜。</p>
 		<div class="vcard-additional-info">
-			<span class="org">Mozilla Taiwan</span>
+			<span class="org">MozTW (Mozilla Taiwan Community)</span>
 			<span class="adr"><span class="country-name">Taiwan</span></span>
 		</div>
 	</div>
@@ -138,7 +136,7 @@ Email:
 		<p>E-mail: <a class="email" href="mailto:timdream@mail.moztw.org">timdream@mail.moztw.org</a>
 		<p class="note">Firefox 正體中文在地化專案。前任經理。</p>
 		<div class="vcard-additional-info">
-			<span class="org">Mozilla Taiwan</span>
+			<span class="org">MozTW (Mozilla Taiwan Community)</span>
 			<span class="adr"><span class="country-name">Taiwan</span></span>
 		</div>
 	</div>
@@ -151,7 +149,7 @@ Email:
 		<p>E-mail: <a class="email" href="mailto:abev66@mail.moztw.org">abev66@mail.moztw.org</a>
 		<p class="note">Thunderbird 正體中文在地化專案經理 (專職第一代)</p>
 		<div class="vcard-additional-info">
-			<span class="org">Mozilla Taiwan</span>
+			<span class="org">MozTW (Mozilla Taiwan Community)</span>
 			<span class="adr"><span class="country-name">Taiwan</span></span>
 		</div>
 	</div>
@@ -163,7 +161,7 @@ Email:
 		<p>E-mail: <span class="email">josesun 在 mail .moztw. org</span>
 		<p class="note">在地化經理二代目</p>
 		<div class="vcard-additional-info">
-			<span class="org">Mozilla Taiwan</span>
+			<span class="org">MozTW (Mozilla Taiwan Community)</span>
 			<span class="adr"><span class="country-name">Taiwan</span></span>
 		</div>
 	</div>
@@ -173,9 +171,9 @@ Email:
 		</p>
 		<p>WWW: <a href="http://ntu.csie.org/~piaip/" class="url"> http://ntu.csie.org/~piaip/ </a></p>
 		<p>E-mail: <span class="email">piaip at csie dot ntu dot edu dot tw</span>
-		<p class="note">Mozilla Taiwan 創立者，元祖在地化經理</p>
+		<p class="note">Mozilla 台灣社群創立者，元祖在地化經理</p>
 		<div class="vcard-additional-info">
-			<span class="org">Mozilla Taiwan</span>
+			<span class="org">MozTW (Mozilla Taiwan Community)</span>
 			<span class="adr"><span class="country-name">Taiwan</span></span>
 		</div>
 	</div>
