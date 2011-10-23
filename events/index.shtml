@@ -21,6 +21,15 @@
     <li id="firefox3party"><a href="firefox3party/">Firefox 3 Party<span class="date">2008/07/19</span></a>
     <li id="record2008"><a href="record2008/">手滑創記錄<span class="date">2008/05/30</span></a>
     <li id="firefox2party"><a href="firefox2party/">Firefox 2 Party<span class="date">2006/11/12</span></a>
+    <li id="sfx"><a href="sfx/">放火行動<span class="date">2004</span></a>
 </ol>
+
+<h1>MozTW 其他活動</h1>
+
+<ul>
+    <li><a href="http://ossacc.moe.edu.tw/modules/newbb/viewtopic.php?post_id=790" >擴充套件工作坊</a></li>
+    <li><a href="http://mozlinks-zh.blogspot.com/2009/08/moztw-at-coscup-2009.html">COSCUP 2009</a></li>
+    <li><a href="http://forum.moztw.org/viewtopic.php?t=28759">開發合宿</a></li>
+</ul>
 
 <!--#include virtual="/inc/footer.html" -->

@@ -65,6 +65,11 @@
     border-width: 0 0 1px 1px;
     
 }
+#event-list #sfx {
+	background-image: url("sfx/pics/newfirefox_newlogo.png");
+	background-position: center top;
+	background-repeat: no-repeat;
+}
 #event-list #sfd2011 {
 	background-image: url("sfd2011/sumo.png");
 	background-position: 46% 74%;
