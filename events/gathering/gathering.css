@@ -1,0 +1,134 @@
+#side.right {
+    width: 230px;
+}
+.key-point {
+    background: #FFFFFF;
+    border: 18px solid #DDDDDD;
+    height: 275px;
+    margin-bottom: 1em;
+    padding: 24px 0 0 30px;
+    position: relative;
+    width: 595px;
+}
+.key-point canvas {
+    position: absolute;
+    top: -15%; right: 0;
+}
+#feature {
+    margin-top: -60px;
+    padding-left: 30px;
+}
+#feature h2{
+    font-size: 2.75em;
+}
+
+ul#global-info {
+    margin:0; padding:0; list-style: none;
+    position: absolute;
+    right: 2px;
+    bottom: 2px;
+}
+ul#global-info li{
+    display: block;
+    float: left;
+    margin: auto 3px;
+}
+/*=======================
+  三個 promote block
+  =======================*/
+#mainContent{  
+  float: none;
+  width: 660px;
+}
+.item-block{
+    background: transparent url(/images/green-corner-box.jpg) left top no-repeat;
+    padding: 12px 15px 20px;
+    margin: 0 1%;
+    float: left;
+    width: 28%;
+}
+.item-block img{
+    float: left;
+}
+.item-block h3{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0 0 0 40px;
+    border: none;
+}
+.item-block h3 a:link{
+    text-decoration: none;
+}
+.item-block h3 a:visited{
+    color: navy
+    text-decoration: none;
+}
+.item-block p{
+    margin: 0 0 auto 40px;
+}
+#street-block{
+    float: none;
+    margin-left: 68%;
+    width: auto;
+}
+.outdated {
+    color: gray;
+}
+.update {
+    color: red;
+    font-size: .8em;
+    display: block;
+    margin-top: 0;
+}
+/*=======================
+  content
+  =======================*/
+.information {
+    width: 640px;
+}
+.information > div {
+    padding-left: 2.2em;
+}
+.information > div h2 {
+    margin-left: -1.2em;
+    margin-top: 2em;
+}
+.information > div h2 img{
+    height: 1em;
+    margin-right: 4px;
+    width: 1em;
+}
+
+.information > div table {
+    width: 98%;
+    margin: .3em auto 1em;
+}
+
+.information > div table th{
+    background: #000;
+    color: #FFF;
+}
+
+.information > div table td{
+    border-bottom: 1px solid gray;
+}
+
+.speaker {
+    float: right;
+    font-family: serif;
+    font-style: italic;
+    margin: 5px 10px 0 0;
+}
+
+/*=======================
+  Badgets
+  =======================*/
+.badgets textarea{
+    font-size: 10px;
+    width: 30em;
+    margin-bottom: 1.5em;
+}
+
+.badgets img{
+    border: 0;
+}

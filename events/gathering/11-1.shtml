@@ -1,0 +1,99 @@
+<!--#include virtual="/inc/meta.html" -->
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>MozTW 摩茲連續聚 TY 光輝十月篇 - MozTW</title>
+<link rel="stylesheet" type="text/css" href="gathering.css" media="screen">
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/inc/header.html" -->
+</head>
+
+<body>
+
+    <div class="right" id="side">
+        <h3>時間</h3>
+        <p>2011/10/22<br>
+        <abbr title="2011-10-22T13:30:00Z" class="dtstart"> 13:30</abbr> ~
+        <abbr title="2011-10-22T18:00:00Z" class="dtend">18:00</abbr></p>
+        <h3>地點</h3>
+        <p>第五月台<br>桃園縣中壢市元化路 2-36 號 3 樓</p>
+        <h3>報名</h3>
+        <p>10/10 19:00 ~ 10/17 22:00<br>
+        人數上限 20 人</p>
+        <h3>其他連結</h3>
+        <p><a href="http://registrano.com/events/moztw-gathering-20111022-ty">報名頁面</a>、<a href="https://etherpad.mozilla.org/moztw-gethering-11-1">活動籌劃</a><br>
+        <a href="http://registrano.com/events/moztw-gathering-20111022-ty-tour">大溪老街郊遊</a></p>
+    </div>
+
+    <div class="key-point">
+        <img src="gathering-title.png" height="245" width="562" title="">
+        <div id="feature">
+            <h2>TY光輝十月篇</h2>
+        </div>
+    </div>
+
+    <div class="information"><div>
+        <p>MozTW 摩茲連續聚，以輕鬆歡樂無負擔的方式、要與大家一起提升彼此的網際體驗。每次內容不拘、地點好談，歡迎來聊。 連續聚內容由參加者自由報名發表，跟網路、Mozilla、自由相關的什麼主題都可以，當場協調時間。</p>
+        
+        <h2><img src="foxmosa_icon.png" alt="">Welcome!<span class="speaker">By BobChao</span></h2>
+        <div>
+            <iframe width="600" height="480" src="slides/embedder.html#bobchao_welcome_rev_2.htm" class="frame">
+                <a href="/slides/welcome_rev_2.htm">link to the presentation</a>
+            </iframe>
+            
+            <h3>Mozilla 是什麼？</h3>
+            <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
+            ({
+                "base_state": {"language": "zh-tw"},
+                "video_url": "http://videos.mozilla.org/serv/webmademovies/Moz_Doc_0329_GetInvolved.webm",
+                video_config: { width: 600, height: 480 }
+            })
+            </script>
+        
+            <h3>Mozilla Firefox：以與眾不同的方式，與眾不同</h3>
+            <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
+            ({
+                "base_state": {"language": "zh-tw"},
+                "video_url": "http://videos.mozilla.org/serv/brand/Mozilla_Firefox_Manifesto_v0.1.ogv",
+                video_config: { width: 600, height: 480 }
+            })
+            </script>
+        </div>
+    
+        <h2><img src="foxmosa_icon.png" alt="">MozTW contribute 網頁改版現況<span class="speaker">By BobChao</span></h2>
+        <div>
+            <iframe width="600" height="480" src="slides/embedder.html#bobchao_contribute_rev_2.htm" class="frame">
+                <a href="/slides/contribute_rev_2.htm">link to the presentation</a>
+            </iframe>
+        </div>
+        
+        <h2><img src="foxmosa_icon.png" alt="">Mozilla 的 World Ready 計畫<span class="speaker">By Petercpg</span></h2>
+        <div>
+            <iframe width="600" height="480" src="slides/embedder.html#petercpg_world_ready.html" class="frame">
+                <a href="/slides/petercpg_world_ready.html">link to the presentation</a>
+            </iframe>
+        </div>
+        
+        <h2><img src="foxmosa_icon.png" alt="">Add-on SDK Content Script<span class="speaker">By Irvin</span></h2>
+        <div style="width:595px" id="__ss_9817859"><iframe src="http://www.slideshare.net/slideshow/embed_code/9817859" width="595" height="497" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+        
+        <h2><img src="foxmosa_icon.png" alt="">Boss Key相容性解決方案、套件安裝小秘訣<span class="speaker">By 安可</span></h2>
+        
+        <h2><img src="foxmosa_icon.png" alt="">現場外掛：開放原始碼遊戲 Diaspora 介紹<span class="speaker">By CQD</span></h2>
+
+        <h2><img src="foxmosa_icon.png" alt=""><a href="https://etherpad.mozilla.org/moztw-activities-position-meeting">討論紀錄：MozTW 活動定位</a></h2>
+
+
+        <h2><img src="extension_icon.png" alt="">參加者</h2>
+        <p><img src="atendee/11-1.png" width="600" height="325" title=""></p>
+    
+
+
+    </div></div>
+ 
+<br style="clear: both;">
+<!--#include virtual="/inc/footer.html" --> </div>
+</div>
+</body>
+</html>
