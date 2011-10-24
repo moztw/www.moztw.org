@@ -3,7 +3,7 @@
     <div id="titleimg"><img src="pics/newfirefox_newlogo.png" width="129" height="129" alt="">
     </div>
 	<div id="title">
-	<h1><!--#echo var="titleString" --></h1></div>
+	<h1>台灣 Firefox 放火行動展開!!</h1></div>
    	<div id="topmenu">
 	<a class="menulink" href="index">首頁</a>
 	<a class="menulink" href="activity">放火行動</a>
