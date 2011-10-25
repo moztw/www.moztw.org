@@ -92,6 +92,9 @@ ul#global-info li{
 .information > div h2 {
     margin-left: -1.2em;
     margin-top: 2em;
+    padding-left:1.5em;
+    background:url('foxmosa_icon.png') no-repeat;
+    background-size:1em;
 }
 .information > div h2 img{
     height: 1em;
