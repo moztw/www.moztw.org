@@ -41,24 +41,11 @@
             <iframe width="600" height="480" src="slides/embedder.html#bobchao_welcome_rev_2.htm" class="frame">
                 <a href="/slides/welcome_rev_2.htm">link to the presentation</a>
             </iframe>
-            
-            <h3>Mozilla 是什麼？</h3>
-            <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
-            ({
-                "base_state": {"language": "zh-tw"},
-                "video_url": "http://videos.mozilla.org/serv/webmademovies/Moz_Doc_0329_GetInvolved.webm",
-                video_config: { width: 600, height: 480 }
-            })
-            </script>
-        
-            <h3>Mozilla Firefox：以與眾不同的方式，與眾不同</h3>
-            <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
-            ({
-                "base_state": {"language": "zh-tw"},
-                "video_url": "http://videos.mozilla.org/serv/brand/Mozilla_Firefox_Manifesto_v0.1.ogv",
-                video_config: { width: 600, height: 480 }
-            })
-            </script>
+            <h3>投影片中的影片</h3>
+            <ul>
+            	<li><a href="http://www.universalsubtitles.org/zh-tw/videos/lXdWMem6KVu8/zh-tw/">Mozilla 是什麼？</a></li>
+            	<li><a href="http://www.universalsubtitles.org/en/videos/NNxEqfuQSaPN/zh-tw/">Mozilla Firefox：以與眾不同的方式，與眾不同</a></li>
+            </ul>
         </div>
     
         <h2><img src="foxmosa_icon.png" alt="">MozTW contribute 網頁改版現況<span class="speaker">By BobChao</span></h2>
