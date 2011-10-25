@@ -1,17 +1,17 @@
+<!--FIXME: Mouse Scroll Events -->
+
 <!DOCTYPE html>
-<html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"><meta charset="utf-8">
+
+<meta charset="utf-8">
 <title>World Ready</title>
 
 <!-- Your Slides -->
 <!-- One section is one slide -->
-</head><body style="-moz-transform: scale(0.967448);" class="loaded"><section aria-selected="true">
+<section>
     <!-- This is the first slide -->
-    <h1>World Ready @ Mozilla</h1>
-    <br>
-    
-    <h3>for<br>MozTW 摩茲連續聚 TY 光輝十月篇</h3>
-    <slideurl class="small">http://bit.ly/ogbPdo</slideurl>
+    <h1>MozTW 摩茲連續聚 TY 光輝十月篇</h1>
+    <h2>World Ready @ Mozilla</h2>
+    <div class="slideurl small">http://bit.ly/ogbPdo</div>
     <footer class="titlepage">
     	Peter Chen 陳品光
     	<br>
@@ -39,10 +39,7 @@
 <section>
     <h2>Mozilla World Ready Project</h2>
     <hr>
-    <p>Creating greater awareness around localization issues, educating new participants to the project, and <strong>taking steps addressing these problems that limit our ability to reach and connect users around the world</strong>.
- Its about doing all the things that we currently do, but making things 
-"world-ready" earlier in the development cycle to make them easier and 
-faster to accomplish.</p>
+    <p>Creating greater awareness around localization issues, educating new participants to the project, and <strong>taking steps addressing these problems that limit our ability to reach and connect users around the world</strong>. Its about doing all the things that we currently do, but making things "world-ready" earlier in the development cycle to make them easier and faster to accomplish.</p>
     <p>讓在地化團隊們可以提早點出問題，避免等到內容都放到網站上了之後才被<del>開譙</del>回來抓問題</p>
 	<footer class="small"></footer>
 </section>
@@ -59,17 +56,17 @@ faster to accomplish.</p>
     	<li>避免使用流行語、口語、俚語，或是可能會有多重意義的詞彙
     		<ul><li>"Webify" Me</li>
     			<li><a href="http://matejnovak.com/2011/05/10/owning-awesome/" target="_blank">"Awesome"</a>Bar</li>
-    	
+    	</li>
     </ul>
-    <footer><img src="petercpg_world_ready_files/nurse.png" id="sumofox"></footer>
-</li></ul></section>
+    <footer><img src="petercpg_world_ready_files/nurse.small.png" id="sumofox"></footer>
+</section>
 
 <section>
     <h2>目前的初步想法</h2>
     <hr>
     <ul>
     	<li>定義詞彙
-    		<ul><li>Mozilla Marketplace -&gt; <a href="http://groups.google.com/group/mozilla.dev.l10n.web/msg/e40fc77a39fd2f89" target="_blank">Mozilla Bazar</a> (es-ES)</li></ul>
+    		<ul><li>Mozilla Marketplace -> <a href="http://groups.google.com/group/mozilla.dev.l10n.web/msg/e40fc77a39fd2f89" target="_blank">Mozilla Bazar</a> (es-ES)</li></ul>
     	</li>
     	<li>在版面設計上，為不同語言保留更多的文字長度</li>
     	<li>網頁字體的使用<br>
@@ -121,27 +118,22 @@ faster to accomplish.</p>
     <hr>
 	<ul>
 		<li>WorldReady Meeting</li>
-		<li>WorldReady Mailing List (https://mail.mozilla.org/listinfo/world-ready)</li>
-		<li>IRC (irc://irc.mozilla.org/)</li>
+		<li>WorldReady Mailing List<br>(https://mail.mozilla.org/listinfo/world-ready)</li>
+		<li>IRC Chatrooms<br>(irc://irc.mozilla.org/)</li>
+		<li>MozillaWiki\L10n:WorldReady<br>(https://wiki.mozilla.org/L10n:WorldReady)</li>
 	</ul>
 </section>
 
 <section>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-    <h2>Questions?</h2>
+    <h2 style="margin-top:5em;">Questions?</h2>
 </section>
 
 <section>
-	<p>&nbsp;</p>
-	<p>&nbsp;</p>
-    <h2>Thank You!</h2>
-    <p class="centered">
-		<img alt="Creative Commons License" src="petercpg_world_ready_files/88x31.png"><br>
+    <h2 style="margin-top:5em;">Thank You!</h2>
+    <div class="centered">
+		<img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png"><br>
 		This slide is licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh_TW" target="_blank">CC: BY-NC-SA 3.0</a>
-    </p>
+    </div>
 </section>
 
 
@@ -159,20 +151,50 @@ faster to accomplish.</p>
 	src: local('Oswald'), local('Oswald'), url('https://themes.googleusercontent.com/static/fonts/oswald/v1/-g5pDUSRgvxvOl5u-a_WHw.woff') format('woff');
   }
   
-  html {background-color: black;}
-  body {background-color: white;}
+  html { background-color: black; }
+  body { background-color: white; }
   /* A section is a slide. It's size is 800x600, and this will never change */
   section {
       font-family: 'Oswald', arial, serif; /* The font from Google */
       font-size: 2em;
   }
-  h1, h2, h3 { margin-top: 50px; text-align: center; text-transform: capitalize;}
-  ul {margin-left: 100px;}
-  li {margin-right: 100px;}
-  a { color: #FF0066; } a:hover {text-decoration: underline;}
-  footer { position: absolute; bottom: 50px; right: 50px; font-size: 0.5em;}
-  slideurl { position: absolute; bottom: 50px; left: 50px; font-size: 1em;}
-  .titlepage {font-size: 1em;}
+  h1, h2 {
+    margin-top: 50px;
+    text-align: center;
+	text-transform: capitalize;
+  }
+  h1 {margin-bottom: 2em;}
+  h3 {
+    margin-top: 50px;
+	text-transform: capitalize;
+  }
+  ul { margin-left: 2em; margin-right: 1em}
+  a { color: #FF0066; text-decoration: none; }
+  a:hover {text-decoration: underline;}
+  q {
+    display: inline-block;
+    width: 700px;
+    height: 600px;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    padding: 50px;
+  }
+
+  video {
+	background-color: black;
+    z-index: -1;
+	position: absolute;
+    width: 800px;
+    height: 600px;
+  }
+  footer {
+	position: absolute;
+	bottom: 10px;
+	right: 50px;
+	font-size: 0.5em;
+  }
+
   /* Transition effect */
   /* Feel free to change the transition effect for original
      animations. See here:
@@ -192,6 +214,13 @@ faster to accomplish.</p>
   /* After */
   section[aria-selected] ~ section {left: +150%}
   
+  /* By default, visible */
+  .incremental > * { opacity: 1; }
+  /* The current item */
+  .incremental > *[aria-selected] { color: red; opacity: 1; }
+  /* The items to-be-selected */
+  .incremental > *[aria-selected] ~ * { opacity: 0.2; }
+  
   p {
 	margin-left: auto;
 	margin-right: auto;
@@ -202,22 +231,31 @@ faster to accomplish.</p>
   .small 	{font-size: 0.5em;}
   .key 		{color: red;}
   .indented {text-indent: 2em;}
-  .centered,.centered * {text-align: center;}
+  .outdented {text-indent: -2em;}
+  .centered {text-align: center;}
+  img.centered img {margin-left: auto; margin-right: auto;}
   .author 	{font-size: 0.5em; text-align: center; text-decoration: underline; line-height: 1000%;}
   figure, figure * {margin-left: 50px; margin-right: 50px;}
   biblo.apa	{text-indent: -4em;}
   strong	{color: red;}
   li		{margin-top: 0.5em;}
+  .slideurl	{position: absolute; bottom: 50px; left: 50px; font-size: 1em;}
+  .titlepage {font-size: 1em;}
 </style>
 
-
-<!-- {{{{ *****************  DZSlides CORE 2.0b1 *************************** -->
-<!-- *********************************************************************** -->
-<!-- *********************************************************************** -->
-<!-- *********************************************************************** -->
-<!-- *********************************************************************** -->
-
-<!-- This block of code is not supposed to be edited, but if you want to change the behavior of the slides, feel free to hack it ;) -->
+<!-- {{{{ dzslides core
+#
+#
+#     __  __  __       .  __   ___  __
+#    |  \  / /__` |    | |  \ |__  /__`
+#    |__/ /_ .__/ |___ | |__/ |___ .__/ core :€
+#
+#
+# The following block of code is not supposed to be edited.
+# But if you want to change the behavior of these slides,
+# feel free to hack it!
+#
+-->
 
 <!-- Default Style -->
 <style>
@@ -229,97 +267,101 @@ faster to accomplish.</p>
     position: absolute; top: 50%; left: 50%;
     overflow: hidden;
   }
-  html {overflow: hidden;}
   section {
     position: absolute;
     pointer-events: none;
     width: 100%; height: 100%;
   }
   section[aria-selected] { pointer-events: auto;}
-  body {display: none}
-  body.loaded {display: block}
+  html { overflow: hidden; }
+  body { display: none; }
+  body.loaded { display: block; }
+  .incremental {visibility: hidden; }
+  .incremental[active] {visibility: visible; }
 </style>
 
 <script>
-  var friendWindows = [];
-  var idx = 1;
-  var slides;
+  var Dz = {
+    remoteWindows: [],
+    idx: -1,
+    step: 0,
+    slides: null
+  };
 
   /* main() */
 
-  window.onload = function() {
-    slides = document.querySelectorAll("body > section");
-    onhashchange();
-    setSlide();
+  Dz.init = function() {
     document.body.className = "loaded";
-    setupTouchEvents();
-    onresize();
+    this.slides = $$("body > section");
+    this.onhashchange();
+    this.setupTouchEvents();
+    this.onresize();
   }
 
   /* Handle keys */
 
-  window.onkeydown = function(e) {
+  Dz.onkeydown = function(aEvent) {
     // Don't intercept keyboard shortcuts
-    if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) {
+    if (aEvent.altKey
+      || aEvent.ctrlKey
+      || aEvent.metaKey
+      || aEvent.shiftKey) {
       return;
     }
-    if ( e.keyCode == 37 // left arrow
-      || e.keyCode == 38 // up arrow
-      || e.keyCode == 33 // page up
+    if ( aEvent.keyCode == 37 // left arrow
+      || aEvent.keyCode == 38 // up arrow
+      || aEvent.keyCode == 33 // page up
     ) {
-      e.preventDefault();
-      back(1);
+      aEvent.preventDefault();
+      this.back(1);
     }
-    if ( e.keyCode == 36 ) // home
-     {
-      e.preventDefault();
-      home();
-    }
-    if ( e.keyCode == 35 ) // end
-     {
-      e.preventDefault();
-      end();
-    }
-    if ( e.keyCode == 39 // right arrow
-      || e.keyCode == 40 // down arrow
-      || e.keyCode == 34 // page down
+	if ( aEvent.keyCode == 39 // right arrow
+      || aEvent.keyCode == 40 // down arrow
+      || aEvent.keyCode == 34 // page down
     ) {
-      e.preventDefault();
-      forward(1);
+      aEvent.preventDefault();
+      this.forward(1);
     }
-
-    if ( e.keyCode == 32) { // space
-        e.preventDefault();
-        toggleContent();
+    if (aEvent.keyCode == 35) { // end
+      aEvent.preventDefault();
+      this.goEnd();
+    }
+    if (aEvent.keyCode == 36) { // home
+      aEvent.preventDefault();
+      this.goStart();
+    }
+    if (aEvent.keyCode == 32) { // space
+      aEvent.preventDefault();
+      this.toggleContent();
     }
   }
 
   /* Touch Events */
 
-  function setupTouchEvents() {
+  Dz.setupTouchEvents = function() {
     var orgX, newX;
     var tracking = false;
 
-    var body = document.body;
-    body.addEventListener("touchstart", start, false);
-    body.addEventListener("touchmove", move, false);
+    var db = document.body;
+    db.addEventListener("touchstart", start.bind(this), false);
+    db.addEventListener("touchmove", move.bind(this), false);
 
-    function start(e) {
-      e.preventDefault();
+    function start(aEvent) {
+      aEvent.preventDefault();
       tracking = true;
-      orgX = e.changedTouches[0].pageX;
+      orgX = aEvent.changedTouches[0].pageX;
     }
-
-    function move(e) {
+	
+    function move(aEvent) {
       if (!tracking) return;
-      newX = e.changedTouches[0].pageX;
+      newX = aEvent.changedTouches[0].pageX;
       if (orgX - newX > 100) {
         tracking = false;
-        forward(1);
+        this.forward(1);
       } else {
         if (orgX - newX < -100) {
           tracking = false;
-          back(1);
+          this.back(1);
         }
       }
     }
@@ -328,9 +370,9 @@ faster to accomplish.</p>
   function handle(delta) {
     if (delta<0) {
       delta=Math.abs(delta);
-	  forward(delta);
+	  this.forward(delta);
     } else {
-      back(delta);
+      this.back(delta);
     }
   }
 
@@ -357,126 +399,248 @@ faster to accomplish.</p>
 
   /* Initialization code.*/
   
-  if (window.addEventListener) {
-	window.addEventListener('DOMMouseScroll', wheel, false);  /** DOMMouseScroll is for mozilla. */
-  }
-  
- 	window.onmousewheel = wheel;   /** IE/Opera. */
+//  if (window.addEventListener) {
+//	window.addEventListener('DOMMouseScroll', wheel, false);  /** DOMMouseScroll is for mozilla. */
+//  }
+//	window.onmousewheel = wheel;   /** IE/Opera. */
 
 
   /* Adapt the size of the slides to the window */
 
-  window.onresize = function() {
-    var sx = document.body.clientWidth / window.innerWidth;
-    var sy = document.body.clientHeight / window.innerHeight;
+  Dz.onresize = function() {
+    var db = document.body;
+    var sx = db.clientWidth / window.innerWidth;
+    var sy = db.clientHeight / window.innerHeight;
     var transform = "scale(" + (1/Math.max(sx, sy)) + ")";
-    document.body.style.MozTransform = transform;
-    document.body.style.WebkitTransform = transform;
-    document.body.style.OTransform = transform;
-    document.body.style.msTransform = transform;
-    document.body.style.transform = transform;
+
+    db.style.MozTransform = transform;
+    db.style.WebkitTransform = transform;
+    db.style.OTransform = transform;
+    db.style.msTransform = transform;
+    db.style.transform = transform;
   }
-  function getDetails(idx) {
-    var s = document.querySelector("section:nth-of-type("+ idx +")");
-    var d = s.querySelector("details");
-    return d?d.innerHTML:"";
+
+
+  Dz.getDetails = function(aIdx) {
+    var s = $("section:nth-of-type(" + aIdx + ")");
+    var d = s.$("details");
+    return d ? d.innerHTML : "";
   }
-  window.onmessage = function(e) {
-    msg = e.data;
-    win = e.source;
+
+  Dz.onmessage = function(aEvent) {
+    var msg = aEvent.data;
+    var win = aEvent.source;
     if (msg === "register") {
-      friendWindows.push(win);
-      win.postMessage(JSON.stringify({method: "registered", title: document.title, count: slides.length}), "*");
-      win.postMessage(JSON.stringify({method: "newslide", details: getDetails(idx), idx: idx}), "*");
+      this.remoteWindows.push(win);
+      win.postMessage(JSON.stringify({
+        method: "registered",
+        title: document.title,
+        count: this.slides.length
+      }), "*");
+      win.postMessage(JSON.stringify({
+        method: "newslide",
+        details: this.getDetails(this.idx),
+        idx: this.idx
+      }), "*");
       return;
     }
-    if (msg === "back") back(1);
-    if (msg === "forward") forward(1);
-    if (msg === "toggleContent") toggleContent();
+    if (msg === "back") this.back(1);
+    if (msg === "forward") this.forward(1);
+    if (msg === "toggleContent") this.toggleContent();
     // setSlide(42)
     var r = /setSlide\((\d+)\)/.exec(msg);
     if (r) {
-        idx = r[1];
-        setSlide();
+        this.setCursor(r[1], 0);
     }
   }
 
-  /* If a Video is present in this new slide, play it.
-     If a Video is present in the previous slide, stop it. */
-
-  function toggleContent() {
-    var s = document.querySelector("section[aria-selected]");
+  Dz.toggleContent = function() {
+    // If a Video is present in this new slide, play it.
+    // If a Video is present in the previous slide, stop it.
+    var s = $("section[aria-selected]");
     if (s) {
-        var video = s.querySelector("video");
-        if (video) {
-            if (video.ended || video.paused) {
-                video.play();
-            } else {
-                video.pause();
-            }
+      var video = s.$("video");
+      if (video) {
+        if (video.ended || video.paused) {
+          video.play();
+        } else {
+          video.pause();
         }
+      }
     }
   }
 
+  Dz.setCursor = function(aIdx, aStep) {
+    // If the user change the slide number in the URL bar, jump
+    // to this slide.
+    aStep = (aStep != 0 && typeof aStep !== "undefined") ? "." + aStep : "";
+    window.location.hash = "#" + aIdx + aStep;
+  }
+  
   /* If the user change the slide number in the URL bar, jump
      to this slide. */
 
-  window.onhashchange = function(e) {
-    var newidx = ~~window.location.hash.split("#")[1];
-    if (!newidx) newidx = 1;
-    if (newidx == idx) return;
-    idx = newidx;
-    setSlide();
+  Dz.onhashchange = function() {
+    var cursor = window.location.hash.split("#"),
+        newidx = 1,
+        newstep = 0;
+    if (cursor.length == 2) {
+      newidx = ~~cursor[1].split(".")[0];
+      newstep = ~~cursor[1].split(".")[1];
+    }
+    if (newidx != this.idx) {
+      this.setSlide(newidx);
+    }
+    if (newstep != this.step) {
+      this.setIncremental(newstep);
+    }
   }
 
   /* Slide controls */
 
-  function home() {
-    if (idx == 1) return;
-    idx=1;
-    setSlide();
+  Dz.back = function() {
+    if (this.idx == 1 && this.step == 0) {
+      return;
+    }
+    if (this.step == 0) {
+      this.setCursor(this.idx - 1,
+                     this.slides[this.idx - 2].$$('.incremental > *').length);
+    } else {
+      this.setCursor(this.idx, this.step - 1);
+    }
   }
-  function end() {
-    if (idx >= slides.length) return;
-    idx=slides.length;
-    setSlide();
+
+  Dz.forward = function() {
+    if (this.idx >= this.slides.length &&
+        this.step >= this.slides[this.idx - 1].$$('.incremental > *').length) {
+        return;
+    }
+    if (this.step >= this.slides[this.idx - 1].$$('.incremental > *').length) {
+      this.setCursor(this.idx + 1, 0);
+    } else {
+      this.setCursor(this.idx, this.step + 1);
+    }
   }
-  function back(count) {
-    idx=idx-count;
-    if (idx <= 1) idx=1;
-    setSlide();
+
+  Dz.goStart = function() {
+    this.setCursor(1, 0);
   }
-  function forward(count) {
-    idx=idx+count;
-    if (idx >= slides.length) idx = slides.length;
-    setSlide();
+
+  Dz.goEnd = function() {
+    var lastIdx = this.slides.length;
+    var lastStep = this.slides[lastIdx - 1].$$('.incremental > *').length;
+    this.setCursor(lastIdx, lastStep);
   }
-  function setSlide() {
-    var old = document.querySelector("section[aria-selected]");
-    var next = document.querySelector("section:nth-of-type("+ idx +")");
+  
+  Dz.setSlide = function(aIdx) {
+    this.idx = aIdx;
+    var old = $("section[aria-selected]");
+    var next = $("section:nth-of-type("+ this.idx +")");
     if (old) {
       old.removeAttribute("aria-selected");
-      var video = old.querySelector("video");
-      if (video) { video.pause(); }
+      var video = old.$("video");
+      if (video) {
+        video.pause();
+      }
     }
     if (next) {
       next.setAttribute("aria-selected", "true");
-      var video = next.querySelector("video");
-      if (video) { video.pause(); }
-    } else {
-      console.warn("No such slide: " + idx);
-      idx = 0;
-      for (var i = 0; i < slides.length; i++) {
-          if (slides[i].hasAttribute("aria-selected")) {
-              idx = i + 1;
-          }
+      var video = next.$("video");
+      if (video) {
+        video.play();
       }
+    } else {
+      // That should not happen
+      this.idx = -1;
+      // console.warn("Slide doesn't exist.");
     }
-    window.location.hash = idx;
-    for (var i = 0; i < friendWindows.length; i++) {
-        friendWindows[i].postMessage(JSON.stringify({method: "newslide", details: getDetails(idx), idx: idx}), "*");
+    for (var i = 0; i < this.remoteWindows.length; i++) {
+      this.remoteWindows[i].postMessage(JSON.stringify({
+        method: "newslide",
+        details: this.getDetails(this.idx),
+        idx: this.idx
+      }), "*");
     }
   }
+  Dz.setIncremental = function(aStep) {
+    this.step = aStep;
+    var old = this.slides[this.idx - 1].$('.incremental > *[aria-selected]');
+    if (old) {
+      old.removeAttribute('aria-selected');
+    }
+    var incrementals = this.slides[this.idx - 1].$$('.incremental');
+    if (this.step <= 0) {
+      incrementals.forEach(function(aNode) {
+        aNode.removeAttribute('active');
+      });
+      return;
+    }
+    var next = this.slides[this.idx - 1].$$('.incremental > *')[this.step - 1];
+    if (next) {
+      next.setAttribute('aria-selected', true);
+      next.parentNode.setAttribute('active', true);
+      var found = false;
+      incrementals.forEach(function(aNode) {
+        if (aNode != next.parentNode)
+          if (found)
+            aNode.removeAttribute('active');
+          else
+            aNode.setAttribute('active', true);
+        else
+          found = true;
+      });
+    } else {
+      setCursor(this.idx, 0);
+    }
+    return next;
+  }
+
+  window.onload = Dz.init.bind(Dz);
+  window.onkeydown = Dz.onkeydown.bind(Dz);
+  window.onresize = Dz.onresize.bind(Dz);
+  window.onhashchange = Dz.onhashchange.bind(Dz);
+  window.onmessage = Dz.onmessage.bind(Dz);
+</script>
+<script> // Helpers
+  if (!Function.prototype.bind) {
+    Function.prototype.bind = function (oThis) {
+
+      // closest thing possible to the ECMAScript 5 internal IsCallable
+      // function 
+      if (typeof this !== "function")
+      throw new TypeError(
+        "Function.prototype.bind - what is trying to be fBound is not callable"
+      );
+
+      var aArgs = Array.prototype.slice.call(arguments, 1),
+          fToBind = this,
+          fNOP = function () {},
+          fBound = function () {
+            return fToBind.apply( this instanceof fNOP ? this : oThis || window,
+                   aArgs.concat(Array.prototype.slice.call(arguments)));
+          };
+
+      fNOP.prototype = this.prototype;
+      fBound.prototype = new fNOP();
+
+      return fBound;
+    };
+  }
+
+  var $ = (HTMLElement.prototype.$ = function(aQuery) {
+    return this.querySelector(aQuery);
+  }).bind(document);
+
+  var $$ = (HTMLElement.prototype.$$ = function(aQuery) {
+    return this.querySelectorAll(aQuery);
+  }).bind(document);
+
+  NodeList.prototype.forEach = function(fun) {
+    if (typeof fun !== "function") throw new TypeError();
+    for (var i = 0; i < this.length; i++) {
+      fun.call(this, this[i]);
+    }
+  }
+
 </script>
 <!-- vim: set fdm=marker: }}} -->
-</body></html>
