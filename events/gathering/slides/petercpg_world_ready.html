@@ -285,20 +285,28 @@
     remoteWindows: [],
     idx: -1,
     step: 0,
-    slides: null
+    slides: null,
+    params: {
+      autoplay: "1"
+    }
   };
-
-  /* main() */
 
   Dz.init = function() {
     document.body.className = "loaded";
     this.slides = $$("body > section");
+    this.setupParams();
     this.onhashchange();
     this.setupTouchEvents();
     this.onresize();
   }
-
-  /* Handle keys */
+  
+  Dz.setupParams = function() {
+    var p = window.location.search.substr(1).split('&');
+    p.forEach(function(e, i, a) {
+      var keyVal = e.split('=');
+      Dz.params[keyVal[0]] = decodeURIComponent(keyVal[1]);
+    });
+  }
 
   Dz.onkeydown = function(aEvent) {
     // Don't intercept keyboard shortcuts
@@ -313,14 +321,14 @@
       || aEvent.keyCode == 33 // page up
     ) {
       aEvent.preventDefault();
-      this.back(1);
+      this.back();
     }
-	if ( aEvent.keyCode == 39 // right arrow
+    if ( aEvent.keyCode == 39 // right arrow
       || aEvent.keyCode == 40 // down arrow
       || aEvent.keyCode == 34 // page down
     ) {
       aEvent.preventDefault();
-      this.forward(1);
+      this.forward();
     }
     if (aEvent.keyCode == 35) { // end
       aEvent.preventDefault();
@@ -351,59 +359,21 @@
       tracking = true;
       orgX = aEvent.changedTouches[0].pageX;
     }
-	
+
     function move(aEvent) {
       if (!tracking) return;
       newX = aEvent.changedTouches[0].pageX;
       if (orgX - newX > 100) {
         tracking = false;
-        this.forward(1);
+        this.forward();
       } else {
         if (orgX - newX < -100) {
           tracking = false;
-          this.back(1);
+          this.back();
         }
       }
     }
   }
-
-  function handle(delta) {
-    if (delta<0) {
-      delta=Math.abs(delta);
-	  this.forward(delta);
-    } else {
-      this.back(delta);
-    }
-  }
-
-/** Event handler for mouse wheel event. */
-
-  function wheel(event) {
-    var delta = 0
-    if (!event) event = window.event; /* For IE. */
-    if (event.wheelDelta) {
-        delta = event.wheelDelta/120; /* IE/Opera. */
-        if (window.opera && window.opera.version < 9.2) delta = -delta; /** In Opera 9, delta differs in sign as compared to IE. */
-    } else if (event.detail) { /** Mozilla case. */
-        /** In Mozilla, sign of delta is different than in IE.
-        * Also, delta is multiple of 3.  */
-        delta = -event.detail/3;
-    }
-
-  /** If delta is nonzero, handle it.
-  * Basically, delta is now positive if wheel was scrolled up,
-  * and negative, if wheel was scrolled down.*/
-
-  if (delta) handle(delta);
-}
-
-  /* Initialization code.*/
-  
-//  if (window.addEventListener) {
-//	window.addEventListener('DOMMouseScroll', wheel, false);  /** DOMMouseScroll is for mozilla. */
-//  }
-//	window.onmousewheel = wheel;   /** IE/Opera. */
-
 
   /* Adapt the size of the slides to the window */
 
@@ -428,30 +398,31 @@
   }
 
   Dz.onmessage = function(aEvent) {
-    var msg = aEvent.data;
+    var argv = aEvent.data.split(" "), argc = argv.length;
+    argv.forEach(function(e, i, a) { a[i] = decodeURIComponent(e) });
     var win = aEvent.source;
-    if (msg === "register") {
+    if (argv[0] === "REGISTER" && argc === 1) {
       this.remoteWindows.push(win);
-      win.postMessage(JSON.stringify({
-        method: "registered",
-        title: document.title,
-        count: this.slides.length
-      }), "*");
-      win.postMessage(JSON.stringify({
-        method: "newslide",
-        details: this.getDetails(this.idx),
-        idx: this.idx
-      }), "*");
+      this.postMsg(win, "REGISTERED", document.title, this.slides.length);
+      this.postMsg(win, "CURSOR", this.idx + "." + this.step);
       return;
     }
-    if (msg === "back") this.back(1);
-    if (msg === "forward") this.forward(1);
-    if (msg === "toggleContent") this.toggleContent();
-    // setSlide(42)
-    var r = /setSlide\((\d+)\)/.exec(msg);
-    if (r) {
-        this.setCursor(r[1], 0);
-    }
+    if (argv[0] === "BACK" && argc === 1)
+      this.back();
+    if (argv[0] === "FORWARD" && argc === 1)
+      this.forward();
+    if (argv[0] === "START" && argc === 1)
+      this.goStart();
+    if (argv[0] === "END" && argc === 1)
+      this.goEnd();
+    if (argv[0] === "TOGGLE_CONTENT" && argc === 1)
+      this.toggleContent();
+    if (argv[0] === "SET_CURSOR" && argc === 2)
+      window.location.hash = "#" + argv[1];
+    if (argv[0] === "GET_CURSOR" && argc === 1)
+      this.postMsg(win, "CURSOR", this.idx + "." + this.step);
+    if (argv[0] === "GET_NOTES" && argc === 1)
+      this.postMsg(win, "NOTES", this.getDetails(this.idx));
   }
 
   Dz.toggleContent = function() {
@@ -473,12 +444,9 @@
   Dz.setCursor = function(aIdx, aStep) {
     // If the user change the slide number in the URL bar, jump
     // to this slide.
-    aStep = (aStep != 0 && typeof aStep !== "undefined") ? "." + aStep : "";
+    aStep = (aStep != 0 && typeof aStep !== "undefined") ? "." + aStep : ".0";
     window.location.hash = "#" + aIdx + aStep;
   }
-  
-  /* If the user change the slide number in the URL bar, jump
-     to this slide. */
 
   Dz.onhashchange = function() {
     var cursor = window.location.hash.split("#"),
@@ -487,6 +455,10 @@
     if (cursor.length == 2) {
       newidx = ~~cursor[1].split(".")[0];
       newstep = ~~cursor[1].split(".")[1];
+      if (newstep > Dz.slides[newidx - 1].$$('.incremental > *').length) {
+        newstep = 0;
+        newidx++;
+      }
     }
     if (newidx != this.idx) {
       this.setSlide(newidx);
@@ -494,9 +466,10 @@
     if (newstep != this.step) {
       this.setIncremental(newstep);
     }
+    for (var i = 0; i < this.remoteWindows.length; i++) {
+      this.postMsg(this.remoteWindows[i], "CURSOR", this.idx + "." + this.step);
+    }
   }
-
-  /* Slide controls */
 
   Dz.back = function() {
     if (this.idx == 1 && this.step == 0) {
@@ -531,7 +504,7 @@
     var lastStep = this.slides[lastIdx - 1].$$('.incremental > *').length;
     this.setCursor(lastIdx, lastStep);
   }
-  
+
   Dz.setSlide = function(aIdx) {
     this.idx = aIdx;
     var old = $("section[aria-selected]");
@@ -546,7 +519,7 @@
     if (next) {
       next.setAttribute("aria-selected", "true");
       var video = next.$("video");
-      if (video) {
+      if (video && !!+this.params.autoplay) {
         video.play();
       }
     } else {
@@ -554,14 +527,8 @@
       this.idx = -1;
       // console.warn("Slide doesn't exist.");
     }
-    for (var i = 0; i < this.remoteWindows.length; i++) {
-      this.remoteWindows[i].postMessage(JSON.stringify({
-        method: "newslide",
-        details: this.getDetails(this.idx),
-        idx: this.idx
-      }), "*");
-    }
   }
+
   Dz.setIncremental = function(aStep) {
     this.step = aStep;
     var old = this.slides[this.idx - 1].$('.incremental > *[aria-selected]');
@@ -594,6 +561,13 @@
     }
     return next;
   }
+  
+  Dz.postMsg = function(aWin, aMsg) { // [arg0, [arg1...]]
+    aMsg = [aMsg];
+    for (var i = 2; i < arguments.length; i++)
+      aMsg.push(encodeURIComponent(arguments[i]));
+    aWin.postMessage(aMsg.join(" "), "*");
+  }
 
   window.onload = Dz.init.bind(Dz);
   window.onkeydown = Dz.onkeydown.bind(Dz);
@@ -601,6 +575,8 @@
   window.onhashchange = Dz.onhashchange.bind(Dz);
   window.onmessage = Dz.onmessage.bind(Dz);
 </script>
+
+
 <script> // Helpers
   if (!Function.prototype.bind) {
     Function.prototype.bind = function (oThis) {
