@@ -7,8 +7,6 @@
 <link rel="stylesheet" type="text/css" href="gathering.css" media="screen">
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
-<style>
-</style>
 </head>
 
 <body>
@@ -39,12 +37,12 @@
         <p>MozTW 摩茲連續聚，以輕鬆歡樂無負擔的方式、要與大家一起提升彼此的網際體驗。每次內容不拘、地點好談，歡迎來聊。 連續聚內容由參加者自由報名發表，跟網路、Mozilla、自由相關的什麼主題都可以，當場協調時間。</p>
         
         <h2>現場實況</h2>
-        <a href="11-1/01b.jpg"><img src="11-1/01.jpg" alt=""</a>
-        <a href="11-1/02b.jpg"><img src="11-1/02.jpg" alt=""</a>
-        <a href="11-1/03b.jpg"><img src="11-1/03.jpg" alt=""</a>
-        <a href="11-1/04b.jpg"><img src="11-1/04.jpg" alt=""</a>
-        <a href="11-1/05b.jpg"><img src="11-1/05.jpg" alt=""</a>
-        <a href="11-1/06b.jpg"><img src="11-1/06.jpg" alt=""</a>
+        <a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY02#5667085096304685218" target="_blank"><img src="11-1/01.jpg" alt=""></a>
+        <a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY02#5667086999757799474" target="_blank"><img src="11-1/02.jpg" alt=""></a>
+        <a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY02#5667086864105091714" target="_blank"><img src="11-1/03.jpg" alt=""></a>
+        <a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY02#5667087077173190962" target="_blank"><img src="11-1/04.jpg" alt=""></a>
+        <a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY02#5667087132062604034" target="_blank"><img src="11-1/05.jpg" alt=""></a>
+        <a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY02#5667085956324795538" target="_blank"><img src="11-1/06.jpg" alt=""></a>
         
         <h2>Welcome!<span class="speaker">By BobChao</span></h2>
         <div>
@@ -64,7 +62,8 @@
                 <a href="/slides/contribute_rev_2.htm">link to the presentation</a>
             </iframe>
         </div>
-        
+        <p><a href="https://etherpad.mozilla.org/moztw-contribute-copywriting">MozTW「參與我們」網頁的重新規劃進度報告</a></p>
+                
         <h2>Mozilla 的 World Ready 計畫<span class="speaker">By Petercpg</span></h2>
         <div>
             <iframe width="600" height="480" src="slides/embedder.html#petercpg_world_ready.html" class="frame">
@@ -83,8 +82,16 @@
 
         <h2><a href="https://etherpad.mozilla.org/moztw-activities-position-meeting">討論紀錄：MozTW 活動定位</a></h2>
     
-
-
+        <h2>活動照片大收集</h2>
+        <div>
+        <ul>
+        	<li><a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY">MozTW 摩茲連續聚 TY - 大溪老街 - Kang-Min Wang</a></li>
+        	<li><a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY02">MozTW 摩茲連續聚 TY 光輝十月篇 - Kang-Min Wang</a></li>
+        	<li><a href="https://picasaweb.google.com/101350768351703898946/MozTWTY02">MozTW 摩茲連續聚 TY 光輝十月篇 - Orinx Chen</a></li>
+        	<li><a href="https://picasaweb.google.com/101350768351703898946/MozTWTY">MozTW 摩茲連續聚 TY - 大溪老街 - Orinx Chen</a></li>
+        	<li><a href="https://secure.flickr.com/photos/othree/archives/date-taken/2011/10/22/">Flickr: Archive of othree's photostream</a></li>
+        </ul>
+        </div>
     </div></div>
  
 <br style="clear: both;">
