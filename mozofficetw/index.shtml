@@ -1,0 +1,161 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>Mozilla 美商謀智公司徵人啟事 - MozTW</title>
+<style type="text/css">
+<!--
+@import url(/css/keypoint-radius.css);
+-->
+.key-point {
+    font: 1.5em;
+    padding: 35px 30px;
+    background:url("background.png") no-repeat scroll right top #E4ECEC;
+}
+
+.key-point h1 {
+    color: #4C5C5C;
+    font-family: sans-serif;
+}
+
+.key-point div.title {
+    background-color: rgba(255, 255, 255, 0.5);
+    line-height: 1.5em;
+    margin-bottom: 2.5em;
+    padding: 10px;
+    width: 630px;
+}
+
+.key-point div.title p {
+    margin: 1em 0;
+}
+
+.key-point div.stamp104 {
+    background: none repeat scroll 0 0 #F1F5F5;
+    border: 1px solid #6C7C7C;
+    padding: 10px 0 30px 10px;
+    width: 630px;
+}
+
+#content {
+    float: none;
+    background: none;
+}
+
+#content h2 {
+    margin-top: 2.2em;
+}
+
+#aboutmoztw {
+    border: 1px solid #6C7C7C;
+    float: right;
+    margin-top: 230px;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+#aboutmoztw textarea {
+    font-size: 1em;
+    height: 300px;
+    width: 150px;
+    border: none;
+    background-color: none;
+    background: none;
+}
+
+div.apply {
+    margin-top: 2.2em;
+    text-align: center;
+}
+
+.apply a {
+    text-decoration: none;
+}
+
+.apply span {
+    background: none repeat scroll 0 0 #0789BB;
+    border-color: #0079AA #046E96 #046E96;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px 1px 4px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    display: block;
+    font-size: 2.8em;
+    font-family: sans-serif;
+    margin: 50px auto 0px;
+    width: 6em;
+    padding: 5px 0;
+}
+
+.apply span:hover {
+    border-width: 1px 1px 10px;
+    margin-top: 44px;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.apply span:active {
+    border-width: 1px 1px 2px;
+    margin-top: 52px;
+}
+
+</style>
+
+<!--#include virtual="/inc/header.html" -->
+
+
+
+<div class="key-point">
+
+    <div id="aboutmoztw">
+        <textarea placeholder="請填入《包柏強之 MozTW & Mozilla 恩怨情仇傳》" ></textarea>
+    </div>
+
+	<div class="title">
+        <h1>美商謀智（Mozilla）正式登台，歡迎頂尖軟體好手加入！</h1>
+        <p>行動上網將是下一波網路革命的發生地，在推出行動版 Firefox 與 Firefox Home 之後，Mozilla 更進一步推動 B2G (Boot to Gecko) 專案，即將在行動裝置平台上引發革命。是的！現在你有機會成為這個專案的一份子。</p>
+        <p>如果你正在尋找一個可以盡情展現才能、充滿挑戰與機會的國際舞台，同時自認為有能力、有熱忱、有理想，Mozilla 歡迎你加入我們的行列，一同見證並參與行動裝置平台與網路的下一波革命！</p>
+	</div>
+
+
+    <div id="content">
+        <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
+        ({
+            "base_state": {"language": "zh-tw"}, 
+            "video_url": "http://videos.mozilla.org/serv/webmademovies/Moz_Doc_0329_GetInvolved.webm",
+            "video_config": { 
+                "poster": "whatismozilla.png",
+                "width": 480,
+                "height": 360
+            }
+        })
+        </script>
+
+        <h2>目前職缺</h3>
+    
+        <div class="stamp104">
+            <script type="text/javascript" src="http://www.104.com.tw/i/apis/qjob.cfm?c=386043285e363e6856423c1d1d1d1d5f24437323189j56&fmt=8"></script>
+            <script type="text/javascript">
+            b = new j104Widget({
+            "sc":"#212121",
+            "stc":"#4C5C5C",
+            "sw":"620px",
+            "fs":"1em",
+            "fts":"1.1em",
+            "sh":"auto",
+            "bc":"none",
+            "bs":"none"
+            });
+            document.write(b.output());
+            </script>
+        </div>
+
+        <div class="apply">
+            <a href="mailto:career-tw@mozilla.com">
+                <span>&nbsp;立刻行動！</span>
+                <p>請將履歷寄至 career-tw@mozilla.com</p>
+            </a>
+        </div>
+</div>
+</div>
+
+
+<!--#include virtual="/inc/footer.html" -->
+
