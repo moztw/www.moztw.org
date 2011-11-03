@@ -1,5 +1,25 @@
 <!--#include virtual="/inc/meta.html" -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script>
+	!window.jQuery && document.write('<script src="jquery-1.6.4.min.js"><\/script>');
+</script>
+<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+<script>
+$(document).ready(function(){
+    $(".iframe").fancybox({
+		'width'				: 680,
+		'height'			: 430,
+		'autoScale'			: false,
+		'transitionIn'		: 'fade',
+		'transitionOut'		: 'none',
+		'type'				: 'iframe'
+	});
+})
+</script>
 <title>Mozilla 美商謀智公司徵人啟事 - MozTW</title>
+<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 <style type="text/css">
 <!--
 @import url(/css/keypoint-radius.css);
@@ -17,10 +37,11 @@
 
 .key-point div.title {
     background-color: rgba(255, 255, 255, 0.5);
-    line-height: 1.5em;
+    font-size: 1.1em;
+    line-height: 1.7em;
     margin-bottom: 2.5em;
-    padding: 10px;
-    width: 630px;
+    padding: 15px 15px 3px;
+    width: 610px;
 }
 
 .key-point div.title p {
@@ -29,9 +50,9 @@
 
 .key-point div.stamp104 {
     background: none repeat scroll 0 0 #F1F5F5;
-    border: 1px solid #6C7C7C;
     padding: 10px 0 30px 10px;
     width: 630px;
+    box-shadow: 1px 1px 2px #999999;
 }
 
 #content {
@@ -40,23 +61,33 @@
 }
 
 #content h2 {
-    margin-top: 2.2em;
+    margin-top: 1em;
 }
 
-#aboutmoztw {
-    border: 1px solid #6C7C7C;
+#right {
     float: right;
-    margin-top: 230px;
-    padding: 10px;
-    opacity: 0.5;
+    margin-top: 2em;
 }
 
-#aboutmoztw textarea {
+#right a {
+    display: block;
+}
+
+#right a img {
+    border: 1px solid #6C7C7C;
+    box-shadow: 1px 1px 2px #999999;
+    height: 96px;
+    width: 170px;
+}
+
+#right textarea {
+    display: none;
+    margin-top: 20px;
+    border: 1px solid #6C7C7C;
+    padding: 10px;
     font-size: 1em;
     height: 300px;
     width: 150px;
-    border: none;
-    background-color: none;
     background: none;
 }
 
@@ -96,37 +127,26 @@ div.apply {
     margin-top: 52px;
 }
 
+
+
 </style>
-
 <!--#include virtual="/inc/header.html" -->
-
-
 
 <div class="key-point">
 
-    <div id="aboutmoztw">
-        <textarea placeholder="請填入《包柏強之 MozTW & Mozilla 恩怨情仇傳》" ></textarea>
-    </div>
-
-	<div class="title">
+    <div class="title">
         <h1>美商謀智（Mozilla）正式登台，歡迎頂尖軟體好手加入！</h1>
-        <p>行動上網將是下一波網路革命的發生地，在推出行動版 Firefox 與 Firefox Home 之後，Mozilla 更進一步推動 B2G (Boot to Gecko) 專案，即將在行動裝置平台上引發革命。是的！現在你有機會成為這個專案的一份子。</p>
-        <p>如果你正在尋找一個可以盡情展現才能、充滿挑戰與機會的國際舞台，同時自認為有能力、有熱忱、有理想，Mozilla 歡迎你加入我們的行列，一同見證並參與行動裝置平台與網路的下一波革命！</p>
+        <p>行動上網將是下一波網路革命的發生地。Mozilla 在推出行動版 Firefox 與 Firefox Home 之後，更進一步啟動以 Firefox 核心為基底的行動裝置作業系統專案「<a href="https://wiki.mozilla.org/B2G">Boot to Gecko</a>」，即將在你的手上再掀浪潮；更棒的是，<strong>現在你有機會成為這個專案的一份子！</strong></p>
+        <p>如果你正在尋找一個可以盡情展現才能、充滿挑戰與機會的國際舞台，同時自認為有能力、有熱忱、有理想，Mozilla 歡迎你加入我們的行列，共同見證並參與行動裝置平台及網路的另一個轉捩點！</p>
 	</div>
 
-
     <div id="content">
-        <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
-        ({
-            "base_state": {"language": "zh-tw"}, 
-            "video_url": "http://videos.mozilla.org/serv/webmademovies/Moz_Doc_0329_GetInvolved.webm",
-            "video_config": { 
-                "poster": "whatismozilla.png",
-                "width": 480,
-                "height": 360
-            }
-        })
-        </script>
+
+
+        <div id="right">
+            <a class="iframe" href="whatismozilla.html" title="What is Mozilla" target="_blank"><img class="movie" src="whatismozilla.jpg" title=""></a>
+            <textarea placeholder="請填入《包柏強之 MozTW & Mozilla 恩怨情仇傳》" ></textarea>
+        </div>
 
         <h2>目前職缺</h3>
     
@@ -145,6 +165,7 @@ div.apply {
             });
             document.write(b.output());
             </script>
+            <noscript><a href="http://www.104.com.tw/104i/joblist.cfm?c=386043285e363e6856423c1d1d1d1d5f2443c2d6b88j56&isnew=-1">美商謀智 (Mozilla) 台灣分公司職缺清單</a></noscript>
         </div>
 
         <div class="apply">
