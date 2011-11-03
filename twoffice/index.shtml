@@ -1,0 +1,182 @@
+<!--#include virtual="/inc/meta.html" -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+<script>
+	!window.jQuery && document.write('<script src="jquery-1.6.4.min.js"><\/script>');
+</script>
+<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+
+<script>
+$(document).ready(function(){
+    $(".iframe").fancybox({
+		'width'				: 680,
+		'height'			: 430,
+		'autoScale'			: false,
+		'transitionIn'		: 'fade',
+		'transitionOut'		: 'none',
+		'type'				: 'iframe'
+	});
+})
+</script>
+<title>Mozilla 美商謀智公司徵人啟事 - MozTW</title>
+<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+<style type="text/css">
+<!--
+@import url(/css/keypoint-radius.css);
+-->
+.key-point {
+    font: 1.5em;
+    padding: 35px 30px;
+    background:url("background.png") no-repeat scroll right top #E4ECEC;
+}
+
+.key-point h1 {
+    color: #4C5C5C;
+    font-family: sans-serif;
+}
+
+.key-point div.title {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1em;
+    line-height: 1.7em;
+    margin-bottom: 2.5em;
+    padding: 15px 15px 3px;
+    width: 610px;
+}
+
+.key-point div.title p {
+    margin: 1em 0;
+}
+
+.key-point div.stamp104 {
+    background: none repeat scroll 0 0 #F1F5F5;
+    padding: 10px 0 30px 10px;
+    width: 630px;
+    box-shadow: 1px 1px 2px #999999;
+}
+
+#content {
+    float: none;
+    background: none;
+}
+
+#content h2 {
+    margin-top: 1em;
+}
+
+#right {
+    float: right;
+    margin-top: 2em;
+}
+
+#right a {
+    display: block;
+}
+
+#right a img {
+    border: 1px solid #6C7C7C;
+    box-shadow: 1px 1px 2px #999999;
+    height: 96px;
+    width: 170px;
+}
+
+#right textarea {
+    display: none;
+    margin-top: 20px;
+    border: 1px solid #6C7C7C;
+    padding: 10px;
+    font-size: 1em;
+    height: 300px;
+    width: 150px;
+    background: none;
+}
+
+div.apply {
+    margin-top: 2.2em;
+    text-align: center;
+}
+
+.apply a {
+    text-decoration: none;
+}
+
+.apply span {
+    background: none repeat scroll 0 0 #0789BB;
+    border-color: #0079AA #046E96 #046E96;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px 1px 4px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    display: block;
+    font-size: 2.8em;
+    font-family: sans-serif;
+    margin: 50px auto 0px;
+    width: 6em;
+    padding: 5px 0;
+}
+
+.apply span:hover {
+    border-width: 1px 1px 10px;
+    margin-top: 44px;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.apply span:active {
+    border-width: 1px 1px 2px;
+    margin-top: 52px;
+}
+
+
+
+</style>
+<!--#include virtual="/inc/header.html" -->
+
+<div class="key-point">
+
+    <div class="title">
+        <h1>美商謀智（Mozilla）正式登台，歡迎頂尖軟體好手加入！</h1>
+        <p>行動上網將是下一波網路革命的發生地。Mozilla 在推出行動版 Firefox 與 Firefox Home 之後，更進一步啟動以 Firefox 核心為基底的行動裝置作業系統專案「<a href="https://wiki.mozilla.org/B2G">Boot to Gecko</a>」，即將在你的手上再掀浪潮；更棒的是，<strong>現在你有機會成為這個專案的一份子！</strong></p>
+        <p>如果你正在尋找一個可以盡情展現才能、充滿挑戰與機會的國際舞台，同時自認為有能力、有熱忱、有理想，Mozilla 歡迎你加入我們的行列，共同見證並參與行動裝置平台及網路的另一個轉捩點！</p>
+	</div>
+
+    <div id="content">
+
+
+        <div id="right">
+            <a class="iframe" href="whatismozilla.html" title="What is Mozilla" target="_blank"><img class="movie" src="whatismozilla.jpg" title=""></a>
+            <textarea placeholder="請填入《包柏強之 MozTW & Mozilla 恩怨情仇傳》" ></textarea>
+        </div>
+
+        <h2>目前職缺</h3>
+    
+        <div class="stamp104">
+            <script type="text/javascript" src="http://www.104.com.tw/i/apis/qjob.cfm?c=386043285e363e6856423c1d1d1d1d5f24437323189j56&fmt=8"></script>
+            <script type="text/javascript">
+            b = new j104Widget({
+            "sc":"#212121",
+            "stc":"#4C5C5C",
+            "sw":"620px",
+            "fs":"1em",
+            "fts":"1.1em",
+            "sh":"auto",
+            "bc":"none",
+            "bs":"none"
+            });
+            document.write(b.output());
+            </script>
+            <noscript><a href="http://www.104.com.tw/104i/joblist.cfm?c=386043285e363e6856423c1d1d1d1d5f2443c2d6b88j56&isnew=-1">美商謀智 (Mozilla) 台灣分公司職缺清單</a></noscript>
+        </div>
+
+        <div class="apply">
+            <a href="mailto:career-tw@mozilla.com">
+                <span>&nbsp;立刻行動！</span>
+                <p>請將履歷寄至 career-tw@mozilla.com</p>
+            </a>
+        </div>
+</div>
+</div>
+
+
+<!--#include virtual="/inc/footer.html" -->
+
