@@ -10,11 +10,12 @@
 $(document).ready(function(){
     $(".iframe").fancybox({
 		'width'				: 680,
-		'height'			: 430,
+		'height'			: 425,
 		'autoScale'			: false,
 		'transitionIn'		: 'fade',
 		'transitionOut'		: 'none',
-		'type'				: 'iframe'
+		'type'				: 'iframe',
+		'titleShow'         : false
 	});
 })
 </script>
