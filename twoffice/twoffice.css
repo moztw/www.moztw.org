@@ -1,0 +1,126 @@
+#moztw-annu {
+    background: none repeat scroll 0 0 #FCF4C4;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 10px auto;
+    padding: 10px 20px 10px 60px;
+    text-align: justify;
+}
+
+#moztw-annu a {
+    text-decoration: none;
+}
+
+#moztw-annu .foxmosaimg {
+    float: left;
+    margin-left: -50px;
+}
+
+#moztw-annu .foxmosaimg img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.key-point {
+    font: 1.5em;
+    padding: 35px 30px;
+    background: url("background.png") no-repeat scroll right top #E4ECEC;
+}
+
+.key-point h1 {
+    color: #4C5C5C;
+    font-family: sans-serif;
+}
+
+.key-point div.title {
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 1.1em;
+    line-height: 1.7em;
+    margin-bottom: 2.5em;
+    padding: 15px 15px 3px;
+    width: 610px;
+}
+
+.key-point div.title p {
+    margin: 1em 0;
+}
+
+.key-point div.stamp104 {
+    background: none repeat scroll 0 0 #F1F5F5;
+    padding: 10px 0 30px 10px;
+    width: 630px;
+    box-shadow: 1px 1px 2px #999999;
+}
+
+#content {
+    float: none;
+    background: none;
+}
+
+#content h2 {
+    margin-top: 1em;
+}
+
+#right {
+    float: right;
+    margin-top: 2em;
+}
+
+#right a {
+    display: block;
+}
+
+#right a img {
+    border: 1px solid #6C7C7C;
+    box-shadow: 1px 1px 2px #999999;
+    height: 96px;
+    width: 170px;
+}
+
+#right textarea {
+    display: none;
+    margin-top: 20px;
+    border: 1px solid #6C7C7C;
+    padding: 10px;
+    font-size: 1em;
+    height: 300px;
+    width: 150px;
+    background: none;
+}
+
+div.apply {
+    margin-top: 2.2em;
+    text-align: center;
+}
+
+.apply a {
+    text-decoration: none;
+}
+
+.apply span {
+    background: none repeat scroll 0 0 #0789BB;
+    border-color: #0079AA #046E96 #046E96;
+    border-radius: 7px;
+    border-style: solid;
+    border-width: 1px 1px 4px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+    display: block;
+    font-size: 2.8em;
+    font-family: sans-serif;
+    margin: 50px auto 0px;
+    width: 6em;
+    padding: 5px 0;
+}
+
+.apply span:hover {
+    border-width: 1px 1px 10px;
+    margin-top: 44px;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.apply span:active {
+    border-width: 1px 1px 2px;
+    margin-top: 52px;
+}

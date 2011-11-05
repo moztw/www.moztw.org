@@ -19,119 +19,21 @@ $(document).ready(function(){
 	});
 })
 </script>
-<title>Mozilla 美商謀智公司徵人啟事 - MozTW</title>
-<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+<title>Mozilla 美商謀智公司徵人啟事 - MozTW</title>    
 <style type="text/css">
 <!--
 @import url(/css/keypoint-radius.css);
 -->
-.key-point {
-    font: 1.5em;
-    padding: 35px 30px;
-    background:url("background.png") no-repeat scroll right top #E4ECEC;
-}
-
-.key-point h1 {
-    color: #4C5C5C;
-    font-family: sans-serif;
-}
-
-.key-point div.title {
-    background-color: rgba(255, 255, 255, 0.5);
-    font-size: 1.1em;
-    line-height: 1.7em;
-    margin-bottom: 2.5em;
-    padding: 15px 15px 3px;
-    width: 610px;
-}
-
-.key-point div.title p {
-    margin: 1em 0;
-}
-
-.key-point div.stamp104 {
-    background: none repeat scroll 0 0 #F1F5F5;
-    padding: 10px 0 30px 10px;
-    width: 630px;
-    box-shadow: 1px 1px 2px #999999;
-}
-
-#content {
-    float: none;
-    background: none;
-}
-
-#content h2 {
-    margin-top: 1em;
-}
-
-#right {
-    float: right;
-    margin-top: 2em;
-}
-
-#right a {
-    display: block;
-}
-
-#right a img {
-    border: 1px solid #6C7C7C;
-    box-shadow: 1px 1px 2px #999999;
-    height: 96px;
-    width: 170px;
-}
-
-#right textarea {
-    display: none;
-    margin-top: 20px;
-    border: 1px solid #6C7C7C;
-    padding: 10px;
-    font-size: 1em;
-    height: 300px;
-    width: 150px;
-    background: none;
-}
-
-div.apply {
-    margin-top: 2.2em;
-    text-align: center;
-}
-
-.apply a {
-    text-decoration: none;
-}
-
-.apply span {
-    background: none repeat scroll 0 0 #0789BB;
-    border-color: #0079AA #046E96 #046E96;
-    border-radius: 7px;
-    border-style: solid;
-    border-width: 1px 1px 4px;
-    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-    color: #FFFFFF;
-    display: block;
-    font-size: 2.8em;
-    font-family: sans-serif;
-    margin: 50px auto 0px;
-    width: 6em;
-    padding: 5px 0;
-}
-
-.apply span:hover {
-    border-width: 1px 1px 10px;
-    margin-top: 44px;
-    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.1);
-}
-
-.apply span:active {
-    border-width: 1px 1px 2px;
-    margin-top: 52px;
-}
-
-
-
 </style>
+<link rel="stylesheet" type="text/css" href="twoffice.css">
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen">
+
 <!--#include virtual="/inc/header.html" -->
+
+<div id="moztw-annu" class="key-point">
+<span class="foxmosaimg"><img src="/foxmosa/images/foxmosa-pixel-2.png" title=""></span>
+Mozilla Taiwan 社群（MozTW）自 2004 年以來，持續進行 Mozilla 中文網站、軟體在地化、抓火狐、開發工作坊等各專案，並<a href="http://moztw.org/events/">舉行連續聚、Firefox Party 等活動</a>與大家同樂。2012 年，MozTW 社群竭誠歡迎 Mozilla 公司進軍台灣。今後我們仍將保持社群獨立性，在 <a href="http://moztw.org/about/mozillamanifesto.html">Mozilla 宣言</a>的一致理念之下與公司合作，共同促進網路的持續開放創新。我們推薦各位朋友投入 Mozilla 公司，為網路前端的理想 Coding；我們更歡迎所有狐迷<a href="http://moztw.org/contribute/">加入 MozTW 社群</a>，與我們一同<strike>秉持歡樂的原則</strike>為提昇大家的網路體驗努力。</div>
 
 <div class="key-point">
 
