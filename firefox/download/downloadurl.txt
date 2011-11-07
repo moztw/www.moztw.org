@@ -1,1 +1,1 @@
-http://download.mozilla.org/?product=firefox-7.0&amp;lang=zh-TW
+http://download.mozilla.org/?product=firefox-8.0&amp;lang=zh-TW
