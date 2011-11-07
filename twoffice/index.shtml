@@ -32,7 +32,7 @@ $(document).ready(function(){
 <!--#include virtual="/inc/header.html" -->
 
 <div id="moztw-annu" class="key-point">
-<span class="foxmosaimg"><img src="/foxmosa/images/foxmosa-pixel-2.png" title=""></span>
+<span class="foxmosaimg"><img src="/foxmosa/images/foxmosa-pixel-2.png" alt=""></span>
 Mozilla Taiwan 社群（MozTW）自 2004 年以來，持續進行 Mozilla 中文網站、軟體在地化、抓火狐、開發工作坊等各專案，並<a href="http://moztw.org/events/">舉行連續聚、Firefox Party 等活動</a>與大家同樂。2012 年，MozTW 社群竭誠歡迎 Mozilla 公司進軍台灣。今後我們仍將保持社群獨立性，在 <a href="http://moztw.org/about/mozillamanifesto.html">Mozilla 宣言</a>的一致理念之下與公司合作，共同促進網路的持續開放創新。我們推薦各位朋友投入 Mozilla 公司，為網路前端的理想 Coding；我們更歡迎所有狐迷<a href="http://moztw.org/contribute/">加入 MozTW 社群</a>，與我們一同<strike>秉持歡樂的原則</strike>為提昇大家的網路體驗努力。</div>
 
 <div class="key-point">
@@ -47,14 +47,14 @@ Mozilla Taiwan 社群（MozTW）自 2004 年以來，持續進行 Mozilla 中文
 
 
         <div id="right">
-            <a class="iframe" href="whatismozilla.html" title="What is Mozilla" target="_blank"><img class="movie" src="whatismozilla.jpg" title=""></a>
-            <textarea placeholder="請填入《包柏強之 MozTW & Mozilla 恩怨情仇傳》" ></textarea>
+            <a class="iframe" href="whatismozilla.html" title="What is Mozilla" target="_blank"><img class="movie" src="whatismozilla.jpg" alt=""></a>
+            <textarea placeholder="請填入《包柏強之 MozTW &amp; Mozilla 恩怨情仇傳》" ></textarea>
         </div>
 
-        <h2>目前職缺</h3>
+        <h2>目前職缺</h2>
     
         <div class="stamp104">
-            <script type="text/javascript" src="http://www.104.com.tw/i/apis/qjob.cfm?c=386043285e363e6856423c1d1d1d1d5f24437323189j56&fmt=8"></script>
+            <script type="text/javascript" src="http://www.104.com.tw/i/apis/qjob.cfm?c=386043285e363e6856423c1d1d1d1d5f24437323189j56&amp;fmt=8"></script>
             <script type="text/javascript">
             b = new j104Widget({
             "sc":"#212121",
@@ -68,7 +68,7 @@ Mozilla Taiwan 社群（MozTW）自 2004 年以來，持續進行 Mozilla 中文
             });
             document.write(b.output());
             </script>
-            <noscript><a href="http://www.104.com.tw/104i/joblist.cfm?c=386043285e363e6856423c1d1d1d1d5f2443c2d6b88j56&isnew=-1">美商謀智 (Mozilla) 台灣分公司職缺清單</a></noscript>
+            <noscript><a href="http://www.104.com.tw/104i/joblist.cfm?c=386043285e363e6856423c1d1d1d1d5f2443c2d6b88j56&amp;isnew=-1">美商謀智 (Mozilla) 台灣分公司職缺清單</a></noscript>
         </div>
 
         <div class="apply">

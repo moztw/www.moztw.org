@@ -57,7 +57,7 @@
 <div id="side" class="right">
 	<h3>資源與鏈結</h3>
 	<ul class="compact">
-		<li><img src="images/gmail-favicon.ico">&nbsp;<a href="http://blog.bobchao.net/2009/12/thunderbird-3-google.html">GMail 用戶請注意 IMAP 相關設定</a>（柏強 Blog）</li>
+		<li><img src="images/gmail-favicon.ico" alt="">&nbsp;<a href="http://blog.bobchao.net/2009/12/thunderbird-3-google.html">GMail 用戶請注意 IMAP 相關設定</a>（柏強 Blog）</li>
 		<li><a href="http://forum.moztw.org/viewforum.php?f=9">MozTW Thunderbird 中文討論區</a></li>
 		<li><a href="https://addons.mozilla.org/zh-TW/thunderbird/">Thunderbird 附加元件網站</a></li>
 		<li><a href="https://addons.mozilla.org/zh-TW/thunderbird/themes/?sort=popular">取得佈景主題</a></li>

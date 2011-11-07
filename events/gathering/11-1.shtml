@@ -1,16 +1,8 @@
 <!--#include virtual="/inc/meta.html" -->
-<html>
-
-<head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <title>MozTW 摩茲連續聚 TY 光輝十月篇 - MozTW</title>
 <link rel="stylesheet" type="text/css" href="gathering.css" media="screen">
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
-</head>
-
-<body>
-
     <div class="right" id="side">
         <h3>時間</h3>
         <p>2011/10/22<br>
@@ -27,7 +19,7 @@
     </div>
 
     <div class="key-point">
-        <img src="gathering-title.png" height="245" width="562" title="">
+        <img src="gathering-title.png" height="245" width="562" alt="">
         <div id="feature">
             <h2>TY光輝十月篇</h2>
         </div>
@@ -97,7 +89,4 @@
     </div></div>
  
 <br style="clear: both;">
-<!--#include virtual="/inc/footer.html" --> </div>
-</div>
-</body>
-</html>
+<!--#include virtual="/inc/footer.html" -->

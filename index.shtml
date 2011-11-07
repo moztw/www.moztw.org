@@ -43,7 +43,7 @@
   </div>
   <div class="frontcolumn">
     <h2><a href="https://demos.mozilla.org/">Web O’ Wonder<img src="/images/HTML5_Badge_64.png" alt="HTML5 Logo" width="64" height="64" border="0" class="promo"></a></h2>
-    <p>立刻造訪 <a href="https://demos.mozilla.org/">Mozilla 奇幻網路</a>，看看設計師們透過 HTML5 & WebGL 的技術，所打造出各種無與倫比的網路旅程！</p>
+    <p>立刻造訪 <a href="https://demos.mozilla.org/">Mozilla 奇幻網路</a>，看看設計師們透過 HTML5 &amp; WebGL 的技術，所打造出各種無與倫比的網路旅程！</p>
   </div>
  <div class="frontcolumnlast">
     <h2><a href="/contribute/">參與我們<img width="64" height="64" border="0" alt="" class="promo" src="/images/toy_gold_32.png"></a></h2>
