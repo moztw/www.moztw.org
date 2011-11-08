@@ -73,29 +73,21 @@ table {
           最新版本的 Firefox 作了以下變更：
         </p>
         <ul>
-          <li>
-            修正一個罕見問題，更新 Firefox 後，部分附加元件會隱藏不見（參考<a href="http://blog.mozilla.com/addons/2011/09/28/issue-discovered-with-firefox-add-on-upgrades/">這篇文章</a>）。
-          </li>
-        </ul>
-
-        <p>
-          上一個版本引進的更新如下：
-        </p>
-        <ul>
-          <li>徹底改善特定場合下的<a href="http://hacks.mozilla.org/2011/09/firefox-7-is-lean-and-fast/">記憶體管理</a>。</li>
-          <li>增加新的<a href="http://www.basschouten.com/blog1.php">描繪底層</a>以加速 Windows 系統上的 Canvas 運作。</li>
-          <li>同步功能可以達到書籤和密碼幾乎立即同步。</li>
-          <li>網址前面的「http:/」部分預設為隱藏的。</li>
-          <li>支援 <a href="https://developer.mozilla.org/En/CSS/Text-overflow">text-overflow: ellipsis</a>。</li>
-          <li>支援 <a href="https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/NavigationTiming/Overview.html">Web Timing 標準</a>。</li>
-          <li>增進對 <a href="https://developer.mozilla.org/en/Firefox_7_for_developers#MathML">MathML</a> 的支援。</li>
-          <li>將 WebSocket 協定版本由 7 升至 8。</li>
-          <li>新增一個<a href="http://weblogs.mozillazine.org/asa/archives/2011/07/telemetry_in_firefox.html">志願加入的系統</a>讓使用者回傳效能資訊給 Mozilla，協助改善未來版本的 Firefox。</li>
+          <li>現在將<a href="http://blog.mozilla.com/addons/2011/08/11/strengthening-user-control-of-add-ons/">預設停用</a>第三方所安裝的附加元件。</li>
+          <li>增加一個一次性的<a href="http://blog.mozilla.com/addons/2011/08/11/strengthening-user-control-of-add-ons/">選擇附加元件對話框</a>來管理先前安裝的附加元件。</li>
+          <li>在搜尋列加入 Twitter 搜尋。</li>
+          <li>增加需要時才載入分頁的選項，縮短啟動時的視窗還原時間。</li>
+          <li>改善分頁移動、重排、分離的動畫。</li>
+          <li>增進 &lt;audio&gt; 和 &lt;video&gt; 元素的效能與記憶體管理。</a>
+          <li>支援 CORS 以允許 WebGL 的 <a href="https://developer.mozilla.org/en/WebGL/Cross-Domain_Textures">cross-domain textures</a> 處理。</li>
+          <li>支援 HTML5 選單（context menu）。</li>
+          <li>支援 <a href="https://developer.mozilla.org/en/DOM/Element.insertAdjacentHTML">insertAdjacentHTML</a>。</li>
+          <li>增進多種語言的 <a href="https://developer.mozilla.org/en/CSS/hyphens">CSS hyphen</a> 支援。</li>
+          <li>增進 WebSocket 支援。</li>
           <li>解決數個穩定性問題。</li>
-          <li>解決數個<a href="http://www.mozilla.org/security/known-vulnerabilities/firefox.html#firefox7">安全性問題</a>。</li>
         </ul>
 
-        <p>您可觀看<a href="/firefox/releases/6.0.2/">前一個版本的更新</a>。</p>
+        <p>請參考此版本的<a href="http://www.mozilla.com/firefox/8.0/releasenotes/buglist.html">完整變更清單</a>。您可能也想瞭解<a href="/firefox/releases/7.0.1/">前一個版本的更新</a>。</p>
 
         <p>欲知 Firefox 的所有功能，請見 <a href="/firefox/">Firefox&nbsp;網頁</a>。</p>
 
@@ -138,12 +130,8 @@ table {
       <dt>所有系統</dt>
       <dd>
         <ul class="spaced">
-          <li>有未更新附加元件的使用者，更新後可能會發現這些元件不見了；其實它們沒有消失，安裝任何元件、更新已安裝元件、或停用元件，應該就能解決問題（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=680802">bug 680802</a>）。</li>
-          <li>Roundcube（許多主機商採用的 webmail 軟體）對較長信件標題的 ellipsis（省略號）顯示不正確，已通知 Roundcube 團隊（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=680610">bug 680610</a>）。</li>
-          <li>BBC.co.uk 上的阿拉伯文字顯示不正確，已通知 BBC 此問題（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=674335">bug 674335</a>）。</li>
-          <li>Firefox 發現伺服器有某些不正確的設定時，現在會顯示網頁毀損的錯誤，這並非 Firefox 的問題，請聯繫網站所有人（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=681140">bug 681140</a>）。</li>
+          <li>部分使用者瀏覽 Google+ 會造成上一頁／下一頁按鈕失去效用（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=670318">bug 670318</a>）。</li>
           <li>部分使用者在 GMail 視窗，捲動捲軸可能會變慢（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=579260">bug 579260</a>）。</li>
-          <li>之前使用 Nightly 版本的使用者，在此版本可能無法安裝附加元件（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=689375">bug 689375</a>）。</li>
           <li>以被鎖定的個人設定檔重新啟動 Firefox 時，程式會當掉（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573369">bug 573369</a>）。</li>
         </ul>
       </dd>
@@ -152,9 +140,7 @@ table {
 
       <dd>
         <ul class="spaced">
-          <li>某些網站在使用特定顯示卡、驅動程式時，可能出現細微的繪圖錯誤（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=677095">bug 677095</a>）。</li>
           <li>部分 Adoba Reader X 使用者於瀏覽器內檢視 PDF 文件會導致不穩定。移除並重新安裝 Adobe Reader X 應可解決此問題（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=640901">bug 640901</a>）。</li>
-          <li>有些 ALPS touchpad 驅動程式會妨礙 Firefox 的捲動，目前已知一個變通解法（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=605357">bug 605357</a>。）</li>
         </ul>
       </dd>
 
@@ -162,9 +148,8 @@ table {
 
       <dd>
           <ul class="spaced">
-            <li>顯示檔案選擇對話框時，Mac OS X 10.7 的使用者可能會當機。已將些問題回報結 Apple（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=670842">bug 670842</a>。）</li>
-            <li>Mac OS X 10.7 使用者不能使用手勢瀏覽。這是由於作業系統底層的一些變更，會於將來的版本修正（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=668953">bug 668953</a>。）</li>
-            <li>此版本的 Firefox 無法於採用 Power PC CPUs 的 Macintosh 硬體使用（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=587799">bug 587799</a>）。</li>
+            <li>部分使用者在移動書籤時，有可能當機（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=681795">bug 681795</a>）。</li>
+            <li>此版本的 beta 版在使用 Power PC CPU 的 Macintosh 硬體上無法運作（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=587799">bug 587799</a>）。</li>
           </ul>
       </dd>
 
@@ -249,7 +234,7 @@ table {
         <li><a id="oj3s" title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
         <li><a href="http://support.mozilla.com/">Firefox 輔助說明</a></li>
         <li><a href="http://kb.mozillazine.org/">MozillaZine's Knowledge Base</a></li>
-        <li><a href="https://developer.mozilla.org/en/Firefox_7_for_developers">Developer Information</a></li>
+        <li><a href="https://developer.mozilla.org/en/Firefox_8_for_developers">Developer Information</a></li>
         <li><a href="http://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature)</li>
         <li><a href="http://www.google.com/privacy-lsf.html">Google Geolocation Privacy Policy</a></li>
       </ul>
