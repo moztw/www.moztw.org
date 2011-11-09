@@ -75,7 +75,7 @@ table {
         <ul>
           <li>現在將<a href="http://blog.mozilla.com/addons/2011/08/11/strengthening-user-control-of-add-ons/">預設停用</a>第三方所安裝的附加元件。</li>
           <li>增加一個一次性的<a href="http://blog.mozilla.com/addons/2011/08/11/strengthening-user-control-of-add-ons/">選擇附加元件對話框</a>來管理先前安裝的附加元件。</li>
-          <li>在搜尋列加入 Twitter 搜尋。</li>
+          <li><strike>在搜尋列加入 Twitter 搜尋。</strike><br>註：正體中文版不包含此項，需要此功能可自行安裝 <a href="https://addons.mozilla.org/zh-TW/firefox/addon/twitter-address-bar-search/">Twitter Address Bar Search</a> 套件</li>
           <li>增加需要時才載入分頁的選項，縮短啟動時的視窗還原時間。</li>
           <li>改善分頁移動、重排、分離的動畫。</li>
           <li>增進 &lt;audio&gt; 和 &lt;video&gt; 元素的效能與記憶體管理。</a>
