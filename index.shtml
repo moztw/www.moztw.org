@@ -9,7 +9,12 @@
 .front-feature { background: #E4EcEc url(images/4-feature-win.png) top right no-repeat; }
 .mobile-header { text-shadow:1px 1px 1px #d44000, 1px 1px 2px #fbba20; }
 /*1px 1px 2px #555;*/ 
-
+#planets ul {
+	padding-left: 1.5em; margin-top: 0.5em;
+}
+#planets ul li {
+	margin-bottom: 1em;
+}
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
@@ -60,7 +65,7 @@
 
 
 <div>
-    <div class="frontcolumndouble">
+    <div class="frontcolumndouble" id="news_columns">
     <a href="/xmlnews.rdf">
       <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16">
     </a>
@@ -87,4 +92,55 @@
   </div>
 	<a href='news'>所有公告記錄</a>
   </div>
+<script type="text/javascript" 
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script type="text/javascript">
+/*
+ * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
+ *
+ * Copyright (c) 2009 jQuery HowTo
+ *
+ * Licensed under the GPL license:
+ *   http://www.gnu.org/licenses/gpl.html
+ *
+ * URL:
+ *   http://jquery-howto.blogspot.com
+ *
+ * Author URL:
+ *   http://me.boo.uz
+ *
+ */
+(function($){$.extend({jGFeed:function(url,fnk,num,key){if(url==null){return 
+false;}var 
+gurl="http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;if(num!=null){gurl+="&num="+num;}if(key!=null){gurl+="&key="+key;}$.getJSON(gurl,function(data){if(typeof 
+fnk=="function"){ if 
+(data.responseData)fnk.call(this,data.responseData.feed);else 
+fnk.call(this,false);}else{return false;}});}});})(jQuery);
+</script>
+<script type="text/javascript">
+(function ($) {
+	$.jGFeed(
+		'http://planet.moztw.org/atom.xml',
+		function (feed) {
+			$(function () {
+				
+$('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').after(
+	'<div id="planets" class="frontcolumn"><a href="http://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"></a><h2>摩茲聯播</h2><ul /></div>'
+				);
+				$ul = $('#planets ul');
+				$.each(
+					feed.entries,
+					function (i, o) {
+						$ul.append(
+							'<li><a href="' 
++ o.link + '">' + o.title.substr(o.title.indexOf(':') + 2)  + '</a> &ndash; ' + o.title.substr(0, o.title.indexOf(':')) + '</li>'
+						);
+					}
+				);
+			});
+		},
+		5
+	);
+})(jQuery);
+</script>
 <!--#include virtual="/inc/footer.html" -->
