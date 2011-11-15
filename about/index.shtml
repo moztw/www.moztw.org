@@ -107,14 +107,14 @@ Email:
 	<p>翻譯建議與錯誤可於討論區回報或連絡各軟體在地化經理，其他事項請連絡社群連繫長。</p>
 	<div class="vcard">
 		<p class="fn n"> 
-			<span class="family-name">趙</span><span class="given-name">柏強</span> <span class="nickname">Bob</span>
+			<span class="family-name">陳</span><span class="given-name">心一</span> <span class="nickname">Irvin</span>
 		</p>
-		<p>WWW: <a href="http://blog.bobchao.net" class="url ">http://blog.bobchao.net</a></p>
-		<p>E-mail: <a class="email" href="mailto:bobchao@mail.moztw.org">bobchao@mail.moztw.org</a>
-		<p class="note">社群連繫長，處理社群庶務經營，新聞與合作案連絡人‎</p>
+		<p>WWW: <a href="http://irvin.sto.tw" class="url">http://irvin.sto.tw/</a></p>
+		<p>E-mail: <a class="email" href="mailto:irvin@mail.moztw.org">irvin@mail.moztw.org</a>
+		<p class="note">社群聯繫人，處理社群庶務經營，新聞與合作案連絡人。</p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
-			<span class="adr"><span class="country-name">Taiwan</span></span>
+			<span class="adr country-name">Taiwan</span>
 		</div>
 	</div>
 	<div class="vcard">
@@ -122,22 +122,34 @@ Email:
 			<span class="family-name">陳</span><span class="given-name">品光</span> <span class="nickname">Peter</span>
 		</p>
 		<p>E-mail: <a class="email" href="mailto:petercpg@mail.moztw.org">petercpg@mail.moztw.org</a>
-		<p class="note">在地化專案經理，協調 MozTW 各在地化專案事宜。</p>
+		<p class="note">在地化專案協調人，協調 MozTW 各在地化專案事宜。</p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
-			<span class="adr"><span class="country-name">Taiwan</span></span>
+			<span class="adr country-name">Taiwan</span>
+		</div>
+	</div>
+	<div class="vcard">
+		<p class="fn n">
+			<span class="family-name">趙</span><span class="given-name">柏強</span> <span class="nickname">Bob</span>             
+		</p>
+		<p>WWW: <a href="http://blog.bobchao.net" class="url ">http://blog.bobchao.net</a></p>
+		<p>E-mail: <a class="email" href="mailto:bobchao@mail.moztw.org">bobchao@mail.moztw.org</a>
+		<p class="note">前任社群連繫長。</p>
+		<div class="vcard-additional-info">
+			<span class="org">MozTW (Mozilla Taiwan Community)</span>
+			<span class="adr country-name">Taiwan</span>
 		</div>
 	</div>
 	<div class="vcard">
 		<p class="fn n"> 
 			<span class="family-name">簡</span><span class="given-name">冠庭</span> <span class="nickname">Tim</span>
 		</p>
-		<p>WWW: <a href="http://blog.timc.idv.tw/" class="url ">http://blog.timc.idv.tw/</a></p>
+		<p>WWW: <a href="http://blog.timc.idv.tw/" class="url">http://blog.timc.idv.tw/</a></p>
 		<p>E-mail: <a class="email" href="mailto:timdream@mail.moztw.org">timdream@mail.moztw.org</a>
-		<p class="note">Firefox 正體中文在地化專案。前任經理。</p>
+		<p class="note">前任在地化專案經理。</p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
-			<span class="adr"><span class="country-name">Taiwan</span></span>
+			<span class="adr country-name">Taiwan</span>
 		</div>
 	</div>
 	<p>特別感謝：</p>
@@ -145,12 +157,12 @@ Email:
 		<p class="fn n"> 
 			<span class="family-name">賴</span><span class="given-name">韋辰</span> <span class="nickname">lRabbit</span>
 		</p>
-		<p>WWW: <a href="http://abev66.blogspot.com/" class="url ">http://abev66.blogspot.com/</a></p>
+		<p>WWW: <a href="http://abev66.blogspot.com/" class="url">http://abev66.blogspot.com/</a></p>
 		<p>E-mail: <a class="email" href="mailto:abev66@mail.moztw.org">abev66@mail.moztw.org</a>
 		<p class="note">Thunderbird 正體中文在地化專案經理 (專職第一代)</p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
-			<span class="adr"><span class="country-name">Taiwan</span></span>
+			<span class="adr country-name">Taiwan</span>
 		</div>
 	</div>
 	<div class="vcard">
@@ -162,7 +174,7 @@ Email:
 		<p class="note">在地化經理二代目</p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
-			<span class="adr"><span class="country-name">Taiwan</span></span>
+			<span class="adr country-name">Taiwan</span>
 		</div>
 	</div>
 	<div class="vcard">
@@ -174,7 +186,7 @@ Email:
 		<p class="note">Mozilla 台灣社群創立者，元祖在地化經理</p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
-			<span class="adr"><span class="country-name">Taiwan</span></span>
+			<span class="adr country-name">Taiwan</span>
 		</div>
 	</div>
 	</div>
