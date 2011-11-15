@@ -37,66 +37,54 @@ Email:
 
 <div id="mainContent">
 	<h1 id="about-moztw">關於 MozTW </h1>
-	<p> MozTW - moztw.org 是台灣專屬於 <a href='http://www.mozilla.org'>Mozilla</a> 相關資訊的網站，
-	於 2004 年九月正式開張。目前本站管理、維護 Mozilla 軟體的正體中文語言套件(Language
-	Pack) 跟已在地化 (Localized) 的安裝檔，提供 <a href='http://www.moztw.org'>WWW (下載、文件)</a>與
-	<a href='http://forum.moztw.org'>討論區</a> 等服務。</p>
-	<p>MozTW 本著推廣主力 — Firefox 易學常用的特性，自許為使用者接觸自由文化的起點。我們持續辦理推廣自由文化的課程與活動，若有相關需求或合作提案，請連絡<a href="#contact">社群連繫長</a>。</p>
-	<p> MozTW 名稱的正式寫法:</p>
+	<p>MozTW - moztw.org 是台灣專屬於 <a href="http://www.mozilla.org">Mozilla</a> 相關資訊的社群，於 2004 年 9 月正式開張。目前本社群維護 Mozilla 大部分軟體的正體中文版本與語言套件 (Language Pack)，提供 <a href="http://www.moztw.org">WWW（下載、文件）</a>與 <a href="http://forum.moztw.org">討論區</a> 等服務。</p>
+	<p>MozTW 本著推廣主力 - Firefox 易學常用的特性，自許為使用者接觸自由文化的起點。我們持續辦理推廣自由文化的課程與活動，若有相關需求或合作提案，請連絡 <a href="#contact">社群連繫人</a>。</p>
+	<p>MozTW 名稱的正式寫法:</p>
 	<ul>
-	    <li> 英文全名: Mozilla Taiwan Community</li>
-	    <li> 英文縮寫: MozTW </li>
-	    <li> 網址: moztw.org <!--或 mozilla-taiwan.org--> </li>
+	    <li>英文全名: Mozilla Taiwan Community</li>
+	    <li>英文縮寫: MozTW </li>
+	    <li>網址: moztw.org <!--或 mozilla-taiwan.org--> </li>
 	</ul>
-	<p>moztw.org 網站提供的服務清單如下：</p>
+	<p>moztw.org 網站提供的服務清單如下:</p>
 	<ul>
 	<li><a href="/dl">Mozilla 相關中文軟體下載</a></li>
 	<li><a href="/docs">說明及文件</a></li>
 	<li><a href="http://forum.moztw.org">社群討論區</a></li>
 	<li><a href="http://wiki.moztw.org">社群共筆系統</a></li>
 	</ul>
+	<p>本站樣式修改自 mozilla.org，經原作者同意由 moztw.org 使用。主機由 <a href="http://www.sinica.edu.tw">中央研究院 (Academia Sinica)</a> <a href="http://www.citi.sinica.edu.tw/">資訊科學創新研究中心 (CITI)</a> <a href="http://www.openfoundry.org/">自由軟體鑄造場 (OSSF)</a> 提供，也感謝 <a href="http://www.csie.ntu.edu.tw/">台大資訊系 (NTU CSIE)</a> 到 2004/08 前的支援。</p>
 	
-	<p>本站樣式修改自 mozilla.org，經原作者同意由 moztw.org 使用。主機由 
-	<a href="http://www.sinica.edu.tw">中央研究院(sinica)</a>
-	<a href="http://www.citi.sinica.edu.tw/">資訊科學創新研究中心(CITI)</a>
-	<a href="http://www.openfoundry.org/">自由軟體鑄造場(OSSF)</a>
-	提供，也感謝<a href="http://www.csie.ntu.edu.tw/">台大資訊系(NTU CSIE)</a>到 2004/08 前的支援。</p>
 	<h3 id="moztw-history">緣起與發展</h3>
-
-	<p>1999 年，當時尚就讀台大資工的林弘德（piaip）為 Mozilla 正體中文在地化專案管理員，並開始於個人網站上發佈測試檔案。
-	隨後 piaip 製作「Mozilla Localization: Traditional Chinese」網站，並於 2000 年啟用 Mozilla@Taiwan 討論區；
-	原先的測試網站演化為 Mozilla 相關產品正體中文版及資訊收集地，也有了固定支持的社群。</p>
-	<p>2004 年，piaip 為了讓更多人參與專案，將 Mozilla 正體中文站自個人網站獨立而成為 Mozilla Taiwan
-	(moztw.org)，並轉移到中央研究院的主機下。自此，MozTW 正式開張。</p>
-	<p>piaip 退休後，MozTW 的在地化工作自 2006 起轉交由孫偉倫（Josesun）負責，而在 2008 年中完成第二次交接、由簡冠庭 (timdream) 與賴韋辰 (lRabbit) 分別負責 Firefox 及 Thunderbird 的在地化事宜。</p>
-	<p>目前 MozTW 正式進入多人共治時代，討論區、新聞專案、文件等各有獨立負責人運作。</p>
+	<div class="vevent" id="hcalendar-event-title">
+	<p><abbr class="dtstart" title="1999-01-01">1999</abbr> <abbr class="dtend" title="1999-12-31">年</abbr>，<span class="summary">當時尚就讀台大資工的林弘德 (piaip) 擔任 Mozilla 之正體中文在地化專案管理員，並開始於個人網站上發佈測試檔案。隨後 piaip 製作「Mozilla Localization: Traditional Chinese」網站</span>，並於 <abbr class="dtstart" title="2000-01-01">2000</abbr> <abbr class="dtend" title="2000-12-31">年</abbr><span class="summary">啟用 Mozilla@Taiwan 討論區；原先的測試網站演化為 Mozilla 相關產品正體中文版及資訊收集地，也有了固定支持的社群。</span></p>
+	<p><abbr class="dtstart" title="2004-01-01">2004</abbr> <abbr class="dtend" title="2004-12-31">年</abbr>，<span class="summary">piaip 為了讓更多人參與專案，將 Mozilla 正體中文站自個人網站獨立而成為 Mozilla Taiwan (moztw.org)，並轉移到中央研究院的主機下。MozTW 正式開張。同年，趙柏強 (BobChao) 接下了社群聯繫與行政等等庶務工作，MozTW 正式進入多人共治時代，社群行政與新聞聯繫、在地化開發、討論區、文件等項目各有獨立負責人運作。</span></p>
+	<p><abbr class="dtstart" title="2006-01-01">2006</abbr> <abbr class="dtend" title="2006-12-31">年</abbr>，<span class="summary">piaip 退休。MozTW 的在地化工作轉由孫偉倫 (Josesun) 負責。</span><abbr class="dtstart" title="2008-01-01">2008</abbr> <abbr class="dtend" title="2008-12-31">年中</abbr><span class="summary">完成第二次交接，由簡冠庭 (timdream) 與賴韋辰 (lRabbit) 分別負責 Firefox 及 Thunderbird 兩專案之在地化事宜。</span></p>
+	<p><abbr class="dtstart" title="2010-04-01">2010</abbr> <abbr class="dtend" title="2010-12-31">年春</abbr>，<span class="summary">陳品光 (petercpg) 接手在地化專案經理一職，統籌處理 Firefox 與 Thunderbird 及其他相關專案的在地化事宜。</span></p>
+	<p><abbr class="dtstart" title="2012-01-01">2012</abbr> <abbr class="dtend" title="2012-12-31">年</abbr>，<span class="summary">BobChao 與 timdream 加入 Mozilla 台灣分公司，由陳心一 (irvinfly) 接手成為社群聯繫人，處理 MozTW 社群的相關聯繫與行政庶務工作。</span></p>
+	</div>
 	
 	<h3 id="moztw-question">軟體使用問題</h3>
-	軟體使用上的問題：
+	<p>若您有軟體使用上的問題:</p>
 	<ul>
-		<li>可至 <a href='http://www.mozilla.com'>Mozilla</a> 網站查詢</li>
-		<li>可至<a href="http://forum.moztw.org">本站討論區</a>發問，很多熱心社群成員願意分享經驗。社群成員皆為義務幫忙，發問請保持禮節。</li>
-		<li>或可查閱<a href="/docs">本站文件區</a></li>
+		<li>可至 <a href="http://support.mozilla.com/">Mozilla 技術支援</a> 網站查詢</li>
+		<li>可至 <a href="http://forum.moztw.org">本站討論區</a> 發問，很多熱心社群成員願意分享經驗。社群成員皆為義務幫忙，發問請保持禮節。</li>
+		<li>或可查閱 <a href="/docs">本站文件區</a></li>
 	</ul>
 
 	<h3 id="moztw-bug-report">回報錯誤或建議</h3>
 	<ul>
-		<li>若您擁有 Google Account，可以前往我們在 Google Code 的<a href="http://code.google.com/p/moztw-web/">錯誤追蹤系統</a>回報。</li>
+		<li>若您擁有 Google 帳號，可以前往我們在 Google Code 的 <a href="http://code.google.com/p/moztw-web/">錯誤追蹤系統</a> 回報。</li>
 		<li>與網站（樣式、文件內容、組織方式等）相關的問題，請到討論區「<a href="http://forum.moztw.org/viewforum.php?f=7">有關 moztw.org</a>」處提出。</li>
 		<li>軟體翻譯錯誤或中文安裝版特有的問題，請到討論區「<a href="http://forum.moztw.org/viewforum.php?f=4">翻譯錯誤與建議回報</a>」處提出。</li>
 	</ul>
-	<p>程式上的錯誤或是建議請自行至
-	<a href='http://bugzilla.mozilla.org/enter_bug.cgi'>Bugzilla</a> 提出，
-	moztw.org 主要處理與中文語言套件相關 (翻譯、使用) 的問題。若發現中文安裝版有程式問題，
-	回報前請確定英文版在相關操作上正確無誤，謝謝。</p>
+	<p>程式上的錯誤或是建議請自行至	<a href="http://bugzilla.mozilla.org/enter_bug.cgi">Bugzilla</a> 提出，moztw.org 主要處理與正體中文版本相關（翻譯、在地化特色、使用上）的問題。若發現中文安裝版有程式問題，回報前請確定英文版在相關操作上正確無誤，謝謝。</p>
 	
-	<h2 id="about-mozilla">關於 mozilla.org</h2>
-	<p>Mozilla 是非營利開放源碼專案，任務是維持網路自由選擇、確保網路科技不斷創新。
-	此專案由 <a href="http://www.mozilla.org">Mozilla 基金會</a>及其合作夥伴組織支援並推動運行，全球有數千名志工參與其中。關於 Mozilla 基金會的理念，請參考 <a href="mozillamanifesto.shtml">Mozilla 宣言</a>。</p>
+	<h2 id="about-mozilla">關於 mozilla 基金會</h2>
+	<p>Mozilla 是非營利開放源碼專案，任務是維持網路自由選擇、確保網路科技不斷創新。此專案由 <a href="http://www.mozilla.org">Mozilla 基金會</a> 及其合作夥伴組織支援並推動運行，全球有數千名志工參與其中。關於 Mozilla 基金會的理念，請參考 <a href="mozillamanifesto.shtml">Mozilla 宣言</a>。</p>
 	<p><a href="http://www.mozilla.org/about/">詳盡資訊(英文)...</a></p>
 	
 	<h3 id="mozilla-license">軟體及商標授權</h3>
-	<p>Mozilla 產品 (Mozilla、Mozilla Firefox、Mozilla Thunderbird) 採 Mozilla Public License 授權，相關問題請直接<a href="http://www.mozilla.org/about/">聯絡 mozilla.org</a>，moztw.org 不代為處理。</p>
+	<p>Mozilla 產品 (包含但不限於 Mozilla、Mozilla Firefox、Mozilla Thunderbird) 採 Mozilla Public License 授權，相關問題請直接 <a href="http://www.mozilla.org/about/">聯絡 mozilla.org</a>，moztw.org 不代為處理。</p>
 	<ul>
 	  <li><a href="http://www.mozilla.org/MPL/MPL-1.1.html">Mozilla Public License 1.1</a></li>
 	  <li><a href="http://www.mozilla.org/foundation/licensing.html">Mozilla 授權專區</a></li>
@@ -104,7 +92,7 @@ Email:
 	</ul>	
 	
 	<h2 id="contact">聯絡資訊</h2>
-	<p>翻譯建議與錯誤可於討論區回報或連絡各軟體在地化經理，其他事項請連絡社群連繫長。</p>
+	<p>翻譯建議與錯誤可於討論區回報或聯絡在地化專案協調人，其他事項請聯絡社群聯繫人。若您有軟體使用上的問題，請參考前述「<a href="#moztw-question">軟體使用問題</a>」一節。</p>
 	<div class="vcard">
 		<p class="fn n"> 
 			<span class="family-name">陳</span><span class="given-name">心一</span> <span class="nickname">Irvin</span>
@@ -128,6 +116,7 @@ Email:
 			<span class="adr country-name">Taiwan</span>
 		</div>
 	</div>
+	<p>特別感謝:</p>
 	<div class="vcard">
 		<p class="fn n">
 			<span class="family-name">趙</span><span class="given-name">柏強</span> <span class="nickname">Bob</span>             
@@ -152,7 +141,6 @@ Email:
 			<span class="adr country-name">Taiwan</span>
 		</div>
 	</div>
-	<p>特別感謝：</p>
 	<div class="vcard">
 		<p class="fn n"> 
 			<span class="family-name">賴</span><span class="given-name">韋辰</span> <span class="nickname">lRabbit</span>
