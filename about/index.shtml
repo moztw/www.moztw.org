@@ -7,7 +7,7 @@
 <div id="side">
 
 <ul id="nav">
-<li><a title="關於 MozTW (Mozilla 台灣社群) - moztw.org" href="#about-moztw"><strong>關於 MozTW (Mozilla 台灣社群)</strong></a>
+<li><a title="關於 MozTW (Mozilla 台灣社群) - moztw.org" href="#about-moztw"><strong>關於 MozTW</strong></a>
 <ul>
 <li><a title="緣起" href="#moztw-history">緣起</a></li>
 <li><a title="軟體使用問題" href="#moztw-question">軟體使用問題</a></li>
@@ -18,7 +18,7 @@
 <li><a title="軟體及商標授權" href="#mozilla-license">軟體及商標授權</a></li>
 </ul>
 </li>
-<li><a title="聯絡資訊" href="#contact"><strong>聯絡資訊</strong></a></li>
+<li><a title="聯絡資訊" href="#contact"><strong>聯絡資訊 Contact</strong></a></li>
 </ul>
 <form action="http://groups-beta.google.com/group/moztw-testing/boxsubscribe">
 <div style="border: 1px solid #e0e9e9; font-size: small; background-color: rgb(237, 242, 242); padding: 5px;">
@@ -36,9 +36,9 @@ Email:
 <hr class="hide">
 
 <div id="mainContent">
-	<h1 id="about-moztw">關於 MozTW </h1>
-	<p>MozTW - moztw.org 是台灣專屬於 <a href="http://www.mozilla.org">Mozilla</a> 相關資訊的社群，於 2004 年 9 月正式開張。目前本社群維護 Mozilla 大部分軟體的正體中文版本與語言套件 (Language Pack)，提供 <a href="http://www.moztw.org">WWW（下載、文件）</a>與 <a href="http://forum.moztw.org">討論區</a> 等服務。</p>
-	<p>MozTW 本著推廣主力 - Firefox 易學常用的特性，自許為使用者接觸自由文化的起點。我們持續辦理推廣自由文化的課程與活動，若有相關需求或合作提案，請連絡 <a href="#contact">社群連繫人</a>。</p>
+	<h1 id="about-moztw">關於 MozTW (Mozilla 台灣社群)</h1>
+	<p>MozTW 是台灣專屬於 <a href="http://www.mozilla.org">Mozilla</a> 相關資訊的社群，於 2004 年 9 月正式開張。目前本社群維護 Mozilla 大部分軟體的正體中文版本與語言套件 (Language Pack)，提供 <a href="http://www.moztw.org">WWW（下載、文件）</a>與 <a href="http://forum.moztw.org">討論區</a> 等服務。</p>
+	<p>MozTW 本著推廣主力 - Firefox 易學常用的特性，自許為使用者接觸開放、自由文化的起點。我們持續辦理推廣自由文化的課程與活動，若有相關需求或合作提案，請連絡 <a href="#contact">社群連繫人</a>。</p>
 	<p>MozTW 名稱的正式寫法:</p>
 	<ul>
 	    <li>英文全名: Mozilla Taiwan Community</li>
@@ -60,7 +60,7 @@ Email:
 	<p><abbr class="dtstart" title="2004-01-01">2004</abbr> <abbr class="dtend" title="2004-12-31">年</abbr>，<span class="summary">piaip 為了讓更多人參與專案，將 Mozilla 正體中文站自個人網站獨立而成為 Mozilla Taiwan (moztw.org)，並轉移到中央研究院的主機下。MozTW 正式開張。同年，趙柏強 (BobChao) 接下了社群聯繫與行政等等庶務工作，MozTW 正式進入多人共治時代，社群行政與新聞聯繫、在地化開發、討論區、文件等項目各有獨立負責人運作。</span></p>
 	<p><abbr class="dtstart" title="2006-01-01">2006</abbr> <abbr class="dtend" title="2006-12-31">年</abbr>，<span class="summary">piaip 退休。MozTW 的在地化工作轉由孫偉倫 (Josesun) 負責。</span><abbr class="dtstart" title="2008-01-01">2008</abbr> <abbr class="dtend" title="2008-12-31">年中</abbr><span class="summary">完成第二次交接，由簡冠庭 (timdream) 與賴韋辰 (lRabbit) 分別負責 Firefox 及 Thunderbird 兩專案之在地化事宜。</span></p>
 	<p><abbr class="dtstart" title="2010-04-01">2010</abbr> <abbr class="dtend" title="2010-12-31">年春</abbr>，<span class="summary">陳品光 (petercpg) 接手在地化專案經理一職，統籌處理 Firefox 與 Thunderbird 及其他相關專案的在地化事宜。</span></p>
-	<p><abbr class="dtstart" title="2012-01-01">2012</abbr> <abbr class="dtend" title="2012-12-31">年</abbr>，<span class="summary">BobChao 與 timdream 加入 Mozilla 台灣分公司，由陳心一 (irvinfly) 接手成為社群聯繫人，處理 MozTW 社群的相關聯繫與行政庶務工作。</span></p>
+	<p><abbr class="dtstart" title="2012-01-01">2012</abbr> <abbr class="dtend" title="2012-12-31">年</abbr>，<span class="summary">BobChao 與 timdream 加入 Mozilla 台灣分公司，由陳心一 (Irvin) 接手成為社群聯繫人，處理 MozTW 社群的相關聯繫與行政庶務工作。</span></p>
 	</div>
 	
 	<h3 id="moztw-question">軟體使用問題</h3>
@@ -91,15 +91,16 @@ Email:
 	  <li>Mozilla 相關商標（各產品名稱、圖示等）為 Mozilla 基金會所有，請參考 <a href="http://www.mozilla.org/foundation/trademarks/index.html">Mozilla 商標使用政策</a></li>
 	</ul>	
 	
-	<h2 id="contact">聯絡資訊</h2>
+	<h2 id="contact">聯絡資訊 Contact Infomation</h2>
 	<p>翻譯建議與錯誤可於討論區回報或聯絡在地化專案協調人，其他事項請聯絡社群聯繫人。若您有軟體使用上的問題，請參考前述「<a href="#moztw-question">軟體使用問題</a>」一節。</p>
 	<div class="vcard">
 		<p class="fn n"> 
 			<span class="family-name">陳</span><span class="given-name">心一</span> <span class="nickname">Irvin</span>
 		</p>
-		<p>WWW: <a href="http://irvin.sto.tw" class="url">http://irvin.sto.tw/</a></p>
+		<p class="note">社群聯繫人 Community Liaison：處理社群庶務，新聞與合作案連繫。</p>
 		<p>E-mail: <a class="email" href="mailto:irvin@mail.moztw.org">irvin@mail.moztw.org</a>
-		<p class="note">社群聯繫人，處理社群庶務經營，新聞與合作案連絡人。</p>
+		<p>Blog: <a href="http://irvin.sto.tw" class="url">http://irvin.sto.tw/</a></p>
+        <p>SNS: <a class="url">@irvinfly</a></p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
 			<span class="adr country-name">Taiwan</span>
@@ -109,8 +110,8 @@ Email:
 		<p class="fn n"> 
 			<span class="family-name">陳</span><span class="given-name">品光</span> <span class="nickname">Peter</span>
 		</p>
+		<p class="note">在地化專案協調人 L10n Coordinator：協調 MozTW 各在地化專案事宜。</p>
 		<p>E-mail: <a class="email" href="mailto:petercpg@mail.moztw.org">petercpg@mail.moztw.org</a>
-		<p class="note">在地化專案協調人，協調 MozTW 各在地化專案事宜。</p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
 			<span class="adr country-name">Taiwan</span>

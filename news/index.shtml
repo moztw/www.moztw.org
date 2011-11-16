@@ -12,12 +12,14 @@
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
 <H1> 過去的公告記錄 </H1>
 <ul class="news">
-<li><div class="date"> 9 月 19</div>
-<a href="http://moztw.org/events/sfd2011">跳躍吧！小莎歡迎你 2011 SFD Party 活動</a>更新，放上投影片跟照片嘍！</li>
 <li><div class="date"> 10 月 19</div>
 由於中研院 OSSF 機房電力系統維護，MozTW 網站將於 19 日中午 12:00 ~ 20 日中午暫停服務，期間內請至 <a href="http://mozilla.com/firefox">mozilla.com/firefox</a> 下載 Firefox。</li>
 <li><div class="date"> 10 月 10</div>
 <a href="http://registrano.com/events/moztw-gathering-20111022-ty">摩茲連續聚 10/22 桃園TY光輝十月篇 開始報名！</a></li>
+<li><div class="date"> 9 月 28</div>
+<a href="/firefox/releases/7.0/">Firefox 7.0</a> 登場，<a href="/firefox/releases/3.6.23/">Firefox 3.6.23</a> 安全更新</li>
+<li><div class="date"> 9 月 19</div>
+<a href="http://moztw.org/events/sfd2011">跳躍吧！小莎歡迎你 2011 SFD Party 活動</a>更新，放上投影片跟照片嘍！</li>
 <li><div class="date"> 9 月 7</div>
 <a href="/firefox/releases/6.0.2/">Firefox 6.0.2</a>、<a href="/firefox/releases/3.6.22/">Firefox 3.6.22</a> 安全更新</li>
 <li><div class="date"> 9 月 5</div>
