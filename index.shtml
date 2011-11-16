@@ -125,7 +125,7 @@ fnk.call(this,false);}else{return false;}});}});})(jQuery);
 			$(function () {
 				
 $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').after(
-	'<div id="planets" class="frontcolumn"><a href="http://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"></a><h2>摩茲聯播</h2><ul /></div>'
+	'<div id="planets" class="frontcolumn"><a href="http://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"></a><h2><a href="http://planet.moztw.org/">摩茲工寮</a></h2><ul /></div>'
 				);
 				$ul = $('#planets ul');
 				$.each(
