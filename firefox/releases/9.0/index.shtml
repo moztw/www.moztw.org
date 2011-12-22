@@ -84,6 +84,11 @@ table {
           <li>解決數個<a href="http://www.mozilla.org/security/known-vulnerabilities/firefox.html#firefox9">安全性問題</a>。</li>
         </ul>
 
+        <p>
+          <strong>註：</strong>因為發現一個影響少數使用者的問題，所以已先停用 Mac OS X 和 Linux 的自動更新。
+          此問題並不影響新使用者。
+        </p>
+
         <p>請參考此版本的<a href="http://www.mozilla.com/firefox/9.0/releasenotes/buglist.html">完整變更清單</a>。您可能也想瞭解<a href="/firefox/releases/8.0.1/">前一個版本的更新</a>。</p>
 
         <p>欲知 Firefox 的所有功能，請見 <a href="/firefox/">Firefox&nbsp;網頁</a>。</p>
@@ -127,6 +132,7 @@ table {
       <dt>所有系統</dt>
       <dd>
         <ul class="spaced">
+          <li>部分附加元件（尤其是以 FreeCause 平台建立的工具列）可能讓一些使用者在啟動時當機，請<a href="support.mozilla.com/kb/Safe Mode">以安全模式啟動 Firefox</a>並<a href="http://support.mozilla.com/kb/Uninstalling%20add-ons">停用有問題的工具列</a>（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=711794">bug 711794</a>）</li>
           <li>部分使用者瀏覽 Google+ 會造成上一頁／下一頁按鈕失去效用（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=670318">bug 670318</a>）。</li>
           <li>部分使用者在 GMail 視窗，捲動捲軸可能會變慢（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=579260">bug 579260</a>）。</li>
           <li>以被鎖定的個人設定檔重新啟動 Firefox 時，程式會當掉（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573369">bug 573369</a>）。</li>
