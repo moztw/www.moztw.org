@@ -1,59 +1,146 @@
 <!--#include virtual="/inc/meta.html" -->
 <style>
-    #header { background: none #C9171E; }
-    #header ul a { 
-        background-image: -moz-linear-gradient(center top , #D70035, #8A3319);
+    #header { 
+        background-image: -moz-linear-gradient(center top , #FF001C, #BD2610);
     }
-    p {font-size: 1.1em; line-height: 1.5em; margin: 0 0 0.5em 0; text-align: center;
+    #header ul a, #header form #submit { 
+        background-image: -moz-linear-gradient(center top , #FF001C, #C12F10);
     }
-    h1 {margin-bottom: 0.5em; text-align: center;
+    #header ul a:hover, #header form #submit:hover { 
+        background-image: -moz-linear-gradient(center top , #FF001C, #E13213);
     }
-    h2 {text-align: center;
+    p {
+        font-size: 1.1em;
+        line-height: 1.5em;
+        margin: 0 0 0.5em;
+        text-align: center;
     }
-    #card p { text-align: left;}
+    h1 {
+        margin: 1.5em 0 1em;
+        text-align: center;
+        text-shadow: 0 1px 1px #FBE127;
+    }
+
+    form {
+        border-top: 1px solid #BBBBBB;
+        margin: 2.5em 0;
+        display: block;
+    }
+    form #mail-header {
+        font-size: 1em;
+        margin-bottom: 1.5em;
+        line-height: 2.5em;
+        padding: 15px 40px 0;
+        text-align: left;
+        width: 700px;
+    }
+    form input[type=email] {
+         width: 300px;
+    }
+    form input[type=email] {
+         width: 300px;
+    }
+    form input[name=subject] {
+        width: 600px;
+    }
+    #card {
+        border: 1px solid #AAAAAA;
+        margin: 0 auto;
+        padding: 1em;
+        text-align: center;
+        width: 750px;
+    }
+    #card #dear {
+        text-align: left;
+    }
+    #card input[type=text] {
+        width: 150px;
+    }
+    #card img { 
+        margin: 0.75em 0 1.25em; 
+        box-shadow: 1px 2px 3px #AAAAAA;
+    }
+    #card input {
+        border: medium none;
+        font-size: 1em;
+        margin: 1px;
+    }
+    #card textarea {
+        border: medium none;
+        font-size: 12pt;
+        height: 120px;
+        line-height: 14pt;
+        margin: 1px;
+        width: 600px;
+    }
+    #card:hover input, #card:hover textarea { border: 1px inset; margin: 0;}
+    #card input:focus, #card textarea:focus { border: 1px inset; margin: 0;}
+    #card #senderName { 
+        text-align: right; margin-top: 0.5em; 
+    }
+    #control { text-align: center; }
+    #control input { 
+        font-weight: bold;
+        height: 2.5em;
+        margin: 1em;
+        width: 8em; 
+    }
+    #control button { 
+        font-weight: normal;
+        height: 2.5em;
+        margin: 1em 1em 0.5em;
+        width: 8em;
+    }    
+    #control p {
+        font-size: 0.8em; margin: 0;
+    } 
 </style>
 
-<title>2012 Happy New Year! 狐爾摩莎賀新年 - MozTW</title>
+<title>2012 Happy New Year! 狐耳摩莎賀新年 - MozTW</title>
 
 <!--#include virtual="/inc/class_press.html" -->
 
 <!--#include virtual="/inc/header.html" -->
 
-<h1>2012 Happy New Year with Foxmosa! 狐爾摩莎賀新年（Mockup測試中！）</h1>
-<p>迎春賀喜龍年到，讓狐爾摩莎為您送出新年誠摯的祝福。</p>
-<p>Best wishes of MozTW Community & Mozilla Taiwan,<br>
-Send greeting card to your friends on the beginning of 2012,<br> 
-and celebrating Chinese Dragon New Year with Foxmosa!</p>
+<h1>2012 Happy New Year with Foxmosa! 狐耳摩莎賀新年（Mockup測試中！）</h1>
+<p>迎春賀喜龍年到，讓狐耳摩莎為您送出新年誠摯的祝福。</p>
+<p>With best wishes from MozTW Community & Mozilla Taiwan.<br>
+Send greeting cards to your friends, <br> 
+and celebrate 2012 Chinese Dragon New Year with Foxmosa!</p>
 
 <!-- Begin of iframe-->
-<hr>
-<p style="text-align: left;">To: <input type="email" name="recepMail" placeholder="請填入收件人姓名 Recipient email"/><br>
-From: <input type="email" name="sendMail" placeholder="請填入你的EMail Your email"/><br>
-Subject: <input type="text" name="subject" value="New Year's Greeting! 2012 龍年快樂"/></p>
+<form>
 
-</div>
-<div id='card' style="text-align: center; width: 100%;">
-<table style='border: 1px solid #aaa; width: 700px; margin: 0 auto;'>
+<p id="mail-header">
+    收件人 To: <input type="email" name="recepMail" placeholder="收件人信箱 Recipient e-mail" required /><br>
+    寄件人 From: <input type="email" name="sendMail" placeholder="你的信箱 Your e-mail" required /><br>
+    主旨 Subject: <input type="text" name="subject" value="New Year Greetings! 2012 龍年快樂" required />
+</p>
+
+<table id="card">
     <tr>
         <td>
-            <p>Dear <input type="text" name="recepName" placeholder="請填入收件人姓名 recipient name"/>,</p>
-            <div style="text-align: center;">
-            <img src="/images/vday_2009_card_800x500.png" width="600" height="400" alt="Foxmosa 2012 New Year Card" style="text-align: center;" /><br>
-            <textarea placeholder="請填入卡片內容 your message"></textarea>
-            </div>
-            <p style="text-align: right;">From <input type="text" name="sendName" placeholder="你的名子 Your Name"/></p>            
+            <p id="dear">Dear <input type="text" name="recepName" placeholder="收件人姓名 Recipient" required /> ,</p>
+            <img src="/foxmosa/images/foxmosa-2012newyear.png" width="600" height="393" alt="Foxmosa 2012 New Year Card" />
+            <textarea maxlength="300" placeholder="卡片內容 Your message"></textarea>
+            <p id="senderName">~ <input type="text" name="sendName" placeholder="你的名子 Your Name" required /></p>            
         </td>
     </tr>
 </table>
 
-<button>寄出</button>
+<div id='control'>
+    <input type="reset" value="重置 Reset" /><input type="submit" value="寄出 Send" /><br>
+    <button type="button">Twitter</button><button type="button">Plurk</button><button type="button">Facebook</button>
+    <p>（只推送訊息內容 SNS with message only）</p>
 </div>
+
+</form>
 <!-- End of iframe -->
 
-<h2 style="text-align: left;">活動資訊 Special Thanks</h2>
+<h3>活動資訊 Special Thanks</h3>
 <ul>
-	<li>Foxmosa New Year's Card, illustrated by 電腦君, licensed under cc: by-nc-sa 2.0 TW.<br>
-	狐爾摩莎龍年卡，電腦君繪；以創用 CC 姓名標示-非商業性-相同方式分享 2.0 台灣授權，<br>圖片轉載時請標示作者與本頁網址。</li>
+	<li>Foxmosa New Year's Card by 電腦君, licensed under cc: by-nc-sa 2.0 TW.<br>
+	狐耳摩莎龍年卡，電腦君繪；以創用 CC 姓名標示-非商業性-相同方式分享 2.0 台灣授權，<br>圖片轉載時請標示作者與本頁網址。</li>
 	<li>活動企劃及網站設計 PM & website： Irvin</li>
 	<li>程式 Programming：toomore</li>
 </ul>
