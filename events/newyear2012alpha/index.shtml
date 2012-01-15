@@ -1,0 +1,61 @@
+<!--#include virtual="/inc/meta.html" -->
+<style>
+    #header { background: none #C9171E; }
+    #header ul a { 
+        background-image: -moz-linear-gradient(center top , #D70035, #8A3319);
+    }
+    p {font-size: 1.1em; line-height: 1.5em; margin: 0 0 0.5em 0; text-align: center;
+    }
+    h1 {margin-bottom: 0.5em; text-align: center;
+    }
+    h2 {text-align: center;
+    }
+    #card p { text-align: left;}
+</style>
+
+<title>2012 Happy New Year! 狐爾摩莎賀新年 - MozTW</title>
+
+<!--#include virtual="/inc/class_press.html" -->
+
+<!--#include virtual="/inc/header.html" -->
+
+<h1>2012 Happy New Year with Foxmosa! 狐爾摩莎賀新年（Mockup測試中！）</h1>
+<p>迎春賀喜龍年到，讓狐爾摩莎為您送出新年誠摯的祝福。</p>
+<p>Best wishes of MozTW Community & Mozilla Taiwan,<br>
+Send greeting card to your friends on the beginning of 2012,<br> 
+and celebrating Chinese Dragon New Year with Foxmosa!</p>
+
+<!-- Begin of iframe-->
+<hr>
+<p style="text-align: left;">To: <input type="email" name="recepMail" placeholder="請填入收件人姓名 Recipient email"/><br>
+From: <input type="email" name="sendMail" placeholder="請填入你的EMail Your email"/><br>
+Subject: <input type="text" name="subject" value="New Year's Greeting! 2012 龍年快樂"/></p>
+
+</div>
+<div id='card' style="text-align: center; width: 100%;">
+<table style='border: 1px solid #aaa; width: 700px; margin: 0 auto;'>
+    <tr>
+        <td>
+            <p>Dear <input type="text" name="recepName" placeholder="請填入收件人姓名 recipient name"/>,</p>
+            <div style="text-align: center;">
+            <img src="/images/vday_2009_card_800x500.png" width="600" height="400" alt="Foxmosa 2012 New Year Card" style="text-align: center;" /><br>
+            <textarea placeholder="請填入卡片內容 your message"></textarea>
+            </div>
+            <p style="text-align: right;">From <input type="text" name="sendName" placeholder="你的名子 Your Name"/></p>            
+        </td>
+    </tr>
+</table>
+
+<button>寄出</button>
+</div>
+<!-- End of iframe -->
+
+<h2 style="text-align: left;">活動資訊 Special Thanks</h2>
+<ul>
+	<li>Foxmosa New Year's Card, illustrated by 電腦君, licensed under cc: by-nc-sa 2.0 TW.<br>
+	狐爾摩莎龍年卡，電腦君繪；以創用 CC 姓名標示-非商業性-相同方式分享 2.0 台灣授權，<br>圖片轉載時請標示作者與本頁網址。</li>
+	<li>活動企劃及網站設計 PM & website： Irvin</li>
+	<li>程式 Programming：toomore</li>
+</ul>
+
+<!--#include virtual="/inc/footer.html" -->
