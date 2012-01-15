@@ -92,8 +92,23 @@
         width: 8em;
     }    
     #control p {
-        font-size: 0.8em; margin: 0;
-    } 
+      font-size: 0.8em;
+      margin-top: 4em;
+      clear: both;
+      float: none;
+    }
+    #control div {
+      float: left;
+      margin: 10px;
+    }
+    #sns-row {
+      clear: both;
+      float: none;
+      position: absolute;
+      width: 700px;
+      left: 50%;
+      margin-left: -350px !important;
+    }
 </style>
 
 <title>2012 Happy New Year! 狐耳摩莎賀新年 - MozTW</title>
@@ -101,7 +116,15 @@
 <!--#include virtual="/inc/class_press.html" -->
 
 <!--#include virtual="/inc/header.html" -->
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  
 <h1>2012 Happy New Year with Foxmosa! 狐耳摩莎賀新年（Mockup測試中！）</h1>
 <p>迎春賀喜龍年到，讓狐耳摩莎為您送出新年誠摯的祝福。</p>
 <p>With best wishes from MozTW Community & Mozilla Taiwan.<br>
@@ -123,15 +146,27 @@ and celebrate 2012 Chinese Dragon New Year with Foxmosa!</p>
             <p id="dear">Dear <input type="text" name="recepName" placeholder="收件人姓名 Recipient" required /> ,</p>
             <img src="/foxmosa/images/foxmosa-2012newyear.png" width="600" height="393" alt="Foxmosa 2012 New Year Card" />
             <textarea maxlength="300" placeholder="卡片內容 Your message"></textarea>
-            <p id="senderName">~ <input type="text" name="sendName" placeholder="你的名子 Your Name" required /></p>            
+            <p id="senderName">~ <input type="text" name="sendName" placeholder="你的名字 Your Name" required /></p>
         </td>
     </tr>
 </table>
 
-<div id='control'>
-    <input type="reset" value="重置 Reset" /><input type="submit" value="寄出 Send" /><br>
-    <button type="button">Twitter</button><button type="button">Plurk</button><button type="button">Facebook</button>
-    <p>（只推送訊息內容 SNS with message only）</p>
+<div id="control">
+  <input type="reset" value="重置 Reset" />
+  <input type="submit" value="寄出 Send" /><br>
+
+  <div id="sns-row">
+    <div>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-via="MozTW" data-lang="zh-tw" data-size="large" data-hashtags="MozTW2012CNY">推文</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+    
+    <div style="width:75px;height:20px;font-size:12px;color:#FFFFFF;background-color:#F37D17;border-style:outset;text-align:center;cursor:pointer;" onClick="javascript: void(window.open('http://www.plurk.com/?qualifier=shares&status=' .concat(encodeURIComponent(location.href)) .concat(' ') .concat('&#40;') .concat(encodeURIComponent(document.title)) .concat('&#41;') .concat(' via %40foxmosa')));" title="轉貼到噗浪！" onMouseover="this.style.color='#FFFF33';" onMouseout="this.style.color='#FFFFFF';">推到 Plurk!</div>
+    
+    <div class="fb-like" data-href="http://moztw.org/events/newyear2012/" data-send="true" data-width="400" data-show-faces="true" data-font="segoe ui"></div>
+  </div>
+  
+  <p>（只推送訊息內容 Share the message via SNS）</p>
 </div>
 
 </form>
@@ -141,7 +176,7 @@ and celebrate 2012 Chinese Dragon New Year with Foxmosa!</p>
 <ul>
 	<li>Foxmosa New Year's Card by 電腦君, licensed under cc: by-nc-sa 2.0 TW.<br>
 	狐耳摩莎龍年卡，電腦君繪；以創用 CC 姓名標示-非商業性-相同方式分享 2.0 台灣授權，<br>圖片轉載時請標示作者與本頁網址。</li>
-	<li>活動企劃及網站設計 PM & website： Irvin</li>
+	<li>活動企劃及網站設計 PM &amp; website： Irvin &amp; Peter</li>
 	<li>程式 Programming：toomore</li>
 </ul>
 
