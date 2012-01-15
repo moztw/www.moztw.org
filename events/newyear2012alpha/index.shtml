@@ -16,98 +16,48 @@
         text-align: center;
     }
     h1 {
-        margin: 1.5em 0 1em;
+        margin: 1.5em 0 2em;
         text-align: center;
         text-shadow: 0 1px 1px #FBE127;
     }
+    h2 {
+        text-align: left;
+    }
+    
+    #share .twitter-share-button {
+        position: relative;
+        top: 3px;    
+    }
+    
+    #share .plurk {
+        position: relative;
+        top: -4px;
+    }
 
-    form {
-        border-top: 1px solid #BBBBBB;
-        margin: 2.5em 0;
-        display: block;
+    iframe {
+        border: 0 none;
+        height: 1025px;
+        padding: 0;
+        width: 100%;
     }
-    form #mail-header {
-        font-size: 1em;
-        margin-bottom: 1.5em;
-        line-height: 2.5em;
-        padding: 15px 40px 0;
-        text-align: left;
-        width: 700px;
+
+    #share { 
+        float: right;
+        position: relative;
+        text-align: right;
+        top: 6px;
     }
-    form input[type=email] {
-         width: 300px;
+
+    #ny-copyright img {
+        -moz-transition: all 0.3s ease 0s;
+        box-shadow: 5px 5px 5px #000000 inset;
+        float: right;
+        margin-top: 5px;
+        opacity: 0.4;
     }
-    form input[type=email] {
-         width: 300px;
-    }
-    form input[name=subject] {
-        width: 600px;
-    }
-    #card {
-        border: 1px solid #AAAAAA;
-        margin: 0 auto;
-        padding: 1em;
-        text-align: center;
-        width: 750px;
-    }
-    #card #dear {
-        text-align: left;
-    }
-    #card input[type=text] {
-        width: 150px;
-    }
-    #card img { 
-        margin: 0.75em 0 1.25em; 
-        box-shadow: 1px 2px 3px #AAAAAA;
-    }
-    #card input {
-        border: medium none;
-        font-size: 1em;
-        margin: 1px;
-    }
-    #card textarea {
-        border: medium none;
-        font-size: 12pt;
-        height: 120px;
-        line-height: 14pt;
-        margin: 1px;
-        width: 600px;
-    }
-    #card:hover input, #card:hover textarea { border: 1px inset; margin: 0;}
-    #card input:focus, #card textarea:focus { border: 1px inset; margin: 0;}
-    #card #senderName { 
-        text-align: right; margin-top: 0.5em; 
-    }
-    #control { text-align: center; }
-    #control input { 
-        font-weight: bold;
-        height: 2.5em;
-        margin: 1em;
-        width: 8em; 
-    }
-    #control button { 
-        font-weight: normal;
-        height: 2.5em;
-        margin: 1em 1em 0.5em;
-        width: 8em;
-    }    
-    #control p {
-      font-size: 0.8em;
-      margin-top: 4em;
-      clear: both;
-      float: none;
-    }
-    #control div {
-      float: left;
-      margin: 10px;
-    }
-    #sns-row {
-      clear: both;
-      float: none;
-      position: absolute;
-      width: 700px;
-      left: 50%;
-      margin-left: -350px !important;
+    #ny-copyright img:hover {
+        opacity: 1;
+        -moz-transition: all 0.3s;
     }
 </style>
 
@@ -116,68 +66,48 @@
 <!--#include virtual="/inc/class_press.html" -->
 
 <!--#include virtual="/inc/header.html" -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-  
-<h1>2012 Happy New Year with Foxmosa! 狐耳摩莎賀新年（Mockup測試中！）</h1>
+
+<h1>Happy Chinese New Year with Foxmosa! 狐耳摩莎賀新年（Mockup測試中！）</h1>
+
 <p>迎春賀喜龍年到，讓狐耳摩莎為您送出新年誠摯的祝福。</p>
 <p>With best wishes from MozTW Community & Mozilla Taiwan.<br>
 Send greeting cards to your friends, <br> 
-and celebrate 2012 Chinese Dragon New Year with Foxmosa!</p>
+and celebrate Chinese Dragon New Year with Foxmosa!</p>
 
 <!-- Begin of iframe-->
-<form>
 
-<p id="mail-header">
-    收件人 To: <input type="email" name="recepMail" placeholder="收件人信箱 Recipient e-mail" required /><br>
-    寄件人 From: <input type="email" name="sendMail" placeholder="你的信箱 Your e-mail" required /><br>
-    主旨 Subject: <input type="text" name="subject" value="New Year Greetings! 2012 龍年快樂" required />
-</p>
+<iframe src="iframe.shtml" scrolling="no"></iframe>
 
-<table id="card">
-    <tr>
-        <td>
-            <p id="dear">Dear <input type="text" name="recepName" placeholder="收件人姓名 Recipient" required /> ,</p>
-            <img src="/foxmosa/images/foxmosa-2012newyear.png" width="600" height="393" alt="Foxmosa 2012 New Year Card" />
-            <textarea maxlength="300" placeholder="卡片內容 Your message"></textarea>
-            <p id="senderName">~ <input type="text" name="sendName" placeholder="你的名字 Your Name" required /></p>
-        </td>
-    </tr>
-</table>
-
-<div id="control">
-  <input type="reset" value="重置 Reset" />
-  <input type="submit" value="寄出 Send" /><br>
-
-  <div id="sns-row">
-    <div>
-      <a href="https://twitter.com/share" class="twitter-share-button" data-via="MozTW" data-lang="zh-tw" data-size="large" data-hashtags="MozTW2012CNY">推文</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>
-    
-    <div style="width:75px;height:20px;font-size:12px;color:#FFFFFF;background-color:#F37D17;border-style:outset;text-align:center;cursor:pointer;" onClick="javascript: void(window.open('http://www.plurk.com/?qualifier=shares&status=' .concat(encodeURIComponent(location.href)) .concat(' ') .concat('&#40;') .concat(encodeURIComponent(document.title)) .concat('&#41;') .concat(' via %40foxmosa')));" title="轉貼到噗浪！" onMouseover="this.style.color='#FFFF33';" onMouseout="this.style.color='#FFFFFF';">推到 Plurk!</div>
-    
-    <div class="fb-like" data-href="http://moztw.org/events/newyear2012/" data-send="true" data-width="400" data-show-faces="true" data-font="segoe ui"></div>
-  </div>
-  
-  <p>（只推送訊息內容 Share the message via SNS）</p>
-</div>
-
-</form>
 <!-- End of iframe -->
 
-<h3>活動資訊 Special Thanks</h3>
-<ul>
-	<li>Foxmosa New Year's Card by 電腦君, licensed under cc: by-nc-sa 2.0 TW.<br>
-	狐耳摩莎龍年卡，電腦君繪；以創用 CC 姓名標示-非商業性-相同方式分享 2.0 台灣授權，<br>圖片轉載時請標示作者與本頁網址。</li>
-	<li>活動企劃及網站設計 PM &amp; website： Irvin &amp; Peter</li>
-	<li>程式 Programming：toomore</li>
+<div id='share'>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <div class="fb-send" data-href="http://moztw.org/events/newyear2012/"></div>
+
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="http://moztw.org/foxmosa/images/foxmosa-2012newyear.png 2012 Happy Chinese New Year! 狐耳摩莎賀新年 http://moztw.org/events/newyear2012/ via @foxmosa" data-via="foxmosa">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    <a title="Share to Plurk" href="javascript:void(window.open('http://www.plurk.com/?qualifier=shares&status='.concat(encodeURIComponent(window.location.href)).concat(' ').concat('(').concat(encodeURIComponent(document.title)).concat(')')));">
+    <img class="plurk" title="share" src="http://statics.plurk.com/23d30a60b81915a637d1c3d2cd966a59.png" width="65" height="20" align="absmiddle" border="0" />
+    </a>
+
+
+</div>
+
+<h3>活動企劃 Event's info</h3>
+<ul id="ny-copyright">
+	<li><a href="http://blog.yam.com/ECBp/article/44076465" title="Illustrator: ECBp " target="_blank"><img src="E-CBlogo1.gif" alt="E-CB瀏覽器物語"/></a>
+	Foxmosa New Year's Card illustrated by ECBp, licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/tw/deed.en" target="_blank">CC: by-nc-sa 3.0 TW</a>. <br>
+	狐耳摩莎龍年賀卡：電腦君繪，以<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/tw/" target="_blank">創用 CC 姓名標示-非商業性-相同方式分享 3.0 台灣</a>授權，<br>圖片轉貼時請標示本頁網址。</li>
+	<li>活動企劃及網站設計 PM & Website： Irvin</li>
+	<li>程式 Program：toomore</li>
 </ul>
 
 <!--#include virtual="/inc/footer.html" -->
