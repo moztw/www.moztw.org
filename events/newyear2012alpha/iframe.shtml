@@ -149,10 +149,10 @@
 <body>
 
 <p id="limit">每日限量300封，寄完就沒有了喔！<br>
-Limited 300 cards /day, remaining n.</p>
+200 cards limited per day, N cards left.</p>
 
 <p id="limit-out">每日限量300封，本日已發送完畢，請明天再來喔！<br>
-Limited 300 cards /day, no remains today. Come back tomorrow!</p>
+ We're out of cards due to daily limits. Come back tomorrow!</p>
 
 <form>
     
