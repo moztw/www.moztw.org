@@ -1,21 +1,8 @@
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Indie+Flower">
 <!--#include virtual="/inc/meta.html" -->
 <style>
-    #header { 
-        background-image: -moz-linear-gradient(center top , #FF001C, #BD2610);
-    }
-    #header ul a, #header form #submit { 
-        background-image: -moz-linear-gradient(center top , #FF001C, #C12F10);
-    }
-    #header ul a:hover, #header form #submit:hover { 
-        background-image: -moz-linear-gradient(center top , #FF001C, #E13213);
-    }
-    p {
-        font-size: 1.1em;
-        line-height: 1.5em;
-        margin: 0 0 0.5em;
-        text-align: center;
-    }
     h1 {
+        font-family: Lucida Grande,sans-serif;
         margin: 1.5em 0 2em;
         text-align: center;
         text-shadow: 0 1px 1px #FBE127;
@@ -23,7 +10,60 @@
     h2 {
         text-align: left;
     }
-    
+    #header { 
+        background-image: -moz-linear-gradient(270deg, #FF001C, #BD2610);
+        background-image: -webkit-linear-gradient(270deg, #FF001C, #BD2610);
+        background-image: -ms-linear-gradient(270deg, #FF001C, #BD2610);
+        background-image: -o-linear-gradient(270deg, #FF001C, #BD2610);
+        box-shadow: 0 1px 2px yellow;
+    }
+    #header ul a, #header form #submit { 
+        background-image: -moz-linear-gradient(270deg, #FF0600, #BF0500);
+        background-image: -webkit-linear-gradient(270deg, #FF0600, #BF0500);
+        background-image: -ms-linear-gradient(270deg, #FF0600, #BF0500);
+        background-image: -o-linear-gradient(270deg, #FF0600, #BF0500);
+        border: 1px solid #BF0500;
+    }
+    #header li a {
+        border-bottom: none;
+    }
+    #header ul a:hover { 
+        background-image: -moz-linear-gradient(270deg, #FF001C, #BF0500);
+        background-image: -webkit-linear-gradient(270deg, #FF001C, #BF0500);
+        background-image: -ms-linear-gradient(270deg, #FF001C, #BF0500);
+        background-image: -o-linear-gradient(270deg, #FF001C, #BF0500);
+        margin-top: -2px;
+        padding-top: 5px;
+    }
+    #header ul a:active { 
+        background-image: -moz-linear-gradient(270deg, #BF0500, #FF001C);
+        background-image: -webkit-linear-gradient(270deg, #BF0500, #FF001C);
+        background-image: -ms-linear-gradient(270deg, #BF0500, #FF001C);
+        background-image: -o-linear-gradient(270deg, #BF0500, #FF001C);
+        margin-top: -2px;
+        padding-top: 5px;
+    }
+    #header form #submit {
+        padding-bottom: 2px;
+    }
+    #header form #submit:hover {
+        background-image: none;
+        background: #BF0500;
+        cursor: pointer;
+    }
+    p.msg {
+        color: crimson;
+        font-family: 'Indie Flower',serif;
+        font-size: 1.6em;
+        line-height: 1.3em;
+        margin: 0 0 0.5em;
+        text-align: center;
+        text-shadow: 1px 1px 1px #FBE127;
+    }
+    p.bold {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
     #share .twitter-share-button {
         position: relative;
         top: 3px;    
@@ -49,8 +89,11 @@
     }
 
     #ny-copyright img {
-        -moz-transition: all 0.3s ease 0s;
-        box-shadow: 5px 5px 5px #000000 inset;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        box-shadow: 5px 5px 5px black inset;
         float: right;
         margin-top: 5px;
         opacity: 0.4;
@@ -58,6 +101,9 @@
     #ny-copyright img:hover {
         opacity: 1;
         -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
     }
 </style>
 
@@ -69,8 +115,8 @@
 
 <h1>Happy Chinese New Year with Foxmosa! 2012 狐耳摩莎賀新年（Mockup測試中！）</h1>
 
-<p>迎春賀喜龍年到，讓狐耳摩莎為您送出新年誠摯的祝福。</p>
-<p>With best wishes from MozTW Community & Mozilla Taiwan.<br>
+<p class="msg bold">迎春賀喜龍年到，讓狐耳摩莎為您送出新年誠摯的祝福。</p>
+<p class="msg">With best wishes from MozTW Community & Mozilla Taiwan.<br>
 Send greeting cards to your friends, <br> 
 and celebrate Chinese Dragon New Year with Foxmosa!</p>
 
@@ -106,8 +152,8 @@ and celebrate Chinese Dragon New Year with Foxmosa!</p>
 	<li><a href="http://blog.yam.com/ECBp/article/44076465" title="Illustrator: ECBp " target="_blank"><img src="E-CBlogo1.gif" alt="E-CB瀏覽器物語"/></a>
 	Foxmosa New Year's Card illustrated by ECBp, licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/tw/deed.en" target="_blank">CC: by-nc-sa 3.0 TW</a>. <br>
 	狐耳摩莎龍年賀卡：電腦君繪，以<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/tw/" target="_blank">創用 CC 姓名標示-非商業性-相同方式分享 3.0 台灣</a>授權，<br>圖片轉貼時請標示本頁網址。</li>
-	<li>活動企劃及網站設計 PM & Website： Irvin</li>
-	<li>程式 Program：toomore</li>
+	<li>活動企劃及網站設計 PM & Website： <a href="http://irvin.sto.tw">Irvin</a></li>
+	<li>程式 Programming：<a href="http://blog.toomore.net/">toomore</a></li>
 </ul>
 
 <!--#include virtual="/inc/footer.html" -->
