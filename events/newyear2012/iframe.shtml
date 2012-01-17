@@ -84,6 +84,7 @@
         text-align: right; margin-top: 0.5em; 
     }
     #control, #control_capcha { 
+        margin-left: 100px;
         text-align: center; 
     }
     #control input, #control_capcha input { 
@@ -148,50 +149,56 @@
 
 <body>
 
-<p id="limit">每日限量300封，寄完就沒有了喔！<br>
-200 cards limited per day, N cards left.</p>
+<p id="limit">每日限量∞封，還剩下<b>∞</b>封，寄完就沒有了喔！<br>
+∞ cards limited per day, <b>∞</b> cards left.</p>
 
 <p id="limit-out">每日限量300封，本日已發送完畢，請明天再來喔！<br>
  We're out of cards due to daily limits. Come back tomorrow!</p>
 
-<form>
+<form action="/send" method="POST">
     
     <p id="mail-header">
-        收件人 To: <input type="email" name="recepMail" placeholder="收件人信箱 Recipient's e-mail" required /><br>
-        寄件人 From: <input type="email" name="sendMail" placeholder="你的信箱 Your e-mail" required /><br>
+        收件人 To: <input type="email" name="tomail" placeholder="收件人信箱 Recipient's e-mail" required /><br>
+        寄件人 From: <input type="email" name="sendmail" placeholder="你的信箱 Your e-mail" required /><br>
+
         主旨 Subject: <input type="text" name="subject" value="Chinese New Year Greetings! 2012 龍年快樂" required />
     </p>
+
     
     <table id="card">
         <tr>
             <td>
-                <p id="dear">Dear <input type="text" name="recepName" placeholder="收件人姓名 Recipient" required /> ,</p>
-                <a href="http://moztw.org/events/newyear2012/" target="_blank"><img src="/foxmosa/images/foxmosa-2012newyear.png" width="600" height="393" alt="Foxmosa 2012 New Year Card" /></a>
-                <textarea maxlength="300" placeholder="卡片內容 Your message"></textarea>
-                <p id="senderName">~ <input type="text" name="sendName" placeholder="你的名字 Your Name" required /></p>            
+                <p id="dear">Dear <input type="text" name="toname" placeholder="收件人姓名 Recipient" required /> ,</p>
+
+                <a href="http://moztw.org/events/newyear2012/" target="_blank"><img src="http://moztw.org/foxmosa/images/foxmosa-2012newyear.png" width="600" height="393" alt="Foxmosa 2012 New Year Card" /></a>
+                <textarea name="say" maxlength="300" placeholder="卡片內容 Your message"></textarea>
+                <p id="senderName">~ <input type="text" name="sendname" placeholder="你的名字 Your Name" required /></p>            
             </td>
+
         </tr>
     </table>
     
-    <div id='control'>
-        <input type="reset" value="重置 Reset" /><input type="submit" value="寄出 Submit" /><br>
-    </div>
-    
-    <div id='control-out'>
-        <input type="reset" value="重置 Reset" disabled /><input type="submit" value="寄出 Submit" disabled /><br>
-    </div>
+  <div id='control'>
+    <input type="reset" value="重置 Reset" /><input type="button" value="寄出 Submit" onclick="javascript:document.getElementById('recaptcha_holder').style.display = 'block';document.getElementById('control').style.display = 'none';">
 
-</form>
+  </div>
+  <div id="CAPT" style="display:none;">
+    <input type="submit" value="寄出 Send" />
+  </div>
 
 <div id='recaptcha_holder'>
+    <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdtN8wSAAAAACw4KwmQ1FRoyguSknr9buwDiE_G"></script>
 
-    <script src="http://www.google.com/recaptcha/api/challenge?k=6LdtN8wSAAAAACw4KwmQ1FRoyguSknr9buwDiE_G" type="text/javascript"></script>
-
+<noscript>
+  <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdtN8wSAAAAACw4KwmQ1FRoyguSknr9buwDiE_G" height="300" width="500" frameborder="0"></iframe><br />
+  <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+  <input type='hidden' name='recaptcha_response_field' value='manual_challenge' />
+</noscript>
+<br>
 
     <div id='control_capcha'>
-        <input type="button" value="確定 Send it!" /><input type="button" value="取消 Cancel" /><br>
+        <input type="submit" value="確定 Send it!" /><input type="button" value="取消 Cancel" onclick="javascript:document.getElementById('recaptcha_holder').style.display = 'none';document.getElementById('control').style.display = 'block';" /><br>
     </div>
 </div>
-
-
+</form>
 </body>
