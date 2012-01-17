@@ -1,5 +1,5 @@
-<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Indie+Flower">
 <!--#include virtual="/inc/meta.html" -->
+<link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Indie+Flower">
 <style>
     h1 {
         font-family: Lucida Grande,sans-serif;
@@ -64,14 +64,29 @@
         font-weight: bold;
         font-size: 1.5em;
     }
+    
+    #share { 
+        float: right;
+        position: relative;
+        text-align: right;
+        top: 10px;
+    }
+    
     #share .twitter-share-button {
         position: relative;
-        top: 3px;    
+        right: 165px;
+        top: 3px; 
     }
     
     #share .plurk {
         position: relative;
-        top: -4px;
+        right: 80px;
+        top: -2px;
+    }
+    
+    #share .fb_edge_widget_with_comment{
+        position: relative;
+        top: -24px;
     }
 
     iframe {
@@ -79,13 +94,6 @@
         height: 1025px;
         padding: 0;
         width: 100%;
-    }
-
-    #share { 
-        float: right;
-        position: relative;
-        text-align: right;
-        top: 6px;
     }
 
     #ny-copyright img {
@@ -109,8 +117,14 @@
         margin: 0 0 0 2em;
     }
 </style>
+<meta property="og:title" content="Happy Chinese New Year with Foxmosa! 2012 狐耳摩莎賀新年" />
+<meta property="og:type" content="activity" />
+<meta property="og:url" content="http://moztw.org/events/newyear2012/" />
+<meta property="og:image" content="http://moztw.org/foxmosa/images/foxmosa-2012newyear.png" />
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community" />
+<meta property="fb:admins" content="1820041029" />
 
-<title>2012 Happy New Year! 狐耳摩莎賀新年 - MozTW</title>
+<title>Happy Chinese New Year with Foxmosa! 2012 狐耳摩莎賀新年 - MozTW</title>
 
 <!--#include virtual="/inc/class_press.html" -->
 
@@ -130,7 +144,16 @@ and celebrate Chinese Dragon New Year with Foxmosa!</p>
 <!-- End of iframe -->
 
 <div id='share'>
+    <!--twitter-->
+    <a href="https://twitter.com/share" class="twitter-share-button" data-text="http://moztw.org/foxmosa/images/foxmosa-2012newyear.png Happy Chinese New Year with Foxmosa! 2012 狐耳摩莎賀新年 http://moztw.org/events/newyear2012/" data-via="foxmosa">Tweet</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
+    <!--plurk-->
+    <a class="plurk" title="Share to Plurk" href="javascript:void(window.open('http://www.plurk.com/?qualifier=shares&status=http://moztw.org/foxmosa/images/foxmosa-2012newyear.png http://moztw.org/events/newyear2012/ (Happy Chinese New Year with Foxmosa ! 2012 狐耳摩莎賀新年) via @foxmosa'));">
+    <img class="plurk" title="share" src="http://statics.plurk.com/23d30a60b81915a637d1c3d2cd966a59.png" width="65" height="20" align="absmiddle" border="0" />
+    </a>
+    
+    <!--fb-->
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -139,15 +162,7 @@ and celebrate Chinese Dragon New Year with Foxmosa!</p>
       js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
-    <div class="fb-send" data-href="http://moztw.org/events/newyear2012/"></div>
-
-    <a href="https://twitter.com/share" class="twitter-share-button" data-text="http://moztw.org/foxmosa/images/foxmosa-2012newyear.png Happy Chinese New Year with Foxmosa! 2012 狐耳摩莎賀新年 http://moztw.org/events/newyear2012/" data-via="foxmosa">Tweet</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-    <a title="Share to Plurk" href="javascript:void(window.open('http://www.plurk.com/?qualifier=shares&status='.concat(encodeURIComponent(window.location.href)).concat(' ').concat('(').concat(encodeURIComponent(document.title)).concat(')')));">
-    <img class="plurk" title="share" src="http://statics.plurk.com/23d30a60b81915a637d1c3d2cd966a59.png" width="65" height="20" align="absmiddle" border="0" />
-    </a>
-
+    <div class="fb-like" data-href="http://moztw.org/events/newyear2012/" data-send="true" data-layout="button_count" data-width="135" data-show-faces="false"></div>
 </div>
 
 <h3>活動企劃 Event info</h3>
