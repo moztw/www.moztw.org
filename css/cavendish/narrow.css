@@ -1,3 +1,17 @@
+
+#front-feature:hover #ny2012, #front-feature:active #ny2012 {
+    right: 25px !important;
+    top: 65px !important;
+    width: 80% !important;
+}
+
+#front-feature:hover #ny2012txt, #front-feature:active #ny2012txt {
+    bottom: -25px !important;
+    padding: 5px 0 50px !important;
+    right: 0;
+    width: 100%;
+}
+
 .frontcolumn,.frontcolumndouble,.frontcolumnlast {
 	width: 100%;
 	padding:0;

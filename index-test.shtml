@@ -1,0 +1,244 @@
+<!--#include virtual="/inc/meta.html" -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--#include virtual="/inc/title.html" -->
+<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+<link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan Community News" href="http://moztw.org/xmlnews.rdf" />
+<style type="text/css">
+<!--
+.front-feature { 
+    position: relative;
+    background-color: #E4ECEC;
+    overflow: hidden;
+}
+.mobile-header { text-shadow:1px 1px 1px #d44000, 1px 1px 2px #fbba20; }
+/*1px 1px 2px #555;*/ 
+#planets ul {
+	padding-left: 1.5em; margin-top: 0.5em;
+}
+#planets ul li {
+	margin-bottom: 1em;
+}
+
+#front-feature #feature-content {
+    background: none;
+}
+#ny2012 {
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -it-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -moz-transform: rotate(-19deg);
+    -webkit-transform: rotate(-19deg);
+    -ie-transform: rotate(-19deg);
+    -o-transform: rotate(-19deg);
+
+    background: none repeat scroll 0 0 #C80000;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.66);
+    padding: 10px !important;
+    position: absolute;
+    right: -175px;
+    top: -55px;
+    width: 38%;
+}
+
+#front-feature:hover #ny2012, #front-feature:active #ny2012 {
+    -moz-transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+    -ie-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    -moz-transition: all 0.5s ease-in-out 0.2s;
+    -webkit-transition: all 0.5s ease-in-out 0.2s;
+    -ie-transition: all 0.5s ease-in-out 0.2s;
+    -o-transition: all 0.5s ease-in-out 0.2s;
+    position: absolute;
+    right: 50px;
+    top: -5px;
+    width: 40%;
+}
+
+#ny2012 a:hover {
+    text-decoration: none;
+    background: none;
+}
+#ny2012 img {
+    box-shadow: 0 1px 4px #333333;
+    width: 100%;
+}
+#ny2012txt {
+    -moz-transform: rotate(-3deg) rotateY(270deg);
+    -webkit-transform: rotate(-3deg) rotateY(270deg);
+    -ie-transform: rotate(-3deg) rotateY(270deg);
+    -o-transform: rotate(-3deg) rotateY(270deg);
+    -moz-transition: all 0.7s ease-in-out 0s;
+    -webkit-transition: all 0.7s ease-in-out 0s;
+    -ie-transition: all 0.7s ease-in-out 0s;
+    -o-transition: all 0.7s ease-in-out 0s;
+    background: none repeat scroll 0 0 rgba(50, 50, 50, 0.75);
+    bottom: -100px;
+    opacity: 0;
+    padding: 10px 60px 60px 100% !important;
+    position: absolute;
+    right: -105px;
+    width: 42%;
+}
+#front-feature:hover #ny2012txt, #front-feature:active #ny2012txt {
+    -moz-transform: rotate(-9deg) rotateY(360deg);
+    -webkit-transform: rotate(-9deg) rotateY(360deg);
+    -ie-transform: rotate(-9deg) rotateY(360deg);
+    -o-transform: rotate(-9deg) rotateY(360deg);
+    -moz-transition: all 0.5s ease-out 0.3s;
+    -webkit-transition: all 0.5s ease-out 0.3s;
+    -ie-transition: all 0.5s ease-out 0.3s;
+    -o-transition: all 0.5s ease-out 0.3s;
+    bottom: -100px;
+    opacity: 1;
+}
+#ny2012txt p {
+    color: white;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0;
+    padding-left: 15%;
+    font-family: "Heiti TC", "Hiragino Kaku Gothic Pro", "WenQuanYi Micro Hei", "Droid Sans Fallback", "Microsoft JhengHei", "WenQuanYi Zen Hei", sans-serif;
+    text-shadow: 1px 1px 2px #FBE127;
+}
+#ny2012txt p.s {
+    font-size: 16px;
+}
+
+-->
+</style>
+<!--#include virtual="/inc/class_homepage.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+<div class="key-point front-feature" id="front-feature">
+  <div id="feature-content">  
+    <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox" height="60" width="200"></a></h2>
+    <p>全新外觀、速度超快，<a href="/firefox/">Firefox</a> 讓一切都變得更加美好！</p>
+    <div class="download">
+		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox</strong></a></h3>
+ 		<div style='background: url(/images/product-download-firefox.png) no-repeat;margin-top: 5px;'>
+		<!--#include virtual="/inc/dlff.html" -->
+		</div>
+    </div>
+    <a href='/events/newyear2012/'>
+        <div id='ny2012'><img src='/foxmosa/images/foxmosa-2012newyear.png' alt='2012狐耳摩莎賀年卡活動'></div>
+        <div id='ny2012txt'><p>狐耳摩莎喜賀年</p><p class='s'>龍年行大運，寄張賀卡分享祝福！</p></div>
+    </a>
+
+  </div>
+</div>
+
+<div id="mBody">
+  <div class="frontcolumn hide" id="mobile-feature-ios">
+      <h2 class="mobile-header"><a href="http://www.mozilla.com/zh-TW/mobile/home/">Firefox Home<img src="/images/product-firefox-homn.png" alt="Firefox Home" class="promo" width="63" height="64"></a></h2>
+	  <p><b>行動首頁帶著走。</b>在 iPhone 上任意取用 Firefox 的瀏覽歷史及書籤，時時同步開啟分頁，喜歡的網站隨時都在您手邊！<br>→ <a href="http://m.youtube.com/#/watch?v=_rFf5BnurVI">Firefox Home 迷你短片</a></p>
+  </div>
+  <div class="frontcolumn hide" id="mobile-feature-android">
+      <h2 class="mobile-header"><a href="http://moztw.org/m/">行動版 Firefox<img src="/images/Pocketfox.png" alt="'Pocketfox' created by yaroslaff_che cc: by-nc-sa http://creative.mozilla.org/designs/346" class="promo" width="64" height="64"></a></h2>
+	  <p><b>帶著 Firefox 趴趴走。</b>無縫同步電腦與 Android/Maemo 行動裝置，智慧畫面讓您輸入更少、更快打開想看的網站。安裝套件與佈景主題，把行動版 Firefox 也打造成您的樣子！<br>→ 看看 <a href="http://m.youtube.com/#/watch?v=zCe_1DxBQDc">介紹 Firefox for Android</a> 短片</p>
+  </div>
+  <div class="frontcolumn" id="feature-thunderbird">
+      <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo" width="64" height="64"></a></h2>
+	  <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
+  </div>
+  <div class="frontcolumn hide">
+    <h2><a href="https://demos.mozilla.org/">Web O’ Wonder<img src="/images/HTML5_Badge_64.png" alt="HTML5 Logo" width="64" height="64" border="0" class="promo"></a></h2>
+    <p>立刻造訪 <a href="https://demos.mozilla.org/">Mozilla 奇幻網路</a>，看看設計師們透過 HTML5 &amp; WebGL 的技術，所打造出各種無與倫比的網路旅程！</p>
+  </div>
+  <div class="frontcolumn">
+    <h2><a href="/contribute/">參與我們<img width="64" height="64" border="0" alt="" class="promo" src="/images/toy_gold_32.png"></a></h2>
+	<p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！</p>
+  </div>
+  <div class="frontcolumnlast">
+    <h2><a href="/twoffice/">美商謀智公司徵人啟事<img width="64" height="64" border="0" alt="" class="promo" src="/images/Pocketfox.png"></a></h2>
+	<p>如果你正在尋找充滿挑戰與機會的國際舞台，<a href="/twoffice/">歡迎加入 Mozilla 台北分公司</a>，共同參與網路的另一個轉捩點！</p>
+  </div>
+  </div>
+  <br style="clear: both;">
+
+  <!-- Start News Columns -->
+
+
+<div>
+    <div class="frontcolumndouble" id="news_columns">
+    <a href="/xmlnews.rdf">
+      <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16">
+    </a>
+    <h2>
+      <a href="/news">最新消息與公告</a>
+    </h2>
+	<!--#include virtual="/inc/news.html" -->
+	</ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
+    </div>
+    <div class="frontcolumnlast">
+	  <h2>快速捷徑</h2>
+    <ul class="news">
+      <li><a href="http://gfx.tw/">gfx.tw 抓火狐</a></li>
+      <li><a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
+    	<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
+    	<li><a href="/events/">主題活動</a></li>
+    	<li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
+    	<li><a href="http://wiki.moztw.org/index.php/%E7%B6%B2%E8%B7%AF%E8%B3%87%E6%BA%90">網路資源</a></li>
+      <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/">Firefox 未來發行版本</a></li>
+    </ul>
+    </div>
+	<br style="clear: both;">
+  <!-- End News Columns -->  
+  </div>
+	<a href='news'>所有公告記錄</a>
+  </div>
+<script type="text/javascript" 
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script type="text/javascript">
+/*
+ * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
+ *
+ * Copyright (c) 2009 jQuery HowTo
+ *
+ * Licensed under the GPL license:
+ *   http://www.gnu.org/licenses/gpl.html
+ *
+ * URL:
+ *   http://jquery-howto.blogspot.com
+ *
+ * Author URL:
+ *   http://me.boo.uz
+ *
+ */
+(function($){$.extend({jGFeed:function(url,fnk,num,key){if(url==null){return 
+false;}var 
+gurl="http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;if(num!=null){gurl+="&num="+num;}if(key!=null){gurl+="&key="+key;}$.getJSON(gurl,function(data){if(typeof 
+fnk=="function"){ if 
+(data.responseData)fnk.call(this,data.responseData.feed);else 
+fnk.call(this,false);}else{return false;}});}});})(jQuery);
+</script>
+<script type="text/javascript">
+(function ($) {
+	$.jGFeed(
+		'http://planet.moztw.org/atom.xml',
+		function (feed) {
+			$(function () {
+				
+$('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').after(
+	'<div id="planets" class="frontcolumn"><a href="http://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"></a><h2><a href="http://planet.moztw.org/">摩茲工寮</a></h2><ul /></div>'
+				);
+				$ul = $('#planets ul');
+				$.each(
+					feed.entries,
+					function (i, o) {
+						$ul.append(
+							'<li><a href="' 
++ o.link + '">' + o.title.substr(o.title.indexOf(':') + 2)  + '</a> &ndash; ' + o.title.substr(0, o.title.indexOf(':')) + '</li>'
+						);
+					}
+				);
+			});
+		},
+		5
+	);
+})(jQuery);
+</script>
+<!--#include virtual="/inc/footer.html" -->
