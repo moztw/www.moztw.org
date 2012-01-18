@@ -60,6 +60,14 @@
         text-align: center;
         text-shadow: 1px 1px 1px #FBE127;
     }
+    p.msg a {
+        color: crimson;
+        text-decoration: underline;
+    }
+    p.msg a:hover {
+        color: crimson;
+        background: #FDF8E0;
+    }
     p.bold {
         font-weight: bold;
         font-size: 1.5em;
@@ -135,7 +143,7 @@
 <p class="msg bold">迎春賀喜龍年到，讓狐耳摩莎為您送出新年誠摯的祝福。</p>
 <p class="msg">With best wishes from MozTW Community & Mozilla Taiwan.<br>
 Send greeting cards to your friends, <br> 
-and celebrate Chinese Dragon New Year with Foxmosa!</p>
+and celebrate Chinese Dragon New Year with <a href='http://mozillalinks.org/2009/02/meet-foxmosa-firefox-taiwanese-mascot/' target="_blank" title='our moscot'>Foxmosa</a>!</p>
 
 <!-- Begin of iframe-->
 
