@@ -1,4 +1,24 @@
+/* sopa */
+#sopa a.close {
+    font-size: 18px !important;
+    text-shadow: none !important;
+}
+#sopa h2 {
+    font-size: 30px !important; 
+    line-height: 40px !important;
+    margin-top: 26px !important;
+}
+#sopa p {
+    margin-top: 5px;
+    font-size: 16px !important;
+    line-height: 30px !important;
+    text-shadow: none !important;
+}
+#front-feature {
+    padding-bottom: 220px !important;
+}
 
+/* newyear 2012 */
 #front-feature:hover #ny2012, #front-feature:active #ny2012 {
     right: 25px !important;
     top: 65px !important;
@@ -6,9 +26,8 @@
 }
 
 #front-feature:hover #ny2012txt, #front-feature:active #ny2012txt {
-    bottom: -25px !important;
-    padding: 5px 0 50px !important;
-    right: 0;
+    bottom: -100px !important;
+    right: -145px;
     width: 100%;
 }
 
