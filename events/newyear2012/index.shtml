@@ -128,9 +128,12 @@
 <meta property="og:title" content="Happy Chinese New Year with Foxmosa! 2012 狐耳摩莎賀新年" />
 <meta property="og:type" content="activity" />
 <meta property="og:url" content="http://moztw.org/events/newyear2012/" />
-<meta property="og:image" content="http://moztw.org/foxmosa/images/foxmosa-2012newyear.png" />
+<meta property="og:image" content="http://moztw.org/events/newyear2012/foxmosa-2012ny.png" />
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community" />
 <meta property="fb:admins" content="1820041029" />
+<meta property="og:description" content="With best wishes from MozTW Community & Mozilla Taiwan. Send greeting cards to your friends, and celebrate Chinese Dragon New Year with Foxmosa!" />
+<meta property="og:locale" content="zh_TW" />
+<meta property="og:locale:alternate" content="en_US" />
 
 <title>Happy Chinese New Year with Foxmosa! 2012 狐耳摩莎賀新年 - MozTW</title>
 
