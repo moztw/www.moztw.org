@@ -1,23 +1,3 @@
-/* sopa */
-#sopa a.close {
-    font-size: 18px !important;
-    text-shadow: none !important;
-}
-#sopa h2 {
-    font-size: 26px !important; 
-    line-height: 40px !important;
-    margin-top: 26px !important;
-}
-#sopa p {
-    margin-top: 5px;
-    font-size: 16px !important;
-    line-height: 24px !important;
-    text-shadow: none !important;
-}
-#front-feature {
-    padding-bottom: 200px !important;
-}
-
 /* newyear 2012 */
 #front-feature:hover #ny2012, #front-feature:active #ny2012 {
     right: 25px !important;

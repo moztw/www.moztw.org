@@ -244,51 +244,6 @@
     animation-iteration-count: infinite;
     animation-delay: 3s;
 }
-#sopa {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.85);
-    font-family: "Heiti TC","Hiragino Kaku Gothic Pro","WenQuanYi Micro Hei","Droid Sans Fallback","Microsoft JhengHei","WenQuanYi Zen Hei",sans-serif !important;
-    height: 100%;
-    left: 0;
-    max-width: 70em;
-    padding: 12px 20px 10px !important;
-    position: absolute;
-    top: 0;
-}
-#sopa h2 {
-    color: white;
-    font-family: "Heiti TC","Hiragino Kaku Gothic Pro","WenQuanYi Micro Hei","Droid Sans Fallback","Microsoft JhengHei","WenQuanYi Zen Hei",sans-serif !important;
-    font-size: 52px;
-    font-weight: bold;
-    line-height: 70px;
-    text-shadow: 0 0 5px #AAAAAA;
-}
-#sopa p {
-    color: #FDFDFD;
-    font-size: 23px;
-    line-height: 40px;
-    text-align: justify;
-    text-shadow: 0 1px 2px #999999;
-}
-#sopa p a {
-    color: wheat;
-}
-#sopa a {
-    color: yellow;
-}
-#sopa a:hover, #sopa .more:hover {
-    background-color: #3A3A3A;
-}
-#sopa a.close {
-    position: absolute; 
-    right: 20px; 
-    top: 15    px;
-    font-size: 1.2em;
-    text-decoration: none;
-}
-#sopa span.more {
-    float: right;
-    font-size: 0.8em;
-}
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
@@ -320,10 +275,6 @@
         </div>
     </div>
     <div id='ny2012hint'>↑小莎躲哪裡去了呢？</div>
-    <div id='sopa'>
-        <a class='close' href="#"><span>[繼續瀏覽 MozTW 網頁]</span></a><h2>反對網際網路言論審查</h2>
-        <p>MozTW 在此聲援 <a href="http://www.mozilla.org/sopa/" target="_blank">Mozilla</a> 及所有網路自由鬥士：正於美國國會審議之 <abbr title="Stop Online Piracy Act，反網路盜版法案">SOPA</abbr> 及 <abbr title="Protect IP Act，保護智財權法案">PIPA</abbr> 法案，以保護智財權之名、阻擋網站瀏覽之手段，要求內容服務網站（如社群網站、搜索引擎）進行自我審查，有限縮言論自由、危害網路發展之虞，且與 <a href='http://www.mozilla.org/about/manifesto.zh-tw.html'>Mozilla 宣言</a>「網際網路應保持開放」之核心價值相悖，我們反對 SOPA、PIPA 及任何型態之網際網路言論審查。<a href='http://www.google.com.tw/#q=sopa' target="_blank"><span class='more'>→ 查詢相關資訊</span></a></p>
-    </div>
   </div>
 </div>
 
@@ -437,7 +388,6 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 	);
 })(jQuery);
 
-
 //CSS Animation detection on MDN:
 //https://developer.mozilla.org/en/CSS/CSS_animations/Detecting_CSS_animation_support
 (function($){
@@ -462,20 +412,9 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
         }  
       }  
     } 
-    
+
     if (animation) $('#front-feature').addClass('ani');
     
-      
-// close sopa info
-
-$('#sopa a.close').click(function() {
-    $('#sopa').slideUp('slow');
-});
-  
-
 })(jQuery);
-
-
-
 </script>
 <!--#include virtual="/inc/footer.html" -->
