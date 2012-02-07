@@ -15,64 +15,101 @@
 	<div id="mainContent">
 		<div id="fnRequiresments">
 			<h2>Firefox 行動版系統需求</h2>
-			<p>Firefox 可於 Android （2.0 或更新版）以及 Nokia N900 手機使用。</p>
+			<p>Firefox 可於 Android （2.1 或更新版）使用。</p>
 
 			<h3>支援裝置</h3>
 			<p>下列是經過測試，確認支援 Firefox 的行動裝置清單</p>
 
-			<h6>Maemo</h6>
-			<ul>
-				<li>Nokia N900</li>
-			</ul>
-
 			<h6>Android</h6>
 			<ul>
-				<li>Firefox 與 Android 2.0 或更新版本的裝置相容。</li>
-				<li>需要大約 17MB 的內部儲存或記憶卡空間，以及 512 MB 的記憶體。</li>
+				<li>Firefox 與 Android 2.1 或更新版本的裝置相容。</li>
+				<li>需要大約 17MB 的內部儲存或記憶卡空間，以及 512MB 的記憶體。</li>
 			</ul>
 													
 			<h6>經過測試可用的裝置</h6>
-			<ul>
+			<div id="phones">
+			<ul>手機
+				<li>HTC<ul>
+					<li>HTC Amaze 4G</li>
+					<li>Desire</li>
+					<li>Desire S</li>
+					<li>Desire Z (T-Mobile G2)</li>
+					<li>Desire HD (AT&amp;T Inspire 4G)</li>
+					<li>Droid Bionic</li>
+					<li>Droid Incredible</li>
+					<li>EVO 3D</li>
+					<li>EVO 4G</li>
+					<li>EVO Shift 4G</li>
+					<li>Glacier (T-Mobile myTouch 4G)</li>
+					<li>Incredible S (HTC Droid Incredible 2)</li>
+					<li>Nexus One</li>
+					<li>Raider 4G LTE</li>
+					<li>Sensation (HTC Pyramid)</li>
+					<li>Sensation 4G</li>
+					<li>Thunderbolt 4G</li></ul></li>
+				<li>Huawei Impulse 4G</li>
+				<li>Kyocera M9300 (Echo)</li>
+				<li>LG<ul>
+					<li>G2X (T-Mobile P999)</li>
+					<li>Optimus 2X</li>
+					<li>Optimus 3G</li>
+					<li>Optimus Black (P970)</li>
+					<li>Optimuz Z</li>
+					<li>Thrill 4G</li></ul></li>
+				<li>Motorola<ul>
+					<li>Atrix 4G</li>
+					<li>Bravo</li>
+					<li>Cliq 2</li>
+					<li>Defy</li>
+					<li>Droid 2, Droid 2 Global</li>
+					<li>Droid 3</li>
+					<li>Droid Pro</li>
+					<li>Droid X</li>
+					<li>Droid X2</li>
+					<li>Flipside MB508</li>
+					<li>Photon 4G (MB855)</li>
+					<li>XT860 4G</li></ul></li>
+				<li>NEC Medias WP N-06C (NTT Docomo)</li>
+				<li>Samsung<ul>
+					<li>4G LTE SCH-i520/Inspiration/Droid Charge/Stealth V</li>
+					<li>Continuum (i400)</li>
+					<li>Infuse 4G</li>
+					<li>Galaxy Nexus</li>
+					<li>Galaxy S (i9000, Captivate, Fascinate, Vibrant, Epic 4G)</li>
+					<li>Galaxy S2</li>
+					<li>Nexus S</li></ul></li>
+				<li>Sharp<ul>
+					<li>Aquos SH-12C (NTT Docomo)</li>
+					<li>Galapagos 003SH</li>
+					<li>Galapagos 005SH</li></ul></li>
+				<li>Sony Ericsson<ul>
+					<li>Xperia PLAY R800 / R800i (SE Zeus)</li>
+					<li>Xperia NEO</li></ul></li>
+				<li>T-Mobile SGH-T839 (Sidekick 4G)</li>
+			</ul>
+			</div>
+			<div id="tablets">
+			<ul>平板裝置
 				<li>Acer Iconia Tab A500</li>
+				<li>Asus EEE Pad Transformer Tablet</li>
 				<li>Advent Vega (P10AN01)</li>
-				<li>Dell Streak</li>
-				<li>Dell Streak 7</li>
-				<li>HTC Desire</li>
-				<li>HTC Desire S</li>
-				<li>HTC Desire Z (T-Mobile G2)</li>
-				<li>HTC Desire HD (AT&amp;T Inspire 4G)</li>
-				<li>HTC Droid Incredible</li>
+				<li>Archos 101 Internet Tablet</li>
+				<li>Dell<ul>
+					<li>Streak</li>
+					<li>Streak 7</li></ul></li>
 				<li>HTC Flyer</li>
-				<li>HTC EVO 4G</li>
-				<li>HTC EVO Shift 4G</li>
-				<li>HTC Glacier (T-Mobile myTouch 4G)</li>
-				<li>HTC Incredible S (HTC Droid Incredible 2)</li>
-				<li>HTC Nexus One</li>
-				<li>HTC Thunderbolt 4G</li>
 				<li>Huawei Ideos S7</li>
-				<li>LG Optimus 2X</li>
-				<li>LG Optimus Black (P970)</li>
-				<li>LG Optimuz Z</li>
-				<li>Motorola Atrix 4G</li>
-				<li>Motorola Bravo</li>
-				<li>Motorola Defy</li>
-				<li>Motorola Droid 2, Droid 2 Global</li>
-				<li>Motorola Droid Pro</li>
-				<li>Motorola Droid X</li>
+				<li>Kindle Fire</li>
 				<li>Motorola Xoom</li>
 				<li>POV Mobii Tegra Tablet</li>
-				<li>Samsung 4G LTE SCH-i520/Inspiration/Droid Charge/Stealth V</li>
-				<li>Samsung Continuum (i400) </li>
-				<li>Samsung Galaxy S (i9000, Captivate, Fascinate, Vibrant, Epic 4G)</li>
-				<li>Samsung Galaxy S2</li>
-				<li>Samsung Galaxy Tab</li>
-				<li>Samsung Galaxy Tab 10.1</li>
-				<li>Samsung Nexus S</li>
-				<li>Sharp Galapagos 003SH</li>
-				<li>Sharp Galapagos 005SH</li>
+				<li>Samsung<ul>
+					<li>Galaxy Note</li>
+					<li>Galaxy Tab</li>
+					<li>Galaxy Tab 10.1</li></ul></li>
 				<li>Viewsonic gTablet</li>
 			</ul>
-			<p>您可以參考 MozillaWiki 上的 <a href="https://wiki.mozilla.org/Mobile/Platforms/Android#System_Requirements">系統需求列表</a> 以取得更完整的支援與未支援裝置清單。</p>
+			</div>
+			<p>您可以參考 Mozilla Wiki 上的 <a href="https://wiki.mozilla.org/Mobile/Platforms/Android#System_Requirements">系統需求列表</a> 以取得更完整的支援與未支援裝置清單。</p>
 		</div>
 		<!-- closes #fnRequiresments -->
 		
