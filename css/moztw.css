@@ -1,17 +1,17 @@
 /* Mozilla Taiwan special overriding */
 pre, code {
-	font-family: "Lucida Console", "MingLi", "MingLiu", "Courier New", Courier, monospace;
+	font-family: "Lucida Console", "MingLiu", "Courier New", Courier, monospace;
 }
 
 acronym {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .dlall div {
 	float: left;
 	margin: 5px;
 	display: block;
-	border: 1px solid #aaa
+	border: 1px solid #aaa;
 	padding: 7px;
 }
 .dlall br {
@@ -65,23 +65,23 @@ div#firefox-feature div.download{
 
 /* new logo */
 #header h1 a {
-		background: transparent url("/images/header_logo3.png") no-repeat;
-		width: 354px;
-		height: 65px;
+	background: transparent url("/images/header_logo3.png") no-repeat;
+	width: 354px;
+	height: 65px;
 }
 
 .article {
-  font-size: 16px;
-  line-height: 150%;
+	font-size: 16px;
+	line-height: 150%;
 }
 .article img {
-  margin: 0.5em;
+	margin: 0.5em;
 }
 .article img.r {
-  float: right;
+	float: right;
 }
 .article img.l {
-  float: left;
+	float: left;
 }
 
 #header form #cjk {
@@ -97,12 +97,15 @@ div#firefox-feature div.download{
 	font-family: courier, mono;
 }
 
-
 /* fix up */
 .download strong {
 	color: #290;
 }
-a#featurelink { background: none;  }
+
+a#featurelink { 
+	background: none;  
+}
+
 #firefox-feature li a {
 	padding: 1px 0 1px 5px;
 	margin-left: 40px;
@@ -117,53 +120,55 @@ a#featurelink { background: none;  }
 }
 
 .firefox-releasenotes {
-    background: url("/images/releasenotes-firefox.png") no-repeat;
-    padding-top: 70px !important;
-    width: 100% !important;
+	background: url("/images/releasenotes-firefox.png") no-repeat;
+	padding-top: 70px !important;
+	width: 100% !important;
 }
+
 .firefox-releasenotes-v2 {
 	background: url("/images/releasenotes-firefox-2.png") no-repeat;
 	padding-top: 70px !important;
-    width: 100% !important;
+	width: 100% !important;
 }
+
 .firefox-releasenotes-v3 {
 	background: url("/images/releasenotes-firefox-3.gif") no-repeat;
 	padding-top: 70px !important;
-    width: 100% !important;
+	width: 100% !important;
 }
 
 .firefox-releasenotes-v35 {
         background: url("/images/releasenotes-firefox-35.png") no-repeat;
         padding-top: 70px !important;
-    width: 100% !important;
+	width: 100% !important;
 }
 
 .firefox-releasenotes-v36 {
         background: url("/images/releasenotes-firefox-36.png") no-repeat;
         padding-top: 70px !important;
-    width: 100% !important;
+	width: 100% !important;
 }
 
 .firefox-releasenotes-beta {
-    background: url("/images/releasenotes-firefox-beta.png") no-repeat;
-    padding-top: 70px !important;
-    width: 100% !important;
+	background: url("/images/releasenotes-firefox-beta.png") no-repeat;
+	padding-top: 70px !important;
+	width: 100% !important;
 }
 
 .thunderbird-releasenotes {
-    background: url("/images/releasenotes-thunderbird.png") no-repeat;
-    padding-top: 70px !important;
-    width: 100% !important;
+	background: url("/images/releasenotes-thunderbird.png") no-repeat;
+	padding-top: 70px !important;
+	width: 100% !important;
 }
 
 .thunderbird-releasenotes-v2 {
-    background: url("/images/releasenotes-thunderbird-2.png") no-repeat;
-    padding-top: 70px !important;
-    width: 100% !important;
+	background: url("/images/releasenotes-thunderbird-2.png") no-repeat;
+	padding-top: 70px !important;
+	width: 100% !important;
 }
 
 .important101text {
-    color: #FF0000;
+	color: #FF0000;
 }
 
 .news .date {
@@ -174,32 +179,31 @@ body.sectionDocs li#menu_docs a,
 body.sectionForum li#menu_forum a,
 body.sectionWiki li#menu_wiki a,
 body.sectionLinks li#menu_links a {
-    background-position: 0% -200px;
-    color: #039;
+	background-position: 0% -200px;
+	color: #039;
 }
 
 body.sectionDocs li#menu_docs,
 body.sectionForum li#menu_forum ,
 body.sectionWiki li#menu_wiki,
 body.sectionLinks li#menu_links {
-    background-position: 100% -200px;
-    border-bottom: 1px solid #fff;
+	background-position: 100% -200px;
+	border-bottom: 1px solid #fff;
 }
 
 body.sectionDocs li#menu_docs:hover,
 body.sectionForum li#menu_forum :hover,
 body.sectionWiki li#menu_wiki:hover,
 body.sectionLinks li#menu_links:hover {
-    background-position: 100% 0%;
+	background-position: 100% 0%;
 }
 
 body.sectionDocs li#menu_docs:hover a,
-
 body.sectionForum li#menu_forum :hover a,
 body.sectionWiki li#menu_wiki:hover a,
 body.sectionLinks li#menu_links:hover a{
-    background-position: 0% 0%;
-    color: #333;
+	background-position: 0% 0%;
+	color: #333;
 }
 
 
@@ -226,7 +230,6 @@ strong.very-strong {
 }
 
 /* 中文沒有斜體 */
-
 pre.code .remark {
 	font-style: normal;
 }
@@ -236,7 +239,6 @@ address {
 }
 
 /* MozTW 額外在地化軟體 */
-
 .product-netscape {
 	background: url("/images/product-netscape-screen.png") no-repeat;
 }
@@ -256,7 +258,9 @@ address {
 
 /* 保持 mozilla.org 原先未分出 .com 時的樣式 */
 
-.front-feature-cwb { background: #E4EcEc url(../../images/feature-back-cwb-fx3.png) bottom right no-repeat;}
+.front-feature-cwb {
+	background: #E4EcEc url(../../images/feature-back-cwb-fx3.png) bottom right no-repeat;
+}
 
 #front-feature div {
 	text-align: left !important;
@@ -304,6 +308,7 @@ div.vcard {
 	padding: .3em 2em;
 	position: relative;
 }
+
 div.vcard p.fn{
 	position: absolute;
 	top: -1.4em; left: .6em;
@@ -311,8 +316,19 @@ div.vcard p.fn{
 	padding: 0 .5em;
 	font-weight: normal;
 }
-div.vcard p {font-weight: bold;}
-div.vcard a {font-weight: normal;}
 
-.vcard-additional-info{display: none;}
-.vcard .note:before {content: "" !important;}
+div.vcard p {
+	font-weight: bold;
+}
+
+div.vcard a {
+	font-weight: normal;
+}
+
+.vcard-additional-info{
+	display: none;
+}
+
+.vcard .note:before {
+	content: "" !important;
+}
