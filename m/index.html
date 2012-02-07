@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>下載行動版 Firefox</title>
+<title>下載 Firefox 行動版</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
 <link rel="icon" href="/images/mozilla-16.png" type="image/png">
@@ -26,12 +26,11 @@ body {
 h2{margin-top:2em; border-bottom: 1px dotted #666;}
 #header{
 	background: #455372 url("/images/header_bl.png") bottom right repeat-x;
-	-webkit-border-radius: 0px 0px 5px 5px;
 	border-radius: 0px 0px 5px 5px;
 	overflow:hidden;
 }
 #header h1{
-    background: url("mobile_header.png") no-repeat scroll 10px 3px transparent;
+	background: url("mobile_header.png") no-repeat scroll 10px 3px transparent;
 	text-indent:-700em;
 	font-size:2px;
 	display:block;
@@ -43,7 +42,6 @@ h2{margin-top:2em; border-bottom: 1px dotted #666;}
 	background-color:#E4ECEC;
 	border-right:1px solid #ddd;
 	border-bottom:1px solid #ccc;
-	-webkit-border-radius:5px;
 	border-radius: 5px;
 	padding:10px;
 	margin-top:1em;
@@ -83,7 +81,6 @@ h2{margin-top:2em; border-bottom: 1px dotted #666;}
 	background-image:-webkit-gradient(linear, left top, left bottom, from(#83c53c), to(#519d1b));
 	text-decoration:none;
 	padding: 40px 20px;
-	-webkit-border-radius:5px;
 	border-radius: 5px;
 	border-bottom: 2px solid #481;
 	display:block;
@@ -98,13 +95,13 @@ a#unknown-device{
 
 ul#features,ul#moztw{padding:0;}
 #features li,#moztw li{
-    list-style-type: none;
-    min-height:79px;
-    padding-left:90px;
-    margin-bottom:1em;
+	list-style-type: none;
+	min-height:79px;
+	padding-left:90px;
+	margin-bottom:1em;
 }
 #features li{
-background: url("/m/features-new.png") no-repeat scroll left top transparent;
+	background: url("/m/features-new.png") no-repeat scroll left top transparent;
 }
 li#customize{background-position:left center;}
 li#search{background-position:left bottom;}
@@ -112,14 +109,14 @@ li#foxmosa{background: url("/foxmosa/images/foxmosa-plurking-64.png") 5px top no
 li#gfx{background: url("/foxmosa/images/foxmosa-twitplurk-gfx.png") 5px top no-repeat;}
 li#events{background: url("/images/toy_gold_32.png") 5px top no-repeat; background-size:64px;}
 #footer {
-    border-top: 1px solid #999999;
-    margin: 2em 0;
-    padding: 1em 0;
-    text-align: center;
+	border-top: 1px solid #999999;
+	margin: 2em 0;
+	padding: 1em 0;
+	text-align: center;
 	clear:both;
 }
 #footer p, #footer p a {
-    color: #666666;
+	color: #666666;
 }
 
 </style>
@@ -138,30 +135,27 @@ li#events{background: url("/images/toy_gold_32.png") 5px top no-repeat; backgrou
 		<p>忠於開放使命，致力提升網路體驗<br>全新外觀、速度超快、颯爽登場</p>
     </div>
 	<div id="download">
-		<a id="download-link-android" href="market://details?id=org.mozilla.firefox">下載 Android 的 <br>Firefox 瀏覽器</a>
-		<a id="download-link-maemo" href="https://download.mozilla.org/?product=firefox-mobile-7.0.1&os=maemo&lang=multi">下載 Meamo 的<br>Firefox 瀏覽器</a>
+		<a id="download-link-android" href="market://details?id=org.mozilla.firefox">下載 Android 的 <br>Firefox - 正式版</a>
 		<a id="download-link-ios" href="http://itunes.apple.com/us/app/firefox-home/id380366933?mt=8">下載 iOS 的<br>Firefox Home</a>
-		<a id="unknown-device">很抱歉，您所使用的裝置無法安裝 Firefox Mobile </a>
+		<a id="unknown-device">很抱歉，您所使用的裝置無法安裝 Firefox 行動版。</a>
 		<div style="clear:both; zoom: 1;"> </div>
     </div>
 </div>
 <script type='text/javascript' src='/js/download.js'></script>
 <script type='text/javascript'>
 <!--
-var MOBILEOS = ["android", "maemo", "ios"];
+var MOBILEOS = ["android", "ios"];
 function checkOS(){
 	var platform = getPlatform(), supported=false;
-	for(i in MOBILEOS){
+	for (i in MOBILEOS) {
 		if(platform == MOBILEOS[i]){
 			setDisplay("download-link-"+platform, "block");
 			supported=true;
-		}
-		else{
+		} else {
 			setDisplay("download-link-"+MOBILEOS[i], "none");
 		}
-	}
-	
-	if(!supported){
+	}	
+	if (!supported) {
 		setDisplay("unknown-device", "block");
 	}
 }
@@ -178,7 +172,7 @@ checkOS();
 <ul id="features">
 <li id="sync"><b>同步</b><br>無縫同步您的桌面與行動瀏覽</li>
 <li id="customize"><b>自訂</b><br>安裝附加元件讓 Firefox 變成您所想要的樣子</li>
-<li id="search"><b>搜尋</b><br>透過智慧位址列，讓您輸入的更少，更快到達您想到的網站</li>
+<li id="search"><b>搜尋</b><br>透過智慧位址列讓您輸入的更少，更快到達想開的網站</li>
 </ul>
 <h2>MozTW</h2>
 <ul id="moztw">
@@ -192,8 +186,6 @@ checkOS();
    <p><a href="http://creativecommons.org/licenses/by-sa/3.0/tw/" rel="license"><img src="http://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" style="border-width:0" alt="Creative Commons License"></a></p>
 </div>
 
-
 </div>
 </body>
 </html>
-

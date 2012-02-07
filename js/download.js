@@ -8,8 +8,6 @@ function getPlatform() {
   //Linux 放在最後，以免其他 Linux based 裝置也被當成桌面 linux
   if (navigator.userAgent.indexOf("Android") != -1)
     return "android";
-  if (navigator.userAgent.indexOf("Maemo") != -1)
-    return "maemo";
   if (navigator.platform.indexOf("Linux") != -1)
     return "linux";    
   
@@ -42,8 +40,7 @@ function highlightDownload() {
 		eFeature.className += " hide";
 		eFeature = document.getElementById("mobile-feature-ios");
 		eFeature.className = eFeature.className.replace(/\bhide\b/,'');
-	}
-	else if (platform == "android" || platform == "maemo" ){
+	} else if (platform == "android"){
 		eFeature.className += " hide";
 		eFeature = document.getElementById("mobile-feature-android");
 		eFeature.className = eFeature.className.replace(/\bhide\b/,'');
