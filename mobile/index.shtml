@@ -2,7 +2,7 @@
 <title>Mozilla Firefox 中文版 - 網路生活的全新體驗 - MozTW</title>
 <style type="text/css">
 <!--
-#product-desc.product-mobile4 {
+#product-desc.product-mobile {
 	background: transparent url(images/product-mobile-screen.png) no-repeat scroll 0 0;
 	padding: 40px 0 100px;
 }
@@ -11,7 +11,6 @@
 	font-size: 1.2em;
 	line-height: 1.5em;
 }
-
 .top-features {
 	margin: 0;
 	padding: 0;
@@ -24,11 +23,9 @@
 	list-style: none;
 	display: block;
 }
-
 .top-features li p {
 	margin-top: 5px;
 }
-
 .top-features strong {
 	font-size: 1em;
 	height: 1.5em;
@@ -37,7 +34,6 @@
 	width: 95%;
 	border-bottom: 1px solid #cccccc;
 }
-
 .top-features-title {
 	font-style: italic;
 }
@@ -45,47 +41,36 @@
 	font-size: 1em;
 	text-align: right;
 }
-
-/*#mainContent h3 {
-	padding-top:20px;
-}*/
 #mainContent h1 {
 	padding-top: 20px;
 }
-
 #mainContent-top {
 	font-size: 1em;
 	padding: 16px 0;
 }
-
 .upgrade-img {
 	background-color: #f0f0f0;
 	text-align: center;
 }
-
 .upgrade-img h5 {
 	font-weight: bold;
 	font-size: 1.1em;
 	border: none;
 }
-
 .upgrade-img p {
 	clear: both;
 }
-
 #performance-chart-time {
 	margin: 0 auto; padding: 0;
 	list-style: none;
 	width: 460px;
 }
-
 #performance-chart-time li {
 	float: left;
 	list-style: none;
 	width: 33%;
 	text-align: center;
 }
-
 -->
 </style>
 
@@ -93,7 +78,7 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point">
-    <div id="product-desc" class="product-mobile4">
+    <div id="product-desc" class="product-mobile">
 	<h2>Firefox: rediscover the web</h2>
 	<p>
 	忠於開放使命，致力提升網路體驗<br>全新外觀、速度超快、一切都變得更棒！
@@ -103,19 +88,16 @@
 	<div class="download">
 	    <h3>免費下載 Firefox 行動版</h3><!--#include virtual="/inc/dlfn.html" -->
 	</div>
-	<ul><li><a class="ancilliaryLink" href="//www.mozilla.com/mobile/platforms/">支援裝置</a></li>
-	    
+	<ul>
 	    <li><a class="ancilliaryLink" href="/docs/fn/system-requirements">系統需求</a></li>
-
 	    <li><a class="ancilliaryLink" href="/mobile/releases">版本資訊</a></li>
 	</ul>
     </div>
 </div>
+
 <div id="mainContent" class="right">
-	
 	<div id="mainContent-top"><a href="#easypersonalization">輕鬆個人化</a> / <a href="#friendly-tothetouch">友善的觸控螢幕支援</a> / <a href="#productivity-andperformance">生產力與效率</a> / <a href="#advanced-security">進階安全性</a> / <a href="#cutting-edge">尖端技術</a> / <a href="#universal-access">在地特色</a></div>
 	
-	<!--<h3>輕鬆 <span>個人化</span></h3>-->
 	<h1 id="easypersonalization"><span class="top-features-title">輕鬆</span> <strong>個人化</strong></h1>
 	<h3>保持同步</h3>
 	<p>無縫同步您電腦和手機上的 Firefox，如此一來，您就可以隨時隨地存取您的瀏覽紀錄、密碼、書籤，甚至是您開啟的分頁。在您第一天打開手機的時候就可以存取多年來在電腦上瀏覽的紀錄，並使用從電腦上儲存下來的密碼在您的手機上填寫表單。</p><img src="images/4-screen-sync-mobile.png" alt="temp" />
@@ -132,7 +114,6 @@
 	<p>您也可以用行動版 Firefox 取得<a href="http://www.getpersonas.com/?source=moz.com_features">上千種可以輕鬆安裝的佈景主題（Personas）</a>，輕輕一點就能讓瀏覽器改頭換面。今天要換上規律的花色、自然美景，還是電影主題如哈利波特、時尚精選如 Anna Sui？任您挑選！</p><img src="images/4-screen-personas-mobile.png" alt="temp" />
 	<p class="top-features-back"><a href="#mainContent-top">回到頁首</a></p>
 	
-	<!--<h3>友善的 <span>觸控螢幕支援</span></h3>-->
 	<h1 id="friendly-tothetouch"><span class="top-features-title">友善的</span> <strong>觸控螢幕支援</strong></h1>
 	<h3>只要瀏覽，不要凌亂</h3>
 	<p>您的螢幕上可能已經沒有空間可以塞下更多東西了，所以我們把 Firefox 設計成不影響您目前所在閱覽的內容。當您打開某個網址之後，Awesome Bar 與畫面上的控制項就會被藏起來，但您可以很快地再找到它們：只要把畫面往左或往右滑動，就可以看到您的分頁與瀏覽器工具；或是往上滑動以開始新的搜尋。</p>
@@ -144,7 +125,6 @@
 	<p>把畫面往左滑動並把您喜愛的網站加入書籤。接下來您就可以幫它加上標籤，如此一來您就可以在 Awesome Screen 上快速地存取該網站。</p><img src="images/4-screen-1touchbookmarks-mobile.png" alt="temp" />
 	<p class="top-features-back"><a href="#mainContent-top">回到頁首</a></p>
 	
-	<!--<h3>生產力 <span>與效率</span></h3>-->
 	<h1 id="productivity-andperformance"><span class="top-features-title">生產力</span> <strong>與效率</strong></h1>
 	<h3>速度超快</h3>
 	<p>Firefox 行動版是建立於跟電腦版的相同引擎，同時也已經對在行動裝置上的瀏覽作過最佳化。結果就是速度超快、超有效率，以及無縫的瀏覽體驗。</p>
@@ -187,7 +167,6 @@
 	<p>Firefox 可以記得您最愛網站當中的密碼，再也不必重複又難又煩的輸入動作。</p>
 	<p class="top-features-back"><a href="#mainContent-top">回到頁首</a></p>
 	
-	<!--<h3>進階 <span>安全性</span></h3>-->
 	<h1 id="advanced-security"><span class="top-features-title">進階</span> <strong>安全性</strong></h1>
 	<h3>安全性偏好設定</h3>
 	<p>我們非常看重您在網路上的安全，也把 Firefox 包得緊緊地以保護您的安全。向左滑動畫面並點下瀏覽器工具以開啟偏好設定畫面。這個畫面可以簡單地讓您自訂您密碼、個人資料、Cookies、圖片載入，以及安裝附加元件的設定。</p><img src="images/4-screen-privacy-mobile.png" alt="temp" />
@@ -197,7 +176,6 @@
 	<p>您有時可能會想要 Firefox 停止記憶您的密碼。若您正在分享您的手機，或單純不想再相信某個網站，只要使用網站選單當中的忘記密碼設定就可以清除這些資訊。</p><img src="images/4-screen-forget-mobile.png" alt="temp" />
 	<p class="top-features-back"><a href="#mainContent-top">回到頁首</a></p>
 	
-	<!--<h3>The <span>尖端技術</span></h3>-->
 	<h1 id="cutting-edge"><span class="top-features-title"></span> <strong>尖端技術</strong></h1>
 	<h3>HTML5</h3>
 	<p>Firefox 使用像是 <a href="http://hacks.mozilla.org/category/html5/">HTML5</a>, <a href="http://hacks.mozilla.org/category/css/">CSS</a> 與 <a href="http://hacks.mozilla.org/category/javascript/">JavaScript</a> 的開放規格，所以開法者可以建立快速、強大，以及美觀的應用程式。也有相機等行動裝置上的特殊功能，像是<a href="http://hacks.mozilla.org/category/geolocation/">地理位置</a> 與 <a href="http://hacks.mozilla.org/category/device-apis/">裝置方位偵測</a>。<a href="https://developer.mozilla.org/zh-TW/mobile">了解更多資訊。</a></p>
@@ -210,10 +188,9 @@
 	<h3>Layers</h3>
 	<p>Layers 技術可以幫助加強圖形效能，提供更快更順暢的捲動、縮放，及動畫。</p>
 	<h3>離線瀏覽</h3>
-	<p>Firefox 的離線瀏覽功能可以讓您在手機沒有網路連線的時候還是可以隨手取得想要的資訊。某些具備離線功能的網站，像是網頁郵件，可以讓您隨時隨地讀取訊息。</p>
+	<p>Firefox 的離線瀏覽功能讓您在手機沒有網路連線的時候還是可以取得想要的資訊。某些具備離線功能的網站，像是網頁郵件，可以讓您隨時隨地讀取訊息。</p>
 	<p class="top-features-back"><a href="#mainContent-top">回到頁首</a></p>
 	
-	<!--<h3>在地 <span>特色</span></h3>-->
 	<h1 id="universal-access"><span class="top-features-title">在地</span> <strong>特色</strong></h1>
 	<h3>Firefox 懂得您所說的語言</h3>
 	<p>Firefox 行動版提供超過十種語言的版本，而且還在增加中。</p>
@@ -225,25 +202,22 @@
 </div>
 
 <div id="side" class="right">
-
-		<!--<img src="http://moztw.org/firefox/images/product-personas-title.png" alt="Personas 個性面板" />-->
-		<img src="images/product-personas-title.png" alt="temp" />
-		<p>Personas 個性面板是輕量級的佈景主題，包含五花八門的外觀與設計，讓您隨時個性化 Firefox 的外貌，如同選擇衣服一般樂趣。</p>
-		<p>→ <a href="http://www.getpersonas.com/en-US/">立刻至 Personas for Firefox 網站挑選個性面板！</a></p>
+	<img src="images/product-personas-title.png" alt="Personas 個性面板" />
+	<p>Personas 個性面板是輕量級的佈景主題，包含五花八門的外觀與設計，讓您隨時個性化 Firefox 的外貌，如同選擇衣服一般樂趣。</p>
+	<p>→ <a href="http://www.getpersonas.com/en-US/">立刻至 Personas for Firefox 網站挑選個性面板！</a></p>
 
 	<h3>深入資訊</h3>
 		<ul class="compact">
 		<li><a href="http://www.mozilla.com/en-US/firefox/underthehood/">底層機制</a> *</li>
 		<li><a href="http://www.mozilla.com/en-US/firefox/security/">安全性</a> *</li>
 		<li><a href="http://www.mozilla.com/en-US/firefox/customize/">自訂能力</a> *</li>
-
 		<li><a href="http://www.mozilla.com/en-US/firefox/organic/">100% 純天然有機軟體</a> *</li>
 		<li><a href="http://www.mozilla.com/en-US/firefox/tips/">使用技巧與秘技</a> *</li>
 		<li><a href="http://www.mozilla.com/en-US/firefox/video/">影片</a> *</li>
 		<!--<li><a href="buttons/">取得推廣小貼紙</a></li>-->
-
-    </ul>
-	<p>* 連結至 Mozilla 網站，英文頁面</p>
+		</ul>
+		<p>* 連結至 Mozilla 網站，英文頁面</p>
+	
 	<h3>中文社群資源</h3>
 		<ul class="compact">
 		<li><a href="http://wiki.moztw.org/index.php?title=FAQ:Firefox">常見問題解答</a></li>
@@ -252,6 +226,7 @@
 		<li><a href="/dl/search">新增中文搜尋引擎</a></li>
 		<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區</a></li>
 		</ul>
+	
 	<h3>其它資源與鏈結</h3>
 		<ul class="compact">
 		<li><a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:7">下載外掛程式（新增 Flash、多媒體檔案支援）</a></li>
