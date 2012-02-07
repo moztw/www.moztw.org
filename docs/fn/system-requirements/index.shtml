@@ -15,20 +15,15 @@
 	<div id="mainContent">
 		<div id="fnRequiresments">
 			<h2>Firefox 行動版系統需求</h2>
-			<p>Firefox 可於 Android （2.1 或更新版）使用。</p>
-
+			<p>Firefox 可於 Android 2.1 或更新版本裝置相容。</p>
+			<p>需要大約 17MB 的內部儲存或記憶卡空間，以及 512MB 的記憶體。</p>
+			
 			<h3>支援裝置</h3>
 			<p>下列是經過測試，確認支援 Firefox 的行動裝置清單</p>
 
-			<h6>Android</h6>
-			<ul>
-				<li>Firefox 與 Android 2.1 或更新版本的裝置相容。</li>
-				<li>需要大約 17MB 的內部儲存或記憶卡空間，以及 512MB 的記憶體。</li>
-			</ul>
-													
-			<h6>經過測試可用的裝置</h6>
 			<div id="phones">
-			<ul>手機
+			<p>手機</p>
+			<ul>
 				<li>HTC<ul>
 					<li>HTC Amaze 4G</li>
 					<li>Desire</li>
@@ -89,7 +84,8 @@
 			</ul>
 			</div>
 			<div id="tablets">
-			<ul>平板裝置
+			<p>平板</p>
+			<ul>
 				<li>Acer Iconia Tab A500</li>
 				<li>Asus EEE Pad Transformer Tablet</li>
 				<li>Advent Vega (P10AN01)</li>
