@@ -6,11 +6,7 @@
 <link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan Community News" href="http://moztw.org/xmlnews.rdf" />
 <style type="text/css">
 <!--
-.front-feature { 
-    position: relative;
-    background-color: #E4ECEC;
-    overflow: hidden;
-}
+.front-feature { background: #E4EcEc url(images/4-feature-win.png) top right no-repeat; }
 .mobile-header { text-shadow:1px 1px 1px #d44000, 1px 1px 2px #fbba20; }
 /*1px 1px 2px #555;*/ 
 #planets ul {
@@ -19,238 +15,13 @@
 #planets ul li {
 	margin-bottom: 1em;
 }
-
-#front-feature #feature-content {
-    background: none;
-}
-#ny2012 {
-    -moz-transition: all 0.3s ease-in-out 0s;
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -it-transition: all 0.3s ease-in-out 0s;
-    -o-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-    -moz-transform: rotate(-19deg);
-    -webkit-transform: rotate(-19deg);
-    -ie-transform: rotate(-19deg);
-    -o-transform: rotate(-19deg);
-    transform: rotate(-19deg);
-
-    background: none repeat scroll 0 0 #C80000;
-    border-radius: 10px 10px 10px 10px;
-    box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.66);
-    padding: 10px !important;
-    position: absolute;
-    right: -175px;
-    top: -55px;
-    width: 38%;
-}
-
-#front-feature:hover #ny2012, #front-feature:active #ny2012 {
-    -moz-transform: rotate(-5deg);
-    -webkit-transform: rotate(-5deg);
-    -ie-transform: rotate(-5deg);
-    -o-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-    -moz-transition: all 0.5s ease-in-out 0.2s;
-    -webkit-transition: all 0.5s ease-in-out 0.2s;
-    -ie-transition: all 0.5s ease-in-out 0.2s;
-    -o-transition: all 0.5s ease-in-out 0.2s;
-    transition: all 0.5s ease-in-out 0.2s;
-    position: absolute;
-    right: 50px;
-    top: -5px;
-    width: 40%;
-}
-
-#ny2012 a, #ny2012txt a, #ny2012 a:hover, #ny2012txt a:hover {
-    text-decoration: none;
-    background: none;
-}
-#ny2012 img {
-    box-shadow: 0 1px 4px #333333;
-    width: 100%;
-}
-#ny2012txt {
-    -moz-transform: rotate(-3deg) rotateY(270deg);
-    -webkit-transform: rotate(-3deg) rotateY(270deg);
-    -ie-transform: rotate(-3deg) rotateY(270deg);
-    -o-transform: rotate(-3deg) rotateY(270deg);
-    transform: rotate(-3deg) rotateY(270deg);
-    -moz-transition: all 0.7s ease-in-out 0s;
-    -webkit-transition: all 0.7s ease-in-out 0s;
-    -ie-transition: all 0.7s ease-in-out 0s;
-    -o-transition: all 0.7s ease-in-out 0s;
-    transition: all 0.7s ease-in-out 0s;
-    background: none repeat scroll 0 0 rgba(50, 50, 50, 0.75);
-    bottom: -100px;
-    opacity: 0;
-    padding: 10px 60px 150px 100% !important;
-    position: absolute;
-    right: -105px;
-    width: 42%;
-}
-#front-feature:hover #ny2012txt, #front-feature:active #ny2012txt {
-    transform: rotate(-9deg) rotateY(360deg);
-    -moz-transform: rotate(-9deg);
-    -moz-transform: rotate(-9deg) rotateY(360deg);
-    -webkit-transform: rotate(-9deg);
-    -webkit-transform: rotate(-9deg) rotateY(360deg);
-    -ie-transform: rotate(-9deg);
-    -ie-transform: rotate(-9deg) rotateY(360deg);
-    -o-transform: rotate(-9deg);
-    -o-transform: rotate(-9deg) rotateY(360deg);
-    -moz-transition: all 0.5s ease-out 0.3s;
-    -webkit-transition: all 0.5s ease-out 0.3s;
-    -ie-transition: all 0.5s ease-out 0.3s;
-    -o-transition: all 0.5s ease-out 0.3s;
-    bottom: -130px;
-    opacity: 1;
-}
-#ny2012txt p {
-    color: white;
-    font-size: 25px;
-    line-height: 25px;
-    margin: 0;
-    font-family: "Heiti TC", "Hiragino Kaku Gothic Pro", "WenQuanYi Micro Hei", "Droid Sans Fallback", "Microsoft JhengHei", "WenQuanYi Zen Hei", sans-serif;
-    text-shadow: 1px 1px 2px #FBE127;
-    text-decoration: none;
-}
-#ny2012txt p.s {
-    font-size: 16px;
-}
-  
-@-moz-keyframes slidein {
-  0% { right: 1500px; }
-  25% { right: 125px; }
-  55% { right: 125px; }
-  75% { right: -500px; }
-  100% { right: -500px; }
-}
-@keyframes slidein {
-0% { right: 1500px; }
-25% { right: 125px; }
-55% { right: 125px; }
-75% { right: -500px; }
-100% { right: -500px; }
-}  
-@-ie-keyframes slidein {
-0% { right: 1500px; }
-25% { right: 125px; }
-55% { right: 125px; }
-75% { right: -500px; }
-100% { right: -500px; }
-}  
-@-o-keyframes slidein {
-0% { right: 1500px; }
-25% { right: 125px; }
-55% { right: 125px; }
-75% { right: -500px; }
-100% { right: -500px; }
-}
-@-webkit-keyframes slidein {
-0% { right: 1500px; }
-25% { right: 125px; }
-55% { right: 125px; }
-75% { right: -500px; }
-100% { right: -500px; }
-}  
-#ny2012txt div {
-    position: absolute;
-    top: 0;
-    right: 2000px;
-}
-#ny2012txt div#first {
-    right: 125px;
-}
-
-#ny2012hint {
-    position: absolute;
-    right: -1000px;
-    font-family: "Heiti TC","Hiragino Kaku Gothic Pro","WenQuanYi Micro Hei","Droid Sans Fallback","Microsoft JhengHei","WenQuanYi Zen Hei",sans-serif !important;
-    font-size: 14px;
-    color: white;
-    padding: 0 !important;
-    font-weight: bold;
-    text-shadow: 0 0 2px #000;
-}
-
-.ani #ny2012hint {
-    right: 25px;
-    bottom: 15px;
-    opacity: 1;
-    -moz-transition: opacity 0.5s ease 1s;
-    -webkit-transition: opacity 0.5s ease 1s;
-    -o-transition: opacity 0.5s ease 1s;
-    -ie-transition: opacity 0.5s ease 1s;
-    transition: opacity 0.5s ease 1s;
-}
-.ani:hover #ny2012hint {
-    opacity: 0;
-    -moz-transition: opacity 0.5s ease;
-    -webkit-transition: opacity 0.5s ease;
-    -o-transition: opacity 0.5s ease;
-    -ie-transition: opacity 0.5s ease;
-    transition: opacity 0.5s ease;
-}
-
-#front-feature.ani #ny2012txt div {
-    position: absolute;
-    top: 0;
-    right: 2000px;
-    width: 20em;
-}
-#front-feature.ani:hover #ny2012txt #first {
-    -moz-animation-duration: 6s; 
-    -moz-animation-name: slidein;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-delay: 0s;
-    -webkit-animation-duration: 6s; 
-    -webkit-animation-name: slidein;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-delay: 0s;
-    -o-animation-duration: 6s; 
-    -o-animation-name: slidein;
-    -o-animation-iteration-count: infinite;
-    -o-animation-delay: 0s;
-    -ie-animation-duration: 6s; 
-    -ie-animation-name: slidein;
-    -ie-animation-iteration-count: infinite;
-    -ie-animation-delay: 0s;
-    animation-duration: 6s; 
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-    animation-delay: 0s;
-}
-
-#front-feature.ani:hover #ny2012txt #second {
-    -moz-animation-duration: 6s; 
-    -moz-animation-name: slidein;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-delay: 3s;
-    -webkit-animation-duration: 6s; 
-    -webkit-animation-name: slidein;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-delay: 3s;
-    -o-animation-duration: 6s; 
-    -o-animation-name: slidein;
-    -o-animation-iteration-count: infinite;
-    -o-animation-delay: 3s;
-    -ie-animation-duration: 6s; 
-    -ie-animation-name: slidein;
-    -ie-animation-iteration-count: infinite;
-    -ie-animation-delay: 3s;
-    animation-duration: 6s; 
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-    animation-delay: 3s;
-}
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-  <div id="feature-content">  
+  <div id="feature-content">
     <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox" height="60" width="200"></a></h2>
     <p>全新外觀、速度超快，<a href="/firefox/">Firefox</a> 讓一切都變得更加美好！</p>
     <div class="download">
@@ -259,22 +30,6 @@
 		<!--#include virtual="/inc/dlff.html" -->
 		</div>
     </div>
-    <div id='ny2012'>
-        <a href='/events/newyear2012/'><img src='/foxmosa/images/foxmosa-2012newyear.png' alt='2012狐耳摩莎賀年卡活動'></a>
-    </div>
-    <div id='ny2012txt'>
-        <div id='first'>
-            <a href='/events/newyear2012/'>
-            <p>狐耳摩莎喜賀年</p><p class='s'>龍年行大運，寄張賀卡分享祝福！</p>
-            </a>
-        </div>
-        <div id='second'>
-            <a href='/events/newyear2012/'>
-            <p>Happy New Year</p><p class='s'>Share Foxmosa cards to friends!</p>
-            </a>
-        </div>
-    </div>
-    <div id='ny2012hint'>↑小莎躲哪裡去了呢？</div>
   </div>
 </div>
 
@@ -386,35 +141,6 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 		},
 		5
 	);
-})(jQuery);
-
-//CSS Animation detection on MDN:
-//https://developer.mozilla.org/en/CSS/CSS_animations/Detecting_CSS_animation_support
-(function($){
-    var animation = false,  
-        animationstring = 'animation',  
-        keyframeprefix = '',  
-        domPrefixes = 'Webkit Moz O ms Khtml'.split(' '),  
-        pfx  = '';  
-        
-    var elm = document.getElementById( 'first' );
-      
-    if( elm.style.animationName ) { animation = true; }      
-      
-    if( animation === false ) {  
-      for( var i = 0; i < domPrefixes.length; i++ ) {  
-        if( elm.style[ domPrefixes[i] + 'AnimationName' ] !== undefined ) {  
-          pfx = domPrefixes[ i ];  
-          animationstring = pfx + 'Animation';  
-          keyframeprefix = '-' + pfx.toLowerCase() + '-';  
-          animation = true;  
-          break;  
-        }  
-      }  
-    } 
-
-    if (animation) $('#front-feature').addClass('ani');
-    
 })(jQuery);
 </script>
 <!--#include virtual="/inc/footer.html" -->
