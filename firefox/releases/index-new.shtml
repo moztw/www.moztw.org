@@ -384,7 +384,7 @@ section .appendix {
                     </li>
                     
                     <li>Firefox 是哪些人做出來的？
-                      <p>很多人。從「說明＞關於 Mozilla Firefox」中有份名單，列出部分曾對 Firefox 有所貢獻的人。</p>
+                      <p>Firefox 是由世界各地的 <a href='http://www.mozilla.org/community/'>Mozilla 社群</a>成員與員工合力開發。<a href='http://www.mozilla.org/credits/'>這裡有份長長的名單</a>，列出部分曾對 Firefox 有重要貢獻的人。<a href='http://www.mozilla.org/contribute/'>想要加入我們的大家庭嗎？</a>或者<a href="http://moztw.org/contribute/">加入 Mozilla 台灣社群？</a></p>
                     </li>
                     
                     <li>Firefox 的原始碼在何處？
