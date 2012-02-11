@@ -223,6 +223,14 @@ section .appendix {
                 <div class="section-contents">
                     <ul>
                         <li>
+                            <span class="tag tag-fixed">修正</span>
+                            <h5>解決數個<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全性問題</a>。</h5>
+                        </li>
+                        <li>
+                            <span class="tag tag-fixed">修正</span>
+                            <h5>修正 Java applet 有時會使文字輸入沒有回應的問題（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=718939">bug 718939</a>）。</h5>
+                        </li>
+                        <li>
                             <span class="tag tag-new">全新功能</span>
                             <!-- The description is the title for now -->
                             <h5>預設情形下，大部分附加元件會相容於新版的 Firefox。</h5>
@@ -278,7 +286,7 @@ section .appendix {
                             <span class="tag tag-fixed">修正</span>
                             <h5>修正部分使用者移動書籤時的當機問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=681795">bug 681795</a>）。</h5>
                         </li>
-                        <li class="complete">請參考此版本的<a href="http://www.mozilla.com/firefox/10.0/releasenotes/buglist.html">完整變更清單</a>。您可能也想瞭解<a href="/firefox/releases/9.0.1/">前一個版本的更新</a>。
+                        <li class="complete">請參考此版本的<a href="http://www.mozilla.com/firefox/10.0.1/releasenotes/buglist.html">完整變更清單</a>。您可能也想瞭解<a href="/firefox/releases/10.0/">前一個版本的更新</a>。
                         </li>
                     </ul>
                 </div>
@@ -310,7 +318,7 @@ section .appendix {
                             <div class="status">
                               <span class="status-unresolved">v10 未修復</span>
                               <span class="status-resolved">
-                                    <a href="/en-US/firefox/11.0a2/auroranotes">v11 已修復</a>
+                                    <a href="/en-US/firefox/11.0/auroranotes">v11 已修復</a>
                               </span>
                             </div>
                         </li>
