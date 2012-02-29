@@ -64,7 +64,7 @@
     -o-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
-    top: 275px;
+    top: 270px;
 }
 #flicks .title img {
     left: 0;
@@ -73,7 +73,7 @@
     width: 170px;
 }
 #flicks img {
-    left: 43px;
+    left: 42px;
     position: absolute;
     top: 143px;
     width: 430px;
@@ -84,7 +84,7 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-  <a id="flicks" class="fancybox fancybox.iframe" target="_blank" href="flicksmovie.html">
+  <a id="flicks" class="fancybox" href="images/firefox-flicks.jpg" title="FirefoxFlicks 全球短片競賽">
       <p class="title"><img src="images/firefox-flicks-title.png" alt="">全球短片競賽</p>
       <div class="frame"></div>
       <img src="images/firefox-flicks.jpg" alt="Firefox Flicks">
@@ -215,15 +215,7 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 <script type="text/javascript" src="js/library/fancybox2/jquery.fancybox.pack.js"></script>
 <script>
 $(document).ready(function() {
-    $(".fancybox").fancybox({
-		fitToView	: false,
-		width		: 670,
-		height		: 445,
-		autoSize	: false,
-		closeClick	: false,
-		openEffect	: 'none',
-		closeEffect	: 'none'
-	});
+    $(".fancybox").fancybox();
 });
 </script>
 <!--#include virtual="/inc/footer.html" -->

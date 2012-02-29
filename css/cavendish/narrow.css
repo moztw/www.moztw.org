@@ -1,15 +1,28 @@
-/* newyear 2012 */
-#front-feature:hover #ny2012, #front-feature:active #ny2012 {
-    right: 25px !important;
-    top: 80px !important;
-    width: 80% !important;
+/* FirefoxFlicks */
+#flicks {
+    top: 115px !important;
+    width: 100% !important;
+}
+#flicks:hover {
+    margin-top: 0px !important;    
+}
+#flicks img {
+    left: 0 !important;
+    top: 143px !important;
+    width: 100% !important;
+}
+#flicks .frame {
+    height: 500px;
+}
+#flicks .title {
+    top: 260px !important;
+    left: 80px !important;
+    padding: 0 !important;
+}
+#flicks:hover .title {
+    top: 260px !important;
 }
 
-#front-feature:hover #ny2012txt, #front-feature:active #ny2012txt {
-    bottom: -75px !important;
-    right: -175px;
-    width: 100%;
-}
 
 .frontcolumn,.frontcolumndouble,.frontcolumnlast {
 	width: 100%;
@@ -28,7 +41,7 @@
 	-webkit-background-size:300px;
 	background-size:300px;	
 	background-position:100% 100%;
-	padding-bottom:150px;
+	padding-bottom:300px;
 }
 .download{
 	display:none;
