@@ -139,6 +139,7 @@
 		-moz-border-radius: 8px;
 		border-radius: 8px;
 		border-bottom:1px solid #ddd;
+		overflow: hidden;
 	}
 	
 	.key-point h2, .key-point h3, .key-point h4, .key-point h5 {
