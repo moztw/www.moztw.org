@@ -123,8 +123,8 @@
 	<p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！</p>
   </div>
   <div class="frontcolumnlast">
-    <h2><a href="/twoffice/">美商謀智公司徵人啟事<img class="promo" src="/images/Pocketfox.png"></a></h2>
-	<p>如果你正在尋找充滿挑戰與機會的國際舞台，<a href="/twoffice/">歡迎加入 Mozilla 台北分公司</a>，共同參與網路的另一個轉捩點！</p>
+    <h2><a href="https://affiliates.mozilla.org/" target="_blank">Firefox 夥伴計畫<img class="promo" src="/images/Pocketfox.png"></a></h2>
+	<p>在你的網站貼上 Firefox 貼紙，向全世界分享你對 Firefox 的熱愛，同時還能贏得 Mozilla 紀念品！</p>
   </div>
   </div>
   <br style="clear: both;">
@@ -145,15 +145,16 @@
     </div>
     <div class="frontcolumnlast">
 	  <h2>快速捷徑</h2>
-    <ul class="news">
-      <li><a href="http://gfx.tw/">gfx.tw 抓火狐</a></li>
-      <li><a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
-    	<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
-    	<li><a href="/events/">主題活動</a></li>
-    	<li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
-    	<li><a href="http://wiki.moztw.org/index.php/%E7%B6%B2%E8%B7%AF%E8%B3%87%E6%BA%90">網路資源</a></li>
-      <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/">Firefox 未來發行版本</a></li>
-    </ul>
+        <ul class="news">
+          <li><a href="/twoffice/">Mozilla Taiwan 公司徵人啟事</a></li>
+          <li><a href="http://gfx.tw/">gfx.tw 抓火狐</a></li>
+          <li><a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
+          <li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
+          <li><a href="/events/">主題活動</a></li>
+          <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
+          <li><a href="http://www.mozilla.org/zh-TW/firefoxlive/">Firefox Live! 實況攝影</a></li>
+          <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/">Firefox 未來發行版本</a></li>
+        </ul>
     </div>
 	<br style="clear: both;">
   <!-- End News Columns -->  
