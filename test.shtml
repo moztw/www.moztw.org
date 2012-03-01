@@ -84,7 +84,7 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-  <a id="flicks" class="fancybox" href="images/firefox-flicks.jpg" title="FirefoxFlicks 全球短片競賽">
+  <a id="flicks" class="fancybox.iframe" href="flicksmovie.html" title="">
       <p class="title"><img src="images/firefox-flicks-title.png" alt="">全球短片競賽</p>
       <div class="frame"></div>
       <img src="images/firefox-flicks.jpg" alt="Firefox Flicks">
@@ -215,7 +215,18 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 <script type="text/javascript" src="js/library/fancybox2/jquery.fancybox.pack.js"></script>
 <script>
 $(document).ready(function() {
-    $(".fancybox").fancybox();
+    $("#flicks").fancybox({
+		fitToView	: false,
+		width		: 800,
+		height		: 600,
+		autoSize	: false,
+		closeClick	: false,
+		helpers : {
+    		title : {
+    			type : 'over'
+    		}
+    	}
+    });
 });
 </script>
 <!--#include virtual="/inc/footer.html" -->
