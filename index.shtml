@@ -237,8 +237,8 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 <script>
 $(document).ready(function() {
     $("#flicks").fancybox({
-		minWidth    : 800,
-		minHeight   : 570
+		width    : 800,
+		height   : 570
 	});
 });
 </script>
