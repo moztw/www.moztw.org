@@ -6,7 +6,7 @@
 <link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan Community News" href="http://moztw.org/xmlnews.rdf" />
 <style type="text/css">
 <!--
-.front-feature { background: #E4EcEc url(images/4-feature-win.png) top right no-repeat; }
+.front-feature { background: #E4EcEc; position: relative; }
 .mobile-header { text-shadow:1px 1px 1px #d44000, 1px 1px 2px #fbba20; }
 /*1px 1px 2px #555;*/ 
 #planets ul {
@@ -20,12 +20,75 @@
 	width: 64px;
 	height: 64px;
 }
+
+#flicks {
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 500px;
+    display: block;
+}
+
+#flicks:hover {
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    margin-top: -50px;
+}
+#flicks .frame {
+    background: url("images/4-feature-event.png") no-repeat right top transparent;
+    height: 1500px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2000px;
+    z-index: 50;
+}
+
+#flicks .title {
+    color: white;
+    font: bold 28px/1em "Heiti TC", "Apple LiGothic", "Droid Sans Fallback", "微軟正黑體", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    left: 88px;
+    padding: 0 0 0 173px;
+    position: absolute;
+    text-shadow: 0 2px 5px black;
+    top: 500px;
+    z-index: 100;
+}
+#flicks:hover .title {
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    top: 270px;
+}
+#flicks .title img {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 170px;
+}
+#flicks img {
+    left: 42px;
+    position: absolute;
+    top: 143px;
+    width: 430px;
+}
 -->
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
+  <a id="flicks" class="fancybox.iframe" href="flicksmovie.html" title="">
+      <p class="title"><img src="images/firefox-flicks-title.png" alt="">全球短片競賽</p>
+      <div class="frame"></div>
+      <img src="images/firefox-flicks.jpg" alt="Firefox Flicks">
+  </a>
   <div id="feature-content">
     <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox" height="60" width="200"></a></h2>
     <p>全新外觀、速度超快，<a href="/firefox/">Firefox</a> 讓一切都變得更加美好！</p>
@@ -98,7 +161,7 @@
 	<a href='news'>所有公告記錄</a>
   </div>
 <script type="text/javascript" 
-src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript">
 /*
  * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
@@ -147,5 +210,15 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 		5
 	);
 })(jQuery);
+</script>
+<link rel="stylesheet" type="text/css" href="js/library/fancybox2/jquery.fancybox.css" media="screen">
+<script type="text/javascript" src="js/library/fancybox2/jquery.fancybox.pack.js"></script>
+<script>
+$(document).ready(function() {
+    $("#flicks").fancybox({
+		minWidth    : 800,
+		minHeight   : 570
+	});
+});
 </script>
 <!--#include virtual="/inc/footer.html" -->
