@@ -80,6 +80,26 @@
 }
 -->
 </style>
+<!--[if IE 6]>
+<style>
+#flicks {
+    overflow: hidden;
+    cursor: pointer;
+    height: 280px;
+}
+#flicks:hover {
+    margin-top: -10px;
+    height: 290px;
+}
+#flicks .title {
+    display: none;
+}
+#flicks img {
+    left: 27px;
+}
+</style>
+<![endif]-->
+
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
