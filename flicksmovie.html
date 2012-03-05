@@ -41,11 +41,19 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
     
+    function recordOutboundLink(link, category, action) {
+      try {
+        var myTracker=_gat._getTrackerByName();
+        _gaq.push(['myTracker._trackEvent', ' + category + ', ' + action + ']);
+        setTimeout('document.location = "' + link + '"', 100)
+      }catch(err){}
+    };
+
+    window.onload = function ()
+    {
+        recordOutboundLink("https://firefoxflicks.mozilla.org/", 'Outbound Links', 'mozilla.org');
+    };
     </script>
-    <script type="text/javascript">
-        window.location = "https://firefoxflicks.mozilla.org/";
-    </script>
-    
 </head>
 <body>
     <!--
