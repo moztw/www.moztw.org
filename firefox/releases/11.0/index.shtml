@@ -237,6 +237,12 @@ section .appendix {
                             <h5>支援 CSS <a href="https://developer.mozilla.org/en/CSS/text-size-adjust">text-size-adjust 屬性</a>。</h5>
                         </li>
                         <li>
+                            <!-- TODO 改為 tag-changed -->
+                            <!-- <span class="tag tag-fixed">修正</span> -->
+                            <span class="tag tag-new">修正</span>
+                            <h5>重新設計 HTML5 影片的控制元件。</h5>
+                        </li>
+                        <li>
                             <span class="tag tag-html5">HTML5</span>
                             <!-- The description is the title for now -->
                             <h5>HTML 元素的 <a href="https://developer.mozilla.org/en/HTML_in_XMLHttpRequest">outerHTML 屬性</a>支援。</h5>
@@ -286,10 +292,6 @@ section .appendix {
                         </li>
                         <li>
                             <span class="tag tag-fixed">修正</span>
-                            <h5>重新設計 HTML5 影片的控制元件。</h5>
-                        </li>
-                        <li>
-                            <span class="tag tag-fixed">修正</span>
                             <h5>修正 Firefox 通知在 Growl 1.3 和更新版本的相容性（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=691662">bug 691662</a>）。</h5>
                         </li>
                         <li class="complete">
@@ -306,10 +308,6 @@ section .appendix {
                     <ul>
                         <li>
                             <span class="tag tag-unresolved">尚未修復</span>
-        		    <h5>二位數的瀏覽器版號可能在少數網站有相容性問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=690287">bug 690287</a>）。</h5>
-                        </li>
-                        <li>
-                            <span class="tag tag-unresolved">尚未修復</span>
         		    <h5>以被鎖定的個人設定檔重新啟動 Firefox 時，程式會當掉（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573369">bug 573369</a>）。</h5>
                         </li>
                         <li>
@@ -322,7 +320,19 @@ section .appendix {
                         </li>
                         <li>
                             <span class="tag tag-unresolved">尚未修復</span>
-        		    <h5>特定情況下，捲動和文字輸入可能不穩定（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=711900">bug 711900</a>）。</h5>
+                            <h5>
+                                OS X: WebGL 效能可能在某些硬體上被降級（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=713305">bug 713305</a>）。
+                            </h5>
+                            <div class="status">
+                              <span class="status-unresolved">v11 未修復</span>
+                              <span class="status-resolved">
+                                  <a href="http://www.mozilla.org/en-US/firefox/12.0a2/auroranotes/">v12 已修復</a>
+                              </span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="tag tag-unresolved">尚未修復</span>
+                            <h5>Windows: 使用 Windows 系統還原至更新 Firefox 前的一段時間時，可能變成找不到未來更新（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=730285">bug 730285</a>）。</h5>
                         </li>
                     </ul>
                 </div>
