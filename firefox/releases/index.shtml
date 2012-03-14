@@ -124,6 +124,11 @@
     background-position: -900px 50%;
 }
 
+#firefox-notes .tag-changed {
+    background-color: #E9CFFF;
+    background-position: -150px 50%;
+}
+
 #firefox-notes .tag-fixed {
     background-color: #F0FFE1;
     background-position: -300px 50%;
@@ -237,9 +242,7 @@ section .appendix {
                             <h5>支援 CSS <a href="https://developer.mozilla.org/en/CSS/text-size-adjust">text-size-adjust 屬性</a>。</h5>
                         </li>
                         <li>
-                            <!-- TODO 改為 tag-changed -->
-                            <!-- <span class="tag tag-fixed">修正</span> -->
-                            <span class="tag tag-new">修正</span>
+                            <span class="tag tag-changed">變更</span>
                             <h5>重新設計 HTML5 影片的控制元件。</h5>
                         </li>
                         <li>
