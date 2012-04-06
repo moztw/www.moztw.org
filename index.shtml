@@ -166,14 +166,14 @@
     <div class="frontcolumnlast">
 	  <h2>快速捷徑</h2>
         <ul class="news">
-          <li><a href="/twoffice/">Mozilla Taiwan 公司徵人啟事</a></li>
-          <li><a href="http://gfx.tw/">gfx.tw 抓火狐</a></li>
           <li><a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
+          <li><a href="http://gfx.tw/">gfx.tw 抓火狐</a></li>
           <li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
           <li><a href="/events/">主題活動</a></li>
-          <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
-          <li><a href="http://www.mozilla.org/zh-TW/firefoxlive/">Firefox Live! 實況攝影</a></li>
+          <li>郵件群組：<a href="http://forum.moztw.org/viewtopic.php?f=17&t=34697">Mozilla 中文開發者社群</a></li>
           <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/">Firefox 未來發行版本</a></li>
+          <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
+          <li><a href="/twoffice/">Mozilla Taiwan 公司徵人啟事</a></li>
         </ul>
     </div>
 	<br style="clear: both;">
