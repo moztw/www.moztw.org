@@ -161,16 +161,14 @@
 }
 
 #firefox-notes ul h5 {
-    font-family: "Open Sans",sans-serif;
-    font-size: 16px;
-    font-style: normal;
+    font: normal 16px "Open Sans",sans-serif;
     margin: 0;
     text-shadow: 0 1px 2px #FFFFFF;
 }
 
 #nav li a {
     padding: 15px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #side section, section .appendix {
@@ -246,6 +244,11 @@ section .appendix {
                             <h5>重新設計 HTML5 影片的控制元件。</h5>
                         </li>
                         <li>
+                            <span class="tag tag-changed">變更</span>
+                            <h5>變更單獨顯示圖片時的樣式（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=376997">bug 376997</a>），如欲還原先前樣式可安裝 <a href="https://addons.mozilla.org/firefox/addon/old-default-image-style/">Old Default Image Style</a> 擴充套件。</h5>
+                            <!-- 因為這一條是後來才補上的，Firefox 12 Release notes 請也保留 -->
+                        </li>
+                        <li>
                             <span class="tag tag-html5">HTML5</span>
                             <!-- The description is the title for now -->
                             <h5>HTML 元素的 <a href="https://developer.mozilla.org/en/HTML_in_XMLHttpRequest">outerHTML 屬性</a>支援。</h5>
@@ -296,6 +299,10 @@ section .appendix {
                         <li>
                             <span class="tag tag-fixed">修正</span>
                             <h5>修正 Firefox 通知在 Growl 1.3 和更新版本的相容性（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=691662">bug 691662</a>）。</h5>
+                        </li>
+                        <li>
+                            <span class="tag tag-fixed">修正</span>
+                            <h5>修正數個<a href="http://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全問題</a></h5>
                         </li>
                         <li class="complete">
                           請參考此版本的<a href="http://www.mozilla.com/firefox/11.0/releasenotes/buglist.html">完整變更清單</a>。
@@ -348,7 +355,7 @@ section .appendix {
             
                   <h3 id="requirements">系統需求</h3>
             
-                  <p>在安裝 Firefox 前請先確定您的電腦是否合乎 <a href="http://moztw.org/docs/fx/system-requirements/">系統需求</a>。</p>
+                  <p>在安裝 Firefox 前請先確定您的電腦是否合乎<a href="http://moztw.org/docs/fx/system-requirements/">系統需求</a>。</p>
             
                   <h3 id="download">下載 Firefox</h3>
             
@@ -369,7 +376,7 @@ section .appendix {
             
                  <h3 id="extensions">附加元件及佈景主題</h3>
             
-                 <p>您可以由「附加元件管理員」或<a href="http://addons.mozilla.org">附加元件網站</a>取得附加元件及佈景主題。 當 Firefox 升級時，附加元件可能因不相容於新版 Firefox 而被停用，此時則需要原作者進行升級。若您想協助回報升級 Firefox 後功能有問題的附加元件，請 <a href="https://addons.mozilla.org/firefox/addon/add-on-compatibility-reporter/">安裝 Add-on Compatibility Reporter</a> 擴充套件 —— 您喜愛的元件作者會相當感激！</p>
+                 <p>您可以由「附加元件管理員」或<a href="http://addons.mozilla.org">附加元件網站</a>取得附加元件及佈景主題。 當 Firefox 升級時，附加元件可能因不相容於新版 Firefox 而被停用，此時則需要原作者進行升級。若您想協助回報升級 Firefox 後功能有問題的附加元件，請<a href="https://addons.mozilla.org/firefox/addon/add-on-compatibility-reporter/">安裝 Add-on Compatibility Reporter</a> 擴充套件 —— 您喜愛的元件作者會相當感激！</p>
             
                   <h2 id="troubleshooting">疑難排解</h2>
                   <ul class="spaced">
@@ -391,7 +398,7 @@ section .appendix {
                     </li>
             
                     <li>我該到哪裡才能用中文問問題跟表示意見？
-                      <p>請使用<a href="http://forums.mozillazine.org/index.php?c=4">Firefox 討論區</a>，MozTW 社群團隊與 熱心的 Firefox 用戶會定期閱讀上面的文章。</p>
+                      <p>請使用 <a href="http://forums.mozillazine.org/index.php?c=4">Firefox 討論區</a>，MozTW 社群團隊與 熱心的 Firefox 用戶會定期閱讀上面的文章。</p>
                     </li>
                     
                     <li>我該去哪裡取得新的佈景主題與擴充功能 (附加元件)？
