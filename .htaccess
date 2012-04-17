@@ -1,3 +1,8 @@
 Options +MultiViews -Indexes
+AddType video/ogg .ogv
+AddType video/mp4 .mp4
+AddType video/webm .webm
 AddType text/rdf+n3 .n3  #It's timbl's fault that this is not yet standardized
+
 DirectoryIndex index Overview
+
