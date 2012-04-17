@@ -1,0 +1,115 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>Firefox 4 Party 慶祝活動 - Mozilla Taiwan</title>
+<style text="text/css">
+
+	@font-face {
+		font-family: "MuseoSans";
+		src: url(MuseoSans_500.otf) format("opentype");
+	}
+
+	#feature {
+		position: relative;
+		height: 500px;
+		top: -8px;
+		overflow: hidden;
+	}
+
+	.bg {
+		position: absolute;
+		top: 50%; left: 50%;
+		width: 880px; height: 500px;
+		margin-top: -250px; margin-left: -440px;
+		/* opacity: 0.18;
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=18)";
+		filter: alpha(opacity=18); */
+
+	}
+	h2, #feature p {
+		position: absolute;
+		left: 50%;
+		width: 880px;
+		margin-left: -440px;
+		text-align: center;
+		font-family: MetaBold, MuseoSans, Trebuchet MS, '微軟正黑體', sans-serif;
+		font-weight: bold;
+		text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 10px #fff;
+	}
+	h2 {
+		top: 100px;
+		letter-spacing: -5px;
+		font-size: 80px;
+		line-height: 80px;
+		color: #D64203!important;
+	}
+	.time {
+		top: 160px;
+		font-size: 44px;
+		color: #444;
+	}
+	.place {
+		top: 215px;
+		height: 36px;
+		font-size: 36px;
+		color: #444;
+	}
+	.seeyou {
+		top: 280px;
+		height: 70px;
+		font-weight: bold;
+		font-size: 60px;
+		color: #A5151E;
+		letter-spacing: 20px;
+	}
+	.desc {
+		text-align: right;
+		color: #666;
+	}
+</style>
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/inc/header.html" -->
+  <div class="key-point">
+	<div id="feature">
+		<canvas id="canvas" class="bg" width="880" height="500"></canvas>
+		<noscript>
+		<img class="bg" src="mozlinks-zh.png" alt="MozLinks WordCloud "/>
+		</noscript>
+		<h2>Firefox 4 Party</h2>
+		<p class="time">2011 年 4 月 24 日下午</p>
+		<p class="place">耕莘文教院（台北捷運台電大樓站）</p>
+		<p class="seeyou">不·見·不·散</p>
+	</div>
+  </div>
+  <p class="desc">背景文字來源：<a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></p>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script type="text/javascript" src="./jquery.wordcloud.min.js?3"></script>
+  <script type="text/javascript">
+jQuery(function ($) {
+	if ($.wordCloudSupported) {
+		$.getJSON(
+			'./mozlinks-zh.json.js',
+			function (list) {
+				$('#canvas').wordCloud({
+					gridSize: 6,
+					wordList: list,
+					backgroundColor: 'rgba(255,255,255,0)',
+					wordColor: 'rgba(0, 0, 0, 0.18)',
+					fontFamily: 'STFangsong, STSong, "Apple LiSong", "Hiragino Mincho Pro", 新細明體, sans-serif',
+					weightFactor: function (w) {
+						if (w < 6) return 0;
+						if (w*0.65 > 3) return w*0.65;
+					},
+					abortThreshold: 150,
+					abort: function () {
+						$('#canvas').hide();
+						$('#feature').prepend('<img class="bg" src="mozlinks-zh.png" />');
+					}
+				});
+			}
+		);
+	} else {
+		$('#canvas').hide();
+		$('#feature').prepend('<img class="bg" src="mozlinks-zh.png" />');
+	}	
+});
+  </script>
+<!--#include virtual="/inc/footer.html" -->

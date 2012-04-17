@@ -1,0 +1,222 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>Mozilla Firefox 中文版 - 網路生活的全新體驗 - Mozilla Taiwan, MozTW.org</title>
+<style type="text/css">
+<!--
+#product-desc.product-firefox36 {
+	background: transparent url(images/36-product-firefox-screen.png) no-repeat scroll 0 0;
+	padding: 40px 0 50px;
+}
+#product-desc p {
+	padding-left: 188px;	
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+.top-features {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.top-features li {
+	float: left;
+	width: 33%; 
+	height: 7.5em;
+	list-style: none;
+	display: block;
+}
+
+.top-features li p{
+	margin-top:5px;
+}
+
+.top-features strong {
+	font-size: 1.2em;
+	height:1.5em;
+	overflow:hidden;
+	display: block; width: 95%;
+	border-bottom: 1px solid #cccccc;
+}
+
+.top-features .new, .top-features .improved {
+	padding: 2px;
+	color: #ffffff;
+	float: right;
+	margin: 4px;
+}
+.top-features .new {
+	background-color: #65B253;
+}
+.top-features .improved {
+	background-color: #CB44A9;
+}
+
+#mainContent h3 {
+	padding-top:20px;
+}
+
+.upgrade-img {
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+.upgrade-img h5 {
+	font-weight: bold;
+	font-size: 1.1em;
+	border: none;
+}
+
+.upgrade-img p {
+	clear: both;
+}
+
+#performance-chart-time {
+	margin: 0 auto; padding: 0;
+	list-style: none;
+	width: 460px;
+}
+
+#performance-chart-time li {
+	float: left;
+	list-style: none;
+	width: 33%;
+	text-align: center;
+}
+
+-->
+</style>
+
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+<div class="key-point">
+    <div id="product-desc" class="product-firefox36">
+	<h2>Firefox: rediscover the web</h2>
+	<p>
+	忠於開放使命，致力提升網路體驗<br>更創新、更自由、超個性！
+	</p>
+    </div>
+    <div id="product-side">
+	<div class="download">
+	    <h3>免費下載</h3><!--#include virtual="/inc/dlff.html" -->
+	</div>
+	<ul><li><a class="ancilliaryLink" href="/docs/fx/system-requirements">系統需求</a></li>
+	    <li><a class="ancilliaryLink" href="/firefox/releases">版本資訊</a></li>
+	</ul>
+    </div>
+</div>
+<div id="mainContent" class="right">
+		<ul class="top-features">
+		<li>
+			<strong>個性面板</strong>
+			<p><span class="new">新增</span> 上千種特色面板供您選擇，隨手更換 Firefox 外觀主題。</p>
+		</li>		
+		<li>
+			<strong>私密瀏覽模式</strong>
+			<p><span class="new">新增</span> 瀏覽網路，不留痕跡。</p>
+		</li>
+		<li>
+			<strong>密碼管理員</strong>
+			<p>記憶網站密碼，輕鬆管理帳號。</p>
+		</li>
+		<li>
+			<strong>智慧位址列</strong>
+			<p><span class="improved">強化</span> 彈指之間找到您最愛的網站，無須記憶長串網址。</p>
+		</li>
+		<li>
+			<strong>高速瀏覽</strong>
+			<p><span class="new">新增</span> 瀏覽網頁更快速，且使用更少記憶體！</p>
+		</li>
+		<li>
+			<strong>反偽造、惡意網站</strong>
+			<p><span class="improved">強化</span> 享受最高級的防護措施，幫您把線上壞蛋擋在門外。</p>
+		</li>
+		<li>
+			<strong>恢復瀏覽狀態</strong>
+			<p><span class="improved">強化</span> 瀏覽器不小心掛了？重新啟動後立即恢復原來的樣子。</p>
+		</li>
+		<li>
+			<strong>書籤一點靈</strong>
+			<p>輕鬆將網站加入書籤，方便搜尋、組織網站。</p>
+		</li>
+		<li>
+			<strong>輕鬆自訂</strong>
+			<p><span class="improved">強化</span> 上千種附加元件讓您自由調整、您的瀏覽器更有您的風格。</p>
+		</li>
+		<li>
+			<strong>分頁</strong>
+			<p><span class="improved">強化</span> 使用分頁，以滑鼠拖曳快速組織，事半功倍。</p>
+		</li>
+		<li>
+			<strong>快捷網站識別資訊</strong>
+			<p>用簡單的網站識別資訊，拒絕網路詐騙及不安全的購物網站。</p>
+		</li>
+	</ul>
+	<h3 style="clear: both"><span lang="en-US">Firefox 3.6</span>: 總是您的最佳選擇</h3>
+	<h4>至今最快的 Firefox，又更快了！</h4>
+	<p>網路上對速度的要求越來越嚴格，我們也為此持續改善 Firefox 的引擎，讓你快上加快：Firefox 3.6 的速度較 Firefox 3.5 提昇 20%，更是 Firefox 3 的三倍速。因此，您的網路信箱、相片網站及各式網際應用服務用起來更加順暢、更加歡樂。</p>
+	<div class="upgrade-img">
+		<h5>Firefox 效能：快 — 更快 — 超快</h5>
+		<img src="images/performance-chart.png" alt="速度比較" />
+		<ul id="performance-chart-time">
+			<li>3,198 ms</li>
+			<li>1,188 ms</li>
+			<li>995 ms!</li>
+		</ul>
+		<p>* 測試環境：在 Windows 7 上進行 SunSpider 測試</p>
+	</div>
+	<h4>更能保護您的網路安全</h4>
+	<p>維護您上網時的資訊安全是我們最優先的任務，因此 Firefox 再度增強了反詐騙、反惡意程式的技術，並且加上私密瀏覽模式、「刪除與此網站有關的紀錄」等功能，保護您的隱私。</p>
+	<div class="upgrade-img">
+		<h5>詐騙網頁防護</h5>
+		<img src="images/upgrade-img-2.png" alt="詐騙網頁防護" />
+	</div>
+	<p>此外，我們開放原始碼的安全程序也讓全球資安專家隨時協助您緊盯漏洞，讓你更感安心。</p>
+	<h4>沒有一個瀏覽器能適合所有人</h4>
+	<p>我們清楚，你跟別人用網路的方式就是有點不同，也當然沒必要要求你跟鄰居用一模一樣的瀏覽器。無論你上網想閒聊、找食譜或寫程式，Firefox 擁有超過 6000 種附加元件，協助您依最適合自己的方式調整瀏覽器，完成任務。</p>
+	<div class="upgrade-img">
+		<h5>附加元件管理員</h5>
+		<img src="images/upgrade-img-3.png" alt="附加元件管理員" />
+	</div>
+	<h4>不斷提升的網路體驗</h4>
+	<p>我們努力讓 Firefox 3.6 帶給您最新、最棒的網路體驗，例如私密瀏覽模式、再度升級的智慧位址列，以及可在視窗間拆開、組合的分頁等。當然，Firefox 3.6 也大幅提升效能，讓你享受技術尖端的衝浪快感。</p>
+	<div class="upgrade-img">
+		<h5>Awesome Bar 智慧位址列</h5>
+		<img src="images/upgrade-img-4.png" alt="Awesome Bar" />
+	</div>
+</div>
+
+<div id="side" class="right">
+
+		<img src="images/product-personas-title.png" alt="Personas 個性面板" />
+		<p>Personas 個性面板是輕量級的佈景主題，包含五花八門的外觀與設計，讓您隨時個性化 Firefox 的外貌，如同選擇衣服一般樂趣。</p>
+		<p>→ <a href="http://www.getpersonas.com/en-US/">立刻至 Personas for Firefox 網站挑選個性面板！</a></p>
+
+	<h3>深入資訊</h3>
+		<ul class="compact">
+		<li><a href="http://www.mozilla.com/en-US/firefox/underthehood/">底層機制</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/security/">安全性</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/customize/">自訂能力</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/organic/">100% 純天然有機軟體</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/tips/">使用技巧與秘技</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/video/">影片</a> *</li>
+		<!--	<li><a href="buttons/">取得推廣小貼紙</a></li>-->
+    </ul>
+<p>* 連結至 Mozilla 網站，英文頁面</p>
+	<h3>中文社群資源</h3>
+		<ul class="compact">
+		<li><a href="http://wiki.moztw.org/index.php?title=FAQ:Firefox">常見問題解答</a></li>
+		<li><a href="/firefox/extension_top_15/">社群嚴選：年度最佳擴充套件</a></li>
+		<li><a href="http://wiki.moztw.org/index.php?title=FireAnything">某瀏覽器功能，Firefox 有沒有？</a></li>
+		<li><a href="/dl/search">新增中文搜尋引擎</a></li>
+		<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區</a></li>
+		</ul>
+	<h3>其它資源與鏈結</h3>
+		<ul class="compact">
+		<li><a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:7">下載外掛程式（新增 Flash、多媒體檔案支援）</a></li>
+		<li><a href="http://addons.moztw.org">取得擴充套件及佈景主題</a></li>
+		<li><a href="http://support.mozilla.com/en-US/kb/?locale=zh-TW">Firefox 支援中心</a></li>
+		<li><a href="http://www.spreadfirefox.com/">推廣 Firefox!（英）</a></li>
+		</ul>
+</div>
+
+<!--#include virtual="/inc/footer.html" -->
