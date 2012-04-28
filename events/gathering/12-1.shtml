@@ -35,7 +35,9 @@
       <div>
         <p>MozTW 摩茲連續聚，以輕鬆歡樂無負擔的方式、要與大家一起提升彼此的網際體驗。每次內容不拘、地點好談，歡迎來聊。
           連續聚內容由參加者自由報名發表，跟網路、Mozilla、自由相關的什麼主題都可以，當場協調時間。</p>
-        <h2>現場實況</h2>
+        <h2>現場實況<span class="speaker"><a href="https://etherpad.mozilla.org/moztw-kl">節目表 &amp; 即時共筆</a></span></h2>
+        <p>
+        </p>
         <a href="http://farm8.staticflickr.com/7177/6972675323_82f2e2fec0_b.jpg"
 
           target="_blank"><img src="http://farm8.staticflickr.com/7177/6972675323_82f2e2fec0_b.jpg"
@@ -53,8 +55,6 @@
           target="_blank"><img src="http://farm8.staticflickr.com/7062/6972423303_eaea965b12_b.jpg"
 
             alt="" height="180" width="240"></a>          <p=""></a><br>
-        <br>
-        <a href="https://etherpad.mozilla.org/moztw-kl">摩茲連續聚節目表 &amp; 即時共筆</a><br>
         <p></p>
         <h2>Mozilla &amp; MozTW: Our Open Community <span class="speaker">By
             Irvin</span></h2>
@@ -74,6 +74,16 @@
         <ul>
           <li><a href="http://lab.orinx.com/clipboard/index.php">迷你剪貼簿</a></li>
         </ul>
+        <h2>And.....</h2>
+        <li>petercpg - 三十秒光速講：新增 DuckDuckGo 搜索引擎<li>
+        <span class="author-g-0qu3s8o1z122zlclefq6">bobchao - Firefox Flicks &amp; 
+        Mozilla Space 宣傳</span><li>
+        <span class="author-g-jjojnhoni8tuuj6u">
+        Vdragon - H.I.M.E.輸入法廣告時間</span><li>
+        <span class="author-g-0qu3s8o1z122zlclefq6">小B -
+        <a href="http://moztw.org/foxmosa/game/pairs">小莎遊樂園：瀏覽器翻牌</a></span></div>
+        
+        
         <h2>活動照片大收集</h2>
         <div>
           <ul>
@@ -83,7 +93,6 @@
                 摩茲連續聚 KL - 徐徐海風篇 - Kevin-WY</a></li>
           </ul>
         </div>
-      </div>
       <br style="clear: both;">
       <!--#include virtual="/inc/footer.html" --><br>
     </div>
