@@ -10,18 +10,18 @@
     <!--#include virtual="/inc/header.html" -->
     <div class="right" id="side">
       <h3>時間</h3>
-      <p>2011/10/22<br>
-        <abbr title="2012-03-10T14:00:00Z" class="dtstart"> 13:30</abbr> ~ <abbr
+      <p>2012/03/10<br>
+        14:00 ~ <abbr
 
-          title="2012-03-10T17:30:00Z" class="dtend">18:00</abbr></p>
+          title="2012-03-10T17:30:00Z" class="dtend">17:30</abbr></p>
       <h3>地點</h3>
       <p>國立海洋科技大學<br>
       </p>
       <h3>報名</h3>
-      <p>03/03 20:00 ~ 03/09 20:00<br>
+      <p>2012/03/03 20:00 ~ 03/09 20:00<br>
         人數上限 10 人</p>
       <h3>其他連結</h3>
-      <p><a href="%20">報名頁面</a>、<a href="https://etherpad.mozilla.org/moztw-gethering-12-1">活動籌劃</a><br>
+      <p><a href="http://registrano.com/events/moztw-keelung-12-1-part-2">報名頁面</a>、<a href="https://etherpad.mozilla.org/moztw-gethering-12-1">活動籌劃</a><br>
         <a href="http://registrano.com/events/moztw-keelung-12-1-part-1">基隆廟口篇</a></p>
     </div>
     <div class="key-point"> <img src="gathering-title.png" alt="" height="245"
