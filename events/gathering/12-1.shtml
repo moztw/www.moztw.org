@@ -1,84 +1,87 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
     <title>MozTW 摩茲連續聚 KL 徐徐海風篇 - MozTW</title>
     <link rel="stylesheet" type="text/css" href="gathering.css" media="screen">
     <!--#include virtual="/inc/class_press.html" -->
     <!--#include virtual="/inc/header.html" -->
-  </head>
-  <body>
     <div class="right" id="side">
-      <h3><code>時間</code></h3>
-      <p><code>2012/03/10<br>
-          14:00 ~ <abbr title="2012-03-10T17:30:00Z" class="dtend">17:30</abbr></code></p>
-      <h3><code>地點</code></h3>
-      <p><code>國立海洋科技大學<br>
-        </code> </p>
-      <h3><code>報名</code></h3>
-      <p><code>2012/03/03 20:00 ~ 03/09 20:00<br>
-          人數上限 10 人</code></p>
-      <h3><code>其他連結</code></h3>
-      <p><code><a href="http://registrano.com/events/moztw-keelung-12-1-part-2">報名頁面</a>、<a href="https://etherpad.mozilla.org/moztw-gethering-12-1">活動籌劃</a><br>
-          <a href="http://registrano.com/events/moztw-keelung-12-1-part-1">基隆廟口篇</a></code>
+      <h3>時間</h3>
+      <p>2012/03/10<br>
+        14:00 ~ <abbr title="2012-03-10T17:30:00Z" class="dtend">17:30</abbr></p>
+      <h3>地點</h3>
+      <p>國立海洋科技大學<br>
+      </p>
+      <h3>報名</h3>
+      <p>2012/03/03 20:00 ~ 03/09 20:00<br>
+        人數上限 10 人</p>
+      <h3>其他連結</h3>
+      <p><a href="http://registrano.com/events/moztw-keelung-12-1-part-2">報名頁面</a>、<a
+          href="https://etherpad.mozilla.org/moztw-gethering-12-1">活動籌劃</a><br>
+        <a href="http://registrano.com/events/moztw-keelung-12-1-part-1">基隆廟口篇</a>
       </p>
     </div>
-    <div class="key-point"> <code><img src="gathering-title.png" alt="" height="245"
-          width="562"></code>
+    <div class="key-point"><img src="gathering-title.png" alt="" height="245" width="562">
       <div id="feature">
-        <h2><code>KL徐徐海風篇</code></h2>
+        <h2>KL徐徐海風篇</h2>
       </div>
     </div>
     <div class="information">
       <div>
-        <p><code>MozTW 摩茲連續聚，以輕鬆歡樂無負擔的方式、要與大家一起提升彼此的網際體驗。每次內容不拘、地點好談，歡迎來聊。
-            連續聚內容由參加者自由報名發表，跟網路、Mozilla、自由相關的什麼主題都可以，當場協調時間。</code></p>
-        <h2><code>現場實況<span class="speaker"><a href="https://etherpad.mozilla.org/moztw-kl">節目表 &amp; 即時共筆</a></span></code></h2>
+        <p>MozTW 摩茲連續聚，以輕鬆歡樂無負擔的方式、要與大家一起提升彼此的網際體驗。每次內容不拘、地點好談，歡迎來聊。
+          連續聚內容由參加者自由報名發表，跟網路、Mozilla、自由相關的什麼主題都可以，當場協調時間。</p>
+        <h2>現場實況<span class="speaker"><a href="https://etherpad.mozilla.org/moztw-kl">節目表 &amp; 即時共筆</a></span></h2>
         <p> </p>
-        <code><a href="http://farm8.staticflickr.com/7177/6972675323_82f2e2fec0_b.jpg"
-            target="_blank"><img src="http://farm8.staticflickr.com/7177/6972675323_82f2e2fec0_b.jpg"
-              alt="" height="180" width="240"></a> <a href="http://farm8.staticflickr.com/7043/6826568062_a71d5f3a22_b.jpg"
-            target="_blank"><img src="http://farm8.staticflickr.com/7043/6826568062_a71d5f3a22_b.jpg"
-              alt="" height="180" width="240"></a> <a href="http://farm8.staticflickr.com/7059/6972649805_4ae567d03c_b.jpg"
-            target="_blank"><img src="http://farm8.staticflickr.com/7059/6972649805_4ae567d03c_b.jpg"
-              alt="" height="180" width="240"></a><a href="http://farm8.staticflickr.com/7062/6972423303_eaea965b12_b.jpg"
-            target="_blank"><img src="http://farm8.staticflickr.com/7062/6972423303_eaea965b12_b.jpg"
-              alt="" height="180" width="240"></a> <p=""><br>
-            <p></p>
-            <h2>Mozilla &amp; MozTW: Our Open Community <span class="speaker">By
-                Irvin</span></h2>
-            <iframe src="https://docs.google.com/viewer?authuser=0&amp;srcid=0B9BU22m9p7kqUVBhS291eXZQTUE&amp;pid=explorer&amp;a=v&amp;chrome=false&amp;embedded=true"
-              height="480" width="640"></iframe><br>
-            投影片作者：<a href="http://weblogs.mozillazine.org/chofmann/">Chofmann</a><br>
-            <h2>瀏覽器考古 <span class="speaker">By Kevin-WY</span></h2>
-            <div style="width: 425px;" id="__ss_11959612"> <strong style="display: block; margin: 12px 0px 4px;"></strong>
-              <iframe src="http://www.slideshare.net/slideshow/embed_code/11959612"
-                marginwidth="0" marginheight="0" frameborder="0" height="497" scrolling="no"
-                width="595"></iframe> </div>
-            <h2>Introduction to BrowserID <span class="speaker">By Orinx</span></h2>
-            <iframe src="http://lab.orinx.com/clipboard/slide/" style="width: 595px; height: 497px;"></iframe>
-            <ul>
-              <li><a href="http://lab.orinx.com/clipboard/index.php">迷你剪貼簿</a></li>
-            </ul>
-            <h2>And.....</h2>
-            <li>petercpg - 三十秒光速講：新增 DuckDuckGo 搜索引擎</li>
-            <li> <span class="author-g-0qu3s8o1z122zlclefq6">bobchao - Firefox
-                Flicks &amp; Mozilla Space 宣傳</span></li>
-            <li> <span class="author-g-jjojnhoni8tuuj6u"> Vdragon -
-                H.I.M.E.輸入法廣告時間</span></li>
-            <li> <span class="author-g-0qu3s8o1z122zlclefq6">小B - <a href="http://moztw.org/foxmosa/game/pairs">小莎遊樂園：瀏覽器翻牌</a></span></li>
-          </p=""></code></div>
-      <h2><code>活動照片大收集</code></h2>
+        <a href="http://farm8.staticflickr.com/7177/6972675323_82f2e2fec0_b.jpg"
+
+          target="_blank"><img src="http://farm8.staticflickr.com/7177/6972675323_82f2e2fec0_b.jpg"
+
+            alt="" height="180" width="240"></a> <a href="http://farm8.staticflickr.com/7043/6826568062_a71d5f3a22_b.jpg"
+
+          target="_blank"><img src="http://farm8.staticflickr.com/7043/6826568062_a71d5f3a22_b.jpg"
+
+            alt="" height="180" width="240"></a> <a href="http://farm8.staticflickr.com/7059/6972649805_4ae567d03c_b.jpg"
+
+          target="_blank"><img src="http://farm8.staticflickr.com/7059/6972649805_4ae567d03c_b.jpg"
+
+            alt="" height="180" width="240"></a><a href="http://farm8.staticflickr.com/7062/6972423303_eaea965b12_b.jpg"
+
+          target="_blank"><img src="http://farm8.staticflickr.com/7062/6972423303_eaea965b12_b.jpg"
+
+            alt="" height="180" width="240"></a> <p=""><br>
+          <p></p>
+          <h2>Mozilla &amp; MozTW: Our Open Community <span class="speaker">By
+              Irvin</span></h2>
+          <iframe src="https://docs.google.com/viewer?authuser=0&amp;srcid=0B9BU22m9p7kqUVBhS291eXZQTUE&amp;pid=explorer&amp;a=v&amp;chrome=false&amp;embedded=true"
+            height="480" width="640"></iframe><br>
+          投影片作者：<a href="http://weblogs.mozillazine.org/chofmann/">Chofmann</a><br>
+          <h2>瀏覽器考古 <span class="speaker">By Kevin-WY</span></h2>
+          <div style="width: 425px;" id="__ss_11959612"> <strong style="display: block; margin: 12px 0px 4px;"></strong>
+            <iframe src="http://www.slideshare.net/slideshow/embed_code/11959612"
+              marginwidth="0" marginheight="0" frameborder="0" height="497" scrolling="no"
+              width="595"></iframe> </div>
+          <h2>Introduction to BrowserID <span class="speaker">By Orinx</span></h2>
+          <iframe src="http://lab.orinx.com/clipboard/slide/" style="width: 595px; height: 497px;"></iframe>
+          <ul>
+            <li><a href="http://lab.orinx.com/clipboard/index.php">迷你剪貼簿</a></li>
+          </ul>
+          <h2>And.....</h2>
+          <li>petercpg - 三十秒光速講：新增 DuckDuckGo 搜索引擎</li>
+          <li> <span class="author-g-0qu3s8o1z122zlclefq6">bobchao - Firefox
+              Flicks &amp; Mozilla Space 宣傳</span></li>
+          <li> <span class="author-g-jjojnhoni8tuuj6u">Vdragon -
+              H.I.M.E.輸入法廣告時間</span></li>
+          <li> <span class="author-g-0qu3s8o1z122zlclefq6">小B - <a href="http://moztw.org/foxmosa/game/pairs">小莎遊樂園：瀏覽器翻牌</a></span></li>
+        </p=""></div>
+      <h2>活動照片大收集</h2>
       <div>
         <ul>
-          <li><code><a href="http://www.flickr.com/photos/chandrew/sets/72157629196545806/">MozTW
-                摩茲連續聚 KL - 徐徐海風篇 - Ch.Andrew</a></code></li>
-          <li><code><a href="http://www.flickr.com/photos/kevinwenyu/sets/72157629560380785/">MozTW
-                摩茲連續聚 KL - 徐徐海風篇 - Kevin-WY</a></code></li>
+          <li><a href="http://www.flickr.com/photos/chandrew/sets/72157629196545806/">MozTW
+              摩茲連續聚 KL - 徐徐海風篇 - Ch.Andrew</a></li>
+          <li><a href="http://www.flickr.com/photos/kevinwenyu/sets/72157629560380785/">MozTW
+              摩茲連續聚 KL - 徐徐海風篇 - Kevin-WY</a></li>
         </ul>
       </div>
-      <code><br style="clear: both;">
-        <!--#include virtual="/inc/footer.html" --> </code><code><br>
-      </code> </div>
+      <br style="clear: both;">
+      <!--#include virtual="/inc/footer.html" --> <br>
+    </div>
   </body>
 </html>
