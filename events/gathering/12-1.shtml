@@ -1,4 +1,6 @@
+
     <meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
+    <meta content="text/html;charset=UTF-8">
     <title>MozTW 摩茲連續聚 KL 徐徐海風篇 - MozTW</title>
     <link rel="stylesheet" type="text/css" href="gathering.css" media="screen">
     <!--#include virtual="/inc/class_press.html" -->
@@ -15,6 +17,7 @@
         人數上限 10 人</p>
       <h3>其他連結</h3>
       <p><a href="http://registrano.com/events/moztw-keelung-12-1-part-2">報名頁面</a>、<a
+
           href="https://etherpad.mozilla.org/moztw-gethering-12-1">活動籌劃</a><br>
         <a href="http://registrano.com/events/moztw-keelung-12-1-part-1">基隆廟口篇</a>
       </p>
@@ -51,12 +54,15 @@
           <h2>Mozilla &amp; MozTW: Our Open Community <span class="speaker">By
               Irvin</span></h2>
           <iframe src="https://docs.google.com/viewer?authuser=0&amp;srcid=0B9BU22m9p7kqUVBhS291eXZQTUE&amp;pid=explorer&amp;a=v&amp;chrome=false&amp;embedded=true"
+
             height="480" width="640"></iframe><br>
           投影片作者：<a href="http://weblogs.mozillazine.org/chofmann/">Chofmann</a><br>
           <h2>瀏覽器考古 <span class="speaker">By Kevin-WY</span></h2>
           <div style="width: 425px;" id="__ss_11959612"> <strong style="display: block; margin: 12px 0px 4px;"></strong>
             <iframe src="http://www.slideshare.net/slideshow/embed_code/11959612"
+
               marginwidth="0" marginheight="0" frameborder="0" height="497" scrolling="no"
+
               width="595"></iframe> </div>
           <h2>Introduction to BrowserID <span class="speaker">By Orinx</span></h2>
           <iframe src="http://lab.orinx.com/clipboard/slide/" style="width: 595px; height: 497px;"></iframe>
