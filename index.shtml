@@ -131,7 +131,7 @@
 	  <p><b>帶著 Firefox 趴趴走。</b>無縫同步電腦與 Android/Maemo 行動裝置，智慧畫面讓您輸入更少、更快打開想看的網站。安裝套件與佈景主題，把行動版 Firefox 也打造成您的樣子！<br>→ 看看 <a href="http://m.youtube.com/#/watch?v=zCe_1DxBQDc">介紹 Firefox for Android</a> 短片</p>
   </div>
   <div class="frontcolumn" id="feature-thunderbird">
-      <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-front-thunderbird.png" alt="Thunderbird" class="promo"></a></h2>
+      <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-front-thunderbird.png" alt="Thunderbird Logo" class="promo"></a></h2>
 	  <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
   </div>
   <div class="frontcolumn hide">
@@ -139,12 +139,12 @@
     <p>立刻造訪 <a href="https://demos.mozilla.org/">Mozilla 奇幻網路</a>，看看設計師們透過 HTML5 &amp; WebGL 的技術，所打造出各種無與倫比的網路旅程！</p>
   </div>
   <div class="frontcolumn">
-    <h2><a href="/contribute/">參與我們<img class="promo" src="/images/toy_gold_32.png"></a></h2>
+    <h2><a href="/contribute/">參與我們<img src="/images/toy_gold_32.png" alt="Contribute Logo" class="promo"></a></h2>
 	<p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！</p>
   </div>
   <div class="frontcolumnlast">
-    <h2><a href="https://affiliates.mozilla.org/" target="_blank">Firefox 夥伴計畫<img class="promo" src="/images/Pocketfox.png"></a></h2>
-	<p>在你的網站貼上 Firefox 貼紙，向全世界分享你對 Firefox 的熱愛，同時還能贏得 Mozilla 紀念品！</p>
+    <h2><a href="http://www.seamonkey-project.org/releases/" target="_blank">SeaMonkey 正體中文版<img src="/images/seamonkey64.png" alt="SeaMonkey Logo" class="promo"></a></h2>
+	<p>如果您喜愛 Firefox，也想同時擁有 Thunderbird 的強大威力，又或者是您想回味以往的 Mozilla Suite，歡迎試試最新推出的 SeaMonkey 正體中文版！</p>
   </div>
   </div>
   <br style="clear: both;">
