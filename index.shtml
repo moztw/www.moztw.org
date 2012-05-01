@@ -22,22 +22,16 @@
 }
 
 #flicks {
-    height: 300px;
-    position: absolute;
-    right: 0;
-    top: 15px;
-    width: 500px;
-    display: block;
+  display: block;
+  height: 295px;
+  overflow: hidden;
+  padding-top: 30px;
+  position: absolute;
+  right: 0;
+  top: -30px;
+  width: 500px;
 }
 
-#flicks:hover {
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    margin-top: -50px;
-}
 #flicks .frame {
     background: url("images/4-feature-event.png") no-repeat right top transparent;
     height: 1500px;
@@ -48,35 +42,29 @@
     z-index: 50;
 }
 
-#flicks .title {
-    color: white;
-    font: bold 28px/1em "Heiti TC", "Apple LiGothic", "Droid Sans Fallback", "微軟正黑體", "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-    left: 88px;
-    padding: 0 0 0 173px;
-    position: absolute;
-    text-shadow: 0 2px 5px black;
-    top: 500px;
-    z-index: 100;
-}
-#flicks:hover .title {
-    -moz-transition: all .5s;
-    -ms-transition: all .5s;
-    -o-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    top: 270px;
-}
-#flicks .title img {
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 170px;
-}
-#flicks img {
-    left: 42px;
+#flicks .img-wraper {
+    left: 41px;
+    overflow: hidden;
+    padding: 0;
     position: absolute;
     top: 143px;
-    width: 430px;
+    width: 431px;
+}
+
+#flicks .title {
+    color: #2F2D30;
+    font: bold 15px/1.25em "Heiti TC","Apple LiGothic","Droid Sans Fallback","微軟正黑體","Helvetica Neue",Arial,Helvetica,Geneva,sans-serif;
+    left: 232px;
+    position: absolute;
+    top: 228px;
+    z-index: 100;
+    /*text-shadow: 0 2px 5px black;*/
+}
+#flicks img {
+    left: -11px;
+    position: relative;
+    top: -10px;
+    width: 472px;
 }
 -->
 </style>
@@ -85,17 +73,10 @@
 #flicks {
     overflow: hidden;
     cursor: pointer;
-    height: 280px;
-}
-#flicks:hover {
-    margin-top: -10px;
-    height: 290px;
-}
-#flicks .title {
-    display: none;
+/*    height: 280px;*/
 }
 #flicks img {
-    left: 27px;
+/*    left: 27px; */
 }
 </style>
 <![endif]-->
@@ -104,11 +85,13 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-  <a id="flicks" class="fancybox.iframe" href="flicksmovie.html" target="_blank" title="">
-      <p class="title"><img src="images/firefox-flicks-title.png" alt="">全球短片競賽</p>
-      <div class="frame"></div>
-      <img src="images/firefox-flicks.jpg" alt="Firefox Flicks">
-  </a>
+    <a id="flicks" href="/outgo/mocotw-clinic.html"  onClick="_gaq.push(['_trackEvent', 'Campaign', 'Outgoing', 'Mozilla Taiwan Firefox Clinic']);" target="_blank" title="火狐幫幫忙">
+        <p class="title">火狐最近不聽話、上網不順好苦惱？</p>
+        <div class="frame"></div>
+        <div class="img-wraper">
+            <img src="http://mozilla.com.tw/assets/css/img/mozcomtw/banner-0427.png" alt="火狐幫幫忙" >
+        </div>
+    </a>
   <div id="feature-content">
     <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox" height="60" width="200"></a></h2>
     <p>全新外觀、速度超快，<a href="/firefox/">Firefox</a> 讓一切都變得更加美好！</p>
