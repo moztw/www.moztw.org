@@ -3,43 +3,33 @@
 <head>
 <title>SeaMonkey Landing Page - MozTW</title>
 <style>
-body {
-background-color: black;
-font-size: 18px;
-text-align: center;
-margin: 5px;
-}
-a {
-text-decoration: none;
-color: #777;
-}
-a:hover { color: #bbb; }
-img {
-float: left;
-height: 525px;
-margin-left: 40px;
-}
-p {
-line-height: 525px;
-margin: 0;
-}
 </style>
 <script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-1035080-1']);
-  _gaq.push(['_setDomainName', 'moztw.org']);
-  _gaq.push(['_trackPageview']);
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-1035080-1']);
+      _gaq.push(['_setDomainName', 'moztw.org']);
+      _gaq.push(['_trackPageview']);
+    
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    function recordOutboundLink(link, category, action) {
+      try {
+        var myTracker=_gat._getTrackerByName();
+        _gaq.push(['myTracker._trackEvent', ' + category + ', ' + action + ']);
+        setTimeout('document.location = "' + link + '"', 100)
+      }catch(err){}
+    };
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+    window.onload = function ()
+    {
+        recordOutboundLink("http://www.seamonkey-project.org/releases/", 'Outbound Links', 'seamonkey-project.org');
+    };
 </script>
 </head>
-<!-- FIXME: Rewrite to the moztw-style download page -->
 <body>
-	<a href="http://www.seamonkey-project.org/releases/"><p>→ 點下此處，至 SeaMonkey Project 網站進行下載。</p></a>
 </body>
 </html>
