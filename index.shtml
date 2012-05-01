@@ -73,10 +73,19 @@
 #flicks {
     overflow: hidden;
     cursor: pointer;
-/*    height: 280px;*/
+    top: 0;
+    height: 265px;
+}
+#flicks .img-wraper {
+    left: 25px;
+    margin-top: -10px;
 }
 #flicks img {
-/*    left: 27px; */
+    height: 211px;
+}
+#flicks .title {
+    font-size: 14px;
+    left: 220px;
 }
 </style>
 <![endif]-->
