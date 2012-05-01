@@ -68,6 +68,13 @@
 }
 -->
 </style>
+<!--[if IE 7]>
+<style>
+.frontcolumn {
+    padding-right: 2%;
+}
+</style>
+<![endif]-->
 <!--[if IE 6]>
 <style>
 #flicks {
