@@ -134,17 +134,18 @@
       <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-front-thunderbird.png" alt="Thunderbird Logo" class="promo"></a></h2>
 	  <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
   </div>
-  <div class="frontcolumn hide">
+  <!--<div class="frontcolumn hide">
     <h2><a href="https://demos.mozilla.org/">Web O’ Wonder<img src="/images/HTML5_Badge_64.png" alt="HTML5 Logo"  class="promo"></a></h2>
     <p>立刻造訪 <a href="https://demos.mozilla.org/">Mozilla 奇幻網路</a>，看看設計師們透過 HTML5 &amp; WebGL 的技術，所打造出各種無與倫比的網路旅程！</p>
   </div>
+  -->
   <div class="frontcolumn">
-    <h2><a href="/contribute/">參與我們<img src="/images/toy_gold_32.png" alt="Contribute Logo" class="promo"></a></h2>
-	<p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！</p>
+    <h2><a href="inc/dlsm.html" target="_blank">SeaMonkey 正體中文版<img src="/images/seamonkey64.png" alt="SeaMonkey Logo" class="promo"></a></h2>
+	<p>如果您喜愛 Firefox，也想同時擁有 Thunderbird 的強大威力，又或者想回味以往的 Mozilla Suite，歡迎試試最新推出的 <a href="inc/dlsm.html" target="_blank">SeaMonkey 正體中文版</a>。</p>
   </div>
   <div class="frontcolumnlast">
-    <h2><a href="inc/dlsm.html" target="_blank">SeaMonkey 正體中文版<img src="/images/seamonkey64.png" alt="SeaMonkey Logo" class="promo"></a></h2>
-	<p>如果您喜愛 Firefox，也想同時擁有 Thunderbird 的強大威力，又或者是您想回味以往的 Mozilla Suite，歡迎試試最新推出的 SeaMonkey 正體中文版！</p>
+    <h2><a href="/contribute/">參與我們<img src="/images/toy_gold_32.png" alt="Contribute Logo" class="promo"></a></h2>
+	<p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！</p>
   </div>
   </div>
   <br style="clear: both;">
