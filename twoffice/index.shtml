@@ -33,13 +33,13 @@ $(document).ready(function(){
 
 <div id="moztw-annu" class="key-point">
 <span class="foxmosaimg"><img src="/foxmosa/images/foxmosa-pixel-2.png" alt=""></span>
-Mozilla 台灣社群（MozTW）自 2004 年以來，持續進行 Mozilla 中文網站、軟體在地化、抓火狐、開發工作坊等專案，並舉辦<a href="http://moztw.org/events/">連續聚、Firefox Party 等活動</a>與大家同樂。MozTW 竭誠歡迎 Mozilla 於 2012 年來台設立分公司，今後我們仍將一如往常，維持社群獨立性，與秉持開放精神、支持 <a href="http://moztw.org/about/mozillamanifesto.html">Mozilla 宣言</a>的組織合作，為保持網路的開放與創新不斷努力。以下為 Mozilla 台灣公司的職缺資訊，供您參考；當然也歡迎您<a href="http://moztw.org/contribute/">加入 MozTW 社群</a>，與我們一同秉持歡樂的原則致力提昇大家的網路體驗。
+Mozilla 台灣社群（MozTW）自 2004 年以來，持續進行 Mozilla 中文網站、軟體在地化、抓火狐、開發工作坊等專案，並舉辦<a href="/events/">連續聚、Firefox Party 等活動</a>與大家同樂。MozTW 竭誠歡迎 Mozilla 於 2012 年來台設立分公司，今後我們仍將一如往常，維持社群獨立性，與秉持開放精神、支持 <a href="/about/mozillamanifesto.html">Mozilla 宣言</a>的組織合作，為保持網路的開放與創新不斷努力。以下為 Mozilla 台灣公司的職缺資訊，供您參考；當然也歡迎您<a href="/contribute/">加入 MozTW 社群</a>，與我們一同秉持歡樂的原則致力提昇大家的網路體驗。
 </div>
 
 <div class="key-point">
     <div class="title">
         <h1>美商謀智（Mozilla）公司登台，歡迎頂尖軟體好手加入！</h1>
-        <p>行動上網將是下一波網路革命的發生地。Mozilla 在推出 Firefox Home 與 Firefox 行動版之後，更進一步啟動以 Firefox 核心為基底的行動裝置作業系統專案「<a href="https://wiki.mozilla.org/B2G">Boot to Gecko</a>」，即將在你的手上再掀浪潮；更棒的是，<strong>現在你有機會成為這個專案的一份子！</strong></p>
+        <p>行動上網將是下一波網路革命的發生地。Mozilla 在推出 Firefox Home 與 Firefox 行動版之後，更進一步啟動以 Firefox 核心為基底的行動裝置作業系統專案「<a href="https://wiki.mozilla.org/B2G" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla Wiki: B2G', '/twoffice']);">Boot to Gecko</a>」，即將在你的手上再掀浪潮；更棒的是，<strong>現在你有機會成為這個專案的一份子！</strong></p>
         <p>如果你正在尋找一個可以盡情展現才能、充滿挑戰與機會的國際舞台，同時自認為有能力、有熱忱、有理想，Mozilla 歡迎你加入我們的行列，共同見證並參與網路的另一個轉捩點！</p>
 	</div>
 
@@ -72,10 +72,10 @@ Mozilla 台灣社群（MozTW）自 2004 年以來，持續進行 Mozilla 中文�
         </div>
 
         <div class="apply">
-            <a href="mailto:career-tw@mozilla.com">
+            <a href="mailto:career-tw@mozilla.com" onClick="_gaq.push(['_trackEvent', 'Send Mail', 'twoffice', '/twoffice/']);">
                 <span>&nbsp;立刻行動！</span>
             </a>
-                <p>請將履歷寄至 <a href="mailto:career-tw@mozilla.com">career-tw@mozilla.com</a></p>
+                <p>請將履歷寄至 <a href="mailto:career-tw@mozilla.com" onClick="_gaq.push(['_trackEvent', 'Send Mail', 'twoffice', '/twoffice/']);">career-tw@mozilla.com</a></p>
             
         </div>
 </div>
