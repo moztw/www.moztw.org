@@ -101,7 +101,7 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-    <a id="flicks" href="http://blog.mozilla.com.tw/events/%E7%81%AB%E7%8B%90%E5%B9%AB%E5%B9%AB%E5%BF%99-%E5%8F%B0%E5%8C%97%E5%A0%B1%E5%88%B0%EF%BC%81" onClick="_gaq.push(['_trackEvent', 'Campaign', 'Outgoing', 'Mozilla Taiwan Firefox Clinic']);" target="_blank" title="火狐幫幫忙">
+    <a id="flicks" href="http://blog.mozilla.com.tw/events/%E7%81%AB%E7%8B%90%E5%B9%AB%E5%B9%AB%E5%BF%99-%E5%8F%B0%E5%8C%97%E5%A0%B1%E5%88%B0%EF%BC%81" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla Taiwan Firefox Clinic', 'frntpage featuring']);" target="_blank" title="火狐幫幫忙">
         <p class="title">火狐最近不聽話、上網不順好苦惱？</p>
         <div class="frame"></div>
         <div class="img-wraper">
