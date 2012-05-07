@@ -152,3 +152,4 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 	);
 })(jQuery);
 </script>
+<!--#include virtual="/inc/footer.html" -->
