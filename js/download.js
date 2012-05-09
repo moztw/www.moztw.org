@@ -28,12 +28,12 @@ function highlightDownload() {
     }
   }
   // 換首頁圖
-  // disable when events
+  /* disable for flicks events
   var eFeature = document.getElementById("front-feature");
   if (eFeature && platform != "unknown" && platform != "win") {
     eFeature.style.backgroundImage = "url(images/4-feature-" + platform + ".png)";
   }
-  
+  */
   
   // 換首頁 Feature Block
   eFeature = document.getElementById("replace-this");
