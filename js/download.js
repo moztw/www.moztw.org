@@ -36,7 +36,7 @@ function highlightDownload() {
   */
   
   // 換首頁 Feature Block
-  eFeature = document.getElementById("replace-this");
+  eFeature = document.getElementById("feature-thunderbird");
   if (eFeature && platform != "unknown"){
 	if (platform == "ios"){
 		eFeature.className += " hide";
