@@ -147,6 +147,7 @@ and (max-width : 500px) {
     </h2>
 	<!--#include virtual="/inc/news.html" -->
 	</ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
+	<p style="clear: both;"><a href='news'>所有公告記錄</a></p>
     </div>
     <div class="frontcolumnlast">
 	  <h2>快速捷徑</h2>
@@ -164,7 +165,6 @@ and (max-width : 500px) {
 	<br style="clear: both;">
   <!-- End News Columns -->  
   </div>
-	<a href='news'>所有公告記錄</a>
   </div>
 <script type="text/javascript" 
 src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
