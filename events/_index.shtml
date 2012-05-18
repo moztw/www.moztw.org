@@ -1,0 +1,35 @@
+<!--#include virtual="/inc/meta.html" -->
+
+<title>MozTW Events</title>
+<link rel="stylesheet" type="text/css" href="events.css" media="screen"> 
+
+<!--#include virtual="/inc/class_press.html" -->
+
+<!--#include virtual="/inc/header.html" -->
+
+<h1>MozTW 過去、現在及未來的活動</h1>
+
+<ol id="event-list">
+    <li id="sfd2011"><a href="sfd2011/">2011 SFD Party<span class="date">2011/09</span></a>
+    <li id="firefox4party"><a href="firefox4party/">Firefox 4 Party<span class="date">2011/04</span></a>
+    <li id="jetpack-workshop"><a href="jetpack-workshop/">Jetpack 擴充套件工作坊<span class="date">2010/03</span></a>
+    <li id="personas"><a href="3.6personas/">秀風格<span class="date">2010/01</span></a>
+    <li id="may2009"><a href="may2009/">火狐月<span class="date">2009/05</span></a>
+    <li id="ie8"><a href="ie8/">用 Firefox 體驗 IE8 功能<span class="date">2009/04/01</span></a>
+    <li id="vday2009"><a href="vday2009/">MozTW Foxmosa 情人節電子賀卡<span class="date">2009/02/14</span></a>
+    <li id="foxmosa-tour"><a href="foxmosa-tour/">火狐鬥陣遊台灣<span class="date">2009/05</span></a>
+    <li id="firefox3party"><a href="firefox3party/">Firefox 3 Party<span class="date">2008/07/19</span></a>
+    <li id="record2008"><a href="record2008/">手滑創記錄<span class="date">2008/05/30</span></a>
+    <li id="firefox2party"><a href="firefox2party/">Firefox 2 Party<span class="date">2006/11/12</span></a>
+    <li id="sfx"><a href="sfx/">放火行動<span class="date">2004</span></a>
+</ol>
+
+<h1>MozTW 其他活動</h1>
+
+<ul>
+    <li><a href="http://ossacc.moe.edu.tw/modules/newbb/viewtopic.php?post_id=790" >擴充套件工作坊</a></li>
+    <li><a href="http://mozlinks-zh.blogspot.com/2009/08/moztw-at-coscup-2009.html">COSCUP 2009</a></li>
+    <li><a href="http://forum.moztw.org/viewtopic.php?t=28759">開發合宿</a></li>
+</ul>
+
+<!--#include virtual="/inc/footer.html" -->

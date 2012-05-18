@@ -1,0 +1,100 @@
+<!--#include virtual="/inc/meta.html" -->
+
+<title>Firefox x Ubuntu 12.04 Release Party</title>
+<link href="css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
+<!--#include virtual="/inc/class_press.html" -->
+
+<!--#include virtual="/inc/header.html" -->
+	
+	<header id="header2" class="container">
+		<!--<h1><span style="color: #F60">Firefox</span> x <span style="color: #772953">Ubuntu</span> 12.04 Release Party</h1>-->
+	</header>
+	
+	<div id="main" class="container">
+		
+		<section id="info">
+			<h2>活動地點</h2>
+			<div class="row content">
+				<div id="map" class="left">
+				</div>
+			</div>
+		</section>
+		
+		<section id="introduction">
+			<h2>活動簡介</h2>
+			<p>
+從 4.0 開始進入快速更新週期的 Firefox 12，<br />
+與每半年一版，兩年一長期支援的 Ubuntu 12.04 LTS Precise Pangolin，<br />
+分別於 4 月 23 及 26 日正式釋出。<br />
+			</p>
+			<p>
+為了響應如此難得的機會，<br />
+MozTW 與 Ubuntu-TW 將在台中聯合舉辦 Party 啦！
+			</p>
+		</section>
+		
+		<section id="photos">
+			<h2>活動相片</h2>
+			<div class="content">
+				<a href="" class="left-btn"></a>
+				<a href="" class="right-btn"></a>
+				<ul>
+					<li><img src="images/16645379_827e14f0f4.jpg" />
+					<li><img src="images/16645379_827e14f0f4.jpg" />
+					<li><img src="images/16645379_827e14f0f4.jpg" />
+					<li><img src="images/16645379_827e14f0f4.jpg" />
+					<li><img src="images/16645379_827e14f0f4.jpg" />
+					<li><img src="images/16645379_827e14f0f4.jpg" />
+					<li><img src="images/16645379_827e14f0f4.jpg" />
+					<li><img src="images/16645379_827e14f0f4.jpg" />
+					<li><img src="images/16645379_827e14f0f4.jpg" />
+				</ul>
+			</div>
+		</section>
+		
+		<section id="slides">
+			<h2>活動簡報</h2>
+			<p>還沒有簡報.......</p>
+		</section>
+		
+		<section id="blog">
+			<h2>Blog、相簿大串連</h2>
+			<p>還沒有串連.......</p>
+		</section>
+		
+		<section id="information">
+			<h2>活動資訊</h2>
+			<ul>
+				<li>時間：5/27 下午 2:00（1:45 開始進場）
+				<li>地點：水舞饌中港店（台中市西區中港路一段121號）
+				<li>費用：200 元
+			</ul>
+			<h3>內容</h3>
+			<ul>
+				<li>吃吃喝喝是一定要的啊！
+				<li>各路熱血好手，分享各種有趣的主題。
+				<li>學習 ubuntu 及 Firefox 使用技巧
+			</ul>
+			還可以
+			<ul>
+				<li>抓人幫你解決 ubuntu 及 Firefox 的問題
+				<li>認識新朋友
+				<li>A 紀念品
+				<li>族繁不及備載
+			</ul>
+			<h3>交通</h3>
+			<ul>
+				<li>在朝馬下車者可在統聯朝馬站搭乘83區，或是到中港路上搭乘 48、57、83、86、87、88、106、146 到民權路口站。
+				<li>在台中火車站下車者可到統聯客運搭乘83、86、87、88，或是到對面麥當勞搭乘 57、88、146 到民權路口站，也可以到南投客運轉運站搭乘 81 到中港路口站。
+				<li>只要有行經台中港路的公車，都可以在「中港民權路口」下車。
+			</ul>
+		</section>
+		
+	</div>
+
+<!--#include virtual="/inc/footer.html" -->
+
