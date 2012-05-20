@@ -88,6 +88,7 @@ jQuery(function(){
 		
 		$h2s.each(function(){
 			var $this = $(this);
+			if ($this.parent('section').hasClass('hide')) return;
 			$ul.append('<li><a href="#' + $this.parent('section').attr('id') + '">' + $this.text() + '</a></li>');
 		});
 		

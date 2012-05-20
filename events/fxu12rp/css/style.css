@@ -170,6 +170,11 @@ input[type="submit"]{
 	margin: 10px 0;
 }
 
+#sponsership{
+	text-align: center;
+	line-height: 30px;
+}
+
 #info .content{
 	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
 	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
@@ -313,4 +318,29 @@ input[type="submit"]{
 #bnav li:hover{
 	margin-left: -40px;
 	background: #F60;
+}
+
+#bnav li:hover a{
+	background: none;
+}
+
+/* from registrano */
+.registration a.register-now {
+    background: url("http://registrano.com/images/themes3/logo-button.png") no-repeat scroll 22px 12px #417897;
+    border-radius: 7px 7px 7px 7px;
+    color: #FEFFFE;
+    display: block;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    margin: 35px auto;
+    opacity: 0.9;
+    padding: 0 15px 0 45px;
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.62);
+    width: 75px;
+}
+.registration a.register-now:hover {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 0 5px rgba(255, 254, 255, 0.44);
 }

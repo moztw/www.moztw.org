@@ -2,7 +2,7 @@
 
 <title>MozTW Events</title>
 <link rel="stylesheet" type="text/css" href="events.css" media="screen"> 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>
 jQuery(function($){
 	
@@ -55,8 +55,6 @@ jQuery(function($){
 	e.init();
 });
 </script>
-
-<!--#include virtual="/inc/class_press.html" -->
 
 <!--#include virtual="/inc/header.html" -->
 

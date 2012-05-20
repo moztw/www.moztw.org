@@ -88,7 +88,7 @@ and (max-width : 500px) {
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-    <a id="flicks" href="http://registrano.com/events/fxu12rp" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FxU-12-Party', 'frontpage featur block']);" target="_blank" title="Firefox x Ubuntu 12(.04) Release Party">
+    <a id="flicks" href="http://moztw/events/fxu12rp/" title="Firefox x Ubuntu 12(.04) Release Party">
         <div class="frame"></div>
     </a>
   <div id="feature-content">

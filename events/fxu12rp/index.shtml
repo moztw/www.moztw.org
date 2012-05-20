@@ -3,10 +3,8 @@
 <title>Firefox x Ubuntu 12.04 Release Party</title>
 <link href="css/style.css" rel="stylesheet" />
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="js/main.js"></script>
-
-<!--#include virtual="/inc/class_press.html" -->
 
 <!--#include virtual="/inc/header.html" -->
 	
@@ -35,9 +33,13 @@
 為了響應如此難得的機會，<br />
 MozTW 與 Ubuntu-TW 將在台中聯合舉辦 Party 啦！
 			</p>
+			
+            <div class="registration">
+                <a class="register-now" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FxU-12-Party', 'moztw-events-fxu12rp']);" target="_blank" href="https://registrano.com/events/fxu12rp/registrations/new" target="_blank">馬上報名</a>
+            </div>
 		</section>
-		
-		<section id="photos">
+				
+		<section id="photos" class="hide" style="clear:both">
 			<h2>活動相片</h2>
 			<div class="content">
 				<a href="" class="left-btn"></a>
@@ -56,12 +58,12 @@ MozTW 與 Ubuntu-TW 將在台中聯合舉辦 Party 啦！
 			</div>
 		</section>
 		
-		<section id="slides">
+		<section id="slides" class="hide">
 			<h2>活動簡報</h2>
 			<p>還沒有簡報.......</p>
 		</section>
 		
-		<section id="blog">
+		<section id="blog" class="hide">
 			<h2>Blog、相簿大串連</h2>
 			<p>還沒有串連.......</p>
 		</section>
@@ -93,6 +95,16 @@ MozTW 與 Ubuntu-TW 將在台中聯合舉辦 Party 啦！
 				<li>只要有行經台中港路的公車，都可以在「中港民權路口」下車。
 			</ul>
 		</section>
+
+        <section id="sponsership">
+        	<h2>熱情支援</h2>
+        	<p>
+        	    <a title="Mozilla Taiwan 美商謀智" href="http://mozilla.com.tw">
+        	        <img src="images/sponsor-moztw-240.png" alt="Mozilla Taiwan 美商謀智">
+        	    </a>
+        	</p>
+        </section>
+
 		
 	</div>
 
