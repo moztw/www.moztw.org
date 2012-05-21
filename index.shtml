@@ -33,12 +33,12 @@
     margin: 0 0 25px;
 }
 
-#flicks {
+#fxu12rppromo {
     overflow: hidden;
     cursor: pointer;
 }
 
-#flicks .frame {
+#fxu12rppromo .frame {
     background: url("/events/fxu12rp/Ubuntu_Firefox_1204_Release_Party_Landscape.png") no-repeat right bottom;
     height: 100%;
     padding: 0;
@@ -57,7 +57,7 @@ and (max-width : 500px) {
     #front-feature {
         padding-bottom: 315px;
     }
-    #flicks .frame {
+    #fxu12rppromo .frame {
         background-position: center bottom;
         width: 100%;
     }
@@ -74,7 +74,7 @@ and (max-width : 500px) {
 <![endif]-->
 <!--[if IE 6]>
 <style>
-#flicks {
+#fxu12rppromo {
     position: absolute;
     top: 0;
     right: 0;
@@ -88,7 +88,7 @@ and (max-width : 500px) {
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-    <a id="flicks" href="http://moztw/events/fxu12rp/" title="Firefox x Ubuntu 12(.04) Release Party">
+    <a id="fxu12rppromo" href="http://moztw.org/events/fxu12rp/" title="Firefox x Ubuntu 12(.04) Release Party">
         <div class="frame"></div>
     </a>
   <div id="feature-content">
