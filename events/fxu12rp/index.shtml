@@ -45,15 +45,15 @@ MozTW 與 Ubuntu-TW 將在台中聯合舉辦 Party 啦！
 				<a href="" class="left-btn"></a>
 				<a href="" class="right-btn"></a>
 				<ul>
-					<li><img src="images/16645379_827e14f0f4.jpg" />
-					<li><img src="images/16645379_827e14f0f4.jpg" />
-					<li><img src="images/16645379_827e14f0f4.jpg" />
-					<li><img src="images/16645379_827e14f0f4.jpg" />
-					<li><img src="images/16645379_827e14f0f4.jpg" />
-					<li><img src="images/16645379_827e14f0f4.jpg" />
-					<li><img src="images/16645379_827e14f0f4.jpg" />
-					<li><img src="images/16645379_827e14f0f4.jpg" />
-					<li><img src="images/16645379_827e14f0f4.jpg" />
+					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
+					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
+					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
+					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
+					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
+					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
+					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
+					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
+					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
 				</ul>
 			</div>
 		</section>
@@ -71,38 +71,36 @@ MozTW 與 Ubuntu-TW 將在台中聯合舉辦 Party 啦！
 		<section id="information">
 			<h2>活動資訊</h2>
 			<ul>
-				<li>時間：5/27 下午 2:00（1:45 開始進場）
-				<li>地點：水舞饌中港店（台中市西區中港路一段121號）
-				<li>費用：200 元
+				<li>時間：5/27 下午 2:00（1:45 開始進場）</li>
+				<li>地點：水舞饌中港店（台中市西區中港路一段121號）</li>
+				<li>費用：200 元</li>
 			</ul>
 			<h3>內容</h3>
 			<ul>
-				<li>吃吃喝喝是一定要的啊！
-				<li>各路熱血好手，分享各種有趣的主題。
-				<li>學習 ubuntu 及 Firefox 使用技巧
+				<li>吃吃喝喝是一定要的啊！</li>
+				<li>各路熱血好手，分享各種有趣的主題。</li>
+				<li>學習 ubuntu 及 Firefox 使用技巧</li>
 			</ul>
 			還可以
 			<ul>
-				<li>抓人幫你解決 ubuntu 及 Firefox 的問題
-				<li>認識新朋友
-				<li>A 紀念品
-				<li>族繁不及備載
+				<li>抓人幫你解決 ubuntu 及 Firefox 的問題</li>
+				<li>認識新朋友</li>
+				<li>A 紀念品</li>
+				<li>族繁不及備載</li>
 			</ul>
 			<h3>交通</h3>
 			<ul>
-				<li>在朝馬下車者可在統聯朝馬站搭乘83區，或是到中港路上搭乘 48、57、83、86、87、88、106、146 到民權路口站。
-				<li>在台中火車站下車者可到統聯客運搭乘83、86、87、88，或是到對面麥當勞搭乘 57、88、146 到民權路口站，也可以到南投客運轉運站搭乘 81 到中港路口站。
-				<li>只要有行經台中港路的公車，都可以在「中港民權路口」下車。
+				<li>在朝馬下車者可到中港路上搭乘 48、57、83、86、87、88、106、146 到民權路口站。</li>
+				<li>在台中火車站下車者可到統聯客運搭乘 83、86、87，<br>或是到車站正對面的台中客運總站搭乘 57、88、106 和 146 到民權路口站，<br>也可以到南投客運轉運站搭乘 81 到中港路口站。</li>
+				<li>只要有行經台中港路的公車，都可以在「中港民權路口」下車。</li>
 			</ul>
 		</section>
 
         <section id="sponsership">
         	<h2>熱情支援</h2>
-        	<p>
-        	    <a title="Mozilla Taiwan 美商謀智" href="http://mozilla.com.tw">
-        	        <img src="images/sponsor-moztw-240.png" alt="Mozilla Taiwan 美商謀智">
-        	    </a>
-        	</p>
+    	    <a title="Mozilla Taiwan 美商謀智" href="http://mozilla.com.tw">
+    	        <img src="images/sponsor-moztw-240.png" alt="Mozilla Taiwan 美商謀智">
+    	    </a>
         </section>
 
 		

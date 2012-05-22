@@ -268,10 +268,11 @@ input[type="submit"]{
 }
 
 #information ul li{
-	list-style: none;
-	padding-left: 10px;
-	border-left: 1px #CCC solid;
-	margin: 5px 0;
+	border-left: 1px solid #CCC;
+    line-height: 1.75em;
+    list-style: none outside none;
+    margin: 5px 0;
+    padding-left: 10px;
 }
 
 #footer{
