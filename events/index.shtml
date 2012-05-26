@@ -101,7 +101,7 @@ jQuery(function($){
 			
 			
             <div class="group">
-        		<a href="http://moztw/events/gathering/12-1.shtml" title="摩茲連續聚KL 徐徐海風篇">
+        		<a href="gathering/12-1.shtml" title="摩茲連續聚KL 徐徐海風篇">
                 <article class="small">
                     <header>
                     	<h2>摩茲連續聚KL 徐徐海風篇</h2>
@@ -141,7 +141,7 @@ jQuery(function($){
 			</a>
 			
 			<div class="group">
-            	<a href="http://moztw/events/gathering/11-1.shtml" title="摩茲連續聚TY光輝十月篇">
+            	<a href="gathering/11-1.shtml" title="摩茲連續聚TY光輝十月篇">
                 <article class="small">
                     <header>
                     	<h2>摩茲連續聚TY光輝十月篇</h2>
