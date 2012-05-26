@@ -1,11 +1,9 @@
 <!--#include virtual="/inc/meta.html" -->
-<html>
-  <head>
-    <meta content="text/html;charset=UTF-8" http-equiv="Content-Type">
-    <title>MozTW Events</title>
-    <link rel="stylesheet" type="text/css" href="events.css" media="screen">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script>
+
+<title>MozTW Events</title>
+<link rel="stylesheet" type="text/css" href="events.css" media="screen"> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>
 jQuery(function($){
 	
 	var e = {
@@ -56,223 +54,305 @@ jQuery(function($){
 	
 	e.init();
 });
-</script><!--#include virtual="/inc/header.html" -->
-  </head>
-  <body>
-    <h1>MozTW 過去、現在及未來的活動</h1>
-    <div id="event-list">
-      <div class="events">
-        <div> <iframe id="calendar" src="https://www.google.com/calendar/embed?src=oib3k43ofedochrh6tqaqdva04%40group.calendar.google.com&amp;ctz=Asia/Taipei">
-          </iframe> </div>
-        <a href="fxu12rp/">
-          <article class="on">
-            <header>
-              <h2>Firefox x Ubuntu 12.04 Release Party</h2>
-              <time pubdate="pubdate">2012/05</time> <span class="arrow"></span>
-            </header>
-            <div class="photo" style="background:url(fxu12rp/images/small.png) -572px -248px">
+</script>
+
+<!--#include virtual="/inc/header.html" -->
+
+<h1>MozTW 過去、現在及未來的活動</h1>
+
+	<div id="event-list">
+		
+		<div class="events">
+		
+			<div>
+				<iframe id="calendar" src="https://www.google.com/calendar/embed?src=oib3k43ofedochrh6tqaqdva04%40group.calendar.google.com&ctz=Asia/Taipei">
+				</iframe>
+			</div>
+		
+            <a href="fxu12rp/">
+			<article class="on">
+				<header>
+					<h2>Firefox x Ubuntu 12.04 Release Party</h2>
+					<time pubdate="pubdate">2012/05</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(fxu12rp/images/small.png) -572px -248px">
+				</div>
+				<div class="content">
+				從 4.0 開始進入快速更新週期的 Firefox 12，與每半年一版，兩年一長期支援的 Ubuntu 12.04 LTS Precise Pangolin，分別於 4 月 23 及 26 日正式釋出。為了響應如此難得的機會，MozTW 與 Ubuntu-TW 將在台中聯合舉辦 Party 啦！
+				</div>
+			</article>
+			</a>
+			
+			<a href="newyear2012/">
+			<article class="on">
+				<header>
+					<h2>2012 狐耳摩莎賀新年</h2>
+					<time pubdate="pubdate">2012/1</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(/foxmosa/images/foxmosa-2012newyear.png) -58px -173px">
+				</div>
+				<div class="content">
+				迎春賀喜龍年到，讓狐耳摩莎為您送出新年誠摯的祝福。
+				</div>
+			</article>
+			</a>
+			
+			
+            <div class="group">
+        		<a href="http://moztw/events/gathering/12-1.shtml" title="摩茲連續聚KL 徐徐海風篇">
+                <article class="small">
+                    <header>
+                    	<h2>摩茲連續聚KL 徐徐海風篇</h2>
+                    	<time pubdate="pubdate">2012/3/10</time>
+                    	<span class="arrow"></span>
+                    </header>
+        		    <img src="img/2012kl.jpg">
+                </article>
+                </a>
+                
+                <a href="http://registrano.com/events/moztw-gathering-2011dec18" title="摩茲連續聚TP 寒冬的 MozCamp">
+                <article class="small">
+                    <header>
+                        <h2>摩茲連續聚TP 寒冬的 MozCamp</h2>
+                        <time pubdate="pubdate">2011/12/18</time>
+                        <span class="arrow"></span>
+                    </header>
+                    <img src="img/20111218.jpg">
+                </article>
+                </a>
+                
             </div>
-            <div class="content"> 從 4.0 開始進入快速更新週期的 Firefox 12，與每半年一版，兩年一長期支援的
-              Ubuntu 12.04 LTS Precise Pangolin，分別於 4 月 23 及 26
-              日正式釋出。為了響應如此難得的機會，MozTW 與 Ubuntu-TW 將在台中聯合舉辦 Party 啦！ </div>
-          </article>
-        </a> <a href="newyear2012/">
-          <article class="on">
-            <header>
-              <h2>2012 狐耳摩莎賀新年</h2>
-              <time pubdate="pubdate">2012/1</time> <span class="arrow"></span>
-            </header>
-            <div class="photo" style="background:url(/foxmosa/images/foxmosa-2012newyear.png) -58px -173px">
+			
+			<a href="sfd2011/">
+			<article>
+				<header>
+					<h2>2011 SFD Party</h2>
+					<time pubdate="pubdate">2011/09</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(sfd2011/sumo.png) -180px -280px">
+				</div>
+				<div class="content">
+				繼去年 MozTW SUMO Party & Software Freedom Day 之後，今年 MozTW 也秉持一樣的想法，希望能在軟體自由日當天舉辦小活動，讓大家可以過來聚一聚，可以更認識 MozTW，也知道最近自由軟體的世界當中有什麼新鮮事，並且加入大家......
+				</div>
+			</article>
+			</a>
+			
+			<div class="group">
+            	<a href="http://moztw/events/gathering/11-1.shtml" title="摩茲連續聚TY光輝十月篇">
+                <article class="small">
+                    <header>
+                    	<h2>摩茲連續聚TY光輝十月篇</h2>
+                    	<time pubdate="pubdate">2011/10/22</time>
+                    	<span class="arrow"></span>
+                    </header>
+            	    <img src="gathering/11-1/01.jpg">
+                </article>
+            	</a>
+			</div>
+			
+			<a href="firefox4party/">
+			<article>
+				<header>
+					<h2>Firefox 4 Party</h2>
+					<time pubdate="pubdate">2011/04</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(firefox4party/feature-firefox-4-party.png) right center">
+				</div>
+				<div class="content">
+					Firefox 4 無論外觀或內在都是史上最大幅度的改版，而「火狐發威之曠4奇派」果然是最歡樂的火狐派對！在此就讓我們來回味一下吧。
+				</div>
+			</article>
+			</a>
+			
+			<a href="jetpack-workshop/">
+			<article>
+				<header>
+					<h2>Jetpack 擴充套件工作坊</h2>
+					<time pubdate="pubdate">2010/03</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(jetpack-workshop/feature_bg.jpg) left -100px">
+				</div>
+				<div class="content">
+				Jetpack 是 Firefox 全新的擴充套件開發框架，比起現有的擴充套件架構更為直接、簡單。<br />工作坊由 OSSF 和 MozTW 聯手合作......
+				</div>
+			</article>
+			</a>
+			
+			<a href="3.6personas/">
+			<article>
+				<header>
+					<h2>秀風格</h2>
+					<time pubdate="pubdate">2010/01</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(/images/36-feature-back.png) right center">
+				</div>
+				<div class="content">
+				步驟<br />
+				1.使用 Firefox 3.6，到 GetPersonas 換上你最喜歡的個性面板。<br />
+				2.開啟這個網頁，然後抓下整個 Firefox 的介面抓圖。<br />
+				......
+				</div>
+			</article>
+			</a>
+						
+            <div class="group">
+            	<a href="http://blog.toomore.net/2009/11/moztw-2009.html" title="MozTW 2009 開發合宿">
+                <article class="small">
+                    <header>
+                    	<h2>MozTW 2009 開發合宿</h2>
+                    	<time pubdate="pubdate">2009/11/21</time>
+                    	<span class="arrow"></span>
+                    </header>
+            	    <img src="img/20091121.jpg">
+                </article>
+            	</a>
+            	
+                <a href="http://mozlinks-zh.blogspot.com/2009/08/coscup-2009.html" title="COSCUP 2009">
+                <article class="small">
+                    <header>
+                    	<h2>COSCUP 2009</h2>
+                    	<time pubdate="pubdate">2009/8/15~16</time>
+                    	<span class="arrow"></span>
+                    </header>
+                    <img src="img/2009coscup.jpg">
+                </article>
+                </a>
             </div>
-            <div class="content"> 迎春賀喜龍年到，讓狐耳摩莎為您送出新年誠摯的祝福。 </div>
-          </article>
-        </a>
-        <div class="group"> <a href="http://moztw.org/events/gathering/12-1.shtml"
-            title="摩茲連續聚KL 徐徐海風篇">
-            <article class="small">
-              <header>
-                <h2>摩茲連續聚KL 徐徐海風篇</h2>
-                <time pubdate="pubdate">2012/3/10</time> <span class="arrow"></span>
-              </header>
-              <img src="img/2012kl.jpg"> </article>
-          </a> <a href="http://registrano.com/events/moztw-gathering-2011dec18"
-            title="摩茲連續聚TP 寒冬的 MozCamp">
-            <article class="small">
-              <header>
-                <h2>摩茲連續聚TP 寒冬的 MozCamp</h2>
-                <time pubdate="pubdate">2011/12/18</time> <span class="arrow"></span>
-              </header>
-              <img src="img/20111218.jpg"> </article>
-          </a> </div>
-        <a href="sfd2011/">
-          <article>
-            <header>
-              <h2>2011 SFD Party</h2>
-              <time pubdate="pubdate">2011/09</time> <span class="arrow"></span>
-            </header>
-            <div class="photo" style="background:url(sfd2011/sumo.png) -180px -280px">
-            </div>
-            <div class="content"> 繼去年 MozTW SUMO Party &amp; Software Freedom
-              Day 之後，今年 MozTW 也秉持一樣的想法，希望能在軟體自由日當天舉辦小活動，讓大家可以過來聚一聚，可以更認識
-              MozTW，也知道最近自由軟體的世界當中有什麼新鮮事，並且加入大家...... </div>
-          </article>
-        </a>
-        <div class="group"> <a href="http://moztw.org/events/gathering/11-1.shtml"
-            title="摩茲連續聚TY光輝十月篇">
-            <article class="small">
-              <header>
-                <h2>摩茲連續聚TY光輝十月篇</h2>
-                <time pubdate="pubdate">2011/10/22</time> <span class="arrow"></span>
-              </header>
-              <img src="gathering/11-1/01.jpg"> </article>
-          </a> </div>
-        <a href="firefox4party/">
-          <article>
-            <header>
-              <h2>Firefox 4 Party</h2>
-              <time pubdate="pubdate">2011/04</time> <span class="arrow"></span>
-            </header>
-            <div class="photo" style="background:url(firefox4party/feature-firefox-4-party.png) right center">
-            </div>
-            <div class="content"> Firefox 4
-              無論外觀或內在都是史上最大幅度的改版，而「火狐發威之曠4奇派」果然是最歡樂的火狐派對！在此就讓我們來回味一下吧。 </div>
-          </article>
-        </a> <a href="jetpack-workshop/">
-          <article>
-            <header>
-              <h2>Jetpack 擴充套件工作坊</h2>
-              <time pubdate="pubdate">2010/03</time> <span class="arrow"></span>
-            </header>
-            <div class="photo" style="background:url(jetpack-workshop/feature_bg.jpg) left -100px">
-            </div>
-            <div class="content"> Jetpack 是 Firefox
-              全新的擴充套件開發框架，比起現有的擴充套件架構更為直接、簡單。<br>
-              工作坊由 OSSF 和 MozTW 聯手合作...... </div>
-          </article>
-        </a> <a href="3.6personas/">
-          <article>
-            <header>
-              <h2>秀風格</h2>
-              <time pubdate="pubdate">2010/01</time> <span class="arrow"></span>
-            </header>
-            <div class="photo" style="background:url(/images/36-feature-back.png) right center">
-            </div>
-            <div class="content"> 步驟<br>
-              1.使用 Firefox 3.6，到 GetPersonas 換上你最喜歡的個性面板。<br>
-              2.開啟這個網頁，然後抓下整個 Firefox 的介面抓圖。<br>
-              ...... </div>
-          </article>
-        </a>
-        <div class="group"> <a href="http://blog.toomore.net/2009/11/moztw-2009.html"
-            title="MozTW 2009 開發合宿">
-            <article class="small">
-              <header>
-                <h2>MozTW 2009 開發合宿</h2>
-                <time pubdate="pubdate">2009/11/21</time> <span class="arrow"></span>
-              </header>
-              <img src="img/20091121.jpg"> </article>
-          </a> <a href="http://mozlinks-zh.blogspot.com/2009/08/coscup-2009.html"
-            title="COSCUP 2009">
-            <article class="small">
-              <header>
-                <h2>COSCUP 2009</h2>
-                <time pubdate="pubdate">2009/8/15~16</time> <span class="arrow"></span>
-              </header>
-              <img src="img/2009coscup.jpg"> </article>
-          </a> </div>
-        <a href="may2009/">
-          <article>
-            <header>
-              <h2>火狐月</h2>
-              <time pubdate="pubdate">2009/05</time> <span class="arrow"></span>
-            </header>
-            <div class="photo" style="background:url(may2009/may5.jpg) right bottom">
-            </div>
-            <div class="content"> 摩茲校園聚活動為針對全校師生及校友，以自由軟體及 Firefox 套件在地化、Mozilla
-              相關自由軟體為主題，於校園內進行推廣及教學，促進彼此交流...... </div>
-          </article>
-        </a> <a href="ie8/">
-          <article>
-            <header>
-              <h2>用 Firefox 體驗 IE8 功能</h2>
-              <time pubdate="pubdate">2009/04/01</time> <span class="arrow"></span>
-            </header>
-            <div class="photo" style="background:url(ie8/ie8banner.png) right center">
-            </div>
-            <div class="content"> 在 2009 年的愚人節，MozTW 使用此頁跟大家開了一個玩笑……
-              玩笑？當然不只如此！現在就跟我們一起藉助 Firefox 超強擴充功能，馬上體驗 IE8 的新功能吧！ </div>
-          </article>
-        </a> <a href="vday2009/">
-          <article>
-            <header>
-              <h2>MozTW Foxmosa 情人節電子賀卡</h2>
-              <time pubdate="pubdate">2009/02/14</time> <span class="arrow"></span>
-            </header>
-            <div class="photo" style="background:url(/images/vday_2009_card_800x500.png) right center">
-            </div>
-            <div class="content"> 寄張特別的卡片，給特別的她！讓 Foxmosa 代您傳情意，限量供應喔！這大概是 MozTW
-              最急速發動的活動之一！寄張電子卡片、歡慶屬於你倆的節日...... </div>
-          </article>
-        </a> <a href="foxmosa-tour/">
-          <article>
-            <header>
-              <h2>火狐鬥陣遊台灣</h2>
-              <time pubdate="pubdate">2009/05</time> <span class="arrow"></span>
-            </header>
-            <div class="photo" style="background:url(foxmosa-tour/feature-foxmosa.png) right center">
-            </div>
-            <div class="content"> 全台狐迷瘋狂慶祝 Firefox 3 上市，MozTW 的吉祥物 狐耳摩莎
-              足跡將遍佈全台灣！ </div>
-          </article>
-        </a> <a href="firefox3party/">
-          <article>
-            <header>
-              <h2>Firefox 3 Party</h2>
-              <time pubdate="pubdate">2008/07/19</time> <span class="arrow"></span>
-            </header>
-            <div class="photo" style="background:url(firefox3party/feature-firefox-3-party.png) right center">
-            </div>
-            <div class="content"> 第三屆社群嚴選附加元件票選活動即將於 7/1 開始接受提名、7/22-8/12
-              投票。歡迎提名好用的套件，提供初學者更快上手的入門選擇！投票結果將於 addons.mozilla.org
-              正體中文區同步推...... </div>
-          </article>
-        </a> <a href="record2008/">
-          <article>
-            <header>
-              <h2>手滑創記錄</h2>
-              <time pubdate="pubdate">2008/05/30</time> <span class="arrow"></span>
-            </header>
-            <div class="photo" style="background:url(record2008/dday_header.jpg) right center">
-            </div>
-            <div class="content"> 恭喜，我們成功了！Firefox 以 8,002,530
-              次的下載次數，成功登上發表首日下載量最大軟體金氏世界紀錄寶座！一直以來 Firefox 仰賴大家的協助，...... </div>
-          </article>
-        </a> <a href="firefox2party/">
-          <article>
-            <header>
-              <h2>Firefox 2 Party</h2>
-              <time pubdate="pubdate">2006/11/12</time> <span class="arrow"></span>
-            </header>
-            <div class="photo" style="background:url(/images/feature-firefox-2-party.jpg) right center">
-            </div>
-            <div class="content"> 想多認識 Firefox 2？十一月中起，參加 Firefox
-              校園巡迴推廣講座，再造網路新體驗！我們將介紹 Firefox 2 的特異功能，帶您了解在全球造成「火狐熱」的原因。 </div>
-          </article>
-        </a> <a href="sfx/">
-          <article>
-            <header>
-              <h2>放火行動</h2>
-              <time pubdate="pubdate">2004</time> <span class="arrow"></span> </header>
-            <div class="photo" style="background:url(sfx/pics/newfirefox_newlogo.png) right center">
-            </div>
-            <div class="content"> 沒用過 Firefox? 沒聽過 Firefox? 沒關係!! 看過我們 moztw.org
-              廣發給天下英雄好漢的英雄帖，你也會有機會成為放火英雄!!...... </div>
-          </article>
-        </a> </div>
-      <div class="event-des"> <a class="prev-event btn" href="#">∧</a>
-        <div class="content"></div>
-        <a class="next-event btn" href="#">∨</a> </div>
-    </div>
-    <!--#include virtual="/inc/footer.html" -->
-  </body>
-</html>
+			
+			<a href="may2009/">
+			<article>
+				<header>
+					<h2>火狐月</h2>
+					<time pubdate="pubdate">2009/05</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(may2009/may5.jpg) right bottom">
+				</div>
+				<div class="content">
+				摩茲校園聚活動為針對全校師生及校友，以自由軟體及 Firefox 套件在地化、Mozilla 相關自由軟體為主題，於校園內進行推廣及教學，促進彼此交流......
+				</div>
+			</article>
+			</a>
+			
+			<a href="ie8/">
+			<article>
+				<header>
+					<h2>用 Firefox 體驗 IE8 功能</h2>
+					<time pubdate="pubdate">2009/04/01</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(ie8/ie8banner.png) right center">
+				</div>
+				<div class="content">
+				在 2009 年的愚人節，MozTW 使用此頁跟大家開了一個玩笑…… 玩笑？當然不只如此！現在就跟我們一起藉助 Firefox 超強擴充功能，馬上體驗 IE8 的新功能吧！
+				</div>
+			</article>
+			</a>
+			
+			<a href="vday2009/">
+			<article>
+				<header>
+					<h2>MozTW Foxmosa 情人節電子賀卡</h2>
+					<time pubdate="pubdate">2009/02/14</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(/images/vday_2009_card_800x500.png) right center">
+				</div>
+				<div class="content">
+				寄張特別的卡片，給特別的她！讓 Foxmosa 代您傳情意，限量供應喔！這大概是 MozTW 最急速發動的活動之一！寄張電子卡片、歡慶屬於你倆的節日......
+				</div>
+			</article>
+			</a>
+			
+			<a href="foxmosa-tour/">
+			<article>
+				<header>
+					<h2>火狐鬥陣遊台灣</h2>
+					<time pubdate="pubdate">2009/05</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(foxmosa-tour/feature-foxmosa.png) right center">
+				</div>
+				<div class="content">
+				全台狐迷瘋狂慶祝 Firefox 3 上市，MozTW 的吉祥物 狐耳摩莎 足跡將遍佈全台灣！
+				</div>
+			</article>
+			</a>
+			
+			<a href="firefox3party/">
+			<article>
+				<header>
+					<h2>Firefox 3 Party</h2>
+					<time pubdate="pubdate">2008/07/19</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(firefox3party/feature-firefox-3-party.png) right center">
+				</div>
+				<div class="content">
+				第三屆社群嚴選附加元件票選活動即將於 7/1 開始接受提名、7/22-8/12 投票。歡迎提名好用的套件，提供初學者更快上手的入門選擇！投票結果將於 addons.mozilla.org 正體中文區同步推......
+				</div>
+			</article>
+			</a>
+			
+			<a href="record2008/">
+			<article>
+				<header>
+					<h2>手滑創記錄</h2>
+					<time pubdate="pubdate">2008/05/30</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(record2008/dday_header.jpg) right center">
+				</div>
+				<div class="content">
+				恭喜，我們成功了！Firefox 以 8,002,530 次的下載次數，成功登上發表首日下載量最大軟體金氏世界紀錄寶座！一直以來 Firefox 仰賴大家的協助，......
+				</div>
+			</article>
+			</a>
+			
+			<a href="firefox2party/">
+			<article>
+				<header>
+					<h2>Firefox 2 Party</h2>
+					<time pubdate="pubdate">2006/11/12</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(/images/feature-firefox-2-party.jpg) right center">
+				</div>
+				<div class="content">
+				想多認識 Firefox 2？十一月中起，參加 Firefox 校園巡迴推廣講座，再造網路新體驗！我們將介紹 Firefox 2 的特異功能，帶您了解在全球造成「火狐熱」的原因。
+				</div>
+			</article>
+			</a>
+			
+			<a href="sfx/">
+			<article>
+				<header>
+					<h2>放火行動</h2>
+					<time pubdate="pubdate">2004</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(sfx/pics/newfirefox_newlogo.png) right center">
+				</div>
+				<div class="content">
+				沒用過 Firefox? 沒聽過 Firefox? 沒關係!! 看過我們 moztw.org 廣發給天下英雄好漢的英雄帖，你也會有機會成為放火英雄!!......
+				</div>
+			</article>
+			</a>
+			
+		</div>
+		
+		<div class="event-des">
+			<a class="prev-event btn" href="#">∧</a>
+			<div class="content"></div>
+			<a class="next-event btn" href="#">∨</a>
+		</div>
+		
+	</div>
+
+<!--#include virtual="/inc/footer.html" -->
