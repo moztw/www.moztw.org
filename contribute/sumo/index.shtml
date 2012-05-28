@@ -96,7 +96,7 @@ h3.toggle, span.toggle {
 
 <div id="mainContent" class="right">
 	<h3>什麼是 SUMO？</h3>
-	<p>SUMO 是 SUpport MOzilla 的縮寫字。透過文件、討論區、論壇、郵件清單等方式，支援全球各種語言介面的 Mozilla 產品使用者，例如：Firefox、行動版 Firefox、Thunderbird 等等。</p>
+	<p>SUMO 是 SUpport MOzilla 的縮寫字。透過文件、討論區、論壇、郵件清單等方式，支援全球各種語言介面的 Mozilla 產品使用者，例如：Firefox、行動版 Firefox、Thunderbird 等等。更多介紹請<a href="http://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012">參考這裡</a>。</p>
 
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
@@ -105,7 +105,7 @@ h3.toggle, span.toggle {
 	<p>SUMO 知識庫文件翻譯與創作、SUMO 網站介面中文化。</p>
 	<div>
 		<ul>
-			<li><strong>SUMO 知識庫文件翻譯</strong>：<div style="width:425px" id="__ss_5995486"><strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/dwchiang/translation-process-for-sumo-new-website-zhtw" title="Translation Process for SUMO New Website (zh_TW)">Translation Process for SUMO New Website (zh_TW)</a></strong><object id="__sse5995486" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=moztw-sumo-translate-process20101201-101201095053-phpapp02&stripped_title=translation-process-for-sumo-new-website-zhtw&userName=dwchiang" /><param name="allowFullScreen" value="true"/><param name="allowScriptAccess" value="always"/><embed name="__sse5995486" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=moztw-sumo-translate-process20101201-101201095053-phpapp02&stripped_title=translation-process-for-sumo-new-website-zhtw&userName=dwchiang" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="355"></embed></object><div style="padding:5px 0 12px">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/dwchiang">Ernest Chiang</a>.</div></div><p>&nbsp;</p></li>
+			<li><strong>SUMO 知識庫文件翻譯</strong>：<div style="width:425px" id="__ss_12913556"> <strong style="display:block;margin:12px 0 4px"><a href="http://www.slideshare.net/dwchiang/translation-process-for-sumo-new-website-zhtw-201205" title="Translation Process for SUMO New Website (zh_TW) 2012/05" target="_blank">Translation Process for SUMO New Website (zh_TW) 2012/05</a></strong> <iframe src="http://www.slideshare.net/slideshow/embed_code/12913556?rel=0" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" allowfullscreen></iframe> <div style="padding:5px 0 12px"> View more <a href="http://www.slideshare.net/thecroaker/death-by-powerpoint" target="_blank">PowerPoint</a> from <a href="http://www.slideshare.net/dwchiang" target="_blank">Ernest Chiang</a> </div> </div></li>
 
 			<li><strong>SUMO 網站介面中文化</strong>：於在地化功能網站 （<a href="https://localize.mozilla.org/zh_TW/">Mozilla Verbatim</a> ）協助翻譯 <a href="http://support.mozilla.com/zh-TW/">Support Mozilla</a> (SUMO) 的字、詞、句資料庫。（英文-->中文）
 				<h4>流程</h4> 
@@ -135,9 +135,10 @@ h3.toggle, span.toggle {
 
 			<li><strong>SUMO 常用網站/連結</strong>：
 				<ul> 
-					<li>Production Server: <a href="http://support.mozilla.com/zh-TW/home">http://support.mozilla.com/zh-TW/home</a></li>
-					<li>KB Template List: <a href="https://support.mozilla.com/en-US/kb/category/60">https://support.mozilla.com/en-US/kb/category/60</a></li>
-					<li>Stage Server: <a href="http://support-release.allizom.org/zh-TW/home">http://support-release.allizom.org/zh-TW/home</a></li>
+					<li>SUMO 首頁: <a href="http://support.mozilla.com/zh-TW/home">http://support.mozilla.com/zh-TW/home</a></li>
+					<li>建議優先翻譯「最常被閱讀」文件清單：<a href="https://support.mozilla.org/zh-TW/localization/most-visited-translations">https://support.mozilla.org/zh-TW/localization/most-visited-translations</a></li>
+					<li>知識庫範本清單: <a href="https://support.mozilla.org/zh-TW/localization/template-translations">https://support.mozilla.org/zh-TW/localization/template-translations</a></li>
+					<li>Stage Server (翻譯 Verbatim 後，檢查用): <a href="http://support-release.allizom.org/zh-TW/home">http://support-release.allizom.org/zh-TW/home</a></li>
 					<li>Translate (l10n): <a href="https://localize.mozilla.org/zh_TW/">https://localize.mozilla.org/zh_TW/</a></li> 
 				</ul>
 				<p>&nbsp;</p>
