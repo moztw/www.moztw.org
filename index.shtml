@@ -88,7 +88,7 @@ and (max-width : 500px) {
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-    <a id="fxu12rppromo" href="http://moztw.org/events/fxu12rp/" title="Firefox x Ubuntu 12(.04) Release Party">
+    <a id="fxu12rppromo" href="/events/furp/" title="Firefox x Ubuntu 12(.04) Release Party">
         <div class="frame"></div>
     </a>
   <div id="feature-content">
