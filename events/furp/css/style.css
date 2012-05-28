@@ -338,7 +338,7 @@ input[type="submit"]{
     opacity: 0.9;
     padding: 0 15px 0 45px;
     text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.62);
-    width: 75px;
+    width: 150px;
 }
 .registration a.register-now:hover {
     color: white;

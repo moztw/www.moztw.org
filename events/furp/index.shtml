@@ -35,7 +35,7 @@ MozTW 與 Ubuntu-TW 將在台中聯合舉辦 Party 啦！
 			</p>
 			
             <div class="registration">
-                <a class="register-now" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FxU-12-Party', 'moztw-events-fxu12rp']);" target="_blank" href="https://registrano.com/events/fxu12rp/registrations/new" target="_blank"><strike>馬上報名</strike>活動已結束</a>
+                <a class="register-now" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FxU-12-Party', 'moztw-events-fxu12rp']);" target="_blank" href="https://registrano.com/events/fxu12rp/registrations/new" target="_blank"><strike>馬上報名</strike> 活動已結束</a>
             </div>
 		</section>
 				
