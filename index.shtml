@@ -6,10 +6,7 @@
 <link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan Community News" href="http://moztw.org/xmlnews.rdf" />
 <style type="text/css">
 <!--
-.front-feature {
-    position: relative; 
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
-}
+.front-feature { background: #E4EcEc url(images/4-feature-win.png) top right no-repeat; }
 .mobile-header { text-shadow:1px 1px 1px #d44000, 1px 1px 2px #fbba20; }
 /*1px 1px 2px #555;*/ 
 #planets ul {
@@ -23,77 +20,17 @@
 	width: 64px;
 	height: 64px;
 }
-
-#front-feature #feature-content {
-    padding: 14px 485px 14px 10px;
-}
-
-#feature-content p {
-    font-size: 1.1em;
-    margin: 0 0 25px;
-}
-
-#fxu12rppromo {
-    overflow: hidden;
-    cursor: pointer;
-}
-
-#fxu12rppromo .frame {
-    background: url("/events/fxu12rp/Ubuntu_Firefox_1204_Release_Party_Landscape.png") no-repeat right bottom;
-    height: 100%;
-    padding: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 500px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-}
-
-@media only screen
-and (max-width : 500px) {
-    #front-feature #feature-content {
-        display: none;
-    }
-    #front-feature {
-        padding-bottom: 315px;
-    }
-    #fxu12rppromo .frame {
-        background-position: center bottom;
-        width: 100%;
-    }
-}
-
 -->
 </style>
-<!--[if IE 7]>
-<style>
-.frontcolumn {
-    padding-right: 2%;
-}
-</style>
-<![endif]-->
-<!--[if IE 6]>
-<style>
-#fxu12rppromo {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 329px; 
-    width: 500px; 
-}
-</style>
-<![endif]-->
+
 
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-    <a id="fxu12rppromo" href="/events/furp/" title="Firefox x Ubuntu 12(.04) Release Party">
-        <div class="frame"></div>
-    </a>
   <div id="feature-content">
     <h2><a href="/firefox/"><img src="images/firefox-title.png" alt="Firefox" height="60" width="200"></a></h2>
-    <p>更快、更靈活、更安全。設計與眾不同，永遠為您創新！</p>
+    <p>全新外觀、速度超快，<a href="/firefox/">Firefox</a> 讓一切都變得更加美好！</p>
     <div class="download">
 		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox</strong></a></h3>
  		<div style='background: url(/images/product-download-firefox.png) no-repeat;margin-top: 5px;'>
@@ -105,15 +42,13 @@ and (max-width : 500px) {
 
 <div id="mBody">
   <div class="frontcolumn hide" id="mobile-feature-ios">
-      <h2 class="mobile-header"><a href="http://www.mozilla.com/zh-TW/mobile/home/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Firefox Home', 'frontpage column block (ios)']);">Firefox Home<img src="/images/product-firefox-homn.png" alt="Firefox Home" class="promo"></a></h2>
-	  <p><b>行動首頁帶著走。</b>在 iPhone 上任意取用 Firefox 的瀏覽歷史及書籤，時時同步開啟分頁，喜歡的網站隨時都在您手邊！<br>→ <a href="http://m.youtube.com/#/watch?v=_rFf5BnurVI" onClick="_gaq.push(['_trackEvent', 'Show Video', 'Firefox Home', 'frontpage column block (ios)']);">Firefox Home 迷你短片</a></p>
+      <h2 class="mobile-header"><a href="http://www.mozilla.com/zh-TW/mobile/home/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mobile', 'Firefox Home']);">Firefox Home<img src="/images/product-firefox-homn.png" alt="Firefox Home" class="promo"></a></h2>
+	  <p><b>行動首頁帶著走。</b>在 iPhone 上任意取用 Firefox 的瀏覽歷史及書籤，時時同步開啟分頁，喜歡的網站隨時都在您手邊！<br>→ <a href="http://m.youtube.com/#/watch?v=_rFf5BnurVI" onClick="_gaq.push(['_trackEvent', 'Show Video', 'Mobile', 'Firefox Home']);">Firefox Home 迷你短片</a></p>
   </div>
   <div class="frontcolumn hide" id="mobile-feature-android">
       <h2 class="mobile-header"><a href="/m/">行動版 Firefox<img src="/images/Pocketfox.png" alt="'Pocketfox' created by yaroslaff_che cc: by-nc-sa http://creative.mozilla.org/designs/346" class="promo"></a></h2>
-	  <p><b>帶著 Firefox 趴趴走。</b>無縫同步電腦與 Android/Maemo 行動裝置，智慧畫面讓您輸入更少、更快打開想看的網站。安裝套件與佈景主題，把行動版 Firefox 也打造成您的樣子！<br>→ 看看 <a href="http://m.youtube.com/#/watch?v=zCe_1DxBQDc"  onClick="_gaq.push(['_trackEvent', 'Show Video', 'Firefox Mobile', 'frontpage column block (android)']);">介紹 Firefox for Android</a> 短片</p>
+	  <p><b>帶著 Firefox 趴趴走。</b>無縫同步電腦與 Android/Maemo 行動裝置，智慧畫面讓您輸入更少、更快打開想看的網站。安裝套件與佈景主題，把行動版 Firefox 也打造成您的樣子！<br>→ 看看 <a href="http://m.youtube.com/#/watch?v=zCe_1DxBQDc"  onClick="_gaq.push(['_trackEvent', 'Show Video', 'Mobile', 'Firefox Mobile']);">介紹 Firefox for Android</a> 短片</p>
   </div>
-
-   <!-- Require to change /js/downlaod.js if below one block change.-->
   <div class="frontcolumn" id="feature-thunderbird">
       <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-front-thunderbird.png" alt="Thunderbird Logo" class="promo"></a></h2>
 	  <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
@@ -124,8 +59,8 @@ and (max-width : 500px) {
   </div>
   -->
   <div class="frontcolumn">
-    <h2><a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'frontpage column block']);">SeaMonkey 正體中文版<img src="/images/seamonkey64.png" alt="SeaMonkey Logo" class="promo"></a></h2>
-	<p>如果您喜愛 Firefox，也想同時擁有 Thunderbird 的強大威力，又或者想回味以往的 Mozilla Suite，歡迎試試最新推出的 <a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'frontpage column block']);">SeaMonkey 正體中文版</a>。</p>
+    <h2><a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey291']);">SeaMonkey 正體中文版<img src="/images/seamonkey64.png" alt="SeaMonkey Logo" class="promo"></a></h2>
+	<p>如果您喜愛 Firefox，也想同時擁有 Thunderbird 的強大威力，又或者想回味以往的 Mozilla Suite，歡迎試試最新推出的 <a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey291']);">SeaMonkey 正體中文版</a>。</p>
   </div>
   <div class="frontcolumnlast">
     <h2><a href="/contribute/">參與我們<img src="/images/toy_gold_32.png" alt="Contribute Logo" class="promo"></a></h2>
@@ -147,17 +82,16 @@ and (max-width : 500px) {
     </h2>
 	<!--#include virtual="/inc/news.html" -->
 	</ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
-	<p style="clear: both;"><a href='news'>所有公告記錄</a></p>
     </div>
     <div class="frontcolumnlast">
 	  <h2>快速捷徑</h2>
         <ul class="news">
-          <li><a href="http://mozlinks-zh.blogspot.com/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla Links', 'frontpage fastlink']);">Mozilla Links 正體中文版</a></li>
+          <li><a href="http://mozlinks-zh.blogspot.com/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla Links', 'frontpage']);">Mozilla Links 正體中文版</a></li>
           <li><a href="http://gfx.tw/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'gfx.tw', 'frontpage']);">gfx.tw 抓火狐</a></li>
-          <li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: Firefox', 'frontpage fastlink']);">Firefox 中文討論區</a></li>
+          <li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: Firefox', 'frontpage']);">Firefox 中文討論區</a></li>
           <li><a href="/events/">主題活動</a></li>
-          <li>郵件群組：<a href="http://forum.moztw.org/viewtopic.php?f=17&t=34697" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: dev-general-zh', 'frontpage fastlink']);">Mozilla 中文開發者社群</a></li>
-          <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla Channel Firefox', 'frontpage fastlink']);">Firefox 未來發行版本</a></li>
+          <li>郵件群組：<a href="http://forum.moztw.org/viewtopic.php?f=17&t=34697" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: dev-general-zh', 'frontpage']);">Mozilla 中文開發者社群</a></li>
+          <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage']);">Firefox 未來發行版本</a></li>
           <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
           <li><a href="/twoffice/">Mozilla Taiwan 公司徵人啟事</a></li>
         </ul>
@@ -165,9 +99,10 @@ and (max-width : 500px) {
 	<br style="clear: both;">
   <!-- End News Columns -->  
   </div>
+	<a href='news'>所有公告記錄</a>
   </div>
 <script type="text/javascript" 
-src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript">
 /*
  * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
@@ -217,18 +152,4 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 	);
 })(jQuery);
 </script>
-<!--
-<link rel="stylesheet" type="text/css" href="js/library/fancybox2/jquery.fancybox.css" media="screen">
-<script type="text/javascript" src="js/library/fancybox2/jquery.fancybox.pack.js"></script>
-<script>
-$(document).ready(function() {
-    $("#flicks").fancybox({
-        width    : 800,
-        height   : 570,
-        autoSize : false,
-        fitToView: false
-	});
-});
-</script>
--->
 <!--#include virtual="/inc/footer.html" -->
