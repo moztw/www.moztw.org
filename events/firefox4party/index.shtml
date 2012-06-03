@@ -42,7 +42,7 @@
 
     <h3 id="reloaded">火狐再臨</h3>
     <p>Firefox 4 Party 簡報，Firefox 4 的一切新玩意與新設計，都在 WM 與 littlebtc 為您帶來的這份基於 HTML5 製作的投影片中。</p>
-    <div style="width:500px"><iframe src="http://moztw.org/firefox4party/slides/feature/#1" width="500" height="384" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>請按下左右鍵切換投影片，<a href="http://moztw.org/firefox4party/slides/feature/#1" target="_blank">點此將投影片打開為新視窗</a></div>
+    <div style="width:500px"><iframe src="http://moztw.org/events/firefox4party/slides/feature/#1" width="500" height="384" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>請按下左右鍵切換投影片，<a href="http://moztw.org/events/firefox4party/slides/feature/#1" target="_blank">點此將投影片打開為新視窗</a></div>
 
     <h3 id="opening">Firefox 套件小吃攤</h3>
     <p><a href="http://playpcesor.blogspot.com/2011/04/firefox-401-firefox-4.html">電腦玩物</a>作者異塵行者為您介紹管理、使用擴充套件時的觀察心得，與值得一用的套件推薦。</p>
