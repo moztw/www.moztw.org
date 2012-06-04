@@ -1,1 +1,1 @@
-http://download.mozilla.org/?product=firefox-12.0&amp;lang=zh-TW
+http://download.mozilla.org/?product=firefox-13.0&amp;lang=zh-TW
