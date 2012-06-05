@@ -252,15 +252,16 @@ section .appendix {
                         </li>
                         <li>
                             <span class="tag tag-developer">開發功能</span>
-                            <h5>實作了 <a href="https://developer.mozilla.org/en/CSS/column-fill">column-fill</a> CSS 屬性。</h5>
-                        </li>
-                        <li>
-                            <span class="tag tag-developer">開發功能</span>
                             <h5>新增 <a href="https://developer.mozilla.org/en/CSS/text-align-last">text-align-last</a> CSS 屬性支援。</h5>
                         </li>
                         <li>
-                            <span class="tag tag-developer">開發功能</span>
-                            <h5>實作了 ECMAScript 6 <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Map">Map</a> 和 <a href="https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Set">Set</a> 物件的實驗性支援。</h5>
+                            <span class="tag tag-fixed">修正</span>
+                            <h5>各項<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全性修正</a>。</h5>
+														<h5>Various </h5>
+                        </li>
+                        <li>
+                            <span class="tag tag-fixed">修正</span>
+														<h5>一些基於 TinyMCE 的編輯器無法載入（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=739141">bug 739141</a>）。</h5>
                         </li>
                         <li>
                             <span class="tag tag-fixed">修正</span>
