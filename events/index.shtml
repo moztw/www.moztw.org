@@ -76,7 +76,7 @@ jQuery(function($){
 					<time pubdate="pubdate">2012/05</time>
 					<span class="arrow"></span>
 				</header>
-				<div class="photo" style="background:url(fxu12rp/images/small.png) -572px -248px">
+				<div class="photo" style="background:url(furp/images/small.png) -572px -248px">
 				</div>
 				<div class="content">
 				從 4.0 開始進入快速更新週期的 Firefox 12，與每半年一版，兩年一長期支援的 Ubuntu 12.04 LTS Precise Pangolin，分別於 4 月 23 及 26 日正式釋出。為了響應如此難得的機會，MozTW 與 Ubuntu-TW 將在台中聯合舉辦 Party 啦！
