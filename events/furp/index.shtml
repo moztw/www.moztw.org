@@ -39,33 +39,70 @@ MozTW 與 Ubuntu-TW 將在台中聯合舉辦 Party 啦！
             </div>
 		</section>
 				
-		<section id="photos" class="hide" style="clear:both">
+		<section id="photos" style="clear:both">
 			<h2>活動相片</h2>
+			<h3>相簿連結
+                <a target="_blank" class="appendix" href="https://plus.google.com/u/0/photos/105274501484374472959/albums/5747293029867090081">星夜如雨</a>
+                <a target="_blank" class="appendix" href="http://www.flickr.com/photos/huanglifu/sets/72157629916292530/">David Huang</a>
+                <a target="_blank" class="appendix" href="https://plus.google.com/u/0/photos/105274501484374472959/albums/5747293029867090081">日落</a>
+                <a target="_blank" class="appendix" href="http://www.flickr.com/photos/chandrew/sets/72157630003923678/">章安德魯</a>
+                <a target="_blank" class="appendix" href="http://www.flickr.com/photos/71531353@N07/sets/72157629935935132/with/7287527124/">LIU ASA</a>
+                <a target="_blank" class="appendix" href="https://plus.google.com/u/0/photos/104057102045773046639/albums/5747934554439986129">Kevin-WY</a>
+            </h3>
 			<div class="content">
 				<a href="" class="left-btn"></a>
 				<a href="" class="right-btn"></a>
 				<ul>
-					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
-					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
-					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
-					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
-					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
-					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
-					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
-					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
-					<li><img src="images/16645379_827e14f0f4.jpg" /></li>
+					<li><a target="_blank" href="http://www.flickr.com/photos/huanglifu/7278976076/" title="_MG_2970 by david.li-fu.huang, on Flickr"><img src="http://farm9.staticflickr.com/8013/7278976076_a47749b3ab_z.jpg" width="427" height="640" alt="_MG_2970"></a></li>					
+					<li><a target="_blank" href="http://www.flickr.com/photos/huanglifu/7278653080/" title="_MG_2471 by david.li-fu.huang, on Flickr"><img src="http://farm8.staticflickr.com/7093/7278653080_1f1554c3fd_z.jpg" width="640" height="427" alt="_MG_2471"></a></li>					
+					<li><a href="https://plus.google.com/u/0/photos/104057102045773046639/albums/5747934554439986129/5747934550611950066"><img src="https://lh6.googleusercontent.com/-fYbu19lGNpY/T8TEBRlrefI/AAAAAAAAGok/lsJa1TPsU78/s843/IMG_20120527_180402.jpg" /></a></li>					
+					<li><a href="https://plus.google.com/u/0/photos/105274501484374472959/albums/5747293029867090081/5747300522243731410"><img src="https://lh6.googleusercontent.com/-fYuUcAvRYnc/T8KDX93BL9I/AAAAAAACOf0/8h-2DZ5SjJA/s951/DSC_4407.jpg" /></a></li>					
+					<li><a href="https://plus.google.com/u/0/photos/105274501484374472959/albums/5747293029867090081/5747298465579260850"><img src="https://lh6.googleusercontent.com/-siPA_X3hSoI/T8KBgQL_27I/AAAAAAACOZg/n0BT0vbs9MY/s951/DSC_4291.jpg" /></a></li>					
+					<li><a href="https://plus.google.com/u/0/photos/105274501484374472959/albums/5747293029867090081/5747298058524209778"><img src="https://lh4.googleusercontent.com/-BpHmq4d8noA/T8KBIjygsnI/AAAAAAACN_A/KiBK0WayRdM/s951/DSC_4265.jpg" /></a></li>					
+					<li><a href="https://plus.google.com/u/0/photos/105274501484374472959/albums/5747293029867090081/5747297256988653410"><img src="https://lh3.googleusercontent.com/-EgfrR03N5AI/T8KAZ51it2I/AAAAAAACN6w/toYk2Li6Zwk/s951/DSC_4225.jpg" /></a></li>					
+					<li><a href="https://plus.google.com/u/0/photos/105274501484374472959/albums/5747293029867090081/5747296365339308866"><img src="https://lh3.googleusercontent.com/-pzwIxR5fgC0/T8J_mALxc0I/AAAAAAACN14/7-1YIVT3xBE/s951/DSC_4178.jpg" /></a></li>					
+					<li><a href="https://plus.google.com/u/0/photos/105274501484374472959/albums/5747293029867090081/5747300781032483922"><img src="https://lh6.googleusercontent.com/-ITaZ9CCGn4o/T8KDnB7ELFI/AAAAAAACONk/3QACuWOS0tQ/s951/DSC_4432.jpg" /></a></li>					
+					<li><a href="https://plus.google.com/u/0/photos/105274501484374472959/albums/5747293029867090081/5747296390826716210"><img src="https://lh3.googleusercontent.com/-a5Z0kQlub0k/T8J_nfIcbDI/AAAAAAACN2A/C21wqCg84eI/s951/DSC_4179.jpg" /></a></li>
+					<li><a target="_blank" href="http://www.flickr.com/photos/huanglifu/7279064850/" title="_MG_3064 by david.li-fu.huang, on Flickr"><img src="http://farm8.staticflickr.com/7237/7279064850_9e56694794_z.jpg" width="427" height="640" alt="_MG_3064"></a></li>
 				</ul>
 			</div>
 		</section>
 		
-		<section id="slides" class="hide">
-			<h2>活動簡報</h2>
-			<p>還沒有簡報.......</p>
-		</section>
-		
-		<section id="blog" class="hide">
-			<h2>Blog、相簿大串連</h2>
-			<p>還沒有串連.......</p>
+		<section id="slides">
+			<h2>活動紀錄</h2>
+			<h3>Irvin - 有 Fu~~ 的 Party</h3>
+			<div style="width:425px" id="__ss_13100510"><iframe src="http://www.slideshare.net/slideshow/embed_code/13100510" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen></iframe></div>
+			<h3>三秒緯 <未定></h3>
+			<div><iframe width="640" height="480" src="http://www.youtube.com/embed/EPkkxjBiVls?rel=0" frameborder="0" allowfullscreen></iframe></div>
+            <h3>JokerCatz - 偷東西的二三事</h3>
+            <iframe src="https://docs.google.com/viewer?authuser=0&srcid=0B9BU22m9p7kqVTVZenhoM3hzc0E&pid=explorer&a=v&chrome=false&embedded=true" width="640" height="480"></iframe>
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/I7XK7s2rXok?rel=0" frameborder="0" allowfullscreen></iframe>
+            <h3>WM - 小莎翻牌</h3>
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/qxneARIYX30?rel=0" frameborder="0" allowfullscreen></iframe>
+			<h3>MGDesigner - ubuntu 上玩音樂</h3>
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/nBSL3m39PYQ?rel=0" frameborder="0" allowfullscreen></iframe>
+			<h3>潤 - Blender<a class="appendix" href="https://www.dropbox.com/s/hj8z5l75av3kffg/FURP_papercraft.zip">紙模型</a></h3>
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/DsF8p3xHtH0?rel=0" frameborder="0" allowfullscreen></iframe>
+			<h3>Orinx - Firefox 5~12 What's New</h3>
+			<iframe width="640" height="360" src="https://rasengan.im/~orinx/slide/" frameborder="0" allowfullscreen></iframe>
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/KM0qrTvh-ag?rel=0" frameborder="0" allowfullscreen></iframe>
+			<h3>聚乳酸 - Hackasaus</h3>
+			<iframe src="https://docs.google.com/presentation/embed?id=1z_dK1SWzuab5iQVOW3cNnclHnfSL6qUZD2qSo5FauuA&start=false&loop=false&delayms=3000" frameborder="0" width="480" height="360" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/mNajsBc-2ko?rel=0" frameborder="0" allowfullscreen></iframe>
+			<h3>Ernest - SUMO</h3>
+			<div style="width:425px" id="__ss_13090370"><iframe src="http://www.slideshare.net/slideshow/embed_code/13090370" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen></iframe></div>
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/aXeqYk1aHwc?rel=0" frameborder="0" allowfullscreen></iframe>
+			<h3>BobChao - Mozilla Taiwan<a target="_blank" href="https://play.google.com/store/apps/details?id=org.mozilla.firefox_beta">Firefox Mobile Beta</a>、<a href="http://www.mozilla.org/en-US/b2g/">B2G</a></h3>
+			<div style="width:425px" id="__ss_13100367"><iframe src="http://www.slideshare.net/slideshow/embed_code/13100367" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen></iframe></div>
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/Cek0ZKJkU2E?rel=0" frameborder="0" allowfullscreen></iframe>
+			<h3>光速講</h3>
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/videoseries?list=PL52FB3B7D6B961F52&amp;hl=zh_TW" frameborder="0" allowfullscreen></iframe>
+			<div style="width:340px" id="__ss_13100502"><iframe src="http://www.slideshare.net/slideshow/embed_code/13100502" width="340" height="284" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen></iframe></div>
+            <div style="width:340px" id="__ss_13120352"><iframe src="http://www.slideshare.net/slideshow/embed_code/13120352" width="340" height="284" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen></iframe></div>
+			<div style="width:340px" id="__ss_13173353"><iframe src="http://www.slideshare.net/slideshow/embed_code/13173353" width="340" height="284" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0" allowfullscreen></iframe></div>
+			<iframe width="480" height="360" src="http://tmp.m-wei.net/FURP12/slide.html#12" frameborder="0" allowfullscreen></iframe>
+			<h3>抽大獎</h3>
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/kM7G0mTGd7A?rel=0" frameborder="0" allowfullscreen></iframe>
 		</section>
 		
 		<section id="information">

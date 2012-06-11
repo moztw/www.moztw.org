@@ -123,6 +123,13 @@ input[type="submit"]{
 	margin: 20px 0;
 	font-weight: bold;
 }
+#main > section h3 .appendix{
+    border-left: 2px solid #BBB;
+    font-size: 0.9em;
+    font-weight: normal;
+    margin-left: 20px;
+    padding-left: 5px;
+}
 
 #header{
 	width: 760px;
@@ -195,18 +202,12 @@ input[type="submit"]{
 #photos .content{
 	position: relative;
 	height: 300px;
-	background: #FFF;
-	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
-	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
-	-ms-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
-	-o-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
-	box-shadow: 0 1px 5px rgba(0,0,0,0.5);
 }
 
 #photos .content ul{
 	position: relative;
 	overflow: hidden;
-	height: 300px;
+	height: 600px;
 	width: 100%;
 }
 
@@ -218,6 +219,7 @@ input[type="submit"]{
 	top: 0;
 	display: none;
 	text-align: center;
+	list-style: none;
 }
 
 #photos .content ul img{
@@ -225,6 +227,13 @@ input[type="submit"]{
 	max-height: 300px;
 	width: auto;
 	height: auto;
+	background: #FFF;
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	
 }
 
 #photos .content .left-btn{
