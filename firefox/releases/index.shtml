@@ -240,7 +240,7 @@ section .appendix {
                         </h5>
                       </li>
                       <li>
-                        <span class="tag tag-fixed">FIXED</span>
+                        <span class="tag tag-fixed">修正</span>
                         <h5>
                           關閉程式時，Flash 11.3 可能造成當機
                           （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=747683">bug 747683</a>，已於 13.0.1 修正）。
@@ -293,7 +293,7 @@ section .appendix {
                         </li>
 
                         <li>
-                            <span class="tag tag-fixed">FIXED</span>
+                            <span class="tag tag-fixed">修正</span>
                             <h5>各項<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全性修正</a>。</h5>
                         </li>
                         <li class="complete">
