@@ -291,11 +291,15 @@ section .appendix {
                         </li>
                         <li>
                             <span class="tag tag-unresolved">尚未修復</span>
-                            <h5>有些 synaptic 觸控板無法垂直捲動（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=622410">bug 622410</a>）。</h5>
+                            <h5>Windows: 使用 Windows 系統還原至更新 Firefox 前的一段時間時，可能變成找不到未來更新（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=730285">bug 730285</a>）。</h5>
                         </li>
                         <li>
-                            <span class="tag tag-unresolved">尚未修復</span>
-                            <h5>Windows: 使用 Windows 系統還原至更新 Firefox 前的一段時間時，可能變成找不到未來更新（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=730285">bug 730285</a>）。</h5>
+                          <span class="tag tag-unresolved">尚未修復</span>
+                          <h5>OS X：nsCocoaWindow::ConstrainPosition 在多重顯示裝置上誤用了不正確的螢幕（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=752149">bug 752149</a>）。</h5>
+                        </li>
+                        <li>
+                          <span class="tag tag-unresolved">尚未修復</span>
+                          <h5>CSS：以 JavaScript 設定元素 class name 時，發生 :hover regression 的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=758885">bug 758885</a>）。</h5>
                         </li>
                     </ul>
                 </div>

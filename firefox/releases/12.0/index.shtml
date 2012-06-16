@@ -257,7 +257,6 @@ section .appendix {
                         <li>
                             <span class="tag tag-fixed">修正</span>
                             <h5>各項<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全性修正</a>。</h5>
-														<h5>Various </h5>
                         </li>
                         <li>
                             <span class="tag tag-fixed">修正</span>
