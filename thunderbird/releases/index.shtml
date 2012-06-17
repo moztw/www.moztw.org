@@ -2,12 +2,39 @@
 <title>Mozilla Thunderbird 版本資訊</title>
 <style type="text/css">
 <!--
-#product-desc p {
-    padding-left:10px;
-}
+
 #mainContent.right {
     width:78%;
 }
+#mainContent, #side {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    line-height: 1.3;
+}
+#main-feature {
+    margin: 0 20px;
+}
+#main-feature h2 {
+    font-size: 40px;
+    line-height: 1.2em;
+    margin: 0;
+    padding: 10px 0;
+}
+#main-feature {
+    overflow: hidden;
+    padding-top: 20px;
+    position: relative;
+    width: 940px;
+}
+#main-feature h2 span {
+    font-size: 65px;
+}
+#main-feature p {
+    color: #484848;
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
 #side.right {
     width:20%;
 }
@@ -17,7 +44,7 @@
     box-shadow: 1px 1px #BBBBBB;
 }
 .thunderbird-releasenotes-v4 {
-    background:url("/thunderbird/images/tb-title.png") no-repeat scroll left top transparent;
+    background:url("/thunderbird/images/thunderbird-wordmark-horizontal.png") no-repeat scroll left top transparent;
     float:none !important;
     line-height: 1.5em !important;
     margin: 30px 0 20px 15px;
@@ -201,6 +228,42 @@ section .appendix {
     margin: 0 0 5px;
 }
 
+#main-feature {
+    overflow: hidden;
+    padding-top: 20px;
+    position: relative;
+    width: 940px;
+}
+#main-feature h2 {
+    font-size: 22px;
+    border-bottom: none;
+    font-style: normal;
+    padding: 10px 0 40px 130px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+}
+#main-feature h2 img {
+    display: block;
+    left: 8px;
+    position: absolute;
+    //top: 0px;
+    //z-index: -1;
+}
+#main-feature h2 small {
+    color: #727A99;
+    font-size: 16px;
+}
+#main-feature h2 span {
+    font-size: 60px;
+}
+#main-feature p {
+    font-size: 18px;
+    text-shadow: 1px 1px 2px #FFFFFF, 1px 1px 6px #FFFFFF, 1px 1px 8px #FFFFFF;
+    width: 650px;
+}
+#main-feature p a {
+    color: #62A5E8;
+    font-style: italic;
+}
 -->
 </style>
 <!--#include virtual="/inc/class.html" -->
@@ -208,19 +271,15 @@ section .appendix {
 
 <div id="mBody">
     <div id="mainContent" class="right">
-      <div class="key-point">
-		  <h2>Thunderbird<br />版本資訊</h2>
-          <div id="product-desc" class="thunderbird-releasenotes-v4">
-			  
-<!-- Introduction -->
+	<div id="main-feature">
+	  <h2><img src="/thunderbird/images/tb-title.png" alt="Thunderbird">Thunderbird<br>版本資訊</h2>
+	  <p>v.13.0.1, 釋出時間: 六月 15, 2012</p>   
 
           <p>此版本資訊包含了<a href="#whatsnew">Thunderbird 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
 
           <p>我們想知道您對 Thunderbird 的想法。歡迎到 MozillaZine 上的<a href="http://forums.mozillazine.org/viewforum.php?f=49">英文討論區</a>或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Thunderbird 中文討論區</a>與我們分享意見。</p>
-        </div>
       </div>
       <!-- What's New -->
-
     <div id="thunderbird-notes">
         <div id="main-content">
             <section id="whatsnew">
