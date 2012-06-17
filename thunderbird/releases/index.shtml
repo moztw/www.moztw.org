@@ -24,7 +24,7 @@
     overflow: hidden;
     padding-top: 20px;
     position: relative;
-    width: 940px;
+    //width: 940px;
 }
 #main-feature h2 span {
     font-size: 65px;
@@ -232,7 +232,7 @@ section .appendix {
     overflow: hidden;
     padding-top: 20px;
     position: relative;
-    width: 940px;
+    //width: 940px;
 }
 #main-feature h2 {
     font-size: 22px;
