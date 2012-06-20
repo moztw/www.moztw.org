@@ -201,13 +201,12 @@ input[type="submit"]{
 
 #photos .content{
 	position: relative;
-	height: 300px;
 }
 
 #photos .content ul{
 	position: relative;
 	overflow: hidden;
-	height: 600px;
+	height: 400px;
 	width: 100%;
 }
 
@@ -224,7 +223,7 @@ input[type="submit"]{
 
 #photos .content ul img{
 	max-width: 760px;
-	max-height: 300px;
+	max-height: 400px;
 	width: auto;
 	height: auto;
 	background: #FFF;
