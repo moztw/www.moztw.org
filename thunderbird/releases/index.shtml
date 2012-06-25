@@ -346,7 +346,7 @@ section .appendix {
             
                   <h3 id="install">安裝 Thunderbird</h3>
                   <p>
-                    請注意：安裝新版 Thunderbird 將<em>覆蓋</em>現存的 Thunderbird 程式，您不會遺失書籤或瀏覽記錄，但有些附加元件可能要更新才能繼續使用。詳細安裝步驟請參見<a href="https://support.mozillamessaging.com/en-US/kb/Installing Thunderbird">如何安裝 Thunderbird ( 英 )</a>。
+                    請注意：安裝新版 Thunderbird 將<em>覆蓋</em>現存的 Thunderbird 程式，您不會遺失書籤或瀏覽記錄，但有些附加元件可能要更新才能繼續使用。詳細安裝步驟請參見<a href="https://support.mozillamessaging.com/zh-TW/kb/Installing%20Thunderbird">如何安裝 Thunderbird ( 英 )</a>。
                   </p>
             
                   <h3 id="uninstall">移除 Thunderbird</h3>
@@ -370,11 +370,6 @@ section .appendix {
                     <li><a href="http://blog.mozilla.com/futurereleases/">Future of Thunderbird Blog</a></li>
                   </ul>
                 </div>
-            
-                
-            </div>
-            </section>            
-            
         </div>
     </div>
     
