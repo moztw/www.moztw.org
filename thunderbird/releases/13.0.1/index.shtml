@@ -370,8 +370,11 @@ section .appendix {
                     <li><a href="http://blog.mozilla.com/futurereleases/">Future of Thunderbird Blog</a></li>
                   </ul>
                 </div>
+	    </section>
+	</div>
     </div>
-    
+</div>
+
     <div id="side" class="right">
       <ul id="nav">
         <li><a href="/thunderbird/">回到 Thunderbird 首頁</a></li>
