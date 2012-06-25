@@ -2,6 +2,7 @@
 <title>Mozilla Thunderbird 版本資訊</title>
 <style type="text/css">
 <!--
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 #mainContent.right {
     width:78%;
@@ -24,7 +25,7 @@
     overflow: hidden;
     padding-top: 20px;
     position: relative;
-    //width: 940px;
+    /*width: 940px;*/
 }
 #main-feature h2 span {
     font-size: 65px;
@@ -39,7 +40,7 @@
     width:20%;
 }
 .key-point {
-    //background:url("/thunderbird/images/4beta-firstrun-illustration.jpg") no-repeat right bottom;
+    /*background:url("/thunderbird/images/4beta-firstrun-illustration.jpg") no-repeat right bottom;*/
     border-radius: 10px;
     box-shadow: 1px 1px #BBBBBB;
 }
@@ -232,7 +233,7 @@ section .appendix {
     overflow: hidden;
     padding-top: 20px;
     position: relative;
-    //width: 940px;
+    /*width: 940px;*/
 }
 #main-feature h2 {
     font-size: 22px;
@@ -245,8 +246,8 @@ section .appendix {
     display: block;
     left: 8px;
     position: absolute;
-    //top: 0px;
-    //z-index: -1;
+    /*top: 0px;
+    z-index: -1;*/
 }
 #main-feature h2 small {
     color: #727A99;
@@ -262,7 +263,7 @@ section .appendix {
 }
 #main-feature p a {
     color: #62A5E8;
-    font-style: italic;
+    /*font-style: italic;*/
 }
 -->
 </style>
@@ -273,7 +274,7 @@ section .appendix {
     <div id="mainContent" class="right">
 	<div id="main-feature">
 	  <h2><img src="/thunderbird/images/tb-title.png" alt="Thunderbird">Thunderbird<br>版本資訊</h2>
-	  <p>v.13.0.1, 釋出時間: 六月 15, 2012</p>   
+	  <p>v.13.0.1, 釋出時間: 2012 年 6 月 15 日</p>   
 
           <p>此版本資訊包含了<a href="#whatsnew">Thunderbird 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
 
@@ -289,7 +290,7 @@ section .appendix {
                       <li>
                         <span class="tag tag-fixed">修正</span>
                         <h5>
-                          YouSendIt 在一週之內不會失效。
+                          YouSendIt 的登入狀態在一週之內不會失效。
                         </h5>
                       </li>
                       <li>
@@ -320,11 +321,11 @@ section .appendix {
                     <ul>
                         <li>
                             <span class="tag tag-unresolved">尚未修復</span>
-                            <h5>假如你不能在寬視窗配置模式中看 RSS 消息來源，如果你有安裝 Lightning Calendar 可能需要停用 Lightning Calendar 附加元件或切換到傳統視窗配置然後重新開啟 Thunderbird （詳見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=531397">531397</a>）。</h5>
+                            <h5>若你無法在寬視窗配置模式中檢視 RSS 消息來源，也有安裝 Lightning 行事曆的話，可能需要停用 Lightning 行事曆附加元件，或切換到傳統視窗配置並重新開啟 Thunderbird （詳見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=531397">Bug 531397</a>）。</h5>
                         </li>
                         <li>
                             <span class="tag tag-unresolved">尚未修復</span>
-                            <h5>執行 Thunderbird 12 使用本地郵件資料夾和 POP3 郵件過濾可能產生先前版本不能正確讀取的摘要檔案。如果你決定在執行 Thunderbird 12 後，回到先前版本，你需要移除你本地郵件資料夾和 POP3 帳號的 .msf 檔案，或使用資料夾屬性對話框中的修復資料夾，以避免資料遺失的可能</h5>
+                            <h5>在 Thunderbird 12 使用本地郵件資料夾和 POP3 郵件過濾功能之後，可能會產生先前版本不能正確讀取的摘要檔案。如果你決定在執行 Thunderbird 12 後，回到先前版本，你需要移除你本地郵件資料夾和 POP3 帳號的 .msf 檔案，或使用資料夾屬性對話框中的修復資料夾，以避免資料遺失的可能。</h5>
                         </li>
                     </ul>
                 </div>
