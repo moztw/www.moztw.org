@@ -58,10 +58,17 @@
     <p>立刻造訪 <a href="https://demos.mozilla.org/">Mozilla 奇幻網路</a>，看看設計師們透過 HTML5 &amp; WebGL 的技術，所打造出各種無與倫比的網路旅程！</p>
   </div>
   -->
-  <div class="frontcolumn">
+<!--  <div class="frontcolumn">
     <h2><a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey291']);">SeaMonkey 正體中文版<img src="/images/seamonkey64.png" alt="SeaMonkey Logo" class="promo"></a></h2>
 	<p>如果您喜愛 Firefox，也想同時擁有 Thunderbird 的強大威力，又或者想回味以往的 Mozilla Suite，歡迎試試最新推出的 <a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey291']);">SeaMonkey 正體中文版</a>。</p>
+  </div>-->
+  
+  <div class="frontcolumn">
+    <h2><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-GooglePlay']);"><img src="/images/foxmosa-android.png" style="float: left;height: 125px;margin:-5px 9px 0 -10px;width: 107px;" alt="Firefox Android icon" class="promo">Android 版 Firefox</a></h2>
+	<p>全面更新的行動版 Firefox 輕巧又靈活，讓您更快到達想去的地方。<br>→ <a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay-14']);">立即至 Google Play 安裝英文版</a>；或<a href="http://bit.ly/Fn14zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-zhTW-FTP']);">直接下載中文版安裝檔</a></p>
   </div>
+    
+  
   <div class="frontcolumnlast">
     <h2><a href="/contribute/">參與我們<img src="/images/toy_gold_32.png" alt="Contribute Logo" class="promo"></a></h2>
 	<p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！</p>
