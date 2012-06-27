@@ -1,0 +1,116 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>Mozilla Firefox 中文版 - 網路生活的全新體驗 - MozTW</title>
+<style type="text/css">
+.key-point {
+	background:#E4ECEC url(./images/bg.png) no-repeat scroll center;
+	height:350px;
+	padding-top:50px
+}
+#desc{
+	float:right;
+	width:30%;
+}
+#desc h2{font-size:35px;}
+ul#new-feature{
+	padding:0;
+	list-style:none;
+	border:1px solid #ccc;
+	background-color:#f4f4f4;
+	margin-top:2em;
+	COLOR:#555;
+	border-radius:4px;
+}
+ul#new-feature li {
+	display:block;
+	padding:0.5em 1em;
+	padding-left:40px;
+	margin:0;
+	border-bottom: 1px solid #ccc;
+}
+
+#download{
+	float:left;
+	width:26%;
+	padding:1em;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+}
+#download .desc{font-size:70%; color:rgb(181, 231, 134);}
+
+#download a.btn,#download a.btn:visited {
+	font-size:130%;
+	color:#fff;
+	background:url('images/arrow-large.png') no-repeat 10px 50%;
+	background:url('images/arrow-large.png') no-repeat 10px 50%, -webkit-gradient(linear, left top, left bottom, from(#83c53c), to(#519d1b));
+	background:url('images/arrow-large.png') no-repeat 10px 50%, -moz-linear-gradient(#83c53c, #519d1b);
+	background:url('images/arrow-large.png') no-repeat 10px 50%, -o-linear-gradient(#83c53c, #519d1b);
+	background:url('images/arrow-large.png') no-repeat 10px 50%, linear-gradient(#83c53c, #519d1b);
+	background-color:#4a1;
+	text-decoration:none;
+	padding: 1em;
+	padding-left:45px;
+	border-radius: 5px;
+	border-bottom: 2px solid #481;
+	margin-bottom:0.7em;
+	display:block;
+	transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s;
+	-webkit-transition: box-shadow 1s;
+	-o-transition: box-shadow 1s;
+}
+
+#download a.btn:hover{
+	box-shadow:
+		0 2px 0 0 rgba(0,0,0,0.1),
+		inset 0 -2px 0 0 rgba(0,0,0,0.2),
+		inset 0 12px 24px 2px #83d822;
+}
+
+#download .sub a.btn{
+	font-size:100%;
+	width:auto;
+	float:left;
+	padding:0.3em 0.6em;
+	margin-right:0.3em;
+	background:#999;
+	border:none;
+}
+</style>
+
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+<div class="key-point">
+	<div id="download">
+		<a class="btn" href="https://market.android.com/details?id=org.mozilla.firefox">
+		從 Google Play 下載
+		<div class="desc">目前暫無中文版</div>
+		</a>
+		<a class="btn" href="http://bit.ly/Fn14zhTW">
+		從 Mozilla FTP 下載
+		<div class="desc">中文版，需手動安裝 APK</div>
+		</a>
+
+		<div class="sub">
+		<a class="btn" href="https://www.mozilla.org/mobile/platforms/">支援裝置</a>
+		<a class="btn" href="https://www.mozilla.org/mobile/notes">版本資訊</a>
+		</div>
+	</div>
+
+    <div id="desc" >
+	<h2>Firefox 行動版本</h2>
+	<p>新界面，新功能⋯快，又有效。
+	</p>
+	<ul id="new-feature">
+		<li>全新界面效能更佳</li>
+		<li>重新設計的啓動畫面</li>
+		<li>與桌機自動同步</li>
+		<li><a href="www.mozilla.org/firefox/mobile/features/">還有更多功能...</a></li>
+	</ul>
+    </div>
+
+</div>
+<div id="mainContent" class="right">
+
+</div>
+
+<!--#include virtual="/inc/footer.html" -->
