@@ -35,6 +35,7 @@
 #desc h2{
     font-size: 42px;
     margin-bottom: 0.5em;
+    font-family: sans-serif;
 }
 #desc h2 .and {
     font-size: 36px;
@@ -254,7 +255,7 @@
 	</div>
 
     <div id="desc" >
-	<h2 class="ct1"><span class="and">Android 版</span><br> Firefox</h2>
+	<h2><span class="and">Android 版</span><br> Firefox</h2>
 	<p>新界面、新功能…… 快，又有效！
 	</p>
 	<ul id="new-feature">
@@ -272,13 +273,13 @@
 <div id="main-content">
   <div class="col1">
     <section id="fast">
-      <h2 class="ct2">更快</h2>
+      <h2>更快</h2>
       <p>啟動及網頁載入更快，立即到達想去之處。</p>
       <p>隨著您持續使用 Firefox，<a target="_blank" href="http://support.mozilla.org/kb/use-awesome-screen-search-firefox-android">智慧畫面</a>（Awesome Screen）將會越來越懂你，讓你更加容易搜索及瀏覽。</p>
     </section>
     
     <section id="safe">
-      <h2 class="ct2">更安全</h2>
+      <h2>更安全</h2>
       <p class="icon privacy"><span class="img"></span>啟用「別追蹤我（Do Not Track）」掌控您的隱私，決定想要在網路上分享多少資訊。 <a target="_blank" href="http://support.mozilla.org/kb/configure-mobile-privacy-and-security-settings" class="more">了解更多</a></p>
       <p>透過最新的安全隱私設定，簡單自訂您的密碼、隱私資料、Cookies、圖片與套件設定。</p>
     </section>
@@ -286,7 +287,7 @@
   
   <div class="col2">
     <section id="smart">
-      <h2 class="ct2">更聰明</h2>
+      <h2>更聰明</h2>
       <p class="icon html5"><span class="img"></span>親自體驗完整支援 HTML5 與 Web API 的無窮可能。 <a href="https://developer.mozilla.org/en/Mobile" target="_blank" class="more">了解更多</a></p>
       <p class="icon sync"><span class="img"></span><a href="http://support.mozilla.org/kb/how-do-i-set-up-firefox-sync">同步</a>您的 Firefox 瀏覽歷史、書籤、密碼到所有的行動裝置，瀏覽更為輕鬆了。</p>
       <p class="icon addons"><span class="img"></span>安裝套件來增加功能，自訂專屬於您的 Firefox。 <a target="_blank" href="http://addons.mozilla.org/mobile/" class="more">下載套件</a></p>
@@ -317,6 +318,5 @@ $(window).load(function() {
     });
 });
 </script>
-<script type="text/javascript">(function() {var jf = document.createElement('script'); jf.type = 'text/javascript'; jf.async = true;jf.src = 'http://ds.justfont.com/core/js/v1.0/83305b16MZlHQbmZjMFZjHoqfshUI3bEQxEEYKEdiiV5orNTmC5V6Af9t01n9DN9LS1LzOlRH_48eGFi1Py97T7urxVfpMn-5rMrzAou5oGGDshbdwE2eVgp_0sHJhCIn7CF0JNoJun7j_8iMvntCkFhgdh7bCJvdpq3nVUzSiLc-p79-no=.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(jf,s);})();</script>
 
 <!--#include virtual="/inc/footer.html" -->
