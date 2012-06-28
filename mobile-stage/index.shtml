@@ -1,38 +1,95 @@
 <!--#include virtual="/inc/meta.html" -->
 <title>Mozilla Firefox 中文版 - 網路生活的全新體驗 - MozTW</title>
 <style type="text/css">
+#container {
+    position: relative;
+}
+#mobiImg {
+    background: url("images/Foxmosa-in-Device.png");
+    height: 446px;
+    left: 320px;
+    position: absolute;
+    top: 90px;
+    width: 242px;
+    -moz-transition: all 1.5s ease 0s;
+    -o-transition: all 1.5s ease 0s;
+    -webkit-transition: all 1.5s ease 0s;
+    -ie-transition: all 1.5s ease 0s;
+    transition: all 1.5s ease 0s;
+}
+#mobiImg.down {
+    background: url("images/Start-Page-in-Device.png");
+    top: 495px;
+}
 .key-point {
-	background:#E4ECEC url(./images/bg.png) no-repeat scroll center;
-	height:350px;
-	padding-top:50px
+	margin-bottom: 80px;
+	background: none repeat scroll 0 0 #E4ECEC;
+    height: 330px;
+    padding-top: 45px;
 }
 #desc{
-	float:right;
-	width:30%;
+	float: right;
+	margin-right: 15px;
+	width: 280px;
 }
-#desc h2{font-size:35px;}
-ul#new-feature{
-	padding:0;
-	list-style:none;
-	border:1px solid #ccc;
-	background-color:#f4f4f4;
-	margin-top:2em;
-	COLOR:#555;
-	border-radius:4px;
+#desc h2{
+    font-size: 42px;
+    margin-bottom: 0.5em;
 }
-ul#new-feature li {
-	display:block;
-	padding:0.5em 1em;
-	padding-left:40px;
-	margin:0;
-	border-bottom: 1px solid #ccc;
+#desc h2 .and {
+    font-size: 36px;
+    
+}
+#desc p {
+    color: #4C5C5C;
+    font-size: 1.05em;
 }
 
+#new-feature{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+    background-color: #F4F4F4;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    color: #555555;
+    list-style: none;
+    margin-top: 3em;
+    padding: 0;
+    width: 255px;
+}
+#new-feature li {
+    display: block;
+    margin: 0;
+}
+
+#new-feature li:hover {
+    background: #F8F8F8;
+}
+
+#new-feature li#supported a {
+    background-position: 0 -400px;
+    border-bottom: 1px solid #CCCCCC;
+}
+#new-feature li#release-notes a {
+    background-position: 0 -595px;
+}
+
+#new-feature li a.link {
+    background: url("images/sub-feature-icons.png") no-repeat scroll 0 0 transparent;
+    color: #666666;
+    display: block;
+    line-height: 65px;
+    margin: 0 12px;
+    padding-left: 75px;
+    text-decoration: none;
+}
+
+
 #download{
-	float:left;
-	width:26%;
-	padding:1em;
-	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.25);
+    float: left;
+    margin-top: 80px;
+    padding: 1em;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    width: 240px;
 }
 #download .desc{font-size:70%; color:rgb(181, 231, 134);}
 
@@ -50,7 +107,7 @@ ul#new-feature li {
 	padding-left:45px;
 	border-radius: 5px;
 	border-bottom: 2px solid #481;
-	margin-bottom:0.7em;
+	margin-bottom: 1em;
 	display:block;
 	transition: box-shadow 1s;
 	-moz-transition: box-shadow 1s;
@@ -65,52 +122,201 @@ ul#new-feature li {
 		inset 0 12px 24px 2px #83d822;
 }
 
-#download .sub a.btn{
-	font-size:100%;
-	width:auto;
-	float:left;
-	padding:0.3em 0.6em;
-	margin-right:0.3em;
-	background:#999;
-	border:none;
+
+/* 
+ * Style below modefied from http://www.mozilla.org/en-US/firefox/mobile/features/ 
+ */
+
+#main-content:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
 }
+#main-content {
+    background: url("/media/img/firefox/mobile/smartphone-large.png") no-repeat scroll 50% 80px #FFFFFF;
+}
+
+#main-content .col1 {
+    float: left;
+    margin: 0 10px;
+    width: 280px;
+}
+
+#main-content .col2 {
+    float: right;
+    margin: 0 10px;
+    width: 280px;
+}
+
+#main-content h1, h2, h3, h4, h5, h6, .huge, .large {
+    color: #484848;
+    display: block;
+    font-family: 'Open Sans Light',sans-serif;
+    font-weight: normal;
+    line-height: 100%;
+    margin: 0 0 12px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+#main-content h2 {
+    font-size: 46px;
+    border: none;
+}
+
+#main-content p {
+    font-size: 1.05em;
+    line-height: 1.75em;
+    margin: 0 0 24px;
+}
+
+#main-content a:hover {
+    background-color: white;
+    text-decoration: underline;
+}
+
+#main-content .icon {
+    padding-left: 60px;
+}
+
+#fast, #smart {
+    border-bottom: 1px dotted #D6D6D6;
+    margin-bottom: 24px;
+}
+
+#fast p:first-of-type {
+    margin-bottom: 12px;
+}
+
+#main-content .icon .img {
+    background-image: url("images/feature-icons.png");
+    background-repeat: no-repeat;
+    float: left;
+    height: 60px;
+    margin-left: -60px;
+    width: 60px;
+}
+
+#safe .privacy .img {
+    background-position: 0 0;
+}
+
+#smart .html5 .img {
+    background-position: 0 -60px;
+}
+
+#smart .sync .img {
+    background-position: 0 -120px;
+}
+
+#smart .addons .img {
+    background-position: 0 -180px;
+}
+
+#get a {
+    background: url("images/android-tiny.png") no-repeat;
+    display: block;
+    font-size: 0.875em;
+    line-height: 1.5em;
+    padding: 2px 0 2px 45px;
+}
+
+#main-content a.more:after, #main-content #get a:after {
+    content: " »";
+}
+#main-content .sky a {
+    color: #67A7D0;
+}
+#main-content a {
+    color: #2983C8;
+    text-decoration: none;
+}
+
+
+
 </style>
 
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
 
+<div id="mobiImg"></div>
 <div class="key-point">
 	<div id="download">
-		<a class="btn" href="https://market.android.com/details?id=org.mozilla.firefox">
+		<a class="btn" href="http://mzl.la/Firefox-Android-zh-TW">
 		從 Google Play 下載
 		<div class="desc">目前暫無中文版</div>
 		</a>
-		<a class="btn" href="http://bit.ly/Fn14zhTW">
+		<a class="btn btn-ftp" href="http://bit.ly/Fn14zhTW">
 		從 Mozilla FTP 下載
 		<div class="desc">中文版，需手動安裝 APK</div>
 		</a>
-
-		<div class="sub">
-		<a class="btn" href="https://www.mozilla.org/mobile/platforms/">支援裝置</a>
-		<a class="btn" href="https://www.mozilla.org/mobile/notes">版本資訊</a>
-		</div>
 	</div>
 
     <div id="desc" >
-	<h2>Firefox 行動版本</h2>
-	<p>新界面，新功能⋯快，又有效。
+	<h2 class="ct1"><span class="and">Android 版</span><br> Firefox</h2>
+	<p>新界面、新功能…… 快，又有效！
 	</p>
 	<ul id="new-feature">
-		<li>全新界面效能更佳</li>
-		<li>重新設計的啓動畫面</li>
-		<li>與桌機自動同步</li>
-		<li><a href="www.mozilla.org/firefox/mobile/features/">還有更多功能...</a></li>
+        <li id="supported">
+            <a class="link" target="_blank" href="http://www.mozilla.org/en-US/firefox/mobile/platforms">支援裝置 (英) »</a>
+        </li>
+        <li id="release-notes">
+            <a class="link" target="_blank" href="http://www.mozilla.org/en-US/mobile/notes">版本資訊 (英) »</a>
+        </li>
 	</ul>
     </div>
 
 </div>
-<div id="mainContent" class="right">
 
+<div id="main-content">
+  <div class="col1">
+    <section id="fast">
+      <h2 class="ct2">更快</h2>
+      <p>啟動及網頁載入更快，立即到達想去之處。</p>
+      <p>隨著您持續使用 Firefox，<a target="_blank" href="http://support.mozilla.org/kb/use-awesome-screen-search-firefox-android">智慧畫面</a>（Awesome Screen）將會越來越懂你，讓你更加容易搜索及瀏覽。</p>
+    </section>
+    
+    <section id="safe">
+      <h2 class="ct2">更安全</h2>
+      <p class="icon privacy"><span class="img"></span>啟用「別追蹤我（Do Not Track）」掌控您的隱私，決定想要在網路上分享多少資訊。 <a target="_blank" href="http://support.mozilla.org/kb/configure-mobile-privacy-and-security-settings" class="more">了解更多</a></p>
+      <p>透過最新的安全隱私設定，簡單自訂您的密碼、隱私資料、Cookies、圖片與套件設定。</p>
+    </section>
+  </div>
+  
+  <div class="col2">
+    <section id="smart">
+      <h2 class="ct2">更聰明</h2>
+      <p class="icon html5"><span class="img"></span>親自體驗完整支援 HTML5 與 Web API 的無窮可能。 <a href="https://developer.mozilla.org/en/Mobile" target="_blank" class="more">了解更多</a></p>
+      <p class="icon sync"><span class="img"></span><a href="http://support.mozilla.org/kb/how-do-i-set-up-firefox-sync">同步</a>您的 Firefox 瀏覽歷史、書籤、密碼到所有的行動裝置，瀏覽更為輕鬆了。</p>
+      <p class="icon addons"><span class="img"></span>安裝套件來增加功能，自訂專屬於您的 Firefox。 <a target="_blank" href="http://addons.mozilla.org/mobile/" class="more">下載套件</a></p>
+      <p>透過動態的已開啟分頁即時縮圖，更有效率的<a target="_blank" href="http://support.mozilla.org/kb/tabs-quickly-switch-websites-firefox-mobile">切換分頁</a></p>
+    </section>
+
+    <section id="get">
+      <p><a href="http://mzl.la/Firefox-Android-zh-TW">立即到 Google Play 商店免費下載 Android 版 Firefox</a></p>
+    </section>
+  </div>
 </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>
+$(window).load(function() {
+    var spos = $('.btn-ftp').offset().top;
+    var img = $('#mobiImg');
+
+    $(window).scroll(function() {
+        var windowOffset = $(window).scrollTop();
+        
+        if (windowOffset > spos) {
+            img.addClass('down');
+        }
+        else {
+            img.removeClass('down');
+        };
+    });
+});
+</script>
+<script type="text/javascript">(function() {var jf = document.createElement('script'); jf.type = 'text/javascript'; jf.async = true;jf.src = 'http://ds.justfont.com/core/js/v1.0/83305b16MZlHQbmZjMFZjHoqfshUI3bEQxEEYKEdiiV5orNTmC5V6Af9t01n9DN9LS1LzOlRH_48eGFi1Py97T7urxVfpMn-5rMrzAou5oGGDshbdwE2eVgp_0sHJhCIn7CF0JNoJun7j_8iMvntCkFhgdh7bCJvdpq3nVUzSiLc-p79-no=.js';var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(jf,s);})();</script>
 
 <!--#include virtual="/inc/footer.html" -->

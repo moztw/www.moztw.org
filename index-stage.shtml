@@ -36,11 +36,18 @@
     margin-bottom: 0px;
 }
 
-#front-feature .dl-mobile ul {
-    display: none;
+#front-feature .dl-mobile div {
+    height: 0px;
+    overflow: hidden;
 }
-#front-feature .dl-mobile:hover ul {
-    display: block;
+#front-feature .dl-mobile:hover div {
+    margin-top: 5px;
+    height: 40px;
+    -moz-transition: all 0.5s;
+    -ie-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 #front-feature .download ul {
@@ -118,14 +125,14 @@ and (max-width : 500px) {
     </div>
     <div class="download dl-mobile">
     	<h3><a href="/mobile/"><strong class="downloadText">行動版 Firefox </strong></a></h3>
- 		<div style='margin-top: 5px;'>
-    	<ul>
-        	<li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-GooglePlay']);">Google Play (英文版)</a>
-        	</li>
-        	<li><a href="http://bit.ly/Fn14zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-zhTW-FTP']);">Mozilla FTP (中文安裝檔)</a>
-        	</li>
-        </ul>
-    	</div>
+ 		<div>    	
+        	<ul>
+            	<li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-GooglePlay']);">Google Play (英文版)</a>
+            	</li>
+            	<li><a href="http://bit.ly/Fn14zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-zhTW-FTP']);">Mozilla FTP (中文安裝檔)</a>
+            	</li>
+            </ul>
+        </div>
     </div>
   </div>
 </div>
