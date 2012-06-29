@@ -19,7 +19,7 @@
 }
 #mobiImg.down {
     background: url("images/Start-Page-in-Device.png");
-    top: 495px;
+    top: 540px;
 }
 .key-point {
 	margin-bottom: 80px;
@@ -303,19 +303,33 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>
 $(window).load(function() {
-    var spos = $('.btn-ftp').offset().top;
     var img = $('#mobiImg');
-
-    $(window).scroll(function() {
-        var windowOffset = $(window).scrollTop();
-        
-        if (windowOffset > spos) {
-            img.addClass('down');
-        }
-        else {
-            img.removeClass('down');
-        };
-    });
+    var offset = $('#main-content').offset().top;
+    
+    if ($(document).height() <= $(window).innerHeight()){
+        // Screen large than webpage
+        $(document).mousemove(function(e){
+            if (e.pageY > offset)
+                img.addClass('down');
+            else
+                img.removeClass('down');
+        }); 
+    }
+    else {
+        // Screen smaller than webpage
+        var spos = $('.btn-ftp').offset().top;
+    
+        $(window).scroll(function() {
+            var windowOffset = $(window).scrollTop();
+            
+            if (windowOffset > spos) {
+                img.addClass('down');
+            }
+            else {
+                img.removeClass('down');
+            };
+        });
+    };
 });
 </script>
 
