@@ -258,11 +258,17 @@
 #container{width:auto;}
 #mobiImg{display:none;}
 #main-content .col1,#main-content .col2,#main-content .col1.down,#main-content .col2.down{width:auto;}
-.key-point{padding:0; height:auto;}
+.key-point{padding:1em 25% 0 0; height:auto; background: #e4ecec url("images/Start-Page-in-Device.png") 97% 40% no-repeat; background-size:30%;}
 #desc, #download{float:none;margin:0; width:auto;}
+#download .btn{width:75%;}
 #desc {margin:1em;}
 #new-feature{display:none;}
 #safe {border-bottom: 1px dotted #D6D6D6;margin-bottom: 24px;}
+</style>
+
+<style type="text/css" media="screen and (max-width: 480px)">
+.key-point{background-position: 94% 6%; background-size:23%;}
+#download .btn{width:100%;}
 </style>
 
 <!--#include virtual="/inc/class_press.html" -->
