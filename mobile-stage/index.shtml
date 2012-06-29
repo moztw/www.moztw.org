@@ -276,10 +276,10 @@
 	</p>
 	<ul id="new-feature">
         <li id="supported">
-            <a class="link" target="_blank" href="http://www.mozilla.org/en-US/firefox/mobile/platforms">支援裝置 (英) »</a>
+            <a class="link" target="_blank" href="http://www.mozilla.org/firefox/mobile/platforms">支援裝置 (英) »</a>
         </li>
         <li id="release-notes">
-            <a class="link" target="_blank" href="http://www.mozilla.org/en-US/mobile/notes">版本資訊 (英) »</a>
+            <a class="link" target="_blank" href="http://www.mozilla.org/mobile/notes">版本資訊 (英) »</a>
         </li>
 	</ul>
     </div>
@@ -315,9 +315,9 @@
   <div class="col2">
     <section id="smart">
       <h2>更聰明</h2>
-      <p class="icon html5"><span class="img"></span>親自體驗 HTML5 與 Web API 的無窮可能。 <a href="https://developer.mozilla.org/en/Mobile" target="_blank" class="more">了解更多</a></p>
+      <p class="icon html5"><span class="img"></span>親自體驗 HTML5 與 Web API 所帶來的無窮可能性。 <a href="https://developer.mozilla.org/en/Mobile" target="_blank" class="more">了解更多</a></p>
       <p class="icon sync"><span class="img"></span><a href="http://support.mozilla.org/kb/how-do-i-set-up-firefox-sync">同步</a>您的瀏覽歷史、書籤、密碼到所有行動裝置，瀏覽變得更為輕鬆。</p>
-      <p class="icon addons"><span class="img"></span>安裝附加元件來自訂專屬您的 Firefox。 <a target="_blank" href="http://addons.mozilla.org/mobile/" class="more">下載附加元件</a></p>
+      <p class="icon addons"><span class="img"></span>安裝附加元件，打造出獨一無二專屬於您的 Firefox。 <a target="_blank" href="http://addons.mozilla.org/mobile/" class="more">下載附加元件</a></p>
       <p>透過動態的已開啟分頁即時縮圖，更有效率地<a target="_blank" href="http://support.mozilla.org/kb/tabs-quickly-switch-websites-firefox-mobile">切換分頁</a></p>
     </section>
 
