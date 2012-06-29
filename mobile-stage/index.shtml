@@ -280,7 +280,7 @@
     
     <section id="safe">
       <h2>更安全</h2>
-      <p class="icon privacy"><span class="img"></span>啟用「別追蹤我（Do Not Track）」掌控您的隱私，決定想要在網路上分享多少資訊。 <a target="_blank" href="http://support.mozilla.org/kb/configure-mobile-privacy-and-security-settings" class="more">了解更多</a></p>
+      <p class="icon privacy"><span class="img"></span>啟用「別追蹤我（Do Not Track）」保護您的隱私，決定想要在網路上分享多少資訊。 <a target="_blank" href="http://support.mozilla.org/kb/configure-mobile-privacy-and-security-settings" class="more">了解更多</a></p>
       <p>透過最新的安全隱私設定，簡單自訂您的密碼、隱私資料、Cookies、圖片與套件設定。</p>
     </section>
   </div>
@@ -288,10 +288,10 @@
   <div class="col2">
     <section id="smart">
       <h2>更聰明</h2>
-      <p class="icon html5"><span class="img"></span>親自體驗完整支援 HTML5 與 Web API 的無窮可能。 <a href="https://developer.mozilla.org/en/Mobile" target="_blank" class="more">了解更多</a></p>
-      <p class="icon sync"><span class="img"></span><a href="http://support.mozilla.org/kb/how-do-i-set-up-firefox-sync">同步</a>您的 Firefox 瀏覽歷史、書籤、密碼到所有的行動裝置，瀏覽更為輕鬆了。</p>
-      <p class="icon addons"><span class="img"></span>安裝套件來增加功能，自訂專屬於您的 Firefox。 <a target="_blank" href="http://addons.mozilla.org/mobile/" class="more">下載套件</a></p>
-      <p>透過動態的已開啟分頁即時縮圖，更有效率的<a target="_blank" href="http://support.mozilla.org/kb/tabs-quickly-switch-websites-firefox-mobile">切換分頁</a></p>
+      <p class="icon html5"><span class="img"></span>親自體驗 HTML5 與 Web API 的無窮可能。 <a href="https://developer.mozilla.org/en/Mobile" target="_blank" class="more">了解更多</a></p>
+      <p class="icon sync"><span class="img"></span><a href="http://support.mozilla.org/kb/how-do-i-set-up-firefox-sync">同步</a>您的瀏覽歷史、書籤、密碼到所有行動裝置，瀏覽變得更為輕鬆。</p>
+      <p class="icon addons"><span class="img"></span>安裝附加元件來自訂專屬您的 Firefox。 <a target="_blank" href="http://addons.mozilla.org/mobile/" class="more">下載附加元件</a></p>
+      <p>透過動態的已開啟分頁即時縮圖，更有效率地<a target="_blank" href="http://support.mozilla.org/kb/tabs-quickly-switch-websites-firefox-mobile">切換分頁</a></p>
     </section>
 
     <section id="get">
