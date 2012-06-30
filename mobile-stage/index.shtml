@@ -1,6 +1,6 @@
 <!--#include virtual="/inc/meta.html" -->
 <title>Android 版 Firefox - 行動網路新體驗 - MozTW</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style type="text/css">
 #container{
 	width:930px; /*因為所以這頁的伸縮很難做就....*/
@@ -88,7 +88,6 @@
     text-decoration: none;
 }
 
-
 #download{
     float: left;
     /*margin-top: 80px;*/
@@ -147,7 +146,7 @@
 #main-content .col1, #main-content .col2 {
     float: left;
     margin: 0 10px;
-    width: 420px;
+    width: 400px;
     -moz-transition: all 0.7s ease 0.9s;
     -o-transition: all 0.7s ease 0.9s;
     -webkit-transition: all 0.7s ease 0.9s;
@@ -252,7 +251,7 @@
 }
 </style>
 
-<style type="text/css" media="screen and (max-height: 900px)">
+<style type="text/css" media="screen and (max-height: 800px)">
 #main-content .col1, #main-content .col2{
 	width:280px;
 }
@@ -347,16 +346,20 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>
-$(window).load(function() {
-
+$(document).ready(function() {    
     // Adjust viewport scale based on window width/document width ratio on pad. 
     var winWidth = $(window).innerWidth();
-    var docuWidth = $(document).outerWidth();
+    var docuWidth = 960;
         
     if ((winWidth < docuWidth) && (winWidth > 640)){
         var scale = winWidth / docuWidth;      
-        $('meta[name=viewport]').attr('content','width=device-width, initial-scale=' + scale + ', maximum-scale=1, minimum-scale=' + scale);
+        $('meta[name=viewport]').attr('content','width=960, initial-scale=' + scale);
     };
+});
+
+$(window).load(function() {
+    
+    if ($(window).innerHeight() > 800) return; 
     
     // Animation of phone
     var offset = $('#main-content').offset().top;
