@@ -127,7 +127,6 @@
 		inset 0 12px 24px 2px #83d822;
 }
 
-
 /* 
  * Style below modefied from http://www.mozilla.org/en-US/firefox/mobile/features/ 
  */
@@ -138,9 +137,6 @@
     display: block;
     height: 0;
     visibility: hidden;
-}
-#main-content {
-    background: url("/media/img/firefox/mobile/smartphone-large.png") no-repeat scroll 50% 80px #FFFFFF;
 }
 
 #main-content .col1, #main-content .col2 {
@@ -199,7 +195,7 @@
 
 #fast, #smart {
     border-bottom: 1px dotted #D6D6D6;
-    margin-bottom: 24px;
+    margin-bottom: 12px;
 }
 
 #fast p:first-of-type {
@@ -231,15 +227,22 @@
     background-position: 0 -180px;
 }
 
+/*#fast .tab {
+    margin-bottom: 12px;
+}*/
+
 #get a {
-    background: url("images/android-tiny.png") no-repeat;
+/*    background: url("images/android-tiny.png") no-repeat;*/
     display: block;
-    font-size: 0.875em;
+/*    font-size: 0.875em;
     line-height: 1.5em;
-    padding: 2px 0 2px 45px;
+    padding: 2px 0 2px 45px;*/
+}
+#get a .movie {
+    width: 200px;
 }
 
-#main-content a.more:after, #main-content #get a:after {
+#main-content a.more:after {
     content: " »";
 }
 #main-content .sky a {
@@ -275,11 +278,21 @@
 #desc {margin:1em;}
 #new-feature{display:none;}
 #safe {border-bottom: 1px dotted #D6D6D6;margin-bottom: 24px;}
+#get a .movie {
+    width: 100%;
+}
 </style>
 
 <style type="text/css" media="screen and (max-width: 480px)">
 .key-point{padding:1em 22% 0 0; background-position: 94% 6%; background-size:23%;}
 #download .btn{width:100%;}
+</style>
+
+<link rel="stylesheet" href="/js/library/fancybox2/jquery.fancybox.css" type="text/css" media="screen" />
+<style type="text/css">
+.fancybox-outer {
+    background: black;
+}
 </style>
 
 <!--#include virtual="/inc/class_press.html" -->
@@ -320,6 +333,7 @@
       <h2>更快</h2>
       <p>啟動及網頁載入更快，立即到達想去之處。</p>
       <p>隨著您持續使用 Firefox，<a target="_blank" href="http://support.mozilla.org/kb/use-awesome-screen-search-firefox-android">智慧畫面</a>（Awesome Screen）將會越來越懂你，讓你更加容易搜索及瀏覽。</p>
+      <p class="tab">透過動態的已開啟分頁即時縮圖，更有效率地<a target="_blank" href="http://support.mozilla.org/kb/tabs-quickly-switch-websites-firefox-mobile">切換分頁</a></p>
     </section>
     
     <section id="safe">
@@ -335,16 +349,20 @@
       <p class="icon html5"><span class="img"></span>親自體驗 HTML5 與 Web API 所帶來的無窮可能性。 <a href="https://developer.mozilla.org/en/Mobile" target="_blank" class="more">了解更多</a></p>
       <p class="icon sync"><span class="img"></span><a href="http://support.mozilla.org/kb/how-do-i-set-up-firefox-sync">同步</a>您的瀏覽歷史、書籤、密碼到所有行動裝置，瀏覽變得更為輕鬆。</p>
       <p class="icon addons"><span class="img"></span>安裝附加元件，打造出獨一無二專屬於您的 Firefox。 <a target="_blank" href="http://addons.mozilla.org/mobile/" class="more">下載附加元件</a></p>
-      <p>透過動態的已開啟分頁即時縮圖，更有效率地<a target="_blank" href="http://support.mozilla.org/kb/tabs-quickly-switch-websites-firefox-mobile">切換分頁</a></p>
     </section>
 
     <section id="get">
-      <p><a href="http://mzl.la/Firefox-Android-zh-TW">立即到 Google Play 商店免費下載 Android 版 Firefox</a></p>
+        <a class="fancybox-iframe" href="movie.html" title="全新Android版Firefox新鮮事影片" target="_blank"><img class="movie" src="images/FirefoxForAndroidUpdateOverview" alt=""></a>
+        
+<!--      <p><a href="http://mzl.la/Firefox-Android-zh-TW">立即到 Google Play 商店免費下載 Android 版 Firefox</a></p>-->
     </section>
   </div>
 </div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="/js/library/fancybox2/jquery.fancybox.pack.js"></script>
+
+
 <script>
 $(document).ready(function() {    
     // Adjust viewport scale based on window width/document width ratio on pad. 
@@ -355,6 +373,20 @@ $(document).ready(function() {
         var scale = winWidth / docuWidth;      
         $('meta[name=viewport]').attr('content','width=960, initial-scale=' + scale);
     };
+    
+    if (winWidth > 640){    // Fancy box of movie
+        $(".fancybox-iframe").fancybox({
+    		height 	       : '425px',
+    		width          : '480px',
+    		scrolling      : 'no',
+    		openEffect     : 'fade',
+    		closeEffect    : 'none',
+    		type           : 'iframe',
+    		helpers        : {
+    	        title:  null
+    	    }
+    	});
+	};
 });
 
 $(window).load(function() {
