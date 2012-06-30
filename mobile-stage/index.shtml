@@ -252,6 +252,11 @@
 }
 </style>
 
+<style type="text/css" media="screen and (max-height: 900px)">
+#main-content .col1, #main-content .col2{
+	width:280px;
+}
+</style>
 
 <!-- Responsive design below -->
 <link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 640px)">
@@ -259,7 +264,13 @@
 #container{width:auto;}
 #mobiImg{ display:none; }
 #main-content .col1, #main-content .col2, .down #main-content .col1, .down #main-content .col2 { width:auto; }
-.key-point{padding:1em 25% 0 0; height:auto; background: #e4ecec url("images/Start-Page-in-Device.png") 97% 40% no-repeat; background-size:30%;}
+.key-point{
+    padding:1em 25% 0 0; 
+    height:auto; 
+    background: #e4ecec url("images/Start-Page-in-Device.png") 97% 40% no-repeat; 
+    background-size:30%;
+    margin-bottom: 40px;
+}
 #desc, #download{float:none;margin:0; width:auto;}
 #download .btn{width:75%;}
 #desc {margin:1em;}
@@ -337,6 +348,17 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>
 $(window).load(function() {
+
+    // Adjust viewport scale based on window width/document width ratio on pad. 
+    var winWidth = $(window).innerWidth();
+    var docuWidth = $(document).outerWidth();
+        
+    if ((winWidth < docuWidth) && (winWidth > 640)){
+        var scale = winWidth / docuWidth;      
+        $('meta[name=viewport]').attr('content','width=device-width, initial-scale=' + scale + ', maximum-scale=1, minimum-scale=' + scale);
+    };
+    
+    // Animation of phone
     var offset = $('#main-content').offset().top;
 	var spos = $('.btn-ftp').offset().top;
     
@@ -349,7 +371,7 @@ $(window).load(function() {
 		else {
 		    $('body').removeClass('down');
 		};
-	});
+	}).scroll();
 });
 </script>
 
