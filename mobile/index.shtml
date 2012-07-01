@@ -268,8 +268,7 @@ body {
 #container{width:auto;}
 #mobiImg{ display:none; }
 .col1, .col2 { width:auto !important; }
-.col1 p, .col2 p { min-height: 2.5em; }
-
+.col1 p, .col2 p { min-height: 2em; }
 .key-point{
     padding:1em 23% 0 0; 
     height:auto; 
@@ -279,6 +278,7 @@ body {
 }
 #desc, #download{float:none;margin:0; width:auto;}
 #download .btn{width:70%;}
+#download a.btn, #download a.btn:visited { font-size: 1em; }
 #desc {margin:1em;}
 #new-feature{display:none;}
 #fast .tab {

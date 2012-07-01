@@ -9,7 +9,20 @@
 .front-feature {
     position: relative; 
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
-    cursor: pointer;
+}
+
+.front-feature #mobile_link {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 550px;
+    height: 100%;
+    z-index: 0;
+}
+.front-feature #mobile_link:hover, .front-feature #mobile_link:visited {
+    background: none;
+    text-decoration: none;
 }
 
 #feature-content h2 {
@@ -21,15 +34,15 @@
 }
 
 .front-feature a.fx-link:hover img {
-    height: auto;
     margin-top: -6px;
     height: 90px;
-    width: auto;
+    width: 256px;
 }
 
 #front-feature .download {
     padding: 12px 0 10px 15px !important;
     margin-bottom: 15px;
+    box-shadow: 0 0 3px #5F8FBE;
 }
 
 #front-feature .dl-mobile {
@@ -95,7 +108,7 @@ and (max-width : 500px) {
         display: none;
     }
     #front-feature {
-        background-position: -30px 0px;
+        background-position: 40% 0;
         background-size: 450px auto;
         padding-bottom: 200px;
     }
@@ -103,10 +116,17 @@ and (max-width : 500px) {
 
 -->
 </style>
-<!--[if IE 7]>
+<!--[if lte IE 7]>
 <style>
 .frontcolumn {
     padding-right: 2%;
+}
+#front-feature .download ul, #planets ul {
+    margin-left: 0;
+}
+.front-feature #mobile_link {
+    height: 330px;
+    width: 70%;
 }
 </style>
 <![endif]-->
@@ -114,7 +134,8 @@ and (max-width : 500px) {
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-<div class="key-point front-feature" id="front-feature" href="/mobile">
+<div class="key-point front-feature" id="front-feature">
+  <a id="mobile_link" href="/mobile/"></a>
   <div id="feature-content">
     <h2><a class="fx-link" href="/firefox/"><img src="images/logo-wordmark-mozilla.png" alt="Firefox" height="84" width="240"></a></h2>
     <div class="download dl-box">
@@ -207,14 +228,6 @@ and (max-width : 500px) {
 <script type="text/javascript" 
 src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript">
-
-jQuery(document).ready(function($) {
-    $('#front-feature').click(function() {
-        location.href = '/mobile';
-        return false;
-    });
-});
-
 /*
  * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
  *

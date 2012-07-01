@@ -78,7 +78,8 @@
 	-webkit-border-radius:5px;
 	border-radius:5px;
 }
-#header #search{ position:absolute; padding:0.5em 0;top:0; left:0; bottom:0; width:90%;}
+#header #search{ position:absolute; padding:0.5em 0;top:0; left:0; bottom:0; width:90%; height: 1em;
+}
 #header #search #q{width:70%;}
 #footer{
 	font-size:67%;
