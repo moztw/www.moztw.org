@@ -298,6 +298,12 @@ body {
 }
 </style>
 
+<!--[if lte IE 8]>
+.movie {
+    width: 230px !important;
+}
+<![endif]-->
+
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
 
