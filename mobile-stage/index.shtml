@@ -1,4 +1,8 @@
-<!-- 
+<!--#include virtual="/inc/meta.html" -->
+<title>Android 版 Firefox - 行動網路新體驗 - MozTW</title>
+<meta name="viewport" content="width=device-width">
+<style type="text/css">
+/*
 本頁的 Responsive Design 設計：
 
 一般狀態頁面寬度: 960px
@@ -8,12 +12,8 @@ WinWidth
         WinHeight > 800: 手機上下移動的動畫 
     < 640: 手機模式
     < 480: 手機模式2
--->
+*/
 
-<!--#include virtual="/inc/meta.html" -->
-<title>Android 版 Firefox - 行動網路新體驗 - MozTW</title>
-<meta name="viewport" content="width=device-width">
-<style type="text/css">
 body {
     margin: 20px 15px;
 }
