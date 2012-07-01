@@ -323,20 +323,20 @@ body {
 	</p>
 	<ul id="new-feature">
         <li id="supported">
-            <a class="link" target="_blank" href="http://www.mozilla.org/firefox/mobile/platforms">支援裝置 (英) »</a>
+            <a class="link" target="_blank" href="http://www.mozilla.org/firefox/mobile/platforms" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'mozilla-firefox-mobile-platform']);">支援裝置 (英) »</a>
         </li>
         <li id="release-notes">
-            <a class="link" target="_blank" href="http://www.mozilla.org/mobile/notes">版本資訊 (英) »</a>
+            <a class="link" target="_blank" href="http://www.mozilla.org/mobile/notes" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'mozilla-firefox-mobile-releasenotes']);">版本資訊 (英) »</a>
         </li>
 	</ul>
     </div>
 
 	<div id="download">
-		<a class="btn" href="http://mzl.la/Firefox-Android-zh-TW">
+		<a class="btn" href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">
 		從 Google Play 下載
 		<div class="desc">目前暫無中文版</div>
 		</a>
-		<a class="btn btn-ftp" href="http://bit.ly/Fn14zhTW">
+		<a class="btn btn-ftp" href="http://bit.ly/Fn14zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-zhTW-FTP']);">
 		從 Mozilla FTP 下載
 		<div class="desc">中文版，需手動安裝 APK</div>
 		</a>
@@ -349,13 +349,13 @@ body {
     <section id="fast">
       <h2>更快</h2>
       <p>啟動及網頁載入更快，立即到達想去之處。</p>
-      <p>隨著您持續使用 Firefox，<a target="_blank" href="http://support.mozilla.org/kb/use-awesome-screen-search-firefox-android">智慧畫面</a>將會越來越懂你，讓你更加容易搜索及瀏覽。</p>
-      <p class="tab">透過動態的已開啟分頁即時縮圖，更有效率地<a target="_blank" href="http://support.mozilla.org/kb/tabs-quickly-switch-websites-firefox-mobile">切換分頁</a>。</p>
+      <p>隨著您持續使用 Firefox，<a target="_blank" href="http://support.mozilla.org/kb/use-awesome-screen-search-firefox-android" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SUMO', 'FirefoxMobileAwesomeScreen']);">智慧畫面</a>將會越來越懂你，讓你更加容易搜索及瀏覽。</p>
+      <p class="tab">透過動態的已開啟分頁即時縮圖，更有效率地<a target="_blank" href="http://support.mozilla.org/kb/tabs-quickly-switch-websites-firefox-mobile" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SUMO', 'FirefoxMobileTabSwitch']);">切換分頁</a>。</p>
     </section>
     
     <section id="safe">
       <h2>更安全</h2>
-      <p class="icon privacy"><span class="img"></span>啟用「別追蹤我（Do Not Track）」保護您的隱私，決定想要在網路上分享多少資訊。 <a target="_blank" href="http://support.mozilla.org/kb/configure-mobile-privacy-and-security-settings" class="more">了解更多</a></p>
+      <p class="icon privacy"><span class="img"></span>啟用「別追蹤我（Do Not Track）」保護您的隱私，決定想要在網路上分享多少資訊。 <a target="_blank" href="http://support.mozilla.org/kb/configure-mobile-privacy-and-security-settings" class="more" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SUMO', 'FirefoxMobilePrivacy']);">了解更多</a></p>
       <p>透過最新的安全隱私設定，簡單自訂您的密碼、隱私資料、Cookies、圖片與套件設定。</p>
     </section>
   </div>
@@ -363,15 +363,15 @@ body {
   <div class="col2">
     <section id="smart">
       <h2>更聰明</h2>
-      <p class="icon html5"><span class="img"></span>親自體驗 HTML5 與 Web API 所帶來的無窮可能性。 <a href="https://developer.mozilla.org/en/Mobile" target="_blank" class="more">了解更多</a></p>
-      <p class="icon sync"><span class="img"></span><a href="http://support.mozilla.org/kb/how-do-i-set-up-firefox-sync">同步</a>您的瀏覽歷史、書籤、密碼到所有行動裝置，瀏覽變得更為輕鬆。</p>
-      <p class="icon addons"><span class="img"></span>安裝附加元件，打造出獨一無二專屬於您的 Firefox。 <a target="_blank" href="http://addons.mozilla.org/mobile/" class="more">下載附加元件</a></p>
+      <p class="icon html5"><span class="img"></span>親自體驗 HTML5 與 Web API 所帶來的無窮可能性。 <a href="https://developer.mozilla.org/en/Mobile" target="_blank" class="more" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MDN', 'FirefoxMobile']);">了解更多</a></p>
+      <p class="icon sync"><span class="img"></span><a href="http://support.mozilla.org/kb/how-do-i-set-up-firefox-sync" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SUMO', 'FirefoxSync']);">同步</a>您的瀏覽歷史、書籤、密碼到所有行動裝置，瀏覽變得更為輕鬆。</p>
+      <p class="icon addons"><span class="img"></span>安裝附加元件，打造出獨一無二專屬於您的 Firefox。 <a target="_blank" href="http://addons.mozilla.org/mobile/" class="more" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'AMO', 'FirefoxMobile']);">下載附加元件</a></p>
     </section>
 
     <section id="get">
         <a class="fancybox-iframe" href="movie.html" title="全新Android版Firefox新鮮事影片" target="_blank"><img class="movie" src="images/FirefoxForAndroidUpdateOverview_overlay.png" alt=""></a>
         
-<!--      <p><a href="http://mzl.la/Firefox-Android-zh-TW">立即到 Google Play 商店免費下載 Android 版 Firefox</a></p>-->
+<!--      <p><a href="http://mzl.la/Firefox-Android-zh-TW" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">立即到 Google Play 商店免費下載 Android 版 Firefox</a></p>-->
     </section>
   </div>
 </div>

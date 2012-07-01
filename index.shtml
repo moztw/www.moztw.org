@@ -148,7 +148,7 @@ and (max-width : 500px) {
     	<h3><a href="/mobile/"><strong class="downloadText">行動版 Firefox </strong></a></h3>
  		<div>    	
         	<ul>
-            	<li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-GooglePlay']);">Google Play (英文版)</a>
+            	<li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">Google Play (英文版)</a>
             	</li>
             	<li><a href="http://bit.ly/Fn14zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-zhTW-FTP']);">Mozilla FTP (中文安裝檔)</a>
             	</li>
@@ -165,7 +165,7 @@ and (max-width : 500px) {
   </div>
   <div class="frontcolumn hide" id="mobile-feature-android">
       <h2 class="mobile-header"><a href="/m/">行動版 Firefox<img src="/images/Pocketfox.png" alt="'Pocketfox' created by yaroslaff_che cc: by-nc-sa http://creative.mozilla.org/designs/346" class="promo"></a></h2>
-      <p>全面更新的行動版 Firefox 輕巧又靈活，讓您更快到達想去的地方。<br>→ <a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay-14']);">立即至 Google Play 安裝英文版</a>；或<a href="http://bit.ly/Fn14zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-zhTW-FTP']);">直接下載中文版安裝檔</a></p>
+      <p>全面更新的行動版 Firefox 輕巧又靈活，讓您更快到達想去的地方。<br>→ <a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">立即至 Google Play 安裝英文版</a>；或<a href="http://bit.ly/Fn14zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-zhTW-FTP']);">直接下載中文版安裝檔</a></p>
   </div>
   <div class="frontcolumn" id="feature-thunderbird">
       <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-front-thunderbird.png" alt="Thunderbird Logo" class="promo"></a></h2>
@@ -182,8 +182,8 @@ and (max-width : 500px) {
   </div>
   
 <!--  <div class="frontcolumn">
-    <h2><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-GooglePlay']);"><img src="/images/foxmosa-android.png" style="float: left;height: 125px;margin:-5px 9px 0 -10px;width: 107px;" alt="Firefox Android icon" class="promo">Android 版 Firefox</a></h2>
-	<p>全面更新的行動版 Firefox 輕巧又靈活，讓您更快到達想去的地方。<br>→ <a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay-14']);">立即至 Google Play 安裝英文版</a>；或<a href="http://bit.ly/Fn14zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-zhTW-FTP']);">直接下載中文版安裝檔</a></p>
+    <h2><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);"><img src="/images/foxmosa-android.png" style="float: left;height: 125px;margin:-5px 9px 0 -10px;width: 107px;" alt="Firefox Android icon" class="promo">Android 版 Firefox</a></h2>
+	<p>全面更新的行動版 Firefox 輕巧又靈活，讓您更快到達想去的地方。<br>→ <a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">立即至 Google Play 安裝英文版</a>；或<a href="http://bit.ly/Fn14zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-zhTW-FTP']);">直接下載中文版安裝檔</a></p>
   </div>-->
   
   <div class="frontcolumnlast">
