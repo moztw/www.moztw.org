@@ -1,7 +1,22 @@
+<!-- 
+本頁的 Responsive Design 設計：
+
+一般狀態頁面寬度: 960px
+WinWidth
+    > 1000: 使用 fancybox 開啟影片 iframe
+    > 640: 桌面模式，Mobile Device 上會 fit viewport
+        WinHeight > 800: 手機上下移動的動畫 
+    < 640: 手機模式
+    < 480: 手機模式2
+-->
+
 <!--#include virtual="/inc/meta.html" -->
 <title>Android 版 Firefox - 行動網路新體驗 - MozTW</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width">
 <style type="text/css">
+body {
+    margin: 20px 15px;
+}
 #container{
 	width:930px; /*因為所以這頁的伸縮很難做就....*/
 }
@@ -22,6 +37,11 @@
 .down #mobiImg {
     background: url("images/Start-Page-in-Device.png");
     top: 460px;
+    -moz-transition: all 1.5s ease 0s;
+    -o-transition: all 1.5s ease 0s;
+    -webkit-transition: all 1.5s ease 0s;
+    -ie-transition: all 1.5s ease 0s;
+    transition: all 1.5s ease 0s;
 }
 .key-point {
 	margin-bottom: 80px;
@@ -90,13 +110,15 @@
 
 #download{
     float: left;
-    /*margin-top: 80px;*/
-    margin-top: 10px;
+    margin-top: 60px;
     padding: 1em;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
     width: 260px;
 }
-#download .desc{font-size:70%; color:rgb(181, 231, 134);}
+#download .desc{
+    color: #B5E786;
+    font-size: 0.8em;
+}
 
 #download a.btn,#download a.btn:visited {
 	font-size:130%;
@@ -143,45 +165,32 @@
     float: left;
     margin: 0 10px;
     width: 400px;
-    -moz-transition: all 0.7s ease 0.9s;
-    -o-transition: all 0.7s ease 0.9s;
-    -webkit-transition: all 0.7s ease 0.9s;
-    -ie-transition: all 0.7s ease 0.9s;
-    transition: all 0.7s ease 0.9s;
-}
-
-.down #main-content .col1, .down #main-content .col2{
-	width:280px;
-    -moz-transition: all 0.7s ease 0s;
-    -o-transition: all 0.7s ease 0s;
-    -webkit-transition: all 0.7s ease 0s;
-    -ie-transition: all 0.7s ease 0s;
-    transition: all 0.7s ease 0s;
 }
 
 #main-content .col2 {
     float: right;
 }
 
-#main-content h1, h2, h3, h4, h5, h6, .huge, .large {
-    color: #484848;
-    display: block;
-    font-family: 'Open Sans Light',sans-serif;
-    font-weight: normal;
-    line-height: 100%;
-    margin: 0 0 12px;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+.anime #main-content .col1, .anime #main-content .col2{
+	width: 280px;
 }
 
 #main-content h2 {
-    font-size: 46px;
     border: none;
+    color: #484848;
+    display: block;
+    font-family: sans-serif;
+    font-size: 46px;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0 0 18px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
 }
 
 #main-content p {
     font-size: 1.05em;
     line-height: 1.75em;
-    margin: 0 0 24px;
+    margin: 0 0 12px;
 }
 
 #main-content a:hover {
@@ -195,16 +204,19 @@
 
 #fast, #smart {
     border-bottom: 1px dotted #D6D6D6;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
 }
 
-#fast p:first-of-type {
-    margin-bottom: 12px;
+#fast .tab {
+    margin-bottom: 24px;
+}
+
+#smart p {
+    margin-bottom: 24px;
 }
 
 #main-content .icon .img {
-    background-image: url("images/feature-icons.png");
-    background-repeat: no-repeat;
+    background: url("images/feature-icons.png") no-repeat;
     float: left;
     height: 60px;
     margin-left: -60px;
@@ -227,36 +239,20 @@
     background-position: 0 -180px;
 }
 
-/*#fast .tab {
-    margin-bottom: 12px;
-}*/
-
-#get a {
-/*    background: url("images/android-tiny.png") no-repeat;*/
-    display: block;
-/*    font-size: 0.875em;
-    line-height: 1.5em;
-    padding: 2px 0 2px 45px;*/
-}
 #get a .movie {
-    width: 200px;
+    width: 230px;
+}
+
+.anime #get a .movie {
+    width: 100%;
 }
 
 #main-content a.more:after {
     content: " »";
 }
-#main-content .sky a {
-    color: #67A7D0;
-}
 #main-content a {
     color: #2983C8;
     text-decoration: none;
-}
-</style>
-
-<style type="text/css" media="screen and (max-height: 800px)">
-#main-content .col1, #main-content .col2{
-	width:280px;
 }
 </style>
 
@@ -265,20 +261,25 @@
 <style type="text/css" media="screen and (max-width: 640px)">
 #container{width:auto;}
 #mobiImg{ display:none; }
-#main-content .col1, #main-content .col2, .down #main-content .col1, .down #main-content .col2 { width:auto; }
+.col1, .col2 { width:auto !important; }
+.col1 p, .col2 p { min-height: 2.5em; }
+
 .key-point{
-    padding:1em 25% 0 0; 
+    padding:1em 23% 0 0; 
     height:auto; 
-    background: #e4ecec url("images/Start-Page-in-Device.png") 97% 40% no-repeat; 
+    background: #e4ecec url("images/Start-Page-in-Device.png") 95% 1em no-repeat; 
     background-size:30%;
     margin-bottom: 40px;
 }
 #desc, #download{float:none;margin:0; width:auto;}
-#download .btn{width:75%;}
+#download .btn{width:70%;}
 #desc {margin:1em;}
 #new-feature{display:none;}
+#fast .tab {
+    margin-bottom: 12px;
+}
 #safe {border-bottom: 1px dotted #D6D6D6;margin-bottom: 24px;}
-#get a .movie {
+.anime #get a .movie {
     width: 100%;
 }
 </style>
@@ -286,9 +287,11 @@
 <style type="text/css" media="screen and (max-width: 480px)">
 .key-point{padding:1em 22% 0 0; background-position: 94% 6%; background-size:23%;}
 #download .btn{width:100%;}
+#main-content p { font-size: 1em;}
+#main-content h2 { font-size: 2.5em; }
 </style>
 
-<link rel="stylesheet" href="/js/library/fancybox2/jquery.fancybox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="/js/library/fancybox2/jquery.fancybox.css" type="text/css" media="screen and (min-width: 1000px)" />
 <style type="text/css">
 .fancybox-outer {
     background: black;
@@ -332,8 +335,8 @@
     <section id="fast">
       <h2>更快</h2>
       <p>啟動及網頁載入更快，立即到達想去之處。</p>
-      <p>隨著您持續使用 Firefox，<a target="_blank" href="http://support.mozilla.org/kb/use-awesome-screen-search-firefox-android">智慧畫面</a>（Awesome Screen）將會越來越懂你，讓你更加容易搜索及瀏覽。</p>
-      <p class="tab">透過動態的已開啟分頁即時縮圖，更有效率地<a target="_blank" href="http://support.mozilla.org/kb/tabs-quickly-switch-websites-firefox-mobile">切換分頁</a></p>
+      <p>隨著您持續使用 Firefox，<a target="_blank" href="http://support.mozilla.org/kb/use-awesome-screen-search-firefox-android">智慧畫面</a>將會越來越懂你，讓你更加容易搜索及瀏覽。</p>
+      <p class="tab">透過動態的已開啟分頁即時縮圖，更有效率地<a target="_blank" href="http://support.mozilla.org/kb/tabs-quickly-switch-websites-firefox-mobile">切換分頁</a>。</p>
     </section>
     
     <section id="safe">
@@ -352,7 +355,7 @@
     </section>
 
     <section id="get">
-        <a class="fancybox-iframe" href="movie.html" title="全新Android版Firefox新鮮事影片" target="_blank"><img class="movie" src="images/FirefoxForAndroidUpdateOverview" alt=""></a>
+        <a class="fancybox-iframe" href="movie.html" title="全新Android版Firefox新鮮事影片" target="_blank"><img class="movie" src="images/FirefoxForAndroidUpdateOverview_overlay.png" alt=""></a>
         
 <!--      <p><a href="http://mzl.la/Firefox-Android-zh-TW">立即到 Google Play 商店免費下載 Android 版 Firefox</a></p>-->
     </section>
@@ -362,22 +365,21 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="/js/library/fancybox2/jquery.fancybox.pack.js"></script>
 
-
 <script>
 $(document).ready(function() {    
     // Adjust viewport scale based on window width/document width ratio on pad. 
     var winWidth = $(window).innerWidth();
-    var docuWidth = 960;
+//    var docuWidth = 960;
         
-    if ((winWidth < docuWidth) && (winWidth > 640)){
-        var scale = winWidth / docuWidth;      
-        $('meta[name=viewport]').attr('content','width=960, initial-scale=' + scale);
+    if (winWidth > 640){
+//        var scale = winWidth / docuWidth;    // initial-scale default to fit screen. 
+        $('meta[name=viewport]').attr('content','width=960');
     };
     
-    if (winWidth > 640){    // Fancy box of movie
+    if (winWidth > 1000){    // Fancy box of movie
         $(".fancybox-iframe").fancybox({
-    		height 	       : '425px',
-    		width          : '480px',
+    		width          : '640px',
+    		height 	       : '400px',
     		scrolling      : 'no',
     		openEffect     : 'fade',
     		closeEffect    : 'none',
@@ -391,7 +393,9 @@ $(document).ready(function() {
 
 $(window).load(function() {
     
-    if ($(window).innerHeight() > 800) return; 
+    if ($(window).innerHeight() > 800) return;
+    
+    $('body').addClass('anime');
     
     // Animation of phone
     var offset = $('#main-content').offset().top;

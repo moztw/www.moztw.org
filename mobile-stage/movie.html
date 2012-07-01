@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>    
-    <title>What is Mozilla - MozTW</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=640">
+    <title>全新 Android 版 Firefox 新鮮事 - MozTW</title>
     <style>
     body { 
         background: black;
@@ -11,10 +13,35 @@
 </head>
 <body>
 
-<script type="text/javascript" src="http://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-(
-  {"base_state": {"language": "zh-tw"}, "video_url": "http://www.youtube.com/watch?v=uKqyxhEUrBg"}
-)
+<script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
+({
+    base_state: { language: "zh-tw"},
+    video_url: "http://www.youtube.com/watch?v=uKqyxhEUrBg", 
+    video_config: {
+        rel: 0,
+        showinfo: 0,
+        width: 640,
+        height: 360
+    },
+    alternate_video_urls: [{
+        url: "New_Firefox_for_Android_update_overview.webm",
+        config: {
+            poster: "images/FirefoxForAndroidUpdateOverview.png",
+            click_to_play: true,
+            width: 640,
+            height: 360
+        }
+    }, 
+    {
+        url: "New_Firefox_for_Android_update_overview.mp4",
+        config: {
+            poster: "images/FirefoxForAndroidUpdateOverview.png",
+            click_to_play: true,
+            width: 640,
+            height: 360
+        }
+    }]
+})
 </script>
 
 </body>
