@@ -1,6 +1,7 @@
 <!--#include virtual="/inc/meta.html" -->
 <title>Android 版 Firefox - 行動網路新體驗 - MozTW</title>
 <meta name="viewport" content="width=device-width">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400' rel='stylesheet' type='text/css'>
 <style type="text/css">
 /*
 本頁的 Responsive Design 設計：
@@ -57,13 +58,18 @@ body {
 	width: 280px;
 }
 #desc h2{
-    font-size: 42px;
+    font-family: "Open Sans" ,sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1em;
     margin-bottom: 0.5em;
-    font-family: sans-serif;
+    margin-top: -0.4em;
 }
 #desc h2 .and {
-    font-size: 36px;
-    
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0.15em;
 }
 #desc p {
     color: #4C5C5C;
