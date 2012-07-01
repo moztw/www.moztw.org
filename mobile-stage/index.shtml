@@ -299,9 +299,11 @@ body {
 </style>
 
 <!--[if lte IE 8]>
+<style type="text/css">
 .movie {
     width: 230px !important;
 }
+</style>
 <![endif]-->
 
 <!--#include virtual="/inc/class_press.html" -->
