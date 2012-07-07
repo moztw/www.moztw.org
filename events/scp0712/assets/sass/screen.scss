@@ -1,0 +1,303 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+$mainColor: #89bc40;
+$textColor: darken($mainColor, 40%);
+
+// mobile layout
+
+body{
+  font-size: 4mm;
+  line-height: 1.2em;
+  font-family: sans-serif;
+  color: $textColor;
+  padding: 0;
+  background: $mainColor;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+  a{ color: inherit; }
+
+  // maximum size for IE <7
+  max-width: 640px;
+  width:expression( this.clientWidth > 640 ? 640 : auto );
+  margin: 0 auto 3em;
+
+  &>header{
+    padding-top: 20px;
+    background: #fff;
+    background: rgba(255,255,255,0.8);
+    position: absolute;
+    @include box-shadow(0 0 6px rgba(0,0,0,0.3));
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    text-align: center;
+    font-size: small;
+
+    div#moztwHeader{
+      background: #455372;
+      @include background-image(linear-gradient(#455372, #2a3753));
+      border-radius: 8px;
+      height: 3em;
+      min-height: 39px;
+      padding: 15px 0;
+      position: relative;
+      max-width: 70em;
+      margin: 0 auto 2em;
+      line-height: 1.2em;
+      text-shadow: none;
+
+      h1 {
+        font-size: 2px;
+        height: 8px;
+        left: 0;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        z-index: 100;
+        a {
+          display: block;
+          height: 64px;
+          text-decoration: none;
+          text-indent: -700em;
+          height: 65px;
+          width: 354px;
+          background: url("../moztw.png") no-repeat scroll 0 0 transparent;
+        }
+      }
+      ul {
+          bottom: 0;
+          list-style: none outside none;
+          margin: 0;
+          padding: 0 15px 0 0;
+          position: absolute;
+          right: 0;
+          width: auto;
+          z-index: 90;
+      }
+      li {
+          float: right;
+          margin: 0 1px 0 0;
+          padding: 0;
+      }
+      ul a {
+          background-color: #5F697E;
+          background-image: -moz-linear-gradient(center top , #6A748A, #5F697E);
+          border-top-left-radius: 8px;
+          border-top-right-radius: 8px;
+          color: #FFFFFF;
+          display: block;
+          float: left;
+          font-weight: bold;
+          padding: 4px 10px 5px;
+          text-decoration: none;
+      }
+      ul a:hover {
+          background: none repeat scroll 0 0 #747F96;
+          text-shadow: 0 1px 1px #2A3753;
+      }
+      form {
+          margin: 0;
+          padding: 12px 20px 0 0;
+          position: absolute;
+          right: 0;
+          text-align: right;
+          top: 0;
+          white-space: nowrap;
+      }
+      form label {
+          color: #FFFFFF;
+          font-size: 85%;
+      }
+      form input {
+          font-size: 85%;
+      }
+      form #submit {
+          background: none repeat scroll 0 0 #6A7389;
+          border-color: #9097A2 #283043 #283043 #9097A2;
+          border-right: 1px solid #283043;
+          border-style: solid;
+          border-width: 1px;
+          color: #FFFFFF;
+          font-size: 85%;
+          padding: 1px 4px;
+          font-weight: 700;
+          vertical-align: middle;
+      }
+      form #q {
+          background: none repeat scroll 0 0 #D9DBE1;
+          border: 1px solid #9097A2;
+          font-size: 85%;
+          padding: 2px;
+          width: 130px;
+      }
+      form #q:hover, form #q:focus {
+          background: none repeat scroll 0 0 #FFFFFF;
+      }
+    }
+
+    div#moztwHeader{
+      width: 257px;
+      ul, form{
+        display: none;
+      }
+    }
+
+    a#webmaker img{
+      width: 8em;
+      border-radius: 8em;
+      @include box-shadow(0 3px 12px rgba(0,0,0,0.3));
+      background: $mainColor;
+      @include transition(all 0.3s ease);
+      @include transform(rotate(-10deg));
+
+      &:hover{
+        @include transform(rotate(0));
+      }
+    }
+
+    h1{
+      font-size: 1.3em;
+      height: 1.2em;
+      margin-top: 1em;
+    }
+
+    p{
+      margin: 1em 0;
+      height: 2.4em;
+    }
+
+    nav{
+      ul{
+        display: block;
+        padding: 0.5em 0;
+        li{
+          display: inline;
+          margin: 0 0.5em;
+        }
+      }
+    }
+
+  }
+
+  div#content{
+    margin-top: 24em;
+    padding: 1em;
+    article{
+      padding: 2em 0 0;
+      header{
+        h2{
+          font-size: 1.2em;
+        }
+        margin: 0.5em 0;
+      }
+      p{
+        margin: 1em 0;
+        text-align: justify;
+        text-justify: inter-ideograph;
+      }
+    }
+  }
+
+  div.geo{
+    display: none;
+  }
+
+  div#map{
+    height: 20em;
+    margin: 0 -1em;
+  }
+
+  footer{
+    clear: both;
+    padding-top: 3em;
+    line-height: 16px;
+    font-size: 12px;
+    text-align: center;
+    img{
+      vertical-align: middle;
+    }
+    ul#bn{
+      margin-bottom: 0.8em;
+    }
+    a{
+      white-space: nowrap;
+    }
+    a.subfoot{
+      display: block;
+    }
+  }
+}
+
+@media not screen and (min-width: 960px) {
+  body>header.fixed {
+    position: fixed;
+    padding-top: 0;
+    &>*{
+      display: none !important;
+    }
+    nav{
+      display: block !important;
+    }
+  }
+}
+
+@media screen and (min-width: 960px) {
+  body{
+    width: auto;
+    max-width: none;
+    &>header{
+      position: static;
+      padding-bottom: 0.5em;
+      div#moztwHeader{
+        width: auto;
+        max-width: 70em;
+        ul, form{
+          display: block;
+        }
+      }
+      a#webmaker img {
+        margin-right: 20em;
+      }
+      h1{
+        margin-top: -6em;
+      }
+      nav {
+        display: none;
+      }
+    }
+    div#content{
+      width: 930px;
+      max-width: 930px;
+      margin: 0 auto 0;
+      padding: 0;
+
+      #introduction, #location, #coop {
+        width: 450px;
+      }
+      #introduction, #coop {
+        float: left;
+      }
+      #location {
+        float: right;
+        div#map{
+          height: 300px;
+          margin: 0;
+        }
+      }
+    }
+    footer{
+      li{
+        display: inline;
+      }
+      a.subfoot{
+        display: inline
+      }
+    }
+  }
+}
