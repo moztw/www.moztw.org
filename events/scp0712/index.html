@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <title>夏日的 Web 樂園 2012</title>
+
+  <link href="assets/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="assets/stylesheets/print.css" media="print" rel="stylesheet" type="text/css">
+  <link href="assets/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <!--[if lte IE 8]> <link rel="stylesheet" href="assets/leaflet/leaflet.ie.css" /> <![endif]-->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<header class="vevent">
+  <a href="https://webmaker.org"><img src="./assets/mozparty.png" alt="Mozilla — Summer Code Party"></a>
+  <h1 class="summary">夏日的 Web 樂園</h1>
+  <p>
+    <span class="dtstart">
+      <time class="value" datetime="2012-07-29T14:00+08">7/29 (日) 14:00</time>
+    </span>
+    –
+    <span class="dtend"><time class="value" datetime="2012-07-29T16:20+08">16:20</time></span>
+    <br>
+    <a class="location" href="#location">華山文創園區</a>
+  </p>
+
+  <nav>
+    <ul>
+      <li><a href="#introduction">簡介</a></li>
+      <li><a href="#location">地點</a></li>
+      <li><a href="#coop">合作夥伴</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<div id="content">
+  <article id="introduction">
+    <header>
+      <h2>簡介</h2>
+    </header>
+
+    <p>網際網路發展至今，已經從第一階段的上網閱讀網頁資訊，第二階段的使用網路服務，而開始邁向第三個階段：讓所有人都開始在網路上創作。就像每人都能提筆寫字一樣、人人都應該能夠在網路上留下自己的足跡。Mozilla 的 <a href="https://webmaker.org">Webmaker</a> 計畫即是以簡便的工具，讓人們學習撰寫簡單網頁的技能。</p>
+    <p>Mozilla Webmaker 計畫於今年號召全球社群一同舉辦 <a href="https://webmaker.org/en-US/events/">Summer Code Party</a>，台灣也將共襄盛舉。本次由海洋大學網路發展協會 、MozTW 社群及美商謀智（Mozilla Taiwan）共同籌辦的「夏日的Web樂園」活動，將邀請各社群一同參與，以類似園遊會的形式呈現各種參與網路的方式，希望能夠讓參與者在活動中，學習如何在網路上留下足跡。</p>
+  </article>
+
+
+  <article id="location">
+    <header>
+      <h2>地點</h2>
+    </header>
+
+    <div class="vcard">
+      <p><span class="fn org"><a class="url" href="http://huashan1914.com">華山 1914 文化創意產業中心</a></span><br>
+      電話：<span class="tel">02-23581914</span></p>
+      <div class="geo">
+        <span class="latitude">25.043887</span>
+        <span class="longitude">121.529045</span>
+      </div>
+    </div>
+    <!-- TODO: map, maybe from Leaflet or Google Maps -->
+    <div id="map"></div>
+  </article>
+
+  <article id="coop">
+    <header>
+      <h2>合作夥伴</h2>
+    </header>
+    <ul>
+      <li><a href="http://mozilla.com.tw">Mozilla 美商謀智</a></li>
+      <li><a href="http://moztw.org">Mozilla 台灣社群</a></li>
+      <li><a href="http://ind.ntou.edu.tw">海洋大學網路發展協會</a></li>
+      <li><a href="https://sites.google.com/site/ttucsc/">大同大學資訊創意研究社</a></li>
+    </ul>
+  </article>
+</div>
+
+<script type="text/javascript" charset="utf-8" src="assets/leaflet/leaflet.js"></script>
+<script type="text/javascript" charset="utf-8" src="assets/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="assets/scripts.js"></script>
+
+</body>
+</html>
+
