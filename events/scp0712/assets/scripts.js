@@ -10,7 +10,7 @@ map.addLayer(cloudmade).setView(new L.LatLng(25.043887, 121.529045), 16);
 var marker = new L.Marker(new L.LatLng(25.043887, 121.529045));
 map.addLayer(marker);
 
-marker.bindPopup("華山 1914 文化創意產業中心").openPopup();
+marker.bindPopup("華山1914文創園區 中3拱廳").openPopup();
 
 var $nav = $("body>header>nav");
 var offset = $nav.offset().top;
