@@ -18,7 +18,7 @@
 	</li>
 	<li>
 	<a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey']);"><img src="/images/seamonkey64.png" width="60" height="60" alt="SeaMonkey Logo"></a>
-	<h3><a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey']);" class="producttitle"><strong>SeaMonkey</strong>: 完整>的 Internet 方案</a></h3>
+	<h3><a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey']);" class="producttitle"><strong>SeaMonkey</strong>: 完整的 Internet 方案</a></h3>
 	SeaMonkey 是全能的網路瀏覽工具。內含網頁瀏覽器、郵件軟體、IRC 聊天工具，以及網頁編輯功能。
         </li>
 </ul>
