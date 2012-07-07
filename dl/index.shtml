@@ -7,18 +7,20 @@
 <ul class="productlist" title="下載列表">
 
 	<li>
-	<a href="/firefox/"><img src="/images/product-firefox.png" width="60" height="60" alt=""></a>
+	<a href="/firefox/"><img src="/images/product-firefox.png" width="60" height="60" alt="Firefox Logo"></a>
 	<h3><a href="/firefox/" class="producttitle"><strong>Firefox</strong>: 重新體驗網路</a></h3>
 	Firefox 是多次獲獎的 Mozilla 新生代網頁瀏覽器。
 	</li>
 	<li>
-	<a href="/thunderbird/"><img src="/images/product-thunderbird.png" width="60" height="60" alt=""></a>
+	<a href="/thunderbird/"><img src="/images/product-thunderbird.png" width="60" height="60" alt="Thunderbird Logo"></a>
 	<h3><a href="/thunderbird/" class="producttitle"><strong>Thunderbird</strong>: 改善你的信箱</a></h3>
-
-	Thunderbird 是 Mozilla 新生代的 email 程式。
-	使用 Thunderbird ，讓你發送信件更快、更安全，也更簡單。
+	Thunderbird 是 Mozilla 新生代的 email 程式。使用 Thunderbird，讓你發送信件更快、更安全，也更簡單。
 	</li>
-	
+	<li>
+	<a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey']);"><img src="/images/seamonkey64.png" width="60" height="60" alt="SeaMonkey Logo"></a>
+	<h3><a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey']);" class="producttitle"><strong>SeaMonkey</strong>: 完整>的 Internet 方案</a></h3>
+	SeaMonkey 是全能的網路瀏覽工具。內含網頁瀏覽器、郵件軟體、IRC 聊天工具，以及網頁編輯功能。
+        </li>
 </ul>
 </div>
 <h2>其它可下載資源</h2>
@@ -33,10 +35,6 @@
 	<a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:3"><strong>字典套件</strong></a>：安裝拼字檢查用字典，或是其他實驗中的語言的語言套件 *
 	<li>
 	<a href='/dl/langpack'><b>語言套件</b></a>：修改畫面語言而不需重新安裝中文版軟體；將非正式支援的作業系統上的軟體轉成中文而不重新 build
-
-    <li><a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey291']);"><img src="/images/seamonkey64.png" alt="SeaMonkey Logo" width="60" height="60" alt=""> SeaMonkey 正體中文版</a>
-    </li>	
-
 </ul>
 	<p>* 連至 Mozilla 附加元件網站。</p>
 	

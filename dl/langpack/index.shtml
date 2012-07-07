@@ -1,64 +1,54 @@
 <!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
 <style type="text/css">
-	#notice {
-		font-weight: bold;
-		color: #ff0000;
-	}
-	#no-script {
-		display: none;
-	}
+.notice {
+	font-weight: bold;
+	color: #ff0000;
+}
 </style>
-<noscript>
-<style type="text/css">
-	#no-script {
-		display: block;
-	}
-	#status {
-		display: none;
-	}
-</style>
-
-</noscript>
 <!--#include virtual="/inc/class_dl.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-<h1> 安裝語言套件 </h1>
-<p id="notice">我們只建議進階使用者使用此功能。若您的作業系統有被正式支援，請直接<a href="/dl/">下載安裝正體中文版的 Mozilla 軟體</a>。</p>
-<p>語言套件會將您的英文版 Mozilla 軟體畫面改為正體中文。</p>
-<p>語言套件將會安裝在您的個人設定檔中，故不會套用到其他使用者。<strong>請務必安裝正確版本的語言套件，以免程式故障；下載安裝後請依照<a href="http://kb.mozillazine.org/Change_Default_Mozilla_Language">此頁的說明</a>切換語言。</strong></p>
-<!--
+<h1>安裝語言套件</h1>
+<p class="notice">我們只建議進階使用者使用此功能。若您的作業系統有被正式支援，請直接<a href="/dl/">下載安裝正體中文版的 Mozilla 軟體</a>。</p>
+<p>語言套件會為您的非正體中文版 Mozilla 軟體畫面新增正體中文語系。</p>
+<p>語言套件將會安裝在您的個人設定檔中，故不會套用到其他使用者。<strong>請務必安裝正確版本的語言套件，以免程式故障；下載安裝後請依照<a href="http://kb.mozillazine.org/Change_Default_Mozilla_Language">此頁的說明</a>切換語言。</strong>若您需要常常切換顯示語系，可安裝 <a href="https://addons.mozilla.org/zh-TW/firefox/addon/quick-locale-switcher/" target="_blank">Quick Locale Switcher</a> 以快速切換。</p>
 
-Remove this part since this page is indend for advanced user
-
-<h3>適用於您的瀏覽器的語言套件</h3>
-	<p id="no-script"><strong>必須要開啟 Javascript 才能偵測。</strong></p>
-	<p id="status">偵測中...</p>-->
 <h3>所有可下載的語言套件</h3>
 	<ul>
 		<li>Firefox 與同源瀏覽器
 		<ul>
-			<li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/latest-3.6/win32/xpi/zh-TW.xpi">3.6.x</a></li>
-			<li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/latest-3.5/win32/xpi/zh-TW.xpi">3.5.x</a></li>
-			<li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/latest-3.0/win32/xpi/zh-TW.xpi">3.0.x</a></li>
-			<li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/latest-2.0/win32/xpi/zh-TW.xpi">2.0.0.x</a></li>
-
+			<li><a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/win32/xpi/zh-TW.xpi">最新版本</a></li>
+			<li><a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest-10.0esr/win32/xpi/zh-TW.xpi">10.0esr</a></li>
+			<li><a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest-3.6/win32/xpi/zh-TW.xpi">3.6.x</a></li>
+			<li><a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/3.5.19/win32/xpi/zh-TW.xpi">3.5.x - 最終版本 3.5.19</a></li>
+			<li><a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/3.0.19-real-real/win32/xpi/zh-TW.xpi">3.0.x - 最終版本 3.0.19</a></li>
+			<li><a href="ftp://ftp.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.20/win32/xpi/zh-TW.xpi">2.0.0.x - 最終版本 2.0.0.20</a></li>
 		</ul>
 		</li>
+		
 		<li>Thunderbird 與同源郵件軟體
 		<ul>
-			<li><a href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/latest-3.1/win32/xpi/zh-TW.xpi">3.1.x</a></li>
-			<li><a href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/latest-3.0/win32/xpi/zh-TW.xpi">3.0.x</a></li>
-			<li><a href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/latest-2.0/win32/xpi/zh-TW.xpi">2.0.0.x</a></li>
+			<li><a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/latest/win32/xpi/zh-TW.xpi">最新版本</a></li>
+			<li><a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/latest-10.0esr/win32/xpi/zh-TW.xpi">10.0esr</a></li>
 		</ul>
-		<li>Sunbird
+		</li>
+		
+		<li>SeaMonkey
 		<ul>
-			<li><a href="http://releases.mozilla.org/pub/mozilla.org/calendar/sunbird/releases/0.9/langpacks/zh-TW.xpi">0.9.x</a></li>
-			<li><a href="http://releases.mozilla.org/pub/mozilla.org/calendar/sunbird/releases/0.8/langpacks/zh-TW.xpi">0.8.x</a></li>
+			<li><a href="ftp://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/2.10.1/langpack/seamonkey-2.10.1.zh-TW.langpack.xpi">2.10.x</a></li>
+			<li><a href="ftp://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/2.9.1/langpack/seamonkey-2.9.1.zh-TW.langpack.xpi">2.9.x - 最終版本 2.9.1</a></li>
+		</ul>
+		</li>
+		
+		<li>Sunbird - 已停止開發，建議改用 <a href="/thunderbird">Thunderbird</a> 與 <a href="https://addons.mozilla.org/zh-TW/thunderbird/addon/lightning/" target="_blank">Lightning</a>。
+		<ul>
+			<li><a href="ftp://ftp.mozilla.org/pub/mozilla.org/calendar/sunbird/releases/0.9/langpacks/zh-TW.xpi">0.9</a></li>
 		</ul>
 		</li>
 	</ul>
-<p>更早期的軟體語言套件請至<a href="./old-versions.html">舊版網頁</a>下載；注意某些檔案 Mozilla 與 MozTW 已不再提供支援。</p>
 
+<p>更早期的軟體語言套件請至<a href="old-versions.html">舊版網頁</a>下載。</p>
+<p class="notice">請注意：Mozilla 與 MozTW 已不再提供最新版本以及 <a href="http://mozlinks-zh.blogspot.com/2011/09/mozilla-firefox-thunderbird.html" target="_blank"><abbr title="Extended Support Release">ESR</abbr> 長期支援版本</a>以外版本的語言套件支援。</p>
 
 <!--#include virtual="/inc/footer.html" -->

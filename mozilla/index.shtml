@@ -8,8 +8,8 @@
 <p>Mozilla Suite 自 2005 年起不再推出新版，下列軟體或許能滿足您的需求：</p>
 <ul>
 	<li>
-	<a href="http://www.seamonkey-project.org/"><img src="/images/project-seamonkey.png" style="width: 60px; height: 96px; margin-bottom: -24px" alt=""></a>
-	<h3><a href="http://www.seamonkey-project.org/" class="producttitle"><strong>SeaMonkey</strong>: 完整的 Internet 方案</a></h3>
+	<a href="http://www.seamonkey-project.org/releases/" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey']);"><img src="/images/project-seamonkey.png" style="width: 60px; height: 96px; margin-bottom: -24px" alt="Seamonkey Logo"></a>
+	<h3><a href="http://www.seamonkey-project.org/releases/" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey']);" class="producttitle"><strong>SeaMonkey</strong>: 完整的 Internet 方案</a></h3>
 	SeaMonkey 繼承 Mozilla Suite，作為下一代的 Internet 套裝軟體。<strong>目前已有正體中文版，強烈建議您升級使用。</strong>
 	</li>
 	<li>

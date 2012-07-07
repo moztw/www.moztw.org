@@ -5,15 +5,20 @@
 <!--#include virtual="/inc/header.html" -->
 <div class="key-point legacy">
 <h2>Netscape Navigator 已停止更新</h2>
-<p>Netscape Navigator 自 2008 年起不再推出新版。我們推薦您改用 Firefox：</p>
+<p>Netscape Navigator 自 2008 年起不再推出新版。我們推薦您改用 Firefox 或 SeaMonkey：</p>
 <ul>
 	<li>
 	<a href="/firefox/"><img src="/images/product-firefox.png" width="60" height="60" alt=""></a>
 	<h3><a href="/firefox/" class="producttitle"><strong>Firefox</strong>: 重新體驗網路</a></h3>
 	Firefox 是多次獲獎的 Mozilla 新生代網頁瀏覽器。
 	</li>
+	<li>
+	<a href="http://www.seamonkey-project.org/releases/" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey']);"><img src="/images/seamonkey64.png" width="60" height="60" alt="SeaMonkey Logo"></a>
+	<h3><a href="http://www.seamonkey-project.org/releases/" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey']);" class="producttitle"><strong>SeaMonkey</strong>: 完整>的 Internet 方案</a></h3>
+	SeaMonkey 是全能的網路瀏覽工具。內含網頁瀏覽器、郵件軟體、IRC 聊天工具，以及網頁編輯功能。
+	</li>
 </ul>
-<p>您還可以為您的 Firefox 安裝<a href="https://addons.mozilla.org/zh-TW/firefox/search?q=Netscape&amp;cat=2">Netscape 佈景主題</a>。</p>
+<p>您還可以為您的 <a href="https://addons.mozilla.org/zh-TW/firefox/search?q=Netscape&cat=2">Firefox</a> 或 <a href="https://addons.mozilla.org/zh-TW/seamonkey/search?q=Netscape&cat=2">SeaMonkey</a> 安裝 Netscape 佈景主題</a>。</p>
 </div>
 <p class="important">下列內容僅供參考。基於安全疑慮，我們不建議您使用舊版軟體做為日常使用。</p>
 
