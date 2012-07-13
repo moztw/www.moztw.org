@@ -258,8 +258,11 @@ body > header a#webmaker img {
   -o-transform: rotate(-10deg);
   transform: rotate(-10deg);
   border-radius: 8em;
+  -webkit-box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
 }
-/* line 169, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 body > header a#webmaker img:hover {
   -webkit-transform: rotate(0);
   -moz-transform: rotate(0);
@@ -267,83 +270,83 @@ body > header a#webmaker img:hover {
   -o-transform: rotate(0);
   transform: rotate(0);
 }
-/* line 174, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 body > header h1 {
   font-size: 1.3em;
   height: 1.2em;
   margin-top: 1em;
 }
-/* line 180, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 body > header p {
   margin: 1em 0;
   height: 2.4em;
 }
-/* line 186, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 body > header nav ul {
   display: block;
   padding: 0.5em 0;
 }
-/* line 189, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 body > header nav ul li {
   display: inline;
   margin: 0 0.5em;
   white-space: nowrap;
 }
-/* line 197, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 body > header.fixed {
   position: fixed;
   padding-top: 0;
   background: #89bc40;
 }
-/* line 201, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 body > header.fixed > * {
   display: none !important;
 }
-/* line 204, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 body > header.fixed nav {
   display: block !important;
 }
-/* line 210, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 body div#content {
   margin-top: 24em;
   padding: 0;
 }
-/* line 213, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 body div#content article {
   border-bottom: 2px solid #aaa;
   padding: 2em 1em 1em;
 }
-/* line 216, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 body div#content article header {
   margin: 1em 0 2em;
 }
-/* line 217, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 body div#content article header h2 {
   font-size: 1.3em;
   font-weight: 700;
 }
-/* line 223, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 body div#content article p {
   margin: 1em 0;
   text-align: justify;
   text-justify: inter-ideograph;
 }
-/* line 229, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 body div#content article.logos h3 {
   font-size: 1.2em;
   font-weight: 700;
   margin: 2em 0 0;
   clear: both;
 }
-/* line 235, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 body div#content article.logos p.logo {
   display: none;
 }
-/* line 242, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 body div.geo {
   display: none;
 }
-/* line 246, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 body div#map {
   height: 20em;
   margin: 0 -1em;
@@ -353,7 +356,7 @@ body div#map {
   -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
-/* line 254, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 body footer {
   clear: both;
   padding-top: 3em;
@@ -362,40 +365,40 @@ body footer {
   line-height: 1.2em;
   text-align: center;
 }
-/* line 261, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 body footer img {
   vertical-align: middle;
 }
-/* line 264, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 body footer ul#bn {
   margin-bottom: 0.8em;
 }
-/* line 267, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 body footer a {
   white-space: nowrap;
 }
-/* line 270, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 body footer a.subfoot {
   display: block;
 }
-/* line 275, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 body .registrano-blog-badge {
   margin-bottom: 20px;
 }
-/* line 277, ../sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 body .registrano-blog-badge div {
   margin: 0;
   padding: 0;
 }
-/* line 281, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 body .registrano-blog-badge h5 {
   display: none;
 }
-/* line 284, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 body .registrano-blog-badge .event-date {
   display: none;
 }
-/* line 287, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 body .registrano-blog-badge .event-link {
   display: block;
   text-align: center;
@@ -411,25 +414,25 @@ body .registrano-blog-badge .event-link {
   border-radius: 5px;
   width: 220px;
 }
-/* line 297, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 body .registrano-blog-badge .event-link:hover {
   background: #fffc20;
   color: #222;
 }
-/* line 302, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 body .registrano-blog-badge .event-attendees-list {
   list-style: none;
   margin: 0 0 0 3px;
   padding: 0;
 }
-/* line 306, ../sass/screen.scss */
+/* line 307, ../sass/screen.scss */
 body .registrano-blog-badge .event-attendees-list li {
   list-style: none;
   margin: 0;
   padding: 0;
   display: inline;
 }
-/* line 311, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
 body .registrano-blog-badge .event-attendees-list li img {
   margin: 0 2px 2px;
   padding: 0;
@@ -440,16 +443,16 @@ body .registrano-blog-badge .event-attendees-list li img {
 }
 
 @media screen and (min-width: 640px) {
-  /* line 325, ../sass/screen.scss */
+  /* line 326, ../sass/screen.scss */
   body {
     font-size: 18px;
     line-height: 1.25em;
   }
-  /* line 331, ../sass/screen.scss */
+  /* line 332, ../sass/screen.scss */
   body div#content article.logos h3, body div#content article.logos p {
     margin-left: 240px;
   }
-  /* line 334, ../sass/screen.scss */
+  /* line 335, ../sass/screen.scss */
   body div#content article.logos p.logo {
     display: block;
     margin-left: 0;
@@ -457,62 +460,62 @@ body .registrano-blog-badge .event-attendees-list li img {
     width: 220px;
     text-align: right;
   }
-  /* line 341, ../sass/screen.scss */
+  /* line 342, ../sass/screen.scss */
   body div#content article.logos p.logo img {
     max-width: 220px;
     max-height: 135.947px;
   }
-  /* line 346, ../sass/screen.scss */
+  /* line 347, ../sass/screen.scss */
   body div#content article.logos:after {
     content: '';
     display: block;
     clear: both;
   }
-  /* line 352, ../sass/screen.scss */
+  /* line 353, ../sass/screen.scss */
   body div#content article.logos #map {
     border-width: 3px 0;
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 361, ../sass/screen.scss */
+  /* line 362, ../sass/screen.scss */
   body {
     font-size: 20px;
     line-height: 1.3em;
   }
-  /* line 365, ../sass/screen.scss */
+  /* line 366, ../sass/screen.scss */
   body > header div#moztwHeader {
     width: auto;
     max-width: 70em;
   }
-  /* line 368, ../sass/screen.scss */
+  /* line 369, ../sass/screen.scss */
   body > header div#moztwHeader ul, body > header div#moztwHeader form {
     display: block;
   }
-  /* line 372, ../sass/screen.scss */
+  /* line 373, ../sass/screen.scss */
   body > header a#webmaker img {
     margin-right: 24em;
   }
-  /* line 375, ../sass/screen.scss */
+  /* line 376, ../sass/screen.scss */
   body > header h1 {
     margin-top: -6em;
   }
-  /* line 379, ../sass/screen.scss */
+  /* line 380, ../sass/screen.scss */
   body div#content {
     margin: 16em auto 0;
     padding: 0;
   }
-  /* line 383, ../sass/screen.scss */
+  /* line 384, ../sass/screen.scss */
   body div#content div#map {
     height: 480px;
     margin: 0;
     border-radius: 0.6em;
     border-width: 5px;
   }
-  /* line 391, ../sass/screen.scss */
+  /* line 392, ../sass/screen.scss */
   body footer li {
     display: inline;
   }
-  /* line 394, ../sass/screen.scss */
+  /* line 395, ../sass/screen.scss */
   body footer a.subfoot {
     display: inline;
   }

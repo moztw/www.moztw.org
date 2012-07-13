@@ -165,6 +165,7 @@ body{
       @include transition(all 0.3s ease);
       @include transform(rotate(-10deg));
       border-radius: 8em;
+      @include box-shadow(0 0 12px rgba(0,0,0,0.3));
 
       &:hover{
         @include transform(rotate(0));
