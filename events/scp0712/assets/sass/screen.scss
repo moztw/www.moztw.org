@@ -7,29 +7,35 @@
 @import "compass/css3";
 
 $mainColor: #89bc40;
-$textColor: darken($mainColor, 40%);
+$textColor: darken($mainColor, 35%);
 
 // mobile layout
 
 body{
-  font-size: 4mm;
+  font-size: 16px;
   line-height: 1.2em;
   font-family: sans-serif;
   color: $textColor;
   padding: 0;
-  background: $mainColor;
   text-shadow: 0 1px 0 rgba(255,255,255,0.5);
-  a{ color: inherit; }
+  a{
+    color: darken($mainColor, 20%);
+  }
+  /* tiny grid by Ant Ekşiler http://www.turkhitbox.com/ used under Creative Commons - Attribution */
+  background: url('../whitey.png') #f3f3f3;
+  @include background-size(327px 327px);
 
   // maximum size for IE <7
-  max-width: 640px;
-  width:expression( this.clientWidth > 640 ? 640 : auto );
+  max-width: 940px;
+  width:expression( this.clientWidth > 940 ? 940 : auto );
   margin: 0 auto 3em;
 
   &>header{
     padding-top: 20px;
-    background: #fff;
-    background: rgba(255,255,255,0.8);
+    background: $mainColor;
+    @include background-image(linear-gradient(darken($mainColor, 10%), $mainColor));
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.5);
     position: absolute;
     @include box-shadow(0 0 6px rgba(0,0,0,0.3));
     top: 0;
@@ -37,7 +43,10 @@ body{
     right: 0;
     z-index: 100;
     text-align: center;
-    font-size: small;
+
+    a{
+      color: inherit;
+    }
 
     div#moztwHeader{
       background: #455372;
@@ -51,6 +60,8 @@ body{
       margin: 0 auto 2em;
       line-height: 1.2em;
       text-shadow: none;
+      font-size: small;
+      @include box-shadow(0 0 6px rgba(0,0,0,0.3));
 
       h1 {
         font-size: 2px;
@@ -150,11 +161,11 @@ body{
 
     a#webmaker img{
       width: 8em;
-      border-radius: 8em;
       @include box-shadow(0 3px 12px rgba(0,0,0,0.3));
       background: $mainColor;
       @include transition(all 0.3s ease);
       @include transform(rotate(-10deg));
+      border-radius: 8em;
 
       &:hover{
         @include transform(rotate(0));
@@ -179,27 +190,52 @@ body{
         li{
           display: inline;
           margin: 0 0.5em;
+          white-space: nowrap;
         }
       }
     }
 
+    &.fixed {
+      position: fixed;
+      padding-top: 0;
+      background: $mainColor;
+      &>*{
+        display: none !important;
+      }
+      nav{
+        display: block !important;
+      }
+    }
   }
 
   div#content{
     margin-top: 24em;
-    padding: 1em;
+    padding: 0;
     article{
-      padding: 2em 0 0;
+      border-bottom: 2px solid #aaa;
+      padding: 2em 1em 1em;
       header{
         h2{
-          font-size: 1.2em;
+          font-size: 1.3em;
+          font-weight: 700;
         }
-        margin: 0.5em 0;
+        margin: 1em 0 2em;
       }
       p{
         margin: 1em 0;
         text-align: justify;
         text-justify: inter-ideograph;
+      }
+      &.logos{
+        h3{
+          font-size: 1.2em;
+          font-weight: 700;
+          margin: 2em 0 0;
+          clear: both;
+        }
+        p.logo{
+          display: none;
+        }
       }
     }
   }
@@ -211,13 +247,17 @@ body{
   div#map{
     height: 20em;
     margin: 0 -1em;
+    border: 5px solid rgba(0,0,0,0.3);
+    border-width: 5px 0 5px 0;
+    @include box-shadow(0 1px 1px rgba(0,0,0,0.3));
   }
 
   footer{
     clear: both;
     padding-top: 3em;
     line-height: 16px;
-    font-size: 12px;
+    font-size: 0.8em;
+    line-height: 1.2em;
     text-align: center;
     img{
       vertical-align: middle;
@@ -232,28 +272,91 @@ body{
       display: block;
     }
   }
+
+  .registrano-blog-badge {
+    margin-bottom: 20px;
+    div {
+      margin: 0;
+      padding: 0;
+    }
+    h5 {
+      display: none;
+    }
+    .event-date {
+      display: none;
+    }
+    .event-link {
+      display: block;
+      text-align: center;
+      margin: 0 0 10px 0;
+      padding: 5px;
+      background: #338833;
+      text-decoration: none;
+      color: #fff;
+      @include border-radius(5px);
+      width: 220px;
+      &:hover {
+        background: #fffc20;
+        color: #222;
+      }
+    }
+    .event-attendees-list {
+      list-style: none;
+      margin: 0 0 0 3px;
+      padding: 0;
+      li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+        img {
+          margin: 0 2px 2px;
+          padding: 0;
+          display: inline;
+          width: 32px;
+          height: 32px;
+          border: 1px solid #eee;
+        }
+      }
+    }
+  }
 }
 
-@media not screen and (min-width: 960px) {
-  body>header.fixed {
-    position: fixed;
-    padding-top: 0;
-    &>*{
-      display: none !important;
-    }
-    nav{
-      display: block !important;
+@media screen and (min-width: 640px) {
+  body{
+    font-size: 18px;
+    line-height: 1.25em;
+
+    div#content article.logos {
+      h3, p{
+        margin-left: 240px;
+      }
+      p.logo{
+        display: block;
+        margin-left: 0;
+        float: left;
+        width: 220px;
+        text-align: right;
+
+        img{
+          max-width: 220px;
+          max-height: (220px/1.6182818);
+        }
+      }
+      &:after{
+        content: '';
+        display: block;
+        clear: both;
+      }
     }
   }
 }
 
 @media screen and (min-width: 960px) {
   body{
-    width: auto;
-    max-width: none;
+    font-size: 20px;
+    line-height: 1.3em;
     &>header{
-      position: static;
-      padding-bottom: 0.5em;
       div#moztwHeader{
         width: auto;
         max-width: 70em;
@@ -262,33 +365,21 @@ body{
         }
       }
       a#webmaker img {
-        margin-right: 20em;
+        margin-right: 24em;
       }
       h1{
         margin-top: -6em;
       }
-      nav {
-        display: none;
-      }
     }
     div#content{
-      width: 930px;
-      max-width: 930px;
-      margin: 0 auto 0;
+      margin: 16em auto 0;
       padding: 0;
 
-      #introduction, #location, #coop {
-        width: 450px;
-      }
-      #introduction, #coop {
-        float: left;
-      }
-      #location {
-        float: right;
-        div#map{
-          height: 300px;
-          margin: 0;
-        }
+      div#map{
+        height: 480px;
+        margin: 0;
+        border-radius: 0.6em;
+        border-width: 5px;
       }
     }
     footer{
