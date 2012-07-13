@@ -343,11 +343,19 @@ body div#content article.logos h3 {
 body div#content article.logos p.logo {
   display: none;
 }
+/* line 241, ../sass/screen.scss */
+body div#content article .registrano-blog-badge {
+  display: none;
+}
 /* line 244, ../sass/screen.scss */
+body div#content article .fallback-register-button {
+  display: block;
+}
+/* line 250, ../sass/screen.scss */
 body div.geo {
   display: none;
 }
-/* line 248, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 body div#map {
   height: 20em;
   margin: 0 -1em;
@@ -357,7 +365,7 @@ body div#map {
   -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
-/* line 256, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 body footer {
   clear: both;
   padding-top: 3em;
@@ -366,41 +374,63 @@ body footer {
   line-height: 1.2em;
   text-align: center;
 }
-/* line 263, ../sass/screen.scss */
+/* line 269, ../sass/screen.scss */
 body footer img {
   vertical-align: middle;
 }
-/* line 266, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 body footer ul#bn {
   margin-bottom: 0.8em;
 }
-/* line 269, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 body footer a {
   white-space: nowrap;
 }
-/* line 272, ../sass/screen.scss */
+/* line 278, ../sass/screen.scss */
 body footer a.subfoot {
   display: block;
 }
-/* line 277, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 body .registrano-blog-badge {
   margin-bottom: 20px;
 }
-/* line 279, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 body .registrano-blog-badge div {
   margin: 0;
   padding: 0;
 }
-/* line 283, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 body .registrano-blog-badge h5 {
   display: none;
 }
-/* line 286, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 body .registrano-blog-badge .event-date {
   display: none;
 }
-/* line 289, ../sass/screen.scss */
-body .registrano-blog-badge .event-link {
+/* line 295, ../sass/screen.scss */
+body .registrano-blog-badge .event-attendees-list {
+  list-style: none;
+  margin: 0 0 0 3px;
+  padding: 0;
+}
+/* line 299, ../sass/screen.scss */
+body .registrano-blog-badge .event-attendees-list li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+/* line 304, ../sass/screen.scss */
+body .registrano-blog-badge .event-attendees-list li img {
+  margin: 0 2px 2px;
+  padding: 0;
+  display: inline;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #eee;
+}
+/* line 315, ../sass/screen.scss */
+body .event-link {
   display: block;
   text-align: center;
   margin: 0 0 10px 0;
@@ -415,45 +445,23 @@ body .registrano-blog-badge .event-link {
   border-radius: 5px;
   width: 220px;
 }
-/* line 299, ../sass/screen.scss */
-body .registrano-blog-badge .event-link:hover {
+/* line 325, ../sass/screen.scss */
+body .event-link:hover {
   background: #fffc20;
   color: #222;
 }
-/* line 304, ../sass/screen.scss */
-body .registrano-blog-badge .event-attendees-list {
-  list-style: none;
-  margin: 0 0 0 3px;
-  padding: 0;
-}
-/* line 308, ../sass/screen.scss */
-body .registrano-blog-badge .event-attendees-list li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: inline;
-}
-/* line 313, ../sass/screen.scss */
-body .registrano-blog-badge .event-attendees-list li img {
-  margin: 0 2px 2px;
-  padding: 0;
-  display: inline;
-  width: 32px;
-  height: 32px;
-  border: 1px solid #eee;
-}
 
 @media screen and (min-width: 640px) {
-  /* line 327, ../sass/screen.scss */
+  /* line 333, ../sass/screen.scss */
   body {
     font-size: 18px;
     line-height: 1.25em;
   }
-  /* line 333, ../sass/screen.scss */
+  /* line 339, ../sass/screen.scss */
   body div#content article.logos h3, body div#content article.logos p {
     margin-left: 240px;
   }
-  /* line 336, ../sass/screen.scss */
+  /* line 342, ../sass/screen.scss */
   body div#content article.logos p.logo {
     display: block;
     margin-left: 0;
@@ -461,62 +469,70 @@ body .registrano-blog-badge .event-attendees-list li img {
     width: 220px;
     text-align: right;
   }
-  /* line 343, ../sass/screen.scss */
+  /* line 349, ../sass/screen.scss */
   body div#content article.logos p.logo img {
     max-width: 220px;
     max-height: 135.947px;
   }
-  /* line 348, ../sass/screen.scss */
+  /* line 354, ../sass/screen.scss */
   body div#content article.logos:after {
     content: '';
     display: block;
     clear: both;
   }
-  /* line 354, ../sass/screen.scss */
+  /* line 360, ../sass/screen.scss */
   body div#content article.logos #map {
     border-width: 3px 0;
   }
+  /* line 365, ../sass/screen.scss */
+  body div#content article .registrano-blog-badge {
+    display: block;
+  }
+  /* line 368, ../sass/screen.scss */
+  body div#content article .fallback-register-button {
+    display: none;
+  }
 }
 @media screen and (min-width: 960px) {
-  /* line 363, ../sass/screen.scss */
+  /* line 377, ../sass/screen.scss */
   body {
     font-size: 20px;
     line-height: 1.3em;
   }
-  /* line 367, ../sass/screen.scss */
+  /* line 381, ../sass/screen.scss */
   body > header div#moztwHeader {
     width: auto;
     max-width: 70em;
   }
-  /* line 370, ../sass/screen.scss */
+  /* line 384, ../sass/screen.scss */
   body > header div#moztwHeader ul, body > header div#moztwHeader form {
     display: block;
   }
-  /* line 374, ../sass/screen.scss */
+  /* line 388, ../sass/screen.scss */
   body > header a#webmaker img {
     margin-right: 24em;
   }
-  /* line 377, ../sass/screen.scss */
+  /* line 391, ../sass/screen.scss */
   body > header h1 {
     margin-top: -6em;
   }
-  /* line 381, ../sass/screen.scss */
+  /* line 395, ../sass/screen.scss */
   body div#content {
     margin: 16em auto 0;
     padding: 0;
   }
-  /* line 385, ../sass/screen.scss */
+  /* line 399, ../sass/screen.scss */
   body div#content div#map {
     height: 480px;
     margin: 0;
     border-radius: 0.6em;
     border-width: 5px;
   }
-  /* line 393, ../sass/screen.scss */
+  /* line 407, ../sass/screen.scss */
   body footer li {
     display: inline;
   }
-  /* line 396, ../sass/screen.scss */
+  /* line 410, ../sass/screen.scss */
   body footer a.subfoot {
     display: inline;
   }

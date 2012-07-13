@@ -238,6 +238,12 @@ body{
           display: none;
         }
       }
+      .registrano-blog-badge{
+        display: none;
+      }
+      .fallback-register-button{
+        display: block;
+      }
     }
   }
 
@@ -286,21 +292,6 @@ body{
     .event-date {
       display: none;
     }
-    .event-link {
-      display: block;
-      text-align: center;
-      margin: 0 0 10px 0;
-      padding: 5px;
-      background: #338833;
-      text-decoration: none;
-      color: #fff;
-      @include border-radius(5px);
-      width: 220px;
-      &:hover {
-        background: #fffc20;
-        color: #222;
-      }
-    }
     .event-attendees-list {
       list-style: none;
       margin: 0 0 0 3px;
@@ -319,6 +310,21 @@ body{
           border: 1px solid #eee;
         }
       }
+    }
+  }
+  .event-link {
+    display: block;
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 5px;
+    background: #338833;
+    text-decoration: none;
+    color: #fff;
+    @include border-radius(5px);
+    width: 220px;
+    &:hover {
+      background: #fffc20;
+      color: #222;
     }
   }
 }
@@ -353,6 +359,14 @@ body{
 
         #map{
           border-width: 3px 0;
+        }
+      }
+      article{
+        .registrano-blog-badge{
+          display: block;
+        }
+        .fallback-register-button{
+          display: none;
         }
       }
     }
