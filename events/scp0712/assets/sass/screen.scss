@@ -348,7 +348,7 @@ body{
 
           img{
             max-width: 220px;
-            max-height: (220px/1.6182818);
+            max-height: (round(220px/1.6182818));
           }
         }
         &:after{
