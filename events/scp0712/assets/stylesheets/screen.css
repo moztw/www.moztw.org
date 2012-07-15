@@ -470,46 +470,46 @@ body .event-link:hover {
   }
   /* line 366, ../sass/screen.scss */
   body > header {
-    background: url("../header.gif") center bottom no-repeat #68912d;
+    background: url("../header.png") center bottom no-repeat #7aa838;
   }
-  /* line 368, ../sass/screen.scss */
+  /* line 369, ../sass/screen.scss */
   body > header div#moztwHeader {
     width: auto;
     max-width: 70em;
   }
-  /* line 371, ../sass/screen.scss */
+  /* line 372, ../sass/screen.scss */
   body > header div#moztwHeader ul, body > header div#moztwHeader form {
     display: block;
   }
-  /* line 375, ../sass/screen.scss */
+  /* line 376, ../sass/screen.scss */
   body > header a#webmaker img {
     margin-right: 24em;
   }
-  /* line 378, ../sass/screen.scss */
+  /* line 379, ../sass/screen.scss */
   body > header > h1 {
     display: none;
   }
-  /* line 381, ../sass/screen.scss */
+  /* line 382, ../sass/screen.scss */
   body > header p {
     margin-top: 350px;
   }
-  /* line 385, ../sass/screen.scss */
+  /* line 386, ../sass/screen.scss */
   body div#content {
     margin: 550px auto 0;
     padding: 0;
   }
-  /* line 389, ../sass/screen.scss */
+  /* line 390, ../sass/screen.scss */
   body div#content div#map {
     height: 480px;
     margin: 0;
     border-radius: 0.6em;
     border-width: 5px;
   }
-  /* line 397, ../sass/screen.scss */
+  /* line 398, ../sass/screen.scss */
   body footer li {
     display: inline;
   }
-  /* line 400, ../sass/screen.scss */
+  /* line 401, ../sass/screen.scss */
   body footer a.subfoot {
     display: inline;
   }
