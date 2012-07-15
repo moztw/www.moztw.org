@@ -16,7 +16,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 550px;
+    width: 595px;
     height: 100%;
     z-index: 0;
 }
@@ -30,13 +30,15 @@
 }
 
 .front-feature a.fx-link:hover {
-    background-color: #78B8D0;
+    background-color: transparent;
 }
 
 .front-feature a.fx-link:hover img {
     margin-top: -6px;
     height: 90px;
     width: 256px;
+    background-color: rgba(255,255,255,.2);
+    border-radius: 10px;
 }
 
 #front-feature .download {
@@ -94,26 +96,56 @@
 }
 
 .key-point {
-    background: url("/images/firefox_mobile14.png") no-repeat 305px bottom #78B8D0;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #7AA838;
+    background-image: url("/events/scp0712/assets/header.png");
+    background-origin: border-box;
+    background-position: 258px 0;
+    background-repeat: no-repeat;
+    background-size: auto 360px;
 }
 
+.event-desc {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.6em;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    top: 240px;
+}
 
 .homepage .download {
     width: 220px;
 }
 
-@media only screen
-and (max-width : 500px) {
+@media only screen and (max-width : 500px) {
     #front-feature #feature-content {
         display: none;
     }
     #front-feature {
-        background-position: 40% 0;
-        background-size: 450px auto;
+        background-position: 50% 0px;
+        background-size: auto 80%;
         padding-bottom: 200px;
+        background-repeat: no-repeat;
+    }
+    .front-feature #mobile_link {
+        width: 100%;
+        height: 100%;
+    }
+    .event-desc {
+        left: 0;
+        position: absolute;
+        top: 145px;
+        font-size: 1.33em;
+        text-align: center;
+        margin: 0 auto !important;
+        width: 100%;
     }
 }
-
+    
 -->
 </style>
 <!--[if lte IE 7]>
@@ -135,11 +167,20 @@ and (max-width : 500px) {
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-  <a id="mobile_link" href="/mobile/"></a>
+  <a id="mobile_link" href="/events/scp0712" title="夏日的Web樂園">
+    <p class="event-desc">
+      <span class="dtstart">
+        <time datetime="2012-07-29T14:00+08" class="value">7/29 (日) 14:00</time>
+      </span>~
+      <span class="dtend"><time datetime="2012-07-29T16:20+08" class="value">16:20</time></span>
+      <br>
+      <span class="location">華山1914文創園區 中3拱廳</span>
+    </p>
+  </a>
   <div id="feature-content">
     <h2><a class="fx-link" href="/firefox/"><img src="images/logo-wordmark-mozilla.png" alt="Firefox" height="84" width="240"></a></h2>
     <div class="download dl-box">
-		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox</strong></a></h3>
+		<h3><a href="/firefox/" title="最好的瀏覽器"><strong class="downloadText">下載 Firefox</strong></a></h3>
  		<div style='margin-top: 5px;'>
 		<!--#include virtual="/inc/dlff.html" -->
 		</div>
@@ -163,9 +204,9 @@ and (max-width : 500px) {
       <h2 class="mobile-header"><a href="http://www.mozilla.com/zh-TW/mobile/home/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mobile', 'Firefox Home']);">Firefox Home<img src="/images/product-firefox-homn.png" alt="Firefox Home" class="promo"></a></h2>
 	  <p><b>行動首頁帶著走。</b>在 iPhone 上任意取用 Firefox 的瀏覽歷史及書籤，時時同步開啟分頁，喜歡的網站隨時都在您手邊！<br>→ <a href="http://m.youtube.com/#/watch?v=_rFf5BnurVI" onClick="_gaq.push(['_trackEvent', 'Show Video', 'Mobile', 'Firefox Home']);">Firefox Home 迷你短片</a></p>
   </div>
-  <div class="frontcolumn hide" id="mobile-feature-android">
-      <h2 class="mobile-header"><a href="/m/">行動版 Firefox<img src="/images/Pocketfox.png" alt="'Pocketfox' created by yaroslaff_che cc: by-nc-sa http://creative.mozilla.org/designs/346" class="promo"></a></h2>
-      <p>全面更新的行動版 Firefox 輕巧又靈活，讓您更快到達想去的地方。<br>→ <a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">立即至 Google Play 安裝英文版</a>；或<a href="http://bit.ly/Fn14zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-zhTW-FTP']);">直接下載中文版安裝檔</a></p>
+  <div class="frontcolumn">
+    <h2><a href="/mobile/"><img src="/images/foxmosa-android.png" style="float: left;height: 125px;margin:-5px 9px 0 -10px;width: 107px;" alt="Foxmosa love Android" class="promo">Android 版 Firefox</a></h2>
+  	<p>Android 版 Firefox 全面更新，更快、更聰明、更加安全，輕巧又靈活，讓您更快到達想去的地方。</p>
   </div>
   <div class="frontcolumn" id="feature-thunderbird">
       <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-front-thunderbird.png" alt="Thunderbird Logo" class="promo"></a></h2>
@@ -176,14 +217,9 @@ and (max-width : 500px) {
     <p>立刻造訪 <a href="https://demos.mozilla.org/">Mozilla 奇幻網路</a>，看看設計師們透過 HTML5 &amp; WebGL 的技術，所打造出各種無與倫比的網路旅程！</p>
   </div>
   -->
-  <div class="frontcolumn">
+<!--  <div class="frontcolumn">
     <h2><a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey291']);">SeaMonkey 正體中文版<img src="/images/seamonkey64.png" alt="SeaMonkey Logo" class="promo"></a></h2>
 	<p>如果您喜愛 Firefox，也想同時擁有 Thunderbird 的強大威力，又或者想回味以往的 Mozilla Suite，歡迎試試最新推出的 <a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey291']);">SeaMonkey 正體中文版</a>。</p>
-  </div>
-  
-<!--  <div class="frontcolumn">
-    <h2><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);"><img src="/images/foxmosa-android.png" style="float: left;height: 125px;margin:-5px 9px 0 -10px;width: 107px;" alt="Firefox Android icon" class="promo">Android 版 Firefox</a></h2>
-	<p>全面更新的行動版 Firefox 輕巧又靈活，讓您更快到達想去的地方。<br>→ <a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">立即至 Google Play 安裝英文版</a>；或<a href="http://bit.ly/Fn14zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '14-zhTW-FTP']);">直接下載中文版安裝檔</a></p>
   </div>-->
   
   <div class="frontcolumnlast">
