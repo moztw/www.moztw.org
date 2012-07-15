@@ -19,6 +19,7 @@
     width: 595px;
     height: 100%;
     z-index: 0;
+    text-decoration: none;
 }
 .front-feature #mobile_link:hover, .front-feature #mobile_link:visited {
     background: none;
@@ -148,7 +149,7 @@
     
 -->
 </style>
-<!--[if lte IE 7]>
+<!--[if lte IE 8]>
 <style>
 .frontcolumn {
     padding-right: 2%;
@@ -156,9 +157,34 @@
 #front-feature .download ul, #planets ul {
     margin-left: 0;
 }
+#front-feature {
+    background-position: 465px -45px;
+}
+#front-feature:hover {
+    background-position: 90px -45px;
+}
+.event-desc {
+    left: 260px;
+    top: 20px;
+}
+#front-feature:hover .event-desc {
+    left: 35px;
+    top: 20px;
+}
 .front-feature #mobile_link {
     height: 330px;
     width: 70%;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]>
+<style>
+#front-feature {
+    background-position: 225px -45px;
+}
+#front-feature .event-desc {
+    left: 70px;
+    top: 20px;
 }
 </style>
 <![endif]-->
