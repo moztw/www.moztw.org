@@ -33,7 +33,6 @@ body{
   &>header{
     padding-top: 20px;
     background: $mainColor;
-    @include background-image(linear-gradient(darken($mainColor, 10%), $mainColor));
     color: #fff;
     text-shadow: 0 1px 0 rgba(0,0,0,0.5);
     position: absolute;
@@ -160,23 +159,10 @@ body{
       }
     }
 
-    a#webmaker img{
-      width: 8em;
-      background: $mainColor;
-      @include transition(all 0.3s ease);
-      @include transform(rotate(-10deg));
-      border-radius: 8em;
-      @include box-shadow(0 0 12px rgba(0,0,0,0.3));
-
-      &:hover{
-        @include transform(rotate(0));
-      }
-    }
-
-    h1{
+    &>h1{
+      font-weight: 700;
       font-size: 1.3em;
-      height: 1.2em;
-      margin-top: 1em;
+      text-transform: uppercase;
     }
 
     p{
@@ -199,7 +185,7 @@ body{
     &.fixed {
       position: fixed;
       padding-top: 0;
-      background: $mainColor;
+      height: auto;
       &>*{
         display: none !important;
       }
@@ -210,7 +196,7 @@ body{
   }
 
   div#content{
-    margin-top: 24em;
+    margin-top: 13em;
     padding: 0;
     article{
       border-bottom: 2px solid #aaa;
@@ -378,6 +364,7 @@ body{
     font-size: 20px;
     line-height: 1.3em;
     &>header{
+      background: url('../header.gif') center bottom no-repeat #68912d;
       div#moztwHeader{
         width: auto;
         max-width: 70em;
@@ -388,12 +375,15 @@ body{
       a#webmaker img {
         margin-right: 24em;
       }
-      h1{
-        margin-top: -6em;
+      &>h1{
+        display: none;
+      }
+      p{
+        margin-top: 350px;
       }
     }
     div#content{
-      margin: 16em auto 0;
+      margin: 550px auto 0;
       padding: 0;
 
       div#map{
