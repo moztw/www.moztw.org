@@ -262,6 +262,14 @@ section .appendix {
 
                       <li>
                         <span class="tag tag-fixed">修正</span>
+                        <h5>各項<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全性修正</a>。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>GIF 動畫於 src 和尺寸變更時可能會卡住（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=743598">bug 743598</a>）。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
                         <h5>OS X：nsCocoaWindow::ConstrainPosition 在多重顯示裝置上誤用了不正確的螢幕（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=752149">bug 752149</a>）。</h5>
                       </li>
                       <li>
@@ -270,7 +278,7 @@ section .appendix {
                       </li>
 
                       <li class="complete">
-                        請參考此版本的<a href="http://www.mozilla.com/firefox/14.0/releasenotes/buglist.html">完整變更清單</a>。
+                        請參考此版本的<a href="http://www.mozilla.com/firefox/14.0.1/releasenotes/buglist.html">完整變更清單</a>。
                         您可能也想瞭解<a href="/firefox/releases/13.0.1/">前一個版本的更新</a>。
                       </li>
                     </ul>
@@ -281,10 +289,6 @@ section .appendix {
                 <h3>已知問題</h3>
                 <div class="section-contents">
                     <ul>
-                      <li>
-                        <span class="tag tag-unresolved">尚未修復</span>
-                        <h5>GIF 動畫於 src 和尺寸變更時可能會卡住（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=743598">bug 743598</a>）。</h5>
-                      </li>
                         <li>
                             <span class="tag tag-unresolved">尚未修復</span>
                             <h5>以被鎖定的個人設定檔重新啟動 Firefox 時，程式會當掉（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573369">bug 573369</a>）。</h5>
