@@ -235,7 +235,7 @@
   	<p>Android 版 Firefox 全面更新，更快、更聰明、更加安全，輕巧又靈活，讓您更快到達想去的地方。</p>
   </div>
   <div class="frontcolumn" id="feature-thunderbird">
-      <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-front-thunderbird.png" alt="Thunderbird Logo" class="promo"></a></h2>
+      <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-thunderbird-v3.png" style="height:72px;width:72px;" alt="Thunderbird Logo" class="promo"></a></h2>
 	  <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
   </div>
   <!--<div class="frontcolumn hide">
