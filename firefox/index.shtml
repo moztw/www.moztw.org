@@ -181,33 +181,33 @@
 
 		<img src="images/product-personas-title.png" alt="Personas 個性面板" />
 		<p>Personas 個性面板是輕量級的佈景主題，包含五花八門的外觀與設計，讓您隨時個性化 Firefox 的外貌，如同選擇衣服一般樂趣。</p>
-		<p>→ <a href="http://www.getpersonas.com/en-US/">立刻至 Personas for Firefox 網站挑選個性面板！</a></p>
+		<p>→ <a href="http://www.getpersonas.com/en-US/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'getpersonas-com']);">立刻至 Personas for Firefox 網站挑選個性面板！</a></p>
 
 	<h3>深入資訊</h3>
 		<ul class="compact">
-		<li><a href="http://www.mozilla.com/en-US/firefox/underthehood/">底層機制</a> *</li>
-		<li><a href="http://www.mozilla.com/en-US/firefox/security/">安全性</a> *</li>
-		<li><a href="http://www.mozilla.com/en-US/firefox/customize/">自訂能力</a> *</li>
-		<li><a href="http://www.mozilla.com/en-US/firefox/organic/">100% 純天然有機軟體</a> *</li>
-		<li><a href="http://www.mozilla.com/en-US/firefox/tips/">使用技巧與秘技</a> *</li>
-		<li><a href="http://www.mozilla.com/en-US/firefox/video/">影片</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/underthehood/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'mozilla-firefox-underthehood']);">底層機制</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/security/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'mozilla-firefox-security']);">安全性</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/customize/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'mozilla-firefox-customize']);">自訂能力</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/organic/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'mozilla-firefox-organic']);">100% 純天然有機軟體</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/tips/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'mozilla-firefox-tips']);">使用技巧與秘技</a> *</li>
+		<li><a href="http://www.mozilla.com/en-US/firefox/video/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'mozilla-firefox-video']);">影片</a> *</li>
 		<!--	<li><a href="buttons/">取得推廣小貼紙</a></li>-->
     </ul>
 <p>* 連結至 Mozilla 網站，英文頁面</p>
 	<h3>中文社群資源</h3>
 		<ul class="compact">
-		<li><a href="http://wiki.moztw.org/index.php?title=FAQ:Firefox">常見問題解答</a></li>
+		<li><a href="http://wiki.moztw.org/index.php?title=FAQ:Firefox" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Wiki: FAQ:Firefox', '/firefox']);">常見問題解答</a></li>
 		<li><a href="/firefox/extension_top_15/">社群嚴選：年度最佳擴充套件</a></li>
-		<li><a href="http://wiki.moztw.org/index.php?title=FireAnything">某瀏覽器功能，Firefox 有沒有？</a></li>
+		<li><a href="http://wiki.moztw.org/index.php?title=FireAnything" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Wiki: FireAnything', '/firefox']);">某瀏覽器功能，Firefox 有沒有？</a></li>
 		<li><a href="/dl/search">新增中文搜尋引擎</a></li>
-		<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區</a></li>
+		<li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: Firefox', '/firefox']);">Firefox 討論區</a></li>
 		</ul>
 	<h3>其它資源與鏈結</h3>
 		<ul class="compact">
-		<li><a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:7">下載外掛程式（新增 Flash、多媒體檔案支援）</a></li>
-		<li><a href="http://addons.moztw.org">取得擴充套件及佈景主題</a></li>
-		<li><a href="http://support.mozilla.com/en-US/kb/?locale=zh-TW">Firefox 支援中心</a></li>
-		<li><a href="http://www.spreadfirefox.com/">推廣 Firefox!（英）</a></li>
+		<li><a href="https://addons.mozilla.org/zh-TW/firefox/browse/type:7" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-plugins']);">下載外掛程式（新增 Flash、多媒體檔案支援）</a></li>
+		<li><a href="http://addons.moztw.org" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO']);">取得擴充套件及佈景主題</a></li>
+		<li><a href="http://support.mozilla.com" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SUMO', '']);">Firefox 支援中心</a></li>
+		<li><a href="http://www.spreadfirefox.com/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'spreadfirefox-com', '']);">推廣 Firefox!（英）</a></li>
 		</ul>
 </div>
 
