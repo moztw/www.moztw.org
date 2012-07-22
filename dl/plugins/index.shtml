@@ -1,21 +1,20 @@
 <!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
-<style type='text/css'>
-    .dlAll { display: none; }
-</style>
 <!--#include virtual="/inc/class_dl.html" -->
 <!--#include virtual="/inc/header.html" -->
-
-<H1> Plugins </H1>
-這裡提供 Plugins 的鏈結(由於版權問題所以不直接提供下載檔案)。
+<h1>外掛程式</h1>
+<p>這裡提供一些主要外掛程式的鏈結 (由於版權問題故不直接提供安裝程式下載)。</p>
 <ul>
-	<li><a href='http://www.apple.com.tw/quicktime/download/'>QuickTime Player</a> (Apple, 中文)
-	<li><a href='http://www.flash.com'>Macromedia Flash Player</a> (Macromedia)
-	<li><a href='http://www.adobe.com/products/acrobat/readstep2.html'>Adobe Reader</a> (Adobe, 前名: Acrobat Reader)
-	<li><a href='http://java.sun.com/j2se/'>Java 2</a> (Sun)
-	<li><a href='http://www.realnetworks.com/'>RealPlayer</a> (Real Networks)
-	<li><a href='http://plugindoc.mozdev.org/'>Mozilla 官方 plugins 整理網站 </a><br/>
-	    - <a href="http://plugindoc.mozdev.org/zh-TW/windows.html"> Windows plugins (中文) </a>
-	<li><a href="http://browser.netscape.com/ns8/community/plugin.jsp"> Netscape Plugins 網站 </a>
+	<li><a href='http://www.apple.com/tw/quicktime/download/' target='_blank'>QuickTime</a> (Apple)</li>
+	<li><a href='http://get.adobe.com/tw/flashplayer/' target='_blank'>Adobe Flash Player</a> (Adobe)</li>
+	<li><a href='http://get.adobe.com/tw/reader/' target='_blank'>Adobe Reader</a> (Adobe)</li>
+	<li><a href='http://java.com/zh_TW/' target='_blank'>Java</a> (Oracle)</li>
+	<li><a href='http://www.interoperabilitybridges.com/windows-media-player-firefox-plugin-download/' target='_blank'>Windows Media Player Firefox Plugin</a> (Microsoft)</li>
+	<li><a href='http://www.microsoft.com/silverlight/' target='_blank'>Silverlight</a> (Microsoft)</li>
+	<li><a href='http://tw.real.com/' target='_blank'>RealPlayer</a> (Real Networks)</li>
+	<li><a href='http://plugindoc.mozdev.org/' target='_blank'>Mozilla 官方外掛程式整理網站</a><ul>
+	    <li><a href="http://plugindoc.mozdev.org/zh-TW/windows.html" target='_blank'>Windows 可用之外掛程式 (中文)</a></li>
+	</ul></li>
+	<!-- REMOVED <li><a href="http://browser.netscape.com/ns8/community/plugin.jsp">Netscape Plugins 網站</a></li>-->
 </ul>
 <!--#include virtual="/inc/footer.html" -->
