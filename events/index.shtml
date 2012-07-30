@@ -68,6 +68,23 @@ jQuery(function($){
 				<iframe id="calendar" src="https://www.google.com/calendar/embed?src=oib3k43ofedochrh6tqaqdva04%40group.calendar.google.com&ctz=Asia/Taipei">
 				</iframe>
 			</div>
+			
+            <a href="scp0712/">
+			<article class="on">
+				<header>
+					<h2>夏日的 Web 樂園</h2>
+					<time pubdate="pubdate">2012/07</time>
+					<span class="arrow"></span>
+				</header>
+				
+				<div class="photo" style="background:url(scp0712/assets/small.png) -0px -60px">
+				</div>
+				<div class="content">
+				網際網路發展至今，已經從第一階段的上網閱讀網頁資訊，第二階段的使用網路服務，而開始邁向第三個階段：讓所有人都開始在網路上創作。就像每人都能提筆寫字一樣、人人都應該能夠在網路上留下自己的足跡。Mozilla 的 Webmaker 計畫即是以簡便的工具，讓人們學習撰寫簡單網頁的技能。
+				</div>
+			</article>
+			</a>
+			
 		
             <a href="furp/">
 			<article class="on">
