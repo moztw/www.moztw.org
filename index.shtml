@@ -100,7 +100,7 @@
     background-attachment: scroll;
     background-clip: border-box;
     background-color: #7AA838;
-    background-image: url("/events/scp0712/assets/header.png");
+    background: url("/images/firefox_mobile14.png") no-repeat 305px bottom #78B8D0;
     background-origin: border-box;
     background-position: 258px 0;
     background-repeat: no-repeat;
@@ -193,16 +193,7 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-  <a id="mobile_link" href="/events/scp0712" title="夏日的Web樂園">
-    <p class="event-desc">
-      <span class="dtstart">
-        <time datetime="2012-07-29T14:00+08" class="value">7/29 (日) 14:00</time>
-      </span>~
-      <span class="dtend"><time datetime="2012-07-29T16:20+08" class="value">16:20</time></span>
-      <br>
-      <span class="location">華山1914文創園區 中3拱廳</span>
-    </p>
-  </a>
+  <a id="mobile_link" href="/mobile/"></a>
   <div id="feature-content">
     <h2><a class="fx-link" href="/firefox/"><img src="images/logo-wordmark-mozilla.png" alt="Firefox" height="84" width="240"></a></h2>
     <div class="download dl-box">
