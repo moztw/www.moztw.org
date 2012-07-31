@@ -97,14 +97,7 @@
 }
 
 .key-point {
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: #7AA838;
     background: url("/images/firefox_mobile14.png") no-repeat 305px bottom #78B8D0;
-    background-origin: border-box;
-    background-position: 258px 0;
-    background-repeat: no-repeat;
-    background-size: auto 360px;
 }
 
 .event-desc {
