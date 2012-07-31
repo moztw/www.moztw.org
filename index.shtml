@@ -221,13 +221,17 @@
       <h2 class="mobile-header"><a href="http://www.mozilla.com/zh-TW/mobile/home/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mobile', 'Firefox Home']);">Firefox Home<img src="/images/product-firefox-homn.png" alt="Firefox Home" class="promo"></a></h2>
 	  <p><b>行動首頁帶著走。</b>在 iPhone 上任意取用 Firefox 的瀏覽歷史及書籤，時時同步開啟分頁，喜歡的網站隨時都在您手邊！<br>→ <a href="http://m.youtube.com/#/watch?v=_rFf5BnurVI" onClick="_gaq.push(['_trackEvent', 'Show Video', 'Mobile', 'Firefox Home']);">Firefox Home 迷你短片</a></p>
   </div>
-  <div class="frontcolumn">
+  <div class="frontcolumn hide">
     <h2><a href="/mobile/"><img src="/images/foxmosa-android.png" style="float: left;height: 125px;margin:-5px 9px 0 -10px;width: 107px;" alt="Foxmosa love Android" class="promo">Android 版 Firefox</a></h2>
   	<p>Android 版 Firefox 全面更新，更快、更聰明、更加安全，輕巧又靈活，讓您更快到達想去的地方。</p>
   </div>
   <div class="frontcolumn" id="feature-thunderbird">
       <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-thunderbird-v3.png" style="height:72px;width:72px;" alt="Thunderbird Logo" class="promo"></a></h2>
 	  <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
+  </div>
+  <div class="frontcolumn">
+    <h2><a href="https://webmaker.org/"><img src="/images/webmaker.png" style="" alt="Webmaker" class="promo">Webmaker</a></h2>
+  	<p>Mozilla 的 Webmaker 計畫即是以簡便的工具，讓人們學習撰寫簡單網頁的技能。</p>
   </div>
   <!--<div class="frontcolumn hide">
     <h2><a href="https://demos.mozilla.org/">Web O’ Wonder<img src="/images/HTML5_Badge_64.png" alt="HTML5 Logo"  class="promo"></a></h2>
@@ -266,12 +270,12 @@
           <li><a href="http://mozlinks-zh.blogspot.com/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla Links', 'frontpage']);">Mozilla Links 正體中文版</a></li>
           <li><a href="http://gfx.tw/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'gfx.tw', 'frontpage']);">gfx.tw 抓火狐</a></li>
           <li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: Firefox', 'frontpage']);">Firefox 中文討論區</a></li>
-          <li><a href="/events/">主題活動</a></li>
+          <!-- li><a href="/events/">主題活動</a></li -->
+          <li><a href="https://webmaker.org/">Webmaker</a></li>
           <li>郵件群組：<a href="http://forum.moztw.org/viewtopic.php?f=17&t=34697" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: dev-general-zh', 'frontpage']);">Mozilla 中文開發者社群</a></li>
           <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage']);">Firefox 未來發行版本</a></li>
           <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
           <li><a href="/twoffice/">Mozilla Taiwan 公司徵人啟事</a></li>
-          <li><a href="https://webmaker.org/">Webmaker</a></li>
         </ul>
     </div>
 	<br style="clear: both;">
