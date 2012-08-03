@@ -243,6 +243,7 @@ body{
         margin: 0 0 1em;
         padding: 0.5em 1em;
         overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
         li {
           display: inline;
           white-space: nowrap;
