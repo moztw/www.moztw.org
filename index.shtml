@@ -120,9 +120,9 @@
         display: none;
     }
     #front-feature {
-        background-position: 20% 0px;
-        background-size: auto 90%;
-        padding-bottom: 170px;
+        background-position: 30% 0px;
+        background-size: auto 100%;
+        padding-bottom: 200px;
         background-repeat: no-repeat;
     }
     .front-feature #mobile_link {
