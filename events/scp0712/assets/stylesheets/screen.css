@@ -350,29 +350,32 @@ body div#content #mozGallery .photoList li {
 body div#content #mozGallery .photoList li img {
   vertical-align: middle;
   width: 45px;
-}
-/* line 257, ../sass/screen.scss */
-body div#content #mozGallery .link {
-  display: block;
-  text-align: center;
-  height: 240px;
-}
-/* line 260, ../sass/screen.scss */
-body div#content #mozGallery .link img {
-  max-height: 240px;
+  height: 45px;
   background: url("../loading.gif") center center no-repeat;
   background-size: 16px;
 }
-/* line 267, ../sass/screen.scss */
+/* line 260, ../sass/screen.scss */
+body div#content #mozGallery .link {
+  display: block;
+  text-align: center;
+  background: url("../loading.gif") center center no-repeat;
+  background-size: 16px;
+  height: 240px;
+}
+/* line 265, ../sass/screen.scss */
+body div#content #mozGallery .link img {
+  max-height: 240px;
+}
+/* line 270, ../sass/screen.scss */
 body div#content #mozGallery .attribution {
   display: block;
   text-align: center;
 }
-/* line 274, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 body div.geo {
   display: none;
 }
-/* line 278, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 body div#map {
   height: 20em;
   margin: 0 -1em;
@@ -382,7 +385,7 @@ body div#map {
   -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
-/* line 286, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 body footer {
   clear: both;
   padding-top: 3em;
@@ -391,53 +394,53 @@ body footer {
   line-height: 1.2em;
   text-align: center;
 }
-/* line 293, ../sass/screen.scss */
+/* line 296, ../sass/screen.scss */
 body footer img {
   vertical-align: middle;
 }
-/* line 296, ../sass/screen.scss */
+/* line 299, ../sass/screen.scss */
 body footer ul#bn {
   margin-bottom: 0.8em;
 }
-/* line 299, ../sass/screen.scss */
+/* line 302, ../sass/screen.scss */
 body footer a {
   white-space: nowrap;
 }
-/* line 302, ../sass/screen.scss */
+/* line 305, ../sass/screen.scss */
 body footer a.subfoot {
   display: block;
 }
-/* line 307, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 body .registrano-blog-badge {
   margin-bottom: 20px;
 }
-/* line 309, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
 body .registrano-blog-badge div {
   margin: 0;
   padding: 0;
 }
-/* line 313, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 body .registrano-blog-badge h5 {
   display: none;
 }
-/* line 316, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 body .registrano-blog-badge .event-date {
   display: none;
 }
-/* line 319, ../sass/screen.scss */
+/* line 322, ../sass/screen.scss */
 body .registrano-blog-badge .event-attendees-list {
   list-style: none;
   margin: 0 0 0 3px;
   padding: 0;
 }
-/* line 323, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 body .registrano-blog-badge .event-attendees-list li {
   list-style: none;
   margin: 0;
   padding: 0;
   display: inline;
 }
-/* line 328, ../sass/screen.scss */
+/* line 331, ../sass/screen.scss */
 body .registrano-blog-badge .event-attendees-list li img {
   margin: 0 2px 2px;
   padding: 0;
@@ -446,7 +449,7 @@ body .registrano-blog-badge .event-attendees-list li img {
   height: 32px;
   border: 1px solid #eee;
 }
-/* line 339, ../sass/screen.scss */
+/* line 342, ../sass/screen.scss */
 body .event-link {
   display: block;
   text-align: center;
@@ -462,23 +465,23 @@ body .event-link {
   border-radius: 5px;
   width: 220px;
 }
-/* line 349, ../sass/screen.scss */
+/* line 352, ../sass/screen.scss */
 body .event-link:hover {
   background: #fffc20;
   color: #222;
 }
 
 @media screen and (min-width: 640px) {
-  /* line 357, ../sass/screen.scss */
+  /* line 360, ../sass/screen.scss */
   body {
     font-size: 18px;
     line-height: 1.25em;
   }
-  /* line 363, ../sass/screen.scss */
+  /* line 366, ../sass/screen.scss */
   body div#content article.logos h3, body div#content article.logos p {
     margin-left: 240px;
   }
-  /* line 366, ../sass/screen.scss */
+  /* line 369, ../sass/screen.scss */
   body div#content article.logos p.logo {
     display: block;
     margin-left: 0;
@@ -486,104 +489,106 @@ body .event-link:hover {
     width: 220px;
     text-align: right;
   }
-  /* line 373, ../sass/screen.scss */
+  /* line 376, ../sass/screen.scss */
   body div#content article.logos p.logo img {
     max-width: 220px;
     max-height: 136px;
   }
-  /* line 378, ../sass/screen.scss */
+  /* line 381, ../sass/screen.scss */
   body div#content article.logos:after {
     content: '';
     display: block;
     clear: both;
   }
-  /* line 384, ../sass/screen.scss */
+  /* line 387, ../sass/screen.scss */
   body div#content article.logos #map {
     border-width: 3px 0;
   }
-  /* line 389, ../sass/screen.scss */
+  /* line 392, ../sass/screen.scss */
   body div#content article .registrano-blog-badge {
     display: block;
   }
-  /* line 392, ../sass/screen.scss */
+  /* line 395, ../sass/screen.scss */
   body div#content article .fallback-register-button {
     display: none;
   }
-  /* line 398, ../sass/screen.scss */
+  /* line 401, ../sass/screen.scss */
   body div#content #mozGallery .photoList li img {
     width: 70px;
+    height: 70px;
   }
-  /* line 402, ../sass/screen.scss */
+  /* line 406, ../sass/screen.scss */
   body div#content #mozGallery .link {
     height: 480px;
   }
-  /* line 403, ../sass/screen.scss */
+  /* line 407, ../sass/screen.scss */
   body div#content #mozGallery .link img {
     max-height: 480px;
   }
 }
 @media screen and (min-width: 960px) {
-  /* line 414, ../sass/screen.scss */
+  /* line 418, ../sass/screen.scss */
   body {
     font-size: 20px;
     line-height: 1.3em;
   }
-  /* line 417, ../sass/screen.scss */
+  /* line 421, ../sass/screen.scss */
   body > header {
     background: url("../header.png") center bottom no-repeat #7aa838;
   }
-  /* line 420, ../sass/screen.scss */
+  /* line 424, ../sass/screen.scss */
   body > header div#moztwHeader {
     width: auto;
     max-width: 70em;
   }
-  /* line 423, ../sass/screen.scss */
+  /* line 427, ../sass/screen.scss */
   body > header div#moztwHeader ul, body > header div#moztwHeader form {
     display: block;
   }
-  /* line 427, ../sass/screen.scss */
+  /* line 431, ../sass/screen.scss */
   body > header a#webmaker img {
     margin-right: 24em;
   }
-  /* line 430, ../sass/screen.scss */
+  /* line 434, ../sass/screen.scss */
   body > header > h1 {
     display: none;
   }
-  /* line 433, ../sass/screen.scss */
+  /* line 437, ../sass/screen.scss */
   body > header div.header-content {
     margin-top: 350px;
   }
-  /* line 437, ../sass/screen.scss */
+  /* line 441, ../sass/screen.scss */
   body div#content {
     margin: 550px auto 0;
     padding: 0;
   }
-  /* line 441, ../sass/screen.scss */
+  /* line 445, ../sass/screen.scss */
   body div#content div#map {
     height: 480px;
     margin: 0;
     border-radius: 0.6em;
     border-width: 5px;
   }
-  /* line 447, ../sass/screen.scss */
+  /* line 451, ../sass/screen.scss */
   body div#content #mozGallery {
     margin: 0;
   }
-  /* line 449, ../sass/screen.scss */
+  /* line 453, ../sass/screen.scss */
   body div#content #mozGallery .photoList {
     padding: 0.5em 0.1em;
     border-radius: 0.6em;
     border-width: 5px;
   }
-  /* line 453, ../sass/screen.scss */
+  /* line 457, ../sass/screen.scss */
   body div#content #mozGallery .photoList li img {
     width: 90px;
+    height: 90px;
   }
-  /* line 460, ../sass/screen.scss */
+  /* line 465, ../sass/screen.scss */
   body footer li {
     display: inline;
   }
-  /* line 463, ../sass/screen.scss */
+  /* line 468, ../sass/screen.scss */
   body footer a.subfoot {
     display: inline;
   }

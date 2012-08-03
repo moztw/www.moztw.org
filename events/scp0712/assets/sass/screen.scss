@@ -251,16 +251,19 @@ body{
           img {
             vertical-align: middle;
             width: 45px;
+            height: 45px;
+            background: url('../loading.gif') center center no-repeat;
+            background-size: 16px;
           }
         }
       }
       .link{
         display: block;
         text-align: center;
+        background: url('../loading.gif') center center no-repeat;
+        background-size: 16px;
         img{
           max-height: 240px;
-          background: url('../loading.gif') center center no-repeat;
-          background-size: 16px;
         }
         height: 240px;
       }
@@ -397,6 +400,7 @@ body{
         .photoList{
           li img {
             width: 70px;
+            height: 70px;
           }
         }
         .link{
@@ -452,6 +456,7 @@ body{
           border-width: 5px;
           li img {
             width: 90px;
+            height: 90px;
           }
         }
       }
