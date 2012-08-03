@@ -39,13 +39,30 @@ $win.resize(function(){
   offset = $nav.offset().top;
 });
 
-$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
-  ids: "12452841@N00,60061298@N00", // othree, irvinchen
-  tags: "mozparty",
-  format: "json"
-}, function(data){
+var photos = [];
+var users = ["12452841@N00", "60061298@N00", "71531353@N07", "61524395@N06", "58355118@N05", "74742644@N08"];
+
+var userIter = 0;
+var getPhotos = function(){
+  $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
+    id: users[userIter], // othree, irvinchen
+    tags: "mozparty",
+    format: "json"
+  }, function(data){
+    photos = photos.concat(data.items);
+    userIter += 1;
+    if (users[userIter]) {
+      getPhotos();
+    } else {
+      showPhotos();
+    }
+  });
+}
+
+showPhotos = function(){
   var authorReg = /^nobody@flickr\.com \((.*)\)$/;
-  $.each(data.items, function(i, item){
+  for(var i=0; i<40 || photos.length == 0; i++){
+    var item = photos.splice(parseInt(Math.random()*photos.length), 1)[0];
     var img = $("<img/>")
           .attr("src", item.media.m.replace(/_m\./, "_s."))
           .attr("alt", item.media.title)
@@ -57,7 +74,7 @@ $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?
     $("<li/>")
           .append(img)
           .appendTo("#mozGallery .photoList");
-  });
+  }
 
   $("#mozGallery .photoList img").click(function(){
     $(".singlePhoto img").attr("src", $(this).data("largeImage"));
@@ -66,4 +83,6 @@ $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?
   });
 
   $("#mozGallery .photoList img:eq(0)").click();
-});
+};
+
+getPhotos();
