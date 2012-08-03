@@ -3,7 +3,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../../../usr/share/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -247,84 +247,128 @@ body > header > h1 {
   text-transform: uppercase;
 }
 /* line 168, ../sass/screen.scss */
-body > header p {
+body > header div.header-content {
   margin: 1em 0;
   height: 2.4em;
 }
-/* line 174, ../sass/screen.scss */
+/* line 171, ../sass/screen.scss */
+body > header div.header-content .location {
+  display: none;
+}
+/* line 177, ../sass/screen.scss */
 body > header nav ul {
   display: block;
   padding: 0.5em 0;
 }
-/* line 177, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 body > header nav ul li {
   display: inline;
   margin: 0 0.5em;
   white-space: nowrap;
 }
-/* line 185, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 body > header.fixed {
   position: fixed;
   padding-top: 0;
   height: auto;
 }
-/* line 189, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 body > header.fixed > * {
   display: none !important;
 }
-/* line 192, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 body > header.fixed nav {
   display: block !important;
 }
-/* line 198, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 body div#content {
   margin-top: 13em;
   padding: 0;
 }
-/* line 201, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 body div#content article {
   border-bottom: 2px solid #aaa;
   padding: 2em 1em 1em;
 }
-/* line 204, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 body div#content article header {
   margin: 1em 0 2em;
 }
-/* line 205, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 body div#content article header h2 {
   font-size: 1.3em;
   font-weight: 700;
 }
-/* line 211, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 body div#content article p {
   margin: 1em 0;
   text-align: justify;
   text-justify: inter-ideograph;
 }
-/* line 217, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 body div#content article.logos h3 {
   font-size: 1.2em;
   font-weight: 700;
   margin: 2em 0 0;
   clear: both;
 }
-/* line 223, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 body div#content article.logos p.logo {
   display: none;
 }
-/* line 227, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 body div#content article .registrano-blog-badge {
   display: none;
 }
-/* line 230, ../sass/screen.scss */
+/* line 233, ../sass/screen.scss */
 body div#content article .fallback-register-button {
   display: block;
 }
-/* line 236, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
+body div#content #mozGallery {
+  margin: 0 -1em;
+}
+/* line 239, ../sass/screen.scss */
+body div#content #mozGallery .photoList {
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-width: 2px 0;
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  margin: 0 0 1em;
+  padding: 0.5em 1em;
+  overflow-x: scroll;
+}
+/* line 246, ../sass/screen.scss */
+body div#content #mozGallery .photoList li {
+  display: inline;
+  white-space: nowrap;
+  margin: 0 0.2em;
+}
+/* line 250, ../sass/screen.scss */
+body div#content #mozGallery .photoList li img {
+  vertical-align: middle;
+}
+/* line 255, ../sass/screen.scss */
+body div#content #mozGallery .link {
+  display: block;
+  text-align: center;
+}
+/* line 258, ../sass/screen.scss */
+body div#content #mozGallery .link img {
+  max-width: 100%;
+  max-height: 320px;
+}
+/* line 263, ../sass/screen.scss */
+body div#content #mozGallery .attribution {
+  display: block;
+  text-align: center;
+}
+/* line 270, ../sass/screen.scss */
 body div.geo {
   display: none;
 }
-/* line 240, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 body div#map {
   height: 20em;
   margin: 0 -1em;
@@ -334,7 +378,7 @@ body div#map {
   -moz-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
 }
-/* line 248, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 body footer {
   clear: both;
   padding-top: 3em;
@@ -343,53 +387,53 @@ body footer {
   line-height: 1.2em;
   text-align: center;
 }
-/* line 255, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 body footer img {
   vertical-align: middle;
 }
-/* line 258, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 body footer ul#bn {
   margin-bottom: 0.8em;
 }
-/* line 261, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 body footer a {
   white-space: nowrap;
 }
-/* line 264, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 body footer a.subfoot {
   display: block;
 }
-/* line 269, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 body .registrano-blog-badge {
   margin-bottom: 20px;
 }
-/* line 271, ../sass/screen.scss */
+/* line 305, ../sass/screen.scss */
 body .registrano-blog-badge div {
   margin: 0;
   padding: 0;
 }
-/* line 275, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 body .registrano-blog-badge h5 {
   display: none;
 }
-/* line 278, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
 body .registrano-blog-badge .event-date {
   display: none;
 }
-/* line 281, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 body .registrano-blog-badge .event-attendees-list {
   list-style: none;
   margin: 0 0 0 3px;
   padding: 0;
 }
-/* line 285, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 body .registrano-blog-badge .event-attendees-list li {
   list-style: none;
   margin: 0;
   padding: 0;
   display: inline;
 }
-/* line 290, ../sass/screen.scss */
+/* line 324, ../sass/screen.scss */
 body .registrano-blog-badge .event-attendees-list li img {
   margin: 0 2px 2px;
   padding: 0;
@@ -398,7 +442,7 @@ body .registrano-blog-badge .event-attendees-list li img {
   height: 32px;
   border: 1px solid #eee;
 }
-/* line 301, ../sass/screen.scss */
+/* line 335, ../sass/screen.scss */
 body .event-link {
   display: block;
   text-align: center;
@@ -414,23 +458,23 @@ body .event-link {
   border-radius: 5px;
   width: 220px;
 }
-/* line 311, ../sass/screen.scss */
+/* line 345, ../sass/screen.scss */
 body .event-link:hover {
   background: #fffc20;
   color: #222;
 }
 
 @media screen and (min-width: 640px) {
-  /* line 319, ../sass/screen.scss */
+  /* line 353, ../sass/screen.scss */
   body {
     font-size: 18px;
     line-height: 1.25em;
   }
-  /* line 325, ../sass/screen.scss */
+  /* line 359, ../sass/screen.scss */
   body div#content article.logos h3, body div#content article.logos p {
     margin-left: 240px;
   }
-  /* line 328, ../sass/screen.scss */
+  /* line 362, ../sass/screen.scss */
   body div#content article.logos p.logo {
     display: block;
     margin-left: 0;
@@ -438,78 +482,92 @@ body .event-link:hover {
     width: 220px;
     text-align: right;
   }
-  /* line 335, ../sass/screen.scss */
+  /* line 369, ../sass/screen.scss */
   body div#content article.logos p.logo img {
     max-width: 220px;
     max-height: 136px;
   }
-  /* line 340, ../sass/screen.scss */
+  /* line 374, ../sass/screen.scss */
   body div#content article.logos:after {
     content: '';
     display: block;
     clear: both;
   }
-  /* line 346, ../sass/screen.scss */
+  /* line 380, ../sass/screen.scss */
   body div#content article.logos #map {
     border-width: 3px 0;
   }
-  /* line 351, ../sass/screen.scss */
+  /* line 385, ../sass/screen.scss */
   body div#content article .registrano-blog-badge {
     display: block;
   }
-  /* line 354, ../sass/screen.scss */
+  /* line 388, ../sass/screen.scss */
   body div#content article .fallback-register-button {
     display: none;
   }
+  /* line 394, ../sass/screen.scss */
+  body div#content #mozGallery .link img {
+    max-height: 600px;
+  }
 }
 @media screen and (min-width: 960px) {
-  /* line 363, ../sass/screen.scss */
+  /* line 404, ../sass/screen.scss */
   body {
     font-size: 20px;
     line-height: 1.3em;
   }
-  /* line 366, ../sass/screen.scss */
+  /* line 407, ../sass/screen.scss */
   body > header {
     background: url("../header.png") center bottom no-repeat #7aa838;
   }
-  /* line 369, ../sass/screen.scss */
+  /* line 410, ../sass/screen.scss */
   body > header div#moztwHeader {
     width: auto;
     max-width: 70em;
   }
-  /* line 372, ../sass/screen.scss */
+  /* line 413, ../sass/screen.scss */
   body > header div#moztwHeader ul, body > header div#moztwHeader form {
     display: block;
   }
-  /* line 376, ../sass/screen.scss */
+  /* line 417, ../sass/screen.scss */
   body > header a#webmaker img {
     margin-right: 24em;
   }
-  /* line 379, ../sass/screen.scss */
+  /* line 420, ../sass/screen.scss */
   body > header > h1 {
     display: none;
   }
-  /* line 382, ../sass/screen.scss */
-  body > header p {
+  /* line 423, ../sass/screen.scss */
+  body > header div.header-content {
     margin-top: 350px;
   }
-  /* line 386, ../sass/screen.scss */
+  /* line 427, ../sass/screen.scss */
   body div#content {
     margin: 550px auto 0;
     padding: 0;
   }
-  /* line 390, ../sass/screen.scss */
+  /* line 431, ../sass/screen.scss */
   body div#content div#map {
     height: 480px;
     margin: 0;
     border-radius: 0.6em;
     border-width: 5px;
   }
-  /* line 398, ../sass/screen.scss */
+  /* line 437, ../sass/screen.scss */
+  body div#content #mozGallery {
+    margin: 0;
+  }
+  /* line 439, ../sass/screen.scss */
+  body div#content #mozGallery .photoList {
+    padding: 0.5em 0.1em;
+    border-radius: 0.6em;
+    border-width: 5px;
+  }
+  /* line 447, ../sass/screen.scss */
   body footer li {
     display: inline;
   }
-  /* line 401, ../sass/screen.scss */
+  /* line 450, ../sass/screen.scss */
   body footer a.subfoot {
     display: inline;
   }
