@@ -120,8 +120,8 @@
         display: none;
     }
     #front-feature {
-        background-position: 50% 0px;
-        background-size: auto 80%;
+        background-position: 20% 0px;
+        background-size: auto 100%;
         padding-bottom: 200px;
         background-repeat: no-repeat;
     }
