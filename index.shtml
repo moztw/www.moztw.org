@@ -121,7 +121,7 @@
     }
     #front-feature {
         background-position: 20% 0px;
-        background-size: auto 100%;
+        background-size: auto 90%;
         padding-bottom: 200px;
         background-repeat: no-repeat;
     }
