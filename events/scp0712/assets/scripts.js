@@ -66,6 +66,7 @@ showPhotos = function(){
     var img = $("<img/>")
           .attr("src", item.media.m.replace(/_m\./, "_s."))
           .attr("alt", item.media.title)
+          .data("mImage", item.media.m)
           .data("largeImage", item.media.m.replace(/_m\./, "_b."))
           .data("author", item.author.match(authorReg)[1])
           .data("authorLink", "http://www.flickr.com/photos/"+item.author_id)
@@ -77,7 +78,8 @@ showPhotos = function(){
   }
 
   $("#mozGallery .photoList img").click(function(){
-    $(".singlePhoto img").attr("src", $(this).data("largeImage"));
+    $(".singlePhoto .link img").remove();
+    $("<img/>").attr("src", $(this).data("largeImage")).appendTo(".singlePhoto .link");
     $(".singlePhoto .link").attr("href", $(this).data("link"));
     $(".singlePhoto .attribution").attr("href", $(this).data("authorLink")).text($(this).data("author"));
   });
