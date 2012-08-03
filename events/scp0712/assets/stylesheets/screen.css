@@ -358,7 +358,7 @@ body div#content #mozGallery .link {
 /* line 259, ../sass/screen.scss */
 body div#content #mozGallery .link img {
   max-width: 100%;
-  max-height: 320px;
+  max-height: 280px;
 }
 /* line 264, ../sass/screen.scss */
 body div#content #mozGallery .attribution {
@@ -508,7 +508,7 @@ body .event-link:hover {
   }
   /* line 395, ../sass/screen.scss */
   body div#content #mozGallery .link img {
-    max-height: 600px;
+    max-height: 560px;
   }
 }
 @media screen and (min-width: 960px) {
