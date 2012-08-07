@@ -42,6 +42,10 @@
     border-radius: 10px;
 }
 
+.front-feature a.fx-link img {
+    border-radius: 10px;
+}
+
 #front-feature .download {
     padding: 12px 0 10px 15px !important;
     margin-bottom: 15px;
