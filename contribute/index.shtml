@@ -123,25 +123,19 @@ h3 .indicator, span .indicator {
 <ul>
 <li><strong>Localization project owner - Firefox and Firefox for Mobile</strong></li>
 <li><strong>Localization project owner - Thunderbird and Lightning</strong></li>
-<li><strong>Localization project owner - SeaMonkey<sup class="vacant">Vacant</sup></strong> 
+<li><strong>Localization project owner - SeaMonkey</strong></li>
+<li><strong>Localization project owner - Camino<sup class="vacant">Vacant</sup></strong> 
 <ul>
 <li><span class="toggle">Requirement:</span>
 <ol class="toggle">
-<li>A time frame available to see through software releases, usually lasting 13 weeks for each release in new release development cycle.</li>
+<li>A time frame available to see through software releases, lasting 6 weeks for each release in the rapid release cycle.</li>
 <li>Ability to collect, accept, and organize UI translation suggestions on various channels, e.g. <a title="forum" href="http://forum.moztw.org/viewforum.php?f=4">forum</a>, e-mails, even <a title="Twitter" href="http://twitter.com/">Twitter</a>.</li>
 <li>Ability to handle software UI wording with great care, and with patience on UI testing.</li>
 <li>Ability to read through and follow instructions from Mozilla localization team.</li>
-<li>Ability to communicate with Mozilla personnel in English at <a title="Bugzilla" href="http://bugzilla.mozilla.org/">Bugzilla</a> and mailing lists </li>
+<li>Ability to communicate with Mozilla personnel in fluent English at <a title="Bugzilla" href="http://bugzilla.mozilla.org/">Bugzilla</a> and mailing lists </li>
 <li>Willingness to give presentations to the OSS community at large when required. </li>
 </ol>
 </li>
-</ul>
-</li>
-<li><strong>Localization project owner - Camino<sup class="vacant">Vacant</sup></strong> 
-<ul>
-<li>Refer to above for requirements. <ol>
-<li>Also, knowledge of Mac software localization is required.</li>
-</ol></li>
 </ul>
 </li>
 <li><strong>Localization project owner - addons.mozilla.org</strong></li>
@@ -203,7 +197,7 @@ h3 .indicator, span .indicator {
 						<span class="toggle">Requirement: </span>
 						<ol class="toggle">
 							<li>Ability to work on POSIX shell.</li>
-							<li>Experience in Ubuntu/Debian or FreeBSD server administration.</li>
+							<li>Experience in Ubuntu/Debian Linux server administration.</li>
 						</ol>
 					</li>
 				</ul>
@@ -228,7 +222,7 @@ h3 .indicator, span .indicator {
 			<li>
 				<strong>
 				Web developer - <a title="moztw.org" href="http://moztw.org/">moztw.org</a>
-				<sup class="vacant">Vacant</sup>
+				<sup class="wanted">長期招募中</sup>
 				</strong>: 協助維護 MozTW 網站
 				<br />
 				<ul>
