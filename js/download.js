@@ -34,15 +34,11 @@ function highlightDownload() {
     eFeature.style.backgroundImage = "url(images/4-feature-" + platform + ".png)";
   }
   */
-  if (platform == "android" && navigator.userAgent.indexOf("Firefox") != -1 ){
+  if ((platform == "ios") || (platform == "android" && navigator.userAgent.indexOf("Firefox") != -1 )){
 		// COSCUP Mission
 		efront = document.getElementById("front-feature");
-		efront.style.background = "#FDE8BD";
-		efront.className = "key-point front-feature front-feature-coscup";
-		$(".fx-link img")[0].style.background="rgba(255,255,255,.8)";
-		$("#mobile_link")[0].href="foxmosa/game/pairs/";
-		$("#mobile_link")[0].className = "key-point-coscup";
-		
+		efront.className += " coscup";
+		$("#mobile_link")[0].href="foxmosa/game/pairs/";		
   }
   
   // 換首頁 Feature Block
@@ -52,10 +48,14 @@ function highlightDownload() {
 		eFeature.className += " hide";
 		eFeature = document.getElementById("mobile-feature-ios");
 		eFeature.className = eFeature.className.replace(/\bhide\b/,'');
-	} else if (platform == "android"){
+	} 
+	/* disable when featuring Firefox android period. 
+    else if (platform == "android"){
 		eFeature.className += " hide";
 		eFeature = document.getElementById("mobile-feature-android");
 		eFeature.className = eFeature.className.replace(/\bhide\b/,'');
+		
 	}
+	*/
   }
 }
