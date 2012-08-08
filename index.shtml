@@ -103,11 +103,10 @@
 .key-point {
     background: url("/images/firefox_mobile14.png") no-repeat 305px bottom #78B8D0;
 }
-.key-point-coscup {
-    background: url(images/pairslogo.jpg) no-repeat scroll center center #FDE8BD !important;
-    background-size: 100% !important;
+.coscup.key-point {
+    background: url("images/pairslogo.jpg") 75% center no-repeat #D3A77D;
+    background-size: auto 100%;
 }
-
 
 .event-desc {
     color: white;
@@ -134,7 +133,13 @@
         padding-bottom: 200px;
         background-repeat: no-repeat;
     }
-    front-feature-coscup {
+    #front-feature.coscup {
+        background-position: center 60%;
+        background-size: 105% auto;
+        padding-bottom: 245px;
+    }
+    
+    coscup {
         background-position: 0px 0px !important;
         background-size 90% !important;
         padding-bottom: 200px;
