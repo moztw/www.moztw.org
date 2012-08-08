@@ -103,6 +103,11 @@
 .key-point {
     background: url("/images/firefox_mobile14.png") no-repeat 305px bottom #78B8D0;
 }
+.key-point-coscup {
+    background: url(images/pairslogo.jpg) no-repeat scroll center center #FDE8BD !important;
+    background-size: 100% !important;
+}
+
 
 .event-desc {
     color: white;
@@ -128,6 +133,13 @@
         background-size: auto 100%;
         padding-bottom: 200px;
         background-repeat: no-repeat;
+    }
+    front-feature-coscup {
+        background-position: 0px 0px !important;
+        background-size 90% !important;
+        padding-bottom: 200px;
+        background-repeat: no-repeat;
+        background: #78B8D0 !important;
     }
     .front-feature #mobile_link {
         width: 100%;

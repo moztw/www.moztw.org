@@ -37,10 +37,13 @@ function highlightDownload() {
   if (platform == "android" && navigator.userAgent.indexOf("Firefox") != -1 ){
 		// COSCUP Mission
 		efront = document.getElementById("front-feature");
-		efront.style.background = "url(foxmosa/game/pairs/images/ipad-splash-landscape.png) no-repeat scroll  bottom center";
+		efront.style.background = "#FDE8BD";
+		efront.className = "key-point front-feature front-feature-coscup";
 		$(".fx-link img")[0].style.background="rgba(255,255,255,.8)";
 		$("#mobile_link")[0].href="foxmosa/game/pairs/";
-	}
+		$("#mobile_link")[0].className = "key-point-coscup";
+		
+  }
   
   // 換首頁 Feature Block
   eFeature = document.getElementById("feature-thunderbird");
