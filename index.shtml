@@ -171,20 +171,6 @@
 #front-feature .download ul, #planets ul {
     margin-left: 0;
 }
-#front-feature {
-    background-position: 265px -10px;
-}
-#front-feature:hover {
-    background-position: 265px -10px;
-}
-.event-desc {
-    left: 260px;
-    top: 20px;
-}
-#front-feature:hover .event-desc {
-    left: 35px;
-    top: 20px;
-}
 .front-feature #mobile_link {
     height: 330px;
     width: 70%;
@@ -193,13 +179,6 @@
 <![endif]-->
 <!--[if lte IE 6]>
 <style>
-#front-feature {
-    background-position: 225px -45px;
-}
-#front-feature .event-desc {
-    left: 70px;
-    top: 20px;
-}
 </style>
 <![endif]-->
 
@@ -244,8 +223,8 @@
 	  <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
   </div>
   <div class="frontcolumn">
-    <h2><a href="https://webmaker.org/"><img src="/images/webmaker.png" style="" alt="Webmaker" class="promo">Webmaker</a></h2>
-  	<p>Mozilla 的 Webmaker 計畫即是以簡便的工具，讓人們學習撰寫簡單網頁的技能。</p>
+    <h2><a href="https://webmaker.org/"><img src="/images/webmaker.png" style="" alt="Webmaker" class="promo">Mozilla Webmaker</a></h2>
+  	<p>網路發展至今，人人都該具備在網路上創作的能力，Webmaker 計畫以各種簡單有趣的專案，讓大家嘗試混搭網頁、踏出網頁創作的第一步。</p>
   </div>
   <!--<div class="frontcolumn hide">
     <h2><a href="https://demos.mozilla.org/">Web O’ Wonder<img src="/images/HTML5_Badge_64.png" alt="HTML5 Logo"  class="promo"></a></h2>
