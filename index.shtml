@@ -172,10 +172,10 @@
     margin-left: 0;
 }
 #front-feature {
-    background-position: 465px -45px;
+    background-position: 265px -10px;
 }
 #front-feature:hover {
-    background-position: 90px -45px;
+    background-position: 265px -10px;
 }
 .event-desc {
     left: 260px;
