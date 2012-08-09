@@ -103,7 +103,7 @@
 .key-point {
     background: url("/images/firefox_mobile14.png") no-repeat 305px bottom #78B8D0;
 }
-.coscup.key-point {
+.key-point.coscup {
     background: url("images/pairslogo.jpg") 75% center no-repeat #D3A77D;
     background-size: auto 100%;
 }
@@ -188,7 +188,7 @@
 <div class="key-point front-feature" id="front-feature">
   <a id="mobile_link" href="/mobile/"></a>
   <div id="feature-content">
-    <h2><a class="fx-link" href="/firefox/"><img src="images/logo-wordmark-mozilla.png" alt="Firefox" height="84" width="240"></a></h2>
+    <h2><a class="fx-link" href="/firefox/"><img src="images/logo-wordmark-mozilla-small.png" alt="Firefox" height="84" width="240"></a></h2>
     <div class="download dl-box">
 		<h3><a href="/firefox/" title="最好的瀏覽器"><strong class="downloadText">下載 Firefox</strong></a></h3>
  		<div style='margin-top: 5px;'>
@@ -263,8 +263,6 @@
           <li><a href="http://mozlinks-zh.blogspot.com/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla Links', 'frontpage']);">Mozilla Links 正體中文版</a></li>
           <li><a href="http://gfx.tw/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'gfx.tw', 'frontpage']);">gfx.tw 抓火狐</a></li>
           <li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: Firefox', 'frontpage']);">Firefox 中文討論區</a></li>
-          <!-- li><a href="/events/">主題活動</a></li -->
-          <!-- li><a href="https://webmaker.org/">Webmaker</a></li -->
           <li>郵件群組：<a href="http://forum.moztw.org/viewtopic.php?f=17&t=34697" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: dev-general-zh', 'frontpage']);">Mozilla 中文開發者社群</a></li>
           <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage']);">Firefox 未來發行版本</a></li>
           <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
