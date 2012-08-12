@@ -1,6 +1,6 @@
 <!--#include virtual="/inc/meta.html" -->
 
-<title>MozTW Events</title>
+<title>活動總覽 - MozTW, Mozilla 台灣社群</title>
 <link rel="stylesheet" type="text/css" href="events.css" media="screen"> 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script>
@@ -80,7 +80,7 @@ jQuery(function($){
 				<div class="photo" style="background:url(scp0712/assets/small.png) -0px -60px">
 				</div>
 				<div class="content">
-				網際網路發展至今，已經從第一階段的上網閱讀網頁資訊，第二階段的使用網路服務，而開始邁向第三個階段：讓所有人都開始在網路上創作。就像每人都能提筆寫字一樣、人人都應該能夠在網路上留下自己的足跡。Mozilla 的 Webmaker 計畫即是以簡便的工具，讓人們學習撰寫簡單網頁的技能。
+				Mozilla 的 Webmaker 計畫以簡便的工具，讓人們學習撰寫簡單網頁的技能。Webmaker Summer Code Party「夏日的Web樂園」由海洋大學網路發展協會 、MozTW 社群及美商謀智（Mozilla Taiwan），邀請各社群共同籌辦，以園遊會呈現各種參與網路的方式，帶領你在網路上留下足跡。
 				</div>
 			</article>
 			</a>
@@ -101,6 +101,31 @@ jQuery(function($){
 			</article>
 			</a>
 			
+			<div class="group">
+    			<a href="nctuserv2012/" title="交大資工2012服務學習">
+    			<article class="small">
+    			    <header>
+    			        <h2>交大資工服務學習專案</h2>
+    			        <time pubdate="pubdate">2012/5~7</time>
+    			        <span class="arrow"></span>
+    			    </header>
+    			    <img src="nctuserv2012/nctu.png">
+    			</article>
+    			</a>
+    			
+			
+				<a href="gathering/12-1.shtml" title="摩茲連續聚KL 徐徐海風篇">
+			    <article class="small">
+			        <header>
+			        	<h2>摩茲連續聚KL 徐徐海風篇</h2>
+			        	<time pubdate="pubdate">2012/3/10</time>
+			        	<span class="arrow"></span>
+			        </header>
+				    <img src="img/2012kl.jpg">
+			    </article>
+			    </a>			    
+			</div>
+			
 			<a href="newyear2012/">
 			<article class="on">
 				<header>
@@ -116,19 +141,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-			
-            <div class="group">
-        		<a href="gathering/12-1.shtml" title="摩茲連續聚KL 徐徐海風篇">
-                <article class="small">
-                    <header>
-                    	<h2>摩茲連續聚KL 徐徐海風篇</h2>
-                    	<time pubdate="pubdate">2012/3/10</time>
-                    	<span class="arrow"></span>
-                    </header>
-        		    <img src="img/2012kl.jpg">
-                </article>
-                </a>
-                
+            <div class="group">                
                 <a href="http://registrano.com/events/moztw-gathering-2011dec18" title="摩茲連續聚TP 寒冬的 MozCamp">
                 <article class="small">
                     <header>
@@ -140,6 +153,16 @@ jQuery(function($){
                 </article>
                 </a>
                 
+                <a href="gathering/11-1.shtml" title="摩茲連續聚TY光輝十月篇">
+                <article class="small">
+                    <header>
+                    	<h2>摩茲連續聚TY光輝十月篇</h2>
+                    	<time pubdate="pubdate">2011/10/22</time>
+                    	<span class="arrow"></span>
+                    </header>
+                    <img src="gathering/11-1/01.jpg">
+                </article>
+                </a>
             </div>
 			
 			<a href="sfd2011/">
@@ -156,19 +179,6 @@ jQuery(function($){
 				</div>
 			</article>
 			</a>
-			
-			<div class="group">
-            	<a href="gathering/11-1.shtml" title="摩茲連續聚TY光輝十月篇">
-                <article class="small">
-                    <header>
-                    	<h2>摩茲連續聚TY光輝十月篇</h2>
-                    	<time pubdate="pubdate">2011/10/22</time>
-                    	<span class="arrow"></span>
-                    </header>
-            	    <img src="gathering/11-1/01.jpg">
-                </article>
-            	</a>
-			</div>
 			
 			<a href="firefox4party/">
 			<article>

@@ -1,0 +1,141 @@
+<!--#include virtual="/inc/meta.html" -->
+
+<title>交大資工 2012 服務學習 - MozTW, Mozilla 台灣社群</title>
+<link href="style.css" rel="stylesheet" />
+<body>
+<!--#include virtual="/inc/header.html" -->
+	
+	<h1>交大資工 2012 服務學習成果總覽</h1>
+	
+	<div id="main" class="container">
+		
+		<section id="introduction">
+			<h2>簡介</h2>
+			<p>2012 年五月到七月，MozTW 參與 <a href="http://ossacc.moe.edu.tw/">OSSAAC 教育部校園自由軟體數位資源推廣服務中心</a>服務學習專案，<br>共有 22 位交大資訊工程系學生，貢獻個人專長進行 Mozilla 開發文件、補助說明及影片字幕在地化工作。<br>在此將所有同學的成果彙整，感謝大家對 Mozilla 社群的貢獻。</p>
+		</section>
+				
+		<section id="video">
+			<h2>影片字幕翻譯</h2>
+			
+			<h3>自訂、個性化、威力增強<span class="appendix">by darkx</span></h3>
+			<div class="video">
+    			<script type="text/javascript" src="http://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+    			(
+    			  {
+    			      "base_state": {"language": "zh-tw"}, 
+    			      "video_url": "http://videos-cdn.mozilla.net/serv/marketing/696470/FF%20576%20h264%20v6.webm",
+    			      "alternate_video_urls": ["https://www.youtube.com/watch?v=gZWU2estR10"],
+    			      "video_config": { width: 640, height: 360 }
+    			  }
+    			)
+    			</script>
+			</div>
+			
+			<h3>Add-on Builder & Add-on SDK 簡介<span class="appendix">by darkx</span></h3>
+			<div class="video">
+				<script type="text/javascript" src="http://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+				(
+				  {
+				      "base_state": {"language": "zh-tw"}, 
+				      "video_url": "http://videos-cdn.mozilla.net/serv/marketing/Firefox5/AddOnsBuilderOverview.webm",
+				      "alternate_video_urls": ["https://www.youtube.com/watch?v=EaoEdoxmJek"],
+				      "video_config": { width: 640, height: 360 }
+				  }
+				)
+				</script>
+			</div>
+			
+			<h3>Add-on Builder 教學<span class="appendix">by a9103041 & huichun</span></h3>
+			<div class="video">
+				<script type="text/javascript" src="http://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+				(
+				  {
+				      "base_state": {"language": "zh-tw"}, 
+				      "video_url": "http://videos-cdn.mozilla.net/serv/marketing/Firefox5/AddOnsBuilderTutorial.webm",
+				      "alternate_video_urls": ["http://www.youtube.com/watch?v=DAl0tOYDHxg"],
+				      "video_config": { width: 640, height: 360 }
+				  }
+				)
+				</script>
+			</div>
+			
+			<h3>History Of Mozilla By Mitchell Baker<span class="appendix">by 黃健豪</span></h3>
+			<p>注：字幕包含影片前十分鐘部份，尚未完成修訂</p>
+			<div class="video">
+				<script type="text/javascript" src="http://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+				(
+				  {
+				      "base_state": {"language": "zh-tw"}, 
+				      "video_url": "http://www.youtube.com/watch?v=UDFVBleAC-E",
+				      "video_config": { width: 640, height: 360 }
+				  }
+				)
+				</script>
+			</div>
+			
+		</section>
+		
+		<section id="mdn">
+			<h2>Mozilla 開發者社群技術文件翻譯</h2>
+			<p>by sycheng & Sonrisa & chiayuan</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/zh-TW/docs/JavaScript/Guide/JavaScript_Overview">JavaScript 概觀</a></li>
+                <li><a href="https://developer.mozilla.org/zh-TW/docs/JavaScript/About_JavaScript">About JavaScript</a></li>
+                <li><a href="https://developer.mozilla.org/zh-TW/JavaScript_technologies_overview">JavaScript 技術概觀</a></li>
+                <li><a href="https://developer.mozilla.org/zh-tw/Web_development/Writing_forward-compatible_websites">Writing forward-compatible websites</a></li>
+            </ul>			
+		</section>
+    	
+        <section id="sumo">
+        	<h2>Firefox 補助說明</h2>
+            <ul>
+                <li><a href="https://support.mozilla.org/zh-TW/kb/how-do-i-manage-my-firefox-sync-account">
+                    如何管理我的 Firefox Sync 帳戶？</a><span class="appendix">by <a href="https://support.mozilla.org/zh-TW/user/710362">sh811219</a></span></li>
+                <li><a href="https://support.mozilla.org/zh-TW/kb/Backing%20up%20your%20information">
+                    備份你的資料</a><span class="appendix">by <a href="https://support.mozilla.org/zh-TW/user/708172">azusa0423</a></span></li>
+                <li><a href="https://support.mozilla.org/zh-TW/kb/import-favorites-from-internet-explorer">
+                    從 Internet Explorer 匯入我的最愛以及其他資訊</a><span class="appendix">by <a href="https://support.mozilla.org/zh-TW/user/707622">winken2004</a></span></li>
+                <li><a href="https://support.mozilla.org/zh-TW/kb/Cookies">
+                    Cookies</a><span class="appendix">by <a href="https://support.mozilla.org/zh-TW/user/705269">magan0117</a></span></li>
+                <li><a href="https://support.mozilla.org/zh-TW/kb/Deleting%20cookies">
+                    刪除 Cookies</a><span class="appendix">by <a href="https://support.mozilla.org/zh-TW/user/705269">magan0117</a></span></li>
+                <li><a href="https://support.mozilla.org/zh-TW/kb/%E9%81%B8%E6%93%87%E6%9B%B4%E5%AE%89%E5%85%A8%E7%9A%84%E5%AF%86%E7%A2%BC">
+                    選擇更安全的密碼</a><span class="appendix">by <a href="https://support.mozilla.org/zh-TW/user/708103">
+                    q4662348</a></span></li>
+                <li><a href="https://support.mozilla.org/zh-TW/kb/1upgrade-graphics-drivers-use-hardware-acceleration">
+                    升級顯示卡驅動程式以使用硬體加速與 WebGL</a><span class="appendix">by <a href="https://support.mozilla.org/zh-TW/user/708106">andy001</a></span></li>
+                <li><a href="https://support.mozilla.org/zh-TW/kb/Troubleshooting%20plugins">
+                    外掛程式問題排解</a><span class="appendix">by <a href="https://support.mozilla.org/zh-TW/user/707493">heron</a></span></li>
+                <li><a href="https://support.mozilla.org/zh-TW/kb/private-browsing-browse-web-without-saving-info">
+                    私密瀏覽功能</a><span class="appendix">by <a href="https://support.mozilla.org/zh-TW/user/705269">abc123475</a></span></li>
+                <li><a href="https://support.mozilla.org/zh-TW/kb/view-pdf-files-firefox-without-downloading-them">
+                    在 Firefox 中開啟 PDF 檔案</a><span class="appendix">by <a href="https://support.mozilla.org/zh-TW/user/709497">leo40102</a></span></li>
+                <li><a href="https://support.mozilla.org/zh-TW/kb/security-and-passwords-settings">
+                    安全性與密碼選項</a><span class="appendix">by <a href="https://support.mozilla.org/zh-TW/user/710546">0016315</a></span></li>
+                <li><a href="https://support.mozilla.org/zh-TW/kb/restore-previous-session">
+                    回復瀏覽狀態 - 設定 Firefox 何時顯示你的近期分頁與視窗</a><span class="appendix">by <a href="https://support.mozilla.org/zh-TW/user/710653">a0224584102</a></span></li>
+            </ul>
+        </section>
+        
+        <section id="extension">
+        	<h2>Firefox 套件翻譯</h2>
+			<ul>
+			    <li><a href="https://addons.mozilla.org/firefox/addon/quicknote/versions/0.7.1">QuickNote</a>
+			        <span class="appendix">by 洪聿昕</span></li>
+<!--			    <li><a href="https://addons.mozilla.org/en-US/firefox/addon/quicknote/versions/?page=1#version-0.7.1">Add to Search Bar</a></li>-->
+			</ul>
+        </section>
+
+        <section id="sponsership">
+        	<h2>合作單位</h2>
+    	    <a title="OSSAAC 教育部校園自由軟體數位資源推廣服務中心" href="http://ossacc.moe.edu.tw/">
+    	        <img src="logo.gif" alt="">
+    	        <img src="logo2.gif" alt="">
+    	    </a>
+        </section>
+
+		
+	</div>
+
+<!--#include virtual="/inc/footer.html" -->
+
