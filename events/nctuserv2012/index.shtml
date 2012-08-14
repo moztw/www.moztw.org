@@ -11,7 +11,7 @@
 		
 		<section id="introduction">
 			<h2>簡介</h2>
-			<p>2012 年五月到七月，MozTW 參與 <a href="http://ossacc.moe.edu.tw/">OSSAAC 教育部校園自由軟體數位資源推廣服務中心</a>服務學習專案，<br>共有 22 位交大資訊工程系學生，貢獻個人專長進行 Mozilla 開發文件、補助說明及影片字幕在地化工作。<br>在此將所有同學的成果彙整，感謝大家對 Mozilla 社群的貢獻。</p>
+			<p>2012 年五月到七月，MozTW 參與 <a href="http://ossacc.moe.edu.tw/">OSSACC 教育部校園自由軟體數位資源推廣服務中心</a>服務學習專案，<br>共有 22 位交大資訊工程系學生，貢獻個人專長進行 Mozilla 開發文件、補助說明及影片字幕在地化工作。<br>在此將所有同學的成果彙整，感謝大家對 Mozilla 社群的貢獻。</p>
 		</section>
 				
 		<section id="video">
@@ -128,7 +128,7 @@
 
         <section id="sponsership">
         	<h2>合作單位</h2>
-    	    <a title="OSSAAC 教育部校園自由軟體數位資源推廣服務中心" href="http://ossacc.moe.edu.tw/">
+    	    <a title="OSSACC 教育部校園自由軟體數位資源推廣服務中心" href="http://ossacc.moe.edu.tw/">
     	        <img src="logo.gif" alt="">
     	        <img src="logo2.gif" alt="">
     	    </a>
