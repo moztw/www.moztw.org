@@ -14,9 +14,13 @@
 <body>
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
-	
-	<h1>2012 MozTW SFD Party</h1>
-	
+	<header id="header2" class="container">
+		<img src="images/ani-code-rush.png" alt="2012 MozTW SFD Party: Code Rush 源碼奔馳 放映會"/>
+	</header>
+	<div id="feature">
+      <h2>2012 MozTW SFD Party</h2>
+      <h1>Code Rush 源碼奔馳 放映會</h1>
+    </div>
 	<div id="main" class="container">
 		
 		<section id="introduction">
