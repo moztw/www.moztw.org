@@ -1,15 +1,18 @@
 <!--#include virtual="/inc/meta.html" -->
 
 <title>2012 MozTW SFD Party - MozTW, Mozilla 台灣社群</title>
+<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href="assets/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
 <!--[if lte IE 8]> <link rel="stylesheet" href="assets/leaflet/leaflet.ie.css" /> <![endif]-->
 <link href="style.css" rel="stylesheet" />
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
 <style type="text/css">
 
 </style>
 <script src="http://asset.registrano.com/javascripts/blogbadge/zh-tw.js" type="text/javascript" defer="defer"></script>
 <body>
+<!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 	
 	<h1>2012 MozTW SFD Party</h1>
@@ -18,7 +21,7 @@
 		
 		<section id="introduction">
 			<h2>簡介</h2>
-			<p>在軟體自由日當天舉辦小活動，讓大家可以過來聚一聚，可以更認識 MozTW，也知道最近自由軟體的世界當中有什麼新鮮事，也讓大家可以很輕鬆很有趣地一起為軟體自由這個環境盡點心力 :) </p>
+			<p>九月的第三個星期六，是軟體自由日（Software Freedom Day，SFD） 在關於自由軟體和開源軟體的全球性慶祝活動當中，我們預計在電影院上演當初手提一只皮箱就跑進的矽谷淘金的工程師們愛與勇氣的冒險記-Code Rush（源碼奔馳）。</p>
 		</section>
 				
         <!--
@@ -32,21 +35,37 @@
 			<h2>活動資訊</h2>
 			<ul>
 			<li>時間：5/27 下午 4:40 ~ 6:50</li>
-			<li>地點：真善美劇院（<a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'Google Map']);"  href="http://goo.gl/maps/K3zQz"><span class="locality">台北市</span><span class="street-address">萬華區漢中街116號7樓</span></a>）</li>
-			<li>費用：200 元</li>
+			<li>地點：西門町-真善美劇院（<a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'Google Map']);"  href="http://goo.gl/maps/K3zQz"><span class="locality">台北市</span><span class="street-address">萬華區漢中街116號7樓</span></a>）</li>
+			<li>費用：200 元（先報名、現場付費取票）</li>
+			</ul>
+			<h3>交通</h3>
+			<ul>
+				<li>捷運站六號出口出來正前方</li>
+				<li>誠品左手邊的樓上</li>
 			</ul>
 		  <div id="map"></div>
 		</section>
     	
         <section id="registrano">
         	<h2>活動報名</h2>
-        	<div class="registrano-blog-badge w-220" id="registrano-blog-badge-moztw-sfd-2012"></div>
+        	<div class="registrano-blog-badge w-220" id="registrano-blog-badge-code-rush"></div>
         	
         </section>
+        
         <!--
-        <section id="photo">
+        <section id="photos" style="clear:both">
         	<h2>活動剪影</h2>
-        </section>
+			<div class="content">
+				<a href="" class="left-btn"></a>
+				<a href="" class="right-btn"></a>
+				<ul>
+				    <li><a target="_blank" href="http://www.flickr.com/photos/chandrew/7317033432/" title="IMG_0406 by Ch.Andrew, on Flickr"><img src="http://moztw.org/events/furp/photo/7317033432_58fb5017fa_z.jpg" alt="IMG_0406" height="480" width="640"/></a></li>
+					<li><a target="_blank" href="http://www.flickr.com/photos/huanglifu/7278976076/" title="_MG_2970 by david.li-fu.huang, on Flickr"><img src="http://farm9.staticflickr.com/8013/7278976076_a47749b3ab_z.jpg" width="427" height="640" alt="_MG_2970"/></a></li>					
+					<li><a target="_blank" href="http://www.flickr.com/photos/huanglifu/7278653080/" title="_MG_2471 by david.li-fu.huang, on Flickr"><img src="http://farm8.staticflickr.com/7093/7278653080_1f1554c3fd_z.jpg" width="640" height="427" alt="_MG_2471"/></a></li>			
+					<li><a target="_blank" href="http://www.flickr.com/photos/huanglifu/7279064850/" title="_MG_3064 by david.li-fu.huang, on Flickr"><img src="http://farm8.staticflickr.com/7237/7279064850_9e56694794_z.jpg" width="427" height="640" alt="_MG_3064"></a></li>
+				</ul>
+			</div>
+		</section>
         -->
 
 		
