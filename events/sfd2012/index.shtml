@@ -11,7 +11,7 @@
 
 </style>
 <script src="http://asset.registrano.com/javascripts/blogbadge/zh-tw.js" type="text/javascript" defer="defer"></script>
-<body>
+
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 	<header id="header2" class="container">
