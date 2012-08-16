@@ -8,7 +8,9 @@
 <!--[if lte IE 8]> <link rel="stylesheet" href="assets/leaflet/leaflet.ie.css" /> <![endif]-->
 <link href="style.css" rel="stylesheet" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
-
+<!--[if IE]>
+    <script src="assets/html5.js"></script>
+<![endif]--> 
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 	<header id="header2" class="container">
@@ -33,7 +35,7 @@
 		<section id="information">
 			<h2>活動資訊</h2>
 			<ul>
-			<li>時間：5/27 下午 12:50 ~ 2:20</li>
+			<li>時間：9/15 下午 12:50 ~ 2:20</li>
 			<li>地點：西門町-真善美劇院（<a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'Google Map']);"  href="http://goo.gl/maps/K3zQz"><span class="locality">台北市</span><span class="street-address">萬華區漢中街116號7樓</span></a>）</li>
 			<li>票價：Registrano 早鳥票：NT$220； 現場付費：NT$250</li>
 			</ul>
