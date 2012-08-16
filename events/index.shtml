@@ -3,6 +3,16 @@
 <title>活動總覽 - MozTW, Mozilla 台灣社群</title>
 <link rel="stylesheet" type="text/css" href="events.css" media="screen"> 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<!--[if IE]>
+    <script src="sfd2012/assets/html5.js"></script>
+<![endif]--> 
+<!--[if lt IE 9]>
+<script src="sfd2012/assets/IE9.js"></script>
+<![endif]-->
+<script type="text/javascript" src="sylvester.js"></script>
+<script type="text/javascript" src="transformie.js"></script>
+
+
 <script>
 jQuery(function($){
 	
