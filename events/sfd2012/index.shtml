@@ -11,6 +11,9 @@
 <!--[if IE]>
     <script src="assets/html5.js"></script>
 <![endif]--> 
+<!--[if lt IE 9]>
+<script src="assets/IE9.js"></script>
+<![endif]-->
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 	<header id="header2" class="container">
