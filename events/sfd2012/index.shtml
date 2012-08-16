@@ -7,24 +7,19 @@
 <link href="assets/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
 <!--[if lte IE 8]> <link rel="stylesheet" href="assets/leaflet/leaflet.ie.css" /> <![endif]-->
 <link href="style.css" rel="stylesheet" />
-<style type="text/css">
-
-</style>
-<script src="http://asset.registrano.com/javascripts/blogbadge/zh-tw.js" type="text/javascript" defer="defer"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
 
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 	<header id="header2" class="container">
-		<img src="images/ani-code-rush.png" alt="2012 MozTW SFD Party: Code Rush 源碼奔馳 放映會"/>
+		<img src="images/ani-code-rush.gif" alt="2012 MozTW SFD Party: Code Rush 源碼奔馳 放映會"/>
+        <h2>2012 MozTW SFD 電影院</h2>
+        <h1>源碼奔馳<!--<span class="appe">放映會</span>--></h1>
 	</header>
-	<div id="feature">
-      <h2>2012 MozTW SFD Party</h2>
-      <h1>Code Rush 源碼奔馳 放映會</h1>
-    </div>
 	<div id="main" class="container">
 		
 		<section id="introduction">
-			<h2>簡介</h2>
+			<h2>軟體自由日 MozTW 放映會</h2>
 			<p>九月的第三個星期六，是軟體自由日（Software Freedom Day，SFD） 在關於自由軟體和開源軟體的全球性慶祝活動當中，我們預計在電影院上演當初手提一只皮箱就跑進的矽谷淘金的工程師們愛與勇氣的冒險記-Code Rush（源碼奔馳）。</p>
 		</section>
 				
@@ -38,20 +33,20 @@
 		<section id="information">
 			<h2>活動資訊</h2>
 			<ul>
-			<li>時間：5/27 下午 4:40 ~ 6:50</li>
+			<li>時間：5/27 下午 12:50 ~ 2:20</li>
 			<li>地點：西門町-真善美劇院（<a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'Google Map']);"  href="http://goo.gl/maps/K3zQz"><span class="locality">台北市</span><span class="street-address">萬華區漢中街116號7樓</span></a>）</li>
-			<li>費用：200 元（先報名、現場付費取票）</li>
+			<li>票價：Registrano 早鳥票：NT$220； 現場付費：NT$250</li>
 			</ul>
 			<h3>交通</h3>
 			<ul>
-				<li>捷運站六號出口出來正前方</li>
-				<li>誠品左手邊的樓上</li>
+				<li>捷運站六號出口正前方</li>
+				<li>誠品左手邊走道進入電梯上七樓</li>
 			</ul>
 		  <div id="map"></div>
 		</section>
     	
         <section id="registrano">
-        	<h2>活動報名</h2>
+        	<h2>立即搶票！</h2>
         	<div class="registrano-blog-badge w-220" id="registrano-blog-badge-code-rush"></div>
         	
         </section>
@@ -78,5 +73,6 @@
 <script type="text/javascript" charset="utf-8" src="assets/leaflet/leaflet.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/jquery.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/scripts.js"></script>
+<script src="http://asset.registrano.com/javascripts/blogbadge/zh-tw.js" type="text/javascript" defer="defer"></script>
 <!--#include virtual="/inc/footer.html" -->
 

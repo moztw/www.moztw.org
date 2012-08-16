@@ -37,7 +37,7 @@ a{
 	margin: 0 auto;
 }
 
-h1{
+h1, h2 {
     border: none;
     font-size: 2em;
     margin-top: 0em;
@@ -45,16 +45,40 @@ h1{
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
 }
 
-#feature h2{
-    border: none;
+header h2{
+    color: #C8C8C8;
     font-size: 1.5em;
-    margin-top: 1em;
-    text-align: center;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+    left: 35px;
+    opacity: 0.95;
+    position: absolute;
+    text-shadow: 0 0 5px #80FFFF;
+    top: 30px;
 }
 
-
+header h1 {
+    bottom: 120px;
+    color: #8BE3EA;
+    font-size: 2.5em;
+    opacity: 0.9;
+    position: absolute;
+    right: 128px;
+    text-shadow: 0 0 5px #8BE3EA;
+}
+/*
+header h1 .appe {
+    bottom: 2px;
+    color: #8BE3EA;
+    display: inline-block;
+    font-size: 0.6em;
+    left: 150px;
+    opacity: 0.85;
+    position: absolute;
+    text-shadow: 0 0 2px #8BE3EA;
+    width: 3em;
+}
+*/
 #header2{
+    position: relative;
 	border-bottom: 1px #CCC solid;
 	margin-top: 20px;
 	box-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
