@@ -19,13 +19,13 @@
 	<header id="header2" class="container">
 		<img src="images/ani-code-rush.gif" alt="2012 MozTW SFD Party: Code Rush 源碼奔馳 放映會"/>
         <h2>2012 MozTW SFD 電影院</h2>
-        <h1>源碼奔馳<!--<span class="appe">放映會</span>--></h1>
+        <h1><!--源碼奔馳--><!--<span class="appe">放映會</span>--></h1>
 	</header>
 	<div id="main" class="container">
 		
 		<section id="introduction">
 			<h2>軟體自由日 MozTW 放映會</h2>
-			<p>九月的第三個星期六，是軟體自由日（Software Freedom Day，SFD） 在關於自由軟體和開源軟體的全球性慶祝活動當中，我們預計在電影院上演當初手提一只皮箱就跑進的矽谷淘金的工程師們愛與勇氣的冒險記-Code Rush（源碼奔馳）。</p>
+			<p>九月的第三個星期六，是軟體自由日（Software Freedom Day，SFD） 在關於自由軟體和開源軟體的全球性慶祝活動當中，我們預計在電影院上演當初手提一只皮箱就跑進的矽谷淘金的工程師們愛與勇氣的冒險記-Code Rush<!--（源碼奔馳）-->。</p>
 		</section>
 				
         <!--
