@@ -336,10 +336,10 @@ body {
 		從 Google Play 下載
 		<div class="desc">目前暫無中文版</div>
 		</a>
-		<a class="btn btn-ftp" href="http://bit.ly/FxM1401zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '1401-zhTW-FTP']);">
+		<!--<a class="btn btn-ftp" href="http://bit.ly/FxM1401zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '1401-zhTW-FTP']);">
 		從 Mozilla FTP 下載
 		<div class="desc">中文版，需手動安裝 APK</div>
-		</a>
+		</a>-->
 	</div>
 
 </div>
