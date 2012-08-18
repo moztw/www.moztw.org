@@ -1,6 +1,6 @@
 <!--#include virtual="/inc/meta.html" -->
 
-<title>2012 MozTW SFD Party - MozTW, Mozilla 台灣社群</title>
+<title>2012 軟體自由日《Code Rush》放映會 - MozTW, Mozilla 台灣社群</title>
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -24,10 +24,26 @@
 	<div id="main" class="container">
 		
 		<section id="introduction">
-			<h2>軟體自由日 MozTW 放映會</h2>
-			<p>九月的第三個星期六，是軟體自由日（Software Freedom Day，SFD） 在關於自由軟體和開源軟體的全球性慶祝活動當中，我們預計在電影院上演當初手提一只皮箱就跑進的矽谷淘金的工程師們愛與勇氣的冒險記-Code Rush<!--（源碼奔馳）-->。</p>
+			<h2>MozTW 軟體自由日《Code Rush》放映會</h2>
+            <p style="text-align: center;">九月 15 日是國際<a href="http://softwarefreedomday.org/" target="_blank">軟體自由日</a>（Software Freedom Day），<br>MozTW 將在台北真善美戲院播映《Code Rush》紀錄片，一同慶祝這個自由軟體的全球慶典。</p>
+		
+    		<h2>影片簡介</h2>
+    		
+    		<blockquote>
+        		<p>「如果你對軟體業感興趣，希望了解程式設計師的生活，以及&nbsp;Mozilla 專案的起源和創造它的人們，<br>那麼千萬不要錯過這部紀錄片。我保證這是一部過目難忘的作品。」</p>
+        		<p style="text-align: right;">——<a href="http://www.ruanyifeng.com/blog/2009/09/code_rush.html" target="_blank">阮一峰</a></p>
+    		</blockquote>
+    		
+    		<p>〈<a href="http://clickmovement.org/coderush" target="_blank">Code Rush</a>〉是&nbsp;<span class="new">David Winton 導演於 1998 年至 2000 年間拍攝的紀錄片，紀錄了矽谷的 Netscape 工程師們將瀏覽器原始碼釋出，成為 Mozilla 專案的經過；同時 Netscape 也正經歷被 AOL 併購的過程。本片描繪了 Netscape 的工程師們，犧牲日常生活與家庭，努力防止他們的公司倒閉的經歷。</span></p>
+    		
+    		<p>2002 年釋出的 Mozilla 1.0 歷經十年演進，最終成為現今的 Firefox 瀏覽器，引領網路發展、帶來世界變革。明年是 Mozilla 基金會成立十週年及 Mozilla 計畫 15 週年。在這個新世代行動瀏覽器大戰的起點，就讓我們一起回顧 Mozilla 的起源，迎接未來的挑戰。</p>
+    		
+    		<p>歡迎對自由軟體、開放原始碼感興趣，熱愛網際網路及 Firefox 瀏覽器的你，千萬不可錯過 MozTW 軟體自由日《Code Rush》放映會！<br><br></p>
+		
 		</section>
-				
+			
+		
+			
         <!--
 		<section id="slides">
 			<h2>節目表與投影片</h2>
@@ -37,23 +53,22 @@
 		
 		<section id="information">
 			<h2>活動資訊</h2>
+			
 			<ul>
-			<li>時間：9/15 下午 12:50 ~ 2:20</li>
-			<li>地點：西門町-真善美劇院（<a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'Google Map']);"  href="http://goo.gl/maps/K3zQz"><span class="locality">台北市</span><span class="street-address">萬華區漢中街116號7樓</span></a>）</li>
-			<li>票價：Registrano 早鳥票：NT$220； 現場付費：NT$250</li>
+			<li>播映時間：2012/09/15（六）12:50-14:20</li>
+			<li>真善美劇院（台北捷運西門站六號出口正前方，誠品116左方入口進入 7 樓）</li>
+			<li>票價：Registrano早鳥票 NT$220； 現場付費 NT$250</li>
 			</ul>
-			<h3>交通</h3>
-			<ul>
-				<li>捷運站六號出口正前方</li>
-				<li>誠品左手邊走道進入電梯上七樓</li>
-			</ul>
+            <p>本片中文字幕，由 MozTW 社群成員共同翻譯。<br>現場不劃座位，請排隊依序簽到入場。</p>	
+            <p><span class="new">Code Rush 以創用 CC 姓名標示-非商業性-相同方式分享 3.0 授權釋出，專案網址：<a href="http://clickmovement.org/coderush">http://clickmovement.org/coderush</a></span></p>
+            		
 		  <div id="map"></div>
 		</section>
     	
         <section id="registrano">
         	<h2>立即搶票！</h2>
-        	<div class="registrano-blog-badge w-220" id="registrano-blog-badge-code-rush"></div>
-        	
+        	<a class="fallback-register-button event-link" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Code Rush', 'Registrano']);" href="hhttp://registrano.com/events/code-rush">前往活動報名網頁</a>
+        	<div class="registrano-blog-badge w-220" id="registrano-blog-badge-code-rush"></div>        	
         </section>
         
         <!--
