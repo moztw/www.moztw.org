@@ -222,10 +222,16 @@
       <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-thunderbird-v3.png" style="height:72px;width:72px;" alt="Thunderbird Logo" class="promo"></a></h2>
 	  <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
   </div>
-  <div class="frontcolumn">
+<!--  <div class="frontcolumn">
     <h2><a href="https://webmaker.org/"><img src="/images/webmaker.png" style="" alt="Webmaker" class="promo">Mozilla Webmaker</a></h2>
   	<p>網路發展至今，人人都該具備在網路上創作的能力，Webmaker 計畫以各種簡單有趣的專案，讓大家嘗試混搭網頁、踏出網頁創作的第一步。</p>
-  </div>
+  </div>-->
+<div class="frontcolumn">
+  <h2><a href="https://demos.mozilla.org/">Code Rush 放映會<img src="/images/mozilla.png" alt="Mozilla Logo"  class="promo" style="width:84px;height:64px;"></a></h2>
+  <p>為慶祝 9/15 國際軟體自由日 SFD，MozTW 將在台北真善美戲院播映《Code Rush》紀錄片，一同回顧 Mozilla 的起源故事。</p>
+</div>
+
+
   <!--<div class="frontcolumn hide">
     <h2><a href="https://demos.mozilla.org/">Web O’ Wonder<img src="/images/HTML5_Badge_64.png" alt="HTML5 Logo"  class="promo"></a></h2>
     <p>立刻造訪 <a href="https://demos.mozilla.org/">Mozilla 奇幻網路</a>，看看設計師們透過 HTML5 &amp; WebGL 的技術，所打造出各種無與倫比的網路旅程！</p>
@@ -261,6 +267,7 @@
 	  <h2>快速捷徑</h2>
         <ul class="news">
           <li><a href="http://moztw.org/foxmosa/game/pairs/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Browser Pairs', 'frontpage']);">Foxmosa 瀏覽器翻牌遊戲</a></li>
+          <li><a href="https://webmaker.org/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Webmaker', 'frontpage']);">Mozilla Webmaker</a></li>          
           <li><a href="http://mozlinks-zh.blogspot.com/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla Links', 'frontpage']);">Mozilla Links 正體中文版</a></li>
           <li><a href="http://gfx.tw/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'gfx.tw', 'frontpage']);">gfx.tw 抓火狐</a></li>
           <li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: Firefox', 'frontpage']);">Firefox 中文討論區</a></li>
