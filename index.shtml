@@ -260,7 +260,7 @@
     <div class="frontcolumnlast">
 	  <h2>快速捷徑</h2>
         <ul class="news">
-          <li><a href="http://moztw.org/foxmosa/game/pairs/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Browser Pairs', 'frontpage']);">小莎翻牌遊戲</a></li>
+          <li><a href="http://moztw.org/foxmosa/game/pairs/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Browser Pairs', 'frontpage']);">Foxmosa 瀏覽器翻牌遊戲</a></li>
           <li><a href="http://mozlinks-zh.blogspot.com/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla Links', 'frontpage']);">Mozilla Links 正體中文版</a></li>
           <li><a href="http://gfx.tw/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'gfx.tw', 'frontpage']);">gfx.tw 抓火狐</a></li>
           <li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: Firefox', 'frontpage']);">Firefox 中文討論區</a></li>
