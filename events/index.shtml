@@ -79,6 +79,22 @@ jQuery(function($){
 				</iframe>
 			</div>
 			
+            <a href="moztw-lab/">
+			<article class="on">
+				<header>
+					<h2>MozTW Lab</h2>
+					<time pubdate="pubdate">每週五</time>
+					<span class="arrow"></span>
+				</header>
+				
+				<div class="photo" style="background:url(moztw-lab/images/moztwlab.jpg) -210px -135px">
+				</div>
+				<div class="content">
+				聊聊 Web 界的八卦、找人幫你的作品給點意見、與志同道合的夥伴見面、<del>約團購面交</del>
+				</div>
+			</article>
+			</a>
+			
             <a href="sfd2012/">
 			<article class="on">
 				<header>
