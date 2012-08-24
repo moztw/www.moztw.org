@@ -150,6 +150,7 @@ a {
 #event-list .events article.on{
 	box-shadow:0 0 10px #1F7DFF;
 	border-color:#1F7DFF !;
+	border: 1px solid #1F7DFF;
 }
 
 #event-list .events article.on .arrow:before{
