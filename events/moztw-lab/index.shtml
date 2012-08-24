@@ -1,174 +1,90 @@
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta property="og:image" content="http://moztw.org/events/moztw-lab/assets/429767_366125973427405_228520592_n.jpg" />
-  <title>MozTW Lab</title>
+<!--#include virtual="/inc/meta.html" -->
 
-  <link href="assets/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="assets/stylesheets/print.css" media="print" rel="stylesheet" type="text/css">
-  <link href="assets/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <!--[if lte IE 8]> <link rel="stylesheet" href="assets/leaflet/leaflet.ie.css" /> <![endif]-->
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-</head>
-<body>
-	
-<header class="vevent">
-
-<div id="moztwHeader">
-<h1><a accesskey="1" title="回到 MozTW 首頁" href="http://moztw.org/">MozTW 正體中文在地化</a></h1>
- <ul>
-  <li id="menu_aboutus"><a title="About this website" href="/about">關於本站</a></li>
-  <li id="menu_contribute"><a title="了解我們正在做什麼，看看您能幫上什麼忙！" href="/contribute">參與我們</a></li>
-  <li id="menu_planet"><a title="MozTW 社群成員閒聊區" href="http://planet.moztw.org/">摩茲工寮</a></li>
-  <li id="menu_wiki"><a title="MozTW 共筆系統" href="http://wiki.moztw.org/">共筆系統</a></li>
-  <li id="menu_events"><a title="MozTW 活動" href="/events">活動</a></li>
-  <li id="menu_forum"><a title="MozTW 社群討論區" href="http://forum.moztw.org/">討論區</a></li>
-  <li id="menu_products"><a title="Moztw.org 提供的中文化軟體一覽" href="/dl">下載</a></li>
- </ul>
-
-<!-- Google 自訂搜索 -->
-<form action="http://forum.moztw.org/google_results.php" id="search">
-  <div>
-    <input type="hidden" value="004834718651483963205:4eo-sv95xaa" name="cx">
-    <input type="hidden" value="FORID:9" name="cof">
-    <input type="hidden" value="UTF-8" name="ie">
-    <input type="text" maxlength="64" size="30" accesskey="s" name="q" id="q">
-    <input type="submit" value="搜尋" name="sa" id="submit">
-  </div>
-</form>
-
-<script src="http://www.google.com/jsapi" type="text/javascript"></script>
-<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script><script type="text/javascript" src="http://www.google.com/uds/?file=elements&amp;v=1&amp;packages=transliteration"></script><link rel="stylesheet" type="text/css" href="http://www.google.com/uds/api/elements/1.0/5d91467acc9e309ea86f2bde0e977216/transliteration.css"><script type="text/javascript" src="http://www.google.com/uds/api/elements/1.0/5d91467acc9e309ea86f2bde0e977216/transliteration.I.js"></script>
-<script src="http://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant" type="text/javascript"></script>
-<script src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant" type="text/javascript"></script>
-<!-- End of Google Search -->
-</div>
-  <h1 class="summary">MozTW Lab</h1>
-  <div class="header-content">
-    <p>
-	  交朋友、聊是非、互助研究的好所在
-    </p>
-    <p>
-      <span class="dtstart">
-        <time class="value">每週五晚間 19:30-22:00</time>
-      </span>
-    </p>
-    <p class="location">咖啡銅號</p>
-    <a class="fallback-register-button event-link" href="#location">我要參加</a>
-  </div>
-
-  <nav>
-    <ul>
-      <li><a href="#introduction">簡介</a></li>
-      <li><a href="#whatsthis">關於</a></li>
-      <li><a href="#photos">照片</a></li>
-      <li><a href="#location">地點</a></li>
-      <li><a href="#host">來開 Lab！</a></li>
-      
-      
-    </ul>
-  </nav>
-</header>
+<title>MozTW Lab - MozTW, Mozilla 台灣社群</title>
+<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="assets/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
+<!--[if lte IE 8]> <link rel="stylesheet" href="assets/leaflet/leaflet.ie.css" /> <![endif]-->
+<link href="style.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
+<!--[if IE]>
+    <script src="assets/html5.js"></script>
+<![endif]--> 
+<!--[if lt IE 9]>
+<script src="assets/IE9.js"></script>
+<![endif]-->
+<!--#include virtual="/inc/class_homepage.html" -->
+<!--#include virtual="/inc/header.html" -->
+	<header id="header2" class="container">
+		<img src="images/moztwlab.jpg" alt="MozTW Lab"/>
+	</header>
+	<div id="main" class="container">
+		
+		<section id="introduction">
+			<h2>MozTW Lab</h2>
+            <p style="text-align: center;">交朋友、聊是非、互助研究的好所在</p>
+            <div>
+              <a class="event-link" href="#location">我要參加</a>
+            </div>
+    		<h2>你可以在這裡…</h2>
+    		
+			<p>聊聊 Web 界的八卦、找人幫你的作品給點意見、與志同道合的夥伴見面、<del>約團購面交</del></p>
+    		
+		</section>
+			
+		
+		<article id="whatsthis">
+			<h2>什麼是MozTW Lab？</h2>
+			<p>台北這邊的 Lab 從來都不是為了有什麼目標或者要作什麼事情而聚的，有新消息聊、有困難找人討論，但不需要有統一的目標。</p>
+		</article>
+				
+    	
+    	  <article id="photos">
+			  <h2>活動剪影</h2>
+			<div id="mozGallery">
+			  <ul class="photoList">
+				
+			  </ul>
+			  <div class="singlePhoto">
+				<a class="link"></a>
+				<a class="attribution"></a>
+			  </div>
+			  
+			</div>
 
 
-<div id="content">
-  <article id="introduction">
-    <header>
-      <h2>你可以在這裡…</h2>
-    </header>
-    <p>聊聊 Web 界的八卦、找人幫你的作品給點意見、與志同道合的夥伴見面、<del>約團購面交</del></p>
-  </article>
-  
-  
-  
-    <article id="whatsthis">
-    <header>
-      <h2>什麼是MozTW Lab？</h2>
-    </header>
-    <p>台北這邊的 Lab 從來都不是為了有什麼目標或者要作什麼事情而聚的，有新消息聊、有困難找人討論，但不需要有統一的目標。</p>
-  </article>
+		  </article>
+    	
 
+      <article id="location">
+          <h2>那裡有 MozTW Lab？</h2>
 
-
-  <article id="photos">
-    <header>
-      <h2>活動剪影</h2>
-    </header>
-    <div id="mozGallery">
-      <ul class="photoList">
-        
-      </ul>
-      <div class="singlePhoto">
-        <a class="link"></a>
-        <a class="attribution"></a>
-      </div>
-      
-    </div>
-
-
-  </article>
-  <article id="location">
-    <header>
-      <h2>那裡有 MozTW Lab？</h2>
-    </header>
-
-    <div class="vcard">
-      <p>這位客官你運氣真好，台北剛好有一個：<br>
-      <span class="adr">
-        <span class="postal-code">104</span>
-        <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'Google Map']);"  href="http://goo.gl/maps/pzqd"><span class="country-name">台灣</span><span class="locality">台北市</span><span class="street-address">中山區民生東路二段114號</span></a>
-      </span><br>
-      <span class="tel">02-2542-7899</span></p>
-      <div class="geo">
-        <span class="latitude">25.062258</span>
-        <span class="longitude">121.531386</span>
-      </div>
-    </div>
-    <p>「免費參加，餐飲自理。」</p>
-    <!-- TODO: map, maybe from Leaflet or Google Maps -->
-    <div id="map"></div>
-  </article>
+          <p>這位客官你運氣真好，台北剛好有一個：</p>
+          <ul>
+          <li>每週五晚間 19:30-22:00</li>
+          <li>咖啡銅號 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'Google Map']);"  href="http://goo.gl/maps/pzqd"><span class="locality">台北市</span><span class="street-address">中山區民生東路二段114號</span></a></li>
+          <li>電話：02-2542-7899</li>
+          <li>「免費參加，餐飲自理。」</li>
+          </ul>
+      <div id="map"></div>
+      </article>
 
   
-  <article id="host">
-    <header>
-      <h2>來開 Lab！</h2>
-    </header>
-    <p>你也想在自己的所在地開一個定期的 MozTW Lab 嗎？請上 mailing list 呼朋引伴。</p>
-  </article>
+      <article id="host">
+          <h2>來開 Lab！</h2>
+        <p>你也想在自己的所在地開一個定期的 MozTW Lab 嗎？請上 mailing list 呼朋引伴。</p>
+      </article>
+          
+    	
 
-  
-  
-</div>
-<footer>
-  <ul id="bn">
-    <li><img title="moztw.org" alt="moztw.org" src="assets/moztw_80x15.png"></li>
-    <li><a title="Mozilla 軟體正體中文在地化專案/台灣社群" rel="cc:attributionURL" property="cc:attributionName" href="http://moztw.org/" xmlns:cc="http://creativecommons.org/ns#">MozTW，Mozilla 正體中文/台灣社群</a></li>
-    <li><a href="/about">聯絡資訊 Contact</a></li>
-  </ul>
-  <p>除另有註明外，本站內容皆採<a class="subfoot" href="http://creativecommons.org/licenses/by-sa/3.0/tw/" rel="license">創用 CC 姓名標示&mdash;相同方式分享條款 3.0 台灣版</a>授權大眾使用<br><a href="http://creativecommons.org/licenses/by-sa/3.0/tw/" rel="license"><img src="http://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" alt="CC BY-SA"></a></p>
-</footer>
+
+		
+	</div>
 
 <script type="text/javascript" charset="utf-8" src="assets/leaflet/leaflet.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/jquery.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/scripts.js"></script>
 <script src="http://asset.registrano.com/javascripts/blogbadge/zh-tw.js" type="text/javascript" defer="defer"></script>
-
-<!-- Google Analytic -->
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-1035080-1']);
-  _gaq.push(['_setDomainName', 'moztw.org']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
-
-</body>
-</html>
+<!--#include virtual="/inc/footer.html" -->
 
