@@ -169,6 +169,21 @@ jQuery(function($){
 			    </a>			    
 			</div>
 			
+			<a href="sopa/">
+			<article class="on">
+				<header>
+					<h2>反對網際網路言論審查</h2>
+					<time pubdate="pubdate">2012/1</time>
+					<span class="arrow"></span>
+				</header>
+				<div class="photo" style="background:url(sopa/images/banner.png) 0px 0px">
+				</div>
+				<div class="content">
+				MozTW 在此聲援 Mozilla 及所有網路自由鬥士：正於美國國會審議之 SOPA及 PIPA 法案，以保護智財權之名、阻擋網站瀏覽之手段，要求內容服務網站（如社群網站、搜索引擎）進行自我審查，有限縮言論自由、危害網路發展之虞，且與 Mozilla 宣言「網際網路應保持開放」之核心價值相悖，我們反對 SOPA、PIPA 及任何型態之網際網路言論審查。
+				</div>
+			</article>
+			</a>
+			
 			<a href="newyear2012/">
 			<article class="on">
 				<header>

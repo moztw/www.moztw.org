@@ -1,0 +1,54 @@
+<!--#include virtual="/inc/meta.html" -->
+
+<title>反對網際網路言論審查 - MozTW, Mozilla 台灣社群</title>
+<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="assets/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
+<!--[if lte IE 8]> <link rel="stylesheet" href="assets/leaflet/leaflet.ie.css" /> <![endif]-->
+<link href="style.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
+<!--[if IE]>
+    <script src="assets/html5.js"></script>
+<![endif]--> 
+<!--[if lt IE 9]>
+<script src="assets/IE9.js"></script>
+<![endif]-->
+<!--#include virtual="/inc/class_homepage.html" -->
+<!--#include virtual="/inc/header.html" -->
+	<header id="header2" class="container">
+		<div class="key-point front-feature" id="front-feature">
+			<div id="sopa"  alt="反對網際網路言論審查"/>
+				<h2>反對網際網路言論審查</h2>
+				<p>MozTW 在此聲援 <a target="_blank" href="http://www.mozilla.org/sopa/">Mozilla</a> 及所有網路自由鬥士：正於美國國會審議之 <abbr title="Stop Online Piracy Act，反網路盜版法案">SOPA</abbr> 及 <abbr title="Protect IP Act，保護智財權法案">PIPA</abbr> 法案，以保護智財權之名、阻擋網站瀏覽之手段，要求內容服務網站（如社群網站、搜索引擎）進行自我審查，有限縮言論自由、危害網路發展之虞，且與 <a href="http://www.mozilla.org/about/manifesto.zh-tw.html">Mozilla 宣言</a>「網際網路應保持開放」之核心價值相悖，我們反對 SOPA、PIPA 及任何型態之網際網路言論審查。<a target="_blank" href="http://www.google.com.tw/#q=sopa"><span class="more">→ 查詢相關資訊</span></a></p>
+			</div>
+		</div>
+		
+	</header>
+	<div id="main" class="container">
+		
+		<section id="introduction">
+			<h2>反對網際網路言論審查</h2>
+			<p>MozTW 在此聲援 <a href="http://www.mozilla.org/sopa/" target="_blank">Mozilla</a> 及所有網路自由鬥士：正於美國國會審議之
+			 <abbr title="Stop Online Piracy Act，反網路盜版法案">SOPA</abbr> 及 <abbr title="Protect IP Act，保護智財權法案">PIPA</abbr> 法案，
+			 以保護智財權之名、阻擋網站瀏覽之手段，要求內容服務網站（如社群網站、搜索引擎）進行自我審查，有限縮言論自由、危害網路發展之虞，
+			 且與 <a href='http://www.mozilla.org/about/manifesto.zh-tw.html'>Mozilla 宣言</a>
+			 「網際網路應保持開放」之核心價值相悖，我們反對 SOPA、PIPA 及任何型態之網際網路言論審查。</p>
+            <div>
+              <a class="event-link" href='http://www.google.com.tw/#q=sopa' target="_blank">查詢相關資訊</a>
+            </div>
+    		
+		</section>
+          
+    	
+
+
+		
+	</div>
+
+<script type="text/javascript" charset="utf-8" src="assets/leaflet/leaflet.js"></script>
+<script type="text/javascript" charset="utf-8" src="assets/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="assets/scripts.js"></script>
+<script src="http://asset.registrano.com/javascripts/blogbadge/zh-tw.js" type="text/javascript" defer="defer"></script>
+<!--#include virtual="/inc/footer.html" -->
+
