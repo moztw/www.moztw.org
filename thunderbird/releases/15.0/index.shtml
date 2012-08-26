@@ -311,31 +311,37 @@ section .appendix {
                       <li>
                         <span class="tag tag-new">全新功能</span>
                         <h5>
-                          整合聊天與統一全域搜尋
+                          多人聊天：你可以享受與你的聯絡人即時聊天，使用你最愛的訊息程式
                         </h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
                         <h5>
-                          加入不想被追蹤選項
+							別追蹤我（Do Not Track）：在搜尋網頁功能中加入不想被追蹤選項
                         </h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
                         <h5>
-                          新 Australis 使用界面
+							Ubuntu One 成為另一個雲端檔案鏈結提供者 - 上傳大型附件到線上服務
                         </h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
                         <h5>
-                          Ubuntu One被加入雲端檔案鏈結提供者
+							新使用界面： Thunderbird 採用新 Mozilla Firefox 的介面讓使用者能夠在所有 Mozilla 軟體桌面版或手機版以及其他平台得到同樣的介面
                         </h5>
                       </li>
                       <li>
                         <span class="tag tag-fixed">修正</span>
                         <h5>
-                          許多個效能提昇<!--a href="https://www.mozilla.org/security/known-vulnerabilities/thunderbird.html"></a-->
+                          <a href="https://www.mozilla.org/en-US/thunderbird/15.0/releasenotes/buglist.html">許多個效能提昇</a>
+                        </h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>
+                          許多個<a href="https://www.mozilla.org/security/known-vulnerabilities/thunderbird.html">安全性修正</a>
                         </h5>
                       </li>
                     </ul>
