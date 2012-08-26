@@ -20,46 +20,34 @@
 		<img src="images/moztwlab.jpg" alt="MozTW Lab"/>
 	</header>
 	<div id="main" class="container">
-		
 		<section id="introduction">
 			<h2>MozTW Lab</h2>
             <p style="text-align: center;">交朋友、聊是非、互助研究的好所在</p>
             <div>
-              <a class="event-link" href="#location">我要參加</a>
+            	<a class="event-link" href="#location">我要參加</a>
             </div>
-    		<h2>你可以在這裡…</h2>
-    		
+    			<h2>你可以在這裡…</h2>
 			<p>聊聊 Web 界的八卦、找人幫你的作品給點意見、與志同道合的夥伴見面、<del>約團購面交</del></p>
-    		
-		</section>
-			
-		
+    		</section>
+
 		<article id="whatsthis">
 			<h2>什麼是MozTW Lab？</h2>
-			<p>台北這邊的 Lab 從來都不是為了有什麼目標或者要作什麼事情而聚的，有新消息聊、有困難找人討論，但不需要有統一的目標。</p>
+			<blockquote cite="http://blog.bobchao.net/2010/04/moztw-lab.html">台北這邊的 Lab 從來都不是為了有什麼目標或者要作什麼事情而聚的，有新消息聊、有困難找人討論，但不需要有統一的目標。  -- BobChao，<a href="http://blog.bobchao.net/2010/04/moztw-lab.html" title="台北的 MozTW Lab，都在幹麼？">〈台北的 MozTW Lab，都在幹麼？〉</a></blockquote>
 		</article>
-				
-    	
-    	  <article id="photos">
+
+		<article id="photos">
 			  <h2>活動剪影</h2>
-			<div id="mozGallery">
-			  <ul class="photoList">
-				
-			  </ul>
-			  <div class="singlePhoto">
-				<a class="link"></a>
-				<a class="attribution"></a>
-			  </div>
-			  
+		<div id="mozGallery">
+			<ul class="photoList"></ul>
+			<div class="singlePhoto">
+			  <a class="link"></a>
+			  <a class="attribution"></a>
 			</div>
-
-
-		  </article>
-    	
+		</div>
+		</article>
 
       <article id="location">
           <h2>那裡有 MozTW Lab？</h2>
-
           <p>這位客官你運氣真好，台北剛好有一個：</p>
           <ul>
           <li>每週五晚間 19:30-22:00</li>
@@ -69,18 +57,12 @@
           </ul>
       <div id="map"></div>
       </article>
-
   
       <article id="host">
           <h2>來開 Lab！</h2>
-        <p>你也想在自己的所在地開一個定期的 MozTW Lab 嗎？請上 mailing list 呼朋引伴。</p>
+		<p>你也想在自己的所在地開一個定期的 MozTW Lab 嗎？請上 mailing list 呼朋引伴。</p>
       </article>
-          
-    	
-
-
-		
-	</div>
+      </div>
 
 <script type="text/javascript" charset="utf-8" src="assets/leaflet/leaflet.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/jquery.js"></script>
