@@ -292,7 +292,7 @@ section .appendix {
     <div id="mainContent" class="right">
 	<div id="main-feature">
 	  <h2><img src="/images/product-thunderbird-v3.png" width="104" height="104" alt="Thunderbird">Thunderbird<br><span class="small">版本資訊</span></h2>
-	  <p id="release_dates">2012 年 7 月 17 日 v.14.0 </p>   
+	  <p id="release_dates">2012 年 8 月 28 日 v.15.0 </p>   
         <p>此版本資訊包含了 <a href="#whatsnew">Thunderbird 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
         <p>我們想知道您對 Thunderbird 的想法。歡迎到 MozillaZine 上的<a href="http://forums.mozillazine.org/viewforum.php?f=49">英文討論區</a>或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Thunderbird 中文討論區</a>與我們分享意見。</p>
         
@@ -309,9 +309,33 @@ section .appendix {
                 <div class="section-contents">
                     <ul>
                       <li>
+                        <span class="tag tag-new">全新功能</span>
+                        <h5>
+                          多人聊天：你可以享受與你的聯絡人即時聊天，使用你最愛的訊息程式
+                        </h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-new">全新功能</span>
+                        <h5>
+							別追蹤我（Do Not Track）：在搜尋網頁功能中加入不想被追蹤選項
+                        </h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-new">全新功能</span>
+                        <h5>
+							Ubuntu One 成為另一個雲端檔案鏈結提供者 - 上傳大型附件到線上服務
+                        </h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-new">全新功能</span>
+                        <h5>
+							新使用界面： Thunderbird 採用新 Mozilla Firefox 的介面讓使用者能夠在所有 Mozilla 軟體桌面版或手機版以及其他平台得到同樣的介面
+                        </h5>
+                      </li>
+                      <li>
                         <span class="tag tag-fixed">修正</span>
                         <h5>
-                          <a href="http://www.mozilla.org/en-US/thunderbird/14.0/releasenotes/buglist.html">許多個修正與性能提昇</a>
+                          <a href="https://www.mozilla.org/en-US/thunderbird/15.0/releasenotes/buglist.html">許多個效能提昇</a>
                         </h5>
                       </li>
                       <li>
