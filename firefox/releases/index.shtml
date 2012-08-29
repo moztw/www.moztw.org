@@ -227,7 +227,7 @@ section .appendix {
                     <ul>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>初步實現原生 PDF 支援（僅 Aurora/Beta 版本）。</h5>
+                        <h5>安靜地背景更新。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
@@ -236,6 +236,10 @@ section .appendix {
                       <li>
                         <span class="tag tag-new">全新功能</span>
                         <h5>WebGL 改善，包括壓縮材質以增進效能等。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-new">全新功能</span>
+                        <h5>馬蒂科里（Maithili ）語系支援<a href="http://www.mozilla.org/en-US/firefox/all.html">（見所有支援的語系）</a>。</h5>
                       </li>
 
                       <li>
@@ -253,11 +257,11 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-developer">開發功能</span>
-                        <h5>實作了 CSS <a href="https://developer.mozilla.org/en/CSS/word-break">word-break</a> 屬性。</h5>
+                        <h5>實作了高精準度事件計時器。</h5>
                       </li>
                       <li>
                         <span class="tag tag-developer">開發功能</span>
-                        <h5>實作了高精準度事件計時器。</h5>
+                        <h5>實作了 CSS <a href="https://developer.mozilla.org/en/CSS/word-break">word-break</a> 屬性。</h5>
                       </li>
                       <li>
                         <span class="tag tag-developer">開發功能</span>
@@ -277,6 +281,14 @@ section .appendix {
                         <h5><a href="https://developer.mozilla.org/en/HTML/Element/audio">&lt;audio&gt;</a> 和 <a href="https://developer.mozilla.org/en/HTML/Element/video">&lt;video&gt;</a> 元素已支援 played 屬性。</h5>
                       </li>
 
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>
+                          重覆以 tab 在元素間切換時，顯示焦點的外框可能會逐漸變大
+                          （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=720987">bug 720987</a>）。
+                        </h5>
+                      </li>
+
                       <li class="complete">
                         請參考此版本的<a href="http://www.mozilla.com/firefox/15.0/releasenotes/buglist.html">完整變更清單</a>。
                         您可能也想瞭解<a href="/firefox/releases/14.0.1/">前一個版本的更新</a>。
@@ -291,15 +303,27 @@ section .appendix {
                   <ul>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
-                      <h5>以被鎖定的個人設定檔重新啟動 Firefox 時，程式會當掉（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573369">bug 573369</a>）。</h5>
+                      <h5>
+                        重新載入頁面時，除錯器設置的中斷點無法被正常捕捉。
+                        （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=783393">bug 783393</a>）。
+                      </h5>
+                      <div class="status">
+                        <span class="status-unresolved">v15 未修復</span>
+                        <span class="status-resolved">
+                          <a href="/en-US/firefox/16.0a2/auroranotes">v16 已修復</a>
+                        </span>
+                      </div>
+                    </li>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>
+                        以被鎖定的個人設定檔重新啟動 Firefox 時，程式會當掉
+                        （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573369">bug 573369</a>）。
+                      </h5>
                     </li>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
                       <h5>部分使用者在 GMail 視窗，捲動捲軸可能會變慢（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=579260">bug 579260</a>）。</h5>
-                    </li>
-                    <li>
-                      <span class="tag tag-unresolved">尚未修復</span>
-                      <h5>重覆以 tab 在元素間切換時，顯示焦點的外框可能會逐漸變大（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=720987">bug 720987</a>）。</h5>
                     </li>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
