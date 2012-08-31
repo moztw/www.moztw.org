@@ -31,7 +31,6 @@ var getPhotos = function(){
   }, function(data){
     photos = photos.concat(data.items);
     userIter += 1;
-    console.log(photos.length);
     if (users[userIter]) {
       getPhotos();
     } else {
