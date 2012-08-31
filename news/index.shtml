@@ -7,11 +7,17 @@
 
 
 
-<H1> 最新消息與公告 </H1>
+<h1>最新消息與公告</h1>
 <!--#include virtual="/inc/news.html" -->
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
-<H1> 過去的公告記錄 </H1>
+<h1>過去的公告記錄</h1>
 <ul class="news">
+<li><div class="date"> 9 月  3</div>
+配合中研院 OSSF 機房維護，MozTW 網站將於 9/3 (一) 早上 07:00～10:00 暫停服務</li>
+<div class="date"> 8 月 28</div>
+<a href="/firefox/releases/15.0/">Firefox 15.0</a> 更新</li>
+<li><div class="date"> 8 月 19</div>
+<a href="/events/sfd2012/">2012 MozTW 軟體自由日《Code Rush》放映會</a> 開始報名</li>
 <li><div class="date"> 7 月 17</div>
 <a href="/firefox/releases/14.0.1/">Firefox 14.0.1</a> 更新</li>
 <li><div class="date"> 7 月 1</div>
@@ -28,6 +34,8 @@
 配合中研院 OSSF 機房維護，MozTW 網站將於 29 日 (日) 早上 8:00～晚上 8:00 暫停服務</li>
 <li><div class="date"> 4 月 24</div>
 <a href="/firefox/releases/12.0/">Firefox 12</a> 更新、<a href="http://www.seamonkey-project.org/releases/seamonkey2.9/" target="_blank">SeaMonkey 2.9</a> 正體中文版登場！</li>
+<li><div class="date"> 4 月 17</div>
+<a href="/foxmosa/game/pairs/">Browser Pairs 瀏覽器翻牌遊戲</a>公開</li>
 <li><div class="date"> 3 月 13</div>
 <a href="/firefox/releases/11.0/">Firefox 11</a> 更新，<a href="/firefox/releases/3.6.28/">Firefox 3.6.28</a> 安全更新</li>
 <li><div class="date"> 3 月 1</div>
@@ -177,7 +185,9 @@
   <a href="/events/vday2009/">來寄張 Foxmosa 情人卡</a></li>
 <li><div class="date"> 2 月 4</div>
   <a href="/firefox/releases/3.0.6/">Firefox 3.0.6 安全更新</a></li>
+
 <li><div class="date"> 2009 年</div></li>  
+
 <li><div class="date"> 12 月 16</div>
   MozTW 主機將於 12 月 18 日(星期四) 9:30 AM 短暫停機，若需下載各項軟體請至 <a href="http://www.mozilla.com/">Mozilla Corp.</a> 首頁。</li>
 <li><div class="date"> 7 月 24</div>
@@ -211,6 +221,7 @@
   Firefox 2.0.0.12 更新版本已發行。（<a href="http://moztw.org/firefox/releases/2.0.0.12">版本資訊</a>）</li>
 
 <li><div class="date"> 2008 年</div></li>
+
 <li><div class="date"> 12 月 1</div>
   Firefox 2.0.0.11 更新版本已發行。（<a href="http://moztw.org/firefox/releases/2.0.0.11">版本資訊</a>）</li>
 <li><div class="date"> 11 月 26</div>
