@@ -14,36 +14,32 @@ var marker = new L.Marker(new L.LatLng(25.043887, 121.529045));
 map.addLayer(marker);
 
 marker.bindPopup("華山 1914 文創園區").openPopup();
-try
-{
-	var $nav = $("body>header>nav");
-	var offset = $nav.offset().top;
-	var $win = $(window);
-	var $header = $("body>header");
 
 
-	var checkScroll = function(){
-	  if ($win.scrollTop() > offset) {
-		$header.addClass("fixed");
-	  } else {
-		$header.removeClass("fixed");
-	  }
-	};
+var $nav = $("body>header>nav");
+var offset = $nav.offset().top;
+var $win = $(window);
+var $header = $("body>header");
 
-	$win.scroll(checkScroll);
-	// iOS bug dirty hack
-	$("body>header a").click(function(){
-		setTimeout(function(){$win.scrollTop($win.scrollTop()-1)}, 50)
-	});
 
-	$win.resize(function(){
-	  offset = $nav.offset().top;
-	});
-}
-catch(err)
-{
-  //Handle errors here
-}
+var checkScroll = function(){
+  if ($win.scrollTop() > offset) {
+	$header.addClass("fixed");
+  } else {
+	$header.removeClass("fixed");
+  }
+};
+
+$win.scroll(checkScroll);
+// iOS bug dirty hack
+$("body>header a").click(function(){
+	setTimeout(function(){$win.scrollTop($win.scrollTop()-1)}, 50)
+});
+
+$win.resize(function(){
+  offset = $nav.offset().top;
+});
+
 var photos = [];
 var users = ["12452841@N00", "60061298@N00", "71531353@N07", "61524395@N06", "58355118@N05", "74742644@N08"];
 
