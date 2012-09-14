@@ -44,12 +44,19 @@
 			
 		
 			
-        <!--
+        
 		<section id="slides">
-			<h2>節目表與投影片</h2>
-			
+			<h2>影片</h2>
+			<p style="text-align: center;">
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/VoLUvE-ny1k" frameborder="0" allowfullscreen></iframe>
+			</p>
+			<ul>
+			<li>
+				若來不及參加週六活動， 2012/09/16（日）相約九點鐘！ Mozilla Taiwan 在<a href="https://www.facebook.com/events/501848039845204/">臉書粉絲團</a>線上直播 Mozilla 記錄片「Code Rush」狂邀狐迷限時內看電影、搶答、拿獎品！	
+			</li>
+			</ul>
 		</section>
-		-->
+		
 		
 		<section id="information">
 			<h2>活動資訊</h2>
@@ -61,7 +68,6 @@
 			</ul>
             <p>本片中文字幕，由 MozTW 社群成員共同翻譯。<br>現場不劃座位，請排隊依序簽到入場。</p>	
             <p><span class="new">Code Rush 以創用 CC 姓名標示-非商業性-相同方式分享 3.0 授權釋出，專案網址：<a href="http://clickmovement.org/coderush">http://clickmovement.org/coderush</a></span></p>
-            		
 		  <div id="map"></div>
 		</section>
     	
