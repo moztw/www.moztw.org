@@ -23,12 +23,26 @@
 	</header>
 	<div id="main" class="container">
 		
-		<section id="introduction">
-			<h2>MozTW 軟體自由日《Code Rush》放映會</h2>
-            <p style="text-align: center;">九月 15 日是國際<a href="http://softwarefreedomday.org/" target="_blank">軟體自由日</a>（Software Freedom Day），<br>MozTW 將在台北真善美戲院播映《Code Rush》紀錄片，一同慶祝這個自由軟體的全球慶典。</p>
 		
-    		<h2>影片簡介</h2>
-    		
+		<section id="slides">
+			<h2>MozTW 軟體自由日《Code Rush》放映會</h2>
+		    <p style="text-align: center;">九月 15 日是國際<a href="http://softwarefreedomday.org/" target="_blank">軟體自由日</a>（Software Freedom Day），<br>MozTW 將在台北真善美戲院播映《Code Rush》紀錄片，一同慶祝這個自由軟體的全球慶典。</p>
+		
+		
+			<h2>線上觀看</h2>
+			<p style="text-align: center;">
+			<iframe width="640" height="360" src="http://www.youtube.com/embed/VoLUvE-ny1k" frameborder="0" allowfullscreen></iframe>
+			</p>
+			<ul>
+			<li>您參加了 MozTW 的放映會嗎？如果還想再看一次、想推薦朋友一起看、或者不克在週六中午參加，非常巧合的，Mozilla 台灣分公司於 9/15（六）及 9/16（日）晚上九點，在<a href="https://www.facebook.com/events/501848039845204/">臉書粉絲團</a>也有線上直播及有獎搶答活動。歡迎各位狐迷參加，一起搶答、拿獎品！</li>
+			<li>本片字幕由 MozTW 社群製作，歡迎<a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Amara', 'Code Rush']);"  href="http://www.universalsubtitles.org/zh-tw/videos/8kAaTv4LNAcN/zh-tw/322104/">至 Amara 協助編修</a>；如有興趣參與未來 Mozilla 相關影片的字幕製作，請參考「<a href="http://moztw.org/contribute/">參與我們</a>」。</li>
+			</ul>
+		</section>
+		
+		
+		<section id="introduction">
+			<h2>影片簡介</h2>
+
     		<blockquote>
         		<p>「如果你對軟體業感興趣，希望了解程式設計師的生活，以及&nbsp;Mozilla 專案的起源和創造它的人們，<br>那麼千萬不要錯過這部紀錄片。我保證這是一部過目難忘的作品。」</p>
         		<p style="text-align: right;">——<a href="http://www.ruanyifeng.com/blog/2009/09/code_rush.html" target="_blank">阮一峰</a></p>
@@ -41,22 +55,7 @@
     		<p>歡迎對自由軟體、開放原始碼感興趣，熱愛網際網路及 Firefox 瀏覽器的你，千萬不可錯過 MozTW 軟體自由日《Code Rush》放映會！<br><br></p>
 		
 		</section>
-			
-		
-			
-        
-		<section id="slides">
-			<h2>影片</h2>
-			<p style="text-align: center;">
-			<iframe width="640" height="360" src="http://www.youtube.com/embed/VoLUvE-ny1k" frameborder="0" allowfullscreen></iframe>
-			</p>
-			<ul>
-			<li>
-				若來不及參加週六活動， 2012/09/16（日）相約九點鐘！ Mozilla Taiwan 在<a href="https://www.facebook.com/events/501848039845204/">臉書粉絲團</a>線上直播 Mozilla 記錄片「Code Rush」狂邀狐迷限時內看電影、搶答、拿獎品！	
-			</li>
-			</ul>
-		</section>
-		
+				
 		
 		<section id="information">
 			<h2>活動資訊</h2>
@@ -69,11 +68,12 @@
             <p>本片中文字幕，由 MozTW 社群成員共同翻譯。<br>現場不劃座位，請排隊依序簽到入場。</p>	
             <p><span class="new">Code Rush 以創用 CC 姓名標示-非商業性-相同方式分享 3.0 授權釋出，專案網址：<a href="http://clickmovement.org/coderush">http://clickmovement.org/coderush</a></span></p>
 		  <div id="map"></div>
+		  <br><br>
 		</section>
     	
         <section id="registrano">
-        	<h2>立即搶票！</h2>
-        	<a class="fallback-register-button event-link" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Code Rush', 'Registrano']);" href="hhttp://registrano.com/events/code-rush">前往活動報名網頁</a>
+        	<h2>本活動現已結束，歡迎線上觀看全片。</h2>
+<!--        	<a class="fallback-register-button event-link" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Code Rush', 'Registrano']);" href="hhttp://registrano.com/events/code-rush">前往活動報名網頁</a>-->
         	<div class="registrano-blog-badge w-220" id="registrano-blog-badge-code-rush"></div>        	
         </section>
         
@@ -95,7 +95,7 @@
 
 		
 	</div>
-
+<br><br><br>
 <script type="text/javascript" charset="utf-8" src="assets/leaflet/leaflet.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/jquery.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/scripts.js"></script>
