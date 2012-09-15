@@ -35,6 +35,7 @@
 			</p>
 			<ul>
 			<li>您參加了 MozTW 的放映會嗎？如果還想再看一次、想推薦朋友一起看、或者不克在週六中午參加，非常巧合的，Mozilla 台灣分公司於 9/15（六）及 9/16（日）晚上九點，在<a href="https://www.facebook.com/events/501848039845204/">臉書粉絲團</a>也有線上直播及有獎搶答活動。歡迎各位狐迷參加，一起搶答、拿獎品！</li>
+			<li><a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Youtube', 'Code Rush']);" href="http://www.youtube.com/watch?v=XVdN3gH9d64&list=PLOHV-5SHjI8gbguX4vRowEmVboHLMevCT&hd=1">本次放映會全片單</a>（包含正片前預告及片尾字幕）</li>
 			<li>本片字幕由 MozTW 社群製作，歡迎<a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Amara', 'Code Rush']);"  href="http://www.universalsubtitles.org/zh-tw/videos/8kAaTv4LNAcN/zh-tw/322104/">至 Amara 協助編修</a>；如有興趣參與未來 Mozilla 相關影片的字幕製作，請參考「<a href="http://moztw.org/contribute/">參與我們</a>」。</li>
 			</ul>
 		</section>
