@@ -19,7 +19,7 @@ var photos = function ($photos, time) {
     }, function (data) {
         jQuery.each(data.items, function () {
             var li = $('<li><a target="_blank" href="' + this.link + '"></a></li>');
-            var img = $('<img src="' + this.media.m.replace(/_m\./, "_b.") + '" width="427" height="640"></a></li>');
+            var img = $('<img src="' + this.media.m.replace(/_m\./, "_z.") + '" width="427" height="640"></a></li>');
             //console.log(data.items[0].media.m);
             $('#photos .content ul').append(li);
             $("a", li).append(img);
