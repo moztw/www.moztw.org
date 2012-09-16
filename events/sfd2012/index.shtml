@@ -40,6 +40,15 @@
 			</ul>
 		</section>
 		
+        <section id="photos" style="clear:both">
+        	<h2>活動剪影</h2>
+			<div class="content">
+				<a href="" class="left-btn"></a>
+				<a href="" class="right-btn"></a>
+				<ul>
+				</ul>
+			</div>
+		</section>
 		
 		<section id="introduction">
 			<h2>影片簡介</h2>
@@ -77,23 +86,6 @@
 <!--        	<a class="fallback-register-button event-link" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Code Rush', 'Registrano']);" href="hhttp://registrano.com/events/code-rush">前往活動報名網頁</a>-->
         	<div class="registrano-blog-badge w-220" id="registrano-blog-badge-code-rush"></div>        	
         </section>
-        
-        <!--
-        <section id="photos" style="clear:both">
-        	<h2>活動剪影</h2>
-			<div class="content">
-				<a href="" class="left-btn"></a>
-				<a href="" class="right-btn"></a>
-				<ul>
-				    <li><a target="_blank" href="http://www.flickr.com/photos/chandrew/7317033432/" title="IMG_0406 by Ch.Andrew, on Flickr"><img src="http://moztw.org/events/furp/photo/7317033432_58fb5017fa_z.jpg" alt="IMG_0406" height="480" width="640"/></a></li>
-					<li><a target="_blank" href="http://www.flickr.com/photos/huanglifu/7278976076/" title="_MG_2970 by david.li-fu.huang, on Flickr"><img src="http://farm9.staticflickr.com/8013/7278976076_a47749b3ab_z.jpg" width="427" height="640" alt="_MG_2970"/></a></li>					
-					<li><a target="_blank" href="http://www.flickr.com/photos/huanglifu/7278653080/" title="_MG_2471 by david.li-fu.huang, on Flickr"><img src="http://farm8.staticflickr.com/7093/7278653080_1f1554c3fd_z.jpg" width="640" height="427" alt="_MG_2471"/></a></li>			
-					<li><a target="_blank" href="http://www.flickr.com/photos/huanglifu/7279064850/" title="_MG_3064 by david.li-fu.huang, on Flickr"><img src="http://farm8.staticflickr.com/7237/7279064850_9e56694794_z.jpg" width="427" height="640" alt="_MG_3064"></a></li>
-				</ul>
-			</div>
-		</section>
-        -->
-
 		
 	</div>
 <br><br><br>
