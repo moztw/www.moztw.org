@@ -37,13 +37,12 @@
 
 		<article id="photos">
 			  <h2>活動剪影</h2>
-		<div id="mozGallery">
-			<ul class="photoList"></ul>
-			<div class="singlePhoto">
-			  <a class="link"></a>
-			  <a class="attribution"></a>
-			</div>
-		</div>
+			  <div class="content">
+				<a href="" class="left-btn"></a>
+				<a href="" class="right-btn"></a>
+				<ul>
+				</ul>
+			  </div>
 		</article>
 
       <article id="location">

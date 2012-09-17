@@ -124,6 +124,7 @@ header h1 .appe {
 	display: none;
 	text-align: center;
 	list-style: none;
+	border-left: none;
 }
 
 #photos .content ul img{

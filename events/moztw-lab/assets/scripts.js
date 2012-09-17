@@ -2,69 +2,70 @@ var map = new L.Map('map', {
     scrollWheelZoom: false,
     dragging: false
 });
-
 var cloudmade = new L.TileLayer('http://tile.openstreetmap.tw/tiles/{z}/{x}/{y}.png', {
     attribution: 'Map data <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> <a href="http://openstreetmap.org">OpenStreetMap</a> contributors.',
     zoom: 17
 });
-
 map.addLayer(cloudmade).setView(new L.LatLng(25.062258, 121.531386), 16);
-
 var marker = new L.Marker(new L.LatLng(25.062258, 121.531386));
 map.addLayer(marker);
-
 marker.bindPopup("咖啡銅號").openPopup();
+// photos
+var photos = function ($photos, time) {
+    $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
+        tags: "moztwlab",
+        format: "json"
+    }, function (data) {
+        jQuery.each(data.items, function () {
+            var li = $('<li><a target="_blank" href="' + this.link + '"></a></li>');
+            var img = $('<img src="' + this.media.m.replace(/_m\./, "_z.") + '" width="427" height="640"></a></li>');
+            //console.log(data.items[0].media.m);
+            $('#photos .content ul').append(li);
+            $("a", li).append(img);
+        });
+        photos = $photos.find('li');
+        len = photos.length - 1;
+        //console.log(photos);
+        photos.eq(0).css('display', 'block');
+        setTimer();
+    });
+    var photos = $photos.find('li');
+    len = 0;
+    current = 0;
 
+    function show(index) {
+        index = index < 0 ? 0 : (index > len ? len : index);
+        photos.eq(index).stop(false, true).fadeIn('fast');
+        photos.eq(current).stop(false, true).fadeOut('fast');
+        current = index;
+    };
 
-	// photos
-	
+    function next() {
+        show(current + 1 > len ? 0 : current + 1);
+    };
 
-var photos = [];
-var users = ["12452841@N00", "60061298@N00", "71531353@N07", "61524395@N06", "58355118@N05", "74742644@N08"];
+    function prev() {
+        show(current - 1 < 0 ? len : current - 1);
+    };
 
-var userIter = 0;
-var getPhotos = function(){
-  $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
-    id: users[userIter], // othree, irvinchen
-    tags: "moztwlab",
-    format: "json"
-  }, function(data){
-    photos = photos.concat(data.items);
-    userIter += 1;
-    if (users[userIter]) {
-      getPhotos();
-    } else {
-      showPhotos();
-    }
-  });
-}
+    function setTimer() {
+        timer = setTimeout(autoPlay, time);
+    };
 
-showPhotos = function(){
-  var authorReg = /^nobody@flickr\.com \((.*)\)$/;
-  for(var i=0; i<photos.length; i++){
-    var item = photos[i];
-    var img = $("<img/>")
-          .attr("src", item.media.m.replace(/_m\./, "_s."))
-          .attr("alt", item.media.title)
-          .data("mImage", item.media.m)
-          .data("largeImage", item.media.m.replace(/_m\./, "_b."))
-          .data("author", item.author.match(authorReg)[1])
-          .data("authorLink", "http://www.flickr.com/photos/"+item.author_id)
-          .data("link", item.link);
+    function clearTimer() {
+        clearTimeout(timer);
+    };
 
-    $("<li/>")
-          .append(img)
-          .appendTo("#mozGallery .photoList");
-  }
-
-  $("#mozGallery .photoList img").click(function(){
-    $(".singlePhoto .link img").remove();
-    $("<img/>").attr("src", $(this).data("largeImage")).appendTo(".singlePhoto .link");
-    $(".singlePhoto .link").attr("href", $(this).data("link"));
-    $(".singlePhoto .attribution").attr("href", $(this).data("authorLink")).text($(this).data("author"));
-  });
-
-  $("#mozGallery .photoList img:eq(0)").click();
-};
-
-getPhotos();
+    function autoPlay() {
+        next();
+        setTimer();
+    };
+    $('.left-btn').on('click', function () {
+        prev();
+        return false;
+    });
+    $('.right-btn').on('click', function () {
+        next();
+        return false;
+    });
+}($('#photos .content'), 5000);
