@@ -34,11 +34,18 @@
 			<iframe width="640" height="360" src="http://www.youtube.com/embed/VoLUvE-ny1k" frameborder="0" allowfullscreen></iframe>
 			</p>
 			<ul>
-			<li>您參加了 MozTW 的放映會嗎？如果還想再看一次、想推薦朋友一起看、或者不克在週六中午參加，非常巧合的，Mozilla 台灣分公司於 9/15（六）及 9/16（日）晚上九點，在<a href="https://www.facebook.com/events/501848039845204/">臉書粉絲團</a>也有線上直播及有獎搶答活動。歡迎各位狐迷參加，一起搶答、拿獎品！</li>
 			<li><a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Youtube', 'Code Rush']);" href="http://www.youtube.com/watch?v=XVdN3gH9d64&list=PLOHV-5SHjI8gbguX4vRowEmVboHLMevCT&hd=1">本次放映會全片單</a>（包含正片前預告及片尾字幕）</li>
-			<li>本片字幕由 MozTW 社群製作，歡迎<a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Amara', 'Code Rush']);"  href="http://www.universalsubtitles.org/zh-tw/videos/8kAaTv4LNAcN/zh-tw/322104/">至 Amara 協助編修</a>；如有興趣參與未來 Mozilla 相關影片的字幕製作，請參考「<a href="http://moztw.org/contribute/">參與我們</a>」。</li>
 			</ul>
 		</section>
+		
+		<section id="download">
+			<h2>全片下載</h2>
+			<ul>
+			<li><a href="http://clickmovement.org/content/code-rush-download">影片下載</a><p><span class="new">Code Rush 以創用 CC 姓名標示-非商業性-相同方式分享 3.0 授權釋出，專案網址：<a href="http://clickmovement.org/coderush">http://clickmovement.org/coderush</a></span></p></li>
+			<li><a href="http://www.universalsubtitles.org/widget/download_srt/?video_id=8kAaTv4LNAcN&lang_pk=322104">字幕下載</a><p>本片字幕由 MozTW 社群製作，歡迎<a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Amara', 'Code Rush']);"  href="http://www.universalsubtitles.org/zh-tw/videos/8kAaTv4LNAcN/zh-tw/322104/">至 Amara 協助編修</a>；如有興趣參與未來 Mozilla 相關影片的字幕製作，請參考「<a href="http://moztw.org/contribute/">參與我們</a>」。</p></li>
+			<ul>
+		</section>
+		
 		
         <section id="photos" style="clear:both">
         	<h2>活動剪影</h2>
@@ -75,8 +82,7 @@
 			<li>真善美劇院（台北捷運西門站六號出口正前方，誠品116左方入口進入 7 樓）</li>
 			<li>票價：Registrano早鳥票 NT$220； 現場付費 NT$250</li>
 			</ul>
-            <p>本片中文字幕，由 MozTW 社群成員共同翻譯。<br>現場不劃座位，請排隊依序簽到入場。</p>	
-            <p><span class="new">Code Rush 以創用 CC 姓名標示-非商業性-相同方式分享 3.0 授權釋出，專案網址：<a href="http://clickmovement.org/coderush">http://clickmovement.org/coderush</a></span></p>
+            
 		  <div id="map"></div>
 		  <br><br>
 		</section>
