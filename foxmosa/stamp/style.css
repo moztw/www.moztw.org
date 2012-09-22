@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+body{
+	font-family:"微软雅黑", "微軟正黑體", "文泉驛微米黑", "文泉驿微米黑", "Arial";
+	font-size:14px;
+	color:#666;
+	margin-top:6px;
+}
+
+.row{
+	zoom: 1;
+}
+
+.row:before, .row:after{
+	display: table;
+	content: "";
+	zoom: 1;
+}
+
+.row:after{
+	clear: both;
+}
+
+.right{
+	float:right;
+}
+
+.left{
+	float:left;
+}
+
+#header{
+	width: 760px;
+	margin: 0 auto;
+}
+
+#header > h1{
+	border-bottom: 1px #CCC solid;
+	line-height: 72px;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+#creater{
+	width: 920px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#parts{
+	width: 318px;
+}
+
+#parts li{
+	list-style: none;
+}
+
+#parts ul > li{
+	height: 80px;
+	line-height: 80px;
+	width: 318px;
+	text-align: center;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0.1) 0px, rgba(0,0,0,0.0) 5px), -webkit-linear-gradient(top, #FFF 0%, #EEE 2%, #E5E5E5 98%, #DDD 100%);
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0.1) 0px, rgba(0,0,0,0.0) 5px), -moz-linear-gradient(top, #FFF 0%, #EEE 2%, #E5E5E5 98%, #DDD 100%);
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0.1) 0px, rgba(0,0,0,0.0) 5px), -ms-linear-gradient(top, #FFF 0%, #EEE 2%, #E5E5E5 98%, #DDD 100%);
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0.1) 0px, rgba(0,0,0,0.0) 5px), -o-linear-gradient(top, #FFF 0%, #EEE 2%, #E5E5E5 98%, #DDD 100%);
+	background-image: linear-gradient(left, rgba(0,0,0,0.1) 0px, rgba(0,0,0,0.0) 5px), linear-gradient(top, #FFF 0%, #EEE 2%, #E5E5E5 98%, #DDD 100%);
+}
+
+#parts ul img{
+	max-height: 80px;
+}
+
+#parts ul > li{
+	position: relative;
+}
+
+#parts ul > li > ul > li{
+	display: none;
+	position: absolute;
+}
+
+#parts ul > li > ul > li:first-child{
+	display: block;
+}
+
+#parts .pctrl{
+	position: absolute;
+	width: 20px;
+	height: 80px;
+	line-height: 80px;
+	top: 0;
+	text-decoration:none;
+	color: #333;
+	cursor: pointer;
+}
+
+#parts .pctrl.prev{
+	left: 0;
+}
+
+#parts .pctrl.next{
+	right: 0;
+}
+
+#canvas{
+	width: 600px; 
+	height: 300px;
+	border: 1px #CCC solid;
+	background: #FFF;
+}
+
+#colorSelecter{
+	margin: 20px auto;
+	width: 760px;
+	position: relative;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+	
+}
+
+.csbtn{
+	position: absolute;
+	top:-100%;
+	margin-left: -5px;
+	left: 0;
+	width: 10px;
+	height: 300%;
+	background: #FFF;
+	cursor: pointer;
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	-ms-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	-o-box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+#download{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	line-height: 30px;
+	width: 318px;
+	text-align: center;
+}

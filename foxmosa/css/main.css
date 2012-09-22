@@ -1,0 +1,283 @@
+@import url(picwall.css);
+
+#outer-wrapper{
+	background-color: #F5F1E8;
+	background-image: url(../images/bg-gradient-sand.png),url(../images/bg-sand.png);
+	background-repeat: repeat-x,repeat;
+}
+
+#wrapper{
+	width: 940px;
+	margin: 0 auto;
+}
+
+#masthead{
+	position: relative;
+	padding: 72px 0 48px;
+}
+
+#masthead #tabzilla{
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 0;
+}
+
+#menu{
+	position: absolute;
+	right: 180px;
+	top: 0;
+}
+
+#menu ul{
+	overflow: hidden;
+}
+
+#menu ul li{
+	float: left;
+}
+
+#menu a{
+	padding: 12px;
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+#masthead nav li a, #masthead nav li a:link, #masthead nav li a:visited {
+	color: #484848;
+}
+
+#masthead nav li a:hover{
+	text-decoration: underline;
+}
+
+#title_area{
+	height: 115px;
+	position: relative;
+}
+
+@-webkit-keyframes titleAnimate{
+	0% {top: -70px;}
+	50% {top: 20px;}
+	60% {top: -10px;}
+	70% {top: 5px;}
+	80% {top: -3px;}
+	90% {top: 1px;}
+	100% {top: 0px;}
+}
+
+@-moz-keyframes titleAnimate{
+	0% {top: -70px;}
+	50% {top: 20px;}
+	60% {top: -10px;}
+	70% {top: 5px;}
+	80% {top: -3px;}
+	90% {top: 1px;}
+	100% {top: 0px;}
+}
+
+@-o-keyframes titleAnimate{
+	0% {top: -70px;}
+	50% {top: 20px;}
+	60% {top: -10px;}
+	70% {top: 5px;}
+	80% {top: -3px;}
+	90% {top: 1px;}
+	100% {top: 0px;}
+}
+
+@keyframes titleAnimate{
+	0% {top: -70px;}
+	50% {top: 20px;}
+	60% {top: -10px;}
+	70% {top: 5px;}
+	80% {top: -3px;}
+	90% {top: 1px;}
+	100% {top: 0px;}
+}
+
+#site-title{
+	position: absolute;
+	left: 0;
+	top: 0;
+	letter-spacing: -3px;
+	margin: 0 0 .15em 0;
+	padding-left: 3px;
+	-webkit-transition:All .5s ease;
+	-moz-transition:All .5s ease;
+	-o-transition:All .5s ease;
+	transition:All .5s ease;
+	-webkit-animation: titleAnimate 1s;
+	-moz-animation: titleAnimate 1s;
+	-o-animation: titleAnimate 1s;
+	animation: titleAnimate 1s;
+}
+
+#site-title:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	height: 36px;
+	width: 3px;
+	background: #0095DD;
+}
+
+@-webkit-keyframes desAnimate{
+	0% {bottom: 20px; opacity: 0;}
+	50% {bottom: 20px; opacity: 0;}
+	100% {bottom: 0px; opacity 1;}
+}
+
+@-moz-keyframes desAnimate{
+	0% {bottom: 20px; opacity: 0;}
+	50% {bottom: 20px; opacity: 0;}
+	100% {bottom: 0px; opacity 1;}
+}
+
+@-o-keyframes desAnimate{
+	0% {bottom: 20px; opacity: 0;}
+	50% {bottom: 20px; opacity: 0;}
+	100% {bottom: 0px; opacity 1;}
+}
+
+@keyframes desAnimate{
+	0% {bottom: 20px; opacity: 0;}
+	50% {bottom: 20px; opacity: 0;}
+	100% {bottom: 0px; opacity 1;}
+}
+
+#site-description{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	color: #999;
+	width: 500px;
+	-webkit-transition:All 1s ease;
+	-moz-transition:All 1s ease;
+	-o-transition:All 1s ease;
+	transition:All 1s ease;
+	-webkit-animation: desAnimate 2s;
+	-moz-animation: desAnimate 2s;
+	-o-animation: desAnimate 2s;
+	animation: desAnimate 2s;
+}
+
+#title_area:hover #site-title{
+	padding-left: 10px;
+}
+
+#content_area > section{
+	margin-bottom: 20px;
+}
+
+#content_area > section:nth-child(even){
+	padding: 20px;
+	background: #FFF;
+	-ms-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	-o-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#content_area > section header{
+	display: none;
+}
+
+#foxmosa-avatar{
+	width: 150px;
+	height: 150px;
+	padding: 5px;
+	background: #FFF;
+	-ms-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	-o-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#foxmosa-profile{
+	margin-left: 40px;
+	width: 220px;
+}
+
+#foxmosa-pairs{
+	height: 50px;
+	position: relative;
+	margin: 60px 0 !important;
+}
+
+#foxmosa-pairs a.pairslogo{
+	position: absolute;
+	left: 220px;
+	top: 50%;
+	margin-top: -60px;
+	height: 120px;
+	width: 120px;
+	text-indent: -99999px;
+	overflow: hidden;
+	-ms-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	-o-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+#foxmosa-pairs a.pairslogo{
+	background: url(../images/pairslogo.jpg) no-repeat;
+}
+
+#foxmosa-pairs a.github{
+	float: right;
+}
+
+#foxmosa-pairs a.playthegame{
+	float: right;
+	margin-right: 20px;
+}
+
+#foxmosa-pairs header{
+	display: block !important;
+	float: left;
+}
+
+#foxmosa-stamp{
+	overflow: hidden;
+}
+
+#foxmosa-stamp iframe{
+	border: none;
+	width: 100%;
+	height: 360px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#colophon {
+	color: #666;
+	padding: 40px 0;
+	font-size: .875em;
+	line-height: 1.285;
+	background: white;
+	width: 100%;
+	margin: 1em 0 0;
+}
+
+#colophon p {
+	margin-bottom: 10px;
+}
+
+#colophon > .row{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.footer-logo{
+	width: 300px;
+}
+
+.footer-license{
+	width: 220px;
+	margin-left: 20px;
+}
+
+.footer-nav{
+	width: 140px;
+	margin-left: 20px !important;
+}
