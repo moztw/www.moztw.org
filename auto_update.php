@@ -43,7 +43,7 @@ if(isset($_POST["rebuild_yes"]) && $_POST["rebuild_yes"])
 {
     # processing
 ?>
-Starting Update [SVN]...  
+Starting Update [moztw GIT]...  
 <pre id='progress_blk'  title='still processing, please wait...'
     style='padding: 5px; maring: 5px; cursor: wait;
 	    border: 1px solid green; 
