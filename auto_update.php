@@ -84,7 +84,7 @@ document.getElementById('progress_blk').title = 'ready';
     ?>
     <form method="post"><fieldset>
     <label style='color: blue;'>
-    Basic SVN update:</label><br/><br/>
+    Basic MozTW GIT update:</label><br/><br/>
     <input  id='xgeneral' type='checkbox' name='rebuild_yes' checked>
     <label for='xgeneral'>Confirm to update SVN and rebuild.</label><br/>
 	<!-- Modify by orinx start -->
