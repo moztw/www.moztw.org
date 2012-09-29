@@ -99,11 +99,13 @@
 
 #site-title{
 	position: absolute;
-	left: 0;
+	left: 50%;
 	top: 0;
 	letter-spacing: -3px;
-	margin: 0 0 .15em 0;
+	margin: 0 0 .15em -250px;
 	padding-left: 3px;
+	width: 500px;
+	text-align: center;
 	-webkit-transition:All .5s ease;
 	-moz-transition:All .5s ease;
 	-o-transition:All .5s ease;
@@ -114,7 +116,7 @@
 	animation: titleAnimate 1s;
 }
 
-#site-title:before{
+/*#site-title:before{
 	content: '';
 	position: absolute;
 	left: 0;
@@ -122,7 +124,7 @@
 	height: 36px;
 	width: 3px;
 	background: #0095DD;
-}
+}*/
 
 @-webkit-keyframes desAnimate{
 	0% {bottom: 20px; opacity: 0;}
@@ -150,10 +152,12 @@
 
 #site-description{
 	position: absolute;
-	left: 0;
+	left: 50%;
 	bottom: 0;
 	color: #999;
 	width: 500px;
+	margin-left: -250px;
+	text-align: center;
 	-webkit-transition:All 1s ease;
 	-moz-transition:All 1s ease;
 	-o-transition:All 1s ease;
@@ -180,8 +184,68 @@
 	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
+#content_area{
+	position: relative;
+}
+
 #content_area > section header{
 	display: none;
+}
+
+#foxmosa-run{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 140px;
+	width: 680px;
+	z-index: 1;
+}
+
+@-webkit-keyframes myfirst{
+	from {-webkit-transform: rotate(360deg);}
+	to {-webkit-transform: rotate(0deg);}
+}
+
+@-moz-keyframes myfirst{
+	from {-moz-transform: rotate(360deg);}
+	to {-moz-transform: rotate(0deg);}
+}
+
+@-o-keyframes myfirst{
+	from {-o-transform: rotate(360deg);}
+	to {-o-transform: rotate(0deg);}
+}
+
+@keyframes myfirst{
+	from {transform: rotate(360deg);}
+	to {transform: rotate(0deg);}
+}
+
+#earth{
+	position: absolute;
+	right: 30px;
+	top: 120px;
+	z-index: 0;
+	width: 500px;
+	height: 100px;
+	overflow: hidden;
+}
+
+#earth > img{
+	width: 500px;
+	height: 500px;
+	animation: myfirst 5s;
+	-moz-animation: myfirst 5s; 
+	-webkit-animation: myfirst 5s; 
+	-o-animation: myfirst 5s; 
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	-o-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-webkit-animation-timing-function: linear;
+	-o-animation-timing-function: linear;
+	animation-timing-function: linear;
 }
 
 #foxmosa-avatar{
