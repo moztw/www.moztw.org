@@ -6,8 +6,8 @@ var cloudmade = new L.TileLayer('http://tile.openstreetmap.tw/tiles/{z}/{x}/{y}.
     attribution: 'Map data <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> <a href="http://openstreetmap.org">OpenStreetMap</a> contributors.',
     zoom: 17
 });
-map.addLayer(cloudmade).setView(new L.LatLng(25.062258, 121.531386), 16);
-var marker = new L.Marker(new L.LatLng(25.062258, 121.531386));
+map.addLayer(cloudmade).setView(new L.LatLng(25.060158, 121.531386), 16);
+var marker = new L.Marker(new L.LatLng(25.060158, 121.531386));
 map.addLayer(marker);
 marker.bindPopup("咖啡銅號").openPopup();
 // photos
