@@ -55,7 +55,6 @@
 #title_area{
 	height: 115px;
 	position: relative;
-	margin-top: 30px;
 }
 
 @-webkit-keyframes titleAnimate{
@@ -96,42 +95,6 @@
 	80% {top: -3px;}
 	90% {top: 1px;}
 	100% {top: 0px;}
-}
-
-#moztw-link{
-	position: absolute;
-	top: -105px;
-	left: 0;
-}
-
-#moztw-link-text{
-	font-size: 40px;
-	font-weight: bold;
-}
-
-#moztw-link a{
-	color: #484848;
-	text-decoration: none;
-}
-
-#moztw-link-english{
-	font-size: 19px;
-	position: absolute;
-	bottom: -29px;
-	width: 100px;
-	left: 2px;
-	letter-spacing: 2px;
-	color: #666;
-}
-
-#moztw-link-chinese{
-	font-size: 17px;
-	position: absolute;
-	bottom: -28px;
-	width: 100px;
-	left: 75px;
-	letter-spacing: 3px;
-	color: #666;
 }
 
 #site-title{
@@ -298,11 +261,6 @@
 #foxmosa-profile{
 	margin-left: 40px;
 	width: 220px;
-}
-
-#foxmosa-profile li{
-	padding-left: 3em;
-	text-indent: -3em;
 }
 
 #foxmosa-pairs{
