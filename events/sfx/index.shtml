@@ -2,7 +2,13 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-	<title>Mozilla Firefox 1.0 Party!!</title>
+    <title>Mozilla Firefox 1.0 Party!! - MozTW, Mozilla Taiwan Community</title>
+    <meta name="description" content="開始了! 開始了! 全台 Firefox 迷趕快動起來吧! 你還坐在電腦前嗎? 趕快去看看推廣活動的內容， 和 Firefox 一起同樂吧! 你今天放火沒?! ">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://moztw.org/events/sfx/">
+    <meta property="og:image" content="http://moztw.org/events/sfx/pics/newfirefox_newlogo.png">
+    <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+    <meta property="og:description" content="開始了! 開始了! 全台 Firefox 迷趕快動起來吧! 你還坐在電腦前嗎? 趕快去看看推廣活動的內容， 和 Firefox 一起同樂吧! 你今天放火沒?! ">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<link rel="Shortcut Icon" type="image/png" href="pics/ffico.png">
 	<style type="text/css">

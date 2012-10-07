@@ -1,5 +1,11 @@
 <!--#include virtual="/inc/meta_about.html" -->
-<title>關於 MozTW (Mozilla 台灣社群) - MozTW</title>
+<title>關於 MozTW (Mozilla 台灣社群) - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="MozTW 是台灣專屬於 Mozilla 相關資訊的社群，於 2004 年 9 月正式開張。目前本社群維護 Mozilla 軟體的正體中文版本與語言套件 (Language Pack)">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/about/">
+<meta property="og:image" content="http://moztw.org/images/moztw_80x15.png">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="MozTW 是台灣專屬於 Mozilla 相關資訊的社群，於 2004 年 9 月正式開張。目前本社群維護 Mozilla 軟體的正體中文版本與語言套件 (Language Pack)">
 <!--#include virtual="/inc/class_about.html" -->
 <!--#include virtual="/inc/header.html" -->
 

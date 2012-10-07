@@ -1,5 +1,11 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>參與我們 - MozTW</title>
+<title>參與我們 - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/contribute/">
+<meta property="og:image" content="http://moztw.org/contribute/foxmosa-icon.gif">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！">
 <style type="text/css">
 <!--
 @import url(/css/keypoint-radius.css);

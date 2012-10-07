@@ -1,5 +1,11 @@
 <!--#include virtual="/inc/meta.html" -->
-<title> 五月系列活動 - MozTW</title>
+<title>五月系列活動 - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="摩茲校園聚活動為針對全校師生及校友，以自由軟體及 Firefox 套件在地化、Mozilla 相關自由軟體為主題，於校園內進行推廣及教學，促進彼此交流。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/events/may2009/">
+<meta property="og:image" content="http://moztw.org/events/may2009/20090602.jpg">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="摩茲校園聚活動為針對全校師生及校友，以自由軟體及 Firefox 套件在地化、Mozilla 相關自由軟體為主題，於校園內進行推廣及教學，促進彼此交流。">
 <style type="text/css">
 
 <!--

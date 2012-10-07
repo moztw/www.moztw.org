@@ -1,6 +1,12 @@
 <!--#include virtual="/inc/meta.html" -->
 
-<title>活動總覽 - MozTW, Mozilla 台灣社群</title>
+<title>活動總覽 - MozTW, Mozilla Taiwan Community<title>
+<meta name="description" content="MozTW 過去、現在及未來的活動">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/events/">
+<meta property="og:image" content="http://moztw.org/images/feature-firefox-2-party.jpg">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="MozTW 過去、現在及未來的活動">
 <link rel="stylesheet" type="text/css" href="events.css" media="screen"> 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <!--[if IE]>
