@@ -231,9 +231,9 @@
 
 #foxmosa-run{
 	position: absolute;
-	top: 0;
+	top: -40px;
 	right: 0;
-	height: 140px;
+	height: 200px;
 	width: 680px;
 	z-index: 1;
 }
@@ -260,17 +260,17 @@
 
 #earth{
 	position: absolute;
-	right: 30px;
-	top: 120px;
+	right: 60px;
+	top: 110px;
 	z-index: 0;
-	width: 500px;
-	height: 100px;
+	width: 400px;
+	height: 300px;
 	overflow: hidden;
 }
 
 #earth > img{
-	width: 500px;
-	height: 500px;
+	width: 400px;
+	height: 400px;
 	animation: myfirst 5s;
 	-moz-animation: myfirst 5s; 
 	-webkit-animation: myfirst 5s; 
