@@ -221,7 +221,7 @@ $(function() {
         	<h2>幫助新手</h2>
             <p>有興趣幫助其他使用者解決 Firefox 和其他 Mozilla 專案上的問題？我們的論壇以及使用者疑難排解，仰賴於像您一樣熱情的貢獻者。</p>
             <a href="#"><div class="key-point button">回答討論區上的問題</div></a>
-            <a href="#"><div class="key-point button">什麼什麼 Answer 版</div></a>
+            <a href="https://support.mozilla.org/zh-TW/kb/superheroes-wanted"><div class="key-point button">徵求超人義工!</div></a>
          </div>
         </div>
         <div class="content_block">
@@ -229,8 +229,9 @@ $(function() {
         <div class="intro_desc">
         	<h2>推廣 MozTW 社群</h2>
             <p>什麼什麼gfx.tw</p>
-            <a href="#"><div class="key-point button">GFX.tw</div></a>
-            <a href="#"><div class="key-point button">MozTW 連續聚</div></a>
+            <a href="http://mozilla.com.tw/community/student/"><div class="key-point button">Firefox 校園大使</div></a>
+            <!-- <a href="#"><div class="key-point button">詳細資訊</div></a> -->
+            <!-- <a href="#"><div class="key-point button">MozTW 連續聚</div></a> -->
          </div>
         </div>
         <div class="content_block">
@@ -238,28 +239,29 @@ $(function() {
         <div class="intro_desc">
         	<h2>在地化</h2>
             <p>和 Mozilla 一起打造 Firefox、Tunderbird 和其他專案屬於你的語言。並且透過翻譯我們網站上的內容，協助我們告訴世界 Mozilla 正在打造更棒的網際網路。</p>
-            <a href="#"><div class="key-point button">MozTW SVN</div></a>
-            <a href="#"><div class="key-point button">HTML 驗證</div></a>
+            <a href="https://groups.google.com/d/topic/moztw-general/92t-umaKqUw/discussion"><div class="key-point button">詳細資訊</div></a>
+            <a href="https://wiki.mozilla.org/L10n"><div class="key-point button">軟體網頁在地化專案</div></a>
+            <a href="https://support.mozilla.org/zh-TW/kb/localize-firefox-help"><div class="key-point button">說明文件在地化</div></a>
          </div>
         </div>
-        <div class="content_block">
+        <!-- <div class="content_block">
         <img src="foxmosa-icon.gif" class="intro_icon"></img>
         <div class="intro_desc">
         	<h2>視覺設計</h2>
             <p>我們相信優秀、多元藝術的力量，並且希望讓藝術工作者以及被 Mozilla 所啟發的設計進入網路的世界。加入我們的 Creative Collective 挑戰，或者到我們的社群商店放上您的 T-shirt 設計。</p>
             <a href="#"><div class="key-point button">Good First Bug</div></a>
          </div>
-        </div>
+        </div> -->
         <div class="content_block">
         <img src="foxmosa-icon.gif" class="intro_icon"></img>
         <div class="intro_desc">
         	<h2>管理網站更新</h2>
             <p>你常常認為自己以不同的角度看世界嗎？你的腦袋常常浮現零和一嗎？快加入我們，成為一名神聖的系統管理者，默默地在背後維護世界和平的運作。</p>
-            <a href="#"><div class="key-point button">MozTW SVN</div></a>
-            <a href="#"><div class="key-point button">HTML 驗證</div></a>
+            <a href="https://groups.google.com/d/topic/moztw-general/VUsDlxi3z5A/discussion"><div class="key-point button">詳細資訊</div></a>
+            <a href="https://github.com/moztw/svn"><div class="key-point button">Github</div></a>
          </div>
         </div>
-        <div class="content_block">
+        <!-- <div class="content_block">
         <img src="foxmosa-icon.gif" class="intro_icon"></img>
         <div class="intro_desc">
         	<h2>規劃、執行推廣活動</h2>
@@ -267,8 +269,8 @@ $(function() {
             <a href="#"><div class="key-point button">MozTW SVN</div></a>
             <a href="#"><div class="key-point button">HTML 驗證</div></a>
          </div>
-        </div>
-        <div class="content_block">
+        </div> -->
+        <!-- <div class="content_block">
         <img src="foxmosa-icon.gif" class="intro_icon"></img>
         <div class="intro_desc">
         	<h2>撰寫、翻譯開發文件</h2>
@@ -276,8 +278,8 @@ $(function() {
             <a href="#"><div class="key-point button">MozTW SVN</div></a>
             <a href="#"><div class="key-point button">HTML 驗證</div></a>
          </div>
-        </div>
-        <div class="content_block">
+        </div> -->
+        <!-- <div class="content_block">
         <img src="foxmosa-icon.gif" class="intro_icon"></img>
         <div class="intro_desc">
         	<h2>軟體測試品保</h2>
@@ -285,8 +287,8 @@ $(function() {
             <a href="#"><div class="key-point button">MozTW SVN</div></a>
             <a href="#"><div class="key-point button">HTML 驗證</div></a>
          </div>
-        </div>
-        <div class="content_block">
+        </div> -->
+        <!-- <div class="content_block">
         <img src="foxmosa-icon.gif" class="intro_icon"></img>
         <div class="intro_desc">
         	<h2>執行使用者研究</h2>
@@ -294,58 +296,56 @@ $(function() {
             <a href="#"><div class="key-point button">MozTW SVN</div></a>
             <a href="#"><div class="key-point button">HTML 驗證</div></a>
          </div>
-        </div>
+        </div> -->
         <div class="content_block">
         <img src="foxmosa-icon.gif" class="intro_icon"></img>
         <div class="intro_desc">
         	<h2>開發擴充套件</h2>
             <p>Firefox 和其他 Mozilla-based 應用程式擁有超有力的擴充元件系統，讓您可以為程式做可大可小的改造。如果您對這些技術不太熟悉，可以瞭解如何建構附加元件。對於進階使用者，您可以學習如何成為 AMO 編輯者。</p>
-            <a href="#"><div class="key-point button">MozTW SVN</div></a>
-            <a href="#"><div class="key-point button">HTML 驗證</div></a>
+            <a href="https://addons.mozilla.org/zh-TW/developers/"><div class="key-point button">附加套件 開發者交流中心</div></a>
+            <a href="https://forums.addons.mozilla.org/"><div class="key-point button">開發者討論區</div></a>
          </div>
         </div>
         <div class="content_block">
         <img src="foxmosa-icon.gif" class="intro_icon"></img>
         <div class="intro_desc">
-        	<h2>修改 Mozilla 程式</h2>
+        	<h2>Mozilla 軟體開發</h2>
             <p>開發者可以替 Mozilla 增加新功能，讓 Firefox 變得更輕更巧更強大。你可以在 IRC 頻道上找到許多開發者，那裡是很棒的發問管道。我們的網站也歡迎網頁忍者來駭一駭。</p>
-            <a href="#"><div class="key-point button">MozTW SVN</div></a>
-            <a href="#"><div class="key-point button">HTML 驗證</div></a>
+            <a href="https://groups.google.com/d/topic/moztw-general/1D4P6IBE-p0/discussion"><div class="key-point button">詳細資訊</div></a>
          </div>
         </div>
 	</div>
 </div>
 </div>
 <div id="side" class="right">
-<h3>MozTW 摩茲連續聚：TY桃園光輝十月篇</h3>
+<h3>MozTW Lab</h3>
 	<div id="topic">
     <p>
-		<img src="http://moztw.org/events/gathering/gathering-title.png" width="320"></img>
+		<!-- <img src="http://moztw.org/events/gathering/gathering-title.png" width="320"></img> -->
+		<img src="moztw-general.png" style="float: left; width: 100px; margin-right: 10px"></img>
         MozTW 摩茲連續聚，以輕鬆歡樂無負擔的方式、要與大家一起提升彼此的網際體驗。每次內容不拘、地點好談，歡迎來聊。 連續聚內容由參加者自由報名發表，跟網路、Mozilla、自由相關的什麼主題都可以，當場協調時間。
 	</p>
-    <a href="#"><div class="key-point button"><h2>了解更多 &gt;&gt;</h2></div></a>
+    <a href="/events/moztw-lab/"><div class="key-point button"><h2>了解更多 &gt;&gt;</h2></div></a>
     </div>
-    
-	<h3 style="word-break: keep-all; word-wrap: normal;white-space:nowrap;"><img src="foxmosa-mail-01.jpg"></img>工作團隊最近討論</h3>
+<h3 style="word-break: keep-all; word-wrap: normal;white-space:nowrap;"><img src="foxmosa-mail-01.jpg"></img>工作團隊最近討論</h3>
+	
 	<div class="mailing-list">
 		<p id="mailing-list-loading">
 		</p>
 	</div>
-    
-    <div class="subscribe">
-    <h2> </h2>
-    <form action="http://groups-beta.google.com/group/moztw-general/boxsubscribe">
-    
-    <img src="moztw-general.png" style="float: left; width: 100px; margin-right: 10px"></img>
-    <div>
-    有的孩子喊著，恍惚有這呼聲，是怨是讎？
-    <br/>
-    <input type="text" name="email" value="輸入您的 E-mail" onClick="$(this).val('');" class="ui-widget ui-widget-content ui-corner-all"/>
-    <br/>
-    <input type="submit" value="訂  閱" name="sub" style="float:right;" class="key-point button" />
+	<div class="subscribe">
+		<h2> </h2>
+		<form action="http://groups-beta.google.com/group/moztw-general/boxsubscribe">
+			<div>
+			<br/>
+			<input type="text" name="email" value="輸入您的 E-mail" onClick="$(this).val('');" class="ui-widget ui-widget-content ui-corner-all"/>
+			<br/>
+			<input type="submit" value="訂  閱" name="sub" style="float:right;" class="key-point button" />
+			</div>
+		</form>
     </div>
-	</form>
-    </div>
+    
+    
 	</div>
 <!--script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script-->
 <script type="text/javascript">
