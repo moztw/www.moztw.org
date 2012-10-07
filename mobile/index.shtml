@@ -1,5 +1,6 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Android 版 Firefox - 行動網路新體驗 - MozTW</title>
+<title>Android 版 Firefox 正體中文下載 | MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="Firefox Android 正體中文版下載：更快、更安全、更聰明的行動瀏覽器；滿滿的創新設計，讓您輸入更少、瀏覽更多，更簡單到達您想去的網站。" />
 <meta name="viewport" content="width=device-width">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:600,400' rel='stylesheet' type='text/css'>
 <style type="text/css">
@@ -59,14 +60,14 @@ body {
 }
 #desc h2{
     font-family: "Open Sans" ,sans-serif;
-    font-size: 56px;
+    font-size: 58px;
     font-weight: bold;
     line-height: 1em;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.33em;
     margin-top: -0.4em;
 }
 #desc h2 .and {
-    font-size: 28px;
+    font-size: 24px;
     font-weight: normal;
     line-height: 1em;
     margin-left: 0.15em;
@@ -82,8 +83,7 @@ body {
     border: 1px solid #CCCCCC;
     border-radius: 4px;
     color: #555555;
-    list-style: none;
-    margin-top: 3em;
+    margin-top: 1.8em;
     padding: 0;
     width: 255px;
 }
@@ -319,8 +319,7 @@ body {
 	<div id="mobiImg"></div>
     <div id="desc" >
 	<h2><span class="and">Android 版</span><br> Firefox</h2>
-	<p>新界面、新功能…… 快，又有效！
-	</p>
+	<p>新界面、新功能……滿滿的創新設計，讓您輸入更少、更簡單到達您想去的網站，快、又有效！</p>
 	<ul id="new-feature">
         <li id="supported">
             <a class="link" target="_blank" href="http://www.mozilla.org/firefox/mobile/platforms" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'mozilla-firefox-mobile-platform']);">支援裝置 (英) »</a>
@@ -338,7 +337,7 @@ body {
 		</a>
 		<a class="btn btn-ftp" href="http://bit.ly/FxM1501zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '1501-zhTW-FTP']);">
 		從 Mozilla FTP 下載
-		<div class="desc">中文版，需手動安裝 APK</div>
+		<div class="desc">正體中文版，請手動安裝 APK</div>
 		</a>
 	</div>
 
@@ -365,13 +364,11 @@ body {
       <h2>更聰明</h2>
       <p class="icon html5"><span class="img"></span>親自體驗 HTML5 與 Web API 所帶來的無窮可能性。 <a href="https://developer.mozilla.org/en/Mobile" target="_blank" class="more" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MDN', 'FirefoxMobile']);">了解更多</a></p>
       <p class="icon sync"><span class="img"></span><a href="http://support.mozilla.org/kb/how-do-i-set-up-firefox-sync" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SUMO', 'FirefoxSync']);">同步</a>您的瀏覽歷史、書籤、密碼到所有行動裝置，瀏覽變得更為輕鬆。</p>
-      <p class="icon addons"><span class="img"></span>安裝附加元件，打造出獨一無二專屬於您的 Firefox。 <a target="_blank" href="http://addons.mozilla.org/mobile/" class="more" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'AMO', 'FirefoxMobile']);">下載附加元件</a></p>
+      <p class="icon addons"><span class="img"></span>安裝行動附加元件，打造出獨一無二專屬於您的 Android 版 Firefox。 <a target="_blank" href="http://addons.mozilla.org/mobile/" class="more" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'AMO', 'FirefoxMobile']);">下載附加元件</a></p>
     </section>
 
     <section id="get">
         <a class="fancybox-iframe" href="movie.html" title="全新Android版Firefox新鮮事影片" target="_blank"><img class="movie" src="images/FirefoxForAndroidUpdateOverview_overlay.png" alt=""></a>
-        
-<!--      <p><a href="http://mzl.la/Firefox-Android-zh-TW" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">立即到 Google Play 商店免費下載 Android 版 Firefox</a></p>-->
     </section>
   </div>
 </div>
