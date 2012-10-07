@@ -1,5 +1,11 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>使用 Firefox 體驗 IE8 最新功能 - MozTW</title>
+<title>使用 Firefox 體驗 IE8 最新功能 - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="現在就跟我們一起藉助 Firefox 超強擴充功能，馬上體驗 IE8 的新功能吧！">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/events/ie8/">
+<meta property="og:image" content="http://moztw.org/events/ie8/ie8bg.png">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="現在就跟我們一起藉助 Firefox 超強擴充功能，馬上體驗 IE8 的新功能吧！">
 <style type="text/css">
 <!--
 

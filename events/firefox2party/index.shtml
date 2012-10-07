@@ -1,6 +1,12 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Firefox 2 Go! 慶祝活動 - MozTW</title>
+<title>Firefox 2 Go! 慶祝活動 - MozTW, Mozilla Taiwan Community</title>
 <link rel="stylesheet" type="text/css" href="firefox2party.css" media="screen">
+<meta name="description" content="想多認識 Firefox 2？十一月中起，參加 Firefox 校園巡迴推廣講座，再造網路新體驗！我們將介紹 Firefox 2 的特異功能，帶您了解在全球造成「火狐熱」的原因。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/events/firefox2party/">
+<meta property="og:image" content="http://moztw.org/images/feature-firefox-2-party.jpg">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="想多認識 Firefox 2？十一月中起，參加 Firefox 校園巡迴推廣講座，再造網路新體驗！我們將介紹 Firefox 2 的特異功能，帶您了解在全球造成「火狐熱」的原因。">
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/inc/header.html" -->
   <div class="key-point">

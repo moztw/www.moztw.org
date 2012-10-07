@@ -1,5 +1,11 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Firefox Download Day 2008</title>
+<title>Firefox Download Day 2008 - MozTW, Mozilla Taiwan Community</title>>
+<meta name="description" content="恭喜，我們成功了！Firefox 以 8,002,530 次的下載次數，成功登上發表首日下載量最大軟體金氏世界紀錄寶座！">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/events/record2008/">
+<meta property="og:image" content="http://moztw.org/events/record2008/dday_header.jpg">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="恭喜，我們成功了！Firefox 以 8,002,530 次的下載次數，成功登上發表首日下載量最大軟體金氏世界紀錄寶座！">
 <style type="text/css">
 div#r2008heading { position: relative;}
 div#r2008heading h1 {height: 0; padding-top: 139px; overflow: hidden; background: no-repeat url(dday_header.jpg);}
