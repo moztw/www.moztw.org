@@ -8,27 +8,28 @@ include("inc/header.html");
 <?
 if(isset($_POST["rebuild_git"]) && $_POST["rebuild_git"])
 {
-    # processing
+  # processing
 ?>
-Starting Update [GIT]...  
+Starting Update [GIT]...
 <pre id='progress_blk'  title='still processing, please wait...'
     style='padding: 5px; maring: 5px; cursor: wait;
-	    border: 1px solid green; 
-            border-bottom: 1px dotted red'><?
-	$cmd = 'bash /home/moztw/htdocs/autoupdate/update-git.sh';
-    $cmd .= ' 2>&1';
-    echo "Command: " . htmlspecialchars($cmd) . "\n\n";
+    border: 1px solid green;
+    border-bottom: 1px dotted red'><?
+  $cmd = 'bash /home/moztw/htdocs/autoupdate/update-git.sh';
+  $cmd .= ' 2>&1';
+  echo "Command: " . htmlspecialchars($cmd) . "\n\n";
 
-    ob_flush(); flush(); 
-    // system("" . $cmd); 
-    $handle = popen("" . $cmd, "r"); 
-    while($s= fgets($handle, 1024)) {
-	// read from the pipe
-	print htmlspecialchars($s);
-	fwrite($handle, "p\n");
-	ob_flush(); flush(); 
-    }
-    pclose($handle);
+  ob_flush();
+  flush();
+  $handle = popen("" . $cmd, "r");
+  while($s= fgets($handle, 1024)) {
+    // read from the pipe
+    print htmlspecialchars($s);
+    fwrite($handle, "p\n");
+    ob_flush();
+    flush();
+  }
+  pclose($handle);
 ?>
 </pre><script type='text/javascript'>
 <!--
@@ -43,33 +44,38 @@ if(isset($_POST["rebuild_yes"]) && $_POST["rebuild_yes"])
 {
     # processing
 ?>
-Starting Update [moztw GIT]...  
+Starting Update [moztw GIT]...
 <pre id='progress_blk'  title='still processing, please wait...'
-    style='padding: 5px; maring: 5px; cursor: wait;
-	    border: 1px solid green; 
-            border-bottom: 1px dotted red'><?
-    $cmd = '/home/moztw/htdocs/autoupdate/update.cgi';
-    $opt = '';
+  style='padding: 5px; maring: 5px; cursor: wait;
+    border: 1px solid green;
+    border-bottom: 1px dotted red'><?
+  $isInStage = (strpos($_SERVER["SCRIPT_FILENAME"], 'www-stage') != false);
+  $cmd = '/home/moztw/htdocs/autoupdate/update.sh';
+  $opt = '';
 
-    if(isset($_POST["rebuild_md5"]) && $_POST["rebuild_md5"])
-      $opt .= ' md5';
-    if(isset($_POST["rebuild_cache"]) && $_POST["rebuild_cache"])
-      $opt .= ' cache';
+  if ($isInStage)
+    $opt .= ' stage';
+  if(isset($_POST["rebuild_md5"]) && $_POST["rebuild_md5"])
+    $opt .= ' md5';
+  if(isset($_POST["rebuild_cache"]) && $_POST["rebuild_cache"])
+    $opt .= ' cache';
 
-    $cmd .= $opt;
-    $cmd .= ' 2>&1';
-    echo "Command: " . htmlspecialchars($cmd) . "\n\n";
+  $cmd .= $opt;
+  $cmd .= ' 2>&1';
+  echo "Command: " . htmlspecialchars($cmd) . "\n\n";
 
-    ob_flush(); flush(); 
-    // system("" . $cmd); 
-    $handle = popen("" . $cmd, "r"); 
-    while($s= fgets($handle, 1024)) {
-	// read from the pipe
-	print htmlspecialchars($s);
-	fwrite($handle, "p\n");
-	ob_flush(); flush(); 
-    }
-    pclose($handle);
+  ob_flush();
+  flush();
+  // system("" . $cmd);
+  $handle = popen("" . $cmd, "r");
+  while($s= fgets($handle, 1024)) {
+    // read from the pipe
+    print htmlspecialchars($s);
+    fwrite($handle, "p\n");
+    ob_flush();
+    flush();
+  }
+  pclose($handle);
 ?>
 </pre><script type='text/javascript'>
 <!--
@@ -80,29 +86,28 @@ document.getElementById('progress_blk').title = 'ready';
 </script>
 <?
 } else {
-    # index page
-    ?>
-    <form method="post"><fieldset>
+  # index page
+?>
+  <form method="post"><fieldset>
     <label style='color: blue;'>
     Basic MozTW GIT update:</label><br/><br/>
     <input  id='xgeneral' type='checkbox' name='rebuild_yes' checked>
     <label for='xgeneral'>Confirm to update MozTW GIT and rebuild.</label><br/>
-	<!-- Modify by orinx start -->
-	<label style='color: blue;'>
+  <!-- Modify by orinx start -->
+  <label style='color: blue;'>
     Basic GIT update:</label><br/><br/>
-	<input  id='xgit' type="checkbox" name="rebuild_git">
-    <label for='xgit'>Confirm to update GIT and rebuild.</label><br/>
-	<!-- Modify by orinx end -->
-    <hr><label style='color: blue;'>
+  <input id='xgit' type="checkbox" name="rebuild_git">
+  <label for='xgit'>Confirm to update GIT and rebuild.</label><br/>
+  <!-- Modify by orinx end -->
+  <hr><label style='color: blue;'>
     SVN Optional rebuild process:</label><br/><br/>
-    <input  id='xmd5' type="checkbox" name="rebuild_md5"> 
-    <label for='xmd5'>Recalculate MD5 information 
-	<b style='color: red;'>(if files in dls/ changed, and very slow)
-	</b></label><br/>
-    <input  id='xcache' type="checkbox" name="rebuild_cache"> 
-    <label for='xcache'>Rebuild all HTML cache 
-    	<b style='color: red;'>(if htdocs/inc/*.html modified)
-	</b></label><br/>
+    <input id='xmd5' type="checkbox" name="rebuild_md5">
+    <label for='xmd5'>Recalculate MD5 information
+  <b style='color: red;'>(if files in dls/ changed, and very slow)
+  </b></label><br/>
+    <input id='xcache' type="checkbox" name="rebuild_cache">
+    <label for='xcache'>Rebuild all HTML cache
+    <b style='color: red;'>(if htdocs/inc/*.html modified)</b></label><br/>
     <hr><input type='submit' value='Start Update'>
     </fieldset></form>
 <?
