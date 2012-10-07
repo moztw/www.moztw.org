@@ -22,7 +22,7 @@ jQuery(i18n(function($, that){
 	(function(baseurl){
 		var canvas = $("#foxmosa-run")[0],
 		ctx = canvas.getContext("2d"),
-		x = 250, y = 0, speed = 50, index = 0, len = 20,
+		x = 215, y = 0, speed = 50, index = 0, len = 20,
 		images = [], timer;
 
 		function preload(){
@@ -48,7 +48,7 @@ jQuery(i18n(function($, that){
 		function update(){
 			ctx.clearRect( 0, 0, canvas.width, canvas.height);
 			//console.log(images[index].src);
-			ctx.drawImage(images[index], x, y, 136 * 1.8, 77 * 1.8);
+			ctx.drawImage(images[index], x, y, 340, 192);
 			index = index === len - 1? 0: index + 1;
 		};
 		
