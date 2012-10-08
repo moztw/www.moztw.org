@@ -1,6 +1,11 @@
 <!--#include virtual="/inc/meta.html" -->
 
-<title>反對網際網路言論審查 - MozTW, Mozilla 台灣社群</title>
+<title>反對網際網路言論審查 - MozTW, Mozilla Taiwan Community</title>>
+<meta name="description" content="MozTW 在此聲援 Mozilla 及所有網路自由鬥士：正於美國國會審議之 SOPA 及 PIPA 法案， 以保護智財權之名、阻擋網站瀏覽之手段，要求內容服務網站（如社群網站、搜索引擎）進行自我審查，有限縮言論自由、危害網路發展之虞， 且與 Mozilla 宣言 「網際網路應保持開放」之核心價值相悖，我們反對 SOPA、PIPA 及任何型態之網際網路言論審查。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/events/sopa/">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="MozTW 在此聲援 Mozilla 及所有網路自由鬥士：正於美國國會審議之 SOPA 及 PIPA 法案， 以保護智財權之名、阻擋網站瀏覽之手段，要求內容服務網站（如社群網站、搜索引擎）進行自我審查，有限縮言論自由、危害網路發展之虞， 且與 Mozilla 宣言 「網際網路應保持開放」之核心價值相悖，我們反對 SOPA、PIPA 及任何型態之網際網路言論審查。">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

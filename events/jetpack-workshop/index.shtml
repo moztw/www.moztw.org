@@ -1,5 +1,11 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Jetpack 擴充套件工作坊 - MozTW</title>
+<title>Jetpack 擴充套件工作坊 - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="Jetpack 是 Firefox 全新的擴充套件開發框架，比起現有的擴充套件架構更為直接、簡單。工作坊由 OSSF 和 MozTW 聯手合作，由 Mozilla Jetpack 大使小B，在北中南三場活動中，帶領您認識並實作 Firefox Jetpack 套件快速開發。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/events/jetpack-workshop/">
+<meta property="og:image" content="http://moztw.org/events/jetpack-workshop/feature_bg.jpg">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="Jetpack 是 Firefox 全新的擴充套件開發框架，比起現有的擴充套件架構更為直接、簡單。工作坊由 OSSF 和 MozTW 聯手合作，由 Mozilla Jetpack 大使小B，在北中南三場活動中，帶領您認識並實作 Firefox Jetpack 套件快速開發。">
 <link rel="stylesheet" type="text/css" href="/css/keypoint-radius.css" media="screen">
 <link rel="stylesheet" type="text/css" href="event.css" media="screen">
 <!--#include virtual="/inc/class_press.html" -->

@@ -1,6 +1,11 @@
 <!--#include virtual="/inc/meta.html" -->
-
-<title>MozTW Lab - MozTW, Mozilla 台灣社群</title>
+<title>MozTW Lab - MozTW, Mozilla Taiwan Community</title>>
+<meta name="description" content="交朋友、聊是非、互助研究的好所在。聊聊 Web 界的八卦、找人幫你的作品給點意見、與志同道合的夥伴見面">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/events/moztw-lab/">
+<meta property="og:image" content="http://moztw.org/events/moztw-lab/images/moztwlab.jpg">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="交朋友、聊是非、互助研究的好所在。聊聊 Web 界的八卦、找人幫你的作品給點意見、與志同道合的夥伴見面">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">

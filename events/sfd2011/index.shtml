@@ -2,11 +2,17 @@
 <html>
 
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-  <title>跳躍吧！小莎歡迎你之 2011 MozTW SFD Party - MozTW</title>
-  <link rel="stylesheet" type="text/css" href="sumo.css" media="screen">
-  <!--#include virtual="/inc/class_press.html" -->
-  <!--#include virtual="/inc/header.html" -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>跳躍吧！小莎歡迎你之 2011 MozTW SFD Party - MozTW, Mozilla Taiwan Community</title>
+    <meta name="description" content="在軟體自由日當天舉辦小活動，讓大家可以過來聚一聚，可以更認識 MozTW，也知道最近自由軟體的世界當中有什麼新鮮事，並且加入大家，為軟體自由這個環境盡點心力">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://moztw.org/events/sfd2011/">
+    <meta property="og:image" content=http://moztw.org/events/sfd2011/sumo.png">
+    <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+    <meta property="og:description" content="在軟體自由日當天舉辦小活動，讓大家可以過來聚一聚，可以更認識 MozTW，也知道最近自由軟體的世界當中有什麼新鮮事，並且加入大家，為軟體自由這個環境盡點心力">
+    <link rel="stylesheet" type="text/css" href="sumo.css" media="screen">
+    <!--#include virtual="/inc/class_press.html" -->
+    <!--#include virtual="/inc/header.html" -->
 </head>
 
 <body>

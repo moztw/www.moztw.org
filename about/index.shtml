@@ -1,5 +1,11 @@
 <!--#include virtual="/inc/meta_about.html" -->
-<title>關於 MozTW (Mozilla 台灣社群) - MozTW</title>
+<title>關於 MozTW (Mozilla 台灣社群) - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="MozTW 是台灣專屬於 Mozilla 相關資訊的社群，於 2004 年 9 月正式開張。目前本社群維護 Mozilla 軟體的正體中文版本與語言套件 (Language Pack)">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/about/">
+<meta property="og:image" content="http://moztw.org/images/moztw_80x15.png">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="MozTW 是台灣專屬於 Mozilla 相關資訊的社群，於 2004 年 9 月正式開張。目前本社群維護 Mozilla 軟體的正體中文版本與語言套件 (Language Pack)">
 <!--#include virtual="/inc/class_about.html" -->
 <!--#include virtual="/inc/header.html" -->
 
@@ -98,7 +104,7 @@ Email:
 			<span class="family-name">陳</span><span class="given-name">心一</span> <span class="nickname">Irvin</span>
 		</p>
 		<p class="note">社群聯繫人 Community Liaison：處理社群庶務，新聞與合作案連繫。</p>
-		<p>E-mail: <a class="email" href="mailto:irvin@mail.moztw.org">irvin@mail.moztw.org</a>
+		<p>E-mail: <a class="email" href="mailto:irvin@mail.moztw.org">irvin@mail.moztw.org</a></p>
 		<p>Blog: <a href="http://irvin.sto.tw" class="url">http://irvin.sto.tw/</a></p>
         <p>SNS: <a class="url">@irvinfly</a></p>
 		<div class="vcard-additional-info">
@@ -111,7 +117,7 @@ Email:
 			<span class="family-name">陳</span><span class="given-name">品光</span> <span class="nickname">Peter</span>
 		</p>
 		<p class="note">在地化專案協調人 L10n Coordinator：協調 MozTW 各在地化專案事宜。</p>
-		<p>E-mail: <a class="email" href="mailto:petercpg@mail.moztw.org">petercpg@mail.moztw.org</a>
+        <p>E-mail: <a class="email" href="mailto:petercpg@mail.moztw.org">petercpg@mail.moztw.org</a></p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
 			<span class="adr country-name">Taiwan</span>
@@ -123,7 +129,7 @@ Email:
 			<span class="family-name">趙</span><span class="given-name">柏強</span> <span class="nickname">Bob</span>             
 		</p>
 		<p>WWW: <a href="http://blog.bobchao.net" class="url ">http://blog.bobchao.net</a></p>
-		<p>E-mail: <a class="email" href="mailto:bobchao@mail.moztw.org">bobchao@mail.moztw.org</a>
+		<p>E-mail: <a class="email" href="mailto:bobchao@mail.moztw.org">bobchao@mail.moztw.org</a></p>
 		<p class="note">前任社群連繫長。</p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
@@ -135,7 +141,7 @@ Email:
 			<span class="family-name">簡</span><span class="given-name">冠庭</span> <span class="nickname">Tim</span>
 		</p>
 		<p>WWW: <a href="http://blog.timc.idv.tw/" class="url">http://blog.timc.idv.tw/</a></p>
-		<p>E-mail: <a class="email" href="mailto:timdream@mail.moztw.org">timdream@mail.moztw.org</a>
+		<p>E-mail: <a class="email" href="mailto:timdream@mail.moztw.org">timdream@mail.moztw.org</a></p>
 		<p class="note">前任在地化專案經理。</p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
@@ -147,7 +153,7 @@ Email:
 			<span class="family-name">賴</span><span class="given-name">韋辰</span> <span class="nickname">lRabbit</span>
 		</p>
 		<p>WWW: <a href="http://abev66.blogspot.com/" class="url">http://abev66.blogspot.com/</a></p>
-		<p>E-mail: <a class="email" href="mailto:abev66@mail.moztw.org">abev66@mail.moztw.org</a>
+		<p>E-mail: <a class="email" href="mailto:abev66@mail.moztw.org">abev66@mail.moztw.org</a></p>
 		<p class="note">Thunderbird 正體中文在地化專案經理 (專職第一代)</p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
@@ -159,7 +165,7 @@ Email:
 			<span class="family-name">孫</span><span class="given-name">偉倫</span> <span class="nickname">Josesun</span>
 		</p>
 		
-		<p>E-mail: <span class="email">josesun 在 mail .moztw. org</span>
+		<p>E-mail: <span class="email">josesun 在 mail .moztw. org</span></p>
 		<p class="note">在地化經理二代目</p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
@@ -171,7 +177,7 @@ Email:
 			<span class="family-name">林</span><span class="given-name">弘德</span> <span class="nickname">Piaip</span>
 		</p>
 		<p>WWW: <a href="http://ntu.csie.org/~piaip/" class="url"> http://ntu.csie.org/~piaip/ </a></p>
-		<p>E-mail: <span class="email">piaip at csie dot ntu dot edu dot tw</span>
+		<p>E-mail: <span class="email">piaip at csie dot ntu dot edu dot tw</span></p>
 		<p class="note">Mozilla 台灣社群創立者，元祖在地化經理</p>
 		<div class="vcard-additional-info">
 			<span class="org">MozTW (Mozilla Taiwan Community)</span>
