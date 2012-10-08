@@ -232,7 +232,7 @@ section .appendix {
                     <ul>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>Mac OS X 版本的 Firefox 初步已支援 VoiceOver，且<a href="http://www.marcozehe.de/2012/04/30/initial-voiceover-support-now-in-firefox-nightly-builds-for-mac-os-x/">預設</a>就是啟用的。</h5>
+                        <h5>Mac OS X 版本的 Firefox 已初步支援 VoiceOver，且<a href="http://www.marcozehe.de/2012/04/30/initial-voiceover-support-now-in-firefox-nightly-builds-for-mac-os-x/">預設</a>即啟用。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
@@ -264,15 +264,13 @@ section .appendix {
                       <li>
                         <span class="tag tag-fixed">修正</span>
                         <h5>
-                          重新載入頁面時，除錯器設置的中斷點無法被正常捕捉。
-                          （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=783393">bug 783393</a>）。
+                          重新載入頁面時，除錯器設置的中斷點無法被正常捕捉（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=783393">bug 783393</a>）。
                         </h5>
                       </li>
                       <li>
                         <span class="tag tag-fixed">修正</span>
                         <h5>
-                          不再於數位簽章中支援 MD5 雜湊演算法
-                          （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=650355">bug 650355</a>）。
+                          不再於數位簽章中支援 MD5 雜湊演算法（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=650355">bug 650355</a>）。
                         </h5>
                       </li>
                       <li>
@@ -284,22 +282,19 @@ section .appendix {
                       <li>
                         <span class="tag tag-fixed">修正</span>
                         <h5>
-                          實作了動畫方向反轉
-                          （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=655920">655920</a>）。
+                          實作了動畫方向反轉（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=655920">655920</a>）。
                         </h5>
                       </li>
                       <li>
                         <span class="tag tag-fixed">修正</span>
                         <h5>
-                          about:memory 可產生個別分頁的報告
-                          （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=687724">687724</a>）。
+                          about:memory 可產生個別分頁的報告（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=687724">687724</a>）。
                         </h5>
                       </li>
                       <li>
                         <span class="tag tag-fixed">修正</span>
                         <h5>
-                          未發行版本 Firefox 的使用者代理字串，改為只顯示主要版本號
-                          （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=728831">728831</a>）。
+                          未發行版本 Firefox 的使用者代理字串，改為只顯示主要版本號（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=728831">728831</a>）。
                         </h5>
                       </li>
 
@@ -318,8 +313,7 @@ section .appendix {
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
                       <h5>
-                        以被鎖定的個人設定檔重新啟動 Firefox 時，程式會當掉
-                        （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573369">bug 573369</a>）。
+                        以被鎖定的個人設定檔重新啟動 Firefox 時，程式會當掉（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573369">bug 573369</a>）。
                       </h5>
                     </li>
                     <li>
@@ -329,15 +323,13 @@ section .appendix {
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
                       <h5>
-                        Windows: 更新 Firefox 後短時間內使用 Microsoft 系統還原，可能導致找不到未來更新
-                        （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=730285">bug 730285</a>）。
+                        Windows: 更新 Firefox 後短時間內使用 Microsoft 系統還原，可能導致找不到未來更新（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=730285">bug 730285</a>）。
                       </h5>
                     </li>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
                       <h5>
-                        Pointer lock 在 web app 中無法使用
-                        （見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=769150">bug 769150</a>）。
+                        Pointer lock 在 web app 中無法使用（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=769150">bug 769150</a>）。
                       </h5>
                     </li>
                   </ul>
