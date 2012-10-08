@@ -1,6 +1,6 @@
 <!--#include virtual="/inc/meta.html" -->
 
-<title>活動總覽 - MozTW, Mozilla Taiwan Community<title>
+<title>活動總覽 - MozTW, Mozilla Taiwan Community</title>
 <meta name="description" content="MozTW 過去、現在及未來的活動">
 <meta property="og:type" content="website">
 <meta property="og:url" content="http://moztw.org/events/">
@@ -72,6 +72,7 @@ jQuery(function($){
 });
 </script>
 
+<!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
 <h1>MozTW 過去、現在及未來的活動</h1>
