@@ -29,6 +29,9 @@
     padding-right:10px;
     border-radius:6px;
 }
+#release-date {
+  font-size: 1.1em;
+}
 #product-desc p a {
     color:#276787;
 }
@@ -209,9 +212,11 @@ section .appendix {
 <div id="mBody">
     <div id="mainContent" class="right">
       <div class="key-point">
-          <div id="product-desc" class="firefox-releasenotes-v4">
-<!-- Introduction -->
-
+        <div id="product-desc" class="firefox-releasenotes-v4">
+          <p id="release-date">
+            <time datetime="2012-10-09">2012 年 10 月 9 日</time>
+             v.16.0
+          </p>
           <p>此版本資訊包含了<a href="#whatsnew">Firefox 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
 
           <p>我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的<a href="http://forums.mozillazine.org/viewforum.php?f=49">英文討論區</a>或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
@@ -226,79 +231,76 @@ section .appendix {
                 <div class="section-contents">
                     <ul>
                       <li>
-                        <span class="tag tag-fixed">修正</span>
-                        <h5>
-                          隱私瀏覽模式中造訪過的網頁，可藉由人為檢測瀏覽器快取找到
-                          （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=787743">bug 787743</a>）。
-                        </h5>
+                        <span class="tag tag-new">全新功能</span>
+                        <h5>Mac OS X 版本的 Firefox 已初步支援 VoiceOver，且<a href="http://www.marcozehe.de/2012/04/30/initial-voiceover-support-now-in-firefox-nightly-builds-for-mac-os-x/">預設</a>即啟用。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>安靜地背景更新。</h5>
+                        <h5>開始支援 <a href="https://developer.mozilla.org/en-US/docs/Apps/Getting_Started">web app</a> (Windows/Mac/Linux)。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>支援 SPDY 網路通訊協定 v3。</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-new">全新功能</span>
-                        <h5>WebGL 改善，包括壓縮材質以增進效能等。</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-new">全新功能</span>
-                        <h5>馬蒂科里（Maithili ）語系支援<a href="http://www.mozilla.org/en-US/firefox/all.html">（見所有支援的語系）</a>。</h5>
+                        <h5>新增 Acholi 語系支援。</h5>
                       </li>
 
                       <li>
                         <span class="tag tag-changed">變更</span>
-                        <h5>最佳化附加元件相關的記憶體使用率。</h5>
+                        <h5>藉由增量垃圾回收（<a href="https://blog.mozilla.org/javascript/2012/08/28/incremental-gc-in-firefox-16/">incremental garbage collection</a>）增進 JavaScript 回應速度。</h5>
                       </li>
 
                       <li>
                         <span class="tag tag-developer">開發功能</span>
-                        <h5>將 JavaScript「除錯器」整合進開發者工具。</h5>
+                        <h5>新增「開發者工具列」提供快速存取「網頁主控台」錯誤計數等工具的按鈕，以及便於鍵盤存取的命令列介面。</h5>
                       </li>
                       <li>
                         <span class="tag tag-developer">開發功能</span>
-                        <h5>檢測工具新增了布局檢視。</h5>
+                        <h5>使用 CSS3 Animations、Transitions、Transforms 和 Gradient 時需要多寫的 <a href="https://hacks.mozilla.org/2012/07/aurora-16-is-out/">prefix 已於 Firefox 16 移除</a>。</h5>
                       </li>
                       <li>
                         <span class="tag tag-developer">開發功能</span>
-                        <h5>實作了高精準度事件計時器。</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-developer">開發功能</span>
-                        <h5>實作了 CSS <a href="https://developer.mozilla.org/en/CSS/word-break">word-break</a> 屬性。</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-developer">開發功能</span>
-                        <h5>新增「適應性設計檢視模式」讓開發者快速切換 桌面／行動版 網站檢視。</h5>
-                      </li>
-
-                      <li>
-                        <span class="tag tag-html5">HTML5</span>
-                        <h5>新增原生 Opus 音訊編碼支援。</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-html5">HTML5</span>
-                        <h5><a href="https://developer.mozilla.org/en/HTML/Element/source">&lt;source&gt;</a> 元素已支援 media 屬性。</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-html5">HTML5</span>
-                        <h5><a href="https://developer.mozilla.org/en/HTML/Element/audio">&lt;audio&gt;</a> 和 <a href="https://developer.mozilla.org/en/HTML/Element/video">&lt;video&gt;</a> 元素已支援 played 屬性。</h5>
+                        <h5>程式碼速記本「開啟最近檔案」功能。</h5>
                       </li>
 
                       <li>
                         <span class="tag tag-fixed">修正</span>
                         <h5>
-                          重覆以 tab 在元素間切換時，顯示焦點的外框可能會逐漸變大
-                          （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=720987">bug 720987</a>）。
+                          重新載入頁面時，除錯器設置的中斷點無法被正常捕捉（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=783393">bug 783393</a>）。
+                        </h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>
+                          不再於數位簽章中支援 MD5 雜湊演算法（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=650355">bug 650355</a>）。
+                        </h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>
+                          預設即支援 Opus（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=772341">772341</a>）。
+                        </h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>
+                          實作了動畫方向反轉（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=655920">655920</a>）。
+                        </h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>
+                          about:memory 可產生個別分頁的報告（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=687724">687724</a>）。
+                        </h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>
+                          未發行版本 Firefox 的使用者代理字串，改為只顯示主要版本號（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=728831">728831</a>）。
                         </h5>
                       </li>
 
                       <li class="complete">
-                        請參考此版本的<a href="http://www.mozilla.com/firefox/15.0.1/releasenotes/buglist.html">完整變更清單</a>。
-                        您可能也想瞭解<a href="/firefox/releases/15.0/">前一個版本的更新</a>。
+                        請參考此版本的<a href="http://www.mozilla.com/firefox/16.0/releasenotes/buglist.html">完整變更清單</a>。
+                        您可能也想瞭解<a href="/firefox/releases/15.0.1/">前一個版本的更新</a>。
                       </li>
                     </ul>
                 </div>
@@ -311,21 +313,7 @@ section .appendix {
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
                       <h5>
-                        重新載入頁面時，除錯器設置的中斷點無法被正常捕捉。
-                        （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=783393">bug 783393</a>）。
-                      </h5>
-                      <div class="status">
-                        <span class="status-unresolved">v15 未修復</span>
-                        <span class="status-resolved">
-                          <a href="/en-US/firefox/16.0a2/auroranotes">v16 已修復</a>
-                        </span>
-                      </div>
-                    </li>
-                    <li>
-                      <span class="tag tag-unresolved">尚未修復</span>
-                      <h5>
-                        以被鎖定的個人設定檔重新啟動 Firefox 時，程式會當掉
-                        （<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573369">bug 573369</a>）。
+                        以被鎖定的個人設定檔重新啟動 Firefox 時，程式會當掉（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573369">bug 573369</a>）。
                       </h5>
                     </li>
                     <li>
@@ -334,7 +322,15 @@ section .appendix {
                     </li>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
-                      <h5>Windows: 使用 Windows 系統還原至更新 Firefox 前的一段時間時，可能變成找不到未來更新（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=730285">bug 730285</a>）。</h5>
+                      <h5>
+                        Windows: 更新 Firefox 後短時間內使用 Microsoft 系統還原，可能導致找不到未來更新（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=730285">bug 730285</a>）。
+                      </h5>
+                    </li>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>
+                        Pointer lock 在 web app 中無法使用（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=769150">bug 769150</a>）。
+                      </h5>
                     </li>
                   </ul>
                 </div>
