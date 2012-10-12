@@ -214,8 +214,8 @@ section .appendix {
       <div class="key-point">
         <div id="product-desc" class="firefox-releasenotes-v4">
           <p id="release-date">
-            <time datetime="2012-10-09">2012 年 10 月 9 日</time>
-             v.16.0
+            <time datetime="2012-10-12">2012 年 10 月 12 日</time>
+             v.16.0.1
           </p>
           <p>此版本資訊包含了<a href="#whatsnew">Firefox 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
 
@@ -231,6 +231,11 @@ section .appendix {
                 <div class="section-contents">
                     <ul>
                       <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>16.0.1：修正<a href="https://blog.mozilla.org/security/2012/10/10/security-vulnerability-in-firefox-16/">此處</a>所述的弱點。</h5>
+                      </li>
+
+                      <li>
                         <span class="tag tag-new">全新功能</span>
                         <h5>Mac OS X 版本的 Firefox 已初步支援 VoiceOver，且<a href="http://www.marcozehe.de/2012/04/30/initial-voiceover-support-now-in-firefox-nightly-builds-for-mac-os-x/">預設</a>即啟用。</h5>
                       </li>
@@ -240,7 +245,7 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>新增 Acholi 語系支援。</h5>
+                        <h5>新增 Acholi 和 Kazakh 語系支援。</h5>
                       </li>
 
                       <li>
@@ -299,8 +304,8 @@ section .appendix {
                       </li>
 
                       <li class="complete">
-                        請參考此版本的<a href="http://www.mozilla.com/firefox/16.0/releasenotes/buglist.html">完整變更清單</a>。
-                        您可能也想瞭解<a href="/firefox/releases/15.0.1/">前一個版本的更新</a>。
+                        請參考此版本的<a href="http://www.mozilla.com/firefox/16.0.1/releasenotes/buglist.html">完整變更清單</a>。
+                        您可能也想瞭解<a href="/firefox/releases/16.0/">前一個版本的更新</a>。
                       </li>
                     </ul>
                 </div>
@@ -331,6 +336,12 @@ section .appendix {
                       <h5>
                         Pointer lock 在 web app 中無法使用（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=769150">bug 769150</a>）。
                       </h5>
+                      <div class="status">
+                        <span class="status-unresolved">v16 未修復</span>
+                        <span class="status-resolved">
+                          <a href="/firefox/17.0beta/releasenotes">v17 已修復</a>
+                        </span>
+                      </div>
                     </li>
                   </ul>
                 </div>
