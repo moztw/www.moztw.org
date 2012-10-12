@@ -12,6 +12,10 @@
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
 <h1>過去的公告記錄</h1>
 <ul class="news">
+<li><div class="date"> 9 月 8</div>
+<a href="/firefox/releases/15.0.1/">Firefox 15.0.1</a> 更新</li>
+<li><div class="date"> 9 月  3</div>
+配合中研院 OSSF 機房維護，MozTW 網站將於 9/3 (一) 早上 07:00～10:00 暫停服務</li>
 <li><div class="date"> 8 月 28</div>
 <a href="/firefox/releases/15.0/">Firefox 15.0</a> 更新</li>
 <li><div class="date"> 7 月 17</div>

@@ -326,7 +326,7 @@ section .appendix {
                           <div class="status">
                             <span class="status-unresolved">v12 未修復</span>
                             <span class="status-resolved">
-                              <a href="/en-US/firefox/14.0/releasenotes">v14 已修復</a>
+                              <a href="/firefox/releases/14.0/">v14 已修復</a>
                             </span>
                           </div>
                         </li>
@@ -336,7 +336,7 @@ section .appendix {
                           <div class="status">
                             <span class="status-unresolved">v13 未修復</span>
                             <span class="status-resolved">
-                              <a href="/en-US/firefox/14.0/releasenotes">v14 已修復</a>
+                              <a href="/firefox/releases/14.0/">v14 已修復</a>
                             </span>
                           </div>
                         </li>
