@@ -310,7 +310,7 @@ section .appendix {
                       <div class="status">
                         <span class="status-unresolved">v15 未修復</span>
                         <span class="status-resolved">
-                          <a href="/en-US/firefox/16.0a2/auroranotes">v16 已修復</a>
+                          <a href="http://www.mozilla.org/en-US/firefox/16.0a2/auroranotes/">v16 已修復</a>
                         </span>
                       </div>
                     </li>

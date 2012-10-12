@@ -322,7 +322,7 @@ section .appendix {
                             <div class="status">
                               <span class="status-unresolved">v10 未修復</span>
                               <span class="status-resolved">
-                                    <a href="/en-US/firefox/11.0/auroranotes">v11 已修復</a>
+                                    <a href="/firefox/releases/11.0/">v11 已修復</a>
                               </span>
                             </div>
                         </li>

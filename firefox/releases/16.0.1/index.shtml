@@ -339,7 +339,7 @@ section .appendix {
                       <div class="status">
                         <span class="status-unresolved">v16 未修復</span>
                         <span class="status-resolved">
-                          <a href="/firefox/17.0beta/releasenotes">v17 已修復</a>
+                          <a href="http://www.mozilla.org/en-US/firefox/17.0beta/releasenotes/">v17 已修復</a>
                         </span>
                       </div>
                     </li>
