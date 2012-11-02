@@ -212,8 +212,8 @@
 
 <div id="mBody">
   <div class="frontcolumn hide" id="mobile-feature-ios">
-      <h2 class="mobile-header"><a href="http://www.mozilla.com/zh-TW/mobile/home/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mobile', 'Firefox Home']);">Firefox Home<img src="/images/product-firefox-homn.png" alt="Firefox Home" class="promo"></a></h2>
-	  <p><b>行動首頁帶著走。</b>在 iPhone 上任意取用 Firefox 的瀏覽歷史及書籤，時時同步開啟分頁，喜歡的網站隨時都在您手邊！<br>→ <a href="http://m.youtube.com/#/watch?v=_rFf5BnurVI" onClick="_gaq.push(['_trackEvent', 'Show Video', 'Mobile', 'Firefox Home']);">Firefox Home 迷你短片</a></p>
+    <h2 class="mobile-header"><a href="https://itunes.apple.com/tw/app/bookmarks-on-the-go/id550037184?l=zh&mt=8" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'iOS-AppStore-BookmarkOnTheGo', 'frontpage-frontcolumn']);">Bookmark On The Go<img src="/images/product-firefox-homn.png" alt="Bookmark On The Go" class="promo"></a></h2>
+    <p><b>行動首頁帶著走。</b>在 iPhone 上任意取用 Firefox 的瀏覽歷史及書籤，時時同步開啟分頁，喜歡的網站隨時都在您手邊！<br>→ <a href="http://m.youtube.com/#/watch?v=_rFf5BnurVI" onClick="_gaq.push(['_trackEvent', 'Show Video', 'FirefoxHome', 'frontpage']);">Firefox Home 迷你短片</a></p>
   </div>
   <div class="frontcolumn hide">
     <h2><a href="/mobile/"><img src="/images/foxmosa-android.png" style="float: left;height: 125px;margin:-5px 9px 0 -10px;width: 107px;" alt="Foxmosa love Android" class="promo">Android 版 Firefox</a></h2>
@@ -245,7 +245,8 @@
   
   <div class="frontcolumnlast">
     <h2><a href="/contribute/">參與我們<img src="/images/toy_gold_32.png" alt="Contribute Logo" class="promo"></a></h2>
-	<p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！</p>
+	<p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！
+	  <br>　　　→ <a href="https://groups.google.com/group/moztw-general" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'moztw-general', 'frontpage-frontcolumn']);">MozTW 社群郵件群組</a></p>
   </div>
   </div>
   <br style="clear: both;">
@@ -276,7 +277,7 @@
           <li><a href="http://mozlinks-zh.blogspot.com/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla Links', 'frontpage']);">Mozilla Links 正體中文版</a></li>
           <li><a href="http://gfx.tw/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'gfx.tw', 'frontpage']);">gfx.tw 抓火狐</a></li>
           <li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: Firefox', 'frontpage']);">Firefox 中文討論區</a></li>
-          <li>郵件群組：<a href="http://forum.moztw.org/viewtopic.php?f=17&t=34697" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: dev-general-zh', 'frontpage']);">Mozilla 中文開發者社群</a></li>
+          <li><a href="http://forum.moztw.org/viewtopic.php?f=17&t=34697" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: dev-general-zh', 'frontpage']);">郵件群組：Mozilla 中文開發者社群</a></li>
           <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage']);">Firefox 未來發行版本</a></li>
           <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
           <li><a href="/twoffice/">Mozilla Taiwan 公司徵人啟事</a></li>
