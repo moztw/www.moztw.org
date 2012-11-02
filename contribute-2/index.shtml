@@ -180,7 +180,7 @@ h3.toggle, span.toggle {
 
 <script type="text/javascript">
 $(function() { 
-	$("#tabs").tabs({ selected: 1 });	//設定預設分頁
+	$("#tabs").tabs({ selected: 0 });	//設定預設分頁
 	
 });
 </script>
@@ -215,12 +215,13 @@ $(function() {
 <div id="mainContent" class="right">
 <div id="tabs">
 	<ul>
-		<li><a href="#tabs-1">新手上路</a></li>
+		<!--<li><a href="#tabs-1">新手上路</a></li>-->
 		<li><a href="#tabs-2">依興趣檢視</a></li>
-		<li><a href="#tabs-3">依所需時間檢視</a></li>
-		<li><a href="#tabs-4">聯絡我們</a></li>
+		<!--<li><a href="#tabs-3">依所需時間檢視</a></li>-->
+		<li><a href="#tabs-4">留下資料</a></li>
         <!-- <li><a href="amazing.htm">神奇海螺</a></li> -->
 	</ul>
+<!--
 	<div id="tabs-1">
 		<p>無論您的專長或興趣是什麼，都能夠在眾多專案裡找到一片天空。以下是幾個能快速上手的新手任務，歡迎先動手試試！</p>
         <h1>回答使用問題</h1>
@@ -230,6 +231,7 @@ $(function() {
 			<li>協辦 MozTW 摩茲連續聚</li>
 		</ul>
 	</div>
+-->
 	
 	<div id="tabs-2">
 		<p>有興趣幫助其他使用者解決 Firefox 和其他 Mozilla 專案上的問題？我們的論壇以及使用者疑難排解，仰賴於像您一樣熱情的貢獻者。</p>
@@ -264,14 +266,14 @@ $(function() {
 				<a href="https://support.mozilla.org/zh-TW/kb/localize-firefox-help"><div class="key-point button">說明文件在地化</div></a>
 			</div>
         </div>
-		<!-- <div class="content_block">
+		<div class="content_block">
 		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>視覺設計</h2>
 				<p>我們相信優秀、多元藝術的力量，並且希望讓藝術工作者以及被 Mozilla 所啟發的設計進入網路的世界。加入我們的 Creative Collective 挑戰，或者到我們的社群商店放上您的 T-shirt 設計。</p>
-				<a href="#"><div class="key-point button">Good First Bug</div></a>
+				<a href="http://www.slideshare.net/irvinfly/foxmosa"><div class="key-point button">Foxmosa 繪師招募</div></a>
 			</div>
-		</div> -->
+		</div>
 		<div class="content_block">
 		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
@@ -332,20 +334,19 @@ $(function() {
 				<h2>Mozilla 軟體開發</h2>
 				<p>開發者可以替 Mozilla 增加新功能，讓 Firefox 變得更輕更巧更強大。你可以在 IRC 頻道上找到許多開發者，那裡是很棒的發問管道。我們的網站也歡迎網頁忍者來駭一駭。</p>
 				<a href="https://groups.google.com/d/topic/moztw-general/1D4P6IBE-p0/discussion"><div class="key-point button">詳細資訊</div></a>
+				<a href="http://whatcanidoformozilla.org/"><div class="key-point button">我能做什麼</div></a>
 			</div>
 		</div>
 	</div>
+<!--
 	<div id="tabs-3">
 		<p>您只有五分鐘能幫忙嗎？或者就想長久、深入地參與這些專案？以下是依據可能花費的時間，列出的建議參與方式。</p>
 		<h1>依時間序編排專案、介紹與連結</h1>
 	</div>
+-->
 	<div id="tabs-4">
-		<p>call我！！！</p>
-		<h1>聯絡我們</h1>
-		<ul>
-			<li>email</li>
-			<li>irc</li>
-		</ul>
+		<h1>填寫資料給我們</h1>
+		<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDdDdUlyWWhQQTczelZZb1k5VjAwbnc6MQ" width="530" height="3100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 	</div>
 </div>
 </div>
@@ -358,7 +359,16 @@ $(function() {
         MozTW 摩茲連續聚，以輕鬆歡樂無負擔的方式、要與大家一起提升彼此的網際體驗。每次內容不拘、地點好談，歡迎來聊。 連續聚內容由參加者自由報名發表，跟網路、Mozilla、自由相關的什麼主題都可以，當場協調時間。
 	</p>
     <a href="/events/moztw-lab/"><div class="key-point button"><h2>了解更多 &gt;&gt;</h2></div></a>
-    </div>
+    </div><br><br>
+<h3>與我們互動吧</h3>
+	<div id="topic">
+		<p>
+			<ul>
+				<li><a href="https://groups.google.com/forum/?fromgroups=#!forum/moztw-general">moztw-general: 摩茲將軍</a></li>
+				<li>irc: irc.mozilla.org #mozilla-taiwan</li>
+			</ul>
+		</p>
+	</div>
 <h3 style="word-break: keep-all; word-wrap: normal;white-space:nowrap;"><img src="/images/foxmosa-mail-01.jpg"></img>工作團隊最近討論</h3>
 	
 	<div class="mailing-list">
