@@ -3,7 +3,7 @@
 <meta name="description" content="MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！">
 <meta property="og:type" content="website">
 <meta property="og:url" content="http://moztw.org/contribute/">
-<meta property="og:image" content="http://moztw.org/contribute/foxmosa-icon.gif">
+<meta property="og:image" content="http://moztw.org/images/foxmosa-icon.gif">
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！">
 <style type="text/css">
@@ -235,7 +235,7 @@ $(function() {
 		<p>有興趣幫助其他使用者解決 Firefox 和其他 Mozilla 專案上的問題？我們的論壇以及使用者疑難排解，仰賴於像您一樣熱情的貢獻者。</p>
 
 		<div class="content_block">
-			<img src="foxmosa-icon.gif" class="intro_icon"></img>
+			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>幫助新手</h2>
 				<p>有興趣幫助其他使用者解決 Firefox 和其他 Mozilla 專案上的問題？我們的論壇以及使用者疑難排解，仰賴於像您一樣熱情的貢獻者。</p>
@@ -245,7 +245,7 @@ $(function() {
 			</div>
 		</div>
 		<div class="content_block">
-			<img src="foxmosa-icon.gif" class="intro_icon"></img>
+			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>推廣 MozTW 社群</h2>
 				<p>什麼什麼gfx.tw</p>
@@ -255,7 +255,7 @@ $(function() {
 			</div>
 		</div>
 		<div class="content_block">
-			<img src="foxmosa-icon.gif" class="intro_icon"></img>
+			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>在地化</h2>
 				<p>和 Mozilla 一起打造 Firefox、Tunderbird 和其他專案屬於你的語言。並且透過翻譯我們網站上的內容，協助我們告訴世界 Mozilla 正在打造更棒的網際網路。</p>
@@ -265,7 +265,7 @@ $(function() {
 			</div>
         </div>
 		<!-- <div class="content_block">
-		<img src="foxmosa-icon.gif" class="intro_icon"></img>
+		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>視覺設計</h2>
 				<p>我們相信優秀、多元藝術的力量，並且希望讓藝術工作者以及被 Mozilla 所啟發的設計進入網路的世界。加入我們的 Creative Collective 挑戰，或者到我們的社群商店放上您的 T-shirt 設計。</p>
@@ -273,7 +273,7 @@ $(function() {
 			</div>
 		</div> -->
 		<div class="content_block">
-		<img src="foxmosa-icon.gif" class="intro_icon"></img>
+		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>管理網站更新</h2>
 				<p>你常常認為自己以不同的角度看世界嗎？你的腦袋常常浮現零和一嗎？快加入我們，成為一名神聖的系統管理者，默默地在背後維護世界和平的運作。</p>
@@ -282,7 +282,7 @@ $(function() {
 			</div>
 		</div>
 		<!-- <div class="content_block">
-		<img src="foxmosa-icon.gif" class="intro_icon"></img>
+		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>規劃、執行推廣活動</h2>
 				<p>協助我們告訴大家火狐和其他 Mozilla 專案如何建造更好的網際網路。您可以透過很多方式向使用者、開發者和學生推廣 Mozilla。</p>
@@ -291,7 +291,7 @@ $(function() {
 			</div>
 		</div> -->
 		<!-- <div class="content_block">
-		<img src="foxmosa-icon.gif" class="intro_icon"></img>
+		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 		<div class="intro_desc">
 			<h2>撰寫、翻譯開發文件</h2>
 			<p>Mozilla Developer Network 集結關於 Mozilla 技術的資訊。透過撰寫新的內容、修正既有文章、翻譯內容，讓我們的文件變得更棒吧！</p>
@@ -300,7 +300,7 @@ $(function() {
 		</div>
 		</div> -->
 		<!-- <div class="content_block">
-		<img src="foxmosa-icon.gif" class="intro_icon"></img>
+		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 		<div class="intro_desc">
 			<h2>軟體測試品保</h2>
 			<p>透過擔任 QA 的工作，幫助我們獵捕躲藏在 Firefox 的臭蟲、測試 Mozilla 網頁或者是參與更多不同的產品測試，都是能夠對於我們的程式碼以及開發工具更加熟悉，並且融入 Mozilla 這個大團體。</p>
@@ -309,7 +309,7 @@ $(function() {
 		</div>
 		</div> -->
 		<!-- <div class="content_block">
-		<img src="foxmosa-icon.gif" class="intro_icon"></img>
+		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 		<div class="intro_desc">
 			<h2>執行使用者研究</h2>
 			<p>成為使用者研究團隊的一員—您可以當個調查受試者，也可以自己進行可用性測試，或者分析 Test Pilot 上面的數據。我們需要您的加入！</p>
@@ -318,7 +318,7 @@ $(function() {
 		</div>
 		</div> -->
 		<div class="content_block">
-			<img src="foxmosa-icon.gif" class="intro_icon"></img>
+			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>開發擴充套件</h2>
 				<p>Firefox 和其他 Mozilla-based 應用程式擁有超有力的擴充元件系統，讓您可以為程式做可大可小的改造。如果您對這些技術不太熟悉，可以瞭解如何建構附加元件。對於進階使用者，您可以學習如何成為 AMO 編輯者。</p>
@@ -327,7 +327,7 @@ $(function() {
 			</div>
 		</div>
 		<div class="content_block">
-			<img src="foxmosa-icon.gif" class="intro_icon"></img>
+			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>Mozilla 軟體開發</h2>
 				<p>開發者可以替 Mozilla 增加新功能，讓 Firefox 變得更輕更巧更強大。你可以在 IRC 頻道上找到許多開發者，那裡是很棒的發問管道。我們的網站也歡迎網頁忍者來駭一駭。</p>
@@ -359,7 +359,7 @@ $(function() {
 	</p>
     <a href="/events/moztw-lab/"><div class="key-point button"><h2>了解更多 &gt;&gt;</h2></div></a>
     </div>
-<h3 style="word-break: keep-all; word-wrap: normal;white-space:nowrap;"><img src="foxmosa-mail-01.jpg"></img>工作團隊最近討論</h3>
+<h3 style="word-break: keep-all; word-wrap: normal;white-space:nowrap;"><img src="/images/foxmosa-mail-01.jpg"></img>工作團隊最近討論</h3>
 	
 	<div class="mailing-list">
 		<p id="mailing-list-loading">

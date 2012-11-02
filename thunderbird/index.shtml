@@ -65,13 +65,17 @@
 
 	<h3>資源與鏈結</h3>
 	<ul class="compact">
-		<li><img src="images/gmail-favicon.ico" alt="">&nbsp;<a href="http://blog.bobchao.net/2009/12/thunderbird-3-google.html">GMail 用戶請注意 IMAP 相關設定</a>（柏強 Blog）</li>
+<!--		<li><img src="images/gmail-favicon.ico" alt="">&nbsp;<a href="http://blog.bobchao.net/2009/12/thunderbird-3-google.html">GMail 用戶請注意 IMAP 相關設定</a>（柏強 Blog）</li>-->
 		<li><a href="http://forum.moztw.org/viewforum.php?f=9">MozTW Thunderbird 中文討論區</a></li>
 		<li><a href="https://addons.mozilla.org/thunderbird/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-tb']);">取得 Thunderbird 附加元件</a></li>
 		<li><a href="https://addons.mozilla.org/thunderbird/personas/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-tb-personas']);">取得個性面板</a></li>
 		<li><a href="http://support.mozillamessaging.com/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'SUMOMO']);">Thunderbird 補助說明</a></li>
-		<li><a href="http://www.facebook.com/groups/thunderbirdfans.tw/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Facebook', 'thunderbirdfanstw']);">臉書 Thunderbird 愛好者俱樂部</a></li>
 	</ul>
+	
+	<a style="text-decoration: none;" href="http://www.facebook.com/groups/thunderbirdfans.tw/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Facebook-thunderbirdfanstw', 'thunderbird']);">
+    	<h3><img src="/images/foxmosa-mail-01.jpg" alt="" style="margin-left: -15px;"></h3>
+	    <span style="font-size: 120%;">Thunderbird 愛好者俱樂部</span>
+	</a>
 </div>
 
 <!--#include virtual="/inc/footer.html" -->
