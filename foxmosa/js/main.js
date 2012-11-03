@@ -7,16 +7,11 @@ jQuery(i18n(function($, that){
 	});
 
 	$.get('pictures.json', function(data){
-		var $loading = $('<div style="text-align: center;">').text('loading...'),
-		$picwall = $('#foxmosa-gallery'),
+		var $picwall = $('#foxmosa-gallery'),
 		picwall = new PicWall($picwall, data),
 		timer;
 
-		$picwall.append($loading);
-
-		picwall.on('load', function(){
-			$loading.remove();
-		}).on('afterResize', function(){
+		picwall.on('load').on('afterResize', function(){
 			$('#foxmosa-gallery div > div').fancybox({
 				openEffect  : 'fade',
 				closeEffect : 'fade',
@@ -36,7 +31,7 @@ jQuery(i18n(function($, that){
 	(function(baseurl){
 		var canvas = $("#foxmosa-run")[0],
 		ctx = canvas.getContext("2d"),
-		x = 215, y = 0, speed = 50, index = 0, len = 20,
+		x = 55, y = 0, speed = 50, index = 0, len = 20,
 		images = [], timer;
 
 		function preload(){

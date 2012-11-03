@@ -236,26 +236,30 @@
 	height: 200px;
 	width: 680px;
 	z-index: 1;
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	transform: rotateY(180deg);
 }
 
 @-webkit-keyframes myfirst{
-	from {-webkit-transform: rotate(360deg);}
-	to {-webkit-transform: rotate(0deg);}
+	from {-webkit-transform: rotate(0deg);}
+	to {-webkit-transform: rotate(360deg);}
 }
 
 @-moz-keyframes myfirst{
-	from {-moz-transform: rotate(360deg);}
-	to {-moz-transform: rotate(0deg);}
+	from {-moz-transform: rotate(0deg);}
+	to {-moz-transform: rotate(360deg);}
 }
 
 @-o-keyframes myfirst{
-	from {-o-transform: rotate(360deg);}
-	to {-o-transform: rotate(0deg);}
+	from {-o-transform: rotate(0deg);}
+	to {-o-transform: rotate(360deg);}
 }
 
 @keyframes myfirst{
-	from {transform: rotate(360deg);}
-	to {transform: rotate(0deg);}
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
 }
 
 #earth{
@@ -365,6 +369,22 @@
 	height: 360px;
 	margin: 0 auto;
 	overflow: hidden;
+}
+
+#foxmosa-desktop div{
+	overflow: hidden;
+	width: 103%;
+	margin-left: -3%;
+}
+
+#foxmosa-desktop div img{
+	position: relative;
+	width: 20%;
+	margin-left: 3%;
+	padding: 1%;
+	background: #FFF;
+	height: auto;
+	float: left;
 }
 
 #colophon {

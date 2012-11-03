@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="windows no-js" lang="zh-TW" dir="ltr">
+<html class="windows no-js" lang="en-US" dir="ltr">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,11 @@
 		<link href="css/main.css" rel="stylesheet" />
 		<link href="//www.mozilla.org/tabzilla/media/css/tabzilla.css" rel="stylesheet" />
 		<link href="http://moztw.org/js/library/fancybox2/jquery.fancybox.css" rel="stylesheet" />
+		<style>
+		#earth{
+			height: 200px;
+		}	
+		</style>
 	</head>
 	<body>
 		
@@ -31,13 +36,13 @@
 					</hgroup>
 					<nav id="menu">
 						<ul role="menu" class="unstyled">
-							<li role="menuitem"><a href="http://moztw.org/dl">下載</a>
-							<li role="menuitem"><a href="http://forum.moztw.org/">討論區</a>
-							<li role="menuitem"><a href="http://moztw.org/events">活動</a>
-							<li role="menuitem"><a href="http://wiki.moztw.org/">共筆系統</a>
-							<li role="menuitem"><a href="http://planet.moztw.org/">摩茲工寮</a>
-							<li role="menuitem"><a href="http://moztw.org/contribute">參與我們</a>
-							<li role="menuitem"><a href="http://moztw.org/about">關於本站</a>
+							<li><a href="http://moztw.org/dl">下載</a>
+							<li><a href="http://forum.moztw.org/">討論區</a>
+							<li><a href="http://moztw.org/events">活動</a>
+							<li><a href="http://wiki.moztw.org/">共筆系統</a>
+							<li><a href="http://planet.moztw.org/">摩茲工寮</a>
+							<li><a href="http://moztw.org/contribute">參與我們</a>
+							<li><a href="http://moztw.org/about">關於本站</a>
 						</ul>
 					</nav>
 				</header>
@@ -51,10 +56,11 @@
 						
 						<!--<img src="images/avatar.jpg" id="foxmosa-avatar" class="left" />-->
 
-						<canvas id="foxmosa-run" class="right" width="680" height="200"></canvas>
+						<canvas id="foxmosa-run" class="right" width="680" height="200">
+						</canvas>
 
 						<div id="earth">
-							<img src="images/a.svg" alt="Spinning Earth" />
+							<img src="images/a.svg" />
 						</div>
 
 						<ul id="foxmosa-profile" class="left">
@@ -62,11 +68,11 @@
 							<li class="i18n" data-i18n="foxmosa-profile-sex">性別：女
 							<li class="i18n" data-i18n="foxmosa-profile-age">年齡：未成年
 							<li class="i18n" data-i18n="foxmosa-profile-birth">生日：十月，天枰座
-							<li class="i18n" data-i18n="foxmosa-profile-personality">個性：活潑、調皮、友善、分享、好奇心、正義感
+							<li class="i18n" data-i18n="foxmosa-profile-personality">個性：活潑、調皮 、友善、分享、好奇心、正義感
 							<li class="i18n" data-i18n="foxmosa-profile-interest">興趣：逛網路、跟大家閒聊
 							<li class="i18n" data-i18n="foxmosa-profile-feature">特徵：
 								<ol>
-									<li>頭上的楓葉中有台灣形狀的印記
+									<li>頭上的'楓葉'中有台灣形狀的印記
 									<li>像顆蕃薯的臉
 									<li>毛茸茸的大尾巴
 								</ol>
@@ -90,6 +96,7 @@
 						<header>
 							<h2>Gallery</h2>
 						</header>
+						
 					</section>
 
 					<section class="row" id="foxmosa-join">
@@ -99,18 +106,37 @@
 						
 						<div class="left">
 							<h3>授權</h3>
-							<p>Foxmosa 以 <b>創用 CC: by-nc-sa 3.0 tw 姓名標示-非商業性-相同方式分享</b> 公開授權，您可以自由以她為主題進行創作，但是：</p>
+
+							<p>
+								Foxmosa 以創用 <b>CC: by-nc-sa 3.0 tw 姓名標示-非商業性-相同方式分享</b> 公開授權，你可以自由已她為主題進行創作，但是：
+							</p>
+
 							<ol>
-								<li>你必須在作品的任一處標示「moztw.org」的網址
-								<li>你的作品必須以完全相同的授權方式，再釋出供他人使用
+								<li>你必須在作品的任一處標示 'moztw.org' 網址
+								<li>你的作品必須已相同的授權方式，再釋出供他人使用
 								<li>如果要進行商業利用，例如：製作週邊進行販售，就必須事先取得 MozTW 許可：irvin[at]mail.moztw.org（代表）
 							</ol>
 						</div>
 						
 						<div class="right">
-							<h3>成為小莎繪師</h3>
-							<p>若您有興趣加入 MozTW 社群的志工行列，以繪圖方式來協助 MozTW 堆廣 Mozilla 和 Firefox 的各種計畫（網站、海報、小遊戲……等），請至以下網址填表，並勾選「美術設計」項目，我們會儘速以 email 與您聯繫：<a href="http://bit.ly/joinmoztw">http://bit.ly/joinmoztw</a>
+							<h3>加入 Foxmosa 繪師行列</h3>
+							
+							<p>
+								如果有興趣加入 MozTW 社群的志工行列，以繪圖方式來協助 MozTW 進行各種堆廣 Mozilla 和 Forefox 的各種計畫（網站、海報、小遊戲......等），請至以下網址填表，並勾選「美術設計」項目，我們會盡速以 email 與您聯繫：<a href="http://bit.ly/joinmoztw">http://bit.ly/joinmoztw</a>
 							</p>
+						</div>
+					</section>
+
+					<section id="foxmosa-desktop">
+						<header>
+							<h2>四季桌布</h2>
+						</header>
+						
+						<div>
+							<img src="images/desktop/1.jpg" />
+							<img src="images/desktop/2.jpg" />
+							<img src="images/desktop/3.jpg" />
+							<img src="images/desktop/4.jpg" />
 						</div>
 					</section>
 
@@ -128,7 +154,7 @@
 			<footer id="colophon">
 				<div class="row">
 					<div class="left footer-logo">
-						<a href="http://moztw.org/"><img src="images/moztw-logo.png" alt="MozTW Logo"/></a>
+						<a href="http://moztw.org/"><img src="images/moztw-logo.png" /></a>
 					</div>
 
 					<div class="left footer-license">
