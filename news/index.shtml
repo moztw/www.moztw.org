@@ -12,6 +12,8 @@
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
 <h1>過去的公告記錄</h1>
 <ul class="news">
+<li><div class="date"> 11 月 7</div>
+新增 <a href="/events/sfd2012/#get_dvd">Code Rush 放映會</a>及 <a href="/events/sfd2012/#me_too">DVD 申請</a> </li>
 <li><div class="date"> 10 月 11</div>
 <a href="https://blog.mozilla.org/security/2012/10/10/security-vulnerability-in-firefox-16/" target="_blank">由於一個安全性問題</a>，Mozilla 暫時停止 Firefox 16 下載，預定將於明日發佈修正</li>
 <li><div class="date"> 10 月 10</div>
