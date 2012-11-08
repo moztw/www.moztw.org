@@ -102,12 +102,12 @@
 }
 
 .key-point {
-    background-image: url("foxmosa/images/firfox_8yr.png") , -ms-radial-gradien
-    background-image: url("foxmosa/images/firfox_8yr.png") , -moz-radial-gradie
-    background-image: url("foxmosa/images/firfox_8yr.png") , -o-radial-gradient
-    background-image: url("foxmosa/images/firfox_8yr.png") , -webkit-gradient(r
-    background-image: url("foxmosa/images/firfox_8yr.png") , -webkit-radial-gra
-    background-image: url("foxmosa/images/firfox_8yr.png") , radial-gradient(ci
+    background-image: url("foxmosa/images/firfox_8yr.png") , -ms-radial-gradient(center, circle farthest-corner, #1997D2 0%, #2565A3 100%);
+    background-image: url("foxmosa/images/firfox_8yr.png") , -moz-radial-gradient(center, circle farthest-corner, #1997D2 0%, #2565A3 100%);
+    background-image: url("foxmosa/images/firfox_8yr.png") , -o-radial-gradient(center, circle farthest-corner, #1997D2 0%, #2565A3 100%);
+    background-image: url("foxmosa/images/firfox_8yr.png") , -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #1997D2), color-stop(1, #2565A3));
+    background-image: url("foxmosa/images/firfox_8yr.png") , -webkit-radial-gradient(center, circle farthest-corner, #1997D2 0%, #2565A3 100%);
+    background-image: url("foxmosa/images/firfox_8yr.png") , radial-gradient(circle farthest-corner at center, #1997D2 0%, #2565A3 100%);
     background-repeat: no-repeat;
 
 }
@@ -194,7 +194,7 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-  <a id="mobile_link" href="/mobile/"></a>
+  <a id="mobile_link" href="/foxmosa/"></a>
   <div id="feature-content">
     <h2><a class="fx-link" href="/firefox/"><img src="images/logo-wordmark-mozilla-small.png" alt="Firefox" height="84" width="240"></a></h2>
     <div class="download dl-box">
