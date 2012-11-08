@@ -194,7 +194,7 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-  <a id="mobile_link" href="/foxmosa/"></a>
+  <a id="mobile_link" href="/foxmosa/" title="為了慶祝 Firefox 及 Foxmosa 8 歲，Foxmosa 個人網頁正式登場"></a>
   <div id="feature-content">
     <h2><a class="fx-link" href="/firefox/"><img src="images/logo-wordmark-mozilla-small.png" alt="Firefox" height="84" width="240"></a></h2>
     <div class="download dl-box">
