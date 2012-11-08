@@ -102,7 +102,14 @@
 }
 
 .key-point {
-    background: url("/images/firefox_mobile14.png") no-repeat 305px bottom #78B8D0;
+    background-image: url("foxmosa/images/firfox_8yr.png") , -ms-radial-gradien
+    background-image: url("foxmosa/images/firfox_8yr.png") , -moz-radial-gradie
+    background-image: url("foxmosa/images/firfox_8yr.png") , -o-radial-gradient
+    background-image: url("foxmosa/images/firfox_8yr.png") , -webkit-gradient(r
+    background-image: url("foxmosa/images/firfox_8yr.png") , -webkit-radial-gra
+    background-image: url("foxmosa/images/firfox_8yr.png") , radial-gradient(ci
+    background-repeat: no-repeat;
+
 }
 .key-point.coscup {
     background: url("images/pairslogo.jpg") 75% center no-repeat #D3A77D;
