@@ -39,7 +39,7 @@
     margin-top: -6px;
     height: 90px;
     width: 256px;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255,255,255,.4);
     border-radius: 10px;
 }
 
@@ -109,6 +109,7 @@
     background-image: url("foxmosa/images/firfox_8yr.png") , -webkit-radial-gradient(center, circle farthest-corner, #1997D2 0%, #2565A3 100%);
     background-image: url("foxmosa/images/firfox_8yr.png") , radial-gradient(circle farthest-corner at center, #1997D2 0%, #2565A3 100%);
     background-repeat: no-repeat;
+    background-position: right -30%;
 
 }
 .key-point.coscup {
