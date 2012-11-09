@@ -1,9 +1,9 @@
-jQuery(i18n(function($, that){
+jQuery(l10n(function($, that){
 	
 	that.init();
 
 	that.on('change', function(){
-		that.update('.i18n', 'i18n');
+		that.update('.l10n', 'l10n');
 	});
 
 	$.get('pictures.json', function(data){
