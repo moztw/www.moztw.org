@@ -5,9 +5,9 @@
  * events: change, beforeChange, error
  */
 
-var i18n = function(options, main){
+var l10n = function(options, main){
 	var setting = {
-		default: 'zh-TW',
+		default: 'en-US',
 		baseUrl: 'languages/',
 		languages: {
 			'zh-TW': '中文 (繁體)',
@@ -54,16 +54,16 @@ var i18n = function(options, main){
 				msg;
 
 				if(! datakey){
-					if(! $this.data('i18nkey')){
-						$this.data('i18nkey', $this.text());	
+					if(! $this.data('l10nkey')){
+						$this.data('l10nkey', $this.text());	
 					}
-					msg = that.getMessage($this.data($this.data('i18nkey')));
+					msg = that.getMessage($this.data($this.data('l10nkey')));
 				}else{
 					msg = that.getMessage($this.data(datakey));
 				}
 
 				if(msg){
-					$this.text(msg);
+					$this.html(msg);
 				}
 			});
 		},
@@ -73,6 +73,7 @@ var i18n = function(options, main){
 	};
 
 	function loadFile(language){
+		//console.log(language);
 		$.get(setting.baseUrl + language + '.json', function(data){
 			message = data;
 			current = language;
@@ -90,6 +91,6 @@ var i18n = function(options, main){
 	};
 };
 
-window.i18n = i18n;
+window.l10n = l10n;
 
 })(window, jQuery);
