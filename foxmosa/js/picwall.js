@@ -159,15 +159,20 @@ var PicWall = (function ($) {
 			};
 		};
 
-		preLoad(picList, function(){
+		/**preLoad(picList, function(){
 			
 			reSize();
 			ele.resize(function(){
 				reSize();
 			});
 
+		});**/
+		
+		reSize();
+		ele.resize(function(){
+			reSize();
 		});
-
+	
 		return {
 			change: function(){
 				for(var i in grid){

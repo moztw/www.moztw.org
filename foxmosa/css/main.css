@@ -213,7 +213,7 @@
 	margin-bottom: 60px;
 }
 
-#content_area > section:nth-child(even){
+.whitebox{
 	padding: 20px;
 	background: #FFF;
 	-ms-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
@@ -386,11 +386,6 @@
 #foxmosa-social{
 	overflow: hidden;
 	position: relative;
-	padding: 20px;
-	background: white;
-	-ms-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-	-o-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 #foxmosa-social header{
