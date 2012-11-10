@@ -34,6 +34,9 @@ jQuery(l10n(function($, that){
 		x = 55, y = 0, speed = 50, index = 0, len = 20,
 		images = [], timer;
 
+		ctx.translate(canvas.width, 0);
+		ctx.scale(-1, 1);
+
 		function preload(){
 			var counter = 1;
 			for(var i = 0; i < len; i++){
