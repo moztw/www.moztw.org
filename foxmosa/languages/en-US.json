@@ -1,7 +1,6 @@
 {
 "foxmosa-title": "Foxmosa",
 "mozilla-english-name": "Mozilla Taiwan Community",
-"moztw-name": "",
 "foxmosa-name": "Foxmosa",
 "menu-download": "Download",
 "menu-forum": "Forum",
@@ -16,17 +15,17 @@
 "foxmosa-profile-age": "Age: teenagers",
 "foxmosa-profile-birth": "Birthday: October, Taurus",
 "foxmosa-profile-personality": "Personality: Friendly, Funny, Willing to share, Naughty, Righteous, Curiosity",
-"foxmosa-profile-interest": "Habit: Browse the world wide, web Chat with other",
-"foxmosa-profile-feature": "Feature: <ol><li>A Taiwan's outline on the 'maple' of her head</li><li>A potato face</li><li>A furry big tail</li></ol>",
+"foxmosa-profile-interest": "Habit: Browse the world wide web, Chat with others",
+"foxmosa-profile-feature": "Feature: <ol><li>A Taiwan's outline on the 'maple leaf' of her head</li><li>A potato face</li><li>A furry big tail</li></ol>",
 "foxmosa-join-h2": "Get Involved",
 "foxmosa-license": "License",
 "foxmosa-license-cc": "The free use of images and any content of Foxmosa is licensed under <b>CC: by-nc-sa 3.0 tw Attribution-Noncomercial-ShareAlike</b>. You may do any remix of her, while: ",
 "foxmosa-license-1": "The work must contain the url 'moztw.org'",
 "foxmosa-license-2": "The work must be released in the same license",
-"foxmosa-license-3": "If the work is used in commercial purposes, such as profitable products, you need a permission from MozTW. Contact: irvin[at]mail.moztw.org",
+"foxmosa-license-3": "If the work is used on commercial purposes, such as profitable products, you need a permission from MozTW. Contact: irvin[at]mail.moztw.org",
 "foxmosa-painter-h3": "Becomae a Foxmosa Painter",
-"foxmosa-painter-content": "Fill the form <a href=\"http://bit.ly/joinmoztw\">http://bit.ly/joinmoztw</a> right now and check 'Art Design' if you are interested in MozTW Community, and want to be one of Foxmosa painters, which enables you to promote projects from Mozilla and Firefox with your pen, such as Websites, Posters, Games and so on.",
+"foxmosa-painter-content": "Fill out the form <a href=\"http://bit.ly/joinmoztw\">http://bit.ly/joinmoztw</a> right now and check 'Art Design' if you are interested in MozTW Community, and want to be one of Foxmosa painters, which enables you to promote projects from Mozilla and Firefox with your pen, such as Websites, Posters, Games and so on.",
 "foxmosa-desktop": "Wallpapers for four seasons",
 "foxmosa-footer-license": "Aside from special notations, all contents of this site are licensed under <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/3.0/tw/\" class=\"subfoot\" onclick=\"_gaq.push(['_trackEvent', 'Outgoing', 'CreativeCommons', 'footer']);\">CC: by-sa 3.0 tw</a>.",
-"menu-footer-download": "Mozilla related Chinese Software"
+"menu-footer-download": "Mozilla related Chinese Softwares"
 }
