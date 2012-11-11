@@ -406,6 +406,12 @@
 	margin-left: 20px;
 }
 
+#foxmosa-social .news{
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+
 #colophon {
 	color: #666;
 	padding: 40px 0;
