@@ -11,7 +11,7 @@ jQuery(l10n(function($, that){
 		picwall = new PicWall($picwall, data),
 		timer;
 
-		picwall.on('load').on('afterResize', function(){
+		picwall.on('afterResize', function(){
 			$('#foxmosa-gallery div > div').fancybox({
 				openEffect  : 'fade',
 				closeEffect : 'fade',

@@ -59,7 +59,7 @@ var PicWall = (function ($) {
 				}));
 				ele.append(grid[i].getJqueryElement());
 			}
-
+			
 			eventTarget.trigger('afterResize'); 
 		};
 
@@ -159,19 +159,19 @@ var PicWall = (function ($) {
 			};
 		};
 
-		/**preLoad(picList, function(){
+		preLoad(picList, function(){
 			
 			reSize();
 			ele.resize(function(){
 				reSize();
 			});
 
-		});**/
+		});
 		
-		reSize();
+		/**reSize();
 		ele.resize(function(){
 			reSize();
-		});
+		});**/
 	
 		return {
 			change: function(){
