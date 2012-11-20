@@ -1,1 +1,1 @@
-http://download.mozilla.org/?product=firefox-16.0.2&amp;lang=zh-TW
+http://download.mozilla.org/?product=firefox-latest&amp;lang=zh-TW
