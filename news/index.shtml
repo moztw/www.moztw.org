@@ -12,6 +12,8 @@
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
 <h1>過去的公告記錄</h1>
 <ul class="news">
+<li><div class="date"> 10 月 29</div>
+<a href="/thunderbird/releases/16.0.2/">Thunderbird</a> 釋出 16.0.2 安全性更新</li>
 <li><div class="date"> 10 月 27</div>
 <a href="/firefox/releases/16.0.2/">Firefox</a>、<a href="/mobile">Firefox Mobile</a> 釋出 16.0.2 安全性更新</li>
 <li><div class="date"> 10 月 12</div>
