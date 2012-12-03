@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url(../../fonts/awesome.css);
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -100,6 +101,7 @@ ul.unstyled, ol.unstyled{
 	clear: both;
 	content: ".";
 }
+
 .left{
 	margin-left: 20px;
 	float: left;
@@ -118,6 +120,10 @@ ul.unstyled, ol.unstyled{
 .open-sans-light{
 	font-family: 'Open Sans Light', sans-serif;
 	font-weight: normal;
+}
+
+.awesome{
+	font-family: 'FontAwesome';
 }
 
 /** table **/

@@ -444,3 +444,218 @@
 	width: 140px;
 	margin-left: 20px !important;
 }
+
+@media screen and (max-width: 980px), screen and (max-device-width: 980px){
+	#wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#colophon .row {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 950px), screen and (max-device-width: 950px){
+	#menu {
+		width: 100px;
+		height: 30px;
+		top: 5px;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #FFF;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+		cursor: pointer;
+		z-index: 99999999;
+	}
+
+	#menu:before {
+		content: 'Menu';
+		width: 60%;
+		height: 100%;
+		right: 5%;
+		top: 0;
+		line-height: 30px;
+		position: absolute;
+		text-align: center;
+	}
+
+	#menu:after {
+		content: '\f0ca';
+		width: 30%;
+		height: 100%;
+		left: 5%;
+		top: 0;
+		line-height: 30px;
+		position: absolute;
+		text-align: center;
+		font-family: 'FontAwesome';
+	}
+
+	#menu > * {
+		display: none;
+	}
+
+	#menu.show > * {
+		display: block;
+	}
+
+	#menu ul {
+		margin: 0;
+		padding: 0;
+		position: absolute;;
+		top: 105%;
+		left: 0;
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		background: #FFF;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	}
+
+	#menu li {
+		float: left;
+		width: 100%;
+		height; 30px;
+		line-height: 30px;
+		text-align: center;
+		border-bottom: 1px rgba(0, 0, 0, 0.05) solid;
+	}
+
+	#menu a {
+		padding: 0;
+		margin; 0;
+		color: #999 !important;
+	}
+}
+
+@media screen and (max-width: 860px), screen and (max-device-width: 860px){
+	#foxmosa-pairs {
+		height: 100px;
+	}
+
+	#foxmosa-pairs header, #foxmosa-social header {
+		float: none;
+	}
+	
+	#foxmosa-pairs a.button.playthegame {
+		float: left;
+		margin: 0 0 0 20px;
+	}
+	
+	#foxmosa-pairs a.button.github {
+		float: left;
+		margin: 0;
+	}
+
+	#foxmosa-pairs a.pairslogo {
+		right: 10px;
+		left: auto;
+	}
+
+	#foxmosa-social ul {
+		float: left;
+	}
+
+	#foxmosa-social ul li {
+		margin: 0 20px 0 0;
+	}
+
+	#foxmosa-join {
+		background: transparent !important;
+		padding: 0;
+		margin-left: 0;
+	}
+
+	#foxmosa-join > div {
+		width: 48%;
+		margin: 0;
+	}
+
+	.footer-logo{
+		width: 300px;
+	}
+
+	.footer-license{
+		width: 100px;
+		margin-left: 20px;
+	}
+
+	.footer-nav{
+		width: 100px;
+		margin-left: 20px !important;
+	}
+}
+
+@media screen and (max-width: 600px), screen and (max-device-width: 600px){
+	#menu {
+		right: 24px;
+		top: 50px;
+		left: auto;
+	}
+	
+	#foxmosa-info {
+		height: auto !important;
+	}
+
+	#foxmosa-profile {
+		float: none;
+		width: auto !important;
+	}
+	
+	#foxmosa-run, #earth {
+		display: none;
+	}
+	
+	#foxmosa-pairs {
+		text-align: center;
+		height: auto;
+	}
+
+	#foxmosa-pairs header {
+		text-align: left;
+	}
+
+	#foxmosa-pairs a.button {
+		float: none !important;
+		margin: 5px 0 !important;
+		width: 90%;
+	}
+
+	#foxmosa-social ul {
+		float: none;
+	}
+	
+	#foxmosa-social ul li {
+		margin: 5px 0;
+		float: none;
+		text-align: center;
+	}
+
+	#foxmosa-social ul li a {
+		width: 90%;
+	}
+	
+	#foxmosa-pairs a.pairslogo {
+		display: none;
+	}
+	
+	#foxmosa-join > div {
+		width: 100%;
+		margin: 10px 0;
+	}
+}
+
+@media screen and (max-width: 360px), screen and (max-device-width: 360px){
+	#moztw-link-text {
+		font-size: 24px;
+	}
+
+	#moztw-link-english, #moztw-link-chinese {
+		display: none !important;
+	}
+}

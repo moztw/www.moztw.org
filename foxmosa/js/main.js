@@ -1,5 +1,8 @@
 jQuery(l10n(function($, that){
 	
+	var $win = $(window),
+	    $menu = $('#menu');
+
 	that.init();
 
 	that.on('change', function(){
@@ -27,6 +30,26 @@ jQuery(l10n(function($, that){
 		autoChange();
 
 	});
+
+	function hideMenu() {
+		if ($menu.hasClass('show')) {
+			$menu.removeClass('show');
+		} else {
+			$menu.addClass('show');
+		}
+	}
+
+	function checkSize() {
+		if ($win.width() < 950) {
+			$menu.on('click', hideMenu);
+		} else {
+			$menu.off('click', hideMenu);
+		}
+	}
+
+	$win.resize(checkSize);
+
+	checkSize();
 
 	(function(baseurl){
 		var canvas = $("#foxmosa-run")[0],
