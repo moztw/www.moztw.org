@@ -1,500 +1,133 @@
-<!--#include virtual="/inc/meta.html" -->
-<title>參與我們 - MozTW, Mozilla Taiwan Community</title>
-<meta name="description" content="MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！">
-<meta property="og:type" content="website">
-<meta property="og:url" content="http://moztw.org/contribute/">
-<meta property="og:image" content="http://moztw.org/images/foxmosa-icon.gif">
-<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
-<meta property="og:description" content="MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！">
-<style type="text/css">
-<!--
-@import url(/css/keypoint-radius.css);
--->
-.key-point {
-	background-color: #E4ECEC;
-	height:240px;
-}
-ul.mailing-list li {
-	clear: both;
-}
-ul.mailing-list span.title {
-	clear: both;
-	display: block;
-	font-weight: bold;
-}
-ul.mailing-list span.length {
-	float: right;
-	color: #999;
-	clear: both;
-}
-ul.mailing-list a { /* author */
-	float: left;
-	clear: left;
-}
-ul.mailing-list span.date {
-	float: right;
-	clear: right;
-}
-div.toggle, ol.toggle {
-	display: none;
-}
-h3.toggle, span.toggle {
-	cursor: pointer;
-	display: block;
-}
-li {
-	/*clear: left;*/
-}
-h3 .indicator, span .indicator {
-	background-color: #888;
-	color: #fff;
-	float: left;
-	width: 15px; height: 15px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	border-radius: 8px;
-	font: 15px/15px sans-serif;
-	text-align: center;	
-	margin: 3px 4px 2px 0;
-}
-.vacant {
-	background-color: #CB44A9;
-	color: #fff;
-	font-weight: normal;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	border-radius: 2px;
-	padding: 0 2px;
-}
-.wanted {
-	background-color: #65B253;
-	color: #fff;
-	font-weight: normal;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
-	border-radius: 2px;
-	padding: 0 2px;
-}
-.key-point #desc{
-	float: left;
-	width: 470px;
-	font-size: 120%;
-}
-.key-point #video{
-	float: right;
-	position: relative;
-	background: -moz-linear-gradient(center top , #FFFFFF 0%, #F5F9FD 100%) repeat scroll 0 0 transparent;
-    border: 1px solid #C9DDF2;
-    border-radius: 6px 6px 6px 6px;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
-    display: inline;
-    float: left;
-    margin: 10px;
-    padding: 10px;
-    width: 360px;
-	height: 203px;
-}
-span.unisubs-widget video {
-  width: 360px !important; 
-}
-#video div.unisubs-videoTab-container{
-	display: none !important;
-}
-.button{
-    float: right;
-    font-size: 80%;
-    height: auto !important;
-    width: auto !important;
-	padding: 10px !important;
-	margin: 5px;
-	color: #4B6B79 !important;
-}
-.intro_icon{
-	float: left;
-	width: 120px;
-	margin: 10px 10px 10px 0;
-}
-.intro_desc{
-	
-}
-.content_block{
-	height: auto;
-	padding-bottom: 40px;
-	margin-bottom : 20px;
-}
+<!--#include virtual="/inc/new_meta.html" -->
+	<link href="style.css" rel="stylesheet" />
+	<title>參與我們 - MozTW, Mozilla Taiwan Community</title>
+	<meta name="description" content="MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://moztw.org/contribute/">
+	<meta property="og:image" content="http://moztw.org/images/foxmosa-icon.gif">
+	<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+	<meta property="og:description" content="MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！">
+<!--#include virtual="/inc/new_header.html" -->
 
-.mail_block{
-	width: 100%;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-:link{
-	text-decoration: none;
-}
-.mail_block:hover{
-	background-color:#CCCCCC;
-}
-.mail_block .date{
-	font-size: 60%;
-	color: black;
-	margin: 0;
-}
-.mail_block .title{
-	font-size: 130%;
-	text-overflow:ellipsis;
-	white-space: nowrap;
-	overflow:hidden;
-}
-.mail_block .author{
-	font-size: 80%;
-	color:#999;
-	margin: 0;
-}
-.subscribe{
-	border-top: #000 thick 2px ;
-}
-.subscribe hr{
-	background-color:#999999;
-	margin: 10px;
-}
-.subscribe input{
-	margin-top: 10px;
-}
-</style>
-<link media="all" type="text/css" href="css/ui-lightness/jquery-ui-1.7.3.custom.css" rel="stylesheet">
-<script type="text/javascript" src="js/jquery-1.3.2.min.js" ></script>
-<script type="text/javascript" src="js/jquery-ui-1.7.3.custom.min.js"></script>
+	<hgroup id="main-feature">
+		<h1>Join us</h1>
+		<h2>推廣自由文化、維護大眾的選擇權<br />打造更美好的網路未來</h2>
+	</hgroup>
 
-<noscript>
-<style type="text/css">
-.mailing-list { display: none }
-div.toggle, ol.toggle {
-	display: block;
-}
-h3.toggle, span.toggle {
-	cursor: default;
-}
-</style>
-</noscript>
+	<nav class="billboard">
+		<h2 style="display: none">Menu</h2>
+		<ul class="menu">
+			<li class="width-220"><a href="#main-content">專案</a>
+			<li class="width-220"><a href="#help">我能做些什麼事？</a>
+			<li class="width-220"><a href="#org">組織、網站</a>
+		</ul>
+	</nav>
 
-
-<script type="text/javascript">
-$(function() { 
-	$("#tabs").tabs({ selected: 0 });	//設定預設分頁
-	
-});
-</script>
-
-<!--#include virtual="/inc/class_contribute.html" -->
-<!--#include virtual="/inc/header.html" -->
-
-<div class="key-point">
-	<div>
-		<div id="desc">
+	<section id="key-point">
+		<header>
 			<h2>參與我們</h2>
-			<p>MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。</p>
-		</div>
-        <div id="video">
-        	<script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
+		</header>
+		<script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
 			({
 				"base_state": {"language": "zh-tw"},
 				"video_url": "http://videos.mozilla.org/serv/brand/Mozilla_Firefox_Manifesto_v0.1.ogv",
 				"video_config": {
-           			click_to_play: true,
+					click_to_play: true,
 					color: 'FF0000',
 					poster: "poster-brand.jpg",
 					id: "videoPlayer"
 				}
 			})
-			</script>
-            
-        </div>
-	</div>
-</div>
+		</script>
+		<p>MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。</p>
+	</section>
 
-<div id="mainContent" class="right">
-<div id="tabs">
-	<ul>
-		<!--<li><a href="#tabs-1">新手上路</a></li>-->
-		<li><a href="#tabs-2">依興趣檢視</a></li>
-		<!--<li><a href="#tabs-3">依所需時間檢視</a></li>-->
-		<li><a href="#tabs-4">留下資料</a></li>
-        <!-- <li><a href="amazing.htm">神奇海螺</a></li> -->
-	</ul>
-<!--
-	<div id="tabs-1">
-		<p>無論您的專長或興趣是什麼，都能夠在眾多專案裡找到一片天空。以下是幾個能快速上手的新手任務，歡迎先動手試試！</p>
-        <h1>回答使用問題</h1>
-		<ul>
-			<li>註冊 gfx.tw 或 Firefox 夥伴計畫</li>
-			<li>程式開發者的新手任務</li>
-			<li>協辦 MozTW 摩茲連續聚</li>
-		</ul>
-	</div>
--->
+	<section id="org">
+		<h2>有哪些組織、網站？</h2>
+
+		<div class="container">
+			
+			<section>
+				<h3><a href="http://moztw.org/">MozTW</a></h3>
+				<p>
+				MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。
+				</p>
+			</section>
+
+			<section>
+				<h3><a href="http://moztw.org/">Mozilla TW company</a></h3>
+				<p>
+				MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。
+				</p>
+			</section>
+
+			<section>
+				<h3><a href="http://moztw.org/">TW student rep</a></h3>
+				<p>
+				MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。
+				</p>
+			</section>
+
+			<section>
+				<h3><a href="http://mozlinks-zh.blogspot.com/">MozLinks</a></h3>
+				<p>
+				MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。
+				</p>
+			</section>
+
+			<section>
+				<h3><a href="http://moztw.org/">mozilla-dev list</a></h3>
+				<p>
+				MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。
+				</p>
+			</section>
+
+			<section>
+				<h3><a href="http://moztw.org/">MozTW</a></h3>
+				<p>
+				MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。
+				</p>
+			</section>
+		</div>
+
+	</section>
+
+	<div id="main-content" class="row">
 	
-	<div id="tabs-2">
-		<p>有興趣幫助其他使用者解決 Firefox 和其他 Mozilla 專案上的問題？我們的論壇以及使用者疑難排解，仰賴於像您一樣熱情的貢獻者。</p>
+		<section class="left width-700">
+			<h2>有哪些專案？</h2>
+			
+			<section id="project-sumo">
+				<h3><a href="http://moztw.org/contribute/sumo/">SUMO</a></h3>
+				<p>SUMO 是 SUpport MOzilla 的縮寫字。透過文件、討論區、論壇、郵件清單等方式，支援全球各種語言介面的 Mozilla 產品使用者，例如：Firefox、行動版 Firefox、Thunderbird 等等。更多介紹請<a href="http://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012">參考這裡。</a></p>
+			</section>
+			
+			<section>
+				<h3><a href="https://localize.mozilla.org/zh_TW/mdn/">MDN</a></h3>
+				<p>SUMO 是 SUpport MOzilla 的縮寫字。透過文件、討論區、論壇、郵件清單等方式，支援全球各種語言介面的 Mozilla 產品使用者，例如：Firefox、行動版 Firefox、Thunderbird 等等。更多介紹請<a href="http://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012">參考這裡。</a></p>
+			</section>
+		
+			<section>
+				<h3><a href="http://moztw.org/contribute/sumo/">SUMO</a></h3>
+				<p>SUMO 是 SUpport MOzilla 的縮寫字。透過文件、討論區、論壇、郵件清單等方式，支援全球各種語言介面的 Mozilla 產品使用者，例如：Firefox、行動版 Firefox、Thunderbird 等等。更多介紹請<a href="http://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012">參考這裡。</a></p>
+			</section>
+		</section>
 
-		<div class="content_block">
-			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-			<div class="intro_desc">
-				<h2>幫助新手</h2>
-				<p>有興趣幫助其他使用者解決 Firefox 和其他 Mozilla 專案上的問題？我們的論壇以及使用者疑難排解，仰賴於像您一樣熱情的貢獻者。</p>
-				<a href="http://forum.moztw.org/search.php?search_id=unanswered"><div class="key-point button">回答討論區上的問題</div></a>
-				<a href="https://support.mozilla.org/zh-TW/army-of-awesome"><div class="key-point button">Army of Awesome!</div></a>
-				<a href="https://support.mozilla.org/zh-TW/kb/superheroes-wanted"><div class="key-point button">徵求超人義工!</div></a>
-			</div>
+		<div class="right width-220">
+			<aside>
+				<h3>最近討論</h3>
+				<ul id="moztw-general-news">
+				</ul>
+			</aside>
 		</div>
-		<div class="content_block">
-			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-			<div class="intro_desc">
-				<h2>推廣 MozTW 社群</h2>
-				<p>什麼什麼gfx.tw</p>
-				<a href="http://mozilla.com.tw/community/student/"><div class="key-point button">Firefox 校園大使</div></a>
-				<!-- <a href="#"><div class="key-point button">詳細資訊</div></a> -->
-				<!-- <a href="#"><div class="key-point button">MozTW 連續聚</div></a> -->
-			</div>
-		</div>
-		<div class="content_block">
-			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-			<div class="intro_desc">
-				<h2>在地化</h2>
-				<p>和 Mozilla 一起打造 Firefox、Tunderbird 和其他專案屬於你的語言。並且透過翻譯我們網站上的內容，協助我們告訴世界 Mozilla 正在打造更棒的網際網路。</p>
-				<a href="https://groups.google.com/d/topic/moztw-general/92t-umaKqUw/discussion"><div class="key-point button">詳細資訊</div></a>
-				<a href="https://wiki.mozilla.org/L10n"><div class="key-point button">軟體網頁在地化專案</div></a>
-				<a href="https://support.mozilla.org/zh-TW/kb/localize-firefox-help"><div class="key-point button">說明文件在地化</div></a>
-			</div>
-        </div>
-		<div class="content_block">
-		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-			<div class="intro_desc">
-				<h2>視覺設計</h2>
-				<p>我們相信優秀、多元藝術的力量，並且希望讓藝術工作者以及被 Mozilla 所啟發的設計進入網路的世界。加入我們的 Creative Collective 挑戰，或者到我們的社群商店放上您的 T-shirt 設計。</p>
-				<a href="http://www.slideshare.net/irvinfly/foxmosa"><div class="key-point button">Foxmosa 繪師招募</div></a>
-			</div>
-		</div>
-		<div class="content_block">
-		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-			<div class="intro_desc">
-				<h2>管理網站更新</h2>
-				<p>你常常認為自己以不同的角度看世界嗎？你的腦袋常常浮現零和一嗎？快加入我們，成為一名神聖的系統管理者，默默地在背後維護世界和平的運作。</p>
-				<a href="https://groups.google.com/d/topic/moztw-general/VUsDlxi3z5A/discussion"><div class="key-point button">詳細資訊</div></a>
-				<a href="https://github.com/moztw/svn"><div class="key-point button">Github</div></a>
-			</div>
-		</div>
-		<!-- <div class="content_block">
-		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-			<div class="intro_desc">
-				<h2>規劃、執行推廣活動</h2>
-				<p>協助我們告訴大家火狐和其他 Mozilla 專案如何建造更好的網際網路。您可以透過很多方式向使用者、開發者和學生推廣 Mozilla。</p>
-				<a href="#"><div class="key-point button">MozTW SVN</div></a>
-				<a href="#"><div class="key-point button">HTML 驗證</div></a>
-			</div>
-		</div> -->
-		<!-- <div class="content_block">
-		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-		<div class="intro_desc">
-			<h2>撰寫、翻譯開發文件</h2>
-			<p>Mozilla Developer Network 集結關於 Mozilla 技術的資訊。透過撰寫新的內容、修正既有文章、翻譯內容，讓我們的文件變得更棒吧！</p>
-			<a href="#"><div class="key-point button">MozTW SVN</div></a>
-			<a href="#"><div class="key-point button">HTML 驗證</div></a>
-		</div>
-		</div> -->
-		<!-- <div class="content_block">
-		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-		<div class="intro_desc">
-			<h2>軟體測試品保</h2>
-			<p>透過擔任 QA 的工作，幫助我們獵捕躲藏在 Firefox 的臭蟲、測試 Mozilla 網頁或者是參與更多不同的產品測試，都是能夠對於我們的程式碼以及開發工具更加熟悉，並且融入 Mozilla 這個大團體。</p>
-			<a href="#"><div class="key-point button">MozTW SVN</div></a>
-			<a href="#"><div class="key-point button">HTML 驗證</div></a>
-		</div>
-		</div> -->
-		<!-- <div class="content_block">
-		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-		<div class="intro_desc">
-			<h2>執行使用者研究</h2>
-			<p>成為使用者研究團隊的一員—您可以當個調查受試者，也可以自己進行可用性測試，或者分析 Test Pilot 上面的數據。我們需要您的加入！</p>
-			<a href="#"><div class="key-point button">MozTW SVN</div></a>
-			<a href="#"><div class="key-point button">HTML 驗證</div></a>
-		</div>
-		</div> -->
-		<div class="content_block">
-			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-			<div class="intro_desc">
-				<h2>開發擴充套件</h2>
-				<p>Firefox 和其他 Mozilla-based 應用程式擁有超有力的擴充元件系統，讓您可以為程式做可大可小的改造。如果您對這些技術不太熟悉，可以瞭解如何建構附加元件。對於進階使用者，您可以學習如何成為 AMO 編輯者。</p>
-				<a href="https://addons.mozilla.org/zh-TW/developers/"><div class="key-point button">附加套件 開發者交流中心</div></a>
-				<a href="https://forums.addons.mozilla.org/"><div class="key-point button">開發者討論區</div></a>
-			</div>
-		</div>
-		<div class="content_block">
-			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-			<div class="intro_desc">
-				<h2>Mozilla 軟體開發</h2>
-				<p>開發者可以替 Mozilla 增加新功能，讓 Firefox 變得更輕更巧更強大。你可以在 IRC 頻道上找到許多開發者，那裡是很棒的發問管道。我們的網站也歡迎網頁忍者來駭一駭。</p>
-				<a href="https://groups.google.com/d/topic/moztw-general/1D4P6IBE-p0/discussion"><div class="key-point button">詳細資訊</div></a>
-				<a href="http://whatcanidoformozilla.org/"><div class="key-point button">我能做什麼</div></a>
-			</div>
-		</div>
-	</div>
-<!--
-	<div id="tabs-3">
-		<p>您只有五分鐘能幫忙嗎？或者就想長久、深入地參與這些專案？以下是依據可能花費的時間，列出的建議參與方式。</p>
-		<h1>依時間序編排專案、介紹與連結</h1>
-	</div>
--->
-	<div id="tabs-4">
-		<h1>填寫資料給我們</h1>
-		<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDdDdUlyWWhQQTczelZZb1k5VjAwbnc6MQ" width="530" height="3100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-	</div>
-</div>
-</div>
-<div id="side" class="right">
-<h3>MozTW Lab</h3>
-	<div id="topic">
-    <p>
-		<!-- <img src="http://moztw.org/events/gathering/gathering-title.png" width="320"></img> -->
-		<img src="moztw-general.png" style="float: left; width: 100px; margin-right: 10px"></img>
-        MozTW 摩茲連續聚，以輕鬆歡樂無負擔的方式、要與大家一起提升彼此的網際體驗。每次內容不拘、地點好談，歡迎來聊。 連續聚內容由參加者自由報名發表，跟網路、Mozilla、自由相關的什麼主題都可以，當場協調時間。
-	</p>
-    <a href="/events/moztw-lab/"><div class="key-point button"><h2>了解更多 &gt;&gt;</h2></div></a>
-    </div><br><br>
-<h3>與我們互動吧</h3>
-	<div id="topic">
-		<p>
-			<ul>
-				<li><a href="https://groups.google.com/forum/?fromgroups=#!forum/moztw-general">moztw-general: 摩茲將軍</a></li>
-				<li>irc: irc.mozilla.org #mozilla-taiwan</li>
-			</ul>
-		</p>
-	</div>
-<h3 style="word-break: keep-all; word-wrap: normal;white-space:nowrap;"><img src="/images/foxmosa-mail-01.jpg"></img>工作團隊最近討論</h3>
-	
-	<div class="mailing-list">
-		<p id="mailing-list-loading">
-		</p>
-	</div>
-	<div class="subscribe">
-		<h2> </h2>
-		<form action="http://groups-beta.google.com/group/moztw-general/boxsubscribe">
-			<div>
-			<br/>
-			<input type="text" name="email" value="輸入您的 E-mail" onClick="$(this).val('');" class="ui-widget ui-widget-content ui-corner-all"/>
-			<br/>
-			<input type="submit" value="訂  閱" name="sub" style="float:right;" class="key-point button" />
-			</div>
-		</form>
-    </div>
-    
-    
-	</div>
-<!--script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script-->
-<script type="text/javascript">
-/*
- * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
- *
- * Copyright (c) 2009 jQuery HowTo
- *
- * Licensed under the GPL license:
- *   http://www.gnu.org/licenses/gpl.html
- *
- * URL:
- *   http://jquery-howto.blogspot.com
- *
- * Author URL:
- *   http://me.boo.uz
- *
- */
-(function($){$.extend({jGFeed:function(url,fnk,num,key){if(url==null){return false;}var gurl="http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;if(num!=null){gurl+="&num="+num;}if(key!=null){gurl+="&key="+key;}$.getJSON(gurl,function(data){if(typeof fnk=="function"){ if (data.responseData)fnk.call(this,data.responseData.feed);else fnk.call(this,false);}else{return false;}});}});})(jQuery);
-</script>
-<script type="text/javascript">
-function updateFeed() {
-	$.jGFeed(
-		'http://groups.google.com/group/moztw-general/feed/atom_v1_0_msgs.xml', //?' + parseInt((new Date()).getTime()/30*60*1000), // Don't use this hack coz we need scoring=h
-		function (feed) {
-			if (!feed) {
-				//Failed
-				$('.mailing-list').hide();
-				return;
-			}
-			$ul = $('div.mailing-list');
-			var thread = {};
-			$.each(
-				feed.entries,
-				function () {
-					var cleantitle = this.title.replace(/(Re|回覆)(:|：) ?/g, '').replace(/\[(moztw-general|MozTW-Dev)\] ?/g, '');
-					if (!thread[cleantitle]) {
-						thread[cleantitle] = [];
-					}
-					if (thread[cleantitle].length >= 3) {
-						if (!thread[cleantitle].mlength) thread[cleantitle].mlength = 0;
-						thread[cleantitle].mlength++;
-						return;
-					}
-					thread[cleantitle].link = this.link; //push the post's link into thread array
-					var d = new Date(this.publishedDate);
-					thread[cleantitle].push(
-						{
-							link: this.link.replace(/^http:/,'https:'),
-							author: this.author.replace(/\@([\w.]+)/, ''), //eraser email address
-							date: (d.getMonth()+1).toString(10) + '/' + d.getDate().toString(10) + ' ' + d.getHours().toString(10) + ':' + ((d.getMinutes() < 10)?'0':'') + d.getMinutes().toString(10)
-						}
-					);
-				}
-			);
-			$ul.empty();
-			var counter = 0;
-			$.each(
-				thread,
-				function (key) {
-					if(counter==5){
-						return;
-					}
-					var $li = $('<div class="mail_block" />').append($('<div class="title">' + key+'</div>'));
-					var str = "";
-					$.each(
-						this,
-						function (i) {
-							if(i==0){
-								$li.prepend('<p class="date">'+this.date+'</p>');
-							}
-							str += (this.author+', '); //temporary saved in str
-						}
-					);
-					str = str.substr(0, str.length-2);
-					//$li.text($li.text().substr(0, $li.text().length -2));
-					if (this.mlength) {
-						//$li.append($('<span class="length" />').text('超過' + (this.mlength + this.length).toString(10) + '篇...'));
-						str+=(" 等" + (this.mlength + this.length).toString(10) + '篇');
-					}
-					$li.append('<p class="author">'+str+'</p>' );
-					var $anchor = $('<a target="_new" class="mail_link" href="'+this.link+'" />').append($li);
-					$ul.append($anchor);
-					counter++;
-				}
-			);
-		},
-		100 //As many as we can
-	);
-}
 
-$(function(){
-	updateFeed();
-	setInterval(
-		updateFeed,
-		60*60*1000 // 1hr "The Google feed crawler ("Feedfetcher") retrieves feeds from most sites less than once every hour."
-	);
-	$('h3.toggle, span.toggle')
-	.prepend($('<span class="indicator" />').text('+'))
-	.bind('click', function () {
-		$(this).nextAll('div.toggle:first, ol.toggle:first').slideToggle(250); 
-		$i = $(this).children('.indicator');
-		if ($i.text() === '+') $i.text('-');
-		else $i.text('+');
-	});
-});
-</script>
+	</div>
 
-<!--#include virtual="/inc/footer.html" -->
+	<form id="mailinglist" class="billboard" action="http://groups-beta.google.com/group/moztw-general/boxsubscribe">
+		<h3>訂閱我們</h3>
+		<input type="email" name="email" placeholder="YOUR EMAIL HERE" />
+		<input type="submit" class="button" value="訂閱 »" />
+	</form>
 
+	<script src="main.js"></script>
+<!--#include virtual="/inc/new_footer.html" -->
