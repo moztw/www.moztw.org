@@ -28,7 +28,9 @@
 		    thread = {},
 		    current,
 		    tmp,
-		    i;
+		    i,
+		    btn,
+		    form;
 		
 		data.forEach(function (val) {
 			val.title = val.title.replace(/(Re|回覆)(:|：) ?/g, '').replace(/\[(moztw-general|MozTW-Dev)\] ?/g, '');
@@ -70,7 +72,30 @@
 			}
 		}
 		news.innerHTML = content;
-		
+		btn = document.createElement('a');
+		btn.innerHTML = '訂閱！';
+		btn.setAttribute('href', '#mailinglist');
+		btn.setAttribute('class', 'btnfollowus');
+		console.log(btn);
+		news.appendChild(btn);
+
+		form = document.getElementById('mailinglist');
+
+		btn.addEventListener('click', function (e) {
+			setTimeout(function () {
+				form.style.border = '1px #F60 solid';
+				setTimeout(function (e) {
+					form.style.border = 'none';
+					setTimeout(function () {
+						form.style.border = '1px #F60 solid';
+						setTimeout(function (e) {
+							form.style.border = 'none';
+						}, 100);
+					}, 100);
+				}, 100);
+			}, 100);
+			return false;
+		});
 	};
 
 	window.newsRenderer = newsRenderer;

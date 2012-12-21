@@ -52,6 +52,7 @@
 
 #moztw-general-news {
 	margin-left: 20px;
+	position: relative;
 }
 
 #mailinglist {
@@ -92,4 +93,11 @@
 #org .container section:nth-child(odd) {
 	float: left;
 	padding: 2% 1% 2% 0;
+}
+
+.btnfollowus {
+	position: absolute;
+	right: 0;
+	top: -35px;
+	cursor: pointer;
 }
