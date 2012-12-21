@@ -1,0 +1,95 @@
+#key-point > * {
+	float: left;
+	width: 680px;
+}
+
+#key-point .cleanslate {
+	float: right !important;
+}
+
+#key-point video {
+	width: 260px !important;
+	display: block !important;
+}
+
+#key-point .unisubs-videoTab-container {
+	display: none !important;
+}
+
+#main-content {
+	margin-bottom: 40px;
+}
+
+#main-content .left section {
+	margin-bottom: 20px;
+	position: relative;
+	padding-left: 120px;
+	padding-bottom: 15px;
+	min-height: 100px;
+	border-bottom: 1px #CCC dotted;
+}
+
+#main-content .left section::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 90px;
+	height: 90px;
+	border: 5px rgba(255, 255, 255, 0.5) solid;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+	background: url(../images/new_style/foxmosa-icon.gif) center center;
+}
+
+#main-content #project-sumo::before {
+	background: url(../images/new_style/sumo.png) center -10px;
+}
+
+#moztw-general-news {
+	margin-left: 20px;
+}
+
+#mailinglist {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
+
+#mailinglist > * {
+	float: right;
+}
+
+#mailinglist h3 {
+	float: left;
+	width: 300px;
+}
+
+#mailinglist input[type=email] {
+	float: left;
+	width: 300px;
+}
+
+#org {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#org .container {
+	overflow: hidden;
+}
+
+#org .container section {
+	float: right;
+	width: 48%;
+	padding: 2% 0 2% 1%;
+}
+
+#org .container section:nth-child(odd) {
+	float: left;
+	padding: 2% 1% 2% 0;
+}
