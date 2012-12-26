@@ -141,6 +141,15 @@ h1, h2, h3, h4, h5, h6, .large {
 	width: 700px;
 }
 
+.divider {
+	margin: 40px 0;
+	border-bottom: 1px rgba(0, 0, 0, 0.1) dashed;
+}
+
+.hide {
+	display: none;
+}
+
 .billboard {
 	background: #FFF;
 	padding: 0 40px;
@@ -471,4 +480,34 @@ input[type=text]:focus, input[type=email]:focus {
 	border-top-color: #A91300;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
+}
+
+@media screen and (max-width: 1000px), screen and (max-device-width: 1000px){
+	#colophon .container {
+		width: 760px;
+	}
+	
+	#outer_wrapper {
+		width: 760px;
+	}
+}
+
+@media screen and (max-width: 820px), screen and (max-device-width: 820px){
+	#colophon .container {
+		width: 520px;
+	}
+	
+	#outer_wrapper {
+		width: 520px;
+	}
+}
+
+@media screen and (max-width: 520px), screen and (max-device-width: 520px){
+	#colophon .container {
+		width: 100%;
+	}
+	
+	#outer_wrapper {
+		width: 100%;
+	}
 }

@@ -15,9 +15,9 @@
 	</hgroup>
 
     <section id="key-point">
-<!--    	<header>
+    	<header class="hide">
     		<h2>Mozilla 全球社群</h2>
-    	</header>-->
+    	</header>
     	<script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
     		({
     			"base_state": {"language": "zh-tw"},
@@ -86,10 +86,10 @@
 				<p class="link">→ <a href="https://www.facebook.com/groups/studentreps.taiwan/">Facebook 社團</a></p>
 			</section>
 						
-            <section>
-                	<h3><a href="http://mozilla.com.tw/community/student/">Mozillians <span class="subtitle">Mozilla 社群通訊錄</span></a></h3>
-                	<p>你身為 Mozillian，想要找些夥伴在高雄辦聚會？需要一個專業的 XPCOM 駭客幫忙審核某個 patch？想要獲得 Mozilla 基金會第一手消息？Mozillians 社群通訊錄就是個可以讓你尋找志同道合夥伴的地方，歡迎加入！</p>
-            </section>
+			<section>
+				<h3><a href="http://mozilla.com.tw/community/student/">Mozillians <span class="subtitle">Mozilla 社群通訊錄</span></a></h3>
+				<p>你身為 Mozillian，想要找些夥伴在高雄辦聚會？需要一個專業的 XPCOM 駭客幫忙審核某個 patch？想要獲得 Mozilla 基金會第一手消息？Mozillians 社群通訊錄就是個可以讓你尋找志同道合夥伴的地方，歡迎加入！</p>
+			</section>
             
 			<section>
 				<h3><a href="http://mozilla.com.tw/community/student/">Firefox Hong Kong Users</a></h3>
@@ -99,12 +99,12 @@
 				    <a href="groups.google.com/group/firefoxhongkong" target="_blank">Google Group</a></p>
 			</section>
 
-            <section>
-                	<h3><a href="http://www.mozilla.org/contribute/local/">Mozilla Reps <span class="subtitle">Mozilla 代表計畫</span></a></h3>
-                	<p>Mozilla Reps 計畫的目標是<abbr title="empower">致能</abbr>與支持志工成為 Mozilla 地域性╱各語系官方代表，並提供簡易的框架與工具協助 Mozillians 組織活動、招募貢獻者。Mozilla Reps 透過跨國通力合作、支持在地社群，並促使 Mozilla 全球貢獻者成長與茁壯。</p>
-                <p class="link">→ 
-                    <a href="http://reps.mozilla.org/people/country/Taiwan/" target="_blank">台灣的 Mozilla Reps</a></p>	
-            </section>
+			<section>
+				<h3><a href="http://www.mozilla.org/contribute/local/">Mozilla Reps <span class="subtitle">Mozilla 代表計畫</span></a></h3>
+				<p>Mozilla Reps 計畫的目標是<abbr title="empower">致能</abbr>與支持志工成為 Mozilla 地域性╱各語系官方代表，並提供簡易的框架與工具協助 Mozillians 組織活動、招募貢獻者。Mozilla Reps 透過跨國通力合作、支持在地社群，並促使 Mozilla 全球貢獻者成長與茁壯。</p>
+			<p class="link">→ 
+			    <a href="http://reps.mozilla.org/people/country/Taiwan/" target="_blank">台灣的 Mozilla Reps</a></p>	
+			</section>
 
 			<section>
 			    	<h3><a href="http://www.mozilla.org/contribute/local/">Mozilla 全球在地社群</a></h3>
@@ -128,6 +128,8 @@
 		</div>
 
 	</section>
+
+	<div class="divider" style="margin-top: 0;"></div>
 
 	<div id="project" class="row">
 	
