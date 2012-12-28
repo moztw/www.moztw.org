@@ -29,7 +29,7 @@
 			<a id="donate-button" href="https://donate.mozilla.org/page/contribute/mozillatshirt" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'donate.mozilla.org-mozillatshirt']);">
 				<span class="title">立即捐款 !</span>並獲得 T-shirt&nbsp;
 			</a>
-			<span class="help">* 連結到 Mozilla 基金會英文網頁</span>
+			<span class="help">註：連結到 Mozilla 基金會英文頁面<br>　　MozTW 社群未收受╱經手款項</span>
 		</div>
 	</section>
 <!--#include virtual="/inc/new_footer.html" -->
