@@ -1,0 +1,52 @@
+#key-point {
+	height: 225px;
+	background: url(./images/promo-fxtshirt.jpg);
+}
+
+#key-point h2 {
+	color: #FFF;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	margin-bottom: 20px;
+}
+
+#key-point p {
+	width: 650px;
+	margin-bottom: 20px;
+}
+
+#youtube {
+	margin-bottom: 40px;
+}
+
+#youtube .left {
+	width: 600px;
+}
+
+#youtube .right {
+	position: relative;
+	height: 338px;
+	width: 360px;
+}
+
+#donate-button {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	height: 80px;
+	line-height: 40px;
+	width: 300px;
+	margin-top: -30px;
+	margin-left: -150px;
+	text-align: center;
+	background: #0789bb;
+	cursor: pointer;
+	color: #FFF;
+	font-size: 24px;
+	border-bottom: 3px #046e96 solid;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: inset 0 0 2px #046e96;
+	padding: 10px 0;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
