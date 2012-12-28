@@ -34,13 +34,14 @@ function highlightDownload() {
     eFeature.style.backgroundImage = "url(images/4-feature-" + platform + ".png)";
   }
   */
+  /*
   if ((platform == "ios") || (platform == "android" && navigator.userAgent.indexOf("Firefox") != -1 )){
 		// COSCUP Mission
 		efront = document.getElementById("front-feature");
 		efront.className += " coscup";
 		$("#mobile_link")[0].href="foxmosa/game/pairs/";		
   }
-  
+  */
   // 換首頁 Feature Block
   eFeature = document.getElementById("feature-thunderbird");
   if (eFeature && platform != "unknown"){

@@ -12,7 +12,7 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
 }
 
-.front-feature #mobile_link {
+.front-feature #donate_link {
     display: block;
     position: absolute;
     right: 0;
@@ -21,10 +21,39 @@
     height: 100%;
     z-index: 0;
     text-decoration: none;
+    background: url("donate/images/moz-join-tshirts.png") no-repeat right 30px;
+    margin-right: 35px;
+    cursor: pointer;
 }
-.front-feature #mobile_link:hover, .front-feature #mobile_link:visited {
-    background: none;
-    text-decoration: none;
+
+.front-feature #donate_link div {
+    color: white;
+    font-size: 16px;
+	font-family: "Helvetica", "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
+    padding: 0;
+    position: absolute;
+    right: 215px;
+    text-shadow: 1px 2px 5px #666;
+    bottom: 20px;
+    width: 50%;
+}
+
+.front-feature #donate_link:hover div {
+    text-shadow: 1px 2px 5px #000;
+}
+
+
+.front-feature #donate_link div h1 {
+	font-family: "Helvetica", "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
+    font-size: 2em;
+    border: none;
+    line-height: 1.8em;
+    font-weight: bold;
+}
+
+.front-feature #donate_link div p {
+    font-size: 1.1em;
+    line-height: 1.5em;
 }
 
 #feature-content h2 {
@@ -99,22 +128,9 @@
 }
 
 .key-point {
-    background: url("/images/firefox_mobile14.png") no-repeat 305px bottom #78B8D0;
-}
-.key-point.coscup {
-    background: url("images/pairslogo.jpg") 75% center no-repeat #D3A77D;
-    background-size: auto 100%;
-}
-
-.event-desc {
-    color: white;
-    font-family: sans-serif;
-    font-size: 1.6em;
-    font-weight: bold;
-    left: 0;
-    position: absolute;
-    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
-    top: 240px;
+    background-color: #7D98B1;
+    background-image: linear-gradient(to bottom, #7D98B1, #3F4E61);
+    background-image: -webkit-linear-gradient(to bottom, #7D98B1, #3F4E61);
 }
 
 .homepage .download {
@@ -126,57 +142,40 @@
         display: none;
     }
     #front-feature {
-        background-position: 30% 0px;
-        background-size: auto 100%;
-        padding-bottom: 200px;
-        background-repeat: no-repeat;
+        padding-bottom: 250px;
     }
-    #front-feature.coscup {
-        background-position: center 60%;
-        background-size: 105% auto;
-        padding-bottom: 245px;
-    }
-    
-    coscup {
-        background-position: 0px 0px !important;
-        background-size 90% !important;
-        padding-bottom: 200px;
-        background-repeat: no-repeat;
-        background: #78B8D0 !important;
-    }
-    .front-feature #mobile_link {
-        width: 100%;
+    .front-feature #donate_link {
+        background-size: 50% auto;
         height: 100%;
-    }
-    .event-desc {
-        left: 0;
-        position: absolute;
-        top: 145px;
-        font-size: 1.33em;
-        text-align: center;
-        margin: 0 auto !important;
+        margin-right: 10px;
         width: 100%;
+    }
+    .front-feature #donate_link div {
+        bottom: 15px;
+        left: 35px;
+        right: auto;
+        width: 75%;
     }
 }
     
 -->
 </style>
-<!--[if lte IE 8]>
+<!--[if lte IE 9]>
 <style>
+.front-feature #donate_link div {
+    font-weight: bold;
+}
+
+.front-feature #donate_link:hover {
+    background-color: #6E89A5;
+}
+
 .frontcolumn {
     padding-right: 2%;
 }
 #front-feature .download ul, #planets ul {
     margin-left: 0;
 }
-.front-feature #mobile_link {
-    height: 330px;
-    width: 70%;
-}
-</style>
-<![endif]-->
-<!--[if lte IE 6]>
-<style>
 </style>
 <![endif]-->
 
@@ -184,7 +183,12 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-  <a id="mobile_link" href="/mobile/"></a>
+  <a id="donate_link" href="/donate/">
+      <div>
+          <h1>支持 Mozilla</h1>
+          <p>年度募款最後三天！<br>贊助 Mozilla 基金會 30 美金以上，<br>就能獲得一件 Firefox T-shirt。</p>
+      </div>
+  </a>
   <div id="feature-content">
     <h2><a class="fx-link" href="/firefox/"><img src="images/logo-wordmark-mozilla-small.png" alt="Firefox" height="84" width="240"></a></h2>
     <div class="download dl-box">
