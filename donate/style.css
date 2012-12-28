@@ -1,17 +1,43 @@
+body {
+	font-family: "Helvetica", "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
+}
+#wrapper {
+	padding: 36px 0;
+}
+#main-feature h1 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+}
+#main-feature h1 .zh {
+	bottom: -10px;
+	display: inline-block;
+	font-size: 0.7em;
+	margin-right: 0.15em;
+	position: relative;
+	vertical-align: bottom;
+}
+
+#main-feature h2 {
+	color: #999;
+}
+
 #key-point {
-	height: 225px;
-	background: url(./images/promo-fxtshirt.jpg);
+	padding: 30px 20px 25px;
+	background: url("./images/promo-fxtshirt.jpg") no-repeat right bottom #414d59;
+	margin-bottom: 48px;
 }
 
 #key-point h2 {
 	color: #FFF;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 #key-point p {
+	font-size: 1.1em;
+	line-height: 1.5em;
+	margin-top: 20px;
 	width: 650px;
-	margin-bottom: 20px;
 }
 
 #youtube {
@@ -19,34 +45,41 @@
 }
 
 #youtube .left {
-	width: 600px;
+	width: 640px;
 }
 
 #youtube .right {
 	position: relative;
-	height: 338px;
+	height: 360px;
 	width: 360px;
 }
 
 #donate-button {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	height: 80px;
-	line-height: 40px;
-	width: 300px;
-	margin-top: -30px;
-	margin-left: -150px;
-	text-align: center;
-	background: #0789bb;
-	cursor: pointer;
-	color: #FFF;
-	font-size: 24px;
-	border-bottom: 3px #046e96 solid;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
+	background: #0789BB;
+	border-bottom: 3px solid #046E96;
 	border-radius: 5px;
-	box-shadow: inset 0 0 2px #046e96;
-	padding: 10px 0;
+	box-shadow: 0 0 2px #046E96 inset;
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+	height: 62px;
+	line-height: 37px;
+	padding: 18px 0;
+	position: absolute;
+	right: 15px;
+	text-align: center;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	top: 160px;
+	width: 280px;
+}
+
+#donate-button .title {
+	display: block;
+	font-size: 36px;
+}
+.help {
+	color: #414D59;
+	position: absolute;
+	right: 20px;
+	top: 270px;
 }

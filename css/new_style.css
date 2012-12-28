@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 @import url(../fonts/awesome.css);
 
 html, body, div, span, applet, object, iframe,
@@ -25,7 +25,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body {
 	font-size: 14px;
 	background: url(../images/new_style/bg-gradient-sand.png) top left repeat-x, url(../images/new_style/bg-sand.png) repeat 0 0, #F5F1E8;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', "Helvetica", "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
 	border-top: 2px #FFF solid;
 	color: #333;
 	line-height: 1.5;
@@ -93,7 +93,7 @@ h1 {
 }
 
 h2 {
-	font-size: 32px;
+	font-size: 28px;
 	letter-spacing: -1px;
 	line-height: 100%;
 }
@@ -186,7 +186,49 @@ h1, h2, h3, h4, h5, h6, .large {
 
 #masthead {
 	position: relative;
-	height: 63px;
+	height: 75px;
+}
+
+#masthead #moztw-link {
+	left: 0;
+	position: absolute;
+	top: -105px;
+}
+
+#masthead #moztw-link {
+	left: 0;
+	position: absolute;
+	top: -10px;
+}
+
+#masthead #moztw-link-text {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#masthead #moztw-link a {
+	color: #484848;
+	text-decoration: none;
+}
+
+#moztw-link-english {
+	bottom: -29px;
+	color: #666666;
+	font-size: 19px;
+	left: 2px;
+	letter-spacing: 2px;
+	position: absolute;
+	width: 100px;
+}
+
+#moztw-link-chinese {
+	bottom: -28px;
+	color: #666666;
+	font-size: 17px;
+	left: 75px;
+	letter-spacing: 3px;
+	position: absolute;
+	width: 200px;
 }
 
 #outer_wrapper {
@@ -198,19 +240,19 @@ h1, h2, h3, h4, h5, h6, .large {
 	position: absolute;
 	right: 160px;
 	top: 0;
-	height; 40px;
+	height: 40px;
 }
 
 #nav-main-menu {
 	height: 40px;
 	overfloat: hidden;
 	text-transform: uppercase;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 #nav-main-menu li {
 	float: right;
-	padding: 0 15px;
+	padding: 0 1em;
 	line-height: 40px;
 	list-style: none;
 }
@@ -256,6 +298,7 @@ h1, h2, h3, h4, h5, h6, .large {
 }
 
 #key-point h2 {
+	font-size: 32px;
 	color: #FFF;
 	text-shadow: inset 0 1px rgba(0, 0, 0, 0.5);
 }
@@ -277,13 +320,11 @@ h1, h2, h3, h4, h5, h6, .large {
 
 #colophon .copyright {
 	float: right;
-	width: 860px;
 	text-align: right;
 }
 
 #colophon .logo {
 	float: left;
-	width: 100px;
 }
 
 /** ipnut **/
