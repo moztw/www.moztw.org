@@ -76,7 +76,7 @@
 		btn.innerHTML = '訂閱！';
 		btn.setAttribute('href', '#mailinglist');
 		btn.setAttribute('class', 'btnfollowus');
-		console.log(btn);
+		//console.log(btn);
 		news.appendChild(btn);
 
 		form = document.getElementById('mailinglist');

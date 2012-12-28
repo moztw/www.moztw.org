@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(../fonts/awesome.css);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -509,5 +510,56 @@ input[type=text]:focus, input[type=email]:focus {
 	
 	#outer_wrapper {
 		width: 100%;
+	}
+
+	#main-feature h1 {
+		font-size: 72px;
+	}
+
+	#nav-main {
+		right: auto;
+		left: 10px;
+		top: 0px;
+		width: 36px;
+		height: 36px;
+		cursor: pointer;
+	}
+
+	#nav-main:before {
+		position: absolute;
+		content: '\f0c9';
+		height: 36px;
+		width: 36px;
+		font-size: 32px;
+		font-family: "FontAwesome";
+		top: 0;
+		left: 0;
+		color: #F5F5F5;
+		text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(255, 255, 255, 0.8);
+	}
+	
+	#nav-main-menu {
+		position: absolute;
+		left: -140px;
+		top: 40px;
+		width: 130px;
+		-webkit-transition: left 0.5s ease;
+		-moz-transition: left 0.5s ease;
+		-ms-transition: left 0.5s ease;
+		-o-transition: left 0.5s ease;
+		transition: left 0.5s ease;
+	}
+
+	#nav-main.open #nav-main-menu {
+		left: 0px;
+	}
+
+	#nav-main-menu li {
+		display: block;
+		float: left;
+		background: #FFF;
+		width: auto;
+		margin-top: 5px;
+		box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 	}
 }
