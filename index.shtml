@@ -178,6 +178,27 @@
 }
 </style>
 <![endif]-->
+<!--[if lte IE 7]>
+<style>
+.key-point {
+    position: relative;
+}
+.front-feature #donate_link {
+    height: 325px;
+    background: yellow;
+    position: absolute;
+    left: 340px;
+    background: url("/donate/images/moz-join-tshirts.png") no-repeat top right;
+    margin: 0;
+    padding: 0;
+}
+.front-feature #donate_link div {
+    position: absolute;
+    left: 0;
+    width: 700px;
+}
+</style>>
+<![endif]-->
 
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
