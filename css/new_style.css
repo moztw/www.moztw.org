@@ -24,6 +24,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 body {
 	font-size: 14px;
+	background: url(../images/new_style/bg-gradient-sand.png) top left repeat-x #efede6;
 	background: url(../images/new_style/bg-gradient-sand.png) top left repeat-x, url(../images/new_style/bg-sand.png) repeat 0 0, #F5F1E8;
 	font-family: 'Open Sans', "Helvetica", "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
 	border-top: 2px #FFF solid;
