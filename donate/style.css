@@ -48,6 +48,11 @@ body {
 	width: 640px;
 }
 
+#youtube .left iframe {
+    width: 640px;
+    height: 360px; 
+}
+
 #youtube .right {
 	position: relative;
 	height: 360px;
@@ -83,3 +88,94 @@ body {
 	right: 20px;
 	top: 270px;
 }
+
+@media screen and (max-width: 1000px), screen and (max-device-width: 1000px){
+    #nav-main {
+        margin: 10px 0 0 230px;
+    }
+    #nav-main-menu li {
+        line-height: 2em;
+        padding: 0 0.75em;
+    }
+	#youtube > div {
+	    float: none;
+	    margin: 0 auto;
+	}
+	#youtube .right {
+	    float: none;
+	    height: auto;
+	    margin-top: 60px;
+	    text-align: center;
+	}
+	#donate-button {
+	    display: block;
+	    position: relative;
+	    margin: 0 auto 15px;
+	    top: auto;
+	    right: auto;
+	}
+	.help {
+	    position: relative;
+	    right: auto;
+	    top: auto;
+	}
+	#colophon .logo, #colophon .copyright {
+	    float: none;
+	    text-align: center;
+	    line-height: 1.8em;
+	}
+}
+
+@media screen and (max-width: 820px), screen and (max-device-width: 820px){
+	#outer_wrapper {
+	    width: auto;
+	    margin: auto 20px;
+	}
+	#key-point p {
+	    width: auto;
+        margin-right: 260px;
+	}
+	#youtube .left {
+	    width: auto;
+	    text-align: center;
+	}
+	#youtube .left iframe {
+	    height: 360px;	    
+	    width: 100%;
+	}
+}
+@media screen and (max-width: 640px), screen and (max-device-width: 640px){
+    #nav-main {
+        display: none;
+    }
+    #key-point {
+        padding-bottom: 200px;
+    }
+    #key-point p {
+        width: auto;
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 520px), screen and (max-device-width: 520px){
+    #masthead #moztw-link-text {
+        font-size: 24px;
+    }
+    #moztw-link-english {
+        font-size: 18px;
+    }
+    #moztw-link-chinese {
+        font-size: 16px;
+    }
+    #youtube .left {
+        width: auto;
+    }
+    #youtube .left iframe {
+        height: 320px;	    
+        width: 100%;
+    }
+    #youtube .right {
+        width: auto;
+    }
+}
+
+
