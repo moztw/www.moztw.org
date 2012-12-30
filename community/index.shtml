@@ -1,0 +1,172 @@
+<!--#include virtual="/inc/new_meta.html" -->
+	<link href="style.css" rel="stylesheet" />
+	<title>Mozilla 台灣社群</title>
+	<meta name="description" content="Mozilla 全球社群依循 Mozilla 宣言，致力於打造更開放自由的網路、提升人們的網路體驗、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的在地參與可辦不到！">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://mozilla.tw">
+	<meta property="og:image" content="http://moztw.org/images/foxmosa-icon.gif">
+	<meta property="og:site_name" content="Mozilla 台灣社群">
+	<meta property="og:description" content="Mozilla 全球社群依循 Mozilla 宣言，致力於打造更開放自由的網路、提升人們的網路體驗、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的在地參與可辦不到！">
+<!--#include virtual="/inc/new_header.html" -->
+
+	<hgroup id="main-feature">
+		<h1>Mozilla</h1>
+		<h2>致力於網路開放、維護大眾的選擇權<br />打造更美好的網路未來</h2>
+	</hgroup>
+
+    <section id="key-point">
+    	<header class="hide">
+    		<h2>Mozilla 全球社群</h2>
+    	</header>
+    	<script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
+    		({
+    			"base_state": {"language": "zh-tw"},
+    			"video_url": "http://videos.mozilla.org/serv/brand/Mozilla_Firefox_Manifesto_v0.1.ogv",
+    			"video_config": {
+    				click_to_play: true,
+    				color: 'FF0000',
+    				poster: "poster-brand.jpg",
+    				id: "videoPlayer"
+    			}
+    		})
+    	</script>
+    <p>Mozilla 是一個全球社群，由世界各地的志工與員工：工程師、設計師、翻譯者、推廣者與使用者共同組成。我們依循 <a href="http://www.mozilla.org/about/manifesto.zh-tw.html" target="_blank">Mozilla 宣言</a>，致力於打造更開放自由的網路、提升人們的網路體驗、宣揚開放源碼共享精神。我們推動開放標準，相信惟此才能確保任何人在何時何地都能享受最安全、流暢、多元的網際網路。</p>
+    <p>只要您正在使用 Mozilla 產品，您就是我們的一份子，與我們一同打造更美好的網路；若你也懷抱著一股熱情，想要親手做出改變，歡迎加入我們一同貢獻。您不需要是專業的程式設計師，只需要熱愛網路，就能跟我們一起讓網路變得更好、充滿創新。現在就來看看您可以做些什麼！</p>    
+    </section>
+
+	<nav class="billboard">
+		<h2 style="display: none">Menu</h2>
+		<ul class="menu">
+			<li class="width-220"><a href="#community">社群</a>
+			<li class="width-220"><a href="#project">專案</a>
+		</ul>
+	</nav>
+
+
+	<section id="community">
+		<h2>Mozilla 社群與組織</h2>
+
+		<div class="container">
+			
+			<section>
+				<h3><a href="http://moztw.org/">Mozilla 台灣社群</a></h3>
+				<p class="engName">MozTW, Mozilla Taiwan Community</p>
+				<p>MozTW 是台灣的 Mozilla 志工社群，自 2004 年起即負責維護 Mozilla 軟體正體中文版本與<abbr title="Language Pack">語言套件</abbr>，提供 <a href="moztw.org">moztw.org 網站</a>軟體下載與討論區。MozTW 本著推廣主力 Firefox 易學常用的特性，自許為使用者接觸開放、自由文化的起點，持續辦理自由文化相關課程與活動，與全球社群一同打造更美好的網路。</p>
+				<p class="link">→ 
+				    <a href="http://moztw.org" target="_blank">MozTW 首頁</a>、
+				    <a href="http://forum.moztw.org" target="_blank">討論區</a>、
+    				    <a href="https://groups.google.com/group/moztw-general" target="_blank">Google Group</a></p>、
+				    <a href="http://moztw.org/about/#contact" target="_blank">連繫資訊</a></p>
+			</section>
+			
+			<section>
+				<h3><a href="http://mozilla.com.tw/">美商謀智台灣分公司</a></h3>
+				<p class="engName">Mozilla Taiwan</p>
+				<p>Mozilla 台灣分公司是 Mozilla 全球第九個辦公室，初期預計招募 40 位軟體研發人員，除肩負 Firefox OS 研發中心的重責大任，也會密切與在地的開放社群合作，建構行動上網的開放平台。</p>
+                <p class="link">→ 
+                    <a href="http://mozilla.com.tw" target="_blank">Mozilla Taiwan</a>、
+                    <a href="http://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=5e604325345c3e673c423b1d1d1d1d5f2443a363189j01" target="_blank">工作機會</a>、
+                    <a href="http://mozilla.com.tw/about/contact/" target="_blank">聯絡資訊</a>
+                </p>
+			</section>
+			
+			<section>
+				<h3><a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></h3>
+			    	<p>Mozilla Links 是清新歡樂的 Mozilla 新聞網，由翻譯機動隊全體志願者共同營運，每週精選全球社群、各 Mozilla 相關 Blog 及協力作者專文，將 Mozilla 專案的第一手資訊，編譯後再傳播給所有中文摩茲客及火狐迷。</p>
+			    	<p>
+				<p class="link">→ 
+				    <a href="http://mozlinks-zh.blogspot.com/p/mozilla-links.html" target="_blank">加入翻譯機動隊╱投稿</a>、
+				    <a href="https://docs.google.com/open?id=0B9BU22m9p7kqOTJmYjhhZjYtODdmZC00NDNiLTllN2YtODE5NjlhNDYxZWJj" target="_blank">待譯資料夾</a></p>
+			</section>
+			
+			<section>
+				<h3><a href="http://mozilla.com.tw/community/student/">美商謀智 Firefox 校園大使</a></h3>
+				<p class="engName">Mozilla Taiwan Firefox Campus Ambassador</p>
+				<p>Mozilla Taiwan 號召台灣青年學子加入 Firefox 校園大使的行列。透過成為 Firefox 校園大使，在校園內協助推廣 Firefox，成立 Firefox 社團，作為 Firefox 小幫手解決疑難雜症。</p>
+				<p class="link">→ <a href="https://www.facebook.com/groups/studentreps.taiwan/">Facebook 社團</a></p>
+			</section>
+						
+			<section>
+				<h3><a href="http://mozilla.com.tw/community/student/">Mozillians <span class="subtitle">Mozilla 社群通訊錄</span></a></h3>
+				<p>你身為 Mozillian，想要找些夥伴在高雄辦聚會？需要一個專業的 XPCOM 駭客幫忙審核某個 patch？想要獲得 Mozilla 基金會第一手消息？Mozillians 社群通訊錄就是個可以讓你尋找志同道合夥伴的地方，歡迎加入！</p>
+			</section>
+            
+			<section>
+				<h3><a href="http://mozilla.com.tw/community/student/">Firefox Hong Kong Users</a></h3>
+				<p>A community group of Firefox users living in Hong Kong. Join us now if you enjoys firefox for your web surfing, and and spread it to your friends.</p>
+				<p class="link">→ 
+				    <a href="https://www.facebook.com/firefoxhk" target="_blank">Facebook Page</a>、
+				    <a href="groups.google.com/group/firefoxhongkong" target="_blank">Google Group</a></p>
+			</section>
+
+			<section>
+				<h3><a href="http://www.mozilla.org/contribute/local/">Mozilla Reps <span class="subtitle">Mozilla 代表計畫</span></a></h3>
+				<p>Mozilla Reps 計畫的目標是<abbr title="empower">致能</abbr>與支持志工成為 Mozilla 地域性╱各語系官方代表，並提供簡易的框架與工具協助 Mozillians 組織活動、招募貢獻者。Mozilla Reps 透過跨國通力合作、支持在地社群，並促使 Mozilla 全球貢獻者成長與茁壯。</p>
+			<p class="link">→ 
+			    <a href="http://reps.mozilla.org/people/country/Taiwan/" target="_blank">台灣的 Mozilla Reps</a></p>	
+			</section>
+
+			<section>
+			    	<h3><a href="http://www.mozilla.org/contribute/local/">Mozilla 全球在地社群</a></h3>
+			    	<p>Mozilla 志士遍佈全球六大洲、橫跨 24 小時時區，想造訪各地超過 70 個 Mozilla 社群嗎？請查閱我們的全球社群地圖。</p>
+			</section>
+			
+			
+<!--			<section>
+				<h3><a href="http://moztw.org/">mozilla-dev list</a></h3>
+				<p>
+				MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。
+				</p>
+			</section>
+
+			<section>
+				<h3><a href="http://moztw.org/">MozTW</a></h3>
+				<p>
+				MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。
+				</p>
+			</section>-->
+		</div>
+
+	</section>
+
+	<div class="divider" style="margin-top: 0;"></div>
+
+	<div id="project" class="row">
+	
+		<section class="left width-700">
+			<h2>Mozilla 專案</h2>
+			
+			<section id="project-sumo">
+				<h3><a href="http://moztw.org/contribute/sumo/">SUMO</a></h3>
+				<p>SUMO 是 SUpport MOzilla 的縮寫字。透過文件、討論區、論壇、郵件清單等方式，支援全球各種語言介面的 Mozilla 產品使用者，例如：Firefox、行動版 Firefox、Thunderbird 等等。更多介紹請<a href="http://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012">參考這裡。</a></p>
+			</section>
+			
+			<section>
+				<h3><a href="https://localize.mozilla.org/zh_TW/mdn/">MDN</a></h3>
+				<p>SUMO 是 SUpport MOzilla 的縮寫字。透過文件、討論區、論壇、郵件清單等方式，支援全球各種語言介面的 Mozilla 產品使用者，例如：Firefox、行動版 Firefox、Thunderbird 等等。更多介紹請<a href="http://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012">參考這裡。</a></p>
+			</section>
+		
+			<section>
+				<h3><a href="http://moztw.org/contribute/sumo/">SUMO</a></h3>
+				<p>SUMO 是 SUpport MOzilla 的縮寫字。透過文件、討論區、論壇、郵件清單等方式，支援全球各種語言介面的 Mozilla 產品使用者，例如：Firefox、行動版 Firefox、Thunderbird 等等。更多介紹請<a href="http://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012">參考這裡。</a></p>
+			</section>
+		</section>
+
+		<div class="right width-220">
+			<aside>
+				<h3>最近討論</h3>
+				<ul id="moztw-general-news">
+				</ul>
+			</aside>
+		</div>
+
+	</div>
+
+	<form id="mailinglist" class="billboard" action="http://groups-beta.google.com/group/moztw-general/boxsubscribe">
+		<h3>訂閱我們</h3>
+		<input type="email" name="email" placeholder="YOUR EMAIL HERE" />
+		<input type="submit" class="button" value="訂閱 »" />
+	</form>
+
+	<script src="main.js"></script>
+<!--#include virtual="/inc/new_footer.html" -->
