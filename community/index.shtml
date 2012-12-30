@@ -76,7 +76,6 @@
 			    	<p>
 				<p class="link">→ 
 				    <a href="http://mozlinks-zh.blogspot.com/p/mozilla-links.html" target="_blank">加入翻譯機動隊╱投稿</a>、
-				    <a href="https://docs.google.com/open?id=0B9BU22m9p7kqOTJmYjhhZjYtODdmZC00NDNiLTllN2YtODE5NjlhNDYxZWJj" target="_blank">待譯資料夾</a></p>
 			</section>
 			
 			<section>
@@ -134,22 +133,41 @@
 	<div id="project" class="row">
 	
 		<section class="left width-700">
-			<h2>Mozilla 專案</h2>
+			<h2>Mozilla 相關專案</h2>
+			<p>歡迎依據個人興趣與喜好，選擇您喜愛的專案自由參與。</p>
 			
-			<section id="project-sumo">
-				<h3><a href="http://moztw.org/contribute/sumo/">SUMO</a></h3>
-				<p>SUMO 是 SUpport MOzilla 的縮寫字。透過文件、討論區、論壇、郵件清單等方式，支援全球各種語言介面的 Mozilla 產品使用者，例如：Firefox、行動版 Firefox、Thunderbird 等等。更多介紹請<a href="http://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012">參考這裡。</a></p>
+			<section>
+			    <a href="/contribute/sumo/"><img src="../images/new_style/sumo.png"></a>
+				<h3><a href="/contribute/sumo/">SUMO - Mozilla 技術支援<span class="engName">Mozilla Support</span></a></h3>
+				<p>SUMO 是 SUpport MOzilla 的縮寫字，提供使用者透過搜索功能，查詢 Mozilla 相關產品的說明文件。SUMO 中的說明文件主要由全球社群志工撰寫與翻譯，當使用者點選 Firefox 的「說明」→「Firefox 說明」時，就會開啟 SUMO 網站。</p>	
+				<p class="link">→ 
+				    <a href="http://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012" target="_blank">更多介紹</a>、<a href="https://support.mozilla.org/zh-TW/kb/superheroes-wanted">徵求超人義工</a></a></p>
 			</section>
 			
 			<section>
-				<h3><a href="https://localize.mozilla.org/zh_TW/mdn/">MDN</a></h3>
-				<p>SUMO 是 SUpport MOzilla 的縮寫字。透過文件、討論區、論壇、郵件清單等方式，支援全球各種語言介面的 Mozilla 產品使用者，例如：Firefox、行動版 Firefox、Thunderbird 等等。更多介紹請<a href="http://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012">參考這裡。</a></p>
+			    <a href="http://forum.moztw.org/"><img src="../images/new_style/foxmosa-icon.gif"></a>
+				<h3><a href="http://forum.moztw.org/">MozTW 討論區 使用者技術支援</a></h3>
+				<p>MozTW 討論區上天天都有使用者詢問問題、尋求協助，Mozilla 仰賴使用者間互助，作為產品支援最重要的一環。請幫忙回答使用者詢問的軟體使用問題，您不需向任何人報名，只要回達問題，你就立刻暨身 Mozilla 社群的一員了！</p>
 			</section>
-		
+			
 			<section>
-				<h3><a href="http://moztw.org/contribute/sumo/">SUMO</a></h3>
-				<p>SUMO 是 SUpport MOzilla 的縮寫字。透過文件、討論區、論壇、郵件清單等方式，支援全球各種語言介面的 Mozilla 產品使用者，例如：Firefox、行動版 Firefox、Thunderbird 等等。更多介紹請<a href="http://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012">參考這裡。</a></p>
+				<h3><a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版「編輯機動隊」</a></h3>
+			    	<p>Mozilla Links 每週精選全球社群、各 Mozilla 相關 Blog 及協力作者專文，將 Mozilla 專案的第一手資訊，編譯後再傳播給所有中文摩茲客。歡迎加入翻譯機動隊行列，只要打開<a href="https://docs.google.com/open?id=0B9BU22m9p7kqOTJmYjhhZjYtODdmZC00NDNiLTllN2YtODE5NjlhNDYxZWJj">待譯資料夾</a>即可立即開始翻譯文章。</p>
+			    	<p>
+				<p class="link">→ 
+				    <a href="http://mozlinks-zh.blogspot.com/p/mozilla-links.html" target="_blank">翻譯機動隊╱投稿說明</a>、
+				    <a href="https://docs.google.com/open?id=0B9BU22m9p7kqOTJmYjhhZjYtODdmZC00NDNiLTllN2YtODE5NjlhNDYxZWJj" target="_blank">待譯資料夾</a>、
+				    <a href="http://groups.google.com/group/mozlinks-zh-editor">MozLinks 機動隊郵件群組</a></p>
 			</section>
+			
+			<section>
+				<h3><a href="https://localize.mozilla.org/zh_TW/mdn/">MDN - Mozilla 開發者社群
+				    <span class="engName">Mozilla Developer Network</span></a>
+				</h3>
+				<p>Mozilla 開發者社群的目標是成為網路上最好、最詳盡的開發文件平台。包含 Mozilla 與 Open Web 所有相關技術的文件，以 Wiki 的方式供社群志工編撰、翻譯，不論哪個平台與瀏覽器的使用者，都可以加入貢獻。除開發文件外、還有許許多多精彩的 DEMO 作品及每月一主題的 <a href="https://developer.mozilla.org/zh-TW/demos/devderby">Dev Dervy DEMO 比賽</a>。</p>	
+			</section>
+			
+			
 		</section>
 
 		<div class="right width-220">
