@@ -18,7 +18,7 @@
 		<h2>請與我們一起保護世上最重要的公用資源</h2>
 		
 		<p>我們相信網際網路應該保持安全、開放與容易取用。請觀看「Mozilla 故事」影片，了解我們如何保護隱私、自由、維繫使用者選擇，並打造協助任何人隨心所欲塑造網路的工具。</p>
-		<p>在此邀請您與我們一起打造更美好的網路，請捐款支持 Mozilla 基金會。只要您捐款美金 30 元以上，我們將贈送您一件 Firefox T-shirt（運費全免），讓你藉由穿著，向世界展現出我們的共同夢想：一個更安全、更開放且更為透明的網際網路。</p>
+		<p>在此邀請您與我們一起打造更美好的網路，請捐款支持 Mozilla 基金會。只要您捐款 30 美元以上，我們將贈送您一件 Firefox T恤（運費全免），讓你藉由穿著，向世界展現出我們的共同夢想：一個更安全、更開放且更為透明的網際網路。</p>
 	</section>
 
 	<section id="youtube" class="row">
@@ -26,8 +26,8 @@
 			<iframe src="http://www.youtube.com/embed/Q1n2q_YSZUE" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div class="right">
-			<a id="donate-button" href="https://donate.mozilla.org/page/contribute/mozillatshirt" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'donate.mozilla.org-mozillatshirt']);">
-				<span class="title">立即捐款 !</span>並獲得 T-shirt&nbsp;
+			<a id="donate-button" href="https://donate.mozilla.org/page/contribute/mozillatshirt?source=20121200_moz_tw" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'donate.mozilla.org-mozillatshirt']);">
+				<span class="title">立即捐款 !</span>並獲得T恤
 			</a>
 			<span class="help">* 連結到 Mozilla 基金會英文頁面<br>　MozTW 社群未收受╱經手您的捐款</span>
 		</div>

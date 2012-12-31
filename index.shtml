@@ -34,7 +34,7 @@
     position: absolute;
     right: 215px;
     text-shadow: 1px 2px 5px #666;
-    bottom: 20px;
+    bottom: 25px;
     width: 50%;
 }
 
@@ -47,13 +47,17 @@
 	font-family: "Helvetica", "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
     font-size: 2em;
     border: none;
-    line-height: 1.8em;
+    line-height: 1.6em;
     font-weight: bold;
 }
 
 .front-feature #donate_link div p {
     font-size: 1.1em;
     line-height: 1.5em;
+}
+
+.front-feature #donate_link div i {
+    line-height: 1.6em;
 }
 
 #feature-content h2 {
@@ -207,7 +211,7 @@
   <a id="donate_link" href="/donate/">
       <div>
           <h1>支持 Mozilla</h1>
-          <p>年度募款最後兩天！<br>贊助 Mozilla 基金會 30 美元以上，<br>就能獲得一件 Firefox T-shirt。</p>
+          <p><i>Doing Good is Part of Our Code</i><br>在年終募款中贊助 Mozilla 基金會，<br>就能獲得一件 Firefox T恤。</p>
       </div>
   </a>
   <div id="feature-content">
