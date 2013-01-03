@@ -46,9 +46,21 @@
 	background: url(../images/new_style/foxmosa-icon.gif) center center;
 }
 
-#project #project-sumo::before {
+#project .left section#sumo::before {
 	background: url(../images/new_style/sumo.png) center -10px;
 }
+
+#project .left section#mdn::before {
+    background: url(../images/new_style/mdn-logo.png) center -10px;
+}
+
+/*#project .left section#mozlinks-zhtw::before {
+    background: url(../images/new_style/foxmosa-icon.gif) center -10px;
+}
+
+#project .left section#moztw-forum::before {
+    background: url(../images/new_style/foxmosa-icon.gif) center -10px;
+}*/
 
 #moztw-general-news {
 	margin-left: 20px;
