@@ -277,7 +277,7 @@ section .appendix {
                       <li>
                         <span class="tag tag-fixed">修正</span>
                         <h5>
-                          改善 proxy 環境中對使用者的回應速度（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=769764">769764</a>）。
+                          改善 proxy 環境中對使用者的回應速度（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=769764">bug 769764</a>）。
                         </h5>
                       </li>
 
