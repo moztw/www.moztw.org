@@ -233,6 +233,12 @@ section .appendix {
                       <li>
                         <span class="tag tag-new">全新功能</span>
                         <h5>
+                          藉由 IonMonkey 引擎帶來更快的 JavaScript 效能。
+                        </h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-new">全新功能</span>
+                        <h5>
                           支援 OS X 10.7 以上的 Retina 顯示器。
                         </h5>
                       </li>
@@ -252,15 +258,7 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-developer">開發功能</span>
-                        <h5>實作了 <a href="https://developer.mozilla.org/en-US/docs/CSS/Using_CSS_flexible_boxes?redirectlocale=en-US&redirectslug=CSS%2FFlexbox">CSS3 Flexbox</a>。</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-developer">開發功能</span>
                         <h5>支援新的 window.devicePixelRatio DOM 屬性。</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-developer">開發功能</span>
-                        <h5>新增 <a href="https://developer.mozilla.org/en-US/docs/CSS/@supports">@supports</a> 支援。</h5>
                       </li>
                       <li>
                         <span class="tag tag-developer">開發功能</span>
@@ -298,6 +296,12 @@ section .appendix {
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
                       <h5>
+                        部分正確 WebGL 繪圖操作被錯誤地拒絕，造成頁面顯示不完整（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=825205">bug 825205</a>）。
+                      </h5>
+                    </li>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>
                         以被鎖定的個人設定檔重新啟動 Firefox 時，程式會當掉（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573369">bug 573369</a>）。
                       </h5>
                     </li>
@@ -322,6 +326,12 @@ section .appendix {
                           <a href="https://www.mozilla.org/en-US/firefox/19.0a2/auroranotes">v19 已修復</a>
                         </span>
                       </div>
+                    </li>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>
+                        於 HiDPI 模式中，捲動頁面使插件上半部超出畫面時，插件會停止描繪（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=825734">bug 825734</a>）。
+                      </h5>
                     </li>
                   </ul>
                 </div>
