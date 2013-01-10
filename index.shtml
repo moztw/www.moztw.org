@@ -64,10 +64,7 @@
 #front-feature .dl-mobile:hover div {
     margin-top: 5px;
     height: 40px;
-    -moz-transition: all 0.5s;
-    -ie-transition: all 0.5s;
     -webkit-transition: all 0.5s;
-    -o-transition: all 0.5s;
     transition: all 0.5s;
 }
 
