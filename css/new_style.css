@@ -575,6 +575,16 @@ input[type=text]:focus, input[type=email]:focus {
 }
 
 @media screen and (max-width: 520px), screen and (max-device-width: 520px){
+  #masthead #moztw-link-text {
+      font-size: 24px;
+  }
+  #moztw-link-english {
+      font-size: 12px;
+  }
+  #moztw-link-chinese {
+      font-size: 12px;
+      left: 55px;
+  }
   #colophon .container {
     width: 100%;
   }
