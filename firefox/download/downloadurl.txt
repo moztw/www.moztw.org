@@ -1,1 +1,1 @@
-http://download.mozilla.org/?product=firefox-18.0.1&amp;lang=zh-TW
+http://download.mozilla.org/?product=firefox-18.0.2&amp;lang=zh-TW
