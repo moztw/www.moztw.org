@@ -246,7 +246,7 @@ h3 .indicator, span .indicator {
 <h3>如何報名？</h3>
 	<p>
 		大部分的工作都不用報名，做就對了！在地化、網站等相關工作，您需要找到目前負責協調的社群成員，請到
-		<a href="https://groups.google.com/group/moztw-general">moztw-general</a> 郵件群組自我介紹，並說明您想協助哪些工作。
+		<a href="https://groups.google.com/group/moztw-general" onclick="_gaq.push(['trackPageview', '/contribute/moztw-general']);">moztw-general</a> 郵件群組自我介紹，並說明您想協助哪些工作。
 	</p>
 	<h3>關於 MozTW</h3>
 	<p>
