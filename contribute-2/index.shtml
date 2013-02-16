@@ -12,7 +12,8 @@
 -->
 .key-point {
 	background-color: #E4ECEC;
-	height:240px;
+	height: 240px;
+	padding: 15px 20px;
 }
 ul.mailing-list li {
 	clear: both;
@@ -75,15 +76,18 @@ h3 .indicator, span .indicator {
 	border-radius: 2px;
 	padding: 0 2px;
 }
-.key-point #desc{
+.key-point #desc {
 	float: left;
-	width: 470px;
-	font-size: 120%;
+	width: 465px;
+	font-size: 1.2em;
 }
-.key-point #video{
+.key-point #desc p {
+	text-indent: 2em;
+}
+.key-point #video {
 	float: right;
 	position: relative;
-	background: -moz-linear-gradient(center top , #FFFFFF 0%, #F5F9FD 100%) repeat scroll 0 0 transparent;
+	background: linear-gradient(#F5F9FD, #FFFFFF);
     border: 1px solid #C9DDF2;
     border-radius: 6px 6px 6px 6px;
     box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
@@ -100,14 +104,16 @@ span.unisubs-widget video {
 #video div.unisubs-videoTab-container{
 	display: none !important;
 }
-.button{
+#side h3 {
+    clear: both;
+}
+.button {
+    color: #4B6B79;
     float: right;
-    font-size: 80%;
-    height: auto !important;
-    width: auto !important;
-	padding: 10px !important;
-	margin: 5px;
-	color: #4B6B79 !important;
+    font-size: 0.9em;
+    height: auto;
+    margin: 5px;
+    padding: 10px;
 }
 .intro_icon{
 	float: left;
@@ -192,8 +198,9 @@ $(function() {
 	<div>
 		<div id="desc">
 			<h2>參與我們</h2>
-			<p>MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。</p>
-		</div>
+			<p>MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！</p>
+			<p>您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。</p>
+        	</div>
         <div id="video">
         	<script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
 			({
@@ -234,7 +241,7 @@ $(function() {
 -->
 	
 	<div id="tabs-2">
-		<p>有興趣幫助其他使用者解決 Firefox 和其他 Mozilla 專案上的問題？我們的論壇以及使用者疑難排解，仰賴於像您一樣熱情的貢獻者。</p>
+		<p>歡迎您在 MozTW 貢獻自己的時間與心力，自由協助推行下列工作。<br>——不用怕自己的能力不符要求，我們完全歡迎從工作進行中學習！</p>
 
 		<div class="content_block">
 			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
@@ -350,31 +357,43 @@ $(function() {
 	</div>
 </div>
 </div>
+
 <div id="side" class="right">
-<h3>MozTW Lab</h3>
+
+<!--    <h3>關於 MozTW</h3>
 	<div id="topic">
-    <p>
-		<!-- <img src="http://moztw.org/events/gathering/gathering-title.png" width="320"></img> -->
-		<img src="moztw-general.png" style="float: left; width: 100px; margin-right: 10px"></img>
-        MozTW 摩茲連續聚，以輕鬆歡樂無負擔的方式、要與大家一起提升彼此的網際體驗。每次內容不拘、地點好談，歡迎來聊。 連續聚內容由參加者自由報名發表，跟網路、Mozilla、自由相關的什麼主題都可以，當場協調時間。
-	</p>
-    <a href="/events/moztw-lab/"><div class="key-point button"><h2>了解更多 &gt;&gt;</h2></div></a>
-    </div><br><br>
-<h3>與我們互動吧</h3>
+        <p id="moztw">關於 MozTW 社群緣起、任務與各專案聯絡人，請參考<a href="/about/">關於本站</a>頁面</p>
+    </div>-->
+
+    <h3>如何報名？</h3>
+    <div id="topic">
+        <p>大部分的工作都不用報名，做就對了！如果您想要聯繫負責各專案的社群成員，請至 <a href="https://groups.google.com/group/moztw-general">moztw-general 郵件群組</a>中發文說明您有興趣的工作，或者直接前來 <a href="/events/moztw-lab/">MozTW Lab</a> 每週實體小聚中聊聊。</p>
+    </div>
+
+    <h3>MozTW Lab 工作小聚</h3>
 	<div id="topic">
+    	    <img src="moztw-general.png" style="float: left; width: 100px; margin-right: 10px"></img>
+        <p>MozTW Lab 社群小聚是每週交朋友、聊是非、互助研究的好所在。你可以至此聊聊 Web 界的八卦、找人幫你的作品給點意見、認識志同道合的夥伴等等。免事先報名，歡迎直接過來與大家聊聊！</p>
+        <a href="/events/moztw-lab/"><div class="key-point button">了解更多 &gt;&gt;</div></a>
+    </div>
+    
+    <h3>MozTW-General 郵件群組</h3>
+	<div id="topic">
+        	<img src="/images/foxmosa-mail.png" style="float: left; width: 75px; margin-right: 10px" />
 		<p>
-			<ul>
-				<li><a href="https://groups.google.com/forum/?fromgroups=#!forum/moztw-general">moztw-general: 摩茲將軍</a></li>
-				<li>irc: irc.mozilla.org #mozilla-taiwan</li>
-			</ul>
+		    歡迎您訂閱 MozTW 的 <a href="https://groups.google.com/group/moztw-general" onclick="_gaq.push(['trackPageview', '/contribute/moztw-general']);">moztw-general「摩茲將軍」郵件群組</a>參與我們的討論。請注意：
 		</p>
+    		<ul style="clear: both;">
+			<li>這<strong>不是技術支援信箱</strong>—— Firefox 疑難雜症請至<a href="https://support.mozilla.org/">Mozilla 技術支援網站</a>查詢、或至<a href="http://forum.moztw.org/">討論區</a>發問。</li>
+			<li>為了抵禦 spam，首次發言將經過人工審核；敬請耐心稍微等候。</li>
+		</ul>
 	</div>
-<h3 style="word-break: keep-all; word-wrap: normal;white-space:nowrap;"><img src="/images/foxmosa-mail-01.jpg"></img>工作團隊最近討論</h3>
 	
 	<div class="mailing-list">
 		<p id="mailing-list-loading">
 		</p>
 	</div>
+	
 	<div class="subscribe">
 		<h2> </h2>
 		<form action="http://groups-beta.google.com/group/moztw-general/boxsubscribe">
