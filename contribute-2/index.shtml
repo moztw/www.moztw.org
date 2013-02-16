@@ -10,6 +10,9 @@
 <!--
 @import url(/css/keypoint-radius.css);
 -->
+body {
+    line-height: 1.5em;
+}
 .key-point {
 	background-color: #E4ECEC;
 	height: 240px;
@@ -106,27 +109,38 @@ span.unisubs-widget video {
 }
 #side h3 {
     clear: both;
+    margin-top: 2em;
+}
+#side h4 {
+    font-size: 1.2em;
+    margin: 0.5em 0;
 }
 .button {
     color: #4B6B79;
     float: right;
-    font-size: 0.9em;
-    height: auto;
-    margin: 5px;
-    padding: 10px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0px 0 5px 10px;
+    padding: 0 0.8em;
+}
+#side .button {
+    font-size: 1em;
+}
+
+#side .ui-helper-clearfix:hover {
+    background: none;
 }
 .intro_icon{
 	float: left;
 	width: 120px;
-	margin: 10px 10px 10px 0;
+	margin: 0 10px 10px 0;
 }
 .intro_desc{
-	
+    margin-left: 130px;
 }
-.content_block{
-	height: auto;
-	padding-bottom: 40px;
-	margin-bottom : 20px;
+.content_block .button {
+    height: 35px;
+    line-height: 35px;
 }
 
 .mail_block{
@@ -138,10 +152,10 @@ span.unisubs-widget video {
 	text-decoration: none;
 }
 .mail_block:hover{
-	background-color:#CCCCCC;
+	background-color: #EEE;
 }
 .mail_block .date{
-	font-size: 60%;
+	font-size: 70%;
 	color: black;
 	margin: 0;
 }
@@ -155,17 +169,23 @@ span.unisubs-widget video {
 	font-size: 80%;
 	color:#999;
 	margin: 0;
+	text-align: right;
 }
-.subscribe{
-	border-top: #000 thick 2px ;
+.subscribe input {
+    margin-bottom: 10px;
 }
-.subscribe hr{
-	background-color:#999999;
-	margin: 10px;
+.subscribe input.ui-widget-content {
+    border: 1px solid #AAAAAA;
+    height: 33px;
+    padding: 0 5px;
+    width: 66%;
 }
-.subscribe input{
-	margin-top: 10px;
+.subscribe input.button {
+    border-width: 0 0 1px;
+    width: 25%;
 }
+
+
 </style>
 <link media="all" type="text/css" href="css/ui-lightness/jquery-ui-1.7.3.custom.css" rel="stylesheet">
 <script type="text/javascript" src="js/jquery-1.3.2.min.js" ></script>
@@ -241,107 +261,112 @@ $(function() {
 -->
 	
 	<div id="tabs-2">
-		<p>歡迎您在 MozTW 貢獻自己的時間與心力，自由協助推行下列工作。<br>——不用怕自己的能力不符要求，我們完全歡迎從工作進行中學習！</p>
+		<p>歡迎您在 MozTW 貢獻自己的時間與心力，自由協助推行下列工作。<br>——不用怕自己的能力不符要求，我們完全歡迎在工作中學習！</p>
 
-		<div class="content_block">
+		<div class="content_block ui-helper-clearfix">
 			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>幫助新手</h2>
 				<p>有興趣幫助其他使用者解決 Firefox 和其他 Mozilla 專案上的問題？我們的論壇以及使用者疑難排解，仰賴於像您一樣熱情的貢獻者。</p>
-				<a href="http://forum.moztw.org/search.php?search_id=unanswered"><div class="key-point button">回答討論區上的問題</div></a>
-				<a href="https://support.mozilla.org/zh-TW/army-of-awesome"><div class="key-point button">Army of Awesome!</div></a>
-				<a href="https://support.mozilla.org/zh-TW/kb/superheroes-wanted"><div class="key-point button">徵求超人義工!</div></a>
+				<a href="http://forum.moztw.org/search.php?search_id=unanswered"><span class="key-point button">回答討論區問題</span></a>
+				<a href="https://support.mozilla.org/zh-TW/army-of-awesome"><span class="key-point button">推特好厲害大軍</span></a>
+				<a href="https://support.mozilla.org/zh-TW/kb/superheroes-wanted"><span class="key-point button">徵求超人義工</span></a>
 			</div>
 		</div>
-		<div class="content_block">
+        <div class="content_block ui-helper-clearfix">
+            	<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
+            	<div class="intro_desc">
+            		<h2>軟體與網頁在地化</h2>
+            		<p>和 Mozilla 一起打造 Firefox、Tunderbird 和其他專案屬於你的語言。並且透過翻譯我們網站上的內容，協助我們告訴世界 Mozilla 正在打造更棒的網際網路。</p>
+            		<a href="https://groups.google.com/d/topic/moztw-general/92t-umaKqUw/discussion"><span class="key-point button">詳細資訊 》</span></a>
+            		<a href="https://wiki.mozilla.org/L10n"><span class="key-point button">軟體網頁在地化專案</span></a>
+            	</div>
+        </div>
+        <div class="content_block ui-helper-clearfix">
+            	<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
+            	<div class="intro_desc">
+            		<h2>說明、文件與影片翻譯</h2>
+            		<p>翻譯與修訂 Mozilla 技術支援文件、Mozilla Links 正體中文版部落格、Mozilla 相關影片及 MDN 開發者社群技術文件，透過文件翻譯來協助使用者、傳播相關資訊、一同建立網頁開發文件庫。</p>
+            		<a href="http://mozlinks-zh.blogspot.com/2012/02/mozilla-links.html"><span class="key-point button">MLinks 編輯機動隊</span></a>
+            		<a href="https://support.mozilla.org/zh-TW/kb/localize-firefox-help"><span class="key-point button">說明文件翻譯</span></a>
+            		<br style="clear: both;">
+            		<a href="https://groups.google.com/d/topic/moztw-general/92t-umaKqUw/discussion"><span class="key-point button">詳細資訊 》</span></a>
+            		<a href="http://mozlinks-zh.blogspot.com/2012/08/iii-mdn.html"><span class="key-point button">貢獻開發文件</span></a>
+            		<a href="https://groups.google.com/group/moztw-subtitle"><span class="key-point button">MozTW 字幕組</span></a>
+            	</div>
+        </div>
+        <!--
+		<div class="content_block ui-helper-clearfix">
 			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>推廣 MozTW 社群</h2>
 				<p>什麼什麼gfx.tw</p>
-				<a href="http://mozilla.com.tw/community/student/"><div class="key-point button">Firefox 校園大使</div></a>
-				<!-- <a href="#"><div class="key-point button">詳細資訊</div></a> -->
-				<!-- <a href="#"><div class="key-point button">MozTW 連續聚</div></a> -->
+				<a href="http://mozilla.com.tw/community/student/"><span class="key-point button">Firefox 校園大使</span></a>
+				 <a href="#"><span class="key-point button">詳細資訊 》</span></a> 
+				 <a href="#"><span class="key-point button">MozTW 連續聚</span></a> 
 			</div>
 		</div>
-		<div class="content_block">
-			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-			<div class="intro_desc">
-				<h2>在地化</h2>
-				<p>和 Mozilla 一起打造 Firefox、Tunderbird 和其他專案屬於你的語言。並且透過翻譯我們網站上的內容，協助我們告訴世界 Mozilla 正在打造更棒的網際網路。</p>
-				<a href="https://groups.google.com/d/topic/moztw-general/92t-umaKqUw/discussion"><div class="key-point button">詳細資訊</div></a>
-				<a href="https://wiki.mozilla.org/L10n"><div class="key-point button">軟體網頁在地化專案</div></a>
-				<a href="https://support.mozilla.org/zh-TW/kb/localize-firefox-help"><div class="key-point button">說明文件在地化</div></a>
-			</div>
-        </div>
-		<div class="content_block">
+		-->
+		<div class="content_block ui-helper-clearfix">
 		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>視覺設計</h2>
 				<p>我們相信優秀、多元藝術的力量，並且希望讓藝術工作者以及被 Mozilla 所啟發的設計進入網路的世界。加入我們的 Creative Collective 挑戰，或者到我們的社群商店放上您的 T-shirt 設計。</p>
-				<a href="http://www.slideshare.net/irvinfly/foxmosa"><div class="key-point button">Foxmosa 繪師招募</div></a>
+				<a href="http://www.slideshare.net/irvinfly/foxmosa"><span class="key-point button">Foxmosa 繪師招募</span></a>
 			</div>
 		</div>
-		<div class="content_block">
+		<div class="content_block ui-helper-clearfix">
 		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>管理網站更新</h2>
 				<p>你常常認為自己以不同的角度看世界嗎？你的腦袋常常浮現零和一嗎？快加入我們，成為一名神聖的系統管理者，默默地在背後維護世界和平的運作。</p>
-				<a href="https://groups.google.com/d/topic/moztw-general/VUsDlxi3z5A/discussion"><div class="key-point button">詳細資訊</div></a>
-				<a href="https://github.com/moztw/svn"><div class="key-point button">Github</div></a>
+				<a href="https://groups.google.com/d/topic/moztw-general/VUsDlxi3z5A/discussion"><span class="key-point button">詳細資訊 》</span></a>
+				<a href="https://github.com/moztw/svn"><span class="key-point button">Github</span></a>
 			</div>
 		</div>
-		<!-- <div class="content_block">
+		<!-- <div class="content_block ui-helper-clearfix">
 		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>規劃、執行推廣活動</h2>
 				<p>協助我們告訴大家火狐和其他 Mozilla 專案如何建造更好的網際網路。您可以透過很多方式向使用者、開發者和學生推廣 Mozilla。</p>
-				<a href="#"><div class="key-point button">MozTW SVN</div></a>
-				<a href="#"><div class="key-point button">HTML 驗證</div></a>
+				<a href="#"><span class="key-point button">MozTW SVN</span></a>
+				<a href="#"><span class="key-point button">HTML 驗證</span></a>
 			</div>
 		</div> -->
-		<!-- <div class="content_block">
-		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-		<div class="intro_desc">
-			<h2>撰寫、翻譯開發文件</h2>
-			<p>Mozilla Developer Network 集結關於 Mozilla 技術的資訊。透過撰寫新的內容、修正既有文章、翻譯內容，讓我們的文件變得更棒吧！</p>
-			<a href="#"><div class="key-point button">MozTW SVN</div></a>
-			<a href="#"><div class="key-point button">HTML 驗證</div></a>
-		</div>
-		</div> -->
-		<!-- <div class="content_block">
+		<!-- <div class="content_block ui-helper-clearfix">
 		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 		<div class="intro_desc">
 			<h2>軟體測試品保</h2>
 			<p>透過擔任 QA 的工作，幫助我們獵捕躲藏在 Firefox 的臭蟲、測試 Mozilla 網頁或者是參與更多不同的產品測試，都是能夠對於我們的程式碼以及開發工具更加熟悉，並且融入 Mozilla 這個大團體。</p>
-			<a href="#"><div class="key-point button">MozTW SVN</div></a>
-			<a href="#"><div class="key-point button">HTML 驗證</div></a>
+			<a href="#"><span class="key-point button">MozTW SVN</span></a>
+			<a href="#"><span class="key-point button">HTML 驗證</span></a>
 		</div>
 		</div> -->
-		<!-- <div class="content_block">
+		<!-- <div class="content_block ui-helper-clearfix">
 		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 		<div class="intro_desc">
 			<h2>執行使用者研究</h2>
 			<p>成為使用者研究團隊的一員—您可以當個調查受試者，也可以自己進行可用性測試，或者分析 Test Pilot 上面的數據。我們需要您的加入！</p>
-			<a href="#"><div class="key-point button">MozTW SVN</div></a>
-			<a href="#"><div class="key-point button">HTML 驗證</div></a>
+			<a href="#"><span class="key-point button">MozTW SVN</span></a>
+			<a href="#"><span class="key-point button">HTML 驗證</span></a>
 		</div>
 		</div> -->
-		<div class="content_block">
+		<div class="content_block ui-helper-clearfix">
 			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>開發擴充套件</h2>
 				<p>Firefox 和其他 Mozilla-based 應用程式擁有超有力的擴充元件系統，讓您可以為程式做可大可小的改造。如果您對這些技術不太熟悉，可以瞭解如何建構附加元件。對於進階使用者，您可以學習如何成為 AMO 編輯者。</p>
-				<a href="https://addons.mozilla.org/zh-TW/developers/"><div class="key-point button">附加套件 開發者交流中心</div></a>
-				<a href="https://forums.addons.mozilla.org/"><div class="key-point button">開發者討論區</div></a>
+				<a href="https://addons.mozilla.org/zh-TW/developers/"><span class="key-point button">附加套件 開發者交流中心</span></a>
+				<a href="https://forums.addons.mozilla.org/"><span class="key-point button">開發者討論區</span></a>
 			</div>
 		</div>
-		<div class="content_block">
+		<div class="content_block ui-helper-clearfix">
 			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>Mozilla 軟體開發</h2>
 				<p>開發者可以替 Mozilla 增加新功能，讓 Firefox 變得更輕更巧更強大。你可以在 IRC 頻道上找到許多開發者，那裡是很棒的發問管道。我們的網站也歡迎網頁忍者來駭一駭。</p>
-				<a href="https://groups.google.com/d/topic/moztw-general/1D4P6IBE-p0/discussion"><div class="key-point button">詳細資訊</div></a>
-				<a href="http://whatcanidoformozilla.org/"><div class="key-point button">我能做什麼</div></a>
+				<a href="https://groups.google.com/d/topic/moztw-general/1D4P6IBE-p0/discussion"><span class="key-point button">詳細資訊 》</span></a>
+				<a href="http://whatcanidoformozilla.org/"><span class="key-point button">我能做什麼</span></a>
 			</div>
 		</div>
 	</div>
@@ -367,44 +392,43 @@ $(function() {
 
     <h3>如何報名？</h3>
     <div id="topic">
-        <p>大部分的工作都不用報名，做就對了！如果您想要聯繫負責各專案的社群成員，請至 <a href="https://groups.google.com/group/moztw-general">moztw-general 郵件群組</a>中發文說明您有興趣的工作，或者直接前來 <a href="/events/moztw-lab/">MozTW Lab</a> 每週實體小聚中聊聊。</p>
+        <p>大部分的工作都不用報名，做就對了！如果您想要聯繫負責各專案的社群成員，請至 <a href="https://groups.google.com/group/moztw-general">moztw-general 郵件群組</a>中發文說明您有興趣的工作，或者直接前來 <a href="/events/moztw-lab/">MozTW Lab</a> 每週實體聚會中聊聊。</p>
     </div>
 
-    <h3>MozTW Lab 工作小聚</h3>
+    <h3>MozTW Lab 社群小聚</h3>
 	<div id="topic">
     	    <img src="moztw-general.png" style="float: left; width: 100px; margin-right: 10px"></img>
         <p>MozTW Lab 社群小聚是每週交朋友、聊是非、互助研究的好所在。你可以至此聊聊 Web 界的八卦、找人幫你的作品給點意見、認識志同道合的夥伴等等。免事先報名，歡迎直接過來與大家聊聊！</p>
-        <a href="/events/moztw-lab/"><div class="key-point button">了解更多 &gt;&gt;</div></a>
+        <a class="ui-helper-clearfix" href="/events/moztw-lab/"><span class="key-point button">了解更多 》</span></a>
     </div>
     
-    <h3>MozTW-General 郵件群組</h3>
+    <h3>MozTW General 郵件群組</h3>
 	<div id="topic">
-        	<img src="/images/foxmosa-mail.png" style="float: left; width: 75px; margin-right: 10px" />
-		<p>
-		    歡迎您訂閱 MozTW 的 <a href="https://groups.google.com/group/moztw-general" onclick="_gaq.push(['trackPageview', '/contribute/moztw-general']);">moztw-general「摩茲將軍」郵件群組</a>參與我們的討論。請注意：
-		</p>
-    		<ul style="clear: both;">
-			<li>這<strong>不是技術支援信箱</strong>—— Firefox 疑難雜症請至<a href="https://support.mozilla.org/">Mozilla 技術支援網站</a>查詢、或至<a href="http://forum.moztw.org/">討論區</a>發問。</li>
-			<li>為了抵禦 spam，首次發言將經過人工審核；敬請耐心稍微等候。</li>
-		</ul>
-	</div>
-	
-	<div class="mailing-list">
-		<p id="mailing-list-loading">
-		</p>
+        	<img src="/images/foxmosa-mail.png" style="width: 75px; float: left;" />
+        <div style="margin-left: 85px;">
+            	<p>
+            	    歡迎您訂閱 <a href="https://groups.google.com/group/moztw-general" onclick="_gaq.push(['trackPageview', '/contribute/moztw-general']);">moztw-general 摩茲將軍郵件群組</a>參與我們的討論。請注意：
+            	</p>
+            	<ul style="padding-left: 1.25em;">
+                	<li>這<strong>不是技術支援信箱</strong>，Firefox 疑難雜症請至 <a href="https://support.mozilla.org/">Mozilla 技術支援</a>或<a href="http://forum.moztw.org/">討論區</a>查詢發問。</li>
+                	<li>為了抵禦垃圾郵件，首次發言需經人工審核，敬請耐心稍候。</li>
+            </ul>
+        </div>
 	</div>
 	
 	<div class="subscribe">
-		<h2> </h2>
 		<form action="http://groups-beta.google.com/group/moztw-general/boxsubscribe">
-			<div>
-			<br/>
 			<input type="text" name="email" value="輸入您的 E-mail" onClick="$(this).val('');" class="ui-widget ui-widget-content ui-corner-all"/>
-			<br/>
-			<input type="submit" value="訂  閱" name="sub" style="float:right;" class="key-point button" />
-			</div>
+			<input type="submit" value="訂閱討論" name="sub" style="float:right;" class="key-point button" />
 		</form>
-    </div>
+	</div>
+	
+	
+	<h4>最近話題</h4>
+	<div class="mailing-list">
+		<p id="mailing-list-loading"></p>
+	</div>
+	
     
     
 	</div>
@@ -467,7 +491,7 @@ function updateFeed() {
 			$.each(
 				thread,
 				function (key) {
-					if(counter==5){
+					if(counter==10){
 						return;
 					}
 					var $li = $('<div class="mail_block" />').append($('<div class="title">' + key+'</div>'));
