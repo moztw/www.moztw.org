@@ -220,7 +220,7 @@ $(function() {
             	<div class="intro_desc">
             		<h2>幫助新手</h2>
             		<p>有興趣幫助其他使用者解決 Firefox 和其他 Mozilla 專案上的問題？我們的論壇以及使用者疑難排解，仰賴於像您一樣熱情的貢獻者。</p>
-            		<a href="http://forum.moztw.org/search.php?search_id=unanswered" onClick="_gaq.push(['_trackEvent', 'Ingoing', '/contribute-2', 'forum-unanswer']);"><span class="button">回答討論區問題</span></a>
+            		<a href="http://forum.moztw.org/search.php?search_id=unanswered" onClick="_gaq.push(['_trackEvent', 'InGoing', '/contribute-2', 'forum-unanswer']);"><span class="button">回答討論區問題</span></a>
             		<a href="https://support.mozilla.org/zh-TW/army-of-awesome" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/contribute-2', 'SUMO-ArmyOfAwesome']);"><span class="button">推特好厲害大軍</span></a>
             		<a href="https://support.mozilla.org/zh-TW/kb/superheroes-wanted" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/contribute-2', 'SUMO-SuperHerosWanted']);"><span class="button">徵求超人義工</span></a>
             	</div>
@@ -366,7 +366,7 @@ $(function() {
         <div style="margin-left: 85px;">
             	<p>歡迎您訂閱 <a href="https://groups.google.com/group/moztw-general" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/contribute-2', 'googlegroups-MoztwGeneral']);">moztw-general 摩茲將軍郵件群組</a>參與我們的討論。請注意：</p>
             	<ul style="padding-left: 1.25em;">
-                	<li>這<strong>不是技術支援信箱</strong>，Firefox 疑難雜症請至 <a href="https://support.mozilla.org/" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/contribute-2', 'SUMO']);">Mozilla 技術支援</a>或<a href="http://forum.moztw.org/" onClick="_gaq.push(['_trackEvent', 'Ingoing', '/contribute-2', 'forum']);">討論區</a>查詢發問。</li>
+                	<li>這<strong>不是技術支援信箱</strong>，Firefox 疑難雜症請至 <a href="https://support.mozilla.org/" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/contribute-2', 'SUMO']);">Mozilla 技術支援</a>或<a href="http://forum.moztw.org/" onClick="_gaq.push(['_trackEvent', 'InGoing', '/contribute-2', 'forum']);">討論區</a>查詢發問。</li>
                 	<li>為了抵禦垃圾郵件，首次發言需經人工審核，敬請耐心稍候。</li>
             </ul>
         </div>
