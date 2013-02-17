@@ -118,13 +118,11 @@ span.unisubs-widget video {
 .button {
     color: #4B6B79;
     float: right;
-    height: 35px;
-    line-height: 35px;
-    margin: 0px 0 5px 10px;
+    margin: 0 0 5px 10px;
     padding: 0 0.8em;
 }
-#side .button {
-    font-size: 1em;
+.button.detail {
+    padding-right: 0.3em;
 }
 
 #side .ui-helper-clearfix:hover {
@@ -138,7 +136,11 @@ span.unisubs-widget video {
 .intro_desc{
     margin-left: 130px;
 }
+.content_block p {
+    margin-bottom: 0.75em;
+}
 .content_block .button {
+    font-size: 0.9em;
     height: 35px;
     line-height: 35px;
 }
@@ -171,18 +173,22 @@ span.unisubs-widget video {
 	margin: 0;
 	text-align: right;
 }
-.subscribe input {
+.subscribe {
     margin-bottom: 10px;
 }
 .subscribe input.ui-widget-content {
     border: 1px solid #AAAAAA;
-    height: 33px;
+    height: 30px;
     padding: 0 5px;
-    width: 66%;
+    width: 68%;
 }
 .subscribe input.button {
-    border-width: 0 0 1px;
     width: 25%;
+}
+#side .button {
+    border-width: 0 0 1px;
+    height: 33px;
+    line-height: 33px;
 }
 
 
@@ -245,7 +251,7 @@ $(function() {
 		<!--<li><a href="#tabs-1">新手上路</a></li>-->
 		<li><a href="#tabs-2">依興趣檢視</a></li>
 		<!--<li><a href="#tabs-3">依所需時間檢視</a></li>-->
-		<li><a href="#tabs-4">留下資料</a></li>
+		<li><a href="#tabs-4">留下資料由專人與您聯繫</a></li>
         <!-- <li><a href="amazing.htm">神奇海螺</a></li> -->
 	</ul>
 <!--
@@ -276,97 +282,92 @@ $(function() {
         <div class="content_block ui-helper-clearfix">
             	<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
             	<div class="intro_desc">
-            		<h2>軟體與網頁在地化</h2>
-            		<p>和 Mozilla 一起打造 Firefox、Tunderbird 和其他專案屬於你的語言。並且透過翻譯我們網站上的內容，協助我們告訴世界 Mozilla 正在打造更棒的網際網路。</p>
-            		<a href="https://groups.google.com/d/topic/moztw-general/92t-umaKqUw/discussion"><span class="key-point button">詳細資訊 》</span></a>
-            		<a href="https://wiki.mozilla.org/L10n"><span class="key-point button">軟體網頁在地化專案</span></a>
-            	</div>
-        </div>
-        <div class="content_block ui-helper-clearfix">
-            	<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-            	<div class="intro_desc">
             		<h2>說明、文件與影片翻譯</h2>
             		<p>翻譯與修訂 Mozilla 技術支援文件、Mozilla Links 正體中文版部落格、Mozilla 相關影片及 MDN 開發者社群技術文件，透過文件翻譯來協助使用者、傳播相關資訊、一同建立網頁開發文件庫。</p>
             		<a href="http://mozlinks-zh.blogspot.com/2012/02/mozilla-links.html"><span class="key-point button">MLinks 編輯機動隊</span></a>
             		<a href="https://support.mozilla.org/zh-TW/kb/localize-firefox-help"><span class="key-point button">說明文件翻譯</span></a>
             		<br style="clear: both;">
-            		<a href="https://groups.google.com/d/topic/moztw-general/92t-umaKqUw/discussion"><span class="key-point button">詳細資訊 》</span></a>
+            		<a href="https://groups.google.com/d/topic/moztw-general/92t-umaKqUw/discussion"><span class="key-point button detail">詳細資訊 》</span></a>
             		<a href="http://mozlinks-zh.blogspot.com/2012/08/iii-mdn.html"><span class="key-point button">貢獻開發文件</span></a>
             		<a href="https://groups.google.com/group/moztw-subtitle"><span class="key-point button">MozTW 字幕組</span></a>
             	</div>
         </div>
-        <!--
-		<div class="content_block ui-helper-clearfix">
-			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-			<div class="intro_desc">
-				<h2>推廣 MozTW 社群</h2>
-				<p>什麼什麼gfx.tw</p>
-				<a href="http://mozilla.com.tw/community/student/"><span class="key-point button">Firefox 校園大使</span></a>
-				 <a href="#"><span class="key-point button">詳細資訊 》</span></a> 
-				 <a href="#"><span class="key-point button">MozTW 連續聚</span></a> 
-			</div>
-		</div>
-		-->
+        <div class="content_block ui-helper-clearfix">
+            <img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
+            	<div class="intro_desc">
+            		<h2>行銷與推廣活動企劃執行</h2>
+            		<p>規劃 MozTW 的<a href="/events">實體與線上推廣活動</a>規劃及執行，協助我們以網路社群低成本、高歡樂的活動，來告訴大家 Mozilla 專案如何建造更好的網際網路。您可以協助規劃 <a href="/events/furp/">Firefox Party</a>、<a href="/events/moztw-lab/">MozTW Labs</a> 等聚會</a>，或者協助 MozTW 的臉書與 Foxmosa 的線上社群經營。</p>
+            		<a href="https://groups.google.com/d/topic/moztw-general/Y-5R81gtCn8/discussion"><span class="key-point button detail">詳細資訊 》</span></a>
+            	</div>
+        </div> 
+        <!-- <div class="content_block ui-helper-clearfix">
+            <img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
+            <div class="intro_desc">
+            	<h2>軟體測試品保</h2>
+            	<p>透過擔任 QA 的工作，幫助我們獵捕躲藏在 Firefox 的臭蟲、測試 Mozilla 網頁或者是參與更多不同的產品測試，都是能夠對於我們的程式碼以及開發工具更加熟悉，並且融入 Mozilla 這個大團體。</p>
+            	<a href="#"><span class="key-point button">MozTW SVN</span></a>
+            	<a href="#"><span class="key-point button">HTML 驗證</span></a>
+            </div>
+        </div> -->
+        <!-- <div class="content_block ui-helper-clearfix">
+            <img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
+            <div class="intro_desc">
+            	<h2>執行使用者研究</h2>
+            	<p>成為使用者研究團隊的一員—您可以當個調查受試者，也可以自己進行可用性測試，或者分析 Test Pilot 上面的數據。我們需要您的加入！</p>
+            	<a href="#"><span class="key-point button">MozTW SVN</span></a>
+            	<a href="#"><span class="key-point button">HTML 驗證</span></a>
+            </div>
+        </div> -->
+        <div class="content_block ui-helper-clearfix">
+            	<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
+            	<div class="intro_desc">
+            		<h2>軟體與網頁在地化</h2>
+            		<p>和 Mozilla 一起打造 Firefox、Tunderbird 和其他專案屬於你的語言。並且透過翻譯我們網站上的內容，協助我們告訴世界 Mozilla 正在打造更棒的網際網路。</p>
+            		<a href="https://groups.google.com/d/topic/moztw-general/92t-umaKqUw/discussion"><span class="key-point button detail">詳細資訊 》</span></a>
+            		<a href="https://wiki.mozilla.org/L10n"><span class="key-point button">軟體網頁在地化專案</span></a>
+            	</div>
+        </div>
 		<div class="content_block ui-helper-clearfix">
 		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
-				<h2>視覺設計</h2>
-				<p>我們相信優秀、多元藝術的力量，並且希望讓藝術工作者以及被 Mozilla 所啟發的設計進入網路的世界。加入我們的 Creative Collective 挑戰，或者到我們的社群商店放上您的 T-shirt 設計。</p>
+				<h2>美術設計</h2>
+				<p>我們希望能協助畫家將作品帶入網路的世界，歡迎繪製漂亮圖片，協助我們妝點大家的螢幕與生活。需要視覺設計的專案包含 MozTW 網站、活動宣傳、貼紙及印刷文宣，以及為 MozTW 吉祥物「<a href="/foxmosa">狐耳摩莎</a>」繪製圖像；您也可以試著製作 Firefox 的佈景主題。</p>
+            		<a href="https://groups.google.com/d/topic/moztw-general/dU2FxHxH-D0/discussion"><span class="key-point button detail">詳細資訊 》</span></a>
+				<a href="https://www.getpersonas.com/en-US/demo_create"><span class="key-point button">製作 Firefox 佈景</span></a>
 				<a href="http://www.slideshare.net/irvinfly/foxmosa"><span class="key-point button">Foxmosa 繪師招募</span></a>
 			</div>
 		</div>
 		<div class="content_block ui-helper-clearfix">
 		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
-				<h2>管理網站更新</h2>
-				<p>你常常認為自己以不同的角度看世界嗎？你的腦袋常常浮現零和一嗎？快加入我們，成為一名神聖的系統管理者，默默地在背後維護世界和平的運作。</p>
-				<a href="https://groups.google.com/d/topic/moztw-general/VUsDlxi3z5A/discussion"><span class="key-point button">詳細資訊 》</span></a>
-				<a href="https://github.com/moztw/svn"><span class="key-point button">Github</span></a>
+				<h2>程式、網站開發與系統管理</h2>
+				<p>你常常以不同的角度看世界嗎？腦中常常浮現 0/1、以邏輯化的思考流程生活著嗎？快加入我們，開發維護 MozTW 的網站及創作各種有趣的 DEMO 作品進行技術傳教；或努力成為一名神聖的系統管理者，默默地在系統背後維護世界的和平運作。</p>
+				<a href="https://groups.google.com/d/topic/moztw-general/VUsDlxi3z5A/discussion"><span class="key-point button detail">詳細資訊 》</span></a>
+				<a href="https://developer.mozilla.org/zh-TW/demos/devderby"><span class="key-point button">MDN Demo 競賽</span></a>
+				<a href="https://github.com/moztw/"><span class="key-point button">MozTW GitHub</span></a>
 			</div>
 		</div>
-		<!-- <div class="content_block ui-helper-clearfix">
-		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-			<div class="intro_desc">
-				<h2>規劃、執行推廣活動</h2>
-				<p>協助我們告訴大家火狐和其他 Mozilla 專案如何建造更好的網際網路。您可以透過很多方式向使用者、開發者和學生推廣 Mozilla。</p>
-				<a href="#"><span class="key-point button">MozTW SVN</span></a>
-				<a href="#"><span class="key-point button">HTML 驗證</span></a>
-			</div>
-		</div> -->
-		<!-- <div class="content_block ui-helper-clearfix">
-		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-		<div class="intro_desc">
-			<h2>軟體測試品保</h2>
-			<p>透過擔任 QA 的工作，幫助我們獵捕躲藏在 Firefox 的臭蟲、測試 Mozilla 網頁或者是參與更多不同的產品測試，都是能夠對於我們的程式碼以及開發工具更加熟悉，並且融入 Mozilla 這個大團體。</p>
-			<a href="#"><span class="key-point button">MozTW SVN</span></a>
-			<a href="#"><span class="key-point button">HTML 驗證</span></a>
-		</div>
-		</div> -->
-		<!-- <div class="content_block ui-helper-clearfix">
-		<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
-		<div class="intro_desc">
-			<h2>執行使用者研究</h2>
-			<p>成為使用者研究團隊的一員—您可以當個調查受試者，也可以自己進行可用性測試，或者分析 Test Pilot 上面的數據。我們需要您的加入！</p>
-			<a href="#"><span class="key-point button">MozTW SVN</span></a>
-			<a href="#"><span class="key-point button">HTML 驗證</span></a>
-		</div>
-		</div> -->
 		<div class="content_block ui-helper-clearfix">
 			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
 				<h2>開發擴充套件</h2>
-				<p>Firefox 和其他 Mozilla-based 應用程式擁有超有力的擴充元件系統，讓您可以為程式做可大可小的改造。如果您對這些技術不太熟悉，可以瞭解如何建構附加元件。對於進階使用者，您可以學習如何成為 AMO 編輯者。</p>
-				<a href="https://addons.mozilla.org/zh-TW/developers/"><span class="key-point button">附加套件 開發者交流中心</span></a>
-				<a href="https://forums.addons.mozilla.org/"><span class="key-point button">開發者討論區</span></a>
+				<p>Firefox 和其他 Mozilla-based 應用程式擁有超有力的擴充元件系統，讓您得以隨意進行改造。您可以透過開發附加元件、練習各種網頁技術，同時協助其他使用者，讓 Firefox 更為強大。</p>
+				<a href="https://lists.mozilla.org/listinfo/dev-general-zh"><span class="key-point button">Mozilla 中文開發者郵件群組</span></a>
+				<a href="https://addons.mozilla.org/zh-TW/developers/"><span class="key-point button">套件開發者交流中心</span></a>
+            		<br style="clear: both;">
+				<a href="https://groups.google.com/d/topic/moztw-general/-BeSbG72hSU/discussion"><span class="key-point button detail">詳細資訊 》</span></a>
+				<a href="http://mozlinks-zh.blogspot.com/2012/08/add-on-sdk-firefox.html"><span class="key-point button">用 Add-on SDK 寫套件教學</span></a>
 			</div>
 		</div>
 		<div class="content_block ui-helper-clearfix">
 			<img src="/images/foxmosa-icon.gif" class="intro_icon"></img>
 			<div class="intro_desc">
-				<h2>Mozilla 軟體開發</h2>
-				<p>開發者可以替 Mozilla 增加新功能，讓 Firefox 變得更輕更巧更強大。你可以在 IRC 頻道上找到許多開發者，那裡是很棒的發問管道。我們的網站也歡迎網頁忍者來駭一駭。</p>
-				<a href="https://groups.google.com/d/topic/moztw-general/1D4P6IBE-p0/discussion"><span class="key-point button">詳細資訊 》</span></a>
-				<a href="http://whatcanidoformozilla.org/"><span class="key-point button">我能做什麼</span></a>
+				<h2>Mozilla、Firefox 軟體開發</h2>
+				<p>替 Mozilla 軟體開發新功能、或幫 Firefox 除錯，透過解 Bug 挑戰自己的程式功力，躋身 Mozilla 全球開發者的一員。你可以在 IRC 頻道上找到許多開發者，那裡是很棒的發問管道，Mozilla 的網站也歡迎網頁忍者來駭一駭。</p>
+				<a href="https://groups.google.com/d/topic/moztw-general/V-21VIdcLhk/discussion"><span class="key-point button detail">詳細資訊 》</span></a>
+				<a href="https://lists.mozilla.org/listinfo/dev-general-zh"><span class="key-point button">中文開發者郵件群組</span></a>
+				<a href="irc://irc.mozilla.org/mozilla-taiwan"><span class="key-point button">Mozillia-Taiwan IRC</span></a>
+				<a href="http://whatcanidoformozilla.org/"><span class="key-point button">我能在 Mozilla 做些什麼</span></a>
 			</div>
 		</div>
 	</div>
@@ -399,7 +400,7 @@ $(function() {
 	<div id="topic">
     	    <img src="moztw-general.png" style="float: left; width: 100px; margin-right: 10px"></img>
         <p>MozTW Lab 社群小聚是每週交朋友、聊是非、互助研究的好所在。你可以至此聊聊 Web 界的八卦、找人幫你的作品給點意見、認識志同道合的夥伴等等。免事先報名，歡迎直接過來與大家聊聊！</p>
-        <a class="ui-helper-clearfix" href="/events/moztw-lab/"><span class="key-point button">了解更多 》</span></a>
+        <a class="ui-helper-clearfix" href="/events/moztw-lab/"><span class="key-point button detail">了解更多 》</span></a>
     </div>
     
     <h3>MozTW General 郵件群組</h3>
