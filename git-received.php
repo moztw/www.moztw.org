@@ -10,7 +10,16 @@ $isInStage = (strpos($_SERVER["SCRIPT_FILENAME"], 'www-stage') != false);
 $isGithub = isset($_POST["payload"]) && (strpos($_SERVER["HTTP_USER_AGENT"], 'GitHub')  !== false);
 if( $isInStage && $isGithub ){
   $cmd = 'bash /home/moztw/htdocs/autoupdate/update.sh';
+  
+  $opt = '';
+  $opt .= ' stage';
+  $opt .= ' md5';
+  $opt .= ' cache';
+  
+  $cmd .= $opt;
   $cmd .= ' 2>&1';
+  
+  error_log(print_r($cmd,TRUE));
   ob_flush();
   flush();
   $handle = popen("" . $cmd, "r");
