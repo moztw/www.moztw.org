@@ -131,16 +131,14 @@ body {
 	color:#fff;
 	background:url('images/arrow-large.png') no-repeat 10px 50%;
 	background:url('images/arrow-large.png') no-repeat 10px 50%, -webkit-gradient(linear, left top, left bottom, from(#83c53c), to(#519d1b));
-	background:url('images/arrow-large.png') no-repeat 10px 50%, -moz-linear-gradient(#83c53c, #519d1b);
-	background:url('images/arrow-large.png') no-repeat 10px 50%, -o-linear-gradient(#83c53c, #519d1b);
 	background:url('images/arrow-large.png') no-repeat 10px 50%, linear-gradient(#83c53c, #519d1b);
 	background-color:#4a1;
 	text-decoration:none;
 	padding: 1em;
-	padding-left:45px;
+	padding-left: 50px;
 	border-radius: 5px;
 	border-bottom: 2px solid #481;
-	margin-bottom: 1em;
+	margin-top: 1em;
 	display:block;
 	transition: box-shadow 1s;
 	-moz-transition: box-shadow 1s;
@@ -159,6 +157,7 @@ body {
 	color: #4C5C5C;
 	font-size: 1.05em;
 	text-shadow: none;
+    margin-left: 50px;
 }
 
 
@@ -339,16 +338,16 @@ body {
 
 	<div id="download">
 		<a class="btn" href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">
-		從 Google Play 下載*
+		從 Google Play 下載
 		<div class="desc">正式版</div>
 		</a>
 
-		<a class="btn" href="http://bit.ly/Firefox-Android-Beta-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobileBeta', 'GooglePlay']);">
-		從 Google Play 下載*
+		<a class="btn beta" href="http://bit.ly/Firefox-Android-Beta-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay-Beta']);">
+		從 Google Play 下載
         <div class="desc">Beta 測試版</div>
         </a>
 
-		<p>* 多語系版，皆已包含正體中文。</p>
+		<p>* 多語系版，皆已內建正體中文</p>
 	</div>
 
 </div>
@@ -423,7 +422,7 @@ $(window).load(function() {
     
 	$(window).scroll(function() {
 		var windowOffset = $(window).scrollTop();
-		var spos = $('.btn').offset().top;
+		var spos = $('.btn.beta').offset().top;
 
 		if (windowOffset > spos) {
 		    $('body').addClass('down');
