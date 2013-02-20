@@ -333,11 +333,7 @@ body {
 	<div id="download">
 		<a class="btn" href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">
 		從 Google Play 下載
-		<div class="desc">目前暫無中文版</div>
-		</a>
-		<a class="btn btn-ftp" href="http://bit.ly/FxM18zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '18-zhTW-FTP']);">
-		從 Mozilla 下載
-		<div class="desc">正體中文版，請手動安裝 APK</div>
+		<div class="desc">正體中文版</div>
 		</a>
 	</div>
 
@@ -410,7 +406,7 @@ $(window).load(function() {
     
     // Animation of phone
     var offset = $('#main-content').offset().top;
-	var spos = $('.btn-ftp').offset().top;
+	var spos = $('.btn').offset().top;
     
 	$(window).scroll(function() {
 		var windowOffset = $(window).scrollTop();
