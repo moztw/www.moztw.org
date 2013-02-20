@@ -125,8 +125,7 @@
 #front-feature .mwc-box h2 {
     color: #FFFFFF;
     font-size: 24px;
-    font-family: sans-serif;
-    font-weight: bold;
+    font-family: "Helvetica", "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
     line-height: 1.7em;
     text-align: justify;
     margin-bottom: 0.5em;
@@ -285,7 +284,7 @@
   <div class="mwc-box">
     <h2>一年之前，Mozilla 承諾將開放網路推上行動裝置的舞台。現在我們帶著成果回來了！</h2>
     <div class="mwc-intro">
-        <p>透過 Firefox OS、Marketplace 及 Android 版 Firefox，我們讓營運商、手機製造商與開發者得以經營、客制並直接掌握顧客關係。</p>
+        <p>透過 Firefox OS、Firefox Marketplace 及 Android 版 Firefox，我們讓營運商、手機製造商與開發者得以經營、客制並直接掌握顧客關係。</p>
         <p>更多資訊即將於 MWC 大會公開，敬請期待……</p>
     </div>
     <div class="countdown">
