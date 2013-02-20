@@ -112,28 +112,6 @@
     width: 250px;
 }
 
-#front-feature .mwc-box {
-    color: #FFFFFF;
-    font-size: 15px;
-    left: 336px;
-    letter-spacing: 0.05em;
-    position: absolute;
-    text-shadow: 2px 1px 2px #185199;
-    top: 45px;
-    width: 455px;
-}
-
-#front-feature .mwc-box h2 {
-    color: #FFFFFF;
-    font-size: 1.5em;
-    line-height: 1.5em;
-    text-align: justify;
-    margin-bottom: 0.5em;
-}
-#front-feature .mwc-box p {
-    line-height: 1.5em;
-    text-align: justify;
-}
 
 @media only screen and (max-width : 500px) {
     #front-feature #feature-content {
@@ -194,16 +172,109 @@
 </style>
 <![endif]-->
 
+<style>
+#front-feature .mwc-box {
+    color: #FFFFFF;
+    left: 336px;
+    letter-spacing: 0.05em;
+    position: absolute;
+    text-shadow: 2px 1px 2px #185199;
+    top: 45px;
+    width: 425px;
+}
+
+#front-feature .mwc-box h2 {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 1.7em;
+    text-align: justify;
+    margin-bottom: 0.5em;
+    position: absolute;
+    -webkit-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+}
+#front-feature .mwc-box .mwc-intro {
+    font-size: 18px;
+    line-height: 1.5em;
+    text-align: justify;
+    margin: 0 0 0.5em;
+    padding: 0;
+    position: absolute;
+    -webkit-transition: opacity 0.7s;
+    transition: opacity 0.7s;
+}
+
+/* MWS Countdown style and code from http://www.mozilla.org/en-US/firefox/partners/ */
+
+#front-feature .mwc-box .countdown {
+    left: 50px;
+    padding: 0;
+    position: absolute;
+    top: 160px;
+    width: 200px;
+}
+.mwc-box .countdown:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.mwc-box .countdown .box {
+    float: left;
+    margin: 0 5% 0 0;
+    width: 20%;
+}
+.mwc-box .countdown .count {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 1px rgba(0, 0, 0, 0.25) inset;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 3px;
+    padding: 6px 1px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+}
+.mwc-box .countdown .label {
+    border: none;
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.mwc-intro {
+    opacity: 0;
+}
+.mwc-box h2 {
+    opacity: 1;
+}
+#front-feature:hover .mwc-box h2 {
+    opacity: 0;
+}
+#front-feature:hover .mwc-box .mwc-intro {
+    opacity: 1;
+}
+</style>
+
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
   <div class="mwc-box">
     <h2>一年之前，Mozilla 承諾將開放網路推上行動裝置的舞台，現在我們帶著成果回來了！</h2>
-    <p>透過 Firefox OS、Marketplace 及 Firefox Android 版，我們讓營運商、手機商與開發者得以經營、客製及實際掌握顧客直接關係。更多資訊即將公開，敬請期待……</p>
+    <div class="mwc-intro">
+        <p>透過 Firefox OS、Marketplace 及 Android 版 Firefox，我們讓營運商、手機製造商與開發者得以經營、客制並直接掌握顧客關係。</p>
+        <p>更多資訊即將於 MWC 大會公開，敬請期待……</p>
+    </div>
+    <div class="countdown">
+      <span id="mwc-countdown" data-time="1361723400"></span>
+    </div>
   </div>
 
-  <a id="mobile_link" href="/mobile/"></a>
+  <a id="mobile_link" href="http://www.mozilla.org/firefox/partners/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'mozilla.org/partner', 'Frontpage']);"></a>
+
   <div id="feature-content">
     <h2><a class="fx-link" href="/firefox/"><img src="images/logo-wordmark-mozilla.png" alt="Firefox" height="84" width="240"></a></h2>
     <div class="download dl-box">
@@ -347,6 +418,16 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 		},
 		5
 	);
+	
+
+// MWC countdown
+window.trans = function trans(a) {
+  return $("#strings").data(a)
+};
+
 })(jQuery);
+</script>
+<div data-secondstextex="seconds" data-secondstext="秒" data-minutestextex="minutes" data-minutestext="分" data-hourstextex="hours" data-hourstext="時" data-daystextex="days" data-daystext="日" data-daytext="日" data-close="Close" id="strings"></div>
+<script src="http://mozorg.cdn.mozilla.net/media/js/partners-min.js">
 </script>
 <!--#include virtual="/inc/footer.html" -->
