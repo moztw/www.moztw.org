@@ -14,7 +14,6 @@ if( $isInStage && $isGithub ){
   $cmd = 'bash /home/moztw/htdocs/autoupdate/update.sh';
   
   $opt = '';
-  if($payload == "master")
   if($payload->ref==="refs/heads/production"){
 	//production
   }else if($payload->ref==="refs/heads/master"){
