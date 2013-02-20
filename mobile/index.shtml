@@ -406,10 +406,10 @@ $(window).load(function() {
     
     // Animation of phone
     var offset = $('#main-content').offset().top;
-	var spos = $('.btn').offset().top;
     
 	$(window).scroll(function() {
 		var windowOffset = $(window).scrollTop();
+		var spos = $('.btn').offset().top;
 
 		if (windowOffset > spos) {
 		    $('body').addClass('down');
