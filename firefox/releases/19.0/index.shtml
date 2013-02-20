@@ -304,8 +304,18 @@ section .appendix {
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
                       <h5>
-                        Windows: 更新 Firefox 後短時間內使用 Microsoft 系統還原，可能導致找不到未來更新（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=730285">bug 730285</a>）。
+                        Mootools 1.2.x 與 Firefox 18 以上的版本不相容。Mootools 1.3 以上的版本已解決這個問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=789036">bug 789036</a>）。
                       </h5>
+                    </li>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>
+                        部分功能鍵可能沒有效用（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=833719">bug 833719</a>）。
+                      </h5>
+                      <div class="status">
+                        <span class="status-unresolved">v19 未修復</span>
+                        <span class="status-resolved">v21 已修復</span>
+                      </div>
                     </li>
                   </ul>
                 </div>
