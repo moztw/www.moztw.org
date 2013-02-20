@@ -155,6 +155,13 @@ body {
 		inset 0 12px 24px 2px #83d822;
 }
 
+#download p {
+	color: #4C5C5C;
+	font-size: 1.05em;
+	text-shadow: none;
+}
+
+
 /* 
  * Style below modefied from http://www.mozilla.org/en-US/firefox/mobile/features/ 
  */
@@ -332,9 +339,16 @@ body {
 
 	<div id="download">
 		<a class="btn" href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">
-		從 Google Play 下載
-		<div class="desc">正體中文版</div>
+		從 Google Play 下載*
+		<div class="desc">正式版</div>
 		</a>
+
+		<a class="btn" href="http://bit.ly/Firefox-Android-Beta-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobileBeta', 'GooglePlay']);">
+		從 Google Play 下載*
+        <div class="desc">Beta 測試版</div>
+        </a>
+
+		<p>* 多語系版，皆已包含正體中文。</p>
 	</div>
 
 </div>
