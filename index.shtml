@@ -113,66 +113,7 @@
 }
 
 
-@media only screen and (max-width : 500px) {
-    #front-feature #feature-content {
-        display: none;
-    }
-    #front-feature {
-        background-position: 30% 0px;
-        background-size: auto 100%;
-        padding-bottom: 200px;
-        background-repeat: no-repeat;
-    }
-    #front-feature.coscup {
-        background-position: center 60%;
-        background-size: 105% auto;
-        padding-bottom: 245px;
-    }
-    
-    coscup {
-        background-position: 0px 0px !important;
-        background-size 90% !important;
-        padding-bottom: 200px;
-        background-repeat: no-repeat;
-        background: #78B8D0 !important;
-    }
-    .front-feature #mobile_link {
-        width: 100%;
-        height: 100%;
-    }
-}
-   
--->
-</style>
-<!--[if lte IE 8]>
-<style>
-.frontcolumn {
-    padding-right: 2%;
-}
-#front-feature .download ul, #planets ul {
-    margin-left: 0;
-}
-#front-feature {
-    background-position: 465px -45px;
-}
-#front-feature:hover {
-    background-position: 90px -45px;
-}
-.front-feature #mobile_link {
-    height: 330px;
-    width: 70%;
-}
-</style>
-<![endif]-->
-<!--[if lte IE 6]>
-<style>
-#front-feature {
-    background-position: 225px -45px;
-}
-</style>
-<![endif]-->
 
-<style>
 #front-feature .mwc-box {
     color: #FFFFFF;
     left: 336px;
@@ -256,14 +197,96 @@
 #front-feature:hover .mwc-box .mwc-intro {
     opacity: 1;
 }
+
+
+@media only screen and (max-width : 500px) {
+    #front-feature #feature-content {
+        display: none;
+    }
+    #front-feature {
+        background-position: right -115px;
+        background-size: auto 360px;
+        padding-bottom: 200px;
+        background-repeat: no-repeat;
+    }
+    #front-feature .mwc-box {
+        left: 0;
+        top: 0;
+        width: 85%;
+    }
+    #front-feature .mwc-box h2 {
+        font-size: 22px;
+        line-height: 1.5em;
+        animation: opacityani 10s linear 0s infinite;
+        transition: none;
+    }
+    #front-feature:hover .mwc-box h2 {
+        opacity: 1;
+    }
+    #front-feature .mwc-box .mwc-intro {
+        display: none;
+    }
+    
+    #front-feature .mwc-box .countdown {
+        left: 25px;
+        top: 135px;
+    }
+    #front-feature.coscup {
+        background-position: center 60%;
+        background-size: 105% auto;
+        padding-bottom: 245px;
+    }
+    
+    coscup {
+        background-position: 0px 0px !important;
+        background-size: 90% !important;
+        padding-bottom: 200px;
+        background-repeat: no-repeat;
+        background: #78B8D0 !important;
+    }
+    .front-feature #mobile_link {
+        width: 100%;
+        height: 100%;
+    }
+}
+   
+-->
 </style>
+<!--[if lte IE 8]>
+<style>
+.frontcolumn {
+    padding-right: 2%;
+}
+#front-feature .download ul, #planets ul {
+    margin-left: 0;
+}
+#front-feature {
+    background-position: 465px -45px;
+}
+#front-feature:hover {
+    background-position: 90px -45px;
+}
+.front-feature #mobile_link {
+    height: 330px;
+    width: 70%;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 6]>
+<style>
+#front-feature {
+    background-position: 225px -45px;
+}
+</style>
+<![endif]-->
+
 
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
   <div class="mwc-box">
-    <h2>一年之前，Mozilla 承諾將開放網路推上行動裝置的舞台，現在我們帶著成果回來了！</h2>
+    <h2>一年之前，Mozilla 承諾將開放網路推上行動裝置的舞台。現在我們帶著成果回來了！</h2>
     <div class="mwc-intro">
         <p>透過 Firefox OS、Marketplace 及 Android 版 Firefox，我們讓營運商、手機製造商與開發者得以經營、客制並直接掌握顧客關係。</p>
         <p>更多資訊即將於 MWC 大會公開，敬請期待……</p>
