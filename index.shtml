@@ -107,11 +107,9 @@
     background-size: auto 100%;
 }
 
-
 .homepage .download {
     width: 250px;
 }
-
 
 
 #front-feature .mwc-box {
@@ -127,6 +125,8 @@
 #front-feature .mwc-box h2 {
     color: #FFFFFF;
     font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
     line-height: 1.7em;
     text-align: justify;
     margin-bottom: 0.5em;
@@ -217,8 +217,8 @@
     #front-feature .mwc-box h2 {
         font-size: 22px;
         line-height: 1.5em;
-        animation: opacityani 10s linear 0s infinite;
         transition: none;
+        -webkit-transition: none;
     }
     #front-feature:hover .mwc-box h2 {
         opacity: 1;
@@ -252,6 +252,13 @@
    
 -->
 </style>
+<!--[if IE]>
+<style>
+    .key-point {
+        background-position-x: -25px;
+    }
+</style>
+<![endif]-->
 <!--[if lte IE 8]>
 <style>
 .frontcolumn {
@@ -260,22 +267,12 @@
 #front-feature .download ul, #planets ul {
     margin-left: 0;
 }
-#front-feature {
-    background-position: 465px -45px;
-}
-#front-feature:hover {
-    background-position: 90px -45px;
-}
 .front-feature #mobile_link {
     height: 330px;
     width: 70%;
 }
-</style>
-<![endif]-->
-<!--[if lte IE 6]>
-<style>
-#front-feature {
-    background-position: 225px -45px;
+#front-feature .mwc-box .mwc-intro {
+    display: none;
 }
 </style>
 <![endif]-->
