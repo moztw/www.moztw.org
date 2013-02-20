@@ -9,10 +9,21 @@ $isInStage = (strpos($_SERVER["SCRIPT_FILENAME"], 'www-stage') != false);
 //$isGithub = (in_array($_SERVER['REMOTE_ADDR'], $whitelist) === true);
 $isGithub = isset($_POST["payload"]) && (strpos($_SERVER["HTTP_USER_AGENT"], 'GitHub')  !== false);
 if( $isInStage && $isGithub ){
+  $payload = json_decode($_POST["payload"]);
+  
   $cmd = 'bash /home/moztw/htdocs/autoupdate/update.sh';
   
   $opt = '';
-  $opt .= ' stage';
+  if($payload == "master")
+  if($payload->ref==="refs/heads/production"){
+	//production
+  }else if($payload->ref==="refs/heads/master"){
+	//stage
+	$opt .= ' stage';  
+  }else{
+	return;  
+  }
+  
   $opt .= ' md5';
   $opt .= ' cache';
   
