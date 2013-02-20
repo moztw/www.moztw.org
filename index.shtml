@@ -63,16 +63,11 @@
 }
 
 #front-feature .dl-mobile:hover div {
+    height: 25px;
     margin-top: 5px;
-    height: 60px;
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
 }
-
-#front-feature #multilocale {
-    font-size: 0.85em;
-}
-
 
 #front-feature .download ul {
     padding-left: 30px;
@@ -221,13 +216,11 @@
 		</div>
     </div>
     <div class="download dl-mobile">
-    	<h3><a href="/mobile/"><strong class="downloadText">Firefox for Android</strong></a></h3>
+    	<h3><a href="/mobile/"><strong class="downloadText">Firefox Android 版</strong></a></h3>
  		<div>    	
         	<ul>
-            	<li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">正式版</a></li>
-				<li><a href="http://bit.ly/Firefox-Android-Beta-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobileBeta', 'GooglePlay']);">Beta 測試版</a></li>
-            </ul>
-			<p id="multilocale">Play 商店免費下載，皆已內建正體中文語系</p>
+            	<li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">Google Play (中文版)</a></li>
+        </ul>
         </div>
     </div>
   </div>
