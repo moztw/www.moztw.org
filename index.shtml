@@ -218,9 +218,7 @@
     	<h3><a href="/mobile/"><strong class="downloadText">行動版 Firefox </strong></a></h3>
  		<div>    	
         	<ul>
-            	<li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">Google Play (英文版)</a>
-            	</li>
-            	<li><a href="http://bit.ly/FxM18zhTW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', '18-zhTW-FTP']);">Mozilla FTP (中文安裝檔)</a>
+            	<li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxMobile', 'GooglePlay']);">Google Play</a>
             	</li>
             </ul>
         </div>
