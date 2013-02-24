@@ -103,9 +103,7 @@
     background-color: #0055A0;
     background-image: linear-gradient(#0F9FDB, #0055A0);
     background-repeat: repeat-x;
-    color: #FFFFFF;
-    text-shadow: none;
-    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 332px -94px #1875B5;
+    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px #1875B5;
 }
 .key-point.coscup {
     background: url("images/pairslogo.jpg") 75% center no-repeat #D3A77D;
@@ -136,10 +134,10 @@
     z-index: 120;
     transition:left 0.5s ease;
 }
-.phone-container:hover {
+.front-feature:hover .phone-container {
     left: 400px;
 }
-.phone-container:hover #screen-os {
+.front-feature:hover #screen-os {
     -moz-animation: os-screenslide 20s ease infinite alternate;
     -webkit-animation: os-screenslide 20s ease infinite alternate;
     animation: 20s ease 0s alternate none infinite os-screenslide;
