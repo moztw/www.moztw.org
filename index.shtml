@@ -320,7 +320,7 @@
 <!--[if IE]>
 <style>
     .key-point {
-        background-position-x: -25px;
+        background-position-x: 344px;
     }
 </style>
 <![endif]-->
