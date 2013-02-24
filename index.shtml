@@ -100,10 +100,17 @@
 }
 
 .key-point {
-    background-color: #0055A0;
-    background-image: linear-gradient(#0F9FDB, #0055A0);
-    background-repeat: repeat-x;
+    background-color:#0055a0;
+    background-repeat:repeat-x;
     background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px #1875B5;
+    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -khtml-gradient(linear,left top,left bottom,from(#0f9fdb),to(#0055a0));
+    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -moz-linear-gradient(#0f9fdb,#0055a0);
+    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -ms-linear-gradient(#0f9fdb,#0055a0);
+    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -webkit-gradient(linear,left top,left bottom,color-stop(0%,#0f9fdb),color-stop(100%,#0055a0));
+    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -webkit-linear-gradient(#0f9fdb,#0055a0);
+    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -o-linear-gradient(#0f9fdb,#0055a0);
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f9fdb',endColorstr='#0055a0',GradientType=0)";
+    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, linear-gradient(#0f9fdb,#0055a0);
 }
 .key-point.coscup {
     background: url("images/pairslogo.jpg") 75% center no-repeat #D3A77D;
@@ -250,8 +257,8 @@
         display: none;
     }
     #front-feature {
-        background-position: right -115px;
-        background-size: auto 360px;
+        background-position: bottom 0px;
+        background-size: 100%;
         padding-bottom: 200px;
         background-repeat: no-repeat;
     }
