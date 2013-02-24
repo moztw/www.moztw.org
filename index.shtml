@@ -239,16 +239,17 @@
 }
 
 .mwc-intro {
-    opacity: 0;
+    display: none;
 }
 .mwc-box h2 {
-    opacity: 1;
+    display: block;
+
 }
 #front-feature:hover .mwc-box h2 {
-    opacity: 0;
+    display: none;
 }
 #front-feature:hover .mwc-box .mwc-intro {
-    opacity: 1;
+    display: block;
 }
 
 
