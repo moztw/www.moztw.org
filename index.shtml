@@ -19,7 +19,7 @@
     top: 0;
     width: 595px;
     height: 100%;
-    z-index: 0;
+    z-index: 200;
     text-decoration: none;
 }
 .front-feature #mobile_link:hover, .front-feature #mobile_link:visited {
@@ -216,8 +216,6 @@
     text-align: justify;
     margin-bottom: 0.5em;
     position: absolute;
-    -webkit-transition: opacity 0.7s;
-    transition: opacity 0.7s;
 }
 #front-feature .mwc-box .mwc-intro {
     font-size: 24px;
@@ -227,7 +225,6 @@
     padding: 0;
     position: absolute;
     overflow: hidden;
-    width: 200px;
 }
 .phone-container #screen-os {
     transition:background-position 1s ease;
@@ -315,6 +312,7 @@
 .front-feature #mobile_link {
     height: 330px;
     width: 70%;
+    z-index: 130;
 }
 #front-feature .mwc-box .mwc-intro {
     display: none;
@@ -337,7 +335,7 @@
   <div class="mwc-box">
     <h2>一年之前，Mozilla 承諾將開放網路推上行動裝置的舞台。現在我們帶著成果回來了！</h2>
     <div class="mwc-intro">
-        <p>進入 Mozilla MWC 網站</p>
+        <p>立即進入<br>Mozilla MVC 網站</p>
     </div>
   </div>
 
