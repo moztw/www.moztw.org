@@ -139,6 +139,10 @@
     top: 20px;
     width: 927px;
     z-index: 120;
+    -webkit-transition:left 0.5s ease;
+    -moz-transition:left 0.5s ease;
+    -o-transition:left 0.5s ease;
+    -ms-transition:left 0.5s ease;
     transition:left 0.5s ease;
 }
 .front-feature:hover .phone-container {
@@ -170,6 +174,10 @@
     overflow: hidden;
 }
 .phone-container #screen-os {
+    -webkit-transition:background-position 1s ease;
+    -moz-transition:background-position 1s ease;
+    -o-transition:background-position 1s ease;
+    -ms-transition:background-position 1s ease;
     transition:background-position 1s ease;
     background: url("/images/phone-os-screenshots.jpg") repeat-x scroll 0 0 transparent;
 }
@@ -234,6 +242,10 @@
     overflow: hidden;
 }
 .phone-container #screen-os {
+    -webkit-transition:background-position 1s ease;
+    -moz-transition:background-position 1s ease;
+    -o-transition:background-position 1s ease;
+    -ms-transition:background-position 1s ease;
     transition:background-position 1s ease;
     background: url("/images/phone-os-screenshots.jpg") repeat-x scroll 0 0 transparent;
 }
@@ -271,8 +283,11 @@
     #front-feature .mwc-box h2 {
         font-size: 22px;
         line-height: 1.5em;
-        transition: none;
         -webkit-transition: none;
+        -moz-transition: none;
+        -o-transition: none;
+        -ms-transition: none;
+        transition: none;
     }
     #front-feature:hover .mwc-box h2 {
         opacity: 1;
