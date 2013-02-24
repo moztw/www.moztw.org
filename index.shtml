@@ -121,6 +121,89 @@
     top: 45px;
     width: 425px;
 }
+.phone-container {
+    height: 586px;
+    margin-left: 166px;
+    left: 630px;
+    position: absolute;
+    top: 20px;
+    width: 927px;
+    z-index: 120;
+    transition:left 0.5s ease;
+}
+.phone-container:hover {
+    left: 400px;
+}
+.phone-container:hover #screen-os {
+    -moz-animation: os-screenslide 20s ease infinite alternate;
+    -webkit-animation: os-screenslide 20s ease infinite alternate;
+    animation: 20s ease 0s alternate none infinite os-screenslide;
+}
+.phone-container .phone {
+    height: 586px;
+    width: 327px;
+}
+.phone-container .phone-overlay {
+    background: url("/images/phone-overlay.png") no-repeat scroll 0 0 transparent;
+    height: 586px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 327px;
+}
+.phone-container .screen {
+    height: 373px;
+    left: 33px;
+    position: absolute;
+    top: 66px;
+    width: 226px;
+    overflow: hidden;
+}
+.phone-container #screen-os {
+    transition:background-position 1s ease;
+    background: url("/images/phone-os-screenshots.jpg") repeat-x scroll 0 0 transparent;
+}
+@keyframes os-screenslide {
+	0% { background-position: -244px 0 }
+	18% { background-position: -244px 0 }
+	20% { background-position: -488px 0 }
+	38% { background-position: -488px 0 }
+	40% { background-position: -732px 0 }
+	58% { background-position: -732px 0 }
+	60% { background-position: -488px 0 }
+	78% { background-position: -488px 0 }
+	80% { background-position: -244px 0 }
+	98% { background-position: -244px 0 }
+	100% { background-position: 0 0 }
+}
+@-moz-keyframes os-screenslide {
+	0% { background-position: -244px 0 }
+	10% { background-position: -244px 0 }
+	20% { background-position: -488px 0 }
+	30% { background-position: -488px 0 }
+	40% { background-position: -732px 0 }
+	50% { background-position: -732px 0 }
+	60% { background-position: -488px 0 }
+	70% { background-position: -488px 0 }
+	80% { background-position: -244px 0 }
+	90% { background-position: -244px 0 }
+	100% { background-position: 0 0 }
+}
+@-webkit-keyframes os-screenslide {
+	0% { background-position: -244px 0 }
+	10% { background-position: -244px 0 }
+	20% { background-position: -488px 0 }
+	30% { background-position: -488px 0 }
+	40% { background-position: -732px 0 }
+	50% { background-position: -732px 0 }
+	60% { background-position: -488px 0 }
+	70% { background-position: -488px 0 }
+	80% { background-position: -244px 0 }
+	90% { background-position: -244px 0 }
+	100% { background-position: 0 0 }
+}
+
+
 
 #front-feature .mwc-box h2 {
     color: #FFFFFF;
@@ -140,48 +223,11 @@
     margin: 0 0 0.5em;
     padding: 0;
     position: absolute;
-    -webkit-transition: opacity 0.7s;
-    transition: opacity 0.7s;
+    overflow: hidden;
 }
-
-/* MWS Countdown style and code from http://www.mozilla.org/en-US/firefox/partners/ */
-
-#front-feature .mwc-box .countdown {
-    left: 50px;
-    padding: 0;
-    position: absolute;
-    top: 160px;
-    width: 200px;
-}
-.mwc-box .countdown:after {
-    clear: both;
-    content: ".";
-    display: block;
-    height: 0;
-    visibility: hidden;
-}
-.mwc-box .countdown .box {
-    float: left;
-    margin: 0 5% 0 0;
-    width: 20%;
-}
-.mwc-box .countdown .count {
-    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
-    border-radius: 3px 3px 3px 3px;
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 1px 1px rgba(0, 0, 0, 0.25) inset;
-    display: block;
-    font-size: 20px;
-    margin-bottom: 3px;
-    padding: 6px 1px;
-    text-align: center;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
-}
-.mwc-box .countdown .label {
-    border: none;
-    display: block;
-    font-size: 11px;
-    text-align: center;
-    text-transform: uppercase;
+.phone-container #screen-os {
+    transition:background-position 1s ease;
+    background: url("/images/phone-os-screenshots.jpg") repeat-x scroll 0 0 transparent;
 }
 
 .mwc-intro {
@@ -226,10 +272,6 @@
         display: none;
     }
     
-    #front-feature .mwc-box .countdown {
-        left: 25px;
-        top: 135px;
-    }
     #front-feature.coscup {
         background-position: center 60%;
         background-size: 105% auto;
@@ -280,15 +322,19 @@
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-<div class="key-point front-feature" id="front-feature">
+<div class="key-point front-feature" id="front-feature">	
+  <div class="phone-container" id="phone-common">
+    <div class="phone">
+      <div id="screen-os" class="screen"></div>
+      <div class="phone-overlay"></div>
+    </div>
+  </div>
+
   <div class="mwc-box">
     <h2>一年之前，Mozilla 承諾將開放網路推上行動裝置的舞台。現在我們帶著成果回來了！</h2>
     <div class="mwc-intro">
         <p>透過 Firefox OS、Firefox Marketplace 及 Android 版 Firefox，我們讓營運商、手機製造商與開發者得以經營、客制並直接掌握顧客關係。</p>
         <p>更多資訊即將於 MWC 大會公開，敬請期待……</p>
-    </div>
-    <div class="countdown">
-      <span id="mwc-countdown" data-time="1361723400"></span>
     </div>
   </div>
 
@@ -439,14 +485,7 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 	);
 	
 
-// MWC countdown
-window.trans = function trans(a) {
-  return $("#strings").data(a)
-};
 
 })(jQuery);
-</script>
-<div data-secondstextex="seconds" data-secondstext="秒" data-minutestextex="minutes" data-minutestext="分" data-hourstextex="hours" data-hourstext="時" data-daystextex="days" data-daystext="日" data-daytext="日" data-close="Close" id="strings"></div>
-<script src="http://mozorg.cdn.mozilla.net/media/js/partners-min.js">
 </script>
 <!--#include virtual="/inc/footer.html" -->
