@@ -109,7 +109,6 @@
     background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -webkit-gradient(linear,left top,left bottom,color-stop(0%,#0f9fdb),color-stop(100%,#0055a0));
     background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -webkit-linear-gradient(#0f9fdb,#0055a0);
     background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -o-linear-gradient(#0f9fdb,#0055a0);
-    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#0f9fdb',endColorstr='#0055a0',GradientType=0)";
     background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, linear-gradient(#0f9fdb,#0055a0);
 }
 .key-point.coscup {
