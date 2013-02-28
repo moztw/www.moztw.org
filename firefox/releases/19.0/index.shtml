@@ -275,7 +275,19 @@ section .appendix {
                       <li>
                         <span class="tag tag-fixed">修正</span>
                         <h5>
+                          部分正確 WebGL 繪圖操作被錯誤地拒絕，造成頁面顯示不完整（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=825205">bug 825205</a>）。
+                        </h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>
                           帶著 -private flag 啟動 Firefox 時，錯誤地表示使用者不在隱私瀏覽模式中（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=802274">bug 802274</a>）。
+                        </h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>
+                          於 HiDPI 模式中，捲動頁面使插件上半部超出畫面時，插件會停止描繪（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=825734">bug 825734</a>）。
                         </h5>
                       </li>
 
