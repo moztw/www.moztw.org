@@ -1,0 +1,59 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>AppDevParty - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="這是一個大家一起研究如何撰寫 Firefox OS 下 Open Web App 的 hackathon 。歡迎大家組隊參加！Firefox OS 是一個基於瀏覽器的手機作業系統，能讓開發者透過HTML、CSS、Javascript 去撰寫內部的應用程式。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/events/app-dev-day/">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="這是一個大家一起研究如何撰寫 Firefox OS 下 Open Web App 的 hackathon 。歡迎大家組隊參加！Firefox OS 是一個基於瀏覽器的手機作業系統，能讓開發者透過HTML、CSS、Javascript 去撰寫內部的應用程式。">
+<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="assets/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
+<!--[if lte IE 8]> <link rel="stylesheet" href="assets/leaflet/leaflet.ie.css" /> <![endif]-->
+<link href="style.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
+<!--[if IE]>
+    <script src="assets/html5.js"></script>
+<![endif]--> 
+<!--[if lt IE 9]>
+<script src="assets/IE9.js"></script>
+<![endif]-->
+<!--#include virtual="/inc/class_homepage.html" -->
+<!--#include virtual="/inc/header.html" -->
+	<div id="main" class="container">
+		
+    <h2>Firefox App/套件開發小趴</h2>
+
+    <section>
+      <h2>活動簡介</h2>
+      <p>這是一個大家一起研究如何撰寫 Firefox OS 下 Open Web App 的 hackathon 。歡迎大家組隊參加！Firefox OS 是一個基於瀏覽器的手機作業系統，能讓開發者透過HTML、CSS、Javascript 去撰寫內部的應用程式。</p>
+
+      <p>感謝 <a href="http://clbc.tw/">慶隆商務俱樂部</a> 贊助場地部份費用，如有需要租借活動場地、虛擬辦公室、私人招待所等服務可以上 <a href="http://clbc.tw/">clbc.tw</a> 了解服務細節。</p>
+    </section>
+		
+		<section id="information">
+			<h2>活動資訊</h2>
+			
+			<ul>
+			<li>活動時間：2013/03/09（六）09:00-21:00</li>
+      <li>活動地點：慶隆商務俱樂部 106-65 台北市大安區復興南路一段293號3樓之1</li>
+			<li>報名時間：2013/03/04 21:40 ~ 03/08 16:00</li>
+			</ul>
+            
+		  <div id="map"></div>
+		  <br><br>
+		</section>
+    	
+        <section id="registrano">
+        	<a class="fallback-register-button event-link" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'fxdevparty', 'Registrano']);" href="hhttp://registrano.com/events/fxdevparty">前往活動報名網頁</a>
+        	<div class="registrano-blog-badge w-220" id="registrano-blog-badge-fxdevparty"></div>        	
+        </section>
+		
+	</div>
+<br><br><br>
+<script type="text/javascript" charset="utf-8" src="assets/leaflet/leaflet.js"></script>
+<script type="text/javascript" charset="utf-8" src="assets/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="assets/scripts.js"></script>
+<script src="http://asset.registrano.com/javascripts/blogbadge/zh-tw.js" type="text/javascript" defer="defer"></script>
+<!--#include virtual="/inc/footer.html" -->
+

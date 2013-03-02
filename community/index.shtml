@@ -10,10 +10,11 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script>
     jQuery(function () {
-     var poster, video;
+     var poster, video, iframe, $win;
 
      poster = $('#video-poster');
      video = $('#video');
+     $win = $(window);
      
      poster.on('click', function () {
        if (video.hasClass('show')) {
@@ -21,7 +22,14 @@
         } else {
           video.addClass('show');
         }
-     });  
+     });
+
+     iframe = video.find('iframe');
+
+     $win.resize(function () {
+       var width = video.width() - 20;
+       iframe.height(width / 16 * 9);
+     });
    });
   </script>
 <!--#include virtual="/inc/new_header.html" -->
@@ -39,19 +47,8 @@
     <p>Mozilla 是一個全球社群，由世界各地的志工與員工：工程師、設計師、翻譯者、推廣者與使用者共同組成。我們依循 <a href="http://www.mozilla.org/about/manifesto.zh-tw.html" target="_blank">Mozilla 宣言</a>，致力於打造更開放自由的網路、提升人們的網路體驗、宣揚開放源碼共享精神。我們推動開放標準，相信惟此才能確保任何人在何時何地都能享受最安全、流暢、多元的網際網路。</p>
     <p>只要您正在使用 Mozilla 產品，您就是我們的一份子，與我們一同打造更美好的網路；若你也懷抱著一股熱情，想要親手做出改變，歡迎加入我們一同貢獻。您不需要是專業的程式設計師，只需要熱愛網路，就能跟我們一起讓網路變得更好、充滿創新。現在就來看看您可以做些什麼！</p>    
     <div id="video">
-      <h2 style="display: none">Video</h2>
-      <script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
-      ({
-        "base_state": {"language": "zh-tw"},
-        "video_url": "http://videos.mozilla.org/serv/brand/Mozilla_Firefox_Manifesto_v0.1.ogv",
-        "video_config": {
-                click_to_play: true,
-          color: 'FF0000',
-          poster: "poster-brand.jpg",
-          id: "videoPlayer"
-        }
-      })
-    </script>
+    <h2 style="display: none">Video</h2>
+    <iframe width="100%" height="563" src="http://www.youtube.com/embed/Z7sv7JMMCBI?list=PLC5649BCA6BF1F17F" frameborder="0" allowfullscreen></iframe>  
   </div>
 
   </section>
