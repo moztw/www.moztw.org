@@ -22,7 +22,8 @@
 <!--#include virtual="/inc/header.html" -->
 	<div id="main" class="container">
 		
-    <h2>Firefox App/套件開發小趴</h2>
+	<img src="images/logo.png" alt="Firefox OS App/套件開發小趴" />
+    <h2>Firefox OS App/套件開發小趴</h2>
 
     <section>
       <h2>活動簡介</h2>
