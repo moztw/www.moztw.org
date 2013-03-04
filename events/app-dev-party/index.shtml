@@ -30,6 +30,8 @@
       <p>這是一個大家一起來研究如何撰寫 Firefox OS 下 Open Web App 的 hackathon，歡迎大家組隊（或個人）參加！Firefox OS 是一個以 HTML5 作為基底的手機作業系統，能讓開發者透過 HTML + CSS + JS 開發應用程式。不管你有什麼點子，喜歡寫 Code 或做設計，只要你想在 Open Web 上開發什麼，都歡迎來參加喔！</p>
 
       <p>感謝 <a href="http://clbc.tw/">慶隆商務俱樂部</a> 贊助場地部份費用，如有需要租借活動場地、虛擬辦公室、私人招待所等服務可以上 <a href="http://clbc.tw/">clbc.tw</a> 了解服務細節。</p>
+
+      <img src="images/banner.png" alt="慶隆商務俱樂部" />
     </section>
 		
 		<section id="information">
@@ -59,7 +61,7 @@
 		</section>
 		
         <section id="registrano">
-        	<a class="fallback-register-button event-link" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'fxdevparty', 'Registrano']);" href="hhttp://registrano.com/events/fxdevparty">前往活動報名網頁</a>
+        	<a class="fallback-register-button event-link" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'fxdevparty', 'Registrano']);" href="http://registrano.com/events/fxdevparty">前往活動報名網頁</a>
         	<div class="registrano-blog-badge w-220" id="registrano-blog-badge-fxdevparty"></div>        	
     </section>
 
