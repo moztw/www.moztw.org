@@ -4,18 +4,18 @@ include("inc/title.html");
 include("inc/class.html");
 include("inc/header.html");
 ?>
-<H1>MozTW Website Online Update</H1>
+<h1>MozTW Website Online Update</h1>
 <?
 if(isset($_POST["rebuild_git"]) && $_POST["rebuild_git"])
 {
   # processing
 ?>
-Starting Update [GIT]...
+<p>Starting pull updates of browser-pairs game...</p>
 <pre id='progress_blk'  title='still processing, please wait...'
     style='padding: 5px; maring: 5px; cursor: wait;
     border: 1px solid green;
     border-bottom: 1px dotted red'><?
-  $cmd = 'bash /home/moztw/htdocs/autoupdate/update-git.sh';
+  $cmd = '/home/moztw/htdocs/autoupdate/update-git.sh';
   $cmd .= ' 2>&1';
   echo "Command: " . htmlspecialchars($cmd) . "\n\n";
 
@@ -89,26 +89,27 @@ document.getElementById('progress_blk').title = 'ready';
   # index page
 ?>
   <form method="post"><fieldset>
-    <label style='color: blue;'>
-    Basic MozTW GIT update:</label><br/><br/>
-    <input  id='xgeneral' type='checkbox' name='rebuild_yes' checked>
-    <label for='xgeneral'>Confirm to update MozTW GIT and rebuild.</label><br/>
-  <!-- Modify by orinx start -->
-  <label style='color: blue;'>
-    Basic GIT update:</label><br/><br/>
-  <input id='xgit' type="checkbox" name="rebuild_git">
-  <label for='xgit'>Confirm to update GIT and rebuild.</label><br/>
-  <!-- Modify by orinx end -->
-  <hr><label style='color: blue;'>
-    SVN Optional rebuild process:</label><br/><br/>
-    <input id='xmd5' type="checkbox" name="rebuild_md5">
-    <label for='xmd5'>Recalculate MD5 information
-  <b style='color: red;'>(if files in dls/ changed, and very slow)
-  </b></label><br/>
-    <input id='xcache' type="checkbox" name="rebuild_cache">
-    <label for='xcache'>Rebuild all HTML cache
-    <b style='color: red;'>(if htdocs/inc/*.html modified)</b></label><br/>
-    <hr><input type='submit' value='Start Update'>
+    <p style="color: blue; font-weight:bold;">Update MozTW Website:<br><br>
+	    <label style="color: black;">Confirm to update main repo for MozTW website.
+			<input id='xgeneral' type='checkbox' name='rebuild_yes' checked>
+		</label>
+	</p>
+	<p style="color: blue; font-weight:bold;">Update other Git repos:<br><br>
+		<label style="color: black;">Confirm to update browser-pairs and other git repos.
+			<input id='xgit' type="checkbox" name="rebuild_git">
+		</label>
+	</p>
+  <hr>
+	<p style="color: blue; font-weight:bold;">Optional Git rebuild process:<br><br>
+		<label style="color: black;">Recalculate MD5 information <b style='color: red;'>(if files in dls/ were changed, and very slow)</b>
+		    <input id='xmd5' type="checkbox" name="rebuild_md5">
+  		</label><br>
+		<label style="color: black;">Rebuild all HTML caches <b style='color: red;'>(if htdocs/inc/*.html were modified)</b>
+			<input id='xcache' type="checkbox" name="rebuild_cache">
+		</label>
+	</p>
+  <hr>
+	<input type='submit' value='Start Update'>
     </fieldset></form>
 <?
 }
