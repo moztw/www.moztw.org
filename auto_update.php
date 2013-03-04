@@ -3,6 +3,7 @@ include("inc/meta.html");
 include("inc/title.html");
 include("inc/class.html");
 include("inc/header.html");
+$isInStage = (strpos($_SERVER["SCRIPT_FILENAME"], 'www-stage') != false);
 ?>
 <h1>MozTW Website Online Update</h1>
 <?
@@ -44,15 +45,13 @@ if(isset($_POST["rebuild_yes"]) && $_POST["rebuild_yes"])
 {
     # processing
 ?>
-Starting Update [moztw GIT]...
+<p>Starting pulling updates of moztw website...</p>
 <pre id='progress_blk'  title='still processing, please wait...'
   style='padding: 5px; maring: 5px; cursor: wait;
     border: 1px solid green;
     border-bottom: 1px dotted red'><?
-  $isInStage = (strpos($_SERVER["SCRIPT_FILENAME"], 'www-stage') != false);
   $cmd = '/home/moztw/htdocs/autoupdate/update.sh';
   $opt = '';
-
   if ($isInStage)
     $opt .= ' stage';
   if(isset($_POST["rebuild_md5"]) && $_POST["rebuild_md5"])
@@ -90,7 +89,7 @@ document.getElementById('progress_blk').title = 'ready';
 ?>
   <form method="post"><fieldset>
     <p style="color: blue; font-weight:bold;">Update MozTW Website:<br><br>
-	    <label style="color: black;">Confirm to update main repo for MozTW website.
+	    <label style="color: black;">Confirm to update main repo for MozTW website <? if ($isInStage) echo "<b>stage</b>"; ?>.
 			<input id='xgeneral' type='checkbox' name='rebuild_yes' checked>
 		</label>
 	</p>
