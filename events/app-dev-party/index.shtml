@@ -20,11 +20,14 @@
 <![endif]-->
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
+
+  <header id="header2" class="container">
+    <img src="images/logo.png" alt="Firefox OS App/套件開發小趴" style="width: 100%; height: auto;" />
+    <h2 style="display: none">Firefox OS App/套件開發小趴</h2>
+  </header>
+
 	<div id="main" class="container">
 		
-	<img src="images/logo.png" alt="Firefox OS App/套件開發小趴" />
-    <h2>Firefox OS App/套件開發小趴</h2>
-
     <section>
       <h2>活動簡介</h2>
       <p>這是一個大家一起來研究如何撰寫 Firefox OS 下 Open Web App 的 hackathon，歡迎大家組隊（或個人）參加！Firefox OS 是一個以 HTML5 作為基底的手機作業系統，能讓開發者透過 HTML + CSS + JS 開發應用程式。不管你有什麼點子，喜歡寫 Code 或做設計，只要你想在 Open Web 上開發什麼，都歡迎來參加喔！</p>
