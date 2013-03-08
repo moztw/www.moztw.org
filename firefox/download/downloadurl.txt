@@ -1,1 +1,1 @@
-http://download.mozilla.org/?product=firefox-19.0.1&amp;lang=zh-TW
+http://download.mozilla.org/?product=firefox-19.0.2&amp;lang=zh-TW
