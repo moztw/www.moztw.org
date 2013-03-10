@@ -26,6 +26,7 @@
 </li>
 <li><a title="聯絡資訊" href="#contact"><strong>聯絡資訊 Contact</strong></a></li>
 </ul>
+<!-- Deprecated 20130310
 <form action="http://groups-beta.google.com/group/moztw-testing/boxsubscribe">
 <div style="border: 1px solid #e0e9e9; font-size: small; background-color: rgb(237, 242, 242); padding: 5px;">
 <strong>協助測試，訂閱中文版測試通知</strong><br>
@@ -37,7 +38,7 @@ Email:
 <p>訂閱後，在 moztw.org 中文軟體新版需要測試時便能獲得通知。特別需要 Mac OS X 的使用者幫忙喔！感謝您的協助。</p>
 <p style="font-size: xx-small; text-align: right; margin: 0;">powerd by Google Groups</p>
 </div>
-</form>
+</form>-->
 </div>
 <hr class="hide">
 
