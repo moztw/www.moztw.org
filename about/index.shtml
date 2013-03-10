@@ -87,8 +87,7 @@ Email:
 	<p>程式上的錯誤或瑕疵建議請自行至 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 提出，moztw.org 主要處理與正體中文版本相關（翻譯、在地化特色、使用上）的問題。若發現中文安裝版有程式問題，回報前請確定英文版在相關操作上正確無誤，謝謝。</p>
 	
 	<h2 id="about-mozilla">關於 mozilla 基金會</h2>
-	<p>Mozilla 是非營利開放源碼專案，任務是維持網路自由選擇、確保網路科技不斷創新。此專案由 <a href="https://www.mozilla.org/en-US/">Mozilla 基金會</a> 及其合作夥伴組織支援並推動運行，全球有數千名志工參與其中。關於 Mozilla 基金會的理念，請參考 <a href="mozillamanifesto.shtml">Mozilla 宣言</a>。</p>
-	<p><a href="http://www.mozilla.org/en-US/about/">詳盡資訊(英文)...</a></p>
+	<p>Mozilla 是非營利開放源碼專案，任務是維持網路自由選擇、確保網路科技不斷創新。此專案由 <a href="https://www.mozilla.org/en-US/">Mozilla 基金會</a> 及其合作夥伴組織支援並推動運行，全球有數千名志工參與其中。關於 Mozilla 基金會的理念，請參考 <a href="mozillamanifesto.shtml">Mozilla 宣言</a>。<a href="http://www.mozilla.org/en-US/about/">詳盡資訊(英文)...</a></p>
 	
 	<h3 id="mozilla-license">軟體及商標授權</h3>
 	<p>Mozilla 產品 (包含但不限於 Mozilla Firefox、Mozilla Thunderbird) 採用 Mozilla Public License 授權釋出，相關問題請直接 <a href="http://www.mozilla.org/about/">聯絡 mozilla.org</a>，moztw.org 不代為處理。</p>
