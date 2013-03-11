@@ -182,7 +182,7 @@
 
 		<img src="images/product-personas-title.png" alt="Personas 個性面板" />
 		<p>個性面板是輕量級的佈景主題，包含五花八門的外觀與設計，讓您隨時個性化 Firefox 的外貌，如同挑選衣服一樣有趣。</p>
-		<p>→ <a href="https://addons.mozilla.org/firefox/personas/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-firefox-personas']);">立刻至 Firefox 附加元件網站挑選個性面板！</a></p>
+		<p>→ <a href="https://addons.mozilla.org/firefox/themes/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-firefox-personas']);">立刻至 Firefox 附加元件網站挑選個性面板！</a></p>
 
 	<h3>深入資訊</h3>
 	<ul class="compact">
@@ -192,13 +192,12 @@
 		<li><a href="http://www.mozilla.org/firefox/features/#powerfulpersonalization" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'firefox-advancedsecurity']);">強大的個人化能力</a> *</li>
 		<li><a href="http://www.mozilla.org/firefox/features/#cuttingedge" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'firefox-cuttingedge']);">最尖端的技術</a> *</li>
 	</ul>
-    <p>連結至 Mozilla 網站</p>
 	
     <h3>技術支援與套件下載</h3>
     <ul class="compact">
     	<li><a href="https://www.mozilla.org/zh-TW/plugincheck/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'plugincheck']);">外掛程式更新</a><br>（檢查 Flash、多媒體播放支援）</li>
-    	<li><a href="http://addons.moztw.org" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-fx']);">取得套件及佈景主題</a></li>
-    	<li><a href="http://support.mozilla.com" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'SOMO']);">Firefox 技術支援中心</a></li>
+    	<li><a href="https://addons.mozilla.org/firefox" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-fx']);">取得套件及佈景主題</a></li>
+    	<li><a href="http://support.mozilla.org" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'SUMO']);">Mozilla 技術支援中心</a></li>
 		<li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: Firefox', '/firefox']);">Firefox 中文討論區</a></li>
     </ul>
     
@@ -211,9 +210,12 @@
 	</ul>
 	
 	<h3>推廣 Firefox</h3>
+	<ul class="compact">
 		<li><a href="https://affiliates.mozilla.org/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'affiliates-mozilla']);">取得 Blog 推廣貼紙</a> *</li>
 		<li><a href="https://www.facebook.com/Firefox/app_373528039377278" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Facebook', 'Firefox-affiliates']);">臉書貼紙推廣 Firefox</a></li>
 	</ul>
+	
+	<p>* 連結至 Mozilla 網站</p>
 </div>
 
 <!--#include virtual="/inc/footer.html" -->
