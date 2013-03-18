@@ -8,20 +8,6 @@
   <ul id="nav">
    <li><a href="/thunderbird/">回 Thunderbird 首頁</a></li>
   </ul>
-  <!--<script type="text/javascript" src="download.js"></script>-->
-  <!--<script type="text/javascript">-->
-  <!--
-    writeDownloadsSidebar();
-  //-->
-  <!--</script>
-  <noscript>-->
-    <h2>馬上下載</h2>
-    <ul id="nav">
-      <!--#include virtual="/inc/dltb.html" -->
-      <li><a href="/thunderbird/releases/">版本資訊</a></li>
-    </ul>
-  <!--</noscript>-->
-	
  </div>
  <!-- closes #side -->
  <hr class="hide">
@@ -31,27 +17,27 @@
   <h3>Windows</h3>
   <h6>作業系統版本</h6>
   <ul>
-    <li>Windows 2000</li>
-    <li>Windows XP</li>
+    <li>Windows XP SP2</li>
+    <li>Windows Server 2003</li>
     <li>Windows Vista</li>
     <li>Windows 7</li>
-    <p>請留意雖然 32 與 64 位元版本的 Windows Vista 與 Windows 7 皆可執行 Thunderbird，我們目前只支援 32 位元版本的 Thunderbird。<p>
+    <p>請留意：雖然 32 與 64 位元版本的 Windows Vista 與 Windows 7 皆可執行 Thunderbird，但我們目前只支援 32 位元版本的 Thunderbird。<p>
   </ul>
-  <h6>硬體最低需求</h6>
+  <h6>硬體建議需求</h6>
   <ul>
-    <li>Pentium 4 或更新處理器，支援 SSE2 指令集</li>
+    <li>Pentium 4 或更新處理器，需支援 SSE2 指令集</li>
     <li>1GB RAM</li>
     <li>200 MB 硬碟空間</li>
   </ul>
 
   <h3>Linux</h3>
   <h6>軟體需求</h6>
-     請留意：Linux 隨附的 Package 依發佈版本亦可能有不同需求。
+  <p>請留意：各 Linux 發行版隨附的 Thunderbird 套件可能有其不同需求。</p>
   <ul>
-    <li>必需安裝以下函式庫或套件，否則 Thunderbird 將無法執行：
-      <ul>
-		<li>GTK+ - 2.10 或以上版本</li>
-		<li>GLib - 2.12 或以上版本</li>
+    <li>Thunderbird 需要以下函式庫以正常執行：
+		<ul>
+		<li>GTK+ - 2.18 或以上版本</li>
+		<li>GLib - 2.22 或以上版本</li>
 		<li>Pango - 1.14 或以上版本</li>
 		<li>X.Org - 1.0 或以上版本（建議使用 1.7 或以上版本）</li>
 		<li>libstdc++ - 4.3 或以上版本</li>
@@ -69,10 +55,11 @@
   <h3>Mac</h3>
   <h6>作業系統版本</h6>
   <ul>
-    <li>Mac OS X 10.5</li>
     <li>Mac OS X 10.6</li>
+    <li>Mac OS X 10.7</li>
+    <li>Mac OS X 10.8</li>
   </ul>
-  <h6>硬體最低需求</h6>
+  <h6>硬體建議需求</h6>
   <ul>
     <li>使用 Intel x86 處理器之麥金塔電腦</li>
     <li>512 MB RAM</li>
