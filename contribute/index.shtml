@@ -1,4 +1,31 @@
-<!--#include virtual="/inc/meta.html" -->
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+ <meta charset="utf-8">
+ <meta property="fb:page_id" content="109362359103769" />
+ <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+ <link rel="home" title="Home" href="http://www.moztw.org/">
+ <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+ <link rel="stylesheet" href="/css/print.css" media="print">
+ <link rel="stylesheet" href="/css/base/content.css" media="all">
+ <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+ <link rel="stylesheet" href="/css/base/template.css" media="screen">
+ <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+ <link rel="alternate" type="application/xml" title="RSS" href="/xmlnews.rdf">
+ <style type='text/css'>
+ <!--
+ @import url(/css/moztw.css);
+ -->
+ </style>
+  
+<!-- IE 6 PNG Fix from: http://www.twinhelix.com/css/iepngfix/ -->
+<!--[if IE 6]>
+<script type="text/javascript" src="/inc/iepngfix_tilebg.js"></script>
+<style type="text/css">
+img, div, a { behavior: url(/inc/iepngfix.htc) }
+</style> 
+<![endif]--> 
+
 <!-- Google Analytics Content Experiment code -->
 <script>function utmx_section(){}function utmx(){}(function(){var
 k='64147182-1',d=document,l=d.location,c=d.cookie;
@@ -13,6 +40,32 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
 '" type="text/javascript" charset="utf-8"><\/sc'+'ript>')})();
 </script><script>utmx('url','A/B');</script>
 <!-- End of Google Analytics Content Experiment code -->
+
+<!-- Google Analytic -->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1035080-1']);
+  _gaq.push(['_setDomainName', 'moztw.org']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  
+  //Universal Analytics Code
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-15', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+<!-- We need to place the A/B Test code before GTUC, so here we don't include the common "meta.html". Once the experiement finished, we should remove the ABTest code and put back the include file. -->
+<!-- include virtual="/inc/meta.html"-->
 <title>參與我們 - MozTW</title>
 <style type="text/css">
 <!--
