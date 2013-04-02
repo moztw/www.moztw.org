@@ -231,6 +231,10 @@ section .appendix {
                 <div class="section-contents">
                     <ul>
                       <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>20.0: 安全性更新，詳見相關<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全性公告</a>。</h5>
+                      </li>
+                      <li>
                         <span class="tag tag-new">全新功能</span>
                         <h5>個別視窗的隱私瀏覽功能，見<a href="https://support.mozilla.org/en-US/kb/private-browsing-browse-web-without-saving-info">詳細資訊</a>。</h5>
                       </li>
