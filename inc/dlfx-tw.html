@@ -1,0 +1,26 @@
+<script type='text/javascript' src='/js/download.js'></script>
+<script type='text/javascript'>
+	<!--
+	window.onload = highlightDownload;
+	
+	function initDownloadInIE () {
+		/*
+		For IE, open up a small popup and point it to the mozilla server
+		We cannot use window.onload to initiate download from latest-win.html (security bar will pop)
+		*/
+		if (navigator.appVersion.indexOf('MSIE') !== -1) {
+			window.open(
+				'http://download.myfirefox.com.tw/releases/full/19.0/zh-TW/Firefox-full-latest.exe',
+				'_blank',
+				'height=150, width=250, location=no, menubar=no, resizable=no, scrollbars=no, status=no, toolbar=no'
+			);
+		}
+	}
+	
+	// -->
+</script><ul>
+<li><a href="http://download.myfirefox.com.tw/releases/full/19.0/zh-TW/Firefox-full-latest.exe" id="download-link-win" title="" onClick="initDownloadInIE();">Windows</a>
+<li><a href="http://download.myfirefox.com.tw/releases/firefox/19.0/zh-TW/Firefox-latest.tar.bz2" id="download-link-linux" title="">Linux</a>
+<li><a href="http://download.myfirefox.com.tw/releases/firefox/19.0/zh-TW/Firefox-latest-x86_64.tar.bz2" id="download-link-linux-x64" title="">Linux (x64)</a>
+<li><a href="http://download.myfirefox.com.tw/releases/firefox/19.0/zh-TW/Firefox-latest.dmg" id="download-link-mac" title="">Mac OS X</a>
+</ul>
