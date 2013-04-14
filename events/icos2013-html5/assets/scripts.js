@@ -11,3 +11,12 @@ var marker = new L.Marker(new L.LatLng(24.936977, 121.376931));
 map.addLayer(marker);
 marker.bindPopup("國家教育研究院三峽院區").openPopup();
 var userIter = 0;
+
+(function($){
+    $("#schedule p.intro").hide();
+    $("#schedule h3").mouseover(function(){
+        $(this).next().show();
+    }).mouseout(function(){
+        $(this).next().hide();
+    });
+})(jQuery);
