@@ -78,6 +78,7 @@
                     </td>
                     <td>
                         <h3>Othree</h3>
+                        <p class="intro">Othree，十年前為了製作個人網頁而自學起 HTML、CSS 和 JavaScript，接著便一頭栽進網路標準的世界，並持續關注網路前端技術的發展，不時在部落格及各活動分享新知，近期關注 HTML5、CSS3、Web API、語意網等議題，被認為專長於 JavaScript，其實最喜歡寫的是漂亮的 HTML Markup，現職為 HTC 前端工程師（F2E）兼博士生。</p>
                     </td>
                 </tr>
                 <tr>
@@ -88,6 +89,7 @@
                     </td>
                     <td>
                         <h3>魏藥</h3>
+                        <p class="intro">魏藥，不務正業碩士生一枚，接觸 HTML, CSS, JS 等前端技術只能算是興趣。</p>
                     </td>
                 </tr>
                 <tr>
