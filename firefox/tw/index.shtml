@@ -1,253 +1,285 @@
-<!--#include virtual="/inc/meta.html" -->
-<title>台灣版 Firefox</title>
-<style type='text/css'>
-    <!--
-        @import url(firefox-tw.css);
-        #mainContent h3.highlight
-        {
-            background: #ffffd0 none repeat scroll 0 0;
-        }
-        #mainContent h3.highlight span
-        {
-            color: red;
-        }
-    -->
-</style>
-<link title="隱藏套件說明" href="hidden-description.css" type="text/css" rel="alternate stylesheet" />
-<!--#include virtual="/inc/class_press.html" -->
-<!--#include virtual="/inc/header.html" -->
+<!--#include virtual="/inc/new_meta.html" -->
+	<link href="style.css" rel="stylesheet" />
+	<title>Firefox 台灣版</title>
+	<meta name="description" content="比較 Firefox 台灣版以及其他版本">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://moztw.org/firefox/tw/">
+	<meta property="og:image" content="http://moztw.org/images/foxmosa-icon.gif">
+	<meta property="og:site_name" content="Firefox 台灣版">
+	<meta property="og:description" content="比較 Firefox 台灣版以及其他版本">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script>
+    jQuery(function () {
+     var poster, video, iframe, $win;
 
-<script type="text/javascript">
-    function doInstall()
-    {
-        var installObj = {}
-        var boxObjs = document.getElementById("installList").getElementsByTagName("input");
-        for(i = 0; i < boxObjs.length; i++)
-        {
-            if(boxObjs[i].checked)
-            {
-                installObj[boxObjs[i].name] = boxObjs[i].value;
-            }
+     poster = $('#video-poster');
+     video = $('#video');
+     $win = $(window);
+     
+     poster.on('click', function () {
+       if (video.hasClass('show')) {
+          video.removeClass('show');
+        } else {
+          video.addClass('show');
         }
-        try
-        {
-            InstallTrigger.install(installObj);
-        }
-        catch(e)
-        {
-            window.alert('無法安裝，您需要使用 Firefox 或其他 Gecko 系列瀏覽器。');
-        }
-    }
-    
-    function hidden_descript(obj)
-    {
-        /* Won't work in IE */
-        var i, a;
-        for(i = 0; (a = document.getElementsByTagName('link')[i]); i++)
-        {
-            if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title") == "隱藏套件說明")
-            {
-                a.disabled = !obj.checked;
-            }
-        }
-    }
-    
-    function ext_pic_enlarge(obj)
-    {
-        /* Won't work in IE */
-        var ext_pic = document.getElementById('ext_pic');
-        if(obj.checked)
-        {
-            ext_pic.className = "large";
-        }
-        else
-        {
-            ext_pic.className = "";
-        }
-    }
-</script>
+     });
 
-<div class="key-point">
-    <div id="product-desc" class="firefox-tw">
-        <h2>台灣版 Firefox</h2>
-        <p>「Firefox 台灣版」是美商謀智台灣分公司（Mozilla）所製作的客製化版本 Firefox，以一般版 Firefox 為基礎，透過以下套件加入各種功能。</p>
-        <div>
-            <form name="hide_desc">
-                <label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;">
-                    <input id="hidden_desc" value="true" type="checkbox" onclick="hidden_descript(this)">進階選項：隱藏套件說明及相關連結
-                </label>
-            </form>
-        </div>
-    </div>
+     iframe = video.find('iframe');
+
+     $win.resize(function () {
+       var width = video.width() - 20;
+       iframe.height(width / 16 * 9);
+     });
+   });
+  </script>
+<!--#include virtual="/inc/new_header.html" -->
+
+	<hgroup id="main-feature">
+		<h1>Firefox 台灣版</h1>
+		<h2>比較 Firefox 台灣版以及其他版本</h2>
+	</hgroup>
     
-    <div id="product-side">
-        <div class="download">
+    <section id="fxtw-download" class="billboard">
+        <header>
             <h3>下載 Firefox 台灣版</h3>
-            <!--#include virtual="/inc/dlfx-tw.html" -->
-        </div>
-        <ul>
-            <li><a class="ancilliaryLink" href="http://mozilla.com.tw/firefox/tw_beta/" title="另開新視窗" target="_blank">Firefox 台灣版活動頁面</a></li>
-        </ul>
-    </div>
-</div>
-
-<div class="diff-discription">
-    <label><input type="checkbox" value="true" onclick="ext_pic_enlarge(this)" />打勾變大圖</label><br />
-    <img id="ext_pic" alt="附加元件表" src="http://images.plurk.com/msei-1uU8mDasCEkMOyWKUmRj2G.jpg" />
-</div>
-
-<form name="select_and_install" onsubmit="doInstall(); return false;">
-    <div id="mainContent">
-        <div id="installList">
-            <h3 id="fxtw-twhomepage">Firefox 首頁 0.1.7</h3>
-            <div class="extension-info">
-                <div class="install-options">
-                    <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 首頁" value="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.1.7.xpi" type="checkbox">列入安裝清單</label>
-                </div>
-                <blockquote>Firefox 訂製首頁，包含最近瀏覽頁面、最常瀏覽頁面及新分頁等</blockquote>
-                <div class="extension-discription">
-                    <div class="extension-pic float-right">
-                        <img alt="Myfirefox 全新首頁" src="http://mozilla.com.tw/assets/css/img/tw_beta/1-1.png" />
-                    </div>
-                    <p>特別為台灣設計的 Firefox 正體中文版瀏覽器，內建好用附加元件提供更多新功能，以提升使用者體驗。MyFirefox 與國內知名論壇(WIRED, Inside, 癮科技, TechOrange, T客邦, 謀智台客) 合作，每日即時提供您最新科技新知，myFirefox 首頁更兼具入口網站特性，搜尋、天氣、地圖及附加元件介紹小工具等一應俱全，讓您一開瀏覽器便能輕鬆掌握大小事！</p>
-                </div>
-                <div class="extension-discription">
-                    <p>Firefox在地化功能提供多樣化分頁選擇。透過新增設的多樣化分頁，使用者可以依照個人使用習慣去設定新分頁開啟的內容，包括熱門網站、推薦網站、熱門造訪頁面。使用者也可以自訂個人化的熱門網站，開啟書籤將己加入書籤的連結拖到要放的九宮格內，或在推薦網站裡，透過貼心的分類，快速找到並瀏覽您感興趣的網站或論壇。</p>
-                    <div class="extension-pic">
-                        <img alt="新分頁快速入口" src="http://mozilla.com.tw/assets/css/img/tw_beta/1.png" />
-                        <img alt="新分頁快速入口" src="http://mozilla.com.tw/assets/css/img/tw_beta/2.png" />
-                        <img alt="新分頁快速入口" src="http://mozilla.com.tw/assets/css/img/tw_beta/4.png" />
-                    </div>
-                </div>
-                <div class="extension-discription">
-                    <div class="extension-pic float-left">
-                        <img alt="myShelf" src="http://mozilla.com.tw/assets/css/img/tw_beta/1-2.png" />
-                    </div>
-                    <p>申請 Persona 帳號或 Facebook 登入 MyFirefox ,您就擁有專屬的收藏專頁，可以將你喜愛或暫時無法閱讀的文章加入 myShelf, 方便您日後尋找或閱讀並隨時與朋友分享。</p>
-                </div>
-            </div>
-            
-            <h3 id="fxtw-quicklaunch">Firefox 捷徑 0.12.6</h3>
-            <div class="extension-info">
-                <div class="install-options">
-                    <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 捷徑" value="https://addons.myfirefox.com.tw/addons/quicklaunch/quicklaunch-0.12.6.xpi" type="checkbox">列入安裝清單</label>
-                </div>
-                <blockquote>快速啟動常用軟體</blockquote>
-                <div class="extension-discription">
-                    <div class="extension-pic float-right">
-                        <img alt="個人化 Firefox 捷徑" src="http://mozilla.com.tw/assets/css/img/tw_beta/5.png" />
-                    </div>
-                    <p>Firefox 捷徑在原來基礎上做了改進，使它更直覺更符合使用者習惯。通過瀏覽器下方的 Firefox 捷徑 <img alt="shortcut" src="http://mozilla.com.tw/assets/css/img/tw_beta/shortcut.png" width="24px" />小按鈕，可以快速開啓瀏覽網頁時的系統工具，例如我的電腦、小畫家、計算機及記事本…等系統功能。使用者還可以透過網頁截圖功能，輕鬆將完整網頁存成一個圖檔。如果這些還不能滿足你的需求，那麼就自己動手，利用個人化捷徑，設置需要的功能吧。 </p>
-                </div>
-            </div>
-            
-            <h3 id="fxtw-zoompanel">快速縮放 1.1.3</h3>
-            <div class="extension-info">
-                <div class="install-options">
-                    <label title="點選此處，將此套件列入安裝清單。"><input name="快速縮放" value="https://addons.myfirefox.com.tw/addons/zoompanel/zoompanel-1.1.3.xpi" type="checkbox">列入安裝清單</label>
-                </div>
-                <blockquote>在狀態欄上使用快速縮放功能</blockquote>
-            </div>
-
-
-            <h3 id="fxtw-fontsetter">字體設定 0.14.3</h3>
-            <div class="extension-info">
-                <div class="install-options">
-                    <label title="點選此處，將此套件列入安裝清單。"><input name="字體設定" value="https://addons.myfirefox.com.tw/addons/fontsetter/fontsetter-0.14.3.xpi" type="checkbox">列入安裝清單</label>
-                </div>
-                <blockquote>一鍵切換目錄與網頁內容的字體</blockquote>
-            </div>
-            <div class="extension-info">
-            <h3 id="fxtw-twimprove">台灣版工具集 0.1.7</h3>
-                <div class="install-options">
-                    <label title="點選此處，將此套件列入安裝清單。"><input name="台灣版工具集" value="https://addons.myfirefox.com.tw/addons/twimprove/twimprove-0.1.7.xpi" type="checkbox">列入安裝清單</label>
-                </div>
-                <blockquote>提升使用者體驗</blockquote>
-                <div class="extension-discription">
-                    <p>Firefox在地化功能在瀏覽器介面上直接增加了以下 Firefox 常用功能，讓使用者快速便利地使用熟悉的 Firefox 功能。</p>
+        </header>
+        <div id="download-button-desktop-beta" class="download-button download-button-beta download-button-small download-button-noicon">
+            <noscript>
+                <div class="download download-dumb">
+                    <h4>下載 Firefox 台灣版</h4>
                     <ul>
-                        <li>
-                            意見回饋
-                            <div class="extension-discription">
-                                <div class="extension-pic float-right">
-                                    <img alt="意見回饋" src="http://mozilla.com.tw/assets/css/img/tw_beta/7.png" />
-                                </div>
-                                <p>輕鬆點擊即可將使用 Firefox 瀏覽器所遇到的問題或建議，回應讓我們知道，請幫助我們做出更符合使用者需求的 Firefox 瀏覽器。</p>
-                            </div>
-                        </li>
-                        <li>
-                            隱私瀏覽模式
-                            <div class="extension-discription">
-                                <div class="extension-pic float-right">
-                                    <img alt="隱私瀏覽模式" src="http://mozilla.com.tw/assets/css/img/tw_beta/8.png" />
-                                </div>
-                                <p>開啟隱私瀏覽功能，能讓您在瀏覽網際網路時，不會被其他使用您電腦的使用者觀看或接觸到您曾造訪過的網站與頁面的所有資料。</p>
-                            </div>
-                        </li>
-                        <li>
-                            網站安全標誌 （綠色安全 / 紅色危險）
-                            <div class="extension-discription">
-                                <div class="extension-pic float-right">
-                                    <img alt="網站安全標誌 （綠色安全 / 紅色危險）" src="http://mozilla.com.tw/assets/css/img/tw_beta/9.png" />
-                                </div>
-                                <p>Firefox瀏覽器幫您偵測目前所瀏覽的網站是否安全，隨時保護您安全上網</p>
-                            </div>
-                        </li>
-                        <li>
-                            佈景主題
-                            <div class="extension-discription">
-                                <div class="extension-pic float-right">
-                                    <img alt="佈景主題" src="http://mozilla.com.tw/assets/css/img/tw_beta/10.png" />
-                                </div>
-                                <p>你可以在任何時候，按照你的心情、喜好，甚至今天的天氣給你的瀏覽器換衣服！</p>
-                            </div>
-                        </li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" class="button-green">Windows</a></li>
+                        <li><a href="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW" class="button-green">Linux</a></li>
+                        <li><a href="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=osx&amp;lang=zh-TW" class="button-green">Mac OS X</a></li>
+                    </ul>
+                </div>
+            </noscript>
+            <div class="unrecognized-download">
+                <div class="download download-dumb">
+                    <h4>下載 Firefox 台灣版</h4>
+                    <ul>
+                        <li><a href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" class="button-green">Windows</a></li>
+                        <li><a href="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW" class="button-green">Linux</a></li>
+                        <li><a href="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=osx&amp;lang=zh-TW" class="button-green">Mac OS X</a></li>
                     </ul>
                 </div>
             </div>
-
-
-            <h3 id="fxtw-tpmanager">附加元件管理器 0.1.3</h3>	
-            <div class="extension-info">
-                <div class="install-options">
-                    <label title="點選此處，將此套件列入安裝清單。"><input name="附加元件管理器" value="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.1.3.xpi" type="checkbox">列入安裝清單</label>
-                </div>
-                <blockquote>用來管理Firefox 的附加元件工具。</blockquote>
-            </div>
-
-
-            <h3 id="fxtw-tabimprovelite">分頁管理器 1.4.6</h3>	
-            <div class="extension-info">
-                <div class="install-options">
-                    <label title="點選此處，將此套件列入安裝清單。"><input name="分頁管理器" value="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-1.4.6.xpi" type="checkbox">列入安裝清單</label>
-                </div>
-                <blockquote>在目前開啟的分頁標籤右側開啟新分頁，雙擊關閉分頁。並在右側添加新分頁按钮。並可設置在新分頁打開URL和搜尋结果</blockquote>
-                <div class="extension-discription">
-                    <div class="extension-pic float-left">
-                        <img alt="分頁管理器" src="http://mozilla.com.tw/assets/css/img/tw_beta/6.png" />
-                    </div>
-                    <p>對分頁做最精準的管理。使用者可以根據自己的使用習慣設定分頁的開啟關閉方式。例如：點擊網頁連結或輸入網址時，可自訂想要另開新分頁或是直接在目前的分頁開啟。若需要更精準的分頁管理，同樣在瀏覽器右下角，直接點選分頁管理器，使用最下方的進階設定功能進行設定。</p>
-                </div>
-            </div>
-
-
-            <h3 id="fxtw-personas">佈景主題 2.0.3</h3>	
-            <div class="extension-info">
-                <div class="install-options">
-                    <label title="點選此處，將此套件列入安裝清單。"><input name="佈景主題" value="https://addons.myfirefox.com.tw/addons/personas/personas-2.0.3.xpi" type="checkbox">列入安裝清單</label>
-                </div>
-                <blockquote>特選的瀏覽器佈景主題，定期更新，讓你方便為Firefox 作不同的裝扮。</blockquote>
-            </div>
-        </div>
-        <div class="download">
-            <h3>我要試試這些套件！</h3>
-            <span class="install"><input value="安裝套件" type="submit" id="install-extensions" /></span>
-            <ul>
-                <li>如果您按下「安裝套件」卻無反應，請按下上方淡黃色訊息列之「允許」以便將 moztw.org 加入信任網站，再行按下「安裝套件」鈕。</li>
-                <li>Firefox 會對各套件檔案的網址分別進行確認，若點選套件較多則反應會稍慢，請耐心等候。</li>
-                <!--li>此服務提供目前（2008/8/22）最新套件，所有套件皆由作者提供。請參閱相關訊息後再行安裝，並自負責任。</li-->
+            <p class="unsupported-download">
+                您的系統不符合執行 Firefox 的 <a href="/zh-TW/firefox/14.0b7/system-requirements/">最低需求</a>。
+            </p>
+            <ul role="presentation" class="download-list">
+                <li class="os_windows">
+                    <a class="download-link" href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" data-direct-link="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe">
+                        <span class="download-content">
+                            <strong class="download-title">Firefox 台灣版</strong>
+                            <span class="download-subtitle">免費下載</span>
+                            <span class="download-lang">正體中文</span>
+                            <span class="download-platform">Windows</span>
+                        </span>
+                    </a>
+                </li>
+                <li class="os_linux">
+                    <a class="download-link" href="/zh-TW/products/download.html?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW">
+                        <span class="download-content">
+                            <strong class="download-title">Firefox 台灣版</strong>
+                            <span class="download-subtitle">免費下載</span>
+                            <span class="download-lang">正體中文</span>
+                            <span class="download-platform">Linux</span>
+                        </span>
+                    </a>
+                </li>
+                <li class="os_linux_64">
+                    <a class="download-link" href="/zh-TW/products/download.html?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW">
+                        <span class="download-content">
+                            <strong class="download-title">Firefox 台灣版</strong>
+                            <span class="download-subtitle">免費下載</span>
+                            <span class="download-lang">正體中文</span>
+                            <span class="download-platform">Linux</span>
+                        </span>
+                    </a>
+                </li>
+                <li class="os_osx">
+                    <a class="download-link" href="/zh-TW/products/download.html?product=firefox-14.0b7&amp;os=osx&amp;lang=zh-TW" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=osx&amp;lang=zh-TW">
+                        <span class="download-content">
+                            <strong class="download-title">Firefox 台灣版</strong>
+                            <span class="download-subtitle">免費下載</span>
+                            <span class="download-lang">正體中文</span>
+                            <span class="download-platform">Mac OS X</span>
+                        </span>
+                    </a>
+                </li>
             </ul>
+            <small class="download-other os_linux os_osx os_windows">
+                <a href="/en-US/firefox/all.html">其他系統與語言</a> |
+                <a href="/en-US/firefox/notes">新鮮事</a> |
+                <a href="/en-US/legal/privacy/firefox.html">隱私權</a>
+            </small>
         </div>
-    </div>
-</form>
-<!--#include virtual="/inc/footer.html" -->
+    </section>
+
+    <section id="key-point">
+    	<header class="hide">
+    		<h2>Mozilla 全球社群</h2>
+    	</header>
+      <img style="cursor: pointer" id="video-poster" src="images/poster-brand.png" />
+    <p>Mozilla 是一個全球社群，由世界各地的志工與員工：工程師、設計師、翻譯者、推廣者與使用者共同組成。我們依循 <a href="http://www.mozilla.org/about/manifesto.zh-tw.html" target="_blank">Mozilla 宣言</a>，致力於打造更開放自由的網路、提升人們的網路體驗、宣揚開放源碼共享精神。我們推動開放標準，相信惟此才能確保任何人在何時何地都能享受最安全、流暢、多元的網際網路。</p>
+    <p>只要您正在使用 Mozilla 產品，您就是我們的一份子，與我們一同打造更美好的網路；若你也懷抱著一股熱情，想要親手做出改變，歡迎加入我們一同貢獻。您不需要是專業的程式設計師，只需要熱愛網路，就能跟我們一起讓網路變得更好、充滿創新。現在就來看看您可以做些什麼！</p>    
+    <div id="video">
+    <h2 style="display: none">Video</h2>
+    <iframe width="100%" height="563" src="http://www.youtube.com/embed/Z7sv7JMMCBI?list=PLC5649BCA6BF1F17F" frameborder="0" allowfullscreen></iframe>  
+  </div>
+
+  </section>
+
+	<nav class="billboard">
+		<h2 style="display: none">Menu</h2>
+		<ul class="menu">
+			<li class="width-220"><a href="#community">社群</a>
+			<li class="width-220"><a href="#project">專案</a>
+		</ul>
+	</nav>
+
+
+	<section id="community">
+		<h2>Mozilla 社群與組織</h2>
+
+		<div class="container">
+			
+			<section>
+				<h3><a href="http://moztw.org/">Mozilla 台灣社群</a></h3>
+				<p class="engName">MozTW, Mozilla Taiwan Community</p>
+				<p>MozTW 是台灣的 Mozilla 志工社群，自 2004 年起即負責維護 Mozilla 軟體正體中文版本與<abbr title="Language Pack">語言套件</abbr>，提供 <a href="moztw.org">moztw.org 網站</a>軟體下載與討論區。MozTW 本著推廣主力 Firefox 易學常用的特性，自許為使用者接觸開放、自由文化的起點，持續辦理自由文化相關課程與活動，與全球社群一同打造更美好的網路。</p>
+				<p class="link">→ 
+				    <a href="http://moztw.org" target="_blank">MozTW 首頁</a>、
+				    <a href="http://forum.moztw.org" target="_blank">討論區</a>、
+    				    <a href="https://groups.google.com/group/moztw-general" target="_blank">Google Group</a></p>、
+				    <a href="http://moztw.org/about/#contact" target="_blank">連繫資訊</a></p>
+			</section>
+			
+			<section>
+				<h3><a href="http://mozilla.com.tw/">美商謀智台灣分公司</a></h3>
+				<p class="engName">Mozilla Taiwan</p>
+				<p>Mozilla 台灣分公司是 Mozilla 全球第九個辦公室，初期預計招募 40 位軟體研發人員，除肩負 Firefox OS 研發中心的重責大任，也會密切與在地的開放社群合作，建構行動上網的開放平台。</p>
+                <p class="link">→ 
+                    <a href="http://mozilla.com.tw" target="_blank">Mozilla Taiwan</a>、
+                    <a href="http://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=5e604325345c3e673c423b1d1d1d1d5f2443a363189j01" target="_blank">工作機會</a>、
+                    <a href="http://mozilla.com.tw/about/contact/" target="_blank">聯絡資訊</a>
+                </p>
+			</section>
+			
+			<section>
+				<h3><a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></h3>
+			    	<p>Mozilla Links 是清新歡樂的 Mozilla 新聞網，由翻譯機動隊全體志願者共同營運，每週精選全球社群、各 Mozilla 相關 Blog 及協力作者專文，將 Mozilla 專案的第一手資訊，編譯後再傳播給所有中文摩茲客及火狐迷。</p>
+			    	<p>
+				<p class="link">→ 
+				    <a href="http://mozlinks-zh.blogspot.com/p/mozilla-links.html" target="_blank">加入翻譯機動隊╱投稿</a>、
+			</section>
+			
+			<section>
+				<h3><a href="http://mozilla.com.tw/community/student/">美商謀智 Firefox 校園大使</a></h3>
+				<p class="engName">Mozilla Taiwan Firefox Campus Ambassador</p>
+				<p>Mozilla Taiwan 號召台灣青年學子加入 Firefox 校園大使的行列。透過成為 Firefox 校園大使，在校園內協助推廣 Firefox，成立 Firefox 社團，作為 Firefox 小幫手解決疑難雜症。</p>
+				<p class="link">→ <a href="https://www.facebook.com/groups/studentreps.taiwan/">Facebook 社團</a></p>
+			</section>
+						
+			<section>
+				<h3><a href="http://mozilla.com.tw/community/student/">Mozillians <span class="subtitle">Mozilla 社群通訊錄</span></a></h3>
+				<p>你身為 Mozillian，想要找些夥伴在高雄辦聚會？需要一個專業的 XPCOM 駭客幫忙審核某個 patch？想要獲得 Mozilla 基金會第一手消息？Mozillians 社群通訊錄就是個可以讓你尋找志同道合夥伴的地方，歡迎加入！</p>
+			</section>
+            
+			<section>
+				<h3><a href="http://mozilla.com.tw/community/student/">Firefox Hong Kong Users</a></h3>
+				<p>A community group of Firefox users living in Hong Kong. Join us now if you enjoys firefox for your web surfing, and and spread it to your friends.</p>
+				<p class="link">→ 
+				    <a href="https://www.facebook.com/firefoxhk" target="_blank">Facebook Page</a>、
+				    <a href="groups.google.com/group/firefoxhongkong" target="_blank">Google Group</a></p>
+			</section>
+
+			<section>
+				<h3><a href="http://www.mozilla.org/contribute/local/">Mozilla Reps <span class="subtitle">Mozilla 代表計畫</span></a></h3>
+				<p>Mozilla Reps 計畫的目標是<abbr title="empower">致能</abbr>與支持志工成為 Mozilla 地域性╱各語系官方代表，並提供簡易的框架與工具協助 Mozillians 組織活動、招募貢獻者。Mozilla Reps 透過跨國通力合作、支持在地社群，並促使 Mozilla 全球貢獻者成長與茁壯。</p>
+			<p class="link">→ 
+			    <a href="http://reps.mozilla.org/people/country/Taiwan/" target="_blank">台灣的 Mozilla Reps</a></p>	
+			</section>
+
+			<section>
+			    	<h3><a href="http://www.mozilla.org/contribute/local/">Mozilla 全球在地社群</a></h3>
+			    	<p>Mozilla 志士遍佈全球六大洲、橫跨 24 小時時區，想造訪各地超過 70 個 Mozilla 社群嗎？請查閱我們的全球社群地圖。</p>
+			</section>
+			
+			
+<!--			<section>
+				<h3><a href="http://moztw.org/">mozilla-dev list</a></h3>
+				<p>
+				MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。
+				</p>
+			</section>
+
+			<section>
+				<h3><a href="http://moztw.org/">MozTW</a></h3>
+				<p>
+				MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。
+				</p>
+			</section>-->
+		</div>
+
+	</section>
+
+	<div class="divider" style="margin-top: 0;"></div>
+
+	<div id="project" class="row">
+	
+		<section class="left width-700">
+			<h2>Mozilla 相關專案</h2>
+			<p>歡迎依據個人興趣與喜好，選擇您喜愛的專案自由參與。</p>
+			
+			<section id="sumo">
+				<h3><a href="/contribute/sumo/">SUMO - Mozilla 技術支援<span class="engName">Mozilla Support</span></a></h3>
+				<p>SUMO 是 SUpport MOzilla 的縮寫字，讓使用者透過搜尋功能，查詢 Mozilla 相關產品的說明文件。SUMO 中的說明文件主要由全球社群志工撰寫與翻譯，當使用者點選 Firefox 的「說明」→「Firefox 說明」時，就會開啟 SUMO 網站。</p>	
+				<p class="link">→ 
+				    <a href="http://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012" target="_blank">更多介紹</a>、<a href="https://support.mozilla.org/zh-TW/kb/superheroes-wanted">徵求超人義工</a></a></p>
+			</section>
+			
+			<section id="moztw-forum">
+				<h3><a href="http://forum.moztw.org/">MozTW 討論區 使用者技術支援</a></h3>
+				<p>MozTW 討論區上天天都有使用者詢問問題、尋求協助，Mozilla 仰賴使用者間互助，作為產品支援最重要的一環。請幫忙回答使用者詢問的軟體使用問題，您不需向任何人報名，只要回答問題，就立刻成為 Mozilla 社群的一員了！</p>
+			</section>
+			
+			<section id="mozlinks-zhtw">
+				<h3><a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版「編輯機動隊」</a></h3>
+			    	<p>Mozilla Links 每週精選全球社群、各 Mozilla 相關 Blog 及協力作者專文，將 Mozilla 專案的第一手資訊，編譯後再傳播給所有中文摩茲客。歡迎加入翻譯機動隊行列，只要打開<a href="https://docs.google.com/open?id=0B9BU22m9p7kqOTJmYjhhZjYtODdmZC00NDNiLTllN2YtODE5NjlhNDYxZWJj">待譯資料夾</a>即可立即開始翻譯文章。</p>
+			    	<p>
+				<p class="link">→ 
+				    <a href="http://mozlinks-zh.blogspot.com/p/mozilla-links.html" target="_blank">翻譯機動隊╱投稿說明</a>、
+				    <a href="https://docs.google.com/open?id=0B9BU22m9p7kqOTJmYjhhZjYtODdmZC00NDNiLTllN2YtODE5NjlhNDYxZWJj" target="_blank">待譯資料夾</a>、
+				    <a href="http://groups.google.com/group/mozlinks-zh-editor">MozLinks 機動隊郵件群組</a></p>
+			</section>
+			
+			<section id="mdn">
+				<h3><a href="https://developer.mozilla.org/zh-TW/">MDN - Mozilla 開發者社群
+				    <span class="engName">Mozilla Developer Network</span></a>
+				</h3>
+				<p>Mozilla 開發者社群的目標是成為網路上最好、最詳盡的開發文件平台。包含 Mozilla 與 Open Web 所有相關技術的文件，以 Wiki 的方式供社群志工編撰、翻譯，不論哪個平台與瀏覽器的使用者，都可以加入貢獻。除開發文件外、還有許許多多精彩的 DEMO 作品及每月一主題的 <a href="https://developer.mozilla.org/zh-TW/demos/devderby">Dev Derby DEMO 比賽</a>。</p>	
+			</section>
+			
+			
+		</section>
+
+		<div class="right width-220">
+			<aside>
+				<h3>最近討論</h3>
+				<ul id="moztw-general-news">
+				</ul>
+			</aside>
+		</div>
+
+	</div>
+
+	<form id="mailinglist" class="billboard" action="http://groups-beta.google.com/group/moztw-general/boxsubscribe">
+		<h3>訂閱我們</h3>
+		<input type="email" name="email" placeholder="YOUR EMAIL HERE" />
+		<input type="submit" class="button" value="訂閱 »" />
+	</form>
+
+	<script src="main.js"></script>
+<!--#include virtual="/inc/new_footer.html" -->
