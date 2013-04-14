@@ -54,40 +54,47 @@
             <thead>
                 <tr>
                     <th>時段</th>
-                    <th>議程簡介</th>
-                    <th>講者簡介</th>
+                    <th>議程</th>
+                    <th>講者</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>09:00 ~ 09:30</td>
                     <td>
-                        <p class="subject">Why HTML5 ?</p>
-                        <p>HTML5 在多年的演進之下，已經逐漸從一個新的語言規格，轉變並擴大為完整的跨平台多媒體、特效、互動網頁技術。本講題將由淺至深探討所謂 HTML5 中所包含的各種技術，並簡介 HTML5 在各種平台（電腦、手機、平板）下的應用。</p>
+                        <h3>Why HTML5 ?</h3>
+                        <p class="intro">HTML5 在多年的演進之下，已經逐漸從一個新的語言規格，轉變並擴大為完整的跨平台多媒體、特效、互動網頁技術。本講題將由淺至深探討所謂 HTML5 中所包含的各種技術，並簡介 HTML5 在各種平台（電腦、手機、平板）下的應用。</p>
                     </td>
-                    <td>笨笨的小B (littlebtc) 目前是軟體業新鮮人，同時也是 MozTW （Mozilla 台灣社群）的志工，在社群中負責網頁標準與 Firefox 附加元件開發的研究與推廣。</td>
+                    <td>
+                        <h3>小B</h3>
+                        <p class="intro">笨笨的小B (littlebtc) 目前是軟體業新鮮人，同時也是 MozTW （Mozilla 台灣社群）的志工，在社群中負責網頁標準與 Firefox 附加元件開發的研究與推廣。</p>
+                    </td>
                 </tr>
                 <tr>
                     <td>09:35 ~ 10:05</td>
                     <td>
-                        <p class="subject">現代網頁開發工具</p>
-                        <p>現代瀏覽器內建的開發工具所提供的功能已經和以往不可同日而語了，不但可以即時的修改網頁樣式、內容，監看網路狀態，還可以進行 JavaScript 的逐步除錯、效能問題的追蹤等等，而在行動裝置上網量越來越多的現在，各家開發工具也都加入相關的功能，本議題旨就在介紹這些現代的瀏覽器內建開發工具。</p>
+                        <h3>現代網頁開發工具</h3>
+                        <p class="intro">現代瀏覽器內建的開發工具所提供的功能已經和以往不可同日而語了，不但可以即時的修改網頁樣式、內容，監看網路狀態，還可以進行 JavaScript 的逐步除錯、效能問題的追蹤等等，而在行動裝置上網量越來越多的現在，各家開發工具也都加入相關的功能，本議題旨就在介紹這些現代的瀏覽器內建開發工具。</p>
                     </td>
-                    <td>Othree</td>
+                    <td>
+                        <h3>Othree</h3>
+                    </td>
                 </tr>
                 <tr>
                     <td>10:10 ~ 10:40</td>
                     <td>
-                        <p class="subject">面對行動裝置的設計： Responsive Design</p>
-                        <p>由於手機平板等行動裝置的市占率越來越高，現代網頁設計往往還會考量到在行動裝置上的瀏覽。本講題將討論如何透過 CSS 針對不同大小的瀏覽器畫面，供應不同的排版樣式。</p>
+                        <h3>面對行動裝置的設計： Responsive Design</h3>
+                        <p class="intro">由於手機平板等行動裝置的市占率越來越高，現代網頁設計往往還會考量到在行動裝置上的瀏覽。本講題將討論如何透過 CSS 針對不同大小的瀏覽器畫面，供應不同的排版樣式。</p>
                     </td>
-                    <td>魏藥</td>
+                    <td>
+                        <h3>魏藥</h3>
+                    </td>
                 </tr>
                 <tr>
                     <td>10:45 ~ 11:25</td>
                     <td>
-                        <p class="subject">Titanium v.s PhoneGap：使用 HTML5 開發原生行動 App</p>
-                        <p>
+                        <h3>Titanium v.s PhoneGap：使用 HTML5 開發原生行動 App</h3>
+                        <p class="intro">
                             <ul>
                                 <li>Titanium Mobile－用Javascript開發原生行動應用程式。Titanium Mobile是一個跨平台行動應用框架，讓開發者只要使用Javascript，就能開發原生的iOS, Android, Blackberry應用程式及HTML5網頁應用程式。本議程介紹Titanium Mobile的特點、開發環境，作為學員技術選擇時的參考。</li>
                                 <li>PhoneGap 是一套跨平台開發 Mobile App 的工具，只要利用基本的網頁技術： HTML + CSS + JavaScript 以及其提供的 PhoneGap API 建立應用程式，就能發佈到多種平台的智慧型手機。在這場分享中，講者將為大家介紹什麼是 PhoneGap ? PhoneGap 如何運作？ 並以 Android 為平台，簡單說明如何以 PhoneGap 搭配 HTML5 這套工具開發出手機應用程式。</li>
@@ -96,34 +103,47 @@
                     </td>
                     <td>
                         <ul>
-                            <li>李易修 (阿修)，長期專注於互動設計與App開發，提供行動應用及使用者經驗設計顧問服務。目前正在創業當中，也使用Titanium Mobile打造公司主要產品。同時也是台灣使用者經驗設計協會 (UiGathering)創會成員與理事。</li>
-                            <li>Kuro Hsu - 現職前端工程師。熱愛網頁前端技術、Drupal、PhoneGap 以及 Mobile Web Apps 開發。曾在 JSDC 、DrupalCamp、WebConf 等社群分享 Mobile 及前端相關議題。現為 Drupal 台灣核心成員、Facebook PhoneGap 台灣粉絲頁管理者。</li>
+                            <li>
+                                <h3>阿修</h3>
+                                <p class="intro">李易修 (阿修)，長期專注於互動設計與App開發，提供行動應用及使用者經驗設計顧問服務。目前正在創業當中，也使用Titanium Mobile打造公司主要產品。同時也是台灣使用者經驗設計協會 (UiGathering)創會成員與理事。</p>
+                            </li>
+                            <li>
+                                <h3>Kuro Hsu</h3>
+                                <p class="intro">Kuro Hsu - 現職前端工程師。熱愛網頁前端技術、Drupal、PhoneGap 以及 Mobile Web Apps 開發。曾在 JSDC 、DrupalCamp、WebConf 等社群分享 Mobile 及前端相關議題。現為 Drupal 台灣核心成員、Facebook PhoneGap 台灣粉絲頁管理者。</p>
+                            </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>11:30 ~ 12:00</td>
                     <td>
-                        <p class="subject">Mozilla WebMaker</p>
-                        <p>WebMaker 是 Mozilla 著眼於推動網路素養教育的專案，透過提供多樣化的網頁工具與教案等資源，希望能幫助大家一起來協助育成新世代的網路創作者。</p>
+                        <h3>Mozilla WebMaker</h3>
+                        <p class="intro">WebMaker 是 Mozilla 著眼於推動網路素養教育的專案，透過提供多樣化的網頁工具與教案等資源，希望能幫助大家一起來協助育成新世代的網路創作者。</p>
                     </td>
-                    <td>Irvin，MozTW (Mozilla 台灣社群) 聯絡人兼雜工，持續以翻譯與協調貢獻 Mozilla 專案。日間的工作是 Plurk 噗浪工程師，靠淺薄的 Front-end 技能在台北生活中。</td>
+                    <td>
+                        <h3>Irvin</h3>
+                        <p class="intro">MozTW (Mozilla 台灣社群) 聯絡人兼雜工，持續以翻譯與協調貢獻 Mozilla 專案。日間的工作是 Plurk 噗浪工程師，靠淺薄的 Front-end 技能在台北生活中。</p>
+                    </td>
                 </tr>
                 <tr>
                     <td>13:15 ~ 14:10</td>
                     <td>
-                        <p class="subject">HTML5 的展示與辨識</p>
-                        <p>談 rvl.io 雲端 Slides 隨手建及Open CV 應用與 webcam 整合。</p>
+                        <h3>HTML5 的展示與辨識</h3>
+                        <p class="intro">談 rvl.io 雲端 Slides 隨手建及Open CV 應用與 webcam 整合。</p>
                     </td>
-                    <td>TonyQ</td>
+                    <td>
+                        <h3>TonyQ</h3>
+                    </td>
                 </tr>
                 <tr>
                     <td>14:20 ~ 15:15</td>
                     <td>
-                        <p class="subject">HTML5 的滲透與破壞</p>
-                        <p>談如何運用 facebook 所提供之 plugin/api 讓活動盛況能散播到 facebook 上，以及 SQL Injection , XSS Attack 基礎資安議題。</p>
+                        <h3>HTML5 的滲透與破壞</h3>
+                        <p class="intro">談如何運用 facebook 所提供之 plugin/api 讓活動盛況能散播到 facebook 上，以及 SQL Injection , XSS Attack 基礎資安議題。</p>
                     </td>
-                    <td>TonyQ</td>
+                    <td>
+                        <h3>TonyQ</h3>
+                    </td>
                 </tr>
             </tbody>
         </table>
