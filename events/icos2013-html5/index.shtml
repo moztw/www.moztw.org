@@ -38,7 +38,7 @@
         <ul>
             <li>活動時間：2013/04/26~28 (五、六、日)</li>
             <li>活動地點：國家教育研究院三峽院區 237-03 新北市三峽區三樹路2號</li>
-            <li>交通資訊：<a href="http://www.naer.edu.tw/files/11-1000-277-1.php?Lang=zh-tw" target="_blank">http://www.naer.edu.tw/files/11-1000-277-1.php?Lang=zh-tw</a></li>
+            <li>交通資訊：<a id="linkTraffic" href="http://www.naer.edu.tw/files/11-1000-277-1.php?Lang=zh-tw" target="_blank" title="另開新視窗">http://www.naer.edu.tw/files/11-1000-277-1.php?Lang=zh-tw</a></li>
             <li>活動費用：免費</li>
         </ul>
         
@@ -48,7 +48,7 @@
     
     <section id="schedule">
         <h2>活動流程</h2>
-        <a id="linkCalendar" href="http://quality-learning.net/2013/agenda/agendaCalendar.php?role=1&about=1" target="_blank" title="另開新視窗">ICOS＋均優學習論壇總議程</a>
+        <a id="linkCalendar" href="http://quality-learning.net/2013/agenda/agendaCalendar.php?role=1&amp;about=1" target="_blank" title="另開新視窗">ICOS＋均優學習論壇總議程</a>
         <table>
             <caption>HTML5 議程 (04/27 第二天)</caption>
             <thead>
