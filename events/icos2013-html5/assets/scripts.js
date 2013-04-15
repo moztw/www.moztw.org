@@ -14,7 +14,7 @@ var userIter = 0;
 
 (function($){
     $("#schedule p.intro").hide();
-    $("#schedule h3").mouseover(function(){
+    $("#schedule h3, #schedule h4").mouseover(function(){
         $(this).next().show();
     }).mouseout(function(){
         $(this).next().hide();
