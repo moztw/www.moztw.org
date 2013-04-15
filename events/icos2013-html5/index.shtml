@@ -48,7 +48,7 @@
     
     <section id="schedule">
         <h2>活動流程</h2>
-        <a href="http://quality-learning.net/2013/agenda/agendaCalendar.php?role=1&about=1" target="_blank">ICOS＋均優學習論壇總議程</a>
+        <a id="linkCalendar" href="http://quality-learning.net/2013/agenda/agendaCalendar.php?role=1&about=1" target="_blank" title="另開新視窗">ICOS＋均優學習論壇總議程</a>
         <table>
             <caption>HTML5 議程 (04/27 第二天)</caption>
             <thead>
