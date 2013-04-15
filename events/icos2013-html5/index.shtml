@@ -97,9 +97,16 @@
                     <td>
                         <h3>Titanium v.s PhoneGap：使用 HTML5 開發原生行動 App</h3>
                         <p class="intro">
+                            HTML5 不只是撰寫網頁的語言，只要透過 Titanium Mobile 及 PhoneGap 兩個框架的協助，透過既有的 HTML/JS/CSS 能力，也能簡單開發出 iOS/Android/Windows 系統的原生行動裝置應用程式。
                             <ul>
-                                <li>Titanium Mobile－用Javascript開發原生行動應用程式。Titanium Mobile是一個跨平台行動應用框架，讓開發者只要使用Javascript，就能開發原生的iOS, Android, Blackberry應用程式及HTML5網頁應用程式。本議程介紹Titanium Mobile的特點、開發環境，作為學員技術選擇時的參考。</li>
-                                <li>PhoneGap 是一套跨平台開發 Mobile App 的工具，只要利用基本的網頁技術： HTML + CSS + JavaScript 以及其提供的 PhoneGap API 建立應用程式，就能發佈到多種平台的智慧型手機。在這場分享中，講者將為大家介紹什麼是 PhoneGap ? PhoneGap 如何運作？ 並以 Android 為平台，簡單說明如何以 PhoneGap 搭配 HTML5 這套工具開發出手機應用程式。</li>
+                                <li>
+                                    <h4>Titanium Mobile</h4>
+                                    <p class="intro">Titanium Mobile－用Javascript開發原生行動應用程式。Titanium Mobile是一個跨平台行動應用框架，讓開發者只要使用Javascript，就能開發原生的iOS, Android, Blackberry應用程式及HTML5網頁應用程式。本議程介紹Titanium Mobile的特點、開發環境，作為學員技術選擇時的參考。</p>
+                                </li>
+                                <li>
+                                    <h4>PhoneGap</h4>
+                                    <p class="intro">PhoneGap 是一套跨平台開發 Mobile App 的工具，只要利用基本的網頁技術： HTML + CSS + JavaScript 以及其提供的 PhoneGap API 建立應用程式，就能發佈到多種平台的智慧型手機。在這場分享中，講者將為大家介紹什麼是 PhoneGap ? PhoneGap 如何運作？ 並以 Android 為平台，簡單說明如何以 PhoneGap 搭配 HTML5 這套工具開發出手機應用程式。</p>
+                                </li>
                             </ul>
                         </p>
                     </td>
