@@ -53,9 +53,9 @@
             <caption>HTML5 議程 (04/27 第二天)</caption>
             <thead>
                 <tr>
-                    <th>時段</th>
-                    <th>議程</th>
-                    <th>講者</th>
+                    <th class="timing">時段</th>
+                    <th class="subject">議程</th>
+                    <th class="hoster">講者</th>
                 </tr>
             </thead>
             <tbody>

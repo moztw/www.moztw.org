@@ -379,3 +379,7 @@ a.event-link.fallback-register-button {
 	}
 }
 
+#schedule  th.timing { width: 100px; }
+#schedule  th.subject { width: 555px; }
+#schedule  th.hoster { width: 100px; }
+
