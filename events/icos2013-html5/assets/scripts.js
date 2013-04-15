@@ -22,8 +22,10 @@ var userIter = 0;
         $(this).removeClass("captionClicked").addClass("caption")
         .parent("td").parent("tr").next(".introCreated").remove();
     });
-    $("#schedule .introCreated").click(function(){
-        $(this).prev().children("td").children(".captionClicked").removeClass("captionClicked").addClass("caption");
-        $(this).remove();
+    $("#schedule tr.introCreated td").click(function(){
+        $(this).parent("tr").prev()
+        .children("td").children(".captionClicked")
+        .removeClass("captionClicked").addClass("caption");
+        $(this).parent("tr").remove();
     });
 })(jQuery);
