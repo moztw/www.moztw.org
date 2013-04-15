@@ -13,6 +13,7 @@ marker.bindPopup("國家教育研究院三峽院區").openPopup();
 var userIter = 0;
 
 (function($){
+    $("#schedule").addClass("jq");
     $("#schedule p.intro").hide();
     $("#schedule h3, #schedule h4").mouseover(function(){
         $(this).next().show();
