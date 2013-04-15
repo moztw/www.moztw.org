@@ -380,6 +380,7 @@ a.event-link.fallback-register-button {
 }
 
 #schedule  th.timing { width: 120px; }
-#schedule.jqs th.subject { width: 515px; }
-#schedule.jq th.hoster { width: 120px; }
+#schedule.jqs th.subject { width: 535px; }
+#schedule.jq th.hoster { width: 100px; }
+#schedule.jq h3 + .intro { display: none; }
 
