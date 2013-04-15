@@ -6,31 +6,25 @@
 <!--#include virtual="/inc/header.html" -->
   <div class="key-point front-feature">
     <div id="feature">
-    <h2>Mac Firefox 4 正體中文版字體更新</h2>
-      <p>你是不是發現，Mac OS X 平台上的 Firefox 4 看起來不太一樣了呢？</p> 
-      <p>Mac Firefox 正體中文版的預設字體，隨著 Firefox 4 釋出同時已更換為「黑體-繁」。以下解釋為什麼這麼做，以及如何變更相關設定。</p> 
+    <h2>Mac Firefox 正體中文版字體更新</h2>
+      <p>你是不是發現，Mac OS X 平台上的 Firefox，從 Firefox 14 看起來不太一樣了呢？</p> 
+      <p>Mac Firefox 正體中文版的預設字體，隨著 Firefox 14 釋出同時，已更換為「黑體-繁」，以下解釋為什麼進行這項修改。</p> 
     </div>    
   </div>
 
-
   <br style="clear:both;">
-  這裡要放上主題圖片
 	<p>Mac 正體中文版的 Firefox 1.0 至 3.6.x 版，預設的正體中文字體是「蘋果儷中黑」，它自 2004 年 Firefox 釋出開始至今，已陪伴了我們將近七年的時間。</p>
 	<p>2009 年 8 月 Mac OS X 10.6 上市，新的系統預設中文字體「黑體-繁」隨之現身。但這個新字體極具爭議，包含筆畫、標點符號等都備受詬病。因此隨後發表的 Firefox 3.6 並未更換預設正體中文字體。</p>
 	<p>「黑體-繁」在釋出初期的許多令人詬病之處，在 OS X 10.6.3 中大多已完成修正，而相對於蘋果儷中黑及黑體 Pro 兩個 OS X 舊的系統中文字體，黑體-繁的優點相對不少，因此我們在 Firefox 4 RC 1 釋出前夕，開始考慮更換預設正體中文字體，並且向使用者提出徵詢。</p>	
 	<h2>調查過程與結果</h2>
 	<p>調查的方式如下：我們將黑體-繁與黑體 Pro 作為預設字體的顯示效果，在四個網頁上抓圖（Yahoo 奇摩、MozTW Firefox 版本資訊、Mozilla Links 正體中文版、Wikipedia「黑體-繁」詞目	），作成以下之比較投影片，並<a href="http://public.iwork.com/document/zh_tw/?d=Mac_Firefox_%E6%AD%A3%E9%AB%94%E4%B8%AD%E6%96%87%E7%89%88%EF%BC%9A%E6%8F%9B%E4%B8%8D%E6%8F%9B%E9%BB%91%E9%AB%94-%E7%B9%81%EF%BC%9F.key&a=p274132414">放置在此</a>，於投影片的最後附上<a href="h ttps://spreadsheets.google.com/viewform?formkey=dF9rT21HY3YzMWVVM05rNFp6elFZTnc6MQ">匿名線上問卷</a>網址。</p>
 	<div style="width:600px;"> <object id="__sse7323683" width="600" height="375"> <param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=fxtc-110320095447-phpapp01&rel=0&stripped_title=firefox-4&userName=irvinfly" /> <param name="allowFullScreen" value="true"/> <param name="allowScriptAccess" value="always"/> <embed name="__sse7323683" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=fxtc-110320095447-phpapp01&rel=0&stripped_title=firefox-4&userName=irvinfly" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="600" height="375"></embed> </object></div>
-	<p>調查的連結（http://go.sto.tw/heiti4fx）在 3/13 凌晨於 <a href="http://forum.moztw.org/viewtopic.php?f=2&t=31931">MozTW 討論區</a>、<a href="http://www.mobile01.com/topicdetail.php?f=482&t=2053646">Mobile 01</a>、<a href="http://forum.palmislife.com/thread-108034-1-1.html">PalmisLife</a>、<a href="http://www.ptt.cc/bbs/MAC/M.1299949375.A.269.html">Ptt Mac 版</a>及 <a href="http://www.plurk.com/p/b509fy">Foxmosa 的 Plurk</a>公開</p>
+	<p>調查的連結在 2011/3/13 凌晨於 <a href="http://forum.moztw.org/viewtopic.php?f=2&t=31931">MozTW 討論區</a>、<a href="http://www.mobile01.com/topicdetail.php?f=482&t=2053646">Mobile 01</a>、<a href="http://forum.palmislife.com/thread-108034-1-1.html">PalmisLife</a>、<a href="http://www.ptt.cc/bbs/MAC/M.1299949375.A.269.html">Ptt Mac 版</a>及 <a href="http://www.plurk.com/p/b509fy">Foxmosa 的 Plurk</a>公開</p>
   <p>截至 3/20 23:00 為止，共有超過 640 人點擊投影片網址，142 人完成投票。調查結果為：維持現狀（使用蘋果儷中黑）的票數為 45 票；更換為黑體-繁的票數為 97 票。比例約為 1:2，據此結果，我們向 Mozilla 提出更換 Firefox 預設正體中文字體的意見。（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=599289#c3">Bug 599289</a>）</p>
 	<p><a href="https://spreadsheets.google.com/ccc?key=0AtBU22m9p7kqdF9rT21HY3YzMWVVM05rNFp6elFZTnc&hl=en#gid=1">請點此看即時的問卷結果統計</a></p>
 	<h2>黑體-繁的優點</h2>
 	
-	此項要附圖
-	<p>原先的預設字體「蘋果儷中黑」的主要問題在於只有一種粗細，且相較於其他字體粗上不少，在瀏覽網頁時，如果遇上需要使用粗體的場合，會造成文章內文黑成一團。</p>
-	
-	<p>此外字數也較少</p>
-	
+	<p>原先的預設字體「蘋果儷中黑」的主要問題在於只有一種粗細，且相較於其他字體粗上不少，在瀏覽網頁時，如果遇上需要使用粗體的場合，會造成文章內文黑成一團；此外，蘋果儷中黑的字數也少很多（儷中黑 6.1d3e1 13701 字 / 黑體-繁 8.0d1e1 51835 字）。</p>
 	
   <h2>如何變更預設字體</h2>
 
