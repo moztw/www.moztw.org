@@ -14,15 +14,15 @@ var userIter = 0;
 
 (function($){
     $("#schedule").addClass("jq");
-    $(".caption").click(function(){
+    $("#schedule .caption").click(function(){
         $(this).removeClass("caption").addClass("captionClicked")
-        .parent("td").parent("tr").after("<tr class=\".introCreated\"><td colspan=\"3\">" + $(this).next(".intro:nth-of-type(1)").html() + "</td></tr>");
+        .parent("td").parent("tr").after("<tr class=\"introCreated\"><td colspan=\"3\">" + $(this).next(".intro:nth-of-type(1)").html() + "</td></tr>");
     });
-    $(".captionClicked").click(function(){
+    $("#schedule .captionClicked").click(function(){
         $(this).removeClass("captionClicked").addClass("caption")
         .parent("td").parent("tr").next(".introCreated").remove();
     });
-    $("tr.introCreated td").click(function(){
+    $("#schedule tr.introCreated td").click(function(){
         $(this).parent("tr").prev()
         .children("td").children(".captionClicked")
         .removeClass("captionClicked").addClass("caption");
