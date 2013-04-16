@@ -50,7 +50,7 @@
         <h2>活動流程</h2>
         <a id="linkCalendar" href="http://quality-learning.net/2013/agenda/agendaCalendar.php?role=1&amp;about=1" target="_blank" title="另開新視窗">ICOS＋均優學習論壇總議程</a>
         <table id="html5">
-            <caption>HTML5 議程 (04/27 第二天)</caption>
+            <caption>HTML5 議程 (04/27 第二天) 地點：傳習苑105</caption>
             <thead>
                 <tr>
                     <th class="timing">時段</th>
@@ -159,7 +159,7 @@
             </tbody>
         </table>
         <table id="icos">
-            <caption>均優論壇自由共享社群相關議程</caption>
+            <caption>均優論壇自由共享社群相關議程 地點：傳習苑406</caption>
             <thead>
                 <tr>
                     <th>日期</th>
@@ -201,7 +201,6 @@
                             <li><h3 class="caption">李昕迪</h3></li>
                         </ul>
                     </td>
-                    <td></td>
                 </tr>
                 <tr>
                     <td>第三天</td>
@@ -216,7 +215,6 @@
                             <li><h3 class="caption">陳瑞霖</h3></li>
                         </ul>
                     </td>
-                    <td></td>
                 </tr>
                 <tr>
                     <td>第三天</td>
@@ -233,7 +231,6 @@
                             <li><h3 class="caption">Mozilla 臺灣社群 Irvin</h3></li>
                         </ul>
                     </td>
-                    <td>傳習苑406</td>
                 </tr>
             </tbody>
         </table>
