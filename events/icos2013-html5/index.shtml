@@ -1,0 +1,175 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>AppDevParty - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="ICOS 2013 HTML5 議程">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/events/icos2013-html5/">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="ICOS 2013 HTML5 議程">
+<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="assets/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
+<!--[if lte IE 8]> <link rel="stylesheet" href="assets/leaflet/leaflet.ie.css" /> <![endif]-->
+<link href="style.css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
+<!--[if IE]>
+    <script src="assets/html5.js"></script>
+<![endif]--> 
+<!--[if lt IE 9]>
+<script src="assets/IE9.js"></script>
+<![endif]-->
+<!--#include virtual="/inc/class_homepage.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+  <header id="header2" class="container">
+    <h2>ICOS 2013 HTML5 議程</h2>
+  </header>
+
+	<div id="main" class="container">
+		
+    <section>
+      <h2>活動簡介</h2>
+      <p>簡介內容</p>
+    </section>
+		
+    <section id="information">
+        <h2>活動資訊</h2>
+        
+        <ul>
+            <li>活動時間：2013/04/26~28 (五、六、日)</li>
+            <li>活動地點：國家教育研究院三峽院區 237-03 新北市三峽區三樹路2號</li>
+            <li>交通資訊：<a id="linkTraffic" href="http://www.naer.edu.tw/files/11-1000-277-1.php?Lang=zh-tw" target="_blank" title="另開新視窗">http://www.naer.edu.tw/files/11-1000-277-1.php?Lang=zh-tw</a></li>
+            <li>活動費用：免費</li>
+        </ul>
+        
+      <div id="map"></div>
+      <br><br>
+    </section>
+    
+    <section id="schedule">
+        <h2>活動流程</h2>
+        <a id="linkCalendar" href="http://quality-learning.net/2013/agenda/agendaCalendar.php?role=1&amp;about=1" target="_blank" title="另開新視窗">ICOS＋均優學習論壇總議程</a>
+        <table>
+            <caption>HTML5 議程 (04/27 第二天)</caption>
+            <thead>
+                <tr>
+                    <th class="timing">時段</th>
+                    <th class="subject">議程</th>
+                    <th class="hoster">講者</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:00 ~ 09:30</td>
+                    <td>
+                        <h3 class="caption">Why HTML5 ?</h3>
+                        <div class="intro">HTML5 在多年的演進之下，已經逐漸從一個新的語言規格，轉變並擴大為完整的跨平台多媒體、特效、互動網頁技術。本講題將由淺至深探討所謂 HTML5 中所包含的各種技術，並簡介 HTML5 在各種平台（電腦、手機、平板）下的應用。</div>
+                    </td>
+                    <td>
+                        <h3 class="caption">小B</h3>
+                        <div class="intro">笨笨的小B (littlebtc) 目前是軟體業新鮮人，同時也是 MozTW （Mozilla 台灣社群）的志工，在社群中負責網頁標準與 Firefox 附加元件開發的研究與推廣。</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>09:35 ~ 10:05</td>
+                    <td>
+                        <h3 class="caption">現代網頁開發工具</h3>
+                        <div class="intro">現代瀏覽器內建的開發工具所提供的功能已經和以往不可同日而語了，不但可以即時的修改網頁樣式、內容，監看網路狀態，還可以進行 JavaScript 的逐步除錯、效能問題的追蹤等等，而在行動裝置上網量越來越多的現在，各家開發工具也都加入相關的功能，本議題旨就在介紹這些現代的瀏覽器內建開發工具。</div>
+                    </td>
+                    <td>
+                        <h3 class="caption">Othree</h3>
+                        <div class="intro">Othree，十年前為了製作個人網頁而自學起 HTML、CSS 和 JavaScript，接著便一頭栽進網路標準的世界，並持續關注網路前端技術的發展，不時在部落格及各活動分享新知，近期關注 HTML5、CSS3、Web API、語意網等議題，被認為專長於 JavaScript，其實最喜歡寫的是漂亮的 HTML Markup，現職為 HTC 前端工程師（F2E）兼博士生。</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10:10 ~ 10:40</td>
+                    <td>
+                        <h3 class="caption">面對行動裝置的設計： Responsive Design</h3>
+                        <div class="intro">由於手機平板等行動裝置的市占率越來越高，現代網頁設計往往還會考量到在行動裝置上的瀏覽。本講題將討論如何透過 CSS 針對不同大小的瀏覽器畫面，供應不同的排版樣式。</div>
+                    </td>
+                    <td>
+                        <h3 class="caption">魏藥</h3>
+                        <div class="intro">魏藥，不務正業碩士生一枚，接觸 HTML, CSS, JS 等前端技術只能算是興趣。</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10:45 ~ 11:25</td>
+                    <td>
+                        <h3 class="caption">Titanium v.s PhoneGap：使用 HTML5 開發原生行動 App</h3>
+                        <div class="intro">
+                            HTML5 不只是撰寫網頁的語言，只要透過 Titanium Mobile 及 PhoneGap 兩個框架的協助，透過既有的 HTML/JS/CSS 能力，也能簡單開發出 iOS/Android/Windows 系統的原生行動裝置應用程式。
+                            <ul>
+                                <li>
+                                    <h4 class="caption">Titanium Mobile</h4>
+                                    <div class="intro">Titanium Mobile－用Javascript開發原生行動應用程式。Titanium Mobile是一個跨平台行動應用框架，讓開發者只要使用Javascript，就能開發原生的iOS, Android, Blackberry應用程式及HTML5網頁應用程式。本議程介紹Titanium Mobile的特點、開發環境，作為學員技術選擇時的參考。</div>
+                                </li>
+                                <li>
+                                    <h4 class="caption">PhoneGap</h4>
+                                    <div class="intro">PhoneGap 是一套跨平台開發 Mobile App 的工具，只要利用基本的網頁技術： HTML + CSS + JavaScript 以及其提供的 PhoneGap API 建立應用程式，就能發佈到多種平台的智慧型手機。在這場分享中，講者將為大家介紹什麼是 PhoneGap ? PhoneGap 如何運作？ 並以 Android 為平台，簡單說明如何以 PhoneGap 搭配 HTML5 這套工具開發出手機應用程式。</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <h3 class="caption">阿修</h3>
+                                <div class="intro">李易修 (阿修)，長期專注於互動設計與App開發，提供行動應用及使用者經驗設計顧問服務。目前正在創業當中，也使用Titanium Mobile打造公司主要產品。同時也是台灣使用者經驗設計協會 (UiGathering)創會成員與理事。</div>
+                            </li>
+                            <li>
+                                <h3 class="caption">Kuro Hsu</h3>
+                                <div class="intro">Kuro Hsu - 現職前端工程師。熱愛網頁前端技術、Drupal、PhoneGap 以及 Mobile Web Apps 開發。曾在 JSDC 、DrupalCamp、WebConf 等社群分享 Mobile 及前端相關議題。現為 Drupal 台灣核心成員、Facebook PhoneGap 台灣粉絲頁管理者。</div>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>11:30 ~ 12:00</td>
+                    <td>
+                        <h3 class="caption">Mozilla WebMaker</h3>
+                        <div class="intro">WebMaker 是 Mozilla 著眼於推動網路素養教育的專案，透過提供多樣化的網頁工具與教案等資源，希望能幫助大家一起來協助育成新世代的網路創作者。</div>
+                    </td>
+                    <td>
+                        <h3 class="caption">Irvin</h3>
+                        <div class="intro">MozTW (Mozilla 台灣社群) 聯絡人兼雜工，持續以翻譯與協調貢獻 Mozilla 專案。日間的工作是 Plurk 噗浪工程師，靠淺薄的 Front-end 技能在台北生活中。</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>13:15 ~ 14:10</td>
+                    <td>
+                        <h3 class="caption">HTML5 的展示與辨識</h3>
+                        <div class="intro">談 rvl.io 雲端 Slides 隨手建及Open CV 應用與 webcam 整合。</div>
+                    </td>
+                    <td>
+                        <h3 class="caption">TonyQ</h3>
+                        <div class="intro">熱愛 JavaScript 並參與 JavaScript 討論多年，發起 JavaScript.tw 台北、台中、高雄社群聚會並力於推廣 JavaScript ， 對前端界面與後端資料層有一定程度而全面性的涉獵，常讚嘆於 JavaScript 在龐富的限制下表現出的豐富性。「JavaScript rocks the world.」</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>14:20 ~ 15:15</td>
+                    <td>
+                        <h3 class="caption">HTML5 的滲透與破壞</h3>
+                        <div class="intro">談如何運用 facebook 所提供之 plugin/api 讓活動盛況能散播到 facebook 上，以及 SQL Injection , XSS Attack 基礎資安議題。</div>
+                    </td>
+                    <td>
+                        <h3 class="caption">TonyQ</h3>
+                        <div class="intro">熱愛 JavaScript 並參與 JavaScript 討論多年，發起 JavaScript.tw 台北、台中、高雄社群聚會並力於推廣 JavaScript ， 對前端界面與後端資料層有一定程度而全面性的涉獵，常讚嘆於 JavaScript 在龐富的限制下表現出的豐富性。「JavaScript rocks the world.」</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    
+    <section>
+      <h2>其他事項</h2>
+      <p>內文</p>
+    </section>
+    
+	</div>
+<br><br><br>
+<script type="text/javascript" charset="utf-8" src="assets/leaflet/leaflet.js"></script>
+<script type="text/javascript" charset="utf-8" src="assets/jquery.js"></script>
+<script type="text/javascript" charset="utf-8" src="assets/scripts.js"></script>
+<script src="http://asset.registrano.com/javascripts/blogbadge/zh-tw.js" type="text/javascript" defer="defer"></script>
+<!--#include virtual="/inc/footer.html" -->
+
