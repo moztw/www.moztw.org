@@ -60,41 +60,41 @@
             </thead>
             <tbody>
                 <tr>
-                    <td>09:00~09:30</td>
-                    <td>
+                    <td class="timing">09:00~09:30</td>
+                    <td class="subject">
                         <h3 class="caption">Why HTML5 ?</h3>
                         <div class="intro">HTML5 在多年的演進之下，已經逐漸從一個新的語言規格，轉變並擴大為完整的跨平台多媒體、特效、互動網頁技術。本講題將由淺至深探討所謂 HTML5 中所包含的各種技術，並簡介 HTML5 在各種平台（電腦、手機、平板）下的應用。</div>
                     </td>
-                    <td>
+                    <td class="hoster">
                         <h3 class="caption">小B</h3>
                         <div class="intro">笨笨的小B (littlebtc) 目前是軟體業新鮮人，同時也是 MozTW （Mozilla 台灣社群）的志工，在社群中負責網頁標準與 Firefox 附加元件開發的研究與推廣。</div>
                     </td>
                 </tr>
                 <tr>
-                    <td>09:35~10:05</td>
-                    <td>
+                    <td class="timing">09:35~10:05</td>
+                    <td class="subject">
                         <h3 class="caption">現代網頁開發工具</h3>
                         <div class="intro">現代瀏覽器內建的開發工具所提供的功能已經和以往不可同日而語了，不但可以即時的修改網頁樣式、內容，監看網路狀態，還可以進行 JavaScript 的逐步除錯、效能問題的追蹤等等，而在行動裝置上網量越來越多的現在，各家開發工具也都加入相關的功能，本議題旨就在介紹這些現代的瀏覽器內建開發工具。</div>
                     </td>
-                    <td>
+                    <td class="hoster">
                         <h3 class="caption">Othree</h3>
                         <div class="intro">Othree，十年前為了製作個人網頁而自學起 HTML、CSS 和 JavaScript，接著便一頭栽進網路標準的世界，並持續關注網路前端技術的發展，不時在部落格及各活動分享新知，近期關注 HTML5、CSS3、Web API、語意網等議題，被認為專長於 JavaScript，其實最喜歡寫的是漂亮的 HTML Markup，現職為 HTC 前端工程師（F2E）兼博士生。</div>
                     </td>
                 </tr>
                 <tr>
-                    <td>10:10~10:40</td>
-                    <td>
+                    <td class="timing">10:10~10:40</td>
+                    <td class="subject">
                         <h3 class="caption">面對行動裝置的設計： Responsive Design</h3>
                         <div class="intro">由於手機平板等行動裝置的市占率越來越高，現代網頁設計往往還會考量到在行動裝置上的瀏覽。本講題將討論如何透過 CSS 針對不同大小的瀏覽器畫面，供應不同的排版樣式。</div>
                     </td>
-                    <td>
+                    <td class="hoster">
                         <h3 class="caption">魏藥</h3>
                         <div class="intro">魏藥，不務正業碩士生一枚，接觸 HTML, CSS, JS 等前端技術只能算是興趣。</div>
                     </td>
                 </tr>
                 <tr>
-                    <td>10:45~11:25</td>
-                    <td>
+                    <td class="timing">10:45~11:25</td>
+                    <td class="subject">
                         <h3 class="caption">Titanium v.s PhoneGap：使用 HTML5 開發原生行動 App</h3>
                         <div class="intro">
                             HTML5 不只是撰寫網頁的語言，只要透過 Titanium Mobile 及 PhoneGap 兩個框架的協助，透過既有的 HTML/JS/CSS 能力，也能簡單開發出 iOS/Android/Windows 系統的原生行動裝置應用程式。
@@ -110,7 +110,7 @@
                             </ul>
                         </div>
                     </td>
-                    <td>
+                    <td class="hoster">
                         <ul>
                             <li>
                                 <h3 class="caption">阿修</h3>
@@ -124,34 +124,34 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>11:30~12:00</td>
-                    <td>
+                    <td class="timing">11:30~12:00</td>
+                    <td class="subject">
                         <h3 class="caption">Mozilla WebMaker</h3>
                         <div class="intro">WebMaker 是 Mozilla 著眼於推動網路素養教育的專案，透過提供多樣化的網頁工具與教案等資源，希望能幫助大家一起來協助育成新世代的網路創作者。</div>
                     </td>
-                    <td>
+                    <td class="hoster">
                         <h3 class="caption">Irvin</h3>
                         <div class="intro">MozTW (Mozilla 台灣社群) 聯絡人兼雜工，持續以翻譯與協調貢獻 Mozilla 專案。日間的工作是 Plurk 噗浪工程師，靠淺薄的 Front-end 技能在台北生活中。</div>
                     </td>
                 </tr>
                 <tr>
-                    <td>13:15~14:10</td>
-                    <td>
+                    <td class="timing">13:15~14:10</td>
+                    <td class="subject">
                         <h3 class="caption">HTML5 的展示與辨識</h3>
                         <div class="intro">談 rvl.io 雲端 Slides 隨手建及Open CV 應用與 webcam 整合。</div>
                     </td>
-                    <td>
+                    <td class="hoster">
                         <h3 class="caption">TonyQ</h3>
                         <div class="intro">熱愛 JavaScript 並參與 JavaScript 討論多年，發起 JavaScript.tw 台北、台中、高雄社群聚會並力於推廣 JavaScript ， 對前端界面與後端資料層有一定程度而全面性的涉獵，常讚嘆於 JavaScript 在龐富的限制下表現出的豐富性。「JavaScript rocks the world.」</div>
                     </td>
                 </tr>
                 <tr>
-                    <td>14:20~15:15</td>
-                    <td>
+                    <td class="timing">14:20~15:15</td>
+                    <td class="subject">
                         <h3 class="caption">HTML5 的滲透與破壞</h3>
                         <div class="intro">談如何運用 facebook 所提供之 plugin/api 讓活動盛況能散播到 facebook 上，以及 SQL Injection , XSS Attack 基礎資安議題。</div>
                     </td>
-                    <td>
+                    <td class="hoster">
                         <h3 class="caption">TonyQ</h3>
                         <div class="intro">熱愛 JavaScript 並參與 JavaScript 討論多年，發起 JavaScript.tw 台北、台中、高雄社群聚會並力於推廣 JavaScript ， 對前端界面與後端資料層有一定程度而全面性的涉獵，常讚嘆於 JavaScript 在龐富的限制下表現出的豐富性。「JavaScript rocks the world.」</div>
                     </td>
@@ -162,17 +162,17 @@
             <caption>均優論壇自由共享社群相關議程 地點：傳習苑406</caption>
             <thead>
                 <tr>
-                    <th>日期</th>
-                    <th>時段</th>
-                    <th>議程</th>
-                    <th>講者</th>
+                    <th class="date">日期</th>
+                    <th class="timing">時段</th>
+                    <th class="subject">議程</th>
+                    <th class="hoster">講者</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>第一天</td>
-                    <td>19:00~21:00</td>
-                    <td>
+                    <td class="date">第一天</td>
+                    <td class="timing">19:00~21:00</td>
+                    <td class="subject">
                         <h3 class="caption">畫國教院地圖</h3>
                         <div class="intro">
                             <p>OpenStreetMap 開放街圖，是維基精神的開放協作地圖，由參與者貢獻資料所繪制的地圖。由於開放街圖能兼融不同需求，故很適合不受商業青  睞的地區，突破官方及商業地圖的呈現，或者是能呈現一般地圖不會出現的小眾關心事物。有些地區地理資料因眾人參與甚至勝過現有地圖，更貼近在地人的需求及關心事物。 Mapping Party意指參與者一起畫地圖的實體活動，上官、瑞霖將會從基本的註冊、新手教學，實地探勘，帶參與者來將國教院畫上OpenStreetMap上。</p>
@@ -195,7 +195,7 @@
                             </p>
                         </div>
                     </td>
-                    <td>
+                    <td class="hoster">
                         <ul>
                             <li><h3 class="caption">鄧東波</h3></li>
                             <li><h3 class="caption">李昕迪</h3></li>
@@ -203,13 +203,13 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>第三天</td>
-                    <td>09:00~10:00</td>
-                    <td>
+                    <td class="date">第三天</td>
+                    <td class="timing">09:00~10:00</td>
+                    <td class="subject">
                         <h3 class="caption">用 wiki 記錄學習歷程</h3>
                         <div class="intro">對學生學習成績的評價，應該要兼顧學習過程與學習成果，同時若除了教師之外能有多方參與，評價將更能客觀。台灣大學2012年開設的「臺大校園文化 資產詮釋－大家來寫台大維基」實習課中，在台北維基社群協助下，以wiki共筆系統中最著名的「維基百科」做為學習平臺，將台灣大學校園內的多座建築，編 寫成維基百科上的條目。過程中，藉由wiki系統功能紀錄每一位學生完整的學習過程，同時也邀請資深的維基編者一同進行成果檢視。本議程擬邀請該門課程的助教周子暐及聯絡人陳瑞霖先生，展示wiki系統如何達成這些目標，並分享以此平臺進行學生成績評估的心得。</div>
                     </td>
-                    <td>
+                    <td class="hoster">
                         <ul>
                             <li><h3 class="caption">周子暐</h3></li>
                             <li><h3 class="caption">陳瑞霖</h3></li>
@@ -217,13 +217,13 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>第三天</td>
-                    <td>11:00~12:00</td>
-                    <td>
+                    <td class="date">第三天</td>
+                    <td class="timing">11:00~12:00</td>
+                    <td class="subject">
                         <h3 class="caption">網路知識平台的社群經營</h3>
                         <div class="intro">網路現有許多透過共筆（co-writing）的全球性的知識平台，尤其英文的語言中有許多成功的公共知識站，例如維基百科、可汗學院是透過共筆平台這種 集體智慧（crowd sourcing）而成功的，在台灣也有許多知識網站，本次議程便邀請多個在台灣成功經營大學志工的知識平台，分享其經驗。</div>
                     </td>
-                    <td>
+                    <td class="hoster">
                         <ul>
                             <li><h3 class="caption">中華民國維基協會 王則文</h3></li>
                             <li><h3 class="caption">OpenStreetMap 鄧東波/李昕迪</h3></li>
