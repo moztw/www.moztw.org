@@ -1,4 +1,4 @@
-var map = new L.Map('map', {
+﻿var map = new L.Map('map', {
     scrollWheelZoom: false,
     dragging: false
 });
@@ -13,7 +13,7 @@ marker.bindPopup("國家教育研究院三峽院區").openPopup();
 var userIter = 0;
 
 (function($){
-    $("#schedule").addClass("jq");
+    $("#schedule").addClass("jq");/*
     $("#schedule .caption").click(function(){
         $(this).removeClass("caption").addClass("captionClicked")
         .parent("td").parent("tr").after("<tr class=\"introCreated\"><td colspan=\"3\">" + $(this).next(".intro:nth-of-type(1)").html() + "</td></tr>");
@@ -27,5 +27,5 @@ var userIter = 0;
         .children("td").children(".captionClicked")
         .removeClass("captionClicked").addClass("caption");
         $(this).parent("tr").remove();
-    });
+    });*/
 })(jQuery);
