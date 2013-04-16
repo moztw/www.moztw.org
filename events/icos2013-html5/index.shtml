@@ -1,10 +1,10 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>ICOS 2013 HTML5 議程 - MozTW, Mozilla Taiwan Community</title>
+<title>ICOS 2013 - HTML5 議程 - MozTW, Mozilla 台灣社群</title>
 <meta name="description" content="ICOS 2013 HTML5 議程">
 <meta property="og:type" content="website">
 <meta property="og:url" content="http://moztw.org/events/icos2013-html5/">
-<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
-<meta property="og:description" content="ICOS 2013 HTML5 議程">
+<meta property="og:site_name" content="MozTW, Mozilla 台灣社群">
+<meta property="og:description" content="ICOS 2013 - HTML5 議程">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -15,40 +15,39 @@
 <!--[if IE]>
     <script src="/js/library/html5shiv.js"></script>
 <![endif]--> 
-<!--[if lt IE 9]>
-<script src="/js/library/IE9.js"></script>
-<![endif]-->
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-  <header id="header2" class="container">
-    <h2>ICOS 2013 HTML5 議程</h2>
-  </header>
+<div id="main" class="container">
 
-	<div id="main" class="container">
+    <header>
+        <div id="star"><img class="star" src="/images/light.svg" alt="" /></div>
+        <div id="header_ctn">
+            <img src="/images/HTML5_Logo_512.png" alt="" id="html5logo">
+            <h1><ruby>ICOS 2013<rt>開放源碼國際研討會</rt></ruby> - HTML5 主題議程</h1>
+        </div>
+    </header>    
 		
-    <section>
-      <h2>活動簡介</h2>
-      <p>簡介內容</p>
+    <section id="description">
+      <p>2013 年 ICOS 開放源碼國際研討會，將結合均優學習論壇，於 4/26~28 日假國家教育研究院合併舉行。有鑑於今年起 HTML5 將成為校園自由軟體與教學資源開發的重點技術，因此 MozTW、<a href="http://javascript.tw">JavaScript.tw 社群</a>的 TonyQ 及 <a href="http://ossacc.moe.edu.tw/">教育部校園自由軟體中心</a>合力企劃，為大家帶來一整天的 HTML5 主題議程，希望能讓所有關心網路技術，希望能將其運用於教育領域的老師、行政人員與各位朋友，都能透過此概略的議程，掌握 HTML5 各面向的基礎概念。</p>
     </section>
 		
     <section id="information">
         <h2>活動資訊</h2>
         
         <ul>
-            <li>活動時間：2013/04/26~28 (五、六、日)</li>
-            <li>活動地點：國家教育研究院三峽院區 237-03 新北市三峽區三樹路2號</li>
-            <li>交通資訊：<a id="linkTraffic" href="http://www.naer.edu.tw/files/11-1000-277-1.php?Lang=zh-tw" target="_blank" title="另開新視窗">http://www.naer.edu.tw/files/11-1000-277-1.php?Lang=zh-tw</a></li>
-            <li>活動費用：免費</li>
+            <li>時間：2013/04/26~28 (五、六、日)</li>
+            <li>地點：國家教育研究院三峽院區 / 新北市三峽區三樹路2號 / <a id="linkTraffic" href="http://www.naer.edu.tw/files/11-1000-277-1.php?Lang=zh-tw" target="_blank" title="另開新視窗">詳細交通資訊</a></li>
+            <li>本活動免費參加，請直接前來。</li>
         </ul>
         
       <div id="map"></div>
-      <br><br>
+
     </section>
     
     <section id="schedule">
-        <h2>活動流程</h2>
-        <a id="linkCalendar" href="http://quality-learning.net/2013/agenda/agendaCalendar.php?role=1&amp;about=1" target="_blank" title="另開新視窗">ICOS＋均優學習論壇總議程</a>
+        <h2>HTML5 議程</h2>
+        <p>（<a id="linkCalendar" href="http://quality-learning.net/2013/agenda/agendaCalendar.php?role=1&amp;about=1" target="_blank" title="另開新視窗">點此觀看 ICOS＋均優論壇完整議程</a>）</p>
         <table id="html5">
             <caption>HTML5 議程 (04/27 第二天) 地點：傳習苑105</caption>
             <thead>
