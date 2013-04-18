@@ -7,9 +7,9 @@
 <meta property="og:description" content="ICOS 2013 - HTML5 議程">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="assets/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
-<!--[if lte IE 8]> <link rel="stylesheet" href="assets/leaflet/leaflet.ie.css" /> <![endif]-->
+<meta name="viewport" content="min-width=500">
+<link href="/js/library/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
+<!--[if lte IE 8]> <link rel="stylesheet" href="/js/library/leaflet/leaflet.ie.css" /> <![endif]-->
 <link href="style.css" rel="stylesheet" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
 <!--[if IE]>
@@ -29,7 +29,7 @@
     </header>    
 		
     <section id="description">
-      <p>2013 年 ICOS 開放源碼國際研討會，將結合均優學習論壇，於 4/26~28 日假國家教育研究院合併舉行。有鑑於今年起 HTML5 將成為校園自由軟體與教學資源開發的重點技術，因此 MozTW、<a href="http://javascript.tw">JavaScript.tw 社群</a>的 TonyQ 及 <a href="http://ossacc.moe.edu.tw/">教育部校園自由軟體中心</a>合力企劃，為大家帶來一整天的 HTML5 主題議程，希望能讓所有關心網路技術，希望能將其運用於教育領域的老師、行政人員與各位朋友，都能透過此概略的議程，掌握 HTML5 各面向的基礎概念。</p>
+      <p>2013 年 ICOS 開放源碼國際研討會，將結合均優學習論壇，於 4/26~28 日假國家教育研究院合併舉行。有鑑於 HTML5 從今年起將是校園自由軟體與教學資源開發的重點技術，因此 MozTW、<a href="http://javascript.tw">JavaScript.tw 社群</a>的 TonyQ 及<a href="http://ossacc.moe.edu.tw/">教育部校園自由軟體中心</a>合力企劃，為大家帶來一整天的 HTML5 主題議程，希望能讓所有關心網路技術，希望將其運用於教育領域的老師、行政人員與各位朋友，都能透過此議程的概略介紹，掌握 HTML5 各面向的基礎概念。</p>
     </section>
 		
     <section id="information">
@@ -37,19 +37,20 @@
         
         <ul>
             <li>時間：2013/04/26~28 (五、六、日)</li>
-            <li>地點：國家教育研究院三峽院區 / 新北市三峽區三樹路2號 / <a id="linkTraffic" href="http://www.naer.edu.tw/files/11-1000-277-1.php?Lang=zh-tw" target="_blank" title="另開新視窗">詳細交通資訊</a></li>
-            <li>本活動免費參加，請直接前來。</li>
+            <li>地點：國家教育研究院三峽院區 / 新北市三峽區三樹路2號 / <a id="linkTraffic" onClick="_gaq.push(['_trackEvent', 'icos-html5', 'traffic-info']);" href="http://www.naer.edu.tw/files/11-1000-277-1.php?Lang=zh-tw" target="_blank">詳細交通資訊</a></li>
+            <li>本活動免報名費，提供付費餐點及4/26中南部北上接駁車，另有提供免費住宿</li>
         </ul>
+        <p class="signup"><a target="_blank" href="http://slat.org/icos2013/signup/signup.php" onClick="_gaq.push(['_trackEvent', 'icos-html5', 'signup']);">請於此報名</a></p>
         
-      <div id="map"></div>
+      <div id="mapcover"><div id="map"></div></div>
 
     </section>
     
     <section id="schedule">
         <h2>HTML5 議程</h2>
-        <p>（<a id="linkCalendar" href="http://quality-learning.net/2013/agenda/agendaCalendar.php?role=1&amp;about=1" target="_blank" title="另開新視窗">點此觀看 ICOS＋均優論壇完整議程</a>）</p>
+        <p class="pos">ICOS Day 2 | 04/27 (六) | 傳習苑 105</p>
+        <p class="allsession">（<a id="linkCalendar" onClick="_gaq.push(['_trackEvent', 'icos-html5', 'see-agenda']);"href="http://slat.org/icos2013/agenda/agendaCalendar.php?role=1&about=1" target="_blank">點此查看 ICOS＋均優論壇完整議程</a>）</p>
         <table id="html5">
-            <caption>HTML5 議程 (04/27 第二天) 地點：傳習苑105</caption>
             <thead>
                 <tr>
                     <th class="timing">時段</th>
@@ -94,7 +95,7 @@
                 <tr>
                     <td class="timing">10:45~11:25</td>
                     <td class="subject">
-                        <h3 class="caption">Titanium v.s PhoneGap：使用 HTML5 開發原生行動 App</h3>
+                        <h3 class="caption">Titanium v.s PhoneGap：<br>使用 HTML5 開發原生行動 App</h3>
                         <div class="intro">
                             HTML5 不只是撰寫網頁的語言，只要透過 Titanium Mobile 及 PhoneGap 兩個框架的協助，透過既有的 HTML/JS/CSS 能力，也能簡單開發出 iOS/Android/Windows 系統的原生行動裝置應用程式。
                             <ul>
@@ -114,6 +115,7 @@
                             <li>
                                 <h3 class="caption">阿修</h3>
                                 <div class="intro">李易修 (阿修)，長期專注於互動設計與App開發，提供行動應用及使用者經驗設計顧問服務。目前正在創業當中，也使用Titanium Mobile打造公司主要產品。同時也是台灣使用者經驗設計協會 (UiGathering)創會成員與理事。</div>
+                                <br>
                             </li>
                             <li>
                                 <h3 class="caption">Kuro Hsu</h3>
@@ -157,78 +159,58 @@
                 </tr>
             </tbody>
         </table>
+        
+        <h2>均優論壇自由社群相關議程</h2>
+        <p class="pos">傳習苑406</p>
         <table id="icos">
-            <caption>均優論壇自由共享社群相關議程 地點：傳習苑406</caption>
             <thead>
                 <tr>
-                    <th class="date">日期</th>
                     <th class="timing">時段</th>
                     <th class="subject">議程</th>
-                    <th class="hoster">講者</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td class="date">第一天</td>
-                    <td class="timing">19:00~21:00</td>
+                    <td class="timing">Day 1<br>04/26 (五)<br>19:00~21:00</td>
                     <td class="subject">
                         <h3 class="caption">畫國教院地圖</h3>
+                        <div class="host">鄧東波、李昕迪</div>
                         <div class="intro">
                             <p>OpenStreetMap 開放街圖，是維基精神的開放協作地圖，由參與者貢獻資料所繪制的地圖。由於開放街圖能兼融不同需求，故很適合不受商業青  睞的地區，突破官方及商業地圖的呈現，或者是能呈現一般地圖不會出現的小眾關心事物。有些地區地理資料因眾人參與甚至勝過現有地圖，更貼近在地人的需求及關心事物。 Mapping Party意指參與者一起畫地圖的實體活動，上官、瑞霖將會從基本的註冊、新手教學，實地探勘，帶參與者來將國教院畫上OpenStreetMap上。</p>
-                            <p>
-                                內容：
-                                <ul>
-                                    <li>OpenStreetMap簡介</li>
-                                    <li>註冊帳號</li>
-                                    <li>新手教學</li>
-                                    <li>實地探察</li>
-                                    <li>輸入成果</li>
-                                </ul>
-                            </p>
-                            <p>
-                                建議攜帶物品：
-                                <ul>
-                                    <li>有筆電可帶筆電</li>
-                                    <li>有智慧型手機、平板電腦iOS系統可安裝<code>Go Map!!</code>，Android系統可裝<code>OSMAnd</code></li>
-                                </ul>
-                            </p>
+                            <p>建議攜帶物品：有筆電可帶筆電；有智慧型手機、平板電腦，iOS 系統可安裝<code>Go Map!!</code>，Android系統可裝<code>OSMAnd</code></p>
                         </div>
                     </td>
-                    <td class="hoster">
-                        <ul>
-                            <li><h3 class="caption">鄧東波</h3></li>
-                            <li><h3 class="caption">李昕迪</h3></li>
-                        </ul>
-                    </td>
                 </tr>
                 <tr>
-                    <td class="date">第三天</td>
-                    <td class="timing">09:00~10:00</td>
+                    <td class="timing">Day 3<br>04/28 (日)<br>09:00~10:00</td>
                     <td class="subject">
                         <h3 class="caption">用 wiki 記錄學習歷程</h3>
+                        <div class="host">陳瑞霖、周子暐、上官良治</div>
                         <div class="intro">對學生學習成績的評價，應該要兼顧學習過程與學習成果，同時若除了教師之外能有多方參與，評價將更能客觀。台灣大學2012年開設的「臺大校園文化 資產詮釋－大家來寫台大維基」實習課中，在台北維基社群協助下，以wiki共筆系統中最著名的「維基百科」做為學習平臺，將台灣大學校園內的多座建築，編 寫成維基百科上的條目。過程中，藉由wiki系統功能紀錄每一位學生完整的學習過程，同時也邀請資深的維基編者一同進行成果檢視。本議程擬邀請該門課程的助教周子暐及聯絡人陳瑞霖先生，展示wiki系統如何達成這些目標，並分享以此平臺進行學生成績評估的心得。</div>
-                    </td>
-                    <td class="hoster">
+                        <br>
                         <ul>
-                            <li><h3 class="caption">周子暐</h3></li>
-                            <li><h3 class="caption">陳瑞霖</h3></li>
+                            <li>
+                                <div class="host">陳瑞霖</div>
+                                <div class="intro">中華民國維基媒體協會祕書長，OpenStreetMap開放街圖繪圖者，Open Data開放資料關注者。長期在共筆部落格<a href="http://taipei-wikipedian.blogspot.com/">臺北維基人聯合部落格</a>，<a href="http://technews.com/">科技新報</a>撰寫開放內容、開放資料文章。</div>
+                            </li>
+                            <li>
+                                <div class="host">周子暐</div>
+                                <div class="intro">台大學生會學術部副部長，校園空間小組召集人，台大校園文化資產詮釋課程助教。</div>
+                            </li>
+                            <li>
+                                <div class="host">上官良治</div>
+                                <div class="intro">國立臺灣大學國際企業學系，從大學開始便於龍應台基金會擔任志工，勤於參加與創新、改革的相關研討與演講，對有關公民社會、社會改革運動等議題充滿興趣與熱情。目前為臺灣童心創意行動協會常務理事，同時也是OSM台北繪圖派對的策劃者之一。 </div>
+                            </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
-                    <td class="date">第三天</td>
-                    <td class="timing">11:00~12:00</td>
+                    <td class="timing">Day 3<br>04/28 (日)<br>11:00~12:00</td>
                     <td class="subject">
                         <h3 class="caption">網路知識平台的社群經營</h3>
+                        <div class="host">中華民國維基協會 王則文、OpenStreetMap 鄧東波 / 李昕迪<br>
+                        均一教育平台 方新舟、Mozilla 臺灣社群 Irvin</div>
                         <div class="intro">網路現有許多透過共筆（co-writing）的全球性的知識平台，尤其英文的語言中有許多成功的公共知識站，例如維基百科、可汗學院是透過共筆平台這種 集體智慧（crowd sourcing）而成功的，在台灣也有許多知識網站，本次議程便邀請多個在台灣成功經營大學志工的知識平台，分享其經驗。</div>
-                    </td>
-                    <td class="hoster">
-                        <ul>
-                            <li><h3 class="caption">中華民國維基協會 王則文</h3></li>
-                            <li><h3 class="caption">OpenStreetMap 鄧東波/李昕迪</h3></li>
-                            <li><h3 class="caption">均一教育平台 方新舟</h3></li>
-                            <li><h3 class="caption">Mozilla 臺灣社群 Irvin</h3></li>
-                        </ul>
                     </td>
                 </tr>
             </tbody>
@@ -237,12 +219,12 @@
     
     <section>
       <h2>其他事項</h2>
-      <p>內文</p>
+      <p>Mozillians 成員，如果計畫參與，請至 <a href="https://reps.mozilla.org/e/html5-track-of-icos-conference/">Reps 活動頁面</a>登入並點選「I will attend this event」。</p>
     </section>
     
 	</div>
 <br><br><br>
-<script type="text/javascript" charset="utf-8" src="assets/leaflet/leaflet.js"></script>
+<script type="text/javascript" charset="utf-8" src="/js/library/leaflet/leaflet.js"></script>
 <script type="text/javascript" charset="utf-8" src="/js/library/jquery.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/scripts.js"></script>
 <script src="http://asset.registrano.com/javascripts/blogbadge/zh-tw.js" type="text/javascript" defer="defer"></script>
