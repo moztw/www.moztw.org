@@ -7,7 +7,7 @@
 body{
 	font-family: "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
 	color:#666;
-	background:#F1F1F1 url(furley_bg.png);
+	background:#F1F1F1 url(/images/furley_bg.png);
 	margin-top: 20px;
 	font-size: 14px;
 }
@@ -41,8 +41,8 @@ a{
 section h1, h2 {
     border-bottom: 1px solid #CCCCCC;
     color: #E44D26;
-    font: 1.8em/1.5em bold;
-    margin: 2em 0 0.8em;
+    font: 2em/1.5em bold;
+    margin: 2.2em 0 0.8em;
     text-align: center;
     text-shadow: 0 2px 5px white;
 }
@@ -155,16 +155,99 @@ p {
     margin: 1em 15px;   
 }
 
+#information .signup {
+    line-height: 3em;
+    margin: 1em auto;
+    text-align: center;
+}
+#information .signup a {
+    color: #0092BF;
+    font-size: 1.5em;
+}
+
+#information .signup:before {
+    content: "→ ";
+}
+
+#information .signup:after {
+    content: " ←";
+}
+
+#mapcover {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    margin: 2em auto;
+    position: relative;
+	transition: all 0.3s;
+}
+#mapcover:hover {
+    height: 400px;
+}
 #map {
 	height: 400px;
-	border-radius: 8px;
-	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
-	margin: 2em auto;
+	margin-top: -70px;
+	transition: all 0.3s ease-in;
+}
+#mapcover:hover #map {
+    margin-top: 0;
 }
 
 #schedule p {
     text-align: center;
 }
+
+#schedule p.pos {
+    font-size: 1.5em;
+    color: #0092BF;
+    text-align: center;
+}
+#schedule p.allsession {
+    text-align: center;
+}
+
+/* Table */
+#schedule tbody tr:nth-child(2n+1) td,
+#schedule tbody tr:nth-child(2n+1) th {
+    background: #EAEAEA;
+    background: rgba(200,200,200,0.2);
+}
+#schedule table th {
+    background: #444;
+    color: #DDD;
+    padding: 0.5em;
+}
+#schedule table td {
+    padding: 1em;
+    border: 1px solid #DDD;
+    vertical-align: top;
+}
+#schedule table td.timing {
+    vertical-align: middle;
+    text-align: center;
+}
+#schedule table h3 {
+    margin: 0.3em 0 0.5em;
+    padding: 0;
+    border: none;
+}
+#schedule table ul li {
+    padding: 0;
+}
+#schedule table ul li:before {
+    display: none;
+}
+#schedule p, #schedule div {
+    text-align: left;
+    line-height: 1.8em;
+}
+
+#icos .host {
+    font-size: 1.1em;
+    margin: 0.5em 0;
+}
+
 /*
 #schedule  th.timing { width: 120px; }
 #schedule.jqs th.subject { width: 535px; }
@@ -176,15 +259,5 @@ p {
 @media (max-width: 500px) {
 	body{
 		margin-top: 30px;
-	}
-	#map {
-		height: 280px;
-	}
-	header h2{
-		left: 5%;
-	}
-	header h1{
-		bottom: 10%;
-		right: 10%;
 	}
 }
