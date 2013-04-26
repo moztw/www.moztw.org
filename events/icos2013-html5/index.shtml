@@ -185,7 +185,7 @@
                     <td class="timing">Day 3<br>04/28 (日)<br>09:00~10:00</td>
                     <td class="subject">
                         <h3 class="caption">用 wiki 記錄學習歷程</h3>
-                        <div class="host">陳瑞霖、周子暐、上官良治</div>
+                        <div class="host">陳瑞霖、周子暐</div>
                         <div class="intro">對學生學習成績的評價，應該要兼顧學習過程與學習成果，同時若除了教師之外能有多方參與，評價將更能客觀。台灣大學2012年開設的「臺大校園文化 資產詮釋－大家來寫台大維基」實習課中，在台北維基社群協助下，以wiki共筆系統中最著名的「維基百科」做為學習平臺，將台灣大學校園內的多座建築，編 寫成維基百科上的條目。過程中，藉由wiki系統功能紀錄每一位學生完整的學習過程，同時也邀請資深的維基編者一同進行成果檢視。本議程擬邀請該門課程的助教周子暐及聯絡人陳瑞霖先生，展示wiki系統如何達成這些目標，並分享以此平臺進行學生成績評估的心得。</div>
                         <br>
                         <ul>
@@ -197,6 +197,18 @@
                                 <div class="host">周子暐</div>
                                 <div class="intro">台大學生會學術部副部長，校園空間小組召集人，台大校園文化資產詮釋課程助教。</div>
                             </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="timing">Day 3<br>04/28 (日)<br>10:00~11:00</td>
+                    <td class="subject">
+                        <h3 class="caption">網路知識平台的社群經營</h3>
+                        <div class="host">主持人：上官良治；與談人：中華民國維基協會 王則文、陳瑞霖
+                        <br>OpenStreetMap 鄧東波；Mozilla 臺灣社群 Irvin</div>
+                        <div class="intro">網路現有許多透過共筆（co-writing）的全球性的知識平台，尤其英文的語言中有許多成功的公共知識站，例如維基百科、可汗學院是透過共筆平台這種 集體智慧（crowd sourcing）而成功的，在台灣也有許多知識網站，本次議程便邀請多個在台灣成功經營大學志工的知識平台，分享其經驗。</div>
+                        <br>
+                        <ul>
                             <li>
                                 <div class="host">上官良治</div>
                                 <div class="intro">國立臺灣大學國際企業學系，從大學開始便於龍應台基金會擔任志工，勤於參加與創新、改革的相關研討與演講，對有關公民社會、社會改革運動等議題充滿興趣與熱情。目前為臺灣童心創意行動協會常務理事，同時也是OSM台北繪圖派對的策劃者之一。 </div>
@@ -204,24 +216,15 @@
                         </ul>
                     </td>
                 </tr>
-                <tr>
-                    <td class="timing">Day 3<br>04/28 (日)<br>11:00~12:00</td>
-                    <td class="subject">
-                        <h3 class="caption">網路知識平台的社群經營</h3>
-<!--                        <div class="host">中華民國維基協會 王則文、OpenStreetMap 鄧東波 / 李昕迪<br>
-                        均一教育平台 方新舟、Mozilla 臺灣社群 Irvin</div>-->
-                        <div class="intro">網路現有許多透過共筆（co-writing）的全球性的知識平台，尤其英文的語言中有許多成功的公共知識站，例如維基百科、可汗學院是透過共筆平台這種 集體智慧（crowd sourcing）而成功的，在台灣也有許多知識網站，本次議程便邀請多個在台灣成功經營大學志工的知識平台，分享其經驗。</div>
-                    </td>
-                </tr>
             </tbody>
         </table>
     </section>
-    
+<!--    
     <section>
       <h2>其他事項</h2>
       <p>Mozillians 成員，如果有計畫參與，請至 <a href="https://reps.mozilla.org/e/html5-track-of-icos-conference/">Reps 活動頁面</a>登入並點選「I will attend this event」。</p>
     </section>
-    
+    -->
 	</div>
 <br><br><br>
 <script type="text/javascript" charset="utf-8" src="/js/library/leaflet/leaflet.js"></script>
