@@ -6,8 +6,8 @@
 <meta property="og:site_name" content="MozTW, Mozilla 台灣社群">
 <meta property="og:description" content="ICOS 2013 - HTML5 議程">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
-<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
-<meta name="viewport" content="min-width=500">
+<!--<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">-->
+<meta name="viewport" content="width=930">
 <link href="/js/library/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
 <!--[if lte IE 8]> <link rel="stylesheet" href="/js/library/leaflet/leaflet.ie.css" /> <![endif]-->
 <link href="style.css" rel="stylesheet" />
@@ -42,8 +42,12 @@
         </ul>
         <p class="signup"><a target="_blank" href="http://slat.org/icos2013/signup/signup.php" onClick="_gaq.push(['_trackEvent', 'icos-html5', 'signup']);">請於此報名</a></p>
         
-      <div id="mapcover"><div id="map"></div></div>
+        <div id="mapcover"><div id="map"></div></div>
 
+        <div id="venue-map">
+            <h3>會場平面圖</h3>
+            <img src="venue.png">
+        </div>
     </section>
     
     <section id="schedule">
@@ -230,6 +234,5 @@
 <script type="text/javascript" charset="utf-8" src="/js/library/leaflet/leaflet.js"></script>
 <script type="text/javascript" charset="utf-8" src="/js/library/jquery.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/scripts.js"></script>
-<script src="http://asset.registrano.com/javascripts/blogbadge/zh-tw.js" type="text/javascript" defer="defer"></script>
 <!--#include virtual="/inc/footer.html" -->
 
