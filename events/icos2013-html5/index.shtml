@@ -57,7 +57,7 @@
         <table id="html5">
             <thead>
                 <tr>
-                    <th class="timing">時段</th>
+                    <th class="timing">時段 / 投影片</th>
                     <th class="subject">議程</th>
                     <th class="hoster">講者</th>
                 </tr>
@@ -86,7 +86,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="timing">10:10~10:40</td>
+                    <td class="timing"><a href="http://www.rvl.io/medicalwei/responsive-web-design" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a><br>10:10~10:40</td>
                     <td class="subject">
                         <h3 class="caption">面對行動裝置的設計： Responsive Design</h3>
                         <div class="intro">由於手機平板等行動裝置的市占率越來越高，現代網頁設計往往還會考量到在行動裝置上的瀏覽。本講題將討論如何透過 CSS 針對不同大小的瀏覽器畫面，供應不同的排版樣式。</div>
@@ -129,7 +129,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="timing">11:30~12:00</td>
+                    <td class="timing"><a href="http://www.slideshare.net/irvinfly/201304-icos-webmaker" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a><br>11:30~12:00</td>
                     <td class="subject">
                         <h3 class="caption">Mozilla WebMaker</h3>
                         <div class="intro">WebMaker 是 Mozilla 著眼於推動網路素養教育的專案，透過提供多樣化的網頁工具與教案等資源，希望能幫助大家一起來協助育成新世代的網路創作者。</div>
@@ -140,7 +140,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="timing">13:15~14:10</td>
+                    <td class="timing"><a href="http://www.rvl.io/tonyq/html5-slides-and-identify" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a><br>13:15~14:10</td>
                     <td class="subject">
                         <h3 class="caption">HTML5 的展示與辨識</h3>
                         <div class="intro">談 rvl.io 雲端 Slides 隨手建及Open CV 應用與 webcam 整合。</div>
@@ -151,7 +151,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="timing">14:20~15:15</td>
+                    <td class="timing"><a href="http://www.rvl.io/tonyq/html5-promote-and-security" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a><br>14:20~15:15</td>
                     <td class="subject">
                         <h3 class="caption">HTML5 的滲透與破壞</h3>
                         <div class="intro">談如何運用 facebook 所提供之 plugin/api 讓活動盛況能散播到 facebook 上，以及 SQL Injection , XSS Attack 基礎資安議題。</div>
