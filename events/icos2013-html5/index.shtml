@@ -64,7 +64,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="timing">09:00~09:30</td>
+                    <td class="timing"><a href="https://www.dropbox.com/s/z9kfl0uvaxwd93x/Why%20HTML5.pdf" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a><br>09:00~09:30</td>
                     <td class="subject">
                         <h3 class="caption">Why HTML5 ?</h3>
                         <div class="intro">HTML5 在多年的演進之下，已經逐漸從一個新的語言規格，轉變並擴大為完整的跨平台多媒體、特效、互動網頁技術。本講題將由淺至深探討所謂 HTML5 中所包含的各種技術，並簡介 HTML5 在各種平台（電腦、手機、平板）下的應用。</div>
