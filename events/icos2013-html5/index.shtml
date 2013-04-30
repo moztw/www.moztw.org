@@ -110,13 +110,13 @@
                         <a href="http://www.slideshare.net/mobile/lis186/icos2013-appcelerator-titanium" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a><br>10:45~11:05</td>
                     <td class="subject">
                         <div class="intro">
-                            <h4 class="caption">PhoneGap</h4>
-                            <div class="intro">PhoneGap 是一套跨平台開發 Mobile App 的工具，只要利用基本的網頁技術： HTML + CSS + JavaScript 以及其提供的 PhoneGap API 建立應用程式，就能發佈到多種平台的智慧型手機。在這場分享中，講者將為大家介紹什麼是 PhoneGap ? PhoneGap 如何運作？ 並以 Android 為平台，簡單說明如何以 PhoneGap 搭配 HTML5 這套工具開發出手機應用程式。</div>
+                            <h4 class="caption">Titanium Mobile</h4>
+                            <div class="intro">Titanium Mobile－用Javascript開發原生行動應用程式。Titanium Mobile是一個跨平台行動應用框架，讓開發者只要使用Javascript，就能開發原生的iOS, Android, Blackberry應用程式及HTML5網頁應用程式。本議程介紹Titanium Mobile的特點、開發環境，作為學員技術選擇時的參考。</div>
                         </div>
                     </td>
                     <td class="hoster">
-                        <h4 class="caption">Kuro Hsu</h3>
-                        <div class="intro">Kuro Hsu - 現職前端工程師。熱愛網頁前端技術、Drupal、PhoneGap 以及 Mobile Web Apps 開發。曾在 JSDC 、DrupalCamp、WebConf 等社群分享 Mobile 及前端相關議題。現為 Drupal 台灣核心成員、Facebook PhoneGap 台灣粉絲頁管理者。</div>
+                        <h4 class="caption">阿修</h3>
+                        <div class="intro">李易修 (阿修)，長期專注於互動設計與App開發，提供行動應用及使用者經驗設計顧問服務。目前正在創業當中，也使用Titanium Mobile打造公司主要產品。同時也是台灣使用者經驗設計協會 (UiGathering)創會成員與理事。</div>
                     </td>
                 </tr>
                 <tr>
@@ -126,13 +126,13 @@
                     </td>
                     <td class="subject">
                         <div class="intro">
-                            <h4 class="caption">Titanium Mobile</h4>
-                            <div class="intro">Titanium Mobile－用Javascript開發原生行動應用程式。Titanium Mobile是一個跨平台行動應用框架，讓開發者只要使用Javascript，就能開發原生的iOS, Android, Blackberry應用程式及HTML5網頁應用程式。本議程介紹Titanium Mobile的特點、開發環境，作為學員技術選擇時的參考。</div>
+                            <h4 class="caption">PhoneGap</h4>
+                            <div class="intro">PhoneGap 是一套跨平台開發 Mobile App 的工具，只要利用基本的網頁技術： HTML + CSS + JavaScript 以及其提供的 PhoneGap API 建立應用程式，就能發佈到多種平台的智慧型手機。在這場分享中，講者將為大家介紹什麼是 PhoneGap ? PhoneGap 如何運作？ 並以 Android 為平台，簡單說明如何以 PhoneGap 搭配 HTML5 這套工具開發出手機應用程式。</div>
                         </div>
                     </td>
                     <td class="hoster">
-                        <h4 class="caption">阿修</h3>
-                        <div class="intro">李易修 (阿修)，長期專注於互動設計與App開發，提供行動應用及使用者經驗設計顧問服務。目前正在創業當中，也使用Titanium Mobile打造公司主要產品。同時也是台灣使用者經驗設計協會 (UiGathering)創會成員與理事。</div>
+                        <h4 class="caption">Kuro Hsu</h3>
+                        <div class="intro">Kuro Hsu - 現職前端工程師。熱愛網頁前端技術、Drupal、PhoneGap 以及 Mobile Web Apps 開發。曾在 JSDC 、DrupalCamp、WebConf 等社群分享 Mobile 及前端相關議題。現為 Drupal 台灣核心成員、Facebook PhoneGap 台灣粉絲頁管理者。</div>
                     </td>
                 </tr>
                 <tr>
