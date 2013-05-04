@@ -1,12 +1,17 @@
 /* download button */
 
+#fxtw-download header
+{
+    float: left;
+    vertical-align: middle;
+}
 #fxtw-download #download-button-desktop-tw
 {
-    float: right;
+    margin: 1em;
 }
 #fxtw-download
 {
-    clear: both;
+    text-align: right;
 }
 
 .download-button .unrecognized-download,.download-button .unsupported-download{

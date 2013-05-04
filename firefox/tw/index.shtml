@@ -1,43 +1,60 @@
 <!--#include virtual="/inc/new_meta.html" -->
-	<link href="style.css" rel="stylesheet" />
-	<title>Firefox 台灣版</title>
-	<meta name="description" content="比較 Firefox 台灣版以及其他版本">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="//moztw.org/firefox/tw/">
-	<meta property="og:image" content="//moztw.org/images/foxmosa-icon.gif">
-	<meta property="og:site_name" content="Firefox 台灣版">
-	<meta property="og:description" content="比較 Firefox 台灣版以及其他版本">
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script>
-    jQuery(function () {
-     var poster, video, iframe, $win;
-
-     poster = $('#video-poster');
-     video = $('#video');
-     $win = $(window);
-     
-     poster.on('click', function () {
-       if (video.hasClass('show')) {
-          video.removeClass('show');
-        } else {
-          video.addClass('show');
+    <link href="style.css" rel="stylesheet" />
+    <title>Firefox 台灣版</title>
+    <meta name="description" content="比較 Firefox 台灣版以及其他版本">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="//moztw.org/firefox/tw/">
+    <meta property="og:image" content="//moztw.org/images/foxmosa-icon.gif">
+    <meta property="og:site_name" content="Firefox 台灣版">
+    <meta property="og:description" content="比較 Firefox 台灣版以及其他版本">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="download.js"></script>
+    <script>
+        $(function(){
+            offerBestDownloadLink($("div#download-button-desktop-tw ul.download-list")[0]);
+        });
+    </script>
+<script type="text/javascript">
+    function doInstall()
+    {
+        var installObj = {}
+        var boxObjs = document.getElementById("installList").getElementsByTagName("input");
+        for(i = 0; i < boxObjs.length; i++)
+        {
+            if(boxObjs[i].checked)
+            {
+                installObj[boxObjs[i].name] = boxObjs[i].value;
+            }
         }
-     });
-
-     iframe = video.find('iframe');
-
-     $win.resize(function () {
-       var width = video.width() - 20;
-       iframe.height(width / 16 * 9);
-     });
-   });
-  </script>
+        try
+        {
+            InstallTrigger.install(installObj);
+        }
+        catch(e)
+        {
+            window.alert('無法安裝，您需要使用 Firefox 或其他 Gecko 系列瀏覽器。');
+        }
+    }
+    
+    function hidden_descript(obj)
+    {
+        /* Won't work in IE */
+        var i, a;
+        for(i = 0; (a = document.getElementsByTagName('link')[i]); i++)
+        {
+            if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title") == "隱藏套件說明")
+            {
+                a.disabled = !obj.checked;
+            }
+        }
+    }
+</script>
 <!--#include virtual="/inc/new_header.html" -->
 
-	<hgroup id="main-feature">
-		<h1>Firefox 台灣版</h1>
-		<h2>分析 Firefox 台灣版<br />比較其和一般版本的差異</h2>
-	</hgroup>
+    <hgroup id="main-feature">
+        <h1>Firefox 台灣版</h1>
+        <h2>分析 Firefox 台灣版<br />比較其和一般版本的差異</h2>
+    </hgroup>
     
     <section id="fxtw-download" class="billboard">
         <header>
