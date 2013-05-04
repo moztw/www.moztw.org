@@ -1,0 +1,106 @@
+.firefox-tw
+{
+    background: url(active-extensiontop15.png) no-repeat;
+}
+
+.diff-discription
+{
+    text-align: center;
+}
+.diff-discription img
+{
+    width: 200px;
+}
+.diff-discription img.large
+{
+    width: auto;
+}
+
+#mainContent h3
+{
+	border: none;
+	border-bottom: solid 1px gray;
+	background: #f0f0f0;
+}
+.extension-info
+{
+	position: relative;
+	margin-bottom: 1em;
+}
+.extension-info blockquote
+{
+	/*margin: 1em 2em 0 12em;*/
+	margin: 0 2em 0 2em;
+	/*padding-top: 1.5em;*/
+	color: #3B84BF;
+    font-size: 1.2em;
+}
+.extension-info p
+{
+	/*margin-left: 10em;*/
+}
+.extension-info .extension-pic.float-left
+{
+	float: left;
+}
+.extension-info .extension-pic.float-right
+{
+	float: right;
+}
+#installList h3, .extension-discription, .extension-discription li
+{
+    clear: both;
+}
+
+#mainContent .install-options
+{
+	text-align: right;
+	margin: 0; padding: 0;
+}
+
+label {font-weight: normal;}
+
+#mainContent .download:before
+{
+	content: url("/images/download_tl_content.gif");
+}
+#mainContent .download
+{
+	background: #C4EFA1 url("/images/download_back_content.gif") top right no-repeat;
+}
+#mainContent .download:after
+{
+	content:  url("/images/download_bl_content.gif");
+	background: transparent url("/images/download_br_content.gif") scroll no-repeat bottom right ;
+}
+#mainContent .download h3
+{
+	background: transparent;
+}
+#mainContent
+{
+    float: none;
+    width: auto;
+}
+#install-extensions
+{
+	position: relative;
+}
+
+p.targetuser
+{
+	margin: 0;
+	text-align: right;
+	color: #1D9101;
+	position: absolute;
+	top: -1.8em;
+	right: 0;
+}
+
+.download .install
+{
+    display: block;
+    text-align: right;
+    position: relative;
+    top: -2.2em;
+}
