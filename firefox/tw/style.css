@@ -1,3 +1,10 @@
+/* download button */
+
+#fxtw-download #download-button-desktop-tw
+{
+    float: right;
+}
+
 .download-button .unrecognized-download,.download-button .unsupported-download{
 	display:none
 }
@@ -141,7 +148,7 @@
 	color:#b8e779;
 	margin-left:-54px;
 	_margin-left:0;
-	background:url(/media/img/sandstone/buttons/firefox-large.png?build=2) 0 0 no-repeat;
+	background:url(//www.mozilla.org/media/img/sandstone/buttons/firefox-large.png?build=2) 0 0 no-repeat;
 	_background-color:#659324;
 	min-height:82px;
 	margin-bottom:-12px;
@@ -194,7 +201,7 @@
 	_margin-left:0;
 	margin-top:-2px;
 	margin-bottom:-7px;
-	background-image:url(/media/img/sandstone/buttons/firefox-small.png?build=2);
+	background-image:url(//www.mozilla.org/media/img/sandstone/buttons/firefox-small.png?build=2);
 	min-height:45px;
 	padding:10px 20px 10px 73px;
 	overflow:visible;
@@ -235,19 +242,19 @@
 }
 
 .download-button-large.beta .download-link .download-content{
-	background-image:url(/media/img/sandstone/buttons/beta-large.png)
+	background-image:url(//www.mozilla.org/media/img/sandstone/buttons/beta-large.png)
 }
 
 .download-button-small.beta .download-link .download-content{
-	background-image:url(/media/img/sandstone/buttons/beta-small.png)
+	background-image:url(//www.mozilla.org/media/img/sandstone/buttons/beta-small.png)
 }
 
 .download-button-large.aurora .download-link .download-content{
-	background-image:url(/media/img/sandstone/buttons/aurora-large.png)
+	background-image:url(//www.mozilla.org/media/img/sandstone/buttons/aurora-large.png)
 }
 
 .download-button-small.aurora .download-link .download-content{
-	background-image:url(/media/img/sandstone/buttons/aurora-small.png)
+	background-image:url(//www.mozilla.org/media/img/sandstone/buttons/aurora-small.png)
 }
 
 .download-button.download-button-noicon .download-link{
@@ -258,7 +265,7 @@
 .download-button.download-button-noicon .download-link .download-content{
 	margin-left:auto;
 	padding-left:55px;
-	background-image:url(/media/img/sandstone/buttons/download-arrow.png);
+	background-image:url(//www.mozilla.org/media/img/sandstone/buttons/download-arrow.png);
 	background-position:15px 30px
 }
 
@@ -271,7 +278,7 @@
 }
 
 .download-button-small.download-button-noicon .download-link .download-content{
-	background-image:url(/media/img/sandstone/buttons/download-arrow-small.png);
+	background-image:url(//www.mozilla.org/media/img/sandstone/buttons/download-arrow-small.png);
 	background-position:15px 18px
 }
 

@@ -43,7 +43,7 @@
         <header>
             <h3>下載 Firefox 台灣版</h3>
         </header>
-        <div id="download-button-desktop-beta" class="download-button download-button-beta download-button-small download-button-noicon">
+        <div id="download-button-desktop-tw" class="download-button download-button-beta download-button-small download-button-noicon">
             <noscript>
                 <div class="download download-dumb">
                     <h4>下載 Firefox 台灣版</h4>
@@ -80,7 +80,7 @@
                         </span>
                     </a>
                 </li>
-                <li class="os_linux">
+                <li class="os_linux os_linux_32">
                     <a class="download-link" href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.tar.bz2" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW">
                         <span class="download-content">
                             <strong class="download-title">Firefox 台灣版</strong>
