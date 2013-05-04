@@ -4,6 +4,10 @@
 {
     float: right;
 }
+#fxtw-download
+{
+    clear: both;
+}
 
 .download-button .unrecognized-download,.download-button .unsupported-download{
 	display:none
