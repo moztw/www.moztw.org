@@ -3,10 +3,11 @@
 	<title>Firefox 台灣版</title>
 	<meta name="description" content="比較 Firefox 台灣版以及其他版本">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://moztw.org/firefox/tw/">
-	<meta property="og:image" content="http://moztw.org/images/foxmosa-icon.gif">
+	<meta property="og:url" content="//moztw.org/firefox/tw/">
+	<meta property="og:image" content="//moztw.org/images/foxmosa-icon.gif">
 	<meta property="og:site_name" content="Firefox 台灣版">
 	<meta property="og:description" content="比較 Firefox 台灣版以及其他版本">
+    <link rel="stylesheet" href="//www-dev.allizom.org/media/css/responsive-min.css?build=7ae6d1f" />
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script>
     jQuery(function () {
@@ -49,8 +50,9 @@
                     <h4>下載 Firefox 台灣版</h4>
                     <ul>
                         <li><a href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" class="button-green">Windows</a></li>
-                        <li><a href="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW" class="button-green">Linux</a></li>
-                        <li><a href="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=osx&amp;lang=zh-TW" class="button-green">Mac OS X</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.tar.bz2" class="button-green">Linux (32位元)</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest-x86_64.tar.bz2" class="button-green">Linux (64位元)</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.dmg" class="button-green">Mac OS X</a></li>
                     </ul>
                 </div>
             </noscript>
@@ -59,13 +61,14 @@
                     <h4>下載 Firefox 台灣版</h4>
                     <ul>
                         <li><a href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" class="button-green">Windows</a></li>
-                        <li><a href="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW" class="button-green">Linux</a></li>
-                        <li><a href="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=osx&amp;lang=zh-TW" class="button-green">Mac OS X</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.tar.bz2" class="button-green">Linux (32位元)</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest-x86_64.tar.bz2" class="button-green">Linux (64位元)</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.dmg" class="button-green">Mac OS X</a></li>
                     </ul>
                 </div>
             </div>
             <p class="unsupported-download">
-                您的系統不符合執行 Firefox 的 <a href="/zh-TW/firefox/14.0b7/system-requirements/">最低需求</a>。
+                您的系統不符合執行 Firefox 的最低需求。
             </p>
             <ul role="presentation" class="download-list">
                 <li class="os_windows">
@@ -79,27 +82,27 @@
                     </a>
                 </li>
                 <li class="os_linux">
-                    <a class="download-link" href="/zh-TW/products/download.html?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW">
+                    <a class="download-link" href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.tar.bz2" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW">
                         <span class="download-content">
                             <strong class="download-title">Firefox 台灣版</strong>
                             <span class="download-subtitle">免費下載</span>
                             <span class="download-lang">正體中文</span>
-                            <span class="download-platform">Linux</span>
+                            <span class="download-platform">Linux (32位元)</span>
                         </span>
                     </a>
                 </li>
                 <li class="os_linux_64">
-                    <a class="download-link" href="/zh-TW/products/download.html?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW">
+                    <a class="download-link" href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest-x86_64.tar.bz2" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW">
                         <span class="download-content">
                             <strong class="download-title">Firefox 台灣版</strong>
                             <span class="download-subtitle">免費下載</span>
                             <span class="download-lang">正體中文</span>
-                            <span class="download-platform">Linux</span>
+                            <span class="download-platform">Linux (64位元)</span>
                         </span>
                     </a>
                 </li>
                 <li class="os_osx">
-                    <a class="download-link" href="/zh-TW/products/download.html?product=firefox-14.0b7&amp;os=osx&amp;lang=zh-TW" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=osx&amp;lang=zh-TW">
+                    <a class="download-link" href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.dmg" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=osx&amp;lang=zh-TW">
                         <span class="download-content">
                             <strong class="download-title">Firefox 台灣版</strong>
                             <span class="download-subtitle">免費下載</span>
@@ -110,9 +113,8 @@
                 </li>
             </ul>
             <small class="download-other os_linux os_osx os_windows">
-                <a href="/en-US/firefox/all.html">其他系統與語言</a> |
-                <a href="/en-US/firefox/notes">新鮮事</a> |
-                <a href="/en-US/legal/privacy/firefox.html">隱私權</a>
+                <a href="http://mozilla.com.tw/firefox/tw_beta/">Firefox 台灣版官方活動頁面</a> |
+                <a href="http://mozilla.com.tw/firefox/tw_features/">Firefox 台灣版官方功能介紹</a>
             </small>
         </div>
     </section>
@@ -266,7 +268,6 @@
                 <ul>
                     <li>如果您按下「安裝套件」卻無反應，請按下上方淡黃色訊息列之「允許」以便將 moztw.org 加入信任網站，再行按下「安裝套件」鈕。</li>
                     <li>Firefox 會對各套件檔案的網址分別進行確認，若點選套件較多則反應會稍慢，請耐心等候。</li>
-                    <!--li>此服務提供目前（2008/8/22）最新套件，所有套件皆由作者提供。請參閱相關訊息後再行安裝，並自負責任。</li-->
                 </ul>
             </div>
         </div>
