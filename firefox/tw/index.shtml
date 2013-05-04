@@ -12,7 +12,7 @@
     <script src="download.js"></script>
     <script>
         $(function(){
-            offerBestDownloadLink("download-button-desktop-tw");
+            offerBestDownloadLink("fxtw-download");
         });
     </script>
 <script type="text/javascript">
@@ -75,7 +75,7 @@
             </noscript>
             <div class="unrecognized-download">
                 <div class="download download-dumb">
-                    <h4>下載 Firefox 台灣版</h4>
+                    <h4>選擇 Firefox 台灣版下載</h4>
                     <ul>
                         <li><a href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" class="button-green">Windows</a></li>
                         <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.tar.bz2" class="button-green">Linux (32位元)</a></li>
@@ -129,21 +129,19 @@
                     </a>
                 </li>
             </ul>
-            <small class="download-other os_linux os_osx os_windows">
+            <small class="download-other os_linux os_osx os_windows unrecognized-download">
                 <a href="http://mozilla.com.tw/firefox/tw_beta/">Firefox 台灣版官方活動頁面</a> |
                 <a href="http://mozilla.com.tw/firefox/tw_features/">Firefox 台灣版官方功能介紹</a>
             </small>
         </div>
     </section>
     
+    <label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;">
+        <input id="hidden_desc" value="true" onclick="hidden_descript(this)" type="checkbox">進階選項：隱藏套件說明及相關連結
+    </label>
     <form name="select_and_install" onsubmit="doInstall(); return false;">
         <div id="mainContent">
             <div id="installList">
-                <div id="ex_intro">
-                    <label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;">
-                        <input id="hidden_desc" value="true" onclick="hidden_descript(this)" type="checkbox">進階選項：隱藏套件說明及相關連結
-                    </label>
-                </div>
                 <div id="ex_list">
                     <div class="extension">
                         <h3 id="fxtw-twhomepage">Firefox 首頁 0.1.7</h3>

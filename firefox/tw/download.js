@@ -38,50 +38,22 @@ function offerBestDownloadLink(tagId) {
         switch (gPlatform)
         {
             case PLATFORM_WINDOWS:
-                setDownloadListClass(parent, 'os_windows');
+                $(parent).addClass('windows');
                 break;
             case PLATFORM_LINUX:
-                setDownloadListClass(parent, 'os_linux');
+                $(parent).addClass('linux');
                 break;
             case PLATFORM_MACOSX:
-                setDownloadListClass(parent, 'os_osx');
+                $(parent).addClass('osx');
                 break;
             case PLATFORM_ANDROID:
-                setDownloadListClass(parent, 'os_android');
+                $(parent).addClass('android');
                 break;
             default:
                 // 留個清單讓使用者選吧
+                $(parent).addClass('unrecognized');
                 break;
         }
-    }
-}
-
-/* 處理下載按鈕 */
-
-function setDownloadListClass(parent, cssClass) {
-    if (parent) {
-        var lists = parent.getElementsByTagName('ul');
-        for (var i=0; i < lists.length; i++) {
-            if (lists[i].getAttribute('class') && lists[i].getAttribute('class').indexOf('home-download') != -1) {
-                lists[i].setAttribute('class', lists[i].getAttribute('class') + " " + cssClass);
-            }
-
-            // For IE
-            if (lists[i].getAttribute('className') && lists[i].getAttribute('className').indexOf('home-download') != -1) {
-                lists[i].setAttribute('className', lists[i].getAttribute('className') + " " + cssClass);
-            }
-        }
-    }
-}
-
-/* 處理下載連結 */
-
-function init_download(link)
-{
-    if(navigator.appVersion.indexOf('MSIE') != -1)
-    {
-        window.open(link, 'download_window', 'toolbar=0,location=no,directories=0,status=0,scrollbars=0,resizeable=0,width=1,height=1,top=0,left=0');
-        window.focus();
     }
 }
 

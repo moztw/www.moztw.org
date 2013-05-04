@@ -57,7 +57,7 @@
 }
 #fxtw-download header h3
 {
-    line-height: 73px;
+    line-height: 103px;
 }
 #fxtw-download #download-button-desktop-tw
 {
@@ -66,6 +66,11 @@
 #fxtw-download
 {
     text-align: right;
+}
+
+#fxtw-download div.unrecognized-download
+{
+    height: 56px;
 }
 
 .download-button .unrecognized-download,.download-button .unsupported-download{
@@ -349,11 +354,11 @@
 	padding-top:0
 }
 
-.download-button .os_linux,.download-button .os_windows,.download-button .os_osx,.download-button .os_android,.no-js .download-list,.other .download-list{
+.download-button .os_linux,.download-button .os_linux_64,.download-button .os_windows,.download-button .os_osx,.download-button .os_android,.no-js .download-list,.other .download-list,.download-button .unrecognized-download{
 	display:none!important
 }
 
-.linux .download-button .os_linux,.windows .download-button .os_windows,.osx .download-button .os_osx,.android .download-button .os_android,.download-button-mobile .os_android,.android .download-button-desktop .download-list,.android .download-button-desktop small.os_windows,.no-js .download-button-mobile .download-list,.other .download-button-mobile .download-list,.other .download-button small.os_windows{
+.linux .download-button .os_linux,.windows .download-button .os_windows,.osx .download-button .os_osx,.android .download-button .os_android,.download-button-mobile .os_android,.android .download-button-desktop .download-list,.android .download-button-desktop small.os_windows,.no-js .download-button-mobile .download-list,.other .download-button-mobile .download-list,.other .download-button small.os_windows,.unrecognized .download-button .unrecognized-download{
 	display:block!important
 }
 
