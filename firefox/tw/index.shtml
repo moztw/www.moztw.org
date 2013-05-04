@@ -136,12 +136,19 @@
         </div>
     </section>
     
-    <label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;">
+    <section id="tw-intro" class="contentboard">
+        <p>「Firefox 台灣版」是美商謀智台灣分公司（Mozilla Taiwan）所製作的客製化版本 Firefox，以一般版 Firefox 為基礎，透過以下 Mozilla Taiwan 公司製作的附加元件，加入各種便利使用者與商業合作面向的功能。</p>
+        <p>MozTW 社群成員在 2013 年 3 月 Firefox 台灣版公開 Beta 時，即下載並且進行分析，以下是台灣版各附加套件的功能說明，並提供個別下載。若您想要在原版的 Firefox 中使用台灣版的某些功能，可以選擇部分套件來安裝。</p>
+        <p>MozTW 社群長期以來負責維護 Firefox 與 Mozilla 產品正體中文版本的在地化，包含原始中文版 Firefox 的內建搜索引擎清單及預載的書籤項目。我們對於「Firefox 台灣版」所開發的客製化功能無所置喙。MozTW 社群將持續在 moztw.org 首頁提供原汁原味的 Firefox 正體中文一般版本下載。</p>
+        <p><strong>請注意：我們發現由 Mozilla Taiwan 所製作的 Firefox 台灣版當中包含的某些附加元件內含使用者行為追蹤相關程式，根據程式碼研判，Mozilla Taiwan 公司（台北）與 Mozilla Online（北京）將會針對某些安裝套件後新增加的功能進行行為追蹤。在以下套件的功能敘述中，將會特別標示出個別的行為追蹤狀態，請使用者斟酌使用。</strong></p>
+    </section>
+    
+    <!--label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;">
         <input id="hidden_desc" value="true" onclick="hidden_descript(this)" type="checkbox">進階選項：隱藏套件說明及相關連結
-    </label>
+    </label-->
     <form name="select_and_install" onsubmit="doInstall(); return false;">
         <div id="mainContent">
-            <div id="installList">
+            <div id="installList" class="contentboard">
                 <div id="ex_list">
                     <div class="extension">
                         <h3 id="fxtw-twhomepage">Firefox 首頁 0.1.7</h3>
@@ -310,5 +317,11 @@
         </div>
     </form>
     
-	<script src="main.js"></script>
+    <section class="contentboard">
+        <p><a href="http://mozilla.com.tw/firefox/tw_beta/">Firefox 台灣版</a> 系由 Mozilla Taiwan（美商謀智台灣分公司）製作，採用與一般版 Firefox 相同的 <a href="https://www.mozilla.org/MPL/2.0/">Mozilla Public License 2.0</a> 條款進行授權，而其內建之特製套件授權條款目前不明。</p>
+        <p>本頁所提供的「Firefox 台灣版下載」與各套件下載安裝連結，均直接連回 Mozilla Taiwan 網站，MozTW 社群僅因關注而義務進行分析並提供說明與下載，未儲存或暫存其安裝檔案，亦不對 Firefox 台灣版及各套件的功能負責。</p>
+        <p>如本頁各項連結因 Mozilla Taiwan 公司網站修改而失效，請協助至 <a href="https://groups.google.com/group/moztw-general">moztw-general 郵件群組</a> 回報，我們將會儘速修復。</p>
+    </section>
+    
+    <script src="main.js"></script>
 <!--#include virtual="/inc/new_footer.html" -->

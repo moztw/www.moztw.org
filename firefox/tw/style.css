@@ -1,20 +1,26 @@
 /* extensions */
 
-#installList
+.contentboard
 {
     background: radial-gradient(ellipse farthest-corner at center 45px , #F5F1E8 0px, white 100%);
-    padding: 20px 40px;
+    padding: 40px;
     margin-bottom: 40px;
     box-shadow: 0px 0px 0px 1px white inset;
     border-bottom: #DDD;
     color: #484848;
 }
 
+.contentboard p
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 #installList .extension
 {
     border-bottom: 1px dotted #D6D6D6;
-    padding-bottom: 13px;
-    margin-bottom: 26px;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 #installList .extension .install-options
