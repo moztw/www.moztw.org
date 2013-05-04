@@ -1,9 +1,63 @@
+/* extensions */
+
+#installList
+{
+    background: radial-gradient(ellipse farthest-corner at center 45px , #F5F1E8 0px, white 100%);
+    padding: 20px 40px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 0px 1px white inset;
+    border-bottom: #DDD;
+    color: #484848;
+}
+
+#installList .extension
+{
+    border-bottom: 1px dotted #D6D6D6;
+    padding-bottom: 13px;
+    margin-bottom: 26px;
+}
+
+#installList .extension .install-options
+{
+    text-align: right;
+}
+
+#mainContent .download
+{
+    /*text-align: right;*/
+}
+
+#mainContent .download h3
+{
+    line-height: 88px;
+    float: left;
+}
+
+#mainContent .download input
+{
+    float: right;
+    height: 55px;
+    width: 160px;
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+#mainContent .download .description
+{
+    clear: both;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
 /* download button */
 
 #fxtw-download header
 {
     float: left;
-    vertical-align: middle;
+}
+#fxtw-download header h3
+{
+    line-height: 73px;
 }
 #fxtw-download #download-button-desktop-tw
 {
@@ -133,7 +187,7 @@
 	background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#bfc7cd),color-stop(100%,#9ca3aa));
 	background-image:-webkit-linear-gradient(#bfc7cd,#9ca3aa);
 	background-image:-o-linear-gradient(#bfc7cd,#9ca3aa);
-	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfc7cd', endColorstr='#9ca3aa', GradientType=0)";
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfc7cd', endColorstr='#9ca3aa', GradientType=0)";
 	background-image:linear-gradient(#bfc7cd,#9ca3aa);
 	-webkit-box-shadow:0 1px 0 0 rgba(0,0,0,0.2),inset 0 -1px 0 0 rgba(0,0,0,0.3);
 	-moz-box-shadow:0 1px 0 0 rgba(0,0,0,0.2),inset 0 -1px 0 0 rgba(0,0,0,0.3);

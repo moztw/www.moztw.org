@@ -28,7 +28,7 @@ else
 
 var gPlatformUnsupported = /(Win(16|9[x58]|NT( [1234]| [^0-9]|[^ -]|$))|Windows ([MC]E|9[x58]|3\.1|4\.10|NT( [1234]| [^0-9]|[^ ]|$))|Windows_95)/.test(navigator.userAgent);
 
-/* 處理下載按鈕 */
+/* 處理偵測結果 */
 
 function offerBestDownloadLink(tagId) {
     var parent = document.getElementById(tagId);
@@ -52,6 +52,24 @@ function offerBestDownloadLink(tagId) {
             default:
                 // 留個清單讓使用者選吧
                 break;
+        }
+    }
+}
+
+/* 處理下載按鈕 */
+
+function setDownloadListClass(parent, cssClass) {
+    if (parent) {
+        var lists = parent.getElementsByTagName('ul');
+        for (var i=0; i < lists.length; i++) {
+            if (lists[i].getAttribute('class') && lists[i].getAttribute('class').indexOf('home-download') != -1) {
+                lists[i].setAttribute('class', lists[i].getAttribute('class') + " " + cssClass);
+            }
+
+            // For IE
+            if (lists[i].getAttribute('className') && lists[i].getAttribute('className').indexOf('home-download') != -1) {
+                lists[i].setAttribute('className', lists[i].getAttribute('className') + " " + cssClass);
+            }
         }
     }
 }
