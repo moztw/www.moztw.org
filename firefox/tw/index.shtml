@@ -7,7 +7,6 @@
 	<meta property="og:image" content="//moztw.org/images/foxmosa-icon.gif">
 	<meta property="og:site_name" content="Firefox 台灣版">
 	<meta property="og:description" content="比較 Firefox 台灣版以及其他版本">
-    <link rel="stylesheet" href="//www-dev.allizom.org/media/css/responsive-min.css?build=7ae6d1f" />
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script>
     jQuery(function () {
@@ -37,7 +36,7 @@
 
 	<hgroup id="main-feature">
 		<h1>Firefox 台灣版</h1>
-		<h2>比較 Firefox 台灣版以及其他版本</h2>
+		<h2>分析 Firefox 台灣版<br />比較其和一般版本的差異</h2>
 	</hgroup>
     
     <section id="fxtw-download" class="billboard">
