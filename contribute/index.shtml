@@ -241,6 +241,7 @@ $(function() {
             		<h2>說明、文件與影片翻譯</h2>
             		<p>翻譯與修訂 Mozilla 技術支援文件、Mozilla Links 正體中文版部落格、Mozilla 相關影片及 MDN 開發者社群技術文件，透過文件翻譯來協助使用者、傳播相關資訊、一同建立網頁開發文件庫。</p>
             		<a href="http://mozlinks-zh.blogspot.com/2012/02/mozilla-links.html"  onClick="_gaq.push(['_trackEvent', 'contribute', 'translate', 'MLinks-editor']);"><span class="button">MLinks 編輯機動隊</span></a>
+            		<a href="sumo/"><span class="button">參與SUMO專案</span></a>
             		<a href="https://support.mozilla.org/zh-TW/kb/localize-firefox-help" onClick="_gaq.push(['_trackEvent', 'contribute', 'translate', 'LocalizeFirefoxHelp']);"><span class="button">說明文件翻譯</span></a>
             		<br style="clear: both;">
             		<a href="https://groups.google.com/d/topic/moztw-general/92t-umaKqUw/discussion"  onClick="_gaq.push(['_trackEvent', 'contribute', 'translate', 'detail']);"><span class="button detail">詳細資訊 》</span></a>
@@ -355,7 +356,6 @@ $(function() {
 
     <h3>MozTW Lab 社群小聚</h3>
 	<div id="topic" class="clearfix">
-<!--    	    <img src="moztw-general.png" style="float: left; width: 100px; margin-right: 10px"></img>-->
         <p>MozTW Lab 社群小聚是每週交朋友、聊是非、互助研究的好所在。你可以至此聊聊 Web 界的八卦、找人幫你的作品給點意見、認識志同道合的夥伴等等。免事先報名，歡迎直接過來與大家聊聊！</p>
 		<a href="/events/moztw-lab"><span class="button detail">了解更多 》</span></a>
     </div>
