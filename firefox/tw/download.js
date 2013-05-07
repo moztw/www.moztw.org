@@ -46,9 +46,6 @@ function offerBestDownloadLink(tagId) {
             case PLATFORM_MACOSX:
                 $(parent).addClass('osx');
                 break;
-            case PLATFORM_ANDROID:
-                $(parent).addClass('android');
-                break;
             default:
                 // 留個清單讓使用者選吧
                 $(parent).addClass('unrecognized');

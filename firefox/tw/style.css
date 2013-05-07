@@ -360,11 +360,24 @@
 	padding-top:0
 }
 
-.download-button .os_linux,.download-button .os_linux_64,.download-button .os_windows,.download-button .os_osx,.download-button .os_android,.no-js .download-list,.other .download-list,.download-button .unrecognized-download{
+.download-button .os_linux,
+.download-button .os_linux_64,
+.download-button .os_windows,
+.download-button .os_osx,
+.download-button .unrecognized-download
+{
 	display:none!important
 }
 
-.linux .download-button .os_linux,.windows .download-button .os_windows,.osx .download-button .os_osx,.android .download-button .os_android,.download-button-mobile .os_android,.android .download-button-desktop .download-list,.android .download-button-desktop small.os_windows,.no-js .download-button-mobile .download-list,.other .download-button-mobile .download-list,.other .download-button small.os_windows,.unrecognized .download-button .unrecognized-download{
+.linux .download-button .os_linux
+{
+	display:inline-block!important;
+	margin-left:1em
+}
+.windows .download-button .os_windows,
+.osx .download-button .os_osx,
+.unrecognized .download-button .unrecognized-download
+{
 	display:block!important
 }
 
