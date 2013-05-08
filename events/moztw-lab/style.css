@@ -398,19 +398,14 @@ a.event-link.fallback-register-button {
 .nav {
 	list-style-type: none;
 	background-image: -webkit-linear-gradient(top, #ddd, #fff);
-	background-image: -webkit-linear-gradient(top, #ddd, #fff);
 	background-image:    -moz-linear-gradient(top, #ddd, #fff);
-	background-image:     -ms-linear-gradient(top, #ddd, #fff);
+	background-image:      -o-linear-gradient(top, #ddd, #fff);
 	background-image:         linear-gradient(top, #ddd, #fff);
 	background-color: #fff; 
-
-	border: 2px solid dimgray;
-	
+	border: 1.5px solid dimgray;
 	border-radius: 10px;
-
 	padding: 0px;
-	margin: 0px auto;
-
+	margin: 3em auto 0;
 	width: 10%;
 	min-width: 159px;
 	text-align: center;
@@ -427,13 +422,11 @@ a.event-link.fallback-register-button {
 .nav .sel {
 	background-image: -webkit-linear-gradient(top, silver, #ddd);
 	background-image:    -moz-linear-gradient(top, silver, #ddd);
-	background-image:     -ms-linear-gradient(top, silver, #ddd);
+	background-image:      -o-linear-gradient(top, silver, #ddd);
 	background-image:         linear-gradient(top, silver, #ddd);
 	background-color: #ddd; 
-
-	-webkit-box-shadow: 3px 3px 2px #999 inset;
-	-moz-box-shadow:    3px 3px 2px #999 inset;
-	box-shadow:         3px 3px 2px #999 inset;
+	-webkit-box-shadow: 1px 2px 3px #999 inset;
+	box-shadow:         1px 2px 3px #999 inset;
 	
 }
 
@@ -461,4 +454,8 @@ a.event-link.fallback-register-button {
 
 .nav a:hover {
 	background: none;
+}
+
+#twit iframe {
+    width: 100%;
 }

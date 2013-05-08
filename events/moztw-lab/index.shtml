@@ -43,8 +43,8 @@
 		<article id="photos">
 			  <h2>活動剪影</h2>
 			  <div class="content">
-				<a href="" class="left-btn"></a>
-				<a href="" class="right-btn"></a>
+				<a href="javascript:void(0)" class="left-btn"></a>
+				<a href="javascript:void(0)" class="right-btn"></a>
 				<ul>
 				</ul>
 			  </div>
@@ -60,7 +60,6 @@
               <li class="nv rb" id="keelung_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">基隆</a></li>
               <!-- add more places here, last button must have class 'rb' -->
             </ul>
-          <br>
           
           <div class="toggle_pad">
 
@@ -94,15 +93,15 @@
 
             <!-- More Labs… -->
           </div>
-          <div style="margin: 0px auto; text-align: center;">
-          <a class="twitter-timeline" href="https://twitter.com/search?q=%23moztw-lab" data-widget-id="332047548170780673">#moztw-lab に関するツイート</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</div>
+          <div id="twit" style="margin: 0px auto; text-align: center;">
+              <a class="twitter-timeline"  href="https://twitter.com/search?q=moztw+lab"  data-widget-id="332149668068859905">Tweets about "moztw lab"</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
       </article>
   
       <article id="host">
           <h2>來開 Lab！</h2>
-		<p>你也想在自己的所在地開一個定期的 MozTW Lab 嗎？請上 mailing list 呼朋引伴。</p>
+          <p>你也想在自己的所在地開一個定期的 MozTW Lab 嗎？請上 <a href="https://groups.google.com/group/moztw-general" target="_blank">MozTW-General</a> 郵件群組呼朋引伴。</p>
       </article>
       </div>
 
