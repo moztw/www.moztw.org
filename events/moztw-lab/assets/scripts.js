@@ -43,7 +43,7 @@ function toggleLabPages(sel) {
 
     place_id = sel.substring(0, sel.length - 8);
 
-    $('#'+place_id+'_lab').show();
+    $('#'+place_id+'_lab').fadeIn();
 
     if(! $('#'+'map_'+place_id).hasClass('leaflet-container'))
         makeMaps(lab_locs[place_id+'_lab']);

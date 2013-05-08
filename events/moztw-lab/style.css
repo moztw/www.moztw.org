@@ -397,11 +397,12 @@ a.event-link.fallback-register-button {
 
 .nav {
 	list-style-type: none;
-	background-image: -webkit-linear-gradient(top, silver, #ddd);
-	background-image:    -moz-linear-gradient(top, silver, #ddd);
-	background-image:     -ms-linear-gradient(top, silver, #ddd);
-	background-image:         linear-gradient(top, silver, #ddd);
-	background-color: #ddd; 
+	background-image: -webkit-linear-gradient(top, #ddd, #fff);
+	background-image: -webkit-linear-gradient(top, #ddd, #fff);
+	background-image:    -moz-linear-gradient(top, #ddd, #fff);
+	background-image:     -ms-linear-gradient(top, #ddd, #fff);
+	background-image:         linear-gradient(top, #ddd, #fff);
+	background-color: #fff; 
 
 	border: 2px solid dimgray;
 	
@@ -424,24 +425,25 @@ a.event-link.fallback-register-button {
 
 
 .nav .sel {
-	background-image: -webkit-linear-gradient(top, #ddd, #fff);
-	background-image: -webkit-linear-gradient(top, #ddd, #fff);
-	background-image:    -moz-linear-gradient(top, #ddd, #fff);
-	background-image:     -ms-linear-gradient(top, #ddd, #fff);
-	background-image:         linear-gradient(top, #ddd, #fff);
-	background-color: #fff; 
-	
-	border-radius: 10px;
+	background-image: -webkit-linear-gradient(top, silver, #ddd);
+	background-image:    -moz-linear-gradient(top, silver, #ddd);
+	background-image:     -ms-linear-gradient(top, silver, #ddd);
+	background-image:         linear-gradient(top, silver, #ddd);
+	background-color: #ddd; 
+
+	-webkit-box-shadow: 3px 3px 2px #999 inset;
+	-moz-box-shadow:    3px 3px 2px #999 inset;
+	box-shadow:         3px 3px 2px #999 inset;
 	
 }
 
-.nav .rb a, .nav .rb .sel a {
+.nav .rb , .nav .rb a, .nav .rb .sel a {
 	border-right: none !important;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
 
-.nav .lb a, .nav .lb .sel a {
+.nav .lb, .nav .lb a, .nav .lb .sel a {
 	border-left: none !important;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
