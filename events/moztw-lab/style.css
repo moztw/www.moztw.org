@@ -458,3 +458,7 @@ a.event-link.fallback-register-button {
 	padding: 5px 25px; 
 
 }
+
+.nav a:hover {
+	background: none;
+}

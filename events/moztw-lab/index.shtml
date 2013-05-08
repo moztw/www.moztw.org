@@ -52,15 +52,19 @@
 
       <article id="location">
           <h2>那裡有 MozTW Lab？</h2>
-          <p>這位客官你運氣真好，台北跟基隆剛好都有一個：<br>（場地資訊可能隨時會變動，請記得注意一下 Twitter 資訊 : P）</p>
+          <p>這位客官你運氣真好，台北跟基隆剛好都有一個：</p>
+          <p>（場地資訊可能隨時會變動，請記得注意一下 Twitter 資訊 : P）</p>
 
             <ul class="nav">
               <li class="nv lb sel" id="taipei_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">台北</a></li>
               <li class="nv rb" id="keelung_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">基隆</a></li>
+              <!-- add more places here, last button must have class 'rb' -->
             </ul>
           <br>
           
           <div class="toggle_pad">
+
+            <!-- Taipei Lab Info -->
             <div class="details" id="taipei_lab">
               <ul>
               <li>每週五晚間 19:30-22:00</li>
@@ -73,6 +77,8 @@
                 <div class="map" id="map_taipei"></div>
               </div>
             </div>
+
+            <!-- Keelung Lab Info -->
             <div class="details" id="keelung_lab" style="display: none;">
               <ul>
               <li>每週三晚間 19:00-21:00</li>
@@ -85,6 +91,8 @@
                 <div class="map" id="map_keelung"></div>
               </div>
             </div>
+
+            <!-- More Labs… -->
           </div>
           <div style="margin: 0px auto; text-align: center;">
           <a class="twitter-timeline" href="https://twitter.com/search?q=%23moztw-lab" data-widget-id="332047548170780673">#moztw-lab に関するツイート</a>
