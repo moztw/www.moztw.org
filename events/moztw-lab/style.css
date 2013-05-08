@@ -425,7 +425,12 @@ a.event-link.fallback-register-button {
 
 .nav .sel {
 	background-image: -webkit-linear-gradient(top, #ddd, #fff);
+	background-image: -webkit-linear-gradient(top, #ddd, #fff);
+	background-image:    -moz-linear-gradient(top, #ddd, #fff);
+	background-image:     -ms-linear-gradient(top, #ddd, #fff);
+	background-image:         linear-gradient(top, #ddd, #fff);
 	background-color: #fff; 
+	
 	border-radius: 10px;
 	
 }
