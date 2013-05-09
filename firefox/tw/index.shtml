@@ -11,6 +11,39 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script src="download.js"></script>
     <script>
+        function install_extensions(installObj)
+        {
+            try
+            {
+                InstallTrigger.install(installObj);
+                return true;
+            }
+            catch(e)
+            {
+                window.alert('無法安裝，您需要使用 Firefox 或其他 Gecko 系列瀏覽器。');
+                return false;
+            }
+        }
+        
+        function doInstall()
+        {
+            var installObj = {}
+            var boxObjs = document.getElementById("installList").getElementsByTagName("input");
+            for(i = 0; i < boxObjs.length; i++)
+            {
+                if(boxObjs[i].checked)
+                {
+                    installObj[boxObjs[i].name] = boxObjs[i].value;
+                }
+            }
+            install_extensions(installObj);
+        }
+        
+        function hidden_descript(obj)
+        {
+            $("link[rel~='stylesheet'][title='隱藏套件說明']")[0].disabled = !obj.checked;
+        }
+        
         $(function(){
             offerBestDownloadLink("fxtw-download");
             
@@ -20,54 +53,12 @@
                 
                 installObj[theChkBox.name] = theChkBox.value;
                 
-                try
-                {
-                    InstallTrigger.install(installObj);
-                }
-                catch(e)
-                {
-                    window.alert('無法安裝，您需要使用 Firefox 或其他 Gecko 系列瀏覽器。');
-                }
+                install_extensions(installObj);
                 
                 return false;
             });
         });
     </script>
-<script type="text/javascript">
-    function doInstall()
-    {
-        var installObj = {}
-        var boxObjs = document.getElementById("installList").getElementsByTagName("input");
-        for(i = 0; i < boxObjs.length; i++)
-        {
-            if(boxObjs[i].checked)
-            {
-                installObj[boxObjs[i].name] = boxObjs[i].value;
-            }
-        }
-        try
-        {
-            InstallTrigger.install(installObj);
-        }
-        catch(e)
-        {
-            window.alert('無法安裝，您需要使用 Firefox 或其他 Gecko 系列瀏覽器。');
-        }
-    }
-    
-    function hidden_descript(obj)
-    {
-        /* Won't work in IE */
-        var i, a;
-        for(i = 0; (a = document.getElementsByTagName('link')[i]); i++)
-        {
-            if(a.getAttribute("rel").indexOf("style") != -1 && a.getAttribute("title") == "隱藏套件說明")
-            {
-                a.disabled = !obj.checked;
-            }
-        }
-    }
-</script>
 <!--#include virtual="/inc/new_header.html" -->
 
     <hgroup id="main-feature">
@@ -158,9 +149,9 @@
         <p><strong>請注意：我們發現由 Mozilla Taiwan 所製作的 Firefox 台灣版當中包含的某些附加元件內含使用者行為追蹤相關程式，根據程式碼研判，Mozilla Taiwan 公司（台北）與 Mozilla Online（北京）將會針對某些安裝套件後新增加的功能進行行為追蹤。在以下套件的功能敘述中，將會特別標示出個別的行為追蹤狀態，請使用者斟酌使用。</strong></p>
     </section>
     
-    <!--label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;">
+    <label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block;text-align:right;color:gray;display:none">
         <input id="hidden_desc" value="true" onclick="hidden_descript(this)" type="checkbox">進階選項：隱藏套件說明及相關連結
-    </label-->
+    </label>
     <form name="select_and_install" onsubmit="doInstall(); return false;">
         <div id="mainContent">
             <div id="installList" class="contentboard">
@@ -175,23 +166,12 @@
                             </div>
                             <blockquote>Firefox 訂製首頁，包含最近瀏覽頁面、最常瀏覽頁面及新分頁等</blockquote>
                             <div class="extension-discription">
-                                <div class="extension-pic float-right">
-                                    <img alt="Myfirefox 全新首頁" src="http://mozilla.com.tw/assets/css/img/tw_beta/1-1.png" />
-                                </div>
                                 <p>特別為台灣設計的 Firefox 正體中文版瀏覽器，內建好用附加元件提供更多新功能，以提升使用者體驗。MyFirefox 與國內知名論壇(WIRED, Inside, 癮科技, TechOrange, T客邦, 謀智台客) 合作，每日即時提供您最新科技新知，myFirefox 首頁更兼具入口網站特性，搜尋、天氣、地圖及附加元件介紹小工具等一應俱全，讓您一開瀏覽器便能輕鬆掌握大小事！</p>
                             </div>
                             <div class="extension-discription">
                                 <p>Firefox在地化功能提供多樣化分頁選擇。透過新增設的多樣化分頁，使用者可以依照個人使用習慣去設定新分頁開啟的內容，包括熱門網站、推薦網站、熱門造訪頁面。使用者也可以自訂個人化的熱門網站，開啟書籤將己加入書籤的連結拖到要放的九宮格內，或在推薦網站裡，透過貼心的分類，快速找到並瀏覽您感興趣的網站或論壇。</p>
-                                <div class="extension-pic">
-                                    <img alt="新分頁快速入口" src="http://mozilla.com.tw/assets/css/img/tw_beta/1.png" />
-                                    <img alt="新分頁快速入口" src="http://mozilla.com.tw/assets/css/img/tw_beta/2.png" />
-                                    <img alt="新分頁快速入口" src="http://mozilla.com.tw/assets/css/img/tw_beta/4.png" />
-                                </div>
                             </div>
                             <div class="extension-discription">
-                                <div class="extension-pic float-left">
-                                    <img alt="myShelf" src="http://mozilla.com.tw/assets/css/img/tw_beta/1-2.png" />
-                                </div>
                                 <p>申請 Persona 帳號或 Facebook 登入 MyFirefox ,您就擁有專屬的收藏專頁，可以將你喜愛或暫時無法閱讀的文章加入 myShelf, 方便您日後尋找或閱讀並隨時與朋友分享。</p>
                             </div>
                         </div>
@@ -207,9 +187,6 @@
                             </div>
                             <blockquote>快速啟動常用軟體</blockquote>
                             <div class="extension-discription">
-                                <div class="extension-pic float-right">
-                                    <img alt="個人化 Firefox 捷徑" src="http://mozilla.com.tw/assets/css/img/tw_beta/5.png" />
-                                </div>
                                 <p>Firefox 捷徑在原來基礎上做了改進，使它更直覺更符合使用者習慣。通過瀏覽器下方的 Firefox 捷徑小按鈕，可以快速開啓瀏覽網頁時的系統工具，例如我的電腦、小畫家、計算機及記事本…等系統功能。使用者還可以透過網頁截圖功能，輕鬆將完整網頁存成一個圖檔。如果這些還不能滿足你的需求，那麼就自己動手，利用個人化捷徑，設置需要的功能吧。 </p>
                             </div>
                         </div>
@@ -254,36 +231,24 @@
                                     <li>
                                         意見回饋
                                         <div class="extension-discription">
-                                            <div class="extension-pic float-right">
-                                                <img alt="意見回饋" src="http://mozilla.com.tw/assets/css/img/tw_beta/7.png" />
-                                            </div>
                                             <p>輕鬆點擊即可將使用 Firefox 瀏覽器所遇到的問題或建議，回應讓我們知道，請幫助我們做出更符合使用者需求的 Firefox 瀏覽器。</p>
                                         </div>
                                     </li>
                                     <li>
                                         隱私瀏覽模式
                                         <div class="extension-discription">
-                                            <div class="extension-pic float-right">
-                                                <img alt="隱私瀏覽模式" src="http://mozilla.com.tw/assets/css/img/tw_beta/8.png" />
-                                            </div>
                                             <p>開啟隱私瀏覽功能，能讓您在瀏覽網際網路時，不會被其他使用您電腦的使用者觀看或接觸到您曾造訪過的網站與頁面的所有資料。</p>
                                         </div>
                                     </li>
                                     <li>
                                         網站安全標誌 （綠色安全 / 紅色危險）
                                         <div class="extension-discription">
-                                            <div class="extension-pic float-right">
-                                                <img alt="網站安全標誌 （綠色安全 / 紅色危險）" src="http://mozilla.com.tw/assets/css/img/tw_beta/9.png" />
-                                            </div>
                                             <p>Firefox瀏覽器幫您偵測目前所瀏覽的網站是否安全，隨時保護您安全上網</p>
                                         </div>
                                     </li>
                                     <li>
                                         佈景主題
                                         <div class="extension-discription">
-                                            <div class="extension-pic float-right">
-                                                <img alt="佈景主題" src="http://mozilla.com.tw/assets/css/img/tw_beta/10.png" />
-                                            </div>
                                             <p>你可以在任何時候，按照你的心情、喜好，甚至今天的天氣給你的瀏覽器換衣服！</p>
                                         </div>
                                     </li>
@@ -314,9 +279,6 @@
                             </div>
                             <blockquote>在目前開啟的分頁標籤右側開啟新分頁，雙擊關閉分頁。並在右側添加新分頁按钮。並可設置在新分頁打開URL和搜尋结果</blockquote>
                             <div class="extension-discription">
-                                <div class="extension-pic float-left">
-                                    <img alt="分頁管理器" src="http://mozilla.com.tw/assets/css/img/tw_beta/6.png" />
-                                </div>
                                 <p>對分頁做最精準的管理。使用者可以根據自己的使用習慣設定分頁的開啟關閉方式。例如：點擊網頁連結或輸入網址時，可自訂想要另開新分頁或是直接在目前的分頁開啟。若需要更精準的分頁管理，同樣在瀏覽器右下角，直接點選分頁管理器，使用最下方的進階設定功能進行設定。</p>
                             </div>
                         </div>

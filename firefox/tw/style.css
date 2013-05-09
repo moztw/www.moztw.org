@@ -83,9 +83,15 @@
     margin-right: 3em;
 }
 
-#mainContent .download
+.extension img.floatLeft
 {
-    /*text-align: right;*/
+    float: left;
+    margin: 15px 15px 15px 0;
+}
+.extension img.floatRight
+{
+    float: right;
+    margin: 15px 0 15px 15px;
 }
 
 #mainContent .download h3
