@@ -1,5 +1,6 @@
 <!--#include virtual="/inc/new_meta.html" -->
     <link href="style.css" rel="stylesheet" />
+    <link href="download-button.css" rel="stylesheet" />
     <link title="隱藏套件說明" href="hidden-description.css" type="text/css" rel="alternate stylesheet" />
     <title>Firefox 台灣版</title>
     <meta name="description" content="比較 Firefox 台灣版以及其他版本">
@@ -145,7 +146,7 @@
     <section id="tw-intro" class="contentboard">
         <p>「Firefox 台灣版」是美商謀智台灣分公司（Mozilla Taiwan）所製作的客製化版本 Firefox，以一般版 Firefox 為基礎，透過以下 Mozilla Taiwan 公司製作的附加元件，加入各種便利使用者與商業合作面向的功能。</p>
         <p>MozTW 社群成員在 2013 年 3 月 Firefox 台灣版公開 Beta 時，即下載並且進行分析，以下是台灣版各附加套件的功能說明，並提供個別下載。若您想要在原版的 Firefox 中使用台灣版的某些功能，可以選擇部分套件來安裝。</p>
-        <p>MozTW 社群長期以來負責維護 Firefox 與 Mozilla 產品正體中文版本的在地化，包含原始中文版 Firefox 的內建搜索引擎清單及預載的書籤項目。我們對於「Firefox 台灣版」所開發的客製化功能無所置喙。MozTW 社群將持續在 moztw.org 首頁提供原汁原味的 Firefox 正體中文一般版本下載。</p>
+        <p>MozTW 社群長期以來負責維護 Firefox 與 Mozilla 產品正體中文版本的在地化，包含原始中文版 Firefox 的內建搜索引擎清單及預載的書籤項目。我們對於「Firefox 台灣版」所開發的客製化功能無所置喙。MozTW 社群將持續在 moztw.org 首頁提供美國原廠的 Firefox 正體中文版本下載。</p>
         <p><strong>請注意：我們發現由 Mozilla Taiwan 所製作的 Firefox 台灣版當中包含的某些附加元件內含使用者行為追蹤相關程式，根據程式碼研判，Mozilla Taiwan 公司（台北）與 Mozilla Online（北京）將會針對某些安裝套件後新增加的功能進行行為追蹤。在以下套件的功能敘述中，將會特別標示出個別的行為追蹤狀態，請使用者斟酌使用。</strong></p>
     </section>
     
@@ -156,143 +157,163 @@
         <div id="mainContent">
             <div id="installList" class="contentboard">
                 <div id="ex_list">
-                    <div class="extension">
-                        <img class="extension-icon" alt="Firefox 首頁" src="icons/default-64.png" />
-                        <h3 id="fxtw-twhomepage">Firefox 首頁 0.1.7</h3>
-                        <div class="extension-info">
-                            <div class="install-options">
-                                <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 首頁" value="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.1.7.xpi" type="checkbox">列入安裝清單</label> |
-                                <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.1.7.xpi">+立即安裝</a>
+                    <div class="extension-category" id="extension-must-install">
+                        <h3>台灣版必載附加元件</h3>
+                        <div class="extension">
+                            <img class="extension-icon" alt="Firefox 首頁" src="icons/default-64.png" />
+                            <h4 id="fxtw-twhomepage">Firefox 首頁 0.1.7</h4>
+                            <div class="extension-info">
+                                <div class="install-options">
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 首頁" value="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.1.7.xpi" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.1.7.xpi">+立即安裝</a>
+                                </div>
+                                <blockquote>Firefox 訂製首頁，包含最近瀏覽頁面、最常瀏覽頁面及新分頁等</blockquote>
+                                <div class="extension-discription">
+                                    <p>特別為台灣設計的 Firefox 正體中文版瀏覽器，內建好用附加元件提供更多新功能，以提升使用者體驗。MyFirefox 與國內知名論壇(WIRED, Inside, 癮科技, TechOrange, T客邦, 謀智台客) 合作，每日即時提供您最新科技新知，myFirefox 首頁更兼具入口網站特性，搜尋、天氣、地圖及附加元件介紹小工具等一應俱全，讓您一開瀏覽器便能輕鬆掌握大小事！</p>
+                                    <p>Firefox在地化功能提供多樣化分頁選擇。透過新增設的多樣化分頁，使用者可以依照個人使用習慣去設定新分頁開啟的內容，包括熱門網站、推薦網站、熱門造訪頁面。使用者也可以自訂個人化的熱門網站，開啟書籤將己加入書籤的連結拖到要放的九宮格內，或在推薦網站裡，透過貼心的分類，快速找到並瀏覽您感興趣的網站或論壇。</p>
+                                    <p>申請 Persona 帳號或 Facebook 登入 MyFirefox ,您就擁有專屬的收藏專頁，可以將你喜愛或暫時無法閱讀的文章加入 myShelf, 方便您日後尋找或閱讀並隨時與朋友分享。</p>
+                                </div>
                             </div>
-                            <blockquote>Firefox 訂製首頁，包含最近瀏覽頁面、最常瀏覽頁面及新分頁等</blockquote>
-                            <div class="extension-discription">
-                                <p>特別為台灣設計的 Firefox 正體中文版瀏覽器，內建好用附加元件提供更多新功能，以提升使用者體驗。MyFirefox 與國內知名論壇(WIRED, Inside, 癮科技, TechOrange, T客邦, 謀智台客) 合作，每日即時提供您最新科技新知，myFirefox 首頁更兼具入口網站特性，搜尋、天氣、地圖及附加元件介紹小工具等一應俱全，讓您一開瀏覽器便能輕鬆掌握大小事！</p>
-                            </div>
-                            <div class="extension-discription">
-                                <p>Firefox在地化功能提供多樣化分頁選擇。透過新增設的多樣化分頁，使用者可以依照個人使用習慣去設定新分頁開啟的內容，包括熱門網站、推薦網站、熱門造訪頁面。使用者也可以自訂個人化的熱門網站，開啟書籤將己加入書籤的連結拖到要放的九宮格內，或在推薦網站裡，透過貼心的分類，快速找到並瀏覽您感興趣的網站或論壇。</p>
-                            </div>
-                            <div class="extension-discription">
-                                <p>申請 Persona 帳號或 Facebook 登入 MyFirefox ,您就擁有專屬的收藏專頁，可以將你喜愛或暫時無法閱讀的文章加入 myShelf, 方便您日後尋找或閱讀並隨時與朋友分享。</p>
+                        </div>
+                        
+                        <div class="extension">
+                            <img class="extension-icon" alt="附加元件管理器" src="icons/default-64.png" />
+                            <h4 id="fxtw-tpmanager">附加元件管理器 0.1.3</h4>	
+                            <div class="extension-info">
+                                <div class="install-options">
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="附加元件管理器" value="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.1.3.xpi" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.1.3.xpi">+立即安裝</a>
+                                </div>
+                                <blockquote>用來管理Firefox 的附加元件工具。</blockquote>
+                                <div class="extension-discription">
+                                </div>
                             </div>
                         </div>
                     </div>
                     
-                    <div class="extension">
-                        <img class="extension-icon" alt="Firefox 捷徑" src="icons/quicklaunch-0.12.6.png" />
-                        <h3 id="fxtw-quicklaunch">Firefox 捷徑 0.12.6</h3>
-                        <div class="extension-info">
-                            <div class="install-options">
-                                <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 捷徑" value="https://addons.myfirefox.com.tw/addons/quicklaunch/quicklaunch-0.12.6.xpi" type="checkbox">列入安裝清單</label> |
-                                <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/quicklaunch/quicklaunch-0.12.6.xpi">+立即安裝</a>
-                            </div>
-                            <blockquote>快速啟動常用軟體</blockquote>
-                            <div class="extension-discription">
-                                <p>Firefox 捷徑在原來基礎上做了改進，使它更直覺更符合使用者習慣。通過瀏覽器下方的 Firefox 捷徑小按鈕，可以快速開啓瀏覽網頁時的系統工具，例如我的電腦、小畫家、計算機及記事本…等系統功能。使用者還可以透過網頁截圖功能，輕鬆將完整網頁存成一個圖檔。如果這些還不能滿足你的需求，那麼就自己動手，利用個人化捷徑，設置需要的功能吧。 </p>
+                    <div class="extension-category" id="extension-recommand">
+                        <h3>推薦附加元件</h3>
+                        <div class="extension">
+                            <img class="extension-icon" alt="Firefox 捷徑" src="icons/quicklaunch-0.12.6.png" />
+                            <h4 id="fxtw-quicklaunch">Firefox 捷徑 0.12.6</h4>
+                            <div class="extension-info">
+                                <div class="install-options">
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 捷徑" value="https://addons.myfirefox.com.tw/addons/quicklaunch/quicklaunch-0.12.6.xpi" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/quicklaunch/quicklaunch-0.12.6.xpi">+立即安裝</a>
+                                </div>
+                                <blockquote>快速啟動常用軟體</blockquote>
+                                <div class="extension-discription">
+                                    <p>Firefox 捷徑在原來基礎上做了改進，使它更直覺更符合使用者習慣。通過瀏覽器下方的 Firefox 捷徑小按鈕，可以快速開啓瀏覽網頁時的系統工具，例如我的電腦、小畫家、計算機及記事本…等系統功能。使用者還可以透過網頁截圖功能，輕鬆將完整網頁存成一個圖檔。如果這些還不能滿足你的需求，那麼就自己動手，利用個人化捷徑，設置需要的功能吧。 </p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="extension">
-                        <img alt="快速縮放" src="icons/zoompanel-1.1.3.png" />
-                        <h3 id="fxtw-zoompanel">快速縮放 1.1.3</h3>
-                        <div class="extension-info">
-                            <div class="install-options">
-                                <label title="點選此處，將此套件列入安裝清單。"><input name="快速縮放" value="https://addons.myfirefox.com.tw/addons/zoompanel/zoompanel-1.1.3.xpi" type="checkbox">列入安裝清單</label> |
-                                <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/zoompanel/zoompanel-1.1.3.xpi">+立即安裝</a>
-                            </div>
-                            <blockquote>在狀態欄上使用快速縮放功能</blockquote>
-                        </div>
-                    </div>
-                    
-                    <div class="extension">
-                        <img class="extension-icon" alt="字體設定" src="icons/fontsetter-0.14.3.png" />
-                        <h3 id="fxtw-fontsetter">字體設定 0.14.3</h3>
-                        <div class="extension-info">
-                            <div class="install-options">
-                                <label title="點選此處，將此套件列入安裝清單。"><input name="字體設定" value="https://addons.myfirefox.com.tw/addons/fontsetter/fontsetter-0.14.3.xpi" type="checkbox">列入安裝清單</label> |
-                                <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/fontsetter/fontsetter-0.14.3.xpi">+立即安裝</a>
-                            </div>
-                            <blockquote>一鍵切換目錄與網頁內容的字體</blockquote>
-                        </div>
-                    </div>
-                    
-                    <div class="extension">
-                        <img class="extension-icon" alt="台灣版工具集" src="icons/default-64.png" />
-                        <div class="extension-info">
-                        <h3 id="fxtw-twimprove">台灣版工具集 0.1.7</h3>
-                            <div class="install-options">
-                                <label title="點選此處，將此套件列入安裝清單。"><input name="台灣版工具集" value="https://addons.myfirefox.com.tw/addons/twimprove/twimprove-0.1.7.xpi" type="checkbox">列入安裝清單</label> |
-                                <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twimprove/twimprove-0.1.7.xpi">+立即安裝</a>
-                            </div>
-                            <blockquote>提升使用者體驗</blockquote>
-                            <div class="extension-discription">
-                                <p>Firefox在地化功能在瀏覽器介面上直接增加了以下 Firefox 常用功能，讓使用者快速便利地使用熟悉的 Firefox 功能。</p>
-                                <ul>
-                                    <li>
-                                        意見回饋
-                                        <div class="extension-discription">
+                        
+                        <div class="extension">
+                            <img class="extension-icon" alt="台灣版工具集" src="icons/default-64.png" />
+                            <h4 id="fxtw-twimprove">台灣版工具集 0.1.7</h4>
+                            <div class="extension-info">
+                                <div class="install-options">
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="台灣版工具集" value="https://addons.myfirefox.com.tw/addons/twimprove/twimprove-0.1.7.xpi" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twimprove/twimprove-0.1.7.xpi">+立即安裝</a>
+                                </div>
+                                <blockquote>提升使用者體驗</blockquote>
+                                <div class="extension-discription">
+                                    <p>Firefox在地化功能在瀏覽器介面上直接增加了以下 Firefox 常用功能，讓使用者快速便利地使用熟悉的 Firefox 功能。</p>
+                                    <ul>
+                                        <li>
+                                            意見回饋
                                             <p>輕鬆點擊即可將使用 Firefox 瀏覽器所遇到的問題或建議，回應讓我們知道，請幫助我們做出更符合使用者需求的 Firefox 瀏覽器。</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        隱私瀏覽模式
-                                        <div class="extension-discription">
+                                        </li>
+                                        <li>
+                                            隱私瀏覽模式
                                             <p>開啟隱私瀏覽功能，能讓您在瀏覽網際網路時，不會被其他使用您電腦的使用者觀看或接觸到您曾造訪過的網站與頁面的所有資料。</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        網站安全標誌 （綠色安全 / 紅色危險）
-                                        <div class="extension-discription">
+                                        </li>
+                                        <li>
+                                            網站安全標誌 （綠色安全 / 紅色危險）
                                             <p>Firefox瀏覽器幫您偵測目前所瀏覽的網站是否安全，隨時保護您安全上網</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        佈景主題
-                                        <div class="extension-discription">
+                                        </li>
+                                        <li>
+                                            佈景主題
                                             <p>你可以在任何時候，按照你的心情、喜好，甚至今天的天氣給你的瀏覽器換衣服！</p>
-                                        </div>
-                                    </li>
-                                </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="extension">
+                            <img class="extension-icon" alt="分頁管理器" src="icons/default-64.png" />
+                            <h4 id="fxtw-tabimprovelite">分頁管理器 1.4.6</h4>
+                            <div class="extension-info">
+                                <div class="install-options">
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="分頁管理器" value="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-1.4.6.xpi" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-1.4.6.xpi">+立即安裝</a>
+                                </div>
+                                <blockquote>在目前開啟的分頁標籤右側開啟新分頁，雙擊關閉分頁。並在右側添加新分頁按钮。並可設置在新分頁打開URL和搜尋结果</blockquote>
+                                <div class="extension-discription">
+                                    <p>對分頁做最精準的管理。使用者可以根據自己的使用習慣設定分頁的開啟關閉方式。例如：點擊網頁連結或輸入網址時，可自訂想要另開新分頁或是直接在目前的分頁開啟。若需要更精準的分頁管理，同樣在瀏覽器右下角，直接點選分頁管理器，使用最下方的進階設定功能進行設定。</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="extension">
+                            <img class="extension-icon" alt="網頁截圖" src="icons/default-64.png" />
+                            <h4 id="fxtw-tabimprovelite">網頁截圖 0.2.0</h4>
+                            <div class="extension-info">
+                                <div class="install-options">
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="分頁管理器" value="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-1.4.6.xpi" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-1.4.6.xpi">+立即安裝</a>
+                                </div>
+                                <blockquote>在目前開啟的分頁標籤右側開啟新分頁，雙擊關閉分頁。並在右側添加新分頁按钮。並可設置在新分頁打開URL和搜尋结果</blockquote>
+                                <div class="extension-discription">
+                                    <p>對分頁做最精準的管理。使用者可以根據自己的使用習慣設定分頁的開啟關閉方式。例如：點擊網頁連結或輸入網址時，可自訂想要另開新分頁或是直接在目前的分頁開啟。若需要更精準的分頁管理，同樣在瀏覽器右下角，直接點選分頁管理器，使用最下方的進階設定功能進行設定。</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                     
-                    <div class="extension">
-                        <img class="extension-icon" alt="附加元件管理器" src="icons/default-64.png" />
-                        <h3 id="fxtw-tpmanager">附加元件管理器 0.1.3</h3>	
-                        <div class="extension-info">
-                            <div class="install-options">
-                                <label title="點選此處，將此套件列入安裝清單。"><input name="附加元件管理器" value="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.1.3.xpi" type="checkbox">列入安裝清單</label> |
-                                <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.1.3.xpi">+立即安裝</a>
-                            </div>
-                            <blockquote>用來管理Firefox 的附加元件工具。</blockquote>
-                        </div>
-                    </div>
-                    
-                    <div class="extension">
-                        <img class="extension-icon" alt="分頁管理器" src="icons/default-64.png" />
-                        <h3 id="fxtw-tabimprovelite">分頁管理器 1.4.6</h3>
-                        <div class="extension-info">
-                            <div class="install-options">
-                                <label title="點選此處，將此套件列入安裝清單。"><input name="分頁管理器" value="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-1.4.6.xpi" type="checkbox">列入安裝清單</label> |
-                                <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-1.4.6.xpi">+立即安裝</a>
-                            </div>
-                            <blockquote>在目前開啟的分頁標籤右側開啟新分頁，雙擊關閉分頁。並在右側添加新分頁按钮。並可設置在新分頁打開URL和搜尋结果</blockquote>
-                            <div class="extension-discription">
-                                <p>對分頁做最精準的管理。使用者可以根據自己的使用習慣設定分頁的開啟關閉方式。例如：點擊網頁連結或輸入網址時，可自訂想要另開新分頁或是直接在目前的分頁開啟。若需要更精準的分頁管理，同樣在瀏覽器右下角，直接點選分頁管理器，使用最下方的進階設定功能進行設定。</p>
+                    <div class="extension-category" id="extension-custom">
+                        <h3>自選附加元件</h3>
+                        <div class="extension">
+                            <img class="extension-icon" alt="字體設定" src="icons/fontsetter-0.14.3.png" />
+                            <h4 id="fxtw-fontsetter">字體設定 0.14.3</h4>
+                            <div class="extension-info">
+                                <div class="install-options">
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="字體設定" value="https://addons.myfirefox.com.tw/addons/fontsetter/fontsetter-0.14.3.xpi" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/fontsetter/fontsetter-0.14.3.xpi">+立即安裝</a>
+                                </div>
+                                <blockquote>一鍵切換目錄與網頁內容的字體</blockquote>
+                                <div class="extension-discription">
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    
-                    <div class="extension">
-                        <img class="extension-icon" alt="佈景主題" src="icons/personas-2.0.3.png" />
-                        <h3 id="fxtw-personas">佈景主題 2.0.3</h3>	
-                        <div class="extension-info">
-                            <div class="install-options">
-                                <label title="點選此處，將此套件列入安裝清單。"><input name="佈景主題" value="https://addons.myfirefox.com.tw/addons/personas/personas-2.0.3.xpi" type="checkbox">列入安裝清單</label> |
-                                <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/personas/personas-2.0.3.xpi">+立即安裝</a>
+                        
+                        <div class="extension">
+                            <img alt="快速縮放" src="icons/zoompanel-1.1.3.png" />
+                            <h4 id="fxtw-zoompanel">快速縮放 1.1.3</h4>
+                            <div class="extension-info">
+                                <div class="install-options">
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="快速縮放" value="https://addons.myfirefox.com.tw/addons/zoompanel/zoompanel-1.1.3.xpi" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/zoompanel/zoompanel-1.1.3.xpi">+立即安裝</a>
+                                </div>
+                                <blockquote>在狀態欄上使用快速縮放功能</blockquote>
+                                <div class="extension-discription">
+                                </div>
                             </div>
-                            <blockquote>特選的瀏覽器佈景主題，定期更新，讓你方便為Firefox 作不同的裝扮。</blockquote>
+                        </div>
+                        
+                        <div class="extension">
+                            <img class="extension-icon" alt="佈景主題" src="icons/personas-2.0.3.png" />
+                            <h4 id="fxtw-personas">佈景主題 2.0.3</h4>	
+                            <div class="extension-info">
+                                <div class="install-options">
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="佈景主題" value="https://addons.myfirefox.com.tw/addons/personas/personas-2.0.3.xpi" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/personas/personas-2.0.3.xpi">+立即安裝</a>
+                                </div>
+                                <blockquote>特選的瀏覽器佈景主題，定期更新，讓你方便為Firefox 作不同的裝扮。</blockquote>
+                                <div class="extension-discription">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -311,9 +332,9 @@
     </form>
     
     <section class="contentboard">
-        <p><a href="http://mozilla.com.tw/firefox/tw_beta/" target="_blank">Firefox 台灣版</a> 系由 Mozilla Taiwan（美商謀智台灣分公司）製作，採用與一般版 Firefox 相同的 <a href="https://www.mozilla.org/MPL/2.0/" target="_blank">Mozilla Public License 2.0</a> 條款進行授權，而其內建之特製套件授權條款目前不明。</p>
+        <p><a href="http://mozilla.com.tw/firefox/tw_beta/" target="_blank">Firefox 台灣版</a> 係由 Mozilla Taiwan（美商謀智台灣分公司）製作，採用與一般版 Firefox 相同的 <a href="https://www.mozilla.org/MPL/2.0/" target="_blank">Mozilla Public License 2.0</a> 條款進行授權，而其內建之特製套件授權條款，根據各套件原始碼也均為 MPL 2.0。</p>
         <p>本頁所提供的「Firefox 台灣版下載」與各套件下載安裝連結，均直接連回 Mozilla Taiwan 網站，MozTW 社群僅因關注而義務進行分析並提供說明與下載，未儲存或暫存其安裝檔案，亦不對 Firefox 台灣版及各套件的功能負責。</p>
-        <p>如本頁各項連結因 Mozilla Taiwan 公司網站修改而失效，請協助至 <a href="https://groups.google.com/group/moztw-general" target="_blank">moztw-general 郵件群組</a> 回報，我們將會儘速修復。</p>
+        <p>如本頁各項連結因 Mozilla Taiwan 公司網站修改而失效，請協助至 <a href="https://groups.google.com/group/moztw-general">moztw-general 郵件群組</a> 回報，我們將會儘速修復。</p>
     </section>
     
     <script src="main.js"></script>
