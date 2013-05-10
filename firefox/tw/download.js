@@ -35,6 +35,7 @@ function offerBestDownloadLink(tagId) {
     
     if (parent && gPlatform)
     {
+        $(parent).removeClass('no-js');
         switch (gPlatform)
         {
             case PLATFORM_WINDOWS:
