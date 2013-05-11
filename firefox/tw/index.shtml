@@ -72,7 +72,9 @@
 
     <hgroup id="main-feature">
         <h1>Firefox 台灣版</h1>
-        <h2>分析 Firefox 台灣版<br />比較其和一般版本的差異</h2>
+        <h2>
+            「Firefox 台灣版」是美商謀智台灣分公司（Mozilla Taiwan）所製作的客製化版本 Firefox，以一般版 Firefox 為基礎，透過以下 Mozilla Taiwan 公司製作的附加元件，加入各種便利使用者與商業合作面向的功能
+        </h2>
     </hgroup>
     
     <section id="fxtw-download" class="billboard no-js">
@@ -152,7 +154,6 @@
     </section>
     
     <section id="tw-intro" class="contentboard">
-        <p>「Firefox 台灣版」是美商謀智台灣分公司（Mozilla Taiwan）所製作的客製化版本 Firefox，以一般版 Firefox 為基礎，透過以下 Mozilla Taiwan 公司製作的附加元件，加入各種便利使用者與商業合作面向的功能。</p>
         <p>MozTW 社群成員在 2013 年 3 月 Firefox 台灣版公開 Beta 時，即下載並且進行分析，以下是台灣版各附加套件的功能說明，並提供個別下載。若您想要在原版的 Firefox 中使用台灣版的某些功能，可以選擇部分套件來安裝。</p>
         <p>MozTW 社群長期以來負責維護 Firefox 與 Mozilla 產品正體中文版本的在地化，包含原始中文版 Firefox 的內建搜索引擎清單及預載的書籤項目。我們對於「Firefox 台灣版」所開發的客製化功能無所置喙。MozTW 社群將持續在 moztw.org 首頁提供美國原廠的 Firefox 正體中文版本下載。</p>
         <p><strong>請注意：我們發現由 Mozilla Taiwan 所製作的 Firefox 台灣版當中包含的某些附加元件內含使用者行為追蹤相關程式，根據程式碼研判，Mozilla Taiwan 公司（台北）與 Mozilla Online（北京）將會針對某些安裝套件後新增加的功能進行行為追蹤。在以下套件的功能敘述中，將會特別標示出個別的行為追蹤狀態，請使用者斟酌使用。</strong></p>
@@ -203,7 +204,7 @@
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.2.0.xpi">+立即安裝</a>
                                 </div>
                                 <blockquote>Firefox 訂製首頁，包含最近瀏覽頁面、最常瀏覽頁面及新分頁等</blockquote>
-                                <div class="extension-discription">
+                                <div class="extension-description">
                                     <p>安裝後會新增以下三個頁面，並將預設頁面設置為 <code>about:twhome</code>。</p>
                                     <ul>
                                         <li><code>about:twhome</code> 預設首頁網址，實際上是連結到 <a href="http://myfirefox.com.tw" target="_blank">http://myfirefox.com.tw/</a></li>
@@ -228,7 +229,7 @@
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.2.0.xpi">+立即安裝</a>
                                 </div>
                                 <blockquote>用來管理Firefox 的附加元件工具。</blockquote>
-                                <div class="extension-discription">
+                                <div class="extension-description">
                                     <p>本套件無外顯功能，根據程式判讀，僅知道他是用來追蹤用戶操作 Firefox  的行為，包含介面上按鈕（例如附加元件列、工具列上的按鈕……等）點擊次數與開啟、關閉分頁數目，並在 Firefox 開啟與關閉時，送出收集的數據到  Mozilla Taiwan 公司的伺服器。</p>
                                 </div>
                             </div>
@@ -246,7 +247,7 @@
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/quicklaunch/quicklaunch-1.0.0.xpi">+立即安裝</a>
                                 </div>
                                 <blockquote>Firefox 捷徑讓您輕鬆啟動記事本、小畫家、小算盤並自訂常用的系統工具。</blockquote>
-                                <div class="extension-discription">
+                                <div class="extension-description">
                                     <p>在 Firefox 附加元件列中新增一個捷徑按鈕，內含（Win 版）記事本、小畫家、小算盤、我的電腦等四個 Windows 程式的捷徑，及「切換 Profile 使用者設定檔」，可叫出對話框選擇預設的 Profile。選項中可以自行調整與新增捷徑的項目。</p>
                                 </div>
                                 <div class="extension-screenshot screenshot">
@@ -267,7 +268,7 @@
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twimprove/fx-improvement-0.2.0.xpi">+立即安裝</a>
                                 </div>
                                 <blockquote>提升使用者體驗</blockquote>
-                                <div class="extension-discription">
+                                <div class="extension-description">
                                     <p>提升使用者體驗的新功能：意見回饋、書籤管理、隱私瀏覽模式、網站安全標誌、恢復先前關閉的網頁、清除歷史紀錄等。</p>
                                     <p>附加元件列新增按鈕</p>
                                     <ul>
@@ -302,7 +303,7 @@
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-2.0.0.xpi">+立即安裝</a>
                                 </div>
                                 <blockquote>在目前開啟的分頁標籤右側開啟新分頁，雙擊關閉分頁。並在右側添加新分頁按钮。並可設置在新分頁打開URL和搜尋结果</blockquote>
-                                <div class="extension-discription">
+                                <div class="extension-description">
                                     <p>在附加元件列新增分頁設定按鈕，下拉選單中可以設定滑鼠在分頁列上單點、雙點、右鍵的開新分頁 / 關閉分頁功能，及點擊連結時開新分頁是否切換的行為。進階設定可叫出詳細的分頁行為設定對話框（類似 Tab Mix 的功能）。</p>
                                 </div>
                                 <div class="extension-screenshot screenshot">
@@ -321,7 +322,7 @@
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/easyscreenshot/easyscreenshot-0.2.0.xpi">+立即安裝</a>
                                 </div>
                                 <blockquote>可以將整個網頁畫面輕鬆地擷取成一個圖檔，是台灣版 Firefox 最受歡迎的功能之一。</blockquote>
-                                <div class="extension-discription">
+                                <div class="extension-description">
                                     <p>在工具列上新增網頁截圖按鈕，按下即會將前景網頁抓成一張圖並開啟小畫家貼上（Win 版），並且將 PNG 檔存到桌面。</p>
                                 </div>
                                 <div class="extension-screenshot screenshot">
@@ -342,7 +343,7 @@
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/fontsetter/fontsetter-1.0.0.xpi">+立即安裝</a>
                                 </div>
                                 <blockquote>一鍵切換目錄與網頁內容的字體</blockquote>
-                                <div class="extension-discription">
+                                <div class="extension-description">
                                     <p>在 Firefox 附加元件列中新增一個字體按鈕，可快速切換網頁與 Firefox 介面預設字體及 Clear Type 效果。</p>
                                 </div>
                                 <div class="extension-screenshot screenshot">
@@ -360,7 +361,7 @@
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/zoompanel/zoompanel-2.0.0.xpi">+立即安裝</a>
                                 </div>
                                 <blockquote>在狀態欄上使用快速縮放功能</blockquote>
-                                <div class="extension-discription">
+                                <div class="extension-description">
                                     <p>使用快捷鍵之外的選擇。</p>
                                     <p>在 Firefox 附加元件列中新增一個放大鏡按鈕，可選擇畫面縮放百分比（與 IE 類似）。</p>
                                 </div>
@@ -379,7 +380,7 @@
                                     <a class="direct-install" href="https://addons.mozilla.org/firefox/downloads/latest/10900/update.rdf">+立即安裝</a>
                                 </div>
                                 <blockquote>Your Firefox, your style. Easy-to-change themes.</blockquote>
-                                <div class="extension-discription">
+                                <div class="extension-description">
                                     <p>提供多款最新精選的瀏覽器佈景主題，定期更新，讓你方便為 Firefox 作不同的裝扮。</p>
                                     <p>非 Mozilla Taiwan 特製套件，與一般的 Personas Plus 相同。可快速切換個性面板。</p>
                                 </div>
@@ -404,7 +405,8 @@
         </div>
     </form>
     
-    <section class="contentboard">
+    <section id="license">
+        <h3>授權說明</h3>
         <p><a href="http://mozilla.com.tw/firefox/tw_beta/" target="_blank">Firefox 台灣版</a> 係由 Mozilla Taiwan（美商謀智台灣分公司）製作，採用與一般版 Firefox 相同的 <a href="https://www.mozilla.org/MPL/2.0/" target="_blank">Mozilla Public License 2.0</a> 條款進行授權，而其內建之特製套件授權條款，根據各套件原始碼也均為 MPL 2.0。</p>
         <p>本頁所提供的「Firefox 台灣版下載」與各套件下載安裝連結，均直接連回 Mozilla Taiwan 網站，MozTW 社群僅因關注而義務進行分析並提供說明與下載，未儲存或暫存其安裝檔案，亦不對 Firefox 台灣版及各套件的功能負責。</p>
         <p>如本頁各項連結因 Mozilla Taiwan 公司網站修改而失效，請協助至 <a href="https://groups.google.com/group/moztw-general">moztw-general 郵件群組</a> 回報，我們將會儘速修復。</p>
