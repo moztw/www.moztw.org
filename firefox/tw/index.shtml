@@ -1,7 +1,7 @@
 <!--#include virtual="/inc/new_meta.html" -->
     <link href="style.css" rel="stylesheet" />
     <link href="download-button.css" rel="stylesheet" />
-    <link title="隱藏套件說明" href="hidden-description.css" type="text/css" rel="alternate stylesheet" />
+<!--    <link title="隱藏套件說明" href="hidden-description.css" type="text/css" rel="alternate stylesheet" />-->
     <link href="/js/library/fancybox2/jquery.fancybox.css" type="text/css" rel="stylesheet" />
     <link href="/js/library/fancybox2/helpers/jquery.fancybox-buttons.css" type="text/css" rel="stylesheet" />
     <link href="/js/library/fancybox2/helpers/jquery.fancybox-thumbs.css" type="text/css" rel="stylesheet" />
@@ -73,7 +73,7 @@
     <hgroup id="main-feature">
         <h1>Firefox 台灣版</h1>
         <h2>
-            「Firefox 台灣版」是美商謀智台灣分公司（Mozilla Taiwan）所製作的客製化版本 Firefox，以一般版 Firefox 為基礎，透過以下 Mozilla Taiwan 公司製作的附加元件，加入各種便利使用者與商業合作面向的功能
+            「Firefox 台灣版」是美商謀智台灣分公司（Mozilla Taiwan）以一般版 Firefox 為基礎，加上下述特製附加元件，增加各種便利使用者與商業合作面向功能的客製化版本。
         </h2>
     </hgroup>
     
@@ -154,14 +154,35 @@
     </section>
     
     <section id="tw-intro" class="contentboard">
-        <p>MozTW 社群成員在 2013 年 3 月 Firefox 台灣版公開 Beta 時，即下載並且進行分析，以下是台灣版各附加套件的功能說明，並提供個別下載。若您想要在原版的 Firefox 中使用台灣版的某些功能，可以選擇部分套件來安裝。</p>
+        <p>MozTW 社群成員在 2013/3 Firefox 台灣版公開 Beta 時，即下載並且進行分析，以下是台灣版的安裝差異、及各內建附加套件的功能說明。您也可以在原版的 Firefox 中，選擇安裝以下部分套件，以使用台灣版的某些功能。</p>
         <p>MozTW 社群長期以來負責維護 Firefox 與 Mozilla 產品正體中文版本的在地化，包含原始中文版 Firefox 的內建搜索引擎清單及預載的書籤項目。我們對於「Firefox 台灣版」所開發的客製化功能無所置喙。MozTW 社群將持續在 moztw.org 首頁提供美國原廠的 Firefox 正體中文版本下載。</p>
         <p><strong>請注意：我們發現由 Mozilla Taiwan 所製作的 Firefox 台灣版當中包含的某些附加元件內含使用者行為追蹤相關程式，根據程式碼研判，Mozilla Taiwan 公司（台北）與 Mozilla Online（北京）將會針對某些安裝套件後新增加的功能進行行為追蹤。在以下套件的功能敘述中，將會特別標示出個別的行為追蹤狀態，請使用者斟酌使用。</strong></p>
     </section>
     
     <section id="tw-screenshot" class="contentboard screenshot">
-        <a href="screenshot/before-install-normal.png" title="安裝前的安全性警告 - 正常版" rel="tw-screenshot"><img src="screenshot/before-install-normal.png" alt="安裝前的安全性警告 - 正常版" /></a>
-        <a href="screenshot/before-install-fxtw.png" title="安裝前的安全性警告 - 台灣版" rel="tw-screenshot"><img src="screenshot/before-install-fxtw.png" alt="安裝前的安全性警告 - 台灣版" /></a>
+        <h3>安裝說明</h3>
+        <p>Firefox 台灣版分成基本安裝及自訂安裝兩種安裝模式，選擇基本安裝時，會自動安裝 Firefox 捷徑、火狐工具集、分頁管理器、網頁截圖等四個套件；自訂安裝時，則可從七個擴充套件中任選。不論基本安裝或自訂安裝中如何選擇，都一定會裝上 Firefox 首頁 及 附加元件管理器 兩套件。</p>
+        <div id="imgs">
+            <a href="screenshot/fxtw-install-09.png" title="Firefox 台灣版 安裝模式選擇" rel="tw-screenshot"><img src="screenshot/fxtw-install-09.png" alt="Firefox 台灣版 安裝模式選擇" /></a>
+            <a href="screenshot/fxtw-install-08.png" title="Firefox 台灣版 自訂安裝選項" rel="tw-screenshot"><img src="screenshot/fxtw-install-08.png" alt="Firefox 台灣版 自訂安裝選項" /></a>
+            <a href="screenshot/extension-basic.png" title="套件清單 - 基本安裝" rel="tw-screenshot"><img src="screenshot/extension-basic.png" alt="套件清單 - 基本安裝" /></a>
+            <a href="screenshot/extension-all.png" title="套件清單 - 全選安裝" rel="tw-screenshot"><img src="screenshot/extension-all.png" alt="套件清單 - 全選安裝" /></a>
+            <a href="screenshot/extension-none.png" title="套件清單 - 自訂安裝並全部不選" rel="tw-screenshot"><img src="screenshot/extension-none.png" alt="套件清單 - 自訂安裝並全部不選" /></a>
+        </div>
+
+        <p>Firefox 台灣版與原始版不同之處，除內建下節所述附加套件外，首頁的預設值也與原版不同，預設為「myfirefox.com.tw」。移除「Firefox 首頁」套件與否，也不影響首頁設定。</p>
+        <div id="imgs">
+            <a href="screenshot/default-config-twhome-enabled.png" title="偏好設定 預設值 - 啟動'Firefox首頁'套件" rel="tw-screenshot"><img src="screenshot/default-config-twhome-enabled.png" alt="偏好設定 預設值 - 啟動'Firefox首頁'套件" /></a>
+            <a href="screenshot/default-config-twhome-disabled.png" title="偏好設定 預設值 - 停用所有套件" rel="tw-screenshot"><img src="screenshot/default-config-twhome-disabled.png" alt="偏好設定 預設值 - 停用所有套件" /></a>
+       </div> 
+        
+        <p>Firefox 台灣版的安裝程式，標示為「美商謀智股份有限公司台灣分公司」發行。關於畫面則會標示「美商謀至台灣分公司 MozillaTaiwan」與發行日期。</p>
+        <div id="imgs">
+            <a href="screenshot/before-install-normal.png" title="安裝前的安全性警告 - 原版" rel="tw-screenshot"><img src="screenshot/before-install-normal.png" alt="安裝前的安全性警告 - 正常版" /></a>
+            <a href="screenshot/before-install-fxtw.png" title="安裝前的安全性警告 - 台灣版" rel="tw-screenshot"><img src="screenshot/before-install-fxtw.png" alt="安裝前的安全性警告 - 台灣版" /></a>
+            <a href="screenshot/fxtw-about.png" title="關於 Mozilla Firefox" rel="tw-screenshot"><img src="screenshot/fxtw-about.png" alt="關於 Mozilla Firefox" /></a>
+        </div>
+        <!--
         <a href="screenshot/fxtw-install-01.png" title="Firefox 台灣版安裝 1" rel="tw-screenshot"><img src="screenshot/fxtw-install-01.png" alt="Firefox 台灣版安裝 1" /></a>
         <a href="screenshot/fxtw-install-02.png" title="Firefox 台灣版安裝 2" rel="tw-screenshot"><img src="screenshot/fxtw-install-02.png" alt="Firefox 台灣版安裝 2" /></a>
         <a href="screenshot/fxtw-install-03.png" title="Firefox 台灣版安裝 3" rel="tw-screenshot"><img src="screenshot/fxtw-install-03.png" alt="Firefox 台灣版安裝 3" /></a>
@@ -169,8 +190,6 @@
         <a href="screenshot/fxtw-install-05.png" title="Firefox 台灣版安裝 5" rel="tw-screenshot"><img src="screenshot/fxtw-install-05.png" alt="Firefox 台灣版安裝 5" /></a>
         <a href="screenshot/fxtw-install-06.png" title="Firefox 台灣版安裝 6" rel="tw-screenshot"><img src="screenshot/fxtw-install-06.png" alt="Firefox 台灣版安裝 6" /></a>
         <a href="screenshot/fxtw-install-07.png" title="Firefox 台灣版安裝 7" rel="tw-screenshot"><img src="screenshot/fxtw-install-07.png" alt="Firefox 台灣版安裝 7" /></a>
-        <a href="screenshot/fxtw-install-08.png" title="Firefox 台灣版安裝 8" rel="tw-screenshot"><img src="screenshot/fxtw-install-08.png" alt="Firefox 台灣版安裝 8" /></a>
-        <a href="screenshot/fxtw-install-09.png" title="Firefox 台灣版安裝 9" rel="tw-screenshot"><img src="screenshot/fxtw-install-09.png" alt="Firefox 台灣版安裝 9" /></a>
         <a href="screenshot/fxtw-install-10.png" title="Firefox 台灣版安裝 10" rel="tw-screenshot"><img src="screenshot/fxtw-install-10.png" alt="Firefox 台灣版安裝 10" /></a>
         <a href="screenshot/fxtw-install-11.png" title="Firefox 台灣版安裝 11" rel="tw-screenshot"><img src="screenshot/fxtw-install-11.png" alt="Firefox 台灣版安裝 11" /></a>
         <a href="screenshot/fxtw-firstrun.png" title="First Run 畫面 - 台灣版 完整安裝" rel="tw-screenshot"><img src="screenshot/fxtw-firstrun.png" alt="First Run 畫面" /></a>
@@ -178,23 +197,17 @@
         <a href="screenshot/desktop-fxtw.png" title="安裝後桌面圖示 - 台灣版" rel="tw-screenshot"><img src="screenshot/desktop-fxtw.png" alt="安裝後桌面圖示 - 台灣版" /></a>
         <a href="screenshot/install-uninstall-normal.png" title="新增或移除程式 - 正常版" rel="tw-screenshot"><img src="screenshot/install-uninstall-normal.png" alt="新增或移除程式 - 正常版" /></a>
         <a href="screenshot/install-uninstall-fxtw.png" title="新增或移除程式 - 台灣版 - 與正常版一模一樣" rel="tw-screenshot"><img src="screenshot/install-uninstall-fxtw.png" alt="新增或移除程式 - 台灣版" /></a>
-        <a href="screenshot/fxtw-about.png" title="關於 Mozilla Firefox" rel="tw-screenshot"><img src="screenshot/fxtw-about.png" alt="關於 Mozilla Firefox" /></a>
-        <a href="screenshot/default-config-twhome-enabled.png" title="偏好設定 預設值 - 啟動'Firefox首頁'套件" rel="tw-screenshot"><img src="screenshot/default-config-twhome-enabled.png" alt="偏好設定 預設值 - 啟動'Firefox首頁'套件" /></a>
-        <a href="screenshot/default-config-twhome-disabled.png" title="偏好設定 預設值 - 停用所有套件" rel="tw-screenshot"><img src="screenshot/default-config-twhome-disabled.png" alt="偏好設定 預設值 - 停用所有套件" /></a>
-        <a href="screenshot/extension-basic.png" title="套件清單 - 基本安裝" rel="tw-screenshot"><img src="screenshot/extension-basic.png" alt="套件清單 - 基本安裝" /></a>
-        <a href="screenshot/extension-all.png" title="套件清單 - 全選安裝" rel="tw-screenshot"><img src="screenshot/extension-all.png" alt="套件清單 - 全選安裝" /></a>
-        <a href="screenshot/extension-none.png" title="套件清單 - 自訂安裝並全部不選" rel="tw-screenshot"><img src="screenshot/extension-none.png" alt="套件清單 - 自訂安裝並全部不選" /></a>
+        -->
     </section>
     
-    <label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block;text-align:right;color:gray;display:none">
+<!--    <label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block;text-align:right;color:gray;display:none">
         <input id="hidden_desc" value="true" onclick="hidden_descript(this)" type="checkbox">進階選項：隱藏套件說明及相關連結
-    </label>
+    </label>-->
     <form name="select_and_install" onsubmit="doInstall(); return false;">
         <div id="mainContent">
             <div id="installList" class="contentboard">
-                <div id="ex_list">
                     <div class="extension-category" id="extension-must-install">
-                        <h3>台灣版必載附加元件</h3>
+                        <h3>台灣版「必載附加元件」</h3>
                         <div class="extension">
                             <img class="extension-icon" alt="Firefox 首頁" src="icons/default.png" />
                             <h4 id="fxtw-twhomepage">Firefox 首頁 0.2.0</h4>
@@ -237,7 +250,7 @@
                     </div>
                     
                     <div class="extension-category" id="extension-recommand">
-                        <h3>推薦附加元件</h3>
+                        <h3>台灣版「推薦附加元件」</h3>
                         <div class="extension">
                             <img class="extension-icon" alt="Firefox 捷徑" src="icons/quicklaunch.png" />
                             <h4 id="fxtw-quicklaunch">Firefox 捷徑 1.0.0</h4>
@@ -253,8 +266,8 @@
                                 <div class="extension-screenshot screenshot">
                                     <a href="screenshot/fxtw-quicklaunch-menu.png" title="Firefox 捷徑 - 按鈕選單" rel="fxtw-quicklaunch"><img src="screenshot/fxtw-quicklaunch-menu.png" alt="按鈕選單" /></a>
                                     <a href="screenshot/fxtw-quicklaunch-profile.png" title="Firefox 捷徑 - 選擇使用者設定檔(Profile)" rel="fxtw-quicklaunch"><img src="screenshot/fxtw-quicklaunch-profile.png" alt="選擇使用者設定檔(Profile)" /></a>
+                                    <a href="screenshot/fxtw-quicklaunch-custom2.png" title="Firefox 捷徑 - 個人化 Firefox 捷徑" rel="fxtw-quicklaunch"><img src="screenshot/fxtw-quicklaunch-custom2.png" alt="個人化 Firefox 捷徑" /></a>
                                     <a href="screenshot/fxtw-quicklaunch-custom.png" title="Firefox 捷徑 - 個人化 Firefox 捷徑" rel="fxtw-quicklaunch"><img src="screenshot/fxtw-quicklaunch-custom.png" alt="個人化 Firefox 捷徑" /></a>
-                                    <a href="screenshot/fxtw-quicklaunch-custom2.png" title="Firefox 捷徑 - 個人化 Firefox 捷徑 2" rel="fxtw-quicklaunch"><img src="screenshot/fxtw-quicklaunch-custom2.png" alt="個人化 Firefox 捷徑 2" /></a>
                                 </div>
                             </div>
                         </div>
@@ -267,9 +280,16 @@
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="火狐工具集" value="https://addons.myfirefox.com.tw/addons/twimprove/fx-improvement-0.2.0.xpi" type="checkbox">列入安裝清單</label> |
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twimprove/fx-improvement-0.2.0.xpi">+立即安裝</a>
                                 </div>
-                                <blockquote>提升使用者體驗</blockquote>
+                                <blockquote>提升使用者體驗的新功能：意見回饋、書籤管理、隱私瀏覽模式、網站安全標誌、恢復先前關閉的網頁、清除歷史紀錄等。</blockquote>
                                 <div class="extension-description">
-                                    <p>提升使用者體驗的新功能：意見回饋、書籤管理、隱私瀏覽模式、網站安全標誌、恢復先前關閉的網頁、清除歷史紀錄等。</p>
+                                    <p>安裝後網址列新增「安全標識」，滑鼠指上去會根據 Google 資訊顯示網站安全狀態，連結到危險網站時網址列會成為紅色背景。</p>
+                                </div>
+                                <div class="extension-screenshot screenshot">
+                                    <a href="screenshot/fxtw-fx-improvement-enabled.png" title="火狐工具集 - 啟用後" rel="fxtw-fx-improvement"><img src="screenshot/fxtw-fx-improvement-enabled.png" alt="啟用後" /></a>
+                                    <a href="screenshot/fxtw-fx-improvement-safety.png" title="火狐工具集 - 安全標識" rel="fxtw-fx-improvement"><img src="screenshot/fxtw-fx-improvement-safety.png" alt="安全標識" /></a>
+                                    <a href="screenshot/fxtw-fx-improvement-option.png" title="火狐工具集 - 選項" rel="fxtw-fx-improvement"><img src="screenshot/fxtw-fx-improvement-option.png" alt="選項" /></a>
+                                </div>
+                                <div class="extension-description">
                                     <p>附加元件列新增按鈕</p>
                                     <ul>
                                         <li>歷史紀錄按鈕：點選下拉選單，可設定關閉 Firefox 時清除歷史紀錄，及叫出清除歷史對話框。</li>
@@ -280,16 +300,11 @@
                                         <li>提供意見按鈕：按下可回報無法正常瀏覽的網站、填寫 Firefox 建議及 Mozilla Taiwan Facebook 及 Google+ 連結。</li>
                                         <li>復原已關閉分頁按鈕：按下可回復上一個關閉的分頁，下拉選單可回復全部分頁。</li>
                                     </ul>
-                                    <p>網址列新增「安全標識」，滑鼠指上去會根據 Google 資訊顯示網站安全狀態，連結到危險網站時網址列會成為紅色背景。</p>
                                 </div>
                                 <div class="extension-screenshot screenshot">
-                                    <a href="screenshot/fxtw-fx-improvement-disabled.png" title="火狐工具集 - 停用時" rel="fxtw-fx-improvement"><img src="screenshot/fxtw-fx-improvement-disabled.png" alt="停用時" /></a>
-                                    <a href="screenshot/fxtw-fx-improvement-enabled.png" title="火狐工具集 - 啟用後" rel="fxtw-fx-improvement"><img src="screenshot/fxtw-fx-improvement-enabled.png" alt="啟用後" /></a>
-                                    <a href="screenshot/fxtw-fx-improvement-tabs.png" title="火狐工具集 - 復原分頁按鈕" rel="fxtw-fx-improvement"><img src="screenshot/fxtw-fx-improvement-tabs.png" alt="復原分頁按鈕" /></a>
-                                    <a href="screenshot/fxtw-fx-improvement-feedback.png" title="火狐工具集 - 提供意見按鈕" rel="fxtw-fx-improvement"><img src="screenshot/fxtw-fx-improvement-feedback.png" alt="提供意見按鈕" /></a>
-                                    <a href="screenshot/fxtw-fx-improvement-safety.png" title="火狐工具集 - 安全標識" rel="fxtw-fx-improvement"><img src="screenshot/fxtw-fx-improvement-safety.png" alt="安全標識" /></a>
                                     <a href="screenshot/fxtw-fx-improvement-history.png" title="火狐工具集 - 歷史紀錄按鈕" rel="fxtw-fx-improvement"><img src="screenshot/fxtw-fx-improvement-history.png" alt="歷史紀錄按鈕" /></a>
-                                    <a href="screenshot/fxtw-fx-improvement-option.png" title="火狐工具集 - 選項" rel="fxtw-fx-improvement"><img src="screenshot/fxtw-fx-improvement-option.png" alt="選項" /></a>
+                                    <a href="screenshot/fxtw-fx-improvement-feedback.png" title="火狐工具集 - 提供意見按鈕" rel="fxtw-fx-improvement"><img src="screenshot/fxtw-fx-improvement-feedback.png" alt="提供意見按鈕" /></a>
+                                    <a href="screenshot/fxtw-fx-improvement-tabs.png" title="火狐工具集 - 復原分頁按鈕" rel="fxtw-fx-improvement"><img src="screenshot/fxtw-fx-improvement-tabs.png" alt="復原分頁按鈕" /></a>
                                 </div>
                             </div>
                         </div>
@@ -333,7 +348,7 @@
                     </div>
                     
                     <div class="extension-category" id="extension-custom">
-                        <h3>自選附加元件</h3>
+                        <h3>台灣版「自選附加元件」</h3>
                         <div class="extension">
                             <img class="extension-icon" alt="字體設定" src="icons/fontsetter.png" />
                             <h4 id="fxtw-fontsetter">字體設定 1.0.0</h4>
@@ -342,7 +357,7 @@
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="字體設定" value="https://addons.myfirefox.com.tw/addons/fontsetter/fontsetter-1.0.0.xpi" type="checkbox">列入安裝清單</label> |
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/fontsetter/fontsetter-1.0.0.xpi">+立即安裝</a>
                                 </div>
-                                <blockquote>一鍵切換目錄與網頁內容的字體</blockquote>
+                                <blockquote>一鍵切換目錄與網頁內容的字體。</blockquote>
                                 <div class="extension-description">
                                     <p>在 Firefox 附加元件列中新增一個字體按鈕，可快速切換網頁與 Firefox 介面預設字體及 Clear Type 效果。</p>
                                 </div>
@@ -360,9 +375,8 @@
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="快速縮放" value="https://addons.myfirefox.com.tw/addons/zoompanel/zoompanel-2.0.0.xpi" type="checkbox">列入安裝清單</label> |
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/zoompanel/zoompanel-2.0.0.xpi">+立即安裝</a>
                                 </div>
-                                <blockquote>在狀態欄上使用快速縮放功能</blockquote>
+                                <blockquote>在狀態欄上使用快速縮放功能。</blockquote>
                                 <div class="extension-description">
-                                    <p>使用快捷鍵之外的選擇。</p>
                                     <p>在 Firefox 附加元件列中新增一個放大鏡按鈕，可選擇畫面縮放百分比（與 IE 類似）。</p>
                                 </div>
                                 <div class="extension-screenshot screenshot">
@@ -379,10 +393,9 @@
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="佈景主題" value="https://addons.mozilla.org/firefox/downloads/latest/10900/update.rdf" type="checkbox">列入安裝清單</label> |
                                     <a class="direct-install" href="https://addons.mozilla.org/firefox/downloads/latest/10900/update.rdf">+立即安裝</a>
                                 </div>
-                                <blockquote>Your Firefox, your style. Easy-to-change themes.</blockquote>
+                                <blockquote>提供多款最新精選的瀏覽器佈景主題，定期更新，讓你方便為 Firefox 作不同的裝扮。</blockquote>
                                 <div class="extension-description">
-                                    <p>提供多款最新精選的瀏覽器佈景主題，定期更新，讓你方便為 Firefox 作不同的裝扮。</p>
-                                    <p>非 Mozilla Taiwan 特製套件，與一般的 Personas Plus 相同。可快速切換個性面板。</p>
+                                    <p>在附加元件列上新增佈景按鈕，可快速切換個性面板。（本套件非 Mozilla Taiwan 製作）</p>
                                 </div>
                                 <div class="extension-screenshot screenshot">
                                     <a href="screenshot/personas-plus.png" title="Personas Plus" rel="personas-plus"><img src="screenshot/personas-plus.png" alt="Personas Plus" /></a>
@@ -390,15 +403,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
             <div class="download billboard">
                 <header>
-                    <h3>我要試試這些套件！</h3>
+                    <h3>批次安裝勾選套件！</h3>
                 </header>
                 <span class="install"><input value="安裝套件" type="submit" id="install-extensions" class="button" /></span>
                 <div class="description">
-                    <p>如果您按下「安裝套件」卻無反應，請按下上方淡黃色訊息列之「允許」以便將 moztw.org 加入信任網站，再行按下「安裝套件」鈕。</p>
+                    <p>按下「安裝套件」按鈕後，請點選上方對話框之「允許」以開始下載，再行按下「安裝套件」鈕。</p>
                     <p>Firefox 會對各套件檔案的網址分別進行確認，若點選套件較多則反應會稍慢，請耐心等候。</p>
                 </div>
             </div>
@@ -407,8 +419,8 @@
     
     <section id="license">
         <h3>授權說明</h3>
-        <p><a href="http://mozilla.com.tw/firefox/tw_beta/" target="_blank">Firefox 台灣版</a> 係由 Mozilla Taiwan（美商謀智台灣分公司）製作，採用與一般版 Firefox 相同的 <a href="https://www.mozilla.org/MPL/2.0/" target="_blank">Mozilla Public License 2.0</a> 條款進行授權，而其內建之特製套件授權條款，根據各套件原始碼也均為 MPL 2.0。</p>
-        <p>本頁所提供的「Firefox 台灣版下載」與各套件下載安裝連結，均直接連回 Mozilla Taiwan 網站，MozTW 社群僅因關注而義務進行分析並提供說明與下載，未儲存或暫存其安裝檔案，亦不對 Firefox 台灣版及各套件的功能負責。</p>
+        <p><a href="http://mozilla.com.tw/firefox/tw_beta/" target="_blank">Firefox 台灣版</a> 係由 Mozilla Taiwan（美商謀智台灣分公司）製作，採用與一般版 Firefox 相同的 <a href="https://www.mozilla.org/MPL/2.0/" target="_blank">Mozilla Public License 2.0</a> 條款進行授權，其內建之特製套件也均為 MPL 2.0 授權。</p>
+        <p>本頁所提供的「Firefox 台灣版下載」與各套件下載安裝連結，均直接連回 Mozilla Taiwan 網站。MozTW 社群僅因關注而義務進行分析、提供說明與下載，未儲存或暫存其安裝檔案，亦不對 Firefox 台灣版及各套件的功能負責。</p>
         <p>如本頁各項連結因 Mozilla Taiwan 公司網站修改而失效，請協助至 <a href="https://groups.google.com/group/moztw-general">moztw-general 郵件群組</a> 回報，我們將會儘速修復。</p>
     </section>
 
