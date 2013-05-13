@@ -231,10 +231,6 @@ section .appendix {
                 <div class="section-contents">
                     <ul>
                       <li>
-                        <span class="tag tag-fixed">修正</span>
-                        <h5>20.0: 安全性更新，詳見相關<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全性公告</a>。</h5>
-                      </li>
-                      <li>
                         <span class="tag tag-new">全新功能</span>
                         <h5>個別視窗的隱私瀏覽功能，見<a href="https://support.mozilla.org/en-US/kb/private-browsing-browse-web-without-saving-info">詳細資訊</a>。</h5>
                       </li>
@@ -282,9 +278,13 @@ section .appendix {
                           Unity 外掛程式在 HiDPI 模式中無法顯示（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=829284">bug 829284</a>）。
                         </h5>
                       </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>20.0: 安全性更新，詳見相關<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全性公告</a>。</h5>
+                      </li>
 
                       <li class="complete">
-                        請參考此版本的<a href="http://www.mozilla.com/firefox/20.0/releasenotes/buglist.html">完整變更清單</a>。
+                        請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&f1=target_milestone&f2=cf_status_firefox20&o1=anywords&o2=anywords&resolution=FIXED&v1=mozilla20%2C%20Firefox%2020&v2=fixed%2Cverified&order=bug_id&limit=0">完整變更清單</a>。
                         您可能也想瞭解<a href="/firefox/releases/19.0.2/">前一個版本的更新</a>。
                       </li>
                     </ul>

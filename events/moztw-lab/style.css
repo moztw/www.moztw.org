@@ -290,10 +290,25 @@ a.event-link:hover {
 	line-height: 30px;
 }
 
-#map {
-	height: 480px;
-	border-radius: 8px;
-	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+.mapcover {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    margin: 2em auto;
+    position: relative;
+	transition: all 0.3s;
+}
+.mapcover:hover {
+    height: 400px;
+}
+.map {
+	height: 400px;
+	margin-top: -70px;
+	transition: all 0.3s ease-in;
+}
+.mapcover:hover .map {
+    margin-top: 0;
 }
 
 a.event-link.fallback-register-button {
@@ -377,4 +392,70 @@ a.event-link.fallback-register-button {
 	a.event-link.fallback-register-button {
 	    display: block;
 	}
+}
+
+
+.nav {
+	list-style-type: none;
+	background-image: -webkit-linear-gradient(top, #ddd, #fff);
+	background-image:    -moz-linear-gradient(top, #ddd, #fff);
+	background-image:      -o-linear-gradient(top, #ddd, #fff);
+	background-image:         linear-gradient(top, #ddd, #fff);
+	background-color: #fff; 
+	border: 1.5px solid dimgray;
+	border-radius: 10px;
+	padding: 0px;
+	margin: 3em auto 0;
+	width: 10%;
+	min-width: 159px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.nav li {
+	display: table-cell !important;
+	border: none !important;
+	padding: 0px !important;
+}
+
+
+.nav .sel {
+	background-image: -webkit-linear-gradient(top, silver, #ddd);
+	background-image:    -moz-linear-gradient(top, silver, #ddd);
+	background-image:      -o-linear-gradient(top, silver, #ddd);
+	background-image:         linear-gradient(top, silver, #ddd);
+	background-color: #ddd; 
+	-webkit-box-shadow: 1px 2px 3px #999 inset;
+	box-shadow:         1px 2px 3px #999 inset;
+	
+}
+
+.nav .rb , .nav .rb a, .nav .rb .sel a {
+	border-right: none !important;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.nav .lb, .nav .lb a, .nav .lb .sel a {
+	border-left: none !important;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.nav a {
+	display: table-cell;
+	text-decoration: none;
+	outline: none;
+	color: #666;
+	border-right: 2px solid dimgray;
+	padding: 5px 25px; 
+
+}
+
+.nav a:hover {
+	background: none;
+}
+
+#twit iframe {
+    width: 100%;
 }

@@ -1,0 +1,267 @@
+﻿* {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
+	color:#666;
+	background:#F1F1F1 url(/images/furley_bg.png);
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+a{
+    text-decoration:none;
+    color:#1AB4FF;
+}
+
+.right{
+	float:right;
+}
+
+.left{
+	float:left;
+}
+
+.container{
+	line-height: 1.5em;
+	margin: 0 auto;
+	max-width: 90%;
+	width: 760px;
+}
+
+#header{
+	width: 760px;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+section h1, h2 {
+    border-bottom: 1px solid #CCCCCC;
+    color: #E44D26;
+    font: 2em/1.5em bold;
+    margin: 2.2em 0 0.8em;
+    text-align: center;
+    text-shadow: 0 2px 5px white;
+}
+#main header {
+    text-align: center;
+    margin: 30px auto;
+    position: relative;
+    background: #ebebeb;
+    height: 300px;
+}
+#header_ctn {
+    height: 300px;
+    position: absolute;
+    width: 100%;
+}
+#header_ctn h1 {
+    background: none repeat scroll 0 0 #0092BF;
+    bottom: 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0.8em 0 0.3em;
+    position: absolute;
+    width: 100%;
+}
+#header_ctn ruby {
+    position: relative;
+}
+#header_ctn rt {
+    font-size: 0.4em;
+    left: 0;
+    letter-spacing: 0.2em;
+    position: absolute;
+    text-align: left;
+    top: -1.4em;
+    white-space: nowrap;
+    width: 100%;
+}
+#header_ctn #html5logo {
+    height: 180px;
+    margin: 30px 0;
+}
+#star {
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#star .star {
+    height: 900px;
+    margin: -300px 0 0 -70px;
+}
+
+#main section{
+	margin-top: 3em;
+}
+
+#main h3{
+	border-bottom: medium none;
+	border-left: 2px solid #999999;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 3em 0 1em;
+	padding-left: 10px;
+}
+
+#main li {
+    line-height: 2em;
+    list-style: none;
+    padding-left: 2em;
+}
+#main li:before {
+    background-image: url("/images/HTML5_star_s.png");
+    content: "．";
+    display: inline-block;
+    height: 12px;
+    margin-right: 0.5em;
+    overflow: hidden;
+    vertical-align: baseline;
+    width: 12px;
+}
+#description p {
+	font-size: 1.1em;
+	line-height: 2em;
+	margin: 0 auto;
+	width: 90%;
+}
+
+#footer{
+	border-top: 1px #CCC solid;
+	box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5);
+	text-align: center;
+	margin: 40px auto 20px;
+	width: 760px;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+#footer p {
+    text-align: center;
+}
+
+p {
+	text-align: left;
+	line-height: 30px;
+    margin: 1em 15px;   
+}
+
+#information .signup {
+    line-height: 3em;
+    margin: 1em auto;
+    text-align: center;
+}
+#information .signup a {
+    color: #0092BF;
+    font-size: 1.5em;
+}
+
+#information .signup:before {
+    content: "→ ";
+}
+
+#information .signup:after {
+    content: " ←";
+}
+
+#information #venue-map {
+    text-align: center;
+}
+
+#information #venue-map h3 {
+    border: none;
+}
+
+#information #venue-map img {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#mapcover {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    margin: 2em auto;
+    position: relative;
+	transition: all 0.3s;
+}
+#mapcover:hover {
+    height: 400px;
+}
+#map {
+	height: 400px;
+	margin-top: -70px;
+	transition: all 0.3s ease-in;
+}
+#mapcover:hover #map {
+    margin-top: 0;
+}
+
+#schedule p {
+    text-align: center;
+}
+
+#schedule p.pos {
+    font-size: 1.5em;
+    color: #0092BF;
+    text-align: center;
+}
+#schedule p.allsession {
+    text-align: center;
+}
+
+/* Table */
+#schedule tbody tr:nth-child(2n+1) td,
+#schedule tbody tr:nth-child(2n+1) th {
+    background: #EAEAEA;
+    background: rgba(200,200,200,0.2);
+}
+#schedule table th {
+    background: #444;
+    color: #DDD;
+    padding: 0.5em;
+}
+#schedule table td {
+    padding: 1em;
+    border: 1px solid #DDD;
+    vertical-align: top;
+}
+#schedule table td.timing {
+    vertical-align: middle;
+    text-align: center;
+}
+#schedule table h3, #schedule table h4 {
+    margin: 0.3em 0 0.5em;
+    padding: 0;
+    border: none;
+}
+#schedule table ul li {
+    padding: 0;
+}
+#schedule table ul li:before {
+    display: none;
+}
+#schedule p, #schedule div {
+    text-align: left;
+    line-height: 1.8em;
+}
+
+#icos .host {
+    font-size: 1.1em;
+    margin: 0.5em 0;
+}
+
+@media (max-width: 500px) {
+	body{
+		margin-top: 30px;
+	}
+}
