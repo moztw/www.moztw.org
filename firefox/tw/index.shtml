@@ -1,10 +1,4 @@
 <!--#include virtual="/inc/new_meta.html" -->
-    <link href="style.css" rel="stylesheet" />
-    <link href="download-button.css" rel="stylesheet" />
-<!--    <link title="隱藏套件說明" href="hidden-description.css" type="text/css" rel="alternate stylesheet" />-->
-    <link href="/js/library/fancybox2/jquery.fancybox.css" type="text/css" rel="stylesheet" />
-    <link href="/js/library/fancybox2/helpers/jquery.fancybox-buttons.css" type="text/css" rel="stylesheet" />
-    <link href="/js/library/fancybox2/helpers/jquery.fancybox-thumbs.css" type="text/css" rel="stylesheet" />
     <title>Firefox 台灣版</title>
     <meta name="description" content="比較 Firefox 台灣版以及其他版本">
     <meta property="og:type" content="website">
@@ -12,62 +6,11 @@
     <meta property="og:image" content="//moztw.org/images/foxmosa-icon.gif">
     <meta property="og:site_name" content="Firefox 台灣版">
     <meta property="og:description" content="比較 Firefox 台灣版以及其他版本">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script src="/js/library/fancybox2/jquery.fancybox.pack.js"></script>
-    <script src="/js/library/fancybox2/helpers/jquery.fancybox-buttons.js"></script>
-    <script src="/js/library/fancybox2/helpers/jquery.fancybox-thumbs.js"></script>
-    <script src="download.js"></script>
-    <script>
-        function install_extensions(installObj)
-        {
-            try
-            {
-                InstallTrigger.install(installObj);
-                return true;
-            }
-            catch(e)
-            {
-                window.alert('無法安裝，您需要使用 Firefox 或其他 Gecko 系列瀏覽器。');
-                return false;
-            }
-        }
-        
-        function doInstall()
-        {
-            var installObj = {}
-            var boxObjs = document.getElementById("installList").getElementsByTagName("input");
-            for(i = 0; i < boxObjs.length; i++)
-            {
-                if(boxObjs[i].checked)
-                {
-                    installObj[boxObjs[i].name] = boxObjs[i].value;
-                }
-            }
-            install_extensions(installObj);
-        }
-        
-        function hidden_descript(obj)
-        {
-            $("link[rel~='stylesheet'][title='隱藏套件說明']")[0].disabled = !obj.checked;
-        }
-        
-        $(function(){
-            offerBestDownloadLink("fxtw-download");
-            
-            $(".direct-install").click(function(e){
-                var installObj = {}
-                var theChkBox = $(this).parent().find("input")[0];
-                
-                installObj[theChkBox.name] = theChkBox.value;
-                
-                install_extensions(installObj);
-                
-                return false;
-            });
-            
-            $(".screenshot a").fancybox();
-        });
-    </script>
+    <link href="style.css" rel="stylesheet" />
+    <link href="download-button.css" rel="stylesheet" />
+    <link href="/js/library/fancybox2/jquery.fancybox.css" type="text/css" rel="stylesheet" />
+    <link href="/js/library/fancybox2/helpers/jquery.fancybox-buttons.css" type="text/css" rel="stylesheet" />
+    <link href="/js/library/fancybox2/helpers/jquery.fancybox-thumbs.css" type="text/css" rel="stylesheet" />
 <!--#include virtual="/inc/new_header.html" -->
 
     <hgroup id="main-feature">
@@ -424,6 +367,57 @@
 			</div>
 		</div>
 	</footer>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="/js/library/fancybox2/jquery.fancybox.pack.js"></script>
+	<script src="/js/library/fancybox2/helpers/jquery.fancybox-buttons.js"></script>
+	<script src="/js/library/fancybox2/helpers/jquery.fancybox-thumbs.js"></script>
+	<script src="download.js"></script>
+	<script>
+	    function install_extensions(installObj)
+	    {
+	        try
+	        {
+	            InstallTrigger.install(installObj);
+	            return true;
+	        }
+	        catch(e)
+	        {
+	            window.alert('無法安裝，您需要使用 Firefox 或其他 Gecko 系列瀏覽器。');
+	            return false;
+	        }
+	    }
+	    
+	    function doInstall()
+	    {
+	        var installObj = {}
+	        var boxObjs = document.getElementById("installList").getElementsByTagName("input");
+	        for(i = 0; i < boxObjs.length; i++)
+	        {
+	            if(boxObjs[i].checked)
+	            {
+	                installObj[boxObjs[i].name] = boxObjs[i].value;
+	            }
+	        }
+	        install_extensions(installObj);
+	    }
+	            
+	    $(function(){
+	        offerBestDownloadLink("fxtw-download");
+	        
+	        $(".direct-install").click(function(e){
+	            var installObj = {}
+	            var theChkBox = $(this).parent().find("input")[0];
+	            
+	            installObj[theChkBox.name] = theChkBox.value;
+	            
+	            install_extensions(installObj);
+	            
+	            return false;
+	        });
+	        
+	        $(".screenshot a").fancybox();
+	    });
+	</script>
 	
 	<script src="http://www.mozilla.org/tabzilla/media/js/tabzilla.js"></script>
 	<script src="/js/new_style.js"></script>
