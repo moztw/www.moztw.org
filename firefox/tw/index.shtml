@@ -86,10 +86,10 @@
                 <div class="download download-dumb">
                     <h4>下載 Firefox 台灣版</h4>
                     <ul>
-                        <li><a href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" class="button-green">Windows</a></li>
-                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.tar.bz2" class="button-green">Linux (32位元)</a></li>
-                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest-x86_64.tar.bz2" class="button-green">Linux (64位元)</a></li>
-                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.dmg" class="button-green">Mac OS X</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Firefox', 'latest-TW-Windows']);">Windows</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.tar.bz2" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Firefox', 'latest-TW-linux']);">Linux (32位元)</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest-x86_64.tar.bz2" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Firefox', 'latest-TW-linux_x64']);">Linux (64位元)</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.dmg" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Firefox', 'latest-TW-Mac']);">Mac OS X</a></li>
                     </ul>
                 </div>
             </noscript>
@@ -97,16 +97,16 @@
                 <div class="download download-dumb">
                     <h4>選擇 Firefox 台灣版下載</h4>
                     <ul>
-                        <li><a href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" class="button-green">Windows</a></li>
-                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.tar.bz2" class="button-green">Linux (32位元)</a></li>
-                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest-x86_64.tar.bz2" class="button-green">Linux (64位元)</a></li>
-                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.dmg" class="button-green">Mac OS X</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Firefox', 'latest-TW-Windows']);">Windows</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.tar.bz2" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Firefox', 'latest-TW-linux']);">Linux (32位元)</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest-x86_64.tar.bz2" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Firefox', 'latest-TW-linux_x64']);">Linux (64位元)</a></li>
+                        <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.dmg" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Firefox', 'latest-TW-Mac']);">Mac OS X</a></li>
                     </ul>
                 </div>
             </div>
             <ul role="presentation" class="download-list">
                 <li class="os_windows">
-                    <a class="download-link" href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" data-direct-link="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe">
+                    <a class="download-link" href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" data-direct-link="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" onclick="_gaq.push(['_trackEvent', 'Download', 'Firefox', 'latest-TW-Windows']);">
                         <span class="download-content">
                             <strong class="download-title">Firefox 台灣版</strong>
                             <span class="download-subtitle">免費下載</span>
@@ -116,7 +116,7 @@
                     </a>
                 </li>
                 <li class="os_linux os_linux_32">
-                    <a class="download-link" href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.tar.bz2" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW">
+                    <a class="download-link" href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.tar.bz2" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW" onclick="_gaq.push(['_trackEvent', 'Download', 'Firefox', 'latest-TW-Linux']);">
                         <span class="download-content">
                             <strong class="download-title">Firefox 台灣版</strong>
                             <span class="download-subtitle">免費下載 (32位元)</span>
@@ -126,7 +126,7 @@
                     </a>
                 </li>
                 <li class="os_linux os_linux_64">
-                    <a class="download-link" href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest-x86_64.tar.bz2" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW">
+                    <a class="download-link" href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest-x86_64.tar.bz2" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW" onclick="_gaq.push(['_trackEvent', 'Download', 'Firefox', 'latest-TW-Lunux_x64']);">
                         <span class="download-content">
                             <strong class="download-title">Firefox 台灣版</strong>
                             <span class="download-subtitle">免費下載 (64位元)</span>
@@ -136,7 +136,7 @@
                     </a>
                 </li>
                 <li class="os_osx">
-                    <a class="download-link" href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.dmg" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=osx&amp;lang=zh-TW">
+                    <a class="download-link" href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.dmg" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=osx&amp;lang=zh-TW" onclick="_gaq.push(['_trackEvent', 'Download', 'Firefox', 'latest-TW-Mac']);">
                         <span class="download-content">
                             <strong class="download-title">Firefox 台灣版</strong>
                             <span class="download-subtitle">免費下載</span>
@@ -147,8 +147,8 @@
                 </li>
             </ul>
             <small class="download-other os_linux os_osx os_windows unrecognized-download">
-                <a href="http://mozilla.com.tw/firefox/tw_beta/" target="_blank">Firefox 台灣版官方活動頁面</a> |
-                <a href="http://mozilla.com.tw/firefox/tw_features/" target="_blank">Firefox 台灣版官方功能介紹</a>
+                <a href="http://mozilla.com.tw/firefox/tw_beta/" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxTW', 'tw_beta']);">Firefox 台灣版官方活動頁面</a> |
+                <a href="http://mozilla.com.tw/firefox/tw_features/" target="_blank" onclick="_gaq.push(['_trackEvent', 'Download', 'FirefoxTW', 'tw_feature']);">Firefox 台灣版官方功能介紹</a>
             </small>
         </div>
     </section>
@@ -182,27 +182,8 @@
             <a href="screenshot/before-install-fxtw.png" title="安裝前的安全性警告 - 台灣版" rel="tw-screenshot"><img src="screenshot/before-install-fxtw.png" alt="安裝前的安全性警告 - 台灣版" /></a>
             <a href="screenshot/fxtw-about.png" title="關於 Mozilla Firefox" rel="tw-screenshot"><img src="screenshot/fxtw-about.png" alt="關於 Mozilla Firefox" /></a>
         </div>
-        <!--
-        <a href="screenshot/fxtw-install-01.png" title="Firefox 台灣版安裝 1" rel="tw-screenshot"><img src="screenshot/fxtw-install-01.png" alt="Firefox 台灣版安裝 1" /></a>
-        <a href="screenshot/fxtw-install-02.png" title="Firefox 台灣版安裝 2" rel="tw-screenshot"><img src="screenshot/fxtw-install-02.png" alt="Firefox 台灣版安裝 2" /></a>
-        <a href="screenshot/fxtw-install-03.png" title="Firefox 台灣版安裝 3" rel="tw-screenshot"><img src="screenshot/fxtw-install-03.png" alt="Firefox 台灣版安裝 3" /></a>
-        <a href="screenshot/fxtw-install-04.png" title="Firefox 台灣版安裝 4" rel="tw-screenshot"><img src="screenshot/fxtw-install-04.png" alt="Firefox 台灣版安裝 4" /></a>
-        <a href="screenshot/fxtw-install-05.png" title="Firefox 台灣版安裝 5" rel="tw-screenshot"><img src="screenshot/fxtw-install-05.png" alt="Firefox 台灣版安裝 5" /></a>
-        <a href="screenshot/fxtw-install-06.png" title="Firefox 台灣版安裝 6" rel="tw-screenshot"><img src="screenshot/fxtw-install-06.png" alt="Firefox 台灣版安裝 6" /></a>
-        <a href="screenshot/fxtw-install-07.png" title="Firefox 台灣版安裝 7" rel="tw-screenshot"><img src="screenshot/fxtw-install-07.png" alt="Firefox 台灣版安裝 7" /></a>
-        <a href="screenshot/fxtw-install-10.png" title="Firefox 台灣版安裝 10" rel="tw-screenshot"><img src="screenshot/fxtw-install-10.png" alt="Firefox 台灣版安裝 10" /></a>
-        <a href="screenshot/fxtw-install-11.png" title="Firefox 台灣版安裝 11" rel="tw-screenshot"><img src="screenshot/fxtw-install-11.png" alt="Firefox 台灣版安裝 11" /></a>
-        <a href="screenshot/fxtw-firstrun.png" title="First Run 畫面 - 台灣版 完整安裝" rel="tw-screenshot"><img src="screenshot/fxtw-firstrun.png" alt="First Run 畫面" /></a>
-        <a href="screenshot/desktop-normal.png" title="安裝後桌面圖示 - 正常版" rel="tw-screenshot"><img src="screenshot/desktop-normal.png" alt="安裝後桌面圖示 - 正常版" /></a>
-        <a href="screenshot/desktop-fxtw.png" title="安裝後桌面圖示 - 台灣版" rel="tw-screenshot"><img src="screenshot/desktop-fxtw.png" alt="安裝後桌面圖示 - 台灣版" /></a>
-        <a href="screenshot/install-uninstall-normal.png" title="新增或移除程式 - 正常版" rel="tw-screenshot"><img src="screenshot/install-uninstall-normal.png" alt="新增或移除程式 - 正常版" /></a>
-        <a href="screenshot/install-uninstall-fxtw.png" title="新增或移除程式 - 台灣版 - 與正常版一模一樣" rel="tw-screenshot"><img src="screenshot/install-uninstall-fxtw.png" alt="新增或移除程式 - 台灣版" /></a>
-        -->
     </section>
     
-<!--    <label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block;text-align:right;color:gray;display:none">
-        <input id="hidden_desc" value="true" onclick="hidden_descript(this)" type="checkbox">進階選項：隱藏套件說明及相關連結
-    </label>-->
     <form name="select_and_install" onsubmit="doInstall(); return false;">
         <div id="mainContent">
             <div id="installList" class="contentboard">
@@ -214,7 +195,7 @@
                             <div class="extension-info">
                                 <div class="install-options">
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 首頁" value="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.2.0.xpi" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.2.0.xpi">+立即安裝</a>
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.2.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_twhomepage']);">+立即安裝</a>
                                 </div>
                                 <div class="tracking"><img src="track" alt="tracking" />美商謀智透過本套件進行行為追蹤</div>
                                 <blockquote>Firefox 訂製首頁，包含最近瀏覽頁面、最常瀏覽頁面及新分頁等</blockquote>
@@ -240,7 +221,7 @@
                             <div class="extension-info">
                                 <div class="install-options">
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="附加元件管理器" value="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.2.0.xpi" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.2.0.xpi">+立即安裝</a>
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.2.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_tpmanager']);">+立即安裝</a>
                                 </div>
                                 <div class="tracking"><img src="track" alt="tracking" />美商謀智透過本套件進行行為追蹤</div>
                                 <blockquote>用來管理Firefox 的附加元件工具。</blockquote>
@@ -259,7 +240,7 @@
                             <div class="extension-info">
                                 <div class="install-options">
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 捷徑" value="https://addons.myfirefox.com.tw/addons/quicklaunch/quicklaunch-1.0.0.xpi" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/quicklaunch/quicklaunch-1.0.0.xpi">+立即安裝</a>
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/quicklaunch/quicklaunch-1.0.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_quicklaunch']);">+立即安裝</a>
                                 </div>
                                 <div class="tracking"><img src="track" alt="tracking" />美商謀智透過本套件進行行為追蹤</div>
                                 <blockquote>Firefox 捷徑讓您輕鬆啟動記事本、小畫家、小算盤並自訂常用的系統工具。</blockquote>
@@ -281,7 +262,7 @@
                             <div class="extension-info">
                                 <div class="install-options">
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="火狐工具集" value="https://addons.myfirefox.com.tw/addons/twimprove/fx-improvement-0.2.0.xpi" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twimprove/fx-improvement-0.2.0.xpi">+立即安裝</a>
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twimprove/fx-improvement-0.2.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_fx-improvement']);">+立即安裝</a>
                                 </div>
                                 <div class="tracking"><img src="track" alt="tracking" />美商謀智透過本套件進行行為追蹤</div>
                                 <blockquote>提升使用者體驗的新功能：意見回饋、書籤管理、隱私瀏覽模式、網站安全標誌、恢復先前關閉的網頁、清除歷史紀錄等。</blockquote>
@@ -319,7 +300,7 @@
                             <div class="extension-info">
                                 <div class="install-options">
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="分頁管理器" value="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-2.0.0.xpi" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-2.0.0.xpi">+立即安裝</a>
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-2.0.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_tabimprovelite']);">+立即安裝</a>
                                 </div>
                                 <div class="tracking"><img src="track" alt="tracking" />美商謀智透過本套件進行行為追蹤</div>
                                 <blockquote>在目前開啟的分頁標籤右側開啟新分頁，雙擊關閉分頁。並在右側添加新分頁按钮。並可設置在新分頁打開URL和搜尋结果</blockquote>
@@ -339,7 +320,7 @@
                             <div class="extension-info">
                                 <div class="install-options">
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="網頁截圖" value="https://addons.myfirefox.com.tw/addons/easyscreenshot/easyscreenshot-0.2.0.xpi" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/easyscreenshot/easyscreenshot-0.2.0.xpi">+立即安裝</a>
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/easyscreenshot/easyscreenshot-0.2.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_easyscreenshot']);">+立即安裝</a>
                                 </div>
                                 <blockquote>可以將整個網頁畫面輕鬆地擷取成一個圖檔，是台灣版 Firefox 最受歡迎的功能之一。</blockquote>
                                 <div class="extension-description">
@@ -360,7 +341,7 @@
                             <div class="extension-info">
                                 <div class="install-options">
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="字體設定" value="https://addons.myfirefox.com.tw/addons/fontsetter/fontsetter-1.0.0.xpi" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/fontsetter/fontsetter-1.0.0.xpi">+立即安裝</a>
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/fontsetter/fontsetter-1.0.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_fontsetter']);">+立即安裝</a>
                                 </div>
                                 <blockquote>一鍵切換目錄與網頁內容的字體。</blockquote>
                                 <div class="extension-description">
@@ -378,7 +359,7 @@
                             <div class="extension-info">
                                 <div class="install-options">
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="快速縮放" value="https://addons.myfirefox.com.tw/addons/zoompanel/zoompanel-2.0.0.xpi" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/zoompanel/zoompanel-2.0.0.xpi">+立即安裝</a>
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/zoompanel/zoompanel-2.0.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_zoompanel']);">+立即安裝</a>
                                 </div>
                                 <blockquote>在狀態欄上使用快速縮放功能。</blockquote>
                                 <div class="extension-description">
@@ -396,7 +377,7 @@
                             <div class="extension-info">
                                 <div class="install-options">
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="佈景主題" value="https://addons.mozilla.org/firefox/downloads/latest/10900/update.rdf" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.mozilla.org/firefox/downloads/latest/10900/update.rdf">+立即安裝</a>
+                                    <a class="direct-install" href="https://addons.mozilla.org/firefox/downloads/latest/10900/update.rdf" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_personasplus']);">+立即安裝</a>
                                 </div>
                                 <blockquote>提供多款最新精選的瀏覽器佈景主題，定期更新，讓你方便為 Firefox 作不同的裝扮。</blockquote>
                                 <div class="extension-description">
@@ -413,7 +394,7 @@
                 <header>
                     <h3>批次安裝勾選套件！</h3>
                 </header>
-                <span class="install"><input value="安裝套件" type="submit" id="install-extensions" class="button" /></span>
+                <span class="install"><input value="安裝套件" type="submit" id="install-extensions" class="button"  onclick="_gaq.push(['_trackEvent', 'Install', 'batch_submit', 'firefox-tw']);"/></span>
                 <div class="description">
                     <p>按下「安裝套件」按鈕後，請點選上方對話框之「允許」以開始下載，再行按下「安裝套件」鈕。</p>
                     <p>Firefox 會對各套件檔案的網址分別進行確認，若點選套件較多則反應會稍慢，請耐心等候。</p>
@@ -424,9 +405,9 @@
     
     <section id="license">
         <h3>授權說明</h3>
-        <p><a href="http://mozilla.com.tw/firefox/tw_beta/" target="_blank">Firefox 台灣版</a> 係由 Mozilla Taiwan（美商謀智台灣分公司）製作，採用與一般版 Firefox 相同的 <a href="https://www.mozilla.org/MPL/2.0/" target="_blank">Mozilla Public License 2.0</a> 條款進行授權，其內建之特製套件也均為 MPL 2.0 授權。</p>
+        <p>Firefox 台灣版係由 Mozilla Taiwan（美商謀智台灣分公司）製作，採用與一般版 Firefox 相同的 <a href="https://www.mozilla.org/MPL/2.0/" target="_blank">Mozilla Public License 2.0</a> 條款進行授權，其內建之特製套件也均為 MPL 2.0 授權。</p>
         <p>本頁所提供的「Firefox 台灣版下載」與各套件下載安裝連結，均直接連回 Mozilla Taiwan 網站。MozTW 社群僅因關注而義務進行分析、提供說明與下載，未儲存或暫存其安裝檔案，亦不對 Firefox 台灣版及各套件的功能負責。</p>
-        <p>如本頁各項連結因 Mozilla Taiwan 公司網站修改而失效，請協助至 <a href="https://groups.google.com/group/moztw-general">moztw-general 郵件群組</a> 回報，我們將會儘速修復。</p>
+        <p>如本頁各項連結因 Mozilla Taiwan 公司網站修改而失效，請協助至 <a href="https://groups.google.com/group/moztw-general"  onclick="_gaq.push(['_trackEvent', 'Outgoing', 'moztw-general', 'firefox-tw']);">moztw-general 郵件群組</a> 回報，我們將會儘速修復。</p>
     </section>
 
 		</div>
@@ -439,7 +420,7 @@
 			</div>
 
 			<div class="copyright">
-				<p>除另有註明外，本站內容皆採 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/deed.zh_TW">創用CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a> 或更新版本授權大眾使用</p>
+				<p>除另有註明外，本站內容皆採 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/deed.zh_TW"  onclick="_gaq.push(['_trackEvent', 'Outgoing', 'CC', 'firefox-tw']);">創用CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a> 或更新版本授權大眾使用</p>
 			</div>
 		</div>
 	</footer>
