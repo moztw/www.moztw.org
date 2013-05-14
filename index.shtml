@@ -12,21 +12,6 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
 }
 
-.front-feature #mobile_link {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 595px;
-    height: 100%;
-    z-index: 200;
-    text-decoration: none;
-}
-.front-feature #mobile_link:hover, .front-feature #mobile_link:visited {
-    background: none;
-    text-decoration: none;
-}
-
 #feature-content h2 {
     margin-bottom: 5px;
 }
@@ -50,7 +35,7 @@
 #front-feature .download {
     padding: 12px 0 10px 15px !important;
     margin-bottom: 15px;
-    box-shadow: 0 0 3px #5F8FBE;
+/*    box-shadow: 0 0 3px #5F8FBE;*/
 }
 
 #front-feature .dl-mobile {
@@ -99,252 +84,141 @@
 	height: 64px;
 }
 
-.key-point {
-    background-color:#0055a0;
-    background-repeat:repeat-x;
-    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px #1875B5;
-    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -khtml-gradient(linear,left top,left bottom,from(#0f9fdb),to(#0055a0));
-    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -moz-linear-gradient(#0f9fdb,#0055a0);
-    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -ms-linear-gradient(#0f9fdb,#0055a0);
-    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -webkit-gradient(linear,left top,left bottom,color-stop(0%,#0f9fdb),color-stop(100%,#0055a0));
-    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -webkit-linear-gradient(#0f9fdb,#0055a0);
-    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, -o-linear-gradient(#0f9fdb,#0055a0);
-    background: url("/images/firefoxos-giantfox-back.png") no-repeat scroll 344px -49px, linear-gradient(#0f9fdb,#0055a0);
-}
-.key-point.coscup {
-    background: url("images/pairslogo.jpg") 75% center no-repeat #D3A77D;
-    background-size: auto 100%;
+#fxtw {
+    background: transparent;
+    display: block;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    width: 500px;
 }
 
-.homepage .download {
-    width: 250px;
+#fxtw:hover {
+    background: transparent;
 }
-
-
-#front-feature .mwc-box {
-    color: #FFFFFF;
-    left: 336px;
-    letter-spacing: 0.05em;
+#fxtw .frame {
     position: absolute;
-    text-shadow: 2px 1px 2px #185199;
-    top: 45px;
-    width: 425px;
-}
-.phone-container {
-    height: 586px;
-    margin-left: 166px;
-    left: 630px;
-    position: absolute;
-    top: 20px;
-    width: 927px;
-    z-index: 120;
-    -webkit-transition:left 0.5s ease;
-    -moz-transition:left 0.5s ease;
-    -o-transition:left 0.5s ease;
-    -ms-transition:left 0.5s ease;
-    transition:left 0.5s ease;
-}
-.front-feature:hover .phone-container {
-    left: 400px;
-}
-.front-feature:hover #screen-os {
-    -moz-animation: os-screenslide 20s ease infinite alternate;
-    -webkit-animation: os-screenslide 20s ease infinite alternate;
-    animation: 20s ease 0s alternate none infinite os-screenslide;
-}
-.phone-container .phone {
-    height: 586px;
-    width: 327px;
-}
-.phone-container .phone-overlay {
-    background: url("/images/phone-overlay.png") no-repeat scroll 0 0 transparent;
-    height: 586px;
-    left: 0;
-    position: absolute;
+    right: -50px;
     top: 0;
-    width: 327px;
-}
-.phone-container .screen {
-    height: 373px;
-    left: 33px;
-    position: absolute;
-    top: 66px;
-    width: 226px;
-    overflow: hidden;
-}
-.phone-container #screen-os {
-    -webkit-transition:background-position 1s ease;
-    -moz-transition:background-position 1s ease;
-    -o-transition:background-position 1s ease;
-    -ms-transition:background-position 1s ease;
-    transition:background-position 1s ease;
-    background: url("/images/phone-os-screenshots.jpg") repeat-x scroll 0 0 transparent;
-}
-@keyframes os-screenslide {
-	0% { background-position: -244px 0 }
-	18% { background-position: -244px 0 }
-	20% { background-position: -488px 0 }
-	38% { background-position: -488px 0 }
-	40% { background-position: -732px 0 }
-	58% { background-position: -732px 0 }
-	60% { background-position: -488px 0 }
-	78% { background-position: -488px 0 }
-	80% { background-position: -244px 0 }
-	98% { background-position: -244px 0 }
-	100% { background-position: 0 0 }
-}
-@-moz-keyframes os-screenslide {
-	0% { background-position: -244px 0 }
-	10% { background-position: -244px 0 }
-	20% { background-position: -488px 0 }
-	30% { background-position: -488px 0 }
-	40% { background-position: -732px 0 }
-	50% { background-position: -732px 0 }
-	60% { background-position: -488px 0 }
-	70% { background-position: -488px 0 }
-	80% { background-position: -244px 0 }
-	90% { background-position: -244px 0 }
-	100% { background-position: 0 0 }
-}
-@-webkit-keyframes os-screenslide {
-	0% { background-position: -244px 0 }
-	10% { background-position: -244px 0 }
-	20% { background-position: -488px 0 }
-	30% { background-position: -488px 0 }
-	40% { background-position: -732px 0 }
-	50% { background-position: -732px 0 }
-	60% { background-position: -488px 0 }
-	70% { background-position: -488px 0 }
-	80% { background-position: -244px 0 }
-	90% { background-position: -244px 0 }
-	100% { background-position: 0 0 }
+    z-index: 50;
 }
 
-
-
-#front-feature .mwc-box h2 {
-    color: #FFFFFF;
-    font-size: 24px;
-    font-family: "Helvetica", "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
-    line-height: 1.7em;
-    text-align: justify;
-    margin-bottom: 0.5em;
-    position: absolute;
+#fxtw .frame img {
+    height: 255px;
 }
 
-#front-feature .mwc-box h2 span {
-    font-weight: normal;
-    font-size: 18px;
+#fxtw .title {
+    background-image: -webkit-linear-gradient(top, #0F9FDB, #0055A0);
+    background: linear-gradient(#0F9FDB, #0055A0) repeat scroll 0 0 transparent;    
+    border-radius: 5px 5px 5px 5px;
+    bottom: -35px;
+    box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.33);
+    color: white;
     display: block;
-}
-
-#front-feature .mwc-box .mwc-intro {
-    font-size: 24px;
-    line-height: 1.5em;
-    text-align: justify;
-    margin: 0 0 0.5em;
-    padding: 0;
+    font: bold 21px Helvetica,"Heiti TC","Apple LiGothic","微軟正黑體",Geneva,sans-serif;
+    left: 270px;
+    letter-spacing: 0.1em;
+    opacity: 0.8;
+    overflow: visible;
+    padding: 7px 215px 55px 240px;
     position: absolute;
-    overflow: hidden;
+    text-align: right;
+    text-shadow: 0 2px 5px black;
+    white-space: nowrap;
+    width: 255px;
+    z-index: 25;
+    transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
 }
-.phone-container #screen-os {
-    -webkit-transition:background-position 1s ease;
-    -moz-transition:background-position 1s ease;
-    -o-transition:background-position 1s ease;
-    -ms-transition:background-position 1s ease;
-    transition:background-position 1s ease;
-    background: url("/images/phone-os-screenshots.jpg") repeat-x scroll 0 0 transparent;
+#fxtw:hover .title {
+    left: 65px;
+    opacity: 1;
+    padding: 8px 215px 55px 15px;
+    transition: all 0.5s ease 0s;
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
 }
 
-.mwc-intro {
-    display: none;
-}
-.mwc-box h2 {
+#fxtw .title .mt {
     display: block;
+    font-size: 33px;
+    letter-spacing: 0.2em;
+    margin: 0 -0.2em 0 0;
+}
+#fxtw .title .fxeng {
+    letter-spacing: 0;
+}
+#fxtw > img {
+    border: 1px solid #AAAAAA;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    height: 355px;
+    opacity: 0.33;
+    position: absolute;
+    right: -40px;
+    top: -40px;
+    transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;    
+}
 
+#fxtw:hover > img {
+    opacity: 0.5;
+    filter: alpha(opacity=75);
 }
-#front-feature:hover .mwc-box h2 {
-    display: none;
-}
-#front-feature:hover .mwc-box .mwc-intro {
-    display: block;
-}
-
 
 @media only screen and (max-width : 500px) {
     #front-feature #feature-content {
         display: none;
     }
     #front-feature {
-        background-position: bottom 0px;
-        background-size: 100%;
-        padding-bottom: 200px;
-        background-repeat: no-repeat;
+        padding-bottom: 260px;
     }
-    #front-feature .mwc-box {
-        left: 0;
+    #front-feature #fxtw {
         top: 0;
-        width: 85%;
-    }
-    #front-feature .mwc-box h2 {
-        font-size: 22px;
-        line-height: 1.5em;
-        -webkit-transition: none;
-        -moz-transition: none;
-        -o-transition: none;
-        -ms-transition: none;
-        transition: none;
-    }
-    #front-feature:hover .mwc-box h2 {
-        opacity: 1;
-    }
-    #front-feature .mwc-box .mwc-intro {
-        display: none;
-    }
-    
-    #front-feature.coscup {
-        background-position: center 60%;
-        background-size: 105% auto;
-        padding-bottom: 245px;
-    }
-    
-    coscup {
-        background-position: 0px 0px !important;
-        background-size: 90% !important;
-        padding-bottom: 200px;
-        background-repeat: no-repeat;
-        background: #78B8D0 !important;
-    }
-    .front-feature #mobile_link {
         width: 100%;
-        height: 100%;
     }
+    #front-feature #fxtw > img {
+        top: -30px;
+    }
+    #front-feature #fxtw .title {
+        left: auto;
+        opacity: 1;
+        padding-left: 250px;
+        padding-right: 40px;
+        padding-top: 3px;
+        right: -21px;
+        text-align: right;
+        top: 230px;
+        z-index: 55;
+    }
+    
 }
-   
+
 -->
 </style>
-<!--[if IE]>
+<!--[if IE 6]>
 <style>
-    .key-point {
-        background-position-x: 344px;
-    }
-</style>
-<![endif]-->
-<!--[if lte IE 8]>
-<style>
-.frontcolumn {
-    padding-right: 2%;
+#fxtw {
+    overflow: hidden;
+    cursor: pointer;
+    height: 280px;
 }
-#front-feature .download ul, #planets ul {
-    margin-left: 0;
+#fxtw:hover {
+    margin-top: -10px;
+    height: 290px;
 }
-.front-feature #mobile_link {
-    height: 330px;
-    width: 70%;
-    z-index: 130;
-}
-#front-feature .mwc-box .mwc-intro {
+#fxtw .title {
     display: none;
+}
+#fxtw img {
+    left: 27px;
 }
 </style>
 <![endif]-->
@@ -353,25 +227,14 @@
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-<div class="key-point front-feature" id="front-feature">	
-  <div class="phone-container" id="phone-common">
-    <div class="phone">
-      <div id="screen-os" class="screen"></div>
-      <div class="phone-overlay"></div>
-    </div>
-  </div>
-
-  <div class="mwc-box">
-    <h2>Firefox OS 來了！<span>開放的行動裝置平台在世界行動通訊大會上首次亮相，帶領下一群數十億智慧型手機使用者進入網路！</span></h2>
-    <div class="mwc-intro">
-      <p>立即進入<br>Mozilla MWC 網站</p>
-    </div>
-  </div>
-
-  <a id="mobile_link" href="http://www.mozilla.org/firefox/partners/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'mozilla.org/partner', 'Frontpage']);"></a>
-
+<div class="key-point front-feature" id="front-feature">
+  <a id="fxtw" href="/firefox/tw" title="Firefox台灣版大解密">
+      <p class="title">美商謀智 <span class="fxeng">Firefox</span> 台灣版<span class="mt">大解密</span></p>
+      <div class="frame"><img src="foxmosa/images/30series/30foxmosa-16.gif"></div>
+      <img src="firefox/tw/screenshot/fxtw-twhomepage-home-small.png" alt="">
+  </a>
   <div id="feature-content">
-    <h2><a class="fx-link" href="/firefox/"><img src="images/logo-wordmark-mozilla.png" alt="Firefox" height="84" width="240"></a></h2>
+    <h2><a class="fx-link" href="/firefox/"><img src="images/logo-wordmark-mozilla-small.png" alt="Firefox" height="84" width="240"></a></h2>
     <div class="download dl-box">
 		<h3><a href="/firefox/" title="最好的瀏覽器"><strong class="downloadText">下載 Firefox</strong></a></h3>
  		<div style='margin-top: 5px;'>
@@ -407,10 +270,14 @@
   	<p>網路發展至今，人人都該具備在網路上創作的能力，Webmaker 計畫以各種簡單有趣的專案，讓大家嘗試混搭網頁、踏出網頁創作的第一步。</p>
   </div>-->
 <div class="frontcolumn">
-  <h2><a href="/events/sfd2012">《Code Rush》紀錄片<img src="/images/mozilla.png" alt="Mozilla Logo"  class="promo" style="width:84px;height:64px;"></a></h2>
-  <p>本片紀錄 Netscape 工程師釋出原始碼，成為 Mozilla 的故事。為迎接 Mozilla 專案邁入第 15 年，MozTW 特別提供全片線上播映、下載及 <a href="/events/sfd2012/#get_dvd">DVD 索取活動</a>。</p>
+  <h2><a href="http://www.mozilla.org/firefox/partners/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'mozilla.org/partner', 'Frontpage']);">Firefox OS<img src="/images/firefox-os-icon1small.png" alt=""  class="promo" style="width: 89px; height: 72px;"></a></h2>
+  <p>完全使用 HTML5 與開放網路標準打造的開放行動平台，將帶領次世代數十億使用者連結網路。</p>
 </div>
 
+<!--<div class="frontcolumn">
+  <h2><a href="/events/sfd2012">《Code Rush》紀錄片<img src="/images/mozilla.png" alt="Mozilla Logo"  class="promo" style="width:84px;height:64px;"></a></h2>
+  <p>本片紀錄 Netscape 工程師釋出原始碼，成為 Mozilla 的故事。為迎接 Mozilla 專案邁入第 15 年，MozTW 特別提供全片線上播映、下載及 <a href="/events/sfd2012/#get_dvd">DVD 索取活動</a>。</p>
+</div>-->
 
   <!--<div class="frontcolumn hide">
     <h2><a href="https://demos.mozilla.org/">Web O’ Wonder<img src="/images/HTML5_Badge_64.png" alt="HTML5 Logo"  class="promo"></a></h2>
@@ -465,7 +332,7 @@
   </div>
   </div>
 <script type="text/javascript" 
-src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript">
 /*
  * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
@@ -513,9 +380,6 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 		},
 		5
 	);
-	
-
-
 })(jQuery);
 </script>
 <!--#include virtual="/inc/footer.html" -->
