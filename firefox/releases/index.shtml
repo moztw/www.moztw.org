@@ -232,6 +232,10 @@ section .appendix {
                     <ul>
                       <li>
                         <span class="tag tag-new">全新功能</span>
+                        <h5>Social API <a href="http://blog.mozilla.org/blog/2013/05/14/stay-social-with-firefox">支援了多個提供者</a>。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-new">全新功能</span>
                         <h5>將「不要追蹤我」（Do Not Track, DNT）功能改進為<a href=" https://blog.mozilla.org/privacy/2013/01/28/newdntui/">具有三種狀態的使用介面</a>。</h5>
                       </li>
                       <li>
@@ -240,15 +244,11 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>初步實作「Firefox 健康檢查報告」。（見 <a href="https://blog.mozilla.org/metrics/fhr-faq/">FAQ</a>）</h5>
+                        <h5>初步實作了<a href="http://blog.mozilla.org/futurereleases/2013/05/14/firefox-heal-thyself/">Firefox 健康檢查報告</a>。</h5>
                       </li>
                       <li>
                         <span class="tag tag-changed">變更</span>
                         <h5>可在「新分頁」頁面復原已移除的縮圖。</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-changed">變更</span>
-                        <h5>附加元件有關收藏庫 <a href="http://blog.bonardo.net/2013/01/29/add-ons-devs-heads-up-history-api-removals-in-places">History 的 API 將被移除</a>。</h5>
                       </li>
                       <li>
                         <span class="tag tag-changed">變更</span>
@@ -286,6 +286,10 @@ section .appendix {
                         <span class="tag tag-fixed">修正</span>
                         <h5>需統整瀏覽記錄和下載記錄的清除，以免清除下載記錄時產生混淆（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=847627">bug 847627</a>）。</h5>
                       </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>21.0: 安全性更性詳見<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">這裡</a>。</h5>
+                      </li>
 
                       <li class="complete">
                         請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&f1=target_milestone&f2=cf_status_firefox21&o1=anywords&o2=anywords&resolution=FIXED&v1=mozilla21%2C%20Firefox%2021&v2=fixed%2Cverified&order=bug_id&limit=0">完整變更清單</a>。
@@ -299,6 +303,20 @@ section .appendix {
                 <h3>已知問題</h3>
                 <div class="section-contents">
                   <ul>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>在希伯來語的 Windows 系統中，部分以斜體顯示的文字無法正確顯示（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=837498">bug 837498</a>）)。</h5>
+                      <div class="status">
+                        <span class="status-unresolved">v21 未修復</span>
+                        <span class="status-resolved">
+                          <a href="http://www.mozilla.org/en-US/firefox/22.0a2/auroranotes">v22 已修復</a>
+                        </span>
+                      </div>
+                    </li>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>YouTube 的 Nvidia HTML 5 立體聲 3D 影片全螢幕播放支援無法使用（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=869866">bug 869866</a>）。</h5>
+                    </li>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
                       <h5>
@@ -406,6 +424,24 @@ section .appendix {
 
         </div>
     </div>
+
+    <div id="side" class="right">
+      <ul id="nav">
+        <li><a href="/firefox/">回到 Firefox 首頁</a></li>
+        <li><a href="#downloadandinstall">下載與安裝</a></li>
+        <li><a href="#knownissues">已知問題</a></li>
+        <li><a href="#troubleshooting">疑難排解</a></li>
+        <li><a href="#FAQ">常見問題</a></li>
+        <li><a href="#contributedbuilds">非官方建製版</a></li>
+        <li><a href="#links">其他資源與連結</a></li>
+      </ul>
+    </div>
+
+</div>
+
+
+
+<!--#include virtual="/inc/footer.html" -->
 
     <div id="side" class="right">
       <ul id="nav">
