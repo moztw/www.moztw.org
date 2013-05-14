@@ -109,8 +109,11 @@
 }
 
 #fxtw .title {
+    background-color: #0F9FDB;
     background-image: -webkit-linear-gradient(top, #0F9FDB, #0055A0);
-    background: linear-gradient(#0F9FDB, #0055A0) repeat scroll 0 0 transparent;    
+    background-image: -ms-linear-gradient(top, #0F9FDB, #0055A0);
+    background-image: -o-linear-gradient(top, #0F9FDB, #0055A0);
+    background-image: linear-gradient(#0F9FDB, #0055A0);    
     border-radius: 5px 5px 5px 5px;
     bottom: -35px;
     box-shadow: 3px -2px 10px rgba(0, 0, 0, 0.33);
@@ -203,22 +206,24 @@
 
 -->
 </style>
+<!--[if lte IE 8]>
+<style>
+.frontcolumn {
+    padding-right: 2%;
+    width: 31%;
+}
+</style>
+<![endif]-->
 <!--[if IE 6]>
 <style>
 #fxtw {
     overflow: hidden;
     cursor: pointer;
-    height: 280px;
-}
-#fxtw:hover {
-    margin-top: -10px;
-    height: 290px;
 }
 #fxtw .title {
-    display: none;
-}
-#fxtw img {
-    left: 27px;
+    background-color: #0F9FDB;
+    left: 65px;
+    padding: 8px 215px 55px 15px;
 }
 </style>
 <![endif]-->
