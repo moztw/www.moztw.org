@@ -1,6 +1,7 @@
 <!--#include virtual="/inc/new_meta.html" -->
     <title>美商謀智台灣版 Firefox</title>
     <meta name="description" content="說明美商謀智台灣版 Firefox 及原始正體中文版差異">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="og:type" content="website">
     <meta property="og:url" content="//moztw.org/firefox/tw/">
     <meta property="og:image" content="//moztw.org/images/foxmosa-icon.gif">
@@ -336,7 +337,7 @@
                 <header>
                     <h3>批次安裝勾選套件！</h3>
                 </header>
-                <span class="install"><input value="安裝套件" type="submit" id="install-extensions" class="button"  onclick="_gaq.push(['_trackEvent', 'Install', 'batch_submit', 'firefox-tw']);"/></span>
+                <span class="install"><input value="安裝套件" type="submit" id="install-extensions" class="button" /></span>
                 <div class="description">
                     <p>按下「安裝套件」按鈕後，請點選上方對話框之「允許」以開始下載，再行按下「安裝套件」鈕。</p>
                     <p>Firefox 會對各套件檔案的網址分別進行確認，若點選套件較多則反應會稍慢，請耐心等候。</p>

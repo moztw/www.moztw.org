@@ -178,21 +178,24 @@
 #license p a {
     vertical-align: baseline;
 }
-@media screen and(max-width: 1000px), screen and(max-device-width: 1000px) {
+@media screen and (max-width: 1000px), screen and (max-device-width: 1000px) {
     #fxtw-download.linux header h3, #fxtw-download.unrecognized header h3 {
         line-height: 93px;
         margin: 10px 0 -10px;
     }
 }
-@media screen and(max-width: 749px), screen and(max-device-width: 749px) {
+@media screen and (max-width: 749px), screen and (max-device-width: 749px) {
     #fxtw-download header h3 {
         line-height: 93px;
         margin: 10px 0 -10px;
     }
 }
-@media screen and(max-width: 650px), screen and(max-device-width: 650px) {
+@media screen and (max-width: 650px), screen and (max-device-width: 650px) {
     #main-feature h1 {
         font-size: 42px;
+    }
+    #fxtw-download {
+        text-align: center;
     }
     h3 {
         font-size: 24px;

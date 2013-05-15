@@ -271,6 +271,7 @@ h1, h2, h3, h4, h5, h6, .large {
 
 #main-feature {
   text-align: center;
+  padding: auto 10px;
 }
 
 #main-feature h1 {
@@ -557,7 +558,7 @@ input[type=text]:focus, input[type=email]:focus {
   
   #outer_wrapper {
       width: auto;
-      margin: auto 20px;
+      margin: auto 0px;
   }
 }
 
@@ -575,26 +576,41 @@ input[type=text]:focus, input[type=email]:focus {
 }
 
 @media screen and (max-width: 520px), screen and (max-device-width: 520px){
+  #masthead #moztw-link {
+     left: 15px;
+     top: -16px;
+  }
   #masthead #moztw-link-text {
-      font-size: 24px;
+      font-size: 31px;
   }
   #moztw-link-english {
-      font-size: 12px;
+      font-size: 18px;
+      letter-spacing: 0;
   }
   #moztw-link-chinese {
-      font-size: 12px;
-      left: 55px;
+      font-size: 16px;
+      left: 60px;
+      letter-spacing: 1px;
   }
   #colophon .container {
-    width: 100%;
+      width: 100%;
   }
   
   #outer_wrapper {
-    width: 100%;
+      width: 100%;
+  }
+  
+  #main-feature {
+    padding: 32px 10px;
   }
 
   #main-feature h1 {
-    font-size: 72px;
+      padding: auto 10px;
+      font-size: 72px;
+  }
+  
+  #main-feature h2 {
+      font-size: 20px;
   }
 
   #nav-main {
@@ -644,3 +660,5 @@ input[type=text]:focus, input[type=email]:focus {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
   }
 }
+
+
