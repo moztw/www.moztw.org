@@ -229,14 +229,14 @@
 
 <div class="key-point front-feature" id="front-feature">
   <a id="fxtw" href="/firefox/tw" title="Firefox台灣版大解密">
-      <p class="title">美商謀智 <span class="fxeng">Firefox</span> 台灣版<span class="mt">大解密</span></p>
+      <p class="title">美商謀智台灣版 <span class="fxeng">Firefox</span> <span class="mt">大解密</span></p>
       <div class="frame"><img src="foxmosa/images/30series/30foxmosa-16.gif"></div>
       <img src="firefox/tw/screenshot/fxtw-twhomepage-home-small.png" alt="">
   </a>
   <div id="feature-content">
     <h2><a class="fx-link" href="/firefox/"><img src="images/logo-wordmark-mozilla-small.png" alt="Firefox" height="84" width="240"></a></h2>
     <div class="download dl-box">
-		<h3><a href="/firefox/" title="最好的瀏覽器"><strong class="downloadText">下載 Firefox</strong></a></h3>
+		<h3><a href="/firefox/" title="最好的瀏覽器"><strong class="downloadText">Firefox 正體中文版</strong></a></h3>
  		<div style='margin-top: 5px;'>
 		<!--#include virtual="/inc/dlff.html" -->
 		</div>
