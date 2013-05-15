@@ -118,7 +118,7 @@
             <a href="screenshot/default-config-twhome-disabled.png" title="偏好設定 預設值 - 停用所有套件" rel="tw-screenshot"><img src="screenshot/default-config-twhome-disabled.png" alt="偏好設定 預設值 - 停用所有套件" /></a>
        </div> 
         
-        <p>Firefox 台灣版的安裝程式，標示為「美商謀智股份有限公司台灣分公司」發行。關於畫面則會標示「美商謀至台灣分公司 MozillaTaiwan」與發行日期。</p>
+        <p>Firefox 台灣版的安裝程式，標示為「美商謀智股份有限公司台灣分公司」發行。關於畫面則會標示「美商謀智台灣分公司 MozillaTaiwan」與發行日期。</p>
         <div id="imgs">
             <a href="screenshot/before-install-normal.png" title="安裝前的安全性警告 - 原版" rel="tw-screenshot"><img src="screenshot/before-install-normal.png" alt="安裝前的安全性警告 - 正常版" /></a>
             <a href="screenshot/before-install-fxtw.png" title="安裝前的安全性警告 - 台灣版" rel="tw-screenshot"><img src="screenshot/before-install-fxtw.png" alt="安裝前的安全性警告 - 台灣版" /></a>
