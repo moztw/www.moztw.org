@@ -140,7 +140,7 @@
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 首頁" value="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.2.0.xpi" addon="twhomepage" type="checkbox">列入安裝清單</label> |
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.2.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_twhomepage']);">+立即安裝</a>
                                 </div>
-                                <div class="tracking"><img src="track" alt="tracking" />美商謀智透過本套件進行行為追蹤</div>
+                                <div class="tracking"><a href="https://github.com/MozillaOnline/twhp/blob/master/chrome_ntab/content/ntab/track.js" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'github', 'mozillaonline-tpmanager']);"><img src="track" alt="tracking" />美商謀智透過本套件進行行為追蹤</a></div>
                                 <blockquote>Firefox 訂製首頁，包含最近瀏覽頁面、最常瀏覽頁面及新分頁等</blockquote>
                                 <div class="extension-description">
                                     <p>安裝後會新增以下三個頁面，並將預設頁面設置為 <code>about:twhome</code>。</p>
@@ -166,7 +166,7 @@
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="附加元件管理器" value="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.2.0.xpi" addon="tpmanager" type="checkbox">列入安裝清單</label> |
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.2.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_tpmanager']);">+立即安裝</a>
                                 </div>
-                                <div class="tracking"><img src="track" alt="tracking" />美商謀智透過本套件進行行為追蹤</div>
+                                <div class="tracking"><a href="https://github.com/MozillaOnline/tpmanager/blob/master/content/overlay-browser.js" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'github', 'mozillaonline-tpmanager']);"><img src="track" alt="tracking" />美商謀智透過本套件進行行為追蹤</a></div>
                                 <blockquote>用來管理Firefox 的附加元件工具。</blockquote>
                                 <div class="extension-description">
                                     <p>本套件無外顯功能，根據程式判讀，僅知道他是用來追蹤用戶操作 Firefox  的行為，包含介面上按鈕（例如附加元件列、工具列上的按鈕……等）點擊次數與開啟、關閉分頁數目，並在 Firefox 開啟與關閉時，送出收集的數據到  Mozilla Taiwan 公司的伺服器。</p>
@@ -185,7 +185,6 @@
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 捷徑" value="https://addons.mozilla.org/firefox/downloads/latest/436974/addon-436974-latest.xpi" addon="quicklaunch" type="checkbox">列入安裝清單</label> |
                                     <a class="direct-install" href="https://addons.mozilla.org/firefox/downloads/latest/436974/addon-436974-latest.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_quicklaunch']);">+立即安裝</a>
                                 </div>
-                                <div class="tracking"><img src="track" alt="tracking" />美商謀智透過本套件進行行為追蹤</div>
                                 <blockquote>Firefox 捷徑讓您輕鬆啟動記事本、小畫家、小算盤並自訂常用的系統工具。</blockquote>
                                 <div class="extension-description">
                                     <p>在 Firefox 附加元件列中新增一個捷徑按鈕，內含（Win 版）記事本、小畫家、小算盤、我的電腦等四個 Windows 程式的捷徑，及「切換 Profile 使用者設定檔」，可叫出對話框選擇預設的 Profile。選項中可以自行調整與新增捷徑的項目。</p>
@@ -245,7 +244,7 @@
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="分頁管理器" value="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-2.0.0.xpi" addon="tabimprovelite" type="checkbox">列入安裝清單</label> |
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-2.0.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_tabimprovelite']);">+立即安裝</a>
                                 </div>
-                                <div class="tracking"><img src="track" alt="tracking" />美商謀智透過本套件進行行為追蹤</div>
+                                <div class="tracking"><a href="https://github.com/MozillaOnline/tabimprovelite/blob/master/chrome/content/ntabimprovelite.js" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'github', 'mozillaonline-tpmanager']);"><img src="track" alt="tracking" />美商謀智透過本套件進行行為追蹤</a></div>
                                 <blockquote>在目前開啟的分頁標籤右側開啟新分頁，雙擊關閉分頁。並在右側添加新分頁按钮。並可設置在新分頁打開URL和搜尋结果</blockquote>
                                 <div class="extension-description">
                                     <p>在附加元件列新增分頁設定按鈕，下拉選單中可以設定滑鼠在分頁列上單點、雙點、右鍵的開新分頁 / 關閉分頁功能，及點擊連結時開新分頁是否切換的行為。進階設定可叫出詳細的分頁行為設定對話框（類似 Tab Mix 的功能）。</p>
