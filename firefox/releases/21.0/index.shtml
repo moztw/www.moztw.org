@@ -279,6 +279,10 @@ section .appendix {
                         <h5>實作 <a href="http://updates.html5rocks.com/2012/03/A-New-Experimental-Feature-style-scoped">scoped 樣式表</a>。</h5>
                       </li>
                       <li>
+                        <span class="tag tag-html5">HTML5</span>
+                        <h5>新增 <a href="https://developer.mozilla.org/en-US/docs/DOM/window.crypto.getRandomValues">window.crypto.getRandomValues</a> 支援。</h5>
+                      </li>
+                      <li>
                         <span class="tag tag-fixed">修正</span>
                         <h5>部分功能鍵可能沒有效用（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=833719">bug 833719</a>）。</h5>
                       </li>
