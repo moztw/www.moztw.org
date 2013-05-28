@@ -135,11 +135,11 @@
                         <h3>台灣版「必載附加元件」</h3>
                         <div class="extension">
                             <img class="extension-icon" alt="Firefox 首頁" src="icons/default.png" />
-                            <h4 id="fxtw-twhomepage">Firefox 首頁 0.2.0</h4>
+                            <h4 id="fxtw-twhomepage">Firefox 首頁 0.2.2</h4>
                             <div class="extension-info">
                                 <div class="install-options">
-                                    <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 首頁" value="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.2.0.xpi" addon="twhomepage" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.2.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_twhomepage']);">+立即安裝</a>
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 首頁" value="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.2.2.xpi" addon="twhomepage" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.2.2.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_twhomepage']);">+立即安裝</a>
                                 </div>
                                 <div class="tracking"><a href="https://github.com/MozillaOnline/twhp/blob/master/chrome_ntab/content/ntab/track.js" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'Github', 'mozillaonline-twhomepage']);"><img src="eye.png" alt="" />美商謀智透過本套件進行行為追蹤</a></div>
                                 <blockquote>Firefox 訂製首頁，包含最近瀏覽頁面、最常瀏覽頁面及新分頁等</blockquote>
@@ -161,11 +161,11 @@
                         
                         <div class="extension">
                             <img class="extension-icon" alt="附加元件管理器" src="icons/default.png" />
-                            <h4 id="fxtw-tpmanager">附加元件管理器 0.2.0</h4>	
+                            <h4 id="fxtw-tpmanager">附加元件管理器 0.2.1</h4>
                             <div class="extension-info">
                                 <div class="install-options">
-                                    <label title="點選此處，將此套件列入安裝清單。"><input name="附加元件管理器" value="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.2.0.xpi" addon="tpmanager" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.2.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_tpmanager']);">+立即安裝</a>
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="附加元件管理器" value="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.2.1.xpi" addon="tpmanager" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.2.1.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_tpmanager']);">+立即安裝</a>
                                 </div>
                                 <div class="tracking"><a href="https://github.com/MozillaOnline/tpmanager/blob/master/content/overlay-browser.js" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'Github', 'mozillaonline-tpmanager']);"><img src="eye.png" />美商謀智透過本套件進行行為追蹤</a></div>
                                 <blockquote>用來管理Firefox 的附加元件工具。</blockquote>
@@ -180,11 +180,11 @@
                         <h3>台灣版「推薦附加元件」</h3>
                         <div class="extension">
                             <img class="extension-icon" alt="Firefox 捷徑" src="icons/quicklaunch.png" />
-                            <h4 id="fxtw-quicklaunch">Firefox 捷徑 1.0.0</h4>
+                            <h4 id="fxtw-quicklaunch">Firefox 捷徑 1.0.1</h4>
                             <div class="extension-info">
                                 <div class="install-options">
-                                    <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 捷徑" value="https://addons.mozilla.org/firefox/downloads/latest/436974/addon-436974-latest.xpi" addon="quicklaunch" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.mozilla.org/firefox/downloads/latest/436974/addon-436974-latest.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_quicklaunch']);">+立即安裝</a>
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 捷徑" value="https://addons.cdn.mozilla.net/storage/public-staging/436974/addon-1.0.1-fx.xpi" addon="quicklaunch" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.cdn.mozilla.net/storage/public-staging/436974/addon-1.0.1-fx.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_quicklaunch']);">+立即安裝</a>
                                 </div>
                                 <blockquote>Firefox 捷徑讓您輕鬆啟動記事本、小畫家、小算盤並自訂常用的系統工具。</blockquote>
                                 <div class="extension-description">
@@ -201,11 +201,11 @@
                         
                         <div class="extension">
                             <img class="extension-icon" alt="火狐工具集" src="icons/default.png" />
-                            <h4 id="fxtw-fx-improvement">火狐工具集 0.2.0</h4>
+                            <h4 id="fxtw-fx-improvement">火狐工具集 0.2.0.1</h4>
                             <div class="extension-info">
                                 <div class="install-options">
-                                    <label title="點選此處，將此套件列入安裝清單。"><input name="火狐工具集" value="https://addons.myfirefox.com.tw/addons/twimprove/fx-improvement-0.2.0.xpi" addon="fx-improvement" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twimprove/fx-improvement-0.2.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_fx-improvement']);">+立即安裝</a>
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="火狐工具集" value="https://addons.myfirefox.com.tw/addons/twimprove/fx-improvement-0.2.0.1.xpi" addon="fx-improvement" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twimprove/fx-improvement-0.2.0.1.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_fx-improvement']);">+立即安裝</a>
                                 </div>
                                 <div class="tracking"><a href="https://github.com/MozillaOnline/fximprove/blob/master/notification/content/track.js" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'Github', 'mozillaonline-fximprove']);"><img src="eye.png" alt="" />美商謀智透過本套件進行行為追蹤</a></div>
                                 <blockquote>提升使用者體驗的新功能：意見回饋、書籤管理、隱私瀏覽模式、網站安全標誌、恢復先前關閉的網頁、清除歷史紀錄等。</blockquote>
@@ -239,11 +239,11 @@
                         
                         <div class="extension">
                             <img class="extension-icon" alt="分頁管理器" src="icons/tabimprovelite.png" />
-                            <h4 id="fxtw-tabimprovelite">分頁管理器 2.0.0</h4>
+                            <h4 id="fxtw-tabimprovelite">分頁管理器 2.0.1</h4>
                             <div class="extension-info">
                                 <div class="install-options">
-                                    <label title="點選此處，將此套件列入安裝清單。"><input name="分頁管理器" value="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-2.0.0.xpi" addon="tabimprovelite" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-2.0.0.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_tabimprovelite']);">+立即安裝</a>
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="分頁管理器" value="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-2.0.1.xpi" addon="tabimprovelite" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-2.0.1.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_tabimprovelite']);">+立即安裝</a>
                                 </div>
                                 <div class="tracking"><a href="https://github.com/MozillaOnline/tabimprovelite/blob/master/chrome/content/ntabimprovelite.js" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'Github', 'mozillaonline-tabimprovelite']);"><img src="eye.png" alt="" />美商謀智透過本套件進行行為追蹤</a></div>
                                 <blockquote>在目前開啟的分頁標籤右側開啟新分頁，雙擊關閉分頁。並在右側添加新分頁按钮。並可設置在新分頁打開URL和搜尋结果</blockquote>
@@ -259,11 +259,11 @@
                         
                         <div class="extension">
                             <img class="extension-icon" alt="網頁截圖" src="icons/easyscreenshot.png" />
-                            <h4 id="fxtw-easyscreenshot">網頁截圖 0.2.0</h4>
+                            <h4 id="fxtw-easyscreenshot">網頁截圖 0.2.1.1</h4>
                             <div class="extension-info">
                                 <div class="install-options">
-                                    <label title="點選此處，將此套件列入安裝清單。"><input name="網頁截圖" value="https://addons.mozilla.org/firefox/downloads/latest/431482/addon-431482-latest.xpi" addon="easyscreenshot" type="checkbox">列入安裝清單</label> |
-                                    <a class="direct-install" href="https://addons.mozilla.org/firefox/downloads/latest/431482/addon-431482-latest.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_easyscreenshot']);">+立即安裝</a>
+                                    <label title="點選此處，將此套件列入安裝清單。"><input name="網頁截圖" value="https://addons.myfirefox.com.tw/addons/easyscreenshot/easyscreenshot-0.2.1.1.xpi" addon="easyscreenshot" type="checkbox">列入安裝清單</label> |
+                                    <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/easyscreenshot/easyscreenshot-0.2.1.1.xpi" onclick="_gaq.push(['_trackEvent', 'Install', 'myfirefox', 'addon_easyscreenshot']);">+立即安裝</a>
                                 </div>
                                 <blockquote>可以將整個網頁畫面輕鬆地擷取成一個圖檔，是台灣版 Firefox 最受歡迎的功能之一。</blockquote>
                                 <div class="extension-description">
