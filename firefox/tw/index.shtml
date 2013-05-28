@@ -123,7 +123,8 @@
         <div id="imgs">
             <a href="screenshot/before-install-normal.png" title="安裝前的安全性警告 - 原版" rel="tw-screenshot"><img src="screenshot/before-install-normal.png" alt="安裝前的安全性警告 - 正常版" /></a>
             <a href="screenshot/before-install-fxtw.png" title="安裝前的安全性警告 - 台灣版" rel="tw-screenshot"><img src="screenshot/before-install-fxtw.png" alt="安裝前的安全性警告 - 台灣版" /></a>
-            <a href="screenshot/fxtw-about.png" title="關於 Mozilla Firefox" rel="tw-screenshot"><img src="screenshot/fxtw-about.png" alt="關於 Mozilla Firefox" /></a>
+            <a href="screenshot/normal-about.png" title="關於 Mozilla Firefox - 台灣版" rel="tw-screenshot"><img src="screenshot/normal-about.png" alt="關於 Mozilla Firefox - 原版" /></a>
+            <a href="screenshot/fxtw-about.png" title="關於 Mozilla Firefox - 台灣版" rel="tw-screenshot"><img src="screenshot/fxtw-about.png" alt="關於 Mozilla Firefox - 台灣版" /></a>
         </div>
     </section>
     
