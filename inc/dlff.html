@@ -1,8 +1,13 @@
 <script type='text/javascript' src='/js/download.js'></script>
 <script type='text/javascript'>
 	<!--
-	window.onload = highlightDownload;
-	
+//	window.onload = highlightDownload;
+
+    if (window.addEventListener)
+        window.addEventListener('load', function(){ highlightDownload() }, false);
+    else if (window.attachEvent)
+        window.attachEvent('on' + 'load', function(){ highlightDownload() });
+
 	function initDownloadInIE () {
 		/*
 		For IE, open up a small popup and point it to the mozilla server
