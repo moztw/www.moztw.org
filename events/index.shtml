@@ -86,7 +86,7 @@ jQuery(function($){
 				</iframe>
 			</div>
 			
-            <a href="moztw-lab/">
+            <a href="moztw-lab/" id="moztwlab">
 			<article class="on">
 				<header>
 					<h2>MozTW Lab</h2>
@@ -102,23 +102,40 @@ jQuery(function($){
 			</article>
 			</a>
 
-            <a href="icos2013-html5/">
+            <a href="blackout/" id="error451">
             <article class="on">
-            	<header>
-            		<h2>ICOS 2013 - HTML5 主題議程</h2>
-            		<time pubdate="pubdate">2013/04</time>
-            		<span class="arrow"></span>
-            	</header>
-            	
-            	<div class="photo" style="background:url(img/icos.png) -175px -115px">
-            	</div>
-            	<div class="content">
-            MozTW、JavaScript.tw 社群的 TonyQ 及教育部校園自由軟體中心合力企劃，參與 ICOS 2013 開放源碼國際研討會，為大家帶來一整天的 HTML5 主題議程，希望能讓所有關心網路技術，希望將其運用於教育領域的老師、行政人員與各位朋友，都能透過此議程的概略介紹，掌握 HTML5 各面向的基礎概念。
-            	</div>
+                	<header>
+                		<h2>Error 451: 本網頁依據國家法律而封鎖</h2>
+                		<time pubdate="pubdate">2013/06</time>
+                		<span class="arrow"></span>
+                	</header>
+                	
+                	<div class="photo" style="background:url(img/error451.jpg) -18px 106px">
+                	</div>
+                	<div class="content">
+                如果我們同意提供政府這種權力，以後他們還能以各種理由，任意阻擋他們覺得「不適當」的網站。未來許多網站可能被迫自我審查，在你發言的同時，先看看有沒有「敏感詞」。我們不希望這種事情也在台灣發生，請您與我們一同反對政府將手伸進網路！<br>
+                響應 #網路全黑日，MozTW（Mozilla 台灣社群）提供以下語法，只要加到網站，使用者進站時即會看到 Blackout 451 畫面。
+                	</div>
+            </article>
+            </a>
+
+            <a href="icos2013-html5/" id="icos2013">
+            <article class="on">
+                	<header>
+                		<h2>ICOS 2013 - HTML5 主題議程</h2>
+                		<time pubdate="pubdate">2013/04</time>
+                		<span class="arrow"></span>
+                	</header>
+                	
+                	<div class="photo" style="background:url(img/icos.png) -175px -115px">
+                	</div>
+                	<div class="content">
+                MozTW、JavaScript.tw 社群的 TonyQ 及教育部校園自由軟體中心合力企劃，參與 ICOS 2013 開放源碼國際研討會，為大家帶來一整天的 HTML5 主題議程，希望能讓所有關心網路技術，希望將其運用於教育領域的老師、行政人員與各位朋友，都能透過此議程的概略介紹，掌握 HTML5 各面向的基礎概念。
+                	</div>
             </article>
             </a>
 			
-            <a href="app-dev-party/">
+            <a href="app-dev-party/" id="app-party">
 			<article class="on">
 				<header>
 					<h2>Firefox OS App/套件開發小趴</h2>
@@ -134,7 +151,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-            <a href="code-rush/">
+            <a href="code-rush/" id="coderush">
 			<article class="on">
 				<header>
 					<h2>Code Rush 放映會</h2>
@@ -150,8 +167,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-			
-            <a href="scp0712/">
+            <a href="scp0712/" id="summer_code_party">
 			<article class="on">
 				<header>
 					<h2>夏日的 Web 樂園</h2>
@@ -167,8 +183,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-		
-            <a href="furp/">
+            <a href="furp/" id="furp">
 			<article class="on">
 				<header>
 					<h2>Firefox x Ubuntu 12.04 Release Party</h2>
@@ -184,19 +199,18 @@ jQuery(function($){
 			</a>
 			
 			<div class="group">
-    			<a href="nctuserv2012/" title="交大資工2012服務學習">
-    			<article class="small">
-    			    <header>
-    			        <h2>交大資工服務學習專案</h2>
-    			        <time pubdate="pubdate">2012/5~7</time>
-    			        <span class="arrow"></span>
-    			    </header>
-    			    <img src="nctuserv2012/nctu.png">
-    			</article>
-    			</a>
+        			<a href="nctuserv2012/" title="交大資工2012服務學習" id="nctuserv2012">
+        			<article class="small">
+        			    <header>
+        			        <h2>交大資工服務學習專案</h2>
+        			        <time pubdate="pubdate">2012/5~7</time>
+        			        <span class="arrow"></span>
+        			    </header>
+        			    <img src="nctuserv2012/nctu.png">
+        			</article>
+        			</a>
     			
-			
-				<a href="gathering/12-1.shtml" title="摩茲連續聚KL 徐徐海風篇">
+				<a href="gathering/12-1.shtml" title="摩茲連續聚KL 徐徐海風篇" id="gather-kl">
 			    <article class="small">
 			        <header>
 			        	<h2>摩茲連續聚KL 徐徐海風篇</h2>
@@ -208,7 +222,7 @@ jQuery(function($){
 			    </a>			    
 			</div>
 			
-			<a href="sopa/">
+			<a href="sopa/" id="sopa">
 			<article class="on">
 				<header>
 					<h2>反對網際網路言論審查</h2>
@@ -223,7 +237,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-			<a href="newyear2012/">
+			<a href="newyear2012/" id="ny2012">
 			<article class="on">
 				<header>
 					<h2>2012 狐耳摩莎賀新年</h2>
@@ -238,8 +252,8 @@ jQuery(function($){
 			</article>
 			</a>
 			
-            <div class="group">                
-                <a href="http://registrano.com/events/moztw-gathering-2011dec18" title="摩茲連續聚TP 寒冬的 MozCamp">
+            <div class="group">
+                <a href="http://registrano.com/events/moztw-gathering-2011dec18" title="摩茲連續聚TP 寒冬的 MozCamp" id="gather-mozcamp">
                 <article class="small">
                     <header>
                         <h2>摩茲連續聚TP 寒冬的 MozCamp</h2>
@@ -250,7 +264,7 @@ jQuery(function($){
                 </article>
                 </a>
                 
-                <a href="gathering/11-1.shtml" title="摩茲連續聚TY光輝十月篇">
+                <a href="gathering/11-1.shtml" title="摩茲連續聚TY光輝十月篇" id="gather1110">
                 <article class="small">
                     <header>
                     	<h2>摩茲連續聚TY光輝十月篇</h2>
@@ -262,7 +276,7 @@ jQuery(function($){
                 </a>
             </div>
 			
-			<a href="sfd2011/">
+			<a href="sfd2011/" id="sfd2011">
 			<article>
 				<header>
 					<h2>2011 SFD Party</h2>
@@ -277,7 +291,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-			<a href="firefox4party/">
+			<a href="firefox4party/" id="fx4party">
 			<article>
 				<header>
 					<h2>Firefox 4 Party</h2>
@@ -292,7 +306,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-			<a href="jetpack-workshop/">
+			<a href="jetpack-workshop/" id="jetpack">
 			<article>
 				<header>
 					<h2>Jetpack 擴充套件工作坊</h2>
@@ -307,7 +321,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-			<a href="3.6personas/">
+			<a href="3.6personas/" id="personas">
 			<article>
 				<header>
 					<h2>秀風格</h2>
@@ -326,7 +340,7 @@ jQuery(function($){
 			</a>
 						
             <div class="group">
-            	<a href="http://blog.toomore.net/2009/11/moztw-2009.html" title="MozTW 2009 開發合宿">
+                	<a href="http://blog.toomore.net/2009/11/moztw-2009.html" title="MozTW 2009 開發合宿" id="devcamp">
                 <article class="small">
                     <header>
                     	<h2>MozTW 2009 開發合宿</h2>
@@ -335,9 +349,9 @@ jQuery(function($){
                     </header>
             	    <img src="img/20091121.jpg">
                 </article>
-            	</a>
+                	</a>
             	
-                <a href="http://mozlinks-zh.blogspot.com/2009/08/coscup-2009.html" title="COSCUP 2009">
+                <a href="http://mozlinks-zh.blogspot.com/2009/08/coscup-2009.html" title="COSCUP 2009" id="coscup2009">
                 <article class="small">
                     <header>
                     	<h2>COSCUP 2009</h2>
@@ -349,7 +363,7 @@ jQuery(function($){
                 </a>
             </div>
 			
-			<a href="may2009/">
+			<a href="may2009/" id="may2009">
 			<article>
 				<header>
 					<h2>火狐月</h2>
@@ -364,7 +378,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-			<a href="ie8/">
+			<a href="ie8/" id="ie8">
 			<article>
 				<header>
 					<h2>用 Firefox 體驗 IE8 功能</h2>
@@ -379,7 +393,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-			<a href="vday2009/">
+			<a href="vday2009/" id="vday2009">
 			<article>
 				<header>
 					<h2>MozTW Foxmosa 情人節電子賀卡</h2>
@@ -394,7 +408,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-			<a href="foxmosa-tour/">
+			<a href="foxmosa-tour/" id="foxmosa-tour">
 			<article>
 				<header>
 					<h2>火狐鬥陣遊台灣</h2>
@@ -409,7 +423,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-			<a href="firefox3party/">
+			<a href="firefox3party/" id="fx3party">
 			<article>
 				<header>
 					<h2>Firefox 3 Party</h2>
@@ -424,7 +438,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-			<a href="record2008/">
+			<a href="record2008/" id="record2008">
 			<article>
 				<header>
 					<h2>手滑創記錄</h2>
@@ -439,7 +453,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-			<a href="firefox2party/">
+			<a href="firefox2party/" id="fx2party">
 			<article>
 				<header>
 					<h2>Firefox 2 Party</h2>
@@ -454,7 +468,7 @@ jQuery(function($){
 			</article>
 			</a>
 			
-			<a href="sfx/">
+			<a href="sfx/" id="sfx">
 			<article>
 				<header>
 					<h2>放火行動</h2>
