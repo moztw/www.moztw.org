@@ -1,0 +1,15 @@
+.grids
+  margin-left: 0 - grid-margin
+  width: container-width + grid-margin
+
+.grids:after
+  clear: both
+  display: table
+  content: ""
+  zoom: 1
+
+for num in 1 2 3 4 5 6 7 8 9 10 11 12
+  .grid-{num}
+    float: left
+    margin: 0 0 0 grid-margin
+    width: grid-width * num + grid-margin * (num - 1)

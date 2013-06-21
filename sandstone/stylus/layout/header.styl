@@ -1,0 +1,105 @@
+body.margin-left
+  left: 160px
+
+#header
+  @extend .background
+  border-top: 3px #FFF solid
+  background-color: color-mozilla-from
+  font-size: header-font-size
+  height: header-height
+  line-height: header-height
+  box-shadow: inset 0 -1px 1px rgba(0, 0, 0, 0.1);
+  text-shadow: 0 1px 1px #FFF, 0 -1px 1px rgba(0, 0, 0, .3)
+
+  .container
+    position: relative
+
+.header-site-title
+  @extend .border-right
+  font-size: header-font-size
+  line-height: header-height
+  letter-spacing: 1px
+  display: inline-block
+
+  a
+    display: inline-block
+    padding-right: 20px
+    color: text-color
+
+.header-highlight 
+  position: absolute
+  left: 0
+  top: 0
+  width: auto
+  height: 3px
+  background: color-orange
+  font-size: header-font-size + 2
+
+.header-menu-btn
+  display: inline-block
+  height: header-height
+  padding: 0 15px
+  display: none
+
+.header-menu
+  display: inline-block
+
+.header-menu-item
+  display: inline-block
+
+  a
+    display: inline-block
+    padding: 0 10px
+    color: rgba(0, 0, 0, .4)
+    text-shadow: none
+
+.header-menu-item:hover
+  background: rgba(0, 0, 0, .1)
+
+.header-menu-item.current
+  @extend .background
+
+  &:hover
+    @extend .background
+
+.header-search
+  display: inline-block
+
+  &.show
+    .header-search-form-background
+      top: header-height
+
+    .header-search-form
+      top: header-height
+      opacity: 1
+
+.header-search-form-background
+  @extend .background
+  background-color: #FFF
+  position: absolute
+  top: 0%
+  left: 0
+  z-index: -1
+  transition: top .5s ease
+  width: 250px
+  height: header-height
+  box-shadow: 0 0 1px rgba(0, 0, 0, .2)
+
+.header-search-form
+  position: absolute
+  top: -200%
+  left: 0
+  opacity: 0
+  width: 250px
+  transition: opacity .5s ease
+  transition-delay: .5s
+  height: header-height
+
+.header-search-form-input
+  height: 100%
+  width: 230px
+  padding: 0 10px
+
+.header-search-btn
+  cursor: pointer
+  padding: 0 20px

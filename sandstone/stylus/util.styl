@@ -1,0 +1,67 @@
+.container
+  width: container-width
+  margin: 0 auto
+
+.no-padding
+  padding: 0 !important
+
+for num in 1 2 3 4 5
+  .padding-{num * 10}
+    padding: 10px * num !important
+
+for key in 'top' 'right' 'bottom' 'left'
+  .no-{key}-padding
+    padding-{key}: 0 !important
+
+.no-margin
+  margin: 0 !important
+
+.block
+  margin-top: 40px
+
+.large
+  font-size: 72px
+  letter-spacing: -3px
+  line-height: 100%
+
+.small
+  font-size: 12px
+  line-height: 100%
+
+.background
+  background-color: color-mozilla-to
+  background-image: url('../images/grain.png')
+
+.border-right
+  border-right: 1px rgba(0, 0, 0, .1) solid
+  box-shadow: 1px 0 1px rgba(255, 255, 255, .3)
+
+.hide
+  display: none
+
+.show
+  display: block
+
+.icon-2
+  font-size:2em
+
+.icon-3
+	font-size:4em
+
+.icon-4
+	font-size:7em
+
+.icon-5
+	font-size:12em
+
+.icon-6
+	font-size:20em
+
+.text-color-facebook
+  color: color-facebook
+
+.text-color-plus
+  color: color-plus
+
+.text-color-tumblr
+  color: color-tumblr

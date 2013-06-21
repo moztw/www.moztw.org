@@ -1,0 +1,63 @@
+.key-point
+  height: key-point-height - key-point-padding * 2
+  width: auto
+  padding: key-point-padding
+  background: #FFF
+
+.key-point-inner
+  overflow: hidden
+
+.key-point-slider
+  height: key-point-height - key-point-padding * 2
+
+.page-home-foxmosa
+  line-height: 32px
+
+.page-home-foxmosa-sns
+  text-align: right
+
+  a
+    display: inline-block
+    height: 29px
+    margin-top: 2px
+    margin-left: 5px
+    transition: opacity .5s ease
+    opacity: .5
+
+    &:hover
+      opacity: 1
+
+.page-home-foxmosa-block
+  padding: 10px
+
+.page-home-foxmosa-ul
+  position: relative
+  height: 100%
+  width: 100%
+
+.page-home-foxmosa-item
+  display: block
+  position: absolute
+  left: 0
+  top: 0
+  height: 100%
+  width: 100%
+  opacity: 0
+  z-index: 0
+  transition: opacity 2s ease
+
+  &.show
+    opacity: 1
+    z-index: 1
+
+.page-home-foxmosa-feed
+  height: 57px
+  line-height: 57px
+  position: relative
+
+#page-home-foxmosa-feed-container
+  position: absolute
+  left: 0
+  top: 0
+  width: 100%
+  height: 100%

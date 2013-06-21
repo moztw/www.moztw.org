@@ -1,0 +1,43 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var lr = require('another-livereload');
+var alrStylus = require('alr-stylus');
+var nib = require('nib');
+var path = require('path');
+
+var path = require('path');
+
+lr.setConfig({
+  interval: 300
+});
+
+lr.on('error', function (err) {
+  console.error(err);
+});
+
+// 監控副檔名 styl html
+lr.rules(/\.(styl|html|js)$/);
+
+// 使用 stylus middleware
+lr.use(/\.styl$/, function (file, msg, next) {
+  file.file = path.join(__dirname, './stylus/style.styl');
+  next();
+});
+lr.use(/\.styl$/, alrStylus(
+  './stylus',
+  './css',
+  {
+    compress: true,
+    use: [
+      nib()
+    ]
+  }
+));
+
+// watch stylus 目錄下檔案
+lr.watch(__dirname);
+
+// 執行
+lr.run();

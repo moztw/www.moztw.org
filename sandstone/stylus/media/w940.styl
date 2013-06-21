@@ -1,0 +1,45 @@
+@media screen and (max-width: 940px)
+  #main-feature
+    display: block !important
+
+  .container 
+    width: auto
+    padding: 0 20px
+
+  for i in 1 2 3 4 5 6 7 8 9 10 11 12
+    .grids
+      width: 100%
+    .grid-{i}
+      width: 100%
+      margin-bottom: 5px
+
+  .header-menu-btn
+    display: inline-block
+
+  body.margin-left
+    .header-menu
+      left: 0
+
+  .header-menu
+    width: 155px
+    height: 100vh
+    display: block
+    position: fixed
+    z-index: 998
+    top: -3px
+    left: -160px
+    text-align: right
+    border-right: 5px #FFF solid
+    transition: left 0.5s ease
+
+  .header-menu-item
+    display: block
+    line-height: 45px
+    font-size: 16px
+    border-bottom: 1px rgba(0, 0, 0, 0.1) solid
+
+    a
+      display: block
+
+  .header-site-title
+    display: none

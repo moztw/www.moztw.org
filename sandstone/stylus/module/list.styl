@@ -1,0 +1,24 @@
+for i in 'ul' 'menu' 'dir'
+  {i}.list
+  {i}.list ul ul
+    list-style: disc
+
+for i in 'ul' 'ol'
+  {i}.list ul
+  {i}.list ul
+  {i}.list ul ul ul
+  {i}.list ul ol ul
+    list-style: circle
+  {i}.list
+  {i}.list ul
+  {i}.list ol
+    margin-left: 20px
+
+.list.unstyled
+  margin-left: 0
+  &> li
+    list-style: none
+
+ol.list
+ol.list ol
+  list-style: number

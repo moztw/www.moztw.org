@@ -1,0 +1,21 @@
+{
+  "name": "sandstone-template",
+  "version": "0.0.0",
+  "description": "",
+  "dependencies": {
+    "alr-stylus": "~0.0.1",
+    "another-livereload": "~0.0.4",
+    "nib": "~0.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/poying/sandstone-template.git"
+  },
+  "author": "Po-Ying Chen <poying.me@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
