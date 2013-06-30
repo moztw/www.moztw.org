@@ -192,13 +192,6 @@
 .download-button .download-link .download-platform
   display:none
 
-.download-button .os_linux,
-.download-button .os_linux_64,
-.download-button .os_windows,
-.download-button .os_osx,
-.download-button .unrecognized-download
-  display: none !important
-
 .linux .download-button .os_linux
   display: inline-block !important
   margin-left: 1em
@@ -236,3 +229,24 @@
 .download-button noscript ul li,
 .download-button .unrecognized-download ul li
   display: inline
+
+.download-button [class^="os_"]
+.download-button [class*=" os_"]
+  display: none
+
+.os-linux .download-button .os_linux
+  display: inline-block
+
+.os-android .download-button .os_android
+  display: inline-block
+
+.os-windows .download-button .os_windows
+  display: inline-block
+
+.os-mac .download-button .os_osx,
+.os-osx .download-button .os_osx,
+  display: inline-block
+
+.os-unrecognized .unrecognized-download .download-button .os_androi
+  display: inline-block
+

@@ -162,7 +162,6 @@ ol.list,ol.list ol{list-style:number}
 .download-button .download-link .download-subtitle{text-shadow:0 -1px 0 rgba(0,0,0,0.25);margin-right:auto}
 .download-button .download-link .download-lang{display:block;color:#346012;padding-top:2px;font-size:11px;line-height:100%;text-shadow:0 1px rgba(255,255,255,0.2);position:absolute;top:33px;right:10px;text-align:right;width:100px}
 .download-button .download-link .download-platform{display:none}
-.download-button .os_linux,.download-button .os_linux_64,.download-button .os_windows,.download-button .os_osx,.download-button .unrecognized-download{display:none !important}
 .linux .download-button .os_linux{display:inline-block !important;margin-left:1em}
 .windows .download-button .os_windows,.osx .download-button .os_osx,.unrecognized .download-button .unrecognized-download{display:block !important}
 .download-button small.download-other{font-family:'Open Sans',sans-serif;display:block;font-size:11px;text-align:right;margin-top:6px;color:#bbb}
@@ -171,3 +170,8 @@ ol.list,ol.list ol{list-style:number}
 .download-button noscript,.download-button .unrecognized-download{text-align:left}
 .download-button noscript h4,.download-button .unrecognized-download h4{text-shadow:none;margin:0 0 6px 0;font-size:18px}
 .download-button noscript ul li,.download-button .unrecognized-download ul li{display:inline}
+.download-button [class^="os_"],.download-button [class*=" os_"]{display:none}
+.os-linux .download-button .os_linux{display:inline-block}
+.os-android .download-button .os_android{display:inline-block}
+.os-windows .download-button .os_windows{display:inline-block}
+.os-mac .download-button .os_osx,.os-osx .download-button .os_osx,display: inline-block,.os-unrecognized .unrecognized-download .download-button .os_androi{display:inline-block}
