@@ -78,6 +78,26 @@
                   <img alt="快捷通訊錄畫面擷圖" src="images/address-book.png">
                </div>
             </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <img alt="附件提醒畫面擷圖" src="images/attachment-reminder.png">
+               </div>
+               <div class="grid-6">
+                  <h4>附件提示</h4>
+                  <p>當您在信件內文當中提到附件或其他關鍵字卻沒有新增附件時，附件提示功能會提醒您記得要加上附件再寄出。</p>
+               </div>
+            </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <h4>活動管理員</h4>
+                  <p>活動管理員會集中記錄 Thunderbird 與您的郵件服務提供者之間所有的互動，方便您檢視之前做過哪些操作。</p>
+               </div>
+               <div class="grid-6">
+                  <img alt="活動管理員畫面擷圖" src="images/activity-manager.png">
+               </div>
+            </div>
          </article>
       </div>
    </div>
