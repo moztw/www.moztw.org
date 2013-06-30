@@ -8,7 +8,7 @@
     <h2>Doing good is part of our code</h2>
   </hgroup>
 
-  <section class="container block key-point-slider-wrapper">
+  <section class="container block">
     <h2 class="block-title hide">標題</h2>
     <div class="key-point module">
       <div class="key-point-inner">
@@ -29,49 +29,6 @@
         </div>
         <!-- slider end -->
       </div>
-    </div>
-
-    <div class="key-point-slider-download download-button">
-      <ul class="download-list" role="presentation">
-        <li class="os_windows">
-          <a class="download-link" href="/en-US/products/download.html?product=firefox-stub&amp;os=win&amp;lang=en-US" data-direct-link="https://download.mozilla.org/?product=firefox-stub&amp;os=win&amp;lang=en-US">
-            <span class="download-content">
-              <strong class="download-title">Firefox</strong>
-              <span class="download-subtitle">Free Download</span>
-              <span class="download-lang">English (US)</span>
-              <span class="download-platform">Windows</span>
-            </span>
-          </a>
-        </li>
-        <li class="os_linux">
-          <a class="download-link" href="/en-US/products/download.html?product=firefox-22.0&amp;os=linux&amp;lang=en-US" data-direct-link="https://download.mozilla.org/?product=firefox-22.0&amp;os=linux&amp;lang=en-US">
-            <span class="download-content">
-              <strong class="download-title">Firefox</strong>
-              <span class="download-subtitle">Free Download</span>
-              <span class="download-lang">English (US)</span>
-              <span class="download-platform">Linux</span>
-            </span>
-          </a>
-        </li>
-        <li class="os_osx">
-          <a class="download-link" href="/en-US/products/download.html?product=firefox-22.0&amp;os=osx&amp;lang=en-US" data-direct-link="https://download.mozilla.org/?product=firefox-22.0&amp;os=osx&amp;lang=en-US">
-            <span class="download-content">
-              <strong class="download-title">Firefox</strong>
-              <span class="download-subtitle">Free Download</span>
-              <span class="download-lang">English (US)</span>
-              <span class="download-platform">Mac OS X</span>
-            </span>
-          </a>
-        </li>
-        <li class="os_android">
-          <a class="download-link" href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">
-            <span class="download-content">
-              <strong class="download-title"><span>Firefox</span> for Android</strong>
-              <span class="download-subtitle">Get it free on Google Play</span>
-            </span>
-          </a>
-        </li>
-      </ul>
     </div>
   </section>
 
