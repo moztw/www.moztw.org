@@ -16,10 +16,11 @@
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
+<section class="container block">
 <div class="key-point">
     <div id="product-desc" class="product-thunderbird">
-	<h2 class="block-title hide">Thunderbird: 以你為本的郵件體驗，讓收發電子郵件變得更簡單</h2>
-	<p>Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
+      <h2 class="block-title hide">Thunderbird: 以你為本的郵件體驗，讓收發電子郵件變得更簡單</h2>
+      <p>Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
     </div>
     <div id="product-side">
 	<div class="download">
@@ -28,9 +29,11 @@
     	<ul>
 	    <li><a href="system-requirements/">系統需求</a></li>
 	    <li><a href="releases/">版本資訊</a></li>
-   	  </ul>
-    </div>
+   	</ul>
+   </div>
 </div>
+</section>
+
 <div id="mainContent" class="right features">
     	<div class="corner-box">
 		<h3>分頁與搜索</h3>
