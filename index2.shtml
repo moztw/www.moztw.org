@@ -4,13 +4,13 @@
   <meta charset="utf-8" />
   <title>Sandstone</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://raw.github.com/moztw/tabzilla/master/media/css/tabzilla.css" rel="stylesheet" />
+  <link href="https://rawgithub.com/moztw/tabzilla/master/media/css/tabzilla.css" rel="stylesheet" />
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all" />
-  <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-  <script src="https://raw.github.com/moztw/tabzilla/master/media/js/tabzilla.js"></script>
+  <link rel="stylesheet" href="sandstone/css/font-awesome.min.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="sandstone/css/style.css" type="text/css" media="all" />
+  <script type="text/javascript" src="https://rawgithub.com/moztw/tabzilla/master/media/js/tabzilla.js"></script>
   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-  <script data-main="js/main.js" src="http://requirejs.org/docs/release/2.1.6/minified/require.js"></script>
+  <script data-main="sandstone/js/main.js" src="http://requirejs.org/docs/release/2.1.6/minified/require.js"></script>
 </head>
 <body>
 
@@ -149,7 +149,7 @@
     <div class="container">
       <div class="grids">
         <div class="grid-4">
-          <a href="/en-US/"><img src="./images/footer-mozilla.png" alt="mozilla"></a>
+          <a href="/en-US/"><img src="./sandstone/images/footer-mozilla.png" alt="mozilla"></a>
         </div>
         <div class="grid-3">
           <p>MozTW 是台灣專屬於 Mozilla 相關資訊的社群，於 2004 年 9 月正式開張。目前本社群維護 Mozilla 軟體的正體中文版本與語言套件 (Language Pack)，提供 WWW（下載、文件）與 討論區 等服務。<p>

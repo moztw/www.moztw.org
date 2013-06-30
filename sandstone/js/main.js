@@ -1,7 +1,7 @@
 'use strict';
 
 requirejs.config({
-  baseUrl: 'js',
+  baseUrl: 'sandstone/js',
   shim: {
     app: ['jquery']
   },
