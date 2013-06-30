@@ -68,6 +68,16 @@
                   <p>以往您需要您郵件帳號的 IMAP、SMTP，以及 SSL/TLS 設定值。您現在只需要輸入姓名、電子郵件地址，以及密碼。設定精靈將會自動從我們的資料庫當中幫您尋找設定值。</p>
                </div>
             </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <h4>快捷通訊錄</h4>
+                  <p>快捷通訊錄是個讓您可以快速將聯絡人加到通訊錄當中的方式。只要點一下您所收到的訊息前面的星星圖示就能將其加入您的通訊錄中，點第二下就能新增聯絡人的照片、生日，或其他詳細資料。</p>
+               </div>
+               <div class="grid-6">
+                  <img alt="快捷通訊錄畫面擷圖" src="images/address-book.png">
+               </div>
+            </div>
          </article>
       </div>
    </div>
