@@ -34,6 +34,8 @@
 </div>
 </section>
 
+<section class="container block">
+<h2 class="block-title hide">特色</h2>
 <div id="mainContent" class="right features">
     	<div class="corner-box">
 		<h3>分頁與搜索</h3>
@@ -54,8 +56,9 @@
 	<p class="learn-more">
 		<a href="http://www.mozilla.org/zh-TW/thunderbird/features">深入瞭解 Thunderbird 的功能...</a>
 	</p>
-
 </div>
+</section>
+
 <div id="side" class="right">
     <h3>深入資訊（*連結至 Mozilla 網站）</h3>
     <ul class="compact">
