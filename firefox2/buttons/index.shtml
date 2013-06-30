@@ -1,0 +1,47 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>Firefox 推廣小貼紙 - MozTW</title>
+<style type="text/css">
+<!--
+#ffcentral-desc {
+background: url("t-firefoxbuttons.png") no-repeat;
+}
+-->
+</style>
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+	<div class="key-point" id="ffcentral">
+		<div id="ffcentral-desc">
+			<div>
+			<p>
+			感謝您協助推廣 Firefox！這邊是您可以貼在網站或 Blog 上的小貼紙，歡迎使用！
+			</p>
+	
+			</div>
+		</div>
+		<div id="product-side">
+			<h3>關於這些小貼紙</h3>
+			<ul>
+			<li>直接複製貼上就可以了，若您需要以其他方式使用，請記得附上前往 <a href="http://moztw.org/firefox/">Firefox 產品網頁</a>的連結。</li>
+
+			<li>全部由 MozTW 社群成員製作，您也可以參考 <a href="http://www.spreadfirefox.com/?q=affiliates/homepage">Mozilla 版的推廣貼紙</a>。</li>
+			<li>也想幫忙做小貼紙嗎？請貼到<a href="http://forum.moztw.org/viewforum.php?f=21">推廣討論區</a>與大家分享。</li>
+</ul>
+			</div>
+
+	</div>
+	<div id="mainContent" class="right">
+<p><a href="http://moztw.org/firefox/"><img src="http://moztw.org/firefox/buttons/type01.png" alt="Firefox 3 火熱上映" border="0"></a><br>450x60<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href="http://moztw.org/firefox/"&gt;&lt;img src="http://moztw.org/firefox/buttons/type01.png" alt="Firefox 3 火熱上映" border="0"&gt;&lt;/a&gt;</textarea></p>
+<p><a href="http://moztw.org/firefox/"><img src="http://moztw.org/firefox/buttons/type02-3.png" alt="Firefox 3 火熱上映" border="0"></a><br>210x195<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href="http://moztw.org/firefox/"&gt;&lt;img src="http://moztw.org/firefox/buttons/type02-3.png" alt="Firefox 3 火熱上映" border="0"&gt;&lt;/a&gt;</textarea></p>
+<p><a href="http://moztw.org/firefox/"><img src="http://moztw.org/firefox/buttons/type03-3.png" alt="Firefox 3 火熱上映" border="0"></a><br>199x280<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href="http://moztw.org/firefox/"&gt;&lt;img src="http://moztw.org/firefox/buttons/type03-3.png" alt="Firefox 3 火熱上映" border="0"&gt;&lt;/a&gt;</textarea></p>
+<p><a href="http://moztw.org/firefox/"><img src="http://moztw.org/firefox/buttons/type03-3-1.png" alt="Firefox 3 火熱上映" border="0"></a><br>199x280<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href="http://moztw.org/firefox/"&gt;&lt;img src="http://moztw.org/firefox/buttons/type03-3-1.png" alt="Firefox 3 火熱上映" border="0"&gt;&lt;/a&gt;</textarea></p>
+<p><a href="http://moztw.org/firefox/"><img src="http://moztw.org/firefox/buttons/type05-2.png" alt="Firefox 3 火熱上映" border="0"></a><br>199x279<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href="http://moztw.org/firefox/"&gt;&lt;img src="http://moztw.org/firefox/buttons/type05-2.png" alt="Firefox 3 火熱上映" border="0"&gt;&lt;/a&gt;</textarea></p>
+<p><a href="http://moztw.org/firefox/"><img src="http://moztw.org/firefox/buttons/type06-2.png" alt="Firefox 3 火熱上映" border="0"></a><br>561x242<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href="http://moztw.org/firefox/"&gt;&lt;img src="http://moztw.org/firefox/buttons/type06-2.png" alt="Firefox 3 火熱上映" border="0"&gt;&lt;/a&gt;</textarea></p>
+<p><a href="http://moztw.org/firefox/"><img src="http://moztw.org/firefox/buttons/type06-3.png" alt="Firefox 3 火熱上映" border="0"></a><br>531x140<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href="http://moztw.org/firefox/"&gt;&lt;img src="http://moztw.org/firefox/buttons/type06-3.png" alt="Firefox 3 火熱上映" border="0"&gt;&lt;/a&gt;</textarea></p>
+<p><a href="http://moztw.org/firefox/"><img src="http://moztw.org/firefox/buttons/type06-4.png" alt="Firefox 3 火熱上映" border="0"></a><br>557x242<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href="http://moztw.org/firefox/"&gt;&lt;img src="http://moztw.org/firefox/buttons/type06-4.png" alt="Firefox 3 火熱上映" border="0"&gt;&lt;/a&gt;</textarea></p>
+<p><a href="http://moztw.org/firefox/"><img src="http://moztw.org/firefox/buttons/type06-6.png" alt="Firefox 3 火熱上映" border="0"></a><br>526x269<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href="http://moztw.org/firefox/"&gt;&lt;img src="http://moztw.org/firefox/buttons/type06-6.png" alt="Firefox 3 火熱上映" border="0"&gt;&lt;/a&gt;</textarea></p>
+<p><a href="http://moztw.org/firefox/"><img src="http://moztw.org/firefox/buttons/type06-6-1.png" alt="Firefox 3 火熱上映" border="0"></a><br>598x141<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href="http://moztw.org/firefox/"&gt;&lt;img src="http://moztw.org/firefox/buttons/type06-6-1.png" alt="Firefox 3 火熱上映" border="0"&gt;&lt;/a&gt;</textarea></p>
+
+    </div>
+</div>
+<!--#include virtual="/inc/footer.html" -->

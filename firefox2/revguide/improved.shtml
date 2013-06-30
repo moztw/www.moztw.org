@@ -1,0 +1,27 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>重要改良項目 | Firefox 2 要點概覽</title>
+<link href="revguide.css" rel="stylesheet" type="text/css">
+<!--#include virtual="/inc/class_docs.html" -->
+<!--#include virtual="/inc/header.html" -->
+<div id="mBody">
+ <div id="mainContent" class="right">
+<h2>重要改良項目</h2>
+<p>Firefox 2 改良了許多部分，除了修復程式錯誤之外，以下是較重要的更新項目：</p>
+<h3>改良分頁瀏覽</h3>
+<p>Firefox 改善了受歡迎的分頁瀏覽功能，使其更顯眼也更易用。原本會開啟新瀏覽器視窗的鏈結，現在預設會開在分頁中，而且每個分頁現在都有個別的關閉按鈕。當開了太多分頁而無法全部擠進同一個視窗的上排時，則兩邊都會出現捲動箭頭，還有視窗右邊會有一個下拉選單鈕，列出n所有開啟的分頁清單。若您不小心關了一個分頁，您可以從「歷史」功能表中選「最近關閉的分頁」或是按 Ctrl+Shift+T（Mac 電腦上是 Cmd+Shift+T）來重新開啟。</p>
+<p><img src="tabbed.jpg" width="409" height="145"> </p>
+<h3>搜尋建議</h3>
+<p>當您於內建的搜尋欄中逐字輸入關鍵字時，Firefox 將顯示一份建議的關鍵字列表。目前內建的 Google、Yahoo! 奇摩都支援此功能，以 Firefox 搜尋資料將更快更準確。</p>
+<p><img src="searchsuggest.jpg" width="350" height="272"></p>
+<h3>介面更直覺</h3>
+<p>Firefox 2 調整了使用介面，讓您網際體驗習慣不變，使用卻更為順手。工具列按鈕簡潔不搶眼，使用者能專注於網路內容，而滑鼠移上時則以不同效果呈現方便辨識。 </p>
+<p><img src="interface.jpg" width="314" height="154"></p><ul class="rev_nav">
+      <li class="back"><a href="improved.shtml">&lt;上一頁</a></li>
+      <li class="next"><a href="secutiry_and_addons.shtml">下一頁&gt;</a></li>
+    </ul>
+ </div>
+ <!-- closes #mainContent-->
+  <div id="side" class="right">
+  <!--#include virtual="_menu.html" -->
+  </div>
+ <!--#include virtual="/inc/footer.html" -->

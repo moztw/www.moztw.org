@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-TW">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>參與其中</title>
+</head>
+
+<body>
+
+<div id="main">
+
+<h2>參與並協助 Mozilla 相關專案</h2>
+
+<p>
+不論您是個人、代表公司團體或大學行政人員，任何人皆可參與 Mozilla 社群。
+您有很多方法可以做出貢獻:</p>
+
+<h3 id="membership">個人: 購物或捐款</h3>
+
+<p>您可以到 <a href="http://store.mozilla.org"> Mozilla 線上購物商店</a>
+購買週邊商品或直接贊助 <a href="http://www.mozilla.org/foundation/donate.html" 
+	hreflang="en">Mozilla 基金會</a> (美國)</p>
+
+<!-- BEGIN NON-EUROPEAN LANGUAGE ONLY -->
+
+<h3 id="enterprise">公司團體</h3>
+<p>
+願意資助 Mozilla 專案的企業或團體負責人，請與
+<a href="mailto:partners@mozilla.org"> partners@mozilla.org </a>聯絡。
+</p>
+
+<h3 id="academia">大學與工學院</h3>
+<p>
+Mozilla 專案中的學生貢獻者們一向能給予我們不少幫助，
+同時他們也得到了相當寶貴的學術及教育體驗。
+我們很希望能與大學、工學院和其他資訊相關院校的朋友們有進一步的合作關係。
+歡迎老師與同學們透過此 E-mail 聯絡: 
+<a href="mailto:partners@mozilla.org">partners@mozilla.org</a></p>
+
+<!-- END NON-EUROPEAN LANGUAGE ONLY -->
+
+<h3 id="localization">MozTW</h3>
+<p>如果你對中文的部份特別感興趣， <a href="http://moztw.org/">MozTW</a>
+歡迎你的加入。 你可以幫忙翻譯各類文件或套件、整理資訊、測試與回報錯誤、... 
+等等，請至 <a href="http://forum.moztw.org"> MozTW 討論區 </a>
+參與討論以獲得進一步資訊。
+</p>
+
+<h3 id="others">其它參與方式</h3>
+<p>如果你會講英文，並且想瞭解參與 Mozilla 專案的其他方式(如開發與推廣等)，
+可以到 <a href="http://www.mozilla.org/contribute/" hreflang="en">mozilla.org</a> 網站查詢進一步資訊。</p>
+
+</div> <!-- end #main -->
+
+<div id="leftCol">
+
+<ul id="nav2nd">
+<li id="toHome"><a href="../../../">首頁</a></li>
+<li><a href="http://www.mozilla.org/contribute/">參與 mozilla.org 相關專案</a></li>
+</ul>
+
+</div> <!-- end #leftCol -->
+
+</body>
+
+</html>

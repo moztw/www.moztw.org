@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-TW">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>關於 Mozilla</title>
+</head>
+
+<body>
+
+<div id="main">
+
+<h2>關於 Mozilla Firefox</h2>
+<p><a href="../">Mozilla Firefox</a> 
+Mozilla Firefox 是由 Mozilla 專案推出、吸引全球矚目的全新開放源碼瀏覽器。
+</p>
+<p>
+Mozilla 專案是非營利的開放源碼 (Open Source) 活動，
+主要任務是維持網際網路的自由選擇與創新。
+本專案主要由 <a href="http://www.mozilla.org/" hreflang="en">Mozilla 基金會</a>
+（美國）、<a href="http://www.mozilla-europe.org/">Mozilla Europe</a>（歐洲）
+與 <a href="http://www.mozilla-japan.org/" hreflang="ja"> Mozilla Japan</a>
+（日本）等組織支援並推動運行，全球有數千名志工參與其中。
+</p>
+
+<h2>關於 MozTW</h2>
+<p><a href="http://www.moztw.org/">MozTW</a> 是由臺灣本地及海外志工
+所組成的社群，負責維護 Mozilla 專案的正體中文語系、處理中文相關問題，
+並提供中文文件等各種支援。</p>
+
+</div> <!-- end #main -->
+
+<div id="leftCol">
+
+<ul id="nav2nd">
+<li id="toHome"><a href="../../../">首頁</a></li>
+<li><a href="../">Mozilla Firefox</a></li>
+</ul>
+
+</div> <!-- end #leftCol -->
+
+</body>
+
+</html>

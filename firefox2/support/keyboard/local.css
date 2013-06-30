@@ -1,0 +1,178 @@
+@charset "iso-8859-1";
+
+/*
+	Extra CSS for Firefox Help.	
+	Copyright (c) 2004 David Tenser.
+ */
+
+
+/* Table of Contents */
+ul.toc, ul.toc ul {
+	padding-left: 2ex;
+	margin-left: 0px;
+	list-style-type: none;
+}
+ul.toc li.newsection {
+	margin-top: 1em;
+}
+
+/* no underlined headings under dd-tags (faq.html) */
+dd h4 {
+	border-bottom: none;
+}
+
+/* sample code boxes (the mozilla.org ones are ugly) */
+pre.code {
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: dashed;
+	color: #000;
+	border-color: #aaa;
+	background: #f8f8f8;
+}
+/* make comment in sample code boxes (above) green */
+span.comment {
+	color: #080;
+}
+
+/* link to top of page */
+p.toplink a:before {
+	content: "« ";
+}
+
+/* shortcuts list (keyboard.html, mouse.html) */
+table.shortcuts {
+	border-width: 0 0 0 1px;
+	border-style: solid;
+	border-spacing: 0px;
+	margin-bottom: 1em;
+	border-color: #ccc;
+	line-height: 1.4em;
+}
+th {
+	padding-left: 6px;
+	font-weight: bold;
+	text-align: left;
+	background-color: #999;
+	color: #fff;
+}
+td {
+ padding-right: 12px;
+ padding-left: 6px;
+ font-size: 90%;
+ vertical-align: top;
+ border-width: 0px 1px 1px 0px;
+ border-style: solid;
+ border-color: #ccc;
+}
+td.shortcut {
+	color: #666;
+	background: white;
+}
+td.shortcut_moz {
+	color: #666;
+	background: #fffaf4;
+}
+kbd.mouse {
+	color: #339;
+	background: transparent;
+}
+
+
+
+/* menu reference table of contents */ 
+div.menublock {
+	float: left;
+	height: 24em;
+}
+div.menublock_row2 {
+	float: left;
+	height: 16em;
+}
+.clear {
+	clear: both;
+}
+
+/* used to distunguish menu sequences */
+span.mnu {
+	background: #e8e8e8;
+	color: #333;
+}
+
+/* options.html */
+div.right {
+	float: right;
+	margin: 0px 0px 0px 10px;
+}
+div.left {
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+img.screenshot {
+	margin: 0.5em 0em 0.5em 0em;
+}
+.checkboxon {
+	padding-left: 18px;
+	background: url("images/chk_on.png") no-repeat center left;
+}
+.checkboxoff {
+	padding-left: 18px;
+	background: url("images/chk_off.png") no-repeat center left;
+}
+.radioon {
+	padding-left: 18px;
+	background: url("images/radio_on.png") no-repeat center left;
+}
+.radiooff {
+	padding-left: 18px;
+	background: url("images/radio_off.png") no-repeat center left;
+}
+div.checkboxon, div.checkboxoff, div.radioon, div.radiooff {
+	font-weight: bold;
+	background-color: transparent;
+	color: #444;
+}
+dd div.checkboxon, dd div.checkboxoff, dd div.radioon, dd div.radiooff {
+	margin-top: 1ex;
+}
+span.checkboxon, span.checkboxoff, span.radioon, span.radiooff {
+	font-weight: normal;
+	background-color: transparent;
+	color: #444;
+}
+span.button {
+	padding: 0px 1px 0px 1px;
+	border-style: solid;
+	border-width: 1px;
+	background: #fcfaf4;
+	color: #000;
+	border-color: #fc9 #c96 #c96 #fc9;
+	-moz-border-radius: 2px;
+}
+
+/* keyboard shortcuts */
+kbd {
+	padding: 0px 1px 0px 1px;
+	border-width: 1px 2px 2px 1px;
+	border-style: solid;
+	background: #faf6f6;
+	color: #000;
+	border-color:  #edd #baa #baa #eed;
+}
+/* mouse shortcuts */
+kbd.mouse {
+	border: 0px;
+}
+
+li#all {
+	list-style-type: none;
+}
+li#windows {
+	list-style-image: url("http://www.mozilla.org/images/ico-win.png");
+}
+li#linux {
+	list-style-image: url("http://www.mozilla.org/images/ico-tux.png");
+}
+li#mac {
+	list-style-image: url("http://www.mozilla.org/images/ico-osx.png");
+}

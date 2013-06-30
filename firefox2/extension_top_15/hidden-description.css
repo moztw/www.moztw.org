@@ -1,0 +1,6 @@
+.extension-info ul, .extension-info p, .extension-info blockquote {
+	display: none;
+}
+#mainContent .install-options {
+	margin-top: -2em;
+}

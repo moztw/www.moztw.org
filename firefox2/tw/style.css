@@ -1,0 +1,240 @@
+#main-feature {
+    padding: 32px 0;
+}
+#main-feature h1 {
+    font-size: 72px;
+    margin-bottom: 24px;
+}
+#main-feature h2 {
+    font-size: 24px;
+}
+/* screenshot */
+ #tw-screenshot #imgs {
+    text-align: center;
+}
+#tw-screenshot a img {
+    box-shadow: 0 0 0 1px #CCC;
+    margin-right: 10px;
+    max-height: 80px;
+}
+.extension-screenshot {
+    padding: 5px;
+    text-align: right;
+    margin: 15px 35px 0 0;
+}
+.extension-screenshot a {
+    margin-left: 5px;
+}
+.extension-screenshot a img {
+    border: 1px solid #CCCCCC;
+    max-height: 75px;
+}
+/* extensions */
+ .contentboard {
+    background-color: #F5F5E8;
+    background: radial-gradient(ellipse farthest-corner at center 45px, #F5F1E8 0px, white 100%);
+    padding: 2em 40px;
+    margin-bottom: 40px;
+    box-shadow: 0px 0px 0px 1px white inset;
+    border-bottom: #DDD;
+    color: #484848;
+}
+.contentboard h3 {
+    margin: 0 0 1em 0;
+}
+.contentboard p {
+    margin: 1.5em 0;
+}
+#installList h3 {
+    border-top: 1px dotted #DDDDDD;
+    margin-bottom: 40px;
+    padding: 40px 0 24px;
+}
+#installList h3:nth-of-type(1) {
+    border-top: none;
+    padding-top: 24px;
+}
+#installList .extension-icon {
+    float: left;
+    height: 32px;
+    margin: 2px 7px 0 0;
+    padding: 0 5px;
+    width: 32px;
+}
+#installList .extension h4 {
+    height: 36px;
+    line-height: 36px;
+    margin: 0;
+}
+#installList .extension {
+    border-bottom: 1px dotted #D6D6D6;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+#installList .extension:last-of-type {
+    padding-bottom: 0;
+    border-bottom: none;
+}
+#installList .extension .install-options {
+    text-align: right;
+    margin-top: -32px;
+    margin-bottom: 2.5em;
+}
+.direct-install {
+    border-radius: 6px;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+    color: white !important;
+    font: 700 13px/1em"Trebuchet MS", sans-serif;
+    background-color: rgb(132, 198, 60);
+    background: linear-gradient(rgb(132, 198, 60), rgb(72, 150, 21)) repeat scroll 0% 0% rgb(72, 150, 21);
+    font-size: 16px;
+    padding: 8px 16px 12px;
+    text-decoration: none !important;
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.1), 0px -4px rgba(0, 0, 0, 0.1) inset, 0px 0px 100px rgba(255, 255, 255, 0.2) inset;
+    margin-left: 0.5em;
+}
+.extension .tracking {
+    display: inline-block;
+    margin: 0 35px 5px 50px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    background: #FFC;
+    color: #669;
+    border: 1px dotted #CC9;
+}
+.extension .tracking img {
+    width: 16px;
+    margin: -2px 5px 0 5px;
+    vertical-align: middle;
+}
+.extension blockquote {
+    margin: 0 2em 0 3em;
+    padding: 16px;
+    color: #339;
+    font-size: 1.2em;
+    border: 1px dotted #AAD;
+    box-shadow: 0px 0px 0px 1px white inset;
+    background-color: #EEF;
+    background: radial-gradient(ellipse farthest-corner at center 45px, #EEF 0px, white 100%);
+}
+.extension .extension-description {
+    margin-left: 4em;
+    margin-right: 3em;
+}
+.extension .extension-description ul {
+    margin-left: 1em;
+}
+.extension img.floatLeft {
+    float: left;
+    margin: 15px 15px 15px 0;
+}
+.extension img.floatRight {
+    float: right;
+    margin: 15px 0 15px 15px;
+}
+#mainContent .download {
+    padding: 2em 40px;
+    position: relative;
+}
+#mainContent .download .install {
+    position: absolute;
+    right: 2.5em;
+    top: 2em;
+}
+#mainContent .download h3 {
+    margin-bottom: 0.75em;
+}
+#mainContent .download input {
+    font-size: 1.5em;
+    height: auto;
+    padding: 0.5em 1em;
+}
+/* download button */
+ #fxtw-download header {
+    float: left;
+}
+#fxtw-download header h3 {
+    line-height: 103px;
+}
+#fxtw-download #download-button-desktop-tw {
+    margin: 1em;
+}
+#fxtw-download {
+    text-align: right;
+}
+#fxtw-download div.unrecognized-download {
+    height: 56px;
+}
+/* license */
+ #license {
+    margin: 3em 1em;
+}
+#license h3 {
+    margin-bottom: 16px;
+}
+#license p {
+    margin-top: 10px;
+}
+#license p a {
+    vertical-align: baseline;
+}
+@media screen and (max-width: 1000px), screen and (max-device-width: 1000px) {
+    #fxtw-download.linux header h3, #fxtw-download.unrecognized header h3 {
+        line-height: 93px;
+        margin: 10px 0 -10px;
+    }
+}
+@media screen and (max-width: 749px), screen and (max-device-width: 749px) {
+    #fxtw-download header h3 {
+        line-height: 93px;
+        margin: 10px 0 -10px;
+    }
+}
+@media screen and (max-width: 650px), screen and (max-device-width: 650px) {
+    #main-feature h1 {
+        font-size: 42px;
+    }
+    #fxtw-download {
+        text-align: center;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    #installList .extension .install-options {
+        display: none;
+    }
+    .contentboard {
+        padding: 1em 20px;
+    }
+    #mainContent div.download.billboard {
+        display: none;
+    }
+    #installList h3:nth-of-type(1) {
+        padding-top: 10px;
+    }
+    #installList h3 {
+        padding: 20px 0 0;
+        margin-bottom: 0;
+    }
+    #installList .extension {
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+    #installList .extension h4 {
+        font-size: 20px;
+    }
+    .extension .tracking {
+        margin: 5px 0;
+    }
+    .extension blockquote {
+        font-size: 14px;
+        padding: 7px;
+        margin: 0;
+    }
+    .extension .extension-description {
+        margin: 0;
+    }
+    #colophon {
+        padding: 20px 5px;
+    }
+}

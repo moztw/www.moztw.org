@@ -1,0 +1,365 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>Mozilla Firefox 支援：快速鍵</title>
+<link rel="stylesheet" type="text/css" href="local.css">
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+<div id="side" class="left">
+<ul id="nav">
+<!--        <li><span><a href="index.html">Firefox Help</a></span>
+        <ul>
+                <li><a href="faq.html" id="linkfaq" >Mozilla Firefox 常見問題</a></li>
+                <li><a href="tips.html" id="linktips" >使用秘訣</a></li>
+                <li><a href="keyboard.html" id="linkkeyboard" >鍵盤捷徑</a></li>
+                <li><a href="mouse.html" id="linkmouse" >滑鼠捷徑</a></li>
+                <li><a href="menu.html" id="linkmenu" >選單參考</a></li>
+                <li><a href="options.html" id="linkoptions" >選項對話框</a></li>
+                <li><a href="edit.html" id="linkedit">編輯配置檔案</a></li>
+                <li><a href="bugs.html" id="linkbugs">回報錯誤</a></li>
+-->
+                <li><a href="/firefox">回 Firefox 首頁</a></li>
+        <!-- </ul>
+        </li> -->
+</ul>
+</div>
+                                                                                                                   
+<div id="mainContent" class="bodyleft">
+
+<h1>鍵盤捷徑</h1>
+				
+<p>以下 清單 列出 在 Firefox 常用的 鍵盤捷徑，與在 Internet Explorer 與 Opera 裡 相對的 鍵盤捷徑。</p>
+
+
+<table class="shortcuts" border="0" cellpadding="2" cellspacing="1">
+<thead>
+<tr>
+	<th>指令</th>
+	<th>Firefox</th>
+	<th>Internet Explorer</th>
+	<th>Opera</th>
+</tr>
+
+</thead>
+<tbody>
+<tr>
+	<td>上一頁</td>
+	<td class="shortcut_moz"><kbd>Backspace</kbd><br /><kbd>Alt</kbd>+<kbd>左箭頭</kbd></td>
+	<td class="shortcut"><kbd>Backspace</kbd><br /><kbd>Alt</kbd>+<kbd>左箭頭</kbd></td>
+	<td class="shortcut"><kbd>Backspace</kbd><br /><kbd>Alt</kbd>+<kbd>左箭頭</kbd><br /><kbd>Ctrl</kbd>+<kbd>左箭頭</kbd><br /><kbd>Z</kbd></td>
+</tr>
+<tr>
+	<td>下一頁</td>
+	<td class="shortcut_moz"><kbd>Shift</kbd>+<kbd>Backspace</kbd> <sup><a href="#windows">Windows</a></sup><br /><kbd>Alt</kbd>+<kbd>右箭頭</kbd></td>
+	<td class="shortcut"><kbd>Shift</kbd>+<kbd>Backspace</kbd><br /><kbd>Alt</kbd>+<kbd>右箭頭</kbd></td>
+	<td class="shortcut"><kbd>Shift</kbd>+<kbd>Backspace</kbd><br /><kbd>Alt</kbd>+<kbd>右箭頭</kbd><br /><kbd>Ctrl</kbd>+<kbd>右箭頭</kbd><br /><kbd>X</kbd></td>
+</tr>
+<tr>
+	<td>書籤</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>B</kbd><br /><kbd>Ctrl</kbd>+<kbd>I</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>I</kbd></td>
+	<td class="shortcut"><kbd>F4</kbd><br /><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>B</kbd><br /><kbd>Ctrl</kbd>+<kbd>1</kbd></td>
+</tr>
+<tr>
+	<td>新增書籤</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>D</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>D</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>T</kbd></td>
+</tr>
+<tr>
+	<td>鍵盤瀏覽</td>
+	<td class="shortcut_moz"><kbd>F7</kbd></td>
+	<td class="shortcut">無此功能</td>
+	<td class="shortcut">無此功能</td>
+</tr>
+<tr>
+	<td>新增分頁</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>T</kbd></td>
+	<td class="shortcut">無此功能</td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>N</kbd></td>
+</tr>
+<tr>
+	<td>下一個分頁</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>Tab</kbd><br /><kbd>Ctrl</kbd>+<kbd>PageDown</kbd></td>
+	<td class="shortcut">無此功能</td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>Tab</kbd><br /><kbd>Alt</kbd>+<kbd>Page Down</kbd><br /><kbd>Ctrl</kbd>+<kbd>F6</kbd><br /><kbd>2</kbd></td>
+</tr>
+<tr>
+	<td>上一個分頁</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Tab</kbd><br /><kbd>Ctrl</kbd>+<kbd>PageUp</kbd></td>
+	<td class="shortcut">無此功能</td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Tab</kbd><br /><kbd>Alt</kbd>+<kbd>Page Up</kbd><br /><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>F6</kbd><br /><kbd>1</kbd></td>
+</tr>
+<tr>
+	<td>選取分頁 [1 到 9]</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+[<kbd>1</kbd> to <kbd>9</kbd>]</td>
+	<td class="shortcut">無此功能</td>
+	<td class="shortcut">&nbsp;</td>
+</tr>
+<tr>
+	<td>關閉分頁</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>W</kbd><br /><kbd>Ctrl</kbd>+<kbd>F4</kbd></td>
+	<td class="shortcut">無此功能</td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>W</kbd><br /><kbd>Ctrl</kbd>+<kbd>F4</kbd></td>
+</tr>
+<tr>
+	<td>新增視窗</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>N</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>N</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>N</kbd></td>
+</tr>
+<tr>
+	<td>關閉視窗</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>W</kbd><br /><kbd>Alt</kbd>+<kbd>F4</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>W</kbd><br /><kbd>Alt</kbd>+<kbd>F4</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>W</kbd><br /><kbd>Alt</kbd>+<kbd>F4</kbd></td>
+</tr>
+<tr>
+	<td>填入 .com 位址</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>Enter</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>Enter</kbd></td>
+	<td class="shortcut"><kbd>Enter</kbd></td>
+</tr>
+<tr>
+	<td>填入  .net 位址</td>
+	<td class="shortcut_moz"><kbd>Shift</kbd>+<kbd>Enter</kbd></td>
+	<td class="shortcut">無此功能</td>
+	<td class="shortcut">無此功能</td>
+</tr>
+<tr>
+	<td>填入  .org 位址</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd></td>
+	<td class="shortcut">無此功能</td>
+	<td class="shortcut">無此功能</td>
+</tr>
+<tr>
+	<td>剪下</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>X</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>X</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>X</kbd></td>
+</tr>
+<tr>
+	<td>複製</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>C</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>C</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>C</kbd></td>
+</tr>
+<tr>
+	<td>貼上</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>V</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>V</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>V</kbd></td>
+</tr>
+<tr>
+	<td>刪除</td>
+	<td class="shortcut_moz"><kbd>Del</kbd></td>
+	<td class="shortcut"><kbd>Del</kbd></td>
+	<td class="shortcut"><kbd>Del</kbd></td>
+</tr>
+<tr>
+	<td>縮小 文字 大小</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>-</kbd></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut"><kbd>9</kbd></td>
+</tr>
+<tr>
+	<td>放大 文字 大小</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>+</kbd></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut"><kbd>0</kbd></td>
+</tr>
+<tr>
+	<td>還原 文字 大小</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>0</kbd></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut"><kbd>6</kbd></td>
+</tr>
+<tr>
+	<td>刪除 各別的 自動填寫 資料</td>
+	<td class="shortcut_moz"><kbd>Shift</kbd>+<kbd>Del</kbd></td>
+	<td class="shortcut"><kbd>Del</kbd></td>
+	<td class="shortcut">&nbsp;</td>
+</tr>
+<tr>
+	<td>下載</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>J</kbd></td>
+	<td class="shortcut">無此功能</td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd><br /><kbd>Ctrl</kbd>+<kbd>5</kbd></td>
+</tr>
+<tr>
+	<td>隨打即找 鏈結</td>
+	<td class="shortcut_moz"><kbd>'</kbd></td>
+	<td class="shortcut">無此功能</td>
+	<td class="shortcut"><kbd>,</kbd><br /><kbd>Shift</kbd>+<kbd>/</kbd></td>
+</tr>
+<tr>
+	<td>隨打即找 文字</td>
+	<td class="shortcut_moz"><kbd>/</kbd></td>
+	<td class="shortcut">無此功能</td>
+	<td class="shortcut"><kbd>/</kbd><br /><kbd>.</kbd></td>
+</tr>
+<tr>
+	<td>在頁中尋找</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>F</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>F</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>F</kbd></td>
+</tr>
+<tr>
+	<td>找下一個</td>
+	<td class="shortcut_moz"><kbd>F3</kbd><br /><kbd>Ctrl</kbd>+<kbd>G</kbd></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut"><kbd>F3</kbd></td>
+</tr>
+<tr>
+	<td>找上一個</td>
+	<td class="shortcut_moz"><kbd>Shift</kbd>+<kbd>F3</kbd></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut"><kbd>Shift</kbd>+<kbd>F3</kbd></td>
+</tr>
+<tr>
+	<td>全螢幕</td>
+	<td class="shortcut_moz"><kbd>F11</kbd></td>
+	<td class="shortcut"><kbd>F11</kbd></td>
+	<td class="shortcut"><kbd>F11</kbd></td>
+</tr>
+<tr>
+	<td>協助</td>
+	<td class="shortcut_moz"><kbd>F1</kbd></td>
+	<td class="shortcut"><kbd>F1</kbd></td>
+	<td class="shortcut"><kbd>F1</kbd></td>
+</tr>
+<tr>
+	<td>瀏覽歷史</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>H</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>H</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>H</kbd><br /><kbd>Ctrl</kbd>+<kbd>4</kbd></td>
+</tr>
+<tr>
+	<td>刪行尾符 (End Of Line)</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>K</kbd> <sup><a href="#linux">Linux</a></sup></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut">&nbsp;</td>
+</tr>
+<tr>
+	<td>移到下一個框</td>
+	<td class="shortcut_moz"><kbd>F6</kbd></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut">&nbsp;</td>
+</tr>
+<tr>
+	<td>移到上一個框</td>
+	<td class="shortcut_moz"><kbd>Shift</kbd>+<kbd>F6</kbd></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut">&nbsp;</td>
+</tr>
+<tr>
+	<td>發新郵件</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>M</kbd></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut">&nbsp;</td>
+</tr>
+<tr>
+	<td>開啟檔案</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>O</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>O</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>O</kbd></td>
+</tr>
+<tr>
+	<td>在新分頁開啟位址</td>
+	<td class="shortcut_moz"><kbd>Alt</kbd>+<kbd>Enter</kbd></td>
+	<td class="shortcut">無此功能</td>
+	<td class="shortcut"><kbd>Shift</kbd>+<kbd>Enter</kbd></td>
+</tr>
+<tr>
+	<td>另存新檔</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>S</kbd></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>S</kbd></td>
+</tr>
+<!--
+<tr>
+	<td>Page Info</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>J</kbd> <sup><a href="#windows">Windows</a></sup><br /><kbd>Ctrl</kbd>+<kbd>I</kbd> <sup><a href="#linux">Linux</a></sup></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>8</kbd></td>
+</tr>
+-->
+<tr>
+	<td>原始內容</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>U</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>F3</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>F3</kbd></td>
+</tr>
+<tr>
+	<td>列印</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>P</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>P</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>P</kbd></td>
+</tr>
+
+<tr>
+	<td>復原</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Z</kbd><br /><kbd>Ctrl</kbd>+<kbd>Y</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>Y</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Z</kbd><br /><kbd>Ctrl</kbd>+<kbd>Y</kbd></td>
+</tr>
+<tr>
+	<td>取消復原</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>Z</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>Z</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>Z</kbd></td>
+</tr>
+<tr>
+	<td>重新載入</td>
+	<td class="shortcut_moz"><kbd>F5</kbd> <sup><a href="#windows">Windows</a></sup><br /><kbd>Ctrl</kbd>+<kbd>R</kbd></td>
+	<td class="shortcut"><kbd>F5</kbd><br /><kbd>Ctrl</kbd>+<kbd>R</kbd></td>
+	<td class="shortcut"><kbd>F5</kbd><br /><kbd>Ctrl</kbd>+<kbd>R</kbd></td>
+</tr>
+<tr>
+	<td>重新載入 (強制)</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>F5</kbd><br /><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>F5</kbd></td>
+	<td class="shortcut">&nbsp;</td>
+</tr>
+<tr>
+	<td>停止</td>
+	<td class="shortcut_moz"><kbd>Esc</kbd></td>
+	<td class="shortcut"><kbd>Esc</kbd></td>
+	<td class="shortcut"><kbd>Esc</kbd></td>
+</tr>
+<tr>
+	<td>全選</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>A</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>A</kbd></td>
+	<td class="shortcut"><kbd>Ctrl</kbd>+<kbd>A</kbd></td>
+</tr>
+<tr>
+	<td>選取 位址列</td>
+	<td class="shortcut_moz"><kbd>Alt</kbd>+<kbd>D</kbd><br /><kbd>F6</kbd><br /><kbd>Ctrl</kbd>+<kbd>L</kbd></td>
+	<td class="shortcut"><kbd>Alt</kbd>+<kbd>D</kbd><br /><kbd>F6</kbd><br /><kbd>F4</kbd><br /><kbd>Ctrl</kbd>+<kbd>Tab</kbd></td>
+	<td class="shortcut"><kbd>F8</kbd></td>
+</tr>
+<tr>
+	<td>選取 搜尋列裡 的 下一個 搜尋器</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>Down</kbd></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut">&nbsp;</td>
+</tr>
+<tr>
+	<td>選取 搜尋列裡 的 上一個 搜尋器</td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>Up</kbd></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut">&nbsp;</td>
+</tr>
+<tr>
+	<td>網路 搜查<sup><a href="#f1">1</a></sup></td>
+	<td class="shortcut_moz"><kbd>Ctrl</kbd>+<kbd>E</kbd><br /><kbd>Ctrl</kbd>+<kbd>K</kbd> <sup><a href="#windows">Windows</a></sup><br /><kbd>Ctrl</kbd>+<kbd>J</kbd> <sup><a href="#linux">Linux</a></sup></td>
+	<td class="shortcut">&nbsp;</td>
+	<td class="shortcut"><kbd>Shift</kbd>+<kbd>F8</kbd></td>
+</tr>
+</tbody>
+</table>
+
+<p><a id="f1"><sup>1</sup></a>: Web Search moves the cursor to the Search bar and only works if the Search Bar is visible. If the Search Bar is hidden, this keyboard shortcut has no effect.</p>
+<p><a id="windows"><sup>Windows</sup></a>: This shortcut only works in Microsoft Windows.</p>
+<p><a id="linux"><sup>Linux</sup></a>: This shortcut only works in Unix/Linux.</p></div>
+<!--#include virtual="/inc/footer.html" -->

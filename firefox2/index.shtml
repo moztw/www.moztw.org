@@ -1,0 +1,285 @@
+<!--#include virtual="/sandstone/meta.shtml" -->
+
+<!--
+# 頁面說明
+此頁是新版首頁，需要套上 Sandstone 主題、更新內容及調整 CSS。
+
+Sandstone style guide:
+  http://www.mozilla.org/en-US/styleguide/websites/sandstone/
+
+Sandstone 範例可參考根目錄的 index2.shtml。
+
+## 待辦事項
+* Firefox 介紹需要更新，下次從 "Stay in Sync" 開始抄，詳見：
+  http://www.mozilla.org/en-US/firefox/features/
+  http://mozilla.com.tw/firefox/features/
+* CSS 寫在 index.html 裡面好醜，應該抽離成獨立的檔案。
+-->
+
+<title>
+  Mozilla Firefox 正體中文版下載 | MozTW, Mozilla Taiwan Community
+</title>
+<meta name="description" content="Firefox 正體中文版下載：忠於開放使命，致力提升網路體驗；全新外觀、速度超快、一切都變得更棒！（火狐瀏覽器 Mac/Windows/Linux 版）" />
+<style>
+<!--
+#product-desc.product-firefox4 {
+	background: transparent url(images/product-firefox-screen.png) no-repeat scroll 0 0;
+	padding: 40px 0 50px;
+}
+#product-desc p {
+	padding-left: 188px;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+.top-features {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.top-features li {
+	float: left;
+	width: 33%;
+	height: 7.5em;
+	list-style: none;
+	display: block;
+}
+
+.top-features li p{
+	margin-top:5px;
+}
+
+.top-features strong {
+	font-size: 1.2em;
+	height:1.5em;
+	overflow:hidden;
+	display: block; width: 95%;
+	border-bottom: 1px solid #cccccc;
+}
+
+.top-features .new, .top-features .improved {
+	padding: 2px;
+	color: #ffffff;
+	float: right;
+	margin: 4px;
+}
+.top-features .new {
+	background-color: #65B253;
+}
+.top-features .improved {
+	background-color: #CB44A9;
+}
+
+#mainContent h3 {
+	padding-top:20px;
+}
+
+.upgrade-img {
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+.upgrade-img h5 {
+	font-weight: bold;
+	font-size: 1.1em;
+	border: none;
+}
+
+.upgrade-img p {
+	clear: both;
+}
+
+#performance-chart-time {
+	margin: 0 auto; padding: 0;
+	list-style: none;
+	width: 460px;
+}
+
+#performance-chart-time li {
+	float: left;
+	list-style: none;
+	width: 33%;
+	text-align: center;
+}
+
+-->
+</style>
+
+<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/sandstone/header.shtml" -->
+
+<section class="container block">
+  <div class="key-point module wider">
+    <div id="product-desc" class="product-firefox4">
+      <h2>Firefox: rediscover the web</h2>
+      <p>
+        忠於開放使命，致力提升網路體驗<br>
+        全新外觀、速度超快、一切都變得更棒！
+      </p>
+    </div>
+    <div id="product-side">
+      <div class="download">
+        <h3>免費下載 Firefox</h3>
+        <!--#include virtual="/inc/dlff.html" -->
+      </div>
+      <ul>
+        <li>
+          <a class="ancilliaryLink" href="/docs/fx/system-requirements">
+            系統需求
+          </a>
+        </li>
+        <li>
+          <a class="ancilliaryLink" href="/firefox/releases">
+            版本資訊
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<section id="madeeasy" class="container block">
+  <div class="module wider">
+    <a href="#">回到頂端</a>
+    <h3>瀏覽變得簡單</h3>
+    <div id="awesomebar">
+      <h4>智慧網址列</h4>
+      <img
+        src="//mozorg.cdn.mozilla.net/media/img/firefox/features/screen-awesomebar-linux.png"
+        alt="智慧網址列截圖" />
+      <p>
+        快速抵達您最愛的網站，就算是您不記得網址也好。在網址列（又稱 Awesome Bar，智慧位址列）輸入詞彙，自動完成功能將會自您的瀏覽紀錄、書籤當中的網站，以及開啟分頁當中搜尋並顯示可能符合的結果。
+      </p>
+      <p>
+        智慧位址列會隨時跟著您的使用自我學習，它會調整自己以適合您的偏好並提供更好的答案。我們已將它調整成讓您可以更好地控制結果（包含隱私設定），並加強校能，讓您可以更快地找到所需的結果。
+      </p>
+    </div>
+    <hr>
+    <div id="improvedinterface">
+      <h4>改良介面</h4>
+      <p>
+        我們一直在尋找能讓您更輕鬆有效率進行瀏覽的方法。<br>
+        閱讀我們最新的改善:
+      </p>
+      <div class="column1">
+        <div class="sub-feature">
+          <h5>標籤列置頂</h5>
+          <p>分頁標籤位於智慧位址列之上，讓您可以更簡單地聚焦於您所開啟的網站內容。</p>
+          <img
+            src="//mozorg.cdn.mozilla.net/media/img/firefox/features/screen-tabsontop-linux.png"
+            alt="改良介面截圖" />
+        </div>
+      </div>
+      <div class="column2">
+        <div class="sub-feature">
+          <h5>Firefox 按鈕 (Windows 與 Linux)</h5>
+          <p>您所有的選單項目現在都在一個小按鈕當中，讓您可以更快使用。</p>
+          <img
+            src="//mozorg.cdn.mozilla.net/media/img/firefox/features/screen-firefoxbutton-linux.png"
+            alt="Firefox 按鈕截圖" />
+        </div>
+      </div>
+      <div class="column3">
+        <div class="sub-feature">
+          <h5>書籤按鈕</h5>
+          <p>用一個按鈕就能管理您的書籤。不需要跳入泥淖就能找到您最愛的鏈結！</p>
+          <img
+            src="//mozorg.cdn.mozilla.net/media/img/firefox/features/screen-bookmarks-linux.png"
+            alt="書籤按鈕截圖" />
+        </div>
+      </div>
+      <div class="column1">
+        <div class="sub-feature">
+          <h5>簡化的重新載入/停止按鈕</h5>
+          <p>您的智慧位址列現在只需要一個簡單的按鈕就能自動判斷是要停止或重新載入頁面。</p>
+          <img
+            src="//mozorg.cdn.mozilla.net/media/img/firefox/features/screen-reloadstop-linux.png"
+            alt="重新載入/停止按鈕截圖" />
+        </div>
+      </div>
+      <div class="column2">
+        <div class="sub-feature">
+          <h5>首頁按鈕</h5>
+          <p>首頁按鈕已被移動到搜尋框的右邊。</p>
+          <img
+            src="//mozorg.cdn.mozilla.net/media/img/firefox/features/screen-home-linux.png"
+            alt="首頁按鈕截圖" />
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div id="tabs">
+      <h4>分頁標籤</h4>
+      <p>
+        一次簡單而方便地瀏覽多個網站。每個新網站都會在新標籤（而不是新視窗）中開啟<br>
+        而且只需滑鼠一點就能存取。
+      </p>
+      <div class="column1">
+        <div class="sub-feature">
+          <h5>應用程式分頁標籤</h5>
+          <p>讓您總是開啟的網頁（像是網路郵件）離開分頁標籤，並提供他們一個永久的家。</p>
+          <img
+            src="//mozorg.cdn.mozilla.net/media/img/firefox/features/screen-apptab-linux.png"
+            alt="應用程式分頁標籤截圖" />
+        </div>
+        <div clas="feature">
+          <h5>重新開啟已關閉的分頁與視窗</h5>
+          <p>若您不小心關掉了某個分頁或視窗，您只需要滑鼠一按就能重新開啟。只要檢視歷史選單當中的最近關閉的分頁或最近關閉的視窗項目，就可以把要重新開啟的項目開回來。</p>
+        </div>
+      </div>
+      <div class="column2">
+        <div class="sub-feature">
+          <h5>切換到分頁</h5>
+          <p>當您正要開啟新分頁或於智慧位址列輸入時，Firefox 將會檢查您是不是已經開啟了這個網頁。如果已經開啟了，將會直接帶您檢視該分頁，這樣就不用重複開啟了。</p>
+          <img
+            src="//mozorg.cdn.mozilla.net/media/img/firefox/features/screen-switchtotab-linux.png"
+            alt="切換到分頁截圖" />
+        </div>
+        <div clas="feature">
+          <h5>簡單滾動分頁標籤</h5>
+          <p>想要把您最愛的 20 個網頁一次打開嗎？有個好用的新功能可以讓您滾動分頁標籤，這樣就可以簡單地看到所有的標籤並快速存取您想要的那一個。</p>
+        </div>
+      </div>
+      <div class="column3">
+        <div class="sub-feature">
+          <h5>新增分頁</h5>
+          <p>Firefox helps you get to your next task faster than ever by displaying a set of thumbnails of your most recently and frequently visited sites every time you open a new tab. You can also customize this page by adding, removing or reorganizing sites to get to where you want to go in one click.</p>
+          <img
+            src="//mozorg.cdn.mozilla.net/media/img/firefox/features/screen-newtab-linux.jpg"
+            alt="新增分頁截圖" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="side" class="right">
+		<img src="images/product-personas-title.png" alt="Personas 個性面板" />
+		<p>個性面板是輕量級的佈景主題，包含五花八門的外觀與設計，讓您隨時個性化 Firefox 的外貌，如同挑選衣服一樣有趣。</p>
+		<p>→ <a href="https://addons.mozilla.org/firefox/themes/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-firefox-personas']);">立刻至 Firefox 附加元件網站挑選個性面板！</a></p>
+
+    <h3>技術支援與套件下載</h3>
+    <ul class="compact">
+    	<li><a href="https://www.mozilla.org/zh-TW/plugincheck/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'plugincheck']);">外掛程式更新</a><br>（檢查 Flash、多媒體播放支援）</li>
+    	<li><a href="https://addons.mozilla.org/firefox" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-fx']);">取得套件及佈景主題</a></li>
+    	<li><a href="http://support.mozilla.org" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'SUMO']);">Mozilla 技術支援中心</a></li>
+		<li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: Firefox', '/firefox']);">Firefox 中文討論區</a></li>
+    </ul>
+
+	<h3>中文社群資源</h3>
+	<ul class="compact">
+		<li><a href="http://www.youtube.com/user/mozillatw" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Youtube', 'mozillatw']);">Youtube Firefox 影片頻道</a></li>
+		<li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
+		<li><a href="http://wiki.moztw.org/index.php?title=FireAnything" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Wiki: FireAnything', '/firefox']);">某瀏覽器功能，Firefox 有沒有？</a></li>
+		<li><a href="/dl/search">新增中文搜尋引擎</a></li>
+	</ul>
+
+	<h3>推廣 Firefox</h3>
+	<ul class="compact">
+		<li><a href="https://affiliates.mozilla.org/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'affiliates-mozilla']);">取得 Blog 推廣貼紙</a> *</li>
+		<li><a href="https://www.facebook.com/Firefox/app_373528039377278" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Facebook', 'Firefox-affiliates']);">臉書貼紙推廣 Firefox</a></li>
+	</ul>
+
+	<p>* 連結至 Mozilla 網站</p>
+</div>
+
+<!--#include virtual="/sandstone/footer.shtml" -->

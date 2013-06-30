@@ -1,0 +1,21 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>Firefox 2 要點概覽</title>
+<link href="revguide.css" rel="stylesheet" type="text/css">
+<!--#include virtual="/inc/class_docs.html" -->
+<!--#include virtual="/inc/header.html" -->
+<div id="mBody">
+ <div id="mainContent" class="right">
+<h2>為您介紹 Mozilla Firefox 2</h2>
+<p>備受肯定的 Firefox 網路瀏覽器帶著更棒的功能回來了。</p>
+<p>Firefox 2 參考全球數百萬使用者的建言，加上強大功能讓瀏覽體驗再度昇級。更快、更安全、更能樂在其中，同時也提供多種方式供您自訂功能及調整介面，打造符合個人需求的瀏覽器。</p>
+<p>Firefox 同步支援 Windows、Mac OS X 及 Linux，也提供多達四十種以上的語言版本，為眾瀏覽器軟體之冠。</p>
+<p>現在就深入 Firefox 的各項特色 － 請於選單中點選您欲了解的項目。</p>
+<ul class="rev_nav">
+      <li class="next"><a href="whatsnew.shtml">下一頁&gt;</a></li>
+    </ul>
+</div>
+ <!-- closes #mainContent-->
+  <div id="side" class="right">
+  <!--#include virtual="_menu.html" -->
+  </div>
+ <!--#include virtual="/inc/footer.html" -->

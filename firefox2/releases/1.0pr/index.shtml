@@ -1,0 +1,87 @@
+<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/inc/title.html" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+<div class="key-point">
+    <div id="product-desc" class="product-firefox">
+	<h2>Firefox: the browser, reloaded</h2>
+	<p>
+	<a href="http://www.oreillynet.com/pub/wlg/5588">世界上最棒的瀏覽器又向前邁進了。</a><b>全新</b> Firefox Preview Release（預覽版）是<a href="http://www.mozilla.org/products/firefox/shelf.html">數度獲獎</a>的 Mozilla 新生代瀏覽器， 提供你更快速、更安全、而且更有效率的網路生活。
+	<a href="/docs/ff/switch">現在就改用 Firefox</a>－Firefox 可以將您的「我的最愛」、設定及其他資訊全數匯入，您不會遺漏任何東西。
+	</p>
+    </div>
+    <div id="product-side">
+	<div class="download">
+	    <h3>馬上下載</h3>
+	    <!--#include virtual="/inc/dlff.html" -->
+	    </div><ul>
+	    <li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
+	    <li><a class="ancilliaryLink" href="/firefox/0.10.html">版本資訊</a></li>
+	</ul>
+
+    </div>
+</div>
+<div id="mainContent" class="right">
+    <h3>使用 Firefox 的理由</h3>
+    <p>&ldquo;<strong><a href="http://www.usatoday.com/tech/news/computersecurity/2004-09-08-zombieinfect_x.htm">Beware of spyware. If you can, use the Firefox browser.</a></strong>&rdquo; <em>-&nbsp;USA&nbsp;Today</em></p>
+    <p>&ldquo;<strong><a href="http://forbes.com/infoimaging/2004/02/04/cx_ah_0204tentech.html">...a breath of fresh air... Microsoft should be worried</a>.</strong>&rdquo; <em>-&nbsp;FORBES</em></p>
+    <dl id="features">
+	<dt>阻擋彈出廣告視窗</dt>
+	<dd>Firefox 內建阻擋彈出視窗功能，將煩人的彈出視窗阻殺於半途之中。</dd>
+
+	<dt>分頁瀏覽</dt>
+	<dd>使用這個節省時間的功能，您可以在同一視窗內觀看多個網頁。將連結開啟於背景分頁之中，當您準備好要閱讀其他頁面時，它們已經載入完畢，您不需花費時間等待。<a href="/docs/ff/tabbed-browsing">相關資訊...</a></dd>
+
+	<dt>隱私及安全</dt>
+	<dd>Firefox 留心您的安全及隱私，不讀取有害的 ActiveX 控制項，不讓惡意的間諜程式入侵您的電腦。多種保護隱私工具，讓您能掌控自己在線上的一舉一動。
+	</dd>
+
+	<dt>更聰明的搜尋功能</dt>
+	<dd>在工具列中便已內建 Google 搜尋功能，此外還有眾多搜尋工具如「關鍵字」及新的「尋找工具列」等功能。在位址列輸入「dict [欲查詢單字]」便可查閱字典，而隨手輸入網頁上的文字，Firefox 便會將您帶往該處。</dd>
+
+	<dt>即時書籤</dt>
+	<dd>整合 RSS，方便您訂閱最新頭條及網站更新訊息。<a href="/docs/ff/live-bookmarks">相關資訊...</a></dd>
+
+	<dt>下載檔案無麻煩</dt>
+	<dd>您下載的檔案可自動置於桌面上，容易尋找。減少問東問西的情形，讓下載更流暢快速。</dd>
+
+	<dt>體貼你心</dt>
+	<dd>簡單又直覺的 Firefox 擁有符合您習慣的完整功能：除了書籤、瀏覽記錄、全螢幕等工具知外，還可以自由縮放文字，符合您閱讀上的需求。</dd>
+
+	<dt>放大縮小，隨心所欲</dt>
+	<dd>Firefox 是世上最容易自訂的瀏覽器了！您可自訂工具列添加按鈕，可以安裝新的擴充套件來增加新功能，可以安裝符合個人風格的佈景主題，還可以自行從難以計數的搜尋引擎中挑選適合的使用。Firefox 的功能該多或少、體態該大或小，由您決定。</dd>
+
+	<dt>超容易的裝配方式</dt>
+	<dd>Firefox（的 Windows 版）僅僅 4.5 MB，以寬頻下載僅需數分鐘時間。安裝程式讓您迅速安裝 Firefox，而嶄新的移轉系統可將您的「我的最愛」、儲存密碼及其他各種設定等資料從 Internet Explorer 及其他瀏覽器中匯入 Firefox，您立刻能在網路上四處遊玩。</dd>
+
+	<dt>開發者最好的朋友</dt>
+	<dd>Firefox 擁有一組開發者用的工具，包括強大的 JavaScript/CSS 錯誤訊息警示控制台、選用的文件檢視器等，提供您洞察網頁運作詳情的能力。</dd>
+
+	<dt>只要郵件，不要垃圾</dt>
+	<dd><a href='/thunderbird'>Thunderbird</a> 是 Firefox 的最佳拍檔。</dd>
+    </dl>
+</div>
+<div id="side" class="right">
+    <h3>其它資源與鏈結</h3>
+    <ul class="compact">
+	<li><a href="http://update.mozilla.org/?application=firefox">取得擴充套件及佈景主題</a></li>
+	<li><a href="http://mozilla.org/products/firefox/buttons.html">推廣用按鈕圖</a></li>
+	<li><a href="/thunderbird">下載 Thunderbird</a></li>
+	<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區(中)</a></li>
+	<li><a href="http://forums.mozillazine.org/viewforum.php?f=38">技術支援(英)</a></li>
+	<li><a href="http://forums.mozillazine.org/index.php?c=4">Firefox 討論區(英)</a></li>
+    </ul>	   
+
+    <h3>Firefox PR 新功能</h3>
+    <ul class="compact">
+	<li>即時書籤</li>
+	<li>增強「隨打即找」</li>
+	<li>增強安全性</li>
+	<li>主密碼功能</li>
+	<li>自動更新</li>
+	<li>檔案大小再瘦身</li>
+    </ul>
+
+</div>
+<!--#include virtual="/inc/footer.html" -->

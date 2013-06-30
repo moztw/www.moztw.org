@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-TW">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Firefox 新手上路</title>
+</head>
+
+<body id="ffcentral">
+
+<div id="main">
+
+<div id="ffcentral-welcome" class="key-point">
+<div>
+<p>
+感謝您選用 Firefox！ 本頁將引導您入門 &#8212; 
+您可在此得知 Firefox 的特色，並瞭解增強 Firefox 功能及提升瀏覽器使用體驗的方法
+</p>
+
+<h3><a href="http://start.mozilla.com/firefox?client=firefox-a&rls=org.mozilla:zh-TW">探索網際網路</a></h3>
+</div>
+</div>
+
+<h2>Firefox 的特色</h2>
+
+<h3>使用 Firefox 搜尋網頁</h3>
+<p>
+Firefox 在工具列中加入了可輸入文字後直接搜尋網路的欄位，
+並將 Google「好手氣」功能整合於網址列（輸入網址的空白處），
+能讓您更方便而快速地找到需要的資料。
+</p>
+<p>
+您可點選瀏覽器右上角的搜尋方塊來使用這項功能，
+只要輸入關鍵字再按下 <kdb>Enter</kbd> 就行了。
+今後您再也不用跑到特定網站去開始搜尋，因為搜尋功能就在瀏覽器上。
+</p>
+<p>
+Firefox 已經預先安裝了幾個最常見也最有用的搜尋引擎，像是
+Google、eBay 等等，另外您還可以
+<a href="http://www.mozilla.org/products/firefox/add-engines.html">
+	自行下載更多搜尋引擎</a>，真是太棒了！</p>
+
+<h3>即時書籤</h3>
+<p>
+「即時書籤 (Live Bookmark)」是 Firefox 的新技術，
+方便您觀看書籤中的 RSS 新聞及 Blog（網誌、部落格）文章。
+只要一眼，就可以瞧見所選網站上最新的文章標題；
+您可直接跳到感興趣的文章，節省許多時間。
+</p>
+
+<p>
+當您在 Firefox 網址列或右下角狀態列看到 
+<img alt="RSS" src="rss.png" class="inline" />
+圖示時，表示此站台可以使用「即時書籤」功能。
+點擊此圖示並選一個 RSS 收取點 (RSS feed) 後會出現「新增即時書籤」對話方塊。
+按下「確定」您就可以看到「即時書籤」和其他書籤排在一起，
+只要打開它就可看到最新的內容
+(很多人會把「即時書籤」放在書籤工具列資料夾中以便瀏覽)。
+</p>
+
+<h3>分頁瀏覽</h3>
+<p>
+「分頁 (Tab)」讓瀏覽網頁更快更方便。網頁分別在同視窗中一個個的「分頁」裡載入，
+方便您來回切換數個網頁。分頁瀏覽最適合用來閱讀新聞，
+也適合瀏覽搜尋結果中的各網站。
+</p>
+
+<p>
+您可利用選單的「檔案 &raquo; 新增分頁」或按下 <kbd>Ctrl+T</kbd> 以開啟新分頁。
+如果想將連結開啟於分頁中，只要在連結上按下滑鼠右鍵、
+點選「用新分頁開啟鏈結」，或直接以滑鼠中鍵點選連結即可。
+</p>
+
+<p>
+您也可以按個鍵就一次開啟全部愛看的網站。
+首先將每天常看的網站放在書籤的某個資料夾中，
+然後從書籤選單中選擇「開至分頁」便可一次全部打開，大大節省時間。
+</p>
+
+<h3>參與其中</h3>
+<p>
+Mozilla 專案是由開放源碼 (Open Source) 的組織
+<a href="http://www.mozilla.org/foundation/">Mozilla Foundation</a> 所推動的，
+您有許多機會可以一起貢獻心力。
+</p>
+
+<ul>
+<li><a href="../../../contribute/"><strong>每個人</strong> 都能幫忙的事情 </a></li>
+<li><a href="http://www.spreadfirefox.com/" hreflang="en">推廣 Firefox [英]</a></li>
+<li><a href="http://www.mozilla.org/contribute/#technical" hreflang="en">軟體開發者資訊 [英]</a></li>
+</ul>
+
+</div> <!-- end #main -->
+
+<div id="rightCol">
+
+<h3>加強你的 Firefox</h3>
+<ul>
+<li><a href="https://addons.update.mozilla.org/extensions/?application=firefox">
+	擴充套件 </a>讓你威力大增!</li>
+
+<li>
+<a href="https://addons.update.mozilla.org/themes/?application=firefox">
+	佈景主題 </a>給你全新感受!</li>
+
+<li><a href="http://mozilla-taiwan.org/firefox/release/">版本資訊</a></li>
+</ul>
+
+<h3>贊助與週邊商品</h3>
+<p><a href="http://www.mozillastore.com/products/clothing/firefoxtee/?ad=mozorg13"><img src="ff_shirt.jpg" width="90" height="109" class="imgright" alt="Firefox Shirt" /></a>想給予 Firefox 與其它 Mozilla 相關專案財務上的支援嗎？ 你可以 <a href="http://www.mozillastore.com/products/donations/?ad=mozorg10">直接贊助</a> 或是到 <a href="http://www.mozillastore.com/?ad=mozorg12">Mozilla 商店</a> 買件 <a href="http://www.mozillastore.com/products/clothing/firefoxtee/?ad=mozorg11"> Firefox 紀念服</a>。</p>
+
+<h3>其它資源與鏈結</h3>
+<ul>
+<li><a href="http://forum.moztw.org/" hreflang="zh-TW">MozTW 中文討論區</a></li>
+<li><a href="http://mozilla-taiwan.org/firefox/" hreflang="zh-TW">專案資訊</a></li>
+<li><a href="http://www.spreadfirefox.com/" hreflang="en">推廣 Firefox! [英]</a></li>
+</ul>
+
+</div> <!-- end #rightCol -->
+
+<div id="leftCol">
+
+<ul id="nav2nd">
+<li id="toHome"><a href="http://mozilla-taiwan.org/">MozTW 中文首頁</a></li>
+<li><a href="http://mozilla-taiwan.org/firefox/">Mozilla Firefox</a></li>
+<li><a href="http://mozilla-taiwan.org/thunderbird/">Mozilla Thunderbird</a></li>
+<li><a href="http://www.mozilla.org/">Mozilla.org [英]</a></li>
+</ul>
+
+</div> <!-- end #leftCol -->
+
+</body>
+
+</html>
