@@ -36,27 +36,33 @@
 
 <section class="container block">
 <h2 class="block-title hide">特色</h2>
-<div id="mainContent" class="right features">
-    	<div class="corner-box">
-		<h3>分頁與搜索</h3>
-		<p>Thunderbird 提供您分頁郵件支援，使你得以快速在郵件間切換。<br>威力倍增的搜索功能，包含了時間軸及篩選器工具，幫助您在昨日、上個月或數年前的郵件中，精確找出您的所需。</p>
+<div class="grids">
+  	<div class="grid-4">
+      <article class="module">
+         <h3>分頁與搜索</h3>
+         <p>Thunderbird 提供您分頁郵件支援，使你得以快速在郵件間切換。<br>威力倍增的搜索功能，包含了時間軸及篩選器工具，幫助您在昨日、上個月或數年前的郵件中，精確找出您的所需。</p>
+      </article>
 	</div>
 
-	<div class="corner-box">
+	<div class="grid-4">
+      <article class="module">
 		<h3>用您的方式收您的郵件</h3>
 		<p>你可以依自己的喜好自訂 Thunderbird，使用附加元件管理員在數百個套件中選擇：例如 <a href="https://addons.mozilla.org/thunderbird/addon/2313">Lightning</a> 或 <a href="https://addons.mozilla.org/thunderbird/addon/10900">Personas Plus</a> 個性面板等各式各樣套件，不但能提升您的生產力、同時帶來更多樂趣。</p>
+      </article>
 	</div>
 
-	<div class="corner-box">
-		<h3>簡單上手</h3>
-		<p>全新的聰明帳號管理員，幫助您快速設定郵件帳號。就算您不懂什麼是 IMAP、SMTP、SSL/TLS，只要輸入姓名、email 網址、密碼，剩下的 Thunderbird 幫您搞定。</p>
-		<p>社群精神永存！如果 Thunderbird 找不到您所使用的郵件服務資料，您也可以提供這些設定資訊，其他人就可以得益於您的貢獻。</p>
+	<div class="grid-4">
+      <article class="module">
+         <h3>簡單上手</h3>
+         <p>全新的聰明帳號管理員，幫助您快速設定郵件帳號。就算您不懂什麼是 IMAP、SMTP、SSL/TLS，只要輸入姓名、email 網址、密碼，剩下的 Thunderbird 幫您搞定。</p>
+         <p>社群精神永存！如果 Thunderbird 找不到您所使用的郵件服務資料，您也可以提供這些設定資訊，其他人就可以得益於您的貢獻。</p>
+      </article>
 	</div>
 
 	<p class="learn-more">
 		<a href="http://www.mozilla.org/zh-TW/thunderbird/features">深入瞭解 Thunderbird 的功能...</a>
 	</p>
-</div>
+   </div>
 </section>
 
 <div id="side" class="right">
