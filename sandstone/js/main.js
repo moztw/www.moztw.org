@@ -20,7 +20,7 @@ requirejs([
   'module/all',
   'app',
   'os_detector'
-], function ($, layout, module, app) {
+], function ($, layout, module, app, os_detector) {
   app.layout = layout;
   app.module = module;
   $(function () {

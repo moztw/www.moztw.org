@@ -12,27 +12,26 @@ define(['jquery'], function ($) {
     },
     os_detected: 1,
     init: function () {
-      os_detector.log('os_detector init');
       $("html").removeClass("os-windows no-js");
       os_detector.detect($("html"));
       return os_detector;
     },
     detect: function (obj) {
-        os_detector.os_detected = os_detector.detect();
+        os_detector.os_detected = os_detector.get_os();
         switch (os_detector.os_detected) {
-            case os_detector.os_windows:
+            case os_detector.os_list.os_windows:
                 obj.addClass("os-windows");
                 break;
-            case os_detector.os_linux:
+            case os_detector.os_list.os_linux:
                 obj.addClass("os-linux");
                 break;
-            case os_detector.os_macosx:
+            case os_detector.os_list.os_macosx:
                 obj.addClass("os-macosx os-osx");
                 break;
-            case os_detector.os_mac:
+            case os_detector.os_list.os_mac:
                 obj.addClass("os-mac");
                 break;
-            case os_detector.os_android:
+            case os_detector.os_list.os_android:
                 obj.addClass("os-android");
                 break;
             default:
