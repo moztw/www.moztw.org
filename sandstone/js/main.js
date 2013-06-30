@@ -18,11 +18,13 @@ requirejs([
   'jquery',
   'layout/all',
   'module/all',
-  'app'
+  'app',
+  'os_detector'
 ], function ($, layout, module, app) {
   app.layout = layout;
   app.module = module;
   $(function () {
     app.init();
+    os_detector.init();
   });
 });
