@@ -1,0 +1,201 @@
+<!--#include virtual="/sandstone/meta.shtml" -->
+<title>Mozilla Thunderbird 中文版下載 | MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的電子郵件體驗，讓收發電子郵件變得更簡單！（雷鳥 email 軟體 Mac/Windows/Linux 版）" />
+<style type="text/css">
+<!--
+#product-desc.product-thunderbird {
+	background: transparent url(images/product-thunderbird-screen.png) no-repeat scroll 0 0;
+	padding: 40px 0 60px;
+}
+#product-desc.product-thunderbird p {
+	padding-left:177px;
+	padding-top:7px;
+}
+.right {
+   float: right;
+   margin-left: 75px;
+}
+.grids > h4 {
+   margin-left: 20px;
+}
+div[class^=grid-] > p {
+   margin-bottom: 8px;
+}
+-->
+</style>
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/sandstone/header.shtml" -->
+
+<section class="container block">
+<div class="key-point">
+    <div id="product-desc" class="product-thunderbird">
+      <h2 class="block-title hide">Thunderbird: 以你為本的郵件體驗，讓收發電子郵件變得更簡單</h2>
+      <p>Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
+    </div>
+    <div id="product-side">
+	<div class="download">
+	    <h3>免費下載 Thunderbird</h3><!--#include virtual="/inc/dltb.html" -->
+	</div>
+    	<ul>
+	    <li><a href="system-requirements/">系統需求</a></li>
+	    <li><a href="releases/">版本資訊</a></li>
+   	</ul>
+   </div>
+</div>
+</section>
+
+<section class="container block">
+   <h2 class="block-title hide">特色</h2>
+   <div class="grids">
+      <div class="grid-12">
+         <article class="module">
+            <h3>更簡單就能上手</h3>
+            <p>設定全新的 Thunderbird 從來沒有那麼簡單過！</p>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <h4>升級助手</h4>
+                  <p>在說明選單當中，您可以找到升級助手來幫您設定 Thunderbird 成您想要的樣子。若您喜歡原本 Thunderbird 2 的工具列，您可以快速地在升級助手當中修改這個選項。您也可以於升級助手當中安裝像是 Advanced Folder Columns 或 Compact Header 的附加元件，調整您的訊息視窗。</p>
+               </div>
+               <div class="grid-6">
+                  <img alt="升級助手畫面擷圖" src="images/migration-assistant.png">
+               </div>
+            </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <img alt="郵件帳號設定精靈畫面擷圖" src="images/mail-account-setup.png">
+               </div>
+               <div class="grid-6">
+                  <h4>郵件帳號設定精靈</h4>
+                  <p>以往您需要您郵件帳號的 IMAP、SMTP，以及 SSL/TLS 設定值。您現在只需要輸入姓名、電子郵件地址，以及密碼。設定精靈將會自動從我們的資料庫當中幫您尋找設定值。</p>
+               </div>
+            </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <h4>快捷通訊錄</h4>
+                  <p>快捷通訊錄是個讓您可以快速將聯絡人加到通訊錄當中的方式。只要點一下您所收到的訊息前面的星星圖示就能將其加入您的通訊錄中，點第二下就能新增聯絡人的照片、生日，或其他詳細資料。</p>
+               </div>
+               <div class="grid-6">
+                  <img alt="快捷通訊錄畫面擷圖" src="images/address-book.png">
+               </div>
+            </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <img alt="附件提醒畫面擷圖" src="images/attachment-reminder.png">
+               </div>
+               <div class="grid-6">
+                  <h4>附件提示</h4>
+                  <p>當您在信件內文當中提到附件或其他關鍵字卻沒有新增附件時，附件提示功能會提醒您記得要加上附件再寄出。</p>
+               </div>
+            </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <h4>活動管理員</h4>
+                  <p>活動管理員會集中記錄 Thunderbird 與您的郵件服務提供者之間所有的互動，方便您檢視之前做過哪些操作。</p>
+               </div>
+               <div class="grid-6">
+                  <img alt="活動管理員畫面擷圖" src="images/activity-manager.png">
+               </div>
+            </div>
+         </article>
+      </div>
+   </div>
+</section>
+
+<section class="container block">
+   <h2 class="block-title hide">特色</h2>
+   <div class="grids">
+      <div class="grid-12">
+         <article class="module">
+            <h3>分頁與搜尋</h3>
+            <p>透過分頁標籤與更快的搜尋功能，Thunderbird 改善了您使用電子郵件的方式。</p>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <h4>快速過濾列</h4>
+                  <p>快速過濾列讓您可以更快過濾出您的信件。在快速過濾搜尋框當中輸入文字就會立即顯示搜尋結果。您也可以依據新訊息、分頁標籤，或是您通訊錄裡面的的人員等條件進行過濾。您也可以點選圖釘圖示儲存過濾條件，將其使用於任何資料夾。</p>
+               </div>
+               <div class="grid-6">
+                  <img alt="快速過濾列畫面擷圖" src="images/quick-filter-toolbar.png">
+               </div>
+            </div>
+
+            <div class="grids block">
+               <div class="grid-12">
+                  <h4>分頁標籤</h4>
+                  <p>若您喜歡 Firefox 的分頁瀏覽功能，那您也一定會喜歡使用分頁閱讀郵件。分頁郵件讓您可以在不同的分頁當中載入電子郵件，這樣您就可以快速地切換。也許您正在回覆某封信，剛好需要參考稍早的另一封郵件，分頁郵件功能就可以讓您保持多封郵件的開啟，以便掌握書信往返的來龍去脈。</p>
+                  <p>在郵件上連點兩下或按下 Enter 就可以開啟新的郵件分頁。在郵件或資料夾上按右鍵選擇以新分頁開啟，則會在背景開啟新分頁。</p>
+                  <p>離開 Thunderbird 時，開啟的分頁標籤將會被儲存，並在您下次執行 Thunderbird 時還原。在分頁工具列當中也有分頁選單，幫助您在分頁標籤之間切換。</p>
+               </div>
+            </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <img alt="搜尋功能畫面擷圖" src="images/search.png">
+               </div>
+               <div class="grid-6">
+                  <h4>搜尋</h4>
+                  <p>Thunderbird 的搜尋介面包含了篩選與時間軸工具，讓您可以正確地找到您要的那封郵件。Thunderbird 也會幫您所有的電子郵件製作索引，讓您可以搜尋得更快。您的搜尋結果會顯示於獨立的分頁當中，如此一來您就可以簡單地切換您的搜尋結果以及其他電子郵件。</p>
+               </div>
+            </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <h4>備存郵件</h4>
+                   <p>如果想保存郵件供日後閱讀，又不希望郵件出現在收件匣中，您可以將其備存。備存功能讓您更有效率的管理收件匣。</p>
+                   <p>按下備存按鈕或是「A」鍵就能備存您的電子郵件。</p>
+               </div>
+               <div class="grid-6">
+                  <img alt="備存郵件畫面擷圖" src="images/message-archive.png">
+               </div>
+            </div>
+         </article>
+      </div>
+   </div>
+</section>
+
+<section class="container block">
+   <h2 class="block-title hide">特色</h2>
+   <div class="grids">
+      <div class="grid-12">
+         <article class="module">
+            <h3>自訂您的電子郵件體驗</h3>
+            <p>數以千計的附加元件讓您可以自由地把 Thunderbird 妝點成您想要的樣子。</p>
+         </article>
+      </div>
+   </div>
+</section>
+
+<section class="container block">
+   <h2 class="block-title hide">特色</h2>
+   <div class="grids">
+      <div class="grid-12">
+         <article class="module">
+            <h3>安全性與保護您的電子郵件</h3>
+            <p>保護您電子郵件的安全！</p>
+         </article>
+      </div>
+   </div>
+</section>
+
+<div id="side" class="right">
+	<h3>資源與鏈結</h3>
+	<ul class="compact">
+<!--		<li><img src="images/gmail-favicon.ico" alt="">&nbsp;<a href="http://blog.bobchao.net/2009/12/thunderbird-3-google.html">GMail 用戶請注意 IMAP 相關設定</a>（柏強 Blog）</li>-->
+		<li><a href="http://forum.moztw.org/viewforum.php?f=9">MozTW Thunderbird 中文討論區</a></li>
+		<li><a href="https://addons.mozilla.org/thunderbird/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-tb']);">取得 Thunderbird 附加元件</a></li>
+		<li><a href="https://addons.mozilla.org/thunderbird/personas/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-tb-personas']);">取得個性面板</a></li>
+		<li><a href="http://support.mozillamessaging.com/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'SUMOMO']);">Thunderbird 補助說明</a></li>
+	</ul>
+	
+	<a style="text-decoration: none;" href="http://www.facebook.com/groups/thunderbirdfans.tw/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Facebook-thunderbirdfanstw', 'thunderbird']);">
+    	<h3><img src="/images/foxmosa-mail-01.jpg" alt="" style="margin-left: -15px;"></h3>
+	    <span style="font-size: 120%;">Thunderbird 愛好者俱樂部</span>
+	</a>
+</div>
+
+<!--#include virtual="/sandstone/footer.shtml" -->
