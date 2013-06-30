@@ -19,12 +19,14 @@ requirejs([
   'layout/all',
   'module/all',
   'app',
-  'os_detector'
-], function ($, layout, module, app, os_detector) {
+  'os_detector',
+  'ga'
+], function ($, layout, module, app, os_detector, google_analytics) {
   app.layout = layout;
   app.module = module;
   $(function () {
     app.init();
     os_detector.init();
+    google_analytics.init();
   });
 });
