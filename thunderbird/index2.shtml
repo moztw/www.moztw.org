@@ -18,7 +18,7 @@
 
 <div class="key-point">
     <div id="product-desc" class="product-thunderbird">
-	<h2>Thunderbird: 以你為本的郵件體驗，讓收發電子郵件變得更簡單</h2>
+	<h2 class="block-title hide">Thunderbird: 以你為本的郵件體驗，讓收發電子郵件變得更簡單</h2>
 	<p>Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
     </div>
     <div id="product-side">
