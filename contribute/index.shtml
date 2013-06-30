@@ -319,6 +319,7 @@ $(function() {
 		</div>
 		<div class="content_block clearfix">
             	<img src="/foxmosa/images/30series/30foxmosa-06.png" class="intro_icon" />
+	
 			<div class="intro_desc">
 				<h2>Mozilla、Firefox 軟體開發</h2>
 				<p>替 Mozilla 軟體開發新功能、或幫 Firefox 除錯，透過解 Bug 挑戰自己的程式功力，躋身 Mozilla 全球開發者的一員。你可以在 IRC 頻道上找到許多開發者，那裡是很棒的發問管道，Mozilla 的網站也歡迎網頁忍者來駭一駭。</p>
@@ -327,6 +328,7 @@ $(function() {
             		<br style="clear: both;">
 				<a href="https://groups.google.com/d/topic/moztw-general/V-21VIdcLhk/discussion" onClick="_gaq.push(['_trackEvent', 'contribute', 'dev', 'detail']);"><span class="button detail">詳細資訊 》</span></a>
 				<a href="irc://irc.mozilla.org/mozilla-taiwan" onClick="_gaq.push(['_trackEvent', 'contribute', 'dev', 'irc-mozilla-taiwan']);"><span class="button">Mozillia-Taiwan IRC</span></a>
+				<a href="http://www.joshmatthews.net/bugsahoy/" onClick="_gaq.push(['_trackEvent', 'contribute', 'dev', 'ldev-general-zh']);"><span class="button">新手Bug</span></a>
 			</div>
 		</div>
 	</div>
