@@ -1,9 +1,9 @@
 var lab_locs = {
     "taipei_lab": {
         "oid": "map_taipei", 
-        "place": "咖啡銅號", 
-        "lat": 25.060158, 
-        "lng": 121.531386
+        "place": "沐樂咖啡", 
+        "lat": 25.04241, 
+        "lng": 121.53108
     }, 
 
     "keelung_lab": {
@@ -11,6 +11,12 @@ var lab_locs = {
         "place": "1915海洋咖啡館", 
         "lat": 25.132724, 
         "lng": 121.74002
+    },
+    "ilan_lab": {
+        "oid": "map_ilan", 
+        "place": "拾光響響公平貿易咖啡", 
+        "lat": 24.746619, 
+        "lng": 121.750847
     }
 };
 

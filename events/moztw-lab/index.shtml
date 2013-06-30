@@ -52,12 +52,13 @@
 
   <article id="location">
     <h2>那裡有 MozTW Lab？</h2>
-    <p>這位客官你運氣真好，台北跟基隆剛好都有一個：</p>
+    <p>這位客官你運氣真好，台北、基隆跟宜蘭剛好都有一個：</p>
     <p>（場地資訊可能隨時會變動，請記得注意一下 Twitter 資訊 : P）</p>
 
     <ul class="nav">
       <li class="nv lb sel" id="taipei_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">台北</a></li>
-      <li class="nv rb" id="keelung_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">基隆</a></li>
+      <li class="nv" id="keelung_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">基隆</a></li>
+      <li class="nv rb" id="ilan_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">宜蘭</a></li>
       <!-- add more places here, last button must have class 'rb' -->
     </ul>
     
@@ -66,8 +67,8 @@
       <div class="details" id="taipei_lab">
         <ul>
         <li>每週五晚間 19:30-22:00</li>
-        <li>咖啡銅號 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'Google Map']);"  href="http://goo.gl/maps/pzqd"><span class="locality">台北市</span><span class="street-address">中山區民生東路二段114號</span></a></li>
-        <li>電話：02-2542-7899</li>
+        <li>沐樂咖啡 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'Google Map']);"  href="https://plus.google.com/101464030379436994185/about?gl=tw&hl=zh-TW"><span class="locality">台北市</span><span class="street-address">中正區臨沂街13巷7號</span></a></li>
+        <li>電話：02-2358-7288</li>
         <li>低消：約100元，附 Wi-Fi 與電源。</li>
         <li>「免費參加，餐飲自理。」</li>
         </ul>
@@ -87,6 +88,20 @@
         </ul>
         <div class="mapcover">
           <div class="map" id="map_keelung"></div>
+        </div>
+      </div>
+      
+      <!-- Ilan Lab Info -->
+      <div class="details" id="ilan_lab" style="display: none;">
+        <ul>
+        <li>不定期(請參閱<a href="https://groups.google.com/forum/#!topic/moztw-general/r3uSxxOEDoA">郵件群組</a>) 14:00-16:00</li>
+        <li>拾光響響公平貿易咖啡 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab ilan', 'Google Map']);"  href="http://www.facebook.com/cafeSeventeen/info"><span class="locality">宜蘭市</span><span class="street-address">農權路205號</span></a></li>
+        <li>電話：0982-387-909</li>
+        <li>低消：約100元，店內目前暫無提供網路連線，請自備 3G 行動網路，或預先抓取自己需要的文件、程式碼離線作業 。</li>
+        <!-- <li>「免費參加，餐飲自理。」</li> -->
+        </ul>
+        <div class="mapcover">
+          <div class="map" id="map_ilan"></div>
         </div>
       </div>
 
