@@ -132,6 +132,27 @@ div[class^=grid-] > p {
                   <p>離開 Thunderbird 時，開啟的分頁標籤將會被儲存，並在您下次執行 Thunderbird 時還原。在分頁工具列當中也有分頁選單，幫助您在分頁標籤之間切換。</p>
                </div>
             </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <img alt="搜尋功能畫面擷圖" src="images/search.png">
+               </div>
+               <div class="grid-6">
+                  <h4>搜尋</h4>
+                  <p>Thunderbird 的搜尋介面包含了篩選與時間軸工具，讓您可以正確地找到您要的那封郵件。Thunderbird 也會幫您所有的電子郵件製作索引，讓您可以搜尋得更快。您的搜尋結果會顯示於獨立的分頁當中，如此一來您就可以簡單地切換您的搜尋結果以及其他電子郵件。</p>
+               </div>
+            </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <h4>備存郵件</h4>
+                   <p>如果想保存郵件供日後閱讀，又不希望郵件出現在收件匣中，您可以將其備存。備存功能讓您更有效率的管理收件匣。</p>
+                   <p>按下備存按鈕或是「A」鍵就能備存您的電子郵件。</p>
+               </div>
+               <div class="grid-6">
+                  <img alt="備存郵件畫面擷圖" src="images/message-archive.png">
+               </div>
+            </div>
          </article>
       </div>
    </div>
