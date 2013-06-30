@@ -15,6 +15,9 @@
    float: right;
    margin-left: 75px;
 }
+.grids > h4 {
+   margin-left: 20px;
+}
 -->
 </style>
 <!--#include virtual="/inc/class.html" -->
@@ -46,11 +49,15 @@
             <h3>更簡單就能上手</h3>
             <p>設定全新的 Thunderbird 從來沒有那麼簡單過！</p>
 
-            <section class="block">
+            <div class="grids block">
                <h4>升級助手</h4>
-               <img class="right" alt="升級助手畫面擷圖" src="images/migration-assistant.png">
-               <p>在說明選單當中，您可以找到升級助手來幫您設定 Thunderbird 成您想要的樣子。若您喜歡原本 Thunderbird 2 的工具列，您可以快速地在升級助手當中修改這個選項。您也可以於升級助手當中安裝像是 Advanced Folder Columns 或 Compact Header 的附加元件，調整您的訊息視窗。</p>
-            </section>
+               <div class="grid-6">
+                  <p>在說明選單當中，您可以找到升級助手來幫您設定 Thunderbird 成您想要的樣子。若您喜歡原本 Thunderbird 2 的工具列，您可以快速地在升級助手當中修改這個選項。您也可以於升級助手當中安裝像是 Advanced Folder Columns 或 Compact Header 的附加元件，調整您的訊息視窗。</p>
+               </div>
+               <div class="grid-6">
+                  <img alt="升級助手畫面擷圖" src="images/migration-assistant.png">
+               </div>
+            </div>
          </article>
       </div>
    </div>
