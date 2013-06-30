@@ -197,7 +197,8 @@ $(function() {
 	<ul>
 		<!--<li><a href="#tabs-1">新手上路</a></li>-->
 		<li><a href="#tabs-2">依興趣檢視</a></li>
-		<!--<li><a href="#tabs-3">依所需時間檢視</a></li>-->
+		<li><a href="#tabs-3">依程式語言選擇</a></li>
+		<!--<li><a href="#tabs-3-old">依所需時間檢視</a></li>-->
 		<li><a href="#tabs-4">留下資料由專人與您聯繫</a></li>
         <!-- <li><a href="amazing.htm">神奇海螺</a></li> -->
 	</ul>
@@ -329,8 +330,12 @@ $(function() {
 			</div>
 		</div>
 	</div>
-<!--
+	
 	<div id="tabs-3">
+		<iframe src="http://whatcanidoformozilla.org/" width="530" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+	</div>
+<!--
+	<div id="tabs-3-old">
 		<p>您只有五分鐘能幫忙嗎？或者就想長久、深入地參與這些專案？以下是依據可能花費的時間，列出的建議參與方式。</p>
 		<h1>依時間序編排專案、介紹與連結</h1>
 	</div>
