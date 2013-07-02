@@ -659,10 +659,6 @@ Sandstone 範例可參考根目錄 index2.shtml。
 </section>
 
 <div id="side" class="right">
-  <img src="images/product-personas-title.png" alt="Personas 個性面板" />
-  <p>個性面板是輕量級的佈景主題，包含五花八門的外觀與設計，讓您隨時個性化 Firefox 的外貌，如同挑選衣服一樣有趣。</p>
-  <p>→ <a href="https://addons.mozilla.org/firefox/themes/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-firefox-personas']);">立刻至 Firefox 附加元件網站挑選個性面板！</a></p>
-
   <h3>技術支援與套件下載</h3>
   <ul class="compact">
    <li><a href="https://www.mozilla.org/zh-TW/plugincheck/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'plugincheck']);">外掛程式更新</a><br>（檢查 Flash、多媒體播放支援）</li>
