@@ -56,7 +56,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 
 <section id="madeeasy" class="container block">
   <div class="module wider">
-    <a href="#main-feature" class="features-top-link"><?=$return;?></a>
+    <a href="#main-feature" class="features-top-link">回到頂端</a>
 
     <h3>瀏覽變得 <span>簡單</span></h3>
 
@@ -321,7 +321,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 
 <section id="highperformance" class="container block">
   <div class="module wider">
-    <a href="#main-feature" class="features-top-link"><?=$return;?></a>
+    <a href="#main-feature" class="features-top-link">回到頂端</a>
     <h3>更佳的 <span>效能</span></h3>
 
 
@@ -364,7 +364,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 
 <section id="advancedsecurity" class="container block">
   <div class="module wider">
-    <a href="#main-feature" class="features-top-link"><?=$return;?></a>
+    <a href="#main-feature" class="features-top-link">回到頂端</a>
     <h3>進階 <span>安全性</span></h3>
 
     <div class="column1">
@@ -458,7 +458,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 
 <section id="powerfulpersonalization" class="container block">
   <div class="module wider">
-    <a href="#main-feature" class="features-top-link"><?=$return;?></a>
+    <a href="#main-feature" class="features-top-link">回到頂端</a>
     <h3>強大的 <span>個人化</span></h3>
     <div class="feature">
       <?=$img[20];?>
@@ -501,7 +501,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 
 <section id="cuttingedge" class="container block">
   <div class="module wider">
-    <a href="#main-feature" class="features-top-link"><?=$return;?></a>
+    <a href="#main-feature" class="features-top-link">回到頂端</a>
     <h3>尖端<span>技術</span></h3>
 
     <div class="column1">
@@ -582,7 +582,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 
 <section id="universalaccess" class="container block">
   <div class="module wider">
-    <a href="#main-feature" class="features-top-link"><?=$return;?></a>
+    <a href="#main-feature" class="features-top-link">回到頂端</a>
     <h3>普及 <span>近用</span></h3>
 
     <div class="column1">
