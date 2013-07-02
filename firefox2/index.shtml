@@ -38,6 +38,12 @@ Sandstone 範例可參考根目錄 index2.shtml。
   nav.menu-bar ul li a span {
     display: block;
   }
+  .features-top-link {
+    background: url(images/return-to-top.png)
+                no-repeat scroll left bottom transparent;
+    float: right;
+    padding-left: 25px;
+  }
 </style>
 
 <!--#include virtual="/inc/class_press.html" -->
