@@ -25,6 +25,19 @@ Sandstone 範例可參考根目錄 index2.shtml。
                 url(/sandstone/images/grain.png) repeat scroll 0 0,
                 none repeat scroll 0 0 rgb(238, 238, 238);
   }
+  nav.menu-bar {
+    text-align: center;
+  }
+  nav.menu-bar ul li {
+    display: inline-block;
+  }
+  nav.menu-bar ul li a {
+    display: inline-block;
+    padding: 6.66667px 20px;
+  }
+  nav.menu-bar ul li a span {
+    display: block;
+  }
 </style>
 
 <!--#include virtual="/inc/class_press.html" -->
