@@ -28,6 +28,9 @@ Sandstone 範例可參考根目錄 index2.shtml。
   nav.menu-bar {
     text-align: center;
   }
+  nav.menu-bar ul {
+    margin: 0;
+  }
   nav.menu-bar ul li {
     display: inline-block;
   }
@@ -74,7 +77,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 </section>
 
 <nav class="menu-bar container block">
-  <ul class="module wider">
+  <ul class="module">
     <li>
       <a href="#madeeasy">
         瀏覽 <span>變得簡單</span>
