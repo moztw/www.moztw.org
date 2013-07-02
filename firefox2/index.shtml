@@ -54,6 +54,46 @@ Sandstone 範例可參考根目錄 index2.shtml。
   </div>
 </section>
 
+<nav class="menu-bar">
+  <ul>
+    <li>
+      <a href="#madeeasy">
+        瀏覽 <span>變得簡單</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#highperformance">
+        超高 <span>效能</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#advancedsecurity">
+        進階 <span>安全性</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#powerfulpersonalization">
+        強大的 <span>個人化</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#cuttingedge">
+        尖端 <span>技術</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#universalaccess">
+        普及 <span>近用</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
 <section id="madeeasy" class="container block">
   <div class="module wider">
     <a href="#main-feature" class="features-top-link">回到頂端</a>
