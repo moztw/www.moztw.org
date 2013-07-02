@@ -142,8 +142,6 @@ ol.list,ol.list ol{list-style:number}
 .slider-btn{display:inline-block;margin:0 5px;}
 .slider-btn a{display:inline-block;width:25px;height:10px;background:rgba(0,0,0,0.5);color:#fff;text-indent:100%;overflow:hidden}
 .slider-btn.current a{background:rgba(0,0,0,0.8)}
-#main-feature{display:none;text-align:center;}
-#main-feature h1{font-weight:400}
 .download-button .unrecognized-download,.download-button .unsupported-download{display:none}
 .download-button{display:inline-block;*display:inline;*zoom:1}
 .download-button ul{margin:0}

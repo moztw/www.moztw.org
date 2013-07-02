@@ -24,9 +24,9 @@ Sandstone 範例可參考根目錄 index2.shtml。
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
-<section class="container block">
+<section id="main-feature" class="container block">
   <div class="key-point module wider">
-    <div id="product-desc" class="product-firefox4">
+    <div id="product-desc">
       <h2>Firefox: rediscover the web</h2>
       <p>
         忠於開放使命，致力提升網路體驗<br>
