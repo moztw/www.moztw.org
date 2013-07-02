@@ -16,28 +16,28 @@ Sandstone 範例可參考根目錄 index2.shtml。
   http://mozilla.com.tw/firefox/features/
 -->
 
-<title>
-  Mozilla Firefox 正體中文版下載 | MozTW, Mozilla Taiwan Community
-</title>
-<meta name="description" content="Firefox 正體中文版下載：忠於開放使命，致力提升網路體驗；全新外觀、速度超快、一切都變得更棒！（火狐瀏覽器 Mac/Windows/Linux 版）" />
+<title>Mozilla Firefox 正體中文版下載 | MozTW, Mozilla Taiwan Community</title>
+<meta name="description"
+  content="Firefox 正體中文版下載：將所有超棒之處結合在一起，讓您的瀏覽變得更好。" />
+<style>
+  body {
+    background: url(/sandstone/images/bg-gradient-sky.png) repeat-x scroll 0 0,
+                url(/sandstone/images/grain.png) repeat scroll 0 0,
+                none repeat scroll 0 0 rgb(238, 238, 238);
+  }
+</style>
 
 <!--#include virtual="/inc/class_press.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
 <section id="main-feature" class="container block">
-  <div class="key-point module wider">
+  <div>
     <div id="product-desc">
-      <h2>Firefox: rediscover the web</h2>
-      <p>
-        忠於開放使命，致力提升網路體驗<br>
-        全新外觀、速度超快、一切都變得更棒！
-      </p>
+      <h1>Firefox 功能特色</h1>
+      <p>將所有超棒之處結合在一起，讓您的瀏覽變得更好。</p>
     </div>
     <div id="product-side">
-      <div class="download">
-        <h3>免費下載 Firefox</h3>
-        <!--#include virtual="/inc/dlff.html" -->
-      </div>
+      <!--#include virtual="/inc/dlff.html" -->
       <ul>
         <li>
           <a class="ancilliaryLink" href="/docs/fx/system-requirements">
@@ -54,8 +54,8 @@ Sandstone 範例可參考根目錄 index2.shtml。
   </div>
 </section>
 
-<nav class="menu-bar">
-  <ul>
+<nav class="menu-bar container block">
+  <ul class="module wider">
     <li>
       <a href="#madeeasy">
         瀏覽 <span>變得簡單</span>

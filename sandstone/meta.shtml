@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://rawgithub.com/moztw/tabzilla/master/media/css/tabzilla.css"
+  <link href="/sandstone/css/tabzilla.css"
     rel="stylesheet" />
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300'
     rel='stylesheet' type='text/css'>
@@ -14,9 +14,8 @@
   <!--[if lt IE 9]>
     <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
   <![endif]-->
-  <script type="text/javascript"
-    src="https://rawgithub.com/moztw/tabzilla/master/media/js/tabzilla.js">
+  <script type="text/javascript" src="/sandstone/js/tabzilla.js">
   </script>
   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
   <script data-main="/sandstone/js/main.js"
-    src="http://requirejs.org/docs/release/2.1.6/minified/require.js"></script>
+    src="/sandstone/js/lib/require.js"></script>
