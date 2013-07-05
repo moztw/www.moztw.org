@@ -123,8 +123,8 @@ Sandstone 範例可參考根目錄 index2.shtml。
     <h3>瀏覽變得 <span>簡單</span></h3>
 
     <div class="feature" id="awesomebar">
-      <?=$img[1];?>
-      <h4>智慧位址列</h4>
+      <img src="images/features/screen-awesomebar-mac.png" alt="智慧網址列截圖">
+      <h4>智慧網址列</h4>
       <p>快速抵達您最愛的網站，就算是您不記得網址也好。在網址列（又稱 Awesome Bar，智慧位址列）輸入詞彙，自動完成功能將會自您的瀏覽紀錄、書籤當中的網站，以及開啟分頁當中搜尋並顯示可能符合的結果。</p>
       <p>智慧位址列會隨時跟著您的使用自我學習，它會調整自己以適合您的偏好並提供更好的答案。我們已將它調整成讓您可以更好地控制結果（包含隱私設定），並加強校能，讓您可以更快地找到所需的結果。</p>
     </div>
@@ -139,7 +139,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
         <div class="sub-feature">
           <h5>標籤列置頂</h5>
           <p>分頁標籤位於智慧位址列之上，讓您可以更簡單地聚焦於您所開啟的網站內容。</p>
-          <?=$img[2];?>
+          <img src="images/features/screen-tabsontop-mac.png" alt="介面改善截圖">
         </div>
       </div>
 
@@ -147,7 +147,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
         <div class="sub-feature">
           <h5>Firefox 按鈕 (Windows 與 Linux)</h5>
           <p>您所有的選單項目現在都在一個小按鈕當中，讓您可以更快使用。</p>
-          <?=$img[3];?>
+          <img src="images/features/screen-firefoxbutton-mac.png" alt="Firefox 按鈕截圖">
         </div>
       </div>
 
@@ -155,7 +155,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
         <div class="sub-feature">
           <h5>書籤按鈕</h5>
           <p>用一個按鈕就能管理您的書籤。不需要跳入泥淖就能找到您最愛的鏈結！</p>
-          <?=$img[4];?>
+          <img src="images/features/screen-bookmarks-mac.png" alt="書籤按鈕截圖">
         </div>
       </div>
 
@@ -163,7 +163,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
         <div class="sub-feature">
           <h5>簡化的重新載入/停止按鈕</h5>
           <p>您的智慧位址列現在只需要一個簡單的按鈕就能自動判斷是要停止或重新載入頁面。</p>
-          <?=$img[5];?>
+          <img src="images/features/screen-reloadstop-mac.png" alt="重新載入/停止按鈕截圖">
         </div>
       </div>
 
@@ -171,7 +171,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
         <div class="sub-feature">
           <h5>首頁按鈕</h5>
           <p>首頁按鈕已被移動到搜尋框的右邊。</p>
-          <?=$img[6];?>
+          <img src="images/features/screen-home-mac.png" alt="首頁按鈕截圖">
         </div>
       </div>
     </div>
@@ -186,7 +186,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
         <div class="sub-feature">
           <h5>應用程式分頁標籤</h5>
           <p>讓您總是開啟的網頁（像是網路郵件）離開分頁標籤，並提供他們一個永久的家。</p>
-          <?=$img[7];?>
+          <img src="images/features/screen-apptab-mac.png" alt="應用程式分頁標籤截圖">
         </div>
 
         <div class="feature">
@@ -199,7 +199,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
         <div class="sub-feature">
           <h5>切換到分頁</h5>
           <p>當您正要開啟新分頁或於智慧位址列輸入時，Firefox 將會檢查您是不是已經開啟了這個網頁。如果已經開啟了，將會直接帶您檢視該分頁，這樣就不用重複開啟了。</p>
-          <?=$img[8];?>
+          <img src="images/features/screen-switchtotab-mac.png" alt="切換到分頁截圖">
         </div>
 
         <div class="feature">
@@ -212,7 +212,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
         <div class="sub-feature">
           <h5>使用分頁群組管理您開啟的分頁</h5>
           <p>開了太多個分頁了嗎？從混亂的分頁當中找回您的瀏覽器吧！分頁群組讓您可以拖放您的分頁標籤，變成可管理的群組，這樣您就可以用好玩且視覺化的方式整理、命名，並排序分頁標籤。若要開始使用，只要在您自訂瀏覽工具列時選擇分頁群組圖示，或是對任何分頁標籤按右鍵，並選擇移動到群組。</p>
-          <?=$img[9];?>
+          <img src="images/features/screen-grouptab-mac.png" alt="分頁群組截圖">
         </div>
       </div>
     </div>
@@ -220,7 +220,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
     <hr>
 
     <div class="column-span feature" id="sync">
-      <?=$img[10];?>
+      <img src="images/features/screen-sync-mac.png" alt="同步截圖">
       <h4>保持同步</h4>
       <p>無縫同步您的桌上型電腦與行動裝置當中的 Firefox，這樣您就可以在所有的裝置間存取您的瀏覽紀錄、已存密碼、書籤，甚至是開啟的分頁。自您第一天開始使用行動裝置就可以存取您多年以來的瀏覽紀錄，並使用您電腦上儲存的密碼已在手機上填入表單。</p>
       <p>您現在可以透過桌機上網，瀏覽到一半時離開座位，您會發現剛剛開啟的分頁標籤已經在手機上等著您了，就跟剛剛離開時一模一樣。您的瀏覽方式將不再一樣！<a href="<?=$link[1];?>">了解更多關於同步功能的資訊</a> 或 <a href="<?=$link[2];?>">為您的手機下載 Firefox</a>。</p>
@@ -275,7 +275,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
       </div>
 
       <div class="column1">
-        <?=$img[11];?>
+        <img src="images/features/screen-search-mac.png" alt="搜尋截圖">
       </div>
 
       <div class="column2">
@@ -316,7 +316,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
       <p>網路上有超多超棒的東西，Firefox 有許多不同的方式可以幫助您整理您的資料。</p>
 
       <div class="sub-feature" id="bookmarking">
-        <?=$img[12];?>
+        <img src="images/features/screen-1clickbookmarks-mac.png" alt="一鍵加入書籤截圖">
         <h5>一鍵加入書籤</h5>
         <p>您只要點一下網址列尾端的星星圖示就能把某個網站加入書籤，碘兩下就能選擇要把這個網站存到哪裡、要加上什麼標籤。被書籤的網站會被存放於可以簡單使用的資料夾並可以依照情境（像是「找工作」、「最愛的購物網站」）來整理。您可以直接在網址列輸入標籤、網頁名稱或書籤名稱來搜尋您已加入書籤的網站。您使用了越多標籤與書籤名稱，系統就能越適合您的使用習慣。</p>
       </div>
