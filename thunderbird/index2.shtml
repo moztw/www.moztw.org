@@ -212,10 +212,21 @@ div[class^=grid-] > p {
 
             <div class="grids block">
                <div class="grid-6">
-                  <h4></h4>
-                  <p></p>
+                  <img src="images/phishing-protection.png" />
                </div>
                <div class="grid-6">
+                  <h4>釣魚保護</h4>
+                  <p>詐騙郵件（或稱為釣魚郵件）常偽裝成您熟悉的網站，以騙取個人資訊。Thunderbird 在偵測到這類郵件時會發出通知，讓您免於詐騙郵件的威脅。Thunderbird 還有第二道對抗詐騙郵件的手段，當您點下的連結跟郵件中顯示的網站不同時，Thunderbird 也會發出警告。</p>
+               </div>
+            </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <h4>自動更新</h4>
+                  <p>Thunderbird 的自動更新系統會檢查您的程式是否已經更新到最新版本，也會通知您有新的安全更新。安全更新檔案很小（通常介於 200KB 至 700KB 間），而且只會包含必要的部份，以確保安全性更新能夠在最短的時間內安裝完成。Thunderbird 的自動更新功能可以在 Windows、Mac OS X、與 Linux 上執行，並且支援 40 種以上的語言版本。</p>
+               </div>
+               <div class="grid-6">
+                  <img src="images/automated-update.png" />
                   <h4></h4>
                   <p></p>
                </div>
@@ -223,23 +234,8 @@ div[class^=grid-] > p {
 
             <div class="grids block">
                <div class="grid-6">
-                  <h4></h4>
-                  <p></p>
-               </div>
-               <div class="grid-6">
-                  <h4></h4>
-                  <p></p>
-               </div>
-            </div>
-
-            <div class="grids block">
-               <div class="grid-6">
-                  <h4></h4>
-                  <p></p>
-               </div>
-               <div class="grid-6">
-                  <h4></h4>
-                  <p></p>
+                  <h4>開放原始碼</h4>
+                  <p>Thunderbird 的前進動力來自於開放原始碼的研發流程：由成千上萬分散於世界各地，擁有熱情與經驗的程式開發者與安全專家共同參與。我們的社群開放而活躍，由專家協助打造更安全的產品、更快的進行程式更新，我們同時也能受惠於第三方的安全檢測工具，進一步強化整體安全性。</p>
                </div>
             </div>
          </article>
