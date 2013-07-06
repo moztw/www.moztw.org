@@ -452,7 +452,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
       <div class="feature" id="instant-id">
         <h4>即時網站識別資訊</h4>
         <p>在您下單購物前想更確認這個網站是不是正確的網站？點一下網址前的圖示就能取得該網站的即時身分資料。再點一下可以看到更多資訊：您來過幾次？您有存下此網站的密碼嗎？請檢查可疑的網站，避免假造的網頁並確認這網站到底是不是所宣稱的那個網站。</p>
-        <?=$img[15];?>
+        <img src="images/features/screen-websiteid-mac.png" alt="即時網站識別資訊截圖">
       </div>
 
       <div class="feature">
@@ -485,7 +485,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
       <div class="feature" id="private-browsing">
         <h4>私密瀏覽</h4>
         <p>有時最好還是找個隱蔽處：打開這個功能並保護您的瀏覽記錄。您可以快速地切換私密瀏覽模式，所以您可以很簡單地回到您原本所開的網頁，彷彿什麼事情都沒發生過。此功能適合用於您在公用電腦轉帳，或是在網咖的電腦收信的時候使用。</p>
-        <?=$img[16];?>
+        <img src="images/features/screen-private-mac.png" alt="私密瀏覽截圖">
       </div>
 
       <div class="feature" id="anti-virus">
@@ -524,14 +524,13 @@ Sandstone 範例可參考根目錄 index2.shtml。
       <div class="feature">
         <h4>網頁連線加密</h4>
         <p>Firefox 能透過自動對提供 https 連線的伺服器啟用安全連線避免攻擊者擷取您的敏感資料。</p>
-        <?=$img[18];?>
       </div>
 
       <div class="feature">
         <h4>自動更新</h4>
         <p>Firefox 將會在有新版本可用時自動地讓您知道，這樣一來您就可以確定您的瀏覽器永遠是最新的，包含最新與最棒的安全性修正。</p>
         <p><a href="<?=$link[7];?>">了解更多關於 Firefox 的安全性功能。</a></p>
-        <?=$img[19];?>
+        <img src="images/features/screen-updates-mac.png" alt="自動更新截圖">
       </div>
     </div>
   </div>
