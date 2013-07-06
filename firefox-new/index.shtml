@@ -80,37 +80,37 @@ Sandstone 範例可參考根目錄 index2.shtml。
   <ul class="module">
     <li>
       <a href="#madeeasy">
-        瀏覽 <span>變得簡單</span>
+        瀏覽<span>變得簡單</span>
       </a>
     </li>
 
     <li>
       <a href="#highperformance">
-        超高 <span>效能</span>
+        超高<span>效能</span>
       </a>
     </li>
 
     <li>
       <a href="#advancedsecurity">
-        進階 <span>安全性</span>
+        進階<span>安全性</span>
       </a>
     </li>
 
     <li>
       <a href="#powerfulpersonalization">
-        強大的 <span>個人化</span>
+        強大的<span>個人化</span>
       </a>
     </li>
 
     <li>
       <a href="#cuttingedge">
-        尖端 <span>技術</span>
+        尖端<span>技術</span>
       </a>
     </li>
 
     <li>
       <a href="#universalaccess">
-        普及 <span>近用</span>
+        普及<span>近用</span>
       </a>
     </li>
   </ul>
@@ -120,7 +120,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
   <div class="module wider">
     <a href="#main-feature" class="features-top-link">回到頂端</a>
 
-    <h3>瀏覽變得 <span>簡單</span></h3>
+    <h3>瀏覽變得<span>簡單</span></h3>
 
     <div class="feature" id="awesomebar">
       <img src="images/features/screen-awesomebar-mac.png" alt="智慧網址列截圖">
@@ -384,7 +384,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 <section id="highperformance" class="container block">
   <div class="module wider">
     <a href="#main-feature" class="features-top-link">回到頂端</a>
-    <h3>更佳的 <span>效能</span></h3>
+    <h3>更佳的<span>效能</span></h3>
 
     <div id="video-wrapper">
       <div id="video-player-runfield">
@@ -446,7 +446,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 <section id="advancedsecurity" class="container block">
   <div class="module wider">
     <a href="#main-feature" class="features-top-link">回到頂端</a>
-    <h3>進階 <span>安全性</span></h3>
+    <h3>進階<span>安全性</span></h3>
 
     <div class="column1">
       <div class="feature" id="instant-id">
@@ -518,7 +518,6 @@ Sandstone 範例可參考根目錄 index2.shtml。
       <div class="feature" id="forget-site">
         <h4>忘記此網站</h4>
         <p>對您去過的某個網站有二心嗎？移除您來過這裡的蛛絲馬跡！</p>
-        <?=$img[17];?>
       </div>
 
       <div class="feature">
@@ -539,7 +538,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 <section id="powerfulpersonalization" class="container block">
   <div class="module wider">
     <a href="#main-feature" class="features-top-link">回到頂端</a>
-    <h3>強大的 <span>個人化</span></h3>
+    <h3>強大的<span>個人化</span></h3>
     <div class="feature">
       <img src="images/features/screen-addons-mac.png" alt="附加元件管理員截圖">
       <h4>附加元件管理員</h4>
@@ -672,7 +671,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 <section id="universalaccess" class="container block">
   <div class="module wider">
     <a href="#main-feature" class="features-top-link">回到頂端</a>
-    <h3>普及 <span>近用</span></h3>
+    <h3>普及<span>近用</span></h3>
 
     <div class="column1">
       <div class="feature">
