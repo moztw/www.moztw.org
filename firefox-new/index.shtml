@@ -9,9 +9,10 @@ Sandstone style guide:
 
 Sandstone 範例可參考根目錄 index2.shtml。
 
-## 待辦事項
-* 加上導覽列
-* 圖片需要更新，詳見：
+## 已知問題
+* 內容超出容器
+
+## 參考連結
   http://www.mozilla.org/en-US/firefox/features/
   http://mozilla.com.tw/firefox/features/
 -->
@@ -36,7 +37,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
   }
   nav.menu-bar ul li a {
     display: inline-block;
-    padding: 6.66667px 20px;
+    padding: 6px 20px;
   }
   nav.menu-bar ul li a span {
     display: block;
@@ -46,6 +47,45 @@ Sandstone 範例可參考根目錄 index2.shtml。
                 no-repeat scroll left bottom transparent;
     float: right;
     padding-left: 25px;
+  }
+  .features-container {
+    clear: both;
+  }
+  .features-container h3 {
+    font-size: 48px;
+    margin-bottom: 0.5em;
+  }
+  .features-container p {
+    margin-bottom: 24px;
+  }
+  .features-container hr {
+    clear: both;
+    margin: 3em 0;
+  }
+  .feature h4 {
+    margin-bottom: 1em;
+  }
+  .feature img {
+    float: right;
+    margin-left: 20px;
+  }
+  .column1 {
+    clear: left;
+  }
+  .column1, .column2, .column3 {
+    float: left;
+    display: inline;
+    width: 262px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+  }
+  .column1 img, .column2 img, .column3 img {
+    margin: 0 0 25px;
+    width: 100%;
+  }
+  .sub-feature h5 {
+    margin-bottom: 12px;
+    font-weight: bold;
   }
 </style>
 
@@ -123,7 +163,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 
 <div class="content container block">
   <section id="madeeasy" class="container block">
-    <div class="module wider">
+    <div class="features-container module wider">
       <a href="#main-feature" class="features-top-link">回到頂端</a>
 
       <h3>瀏覽變得<span>簡單</span></h3>
@@ -388,7 +428,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
   </section>
 
   <section id="highperformance" class="container block">
-    <div class="module wider">
+    <div class="features-container module wider">
       <a href="#main-feature" class="features-top-link">回到頂端</a>
       <h3>更佳的<span>效能</span></h3>
 
@@ -450,7 +490,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
   </section>
 
   <section id="advancedsecurity" class="container block">
-    <div class="module wider">
+    <div class="features-container module wider">
       <a href="#main-feature" class="features-top-link">回到頂端</a>
       <h3>進階<span>安全性</span></h3>
 
@@ -542,7 +582,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
   </section>
 
   <section id="powerfulpersonalization" class="container block">
-    <div class="module wider">
+    <div class="features-container module wider">
       <a href="#main-feature" class="features-top-link">回到頂端</a>
       <h3>強大的<span>個人化</span></h3>
       <div class="feature">
@@ -584,7 +624,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
   </section>
 
   <section id="cuttingedge" class="container block">
-    <div class="module wider">
+    <div class="features-container module wider">
       <a href="#main-feature" class="features-top-link">回到頂端</a>
       <h3>尖端<span>技術</span></h3>
 
@@ -674,7 +714,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
   </section>
 
   <section id="universalaccess" class="container block">
-    <div class="module wider">
+    <div class="features-container module wider">
       <a href="#main-feature" class="features-top-link">回到頂端</a>
       <h3>普及<span>近用</span></h3>
 
@@ -712,7 +752,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
   </section>
 
   <section id="resources" class="container block">
-    <div class="module wider">
+    <div class="features-container module wider">
       <a href="#main-feature" class="features-top-link">回到頂端</a>
 
       <h3>社群<span>資源</span></h3>
