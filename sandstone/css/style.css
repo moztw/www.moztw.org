@@ -64,7 +64,7 @@ body.margin-left{left:160px}
 .header-search-form{position:absolute;top:-200%;left:0;opacity:0;filter:alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";width:250px;-webkit-transition:opacity .5s ease;-moz-transition:opacity .5s ease;-o-transition:opacity .5s ease;-ms-transition:opacity .5s ease;transition:opacity .5s ease;-webkit-transition-delay:.5s;-moz-transition-delay:.5s;-o-transition-delay:.5s;-ms-transition-delay:.5s;transition-delay:.5s;height:36px}
 .header-search-form-input{height:100%;width:230px;padding:0 10px}
 .header-search-btn{cursor:pointer;padding:0 20px}
-#footer{padding:40px 0;background:#fff;color:#666;font-size:.875em}
+#footer{clear:both;padding:40px 0;background:#fff;color:#666;font-size:.875em}
 .key-point{height:280px;width:auto;padding:10px;background:#fff}
 .key-point-inner{overflow:hidden}
 .key-point-slider{height:280px}
