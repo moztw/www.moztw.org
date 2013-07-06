@@ -386,8 +386,20 @@ Sandstone 範例可參考根目錄 index2.shtml。
     <a href="#main-feature" class="features-top-link">回到頂端</a>
     <h3>更佳的 <span>效能</span></h3>
 
+    <div id="video-wrapper">
+      <div id="video-player-runfield">
+        <video width="640" height="360"
+          poster="//mozorg.cdn.mozilla.net/media/img/firefox/video/poster-runfield.jpg"
+          controls="controls"
+          data-overlay-hidden-text="播放影片">
 
-    <?=$img[13];?>
+          <source src="http://videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/runfield/screencast.webm" type="video/webm" />
+          <source src="http://videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/runfield/screencast.theora.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;" />
+          <source src="http://videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/runfield/screencast.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <p>Runfield 是一個使用 JavaScript 與 Canvas 打造的網頁遊戲。<a href="https://developer.mozilla.org/en-US/demos/detail/runfield">玩玩看 »</a></p>
+    </div>
     <div class="column1">
       <div class="feature" id="super-speed">
         <h4>速度超快</h4>
@@ -418,7 +430,14 @@ Sandstone 範例可參考根目錄 index2.shtml。
       <div class="feature" id="webgl">
         <h4>網頁上的 3D</h4>
         <p>WebGL 將 3D 圖形帶到了 Firefox，為開發者開了一個大門來建立生動的遊戲與全新的網路視覺體驗。</p>
-        <?=$img[14];?>
+        <div id="video-player-brand" class="mozilla-video-control section-video">
+          <video id="video-brand" width="290" height="163" controls="controls"
+            poster="//mozorg.cdn.mozilla.net/media/img/firefox/video/poster-3d.jpg"
+            data-overlay-hidden-text="Play video">
+            <source src="http://videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/remixingreality/screencast.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;" />
+            <source src="http://videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/remixingreality/screencast.mp4" type="video/mp4" />
+          </video>
+        </div>
       </div>
     </div>
   </div>
