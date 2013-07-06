@@ -223,7 +223,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
       <img src="images/features/screen-sync-mac.png" alt="同步截圖">
       <h4>保持同步</h4>
       <p>無縫同步您的桌上型電腦與行動裝置當中的 Firefox，這樣您就可以在所有的裝置間存取您的瀏覽紀錄、已存密碼、書籤，甚至是開啟的分頁。自您第一天開始使用行動裝置就可以存取您多年以來的瀏覽紀錄，並使用您電腦上儲存的密碼已在手機上填入表單。</p>
-      <p>您現在可以透過桌機上網，瀏覽到一半時離開座位，您會發現剛剛開啟的分頁標籤已經在手機上等著您了，就跟剛剛離開時一模一樣。您的瀏覽方式將不再一樣！<a href="<?=$link[1];?>">了解更多關於同步功能的資訊</a> 或 <a href="<?=$link[2];?>">為您的手機下載 Firefox</a>。</p>
+      <p>您現在可以透過桌機上網，瀏覽到一半時離開座位，您會發現剛剛開啟的分頁標籤已經在手機上等著您了，就跟剛剛離開時一模一樣。您的瀏覽方式將不再一樣！<a href="http://www.mozilla.org/en-US/mobile/sync/">了解更多關於同步功能的資訊</a> 或 <a href="http://www.mozilla.org/en-US/mobile/">為您的手機下載 Firefox</a>。</p>
     </div>
 
     <div class="column1">
@@ -270,7 +270,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
       <div class="column3">
         <div class="sub-feature">
           <h5>數以百計的搜尋引擎</h5>
-          <p>從預設清單選擇搜尋選項，或選擇「管理搜尋引擎」以瀏覽許多與搜尋相關的附加元件。<a href="<?=$link[3];?>">看看有什麼選擇。</a></p>
+          <p>從預設清單選擇搜尋選項，或選擇「管理搜尋引擎」以瀏覽許多與搜尋相關的附加元件。<a href="https://addons.mozilla.org/zh-TW/firefox/search-tools/">看看有什麼選擇。</a></p>
         </div>
       </div>
 
@@ -375,7 +375,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 
       <div class="feature">
         <h4>Firefox 技術支援</h4>
-        <p>需要幫忙？我們的 <a href="<?=$link[16];?>">技術支援網站</a> 有一個可搜尋的技術文件知識庫，還有討論區與能讓您有更好體驗的小秘訣與教學，讓您能有更好的體驗。</p>
+        <p>需要幫忙？我們的 <a href="http://support.mozilla.org/zh-TW/products/firefox">技術支援網站</a> 有一個可搜尋的技術文件知識庫，還有討論區與能讓您有更好體驗的小秘訣與教學，讓您能有更好的體驗。</p>
       </div>
     </div>
   </div>
@@ -414,8 +414,8 @@ Sandstone 範例可參考根目錄 index2.shtml。
 
       <div class="feature" id="crash-protection">
         <h4>錯誤保護</h4>
-        <p>Firefox 讓您能在 Adobe Flash、Apple QuickTime，或 Microsoft Silverlight 等外掛程式造成錯誤之後也能不中斷您的瀏覽。若這些當中的某個常用外掛程式造成錯誤或軟體當掉，也不會影響其他部分的 Firefox。您只要重新載入頁面，就可以重新載入這些外掛程式並再試一次。<a href="<?=$link[4];?>">了解更多關於外掛程式的資訊。</a></p>
-        <p><a href="<?=$link[5];?>">了解更多關於 Firefox 的效能。</a></p>
+        <p>Firefox 讓您能在 Adobe Flash、Apple QuickTime，或 Microsoft Silverlight 等外掛程式造成錯誤之後也能不中斷您的瀏覽。若這些當中的某個常用外掛程式造成錯誤或軟體當掉，也不會影響其他部分的 Firefox。您只要重新載入頁面，就可以重新載入這些外掛程式並再試一次。<a href="https://www.mozilla.org/zh-TW/plugincheck/#what-plugin">了解更多關於外掛程式的資訊。</a></p>
+        <p><a href="http://www.mozilla.com/en-US/firefox/performance/">了解更多關於 Firefox 的效能。</a></p>
       </div>
     </div>
 
@@ -472,12 +472,12 @@ Sandstone 範例可參考根目錄 index2.shtml。
 
       <div class="feature">
         <h4>安全地更新</h4>
-        <p>Firefox 在安裝或更新附加元件、第三方軟體，以及 <a href="<?=$link[17];?>">Personas</a> 之前，會先看看是否可以使用安全連線。</p>
+        <p>Firefox 在安裝或更新附加元件、第三方軟體，以及 <a href="http://www.getpersonas.com/">Personas</a> 之前，會先看看是否可以使用安全連線。</p>
       </div>
 
       <div class="feature">
         <h4>偵測過期的外掛程式</h4>
-        <p>外掛程式是一些簡單的第三方軟體，由第三方公司像是 Adobe Systems 或 Apple 所製作，幫助增加視訊、動畫，與遊戲功能。當他們過時的的時候會有很高的安全性風險，所以我們打造了一個簡單的工具，讓您可以隨時檢查現在是否正使用最新版的外掛程式。<a href="<?=$link[6];?>">檢查您的外掛程式。</a></p>
+        <p>外掛程式是一些簡單的第三方軟體，由第三方公司像是 Adobe Systems 或 Apple 所製作，幫助增加視訊、動畫，與遊戲功能。當他們過時的的時候會有很高的安全性風險，所以我們打造了一個簡單的工具，讓您可以隨時檢查現在是否正使用最新版的外掛程式。<a href="http://www.mozilla.com/zh-TW/plugincheck/">檢查您的外掛程式。</a></p>
       </div>
     </div>
 
@@ -528,7 +528,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
       <div class="feature">
         <h4>自動更新</h4>
         <p>Firefox 將會在有新版本可用時自動地讓您知道，這樣一來您就可以確定您的瀏覽器永遠是最新的，包含最新與最棒的安全性修正。</p>
-        <p><a href="<?=$link[7];?>">了解更多關於 Firefox 的安全性功能。</a></p>
+        <p><a href="http://www.mozilla.org/en-US/firefox/security/">了解更多關於 Firefox 的安全性功能。</a></p>
         <img src="images/features/screen-updates-mac.png" alt="自動更新截圖">
       </div>
     </div>
@@ -558,7 +558,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
       <div class="feature">
         <h4>可自訂介面</h4>
         <p>每個人都喜歡用自己的方式瀏覽網頁，所以我們讓您可以很簡單的讓您可以用您喜歡的方式調整 Firefox 介面：透過重新安排、調整、新增或移除按鈕或欄位來調整您的瀏覽體驗。您只需要在瀏覽工具列上按右鍵，並選擇自訂選項就可以開始調整。</p>
-        <p><a href="<?=$link[8];?>">了解更多關於 Firefox 的個人化功能。</a></p>
+        <p><a href="http://www.mozilla.org/en-US/firefox/customize/">了解更多關於 Firefox 的個人化功能。</a></p>
       </div>
     </div>
 
@@ -571,8 +571,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
 
       <div class="feature">
         <h4>自訂 Firefox 的十萬種方法</h4>
-        <p>天空的極限位於隨時都在成長中的數以千計的 <a href="<?=$link[9];?>">Firefox 附加元件</a>，一些小小的附加元件讓您可以下載並安裝，把瀏覽器變成您所想要的樣子。您可以透過瀏覽器管理線上拍賣、上傳數位照片、一瞥看過天氣預報，或是聽聽音樂。若您不知道要從何下手，<a href="<?=$link[15];?>">可以看看我們有哪些熱門附加元件</a>。</p>
-        <?=$img[22];?>
+        <p>天空的極限位於隨時都在成長中的數以千計的 <a href="https://addons.mozilla.org/zh-TW/firefox/">Firefox 附加元件</a>，一些小小的附加元件讓您可以下載並安裝，把瀏覽器變成您所想要的樣子。您可以透過瀏覽器管理線上拍賣、上傳數位照片、一瞥看過天氣預報，或是聽聽音樂。若您不知道要從何下手，<a href="https://addons.mozilla.org/zh-TW/firefox/extensions/?sort=users">可以看看我們有哪些熱門附加元件</a>。</p>
       </div>
     </div>
   </div>
@@ -586,7 +585,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
     <div class="column1">
       <div class="feature">
         <h4>最新的網頁技術</h4>
-        <p>網站作者與開發者將會愛上 Firefox 全新與增強後的功能。若建立進階內容與應用程式能讓您開心，Firefox 就是您最好的選擇。看看我們的 <a href="<?=$link[10];?>">功能比較表</a> 以了解更多資訊。</p>
+        <p>網站作者與開發者將會愛上 Firefox 全新與增強後的功能。若建立進階內容與應用程式能讓您開心，Firefox 就是您最好的選擇。看看我們的 <a href="https://mozillademos.org/demos/dashboard/demo.html">功能比較表</a> 以了解更多資訊。</p>
       </div>
 
       <div class="feature">
@@ -618,12 +617,12 @@ Sandstone 範例可參考根目錄 index2.shtml。
     <div class="column2">
       <div class="feature">
         <h4>剖析器</h4>
-        <p>Firefox 包含了一個已經支援 HTML5 的剖析器。這個剖析器帶來了一些 <a href="<?=$link[11];?>">全新功能，尤其是行內 SVG</a>，同時也透過讓其自己的處理器執行剖析演算法來增加效能。</p>
+        <p>Firefox 包含了一個已經支援 HTML5 的剖析器。這個剖析器帶來了一些 <a href="https://developer.mozilla.org/en/svg_in_html_introduction">全新功能，尤其是行內 SVG</a>，同時也透過讓其自己的處理器執行剖析演算法來增加效能。</p>
       </div>
 
       <div class="feature">
         <h4>IndexedDB</h4>
-        <p>Firefox 包含了一個早期版本的 <a href="<?=$link[12];?>">IndexedDB</a> 讓開發者可以嘗鮮，並實驗瀏覽器的本機儲存功能。</p>
+        <p>Firefox 包含了一個早期版本的 <a href="https://developer.mozilla.org/en/IndexedDB">IndexedDB</a> 讓開發者可以嘗鮮，並實驗瀏覽器的本機儲存功能。</p>
       </div>
 
       <div class="feature">
@@ -662,7 +661,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
       <div class="feature">
         <h4>網頁控制台</h4>
         <p>想要知道什麼東西可以用來打造尖端技術的網站嗎？可以讓您透過這個實驗性分析工具來偷看一下動態網頁內容。</p>
-        <p><a href="<?=$link[13];?>">了解更多關於 Firefox 的技術功能。</a></p>
+        <p><a href="http://www.mozilla.org/en-US/firefox/technology/">了解更多關於 Firefox 的技術功能。</a></p>
       </div>
     </div>
   </div>
@@ -683,7 +682,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
     <div class="column2">
       <div class="feature" id="language">
         <h4>Firefox 的語言</h4>
-        <p>Firefox 會說的語言比世界上任何一種瀏覽器還要多。因為網路是一個由所有人所共享的開放資源，我們讓瀏覽器盡可能以最多的語言推出。我們目前已有超過 75 種不同的翻譯版本，從法文、中文到芬蘭文與捷克文。<a href="<?=$link[18];?>">尋找您的語言。</a>（完整清單位於美式英文網站）</p>
+        <p>Firefox 會說的語言比世界上任何一種瀏覽器還要多。因為網路是一個由所有人所共享的開放資源，我們讓瀏覽器盡可能以最多的語言推出。我們目前已有超過 75 種不同的翻譯版本，從法文、中文到芬蘭文與捷克文。<a href="http://www.mozilla.org/en-US/firefox/all.html">尋找您的語言。</a>（完整清單位於美式英文網站）</p>
       </div>
 
       <div class="feature">
