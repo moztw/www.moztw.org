@@ -541,7 +541,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
     <a href="#main-feature" class="features-top-link">回到頂端</a>
     <h3>強大的 <span>個人化</span></h3>
     <div class="feature">
-      <?=$img[20];?>
+      <img src="images/features/screen-addons-mac.png" alt="附加元件管理員截圖">
       <h4>附加元件管理員</h4>
       <p>附加元件管理員已經被重新設計成可以讓您不需要離開 Firefox 就能探索並安裝附加元件。瀏覽附加元件的評分、推薦、說明，與照片幫助您做選擇。您的附加元件管理員還可以讓您只要點幾下就能檢視、管理和停用第三方外掛程式，也可以在您打開管理員之後檢查並自動更新您的每一個附加元件。</p>
 
@@ -550,7 +550,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
       <div class="feature">
         <h4>使用 Personas 妝點您的 Firefox</h4>
         <p>透過 Personas 幾乎能完全修改您 Firefox 的外觀：由全世界的使用者所創造（您也可以自己做一套！），數以千計能簡單安裝的佈景主題。只要簡單一點，您就可以用簡單的設計、彩色的圖案，還有由合作夥伴所提供的像是哈利波特還有 Bob Marley 等佈景主題妝點您的 Firefox。</p>
-        <?=$img[21];?>
+        <img src="images/features/screen-personas-mac.png" alt="佈景主題截圖">
       </div>
     </div>
 
