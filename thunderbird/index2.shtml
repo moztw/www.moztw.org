@@ -198,6 +198,50 @@ div[class^=grid-] > p {
          <article class="module">
             <h3>安全性與保護您的電子郵件</h3>
             <p>保護您電子郵件的安全！</p>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <h4>排除垃圾信</h4>
+                  <p>為了反制垃圾郵件，Thunderbird 強化了垃圾信工具。Thunderbird 先進的垃圾信過濾器會檢查您所收到的每封信件。而在您將信件標示為垃圾信時，Thunderbird 也會跟著「學習」，改進自身的垃圾信過濾機制，讓您寶貴的時間不會耗費在無意義的雜務上。Thunderbird 也能夠使用您的郵件服務提供者的過濾機制，確保垃圾郵件不會進入您的收件匣。</p>
+               </div>
+               <div class="grid-6">
+                  <h4>強化隱私</h4>
+                  <p>Thunderbird 會自動阻擋郵件中的遠端圖片，以強化使用者的隱私保護。</p>
+               </div>
+            </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <h4></h4>
+                  <p></p>
+               </div>
+               <div class="grid-6">
+                  <h4></h4>
+                  <p></p>
+               </div>
+            </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <h4></h4>
+                  <p></p>
+               </div>
+               <div class="grid-6">
+                  <h4></h4>
+                  <p></p>
+               </div>
+            </div>
+
+            <div class="grids block">
+               <div class="grid-6">
+                  <h4></h4>
+                  <p></p>
+               </div>
+               <div class="grid-6">
+                  <h4></h4>
+                  <p></p>
+               </div>
+            </div>
          </article>
       </div>
    </div>
