@@ -13,7 +13,7 @@
           <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa">
           <input type="hidden" name="cof" value="FORID:9">
           <input type="hidden" name="ie" value="UTF-8">
-          <input placeholder="Search..." class="header-search-form-input" type="text" id="q" name="q" accesskey="s" size="30" maxlength="64">
+          <input placeholder="搜尋..." class="header-search-form-input" type="text" id="q" name="q" accesskey="s" size="30" maxlength="64">
         </form>
       </div>
       <ul class="header-menu">
