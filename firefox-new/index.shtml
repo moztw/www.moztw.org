@@ -9,9 +9,6 @@ Sandstone style guide:
 
 Sandstone 範例可參考根目錄 index2.shtml。
 
-## 已知問題
-* 內容超出容器
-
 ## 參考連結
   http://www.mozilla.org/en-US/firefox/features/
   http://mozilla.com.tw/firefox/features/
@@ -50,6 +47,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
   }
   .features-container {
     clear: both;
+    overflow: hidden;
   }
   .features-container h3 {
     font-size: 48px;
