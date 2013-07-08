@@ -23,7 +23,32 @@ Sandstone 範例可參考根目錄 index2.shtml。
                 url(/sandstone/images/grain.png) repeat scroll 0 0,
                 none repeat scroll 0 0 rgb(238, 238, 238);
   }
+  #main-feature hgroup {
+    float: left;
+    margin-left: 24px;
+  }
+  #main-feature hgroup h1 {
+    margin-bottom: 0.5em;
+  }
+  #main-feature hgroup h4 {
+    margin-bottom: 2em;
+  }
+  .download-button-small {
+    position: relative;
+    float: right;
+    top: 15px;
+  }
+  .download-button-small .download-link .download-content{
+    background-image: url(/sandstone/images/firefox-small.png);
+    background-position: left center;
+    margin-left: -30px;
+    padding: 10px 20px 10px 83px;
+  }
+  .download-button-small .download-link .download-lang{
+    top: 22px;
+  }
   nav.menu-bar {
+    clear: both;
     text-align: center;
   }
   nav.menu-bar ul {
@@ -47,8 +72,7 @@ Sandstone 範例可參考根目錄 index2.shtml。
     width: 990px;
   }
   .features-top-link {
-    background: url(images/return-to-top.png)
-                no-repeat scroll left bottom transparent;
+    background: url(images/return-to-top.png) no-repeat scroll left bottom transparent;
     float: right;
     padding-left: 25px;
   }
@@ -120,26 +144,12 @@ Sandstone 範例可參考根目錄 index2.shtml。
 <!--#include virtual="/sandstone/header.shtml" -->
 
 <section id="main-feature" class="container block">
-  <div>
-    <div id="product-desc">
+  <div id="product-side row">
+    <hgroup id="product-desc" class="stacked">
       <h1>Firefox 功能特色</h1>
-      <p>將所有超棒之處結合在一起，讓您的瀏覽變得更好。</p>
-    </div>
-    <div id="product-side">
-      <!-- # include virtual="/inc/dlff.html" -->
-      <ul>
-        <li>
-          <a class="ancilliaryLink" href="/docs/fx/system-requirements">
-            系統需求
-          </a>
-        </li>
-        <li>
-          <a class="ancilliaryLink" href="/firefox/releases">
-            版本資訊
-          </a>
-        </li>
-      </ul>
-    </div>
+      <h4>將所有超棒之處結合在一起，讓您的瀏覽變得更好。</h4>
+    </hgroup>
+    <!--#include virtual="/inc/dlff-new.html"-->
   </div>
 </section>
 
