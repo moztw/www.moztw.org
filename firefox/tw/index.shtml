@@ -98,7 +98,7 @@
     
     <section id="tw-intro" class="contentboard">
         <p>以下是 MozTW 社群成員分析美商謀智「Firefox 台灣版」的功能介紹、安裝說明、及各內建附加套件說明。您也可以在一般版 Firefox 中，選擇安裝以下部分套件，以使用台灣版的某些功能。</p>
-        <p>MozTW 社群長期以來負責維護 Firefox 與 Mozilla 產品正體中文版本的在地化，包含原始中文版 Firefox 的內建搜索引擎清單及預載的書籤項目。對於「Firefox 台灣版」所開發與選用的在地化功能我們未來會參與且提供相關建議及協作，讓使用者有更好的上網體驗。請使用者可以多加嘗試 Firefox 正體中文版及「Firefox 台灣版」之在地化版本，並且提供您寶貴的意見。意見回饋可連至 myfirefox.com.tw，點選最上面的「Firefox 台灣版」選項。</p>
+        <p>MozTW 社群長期以來負責維護 Firefox 與 Mozilla 產品正體中文版本的在地化，包含原始中文版 Firefox 的內建搜索引擎清單及預載的書籤項目。請使用者可以多加嘗試 Firefox 正體中文版及「Firefox 台灣版」之在地化版本，並且提供您寶貴的意見。意見回饋可連至 myfirefox.com.tw，點選最上面的「Firefox 台灣版」選項。</p>
         <p>「Firefox 台灣版」會收集您使用 Firefox 過程的行為資訊，並分析統計資料。使用者可隨時在偏好設定中將其開啟或關閉，詳情請參考：<a href="http://mozilla.com.tw/firefox/ueip/" target="_blank">使用者體驗改善計畫</a></p>
     </section>
     
@@ -405,6 +405,7 @@
     <section id="license">
         <h3>授權說明</h3>
         <p>Firefox 台灣版係由 Mozilla Taiwan（美商謀智台灣分公司）製作，採用與一般版 Firefox 相同的 <a href="https://www.mozilla.org/MPL/2.0/" target="_blank">Mozilla Public License 2.0</a> 條款進行授權，其內建之特製套件也均為 MPL 2.0 授權。</p>
+        <p>本頁所提供的「Firefox 台灣版下載」與各套件下載安裝連結，均直接連回 Mozilla Taiwan 網站。MozTW 社群因關注而進行分析、提供說明與下載，對於「Firefox 台灣版」及各套件由 Mozilla Taiwan 全權負責。</p>
         <p>如本頁各項連結因 Mozilla Taiwan 公司網站修改而失效，請協助至 <a href="https://groups.google.com/group/moztw-general"  onclick="_gaq.push(['_trackEvent', 'Outgoing', 'moztw-general', 'firefox-tw']);">moztw-general 郵件群組</a> 回報，我們將會儘速修復。</p>
     </section>
 
