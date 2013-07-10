@@ -95,17 +95,21 @@
 }
 .extension .tracking {
     display: inline-block;
-    margin: 0 35px 5px 50px;
-    padding: 2px 5px;
+    margin: 0 10px 15px 50px;
+    padding: 2px 5px 2px 1.75em;
     border-radius: 5px;
     background: #FFC;
     color: #669;
-    border: 1px dotted #CC9;
+    border: 1px dotted #BBB;
+    background: #FFF url(eye.png) 3px center/1.25em no-repeat;
 }
-.extension .tracking img {
-    width: 16px;
-    margin: -2px 5px 0 5px;
-    vertical-align: middle;
+.extension .source {
+    display: inline-block;
+    margin: 0 10px 15px 0;
+    padding: 2px 5px 2px 1.75em;
+    border-radius: 5px;
+    border: 1px dotted #BBB;
+    background: #FFF url(/images/github.png) 3px center/1.25em no-repeat;
 }
 .extension blockquote {
     margin: 0 2em 0 3em;
@@ -222,9 +226,6 @@
     }
     #installList .extension h4 {
         font-size: 20px;
-    }
-    .extension .tracking {
-        margin: 5px 0;
     }
     .extension blockquote {
         font-size: 14px;
