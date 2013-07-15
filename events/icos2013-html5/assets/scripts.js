@@ -1,4 +1,4 @@
-﻿var map = new L.Map('map', {
+var map = new L.Map('map', {
     scrollWheelZoom: false,
     dragging: false
 });
