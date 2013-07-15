@@ -17,7 +17,7 @@
     <hgroup id="main-feature">
         <h1>Firefox 台灣版</h1>
         <h2>
-            「Firefox 台灣版」是美商謀智台灣分公司（Mozilla Taiwan）以一般版 Firefox 為基礎，新增下列附加元件開發的在地化版本。
+            「Firefox 台灣版」是美商謀智台灣分公司（Mozilla Taiwan）以一般版 Firefox 為基礎，新增下列附加元件所開發的在地化版本。
         </h2>
     </hgroup>
     
@@ -97,7 +97,7 @@
     </section>
     
     <section id="tw-intro" class="contentboard">
-        <p>以下是 MozTW 社群成員分析美商謀智「Firefox 台灣版」的功能介紹、安裝說明、及各內建附加套件說明。您也可以在一般版 Firefox 中，選擇安裝以下部分套件，以使用台灣版的某些功能。</p>
+        <p>以下是 MozTW 社群成員分析「Firefox 台灣版」的功能介紹、安裝說明、及各內建附加套件說明。您也可以在一般版 Firefox 中，選擇安裝以下部分套件，以使用台灣版的某些功能。</p>
         <p>MozTW 社群長期以來負責維護 Firefox 與 Mozilla 產品正體中文版本的在地化，包含原始中文版 Firefox 的內建搜索引擎清單及預載的書籤項目。使用者對於「Firefox 台灣版」的意見與建議，可以至 Mozilla Taiwan <a href="http://myfirefox.com.tw/" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'myfirefox', 'firefox-tw']);">myfirefox</a> 網站上方之「意見回饋」處反應給原廠。</p>
         <p>「Firefox 台灣版」將收集您使用 Firefox 過程的行為資訊，以進行分析統計。以下將以「<img src="eye.png" alt="" style="width: 1.25em;vertical-align: text-bottom;" />」標示出相關套件。使用者可隨時在偏好設定中將其開啟或關閉，詳情請參考美商謀智 Mozilla Taiwan <a href="http://mozilla.com.tw/firefox/ueip/" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'mozilla.com.tw/firefox/ueip', 'firefox-tw']);" target="_blank">使用者體驗改善計畫</a>。</p>
     </section>
