@@ -60,7 +60,8 @@ Email:
 	<li><a href="http://wiki.moztw.org">社群共筆系統</a></li>
 	</ul>
 	<p>本站樣式修改自 mozilla.org，經原作者同意由 moztw.org 使用。主機由 <a href="http://www.sinica.edu.tw">中央研究院 (Academia Sinica)</a> <a href="http://www.citi.sinica.edu.tw/">資訊科學創新研究中心 (CITI)</a> <a href="http://www.openfoundry.org/">自由軟體鑄造場 (OSSF)</a> 提供，也感謝 <a href="http://www.csie.ntu.edu.tw/">台大資訊系 (NTU CSIE)</a> 到 2004/08 前的支援。</p>
-	
+	<p>本網站採⽤ <a href="http://webfont.arphic.com/index/wf_about.jsp" target="_black" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'arphic', '/about']);" >ARPHIC（⽂⿍科技）WebFont 字型及技術服務，感謝文鼎公司提供贊助。</a></p>
+
 	<h3 id="moztw-history">緣起與發展</h3>
 	<div class="vevent" id="hcalendar-event-title">
 	<p><abbr class="dtstart" title="1999-01-01">1999</abbr> <abbr class="dtend" title="1999-12-31">年</abbr>，<span class="summary">當時尚就讀台大資工的林弘德 (piaip) 擔任 Mozilla 之正體中文在地化專案管理員，並開始於個人網站上發佈測試檔案。隨後 piaip 製作「Mozilla Localization: Traditional Chinese」網站</span>，並於 <abbr class="dtstart" title="2000-01-01">2000</abbr> <abbr class="dtend" title="2000-12-31">年</abbr><span class="summary">啟用 Mozilla@Taiwan 討論區；原先的測試網站演化為 Mozilla 相關產品正體中文版及資訊收集地，也有了固定支持的社群。</span></p>
