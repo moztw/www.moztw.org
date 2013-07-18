@@ -60,7 +60,7 @@ Email:
 	<li><a href="http://wiki.moztw.org">社群共筆系統</a></li>
 	</ul>
 	<p>本站樣式修改自 mozilla.org，經原作者同意由 moztw.org 使用。主機由 <a href="http://www.sinica.edu.tw">中央研究院 (Academia Sinica)</a> <a href="http://www.citi.sinica.edu.tw/">資訊科學創新研究中心 (CITI)</a> <a href="http://www.openfoundry.org/">自由軟體鑄造場 (OSSF)</a> 提供，也感謝 <a href="http://www.csie.ntu.edu.tw/">台大資訊系 (NTU CSIE)</a> 到 2004/08 前的支援。</p>
-	<p>本網站採⽤ <a href="http://webfont.arphic.com/index/wf_about.jsp" target="_black" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'arphic', '/about']);" >ARPHIC（⽂⿍科技）WebFont 字型及技術服務，感謝文鼎公司提供贊助。</a></p>
+	<p>本網站採⽤ <a href="https://www.arphic.com/" target="_black" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'arphic', '/about']);" >ARPHIC ⽂⿍科技</a>  <a href="http://webfont.arphic.com/" target="_black" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'arphic_webfont', '/about']);" >WebFont 字型及技術服務</a>，感謝文鼎公司提供贊助。</p>
 
 	<h3 id="moztw-history">緣起與發展</h3>
 	<div class="vevent" id="hcalendar-event-title">
