@@ -1,9 +1,9 @@
 var lab_locs = {
     "taipei_lab": {
         "oid": "map_taipei", 
-        "place": "沐樂咖啡", 
-        "lat": 25.04241, 
-        "lng": 121.53108
+        "place": "Thé6 6号茶", 
+        "lat": 25.044021, 
+        "lng": 121.532725
     }, 
 
     "keelung_lab": {
