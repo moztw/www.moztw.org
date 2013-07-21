@@ -1,7 +1,6 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
     <title class="l10n" data-l10n="foxmosa-title">Foxmosa 小莎</title>
-    <!--link href="css/style.css" rel="stylesheet" /-->
-    <!--link href="css/main.css" rel="stylesheet" /-->
+    <link href="css/main.css" rel="stylesheet" />
     <link href="http://moztw.org/js/library/fancybox2/jquery.fancybox.css" rel="stylesheet" />
     <style>
         #earth {
@@ -30,7 +29,7 @@
                 </hgroup>
                 
                 <section id="foxmosa-info" class="container block row">
-                    <h2 class="block-title l10n" data-l10n="foxmosa-info-h2">小莎資料</h2>
+                    <h2 class="block-title hide l10n" data-l10n="foxmosa-info-h2">小莎資料</h2>
                     
                     <canvas id="foxmosa-run" width="680" height="200"></canvas>
                     

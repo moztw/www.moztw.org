@@ -231,8 +231,8 @@
 
 #foxmosa-run{
 	position: absolute;
-	top: -40px;
-	right: 0;
+	top: 174px;
+	right: 163px;
 	height: 200px;
 	width: 680px;
 	z-index: 1;
@@ -260,8 +260,8 @@
 
 #earth{
 	position: absolute;
-	right: 60px;
-	top: 130px;
+	right: 223px;
+	top: 344px;
 	z-index: 0;
 	width: 400px;
 	height: 400px;
