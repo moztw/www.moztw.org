@@ -63,6 +63,8 @@ body.margin-left{left:160px}
 .header-search-form-input{height:100%;width:230px;padding:0 10px}
 .header-search-btn{cursor:pointer;padding:0 20px}
 #footer{clear:both;padding:40px 0;background:#fff;color:#666;font-size:.875em}
+#footer .grid-logo{float:left}
+#footer .grid-text{float:right;text-align:right}
 .key-point{height:280px;width:auto;padding:10px;background:#fff}
 .key-point-inner{overflow:hidden}
 .key-point-slider{height:280px}

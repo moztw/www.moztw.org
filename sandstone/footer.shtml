@@ -1,31 +1,19 @@
-  <footer id="footer" class="block">
+<footer id="footer" class="block">
     <div class="container">
-      <div class="grids">
-        <div class="grid-4">
-          <a href="http://moztw.org/"><img src="/sandstone/images/footer-moztw.png" alt="MozTW"></a>
+        <div class="grids">
+            <div class="grid-logo">
+                <a href="http://moztw.org/">
+                    <img src="/sandstone/images/footer-moztw.png" alt="MozTW.org" />
+                </a>
+            </div>
+            
+            <div class="grid-text">
+                <p>除另有註明外，本站內容皆採 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/deed.zh_TW" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'CC', 'sandstone-footer']);">創用CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a> 或更新版本授權大眾使用</p>
+                <p><a rel="contact" href="/about" onclick="_gaq.push(['_trackEvent', 'FooterLink', 'Contact', 'sandstone-footer']);">聯絡資訊 Contact</a> | <a rel="poweredby" href="http://www.openfoundry.org" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'OSSF', 'sandstone-footer']);">Powered by OSSF</a></p>
+            </div>
         </div>
-        <div class="grid-3">
-          <p>MozTW 是台灣專屬於 Mozilla 相關資訊的社群，於 2004 年 9 月正式開張。目前本社群維護 Mozilla 軟體的正體中文版本與語言套件 (Language Pack)，提供 WWW（下載、文件）與 討論區 等服務。<p>
-        </div>
-        <div class="grid-2">
-          <ul class="footer-nav unstyled">
-            <li><a href="http://moztw.org/foxmosa/game/pairs/">Foxmosa 瀏覽器翻牌遊戲</a></li>
-            <li><a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
-            <li><a href="http://gfx.tw/">gfx.tw 抓火狐</a></li>
-            <li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
-          </ul>
-        </div>
-        <div class="grid-3">
-          <ul class="footer-nav unstyled">
-            <li><a href="http://forum.moztw.org/viewtopic.php?f=17&t=34697">郵件群組：Mozilla 中文開發者社群</a></li>
-            <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/">Firefox 未來發行版本</a></li>
-            <li><a href="http://moztw.org/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
-            <li><a href="http://moztw.org/twoffice/">Mozilla Taiwan 公司徵人啟事</a></li>
-          </ul>
-        </div>
-      </div>
     </div>
-  </footer>
+</footer>
 
 </body>
 </html>
