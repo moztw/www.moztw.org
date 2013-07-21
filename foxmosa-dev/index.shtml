@@ -24,12 +24,12 @@
                 
                 <!--#include virtual="/sandstone/header.shtml" -->
                 
-                <div id="content-wrapper">
-                    
-                    <hgroup id="main-feature" class="container block">
-                        <h1>Foxmosa</h1>
-                        <h2 class="l10n" data-l10n="foxmosa-name">狐耳摩莎</h2>
-                    </hgroup>
+                <hgroup id="main-feature" class="container block">
+                    <h1>Foxmosa</h1>
+                    <h2 class="l10n" data-l10n="foxmosa-name">狐耳摩莎</h2>
+                </hgroup>
+                
+                <div id="content-area">
                     
                     <section id="foxmosa-info" class="container block row">
                         <h2 class="block-title hide l10n" data-l10n="foxmosa-info-h2">小莎資料</h2>
@@ -59,18 +59,22 @@
                         <div id="foxmosa-pictures"></div>
                     </section>
                     
-                    <section id="foxmosa-pairs" class="container block">
-                        <div class="module whitebox">
-                            <h2 class="block-title">BrowserPairs</h2>
+                    <section class="container block">
+                        <div id="foxmosa-pairs" class="module whitebox">
+                            <header>
+                                <h2 class="block-title">BrowserPairs</h2>
+                            </header>
                             <a href="http://moztw.org/foxmosa/game/pairs/" class="pairslogo">BrowserPairs</a>
                             <a href="https://github.com/moztw/browser-pairs" class="button github">Fork me on Github</a>
                             <a href="http://moztw.org/foxmosa/game/pairs/" class="button playthegame">Play</a>
                         </div>
                     </section>
                     
-                    <section id="foxmosa-social" class="container block">
-                        <div class="module whitebox">
-                            <h2 class="block-title">SocialNetworks</h2>
+                    <section class="container block">
+                        <div id="foxmosa-social" class="module whitebox">
+                            <header>
+                                <h2 class="block-title">SocialNetworks</h2>
+                            </header>
                             <ul>
                                 <li class="plurk"><a class="button" href="http://www.plurk.com/foxmosa">Plurk</a>
                                 <li class="facebook"><a class="button" href="https://zh-tw.facebook.com/Foxmosa">Facebook</a>
@@ -79,14 +83,14 @@
                         </div>
                     </section>
                     
-                    <section id="foxmosa-gallery" class="container block row">
+                    <section id="foxmosa-gallery" class="row">
                         <h2 class="block-title hide">Gallery</h2>
                     </section>
                     
-                    <section id="foxmosa-join" class="container block row">
-                        <h2 class="block-title l10n" data-l10n="foxmosa-join-h2">如何加入呢？</h2>
+                    <section id="foxmosa-join" class="container block row whitebox">
+                        <h2 class="block-title hide l10n" data-l10n="foxmosa-join-h2">如何加入呢？</h2>
                         
-                        <div class="container block left">
+                        <div class="left">
                             <h3 class="block-title l10n" data-l10n="foxmosa-license">授權</h3>
                             <p class="l10n" data-l10n="foxmosa-license-cc">Foxmosa 以創用 <b>CC: by-nc-sa 3.0 tw 姓名標示-非商業性-相同方式分享</b> 公開授權，你可以自由以她為主題進行創作，但是：</p>
                             
@@ -97,7 +101,7 @@
                             </ol>
                         </div>
                         
-                        <div class="container block right">
+                        <div class="right">
                             <h3 class="block-title l10n" data-l10n="foxmosa-painter-h3">加入 Foxmosa 繪師行列</h3>
                             <p class="l10n" data-l10n="foxmosa-painter-content">如果有興趣加入 MozTW 社群的志工行列，以繪圖方式來協助 MozTW 進行各種推廣 Mozilla 和 Firefox 的各種計畫（網站、海報、小遊戲......等），請至以下網址填表，並勾選「美術設計」項目，我們會盡速以 email 與您聯繫：<a href="http://bit.ly/joinmoztw">http://bit.ly/joinmoztw</a></p>
                         </div>

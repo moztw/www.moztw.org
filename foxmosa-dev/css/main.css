@@ -1,5 +1,27 @@
 @import url(picwall.css);
 
+.row{
+	margin-left: -20px;
+}
+
+.row:after {
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+	content: ".";
+}
+
+.left{
+	margin-left: 20px;
+	float: left;
+}
+
+.right{
+	margin-left: 20px;
+	float: right;
+}
+
 #foxmosa-pairs h2, #foxmosa-social h2 {
     font-size: 32px;
     letter-spacing: -1px;
@@ -7,7 +29,7 @@
     margin: 0 0 12px;
 }
 
-#content-wrapper {
+#content-area {
     width: 940px;
     margin: 0 auto;
 }
@@ -344,16 +366,36 @@
 	float: left;
 }
 
+.whitebox,#foxmosa-gallery{
+    margin-bottom: 60px;
+}
+
 #foxmosa-join{
 	min-height: 300px;
 	background: url(../images/join.png) no-repeat center center !important;
 	-ms-box-shadow: none !important;
 	-o-box-shadow: none !important;
 	box-shadow: none !important;
+    margin: 0 0 60px -20px;
+    padding: 20px;
 }
 
 #foxmosa-join div{
 	width: 260px;
+}
+
+#foxmosa-join div h3{
+    padding-bottom: 12px;
+}
+
+#foxmosa-join p{
+    margin-bottom: 10px;
+}
+
+#foxmosa-join ol{
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
 }
 
 #foxmosa-stamp{
