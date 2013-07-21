@@ -2,7 +2,7 @@
     <div class="container">
       <a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
       <h1 class="header-site-title"><a href="">MozTW</a></h1>
-      <a class="header-menu-btn" href=""><i class="icon-reorder"></i></a>
+      <a class="header-menu-btn" href="/" title="回首頁"><i class="icon-reorder"></i></a>
       <div class="header-search">
         <div class="header-search-btn">
           <i class="icon-search header-search-icon"></i>
