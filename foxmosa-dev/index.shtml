@@ -1,7 +1,7 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
     <title class="l10n" data-l10n="foxmosa-title">Foxmosa 小莎</title>
-<!--link href="css/style.css" rel="stylesheet" /-->
-    <link href="css/main.css" rel="stylesheet" />
+    <!--link href="css/style.css" rel="stylesheet" /-->
+    <!--link href="css/main.css" rel="stylesheet" /-->
     <link href="http://moztw.org/js/library/fancybox2/jquery.fancybox.css" rel="stylesheet" />
     <style>
         #earth {
@@ -21,88 +21,84 @@
     <body>
         <div id="outer-wrapper">
             <div id="wrapper">
-
+                
                 <!--#include virtual="/sandstone/header.shtml" -->
-
-                <div id="content_area">
+                
+                <hgroup id="main-feature" class="container block">
+                    <h1>Foxmosa</h1>
+                    <h2 class="l10n" data-l10n="foxmosa-name">狐耳摩莎</h2>
+                </hgroup>
+                
+                <section id="foxmosa-info" class="container block row">
+                    <h2 class="block-title l10n" data-l10n="foxmosa-info-h2">小莎資料</h2>
                     
-                    <section id="foxmosa-info" class="row">
-                        <header>
-                            <h2 class="l10n" data-l10n="foxmosa-info-h2">小莎資料</h2>
-                        </header>
-                        
-                        <canvas id="foxmosa-run" class="right" width="680" height="200"></canvas>
-
-                        <div id="earth">
-                            <img src="images/a.svg" alt="Spinning Earth" />
-                        </div>
-
-                        <ul id="foxmosa-profile" class="left">
-                            <li class="l10n" data-l10n="foxmosa-profile-name">暱稱：小莎、莎莎
-                            <li class="l10n" data-l10n="foxmosa-profile-sex">性別：女
-                            <li class="l10n" data-l10n="foxmosa-profile-age">年齡：未成年
-                            <li class="l10n" data-l10n="foxmosa-profile-birth">生日：十月，天枰座
-                            <li class="l10n" data-l10n="foxmosa-profile-personality">個性：活潑、調皮 、友善、分享、好奇心、正義感
-                            <li class="l10n" data-l10n="foxmosa-profile-interest">興趣：逛網路、跟大家閒聊
-                            <li class="l10n" data-l10n="foxmosa-profile-feature">特徵：
-                                <ol>
-                                    <li>頭上的楓葉中有台灣形狀的印記
-                                    <li>像顆蕃薯的臉
-                                    <li>毛茸茸的大尾巴
-                                </ol>
-                        </ul>
-
-                        <div id="foxmosa-pictures" class="left"></div>
-                    </section>
-
-                    <section class="whitebox" id="foxmosa-pairs">
-                        <header>
-                            <h2>BrowserPairs</h2>
-                        </header>
+                    <canvas id="foxmosa-run" width="680" height="200"></canvas>
+                    
+                    <div id="earth">
+                        <img src="images/a.svg" alt="Spinning Earth" />
+                    </div>
+                    
+                    <ul id="foxmosa-profile" class="left">
+                        <li class="l10n" data-l10n="foxmosa-profile-name">暱稱：小莎、莎莎</li>
+                        <li class="l10n" data-l10n="foxmosa-profile-sex">性別：女</li>
+                        <li class="l10n" data-l10n="foxmosa-profile-age">年齡：未成年</li>
+                        <li class="l10n" data-l10n="foxmosa-profile-birth">生日：十月，天枰座</li>
+                        <li class="l10n" data-l10n="foxmosa-profile-personality">個性：活潑、調皮 、友善、分享、好奇心、正義感</li>
+                        <li class="l10n" data-l10n="foxmosa-profile-interest">興趣：逛網路、跟大家閒聊</li>
+                        <li class="l10n" data-l10n="foxmosa-profile-feature">特徵：
+                            <ol>
+                                <li>頭上的楓葉中有台灣形狀的印記</li>
+                                <li>像顆蕃薯的臉</li>
+                                <li>毛茸茸的大尾巴</li>
+                            </ol>
+                        </li>
+                    </ul>
+                    
+                    <div id="foxmosa-pictures"></div>
+                </section>
+                
+                <section id="foxmosa-pairs" class="container block">
+                    <h2 class="block-title hide">BrowserPairs</h2>
+                    <div class="module">
                         <a href="http://moztw.org/foxmosa/game/pairs/" class="pairslogo">BrowserPairs</a>
                         <a href="https://github.com/moztw/browser-pairs" class="button github">Fork me on Github</a>
                         <a href="http://moztw.org/foxmosa/game/pairs/" class="button playthegame">Play</a>
-                    </section>
-
-                    <section class="whitebox" id="foxmosa-social">
-                        <header>
-                            <h2>SocialNetworks</h2>
-                        </header>
+                    </div>
+                </section>
+                
+                <section id="foxmosa-social" class="container block">
+                    <h2 class="block-title hide">SocialNetworks</h2>
+                    <div class="module">
                         <ul>
                             <li class="plurk"><a class="button" href="http://www.plurk.com/foxmosa">Plurk</a>
                             <li class="facebook"><a class="button" href="https://zh-tw.facebook.com/Foxmosa">Facebook</a>
                             <li class="twitter"><a class="button" href="https://twitter.com/Foxmosa">Twitter</a>
                         </ul>
-                    </section>
-
-                    <section id="foxmosa-gallery" class="row">
-                        <header>
-                            <h2>Gallery</h2>
-                        </header>
-                    </section>
-
-                    <section class="row whitebox" id="foxmosa-join">
-                        <header>
-                            <h2 class="l10n" data-l10n="foxmosa-join-h2">如何加入呢？</h2>
-                        </header>
+                    </div>
+                </section>
+                
+                <section id="foxmosa-gallery" class="container block row">
+                    <h2>Gallery</h2>
+                </section>
+                
+                <section id="foxmosa-join" class="container block row">
+                    <h2 class="block-title l10n" data-l10n="foxmosa-join-h2">如何加入呢？</h2>
+                    
+                    <div class="container block left">
+                        <h3 class="block-title l10n" data-l10n="foxmosa-license">授權</h3>
+                        <p class="l10n" data-l10n="foxmosa-license-cc">Foxmosa 以創用 <b>CC: by-nc-sa 3.0 tw 姓名標示-非商業性-相同方式分享</b> 公開授權，你可以自由以她為主題進行創作，但是：</p>
                         
-                        <div class="left">
-                            <h3 class="l10n" data-l10n="foxmosa-license">授權</h3>
-                            <p class="l10n" data-l10n="foxmosa-license-cc">Foxmosa 以創用 <b>CC: by-nc-sa 3.0 tw 姓名標示-非商業性-相同方式分享</b> 公開授權，你可以自由以她為主題進行創作，但是：</p>
-
-                            <ol>
-                                <li class="l10n" data-l10n="foxmosa-license-1">你必須在作品的任一處標示 「moztw.org」 網址
-                                <li class="l10n" data-l10n="foxmosa-license-2">你的作品必須以完全相同的授權方式，再釋出供他人使用
-                                <li class="l10n" data-l10n="foxmosa-license-3">如果要進行商業利用，例如：製作週邊進行販售，就必須事先取得 MozTW 許可：irvin[at]mail.moztw.org（代表）
-                            </ol>
-                        </div>
-                        
-                        <div class="right">
-                            <h3 class="l10n" data-l10n="foxmosa-painter-h3">加入 Foxmosa 繪師行列</h3>
-                            <p class="l10n" data-l10n="foxmosa-painter-content">如果有興趣加入 MozTW 社群的志工行列，以繪圖方式來協助 MozTW 進行各種推廣 Mozilla 和 Firefox 的各種計畫（網站、海報、小遊戲......等），請至以下網址填表，並勾選「美術設計」項目，我們會盡速以 email 與您聯繫：<a href="http://bit.ly/joinmoztw">http://bit.ly/joinmoztw</a></p>
-                        </div>
-                    </section>
-                </div>  
-            </div>
-
+                        <ol>
+                            <li class="l10n" data-l10n="foxmosa-license-1">你必須在作品的任一處標示 「moztw.org」 網址</li>
+                            <li class="l10n" data-l10n="foxmosa-license-2">你的作品必須以完全相同的授權方式，再釋出供他人使用</li>
+                            <li class="l10n" data-l10n="foxmosa-license-3">如果要進行商業利用，例如：製作週邊進行販售，就必須事先取得 MozTW 許可：irvin[at]mail.moztw.org（代表）</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="container block right">
+                        <h3 class="block-title l10n" data-l10n="foxmosa-painter-h3">加入 Foxmosa 繪師行列</h3>
+                        <p class="l10n" data-l10n="foxmosa-painter-content">如果有興趣加入 MozTW 社群的志工行列，以繪圖方式來協助 MozTW 進行各種推廣 Mozilla 和 Firefox 的各種計畫（網站、海報、小遊戲......等），請至以下網址填表，並勾選「美術設計」項目，我們會盡速以 email 與您聯繫：<a href="http://bit.ly/joinmoztw">http://bit.ly/joinmoztw</a></p>
+                    </div>
+                </section>
+                
 <!--#include virtual="/sandstone/footer.shtml" -->
