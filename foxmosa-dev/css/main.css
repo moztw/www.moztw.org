@@ -1,14 +1,15 @@
 @import url(picwall.css);
 
-#outer-wrapper{
-	background-color: #F5F1E8;
-	background-image: url(../images/bg-gradient-sand.png),url(../images/bg-sand.png);
-	background-repeat: repeat-x,repeat;
+#foxmosa-pairs h2, #foxmosa-social h2 {
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 100%;
+    margin: 0 0 12px;
 }
 
-#wrapper{
-	width: 940px;
-	margin: 0 auto;
+#content-wrapper {
+    width: 940px;
+    margin: 0 auto;
 }
 
 #masthead{
