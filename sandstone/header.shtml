@@ -17,13 +17,13 @@
         </form>
       </div>
       <ul class="header-menu">
-        <li class="header-menu-item current"><a href="/dl">下載</a></li>
-        <li class="header-menu-item"><a href="http://forum.moztw.org/">討論區</a></li>
-        <li class="header-menu-item"><a href="/events">活動</a></li>
-        <li class="header-menu-item"><a href="http://wiki.moztw.org/">共筆系統</a></li>
-        <li class="header-menu-item"><a href="http://planet.moztw.org/">摩茲工寮</a></li>
-        <li class="header-menu-item"><a href="/contribute">參與我們</a></li>
-        <li class="header-menu-item"><a href="/about">關於本站</a></li>
+        <li id="header-menu-dl" class="header-menu-item"><a href="/dl">下載</a></li>
+        <li id="header-menu-forum" class="header-menu-item"><a href="http://forum.moztw.org/">討論區</a></li>
+        <li id="header-menu-events" class="header-menu-item"><a href="/events">活動</a></li>
+        <li id="header-menu-wiki" class="header-menu-item"><a href="http://wiki.moztw.org/">共筆系統</a></li>
+        <li id="header-menu-planet" class="header-menu-item"><a href="http://planet.moztw.org/">摩茲工寮</a></li>
+        <li id="header-menu-contribute" class="header-menu-item"><a href="/contribute">參與我們</a></li>
+        <li id="header-menu-about" class="header-menu-item"><a href="/about">關於本站</a></li>
       </ul>
     </div>
   </header>

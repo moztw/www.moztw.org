@@ -18,6 +18,7 @@ a img{border:none}
 .block{margin-top:40px}
 .large{font-size:72px;letter-spacing:-3px;line-height:100%}
 .small{font-size:12px;line-height:100%}
+.sectionProducts .header-menu-item#header-menu-dl,.sectionEvents .header-menu-item#header-menu-events,.sectionContribute .header-menu-item#header-menu-contribute,.sectionAbout .header-menu-item#header-menu-about,
 .background,#header,.header-menu-item.current,.header-menu-item.current:hover,.header-search-form-background,body{background-color:#f6f4ec;background-image:url("../images/grain.png")}
 .border-right,.header-site-title{border-right:1px rgba(0,0,0,0.1) solid;-webkit-box-shadow:1px 0 1px rgba(255,255,255,0.3);box-shadow:1px 0 1px rgba(255,255,255,0.3)}
 .hide{display:none}
