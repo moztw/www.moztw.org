@@ -1,7 +1,5 @@
 @charset 'UTF-8';
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;font-size:100%;vertical-align:baseline}
 body{line-height:1;color:#000;background:#fff}
-ol,ul{list-style:none}
 table{border-collapse:separate;border-spacing:0;vertical-align:middle}
 caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}
 a img{border:none}
@@ -49,7 +47,7 @@ a img{border:none}
 body.margin-left{left:160px}
 #header{border-top:3px #fff solid;background-color:#d7d3c8;font-size:14px;height:36px;line-height:36px;-webkit-box-shadow:inset 0 -1px 1px rgba(0,0,0,0.1);box-shadow:inset 0 -1px 1px rgba(0,0,0,0.1);text-shadow:0 1px 1px #fff,0 -1px 1px rgba(0,0,0,0.3);}
 #header .container{position:relative}
-.header-site-title{font-size:14px;line-height:36px;letter-spacing:1px;display:inline-block;}
+.header-site-title{font-size:14px;line-height:36px;letter-spacing:1px;display:inline-block;margin-top:0}
 .header-site-title a{display:inline-block;padding-right:20px;color:#333}
 .header-highlight{position:absolute;left:0;top:0;width:auto;height:3px;background:#eb7526;font-size:16px}
 .header-menu-btn{display:inline-block;height:36px;padding:0 15px;display:none}
@@ -173,3 +171,7 @@ ol.list,ol.list ol{list-style:number}
 .os-android .download-button .os_android{display:inline-block}
 .os-windows .download-button .os_windows{display:inline-block}
 .os-mac .download-button .os_osx,.os-osx .download-button .os_osx,display: inline-block,.os-unrecognized .unrecognized-download .download-button .os_androi{display:inline-block}
+.header-menu,.page-home-foxmosa-ul,footer ul{margin:0;padding:0;list-style:none}
+ul.list{margin:0 0 0 20px;padding:0}
+hgroup h1,hgroup h2,.container h1,.container h2,.container h3{margin-top:0}
+.container p{margin:0}

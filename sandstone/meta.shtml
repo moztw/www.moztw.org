@@ -2,20 +2,15 @@
 <html class="os-windows no-js" lang="zh-TW">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/sandstone/css/tabzilla.css"
-    rel="stylesheet" />
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300'
-    rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/sandstone/css/font-awesome.min.css"
-    type="text/css" media="all" />
-  <link rel="stylesheet" href="/sandstone/css/style.css" type="text/css"
-    media="all" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/nomalize.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/tabzilla.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/style.css" />
   <!--[if lt IE 9]>
     <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
   <![endif]-->
-  <script type="text/javascript" src="/sandstone/js/tabzilla.js">
-  </script>
+  <script type="text/javascript" src="/sandstone/js/tabzilla.js"></script>
   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-  <script data-main="/sandstone/js/main.js"
-    src="/sandstone/js/lib/require.js"></script>
+  <script data-main="/sandstone/js/main.js" src="/sandstone/js/lib/require.js"></script>
