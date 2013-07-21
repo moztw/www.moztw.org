@@ -13,7 +13,7 @@
 <link href="style.css" rel="stylesheet" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
 <!--[if IE]>
-    <script src="/js/library/html5shiv.js"></script>
+    <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
 <![endif]--> 
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->

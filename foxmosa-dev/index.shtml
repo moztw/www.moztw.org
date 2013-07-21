@@ -9,7 +9,7 @@
         }
     </style>
     <!--[if lte IE 8]>
-    <script src="//www.mozilla.org/media/js/libs/html5shiv.js"></script>
+    <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
     <![endif]-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     <script src="http://moztw.org/js/library/fancybox2/jquery.fancybox.js"></script>
