@@ -89,6 +89,8 @@ h2{font-size:32px;letter-spacing:-1px;line-height:100%}
 h3{font-size:28px;letter-spacing:-.5px;line-height:100%}
 h4{font-size:24px;letter-spacing:-.25px;line-height:100%}
 a{text-decoration:none;color:#0095dd}
+a:hover{color:#007bb7}
+a:active{color:#005984}
 input,textarea{border:none;outline:none;background:none;font-size:14px;font-family:'Open Sans',sans-serif;line-height:20px;color:#333}
 @media screen and (max-width: 940px){#main-feature{display:block !important}
 .container{width:auto;padding:0 20px}
