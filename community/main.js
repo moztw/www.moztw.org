@@ -51,7 +51,7 @@
 		
 		for (i in thread) {
 			if (thread.hasOwnProperty(i)) {
-				if (counter >= 4) {
+				if (counter >= 10) {
 					break;
 				}
 				counter += 1;
