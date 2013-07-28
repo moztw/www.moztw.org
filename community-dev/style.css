@@ -31,9 +31,15 @@
 }
 
 #video-poster {
-	width: 260px !important;
-	display: block !important;
-	float: right !important;
+	width: 260px;
+    height: 146px;
+	display: block;
+	float: right;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url(images/poster-brand.png) center no-repeat;
+    background-size: 260px 146px;
 }
 
 #video {
@@ -257,13 +263,14 @@
 		float: left;
 		width: 370px;
 	}
-
-	#video-poster {
-		width: 340px !important;
-		display: block !important;
-		float: right !important;
-	}
-
+    
+    #video-poster {
+        width: 340px;
+        height: 191px;
+        float: right;
+        background-size: 340px 191px;
+    }
+    
 	#community .container {
 		width: 780px;
 		-webkit-column-width: 375px;
@@ -311,17 +318,16 @@
 	#key-point > * {
 		width: 100%;
 	}
-
+    
 	#key-point P {
 		margin-top: 10px;
 	}
 	
 	#video-poster {
-		width: 100% !important;
-		display: block !important;
-		float: none !important;
+        float: none;
+        margin: 0 auto;
 	}
-
+    
 	#community .container {
 		width: 100%;
 		-webkit-column-count: 1;
