@@ -81,7 +81,6 @@
 
 .engName {
     font-size: 20px;
-    font-style: italic;
 }
 
 .container.block h2 {
@@ -135,8 +134,33 @@
 	background-size: contain;
 }
 
+#project .left section#foxmosa::before {
+	background: url(images/foxmosa.png) center no-repeat;
+	background-size: contain;
+}
+
+#project .left section#mozlinkszh::before {
+	background: url(images/links.png) center no-repeat;
+	background-size: contain;
+}
+
+#project .left section#gfx::before {
+	background: url(images/gfx-tw.png) center no-repeat;
+	background-size: contain;
+}
+
 #project .left section#mdn::before {
     background: url(../images/new_style/mdn-logo.png) center no-repeat;
+	background-size: contain;
+}
+
+#project .left section#affiliates::before {
+    background: url(images/affiliates.png) center no-repeat;
+	background-size: contain;
+}
+
+#project .left section#l10n::before {
+    background: url(/foxmosa/images/30series/30foxmosa-02.png) center no-repeat;
 	background-size: contain;
 }
 
@@ -192,11 +216,11 @@
 	-ms-column-count: 2;
 	-o-column-count: 2;
 	column-count: 2;
-	-webkit-column-width: 455px;
-	-moz-column-width: 455px;
-	-ms-column-width: 455px;
-	-o-column-width: 455px;
-	column-width: 455px;
+	-webkit-column-width: 430px;
+	-moz-column-width: 430px;
+	-ms-column-width: 430px;
+	-o-column-width: 430px;
+	column-width: 430px;
 	-webkit-column-rule: 0px;
 	-moz-column-rule: 0px;
 	-ms-column-rule: 0px;
@@ -205,7 +229,7 @@
 }
 
 #community .container section {
-	width: 455px;
+	width: 430px;
 	display: inline-block;
 	margin: 0 0 15px;
 	word-wrap: break-word;
@@ -215,7 +239,10 @@
 #community .engName {
     line-height: 30px;
     margin-bottom: 10px;
-    text-align: right;
+}
+
+#community section {
+    padding-bottom: 20px;
 }
 
 .btnfollowus {
