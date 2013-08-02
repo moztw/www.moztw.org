@@ -44,7 +44,7 @@
     background-color: rgba(255, 255, 255, 0.2);
     height: 86px;
     margin-left: -10px;
-    margin-top: -6px;
+    margin-top: -9px;
     padding: 5px 10px 0;
     width: 230px;
 }
@@ -434,6 +434,10 @@ function serverResponseCallback(resultArray) {
     obj.value = resultArray;
 }
 (function ($) {
+if (!window.arphicWebFontApi){
+    $('.mwc-box').addClass('show');
+    return;
+};
 arphicWebFontApi.ready = function() {
     // setup webfont selectors 
     var selectorFontNameArray =
@@ -449,10 +453,6 @@ arphicWebFontApi.ready = function() {
         { selectorName: ".webfont_9", fontName: "文鼎WUD書苑黑體M" },
         { selectorName: ".webfont_10", fontName: "文鼎W顏楷H" }
     ];
-    if (!window.arphicWebFontApi){
-        $('.mwc-box').addClass('show');
-        return;
-    };    
     arphicWebFontApi.loadWebFont(selectorFontNameArray, function() {
         $('.mwc-box').addClass('show');
     });
