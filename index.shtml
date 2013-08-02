@@ -121,8 +121,13 @@
     letter-spacing: 0.1em;
     position: absolute;
     text-shadow: 2px 1px 2px #185199;
-    top: 160px;
+    top: 154px;
     width: 425px;
+    display: none;
+}
+
+#front-feature .mwc-box.show {
+    display: block;
 }
 
 #fox-tail {
@@ -135,30 +140,28 @@
 #front-feature .mwc-box h2 {
     color: #FFFFFF;
     font-family: "Helvetica","Heiti TC","LiHei Pro","微軟正黑體","WenQuanYi - Micro Hei","Arial",sans-serif;
-    font-size: 36px;
-    line-height: 1em;
-    margin-bottom: 0.5em;
-    position: absolute;
-    text-align: justify;
+}
+
+#front-feature .mwc-box h2 .thund-title {
+    font-size: 42px;
+    letter-spacing: 0.1em;
+    line-height: 56px;
 }
 
 #front-feature .mwc-box h2 span {
     display: block;
     font-size: 22px;
-    font-weight: normal;
     line-height: 1.5em;
-    margin-top: 0.5em;
 }
 
 #front-feature .mwc-box .mwc-intro {
-    font-size: 22px;
+    font-size: 26px;
+    letter-spacing: 0.05em;
     line-height: 1.5em;
-    text-align: justify;
-    margin: 0 0 0.5em;
-    padding: 0;
-    position: absolute;
+    margin: 42px 0 0;
     overflow: hidden;
-    letter-spacing: 0.1em;
+    padding: 0;
+    text-align: justify;
 }
 
 #front-feature .mwc-box .mwc-intro .thunder {
@@ -194,7 +197,7 @@
         padding-bottom: 205px;
     }
     #front-feature .mwc-box {
-        bottom: 10px;
+        top: 80px;
         left: 0;
         width: 80%;
     }
@@ -209,6 +212,7 @@
     #front-feature:hover .mwc-box .mwc-intro {
         bottom: 0;
         display: block;
+        font-size: 22px;
         margin-bottom: 0;
         width: 100%;
     }
@@ -258,9 +262,9 @@
 <div class="key-point front-feature" id="front-feature">	
 
   <div class="mwc-box">
-    <h2 class="webfont_10">狐塞雷！<span class="webfont_9">慶祝 Firefox OS 正式上市，<br>週末兩天限定活動。</span></h2>
+    <h2><span class="thund-title webfont_10">狐塞雷！</span><span class="webfont_9">慶祝 Firefox OS 正式上市，<br>週末兩天限定活動。</span></h2>
     <div class="mwc-intro">
-      <p class="webfont_9">立即登錄參加<br>一同在網路上打響<span class="thunder webfont_10">驚狐巨雷！</span></p>
+      <p class="webfont_9">立即登錄參加<br>一同打響驚狐巨雷！</p>
     </div>
   </div>
 
@@ -429,6 +433,8 @@ function serverResponseCallback(resultArray) {
     var obj = getTxtResultObject();
     obj.value = resultArray;
 }
+(function ($) {
+
 arphicWebFontApi.ready = function() {
     // setup webfont selectors 
     var selectorFontNameArray =
@@ -445,10 +451,14 @@ arphicWebFontApi.ready = function() {
         { selectorName: ".webfont_10", fontName: "文鼎W顏楷H" }
     ];
     if (!window.arphicWebFontApi) return;    
-    arphicWebFontApi.loadWebFont(selectorFontNameArray, serverResponseCallback);
+    arphicWebFontApi.loadWebFont(selectorFontNameArray, function() {
+        $('.mwc-box').addClass('show');
+    });
     // if u needn't callback function, you can do this way
     //arphicWebFontApi.loadWebFont(selectorFontNameArray);
 }
+})(jQuery);
+
 </script>
 
 <!--#include virtual="/inc/footer_arphic_webfont.html" -->
