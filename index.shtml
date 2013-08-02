@@ -41,7 +41,7 @@
 }
 
 .front-feature a.fx-link:hover img {
-    background-color: rgba(255, 255, 255, 0.45);
+    background-color: rgba(255, 255, 255, 0.2);
     height: 86px;
     margin-left: -10px;
     margin-top: -6px;
@@ -108,11 +108,6 @@
     background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -o-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
     background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -webkit-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
     border-bottom: none;
-}
-
-.key-point.coscup {
-    background: url("images/pairslogo.jpg") 75% center no-repeat #D3A77D;
-    background-size: auto 100%;
 }
 
 .homepage .download {
@@ -195,49 +190,37 @@
         display: none;
     }
     #front-feature {
-        background-position: bottom 0px;
         background-size: 100%;
-        padding-bottom: 200px;
-        background-repeat: no-repeat;
+        padding-bottom: 205px;
     }
     #front-feature .mwc-box {
+        bottom: 10px;
         left: 0;
-        top: 0;
-        width: 85%;
+        width: 80%;
     }
     #front-feature .mwc-box h2 {
-        font-size: 22px;
-        line-height: 1.5em;
-        -webkit-transition: none;
-        -moz-transition: none;
-        -o-transition: none;
-        -ms-transition: none;
-        transition: none;
+        bottom: 0;
+        font-size: 28px;
     }
-    #front-feature:hover .mwc-box h2 {
-        opacity: 1;
-    }
-    #front-feature .mwc-box .mwc-intro {
-        display: none;
-    }
-    
-    #front-feature.coscup {
-        background-position: center 60%;
-        background-size: 105% auto;
-        padding-bottom: 245px;
+    #front-feature .mwc-box h2 span {
+        white-space: nowrap;
+        font-size: 20px;
+    }    
+    #front-feature:hover .mwc-box .mwc-intro {
+        bottom: 0;
+        display: block;
+        margin-bottom: 0;
+        width: 100%;
     }
     
-    coscup {
-        background-position: 0px 0px !important;
-        background-size: 90% !important;
-        padding-bottom: 200px;
-        background-repeat: no-repeat;
-        background: #78B8D0 !important;
-    }
+    #fox-tail { display: none; }
+
     .front-feature #mobile_link {
+        background-position: right top;
+        background-size: 70%;
         width: 100%;
         height: 100%;
-    }
+    }    
 }
    
 -->
@@ -275,7 +258,7 @@
 <div class="key-point front-feature" id="front-feature">	
 
   <div class="mwc-box">
-    <h2 class="webfont_10">狐哮雷鳴<span class="webfont_9">慶祝 Firefox OS 正式上市，<br>週末兩天限定活動。</span></h2>
+    <h2 class="webfont_10">狐塞雷！<span class="webfont_9">慶祝 Firefox OS 正式上市，<br>週末兩天限定活動。</span></h2>
     <div class="mwc-intro">
       <p class="webfont_9">立即登錄參加<br>一同在網路上打響<span class="thunder webfont_10">驚狐巨雷！</span></p>
     </div>
@@ -285,7 +268,7 @@
   
 
   <div id="feature-content">
-    <h2><a class="fx-link" href="/firefox/"><img src="images/firefox_logo-wordmark-horiz_RGB_480.png" alt="Firefox" height="82" width="220"></a></h2>
+    <h2><a class="fx-link" href="/firefox/"><img src="images/firefox_logo-wordmark-horiz_RGB_480w.png" alt="Firefox" height="82" width="220"></a></h2>
     <div class="download dl-box">
 		<h3><a href="/firefox/" title="最好的瀏覽器"><strong class="downloadText">Firefox 正體中文版</strong></a></h3>
  		<div style='margin-top: 5px;'>
