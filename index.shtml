@@ -36,16 +36,17 @@
     background-color: transparent;
 }
 
-.front-feature a.fx-link:hover img {
-    margin-top: -6px;
-    height: 90px;
-    width: 256px;
-    background-color: rgba(255,255,255,.2);
-    border-radius: 10px;
+.front-feature a.fx-link img {
+    border-radius: 35px;
 }
 
-.front-feature a.fx-link img {
-    border-radius: 10px;
+.front-feature a.fx-link:hover img {
+    background-color: rgba(255, 255, 255, 0.45);
+    height: 86px;
+    margin-left: -10px;
+    margin-top: -6px;
+    padding: 5px 10px 0;
+    width: 230px;
 }
 
 #front-feature .download {
@@ -101,12 +102,12 @@
 }
 
 .key-point {
-    background-color:#0055a0;
-    background-repeat:repeat-x;
-    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat, linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
-    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat, -moz-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
-    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat, -o-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
-    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat, -webkit-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background-color:#05a0dc;
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -moz-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -o-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -webkit-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    border-bottom: none;
 }
 
 .key-point.coscup {
@@ -130,9 +131,9 @@
 }
 
 #fox-tail {
+    bottom: 200px;
     position: absolute;
     right: 268px;
-    top: -62px;
     width: 400px;
 }
 
@@ -276,16 +277,15 @@
   <div class="mwc-box">
     <h2 class="webfont_10">狐哮雷鳴<span class="webfont_9">慶祝 Firefox OS 正式上市，<br>週末兩天限定活動。</span></h2>
     <div class="mwc-intro">
-      <p class="webfont_9">立即打開登錄<br>一同在網路上打響<span class="thunder webfont_10">驚狐巨雷！</span></p>
+      <p class="webfont_9">立即登錄參加<br>一同在網路上打響<span class="thunder webfont_10">驚狐巨雷！</span></p>
     </div>
   </div>
 
   <a id="mobile_link" href="http://bit.ly/moztw-fxos-thunderclap" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'fxos-thunderclap', 'Frontpage']);"></a>
   
-  <img id="fox-tail" src="/images/fox-tail.png">
 
   <div id="feature-content">
-    <h2><a class="fx-link" href="/firefox/"><img src="images/logo-wordmark-mozilla-small.png" alt="Firefox" height="84" width="240"></a></h2>
+    <h2><a class="fx-link" href="/firefox/"><img src="images/firefox_logo-wordmark-horiz_RGB_480.png" alt="Firefox" height="82" width="220"></a></h2>
     <div class="download dl-box">
 		<h3><a href="/firefox/" title="最好的瀏覽器"><strong class="downloadText">Firefox 正體中文版</strong></a></h3>
  		<div style='margin-top: 5px;'>
@@ -301,6 +301,8 @@
         </div>
     </div>
   </div>
+  
+  <img id="fox-tail" src="/images/fox-tail.png">
 </div>
 
 <div id="mBody">
@@ -321,7 +323,7 @@
   	<p>網路發展至今，人人都該具備在網路上創作的能力，Webmaker 計畫以各種簡單有趣的專案，讓大家嘗試混搭網頁、踏出網頁創作的第一步。</p>
   </div>-->
 <div class="frontcolumn">
-  <h2><a href="http://www.mozilla.org/firefox/partners/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'mozilla.org/partner', 'Frontpage']);">Firefox OS<img src="/images/firefox-os-icon1small.png" alt=""  class="promo" style="width: 89px; height: 72px;"></a></h2>
+  <h2><a href="http://mozilla.com.tw/firefox/os/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'mozilla.org/partner', 'Frontpage']);">Firefox OS<img src="/images/Pocketfox.png" alt=""  class="promo" style="width: 72px; height: 72px;"></a></h2>
   <p>完全使用 HTML5 與開放網路標準打造的開放行動平台，將帶領次世代數十億使用者連結網路。</p>
 </div>
 
