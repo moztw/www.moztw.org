@@ -434,7 +434,6 @@ function serverResponseCallback(resultArray) {
     obj.value = resultArray;
 }
 (function ($) {
-
 arphicWebFontApi.ready = function() {
     // setup webfont selectors 
     var selectorFontNameArray =
@@ -450,7 +449,10 @@ arphicWebFontApi.ready = function() {
         { selectorName: ".webfont_9", fontName: "文鼎WUD書苑黑體M" },
         { selectorName: ".webfont_10", fontName: "文鼎W顏楷H" }
     ];
-    if (!window.arphicWebFontApi) return;    
+    if (!window.arphicWebFontApi){
+        $('.mwc-box').addClass('show');
+        return;
+    };    
     arphicWebFontApi.loadWebFont(selectorFontNameArray, function() {
         $('.mwc-box').addClass('show');
     });
