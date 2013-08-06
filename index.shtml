@@ -13,19 +13,16 @@
 }
 
 .front-feature #mobile_link {
-    background: url("/images/fox.png") no-repeat scroll right bottom transparent;
+    background: url("/images/firefox_mobile14_trans.png") no-repeat scroll left bottom transparent;
+    bottom: -25px;
     display: block;
+    height: 100%;
+    padding-top: 25px;
     position: absolute;
     right: 0;
-    top: 0;
+    text-decoration: none;
     width: 595px;
-    height: 100%;
-    z-index: 200;
-    text-decoration: none;
-}
-
-.front-feature #mobile_link:hover, .front-feature #mobile_link:visited {
-    text-decoration: none;
+    z-index: 0;
 }
 
 #feature-content h2 {
@@ -114,117 +111,23 @@
     width: 250px;
 }
 
-
-#front-feature .mwc-box {
-    color: #FFFFFF;
-    left: 350px;
-    letter-spacing: 0.1em;
-    position: absolute;
-    text-shadow: 2px 1px 2px #185199;
-    top: 154px;
-    width: 425px;
-    display: none;
-}
-
-#front-feature .mwc-box.show {
-    display: block;
-}
-
-#fox-tail {
-    bottom: 200px;
-    position: absolute;
-    right: 268px;
-    width: 400px;
-}
-
-#front-feature .mwc-box h2 {
-    color: #FFFFFF;
-    font-family: "Helvetica","Heiti TC","LiHei Pro","微軟正黑體","WenQuanYi - Micro Hei","Arial",sans-serif;
-}
-
-#front-feature .mwc-box h2 .thund-title {
-    font-size: 42px;
-    letter-spacing: 0.1em;
-    line-height: 56px;
-}
-
-#front-feature .mwc-box h2 span {
-    display: block;
-    font-size: 22px;
-    line-height: 1.5em;
-}
-
-#front-feature .mwc-box .mwc-intro {
-    font-size: 26px;
-    letter-spacing: 0.05em;
-    line-height: 1.5em;
-    margin: 42px 0 0;
-    overflow: hidden;
-    padding: 0;
-    text-align: justify;
-}
-
-#front-feature .mwc-box .mwc-intro .thunder {
-    font-size: 36px;
-    display: block;
-    margin-top: 0.3em;
-    margin-left: 1em;
-    font-style: italic;
-    letter-spacing: 0.3em;
-}
-
-/* Switch at hover */
-.mwc-intro {
-    display: none;
-}
-.mwc-box h2 {
-    display: block;
-}
-#front-feature:hover .mwc-box h2 {
-    display: none;
-}
-#front-feature:hover .mwc-box .mwc-intro {
-    display: block;
-}
-
-
 @media only screen and (max-width : 500px) {
     #front-feature #feature-content {
         display: none;
     }
     #front-feature {
-        background-size: 100%;
-        padding-bottom: 205px;
+        background-position: right center;
+        background-size: auto 150%;
+        padding-bottom: 240px;
     }
-    #front-feature .mwc-box {
-        top: 80px;
-        left: 0;
-        width: 80%;
-    }
-    #front-feature .mwc-box h2 {
-        bottom: 0;
-        font-size: 28px;
-    }
-    #front-feature .mwc-box h2 span {
-        white-space: nowrap;
-        font-size: 20px;
-    }    
-    #front-feature:hover .mwc-box .mwc-intro {
-        bottom: 0;
-        display: block;
-        font-size: 22px;
-        margin-bottom: 0;
-        width: 100%;
-    }
-    
-    #fox-tail { display: none; }
-
     .front-feature #mobile_link {
-        background-position: right top;
-        background-size: 70%;
-        width: 100%;
+        background-position: right bottom;
+        background-size: auto 95%;
         height: 100%;
-    }    
+        padding-top: 0;
+        right: -75px;
+        top: 0;
+    }
 }
    
 -->
@@ -247,10 +150,6 @@
 .front-feature #mobile_link {
     height: 330px;
     width: 70%;
-    z-index: 130;
-}
-#front-feature .mwc-box .mwc-intro {
-    display: none;
 }
 </style>
 <![endif]-->
@@ -260,17 +159,7 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">	
-
-  <div class="mwc-box">
-    <h2><span class="thund-title webfont_10">狐塞雷！</span><span class="webfont_9">慶祝 Firefox OS 正式上市，<br>週末兩天限定活動。</span></h2>
-    <div class="mwc-intro">
-      <p class="webfont_9">立即登錄參加<br>一同打響驚狐巨雷！</p>
-    </div>
-  </div>
-
-  <a id="mobile_link" href="http://bit.ly/moztw-fxos-thunderclap" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'fxos-thunderclap', 'Frontpage']);"></a>
-  
-
+  <a id="mobile_link" href="/mobile/"></a>
   <div id="feature-content">
     <h2><a class="fx-link" href="/firefox/"><img src="images/firefox_logo-wordmark-horiz_RGB_480w.png" alt="Firefox" height="82" width="220"></a></h2>
     <div class="download dl-box">
@@ -288,8 +177,6 @@
         </div>
     </div>
   </div>
-  
-  <img id="fox-tail" src="/images/fox-tail.png">
 </div>
 
 <div id="mBody">
