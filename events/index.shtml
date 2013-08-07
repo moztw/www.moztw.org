@@ -103,7 +103,7 @@ jQuery(function($){
 			</a>
 
 			<div class="group">
-        			<a href="https://www.thunderclap.it/projects/3405-firefox-os" title="Firefox OS Thunderclap 兩日限定活動" id="nctuserv2012">
+        			<a href="https://www.thunderclap.it/projects/3405-firefox-os" title="Firefox OS Thunderclap 兩日限定活動" id="nctuserv2012" target="_blank">
         			<article class="small">
         			    <header>
         			        <h2>狐塞雷—慶祝Firefox OS正式上市</h2>
