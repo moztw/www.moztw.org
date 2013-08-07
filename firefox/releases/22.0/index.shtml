@@ -268,10 +268,6 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-changed">變更</span>
-                        <h5>改善<a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=716140%2C689623%2C661304">描繪圖片</a>時的記憶體用量與顯示時間。</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-changed">變更</span>
                         <h5>即使不在全螢幕中，仍可使用 Pointer Lock API。</h5>
                       </li>
                       <li>
@@ -297,6 +293,10 @@ section .appendix {
                       <li>
                         <span class="tag tag-fixed">修正</span>
                         <h5>部分支援高解析度捲動的觸控板，捲動時會感到遲鈍（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=829952">bug 829952</a>）。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全性修正</a>。</h5>
                       </li>
 
                       <li class="complete">
