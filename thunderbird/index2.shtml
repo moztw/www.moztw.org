@@ -11,6 +11,23 @@
    padding-left: 177px;
    padding-top: 47px;
 }
+.download {
+   position:relative;
+   background-color: #C4EFA1;
+   padding: 15px 45px 15px 15px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   border-bottom:1px solid #AED48F;
+   border-right:1px solid #B6DE96;
+}
+.download > h3 {
+   color: #1D9101;
+   font-weight: bold;
+   margin: 0;
+   font-size: 140%;
+}
+
 .right {
    float: right;
    margin-left: 75px;
@@ -36,7 +53,7 @@ div[class^=grid-] > p {
                <p>Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
              </div>
          </div>
-         <div class="grid-5">
+         <div class="grid-4">
             <div class="download">
                 <h3>免費下載 Thunderbird</h3><!--#include virtual="/inc/dltb.html" -->
             </div>
