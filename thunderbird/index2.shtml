@@ -11,6 +11,17 @@
    padding-left: 177px;
    padding-top: 47px;
 }
+.download:before {
+   height: 50px;
+   width: 50px;
+   display: block;
+   border: none;
+   position:absolute;
+   top:-3px;
+   right:0px;
+   background: transparent url("../../images/download_back_arrow.png") top right no-repeat;
+   content: '';
+}
 .download {
    position:relative;
    background-color: #C4EFA1;
