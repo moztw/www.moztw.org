@@ -11,6 +11,10 @@
    padding-left: 177px;
    padding-top: 47px;
 }
+.key-point {
+   padding: 15px 15px;
+   height: auto;
+}
 .download:before {
    height: 50px;
    width: 50px;
