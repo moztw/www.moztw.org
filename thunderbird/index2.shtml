@@ -8,8 +8,8 @@
 	padding: 40px 0 60px;
 }
 #product-desc.product-thunderbird p {
-	padding-left:177px;
-	padding-top:7px;
+	padding-left: 177px;
+	padding-top: 47px;
 }
 .right {
    float: right;
