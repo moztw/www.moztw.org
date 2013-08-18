@@ -1,0 +1,251 @@
+<!--#include virtual="/inc/meta.html" -->
+
+<title>2013 年第二學期服務學習成果總覽 - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="2013 年第二學期，MozTW 參與 OSSACC 教育部校園自由軟體數位資源推廣服務中心服務學習專案，共計 14 位交通大學資訊工程學系和 6 位中央大學數學系學生貢獻個人專長進行在地化，內容涵蓋 Mozilla 開發者文件、技術支援文件、Mozilla Links 以及影片字幕等工作。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="//moztw.org/events/service2013/">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="2013 年第二學期，MozTW 參與 OSSACC 教育部校園自由軟體數位資源推廣服務中心服務學習專案，共計 14 位交通大學資訊工程學系和 6 位中央大學數學系學生貢獻個人專長進行在地化，內容涵蓋 Mozilla 開發者文件、技術支援文件、Mozilla Links 以及影片字幕等工作。">
+<link href="style.css" rel="stylesheet" />
+<body>
+<!--#include virtual="/inc/header.html" -->
+
+  <h1>2013 年第二學期服務學習成果總覽</h1>
+
+  <div id="main" class="container">
+
+    <section id="introduction">
+      <h2>簡介</h2>
+      <p>2013 年第二學期，MozTW 參與 <a href="//ossacc.moe.edu.tw/">OSSACC 教育部校園自由軟體數位資源推廣服務中心</a>服務學習專案，<br>共計 14 位交通大學資訊工程學系和 6 位中央大學數學系學生貢獻個人專長進行在地化，<br>內容涵蓋 Mozilla 開發者文件、技術支援文件、Mozilla Links 以及影片字幕等工作。<br>在此將所有同學的成果彙整，感謝大家對 Mozilla 社群的貢獻。</p>
+    </section>
+
+    <section id="video">
+      <h2>影片字幕</h2>
+
+      <h3>Firefox Marketplace 夥伴：Evernote<span class="appendix">蘇士傑</span></h3>
+      <div class="video">
+          <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+          (
+            {
+                "base_state": {"language": "zh-tw"},
+                "video_url": "https://www.youtube.com/watch?v=0nN-hJzbJYY",
+                "alternate_video_urls": ["https://www.youtube.com/watch?v=qf0SNKwZ_SY"],
+                "video_config": { width: 640, height: 360 }
+            }
+          )
+          </script>
+      </div>
+
+      <h3>Firefox Marketplace 夥伴：box<span class="appendix">張峯銘</span></h3>
+      <div class="video">
+        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        (
+          {
+              "base_state": {"language": "zh-tw"},
+              "video_url": "https://www.youtube.com/watch?v=Rrc4FlEGFSQ",
+              "alternate_video_urls": ["https://www.youtube.com/watch?v=zr6NA_O8E3Q"],
+              "video_config": { width: 640, height: 360 }
+          }
+        )
+        </script>
+      </div>
+
+      <h3>網路無障礙 @ Mozilla：簡介<span class="appendix">陳炫樺</span></h3>
+      <div class="video">
+        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        (
+          {
+              "base_state": {"language": "zh-tw"},
+              "video_url": "https://www.youtube.com/watch?v=WgnVuO_oqqw",
+              "alternate_video_urls": ["https://www.youtube.com/watch?v=GmnHY6vNeQM"],
+              "video_config": { width: 640, height: 360 }
+          }
+        )
+        </script>
+      </div>
+
+      <h3>Firefox OS 展示<span class="appendix">薛煜霖、周鼎鈞、黃思誼</span></h3>
+      <div class="video">
+        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        (
+          {
+              "base_state": {"language": "zh-tw"},
+              "video_url": "https://www.youtube.com/watch?v=Sb2XMQ3_EnQ",
+              "alternate_video_urls": ["https://www.youtube.com/watch?v=-9vktI70iHc"],
+              "video_config": { width: 640, height: 360 }
+          }
+        )
+        </script>
+      </div>
+
+      <h3>History Of Mozilla By Mitchell Baker<span class="appendix">胡乃元、宋俊德、余睿洋、吳長恩﻿、陳學呈</span></h3>
+      <p>胡乃元、宋俊德和余睿洋同學完成 10 - 15 分</small></p>
+      <p>吳長恩﻿同學完成 15 - 20 分，陳學呈同學完成 20 - 25 分</p>
+      <div class="video">
+        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        (
+          {
+              "base_state": {"language": "zh-tw"},
+              "video_url": "https://www.youtube.com/watch?v=UDFVBleAC-E",
+              "video_config": { width: 640, height: 360 }
+          }
+        )
+        </script>
+      </div>
+
+      <h3>參與 Mozilla - 小技巧<span class="appendix">趙守恩</span></h3>
+      <div class="video">
+        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        (
+          {
+              "base_state": {"language": "zh-tw"},
+              "video_url": "https://www.youtube.com/watch?v=82ikiF6NQR4",
+              "alternate_video_urls": ["https://www.youtube.com/watch?v=zp-M73Cju7g"],
+              "video_config": { width: 640, height: 360 }
+          }
+        )
+        </script>
+      </div>
+
+      <h3>Who's tracking you online? Find out with Mozilla's Collusion<span class="appendix">李宜霖</span></h3>
+      <p>英文字幕</p>
+      <div class="video">
+        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        (
+          {
+              "base_state": {"language": "en-US"},
+              "video_url": "https://www.youtube.com/watch?v=_ckCpKeAHMk",
+              "video_config": { width: 640, height: 360 }
+          }
+        )
+        </script>
+      </div>
+
+      <h3>Firefox Developer Command Line<span class="appendix">李宜霖</span></h3>
+      <p>英文字幕</p>
+      <div class="video">
+        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        (
+          {
+              "base_state": {"language": "en-US"},
+              "video_url": "https://www.youtube.com/watch?v=YwOwJ1_JaKE",
+              "video_config": { width: 640, height: 360 }
+          }
+        )
+        </script>
+      </div>
+
+      <h3>Firefox 分頁群組<span class="appendix">吳柏諺</span></h3>
+      <div class="video">
+        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        (
+          {
+              "base_state": {"language": "zh-tw"},
+              "video_url": "https://www.youtube.com/watch?v=DnD44Yy_wUY",
+              "alternate_video_urls": ["https://www.youtube.com/watch?v=5r0TQJ-gGi0"],
+              "video_config": { width: 640, height: 360 }
+          }
+        )
+        </script>
+      </div>
+
+      <h3>Firefox 的用戶研究 — 來自 Test Pilot 團隊的 Jinghua 與 Jono<span class="appendix">吳柏諺</span></h3>
+      <div class="video">
+        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        (
+          {
+              "base_state": {"language": "zh-tw"},
+              "video_url": "https://www.youtube.com/watch?v=USOnllevhOo",
+              "alternate_video_urls": ["https://vimeo.com/12373225"],
+              "video_config": { width: 640, height: 360 }
+          }
+        )
+        </script>
+      </div>
+
+      <h3>Firefox Flicks 2013<span class="appendix">吳柏諺</span></h3>
+      <div class="video">
+        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        (
+          {
+              "base_state": {"language": "zh-tw"},
+              "video_url": "https://www.youtube.com/watch?v=pgmiM3g5xCw",
+              "alternate_video_urls": ["https://vimeo.com/57743653"],
+              "video_config": { width: 640, height: 360 }
+          }
+        )
+        </script>
+      </div>
+
+      <h3>Firefox 隱私瀏覽視窗<span class="appendix">吳柏諺</span></h3>
+      <div class="video">
+        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        (
+          {
+              "base_state": {"language": "zh-tw"},
+              "video_url": "https://www.youtube.com/watch?v=F7wMMvOLi30",
+              "alternate_video_urls": ["https://www.youtube.com/watch?v=7EQHYcs8sl0"],
+              "video_config": { width: 640, height: 360 }
+          }
+        )
+        </script>
+      </div>
+
+      <h3>Mozilla 貢獻者群像: Chit Thiri Maung<span class="appendix">吳柏諺</span></h3>
+      <div class="video">
+        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        (
+          {
+              "base_state": {"language": "zh-tw"},
+              "video_url": "//videos-cdn.mozilla.net/serv/drafts/Contributorstory1.webm",
+              "alternate_video_urls": ["https://www.youtube.com/watch?v=7vhPZ5FujYw"],
+              "video_config": { width: 640, height: 360 }
+          }
+        )
+        </script>
+      </div>
+    </section>
+
+    <section id="mdn">
+      <h2>Mozilla 開發者社群技術文件</h2>
+      <p>吳昱緯、黃士倫、黃大維</p>
+            <ul>
+                <li><a href="//developer.mozilla.org/zh-TW/docs/Web/HTML">HTML</a></li>
+                <li><a href="//developer.mozilla.org/zh-TW/docs/HTML/Introduction">Introduction to HTML</a></li>
+                <li><a href="//developer.mozilla.org/zh-TW/docs/HTML/Element/HTML_%E5%85%83%E7%B4%A0">HTML 元素</a></li>
+                <li><a href="//developer.mozilla.org/zh-TW/docs/Web_%E9%96%8B%E7%99%BC/Historical_artifacts_to_avoid">應該避免的過時語法</a></li>
+            </ul>
+    </section>
+
+    <section id="links">
+      <h2>Mozilla Links</h2>
+      <p>吳嘉銘、張立函</p>
+            <ul>
+                <li><a href="//mozlinks-zh.blogspot.com/2013/03/firefox.html">Firefox 小秘笈：三種方法讓 Firefox 保持頭好壯壯</a></li>
+                <li><a href="//mozlinks-zh.blogspot.com/2013/04/mozilla.html">說你的語言—親切內行的 Mozilla 在地化</a></li>
+                <li><a href="//mozlinks-zh.blogspot.com/2013/06/mozillafirefox.html">認識 Mozilla：Firefox 成長實錄</a></li>
+                <li><a href="//mozlinks-zh.blogspot.com/2013/06/blog-post.html">開放網路有什麼重要？</a></li>
+            </ul>
+    </section>
+
+    <section id="sumo">
+      <h2>Firefox 技術支援文件</h2>
+        <ul>
+          <li><a href="//support.mozilla.org/zh-TW/kb/firefox-hangs-or-not-responding">Firefox 當掉或停止回應 - 如何修理</a><span class="appendix">趙守恩</span></li>
+          <li><a href="//support.mozilla.org/zh-TW/kb/how-do-i-share-firefox-between-people-on-computer">我要如何在一台電腦裡與人分享 Firefox ?</a><span class="appendix">陳靖云</span></li>
+          <li><a href="//support.mozilla.org/zh-TW/kb/Username%20and%20password%20not%20remembered">更新：用戶名稱和密碼沒被記住</a><span class="appendix">陳靖云</span></li>
+          <li><a href="//support.mozilla.org/zh-TW/kb/firefox-default-home-page-has-links-to-features">更新：Firefox 預設的首頁包含常用功能的連結</a><span class="appendix">陳靖云</span></li>
+        </ul>
+    </section>
+
+    <section id="sponsership">
+      <h2>合作單位</h2>
+      <a title="OSSACC 教育部校園自由軟體數位資源推廣服務中心" href="//ossacc.moe.edu.tw/">
+          <img src="logo.gif" alt="">
+          <img src="logo2.gif" alt="">
+      </a>
+    </section>
+
+  </div>
+
+<!--#include virtual="/inc/footer.html" -->
