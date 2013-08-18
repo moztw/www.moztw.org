@@ -28,25 +28,25 @@ div[class^=grid-] > p {
 <!--#include virtual="/sandstone/header.shtml" -->
 
 <section class="container block">
-<div class="key-point">
-	<div class="grids">
-		<div class="grid-8">
-			 <div id="product-desc" class="product-thunderbird">
-				<h2 class="block-title hide">Thunderbird: 以你為本的郵件體驗，讓收發電子郵件變得更簡單</h2>
-				<p>Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
-			 </div>
-		</div>
-		<div class="grid-4">
-			<div class="download">
-				 <h3>免費下載 Thunderbird</h3><!--#include virtual="/inc/dltb.html" -->
-			</div>
-			<ul>
-				 <li><a href="system-requirements/">系統需求</a></li>
-				 <li><a href="releases/">版本資訊</a></li>
-			</ul>
-		</div>
-	</div>
-</div>
+   <div class="key-point">
+      <div class="grids">
+         <div class="grid-8">
+             <div id="product-desc" class="product-thunderbird">
+               <h2 class="block-title hide">Thunderbird: 以你為本的郵件體驗，讓收發電子郵件變得更簡單</h2>
+               <p>Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
+             </div>
+         </div>
+         <div class="grid-4">
+            <div class="download">
+                <h3>免費下載 Thunderbird</h3><!--#include virtual="/inc/dltb.html" -->
+            </div>
+            <ul>
+                <li><a href="system-requirements/">系統需求</a></li>
+                <li><a href="releases/">版本資訊</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
 </section>
 
 <section class="container block">
