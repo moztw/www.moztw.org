@@ -12,7 +12,7 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
 }
 
-.front-feature #mobile_link {
+/*.front-feature #mobile_link {
     background: url("/images/firefox_mobile14_trans.png") no-repeat scroll left bottom transparent;
     bottom: -25px;
     display: block;
@@ -23,6 +23,52 @@
     text-decoration: none;
     width: 595px;
     z-index: 0;
+}*/
+
+/*Firefox Flicks 橫幅*/
+.front-feature #flicks_link {
+    position: absolute;
+    display: block;
+    height: 100%;
+    padding-top: 180px;
+    right: 100px;
+    text-decoration: none;
+    width: 430px;
+    z-index: 0;
+}
+.front-feature #flicks_link h2 {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.05;
+    margin: 0 0 4px;
+    text-shadow: 1px 3px 3px black;
+    letter-spacing: -0.25px;
+}
+.front-feature #flicks_link p {
+    color: #FF592C;
+    font-size: 18px;
+    text-shadow: none;
+    text-shadow: 1px 3px 3px black;
+}
+.front-feature #flicks_link p.act {
+    position: absolute;
+    right: -80px;
+    bottom: 220px;
+}
+.front-feature #flicks_link a.go {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    
+    border: 1px white solid;
+    background-color: #1F9EE5;
+    padding: 5px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px white;
+}
+.front-feature #flicks_link a.go:hover {
+    background-color: #20AEF5;
 }
 
 #feature-content h2 {
@@ -98,12 +144,20 @@
 	height: 64px;
 }
 
-.key-point {
+/*.key-point {
     background-color:#05a0dc;
     background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
     background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -moz-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
     background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -o-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
     background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -webkit-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    border-bottom: none;
+}*/
+.key-point {
+    background-color:#202020;
+    background: url("https://firefoxflicks.mozilla.org/static/img/home/promo-backdrop-vote.jpg") repeat 0px -10px, linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("https://firefoxflicks.mozilla.org/static/img/home/promo-backdrop-vote.jpg") repeat 0px -10px, -moz-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("https://firefoxflicks.mozilla.org/static/img/home/promo-backdrop-vote.jpg") repeat 0px -10px, -o-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("https://firefoxflicks.mozilla.org/static/img/home/promo-backdrop-vote.jpg") repeat 0px -10px, -webkit-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
     border-bottom: none;
 }
 
@@ -118,15 +172,32 @@
     #front-feature {
         background-position: right center;
         background-size: auto 150%;
-        padding-bottom: 240px;
+        padding-bottom: inherit;
     }
-    .front-feature #mobile_link {
+    /*.front-feature #mobile_link {
         background-position: right bottom;
         background-size: auto 95%;
         height: 100%;
         padding-top: 0;
         right: -75px;
         top: 0;
+    }*/
+    .front-feature #flicks_link {
+        position: static;
+        padding-top: 6rem;
+        height: inherit;
+        width: inherit;
+    }
+    .front-feature #flicks_link h2 {
+        font-size: 2rem;
+        line-height: 1.05;
+        letter-spacing: -0.25px;
+    }
+    .front-feature #flicks_link p {
+        font-size: 1rem;
+    }
+    .front-feature #flicks_link p.act {
+        position: static;
     }
 }
    
@@ -159,7 +230,14 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">	
-  <a id="mobile_link" href="/mobile/"></a>
+  <!--<a id="mobile_link" href="/mobile/"></a>-->
+  <div id="flicks_link">
+	<h2>選擇您最愛的短片</h2>
+	<p> 8 月 31 日是票選 People's Choice Awards 的最後期限，別讓機會跑走了。 </p>
+	<p class="act">
+		<a class="go" href="https://firefoxflicks.mozilla.org/zh-TW/video/">立即投票</a>
+	</p>
+  </div>
   <div id="feature-content">
     <h2><a class="fx-link" href="/firefox/"><img src="images/firefox_logo-wordmark-horiz_RGB_480w.png" alt="Firefox" height="82" width="220"></a></h2>
     <div class="download dl-box">
