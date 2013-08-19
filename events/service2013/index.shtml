@@ -7,7 +7,8 @@
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="101 學年度第二學期，MozTW 參與 OSSACC 教育部校園自由軟體數位資源推廣服務中心服務學習專案，共計 14 位交通大學資訊工程學系和 6 位中央大學數學系學生貢獻個人專長進行在地化，內容涵蓋 Mozilla 開發者文件、技術支援文件、Mozilla Links 以及影片字幕等工作。">
 <link href="style.css" rel="stylesheet" />
-<body>
+
+<!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
   <h1>101 學年度第二學期服務學習成果總覽</h1>
@@ -74,9 +75,9 @@
         </script>
       </div>
 
-      <h3>History Of Mozilla By Mitchell Baker<span class="appendix">胡乃元、宋俊德、余睿洋、吳長恩﻿、陳學呈</span></h3>
-      <p>胡乃元、宋俊德和余睿洋同學完成 10 - 15 分</small></p>
-      <p>吳長恩﻿同學完成 15 - 20 分，陳學呈同學完成 20 - 25 分</p>
+      <h3>History Of Mozilla By Mitchell Baker<span class="appendix">胡乃元、宋俊德、余睿洋、吳長恩、陳學呈</span></h3>
+      <p>胡乃元、宋俊德和余睿洋同學完成 10 - 15 分</p>
+      <p>吳長恩同學完成 15 - 20 分，陳學呈同學完成 20 - 25 分</p>
       <div class="video">
         <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
         (
