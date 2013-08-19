@@ -1,22 +1,22 @@
 <!--#include virtual="/inc/meta.html" -->
 
-<title>2013 年第二學期服務學習成果總覽 - MozTW, Mozilla Taiwan Community</title>
-<meta name="description" content="2013 年第二學期，MozTW 參與 OSSACC 教育部校園自由軟體數位資源推廣服務中心服務學習專案，共計 14 位交通大學資訊工程學系和 6 位中央大學數學系學生貢獻個人專長進行在地化，內容涵蓋 Mozilla 開發者文件、技術支援文件、Mozilla Links 以及影片字幕等工作。">
+<title>101 學年度第二學期服務學習成果總覽 - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="101 學年度第二學期，MozTW 參與 OSSACC 教育部校園自由軟體數位資源推廣服務中心服務學習專案，共計 14 位交通大學資訊工程學系和 6 位中央大學數學系學生貢獻個人專長進行在地化，內容涵蓋 Mozilla 開發者文件、技術支援文件、Mozilla Links 以及影片字幕等工作。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="//moztw.org/events/service2013/">
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
-<meta property="og:description" content="2013 年第二學期，MozTW 參與 OSSACC 教育部校園自由軟體數位資源推廣服務中心服務學習專案，共計 14 位交通大學資訊工程學系和 6 位中央大學數學系學生貢獻個人專長進行在地化，內容涵蓋 Mozilla 開發者文件、技術支援文件、Mozilla Links 以及影片字幕等工作。">
+<meta property="og:description" content="101 學年度第二學期，MozTW 參與 OSSACC 教育部校園自由軟體數位資源推廣服務中心服務學習專案，共計 14 位交通大學資訊工程學系和 6 位中央大學數學系學生貢獻個人專長進行在地化，內容涵蓋 Mozilla 開發者文件、技術支援文件、Mozilla Links 以及影片字幕等工作。">
 <link href="style.css" rel="stylesheet" />
 <body>
 <!--#include virtual="/inc/header.html" -->
 
-  <h1>2013 年第二學期服務學習成果總覽</h1>
+  <h1>101 學年度第二學期服務學習成果總覽</h1>
 
   <div id="main" class="container">
 
     <section id="introduction">
       <h2>簡介</h2>
-      <p>2013 年第二學期，MozTW 參與 <a href="//ossacc.moe.edu.tw/">OSSACC 教育部校園自由軟體數位資源推廣服務中心</a>服務學習專案，<br>共計 14 位交通大學資訊工程學系和 6 位中央大學數學系學生貢獻個人專長進行在地化，<br>內容涵蓋 Mozilla 開發者文件、技術支援文件、Mozilla Links 以及影片字幕等工作。<br>在此將所有同學的成果彙整，感謝大家對 Mozilla 社群的貢獻。</p>
+      <p>101 學年度第二學期，MozTW 參與 <a href="//ossacc.moe.edu.tw/">OSSACC 教育部校園自由軟體數位資源推廣服務中心</a>服務學習專案，<br>共計 14 位交通大學資訊工程學系和 6 位中央大學數學系學生貢獻個人專長進行在地化，<br>內容涵蓋 Mozilla 開發者文件、技術支援文件、Mozilla Links 以及影片字幕等工作。<br>在此將所有同學的成果彙整，感謝大家對 Mozilla 社群的貢獻。</p>
     </section>
 
     <section id="video">
@@ -28,8 +28,7 @@
           (
             {
                 "base_state": {"language": "zh-tw"},
-                "video_url": "https://www.youtube.com/watch?v=0nN-hJzbJYY",
-                "alternate_video_urls": ["https://www.youtube.com/watch?v=qf0SNKwZ_SY"],
+                "video_url": "https://www.youtube.com/watch?v=qf0SNKwZ_SY",
                 "video_config": { width: 640, height: 360 }
             }
           )
@@ -42,8 +41,7 @@
         (
           {
               "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=Rrc4FlEGFSQ",
-              "alternate_video_urls": ["https://www.youtube.com/watch?v=zr6NA_O8E3Q"],
+              "video_url": "https://www.youtube.com/watch?v=zr6NA_O8E3Q",
               "video_config": { width: 640, height: 360 }
           }
         )
@@ -56,8 +54,7 @@
         (
           {
               "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=WgnVuO_oqqw",
-              "alternate_video_urls": ["https://www.youtube.com/watch?v=GmnHY6vNeQM"],
+              "video_url": "https://www.youtube.com/watch?v=GmnHY6vNeQM",
               "video_config": { width: 640, height: 360 }
           }
         )
@@ -70,8 +67,7 @@
         (
           {
               "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=Sb2XMQ3_EnQ",
-              "alternate_video_urls": ["https://www.youtube.com/watch?v=-9vktI70iHc"],
+              "video_url": "https://www.youtube.com/watch?v=-9vktI70iHc",
               "video_config": { width: 640, height: 360 }
           }
         )
@@ -99,8 +95,7 @@
         (
           {
               "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=82ikiF6NQR4",
-              "alternate_video_urls": ["https://www.youtube.com/watch?v=zp-M73Cju7g"],
+              "video_url": "https://www.youtube.com/watch?v=zp-M73Cju7g",
               "video_config": { width: 640, height: 360 }
           }
         )
@@ -141,8 +136,7 @@
         (
           {
               "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=DnD44Yy_wUY",
-              "alternate_video_urls": ["https://www.youtube.com/watch?v=5r0TQJ-gGi0"],
+              "video_url": "https://www.youtube.com/watch?v=5r0TQJ-gGi0",
               "video_config": { width: 640, height: 360 }
           }
         )
@@ -155,8 +149,7 @@
         (
           {
               "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=USOnllevhOo",
-              "alternate_video_urls": ["https://vimeo.com/12373225"],
+              "video_url": "https://vimeo.com/12373225",
               "video_config": { width: 640, height: 360 }
           }
         )
@@ -169,8 +162,7 @@
         (
           {
               "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=pgmiM3g5xCw",
-              "alternate_video_urls": ["https://vimeo.com/57743653"],
+              "video_url": "https://vimeo.com/57743653",
               "video_config": { width: 640, height: 360 }
           }
         )
@@ -183,8 +175,7 @@
         (
           {
               "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=F7wMMvOLi30",
-              "alternate_video_urls": ["https://www.youtube.com/watch?v=7EQHYcs8sl0"],
+              "video_url": "https://www.youtube.com/watch?v=7EQHYcs8sl0",
               "video_config": { width: 640, height: 360 }
           }
         )
@@ -198,7 +189,6 @@
           {
               "base_state": {"language": "zh-tw"},
               "video_url": "//videos-cdn.mozilla.net/serv/drafts/Contributorstory1.webm",
-              "alternate_video_urls": ["https://www.youtube.com/watch?v=7vhPZ5FujYw"],
               "video_config": { width: 640, height: 360 }
           }
         )
