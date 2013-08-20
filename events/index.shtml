@@ -101,6 +101,17 @@ jQuery(function($) {
     </a>
 
     <div class="group">
+      <a href="service2013/" title="101 學年度第二學期服務學習成果總覽" id="service2013">
+        <article class="small">
+          <header>
+            <h2>101 學年度第二學期，MozTW 參與 OSSACC 教育部校園自由軟體數位資源推廣服務中心服務學習專案，共計 14 位交通大學資訊工程學系和 6 位中央大學數學系學生貢獻個人專長進行在地化，內容涵蓋 Mozilla 開發者文件、技術支援文件、Mozilla Links 以及影片字幕等工作。</h2>
+            <time pubdate="pubdate">2013/3~7</time>
+            <span class="arrow"></span>
+          </header>
+          <img src="service2013/service2013.gif">
+        </article>
+      </a>
+
       <a href="https://www.thunderclap.it/projects/3405-firefox-os" title="Firefox OS Thunderclap 兩日限定活動" id="firefoxos-thunderclap2013" target="_blank">
         <article class="small">
           <header>
