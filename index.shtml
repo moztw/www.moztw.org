@@ -36,6 +36,9 @@
     position: absolute;
     right: 3em;
 }
+.front-feature #flicks_link:hover {
+    background-color: transparent;
+}
 .front-feature #flicks_link:hover .act {
     background-color: #20AEF5;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.75);
@@ -142,8 +145,8 @@
 }
 
 .key-point {
-    background-color: black;
-    background: url("/images/firefoxflicks2013.jpg") no-repeat right center/auto 100%;
+    background: #1D2120 url("/images/firefoxflicks2013.jpg") no-repeat right center;
+    background-size: auto 100%;
     border-bottom: medium none;
 }
 
@@ -195,13 +198,6 @@
    
 -->
 </style>
-<!--[if IE]>
-<style>
-    .key-point {
-        background-position-x: 344px;
-    }
-</style>
-<![endif]-->
 <!--[if lte IE 8]>
 <style>
 .frontcolumn {
@@ -209,10 +205,6 @@
 }
 #front-feature .download ul, #planets ul {
     margin-left: 0;
-}
-.front-feature #flicks_link {
-    height: 330px;
-    width: 70%;
 }
 </style>
 <![endif]-->
