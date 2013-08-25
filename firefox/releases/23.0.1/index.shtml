@@ -337,7 +337,7 @@ section .appendix {
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
                       <h5>
-                        全螢幕播放 flash 影片時，將 Firefox 移至背景，再度取回時會使程式涷結（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=809055">bug 809055</a>）。
+                        全螢幕播放 flash 影片時，將 Firefox 移至背景，再度取回時會使程式凍結（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=809055">bug 809055</a>）。
                       </h5>
                     </li>
                     <li>
