@@ -183,7 +183,7 @@
         width: auto;
     }
     .front-feature #flicks_text h2 {
-        font-size: 1.5em;
+        font-size: 1.3em;
         letter-spacing: -0.5px;
         line-height: 1.05;
     }    
