@@ -12,64 +12,18 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
 }
 
-/* Firefox Flicks 橫幅 */
-.front-feature #flicks_link {
-    background-color: rgba(0,0,0,0.25);
-    cursor: pointer;
+.front-feature #mobile_link {
+    background: url("/images/firefox_mobile14_trans.png") no-repeat scroll left bottom transparent;
+    bottom: -25px;
     display: block;
     height: 100%;
-    margin-top: -15px;
+    padding-top: 25px;
     position: absolute;
     right: 0;
     text-decoration: none;
-    width: 575px;
-    z-index: 1000;
-}
-.front-feature #flicks_link .act {
-    background-color: #1F9EE5;
-    border: 1px solid white;
-    border-radius: 8px 8px 8px 8px;
-    bottom: 1.5em;
-    color: #FFFFFF;
-    font-size: 18px;
-    padding: 5px 30px;
-    position: absolute;
-    right: 3em;
-}
-.front-feature #flicks_link:hover {
-    background-color: transparent;
-}
-.front-feature #flicks_link:hover .act {
-    background-color: #20AEF5;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.75);
-}
-.front-feature #flicks_text {
-    bottom: 3.5em;
-    display: none;
-    padding: 0;
-    position: absolute;
-    right: 146px;
-    width: 30em;
+    width: 595px;
     z-index: 0;
 }
-.front-feature #flicks_text.show {
-    display: block;    /* Arphic Webfont */
-}
-.front-feature #flicks_text h2 {
-    color: #FFFFFF;
-    font-size: 35px;
-    letter-spacing: -0.25px;
-    line-height: 1;
-    text-shadow: 1px 3px 3px black;
-}
-.front-feature #flicks_text p {
-    color: #F87B08;
-    font-size: 18px;
-    line-height: 1.5em;
-    text-shadow: 1px 3px 3px black;
-}
-/* End of Firefox Flicks 橫幅 */
-
 
 #feature-content h2 {
     margin-bottom: 5px;
@@ -145,9 +99,12 @@
 }
 
 .key-point {
-    background: #1D2120 url("/images/firefoxflicks2013.jpg") no-repeat right center;
-    background-size: auto 100%;
-    border-bottom: medium none;
+    background-color:#05a0dc;
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -moz-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -o-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -webkit-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    border-bottom: none;
 }
 
 .homepage .download {
@@ -161,43 +118,27 @@
     #front-feature {
         background-position: right center;
         background-size: auto 150%;
-        padding-bottom: inherit;
-        height: 145px;
+        padding-bottom: 240px;
     }
-    .front-feature #flicks_link {
-        background-color: rgba(0, 0, 0, 0.45);
+    .front-feature #mobile_link {
+        background-position: right bottom;
+        background-size: auto 95%;
         height: 100%;
-        margin: 0;
-        right: 0;
+        padding-top: 0;
+        right: -75px;
         top: 0;
-        width: 100%;
-    }
-    .front-feature #flicks_link .act {
-        display: none;
-    }
-    .front-feature #flicks_text {
-        bottom: 10px;
-        height: auto;
-        padding: 0 15px;
-        right: 0;
-        width: auto;
-    }
-    .front-feature #flicks_text h2 {
-        font-size: 1.3em;
-        letter-spacing: -0.5px;
-        line-height: 1.05;
-    }    
-    .front-feature #flicks_text p {
-        font-size: 1.1em;
-        text-shadow: 0 0 3px black;
-    }
-    .front-feature #flicks_text p.act {
-        position: static;
     }
 }
    
 -->
 </style>
+<!--[if IE]>
+<style>
+    .key-point {
+        background-position-x: 344px;
+    }
+</style>
+<![endif]-->
 <!--[if lte IE 8]>
 <style>
 .frontcolumn {
@@ -205,6 +146,10 @@
 }
 #front-feature .download ul, #planets ul {
     margin-left: 0;
+}
+.front-feature #mobile_link {
+    height: 330px;
+    width: 70%;
 }
 </style>
 <![endif]-->
@@ -214,13 +159,7 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">	
-  <a id="flicks_link" href="https://firefoxflicks.mozilla.org/zh-TW/video/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'FirefoxFlicks', 'frontpage-feature']);">
-    <span class="act webfont_9">立即投票</span>
-    <div id="flicks_text">
-      <h2 class="webfont_8">選擇您最愛的 Flicks 短片</h2>
-      <p class="webfont_9"> 8 月 31 日是票選 People's Choice Awards 的最後期限，別讓機會跑走了。 </p>
-    </div>
-  </a>
+  <a id="mobile_link" href="/mobile/"></a>
   <div id="feature-content">
     <h2><a class="fx-link" href="/firefox/"><img src="images/firefox_logo-wordmark-horiz_RGB_480w.png" alt="Firefox" height="82" width="220"></a></h2>
     <div class="download dl-box">
@@ -383,7 +322,7 @@ function serverResponseCallback(resultArray) {
 }
 (function ($) {
 if (!window.arphicWebFontApi){
-    $('.front-feature #flicks_text').addClass('show');
+    $('.mwc-box').addClass('show');
     return;
 };
 arphicWebFontApi.ready = function() {
@@ -402,8 +341,10 @@ arphicWebFontApi.ready = function() {
         { selectorName: ".webfont_10", fontName: "文鼎W顏楷H" }
     ];
     arphicWebFontApi.loadWebFont(selectorFontNameArray, function() {
-        $('.front-feature #flicks_text').addClass('show');
+        $('.mwc-box').addClass('show');
     });
+    // if u needn't callback function, you can do this way
+    //arphicWebFontApi.loadWebFont(selectorFontNameArray);
 }
 })(jQuery);
 
