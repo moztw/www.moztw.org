@@ -120,8 +120,8 @@ div[class^=grid-] > p {
             </div>
             <div class="grid-3">
                <div id="top-features">
-                  <h3>Top <span>Features</span></h3>
-                  <p>(rollover for details)</p>
+                  <h3>經典的 <span>四大特色</span></h3>
+                  <p>(滑鼠移過來可看詳細簡介)</p>
                   <ul>
                      <li>
                         <a href="#getstarted">更簡單就能上手</a>
