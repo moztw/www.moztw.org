@@ -81,6 +81,63 @@ div[class^=grid-] > p {
    </div>
 </section>
 
+<!-- Thunderbird Features 導覽四大按鈕 -->
+<section class="container block">
+   <div class="key-point">
+      <div id="main-feature">
+         <div class="grids">
+            <div class="grid-9">
+               <h2>Thunderbird <span>Features</span></h2>
+               <p>Get more out of Thunderbird!</p>
+               <ul class="feature-links">
+                  <li id="get-started"><a href="#getstarted"><span class="feature-link-content">Easier to <span>Get Started</span></span></a></li>
+                  <li id="tabs-search"><a href="#tabssearch"><span class="feature-link-content">Search <span></span></span></a></li>
+                  <li id="customize"><a href="#customize-email"><span class="feature-link-content">Customize Your <span>Email Experience</span></span></a></li>
+                  <li id="secure-protect"><a href="#secureprotect"><span class="feature-link-content">Secure and Protect<span>Your Email</span></span></a></li>
+               </ul>
+            </div>
+            <div class="grid-3">
+               <div id="top-features">
+                  <h3>Top <span>Features</span></h3>
+                  <p>(rollover for details)</p>
+                  <ul>
+                     <li>
+                        <a href="#getstarted">Easier to Get Started</a>
+                        <div class="top-feature-hover">
+                           <h3>Easier to Get Started</h3>
+                           <p>Getting setup with the new Thunderbird has never been easier!</p>
+                        </div>
+                     </li>
+                     <li>
+                        <a href="#tabssearch">Search</a>
+                        <div class="top-feature-hover">
+                           <h3>Search</h3>
+                           <p>Thunderbird improves the way you use email with faster search.</p>
+                        </div>
+                     </li>
+                     <li>
+                        <a href="#customize-email">Customize Your Email Experience</a>
+                        <div class="top-feature-hover">
+                           <h3>Customize Your Email Experience</h3>
+                           <p>Thousands of add-ons give you the freedom to make Thunderbird your own.</p>
+                        </div>
+                     </li>
+                     <li>
+                        <a href="#secureprotect">Secure and Protect Your Email</a>
+                        <div class="top-feature-hover">
+                           <h3>Secure and Protect Your Email</h3>
+                           <p>Keep your email secure!</p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- End- Thunderbird Features 導覽四大按鈕 -->
+
 <section class="container block">
    <h2 class="block-title hide">特色</h2>
    <div class="grids">
