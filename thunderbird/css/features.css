@@ -66,3 +66,54 @@
 .feature-links li#tabs-search a .feature-link-content { background-position: 50% -1065px; }
 .feature-links li#customize a .feature-link-content { background-position: 50% 0; }
 .feature-links li#secure-protect a .feature-link-content { background-position: 50% -710px; }
+
+/*#top-features*/
+#top-features {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D7D9E8;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
+    padding: 15px 20px 10px;
+    width: 150px;
+}
+#top-features h3 {
+    font-size: 18px;
+    line-height: 1;
+    margin: 0;
+}
+#main-feature #top-features p {
+    font-size: 12px;
+    margin: 0;
+}
+#top-features ul li {
+    list-style: none outside none;
+    margin-top: 15px;
+    margin-left: -3em;
+    position: relative;
+}
+#top-features ul li a {
+    display: inline;
+}
+#top-features ul li a {
+}
+#top-features .top-feature-hover {
+    background: url("/img/firefox/features/bubble.png") repeat scroll 0 0 transparent;
+    border-radius: 15px 15px 15px 15px;
+    bottom: -23px;
+    display: none;
+    height: 84px;
+    left: -224px;
+    padding: 20px 30px 28px 35px;
+    position: absolute;
+    width: 154px;
+}
+#top-features .top-feature-hover p {
+    color: #FFFFFF;
+    font-size: 11px;
+}
+#top-features .top-feature-hover h3 {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 0 6px;
+}

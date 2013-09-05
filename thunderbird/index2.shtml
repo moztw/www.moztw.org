@@ -124,31 +124,31 @@ div[class^=grid-] > p {
                   <p>(rollover for details)</p>
                   <ul>
                      <li>
-                        <a href="#getstarted">Easier to Get Started</a>
+                        <a href="#getstarted">更簡單就能上手</a>
                         <div class="top-feature-hover">
-                           <h3>Easier to Get Started</h3>
-                           <p>Getting setup with the new Thunderbird has never been easier!</p>
+                           <h3>更簡單就能上手</h3>
+                           <p>設定全新的 Thunderbird 從來沒有那麼簡單過！</p>
                         </div>
                      </li>
                      <li>
-                        <a href="#tabssearch">Search</a>
+                        <a href="#tabssearch">分頁與搜尋</a>
                         <div class="top-feature-hover">
-                           <h3>Search</h3>
-                           <p>Thunderbird improves the way you use email with faster search.</p>
+                           <h3>分頁與搜尋</h3>
+                           <p>透過分頁標籤與更快的搜尋功能，Thunderbird 改善了您使用電子郵件的方式。</p>
                         </div>
                      </li>
                      <li>
-                        <a href="#customize-email">Customize Your Email Experience</a>
+                        <a href="#customize-email">自訂您的電子郵件體驗</a>
                         <div class="top-feature-hover">
-                           <h3>Customize Your Email Experience</h3>
-                           <p>Thousands of add-ons give you the freedom to make Thunderbird your own.</p>
+                           <h3>自訂您的電子郵件體驗</h3>
+                           <p>數以千計的附加元件讓您可以自由地把 Thunderbird 妝點成您想要的樣子。</p>
                         </div>
                      </li>
                      <li>
-                        <a href="#secureprotect">Secure and Protect Your Email</a>
+                        <a href="#secureprotect">安全性與保護您的電子郵件</a>
                         <div class="top-feature-hover">
-                           <h3>Secure and Protect Your Email</h3>
-                           <p>Keep your email secure!</p>
+                           <h3>安全性與保護您的電子郵件</h3>
+                           <p>保護您電子郵件的安全！</p>
                         </div>
                      </li>
                   </ul>
@@ -386,6 +386,6 @@ div[class^=grid-] > p {
       </artical>
    </div>
 </section>
-
+<script src="js/tb-features.js"></script>
 
 <!--#include virtual="/sandstone/footer.shtml" -->
