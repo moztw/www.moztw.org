@@ -97,7 +97,7 @@
 #top-features ul li a {
 }
 #top-features .top-feature-hover {
-    background: url("/img/firefox/features/bubble.png") repeat scroll 0 0 transparent;
+    background: url("../images/features/bubble.png") repeat scroll 0 0 transparent;
     border-radius: 15px 15px 15px 15px;
     bottom: -23px;
     display: none;
