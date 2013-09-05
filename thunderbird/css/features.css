@@ -117,3 +117,31 @@
     font-weight: bold;
     margin: 0 0 6px;
 }
+
+/* 螢幕寬度較小調整 in width 940px ----------- */
+@media only screen and (max-width:940px) {
+   #top-features {
+      display: none;
+   }
+   .feature-links {
+      background: none;
+   }
+}
+@media only screen and (max-width:433px) {
+   .feature-links li a .feature-link-content  {
+      /*background: none;*/
+      display: block;
+      width: 60px;
+      font-size: 14px;
+      font-style: italic;
+      line-height: 16px;
+      text-align: left;
+      /*padding: 5px;*/
+      cursor: pointer; /* For IE */
+      position: relative;
+      top: 0;
+   }
+   .feature-links li {
+      margin-right: 5px;
+   }
+}
