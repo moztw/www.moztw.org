@@ -386,7 +386,7 @@ div[class^=grid-] > p {
       </artical>
    </div>
 </section>
-<script type="text/javascript" src="http://www.mozilla.org/thunderbird/js/jquery/jquery-1.5.1.min.js"></script>
+<script type="text/javascript" src="/js/library/jquery.js"></script>
 <script src="js/tb-features.js"></script>
 
 <!--#include virtual="/sandstone/footer.shtml" -->
