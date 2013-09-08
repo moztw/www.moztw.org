@@ -54,8 +54,30 @@ div[class^=grid-] > p {
    margin-bottom: 8px;
    padding-right: 20px;
 }
+
+/*#main-feature {
+        margin: 0 20px;
+}
+
+#main-feature h2 {
+    font-size: 40px;
+    padding: 10px 0;
+    margin: 0;
+    line-height: 1.2em;
+}
+
+#main-feature h2 span {
+    font-size: 65px;
+}
+
+#main-feature p {
+    color: #484848;
+    font-size: 20px;
+    line-height: 1.4em;
+}*/
 -->
 </style>
+<link href="css/features.css" rel="stylesheet" />
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
@@ -81,7 +103,64 @@ div[class^=grid-] > p {
    </div>
 </section>
 
+<!-- Thunderbird Features 導覽四大按鈕 -->
 <section class="container block">
+   <div class="key-point">
+      <div id="main-feature">
+         <div class="grids">
+            <div class="grid-9">
+               <h2>Thunderbird <span>的特色</span></h2>
+               <p>讓我們深入了解Thunderbird的功能吧!</p>
+               <ul class="feature-links">
+                  <li id="get-started"><a href="#getstarted"><span class="feature-link-content">更簡單 <span>就能上手</span></span></a></li>
+                  <li id="tabs-search"><a href="#tabssearch"><span class="feature-link-content">分頁 <span>與搜尋</span></span></a></li>
+                  <li id="customize"><a href="#customize-email"><span class="feature-link-content">自訂您的 <span>電子郵件體驗</span></span></a></li>
+                  <li id="secure-protect"><a href="#secureprotect"><span class="feature-link-content">安全性與保護<span>您的電子郵件</span></span></a></li>
+               </ul>
+            </div>
+            <div class="grid-3">
+               <div id="top-features">
+                  <h3>經典的 <span>四大特色</span></h3>
+                  <p>(滑鼠移過來可看詳細簡介)</p>
+                  <ul>
+                     <li>
+                        <a href="#getstarted">更簡單就能上手</a>
+                        <div class="top-feature-hover">
+                           <h3>更簡單就能上手</h3>
+                           <p>設定全新的 Thunderbird 從來沒有那麼簡單過！</p>
+                        </div>
+                     </li>
+                     <li>
+                        <a href="#tabssearch">分頁與搜尋</a>
+                        <div class="top-feature-hover">
+                           <h3>分頁與搜尋</h3>
+                           <p>透過分頁標籤與更快的搜尋功能，Thunderbird 改善了您使用電子郵件的方式。</p>
+                        </div>
+                     </li>
+                     <li>
+                        <a href="#customize-email">自訂您的電子郵件體驗</a>
+                        <div class="top-feature-hover">
+                           <h3>自訂您的電子郵件體驗</h3>
+                           <p>數以千計的附加元件讓您可以自由地把 Thunderbird 妝點成您想要的樣子。</p>
+                        </div>
+                     </li>
+                     <li>
+                        <a href="#secureprotect">安全性與保護您的電子郵件</a>
+                        <div class="top-feature-hover">
+                           <h3>安全性與保護您的電子郵件</h3>
+                           <p>保護您電子郵件的安全！</p>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- End- Thunderbird Features 導覽四大按鈕 -->
+
+<section id="getstarted" class="container block">
    <h2 class="block-title hide">特色</h2>
    <div class="grids">
       <div class="grid-12">
@@ -143,7 +222,7 @@ div[class^=grid-] > p {
    </div>
 </section>
 
-<section class="container block">
+<section id="tabssearch" class="container block">
    <h2 class="block-title hide">特色</h2>
    <div class="grids">
       <div class="grid-12">
@@ -195,7 +274,7 @@ div[class^=grid-] > p {
    </div>
 </section>
 
-<section class="container block">
+<section id="customize-email" class="container block">
    <h2 class="block-title hide">特色</h2>
    <div class="grids">
       <div class="grid-12">
@@ -228,7 +307,7 @@ div[class^=grid-] > p {
    </div>
 </section>
 
-<section class="container block">
+<section id="secureprotect" class="container block">
    <h2 class="block-title hide">特色</h2>
    <div class="grids">
       <div class="grid-12">
@@ -307,6 +386,7 @@ div[class^=grid-] > p {
       </artical>
    </div>
 </section>
-
+<script type="text/javascript" src="/js/library/jquery.js"></script>
+<script src="js/tb-features.js"></script>
 
 <!--#include virtual="/sandstone/footer.shtml" -->

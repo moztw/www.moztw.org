@@ -16,7 +16,7 @@ if(isset($_POST["rebuild_git"]) && $_POST["rebuild_git"])
     style='padding: 5px; maring: 5px; cursor: wait;
     border: 1px solid green;
     border-bottom: 1px dotted red'><?
-  $cmd = '/home/moztw/htdocs/autoupdate/update-git.sh';
+  $cmd = '/home/moztw/repo/base/autoupdate/update-git.sh';
   $cmd .= ' 2>&1';
   echo "Command: " . htmlspecialchars($cmd) . "\n\n";
 
@@ -50,10 +50,13 @@ if(isset($_POST["rebuild_yes"]) && $_POST["rebuild_yes"])
   style='padding: 5px; maring: 5px; cursor: wait;
     border: 1px solid green;
     border-bottom: 1px dotted red'><?
-  $cmd = '/home/moztw/htdocs/autoupdate/update.sh';
+  $cmd = '/home/moztw/repo/base/autoupdate/update.sh';
   $opt = '';
-  if ($isInStage)
+  if ($isInStage) {
     $opt .= ' stage';
+  } else {
+	$opt .= ' www';
+  }
   if(isset($_POST["rebuild_md5"]) && $_POST["rebuild_md5"])
     $opt .= ' md5';
   if(isset($_POST["rebuild_cache"]) && $_POST["rebuild_cache"])

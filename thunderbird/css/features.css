@@ -1,0 +1,147 @@
+.feature-links {
+    float: left;
+    background: url("../images/features/dottedline-background.png") 0 -30px no-repeat;
+    margin: 0 auto;
+    padding: 30px 0 28px;
+}
+
+.feature-links li {
+    text-align: center;
+    display: inline;
+    float: left;
+    list-style-type: none;
+    margin: 0 60px 0 0;
+    padding: 0 1px;
+}
+
+.feature-links li a,
+.feature-links li a:link,
+.feature-links li a:visited {
+    color: #484848;
+    display: block;
+    padding: 0 0 2px;
+}
+
+.feature-links li a .feature-link-content,
+.feature-links li a:link .feature-link-content,
+.feature-links li a:visited .feature-link-content {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.feature-links li a .feature-link-content {
+    background: url("../images/features/menu-icons.png") 50% 0 no-repeat;
+    display: block;
+    width: 112px;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+    text-align: center;
+    padding: 110px 0 1px;
+    cursor: pointer; /* For IE */
+    position: relative;
+    top: 0;
+}
+
+.feature-links li a:hover .feature-link-content {
+    top: -8px;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+.feature-links li a:active .feature-link-content {
+    top: -5px;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+.feature-links li a span {
+    display: block;
+}
+
+.feature-links li#get-started a .feature-link-content { background-position: 50% -355px; }
+.feature-links li#tabs-search a .feature-link-content { background-position: 50% -1065px; }
+.feature-links li#customize a .feature-link-content { background-position: 50% 0; }
+.feature-links li#secure-protect a .feature-link-content { background-position: 50% -710px; }
+
+/*#top-features*/
+#top-features {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D7D9E8;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
+    padding: 15px 20px 10px;
+    width: 150px;
+}
+#top-features h3 {
+    font-size: 18px;
+    line-height: 1;
+    margin: 0;
+}
+#main-feature #top-features p {
+    font-size: 12px;
+    margin: 0;
+}
+#top-features ul li {
+    list-style: none outside none;
+    margin-top: 15px;
+    margin-left: -3em;
+    position: relative;
+}
+#top-features ul li a {
+    display: inline;
+}
+#top-features ul li a {
+}
+#top-features .top-feature-hover {
+    background: url("../images/features/bubble.png") repeat scroll 0 0 transparent;
+    border-radius: 15px 15px 15px 15px;
+    bottom: -23px;
+    display: none;
+    height: 84px;
+    left: -224px;
+    padding: 20px 30px 28px 35px;
+    position: absolute;
+    width: 154px;
+}
+#top-features .top-feature-hover p {
+    color: #FFFFFF;
+    font-size: 11px;
+}
+#top-features .top-feature-hover h3 {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 0 6px;
+}
+
+/* 螢幕寬度較小調整 in width 940px ----------- */
+@media only screen and (max-width:940px) {
+   #top-features {
+      display: none;
+   }
+   .feature-links {
+      background: none;
+   }
+}
+@media only screen and (max-width:433px) {
+   .feature-links li a .feature-link-content  {
+      /*background: none;*/
+      display: block;
+      width: 60px;
+      font-size: 14px;
+      font-style: italic;
+      line-height: 16px;
+      text-align: left;
+      /*padding: 5px;*/
+      cursor: pointer; /* For IE */
+      position: relative;
+      top: 0;
+   }
+   .feature-links li {
+      margin-right: 5px;
+   }
+}
