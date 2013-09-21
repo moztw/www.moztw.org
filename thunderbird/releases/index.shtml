@@ -332,7 +332,7 @@ section .appendix {
               <li>
                 <span class="tag tag-new">新增</span>
                 <h5>
-                  可以寄信到 IDN 國際域名信箱
+                  可以寄信到 <abbr title="Internationalized Domain Name">IDN</abbr> 國際域名信箱
                 </h5>
               </li>
               <li>
