@@ -248,7 +248,7 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-changed">變更</span>
-                        <h5>移除對 Revocation Lists 功能的支援（bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=867465">867465</a>）。</h5>
+                        <h5>移除對憑證撤銷清單的支援（bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=867465">867465</a>）。</h5>
                       </li>
                       <li>
                         <span class="tag tag-changed">變更</span>
@@ -272,7 +272,7 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-fixed">修正</span>
-                        <h5>24.0: 安全性更性詳見<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">這裡</a>。</h5>
+                        <h5>24.0: 安全性更新詳見<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">這裡</a>。</h5>
                       </li>
 
                       <li class="complete">
