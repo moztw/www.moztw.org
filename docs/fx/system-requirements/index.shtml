@@ -13,17 +13,17 @@
 	<!-- closes #side -->
 	<hr class="hide">
 	<div id="mainContent">
-		<h2>Firefox 20 系統需求</h2>
+		<h2>Firefox 系統需求</h2>
 		<h3>Windows</h3>
 		<h6>作業系統版本</h6>
 		<ul>
 			<li>Windows XP SP2</li>
-			<li>Windows Server 2003</li>
+			<li>Windows Server 2003 SP1</li>
 			<li>Windows Vista</li>
 			<li>Windows 7</li>
 			<li>Windows 8</li>
 		</ul>
-		<p>請留意：雖然 32 與 64 位元版本的 Windows Vista 與 Windows 7 皆可執行 Firefox 20，但我們目前只支援 32 位元版本的 Firefox 20。</p>
+		<p>請留意：雖然 32 與 64 位元版本的 Windows Vista 與 Windows 7 皆可執行 Firefox，但我們目前只支援 32 位元版本的 Firefox。</p>
 		<h6>建議硬體需求</h6>
 		<ul>
 			<li>Pentium 4 或更新處理器，需支援 SSE2 指令集</li>
