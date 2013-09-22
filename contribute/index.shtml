@@ -405,12 +405,12 @@ $(function() {
  *   http://me.boo.uz
  *
  */
-(function($){$.extend({jGFeed:function(url,fnk,num,key){if(url==null){return false;}var gurl="http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;if(num!=null){gurl+="&num="+num;}if(key!=null){gurl+="&key="+key;}$.getJSON(gurl,function(data){if(typeof fnk=="function"){ if (data.responseData)fnk.call(this,data.responseData.feed);else fnk.call(this,false);}else{return false;}});}});})(jQuery);
+(function($){$.extend({jGFeed:function(url,fnk,num,key){if(url==null){return false;}var gurl="https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;if(num!=null){gurl+="&num="+num;}if(key!=null){gurl+="&key="+key;}$.getJSON(gurl,function(data){if(typeof fnk=="function"){ if (data.responseData)fnk.call(this,data.responseData.feed);else fnk.call(this,false);}else{return false;}});}});})(jQuery);
 </script>
 <script type="text/javascript">
 function updateFeed() {
 	$.jGFeed(
-		'http://groups.google.com/group/moztw-general/feed/atom_v1_0_msgs.xml', //?' + parseInt((new Date()).getTime()/30*60*1000), // Don't use this hack coz we need scoring=h
+		'https://groups.google.com/forum/feed/moztw-general/topics/atom_v1_0.xml', //?' + parseInt((new Date()).getTime()/30*60*1000), // Don't use this hack coz we need scoring=h
 		function (feed) {
 			if (!feed) {
 				//Failed
