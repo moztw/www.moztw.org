@@ -12,10 +12,16 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
 }
 
+.key-point {
+    background: url("/images/foxmosa-double-ten.png") no-repeat right bottom;
+    background-color:#192752;
+    background-size: auto 100%;
+    border-bottom: none;
+}
+
 .front-feature #holiday {
     background-color: rgba(255, 255, 255, 0.11);
     color: #FFFFFF;
-    font-family: "Helvetica","Heiti TC","LiHei Pro","微軟正黑體","WenQuanYi - Micro Hei","Arial",sans-serif;
     font-size: 60px;
     padding: 10px 60px 5px 30px;
     position: absolute;
@@ -123,12 +129,6 @@
 	height: 64px;
 }
 
-.key-point {
-    background-color:#192752;
-    background: url("/images/foxmosa-double-ten.png") no-repeat right top;
-    border-bottom: none;
-}
-
 .homepage .download {
     width: 250px;
 }
@@ -157,6 +157,13 @@
 </style>
 <!--[if IE]>
 <style>
+#front-feature #fb-like {
+    opacity: 1 !important;
+    background-color: #020A33;
+}
+#front-feature #holiday {
+    opacity: 0 !important;
+}
 </style>
 <![endif]-->
 <!--[if lte IE 8]>
@@ -175,7 +182,7 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">	
-  <span id="holiday" class="webfont_3">國慶日</span>
+  <span id="holiday" class="webfont_9">國慶日</span>
   <span id="fb-like">
       <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fmoztw&amp;width=300px&amp;height=62&amp;colorscheme=dark&amp;show_faces=false&amp;header=true&amp;stream=false&amp;show_border=false&amp;appId=372562499479751" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:62px;" allowTransparency="true"></iframe>
   </span>
