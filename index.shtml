@@ -12,48 +12,17 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
 }
 
-.key-point {
-    background: url("/images/foxmosa-double-ten.png") no-repeat right bottom;
-    background-color:#192752;
-    background-size: auto 100%;
-    border-bottom: none;
-}
-
-.front-feature #holiday {
-    background-color: rgba(255, 255, 255, 0.11);
-    color: #FFFFFF;
-    font-size: 60px;
-    padding: 10px 60px 5px 30px;
+.front-feature #mobile_link {
+    background: url("/images/firefox_mobile14_trans.png") no-repeat scroll left bottom transparent;
+    bottom: -25px;
+    display: block;
+    height: 100%;
+    padding-top: 25px;
     position: absolute;
     right: 0;
-    top: 200px;
-    
-    transition: opacity 0.4s;
-    opacity: 1;
-}
-.front-feature #fb-like {
-    background-color: rgba(255, 255, 255, 0.11);
-    color: #FFF;
-    height: 60px;
-    padding: 7px 20px 13px 10px;
-    position: absolute;
-    right: 0;
-    top: 200px;
-    
-    transition: opacity 0.4s;
-    opacity: 0;
-}
-.front-feature #fb-like div {
-    padding: 0;
-}
-
-
-/* interactive */
-#front-feature:hover #fb-like {
-    opacity: 1;    
-}
-#front-feature:hover #holiday {
-    opacity: 0;
+    text-decoration: none;
+    width: 595px;
+    z-index: 0;
 }
 
 #feature-content h2 {
@@ -129,6 +98,15 @@
 	height: 64px;
 }
 
+.key-point {
+    background-color:#05a0dc;
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -moz-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -o-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -webkit-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    border-bottom: none;
+}
+
 .homepage .download {
     width: 250px;
 }
@@ -138,32 +116,27 @@
         display: none;
     }
     #front-feature {
-        background-position: 86% top;
-        background-size: auto 130%;
+        background-position: right center;
+        background-size: auto 150%;
+        padding-bottom: 240px;
     }
-    .front-feature #holiday {
-        display: none;
-    }
-    .front-feature #fb-like {
-        bottom: 0;
-        left: 0;
-        opacity: 1;
-        padding: 5px 100px 13px 50px;
-        top: auto;
-        width: 100%;
+    .front-feature #mobile_link {
+        background-position: right bottom;
+        background-size: auto 95%;
+        height: 100%;
+        padding-top: 0;
+        right: -75px;
+        top: 0;
     }
 }
+   
 -->
 </style>
 <!--[if IE]>
 <style>
-#front-feature #fb-like {
-    opacity: 1 !important;
-    background-color: #020A33;
-}
-#front-feature #holiday {
-    opacity: 0 !important;
-}
+    .key-point {
+        background-position-x: 344px;
+    }
 </style>
 <![endif]-->
 <!--[if lte IE 8]>
@@ -174,6 +147,10 @@
 #front-feature .download ul, #planets ul {
     margin-left: 0;
 }
+.front-feature #mobile_link {
+    height: 330px;
+    width: 70%;
+}
 </style>
 <![endif]-->
 
@@ -182,10 +159,7 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">	
-  <span id="holiday" class="webfont_9">國慶日</span>
-  <span id="fb-like">
-      <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fmoztw&amp;width=300px&amp;height=62&amp;colorscheme=dark&amp;show_faces=false&amp;header=true&amp;stream=false&amp;show_border=false&amp;appId=372562499479751" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:62px;" allowTransparency="true"></iframe>
-  </span>
+  <a id="mobile_link" href="/mobile/"></a>
   <div id="feature-content">
     <h2><a class="fx-link" href="/firefox/"><img src="images/firefox_logo-wordmark-horiz_RGB_480w.png" alt="Firefox" height="82" width="220"></a></h2>
     <div class="download dl-box">
@@ -373,6 +347,7 @@ arphicWebFontApi.ready = function() {
     //arphicWebFontApi.loadWebFont(selectorFontNameArray);
 }
 })(jQuery);
+
 </script>
 
 <!--#include virtual="/inc/footer_arphic_webfont.html" -->
