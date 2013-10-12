@@ -52,13 +52,14 @@
 
   <article id="location">
     <h2>那裡有 MozTW Lab？</h2>
-    <p>這位客官你運氣真好，台北、基隆跟宜蘭剛好都有一個：</p>
+    <p>這位客官你運氣真好，台北、基隆、宜蘭跟新竹剛好都有一個：</p>
     <p>（場地資訊可能隨時會變動，請記得注意一下 Twitter 資訊 : P）</p>
 
     <ul class="nav">
       <li class="nv lb sel" id="taipei_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">台北</a></li>
       <li class="nv" id="keelung_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">基隆</a></li>
-      <li class="nv rb" id="ilan_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">宜蘭</a></li>
+      <li class="nv" id="ilan_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">宜蘭</a></li>
+      <li class="nv rb" id="hsinchu_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">新竹</a></li>
       <!-- add more places here, last button must have class 'rb' -->
     </ul>
     
@@ -102,6 +103,20 @@
         </ul>
         <div class="mapcover">
           <div class="map" id="map_ilan"></div>
+        </div>
+      </div>
+      
+      <!-- Hsinchu Lab Info -->
+      <div class="details" id="hsinchu_lab" style="display: none;">
+        <ul>
+        <li>每週一晚間 19:30-22:00</li>
+        <li>新橋b3（大遠百後面）<a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab Hsinchu', 'Google Map']);"  href="http://www.shinchiao.com.tw/b3"><span class="locality">新竹市</span><span class="street-address">東區勝利路195號</span></a></li>
+        <li>電話：03-5277695</li>
+        <li>低消：約95元，附 Wi-Fi 與電源。</li>
+        <li>「免費參加，餐飲自理。」</li>
+        </ul>
+        <div class="mapcover">
+          <div class="map" id="map_hsinchu"></div>
         </div>
       </div>
 

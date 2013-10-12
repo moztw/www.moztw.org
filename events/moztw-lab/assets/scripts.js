@@ -17,6 +17,12 @@ var lab_locs = {
         "place": "拾光響響公平貿易咖啡", 
         "lat": 24.746619, 
         "lng": 121.750847
+    },
+    "hsinchu_lab": {
+        "oid": "map_hsinchu", 
+        "place": "新橋b3", 
+        "lat": 24.801517, 
+        "lng": 120.964151
     }
 };
 
