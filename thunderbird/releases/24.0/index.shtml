@@ -344,7 +344,7 @@ section .appendix {
               <li>
                 <span class="tag tag-changed">變更</span>
                 <h5>
-                  在編輯郵件視窗，ctrl/cmd + 和 ctrl/cmd - 會改變縮放設定，不再是改變字體大小
+                  在編輯郵件視窗，<code>ctrl/cmd +</code> 和 <code>ctrl/cmd -</code> 會改變縮放設定，不再是改變字體大小
                 </h5>
               </li>
               <li>
