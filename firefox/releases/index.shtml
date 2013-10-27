@@ -290,6 +290,12 @@ section .appendix {
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
                       <h5>
+                        和 Norton 工具列一起使用時，Firefox 24.0 可能會當機，見<a href ="https://support.mozilla.org/en-US/kb/firefox-24-crashes-with-norton-toolbar">詳情</a>。（也參考 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=917792">bug 917792</a>）。
+                      </h5>
+                    </li>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>
                         以被鎖定的個人設定檔重新啟動 Firefox 時，程式會當掉（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573369">bug 573369</a>）。
                       </h5>
                     </li>
