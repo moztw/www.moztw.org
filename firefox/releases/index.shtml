@@ -232,7 +232,7 @@ section .appendix {
                     <ul>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>支援 Web Audio。</h5>
+                        <h5>支援 <a href="https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits">Web Audio</a>。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
@@ -240,7 +240,7 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-changed">變更</span>
-                        <h5>如果數個月未使用 Firefox，可選擇匯入其它瀏覽器的歷史和設定。</h5>
+                        <h5>如果數個月未使用 Firefox，可選擇重設瀏覽器至出廠狀態，但保留重要的個人設定。</h5>
                       </li>
                       <li>
                         <span class="tag tag-changed">變更</span>
@@ -264,7 +264,7 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-fixed">修正</span>
-                        <h5>24.0: 安全性更新詳見<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">這裡</a>。</h5>
+                        <h5>安全性更新詳見<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">這裡</a>。</h5>
                       </li>
                       <li class="complete">
                         請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&f1=target_milestone&f2=cf_status_firefox25&o1=anywords&o2=anywords&resolution=FIXED&v1=mozilla25%2C%20Firefox%2025&v2=fixed%2Cverified&order=bug_id&limit=0">完整變更清單</a>。
