@@ -14,7 +14,10 @@
 
 .front-feature #mobile_link {
     background: url("/images/firefox_mobile14_trans_notxt.png") no-repeat scroll 8px 5px transparent;
+    color: #FFFFFF;
     display: block;
+    font-family: "DFHei Std", "DFLiHei Std","Heiti TC", "华文细黑", "Microsoft JhengHei", sans-serif;
+    font-weight: 300;
     height: 100%;
     padding: 0;
     position: absolute;
@@ -35,9 +38,6 @@
     background: none;
 }
 .front-feature #mobile_link p {
-    color: #FFFFFF;
-    font-family: "DFHei Std", "DFLiHei Std","Heiti TC", "华文细黑", "Microsoft JhengHei", "WenQuanYi Micro Hei Light", sans-serif;
-    font-weight: 300;
     position: absolute;
     visibility: hidden;
 }
@@ -180,15 +180,11 @@
    
 -->
 </style>
-<!--[if IE]>
-<style>
-    .key-point {
-        background-position-x: 344px;
-    }
-</style>
-<![endif]-->
 <!--[if lte IE 8]>
 <style>
+.key-point {
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png")
+}
 .frontcolumn {
     padding-right: 2%;
 }
