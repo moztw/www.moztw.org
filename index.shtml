@@ -39,17 +39,17 @@
 }
 .front-feature #mobile_link p {
     position: absolute;
-    visibility: hidden;
+    display: none;
 }
 .front-feature #mobile_link p.show {
-    visibility: visible;
+    display: block;
 }
 .front-feature #mobile_link:hover p {
     text-shadow: 1px 1px 6px black;
 }
 
 .front-feature #mobile_link #mobile_faster {
-    font-size: 49px;
+    font-size: 46px;
     left: 365px;
     line-height: 1.2em;
     top: 53px; 
@@ -204,8 +204,8 @@
 
 <div class="key-point front-feature" id="front-feature">	
   <div id="mobile_link">
-    <p id="mobile_faster" class="webfont_9">更快<br>更聰明<br>更加安全</p>
-    <p id="mobile_respect" class="webfont_9">絕對尊重您的<br>行動瀏覽器</p>
+    <p id="mobile_faster" class="webfont_2">更快<br>更聰明<br>更加安全</p>
+    <p id="mobile_respect" class="webfont_2">絕對尊重您的<br>行動瀏覽器</p>
     <a href="/mobile/"></a>
   </div>
   <div id="feature-content">
@@ -389,7 +389,7 @@ arphicWebFontApi.ready = function() {
         { selectorName: ".webfont_10", fontName: "文鼎W顏楷H" }
     ];
     arphicWebFontApi.loadWebFont(selectorFontNameArray, function() {
-        $('.webfont_9').addClass('show');
+        $('.front-feature #mobile_link p').addClass('show');
     });
     // if u needn't callback function, you can do this way
     //arphicWebFontApi.loadWebFont(selectorFontNameArray);
