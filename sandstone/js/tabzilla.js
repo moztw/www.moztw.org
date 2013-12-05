@@ -287,6 +287,10 @@ Tabzilla.init = function()
         jQuery(window).resize(Tabzilla.handleResize);
         Tabzilla.handleResize();
     }
+
+    if (typeof Tabzilla.onReady === "function") {
+        Tabzilla.onReady();
+    }
 };
 
 Tabzilla.buildPanel = function()
@@ -523,6 +527,14 @@ Tabzilla.closeSubmenu = function($item, $menu)
 
     var $items = $menu.find('a');
     $items.attr('tabindex', '-1');
+};
+
+Tabzilla.setStatic = function()
+{
+    // Note: This function can NOT undo!
+    Tabzilla.$panel.remove();
+    Tabzilla.staticTab = '<img id="tabzilla" src="/sandstone/images/tabzilla-static.png" alt="tabzilla" />';
+    Tabzilla.$link.replaceWith(Tabzilla.staticTab);
 };
 
 Tabzilla.content =
