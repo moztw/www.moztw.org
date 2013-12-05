@@ -50,7 +50,7 @@ div[class^=grid-] > p {
 }*/
 
 #download-button-thunderbird{padding:55px 0 0;margin:0;position:relative}
-#download-button-thunderbird small.download-other{width:100%;text-align:center}
+#download-button-thunderbird small.download-other{width:100%;text-align:center;padding-left:40px}
 #download-button-thunderbird .download-link{width:280px}
 #download-button-thunderbird .download-content{padding:15px 20px 15px 65px;background-position:20px 24px}
 #download-button-thunderbird .download-title{display:none}
