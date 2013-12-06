@@ -1,66 +1,6 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
 <title>Mozilla Thunderbird 中文版下載 | MozTW, Mozilla Taiwan Community</title>
 <meta name="description" content="Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的電子郵件體驗，讓收發電子郵件變得更簡單！（雷鳥 email 軟體 Mac/Windows/Linux 版）" />
-<style type="text/css">
-<!--
-#product-desc.product-thunderbird {
-   background: transparent url(images/product-thunderbird-screen.png) no-repeat scroll 0 0;
-   padding: 40px 0 60px;
-}
-#product-desc.product-thunderbird p {
-   padding-left: 177px;
-   padding-top: 47px;
-}
-.key-point {
-   padding: 15px 15px;
-   height: auto;
-}
-
-.right {
-   float: right;
-   margin-left: 75px;
-}
-.grids > h4 {
-   margin-left: 20px;
-}
-div[class^=grid-] > p {
-   margin-bottom: 8px;
-   padding-right: 20px;
-}
-
-/*#main-feature {
-        margin: 0 20px;
-}
-
-#main-feature h2 {
-    font-size: 40px;
-    padding: 10px 0;
-    margin: 0;
-    line-height: 1.2em;
-}
-
-#main-feature h2 span {
-    font-size: 65px;
-}
-
-#main-feature p {
-    color: #484848;
-    font-size: 20px;
-    line-height: 1.4em;
-}*/
-
-#download-button-thunderbird{padding:55px 0 0;margin:0;position:relative}
-#download-button-thunderbird small.download-other{width:100%;text-align:center;padding-left:40px}
-#download-button-thunderbird .download-link{width:280px}
-#download-button-thunderbird .download-content{padding:15px 20px 15px 65px;background-position:20px 24px}
-#download-button-thunderbird .download-title{display:none}
-#download-button-thunderbird .download-subtitle{color:#fff;text-transform:uppercase;font-weight:bold;display:block;font-size:18px;line-height:1.1;letter-spacing:-0.05em;position:static;width:auto;text-align:left}
-#download-button-thunderbird .download-lang,#download-button-thunderbird .download-platform{font-family:'Open Sans Light',sans-serif;font-weight:normal;color:#360;display:inline;font-size:11px;font-weight:bold;text-shadow:0 1px #9c6}
-#download-button-thunderbird .download-lang{position:static;text-align:left;width:auto}
-#download-button-thunderbird .download-platform:before{content:'• '}
-
--->
-</style>
 <script>
    // let tabzilla not clickable
    Tabzilla.onReady = function() {
@@ -417,7 +357,7 @@ div[class^=grid-] > p {
             <div class="grid-4">
                <div style="text-align: center;">
                <a style="text-decoration: none;" href="http://www.facebook.com/groups/thunderbirdfans.tw/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Facebook-thunderbirdfanstw', 'thunderbird']);">
-                  <h3><img src="/images/foxmosa-mail-01.jpg" alt="" style="margin-left: -15px;"></h3>
+                  <h3><img src="/images/foxmosa-mail-02.png" width="100px" alt="foxmosa mail" style="margin-left: 10px;"></h3>
                    <span style="font-size: 120%;">Thunderbird 愛好者俱樂部</span>
                </a>
                </div>
