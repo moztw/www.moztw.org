@@ -19,7 +19,6 @@ requirejs([
   'layout/all',
   'module/all',
   'app',
-  'os_detector',
   'ga'
 ], function ($, layout, module, app, os_detector, google_analytics) {
   app.layout = layout;
