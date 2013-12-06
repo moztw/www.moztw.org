@@ -16,6 +16,7 @@ img {
 }
 article.module {
    padding: 50px;
+   width: 840px;
 }
 
 #main-feature div.grid-9 h2,
@@ -38,7 +39,7 @@ article.module {
 }
 div[class^=grid-] > p {
    margin-bottom: 8px;
-   padding-right: 95px;
+   padding-right: 25px;
 }
 
 .feature-links {
@@ -186,6 +187,23 @@ div[class^=grid-] > p {
    .feature-links li {
       margin-right: 5px;
    }
+}
+
+.grids  {width:840px}
+.grid-1 {width: 40px}
+.grid-2 {width:110px}
+.grid-3 {width:180px}
+.grid-4 {width:250px}
+.grid-5 {width:320px}
+.grid-6 {width:390px}
+.grid-7 {width:460px}
+.grid-8 {width:530px}
+.grid-9 {width:600px}
+.grid-10{width:670px}
+.grid-11{width:740px}
+.grid-12{width:810px}
+div[class^=grid-] {
+   margin-right: 10px;
 }
 
 /* download button */
