@@ -170,15 +170,20 @@ body.showalert {
     box-shadow: 0 -3px 3px #666666 inset;
     color: #FFFFFF;
     display: block;
-    font-size: 1.33em;
-    padding: 7px 7em 10px 4em;
+    font-size: 1.25em;
+    padding: 8px 7em 12px 8%;
     text-decoration: none;
 }
 
 #hacked-info .ttl {
     float: left;
     font-size: 2em;
-    margin: 0 2em;
+    margin: 0;
+}
+
+#hacked-info .ctnt {
+    display: block;
+    margin-left: 10em;
 }
 
 #hacked-info:hover {
@@ -231,6 +236,23 @@ body.showalert {
         line-height: 1.45em;
         letter-spacing: 0.05em;
     }
+
+    #hacked-info {
+        padding: 1em;
+    }
+    
+    #hacked-info .ttl {
+        float: none;
+    }
+    
+    #hacked-info .ctnt {
+        margin-left: auto;
+    }
+    
+    .showalert #header #search {
+        position: relative;
+    }
+    
 }
    
 -->
@@ -253,9 +275,12 @@ body.showalert {
 </style>
 <![endif]-->
 
-<div id="alertbanner">
+<div id="alertbanner" class="webfont_9">
     <a id="closebanner" href="javascript:void(0)">不再顯示</a>
-    <a id="hacked-info" href="test.html"><span class="ttl">資安通報</span>曾經在 11 月下旬至 12/7 中午，自本站下載 Windows 版 Firefox 的 使用者，<br>請按本文步驟確保安全；討論區會員全面強制更改密碼。</a>
+    <a id="hacked-info" href="test.html">
+        <span class="ttl webfont_8">資安通報</span>
+        <span class="ctnt">曾經在 11 月下旬至 12/7 中午，自本站下載 Windows 版 Firefox 的 使用者，<br>請按本文步驟確保安全；討論區會員全面強制更改密碼。</span>
+    </a>
 </div>
 
 <!--#include virtual="/inc/class_homepage.html" -->
