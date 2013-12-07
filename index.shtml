@@ -183,6 +183,7 @@ body.showalert {
 
 #hacked-info .ctnt {
     display: block;
+    line-height: 1.3em;
     margin-left: 10em;
 }
 
