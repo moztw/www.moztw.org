@@ -1,82 +1,12 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
 <title>Mozilla Thunderbird 中文版下載 | MozTW, Mozilla Taiwan Community</title>
 <meta name="description" content="Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的電子郵件體驗，讓收發電子郵件變得更簡單！（雷鳥 email 軟體 Mac/Windows/Linux 版）" />
-<style type="text/css">
-<!--
-#product-desc.product-thunderbird {
-   background: transparent url(images/product-thunderbird-screen.png) no-repeat scroll 0 0;
-   padding: 40px 0 60px;
-}
-#product-desc.product-thunderbird p {
-   padding-left: 177px;
-   padding-top: 47px;
-}
-.key-point {
-   padding: 15px 15px;
-   height: auto;
-}
-.download:before {
-   height: 50px;
-   width: 50px;
-   display: block;
-   border: none;
-   position:absolute;
-   top:-3px;
-   right:0px;
-   background: transparent url("../../images/download_back_arrow.png") top right no-repeat;
-   content: '';
-}
-.download {
-   position:relative;
-   background-color: #C4EFA1;
-   padding: 15px 45px 15px 15px;
-   -webkit-border-radius: 8px;
-   -moz-border-radius: 8px;
-   border-radius: 8px;
-   border-bottom:1px solid #AED48F;
-   border-right:1px solid #B6DE96;
-}
-.download > h3 {
-   color: #1D9101;
-   font-weight: bold;
-   margin: 0;
-   font-size: 140%;
-}
-
-.right {
-   float: right;
-   margin-left: 75px;
-}
-.grids > h4 {
-   margin-left: 20px;
-}
-div[class^=grid-] > p {
-   margin-bottom: 8px;
-   padding-right: 20px;
-}
-
-/*#main-feature {
-        margin: 0 20px;
-}
-
-#main-feature h2 {
-    font-size: 40px;
-    padding: 10px 0;
-    margin: 0;
-    line-height: 1.2em;
-}
-
-#main-feature h2 span {
-    font-size: 65px;
-}
-
-#main-feature p {
-    color: #484848;
-    font-size: 20px;
-    line-height: 1.4em;
-}*/
--->
-</style>
+<script>
+   // let tabzilla not clickable
+   Tabzilla.onReady = function() {
+      Tabzilla.setStatic();
+   }
+</script>
 <link href="css/features.css" rel="stylesheet" />
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
@@ -91,13 +21,63 @@ div[class^=grid-] > p {
              </div>
          </div>
          <div class="grid-4">
-            <div class="download">
-                <h3>免費下載 Thunderbird</h3><!--#include virtual="/inc/dltb.html" -->
+            <div id="download-button-thunderbird" class="download-button download-promo">
+               <noscript>
+                  <div class="download download-dumb">
+                     <h4>Thunderbird 立即下載</h4>
+                     <ul>
+                        <li><a href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=win&amp;lang=zh-TW" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Thunderbird', '2410-Windows']);">Windows</a></li>
+                        <li><a href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=linux&amp;lang=zh-TW" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Thunderbird', '2410-Linux']);">Linux</a></li>
+                        <li><a href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=osx&amp;lang=zh-TW" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Thunderbird', '2410-Mac']);">Mac OS X</a></li>
+                     </ul>
+                  </div>
+               </noscript>
+               <div class="unrecognized-download">
+                  <div class="download download-dumb">
+                     <h4>Thunderbird 立即下載</h4>
+                     <ul>
+                        <li><a href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=win&amp;lang=zh-TW" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Thunderbird', '2410-Windows']);">Windows</a></li>
+                        <li><a href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=linux&amp;lang=zh-TW" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Thunderbird', '2410-Linux']);">Linux</a></li>
+                        <li><a href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=osx&amp;lang=zh-TW" class="button-green" onclick="_gaq.push(['_trackEvent', 'Download', 'Thunderbird', '2410-Mac']);">Mac OS X</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <ul role="presentation" class="download-list">
+                  <li class="os_windows">
+                     <a class="download-link" href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=win&amp;lang=zh-TW" data-direct-link="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=win&amp;lang=zh-TW" onclick="_gaq.push(['_trackEvent', 'Download', 'Thunderbird', '2410-Windows']);">
+                        <span class="download-content">
+                           <strong class="download-title">Thunderbird</strong>
+                           <span class="download-subtitle">立即下載</span>
+                           <span class="download-lang">正體中文</span>
+                           <span class="download-platform">Windows</span>
+                        </span>
+                     </a>
+                  </li>
+                  <li class="os_linux">
+                     <a class="download-link" href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=linux&amp;lang=zh-TW" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW" onclick="_gaq.push(['_trackEvent', 'Download', 'Thunderbird', '2410-Linux']);">
+                        <span class="download-content">
+                           <strong class="download-title">Thunderbird</strong>
+                           <span class="download-subtitle">立即下載</span>
+                           <span class="download-lang">正體中文</span>
+                           <span class="download-platform">Linux</span>
+                        </span>
+                     </a>
+                  </li>
+                  <li class="os_osx">
+                     <a class="download-link" href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=osx&amp;lang=zh-TW" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=osx&amp;lang=zh-TW" onclick="_gaq.push(['_trackEvent', 'Download', 'Thunderbird', '2410-Mac']);">
+                        <span class="download-content">
+                           <strong class="download-title">Thunderbird</strong>
+                           <span class="download-subtitle">立即下載</span>
+                           <span class="download-lang">正體中文</span>
+                           <span class="download-platform">Mac OS X</span>
+                        </span>
+                     </a>
+                  </li>
+               </ul>
+               <small class="download-other os_linux os_osx os_windows unrecognized-download">
+                  <a href="system-requirements/">系統需求</a> | <a href="releases/">版本資訊</a> | <a href="http://www.mozilla.org/en-US/thunderbird/all.html" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'Thunderbird', 'Other Platform']);">其它語言與平台</a>
+               </small>
             </div>
-            <ul>
-                <li><a href="system-requirements/">系統需求</a></li>
-                <li><a href="releases/">版本資訊</a></li>
-            </ul>
          </div>
       </div>
    </div>
@@ -371,13 +351,13 @@ div[class^=grid-] > p {
                   <li><a href="http://forum.moztw.org/viewforum.php?f=9">MozTW Thunderbird 中文討論區</a></li>
                   <li><a href="https://addons.mozilla.org/thunderbird/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-tb']);">取得 Thunderbird 附加元件</a></li>
                   <li><a href="https://addons.mozilla.org/thunderbird/personas/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-tb-personas']);">取得個性面板</a></li>
-                  <li><a href="http://support.mozillamessaging.com/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'SUMOMO']);">Thunderbird 補助說明</a></li>
+                  <li><a href="http://support.mozillamessaging.com/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'SUMOMO']);">Thunderbird 輔助說明</a></li>
                </ul>
             </div>
             <div class="grid-4">
                <div style="text-align: center;">
                <a style="text-decoration: none;" href="http://www.facebook.com/groups/thunderbirdfans.tw/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Facebook-thunderbirdfanstw', 'thunderbird']);">
-                  <h3><img src="/images/foxmosa-mail-01.jpg" alt="" style="margin-left: -15px;"></h3>
+                  <h3><img src="/images/foxmosa-mail-02.png" width="100px" alt="foxmosa mail" style="margin-left: 10px;"></h3>
                    <span style="font-size: 120%;">Thunderbird 愛好者俱樂部</span>
                </a>
                </div>
