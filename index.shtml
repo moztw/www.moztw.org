@@ -280,7 +280,7 @@ body.showalert {
     <a id="closebanner" href="javascript:void(0)">不再顯示</a>
     <a id="hacked-info" href="http://forum.moztw.org/viewtopic.php?f=7&t=40687">
         <span class="ttl webfont_8">資安通報</span>
-        <span class="ctnt">曾經在 11/27 至 12/7 中午，自本站下載 Windows 版 Firefox 的 使用者，<br>請按本文步驟執行，確保安全；討論區會員全面強制更改密碼。</span>
+        <span class="ctnt">曾經在 12/3 至 12/7 中午，自本站下載 Windows 版 Firefox 的 使用者，<br>請按本文步驟執行，確保安全；討論區會員全面強制更改密碼。</span>
     </a>
 </div>
 
