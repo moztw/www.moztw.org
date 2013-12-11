@@ -214,10 +214,10 @@ section .appendix {
       <div class="key-point">
         <div id="product-desc" class="firefox-releasenotes-v4">
           <p id="release-date">
-            <time datetime="2013-11-16">2013 年 11 月 16 日</time>
-             v.25.0.1
+            <time datetime="2013-12-10">2013 年 12 月 10 日</time>
+             v.26.0
           </p>
-          <p>此版本資訊包含了<a href="#whatsnew">Firefox 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
+          <p>此版本資訊包含了 <a href="#whatsnew">Firefox 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
 
           <p>我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的<a href="http://forums.mozillazine.org/viewforum.php?f=49">英文討論區</a>或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
         </div>
@@ -231,52 +231,94 @@ section .appendix {
                 <div class="section-contents">
                     <ul>
                       <li>
-                        <span class="tag tag-fixed">修正</span>
-                        <h5>25.0.1: 安全性更新詳見<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">這裡</a>。</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-fixed">修正</span>
-                        <h5>25.0.1: 有時必須先移動滑鼠才會載入網頁。</h5>
+                        <span class="tag tag-new">全新功能</span>
+                        <h5>所有 Java 外掛程式都預設為<a href="https://blog.mozilla.org/futurereleases/2013/09/24/plugin-activation-in-firefox/">需點擊才會啟用</a>。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>支援 <a href="https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits">Web Audio</a>。</h5>
+                        <h5>密碼管理員能支援指令碼產生的密碼欄位了。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>各分頁間不再共用同一個尋找工具列。</h5>
+                        <h5>即使 Windows 使用者對 Firefox 安裝目錄沒有寫入權限，也能順利更新程式（使用 Mozilla 維護服務）。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-new">全新功能</span>
+                        <h5>安裝可用的 gstreamer 外掛程式後，就能在 Linux 上支援 H.264 編碼。</h5>
                       </li>
                       <li>
                         <span class="tag tag-changed">變更</span>
-                        <h5>如果數個月未使用 Firefox，可選擇重設瀏覽器至出廠狀態，但保留重要的個人設定。</h5>
+                        <h5>在 Windows XP 也支援 MP3 解碼，完成了對 Windows 作業系統的跨版本 MP3 支援。</h5>
                       </li>
                       <li>
                         <span class="tag tag-changed">變更</span>
-                        <h5>重設 Firefox 現在不會清除瀏覽狀態了。</h5>
+                        <h5>CSP 實作現在可支援複數政策，例如標準 enforced 和 Report-Only 政策共存的情形。</h5>
                       </li>
                       <li>
                         <span class="tag tag-developer">開發功能</span>
-                        <h5>支援 CSS 3 控制背景捲動的 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=483446">background-attachment: local</a>。</h5>
+                        <h5>Social API 可藉由 SocialMarks 支援各社交提供者的書籤功能（見 <a href="https://developer.mozilla.org/en-US/docs/Social_API">MDN 說明文件</a>）。</h5>
                       </li>
                       <li>
                         <span class="tag tag-developer">開發功能</span>
-                        <h5>實作多項 ES 6 的新<a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=717379%2C866847%2C866849%2C886949">功能</a>。</h5>
+                        <h5>可行的話，Math.ToFloat32 會採取 JS 的數值並轉換為 Float32。</h5>
                       </li>
                       <li>
-                        <span class="tag tag-html5">HTML5</span>
-                        <h5>可以用 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=802895">srcdoc 屬性</a>直接指定 iframe 的 document 內容。</h5>
+                        <span class="tag tag-developer">開發功能</span>
+                        <h5>網站使用 appcache 時不再出現確認訊息。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-developer">開發功能</span>
+                        <h5>支援 CSS image orientation 屬性。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-developer">開發功能</span>
+                        <h5>新增應用程式管理員，可用於 Firefox OS 手機和模擬器上的 HTML5 webapp 部署與除錯。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-developer">開發功能</span>
+                        <h5>IndexedDB 發展看好，所以使用時不再出現確認訊息。另資料現在會儲存於採取 LRU 政策的暫存 pool 之中。</h5>
                       </li>
                       <li>
                         <span class="tag tag-fixed">修正</span>
-                        <h5>開新分頁時，預覽縮圖是空白的或有遺漏。</h5>
+                        <h5>單獨顯示圖片時，Firefox 能正確使用 JPEG 所含 EXIF 中的方向資訊（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=298619">bug 298619</a>）。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>Windows 7 更新 KB2670838 後（MSIE 10 需要此更新）或 Windows 8.1 上的文字顯示問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695">bug 812695</a>）</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>不再對看不見的圖片進行解碼，縮短頁面載入時間（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=847223">bug 847223</a>）。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>Mac OS 的 AudioToolbox MP3 後端（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=914479">bug 914479</a>）。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全性更新</a>。</h5>
                       </li>
                       <li class="complete">
-                        請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&f1=target_milestone&f2=cf_status_firefox25&o1=anywords&o2=anywords&resolution=FIXED&v1=mozilla25%2C%20Firefox%2025&v2=fixed%2Cverified&order=bug_id&limit=0">完整變更清單</a>。
-                        您可能也想瞭解<a href="/firefox/releases/25.0/">前一個版本的更新</a>。
+                        請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&f1=target_milestone&f2=cf_status_firefox26&o1=anywords&o2=anywords&resolution=FIXED&v1=mozilla26%2C%20Firefox%2026&v2=fixed%2Cverified&order=bug_id&limit=0">完整變更清單</a>。
+                        您可能也想瞭解<a href="/firefox/releases/25.0.1/">前一個版本的更新</a>。
                       </li>
                     </ul>
                 </div>
-            </section>
+              </section>
+
+              <section id="knownissues">
+                <h3>已知問題</h3>
+                <div class="section-contents">
+                  <ul>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>
+                        全螢幕播放 flash 影片時，將 Firefox 移至背景，再度取回時會使程式涷結（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=809055">bug 809055</a>）。
+                      </h5>
+                    </li>
+                  </ul>
+                </div>
+              </section>
 
             <section>
                 <div class="appendix">
