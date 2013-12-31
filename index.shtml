@@ -21,11 +21,11 @@
     right: 0;
     text-decoration: none;
     top: 0;
-    width: 595px;
+    width: 580px;
     z-index: 0;
-    background: url("/foxmosa/images/fgt.png") no-repeat right top;
-    background-size: auto 100%;
-    margin-right: 20px;
+    background: url('/foxmosa/images/fgt.png') no-repeat scroll right center transparent;
+    background-size: auto 95%;
+    margin-right: 15px;
     cursor: pointer;
 }
 
@@ -137,9 +137,9 @@
 }
 
 .key-point {
-    background-color: #7D98B1;
-    background-image: linear-gradient(to bottom, #7D98B1, #3F4E61);
-    background-image: -webkit-linear-gradient(to bottom, #7D98B1, #3F4E61);
+    background-color: #3E4B58;
+    background-image: linear-gradient(to bottom, #4E5F70, #3E4B58);
+    background-image: -webkit-linear-gradient(to bottom, #4E5F70, #3E4B58);
 }
 
 .homepage .download {
@@ -212,23 +212,26 @@ body.showalert {
         display: none;
     }
     #front-feature {
-        background-position: right center;
-        background-size: auto 150%;
-        padding-bottom: 240px;
+        padding-bottom: 300px;
+        background-image: none;
     }
     .front-feature #donate_link {
-        background-size: 50% auto;
-        height: 100%;
-        margin-right: 10px;
         width: 100%;
+        margin: 0px;
+        background-size: auto 170px;
+        background-position: top center;
     }
     .front-feature #donate_link div {
-        bottom: 15px;
-        left: 35px;
+        width: 100%;
+        bottom: 0px;
+        left: 0px;
         right: auto;
-        width: 75%;
+        text-align: center !important;
+        position: absolute;
     }
-
+    .front-feature #donate_link div h1 {
+        font-size: 1.66em;
+    }
     #hacked-info {
         padding: 1em;
     }
@@ -309,7 +312,7 @@ body.showalert {
     <a id="donate_link" href="/donate/">
         <div>
             <h1>支持 Mozilla</h1>
-            <p>贊助 Mozilla 基金會年終募款，<br>表達您對 <i>提供選擇</i> 與 <i>隱私</i> 的堅持，<br>與我們一齊重建網路信任！</p>
+            <p>表達您對 <i>開放</i> 與 <i>隱私</i> 的堅持，<br>贊助 Mozilla 基金會年終募款，<br>與我們一齊保護網際網路！</p>
         </div>
     </a>
   <div id="feature-content">

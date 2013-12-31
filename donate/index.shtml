@@ -15,13 +15,13 @@
 	</hgroup>
 
 	<section id="key-point">
-		<h2>請與我們一起保護網際網路</h2>
-		
-		<p>Mozilla 是最熱愛網路的非營利組織，Mozilla 是一個全球化的社群。我們相信網路應該保持開放、透明、安全、隱私，持續做為推進人類邁向美好未來的力量。</p>
-
-        <p>Mozilla 引領輿論、協助使用者發聲、塑造更美好的網路。諸如 Do Not Track、Firefox OS、Lightbeam 與 Webmaker 等專案，象徵 Mozilla 的核心價值。</p>
-
-		<p>我們無法在缺乏您的支持之下達成任務。請捐款支持 Mozilla 基金會，協助我們一齊實現夢想：打造一個更安全、更開放且更為透明的網際網路。</p>
+        <h2>請與我們一起保護網際網路</h2>
+    
+        <p>Mozilla 是最熱愛網路的非營利組織。我們相信網路是人類邁向美好未來的力量。我們相信網路應該保持開放、透明、安全、隱私。我們相信人們應當能掌握自己的線上體驗，而非被黑暗所淹沒。</p>
+        
+        <p>Mozilla 引領輿論、協助使用者發聲。諸如 <a target="_blank" href="http://www.mozilla.org/dnt/" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'mozilla.org/dnt']);">Do Not Track</a>、<a href="http://mozilla.com.tw/firefox/os/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'mozilla.com.tw/firefox/os']);">Firefox OS</a>、<a href="http://www.mozilla.org/en-US/lightbeam/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'mozilla.org/lightbeam']);">Lightbeam</a> 與 <a href="http://webmaker.org/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'webmaker.org']);">Webmaker</a> 等專案，象徵 Mozilla 的核心價值。</p>
+        
+        <p>Mozilla 的核心是擁有共同價值的全球社群。像你一樣的人賦予我們力量、影響我們、讓我們與眾不同。我們需要您的支持以達成任務。請捐款支持 Mozilla 基金會，與我們一齊實踐夢想：塑造世界所需的美好網路。</p>
 	</section>
 
 	<section id="youtube" class="row">
@@ -29,7 +29,7 @@
 			<iframe src="http://www.youtube.com/embed/Q1n2q_YSZUE" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div class="right">
-			<a id="donate-button" href="https://donate.mozilla.org/page/contribute/mozillatshirt?source=20121200_moz_tw" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'donate.mozilla.org-mozillatshirt']);">
+			<a id="donate-button" href="https://sendto.mozilla.org/page/contribute" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'donate.mozilla.org']);">
 				<span class="title">立即捐款 !</span>
 			</a>
 			<span class="help">* 連結到 Mozilla 基金會英文頁面<br>　MozTW 社群未收受╱經手您的捐款</span>
