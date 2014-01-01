@@ -23,7 +23,7 @@
     top: 0;
     width: 580px;
     z-index: 0;
-    background: url('/foxmosa/images/fgt.png') no-repeat scroll right center transparent;
+    background: url('/foxmosa/images/fgt-300px.png') no-repeat right center transparent;
     background-size: auto 95%;
     margin-right: 15px;
     cursor: pointer;
