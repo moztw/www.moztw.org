@@ -298,8 +298,8 @@ body.showalert {
 <div class="key-point front-feature" id="front-feature">	
     <a id="donate_link" href="/donate/">
         <div>
-            <h1>支持 Mozilla</h1>
-            <p>表達您對 <i>開放</i> 與 <i>隱私</i> 的堅持，<br>贊助 Mozilla 基金會年終募款，<br>與我們一齊保護網際網路！</p>
+            <h1 class="webfont_8">支持 Mozilla</h1>
+            <p class="webfont_9">表達您對 <i>開放</i> 與 <i>隱私</i> 的堅持，<br>贊助 Mozilla 基金會年終募款，<br>與我們一齊保護網際網路！</p>
         </div>
     </a>
   <div id="feature-content">
@@ -477,10 +477,6 @@ function serverResponseCallback(resultArray) {
     obj.value = resultArray;
 }
 (function ($) {
-if (!window.arphicWebFontApi){
-    $('.webfont_9').addClass('show');
-    return;
-};
 arphicWebFontApi.ready = function() {
     // setup webfont selectors 
     var selectorFontNameArray =
@@ -503,7 +499,6 @@ arphicWebFontApi.ready = function() {
     //arphicWebFontApi.loadWebFont(selectorFontNameArray);
 }
 })(jQuery);
-
 </script>
 
 <!--#include virtual="/inc/footer_arphic_webfont.html" -->
