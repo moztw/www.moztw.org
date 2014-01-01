@@ -10,15 +10,18 @@
 <!--#include virtual="/inc/new_header.html" -->
 	
 	<hgroup id="main-feature">
-		<h1><span class="zh">贊助</span>Mozilla</h1>
-		<h2>致力於網路開放、維繫大眾的選擇<br />打造更美好的網路未來</h2>
+		<h1><span class="zh webfont_9">贊助</span>Mozilla</h1>
+		<h2 class="webfont_7">致力於網路開放、維繫大眾的選擇<br />打造更美好的網路未來</h2>
 	</hgroup>
 
 	<section id="key-point">
-		<h2>請與我們一起保護世上最重要的公用資源</h2>
-		
-		<p>我們相信網際網路應該保持安全、開放與容易取用。請觀看「Mozilla 故事」影片，了解我們如何保護隱私、自由、維繫使用者選擇，並打造協助任何人隨心所欲塑造網路的工具。</p>
-		<p>在此邀請您與我們一起打造更美好的網路，請捐款支持 Mozilla 基金會。只要您捐款 30 美元以上，我們將贈送您一件 Firefox T恤（運費全免），讓你藉由穿著，向世界展現出我們的共同夢想：一個更安全、更開放且更為透明的網際網路。</p>
+        <h2 class="webfont_8">請與我們一起保護網際網路</h2>
+    
+        <p class="webfont_9">Mozilla 是最熱愛網路的非營利組織。我們相信網路是人類邁向美好未來的力量。我們相信網路應該保持開放、透明、安全、隱私。我們相信人們應當能掌握自己的線上體驗，而非被黑暗所淹沒。</p>
+        
+        <p class="webfont_9">Mozilla 引領輿論、協助使用者發聲。諸如 <a target="_blank" href="http://www.mozilla.org/dnt/" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'mozilla.org/dnt']);">Do Not Track</a>、<a href="http://mozilla.com.tw/firefox/os/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'mozilla.com.tw/firefox/os']);">Firefox OS</a>、<a href="http://www.mozilla.org/en-US/lightbeam/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'mozilla.org/lightbeam']);">Lightbeam</a> 與 <a href="http://webmaker.org/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'webmaker.org']);">Webmaker</a> 等專案，象徵 Mozilla 的核心價值。</p>
+        
+        <p class="webfont_9">Mozilla 的核心是擁有共同價值的全球社群。像你一樣的人賦予我們力量、影響我們、讓我們與眾不同。我們需要您的支持以達成任務。請捐款支持 Mozilla 基金會，與我們一齊實踐夢想：塑造世界所需的美好網路。</p>
 	</section>
 
 	<section id="youtube" class="row">
@@ -26,10 +29,47 @@
 			<iframe src="http://www.youtube.com/embed/Q1n2q_YSZUE" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div class="right">
-			<a id="donate-button" href="https://donate.mozilla.org/page/contribute/mozillatshirt?source=20121200_moz_tw" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'donate.mozilla.org-mozillatshirt']);">
-				<span class="title">立即捐款 !</span>並獲得T恤
+			<a id="donate-button" href="https://sendto.mozilla.org/page/contribute" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'donate.mozilla.org']);">
+				<span class="title webfont_1">立即捐款 !</span>
 			</a>
-			<span class="help">* 連結到 Mozilla 基金會英文頁面<br>　MozTW 社群未收受╱經手您的捐款</span>
+			<span class="help webfont_2">* 連結到 Mozilla 基金會英文頁面<br>　MozTW 社群未收受╱經手您的捐款</span>
 		</div>
 	</section>
+	
+	
+	<script type='text/javascript' src='http://moztw-arphic.cloudapp.net/FontSubsetOutput/WebFontApi-AACAE9FCA1494d66B9BF53196F0992E1/WebFontApi-AACAE9FCA1494d66B9BF53196F0992E1.JS?9395323985'></script>
+	<script>
+	function getTxtResultObject() {
+	    var obj = document.getElementById("txtResult");
+	    return obj;
+	}
+	function serverResponseCallback(resultArray) {
+	    var obj = getTxtResultObject();
+	    obj.value = resultArray;
+	}
+	(function ($) {
+	arphicWebFontApi.ready = function() {
+	    // setup webfont selectors 
+	    var selectorFontNameArray =
+	    [
+	        { selectorName: ".webfont_1", fontName: "文鼎W圓體B" },
+	        { selectorName: ".webfont_2", fontName: "文鼎W圓體M" },
+	        { selectorName: ".webfont_3", fontName: "文鼎W俏黑體E" },
+	        { selectorName: ".webfont_4", fontName: "文鼎W甜妞體H" },
+	        { selectorName: ".webfont_5", fontName: "文鼎W鋼筆行楷M" },
+	        { selectorName: ".webfont_6", fontName: "文鼎W簽字筆體E" },
+	        { selectorName: ".webfont_7", fontName: "文鼎W仿宋M" },
+	        { selectorName: ".webfont_8", fontName: "文鼎W書苑黑體B" },
+	        { selectorName: ".webfont_9", fontName: "文鼎WUD書苑黑體M" },
+	        { selectorName: ".webfont_10", fontName: "文鼎W顏楷H" }
+	    ];
+	    arphicWebFontApi.loadWebFont(selectorFontNameArray, function() {
+	        $('.front-feature #mobile_link p').addClass('show');
+	    });
+	    // if u needn't callback function, you can do this way
+	    //arphicWebFontApi.loadWebFont(selectorFontNameArray);
+	}
+	})(jQuery);
+	</script>
+	
 <!--#include virtual="/inc/new_footer.html" -->

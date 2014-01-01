@@ -22,8 +22,9 @@ body {
 }
 
 #key-point {
-  padding: 30px 20px 25px;
-  background: url("./images/promo-fxtshirt.jpg") no-repeat right bottom #414d59;
+  padding: 30px 50px 25px;
+  background: url('/foxmosa/images/fgt-300px.png') no-repeat scroll right center #3E4B58;
+  background-size: auto 300px;
   margin-bottom: 48px;
 }
 
@@ -67,7 +68,6 @@ body {
   color: white;
   cursor: pointer;
   font-size: 20px;
-  height: 62px;
   line-height: 37px;
   padding: 18px 0;
   position: absolute;
@@ -86,10 +86,14 @@ body {
   color: #414D59;
   position: absolute;
   right: 20px;
-  top: 270px;
+  top: 260px;
 }
 
 @media screen and (max-width: 1000px), screen and (max-device-width: 1000px){
+  #key-point p {
+      width: auto;
+      margin-right: 265px;
+  }
   #youtube > div {
       float: none;
       margin: 0 auto;
@@ -115,9 +119,12 @@ body {
 }
 
 @media screen and (max-width: 820px), screen and (max-device-width: 820px){
+  #key-point {
+      background-position: right bottom;
+      background-size: 45% auto;
+  }
   #key-point p {
-      width: auto;
-        margin-right: 260px;
+      margin-right: 50%;
   }
   #youtube .left {
       width: auto;
@@ -130,6 +137,14 @@ body {
 }
 
 @media screen and (max-width: 520px), screen and (max-device-width: 520px){
+    #key-point {
+        padding: 30px 25px 280px;
+        background-position: center bottom;
+        background-size: 70% auto;
+    }
+    #key-point p {
+        margin-right: auto;
+    }
     #youtube .left {
         width: auto;
     }
