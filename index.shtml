@@ -255,12 +255,8 @@ body.showalert {
 
 <!--[if lte IE 9]>
 <style>
-.front-feature #donate_link div {
-    font-weight: bold;
-}
-
 .front-feature #donate_link:hover {
-    background-color: #6E89A5;
+    background-color: #506172;
 }
 </style>
 <![endif]-->
