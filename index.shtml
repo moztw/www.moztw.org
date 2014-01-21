@@ -147,65 +147,6 @@
 }
 
 
-/* about hacked info */
-
-#alertbanner {
-    display: none;
-}
-
-body.showalert #alertbanner {
-    display: block;
-    margin-bottom: 1.5em;
-}
-
-body.showalert {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-}
-
-#hacked-info {
-    background-color: #720000;
-    box-shadow: 0 -3px 3px #666666 inset;
-    color: #FFFFFF;
-    display: block;
-    font-size: 1.25em;
-    padding: 8px 7em 12px 8%;
-    text-decoration: none;
-}
-
-#hacked-info .ttl {
-    float: left;
-    font-size: 2em;
-    margin: 0;
-}
-
-#hacked-info .ctnt {
-    display: block;
-    line-height: 1.3em;
-    margin-left: 10em;
-}
-
-#hacked-info:hover {
-    background-color: #A60000;
-}
-
-#closebanner {
-    background-color: #7E0000;
-    border-radius: 0 0 0 1.5em;
-    color: #FFFFFF;
-    float: right;
-    font-size: 1.2em;
-    padding: 0.5em 1em 0.75em;
-    text-align: center;
-    text-decoration: none;
-}
-
-#closebanner:hover {
-    background-color: #A60000;
-    text-decoration: underline;
-}
-
 
 @media only screen and (max-width : 500px) {
     #front-feature #feature-content {
@@ -232,22 +173,6 @@ body.showalert {
     .front-feature #donate_link div h1 {
         font-size: 1.66em;
     }
-    #hacked-info {
-        padding: 1em;
-    }
-    
-    #hacked-info .ttl {
-        float: none;
-    }
-    
-    #hacked-info .ctnt {
-        margin-left: auto;
-    }
-    
-    .showalert #header #search {
-        position: relative;
-    }
-    
 }
    
 -->
@@ -283,13 +208,6 @@ body.showalert {
 </style>
 <![endif]-->
 
-<div id="alertbanner" class="webfont_9">
-    <a id="closebanner" href="javascript:void(0)">不再顯示</a>
-    <a id="hacked-info" href="http://forum.moztw.org/viewtopic.php?f=7&t=40687">
-        <span class="ttl webfont_8">資安通報</span>
-        <span class="ctnt">曾經在 12/3 至 12/7 中午，自本站下載 Windows 版 Firefox 的 使用者，<br>請按本文步驟執行，確保安全；討論區會員全面強制更改密碼。</span>
-    </a>
-</div>
 
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
@@ -427,19 +345,6 @@ fnk.call(this,false);}else{return false;}});}});})(jQuery);
 </script>
 <script type="text/javascript">
 (function ($) {
-
-    if (document.cookie.replace(/(?:(?:^|.*;\s*)moztwalertbanner\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
-        $('body').addClass("showalert");
-    };
-    $('#closebanner').click(function() {
-        $('body').removeClass("showalert");
-        
-        // hide ads for 999 days
-        var Dt = new Date(Date.now() + (86400 * 1000 * 999));
-        document.cookie = "moztwalertbanner=true; path=/; expires=" + Dt.toUTCString();
-    });
-    
-    
 
 	$.jGFeed(
 		'http://planet.moztw.org/atom.xml',

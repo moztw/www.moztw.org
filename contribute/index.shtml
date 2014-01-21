@@ -223,7 +223,8 @@ $(function() {
 				<p>有興趣幫助其他使用者解決 Firefox 和其他 Mozilla 專案上的問題？我們的論壇以及使用者疑難排解，仰賴於像您一樣熱情的貢獻者。</p>
 				<a href="http://forum.moztw.org/search.php?search_id=unanswered" onClick="_gaq.push(['_trackEvent', 'contribute', 'support', 'forum-unanswer']);"><span class="button">回答討論區問題</span></a>
 				<a href="https://support.mozilla.org/zh-TW/army-of-awesome" onClick="_gaq.push(['_trackEvent', 'contribute', 'support', 'ArmyOfAwesome']);"><span class="button">推特好厲害大軍</span></a>
-				<a href="https://support.mozilla.org/zh-TW/kb/superheroes-wanted" onClick="_gaq.push(['_trackEvent', 'contribute', 'support', 'SuperHerosWanted']);"><span class="button">徵求超人義工</span></a>
+				<a href="https://support.mozilla.org/zh-TW/get-involved" onClick="_gaq.push(['_trackEvent', 'contribute', 'support', 'get-involved']);"><span class="button">徵求超人義工</span></a><br>
+				<a href="https://etherpad.mozilla.org/ep/pad/view/ro.pZsE8tlGmWDwKNqGK5MhTOR6n2b29gC1AADPCKYog4tHGk/latest"  onClick="_gaq.push(['_trackEvent', 'contribute', 'support', 'detail']);"><span class="button detail">更多資訊 》</span></a>
 			</div>
 		</div>
 		<div class="content_block clearfix">
