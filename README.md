@@ -2,7 +2,7 @@
 
 This is the git repository of moztw.org web sites, including static pages. If you are willing to contribute, feel free to fork, modify, and send pull request.
 
-## Repo structures
+## Repos structure
 
 moztw.org website contains sections from the following different sub-domain-based repos, 
 each repo is independent executed and not relying on others. 
@@ -14,7 +14,12 @@ please fork and checkout as you need.
     gfx.tw - Repo for http://gfx.tw, personal Firefox promotion and product page platform
     irclog.moztw.org - IRC Archive for #mozilla-taiwan of irc.mozilla.org
     translate.moztw.org - Localization system related stuff
-    browser-pairs - Foxmosa pairs game located at moztw.org/foxmosa/game/pairs
+    
+    Demos:
+    
+    browser-pairs - Foxmosa pairs game at moztw.org/foxmosa/game/pairs
+    star-pusher - Foxmosa Sokuban game at moztw.org/foxmosa/game/stars
+    moztw.org-demo - HTML5 demos located at moztw.org/demo  
     
     Depreciated:
     wiki.moztw.org - Wiki which is not in active usage
