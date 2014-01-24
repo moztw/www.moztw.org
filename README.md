@@ -2,6 +2,26 @@
 
 This is the git repository of moztw.org web sites, including static pages. If you are willing to contribute, feel free to fork, modify, and send pull request.
 
+## Repo structures
+
+moztw.org website contains sections from the following different sub-domain-based repos, 
+each repo is independent executed and not relying on others. 
+please fork and checkout as you need. 
+
+    base - Server configurations and automatic scripts
+    www.moztw.org - Main MozTW website
+    forum.moztw.org - MozTW Forum
+    gfx.tw - Repo for http://gfx.tw, personal Firefox promotion and product page platform
+    irclog.moztw.org - IRC Archive for #mozilla-taiwan of irc.mozilla.org
+    translate.moztw.org - Localization system related stuff
+    browser-pairs - Foxmosa pairs game located at moztw.org/foxmosa/game/pairs
+    
+    Depreciated:
+    wiki.moztw.org - Wiki which is not in active usage
+    photos.moztw.org - Picture Gallery of MozTW prior to Firefox 1.5 times.
+
+
+
 ## Static Pages Local Installation
 
 It's easy to set up static pages including home page, event pages, contribution pages, etc. 
