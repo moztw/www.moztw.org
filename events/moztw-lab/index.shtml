@@ -81,7 +81,8 @@
       <!-- Keelung Lab Info -->
       <div class="details" id="keelung_lab" style="display: none;">
         <ul>
-        <li>每週三晚間 19:00-21:00</li>
+        <p style="color: red;margin-top: 1em;">基隆場目前因為黃色小鴨人潮眾多以及寒假的關係，<strong>暫時沒有固定聚會時間及地點</strong>。如果有興趣歡迎隨時關注 Twitter 上 #moztw 訊息 ，謝謝 ！</p>
+        <li><del>每週三晚間 19:00-21:00</del></li>
         <li>1915海洋咖啡館 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab Keelung', 'Google Map']);"  href="http://goo.gl/maps/7q7FQ"><span class="locality">基隆市</span><span class="street-address">仁愛區港西街4號1樓</span></a></li>
         <li>電話：02-2428-8807</li>
         <li>低消：約60元，附 Wi-Fi 與電源。</li>
@@ -108,8 +109,9 @@
       
       <!-- Hsinchu Lab Info -->
       <div class="details" id="hsinchu_lab" style="display: none;">
+        <p style="color: red;margin-top: 1em;">新竹場目前逢寒假、過年，<strong>暫時停止舉辦</strong>，預計在寒假過後恢復，請留意Twitter上 #moztw 以及<a href="https://groups.google.com/forum/#!topic/moztw-general/g5xhqghDg4o">郵件群組</a>的消息！！</p>
         <ul>
-        <li>每週一晚間 19:30-22:00</li>
+        <li><del>每週一晚間 19:30-22:00</del></li>
         <li>新橋b3（大遠百後面）<a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab Hsinchu', 'Google Map']);"  href="http://www.shinchiao.com.tw/b3"><span class="locality">新竹市</span><span class="street-address">東區勝利路195號</span></a></li>
         <li>電話：03-5277695</li>
         <li>低消：約95元，附 Wi-Fi 與電源。</li>
