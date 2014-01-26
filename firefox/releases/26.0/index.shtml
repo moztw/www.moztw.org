@@ -284,10 +284,6 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-fixed">修正</span>
-                        <h5>Windows 7 更新 KB2670838 後（MSIE 10 需要此更新）或 Windows 8.1 上的文字顯示問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695">bug 812695</a>）</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-fixed">修正</span>
                         <h5>不再對看不見的圖片進行解碼，縮短頁面載入時間（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=847223">bug 847223</a>）。</h5>
                       </li>
                       <li>
@@ -315,6 +311,10 @@ section .appendix {
                       <h5>
                         全螢幕播放 flash 影片時，將 Firefox 移至背景，再度取回時會使程式涷結（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=809055">bug 809055</a>）。
                       </h5>
+                    </li>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>Windows 7 更新 KB2670838 後（MSIE 10 需要此更新）或 Windows 8.1 上的文字顯示問題（已有暫時的<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695#c414">解決辦法</a>，見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695">bug 812695</a>）。</h5>
                     </li>
                   </ul>
                 </div>
