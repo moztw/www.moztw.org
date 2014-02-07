@@ -332,7 +332,7 @@ section .appendix {
               <li>
                 <span class="tag tag-fixed">修正</span>
                 <h5>
-                  改進回函處理功能 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=933555">bug 933555</a>)
+                  改進回函位址 (reply-to) 處理方式 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=933555">bug 933555</a>)
                 </h5>
               </li>
             </ul>
