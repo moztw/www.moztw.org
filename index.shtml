@@ -12,56 +12,54 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
 }
 
-.front-feature #donate_link {
+.front-feature #mobile_link {
+    background: url("/images/firefox_mobile14_trans_notxt.png") no-repeat scroll 8px 5px transparent;
     color: #FFFFFF;
     display: block;
+    font-family: "DFHei Std", "DFLiHei Std","Heiti TC", "华文细黑", "Microsoft JhengHei", sans-serif;
+    font-weight: 300;
     height: 100%;
     padding: 0;
     position: absolute;
     right: 0;
     text-decoration: none;
     top: 0;
-    width: 580px;
+    width: 595px;
     z-index: 0;
-    background: url('/foxmosa/images/fgt-300px.png') no-repeat right center transparent;
-    background-size: auto 95%;
-    margin-right: 15px;
-    cursor: pointer;
 }
-
-.front-feature #donate_link div {
-    color: white;
-    font-size: 16px;
-    font-family: "Helvetica", "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
-    padding: 0;
+.front-feature #mobile_link a {
+    height: 100%;
+    left: 0;
     position: absolute;
-    right: 240px;
-    text-shadow: 1px 2px 5px #666;
-    bottom: 25px;
-    width: 50%;
+    top: 0;
+    width: 595px;
+}
+.front-feature #mobile_link a:hover {
+    background: none;
+}
+.front-feature #mobile_link p {
+    position: absolute;
+    display: none;
+}
+.front-feature #mobile_link p.show {
+    display: block;
+}
+.front-feature #mobile_link:hover p {
+    text-shadow: 1px 1px 6px black;
 }
 
-.front-feature #donate_link:hover div {
-    text-shadow: 1px 2px 5px #000;
+.front-feature #mobile_link #mobile_faster {
+    font-size: 46px;
+    left: 365px;
+    line-height: 1.2em;
+    top: 53px; 
 }
-
-.front-feature #donate_link div h1 {
-        font-family: "Helvetica", "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
-    font-size: 2em;
-    border: none;
-    line-height: 1.6em;
-    font-weight: bold;
+.front-feature #mobile_link #mobile_respect {
+    font-size: 24px;
+    left: 367px;
+    line-height: 1.25em;
+    top: 237px;  
 }
-
-.front-feature #donate_link div p {
-    font-size: 1.1em;
-    line-height: 1.5em;
-}
-
-.front-feature #donate_link div i {
-    line-height: 1.6em;
-}
-
 
 #feature-content h2 {
     margin-bottom: 5px;
@@ -137,9 +135,12 @@
 }
 
 .key-point {
-    background-color: #3E4B58;
-    background-image: linear-gradient(to bottom, #4E5F70, #3E4B58);
-    background-image: -webkit-linear-gradient(to bottom, #4E5F70, #3E4B58);
+    background-color:#05a0dc;
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -moz-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -o-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -webkit-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    border-bottom: none;
 }
 
 .homepage .download {
@@ -153,57 +154,48 @@
         display: none;
     }
     #front-feature {
-        padding-bottom: 300px;
-        background-image: none;
+        background-position: right center;
+        background-size: auto 150%;
+        padding-bottom: 240px;
     }
-    .front-feature #donate_link {
-        width: 100%;
-        margin: 0px;
-        background-size: auto 170px;
-        background-position: top center;
+    .front-feature #mobile_link {
+        width: 500px;
+        background-position: 82px bottom;
+        background-size: auto 98%;
     }
-    .front-feature #donate_link div {
-        width: 100%;
-        bottom: 0px;
-        left: 0px;
-        right: auto;
-        text-align: center !important;
-        position: absolute;
+    .front-feature #mobile_link #mobile_faster {
+        font-size: 32px;
+        left: 340px;
+        top: 50px;
+        line-height: 1.25em;
+        letter-spacing: 0.05em;
     }
-    .front-feature #donate_link div h1 {
-        font-size: 1.66em;
+    .front-feature #mobile_link #mobile_respect {
+        font-size: 19px;
+        left: 340px;
+        right: 25px;
+        top: 180px;
+        line-height: 1.45em;
+        letter-spacing: 0.05em;
     }
 }
    
 -->
 </style>
-
-<!--[if lte IE 9]>
-<style>
-.front-feature #donate_link:hover {
-    background-color: #506172;
-}
-</style>
-<![endif]-->
-
 <!--[if lte IE 8]>
 <style>
+.key-point {
+    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png")
+}
 .frontcolumn {
     padding-right: 2%;
 }
 #front-feature .download ul, #planets ul {
     margin-left: 0;
 }
-</style>
-<![endif]-->
-<!--[if lte IE 7]>
-<style>
-.front-feature #donate_link {
-    height: 325px;
-    position: absolute;
-    left: 340px;
-    margin: 0;
-    padding: 0;
+.front-feature #mobile_link {
+    height: 330px;
+    width: 70%;
 }
 </style>
 <![endif]-->
@@ -214,12 +206,11 @@
 
 
 <div class="key-point front-feature" id="front-feature">	
-    <a id="donate_link" href="/donate/">
-        <div>
-            <h1 class="webfont_8">支持 Mozilla</h1>
-            <p class="webfont_9">表達您對 <i>開放</i> 與 <i>隱私</i> 的堅持，<br>贊助 Mozilla 基金會年終募款，<br>與我們一齊保護網際網路！</p>
-        </div>
-    </a>
+  <div id="mobile_link">
+    <p id="mobile_faster" class="webfont_2">更快<br>更聰明<br>更加安全</p>
+    <p id="mobile_respect" class="webfont_2">絕對尊重您的<br>行動瀏覽器</p>
+    <a href="/mobile/"></a>
+  </div>
   <div id="feature-content">
     <h2><a class="fx-link" href="/firefox/"><img src="images/firefox_logo-wordmark-horiz_RGB_480w.png" alt="Firefox" height="82" width="220"></a></h2>
     <div class="download dl-box">
@@ -345,7 +336,6 @@ fnk.call(this,false);}else{return false;}});}});})(jQuery);
 </script>
 <script type="text/javascript">
 (function ($) {
-
 	$.jGFeed(
 		'http://planet.moztw.org/atom.xml',
 		function (feed) {
@@ -382,6 +372,10 @@ function serverResponseCallback(resultArray) {
     obj.value = resultArray;
 }
 (function ($) {
+if (!window.arphicWebFontApi){
+    $('.front-feature #mobile_link p').addClass('show');
+    return;
+};
 arphicWebFontApi.ready = function() {
     // setup webfont selectors 
     var selectorFontNameArray =
@@ -404,6 +398,7 @@ arphicWebFontApi.ready = function() {
     //arphicWebFontApi.loadWebFont(selectorFontNameArray);
 }
 })(jQuery);
+
 </script>
 
 <!--#include virtual="/inc/footer_arphic_webfont.html" -->
