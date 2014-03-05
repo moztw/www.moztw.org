@@ -1,7 +1,7 @@
 var lab_locs = {
     "taipei_lab": {
         "oid": "map_taipei", 
-        "place": "娃娃書店", 
+        "place": "蛙蛙漫吧", 
         "lat": 25.044602, 
         "lng": 121.533283
     }, 

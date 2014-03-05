@@ -81,7 +81,7 @@
       <!-- Keelung Lab Info -->
       <div class="details" id="keelung_lab" style="display: none;">
         <ul>
-        <li><del>每週三晚間 19:00-21:00</del></li>
+        <li>每週三晚間 19:00-21:00</li>
         <li>1915海洋咖啡館 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab Keelung', 'Google Map']);"  href="http://goo.gl/maps/7q7FQ"><span class="locality">基隆市</span><span class="street-address">仁愛區港西街4號1樓</span></a></li>
         <li>電話：02-2428-8807</li>
         <li>低消：約60元，附 Wi-Fi 與電源。</li>
@@ -108,7 +108,6 @@
       
       <!-- Hsinchu Lab Info -->
       <div class="details" id="hsinchu_lab" style="display: none;">
-        <p style="color: red;margin-top: 1em;">新竹場目前逢寒假、過年，<strong>暫時停止舉辦</strong>，預計在寒假過後恢復，請留意Twitter上 #moztw 以及<a href="https://groups.google.com/forum/#!topic/moztw-general/g5xhqghDg4o">郵件群組</a>的消息！！</p>
         <ul>
         <li>雙週四晚間 19:30-22:00</li>
         <li>綠蓋茶館 新竹誠品站前店 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab Hsinchu', 'Google Map']);"  href=" http://www.lattea.com.tw/"><span class="locality">新竹市</span><span class="street-address">東區信義街68號3樓</span></a></li>
