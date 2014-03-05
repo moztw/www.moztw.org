@@ -20,9 +20,9 @@ var lab_locs = {
     },
     "hsinchu_lab": {
         "oid": "map_hsinchu", 
-        "place": "新橋b3", 
-        "lat": 24.801517, 
-        "lng": 120.964151
+        "place": "綠蓋茶館新竹誠品站前店", 
+        "lat": 24.802893, 
+        "lng": 120.970515
     }
 };
 
