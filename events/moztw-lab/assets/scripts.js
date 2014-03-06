@@ -1,9 +1,9 @@
 var lab_locs = {
     "taipei_lab": {
         "oid": "map_taipei", 
-        "place": "Thé6 6号茶", 
-        "lat": 25.044021, 
-        "lng": 121.532725
+        "place": "蛙蛙漫吧", 
+        "lat": 25.044602, 
+        "lng": 121.533283
     }, 
 
     "keelung_lab": {
@@ -20,9 +20,9 @@ var lab_locs = {
     },
     "hsinchu_lab": {
         "oid": "map_hsinchu", 
-        "place": "新橋b3", 
-        "lat": 24.801517, 
-        "lng": 120.964151
+        "place": "綠蓋茶館新竹誠品站前店", 
+        "lat": 24.802893, 
+        "lng": 120.970515
     }
 };
 

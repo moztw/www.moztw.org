@@ -68,8 +68,8 @@
       <div class="details" id="taipei_lab">
         <ul>
         <li>每週五晚間 19:30-22:00</li>
-        <li><a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'Google Plus']);"  href="https://plus.google.com/110323027516199146477/about">Thé6 6号茶（<span class="locality">台北市</span><span class="street-address">中正區新生南路一段6號2樓 </span>）</a></li>
-        <li>電話：02-2394-0405</li>
+        <li><a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'TPE']);"  href="http://coffee.wawabook.com.tw/">蛙蛙漫吧（<span class="locality">台北市</span><span class="street-address">大安區八德路二段3號二樓 </span>）</a></li>
+        <li>電話：02-2778-1090</li>
         <li>低消：約100元，附 Wi-Fi 與電源。</li>
         <li>「免費參加，餐飲自理。」</li>
         </ul>
@@ -81,9 +81,8 @@
       <!-- Keelung Lab Info -->
       <div class="details" id="keelung_lab" style="display: none;">
         <ul>
-        <p style="color: red;margin-top: 1em;">基隆場目前因為黃色小鴨人潮眾多以及寒假的關係，<strong>暫時沒有固定聚會時間及地點</strong>。如果有興趣歡迎隨時關注 Twitter 上 #moztw 訊息 ，謝謝 ！</p>
-        <li><del>每週三晚間 19:00-21:00</del></li>
-        <li>1915海洋咖啡館 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab Keelung', 'Google Map']);"  href="http://goo.gl/maps/7q7FQ"><span class="locality">基隆市</span><span class="street-address">仁愛區港西街4號1樓</span></a></li>
+        <li>每週三晚間 19:00-21:00</li>
+        <li>1915海洋咖啡館 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'KEL']);"  href="http://goo.gl/maps/7q7FQ"><span class="locality">基隆市</span><span class="street-address">仁愛區港西街4號1樓</span></a></li>
         <li>電話：02-2428-8807</li>
         <li>低消：約60元，附 Wi-Fi 與電源。</li>
         <!--<li>「免費參加，餐飲自理。」</li>-->
@@ -97,7 +96,7 @@
       <div class="details" id="ilan_lab" style="display: none;">
         <ul>
         <li>不定期(請參閱<a href="https://groups.google.com/forum/#!topic/moztw-general/r3uSxxOEDoA">郵件群組</a>) 14:00-16:00</li>
-        <li>拾光響響公平貿易咖啡 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab ilan', 'Google Map']);"  href="http://www.facebook.com/cafeSeventeen/info"><span class="locality">宜蘭市</span><span class="street-address">農權路205號</span></a></li>
+        <li>拾光響響公平貿易咖啡 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'YLA']);"  href="http://www.facebook.com/cafeSeventeen/info"><span class="locality">宜蘭市</span><span class="street-address">農權路205號</span></a></li>
         <li>電話：0982-387-909</li>
         <li>低消：約100元，店內目前暫無提供網路連線，請自備 3G 行動網路，或預先抓取自己需要的文件、程式碼離線作業 。</li>
         <!-- <li>「免費參加，餐飲自理。」</li> -->
@@ -109,12 +108,11 @@
       
       <!-- Hsinchu Lab Info -->
       <div class="details" id="hsinchu_lab" style="display: none;">
-        <p style="color: red;margin-top: 1em;">新竹場目前逢寒假、過年，<strong>暫時停止舉辦</strong>，預計在寒假過後恢復，請留意Twitter上 #moztw 以及<a href="https://groups.google.com/forum/#!topic/moztw-general/g5xhqghDg4o">郵件群組</a>的消息！！</p>
         <ul>
-        <li><del>每週一晚間 19:30-22:00</del></li>
-        <li>新橋b3（大遠百後面）<a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab Hsinchu', 'Google Map']);"  href="http://www.shinchiao.com.tw/b3"><span class="locality">新竹市</span><span class="street-address">東區勝利路195號</span></a></li>
-        <li>電話：03-5277695</li>
-        <li>低消：約95元，附 Wi-Fi 與電源。</li>
+        <li>雙週四晚間 19:30-22:00</li>
+        <li>綠蓋茶館 新竹誠品站前店 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'HSU']);"  href=" http://www.lattea.com.tw/"><span class="locality">新竹市</span><span class="street-address">東區信義街68號3樓</span></a></li>
+        <li>電話：03-522-1937</li>
+        <li>低消：約60元，附 Wi-Fi 與電源。</li>
         <li>「免費參加，餐飲自理。」</li>
         </ul>
         <div class="mapcover">
