@@ -306,6 +306,7 @@
           <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage']);">Firefox 未來發行版本</a></li>
           <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
           <li><a href="/twoffice/">Mozilla Taiwan 公司徵人啟事</a></li>
+          <li><a href="/events/moztw-lab/">MozTW Lab 定期聚會</a></li>
         </ul>
     </div>
   </div>
