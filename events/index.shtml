@@ -107,10 +107,16 @@ jQuery(function($) {
             <time pubdate="pubdate">2014/3/15</time>
             <span class="arrow"></span>
           </header>
-          <div class="photo" style="background:url(moztwsteps2014s/1.jpg) -210px -135px">
+          
+	  <div class="photo" style="background:url(moztwsteps2014s/1.jpg) -210px -135px">
           </div>
+	  
           <div class="content">
-            摩茲春秋2014spring@Taichung</del>
+		<div style="color:#0000FF">
+            		<h2>##2014摩茲春秋 @Taichung,Taipei##<h2>
+		</div>
+	        <p>為期兩天,邀集對mozilla開源專案有熱情的夥伴們合作撰寫2014年下半年度的 Mozilla 相關專案貢獻企劃、設定目標，
+                   並同時產出影片、Blog posts、文件等，吸引更多社群成員加入MozTW貢獻自己的能量。</p>
           </div>
          
       </article>
