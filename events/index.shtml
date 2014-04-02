@@ -115,6 +115,25 @@ jQuery(function($) {
       </article>
     </a>
 
+    <a href="https://reps.mozilla.org/e/moztw-steps-2014-spring/" title="摩茲春秋" id="MozTWStep2014s">
+      <article class="on">
+          <header>
+            <h2>MozTW Steps 2014 春 @Taichung，Taipei</h2>
+            <time pubdate="pubdate">2014/3/15</time>
+            <span class="arrow"></span>
+          </header>
+          
+	  <div class="photo" style="background:url(moztwsteps2014s/1.jpg) -210px -135px">
+          </div>
+	   
+          <div class="content">
+	        為期兩天，邀集對 Mozilla 開源專案有熱情的夥伴們合作撰寫2014年下半年度的 Mozilla 相關專案貢獻企劃、設定目標，
+                並同時產出影片、Blog posts、文件等，吸引更多社群成員加入 MozTW 貢獻自己的能量。
+          </div>
+         
+      </article>
+    </a>
+
     <div class="group">
       <a href="service2013q4/" title="102 學年度第一學期服務學習成果總覽" id="service2013q4">
         <article class="small">
