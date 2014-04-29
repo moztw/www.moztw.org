@@ -51,6 +51,7 @@ The 2nd step is adding virtual host configs to your Apache configuration:
             AllowOverride All
             Order allow,deny
             allow from all
+            Require all granted
         </Directory>
     </VirtualHost>
 
