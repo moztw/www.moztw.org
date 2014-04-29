@@ -232,19 +232,23 @@ section .appendix {
                     <ul>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>一系列改善 Firefox 使用介面的新設計（<a href="http://blog.mozilla.org/futurereleases/2014/02/07/test-the-new-firefox-sync-and-customize-the-new-ui-in-firefox-aurora">了解更多</a>）。</h5>
+                        <h5>全新設計的自訂模式，讓您輕鬆配置常用功能，打造個人化的 Web 體驗（<a href="https://support.mozilla.org/en-US/kb/learn-more-about-the-design-of-new-firefox">了解更多</a>）。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>首次使用時，以互動式導覽幫助使用者認識新介面變更。</h5>
+                        <h5>Firefox 右手邊多了一個方便的選單，收納常用瀏覽功能。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>重新設計、更佳的自訂模式。</h5>
+                        <h5>圓潤的新分頁設計，提供更順暢的整體外觀，未選取時則會融入背景。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>能夠以註冊 Firefox 帳號的方式設定 Firefox Sync（<a href="https://blog.mozilla.org/blog/2014/02/07/introducing-mozilla-firefox-accounts/">了解更多</a>）。</h5>
+                        <h5>首次使用時，以互動式導覽幫助使用者認識介面變更。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-new">全新功能</span>
+                        <h5>能夠以註冊 Firefox 帳號的方式設定 Firefox Sync（<a href="https://support.mozilla.org/en-US/kb/how-do-i-set-up-firefox-sync?esab=a&amp;s=sync&amp;r=3&amp;as=s">了解更多</a>）。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
@@ -257,10 +261,6 @@ section .appendix {
                       <li>
                         <span class="tag tag-changed">變更</span>
                         <h5>點選 W3C Web Notification 時，將切換至原來產生通知的分頁。</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-changed">變更</span>
-                        <h5>為改善使用者隱私，navigator.plugins 不再是可列舉屬性。</h5>
                       </li>
                       <li>
                         <span class="tag tag-developer">開發功能</span>
@@ -309,11 +309,11 @@ section .appendix {
                   <ul>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
-                      <h5>apprtc.appspot.com 的 echo 消除功能（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=974537">bug 974537</a>）。</h5>
+                      <h5>Windows 7 更新 KB2670838 後（MSIE 10 需要此更新）或 Windows 8.1 上的文字顯示問題（已有暫時的<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695#c414">解決辦法</a>，見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695">bug 812695</a>）。</h5>
                     </li>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
-                      <h5>Windows 7 更新 KB2670838 後（MSIE 10 需要此更新）或 Windows 8.1 上的文字顯示問題（已有暫時的<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695#c414">解決辦法</a>，見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695">bug 812695</a>）。</h5>
+                      <h5>雖不傷害安全性，但還原瀏覽狀態後，延伸驗證憑證（Extended Validation Certificate）可能無法顯示（<a href="http://bugzilla.mozilla.org/show_bug.cgi?id=995801">bug 995801</a>）。</h5>
                     </li>
                   </ul>
                 </div>
