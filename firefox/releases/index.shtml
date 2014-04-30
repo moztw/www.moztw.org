@@ -256,6 +256,10 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
+                        <h5>採用 en-US 語系時，搜尋列的 Yahoo 搜尋會使用 HTTPS 連線。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-new">全新功能</span>
                         <h5>新增馬來語（ma）語系支援。</h5>
                       </li>
                       <li>
@@ -294,6 +298,14 @@ section .appendix {
                         <span class="tag tag-developer">開發功能</span>
                         <h5>移除附加元件列，將其內容移動到瀏覽工具列。</h5>
                       </li>
+                      <li>
+                        <span class="tag tag-developer">開發功能</span>
+                        <h5>實作標準 URLSearchParams（詳見 <a href="https://developer.mozilla.org/en-US/docs/Web/API/URLUtils">MDN</a>）。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全性修正</a>。</h5>
+                      </li>
 
                       <li class="complete">
                         請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&f1=target_milestone&f2=cf_status_firefox29&o1=anywords&o2=anywords&resolution=FIXED&v1=mozilla29%2C%20Firefox%2029&v2=fixed%2Cverified&order=bug_id&limit=0">完整變更清單</a>。
@@ -309,11 +321,11 @@ section .appendix {
                   <ul>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
-                      <h5>Windows 7 更新 KB2670838 後（MSIE 10 需要此更新）或 Windows 8.1 上的文字顯示問題（已有暫時的<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695#c414">解決辦法</a>，見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695">bug 812695</a>）。</h5>
+                      <h5>雖不傷害安全性，但還原瀏覽狀態後，延伸驗證憑證（Extended Validation Certificate）可能無法顯示（<a href="http://bugzilla.mozilla.org/show_bug.cgi?id=995801">bug 995801</a>）。</h5>
                     </li>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
-                      <h5>雖不傷害安全性，但還原瀏覽狀態後，延伸驗證憑證（Extended Validation Certificate）可能無法顯示（<a href="http://bugzilla.mozilla.org/show_bug.cgi?id=995801">bug 995801</a>）。</h5>
+                      <h5>Windows 7 更新 KB2670838 後（MSIE 10 需要此更新）或 Windows 8.1 上的文字顯示問題（已有暫時的<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695#c414">解決辦法</a>，見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695">bug 812695</a>）。</h5>
                     </li>
                   </ul>
                 </div>
