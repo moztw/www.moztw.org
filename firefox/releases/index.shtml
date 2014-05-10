@@ -214,8 +214,8 @@ section .appendix {
       <div class="key-point">
         <div id="product-desc" class="firefox-releasenotes-v4">
           <p id="release-date">
-            <time datetime="2014-04-29">2014 年 4 月 29 日</time>
-             v.29.0
+            <time datetime="2014-05-10">2014 年 5 月 10 日</time>
+             v.29.0.1
           </p>
           <p>此版本資訊包含了 <a href="#whatsnew">Firefox 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
 
@@ -230,6 +230,22 @@ section .appendix {
                 <h3>Firefox 新鮮事</h3>
                 <div class="section-contents">
                     <ul>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>29.0.1: pdf.js 列印出空白頁面的問題（<a href="https://bugzilla.mozilla.org/1003707">bug 1003707</a>）。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>29.0.1: 在 Windows 8.1 使用暗色背景主題會看不見分頁（<a href="https://bugzilla.mozilla.org/907373">bug 907373</a>）。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>29.0.1: 因 sessionstore.js 檔案毀損導致的還原瀏覽狀態失敗（<a href="https://bugzilla.mozilla.org/1001167">bug 1001167</a>）。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>29.0.1: 預設先停用 seer（<a href="https://bugzilla.mozilla.org/1005958">bug 1005958</a>）。</h5>
+                      </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
                         <h5>全新設計的自訂模式，讓您輕鬆配置常用功能，打造個人化的 Web 體驗（<a href="https://support.mozilla.org/en-US/kb/learn-more-about-the-design-of-new-firefox">了解更多</a>）。</h5>
@@ -321,11 +337,15 @@ section .appendix {
                   <ul>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>Windows 7 更新 KB2670838 後（MSIE 10 需要此更新）或 Windows 8.1 上的文字顯示問題（已有暫時的<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695#c414">解決辦法</a>，見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695">bug 812695</a>）。</h5>
+                    </li>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
                       <h5>雖不傷害安全性，但還原瀏覽狀態後，延伸驗證憑證（Extended Validation Certificate）可能無法顯示（<a href="http://bugzilla.mozilla.org/show_bug.cgi?id=995801">bug 995801</a>）。</h5>
                     </li>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
-                      <h5>Windows 7 更新 KB2670838 後（MSIE 10 需要此更新）或 Windows 8.1 上的文字顯示問題（已有暫時的<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695#c414">解決辦法</a>，見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=812695">bug 812695</a>）。</h5>
+                      <h5>因程式結束太慢導致的「Firefox 已在執行中」警告（<a href="http://bugzilla.mozilla.org/966469">bug 966469</a> 和 <a href="http://bugzilla.mozilla.org/985655">bug 985655</a>）。</h5>
                     </li>
                   </ul>
                 </div>
