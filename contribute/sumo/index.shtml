@@ -79,6 +79,9 @@ div.toggle, ol.toggle {
 h3.toggle, span.toggle {
 	cursor: default;
 }
+li {
+	padding-top: 20px;
+}
 </style>
 </noscript>
 
@@ -89,15 +92,15 @@ h3.toggle, span.toggle {
 	<div>
 		<div>
 			<h2>參與 SUMO 專案</h2>
-			<p>你知道 <a href="https://support.mozilla.org/zh-TW/products/firefox">Firefox 輔助說明</a>是由全世界一些超棒的<a href="https://support.mozilla.org/zh-TW/get-involved">超人義工</a>一起幫忙而成的嗎？<br />披上披風，加入我們吧！</p>
+			<p>你知道 <a href="https://support.mozilla.org/zh-TW/products/firefox">Firefox 輔助說明</a> 是由全世界一些超棒的<a href="https://support.mozilla.org/zh-TW/get-involved">超人義工</a>一起幫忙而成的嗎？<br />披上披風，加入我們吧！</p>
 		</div>
 	</div>
 </div>
 
 <div id="mainContent" class="right">
 	<h3>SUMO 專案是？</h3>
-	<p>SUMO 是 SUpport.MOzilla.org 的縮寫字。<br />
-		透過文件、討論區、論壇、郵件清單等方式，支援全球各個在地語言介面的 Mozilla 產品使用者，支援的 Mozilla 產品如：Firefox、Firefox for Android、Firefox OS、Webmaker、Thunderbird、Open Badges 等等。更多介紹請<a href="http://www.slideshare.net/dwchiang/moztw-about-sumo-20140315">參考這裡</a>。</p>
+	<p>SUMO 是 SUpport.MOzilla.org 的縮寫字。</p>
+	<p>透過文件、討論區、論壇、郵件清單等方式，支援全球各個在地語言介面的 Mozilla 產品使用者，支援的 Mozilla 產品如：Firefox、Firefox for Android、Firefox OS、Webmaker、Thunderbird、Open Badges 等等。更多介紹請<a href="http://www.slideshare.net/dwchiang/moztw-about-sumo-20140315">參考這裡</a>。</p>
 
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
@@ -106,7 +109,7 @@ h3.toggle, span.toggle {
 	<p>(理想狀況會在半年到一年內更新資訊，但如果被遺忘太久，歡迎到 MozTW 郵件群組鞭策 <a href="http://talk.ernestchiang.com/search/label/moztw">Ernest</a>，或是把「更新專案近況」這件事情隨手撿去更新也不錯（歡迎來到社群）。)</p>
 	<div>
 		<ul>
-			<li><iframe src="http://www.slideshare.net/slideshow/embed_code/32362182" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/dwchiang/moztw-about-sumo-20140315" title="MozTW About SUMO 20140315" target="_blank">MozTW About SUMO 20140315</a> </strong> from <strong><a href="http://www.slideshare.net/dwchiang" target="_blank">Ernest Chiang</a></strong> </div></li>
+			<li><br/><iframe src="http://www.slideshare.net/slideshow/embed_code/32362182" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px 1px 0; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/dwchiang/moztw-about-sumo-20140315" title="MozTW About SUMO 20140315" target="_blank">MozTW About SUMO 20140315</a> </strong> from <strong><a href="http://www.slideshare.net/dwchiang" target="_blank">Ernest Chiang</a></strong> </div></li>
 		</ul>
 	</div>
 
@@ -188,8 +191,8 @@ h3.toggle, span.toggle {
 </div>
 <div id="side" class="right">
 	<h3>如何報名？</h3>
-		<p>歡迎使用 <a href="https://etherpad.mozilla.org/sumo-taiwan">MozTW SUMO 專案 MoPad</a>。<br />
-			大部分的 SUMO 工作任務都不用報名，歡迎隨手撿起來做！當然舉手說一聲你完成了哪件事情，跟大家一起分享，也是很棒的！<br />
+		<p>歡迎使用 <a href="https://etherpad.mozilla.org/sumo-taiwan">MozTW SUMO 專案 MoPad</a>。<br /><br />
+			大部分的 SUMO 工作任務都不用報名，歡迎隨手撿起來做！當然舉手說一聲你完成了哪件事情，跟大家一起分享，也是很棒的！<br /><br />
 			在地化、網站等相關工作，您需要找到目前負責協調的社群成員，請到 <a href="https://groups.google.com/group/moztw-general">moztw-general</a> 郵件群組自我介紹，並說明您想協助哪些工作。</p>
 
 	<p>&nbsp;</p>
@@ -197,7 +200,9 @@ h3.toggle, span.toggle {
 
 	<h3>Taiwan Events</h3>
 		<p>
-			(2013-11-30) <a href="https://etherpad.mozilla.org/moztw-L10n-2013">MozTW L10n Sprint 2013</a> -- SUMO 部分，以翻譯 SUMO 網站界面為主。<br/>
+			<ul>
+				<li>(2013-11-30) <a href="https://etherpad.mozilla.org/moztw-L10n-2013">MozTW L10n Sprint 2013</a> -- SUMO 部分，以翻譯 SUMO 網站界面為主。</li>
+			</ul>
 		</p>
 
 	<p>&nbsp;</p>
@@ -205,7 +210,9 @@ h3.toggle, span.toggle {
 
 	<h3>International Events</h3>
 		<p>
-			<a href="https://etherpad.mozilla.org/sumo-regional-meeting-asia">Regional SUMO Meeting, Asia</a><br/>
+			<ul>
+				<li><a href="https://etherpad.mozilla.org/sumo-regional-meeting-asia">Regional SUMO Meeting, Asia</a></li>
+			</ul>
 		</p>
 
 	<p>&nbsp;</p>
