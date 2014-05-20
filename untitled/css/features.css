@@ -2,11 +2,11 @@ img {
     max-width: 100%;
 }
 
-#product-desc.product-thunderbird {
+#product-desc.about {
    background: transparent url(../images/product-thunderbird-screen-kai.png) no-repeat scroll 0 0;
    padding: 40px 0 0;
 }
-#product-desc.product-thunderbird p {
+#product-desc.about p {
    padding-left: 207px;
    padding-top: 77px;
 }
@@ -38,8 +38,8 @@ article.module {
    margin-left: 20px;
 }
 div[class^=grid-] > p {
-   margin-bottom: 8px;
-   padding-right: 25px;
+   margin-bottom: 2px;
+   padding-right: 30px;
 }
 
 .feature-links {
@@ -110,6 +110,17 @@ div[class^=grid-] > p {
 .feature-links li#customize a .feature-link-content { background-position: 50% 0; }
 .feature-links li#secure-protect a .feature-link-content { background-position: 50% -710px; }
 
+
+#top-bottom {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D7D9E8;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
+    padding: 15px 20px 10px;
+    width: 220px;
+}
+
+
 /*#top-features*/
 #top-features {
     background: none repeat scroll 0 0 #FFFFFF;
@@ -117,7 +128,7 @@ div[class^=grid-] > p {
     border-radius: 6px 6px 6px 6px;
     box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
     padding: 15px 20px 10px;
-    width: 150px;
+    width: 360px;
 }
 #top-features h3 {
     font-size: 18px;
