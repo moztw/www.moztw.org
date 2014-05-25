@@ -173,6 +173,7 @@ li {
 					<li><a href="https://support.mozilla.org/zh-TW/localization/template-translations">知識庫範本清單</a>。</li>
 					<li><a href="http://support-release.allizom.org/zh-TW/home">SUMO Stage Server</a>。(翻譯 Verbatim 後，檢查用)</li>
 					<li><a href="https://localize.mozilla.org/zh_TW/">Translate (l10n)</a>。</li> 
+					<li>不確定某個字或詞該怎麼翻譯嗎？MozFR 的 Transvision 能讓你快速參閱其他人對同一個字的翻譯。例如：「<a href="http://transvision.mozfr.org/?recherche=plugin&repo=central&sourcelocale=en-US&locale=zh-TW&search_type=strings">plugin</a>」 </li>
 				</ul>
 				<p>&nbsp;</p>
 			</li>
