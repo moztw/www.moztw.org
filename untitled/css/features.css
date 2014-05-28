@@ -128,7 +128,7 @@ div[class^=grid-] > p {
     border-radius: 6px 6px 6px 6px;
     box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
     padding: 15px 20px 10px;
-    width: 360px;
+    width: 260px;
 }
 #top-features h3 {
     font-size: 18px;
@@ -174,9 +174,9 @@ div[class^=grid-] > p {
 
 /* 螢幕寬度較小調整 in width 940px ----------- */
 @media only screen and (max-width:940px) {
-   #top-features {
+/*   #top-features {
       display: none;
-   }
+   } */
    .feature-links {
       background: none;
    }
@@ -198,6 +198,12 @@ div[class^=grid-] > p {
    .feature-links li {
       margin-right: 5px;
    }
+   .container.block .key-point .grids  {width:400px}
+   .container.block .key-point .grids .grid-8 {width:320px}
+   .container.block .key-point .grids .grid-5 {width:320px}
+
+
+
 }
 
 .grids  {width:840px}
