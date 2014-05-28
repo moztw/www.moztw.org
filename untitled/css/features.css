@@ -130,6 +130,16 @@ div[class^=grid-] > p {
     padding: 15px 20px 10px;
     width: 260px;
 }
+
+#top-features2 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D7D9E8;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
+    padding: 15px 20px 10px;
+    width: 260px;
+}
+
 #top-features h3 {
     font-size: 18px;
     line-height: 1;
@@ -180,7 +190,48 @@ div[class^=grid-] > p {
    .feature-links {
       background: none;
    }
+.container.block .key-point .grids .grid-8 {width:390px}
+
 }
+
+@media only screen and (max-width:830px) {
+/*   #top-features {
+      display: none;
+   } */
+   .feature-links {
+      background: none;
+   }
+.container.block .key-point .grids  {width:500px}
+.container.block .key-point .grids .grid-8 {width:320px}
+.container.block .key-point .grids .grid-4 {width:120px}
+
+}
+
+@media only screen and (max-width:735px) {
+   .feature-links li a .feature-link-content  {
+      /*background: none;*/
+      display: block;
+      width: 60px;
+      font-size: 14px;
+      font-style: italic;
+      line-height: 16px;
+      text-align: left;
+      /*padding: 5px;*/
+      cursor: pointer; /* For IE */
+      position: relative;
+      top: 0;
+   }
+   .feature-links li {
+      margin-right: 5px;
+   }
+   .container.block .key-point .grids  {width:400px}
+   .container.block .key-point .grids .grid-8 {width:320px}
+   .container.block .key-point .grids .grid-4 {width:320px}
+
+
+}
+
+
 @media only screen and (max-width:433px) {
    .feature-links li a .feature-link-content  {
       /*background: none;*/
@@ -200,7 +251,7 @@ div[class^=grid-] > p {
    }
    .container.block .key-point .grids  {width:400px}
    .container.block .key-point .grids .grid-8 {width:320px}
-   .container.block .key-point .grids .grid-5 {width:320px}
+   .container.block .key-point .grids .grid-4 {width:320px}
 
 
 
@@ -210,7 +261,9 @@ div[class^=grid-] > p {
 .grid-1 {width: 40px}
 .grid-2 {width:110px}
 .grid-3 {width:180px}
-.grid-4 {width:250px}
+.grid-4 {
+  width:250px
+}
 .grid-5 {width:320px}
 .grid-6 {width:390px}
 .grid-7 {width:460px}

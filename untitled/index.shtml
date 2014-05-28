@@ -21,9 +21,9 @@
              </div>
              
          </div>
-         <div class="grid-4" style="margin: 0px auto;">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.0360866786086!2d121.52633000000002!3d25.066766000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a95aa5f059f5%3A0x54c79a961a8877e3!2zMTA05Y-w54Gj5Y-w5YyX5biC5Lit5bGx5Y2A5b635oOg6KGXMjPomZ8!5e0!3m2!1szh-TW!2s!4v1400606398459" width="300" height="200" frameborder="0" style="border:0"></iframe>
-           <div id="top-features">
+         <div class="grid-4" >
+           <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.0360866786086!2d121.52633000000002!3d25.066766000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a95aa5f059f5%3A0x54c79a961a8877e3!2zMTA05Y-w54Gj5Y-w5YyX5biC5Lit5bGx5Y2A5b635oOg6KGXMjPomZ8!5e0!3m2!1szh-TW!2s!4v1400606398459" width="300" height="200" frameborder="0" style="border:0"></iframe>
+           <div id="top-features"  >
            <p>地址：台北市中山區德惠街23號地下室</p>
            <p>Address：B1, No.23, Dehui St.,</p>
            <p> Zhongshan Dist.,Taipei</p>
@@ -47,6 +47,7 @@
                <p>　</p>
                <iframe src="https://www.google.com/calendar/embed?mode=AGENDA&amp;height=260&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=oib3k43ofedochrh6tqaqdva04%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=Asia%2FTaipei" style=" border-width:0 " width="300" height="260" frameborder="0" scrolling="no"></iframe>
               </div>
+            </br>
              
             </div>
             <div class="grid-5">
@@ -63,7 +64,7 @@
                   <li>5/27 (二) 晚間 19:30-22:00</li>
                   <li>5/28 (三) 晚間 19:30-22:00</li>
                </ul>
-               <div id="top-features">
+               <div id="top-features2">
                <p>如果你不確定有沒有人在，可以 Mailing List / IRC / Line / Telegram 上面問一下。現場有網路、電、飲料，歡迎大家來做 Mozilla / Open Source / Web 等等相關的事情 :)</p>
                </div>
             </div>
