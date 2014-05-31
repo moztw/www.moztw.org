@@ -7,21 +7,21 @@
       Tabzilla.setStatic();
    }
 </script>
-<link href="css/features.css" rel="stylesheet" />
+<link href="css/mozspacetp.css" rel="stylesheet" />
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
 <section class="container block">
    <div class="key-point">
       <div class="grids">
-         <div class="grid-8">
+         <div class="grid-7">
              <div id="product-desc" class="about">
                <h2>摩茲工寮 | Mozilla Community Space Taipei</h2>
                <h5>摩茲工寮 - Mozilla Community Space Taipei 是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。</h5>
              </div>
          </div>
-         <div class="grid-4">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.0360866786086!2d121.52633000000002!3d25.066766000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a95aa5f059f5%3A0x54c79a961a8877e3!2zMTA05Y-w54Gj5Y-w5YyX5biC5Lit5bGx5Y2A5b635oOg6KGXMjPomZ8!5e0!3m2!1szh-TW!2s!4v1400606398459" width="300" height="200" frameborder="0" style="border:0"></iframe>
+         <div class="grid-5">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.0360866786086!2d121.52633000000002!3d25.066766000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a95aa5f059f5%3A0x54c79a961a8877e3!2zMTA05Y-w54Gj5Y-w5YyX5biC5Lit5bGx5Y2A5b635oOg6KGXMjPomZ8!5e0!3m2!1szh-TW!2s!4v1400606398459" width="340" height="200" frameborder="0" style="border:0"></iframe>
             <div id="top-features">
               <p>地址：10460 台北市中山區德惠街23號地下一樓</p>
               <p>Address: B1, No.23, Dehui St., Zhongshan Dist., Taipei City 10460, Taiwan</p>

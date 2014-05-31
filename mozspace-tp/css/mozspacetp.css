@@ -51,8 +51,8 @@ div[class^=grid-] > p {
     border: 1px solid #D7D9E8;
     border-radius: 6px 6px 6px 6px;
     box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
-    padding: 15px 20px 10px;
-    width: 260px;
+    padding: 10px 20px;
+    width: 300px;
 }
 
 #top-features2 {
