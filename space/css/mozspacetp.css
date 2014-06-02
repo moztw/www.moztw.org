@@ -20,6 +20,10 @@ img {
   float: right;
   margin-left: 75px;
 }
+
+.grid-title {
+  margin-bottom: 10px;
+}
 .grids > h4 {
   margin-left: 20px;
 }

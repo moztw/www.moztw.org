@@ -15,7 +15,7 @@ Tabzilla.onReady = function() {
   <div class="key-point">
     <div class="grids">
       <div class="grid-7">
-        <div class="grid-title" class="about">
+        <div class="grid-title about">
           <h2>摩茲工寮 | Mozilla Community Space Taipei</h2>
           <h5>摩茲工寮 - Mozilla Community Space Taipei 是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。</h5>
         </div>
@@ -38,7 +38,6 @@ Tabzilla.onReady = function() {
         <div class="grid-7">
           <div class="grid-title">
             <h2>近期活動</h2>
-            <p>　</p>
             <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=260&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=3fs8qeakm6ij88hibpb5bsg3mc%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=Asia%2FTaipei" style=" border:solid 1px #777 " width="300" height="260" frameborder="0" scrolling="no"></iframe>
           </div>
         </div>
