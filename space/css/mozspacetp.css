@@ -1,177 +1,92 @@
 img {
-    max-width: 100%;
-}
-#product-desc.about {
-   background: transparent url(../images/product-thunderbird-screen-kai.png) no-repeat scroll 0 0;
-   padding: 40px 0 0;
-}
-#product-desc.about p {
-   padding-left: 207px;
-   padding-top: 77px;
+  max-width: 100%;
 }
 .key-point {
-   padding: 30px;
-   height: auto;
+  padding: 30px;
+  height: auto;
 }
-#main-feature div.grid-9 h2,
-#main-feature div.grid-9 p {
-    margin-left: 20px;
+.main-feature div.grid-9 h2,
+.main-feature div.grid-9 p {
+  margin-left: 20px;
 }
-#main-feature div.grid-9 {
-    margin-left: 10px;
+.main-feature div.grid-9 {
+  margin-left: 10px;
 }
-#main-feature div.grid-3 {
-    margin-left: 0;
+.main-feature div.grid-3 {
+  margin-left: 0;
 }
 
 .right {
-   float: right;
-   margin-left: 75px;
+  float: right;
+  margin-left: 75px;
 }
 .grids > h4 {
-   margin-left: 20px;
+  margin-left: 20px;
 }
 div[class^=grid-] > p {
-   margin-bottom: 2px;
-   padding-right: 30px;
+  margin-bottom: 2px;
+  text-align: justify;
 }
 
-#top-bottom {
-    background: none repeat scroll 0 0 #FFFFFF;
-    border: 1px solid #D7D9E8;
-    border-radius: 6px 6px 6px 6px;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
-    padding: 10px 20px;
-    width: 220px;
-    text-align: center;
+.bottom-box {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #D7D9E8;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
+  padding: 10px 20px;
+  width: 220px;
+  text-align: center;
 }
 
-/*#top-features*/
-#top-features {
-    background: none repeat scroll 0 0 #FFFFFF;
-    border: 1px solid #D7D9E8;
-    border-radius: 6px 6px 6px 6px;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
-    padding: 10px 20px;
-    width: 300px;
+/*.desc-box*/
+.desc-box {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #D7D9E8;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
+  padding: 10px 20px;
+  width: 300px;
 }
-
-#top-features2 {
-    background: none repeat scroll 0 0 #FFFFFF;
-    border: 1px solid #D7D9E8;
-    border-radius: 6px 6px 6px 6px;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
-    padding: 15px 20px 10px;
-    width: 260px;
+.desc-box h3 {
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
 }
-
-#top-features h3 {
-    font-size: 18px;
-    line-height: 1;
-    margin: 0;
+.desc-box p {
+  font-size: 12px;
+  margin: 0;
 }
-#main-feature #top-features p {
-    font-size: 12px;
-    margin: 0;
+.desc-box ul li {
+  list-style: none outside none;
+  margin-top: 15px;
+  margin-left: -3em;
+  position: relative;
 }
-#top-features ul li {
-    list-style: none outside none;
-    margin-top: 15px;
-    margin-left: -3em;
-    position: relative;
-}
-#top-features ul li a {
-    display: inline;
-}
-#top-features ul li a {
-}
-#top-features .top-feature-hover {
-    background: url("../images/features/bubble.png") repeat scroll 0 0 transparent;
-    border-radius: 15px 15px 15px 15px;
-    bottom: -23px;
-    display: none;
-    height: 84px;
-    left: -224px;
-    padding: 20px 30px 28px 35px;
-    position: absolute;
-    width: 154px;
-}
-#top-features .top-feature-hover p {
-    color: #FFFFFF;
-    font-size: 11px;
-}
-#top-features .top-feature-hover h3 {
-    color: #FFFFFF;
-    font-size: 11px;
-    font-weight: bold;
-    margin: 0 0 6px;
+.desc-box ul li a {
+  display: inline;
 }
 
 /* 螢幕寬度較小調整 in width 940px ----------- */
 @media only screen and (max-width:940px) {
-/*   #top-features {
-      display: none;
-   } */
-   .feature-links {
-      background: none;
-   }
-.container.block .key-point .grids .grid-8 {width:390px}
+  .container.block .key-point .grids .grid-8 {width:390px}
 }
 
 @media only screen and (max-width:830px) {
-/*   #top-features {
-      display: none;
-   } */
-   .feature-links {
-      background: none;
-   }
-.container.block .key-point .grids  {width:500px}
-.container.block .key-point .grids .grid-8 {width:320px}
-.container.block .key-point .grids .grid-4 {width:120px}
+  .container.block .key-point .grids         {width:500px}
+  .container.block .key-point .grids .grid-8 {width:320px}
+  .container.block .key-point .grids .grid-4 {width:120px}
 }
 
 @media only screen and (max-width:735px) {
-   .feature-links li a .feature-link-content  {
-      /*background: none;*/
-      display: block;
-      width: 60px;
-      font-size: 14px;
-      font-style: italic;
-      line-height: 16px;
-      text-align: left;
-      /*padding: 5px;*/
-      cursor: pointer; /* For IE */
-      position: relative;
-      top: 0;
-   }
-   .feature-links li {
-      margin-right: 5px;
-   }
-   .container.block .key-point .grids  {width:400px}
-   .container.block .key-point .grids .grid-8 {width:320px}
-   .container.block .key-point .grids .grid-4 {width:320px}
+  .container.block .key-point .grids         {width:400px}
+  .container.block .key-point .grids .grid-8 {width:320px}
+  .container.block .key-point .grids .grid-4 {width:320px}
 }
 
 @media only screen and (max-width:433px) {
-   .feature-links li a .feature-link-content  {
-      /*background: none;*/
-      display: block;
-      width: 60px;
-      font-size: 14px;
-      font-style: italic;
-      line-height: 16px;
-      text-align: left;
-      /*padding: 5px;*/
-      cursor: pointer; /* For IE */
-      position: relative;
-      top: 0;
-   }
-   .feature-links li {
-      margin-right: 5px;
-   }
-   .container.block .key-point .grids  {width:400px}
-   .container.block .key-point .grids .grid-8 {width:320px}
-   .container.block .key-point .grids .grid-4 {width:320px}
+  .container.block .key-point .grids         {width:400px}
+  .container.block .key-point .grids .grid-8 {width:320px}
+  .container.block .key-point .grids .grid-4 {width:320px}
 }
 
 .grids  {width:840px}
@@ -189,5 +104,5 @@ div[class^=grid-] > p {
 .grid-12{width:810px}
 
 div[class^=grid-] {
-   margin-right: 10px;
+  margin-right: 10px;
 }

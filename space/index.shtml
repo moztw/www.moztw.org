@@ -1,121 +1,117 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
-<title>摩資工寮 Mozilla Community Space Taipei | MozTW, Mozilla Taiwan Community</title>
+<title>摩茲工寮 Mozilla Community Space Taipei | MozTW, Mozilla Taiwan Community</title>
 <meta name="description" content="摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意>的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。摩茲工寮歡迎社成員免費使用，歡迎加入、一同塑造屬於我們的 Web。" />
 <script>
-   // let tabzilla not clickable
-   Tabzilla.onReady = function() {
-      Tabzilla.setStatic();
-   }
+  // let tabzilla not clickable
+Tabzilla.onReady = function() {
+  Tabzilla.setStatic();
+}
 </script>
 <link href="css/mozspacetp.css" rel="stylesheet" />
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
 <section class="container block">
-   <div class="key-point">
+  <div class="key-point">
+    <div class="grids">
+      <div class="grid-7">
+        <div class="grid-title" class="about">
+          <h2>摩茲工寮 | Mozilla Community Space Taipei</h2>
+          <h5>摩茲工寮 - Mozilla Community Space Taipei 是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。</h5>
+        </div>
+      </div>
+      <div class="grid-5">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.0360866786086!2d121.52633000000002!3d25.066766000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a95aa5f059f5%3A0x54c79a961a8877e3!2zMTA05Y-w54Gj5Y-w5YyX5biC5Lit5bGx5Y2A5b635oOg6KGXMjPomZ8!5e0!3m2!1szh-TW!2s!4v1400606398459" width="340" height="200" frameborder="0" style="border:0"></iframe>
+        <div id="address" class="desc-box">
+          <p>地址：10460 台北市中山區德惠街23號地下一樓</p>
+          <p>Address: B1, No.23, Dehui St., Zhongshan Dist., Taipei City 10460, Taiwan</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container block">
+  <div class="key-point">
+    <div class="main-feature">
       <div class="grids">
-         <div class="grid-7">
-             <div id="product-desc" class="about">
-               <h2>摩茲工寮 | Mozilla Community Space Taipei</h2>
-               <h5>摩茲工寮 - Mozilla Community Space Taipei 是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。</h5>
-             </div>
-         </div>
-         <div class="grid-5">
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.0360866786086!2d121.52633000000002!3d25.066766000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a95aa5f059f5%3A0x54c79a961a8877e3!2zMTA05Y-w54Gj5Y-w5YyX5biC5Lit5bGx5Y2A5b635oOg6KGXMjPomZ8!5e0!3m2!1szh-TW!2s!4v1400606398459" width="340" height="200" frameborder="0" style="border:0"></iframe>
-            <div id="top-features">
-              <p>地址：10460 台北市中山區德惠街23號地下一樓</p>
-              <p>Address: B1, No.23, Dehui St., Zhongshan Dist., Taipei City 10460, Taiwan</p>
-            </div>
-         </div>
+        <div class="grid-7">
+          <div class="grid-title">
+            <h2>近期活動</h2>
+            <p>　</p>
+            <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=260&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=3fs8qeakm6ij88hibpb5bsg3mc%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=Asia%2FTaipei" style=" border:solid 1px #777 " width="300" height="260" frameborder="0" scrolling="no"></iframe>
+          </div>
+        </div>
+        <div class="grid-5">
+          <div class="grid-title">
+            <h2>開放時間</h2>
+          </div>
+          <!--<ul class="compact">
+            <li>5/19 (一) 晚間 19:30-22:00</li>
+            <li>5/21 (三) 晚間 19:30-22:00</li>
+            <li>5/22 (四) 晚間 19:30-22:00</li>
+            <li>5/25 (日) 下午 14:00-17:00</li>
+            <li>5/26 (一) 晚間 19:30-22:00</li>
+            <li>5/27 (二) 晚間 19:30-22:00</li>
+            <li>5/28 (三) 晚間 19:30-22:00</li>
+          </ul>-->
+          <p>每週一至四晚間 19:30-22:00，不含每周五晚上的 <a href="http://moztw.org/events/moztw-lab/">MozTW Lab 台北場</a>。詳細時間與特別活動請見左欄時間表。</p>
+          <div class="desc-box">
+            <p>如果你不確定有沒有人在，可在 Mailing List / IRC / Line / Telegram 上面問一下。現場有網路、電、飲料，歡迎大家來做 Mozilla / Open Source / Web 等等相關的事情 :)</p>
+          </div>
+        </div>
       </div>
-   </div>
+    </div>
+  </div>
 </section>
 
 <section class="container block">
-   <div class="key-point">
-      <div id="main-feature">
-         <div class="grids">
-            <div class="grid-7">
-              <div id="product-desc">
-               <h2>近期活動</h2>
-               <p>　</p>
-               <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=260&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=3fs8qeakm6ij88hibpb5bsg3mc%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=Asia%2FTaipei" style=" border:solid 1px #777 " width="300" height="260" frameborder="0" scrolling="no"></iframe>
-              </div>
-            </br>
-             
-            </div>
-            <div class="grid-5">
-               <div id="product-desc">
-               <h2>開放時間</h2>
-            </div>
-               <!--<ul class="compact">
-                  <li>5/19 (一) 晚間 19:30-22:00</li>
-                  <li>5/21 (三) 晚間 19:30-22:00</li>
-                  <li>5/22 (四) 晚間 19:30-22:00</li>
-                  <li>5/25 (日) 下午 14:00-17:00</li>
-                  <li>5/26 (一) 晚間 19:30-22:00</li>
-                  <li>5/27 (二) 晚間 19:30-22:00</li>
-                  <li>5/28 (三) 晚間 19:30-22:00</li>
-               </ul>-->
-              <p>每週一至四晚間 19:30-22:00，不含每周五晚上的 <a href="http://moztw.org/events/moztw-lab/">MozTW Lab 台北場</a>。詳細時間與特別活動請見左欄時間表。</p>
-              <div id="top-features2">
-                <p>如果你不確定有沒有人在，可在 Mailing List / IRC / Line / Telegram 上面問一下。現場有網路、電、飲料，歡迎大家來做 Mozilla / Open Source / Web 等等相關的事情 :)</p>
-              </div>
-            </div>
-         </div>
-       </div>
+  <div class="key-point">
+    <div class="main-feature">
+      <div class="grids">
+        <div class="grid-7">
+          <div class="grid-title">
+            <h2>我們的場地提供：</h2>
+            <ul class="compact">
+              <li>雙向 100M 的無線網路</li>
+              <li>很貼心的三孔插座</li>
+              <li>讓你開心的碳酸飲料</li>
+              <li>保證會涼的空調</li>
+              <li>超棒的桌椅</li>
+              <li>滿滿的熱情</li>
+            </ul>
+          </div>
+        </div>
+        <div class="grid-5">
+          <div class="grid-title"></div>
+        </div>
       </div>
-   </div>
+    </div>
+  </div>
 </section>
 
 <section class="container block">
-   <div class="key-point">
-      <div id="main-feature">
-         <div class="grids">
-            <div class="grid-5">
-              <div id="product-desc" >
-               <h2>我們的場地提供：</h2>
-                  <ul class="compact">
-                    <li>雙向 100M 的無線網路</li>
-                    <li>很貼心的三孔插座</li>
-                    <li>讓你開心的碳酸飲料</li>
-                    <li>保證會涼的空調</li>
-                    <li>超棒的桌椅</li>
-                    <li>滿滿的熱情</li>
-                  </ul>
-              </div>
-            </div>
-            <div class="grid-7">
-               <div id="product-desc"></div>
-            </div>
-         </div>   
-         </div>
+  <div class="key-point">
+    <div class="main-feature">
+      <div class="grids">
+        <div class="grid-4">
+          <div class="bottom-box">
+            <a href="mailto:space@moztw.org">聯絡我們</a>
+          </div>
+        </div>
+        <div class="grid-4">
+          <div class="bottom-box">
+            <a href="">營運中心</a>
+          </div>
+        </div>
+        <div class="grid-4">
+          <div class="bottom-box">
+            <a href="">使用規範</a>
+          </div>
+        </div>
       </div>
-   </div>
-</section>
-
-<section class="container block">
-   <div class="key-point">
-      <div id="main-feature">
-         <div class="grids">
-            <div class="grid-4">
-               <div id="top-bottom">
-                <a href="mailto:space@moztw.org">聯絡我們</a>
-               </div>
-            </div>
-            <div class="grid-4">
-               <div id="top-bottom">
-                <a href="">營運中心</a>
-               </div>
-            </div>
-            <div class="grid-4">
-               <div id="top-bottom">
-                <a href="">使用規範</a>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
+    </div>
+  </div>
 </section>
 
 <!--#include virtual="/sandstone/footer.shtml" -->
