@@ -1,6 +1,6 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
 <title>摩茲工寮 Mozilla Community Space Taipei | MozTW, Mozilla Taiwan Community</title>
-<meta name="description" content="摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意>的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。摩茲工寮歡迎社成員免費使用，歡迎加入、一同塑造屬於我們的 Web。" />
+<meta name="description" content="摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。摩茲工寮歡迎社成員免費使用，歡迎加入、一同塑造屬於我們的 Web。" />
 <script>
   // let tabzilla not clickable
 Tabzilla.onReady = function() {
@@ -45,15 +45,6 @@ Tabzilla.onReady = function() {
           <div class="grid-title">
             <h2>開放時間</h2>
           </div>
-          <!--<ul class="compact">
-            <li>5/19 (一) 晚間 19:30-22:00</li>
-            <li>5/21 (三) 晚間 19:30-22:00</li>
-            <li>5/22 (四) 晚間 19:30-22:00</li>
-            <li>5/25 (日) 下午 14:00-17:00</li>
-            <li>5/26 (一) 晚間 19:30-22:00</li>
-            <li>5/27 (二) 晚間 19:30-22:00</li>
-            <li>5/28 (三) 晚間 19:30-22:00</li>
-          </ul>-->
           <p>每週一至四晚間 19:30-22:00，不含每周五晚上的 <a href="http://moztw.org/events/moztw-lab/">MozTW Lab 台北場</a>。詳細時間與特別活動請見左欄時間表。</p>
           <div class="desc-box">
             <p>如果你不確定有沒有人在，可在 Mailing List / IRC / Line / Telegram 上面問一下。現場有網路、電、飲料，歡迎大家來做 Mozilla / Open Source / Web 等等相關的事情 :)</p>
