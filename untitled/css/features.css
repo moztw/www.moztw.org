@@ -192,6 +192,15 @@ div[class^=grid-] > p {
    }
 .container.block .key-point .grids .grid-8 {width:390px}
 
+#top-bottom {
+    width: 160px;
+}
+
+#top-features2 {
+  width:200px;
+}
+
+
 }
 
 @media only screen and (max-width:830px) {
@@ -201,9 +210,16 @@ div[class^=grid-] > p {
    .feature-links {
       background: none;
    }
-.container.block .key-point .grids  {width:500px}
+.container.block .key-point .grids  {width:600px}
 .container.block .key-point .grids .grid-8 {width:320px}
-.container.block .key-point .grids .grid-4 {width:120px}
+.container.block .key-point .grids .grid-4 {width:140px}
+.container.block .key-point .grids .grid-7 {width:320px}
+.container.block .key-point .grids .grid-5 {width:220px}
+
+
+#top-bottom {
+    width: 120px;
+}
 
 }
 
@@ -224,6 +240,7 @@ div[class^=grid-] > p {
    .feature-links li {
       margin-right: 5px;
    }
+   .container.block .key-point .grids  {margin:0 auto}
    .container.block .key-point .grids  {width:400px}
    .container.block .key-point .grids .grid-8 {width:320px}
    .container.block .key-point .grids .grid-4 {width:320px}
@@ -249,6 +266,7 @@ div[class^=grid-] > p {
    .feature-links li {
       margin-right: 5px;
    }
+   .container.block .key-point {padding: 0px}
    .container.block .key-point .grids  {width:400px}
    .container.block .key-point .grids .grid-8 {width:320px}
    .container.block .key-point .grids .grid-4 {width:320px}
@@ -261,9 +279,7 @@ div[class^=grid-] > p {
 .grid-1 {width: 40px}
 .grid-2 {width:110px}
 .grid-3 {width:180px}
-.grid-4 {
-  width:250px
-}
+.grid-4 {width:250px}
 .grid-5 {width:320px}
 .grid-6 {width:390px}
 .grid-7 {width:460px}
