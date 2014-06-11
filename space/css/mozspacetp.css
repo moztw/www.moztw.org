@@ -1,0 +1,112 @@
+img {
+  max-width: 100%;
+}
+.key-point {
+  padding: 30px;
+  height: auto;
+}
+.main-feature div.grid-9 h2,
+.main-feature div.grid-9 p {
+  margin-left: 20px;
+}
+.main-feature div.grid-9 {
+  margin-left: 10px;
+}
+.main-feature div.grid-3 {
+  margin-left: 0;
+}
+
+.right {
+  float: right;
+  margin-left: 75px;
+}
+
+.grid-title {
+  margin-bottom: 10px;
+}
+.grids > h4 {
+  margin-left: 20px;
+}
+div[class^=grid-] > p {
+  margin-bottom: 2px;
+  text-align: justify;
+}
+
+.bottom-box {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #D7D9E8;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
+  padding: 10px 20px;
+  width: 220px;
+  text-align: center;
+}
+
+/*.desc-box*/
+.desc-box {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #D7D9E8;
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
+  padding: 10px 20px;
+  width: 300px;
+}
+.desc-box h3 {
+  font-size: 18px;
+  line-height: 1;
+  margin: 0;
+}
+.desc-box p {
+  font-size: 12px;
+  margin: 0;
+}
+.desc-box ul li {
+  list-style: none outside none;
+  margin-top: 15px;
+  margin-left: -3em;
+  position: relative;
+}
+.desc-box ul li a {
+  display: inline;
+}
+
+/* 螢幕寬度較小調整 in width 940px ----------- */
+@media only screen and (max-width:940px) {
+  .container.block .key-point .grids .grid-8 {width:390px}
+}
+
+@media only screen and (max-width:830px) {
+  .container.block .key-point .grids         {width:500px}
+  .container.block .key-point .grids .grid-8 {width:320px}
+  .container.block .key-point .grids .grid-4 {width:120px}
+}
+
+@media only screen and (max-width:735px) {
+  .container.block .key-point .grids         {width:400px}
+  .container.block .key-point .grids .grid-8 {width:320px}
+  .container.block .key-point .grids .grid-4 {width:320px}
+}
+
+@media only screen and (max-width:433px) {
+  .container.block .key-point .grids         {width:400px}
+  .container.block .key-point .grids .grid-8 {width:320px}
+  .container.block .key-point .grids .grid-4 {width:320px}
+}
+
+.grids  {width:840px}
+.grid-1 {width: 40px}
+.grid-2 {width:110px}
+.grid-3 {width:180px}
+.grid-4 {width:250px}
+.grid-5 {width:320px}
+.grid-6 {width:390px}
+.grid-7 {width:460px}
+.grid-8 {width:530px}
+.grid-9 {width:600px}
+.grid-10{width:670px}
+.grid-11{width:740px}
+.grid-12{width:810px}
+
+div[class^=grid-] {
+  margin-right: 10px;
+}
