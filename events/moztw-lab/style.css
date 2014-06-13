@@ -138,7 +138,7 @@ header h1 .appe {
 	-ms-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
 	-o-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
 	box-shadow: 0 1px 5px rgba(0,0,0,0.5);
-	
+
 }
 
 #photos .content .left-btn{
@@ -211,6 +211,19 @@ header h1 .appe {
     padding-left: 10px;
 }
 
+#main .alert{
+      height: 40px;
+      line-height: 40px;
+      background-color: #E38F00;
+      background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, black 35px, black 70px);
+      color: white;
+      font-weight:900;
+      text-align: center;
+      text-shadow: 0px 0px 5px #E38F00;
+
+
+}
+
 #main .event-attendees-list li {
     border-left: none;
     display: inline;
@@ -254,7 +267,7 @@ header h1 .appe {
 p {
 	text-align: left;
 	line-height: 30px;
-    margin: 1em 15px;   
+    margin: 1em 15px;
 }
 
 .homepage blockquote p {
@@ -401,7 +414,7 @@ a.event-link.fallback-register-button {
 	background-image:    -moz-linear-gradient(top, #ddd, #fff);
 	background-image:      -o-linear-gradient(top, #ddd, #fff);
 	background-image:         linear-gradient(top, #ddd, #fff);
-	background-color: #fff; 
+	background-color: #fff;
 	border: 1.5px solid dimgray;
 	border-radius: 10px;
 	padding: 0px;
@@ -424,10 +437,10 @@ a.event-link.fallback-register-button {
 	background-image:    -moz-linear-gradient(top, silver, #ddd);
 	background-image:      -o-linear-gradient(top, silver, #ddd);
 	background-image:         linear-gradient(top, silver, #ddd);
-	background-color: #ddd; 
+	background-color: #ddd;
 	-webkit-box-shadow: 1px 2px 3px #999 inset;
 	box-shadow:         1px 2px 3px #999 inset;
-	
+
 }
 
 .nav .rb , .nav .rb a, .nav .rb .sel a {
@@ -448,7 +461,7 @@ a.event-link.fallback-register-button {
 	outline: none;
 	color: #666;
 	border-right: 2px solid dimgray;
-	padding: 5px 25px; 
+	padding: 5px 25px;
 
 }
 
