@@ -117,6 +117,15 @@ div[class^=grid-] > p {
 #top-features2 {width:200px;}
 
 
+#top-bottom {
+    width: 160px;
+}
+
+#top-features2 {
+  width:200px;
+}
+
+
 }
 
 @media only screen and (max-width:830px) {
@@ -126,13 +135,15 @@ div[class^=grid-] > p {
    .feature-links {
       background: none;
    }
-.container.block .key-point .grids  {width:600px}
-.container.block .key-point .grids .grid-8 {width:320px}
-.container.block .key-point .grids .grid-4 {width:140px}
-.container.block .key-point .grids .grid-7 {width:320px}
-.container.block .key-point .grids .grid-5 {width:220px}
-#top-bottom {width: 120px;}
-
+   .container.block .key-point .grids  {width:600px}
+   .container.block .key-point .grids .grid-8 {width:320px}
+   .container.block .key-point .grids .grid-4 {width:140px}
+   .container.block .key-point .grids .grid-7 {width:320px}
+   .container.block .key-point .grids .grid-5 {width:220px}
+  
+   #top-bottom {
+      width: 120px;
+   }
 }
 
 @media only screen and (max-width:735px) {
