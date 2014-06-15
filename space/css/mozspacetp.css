@@ -1,96 +1,204 @@
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
+
 .key-point {
-  padding: 30px;
-  height: auto;
+   padding: 30px;
+   height: auto;
 }
-.main-feature div.grid-9 h2,
-.main-feature div.grid-9 p {
-  margin-left: 20px;
+
+
+#main-feature div.grid-9 h2,
+#main-feature div.grid-9 p {
+    margin-left: 20px;
 }
-.main-feature div.grid-9 {
-  margin-left: 10px;
+#main-feature div.grid-9 {
+    margin-left: 10px;
 }
-.main-feature div.grid-3 {
-  margin-left: 0;
+#main-feature div.grid-3 {
+    margin-left: 0;
 }
 
 .right {
-  float: right;
-  margin-left: 75px;
-}
-
-.grid-title {
-  margin-bottom: 10px;
+   float: right;
+   margin-left: 75px;
 }
 .grids > h4 {
-  margin-left: 20px;
+   margin-left: 20px;
 }
 div[class^=grid-] > p {
-  margin-bottom: 2px;
-  text-align: justify;
+   margin-bottom: 2px;
+   padding-right: 30px;
 }
 
-.bottom-box {
-  background: none repeat scroll 0 0 #FFFFFF;
-  border: 1px solid #D7D9E8;
-  border-radius: 6px 6px 6px 6px;
-  box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
-  padding: 10px 20px;
-  width: 220px;
-  text-align: center;
+
+
+#top-bottom {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D7D9E8;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
+    padding: 15px 20px 10px;
+    width: 220px;
 }
 
-/*.desc-box*/
-.desc-box {
-  background: none repeat scroll 0 0 #FFFFFF;
-  border: 1px solid #D7D9E8;
-  border-radius: 6px 6px 6px 6px;
-  box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
-  padding: 10px 20px;
-  width: 300px;
+
+/*#top-features*/
+#top-features {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D7D9E8;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
+    padding: 15px 20px 10px;
+    width: 260px;
 }
-.desc-box h3 {
-  font-size: 18px;
-  line-height: 1;
-  margin: 0;
+
+#top-features2 {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D7D9E8;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
+    padding: 15px 20px 10px;
+    width: 260px;
 }
-.desc-box p {
-  font-size: 12px;
-  margin: 0;
+
+#top-features h3 {
+    font-size: 18px;
+    line-height: 1;
+    margin: 0;
 }
-.desc-box ul li {
-  list-style: none outside none;
-  margin-top: 15px;
-  margin-left: -3em;
-  position: relative;
+#main-feature #top-features p {
+    font-size: 12px;
+    margin: 0;
 }
-.desc-box ul li a {
-  display: inline;
+#top-features ul li {
+    list-style: none outside none;
+    margin-top: 15px;
+    margin-left: -3em;
+    position: relative;
+}
+#top-features ul li a {
+    display: inline;
+}
+#top-features ul li a {
+}
+#top-features .top-feature-hover {
+    background: url("../images/features/bubble.png") repeat scroll 0 0 transparent;
+    border-radius: 15px 15px 15px 15px;
+    bottom: -23px;
+    display: none;
+    height: 84px;
+    left: -224px;
+    padding: 20px 30px 28px 35px;
+    position: absolute;
+    width: 154px;
+}
+#top-features .top-feature-hover p {
+    color: #FFFFFF;
+    font-size: 11px;
+}
+#top-features .top-feature-hover h3 {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 0 6px;
 }
 
 /* 螢幕寬度較小調整 in width 940px ----------- */
 @media only screen and (max-width:940px) {
-  .container.block .key-point .grids .grid-8 {width:390px}
+/*   #top-features {
+      display: none;
+   } */
+   .feature-links {
+      background: none;
+   }
+.container.block .key-point .grids .grid-8 {width:390px}
+#top-bottom {width: 160px;}
+#top-features2 {width:200px;}
+
+
+#top-bottom {
+    width: 160px;
+}
+
+#top-features2 {
+  width:200px;
+}
+
+
 }
 
 @media only screen and (max-width:830px) {
-  .container.block .key-point .grids         {width:500px}
-  .container.block .key-point .grids .grid-8 {width:320px}
-  .container.block .key-point .grids .grid-4 {width:120px}
+/*   #top-features {
+      display: none;
+   } */
+   .feature-links {
+      background: none;
+   }
+   .container.block .key-point .grids  {width:600px}
+   .container.block .key-point .grids .grid-8 {width:320px}
+   .container.block .key-point .grids .grid-4 {width:140px}
+   .container.block .key-point .grids .grid-7 {width:320px}
+   .container.block .key-point .grids .grid-5 {width:220px}
+  
+   #top-bottom {
+      width: 120px;
+   }
 }
 
 @media only screen and (max-width:735px) {
-  .container.block .key-point .grids         {width:400px}
-  .container.block .key-point .grids .grid-8 {width:320px}
-  .container.block .key-point .grids .grid-4 {width:320px}
+   .feature-links li a .feature-link-content  {
+      /*background: none;*/
+      display: block;
+      width: 60px;
+      font-size: 14px;
+      font-style: italic;
+      line-height: 16px;
+      text-align: left;
+      /*padding: 5px;*/
+      cursor: pointer; /* For IE */
+      position: relative;
+      top: 0;
+   }
+   .feature-links li {
+      margin-right: 5px;
+   }
+   .container.block .key-point .grids  {margin:0 auto}
+   .container.block .key-point .grids  {width:400px}
+   .container.block .key-point .grids .grid-8 {width:320px}
+   .container.block .key-point .grids .grid-4 {width:320px}
+
+
 }
 
+
 @media only screen and (max-width:433px) {
-  .container.block .key-point .grids         {width:400px}
-  .container.block .key-point .grids .grid-8 {width:320px}
-  .container.block .key-point .grids .grid-4 {width:320px}
+   .feature-links li a .feature-link-content  {
+      /*background: none;*/
+      display: block;
+      width: 60px;
+      font-size: 14px;
+      font-style: italic;
+      line-height: 16px;
+      text-align: left;
+      /*padding: 5px;*/
+      cursor: pointer; /* For IE */
+      position: relative;
+      top: 0;
+   }
+   .feature-links li {
+      margin-right: 5px;
+   }
+   .container.block .key-point {padding: 0px}
+   .container.block .key-point .grids  {width:400px}
+   .container.block .key-point .grids .grid-8 {width:320px}
+   .container.block .key-point .grids .grid-4 {width:320px}
+   .container.block .key-point {padding-top: 30px;}
+   .container.block .key-point {padding-bottom: 30px;}
+
+
+
+
 }
 
 .grids  {width:840px}
@@ -106,7 +214,8 @@ div[class^=grid-] > p {
 .grid-10{width:670px}
 .grid-11{width:740px}
 .grid-12{width:810px}
-
 div[class^=grid-] {
-  margin-right: 10px;
+   margin-right: 10px;
 }
+
+
