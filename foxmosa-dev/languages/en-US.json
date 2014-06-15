@@ -26,6 +26,6 @@
 "foxmosa-painter-h3": "Becomae a Foxmosa Painter",
 "foxmosa-painter-content": "Fill out the form <a href=\"http://bit.ly/joinmoztw\">http://bit.ly/joinmoztw</a> right now and check 'Art Design' if you are interested in MozTW Community, and want to be one of Foxmosa painters, which enables you to promote projects from Mozilla and Firefox with your pen, such as Websites, Posters, Games and so on.",
 "foxmosa-desktop": "Wallpapers for four seasons",
-"foxmosa-footer-license": "Aside from special notations, all contents of this site are licensed under <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/3.0/tw/\" class=\"subfoot\" onclick=\"_gaq.push(['_trackEvent', 'Outgoing', 'CreativeCommons', 'footer']);\">CC: by-sa 3.0 tw</a>.",
+"foxmosa-footer-license": "Aside from special notations, all contents of this site are licensed under <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/3.0/tw/\" class=\"subfoot\" onclick=\"ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');\">CC: by-sa 3.0 tw</a>.",
 "menu-footer-download": "Mozilla related Chinese Softwares"
 }

@@ -19,7 +19,7 @@
     
         <p class="webfont_9">Mozilla 是最熱愛網路的非營利組織。我們相信網路是人類邁向美好未來的力量。我們相信網路應該保持開放、透明、安全、隱私。我們相信人們應當能掌握自己的線上體驗，而非被黑暗所淹沒。</p>
         
-        <p class="webfont_9">Mozilla 引領輿論、協助使用者發聲。諸如 <a target="_blank" href="http://www.mozilla.org/dnt/" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'mozilla.org/dnt']);">Do Not Track</a>、<a href="http://mozilla.com.tw/firefox/os/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'mozilla.com.tw/firefox/os']);">Firefox OS</a>、<a href="http://www.mozilla.org/en-US/lightbeam/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'mozilla.org/lightbeam']);">Lightbeam</a> 與 <a href="http://webmaker.org/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'webmaker.org']);">Webmaker</a> 等專案，象徵 Mozilla 的核心價值。</p>
+        <p class="webfont_9">Mozilla 引領輿論、協助使用者發聲。諸如 <a target="_blank" href="http://www.mozilla.org/dnt/" onClick="ga('send', 'event', 'Outgoing', '/donate', 'mozilla.org/dnt');">Do Not Track</a>、<a href="http://mozilla.com.tw/firefox/os/" target="_blank" onClick="ga('send', 'event', 'Outgoing', '/donate', 'mozilla.com.tw/firefox/os');">Firefox OS</a>、<a href="http://www.mozilla.org/en-US/lightbeam/" target="_blank" onClick="ga('send', 'event', 'Outgoing', '/donate', 'mozilla.org/lightbeam');">Lightbeam</a> 與 <a href="http://webmaker.org/" target="_blank" onClick="ga('send', 'event', 'Outgoing', '/donate', 'webmaker.org');">Webmaker</a> 等專案，象徵 Mozilla 的核心價值。</p>
         
         <p class="webfont_9">Mozilla 的核心是擁有共同價值的全球社群。像你一樣的人賦予我們力量、影響我們、讓我們與眾不同。我們需要您的支持以達成任務。請捐款支持 Mozilla 基金會，與我們一齊塑造世界所需的美好網路。</p>
 	</section>
@@ -29,7 +29,7 @@
 			<iframe src="http://www.youtube.com/embed/Q1n2q_YSZUE" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div class="right">
-			<a id="donate-button" href="https://sendto.mozilla.org/page/contribute" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', '/donate', 'donate.mozilla.org']);">
+			<a id="donate-button" href="https://sendto.mozilla.org/page/contribute" target="_blank" onClick="ga('send', 'event', 'Outgoing', '/donate', 'donate.mozilla.org');">
 				<span class="title webfont_1">立即捐款 !</span>
 			</a>
 			<span class="help webfont_2">* 連結到 Mozilla 基金會英文頁面<br>　MozTW 社群未收受╱經手您的捐款</span>

@@ -64,7 +64,7 @@
 		</section>
 		
         <section id="registrano">
-        	<a class="fallback-register-button event-link" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'fxdevparty', 'Registrano']);" href="http://registrano.com/events/fxdevparty">前往活動報名網頁</a>
+        	<a class="fallback-register-button event-link" onClick="ga('send', 'event', 'Outgoing', 'fxdevparty', 'Registrano');" href="http://registrano.com/events/fxdevparty">前往活動報名網頁</a>
         	<div class="registrano-blog-badge w-220" id="registrano-blog-badge-fxdevparty"></div>        	
     </section>
 

@@ -68,7 +68,7 @@
       <div class="details" id="taipei_lab">
         <ul>
         <li>每週五晚間 19:30-22:00</li>
-        <li><a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'TPE']);"  href="http://coffee.wawabook.com.tw/">蛙蛙漫吧（<span class="locality">台北市</span><span class="street-address">大安區八德路二段3號二樓 </span>）</a></li>
+        <li><a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'TPE');"  href="http://coffee.wawabook.com.tw/">蛙蛙漫吧（<span class="locality">台北市</span><span class="street-address">大安區八德路二段3號二樓 </span>）</a></li>
         <li>電話：02-2778-1090</li>
         <li>低消：約100元，附 Wi-Fi 與電源。</li>
         <li>「免費參加，餐飲自理。」</li>
@@ -83,7 +83,7 @@
         <ul>
         <li class="alert"><div id="kl_alert"><h1>暑假期間暫停(5/25起)</h1></div></li>
         <del><li>每週三晚間 19:00-21:00</li>
-        <li>1915海洋咖啡館 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'KEL']);"  href="http://goo.gl/maps/7q7FQ"><span class="locality">基隆市</span><span class="street-address">仁愛區港西街4號1樓</span></a></li>
+        <li>1915海洋咖啡館 <a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'KEL');"  href="http://goo.gl/maps/7q7FQ"><span class="locality">基隆市</span><span class="street-address">仁愛區港西街4號1樓</span></a></li>
         <li>電話：02-2428-8807</li>
         <li>低消：約60元，附 Wi-Fi 與電源。</li>
         <li>「免費參加，餐飲自理。」</li></del>
@@ -97,7 +97,7 @@
       <div class="details" id="ilan_lab" style="display: none;">
         <ul>
         <li>不定期(請參閱<a href="https://groups.google.com/forum/#!topic/moztw-general/r3uSxxOEDoA">郵件群組</a>) 14:00-16:00</li>
-        <li>拾光響響公平貿易咖啡 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'YLA']);"  href="http://www.facebook.com/cafeSeventeen/info"><span class="locality">宜蘭市</span><span class="street-address">農權路205號</span></a></li>
+        <li>拾光響響公平貿易咖啡 <a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'YLA');"  href="http://www.facebook.com/cafeSeventeen/info"><span class="locality">宜蘭市</span><span class="street-address">農權路205號</span></a></li>
         <li>電話：0982-387-909</li>
         <li>低消：約100元，店內目前暫無提供網路連線，請自備 3G 行動網路，或預先抓取自己需要的文件、程式碼離線作業 。</li>
         <!-- <li>「免費參加，餐飲自理。」</li> -->
@@ -111,7 +111,7 @@
       <div class="details" id="hsinchu_lab" style="display: none;">
         <ul>
         <li>雙週四晚間 19:30-22:00</li>
-        <li>綠蓋茶館 新竹誠品站前店 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'HSU']);"  href=" http://www.lattea.com.tw/"><span class="locality">新竹市</span><span class="street-address">東區信義街68號3樓</span></a></li>
+        <li>綠蓋茶館 新竹誠品站前店 <a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'HSU');"  href=" http://www.lattea.com.tw/"><span class="locality">新竹市</span><span class="street-address">東區信義街68號3樓</span></a></li>
         <li>電話：03-522-1937</li>
         <li>低消：約60元，附 Wi-Fi 與電源。</li>
         <li>「免費參加，餐飲自理。」</li>

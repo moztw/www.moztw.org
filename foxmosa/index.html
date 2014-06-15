@@ -149,7 +149,7 @@
 
 					<div class="left footer-license">
 						<p class="l10n" data-l10n="foxmosa-footer-license">
-						 除另有註明外，本站內容皆採<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'CreativeCommons', 'footer']);">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>授權大眾使用
+						 除另有註明外，本站內容皆採<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onclick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>授權大眾使用
 						</p>
 					</div>
 
@@ -182,27 +182,15 @@
 		<script src="js/FeedEk.js"></script>
 		<script src="js/main.js"></script>
 <!-- Google Analytic -->
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-1035080-1']);
-  _gaq.push(['_setDomainName', 'moztw.org']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-  
-  //Universal Analytics Code
+<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-1035080-15', 'moztw.org');
+  ga('create', 'UA-1035080-1', 'moztw.org');
   ga('send', 'pageview');
+
 </script>
 	</body>
 </html>

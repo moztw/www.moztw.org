@@ -182,37 +182,37 @@
 
 		<img src="images/product-personas-title.png" alt="Personas 個性面板" />
 		<p>個性面板是輕量級的佈景主題，包含五花八門的外觀與設計，讓您隨時個性化 Firefox 的外貌，如同挑選衣服一樣有趣。</p>
-		<p>→ <a href="https://addons.mozilla.org/firefox/themes/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-firefox-personas']);">立刻至 Firefox 附加元件網站挑選個性面板！</a></p>
+		<p>→ <a href="https://addons.mozilla.org/firefox/themes/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'AMO-firefox-personas');">立刻至 Firefox 附加元件網站挑選個性面板！</a></p>
 
 	<h3>深入資訊</h3>
 	<ul class="compact">
-		<li><a href="http://www.mozilla.org/firefox/features/#madeeasy" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'firefox-madeeasy']);">更簡單的瀏覽</a> *</li>
-		<li><a href="http://www.mozilla.org/firefox/features/#highperformance" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'firefox-highperformance']);">超高的效能</a> *</li>
-		<li><a href="http://www.mozilla.org/firefox/features/#advancedsecurity" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'firefox-security']);">進階安全性</a> *</li>
-		<li><a href="http://www.mozilla.org/firefox/features/#powerfulpersonalization" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'firefox-advancedsecurity']);">強大的個人化能力</a> *</li>
-		<li><a href="http://www.mozilla.org/firefox/features/#cuttingedge" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'firefox-cuttingedge']);">最尖端的技術</a> *</li>
+		<li><a href="http://www.mozilla.org/firefox/features/#madeeasy" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'firefox-madeeasy');">更簡單的瀏覽</a> *</li>
+		<li><a href="http://www.mozilla.org/firefox/features/#highperformance" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'firefox-highperformance');">超高的效能</a> *</li>
+		<li><a href="http://www.mozilla.org/firefox/features/#advancedsecurity" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'firefox-security');">進階安全性</a> *</li>
+		<li><a href="http://www.mozilla.org/firefox/features/#powerfulpersonalization" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'firefox-advancedsecurity');">強大的個人化能力</a> *</li>
+		<li><a href="http://www.mozilla.org/firefox/features/#cuttingedge" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'firefox-cuttingedge');">最尖端的技術</a> *</li>
 	</ul>
 	
     <h3>技術支援與套件下載</h3>
     <ul class="compact">
-    	<li><a href="https://www.mozilla.org/zh-TW/plugincheck/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'plugincheck']);">外掛程式更新</a><br>（檢查 Flash、多媒體播放支援）</li>
-    	<li><a href="https://addons.mozilla.org/firefox" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'AMO-fx']);">取得套件及佈景主題</a></li>
-    	<li><a href="http://support.mozilla.org" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'SUMO']);">Mozilla 技術支援中心</a></li>
-		<li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Forum: Firefox', '/firefox']);">Firefox 中文討論區</a></li>
+    	<li><a href="https://www.mozilla.org/zh-TW/plugincheck/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'plugincheck');">外掛程式更新</a><br>（檢查 Flash、多媒體播放支援）</li>
+    	<li><a href="https://addons.mozilla.org/firefox" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'AMO-fx');">取得套件及佈景主題</a></li>
+    	<li><a href="http://support.mozilla.org" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'SUMO');">Mozilla 技術支援中心</a></li>
+		<li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'inGoing', 'Forum: Firefox', '/firefox');">Firefox 中文討論區</a></li>
     </ul>
     
 	<h3>中文社群資源</h3>
 	<ul class="compact">
-		<li><a href="http://www.youtube.com/user/mozillatw" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Youtube', 'mozillatw']);">Youtube Firefox 影片頻道</a></li>
+		<li><a href="http://www.youtube.com/user/mozillatw" onClick="ga('send', 'event', 'Outgoing', 'Youtube', 'mozillatw');">Youtube Firefox 影片頻道</a></li>
 		<li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
-		<li><a href="http://wiki.moztw.org/index.php?title=FireAnything" onClick="_gaq.push(['_trackEvent', 'inGoing', 'Wiki: FireAnything', '/firefox']);">某瀏覽器功能，Firefox 有沒有？</a></li>
+		<li><a href="http://wiki.moztw.org/index.php?title=FireAnything" onClick="ga('send', 'event', 'inGoing', 'Wiki: FireAnything', '/firefox');">某瀏覽器功能，Firefox 有沒有？</a></li>
 		<li><a href="/dl/search">新增中文搜尋引擎</a></li>
 	</ul>
 	
 	<h3>推廣 Firefox</h3>
 	<ul class="compact">
-		<li><a href="https://affiliates.mozilla.org/" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Mozilla', 'affiliates-mozilla']);">取得 Blog 推廣貼紙</a> *</li>
-		<li><a href="https://www.facebook.com/Firefox/app_373528039377278" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Facebook', 'Firefox-affiliates']);">臉書貼紙推廣 Firefox</a></li>
+		<li><a href="https://affiliates.mozilla.org/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'affiliates-mozilla');">取得 Blog 推廣貼紙</a> *</li>
+		<li><a href="https://www.facebook.com/Firefox/app_373528039377278" onClick="ga('send', 'event', 'Outgoing', 'Facebook', 'Firefox-affiliates');">臉書貼紙推廣 Firefox</a></li>
 	</ul>
 	
 	<p>* 連結至 Mozilla 網站</p>
