@@ -81,7 +81,7 @@
       <!-- Keelung Lab Info -->
       <div class="details" id="keelung_lab" style="display: none;">
         <ul>
-        <li class="alert"><div id="kl_alert"><h1>暑假期間無限期暫停(5/25起)</h1></div></li>
+        <li class="alert"><div id="kl_alert"><h1>暑假期間暫停(5/25起)</h1></div></li>
         <del><li>每週三晚間 19:00-21:00</li>
         <li>1915海洋咖啡館 <a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'MozTW Lab', 'KEL']);"  href="http://goo.gl/maps/7q7FQ"><span class="locality">基隆市</span><span class="street-address">仁愛區港西街4號1樓</span></a></li>
         <li>電話：02-2428-8807</li>
