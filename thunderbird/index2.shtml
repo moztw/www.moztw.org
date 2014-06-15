@@ -12,16 +12,12 @@
 <!--#include virtual="/sandstone/header.shtml" -->
 
 <section class="container block">
-   <div class="key-point">
-      <div class="grids">
-         <div class="grid-7">
-             <div id="product-desc" class="product-thunderbird">
+   <div class="key-point grids">
+             <div id="product-desc" class="grid-8">
                <h2 class="block-title hide">Thunderbird: 以你為本的郵件體驗，讓收發電子郵件變得更簡單</h2>
-               <p>Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
+               <p>Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗</p>
              </div>
-         </div>
-         <div class="grid-4">
-            <div id="download-button-thunderbird" class="download-button download-promo">
+            <div id="download-button-thunderbird" class="grid-4 download-button download-promo">
                <noscript>
                   <div class="download download-dumb">
                      <h4>Thunderbird 立即下載</h4>
@@ -78,19 +74,15 @@
                   <a href="system-requirements/">系統需求</a> | <a href="releases/">版本資訊</a> | <a href="http://www.mozilla.org/en-US/thunderbird/all.html" onclick="ga('send', 'event', 'Outgoing', 'Thunderbird', 'Other Platform');">其它語言與平台</a>
                </small>
             </div>
-         </div>
-      </div>
-   </div>
+    </div>
 </section>
 
 <!-- Thunderbird Features 導覽四大按鈕 -->
 <section class="container block">
-   <div class="key-point">
-      <div id="main-feature">
-         <div class="grids">
+   <div id="main-feature" class="key-point grids">
             <div class="grid-9">
-               <h2>Thunderbird <span>的特色</span></h2>
-               <p>讓我們深入了解Thunderbird的功能吧!</p>
+               <h2>Thunderbird 的特色</h2>
+               <p>讓我們深入了解 Thunderbird 的功能吧!</p>
                <ul class="feature-links">
                   <li id="get-started"><a href="#getstarted"><span class="feature-link-content">更簡單 <span>就能上手</span></span></a></li>
                   <li id="tabs-search"><a href="#tabssearch"><span class="feature-link-content">分頁 <span>與搜尋</span></span></a></li>
@@ -98,9 +90,8 @@
                   <li id="secure-protect"><a href="#secureprotect"><span class="feature-link-content">安全性與保護<span>您的電子郵件</span></span></a></li>
                </ul>
             </div>
-            <div class="grid-3">
-               <div id="top-features">
-                  <h3>經典的 <span>四大特色</span></h3>
+            <div id="top-features" class="grid-3">
+                  <h3>四大特色</h3>
                   <p>(滑鼠移過來可看詳細簡介)</p>
                   <ul>
                      <li>
@@ -127,23 +118,20 @@
                      <li>
                         <a href="#secureprotect">安全性與保護您的電子郵件</a>
                         <div class="top-feature-hover">
-                           <h3>安全性與保護您的電子郵件</h3>
+                           <h3>安全性</h3>
                            <p>保護您電子郵件的安全！</p>
                         </div>
                      </li>
                   </ul>
-               </div>
             </div>
-         </div>
-      </div>
    </div>
 </section>
 <!-- End- Thunderbird Features 導覽四大按鈕 -->
 
 <section id="getstarted" class="container block">
    <h2 class="block-title hide">特色</h2>
-   <div class="grids">
-      <div class="grid-12">
+<!--   <div class="grids">
+      <div class="grid-12">-->
          <article class="module">
             <h3>更簡單就能上手</h3>
             <p>設定全新的 Thunderbird 從來沒有那麼簡單過！</p>
@@ -198,8 +186,8 @@
                </div>
             </div>
          </article>
-      </div>
-   </div>
+<!--      </div>
+   </div>-->
 </section>
 
 <section id="tabssearch" class="container block">
@@ -339,14 +327,11 @@
    </div>
 </section>
 
-<section class="container block">
+<section id="additional" class="container block">
    <h2 class="block-title hide">資源與鏈結</h2>
-   <div class="key-point">
-      <artical class="module">
-         <h3>資源與鏈結</h3>
-
-         <div class="grids">
+   <div class="key-point grids">
             <div class="grid-6">
+               <h3>資源與鏈結</h3>
                <ul class="compact">
                   <li><a href="http://forum.moztw.org/viewforum.php?f=9">MozTW Thunderbird 中文討論區</a></li>
                   <li><a href="https://addons.mozilla.org/thunderbird/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'AMO-tb');">取得 Thunderbird 附加元件</a></li>
@@ -354,16 +339,12 @@
                   <li><a href="http://support.mozillamessaging.com/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'SUMOMO');">Thunderbird 輔助說明</a></li>
                </ul>
             </div>
-            <div class="grid-4">
-               <div style="text-align: center;">
+            <div id="tb-fans" class="grid-4">
                <a style="text-decoration: none;" href="http://www.facebook.com/groups/thunderbirdfans.tw/" onClick="ga('send', 'event', 'Outgoing', 'Facebook-thunderbirdfanstw', 'thunderbird');">
-                  <h3><img src="/images/foxmosa-mail-02.png" width="100px" alt="foxmosa mail" style="margin-left: 10px;"></h3>
-                   <span style="font-size: 120%;">Thunderbird 愛好者俱樂部</span>
+                  <img src="/images/foxmosa-mail-02.png" width="100px" alt="foxmosa mail">
+                  <h3>Thunderbird 愛好者俱樂部</h3>
                </a>
-               </div>
             </div>
-         </div>
-      </artical>
    </div>
 </section>
 <script type="text/javascript" src="/js/library/jquery.js"></script>

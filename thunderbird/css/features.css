@@ -2,60 +2,55 @@ img {
     max-width: 100%;
 }
 
-#product-desc.product-thunderbird {
-   background: transparent url(../images/product-thunderbird-screen-kai.png) no-repeat scroll 0 0;
-   padding: 40px 0 0;
-}
-#product-desc.product-thunderbird p {
-   padding-left: 207px;
-   padding-top: 77px;
-}
-.key-point {
-   padding: 30px;
-   height: auto;
-}
-article.module {
-   padding: 50px;
-   width: 840px;
-}
-
-#main-feature div.grid-9 h2,
-#main-feature div.grid-9 p {
-    margin-left: 20px;
-}
-#main-feature div.grid-9 {
-    margin-left: 10px;
-}
-#main-feature div.grid-3 {
-    margin-left: 0;
+section, section * {
+  box-sizing: border-box;
 }
 
 .right {
    float: right;
    margin-left: 75px;
 }
-.grids > h4 {
-   margin-left: 20px;
+
+
+.key-point {
+   height: auto;
+   padding: 0;
 }
-div[class^=grid-] > p {
-   margin-bottom: 8px;
-   padding-right: 25px;
+.key-point > div {
+  margin: 2em 0;
+  padding: 0 20px;
+}
+
+#product-desc {
+   background: url("../images/product-thunderbird-screen-kai.png") no-repeat 40px 0;
+}
+#product-desc p {
+   padding-left: 225px;
+   padding-top: 95px;
+}
+
+
+/* main-feature */
+#main-feature .grid-9 {
+  margin-bottom: 1em;
+  padding-left: 40px;
 }
 
 .feature-links {
     float: left;
-    background: url("../images/features/dottedline-background.png") 0 -30px no-repeat;
-    margin: 0 auto;
-    padding: 30px 0 28px;
+    background: url("../images/features/dottedline-background.png") 0 -15px no-repeat;
+    margin-left: -10px;
+    padding: 40px 0 0;
 }
 
 .feature-links li {
-    text-align: center;
-    display: inline;
     float: left;
     list-style-type: none;
     margin: 0 60px 0 0;
-    padding: 0 1px;
+}
+
+.feature-links li:last-of-type {
+  margin-right: 0;
 }
 
 .feature-links li a,
@@ -66,22 +61,24 @@ div[class^=grid-] > p {
     padding: 0 0 2px;
 }
 
-.feature-links li a .feature-link-content,
-.feature-links li a:link .feature-link-content,
-.feature-links li a:visited .feature-link-content {
+.feature-links li a span {
+    display: block;
+}
+
+.feature-links li a .feature-link-content {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
 
+
 .feature-links li a .feature-link-content {
     background: url("../images/features/menu-icons.png") 50% 0 no-repeat;
-    display: block;
     width: 112px;
-    font-size: 14px;
     line-height: 16px;
     text-align: center;
-    padding: 110px 0 1px;
+    display: block;
+    padding-top: 110px;
     cursor: pointer; /* For IE */
     position: relative;
     top: 0;
@@ -89,20 +86,10 @@ div[class^=grid-] > p {
 
 .feature-links li a:hover .feature-link-content {
     top: -8px;
-    -webkit-transition: all 0.1s ease-in;
-    -moz-transition: all 0.1s ease-in;
-    transition: all 0.1s ease-in;
 }
 
 .feature-links li a:active .feature-link-content {
     top: -5px;
-    -webkit-transition: all 0.1s ease-in;
-    -moz-transition: all 0.1s ease-in;
-    transition: all 0.1s ease-in;
-}
-
-.feature-links li a span {
-    display: block;
 }
 
 .feature-links li#get-started a .feature-link-content { background-position: 50% -355px; }
@@ -110,55 +97,86 @@ div[class^=grid-] > p {
 .feature-links li#customize a .feature-link-content { background-position: 50% 0; }
 .feature-links li#secure-protect a .feature-link-content { background-position: 50% -710px; }
 
+
 /*#top-features*/
 #top-features {
-    background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #D7D9E8;
-    border-radius: 6px 6px 6px 6px;
+    border-radius: 6px;
     box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
     padding: 15px 20px 10px;
-    width: 150px;
+    margin: 3em 0 0;
 }
 #top-features h3 {
-    font-size: 18px;
-    line-height: 1;
-    margin: 0;
+    font-size: 22px;
 }
-#main-feature #top-features p {
+#top-features p {
     font-size: 12px;
-    margin: 0;
 }
 #top-features ul li {
-    list-style: none outside none;
+    list-style: none;
     margin-top: 15px;
     margin-left: -3em;
     position: relative;
 }
-#top-features ul li a {
-    display: inline;
-}
-#top-features ul li a {
-}
 #top-features .top-feature-hover {
-    background: url("../images/features/bubble.png") repeat scroll 0 0 transparent;
-    border-radius: 15px 15px 15px 15px;
+    background: url("../images/features/bubble.png");
+    border-radius: 15px;
     bottom: -23px;
     display: none;
-    height: 84px;
+    height: 124px;
     left: -224px;
     padding: 20px 30px 28px 35px;
     position: absolute;
-    width: 154px;
+    width: 220px;
+    color: #FFFFFF;
 }
 #top-features .top-feature-hover p {
-    color: #FFFFFF;
-    font-size: 11px;
+    font-size: 12px;
 }
 #top-features .top-feature-hover h3 {
-    color: #FFFFFF;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
     margin: 0 0 6px;
+}
+
+
+/* article section */
+article.module {
+    padding: 40px 50px;
+    width: auto;
+    margin-left: -20px;
+}
+article.module .grid-6 {
+    padding-right: 40px;
+    width: 440px;
+}
+article.module .grid-12 {
+    padding-right: 40px;
+    width: 900px;
+}
+article.module h4 {
+    margin: 0.5em 0 0.75em;
+}
+.grids > h4 {
+   margin-left: 20px;
+}
+
+
+#additional .grid-6 {
+  margin-bottom: 1em;
+  padding-left: 40px;
+}
+
+#additional .compact {
+  margin-left: -1em;
+}
+
+#additional #tb-fans {
+  text-align: center;
+}
+#additional #tb-fans h3 {
+  font-size: 1.5em;
+  margin-top: 0.5em;
 }
 
 /* 螢幕寬度較小調整 in width 940px ----------- */
@@ -189,26 +207,9 @@ div[class^=grid-] > p {
    }
 }
 
-.grids  {width:840px}
-.grid-1 {width: 40px}
-.grid-2 {width:110px}
-.grid-3 {width:180px}
-.grid-4 {width:250px}
-.grid-5 {width:320px}
-.grid-6 {width:390px}
-.grid-7 {width:460px}
-.grid-8 {width:530px}
-.grid-9 {width:600px}
-.grid-10{width:670px}
-.grid-11{width:740px}
-.grid-12{width:810px}
-div[class^=grid-] {
-   margin-right: 10px;
-}
-
 /* download button */
 #download-button-thunderbird {
-    padding: 55px 0 0;
+    padding: 60px 0 0;
     margin: 0;
     position: relative;
 }
