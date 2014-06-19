@@ -39,18 +39,11 @@
             <div>
               <a class="event-link" href='http://www.google.com.tw/#q=sopa' target="_blank">查詢相關資訊</a>
             </div>
-    		
 		</section>
-          
-    	
-
-
-		
 	</div>
 
 <script type="text/javascript" charset="utf-8" src="assets/leaflet/leaflet.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/jquery.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/scripts.js"></script>
-<script src="http://asset.registrano.com/javascripts/blogbadge/zh-tw.js" type="text/javascript" defer="defer"></script>
 <!--#include virtual="/inc/footer.html" -->
 

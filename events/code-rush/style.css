@@ -260,10 +260,9 @@ p {
     text-align: left;
 }
 
-/* from registrano */
 a.event-link {
-    background: url("http://registrano.com/images/themes3/logo-button.png") no-repeat scroll 22px 12px #417897;
-    border-radius: 7px 7px 7px 7px;
+    background: #417897;
+    border-radius: 7px;
     color: #FEFFFE;
     display: block;
     font-weight: bold;
@@ -271,7 +270,7 @@ a.event-link {
     line-height: 45px;
     margin: 35px auto;
     opacity: 0.9;
-    padding: 0 15px 0 45px;
+    padding: 0 15px;
     text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.62);
     width: 150px;
 }
