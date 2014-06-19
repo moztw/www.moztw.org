@@ -7,7 +7,7 @@
 body{
 	font-family: "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
 	color:#666;
-	background:#F1F1F1 url(furley_bg.png);
+	background:#F1F1F1;
 	margin-top: 20px;
 	font-size: 14px;
 }
