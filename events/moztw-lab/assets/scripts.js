@@ -1,9 +1,9 @@
 var lab_locs = {
     "taipei_lab": {
         "oid": "map_taipei", 
-        "place": "蛙蛙漫吧", 
-        "lat": 25.044602, 
-        "lng": 121.533283
+        "place": "摩茲工寮", 
+        "lat": 25.066766,
+        "lng": 121.526330
     }, 
 
     "keelung_lab": {
