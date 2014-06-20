@@ -68,10 +68,9 @@
       <div class="details" id="taipei_lab">
         <ul>
         <li>每週五晚間 19:30-22:00</li>
-        <li><a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'TPE');"  href="http://coffee.wawabook.com.tw/">蛙蛙漫吧（<span class="locality">台北市</span><span class="street-address">大安區八德路二段3號二樓 </span>）</a></li>
-        <li>電話：02-2778-1090</li>
-        <li>低消：約100元，附 Wi-Fi 與電源。</li>
-        <li>「免費參加，餐飲自理。」</li>
+        <li><a href="/space">摩茲工寮（<span class="locality">台北市</span><span class="street-address">德惠街 23 號地下室</span>）</a></li>
+        <li>無低消，有 Wi-Fi 與電源。</li>
+        <li>「免費參加，餐點自備、飲料免費。」</li>
         </ul>
         <div class="mapcover">
           <div class="map" id="map_taipei"></div>
