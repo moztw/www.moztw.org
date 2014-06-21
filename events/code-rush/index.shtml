@@ -39,7 +39,7 @@
 			<iframe width="640" height="360" src="http://www.youtube.com/embed/VoLUvE-ny1k" frameborder="0" allowfullscreen></iframe>
 			</p>
 			<ul>
-			<li><a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Youtube', 'Code Rush']);" href="http://www.youtube.com/watch?v=XVdN3gH9d64&list=PLOHV-5SHjI8gbguX4vRowEmVboHLMevCT&hd=1">本次放映會全片單</a>（包含正片前預告及片尾字幕）</li>
+			<li><a onClick="ga('send', 'event', 'Outgoing', 'Youtube', 'Code Rush');" href="http://www.youtube.com/watch?v=XVdN3gH9d64&list=PLOHV-5SHjI8gbguX4vRowEmVboHLMevCT&hd=1">本次放映會全片單</a>（包含正片前預告及片尾字幕）</li>
 			</ul>
 		</section>
 		
@@ -47,7 +47,7 @@
 			<h2>全片下載</h2>
 			<ul>
 			<li><a href="http://clickmovement.org/content/code-rush-download">影片下載</a><p><span class="new">Code Rush 以創用 CC 姓名標示-非商業性-相同方式分享 3.0 授權釋出，專案網址：<a href="http://clickmovement.org/coderush">http://clickmovement.org/coderush</a></span></p></li>
-			<li><a href="http://www.universalsubtitles.org/widget/download_srt/?video_id=8kAaTv4LNAcN&lang_pk=322104">字幕下載</a><p>本片字幕由 MozTW 社群製作，歡迎<a onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Amara', 'Code Rush']);"  href="http://www.universalsubtitles.org/zh-tw/videos/8kAaTv4LNAcN/zh-tw/322104/">至 Amara 協助編修</a>；如有興趣參與未來 Mozilla 相關影片的字幕製作，請參考「<a href="http://moztw.org/contribute/">參與我們</a>」。</p></li>
+			<li><a href="http://www.universalsubtitles.org/widget/download_srt/?video_id=8kAaTv4LNAcN&lang_pk=322104">字幕下載</a><p>本片字幕由 MozTW 社群製作，歡迎<a onClick="ga('send', 'event', 'Outgoing', 'Amara', 'Code Rush');"  href="http://www.universalsubtitles.org/zh-tw/videos/8kAaTv4LNAcN/zh-tw/322104/">至 Amara 協助編修</a>；如有興趣參與未來 Mozilla 相關影片的字幕製作，請參考「<a href="http://moztw.org/contribute/">參與我們</a>」。</p></li>
 			<ul>
 		</section>
 		
@@ -105,7 +105,7 @@
     	
         <section id="registrano">
         	<h2>本活動現已結束，歡迎線上觀看全片。</h2>
-<!--        	<a class="fallback-register-button event-link" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'Code Rush', 'Registrano']);" href="hhttp://registrano.com/events/code-rush">前往活動報名網頁</a>-->
+<!--        	<a class="fallback-register-button event-link" onClick="ga('send', 'event', 'Outgoing', 'Code Rush', 'Registrano');" href="hhttp://registrano.com/events/code-rush">前往活動報名網頁</a>-->
         	<div class="registrano-blog-badge w-220" id="registrano-blog-badge-code-rush"></div>        	
         </section>
 		
@@ -114,6 +114,5 @@
 <script type="text/javascript" charset="utf-8" src="assets/leaflet/leaflet.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/jquery.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/scripts.js"></script>
-<script src="http://asset.registrano.com/javascripts/blogbadge/zh-tw.js" type="text/javascript" defer="defer"></script>
 <!--#include virtual="/inc/footer.html" -->
 

@@ -53,7 +53,7 @@
                <div id="product-desc">
                <h2>開放時間</h2>
             </div>
-              <p>每週一至四晚間 19:30-22:00，不含每周五晚上的 <a href="http://moztw.org/events/moztw-lab/">MozTW Lab 台北場</a>。詳細時間與特別活動請見左欄時間表。</p>
+              <p>每週一至四晚間 19:30-22:00，另外目前每周五晚上的 <a href="http://moztw.org/events/moztw-lab/">MozTW Lab 台北場</a>也在此舉辦。詳細時間與特別活動請見左欄時間表。</p>
                
                <div id="top-features2">
                <p>如果你不確定有沒有人在，可以 Mailing List / IRC / Line / Telegram 上面問一下。現場有網路、電、飲料，歡迎大家來做 Mozilla / Open Source / Web 等等相關的事情 :)</p>
@@ -113,12 +113,12 @@
             </div>
             <div class="grid-4">
                <div id="top-bottom">
-               <a href="">營運中心</a>
+               <a href="https://etherpad.mozilla.org/moztw-taipei-space">營運中心</a>
                </div>
             </div>
             <div class="grid-4">
                <div id="top-bottom">
-               <a href="">使用規範</a>
+               <a href="https://etherpad.mozilla.org/moztw-taipei-space-guildline">使用規範</a>
                </div>
             </div>
 

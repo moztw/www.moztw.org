@@ -17,8 +17,8 @@
 	Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。
 	</li>
 	<li>
-	<a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey']);"><img src="/images/seamonkey64.png" width="60" height="60" alt="SeaMonkey Logo"></a>
-	<h3><a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="_gaq.push(['_trackEvent', 'Outgoing', 'SeaMonkey', 'SeaMonkey']);" class="producttitle"><strong>SeaMonkey</strong>: 完整的 Internet 方案</a></h3>
+	<a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'SeaMonkey', 'SeaMonkey');"><img src="/images/seamonkey64.png" width="60" height="60" alt="SeaMonkey Logo"></a>
+	<h3><a href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'SeaMonkey', 'SeaMonkey');" class="producttitle"><strong>SeaMonkey</strong>: 完整的 Internet 方案</a></h3>
 	SeaMonkey 是全能的上網工具。內含網頁瀏覽器、郵件軟體、新聞群組與資訊來源訂閱軟體、IRC 聊天工具以及網頁編輯功能。
 	</li>
 </ul>
