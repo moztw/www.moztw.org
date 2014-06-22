@@ -23,10 +23,10 @@ section, section * {
 
 #product-desc {
    background: url("../images/product-thunderbird-screen-kai.png") no-repeat 40px 0;
+   margin: 2em 0 1em;
 }
 #product-desc p {
-   padding-left: 225px;
-   padding-top: 95px;
+   padding: 95px 0 2em 225px;
 }
 
 

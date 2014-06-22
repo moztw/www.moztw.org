@@ -335,8 +335,8 @@
                <ul class="compact">
                   <li><a href="http://forum.moztw.org/viewforum.php?f=9">MozTW Thunderbird 中文討論區</a></li>
                   <li><a href="https://addons.mozilla.org/thunderbird/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'AMO-tb');">取得 Thunderbird 附加元件</a></li>
-                  <li><a href="https://addons.mozilla.org/thunderbird/personas/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'AMO-tb-personas');">取得個性面板</a></li>
-                  <li><a href="http://support.mozillamessaging.com/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'SUMOMO');">Thunderbird 輔助說明</a></li>
+                  <li><a href="https://addons.mozilla.org/thunderbird/themes/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'AMO-tb-personas');">取得佈景主題</a></li>
+                  <li><a href="https://support.mozilla.org/products/thunderbird" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'SUMOMO');">Thunderbird 輔助說明</a></li>
                </ul>
             </div>
             <div id="tb-fans" class="grid-4">
