@@ -248,8 +248,10 @@
   	<p>網路發展至今，人人都該具備在網路上創作的能力，Webmaker 計畫以各種簡單有趣的專案，讓大家嘗試混搭網頁、踏出網頁創作的第一步。</p>
   </div>-->
 <div class="frontcolumn">
-  <h2><a href="http://mozilla.com.tw/firefox/os/" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'mozilla.org/partner', 'Frontpage');">Firefox OS<img src="/images/Pocketfox.png" alt=""  class="promo" style="width: 72px; height: 72px;"></a></h2>
-  <p>完全使用 HTML5 與開放網路標準打造的開放行動平台，將帶領次世代數十億使用者連結網路。</p>
+  <h2><a href="/space/">摩茲工寮<img src="/images/product-firefox-home.png" alt="" class="promo" style="width: 72px; height: 72px;"></a></h2>
+  <p>
+    <a href="/space/">Mozilla Community Space Taipei</a><br>台北的社群空間，提供電力、網路與激發創意的 Mozilla 小物，讓許多的摩茲人在此一起貢獻各種開放專案，歡迎來訪。
+  </p>
 </div>
   
   <div class="frontcolumnlast">
