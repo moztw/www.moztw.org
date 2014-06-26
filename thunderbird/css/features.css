@@ -11,6 +11,13 @@ section, section * {
    margin-left: 75px;
 }
 
+.grids {
+  margin-left: 0;
+}
+
+.grid-12 {
+  margin-left: 0;
+}
 
 .key-point {
    height: auto;
@@ -30,7 +37,6 @@ section, section * {
 }
 
 
-/* main-feature */
 #main-feature .grid-9 {
   margin-bottom: 1em;
   padding-left: 40px;
@@ -98,7 +104,6 @@ section, section * {
 .feature-links li#secure-protect a .feature-link-content { background-position: 50% -710px; }
 
 
-/*#top-features*/
 #top-features {
     border: 1px solid #D7D9E8;
     border-radius: 6px;
@@ -140,11 +145,10 @@ section, section * {
 }
 
 
-/* article section */
 article.module {
     padding: 40px 50px;
     width: auto;
-    margin-left: -20px;
+    margin-left: 0;
 }
 article.module .grid-6 {
     padding-right: 40px;
@@ -161,7 +165,6 @@ article.module h4 {
    margin-left: 20px;
 }
 
-
 #additional .grid-6 {
   margin-bottom: 1em;
   padding-left: 40px;
@@ -177,34 +180,6 @@ article.module h4 {
 #additional #tb-fans h3 {
   font-size: 1.5em;
   margin-top: 0.5em;
-}
-
-/* 螢幕寬度較小調整 in width 940px ----------- */
-@media only screen and (max-width:940px) {
-   #top-features {
-      display: none;
-   }
-   .feature-links {
-      background: none;
-   }
-}
-@media only screen and (max-width:433px) {
-   .feature-links li a .feature-link-content  {
-      /*background: none;*/
-      display: block;
-      width: 60px;
-      font-size: 14px;
-      font-style: italic;
-      line-height: 16px;
-      text-align: left;
-      /*padding: 5px;*/
-      cursor: pointer; /* For IE */
-      position: relative;
-      top: 0;
-   }
-   .feature-links li {
-      margin-right: 5px;
-   }
 }
 
 /* download button */
@@ -257,4 +232,108 @@ article.module h4 {
 }
 #download-button-thunderbird .download-platform:before {
     content: '• ';
+}
+
+@media only screen and (max-width: 767px) {
+  #footer .grid-logo {
+    float: none;
+    text-align: center;
+  }
+  #footer .grid-text {
+    float: none;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+    .container #download-button-thunderbird {
+        padding: 0;
+        margin: 0 auto 20px;
+    }
+    .key-point {
+        margin: 0 auto;
+    }
+    .download-button ul {
+        width: 240px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #download-button-thunderbird small.download-other.unrecognized-download {
+       margin: 0px auto;
+       width: 240px;
+       display: block;
+    }
+    #top-features {
+        display: none;
+    }
+    .feature-links {
+        width: 100%;
+    }
+    .feature-links li {
+        width: 25%;
+        margin: 0;
+    }
+    article.module {
+        margin-left: 0;
+        padding: 40px 30px;
+    }
+    article.module .grids {
+      margin-left: 0;
+    }
+    article.module .grid-12 {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+    article.module .grid-6 {
+        width: 50%;
+        padding: 0;
+        margin-left: 0;
+    }
+    article.module .grid-6:nth-child(2) {
+        padding-left: 20px;
+    }
+    #additional .grid-6, #additional .grid-4 {
+        width: 50%;
+    }
+}
+@media only screen and (max-width:639px) {
+    #product-desc {
+        background-image: none;
+    }
+    #product-desc .block-title {
+        display: block;
+    }
+    #product-desc .block-title .sub {
+        display: block;
+        font-size: 0.7em;
+        margin-top: 0.2em;
+    }
+    #product-desc p {
+        padding: 1em 0px 1em 0;
+        font-size: 1.2em;
+    }
+    article.module .grid-6 {
+        padding: 0px;
+        width: 100%;
+        margin: 0px 0px 20px;
+    }
+    article.module .grid-6:nth-child(2) {
+        padding: 0;
+    }
+    article.module .grid-6 img {
+        margin: 0 auto;
+        display: block;
+    }
+}
+@media only screen and (max-width:433px) {
+   .feature-links li {
+     min-width: 100px;
+     width: 50%;
+     margin: 0 0 20px;
+   }
+   #additional .grid-6, #additional .grid-4 {
+       width: 100%;
+       padding: 0 20px;
+   }
 }
