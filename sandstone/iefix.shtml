@@ -1,0 +1,16 @@
+<!--[if lte IE 7]>
+<style>
+.header-site-title { float: left; }
+.header-menu li { float: left; }
+.header-menu li a { color: #807E78; }
+.header-menu .header-menu-item:hover a {
+  background-color: #C1BEB5;
+  color: #007BB7;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 8]>
+<style>
+.header-search { display: none; }
+</style>
+<![endif]-->
