@@ -97,7 +97,7 @@
   <div id="main-feature" class="key-point grids">
     <div class="grid-9">
       <h2>Thunderbird 的特色</h2>
-      <p>讓我們深入了解 Thunderbird 的功能吧!</p>
+      <p>讓我們深入了解 Thunderbird 的功能吧！</p>
       <ul class="feature-links">
         <li id="get-started">
           <a href="#getstarted"><span class="feature-link-content">更簡單 <span>就能上手</span></span></a>
@@ -115,7 +115,7 @@
     </div>
     <div id="top-features" class="grid-3">
       <h3>四大特色</h3>
-      <p>(滑鼠移過來可看詳細簡介)</p>
+      <p>（滑鼠移過來可看詳細簡介）</p>
       <ul>
         <li>
           <a href="#getstarted">更簡單就能上手</a>
@@ -312,8 +312,6 @@
           </div>
           <div class="grid-6">
             <img src="images/automated-update.png" />
-            <h4></h4>
-            <p></p>
           </div>
         </div>
         <div class="grids block">
@@ -348,7 +346,7 @@
     </div>
     <div id="tb-fans" class="grid-4">
       <a style="text-decoration: none;" href="http://www.facebook.com/groups/thunderbirdfans.tw/" onClick="ga('send', 'event', 'Outgoing', 'Facebook-thunderbirdfanstw', 'thunderbird');">
-          <img src="/images/foxmosa-mail-02.png" width="100px" alt="foxmosa mail">
+          <img src="/images/foxmosa-mail-02.png" width="100" alt="foxmosa mail">
           <h3>Thunderbird 愛好者俱樂部</h3>
       </a>
     </div>
