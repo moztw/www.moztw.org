@@ -11,6 +11,7 @@
 <!--#include virtual="/sandstone/iefix.shtml" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
+<!--#include virtual="/inc/dltb2.shtml" -->
 <section class="container block">
   <div class="key-point grids">
     <div id="product-desc" class="grid-8">
@@ -25,13 +26,13 @@
           <h4>Thunderbird 立即下載</h4>
           <ul>
             <li>
-              <a href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=win&amp;lang=zh-TW" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '2410-Windows');">Windows</a>
+              <a href="<!--#echo var='WINURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='WINTAG' -->');">Windows</a>
             </li>
             <li>
-              <a href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=linux&amp;lang=zh-TW" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '2410-Linux');">Linux</a>
+              <a href="<!--#echo var='LINUXURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='LINUXTAG' -->');">Linux</a>
             </li>
             <li>
-              <a href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=osx&amp;lang=zh-TW" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '2410-Mac');">Mac OS X</a>
+              <a href="<!--#echo var='OSXURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='OSXTAG' -->');">MAC OS X</a>
             </li>
           </ul>
         </div>
@@ -41,20 +42,20 @@
           <h4>Thunderbird 立即下載</h4>
           <ul>
             <li>
-              <a href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=win&amp;lang=zh-TW" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '2410-Windows');">Windows</a>
+              <a href="<!--#echo var='WINURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='WINTAG' -->');">Windows</a>
             </li>
             <li>
-              <a href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=linux&amp;lang=zh-TW" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '2410-Linux');">Linux</a>
+              <a href="<!--#echo var='LINUXURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='LINUXTAG' -->');">Linux</a>
             </li>
             <li>
-              <a href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=osx&amp;lang=zh-TW" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '2410-Mac');">Mac OS X</a>
+              <a href="<!--#echo var='OSXURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='OSXTAG' -->');">Mac OS X</a>
             </li>
           </ul>
         </div>
       </div>
       <ul role="presentation" class="download-list">
         <li class="os_windows">
-          <a class="download-link" href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=win&amp;lang=zh-TW" data-direct-link="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=win&amp;lang=zh-TW" onclick="ga('send', 'event', 'Download', 'Thunderbird', '2410-Windows');">
+          <a class="download-link" href="<!--#echo var='WINURL' -->" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='WINTAG' -->');">
               <span class="download-content">
                  <strong class="download-title">Thunderbird</strong>
                  <span class="download-subtitle">立即下載</span>
@@ -64,7 +65,7 @@
            </a>
         </li>
         <li class="os_linux">
-          <a class="download-link" href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=linux&amp;lang=zh-TW" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=linux&amp;lang=zh-TW" onclick="ga('send', 'event', 'Download', 'Thunderbird', '2410-Linux');">
+          <a class="download-link" href="<!--#echo var='LINUXURL' -->" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='LINUXTAG' -->');">
               <span class="download-content">
                  <strong class="download-title">Thunderbird</strong>
                  <span class="download-subtitle">立即下載</span>
@@ -74,7 +75,7 @@
            </a>
         </li>
         <li class="os_osx">
-          <a class="download-link" href="http://download.mozilla.org/?product=thunderbird-24.1.0&amp;os=osx&amp;lang=zh-TW" data-direct-link="https://download.mozilla.org/?product=firefox-14.0b7&amp;os=osx&amp;lang=zh-TW" onclick="ga('send', 'event', 'Download', 'Thunderbird', '2410-Mac');">
+          <a class="download-link" href="<!--#echo var='OSXURL' -->" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='OSXTAG' -->');">
               <span class="download-content">
                  <strong class="download-title">Thunderbird</strong>
                  <span class="download-subtitle">立即下載</span>
