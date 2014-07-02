@@ -3,39 +3,33 @@
 <!--#include virtual="/inc/class_links.html" -->
 <!--#include virtual="/inc/header.html" -->
 <div>
-	<h1> 網路資源/鏈結 </h1>
-	這裡放了相關的鏈結。
-	<h3> Mozilla.org </h3>
-	<ul>
-	<li> <a href='http://www.mozilla.org'>Mozilla.org 官方網站 </a>
-	<li> <a href='http://www.mozilla.org/projects/l10n'>Mozilla.org L10N (本地化)官方網站 </a>
-	<li> <a href='http://bugzilla.mozilla.org/'>Bugzilla: 回報 Mozilla 錯誤 </a>
+  <h1>網路資源/鏈結</h1>
+  <p>這裡放了相關的鏈結。</p>
+  <h3>Mozilla.org</h3>
+  <ul>
+    <li><a href="https://www.mozilla.org">Mozilla.org 官方網站</a></li>
+    <li><a href="https://l10n.mozilla.org/">Mozilla.org L10N（在地化）專案網站</a></li>
+    <li><a href="https://bugzilla.mozilla.org/">Bugzilla: 回報 Mozilla 錯誤</a></li>
 	</ul>
 
-<H3> Plugins </H3>
-這裡提供 Plugins 的鏈結(由於版權問題所以不直接提供下載檔案)。
-<ul>
-	<li><a href='http://www.apple.com.tw/quicktime/download/'>QuickTime Player</a> (Apple, 中文)
-	<li><a href='http://www.flash.com'>Macromedia Flash Player</a> (Macromedia)
-	<li><a href='http://www.adobe.com/products/acrobat/readstep2.html'>Adobe Reader</a> (Adobe, 前名: Acrobat Reader)
-	<li><a href='http://java.sun.com/j2se/'>Java 2</a> (Sun)
-	<li><a href='http://www.realnetworks.com/'>RealPlayer</a> (Real Networks)
-	<li><a href='http://plugindoc.mozdev.org/'>Mozilla 官方 plugins 整理網站 </a><br/>
-	    - <a href="http://plugindoc.mozdev.org/zh-TW/windows.html"> Windows plugins (中文) </a>
-	<li><a href="http://browser.netscape.com/ns8/community/plugin.jsp"> Netscape Plugins 網站 </a>
-</ul>
+  <h3>Plugins（外掛程式）</h3>
+  <p>這裡提供外掛程式的安裝鏈結（由於版權問題所以不直接提供下載檔案）。</p>
+  <ul>
+    <li><a href="http://www.apple.com/tw/quicktime/download/">QuickTime</a> (Apple)</li>
+    <li><a href="http://get.adobe.com/tw/flashplayer/">Flash Player</a> (Adobe)</li>
+    <li><a href="http://get.adobe.com/tw/reader/">Adobe Reader</a> (Adobe)</li>
+    <li><a href="http://java.com/zh_TW/">Java</a> (Oracle)</li>
+  </ul>
 
-<!--
-<h3>社群網頁</h3>
-許多關心 Mozilla 且熱心的朋友們所製作關於 Mozilla 的網頁：
-<ul>
-	<li>Hemiola: 
-	<a href='http://hemiolapei.free.fr/divers/mozilla.html'>推薦網頁瀏覽器Firefox</a>
-	<a href='http://hemiolapei.free.fr/divers/myfx.html'>我的 Firefox</a>
-
-</ul>
-若有遺漏或建議，歡迎至討論區回報。
--->
-
+  <!--
+  <h3>社群網頁</h3>
+  許多關心 Mozilla 且熱心的朋友們所製作關於 Mozilla 的網頁：
+  <ul>
+    <li>Hemiola:
+      <a href="http://hemiolapei.free.fr/divers/mozilla.html">推薦網頁瀏覽器 Firefox</a>
+      <a href="http://hemiolapei.free.fr/divers/myfx.html">我的 Firefox</a>
+    </ul>
+    若有遺漏或建議，歡迎至討論區回報。
+    -->
 </div>
 <!--#include virtual="/inc/footer.html" -->
