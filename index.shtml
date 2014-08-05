@@ -150,7 +150,6 @@
 }
 
 
-
 @media only screen and (max-width : 500px) {
     #front-feature #feature-content {
         display: none;
@@ -209,10 +208,19 @@ body.showalert {
     text-decoration: none;
 }
 
+#hacked-info a {
+    color: white;
+}
+
+#hacked-info a:hover {
+    background: #540000;
+    color: white;
+}
+
 #hacked-info .ttl {
     float: left;
     font-size: 2em;
-    margin: 0 2em;
+    margin: 0px 1em 0 0;
 }
 
 #hacked-info:hover {
@@ -221,7 +229,19 @@ body.showalert {
 
 #closebanner {
     background-color: #7E0000;
-   
+    border-radius: 0 0 0 1.5em;
+    color: #FFFFFF;
+    float: right;
+    font-size: 1.2em;
+    padding: 0.5em 1em 0.75em;
+    text-align: center;
+    text-decoration: none;
+}
+
+#closebanner:hover {
+    background-color: #A60000;
+    text-decoration: underline;
+}
 -->
 </style>
 <!--[if lte IE 8]>
@@ -245,8 +265,7 @@ body.showalert {
 
 <div id="alertbanner">
     <a id="closebanner" href="javascript:void(0)">不再顯示</a>
-    <a id="hacked-info" href="test.html"><span class="ttl">資安通報</span>經查過去一個月Mozilla開發者網站帳號資訊意外暴露在公開伺服器,雖然密碼經過加密,我們仍建議開發者更改密碼.<br>此問題無礙一般使用者,請安心繼續使用.
-<br>Firefox</a>
+    <span id="hacked-info" target="_blank" href="https://blog.mozilla.org/security/2014/08/01/mdn-database-disclosure/"><span class="ttl">資安通報</span>經查「<abbr title="Mozilla Development Network">Mozilla 開發者網站</abbr>」的信箱與加密過的密碼，於 6/23~7/23 意外暴露在公開伺服器，<a href="https://blog.mozilla.org/security/2014/08/01/mdn-database-disclosure/" target="_blank">詳細資訊請查閱本文</a>；<i>此狀況與 Firefox 無關，一般用戶請安心使用</i>。</span>
 </div>
 
 
