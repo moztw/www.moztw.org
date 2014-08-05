@@ -61,6 +61,8 @@
     top: 237px;  
 }
 
+
+
 #feature-content h2 {
     margin-bottom: 5px;
 }
@@ -179,6 +181,46 @@
         letter-spacing: 0.05em;
     }
 }
+
+/* about hacked info */
+
+#alertbanner {
+    display: none;
+}
+
+body.showalert #alertbanner {
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+body.showalert {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#hacked-info {
+    background-color: #720000;
+    box-shadow: 0 -3px 3px #666666 inset;
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.33em;
+    padding: 7px 7em 10px 4em;
+    text-decoration: none;
+}
+
+#hacked-info .ttl {
+    float: left;
+    font-size: 2em;
+    margin: 0 2em;
+}
+
+#hacked-info:hover {
+    background-color: #A60000;
+}
+
+#closebanner {
+    background-color: #7E0000;
    
 -->
 </style>
@@ -199,6 +241,13 @@
 }
 </style>
 <![endif]-->
+
+
+<div id="alertbanner">
+    <a id="closebanner" href="javascript:void(0)">不再顯示</a>
+    <a id="hacked-info" href="test.html"><span class="ttl">資安通報</span>經查過去一個月Mozilla開發者網站帳號資訊意外暴露在公開伺服器,雖然密碼經過加密,我們仍建議開發者更改密碼.<br>此問題無礙一般使用者,請安心繼續使用.
+<br>Firefox</a>
+</div>
 
 
 <!--#include virtual="/inc/class_homepage.html" -->
@@ -344,6 +393,27 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 	);
 })(jQuery);
 </script>
+
+
+<script type="text/javascript">
+(function ($) {
+
+    if (document.cookie.replace(/(?:(?:^|.*;\s*)moztwalertbanner\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+      $('body').addClass("showalert");
+    };
+    $('#closebanner').click(function() {
+      $('body').removeClass("showalert");
+        
+        // hide ads for 999 days
+        var Dt = new Date(Date.now() + (86400 * 1000 * 999));
+        document.cookie = "moztwalertbanner=true; path=/; expires=" + Dt.toUTCString();
+    });
+    
+    
+
+})(jQuery);
+</script>
+
 
 <script type='text/javascript' src='http://moztw-arphic.cloudapp.net/FontSubsetOutput/WebFontApi-AACAE9FCA1494d66B9BF53196F0992E1/WebFontApi-AACAE9FCA1494d66B9BF53196F0992E1.JS?9395323985'></script>
 <script>
