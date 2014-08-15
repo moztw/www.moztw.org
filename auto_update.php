@@ -1,4 +1,4 @@
-<?
+<?php
 include("inc/meta.html");
 include("inc/title.html");
 include("inc/class.html");
@@ -6,7 +6,7 @@ include("inc/header.html");
 $isInStage = (strpos($_SERVER["SCRIPT_FILENAME"], 'www-stage') != false);
 ?>
 <h1>MozTW Website Online Update</h1>
-<?
+<?php
 if(isset($_POST["rebuild_git"]) && $_POST["rebuild_git"])
 {
   # processing
@@ -15,7 +15,7 @@ if(isset($_POST["rebuild_git"]) && $_POST["rebuild_git"])
 <pre id='progress_blk'  title='still processing, please wait...'
     style='padding: 5px; maring: 5px; cursor: wait;
     border: 1px solid green;
-    border-bottom: 1px dotted red'><?
+    border-bottom: 1px dotted red'><?php
   $cmd = '/home/moztw/repo/base/autoupdate/update-git.sh';
   $cmd .= ' 2>&1';
   echo "Command: " . htmlspecialchars($cmd) . "\n\n";
@@ -39,7 +39,7 @@ document.getElementById('progress_blk').style.cursor = 'default';
 document.getElementById('progress_blk').title = 'ready';
 // -->
 </script>
-<?
+<?php
 }
 if(isset($_POST["rebuild_yes"]) && $_POST["rebuild_yes"])
 {
@@ -49,7 +49,7 @@ if(isset($_POST["rebuild_yes"]) && $_POST["rebuild_yes"])
 <pre id='progress_blk'  title='still processing, please wait...'
   style='padding: 5px; maring: 5px; cursor: wait;
     border: 1px solid green;
-    border-bottom: 1px dotted red'><?
+    border-bottom: 1px dotted red'><?php
   $cmd = '/home/moztw/repo/base/autoupdate/update.sh';
   $opt = '';
   if ($isInStage) {
@@ -86,13 +86,13 @@ document.getElementById('progress_blk').style.cursor = 'default';
 document.getElementById('progress_blk').title = 'ready';
 // -->
 </script>
-<?
+<?php
 } else {
   # index page
 ?>
   <form method="post"><fieldset>
     <p style="color: blue; font-weight:bold;">Update MozTW Website:<br><br>
-	    <label style="color: black;">Confirm to update main repo for MozTW website <? if ($isInStage) echo "<b>stage</b>"; ?>.
+	    <label style="color: black;">Confirm to update main repo for MozTW website <?php if ($isInStage) echo "<b>stage</b>"; ?>.
 			<input id='xgeneral' type='checkbox' name='rebuild_yes' checked>
 		</label>
 	</p>
@@ -113,11 +113,9 @@ document.getElementById('progress_blk').title = 'ready';
   <hr>
 	<input type='submit' value='Start Update'>
     </fieldset></form>
-<?
+<?php
 }
-?>
 
-<?
 include("inc/footer.html");
 ?>
 
