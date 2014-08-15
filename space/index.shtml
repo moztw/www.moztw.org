@@ -1,6 +1,6 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
 <title>摩茲工寮 Mozilla Community Space Taipei | MozTW, Mozilla Taiwan Community</title>
-<meta name="description" content="摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。摩茲工寮歡迎社成員免費使用，歡迎加入、一同塑造屬於我們的 Web。" />
+<meta name="description" content="摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。摩茲工寮歡迎社群成員免費使用，歡迎加入、一同塑造屬於我們的 Web。" />
 <script>
    // let tabzilla not clickable
    Tabzilla.onReady = function() {

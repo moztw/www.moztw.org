@@ -61,6 +61,8 @@
     top: 237px;  
 }
 
+
+
 #feature-content h2 {
     margin-bottom: 5px;
 }
@@ -148,7 +150,6 @@
 }
 
 
-
 @media only screen and (max-width : 500px) {
     #front-feature #feature-content {
         display: none;
@@ -179,7 +180,91 @@
         letter-spacing: 0.05em;
     }
 }
-   
+
+/* about hacked info */
+
+#alertbanner {
+    display: none;
+}
+
+body.showalert #alertbanner {
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+body.showalert {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#hacked-info {
+    background-color: #720000;
+    box-shadow: 0 -3px 3px #666666 inset;
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.33em;
+    padding: 7px 7em 10px 4em;
+    text-decoration: none;
+    min-height: 2.5em;
+}
+
+#hacked-info a {
+    color: white;
+}
+
+#hacked-info a:hover {
+    background: #7E0000;
+    color: white;
+}
+
+#hacked-info .ttl {
+    float: left;
+    font-size: 2em;
+    margin: 0px 1em 0 0;
+}
+
+#hacked-info:hover {
+    background-color: #A60000;
+}
+
+#closebanner {
+    background-color: #7E0000;
+    border-radius: 0 0 0 1.5em;
+    color: #FFFFFF;
+    float: right;
+    font-size: 1.2em;
+    padding: 0.5em 1em 0.75em;
+    text-align: center;
+    text-decoration: none;
+}
+
+#closebanner:hover {
+    background-color: #A60000;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width : 500px) {
+  #hacked-info {
+      padding: 1em;
+      font-size: 0.9em;
+  }
+  
+  #hacked-info .ttl {
+      float: none;
+      display: block;
+  }
+  
+  #hacked-info .ctnt {
+      margin-left: auto;
+      line-height: 1.5em;
+  }
+  
+  .showalert #header #search {
+      position: relative;
+  }
+}
+
 -->
 </style>
 <!--[if lte IE 8]>
@@ -199,6 +284,15 @@
 }
 </style>
 <![endif]-->
+
+
+<div id="alertbanner">
+    <a id="closebanner" href="javascript:void(0)">不再顯示</a>
+    <div id="hacked-info">
+      <span class="ttl">資安通報</span>
+      <span class="ctnt">經查「<abbr title="Mozilla Development Network">Mozilla 開發者網站</abbr>」的信箱與加密過的密碼，於 6/23~7/23 意外暴露在公開伺服器，<a href="https://blog.mozilla.org/security/2014/08/01/mdn-database-disclosure/" target="_blank">詳細資訊請查閱本文</a>；<i>此狀況與 Firefox 無關，一般用戶請安心使用</i>。</span>
+    </div>
+</div>
 
 
 <!--#include virtual="/inc/class_homepage.html" -->
@@ -288,6 +382,7 @@
           <li><a href="https://webmaker.org/" onClick="ga('send', 'event', 'Outgoing', 'Webmaker', 'frontpage');">Mozilla Webmaker</a></li>
           <li><a href="http://mozlinks-zh.blogspot.com/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla Links', 'frontpage');">Mozilla Links 正體中文版</a></li>
           <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 未來發行版本</a></li>
+          <li><a href="http://wiki.moztw.org/">共筆系統</a></li>
           <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
         </ul>
     </div>
@@ -343,6 +438,27 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 	);
 })(jQuery);
 </script>
+
+
+<script type="text/javascript">
+(function ($) {
+
+    if (document.cookie.replace(/(?:(?:^|.*;\s*)moztwalertbanner\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
+      $('body').addClass("showalert");
+    };
+    $('#closebanner').click(function() {
+      $('body').removeClass("showalert");
+        
+        // hide ads for 999 days
+        var Dt = new Date(Date.now() + (86400 * 1000 * 999));
+        document.cookie = "moztwalertbanner=true; path=/; expires=" + Dt.toUTCString();
+    });
+    
+    
+
+})(jQuery);
+</script>
+
 
 <script type='text/javascript' src='http://moztw-arphic.cloudapp.net/FontSubsetOutput/WebFontApi-AACAE9FCA1494d66B9BF53196F0992E1/WebFontApi-AACAE9FCA1494d66B9BF53196F0992E1.JS?9395323985'></script>
 <script>
