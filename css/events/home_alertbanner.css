@@ -1,0 +1,83 @@
+/* about hacked info */
+
+#alertbanner {
+    display: none;
+}
+
+body.showalert #alertbanner {
+    display: block;
+    margin-bottom: 1.5em;
+}
+
+body.showalert {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+#hacked-info {
+    background-color: #720000;
+    box-shadow: 0 -3px 3px #666666 inset;
+    color: #FFFFFF;
+    display: block;
+    font-size: 1.33em;
+    padding: 7px 7em 10px 4em;
+    text-decoration: none;
+    min-height: 2.5em;
+}
+
+#hacked-info a {
+    color: white;
+}
+
+#hacked-info a:hover {
+    background: #7E0000;
+    color: white;
+}
+
+#hacked-info .ttl {
+    float: left;
+    font-size: 2em;
+    margin: 0px 1em 0 0;
+}
+
+#hacked-info:hover {
+    background-color: #A60000;
+}
+
+#closebanner {
+    background-color: #7E0000;
+    border-radius: 0 0 0 1.5em;
+    color: #FFFFFF;
+    float: right;
+    font-size: 1.2em;
+    padding: 0.5em 1em 0.75em;
+    text-align: center;
+    text-decoration: none;
+}
+
+#closebanner:hover {
+    background-color: #A60000;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width : 500px) {
+  #hacked-info {
+      padding: 1em;
+      font-size: 0.9em;
+  }
+
+  #hacked-info .ttl {
+      float: none;
+      display: block;
+  }
+
+  #hacked-info .ctnt {
+      margin-left: auto;
+      line-height: 1.5em;
+  }
+
+  .showalert #header #search {
+      position: relative;
+  }
+}
