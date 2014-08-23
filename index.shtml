@@ -8,7 +8,7 @@
 <style>
 <!--
 .front-feature {
-    position: relative; 
+    position: relative;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
 }
 
@@ -52,13 +52,13 @@
     font-size: 46px;
     left: 365px;
     line-height: 1.2em;
-    top: 53px; 
+    top: 53px;
 }
 .front-feature #mobile_link #mobile_respect {
     font-size: 24px;
     left: 367px;
     line-height: 1.25em;
-    top: 237px;  
+    top: 237px;
 }
 
 
@@ -180,91 +180,6 @@
         letter-spacing: 0.05em;
     }
 }
-
-/* about hacked info */
-
-#alertbanner {
-    display: none;
-}
-
-body.showalert #alertbanner {
-    display: block;
-    margin-bottom: 1.5em;
-}
-
-body.showalert {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-}
-
-#hacked-info {
-    background-color: #720000;
-    box-shadow: 0 -3px 3px #666666 inset;
-    color: #FFFFFF;
-    display: block;
-    font-size: 1.33em;
-    padding: 7px 7em 10px 4em;
-    text-decoration: none;
-    min-height: 2.5em;
-}
-
-#hacked-info a {
-    color: white;
-}
-
-#hacked-info a:hover {
-    background: #7E0000;
-    color: white;
-}
-
-#hacked-info .ttl {
-    float: left;
-    font-size: 2em;
-    margin: 0px 1em 0 0;
-}
-
-#hacked-info:hover {
-    background-color: #A60000;
-}
-
-#closebanner {
-    background-color: #7E0000;
-    border-radius: 0 0 0 1.5em;
-    color: #FFFFFF;
-    float: right;
-    font-size: 1.2em;
-    padding: 0.5em 1em 0.75em;
-    text-align: center;
-    text-decoration: none;
-}
-
-#closebanner:hover {
-    background-color: #A60000;
-    text-decoration: underline;
-}
-
-@media only screen and (max-width : 500px) {
-  #hacked-info {
-      padding: 1em;
-      font-size: 0.9em;
-  }
-  
-  #hacked-info .ttl {
-      float: none;
-      display: block;
-  }
-  
-  #hacked-info .ctnt {
-      margin-left: auto;
-      line-height: 1.5em;
-  }
-  
-  .showalert #header #search {
-      position: relative;
-  }
-}
-
 -->
 </style>
 <!--[if lte IE 8]>
@@ -285,21 +200,10 @@ body.showalert {
 </style>
 <![endif]-->
 
-
-<div id="alertbanner">
-    <a id="closebanner" href="javascript:void(0)">不再顯示</a>
-    <div id="hacked-info">
-      <span class="ttl">資安通報</span>
-      <span class="ctnt">經查「<abbr title="Mozilla Development Network">Mozilla 開發者網站</abbr>」的信箱與加密過的密碼，於 6/23~7/23 意外暴露在公開伺服器，<a href="https://blog.mozilla.org/security/2014/08/01/mdn-database-disclosure/" target="_blank">詳細資訊請查閱本文</a>；<i>此狀況與 Firefox 無關，一般用戶請安心使用</i>。</span>
-    </div>
-</div>
-
-
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
-
-<div class="key-point front-feature" id="front-feature">	
+<div class="key-point front-feature" id="front-feature">
   <div id="mobile_link">
     <p id="mobile_faster" class="webfont_2">更快<br>更聰明<br>更加安全</p>
     <p id="mobile_respect" class="webfont_2">絕對尊重您的<br>行動瀏覽器</p>
@@ -315,7 +219,7 @@ body.showalert {
     </div>
     <div class="download dl-mobile">
     	<h3><a href="/mobile/"><strong class="downloadText">Firefox Android 版</strong></a></h3>
- 		<div>    	
+ 		<div>
         	<ul>
             	<li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'GooglePlay');">Google Play (中文版)</a></li>
         </ul>
@@ -326,7 +230,7 @@ body.showalert {
 
 <div id="mBody">
   <div class="frontcolumn hide" id="mobile-feature-ios">
-    <h2 class="mobile-header"><a href="https://itunes.apple.com/tw/app/bookmarks-on-the-go/id550037184?l=zh&mt=8" onClick="ga('send', 'event', 'Outgoing', 'iOS-AppStore-BookmarkOnTheGo', 'frontpage-frontcolumn');">Bookmark On The Go<img src="/images/product-firefox-homn.png" alt="Bookmark On The Go" class="promo"></a></h2>
+    <h2 class="mobile-header"><a href="https://itunes.apple.com/tw/app/bookmarks-on-the-go/id550037184?l=zh&mt=8" onClick="ga('send', 'event', 'Outgoing', 'iOS-AppStore-BookmarkOnTheGo', 'frontpage-frontcolumn');">Bookmark On The Go<img src="/images/product-firefox-home.png" alt="Bookmark On The Go" class="promo"></a></h2>
     <p><b>行動首頁帶著走。</b>在 iPhone 上任意取用 Firefox 的瀏覽歷史及書籤，時時同步開啟分頁，喜歡的網站隨時都在您手邊！<br>→ <a href="http://m.youtube.com/#/watch?v=_rFf5BnurVI" onClick="ga('send', 'event', 'Show Video', 'FirefoxHome', 'frontpage');">Firefox Home 迷你短片</a></p>
   </div>
   <div class="frontcolumn hide">
@@ -347,7 +251,7 @@ body.showalert {
     <a href="/space/">Mozilla Community Space Taipei</a><br>台北的社群空間，提供電力、網路與激發創意的 Mozilla 小物，讓許多的摩茲人在此一起貢獻各種開放專案，歡迎來訪。
   </p>
 </div>
-  
+
   <div class="frontcolumnlast">
     <h2><a href="/contribute/">參與我們<img src="/images/toy_gold_32.png" alt="Contribute Logo" class="promo"></a></h2>
 	<p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！
@@ -372,8 +276,8 @@ body.showalert {
 	  <br style="clear: both;">
 	  <a href='news'>所有公告記錄</a>
     </div>
-    <!-- End News Columns -->  
-    
+    <!-- End News Columns -->
+
     <div class="frontcolumnlast">
 	  <h2>快速捷徑</h2>
         <ul class="news">
@@ -405,11 +309,11 @@ body.showalert {
  *   http://me.boo.uz
  *
  */
-(function($){$.extend({jGFeed:function(url,fnk,num,key){if(url==null){return 
-false;}var 
-gurl="http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;if(num!=null){gurl+="&num="+num;}if(key!=null){gurl+="&key="+key;}$.getJSON(gurl,function(data){if(typeof 
-fnk=="function"){ if 
-(data.responseData)fnk.call(this,data.responseData.feed);else 
+(function($){$.extend({jGFeed:function(url,fnk,num,key){if(url==null){return
+false;}var
+gurl="http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;if(num!=null){gurl+="&num="+num;}if(key!=null){gurl+="&key="+key;}$.getJSON(gurl,function(data){if(typeof
+fnk=="function"){ if
+(data.responseData)fnk.call(this,data.responseData.feed);else
 fnk.call(this,false);}else{return false;}});}});})(jQuery);
 </script>
 <script type="text/javascript">
@@ -418,7 +322,7 @@ fnk.call(this,false);}else{return false;}});}});})(jQuery);
 		'http://planet.moztw.org/atom.xml',
 		function (feed) {
 			$(function () {
-				
+
 $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').after(
 	'<div id="planets" class="frontcolumn"><a href="http://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"></a><h2><a href="http://planet.moztw.org/">摩茲工寮</a></h2><ul /></div>'
 				);
@@ -427,7 +331,7 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 					feed.entries,
 					function (i, o) {
 						$ul.append(
-							'<li><a href="' 
+							'<li><a href="'
 + o.link + '">' + o.title.substr(o.title.indexOf(':') + 2)  + '</a> &ndash; ' + o.title.substr(0, o.title.indexOf(':')) + '</li>'
 						);
 					}
@@ -438,27 +342,6 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 	);
 })(jQuery);
 </script>
-
-
-<script type="text/javascript">
-(function ($) {
-
-    if (document.cookie.replace(/(?:(?:^|.*;\s*)moztwalertbanner\s*\=\s*([^;]*).*$)|^.*$/, "$1") !== "true") {
-      $('body').addClass("showalert");
-    };
-    $('#closebanner').click(function() {
-      $('body').removeClass("showalert");
-        
-        // hide ads for 999 days
-        var Dt = new Date(Date.now() + (86400 * 1000 * 999));
-        document.cookie = "moztwalertbanner=true; path=/; expires=" + Dt.toUTCString();
-    });
-    
-    
-
-})(jQuery);
-</script>
-
 
 <script type='text/javascript' src='http://moztw-arphic.cloudapp.net/FontSubsetOutput/WebFontApi-AACAE9FCA1494d66B9BF53196F0992E1/WebFontApi-AACAE9FCA1494d66B9BF53196F0992E1.JS?9395323985'></script>
 <script>
@@ -476,7 +359,7 @@ if (!window.arphicWebFontApi){
     return;
 };
 arphicWebFontApi.ready = function() {
-    // setup webfont selectors 
+    // setup webfont selectors
     var selectorFontNameArray =
     [
         { selectorName: ".webfont_1", fontName: "文鼎W圓體B" },
