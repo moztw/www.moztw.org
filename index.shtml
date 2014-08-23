@@ -182,7 +182,6 @@
 }
 -->
 </style>
-<link rel="stylesheet" href="/css/events/home_alertbanner.css">
 <!--[if lte IE 8]>
 <style>
 .key-point {
@@ -200,8 +199,6 @@
 }
 </style>
 <![endif]-->
-
-<!--#include virtual="/inc/home_alertbanner.html" -->
 
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
@@ -345,8 +342,6 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 	);
 })(jQuery);
 </script>
-
-<script type='text/javascript' src='js/alertbanner.js'></script>
 
 <script type='text/javascript' src='http://moztw-arphic.cloudapp.net/FontSubsetOutput/WebFontApi-AACAE9FCA1494d66B9BF53196F0992E1/WebFontApi-AACAE9FCA1494d66B9BF53196F0992E1.JS?9395323985'></script>
 <script>
