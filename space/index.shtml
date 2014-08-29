@@ -50,7 +50,7 @@
          <div class="grids">
             <div class="grid-7">
               <div id="product-desc" >
-               <h2>近期活動</h2>
+               <h2>排班表與近期活動</h2>
                <p>　</p>
                <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=260&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=3fs8qeakm6ij88hibpb5bsg3mc%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=Asia%2FTaipei" width="300" height="260" frameborder="0" scrolling="no"></iframe>
               </div>
@@ -58,17 +58,15 @@
              
             </div>
             <div class="grid-5">
-               <div id="product-desc">
-               <h2>開放時間</h2>
-            </div>
-              <p>每週一至四晚間 19:30-22:00，另外目前每周五晚上的 <a href="http://moztw.org/events/moztw-lab/">MozTW Lab 台北場</a>也在此舉辦。詳細時間與特別活動請見左欄時間表。</p>
+                <div id="product-desc">
+                  <h2>開放時間</h2>
+                </div>
+                <p>原則上週一至週五晚間 19:30-22:00 皆對全體 Mozilla 社群成員開放，而每周五晚上的 <a href="http://moztw.org/events/moztw-lab/">MozTW Lab 台北場</a>也在此舉辦。確實開放時間，請參考日曆（排班表）。</p>
                
-               <div id="top-features2">
-               <p>如果你不確定有沒有人在，可以 Mailing List / IRC / Line / Telegram 上面問一下。現場有網路、電、飲料，歡迎大家來做 Mozilla / Open Source / Web 等等相關的事情 :)</p>
+                <div id="top-features2">
+                    <p>如果你不確定有沒有人在，可以前往<a href="https://groups.google.com/forum/#!msg/moztw-general/">郵件群組</a>、<a href="ircs://irc.mozilla.org/#mozilla-taiwan">IRC</a> 或我們的 Telegram 群組上面問一下。現場有網路、電、飲料，歡迎大家來做 Mozilla / Open Source / Web 等等相關的事情 :)</p>
                </div>
             </div>
-
-
 
          </div>
             
