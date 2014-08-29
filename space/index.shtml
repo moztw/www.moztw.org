@@ -11,13 +11,21 @@
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
+<section class="container">
+    <header id="masthead" role="banner">
+        <hgroup>
+            <h1 id="site-title">摩茲工寮</h1>
+            <h2 id="site-description">Mozilla Community Space Taipei</h2>
+        </hgroup>
+    </header>
+</section>
+
 <section class="container block">
    <div class="key-point">
       <div class="grids">
          <div class="grid-8">
              <div id="product-desc" class="about">
-               <h2>摩茲工寮 | Mozilla Community Space Taipei</h2>
-               <h5>摩茲工寮 - Mozilla Community Space Taipei 是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。</h5>
+               <p>摩茲工寮 - Mozilla Community Space Taipei 是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。</p>
              </div>
              
          </div>
