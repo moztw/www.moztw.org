@@ -15,3 +15,9 @@
   <script type="text/javascript" src="/sandstone/js/tabzilla.js"></script>
   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
   <script data-main="/sandstone/js/main.js" src="/sandstone/js/lib/require.js"></script>
+  <script>
+    // let tabzilla not clickable
+    Tabzilla.onReady = function() {
+      Tabzilla.setStatic();
+    }
+  </script>
