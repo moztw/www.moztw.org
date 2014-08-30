@@ -17,6 +17,7 @@
     <script src="js/picwall.js"></script>
     <script src="js/FeedEk.js"></script>
     <script src="js/main.js"></script>
+    
 </head>
     <body>
         <div id="outer-wrapper">
@@ -24,9 +25,9 @@
                 
                 <!--#include virtual="/sandstone/header.shtml" -->
                 
-                <hgroup id="main-feature" class="container block">
-                    <h1>Foxmosa</h1>
-                    <h2 class="l10n" data-l10n="foxmosa-name">狐耳摩莎</h2>
+                <hgroup id="title_area" class="container block">
+                    <h1 id="site-title" class="large">Foxmosa</h1>
+                    <h2 id="site-description" class="open-sans-light l10n" data-l10n="foxmosa-name">狐耳摩莎</h2>
                 </hgroup>
                 
                 <div id="content-area">
