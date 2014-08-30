@@ -243,3 +243,8 @@ div[class^=grid-] {
     
     position: relative;
 }
+
+#map {
+	width:300px;
+	height:150px;
+}
