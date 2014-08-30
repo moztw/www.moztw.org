@@ -7,7 +7,10 @@
       Tabzilla.setStatic();
    }
 </script>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+
 <link href="css/mozspacetp.css" rel="stylesheet" />
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
@@ -41,10 +44,11 @@
 
          </div>
          <div class="grid-4" >
-           <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.0360866786086!2d121.52633000000002!3d25.066766000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a95aa5f059f5%3A0x54c79a961a8877e3!2zMTA05Y-w54Gj5Y-w5YyX5biC5Lit5bGx5Y2A5b635oOg6KGXMjPomZ8!5e0!3m2!1szh-TW!2s!4v1400606398459" width="300" height="200" frameborder="0" style="border:0"></iframe>
+           <div id="map"></div>
            <div id="top-features"  >
            <p>地址：10460 台北市中山區德惠街23號地下一樓</p>
            <p>Address: B1, No.23, Dehui St., Zhongshan Dist., Taipei City 10460, Taiwan</p>
+           <p><a href="https://www.google.com/maps/preview?ll=25.066749,121.526335&z=15&t=m&hl=zh-TW&gl=US&mapclient=embed&q=104%E5%8F%B0%E7%81%A3%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E5%BE%B7%E6%83%A0%E8%A1%9723%E8%99%9F">在 Google 地圖上查看</a></p>
             </div>
          </div>
 
@@ -136,5 +140,5 @@
 </section>
 <script type="text/javascript" src="/js/library/jquery.js"></script>
 <script src="js/tb-features.js"></script>
-
+<script src="js/app.js"></script>
 <!--#include virtual="/sandstone/footer.shtml" -->
