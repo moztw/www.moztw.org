@@ -1,12 +1,22 @@
+div{
+  margin: 0px;
+}
 .grids {
-  margin-left: 0;
+  margin-left: 117px;
+}
+.grid-12{
+  width: 100%;
 }
 .key-point{ 
   height: auto;
+  width: 75%;
+  margin-right: 5px;
 }
-.find_child{
+div.find-child.grids{
   height: auto;
+  margin-left: 0px;
 }
+
 input{
   background: #fff;
   border-color: #b2b2b2;
