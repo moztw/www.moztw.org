@@ -11,7 +11,7 @@
 
 <link href="css/mozspacetp.css" rel="stylesheet" />
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
 <section class="container">
@@ -22,6 +22,29 @@
         </hgroup>
     </header>
 </section>
+  <section class="container block">
+    <h2 class="block-title hide">標題</h2>
+    <div class="key-point module">
+      <div class="key-point-inner">
+        <!-- slider start -->
+        <div class="slider key-point-slider">
+          <section class="slider-section show" data-background="https://farm4.staticflickr.com/3893/14619581798_969ea90ece_b.jpg">
+            <h3 class="slider-section-title"></h3>
+            <div class="slider-section-description">
+              <p></p>
+            </div>
+          </section>
+          <section class="slider-section" data-background="https://farm3.staticflickr.com/2926/14751993634_9cc3e7541d_b.jpg">
+            <h3 class="slider-section-title"></h3>
+            <div class="slider-section-description">
+              <p></p>
+            </div>
+          </section>
+        </div>
+        <!-- slider end -->
+      </div>
+    </div>
+  </section>
 
 <section class="container block">
    <div class="key-point">
