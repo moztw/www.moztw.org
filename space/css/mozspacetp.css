@@ -27,13 +27,23 @@ img {
    margin-left: 20px;
 }
 div[class^=grid-] > p {
-   margin-bottom: 2px;
-   padding-right: 30px;
+   margin-top: 0;
 }
 
+main header {
+  margin-top: 50px;
+  text-align: center;
+}
+main header h1 {
+  font-size: 42px;
+  margin-bottom: 3px;
+}
+main header h2 {
+  font-size: 30px;
+  margin: 0 0 40px;
+}
 
-
-#top-bottom {
+.top-bottom {
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #D7D9E8;
     border-radius: 6px 6px 6px 6px;
@@ -104,119 +114,106 @@ div[class^=grid-] > p {
     margin: 0 0 6px;
 }
 
-/* 螢幕寬度較小調整 in width 940px ----------- */
-@media only screen and (max-width:940px) {
-/*   #top-features {
-      display: none;
-   } */
-   .feature-links {
-      background: none;
-   }
-.container.block .key-point .grids .grid-8 {width:390px}
-#top-bottom {width: 160px;}
-#top-features2 {width:200px;}
 
-
-#top-bottom {
-    width: 160px;
+.grids  {width:960px;}
+.grid-1 {width: 60px;}
+.grid-2 {width:140px;}
+.grid-3 {width:220px;}
+.grid-4 {width:300px;}
+.grid-5 {width:380px;}
+.grid-6 {width:460px;}
+.grid-7 {width:540px;}
+.grid-8 {width:620px;}
+.grid-9 {width:700px;}
+.grid-10{width:780px;}
+.grid-11{width:860px;}
+.grid-12{width:940px;}
+div[class^=grid-] {
+  float:left;
+  margin:0 0 0 20px;
 }
 
-#top-features2 {
-  width:200px;
+
+#map {
+  width:100%;
+  height:200px;
 }
 
+#keyholders ol {margin: 0; padding: 0;}
+#keyholders li {
+  display: block;
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 0px 10px 10px 10px;
+}
+#keyholders li img {
+  border-radius: 100%;
+  background-clip: padding-box;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width:960px) {
 
 }
 
 @media only screen and (max-width:830px) {
-/*   #top-features {
-      display: none;
-   } */
-   .feature-links {
-      background: none;
-   }
-   .container.block .key-point .grids  {width:600px}
-   .container.block .key-point .grids .grid-8 {width:320px}
-   .container.block .key-point .grids .grid-4 {width:140px}
-   .container.block .key-point .grids .grid-7 {width:320px}
-   .container.block .key-point .grids .grid-5 {width:220px}
-  
-   #top-bottom {
-      width: 120px;
-   }
+
 }
 
 @media only screen and (max-width:735px) {
-   .feature-links li a .feature-link-content  {
-      /*background: none;*/
-      display: block;
-      width: 60px;
-      font-size: 14px;
-      font-style: italic;
-      line-height: 16px;
-      text-align: left;
-      /*padding: 5px;*/
-      cursor: pointer; /* For IE */
-      position: relative;
-      top: 0;
-   }
-   .feature-links li {
-      margin-right: 5px;
-   }
-   .container.block .key-point .grids  {margin:0 auto}
-   .container.block .key-point .grids  {width:400px}
-   .container.block .key-point .grids .grid-8 {width:320px}
-   .container.block .key-point .grids .grid-4 {width:320px}
-
 
 }
 
 
 @media only screen and (max-width:433px) {
-   .feature-links li a .feature-link-content  {
-      /*background: none;*/
-      display: block;
-      width: 60px;
-      font-size: 14px;
-      font-style: italic;
-      line-height: 16px;
-      text-align: left;
-      /*padding: 5px;*/
-      cursor: pointer; /* For IE */
-      position: relative;
-      top: 0;
-   }
-   .feature-links li {
-      margin-right: 5px;
-   }
-   .container.block .key-point {padding: 0px}
-   .container.block .key-point .grids  {width:400px}
-   .container.block .key-point .grids .grid-8 {width:320px}
-   .container.block .key-point .grids .grid-4 {width:320px}
-   .container.block .key-point {padding-top: 30px;}
-   .container.block .key-point {padding-bottom: 30px;}
+  .container.block .key-point {padding: 0px}
+  
+  main header h1 {font-size: 30px;}
+  main header h2,h2 {font-size: 20px;}
+  main header h3 {text-align: center;}
 
+  div[class^="grid-"] {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 
+  .grids {margin-left:0;}
 
+  #wrap {
+    width: 280px !important;
+    padding: 0px 20px;
+  }
 
+  .grids,
+  .grid-4,
+  .grid-6,
+  .grid-12 {
+    width: 280px;
+  }
+
+  #keyholders li {
+    width: 64px;
+    height: 64px;
+  }
+
+  .key-point {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  #footer .grid-text{
+    text-align: left;
+  }
+
+  #photos {
+    display: none;
+  }
 }
 
-.grids  {width:840px}
-.grid-1 {width: 40px}
-.grid-2 {width:110px}
-.grid-3 {width:180px}
-.grid-4 {width:250px}
-.grid-5 {width:320px}
-.grid-6 {width:390px}
-.grid-7 {width:460px}
-.grid-8 {width:530px}
-.grid-9 {width:600px}
-.grid-10{width:670px}
-.grid-11{width:740px}
-.grid-12{width:810px}
-div[class^=grid-] {
-   margin-right: 10px;
-}
+
+
 
 /* overwrite .container p{margin:0} in sandstone, might need remove this after we nolonger use .container for divs on this page. */
 .container p{margin-bottom: 14px;}
@@ -227,7 +224,7 @@ div[class^=grid-] {
 #site-title {
     font-size: 4.5em;
     letter-spacing: -3px;
-    margin: 0px 0px 0.15em -5px;
+    margin: 0px 0px 0.15em;
     transition: font-size 0s ease 0s, letter-spacing 0.5s ease-out 0s;
 }
 
@@ -238,16 +235,22 @@ div[class^=grid-] {
 #masthead {
     background-position: right top;
     background-repeat: no-repeat;
-    margin: 0px 30px 0px 0px;
+    margin: 0px;
     min-height: 120px;
-
-    /* was 72px 0px 30px 30px, but we have a top nav-bar and every "block" has 40 margin-top. */
-    padding: 50px 0px 0px 30px;
-    
+    padding: 50px 0 0 0;
     position: relative;
+    text-align: center;
 }
 
-#map {
-	width:260px;
-	height:200px;
+ 
+#wrap { /* from OneMozilla */
+  margin: 0 auto;
+  position: relative;
+  -moz-transition: padding, width .5s ease-out;
+  -ms-transition: padding, width .5s ease-out;
+  -o-transition: padding, width .5s ease-out;
+  -webkit-transition: padding, width .5s ease-out;
+  transition: padding, width .5s ease-out;
+  width: 960px; /* was 1000px here */
 }
+
