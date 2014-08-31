@@ -1,47 +1,80 @@
-<!--#include virtual="/inc/meta.html" -->
+<!--#include virtual="/sandstone/meta.shtml" -->
 <title>MozTW Lab - MozTW, Mozilla Taiwan Community</title>
-<meta name="description" content="交朋友、聊是非、互助研究的好所在。聊聊 Web 界的八卦、找人幫你的作品給點意見、與志同道合的夥伴見面">
+<meta name="description" lang="zh-tw" content="交朋友、聊是非、互助研究的好所在。聊聊 Web 界的八卦、找人幫你的作品給點意見、與志同道合的夥伴見面">
+<meta name="description" lang="en" content="A place for making friends, gossiping, and studying with each other. Unveil secrets of Web, get some comments for your works, and meet partners with common interest.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="http://moztw.org/events/moztw-lab/">
 <meta property="og:image" content="http://moztw.org/events/moztw-lab/images/moztwlab.jpg">
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="交朋友、聊是非、互助研究的好所在。聊聊 Web 界的八卦、找人幫你的作品給點意見、與志同道合的夥伴見面">
+<meta property="og:description" lang="en" content="A place for making friends, gossiping, and studying with each other. Unveil secrets of Web, get some comments for your works, and meet partners with common interest.">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script>
+  // let tabzilla not clickable
+  Tabzilla.onReady = function() {
+    Tabzilla.setStatic();
+  }
+</script>
 <link href="assets/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
 <!--[if lte IE 8]> <link rel="stylesheet" href="assets/leaflet/leaflet.ie.css" /> <![endif]-->
 <link href="style.css" rel="stylesheet" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
-<!--[if IE]>
-  <script src="assets/html5.js"></script>
-<![endif]-->
-<!--[if lt IE 9]>
-  <script src="assets/IE9.js"></script>
-<![endif]-->
-<!--#include virtual="/inc/class_homepage.html" -->
-<!--#include virtual="/inc/header.html" -->
-<header id="header2" class="container">
-  <img src="images/moztwlab.jpg" alt="MozTW Lab"/>
-</header>
+<!--#include virtual="/sandstone/iefix.shtml" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/sandstone/header.shtml" -->
+<!--#include virtual="/inc/dltb2.shtml" -->
+
 <div id="main" class="container">
-	<section id="introduction">
+	<section id="introduction" class="container block">
+    <article class="module">
+    <div class="grids">
+    <div class="grid-4">
 		<h2>MozTW Lab</h2>
-    <p style="text-align: center;">交朋友、聊是非、互助研究的好所在</p>
+    <p style="text-align: center;">交朋友、聊是非、互助研究的好所在<br/>A place where you can make friends, gossip, and study with each other.</p>
     <div>
-    	<a class="event-link" href="#location">我要參加</a>
+      <a class="event-link" href="#location">我要參加 Join Us</a>
     </div>
-		<h2>你可以在這裡…</h2>
-		<p>聊聊 Web 界的八卦、找人幫你的作品給點意見、與志同道合的夥伴見面、<del>約團購面交</del></p>
+    </div>
+    <div class="grid-8" id="header2">
+      <img src="images/moztwlab.jpg" alt="MozTW Lab"/>
+    </div>
+    </div>
+    <div class="block grids">
+    <div class="grid-6">
+    <h2>你可以在這裡… <br/>A place where you can…</h2>
+    </div>
+    <div class="grid-6">
+    <ul>
+      <li>聊聊 Web 界的八卦 Unveil gossips of the Web</li>
+      <li>找人幫你的作品給點意見 Get comments for your works</li>
+      <li>與志同道合的夥伴見面 Meet partners with common interests</li>
+      <li><del>約團購面交 Shop together to get discounts</del></li>
+    </ul>
+    </div>
+    </div>
+    </article>
 	</section>
 
-	<article id="whatsthis">
-		<h2>什麼是MozTW Lab？</h2>
-		<blockquote cite="http://blog.bobchao.net/2010/04/moztw-lab.html">台北這邊的 Lab 從來都不是為了有什麼目標或者要作什麼事情而聚的，有新消息聊、有困難找人討論，但不需要有統一的目標。  -- BobChao，<a href="http://blog.bobchao.net/2010/04/moztw-lab.html" title="台北的 MozTW Lab，都在幹麼？">〈台北的 MozTW Lab，都在幹麼？〉</a></blockquote>
+  <section class="container block">
+	<article id="whatsthis" class="module">
+		<div class="block grids">
+    <div class="grid-6">
+    <h2>什麼是MozTW Lab？<br/>What is MozTW Lab ?</h2>
+    </div>
+    <div class="grid-5">
+		<blockquote cite="http://blog.bobchao.net/2010/04/moztw-lab.html">台北這邊的 Lab 從來都不是為了有什麼目標或者要作什麼事情而聚的，有新消息聊、有困難找人討論，但不需要有統一的目標。  -- BobChao，<a href="http://blog.bobchao.net/2010/04/moztw-lab.html" title="台北的 MozTW Lab，都在幹麼？">〈台北的 MozTW Lab，都在幹麼？〉</a><br/><br/>
+    We do not need a certain goal or something to do for Lab at Taipei. There is new information to discuss, and difficulties to solve, but there is no unified target.  -- BobChao, <a href="http://blog.bobchao.net/2010/04/moztw-lab.html" title="台北的 MozTW Lab，都在幹麼？">〈What did we do in MozTW Lab at Taipei?〉</a></blockquote>
+    </div>
+    </div>
 	</article>
+  </section>
 
-	<article id="photos">
-	  <h2>活動剪影</h2>
+  <section class="container block">
+	<article id="photos" class="module">
+
+	  <h2>活動剪影<br/>Events and Activities</h2>
 	  <div class="content">
 		<a href="javascript:void(0)" class="left-btn"></a>
 		<a href="javascript:void(0)" class="right-btn"></a>
@@ -49,17 +82,19 @@
 		</ul>
 	  </div>
 	</article>
+  </section>
 
-  <article id="location">
-    <h2>那裡有 MozTW Lab？</h2>
-    <p>這位客官你運氣真好，台北、基隆、宜蘭跟新竹剛好都有一個：</p>
-    <p>（場地資訊可能隨時會變動，請記得注意一下 Twitter 資訊 : P）</p>
+  <section class="container block">
+  <article id="location" class="module">
+    <h2>那裡有 MozTW Lab？<br/>Where are MozTW Labs ?</h2>
+    <p>這位客官你運氣真好，台北、基隆、宜蘭跟新竹剛好都有一個：<br/>You are so lucky that we got MozTW Labs at Taipei, Keelung, Ilan, and Hsinchu:</p>
+    <p>（場地資訊可能隨時會變動，請記得注意一下 Twitter 資訊 : P）<br/>(In case that venues vary at times, follow up at Twitter in advance :P)</p>
 
     <ul class="nav">
-      <li class="nv lb sel" id="taipei_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">台北</a></li>
-      <li class="nv" id="keelung_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))"><del>基隆</del></a></li>
-      <li class="nv" id="ilan_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">宜蘭</a></li>
-      <li class="nv rb" id="hsinchu_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">新竹</a></li>
+      <li class="nv lb sel" id="taipei_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">台北 Taipei</a></li>
+      <li class="nv" id="keelung_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))"><del>基隆 Keelung</del></a></li>
+      <li class="nv" id="ilan_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">宜蘭 Ilan</a></li>
+      <li class="nv rb" id="hsinchu_lab_nav"><a onclick="toggleLabPages($(this).parent().attr('id'))">新竹 Hsinchu</a></li>
       <!-- add more places here, last button must have class 'rb' -->
     </ul>
 
@@ -67,10 +102,10 @@
       <!-- Taipei Lab Info -->
       <div class="details" id="taipei_lab">
         <ul>
-        <li>每週五晚間 19:30-22:00</li>
-        <li><a href="/space">摩茲工寮（<span class="locality">台北市</span><span class="street-address">德惠街 23 號地下室</span>）</a></li>
-        <li>有 Wi-Fi 與電源。（場地有汽水飲料，無餐點）</li>
-        <li>「免費參加，餐點自備、飲料免費。」</li>
+        <li>每週五晚間 Every Friday night 19:30-22:00</li>
+        <li><a href="/space">摩茲工寮 Mozilla Community Space Taipei<br/>（<span class="locality">台北市</span><span class="street-address">德惠街 23 號地下室 Basement at No. 23, Dehui St., Taipei City.</span>）</a></li>
+        <li>有 Wi-Fi 與電源。（場地有汽水飲料，無餐點）<br/>Wi-Fi and power are available. (Soda and beverages offered, but no food.)</li>
+        <li>「免費參加，餐點自備、飲料免費。」<br/>"Free to participate. Beverages here and food on your own."</li>
         </ul>
         <div class="mapcover">
           <div class="map" id="map_taipei"></div>
@@ -80,12 +115,12 @@
       <!-- Keelung Lab Info -->
       <div class="details" id="keelung_lab" style="display: none;">
         <ul>
-        <li class="alert"><div id="kl_alert"><h1>暑假期間暫停(5/25起)</h1></div></li>
-        <del><li>每週三晚間 19:00-21:00</li>
-        <li>1915海洋咖啡館 <a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'KEL');"  href="http://goo.gl/maps/7q7FQ"><span class="locality">基隆市</span><span class="street-address">仁愛區港西街4號1樓</span></a></li>
-        <li>電話：02-2428-8807</li>
-        <li>低消：約60元，附 Wi-Fi 與電源。</li>
-        <li>「免費參加，餐飲自理。」</li></del>
+        <li class="alert"><div id="kl_alert"><h1>暑假期間暫停(5/25起) Suspened for summertime</h1></div></li>
+        <del><li>每週三晚間 Every Wesnesday night 19:00-21:00</li>
+        <li>1915海洋咖啡館 1915 Cafe<br/><a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'KEL');"  href="http://goo.gl/maps/7q7FQ"><span class="locality">基隆市</span><span class="street-address">仁愛區港西街4號1樓 No.4 1F, Gangxi St., Ren'ai Dist., Keelung City.</span></a></li>
+        <li>電話：02-2428-8807<br/>Tel: 02-2428-8807</li>
+        <li>低消：約60元，附 Wi-Fi 與電源。<br/>Minimum charge: NTD 60, with Wi-Fi and power.</li>
+        <li>「免費參加，餐飲自理。」<br/>"Free to participate. Beverages and food on your own."</li></del>
         </ul>
         <div class="mapcover">
           <div class="map" id="map_keelung"></div>
@@ -95,10 +130,10 @@
       <!-- Ilan Lab Info -->
       <div class="details" id="ilan_lab" style="display: none;">
         <ul>
-        <li>不定期(請參閱<a href="https://groups.google.com/forum/#!topic/moztw-general/r3uSxxOEDoA">郵件群組</a>) 14:00-16:00</li>
-        <li>拾光響響公平貿易咖啡 <a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'YLA');"  href="http://www.facebook.com/cafeSeventeen/info"><span class="locality">宜蘭市</span><span class="street-address">農權路205號</span></a></li>
-        <li>電話：0982-387-909</li>
-        <li>低消：約100元，店內目前暫無提供網路連線，請自備 3G 行動網路，或預先抓取自己需要的文件、程式碼離線作業 。</li>
+        <li>不定期(請參閱<a href="https://groups.google.com/forum/#!topic/moztw-general/r3uSxxOEDoA">郵件群組</a>) 14:00-16:00<br/>Irregular(pls refer to <a href="https://groups.google.com/forum/#!topic/moztw-general/r3uSxxOEDoA">Mailing List</a>) 14:00-16:00</li>
+        <li>拾光響響公平貿易咖啡 cafe17 <br/><a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'YLA');"  href="http://www.facebook.com/cafeSeventeen/info"><span class="locality">宜蘭市</span><span class="street-address">農權路205號 No. 205, Nongquan Rd., Illan City.</span></a></li>
+        <li>電話：0982-387-909<br/>Tel: 0982-387-909</li>
+        <li>低消：約100元，店內目前暫無提供網路連線，請自備 3G 行動網路，或預先抓取自己需要的文件、程式碼離線作業。<br/>Minimum charge: NTD 100. No Internet access so far, please get a 3G mobile network or pre-fetch your documents and code for off-line works.</li>
         <!-- <li>「免費參加，餐飲自理。」</li> -->
         </ul>
         <div class="mapcover">
@@ -109,11 +144,11 @@
       <!-- Hsinchu Lab Info -->
       <div class="details" id="hsinchu_lab" style="display: none;">
         <ul>
-        <li>雙週四晚間 19:30-22:00</li>
-        <li>綠蓋茶館 新竹誠品站前店 <a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'HSU');"  href=" http://www.lattea.com.tw/"><span class="locality">新竹市</span><span class="street-address">東區信義街68號3樓</span></a></li>
-        <li>電話：03-522-1937</li>
-        <li>低消：約60元，附 Wi-Fi 與電源。</li>
-        <li>「免費參加，餐飲自理。」</li>
+        <li>雙週四晚間 Every Two Thursday night 19:30-22:00</li>
+        <li>綠蓋茶館 新竹誠品站前店 LATTEA Hsinchi eslite <br/><a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'HSU');"  href=" http://www.lattea.com.tw/"><span class="locality">新竹市</span><span class="street-address">東區信義街68號3樓 No.68 3F, Xinyi St., East Dist., Hsinchu City.</span></a></li>
+        <li>電話：03-522-1937<br/>Tel: 03-522-1937</li>
+        <li>低消：約60元，附 Wi-Fi 與電源。<br/>Minimum charge: NTD 60, with Wi-Fi and power.</li>
+        <li>「免費參加，餐飲自理。」<br/>"Free to participate. Beverages and food on your own."</li>
         </ul>
         <div class="mapcover">
           <div class="map" id="map_hsinchu"></div>
@@ -122,21 +157,23 @@
 
       <!-- More Labs… -->
     </div>
+    </article>
+  </section>
 
-    <div id="twit" style="margin: 0px auto; text-align: center;">
-      <a class="twitter-timeline"  href="https://twitter.com/search?q=moztw+lab"  data-widget-id="332149668068859905">Tweets about "moztw lab"</a>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>
+  <div id="twit" class="container block" style="text-align: center;">
+    <a class="twitter-timeline"  href="https://twitter.com/search?q=moztw+lab"  data-widget-id="332149668068859905">Tweets about "moztw lab"</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+  
+  <section class="container block">
+  <article id="host" class="module">
+      <h2>來開 Lab！<br/>Start a new Lab!</h2>
+      <p>你也想在自己的所在地開一個定期的 MozTW Lab 嗎？請上 <a href="https://groups.google.com/group/moztw-general" target="_blank">MozTW-General</a> 郵件群組呼朋引伴。<br/>Do you want to start a MozTW Lab at your location in Taiwan periodically? Hail your friends on <a href="https://groups.google.com/group/moztw-general" target="_blank">MozTW-General</a>.</p>
   </article>
-
-  <article id="host">
-      <h2>來開 Lab！</h2>
-      <p>你也想在自己的所在地開一個定期的 MozTW Lab 嗎？請上 <a href="https://groups.google.com/group/moztw-general" target="_blank">MozTW-General</a> 郵件群組呼朋引伴。</p>
-  </article>
+  </section>
 </div>
 
 <script type="text/javascript" charset="utf-8" src="assets/leaflet/leaflet.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/jquery.js"></script>
 <script type="text/javascript" charset="utf-8" src="assets/scripts.js"></script>
-<!--#include virtual="/inc/footer.html" -->
-
+<!--#include virtual="/sandstone/footer.shtml" -->

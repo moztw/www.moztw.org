@@ -1,26 +1,26 @@
 var lab_locs = {
     "taipei_lab": {
         "oid": "map_taipei", 
-        "place": "摩茲工寮", 
+        "place": "摩茲工寮 Mozilla Community Space Taipei", 
         "lat": 25.066766,
         "lng": 121.526330
     }, 
 
     "keelung_lab": {
         "oid": "map_keelung", 
-        "place": "1915海洋咖啡館", 
+        "place": "1915海洋咖啡館 1915 Cafe", 
         "lat": 25.132724, 
         "lng": 121.74002
     },
     "ilan_lab": {
         "oid": "map_ilan", 
-        "place": "拾光響響公平貿易咖啡", 
+        "place": "拾光響響公平貿易咖啡 cafe17", 
         "lat": 24.746619, 
         "lng": 121.750847
     },
     "hsinchu_lab": {
         "oid": "map_hsinchu", 
-        "place": "綠蓋茶館新竹誠品站前店", 
+        "place": "綠蓋茶館新竹誠品站前店 LATTEA Hsinchi eslite", 
         "lat": 24.802893, 
         "lng": 120.970515
     }
