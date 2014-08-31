@@ -63,11 +63,13 @@
              </div>
          </div>
          <div class="grid-4" >
-           <div id="map"></div>
            <div id="top-features">
-           <p>地址：10460 台北市中山區德惠街23號 地下一樓</p>
-           <p>Address: B1, No.23, Dehui St., Zhongshan Dist., Taipei City 10460, Taiwan</p>
-           <p><a href="http://www.google.com/maps/preview?ll=25.066749,121.526335&z=15&t=m&hl=zh-TW&gl=US&mapclient=embed&q=104%E5%8F%B0%E7%81%A3%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E5%BE%B7%E6%83%A0%E8%A1%9723%E8%99%9F">於 Google 地圖上查看<br>Check on Google Maps</a></p>
+             <div id="map"></div>
+             
+             <p>10460 台北市中山區德惠街23號地下室</p>
+             <p>B1, No.23, Dehui St., Zhongshan Dist., Taipei City 10460, Taiwan</p>
+
+             <a href="http://www.google.com/maps/preview?ll=25.066749,121.526335&z=15&t=m&hl=zh-TW&gl=US&mapclient=embed&q=104%E5%8F%B0%E7%81%A3%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E5%BE%B7%E6%83%A0%E8%A1%9723%E8%99%9F">Google Maps</a>
             </div>
          </div>
       </div>
@@ -80,28 +82,20 @@
          <div class="grids">
             <div class="grid-7">
               <div id="product-desc" >
-               <h2>排班表與活動 Schedule & Events</h2>
-               <p>　</p>
-               <iframe src="http://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=260&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=3fs8qeakm6ij88hibpb5bsg3mc%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=Asia%2FTaipei" width="300" height="260" frameborder="0" scrolling="no"></iframe>
+                <h2>開放時間、活動、排班表 Schedule</h2>
+
+                <p>原則上，週一至週五晚間 19:30-22:00 皆對全體 Mozilla 社群成員開放，而每週五晚的 <a href="http://moztw.org/events/moztw-lab/">MozTW Lab 台北場</a>也在此舉辦。確實開放時間，請參考日曆（排班表）。</p>
+                 
+                <p lang="zh-TW">如果你不確定有沒有人在，可以前往<a href="https://groups.google.com/forum/#!msg/moztw-general/">郵件群組</a>、<a href="ircs://irc.mozilla.org/#mozilla-taiwan">IRC</a> 或我們的 Telegram 群組上面問一下。</p>
+
+                <p lang="en-US">If you're wondering if it's opened, please check <a href="https://groups.google.com/forum/#!msg/moztw-general/">Google Group</a>, <a href="ircs://irc.mozilla.org/#mozilla-taiwan">IRC</a> or our Telegram group.</p>
               </div>
-            </br>
 
             </div>
             <div class="grid-5">
-             <div id="product-desc">
-                <h2>開放時間 Opening Hour</h2>
-                    <p>原則上，週一至週五晚間 19:30-22:00 皆對全體 Mozilla 社群成員開放，而每週五晚的 <a href="http://moztw.org/events/moztw-lab/">MozTW Lab 台北場</a>也在此舉辦。確實開放時間，請參考日曆（排班表）。</p><br>
-
-                  <div id="top-features2">
-                      <div lang="zh-TW">
-                        <p>如果你不確定有沒有人在，可以前往<a href="https://groups.google.com/forum/#!msg/moztw-general/">郵件群組</a>、<a href="ircs://irc.mozilla.org/#mozilla-taiwan">IRC</a> 或我們的 Telegram 群組上面問一下。</p><br>
-                      </div>
-
-                      <div lang="en-US">
-                        <p>If you're wondering if it's opened, please check <a href="https://groups.google.com/forum/#!msg/moztw-general/">Google Group</a>, <a href="ircs://irc.mozilla.org/#mozilla-taiwan">IRC</a> or Our Telegram group.</p><br>
-                      </div>
-                  </div>
-               </div>
+              <div id="product-desc">
+                <iframe src="http://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=260&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=3fs8qeakm6ij88hibpb5bsg3mc%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=Asia%2FTaipei" width="300" height="260" frameborder="0" scrolling="no"></iframe>
+              </div>
             </div>
           </div> 
       </div>
@@ -111,18 +105,13 @@
 <section class="container block">
    <div class="key-point">
       <div id="main-feature">
-         <div class="grids">
-
-            <div class="grid-12" >
-               <div id="product-desc">
-                  <h2>想到摩茲工寮辦活動？ Wanna host an event here?</h2><br>
-                    <p>本場地座位約可容納 10~20 人、站位或無桌椅則可達 30 人以上，並提供桌椅、電源、飛快的網路與無限暢飲可樂機。
-                    </p><br>
-                    <p>我們歡迎大家到這個空間舉辦與自由文化（<a href="http://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6" target="_blank">自由軟體、<a href="http://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E5%85%A7%E5%AE%B9" target="_blank">自由內容</a>、<a href="http://zh.wikipedia.org/wiki/%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99" target="_blank">開放資料</a>、<a href="http://zh.wikipedia.org/wiki/%E5%86%85%E5%AE%B9%E5%BC%80%E6%94%BE" target="_blank">開放內容</a>……）的相關活動，並且能在活動中安排時間介紹 Mozilla。如果您有相關需求，歡迎寄封信到<a href="https://groups.google.com/forum/#!msg/moztw-general/">郵件群組</a>與大家討論。（欲直接聯絡 keyholders，亦可聯繫 <a href="mailto:space@moztw.org">space@moztw.org</a>）<br></p>
-               </div>
-            </div>
-
-         </div>
+        <div class="grids">
+          <div id="product-desc">
+            <h2>想到摩茲工寮辦活動？ Host an event here?</h2>
+            <p>本場地座位約可容納 10~20 人、站位或無桌椅則可達 30 人以上</p>
+            <p>我們歡迎大家到這個空間舉辦與自由文化（<a href="http://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6" target="_blank">自由軟體、<a href="http://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E5%85%A7%E5%AE%B9" target="_blank">自由內容</a>、<a href="http://zh.wikipedia.org/wiki/%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99" target="_blank">開放資料</a>、<a href="http://zh.wikipedia.org/wiki/%E5%86%85%E5%AE%B9%E5%BC%80%E6%94%BE" target="_blank">開放內容</a>……）的相關活動，並且能在活動中安排時間介紹 Mozilla。如果您有相關需求，歡迎寄封信到<a href="https://groups.google.com/forum/#!msg/moztw-general/">郵件群組</a>與大家討論。（欲直接聯絡 keyholders，亦可聯繫 <a href="mailto:space@moztw.org">space@moztw.org</a>）</p>
+          </div>
+        </div>
       </div>
    </div>
 </section>
