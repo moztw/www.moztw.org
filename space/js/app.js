@@ -11,3 +11,7 @@ L.marker([25.066766, 121.526330]).addTo(map)
     .bindPopup('摩茲工寮')
     .openPopup();
 
+// let tabzilla not clickable
+Tabzilla.onReady = function() {
+    Tabzilla.setStatic();
+}

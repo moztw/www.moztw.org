@@ -7,25 +7,6 @@ img {
    height: auto;
 }
 
-
-#main-feature div.grid-9 h2,
-#main-feature div.grid-9 p {
-    margin-left: 20px;
-}
-#main-feature div.grid-9 {
-    margin-left: 10px;
-}
-#main-feature div.grid-3 {
-    margin-left: 0;
-}
-
-.right {
-   float: right;
-   margin-left: 75px;
-}
-.grids > h4 {
-   margin-left: 20px;
-}
 div[class^=grid-] > p {
    margin-top: 0;
 }
@@ -43,77 +24,23 @@ main header h2 {
   margin: 0 0 40px;
 }
 
-.top-bottom {
-    background: none repeat scroll 0 0 #FFFFFF;
+h3 {
+  margin-bottom: 20px;
+}
+
+#moreinfo {
+  margin-top: 40px;
+}
+
+#moreinfo .grid-4 a {
+    display: block;
+    width: 258px;
+    background: #FFFFFF;
     border: 1px solid #D7D9E8;
-    border-radius: 6px 6px 6px 6px;
+    border-radius: 6px;
     box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
     padding: 15px 20px 10px;
-    width: 220px;
 }
-
-
-/*#top-features*/
-#top-features {
-    background: none repeat scroll 0 0 #FFFFFF;
-    border: 1px solid #D7D9E8;
-    border-radius: 6px 6px 6px 6px;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
-    padding: 15px 20px 10px;
-    width: 260px;
-}
-
-#top-features2 {
-    background: none repeat scroll 0 0 #FFFFFF;
-    border: 1px solid #D7D9E8;
-    border-radius: 6px 6px 6px 6px;
-    box-shadow: 0 2px rgba(0, 0, 0, 0.05), 0 -2px rgba(0, 0, 0, 0.05) inset;
-    padding: 15px 20px 10px;
-    width: 260px;
-}
-
-#top-features h3 {
-    font-size: 18px;
-    line-height: 1;
-    margin: 0;
-}
-#main-feature #top-features p {
-    font-size: 12px;
-    margin: 0;
-}
-#top-features ul li {
-    list-style: none outside none;
-    margin-top: 15px;
-    margin-left: -3em;
-    position: relative;
-}
-#top-features ul li a {
-    display: inline;
-}
-#top-features ul li a {
-}
-#top-features .top-feature-hover {
-    background: url("../images/features/bubble.png") repeat scroll 0 0 transparent;
-    border-radius: 15px 15px 15px 15px;
-    bottom: -23px;
-    display: none;
-    height: 84px;
-    left: -224px;
-    padding: 20px 30px 28px 35px;
-    position: absolute;
-    width: 154px;
-}
-#top-features .top-feature-hover p {
-    color: #FFFFFF;
-    font-size: 11px;
-}
-#top-features .top-feature-hover h3 {
-    color: #FFFFFF;
-    font-size: 11px;
-    font-weight: bold;
-    margin: 0 0 6px;
-}
-
 
 .grids  {width:960px;}
 .grid-1 {width: 60px;}
@@ -139,12 +66,12 @@ div[class^=grid-] {
   height:200px;
 }
 
-#keyholders ol {margin: 0; padding: 0;}
+#keyholders ul {margin: 0; padding: 0;}
 #keyholders li {
   display: block;
   float: left;
-  width: 150px;
-  height: 150px;
+  width: 114px;
+  height: 114px;
   margin: 0px 10px 10px 10px;
 }
 #keyholders li img {
@@ -153,70 +80,6 @@ div[class^=grid-] {
   width: 100%;
   height: auto;
 }
-
-@media only screen and (max-width:960px) {
-
-}
-
-@media only screen and (max-width:830px) {
-
-}
-
-@media only screen and (max-width:735px) {
-
-}
-
-
-@media only screen and (max-width:433px) {
-  .container.block .key-point {padding: 0px}
-  
-  main header h1 {font-size: 30px;}
-  main header h2,h2 {font-size: 20px;}
-  main header h3 {text-align: center;}
-
-  div[class^="grid-"] {
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-
-  .grids {margin-left:0;}
-
-  #wrap {
-    width: 280px !important;
-    padding: 0px 20px;
-  }
-
-  .grids,
-  .grid-4,
-  .grid-6,
-  .grid-12 {
-    width: 280px;
-  }
-
-  #keyholders li {
-    width: 64px;
-    height: 64px;
-  }
-
-  .key-point {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-
-  #footer .grid-text{
-    text-align: left;
-  }
-
-  #photos {
-    display: none;
-  }
-}
-
-
-
-
-/* overwrite .container p{margin:0} in sandstone, might need remove this after we nolonger use .container for divs on this page. */
-.container p{margin-bottom: 14px;}
 
 
 /* Copied from Mozilla.org sheet, should be add to the main sheet at some point. */
@@ -254,3 +117,78 @@ div[class^=grid-] {
   width: 960px; /* was 1000px here */
 }
 
+/* RWD */
+
+
+
+@media only screen and (max-width:960px) {
+  #photos {
+    display: none;
+  }
+
+  h3 {font-size: 22px;}
+
+  .grids {
+    margin: 0 auto;
+    width: 611px;
+  }
+
+  .grid-4,
+  .grid-6 {
+    width: 285px;
+  }
+
+  .grid-12 {
+    width: 591px;
+  }
+
+  #wrap { width: 100%; }
+  main {padding: 0 20px;}  
+
+  #keyholders li {
+    width: 64px;
+    height: 64px;
+    margin: 0 14.5px 10px;
+  }
+
+  #moreinfo .grid-4 a {
+    width: 238px;
+    margin: 10px auto 0 auto;
+  }
+
+  #footer .grid-text {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width:650px) {  
+  #intro header {
+    display: none;
+  }
+
+  h3 {
+    text-align: center;
+  }
+  main header h1 {font-size: 30px;}
+  main header h2, h2, h3 {font-size: 20px;}
+
+  .grids {
+    width: 100%;
+  }
+  div[class^="grid-"] {
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  #keyholders li {
+    width: 64px;
+    height: 64px;
+    margin: 0 14.5px 10px;
+  }
+
+  #moreinfo .grid-4 a {
+    width: 238px;
+    margin: 10px auto 0 auto;
+  }
+}

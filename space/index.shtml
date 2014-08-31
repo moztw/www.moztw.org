@@ -1,13 +1,6 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
 <title>摩茲工寮 Mozilla Community Space Taipei | MozTW, Mozilla Taiwan Community</title>
 <meta name="description" content="摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。摩茲工寮歡迎社群成員免費使用，歡迎加入、一同塑造屬於我們的 Web。" />
-<script>
-    // let tabzilla not clickable
-    Tabzilla.onReady = function() {
-      Tabzilla.setStatic();
-    }
-</script>
-<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 
 <link href="css/mozspacetp.css" rel="stylesheet" />
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
@@ -48,19 +41,18 @@
   </section>
 
   <main>
-
-    <header>
-      <hgroup>
-        <h1>摩茲人與開放文化愛好者的天地</h1>
-        <h2>A Place for Mozillians &amp; Open Culture Lover</h2>
-      </hgroup>
-    </header>
+    <section id="intro" class="grids">
+      <header>
+        <hgroup>
+          <h1>摩茲人與開放文化愛好者的天地</h1>
+          <h2>A Place for Mozillians &amp; Open Culture Lover</h2>
+        </hgroup>
+      </header>
     
-    <div class="grids">
       <div class="grid-6">
         <p>摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。</p>
 
-        <h4>場地提供</h4>
+        <h3>場地提供</h3>
         <ul class="compact">
           <li>飛快的無線網路</li>
           <li>貼心的三孔插座</li>
@@ -74,129 +66,115 @@
         <p>(or in <a href="http://www.google.com/maps/preview?ll=25.066749,121.526335&z=15&t=m&hl=zh-TW&gl=US&mapclient=embed&q=104%E5%8F%B0%E7%81%A3%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E5%BE%B7%E6%83%A0%E8%A1%9723%E8%99%9F">Google Maps</a>)</p>
         <p>地址：10460 台北市中山區德惠街23號地下室</p>
         <p>B1, No.23, Dehui St., Zhongshan Dist., Taipei City 10460, Taiwan</p>
-
-        
       </div>
-    </div>
+    </section>
 
-    <header>
-      <hgroup>
-        <h1>開放時間、活動、排班表</h1>
-        <h2>Opening Hours &amp; Schedule</h2>
-      </hgroup>
-    </header>
-    <div class="grids">
+    <section id="schedule" class="grids">
+      <header>
+        <hgroup>
+          <h1>開放時間、活動、排班表</h1>
+          <h2>Opening Hours &amp; Schedule</h2>
+        </hgroup>
+      </header>
       <div class="grid-6">
         <p>原則上，週一至週五晚間 19:30-22:00 皆對全體 Mozilla 社群成員開放，而每週五晚的 <a href="http://moztw.org/events/moztw-lab/">MozTW Lab 台北場</a>也在此舉辦。確實開放時間，請參考日曆（排班表）。</p>
 
         <p lang="zh-TW">如果你不確定有沒有人在，可以前往<a href="https://groups.google.com/forum/#!msg/moztw-general/">郵件群組</a>、<a href="ircs://irc.mozilla.org/#mozilla-taiwan">IRC</a> 或我們的 Telegram 群組上面問一下。</p>
 
-        <p lang="en-US">If you're wondering if it's opened, please check <a href="https://groups.google.com/forum/#!msg/moztw-general/">Google Group</a>, <a href="ircs://irc.mozilla.org/#mozilla-taiwan">IRC</a> or our Telegram group.</p>
+        <p lang="en-US">If you're wondering if it's opened, please check <a href="https://groups.google.com/forum/#!msg/moztw-general/">Google Group</a> or <a href="ircs://irc.mozilla.org/#mozilla-taiwan">IRC</a>.</p>
       </div>
       <div class="grid-6">
         <iframe src="http://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=260&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=3fs8qeakm6ij88hibpb5bsg3mc%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=Asia%2FTaipei" width="100%" height="260" frameborder="0" scrolling="no"></iframe>
       </div>
-    </div> 
+    </section> 
 
-  <header>
-    <hgroup>
-      <h1>歡迎到摩茲工寮辦活動</h1>
-      <h2>Host an Event Here</h2>
-    </hgroup>
-  </header>
-  <div class="grids">
-    <div class="grid-12">
-      <p>本場地座位約可容納 10~20 人、站位或無桌椅則可達 30 人以上。</p>
-      <p>我們歡迎大家到這個空間舉辦與自由文化（<a href="http://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6" target="_blank">自由軟體、<a href="http://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E5%85%A7%E5%AE%B9" target="_blank">自由內容</a>、<a href="http://zh.wikipedia.org/wiki/%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99" target="_blank">開放資料</a>、<a href="http://zh.wikipedia.org/wiki/%E5%86%85%E5%AE%B9%E5%BC%80%E6%94%BE" target="_blank">開放內容</a>……）的相關活動，並且能在活動中安排時間介紹 Mozilla。如果您有相關需求，歡迎寄封信到<a href="https://groups.google.com/forum/#!msg/moztw-general/">郵件群組</a>與大家討論。（欲直接聯絡 keyholders，亦可聯繫 <a href="mailto:space@moztw.org">space@moztw.org</a>）</p>
-    </div>
-  </div>
+  
+    <section id="hostevent" class="grids">
+      <header>
+        <hgroup>
+          <h1>歡迎到摩茲工寮辦活動</h1>
+          <h2>Host an Event Here</h2>
+        </hgroup>
+      </header>
+      <div class="grid-12">
+        <p>本場地座位約可容納 10~20 人、站位或無桌椅則可達 30 人以上。</p>
+        <p>我們歡迎大家到這個空間舉辦與自由文化（<a href="http://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6" target="_blank">自由軟體、<a href="http://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E5%85%A7%E5%AE%B9" target="_blank">自由內容</a>、<a href="http://zh.wikipedia.org/wiki/%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99" target="_blank">開放資料</a>、<a href="http://zh.wikipedia.org/wiki/%E5%86%85%E5%AE%B9%E5%BC%80%E6%94%BE" target="_blank">開放內容</a>……）的相關活動，並且能在活動中安排時間介紹 Mozilla。如果您有相關需求，歡迎寄封信到<a href="https://groups.google.com/forum/#!msg/moztw-general/">郵件群組</a>與大家討論。（欲直接聯絡 keyholders，亦可聯繫 <a href="mailto:space@moztw.org">space@moztw.org</a>）</p>
+      </div>
+    </section>
 
+    <section id="bekeyholder" class="grids">
+      <header>
+        <hgroup>
+          <h1>申請摩茲工寮鑰匙</h1>
+          <h2>Be a Keyholder</h2>
+        </hgroup>
+      </header>
+  
+      <div class="grid-12">
+        <p>摩茲工寮由 Keyholders 共同管理，並共同探索更有效使用這片園地的方式。Keyholder 的權利、義務與條件如下：</p>
+      </div>
 
-  <header>
-    <hgroup>
-      <h1>申請摩茲工寮鑰匙</h1>
-      <h2>Be a Keyholder</h2>
-    </hgroup>
-  </header>
-  <div class="grids">
-    <div class="grid-12">
-      <p>摩茲工寮由 Keyholders 共同管理，並共同探索更有效使用這片園地的方式。
-    </div>
-    <div class="grid-4">
-      <h3>權利</h3>
-      <ol>
-        <li>獲得工寮鑰匙</li>
-        <li>可 24 小時進出、使用工寮各項資源</li>
-        <li>優先決定值班時間的活動</li>
-        <li>這裡就是你的空間！值班時間「以外」的使用時間，要開不開隨便你 XD</li>
-      </ol>
-    </div>
-    <div class="grid-4">
-      <h3>義務</h3>
-      <ol>
-        <li>每個月需負擔約 9 小時的值班時間</li>
-        <li>值班時期管理工寮設備</li>
-        <li>值班時期招呼新來的夥伴</li>
-        <li>協調在場夥伴共同維護場地清潔</li>
-        <li>於值班的活動時間，帶領參與者認識 Mozilla </li>
-      </ol>
-    </div>
-    <div class="grid-4">
-      <h3>申請條件</h3>
-      <ol>
-        <li>願意負擔工寮 Keyholder 義務</li>
-        <li>已申請 <a href="https://mozillians.org">Mozillians.org</a> 帳號，並經過背書</li>
-        <li>寄信獲得現有 Keyholders 之一提名後，經社群投票通過。</li>
-      </ol>
-      <p>詳見<a href="https://etherpad.mozilla.org/moztw-taipei-space-key">申請辦法</a>，歡迎有志之士<a href="mailto:space@moztw.org">聯絡我們</a>。</p>
-    </div>
+      <div class="grid-4">
+        <h3>Keyholder 權利</h3>
+        <ol>
+          <li>獲得工寮鑰匙</li>
+          <li>可 24 小時進出、使用工寮各項資源</li>
+          <li>優先決定值班時間的活動</li>
+          <li>這裡就是你的空間！值班時間「以外」的使用時間，要開不開隨便你 XD</li>
+        </ol>
+      </div>
+      <div class="grid-4">
+        <h3>Keyholder 義務</h3>
+        <ol>
+          <li>每個月需負擔約 9 小時的值班時間</li>
+          <li>值班時期管理工寮設備</li>
+          <li>值班時期招呼新來的夥伴</li>
+          <li>協調在場夥伴共同維護場地清潔</li>
+          <li>於值班的活動時間，帶領參與者認識 Mozilla </li>
+        </ol>
+      </div>
+      <div class="grid-4">
+        <h3>申請條件</h3>
+        <ol>
+          <li>願意負擔工寮 Keyholder 義務</li>
+          <li>已申請 <a href="https://mozillians.org">Mozillians.org</a> 帳號，並經過背書</li>
+          <li>寄信獲得現有 Keyholders 之一提名後，經社群投票通過。</li>
+        </ol>
+        <p>詳見<a href="https://etherpad.mozilla.org/moztw-taipei-space-key">申請辦法</a>，歡迎有志之士<a href="mailto:space@moztw.org">聯絡我們</a>。</p>
+      </div>
 
     
 
-    <div id="keyholders" class="grid-12">
-      <h3>現任 Keyholders</h3>
-      <ul>
-        <li><a href="https://mozillians.org/u/bobchao/" title="看 Po-chiang Bob Chao 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/83/d4/83d48b9ac81c4be96d05cf8f99692444.jpg" alt="Po-chiang Bob Chao"></a></li>
-        <li><a href="https://mozillians.org/u/ernestchiang/" title="看 Po-chiang Ernest Chiang (Deng-Wei) 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/cd/5a/cd5aa370f2f6f913ecc73631883cdb96.jpg" alt="Ernest Chiang (Deng-Wei)"></a></li>
-        <li><a href="https://mozillians.org/u/Irvin/" title="看 Irvin Chen 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/3d/df/3ddf5cc80418f3adc2b9a56b8522361c.jpg" alt="Irvin Chen"></a></li>
-        <li><a href="https://mozillians.org/u/orin/" title="看 Orin Chen 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/79/5c/795cc215be630df928b01b40bcb6fc78.jpg" alt="Orin Chen"></a></li>
-        <li><a href="https://mozillians.org/u/petercpg/" title="看 Pin-guang Chen 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/f4/1e/f41ec37d27d540849d9796704a235a3c.jpg" alt="Pin-guang Chen"></a></li>
-        <li><a href="https://mozillians.org/u/veloci85/" title="看 Vel Chen 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/f4/d4/f4d49513881c4aa19950d786be988dfc.jpg" alt="Vel Chen"></a></li>
-        <li><a href="https://mozillians.org/u/shadowcrow/" title="看 Ying ui, Lora chen 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/ce/f9/cef9c41b3e4444e237088bfe4da413cd.jpg" alt="Ying ui, Lora chen"></a></li>
-        <li><a href="https://mozillians.org/u/GDH_Fang/" title="看 chiung-Hui, Fang 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/a1/ef/a1efe849e82a5804a174a33c17dc2c42.jpg" alt="chiung-Hui, Fang"></a></li>
-        <li><a href="https://mozillians.org/u/mingtsay/" title="看 Ming Tsay 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/13/62/1362f822d91222910b47b54ce1410145.jpg" alt="Ming Tsay"></a></li>
-      </ul>
-    </div>
-  </div>
-</main>
-
-
-<section class="container block">
-    <div class="key-point">
-      <div class="grids">
-                <div class="grid-4">
-                    <div class="top-bottom">
-                        <a href="mailto:space@moztw.org">聯絡我們</a>
-                    </div>
-                </div>
-                <div class="grid-4">
-                    <div class="top-bottom">
-                        <a href="https://etherpad.mozilla.org/moztw-taipei-space">營運中心</a>
-                    </div>
-                </div>
-                <div class="grid-4">
-                    <div class="top-bottom">
-                        <a href="https://etherpad.mozilla.org/moztw-taipei-space-guildline">使用規範</a>
-                    </div>
-                </div>
-            </div>
-         </div>
+      <div id="keyholders" class="grid-12">
+        <h3>現任 Keyholders</h3>
+        <ul>
+          <li><a href="https://mozillians.org/u/bobchao/" title="看 Po-chiang Bob Chao 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/83/d4/83d48b9ac81c4be96d05cf8f99692444.jpg" alt="Po-chiang Bob Chao"></a></li>
+          <li><a href="https://mozillians.org/u/ernestchiang/" title="看 Po-chiang Ernest Chiang (Deng-Wei) 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/cd/5a/cd5aa370f2f6f913ecc73631883cdb96.jpg" alt="Ernest Chiang (Deng-Wei)"></a></li>
+          <li><a href="https://mozillians.org/u/Irvin/" title="看 Irvin Chen 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/3d/df/3ddf5cc80418f3adc2b9a56b8522361c.jpg" alt="Irvin Chen"></a></li>
+          <li><a href="https://mozillians.org/u/orin/" title="看 Orin Chen 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/79/5c/795cc215be630df928b01b40bcb6fc78.jpg" alt="Orin Chen"></a></li>
+          <li><a href="https://mozillians.org/u/petercpg/" title="看 Pin-guang Chen 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/f4/1e/f41ec37d27d540849d9796704a235a3c.jpg" alt="Pin-guang Chen"></a></li>
+          <li><a href="https://mozillians.org/u/veloci85/" title="看 Vel Chen 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/f4/d4/f4d49513881c4aa19950d786be988dfc.jpg" alt="Vel Chen"></a></li>
+          <li><a href="https://mozillians.org/u/shadowcrow/" title="看 Ying ui, Lora chen 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/ce/f9/cef9c41b3e4444e237088bfe4da413cd.jpg" alt="Ying ui, Lora chen"></a></li>
+          <li><a href="https://mozillians.org/u/GDH_Fang/" title="看 chiung-Hui, Fang 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/a1/ef/a1efe849e82a5804a174a33c17dc2c42.jpg" alt="chiung-Hui, Fang"></a></li>
+          <li><a href="https://mozillians.org/u/mingtsay/" title="看 Ming Tsay 的摩茲人資料"><img src="https://mozillians.org/media/uploads/sorl-cache/13/62/1362f822d91222910b47b54ce1410145.jpg" alt="Ming Tsay"></a></li>
+        </ul>
       </div>
-</section>
+    </section>
 
+    <section id="moreinfo" class="grids">
+      <div class="grid-4">
+        <a href="mailto:space@moztw.org">聯絡摩茲工寮</a>
+      </div>
+      <div class="grid-4">
+        <a href="https://etherpad.mozilla.org/moztw-taipei-space">營運中心</a>
+      </div>
+      <div class="grid-4">
+        <a href="https://etherpad.mozilla.org/moztw-taipei-space-guildline">使用規範</a>
+      </div>
+    </section>
+  </main>
 </div>
 
-<script type="text/javascript" src="/js/library/jquery.js"></script>
-<script src="js/tb-features.js"></script>
+<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 <script src="js/app.js"></script>
 <!--#include virtual="/sandstone/footer.shtml" -->
