@@ -218,6 +218,9 @@ div[class^=grid-] {
    margin-right: 10px;
 }
 
+/* overwrite .container p{margin:0} in sandstone, might need remove this after we nolonger use .container for divs on this page. */
+.container p{margin-bottom: 14px;}
+
 
 /* Copied from Mozilla.org sheet, should be add to the main sheet at some point. */
 
@@ -245,6 +248,6 @@ div[class^=grid-] {
 }
 
 #map {
-	width:300px;
-	height:150px;
+	width:260px;
+	height:200px;
 }
