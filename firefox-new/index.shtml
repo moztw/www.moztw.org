@@ -140,9 +140,57 @@ Sandstone 範例可參考根目錄 index2.shtml。
   #highperformance .column1 {
     width: 245px;
   }
+  @media (max-width: 760px){
+    #video-player-runfield {
+      width: auto;
+    }
+    #video-wrapper{
+      float: none;
+    }
+    #audio, canvas, video{
+      max-width: 100%;
+    }
+
+
+  }
+  @media (max-width: 433px){
+    .feature img {
+      float: none;
+      width: 100%;
+    }
+    #video-player-runfield {
+      width: auto;
+    }
+    #video-wrapper{
+      float: none;
+    }
+    #audio, canvas, video{
+      max-width: 100%;
+    } 
+
+  }
+    @media (max-width: 320px){
+    .feature img {
+      float: none;
+      width: 100%;
+    }
+    .column1, .column2, .column3{
+      float: none;
+    }
+    #video-player-runfield {
+      width: auto;
+    }
+    #video-wrapper{
+      float: none;
+    }
+    #audio, canvas, video{
+      max-width: 100%;
+    }
+  }
 </style>
 
-<!--#include virtual="/inc/class_press.html" -->
+<!--#include virtual="/sandstone/iefix.shtml" -->
+<!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
 <section id="main-feature" class="container block">
