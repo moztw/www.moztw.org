@@ -1,29 +1,9 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
 
-<!--
-# 頁面說明
-此頁是新版首頁，需要套上 Sandstone 主題、更新內容及調整 CSS。
-
-Sandstone style guide:
-  http://www.mozilla.org/en-US/styleguide/websites/sandstone/
-
-Sandstone 範例可參考根目錄 index2.shtml。
-
-## 參考連結
-  http://www.mozilla.org/en-US/firefox/features/
-  http://mozilla.com.tw/firefox/features/
--->
-
 <title>Mozilla Firefox 正體中文版下載 | MozTW, Mozilla Taiwan Community</title>
 <meta name="description"
   content="Firefox 正體中文版下載：將所有超棒之處結合在一起，讓您的瀏覽變得更好。" />
 <style>
-  /*
-  body {
-    background: url(/sandstone/images/bg-gradient-sky.png) repeat-x scroll 0 0,
-                url(/sandstone/images/grain.png) repeat scroll 0 0,
-                none repeat scroll 0 0 rgb(238, 238, 238);
-  }*/
   #main-feature hgroup {
     float: left;
     margin-left: 24px;
@@ -158,33 +138,10 @@ Sandstone 範例可參考根目錄 index2.shtml。
       float: none;
       width: 100%;
     }
-    #video-player-runfield {
-      width: auto;
-    }
-    #video-wrapper{
-      float: none;
-    }
-    #audio, canvas, video{
-      max-width: 100%;
-    } 
-
   }
     @media (max-width: 320px){
-    .feature img {
-      float: none;
-      width: 100%;
-    }
     .column1, .column2, .column3{
       float: none;
-    }
-    #video-player-runfield {
-      width: auto;
-    }
-    #video-wrapper{
-      float: none;
-    }
-    #audio, canvas, video{
-      max-width: 100%;
     }
   }
 </style>
