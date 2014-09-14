@@ -28,6 +28,16 @@ h3 {
   margin-bottom: 20px;
 }
 
+#masthead h1, #masthead h2 {
+  margin: 0;
+  text-shadow: 1px 1px 2px #fff, 0 0 1em #fff, 0 0 0.2em #fff;
+}
+
+#masthead hgroup {
+  background:rgba(255,255,255,.8);
+  padding: 70px 0;
+}
+
 #moreinfo {
   margin-top: 40px;
 }
@@ -66,6 +76,18 @@ div[class^=grid-] {
   height:200px;
 }
 
+#eventphotos img {
+  height: 160px;
+  margin: 10px 2px;
+  border: 5px #fff solid;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .5);
+}
+#eventphotos {
+  height: 200px;
+  overflow: hidden;
+  text-align: center;
+}
+
 #keyholders ul {margin: 0; padding: 0;}
 #keyholders li {
   display: block;
@@ -96,13 +118,12 @@ div[class^=grid-] {
 }
 
 #masthead {
-    background-position: right top;
-    background-repeat: no-repeat;
     margin: 0px;
-    min-height: 120px;
-    padding: 50px 0 0 0;
     position: relative;
     text-align: center;
+    padding: 0;  
+    background: rgba(0,0,0,.4) center 40% url(https://farm4.staticflickr.com/3887/15017349089_182899b617_b.jpg);
+    background-size:cover;
 }
 
  
@@ -122,9 +143,6 @@ div[class^=grid-] {
 
 
 @media only screen and (max-width:960px) {
-  #photos {
-    display: none;
-  }
 
   h3 {font-size: 22px;}
 
