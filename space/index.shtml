@@ -28,14 +28,13 @@
         <p>摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。</p>
 
         <h3>場地提供</h3>
-        <ul class="compact">
-          <li>飛快的無線網路</li>
-          <li>貼心的三孔插座</li>
-          <li>能投射出清晰畫面的投影機</li>
-          <li>能播出清楚音質的音響 + 麥克風</li>
-          <li>讓你開心的碳酸飲料</li>
-          <li>舒適空調、桌椅</li>
-          <li>對開放文化滿滿的熱情</li>
+        <ul id="eqm">
+          <li id="wireless">無線網路</li>
+          <li id="power">三孔插座</li>
+          <li id="projector">投影機</li>
+          <li id="speaker">播音器材</li>
+          <li id="drink">無限暢飲</li>
+          <li id="loveopen">對開放文化的熱情</li>
         </ul>
       </div>
       <div class="grid-6">

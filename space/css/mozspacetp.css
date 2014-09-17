@@ -138,6 +138,20 @@ div[class^=grid-] {
   width: 960px; /* was 1000px here */
 }
 
+
+#eqm {padding: 0;}
+
+#eqm li {
+  display: block; float:left;
+  width: 80px; height: 2em;
+  padding-top: 80px;
+  background: no-repeat top url(/images/webmaker.png);
+  background-size: 100%;
+  margin: 5px 15px;
+  text-align: center;
+}
+
+
 /* RWD */
 
 
