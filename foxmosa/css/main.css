@@ -252,6 +252,10 @@
 	display: none;
 }
 
+#foxmosa-info {
+	position: relative;
+}
+
 #foxmosa-run{
 	position: absolute;
 	top: 174px;
