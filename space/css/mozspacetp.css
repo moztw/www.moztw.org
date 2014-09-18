@@ -145,7 +145,7 @@ div[class^=grid-] {
   display: block; float:left;
   width: 80px; height: 2em;
   padding-top: 80px;
-  background: no-repeat top url(/images/webmaker.png);
+  background: no-repeat top;
   background-size: 100%;
   margin: 5px 15px;
   text-align: center;
@@ -221,6 +221,14 @@ div[class^=grid-] {
 
   #moreinfo .grid-4 a {
     width: 238px;
-    margin: 10px auto 0 auto;
+    margin: 10px auto 0;
   }
+  
+  #eqm {width: 330px; margin: 0 auto;}
+}
+@media only screen and (max-width:360px) {  
+  #eqm {width: 220px;}
+}
+@media only screen and (max-width:250px) {
+  #eqm {width: auto;}
 }
