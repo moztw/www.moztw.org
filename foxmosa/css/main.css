@@ -252,10 +252,15 @@
 	display: none;
 }
 
+#foxmosa-info {
+	position: relative;
+}
+
 #foxmosa-run{
 	position: absolute;
-	top: 174px;
-	right: 240px;
+	//top: 174px;
+	//right: 240px;
+	right: 30px;
 	height: 200px;
 	width: 680px;
 	z-index: 1;
@@ -283,8 +288,10 @@
 
 #earth{
 	position: absolute;
-	right: 300px;
-	top: 344px;
+	//right: 300px;
+	//top: 344px;
+	right: 100px;
+	top: 160px;
 	z-index: 0;
 	width: 400px;
 	height: 400px;
