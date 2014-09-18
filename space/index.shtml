@@ -139,6 +139,25 @@
       </div>
     </section>
 
+    <section id="about" class="grids">
+      <header>
+        <hgroup>
+          <h1>關於摩茲工寮</h1>
+          <h2>About Mozilla Community Space Taipei</h2>
+        </hgroup>
+      </header>
+  
+      <div class="grid-6">
+        <p>Mozilla Community Space initiative 希望探索「志工社群自主空間」這樣的領域，期望能讓更多人認識 Mozilla 的信念、任務、產品，並加深社群成員彼此之間的連結，也讓 Mozilla 志工社群更有力量。</p>
+        <p>摩茲工寮是全球第一個啟動的前導實驗，由 MozTW（Mozilla 台灣社群）企劃、管理，於 2014 年 7 月中正式開幕，與全球其他前導實驗空間試圖找出與社群自主空間相關的各項經營因素，讓這個計劃更能順利推動。</p>
+        <p>想更深入了解這個計劃嗎？請參考 <a href="https://wiki.mozilla.org/Contribute/WPR/Community_Space_Initiative">MozillaWiki</a>。</p>
+      </div>
+      <div class="grid-6">
+        <p>Mozilla's Community Space initiative is a project to explore how volunteer-managed physical spaces can effectively support community building efforts regionally, helping more people know about Mozilla's mission and products, strengthening the connection between community members, and empowering the community.</p>
+        <p>Inaugurated in July 2014, Mozilla Community Space Taipei (摩茲工寮) is the first pilot  of the Mozilla Community Space initiative, propelled and managed by Mozilla Taiwan Community (MozTW). Together with other pilots around the world , we are seeking for the right way to help the Mozilla Community Space project.To learn more about the Project, check the <a href="https://wiki.mozilla.org/Contribute/WPR/Community_Space_Initiative">project page on MozillaWiki</a>.</p>
+      </div>
+    </section>
+
     <section id="moreinfo" class="grids">
       <div class="grid-4">
         <a href="mailto:space@moztw.org">聯絡摩茲工寮</a>
