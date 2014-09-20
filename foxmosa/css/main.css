@@ -496,6 +496,9 @@
 }
 
 @media screen and (max-width: 980px), screen and (max-device-width: 980px){
+	#content-area {
+		width: auto;
+	}
 	#wrapper {
 		width: 90%;
 		margin: 0 auto;
@@ -503,6 +506,11 @@
 
 	#colophon .row {
 		width: 90%;
+	}
+
+	#foxmosa-gallery {
+		margin: 0 auto 50px !important;
+		width: 470px;
 	}
 }
 
@@ -688,6 +696,10 @@
 
 	#foxmosa-social ul li a {
 		width: 90%;
+	}
+
+	#foxmosa-gallery {
+		width: 235px;
 	}
 	
 	#foxmosa-pairs a.pairslogo {
