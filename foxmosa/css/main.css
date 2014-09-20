@@ -502,7 +502,7 @@
 		width: auto;
 	}
 	#wrapper {
-		width: 90%;
+		/*width: 90%;*/
 		margin: 0 auto;
 	}
 
@@ -525,9 +525,6 @@
 		margin: auto;
 	}
 
-}
-
-@media screen and (max-width: 950px), screen and (max-device-width: 950px){
 	#menu {
 		width: 100px;
 		height: 30px;
@@ -638,7 +635,6 @@
 
 	#foxmosa-join {
 		background: transparent !important;
-		padding: 0;
 		margin-left: 0;
 	}
 

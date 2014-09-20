@@ -88,7 +88,7 @@
                         <h2 class="block-title hide">Gallery</h2>
                     </section>
                     
-                    <section id="foxmosa-join" class="block row whitebox">
+                    <section id="foxmosa-join" class="block container row whitebox">
                         <h2 class="block-title hide l10n" data-l10n="foxmosa-join-h2">如何加入呢？</h2>
                         
                         <div>
