@@ -379,16 +379,18 @@
 
 #foxmosa-join{
 	min-height: 300px;
-	background: url(../images/join.png) no-repeat center center !important;
+	/*background: url(../images/join.png) no-repeat center center !important;*/
 	-ms-box-shadow: none !important;
 	-o-box-shadow: none !important;
 	box-shadow: none !important;
-    margin: 0 0 60px -20px;
+    margin: 0 auto 60px;
     padding: 20px;
 }
 
 #foxmosa-join div{
-	width: 260px;
+	float: left;
+	width: 33%;
+	min-width: 290px;
 }
 
 #foxmosa-join div h3{
@@ -512,6 +514,17 @@
 		margin: 0 auto 50px !important;
 		width: 470px;
 	}
+
+	#foxmosa-join > div {
+		width: 100%;
+		margin: 0;
+	}
+
+	#foxmosa-join > div > img {
+		display: block;
+		margin: auto;
+	}
+
 }
 
 @media screen and (max-width: 950px), screen and (max-device-width: 950px){
@@ -629,11 +642,6 @@
 		margin-left: 0;
 	}
 
-	#foxmosa-join > div {
-		width: 48%;
-		margin: 0;
-	}
-
 	.footer-logo{
 		width: 300px;
 	}
@@ -649,7 +657,7 @@
 	}
 }
 
-@media screen and (max-width: 600px), screen and (max-device-width: 600px){
+@media screen and (max-width: 640px), screen and (max-device-width: 640px){
 	#menu {
 		right: 24px;
 		top: 50px;
