@@ -138,12 +138,33 @@ div[class^=grid-] {
   width: 960px; /* was 1000px here */
 }
 
+
+#eqm {padding: 0;}
+
+#eqm li {
+  display: block; float:left;
+  width: 100px; height: 2em;
+  padding-top: 100px;
+  background: no-repeat top;
+  background-size: 100%;
+  margin: 5px 15px;
+  text-align: center;
+}
+
+
 /* RWD */
 
 
 
 @media only screen and (max-width:960px) {
 
+  #masthead hgroup {
+   padding: 20px 0;
+  }
+  #masthead h1 {
+    font-size: 50px;
+  }
+  
   h3 {font-size: 22px;}
 
   .grids {
@@ -177,12 +198,19 @@ div[class^=grid-] {
   #footer .grid-text {
     text-align: left;
   }
+  #eqm li {
+    font-size: .85em;
+    width: 80px; height: 2em;
+    padding-top: 80px;
+  }
 }
 
 @media only screen and (max-width:650px) {  
   #intro header {
     display: none;
   }
+  
+  #intro {margin-top: 1em;}
 
   h3 {
     text-align: center;
@@ -207,6 +235,14 @@ div[class^=grid-] {
 
   #moreinfo .grid-4 a {
     width: 238px;
-    margin: 10px auto 0 auto;
+    margin: 10px auto 0;
   }
+  
+  #eqm {width: 330px; margin: 0 auto;}
+}
+@media only screen and (max-width:430px) {  
+  #eqm {width: 220px;}
+}
+@media only screen and (max-width:250px) {
+  #eqm {width: 110px;}
 }
