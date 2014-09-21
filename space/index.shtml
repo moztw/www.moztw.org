@@ -29,12 +29,12 @@
       <div class="grid-6">
         <h3>場地提供</h3>
         <ul id="eqm">
-          <li style="background-image: url(images/icon_wifi.png)">無線網路</li>
+          <li style="background-image: url(images/icon_wifi.png)">高速無線網路</li>
           <li style="background-image: url(images/icon_socket.png)">三孔插座</li>
           <li style="background-image: url(images/icon_projector.png)">投影機</li>
           <li style="background-image: url(images/icon_stereo_set.png)">播音器材</li>
-          <li style="background-image: url(images/icon_drink.png)">無限暢飲</li>
-          <li style="background-image: url(images/icon_open_lover.png)">對開放文化的熱情</li>
+          <li style="background-image: url(images/icon_drink.png)">飲料無限暢飲</li>
+          <li style="background-image: url(images/icon_open_lover.png)">內建開放熱情</li>
         </ul>
       </div>
       <div class="grid-6">
