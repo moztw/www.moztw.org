@@ -23,22 +23,22 @@
           <h2>A Place for Mozillians &amp; Open Culture Lover</h2>
         </hgroup>
       </header>
-    
-      <div class="grid-6">
+      <div class="grid-12">
         <p>摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。</p>
-
+      </div>
+      <div class="grid-6">
         <h3>場地提供</h3>
-        <ul class="compact">
-          <li>飛快的無線網路</li>
-          <li>貼心的三孔插座</li>
-          <li>能投射出清晰畫面的投影機</li>
-          <li>能播出清楚音質的音響 + 麥克風</li>
-          <li>讓你開心的碳酸飲料</li>
-          <li>舒適空調、桌椅</li>
-          <li>對開放文化滿滿的熱情</li>
+        <ul id="eqm">
+          <li style="background-image: url(images/icon_wifi.png)">高速無線網路</li>
+          <li style="background-image: url(images/icon_socket.png)">三孔插座</li>
+          <li style="background-image: url(images/icon_projector.png)">投影機</li>
+          <li style="background-image: url(images/icon_stereo_set.png)">播音器材</li>
+          <li style="background-image: url(images/icon_drink.png)">飲料無限暢飲</li>
+          <li style="background-image: url(images/icon_open_lover.png)">內建開放熱情</li>
         </ul>
       </div>
       <div class="grid-6">
+        <h3>地圖</h3>
         <div id="map"></div>
         <p>(or in <a href="http://www.google.com/maps/preview?ll=25.066749,121.526335&z=15&t=m&hl=zh-TW&gl=US&mapclient=embed&q=104%E5%8F%B0%E7%81%A3%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E5%BE%B7%E6%83%A0%E8%A1%9723%E8%99%9F">Google Maps</a>)</p>
         <p>地址：10460 台北市中山區德惠街23號地下室</p>
