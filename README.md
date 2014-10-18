@@ -25,6 +25,14 @@ please fork and checkout as you need.
     wiki.moztw.org - Wiki which is not in active usage
     photos.moztw.org - Picture Gallery of MozTW prior to Firefox 1.5 times.
 
+## Development
+
+1. Install [nodejs](http://nodejs.org/) and [npm](https://www.npmjs.org/) in your system.
+2. Install [Grunt](http://gruntjs.com/)
+    `sudo npm install -g grunt-cli`
+3. Run `npm install` in repo directory.
+4. Run `grunt` in repo directory, the output will stay at `watch` task.
+5. Open `localhost:8000`, modify and see the [LiveReload](http://livereload.com/) result.
 
 
 ## Static Pages Local Installation
