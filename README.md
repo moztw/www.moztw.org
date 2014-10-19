@@ -27,12 +27,29 @@ please fork and checkout as you need.
 
 ## Development
 
+### Using Vagrant (Best for new contributors)
+1. Clone this repository to your desired place. 
+   If you are also new to Git, try GitHub client ([Windows](https://windows.github.com/), [Mac](https://mac.github.com/)).
+2. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html) onto your system.
+3. Open Terminal. 
+   Hit Windows-R, type `cmd` then hit Enter if you are on Windows.
+4. `cd [repo directory]` to reach the repository.
+5. Run `vagrant up`. This may take a while (approx. 15–30 minutes) as it needs to download a virtual machine image and all the other required packages to run.
+6. Run `vagrant exec grunt`. You will see the output will stay at `watch`.
+7. Open a web browser, go to `localhost:8000` and you can see the current website. 
+   You can modify the website contents and the changes will be reflected in second.
+8. To stop the script, go back to the terminal and hit Ctrl-C. 
+   Also if you want to stop the virtual machine running, run `vagrant halt`.
+
+
+### Using Node.js directly
 1. Install [nodejs](http://nodejs.org/) and [npm](https://www.npmjs.org/) in your system.
 2. Install [Grunt](http://gruntjs.com/)
     `sudo npm install -g grunt-cli`
 3. Run `npm install` in repo directory.
 4. Run `grunt` in repo directory, the output will stay at `watch` task.
 5. Open `localhost:8000`, modify and see the [LiveReload](http://livereload.com/) result.
+
 
 
 ## Static Pages Local Installation
