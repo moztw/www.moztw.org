@@ -28,17 +28,18 @@ please fork and checkout as you need.
 ## Development
 
 ### Using Vagrant (Best for new contributors)
-1. Clone this repository to your desired place. 
-   If you are also new to Git, try GitHub client ([Windows](https://windows.github.com/), [Mac](https://mac.github.com/)).
+1. Make sure you have `git` available in your computer. If you are not sure, you can go to [Git website](http://git-scm.com/download) to download.
 2. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html) onto your system.
-3. Open Terminal. 
-   Hit Windows-R, type `cmd` then hit Enter if you are on Windows.
-4. `cd [repo directory]` to reach the repository.
-5. Run `vagrant up`. This may take a while (approx. 15–30 minutes) as it needs to download a virtual machine image and all the other required packages to run.
-6. Run `vagrant exec grunt`. You will see the output will stay at `watch`.
-7. Open a web browser, go to `localhost:8000` and you can see the current website. 
+3. Open Terminal. On Windows, open **Git Bash** instead.
+4. Execute `cd [desired directory]` to get to the folder you want to keep the file.
+5. Run `git clone https://github.com/moztw/www.moztw.org.git` to clone the repository.
+5. Run `vagrant up`.  
+   This may take a while (approx. 15-20 minutes) as it needs to download a virtual machine image and all the other required packages to run.
+6. Run `vagrant exec grunt`.  
+   You will see the output will stay at `watch`.
+7. Open a web browser, go to `localhost:8000` and you can see the current website.  
    You can modify the website contents and the changes will be reflected in seconds.
-8. To stop the script, go back to the terminal and hit Ctrl-C. 
+8. To stop the script, go back to the terminal and hit Ctrl-C.  
    Also if you want to stop the virtual machine running, run `vagrant halt`.
 
 

@@ -14,15 +14,19 @@ apt-get install -y nodejs nodejs-legacy npm git
 # install grunt-cli
 npm install -g grunt-cli
 
+# install npm packages.
+# Also to prevent symlink errors on Windows, --no-bin-links is used.
 cd /vagrant
-npm install
+npm install --no-bin-links
 SCRIPT
 
 VAGRANTFILE_API_VERSION = "2"
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box = "ubuntu/trusty32"
+  # http
   config.vm.network "forwarded_port", guest: 8000, host: 8000
+  # livereload
   config.vm.network "forwarded_port", guest: 35729, host: 35729
 
   config.vm.provision "shell", inline: $setup_script
