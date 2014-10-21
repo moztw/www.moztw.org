@@ -33,6 +33,7 @@ please fork and checkout as you need.
 3. Open Terminal. On Windows, open **Git Bash** instead.
 4. Execute `cd [desired directory]` to get to the folder you want to keep the file.
 5. Run `git clone https://github.com/moztw/www.moztw.org.git` to clone the repository.
+6. Run `cd www.moztw.org`.
 5. Run `vagrant up`.  
    This may take a while (approx. 15-20 minutes) as it needs to download a virtual machine image and all the other required packages to run.
 6. Run `vagrant exec grunt`.  
