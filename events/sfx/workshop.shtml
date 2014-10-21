@@ -12,7 +12,7 @@
 
 <body>
 <!--#set var="page_title" value="Firefox 研討會" -->
-<!--#include virtual="/events/sfx/top_block.htm" -->
+<!--#include virtual="/events/sfx/top_block.html" -->
 
 
 <div id="main-content">

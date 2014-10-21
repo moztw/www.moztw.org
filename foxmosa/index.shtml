@@ -88,10 +88,10 @@
                         <h2 class="block-title hide">Gallery</h2>
                     </section>
                     
-                    <section id="foxmosa-join" class="container block row whitebox">
+                    <section id="foxmosa-join" class="block container row whitebox">
                         <h2 class="block-title hide l10n" data-l10n="foxmosa-join-h2">如何加入呢？</h2>
                         
-                        <div class="left">
+                        <div>
                             <h3 class="block-title l10n" data-l10n="foxmosa-license">授權</h3>
                             <p class="l10n" data-l10n="foxmosa-license-cc">Foxmosa 以創用 <b>CC: by-nc-sa 3.0 tw 姓名標示-非商業性-相同方式分享</b> 公開授權，你可以自由以她為主題進行創作，但是：</p>
                             
@@ -101,8 +101,10 @@
                                 <li class="l10n" data-l10n="foxmosa-license-3">如果要進行商業利用，例如：製作週邊進行販售，就必須事先取得 MozTW 許可：irvin[at]mail.moztw.org（代表）</li>
                             </ol>
                         </div>
-                        
-                        <div class="right">
+                        <div>
+                            <img src="images/join.png">
+                        </div>
+                        <div>
                             <h3 class="block-title l10n" data-l10n="foxmosa-painter-h3">加入 Foxmosa 繪師行列</h3>
                             <p class="l10n" data-l10n="foxmosa-painter-content">如果有興趣加入 MozTW 社群的志工行列，以繪圖方式來協助 MozTW 進行各種推廣 Mozilla 和 Firefox 的各種計畫（網站、海報、小遊戲......等），請至以下網址填表，並勾選「美術設計」項目，我們會盡速以 email 與您聯繫：<a href="http://bit.ly/joinmoztw">http://bit.ly/joinmoztw</a></p>
                         </div>

@@ -25,6 +25,33 @@ please fork and checkout as you need.
     wiki.moztw.org - Wiki which is not in active usage
     photos.moztw.org - Picture Gallery of MozTW prior to Firefox 1.5 times.
 
+## Development
+
+### Using Vagrant (Best for new contributors)
+1. Make sure you have `git` available in your computer. If you are not sure, you can go to [Git website](http://git-scm.com/download) to download.
+2. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html) onto your system.
+3. Open Terminal. On Windows, open **Git Bash** instead.
+4. Execute `cd [desired directory]` to get to the folder you want to keep the file.
+5. Run `git clone https://github.com/moztw/www.moztw.org.git` to clone the repository.
+6. Run `cd www.moztw.org`.
+7. Run `vagrant up`.  
+   This may take a while (approx. 15-20 minutes) as it needs to download a virtual machine image and all the other required packages to run.
+8. Run `vagrant exec grunt`.  
+   You will see the output will stay at `watch`.
+9. Open a web browser, go to `localhost:8000` and you can see the current website.  
+   You can modify the website contents and the changes will be reflected in seconds.
+10. To stop the script, go back to the terminal and hit Ctrl-C.  
+   Also if you want to stop the virtual machine running, run `vagrant halt`.
+
+
+### Using Node.js directly
+1. Install [nodejs](http://nodejs.org/) and [npm](https://www.npmjs.org/) in your system.
+2. Install [Grunt](http://gruntjs.com/)
+    `sudo npm install -g grunt-cli`
+3. Run `npm install` in repo directory.
+4. Run `grunt` in repo directory, the output will stay at `watch` task.
+5. Open `localhost:8000`, modify and see the [LiveReload](http://livereload.com/) result.
+
 
 
 ## Static Pages Local Installation

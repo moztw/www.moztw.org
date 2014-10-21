@@ -379,16 +379,18 @@
 
 #foxmosa-join{
 	min-height: 300px;
-	background: url(../images/join.png) no-repeat center center !important;
+	/*background: url(../images/join.png) no-repeat center center !important;*/
 	-ms-box-shadow: none !important;
 	-o-box-shadow: none !important;
 	box-shadow: none !important;
-    margin: 0 0 60px -20px;
+    margin: 0 auto 60px;
     padding: 20px;
 }
 
 #foxmosa-join div{
-	width: 260px;
+	float: left;
+	width: 33%;
+	min-width: 290px;
 }
 
 #foxmosa-join div h3{
@@ -496,17 +498,33 @@
 }
 
 @media screen and (max-width: 980px), screen and (max-device-width: 980px){
+	#content-area {
+		width: auto;
+	}
 	#wrapper {
-		width: 90%;
+		/*width: 90%;*/
 		margin: 0 auto;
 	}
 
 	#colophon .row {
 		width: 90%;
 	}
-}
 
-@media screen and (max-width: 950px), screen and (max-device-width: 950px){
+	#foxmosa-gallery {
+		margin: 0 auto 50px !important;
+		width: 470px;
+	}
+
+	#foxmosa-join > div {
+		width: 100%;
+		margin: 0;
+	}
+
+	#foxmosa-join > div > img {
+		display: block;
+		margin: auto;
+	}
+
 	#menu {
 		width: 100px;
 		height: 30px;
@@ -617,13 +635,7 @@
 
 	#foxmosa-join {
 		background: transparent !important;
-		padding: 0;
 		margin-left: 0;
-	}
-
-	#foxmosa-join > div {
-		width: 48%;
-		margin: 0;
 	}
 
 	.footer-logo{
@@ -641,7 +653,7 @@
 	}
 }
 
-@media screen and (max-width: 600px), screen and (max-device-width: 600px){
+@media screen and (max-width: 640px), screen and (max-device-width: 640px){
 	#menu {
 		right: 24px;
 		top: 50px;
@@ -688,6 +700,10 @@
 
 	#foxmosa-social ul li a {
 		width: 90%;
+	}
+
+	#foxmosa-gallery {
+		width: 235px;
 	}
 	
 	#foxmosa-pairs a.pairslogo {

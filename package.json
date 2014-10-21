@@ -1,0 +1,26 @@
+{
+  "name": "www.moztw.org",
+  "version": "0.0.0",
+  "description": "Mozilla Taiwan community web site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moztw/www.moztw.org.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moztw/www.moztw.org/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "ssi": "~0.1.5",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-contrib-connect": "~0.8.0",
+    "grunt-contrib-watch": "git://github.com/jacksonrayhamilton/grunt-contrib-watch.git",
+    "grunt-update-submodules": "~0.4.1"
+  }
+}
