@@ -34,13 +34,13 @@ please fork and checkout as you need.
 4. Execute `cd [desired directory]` to get to the folder you want to keep the file.
 5. Run `git clone https://github.com/moztw/www.moztw.org.git` to clone the repository.
 6. Run `cd www.moztw.org`.
-5. Run `vagrant up`.  
+7. Run `vagrant up`.  
    This may take a while (approx. 15-20 minutes) as it needs to download a virtual machine image and all the other required packages to run.
-6. Run `vagrant exec grunt`.  
+8. Run `vagrant exec grunt`.  
    You will see the output will stay at `watch`.
-7. Open a web browser, go to `localhost:8000` and you can see the current website.  
+9. Open a web browser, go to `localhost:8000` and you can see the current website.  
    You can modify the website contents and the changes will be reflected in seconds.
-8. To stop the script, go back to the terminal and hit Ctrl-C.  
+10. To stop the script, go back to the terminal and hit Ctrl-C.  
    Also if you want to stop the virtual machine running, run `vagrant halt`.
 
 
