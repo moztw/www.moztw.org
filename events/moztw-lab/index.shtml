@@ -86,8 +86,8 @@
         <article id="location" class="module">
             <h2>那裡有 MozTW Lab？
                 <br/>Where are MozTW Labs ?</h2>
-            <p>這位客官你運氣真好，台北、基隆、宜蘭跟新竹剛好都有一個：
-                <br/>You are so lucky that we got MozTW Labs at Taipei, Keelung, Ilan, and Hsinchu:</p>
+            <p>這位客官你運氣真好，台北、基隆跟新竹剛好都有一個：
+                <br/>You are so lucky that we got MozTW Labs at Taipei, Keelung, and Hsinchu:</p>
             <p>（場地資訊可能隨時會變動，請記得注意一下 Twitter 資訊 : P）
                 <br/>(In case that venues vary at times, follow up at Twitter in advance :P)</p>
             <ul class="nav">
@@ -96,9 +96,6 @@
                 </li>
                 <li class="nv" id="keelung_lab_nav">
                     <a onclick="toggleLabPages($(this).parent().attr('id'))"><del>基隆 Keelung</del></a>
-                </li>
-                <li class="nv" id="ilan_lab_nav">
-                    <a onclick="toggleLabPages($(this).parent().attr('id'))">宜蘭 Ilan</a>
                 </li>
                 <li class="nv rb" id="hsinchu_lab_nav">
                     <a onclick="toggleLabPages($(this).parent().attr('id'))">新竹 Hsinchu</a>
@@ -146,27 +143,6 @@
                     </ul>
                     <div class="mapcover">
                         <div class="map" id="map_keelung"></div>
-                    </div>
-                </div>
-                <!-- Ilan Lab Info -->
-                <div class="details" id="ilan_lab" style="display: none;">
-                    <ul>
-                        <li>不定期(請參閱
-                            <a href="https://groups.google.com/forum/#!topic/moztw-general/r3uSxxOEDoA">郵件群組</a>) 14:00-16:00
-                            <br/>Irregular(pls refer to
-                            <a href="https://groups.google.com/forum/#!topic/moztw-general/r3uSxxOEDoA">Mailing List</a>) 14:00-16:00</li>
-                        <li>拾光響響公平貿易咖啡 cafe17
-                            <br/>
-                            <a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'YLA');" href="http://www.facebook.com/cafeSeventeen/info"><span class="locality">宜蘭市</span><span class="street-address">農權路205號 No. 205, Nongquan Rd., Illan City.</span></a>
-                        </li>
-                        <li>電話：0982-387-909
-                            <br/>Tel: 0982-387-909</li>
-                        <li>低消：約100元，店內目前暫無提供網路連線，請自備 3G 行動網路，或預先抓取自己需要的文件、程式碼離線作業。
-                            <br/>Minimum charge: NTD 100. No Internet access so far, please get a 3G mobile network or pre-fetch your documents and code for off-line works.</li>
-                        <!-- <li>「免費參加，餐飲自理。」</li> -->
-                    </ul>
-                    <div class="mapcover">
-                        <div class="map" id="map_ilan"></div>
                     </div>
                 </div>
                 <!-- Hsinchu Lab Info -->
