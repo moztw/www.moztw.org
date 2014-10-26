@@ -12,12 +12,6 @@ var lab_locs = {
         "lat": 25.132724, 
         "lng": 121.74002
     },
-    "ilan_lab": {
-        "oid": "map_ilan", 
-        "place": "拾光響響公平貿易咖啡 cafe17", 
-        "lat": 24.746619, 
-        "lng": 121.750847
-    },
     "hsinchu_lab": {
         "oid": "map_hsinchu", 
         "place": "綠蓋茶館新竹誠品站前店 LATTEA Hsinchi eslite", 
