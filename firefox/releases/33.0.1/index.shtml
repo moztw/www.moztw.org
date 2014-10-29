@@ -337,15 +337,20 @@ section .appendix {
                   <ul>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>修正 HTTP 1.1 傳輸損壞，造成不完整的下載被視為已完成的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=237623">bug 237623</a>）。</h5>
+                      <div class="status">
+                        <span class="status-resolved">
+                          <a href="http://www.mozilla.org/en-US/firefox/33.0/releasenotes">v33.0 已修復</a>
+                        </span>
+                      </div>
+                    </li>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
                       <h5>PDF.js: 某些圖片會顯示錯誤的顏色，相當少量的 PDF 受此影響。</h5>
                     </li>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
                       <h5>部分憑證錯誤無法被覆寫（<a href="http://bugzilla.mozilla.org/1042889">bug 1042889</a>）。</h5>
-                    </li>
-                    <li>
-                      <span class="tag tag-unresolved">尚未修復</span>
-                      <h5>Windows: 某些硬體和驅動程式的組合會造成主視窗變成黑畫面，若發生此狀況，請嘗試更新顯示卡驅動程式（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1083071">bug 1083071</a>）。</h5>
                     </li>
                   </ul>
                 </div>
