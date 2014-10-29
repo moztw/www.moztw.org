@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/meta.html" -->
-<title>Mozilla Firefox 33.0 版本資訊</title>
+<title>Mozilla Firefox 33.0.2 版本資訊</title>
 <style type="text/css">
 <!--
 #product-desc p {
@@ -214,8 +214,8 @@ section .appendix {
       <div class="key-point">
         <div id="product-desc" class="firefox-releasenotes-v4">
           <p id="release-date">
-            <time datetime="2014-10-15">2014 年 10 月 15 日</time>
-             v.33.0
+            <time datetime="2014-10-29">2014 年 10 月 29 日</time>
+             v.33.0.2
           </p>
           <p>此版本資訊包含了 <a href="#whatsnew">Firefox 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
 
@@ -231,12 +231,20 @@ section .appendix {
                 <div class="section-contents">
                     <ul>
                       <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>33.0.2 - 某些硬體與驅動程式的組合下，Firefox 啟動時會當機。</h5>
+                      </li>
+                      <li>
                         <span class="tag tag-new">全新功能</span>
                         <h5>支援 <a href="http://www.janbambas.cz/new-firefox-http-cache-enabled/">OpenH264</a>（沙箱模式）。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
                         <h5>改善網址列的<a href="http://msujaws.wordpress.com/2014/08/01/faster-and-snappier-searches-now-in-firefox-aurora/">搜尋使用體驗</a>。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-new">全新功能</span>
+                        <h5>Windows: 預設啟用 <a href="https://wiki.mozilla.org/Platform/GFX/OffMainThreadCompositing">OMTC</a>。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
@@ -248,28 +256,19 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>Windows: 預設啟用 <a href="https://wiki.mozilla.org/Platform/GFX/OffMainThreadCompositing">OMTC</a>。</h5>
+                        <h5>支援以 HTTPS 連線至 HTTP proxy。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
                         <h5>新的 CSP（Content Security Policy）後端。</h5>
                       </li>
                       <li>
-												<span class="tag tag-new">全新功能</span>
-                        <h5>支援以 HTTPS 連線至 HTTP proxy。</h5>
-                      </li>
-                      <li>
-												<span class="tag tag-new">全新功能</span>
+                        <span class="tag tag-new">全新功能</span>
                         <h5>改善<a href="https://dutherenverseauborddelatable.wordpress.com/2014/06/26/firefox-the-browser-that-has-your-backup/">還原瀏覽分頁</a>的可靠性。</h5>
                       </li>
                       <li>
-												<span class="tag tag-new">全新功能</span>
-												<h5>新增亞塞拜然（Azerbaijani, az）語系支援。</h5>
-                      </li>
-
-                      <li>
-                        <span class="tag tag-changed">變更</span>
-                        <h5>移除 window.crypto 屬性與函數。</h5>
+                        <span class="tag tag-new">全新功能</span>
+                        <h5>新增亞塞拜然（Azerbaijani, az）語系支援。</h5>
                       </li>
                       <li>
                         <span class="tag tag-changed">變更</span>
@@ -277,12 +276,17 @@ section .appendix {
                       </li>
 
                       <li>
-                        <span class="tag tag-html5">HTML5</span>
-                        <h5>實作 CSS3 Counter Styles 標準的 <a href="http://dev.w3.org/csswg/css-counter-styles/#the-counter-style-rule">@counter-style 規則</a>。</h5>
+                        <span class="tag tag-changed">變更</span>
+                        <h5>移除 window.crypto 屬性與函數。</h5>
                       </li>
+
                       <li>
                         <span class="tag tag-html5">HTML5</span>
                         <h5>實作 <a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix">DOMMatrix</a> 介面。</p>
+                      </li>
+                      <li>
+                        <span class="tag tag-html5">HTML5</span>
+                        <h5>實作 CSS3 Counter Styles 標準的 <a href="http://dev.w3.org/csswg/css-counter-styles/#the-counter-style-rule">@counter-style 規則</a>。</h5>
                       </li>
 
                       <li>
@@ -291,15 +295,15 @@ section .appendix {
                       </li>
                       <li>
                         <span class="tag tag-developer">開發功能</span>
+                        <h5><a href="https://developer.mozilla.org/en-US/docs/Tools/Paint_Flashing_Tool">強調繪圖區</a>功能，顯示瀏覽器重新繪圖的情形。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-developer">開發功能</span>
                         <h5>顯示元素上已綁定的<a href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector#Examining_event_listeners">事件監聽器</a>。</h5>
                       </li>
                       <li>
                         <span class="tag tag-developer">開發功能</span>
                         <h5>樣式編輯器新增<a href="https://developer.mozilla.org/en-US/docs/Tools/Style_Editor#The_media_sidebar">@media 側邊欄</a>，顯示前往 @media 規則的捷徑。</h5>
-                      </li>
-                      <li>
-                        <span class="tag tag-developer">開發功能</span>
-                        <h5><a href="https://developer.mozilla.org/en-US/docs/Tools/Paint_Flashing_Tool">強調繪圖區</a>功能，顯示瀏覽器重新繪圖的情形。</h5>
                       </li>
                       <li>
                         <span class="tag tag-developer">開發功能</span>
@@ -312,16 +316,20 @@ section .appendix {
 
                       <li>
                         <span class="tag tag-fixed">修正</span>
-												<h5>修正 HTTP 1.1 傳輸損壞，造成不完整的下載被視為已完成的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=237623">bug 237623</a>）。</h5>
+                        <h5>33.0.1 - 某些顯示卡會造成 Firefox 啟動時顯示黑畫面。</h5>
                       </li>
                       <li>
                         <span class="tag tag-fixed">修正</span>
-												<h5>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全性修正</a>。</h5>
+                        <h5>修正 HTTP 1.1 傳輸損壞，造成不完整的下載被視為已完成的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=237623">bug 237623</a>）。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
+                        <h5>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox.html">安全性修正</a>。</h5>
                       </li>
 
                       <li class="complete">
                         請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&f1=target_milestone&f2=cf_status_firefox33&o1=anywords&o2=anywords&resolution=FIXED&v1=mozilla33%2C%20Firefox%2033&v2=fixed%2Cverified&order=bug_id&limit=0">完整變更清單</a>。
-                        您可能也想瞭解<a href="/firefox/releases/32.0.3/">前一個版本的更新</a>。
+                        您可能也想瞭解<a href="/firefox/releases/33.0.1/">前一個版本的更新</a>。
                       </li>
                     </ul>
                 </div>
@@ -331,6 +339,15 @@ section .appendix {
                 <h3>已知問題</h3>
                 <div class="section-contents">
                   <ul>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>修正 HTTP 1.1 傳輸損壞，造成不完整的下載被視為已完成的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=237623">bug 237623</a>）。</h5>
+                      <div class="status">
+                        <span class="status-resolved">
+                          <a href="http://www.mozilla.org/en-US/firefox/33.0/releasenotes">v33.0 已修復</a>
+                        </span>
+                      </div>
+                    </li>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
                       <h5>PDF.js: 某些圖片會顯示錯誤的顏色，相當少量的 PDF 受此影響。</h5>
@@ -348,7 +365,7 @@ section .appendix {
                         </span>
                       </div>
                     </li>
-									</ul>
+                  </ul>
                 </div>
               </section>
 

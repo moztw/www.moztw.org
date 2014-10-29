@@ -214,8 +214,8 @@ section .appendix {
       <div class="key-point">
         <div id="product-desc" class="firefox-releasenotes-v4">
           <p id="release-date">
-            <time datetime="2014-10-25">2014 年 10 月 25 日</time>
-             v.33.0.1
+            <time datetime="2014-10-29">2014 年 10 月 29 日</time>
+             v.33.0.2
           </p>
           <p>此版本資訊包含了 <a href="#whatsnew">Firefox 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
 
@@ -232,7 +232,7 @@ section .appendix {
                     <ul>
                       <li>
                         <span class="tag tag-fixed">修正</span>
-                        <h5>33.0.1 - 某些顯示卡會造成 Firefox 啟動時顯示黑畫面。</h5>
+                        <h5>33.0.2 - 某些硬體與驅動程式的組合下，Firefox 啟動時會當機。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
@@ -316,6 +316,10 @@ section .appendix {
 
                       <li>
                         <span class="tag tag-fixed">修正</span>
+                        <h5>33.0.1 - 某些顯示卡會造成 Firefox 啟動時顯示黑畫面。</h5>
+                      </li>
+                      <li>
+                        <span class="tag tag-fixed">修正</span>
                         <h5>修正 HTTP 1.1 傳輸損壞，造成不完整的下載被視為已完成的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=237623">bug 237623</a>）。</h5>
                       </li>
                       <li>
@@ -325,7 +329,7 @@ section .appendix {
 
                       <li class="complete">
                         請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&f1=target_milestone&f2=cf_status_firefox33&o1=anywords&o2=anywords&resolution=FIXED&v1=mozilla33%2C%20Firefox%2033&v2=fixed%2Cverified&order=bug_id&limit=0">完整變更清單</a>。
-                        您可能也想瞭解<a href="/firefox/releases/33.0/">前一個版本的更新</a>。
+                        您可能也想瞭解<a href="/firefox/releases/33.0.1/">前一個版本的更新</a>。
                       </li>
                     </ul>
                 </div>
@@ -337,6 +341,15 @@ section .appendix {
                   <ul>
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
+                      <h5>修正 HTTP 1.1 傳輸損壞，造成不完整的下載被視為已完成的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=237623">bug 237623</a>）。</h5>
+                      <div class="status">
+                        <span class="status-resolved">
+                          <a href="http://www.mozilla.org/en-US/firefox/33.0/releasenotes">v33.0 已修復</a>
+                        </span>
+                      </div>
+                    </li>
+                    <li>
+                      <span class="tag tag-unresolved">尚未修復</span>
                       <h5>PDF.js: 某些圖片會顯示錯誤的顏色，相當少量的 PDF 受此影響。</h5>
                     </li>
                     <li>
@@ -346,6 +359,11 @@ section .appendix {
                     <li>
                       <span class="tag tag-unresolved">尚未修復</span>
                       <h5>Windows: 某些硬體和驅動程式的組合會造成主視窗變成黑畫面，若發生此狀況，請嘗試更新顯示卡驅動程式（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1083071">bug 1083071</a>）。</h5>
+                      <div class="status">
+                        <span class="status-resolved">
+                          <a href="http://www.mozilla.org/en-US/firefox/33.0.1/releasenotes">v33.0.1 已修復</a>
+                        </span>
+                      </div>
                     </li>
                   </ul>
                 </div>
