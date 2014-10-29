@@ -232,7 +232,7 @@ section .appendix {
                     <ul>
                       <li>
                         <span class="tag tag-new">全新功能</span>
-                        <h5>支援 <a href="http://www.janbambas.cz/new-firefox-http-cache-enabled/">OpenH264</a>（沙箱模式）。</h5>
+                        <h5>支援 <a href="http://andreasgal.com/2014/10/14/openh264-now-in-firefox/">OpenH264</a>（沙箱模式）。</h5>
                       </li>
                       <li>
                         <span class="tag tag-new">全新功能</span>
