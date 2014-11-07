@@ -7,6 +7,10 @@
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
+<section id="findplace" style="font-size: 1.5em; padding: 0.66em; text-align: center; line-height: 1.5em;">
+    摩茲工寮租約到期，即將搬遷擴大規模；<br>歡迎各位朋友來信，提供空間情報與合作機會 > <a href="mailto:space@moztw.org">space@moztw.org</a>。
+</section>
+
 <header id="masthead" role="banner">
   <hgroup>
     <h1 id="site-title">摩茲工寮</h1>
@@ -63,9 +67,9 @@
       <div class="grid-6">
         <iframe src="http://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=260&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=3fs8qeakm6ij88hibpb5bsg3mc%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=Asia%2FTaipei" width="100%" height="260" frameborder="0" scrolling="no"></iframe>
       </div>
-    </section> 
+    </section>
 
-  
+
     <section id="hostevent" class="grids">
       <header>
         <hgroup>
@@ -87,7 +91,7 @@
           <h2>Be a Keyholder</h2>
         </hgroup>
       </header>
-  
+
       <div class="grid-12">
         <p>摩茲工寮由 Keyholders 共同管理，並共同探索更有效使用這片園地的方式。Keyholder 的權利、義務與條件如下：</p>
       </div>
@@ -121,7 +125,7 @@
         <p>詳見<a href="https://etherpad.mozilla.org/moztw-taipei-space-key">申請辦法</a>，歡迎有志之士<a href="mailto:space@moztw.org">聯絡我們</a>。</p>
       </div>
 
-    
+
 
       <div id="keyholders" class="grid-12">
         <h3>現任 Keyholders</h3>
@@ -146,7 +150,7 @@
           <h2>About Mozilla Community Space Taipei</h2>
         </hgroup>
       </header>
-  
+
       <div class="grid-6">
         <p>Mozilla Community Space initiative 希望探索「志工社群自主空間」這樣的領域，期望能讓更多人認識 Mozilla 的信念、任務、產品，並加深社群成員彼此之間的連結，也讓 Mozilla 志工社群更有力量。</p>
         <p>摩茲工寮是全球第一個啟動的前導實驗，由 MozTW（Mozilla 台灣社群）企劃、管理，於 2014 年 7 月中正式開幕，與全球其他前導實驗空間試圖找出與社群自主空間相關的各項經營因素，讓這個計劃更能順利推動。</p>
