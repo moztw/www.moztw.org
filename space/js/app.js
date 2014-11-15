@@ -1,5 +1,5 @@
 var map = new L.map('map', { scrollWheelZoom: false, dragging: false })
-    .setView([25.066766, 121.526330], 16);
+    .setView([25.0440747, 121.5322192], 16);
 
 // add an OpenStreetMap tile layer
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
@@ -25,12 +25,12 @@ function createImgElement(title, farm, server, id, secret, owner, group_id){
   var page = "https://www.flickr.com/photos/" + owner + "/" + id + "/in/pool-" + group_id;
   var dom_img = document.createElement("img"),
       dom_a = document.createElement("a");
-  
+
   dom_img.src = photo_url;
   dom_a.href = page;
   dom_a.title = title;
   dom_a.appendChild(dom_img);
-  
+
   return dom_a;
 };
 
