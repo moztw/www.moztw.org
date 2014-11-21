@@ -94,9 +94,6 @@
                 <li class="nv lb sel" id="taipei_lab_nav">
                     <a onclick="toggleLabPages($(this).parent().attr('id'))">台北 Taipei</a>
                 </li>
-                <li class="nv" id="keelung_lab_nav">
-                    <a onclick="toggleLabPages($(this).parent().attr('id'))"><del>基隆 Keelung</del></a>
-                </li>
                 <li class="nv rb" id="hsinchu_lab_nav">
                     <a onclick="toggleLabPages($(this).parent().attr('id'))">新竹 Hsinchu</a>
                 </li>
