@@ -94,9 +94,6 @@
                 <li class="nv lb sel" id="taipei_lab_nav">
                     <a onclick="toggleLabPages($(this).parent().attr('id'))">台北 Taipei</a>
                 </li>
-                <li class="nv" id="keelung_lab_nav">
-                    <a onclick="toggleLabPages($(this).parent().attr('id'))"><del>基隆 Keelung</del></a>
-                </li>
                 <li class="nv rb" id="hsinchu_lab_nav">
                     <a onclick="toggleLabPages($(this).parent().attr('id'))">新竹 Hsinchu</a>
                 </li>
@@ -115,32 +112,6 @@
                     </ul>
                     <div class="mapcover">
                         <div class="map" id="map_taipei"></div>
-                    </div>
-                </div>
-                <!-- Keelung Lab Info -->
-                <div class="details" id="keelung_lab" style="display: none;">
-                    <ul>
-                        <li class="alert">
-                            <div id="kl_alert">
-                                <h1>暑假期間暫停(5/25起) Suspened for summertime</h1>
-                            </div>
-                        </li>
-                        <del>
-                            <li>每週三晚間 Every Wesnesday night 19:00-21:00</li>
-                            <li>1915海洋咖啡館 1915 Cafe
-                                <br/>
-                                <a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'KEL');" href="http://goo.gl/maps/7q7FQ"><span class="locality">基隆市</span><span class="street-address">仁愛區港西街4號1樓 No.4 1F, Gangxi St., Ren'ai Dist., Keelung City.</span></a>
-                            </li>
-                            <li>電話：02-2428-8807
-                                <br/>Tel: 02-2428-8807</li>
-                            <li>低消：約60元，附 Wi-Fi 與電源。
-                                <br/>Minimum charge: NTD 60, with Wi-Fi and power.</li>
-                            <li>「免費參加，餐飲自理。」
-                                <br/>"Free to participate. Beverages and food on your own."</li>
-                        </del>
-                    </ul>
-                    <div class="mapcover">
-                        <div class="map" id="map_keelung"></div>
                     </div>
                 </div>
                 <!-- Hsinchu Lab Info -->

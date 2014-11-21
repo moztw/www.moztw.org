@@ -5,12 +5,6 @@ var lab_locs = {
         "lat": 25.044154,
         "lng": 121.532212
     }, 
-    "keelung_lab": {
-        "oid": "map_keelung", 
-        "place": "1915海洋咖啡館 1915 Cafe", 
-        "lat": 25.132724, 
-        "lng": 121.74002
-    },
     "hsinchu_lab": {
         "oid": "map_hsinchu", 
         "place": "綠蓋茶館新竹誠品站前店 LATTEA Hsinchi eslite", 
