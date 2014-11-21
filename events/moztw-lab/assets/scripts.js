@@ -2,10 +2,9 @@ var lab_locs = {
     "taipei_lab": {
         "oid": "map_taipei", 
         "place": "摩茲工寮 Mozilla Community Space Taipei", 
-        "lat": 25.066766,
-        "lng": 121.526330
+        "lat": 25.044154,
+        "lng": 121.532212
     }, 
-
     "keelung_lab": {
         "oid": "map_keelung", 
         "place": "1915海洋咖啡館 1915 Cafe", 
