@@ -106,14 +106,12 @@
                 <!-- Taipei Lab Info -->
                 <div class="details" id="taipei_lab">
                     <ul>
-                        <li>每週五晚間 Every Friday night 19:30-22:00</li>
+                        <li>每週五晚間 19:30~22:00 Every Friday night</li>
                         <li>
-                            <a href="/space">摩茲工寮 Mozilla Community Space Taipei<br/>（<span class="locality">台北市</span><span class="street-address">德惠街 23 號地下室 Basement at No. 23, Dehui St., Taipei City.</span>）</a>
+                          <a href="/space">摩茲工寮 Mozilla Community Space Taipei<br/>（<span class="locality">台北市</span><span class="street-address">中正區八德路一段 94 號 3 樓 3<sup>rd</sup> Fl., No. 94, Ba-de Rd., Zhongzheng District, Taipei City 100</span>）</a>
                         </li>
-                        <li>有 Wi-Fi 與電源。（場地有汽水飲料，無餐點）
-                            <br/>Wi-Fi and power are available. (Soda and beverages offered, but no food.)</li>
-                        <li>「免費參加，餐點自備、飲料免費。」
-                            <br/>"Free to participate. Beverages here and food on your own."</li>
+                        <li>現場備有 Wi-Fi 與電源，免費參加，餐點自備。
+                            <br/>Free to join. Wi-Fi and power are available, food and drinks on your own.</li>
                     </ul>
                     <div class="mapcover">
                         <div class="map" id="map_taipei"></div>
