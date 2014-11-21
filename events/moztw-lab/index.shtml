@@ -86,8 +86,8 @@
         <article id="location" class="module">
             <h2>那裡有 MozTW Lab？
                 <br/>Where are MozTW Labs ?</h2>
-            <p>這位客官你運氣真好，台北、基隆跟新竹剛好都有一個：
-                <br/>You are so lucky that we got MozTW Labs at Taipei, Keelung, and Hsinchu:</p>
+            <p>這位客官你運氣真好，台北跟新竹剛好都有一個：
+                <br/>You are so lucky that we got MozTW Labs at Taipei and Hsinchu:</p>
             <p>（場地資訊可能隨時會變動，請記得注意一下 Twitter 資訊 : P）
                 <br/>(In case that venues vary at times, follow up at Twitter in advance :P)</p>
             <ul class="nav">
@@ -105,7 +105,9 @@
                     <ul>
                         <li>每週五晚間 19:30~22:00 Every Friday night</li>
                         <li>
-                          <a href="/space">摩茲工寮 Mozilla Community Space Taipei<br/>（<span class="locality">台北市</span><span class="street-address">中正區八德路一段 94 號 3 樓 3<sup>rd</sup> Fl., No. 94, Ba-de Rd., Zhongzheng District, Taipei City 100</span>）</a>
+                          <a href="/space">摩茲工寮 Mozilla Community Space Taipei<br/>
+                            <span class="locality">台北市</span><span class="street-address">中正區八德路一段 94 號 3 樓</span><br />
+                            <span class="street-address">3<sup>rd</sup> Fl., No. 94, Ba-de Rd., Zhongzheng District</span>, <span class="locality">Taipei City</span> 100</a>
                         </li>
                         <li>現場備有 Wi-Fi 與電源，免費參加，餐點自備。
                             <br/>Free to join. Wi-Fi and power are available, food and drinks on your own.</li>
