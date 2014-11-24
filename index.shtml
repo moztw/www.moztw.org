@@ -248,7 +248,7 @@
 <div class="frontcolumn">
   <h2><a href="/space/">摩茲工寮<img src="/images/product-firefox-home.png" alt="" class="promo" style="width: 72px; height: 72px;"></a></h2>
   <p>
-    <a href="/space/">Mozilla Community Space Taipei</a><br>台北的社群空間，提供電力、網路與激發創意的 Mozilla 小物，讓許多的摩茲人在此一起貢獻各種開放專案，歡迎來訪。
+    <a href="/space/" style="font-size: 0.9em;">Mozilla Community Space Taipei</a> 是位於台北的社群空間，提供電力、網路與激發創意的 Mozilla 小物，讓摩茲人在此一起貢獻各種開放專案，歡迎來訪。
   </p>
 </div>
 
