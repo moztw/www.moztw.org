@@ -31,11 +31,11 @@
       <div class="grid-6">
         <h3>場地提供</h3>
         <ul id="eqm">
-          <li style="background-image: url(images/icon_wifi.png)">高速無線網路</li>
+          <li style="background-image: url(images/icon_wifi.png); opacity: 0.5;">高速無線網路（裝設中）</li>
           <li style="background-image: url(images/icon_socket.png)">三孔插座</li>
           <li style="background-image: url(images/icon_projector.png)">投影機</li>
           <li style="background-image: url(images/icon_stereo_set.png)">播音器材</li>
-          <li style="background-image: url(images/icon_drink.png)">飲料無限暢飲</li>
+          <!-- 有沒有人要來裝汽水機？ <li style="background-image: url(images/icon_drink.png)">飲料無限暢飲</li>-->
           <li style="background-image: url(images/icon_open_lover.png)">內建開放熱情</li>
         </ul>
       </div>
@@ -43,8 +43,8 @@
         <h3>地圖</h3>
         <div id="map"></div>
         <p>(or in <a href="http://www.google.com/maps/preview?ll=25.0440747,121.5322192&z=15&t=m&hl=zh-TW&gl=US&mapclient=embed&q=104%E5%8F%B0%E7%81%A3%E5%8F%B0%E5%8C%97%E5%B8%82%E4%B8%AD%E5%B1%B1%E5%8D%80%E5%BE%B7%E6%83%A0%E8%A1%9723%E8%99%9F">Google Maps</a>)</p>
-        <p>地址：100 台北市中正區八德路一段 94 號 3F</p>
-        <p>3F, No. 94, Section 1, Bade Rd, Zhongzheng District, Taipei City 100, Taiwan</p>
+        <p>地址：100 台北市中正區八德路一段 94 號 3F<br>
+        3<sup>rd</sup> Fl., No. 94, Sec. 1, Ba-de Rd., Zhongzheng District, Taipei City 100, Taiwan</p>
       </div>
     </section>
 
