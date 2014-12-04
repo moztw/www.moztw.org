@@ -5,7 +5,7 @@ var connect = require('gulp-connect');
 var livereload = require('gulp-livereload');
 
 gulp.task('ssi', function() {
-  gulp.src('./**/*.shtml')
+  gulp.src(['./**/*.shtml', '!node_modules/**/*.shtml'])
     .pipe(rename({
       extname: '.html'
     }))
@@ -25,7 +25,7 @@ gulp.task('server', function() {
 
 gulp.task('watch', function() {
   livereload.listen();
-  gulp.watch(['**/*.css', '**/*.js', '**/*.shtml'])
+  gulp.watch(['**/*.css', '**/*.js', '**/*.shtml', '!node_modules/*'])
     .on('change', livereload.changed);
   gulp.watch('**/*.shtml', ['ssi'])
 });
