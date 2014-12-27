@@ -15,13 +15,13 @@
         <!-- slider start -->
         <div class="slider key-point-slider">
           <section class="slider-section show" data-background="http://www.mozillabolivia.org/wp-content/uploads/2012/06/promo-beta.jpg">
-            <h3 class="slider-section-title">標題 1</h3>
+            <h3 class="slider-section-title">測試標題 1</h3>
             <div class="slider-section-description">
               <p>asd a dsa sda dsasda sdasd asd asda as dasdas dasd</p>
             </div>
           </section>
           <section class="slider-section" data-background="http://www.mozillabolivia.org/wp-content/uploads/2012/06/promo-affiliates.jpg">
-            <h3 class="slider-section-title">標題 2</h3>
+            <h3 class="slider-section-title">測試標題 2</h3>
             <div class="slider-section-description">
               <p>asd a dsa sda dsasda sdasd asd asda as dasdas dasd</p>
             </div>
