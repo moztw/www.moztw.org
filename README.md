@@ -27,6 +27,10 @@ please fork and checkout as you need.
 
 ## Development
 
+You can do shallow clone to get this repo more quickly.
+
+`git clone https://github.com/moztw/www.moztw.org.git --depth 1`
+
 ### Using Vagrant (Best for new contributors)
 1. Make sure you have `git` available in your computer. If you are not sure, you can go to [Git website](http://git-scm.com/download) to download.
 2. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) and [Vagrant](https://www.vagrantup.com/downloads.html) onto your system.
