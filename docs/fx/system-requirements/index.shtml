@@ -17,10 +17,10 @@
 		<h3>Windows</h3>
 		<h6>作業系統版本</h6>
 		<ul>
-			<li>Windows XP SP2</li>
-			<li>Windows Server 2003 SP1</li>
-			<li>Windows Vista</li>
-			<li>Windows 7</li>
+      <li>Windows XP SP2</li>
+      <li>Windows Server 2003 SP1</li>
+      <li>Windows Vista</li>
+      <li>Windows 7</li>
 			<li>Windows 8</li>
 		</ul>
 		<p>請留意：雖然 32 與 64 位元版本的 Windows Vista 與 Windows 7 皆可執行 Firefox，但我們目前只支援 32 位元版本的 Firefox。</p>
@@ -37,11 +37,11 @@
 		<ul>
 			<li>Firefox 需要以下函式庫以正常執行：
 				<ul>
-					<li>GTK+ - 2.18 或以上版本</li>
-					<li>GLib - 2.22 或以上版本</li>
-					<li>Pango - 1.14 或以上版本</li>
-					<li>X.Org - 1.0 或以上版本（建議使用 1.7 或以上版本）</li>
-					<li>libstdc++ - 4.3 或以上版本</li>
+          <li>GTK+ - 2.18 或以上版本</li>
+          <li>GLib - 2.22 或以上版本</li>
+          <li>Pango - 1.14 或以上版本</li>
+          <li>X.Org - 1.0 或以上版本（建議使用 1.7 或以上版本）</li>
+          <li>libstdc++ - 4.3 或以上版本</li>
 				</ul>
 			</li>
 			<li>我們建議安裝以下函式庫及套件，以取得最佳功能：
@@ -57,9 +57,11 @@
 		<h3>Mac</h3>
 		<h6>作業系統版本</h6>
 		<ul>
-			<li>Mac OS X 10.6</li>
-			<li>Mac OS X 10.7</li>
-			<li>Mac OS X 10.8</li>
+      <li>Mac OS X 10.6</li>
+      <li>Mac OS X 10.7</li>
+      <li>Mac OS X 10.8</li>
+      <li>Mac OS X 10.9</li>
+      <li>Mac OS X 10.10</li>
 		</ul>
 		<h6>建議硬體需求</h6>
 		<ul>
