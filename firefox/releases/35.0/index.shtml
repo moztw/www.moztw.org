@@ -342,14 +342,14 @@ section .appendix {
                   </li>
                   <li>
                     <span class="tag tag-unresolved">尚未修復</span>
-                    <h5>Firefox Hello 中關於 RTL 的<a href="https://bugzilla.mozilla.org/buglist.cgi?resolution=---&status_whiteboard_type=allwordssubstr&query_format=advanced&status_whiteboard=RTL&product=Loop&list_id=11842971">一些問題</a>。</h5>
+                    <h5>Firefox Hello 中關於 RTL 的<a href="https://bugzilla.mozilla.org/buglist.cgi?resolution=---&amp;status_whiteboard_type=allwordssubstr&amp;query_format=advanced&amp;status_whiteboard=RTL&amp;product=Loop&amp;list_id=11842971">一些問題</a>。</h5>
                   </li>
                 </ul>
               </div>
             </section>
 
             <section>
-                <div class="appendix">
+              <div class="appendix">
                 <h2 id="downloadandinstall">下載與安裝</h2>
                   <h3 id="requirements">系統需求</h3>
                   <p>在安裝 Firefox 前請先確定您的電腦是否合乎<a href="http://moztw.org/docs/fx/system-requirements/">系統需求</a>。</p>
