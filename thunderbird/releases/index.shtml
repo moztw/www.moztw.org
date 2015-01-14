@@ -338,7 +338,7 @@ section .appendix {
 				<li>
 					<span class="tag tag-fixed">修正</span>
 					<h5>
-					 安全性問題修復，詳情請見 <a href="https://www.mozilla.org/zh-TW/security/known-vulnerabilities/thunderbird/#thunderbird31.4.0">這裡</a>
+					 安全性問題修復，詳情請見 <a href="https://www.mozilla.org/zh-TW/security/known-vulnerabilities/thunderbird/#thunderbird31.4.0">這裡（英）</a>。
 					</h5>
 				</li>
 			</ul>
