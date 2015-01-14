@@ -342,14 +342,14 @@ section .appendix {
                   </li>
                   <li>
                     <span class="tag tag-unresolved">尚未修復</span>
-                    <h5>Firefox Hello 中關於 RTL 的<a href="https://bugzilla.mozilla.org/buglist.cgi?resolution=---&status_whiteboard_type=allwordssubstr&query_format=advanced&status_whiteboard=RTL&product=Loop&list_id=11842971">一些問題</a>。</h5>
+                    <h5>Firefox Hello 中關於 RTL 的<a href="https://bugzilla.mozilla.org/buglist.cgi?resolution=---&amp;status_whiteboard_type=allwordssubstr&amp;query_format=advanced&amp;status_whiteboard=RTL&amp;product=Loop&amp;list_id=11842971">一些問題</a>。</h5>
                   </li>
                 </ul>
               </div>
             </section>
 
             <section>
-                <div class="appendix">
+              <div class="appendix">
                 <h2 id="downloadandinstall">下載與安裝</h2>
                   <h3 id="requirements">系統需求</h3>
                   <p>在安裝 Firefox 前請先確定您的電腦是否合乎<a href="http://moztw.org/docs/fx/system-requirements/">系統需求</a>。</p>
@@ -368,9 +368,9 @@ section .appendix {
                   <h3 id="extensions">附加元件及佈景主題</h3>
                   <p>您可以由「附加元件管理員」或<a href="http://addons.mozilla.org">附加元件網站</a>取得附加元件及佈景主題。 當 Firefox 升級時，附加元件可能因不相容於新版 Firefox 而被停用，此時則需要原作者進行升級。若您想協助回報升級 Firefox 後功能有問題的附加元件，請<a href="https://addons.mozilla.org/firefox/addon/add-on-compatibility-reporter/">安裝 Add-on Compatibility Reporter</a> 擴充套件 —— 您喜愛的元件作者會相當感激！</p>
 
-                <h2 id="troubleshooting">疑難排解</h2>
+                  <h2 id="troubleshooting">疑難排解</h2>
                   <ul class="spaced">
-					<li>設計不良或不相容的套件將導致瀏覽器發生問題，包含當機或網頁瀏覽速度變慢等等狀況。如果您碰上瀏覽器無法開啟、視窗顯示不正常等等狀況，便可能是擴充套件或佈景主題的問題。這時請參考「<a href="https://support.mozilla.org/zh-TW/kb/troubleshoot-firefox-issues-using-safe-mode">Firefox 輔助說明：安全模式</a>」一文開啟 Firefox 安全模式。在安全模式下，所有附加元件及佈景主題將被停用。請您在安全模式下移除有問題的擴充套件或佈景主題，再正常地啟動瀏覽器。</li>
+                    <li>設計不良或不相容的套件將導致瀏覽器發生問題，包含當機或網頁瀏覽速度變慢等等狀況。如果您碰上瀏覽器無法開啟、視窗顯示不正常等等狀況，便可能是擴充套件或佈景主題的問題。這時請參考「<a href="https://support.mozilla.org/zh-TW/kb/troubleshoot-firefox-issues-using-safe-mode">Firefox 輔助說明：安全模式</a>」一文開啟 Firefox 安全模式。在安全模式下，所有附加元件及佈景主題將被停用。請您在安全模式下移除有問題的擴充套件或佈景主題，再正常地啟動瀏覽器。</li>
                     <li>如果您遇到與書籤、下載、視窗位置、工具列、瀏覽記錄或其他奇怪問題，建議您在回報問題前先建立新的使用者設定檔試試。請參考「<a href="https://support.mozilla.org/zh-TW/kb/profile-manager-create-and-remove-firefox-profiles">Firefox 輔助說明：使用設定檔管理員建立或移除 Firefox 設定檔</a>」一文建立新的使用者設定檔，並將各種設定（書籤、儲存的密碼等）從舊的設定檔中分次轉移到新的設定檔（可透過 <a href="https://support.mozilla.org/zh-TW/kb/firefox-sync-take-your-bookmarks-and-tabs-with-you">Firefox Sync 同步功能</a>進行）。</li>
                   </ul>
                   <h2 id="FAQ">常見問題集</h2>
