@@ -34,31 +34,31 @@
     <div class="key-point-slider-download download-button">
       <ul class="download-list" role="presentation">
         <li class="os_windows">
-          <a class="download-link" href="/en-US/products/download.html?product=firefox-stub&amp;os=win&amp;lang=en-US" data-direct-link="https://download.mozilla.org/?product=firefox-stub&amp;os=win&amp;lang=en-US">
+          <a class="download-link" href="/firefox/download/latest-win.html" data-direct-link="https://download.mozilla.org/?product=firefox-stub&amp;os=win&amp;lang=en-US">
             <span class="download-content">
               <strong class="download-title">Firefox</strong>
-              <span class="download-subtitle">Free Download</span>
-              <span class="download-lang">English (US)</span>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">Chinese (Taiwan)</span>
               <span class="download-platform">Windows</span>
             </span>
           </a>
         </li>
         <li class="os_linux">
-          <a class="download-link" href="/en-US/products/download.html?product=firefox-22.0&amp;os=linux&amp;lang=en-US" data-direct-link="https://download.mozilla.org/?product=firefox-22.0&amp;os=linux&amp;lang=en-US">
+          <a class="download-link" href="/firefox/download/latest-linux.html" data-direct-link="https://download.mozilla.org/?product=firefox-22.0&amp;os=linux&amp;lang=en-US">
             <span class="download-content">
               <strong class="download-title">Firefox</strong>
-              <span class="download-subtitle">Free Download</span>
-              <span class="download-lang">English (US)</span>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">Chinese (Taiwan)</span>
               <span class="download-platform">Linux</span>
             </span>
           </a>
         </li>
         <li class="os_osx">
-          <a class="download-link" href="/en-US/products/download.html?product=firefox-22.0&amp;os=osx&amp;lang=en-US" data-direct-link="https://download.mozilla.org/?product=firefox-22.0&amp;os=osx&amp;lang=en-US">
+          <a class="download-link" href="/firefox/download/latest-osx.html" data-direct-link="https://download.mozilla.org/?product=firefox-22.0&amp;os=osx&amp;lang=en-US">
             <span class="download-content">
               <strong class="download-title">Firefox</strong>
-              <span class="download-subtitle">Free Download</span>
-              <span class="download-lang">English (US)</span>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">Chinese (Taiwan)</span>
               <span class="download-platform">Mac OS X</span>
             </span>
           </a>
