@@ -43,7 +43,9 @@
   }
   nav.menu-bar ul li a {
     display: inline-block;
-    border-left: 1px dotted #d6d6d6;
+    @media (max-width: 607px){
+      border-left: 1px dotted #d6d6d6;
+    }
     padding: 6px 40px;
   }
   nav.menu-bar ul li a span {
@@ -120,6 +122,12 @@
   #highperformance .column1 {
     width: 245px;
   }
+  .big{
+    display:block;
+  }
+  .small{
+    display:none;
+  }
   @media (max-width: 760px){
     #video-player-runfield {
       width: auto;
@@ -130,18 +138,35 @@
     #audio, canvas, video{
       max-width: 100%;
     }
-
-
   }
-  @media (max-width: 433px){
+  @media (max-width: 613px){
+    .big{
+      display:none;
+    }
+    .small{
+      display:block;
+    }
+    .function-menu-btn{
+      color:black;
+    }
+    .function-menu li{
+      font-size:1.3em;
+      width:100%;
+      padding:3% 5%;
+      position:relative;
+      left:-10%;
+    }
+    .function-menu > ul > li > a{
+      border-left-color:white;
+    }
     .feature img {
       float: none;
+      margin-left: 0;
       width: 100%;
     }
-  }
-    @media (max-width: 320px){
     .column1, .column2, .column3{
       float: none;
+      width: 100%;
     }
   }
 </style>
@@ -160,7 +185,29 @@
   </div>
 </section>
 
-<nav class="menu-bar container block">
+<nav class="menu-bar container block small">
+  <div class="module">
+    <h3><a class="function-menu-btn" href="javascript: SmallMenuBar()">Firefox 的特色　<i class="icon-reorder"></i></a></h3>
+    <ul id="function-menu" class="function-menu hide">
+      <li><a href="#madeeasy">瀏覽變得簡單</a></li>
+      <li><a href="#highperformance">更佳效能</a></li>
+      <li><a href="#advancedsecurity">進階安全性</a></li>
+      <li><a href="#powerfulpersonalization">強大的個人化</a></li>
+      <li><a href="#cuttingedge">尖端技術</a></li>
+      <li><a href="#universalaccess">普及近用</a></li>
+      <li><a href="#resources">社群資源</a></li>
+    </ul>
+  </div>
+  <script content="text/javascript" language="javascript">
+    function SmallMenuBar()
+  {
+    var menu = document.getElementById("function-menu");
+    menu.className = menu.className === "function-menu hide"?"function-menu":"function-menu hide";
+  }
+  </script>
+</nav>
+
+<nav class="menu-bar container block big">
   <ul class="module">
     <li>
       <a href="#madeeasy">
@@ -810,5 +857,4 @@
     </div>
   </section>
 </div>
-
-<!--#include virtual="/sandstone/footer.shtml" -->
+  <!--#include virtual="/sandstone/footer.shtml" -->
