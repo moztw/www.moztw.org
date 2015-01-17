@@ -152,9 +152,9 @@
     .function-menu li{
       font-size:1.3em;
       width:100%;
-      padding:3% 5%;
+      padding:5% 5%;
       position:relative;
-      left:-10%;
+      left:-15%;
     }
     .function-menu > ul > li > a{
       border-left-color:white;
@@ -186,70 +186,78 @@
 </section>
 
 <nav class="menu-bar container block small">
-  <div class="module">
-    <h3><a class="function-menu-btn" href="javascript: SmallMenuBar()">Firefox 的特色　<i class="icon-reorder"></i></a></h3>
-    <ul id="function-menu" class="function-menu hide">
-      <li><a href="#madeeasy">瀏覽變得簡單</a></li>
-      <li><a href="#highperformance">更佳效能</a></li>
-      <li><a href="#advancedsecurity">進階安全性</a></li>
-      <li><a href="#powerfulpersonalization">強大的個人化</a></li>
-      <li><a href="#cuttingedge">尖端技術</a></li>
-      <li><a href="#universalaccess">普及近用</a></li>
-      <li><a href="#resources">社群資源</a></li>
-    </ul>
-  </div>
+  <section id="madeeasy" class="container block">
+    <div class="module">
+      <h3>
+        <a class="function-menu-btn" href="javascript: SmallMenuBar()">
+          Firefox 的特色　<i class="icon-reorder"></i>
+        </a>
+      </h3>
+      <ul id="function-menu" class="function-menu hide">
+        <li><a href="#madeeasy">瀏覽變得簡單</a></li>
+        <li><a href="#highperformance">更佳效能</a></li>
+        <li><a href="#advancedsecurity">進階安全性</a></li>
+        <li><a href="#powerfulpersonalization">強大的個人化</a></li>
+        <li><a href="#cuttingedge">尖端技術</a></li>
+        <li><a href="#universalaccess">普及近用</a></li>
+        <li><a href="#resources">社群資源</a></li>
+      </ul>
+    </div>
+  </section>
   <script content="text/javascript" language="javascript">
-    function SmallMenuBar()
-  {
-    var menu = document.getElementById("function-menu");
-    menu.className = menu.className === "function-menu hide"?"function-menu":"function-menu hide";
-  }
-  </script>
+  function SmallMenuBar()
+{
+  var menu = document.getElementById("function-menu");
+  menu.className = menu.className === "function-menu hide"?"function-menu":"function-menu hide";
+}
+</script>
 </nav>
 
 <nav class="menu-bar container block big">
-  <ul class="module">
-    <li>
-      <a href="#madeeasy">
-        瀏覽<span>變得簡單</span>
-      </a>
-    </li>
+  <section id="madeeasy" class="container block">
+    <ul class="module">
+      <li>
+        <a href="#madeeasy">
+          瀏覽<span>變得簡單</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="#highperformance">
-        更佳<span>效能</span>
-      </a>
-    </li>
+      <li>
+        <a href="#highperformance">
+          更佳<span>效能</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="#advancedsecurity">
-        進階<span>安全性</span>
-      </a>
-    </li>
+      <li>
+        <a href="#advancedsecurity">
+          進階<span>安全性</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="#powerfulpersonalization">
-        強大的<span>個人化</span>
-      </a>
-    </li>
+      <li>
+        <a href="#powerfulpersonalization">
+          強大的<span>個人化</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="#cuttingedge">
-        尖端<span>技術</span>
-      </a>
-    </li>
+      <li>
+        <a href="#cuttingedge">
+          尖端<span>技術</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="#universalaccess">
-        普及<span>近用</span>
-      </a>
-    </li>
-    <li>
-      <a href="#resources">
-        社群<span>資源</span>
-      </a>
-    </li>
-  </ul>
+      <li>
+        <a href="#universalaccess">
+          普及<span>近用</span>
+        </a>
+      </li>
+      <li>
+        <a href="#resources">
+          社群<span>資源</span>
+        </a>
+      </li>
+    </ul>
+  </section>
 </nav>
 
 <div class="content container block">
