@@ -186,7 +186,7 @@
 </section>
 
 <nav class="menu-bar container block small">
-  <section id="madeeasy" class="container block">
+  <div class="container block">
     <div class="module">
       <h3>
         <a class="function-menu-btn" href="javascript: SmallMenuBar()">
@@ -203,18 +203,11 @@
         <li><a href="#resources">社群資源</a></li>
       </ul>
     </div>
-  </section>
-  <script content="text/javascript" language="javascript">
-  function SmallMenuBar()
-{
-  var menu = document.getElementById("function-menu");
-  menu.className = menu.className === "function-menu hide"?"function-menu":"function-menu hide";
-}
-</script>
+  </div>
 </nav>
 
 <nav class="menu-bar container block big">
-  <section id="madeeasy" class="container block">
+  <div class="container block">
     <ul class="module">
       <li>
         <a href="#madeeasy">
@@ -257,7 +250,7 @@
         </a>
       </li>
     </ul>
-  </section>
+  </div>
 </nav>
 
 <div class="content container block">
@@ -865,4 +858,13 @@
     </div>
   </section>
 </div>
-  <!--#include virtual="/sandstone/footer.shtml" -->
+
+<!--#include virtual="/sandstone/footer.shtml" -->
+
+<script content="text/javascript" language="javascript">
+function SmallMenuBar()
+{
+  var menu = document.getElementById("function-menu");
+  menu.className = menu.className === "function-menu hide"?"function-menu":"function-menu hide";
+}
+</script>
