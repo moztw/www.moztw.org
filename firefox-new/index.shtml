@@ -43,7 +43,9 @@
   }
   nav.menu-bar ul li a {
     display: inline-block;
-    border-left: 1px dotted #d6d6d6;
+    @media (max-width: 607px){
+      border-left: 1px dotted #d6d6d6;
+    }
     padding: 6px 40px;
   }
   nav.menu-bar ul li a span {
@@ -120,6 +122,12 @@
   #highperformance .column1 {
     width: 245px;
   }
+  .big{
+    display:block;
+  }
+  .small{
+    display:none;
+  }
   @media (max-width: 760px){
     #video-player-runfield {
       width: auto;
@@ -130,18 +138,35 @@
     #audio, canvas, video{
       max-width: 100%;
     }
-
-
   }
-  @media (max-width: 433px){
+  @media (max-width: 613px){
+    .big{
+      display:none;
+    }
+    .small{
+      display:block;
+    }
+    .function-menu-btn{
+      color:black;
+    }
+    .function-menu li{
+      font-size:1.3em;
+      width:100%;
+      padding:5% 5%;
+      position:relative;
+      left:-15%;
+    }
+    .function-menu > ul > li > a{
+      border-left-color:white;
+    }
     .feature img {
       float: none;
+      margin-left: 0;
       width: 100%;
     }
-  }
-    @media (max-width: 320px){
     .column1, .column2, .column3{
       float: none;
+      width: 100%;
     }
   }
 </style>
@@ -160,49 +185,72 @@
   </div>
 </section>
 
-<nav class="menu-bar container block">
-  <ul class="module">
-    <li>
-      <a href="#madeeasy">
-        瀏覽<span>變得簡單</span>
-      </a>
-    </li>
+<nav class="menu-bar container block small">
+  <div class="container block">
+    <div class="module">
+      <h3>
+        <a class="function-menu-btn" href="javascript: SmallMenuBar()">
+          Firefox 的特色　<i class="icon-reorder"></i>
+        </a>
+      </h3>
+      <ul id="function-menu" class="function-menu hide">
+        <li><a href="#madeeasy">瀏覽變得簡單</a></li>
+        <li><a href="#highperformance">更佳效能</a></li>
+        <li><a href="#advancedsecurity">進階安全性</a></li>
+        <li><a href="#powerfulpersonalization">強大的個人化</a></li>
+        <li><a href="#cuttingedge">尖端技術</a></li>
+        <li><a href="#universalaccess">普及近用</a></li>
+        <li><a href="#resources">社群資源</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <li>
-      <a href="#highperformance">
-        更佳<span>效能</span>
-      </a>
-    </li>
+<nav class="menu-bar container block big">
+  <div class="container block">
+    <ul class="module">
+      <li>
+        <a href="#madeeasy">
+          瀏覽<span>變得簡單</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="#advancedsecurity">
-        進階<span>安全性</span>
-      </a>
-    </li>
+      <li>
+        <a href="#highperformance">
+          更佳<span>效能</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="#powerfulpersonalization">
-        強大的<span>個人化</span>
-      </a>
-    </li>
+      <li>
+        <a href="#advancedsecurity">
+          進階<span>安全性</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="#cuttingedge">
-        尖端<span>技術</span>
-      </a>
-    </li>
+      <li>
+        <a href="#powerfulpersonalization">
+          強大的<span>個人化</span>
+        </a>
+      </li>
 
-    <li>
-      <a href="#universalaccess">
-        普及<span>近用</span>
-      </a>
-    </li>
-    <li>
-      <a href="#resources">
-        社群<span>資源</span>
-      </a>
-    </li>
-  </ul>
+      <li>
+        <a href="#cuttingedge">
+          尖端<span>技術</span>
+        </a>
+      </li>
+
+      <li>
+        <a href="#universalaccess">
+          普及<span>近用</span>
+        </a>
+      </li>
+      <li>
+        <a href="#resources">
+          社群<span>資源</span>
+        </a>
+      </li>
+    </ul>
+  </div>
 </nav>
 
 <div class="content container block">
@@ -812,3 +860,11 @@
 </div>
 
 <!--#include virtual="/sandstone/footer.shtml" -->
+
+<script content="text/javascript" language="javascript">
+function SmallMenuBar()
+{
+  var menu = document.getElementById("function-menu");
+  menu.className = menu.className === "function-menu hide"?"function-menu":"function-menu hide";
+}
+</script>
