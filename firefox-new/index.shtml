@@ -173,6 +173,9 @@
       float: none;
       width: 100%;
     }
+    ul.compact,ul.compact ul {
+     padding-left: 5px;
+    }
   }
 </style>
 
@@ -850,15 +853,33 @@
 
       <h3>社群<span>資源</span></h3>
       <ul class="compact">
-        <li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'inGoing', 'Forum: Firefox', '/firefox');">Firefox 中文討論區</a></li>
-        <li><a href="http://www.youtube.com/user/mozillatw" onClick="ga('send', 'event', 'Outgoing', 'Youtube', 'mozillatw');">Youtube Firefox 影片頻道</a></li>
-        <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
-        <li><a href="http://wiki.moztw.org/index.php?title=FireAnything" onClick="ga('send', 'event', 'inGoing', 'Wiki: FireAnything', '/firefox');">某瀏覽器功能，Firefox 有沒有？</a></li>
-        <li><a href="/dl/search">新增中文搜尋引擎</a></li>
         <li>
-          <a href="https://affiliates.mozilla.org/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'affiliates-mozilla');">取得 Blog 推廣貼紙</a></li>
+         <h4>技術支援與套件下載</h4>
+         <ul>
+          <li><a href="https://www.mozilla.org/zh-TW/plugincheck/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'plugincheck');">外掛程式更新（檢查 Flash、多媒體播放支援）</a></li>
+          <li><a href="https://addons.mozilla.org/zh-TW/firefox/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'AMO-fx');">取得套件及佈景主題</a></li>
+          <li><a href="https://support.mozilla.org/zh-TW/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'SUMO');">Mozilla 技術支援中心</a></li>
+         </ul>
+        </li>
         <li>
-          <a href="https://www.facebook.com/Firefox/app_373528039377278" onClick="ga('send', 'event', 'Outgoing', 'Facebook', 'Firefox-affiliates');">臉書貼紙推廣 Firefox</a></li>
+         <h4>中文社群資源</h4>
+         <ul>
+          <li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'inGoing', 'Forum: Firefox', '/firefox');">Firefox 中文討論區</a></li>
+          <li><a href="http://www.youtube.com/user/mozillatw" onClick="ga('send', 'event', 'Outgoing', 'Youtube', 'mozillatw');">Youtube Firefox 影片頻道</a></li>
+          <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
+          <li><a href="http://wiki.moztw.org/index.php?title=FireAnything" onClick="ga('send', 'event', 'inGoing', 'Wiki: FireAnything', '/firefox');">某瀏覽器功能，Firefox 有沒有？</a></li>
+          <li><a href="/dl/search">新增中文搜尋引擎</a></li>
+         </ul>
+        </li>
+        <li>
+         <h4>推廣 Firefox</h4>
+         <ul>
+          <li>
+           <a href="https://affiliates.mozilla.org/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'affiliates-mozilla');">取得 Blog 推廣貼紙</a></li>
+          <li>
+           <a href="https://www.facebook.com/Firefox/app_373528039377278" onClick="ga('send', 'event', 'Outgoing', 'Facebook', 'Firefox-affiliates');">臉書貼紙推廣 Firefox</a></li>
+         </ul>
+        </li>
       </ul>
     </div>
   </section>
