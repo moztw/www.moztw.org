@@ -30,48 +30,8 @@
         <!-- slider end -->
       </div>
     </div>
-
-    <div class="key-point-slider-download download-button">
-      <ul class="download-list" role="presentation">
-        <li class="os_windows">
-          <a class="download-link" href="/firefox/download/latest-win.html" data-direct-link="https://download.mozilla.org/?product=firefox-stub&amp;os=win&amp;lang=en-US">
-            <span class="download-content">
-              <strong class="download-title">Firefox</strong>
-              <span class="download-subtitle">免費下載</span>
-              <span class="download-lang">Chinese (Taiwan)</span>
-              <span class="download-platform">Windows</span>
-            </span>
-          </a>
-        </li>
-        <li class="os_linux">
-          <a class="download-link" href="/firefox/download/latest-linux.html" data-direct-link="https://download.mozilla.org/?product=firefox-22.0&amp;os=linux&amp;lang=en-US">
-            <span class="download-content">
-              <strong class="download-title">Firefox</strong>
-              <span class="download-subtitle">免費下載</span>
-              <span class="download-lang">Chinese (Taiwan)</span>
-              <span class="download-platform">Linux</span>
-            </span>
-          </a>
-        </li>
-        <li class="os_osx">
-          <a class="download-link" href="/firefox/download/latest-osx.html" data-direct-link="https://download.mozilla.org/?product=firefox-22.0&amp;os=osx&amp;lang=en-US">
-            <span class="download-content">
-              <strong class="download-title">Firefox</strong>
-              <span class="download-subtitle">免費下載</span>
-              <span class="download-lang">Chinese (Taiwan)</span>
-              <span class="download-platform">Mac OS X</span>
-            </span>
-          </a>
-        </li>
-        <li class="os_android">
-          <a class="download-link" href="https://play.google.com/store/apps/details?id=org.mozilla.firefox">
-            <span class="download-content">
-              <strong class="download-title"><span>Firefox</span> for Android</strong>
-              <span class="download-subtitle">Get it free on Google Play</span>
-            </span>
-          </a>
-        </li>
-      </ul>
+    <div class="key-point-slider-download">
+      <!--#include virtual="/inc/dlff-new.html" -->
     </div>
   </section>
 
