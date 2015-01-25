@@ -152,6 +152,7 @@
       display:block;
     }
     .function-menu-btn{
+      font-size:27px;
       color:black;
     }
     .function-menu li{
@@ -198,7 +199,7 @@
     <div class="module">
       <h3>
         <a class="function-menu-btn" href="javascript: SmallMenuBar()">
-          Firefox 的特色　<i class="icon-reorder"></i>
+          Firefox 的特色 <i class="icon-reorder"></i>
         </a>
       </h3>
       <ul id="function-menu" class="function-menu hide">
