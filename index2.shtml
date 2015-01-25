@@ -34,31 +34,31 @@
     <div class="key-point-slider-download download-button">
       <ul class="download-list" role="presentation">
         <li class="os_windows">
-          <a class="download-link" href="/en-US/products/download.html?product=firefox-stub&amp;os=win&amp;lang=en-US" data-direct-link="https://download.mozilla.org/?product=firefox-stub&amp;os=win&amp;lang=en-US">
+          <a class="download-link" href="/firefox/download/latest-win.html" data-direct-link="https://download.mozilla.org/?product=firefox-stub&amp;os=win&amp;lang=en-US">
             <span class="download-content">
               <strong class="download-title">Firefox</strong>
-              <span class="download-subtitle">Free Download</span>
-              <span class="download-lang">English (US)</span>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">Chinese (Taiwan)</span>
               <span class="download-platform">Windows</span>
             </span>
           </a>
         </li>
         <li class="os_linux">
-          <a class="download-link" href="/en-US/products/download.html?product=firefox-22.0&amp;os=linux&amp;lang=en-US" data-direct-link="https://download.mozilla.org/?product=firefox-22.0&amp;os=linux&amp;lang=en-US">
+          <a class="download-link" href="/firefox/download/latest-linux.html" data-direct-link="https://download.mozilla.org/?product=firefox-22.0&amp;os=linux&amp;lang=en-US">
             <span class="download-content">
               <strong class="download-title">Firefox</strong>
-              <span class="download-subtitle">Free Download</span>
-              <span class="download-lang">English (US)</span>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">Chinese (Taiwan)</span>
               <span class="download-platform">Linux</span>
             </span>
           </a>
         </li>
         <li class="os_osx">
-          <a class="download-link" href="/en-US/products/download.html?product=firefox-22.0&amp;os=osx&amp;lang=en-US" data-direct-link="https://download.mozilla.org/?product=firefox-22.0&amp;os=osx&amp;lang=en-US">
+          <a class="download-link" href="/firefox/download/latest-osx.html" data-direct-link="https://download.mozilla.org/?product=firefox-22.0&amp;os=osx&amp;lang=en-US">
             <span class="download-content">
               <strong class="download-title">Firefox</strong>
-              <span class="download-subtitle">Free Download</span>
-              <span class="download-lang">English (US)</span>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">Chinese (Taiwan)</span>
               <span class="download-platform">Mac OS X</span>
             </span>
           </a>
@@ -142,6 +142,17 @@
       </div>
       <div class="grid-4">
         <section class="module">
+		  <h3>快速捷徑</h3>
+			<ul class="news">
+			  <li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 中文討論區</a></li>
+			  <li><a href="/events/moztw-lab/">MozTW Lab 定期聚會</a></li>
+			  <li><a href="https://webmaker.org/" onClick="ga('send', 'event', 'Outgoing', 'Webmaker', 'frontpage');">Mozilla Webmaker</a></li>
+			  <li><a href="http://mozlinks-zh.blogspot.com/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla Links', 'frontpage');">Mozilla Links 正體中文版</a></li>
+			  <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 未來發行版本</a></li>
+			  <li><a href="http://wiki.moztw.org/">共筆系統</a></li>
+			  <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
+			</ul>
+
         </section>
       </div>
     </div>

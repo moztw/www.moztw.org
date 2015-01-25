@@ -17,30 +17,30 @@
     <script src="js/picwall.js"></script>
     <script src="js/FeedEk.js"></script>
     <script src="js/main.js"></script>
-    
+
 </head>
     <body>
         <div id="outer-wrapper">
             <div id="wrapper">
-                
+
                 <!--#include virtual="/sandstone/header.shtml" -->
-                
+
                 <hgroup id="title_area" class="container block">
                     <h1 id="site-title" class="large">Foxmosa</h1>
                     <h2 id="site-description" class="open-sans-light l10n" data-l10n="foxmosa-name">狐耳摩莎</h2>
                 </hgroup>
-                
+
                 <div id="content-area">
-                    
+
                     <section id="foxmosa-info" class="container block row">
                         <h2 class="block-title hide l10n" data-l10n="foxmosa-info-h2">小莎資料</h2>
-                        
+
                         <canvas id="foxmosa-run" width="680" height="200"></canvas>
-                        
+
                         <div id="earth">
                             <img src="images/a.svg" alt="Spinning Earth" />
                         </div>
-                        
+
                         <ul id="foxmosa-profile" class="left">
                             <li class="l10n" data-l10n="foxmosa-profile-name">暱稱：小莎、莎莎</li>
                             <li class="l10n" data-l10n="foxmosa-profile-sex">性別：女</li>
@@ -56,10 +56,10 @@
                                 </ol>
                             </li>
                         </ul>
-                        
+
                         <div id="foxmosa-pictures"></div>
                     </section>
-                    
+
                     <section class="container block">
                         <div id="foxmosa-pairs" class="module whitebox">
                             <header>
@@ -70,7 +70,7 @@
                             <a href="http://moztw.org/foxmosa/game/pairs/" class="button playthegame">Play</a>
                         </div>
                     </section>
-                    
+
                     <section class="container block">
                         <div id="foxmosa-social" class="module whitebox">
                             <header>
@@ -83,18 +83,31 @@
                             </ul>
                         </div>
                     </section>
-                    
+
                     <section id="foxmosa-gallery" class="row">
                         <h2 class="block-title hide">Gallery</h2>
                     </section>
-                    
+
+                    <section class="container block">
+                      <div id="foxmosa-social" class="module whitebox">
+                        <header>
+                          <h2 class="block-title">想在更多地方看到小莎嗎？</h2>
+                          <p>小莎也有 LINE 和 Telegram 的貼圖唷！快找朋友來和小莎一起玩吧！</p>
+                        </header>
+                        <ul>
+                          <li class="telegram"><a class="button" href="/FoxmosaStickers.zip">下載 Telegram 貼圖</a>
+                          <li class="line"><a class="button" href="https://store.line.me/stickershop/product/1005599/zh-Hant">前往 Line Store</a>
+                        </ul>
+                      </div>
+                    </section>
+
                     <section id="foxmosa-join" class="block container row whitebox">
                         <h2 class="block-title hide l10n" data-l10n="foxmosa-join-h2">如何加入呢？</h2>
-                        
+
                         <div>
                             <h3 class="block-title l10n" data-l10n="foxmosa-license">授權</h3>
                             <p class="l10n" data-l10n="foxmosa-license-cc">Foxmosa 以創用 <b>CC: by-nc-sa 3.0 tw 姓名標示-非商業性-相同方式分享</b> 公開授權，你可以自由以她為主題進行創作，但是：</p>
-                            
+
                             <ol>
                                 <li class="l10n" data-l10n="foxmosa-license-1">你必須在作品的任一處標示 「moztw.org」 網址</li>
                                 <li class="l10n" data-l10n="foxmosa-license-2">你的作品必須以完全相同的授權方式，再釋出供他人使用</li>
@@ -109,7 +122,7 @@
                             <p class="l10n" data-l10n="foxmosa-painter-content">如果有興趣加入 MozTW 社群的志工行列，以繪圖方式來協助 MozTW 進行各種推廣 Mozilla 和 Firefox 的各種計畫（網站、海報、小遊戲......等），請至以下網址填表，並勾選「美術設計」項目，我們會盡速以 email 與您聯繫：<a href="http://bit.ly/joinmoztw">http://bit.ly/joinmoztw</a></p>
                         </div>
                     </section>
-                        
+
                 </div>
-                
+
 <!--#include virtual="/sandstone/footer.shtml" -->
