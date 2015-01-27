@@ -259,10 +259,6 @@ section .appendix {
                         <h5>改善對動態樣式變更的處理，以增進反應速度。</h5>
                       </li>
                       <li>
-                        <span class="tag tag-new">全新功能</span>
-                        <h5>實作 HTTP Public <a href="https://blog.mozilla.org/security/2014/09/02/public-key-pinning/">Key Pinning Extension</a>，為加密連線提供更好的認証。</h5>
-                      </li>
-                      <li>
                         <span class="tag tag-html5">HTML5</span>
                         <h5>支援 CSS Font Loading API。</h5>
                       </li>
