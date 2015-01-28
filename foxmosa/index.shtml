@@ -66,7 +66,7 @@
                                 <h2 class="block-title">BrowserPairs</h2>
                             </header>
                             <a href="http://moztw.org/foxmosa/game/pairs/" class="pairslogo">BrowserPairs</a>
-                            <a href="https://github.com/moztw/browser-pairs" class="button github">Fork me on Github</a>
+                            <a href="https://github.com/moztw/browser-pairs" class="button github" onclick="ga('send', 'event', 'Outgoing', 'Github-BrowserPairs', 'foxmosa');">Fork me on Github</a>
                             <a href="http://moztw.org/foxmosa/game/pairs/" class="button playthegame">Play</a>
                         </div>
                     </section>
@@ -77,9 +77,9 @@
                                 <h2 class="block-title">SocialNetworks</h2>
                             </header>
                             <ul>
-                                <li class="plurk"><a class="button" href="http://www.plurk.com/foxmosa">Plurk</a>
-                                <li class="facebook"><a class="button" href="https://zh-tw.facebook.com/Foxmosa">Facebook</a>
-                                <li class="twitter"><a class="button" href="https://twitter.com/Foxmosa">Twitter</a>
+                                <li class="plurk"><a class="button" href="http://www.plurk.com/foxmosa" onclick="ga('send', 'event', 'Outgoing', 'Plurk', 'foxmosa');">Plurk</a>
+                                <li class="facebook"><a class="button" href="https://zh-tw.facebook.com/Foxmosa" onclick="ga('send', 'event', 'Outgoing', 'Facebook', 'foxmosa');">Facebook</a>
+                                <li class="twitter"><a class="button" href="https://twitter.com/Foxmosa" onclick="ga('send', 'event', 'Outgoing', 'Twitter', 'foxmosa');">Twitter</a>
                             </ul>
                         </div>
                     </section>
@@ -96,7 +96,7 @@
                         </header>
                         <ul>
                           <li class="telegram"><a class="button" href="/FoxmosaStickers.zip">下載 Telegram 貼圖</a>
-                          <li class="line"><a class="button" href="https://store.line.me/stickershop/product/1005599/zh-Hant">前往 Line Store</a>
+                          <li class="line"><a class="button" href="https://store.line.me/stickershop/product/1005599/zh-Hant" onclick="ga('send', 'event', 'Outgoing', 'LineStore', 'foxmosa');">前往 Line Store</a>
                         </ul>
                       </div>
                     </section>
@@ -119,7 +119,7 @@
                         </div>
                         <div>
                             <h3 class="block-title l10n" data-l10n="foxmosa-painter-h3">加入 Foxmosa 繪師行列</h3>
-                            <p class="l10n" data-l10n="foxmosa-painter-content">如果有興趣加入 MozTW 社群的志工行列，以繪圖方式來協助 MozTW 進行各種推廣 Mozilla 和 Firefox 的各種計畫（網站、海報、小遊戲......等），請至以下網址填表，並勾選「美術設計」項目，我們會盡速以 email 與您聯繫：<a href="http://bit.ly/joinmoztw">http://bit.ly/joinmoztw</a></p>
+                            <p class="l10n" data-l10n="foxmosa-painter-content">如果有興趣加入 MozTW 社群的志工行列，以繪圖方式來協助 MozTW 進行各種推廣 Mozilla 和 Firefox 的各種計畫（網站、海報、小遊戲......等），請至以下網址填表，並勾選「美術設計」項目，我們會盡速以 email 與您聯繫：<a href="http://bit.ly/joinmoztw" onclick="ga('send', 'event', 'Outgoing', 'GoogleDoc-JoinMozTW', 'foxmosa');">http://bit.ly/joinmoztw</a></p>
                         </div>
                     </section>
 
