@@ -77,9 +77,9 @@
                                 <h2 class="block-title">SocialNetworks</h2>
                             </header>
                             <ul>
-                                <li class="plurk"><a class="button" href="http://www.plurk.com/foxmosa" onclick="ga('send', 'event', 'Outgoing', 'Plurk', 'foxmosa');">Plurk</a>
-                                <li class="facebook"><a class="button" href="https://zh-tw.facebook.com/Foxmosa" onclick="ga('send', 'event', 'Outgoing', 'Facebook', 'foxmosa');">Facebook</a>
-                                <li class="twitter"><a class="button" href="https://twitter.com/Foxmosa" onclick="ga('send', 'event', 'Outgoing', 'Twitter', 'foxmosa');">Twitter</a>
+                                <li class="plurk"><a class="button" href="http://www.plurk.com/foxmosa" onclick="ga('send', 'event', 'Outgoing', 'Plurk-Foxmosa', 'foxmosa');">Plurk</a>
+                                <li class="facebook"><a class="button" href="https://zh-tw.facebook.com/Foxmosa" onclick="ga('send', 'event', 'Outgoing', 'Facebook-Foxmosa', 'foxmosa');">Facebook</a>
+                                <li class="twitter"><a class="button" href="https://twitter.com/Foxmosa" onclick="ga('send', 'event', 'Outgoing', 'Twitter-Foxmosa', 'foxmosa');">Twitter</a>
                             </ul>
                         </div>
                     </section>
@@ -96,7 +96,7 @@
                         </header>
                         <ul>
                           <li class="telegram"><a class="button" href="/FoxmosaStickers.zip">下載 Telegram 貼圖</a>
-                          <li class="line"><a class="button" href="https://store.line.me/stickershop/product/1005599/zh-Hant" onclick="ga('send', 'event', 'Outgoing', 'LineStore', 'foxmosa');">前往 Line Store</a>
+                          <li class="line"><a class="button" href="https://store.line.me/stickershop/product/1005599/zh-Hant" onclick="ga('send', 'event', 'Outgoing', 'LineStore-Foxmosa', 'foxmosa');">前往 Line Store</a>
                         </ul>
                       </div>
                     </section>
