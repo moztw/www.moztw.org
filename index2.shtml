@@ -1,5 +1,6 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
   <title>Sandstone</title>
+  <style>@media screen and (max-width: 400px){.key-point-slider-download{display:none;}}</style>
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
