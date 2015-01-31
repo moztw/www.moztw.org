@@ -122,6 +122,9 @@
   #highperformance .column1 {
     width: 245px;
   }
+  ul.compact li{
+    list-style-type:none;
+  }
   .big{
     display:block;
   }
