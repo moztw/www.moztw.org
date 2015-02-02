@@ -92,10 +92,10 @@
                 <br/>(In case that venues vary at times, follow up at Twitter in advance :P)</p>
             <ul class="nav">
                 <li class="nv lb sel" id="taipei_lab_nav">
-                    <a onclick="toggleLabPages($(this).parent().attr('id'))">台北 Taipei</a>
+                    <a href="#taipei">台北 Taipei</a>
                 </li>
                 <li class="nv rb" id="hsinchu_lab_nav">
-                    <a onclick="toggleLabPages($(this).parent().attr('id'))">新竹 Hsinchu</a>
+                    <a href="#hsinchu">新竹 Hsinchu</a>
                 </li>
                 <!-- add more places here, last button must have class 'rb' -->
             </ul>
