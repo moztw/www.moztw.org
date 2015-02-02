@@ -48,7 +48,7 @@ function toggleLabPages(sel) {
         makeMaps(lab_locs[place_id+'_lab']);
 }
 
-function change(){
+function locHashChange(){
   var loco = location.hash.slice(1);
   switch(loco) {
     case "taipei":
@@ -61,8 +61,8 @@ function change(){
 }
 
 $(document).ready(function() {
-  change();
-  $(window).on('hashchange',change);
+  locHashChange();
+  $(window).on('hashchange', locHashChange);
 });
 
 // photos
