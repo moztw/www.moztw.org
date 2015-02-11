@@ -1,14 +1,14 @@
 var lab_locs = {
     "taipei_lab": {
-        "oid": "map_taipei", 
-        "place": "摩茲工寮 Mozilla Community Space Taipei", 
+        "oid": "map_taipei",
+        "place": "摩茲工寮 Mozilla Community Space Taipei",
         "lat": 25.044154,
         "lng": 121.532212
-    }, 
+    },
     "hsinchu_lab": {
-        "oid": "map_hsinchu", 
-        "place": "綠蓋茶館新竹誠品站前店 LATTEA Hsinchi eslite", 
-        "lat": 24.802893, 
+        "oid": "map_hsinchu",
+        "place": "綠蓋茶館新竹誠品站前店 LATTEA Hsinchi eslite",
+        "lat": 24.802893,
         "lng": 120.970515
     }
 };
@@ -32,7 +32,7 @@ function makeMaps(loc_data) {
     map.addLayer(cloudmade).setView(new L.LatLng(lat,lng), 16);
     var marker = new L.Marker(new L.LatLng(lat,lng));
     map.addLayer(marker);
-    marker.bindPopup(place).openPopup();    
+    marker.bindPopup(place).openPopup();
 }
 
 function toggleLabPages(sel) {
@@ -48,7 +48,22 @@ function toggleLabPages(sel) {
         makeMaps(lab_locs[place_id+'_lab']);
 }
 
-makeMaps(lab_locs["taipei_lab"]);
+function locHashChange(){
+  var loco = location.hash.slice(1);
+  switch(loco) {
+    case "taipei":
+    case "hsinchu":
+      toggleLabPages( loco + '_lab_nav');
+      break;
+    default:
+      toggleLabPages('taipei_lab_nav');
+  }
+}
+
+$(document).ready(function() {
+  locHashChange();
+  $(window).on('hashchange', locHashChange);
+});
 
 // photos
 var photos = function ($photos, time) {
