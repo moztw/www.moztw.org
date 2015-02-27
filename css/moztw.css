@@ -7,6 +7,9 @@ acronym {
 	cursor: pointer;
 }
 
+.dlall > div {
+	width: 100%;
+}
 .dlall div {
 	float: left;
 	margin: 5px;
@@ -102,8 +105,8 @@ div#firefox-feature div.download{
 	color: #290;
 }
 
-a#featurelink { 
-	background: none;  
+a#featurelink {
+	background: none;
 }
 
 #firefox-feature li a {

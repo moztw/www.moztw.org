@@ -9,12 +9,11 @@
 <H1>下載 NVU </H1>
 原則上這裡的版本有取得相關單位(NVU Linspire)的同意，
 但請記得在這裡取得的版本並不能算是原始版本，
-NVU 本身以及實際重製的 moztw.org 
+NVU 本身以及實際重製的 moztw.org
 仍然不會為這些版本提供任何保障、支援或服務。
 <div class='dlall'>
-<div><h3> 最新版本 </h3><ul>
+<div><h3> 最新版本 </h3>
 	<!--#include virtual="/inc/dlnvu.html" -->
-</ul>
 <br/>
 
 <div style='width: 30%;'>
