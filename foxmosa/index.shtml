@@ -91,12 +91,12 @@
                     <section class="container block">
                       <div id="foxmosa-social" class="module whitebox">
                         <header>
-                          <h2 class="block-title">想在更多地方看到小莎嗎？</h2>
-                          <p>小莎也有 LINE 和 Telegram 的貼圖唷！快找朋友來和小莎一起玩吧！</p>
+                          <h2 class="block-title l10n" data-l10n="foxmosa-sticker-h2">想在更多地方看到小莎嗎？</h2>
+                          <p class="l10n" data-l10n="foxmosa-sticker-content">小莎也有 LINE 和 Telegram 的貼圖唷！快找朋友來和小莎一起玩吧！</p>
                         </header>
                         <ul>
-                          <li class="telegram"><a class="button" href="FoxmosaStickers.zip">下載 Telegram 貼圖</a>
-                          <li class="line"><a class="button" href="https://store.line.me/stickershop/product/1005599/zh-Hant" onclick="ga('send', 'event', 'Outgoing', 'LineStore-Foxmosa', 'foxmosa');">前往 Line Store</a>
+                          <li class="telegram"><a data-l10n="foxmosa-sticker-link1" class="button l10n" href="FoxmosaStickers.zip">下載 Telegram 貼圖</a>
+                          <li class="line"><a data-l10n="foxmosa-sticker-link2" class="button l10n" href="https://store.line.me/stickershop/product/1005599/zh-Hant" onclick="ga('send', 'event', 'Outgoing', 'LineStore-Foxmosa', 'foxmosa');">前往 Line Store</a>
                         </ul>
                       </div>
                     </section>
