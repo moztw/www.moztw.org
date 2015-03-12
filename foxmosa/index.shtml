@@ -74,7 +74,7 @@
                     <section class="container block">
                         <div id="foxmosa-social" class="module whitebox">
                             <header>
-                                <h2 class="block-title">SocialNetworks</h2>
+                                <h2 class="block-title">Social Network</h2>
                             </header>
                             <ul>
                                 <li class="plurk"><a class="button" href="http://www.plurk.com/foxmosa" onclick="ga('send', 'event', 'Outgoing', 'Plurk-Foxmosa', 'foxmosa');">Plurk</a>
