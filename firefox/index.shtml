@@ -2,7 +2,7 @@
 
 <title>Mozilla Firefox 正體中文版下載 | MozTW, Mozilla Taiwan Community</title>
 <meta name="description"
-  content="Firefox 正體中文版下載：將所有超棒之處結合在一起，讓您的瀏覽變得更好。" />
+  content="Firefox 正體中文版下載：將所有超棒之處結合在一起，讓您的瀏覽變得更好。 （火狐瀏覽器 Mac/Windows/Linux 版）" />
 <style>
   #main-feature hgroup {
     float: left;
@@ -32,9 +32,6 @@
     clear: both;
     text-align: center;
   }
-  nav.menu-bar icon {
-      display: none;
-  }
   nav.menu-bar ul {
     margin: 0;
   }
@@ -46,7 +43,6 @@
   }
   nav.menu-bar ul li a {
     display: inline-block;
-    padding: 6px 40px;
     @media (max-width: 607px){
       border-left: 1px dotted #d6d6d6;
     }
@@ -129,6 +125,12 @@
   ul.compact li{
     list-style-type:none;
   }
+  .big{
+    display:block;
+  }
+  .small{
+    display:none;
+  }
   @media (max-width: 907px){
     .download-button-small {
       top: -15px;
@@ -146,33 +148,25 @@
     }
   }
   @media (max-width: 613px){
-    nav.menu-bar div{
-        font-size:27px;
-        color:black;
-        margin: 0;
+    .big{
+      display:none;
     }
-    nav.menu-bar div icon {
-        font-size:27px;
-        display: block;
+    .small{
+      display:block;
     }
-    nav.menu-bar ul {
-        display: none;
+    .function-menu-btn{
+      font-size:27px;
+      color:black;
     }
-    nav.menu-bar:hover ul{
-        display: block;
-
-    }
-    nav.menu-bar div li{
-      font-size: .75em;
+    .function-menu li{
+      font-size:1.3em;
       width:100%;
+      padding:5% 5%;
       position:relative;
-      padding: .25em 0;
+      left:-15%;
     }
-    nav.menu-bar > ul > li > a{
+    .function-menu > ul > li > a{
       border-left-color:white;
-    }
-    nav.menu-bar > div > ul > li > a span{
-        display: inline;
     }
     .feature img {
       float: none;
@@ -196,18 +190,36 @@
 <section id="main-feature" class="container block">
   <div id="product-side row">
     <hgroup id="product-desc" class="stacked">
-      <h1>Firefox 功能特色</h1>
+      <h1>Firefox</h1>
       <h4>將所有超棒之處結合在一起，讓您的瀏覽變得更好。</h4>
     </hgroup>
     <!--#include virtual="/inc/dlff-new.html" -->
   </div>
 </section>
 
-<nav class="menu-bar container block">
+<nav class="menu-bar container block small">
   <div class="container block">
-    <icon class="module">
-        Firefox 的特色 <i class="icon-reorder"></i>
-    </icon>
+    <div class="module">
+      <h3>
+        <a class="function-menu-btn" href="javascript: SmallMenuBar()">
+          Firefox 的特色 <i class="icon-reorder"></i>
+        </a>
+      </h3>
+      <ul id="function-menu" class="function-menu hide">
+        <li><a href="#madeeasy">瀏覽變得簡單</a></li>
+        <li><a href="#highperformance">更佳效能</a></li>
+        <li><a href="#advancedsecurity">進階安全性</a></li>
+        <li><a href="#powerfulpersonalization">強大的個人化</a></li>
+        <li><a href="#cuttingedge">尖端技術</a></li>
+        <li><a href="#universalaccess">普及近用</a></li>
+        <li><a href="#resources">社群資源</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<nav class="menu-bar container block big">
+  <div class="container block">
     <ul class="module">
       <li>
         <a href="#madeeasy">
@@ -878,3 +890,11 @@
 </div>
 
 <!--#include virtual="/sandstone/footer.shtml" -->
+
+<script content="text/javascript" language="javascript">
+function SmallMenuBar()
+{
+  var menu = document.getElementById("function-menu");
+  menu.className = menu.className === "function-menu hide"?"function-menu":"function-menu hide";
+}
+</script>
