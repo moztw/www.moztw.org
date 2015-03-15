@@ -20,8 +20,6 @@
 
 </head>
     <body>
-        <div id="outer-wrapper">
-            <div id="wrapper">
 
                 <!--#include virtual="/sandstone/header.shtml" -->
 
