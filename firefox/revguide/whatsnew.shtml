@@ -30,8 +30,8 @@
     <p>新的附加元件管理員加強擴充套件及佈景主題的管理介面，讓您更能輕鬆自訂 Firefox。您可於「工具＞附加元件」開啟附加元件管理員。（本文稍後還有更多附加元件的相關資訊。） </p>
     <p><img src="addonsmanager.jpg" width="414" height="302"></p>
     <ul class="rev_nav">
-      <li class="back"><a href="whatsnew.shtml">&lt;上一頁</a></li>
-      <li class="next"><a href="improved.shtml">下一頁&gt;</a></li>
+      <li class="back"><a href="whatsnew.html">&lt;上一頁</a></li>
+      <li class="next"><a href="improved.html">下一頁&gt;</a></li>
     </ul>
   </div>
   <!-- closes #mainContent-->

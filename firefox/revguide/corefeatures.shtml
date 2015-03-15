@@ -50,10 +50,10 @@
 <p>Firefox 承諾帶給每個人更佳的網路體驗，當然也包含身心障礙使用者在內。Firefox 領先支援 DHTML 無障礙技術，網頁開發者能藉此技術設計網頁，減少身心障礙使用者閱讀時所需的按鍵次數。</p>
 <p>Firefox 也支援 Microsoft Active Accessibility 技術，這是 Windows 上 Microsoft 與無障礙輔助功能有關的 API 標準。如此一來支援此標準的螢幕閱讀程式（如 Window-Eyes 及 JAWS）就能用在 Firefox 上。「螢幕閱讀程式」是一種能念出程式或文件中有用訊息、並顯示在「點字閱讀器」上的軟體。 </p>
 <ul class="rev_nav">
-      <li class="back"><a href="underthehood.shtml">&lt;上一頁</a></li>
+      <li class="back"><a href="underthehood.html">&lt;上一頁</a></li>
       <li class="next"><a href="/firefox/">回 Firefox 首頁</a></li>
     </ul> </div>
- 
+
  <!-- closes #mainContent-->
   <div id="side" class="right">
   <!--#include virtual="_menu.html" -->

@@ -24,8 +24,8 @@
 <h2>附加元件</h2>
 <p>Firefox 有豐富且持續成長的附加元件生態系，方便您自訂瀏覽器的功能及外觀以便符合需求。現在 Firefox 2 有全新的附加元件管理員，讓您更易發現、安裝及使用附加元件。</p>
 <p>您可從 https://addons.mozilla.com 下載數千種附加元件。這些元件能方便您購物時貨比三家、與朋友分享書籤、觀看天氣預報、寫作部落格文章、閱讀新聞、聆聽音樂等，一切都不需要離開您已熟悉的瀏覽器。您還可以調整外觀，從裡到外、由按鈕到字型，都可以依您個人風格改變瀏覽器的樣子。</p><ul class="rev_nav">
-      <li class="back"><a href="improved.shtml">&lt;上一頁</a></li>
-      <li class="next"><a href="underthehood.shtml">下一頁&gt;</a></li>
+      <li class="back"><a href="improved.html">&lt;上一頁</a></li>
+      <li class="next"><a href="underthehood.html">下一頁&gt;</a></li>
     </ul>
  </div>
  <!-- closes #mainContent-->
