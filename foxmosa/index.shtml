@@ -26,8 +26,8 @@
                 <!--#include virtual="/sandstone/header.shtml" -->
 
                 <header id="title_area" class="container block">
-                    <h1 id="site-title" class="large">Foxmosa 狐耳摩莎</h1>
-                    <h2 id="site-description" class="open-sans-light l10n" data-l10n="foxmosa-title">Mozilla 台灣社群吉祥物</h2>
+                    <h1 id="site-title" class="large">Foxmosa</h1>
+                    <h2 id="site-description">狐耳摩莎</h2>
                 </header>
 
                 <div id="content-area">
