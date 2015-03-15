@@ -23,8 +23,8 @@ JavaScript 更新為 1.7 版，提供諸如特定產生器 (generators)、迴圈
 <h3>新版 Windows 安裝程式</h3>
 <p>新安裝程式基於 Nullsoft Scriptable Install System (NSIS) 製作，安裝更為迅速。 </p>
 <ul class="rev_nav">
-      <li class="back"><a href="secutiry_and_addons.shtml">&lt;上一頁</a></li>
-      <li class="next"><a href="corefeatures.shtml">下一頁&gt;</a></li>
+      <li class="back"><a href="secutiry_and_addons.html">&lt;上一頁</a></li>
+      <li class="next"><a href="corefeatures.html">下一頁&gt;</a></li>
     </ul>
  </div>
  <!-- closes #mainContent-->
