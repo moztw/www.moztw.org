@@ -1,3 +1,20 @@
+#releasenotes .intro {
+	margin-right: 290px;
+}
+
+#releasenotes .download {
+	position: absolute;
+	right: 40px;
+	top: 40px;
+}
+
+#releasenotes .download.firefox .download-button-small .download-link .download-content{
+	background-image: url(/sandstone/images/firefox-small.png);
+	background-position: left center;
+	margin-left: -30px;
+	padding: 10px 20px 10px 83px;
+}
+
 #releasenotes ul.tags {
   margin: 0;
   padding: 0;
@@ -8,7 +25,7 @@
   list-style-type: none;
   margin: 0;
   min-height: 25px;
-  padding-left: 150px;
+  padding-left: 135px;
 	margin-bottom: 10px;
   position: relative;
 }
@@ -90,15 +107,10 @@
   background-position: 0 -46px;
 }
 
-#releasenotes ul h5 {
-  font: normal 16px "Open Sans",sans-serif;
-  margin: 0;
-  text-shadow: 0 1px 2px #FFFFFF;
-}
-
 /* Sandstone fix */
 #releasenotes article.module {
 	margin-bottom: 20px;
+	position: relative;
 }
 
 #releasenotes article.module h2 {
@@ -118,6 +130,10 @@
 	margin-left: -20px;
 }
 
+#releasenotes .grids .grid-12{
+	margin-left: 20px;
+}
+
 #releasenotes .sidebar article.module {
 	padding: 20px;
 }
@@ -134,25 +150,52 @@
 
 /* responsive layout */
 @media screen and (max-width: 940px) {
-#releasenotes ul.tags li {
-	padding-left: 0;
+#releasenotes .intro {
+	margin-right: 0;
 }
+
+#releasenotes .download {
+	position: static;
+	margin-top: 10px;
+	text-align: right;
+}
+
+#releasenotes .download .download-button-small .download-list,
+#releasenotes .download .download-button-small .download-link {
+	width: 200px;
+}
+
+#releasenotes .download .download-button-small .download-other {
+	width: 190px;
+}
+
+#releasenotes ul.tags li {
+	padding-left: 100px;
+}
+
 #releasenotes .tag {
-  position: static;
-	width: auto;
+	width: 90px;
   padding: 0 10px 0 30px;
 	min-width: auto;
-	margin-right: 10px;
+  border-radius: 2px;
 }
-#releasenotes ul.tags li h5 {
-	display: inline;
-	font-size: inherit;
-}
+
 #releasenotes .hide-mobile {
 	display: none;
 }
 
 #releasenotes article.module {
 	padding: 20px;
+}
+}
+
+@media screen and (max-width: 479px) {
+#releasenotes ul.tags li {
+	padding-left: 0;
+}
+
+#releasenotes .tag {
+	position: static;
+	margin-right: 10px;
 }
 }
