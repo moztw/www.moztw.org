@@ -1,5 +1,5 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
-    <title class="l10n" data-l10n="foxmosa-title">Foxmosa 小莎</title>
+    <title>Foxmosa 狐耳摩莎</title>
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/buttons.css" rel="stylesheet" />
     <link href="/js/library/fancybox2/jquery.fancybox.css" rel="stylesheet" />
@@ -25,10 +25,10 @@
 
                 <!--#include virtual="/sandstone/header.shtml" -->
 
-                <hgroup id="title_area" class="container block">
-                    <h1 id="site-title" class="large">Foxmosa</h1>
-                    <h2 id="site-description" class="open-sans-light l10n" data-l10n="foxmosa-name">狐耳摩莎</h2>
-                </hgroup>
+                <header id="title_area" class="container block">
+                    <h1 id="site-title" class="large">Foxmosa 狐耳摩莎</h1>
+                    <h2 id="site-description" class="open-sans-light l10n" data-l10n="foxmosa-title">Mozilla 台灣社群吉祥物</h2>
+                </header>
 
                 <div id="content-area">
                     <section id="foxmosa-info" class="container block row">
@@ -108,7 +108,7 @@
                             </ol>
                         </div>
                         <div>
-                            <img src="images/join.png">
+                            <img src="images/join.png" alt="Join us!">
                         </div>
                         <div>
                             <h3 class="block-title l10n" data-l10n="foxmosa-painter-h3">加入 Foxmosa 繪師行列</h3>
