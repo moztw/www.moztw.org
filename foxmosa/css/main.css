@@ -22,7 +22,7 @@
 	float: right;
 }
 
-#foxmosa-pairs h2, #foxmosa-social h2 {
+#foxmosa-pairs h2, #foxmosa-social h2, #foxmosa-stickers h2 {
     font-size: 32px;
     letter-spacing: -1px;
     line-height: 100%;
@@ -435,24 +435,24 @@
 	float: left;
 }
 
-#foxmosa-social{
+#foxmosa-social, #foxmosa-stickers{
 	overflow: hidden;
 	position: relative;
 }
 
-#foxmosa-social header{
+#foxmosa-social header, #foxmosa-stickers header{
 	display: block !important;
 	float: left;
 }
 
-#foxmosa-social ul{
+#foxmosa-social ul, #foxmosa-stickers ul{
 	margin: 0;
 	padding: 0;
 	float: right;
 	overflow: none;
 }
 
-#foxmosa-social ul li{
+#foxmosa-social ul li, #foxmosa-stickers ul li{
 	list-style: none;
 	float: right;
 	margin-left: 20px;
@@ -625,11 +625,11 @@
 		left: auto;
 	}
 
-	#foxmosa-social ul {
+	#foxmosa-social ul, #foxmosa-stickers ul {
 		float: left;
 	}
 
-	#foxmosa-social ul li {
+	#foxmosa-social ul li, #foxmosa-stickers ul li {
 		margin: 0 20px 0 0;
 	}
 
@@ -688,17 +688,17 @@
 		width: 90%;
 	}
 
-	#foxmosa-social ul {
+	#foxmosa-social ul, #foxmosa-stickers ul {
 		float: none;
 	}
 	
-	#foxmosa-social ul li {
+	#foxmosa-social ul li, #foxmosa-stickers ul li {
 		margin: 5px 0;
 		float: none;
 		text-align: center;
 	}
 
-	#foxmosa-social ul li a {
+	#foxmosa-social ul li a, #foxmosa-stickers ul li a {
 		width: 90%;
 	}
 

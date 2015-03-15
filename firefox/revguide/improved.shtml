@@ -16,8 +16,8 @@
 <h3>介面更直覺</h3>
 <p>Firefox 2 調整了使用介面，讓您網際體驗習慣不變，使用卻更為順手。工具列按鈕簡潔不搶眼，使用者能專注於網路內容，而滑鼠移上時則以不同效果呈現方便辨識。 </p>
 <p><img src="interface.jpg" width="314" height="154"></p><ul class="rev_nav">
-      <li class="back"><a href="improved.shtml">&lt;上一頁</a></li>
-      <li class="next"><a href="secutiry_and_addons.shtml">下一頁&gt;</a></li>
+      <li class="back"><a href="improved.html">&lt;上一頁</a></li>
+      <li class="next"><a href="secutiry_and_addons.html">下一頁&gt;</a></li>
     </ul>
  </div>
  <!-- closes #mainContent-->
