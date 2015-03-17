@@ -34,7 +34,7 @@
 	#thunderbird-notes .tag {
 		width: 60px;
 		padding: 0 10px 0 30px;
-		min-width: auto;
+		min-width: inherit;
 		border-radius: 2px;
 		position: static;
 		margin-right: 10px;
