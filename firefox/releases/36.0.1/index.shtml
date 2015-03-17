@@ -4,7 +4,6 @@
 <link href="/sandstone/css/releasenotes.css" rel="stylesheet" />
 <link href="/thunderbird/css/features.css" rel="stylesheet" />
 <!--#include virtual="/sandstone/iefix.shtml" -->
-<link rel="stylesheet" href="/css/cavendish/releasenote_narrow.css" media="screen">
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
