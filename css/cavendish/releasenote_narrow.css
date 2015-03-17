@@ -18,16 +18,20 @@
 
 	#firefox-notes #main-content h3,
 	#firefox-notes #main-content .section-contents ul,
+	#thunderbird-notes #main-content h3,
+	#thunderbird-notes #main-content .section-contents ul,
 	#side section, section .appendix {
 		padding-left: 15px;
 		padding-right: 15px;
 	}
 
-	#firefox-notes #main-content .section-contents li {
+	#firefox-notes #main-content .section-contents li,
+	#thunderbird-notes #main-content .section-contents li {
 		padding-left: 0;
 	}
 
-	#firefox-notes .tag {
+	#firefox-notes .tag,
+	#thunderbird-notes .tag {
 		width: 60px;
 		padding: 0 10px 0 30px;
 		min-width: auto;
@@ -53,12 +57,34 @@
 		padding: 0;
 	}
 
-	#product-desc[class^=firefox-releasenotes]:before{
+	#product-desc[class^=firefox-releasenotes]:before,
+	#product-desc[class^=thunderbird-releasenotes]:before{
 		display: block;
-		content: "Firefox 版本資訊";
 		font-size: 1.5em;
 		padding: 0 10px;
 		font-weight: 700;
 		margin-top: 20px;
 	}
+
+	#product-desc[class^=firefox-releasenotes]:before{
+		content: "Firefox 版本資訊";
+	}
+
+	#product-desc[class^=thunderbird-releasenotes]:before{
+		content: "Thunderbird 版本資訊";
+	}
+
+	/* thunderbird */
+	#mBody {
+		background: none;
+	}
+
+	#main-feature {
+		padding: 20px 15px;
+	}
+
+	#main-feature p {
+		padding-right: 0;
+	}
+
 }
