@@ -206,6 +206,7 @@ section .appendix {
 
 -->
 </style>
+<link rel="stylesheet" href="/css/cavendish/releasenote_narrow.css" media="screen">
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 
