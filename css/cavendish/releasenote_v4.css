@@ -1,0 +1,203 @@
+#product-desc p {
+	padding-left:10px;
+}
+#mainContent.right {
+	width:78%;
+}
+#side.right {
+	width:20%;
+}
+.key-point {
+	background:url("/firefox/images/4beta-firstrun-illustration.jpg") no-repeat right bottom;
+	border-radius: 10px;
+	box-shadow: 1px 1px #BBBBBB;
+}
+.firefox-releasenotes-v4 {
+	background:url("/firefox/images/releasenotes-firefox.png") no-repeat scroll left top transparent;
+	float:none !important;
+	line-height: 1.5em !important;
+	margin: 30px 0 20px 15px;
+	padding: 70px 25px 10px 0 !important;
+}
+#product-desc p {
+	color:#276787;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:6px;
+}
+#release-date {
+  font-size: 1.1em;
+}
+#product-desc p a {
+	color:#276787;
+}
+
+#firefox-notes #main-content h3 {
+	background: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.61) 75%, rgba(236, 241, 249, 0.61) 100%);
+	border: 1px solid #9ABED9;
+	border-radius: 6px 6px 2px 2px;
+	box-shadow: 0 0 5px #E3F3FE inset, 0 -2px rgba(192, 216, 233, 0.61) inset;
+	color: #465875;
+	font-family: "Open Sans",sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	margin: 30px 0 2px;
+	padding: 20px 30px 15px;
+	text-shadow: 0 1px #FFFFFF;
+}
+
+#firefox-notes #main-content section .appendix h3 {
+	background: none;
+	border: none;
+	border-bottom: 1px solid #CCCCCC;
+	box-shadow: none;
+	padding: 0;
+}
+
+#firefox-notes #main-content .section-contents {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+	border: 1px solid #9ABED9;
+	border-radius: 2px 2px 6px 6px;
+	box-shadow: 0 0 5px #E3F3FE inset, 0 -2px rgba(192, 216, 233, 0.61) inset;
+}
+
+#firefox-notes #main-content .section-contents ul {
+	margin: 0;
+	padding: 20px 30px;
+}
+
+#firefox-notes #main-content .section-contents li {
+	line-height: 1.5;
+	border-bottom: 1px dotted #9F9F9F;
+	list-style-type: none;
+	margin: 0;
+	min-height: 25px;
+	padding: 10px 0px 10px 150px;
+	position: relative;
+}
+
+#firefox-notes #main-content .section-contents li:last-child {
+	border-bottom: none;
+}
+
+#firefox-notes #main-content .section-contents li.complete {
+	line-height: 1;
+	min-height: 20px;
+	padding: 20px 0 0;
+}
+
+#firefox-notes .tag {
+	background: url(/firefox/images/tags.png) no-repeat scroll 0 50% #999999;
+	border-bottom-left-radius: 2px;
+	border-top-left-radius: 2px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.2) inset;
+	color: #383838;
+	display: inline-block;
+	font-family: "Open Sans",sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	left: 0;
+	line-height: 22px;
+	min-width: 85px;
+	padding: 0 15px 0 20px;
+	position: absolute;
+	text-align: right;
+	text-shadow: 1px 1px 0 #FFFFFF;
+	text-transform: uppercase;
+	top: 12px;
+	width: 85px;
+}
+
+#firefox-notes .tag-new {
+	background-color: #FFEDCF;
+}
+
+#firefox-notes .tag-html5 {
+	background-color: #F8DFD8;
+	background-position: -450px 50%;
+}
+
+#firefox-notes .tag-developer {
+	background-color: #E7E7E7;
+	background-position: -900px 50%;
+}
+
+#firefox-notes .tag-changed {
+	background-color: #E9CFFF;
+	background-position: -150px 50%;
+}
+
+#firefox-notes .tag-fixed {
+	background-color: #F0FFE1;
+	background-position: -300px 50%;
+}
+
+#firefox-notes .tag-unresolved {
+	background-color: #FFC8C8;
+	background-position: -750px 50%;
+}
+
+#firefox-notes .status {
+	background: none repeat scroll 0 0 #E9F2FF;
+	border-radius: 3px 3px 3px 3px;
+	color: #383838;
+	font-family: "Open Sans",sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	padding: 1px 6px;
+}
+
+#firefox-notes .status .status-unresolved, #firefox-notes .status .status-resolved {
+	background: url(/firefox/images/status-icons.png) no-repeat scroll 0 4px transparent;
+	display: inline-block;
+	margin-right: 1em;
+	padding: 2px 2px 2px 16px;
+}
+
+#firefox-notes .status .status-resolved {
+	background-position: 0 -46px;
+}
+
+#firefox-notes ul h5 {
+	font: normal 16px "Open Sans",sans-serif;
+	margin: 0;
+	text-shadow: 0 1px 2px #FFFFFF;
+}
+
+#nav li a {
+	padding: 15px;
+	font-size: 15px;
+}
+
+#side section, section .appendix {
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+	border: 1px solid rgba(174, 174, 174, 0.6);
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0 0 5px rgba(230, 230, 230, 0.15) inset, 0 -2px rgba(0, 0, 0, 0.05) inset;
+	display: block;
+	font-size: 15px;
+	margin: 0 0 10px;
+	padding: 30px;
+	text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+section .appendix {
+	margin-top: 40px;
+}
+
+#side section#try {
+	margin-top: 30px;
+	padding: 0;
+}
+
+#side section h3 {
+	color: #545454;
+	font-family: "Open Sans",sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	margin: 0 0 5px;
+}
+
+
