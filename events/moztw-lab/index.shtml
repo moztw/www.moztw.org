@@ -8,7 +8,6 @@
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="交朋友、聊是非、互助研究的好所在。聊聊 Web 界的八卦、找人幫你的作品給點意見、與志同道合的夥伴見面">
 <meta property="og:description" lang="en" content="A place for making friends, gossiping, and studying with each other. Unveil secrets of Web, get some comments for your works, and meet partners with common interest.">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <script>
     // let tabzilla not clickable
       Tabzilla.onReady = function() {

@@ -7,7 +7,6 @@
 <meta property="og:description" content="這是一個大家一起研究如何撰寫 Firefox OS 下 Open Web App 的 hackathon 。歡迎大家組隊參加！Firefox OS 是一個基於瀏覽器的手機作業系統，能讓開發者透過HTML、CSS、Javascript 去撰寫內部的應用程式。">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href="assets/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
 <!--[if lte IE 8]> <link rel="stylesheet" href="assets/leaflet/leaflet.ie.css" /> <![endif]-->
 <link href="style.css" rel="stylesheet" />
