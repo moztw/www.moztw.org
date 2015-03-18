@@ -6,7 +6,6 @@
 <!--#include virtual="/sandstone/iefix.shtml" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
-<!--#include virtual="/inc/dltb2.shtml" -->
 
 <section class="container block firefox" id="releasenotes">
 	<article class="module">

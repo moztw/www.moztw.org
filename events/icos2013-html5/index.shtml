@@ -7,7 +7,6 @@
 <meta property="og:description" content="ICOS 2013 - HTML5 議程">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <!--<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">-->
-<meta name="viewport" content="width=930">
 <link href="/js/library/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
 <!--[if lte IE 8]> <link rel="stylesheet" href="/js/library/leaflet/leaflet.ie.css" /> <![endif]-->
 <link href="style.css" rel="stylesheet" />
@@ -15,6 +14,11 @@
 <!--[if IE]>
     <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
 <![endif]--> 
+<style>
+	body{
+		min-width: 930px;
+	}
+</style>
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
