@@ -1,18 +1,23 @@
 <?php
 $isInStage = (strpos($_SERVER["SCRIPT_FILENAME"], 'www-stage') != false);
-// Github We’ll hit these URLs with POST requests when you push to us,
-// passing along information about the push. More information can be found in the Post-Receive Guide.
+// Github Will hit this URL with POST requests when you push, passing along information about the push. 
+// More information can be found at: https://help.github.com/articles/what-ip-addresses-does-github-use-that-i-should-whitelist/.
 //
-// The Public IP addresses for these hooks are: 204.232.175.64/27, 192.30.252.0/22.
-// FIXME: counting CIDR is too complicated. DO NOT UNMARK FOLLOWING TWO LINES UNLESS YOU WROTE CODE FOR COUNTING IP RANGE.
-//$whitelist = array('204.232.175.64/27', '192.30.252.0/22');
-//$isGithub = (in_array($_SERVER['REMOTE_ADDR'], $whitelist) === true);
-$isGithub = isset($_POST["payload"]) && (strpos($_SERVER["HTTP_USER_AGENT"], 'GitHub')  !== false);
+// The Public IP addresses for these hooks are: 192.30.252.0/22.
+// TODO: Add code to verify request using X-GitHub-Delivery header
+/* Commented out for now as current server is behind proxy
+$GhWhitelist = array('192.30.252.0',22); //ipaddr_begin,mask
+$GhWhitelistBegin_DEC = ip2long($GhWhitelist[0]);
+$CIDR_DEC = pow(2, 32 - $GhWhitelist[1]); //Use (2 ** (32 - $GhWhitelist[1])) in PHP 5.6+
+$GhWhitelistEnd_DEC = $GhWhitelistBegin_DEC + $CIDR_DEC - 1;
+$ClientIP_DEC = ip2long($_SERVER["REMOTE_ADDR"]);
+$isGithub = ($GhWhitelistBegin_DEC <= $ClientIP_DEC) && ($ClientIP_DEC <= $GhWhitelistEnd_DEC);
+*/
+
+$isGithub = isset($_POST["payload"]) && (strpos($_SERVER["HTTP_USER_AGENT"], 'GitHub') !== false);
 if($isGithub){
   $payload = json_decode($_POST["payload"]);
-
   $cmd = '/home/moztw/repo/base/autoupdate/update.sh';
-
   $opt = '';
   if($payload->ref==="refs/heads/production"){
     //production
@@ -23,12 +28,11 @@ if($isGithub){
     $opt .= ' stage';
     echo("is stage\n");
   }else{
+    http_response_code(400);
     die("!!!Wrong payload.");
   }
-
   $opt .= ' md5';
   $opt .= ' cache';
-
   $cmd .= $opt;
   $cmd .= ' 2>&1';
   echo($cmd . "\n");
@@ -44,6 +48,7 @@ if($isGithub){
   flush();
   pclose($handle);
 } else {
+  http_response_code(400);
   die("!!!Invalid arguments given or not from Github.");
 }
 ?>
