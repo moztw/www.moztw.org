@@ -64,9 +64,9 @@
 		<div class="grid-3 sidebar">
 			<article id="nav" class="module hide-mobile">
 				<ul>
-					<li><a href="/thunderbird/">回 Thunderbird 首頁</a></li>
-					<li><a href="#downloadandinstall">下載與安裝</a></li>
+					<li><a href="/thunderbird/">&lt; 回 Thunderbird 首頁</a></li>
 					<li><a href="#knownissues">已知問題</a></li>
+					<li><a href="#downloadandinstall">下載與安裝</a></li>
 				</ul>
 			</article>
 
