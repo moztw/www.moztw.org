@@ -32,6 +32,9 @@
     clear: both;
     text-align: center;
   }
+  nav.menu-bar icon {
+    display: none;
+  }
   nav.menu-bar ul {
     margin: 0;
   }
@@ -43,10 +46,10 @@
   }
   nav.menu-bar ul li a {
     display: inline-block;
+    padding: 6px 40px;
     @media (max-width: 607px){
       border-left: 1px dotted #d6d6d6;
     }
-    padding: 6px 40px;
   }
   nav.menu-bar ul li a span {
     display: block;
@@ -125,12 +128,6 @@
   ul.compact li{
     list-style-type:none;
   }
-  .big{
-    display:block;
-  }
-  .small{
-    display:none;
-  }
   @media (max-width: 907px){
     .download-button-small {
       top: -15px;
@@ -148,25 +145,32 @@
     }
   }
   @media (max-width: 613px){
-    .big{
-      display:none;
-    }
-    .small{
-      display:block;
-    }
-    .function-menu-btn{
+    nav.menu-bar div{
       font-size:27px;
       color:black;
+      margin: 0;
     }
-    .function-menu li{
-      font-size:1.3em;
+    nav.menu-bar div icon {
+      font-size:27px;
+      display: block;
+    }
+    nav.menu-bar ul {
+      display: none;
+    }
+    nav.menu-bar:hover ul{
+      display: block;
+    }
+    nav.menu-bar div li{
+      font-size: .75em;
       width:100%;
-      padding:5% 5%;
+      padding: .25em 0;
       position:relative;
-      left:-15%;
     }
-    .function-menu > ul > li > a{
+    nav.menu-bar > ul > li > a{
       border-left-color:white;
+    }
+    nav.menu-bar > div > ul > li > a span{
+        display: inline;
     }
     .feature img {
       float: none;
@@ -197,29 +201,11 @@
   </div>
 </section>
 
-<nav class="menu-bar container block small">
+<nav class="menu-bar container block">
   <div class="container block">
-    <div class="module">
-      <h3>
-        <a class="function-menu-btn" href="javascript: SmallMenuBar()">
-          Firefox 的特色 <i class="icon-reorder"></i>
-        </a>
-      </h3>
-      <ul id="function-menu" class="function-menu hide">
-        <li><a href="#madeeasy">瀏覽變得簡單</a></li>
-        <li><a href="#highperformance">更佳效能</a></li>
-        <li><a href="#advancedsecurity">進階安全性</a></li>
-        <li><a href="#powerfulpersonalization">強大的個人化</a></li>
-        <li><a href="#cuttingedge">尖端技術</a></li>
-        <li><a href="#universalaccess">普及近用</a></li>
-        <li><a href="#resources">社群資源</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<nav class="menu-bar container block big">
-  <div class="container block">
+    <icon class="module">
+      Firefox 的特色 <i class="icon-reorder"></i>
+    </icon>
     <ul class="module">
       <li>
         <a href="#madeeasy">
@@ -890,11 +876,3 @@
 </div>
 
 <!--#include virtual="/sandstone/footer.shtml" -->
-
-<script content="text/javascript" language="javascript">
-function SmallMenuBar()
-{
-  var menu = document.getElementById("function-menu");
-  menu.className = menu.className === "function-menu hide"?"function-menu":"function-menu hide";
-}
-</script>
