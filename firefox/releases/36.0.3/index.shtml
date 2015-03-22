@@ -1,5 +1,5 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
-<title>Mozilla Firefox 版本資訊</title>
+<title>Mozilla Firefox v36.0.3 版本資訊</title>
 
 <link href="/sandstone/css/releasenotes.css" rel="stylesheet" />
 <link href="/thunderbird/css/features.css" rel="stylesheet" />
@@ -11,7 +11,7 @@
 	<article class="module">
 		<div class="intro">
 			<h2>Firefox 版本資訊</h2>
-			<p id="release-date"> <time datetime="2015-03-22">2015 年 3 月 22 日</time> v36.0.4 </p>
+			<p id="release-date"> <time datetime="2015-03-21">2015 年 3 月 21 日</time> v36.0.3 </p>
 			<p>此版本資訊包含了 <a href="#whatsnew">Firefox 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
 			<p>我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的<a href="http://forums.mozillazine.org/viewforum.php?f=49">英文討論區</a>或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
 		</div>
@@ -25,9 +25,9 @@
 			<article id="whatsnew" class="module">
 				<h2>Firefox 新鮮事</h2>
 				<ul class="tags">
-					<li><span class="tag tag-fixed">修正</span>
-            <span>36.0.4 - <a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox36.0.4">安全性更新</a>，修正在 HP Zero Day Initiative 的 Pwn2Own 大賽中揭露的漏洞。</span>
-					</li>
+          <li><span class="tag tag-fixed">修正</span>
+            <span>36.0.3 - <a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox36.0.3">安全性更新</a>，修正在 HP Zero Day Initiative 的 Pwn2Own 大賽中揭露的漏洞。</span>
+          </li>
 
 					<li><span class="tag tag-new">全新功能</span>
 						<span>「新分頁」頁面的釘選磚塊也能同步。</span>
@@ -88,9 +88,6 @@
 					</li>
 
           <li><span class="tag tag-fixed">修正</span>
-            <span>36.0.3 - <a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox36.0.3">安全性更新</a>，修正在 HP Zero Day Initiative 的 Pwn2Own 大賽中揭露的漏洞。</span>
-          </li>
-          <li><span class="tag tag-fixed">修正</span>
             <span>36.0.1 - 進行 DNS 查詢時，不再使用「ANY」查詢類型（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1093983">bug 1093983</a>）。</span>
           </li>
           <li><span class="tag tag-fixed">修正</span>
@@ -129,7 +126,7 @@
 					</li>
 					<li class="complete">
 						請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2036&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox36&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla36&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
-						您可能也想瞭解<a href="/firefox/releases/36.0.3/">前一個版本的更新</a>。
+						您可能也想瞭解<a href="/firefox/releases/36.0/">前一個版本的更新</a>。
 					</li>
 				</ul>
 
