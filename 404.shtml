@@ -1,44 +1,30 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
+<title>404 Not Found 找不到指定的資源 | MozTW, Mozilla 台灣社群 | Firefox / Thunderbird 正體中文版</title>
 <meta name="description" content="404 Not Found 找不到指定的資源" />
-<link href="css/404.css" rel="stylesheet" />
+<link href="/css/404.css" rel="stylesheet" />
 <!--#include virtual="/sandstone/iefix.shtml" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 <!--#include virtual="/inc/dltb2.shtml" -->
 <section class="container block">
-    <div class="key-point grids">
-        <div class="grid-12">
-            <h1>404 Not Found  找不到指定的資源</h1><br />
-            <p>The requested URL does not exist. Please check or find it again.</p>
-            <p>你所指定的網址不存在，請試著重新瀏覽此網站以找到你要的內容。</p><br />
-            <h2>Are you looking for...</h2>
-            <ul>
-                <li> Looking for <strong>mozip</strong> ? Try the <a href='/tools'>tools</a> page! (Don't worry about Chinese, the tools page is in pure English).</li>
-                <li>下載檔案？不用擔心，只是連結錯了，<a href="/dl">請到下載頁</a>。</li>
-                <li><a href="http://forum.moztw.org" >MozTW 討論區</a></li>
-            </ul>
-            <h2>搜尋 MozTW 網站</h2>
-            <div>
-                <form id="404_search" class="billboard form-horizontal" method="get" action="http://www.google.com/custom" />
-                    <div id="column-primary" class="field form-minimal-label" />
-                        <input type="hidden" name="cof" value="LW:174;LH:60;L:http://www.mozilla.org/images/mlogosm.gif;GIMP:#cc0000;T:black;ALC:#0000ff;GFNT:grey;LC:#990000;BGC:white;AH:center;VLC:purple;GL:0;GALT:#666633;AWFID:9262c37cefe23a86;" />
-                        <input type="hidden" name="domains" value="moztw.org" />
-                        <input type="hidden" name="sitesearch" value="moztw.org" />
-                        <input name="inlang" value="zh-TW" type="hidden" />
-                        <input name="ie" value="UTF-8" type="hidden" />
-                        <input name="oe" value="UTF-8" type="hidden" />
-                        <input type="text" id="q" name="q" accesskey="s" size="30" />
-                        <input type="submit" id="submit" value="Go" class="button" />
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+<div class="key-point grids">
+  <div class="grid-12">
+    <h1>404 Not Found 找不到指定的資源</h1>
+    <br />
+    <p>The requested URL does not exist. Please check or find it again.</p>
+    <p>你所指定的網址不存在，請試著重新瀏覽此網站以找到你要的內容。</p><br />
+    <h2>Are you looking for...</h2>
+    <ul>
+      <li>Looking for <strong>mozip</strong>? Try the <a href='/tools'>tools</a> page! (Don't worry about Chinese, the tools page is in pure English).</li>
+      <li>下載檔案？不用擔心，只是連結錯了，<a href="/dl">請到下載頁</a>。</li>
+      <li><a href="http://forum.moztw.org">MozTW 討論區</a></li>
+    </ul>
+  </div>
+</div>
 </section>
 <section class="container block">
-    <div class="find-child grids">
-        <style>body{margin: 0}</style>
-        <iframe src="http://404page.missingkids.org.tw/api?key=a9JNmo8MDCGiYsvG-zYM" width="100%" height="635" frameborder="0"></iframe>
-    </div>
+<div class="find-child grids">
+  <iframe src="http://404page.missingkids.org.tw/api?key=a9JNmo8MDCGiYsvG-zYM" width="960" height="635" frameborder="0"></iframe>
+</div>
 </section>
 <!--#include virtual="/sandstone/footer.shtml" -->
