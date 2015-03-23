@@ -204,8 +204,8 @@
 
 <div class="key-point front-feature" id="front-feature">
   <div id="mobile_link">
-    <p id="mobile_faster" class="webfont_2">更快<br>更聰明<br>更加安全</p>
-    <p id="mobile_respect" class="webfont_2">絕對尊重您的<br>行動瀏覽器</p>
+    <p id="mobile_faster">更快<br>更聰明<br>更加安全</p>
+    <p id="mobile_respect">絕對尊重您的<br>行動瀏覽器</p>
     <a href="/mobile/"></a>
   </div>
   <div id="feature-content">
@@ -342,44 +342,4 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 })(jQuery);
 </script>
 
-<script type='text/javascript' src='http://moztw-arphic.cloudapp.net/FontSubsetOutput/WebFontApi-AACAE9FCA1494d66B9BF53196F0992E1/WebFontApi-AACAE9FCA1494d66B9BF53196F0992E1.JS?9395323985'></script>
-<script>
-function getTxtResultObject() {
-    var obj = document.getElementById("txtResult");
-    return obj;
-}
-function serverResponseCallback(resultArray) {
-    var obj = getTxtResultObject();
-    obj.value = resultArray;
-}
-(function ($) {
-if (!window.arphicWebFontApi){
-    $('.front-feature #mobile_link p').addClass('show');
-    return;
-};
-arphicWebFontApi.ready = function() {
-    // setup webfont selectors
-    var selectorFontNameArray =
-    [
-        { selectorName: ".webfont_1", fontName: "文鼎W圓體B" },
-        { selectorName: ".webfont_2", fontName: "文鼎W圓體M" },
-        { selectorName: ".webfont_3", fontName: "文鼎W俏黑體E" },
-        { selectorName: ".webfont_4", fontName: "文鼎W甜妞體H" },
-        { selectorName: ".webfont_5", fontName: "文鼎W鋼筆行楷M" },
-        { selectorName: ".webfont_6", fontName: "文鼎W簽字筆體E" },
-        { selectorName: ".webfont_7", fontName: "文鼎W仿宋M" },
-        { selectorName: ".webfont_8", fontName: "文鼎W書苑黑體B" },
-        { selectorName: ".webfont_9", fontName: "文鼎WUD書苑黑體M" },
-        { selectorName: ".webfont_10", fontName: "文鼎W顏楷H" }
-    ];
-    arphicWebFontApi.loadWebFont(selectorFontNameArray, function() {
-        $('.front-feature #mobile_link p').addClass('show');
-    });
-    // if u needn't callback function, you can do this way
-    //arphicWebFontApi.loadWebFont(selectorFontNameArray);
-}
-})(jQuery);
-
-</script>
-
-<!--#include virtual="/inc/footer_arphic_webfont.html" -->
+<!--#include virtual="/inc/footer.html" -->
