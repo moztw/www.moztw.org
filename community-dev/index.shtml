@@ -19,11 +19,11 @@
                 
                 <!--#include virtual="/sandstone/header.shtml" -->
                 
-                <hgroup id="main-feature" class="container block">
+                <div id="main-feature" class="container block">
                     <h1>Mozilla</h1>
                     <h2>致力於網路開放、維護大眾的選擇權
                         <br />打造更美好的網路未來</h2>
-                </hgroup>
+                </div>
                 
                 <section class="container block">
                     <div id="key-point">

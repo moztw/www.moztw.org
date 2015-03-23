@@ -34,11 +34,11 @@
 </script>
 <!--#include virtual="/inc/new_header.html" -->
 
-<hgroup id="main-feature">
+<div id="main-feature">
     <h1>Mozilla</h1>
     <h2>致力於網路開放、維護大眾的選擇權
         <br />打造更美好的網路未來</h2>
-</hgroup>
+</div>
 
 <section id="key-point">
     <header class="hide">

@@ -4,14 +4,14 @@
 <meta name="description"
   content="Firefox 正體中文版下載：將所有超棒之處結合在一起，讓您的瀏覽變得更好。 （火狐瀏覽器 Mac/Windows/Linux 版）" />
 <style>
-  #main-feature hgroup {
+  #main-feature .hgroup {
     float: left;
     margin-left: 24px;
   }
-  #main-feature hgroup h1 {
+  #main-feature .hgroup h1 {
     margin-bottom: 0.5em;
   }
-  #main-feature hgroup h4 {
+  #main-feature .hgroup h4 {
     margin-bottom: 2em;
   }
   .download-button-small {
@@ -193,10 +193,10 @@
 
 <section id="main-feature" class="container block">
   <div class="product-side row">
-    <hgroup id="product-desc" class="stacked">
+    <div id="product-desc" class="stacked hgroup">
       <h1>Firefox</h1>
       <h4>將所有超棒之處結合在一起，讓您的瀏覽變得更好。</h4>
-    </hgroup>
+    </div>
     <!--#include virtual="/inc/dlff-new.html" -->
   </div>
 </section>

@@ -9,10 +9,10 @@
 	<meta property="og:description" content="Mozilla 全球社群依循 Mozilla 宣言，致力於打造更開放自由的網路、提升人們的網路體驗、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的在地參與可辦不到！">
 <!--#include virtual="/inc/new_header.html" -->
 	
-	<hgroup id="main-feature">
+	<div id="main-feature">
 		<h1><span class="zh">贊助</span>Mozilla</h1>
 		<h2>致力於網路開放、維繫大眾的選擇<br />打造更美好的網路未來</h2>
-	</hgroup>
+	</div>
 
 	<section id="key-point">
         <h2>請與我們一起保護網際網路</h2>

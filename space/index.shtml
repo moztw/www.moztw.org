@@ -14,20 +14,20 @@
 <!--#include virtual="/sandstone/header.shtml" -->
 
 <header id="masthead" role="banner">
-  <hgroup>
+  <div class="hgroup">
     <h1 id="site-title">摩茲工寮</h1>
     <h2 id="site-description">Mozilla Community Space Taipei</h2>
-  </hgroup>
+  </div>
 </header>
 
 <div id="wrap">
   <main>
     <section id="intro" class="grids">
       <header>
-        <hgroup>
+        <div class="hgroup">
           <h1>摩茲人與開放文化愛好者的天地</h1>
           <h2>A Place for Mozillians &amp; Open Culture Lover</h2>
-        </hgroup>
+        </div>
       </header>
       <div class="grid-12">
         <p>摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。</p>
@@ -54,16 +54,14 @@
 
     <section id="schedule" class="grids">
       <header>
-        <hgroup>
+        <div class="hgroup">
           <h1>開放時間、活動、排班表</h1>
           <h2>Opening Hours &amp; Schedule</h2>
-        </hgroup>
+        </div>
       </header>
       <div class="grid-6">
         <p>原則上，週一至週五晚間 19:30-22:00 皆對全體 Mozilla 社群成員開放，而每週五晚的 <a href="http://moztw.org/events/moztw-lab/">MozTW Lab 台北場</a>也在此舉辦。確實開放時間，請參考日曆（排班表）。</p>
-
         <p lang="zh-TW">如果你不確定有沒有人在，可以前往<a href="https://groups.google.com/forum/#!forum/moztw-general">郵件群組</a>、<a href="ircs://irc.mozilla.org/#mozilla-taiwan">IRC</a> 或我們的 Telegram 群組上面問一下。</p>
-
         <p lang="en-US">If you're wondering if it's opened, please check <a href="https://groups.google.com/forum/#!forum/moztw-general">Google Group</a> or <a href="ircs://irc.mozilla.org/#mozilla-taiwan">IRC</a>.</p>
       </div>
       <div class="grid-6">
@@ -74,10 +72,10 @@
 
     <section id="hostevent" class="grids">
       <header>
-        <hgroup>
+        <div class="hgroup">
           <h1>歡迎到摩茲工寮辦活動</h1>
           <h2>Host an Event Here</h2>
-        </hgroup>
+        </div>
       </header>
       <div class="grid-12">
         <div id="eventphotos"></div>
@@ -88,10 +86,10 @@
 
     <section id="bekeyholder" class="grids">
       <header>
-        <hgroup>
+        <div class="hgroup">
           <h1>申請摩茲工寮鑰匙</h1>
           <h2>Be a Keyholder</h2>
-        </hgroup>
+        </div>
       </header>
 
       <div class="grid-12">
@@ -149,10 +147,10 @@
 
     <section id="about" class="grids">
       <header>
-        <hgroup>
+        <div class="hgroup">
           <h1>關於摩茲工寮</h1>
           <h2>About Mozilla Community Space Taipei</h2>
-        </hgroup>
+        </div>
       </header>
 
       <div class="grid-6">

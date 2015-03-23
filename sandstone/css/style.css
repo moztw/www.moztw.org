@@ -179,5 +179,5 @@ ol.list,ol.list ol{list-style:number}
 .os-unrecognized .unrecognized-download{display:inline-block}
 .header-menu,.page-home-foxmosa-ul,footer ul{margin:0;padding:0;list-style:none}
 ul.list{margin:0 0 0 20px;padding:0}
-hgroup h1,hgroup h2,.container h1,.container h2,.container h3{margin-top:0}
+.hgroup h1,.hgroup h2,.container h1,.container h2,.container h3{margin-top:0}
 .container p{margin:0}

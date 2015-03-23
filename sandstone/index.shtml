@@ -3,10 +3,10 @@
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
-  <hgroup id="main-feature" class="container block">
+  <div id="main-feature" class="container block">
     <h1>MozTW</h1>
     <h2>Doing good is part of our code</h2>
-  </hgroup>
+  </div>
 
   <section class="container block">
     <h2 class="block-title hide">標題</h2>

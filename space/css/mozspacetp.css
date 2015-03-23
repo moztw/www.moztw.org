@@ -33,7 +33,7 @@ h3 {
   text-shadow: 1px 1px 2px #fff, 0 0 1em #fff, 0 0 0.2em #fff;
 }
 
-#masthead hgroup {
+#masthead .hgroup {
   background:rgba(255,255,255,.8);
   padding: 70px 0;
 }
@@ -158,7 +158,7 @@ div[class^=grid-] {
 
 @media only screen and (max-width:960px) {
 
-  #masthead hgroup {
+  #masthead .hgroup {
    padding: 20px 0;
   }
   #masthead h1 {
