@@ -10,36 +10,33 @@ ul {
 	max-width: 990px;
 	width: auto;
 }
-#main hgroup {
-	margin-left: 24px;
-}
-#main hgroup ul li img {
+#main .hgroup ul li img {
 	width:60px;
 	height:60px;
 	vertical-align: middle;
 	margin-right: 1em;
 }
-#main hgroup ul li p{
+#main .hgroup ul li p{
 	margin-left: 6.5em;
 	margin-bottom: 1em;
 }
 
-@media (max-width: 500px){
-	#main hgroup {
-		margin-left: 0;
-	}
-	#main hgroup span{
-		display: none;
-	}
-	#main hgroup ul li img {
-		display: block;
-		width: 60%;
-		height: auto;
-		margin: 0 auto;
-	}
-	#main hgroup ul li p{
-		margin-left: 0;
-	}
+@media (max-width: 500px) {
+  #main .hgroup {
+    margin-left: 0;
+  }
+  #main .hgroup span{
+    display: none;
+  }
+  #main .hgroup ul li img {
+    display: block;
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+  }
+  #main .hgroup ul li p{
+    margin-left: 0;
+  }
 }
 
 </style>
@@ -50,37 +47,35 @@ ul {
 
 <div class="content container block">
 	<section class="container block" id="main">
-		<div class="module wider">
-			<hgroup>
-				<ul title="下載列表">
-					<li>
-						<h3>
-							<a class="producttitle" href="/firefox/">
-								<img src="/images/product-firefox-v4-180.png" alt="Firefox Logo"><strong>Firefox</strong><span>: 網路體驗再進化</span>
-							</a>
-						</h3>
-						<p>全新外觀、速度超快、一切都變得更棒！</p>
-					</li>
-					<li>
-						<h3>
-							<a class="producttitle" href="/thunderbird/">
-								<img src="/images/product-thunderbird-v3.png" alt="Thunderbird Logo"><strong>Thunderbird</strong><span>: 以您為本的郵件體驗</span>
-							</a>
-						</h3>
-						<p>Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
-					</li>
-					<li>
-						<h3>
-							<a class="producttitle" href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'SeaMonkey', 'SeaMonkey');">
-								<img src="/images/seamonkey64.png" alt="SeaMonkey Logo"><strong>SeaMonkey</strong><span>: 完整的 Internet 方案</span>
-							</a>
-						</h3>
-						<p>SeaMonkey 是全能的上網工具。內含網頁瀏覽器、郵件軟體、新聞群組與資訊來源訂閱軟體、IRC 聊天工具以及網頁編輯功能。</p>
-					</li>
-				</ul>
-			</hgroup>
-		</div>
-	</section>
+		<div class="module wider hgroup">
+      <ul title="下載列表">
+        <li>
+        <h3>
+          <a class="producttitle" href="/firefox/">
+            <img src="/images/product-firefox-v4-180.png" alt="Firefox Logo"><strong>Firefox</strong><span>: 網路體驗再進化</span>
+          </a>
+        </h3>
+        <p>全新外觀、速度超快、一切都變得更棒！</p>
+        </li>
+        <li>
+        <h3>
+          <a class="producttitle" href="/thunderbird/">
+            <img src="/images/product-thunderbird-v3.png" alt="Thunderbird Logo"><strong>Thunderbird</strong><span>: 以您為本的郵件體驗</span>
+          </a>
+        </h3>
+        <p>Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
+        </li>
+        <li>
+        <h3>
+          <a class="producttitle" href="http://www.seamonkey-project.org/releases/" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'SeaMonkey', 'SeaMonkey');">
+            <img src="/images/seamonkey64.png" alt="SeaMonkey Logo"><strong>SeaMonkey</strong><span>: 完整的 Internet 方案</span>
+          </a>
+        </h3>
+        <p>SeaMonkey 是全能的上網工具。內含網頁瀏覽器、郵件軟體、新聞群組與資訊來源訂閱軟體、IRC 聊天工具以及網頁編輯功能。</p>
+        </li>
+      </ul>
+    </div>
+  </section>
 </div>
 
 <div class="content container block">

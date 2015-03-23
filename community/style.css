@@ -1,3 +1,7 @@
+#key-point {
+  background-color: #3E4B58;
+}
+
 #key-point > * {
 	float: left;
 	width: 680px;

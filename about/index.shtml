@@ -35,6 +35,11 @@
             <li><a href="http://wiki.moztw.org">社群共筆系統</a></li>
           </ul>
         </div>
+        <div class="grid-12">
+          <h4>特別感謝 Acknowledgements</h4>
+          <p>本站舊樣式修改自 mozilla.org 的 Cavendish 風格，經原作者同意由本站使用，部分頁面新樣式採用 <a href="https://www.mozilla.org/en-US/styleguide/websites/sandstone/">Sandstone 風格</a>。</p>
+          <p>本站主機由 <a href="http://www.sinica.edu.tw">中央研究院 (Academia Sinica)</a> <a href="http://www.citi.sinica.edu.tw/">資訊科學創新研究中心 (CITI)</a> <a href="http://www.openfoundry.org/">自由軟體鑄造場 (OSSF)</a> 提供代管服務，也感謝 <a href="http://www.csie.ntu.edu.tw/">台大資訊系 (NTU CSIE)</a> 到 2004/08 前的支援。</p>
+        </div>
       </div>
     </div>
   </article>

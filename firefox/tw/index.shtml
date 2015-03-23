@@ -13,12 +13,10 @@
     <link href="/js/library/fancybox2/helpers/jquery.fancybox-thumbs.css" type="text/css" rel="stylesheet" />
 <!--#include virtual="/inc/new_header.html" -->
 
-    <hgroup id="main-feature">
+    <div id="main-feature">
         <h1>Firefox 台灣版</h1>
-        <h2>
-            「Firefox 台灣版」是美商謀智台灣分公司（Mozilla Taiwan）以一般版 Firefox 為基礎，新增下列附加元件所開發的在地化版本。
-        </h2>
-    </hgroup>
+        <h2>「Firefox 台灣版」是美商謀智台灣分公司（Mozilla Taiwan）以一般版 Firefox 為基礎，新增下列附加元件所開發的在地化版本。</h2>
+    </div>
     
     <section id="fxtw-download" class="billboard no-js">
         <header>

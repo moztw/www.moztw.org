@@ -23,10 +23,10 @@
 
                 <!--#include virtual="/sandstone/header.shtml" -->
 
-                <header id="title_area" class="container block">
+                <div id="title_area" class="container block">
                     <h1 id="site-title" class="large">Foxmosa</h1>
                     <h2 id="site-description">狐耳摩莎</h2>
-                </header>
+                </div>
 
                 <div id="content-area">
                     <section id="foxmosa-info" class="container block row">

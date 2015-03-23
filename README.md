@@ -14,6 +14,8 @@ please fork and checkout as you need.
     gfx.tw - Repo for http://gfx.tw, personal Firefox promotion and product page platform
     irclog.moztw.org - IRC Archive for #mozilla-taiwan of irc.mozilla.org
     translate.moztw.org - Localization system related stuff
+    planet.moztw.org - A Planetplanet installation for MozTW Planet http://planet.moztw.org/
+ 
     
     Demos:
     
@@ -21,7 +23,7 @@ please fork and checkout as you need.
     star-pusher - Foxmosa Sokuban game at moztw.org/foxmosa/game/stars
     moztw.org-demo - HTML5 demos located at moztw.org/demo  
     
-    Depreciated:
+    Deprecated:
     wiki.moztw.org - Wiki which is not in active usage
     photos.moztw.org - Picture Gallery of MozTW prior to Firefox 1.5 times.
 
@@ -110,3 +112,4 @@ e.g., _.htaccess_ feature was not supported.
 ## Coding Style
 * Please always use LF on line ending, and set 2/4 space characters as indent according to the original style of each files.
 * Please take [Mozilla Coding Style](https://developer.mozilla.org/en-US/docs/Mozilla_Coding_Style_Guide) as reference.
+* If your editor supports [EditorConfig](http://editorconfig.org/), install the plugin and it will take care the style config. 
