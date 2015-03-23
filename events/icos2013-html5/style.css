@@ -119,7 +119,7 @@ section h1, h2 {
     padding-left: 2em;
 }
 #main li:before {
-    background-image: url("/images/HTML5_star_s.png");
+    background-image: url("/images/HTML5_Star_s.png");
     content: "．";
     display: inline-block;
     height: 12px;
