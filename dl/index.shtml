@@ -10,9 +10,6 @@ ul {
 	max-width: 990px;
 	width: auto;
 }
-#main .hgroup {
-	margin-left: 24px;
-}
 #main .hgroup ul li img {
 	width:60px;
 	height:60px;
