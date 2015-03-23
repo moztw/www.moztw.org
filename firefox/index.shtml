@@ -192,7 +192,7 @@
 <!--#include virtual="/sandstone/header.shtml" -->
 
 <section id="main-feature" class="container block">
-  <div id="product-side row">
+  <div class="product-side row">
     <hgroup id="product-desc" class="stacked">
       <h1>Firefox</h1>
       <h4>將所有超棒之處結合在一起，讓您的瀏覽變得更好。</h4>
