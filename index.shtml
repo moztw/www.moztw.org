@@ -229,7 +229,7 @@
 
 <div id="mBody">
   <div class="frontcolumn hide" id="mobile-feature-ios">
-    <h2 class="mobile-header"><a href="https://itunes.apple.com/tw/app/bookmarks-on-the-go/id550037184?l=zh&mt=8" onClick="ga('send', 'event', 'Outgoing', 'iOS-AppStore-BookmarkOnTheGo', 'frontpage-frontcolumn');">Bookmark On The Go<img src="/images/product-firefox-home.png" alt="Bookmark On The Go" class="promo"></a></h2>
+    <h2 class="mobile-header"><a href="https://itunes.apple.com/tw/app/bookmarks-on-the-go/id550037184?l=zh&amp;mt=8" onClick="ga('send', 'event', 'Outgoing', 'iOS-AppStore-BookmarkOnTheGo', 'frontpage-frontcolumn');">Bookmark On The Go<img src="/images/product-firefox-home.png" alt="Bookmark On The Go" class="promo"></a></h2>
     <p><b>行動首頁帶著走。</b>在 iPhone 上任意取用 Firefox 的瀏覽歷史及書籤，時時同步開啟分頁，喜歡的網站隨時都在您手邊！<br>→ <a href="http://m.youtube.com/#/watch?v=_rFf5BnurVI" onClick="ga('send', 'event', 'Show Video', 'FirefoxHome', 'frontpage');">Firefox Home 迷你短片</a></p>
   </div>
   <div class="frontcolumn hide">
