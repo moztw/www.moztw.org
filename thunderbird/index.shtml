@@ -213,7 +213,7 @@
         </div>
         <div class="grids block">
           <div class="grid-6">
-            <img src="images/phishing-protection.png" />
+            <img alt="釣魚保護" src="images/phishing-protection.png" />
           </div>
           <div class="grid-6">
             <h4>釣魚保護</h4>
@@ -226,7 +226,7 @@
             <p>Thunderbird 的自動更新系統會檢查您的程式是否已經更新到最新版本，也會通知您有新的安全更新。安全更新檔案很小（通常介於 200KB 至 700KB 間），而且只會包含必要的部份，以確保安全性更新能夠在最短的時間內安裝完成。Thunderbird 的自動更新功能可以在 Windows、Mac OS X、與 Linux 上執行，並且支援 40 種以上的語言版本。</p>
           </div>
           <div class="grid-6">
-            <img src="images/automated-update.png" />
+            <img alt="自動更新" src="images/automated-update.png" />
           </div>
         </div>
         <div class="grids block">
