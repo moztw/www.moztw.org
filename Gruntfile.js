@@ -32,11 +32,19 @@ module.exports = function(grunt) {
 				output: './',
 				matcher: '**/*.html'
 			}
+		},
+		sitemap: {
+			dist: {
+				pattern: ['**/*.html', '!**/google*.html'], // this will exclude 'google*.html'
+				siteRoot: './',
+				homepage: "http://moztw.org/",
+			}
 		}
 	});
 	grunt.loadNpmTasks('grunt-contrib-connect');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-copy');
+	grunt.loadNpmTasks('grunt-sitemap');
 	grunt.registerTask('ssi', 'Flatten SSI includes in your HTML files.', function() {
 
 	var ssi = require( 'ssi' )
@@ -48,4 +56,5 @@ module.exports = function(grunt) {
 
 	});
 	grunt.registerTask('default', ['copy', 'ssi', 'connect', 'watch']);
+	grunt.registerTask('map', ['sitemap']);
 };

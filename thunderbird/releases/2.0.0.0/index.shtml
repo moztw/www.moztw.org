@@ -1,11 +1,14 @@
 <!--#include virtual="/inc/meta.html" -->
+<meta property="og:url" content="http://moztw.org/thunderbird/releases/2.0.0.0/">
+<meta property="og:title" content="Mozilla Thunderbird 版本資訊 (2.0.0.0)">
+<!--#include virtual="/thunderbird/inc/ogtag.shtml" -->
 <title>Mozilla Thunderbird 2.0 版本資訊</title>
 <link rel="stylesheet" href="/css/cavendish/releasenote_narrow.css" media="screen">
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 
 <div id="mBody">
-  
+
     <div id="mainContent" class="right">
   	  <div class="key-point">
   		  <div id="product-desc" class="thunderbird-releasenotes-v2">
@@ -14,13 +17,13 @@
           <p>此版本資訊包含 Thunderbird 2 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#links">技術支援與意見回饋</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.com/support/thunderbird/bugs">錯誤回報注意事項</a>閱讀完畢，再到
           <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
           <p>我們想知道您對 Thunderbird 的意見。您可填寫<a href="http://feedback.mozilla.org/">回報表單</a>，或到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/viewforum.php?f=39">英文討論區</a>或 <a href="http://moztw.org/">MozillaTaiwan</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=9">Thunderbird
-    中文討論區</a>與我們分享意見。</p>         
+    中文討論區</a>與我們分享意見。</p>
         </div>
-      </div> 
-      
+      </div>
+
       <!-- What's New -->
       <h2 id="new">Thunderbird 2 新鮮事</h2>
-      
+
       <ul class="news">
         <li><strong>郵件標籤：</strong>你可以利用你自己的標籤來整理郵件，每封郵件都可以加上任意數量的標籤，標籤還可以與搜尋結果作結合，方便你更容易整理郵件。</li>
         <li><strong>新佈景主題：</strong>Thunderbird 2 擁有新的佈景主題和更方便的使用者介面。</li>
@@ -36,7 +39,7 @@
         <li><strong>新擴充套件管理系統：</strong>新的擴充套件管理系統提供了更好的安全性，在地化也更容易。</li>
         <li><strong>新的 Windows 安裝程式：</strong>基於 <a href="http://sourceforge.net/projects/nsis/">Nullsoft Scriptable
               Install System</a> 的新 Windows 安裝程式解決了許多問題。</li>
-        <li><strong>支援 Windows Vista：</strong>許多針對 Windows Vista 的強化和修正。</li>      
+        <li><strong>支援 Windows Vista：</strong>許多針對 Windows Vista 的強化和修正。</li>
         </ul>
 Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/archives/2007/03/tb_2.html">重要錯誤修正</a>詳細清單。
 
@@ -49,12 +52,12 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
 
       <h2 id="install">安裝 Thunderbird</h3>
       <p>請注意：安裝 Thunderbird 2 將<em>覆蓋</em>您現存的 Thunderbird 程式，這並不會遺失你的任何郵件，但有些附加元件可能需要更新才能繼續使用。</p>
-      
+
       <h3 id="uninstall">移除 Thunderbird</h3>
       <p>在 Windows 作業系統中，您可以自「開始」功能表中的「控制台」移除 Thunderbird 2。OS X 的使用者請直接移除「Thunderbird」應用程式，Linux 使用者則請移除「thunderbird」資料夾。</p>
-      
+
       <p>移除 Thunderbird 2 並不會將你的任何郵件和其他附加元件一併刪除，這些資料會留在您的「<em>個人設定資料夾</em>」中，此資料夾存放位置則視作業系統而定：</p>
-      
+
       <table style="font-size: small;" border="1" cellspacing="0">
         <tr>
           <td>Windows Vista</td>
@@ -85,13 +88,13 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
           <td>~/.thunderbird</td>
         </tr>
       </table>
-      
+
 		<p>移除 Thunderbird&nbsp;2 後所安裝的任一版本 Thunderbird 將繼續使用「個人設定資料夾」中的資料。</p>
 
    <h3 id="extensions">擴充套件及佈景主題</h3>
 
       <p>Thunderbird 1.5 安裝的擴充套件可能已不相容於 Thunderbird 2 而應加以升級，如發生此類問題，請回報附加元件原作者。一旦安裝 Thunderbird 2，所有擴充套件及佈景主題會先停用，待 Thunderbird 2 偵測出此套件無相容問題或能升級才會啟用。</p>
-      
+
       <h2><a name="issues">已知問題</a></h2>
       <p>以下列出 Thunderbird 2 部分已知問題，請閱讀後再回報新的程式錯誤，並請定期檢查本欄的更新內容
       （如在此版本發現新問題，我們會隨時在<a href="http://www.mozilla.com/products/thunderbird/2.0.0.0/releasenotes/">英文網頁</a>更新此欄）。</p>
@@ -106,7 +109,7 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
         </li>
         <li>
         「郵件檢視」工具列按鈕不再是預設按鈕，欲使用此一功能，你需要手動將它放回工具列：「檢視＞工具列＞自訂」。
-        </li>      
+        </li>
         <li>
           為了讓 Thunderbird 能依照你的網路連線自動調整連線狀態，你需要將 <tt>network.autodial-helper.enabled</tt> 設為「false」。
         </li>
@@ -137,7 +140,7 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
         </li>
        <li>
 		在 Fedora Core 3 無法與 GNOME 正常整合。 Fedora Core 3 的使用者必須先下載 <a href="http://download.fedora.redhat.com/pub/fedora/linux/core/2/i386/os/Fedora/RPMS/linc-1.0.3-3.1.i386.rpm">linc-1.0.3-3.1.i386.rpm</a>。
-          下載後安裝，安裝完畢後在 Thunderbird 的安裝目錄下執行此命令 (需要寫入權限)：  
+          下載後安裝，安裝完畢後在 Thunderbird 的安裝目錄下執行此命令 (需要寫入權限)：
            <p>
             <code>touch .autoreg</code>
           </p>
@@ -146,7 +149,7 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
       </ul>
       </dd>
      </dl>
-                     
+
       <h2 id="troubleshooting">疑難排解</h2>
       <ul class="spaced">
 
@@ -159,7 +162,7 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
             cd /Applications/Thunderbird.app/Contents/MacOS/<br />
             ./thunderbird-bin -safe-mode
           </code></p>
-          當啟動安全模式時，所有的附加元件將停用並使用預設的佈景主題。在安全模式下移除有問題的擴充套件/佈景主題，然後再正常的啟動瀏覽器。 
+          當啟動安全模式時，所有的附加元件將停用並使用預設的佈景主題。在安全模式下移除有問題的擴充套件/佈景主題，然後再正常的啟動瀏覽器。
           </li>
       </ul>
     </ul>
@@ -170,9 +173,9 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
       Thunderbird 新版的新聞；也可以在您的 Blog 上透漏一點相關訊息；總之，儘可能的在網際網路中散佈就對了！ </li>
   <li>你們為什麼都沒有回信？
   <p>請使用<a href="http://forums.mozillazine.org/index.php?c=8">討論區</a>， Thunderbird 團隊會定期閱讀上面的文章。我們常常都收到大量的信件，而您的可能不小心漏失了。</p></li>
-  <li>我該去哪裡取得新的佈景主題與擴充功能（附加元件）？  
+  <li>我該去哪裡取得新的佈景主題與擴充功能（附加元件）？
   <p><a href="https://addons.mozilla.com/thunderbird/extensions/">擴充套件</a>及<a href="https://addons.mozilla.com/thunderbird/themes/">佈景主題</a>可自 <a href="https://addons.mozilla.com/thunderbird/">Thunderbird 附加元件</a>下載。</p></li>
-  <li>哪些人正致力於 Thunderbird 的開發工作？ 
+  <li>哪些人正致力於 Thunderbird 的開發工作？
   <p>很多人。詳細列表請參考「說明＞關於 Mozilla Thunderbird」</p></li>
   <li>Thunderbird 2 的原始碼在何處？
   <p>Thunderbird 2 原始碼已開放<a href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/2.0.0.0/source/">下載</a>，而目前開發中的最新程式碼則需以 <a href="http://developer.mozilla.org/en/docs/Mozilla_Source_Code_Via_CVS">CVS</a> 取得。Thunderbird 相關程式為「mozilla/mail」、「mozilla/mailnews」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href="http://developer.mozilla.org/en/docs/Build_Documentation">建置步驟</a>。</p></li>
@@ -182,13 +185,13 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
 
       <p>Mozilla 代表<a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="http://www.mozilla.com/thunderbird/all.html">Thunderbird 2 下載頁</a>取得檔案。
       </p>
-         
+
       <p>其他尚未被官方 Firefox 2 驗證通過的本地化版本可以在
          <a href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/2.0.0.0/contrib-localized/">FTP 站台</a>取得。</p>
 
-      <h2 id="links">其他資源和連結</h2>  
+      <h2 id="links">其他資源和連結</h2>
       <p>下面提供了幾個有用的連結：</p>
-      
+
       <ul class="spaced">
         <li><a href="http://kb.mozillazine.org/Getting_started_with_Thunderbird">開始使用 Thunderbird</a>（一份簡易的 Thunderbird 入門手冊）</li>
         <li><a href="http://kb.mozillazine.org/Thunderbird">MozillaZine 知識庫</a>（FAQ、小技巧和其他有用資訊）</li>
@@ -198,8 +201,8 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
         <li><a href="http://wiki.mozilla.org/Thunderbird2">Thunderbird 2 計畫網頁</a>（看看關於 Thunderbird 的開發資訊）</li>
         <li><a href="http://www.mozilla.org/projects/thunderbird/">開發者資訊</a>（看看你該如何幫助 Thunderbird）</li>
       </ul>
-      
-<!--     <p>&nbsp;</p>         
+
+<!--     <p>&nbsp;</p>
     	  <small>舊版本資訊: <a href="0.1-release-notes.html">
             0.1</a> | <a href="0.2-release-notes.html">
             0.2</a> | <a href="0.3-release-notes.html">
@@ -215,7 +218,7 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
             1.0.5</a> | <a href="1.0.6-release-notes.html">
             1.0.6</a> | <a href="1.0.7-release-notes.html">
             1.0.7</a>
-            </small>      
+            </small>
 -->
 
     </div><!-- close #mainContent -->
@@ -223,7 +226,7 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
       <ul id="nav">
         <li><a href="/thunderbird/">回到 Thunderbird 首頁</a></li>
       </ul>
-      
+
       <ul id="nav">
         <li><a href="#new">新鮮事</a></li>
         <li><a href="#requirements">系統需求</a></li>
