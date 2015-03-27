@@ -35,7 +35,7 @@ module.exports = function(grunt) {
 		},
 		sitemap: {
 			dist: {
-				pattern: ['**/*.html', '!**/google*.html'], // this will exclude 'google*.html'
+				pattern: ['**/*.html', '!**/google*.html','!**/inc/*','!**/node_modules/*','!**/sandstone/*',' !**/*-dev/*','!**/index2*'],
 				siteRoot: './',
 				homepage: "http://moztw.org/",
 			}
