@@ -40,8 +40,7 @@ module.exports = function(grunt) {
 				'**/*.txt',
 				'!**/google*.html',
 				'!**/sitemap.txt',
-				'!**/+(*-dev|node_modules|inc])/**',
-				'!**/sandstone/*',
+				'!**/+(*-dev|node_modules|inc|sandstone)/**',
 				'!**/index2*'
 				],
 				siteRoot: './',
@@ -65,5 +64,4 @@ module.exports = function(grunt) {
 
 	});
 	grunt.registerTask('default', ['copy', 'ssi', 'connect', 'watch']);
-	grunt.registerTask('map', ['sitemap']);
 };

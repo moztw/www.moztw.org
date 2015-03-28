@@ -2,3092 +2,2468 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://moztw.org/about/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/about/mozilla.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/about/mozillamanifesto.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/beta/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/camino/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/community-dev/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/community/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/contribute/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/contribute/sumo/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/dl/chrome/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/dl/fx/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/dl/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/dl/index2.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/dl/langpack/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/dl/langpack/old-versions.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/dl/moz/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/dl/ns/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/dl/nvu/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/dl/plugins/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/dl/search/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/dl/tb/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/big5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/dev/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/expired/gecko.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/expired/tip.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/expired/whymoz.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/ff/end-hassle/</loc>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/ff/errNoXblBinding/</loc>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/ff/extension/</loc>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/ff/live-bookmarks/</loc>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/ff/roadmap1.0/</loc>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/ff/search/</loc>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/ff/switch/</loc>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/ff/system-requirements/</loc>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/ff/tabbed-browsing/</loc>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/ff/text-zoom/</loc>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/ff/ui-customize/</loc>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/fn/system-requirements/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/fx/end-hassle/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/fx/errNoXblBinding/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/fx/extension/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/fx/live-bookmarks/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/fx/roadmap1.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/fx/search/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/fx/switch/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/fx/system-requirements/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/fx/tabbed-browsing/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/fx/text-zoom/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/fx/ui-customize/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/gecko/aboutdom/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/gecko/webdevfaq/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/glossaries/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/loctech/mt4tut/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/moz/getstarted/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/ns/activation/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/tb/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/template.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/docs/usage/uifont/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/donate/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/3.6personas/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/app-dev-party/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/code-rush/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/firefox2party/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/firefox3party/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/firefox4party/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/firefox4party/landing/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/firefox4party/slides/feature/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/firefox4party/slides/mobile/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/foxmosa-tour/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/furp/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/furp/slides/wm/shells/embedder.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/furp/slides/wm/shells/onstage.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/furp/slides/wm/template.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/gathering/11-1.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/gathering/12-1.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/gathering/slides/embedder.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/gathering/slides/orinxchen-introduction_to_browserid.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/gathering/slides/petercpg_world_ready.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/icos2013-html5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/ie8/ie8-qa.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/ie8/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/jetpack-workshop/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/may2009/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/moztw-lab/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/nctuserv2012/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/newyear2012/iframe.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/newyear2012/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/record2008/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/scp0712/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/service2013/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/service2013q4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/sfd2011/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/sfx/activity.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/sfx/conference.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/sfx/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/sfx/party.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/sfx/test.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/sfx/top_block.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/sfx/workshop.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/sopa/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/events/vday2009/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/buttons/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/central/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/download/latest-linux.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/download/latest-osx.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/download/latest-win.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/extension_top_15/1nd.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/extension_top_15/2nd.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/extension_top_15/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/macfont/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/0.10/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/0.9/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.0.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.0.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.0.7/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.0.8/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.0pr/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.5.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.5.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.5.0.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.5.0.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.5.0.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.5.0.6/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.5.0.7/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/1.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/10.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/10.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/10.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/11.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/12.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/13.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/13.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/14.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/15.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/15.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/16.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/16.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/16.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/17.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/17.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/18.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/18.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/18.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/19.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/19.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/19.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.10/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.11/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.12/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.13/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.14/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.16/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.6/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.7/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.8/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0.0.9/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/2.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/20.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/20.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/21.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/22.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.10/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.11/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.12/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.13/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.14/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.15/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.16/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.17/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.18/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.19/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.6/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.7/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.8/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0.9/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0b3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.0b4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.10/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.11/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.12/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.13/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.14/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.15/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.16/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.17/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.18/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.19/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.6/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.7/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.8/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5.9/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.10/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.11/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.12/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.13/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.14/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.15/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.16/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.17/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.18/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.19/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.20/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.21/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.22/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.23/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.24/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.25/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.26/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.27/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.28/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.6/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.7/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.8/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6.9/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/3.6/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/4.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/4.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/5.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/5.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/6.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/6.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/6.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/7.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/7.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/8.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/8.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/9.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/9.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/releases/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/revguide/corefeatures.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/revguide/improved.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/revguide/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/revguide/secutiry_and_addons.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/revguide/underthehood.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/revguide/whatsnew.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/support/keyboard/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox-new/tw/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/buttons/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/central/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/download/latest-linux.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/download/latest-osx.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/download/latest-win.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/extension_top_15/1nd.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/extension_top_15/2nd.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/extension_top_15/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/macfont/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/0.10/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/0.9/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.0.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.0.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.0.7/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.0.8/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.0pr/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.5.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.5.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.5.0.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.5.0.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.5.0.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.5.0.6/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.5.0.7/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/1.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/10.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/10.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/10.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/11.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/12.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/13.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/13.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/14.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/15.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/15.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/16.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/16.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/16.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/17.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/17.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/18.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/18.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/18.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/19.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/19.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/19.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.10/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.11/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.12/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.13/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.14/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.16/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.6/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.7/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.8/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0.0.9/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/2.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/20.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/20.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/21.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/22.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/23.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/23.0.dev/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/23.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/24.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/25.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/25.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/26.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/27.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/27.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/28.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/29.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/29.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.10/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.11/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.12/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.13/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.14/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.15/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.16/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.17/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.18/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.19/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.6/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.7/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.8/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0.9/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0b3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.0b4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.10/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.11/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.12/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.13/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.14/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.15/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.16/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.17/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.18/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.19/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.6/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.7/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.8/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5.9/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.10/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.11/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.12/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.13/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.14/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.15/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.16/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.17/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.18/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.19/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.20/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.21/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.22/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.23/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.24/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.25/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.26/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.27/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.28/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.6/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.7/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.8/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6.9/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/3.6/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/30.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/31.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/32.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/32.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/32.0.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/32.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/33.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/33.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/33.0.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/33.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/33.1.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/33.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/34.0.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/34.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/35.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/35.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/36.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/36.0.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/36.0.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/36.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/4.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/4.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/5.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/5.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/6.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/6.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/6.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/7.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/7.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/8.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/8.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/9.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/9.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/releases/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox/releases/index2.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/revguide/_menu.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/revguide/corefeatures.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/revguide/improved.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/revguide/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/revguide/secutiry_and_addons.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/revguide/underthehood.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/revguide/whatsnew.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/start_pages/snippets/snippet-1.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/start_pages/snippets/snippet-10.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/start_pages/snippets/snippet-11.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/start_pages/snippets/snippet-2.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/start_pages/snippets/snippet-3.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/start_pages/snippets/snippet-4.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/start_pages/snippets/snippet-5.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/start_pages/snippets/snippet-6.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/start_pages/snippets/snippet-7.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/start_pages/snippets/snippet-8.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/start_pages/snippets/snippet-9.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/support/keyboard/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://moztw.org/firefox/tw-dev/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/firefox/tw/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/foxmosa/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/link/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/m/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/mobile/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/mobile/movie.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/mozilla/1.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/mozilla/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/narrow.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/netscape/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/news/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/nvu/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/outgo/flicksmovie.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/press/moztw-20050305.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/press/moztw-20050324.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/press/moztw-20050909.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/press/moztw-20051129.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/press/moztw-20061003.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/press/moztw-20061024.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/space/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/template.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/1.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/13.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/14.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/15.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/16.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/16.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/16.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/17.0.2/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/17.0.3/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/17.0.4/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/17.0.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/17.0.6/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/17.0.7/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/17.0.8/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/17.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/2.0.0.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/2.0.0.12/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/2.0.0.5/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/2.0.0.9/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/24.0.1/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/24.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/24.1.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/24.2.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/24.3.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/24.5.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/24.6.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/31.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/31.4.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/31.5.0/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/releases/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/system-requirements/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/thunderbird/why/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/tools/</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/tools/lpext/mozextrdf_pl.html</loc>
-    <lastmod>2015-03-26T16:19:22.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:09.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/tools/mozlcdb/</loc>
-    <lastmod>2015-03-26T16:19:21.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:08.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/twoffice/</loc>
-    <lastmod>2015-03-26T16:19:21.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-28T17:55:08.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://moztw.org/twoffice/whatismozilla.html</loc>
-    <lastmod>2015-03-26T15:42:35.000Z</lastmod>
-    <changefreq>daily</changefreq>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/big5_1984-b2u.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/big5_1984-u2b.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/big5_1984.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/big5_2003-b2u.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/big5_2003-u2b.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/big5e.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/big5plus-obsolete.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/cp950-b2u.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/cp950-u2b.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/eten.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/gccs.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/hkscs1999.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/hkscs2001-b2u.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/hkscs2001-u2b.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/hkscs2001.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/hkscs2004.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/ibm-b2u.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/ibm-u2b.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/moz15-b2u.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/moz15-u2b.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/moz18-b2u-rule.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/moz18-b2u-strict.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/moz18-b2u.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/moz18-u2b.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/uao241-b2u.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/uao241-u2b.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/uao250-b2u.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/uao250-u2b.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/big5/table/unicode1.1-obsolete.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/expired/reimportbookmark.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/icos03/dm_notes.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/icos03/notes.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/docs/loctech/localized_build.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/firefox/download/downloadurl.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/firefox/start_pages/about.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/firefox/start_pages/central.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/firefox/start_pages/get-involved.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/firefox/start_pages/snippets/title.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/tools/README_FIRST.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/tools/firefox09.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/tools/lpext/mozextrdf_pl.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/tools/mozip.1.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/tools/mozip.2.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/tools/mozip.3.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/tools/mozip.4.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/tools/mozlcdb/archive/mozlcdb.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/tools/phtr.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://moztw.org/tools/premozip.txt</loc>
+    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
 </urlset>
