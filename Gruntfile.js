@@ -46,7 +46,7 @@ module.exports = function(grunt) {
 				],
 				siteRoot: './',
 				homepage: "http://moztw.org/",
-				changefreq: "never",
+				changefreq: "monthly",
 			}
 		}
 	});
