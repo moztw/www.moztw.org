@@ -35,9 +35,17 @@ module.exports = function(grunt) {
 		},
 		sitemap: {
 			dist: {
-				pattern: ['**/*.html', '!**/google*.html'], // this will exclude 'google*.html'
+				pattern: [
+				'**/*.html',
+				'**/*.txt',
+				'!**/google*.html',
+				'!**/sitemap.txt',
+				'!**/+(*-dev|node_modules|inc|sandstone)/**',
+				'!**/index2*'
+				],
 				siteRoot: './',
 				homepage: "http://moztw.org/",
+				changefreq: "monthly",
 			}
 		}
 	});
@@ -47,14 +55,13 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-sitemap');
 	grunt.registerTask('ssi', 'Flatten SSI includes in your HTML files.', function() {
 
-	var ssi = require( 'ssi' )
+		var ssi = require( 'ssi' )
 		, opts = this.options()
 		, files = new ssi( opts.input, opts.output, opts.matcher )
 		;
 
-	files.compile();
+		files.compile();
 
 	});
 	grunt.registerTask('default', ['copy', 'ssi', 'connect', 'watch']);
-	grunt.registerTask('map', ['sitemap']);
 };

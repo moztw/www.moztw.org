@@ -12,6 +12,8 @@
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
 <h1>過去的公告記錄</h1>
 <ul class="news">
+<li><div class="date"> 3 月 22</div>
+  <a href="/firefox/releases/36.0.4/">Firefox 36.0.4</a> 更新</li>
 <li><div class="date"> 3 月 21</div>
   Firefox 36.0.3 更新</li>
 <li><div class="date"> 3 月 6</div>
