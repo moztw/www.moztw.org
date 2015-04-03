@@ -17,7 +17,7 @@
 		<div class="grid-9">
 			<article class="module">
 				<h2>Thunderbird 版本資訊</h2>
-				<p id="release_dates"><time datetime="2015-04-02">2015 年 4 月 02 日</time> v.31.6.0</p>
+				<p id="release_dates"><time datetime="2015-04-02">2015 年 4 月 2 日</time> v.31.6.0</p>
 				<p>此版本資訊包含了 <a href="#whatsnew">Thunderbird 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
 				<p>我們想知道您對 Thunderbird 的想法。歡迎到 MozillaZine 上的<a href="http://forums.mozillazine.org/viewforum.php?f=50">英文討論區</a>或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Thunderbird 中文討論區</a>與我們分享意見。若您有興趣的話，也可至 Bugzilla 看看這個版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?classification=Client%20Software&amp;query_format=advanced&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;target_milestone=Thunderbird%2031.0&amp;product=Thunderbird&amp;resolution=FIXED">完整變更清單</a>。</p>
 
