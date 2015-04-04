@@ -30,6 +30,10 @@
   position: relative;
 }
 
+#releasenotes ul.tags li.untagged {
+  padding-left: 0;
+}
+
 #releasenotes ul.tags li.complete {
   line-height: 1;
   min-height: 20px;
