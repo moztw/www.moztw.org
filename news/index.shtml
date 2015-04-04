@@ -12,8 +12,6 @@
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
 <h1>過去的公告記錄</h1>
 <ul class="news">
-<li><div class="date"> 4 月 2</div>
-  <a href="/thunderbird/releases/31.6.0/">Thunderbird 31.6.0</a> 更新</li>
 <li><div class="date"> 4 月 1</div>
   <a href="/firefox/releases/37.0/">Firefox 37.0</a> 更新</li>
 <li><div class="date"> 3 月 22</div>
@@ -54,6 +52,8 @@
 <a href="/firefox/releases/32.0/">Firefox 32.0</a>、Thunderbird 31.1.0 更新
 <li><div class="date"> 7 月 22</div>
 <a href="/firefox/releases/31.0/">Firefox 31.0</a>、<a href="/thunderbird/releases/31.0/">Thunderbird 31.0</a> 更新
+<li><div class="date"> 7 月 2</div>
+  全新 <a href="/thunderbird/">Thunderbird 產品頁</a> 上線</li>
 <li><div class="date"> 6 月 11</div>
 <a href="/firefox/releases/30.0/">Firefox 30.0</a>、<a href="/thunderbird/releases/24.6.0/">Thunderbird 24.6.0</a> 更新
 <li><div class="date"> 5 月 10</div>
