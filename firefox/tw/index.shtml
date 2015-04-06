@@ -140,7 +140,7 @@
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="Firefox 首頁" value="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.2.2.xpi" addon="twhomepage" type="checkbox">列入安裝清單</label> |
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twhomepage/twhomepage-0.2.2.xpi" onclick="ga('send', 'event', 'Install', 'myfirefox', 'addon_twhomepage');">+立即安裝</a>
                                 </div>
-                                <div class="tracking"><a href="http://mozilla.com.tw/firefox/ueip/" onclick="ga('send', 'event', 'Outgoing', 'mozilla.com.tw/firefox/ueip', 'firefox-tw');" target="_blank">使用者體驗改善計畫</a></div>
+                                <div class="tracking"><a href="https://github.com/MozillaOnline/twhp/blob/d4c05375c9c3831dd8f9c38aa52bcb8656d65d7d/chrome_ntab/content/ntab/track.js" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'Github', 'mozillaonline-twhomepage']);">美商謀智透過本套件進行行為追蹤</a></div>
                                 <div class="source">
                                     <a href="https://github.com/mozillaonline/twhp" target="_blank" onclick="ga('send', 'event', 'Outgoing', 'github', 'firefox-tw');">觀看原始碼</a>
                                 </div>
@@ -171,13 +171,13 @@
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="附加元件管理器" value="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.2.1.xpi" addon="tpmanager" type="checkbox">列入安裝清單</label> |
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tpmanager/tpmanager-0.2.1.xpi" onclick="ga('send', 'event', 'Install', 'myfirefox', 'addon_tpmanager');">+立即安裝</a>
                                 </div>
-                                <div class="tracking"><a href="http://mozilla.com.tw/firefox/ueip/" onclick="ga('send', 'event', 'Outgoing', 'mozilla.com.tw/firefox/ueip', 'firefox-tw');" target="_blank">使用者體驗改善計畫</a></div>
+                                <div class="tracking"><a href="https://github.com/MozillaOnline/tpmanager/blob/9762f987cb4db56730176d4a140f94a02a3a116d/content/overlay-browser.js" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'Github', 'mozillaonline-tpmanager']);">美商謀智透過本套件進行行為追蹤</a></div>
                                 <div class="source">
                                     <a href="https://github.com/mozillaonline/tpmanager" target="_blank"  onclick="ga('send', 'event', 'Outgoing', 'github', 'firefox-tw');">觀看原始碼</a>
                                 </div>
                                 <blockquote>用來管理 Firefox 的附加元件工具。</blockquote>
                                 <div class="extension-description">
-                                    <p>本套件功能為收集你使用 Firefox 過程的行為資訊，包含介面上按鈕（例如附加元件列、工具列上的按鈕……等）點擊次數與開啟、關閉分頁數目……等資訊，並在關閉 Firefox 開啟與關閉時，送出收集的數據。詳情請參考「<a href="http://mozilla.com.tw/firefox/ueip/" onclick="ga('send', 'event', 'Outgoing', 'mozilla.com.tw/firefox/ueip', 'firefox-tw');" target="_blank">使用者體驗改善計畫</a>」之說明。</p>
+                                    <p>本套件功能為收集你使用 Firefox 過程的行為資訊，包含介面上按鈕（例如附加元件列、工具列上的按鈕……等）點擊次數與開啟、關閉分頁數目……等資訊，並在關閉 Firefox 開啟與關閉時，送出收集的數據。</p>
                                 </div>
                             </div>
                         </div>
@@ -223,7 +223,7 @@
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="火狐工具集" value="https://addons.myfirefox.com.tw/addons/twimprove/fx-improvement-0.2.0.1.xpi" addon="fx-improvement" type="checkbox">列入安裝清單</label> |
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/twimprove/fx-improvement-0.2.0.1.xpi" onclick="ga('send', 'event', 'Install', 'myfirefox', 'addon_fx-improvement');">+立即安裝</a>
                                 </div>
-                                <div class="tracking"><a href="http://mozilla.com.tw/firefox/ueip/" onclick="ga('send', 'event', 'Outgoing', 'mozilla.com.tw/firefox/ueip', 'firefox-tw');" target="_blank">使用者體驗改善計畫</a></div>
+                                <div class="tracking"><a href="https://github.com/MozillaOnline/fximprove/blob/b50b6dd1d95552d44cd1da52524f58d7ad80efe9/notification/content/track.js" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'Github', 'mozillaonline-fximprove']);">美商謀智透過本套件進行行為追蹤</a></div>
                                 <div class="source">
                                     <a href="https://github.com/mozillaonline/fximprove" target="_blank"  onclick="ga('send', 'event', 'Outgoing', 'github', 'firefox-tw');">觀看原始碼</a>
                                 </div>
@@ -266,7 +266,7 @@
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="分頁管理器" value="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-2.0.1.xpi" addon="tabimprovelite" type="checkbox">列入安裝清單</label> |
                                     <a class="direct-install" href="https://addons.myfirefox.com.tw/addons/tabimprovelite/tabimprovelite-2.0.1.xpi" onclick="ga('send', 'event', 'Install', 'myfirefox', 'addon_tabimprovelite');">+立即安裝</a>
                                 </div>
-                                <div class="tracking"><a href="http://mozilla.com.tw/firefox/ueip/" onclick="ga('send', 'event', 'Outgoing', 'mozilla.com.tw/firefox/ueip', 'firefox-tw');" target="_blank">使用者體驗改善計畫</a></div>
+                                <div class="tracking"><a href="hhttps://github.com/MozillaOnline/tabimprovelite/blob/3bf97c5d40dc1162ce7d124fdf0b482c90cc38cb/chrome/content/ntabimprovelite.js" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'Github', 'mozillaonline-tabimprovelite']);">美商謀智透過本套件進行行為追蹤</a></div>
                                 <div class="source">
                                     <a href="https://github.com/mozillaonline/tabimprovelite" target="_blank">
                                     觀看原始碼
