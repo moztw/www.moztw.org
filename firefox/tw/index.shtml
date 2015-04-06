@@ -1,11 +1,11 @@
 <!--#include virtual="/inc/new_meta.html" -->
-    <title>Firefox 台灣版</title>
-    <meta name="description" content="說明 Firefox 台灣版及原始正體中文版差異">
+    <title>美商謀智台灣版 Firefox</title>
+    <meta name="description" content="說明美商謀智台灣版 Firefox 及原始正體中文版差異">
     <meta property="og:type" content="website">
     <meta property="og:url" content="//moztw.org/firefox/tw/">
     <meta property="og:image" content="//moztw.org/images/foxmosa-icon.gif">
-    <meta property="og:site_name" content="Firefox 台灣版">
-    <meta property="og:description" content="說明 Firefox 台灣版及原始正體中文版差異">
+    <meta property="og:site_name" content="美商謀智台灣版 Firefox">
+    <meta property="og:description" content="說明美商謀智台灣版 Firefox 及原始正體中文版差異">
     <link href="style.css" rel="stylesheet" />
     <link href="download-button.css" rel="stylesheet" />
     <link href="/js/library/fancybox2/jquery.fancybox.css" type="text/css" rel="stylesheet" />
@@ -14,18 +14,18 @@
 <!--#include virtual="/inc/new_header.html" -->
 
     <div id="main-feature">
-        <h1>Firefox 台灣版</h1>
-        <h2>「Firefox 台灣版」是美商謀智台灣分公司（Mozilla Taiwan）以一般版 Firefox 為基礎，新增下列附加元件所開發的在地化版本。</h2>
+        <h1>美商謀智台灣版 Firefox</h1>
+        <h2>「美商謀智台灣版 Firefox」是美商謀智台灣分公司（Mozilla Taiwan）以一般版 Firefox 為基礎，加上下述特製附加元件，增加各種便利使用者與商業合作面向功能的客製化版本。</h2>
     </div>
     
     <section id="fxtw-download" class="billboard no-js">
         <header>
-            <h3>下載 Firefox 台灣版</h3>
+            <h3>下載美商謀智台灣版 Firefox</h3>
         </header>
         <div id="download-button-desktop-tw" class="download-button">
             <noscript>
                 <div class="download download-dumb">
-                    <h4>下載 Firefox 台灣版</h4>
+                    <h4>下載美商謀智台灣版 Firefox</h4>
                     <ul>
                         <li><a href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" class="button-green" onclick="ga('send', 'event', 'Download', 'Firefox', 'latest-TW-Windows');">Windows</a></li>
                         <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.tar.bz2" class="button-green" onclick="ga('send', 'event', 'Download', 'Firefox', 'latest-TW-linux');">Linux (32位元)</a></li>
@@ -36,7 +36,7 @@
             </noscript>
             <div class="unrecognized-download">
                 <div class="download download-dumb">
-                    <h4>選擇 Firefox 台灣版下載</h4>
+                    <h4>選擇美商謀智台灣版 Firefox 下載</h4>
                     <ul>
                         <li><a href="http://download.myfirefox.com.tw/releases/full/zh-TW/Firefox-full-latest.exe" class="button-green" onclick="ga('send', 'event', 'Download', 'Firefox', 'latest-TW-Windows');">Windows</a></li>
                         <li><a href="http://download.myfirefox.com.tw/releases/firefox/zh-TW/Firefox-latest.tar.bz2" class="button-green" onclick="ga('send', 'event', 'Download', 'Firefox', 'latest-TW-linux');">Linux (32位元)</a></li>
@@ -87,15 +87,13 @@
                     </a>
                 </li>
             </ul>
-            <small class="download-other os_linux os_osx os_windows unrecognized-download">
-                <a href="http://mozilla.com.tw/firefox/features/" target="_blank" onclick="ga('send', 'event', 'Download', 'FirefoxTW', 'tw_feature');">Firefox 台灣版功能介紹</a>
-            </small>
         </div>
     </section>
     
     <section id="tw-intro" class="contentboard">
-        <p>以下是 MozTW 社群成員分析「Firefox 台灣版」的功能介紹、安裝說明、及各內建附加套件說明。您也可以在一般版 Firefox 中，選擇安裝以下部分套件，以使用台灣版的某些功能。</p>
-        <p>MozTW 社群長期以來負責維護 Firefox 與 Mozilla 產品正體中文版本的在地化，包含原始中文版 Firefox 的內建搜索引擎清單及預載的書籤項目。使用者對於「Firefox 台灣版」的意見與建議，可以至 Mozilla Taiwan <a href="http://myfirefox.com.tw/" target="_blank" onclick="ga('send', 'event', 'Outgoing', 'myfirefox', 'firefox-tw');">myfirefox</a> 網站上方之「意見回饋」處反應給原廠。</p>
+        <p>以下是 MozTW 社群成員分析「美商謀智台灣版 Firefox」的功能介紹、安裝說明、及各內建附加套件說明。您也可以在原版的 Firefox 中，選擇安裝以下部分套件，以使用台灣版的某些功能。</p>
+        <p>MozTW 社群長期以來負責維護 Firefox 與 Mozilla 產品正體中文版本的在地化，包含原始中文版 Firefox 的內建搜索引擎清單及預載的書籤項目。我們對於「Firefox 台灣版」所開發的客製化功能無所置喙。MozTW 社群將持續在 moztw.org 首頁提供美國原廠的 Firefox 正體中文版本下載。</p>
+        <p><strong>請注意：</strong>我們發現由 Mozilla Taiwan 所製作的美商謀智台灣版 Firefox當中包含的某些附加元件內含使用者行為追蹤相關程式，根據程式碼研判，Mozilla Taiwan 公司（台北）與 Mozilla Online（北京）將會針對某些套件安裝後新增加的功能進行行為追蹤。在以下將會特別標示出個別套件的行為追蹤狀態，請使用者斟酌使用。</p>
         <p>「Firefox 台灣版」將收集您使用 Firefox 過程的行為資訊，以進行分析統計。以下將以「<img src="eye.png" alt="" style="width: 1.25em;vertical-align: text-bottom;" />」標示出相關套件。使用者可隨時在偏好設定中將其開啟或關閉，詳情請參考美商謀智 Mozilla Taiwan <a href="http://mozilla.com.tw/firefox/ueip/" onclick="ga('send', 'event', 'Outgoing', 'mozilla.com.tw/firefox/ueip', 'firefox-tw');" target="_blank">使用者體驗改善計畫</a>。</p>
     </section>
     
@@ -177,7 +175,7 @@
                                 </div>
                                 <blockquote>用來管理 Firefox 的附加元件工具。</blockquote>
                                 <div class="extension-description">
-                                    <p>本套件功能為收集你使用 Firefox 過程的行為資訊，包含介面上按鈕（例如附加元件列、工具列上的按鈕……等）點擊次數與開啟、關閉分頁數目……等資訊，並在關閉 Firefox 開啟與關閉時，送出收集的數據。</p>
+                                    <p>本套件無外顯功能，根據程式判讀，僅知道他是用來追蹤用戶操作 Firefox 的行為，包含介面上按鈕（例如附加元件列、工具列上的按鈕……等）點擊次數與開啟、關閉分頁數目，並在 Firefox 開啟與關閉時，送出收集的數據到 Mozilla Taiwan 公司的伺服器。</p>
                                 </div>
                             </div>
                         </div>
@@ -399,7 +397,7 @@
     <section id="license">
         <h3>授權說明</h3>
         <p>Firefox 台灣版係由 Mozilla Taiwan（美商謀智台灣分公司）製作，採用與一般版 Firefox 相同的 <a href="https://www.mozilla.org/MPL/2.0/" target="_blank">Mozilla Public License 2.0</a> 條款進行授權，其內建之特製套件也均為 MPL 2.0 授權。</p>
-        <p>本頁所提供的「Firefox 台灣版下載」與各套件下載安裝連結，均直接連回 Mozilla Taiwan 網站。MozTW 社群因關注而進行分析、提供說明與下載，「Firefox 台灣版」及各套件由 Mozilla Taiwan 全權負責。</p>
+        <p>本頁所提供的「美商謀智台灣版 Firefox 下載」將直接連回 Mozilla Taiwan 網站。各套件下載安裝連結由於 myfirefox 已終止服務，為最後版本之備份。MozTW 社群因關注而進行分析、提供說明與下載，「Firefox 台灣版」及各套件由 Mozilla Taiwan 全權負責。</p>
         <p>如本頁各項連結因 Mozilla Taiwan 公司網站修改而失效，請至 <a href="https://groups.google.com/group/moztw-general"  onclick="ga('send', 'event', 'Outgoing', 'moztw-general', 'firefox-tw');">moztw-general 郵件群組</a> 回報，我們將會儘速修復。</p>
     </section>
 
