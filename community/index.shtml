@@ -125,7 +125,7 @@
         </section>
         
         <section>
-            <h3><a href="http://mozilla.com.tw/community/student/">Firefox 香港使用者社群</a></h3>
+            <h3><a href="http://mozillahk.org/">Firefox 香港使用者社群</a></h3>
             <p>A community group of Firefox users living in Hong Kong. Join us now if you enjoys firefox for your web surfing, and and spread it to your friends.</p>
             <p class="link">→
                 <a href="http://www.facebook.com/firefoxhk" target="_blank">Facebook Page</a>、
@@ -175,7 +175,7 @@
         
         <section id="foxmosa">
             <h3>
-                <a href="https://moztw.org/foxmosa/">狐耳摩莎 Foxmosa
+                <a href="http://moztw.org/foxmosa/">狐耳摩莎 Foxmosa
                     <span class="engName">Foxmosa</span></a>
             </h3>
             <p>Foxmosa 是 MozTW 喜歡陪你在網路世界玩耍的吉祥物小狐狸，歡迎參觀他的個人網站喔。</p>
@@ -184,7 +184,7 @@
         <section id="mozlinkszh">
             <h3>
                 <a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a>
-                    <span class="engName">Mozilla Links zh</span></a>
+                    <span class="engName">Mozilla Links-zh</span></a>
             </h3>
             <p>Mozilla Links 每週精選全球社群、各 Mozilla 相關 Blog 及協力作者專文，將 Mozilla 專案的第一手資訊，編譯後再傳播給所有中文摩茲客。</p>
         </section>
@@ -245,7 +245,7 @@
     
 </div>
 
-<form id="mailinglist" class="billboard" action="http://groups-beta.google.com/group/moztw-general/boxsubscribe">
+<form id="mailinglist" class="billboard" action="http://groups.google.com/group/moztw-general/boxsubscribe">
     <h3>訂閱社群最新討論資訊</h3>
     <input type="email" name="email" placeholder="YOUR EMAIL HERE" />
     <input type="submit" class="button" value="訂閱 »" />
