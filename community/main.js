@@ -12,7 +12,8 @@
 	body = body[0];
 
 	rssScript = window.document.createElement('script');
-	rssScript.src = "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://groups.google.com/group/moztw-general/feed/atom_v1_0_msgs.xml&callback=newsRenderer&scoring=h&num=20";
+  //rssScript.src = "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://groups.google.com/group/moztw-general/feed/atom_v1_0_msgs.xml&callback=newsRenderer&scoring=h&num=20";
+  rssScript.src = "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=https://groups.google.com/forum/feed/moztw-general/topics/rss.xml&callback=newsRenderer&scoring=h&num=20";
 	
 	body.appendChild(rssScript);
 
