@@ -359,7 +359,7 @@
         <img src="images/features/screen-sync-mac.png" alt="同步截圖">
         <h4>保持同步</h4>
         <p>無縫同步您的桌上型電腦與行動裝置當中的 Firefox，這樣您就可以在所有的裝置間存取您的瀏覽紀錄、已存密碼、書籤，甚至是開啟的分頁。自您第一天開始使用行動裝置就可以存取您多年以來的瀏覽紀錄，並使用您電腦上儲存的密碼已在手機上填入表單。</p>
-        <p>您現在可以透過桌機上網，瀏覽到一半時離開座位，您會發現剛剛開啟的分頁標籤已經在手機上等著您了，就跟剛剛離開時一模一樣。您的瀏覽方式將不再一樣！<a href="http://www.mozilla.org/en-US/mobile/sync/">了解更多關於同步功能的資訊</a> 或 <a href="http://www.mozilla.org/en-US/mobile/">為您的手機下載 Firefox</a>。</p>
+        <p>您現在可以透過桌機上網，瀏覽到一半時離開座位，您會發現剛剛開啟的分頁標籤已經在手機上等著您了，就跟剛剛離開時一模一樣。您的瀏覽方式將不再一樣！<a href="https://www.mozilla.org/en-US/mobile/sync/">了解更多關於同步功能的資訊</a> 或 <a href="https://www.mozilla.org/en-US/mobile/">為您的手機下載 Firefox</a>。</p>
       </div>
 
       <div class="column1">
@@ -511,7 +511,7 @@
 
         <div class="feature">
           <h4>Firefox 技術支援</h4>
-          <p>需要幫忙？我們的 <a href="http://support.mozilla.org/zh-TW/products/firefox">技術支援網站</a> 有一個可搜尋的技術文件知識庫，還有討論區與能讓您有更好體驗的小秘訣與教學，讓您能有更好的體驗。</p>
+          <p>需要幫忙？我們的 <a href="https://support.mozilla.org/zh-TW/products/firefox">技術支援網站</a> 有一個可搜尋的技術文件知識庫，還有討論區與能讓您有更好體驗的小秘訣與教學，讓您能有更好的體驗。</p>
         </div>
       </div>
     </div>
@@ -529,9 +529,9 @@
             controls="controls"
             data-overlay-hidden-text="播放影片">
 
-            <source src="http://videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/runfield/screencast.webm" type="video/webm" />
-            <source src="http://videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/runfield/screencast.theora.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;" />
-            <source src="http://videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/runfield/screencast.mp4" type="video/mp4" />
+            <source src="//videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/runfield/screencast.webm" type="video/webm" />
+            <source src="//videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/runfield/screencast.theora.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;" />
+            <source src="//videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/runfield/screencast.mp4" type="video/mp4" />
           </video>
         </div>
         <p>Runfield 是一個使用 JavaScript 與 Canvas 打造的網頁遊戲。<a href="https://developer.mozilla.org/en-US/demos/detail/runfield">玩玩看 »</a></p>
@@ -551,7 +551,7 @@
         <div class="feature" id="crash-protection">
           <h4>錯誤保護</h4>
           <p>Firefox 讓您能在 Adobe Flash、Apple QuickTime，或 Microsoft Silverlight 等外掛程式造成錯誤之後也能不中斷您的瀏覽。若這些當中的某個常用外掛程式造成錯誤或軟體當掉，也不會影響其他部分的 Firefox。您只要重新載入頁面，就可以重新載入這些外掛程式並再試一次。<a href="https://www.mozilla.org/zh-TW/plugincheck/#what-plugin">了解更多關於外掛程式的資訊。</a></p>
-          <p><a href="http://www.mozilla.com/en-US/firefox/performance/">了解更多關於 Firefox 的效能。</a></p>
+          <p><a href="//www.mozilla.com/en-US/firefox/performance/">了解更多關於 Firefox 的效能。</a></p>
         </div>
       </div>
 
@@ -570,8 +570,8 @@
             <video id="video-brand" width="290" height="163" controls="controls"
               poster="//mozorg.cdn.mozilla.net/media/img/firefox/video/poster-3d.jpg"
               data-overlay-hidden-text="Play video">
-              <source src="http://videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/remixingreality/screencast.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;" />
-              <source src="http://videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/remixingreality/screencast.mp4" type="video/mp4" />
+              <source src="//videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/remixingreality/screencast.ogv" type="video/ogg; codecs=&quot;theora, vorbis&quot;" />
+              <source src="//videos-cdn.mozilla.net/serv/mozhacks/demos/screencasts/remixingreality/screencast.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
@@ -608,7 +608,7 @@
 
         <div class="feature">
           <h4>安全地更新</h4>
-          <p>Firefox 在安裝或更新附加元件、第三方軟體，以及 <a href="http://www.getpersonas.com/">Personas</a> 之前，會先看看是否可以使用安全連線。</p>
+          <p>Firefox 在安裝或更新附加元件、第三方軟體，以及 <a href="https://www.getpersonas.com/">Personas</a> 之前，會先看看是否可以使用安全連線。</p>
         </div>
       </div>
 
@@ -659,13 +659,13 @@
         <div class="feature">
           <h4>自動更新</h4>
           <p>Firefox 將會在有新版本可用時自動地讓您知道，這樣一來您就可以確定您的瀏覽器永遠是最新的，包含最新與最棒的安全性修正。</p>
-          <p><a href="http://www.mozilla.org/en-US/firefox/security/">了解更多關於 Firefox 的安全性功能。</a></p>
+          <p><a href="https://www.mozilla.org/en-US/firefox/security/">了解更多關於 Firefox 的安全性功能。</a></p>
           <img src="images/features/screen-updates-mac.png" alt="自動更新截圖">
         </div>
 
         <div class="feature">
           <h4>偵測過期的外掛程式</h4>
-          <p>外掛程式是一些簡單的第三方軟體，由第三方公司像是 Adobe Systems 或 Apple 所製作，幫助增加視訊、動畫，與遊戲功能。當他們過時的的時候會有很高的安全性風險，所以我們打造了一個簡單的工具，讓您可以隨時檢查現在是否正使用最新版的外掛程式。<a href="http://www.mozilla.com/zh-TW/plugincheck/">檢查您的外掛程式。</a></p>
+          <p>外掛程式是一些簡單的第三方軟體，由第三方公司像是 Adobe Systems 或 Apple 所製作，幫助增加視訊、動畫，與遊戲功能。當他們過時的的時候會有很高的安全性風險，所以我們打造了一個簡單的工具，讓您可以隨時檢查現在是否正使用最新版的外掛程式。<a href="https://www.mozilla.org/zh-TW/plugincheck/">檢查您的外掛程式。</a></p>
         </div>
       </div>
     </div>
@@ -694,7 +694,7 @@
         <div class="feature">
           <h4>可自訂介面</h4>
           <p>每個人都喜歡用自己的方式瀏覽網頁，所以我們讓您可以很簡單的讓您可以用您喜歡的方式調整 Firefox 介面：透過重新安排、調整、新增或移除按鈕或欄位來調整您的瀏覽體驗。您只需要在瀏覽工具列上按右鍵，並選擇自訂選項就可以開始調整。</p>
-          <p><a href="http://www.mozilla.org/en-US/firefox/customize/">了解更多關於 Firefox 的個人化功能。</a></p>
+          <p><a href="https://www.mozilla.org/en-US/firefox/customize/">了解更多關於 Firefox 的個人化功能。</a></p>
         </div>
 
         <div class="feature">
@@ -727,7 +727,7 @@
         <div class="feature">
           <h4>SPDY</h4>
           <p>
-            <a href="http://hacks.mozilla.org/2012/02/spdy-brings-responsive-and-scalable-transport-to-firefox-11/">SPDY</a>
+            <a href="//hacks.mozilla.org/2012/02/spdy-brings-responsive-and-scalable-transport-to-firefox-11/">SPDY</a>
             是一個協議，設計的宗旨是用來接替 HTTP，可以有效減少網頁載入時間。當您開啟支援 SPDY 的網站，您可以感受到載入速度明顯變快。SPDY 也會透過 SSL 加密所有通訊，讓您的 Firefox 用起來更加安心。</p>
         </div>
 
@@ -793,7 +793,7 @@
         <div class="feature">
           <h4>網頁控制台</h4>
           <p>想要知道什麼東西可以用來打造尖端技術的網站嗎？可以讓您透過這個實驗性分析工具來偷看一下動態網頁內容。</p>
-          <p><a href="http://www.mozilla.org/en-US/firefox/technology/">了解更多關於 Firefox 的技術功能。</a></p>
+          <p><a href="https://www.mozilla.org/en-US/firefox/technology/">了解更多關於 Firefox 的技術功能。</a></p>
         </div>
       </div>
     </div>
@@ -814,7 +814,7 @@
       <div class="column2">
         <div class="feature" id="language">
           <h4>Firefox 的語言</h4>
-          <p>Firefox 會說的語言比世界上任何一種瀏覽器還要多。因為網路是一個由所有人所共享的開放資源，我們讓瀏覽器盡可能以最多的語言推出。我們目前已有超過 75 種不同的翻譯版本，從法文、中文到芬蘭文與捷克文。<a href="http://www.mozilla.org/en-US/firefox/all.html">尋找您的語言。</a>（完整清單位於美式英文網站）</p>
+          <p>Firefox 會說的語言比世界上任何一種瀏覽器還要多。因為網路是一個由所有人所共享的開放資源，我們讓瀏覽器盡可能以最多的語言推出。我們目前已有超過 75 種不同的翻譯版本，從法文、中文到芬蘭文與捷克文。<a href="https://www.mozilla.org/en-US/firefox/all.html">尋找您的語言。</a>（完整清單位於美式英文網站）</p>
         </div>
 
         <div class="feature">
@@ -855,7 +855,7 @@
          <h4>中文社群資源</h4>
          <ul>
           <li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'inGoing', 'Forum: Firefox', '/firefox');">Firefox 中文討論區</a></li>
-          <li><a href="http://www.youtube.com/user/mozillatw" onClick="ga('send', 'event', 'Outgoing', 'Youtube', 'mozillatw');">Youtube Firefox 影片頻道</a></li>
+          <li><a href="https://www.youtube.com/user/mozillatw" onClick="ga('send', 'event', 'Outgoing', 'Youtube', 'mozillatw');">Youtube Firefox 影片頻道</a></li>
           <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
           <li><a href="http://wiki.moztw.org/index.php?title=FireAnything" onClick="ga('send', 'event', 'inGoing', 'Wiki: FireAnything', '/firefox');">某瀏覽器功能，Firefox 有沒有？</a></li>
           <li><a href="/dl/search">新增中文搜尋引擎</a></li>
