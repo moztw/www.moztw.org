@@ -2,7 +2,7 @@ var map = new L.map('map', { scrollWheelZoom: false, dragging: false })
     .setView([25.044154, 121.532212], 16);
 
 // add an OpenStreetMap tile layer
-L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
