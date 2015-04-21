@@ -7,7 +7,6 @@
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="摩茲校園聚活動為針對全校師生及校友，以自由軟體及 Firefox 套件在地化、Mozilla 相關自由軟體為主題，於校園內進行推廣及教學，促進彼此交流。">
 <style type="text/css">
-
 <!--
 @import url(/css/keypoint-radius.css);
 -->
@@ -58,7 +57,7 @@ ul#tab-menu {
 	width: 910px;
 }
 ul#tab-menu li {
-	float: left; 
+	float: left;
 	margin: 0; padding: 0;
 	height: 100px; width: 112px
 }
@@ -148,9 +147,6 @@ a#button-gfxtw.active,
 a#button-gfxtw:hover {
 	background: transparent url(button-gfxtw-hover.png) center center no-repeat;
 }
-
-
-
 -->
 </style>
 <!--#include virtual="/inc/class_press.html" -->
@@ -165,11 +161,11 @@ a#button-gfxtw:hover {
 		<ul id="tab-menu">
 			<li><a href="#gathering-tp1" id="button-gathering-tp1">MozTW 摩茲連續聚 TP #1</a></li>
 			<li><a href="#workshop1" id="button-workshop1">Firefox 3.5 技術新功能概述</a></li>
-			<li><a href="#yzu" id="button-yzu">元智大學開放原始碼社團講座</a></li>			
+			<li><a href="#yzu" id="button-yzu">元智大學開放原始碼社團講座</a></li>
 			<li><a href="#workshop2" id="button-workshop2">擴充套件開發前導課程</a></li>
 			<li><a href="#workshop3" id="button-workshop3">擴充套件開發：入門篇</a></li>
 			<li><a href="#workshop4" id="button-workshop4">擴充套件開發：進階篇</a></li>
-			<li><a href="#gathering-dyu" id="button-gathering-dyu" class="active">MozTW 摩茲校園聚</a></li>			
+			<li><a href="#gathering-dyu" id="button-gathering-dyu" class="active">MozTW 摩茲校園聚</a></li>
 			<li><a href="#gfxtw" id="button-gfxtw">gFx推廣平台發表</a></li>
 		</ul>
 	</div>
@@ -183,25 +179,25 @@ a#button-gfxtw:hover {
 			<li>時間：2009/4/26 14:00 ~ 18:00</li>
 			<li>地點：<a href="http://www.gozcafe.com/2008/11/blog-post_27.html">果子咖啡</a></li>
 			<li>費用：零，餐飲低消請自理 (100 元)</li>
-			<li>有無線網路、有電源。歡迎自備延長線與伙伴來電一下</li>			
+			<li>有無線網路、有電源。歡迎自備延長線與伙伴來電一下</li>
 		</ul>
 		<h4>候選主題可能有：</h4>
 		<ul>
 			<li>網路行銷的血淚辛酸史</li>
 			<li>柏強教召的血淚心酸史（柏強說是他唬爛的，這個不會有）</li>
 			<li>Firefox 3.5</li>
-			<li>GFX 最新進度</li>			
+			<li>GFX 最新進度</li>
 		</ul>
 		<p>列在上面的不見得有、沒列的也搞不好會出現。也歡迎您準備三言兩語到場與大家分享！（<a href="http://wiki.moztw.org/index.php/%E6%91%A9%E8%8C%B2%E9%80%A3%E7%BA%8C%E8%81%9ATP%E7%AC%AC1%E9%9B%86">歡迎上 Wiki 預約</a>）</p>
 	</div>
 
 	<div id="workshop1" class="tab-block">
 		<h3><img src="foxmosa-4.png" class="fox-icon" /><img src="fig-workshop1.png" title="timdream (smile!)" class="fig" />4/28 Mozilla Firefox 3.5 技術新功能概述</h3>
-		<p>本活動將簡介 Firefox 3.5 中新增的相關網頁技術，以及對於網頁程式開發設計師 （Web Developers / Web Application Developers）來說，這些功能所能給使用者帶來的不同體驗。</p>		
+		<p>本活動將簡介 Firefox 3.5 中新增的相關網頁技術，以及對於網頁程式開發設計師 （Web Developers / Web Application Developers）來說，這些功能所能給使用者帶來的不同體驗。</p>
 		<h4>報名網頁：<a href="http://whoswho.openfoundry.org/workshop/details/35.html">活動已結束</a>。<a href="workshop1.pdf">下載投影片(PDF)</a></h4>
 		<ul>
 			<li>時間：2009/4/28 19:00 ~ 21:00</li>
-			<li>地點：<a href="http://www.gozcafe.com/2008/11/blog-post_27.html">果子咖啡</a></li>		
+			<li>地點：<a href="http://www.gozcafe.com/2008/11/blog-post_27.html">果子咖啡</a></li>
 			<li>對象：Web Developer 與對瀏覽器未來發展有興趣的同好</li>
 			<li>人數：40人</li>
 			<li>費用：自負場地部份晚茶費用，150 元</li>
@@ -211,16 +207,16 @@ a#button-gfxtw:hover {
 			<li>簡冠庭（timdream），Mozilla 台灣社群在地化經理，統籌 Firefox 等軟體在地化相關事宜。</li>
 			<li>主要專長：網頁標準、網路應用程式開發（in (x)HTML, JavaScript, and php）。</li>
 			<li>連絡方式：timdream -at- mail -dot- moztw -dot- org</li>
-			<li>部落格：<a href="http://blog.timc.idv.tw/">Blog: timdream</a></li>			
+			<li>部落格：<a href="http://blog.timc.idv.tw/">Blog: timdream</a></li>
 		</ul>
 	</div>
 
 	<div id="yzu" class="tab-block">
 		<h3><img src="foxmosa-1.png" class="fox-icon" /><img src="fig-yzu.png" title="摩茲連續聚 第六集" class="fig" />5/1 元智大學開放原始碼社團講座</h3>
-		<p>主題：Firefox擴充套件開發解密</p>		
+		<p>主題：Firefox擴充套件開發解密</p>
 		<ul>
 			<li>時間：2009/5/1 18:30 ~ 20:30</li>
-			<li>地點：元智大學資訊工程學系1009教室</li>		
+			<li>地點：元智大學資訊工程學系1009教室</li>
 			<li>費用：完全免費</li>
 		</ul>
 		<h4>講師簡介</h4>
@@ -228,16 +224,16 @@ a#button-gfxtw:hover {
 			<li>尤孝庭（笨笨的小B / ybite）是台大電機的就學中學生，長期研究網頁相關技術，目前是 Firefox 擴充套件 <a href="https://addons.mozilla.org/addon/8888">NicoFox</a> 的作者。</li>
 			<li>主要專長：網頁相關前後端程式設計（PHP/HTML/JavaScript）</li>
 			<li>連絡方式：sst.dreams 在 Gmail</li>
-			<li>部落格：<a href="http://littlebtc.blogspot.com">小鎮遊跡</a></li>			
-		</ul>	
+			<li>部落格：<a href="http://littlebtc.blogspot.com">小鎮遊跡</a></li>
+		</ul>
 	</div>
-	
+
 	<div id="workshop2" class="tab-block">
 		<h3><img src="foxmosa-2.png" class="fox-icon" /><img src="fig-workshop2.png" title="othree in his sudo make t-shirt" class="fig" />5/5 & 5/7 Mozilla Firefox 擴充套件開發 - 前導課程</h3>
 		<p>JavaScript 在 Web 2.0 時代搖身一變成為最受矚目的語言之一，除了開發 Web Application 外，JavaScript 還是 Firefox Extension 所使用的程式語言。本課程將從基礎的 JavaScript 開始介紹，逐步深入，讓學員能具備開發 Firefox Extension 所需要的基礎知識。</p>
 		<h4>報名網頁：<a href="http://whoswho.openfoundry.org/workshop/details/27.html">前導課程-上：活動已結束</a>、<a href="http://whoswho.openfoundry.org/workshop/details/28.html">前導課程-下：活動已結束</a></h4>
 		<ul>
-			<li>時間：2009/5/5 19:00 ~ 22:00（前導課程上）<br />　　　2009/5/7 19:00 ~ 22:00（前導課程下）</li> 
+			<li>時間：2009/5/5 19:00 ~ 22:00（前導課程上）<br />　　　2009/5/7 19:00 ~ 22:00（前導課程下）</li>
 			<li>地點：<a href="http://whoswho.openfoundry.org/workshop/venueevents/2-Gjun.html">台北市中正區公園路 30 號 3F</a></li>
 			<li>對象：對 JavaScript 有興趣的人</li>
 			<li>人數：每班約 25 人（實機操作）</li>
@@ -249,17 +245,17 @@ a#button-gfxtw:hover {
 			<li>高偉格（othree）為和多設計與優像數位之 contractor</li>
 			<li>主要專長：前端技術（JavaScript, HTML, CSS）</li>
 			<li>連絡方式：<a href="mailto:othree@gmail.com">othree@gmail.com</a></li>
-			<li>部落格：<a href="http://blog.othree.net">http://blog.othree.net</a></li>			
+			<li>部落格：<a href="http://blog.othree.net">http://blog.othree.net</a></li>
 		</ul>
 	</div>
-	
+
 	<div id="workshop3" class="tab-block">
 		<h3><img src="foxmosa-3.png" class="fox-icon" /><img src="fig-workshop3.png" title="ybite on his Nicofox extension" class="fig" />5/9 Mozilla Firefox 擴充套件開發：入門篇</h3>
 		<p>本課程介紹如何在 Firefox 下開發一個基礎的擴充套件：內容包含 Mozilla 平台下的 XUL 介面語言基礎、XUL 與 JavaScript 的整合、瀏覽器調整相關程式片段、XPCOM API 等基礎 Firefox 元件的方法，並介紹如何散播完成的附加元件。</p>
 		<p>本課程雖以 Firefox 為主，但所用之 Moziila 平台基礎技巧，亦可運用於跨平台 XULRunner 應用程式或附加元件之開發。應適合所有對 Mozilla 相關技術（包含如 Flock / Songbird 等 XULRunner 軟體）開發有興趣者。</p>
-		<h4>報名網頁：<a href="http://whoswho.openfoundry.org/workshop/details/29.html">活動已結束</a>。<a href="http://docs.google.com/View?docid=ajh4wzf7vhph_49dhhz92ct">課程講義</a></h4>		
+		<h4>報名網頁：<a href="http://whoswho.openfoundry.org/workshop/details/29.html">活動已結束</a>。<a href="http://docs.google.com/View?docid=ajh4wzf7vhph_49dhhz92ct">課程講義</a></h4>
 		<ul>
-			<li>時間：2009/5/9 9:00 ~ 17:00</li> 
+			<li>時間：2009/5/9 9:00 ~ 17:00</li>
 			<li>地點：<a href="http://whoswho.openfoundry.org/workshop/venueevents/2-Gjun.html">台北市中正區公園路 30 號 3F</a></li>
 			<li>對象：資訊相關系所的學生，或對 Mozilla 平台下程式開發有興趣者</li>
 			<li>人數：每班約 25 人（實機操作）</li>
@@ -271,17 +267,17 @@ a#button-gfxtw:hover {
 			<li>尤孝庭（笨笨的小B / ybite）是台大電機的就學中學生，長期研究網頁相關技術，目前是 Firefox 擴充套件 <a href="https://addons.mozilla.org/addon/8888">NicoFox</a> 的作者。</li>
 			<li>主要專長：網頁相關前後端程式設計（PHP/HTML/JavaScript）</li>
 			<li>連絡方式：sst.dreams 在 Gmail</li>
-			<li>部落格：<a href="http://littlebtc.blogspot.com">小鎮遊跡</a></li>			
+			<li>部落格：<a href="http://littlebtc.blogspot.com">小鎮遊跡</a></li>
 		</ul>
-	</div>	
+	</div>
 
 	<div id="workshop4" class="tab-block">
 		<h3><img src="foxmosa-4.png" class="fox-icon" /><img src="fig-workshop4.png" title="Firefox with Nicofox on ubuntu 8.10 screenshot from https://addons.mozilla.org/zh-TW/firefox/addon/8888" class="fig" />5/23 Mozilla Firefox 擴充套件開發：進階篇</h3>
 		<p>本課程介紹是「Mozilla Firefox 擴充套件開發：入門篇」的進一階課程，介紹在 Mozilla 平台下進一步的程式開發。課程介紹進一步的擴充套件撰寫，例如選項的設置和調整、檔案的讀寫、XUL Tree Controls、與 XBL 等技術。</p>
 		<p>本課程雖以 Firefox 為主，但所用之 Moziila 平台基礎技巧，亦可運用於跨平台 XULRunner 應用程式或附加元件之開發。應適合所有對 Mozilla 相關技術（包含如 Flock / Songbird 等 XULRunner 軟體）開發有興趣者。</p>
-		<h4>報名網頁：<a href="http://whoswho.openfoundry.org/workshop/details/30.html">報名已額滿</a></h4>		
+		<h4>報名網頁：<a href="http://whoswho.openfoundry.org/workshop/details/30.html">報名已額滿</a></h4>
 		<ul>
-			<li>時間：2009/5/23 9:00 ~ 17:00</li> 
+			<li>時間：2009/5/23 9:00 ~ 17:00</li>
 			<li>地點：<a href="http://whoswho.openfoundry.org/workshop/venueevents/2-Gjun.html">台北市中正區公園路 30 號 3F</a></li>
 			<li>對象：資訊相關系所的學生，或對 Mozilla 平台下程式開發有興趣者</li>
 			<li>人數：每班約 25 人（實機操作）</li>
@@ -293,10 +289,10 @@ a#button-gfxtw:hover {
 			<li>尤孝庭（笨笨的小B / ybite）是台大電機的就學中學生，長期研究網頁相關技術，目前是 Firefox 擴充套件 <a href="https://addons.mozilla.org/addon/8888">NicoFox</a> 的作者。</li>
 			<li>主要專長：網頁相關前後端程式設計（PHP/HTML/JavaScript）</li>
 			<li>連絡方式：sst.dreams 在 Gmail</li>
-			<li>部落格：<a href="http://littlebtc.blogspot.com">小鎮遊跡</a></li>			
+			<li>部落格：<a href="http://littlebtc.blogspot.com">小鎮遊跡</a></li>
 		</ul>
-	</div>	
-	
+	</div>
+
 	<div id="gathering-dyu" class="tab-block">
 		<h3><img src="foxmosa-5.png" class="fox-icon" />5/24 大葉大學 MozTW 摩茲校園聚</h3>
 		<p>摩茲校園聚活動為針對全校師生及校友，以自由軟體及 Firefox 套件在地化、Mozilla 相關自由軟體為主題，於校園內進行推廣及教學，促進彼此交流。</p>
@@ -310,22 +306,22 @@ a#button-gfxtw:hover {
 			<li>對象：大葉全校師生及校友</li>
 			<li>費用：每人100元（含午餐、講義）</li>
 			<li>講師：BobChao、timdream、othree、Irvin</li>
-			<li>活動總召：<a href="mailto:r9721032@mail.dyu.edu.tw">曹文豪</a>（C303代理人研究室）</li>		
+			<li>活動總召：<a href="mailto:r9721032@mail.dyu.edu.tw">曹文豪</a>（C303代理人研究室）</li>
 		</ul>
 	</div>
-	
+
 	<div id="gfxtw" class="tab-block">
 		<h3><img src="foxmosa-3.png" class="fox-icon" /><img src="fig-gfx.png" title="gFx absolutely secret screenshot" class="fig" />gFx: 你的火狐推廣平台</h3>
 		<p>？？？？？？（即將發表，請密切注意！）</p>
-	</div>		
+	</div>
 
 	<div id="subscript-to">
-		<h3>密切追蹤 MozTW 活動資訊，狐耳摩莎推薦您訂閱：<a href="http://www.google.com/calendar/embed?src=oib3k43ofedochrh6tqaqdva04%40group.calendar.google.com&ctz=Asia/Taipei">Mozilla Taiwan: Events 行事曆</a></h3>
+		<h3>密切追蹤 MozTW 活動資訊，狐耳摩莎推薦您訂閱：<a href="//www.google.com/calendar/embed?src=oib3k43ofedochrh6tqaqdva04%40group.calendar.google.com&ctz=Asia/Taipei">Mozilla Taiwan: Events 行事曆</a></h3>
 	</div>
 
 </div>
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script type="text/javascript">
 $(function () {
 	$('.tab-block:not(#gathering-dyu)').hide();
