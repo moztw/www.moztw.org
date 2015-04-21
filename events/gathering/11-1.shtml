@@ -27,7 +27,7 @@
 
     <div class="information"><div>
         <p>MozTW 摩茲連續聚，以輕鬆歡樂無負擔的方式、要與大家一起提升彼此的網際體驗。每次內容不拘、地點好談，歡迎來聊。 連續聚內容由參加者自由報名發表，跟網路、Mozilla、自由相關的什麼主題都可以，當場協調時間。</p>
-        
+
         <h2>現場實況</h2>
         <a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY02#5667085096304685218" target="_blank"><img src="11-1/01.jpg" alt=""></a>
         <a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY02#5667086999757799474" target="_blank"><img src="11-1/02.jpg" alt=""></a>
@@ -35,7 +35,7 @@
         <a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY02#5667087077173190962" target="_blank"><img src="11-1/04.jpg" alt=""></a>
         <a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY02#5667087132062604034" target="_blank"><img src="11-1/05.jpg" alt=""></a>
         <a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY02#5667085956324795538" target="_blank"><img src="11-1/06.jpg" alt=""></a>
-        
+
         <h2>Welcome!<span class="speaker">By BobChao</span></h2>
         <div>
             <iframe width="600" height="480" src="slides/embedder.html#bobchao_welcome_rev_2.htm" class="frame">
@@ -43,11 +43,11 @@
             </iframe>
             <h3>投影片中的影片</h3>
             <ul>
-                <li><a href="http://www.universalsubtitles.org/zh-tw/videos/lXdWMem6KVu8/zh-tw/">Mozilla 是什麼？</a></li>
-                <li><a href="http://www.universalsubtitles.org/en/videos/NNxEqfuQSaPN/zh-tw/">Mozilla Firefox：以與眾不同的方式，與眾不同</a></li>
+                <li><a href="https://www.amara.org/zh-tw/videos/lXdWMem6KVu8/zh-tw/">Mozilla 是什麼？</a></li>
+                <li><a href="https://www.amara.org/zh-tw/videos/NNxEqfuQSaPN/zh-tw/">Mozilla Firefox：以與眾不同的方式，與眾不同</a></li>
             </ul>
         </div>
-    
+
         <h2>MozTW contribute 網頁改版現況<span class="speaker">By BobChao</span></h2>
         <div>
             <iframe width="600" height="480" src="slides/embedder.html#bobchao_contribute_rev_2.htm" class="frame">
@@ -55,25 +55,25 @@
             </iframe>
         </div>
         <p><a href="https://etherpad.mozilla.org/moztw-contribute-copywriting">MozTW「參與我們」網頁的重新規劃進度報告</a></p>
-                
+
         <h2>Mozilla 的 World Ready 計畫<span class="speaker">By Petercpg</span></h2>
         <div>
             <iframe width="600" height="480" src="slides/embedder.html#petercpg_world_ready.html" class="frame">
                 <a href="/slides/petercpg_world_ready.html">link to the presentation</a>
             </iframe>
         </div>
-        
+
         <h2>Add-on SDK Content Script<span class="speaker">By Irvin</span></h2>
-        <div style="width:595px" id="__ss_9817859"><iframe src="http://www.slideshare.net/slideshow/embed_code/9817859" width="595" height="497" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
-        
+        <iframe src="//www.slideshare.net/slideshow/embed_code/key/74VQmLOkGPRA7p" width="595" height="497" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
         <h2>Boss Key相容性解決方案、套件安裝小秘訣<span class="speaker">By 安可</span></h2>
-        <div style="width:595px" id="__ss_9866905"><iframe src="http://www.slideshare.net/slideshow/embed_code/9866905" width="595" height="497" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
-        
+        <iframe src="//www.slideshare.net/slideshow/embed_code/key/huJVrvjc6DaX1p" width="595" height="497" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
         <h2>現場外掛：開放原始碼遊戲 Diaspora 介紹<span class="speaker">By CQD</span></h2>
-        <div style="width:595px" id="__ss_9873135"><iframe src="http://www.slideshare.net/slideshow/embed_code/9873135" width="595" height="497" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
+        <iframe src="//www.slideshare.net/slideshow/embed_code/key/zOjFpDs18Nbs8Y" width="595" height="497" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
         <h2><a href="https://etherpad.mozilla.org/moztw-activities-position-meeting">討論紀錄：MozTW 活動定位</a></h2>
-    
+
         <h2>活動照片大收集</h2>
         <div>
         <ul>
@@ -81,12 +81,12 @@
           <li><a href="https://picasaweb.google.com/104561003920269983404/20111022MozTWTY02">MozTW 摩茲連續聚 TY 光輝十月篇 - Kang-Min Wang</a></li>
           <li><a href="https://picasaweb.google.com/101350768351703898946/MozTWTY02">MozTW 摩茲連續聚 TY 光輝十月篇 - Orinx Chen</a></li>
           <li><a href="https://picasaweb.google.com/101350768351703898946/MozTWTY">MozTW 摩茲連續聚 TY - 大溪老街 - Orinx Chen</a></li>
-          <li><a href="https://secure.flickr.com/photos/othree/archives/date-taken/2011/10/22/">Flickr: Archive of othree's photostream</a></li>
-          <li><a href="https://secure.flickr.com/photos/chandrew/sets/72157627832139079/">MozTW 摩茲連續聚 TY - 大溪老街 - Ch.Andrew</a></li>
-          <li><a href="https://secure.flickr.com/photos/chandrew/sets/72157627834520277/">MozTW 摩茲連續聚 TY 光輝十月篇 - Ch.Andrew</a></li>
+          <li><a href="https://www.flickr.com/photos/othree/archives/date-taken/2011/10/22/">Flickr: Archive of othree's photostream</a></li>
+          <li><a href="https://www.flickr.com/photos/chandrew/sets/72157627832139079/">MozTW 摩茲連續聚 TY - 大溪老街 - Ch.Andrew</a></li>
+          <li><a href="https://www.flickr.com/photos/chandrew/sets/72157627834520277/">MozTW 摩茲連續聚 TY 光輝十月篇 - Ch.Andrew</a></li>
         </ul>
         </div>
     </div></div>
- 
+
 <br style="clear: both;">
 <!--#include virtual="/inc/footer.html" -->

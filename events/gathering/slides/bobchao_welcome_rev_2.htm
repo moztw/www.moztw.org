@@ -5,7 +5,7 @@
 
 <!-- Your Slides -->
 <!-- One section is one slide -->
-    
+
 <section>
     <!--
         天啊超髒的，不可思議地髒，但每頁都要各自訂的話最方便還是 inline style :/
@@ -479,7 +479,7 @@ Mozilla 是一個非常重要的實驗
 </section>
 <!-- Your Style -->
 <!-- Define the style of your presentation -->
-<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
 <style>
   html { background-color: black; }
   body { background-color: black; }
@@ -493,12 +493,12 @@ Mozilla 是一個非常重要的實驗
       background-color: white;
       color: black;
   }
-  
+
   section.rules h3{
       text-indent: -57px;
   }
   p {text-align: center;}
-  
+
   h1, h2 {
     margin-top: 200px;
     text-align: center;
@@ -527,25 +527,25 @@ del { color: #333333; }
     font-size: 60px;
     padding: 50px;
   }
-  
+
   img.original {
       width: auto; height: auto;
       position: static;
       background-color: transparent;
   }
-  
+
   img.fillwidth {
       width: 800px; height: auto;
   }
-  
+
   img.fillheight {
       width: auto; height: 600px;
   }
-  
+
   video.subtitled {
       z-index: 2;
   }
-  
+
   div.srt {
       position: absolute;
       z-index: 1;
@@ -554,9 +554,9 @@ del { color: #333333; }
       font-size: 28px;
       color: white;
       text-align: center;
-      text-shadow: 0 0 3px black; 
+      text-shadow: 0 0 3px black;
   }
-  
+
   img, video {
     width: 800px;
     height: 600px;
@@ -660,7 +660,7 @@ del { color: #333333; }
     this.setupTouchEvents();
     this.onresize();
   }
-  
+
   Dz.setupParams = function() {
     var p = window.location.search.substr(1).split('&');
     p.forEach(function(e, i, a) {
@@ -794,7 +794,7 @@ del { color: #333333; }
       var video = s.$("video");
       if (video) {
         if (video.ended || video.paused) {
-          video.play(); 
+          video.play();
         } else {
           video.pause();
         }
@@ -881,7 +881,7 @@ del { color: #333333; }
       next.setAttribute("aria-selected", "true");
       var video = next.$("video");
       if (video && !!+this.params.autoplay) {
-        video.play(); 
+        video.play();
       }
     } else {
       // That should not happen
@@ -922,7 +922,7 @@ del { color: #333333; }
     }
     return next;
   }
-  
+
   Dz.postMsg = function(aWin, aMsg) { // [arg0, [arg1...]]
     aMsg = [aMsg];
     for (var i = 2; i < arguments.length; i++)
@@ -943,7 +943,7 @@ del { color: #333333; }
     Function.prototype.bind = function (oThis) {
 
       // closest thing possible to the ECMAScript 5 internal IsCallable
-      // function 
+      // function
       if (typeof this !== "function")
       throw new TypeError(
         "Function.prototype.bind - what is trying to be fBound is not callable"
@@ -1019,7 +1019,7 @@ del { color: #333333; }
     subtitleElement.innerHTML = "";
     subtitleElement.style.zIndex = 2;
     srt = srt.replace(/\r\n|\r|\n/g, '\n')
-    
+
     var subtitles = {};
     srt = strip(srt);
     var srt_ = srt.split('\n\n');
@@ -1039,7 +1039,7 @@ del { color: #333333; }
           subtitles[is] = {i:i, o: o, t: t};
         }
     }
-    
+
     var ival = setInterval(function() {
       var currentTime = document.getElementById(videoId).currentTime;
       var subtitle = -1;
