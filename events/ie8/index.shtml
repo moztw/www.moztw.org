@@ -103,7 +103,7 @@ ul#tab-menu {
 	width: 620px;
 }
 ul#tab-menu li {
-	float: left; 
+	float: left;
 	margin: 0; padding: 0;
 	height: 100px;
 }
@@ -140,7 +140,7 @@ ul#tab-menu li a img {
 	<div class="ie8parody">
 		<p>立即 <em>使用 Firefox</em> 體驗 IE8 最新功能！</p>
 		<p id="ie8experiencebutton"><a href="/firefox/">立即體驗</a></p>
-		<p>在 2009 年的愚人節，MozTW 使用此頁跟大家開了一個玩笑…… 玩笑？當然不只如此！現在就跟我們一起藉助 Firefox 超強擴充功能，馬上體驗 IE8 的新功能吧！</p><p><small>錯過了這個活動？看<a href="http://flickr.com/photos/bobchao/tags/moztwie8/">網頁擷圖過乾癮吧！</a></small></p>
+		<p>在 2009 年的愚人節，MozTW 使用此頁跟大家開了一個玩笑…… 玩笑？當然不只如此！現在就跟我們一起藉助 Firefox 超強擴充功能，馬上體驗 IE8 的新功能吧！</p><p><small>錯過了這個活動？看<a href="https://flickr.com/photos/bobchao/tags/moztwie8/">網頁擷圖過乾癮吧！</a></small></p>
 	</div>
   </div>
 </div>
@@ -167,7 +167,7 @@ ul#tab-menu li a img {
 		</ul>
 	</div>
 	<div id="compatibility" class="tab-block">
-		
+
 <h3>順利瀏覽過時網頁</h3>
 <p><img src="fig-compatibility.png" alt="相容性檢視" class="fig" />IE8 終於正確解釋了絕大多數的 CSS 2.1 規範，也造成有些專為 IE6、IE7 撰寫的網頁反而變得無法正確顯示 (各位設計師，三不五時還是看一下標準吧 ^^; )。為此，IE8 加上了「相容性檢視」功能，讓你偽裝成 IE7/6 的顯示模式… 這不是很好的辦法，只是為網頁設計師爭取一些時間而已，但作為一個使用者、這的確不是您該操心的事。</p>
 		<p>面對其他的「IE Only」網頁，Firefox 可以安裝 <a href="https://addons.mozilla.org/zh-TW/firefox/addon/1419">IE Tab</a> 擴充套件，再按下右下角的「IE」按鈕，即可使用 IE 核心順利瀏覽這些過時網頁。</p>
@@ -210,13 +210,13 @@ ul#tab-menu li a img {
 		<li>概念：BobChao、timdream</li>
 		<li>美術：Irvin</li>
 		<li>版面：timdream</li>
-		<li><a href="http://www.flickr.com/photos/irvin/3353828195">照片</a>：kkeenn</li>
+		<li><a href="https://www.flickr.com/photos/irvin/3353828195">照片</a>：kkeenn</li>
 		<li>協力：Alica、Alicekey、Aminzai、lobstershia、wini</li>
 		<li>文案：John Smith &amp; Jane Smith</li>
-		<li>特別感謝：<a href="http://www.microsoft.com/taiwan/windows/internet-explorer/default.aspx">微軟 IE8</a> (汗…)</li>
+		<li>特別感謝：<a href="https://www.microsoft.com/taiwan/windows/internet-explorer/default.aspx">微軟 IE8</a> (汗…)</li>
 	<ul>
 </div>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script type="text/javascript">
 $(function () {
 	$('.tab-block:not(#accelerators)').hide();
