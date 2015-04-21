@@ -24,7 +24,7 @@ function makeMaps(loc_data) {
         dragging: false
     });
 
-    var cloudmade = new L.TileLayer('http://tile.openstreetmap.tw/tiles/{z}/{x}/{y}.png', {
+    var cloudmade = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: 'Map data <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> <a href="http://openstreetmap.org">OpenStreetMap</a> contributors.',
         zoom: 17
     });
@@ -67,7 +67,7 @@ $(document).ready(function() {
 
 // photos
 var photos = function ($photos, time) {
-    $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
+    $.getJSON("https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
         tags: "moztwlab",
         format: "json"
     }, function (data) {
