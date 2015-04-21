@@ -335,7 +335,7 @@ input[type="submit"]{
 
 /* from registrano */
 .registration a.register-now {
-    background: url("http://registrano.com/images/themes3/logo-button.png") no-repeat scroll 22px 12px #417897;
+    /*background: url("http://registrano.com/images/themes3/logo-button.png") no-repeat scroll 22px 12px #417897;*/
     border-radius: 7px 7px 7px 7px;
     color: #FEFFFE;
     display: block;
