@@ -15,7 +15,6 @@
     <script src="/js/library/fancybox2/jquery.fancybox.js"></script>
     <script src="js/l10n.js"></script>
     <script src="js/picwall.js"></script>
-    <script src="js/FeedEk.js"></script>
     <script src="js/main.js"></script>
 </head>
     <body>
