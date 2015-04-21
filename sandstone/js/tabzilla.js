@@ -582,7 +582,7 @@ Tabzilla.content =
     + '      </li>'
     + '      <li id="tabzilla-search">'
     + '        <a href="https://www.mozilla.org/community/directory.html">Website Directory</a>'
-    + '        <form title="Search Mozilla sites" role="search" action="http://www.google.com/cse">'
+    + '        <form title="Search Mozilla sites" role="search" action="https://www.google.com/cse">'
     + '          <input type="hidden" value="002443141534113389537:ysdmevkkknw" name="cx">'
     + '          <input type="hidden" value="FORID:0" name="cof">'
     + '          <label for="q">Search</label>'
