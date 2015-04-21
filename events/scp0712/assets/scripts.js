@@ -3,7 +3,7 @@ var map = new L.Map('map', {
     dragging: false
 });
 
-var cloudmade = new L.TileLayer('http://tile.openstreetmap.tw/tiles/{z}/{x}/{y}.png', {
+var cloudmade = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: 'Map data <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> <a href="http://openstreetmap.org">OpenStreetMap</a> contributors.',
     zoom: 17
 });
@@ -45,7 +45,7 @@ var users = ["12452841@N00", "60061298@N00", "71531353@N07", "61524395@N06", "58
 
 var userIter = 0;
 var getPhotos = function(){
-  $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
+  $.getJSON("https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
     id: users[userIter], // othree, irvinchen
     tags: "mozparty",
     format: "json"
