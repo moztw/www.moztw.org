@@ -51,11 +51,11 @@
     #card input[type=text] {
         width: 150px;
     }
-    #card img { 
-        margin: 0.75em 0 1.25em; 
+    #card img {
+        margin: 0.75em 0 1.25em;
         box-shadow: 1px 2px 3px #AAAAAA;
     }
-    #card a:hover { 
+    #card a:hover {
         background: none;
     }
     #card input {
@@ -72,22 +72,22 @@
         width: 600px;
         text-align: center;
     }
-    #card:hover input, #card:hover textarea { 
-        border: 1px inset; 
-        margin: 0;         
-    }
-    #card input:focus, #card textarea:focus { 
-        border: 1px inset; 
+    #card:hover input, #card:hover textarea {
+        border: 1px inset;
         margin: 0;
     }
-    #card #senderName { 
-        text-align: right; margin-top: 0.5em; 
+    #card input:focus, #card textarea:focus {
+        border: 1px inset;
+        margin: 0;
     }
-    #control, #control_capcha { 
+    #card #senderName {
+        text-align: right; margin-top: 0.5em;
+    }
+    #control, #control_capcha {
         margin-left: 100px;
-        text-align: center; 
+        text-align: center;
     }
-    #control input, #control_capcha input { 
+    #control input, #control_capcha input {
         font-size: 0.9em;
         font-weight: bold;
         height: 2.5em;
@@ -99,7 +99,7 @@
         left: 0;
         position: absolute;
     }
-    
+
     #control.hide {
         display: none;
     }
@@ -107,29 +107,29 @@
     #recaptcha_holder {
         display: none;
     }
-    
+
     #recaptcha_holder.show {
         display: block;
     }
 
-    /* out of limited */    
+    /* out of limited */
 
     body #control {
      display: block;
-    } 
-    
+    }
+
     body #control-out {
      display: none;
     }
 
     body.out #control {
         display: none;
-    } 
-   
+    }
+
     body.out #control-out {
         display: block;
     }
-    
+
     body #limit {
         display: block;
     }
@@ -142,7 +142,7 @@
     body.out #limit-out {
         display: block;
     }
-    
+
 </style>
 <title>Happy Chinese New Year with Foxmosa! 2012 狐耳摩莎賀新年 - MozTW</title>
 </head>
@@ -156,28 +156,26 @@
  We're out of cards due to daily limits. Come back tomorrow!</p>
 
 <form action="/send" method="POST">
-    
-    <p id="mail-header">
-        收件人 To: <input type="email" name="tomail" placeholder="收件人信箱 Recipient's e-mail" required /><br>
-        寄件人 From: <input type="email" name="sendmail" placeholder="你的信箱 Your e-mail" required /><br>
 
-        主旨 Subject: <input type="text" name="subject" value="Chinese New Year Greetings! 2012 龍年快樂" required />
+    <p id="mail-header">
+        收件人 To: <input type="email" name="tomail" placeholder="收件人信箱 Recipient's e-mail" required><br>
+        寄件人 From: <input type="email" name="sendmail" placeholder="你的信箱 Your e-mail" required><br>
+        主旨 Subject: <input type="text" name="subject" value="Chinese New Year Greetings! 2012 龍年快樂" required>
     </p>
 
-    
+
     <table id="card">
         <tr>
             <td>
-                <p id="dear">Dear <input type="text" name="toname" placeholder="收件人姓名 Recipient" required /> ,</p>
-
-                <a href="http://moztw.org/events/newyear2012/" target="_blank"><img src="http://moztw.org/foxmosa/images/foxmosa-2012newyear.png" width="600" height="393" alt="Foxmosa 2012 New Year Card" /></a>
+                <p id="dear">Dear <input type="text" name="toname" placeholder="收件人姓名 Recipient" required> ,</p>
+                <a href="http://moztw.org/events/newyear2012/" target="_blank"><img src="//moztw.org/foxmosa/images/foxmosa-2012newyear.png" width="600" height="393" alt="Foxmosa 2012 New Year Card" /></a>
                 <textarea name="say" maxlength="300" placeholder="卡片內容 Your message"></textarea>
-                <p id="senderName">~ <input type="text" name="sendname" placeholder="你的名字 Your Name" required /></p>            
+                <p id="senderName">~ <input type="text" name="sendname" placeholder="你的名字 Your Name" required></p>
             </td>
 
         </tr>
     </table>
-    
+
   <div id='control'>
     <input type="reset" value="重置 Reset" /><input type="button" value="寄出 Submit" onclick="javascript:document.getElementById('recaptcha_holder').style.display = 'block';document.getElementById('control').style.display = 'none';">
 
@@ -187,7 +185,7 @@
   </div>
 
 <div id='recaptcha_holder'>
-    <script type="text/javascript" src="http://www.google.com/recaptcha/api/challenge?k=6LdtN8wSAAAAACw4KwmQ1FRoyguSknr9buwDiE_G"></script>
+    <script type="text/javascript" src="//www.google.com/recaptcha/api/challenge?k=6LdtN8wSAAAAACw4KwmQ1FRoyguSknr9buwDiE_G"></script>
 
 <noscript>
   <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdtN8wSAAAAACw4KwmQ1FRoyguSknr9buwDiE_G" height="300" width="500" frameborder="0"></iframe><br />
