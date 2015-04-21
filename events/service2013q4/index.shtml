@@ -25,7 +25,7 @@
 
       <h3>WebAPIs - Firefox OS for developers: the platform HTML5 deserves <span class="appendix">"謝家銘</span></h3>
       <div class="video">
-        <script type="text/javascript" src="http://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        <script type="text/javascript" src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
         (
           {
             "base_state": {"language": "zh-tw"},
