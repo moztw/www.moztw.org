@@ -17,10 +17,8 @@
     <script src="js/picwall.js"></script>
     <script src="js/FeedEk.js"></script>
     <script src="js/main.js"></script>
-
 </head>
     <body>
-
                 <!--#include virtual="/sandstone/header.shtml" -->
 
                 <div id="title_area" class="container block">
@@ -58,9 +56,9 @@
                             <header>
                                 <h2 class="block-title">BrowserPairs</h2>
                             </header>
-                            <a href="http://moztw.org/foxmosa/game/pairs/" class="pairslogo">BrowserPairs</a>
+                            <a href="game/pairs/" class="pairslogo">BrowserPairs</a>
                             <a href="https://github.com/moztw/browser-pairs" class="button github" onclick="ga('send', 'event', 'Outgoing', 'Github-BrowserPairs', 'foxmosa');">Fork me on Github</a>
-                            <a href="http://moztw.org/foxmosa/game/pairs/" class="button playthegame">Play</a>
+                            <a href="game/pairs/" class="button playthegame">Play</a>
                         </div>
                     </section>
 

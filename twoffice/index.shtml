@@ -1,7 +1,7 @@
 <!--#include virtual="/inc/meta.html" -->
 <script type="text/javascript" src="/js/library/jquery.js"></script>
-<script type="text/javascript" src="./fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 <script>
 $(document).ready(function(){
     $(".iframe").fancybox({
@@ -16,7 +16,7 @@ $(document).ready(function(){
 })
 </script>
 
-<title>Mozilla 美商謀智公司徵人啟事 - MozTW</title>    
+<title>Mozilla 美商謀智公司徵人啟事 - MozTW</title>
 <link rel="stylesheet" type="text/css" href="/css/keypoint-radius.css">
 <link rel="stylesheet" type="text/css" href="twoffice.css">
 <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen">
@@ -43,7 +43,7 @@ Mozilla 台灣社群（MozTW）自 2004 年以來，持續進行 Mozilla 中文�
 
         <h2>目前職缺</h2>
         <div class="stamp104">
-            <script type="text/javascript" src="http://www.104.com.tw/i/apis/qjob.cfm?c=62684a2c504e475e393a426b5a5c3f21940684a73484e47292929292540592e2d008j50&amp;fmt=8"></script>
+            <script type="text/javascript" src="//www.104.com.tw/i/apis/qjob.cfm?c=62684a2c504e475e393a426b5a5c3f21940684a73484e47292929292540592e2d008j50&amp;fmt=8"></script>
             <script type="text/javascript">
             b = new j104Widget({
             "sc":"#212121",
@@ -57,7 +57,7 @@ Mozilla 台灣社群（MozTW）自 2004 年以來，持續進行 Mozilla 中文�
             });
             document.write(b.output());
             </script>
-            <noscript><a href="http://www.104.com.tw/104i/joblist.cfm?c=62684a2c504e475e393a426b5a5c3f21940684a73484e47292929292540592e2d008j50&amp;isnew=-1">美商謀智 (Mozilla) 台灣分公司職缺清單</a></noscript>
+            <noscript><a href="//www.104.com.tw/104i/joblist.cfm?c=62684a2c504e475e393a426b5a5c3f21940684a73484e47292929292540592e2d008j50&amp;isnew=-1">美商謀智 (Mozilla) 台灣分公司職缺清單</a></noscript>
         </div>
 
         <div class="apply">
