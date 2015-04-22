@@ -115,9 +115,9 @@
 	<p class="center">先檢查支援</p>
     <pre><code>
 if (typeof document.cancelFullScreen != 'undefined' ||
-		typeof document.mozCancelFullScreen 
+		typeof document.mozCancelFullScreen
 			!= 'undefined' ||
-		typeof document.webkitCancelFullScreen 
+		typeof document.webkitCancelFullScreen
 			!= 'undefined') {
 		uiFullscreen.click(toggleFullscreen);
 		uiFullscreen.addClass('support');
@@ -148,9 +148,9 @@ function enterFullscreen(docElm) {
     <pre><code>
 function toggleFullscreen() {
 if (
-	(document.fullScreenElement && 
+	(document.fullScreenElement &&
       document.fullScreenElement !== null) ||
-	(!document.mozFullScreen && 
+	(!document.mozFullScreen &&
       !document.webkitIsFullScreen)) {
 		enterFullscreen(document.documentElement);
 	} else {
@@ -374,7 +374,7 @@ if (
 <!-- Define the style of your presentation -->
 
 <!-- Maybe a font from http://www.google.com/webfonts ? -->
-<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
 
 <style>
   html, .view body { background-color: black; counter-reset: slideidx; }
@@ -431,12 +431,12 @@ if (
   blockquote:after {
     content: close-quote;
   }
-  
+
   p.right {
   	margin: 0;
   	float: right;
   }
-  
+
   p.center {
   	margin: .5em 0 auto;
   	text-align: center;
@@ -448,12 +448,12 @@ if (
   	-moz-tab-size: 4;
   	-webkit-tab-size: 4;
   }
-  
+
   section.reverse {
   	color: white;
   	background-color: black;
   }
-  
+
   /* Figures are displayed full-page, with the caption
      on top of the image/video */
   figure {
@@ -935,7 +935,7 @@ if (
       requestFullscreen.apply(html);
     }
   }
-  
+
   Dz.setProgress = function(aIdx, aStep) {
     var slide = $("section:nth-of-type("+ aIdx +")");
     if (!slide)
@@ -945,14 +945,14 @@ if (
         stepSize = slideSize / steps;
     this.progressBar.style.width = ((aIdx - 1) * slideSize + aStep * stepSize) + '%';
   }
-  
+
   Dz.postMsg = function(aWin, aMsg) { // [arg0, [arg1...]]
     aMsg = [aMsg];
     for (var i = 2; i < arguments.length; i++)
       aMsg.push(encodeURIComponent(arguments[i]));
     aWin.postMessage(aMsg.join(" "), "*");
   }
-  
+
   function init() {
     Dz.init();
     window.onkeydown = Dz.onkeydown.bind(Dz);
@@ -970,7 +970,7 @@ if (
     Function.prototype.bind = function (oThis) {
 
       // closest thing possible to the ECMAScript 5 internal IsCallable
-      // function 
+      // function
       if (typeof this !== "function")
       throw new TypeError(
         "Function.prototype.bind - what is trying to be fBound is not callable"

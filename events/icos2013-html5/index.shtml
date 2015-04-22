@@ -6,14 +6,11 @@
 <meta property="og:site_name" content="MozTW, Mozilla 台灣社群">
 <meta property="og:description" content="ICOS 2013 - HTML5 議程">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
-<!--<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">-->
-<link href="/js/library/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
-<!--[if lte IE 8]> <link rel="stylesheet" href="/js/library/leaflet/leaflet.ie.css" /> <![endif]-->
-<link href="style.css" rel="stylesheet" />
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
-<!--[if IE]>
-    <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
-<![endif]--> 
+<link rel="stylesheet" type="text/css" href="/js/library/leaflet/leaflet.css" media="screen, projection">
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/js/library/leaflet/leaflet.ie.css"><![endif]-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800">
+<!--[if IE]><script src="/js/library/html5shiv/html5shiv-printshiv.js"></script><![endif]-->
 <style>
 	body{
 		min-width: 930px;
@@ -30,15 +27,15 @@
             <img src="/images/HTML5_Logo_512.png" alt="" id="html5logo">
             <h1><ruby>ICOS 2013<rt>開放源碼國際研討會</rt></ruby> - HTML5 主題議程</h1>
         </div>
-    </header>    
-		
+    </header>
+
     <section id="description">
       <p>2013 年 ICOS 開放源碼國際研討會，將結合均優學習論壇，於 4/26~28 日假國家教育研究院合併舉行。有鑑於 HTML5 從今年起將是校園自由軟體與教學資源開發的重點技術，因此 MozTW、<a href="http://javascript.tw">JavaScript.tw 社群</a>的 TonyQ 及<a href="http://ossacc.moe.edu.tw/">教育部校園自由軟體中心</a>合力企劃，為大家帶來一整天的 HTML5 主題議程，希望能讓所有關心網路技術，希望將其運用於教育領域的老師、行政人員與各位朋友，都能透過此議程的概略介紹，掌握 HTML5 各面向的基礎概念。</p>
     </section>
-		
+
     <section id="information">
         <h2>活動資訊</h2>
-        
+
         <ul>
             <li>時間：2013/04/26~28 (五、六、日)</li>
             <li>地點：國家教育研究院三峽院區 / 新北市三峽區三樹路2號 / <a id="linkTraffic" onClick="
@@ -46,7 +43,7 @@
             <li>本活動免報名費，提供付費餐點及4/26中南部北上接駁車，另有提供免費住宿</li>
         </ul>
         <p class="signup"><a target="_blank" href="http://slat.org/icos2013/signup/signup.php" onClick="ga('send', 'event', 'icos-html5', 'signup');">請於此報名</a></p>
-        
+
         <div id="mapcover"><div id="map"></div></div>
 
         <div id="venue-map">
@@ -54,7 +51,7 @@
             <img src="venue.png">
         </div>
     </section>
-    
+
     <section id="schedule">
         <h2>HTML5 議程</h2>
         <p class="pos">ICOS Day 2 | 04/27 (六) | 傳習苑 105</p>
@@ -175,7 +172,7 @@
                 </tr>
             </tbody>
         </table>
-        
+
         <h2>均優論壇自由社群相關議程</h2>
         <p class="pos">傳習苑406</p>
         <table id="icos">
@@ -235,7 +232,7 @@
             </tbody>
         </table>
     </section>
-<!--    
+<!--
     <section>
       <h2>其他事項</h2>
       <p>Mozillians 成員，如果有計畫參與，請至 <a href="https://reps.mozilla.org/e/html5-track-of-icos-conference/">Reps 活動頁面</a>登入並點選「I will attend this event」。</p>

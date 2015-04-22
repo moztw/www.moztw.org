@@ -10,7 +10,7 @@ requirejs.config({
     async: 'lib/async',
     propertyParser: 'lib/propertyParser',
     goog: 'lib/goog',
-    jquery: 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min'
+    jquery: '//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min'
   }
 });
 

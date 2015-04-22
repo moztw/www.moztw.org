@@ -2,7 +2,7 @@ var map = new L.Map('map', {
     scrollWheelZoom: false,
     dragging: false
 });
-var cloudmade = new L.TileLayer('http://tile.openstreetmap.tw/tiles/{z}/{x}/{y}.png', {
+var cloudmade = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: 'Map data <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> <a href="http://openstreetmap.org">OpenStreetMap</a> contributors.',
     zoom: 17
 });
@@ -13,7 +13,7 @@ marker.bindPopup("真善美劇院").openPopup();
 var userIter = 0;
 // photos
 var photos = function ($photos, time) {
-    $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
+    $.getJSON("https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?", {
         tags: "moztwcoderush",
         format: "json"
     }, function (data) {

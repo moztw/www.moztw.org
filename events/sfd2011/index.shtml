@@ -54,48 +54,40 @@
   <p>13:30<br>
   <p>Mozilla 的組成 - bobchao</p>
   <p>Mozilla 開放秘辛 Feat. MozTW 開放秘辛 - Irvin</p>
-  <div style="width:510px"><iframe src="http://www.slideshare.net/slideshow/embed_code/9291385?rel=0" width="510" height="426" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
-  
+  <iframe src="//www.slideshare.net/slideshow/embed_code/key/tnPovttqPxrCs2" width="510" height="420" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
   <p>14:30~16:00</p>
   <h3>如果你不熟技術，想知道 Firefox 有什麼好玩的東西，可以聽這塊</h3>
   <p>．WebFwd - bobchao</p>
   <p>．好玩的套件： nicofox - littlebtc<p>
-  <div style="width: 510px;"><iframe src="http://dl.dropbox.com/u/8093476/moztw/sfd11/nicofox.html" height="384" scrolling="no" width="500"></iframe><a href="http://dl.dropbox.com/u/8093476/moztw/sfd11/nicofox.html" target="_blank">投影片開新視窗</a></div>
+  <div style="width: 510px;"><iframe src="//dl.dropbox.com/u/8093476/moztw/sfd11/nicofox.html" height="384" scrolling="no" width="500"></iframe><a href="http://dl.dropbox.com/u/8093476/moztw/sfd11/nicofox.html" target="_blank">投影片開新視窗</a></div>
   <p>．AMO 有什麼，可以怎麼玩? - toby</p>
-  <div style="width: 510px;"><iframe src="http://dl.dropbox.com/u/6238362/slide.html" height="384" scrolling="no" width="500"></iframe><a href="http://dl.dropbox.com/u/6238362/slide.html" target="_blank">投影片開新視窗</a></div>
-  
-  
+  <div style="width: 510px;"><iframe src="//dl.dropbox.com/u/6238362/slide.html" height="384" scrolling="no" width="500"></iframe><a href="http://dl.dropbox.com/u/6238362/slide.html" target="_blank">投影片開新視窗</a></div>
+
   <h3>如果你已經是進階使用者，想聽聽有什麼新東西的話，請來聽這邊</h3>
   <p>．Add-on SDK + Add-on Builder - littlebtc</p>
-  <div style="width: 510px;"><iframe src="http://dl.dropbox.com/u/8093476/moztw/sfd11/sdk.html" height="382" scrolling="no" width="510"></iframe><a href="http://dl.dropbox.com/u/8093476/moztw/sfd11/sdk.html" target="_blank">投影片開新視窗</a></div>
+  <div style="width: 510px;"><iframe src="//dl.dropbox.com/u/8093476/moztw/sfd11/sdk.html" height="382" scrolling="no" width="510"></iframe><a href="http://dl.dropbox.com/u/8093476/moztw/sfd11/sdk.html" target="_blank">投影片開新視窗</a></div>
   <p>．Rapid Release 介紹以及套件相容問題 - petercpg</p>
-  <div style="width: 510px;"><iframe src="http://dl.dropbox.com/u/4678506/MozTWSFD2011/sfdslide.html" height="382" scrolling="no" width="510"></iframe><a href="http://dl.dropbox.com/u/4678506/MozTWSFD2011/sfdslide.html" target="_blank">投影片開新視窗</a></div>
+  <div style="width: 510px;"><iframe src="//dl.dropbox.com/u/4678506/MozTWSFD2011/sfdslide.html" height="382" scrolling="no" width="510"></iframe><a href="http://dl.dropbox.com/u/4678506/MozTWSFD2011/sfdslide.html" target="_blank">投影片開新視窗</a></div>
   <p>．「HTML5 可以幹嘛，好吃嗎？」- timdream</p>
   <div style="width: 510px;"><div style="background-color: red; color: white; border: 1px solid black; height: 382px; text-align: center; font: 1.5em/382px bold;">極機密！投影片不存在！</div></div>
-  
+
   <h2 id="sumo"><img src="extension_icon.png" alt="">SUMO 翻譯大賽</h2>
   <p>SUMO 在日文裡頭是相撲的意思，但在此這個縮寫字的全名是：Support Mozilla :)</p>
   <p>SUMO 簡單說，是個集結各種常見問題的知識檔案庫。都是一些簡短且對 Firefox 等使用者遇到疑問時，有個很方便查找解決方法的地方。在去年的 SFD，我們已經翻譯了上面常見的文件，但是這一年來隨著 Mozilla 軟體的推陳出新，不少文章都已經有更動過時了，所以我們除了要翻譯高使用率的文章，還要對過時的文章進行修正，到時有機會可以拿到 SFD 紀念 T-shirt，還有數量稀少的神秘禮物喔！</p>
   <ul>
-  <li><a href="http://moztw.org/contribute/sumo/">參與 SUMO 專案詳細說明專頁</a></li>
+  <li><a href="//moztw.org/contribute/sumo/">參與 SUMO 專案詳細說明專頁</a></li>
   <li><a href="https://docs.google.com/spreadsheet/ccc?key=0Aud81RIjtcPadGpuNXNqVFZ4Wkg1S2FnZXJvMHNmc3c&hl=zh_TW#gid=0">本次比賽積分加倍文章列表</a></li>
   <li><a href="https://docs.google.com/spreadsheet/viewform?formkey=dHJPdXR0eHRZZ0ttR1dkcjk0cnZKZkE6MQ#gid=0">SUMO 比賽翻譯提交申請單</a></li>
   </ul>
-  
-
-
-
-
 
   <h2 id="photo"><img src="extension_icon.png" alt="">活動相片</h2>
   <p>請把相片標上 <u>sfd2011</u> 及 <u>moztw</u> 標籤，上傳至 <a href="http://www.flickr.com/groups/moztw/">Flickr MozTW 群組</a>或 Picasa 網路相簿，就會出現在這裡嘍！</p>
   <div>
   <object width="510" height="510"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fsearch%2Fshow%2F%3Fq%3Dsfd2011%2Bmoztw%26d%3Dtaken-20110917-20110917%26ss%3D0%26ct%3D0%26mt%3Dphotos%26adv%3D1&page_show_back_url=%2Fsearch%2F%3Fq%3Dsfd2011%2Bmoztw%26d%3Dtaken-20110917-20110917%26ss%3D0%26ct%3D0%26mt%3Dphotos%26adv%3D1&method=flickr.photos.search&api_params_str=&api_text=sfd2011+moztw&api_tag_mode=bool&api_min_taken_date=2011-09-17+00%3A00%3A00&api_max_taken_date=2011-09-18+00%3A00%3A00&api_media=photos&api_sort=relevance&jump_to=&start_index=0"></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=107931"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=107931" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fsearch%2Fshow%2F%3Fq%3Dsfd2011%2Bmoztw%26d%3Dtaken-20110917-20110917%26ss%3D0%26ct%3D0%26mt%3Dphotos%26adv%3D1&page_show_back_url=%2Fsearch%2F%3Fq%3Dsfd2011%2Bmoztw%26d%3Dtaken-20110917-20110917%26ss%3D0%26ct%3D0%26mt%3Dphotos%26adv%3D1&method=flickr.photos.search&api_params_str=&api_text=sfd2011+moztw&api_tag_mode=bool&api_min_taken_date=2011-09-17+00%3A00%3A00&api_max_taken_date=2011-09-18+00%3A00%3A00&api_media=photos&api_sort=relevance&jump_to=&start_index=0" width="510" height="510"></embed></object>
   <iframe src="http://picasaweb.google.com/lh/view?q=sfd2011+moztw&filter=0#slideshow/5653365311737620754" height="510" scrolling="no" width="510"></iframe></div>
-  
-  
+
   <h2><img src="extension_icon.png" alt="">活動資訊</h2>
-  
   <p>日期：2011/09/17 13:00-17:00</p>
   <p>地點名稱：蛙咖啡</p>
   <p>報名頁面：<a href="http://registrano.com/events/2011moztwsfd">跳躍吧！小莎歡迎你 2011 MozTW SFD Party | Registrano</a></p>

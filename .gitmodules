@@ -1,0 +1,3 @@
+[submodule "events/blackout"]
+	path = events/blackout
+	url = git@github.com:moztw/TW-Error451-Blackout.git

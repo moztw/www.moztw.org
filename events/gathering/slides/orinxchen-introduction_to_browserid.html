@@ -137,7 +137,7 @@ mcode { font-size: 30px; }
 <!-- Define the style of your presentation -->
 
 <!-- Maybe a font from http://www.google.com/webfonts ? -->
-<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+<link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
 
 <style>
   html { background-color: black; }
@@ -274,7 +274,7 @@ mcode { font-size: 30px; }
     this.setupTouchEvents();
     this.onresize();
   }
-  
+
   Dz.setupParams = function() {
     var p = window.location.search.substr(1).split('&');
     p.forEach(function(e, i, a) {
@@ -536,7 +536,7 @@ mcode { font-size: 30px; }
     }
     return next;
   }
-  
+
   Dz.postMsg = function(aWin, aMsg) { // [arg0, [arg1...]]
     aMsg = [aMsg];
     for (var i = 2; i < arguments.length; i++)
@@ -557,7 +557,7 @@ mcode { font-size: 30px; }
     Function.prototype.bind = function (oThis) {
 
       // closest thing possible to the ECMAScript 5 internal IsCallable
-      // function 
+      // function
       if (typeof this !== "function")
       throw new TypeError(
         "Function.prototype.bind - what is trying to be fBound is not callable"

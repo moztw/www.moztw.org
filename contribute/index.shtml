@@ -62,10 +62,10 @@ body * {
 }
 /*
 span.unisubs-widget video {
-	width: 360px !important; 
+  width: 360px !important;
 }
 #video div.unisubs-videoTab-container{
-	display: none !important;
+  display: none !important;
 }
 */
 
@@ -138,8 +138,6 @@ span.unisubs-widget video {
 	width: 25%;
 	font-weight: normal;
 }
-
-
 </style>
 <link media="all" type="text/css" href="css/ui-lightness/jquery-ui-1.7.3.custom.css" rel="stylesheet">
 <script type="text/javascript" src="js/jquery-1.3.2.min.js" ></script>
@@ -157,11 +155,9 @@ h3.toggle, span.toggle {
 </style>
 </noscript>
 
-
 <script type="text/javascript">
-$(function() { 
-	$("#tabs").tabs({ selected: 0 });	//設定預設分頁
-	
+$(function() {
+  $("#tabs").tabs({ selected: 0 });	//設定預設分頁
 });
 </script>
 
@@ -175,11 +171,11 @@ $(function() {
 		<p>您不一定得是專業的程式設計師，也不見得得花很多時間，就能跟我們一起讓網路變得更好、更富創新。現在就來看看您可以做些什麼，找哪些人問問題。</p>
 	</div>
 	<div id="video">
-		<iframe width="360" height="200" src="http://www.youtube-nocookie.com/embed/Z7sv7JMMCBI?list=PLOHV-5SHjI8hJTZ6rW-cLmPp7tzgI8bji" frameborder="0" allowfullscreen></iframe>
+		<iframe width="360" height="200" src="https://www.youtube-nocookie.com/embed/Z7sv7JMMCBI?list=PLOHV-5SHjI8hJTZ6rW-cLmPp7tzgI8bji" frameborder="0" allowfullscreen></iframe>
 <!--			<script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
 		({
 			"base_state": {"language": "zh-tw"},
-			"video_url": "http://videos.mozilla.org/serv/brand/Mozilla_Firefox_Manifesto_v0.1.ogv",
+			"video_url": "https://videos.mozilla.org/serv/brand/Mozilla_Firefox_Manifesto_v0.1.ogv",
 			"video_config": {
 				click_to_play: true,
 				color: 'FF0000',
@@ -213,7 +209,7 @@ $(function() {
 		</ul>
 	</div>
 -->
-	
+
 	<div id="tabs-2">
 		<p style="text-align: right; margin-top: 0;">誠摯邀請您貢獻自己的時間與心力，自由協助推行下列工作。<br>　　——請不用擔心自己的能力不夠，我們歡迎您邊做邊學！</p>
 		<div class="content_block clearfix">
@@ -331,7 +327,7 @@ $(function() {
 			</div>
 		</div>
 	</div>
-	
+
 	<div id="tabs-3">
 		<iframe src="http://whatcanidoformozilla.org/" width="530" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 	</div>
@@ -376,7 +372,7 @@ $(function() {
       </ul>
     </div>
   </div>
-	
+
 	<div class="subscribe">
 		<form action="http://groups-beta.google.com/group/moztw-general/boxsubscribe">
 			<input type="email" name="email" placeholder="輸入您的 E-mail" class="ui-widget ui-widget-content ui-corner-all"/>
@@ -487,7 +483,7 @@ $(function(){
 	$('h3.toggle, span.toggle')
 	.prepend($('<span class="indicator" />').text('+'))
 	.bind('click', function () {
-		$(this).nextAll('div.toggle:first, ol.toggle:first').slideToggle(250); 
+		$(this).nextAll('div.toggle:first, ol.toggle:first').slideToggle(250);
 		$i = $(this).children('.indicator');
 		if ($i.text() === '+') $i.text('-');
 		else $i.text('+');

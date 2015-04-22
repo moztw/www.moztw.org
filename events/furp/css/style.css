@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(//fonts.googleapis.com/css?family=Oxygen);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -232,7 +232,7 @@ input[type="submit"]{
 	-ms-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
 	-o-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
 	box-shadow: 0 1px 5px rgba(0,0,0,0.5);
-	
+
 }
 
 #photos .content .left-btn{
@@ -335,7 +335,7 @@ input[type="submit"]{
 
 /* from registrano */
 .registration a.register-now {
-    background: url("http://registrano.com/images/themes3/logo-button.png") no-repeat scroll 22px 12px #417897;
+    /*background: url("http://registrano.com/images/themes3/logo-button.png") no-repeat scroll 22px 12px #417897;*/
     border-radius: 7px 7px 7px 7px;
     color: #FEFFFE;
     display: block;
