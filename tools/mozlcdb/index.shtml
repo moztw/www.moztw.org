@@ -20,25 +20,25 @@ It is designed to resolve issues introduced since Mozilla Firefox 1.0 branch, an
 a replacement for MozillaTranslator.
 <h3> The author and "Why a new tool?"</h3>
 <p> &nbsp; This is <a href='http://ntu.csie.org/~piaip/' title="piaip@csie.ntu.edu.tw">Hung-Te Lin</a>,
-maintainer of <a href='http://moztw.org/'>Traditional Chinese Mozilla Localization</a>,
+maintainer of <a href='/'>Traditional Chinese Mozilla Localization</a>,
 <!-- Traditional Chinese VIM Localization,-->
-and the famous <a href='http://moztw.org/tools/'> "mozip" </a>
+and the famous <a href='/tools/'> "mozip" </a>
 (a tool to make Win32 localized builds).<br/>
 <p>&nbsp; I have been using MozillaTranslator for years
 (whether the official builds or my own tweaked versions) since Mozilla M14
 (Milestone 14, not 1.4. The M series are older than Mozilla 0.6).
-During these years MT works O.K although more and more extra works have to 
+During these years MT works O.K although more and more extra works have to
 be done because Mozilla locale structure changes all the time.<br/>
 <p>&nbsp; Since the landing of Mozilla Firefox 1.0PR, localizers of Mozilla* suffered from
-the huge changes in Mozilla locale structure and new CVS requirements. 
+the huge changes in Mozilla locale structure and new CVS requirements.
 Unfortunately, MozillaTranslator does not work anymore. Although MT has released
 new versions to solve issues, after trying MT5.04 I think it's time to develop
 a new tool which is more robust or I have to manually do many extra work for all
 versions. With my experience in localization, I proposed
-what I need and made a new tool, named MozLCDB. This name is a little weird 
+what I need and made a new tool, named MozLCDB. This name is a little weird
 because the better name 'MLDB' is already taken by others. Hmmm. Maybe MLD?<br/>
 <p>&nbsp; I'm not an perl guru so this script is not perfect nor elegant now, but it helped
-me to generate a working Firefox 1.0PR locale without too much effort (in 
+me to generate a working Firefox 1.0PR locale without too much effort (in
 comparision to fight with MozillaTranslator).
 <h3> Features of MozLCDB </h3>
 MozLCDB is focused to Mozilla Localization. In comparsion to MozillaTranslator,
@@ -59,7 +59,7 @@ you'll notice that:
 You  need these stuff:
 <ul>
 	<li style='color: red;'> Perl 5.8 or later versions
-	<li> Your favorite editor (with the ability to open/save UTF-8, like 
+	<li> Your favorite editor (with the ability to open/save UTF-8, like
 	<a href='http://www.vim.org'> VIM </a> which is my own choice)
 	<li style='color: #aaa;'> (optional) Any ZIP archiver if you want to use ZIP/JAR languagepack
 		or if you want to import MozillaTralsator glossary
@@ -74,32 +74,32 @@ Get these files:
 	<br/> <i>- added: output string table by specified timestamp<br/>
                  - fixed: support DTD Reference entries and #expand preprocessing</i>
         </li>
-    
+
 	<li><a href='archive/mozlcdb_v0.3.zip'> Version 0.3 </a>(Stable, approved with Fx1.1trunk,Tb1.1trunk, 2005/07/20)
 	<br/> <i>- added: N-way merge, better root guessing, check db, ... lots of new features</i>
 	</li>
 	<li><a href='archive/mozlcdb_v0.2.zip'> Version 0.2 </a>(Stable, approved with FF1.0/TB0.8, 2004/09/27)</li>
 	<li><a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a>(Deprecated)</li>
 	</ul>
-	<li style='padding-top: 10px;'>Latest beta: <ul><li><a href='archive/mozlcdb_latest.zip'> 
+	<li style='padding-top: 10px;'>Latest beta: <ul><li><a href='archive/mozlcdb_latest.zip'>
 		<!--#flastmod virtual="archive/mozlcdb_latest.zip" --> </a> (hack on your own!)</li>
 	</ul>
     </ul>
 </ul>
 <h3> Background Knowledge </h3>
 <b>This section explains the basic idea about MozLCDB. It helps you to understand it more
-	although you may use it without knowing anything explained here. 
+	although you may use it without knowing anything explained here.
 	Yes, you can go to "Usage:" sections if you are in a hurry.
 	However it is highly recommended to get things clear before you start.</b><br/>
 <dl>
 <dt> Workflow </dt>
-<dd> 
+<dd>
 &nbsp;&nbsp; I'm trying to explain the workflow of MozLCDB here. Don't worry about the terms quoted,
 they will be explained in following subsections.<br/>
 <p>&nbsp;&nbsp; Basically, MozLCDB works in this manner: MozLCDB tries to '<u>import</u>' from
 a '<u>prepared directory</u>' (pulled from CVS or ZIP language pack), then save and merge
 into a '<u>(glossary) database</u>'. If any new locale string or updated ones are found,
-these entries will be written to an '<u>input (editing) table</u>'. You can then edit the 
+these entries will be written to an '<u>input (editing) table</u>'. You can then edit the
 input table to do localization. After everything is done, you have to '<u>update</u>'
 the '<u>(glossary) database</u>' with your '<u>input (editing) table</u>'.
 Then you can '<u>export</u>' the locales to another '<u>prepared
@@ -109,7 +109,7 @@ all the localized stuff.
 <dt> File Format and Default Filenames </dt>
 <dd>&nbsp;&nbsp;  MozLCDB tries to record everything in a text file named '<b>mozlcdb.txt</b>'.
 It is saved in perl Dump format, however it is still readble ( if you know a little perl)
-and also called as the '<u>glossary</u>' (due to MT) or '<u>database</u>'. 
+and also called as the '<u>glossary</u>' (due to MT) or '<u>database</u>'.
 And there's another format of input that MozLCDB can read: <u>the input (editing)
 table</u>. It is more human readble and looks like DOS/WIN INI or GNU PO format.
 The default file name of this kind file is '<b>current.txt</b>'.  When importing from
@@ -124,13 +124,13 @@ DTD and ".properties" files.
 </dd>
 <dt> Directory Structure </dt>
 <dd>
-&nbsp;&nbsp; Mozilla locale is stored in a hierarchical directory structure, also refered as 
+&nbsp;&nbsp; Mozilla locale is stored in a hierarchical directory structure, also refered as
 <u>chrome node</u>. So you will see a very long path like
 "<b>locale/en-US/global/global.dtd</b>" in the directory you pulled from CVS or
 extracted from a language pack. MozLCDB mostly runs with the level just after
 where 'en-US' sits, so whether you're working with CVS or language pack, you
 must move directories (or move mozlcdb program and files) and assign
-correct <u>ROOT</u> path to fit thie rule. 
+correct <u>ROOT</u> path to fit thie rule.
 Then it can be called as a '<u>prepared directory</u>'. (P.S: Actually, you can
 run in any level of directories. But you may get problems if you work in that
 way.)<br/>
@@ -146,7 +146,7 @@ files inside the '<u>prepared directory</u>' assigned by <u>ROOT</u>.
 Currently, only <b>*.dtd</b> and <b>*.properties</b> will be processed. All other
 files will be ignored.
 <p>&nbsp;&nbsp; When one DTD or properties file was found, MozLCDB first reads its
-content for the 'key's and original locales. 
+content for the 'key's and original locales.
 If a key was not found (never seen), it will be inserted into database as a 'new' entry.
 If a key was found, MozLCDB will determine what to do depending on the original (en-US)
 locale message.  If it is exactly same as some version recorded in database,
@@ -192,7 +192,7 @@ Run 'mozlcdb.pl -h' to see its syntax:
 <h3> Usage: Import from MozillaTranslator </h3>
 <b>If you don't need to import from MozillaTranslator, skip this section.<br/>
 	You must have python working before you start the procedure.</b><br/><br/>
-I know this is weird: why python, not perl? Because this python script 
+I know this is weird: why python, not perl? Because this python script
 is modified by another python script I wrote years ago and I'm tired
 of making another perl version.<br/>
 <ul>
@@ -205,7 +205,7 @@ of making another perl version.<br/>
 	Usually you'll get some warnings about "Not sync". Don't worry about that.
 	<li>If you have a "<b>mozlcdb.txt</b>" which is not 0 bytes in your
 	directory now, congradulations, you have successfully imported MT glossary.
-	<li>Check mozlcdb.txt. Entries of chrome nodes should be look like 
+	<li>Check mozlcdb.txt. Entries of chrome nodes should be look like
 	"browser/metaData.dtd". If you see "locale/en-US/...." of "en-US/...",
 	please use the replace feature of your editor to fix this error. This is caused
 	by some different MozillaTranslator.
@@ -218,7 +218,7 @@ its matching version of en-US package or importing may be useless.</b><br/>
 	<li>Unzip your language pack jar files (both for aa-BB and en-US).
 	<li>If region directory is included as BB and US, move all stuff inside
 	BB/ and US/ to aa-BB/ and en-US/
-	<li>Move directories so that you can see en-US/ and aa-BB/ and your 
+	<li>Move directories so that you can see en-US/ and aa-BB/ and your
 	<b> mozlcdb.pl</b> in <b>same</b> directory.
 	<li><pre>perl mozlcdb.pl -n en-US aa-BB</pre>
 	<li>If it stopped and giving you errors, try to identify what file stopped it.
@@ -235,7 +235,7 @@ because you can rollback if anything goes wrong.
 	<a href='http://www.mozilla.org/projects/firefox/l10n/using-cvs.html'> Check here. </a></li>
 	<li> Now make sure what's your ROOT. Look at the previous section of 'Background Knowledge'.
 	If you have CVS pulled as 'mozilla/toolkit/locales' and 'mozilla/browser/locales' in
-	your current directory, please use ROOT as 
+	your current directory, please use ROOT as
 	"<u>mozilla/toolkit/locales/en-US/chrome mozilla/browser/locales/en-US/chrome</u>".
 	<li>Run this command: <pre> perl mozlcdb.pl -i ROOT</pre>
 	Example: <pre> perl&nbsp;mozlcdb.pl&nbsp;-i&nbsp;mozilla/toolkit/locales/en-US/chrome&nbsp;mozilla/browser/locales/en-US/chrome</pre>
@@ -288,7 +288,7 @@ your locale module, for example aa-BB, but we're not going to use it. Please rev
 the section of 'Background Knowledge' for 'The procedure of Export'. You have to use the
 original dtd and properties files from en-US.
 <ul>
-	<li>Prepare a directory of original files. You may just copy from original 
+	<li>Prepare a directory of original files. You may just copy from original
 	en-US directory, like<pre>cp -R mozilla/toolkit/locales/en-US/chrome aa-BB-toolkit<br/>
 cp -R mozilla/browser/locales/en-US/chrome aa-BB-browser</pre>
 	The commands (UNIX only) above will generate ROOT of "<b>aa-BB-toolkit aa-BB-browser</b>".<Br/>
@@ -315,7 +315,7 @@ for X in `find en-US -name "*.dtd"` ; do cp $X ${X/en-US/aa-BB} ; cvs add ${X/en
 Before you start, there's something you have to know.
 Currently we don't have a really good method for changing locale in Firefox
 (maybe we will never do),
-and the bug of "using extensions without corresponding 
+and the bug of "using extensions without corresponding
 locale leads to crashing" is still there (maybe will be solved in 1.0 release),
 so trying to provide language packs for end user is <b>really a mess</b>.
 <p> The better way is to export to CVS files and let mozilla.org build
@@ -326,12 +326,12 @@ chrome node path, and save to an 'en-US.jar' to replace the original en-US.jar.
 <p> This is <b>NOT GOOD</b>, but seems like making most end user happy.
 If you don't want to make such evil language packs, you have to go manually
 edit every *.rdf in directories, and prepare install.rdf or install.js.
-<p> OK... But if you are happy with evil packs, or 
+<p> OK... But if you are happy with evil packs, or
 <b>you're just trying your newly localized stuff</b>
-(this is mainly what I use this feature now for) , 
+(this is mainly what I use this feature now for) ,
 here's how to make it work:
 <ul>
-	<li>Prepare a directory of original files. 
+	<li>Prepare a directory of original files.
 	You may extract from en-US.jar, and mostly you will have a directory named 'locale'.
 	Now identify your ROOT. In the case above, it is just 'locale'.
 	<li>Export with: <pre>perl mozlcdb.pl -x ROOT </pre>
@@ -354,13 +354,13 @@ here's how to make it work:
 	You don't have to prepare directory again. just use same ROOT and change -x to -X:
 	<pre>perl mozlcdb.pl -X ROOT</pre>
 	<li>If you want to create language pack or localized builds (again, this is NOT EASY
-	and NOT SUGGESTED if you want to release files in this way. 
-	You should use CVS and let mozilla.org do this work. 
-	Care....  files made in this way cannot be called 'Official' due to new  
+	and NOT SUGGESTED if you want to release files in this way.
+	You should use CVS and let mozilla.org do this work.
+	Care....  files made in this way cannot be called 'Official' due to new
 	<a href='http://www.mozilla.org/foundation/trademarks/l10n-policy.html'> L10N policy</a>),
-	please see 
+	please see
 	<a href='http://www.mozilla.org/projects/firefox/l10n/localize-release.html'>
-		Creating a Localized Installera</a> and 
+		Creating a Localized Installera</a> and
 	<a href='http://www.mozilla.org/projects/firefox/l10n/'> Localizing Firefox </a> .<br/>
 	An easy hack is just to put the new en-US.jar into a Firefox installer, anyway.
 	</li>

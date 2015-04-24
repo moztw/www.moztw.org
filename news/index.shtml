@@ -5,8 +5,6 @@
 
 <hr class="hide">
 
-
-
 <h1>最新消息與公告</h1>
 <!--#include virtual="/inc/news.html" -->
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
@@ -193,7 +191,7 @@
 <li><div class="date"> 9 月 28</div>
 <a href="/firefox/releases/7.0/">Firefox 7.0</a> 登場，<a href="/firefox/releases/3.6.23/">Firefox 3.6.23</a> 安全更新</li>
 <li><div class="date"> 9 月 19</div>
-<a href="http://moztw.org/events/sfd2011">跳躍吧！小莎歡迎你 2011 SFD Party 活動</a>更新，放上投影片跟照片嘍！</li>
+<a href="/events/sfd2011">跳躍吧！小莎歡迎你 2011 SFD Party 活動</a>更新，放上投影片跟照片嘍！</li>
 <li><div class="date"> 9 月 7</div>
 <a href="/firefox/releases/6.0.2/">Firefox 6.0.2</a>、<a href="/firefox/releases/3.6.22/">Firefox 3.6.22</a> 安全更新</li>
 <li><div class="date"> 9 月 5</div>
@@ -270,7 +268,7 @@
 <li><div class="date"> 12 月 16</div>
   <a href="/firefox/releases/3.5.6/">Firefox 3.5.6</a> 及 <a href="/firefox/releases/3.0.16/">3.0.16</a> 安全更新</li>
 <li><div class="date"> 12 月 9</div>
-  <a href="http://moztw.org/thunderbird/">Thunderbird 3 全新發表</a></li>
+  <a href="/thunderbird/">Thunderbird 3 全新發表</a></li>
 <li><div class="date"> 11 月 9</div>
   <a href="http://www.spreadfirefox.com/5years/zh-TW/">Firefox 五歲生日快樂！</a></li>
 <li><div class="date"> 11 月 6</div>
@@ -321,130 +319,130 @@
 <li><div class="date"> 7 月 24</div>
   <a href="/firefox/releases/3.0.1/">Firefox 3.0.1 安全更新</a></li>
 <li><div class="date"> 7 月 1</div>
-  <a href="http://moztw.org/events/firefox3party/">Firefox 3 慶祝活動</a>正式開跑，來看看有什麼有趣的東西吧！</li>
+  <a href="/events/firefox3party/">Firefox 3 慶祝活動</a>正式開跑，來看看有什麼有趣的東西吧！</li>
 <li><div class="date"> 6 月 18</div>
-  當然，您一定知道這則新聞的內容：<a href="http://moztw.org/firefox/">Firefox 3 隆重推出</a>，立刻下載吧！</li>
+  當然，您一定知道這則新聞的內容：<a href="/firefox/">Firefox 3 隆重推出</a>，立刻下載吧！</li>
 <li><div class="date"> 6 月 5</div>
   有興趣參加 Firefox 3 Party 嗎？請<a href="http://spreadsheets.google.com/viewform?key=pgCLmf2kXn6uzp0j0d1vafQ">請填寫問卷</a>，也歡迎您來幫忙籌辦！</li>
 <li><div class="date"> 5 月 30</div>
-  協助 Firefox 3 締造金氏世界紀錄！「<a href="http://moztw.org/events/record2008/">火狐鬥陣拼紀錄</a>」 (Firefox Download Day) 活動正式展開！</li>
+  協助 Firefox 3 締造金氏世界紀錄！「<a href="/events/record2008/">火狐鬥陣拼紀錄</a>」 (Firefox Download Day) 活動正式展開！</li>
 <li><div class="date"> 4 月 18</div>
-  Firefox 2.0.0.14 更新版本已發行。（<a href="http://moztw.org/firefox/releases/2.0.0.14">版本資訊</a>）</li>
+  Firefox 2.0.0.14 更新版本已發行。（<a href="/firefox/releases/2.0.0.14">版本資訊</a>）</li>
 <li><div class="date"> 4 月 12</div>
   <a href="http://moztw-z.wikidot.com">MozTW 自由新生代</a>熱血青少年研習活動，免費招生中！</li>
 <li><div class="date"> 2008 年</div></li>
 <li><div class="date"> 4 月 9</div>
   請協助進行 Firefox 3 pre-RC 版測試工作（詳情請見<a href="http://forum.moztw.org/viewtopic.php?p=124204">討論區說明</a>）</li>
 <li><div class="date"> 3 月 25</div>
-  Firefox 2.0.0.13 更新版本已發行。（<a href="http://moztw.org/firefox/releases/2.0.0.13">版本資訊</a>）</li>
+  Firefox 2.0.0.13 更新版本已發行。（<a href="/firefox/releases/2.0.0.13">版本資訊</a>）</li>
 <li><div class="date"> 2 月 26</div>
-  Thubderbird 2.0.0.12 更新版本已發行。（<a href="http://moztw.org/thunderbird/releases/2.0.0.12">版本資訊</a>）</li>
+  Thubderbird 2.0.0.12 更新版本已發行。（<a href="/thunderbird/releases/2.0.0.12">版本資訊</a>）</li>
 <li><div class="date"> 3 月 11</div>
-  Firefox 3 Beta 4 出爐，應是倒數第二個 Beta 版，歡迎<a href="http://moztw.org/beta/">協助測試</a>。(一般使用者請使用較穩定的 Firefox 2)</li>
+  Firefox 3 Beta 4 出爐，應是倒數第二個 Beta 版，歡迎<a href="/beta/">協助測試</a>。(一般使用者請使用較穩定的 Firefox 2)</li>
 <li><div class="date"> 2 月 8</div>
-  Firefox 2.0.0.12 更新版本已發行。（<a href="http://moztw.org/firefox/releases/2.0.0.12">版本資訊</a>）</li>
+  Firefox 2.0.0.12 更新版本已發行。（<a href="/firefox/releases/2.0.0.12">版本資訊</a>）</li>
 
 <li><div class="date"> 2008 年</div></li>
 
 <li><div class="date"> 12 月 1</div>
-  Firefox 2.0.0.11 更新版本已發行。（<a href="http://moztw.org/firefox/releases/2.0.0.11">版本資訊</a>）</li>
+  Firefox 2.0.0.11 更新版本已發行。（<a href="/firefox/releases/2.0.0.11">版本資訊</a>）</li>
 <li><div class="date"> 11 月 26</div>
-  Firefox 2.0.0.10 更新版本已發行。（<a href="http://moztw.org/firefox/releases/2.0.0.10">版本資訊</a>）</li>
+  Firefox 2.0.0.10 更新版本已發行。（<a href="/firefox/releases/2.0.0.10">版本資訊</a>）</li>
 <li><div class="date"> 11 月 17</div>
-  Thunderbird 2.0.0.9 更新版本已發行。（<a href="http://moztw.org/thunderbird/releases/2.0.0.9">版本資訊</a>）</li>
+  Thunderbird 2.0.0.9 更新版本已發行。（<a href="/thunderbird/releases/2.0.0.9">版本資訊</a>）</li>
 <li><div class="date"> 11 月 3</div>
-  Firefox 2.0.0.9 更新版本已發行。（<a href="http://moztw.org/firefox/releases/2.0.0.9">版本資訊</a>）</li>
+  Firefox 2.0.0.9 更新版本已發行。（<a href="/firefox/releases/2.0.0.9">版本資訊</a>）</li>
 <li><div class="date"> 9 月 29</div>
   <a href="http://forum.moztw.org/viewtopic.php?t=19612">Firefox 底部出現灰色區域的解決辦法與說明</a></li>
 <li><div class="date"> 9 月 18</div>
-  Firefox 2.0.0.7 更新版本已發行。（<a href="http://moztw.org/firefox/releases/2.0.0.7">版本資訊</a>）</li>
+  Firefox 2.0.0.7 更新版本已發行。（<a href="/firefox/releases/2.0.0.7">版本資訊</a>）</li>
 <li><div class="date"> 7 月 30</div>
-  Firefox 2.0.0.6 更新版本已發行。（<a href="http://moztw.org/firefox/releases/2.0.0.6">版本資訊</a>）</li>
+  Firefox 2.0.0.6 更新版本已發行。（<a href="/firefox/releases/2.0.0.6">版本資訊</a>）</li>
 <li><div class="date"> 7 月 20</div>
-  Thunderbird 2.0.0.5 更新版本已發行。（<a href="http://moztw.org/thunderbird/releases/2.0.0.5">版本資訊</a>）</li>
+  Thunderbird 2.0.0.5 更新版本已發行。（<a href="/thunderbird/releases/2.0.0.5">版本資訊</a>）</li>
 <li><div class="date"> 7 月 19 </div>
-  Firefox 2.0.0.5 更新版本已發行。（<a href="http://moztw.org/firefox/releases/2.0.0.5">版本資訊</a>）</li>
+  Firefox 2.0.0.5 更新版本已發行。（<a href="/firefox/releases/2.0.0.5">版本資訊</a>）</li>
 <li><div class="date"> 5 月 30 </div>
-  Firefox 2.0.0.4 及 1.5.0.12 更新版本已發行，請見 <a href="http://moztw.org/firefox/releases/2.0.0.4">版本資訊</a></li>
+  Firefox 2.0.0.4 及 1.5.0.12 更新版本已發行，請見 <a href="/firefox/releases/2.0.0.4">版本資訊</a></li>
 <li><div class="date"> 4 月 19 </div>
-  Thunderbird 2 中文版隆重推出，請參考<a href="http://moztw.org/thunderbird/releases/2.0.0.0">版本資訊</a></li>
+  Thunderbird 2 中文版隆重推出，請參考<a href="/thunderbird/releases/2.0.0.0">版本資訊</a></li>
 <li><div class="date"> 3 月 21 </div>
-  Firefox 2.0.0.3 及 1.5.0.11 更新已經發行，請參考<a href="http://moztw.org/firefox/releases/2.0.0.3">版本資訊</a></li>
+  Firefox 2.0.0.3 及 1.5.0.11 更新已經發行，請參考<a href="/firefox/releases/2.0.0.3">版本資訊</a></li>
 <li><div class="date"> 3 月 8 </div>
-  Camino 1.0.4 更新已經發行，請參考<a href="http://moztw.org/camino/">版本資訊</a></li>
+  Camino 1.0.4 更新已經發行，請參考<a href="/camino/">版本資訊</a></li>
 <li><div class="date"> 3 月 3 </div>
   SeaMonkey 1.1.11 及 1.0.8 更新已經發行，請參考<a href="http://forum.moztw.org/viewtopic.php?t=17420">相關討論串</a></li>
 <li><div class="date"> 2 月 24 </div>
-  Firefox 2.0.0.2 安全更新已經發行，請參考<a href="http://moztw.org/firefox/releases/2.0.0.2">版本資訊</a></li>
+  Firefox 2.0.0.2 安全更新已經發行，請參考<a href="/firefox/releases/2.0.0.2">版本資訊</a></li>
 
 
 <li><div class="date"> 2007 年</div></li>
 
 <li><div class="date"> 12 月 20 </div>
-  Firefox 2.0.0.1 已經發行。此次更新修正了數個安全性問題並支援 Windows Vista 作業系統。另 1.5.0.9 也已發行，修正數個錯誤。<a href="http://moztw.org/firefox/releases/2.0.0.1">2.0.0.1 新鮮事</a></li>
+  Firefox 2.0.0.1 已經發行。此次更新修正了數個安全性問題並支援 Windows Vista 作業系統。另 1.5.0.9 也已發行，修正數個錯誤。<a href="/firefox/releases/2.0.0.1">2.0.0.1 新鮮事</a></li>
 <div class="date"> 12 月 5 </div>
   聖誕禮大放送！！！ Mozilla Taiwan 和 FON 合作，提供社群成員免費無線 AP，若你曾在 MozTW 討論區上註冊，別懷疑，<a href="http://forum.moztw.org/viewtopic.php?t=16702">快上討論區看活動辦法吧</a>！！！</li>
   <div class="date"> 11 月 20 </div>
-  社群投票產生的擴充套件 Top 15 現已支援 Firefox 2.0，您可至<a href="http://moztw.org/firefox/extension_top_15/">下載頁</a>下載全部的 Top 15 擴充套件。</li>
+  社群投票產生的擴充套件 Top 15 現已支援 Firefox 2.0，您可至<a href="/firefox/extension_top_15/">下載頁</a>下載全部的 Top 15 擴充套件。</li>
   	<li><div class="date"> 11 月 2 </div>
-  	<a href="http://moztw.org/events/firefox2party/">火狐月開展</a>，邀請您參加 11/12「火狐大轟趴 2.0」。</li>
+  	<a href="/events/firefox2party/">火狐月開展</a>，邀請您參加 11/12「火狐大轟趴 2.0」。</li>
 	<li><div class="date"> 10 月 29 </div>
 	<a href="http://forum.moztw.org/viewtopic.php?t=16089">火狐 30 秒計畫啟動，送 Firefox 相關紀念品。</a></li>
 	<li><div class="date"> 10 月 25 </div>
-  	<a href="http://moztw.org/press/moztw-20061024.html">Firefox 2 正式發行，中文版同步上陣！</a></li>
+  	<a href="/press/moztw-20061024.html">Firefox 2 正式發行，中文版同步上陣！</a></li>
 	<li><div class="date"> 10 月 24 </div>
 	台灣電訊公司 (TTN) 正式加入 <a href="http://www.mozilla.org/mirrors.html">Mozilla Mirror</a>，成為兩岸三地首家提供 Mozilla 下載服務之商業 ISP。MozTW 感謝 TTN 的支持，也歡迎更多 ISP 加入映射站協助推廣。(<a href="http://mirror.ttn.net/mozilla.org/">TTN Mirror</a>)</li>
 	<li><div class="date"> 10 月 13 </div>
 	Sunbird 0.3 與 Lightning 0.3 發佈 (<a href="http://forum.moztw.org/viewtopic.php?t=15884">相關討論串</a>)
 	<li><div class="date"> 10 月 3 </div>
-	<a href="http://moztw.org/press/moztw-20061003.html">Mozilla.com 與 PCHome 合作推出 Mozilla Firefox for Portal 2.0。</a>
+	<a href="/press/moztw-20061003.html">Mozilla.com 與 PCHome 合作推出 Mozilla Firefox for Portal 2.0。</a>
 	<li><div class="date"> 9 月 28 </div>
 	Netscape 8.1.2 發佈。  (<a href="http://forum.moztw.org/viewtopic.php?t=15706">討論</a>)
 	<li><div class="date"> 9 月 27 </div>
-	Firefox 2.0 Release Candidate 1 測試版已發佈 ，供想嘗鮮的使用者、網頁設計師及套件作者試用，請至 <a href='http://moztw.org/beta/'>Beta 測試區</a>下載。但請勿使用於正式用途。<br />
+	Firefox 2.0 Release Candidate 1 測試版已發佈 ，供想嘗鮮的使用者、網頁設計師及套件作者試用，請至 <a href='/beta/'>Beta 測試區</a>下載。但請勿使用於正式用途。<br />
 	(<a href="http://forum.moztw.org/viewtopic.php?t=15687">相關討論串</a>)
 	<li><div class="date"> 9 月 16 </div>
-	<a href="http://moztw.org/camino/">Camino 1.0.3</a> 及 SeaMonkey 1.0.5 發佈，修正數個安全性弱點。(<a href="http://forum.moztw.org/viewtopic.php?t=15586">討論</a>)
+	<a href="/camino/">Camino 1.0.3</a> 及 SeaMonkey 1.0.5 發佈，修正數個安全性弱點。(<a href="http://forum.moztw.org/viewtopic.php?t=15586">討論</a>)
 	<li><div class="date"> 9 月 15 </div>
 	Firefox 1.5.0.7 及 Thunderbird 1.5.0.7 已發佈，修正數個安全性弱點，請由自動更新或下載安裝程式升級。
-	<a href="http://moztw.org/firefox/releases/1.5.0.7"> 1.5.0.7 新鮮事</a>
+	<a href="/firefox/releases/1.5.0.7"> 1.5.0.7 新鮮事</a>
 	<li><div class="date"> 9 月 1 </div>
-	想一窺十月才正式發行的 Firefox 2.0 真面目嗎？MozTW 釋出 Firefox 2.0 Beta 2 中文測試版，請至 <a href='http://moztw.org/beta/'>測試區</a>下載。<br/>
+	想一窺十月才正式發行的 Firefox 2.0 真面目嗎？MozTW 釋出 Firefox 2.0 Beta 2 中文測試版，請至 <a href='/beta/'>測試區</a>下載。<br/>
 	任何使用上的問題歡迎至 <a href="http://forum.moztw.org/viewforum.php?f=18">討論區</a> 討論。<b style='color:red;'>注意：Beta 2 仍有許多程式錯誤，新手勿試。</b>
 	<li><div class="date"> 8 月 2 </div>
 	Firefox 1.5.0.6 已發佈，修正播放 WMV 影片時的錯誤，請由自動更新或下載安裝程式升級。
-	<a href="http://moztw.org/firefox/releases/1.5.0.6"> 1.5.0.6 新鮮事</a>
+	<a href="/firefox/releases/1.5.0.6"> 1.5.0.6 新鮮事</a>
 	<li><div class="date"> 7 月 26 </div>
 	Firefox 1.5.0.5 已發佈，您可透過自動更新升級或由本站下載。
-	<a href="http://moztw.org/firefox/releases/1.5.0.5"> 1.5.0.5 新鮮事</a>
+	<a href="/firefox/releases/1.5.0.5"> 1.5.0.5 新鮮事</a>
     <li><div class="date"> 6 月 1 </div>
 	Firefox 1.5.0.4 已發佈，修正數項安全性問題，您可透過自動更新升級或由本站下載。
 	<li><div class="date"> 5 月 11 </div>
-	由社群票選出的第二屆擴充套件 Top 15 已經更新，您可至<a href="http://moztw.org/firefox/extension_top_15/">下載頁</a>下載到全部的 Top 15 擴充套件。
-	<a href="http://moztw.org/firefox/releases/1.5.0.4"> 1.5.0.4 新鮮事</a>
+	由社群票選出的第二屆擴充套件 Top 15 已經更新，您可至<a href="/firefox/extension_top_15/">下載頁</a>下載到全部的 Top 15 擴充套件。
+	<a href="/firefox/releases/1.5.0.4"> 1.5.0.4 新鮮事</a>
 	<li><div class="date"> 5 月 4 </div>
-	<a href="http://moztw.org/camino/">Camino</a> 1.0.1 發佈，請至 <a href="http://moztw.org/camino/">Camino 下載頁</a>取得 1.0.1 正體中文套件。
+	<a href="/camino/">Camino</a> 1.0.1 發佈，請至 <a href="/camino/">Camino 下載頁</a>取得 1.0.1 正體中文套件。
 	<li><div class="date"> 5 月 2 </div>
 	Firefox 1.5.0.3 已經發佈，修正一項嚴重的安全性問題，您可透過自動更新升級到最新版本。
-	<a href="http://moztw.org/firefox/releases/1.5.0.3"> 1.5.0.3 新鮮事</a>
+	<a href="/firefox/releases/1.5.0.3"> 1.5.0.3 新鮮事</a>
 	<li><div class="date"> 4 月 14 </div>
     Firefox 1.5.0.2 已經發佈，除了原生支援 Intel-base 的 Mac 電腦也修正數項安全性問題。
-    <a href="http://moztw.org/firefox/releases/1.5.0.5"> 1.5.0.2 新鮮事</a>
+    <a href="/firefox/releases/1.5.0.5"> 1.5.0.2 新鮮事</a>
 	<li><div class="date"> 4 月 14 </div>
     Firefox 1.0.8 已經發佈，此版本修正數項安全性問題，此版本也是 1.0.x 的最後一個更新版本。
-    <a href="http://moztw.org/firefox/releases/1.0.8/"> 1.0.8 新鮮事</a>
+    <a href="/firefox/releases/1.0.8/"> 1.0.8 新鮮事</a>
     <li><div class="date"> 3 月 27 </div>
     MozTW 正舉辦第二屆擴充套件及佈景主題票選活動，詳細資訊<a href="http://forum.moztw.org/viewtopic.php?p=69946">請見此篇</a>。<br/>
     投票網址：<a href="http://forum.moztw.org/vote1/extvote.php">擴充套件</a>、<a href="http://forum.moztw.org/vote1/extvote1.php">佈景主題</a>（請先登入 MozTW 討論區）
     <li><div class="date"> 2 月 14 </div>
-    <a href="http://moztw.org/camino/">Camino</a> 1.0 已經釋出，此版本修正了上百個錯誤和增加許多新功能。您可至 <a href="http://moztw.org/camino/">Camino 下載頁</a>取得正體中文套件。
+    <a href="/camino/">Camino</a> 1.0 已經釋出，此版本修正了上百個錯誤和增加許多新功能。您可至 <a href="/camino/">Camino 下載頁</a>取得正體中文套件。
     <li><div class="date"> 2 月 9 </div>
     Firefox 1.5.0.1 已經釋出，改善記憶體不斷耗用的問題，您可透過自動更新系統更新或下載完整安裝檔。<br/>
-    <a href="http://moztw.org/firefox/releases/1.5.0.1"> 1.5.0.1 新鮮事請見此</a>
+    <a href="/firefox/releases/1.5.0.1"> 1.5.0.1 新鮮事請見此</a>
     <li><div class="date"> 1 月 31 </div>
     SeaMonkey 1.0（前稱 Mozilla Suite）已經釋出，提供網路瀏覽、郵件收發、新聞群組閱覽、網頁編輯、IRC 聊天等全方位的網路瀏覽解決方案。</a>
 	<li><div class="date"> 1 月 23 </div>
-    <a href="http://moztw.org/firefox/extension_top_15/">擴充套件 Top 15</a>現已支援 Firefox 1.5，
+    <a href="/firefox/extension_top_15/">擴充套件 Top 15</a>現已支援 Firefox 1.5，
     歡迎各位多加利用。
 
 <li><div class="date"> 2006 年</div></li>
@@ -452,13 +450,13 @@
     <li><div class="date"> 11 月 30 </div>
     Firefox 1.5 中文版與英文版已同步釋出，
     歡迎立刻更新、加入 1.5 的世界！<br/>
-    <a href="http://moztw.org/firefox/releases/1.5"> 1.5 新鮮事請見此</a>
+    <a href="/firefox/releases/1.5"> 1.5 新鮮事請見此</a>
 
     <li><div class="date"> 11 月 30 </div>
     Firefox 1.5 起亞洲地區 (臺灣 韓國 日本 中國)
     改用 Yahoo 為預設搜尋引擎 (Google 仍在列表中供選用)，
     詳情請見
-    <a href="http://moztw.org/press/moztw-20051129.html">
+    <a href="/press/moztw-20051129.html">
 	官方新聞</a>。
 
     <li><div class="date"> 11 月 23 </div>
@@ -501,25 +499,25 @@
     <li><div class="date"> 9 月 22 日</div>
     Firefox 1.0.7 與 Mozilla 1.7.12 中英文版釋出
     (主要是修正
-    <a href='http://moztw.org/press/moztw-20050909.html'>
+    <a href='/press/moztw-20050909.html'>
 	IDN 安全漏洞</a>)，
     建議各版使用者進行更新。
 
     <li><div class="date"> 9 月 12 日</div>
     想先試試未來的 Firefox 1.5 嗎？
-    <a href='http://moztw.org/beta/'>
+    <a href='/beta/'>
 	Mozilla Firefox 1.5 beta1 (測試版) 與
 	Thunderbird 1.5 beta1 (測試版)</a>
     中文測試版釋出；但請注意這是測試版，暫不建議新手馬上更新。
 
     <li style='color: red;'><div class="date"> 9 月 11 日</div>
     安全性更新:
-    <a href='http://moztw.org/press/moztw-20050909.html'>
+    <a href='/press/moztw-20050909.html'>
 	國際網域名稱緩衝區溢位漏洞 (IDN Buffer Overflow) [中文]</a>，
     惡意網站可能在使用者按下刻意設計過的超長鏈結時
     得以在該使用者的電腦上執行任意程式。
     建議昇級到 Firefox 1.0.7/Mozilla 1.7.12 或安裝此
-    <a href='http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0.6/patches/307259.xpi '>
+    <a href='http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0.6/patches/307259.xpi'>
 	安全修正</a>(包括 Mozilla 1.7.11, Firefox 1.0.6 及 1.5b1 的所有版本)。
 
     <li><div class="date"> 9 月 09 日</div>
@@ -528,16 +526,16 @@
     另，由於 1.5b1 (beta 1) 是測試版，暫不建議新手馬上更新。
 
 	<li><div class="date"> 8 月 03 日</div>
-	<a href='http://moztw.org/mozilla/'>Mozilla Suite 1.7.11 中文版</a>全系列(Win,Linux,Mac)開放下載,
-	同時提供跨平台的<a href='http://moztw.org/dl/langpack/'>語言套件</a>
+	<a href='/mozilla/'>Mozilla Suite 1.7.11 中文版</a>全系列(Win,Linux,Mac)開放下載,
+	同時提供跨平台的<a href='/dl/langpack/'>語言套件</a>
 	供已安裝英文版的朋友們直接安裝中文語系。
 
 	<li><div class="date"> 7 月 27 日</div>
 	Mozilla.org 近日即將推出 Mozilla 1.7.11,
 	(1.7.10 的郵件系統有點問題)
 	<li><div class="date"> 7 月 23 日</div>
-	<a href='http://moztw.org/mozilla/'>Mozilla 1.7.10 中文版</a>全系列(Win,Linux,Mac)開放下載,
-	同時提供跨平台的<a href='http://moztw.org/dl/langpack/'>語言套件</a>
+	<a href='/mozilla/'>Mozilla 1.7.10 中文版</a>全系列(Win,Linux,Mac)開放下載,
+	同時提供跨平台的<a href='/dl/langpack/'>語言套件</a>
 	供已安裝英文版的朋友們直接安裝中文語系。
 	<li><div class="date"> 7 月 20 </div>
 	Mozilla 推出 Firefox 1.0.6 安全更新版、中文版同步釋出，
@@ -549,7 +547,7 @@
 	將在近日直接昇級 1.0.6 版。
 
 	<li><div class="date"> 6 月 29 </div>
-	<a href="http://moztw.org/nvu/">NVU 1.0 正體中文版</a>全系列與官方同步發行！
+	<a href="/nvu/">NVU 1.0 正體中文版</a>全系列與官方同步發行！
 	<li><div class="date"> 6 月 24 日 </div>
 	NVU 1.0 即將推出， Mozilla Taiwan 預計將於下週二與
 	NVU 官方同步發行 NVU 1.0 中文版，敬請期待。
@@ -615,8 +613,8 @@
 	提供 FF1.0PR 與 TB0.8 Linux 版的<a href='/dl'>下載</a>
 	<li><div class="date"> 9 月 28 日 </div>
 	開放測試 Netscape 7.2 win32 中文版，目前因測試關係只提供線上安裝檔：
-	<a href='http://www.moztw.org/tmp/ns72setup.exe'> Windows </a> 與
-	<a href='http://www.moztw.org/tmp/ns72linux-moztw.tar.bz2'> Linux </a>
+	<a href='/tmp/ns72setup.exe'> Windows </a> 與
+	<a href='/tmp/ns72linux-moztw.tar.bz2'> Linux </a>
 	<li><div class="date"> 9 月 27 日 </div>
 	開始提供 Firefox 1.0PR 與 Thunderbird 0.8 中文版的<a href='/dl'>下載</A>
 	<li><div class="date"> 9 月 23 日 </div>
@@ -637,7 +635,7 @@
 	<li><div class="date"> 9 月 4 日 </div>
 	SVN 備份失敗，不小心把網站全刪了... :~~~
 	<li><div class="date"> 9 月 3 日 </div>
-	<a href="http://moztw.org">網站新樣式</a>
+	<a href="//moztw.org">網站新樣式</a>
 <li><div class="date"> 2004 年</div></li>
 </ul>
 <!--#include virtual="/inc/footer.html" -->
