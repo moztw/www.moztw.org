@@ -2,7 +2,7 @@
 <!--#include virtual="/inc/title.html" -->
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
-<p>source: <a href="http://www.mozilla.org/products/firefox/releases/">http://www.mozilla.org/products/firefox/releases/</a></p>
+<p>source: <a href="https://www.mozilla.org/products/firefox/releases/">https://www.mozilla.org/products/firefox/releases/</a></p>
 
 <h1>版本資訊 - Firefox 0.9 (One Tree Hill)</h1><p>目前版本 0.9.3 版</p>
 
@@ -11,7 +11,7 @@
 <p>Firefox 是速度快、功能又齊全的瀏覽器，它讓上網比以往更有效率。其它關於 Firefox 的訊息，請參考<a href="http://texturizer.net/firefox/">[Firefox Help]</a>。</p>
 
 
-<p>Firefox 0.9 為「技術預覽」版。即使本軟體性能良好，在大多數情形下足以成為您的主要瀏覽器，但我們不對其性能與可靠性做任何保證。這是尚未完工的版本，不應在重要關鍵作業上使用。詳情請見 <a href="http://www.mozilla.org/MPL/">[使用同意書]</a>。</p>
+<p>Firefox 0.9 為「技術預覽」版。即使本軟體性能良好，在大多數情形下足以成為您的主要瀏覽器，但我們不對其性能與可靠性做任何保證。這是尚未完工的版本，不應在重要關鍵作業上使用。詳情請見 <a href="https://www.mozilla.org/MPL/">[使用同意書]</a>。</p>
 
 
 <p>此版本資訊包含了 Firefox 0.9 版的<a href="http://noellab.net/ernest/tavi/MozillaFirefox/ReleaseNotes#new">新鮮事</a>、<a href="http://noellab.net/ernest/tavi/MozillaFirefox/ReleaseNotes#download">下載</a>與<a href="http://noellab.net/ernest/tavi/MozillaFirefox/ReleaseNotes#install">安裝指示</a>、<a href="http://noellab.net/ernest/tavi/MozillaFirefox/ReleaseNotes#issue">已知問題</a>以及<a href="http://noellab.net/ernest/tavi/MozillaFirefox/ReleaseNotes#FAQ">常見問題集</a>等訊息。如發現任何程式錯誤，請先行閱讀這份訊息與<a href="http://texturizer.net/firefox/bugs.html">[錯誤回報注意事項]</a>，再到 Bugzilla 回報。</p>
@@ -46,7 +46,7 @@
 
 <p>請參考 <a href="http://www.squarefree.com/burningedge/bigger-picture.html">[Burning Edge's Bigger Picture]</a>，以獲取更多相關訊息。</p>
 
-<h2>系統需求</h2><p>在安裝 Firefox 前請先確定您的電腦合乎<a href="http://www.mozilla.org/products/firefox/system-requirements.html">[系統需求]</a>。</p>
+<h2>系統需求</h2><p>在安裝 Firefox 前請先確定您的電腦合乎<a href="https://www.mozilla.org/products/firefox/system-requirements.html">[系統需求]</a>。</p>
 
 <h2>下載 Firefox<a name="download"></a></h2><p>mozilla.org 提供了 Windows、Linux 及 Mac OS X 版的 Firefox。</p>
 
@@ -61,7 +61,7 @@
 <p>中文化的版本，可至 <a href="http://www.csie.ntu.edu.tw/~r91034/mozilla/">[Mozilla 正體中文網站]</a>下載。</p>
 
 
-<p>此外尚有其他作業系統的非官方版本，請到<a href="http://www.mozilla.org/products/firefox/releases/0.9.html#download">[英文 Release Notes]</a> 下載</p>
+<p>此外尚有其他作業系統的非官方版本，請到<a href="https://www.mozilla.org/products/firefox/releases/0.9.html#download">[英文 Release Notes]</a> 下載</p>
 
 <h2>安裝 Firefox<a name="install"></a></h2><p>下載 Firefox 安裝程式或壓縮檔後，請依下列步驟進行安裝：</p>
 
@@ -108,7 +108,7 @@ cd firefox-0.9.3-i686-linux-gtk2+xft/
 
 <h3>舊的擴充套件及佈景主題</h3><p>在 0.8 版時部分使用者曾因「No XBL Binding for Browser」錯誤訊息而無法啟動 Firefox，並隨即發現佈景主題失效。為了避免這種問題，在您首次使用 Firefox 0.9 時，所有的擴充套件將自動停用，且佈景主題將重設為預設佈景。您必須另行下載與 Firefox 0.9 新的 API 相容的新版擴充套件。在 Firefox 0.9 版之後相關的更新方式將容易許多。</p>
 
-<h2>已知問題<a name="issue"></a></h2><p>以下列出 Firefox 0.9 的已知問題，請閱讀後再回報新的程式錯誤，並請定期檢查本欄的更新內容﹝如在此版本發現新問題，我們會隨時在<a href="http://www.mozilla.org/products/firefox/releases/">[英文網頁]</a>更新此欄﹞。</p>
+<h2>已知問題<a name="issue"></a></h2><p>以下列出 Firefox 0.9 的已知問題，請閱讀後再回報新的程式錯誤，並請定期檢查本欄的更新內容﹝如在此版本發現新問題，我們會隨時在<a href="https://www.mozilla.org/products/firefox/releases/">[英文網頁]</a>更新此欄﹞。</p>
 
 <ul ><li>如果您將 Firefox 0.9 安裝於權限有所管制的區域，那麼就得先由擁有權限的使用者啟動一次 Firefox，以便建立應有的初始啟動檔案。若由權限不足的使用者先行啟動 Firefox，則可能會因為無法建立初始啟動檔案而不斷重新啟動。這個問題將於日後修正。</li>
 <li><strong>如果您的 MacOS X 上沒有顯示出 Firefox 的瀏覽視窗</strong>，請先用 Cmd+Q 結束 Firefox，然後開啟 ~/Library/Application Support/Firefox/Profiles/default.abc/ 並且將當中的 localstore.rdf 移除，再次重新執行 Firefox。您之前的選項及視窗位置等設定將因而消失。</li>
@@ -117,7 +117,7 @@ cd firefox-0.9.3-i686-linux-gtk2+xft/
 <li>Windows 上書籤工具列上的選單與資料夾有時不會正確地縮回。</li>
 <li>安裝佈景主題時的「使用用這個佈景主題」選項無法正常運作。請使用「工具＞佈景主題」，選擇您所要用的佈景，然後按下「使用佈景主題」以便切換。此外，有時佈景主題在安裝後需要重新開啟程式才能完全套用。</li>
 <li>如果您在 0.8 至 0.9 版之間曾使用逐日建置版 (包括 Release Candidate 備選版)，且在啟動 Firefox 時發生不斷重啟的問題，建議您刪除個人設定檔資料夾中的 extensions 資料夾。</li>
-<li>部份用戶遇到下載視窗的問題 - 如果下載視窗畫面顯示緩慢，試試<a href="http://www.mozilla.org/products/firefox//patches/dlperfpatch.xpi">[安裝修正檔]</a></li>
+<li>部份用戶遇到下載視窗的問題 - 如果下載視窗畫面顯示緩慢，試試<a href="https://www.mozilla.org/products/firefox//patches/dlperfpatch.xpi">[安裝修正檔]</a></li>
 <li> 擴充套件及佈景主題的更新系統尚未測試完畢，您可能會碰上些問題，而這些問題預定將於 1.0 beta 版解決。目前update.mozilla.org 尚未部署相關更新服務，也就是說目前更新的功能是無效的。您可能會在無可用更新的情形下，在狀態列看到更新通知。</li>
 </ul>
 欲取得其他問題的訊息、常見問題集、使用技巧以及一般 Firefox 協助，請到 David Tenser 非常有用的 <a href="http://texturizer.net/firefox/">[Firefox Help 網站]</a>、<a href="http://www.mozillazine.org/">[MozillaZine]</a> 的 <a href="http://forums.mozillazine.org/index.php?c=4">[Firefox 討論區 (英文)]</a> 或林弘德所維護的 <a href="http://www.csie.ntu.edu.tw/~r91034/mozilla/forum/viewforum.php?f=2">[firefox 線上討論區 (中文)]</a>。
@@ -162,11 +162,11 @@ cd firefox-0.9.3-i686-linux-gtk2+xft/
 </dd>
 </dl>
 8. 原來的名字「Phoenix」、「Firebird」又怎麼了？
-<dl><dd>由於商標的問題我們必需更名，新的名稱叫做「Firefox」。欲尋更多資訊，請見<a href="http://www.mozilla.org/projects/firefox/firefox-name-faq.html">[更名常見問題]</a>。
+<dl><dd>由於商標的問題我們必需更名，新的名稱叫做「Firefox」。欲尋更多資訊，請見<a href="https://www.mozilla.org/projects/firefox/firefox-name-faq.html">[更名常見問題]</a>。
 </dd>
 </dl>
 9. 電子郵件程式呢？
-<dl><dd>Firefox 能與您預設的任何郵件程式協同運作，而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="http://www.mozilla.org/products/thunderbird/">[Mozilla Thunderbird]</a>。
+<dl><dd>Firefox 能與您預設的任何郵件程式協同運作，而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="https://www.mozilla.org/products/thunderbird/">[Mozilla Thunderbird]</a>。
 </dd>
 </dl>
 </div>

@@ -61,7 +61,7 @@ table {
           <div id="product-desc" class="firefox-releasenotes-v4">
 <!-- Introduction -->
 
-          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
 
           <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozTW</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
         </div>
@@ -96,11 +96,11 @@ table {
 
       <h3 id="requirements">系統需求</h3>
 
-      <p>在安裝 Firefox 前請先確定您的電腦是否合乎 <a href="http://moztw.org/docs/fx/system-requirements/">系統需求</a>。</p>
+      <p>在安裝 Firefox 前請先確定您的電腦是否合乎 <a href="/docs/fx/system-requirements/">系統需求</a>。</p>
 
       <h3 id="download">下載 Firefox</h3>
 
-      <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上<a href="http://www.mozilla.com/firefox/all.html">多種語言版</a>的 Firefox，您可<a href="http://moztw.org/firefox/">由此下載最新的 Firefox</a>，或<a href="http://www.mozilla.com/firefox/channel/">由此取得最新的 Firefox 未來發行版本</a>。若想自行編譯其他平台或語言的版本，請見本文件最末節。</p>
+      <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上<a href="http://www.mozilla.com/firefox/all.html">多種語言版</a>的 Firefox，您可<a href="/firefox/">由此下載最新的 Firefox</a>，或<a href="http://www.mozilla.com/firefox/channel/">由此取得最新的 Firefox 未來發行版本</a>。若想自行編譯其他平台或語言的版本，請見本文件最末節。</p>
 
       <h3 id="install">安裝 Firefox</h3>
       <p>
@@ -187,7 +187,7 @@ table {
       <ol class="faq">
 
         <li>我該怎麼幫忙呢？
-          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://hendrix.mozilla.org/">回饋表單</a>表達意見。</p>
+          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://hendrix.mozilla.org/">回饋表單</a>表達意見。</p>
         </li>
 
         <li>我如何預覽未來的 Firefox 版本？
@@ -232,7 +232,7 @@ table {
       <h2 id="links">其他資源和連結</h2>
       <p>下面提供了幾個有用的連結：</p>
       <ul class="spaced">
-        <li><a id="oj3s" title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
+        <li><a title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
         <li><a href="http://support.mozilla.com/">Firefox 輔助說明</a></li>
         <li><a href="http://kb.mozillazine.org/">MozillaZine's Knowledge Base</a></li>
         <li><a href="https://developer.mozilla.org/en/Firefox_8_for_developers">Developer Information</a></li>
