@@ -5,7 +5,7 @@
 <title>Mozilla Thunderbird 版本資訊</title>
 <style type="text/css">
 <!--
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,300italic,400italic,600italic,700,800,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,300italic,400italic,600italic,700,800,700italic,800italic);
 
 #mBody {
     background: url("/thunderbird/images/main-furry.png") no-repeat scroll 270px -15px transparent;
@@ -375,7 +375,7 @@ section .appendix {
 
                   <h3 id="download">下載 Thunderbird</h3>
 
-                  <p>您可以<a href="http://moztw.org/thunderbird/">由此下載最新的 Thunderbird</a>，或取得 Windows、Linux 及 Mac OS X 平台上的<a href="http://www.mozilla.com/thunderbird/all.html">各國語言版本</a>，或<a href="http://www.mozilla.com/thunderbird/channel/">由此下載 Thunderbird 未來發行版本</a>（測試版）。若需自行編譯其他平台或語言的版本，請見本文件最末節。</p>
+                  <p>您可以<a href="/thunderbird/">由此下載最新的 Thunderbird</a>，或取得 Windows、Linux 及 Mac OS X 平台上的<a href="http://www.mozilla.com/thunderbird/all.html">各國語言版本</a>，或<a href="http://www.mozilla.com/thunderbird/channel/">由此下載 Thunderbird 未來發行版本</a>（測試版）。若需自行編譯其他平台或語言的版本，請見本文件最末節。</p>
 
                   <h3 id="install">安裝 Thunderbird</h3>
                   <p>
@@ -397,7 +397,7 @@ section .appendix {
                   <h2 id="links">其他資源和連結</h2>
                   <p>下面提供了幾個有用的連結：</p>
                   <ul class="spaced">
-                    <li><a id="oj3s" title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
+                    <li><a title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
                     <li><a href="http://support.mozilla.com/">Thunderbird 技術支援</a></li>
                     <li><a href="http://developer.mozilla.org/">Mozilla Developer Network</a></li>
                     <li><a href="http://blog.mozilla.com/futurereleases/">Future of Thunderbird Blog</a></li>

@@ -80,13 +80,13 @@
 	</div>
   </div>
   <p class="desc">背景文字來源：<a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></p>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-  <script type="text/javascript" src="./jquery.wordcloud.min.js?3"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.wordcloud.min.js?3"></script>
   <script type="text/javascript">
 jQuery(function ($) {
 	if ($.wordCloudSupported) {
 		$.getJSON(
-			'./mozlinks-zh.json.js',
+			'mozlinks-zh.json.js',
 			function (list) {
 				$('#canvas').wordCloud({
 					gridSize: 6,
@@ -109,7 +109,7 @@ jQuery(function ($) {
 	} else {
 		$('#canvas').hide();
 		$('#feature').prepend('<img class="bg" src="mozlinks-zh.png" />');
-	}	
+	}
 });
   </script>
 <!--#include virtual="/inc/footer.html" -->

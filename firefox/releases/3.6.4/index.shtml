@@ -27,7 +27,7 @@ table {
           <div id="product-desc" class="firefox-releasenotes-v36">
 <!-- Introduction -->
 
-          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3.6 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3.6 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
 
           <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozTW</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
         </div>
@@ -47,7 +47,7 @@ table {
         </p>
 
         <ul>
-            <li>修正數個<a href="http://www.mozilla.org/security/known-vulnerabilities/firefox36.html#firefox3.6.4">安全性問題</a>。</li>
+            <li>修正數個<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox36.html#firefox3.6.4">安全性問題</a>。</li>
             <li>修正數個穩定性問題。</li>
         </ul>
 
@@ -59,11 +59,11 @@ table {
 
       <h3 id="requirements">系統需求</h3>
 
-      <p>在安裝 Firefox 3.6 前請先確定您的電腦是否合乎 <a href="http://moztw.org/docs/fx/system-requirements/">系統需求</a>。</p>
+      <p>在安裝 Firefox 3.6 前請先確定您的電腦是否合乎 <a href="/docs/fx/system-requirements/">系統需求</a>。</p>
 
       <h3 id="download">下載 Firefox 3.6</h3>
 
-      <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上多種語言版的 Firefox 3.6，您可<a href="http://moztw.org/firefox/">由此下載最新的 Firefox 3.6 </a>。若想自行編譯其他平台或語言的版本，請見本文件最末節。</p>
+      <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上多種語言版的 Firefox 3.6，您可<a href="/firefox/">由此下載最新的 Firefox 3.6 </a>。若想自行編譯其他平台或語言的版本，請見本文件最末節。</p>
 
       <h3 id="install">安裝 Firefox 3.6</h3>
       <p>請注意：安裝 Firefox 3.6 將<em>覆蓋</em>現存的 Firefox 程式，您不會遺失書籤或瀏覽記錄，但有些附加元件可能要更新才能繼續使用。如果想要降級的話，您可以稍後再重新安裝舊版本。</p>
@@ -166,7 +166,7 @@ table {
       <ol class="faq">
 
         <li>我該怎麼幫忙呢？
-          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
+          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
 
         </li>
 
@@ -209,10 +209,10 @@ table {
       <p>下面提供了幾個有用的連結：</p>
 
         <ul class="spaced">
-        <li><a id="oj3s" title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
+        <li><a title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
     <li><a href="http://wiki.mozilla.org/Firefox3.6">Firefox 3.6 Project Page</a></li>
     <li><a href="http://kb.mozillazine.org/">MozillaZine's Knowledge Base</a></li>
-    <li><a href="http://www.mozilla.org/projects/firefox/">Developer Information</a></li>
+    <li><a href="https://www.mozilla.org/projects/firefox/">Developer Information</a></li>
     <li><a href="http://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li>
     </ul>
 

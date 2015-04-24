@@ -87,7 +87,7 @@
 						<p>請到 <a href="https://addons.mozilla.org/firefox/">Mozilla 附加元件中心</a>下載 Firefox 的擴充套件及佈景主題。</p>
 					</li>
 					<li>Firefox 是哪些人做出來的？
-            <p>Firefox 是由世界各地的 <a href='https://www.mozilla.org/community/'>Mozilla 社群</a>成員與員工合力開發。<a href='https://www.mozilla.org/credits/'>這裡有份長長的名單</a>，列出部分曾對 Firefox 有重要貢獻的人。<a href='https://www.mozilla.org/contribute/'>想要加入我們的大家庭嗎？</a>或者<a href="/contribute/">加入 Mozilla 台灣社群？</a></p>
+            <p>Firefox 是由世界各地的 <a href='https://www.mozilla.org/contact/communities/'>Mozilla 社群</a>成員與員工合力開發。<a href='https://www.mozilla.org/credits/'>這裡有份長長的名單</a>，列出部分曾對 Firefox 有重要貢獻的人。<a href='https://www.mozilla.org/contribute/'>想要加入我們的大家庭嗎？</a>或者<a href="/contribute/">加入 Mozilla 台灣社群？</a></p>
 					</li>
 					<li>Firefox 的原始碼在何處？
 						<p>請參照 <a href="https://developer.mozilla.org/en-US/docs/Developer_Guide/Source_Code/Mercurial">Getting Mozilla Source Code Using Mercurial</a> 一文取得 Firefox 原始碼；如需編譯 Firefox，請參考 <a href="https://developer.mozilla.org/en-US/docs/Developer_Guide/Build_Instructions">Build Instructions</a>。</p>

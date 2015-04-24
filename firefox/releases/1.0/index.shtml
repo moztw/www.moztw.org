@@ -12,7 +12,7 @@
           <p>Firefox 是速度快、功能又齊全的瀏覽器，它讓上網比以往更有效率。其它關於 Firefox 的訊息，請參考 <a href="/firefox/">Firefox 產品首頁</a>。</p>
           <p>此版本資訊包含了 Firefox 1.0 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://texturizer.net/firefox/bugs.html">錯誤回報注意事項</a>閱讀完畢，再到
   <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
-          <p>我們想知道您對 Firefox 的意見。歡迎到討論區討論相關議題：您可至<a href="http://www.mozillazine.org/">MozillaZine</a>上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="http://moztw.org/">MozillaTaiwan</a>的<a href="http://moztw.org/forum/viewforum.php?f=2">Firefox
+          <p>我們想知道您對 Firefox 的意見。歡迎到討論區討論相關議題：您可至<a href="http://www.mozillazine.org/">MozillaZine</a>上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a>的<a href="http://forum.moztw.org/viewforum.php?f=2">Firefox
     中文討論區</a>與我們分享意見。</p>
         </div>
       </div> 
@@ -30,58 +30,58 @@
         <li>International Domain Name（<a href="http://xn--fiq228c.tw/definition/definition_01.htm" title="中文.tw 域名標準">國際化域名</a>，IDN）現在都會以 <a href="http://xn--fiq228c.tw/faq/faq_01.htm#8" title="中文.tw FAQ 解釋篇">punycode</a> 顯示，若想讓 IDN 以 Unicode 顯示，請將「network.IDN_show_punycode」設定為 false。
         </li>
         <li>修復一些安全性問題：
-        <ul><li><a href="http://www.mozilla.org/security/announce/mfsa2005-29.html" class="high">MFSA 2005-29</a>
+        <ul><li><a href="https://www.mozilla.org/security/announce/mfsa2005-29.html" class="high">MFSA 2005-29</a>
     Internationalized Domain Name (IDN) homograph spoofing</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-28.html" class="critical">MFSA 2005-28</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-28.html" class="critical">MFSA 2005-28</a>
     Unsafe /tmp/plugtmp directory exploitable to erase user's files</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-27.html" class="critical">MFSA 2005-27</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-27.html" class="critical">MFSA 2005-27</a>
     Plugins can be used to load privileged content</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-26.html" class="high">MFSA 2005-26</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-26.html" class="high">MFSA 2005-26</a>
     Cross-site scripting by dropping javascript: link on tab</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-25.html" class="moderate">MFSA 2005-25</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-25.html" class="moderate">MFSA 2005-25</a>
 
     Image drag and drop executable spoofing</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-24.html" class="low">MFSA 2005-24</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-24.html" class="low">MFSA 2005-24</a>
     HTTP auth prompt tab spoofing</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-23.html" class="low">MFSA 2005-23</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-23.html" class="low">MFSA 2005-23</a>
     Download dialog source spoofing</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-22.html" class="low">MFSA 2005-22</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-22.html" class="low">MFSA 2005-22</a>
     Download dialog spoofing using Content-Disposition header</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-21.html" class="critical">MFSA 2005-21</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-21.html" class="critical">MFSA 2005-21</a>
     Overwrite arbitrary files downloading .lnk twice</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-20.html" class="moderate">MFSA 2005-20</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-20.html" class="moderate">MFSA 2005-20</a>
 
     XSLT can include stylesheets from arbitrary hosts</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-19.html" class="moderate">MFSA 2005-19</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-19.html" class="moderate">MFSA 2005-19</a>
     Autocomplete data leak</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-18.html" class="low">MFSA 2005-18</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-18.html" class="low">MFSA 2005-18</a>
     Memory overwrite in string library</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-17.html" class="low">MFSA 2005-17</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-17.html" class="low">MFSA 2005-17</a>
     Install source spoofing with user:pass@host</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-16.html" class="moderate">MFSA 2005-16</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-16.html" class="moderate">MFSA 2005-16</a>
     Spoofing download and security dialogs with overlapping windows</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-15.html" class="moderate">MFSA 2005-15</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-15.html" class="moderate">MFSA 2005-15</a>
 
     Heap overflow possible in UTF8 to Unicode conversion</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-14.html" class="moderate">MFSA 2005-14</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-14.html" class="moderate">MFSA 2005-14</a>
     SSL "secure site" indicator spoofing</li><li>
 
-    <a href="http://www.mozilla.org/security/announce/mfsa2005-13.html" class="low">MFSA 2005-13</a>
+    <a href="https://www.mozilla.org/security/announce/mfsa2005-13.html" class="low">MFSA 2005-13</a>
     Window Injection Spoofing</li></ul>
         </li>
       </ul>
@@ -141,23 +141,23 @@
       <p>Firefox 將您的個人設定檔存放在下列位置之一：</p>
       <table style="font-size: smaller;" border="1" cellspacing="0">
         <tr>
-          <td><img src="http://www.mozilla.org/images/ico-win.png" alt=""> Windows 2000、XP</td>
+          <td><img src="https://www.mozilla.org/images/ico-win.png" alt=""> Windows 2000、XP</td>
           <td>Documents and Settings\&lt;UserName&gt;\Application Data\Mozilla\Firefox</td>
         </tr>
         <tr>
-          <td><img src="http://www.mozilla.org/images/ico-win.png" alt=""> Windows NT</td>
+          <td><img src="https://www.mozilla.org/images/ico-win.png" alt=""> Windows NT</td>
           <td>WINNT\Profiles\&lt;UserName&gt;\Application Data\Mozilla\Firefox</td>
         </tr>
         <tr>
-          <td><img src="http://www.mozilla.org/images/ico-win.png" alt=""> Windows 98、ME</td>
+          <td><img src="https://www.mozilla.org/images/ico-win.png" alt=""> Windows 98、ME</td>
           <td>Windows\Application Data\Mozilla\Firefox</td>
         </tr>
         <tr>
-          <td><img src="http://www.mozilla.org/images/ico-osx.png" alt=""> MacOS X</td>
+          <td><img src="https://www.mozilla.org/images/ico-osx.png" alt=""> MacOS X</td>
           <td>~/Library/Application Support/Firefox</td>
         </tr>
         <tr>
-          <td><img src="http://www.mozilla.org/images/ico-tux.png" alt=""> Linux 及 Unix 系統</td>
+          <td><img src="https://www.mozilla.org/images/ico-tux.png" alt=""> Linux 及 Unix 系統</td>
           <td>~/.mozilla/firefox</td>
         </tr>
       </table>
@@ -183,7 +183,7 @@
 
       <p>&nbsp;</p>
       <h2><a name="issues">已知問題</a></h2>
-      <p>以下列出 Firefox 1.0 的部分已知問題， 請閱讀後再回報新的程式錯誤，並請定期檢查本欄的更新內容﹝如在此版本發現新問題，我們會隨時在<a href="http://www.mozilla.org/products/firefox/releases/1.0.html">英文網頁</a>更新此欄﹞。</p>
+      <p>以下列出 Firefox 1.0 的部分已知問題， 請閱讀後再回報新的程式錯誤，並請定期檢查本欄的更新內容﹝如在此版本發現新問題，我們會隨時在<a href="https://www.mozilla.org/products/firefox/releases/1.0.html">英文網頁</a>更新此欄﹞。</p>
         
       <h3>所有系統</h3>
       <ul>
@@ -252,7 +252,7 @@ Firefox 與其他 Mozilla 產品都使用相同的 Gecko 佈局引擎。如果�
 
 <p>欲取得其他問題的訊息、常見問題集、使用技巧以及一般 Firefox 協助，請到 David Tenser 非常有用的 <a href="http://texturizer.net/firefox/">Firefox
     Help</a>網站、<a href="http://www.mozillazine.org/">MozillaZine</a>的<a href="http://forums.mozillazine.org/index.php?c=4">Firefox
-    英文討論區</a>或林弘德所維護的<a href="http://moztw.org/forum/viewforum.php?f=2">Firefox
+    英文討論區</a>或林弘德所維護的<a href="http://forum.moztw.org/viewforum.php?f=2">Firefox
     中文討論區</a>。 </p>
 
 <p>設定控制台（在網址列輸入「about:config」後按 Enter 時出現的東西）提供 Firefox 進階操作控制，可以直接修改 Firefox 設定。這些數值若未善加修改，可能會毀了 Firefox！請再修改前閱讀說明文件，以便得知相關數值如何調整。</p>
@@ -293,7 +293,7 @@ cd /Applications/Firefox.app/Contents/MacOS/<br>
   <li>Firefox 的原始碼在何處？ 
   <p>cvs.mozilla.org. Mozilla trunk + mozilla/browser + mozilla/toolkit.</p></li>
   <li>電子郵件程式呢？ 
-  <p>Firefox 能與您預設的任何郵件程式協同運作， 而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="http://www.mozilla.org/products/thunderbird/">Mozilla
+  <p>Firefox 能與您預設的任何郵件程式協同運作， 而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="https://www.mozilla.org/products/thunderbird/">Mozilla
         Thunderbird</a>。</p></li>
 </ol>
       </ol>

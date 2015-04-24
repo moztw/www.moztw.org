@@ -317,11 +317,11 @@ section .appendix {
 
                   <h3 id="requirements">系統需求</h3>
 
-                  <p>在安裝 Firefox 前請先確定您的電腦是否合乎<a href="http://moztw.org/docs/fx/system-requirements/">系統需求</a>。</p>
+                  <p>在安裝 Firefox 前請先確定您的電腦是否合乎<a href="/docs/fx/system-requirements/">系統需求</a>。</p>
 
                   <h3 id="download">下載 Firefox</h3>
 
-                  <p>您可以<a href="http://moztw.org/firefox/">由此下載最新的 Firefox</a>，或取得 Windows、Linux 及 Mac OS X 平台上的<a href="http://www.mozilla.com/firefox/all.html">各國語言版本</a>，或<a href="http://www.mozilla.com/firefox/channel/">由此下載 Firefox 未來發行版本</a>（測試版）。若需自行編譯其他平台或語言的版本，請見本文件最末節。</p>
+                  <p>您可以<a href="/firefox/">由此下載最新的 Firefox</a>，或取得 Windows、Linux 及 Mac OS X 平台上的<a href="http://www.mozilla.com/firefox/all.html">各國語言版本</a>，或<a href="http://www.mozilla.com/firefox/channel/">由此下載 Firefox 未來發行版本</a>（測試版）。若需自行編譯其他平台或語言的版本，請見本文件最末節。</p>
 
                   <h3 id="install">安裝 Firefox</h3>
                   <p>
@@ -368,7 +368,7 @@ section .appendix {
                     </li>
 
                     <li>Firefox 是哪些人做出來的？
-                      <p>Firefox 是由世界各地的 <a href='http://www.mozilla.org/community/'>Mozilla 社群</a>成員與員工合力開發。<a href='http://www.mozilla.org/credits/'>這裡有份長長的名單</a>，列出部分曾對 Firefox 有重要貢獻的人。<a href='http://www.mozilla.org/contribute/'>想要加入我們的大家庭嗎？</a>或者<a href="http://moztw.org/contribute/">加入 Mozilla 台灣社群？</a></p>
+                      <p>Firefox 是由世界各地的 <a href='https://www.mozilla.org/contact/communities/'>Mozilla 社群</a>成員與員工合力開發。<a href='https://www.mozilla.org/credits/'>這裡有份長長的名單</a>，列出部分曾對 Firefox 有重要貢獻的人。<a href='https://www.mozilla.org/contribute/'>想要加入我們的大家庭嗎？</a>或者<a href="/contribute/">加入 Mozilla 台灣社群？</a></p>
                     </li>
 
                     <li>Firefox 的原始碼在何處？
@@ -377,7 +377,7 @@ section .appendix {
                     </li>
 
                     <li>電子郵件程式呢？
-                      <p>Firefox 能與您預設的任何郵件程式協同運作，而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="http://moztw.org/thunderbird/">Mozilla Thunderbird</a>。</p>
+                      <p>Firefox 能與您預設的任何郵件程式協同運作，而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="/thunderbird/">Mozilla Thunderbird</a>。</p>
                     </li>
                   </ol>
 
@@ -388,7 +388,7 @@ section .appendix {
                   <h2 id="links">其他資源和連結</h2>
                   <p>下面提供了幾個有用的連結：</p>
                   <ul class="spaced">
-                    <li><a id="oj3s" title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
+                    <li><a title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
                     <li><a href="http://support.mozilla.com/">Firefox 技術支援</a></li>
                     <li><a href="http://developer.mozilla.org/">Mozilla Developer Network</a></li>
                     <li><a href="http://blog.mozilla.com/futurereleases/">Future of Firefox Blog</a></li>

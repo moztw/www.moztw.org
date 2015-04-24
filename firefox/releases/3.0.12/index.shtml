@@ -23,7 +23,7 @@ table {
   		  <div id="product-desc" class="firefox-releasenotes-v3">
 <!-- Introduction -->
 
-          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3 的 <a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
+          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3 的 <a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
   <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
 
           <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的<a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
@@ -36,7 +36,7 @@ table {
 				<p>Firefox 3.0.12 修正了許多在 Firefox 3.0.11 發現的問題：</p>
 
           <ul>
-            <li>修正<a href="http://www.mozilla.org/security/known-vulnerabilities/firefox30.html#firefox3.0.12">許多安全性問題</a>。</li>
+            <li>修正<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox30.html#firefox3.0.12">許多安全性問題</a>。</li>
       			<li>修正許多穩定性問題。</li>
       			<li>修正 3.0.11 帶來的問題：在 Windows XP 中存取 Java 外掛程式時，Firefox 偶爾會停止回應（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=498132">bug 498132</a>）。</li>
       			<li>修正 3.0.11 帶來的問題：使用 <abbr title="Apple Filing Protocol">AFP</abbr> 在遠端位址儲存家目錄時，Firefox 無法正確儲存資料（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=497792">bug 497792</a>）。</li>
@@ -55,7 +55,7 @@ table {
 
       <h3 id="download">下載 Firefox 3</h3>
 
-      <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上多種語言版的 Firefox 3，您可<a href="http://moztw.org/firefox/">由此下載最新的 Firefox 3 </a>。若想自行編譯其他不支援的平台或語言，請見本文件最末節。</p>
+      <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上多種語言版的 Firefox 3，您可<a href="/firefox/">由此下載最新的 Firefox 3 </a>。若想自行編譯其他不支援的平台或語言，請見本文件最末節。</p>
 
       <h3 id="install">安裝 Firefox 3</h3>
       <p>請注意：安裝 Firefox 3 將<em>覆蓋</em>您現存的 Firefox 程式，這並不會造成書籤或瀏覽記錄遺失，但可能會有些附加元件要更新才能繼續使用。</p>
@@ -170,7 +170,7 @@ table {
       <ol class="faq">
 
         <li>我該怎麼幫忙呢？
-          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="http://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
+          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
 
         </li>
 
@@ -213,10 +213,10 @@ table {
       <p>下面提供了幾個有用的連結：</p>
 
 		<ul class="spaced"> 
-		<li><a id="oj3s" title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a> 
+		<li><a title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a> 
 		</li><li><a href="http://wiki.mozilla.org/Firefox3">Firefox 3 Project Page</a> 
 		</li><li><a href="http://kb.mozillazine.org/">MozillaZine's Knowledge Base</a> 
-		</li><li><a href="http://www.mozilla.org/projects/firefox/">Developer Information</a> 
+		</li><li><a href="https://www.mozilla.org/projects/firefox/">Developer Information</a> 
 		</li><li><a href="http://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li></ul>
 
 </div>
