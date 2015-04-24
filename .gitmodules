@@ -1,3 +1,6 @@
 [submodule "events/blackout"]
 	path = events/blackout
 	url = https://github.com/moztw/TW-Error451-Blackout.git
+[submodule "foxmosa/game/pairs"]
+	path = foxmosa/game/pairs
+	url = https://github.com/moztw/browser-pairs.git
