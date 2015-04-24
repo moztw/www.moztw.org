@@ -263,7 +263,7 @@
       </ul>
     </div>
     <div id="tb-fans" class="grid-4">
-      <a style="text-decoration: none;" href="http://www.facebook.com/groups/thunderbirdfans.tw/" onClick="ga('send', 'event', 'Outgoing', 'Facebook-thunderbirdfanstw', 'thunderbird');">
+      <a style="text-decoration: none;" href="https://www.facebook.com/groups/thunderbirdfans.tw/" onClick="ga('send', 'event', 'Outgoing', 'Facebook-thunderbirdfanstw', 'thunderbird');">
           <img src="/images/foxmosa-mail-02.png" width="100" alt="foxmosa mail">
           <h3>Thunderbird 愛好者俱樂部</h3>
       </a>
