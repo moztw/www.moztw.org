@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700);
 @import url(../fonts/awesome.css);
 
 html, body, div, span, applet, object, iframe,
@@ -337,7 +337,7 @@ input[type=text], input[type=email] {
 }
 
 input[type=text]:focus, input[type=email]:focus {
-  border: 1px #6BD7F3 solid; 
+  border: 1px #6BD7F3 solid;
   box-shadow: 0 0 5px #6BD7F3;
 }
 
@@ -529,20 +529,20 @@ input[type=text]:focus, input[type=email]:focus {
   #nav-main {
       margin: 10px 0 0 230px;
   }
-  
+
   #nav-main-menu li {
       line-height: 2em;
       padding: 0 0.75em;
   }
-  
+
   #colophon .container {
     width: 760px;
   }
-  
+
   #outer_wrapper {
     width: 760px;
   }
-  
+
   #colophon .logo, #colophon .copyright {
       float: none;
       text-align: center;
@@ -554,7 +554,7 @@ input[type=text]:focus, input[type=email]:focus {
   #colophon .container {
     width: 520px;
   }
-  
+
   #outer_wrapper {
       width: auto;
       margin: auto 0px;
@@ -594,11 +594,11 @@ input[type=text]:focus, input[type=email]:focus {
   #colophon .container {
       width: 100%;
   }
-  
+
   #outer_wrapper {
       width: 100%;
   }
-  
+
   #main-feature {
     padding: 32px 10px;
   }
@@ -607,7 +607,7 @@ input[type=text]:focus, input[type=email]:focus {
       padding: auto 10px;
       font-size: 72px;
   }
-  
+
   #main-feature h2 {
       font-size: 20px;
   }
@@ -633,7 +633,7 @@ input[type=text]:focus, input[type=email]:focus {
     color: #F5F5F5;
     text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3), 0 1px 1px rgba(255, 255, 255, 0.8);
   }
-  
+
   #nav-main-menu {
     position: absolute;
     left: -140px;
