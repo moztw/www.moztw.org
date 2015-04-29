@@ -27,6 +27,15 @@ please fork and checkout as you need.
     wiki.moztw.org - Wiki which is not in active usage
     photos.moztw.org - Picture Gallery of MozTW prior to Firefox 1.5 times.
 
+## I want to contribute, how?
+1. Report issues at [Issue tracker](https://github.com/moztw/www.moztw.org/issues)
+2. Make a fork of this repo and clone to your working space (See steps in next section)
+3. Go to your cloned repository, create a new branch with meaningful name, e.g. `git checkout -b issue123-fix-something`
+4. Make changes, test, and commit. Be sure to mention the issue id in the commit message.
+5. File a pull request to **master** branch (or create a new branch to remote if you need to collaborate your work with someone else). direct PRs to `production` branch will be rejected.
+6. Someone will review the request, you may ping moztw-general@googlegroups.com if there's no progress after a while.
+7. The content will go live at [www-stage](http://www-stage.moztw.org) once the PR is accepted, and will go live at [production site](http://moztw.org) when ready.
+
 ## Development
 
 You can do shallow clone to get this repo more quickly.
