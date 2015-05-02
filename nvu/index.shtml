@@ -15,8 +15,8 @@
 <div id="mainContent" class="right">
     <h2> NVU </h2>
     <p>
-    <a href='http://www.nvu.com'>NVU</a> 是一套同樣以 Mozilla 
-    為核心的網頁編輯器 (就像市面上常見的 FrontPage 或是 
+    <a href='http://www.nvu.com'>NVU</a> 是一套同樣以 Mozilla
+    為核心的網頁編輯器 (就像市面上常見的 FrontPage 或是
     Dreamweaver 等等網頁編輯程式)，
     目前由 <a href='http://www.linspire.com/'>Linspire</a>
     (以前的 Lindows) 主導開發。
@@ -31,7 +31,7 @@
 	其它語言版本的支援與服務，但也不特別反對社群自行製作本地化的版本。
 	所以目前 Traditional Chinese 正體中文版的發行，是臺灣 Mozilla
 	中文化小組 (moztw.org) 為了推廣 Mozilla 與 NVU
-	特別製作的。 
+	特別製作的。
 
 	<p>中文版的製作是基於使用與 Mozilla 本地化同樣的技術，
 	並沒有重新編譯任何程式碼，
@@ -39,10 +39,10 @@
 
 	<p>原則上此版本有取得相關單位(NVU Linspire)的同意，
 	但請記得在這裡取得的版本並不能算是原始版本，
-	NVU 本身以及實際重製的 moztw.org 
+	NVU 本身以及實際重製的 moztw.org
 	仍然不會為這些版本提供任何保障、支援或服務。
 
-	<p>有問題請利用 <a href='http://forum.moztw.org/viewforum.php?f=19'>
+	<p>有問題請利用 <a href='//forum.moztw.org/viewforum.php?f=19'>
 	    討論區</a>，不過如前所言， moztw.org 還是以
 	Mozilla.org 相關產品的討論為主，所以請保持您的耐心，謝謝。
     </div>

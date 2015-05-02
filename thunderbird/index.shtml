@@ -249,7 +249,7 @@
       <h3>資源與鏈結</h3>
       <ul class="compact">
         <li>
-          <a href="http://forum.moztw.org/viewforum.php?f=9">MozTW Thunderbird 中文討論區</a>
+          <a href="//forum.moztw.org/viewforum.php?f=9">MozTW Thunderbird 中文討論區</a>
         </li>
         <li>
           <a href="https://addons.mozilla.org/thunderbird/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla', 'AMO-tb');">取得 Thunderbird 附加元件</a>

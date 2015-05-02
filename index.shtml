@@ -3,7 +3,7 @@
 <!--#include virtual="/inc/title.html" -->
 <link rel="stylesheet" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
-<link rel="alternate" type="application/rss+xml" title="moztw.org: Mozilla Taiwan 社群新聞" href="http://moztw.org/xmlnews.rdf" />
+<link rel="alternate" type="application/rss+xml" title="moztw.org: Mozilla Taiwan 社群新聞" href="/xmlnews.rdf">
 <style>
 <!--
 .front-feature {
@@ -217,12 +217,12 @@
 		</div>
     </div>
     <div class="download dl-mobile">
-    	<h3><a href="/mobile/"><strong class="downloadText">Firefox Android 版</strong></a></h3>
- 		<div>
-        	<ul>
-            	<li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'GooglePlay');">Google Play (中文版)</a></li>
+      <h3><a href="/mobile/"><strong class="downloadText">Firefox Android 版</strong></a></h3>
+      <div>
+        <ul>
+          <li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'GooglePlay');">Google Play (中文版)</a></li>
         </ul>
-        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -240,29 +240,28 @@
       <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-thunderbird-v3.png" style="height:72px;width:72px;" alt="Thunderbird Logo" class="promo"></a></h2>
 	  <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
   </div>
-<!--  <div class="frontcolumn">
+  <!--  <div class="frontcolumn">
     <h2><a href="https://webmaker.org/"><img src="/images/webmaker.png" style="" alt="Webmaker" class="promo">Mozilla Webmaker</a></h2>
-  	<p>網路發展至今，人人都該具備在網路上創作的能力，Webmaker 計畫以各種簡單有趣的專案，讓大家嘗試混搭網頁、踏出網頁創作的第一步。</p>
+    <p>網路發展至今，人人都該具備在網路上創作的能力，Webmaker 計畫以各種簡單有趣的專案，讓大家嘗試混搭網頁、踏出網頁創作的第一步。</p>
   </div>-->
-<div class="frontcolumn">
-  <h2><a href="/space/">摩茲工寮<img src="/images/product-firefox-home.png" alt="" class="promo" style="width: 72px; height: 72px;"></a></h2>
-  <p>
-    <a href="/space/" style="font-size: 0.9em;">Mozilla Community Space Taipei</a> 是位於台北的社群空間，提供電力、網路與激發創意的 Mozilla 小物，讓摩茲人在此一起貢獻各種開放專案，歡迎來訪。
-  </p>
-</div>
+  <div class="frontcolumn">
+    <h2><a href="/space/">摩茲工寮<img src="/images/product-firefox-home.png" alt="" class="promo" style="width: 72px; height: 72px;"></a></h2>
+    <p>
+      <a href="/space/" style="font-size: 0.9em;">Mozilla Community Space Taipei</a> 是位於台北的社群空間，提供電力、網路與激發創意的 Mozilla 小物，讓摩茲人在此一起貢獻各種開放專案，歡迎來訪。
+    </p>
+  </div>
 
   <div class="frontcolumnlast">
     <h2><a href="/contribute/">參與我們<img src="/images/toy_gold_32.png" alt="Contribute Logo" class="promo"></a></h2>
-	<p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！
-	  <br>　　　→ <a href="https://groups.google.com/group/moztw-general" onClick="ga('send', 'event', 'Outgoing', 'moztw-general', 'Frontpage');">MozTW 社群郵件群組</a></p>
+    <p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！
+      <br>　　　→ <a href="https://groups.google.com/group/moztw-general" onClick="ga('send', 'event', 'Outgoing', 'moztw-general', 'Frontpage');">MozTW 社群郵件群組</a></p>
   </div>
-  </div>
-  <br style="clear: both;">
+</div>
+<br style="clear: both;">
 
   <!-- Start News Columns -->
 
-
-<div>
+  <div>
     <div class="frontcolumndouble" id="news_columns">
       <a href="/xmlnews.rdf">
         <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16">
@@ -270,28 +269,28 @@
       <h2>
         <a href="/news">最新消息與公告</a>
       </h2>
-	  <!--#include virtual="/inc/news.html" -->
-	  </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
-	  <br style="clear: both;">
-	  <a href='news'>所有公告記錄</a>
-    </div>
-    <!-- End News Columns -->
+      <!--#include virtual="/inc/news.html" -->
+    </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
+    <br style="clear: both;">
+    <a href='news'>所有公告記錄</a>
+  </div>
+  <!-- End News Columns -->
 
-    <div class="frontcolumnlast">
-	  <h2>快速捷徑</h2>
-        <ul class="news">
-          <li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 中文討論區</a></li>
-          <li><a href="/events/moztw-lab/">MozTW Lab 定期聚會</a></li>
-          <li><a href="https://webmaker.org/" onClick="ga('send', 'event', 'Outgoing', 'Webmaker', 'frontpage');">Mozilla Webmaker</a></li>
-          <li><a href="http://mozlinks-zh.blogspot.com/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla Links', 'frontpage');">Mozilla Links 正體中文版</a></li>
-          <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 未來發行版本</a></li>
-          <li><a href="http://wiki.moztw.org/">共筆系統</a></li>
-          <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
-        </ul>
-    </div>
+  <div class="frontcolumnlast">
+    <h2>快速捷徑</h2>
+    <ul class="news">
+      <li><a href="//forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 中文討論區</a></li>
+      <li><a href="/events/moztw-lab/">MozTW Lab 定期聚會</a></li>
+      <li><a href="https://webmaker.org/" onClick="ga('send', 'event', 'Outgoing', 'Webmaker', 'frontpage');">Mozilla Webmaker</a></li>
+      <li><a href="http://mozlinks-zh.blogspot.com/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla Links', 'frontpage');">Mozilla Links 正體中文版</a></li>
+      <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 未來發行版本</a></li>
+      <li><a href="http://wiki.moztw.org/">共筆系統</a></li>
+      <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
+    </ul>
   </div>
+</div>
   </div>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript">
 /*
  * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
