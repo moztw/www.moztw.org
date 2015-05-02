@@ -15,7 +15,7 @@
   <article class="module">
     <h2>關於 MozTW (Mozilla 台灣社群)</h2>
     <div class="block">
-      <p>MozTW 是台灣專屬於 <a href="https://www.mozilla.org">Mozilla</a> 相關資訊的社群，於 2004 年 9 月正式開張。目前本社群維護 Mozilla 軟體的正體中文版本與語言套件 (Language Pack)，提供 <a href="https://moztw.org">WWW（下載、文件）</a>與 <a href="http://forum.moztw.org">討論區</a> 等服務。</p>
+      <p>MozTW 是台灣專屬於 <a href="https://www.mozilla.org">Mozilla</a> 相關資訊的社群，於 2004 年 9 月正式開張。目前本社群維護 Mozilla 軟體的正體中文版本與語言套件 (Language Pack)，提供 <a href="https://moztw.org">WWW（下載、文件）</a>與 <a href="//forum.moztw.org">討論區</a> 等服務。</p>
       <p>MozTW 本著推廣主力 - Firefox 易學常用的特性，自許為使用者接觸開放、自由文化的起點。我們持續辦理推廣自由文化的課程與活動，若有相關需求或合作提案，請連絡 <a href="#contact">社群連繫人</a>。</p>
       <div class="grids block">
         <div class="grid-6">
@@ -31,7 +31,7 @@
           <ul>
             <li><a href="/dl">Mozilla 相關中文軟體下載</a></li>
             <li><a href="/docs">說明及文件</a></li>
-            <li><a href="http://forum.moztw.org">社群討論區</a></li>
+            <li><a href="//forum.moztw.org">社群討論區</a></li>
             <li><a href="http://wiki.moztw.org">社群共筆系統</a></li>
           </ul>
         </div>
@@ -90,7 +90,7 @@
         <p>若您有軟體使用上的問題:</p>
         <ul>
           <li>可至 <a href="https://support.mozilla.org/">Mozilla 技術支援</a> 網站查詢</li>
-          <li>可至 <a href="http://forum.moztw.org">本站討論區</a> 發問，很多熱心社群成員願意分享經驗。社群成員皆為義務幫忙，發問請保持禮節。</li>
+          <li>可至 <a href="//forum.moztw.org">本站討論區</a> 發問，很多熱心社群成員願意分享經驗。社群成員皆為義務幫忙，發問請保持禮節。</li>
           <li>或可查閱 <a href="/docs">本站文件區</a> (部分文件內容可能已過時，參考使用前請注意。)</li>
         </ul>
         <div class="block">
@@ -98,8 +98,8 @@
           <p>程式上的錯誤或瑕疵建議請自行至 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 提出，moztw.org 主要處理與正體中文版本相關（翻譯、在地化特色、使用上）的問題。若發現中文安裝版有程式問題，回報前請確定英文版在相關操作上正確無誤，謝謝。</p>
           <ul>
             <li>若您擁有 GitHub 帳號，可前往我們在 GitHub 的 <a href="https://github.com/moztw/www.moztw.org/issues?q=is%3Aopen" id="github-moztw">議題追蹤系統</a> 回報。</li>
-            <li>與網站（樣式、文件內容、組織方式等）相關的問題，請到討論區「<a href="http://forum.moztw.org/viewforum.php?f=7" id="forum-moztw-org">有關 moztw.org</a>」處提出。</li>
-            <li>軟體翻譯錯誤或中文安裝版特有的問題，請到討論區「<a href="http://forum.moztw.org/viewforum.php?f=4" id="forum-l10n">翻譯錯誤與建議回報</a>」處提出。</li>
+            <li>與網站（樣式、文件內容、組織方式等）相關的問題，請到討論區「<a href="//forum.moztw.org/viewforum.php?f=7" id="forum-moztw-org">有關 moztw.org</a>」處提出。</li>
+            <li>軟體翻譯錯誤或中文安裝版特有的問題，請到討論區「<a href="//forum.moztw.org/viewforum.php?f=4" id="forum-l10n">翻譯錯誤與建議回報</a>」處提出。</li>
             <li>社群庶務相關問題，請至 Google Groups 上的「<a href="https://groups.google.com/forum/?fromgroups#!forum/moztw-general" id="moztw-general" target="_blank">小莎將軍</a>」郵件群組提出。</li>
           </ul>
         </div>

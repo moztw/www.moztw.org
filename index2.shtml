@@ -105,7 +105,7 @@
         <section class="module">
 		  <h3>快速捷徑</h3>
 			<ul class="news">
-			  <li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 中文討論區</a></li>
+			  <li><a href="//forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 中文討論區</a></li>
 			  <li><a href="/events/moztw-lab/">MozTW Lab 定期聚會</a></li>
 			  <li><a href="https://webmaker.org/" onClick="ga('send', 'event', 'Outgoing', 'Webmaker', 'frontpage');">Mozilla Webmaker</a></li>
 			  <li><a href="http://mozlinks-zh.blogspot.com/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla Links', 'frontpage');">Mozilla Links 正體中文版</a></li>

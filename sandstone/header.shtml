@@ -9,16 +9,16 @@
         </div>
         <div class="header-search-form-background">
         </div>
-        <form class="header-search-form" action="http://forum.moztw.org/google_results.php">
+        <form class="header-search-form" action="//forum.moztw.org/google_results.php">
           <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa">
           <input type="hidden" name="cof" value="FORID:9">
           <input type="hidden" name="ie" value="UTF-8">
-          <input placeholder="搜尋..." class="header-search-form-input" type="text" id="q" name="q" accesskey="s" size="30" maxlength="64">
+          <input placeholder="搜尋…" class="header-search-form-input" type="text" id="q" name="q" accesskey="s" size="30" maxlength="64">
         </form>
       </div>
       <ul class="header-menu">
         <li id="header-menu-dl" class="header-menu-item"><a href="/dl">下載</a></li>
-        <li id="header-menu-forum" class="header-menu-item"><a href="http://forum.moztw.org/">討論區</a></li>
+        <li id="header-menu-forum" class="header-menu-item"><a href="//forum.moztw.org/">討論區</a></li>
         <li id="header-menu-events" class="header-menu-item"><a href="/events">活動</a></li>
 <!--        <li id="header-menu-wiki" class="header-menu-item"><a href="http://wiki.moztw.org/">共筆系統</a></li>-->
         <li id="header-menu-space" class="header-menu-item"><a href="/space">摩茲工寮</a></li>

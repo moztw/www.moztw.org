@@ -13,7 +13,7 @@
 			<h2>Firefox 版本資訊</h2>
 			<p id="release-date"> <time datetime="2015-04-22">2015 年 4 月 22 日</time> v37.0.2 </p>
 			<p>此版本資訊包含了 <a href="#whatsnew">Firefox 新鮮事</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
-			<p>我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的<a href="http://forums.mozillazine.org/viewforum.php?f=49">英文討論區</a>或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
+			<p>我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的<a href="http://forums.mozillazine.org/viewforum.php?f=49">英文討論區</a>或 MozTW 的 <a href="//forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
 		</div>
 		<div class="download firefox">
 			<!--#include virtual="/inc/dlff-new.html" -->
@@ -81,7 +81,7 @@
 						<p>加入 <a href="https://www.mozilla.org/firefox/channel/">Aurora 或 Beta 開發頻道</a>就可以搶先試用 Firefox 開發中版本。</p>
 					</li>
 					<li>我該到哪裡才能用中文問問題跟表示意見？
-						<p>請使用 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區</a>，MozTW 社群團隊與熱心的 Firefox 用戶會定期閱讀上面的文章。</p>
+						<p>請使用 <a href="//forum.moztw.org/viewforum.php?f=2">Firefox 討論區</a>，MozTW 社群團隊與熱心的 Firefox 用戶會定期閱讀上面的文章。</p>
 					</li>
 					<li>我該去哪裡取得新的佈景主題與擴充功能 (附加元件)？
 						<p>請到 <a href="https://addons.mozilla.org/firefox/">Mozilla 附加元件中心</a>下載 Firefox 的擴充套件及佈景主題。</p>
@@ -98,7 +98,7 @@
 				</ol>
 
 				<h3 id="contributedbuilds">非官方建製版</h3>
-				<p>您可以在 MozTW 討論區的<a href="http://forum.moztw.org/viewforum.php?f=43">社群自訂版本</a>討論版找到網友自行編譯調整的非官方版 Firefox。</p>
+				<p>您可以在 MozTW 討論區的<a href="//forum.moztw.org/viewforum.php?f=43">社群自訂版本</a>討論版找到網友自行編譯調整的非官方版 Firefox。</p>
 			</article>
 		</div>
 

@@ -33,7 +33,7 @@
   </div>
   <div class="frontcolumn">
     <h2><a href="https://demos.mozilla.org/">Web O’ Wonder</a></h2>
-    <a href="https://demos.mozilla.org/"><img src="/images/HTML5_Badge_64.png" alt="HTML5 Logo" width="60" height="60" border="0" class="promo"></a> 
+    <a href="https://demos.mozilla.org/"><img src="/images/HTML5_Badge_64.png" alt="HTML5 Logo" width="60" height="60" border="0" class="promo"></a>
     <p>立刻造訪 <a href="https://demos.mozilla.org/">Mozilla 奇幻網路</a>，看看設計師們透過 HTML5 & WebGL 的技術，所打造出各種無與倫比的網路旅程！</p>
   </div>
  <div class="frontcolumnlast">
@@ -62,14 +62,14 @@
     <ul class="news">
       <li><a href="http://gfx.tw/">gfx.tw 抓火狐</a></li>
       <li><a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
-    	<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
+    	<li><a href="//forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
     	<li><a href="/events/">主題活動</a></li>
     	<li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
     	<li><a href="http://wiki.moztw.org/index.php/%E7%B6%B2%E8%B7%AF%E8%B3%87%E6%BA%90">網路資源</a></li>
     </ul>
     </div>
 	<br style="clear: both;">
-  <!-- End News Columns -->  
+  <!-- End News Columns -->
   </div>
 	<a href='news'>所有公告記錄</a>
   </div>
