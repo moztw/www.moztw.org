@@ -105,7 +105,7 @@
 		<div class="grid-3 sidebar">
 			<article class="module hide-mobile">
 				<ul id="nav">
-					<li><a href="/firefox/">< 回到 <span> Firefox 首頁 </span></a></li>
+					<li><a href="/firefox/">&lt; 回到 <span> Firefox 首頁 </span></a></li>
 					<li><a href="#downloadandinstall">下載<span>安裝</span></a></li>
 					<li><a href="#troubleshooting">疑難<span>排解</span></a></li>
 					<li><a href="#FAQ">常見<span>問題</span></a></li>
