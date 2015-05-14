@@ -9,7 +9,9 @@
 <!--#include virtual="/inc/news.html" -->
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
 <h1>過去的公告記錄</h1>
+
 <ul class="news">
+<h3>2015</h3>
 <li><div class="date"> 4 月 4</div>
   <a href="/firefox/releases/37.0.1/">Firefox 37.0.1</a> 更新</li>
 <li><div class="date"> 4 月 1</div>
@@ -26,6 +28,7 @@
 <a href="/firefox/releases/35.0.1/">Firefox 35.0.1</a> 更新</li>
 <li><div class="date"> 1 月 13</div>
   <a href="/firefox/releases/35.0/">Firefox 35.0</a>、<a href="/thunderbird/releases/31.4.0/">Thunderbird 31.4.0</a> 更新</li>
+<h3>2014</h3>
 <li><div class="date"> 12 月 2</div>
   <a href="/firefox/releases/34.0.5/">Firefox 34.0.5</a> 更新</li>
 <li><div class="date"> 12 月 2</div>
@@ -68,6 +71,7 @@
 <a href="/firefox/releases/27.0.1/">Firefox 27.0.1</a> 更新
 <li><div class="date"> 2 月 5</div>
 <a href="/firefox/releases/27.0/">Firefox 27.0</a>、<a href="/thunderbird/releases/24.3.0/">Thunderbird 24.3.0</a> 更新
+<h3>2013</h3>
 <li><div class="date"> 12 月 10</div>
 <a href="/firefox/releases/26.0/">Firefox 26.0</a>、<a href="/thunderbird/releases/24.2.0/">Thunderbird 24.2.0</a> 更新
 <li><div class="date"> 12 月 10</div>
@@ -110,6 +114,7 @@
 <a href="/firefox/releases/18.0.2/">Firefox 18.0.2</a> 更新</li>
 <li><div class="date"> 1 月 19</div>
 <a href="/firefox/releases/18.0.1/">Firefox 18.0.1</a> 更新</li>
+<h3>2012</h3>
 <li><div class="date"> 12 月 1</div>
 <a href="/firefox/releases/17.0.1/">Firefox 17.0.1</a> 更新</li>
 <li><div class="date"> 11 月 20</div>
@@ -168,6 +173,7 @@
 <a href="/firefox/releases/10.0.1/">Firefox 10.0.1</a> 更新</li>
 <li><div class="date"> 2 月 1</div>
 <a href="/firefox/releases/10.0/">Firefox 10.0</a> 登場，<a href="/firefox/releases/3.6.26/">Firefox 3.6.26</a> 安全更新</li>
+<h3>2011</h3>
 <li><div class="date"> 12 月 22</div>
 <a href="/firefox/releases/9.0.1/">Firefox 9.0.1</a> 更新</li>
 <li><div class="date"> 12 月 21</div>
@@ -221,9 +227,7 @@
   <a href="/firefox/releases/3.6.15/">Firefox 3.6.15</a> 更新</li>
 <li><div class="date"> 3 月 2</div>
   <a href="/firefox/releases/3.6.14/">Firefox 3.6.14</a> 及 <a href="/firefox/releases/3.5.17/">3.5.17</a> 安全更新</li>
-
-<li><div class="date"> 2011 年</div></li>
-
+<h3>2010</h3>
 <li><div class="date"> 10 月 28</div>
   <a href="/firefox/releases/3.6.12/">Firefox 3.6.12</a> 及 <a href="/firefox/releases/3.5.15/">3.5.15</a> 安全更新</li>
 <li><div class="date"> 10 月 20</div>
@@ -262,9 +266,7 @@
   <a href="/firefox/releases/3.6/">Firefox 3.6</a> 更新</li>
 <li><div class="date"> 1 月 6</div>
   <a href="/firefox/releases/3.5.7/">Firefox 3.5.7</a> 及 <a href="/firefox/releases/3.0.17/">3.0.17</a> 更新</li>
-
-<li><div class="date"> 2010 年</div></li>
-
+<h3>2009</h3>
 <li><div class="date"> 12 月 16</div>
   <a href="/firefox/releases/3.5.6/">Firefox 3.5.6</a> 及 <a href="/firefox/releases/3.0.16/">3.0.16</a> 安全更新</li>
 <li><div class="date"> 12 月 9</div>
@@ -307,9 +309,7 @@
   <a href="/events/vday2009/">來寄張 Foxmosa 情人卡</a></li>
 <li><div class="date"> 2 月 4</div>
   <a href="/firefox/releases/3.0.6/">Firefox 3.0.6 安全更新</a></li>
-
-<li><div class="date"> 2009 年</div></li>
-
+<h3>2008</h3>
 <li><div class="date"> 12 月 16</div>
   MozTW 主機將於 12 月 18 日(星期四) 9:30 AM 短暫停機，若需下載各項軟體請至 <a href="http://www.mozilla.com/">Mozilla Corp.</a> 首頁。</li>
 <li><div class="date"> 7 月 24</div>
@@ -342,7 +342,7 @@
 <li><div class="date"> 2 月 8</div>
   Firefox 2.0.0.12 更新版本已發行。（<a href="/firefox/releases/2.0.0.12">版本資訊</a>）</li>
 
-<li><div class="date"> 2008 年</div></li>
+<h3>2007</h3>
 
 <li><div class="date"> 12 月 1</div>
   Firefox 2.0.0.11 更新版本已發行。（<a href="/firefox/releases/2.0.0.11">版本資訊</a>）</li>
@@ -375,8 +375,7 @@
 <li><div class="date"> 2 月 24 </div>
   Firefox 2.0.0.2 安全更新已經發行，請參考<a href="/firefox/releases/2.0.0.2">版本資訊</a></li>
 
-
-<li><div class="date"> 2007 年</div></li>
+<h3>2006</h3>
 
 <li><div class="date"> 12 月 20 </div>
   Firefox 2.0.0.1 已經發行。此次更新修正了數個安全性問題並支援 Windows Vista 作業系統。另 1.5.0.9 也已發行，修正數個錯誤。<a href="/firefox/releases/2.0.0.1">2.0.0.1 新鮮事</a></li>
@@ -445,7 +444,7 @@
     <a href="/firefox/extension_top_15/">擴充套件 Top 15</a>現已支援 Firefox 1.5，
     歡迎各位多加利用。
 
-<li><div class="date"> 2006 年</div></li>
+<h3>2005</h3>
 
     <li><div class="date"> 11 月 30 </div>
     Firefox 1.5 中文版與英文版已同步釋出，
@@ -570,7 +569,7 @@
 	<li><div class="date"> 1 月 16 日 </div>
 	擴充套件 Top 15 <a href='http://forum.moztw.org/viewtopic.php?p=27414'>開始投票！</a>
 
-<li><div class="date"> 2005 年</div></li>
+<h3>2004</h3>
 
 	<li><div class="date"> 12 月 27 日 </div>
 	Firefox 新年賀卡 <a href='http://forum.moztw.org/viewtopic.php?p=23952#23952'>招募中！</a>
@@ -636,6 +635,5 @@
 	SVN 備份失敗，不小心把網站全刪了... :~~~
 	<li><div class="date"> 9 月 3 日 </div>
 	<a href="//moztw.org">網站新樣式</a>
-<li><div class="date"> 2004 年</div></li>
 </ul>
 <!--#include virtual="/inc/footer.html" -->
