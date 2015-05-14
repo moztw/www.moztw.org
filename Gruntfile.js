@@ -1,19 +1,27 @@
 module.exports = function(grunt) {
+	require('load-grunt-tasks')(grunt);
 	grunt.initConfig({
 		watch: {
-			livereload: {
-				files: ['**/*.shtml', '**/*.css', '!**/node_modules/**/*'],
+			files: {
+				files: ['**/*.shtml', '!**/node_modules/**/*'],
 				tasks: ['copy', 'ssi'],
 				options: {
-					livereload: true
+					spawn: false
 				}
 			}
 		},
-		connect: {
+		browserSync: {
 			server: {
+				bsFiles: {
+					src : [
+						'**/*.html',
+						'**/*.css',
+						'!**/node_modules/**'
+					]
+				},
 				options: {
-					hostname: '*',
-					livereload: true
+					watchTask: true,
+					server: './'
 				}
 			}
 		},
@@ -49,10 +57,13 @@ module.exports = function(grunt) {
 			}
 		}
 	});
-	grunt.loadNpmTasks('grunt-contrib-connect');
-	grunt.loadNpmTasks('grunt-contrib-watch');
-	grunt.loadNpmTasks('grunt-contrib-copy');
-	grunt.loadNpmTasks('grunt-sitemap');
+	grunt.event.on('watch', function(action, filepath) {
+		var cfgkey = ['copy', 'main', 'files'];
+		grunt.config.set(cfgkey, grunt.config.get(cfgkey).map(function(file) {
+			file.src = filepath;
+			return file;
+		}));
+	});
 	grunt.registerTask('ssi', 'Flatten SSI includes in your HTML files.', function() {
 
 		var ssi = require( 'ssi' )
@@ -63,5 +74,5 @@ module.exports = function(grunt) {
 		files.compile();
 
 	});
-	grunt.registerTask('default', ['copy', 'ssi', 'connect', 'watch']);
+	grunt.registerTask('default', ['copy', 'ssi', 'browserSync', 'watch']);
 };
