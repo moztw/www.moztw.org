@@ -53,7 +53,7 @@ You can do shallow clone to get this repo more quickly.
    This may take a while (approx. 15-20 minutes) as it needs to download a virtual machine image and all the other required packages to run.
 8. Run `vagrant exec grunt`.  
    You will see the output will stay at `watch`.
-9. Open a web browser, go to `localhost:8000` and you can see the current website.  
+9. Open a web browser, go to `localhost:3000` and you can see the current website.  
    You can modify the website contents and the changes will be reflected in seconds.
 10. To stop the script, go back to the terminal and hit Ctrl-C.  
    Also if you want to stop the virtual machine running, run `vagrant halt`.
@@ -65,7 +65,7 @@ You can do shallow clone to get this repo more quickly.
     `sudo npm install -g grunt-cli`
 3. Run `npm install` in repo directory.
 4. Run `grunt` in repo directory, the output will stay at `watch` task.
-5. Open `localhost:8000`, modify and see the [LiveReload](http://livereload.com/) result.
+5. Open `localhost:3000`, modify and see the [LiveReload](http://livereload.com/) result.
 
 
 ## Static Pages Local Installation
