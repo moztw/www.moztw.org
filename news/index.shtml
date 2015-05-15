@@ -1,5 +1,8 @@
 <!--#include virtual="/inc/meta.html" -->
 <!--#include virtual="/inc/title.html" -->
+<style type="text/css">
+    .date:after{ content: " 日"; }
+</style>
 <!--#include virtual="/inc/class.html" -->
 <!--#include virtual="/inc/header.html" -->
 
@@ -474,94 +477,94 @@
 		<a href='http://www.mozilla.org/projects/firefox/'>Mozilla Firefox 1.5 RC2</a>(候選版本，<b style='color:red;'>非最終正式版</b>) 中文版已釋出，歡迎加入測試的行列！(對於要求穩定的朋友們，建議您等到正式版釋出再進行昇級)若已安裝 RC1 可利用 說明 檢查更新 進行線上更新，只要下載 400k左右的資料即可完成！</li>
 	<li><div class="date"> 11 月 11 </div>
 		Mozilla Firefox 1.5 RC2 英文版已釋出，包括中文版在內的其它語言版預計於下週二發行。 迫不及待的朋友們可先至 <a href='/beta/'>Mozilla Taiwan Beta 測試區</a> 下載 RC2 的中文測試版。</li>
-	<li><div class="date"> 11 月 02 日</div>
+	<li><div class="date"> 11 月 02 </div>
 		<a href='http://www.mozilla.org/projects/firefox/'>Mozilla Firefox 1.5 RC1</a>(候選版本，<b style='color:red;'>非最終正式版</b>
 		) 已正式釋出，中文版同步釋出，歡迎加入測試的行列！(對於要求穩定的朋友們，建議您等到正式版釋出再進行昇級)</li>
-	<li><div class="date"> 10 月 26 日</div>
+	<li><div class="date"> 10 月 26 </div>
 		活動消息: Mozilla Taiwan 社群成員 softcup/Kourge 將於 11/10~11/12<a href='http://2005.icos.org.tw/'>開放源碼研討會 (ICOS 2005)</a>中演講，
 		主題包括<em style='color: blue;'>「Firefox Extension 製作經驗與教學 -TabMix」、「Gecko - 下一代的網路平台」、「Nvu - 優質網頁就在彈指之間」</em>等，歡迎參加。</li>
-	<li><div class="date"> 9 月 22 日</div>
+	<li><div class="date"> 9 月 22 </div>
 		Firefox 1.0.7 與 Mozilla 1.7.12 中英文版釋出(主要是修正<a href='/press/moztw-20050909.html'>IDN 安全漏洞</a>)，建議各版使用者進行更新。</li>
-	<li><div class="date"> 9 月 12 日</div>
+	<li><div class="date"> 9 月 12 </div>
 		想先試試未來的 Firefox 1.5 嗎？<a href='/beta/'>Mozilla Firefox 1.5 beta1 (測試版) 與Thunderbird 1.5 beta1 (測試版)</a>中文測試版釋出；但請注意這是測試版，暫不建議新手馬上更新。</li>
-	<li style='color: red;'><div class="date"> 9 月 11 日</div>
+	<li style='color: red;'><div class="date"> 9 月 11 </div>
 		安全性更新:<a href='/press/moztw-20050909.html'>國際網域名稱緩衝區溢位漏洞 (IDN Buffer Overflow) [中文]</a>，惡意網站可能在使用者按下刻意設計過的超長鏈結時得以在該使用者的電腦上執行任意程式。建議昇級到 Firefox 1.0.7/Mozilla 1.7.12 或安裝此<a href='http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0.6/patches/307259.xpi'>安全修正</a>(包括 Mozilla 1.7.11, Firefox 1.0.6 及 1.5b1 的所有版本)。</li>
-	<li><div class="date"> 9 月 09 日</div>
+	<li><div class="date"> 9 月 09 </div>
 		Mozilla Firefox 1.5b1 英文版已釋出，但是否要釋出其它語系的版本仍待 Mozilla 官方的決定。(註: 包括中文的其它許多語系其實都已準備完成，只待 Mozilla Foundation 官方點頭即可)另，由於 1.5b1 (beta 1) 是測試版，暫不建議新手馬上更新。</li>
-	<li><div class="date"> 8 月 03 日</div>
+	<li><div class="date"> 8 月 03 </div>
 		<a href='/mozilla/'>Mozilla Suite 1.7.11 中文版</a>全系列(Win,Linux,Mac)開放下載,同時提供跨平台的<a href='/dl/langpack/'>語言套件</a>供已安裝英文版的朋友們直接安裝中文語系。</li>
-	<li><div class="date"> 7 月 27 日</div>
+	<li><div class="date"> 7 月 27 </div>
 		Mozilla.org 近日即將推出 Mozilla 1.7.11,(1.7.10 的郵件系統有點問題)</li>
-	<li><div class="date"> 7 月 23 日</div>
+	<li><div class="date"> 7 月 23 </div>
 		<a href='/mozilla/'>Mozilla 1.7.10 中文版</a>全系列(Win,Linux,Mac)開放下載,同時提供跨平台的<a href='/dl/langpack/'>語言套件</a>供已安裝英文版的朋友們直接安裝中文語系。</li>
 	<li><div class="date"> 7 月 20 </div>
 		Mozilla 推出 Firefox 1.0.6 安全更新版、中文版同步釋出，請由首頁下載更新。<br/> Thunderbird 1.0.6 中文版也已釋出。</li>
-	<li><div class="date"> 7 月 17 日 </div>
+	<li><div class="date"> 7 月 17 </div>
 		Firefox 1.0.5 與 Thunderbird 1.0.5 英文版雖然已經發行，但由於有重大瑕疵，官方已決定暫不發行其它各國各國語言的版本、將在近日直接昇級 1.0.6 版。</li>
 	<li><div class="date"> 6 月 29 </div>
 		<a href="/nvu/">NVU 1.0 正體中文版</a>全系列與官方同步發行！</li>
-	<li><div class="date"> 6 月 24 日 </div>
+	<li><div class="date"> 6 月 24 </div>
 		NVU 1.0 即將推出， Mozilla Taiwan 預計將於下週二與NVU 官方同步發行 NVU 1.0 中文版，敬請期待。</li>
-	<li><div class="date"> 6 月 18 日 </div>
+	<li><div class="date"> 6 月 18 </div>
 		Mozilla Taiwan 即將開始一連串的更新，首先是主機即將更換、配合軟體架構調整，以提供更好更穩定的服務，所以在 6/19~6/21之間，包括討論區、wiki、主網站都可能不定期關閉，請多包涵。</li>
-	<li><div class="date"> 5 月 13 日 </div>
+	<li><div class="date"> 5 月 13 </div>
 		Mozilla 推出 Firefox 1.0.4 安全更新版，請由首頁下載更新。</li>
-	<li><div class="date"> 4 月 19 日 </div>
+	<li><div class="date"> 4 月 19 </div>
 		Mozilla 推出 Firefox 1.0.3 安全更新版，請由首頁下載更新。</li>
-	<li><div class="date"> 3 月 24 日 </div>
+	<li><div class="date"> 3 月 24 </div>
 		Mozilla 推出 <a href='/press/moztw-20050324.html'>Firefox 1.0.2 安全更新版</a>，請下載更新。</li>
-	<li><div class="date"> 1 月 30 日 </div>
+	<li><div class="date"> 1 月 30 </div>
 		擴充套件 Top 15 <a href='/firefox/extension_top_15/'>名單出爐！</a></li>
-	<li><div class="date"> 1 月 30 日 </div>
+	<li><div class="date"> 1 月 30 </div>
 		寄張 <a href='http://photos.moztw.org/thumbnails.php?album=7'>Firefox 新年賀卡</a> 給你的親朋好友吧！</li>
-	<li><div class="date"> 1 月 16 日 </div>
+	<li><div class="date"> 1 月 16 </div>
 		擴充套件 Top 15 <a href='http://forum.moztw.org/viewtopic.php?p=27414'>開始投票！</a></li>
 
 	<h3>2004</h3>
 
-	<li><div class="date"> 12 月 27 日 </div>
+	<li><div class="date"> 12 月 27 </div>
 		Firefox 新年賀卡 <a href='http://forum.moztw.org/viewtopic.php?p=23952#23952'>招募中！</a></li>
-	<li><div class="date"> 12 月 11 日 </div>
+	<li><div class="date"> 12 月 11 </div>
 		<a href='/dls/tb/thunderbird-1.0.zh-TW.win32.installer.exe'>Thunderbird 1.0 (win32)</a>中文版開放下載測試中！</li>
-	<li><div class="date"> 11 月 21 日 </div>
+	<li><div class="date"> 11 月 21 </div>
 		漫長等待終於結束，為您介紹 － <a href='/firefox/'> Firefox 1.0 中文版</a>！</li>
-	<li><div class="date"> 11 月 6 日 </div>
+	<li><div class="date"> 11 月 6 </div>
 		<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0rc2/"> Firefox 1.0RC2</a>官方中文版已出爐：<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0rc2/win32/zh-TW/">Windows </a>,<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0rc2/mac/zh-TW/">Mac OS X</a>,<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0rc2/linux-i686/zh-TW/">Linux</a>,<span style='color: red;'>僅供 1.0 正式版發行前測試，一般使用者並不須要下載這個版本</span>。</li>
-	<li><div class="date"> 10 月 16 日 </div>
+	<li><div class="date"> 10 月 16 </div>
 		開放下載 Firefox 1.0-RC1 中文搶鮮版 (Edit: 已停止下載)</a></li>
-	<li><div class="date"> 10 月 14 日 </div>
+	<li><div class="date"> 10 月 14 </div>
 		開放下載 <a href='/nvu/'> NVU 0.50 中文版(win32,Linux,及跨平台語言資源檔)</a></li>
-	<li><div class="date"> 10 月 10 日 </div>
+	<li><div class="date"> 10 月 10 </div>
 		開放下載 <a href='/dls/ns/netscape-7.2-zhTW-macosx.dmg.bz2'> Netscape 7.2 Mac OS X 中文版</a>與 Win32 完整安裝檔</li>
-	<li><div class="date"> 10 月 2 日 </div>
+	<li><div class="date"> 10 月 2 </div>
 		開放下載測試 <a href='/dls/nvu/nvu-0.41-win32-zhTW-installer.exe'> NVU 0.41 中文安裝檔(win32)</a></li>
-	<li style='color: red;'><div class="date"> 10 月 2 日 </div>
+	<li style='color: red;'><div class="date"> 10 月 2 </div>
 		<a href='http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.10.1/patches/259708.xpi'>安全性更新！</a>請 Firefox 1.0PR 使用者盡速安裝。你可以利用前面的鏈結或是從你的 Firefox 的「工具」「選項」「進階」「軟體更新」「馬上檢查」安裝。<br/>此更新修正<a href='http://www.mozilla.org/press/mozilla-2004-10-01-02.html'>「惡意的網頁可能誘導使用者試圖儲存檔案但實際上會刪除下載目錄中的檔案」</a></li>
-	<li><div class="date"> 10 月 1 日 </div>
+	<li><div class="date"> 10 月 1 </div>
 		提供 <a href='/mozilla'> Mozilla 1,8a4 中文安裝檔(win32, Linux)</a>與 <a href='/dl/langpack'>語言套件</a></li>
-	<li><div class="date"> 9 月 29 日 </div>
+	<li><div class="date"> 9 月 29 </div>
 		正式把 <a href='/netscape'> Netscape</a>列入主要下載頁</li>
-	<li><div class="date"> 9 月 28 日 </div>
+	<li><div class="date"> 9 月 28 </div>
 		提供 FF1.0PR 與 TB0.8 Linux 版的<a href='/dl'>下載</a></li>
-	<li><div class="date"> 9 月 28 日 </div>
+	<li><div class="date"> 9 月 28 </div>
 		開放測試 Netscape 7.2 win32 中文版，目前因測試關係只提供線上安裝檔：<a href='/tmp/ns72setup.exe'> Windows </a> 與<a href='/tmp/ns72linux-moztw.tar.bz2'> Linux </a></li>
-	<li><div class="date"> 9 月 27 日 </div>
+	<li><div class="date"> 9 月 27 </div>
 		開始提供 Firefox 1.0PR 與 Thunderbird 0.8 中文版的<a href='/dl'>下載</a></li>
-	<li><div class="date"> 9 月 23 日 </div>
+	<li><div class="date"> 9 月 23 </div>
 		Firefox 1.0PR 中文版預計在下星期前可推出測試版</li>
-	<li><div class="date"> 9 月 14 日 </div>
+	<li><div class="date"> 9 月 14 </div>
 		Firefox 1.0PR 與 Thunderbird 0.8 已發佈，但因為有非常大的改變，中文化仍在製作中。 事實上，其它語言的版本也都還無法發佈，請耐心等待。</li>
-	<li><div class="date"> 9 月 10 日 </div>
+	<li><div class="date"> 9 月 10 </div>
 		下載區的搜尋引擎自動安裝之前會出問題，現在已修正。</li>
-	<li><div class="date"> 9 月 6 日 </div>
+	<li><div class="date"> 9 月 6 </div>
 		網頁大改版，改用 moztw.org 的獨立網域名稱，且所有資源的 URL 網址大風吹。是的，這樣會造成使用舊鏈結的人抓不到檔案，但新的架構與網址結構比較適合未來的成長，所以決定還是要換掉。</li>
-	<li><div class="date"> 9 月 6 日 </div>
+	<li><div class="date"> 9 月 6 </div>
 		重建網站。</li>
-	<li><div class="date"> 9 月 5 日 </div>
+	<li><div class="date"> 9 月 5 </div>
 		復原無望，重來一次 :~~~~~~~~~~~~~~~~~~~~</li>
-	<li><div class="date"> 9 月 4 日 </div>
+	<li><div class="date"> 9 月 4 </div>
 		SVN 備份失敗，不小心把網站全刪了... :~~~</li>
-	<li><div class="date"> 9 月 3 日 </div>
+	<li><div class="date"> 9 月 3 </div>
 		<a href="//moztw.org">網站新樣式</a></li>
 </ul>
 <!--#include virtual="/inc/footer.html" -->
