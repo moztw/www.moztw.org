@@ -16,28 +16,32 @@
 <h3>2015</h3>
 
 <ul class="news">
+  <li><div class="date"> 5 月 21</div>
+    <a href="/thunderbird/releases/31.7.0/">Thunderbird 31.7.0</a> 更新</li>
   <li><div class="date"> 5 月 15</div>
     <a href="/firefox/releases/38.0.1/">Firefox 38.0.1</a> 更新</li>
   <li><div class="date"> 5 月 13</div>
     <a href="/firefox/releases/38.0/">Firefox 38.0</a> 更新</li>
-	<li><div class="date"> 4 月 22</div>
-		<a href="/firefox/releases/37.0.2/">Firefox 37.0.2</a> 更新</li>
-	<li><div class="date"> 4 月 4</div>
-		<a href="/firefox/releases/37.0.1/">Firefox 37.0.1</a> 更新</li>
-	<li><div class="date"> 4 月 1</div>
-		<a href="/firefox/releases/37.0/">Firefox 37.0</a> 更新</li>
-	<li><div class="date"> 3 月 22</div>
-			<a href="/firefox/releases/36.0.4/">Firefox 36.0.4</a> 更新</li>
-	<li><div class="date"> 3 月 21</div>
-		Firefox 36.0.3 更新</li>
-	<li><div class="date"> 3 月 6</div>
-		<a href="/firefox/releases/36.0.1/">Firefox 36.0.1</a> 更新</li>
-	<li><div class="date"> 2 月 25</div>
-		<a href="/firefox/releases/36.0/">Firefox 36.0</a>、<a href="/thunderbird/releases/31.5.0/">Thunderbird 31.5.0 更新</a></li>
-	<li><div class="date"> 1 月 27</div>
-		<a href="/firefox/releases/35.0.1/">Firefox 35.0.1</a> 更新</li>
-	<li><div class="date"> 1 月 13</div>
-		<a href="/firefox/releases/35.0/">Firefox 35.0</a>、<a href="/thunderbird/releases/31.4.0/">Thunderbird 31.4.0</a> 更新</li>
+  <li><div class="date"> 4 月 22</div>
+    <a href="/firefox/releases/37.0.2/">Firefox 37.0.2</a> 更新</li>
+  <li><div class="date"> 4 月 4</div>
+    <a href="/firefox/releases/37.0.1/">Firefox 37.0.1</a> 更新</li>
+  <li><div class="date"> 4 月 2</div>
+    <a href="/thunderbird/releases/31.6.0/">Thunderbird 31.6.0</a> 更新</li>
+  <li><div class="date"> 4 月 1</div>
+    <a href="/firefox/releases/37.0/">Firefox 37.0</a> 更新</li>
+  <li><div class="date"> 3 月 22</div>
+    <a href="/firefox/releases/36.0.4/">Firefox 36.0.4</a> 更新</li>
+  <li><div class="date"> 3 月 21</div>
+    <a href="/firefox/releases/36.0.3/">Firefox 36.0.3</a> 更新</li>
+  <li><div class="date"> 3 月 6</div>
+    <a href="/firefox/releases/36.0.1/">Firefox 36.0.1</a> 更新</li>
+  <li><div class="date"> 2 月 25</div>
+    <a href="/firefox/releases/36.0/">Firefox 36.0</a>、<a href="/thunderbird/releases/31.5.0/">Thunderbird 31.5.0 更新</a></li>
+  <li><div class="date"> 1 月 27</div>
+    <a href="/firefox/releases/35.0.1/">Firefox 35.0.1</a> 更新</li>
+  <li><div class="date"> 1 月 13</div>
+    <a href="/firefox/releases/35.0/">Firefox 35.0</a>、<a href="/thunderbird/releases/31.4.0/">Thunderbird 31.4.0</a> 更新</li>
 </ul>
 
 <h3>2014</h3>
