@@ -85,7 +85,7 @@
                           <p class="l10n" data-l10n="foxmosa-sticker-content">小莎也有 LINE 和 Telegram 的貼圖唷！快找朋友來和小莎一起玩吧！</p>
                         </header>
                         <ul>
-                          <li class="telegram"><a data-l10n="foxmosa-sticker-link1" class="button l10n" href="FoxmosaStickers.zip">下載 Telegram 貼圖</a>
+                          <li class="telegram"><a data-l10n="foxmosa-sticker-link1" class="button l10n" href="https://telegram.me/addstickers/Foxmosa" onclick="ga('send', 'event', 'Outgoing', 'TelegramStore-Foxmosa', 'foxmosa');">安裝 Telegram 貼圖</a>
                           <li class="line"><a data-l10n="foxmosa-sticker-link2" class="button l10n" href="https://store.line.me/stickershop/product/1005599/" onclick="ga('send', 'event', 'Outgoing', 'LineStore-Foxmosa', 'foxmosa');">前往 Line Store</a>
                         </ul>
                       </div>
