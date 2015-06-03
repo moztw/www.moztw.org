@@ -32,7 +32,7 @@
             <span>使用 Pocket 追蹤文章和影片。</span>
           </li>
           <li><span class="tag tag-new">全新功能</span>
-            <span>在「閱讀模式」以乾淨的格式閱讀文章和部落格。</span>
+            <span>在「閱讀模式」以乾淨格式閱讀文章和部落格。</span>
           </li>
           <li><span class="tag tag-new">全新功能</span>
             <span>在 Hello 對話中分享正在瀏覽的分頁或視窗。</span>
@@ -43,7 +43,7 @@
             <span>切換分頁時，因 race condition 而停止繪圖的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1067470">bug 1067470</a>）。</span>
           </li>
           <li><span class="tag tag-fixed">修正</span>
-            <span>使用 Windows 7 內建 VDA 驅動程式時的顯示效能問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1165732">bug 1165732</a>）。</span>
+            <span>使用 Windows 7 內建 VGA 驅動程式時的顯示效能問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1165732">bug 1165732</a>）。</span>
           </li>
 					<li class="complete">
 						請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2038&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox38&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla38&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
