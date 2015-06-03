@@ -1,1 +1,1 @@
-https://download.mozilla.org/?product=firefox-38.0.1&amp;lang=zh-TW
+https://download.mozilla.org/?product=firefox-38.0.5&amp;lang=zh-TW
