@@ -1,0 +1,106 @@
+<!--#include virtual="/inc/meta.html" -->
+
+<title>103 學年度第二學期服務學習成果總覽 - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="103 學年度第二學期，MozTW 持續偕同 OSSACC 教育部校園自由軟體中心，共同執行服務學習專案。經交通大學資訊工程學系 林正中教授指導，共有九位學生貢獻個人時間，協助(翻譯網路開發文件、技術支援文件、Webmaker 教案、Mozilla Links 新聞與 Firefox OS 除錯等工作)(連結到下面錨點)，在此彙整所有同學的成果，感謝大家的貢獻。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="//moztw.org/events/service2014-2/">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="103 學年度第二學期，MozTW 持續偕同 OSSACC 教育部校園自由軟體中心，共同執行服務學習專案。經交通大學資訊工程學系 林正中教授指導，共有九位學生貢獻個人時間，協助(翻譯網路開發文件、技術支援文件、Webmaker 教案、Mozilla Links 新聞與 Firefox OS 除錯等工作)(連結到下面錨點)，在此彙整所有同學的成果，感謝大家的貢獻。">
+<link href="style.css" rel="stylesheet" />
+
+<!--#include virtual="/inc/class_homepage.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+  <h1>101 學年度第二學期服務學習成果總覽</h1>
+
+  <div id="main" class="container">
+
+    <section id="introduction">
+      <h2>簡介</h2>
+      <p>103 學年度第二學期，MozTW 持續偕同 OSSACC 教育部校園自由軟體中心，共同執行服務學習專案。<br>
+        經交通大學資訊工程學系 林正中教授指導，共有九位學生貢獻個人時間，協助(翻譯網路開發文件、技術支援文件、Webmaker 教案、Mozilla Links 新聞與 Firefox OS 除錯等工作)(連結到下面錨點)，在此彙整所有同學的成果，感謝大家的貢獻。</p>
+      <p>歡迎各大專院校老師一同推廣，以貢獻自由軟體作為服務學習課程內容，詳情請聯繫 <a href="//ossacc.moe.edu.tw/modules/tinyd0/index.php?id=1" target="_blank">OSSACC</a>。</p>
+    </section>
+
+    <section id="webmaker">
+      <h2>Webmaker</h2>
+      <ul>
+        <li><a href="https://sting.makes.org/thimble/MTA2NDMwOTc2/learning-html-tags-through-the-train-game" target="_blank">藉由「火車遊戲」來學習 HTML 標籤</a><span class="appendix">Zun-Yu Yang</span></li>
+        <li><a href="https://tcfsh22215.makes.org/thimble/LTQzMTY4NTEyMA==/web-mechanics-speed-dating" target="_blank">網路技術快速約會</a><span class="appendix">Jeff Chang</span></li>
+        <li><a href="https://kiwi010379.makes.org/thimble/ODA5NTAxMTg0/ways-of-the-web-%E6%95%99%E6%9D%90%E5%8C%85" target="_blank">網頁製作方法 (Ways of the Web)</a><span class="appendix">蕭棋薇</span></li>
+        <li><a href="https://kiwi010379.makes.org/thimble/MTMzMTEwMjIwOA==/html-cheatsheet" target="_blank">HTML 速查表</a><span class="appendix">蕭棋薇</span></li>
+        <li><a href="https://ycwu.makes.org/thimble/LTE3MDY3NTM1MzY=/popcorn-maker-in-3-easy-steps" target="_blank">Popcorn Maker簡單的三個步驟</a><span class="appendix">Yu-Chen Wu</span></li>
+        <li><a href="https://ycwu.makes.org/thimble/LTQ0NzQxMzc2MA==/hacking-my-media-with-x-ray-goggles" target="_blank">Hacking My Media with X-Ray Goggles</a><span class="appendix">Yu-Chen Wu</span></li>
+        <li><a href="https://chenxy.makes.org/thimble/MTk1MDA4OTcyOA==/seo-battle" target="_blank">搜尋引擎優化戰役</a><span class="appendix">陳欣妤</span></li>
+      </ul>
+    </section>
+
+    <section id="mdn">
+      <h2>Mozilla 開發者社群技術文件</h2>
+      <p>Zun-Yu Yang、Jeff Chang</p>
+      <ul>
+          <li><a href="//developer.mozilla.org/zh-TW/docs/Web/HTML" target="_blank">HTML</a></li>
+          <li><a href="//developer.mozilla.org/zh-TW/docs/Web/HTML/Introduction" target="_blank">HTML 簡介</a></li>
+      </ul>
+    </section>
+
+    <section id="links">
+      <h2>Mozilla Links</h2>
+      <p>Nini Hsu、楊椀婷</p>
+      <ul>
+          <li><a href="//mozlinks.moztw.org/2015/05/web.html" target="_blank">前進吧，摩茲巴士！Web 工廠的遊牧之旅</a></li>
+          <li><a href="//mozlinks.moztw.org/2015/06/firefox-user-types.html" target="_blank">Firefox 使用者類型研究（北美洲）</a></li>
+          <li><a href="//docs.google.com/document/d/16OS4RA6pbgY3V_MMh00GDV8-9-Vfoq1B_4ENTBvQO_4/edit" target="_blank">You did it! (maker party)</a></li>
+          <li><a href="//docs.google.com/document/d/1JDcL26E46PgA8IUstxZJM93R656Jt4bNwPNt0sfEonw/edit" target="_blank">Awesome l10n contributor: Biraj Karmakar</a></li>
+          <li><a href="//docs.google.com/document/d/1ZVxw-LwgOYPkZt64j_aNqXHywwfu04szlE9j1xu8pJ8/edit" target="_blank">NeMo - HTML5: The way to go!</a></li>
+          <li><a href="//docs.google.com/document/d/1eZvTjrH84HRKEkHLloT9TvA1I9P1Sq1-OXUQqBVeV70/edit" target="_blank">Webmaker App Takes Fresh Approach to Digital Literacy</a></li>
+      </ul>
+
+      <p>Yu-wen Pwu</p>
+      <ul>
+        <li><a href="//mozlinks.moztw.org/2015/06/firefox-os-bug.html" target="_blank">摩茲動手做（四）幫 Firefox OS 修 Bug 的第一步</a></li>
+      </ul>
+    </section>
+
+    <section id="sumo">
+      <h2>Firefox 技術支援文件</h2>
+      <p>Yao-Te Tsai</p>
+      <ul>
+        <li><a href="//support.mozilla.org/zh-TW/kb/how-does-phishing-and-malware-protection-work" target="_blank">Firefox 內建的網路釣魚和惡意軟體防護如何運作？</a></li>
+        <li><a href="//support.mozilla.org/zh-TW/kb/configure-windows-firewall-allow-firefox-access" target="_blank">設定 Windows 防火牆允許 Firefox 存取網際網路</a></li>
+        <li><a href="//support.mozilla.org/zh-TW/kb/how-run-firefox-when-profile-missing-inaccessible" target="_blank">當你的檔案遺失或找不到時，要如何運行 Firefox</a></li>
+      </ul>
+    </section>
+
+    <section id="L10N">
+      <h2>L10N</h2>
+      <p>蕭棋薇、Yu-Chen Wu、陳欣妤</p>
+      <ul>
+        <li><a href="//docs.google.com/spreadsheets/d/1RdAIr_GxtKsLspEAS_6tctpMthdKdlmLYX7ZvnUDTFU/edit#gid=0" target="_blank">Webmaker</a></li>
+      </ul>
+    </section>
+
+    <section id="bugs">
+      <h2>錯誤回報/修正</h2>
+      <p>Yu-wen Pwu</p>
+      <ul>
+        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1141971" target="_blank">[Privacy Controls] fix remaining words</a></li>
+        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1161750" target="_blank">[Settings][Date&Time] Toggling Automatic and Manual setting pushes/indents 'Region' and 'City' text up</a></li>
+        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1170463" target="_blank">[Settings] fix remain jsdoc error</a></li>
+        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1159733" target="_blank">JSHint Fixes for shared/js/fb/fb_data_reader.js</a></li>
+        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1159796" target="_blank">JSHint Fixes for shared/js/fb/fb_reader_utils.js</a></li>
+        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1159797" target="_blank">JSHint Fixes for shared/js/fb/fb_request.js</a></li>
+      </ul>
+    </section>
+
+    <section id="sponsership">
+      <h2>合作單位</h2>
+      <a title="OSSACC 教育部校園自由軟體數位資源推廣服務中心" href="//ossacc.moe.edu.tw/" target="_blank">
+          <img src="logo.gif" alt="">
+          <img src="logo2.gif" alt="">
+      </a>
+    </section>
+
+  </div>
+
+<!--#include virtual="/inc/footer.html" -->
