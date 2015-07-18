@@ -1,0 +1,30 @@
+<!--#include virtual="/sandstone/meta.shtml" -->
+<title>Mozilla Firefox v<!--#echo var="version" --> 版本資訊</title>
+
+<link href="/sandstone/css/releasenotes.css" rel="stylesheet" />
+<link href="/thunderbird/css/features.css" rel="stylesheet" />
+<!--#include virtual="/sandstone/iefix.shtml" -->
+<!--#include virtual="/inc/class.html" -->
+<!--#include virtual="/sandstone/header.shtml" -->
+
+<section class="container block firefox" id="releasenotes">
+	<article class="module">
+		<div class="intro">
+			<h2>Firefox 版本資訊</h2>
+			<p id="release-date">
+				<time datetime='<!--#echo var="release_year" -->-<!--#echo var="release_month" -->-<!--#echo var="release_date" -->'>
+					<!--#echo var="release_year" --> 年
+					<!--#echo var="release_month" --> 月
+					<!--#echo var="release_date" --> 日
+				</time>
+				v<!--#echo var="version" -->
+			</p>
+			<p>此版本資訊包含了 <a href="#whatsnew">Firefox 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
+			<p>我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的<a href="http://forums.mozillazine.org/viewforum.php?f=49">英文討論區</a>或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
+		</div>
+		<div class="download firefox">
+			<!--#include virtual="/inc/dlff-new.html" -->
+		</div>
+	</article>
+	<div class="grids">
+		<div class="grid-9">
