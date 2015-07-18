@@ -84,12 +84,12 @@
       <h2>錯誤回報/修正</h2>
       <p>Yu-wen Pwu</p>
       <ul>
-        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1141971" target="_blank">[Privacy Controls] fix remaining words</a></li>
-        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1161750" target="_blank">[Settings][Date&Time] Toggling Automatic and Manual setting pushes/indents 'Region' and 'City' text up</a></li>
-        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1170463" target="_blank">[Settings] fix remain jsdoc error</a></li>
-        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1159733" target="_blank">JSHint Fixes for shared/js/fb/fb_data_reader.js</a></li>
-        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1159796" target="_blank">JSHint Fixes for shared/js/fb/fb_reader_utils.js</a></li>
-        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1159797" target="_blank">JSHint Fixes for shared/js/fb/fb_request.js</a></li>
+        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1141971" target="_blank">Bug 1141971 - [Privacy Controls] fix remaining words</a></li>
+        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1161750" target="_blank">Bug 1161750 - [Settings][Date&Time] Toggling Automatic and Manual setting pushes/indents 'Region' and 'City' text up</a></li>
+        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1170463" target="_blank">Bug 1170463 - [Settings] fix remain jsdoc error</a></li>
+        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1159733" target="_blank">Bug 1159733 - JSHint Fixes for shared/js/fb/fb_data_reader.js</a></li>
+        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1159796" target="_blank">Bug 1159796 - JSHint Fixes for shared/js/fb/fb_reader_utils.js</a></li>
+        <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1159797" target="_blank">Bug 1159797 - JSHint Fixes for shared/js/fb/fb_request.js</a></li>
       </ul>
     </section>
 
