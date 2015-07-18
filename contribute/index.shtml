@@ -139,9 +139,7 @@ span.unisubs-widget video {
 	font-weight: normal;
 }
 </style>
-<link media="all" type="text/css" href="css/ui-lightness/jquery-ui-1.7.3.custom.css" rel="stylesheet">
-<script type="text/javascript" src="js/jquery-1.3.2.min.js" ></script>
-<script type="text/javascript" src="js/jquery-ui-1.7.3.custom.min.js"></script>
+<link media="all" type="text/css" href="../css/ui-lightness/jquery-ui-1.7.3.custom.css" rel="stylesheet">
 
 <noscript>
 <style type="text/css">
@@ -154,13 +152,6 @@ h3.toggle, span.toggle {
 }
 </style>
 </noscript>
-
-<script type="text/javascript">
-$(function() {
-  $("#tabs").tabs({ selected: 0 });	//設定預設分頁
-});
-</script>
-
 <!--#include virtual="/inc/class_contribute.html" -->
 <!--#include virtual="/inc/header.html" -->
 
@@ -211,7 +202,7 @@ $(function() {
 -->
 
 	<div id="tabs-2">
-		<p style="text-align: right; margin-top: 0;">誠摯邀請您貢獻自己的時間與心力，自由協助推行下列工作。<br>　　——請不用擔心自己的能力不夠，我們歡迎您邊做邊學！</p>
+		<p style="text-align: right; margin-top: 0;">誠摯邀請您貢獻自己的時間與心力，自由協助推行下列工作。<br/>　　——請不用擔心自己的能力不夠，我們歡迎您邊做邊學！</p>
 		<div class="content_block clearfix">
 			<img src="/foxmosa/images/30series/30foxmosa-12.png" class="intro_icon" alt="幫助新手">
 			<div class="intro_desc">
@@ -385,6 +376,14 @@ $(function() {
 		<p id="mailing-list-loading"></p>
 	</div>
 </div>
+<!--#include virtual="/inc/footer.html" -->
+<script type="text/javascript" src="../js/jquery-1.3.2.min.js" ></script>
+<script type="text/javascript" src="../js/jquery-ui-1.7.3.custom.min.js"></script>
+<script type="text/javascript">
+$(function() {
+  $("#tabs").tabs({ selected: 0 });	//設定預設分頁
+});
+</script>
 <script type="text/javascript">
 /*
  * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
@@ -401,15 +400,30 @@ $(function() {
  *   http://me.boo.uz
  *
  */
-(function($){$.extend({jGFeed:function(url,fnk,num,key){if(url==null){return false;}var gurl="https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;if(num!=null){gurl+="&num="+num;}if(key!=null){gurl+="&key="+key;}$.getJSON(gurl,function(data){if(typeof fnk=="function"){ if (data.responseData)fnk.call(this,data.responseData.feed);else fnk.call(this,false);}else{return false;}});}});})(jQuery);
+(function($){
+	$.extend({
+		jGFeed:function(url,fnk,num,key){
+			if(url==null){return false;}
+			var gurl="https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;
+			if(num!=null){gurl+="&num="+num;}
+			if(key!=null){gurl+="&key="+key;}
+			$.getJSON(gurl,function(data){
+				if(typeof(fnk)=="function"){
+					fnk.call(this, data.responseData ? data.responseData.feed : false);
+				}else{
+					return false;
+				}
+			});
+		}
+	});
+})(jQuery);
 </script>
 <script type="text/javascript">
 function updateFeed() {
 	$.jGFeed(
 		'https://groups.google.com/forum/feed/moztw-general/topics/atom_v1_0.xml', //?' + parseInt((new Date()).getTime()/30*60*1000), // Don't use this hack coz we need scoring=h
 		function (feed) {
-			if (!feed) {
-				//Failed
+			if (!feed) {//Failed
 				$('.mailing-list').hide();
 				return;
 			}
@@ -419,9 +433,7 @@ function updateFeed() {
 				feed.entries,
 				function () {
 					var cleantitle = this.title.replace(/(Re|回覆)(:|：) ?/g, '').replace(/\[(moztw-general|MozTW-Dev)\] ?/g, '');
-					if (!thread[cleantitle]) {
-						thread[cleantitle] = [];
-					}
+					if (!thread[cleantitle]) {thread[cleantitle] = [];}
 					if (thread[cleantitle].length >= 3) {
 						if (!thread[cleantitle].mlength) thread[cleantitle].mlength = 0;
 						thread[cleantitle].mlength++;
@@ -443,17 +455,13 @@ function updateFeed() {
 			$.each(
 				thread,
 				function (key) {
-					if(counter==10){
-						return;
-					}
+					if(counter==10){return;}
 					var $li = $('<div class="mail_block" />').append($('<div class="title">' + key+'</div>'));
 					var str = "";
 					$.each(
 						this,
 						function (i) {
-							if(i==0){
-								$li.prepend('<p class="date">'+this.date+'</p>');
-							}
+							if(i==0){$li.prepend('<p class="date">'+this.date+'</p>');}
 							str += (this.author+', '); //temporary saved in str
 						}
 					);
@@ -480,15 +488,11 @@ $(function(){
 		updateFeed,
 		60*60*1000 // 1hr "The Google feed crawler ("Feedfetcher") retrieves feeds from most sites less than once every hour."
 	);
-	$('h3.toggle, span.toggle')
-	.prepend($('<span class="indicator" />').text('+'))
-	.bind('click', function () {
+	$('h3.toggle, span.toggle').prepend($('<span class="indicator" />').text('+')).bind('click', function () {
 		$(this).nextAll('div.toggle:first, ol.toggle:first').slideToggle(250);
 		$i = $(this).children('.indicator');
-		if ($i.text() === '+') $i.text('-');
-		else $i.text('+');
+		$i.text(($i.text() === '+') ? '-' : '+');
 	});
 });
 </script>
-
-<!--#include virtual="/inc/footer.html" -->
+<!--#include virtual="/inc/end.html" -->
