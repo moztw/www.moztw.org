@@ -290,7 +290,8 @@
   </div>
 </div>
   </div>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<!--#include virtual="/inc/footer.html" -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript">
 /*
  * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
@@ -307,31 +308,32 @@
  *   http://me.boo.uz
  *
  */
-(function($){$.extend({jGFeed:function(url,fnk,num,key){if(url==null){return
-false;}var
-gurl="https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;if(num!=null){gurl+="&num="+num;}if(key!=null){gurl+="&key="+key;}$.getJSON(gurl,function(data){if(typeof
-fnk=="function"){ if
-(data.responseData)fnk.call(this,data.responseData.feed);else
-fnk.call(this,false);}else{return false;}});}});})(jQuery);
-</script>
-<script type="text/javascript">
-(function ($) {
+(function($){
+	$.extend({
+		jGFeed:function(url,fnk,num,key){
+			if(url==null){return false;}
+			var gurl="https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;
+			if(num!=null){gurl+="&num="+num;}
+			if(key!=null){gurl+="&key="+key;}
+			$.getJSON(gurl,function(data){
+				if(typeof(fnk)=="function"){
+					fnk.call(this, data.responseData ? data.responseData.feed : false);
+				}else{
+					return false;
+				}
+			});
+		}
+	});
 	$.jGFeed(
 		'http://planet.moztw.org/atom.xml',
 		function (feed) {
 			$(function () {
-
-$('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').after(
-	'<div id="planets" class="frontcolumn"><a href="http://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"></a><h2><a href="http://planet.moztw.org/">摩茲星球</a></h2><ul /></div>'
-				);
+				$('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').after('<div id="planets" class="frontcolumn"><a href="http://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"/></a><h2><a href="http://planet.moztw.org/">摩茲星球</a></h2><ul /></div>');
 				$ul = $('#planets ul');
 				$.each(
 					feed.entries,
 					function (i, o) {
-						$ul.append(
-							'<li><a href="'
-+ o.link + '">' + o.title.substr(o.title.indexOf(':') + 2)  + '</a> &ndash; ' + o.title.substr(0, o.title.indexOf(':')) + '</li>'
-						);
+						$ul.append('<li><a href="' + o.link + '">' + o.title.substr(o.title.indexOf(':') + 2)  + '</a> &ndash; ' + o.title.substr(0, o.title.indexOf(':')) + '</li>');
 					}
 				);
 			});
@@ -341,4 +343,4 @@ $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').afte
 })(jQuery);
 </script>
 
-<!--#include virtual="/inc/footer.html" -->
+<!--#include virtual="/inc/end.html" -->
