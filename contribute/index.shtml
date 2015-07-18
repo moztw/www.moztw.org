@@ -140,8 +140,6 @@ span.unisubs-widget video {
 }
 </style>
 <link media="all" type="text/css" href="css/ui-lightness/jquery-ui-1.7.3.custom.css" rel="stylesheet">
-<script type="text/javascript" src="js/jquery-1.3.2.min.js" ></script>
-<script type="text/javascript" src="js/jquery-ui-1.7.3.custom.min.js"></script>
 
 <noscript>
 <style type="text/css">
@@ -154,13 +152,6 @@ h3.toggle, span.toggle {
 }
 </style>
 </noscript>
-
-<script type="text/javascript">
-$(function() {
-  $("#tabs").tabs({ selected: 0 });	//設定預設分頁
-});
-</script>
-
 <!--#include virtual="/inc/class_contribute.html" -->
 <!--#include virtual="/inc/header.html" -->
 
@@ -211,9 +202,9 @@ $(function() {
 -->
 
 	<div id="tabs-2">
-		<p style="text-align: right; margin-top: 0;">誠摯邀請您貢獻自己的時間與心力，自由協助推行下列工作。<br>　　——請不用擔心自己的能力不夠，我們歡迎您邊做邊學！</p>
+		<p style="text-align: right; margin-top: 0;">誠摯邀請您貢獻自己的時間與心力，自由協助推行下列工作。<br/>　　——請不用擔心自己的能力不夠，我們歡迎您邊做邊學！</p>
 		<div class="content_block clearfix">
-			<img src="/foxmosa/images/30series/30foxmosa-12.png" class="intro_icon" alt="幫助新手">
+			<img src="/foxmosa/images/30series/30foxmosa-12.png" class="intro_icon" alt="幫助新手"/>
 			<div class="intro_desc">
 				<h2>幫助新手</h2>
 				<p>有興趣幫助其他使用者解決 Firefox 和其他 Mozilla 專案上的問題？我們的論壇以及使用者疑難排解，仰賴於像您一樣熱情的貢獻者。</p>
@@ -224,7 +215,7 @@ $(function() {
 			</div>
 		</div>
 		<div class="content_block clearfix">
-			<img src="/foxmosa/images/30series/30foxmosa-18.png" class="intro_icon" alt="推廣 Mozilla">
+			<img src="/foxmosa/images/30series/30foxmosa-18.png" class="intro_icon" alt="推廣 Mozilla"/>
 			<div class="intro_desc">
 				<h2>推廣 Mozilla</h2>
 				<p>幫我們推廣 Firefox 及其他 Mozilla 專案，讓你的朋友了解 Mozilla 精神。登錄 Mozillians 社群通訊錄即可獲得 Mozilla 社群第一手資訊；透過 Firefox 夥伴計畫在您的網站放上按鈕，簡單分享您對 Mozilla 產品的喜愛。</p>
@@ -233,21 +224,21 @@ $(function() {
 			</div>
 		</div>
 		<div class="content_block clearfix">
-			<img src="/foxmosa/images/30series/30foxmosa-02.png" class="intro_icon" alt="說明、文件與影片翻譯">
+			<img src="/foxmosa/images/30series/30foxmosa-02.png" class="intro_icon" alt="說明、文件與影片翻譯"/>
 			<div class="intro_desc">
 				<h2>說明、文件與影片翻譯</h2>
 				<p>翻譯與修訂 Mozilla 技術支援文件、Mozilla Links 正體中文版部落格、Mozilla 相關影片及 MDN 開發者社群技術文件，透過文件翻譯來協助使用者、傳播相關資訊、一同建立網頁開發文件庫。</p>
 				<a href="http://mozlinks-zh.blogspot.com/2012/02/mozilla-links.html"  onClick="ga('send', 'event', 'contribute', 'translate', 'MLinks-editor');"><span class="button">MLinks 編輯機動隊</span></a>
 				<a href="sumo/"><span class="button">參與 SUMO 專案</span></a>
 				<a href="https://support.mozilla.org/zh-TW/kb/localize-firefox-help" onClick="ga('send', 'event', 'contribute', 'translate', 'LocalizeFirefoxHelp');"><span class="button">說明文件翻譯</span></a>
-				<br style="clear: both;">
+				<br style="clear: both;"/>
 				<a href="https://groups.google.com/d/topic/moztw-general/92t-umaKqUw/discussion"  onClick="ga('send', 'event', 'contribute', 'translate', 'detail');"><span class="button detail">詳細資訊 》</span></a>
 				<a href="http://mozlinks-zh.blogspot.com/2012/08/iii-mdn.html" onClick="ga('send', 'event', 'contribute', 'translate', 'MLinks-mdn');"><span class="button">貢獻開發文件</span></a>
 				<a href="https://groups.google.com/group/moztw-subtitle" onClick="ga('send', 'event', 'contribute', 'translate', 'groups-subtitle');"><span class="button">MozTW 字幕組</span></a>
 			</div>
 		</div>
 		<div class="content_block clearfix">
-      <img src="/foxmosa/images/30series/30foxmosa-44.png" class="intro_icon" alt="行銷與推廣活動企劃執行">
+      <img src="/foxmosa/images/30series/30foxmosa-44.png" class="intro_icon" alt="行銷與推廣活動企劃執行"/>
 			<div class="intro_desc">
 				<h2>行銷與推廣活動企劃執行</h2>
 				<p>規劃 MozTW 的<a href="/events">實體與線上推廣活動</a>規劃及執行，協助我們以網路社群低成本、高歡樂的活動，來告訴大家 Mozilla 專案如何建造更好的網際網路。您可以協助規劃 <a href="/events/furp">Firefox Party</a>、<a href="/events/moztw-lab">MozTW Labs</a> 等聚會，或者協助 MozTW 的臉書與 Foxmosa 的線上社群經營。</p>
@@ -255,7 +246,7 @@ $(function() {
 			</div>
 		</div>
 		<!-- <div class="content_block clearfix">
-			<img src="/images/foxmosa-icon.gif" class="intro_icon" alt="軟體測試品保">
+			<img src="/images/foxmosa-icon.gif" class="intro_icon" alt="軟體測試品保"/>
 			<div class="intro_desc">
 				<h2>軟體測試品保</h2>
 				<p>透過擔任 QA 的工作，幫助我們獵捕躲藏在 Firefox 的臭蟲、測試 Mozilla 網頁或者是參與更多不同的產品測試，都是能夠對於我們的程式碼以及開發工具更加熟悉，並且融入 Mozilla 這個大團體。</p>
@@ -264,7 +255,7 @@ $(function() {
 			</div>
 		</div> -->
 		<!-- <div class="content_block clearfix">
-			<img src="/images/foxmosa-icon.gif" class="intro_icon" alt="執行使用者研究">
+			<img src="/images/foxmosa-icon.gif" class="intro_icon" alt="執行使用者研究"/>
 			<div class="intro_desc">
 				<h2>執行使用者研究</h2>
 				<p>成為使用者研究團隊的一員—您可以當個調查受試者，也可以自己進行可用性測試，或者分析 Test Pilot 上面的數據。我們需要您的加入！</p>
@@ -273,7 +264,7 @@ $(function() {
 			</div>
 		</div> -->
 		<div class="content_block clearfix">
-			<img src="/foxmosa/images/30series/30foxmosa-10.png" class="intro_icon" alt="軟體與網頁在地化">
+			<img src="/foxmosa/images/30series/30foxmosa-10.png" class="intro_icon" alt="軟體與網頁在地化"/>
 			<div class="intro_desc">
 				<h2>軟體與網頁在地化</h2>
 				<p>和 Mozilla 一起打造 Firefox、Tunderbird 和其他專案屬於你的語言。並且透過翻譯我們網站上的內容，協助我們告訴世界 Mozilla 正在打造更棒的網際網路。</p>
@@ -282,7 +273,7 @@ $(function() {
 			</div>
 		</div>
 		<div class="content_block clearfix">
-			<img src="/foxmosa/images/30series/30foxmosa-14.png" class="intro_icon" alt="美術設計">
+			<img src="/foxmosa/images/30series/30foxmosa-14.png" class="intro_icon" alt="美術設計"/>
 			<div class="intro_desc">
 				<h2>美術設計</h2>
 				<p>我們希望能協助畫家將作品帶入網路的世界，歡迎繪製漂亮圖片，協助我們妝點大家的螢幕與生活。需要視覺設計的專案包含 MozTW 網站、活動宣傳、貼紙及印刷文宣，以及為 MozTW 吉祥物<a href="/foxmosa">狐耳摩莎</a>繪製圖像；您也可以試著製作 Firefox 的佈景主題。</p>
@@ -292,7 +283,7 @@ $(function() {
 			</div>
 		</div>
 		<div class="content_block clearfix">
-			<img src="/foxmosa/images/30series/30foxmosa-36.png" class="intro_icon" alt="程式、網站開發與系統管理">
+			<img src="/foxmosa/images/30series/30foxmosa-36.png" class="intro_icon" alt="程式、網站開發與系統管理"/>
 			<div class="intro_desc">
 				<h2>程式、網站開發與系統管理</h2>
 				<p>你常常以不同的角度看世界嗎？腦中常常浮現 0/1、以邏輯化的思考流程生活著嗎？快加入我們，開發維護 MozTW 的網站及創作各種有趣的 DEMO 作品進行技術傳教；或努力成為一名神聖的系統管理者，默默地在系統背後維護世界的和平運作。</p>
@@ -302,25 +293,25 @@ $(function() {
 			</div>
 		</div>
 		<div class="content_block clearfix">
-			<img src="/foxmosa/images/30series/30foxmosa-45.png" class="intro_icon" alt="開發擴充套件">
+			<img src="/foxmosa/images/30series/30foxmosa-45.png" class="intro_icon" alt="開發擴充套件"/>
 			<div class="intro_desc">
 				<h2>開發擴充套件</h2>
 				<p>Firefox 和其他 Mozilla-based 應用程式擁有超有力的擴充元件系統，讓您得以隨意進行改造。您可以透過開發附加元件、練習各種網頁技術，同時協助其他使用者，讓 Firefox 更為強大。</p>
 				<a href="https://lists.mozilla.org/listinfo/dev-general-zh" onClick="ga('send', 'event', 'contribute', 'addons', 'lists.mozilla.org-dev-general-zh');"><span class="button">Mozilla 中文開發者郵件群組</span></a>
 				<a href="https://addons.mozilla.org/zh-TW/developers/" onClick="ga('send', 'event', 'contribute', 'addons', 'AMO-developers');"><span class="button">套件開發者交流中心</span></a>
-				<br style="clear: both;">
+				<br style="clear: both;"/>
 				<a href="https://groups.google.com/d/topic/moztw-general/-BeSbG72hSU/discussion" onClick="ga('send', 'event', 'contribute', 'addons', 'detail');"><span class="button detail">詳細資訊 》</span></a>
 				<a href="http://mozlinks-zh.blogspot.com/2012/08/add-on-sdk-firefox.html" onClick="ga('send', 'event', 'contribute', 'addons', 'MLinks-AddonSDK');"><span class="button">用 Add-on SDK 寫套件教學</span></a>
 			</div>
 		</div>
 		<div class="content_block clearfix">
-			<img src="/foxmosa/images/30series/30foxmosa-06.png" class="intro_icon" alt="Mozilla、Firefox 軟體開發">
+			<img src="/foxmosa/images/30series/30foxmosa-06.png" class="intro_icon" alt="Mozilla、Firefox 軟體開發"/>
 			<div class="intro_desc">
 				<h2>Mozilla、Firefox 軟體開發</h2>
 				<p>替 Mozilla 軟體開發新功能、或幫 Firefox 除錯，透過解 Bug 挑戰自己的程式功力，躋身 Mozilla 全球開發者的一員。你可以在 IRC 頻道上找到許多開發者，那裡是很棒的發問管道，Mozilla 的網站也歡迎網頁忍者來駭一駭。</p>
 				<a href="http://whatcanidoformozilla.org/" onClick="ga('send', 'event', 'contribute', 'dev', 'WhatCanIDoForMozilla');"><span class="button">我能在 Mozilla 做些什麼</span></a>
 				<a href="https://lists.mozilla.org/listinfo/dev-general-zh" onClick="ga('send', 'event', 'contribute', 'dev', 'ldev-general-zh');"><span class="button">中文開發者郵件群組</span></a>
-				<br style="clear: both;">
+				<br style="clear: both;"/>
 				<a href="https://groups.google.com/d/topic/moztw-general/V-21VIdcLhk/discussion" onClick="ga('send', 'event', 'contribute', 'dev', 'detail');"><span class="button detail">詳細資訊 》</span></a>
 				<a href="irc://irc.mozilla.org/mozilla-taiwan" onClick="ga('send', 'event', 'contribute', 'dev', 'irc-mozilla-taiwan');"><span class="button">Mozillia-Taiwan IRC</span></a>
 				<a href="http://www.joshmatthews.net/bugsahoy/" onClick="ga('send', 'event', 'contribute', 'dev', 'ldev-general-zh');"><span class="button">新手Bug</span></a>
@@ -363,7 +354,7 @@ $(function() {
 
 	<h3>MozTW General 郵件群組</h3>
 	<div>
-    <img src="/images/foxmosa-mail.png" style="width: 75px; float: left;" alt="MozTW General 郵件群組">
+    <img src="/images/foxmosa-mail.png" style="width: 75px; float: left;" alt="MozTW General 郵件群組"/>
     <div style="margin-left: 85px;">
       <p>歡迎您訂閱 <a href="https://groups.google.com/group/moztw-general" onClick="ga('send', 'pageview', '/contribute/moztw-general');">moztw-general 摩茲將軍郵件群組</a>參與我們的討論。請注意：</p>
       <ul style="padding-left: 1.25em;">
@@ -385,6 +376,14 @@ $(function() {
 		<p id="mailing-list-loading"></p>
 	</div>
 </div>
+<!--#include virtual="/inc/footer.html" -->
+<script type="text/javascript" src="js/jquery-1.3.2.min.js" ></script>
+<script type="text/javascript" src="js/jquery-ui-1.7.3.custom.min.js"></script>
+<script type="text/javascript">
+$(function() {
+  $("#tabs").tabs({ selected: 0 });	//設定預設分頁
+});
+</script>
 <script type="text/javascript">
 /*
  * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
@@ -401,15 +400,30 @@ $(function() {
  *   http://me.boo.uz
  *
  */
-(function($){$.extend({jGFeed:function(url,fnk,num,key){if(url==null){return false;}var gurl="https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;if(num!=null){gurl+="&num="+num;}if(key!=null){gurl+="&key="+key;}$.getJSON(gurl,function(data){if(typeof fnk=="function"){ if (data.responseData)fnk.call(this,data.responseData.feed);else fnk.call(this,false);}else{return false;}});}});})(jQuery);
+(function($){
+	$.extend({
+		jGFeed:function(url,fnk,num,key){
+			if(url==null){return false;}
+			var gurl="https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;
+			if(num!=null){gurl+="&num="+num;}
+			if(key!=null){gurl+="&key="+key;}
+			$.getJSON(gurl,function(data){
+				if(typeof(fnk)=="function"){
+					fnk.call(this, data.responseData ? data.responseData.feed : false);
+				}else{
+					return false;
+				}
+			});
+		}
+	});
+})(jQuery);
 </script>
 <script type="text/javascript">
 function updateFeed() {
 	$.jGFeed(
 		'https://groups.google.com/forum/feed/moztw-general/topics/atom_v1_0.xml', //?' + parseInt((new Date()).getTime()/30*60*1000), // Don't use this hack coz we need scoring=h
 		function (feed) {
-			if (!feed) {
-				//Failed
+			if (!feed) {//Failed
 				$('.mailing-list').hide();
 				return;
 			}
@@ -419,9 +433,7 @@ function updateFeed() {
 				feed.entries,
 				function () {
 					var cleantitle = this.title.replace(/(Re|回覆)(:|：) ?/g, '').replace(/\[(moztw-general|MozTW-Dev)\] ?/g, '');
-					if (!thread[cleantitle]) {
-						thread[cleantitle] = [];
-					}
+					if (!thread[cleantitle]) {thread[cleantitle] = [];}
 					if (thread[cleantitle].length >= 3) {
 						if (!thread[cleantitle].mlength) thread[cleantitle].mlength = 0;
 						thread[cleantitle].mlength++;
@@ -443,17 +455,13 @@ function updateFeed() {
 			$.each(
 				thread,
 				function (key) {
-					if(counter==10){
-						return;
-					}
+					if(counter==10){return;}
 					var $li = $('<div class="mail_block" />').append($('<div class="title">' + key+'</div>'));
 					var str = "";
 					$.each(
 						this,
 						function (i) {
-							if(i==0){
-								$li.prepend('<p class="date">'+this.date+'</p>');
-							}
+							if(i==0){$li.prepend('<p class="date">'+this.date+'</p>');}
 							str += (this.author+', '); //temporary saved in str
 						}
 					);
@@ -480,15 +488,11 @@ $(function(){
 		updateFeed,
 		60*60*1000 // 1hr "The Google feed crawler ("Feedfetcher") retrieves feeds from most sites less than once every hour."
 	);
-	$('h3.toggle, span.toggle')
-	.prepend($('<span class="indicator" />').text('+'))
-	.bind('click', function () {
+	$('h3.toggle, span.toggle').prepend($('<span class="indicator" />').text('+')).bind('click', function () {
 		$(this).nextAll('div.toggle:first, ol.toggle:first').slideToggle(250);
 		$i = $(this).children('.indicator');
-		if ($i.text() === '+') $i.text('-');
-		else $i.text('+');
+		$i.text(($i.text() === '+') ? '-' : '+');
 	});
 });
 </script>
-
-<!--#include virtual="/inc/footer.html" -->
+<!--#include virtual="/inc/end.html" -->
