@@ -231,7 +231,7 @@ h3.toggle, span.toggle {
 				<a href="http://mozlinks-zh.blogspot.com/2012/02/mozilla-links.html"  onClick="ga('send', 'event', 'contribute', 'translate', 'MLinks-editor');"><span class="button">MLinks 編輯機動隊</span></a>
 				<a href="sumo/"><span class="button">參與 SUMO 專案</span></a>
 				<a href="https://support.mozilla.org/zh-TW/kb/localize-firefox-help" onClick="ga('send', 'event', 'contribute', 'translate', 'LocalizeFirefoxHelp');"><span class="button">說明文件翻譯</span></a>
-				<br style="clear: both;"/>
+				<br style="clear: both;">
 				<a href="https://groups.google.com/d/topic/moztw-general/92t-umaKqUw/discussion"  onClick="ga('send', 'event', 'contribute', 'translate', 'detail');"><span class="button detail">詳細資訊 》</span></a>
 				<a href="http://mozlinks-zh.blogspot.com/2012/08/iii-mdn.html" onClick="ga('send', 'event', 'contribute', 'translate', 'MLinks-mdn');"><span class="button">貢獻開發文件</span></a>
 				<a href="https://groups.google.com/group/moztw-subtitle" onClick="ga('send', 'event', 'contribute', 'translate', 'groups-subtitle');"><span class="button">MozTW 字幕組</span></a>
@@ -299,7 +299,7 @@ h3.toggle, span.toggle {
 				<p>Firefox 和其他 Mozilla-based 應用程式擁有超有力的擴充元件系統，讓您得以隨意進行改造。您可以透過開發附加元件、練習各種網頁技術，同時協助其他使用者，讓 Firefox 更為強大。</p>
 				<a href="https://lists.mozilla.org/listinfo/dev-general-zh" onClick="ga('send', 'event', 'contribute', 'addons', 'lists.mozilla.org-dev-general-zh');"><span class="button">Mozilla 中文開發者郵件群組</span></a>
 				<a href="https://addons.mozilla.org/zh-TW/developers/" onClick="ga('send', 'event', 'contribute', 'addons', 'AMO-developers');"><span class="button">套件開發者交流中心</span></a>
-				<br style="clear: both;"/>
+				<br style="clear: both;">
 				<a href="https://groups.google.com/d/topic/moztw-general/-BeSbG72hSU/discussion" onClick="ga('send', 'event', 'contribute', 'addons', 'detail');"><span class="button detail">詳細資訊 》</span></a>
 				<a href="http://mozlinks-zh.blogspot.com/2012/08/add-on-sdk-firefox.html" onClick="ga('send', 'event', 'contribute', 'addons', 'MLinks-AddonSDK');"><span class="button">用 Add-on SDK 寫套件教學</span></a>
 			</div>
@@ -311,7 +311,7 @@ h3.toggle, span.toggle {
 				<p>替 Mozilla 軟體開發新功能、或幫 Firefox 除錯，透過解 Bug 挑戰自己的程式功力，躋身 Mozilla 全球開發者的一員。你可以在 IRC 頻道上找到許多開發者，那裡是很棒的發問管道，Mozilla 的網站也歡迎網頁忍者來駭一駭。</p>
 				<a href="http://whatcanidoformozilla.org/" onClick="ga('send', 'event', 'contribute', 'dev', 'WhatCanIDoForMozilla');"><span class="button">我能在 Mozilla 做些什麼</span></a>
 				<a href="https://lists.mozilla.org/listinfo/dev-general-zh" onClick="ga('send', 'event', 'contribute', 'dev', 'ldev-general-zh');"><span class="button">中文開發者郵件群組</span></a>
-				<br style="clear: both;"/>
+				<br style="clear: both;">
 				<a href="https://groups.google.com/d/topic/moztw-general/V-21VIdcLhk/discussion" onClick="ga('send', 'event', 'contribute', 'dev', 'detail');"><span class="button detail">詳細資訊 》</span></a>
 				<a href="irc://irc.mozilla.org/mozilla-taiwan" onClick="ga('send', 'event', 'contribute', 'dev', 'irc-mozilla-taiwan');"><span class="button">Mozillia-Taiwan IRC</span></a>
 				<a href="http://www.joshmatthews.net/bugsahoy/" onClick="ga('send', 'event', 'contribute', 'dev', 'ldev-general-zh');"><span class="button">新手Bug</span></a>
