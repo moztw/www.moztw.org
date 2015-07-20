@@ -23,7 +23,7 @@
     </section>
 
     <section id="webmaker">
-      <h2>Webmaker</h2>
+      <h2>Webmaker 教案翻譯</h2>
       <ul>
         <li><a href="https://sting.makes.org/thimble/MTA2NDMwOTc2/learning-html-tags-through-the-train-game" target="_blank">藉由「火車遊戲」來學習 HTML 標籤</a><span class="appendix">Zun-Yu Yang</span></li>
         <li><a href="https://tcfsh22215.makes.org/thimble/LTQzMTY4NTEyMA==/web-mechanics-speed-dating" target="_blank">網路技術快速約會</a><span class="appendix">Jeff Chang</span></li>
@@ -36,7 +36,7 @@
     </section>
 
     <section id="mdn">
-      <h2>Mozilla 開發者社群技術文件</h2>
+      <h2>Mozilla 開發者社群技術文件翻譯</h2>
       <p>Zun-Yu Yang、Jeff Chang</p>
       <ul>
           <li><a href="//developer.mozilla.org/zh-TW/docs/Web/HTML" target="_blank">HTML</a></li>
@@ -45,7 +45,7 @@
     </section>
 
     <section id="links">
-      <h2>Mozilla Links</h2>
+      <h2>Mozilla Links 報導</h2>
       <p>Nini Hsu、楊椀婷</p>
       <ul>
           <li><a href="//mozlinks.moztw.org/2015/05/web.html" target="_blank">前進吧，摩茲巴士！Web 工廠的遊牧之旅</a></li>
@@ -76,12 +76,12 @@
       <h2>L10N</h2>
       <p>蕭棋薇、Yu-Chen Wu、陳欣妤</p>
       <ul>
-        <li><a href="//docs.google.com/spreadsheets/d/1RdAIr_GxtKsLspEAS_6tctpMthdKdlmLYX7ZvnUDTFU/edit#gid=0" target="_blank">Webmaker</a></li>
+        <li><a href="//docs.google.com/spreadsheets/d/1RdAIr_GxtKsLspEAS_6tctpMthdKdlmLYX7ZvnUDTFU/edit#gid=0" target="_blank">Webmaker 網站詞彙修正</a></li>
       </ul>
     </section>
 
     <section id="bugs">
-      <h2>錯誤回報/修正</h2>
+      <h2>Firefox OS 錯誤回報/修正</h2>
       <p>Yu-wen Pwu</p>
       <ul>
         <li><a href="//bugzilla.mozilla.org/show_bug.cgi?id=1141971" target="_blank">Bug 1141971 - [Privacy Controls] fix remaining words</a></li>
