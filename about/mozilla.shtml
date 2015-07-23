@@ -12,3 +12,4 @@ Mozilla 專案是個非營利開放原始碼活動，任務是維持網際網路
 <p>Firefox 的正體中文版部分由 <a href="//moztw.org">moztw.org</a> 製作。moztw.org 提供 Mozilla 相關資訊，並有台灣本地及海外志工組成的 Mozilla 社群提供文件等支援。 </p>
 </div>
 <!--#include virtual="/inc/footer.html" -->
+<!--#include virtual="/inc/end.html" -->

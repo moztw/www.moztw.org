@@ -381,6 +381,7 @@ body {
   </div>
 </div>
 
+<!--#include virtual="/inc/footer.html" -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="/js/library/fancybox2/jquery.fancybox.pack.js"></script>
 
@@ -425,12 +426,10 @@ $(window).load(function() {
 
 		if (windowOffset > spos) {
 		    $('body').addClass('down');
-		}
-		else {
+		}else {
 		    $('body').removeClass('down');
 		};
 	}).scroll();
 });
 </script>
-
-<!--#include virtual="/inc/footer.html" -->
+<!--#include virtual="/inc/end.html" -->
