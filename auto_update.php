@@ -117,5 +117,6 @@ document.getElementById('progress_blk').title = 'ready';
 }
 
 include("inc/footer.html");
+include("inc/end.html");
 ?>
 
