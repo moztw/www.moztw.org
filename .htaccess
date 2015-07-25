@@ -7,3 +7,5 @@ AddType text/rdf+n3 .n3  #It's timbl's fault that this is not yet standardized
 DirectoryIndex index Overview
 
 Redirect permanent /firefox-new /firefox
+Redirect permanent /firefox/release /firefox/releases
+Redirect permanent /events/sfd2012 /events/code-rush
