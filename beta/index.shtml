@@ -23,25 +23,20 @@
 	background: url(/images/t_beta.gif) no-repeat top center;
 }
 
-#firefox-beta.download{}
+#firefox-beta.download {}
 
-#thunderbird-beta.download
-{}
+#thunderbird-beta.download {}
 
-#old-beta:hover
-{
+#old-beta:hover {
     color: black;
 }
-#old-beta
-{
+#old-beta {
     color: #888;
 }
-#old-beta a
-{
+#old-beta a {
     color: #88a;
 }
-#old-beta a:visited
-{
+#old-beta a:visited {
     color: #88a;
 }
 </style>
@@ -93,67 +88,30 @@
       <li>Windows Live Mail 無法使用; 必須切換到 Hotmail 舊版介面 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=396259">bug 396259</a>)</li>
       <li>新版的 GMail 聯絡人無法顯示 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=415252">bug 415252</a>)</li>
 
-      <li>「回報偽造網頁」選項目前暫無法使用 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=420677">bug 420677</a>)
-		</li>
-		<li>
-		Firefox 不會問使用者是否要更改既存密碼
-		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=421058">bug
-		421058</a>)
-		</li>
-		<li>
-		MathML 功能在 Firefox 3 Beta 4 尚未完全穩定
-		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=413115">bug
-		413115</a> 及
-		<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=363240">bug
-		363240</a>)
-		</li>
+      <li>「回報偽造網頁」選項目前暫無法使用 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=420677">bug 420677</a>)</li>
+		<li>Firefox 不會問使用者是否要更改既存密碼 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=421058">bug 421058</a>)</li>
+		<li>MathML 功能在 Firefox 3 Beta 4 尚未完全穩定 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=413115">bug 413115</a> 及 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=363240">bug 363240</a>)</li>
 
-		<li>
-		當使用 Window-Eyes 時，新的網址列、加入書籤對話框與下載管理員通知的訊息不一致，請使用 JAWS 8.0
-		或其他螢幕閱讀程式來測試 Firefox 3 Beta 4
-		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=393398">bug
-		393398</a>)
-		</li>
-		<li>
-		續傳檔案系統會因為伺服器不允許重新連線時發生錯誤
-		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=401846">bug
-		401846</a>)
-		</li>
-<li>
-		以 <code>text/html</code> 型態傳來的資料來源無法正確載入 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=381357">bug
-		381357</a>)
-		</li>
-		<li>
-		某些附加元件安裝後不會顯示「重新啟動」鈕
-		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=414936">bug
-		414936</a>)
-		</li>
-		<li>
-		部份採用已棄用程式碼的附加元件無法正確安裝
-		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=406807">bug
-		406807</a>)
-		</li>
+		<li>當使用 Window-Eyes 時，新的網址列、加入書籤對話框與下載管理員通知的訊息不一致，請使用 JAWS 8.0 或其他螢幕閱讀程式來測試 Firefox 3 Beta 4 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=393398">bug 393398</a>)</li>
+		<li>續傳檔案系統會因為伺服器不允許重新連線時發生錯誤 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=401846">bug 401846</a>)</li>
+		<li>以 <code>text/html</code> 型態傳來的資料來源無法正確載入 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=381357">bug 381357</a>)</li>
+		<li>某些附加元件安裝後不會顯示「重新啟動」鈕 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=414936">bug 414936</a>)</li>
+		<li>部份採用已棄用程式碼的附加元件無法正確安裝 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=406807">bug 406807</a>)</li>
 
-		<li>
-		個人隱私 > 瀏覽紀錄 > 保留瀏覽紀錄裡的網址設定為 0 時沒有作用
-		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=366075">bug
-		366075</a>)</li>
-<li>
-		DOM 觀查器已被移除，以額外的<a href="https://addons.mozilla.org/zh-TW/firefox/addon/6622">擴充套件</a>形式提供。</li>
+		<li>個人隱私 > 瀏覽紀錄 > 保留瀏覽紀錄裡的網址設定為 0 時沒有作用 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=366075">bug 366075</a>)</li>
+		<li>DOM 觀查器已被移除，以額外的<a href="https://addons.mozilla.org/zh-TW/firefox/addon/6622">擴充套件</a>形式提供。</li>
       </ul>
       </dd>
       <dt id="vista">Windows 及 Windows Vista</dt>
       <dd>
 		<ul class="spaced">
-		<li>Windows Vista 及某些其他版本Windows並沒有提供一個Windows Media Player (WMP) 的plugin。必須透過一些步驟才能安裝plugin及開啟Windows Media檔案。安裝完畢後可能也需要做Windows Updates才能讓plugin正常地顯示這些檔案。
-		</li><li>若在 Windows 網際網路選項中設定為高安全性，執行檔下載後會被立即刪除 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=416683">bug 416683</a>)</li></ul>
-
+		<li>Windows Vista 及某些其他版本Windows並沒有提供一個Windows Media Player (WMP) 的plugin。必須透過一些步驟才能安裝plugin及開啟Windows Media檔案。安裝完畢後可能也需要做Windows Updates才能讓plugin正常地顯示這些檔案。</li>
+		<li>若在 Windows 網際網路選項中設定為高安全性，執行檔下載後會被立即刪除 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=416683">bug 416683</a>)</li></ul>
 		</dd>
       </dd>
       <dt id="macosx">Mac OS X</dt>
 		<dd>
 		<ul class="spaced"><li>網站認證對話方塊的「更多資訊」鈕無法正確叫出網頁資訊視窗  (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=415704">bug 415704</a>) </li></ul>
-
 		</dd>
      <dt>Linux 及 Unix</dt>
      <dd>
@@ -202,3 +160,4 @@
 		<li><a href="//forum.moztw.org/">MozTW 討論區</a></li></ul>
 </div>
 <!--#include virtual="/inc/footer.html" -->
+<!--#include virtual="/inc/end.html" -->
