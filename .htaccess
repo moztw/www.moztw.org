@@ -8,3 +8,4 @@ DirectoryIndex index Overview
 
 Redirect permanent /firefox-new /firefox
 Redirect permanent /firefox/release /firefox/releases
+https://moztw.org/events/code-rush/
