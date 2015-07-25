@@ -5,3 +5,4 @@ Disallow: /*-dev
 Disallow: /inc/
 Disallow: /js/
 Disallow: /sandstone/
+Disallow: /index2.*
