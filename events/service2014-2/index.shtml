@@ -22,6 +22,13 @@
       <p>歡迎各大專院校老師一同推廣，以貢獻自由軟體作為服務學習課程內容，詳情請聯繫 <a href="//ossacc.moe.edu.tw/modules/tinyd0/index.php?id=1" target="_blank">OSSACC</a>。</p>
     </section>
 
+    <section id="album">
+      <a data-flickr-embed="true" href="https://www.flickr.com/photos/irvin/sets/72157650980574569" title="103-2 交大服務學習">
+        <img src="https://farm1.staticflickr.com/469/19437594514_c819121abe_c.jpg" width="800" height="600" alt="交大服務學習 Mozilla 小組">
+      </a>
+      <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    </section>
+
     <section id="webmaker">
       <h2>Webmaker 教案翻譯</h2>
       <ul>
