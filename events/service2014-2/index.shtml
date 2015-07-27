@@ -23,7 +23,10 @@
     </section>
 
     <section id="album">
-      <a data-flickr-embed="true" href="https://www.flickr.com/photos/irvin/sets/72157650980574569" title="103-2 交大服務學習"><img src="https://farm9.staticflickr.com/8707/17154109900_0246f26a01_c.jpg" width="800" height="600" alt="103-2 交大服務學習"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+      <a data-flickr-embed="true" href="https://www.flickr.com/photos/irvin/sets/72157650980574569" title="103-2 交大服務學習">
+        <img src="https://farm1.staticflickr.com/469/19437594514_c819121abe_c.jpg" width="800" height="600" alt="交大服務學習 Mozilla 小組">
+      </a>
+      <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
     </section>
 
     <section id="webmaker">
