@@ -129,7 +129,7 @@
     <p>刊頭圖片修改自 <a href="https://creative.mozilla.org/designs/3491" target="_blank">Simply Four - Mozilla Creative Collective</a></p>
     <br style="clear: both;">
 
-  <script type="text/javascript" src="/js/library/jquery.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script type="text/javascript" src="jquery.wordcloud.min.js"></script>
   <script type="text/javascript">
 jQuery(function ($) {

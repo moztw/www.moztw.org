@@ -7,7 +7,6 @@
 <meta property="og:image" content="http://moztw.org/images/foxmosa-icon.gif">
 <meta property="og:site_name" content="Mozilla 台灣社群">
 <meta property="og:description" content="Mozilla 全球社群依循 Mozilla 宣言，致力於打造更開放自由的網路、提升人們的網路體驗、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的在地參與可辦不到！">
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script>
     jQuery(function () {
          var poster, video, iframe, $win;
@@ -251,5 +250,6 @@
     <input type="submit" class="button" value="訂閱 »" />
 </form>
 
-<script src="main.js"></script>
+<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <!--#include virtual="/inc/new_footer.html" -->

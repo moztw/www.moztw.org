@@ -80,7 +80,7 @@
 	</div>
   </div>
   <p class="desc">背景文字來源：<a href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></p>
-  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script type="text/javascript" src="jquery.wordcloud.min.js?3"></script>
   <script type="text/javascript">
 jQuery(function ($) {
