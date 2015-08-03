@@ -1,7 +1,7 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
 <title>關於 MozTW (Mozilla 台灣社群) - MozTW, Mozilla Taiwan Community</title>
 <meta name="description" content="MozTW 是台灣專屬於 Mozilla 相關資訊的社群，於 2004 年 9 月正式開張。目前本社群維護 Mozilla 軟體的正體中文版本與語言套件 (Language Pack)" />
-<link href="css/about.css" rel="stylesheet" />
+<link href="../css/about.css" rel="stylesheet" />
 <meta property="og:type" content="website">
 <meta property="og:url" content="http://moztw.org/about/">
 <meta property="og:image" content="http://moztw.org/images/moztw_80x15.png">
