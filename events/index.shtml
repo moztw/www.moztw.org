@@ -546,7 +546,7 @@ jQuery(function($) {
   </div>
 
 </div>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <!--[if IE]><script src="/js/library/html5shiv/html5shiv.js"></script><![endif]-->
 <!--[if lt IE 9]><script src="/js/library/IE9.js"></script><![endif]-->
 <script type="text/javascript" src="sylvester.js"></script>
