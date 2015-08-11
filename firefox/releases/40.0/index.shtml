@@ -1,0 +1,116 @@
+<!--#set var="release_year" value="2015" -->
+<!--#set var="release_month" value="8" -->
+<!--#set var="release_date" value="11" -->
+<!--#set var="version" value="40.0" -->
+
+<!--#include virtual="../../inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>支援 Windows 10。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>增加對不安全軟體（垃圾軟體）下載的防護。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>根據最近瀏覽的網站，在「新分頁」顯示<a href="https://www.mozilla.org/firefox/tiles/">推薦磚塊</a>（限 en-US 語系）。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Hello 可以<a href="https://support.mozilla.org/kb/add-context-firefox-hello-conversations">將連結加入通話</a>，作為關於聊天的資訊。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>更新「附加元件管理員」外觀，採用和新版選項一致的設計。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>藉由 OMTC (Off Main Thread Compositing) 改善捲動、繪圖和影片播放的效能（限 GNU/Linux）。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>改善顯卡黑名單機制：藉由指定 Firefox 版本範圍縮減裝置被擋下的情形。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>未經 Mozilla 驗證的附加元件會<a href="https://support.mozilla.org/kb/add-ons-signing-firefox">顯示警告訊息</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>藉由 <a href="http://dblohm7.ca/blog/2014/06/17/asynchronous-plugin-initialization-an-introduction/">asynchronous initialization</a> 改善 NPAPI 外掛程式的效能。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>藉由<a href="https://hacks.mozilla.org/2015/01/project-silk/">硬體 vsync</a> 達成更順暢的動畫和捲動效能（限 Windows）。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>更快速的 JPEG 圖片繪製，縮放時使用更少記憶體。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>子文件中的資源<a href="https://developer.mozilla.org/Firefox/Releases/40/Site_Compatibility#Security">不再進行 HTTP 認證請求</a>，避免使用者無意間透露登入資料。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>IndexedDB 預設行為改為<a href="https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Basic_Concepts_Behind_IndexedDB#durable">非 durable</a> transaction。</span>
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>實作 <a href="https://developer.mozilla.org/docs/Web/API/AudioBufferSourceNode/detune">AudioBufferSourceNode.detune</a>，模組化以 cent（衡量音樂時距的對數單位）為單位的播放。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>改善「<a href="https://hacks.mozilla.org/?p=28808">效能</a>」工具：<a href="https://developer.mozilla.org/docs/Tools/Performance/Waterfall">Waterfall</a> 檢視、<a href="https://developer.mozilla.org/docs/Tools/Performance/Call_Tree">Call Tree</a> 檢視和 <a href="https://developer.mozilla.org/docs/Tools/Performance/Flame_Chart">Flame Chart</a> 檢視。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>檢測器「規則」檢視新增方便調節 CSS filter 的<a href="http://youtu.be/t3NKmmWfklU">浮動面板</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>網頁主控台會顯示來自 SharedWorker 和 ServiceWroker 的 Console API 訊息。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>新增「顯示頁面上的尺規」功能，提供<a href="https://developer.mozilla.org/docs/Tools/Rulers">輕便的水平、垂直測量工具</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>檢測器搜尋會包括頁面上所有頁框的內容。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正卡納達語（Kannada）文字在內建 PDF 檢視器的顯示問題。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox40">安全性修正</a>。</span>
+    </li>
+
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2040&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox40&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla40&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href="/firefox/releases/39.0.3/">前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>在附加元件安裝通知出現時重啟 Firefox，私密瀏覽進行中的下載可能被無預警地取消（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1185294">bug 1185294</a>）。</span>
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="../../inc/fx_tail-sandstone.shtml" -->
