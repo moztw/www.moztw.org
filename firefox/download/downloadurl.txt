@@ -1,1 +1,1 @@
-https://download.mozilla.org/?product=firefox-40.0&amp;lang=zh-TW
+https://download.mozilla.org/?product=firefox-40.0.2&amp;lang=zh-TW
