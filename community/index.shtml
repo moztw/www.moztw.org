@@ -250,6 +250,6 @@
     <input type="submit" class="button" value="訂閱 »" />
 </form>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript" src="main.js"></script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <!--#include virtual="/inc/new_footer.html" -->

@@ -377,7 +377,7 @@ h3.toggle, span.toggle {
 	</div>
 </div>
 <!--#include virtual="/inc/footer.html" -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript" src="../js/library/jquery-ui-1.7.3.custom.min.js"></script>
 <script type="text/javascript">
 $(function() {
@@ -404,7 +404,7 @@ $(function() {
 	$.extend({
 		jGFeed:function(url,fnk,num,key){
 			if(url==null){return false;}
-			var gurl="https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;
+			var gurl="//ajax.googleapis.com/ajax/services/feed/load?v=1.0&callback=?&scoring=h&q="+url;
 			if(num!=null){gurl+="&num="+num;}
 			if(key!=null){gurl+="&key="+key;}
 			$.getJSON(gurl,function(data){
