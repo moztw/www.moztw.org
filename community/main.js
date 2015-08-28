@@ -12,7 +12,7 @@
 	body = body[0];
 
 	rssScript = window.document.createElement('script');
-  rssScript.src = "https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=https://groups.google.com/forum/feed/moztw-general/topics/rss.xml&callback=newsRenderer&scoring=h&num=20";
+  rssScript.src = "//ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=https://groups.google.com/forum/feed/moztw-general/topics/rss.xml&callback=newsRenderer&scoring=h&num=20";
 
 	body.appendChild(rssScript);
 

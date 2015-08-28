@@ -15,7 +15,7 @@
 		max-width: 70em;
 		margin: 0 auto;
 	}
-	
+
 	#mBody {
 		clear: both;
 		padding: 0 0 1em 0;
@@ -44,7 +44,7 @@
 		float: left;
 		width: 62%;
 	}
-	
+
 	#side.right {
 		float: right;
 		width: 35%;
@@ -57,7 +57,7 @@
 		margin: 0 0 1em 0;
 		padding: 0;
 	}
-	
+
 	#header li {
 		display: inline;
 		padding: 0 20px 0 0;
@@ -77,19 +77,19 @@
 		clear: both;
 		margin-top: 1em;
 	}
-		
+
 	#footer ul {
 		margin: 0 0 1em 0;
 		padding: 0;
 	}
-	
+
 	#footer li {
 		display: inline;
 		padding: 0 20px 0 0;
 		margin: 0;
 		white-space: nowrap;
 	}
-	
+
 	#footer p {
 		margin: 0.6em 0;
 	}

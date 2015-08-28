@@ -14,15 +14,27 @@ module.exports = function(grunt) {
 			server: {
 				bsFiles: {
 					src : [
-						'**/*.html',
+						'**/*.shtml',
 						'**/*.css',
 						'!**/node_modules/**'
 					]
 				},
 				options: {
-					watchTask: true,
-					server: './'
+					watchTask: false,
+					server: {
+						baseDir: './',
+						middleware: [require('connect-modrewrite')([
+							'^(.*)\.html$ $1.shtml'
+						]), require('browsersync-ssi')({
+							baseDir: './'
+						})]
+					}
 				}
+			}
+		},
+		bsReload: { // for compiling task like preprocessors, not in use now
+			css: {
+				reload: "**/*.css"
 			}
 		},
 		copy: {
@@ -74,5 +86,6 @@ module.exports = function(grunt) {
 		files.compile();
 
 	});
-	grunt.registerTask('default', ['copy', 'ssi', 'browserSync', 'watch']);
+	//grunt.registerTask('default', ['copy', 'ssi', 'browserSync', 'watch']);
+	grunt.registerTask('default', ['browserSync']);
 };
