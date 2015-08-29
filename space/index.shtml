@@ -1,11 +1,11 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
 <title>摩茲工寮 Mozilla Community Space Taipei | MozTW, Mozilla Taiwan Community</title>
-<meta name="description" content="摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。摩茲工寮歡迎社群成員免費使用，歡迎加入、一同塑造屬於我們的 Web。" />
+<meta name="description" content="摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。摩茲工寮歡迎社群成員免費使用，歡迎加入、一同塑造屬於我們的 Web。" />
 <meta property="og:title" content="摩茲工寮 Mozilla Community Space Taipei | MozTW, Mozilla Taiwan Community" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://moztw.org/space/" />
 <meta property="og:image" content="http://moztw.org/space/images/bg_masthead.jpg" />
-<meta property="og:description" content="摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。摩茲工寮歡迎社群成員免費使用，歡迎加入、一同塑造屬於我們的 Web。" />
+<meta property="og:description" content="摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。摩茲工寮歡迎社群成員免費使用，歡迎加入、一同塑造屬於我們的 Web。" />
 
 
 <link href="css/mozspacetp.css" rel="stylesheet" />
@@ -30,7 +30,7 @@
         </div>
       </header>
       <div class="grid-12">
-        <p>摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物、飲料，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。</p>
+        <p>摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。</p>
       </div>
       <div class="grid-6">
         <h3>場地提供</h3>
@@ -39,7 +39,6 @@
           <li style="background-image: url(images/icon_socket.png)">三孔插座</li>
           <li style="background-image: url(images/icon_projector.png)">投影機</li>
           <li style="background-image: url(images/icon_stereo_set.png)">播音器材</li>
-          <!-- 有沒有人要來裝汽水機？ <li style="background-image: url(images/icon_drink.png)">飲料無限暢飲</li>-->
           <li style="background-image: url(images/icon_open_lover.png)">內建開放熱情</li>
         </ul>
       </div>
