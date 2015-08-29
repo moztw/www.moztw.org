@@ -3,7 +3,7 @@
 <!--#set var="release_date" value="11" -->
 <!--#set var="version" value="40.0" -->
 
-<!--#include virtual="../../inc/fx_head-sandstone.shtml" -->
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
 
 <article id="whatsnew" class="module">
   <h2>Firefox 新鮮事</h2>
@@ -113,4 +113,4 @@
 </article>
 
 
-<!--#include virtual="../../inc/fx_tail-sandstone.shtml" -->
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
