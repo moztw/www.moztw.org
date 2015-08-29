@@ -1,9 +1,7 @@
-<!--#set var="release_year" value="2015" -->
-<!--#set var="release_month" value="8" -->
-<!--#set var="release_date" value="7" -->
+<!--#set var="release_date" value="2015-08-07" -->
 <!--#set var="version" value="39.0.3" -->
 
-<!--#include virtual="../../inc/fx_head-sandstone.shtml" -->
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
 
 <article id="whatsnew" class="module">
   <h2>Firefox 新鮮事</h2>
@@ -27,4 +25,4 @@
 </article>
 
 
-<!--#include virtual="../../inc/fx_tail-sandstone.shtml" -->
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

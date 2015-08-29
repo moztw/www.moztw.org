@@ -12,10 +12,12 @@
 		<div class="intro">
 			<h2>Firefox 版本資訊</h2>
 			<p id="release-date">
-				<time datetime='<!--#echo var="release_year" -->-<!--#echo var="release_month" -->-<!--#echo var="release_date" -->'>
-					<!--#echo var="release_year" --> 年
-					<!--#echo var="release_month" --> 月
-					<!--#echo var="release_date" --> 日
+        <time datetime='<!--#echo var="release_date" -->'>
+          <!--#if expr="$release_date = /(\d+)-0?(\d+)-0?(\d+)/" -->
+          <!--#echo var="1" --> 年
+          <!--#echo var="2" --> 月
+          <!--#echo var="3" --> 日
+          <!--#endif -->
 				</time>
 				v<!--#echo var="version" -->
 			</p>
