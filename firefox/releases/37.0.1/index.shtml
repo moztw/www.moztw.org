@@ -1,6 +1,4 @@
-<!--#set var="release_year" value="2015" -->
-<!--#set var="release_month" value="4" -->
-<!--#set var="release_date" value="4" -->
+<!--#set var="release_date" value="2015-04-04" -->
 <!--#set var="version" value="37.0.1" -->
 
 <!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
