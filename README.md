@@ -81,17 +81,19 @@ To enable SSI on Apache is very easy. Take Ubuntu for example, just execute `a2e
 
 The second step is adding virtual host configs to your Apache configuration:
 
-    <VirtualHost *:80>
-        ServerName moztw.yourdomain.name
-        ServerAdmin admin@yourdomain.name
-        DocumentRoot /path/to/this/repo/
-        <Directory /path/to/this/repo>
-            Options FollowSymLinks Includes
-            AllowOverride All
-            Order allow,deny
-            Require all granted
-        </Directory>
-    </VirtualHost>
+```apache
+<VirtualHost *:80>
+  ServerName moztw.yourdomain.name
+  ServerAdmin admin@yourdomain.name
+  DocumentRoot /path/to/this/repo/
+  <Directory /path/to/this/repo>
+    Options FollowSymLinks Includes
+    AllowOverride All
+    Order allow,deny
+    Require all granted
+  </Directory>
+</VirtualHost>
+```
 
 Enable the new virtual host with `a2ensite moztw`, restart Apache, and open *http://moztw.yourdomain.name*. You should now see MozTW homepage.
 
@@ -100,24 +102,24 @@ Enable the new virtual host with `a2ensite moztw`, restart Apache, and open *htt
 Example of site configuration with SSI module enabled:
 
 ```nginx
-  server {
-    listen 80;
-    server_name moztw.yourdomain.name;
-    root /path/to/this/repo/;
+server {
+  listen 80;
+  server_name moztw.yourdomain.name;
+  root /path/to/this/repo/;
 
-    location / {
-      ssi on;
-      ssi_types text/shtml;
-      index index.html index.htm index.shtml index.php;
-    }
+  location / {
+    ssi on;
+    ssi_types text/shtml;
+    index index.html index.htm index.shtml index.php;
+  }
 
-    # Rewrite *.html to *.shtml, if you're using grunt browser-sync server
-    location ~ \.html$ {
-      if (!-f $request_filename) {
-        rewrite ^(.*)\.html$ $1.shtml;
-      }
+  # Rewrite *.html to *.shtml, if you're using grunt browser-sync server
+  location ~ \.html$ {
+    if (!-f $request_filename) {
+      rewrite ^(.*)\.html$ $1.shtml;
     }
   }
+}
 ```
 
 Note that we're not running Nginx server on the hosting site, you might encounter some problems, e.g., _.htaccess_ is not supported.
