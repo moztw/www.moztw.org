@@ -99,17 +99,26 @@ Enable the new virtual host with `a2ensite moztw`, restart Apache, and open *htt
 
 Example of site configuration with SSI module enabled:
 
-    server {
-      listen 80;
-      server_name moztw.yourdomain.name;
+```nginx
+  server {
+    listen 80;
+    server_name moztw.yourdomain.name;
+    root /path/to/this/repo/;
 
-      location / {
-        root /path/to/this/repo/;
-        ssi on;
-        ssi_types text/shtml;
-        index index.html index.htm index.shtml index.php;
+    location / {
+      ssi on;
+      ssi_types text/shtml;
+      index index.html index.htm index.shtml index.php;
+    }
+
+    # Rewrite *.html to *.shtml, if you're using grunt browser-sync server
+    location ~ \.html$ {
+      if (!-f $request_filename) {
+        rewrite ^(.*)\.html$ $1.shtml;
       }
     }
+  }
+```
 
 Note that we're not running Nginx server on the hosting site, you might encounter some problems, e.g., _.htaccess_ is not supported.
 
