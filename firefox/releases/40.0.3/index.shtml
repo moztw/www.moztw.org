@@ -1,0 +1,53 @@
+<!--#set var="release_year" value="2015" -->
+<!--#set var="release_month" value="8" -->
+<!--#set var="release_date" value="28" -->
+<!--#set var="version" value="40.0.3" -->
+
+<!--#include virtual="../../inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+		<li class="untagged">
+			<span>參考 <a href="/firefox/releases/40.0.2/">Firefox 40.0.2 新鮮事</a>。</span>
+		</li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>預設停用非同步外掛程式的初始化（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1198590">bug 1198590</a>）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正 GNU/Linux GStreamer 支援的記憶體區塊錯誤（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1145230">bug 1145230</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正 Windows 版本使用 DisplayLink 造成的啟動時當機（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1195844">bug 1195844</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正在 <code>&lt;input&gt;</code> 欄位使用部分日文字型的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1194055">bug 1194055</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正部分網站無法以滑鼠選擇 <code>&lt;select&gt;</code> 選項的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1194733">bug 1194733</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正部分搜尋引擎缺少合作 code 的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1195683">bug 1195683</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox40.0.3">安全性修正</a>。</span>
+    </li>
+
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2040&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox40&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla40&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href="/firefox/releases/40.0/">前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="../../inc/fx_tail-sandstone.shtml" -->
