@@ -13,7 +13,7 @@
 			<h2>Firefox 版本資訊</h2>
 			<p id="release-date">
         <time datetime='<!--#echo var="release_date" -->'>
-          <!--#if expr="$release_date = /(\d+)-0?(\d+)-0?(\d+)/" -->
+          <!--#if expr="$release_date = /(\\d+)-0?(\\d+)-0?(\\d+)/" -->
           <!--#echo var="1" --> 年
           <!--#echo var="2" --> 月
           <!--#echo var="3" --> 日
