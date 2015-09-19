@@ -4,7 +4,7 @@
   "description": "Mozilla Taiwan community web site",
   "main": "index.html",
   "scripts": {
-    "start": "gulp",
+    "start": "browser-sync start --config bs-config.js",
     "postinstall": "fix-gaze"
   },
   "repository": {

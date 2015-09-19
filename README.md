@@ -52,7 +52,7 @@ You can do shallow clone to get this repo more quickly.
 7. Run `vagrant up`.
    This may take a while (approx. 15-20 minutes) as it needs to download a virtual machine image and all the other required packages to run.
 8. Run `vagrant exec npm start`.
-   You will see the output will stay at `watch`.
+   You will see the output will stay at `Watching files`.
 9. Open a web browser, go to `localhost:3000` and you can see the current website.
    You can modify the website contents and the changes will be reflected in seconds.
 10. To stop the script, go back to the terminal and hit Ctrl-C.
@@ -62,7 +62,7 @@ You can do shallow clone to get this repo more quickly.
 ### Using Node.js directly
 1. Install [nodejs](http://nodejs.org/) and [npm](https://www.npmjs.org/) in your system.
 2. Run `npm install` in repo directory.
-3. Run `npm start` in repo directory, the output will stay at `default` task.
+3. Run `npm start` in repo directory, the output will stay at `Watching files`.
 4. Open `localhost:3000`, modify and see the [browswersync](http://browsersync.io/) result.
 
 
