@@ -11,9 +11,6 @@ $setup_script = <<SCRIPT
 apt-get update
 apt-get install -y nodejs nodejs-legacy npm git
 
-# install grunt-cli
-npm install -g grunt-cli
-
 # install npm packages.
 # Also to prevent symlink errors on Windows, --no-bin-links is used.
 cd /vagrant

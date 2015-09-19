@@ -4,6 +4,7 @@
   "description": "Mozilla Taiwan community web site",
   "main": "index.html",
   "scripts": {
+    "start": "gulp",
     "postinstall": "fix-gaze"
   },
   "repository": {

@@ -4,9 +4,9 @@ This is the git repository of moztw.org web sites, including static pages. If yo
 
 ## Repos structure
 
-moztw.org website contains sections from the following different sub-domain-based repos, 
-each repo is independent executed and not relying on others. 
-please fork and checkout as you need. 
+moztw.org website contains sections from the following different sub-domain-based repos,
+each repo is independent executed and not relying on others.
+please fork and checkout as you need.
 
     base - Server configurations and automatic scripts
     www.moztw.org - Main MozTW website
@@ -15,14 +15,14 @@ please fork and checkout as you need.
     irclog.moztw.org - IRC Archive for #mozilla-taiwan of irc.mozilla.org
     translate.moztw.org - Localization system related stuff
     planet.moztw.org - A Planetplanet installation for MozTW Planet http://planet.moztw.org/
- 
-    
+
+
     Demos:
-    
+
     browser-pairs - Foxmosa pairs game at moztw.org/foxmosa/game/pairs
     star-pusher - Foxmosa Sokuban game at moztw.org/foxmosa/game/stars
-    moztw.org-demo - HTML5 demos located at moztw.org/demo  
-    
+    moztw.org-demo - HTML5 demos located at moztw.org/demo
+
     Deprecated:
     wiki.moztw.org - Wiki which is not in active usage
     photos.moztw.org - Picture Gallery of MozTW prior to Firefox 1.5 times.
@@ -49,30 +49,28 @@ You can do shallow clone to get this repo more quickly.
 4. Execute `cd [desired directory]` to get to the folder you want to keep the file.
 5. Run `git clone https://github.com/moztw/www.moztw.org.git` to clone the repository.
 6. Run `cd www.moztw.org`.
-7. Run `vagrant up`.  
+7. Run `vagrant up`.
    This may take a while (approx. 15-20 minutes) as it needs to download a virtual machine image and all the other required packages to run.
-8. Run `vagrant exec grunt`.  
+8. Run `vagrant exec npm start`.
    You will see the output will stay at `watch`.
-9. Open a web browser, go to `localhost:3000` and you can see the current website.  
+9. Open a web browser, go to `localhost:3000` and you can see the current website.
    You can modify the website contents and the changes will be reflected in seconds.
-10. To stop the script, go back to the terminal and hit Ctrl-C.  
+10. To stop the script, go back to the terminal and hit Ctrl-C.
    Also if you want to stop the virtual machine running, run `vagrant halt`.
 
 
 ### Using Node.js directly
 1. Install [nodejs](http://nodejs.org/) and [npm](https://www.npmjs.org/) in your system.
-2. Install [Grunt](http://gruntjs.com/)
-    `sudo npm install -g grunt-cli`
-3. Run `npm install` in repo directory.
-4. Run `grunt` in repo directory, the output will stay at `watch` task.
-5. Open `localhost:3000`, modify and see the [LiveReload](http://livereload.com/) result.
+2. Run `npm install` in repo directory.
+3. Run `npm start` in repo directory, the output will stay at `default` task.
+4. Open `localhost:3000`, modify and see the [browswersync](http://browsersync.io/) result.
 
 
 ## Static Pages Local Installation
 
-It's easy to set up static pages including home page, event pages, contribution pages, etc. 
+It's easy to set up static pages including home page, event pages, contribution pages, etc.
 
-Only one requirement: 
+Only one requirement:
 * SSI (Server Side Include)-supported web server with Virtual Hosts enabled
 
 ### Apache 2.4
@@ -127,4 +125,4 @@ Note that we're not running Nginx server on the hosting site, you might encounte
 ## Coding Style
 * Please always use LF on line ending, and set 2/4 space characters as indent according to the original style of each files.
 * Please take [Mozilla Coding Style](https://developer.mozilla.org/en-US/docs/Mozilla_Coding_Style_Guide) as reference.
-* If your editor supports [EditorConfig](http://editorconfig.org/), install the plugin and it will take care the style config. 
+* If your editor supports [EditorConfig](http://editorconfig.org/), install the plugin and it will take care the style config.
