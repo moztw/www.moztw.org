@@ -113,7 +113,7 @@ server {
     index index.html index.htm index.shtml index.php;
   }
 
-  # Rewrite *.html to *.shtml, if you're using grunt browser-sync server
+  # Rewrite *.html to *.shtml (for example, the download link)
   location ~ \.html$ {
     if (!-f $request_filename) {
       rewrite ^(.*)\.html$ $1.shtml;
