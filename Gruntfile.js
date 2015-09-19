@@ -1,5 +1,6 @@
 module.exports = function(grunt) {
 	require('load-grunt-tasks')(grunt);
+	var BSconfig = require('./bs-config');
 	grunt.initConfig({
 		watch: {
 			files: {
@@ -13,21 +14,13 @@ module.exports = function(grunt) {
 		browserSync: {
 			server: {
 				bsFiles: {
-					src : [
-						'**/*.shtml',
-						'**/*.css',
-						'!**/node_modules/**'
-					]
+					src: BSconfig.files
 				},
 				options: {
 					watchTask: false,
 					server: {
-						baseDir: './',
-						middleware: [require('connect-modrewrite')([
-							'^(.*)\.html$ $1.shtml'
-						]), require('browsersync-ssi')({
-							baseDir: './'
-						})]
+						baseDir: BSconfig.server,
+						middleware: BSconfig.middleware
 					}
 				}
 			}
