@@ -5,7 +5,7 @@ AddType video/webm .webm
 AddType text/rdf+n3 .n3  #It's timbl's fault that this is not yet standardized
 
 DirectoryIndex index Overview
-SSILegacyExprParse on
+SSILegacyExprParser on
 
 Redirect permanent /firefox-new /firefox
 Redirect permanent /firefox/release /firefox/releases
