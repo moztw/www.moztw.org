@@ -1,0 +1,124 @@
+<!--#set var="release_date" value="2015-09-22" -->
+<!--#set var="version" value="41.0" -->
+<!--#set var="previous_version" value="40.0.3" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>藉 TSF（Text Services Framework）改善 Windows（Vista+）IME 支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>可以為 Firefox 帳號設定個人圖片。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox Hello 開始支援即時訊息。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>網站 favicon 可以使用 SVG 圖片。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>改善 box-shadow 繪圖效能。</span>
+    </li>
+
+    <!-- <li>
+      <span class="tag tag-changed">變更</span>
+      <span>未經 Mozilla 簽署的擴充套件將會被停用，詳見<a href="https://support.mozilla.org/kb/add-on-signing-in-firefox">Firefox 的附加元件簽署</a>。</span>
+    </li> -->
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>WebRTC 強制要求 <a href="https://hacks.mozilla.org/2015/02/webrtc-requires-perfect-forward-secrecy-pfs-starting-in-firefox-38/">PFS</a>（Perfect Forward Secrecy）支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>停用 Windows 7 的 WARP。</span>
+    </li>
+    <!-- <li>
+      <span class="tag tag-changed">變更</span>
+      <span>大幅減輕 <a href="https://blog.mozilla.org/nnethercote/2015/07/01/firefox-41-will-use-less-memory-when-running-adblock-plus">AdBlock Plus 的記憶體消費</a>。</span>
+    </li> -->
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>關於圖片解碼程序的更新。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>支援在 compositor thread 執行 CSS <code>transform</code> 和 <code>opacity</code> <a href="https://wiki.mozilla.org/Platform/GFX/OffMainThreadCompositing#CSS_Animations">動畫</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>啟用 <a href="https://developer.mozilla.org/docs/Web/API/MessageChannel">MessageChannel</a> 和 <a href="https://developer.mozilla.org/docs/Web/API/MessagePort">MessagePort</a> API。</span>
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>支援 SVG 元素的 <a href="https://developer.mozilla.org/docs/Web/CSS/transform-origin">transform-origin</a> 屬性。</span>
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span></span>
+      啟用 <a href="http://dev.w3.org/csswg/css-font-loading/">CSS Font Loading API</a>。
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span><a href="https://developer.mozilla.org/docs/Web/API/NavigatorOnLine/onLine">Navigator.onLine</a> 會反映實際連線狀態（限 Windows 和 Mac OS X）。</span>
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>使用 JavaScript <code><a href="https://developer.mozilla.org/docs/Web/API/Document/execCommand">document.execCommand(&quot;cut&quot;/&quot;copy&quot;)</a></code> 將網頁內容剪下／複製到 OS 剪貼簿。</span>
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>實作 <a href="https://developer.mozilla.org/docs/Web/API/CacheStorage">Cache API</a>，由 Window、Worker 或 ServiceWorker 存取快取資料。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>擴充套件不再支援使用二進位 XPCOM 元件，請改用附加元件 SDK 的「system/child_process」pipe 機制。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>網路請求可以使用 <a href="http://www.softwareishard.com/blog/har-12-spec/">HAR</a> 格式匯出。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>使用檢測器的「<a href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Examine_and_edit_CSS#Add_rules">新增規則</a>」按鈕快速新增 CSS 規則。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>使用標記檢視選單的「擷取該節點的圖片」對節點或元素擷圖。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>使用檢測器選單的「複製屬性宣告」複製元素的 CSS 規則宣告。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>檢測器新增<a href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Examine_and_edit_CSS#Setting_hover_active_focus">「pseudo-class」面板</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Picture 元素不能正常反應 resize/viewport 變化。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox41.0">安全性修正</a>。</span>
+    </li>
+
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2041&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox41&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla41&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

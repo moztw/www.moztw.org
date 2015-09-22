@@ -1,5 +1,6 @@
 <!--#set var="release_date" value="2015-05-15" -->
 <!--#set var="version" value="38.0.1" -->
+<!--#set var="previous_version" value="38.0" -->
 
 <!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
 
@@ -27,8 +28,7 @@
 		</li>
 		<li class="complete">
 			請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2038&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox38&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla38&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
-			您可能也想瞭解
-			<a href="/firefox/releases/38.0/">前一個版本的更新</a>。
+			您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
 		</li>
 	</ul>
 
