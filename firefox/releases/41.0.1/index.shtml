@@ -1,0 +1,43 @@
+<!--#set var="release_date" value="2015-10-01" -->
+<!--#set var="version" value="41.0.1" -->
+<!--#set var="previous_version" value="41.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>關於 Yandex 工具列和 Adblock Plus 的啟動錯誤（<a href="https://bugzilla.mozilla.org/1209124">bug 1209124</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>潛在的 Flash 外掛問題（<a href="https://bugzilla.mozilla.org/1185639">bug 1185639</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>建立書籤功能不正確（<a href="https://bugzilla.mozilla.org/1206376">bug 1206376</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>部分 Intel Media Accelerator 3150 顯示卡的啟動當機問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1207665">bug 1207665</a>）</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Facebook 上偶發性的顯示當機問題（<a href="https://bugzilla.mozilla.org/1178601">bug 1178601</a>）。</span>
+    </li>
+
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2041&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox41&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla41&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
