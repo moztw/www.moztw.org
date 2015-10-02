@@ -17,7 +17,7 @@
 
 <ul class="news">
   <li><div class="date"> 10 月 1</div>
-    Firefox 41.0.1 更新</li>
+    <a href="/firefox/releases/41.0.1/">Firefox 41.0.1</a>、Thunderbird 38.3.0 更新</li>
   <li><div class="date"> 9 月 22</div>
     <a href="/firefox/releases/41.0/">Firefox 41.0</a> 更新</li>
   <li><div class="date"> 8 月 28</div>
