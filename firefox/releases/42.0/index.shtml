@@ -1,0 +1,97 @@
+<!--#set var="release_date" value="2015-11-03" -->
+<!--#set var="version" value="42.0" -->
+<!--#set var="previous_version" value="41.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>隱私瀏覽模式新增「<a href="https://blog.mozilla.org/futurereleases/2015/09/23/help-test-private-browsing-with-tracking-protection-in-firefox-beta/">追蹤保護</a>」功能，封鎖會記錄瀏覽行為的特定元素。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>隱私瀏覽新增「控制中心」畫面，包含安全性和隱私控制項目。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>在播放聲音的分頁顯示指示圖標，且可以用來切換靜音。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>WebRTC 相關改進：</span>
+      <ul>
+        <li>支援 IPV6。</li>
+        <li>新增用來控制 ICE candidate 生成和 IP 揭露的選項。</li>
+        <li>提供 <a href="https://hacks.mozilla.org/2015/09/controlling-webrtc-peerconnections-with-an-extension/">hook</a> 讓擴充套件允許／拒絕 <code>createOffer</code>/<code>createAnswer</code>。</li>
+        <li>改善 <code>getUserMedia</code> 中應用程式監控所使用裝置的能力。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>密碼管理員相關改進：</span>
+      <ul>
+        <li>改善記憶使用者名稱／密碼時機的判斷。</li>
+        <li>右鍵選單新增編輯、複製使用者名稱和密碼的功能。</li>
+        <li>隨時皆可匯入來自 Windows 版 Google Chrome 或 IE 的密碼。</li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>改善互動網站進行大量樣式更新的效能。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>實作 <a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect">ES6 Reflect</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>支援 <a href="https://developer.mozilla.org/docs/Web/API/ImageBitmap">ImageBitmap</a> 和 <a href="https://developer.mozilla.org/docs/Web/API/CreateImageBitmap">createImageBitmap()</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>所有網站皆可使用 HTML5 video 的 Media Source Extension。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>以<a href="https://hacks.mozilla.org/2015/07/developer-edition-41-view-source-in-a-tab-screenshot-elements-har-files-and-more/">分頁檢視 HTML 原始碼</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>經由 WiFi 進行<a href="https://developer.mozilla.org/docs/Tools/Remote_Debugging/Debugging_Firefox_for_Android_over_Wifi">遠端除錯</a>（不需要 USB 連線或 ADB）。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>「呼叫堆疊」能辨認來自 setTimeout、DOM 事件和 Promise 處理器等非同步呼叫的順序。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>WebIDE 的 <a href="https://developer.mozilla.org/docs/Tools/WebIDE/Setting_up_runtimes#Configuring_Simulators">Firefox OS 模擬器</a>可以設定適用的手機、平板、電視等裝置。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>檢測器中自訂的 <a href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Edit_CSS_filters#Saving_filter_presets">CSS 預設篩選器</a>可以儲存供未來使用。</span>
+    </li>
+
+    <h3 id="knownissues">已知問題</h3>
+    <ul class="tags">
+      <li>
+        <span class="tag tag-unresolved">尚未修復</span>
+        <span>含有 Unicode-format Internationalized Domain Name (IDN) 的 URL 無法正確重新導向，造成<em>找不到伺服器</em>錯誤。</span>
+      </li>
+    </ul>
+
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2042&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox42&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla42&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
