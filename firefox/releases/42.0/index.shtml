@@ -78,6 +78,11 @@
       <span>檢測器中自訂的 <a href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Edit_CSS_filters#Saving_filter_presets">CSS 預設篩選器</a>可以儲存供未來使用。</span>
     </li>
 
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正 OS X Yosemite 下載檔案介面變成簡體中文的問題（<a href="https://bugzilla.mozilla.org/1089363">bug 1089363</a>）。</span>
+    </li>
+
     <h3 id="knownissues">已知問題</h3>
     <ul class="tags">
       <li>
