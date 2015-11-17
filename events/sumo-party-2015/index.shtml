@@ -1,0 +1,460 @@
+<!--#include virtual="/inc/meta.html" -->
+<title>SUMO 王國群雄爭霸，小莎軍團正在招兵買馬！</title>
+<meta name="description" content="SUMO 王國群雄爭霸，小莎軍團正在招兵買馬！究竟誰才能擊敗群雄，成為軍團的一份子？">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/events/sumo2015/">
+<meta property="og:site_name" content="MozTW, Mozilla 台灣社群">
+<meta property="og:description" content="SUMO 王國群雄爭霸，小莎軍團正在招兵買馬！究竟誰才能擊敗群雄，成為軍團的一份子？">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="MozTW localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<link rel="stylesheet" type="text/css" href="/js/library/leaflet/leaflet.css" media="screen, projection">
+<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="/js/library/leaflet/leaflet.ie.css"><![endif]-->
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800">
+<!--[if IE]><script src="/js/library/html5shiv/html5shiv-printshiv.js"></script><![endif]-->
+<style>
+
+  @media screen and (orientation: landscape){
+
+    nav {
+      text-align: center;
+      height: auto;
+      display: block;
+      /*border: 1px solid gray;*/
+      margin: 10px 0 10px 0;
+    }
+
+    .fixedNav > nav {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      width: 80%;
+      margin: 0 10% 0 10%;
+      border: none;
+      background: #F1F1F1 url("/images/furley_bg.png") repeat scroll 0% 0%;
+    }
+
+    .fixedNav > section.story {
+      margin-top: 40px;
+    }
+
+    nav > ul {
+      width: 100%;
+      margin: 0;
+      display: block;
+      list-style-type: none;
+      overflow: hidden;
+      padding: 0 1em;
+    }
+
+    nav > ul > li {
+      padding: 0.5em 0.5em;
+      display: inline-block;
+      line-height: 1.42857;      
+    }
+
+    nav > ul > li > a {
+      color: #722eeb !important; 
+      font-size: 14px;
+      line-height: 20px;
+      text-decoration: none;
+      padding-bottom: 2px;
+    }
+
+    nav > ul > li > a:hover {
+      border-bottom: solid 2px #722eeb;
+    }
+
+    nav > ul > li > a.navActive {
+      border-bottom: solid 2px #722eeb;
+    }
+
+    section.story > header {
+      display: block;
+      line-height: 8em;
+      text-align: center;
+      font-size: 2em;
+      color: white;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      padding: 0;
+      box-shadow: none;
+      background: #57b2d9;
+    }
+
+    aside > div.contents > div.regist > a {
+      width: 120px;
+      margin: 30px auto 10px;
+      text-align: center;
+      padding: 0 30px;;
+      background: rgb(100, 192, 37);
+      box-shadow: rgb(89, 171, 33) 0px -2px 0px inset;
+      color: white;
+      text-decoration: none;
+      height: 48px;
+      display: block;
+      line-height: 48px;
+    }
+
+    aside > div.contents > div.regist > a:hover {
+      background: rgb(89, 171, 33);
+      box-shadow: rgb(78, 149, 29) 0px -2px 0px inset;
+    }
+
+    aside {
+      display: block;
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+    }
+
+    aside > header {
+      display: inline-block;
+      position: relative;
+      width: auto;
+      font-size: 32px;
+      left: 5px;
+      top: 28px;
+      margin: 15px;
+      background: #F1F1F1 url("/images/furley_bg.png") repeat scroll 0% 0%;
+    }
+
+    aside > div.contents {
+      background: #F1F1F1 url("/images/furley_bg.png") repeat scroll 0% 0%;
+      padding: 15px;
+      border: solid black 3px;
+    }
+
+    aside > div.contents > ul {
+      padding: 15px;
+      margin: 10px 0 -10px 0;
+      list-style-type: none;
+    }
+
+  }
+
+  @media screen and ( max-width: 1153px ){
+    aside {
+      display: none;
+    }
+  }
+
+  @media screen and (orientation: portrait){
+
+    nav {
+      display: none;
+    }
+
+    section.story > header {
+      display: block;
+      line-height: 2em;
+      text-align: center;
+      font-size: 1.5em;
+      color: white;
+      padding: 15px 0;
+      box-shadow: none;
+      background: #57b2d9;
+    }
+  }
+
+  section {
+    margin: 0;
+    padding: 0 0 20px 0;
+  }
+
+  section > header {
+    text-align: center;
+    font-size: 32px;
+    display: block;
+    box-shadow: 0px 2px 0px rgba(99, 99, 99, 0.5);
+    padding-bottom: 8px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+  }
+
+  section > article {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 2em;
+    font-size: 1.1em;
+  }
+    
+  section.record > div.contents {
+    line-height: 128px;
+    height: 128px;
+    width: 100%;
+    text-align: center;
+    background: black;
+  }
+
+  section.event > ul {
+
+    list-style-type: none;
+    font-weight: bold;
+    border: solid 1px #fd9926;
+    width: 90%;
+    margin: 15px auto 15px auto;
+    text-align: center;
+  }
+
+  section.regist > div.contents {
+    margin: 64px 0 64px 0 ;
+  }    
+
+  section.regist > div.contents > a {
+    width: 120px;
+    margin: 30px auto 10px;
+    text-align: center;
+    padding: 0 30px;;
+    background: rgb(100, 192, 37);
+    box-shadow: rgb(89, 171, 33) 0px -2px 0px inset;
+    color: white;
+    text-decoration: none;
+    height: 48px;
+    display: block;
+    line-height: 48px;
+  }
+  
+  section.regist > div.contents > a:hover {
+    background: rgb(89, 171, 33);
+    box-shadow: rgb(78, 149, 29) 0px -2px 0px inset;
+  }    
+
+  section.regist > div.contents > a {
+    width: 120px;
+    margin: 30px auto 10px;
+    text-align: center;
+    padding: 0 30px;;
+    background: rgb(100, 192, 37);
+    box-shadow: rgb(89, 171, 33) 0px -2px 0px inset;
+    color: white;
+    text-decoration: none;
+    height: 48px;
+    display: block;
+    line-height: 48px;
+  }
+
+  section.regist > div.contents > a:hover {
+    background: rgb(89, 171, 33);
+    box-shadow: rgb(78, 149, 29) 0px -2px 0px inset;
+  }
+
+</style>
+<!--#include virtual="/inc/class_homepage.html" -->
+<!--#include virtual="/inc/header.html" -->
+  <div class="container">
+    <nav>
+      <ul>
+        <li>
+          <a href="#" data-index="story">召集！來自小莎軍團的勇士徵召令！</a>
+        </li>
+        <li>
+          <a href="#" data-index="sumo">什麼是 SUMO</a>
+        </li>
+        <li>
+          <a href="#" data-index="event">活動資訊</a>
+        </li>
+        <li>
+          <a href="#" data-index="record">活動記錄</a>
+        </li>
+        <li>
+          <a href="#" data-index="regist">報名參加</a>
+        </li>
+      </ul>
+    </nav>
+
+    <section data-loc="story" class="story">
+      <header><span style="font-size: 1.2em; color: red">召集！</span>來自小莎軍團的勇士徵召令！</header>
+      <article>
+        <p>
+          睽違三年，守護 SUMO 王國的小莎軍團再度招兵買馬啦！
+        </p>
+        <p>
+          為維護網路自由與和平，小莎軍團這次將挑選在一定時間內獲得王國內最大勢力範圍的團隊進入小莎軍團。
+        </p>
+      </article>
+    </section>
+
+    <section data-loc="sumo" class="sumo">
+      <header>什麼是 SUMO</header>
+      <article>
+        <p>
+          <a href="https://support.mozilla.org/zh-TW/">SUMO</a> 在日文裡頭是相撲的意思，但在這裡指的是：Support Mozilla :)
+        </p>
+        <p>
+          簡單說，SUMO 是個匯集著世界各地 Mozillian 智慧的知識檔案庫。這裡提供的通常是一些簡短而精實的文章，
+          讓使用者能夠快速的排除問題或瞭解網路相關的知識。
+        </p>
+        <p>
+          根據統計，這裡的熱門文章往往都有<a href="https://support.mozilla.org/zh-TW/localization/most-visited-translations?product=firefox">百萬次的點閱率</a>，平均每天在 SUMO 上尋求協助的人數也多達<a href="https://support.mozilla.org/zh-TW/kpi/dashboard#kpi-visitors">百萬人</a>，在近幾個月的統計數字中，搜尋的點擊率甚至超過九成！
+        </p>
+        <p>
+          事實上我們已經翻譯了不少常見的文件，但是這一年來隨著 Mozilla 軟體的推陳出新，這裡累積了不少新的知識，也有為數不少文章更新了，為了讓更多繁體中文的使用者可以享受這些知識，我們需要您的熱心協助，用更友善的文字將這些知識分享出來。
+        </p>
+      </article>
+    </section>
+
+    <section data-loc="event" class="event">
+      <header>活動資訊</header>
+      <article>
+        <p>
+          Hey！勇士們，準備好奉獻出你的心臟，挑戰這個重要的任務了嗎！
+        </p>
+        <p>
+          為了取得這份榮耀，你將協同夥伴與其他不同的團隊探索 SUMO 王國，轉譯歷史文本以取得地盤的控制權！
+        </p>
+        <p>
+          在這裡，文本的轉譯是你唯一的武器，團隊的合作是唯一的勝出之路，快帶著你的滿腔熱血，裝備你的「＋１０筆電」，與你的夥伴一同在 SUMO 王國冒險吧！
+        </p>
+        <p>
+          而傳說王國內還有古老的隱藏地洞，能前往豐饒的秘境...
+        </p>
+      </article>
+      <ul>
+        <li>日期：2015年11月28日 (六)</li>
+        <li>時間：14:00 - 20:30</li>
+        <li>地點：
+          <a href="https://www.google.com.tw/maps/place/100台北市中正區八德路一段94號/">摩茲工寮（台北市中正區八德路一段 94 號 3F）</a></li>
+      </ul>
+      <article>
+        <p>
+          當然，活動之餘也別忘了結交新朋友，試試不一樣的新東西，或者聽聽平常聽不到的八卦。我們也準備了一些精美的小禮物給最大的勝利者，保證讓您滿載而歸！
+        </p>
+      </article>
+    </section>
+
+    <section data-loc="record" class="record">
+      <header>活動記錄</header>
+      <div class="contents">
+          敬請期待
+          <!--放個活動倒數如何-->
+          <!--放個往年回顧如何-->
+      </div>
+    </section>
+
+    <section data-loc="regist" class="regist">
+      <header>報名參加</header>
+      <div class="contents">
+        <a href="https://kktix.com/events/sumoparty2015/registrations/new">立即報名</a>
+      </div>
+    </section>
+
+    <aside class="info">
+      <header>活動資訊</header>
+      <div class="contents">
+        <ul>
+          <li>日期：2015/11/28 (六)</li>
+          <li>時間：14:00-20:30</li>
+          <li>地點：摩茲工寮</li>
+          <li>費用：Free!!</li>
+        </ul>
+        <div class="regist">
+          <a href="https://kktix.com/events/sumoparty2015/registrations/new">立即報名</a>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <script type="text/javascript">
+
+    // Gen Optimized scroll event, code from MDN.
+    ;(function() {
+      var throttle = function(type, name, obj) {
+        var obj = obj || window;
+        var running = false;
+        var func = function() {
+          if (running) { return; }
+          running = true;
+          requestAnimationFrame(function() {
+              obj.dispatchEvent(new CustomEvent(name));
+              running = false;
+          });
+        };
+        obj.addEventListener(type, func);
+      };
+
+      /* init - you can init any event */
+      throttle ("scroll", "optimizedScroll");
+    })();
+
+    // This function will "focus" from old nav option to new one.
+    // target: new nav option to focus on, must be a DOM element.
+    function switchNav(target){
+
+      [].forEach.call(document.querySelectorAll(".navActive"), function(e){
+        e.className = "";
+      });
+
+      target.className = "navActive";
+    }
+
+    function freezeNav(){
+
+      var header = document.querySelector("#container > #header"), 
+          content = document.querySelector("#container > div.container"), 
+          currentOffset = window.scrollY;
+
+      if( (header.offsetTop + header.offsetHeight ) <= currentOffset ){
+        content.className = content.className.replace(" fixedNav", "").concat(" fixedNav");
+      }
+      else {
+        content.className = content.className.split(" fixedNav").join("");
+      }
+    }
+
+    ;(function init(){
+
+      // retry init if document is not ready
+      if( /in/.test(document.readyState) ){
+        window.setTimeout( init, 1000 );
+        return ;
+      }
+
+      const navHeight = 40;
+
+      var btnMap = [].slice.call(document.querySelectorAll("section"));
+      
+      document.querySelector("nav").addEventListener('click', function(e){
+        e.preventDefault();
+        var index = e.target.dataset.index, target;
+        if( index ){
+          target = btnMap.filter(function(e){
+            return e.dataset.loc === index;
+          })[0];
+
+          offset = target.offsetHeight > ( window.innerHeight ) ? (target.offsetTop - navHeight) : (target.offsetTop - navHeight - (window.innerHeight - navHeight - target.offsetHeight) / 2 );
+          window.scroll(0, offset);
+        }
+      })
+
+      function detectCurNav(){
+        var currentOffsetMid = window.scrollY + window.innerHeight * 0.45;
+        
+        var curSection = btnMap.reduce(function(p, c){
+          return currentOffsetMid > c.offsetTop ? c : p;
+        }, undefined).dataset.loc;
+
+        var newNav = [].slice.call(document.querySelectorAll("a")).filter(function(e){
+          return e.dataset.index === curSection;
+        })[0]; 
+
+        return newNav;
+      }
+
+      window.addEventListener("optimizedScroll", function() {
+        freezeNav();
+        switchNav(detectCurNav());
+      });
+
+      switchNav(detectCurNav());
+    })();
+
+  </script>
+  <script type="text/javascript" charset="utf-8" src="/js/library/leaflet/leaflet.js"></script>
+  <!--#include virtual="/inc/footer.html" -->
