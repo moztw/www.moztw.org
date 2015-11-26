@@ -264,7 +264,7 @@
                                     <label title="點選此處，將此套件列入安裝清單。"><input name="分頁管理器" value="/dls/fx/mocotwver/xpi/tabimprovelite-2.0.1.xpi" addon="tabimprovelite" type="checkbox">列入安裝清單</label> |
                                     <a class="direct-install" href="/dls/fx/mocotwver/xpi/tabimprovelite-2.0.1.xpi" onclick="ga('send', 'event', 'Install', 'myfirefox', 'addon_tabimprovelite');">+立即安裝</a>
                                 </div>
-                                <div class="tracking"><a href="hhttps://github.com/MozillaOnline/tabimprovelite/blob/3bf97c5d40dc1162ce7d124fdf0b482c90cc38cb/chrome/content/ntabimprovelite.js" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'Github', 'mozillaonline-tabimprovelite']);">美商謀智透過本套件進行行為追蹤</a></div>
+                                <div class="tracking"><a href="https://github.com/MozillaOnline/tabimprovelite/blob/3bf97c5d40dc1162ce7d124fdf0b482c90cc38cb/chrome/content/ntabimprovelite.js" target="_blank" onclick="_gaq.push(['_trackEvent', 'Outgoing', 'Github', 'mozillaonline-tabimprovelite']);">美商謀智透過本套件進行行為追蹤</a></div>
                                 <div class="source">
                                     <a href="https://github.com/mozillaonline/tabimprovelite" target="_blank">
                                     觀看原始碼
