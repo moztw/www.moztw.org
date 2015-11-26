@@ -99,7 +99,7 @@
 
         <section id="registrano">
         	<h2>本活動現已結束，歡迎線上觀看全片。</h2>
-<!--        	<a class="fallback-register-button event-link" onClick="ga('send', 'event', 'Outgoing', 'Code Rush', 'Registrano');" href="hhttp://registrano.com/events/code-rush">前往活動報名網頁</a>-->
+<!--        	<a class="fallback-register-button event-link" onClick="ga('send', 'event', 'Outgoing', 'Code Rush', 'Registrano');" href="http://registrano.com/events/code-rush">前往活動報名網頁</a>-->
         	<div class="registrano-blog-badge w-220" id="registrano-blog-badge-code-rush"></div>
         </section>
 
