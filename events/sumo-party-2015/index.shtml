@@ -570,9 +570,9 @@
 _init_click_to_show_what_is_sumo (e) {
           e.preventDefault();
           var sumo = document.querySelector('.sumo');
-          sumo.className = sumo.className.split("sectionShow").join("") + " sectionShow";
+          sumo.className = sumo.className.replace(" sectionShow", "").concat(" sectionShow");
           var sumoIndex = document.querySelector('#sumoIndex');
-          sumoIndex.className = sumoIndex.className.split("liShow").join("") + " liShow";
+          sumoIndex.className = sumoIndex.className.replace(" liShow", "").concat(" liShow");
           this.parentNode.removeChild(this);
       });
 
