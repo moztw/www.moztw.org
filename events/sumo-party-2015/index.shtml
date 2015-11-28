@@ -87,6 +87,11 @@
       background: #57b2d9;
     }
 
+
+  }
+
+  @media screen and ( min-width: 1153px ){
+
     aside > div.contents > div.regist > a {
       width: 120px;
       margin: 30px auto 10px;
@@ -135,7 +140,6 @@
       margin: 10px 0 -10px 0;
       list-style-type: none;
     }
-
   }
 
   @media screen and ( max-width: 1153px ){
@@ -194,7 +198,6 @@
   }
 
   section.event > ul {
-
     list-style-type: none;
     font-weight: bold;
     border: solid 1px #fd9926;
@@ -203,6 +206,39 @@
     text-align: center;
   }
 
+  section.event > footer {
+    text-align: right;
+  }
+
+  /* this section will not display until user wanna to know what is "sumo"*/
+  section.hideInit {
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    transition-property: opacity, height;
+    opacity: 0;
+    overflow-y: hidden;
+    max-height: 0;
+  }
+
+  section.hideInit.sectionShow {
+    /*height: 100%;*/
+    max-height: 500px;
+    opacity: 1;
+  }
+
+  li.hideInit {
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    transition-property: opacity;
+    opacity: 0;
+    display: none;
+  }
+
+  li.hideInit.liShow {
+    opacity: 1;
+    display: inline-block;
+  }
+  
   section.regist > div.contents {
     margin: 64px 0 64px 0 ;
   }    
@@ -245,6 +281,11 @@
     box-shadow: rgb(78, 149, 29) 0px -2px 0px inset;
   }
 
+  strong {
+    padding: 0 2px;
+    font-weight: 4px;
+  }
+
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
@@ -252,13 +293,13 @@
     <nav>
       <ul>
         <li>
-          <a href="#" data-index="story">召集！來自小莎軍團的勇士徵召令！</a>
-        </li>
-        <li>
-          <a href="#" data-index="sumo">什麼是 SUMO</a>
+          <a href="#" data-index="story">召集！來自小莎軍團的勇士召喚！</a>
         </li>
         <li>
           <a href="#" data-index="event">活動資訊</a>
+        </li>
+        <li id="sumoIndex" class="hideInit">
+          <a href="#" data-index="sumo">什麼是 SUMO</a>
         </li>
         <li>
           <a href="#" data-index="record">活動記錄</a>
@@ -270,19 +311,64 @@
     </nav>
 
     <section data-loc="story" class="story">
-      <header><span style="font-size: 1.2em; color: red">召集！</span>來自小莎軍團的勇士徵召令！</header>
+      <header><span style="font-size: 1.2em; color: red">召集！</span>來自小莎軍團的勇者召喚！</header>
       <article>
         <p>
           睽違三年，守護 SUMO 王國的小莎軍團再度招兵買馬啦！
         </p>
         <p>
-          為維護網路自由與和平，小莎軍團這次將挑選在一定時間內獲得王國內最大勢力範圍的團隊進入小莎軍團。
+          這次，小莎軍團將邀請知識最為淵博，戰鬥力最為驚人的勇士加入王國的探險隊。
         </p>
       </article>
     </section>
 
-    <section data-loc="sumo" class="sumo">
+    <section data-loc="event" class="event">
+      <header>活動資訊</header>
+      <article>
+        <p>
+          根據先遣隊的回報，王國東南方的雨林深處，發現了為數眾多的神秘遺跡，這些遺跡很可能是古 SUMO 王國的一部份！為了探索出更多有用的情報，我們必需突破重重難關，並設法開啟被封印的深層遺跡！
+        </p>
+        <p>
+          準備好奉獻出你的心臟，挑戰這個<strong>超．Nightmare</strong>級的任務了嗎！
+        </p>
+        <p>
+          在這裡，團隊的合作是唯一的勝出之路。我們將要組成有史以來最為強大的古跡探險隊，一邊與兇惡的雨林奮鬥，一邊探索遺跡中的各種秘密。
+        </p>
+        <p>
+          我們不怕兇殘的叢林猛獸，也不怕嗜血的食人植物，因為我們知道，只要成功解析古代 SUMO 文字，我們的科學家就能從古 SUMO 王國的智慧中再現超古代文明的科技。成功解析的石碑愈多，我們的王國也將更加的興盛！。
+        </p>
+        <p>
+          勇士們！快帶上你的滿腔熱血，裝備你的<strong>＋１０筆電</strong>，與你的夥伴一同，在 SUMO 王國的雨林裡勇敢冒險吧！
+        </p>
+        <p>
+          而古老的傳說顯示，雨林中極可能隱藏著古老的地洞，能前往豐饒的秘境...
+        </p>
+      </article>
+      <ul>
+        <li>日期：2015年12月19日 (六)</li>
+        <li>時間：14:00 - 20:30</li>
+        <li>地點：
+          <a href="https://www.google.com.tw/maps/place/100台北市中正區八德路一段94號/">摩茲工寮（台北市中正區八德路一段 94 號 3F）</a>
+        </li>
+        <li>活動內容：#SUMO #翻譯 #冒險 #領地爭奪</li>
+      </ul>
+      <article>
+        <p>
+          當然，活動之餘也別忘了結交新朋友，試試不一樣的新東西，或者聽聽平常聽不到的八卦。
+        </p>
+        <p>
+          我們也準備了一些精美的小禮物給最大的勝利者，保證讓您滿載而歸 (ﾉ&gtω&lt)ﾉ！
+        </p>
+      </article>
+      <footer>
+        <a href="#" id="showMeSumo">→ 進一步瞭解 SUMO</a>
+      </footer>
+    </section>
+
+    
+    <section data-loc="sumo" class="sumo hideInit">
       <header>什麼是 SUMO</header>
+  
       <article>
         <p>
           <a href="https://support.mozilla.org/zh-TW/">SUMO</a> 在日文裡頭是相撲的意思，但在這裡指的是：Support Mozilla :)
@@ -295,36 +381,8 @@
           根據統計，這裡的熱門文章往往都有<a href="https://support.mozilla.org/zh-TW/localization/most-visited-translations?product=firefox">百萬次的點閱率</a>，平均每天在 SUMO 上尋求協助的人數也多達<a href="https://support.mozilla.org/zh-TW/kpi/dashboard#kpi-visitors">百萬人</a>，在近幾個月的統計數字中，搜尋的點擊率甚至超過九成！
         </p>
         <p>
-          事實上我們已經翻譯了不少常見的文件，但是這一年來隨著 Mozilla 軟體的推陳出新，這裡累積了不少新的知識，也有為數不少文章更新了，為了讓更多繁體中文的使用者可以享受這些知識，我們需要您的熱心協助，用更友善的文字將這些知識分享出來。
-        </p>
-      </article>
-    </section>
-
-    <section data-loc="event" class="event">
-      <header>活動資訊</header>
-      <article>
-        <p>
-          Hey！勇士們，準備好奉獻出你的心臟，挑戰這個重要的任務了嗎！
-        </p>
-        <p>
-          為了取得這份榮耀，你將協同夥伴與其他不同的團隊探索 SUMO 王國，轉譯歷史文本以取得地盤的控制權！
-        </p>
-        <p>
-          在這裡，文本的轉譯是你唯一的武器，團隊的合作是唯一的勝出之路，快帶著你的滿腔熱血，裝備你的「＋１０筆電」，與你的夥伴一同在 SUMO 王國冒險吧！
-        </p>
-        <p>
-          而傳說王國內還有古老的隱藏地洞，能前往豐饒的秘境...
-        </p>
-      </article>
-      <ul>
-        <li>日期：2015年12月19日 (六)</li>
-        <li>時間：14:00 - 20:30</li>
-        <li>地點：
-          <a href="https://www.google.com.tw/maps/place/100台北市中正區八德路一段94號/">摩茲工寮（台北市中正區八德路一段 94 號 3F）</a></li>
-      </ul>
-      <article>
-        <p>
-          當然，活動之餘也別忘了結交新朋友，試試不一樣的新東西，或者聽聽平常聽不到的八卦。我們也準備了一些精美的小禮物給最大的勝利者，保證讓您滿載而歸！
+          事實上我們已經翻譯了不少常見的文件，但是這一年來，隨著 Mozilla 軟體的推陳出新，這裡累積了不少新的知識，也有為數不少文章更新了。
+          為了讓更多繁體中文的使用者可以享受這些知識，我們需要您的熱心協助，用更友善的文字將這些知識分享出來。
         </p>
       </article>
     </section>
@@ -452,7 +510,18 @@
         switchNav(detectCurNav());
       });
 
+      document.querySelector("#showMeSumo").addEventListener("click", function 
+_init_click_to_show_what_is_sumo (e) {
+          e.preventDefault();
+          var sumo = document.querySelector('.sumo');
+          sumo.className = sumo.className.split("sectionShow").join("") + " sectionShow";
+          var sumoIndex = document.querySelector('#sumoIndex');
+          sumoIndex.className = sumoIndex.className.split("liShow").join("") + " liShow";
+          this.parentNode.removeChild(this);
+      });
+
       switchNav(detectCurNav());
+      freezeNav();
     })();
 
   </script>
