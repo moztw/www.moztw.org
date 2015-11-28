@@ -143,9 +143,47 @@
   }
 
   @media screen and ( max-width: 1153px ){
+
     aside {
+      display: block;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      background: white;
+    }
+    
+    aside > header {
       display: none;
     }
+
+    aside > div.contents > ul {
+      display: none;
+    }
+
+    aside > div.contents > div.regist > a {
+      width: 120px;
+      margin: 10px auto 10px;
+      text-align: center;
+      padding: 0 30px;;
+      background: rgb(100, 192, 37);
+      box-shadow: rgb(89, 171, 33) 0px -2px 0px inset;
+      color: white;
+      text-decoration: none;
+      height: 48px;
+      display: block;
+      line-height: 48px;
+    }
+
+    aside > div.contents > div.regist > a:hover {
+      background: rgb(89, 171, 33);
+      box-shadow: rgb(78, 149, 29) 0px -2px 0px inset;
+    }
+
+    aside.arriveBottom {
+      display: none;
+    }
+
   }
 
   @media screen and (orientation: portrait){
@@ -239,11 +277,11 @@
     display: inline-block;
   }
   
-  section.regist > div.contents {
+  section.regist > div.regist {
     margin: 64px 0 64px 0 ;
   }    
 
-  section.regist > div.contents > a {
+  section.regist > div.regist > a {
     width: 120px;
     margin: 30px auto 10px;
     text-align: center;
@@ -257,12 +295,12 @@
     line-height: 48px;
   }
   
-  section.regist > div.contents > a:hover {
+  section.regist > div.regist > a:hover {
     background: rgb(89, 171, 33);
     box-shadow: rgb(78, 149, 29) 0px -2px 0px inset;
   }    
 
-  section.regist > div.contents > a {
+  section.regist > div.regist > a {
     width: 120px;
     margin: 30px auto 10px;
     text-align: center;
@@ -276,7 +314,7 @@
     line-height: 48px;
   }
 
-  section.regist > div.contents > a:hover {
+  section.regist > div.regist > a:hover {
     background: rgb(89, 171, 33);
     box-shadow: rgb(78, 149, 29) 0px -2px 0px inset;
   }
@@ -398,12 +436,12 @@
 
     <section data-loc="regist" class="regist">
       <header>報名參加</header>
-      <div class="contents">
+      <div class="contents regist">
         <a href="https://kktix.com/events/sumoparty2015/registrations/new">立即報名</a>
       </div>
     </section>
 
-    <aside class="info">
+    <aside class="info arriveBottom">
       <header>活動資訊</header>
       <div class="contents">
         <ul>
@@ -462,8 +500,25 @@
         content.className = content.className.replace(" fixedNav", "").concat(" fixedNav");
       }
       else {
-        content.className = content.className.split(" fixedNav").join("");
+        content.className = content.className.replace(" fixedNav", "");
       }
+    }
+
+    function hideQuickRegist(){
+      var currentOffset = window.scrollY,
+          windowHeight = window.innerHeight,
+          staticRegistBtn = document.querySelector("section.regist > div.regist > a"),
+          staticRegistBtnStyle = staticRegistBtn.currentStyle || window.getComputedStyle(staticRegistBtn),
+          aside = document.querySelector("aside");
+
+      if( (windowHeight + currentOffset) >= (staticRegistBtn.offsetTop + staticRegistBtn.offsetHeight + parseInt(staticRegistBtnStyle.marginBottom, 10) ) ){
+
+        aside.className = aside.className.replace(" arriveBottom", "").concat(" arriveBottom");
+      }
+      else {
+        aside.className = aside.className.replace(" arriveBottom", "")
+      }
+
     }
 
     ;(function init(){
@@ -507,6 +562,7 @@
 
       window.addEventListener("optimizedScroll", function() {
         freezeNav();
+        hideQuickRegist();
         switchNav(detectCurNav());
       });
 
@@ -522,6 +578,7 @@ _init_click_to_show_what_is_sumo (e) {
 
       switchNav(detectCurNav());
       freezeNav();
+      hideQuickRegist();
     })();
 
   </script>
