@@ -76,17 +76,16 @@
 
     section.story > header {
       display: block;
-      line-height: 8em;
-      text-align: center;
-      font-size: 2em;
-      color: white;
       margin-top: 8px;
       margin-bottom: 16px;
       padding: 0;
       box-shadow: none;
-      background: #57b2d9;
     }
 
+    section.story > header > img {
+      width: 100%;
+      height: 100%;
+    }
 
   }
 
@@ -194,13 +193,13 @@
 
     section.story > header {
       display: block;
-      line-height: 2em;
-      text-align: center;
-      font-size: 1.5em;
-      color: white;
       padding: 15px 0;
       box-shadow: none;
-      background: #57b2d9;
+    }
+
+    section.story > header > img {
+      width: 100%;
+      height: 100%;
     }
   }
 
@@ -349,7 +348,7 @@
     </nav>
 
     <section data-loc="story" class="story">
-      <header><span style="font-size: 1.2em; color: red">召集！</span>來自小莎軍團的勇者召喚！</header>
+      <header><img src="landing.png"/></header>
       <article>
         <p>
           睽違三年，守護 SUMO 王國的小莎軍團再度招兵買馬啦！
@@ -367,19 +366,19 @@
           根據先遣隊的回報，王國東南方的雨林深處，發現了為數眾多的神秘遺跡，這些遺跡很可能是古 SUMO 王國的一部份！為了探索出更多有用的情報，我們必需突破重重難關，並設法開啟被封印的深層遺跡！
         </p>
         <p>
-          準備好奉獻出你的心臟，挑戰這個<strong>超．Nightmare</strong>級的任務了嗎！
+          勇士們！準備好奉獻出你的心臟，挑戰這個<strong>超．Nightmare</strong>級的任務了嗎！
         </p>
         <p>
-          在這裡，團隊的合作是唯一的勝出之路。我們將要組成有史以來最為強大的古跡探險隊，一邊與兇惡的雨林奮鬥，一邊探索遺跡中的各種秘密。
+          在這裡，個人的睿智是最強的戰力，團隊的合作是唯一的勝出之路。我們將要組成有史以來最為強大的古跡探險隊，一邊與兇惡的雨林奮鬥，一邊探索遺跡中的各種秘密。
         </p>
         <p>
-          我們不怕兇殘的叢林猛獸，也不怕嗜血的食人植物，因為我們知道，只要成功解析古代 SUMO 文字，我們的科學家就能從古 SUMO 王國的智慧中再現超古代文明的科技。成功解析的石碑愈多，我們的王國也將更加的興盛！。
+          我們不怕兇殘的叢林猛獸，也不怕嗜血的食人植物，因為我們知道，只要成功解析古代 SUMO 文字，我們的科學家就能從古 SUMO 王國的智慧中再現超古代文明的科技。成功解析的石碑愈多，我們的王國也將更加的興盛！
         </p>
         <p>
-          勇士們！快帶上你的滿腔熱血，裝備你的<strong>＋１０筆電</strong>，與你的夥伴一同，在 SUMO 王國的雨林裡勇敢冒險吧！
+          快帶上你的滿腔熱血，裝備你的<strong>＋１０筆電</strong>，與你的夥伴一同在 SUMO 王國的雨林裡勇敢冒險吧！
         </p>
         <p>
-          而古老的傳說顯示，雨林中極可能隱藏著古老的地洞，能前往豐饒的秘境...
+          而根據古老的傳說，雨林中極可能隱藏著神秘的地洞，能前往豐饒的秘境...
         </p>
       </article>
       <ul>

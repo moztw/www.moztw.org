@@ -91,6 +91,23 @@ jQuery(function($) {
       </article>
     </a>
 
+    <a href="sumo-party-2015/" title="SUMO 王國群雄爭霸，小莎軍團正在招兵買馬！">
+      <article class="on">
+        <header>
+          <h2>SUMO 王國群雄爭霸，小莎軍團正在招兵買馬！</h2>
+          <time pubdate="pubdate">2015/12/19</time>
+          <span class="arrow"></span>
+        </header>
+
+        <div class="photo" style="background:url(sumo-party-2015/landing.png) 0 -100px;"></div>
+
+        <div class="content">
+          根據先遣隊的回報，王國東南方的雨林深處，發現了為數眾多的神秘遺跡，這些遺跡很可能是古 SUMO 王國的一部份！為了探索出更多有用的情報，我們必需突破重重難關，並設法開啟被封印的深層遺跡！
+        </div>
+
+      </article>
+    </a>
+
     <div class="group">
       <a href="service2014-2/" title="103 學年度第二學期服務學習成果總覽" id="service2014-2">
         <article class="small">
