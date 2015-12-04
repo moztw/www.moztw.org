@@ -3,9 +3,15 @@
 <!--#include virtual="/inc/title.html" -->
 <link rel="stylesheet" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+<link rel="stylesheet" href="/css/alpaca-everywhere.css" media="screen">
 <link rel="alternate" type="application/rss+xml" title="moztw.org: Mozilla Taiwan 社群新聞" href="/xmlnews.rdf">
 <style>
 <!--
+
+.alpaca_everywhere {
+  cursor: pointer;
+}
+
 .front-feature {
     position: relative;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
@@ -178,6 +184,18 @@
         line-height: 1.45em;
         letter-spacing: 0.05em;
     }
+
+    .key-point {
+      background-image: url("events/sumo-party-2015/landing.png");
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: contain !important;
+      cursor: pointer;
+    }
+
+    .key-point > .alpacaWin {
+      display: none !important;
+    }
 }
 -->
 </style>
@@ -203,7 +221,7 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-  <div id="mobile_link">
+  <div class="alpacaWin" id="mobile_link">
     <p id="mobile_faster">更快<br>更聰明<br>更加安全</p>
     <p id="mobile_respect">絕對尊重您的<br>行動瀏覽器</p>
     <a href="/mobile/"></a>
@@ -236,7 +254,7 @@
     <h2><a href="/mobile/"><img src="/images/foxmosa-android.png" style="float: left;height: 125px;margin:-5px 9px 0 -10px;width: 107px;" alt="Foxmosa love Android" class="promo">Android 版 Firefox</a></h2>
   	<p>Android 版 Firefox 全面更新，更快、更聰明、更加安全，輕巧又靈活，讓您更快到達想去的地方。</p>
   </div>
-  <div class="frontcolumn" id="feature-thunderbird">
+  <div class="frontcolumn alpaca_here" id="feature-thunderbird">
       <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-thunderbird-v3.png" style="height:72px;width:72px;" alt="Thunderbird Logo" class="promo"></a></h2>
 	  <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
   </div>
@@ -244,14 +262,14 @@
     <h2><a href="https://webmaker.org/"><img src="/images/webmaker.png" style="" alt="Webmaker" class="promo">Mozilla Webmaker</a></h2>
     <p>網路發展至今，人人都該具備在網路上創作的能力，Webmaker 計畫以各種簡單有趣的專案，讓大家嘗試混搭網頁、踏出網頁創作的第一步。</p>
   </div>-->
-  <div class="frontcolumn">
+  <div class="frontcolumn alpaca_here">
     <h2><a href="/space/">摩茲工寮<img src="/images/product-firefox-home.png" alt="" class="promo" style="width: 72px; height: 72px;"></a></h2>
     <p>
       <a href="/space/" style="font-size: 0.9em;">Mozilla Community Space Taipei</a> 是位於台北的社群空間，提供電力、網路與激發創意的 Mozilla 小物，讓摩茲人在此一起貢獻各種開放專案，歡迎來訪。
     </p>
   </div>
 
-  <div class="frontcolumnlast">
+  <div class="frontcolumnlast alpaca_here">
     <h2><a href="/contribute/">參與我們<img src="/images/toy_gold_32.png" alt="Contribute Logo" class="promo"></a></h2>
     <p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！
       <br>　　　→ <a href="https://groups.google.com/group/moztw-general" onClick="ga('send', 'event', 'Outgoing', 'moztw-general', 'Frontpage');">MozTW 社群郵件群組</a></p>
@@ -262,7 +280,7 @@
   <!-- Start News Columns -->
 
   <div>
-    <div class="frontcolumndouble" id="news_columns">
+    <div class="frontcolumndouble alpaca_here" id="news_columns">
       <a href="/xmlnews.rdf">
         <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16">
       </a>
@@ -276,7 +294,7 @@
   </div>
   <!-- End News Columns -->
 
-  <div class="frontcolumnlast">
+  <div class="frontcolumnlast alpaca_here">
     <h2>快速捷徑</h2>
     <ul class="news">
       <li><a href="//forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 中文討論區</a></li>
@@ -328,7 +346,7 @@
 		'http://planet.moztw.org/atom.xml',
 		function (feed) {
 			$(function () {
-				$('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').after('<div id="planets" class="frontcolumn"><a href="http://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"/></a><h2><a href="http://planet.moztw.org/">摩茲星球</a></h2><ul /></div>');
+				$('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').after('<div id="planets" class="frontcolumn alpaca_here"><a href="http://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"/></a><h2><a href="http://planet.moztw.org/">摩茲星球</a></h2><ul /></div>');
 				$ul = $('#planets ul');
 				$.each(
 					feed.entries,
@@ -341,6 +359,32 @@
 		5
 	);
 })(jQuery);
+</script>
+
+<script src="js/alpaca-everywhere.js"></script>
+<script>
+  $(function(){
+
+    if( $(window).width() < 500 ) return;
+
+    AlpacaEverywhere.init(
+      'events/sumo-party-2015/fgq_cbg.png', 
+      3, 
+      document.querySelectorAll('.alpaca_here')
+    );
+
+    $(document.body).on('click', '.alpaca_everywhere', function(){
+      window.location = 'events/sumo-party-2015/';
+    });
+  })
+
+  $(function(){
+    if( $(window).width() >= 500 ) return;
+
+    $(".key-point").click(function(){
+      window.location = 'events/sumo-party-2015/';
+    })
+  });
 </script>
 
 <!--#include virtual="/inc/end.html" -->
