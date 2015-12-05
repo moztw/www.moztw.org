@@ -3,14 +3,9 @@
 <!--#include virtual="/inc/title.html" -->
 <link rel="stylesheet" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
-<link rel="stylesheet" href="/css/alpaca-everywhere.css" media="screen">
 <link rel="alternate" type="application/rss+xml" title="moztw.org: Mozilla Taiwan 社群新聞" href="/xmlnews.rdf">
 <style>
 <!--
-
-.alpaca_everywhere {
-  cursor: pointer;
-}
 
 .front-feature {
     position: relative;
@@ -154,6 +149,118 @@
     width: 250px;
 }
 
+@keyframes alpaca_move {
+  0% {
+    opacity: 0;
+  }
+
+  1% {
+    bottom: -10px;
+    right: -150px;
+    opacity: 1;
+  }
+
+  25% {
+    right: 25%;
+    bottom: -10px;
+  }
+
+  27% {
+    bottom: 0px;
+  }
+
+  29% {
+    bottom: -10px;
+  }
+
+  31% {
+    bottom: 0px;
+  }
+
+  33% {
+    bottom: -10px;
+  }
+
+  35% {
+    right: 25%;
+  }
+
+  65% {
+    right: 60%;
+    bottom: -10px;
+  }
+
+  67% {
+    bottom: 0px;
+  }
+
+  69% {
+    bottom: -10px;
+  }
+
+  71% {
+    bottom: 0;
+  }
+
+  73% {
+    bottom: -10px;
+  }
+
+  75% {
+    bottom: -10px;
+    right: 60%;
+  }
+
+  95% {
+    bottom: -10px;
+    right: 100%;
+    opacity: 1;
+  }
+
+  100% {
+    right: 100%;
+    opacity: 0;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+
+    .alpacaMove > a > img.alpaca_leap_and_move {
+      position: fixed;
+      opacity: 0;
+      bottom: 0px;
+      right: 0px;
+      animation: 10s alpaca_move;
+    }
+
+    .alpacaMove > a > img {
+      width: 150px;
+      height: auto;
+    }
+
+    @keyframes alpaca_show {
+      0% {
+        opacity: 0;
+      }
+      95% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .alpacaMove > a > img.alpaca_fixed {
+      position: fixed;
+      bottom: 0px;
+      right: 0px;
+      animation: 10s alpaca_show;
+    }
+
+    .alpacaHide {
+      display: none;
+    }
+}
 
 @media only screen and (max-width : 500px) {
     #front-feature #feature-content {
@@ -185,16 +292,125 @@
         letter-spacing: 0.05em;
     }
 
-    .key-point {
-      background-image: url("events/sumo-party-2015/landing.png");
-      background-repeat: no-repeat;
-      background-position: 0 0;
-      background-size: contain !important;
-      cursor: pointer;
+    @keyframes alpaca_run {
+      0% {
+        right: 0;
+        opacity: 0;
+      }
+      1% {
+        transform: scaleX(1);
+        opacity: 1;
+      }
+      49% {
+        transform: scaleX(1);
+      }
+      50% {
+        right: 100%;
+      }
+      51% {
+        transform: scaleX(-1);
+      }
+      99% {
+        opacity: 1;
+        transform: scaleX(-1);
+      }
+      100%{
+        opacity: 0;
+        right: 0;
+      }
     }
 
-    .key-point > .alpacaWin {
-      display: none !important;
+    @keyframes alpaca_disapear {
+      0% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    .alpacaHide {
+      display: block;
+      position: relative;
+    }
+
+    #foxmosa_need_you, 
+    #alpaca_container {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+    } 
+
+    #alpaca_container.alpaca_disapear {
+      animation: 2s alpaca_disapear;
+      animation-iteration-count: 1;
+    }
+
+    #alpaca_container > img {
+      height: 48px;
+      width: 48px;
+
+      position: absolute;
+      right: 0;
+      bottom : 0;
+      animation: 10s alpaca_run;
+      animation-iteration-count: infinite;
+    }
+
+    @keyframes foxmosa_need_you {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }
+
+    #foxmosa_need_you {
+      opacity: 0;
+    }
+
+    #foxmosa_need_you.show {
+      animation: 5s foxmosa_need_you;
+    }
+
+    #foxmosa_need_you > div {
+      display: inline-block;
+      position: absolute;
+      left: 20%;
+      top: 30%;
+      width: 60%;
+      height: 50%;
+      font-size: 1.5em;
+      text-align: center;
+    }
+
+    .alpacaMove {
+      display: none;
+    }
+
+    .sumoParty2015 {
+      opacity: 0;
+    }
+
+
+    @keyframes alpaca_show {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .sumoParty2015.show {
+      animation: 2s alpaca_show;
     }
 }
 -->
@@ -220,8 +436,15 @@
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
 
+<div class="alpacaMove">
+  <a href="/events/sumo-party-2015/">
+    <img class="alpaca_leap_and_move" src="events/sumo-party-2015/alpaca_body.png"/>
+    <img class="alpaca_fixed" src="events/sumo-party-2015/alpaca_fixed.png"/>
+  </a>
+</div>
+
 <div class="key-point front-feature" id="front-feature">
-  <div class="alpacaWin" id="mobile_link">
+  <div id="mobile_link">
     <p id="mobile_faster">更快<br>更聰明<br>更加安全</p>
     <p id="mobile_respect">絕對尊重您的<br>行動瀏覽器</p>
     <a href="/mobile/"></a>
@@ -246,6 +469,22 @@
 </div>
 
 <div id="mBody">
+
+  <div class="alpacaHide frontcolumn">
+    <div id="alpaca_container">
+      <img src="/events/sumo-party-2015/alpaca_body.png" alt="SUMO Party 2015" class="alpaca"/>
+    </div>
+    <div id="foxmosa_need_you">
+      <div>小莎軍團需要你</div>
+    </div>
+    <h2 class="sumoParty2015">
+      <a href="/events/sumo-party-2015"><span>SUMO Party 2015</span><img src="/events/sumo-party-2015/alpaca_fixed.png" alt="SUMO Party 2015" class="promo" style="width: 72px; height: 72px;"></a>
+    </h2>
+    <p class="sumoParty2015">
+      根據先遣隊的回報，王國東南方的雨林深處，發現了為數眾多的神秘遺跡，這些遺跡很可能是古 SUMO 王國的一部份！為了探索出更多有用的情報，我們必需突破重重難關，並設法開啟被封印的深層遺跡...<a href="events/sumo-party-2015/">-&gt前往活動</a>
+    </p>
+  </div>
+
   <div class="frontcolumn hide" id="mobile-feature-ios">
     <h2 class="mobile-header"><a href="https://itunes.apple.com/tw/app/bookmarks-on-the-go/id550037184?l=zh&amp;mt=8" onClick="ga('send', 'event', 'Outgoing', 'iOS-AppStore-BookmarkOnTheGo', 'frontpage-frontcolumn');">Bookmark On The Go<img src="/images/product-firefox-home.png" alt="Bookmark On The Go" class="promo"></a></h2>
     <p><b>行動首頁帶著走。</b>在 iPhone 上任意取用 Firefox 的瀏覽歷史及書籤，時時同步開啟分頁，喜歡的網站隨時都在您手邊！<br>→ <a href="https://m.youtube.com/#/watch?v=_rFf5BnurVI" onClick="ga('send', 'event', 'Show Video', 'FirefoxHome', 'frontpage');">Firefox Home 迷你短片</a></p>
@@ -254,7 +493,7 @@
     <h2><a href="/mobile/"><img src="/images/foxmosa-android.png" style="float: left;height: 125px;margin:-5px 9px 0 -10px;width: 107px;" alt="Foxmosa love Android" class="promo">Android 版 Firefox</a></h2>
   	<p>Android 版 Firefox 全面更新，更快、更聰明、更加安全，輕巧又靈活，讓您更快到達想去的地方。</p>
   </div>
-  <div class="frontcolumn alpaca_here" id="feature-thunderbird">
+  <div class="frontcolumn" id="feature-thunderbird">
       <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-thunderbird-v3.png" style="height:72px;width:72px;" alt="Thunderbird Logo" class="promo"></a></h2>
 	  <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
   </div>
@@ -262,14 +501,14 @@
     <h2><a href="https://webmaker.org/"><img src="/images/webmaker.png" style="" alt="Webmaker" class="promo">Mozilla Webmaker</a></h2>
     <p>網路發展至今，人人都該具備在網路上創作的能力，Webmaker 計畫以各種簡單有趣的專案，讓大家嘗試混搭網頁、踏出網頁創作的第一步。</p>
   </div>-->
-  <div class="frontcolumn alpaca_here">
+  <div class="frontcolumn">
     <h2><a href="/space/">摩茲工寮<img src="/images/product-firefox-home.png" alt="" class="promo" style="width: 72px; height: 72px;"></a></h2>
     <p>
       <a href="/space/" style="font-size: 0.9em;">Mozilla Community Space Taipei</a> 是位於台北的社群空間，提供電力、網路與激發創意的 Mozilla 小物，讓摩茲人在此一起貢獻各種開放專案，歡迎來訪。
     </p>
   </div>
 
-  <div class="frontcolumnlast alpaca_here">
+  <div class="frontcolumnlast">
     <h2><a href="/contribute/">參與我們<img src="/images/toy_gold_32.png" alt="Contribute Logo" class="promo"></a></h2>
     <p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！
       <br>　　　→ <a href="https://groups.google.com/group/moztw-general" onClick="ga('send', 'event', 'Outgoing', 'moztw-general', 'Frontpage');">MozTW 社群郵件群組</a></p>
@@ -280,7 +519,7 @@
   <!-- Start News Columns -->
 
   <div>
-    <div class="frontcolumndouble alpaca_here" id="news_columns">
+    <div class="frontcolumndouble" id="news_columns">
       <a href="/xmlnews.rdf">
         <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16">
       </a>
@@ -294,7 +533,7 @@
   </div>
   <!-- End News Columns -->
 
-  <div class="frontcolumnlast alpaca_here">
+  <div class="frontcolumnlast">
     <h2>快速捷徑</h2>
     <ul class="news">
       <li><a href="//forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 中文討論區</a></li>
@@ -346,7 +585,7 @@
 		'http://planet.moztw.org/atom.xml',
 		function (feed) {
 			$(function () {
-				$('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').after('<div id="planets" class="frontcolumn alpaca_here"><a href="http://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"/></a><h2><a href="http://planet.moztw.org/">摩茲星球</a></h2><ul /></div>');
+				$('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').after('<div id="planets" class="frontcolumn"><a href="http://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"/></a><h2><a href="http://planet.moztw.org/">摩茲星球</a></h2><ul /></div>');
 				$ul = $('#planets ul');
 				$.each(
 					feed.entries,
@@ -361,30 +600,52 @@
 })(jQuery);
 </script>
 
-<script src="js/alpaca-everywhere.js"></script>
 <script>
-  $(function(){
+  ;(function(){
+    var alpaca_count = document.querySelectorAll('.alpaca').length;
+    var alpaca_container = document.querySelector('#alpaca_container');
+    var alpaca = document.querySelector('.alpaca');
+    var delay = 2; //sec
+    
+    window.setTimeout(function _genAlpaca(){
+      if( alpaca_count < 4 ){
+        alpaca_container.appendChild(alpaca.cloneNode());
+        alpaca_count++;
+        window.setTimeout(_genAlpaca, delay * 1000);
+      }
+      else {
+        window.setTimeout(function(){
+          var alpaca_container = document.querySelector('#alpaca_container');
 
-    if( $(window).width() < 500 ) return;
+          alpaca_container.addEventListener('animationend', function(){
 
-    AlpacaEverywhere.init(
-      'events/sumo-party-2015/fgq_cbg.png', 
-      3, 
-      document.querySelectorAll('.alpaca_here')
-    );
+            var foxmosa_need_you = document.querySelector('#foxmosa_need_you');
 
-    $(document.body).on('click', '.alpaca_everywhere', function(){
-      window.location = 'events/sumo-party-2015/';
-    });
-  })
+            foxmosa_need_you.addEventListener('animationend', function(){
 
-  $(function(){
-    if( $(window).width() >= 500 ) return;
+              var sumoPartyObjects = document.querySelectorAll('.sumoParty2015');
 
-    $(".key-point").click(function(){
-      window.location = 'events/sumo-party-2015/';
-    })
-  });
+              [].forEach.call(sumoPartyObjects, function(e){
+                e.addEventListener('animationend', function(){
+                  this.className = this.className.replace('sumoParty2015', '');
+                });
+                e.className = e.className + ' show';
+              });
+
+              foxmosa_need_you.parentNode.removeChild(foxmosa_need_you);
+            })
+
+            alpaca_container.parentNode.removeChild(alpaca_container);
+
+            foxmosa_need_you.className = foxmosa_need_you.className + " show";
+          });
+
+          alpaca_container.className = "alpaca_disapear";
+        }, delay * 1000);
+      }
+    }, delay * 1000);
+
+  })();
 </script>
 
 <!--#include virtual="/inc/end.html" -->
