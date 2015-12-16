@@ -1,0 +1,116 @@
+<!--#set var="release_date" value="2015-12-16" -->
+<!--#set var="version" value="43.0" -->
+<!--#set var="previous_version" value="42.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>隱私瀏覽「追蹤保護」可選用包含更多追蹤者的封鎖清單。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>改善對 <a href="https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/canPlayType">m4v 影片播放 API</a> 的支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>提供 Windows 版 64 位元 Firefox <a href="https://www.mozilla.org/en-US/firefox/all/">下載</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>可以選擇讓智慧網址列也提供搜尋建議。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>選取文字欄位時，Windows 8 以上的裝置會顯示觸控式鍵盤。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox 健康檢查報告使用和 Telemetry 相同的資料收集機制。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>Markup 檢視新增<a href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Examine_and_edit_CSS#Setting_hover_active_focus">鎖定 pseudo-class 的按鈕</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>在開發工具中，按下 <kbd>F1</kbd> 會進入開發工具設定。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>檢測器選單新增「<a href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Examine_and_edit_HTML#Element_popup_menu">在主控台中使用</a>」，將元素儲存為便於操作的暫時變數。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>規則面板新增「過濾包含此屬性的規則」按鈕在<a
+          href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Examine_and_edit_CSS#Overridden_declarations">被覆蓋的 CSS 屬性</a>旁，用來尋找相似的規則。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>規則面板「過濾樣式」可以對屬性名稱進行搜尋。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>在主控台顯示例外的堆疊追溯。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>在主控台顯示<a href="https://developer.mozilla.org/docs/Tools/Web_Console/Console_messages#Server">伺服器端的 log</a> 訊息。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>可以選擇 GCLI 畫面擷取指令的解析度。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>開發者可藉由<a href="https://developer.mozilla.org/docs/Web/Security/Subresource_Integrity">子資源驗證</a>打造更安全的網站。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>點選主控台中的網路請求，將<a href="https://developer.mozilla.org/docs/Tools/Web_Console#HTTP_requests">移動至「網路」面板</a>而非打開新對話框。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>支援 CSS <code><a href="https://developer.mozilla.org/docs/Web/CSS/hyphens">hyphens</a></code> 屬性，不需要瀏覽器 prefix。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>WebIDE 改用以側邊欄為基礎的 UI。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>CSS <code>transform-origin</code> 屬性<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin#Browser_compatibility">在 SVG 元素也可使用</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>檢測器「動畫」面板會<a href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Work_with_animations#Firefox_43">以時間軸呈現動畫</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>NPAPI 外掛程式不再支援 single-process 模式。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>滴管工具在頁面縮放後運作不正確。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox43">安全性修正</a>。</span>
+    </li>
+
+    <!-- <h3 id="knownissues">已知問題</h3> -->
+
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2043&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox43&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla43&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
