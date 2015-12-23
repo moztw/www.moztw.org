@@ -61,8 +61,6 @@
     top: 237px;
 }
 
-
-
 #feature-content h2 {
     margin-bottom: 5px;
 }
@@ -149,143 +147,6 @@
     width: 250px;
 }
 
-@keyframes alpaca_move {
-  0% {
-    opacity: 0;
-  }
-
-  1% {
-    bottom: -10px;
-    right: -150px;
-    opacity: 1;
-  }
-
-  3%, 5%, 7%, 9%, 11%, 13%, 15%, 17%, 19%, 21%, 23% {
-    bottom: -10px;
-  }
-
-  2%, 4%, 6%, 8%, 10%, 12%, 14%, 16%, 18%, 20%, 22%, 24% {
-    bottom: 0px;
-  }
-
-  25% {
-    right: 25%;
-    bottom: -10px;
-  }
-
-  27% {
-    bottom: 0px;
-  }
-
-  29% {
-    bottom: -10px;
-  }
-
-  31% {
-    bottom: 0px;
-  }
-
-  33% {
-    bottom: -10px;
-  }
-
-  35% {
-    right: 25%;
-  }
-
-  36%, 38%, 40%, 42%, 44%, 46%, 48%, 50%, 52%, 54%, 56%, 58%, 60%, 62%, 64% {
-    bottom: 0;
-  }
-
-  37%, 39%, 41%, 43%, 45%, 47%, 49%, 51%, 53%, 55%, 57%, 59%, 61%, 63% {
-    bottom: -10px;
-  }
-
-  65% {
-    right: 60%;
-    bottom: -10px;
-  }
-
-  67% {
-    bottom: 0px;
-  }
-
-  69% {
-    bottom: -10px;
-  }
-
-  71% {
-    bottom: 0;
-  }
-
-  73% {
-    bottom: -10px;
-  }
-
-  75% {
-    bottom: -10px;
-    right: 60%;
-  }
-
-  76%, 78%, 80%, 82%, 84%, 86%, 88%, 90%, 92%, 94% {
-    bottom: 0;
-  }
-
-  77%, 79%, 81%, 83%, 85%, 87%, 89%, 91%, 93% {
-    bottom: -10px;
-  }
-
-  95% {
-    bottom: -10px;
-    right: 100%;
-    opacity: 1;
-  }
-
-  100% {
-    right: 100%;
-    opacity: 0;
-  }
-}
-
-@media only screen and (min-width: 500px) {
-
-    .alpacaMove > a > img.alpaca_leap_and_move {
-      position: fixed;
-      opacity: 0;
-      bottom: 0px;
-      right: 0px;
-      animation: 10s alpaca_move;
-    }
-
-    .alpacaMove > a > img {
-      width: 150px;
-      height: auto;
-    }
-
-    @keyframes alpaca_show {
-      0% {
-        opacity: 0;
-      }
-      95% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-
-    .alpacaMove > a > img.alpaca_fixed {
-      position: fixed;
-      bottom: 0px;
-      right: 0px;
-      animation: 10s alpaca_show;
-    }
-
-    .alpacaHide {
-      display: none;
-    }
-}
-
 @media only screen and (max-width : 500px) {
     #front-feature #feature-content {
         display: none;
@@ -316,147 +177,6 @@
         letter-spacing: 0.05em;
     }
 
-    @keyframes alpaca_run {
-      0% {
-        right: 0;
-        opacity: 0;
-      }
-      1% {
-        transform: scaleX(1);
-        opacity: 1;
-      }
-
-      2%, 4%, 6%, 8%, 10%, 12%, 14%, 16%, 18%, 20%, 22%, 24%, 26%, 28%, 30%, 32%, 34%, 36%, 38%, 40%, 42%, 44%, 46%, 48% {
-        bottom: 10px;
-      }
-
-      3%, 5%, 7%, 9%, 11%, 13%, 15%, 17%, 19%, 21%, 23%, 25%, 27%, 29%, 31%, 33%, 35%, 37%, 39%, 41%, 43%, 45%, 47%{
-        bottom: 0;
-      }
-
-      49% {
-        transform: scaleX(1);
-      }
-
-      50% {
-        right: 100%;
-      }
-
-      51% {
-        transform: scaleX(-1);
-      }
-
-
-      52%, 54%, 56%, 58%, 60%, 62%, 64%, 66%, 68%, 70%, 72%, 74%, 76%, 78%, 80%, 82%, 84%, 86%, 88%, 90%, 92%, 94%, 96%, 98% {
-        bottom: 10px;
-      }
-
-      53%, 55%, 57%, 59%, 61%, 63%, 65%, 67%, 69%, 71%, 73%, 75%, 77%, 79%, 81%, 83%, 85%, 87%, 89%, 91%, 93%, 95%, 97%{
-        bottom: 0;
-      }
-
-      99% {
-        opacity: 1;
-        transform: scaleX(-1);
-      }
-      100%{
-        opacity: 0;
-        right: 0;
-      }
-    }
-
-    @keyframes alpaca_disapear {
-      0% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }
-    }
-
-    .alpacaHide {
-      display: block;
-      position: relative;
-    }
-
-    #foxmosa_need_you, 
-    #alpaca_container {
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
-    } 
-
-    #alpaca_container.alpaca_disapear {
-      animation: 2s alpaca_disapear;
-      animation-iteration-count: 1;
-    }
-
-    #alpaca_container > img {
-      height: 48px;
-      width: 48px;
-
-      position: absolute;
-      right: 0;
-      bottom : 0;
-      animation: 10s alpaca_run;
-      animation-iteration-count: infinite;
-    }
-
-    @keyframes foxmosa_need_you {
-      0% {
-        opacity: 0;
-      }
-      50% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }
-    }
-
-    #foxmosa_need_you {
-      opacity: 0;
-    }
-
-    #foxmosa_need_you.show {
-      animation: 5s foxmosa_need_you;
-    }
-
-    #foxmosa_need_you > div {
-      display: inline-block;
-      position: absolute;
-      left: 20%;
-      top: 30%;
-      width: 60%;
-      height: 50%;
-      font-size: 1.5em;
-      text-align: center;
-    }
-
-    .alpacaMove {
-      display: none;
-    }
-
-    .sumoParty2015 {
-      opacity: 0;
-    }
-
-
-    @keyframes alpaca_show {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-
-    .sumoParty2015.show {
-      animation: 2s alpaca_show;
-    }
 }
 -->
 </style>
@@ -480,13 +200,6 @@
 
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
-
-<div class="alpacaMove">
-  <a href="/events/sumo-party-2015/">
-    <img class="alpaca_leap_and_move" src="events/sumo-party-2015/alpaca_body.png"/>
-    <img class="alpaca_fixed" src="events/sumo-party-2015/alpaca_fixed.png"/>
-  </a>
-</div>
 
 <div class="key-point front-feature" id="front-feature">
   <div id="mobile_link">
@@ -514,21 +227,6 @@
 </div>
 
 <div id="mBody">
-
-  <div class="alpacaHide frontcolumn">
-    <div id="alpaca_container">
-      <img src="/events/sumo-party-2015/alpaca_body.png" alt="SUMO Party 2015" class="alpaca"/>
-    </div>
-    <div id="foxmosa_need_you">
-      <div>小莎軍團需要你</div>
-    </div>
-    <h2 class="sumoParty2015">
-      <a href="/events/sumo-party-2015"><span>SUMO Party 2015</span><img src="/events/sumo-party-2015/alpaca_fixed.png" alt="SUMO Party 2015" class="promo" style="width: 72px; height: 72px;"></a>
-    </h2>
-    <p class="sumoParty2015">
-      根據先遣隊的回報，王國東南方的雨林深處，發現了為數眾多的神秘遺跡，這些遺跡很可能是古 SUMO 王國的一部份！為了探索出更多有用的情報，我們必需突破重重難關，並設法開啟被封印的深層遺跡...<a href="events/sumo-party-2015/">-&gt前往活動</a>
-    </p>
-  </div>
 
   <div class="frontcolumn hide" id="mobile-feature-ios">
     <h2 class="mobile-header"><a href="https://itunes.apple.com/tw/app/bookmarks-on-the-go/id550037184?l=zh&amp;mt=8" onClick="ga('send', 'event', 'Outgoing', 'iOS-AppStore-BookmarkOnTheGo', 'frontpage-frontcolumn');">Bookmark On The Go<img src="/images/product-firefox-home.png" alt="Bookmark On The Go" class="promo"></a></h2>
@@ -643,54 +341,6 @@
 		5
 	);
 })(jQuery);
-</script>
-
-<script>
-  ;(function(){
-    var alpaca_count = document.querySelectorAll('.alpaca').length;
-    var alpaca_container = document.querySelector('#alpaca_container');
-    var alpaca = document.querySelector('.alpaca');
-    var delay = 2; //sec
-    
-    window.setTimeout(function _genAlpaca(){
-      if( alpaca_count < 4 ){
-        alpaca_container.appendChild(alpaca.cloneNode());
-        alpaca_count++;
-        window.setTimeout(_genAlpaca, delay * 1000);
-      }
-      else {
-        window.setTimeout(function(){
-          var alpaca_container = document.querySelector('#alpaca_container');
-
-          alpaca_container.addEventListener('animationend', function(){
-
-            var foxmosa_need_you = document.querySelector('#foxmosa_need_you');
-
-            foxmosa_need_you.addEventListener('animationend', function(){
-
-              var sumoPartyObjects = document.querySelectorAll('.sumoParty2015');
-
-              [].forEach.call(sumoPartyObjects, function(e){
-                e.addEventListener('animationend', function(){
-                  this.className = this.className.replace('sumoParty2015', '');
-                });
-                e.className = e.className + ' show';
-              });
-
-              foxmosa_need_you.parentNode.removeChild(foxmosa_need_you);
-            })
-
-            alpaca_container.parentNode.removeChild(alpaca_container);
-
-            foxmosa_need_you.className = foxmosa_need_you.className + " show";
-          });
-
-          alpaca_container.className = "alpaca_disapear";
-        }, delay * 1000);
-      }
-    }, delay * 1000);
-
-  })();
 </script>
 
 <!--#include virtual="/inc/end.html" -->
