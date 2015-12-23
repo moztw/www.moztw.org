@@ -302,9 +302,9 @@
 	width: 400px;
 	height: 400px;
 	animation: myfirst 5s;
-	-moz-animation: myfirst 5s; 
-	-webkit-animation: myfirst 5s; 
-	-o-animation: myfirst 5s; 
+	-moz-animation: myfirst 5s;
+	-webkit-animation: myfirst 5s;
+	-o-animation: myfirst 5s;
 	-moz-animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
 	-o-animation-iteration-count: infinite;
@@ -602,6 +602,16 @@
 }
 
 @media screen and (max-width: 860px), screen and (max-device-width: 860px){
+	#foxmosa-run {
+		height: auto;
+		width: 500px;
+	}
+	#earth {
+		height: auto;
+		width: 400px;
+		top: 123px;
+		right: 20px;
+	}
 	#foxmosa-pairs {
 		height: 100px;
 	}
@@ -609,12 +619,12 @@
 	#foxmosa-pairs header, #foxmosa-social header {
 		float: none;
 	}
-	
+
 	#foxmosa-pairs a.button.playthegame {
 		float: left;
 		margin: 0 0 0 20px;
 	}
-	
+
 	#foxmosa-pairs a.button.github {
 		float: left;
 		margin: 0;
@@ -653,13 +663,13 @@
 	}
 }
 
-@media screen and (max-width: 640px), screen and (max-device-width: 640px){
+@media screen and (max-width: 695px), screen and (max-device-width: 695px){
 	#menu {
 		right: 24px;
 		top: 50px;
 		left: auto;
 	}
-	
+
 	#foxmosa-info {
 		height: auto !important;
 	}
@@ -668,11 +678,11 @@
 		float: none;
 		width: auto !important;
 	}
-	
+
 	#foxmosa-run, #earth {
 		display: none;
 	}
-	
+
 	#foxmosa-pairs {
 		text-align: center;
 		height: auto;
@@ -691,7 +701,7 @@
 	#foxmosa-social ul, #foxmosa-stickers ul {
 		float: none;
 	}
-	
+
 	#foxmosa-social ul li, #foxmosa-stickers ul li {
 		margin: 5px 0;
 		float: none;
@@ -705,11 +715,11 @@
 	#foxmosa-gallery {
 		width: 235px;
 	}
-	
+
 	#foxmosa-pairs a.pairslogo {
 		display: none;
 	}
-	
+
 	#foxmosa-join > div {
 		width: 100%;
 		margin: 10px 0;
