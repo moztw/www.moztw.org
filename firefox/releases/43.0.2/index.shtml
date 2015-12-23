@@ -1,6 +1,6 @@
-<!--#set var="release_date" value="2015-12-18" -->
-<!--#set var="version" value="43.0.1" -->
-<!--#set var="previous_version" value="43.0" -->
+<!--#set var="release_date" value="2015-12-23" -->
+<!--#set var="version" value="43.0.2" -->
+<!--#set var="previous_version" value="43.0.1" -->
 
 <!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
 
@@ -8,12 +8,17 @@
   <h2>Firefox 新鮮事</h2>
   <ul class="tags">
     <li class="untagged">
-      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+      <span>參考 <a href='/firefox/releases/43.0/'>Firefox 43.0 新鮮事</a>。</span>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>為滿足新版 Windows 簽章要件，準備以 SHA-256 憑證簽署 Windows 建置版本（<a href="https://bugzilla.mozilla.org/1079858">bug 1079858</a>）。</span>
+      <span>各種穩定性和<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox43">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>滿足新版 Windows 簽章要件，以 SHA-256 憑證簽署 Windows 建置版本。</span>
     </li>
 
     <li class="complete">
