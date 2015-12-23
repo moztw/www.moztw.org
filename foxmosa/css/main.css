@@ -176,16 +176,6 @@
   animation: titleAnimate 1s;
 }
 
-/*#site-title:before{
-	content: '';
-	position: absolute;
-	left: 0;
-	bottom: 10px;
-	height: 36px;
-	width: 3px;
-	background: #0095DD;
-}*/
-
 @-webkit-keyframes desAnimate{
   0% {bottom: 20px; opacity: 0;}
   50% {bottom: 20px; opacity: 0;}
@@ -258,8 +248,6 @@
 
 #foxmosa-run{
   position: absolute;
-  //top: 174px;
-  //right: 240px;
   right: 30px;
   height: 200px;
   width: 680px;
@@ -288,8 +276,6 @@
 
 #earth{
   position: absolute;
-  //right: 300px;
-  //top: 344px;
   right: 100px;
   top: 160px;
   z-index: 0;
