@@ -13,7 +13,7 @@
 }
 
 .front-feature #mobile_link {
-    background: url("/images/firefox_mobile14_trans.png") no-repeat scroll 8px 5px transparent;
+    background: url("/images/firefox_mobile14_trans.png") no-repeat scroll 8px 32px transparent;
     color: #FFFFFF;
     display: block;
     font-family: "DFHei Std", "DFLiHei Std","Heiti TC", "华文细黑", "Microsoft JhengHei", sans-serif;
@@ -98,7 +98,7 @@
 }
 
 #front-feature .dl-mobile:hover div {
-    height: 25px;
+    height: 50px;
     margin-top: 5px;
     -webkit-transition: all 0.8s;
     transition: all 0.8s;
@@ -216,10 +216,11 @@
 		</div>
     </div>
     <div class="download dl-mobile">
-      <h3><a href="/mobile/"><strong class="downloadText">Firefox Android 版</strong></a></h3>
+      <h3><a href="/mobile/"><strong class="downloadText">Firefox 行動版</strong></a></h3>
       <div>
         <ul>
           <li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'GooglePlay');">Google Play (中文版)</a></li>
+          <li><a href="https://itunes.apple.com/tw/app/firefox-web-browser/id989804926?mt=8" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'iTunesStore');">Firefox for iOS</a></li>
         </ul>
       </div>
     </div>
