@@ -280,7 +280,7 @@
   top: 160px;
   z-index: 0;
   width: 400px;
-  height: 400px;
+  height: 200px;
   overflow: hidden;
 }
 
@@ -593,7 +593,6 @@
     width: 500px;
   }
   #earth {
-    height: auto;
     width: 400px;
     top: 123px;
     right: 20px;
@@ -665,10 +664,26 @@
     width: auto !important;
   }
 
-  #foxmosa-run, #earth {
-    display: none;
-    }
-
+  #foxmosa-run {
+    position: relative;
+    float: none;
+    width: 150%;
+    right: 40%;
+  }
+  #earth {
+    position: relative;
+    float: none;
+    top: -30px;
+    left: 0;
+    padding-left: 10px;
+    height: 30vw;
+    width: 100%;
+    text-align: center;
+  }
+  #earth > img {
+    height: auto;
+    width: 100%;
+  }
   #foxmosa-pairs {
     text-align: center;
     height: auto;
@@ -713,6 +728,9 @@
 }
 
 @media screen and (max-width: 360px), screen and (max-device-width: 360px){
+  #foxmosa-profile {
+    padding: 0;
+  }
   #moztw-link-text {
     font-size: 24px;
   }
