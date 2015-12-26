@@ -3,11 +3,6 @@
     <link href="css/main.css" rel="stylesheet" />
     <link href="css/buttons.css" rel="stylesheet" />
     <link href="/js/library/fancybox2/jquery.fancybox.css" rel="stylesheet" />
-    <style>
-        #earth {
-            height: 200px;
-        }
-    </style>
 </head>
     <body>
                 <!--#include virtual="/sandstone/header.shtml" -->
