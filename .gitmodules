@@ -4,3 +4,6 @@
 [submodule "foxmosa/game/pairs"]
 	path = foxmosa/game/pairs
 	url = https://github.com/moztw/browser-pairs.git
+[submodule "foxmosa/game/stars"]
+	path = foxmosa/game/stars
+	url = https://github.com/moztw/star-pusher.git
