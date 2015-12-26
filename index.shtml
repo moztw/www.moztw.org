@@ -220,7 +220,7 @@
       <div>
         <ul>
           <li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'GooglePlay');">Firefox for Android</a></li>
-          <li><a href="https://itunes.apple.com/tw/app/firefox-web-browser/id989804926?mt=8" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'iTunesStore');">Firefox for iOS</a></li>
+          <li><a href="https://itunes.apple.com/app/id989804926" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'iTunesStore');">Firefox for iOS</a></li>
         </ul>
       </div>
     </div>
@@ -230,7 +230,7 @@
 <div id="mBody">
 
   <div class="frontcolumn hide" id="mobile-feature-ios">
-    <h2 class="mobile-header"><a href="https://itunes.apple.com/tw/app/apple-store/id989804926?pt=373246&mt=8" onClick="ga('send', 'event', 'Outgoing', 'iOS-AppStore-Firefox', 'frontpage-frontcolumn');">Firefox for iOS<img src="/images/product-firefox-ios.png" alt="Firefox for iOS" class="promo"></a></h2>
+    <h2 class="mobile-header"><a href="https://itunes.apple.com/app/id989804926" onClick="ga('send', 'event', 'Outgoing', 'iOS-AppStore-Firefox', 'frontpage-frontcolumn');">Firefox for iOS<img src="/images/product-firefox-ios.png" alt="Firefox for iOS" class="promo"></a></h2>
     <p>在您的 iPhone、iPad 及 iPod touch 上，時時取用 Firefox 的瀏覽歷史、書籤及開啟分頁；還有滿滿的安全功能，保護您的隱私資訊。</p>
   </div>
   <!-- <div class="frontcolumn hide">
