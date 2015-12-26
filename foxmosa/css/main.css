@@ -667,8 +667,8 @@
   #foxmosa-run {
     position: relative;
     float: none;
-    width: 100%;
-    right: 10%;
+    width: 150%;
+    right: 40%;
   }
   #earth {
     position: relative;
@@ -682,7 +682,7 @@
   }
   #earth > img {
     height: auto;
-    width: 70%;
+    width: 100%;
   }
   #foxmosa-pairs {
     text-align: center;
