@@ -13,7 +13,7 @@
 }
 
 .front-feature #mobile_link {
-    background: url("/images/firefox_mobile14_trans.png") no-repeat scroll 8px 32px transparent;
+    background: url("/images/firefox_mobile14_trans.png") left bottom no-repeat scroll transparent;
     color: #FFFFFF;
     display: block;
     font-family: "DFHei Std", "DFLiHei Std","Heiti TC", "华文细黑", "Microsoft JhengHei", sans-serif;
