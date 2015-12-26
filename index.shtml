@@ -215,7 +215,7 @@
 		<!--#include virtual="/inc/dlff.html" -->
 		</div>
     </div>
-    <div class="download dl-mobile">
+    <div class="download dl-mobile" onclick="">
       <h3><a href="/mobile/"><strong class="downloadText">Firefox 行動版</strong></a></h3>
       <div>
         <ul>
