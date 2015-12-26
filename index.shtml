@@ -130,8 +130,8 @@
 }
 .promo {
 	border: 0;
-	width: 64px;
-	height: 64px;
+	width: 72px;
+	height: 72px;
 }
 
 .key-point {
@@ -230,13 +230,13 @@
 <div id="mBody">
 
   <div class="frontcolumn hide" id="mobile-feature-ios">
-    <h2 class="mobile-header"><a href="https://itunes.apple.com/tw/app/bookmarks-on-the-go/id550037184?l=zh&amp;mt=8" onClick="ga('send', 'event', 'Outgoing', 'iOS-AppStore-BookmarkOnTheGo', 'frontpage-frontcolumn');">Bookmark On The Go<img src="/images/product-firefox-home.png" alt="Bookmark On The Go" class="promo"></a></h2>
-    <p><b>行動首頁帶著走。</b>在 iPhone 上任意取用 Firefox 的瀏覽歷史及書籤，時時同步開啟分頁，喜歡的網站隨時都在您手邊！<br>→ <a href="https://m.youtube.com/#/watch?v=_rFf5BnurVI" onClick="ga('send', 'event', 'Show Video', 'FirefoxHome', 'frontpage');">Firefox Home 迷你短片</a></p>
+    <h2 class="mobile-header"><a href="https://itunes.apple.com/tw/app/apple-store/id989804926?pt=373246&mt=8" onClick="ga('send', 'event', 'Outgoing', 'iOS-AppStore-Firefox', 'frontpage-frontcolumn');">Firefox for iOS<img src="/images/product-firefox-ios.png" alt="Firefox for iOS" class="promo"></a></h2>
+    <p>在您的 iPhone、iPad 及 iPod touch 上，時時取用 Firefox 的瀏覽歷史、書籤及開啟分頁；還有滿滿的安全功能，保護您的隱私資訊。</p>
   </div>
-  <div class="frontcolumn hide">
+  <!-- <div class="frontcolumn hide">
     <h2><a href="/mobile/"><img src="/images/foxmosa-android.png" style="float: left;height: 125px;margin:-5px 9px 0 -10px;width: 107px;" alt="Foxmosa love Android" class="promo">Android 版 Firefox</a></h2>
   	<p>Android 版 Firefox 全面更新，更快、更聰明、更加安全，輕巧又靈活，讓您更快到達想去的地方。</p>
-  </div>
+  </div> -->
   <div class="frontcolumn" id="feature-thunderbird">
       <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-thunderbird-v3.png" style="height:72px;width:72px;" alt="Thunderbird Logo" class="promo"></a></h2>
 	  <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
@@ -246,7 +246,7 @@
     <p>網路發展至今，人人都該具備在網路上創作的能力，Webmaker 計畫以各種簡單有趣的專案，讓大家嘗試混搭網頁、踏出網頁創作的第一步。</p>
   </div>-->
   <div class="frontcolumn">
-    <h2><a href="/space/">摩茲工寮<img src="/images/product-firefox-home.png" alt="" class="promo" style="width: 72px; height: 72px;"></a></h2>
+    <h2><a href="/space/">摩茲工寮<img src="/images/product-firefox-home.png" alt="" class="promo"></a></h2>
     <p>
       <a href="/space/" style="font-size: 0.9em;">Mozilla Community Space Taipei</a> 是位於台北的社群空間，提供電力、網路與激發創意的 Mozilla 小物，讓摩茲人在此一起貢獻各種開放專案，歡迎來訪。
     </p>
