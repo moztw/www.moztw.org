@@ -32,7 +32,7 @@
     clear: both;
     text-align: center;
   }
-  nav.menu-bar icon {
+  nav.menu-bar label {
     display: none;
   }
   nav.menu-bar ul {
@@ -150,14 +150,17 @@
       color:black;
       margin: 0;
     }
-    nav.menu-bar div icon {
+    nav.menu-bar div label {
       font-size:27px;
       display: block;
     }
     nav.menu-bar ul {
       display: none;
     }
-    nav.menu-bar:hover ul{
+    #menu-toggle {
+      display: none;
+    }
+    #menu-toggle:checked + ul{
       display: block;
     }
     nav.menu-bar div li{
@@ -203,9 +206,10 @@
 
 <nav class="menu-bar container block">
   <div class="container block">
-    <icon class="module">
+    <label class="module" for="menu-toggle">
       Firefox 的特色 <i class="icon-reorder"></i>
-    </icon>
+    </label>
+    <input type="checkbox" id="menu-toggle" name="menu-toggle">
     <ul class="module">
       <li>
         <a href="#madeeasy">
