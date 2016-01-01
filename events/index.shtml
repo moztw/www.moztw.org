@@ -422,7 +422,7 @@ jQuery(function($) {
         </article>
       </a>
 
-      <a href="http://mozlinks-zh.blogspot.com/2009/08/coscup-2009.html" title="COSCUP 2009" id="coscup2009">
+      <a href="http://mozlinks.moztw.org/2009/08/coscup-2009.html" title="COSCUP 2009" id="coscup2009">
         <article class="small">
           <header>
             <h2>COSCUP 2009</h2>
