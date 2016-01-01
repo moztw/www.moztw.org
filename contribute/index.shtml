@@ -228,12 +228,12 @@ h3.toggle, span.toggle {
 			<div class="intro_desc">
 				<h2>說明、文件與影片翻譯</h2>
 				<p>翻譯與修訂 Mozilla 技術支援文件、Mozilla Links 正體中文版部落格、Mozilla 相關影片及 MDN 開發者社群技術文件，透過文件翻譯來協助使用者、傳播相關資訊、一同建立網頁開發文件庫。</p>
-				<a href="http://mozlinks-zh.blogspot.com/2012/02/mozilla-links.html"  onClick="ga('send', 'event', 'contribute', 'translate', 'MLinks-editor');"><span class="button">MLinks 編輯機動隊</span></a>
+				<a href="http://mozlinks.moztw.org/2012/02/mozilla-links.html"  onClick="ga('send', 'event', 'contribute', 'translate', 'MLinks-editor');"><span class="button">MLinks 編輯機動隊</span></a>
 				<a href="sumo/"><span class="button">參與 SUMO 專案</span></a>
 				<a href="https://support.mozilla.org/zh-TW/kb/localize-firefox-help" onClick="ga('send', 'event', 'contribute', 'translate', 'LocalizeFirefoxHelp');"><span class="button">說明文件翻譯</span></a>
 				<br style="clear: both;">
 				<a href="https://groups.google.com/d/topic/moztw-general/92t-umaKqUw/discussion"  onClick="ga('send', 'event', 'contribute', 'translate', 'detail');"><span class="button detail">詳細資訊 》</span></a>
-				<a href="http://mozlinks-zh.blogspot.com/2012/08/iii-mdn.html" onClick="ga('send', 'event', 'contribute', 'translate', 'MLinks-mdn');"><span class="button">貢獻開發文件</span></a>
+				<a href="http://mozlinks.moztw.org/2012/08/iii-mdn.html" onClick="ga('send', 'event', 'contribute', 'translate', 'MLinks-mdn');"><span class="button">貢獻開發文件</span></a>
 				<a href="https://groups.google.com/group/moztw-subtitle" onClick="ga('send', 'event', 'contribute', 'translate', 'groups-subtitle');"><span class="button">MozTW 字幕組</span></a>
 			</div>
 		</div>
@@ -301,7 +301,7 @@ h3.toggle, span.toggle {
 				<a href="https://addons.mozilla.org/zh-TW/developers/" onClick="ga('send', 'event', 'contribute', 'addons', 'AMO-developers');"><span class="button">套件開發者交流中心</span></a>
 				<br style="clear: both;">
 				<a href="https://groups.google.com/d/topic/moztw-general/-BeSbG72hSU/discussion" onClick="ga('send', 'event', 'contribute', 'addons', 'detail');"><span class="button detail">詳細資訊 》</span></a>
-				<a href="http://mozlinks-zh.blogspot.com/2012/08/add-on-sdk-firefox.html" onClick="ga('send', 'event', 'contribute', 'addons', 'MLinks-AddonSDK');"><span class="button">用 Add-on SDK 寫套件教學</span></a>
+				<a href="http://mozlinks.moztw.org/2012/08/add-on-sdk-firefox.html" onClick="ga('send', 'event', 'contribute', 'addons', 'MLinks-AddonSDK');"><span class="button">用 Add-on SDK 寫套件教學</span></a>
 			</div>
 		</div>
 		<div class="content_block clearfix">

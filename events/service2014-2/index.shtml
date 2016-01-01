@@ -55,8 +55,8 @@
       <h2>Mozilla Links 報導</h2>
       <p>Nini Hsu、楊椀婷</p>
       <ul>
-          <li><a href="//mozlinks.moztw.org/2015/05/web.html" target="_blank">前進吧，摩茲巴士！Web 工廠的遊牧之旅</a></li>
-          <li><a href="//mozlinks.moztw.org/2015/06/firefox-user-types.html" target="_blank">Firefox 使用者類型研究（北美洲）</a></li>
+          <li><a href="http://mozlinks.moztw.org/2015/05/web.html" target="_blank">前進吧，摩茲巴士！Web 工廠的遊牧之旅</a></li>
+          <li><a href="http://mozlinks.moztw.org/2015/06/firefox-user-types.html" target="_blank">Firefox 使用者類型研究（北美洲）</a></li>
           <li><a href="//docs.google.com/document/d/16OS4RA6pbgY3V_MMh00GDV8-9-Vfoq1B_4ENTBvQO_4/edit" target="_blank">You did it! (maker party)</a></li>
           <li><a href="//docs.google.com/document/d/1JDcL26E46PgA8IUstxZJM93R656Jt4bNwPNt0sfEonw/edit" target="_blank">Awesome l10n contributor: Biraj Karmakar</a></li>
           <li><a href="//docs.google.com/document/d/1ZVxw-LwgOYPkZt64j_aNqXHywwfu04szlE9j1xu8pJ8/edit" target="_blank">NeMo - HTML5: The way to go!</a></li>
@@ -65,7 +65,7 @@
 
       <p>Yu-wen Pwu</p>
       <ul>
-        <li><a href="//mozlinks.moztw.org/2015/06/firefox-os-bug.html" target="_blank">摩茲動手做（四）幫 Firefox OS 修 Bug 的第一步</a></li>
+        <li><a href="http://mozlinks.moztw.org/2015/06/firefox-os-bug.html" target="_blank">摩茲動手做（四）幫 Firefox OS 修 Bug 的第一步</a></li>
       </ul>
     </section>
 

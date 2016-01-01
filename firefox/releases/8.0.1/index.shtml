@@ -240,7 +240,7 @@ table {
       <h2 id="links">其他資源和連結</h2>
       <p>下面提供了幾個有用的連結：</p>
       <ul class="spaced">
-        <li><a title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
+        <li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a></li>
         <li><a href="http://support.mozilla.com/">Firefox 輔助說明</a></li>
         <li><a href="http://kb.mozillazine.org/">MozillaZine's Knowledge Base</a></li>
         <li><a href="https://developer.mozilla.org/en/Firefox_8_for_developers">Developer Information</a></li>
