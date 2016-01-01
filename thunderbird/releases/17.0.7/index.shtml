@@ -355,7 +355,7 @@ section .appendix {
                   <h2 id="links">其他資源和連結</h2>
                   <p>下面提供了幾個有用的連結：</p>
                   <ul class="spaced">
-                    <li><a title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a></li>
+                    <li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a></li>
                     <li><a href="http://support.mozilla.com/">Thunderbird 技術支援</a></li>
                     <li><a href="http://developer.mozilla.org/">Mozilla Developer Network</a></li>
                     <li><a href="http://blog.mozilla.com/futurereleases/">Future of Thunderbird Blog</a></li>
