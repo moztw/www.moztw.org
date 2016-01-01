@@ -28,7 +28,7 @@
 				<p>如有發現任何問題，我們非常歡迎您到 <a href="http://forum.moztw.org/viewforum.php?f=4">Mozilla Taiwan 討論區</a> 與我們參與討論或是直接到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報錯誤訊息。</p>
 				<br>
 				<h2 id="whatsnew">What's New in Firefox 3 </h2>
-				<p>Firefox 3 Beta 1 以新版 Gecko 1.9 網頁佈局引擎構成。研發此全新的引擎耗時 27 個月、更改了近兩百萬行程式碼，亦改善了超過一萬一千個大小問題。Gecko 1.9 為<a href="http://mozlinks-zh.blogspot.com/2007/11/firefox-3-beta-1.html#performance">提升效能</a>、穩定度、正確性，重構了部份程式架構，因此 Firefox 3 <a href="http://mozlinks-zh.blogspot.com/2007/11/firefox-3-beta-1.html#secure">更加安全</a>、<a href="http://mozlinks-zh.blogspot.com/2007/11/firefox-3-beta-1.html#easy">更容易使用</a>、<a href="http://mozlinks-zh.blogspot.com/2007/11/firefox-3-beta-1.html#personal">自訂更輕鬆</a>，同時提供許多給網 頁及擴充套件開發員的<a href="http://mozlinks-zh.blogspot.com/2007/11/firefox-3-beta-1.html#engine">內部修改</a>。</p>
+				<p>Firefox 3 Beta 1 以新版 Gecko 1.9 網頁佈局引擎構成。研發此全新的引擎耗時 27 個月、更改了近兩百萬行程式碼，亦改善了超過一萬一千個大小問題。Gecko 1.9 為<a href="http://mozlinks.moztw.org/2007/11/firefox-3-beta-1.html#performance">提升效能</a>、穩定度、正確性，重構了部份程式架構，因此 Firefox 3 <a href="http://mozlinks.moztw.org/2007/11/firefox-3-beta-1.html#secure">更加安全</a>、<a href="http://mozlinks.moztw.org/2007/11/firefox-3-beta-1.html#easy">更容易使用</a>、<a href="http://mozlinks.moztw.org/2007/11/firefox-3-beta-1.html#personal">自訂更輕鬆</a>，同時提供許多給網 頁及擴充套件開發員的<a href="http://mozlinks.moztw.org/2007/11/firefox-3-beta-1.html#engine">內部修改</a>。</p>
 
 				<p><span style="font-size: 80%;"><b>[Beta 3 新功能！]</b></span> 根據前一個版本測試社群的回饋，Firefox 3 Beta 3 做了約1,300處的修改，包含提升穩定度及效能，調校記憶體使用，開發平臺改良及使用者介面的進化。 </p>
 	          <dt id="secure">更安全 
@@ -300,8 +300,8 @@
          <a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0/contrib-localized/">FTP 站台</a>取得。</p>      <h2 id="links">其他資源和連結</h2>  
       <p>下面提供了幾個有用的連結：</p>
 		<ul class="spaced">
-		<li><a id="iuwe" title="帶您深入探索 Firefox 3 Beta 3 (part 1)" href="http://mozlinks-zh.blogspot.com/2008/02/firefox-3-beta-3-part-1.html">帶您深入探索 Firefox 3 Beta 3</a> 
-		</li><li><a title="Mozilla Links 正體中文版" href="http://mozlinks-zh.blogspot.com/">Mozilla Links 正體中文版</a> 
+		<li><a id="iuwe" title="帶您深入探索 Firefox 3 Beta 3 (part 1)" href="http://mozlinks.moztw.org/2008/02/firefox-3-beta-3-part-1.html">帶您深入探索 Firefox 3 Beta 3</a> 
+		</li><li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a> 
 		</li><li><a href="http://mozillalinks.org/wp/2008/02/a-deep-look-to-firefox-3-beta-3/">MozillaLinks Overview of Firefox 3 Beta 3</a> 
 		</li><li><a href="http://wiki.mozilla.org/Firefox3">Firefox 3 Project Page</a> 
 		</li><li><a href="http://kb.mozillazine.org/">MozillaZine's Knowledge Base</a> 
