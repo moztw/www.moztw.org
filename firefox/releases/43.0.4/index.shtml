@@ -1,0 +1,37 @@
+<!--#set var="release_date" value="2016-01-07" -->
+<!--#set var="version" value="43.0.4" -->
+<!--#set var="previous_version" value="43.0.3" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/43.0/'>Firefox 43.0 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>使用第三方防毒工具時的啟動當機問題（<a href="https://bugzilla.mozilla.org/1235537">bug 1235537</a>）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>於多使用者環境的 GNU/Linux，可能建立錯誤的下載資料夾（<a href="https://bugzilla.mozilla.org/1233434">bug 1233434</a>）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>再度啟用 <a href="https://blog.mozilla.org/security/2016/01/06/man-in-the-middle-interfering-with-increased-security/">SHA-1 憑證</a>（<a href="https://bugzilla.mozilla.org/1236975">bug 1236975</a>）</span>
+    </li>
+
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2043&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox43&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla43&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
