@@ -1,6 +1,4 @@
 <?php
-include('log.php');   # Sean's logger, will remove in MozTW
-
 $url = 'aHR0cHM6Ly90ZWxlZ3JhbS5tZS9qb2luY2hhdC9BbVdldVQwWFpLdE9FZXhQYWtyVFZ3';   # base64 Encode https://telegram.me/joinchat/Am* (anti-bot)
 $err = 'https://telegram.org/';   # When Verification Failed
 
@@ -45,7 +43,7 @@ if (isset($_GET['recaptcha'])) {
 					document.getElementById("join").style.display = "";
 				}
 			};
-			xhttp.open("GET", "https://sean-sea-n-1.c9users.io/moztw-telegram-link.php?recaptcha=" + document.getElementById("g-recaptcha-response").value, true);
+			xhttp.open("GET", "https://www.moztw.org/community/telegram.php?recaptcha=" + document.getElementById("g-recaptcha-response").value, true);
 			xhttp.send();
 		}
 		</script>
