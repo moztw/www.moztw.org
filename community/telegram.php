@@ -1,6 +1,4 @@
 <?php
-include('log.php');   # Sean's logger, will remove in MozTW
-
 $url = 'aHR0cHM6Ly90ZWxlZ3JhbS5tZS9qb2luY2hhdC9BbVdldVQwWFpLdE9FZXhQYWtyVFZ3';   # base64 Encode https://telegram.me/joinchat/Am* (anti-bot)
 $err = 'https://telegram.org/';   # When Verification Failed
 
@@ -40,18 +38,19 @@ if (isset($_GET['recaptcha'])) {
 			var xhttp = new XMLHttpRequest();
 			xhttp.onreadystatechange = function() {
 				if (xhttp.readyState == 4 && xhttp.status == 200) {
-					document.getElementById("link").href = xhttp.responseText;
+					document.getElementById("link").href = xhttp.responseText;   // insert real join link (or fake)
 					document.getElementById("waiting").style.display = "none";
 					document.getElementById("join").style.display = "";
 				}
 			};
-			xhttp.open("GET", "https://sean-sea-n-1.c9users.io/moztw-telegram-link.php?recaptcha=" + document.getElementById("g-recaptcha-response").value, true);
+			xhttp.open("GET", "?recaptcha=" + document.getElementById("g-recaptcha-response").value, true);
 			xhttp.send();
 		}
 		</script>
 
 		<div id="recaptcha" style="">
 			<p>為了防止廣告機器人進入群組，麻煩您點一下下面的「我不是機器人」</p>
+			<!-- Google reCAPTCHA -->
 			<div class="g-recaptcha" data-sitekey="6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO"></div><br />
 			<input type="button" value="Submit" onclick="recaptcha()"></input>
 		</div>
