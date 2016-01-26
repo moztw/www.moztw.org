@@ -27,6 +27,7 @@ if (isset($_GET['recaptcha'])) {
 		<title>MozTW Telegram Group</title>
 		<meta property="og:title" content="MozTW Telegeam Group"></meta>
 		<meta property="og:image" content="https://moztw.org/foxmosa/images/30series/30foxmosa-12.png"></meta>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 		<script src="//www.google.com/recaptcha/api.js"></script>
 	</head>
 	<body>
@@ -41,6 +42,7 @@ if (isset($_GET['recaptcha'])) {
 					document.getElementById("link").href = xhttp.responseText;   // insert real join link (or fake)
 					document.getElementById("waiting").style.display = "none";
 					document.getElementById("join").style.display = "";
+					document.location.href = xhttp.responseText;
 				}
 			};
 			xhttp.open("GET", "?recaptcha=" + document.getElementById("g-recaptcha-response").value, true);
@@ -49,7 +51,7 @@ if (isset($_GET['recaptcha'])) {
 		</script>
 
 		<div id="recaptcha" style="">
-			<p>為了防止廣告機器人進入群組，麻煩您點一下下面的「我不是機器人」</p>
+			<p>為了防止廣告機器人進入群組，麻煩您點選下面的「我不是機器人」</p>
 			<!-- Google reCAPTCHA -->
 			<div class="g-recaptcha" data-sitekey="6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO"></div><br />
 			<input type="button" value="Submit" onclick="recaptcha()"></input>
@@ -60,7 +62,7 @@ if (isset($_GET['recaptcha'])) {
 		</div>
 
 		<div id="join" style="display: none">
-			<p>非常感謝您的配合，<a id="link" href="//MozTW.org">點我加入 Telegram 群組</a>
+			<p>非常感謝您的配合，假如沒有自動轉跳，麻煩<a id="link" href="//MozTW.org">點我加入 Telegram 群組</a>
 		</div>
 	</body>
 </html>
