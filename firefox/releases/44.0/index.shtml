@@ -1,0 +1,127 @@
+<!--#set var="release_date" value="2016-01-27" -->
+<!--#set var="version" value="44.0" -->
+<!--#set var="previous_version" value="43.0.4" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>改善憑證錯誤和連線不受信任的警告頁面。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>若系統有可用的解碼器，啟用 H.264 影片支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>系統不支援 MP4/H.264 時，啟用 WebM/VP9 影片支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>動畫檢測器中，以合成執行緒運行的動畫會加上閃電圖案標示。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>HTTPS 內容編碼支援 Brotli 壓縮。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>開發者工具的畫面擷取指令可以選擇像素比例。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>觀看影片時，Windows XP 和 Vista 未停用螢幕保護程式（<a href="https://bugzilla.mozilla.org/1193610">bug 1193610</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox44">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>於 Linux 也採用與其他平台相同的字型比對方式，以支援 webfont 的 <code>unicode-range</code> 設定。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>滿足新版 Windows 簽章要件，以 SHA-256 憑證簽署 Windows 建置版本。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>不再支援 RC4 decipher。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>不再將 Equifax Secure Certificate Authority 的 1024 位元根憑證或 UTN - DATACorp SGC 視為信任的<a href="https://support.mozilla.org/kb/secure-website-certificate">安全網站憑證</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>更嚴謹的網頁字型驗證。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>暫時關閉 Windows 8 和 8.1 的觸控式鍵盤支援。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>主控台 log 輸出的物件，可使用右鍵選單「儲存為全域變數」暫存。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>視覺化的動畫工具：</span>
+      <ul>
+        <li>直接在檢測器中檢視／編輯 CSS 動畫關鍵影格。</li>
+        <li>視覺化調整 cubic-bezier 曲線，操縱動畫隨時間變化的方式。</li>
+        <li><a href="https://www.youtube.com/watch?v=T2jykykN3yc" title="New animation inspector features in Firefox 43 - YouTube">尋找、暫停頁面上的 CSS 動畫和 transition</a>。</li>
+        <li>參見 <a href="http://devtoolschallenger.com/">http://devtoolschallenger.com/</a>。</li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>視覺化的版面、樣式工具：</span>
+      <ul>
+        <li>尺規工具會顯示在 viewport 邊緣，另新增「測量頁面中的部分」工具，幫助偵測空間與對齊問題。</li>
+        <li><a href="https://www.youtube.com/watch?v=t3NKmmWfklU" title="CSS Filter Editor Tooltip in FirefoxDevTools 44 - YouTube">即時編輯 CSS filter</a> 以預覽及建立陰影、懷舊、……等效果。</li>
+        <li>參見 <a href="http://devtoolschallenger.com/">http://devtoolschallenger.com/</a>。</li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>新增「記憶體」面板，檢測記憶體堆疊使用狀況。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://developer.mozilla.org/docs/Web/API/Service_Worker_API/Using_Service_Workers">Service Workers API</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>內建 JSON reader，直覺地檢視、搜尋、複製和儲存資料。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>在除錯器的原始碼檢視，按住 <kbd>Cmd</kbd>（<kbd>Ctrl</kbd>）並點選，可以跳到<a href="https://developer.mozilla.org/en-US/docs/Tools/Keyboard_shortcuts#Debugger">函數定義的位置</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://hacks.mozilla.org/2015/11/developer-edition-44-creative-tools-and-more/">WebSocket Debugging API</a>。參考相關的附加元件<a href="https://github.com/firebug/websocket-monitor/wiki">範例</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>規則面板的樣式會以 authored 文字顯示，且可以連到樣式編輯器進行編輯。</span>
+    </li>
+
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2044&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox44&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla44&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
