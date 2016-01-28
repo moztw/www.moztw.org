@@ -341,12 +341,11 @@ body {
 		<div class="desc">正式版</div>
 		</a>
 
-		<a class="btn beta" href="//bit.ly/Firefox-Android-Beta-zh-TW" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'GooglePlay-Beta');">
-		從 Google Play 下載
-        <div class="desc">Beta 測試版</div>
+		<a class="btn" href="//apple.co/1PFezFR" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'AppStore');">
+		從 App Store 下載
+        <div class="desc">正式版</div>
         </a>
-
-		<p>* 多語系版，皆已內建正體中文</p>
+        <p><a href="//bit.ly/Firefox-Android-Beta-zh-TW" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile','GooglePlay-Beta');">下載 Firefox for Android Beta 測試版</a></p>
 	</div>
 
 </div>
