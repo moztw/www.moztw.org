@@ -34,7 +34,7 @@ define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
 		</div>
 
 		<!-- Public to bots -->
-		<div id="sticker">
+		<div id="sticker" style="display: none">
 			<a href="https://telegram.me/addstickers/Foxmosa">Foxmosa Sticker</a>
 		</div>
 
@@ -55,15 +55,16 @@ define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
 				var theHtml = '';
 				for (key in data) {
 					var link = 'https://telegram.me/joinchat/' + data[key].trim();
-					theHtml += '<a href="' + link + '">' + key + '</a><br>\n';
+					theHtml += '<a href="' + link + '" target="_blank">' + key + '</a><br>\n';
 				}
 				$("#link").html(theHtml);
 				$("#waiting").hide();
 				$("#join").show();
+				$("#sticker").show();
 			} else {
+				$("#waiting").hide();
 				alert("驗證失敗\n麻煩您再試一次");
 				document.location.href = ".";
-				$("#waiting").hide();
 				$("#error").show();
 			}
 		}
