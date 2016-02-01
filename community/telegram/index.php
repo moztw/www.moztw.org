@@ -33,6 +33,11 @@ define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
 			<p>驗證失敗，<a href=".">點我重試</a></p>
 		</div>
 
+		<!-- Public to bots -->
+		<div id="sticker">
+			<a href="https://telegram.me/addstickers/Foxmosa">Foxmosa Sticker</a>
+		</div>
+
 		<script type="text/javascript">
 		function recaptcha() {
 			$("#recaptcha").hide();
