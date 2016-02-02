@@ -16,8 +16,7 @@ define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
 		<div id="recaptcha">
 			<p>為了防止廣告機器人進入群組，麻煩您點選下面的「我不是機器人」</p>
 			<!-- Google reCAPTCHA -->
-			<div class="g-recaptcha" data-sitekey="<?php echo SiteKey ?>"></div><br />
-			<input type="button" value="Submit" onclick="recaptcha()"></input>
+			<div class="g-recaptcha" data-sitekey="<?php echo SiteKey ?>" data-callback="recaptcha"></div><br />
 		</div>
 
 		<div id="waiting" style="display: none">
