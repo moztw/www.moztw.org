@@ -10,3 +10,5 @@ Redirect permanent /firefox-new /firefox
 Redirect permanent /firefox/release /firefox/releases
 Redirect permanent /events/sfd2012 /events/code-rush
 Redirect permanent /events/fxu12rp /events/furp
+Redirect permanent /telegram /community/telegram/
+Redirect permanent /tg /community/telegram/
