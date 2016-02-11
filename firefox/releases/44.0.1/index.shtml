@@ -1,0 +1,55 @@
+<!--#set var="release_date" value="2016-02-09" -->
+<!--#set var="version" value="44.0.1" -->
+<!--#set var="previous_version" value="44.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正特定情況下遺失已存密碼的問題（<a href="https://bugzilla.mozilla.org/1242176">bug 1242176</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>允許 cookie 名稱包含空白（<a href="https://bugzilla.mozilla.org/1244505">bug 1244505</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>停用 H.264 opus/vorbis 音訊（<a href="https://bugzilla.mozilla.org/1245696">bug 1245696</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>提高 NSS 需求版本為 3.21（<a href="https://bugzilla.mozilla.org/1244069">bug 1244069</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>正確包含 Gecko SDK（<a href="https://bugzilla.mozilla.org/1243740">bug 1243740</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正 GNU/Linux 圖形顯示啟動時的當機問題（<a href="https://bugzilla.mozilla.org/1222171">bug 1222171</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正 cache networking 當機問題（<a href="https://bugzilla.mozilla.org/1244076">bug 1244076</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正使用 service worker 時，WebSocket 不正常運作的問題（<a href="https://bugzilla.mozilla.org/1243942">bug 1243942</a>）。</span>
+    </li>
+
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2044&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox44&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla44&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
