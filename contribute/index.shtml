@@ -365,7 +365,7 @@ h3.toggle, span.toggle {
   </div>
 
 	<div class="subscribe">
-		<form action="http://groups-beta.google.com/group/moztw-general/boxsubscribe">
+		<form action="https://groups.google.com/group/moztw-general/boxsubscribe">
 			<input type="email" name="email" placeholder="輸入您的 E-mail" class="ui-widget ui-widget-content ui-corner-all"/>
 			<input type="submit" value="訂閱討論" name="sub" class="button" onclick="ga('send', 'pageview', '/contribute/moztw-general');" />
 		</form>
