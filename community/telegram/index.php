@@ -34,7 +34,7 @@ define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
 
 		<!-- Public to bots -->
 		<div id="sticker" style="display: none">
-			<a href="https://telegram.me/addstickers/Foxmosa">Foxmosa Sticker</a>
+			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank">Foxmosa Sticker</a>
 		</div>
 
 		<script type="text/javascript">
