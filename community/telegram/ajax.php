@@ -21,12 +21,12 @@ function success() {
 		'success' => True,
 		'data' => Array(
 # format:		'Name' => 'ID',    // $url = 'https://telegram.me/joinchat/' . $ID;
-			'MozTW' => 'AmWeuT0XZKtOEexPakrTVw',
-			'MozTW 字幕組' => 'AutpyAC4ZZF7syTysmXPOg',
-			'MozTW Design' => 'AutpyAHfYs0BX2ZfX9XwYA',
-			'Foxfooder' => 'AutpyAJlAH_DT1o80qwbhQ',
-			'Mozillians (en)' => 'AutpyDvFHJHnUD9OZdPtlg',
-			'mozilla-video-l10n (en)' => 'AutpyAGi7CL74m0Zs7pPTA',
+			'MozTW' => 'AmWeuT0XZKuwaB9m3AXfyw',
+			'MozTW 字幕組' => 'AutpyAC4ZZFBxqYV0reM2w',
+			'MozTW Design' => 'AutpyAHfYs36856lXGTZrA',
+			'Foxfooder (zh)' => 'AutpyAJlAH8jqV6ZgyAr_Q',
+			'Mozillians (en)' => 'AutpyDvFHJHFTwwS0JyTrA',
+			'mozilla-videol10n (en)' => 'AutpyAGi7CJR02wP1AnY_g',
 		)
 	);
 	$respone = json_encode($respone);
