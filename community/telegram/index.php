@@ -2,17 +2,16 @@
 define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
 ?>
 
-<html>
-	<head>
-		<meta charset="utf-8"></meta>
+<?php include($_SERVER['DOCUMENT_ROOT'] . 'sandstone/meta.shtml'); ?>
 		<title>MozTW Telegram Group</title>
-		<meta property="og:title" content="MozTW Telegeam Group"></meta>
-		<meta property="og:image" content="https://moztw.org/foxmosa/images/30series/30foxmosa-12.png"></meta>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+		<meta property="og:title" content="MozTW Telegeam Group">
+		<meta property="og:image" content="https://moztw.org/foxmosa/images/30series/30foxmosa-12.png">
 		<script src="//www.google.com/recaptcha/api.js"></script>
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+<?php include($_SERVER['DOCUMENT_ROOT'] . 'sandstone/iefix.shtml'); ?>
 	</head>
 	<body>
+<?php include($_SERVER['DOCUMENT_ROOT'] . 'sandstone/header.shtml'); ?>
 		<div id="recaptcha">
 			<p>為了防止廣告機器人進入群組，麻煩您點選下面的「我不是機器人」</p>
 			<!-- Google reCAPTCHA -->
@@ -34,7 +33,7 @@ define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
 
 		<!-- Public to bots -->
 		<div id="sticker" style="display: none">
-			<a href="https://telegram.me/addstickers/Foxmosa">Foxmosa Sticker</a>
+			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank">Foxmosa Sticker</a>
 		</div>
 
 		<script type="text/javascript">
@@ -68,5 +67,4 @@ define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
 			}
 		}
 		</script>
-	</body>
-</html>
+<?php include($_SERVER['DOCUMENT_ROOT'] . 'sandstone/footer.shtml'); ?>
