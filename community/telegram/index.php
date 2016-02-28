@@ -1,17 +1,21 @@
 <?php
 define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
+$meta = file_get_contents('../../sandstone/meta.shtml');
+$iefix = file_get_contents('../../sandstone/iefix.shtml');
+$header = file_get_contents('../../sandstone/header.shtml');
+$footer = file_get_contents('../../sandstone/footer.shtml');
 ?>
 
-<?php include($_SERVER['DOCUMENT_ROOT'] . 'sandstone/meta.shtml'); ?>
+<?php echo $meta; ?>
 		<title>MozTW Telegram Group</title>
 		<meta property="og:title" content="MozTW Telegeam Group">
 		<meta property="og:image" content="https://moztw.org/foxmosa/images/30series/30foxmosa-12.png">
 		<script src="//www.google.com/recaptcha/api.js"></script>
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
-<?php include($_SERVER['DOCUMENT_ROOT'] . 'sandstone/iefix.shtml'); ?>
+<?php echo $iefix; ?>
 	</head>
 	<body>
-<?php include($_SERVER['DOCUMENT_ROOT'] . 'sandstone/header.shtml'); ?>
+<?php echo $header; ?>
 		<div id="recaptcha">
 			<p>為了防止廣告機器人進入群組，麻煩您點選下面的「我不是機器人」</p>
 			<!-- Google reCAPTCHA -->
@@ -45,7 +49,7 @@ define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
 				show(result);
 			});
 		}
-		
+
 		function show(json) {
 			var obj = JSON.parse(json);
 			if (obj.success) {
@@ -67,4 +71,4 @@ define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
 			}
 		}
 		</script>
-<?php include($_SERVER['DOCUMENT_ROOT'] . 'sandstone/footer.shtml'); ?>
+<?php echo $footer; ?>
