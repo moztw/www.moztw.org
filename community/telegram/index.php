@@ -2,16 +2,17 @@
 define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
 ?>
 
-<?php include('/sandstone/meta.shtml'); ?>
+<html>
+	<head>
+		<meta charset="utf-8"></meta>
 		<title>MozTW Telegram Group</title>
-		<meta property="og:title" content="MozTW Telegeam Group">
-		<meta property="og:image" content="https://moztw.org/foxmosa/images/30series/30foxmosa-12.png">
+		<meta property="og:title" content="MozTW Telegeam Group"></meta>
+		<meta property="og:image" content="https://moztw.org/foxmosa/images/30series/30foxmosa-12.png"></meta>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 		<script src="//www.google.com/recaptcha/api.js"></script>
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
-<?php include('/sandstone/iefix.shtml'); ?>
 	</head>
 	<body>
-<?php include('/sandstone/header.shtml'); ?>
 		<div id="recaptcha">
 			<p>為了防止廣告機器人進入群組，麻煩您點選下面的「我不是機器人」</p>
 			<!-- Google reCAPTCHA -->
@@ -67,4 +68,5 @@ define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
 			}
 		}
 		</script>
-<?php include('/sandstone/footer.shtml'); ?>
+	</body>
+</html>
