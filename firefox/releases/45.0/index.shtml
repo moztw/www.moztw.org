@@ -1,0 +1,110 @@
+<!--#set var="release_date" value="2016-03-09" -->
+<!--#set var="version" value="45.0" -->
+<!--#set var="previous_version" value="44.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>用 Hello 分享分頁。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>其他裝置上 Firefox 帳號<a href="https://support.mozilla.org/en-US/kb/awesome-bar-search-firefox-bookmarks-history-tabs#w_how-to-use-the-autocomplete-list">同步的分頁</a>會出現在網址列搜尋結果中。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>工具列新增「<a href="https://support.mozilla.org/en-US/kb/view-synced-tabs-other-devices">已同步的分頁</a>」按鈕。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>新設定（<code>network.dns.blockDotOnion</code>）在 DNS 層阻擋 <code>.onion</code> 網域。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>新增 Guarani [gn]（巴拉圭語）語系支援。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>正確轉向含有 Unicode 格式 IDN（Internationalized Domain Name）的 URL。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox45">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>移除<a
+          href="https://support.mozilla.org/kb/tab-groups-removal">分頁群組</a>（Panorama）功能。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>記憶體工具的<a href="https://developer.mozilla.org/en-US/docs/Tools/Memory#Analyzing_a_snapshot">快照篩選</a>功能。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>動畫檢測器可以調整時間軸的播放倍率。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>網路監控器<a href="https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor#Timeline">時間軸</a>會標示出 <code>DOMContentLoaded</code> 和 <code>load</code> 事件的發生時機。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>網路監控器新增「<a href="https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor#Filtering_by_URL">過濾網址</a>」功能。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>記憶體工具新增配置堆疊快照的 <a href="https://developer.mozilla.org/en-US/docs/Tools/Memory#Diffing_heap_snapshots">diff</a> 功能。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>檢測器的搜尋功能可以找到子頁框的內容。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>在動畫檢測器的時間軸中，點選動畫便會顯示<a title="Using the FirefoxDevTools to understand CSS demos #5" href="https://www.youtube.com/watch?v=Un3u4wuGT8Q">相關屬性和關鍵影格</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>支援 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Push_API">Push API</a>，推進 <a href="https://blog.mozilla.org/futurereleases/2015/11/17/extending-the-webs-capabilities-in-firefox-and-beyond/">Progressive Web Applications</a> 發展。</span>
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>支援以 meta 標籤進行 CSP（Content Security Policy）傳遞。</span>
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>支援 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">Web Speech</a> synthesis API。</span>
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span><a href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes">ES6 Classes</a>。</span>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>暫時關閉 Windows 8 和 8.1 的觸控式鍵盤支援。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2045&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox45&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla45&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
