@@ -11,15 +11,17 @@ $footer = file_get_contents('../../sandstone/footer.shtml');
 		<meta property="og:title" content="MozTW Telegeam Group">
 		<meta property="og:image" content="https://moztw.org/foxmosa/images/30series/30foxmosa-12.png">
 		<script src="//www.google.com/recaptcha/api.js"></script>
-		<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <script src="//code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" media="all" href="/css/telegram.css">
 <?php echo $iefix; ?>
 	</head>
 	<body>
 <?php echo $header; ?>
+    <div id="wrap" class="block">
 		<div id="recaptcha">
 			<p>為了防止廣告機器人進入群組，麻煩您點選下面的「我不是機器人」</p>
 			<!-- Google reCAPTCHA -->
-			<div class="g-recaptcha" data-sitekey="<?php echo SiteKey ?>" data-callback="recaptcha"></div><br />
+			<div class="g-recaptcha" data-sitekey="<?php echo SiteKey ?>" data-callback="recaptcha"></div><br/>
 		</div>
 
 		<div id="waiting" style="display: none">
@@ -71,4 +73,5 @@ $footer = file_get_contents('../../sandstone/footer.shtml');
 			}
 		}
 		</script>
+    </div>
 <?php echo $footer; ?>
