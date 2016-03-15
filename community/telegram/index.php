@@ -17,7 +17,7 @@ $footer = file_get_contents('../../sandstone/footer.shtml');
     </head>
     <body>
 <?php echo $header; ?>
-    <div id="wrap" class="block">
+    <div id="wrap">
         <div id="recaptcha">
             <p>為了防止廣告機器人進入群組，麻煩您點選下面的「我不是機器人」</p>
             <!-- Google reCAPTCHA -->
