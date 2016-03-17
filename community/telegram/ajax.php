@@ -1,5 +1,6 @@
 <?php
-define('SiteSecret', '6LdlOxYTAAAAAAlL-GdqeU_KWOYt1WrHNGtW6m2E');
+require('config.php');
+
 if (isset($_GET['recaptcha'])) {
 	$curl = curl_init();
 	curl_setopt($curl, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');   # Google reCAPTCHA Veritication API

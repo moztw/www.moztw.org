@@ -1,5 +1,5 @@
 <?php
-define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
+require('config.php');
 ?>
 
 <?php echo file_get_contents('../../sandstone/meta.shtml'); ?>
