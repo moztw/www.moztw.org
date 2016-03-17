@@ -4,8 +4,13 @@ define('SiteKey', '6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO');
 
 <?php echo file_get_contents('../../sandstone/meta.shtml'); ?>
 		<title>MozTW Telegram Group</title>
-		<meta property="og:title" content="MozTW Telegeam Group">
+		<meta property="og:title" content="MozTW Telegeam Groups">
+		<meta property="og:locale" content="zh_TW">
 		<meta property="og:image" content="https://moztw.org/foxmosa/images/30series/30foxmosa-12.png">
+		<meta property="og:image:secure_url" content="https://moztw.org/foxmosa/images/30series/30foxmosa-12.png">
+		<meta property="og:image:type" content="image/png" />
+		<meta property="og:image:width" content="553" />
+		<meta property="og:image:height" content="526" />
 		<script src="//www.google.com/recaptcha/api.js"></script>
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
 <?php echo file_get_contents('../../sandstone/iefix.shtml'); ?>
