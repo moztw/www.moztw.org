@@ -1,37 +1,29 @@
 <?php
 require('config.php');
+require('links.php');
 
-if (isset($_GET['recaptcha'])) {
-	$curl = curl_init();
-	curl_setopt($curl, CURLOPT_URL, 'https://www.google.com/recaptcha/api/siteverify');   # Google reCAPTCHA Veritication API
-	curl_setopt($curl, CURLOPT_RETURNTRANSFER, True);   # Don't show respone
-	curl_setopt($curl, CURLOPT_POST, True);   # Use POST
-	curl_setopt($curl, CURLOPT_POSTFIELDS, 'secret=' . SiteSecret . '&response=' . urlencode($_GET['recaptcha']));   # API key and verification token
-	$data = curl_exec($curl);
-	curl_close($curl);
-	$data = json_decode($data, True);
-	if (isset($data['success']) && $data['success'] === True) {   # if verify success
-		success();
-	} else {
-		fail();
-	}
+if (!isset($_GET['recaptcha']) || $_GET['recaptcha'] == '') {
+	fail();
 }
 
-function success() {
-	$respone = Array(
-		'success' => True,
-		'data' => Array(
-# format:		'Name' => 'ID',    // $url = 'https://telegram.me/joinchat/' . $ID;
-			'MozTW' => 'AmWeuT0XZKuwaB9m3AXfyw',
-			'MozTW 字幕組' => 'AutpyAC4ZZFBxqYV0reM2w',
-			'MozTW Design' => 'AutpyAHfYs36856lXGTZrA',
-			'Foxfooder (zh)' => 'AutpyAJlAH8jqV6ZgyAr_Q',
-			'Mozillians (en)' => 'AutpyDvFHJHFTwwS0JyTrA',
-			'mozilla-videol10n (en)' => 'AutpyAGi7CJR02wP1AnY_g',
-		)
-	);
-	$respone = json_encode($respone);
-	echo $respone;
+$curl = curl_init();
+curl_setopt_array($curl, Array(
+	CURLOPT_URL => 'https://www.google.com/recaptcha/api/siteverify',   # Google reCAPTCHA Veritication API
+	CURLOPT_RETURNTRANSFER => True,   # Don't show respone
+	CURLOPT_POST => True,   # Use POST
+	CURLOPT_POSTFIELDS => Array(
+		'secret' => SiteSecret,
+		'response' => $_GET['recaptcha'],
+	),
+));
+$data = curl_exec($curl);
+curl_close($curl);
+$data = json_decode($data, True);
+
+if (isset($data['success']) && $data['success']) {   # if verify success
+	success($tag);
+} else {
+	fail();
 }
 
 function fail() {
@@ -40,4 +32,15 @@ function fail() {
 	);
 	$respone = json_encode($respone);
 	echo $respone;
+	exit;
+}
+
+function success($tag) {
+	$respone = Array(
+		'success' => True,
+		'data' => $links,
+	);
+	$respone = json_encode($respone);
+	echo $respone;
+	exit;
 }

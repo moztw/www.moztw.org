@@ -20,7 +20,7 @@ require('config.php');
 		<div id="recaptcha">
 			<p>為了防止廣告機器人進入群組，麻煩您點選下面的「我不是機器人」</p>
 			<!-- Google reCAPTCHA -->
-			<div class="g-recaptcha" data-sitekey="<?php echo SiteKey ?>" data-callback="recaptcha"></div><br />
+			<div class="g-recaptcha" data-sitekey="<?php echo SiteKey ?>" data-callback="recaptcha"></div>
 		</div>
 
 		<div id="waiting" style="display: none">
@@ -29,7 +29,7 @@ require('config.php');
 
 		<div id="join" style="display: none">
 			<p>非常感謝您的配合，加入連結：</p>
-			<div id="link"></div>
+			<div id="links"></div>
 		</div>
 
 		<div id="error" style="display: none">
@@ -38,29 +38,25 @@ require('config.php');
 
 		<!-- Public to bots -->
 		<div id="sticker" style="display: none">
-			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank">Foxmosa Sticker</a>
+			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank" title="Foxmosa Telegram 貼圖">Foxmosa Sticker</a>
 		</div>
 
 		<script type="text/javascript">
 		function recaptcha() {
 			$("#recaptcha").hide();
 			$("#waiting").show();
+
 			var url = 'ajax.php?recaptcha=' + $("#g-recaptcha-response").val();
 			$.get(url, {}, function (result) {
-				show(result);
+				submit(result);
 			});
 		}
 
-		function show(json) {
+		function submit(json) {
 			var obj = JSON.parse(json);
 			if (obj.success) {
 				var data = obj.data;
-				var theHtml = '';
-				for (key in data) {
-					var link = 'https://telegram.me/joinchat/' + data[key].trim();
-					theHtml += '<a href="' + link + '" target="_blank">' + key + '</a><br>\n';
-				}
-				$("#link").html(theHtml);
+				showLinks(data);
 				$("#waiting").hide();
 				$("#join").show();
 				$("#sticker").show();
@@ -71,5 +67,20 @@ require('config.php');
 				$("#error").show();
 			}
 		}
+
+		function showLinks(datas) {
+			var HTML = '';
+			for (key in datas) {
+				var data = datas[key];
+
+				var link = 'https://telegram.me/joinchat/' + data["id"];
+				var name = data["name"];
+				var title = data['description'];
+
+				HTML += '<a href="' + link + '" title="' + title + '" target="_blank">' + name + '</a><br>\n';
+			}
+			$("#links").html(HTML);
+		}
 		</script>
+
 <?php echo file_get_contents('../../sandstone/footer.shtml'); ?>
