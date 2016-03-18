@@ -1,4 +1,6 @@
 <?php
+require('config.php');
+
 if (!isset($_COOKIE['tg_lang'])) {
 	if (preg_match('/zh/', $SERVER['HTTP_ACCEPT_LANGUAGE'])) {
 		setcookie('tg_lang', 'zh', time() + 365*24*60*60, PATH);
@@ -8,10 +10,8 @@ if (!isset($_COOKIE['tg_lang'])) {
 }
 
 if ($_COOKIE['tg_lang'] == 'en') {
-	header('Location: ' . PATH . 'en/', True, 302);
+	header('Location: ' . PATH . 'en', True, 302);
 }
-
-require('config.php');
 ?>
 
 <?php echo file_get_contents('../../sandstone/meta.shtml'); ?>
@@ -64,7 +64,7 @@ require('config.php');
 			if (lang == "zh") {
 				location.href = "<?php echo PATH; ?>";
 			} else {
-				location.href = "<?php echo PATH; ?>" + lang + "/";
+				location.href = "<?php echo PATH; ?>" + lang;
 			}
 		}
 
