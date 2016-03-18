@@ -6,6 +6,12 @@ if (!isset($_GET['recaptcha']) || $_GET['recaptcha'] == '') {
 	fail();
 }
 
+if (isset($_GET['tag']) && array_key_exists($_GET['tag'], $tags)) {
+	$tag = $_GET['tag'];
+} else {
+	$tag = 'all';
+}
+
 $curl = curl_init();
 curl_setopt_array($curl, Array(
 	CURLOPT_URL => 'https://www.google.com/recaptcha/api/siteverify',   # Google reCAPTCHA Veritication API
@@ -36,11 +42,26 @@ function fail() {
 }
 
 function success($tag) {
+	$link = genLinks($tag);
 	$respone = Array(
 		'success' => True,
-		'data' => $links,
+		'data' => $link,
 	);
 	$respone = json_encode($respone);
 	echo $respone;
 	exit;
+}
+
+function genLinks($tag) {
+	global $links;
+
+	$result = Array($links[0]);   # MozTW
+	$links = array_slice($links, 1);   # Remove MozTW form all group list
+
+	foreach ($links as $link) {
+		if (in_array($tag, $link['tags'])) {
+			$result[] = $link;
+		}
+	}
+	return $result;
 }
