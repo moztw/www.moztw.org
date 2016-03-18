@@ -1,4 +1,6 @@
 <?php
+require('config.php');
+
 if (!isset($_COOKIE['tg_lang'])) {
 	if (preg_match('/zh/', $SERVER['HTTP_ACCEPT_LANGUAGE'])) {
 		setcookie('tg_lang', 'zh', time() + 365*24*60*60, PATH);
@@ -10,11 +12,9 @@ if (!isset($_COOKIE['tg_lang'])) {
 if ($_COOKIE['tg_lang'] == 'zh') {
 	header('Location: ' . PATH, True, 302);
 }
-
-require('../config.php');
 ?>
 
-<?php echo file_get_contents('../../../sandstone/meta.shtml'); ?>
+<?php echo file_get_contents('../../sandstone/meta.shtml'); ?>
 		<title>MozTW Telegram Group</title>
 		<meta property="og:title" content="MozTW Telegeam Groups">
 		<meta property="og:locale" content="en">
@@ -25,10 +25,10 @@ require('../config.php');
 		<meta property="og:image:height" content="526" />
 		<script src="//www.google.com/recaptcha/api.js"></script>
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
-<?php echo file_get_contents('../../../sandstone/iefix.shtml'); ?>
+<?php echo file_get_contents('../../sandstone/iefix.shtml'); ?>
 	</head>
 	<body>
-<?php echo file_get_contents('../../../sandstone/header.shtml'); ?>
+<?php echo file_get_contents('../../sandstone/header.shtml'); ?>
 		<p>Change Language<select id="lang" onchange="change_lang()">
 			<option value="en" selected="selected">English</option>
 			<option value="zh">Chinese</option>
@@ -64,7 +64,7 @@ require('../config.php');
 			if (lang == "zh") {
 				location.href = "<?php echo PATH; ?>";
 			} else {
-				location.href = "<?php echo PATH; ?>" + lang + "/";
+				location.href = "<?php echo PATH; ?>" + lang;
 			}
 		}
 
@@ -72,7 +72,7 @@ require('../config.php');
 			$("#recaptcha").hide();
 			$("#waiting").show();
 
-			var url = '../ajax.php?tag=en&recaptcha=' + $("#g-recaptcha-response").val();
+			var url = 'ajax.php?tag=en&recaptcha=' + $("#g-recaptcha-response").val();
 			$.get(url, {}, function (result) {
 				submit(result);
 			});
@@ -109,4 +109,4 @@ require('../config.php');
 		}
 		</script>
 
-<?php echo file_get_contents('../../../sandstone/footer.shtml'); ?>
+<?php echo file_get_contents('../../sandstone/footer.shtml'); ?>
