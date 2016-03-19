@@ -1,0 +1,9 @@
+#wrap {
+    margin: 40px auto;
+    max-width: 640px;
+    width: 100%;
+    text-align: center;
+}
+.g-recaptcha {
+    display: inline-block;
+}

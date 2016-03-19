@@ -24,11 +24,13 @@ if ($_COOKIE['tg_lang'] == 'zh') {
 		<meta property="og:image:width" content="553" />
 		<meta property="og:image:height" content="526" />
 		<script src="//www.google.com/recaptcha/api.js"></script>
-		<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+		<script src="//code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" media="all" href="/css/telegram.css">
 <?php echo file_get_contents('../../sandstone/iefix.shtml'); ?>
 	</head>
 	<body>
 <?php echo file_get_contents('../../sandstone/header.shtml'); ?>
+  <div id="wrap">
 		<p>Change Language<select id="lang" onchange="change_lang()">
 			<option value="en" selected="selected">English</option>
 			<option value="zh">Chinese</option>
@@ -108,5 +110,6 @@ if ($_COOKIE['tg_lang'] == 'zh') {
 			$("#links").html(HTML);
 		}
 		</script>
+	</div>
 
 <?php echo file_get_contents('../../sandstone/footer.shtml'); ?>
