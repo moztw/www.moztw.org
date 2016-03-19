@@ -9,15 +9,15 @@ if (!isset($_COOKIE['tg_lang'])) {
 	}
 }
 
-if ($_COOKIE['tg_lang'] == 'en') {
-	header('Location: ' . PATH . 'en', True, 302);
+if ($_COOKIE['tg_lang'] == 'zh') {
+	header('Location: ' . PATH, True, 302);
 }
 ?>
 
 <?php echo file_get_contents('../../sandstone/meta.shtml'); ?>
 		<title>MozTW Telegram Group</title>
 		<meta property="og:title" content="MozTW Telegeam Groups">
-		<meta property="og:locale" content="zh_TW">
+		<meta property="og:locale" content="en">
 		<meta property="og:image" content="https://moztw.org/foxmosa/images/30series/30foxmosa-12.png">
 		<meta property="og:image:secure_url" content="https://moztw.org/foxmosa/images/30series/30foxmosa-12.png">
 		<meta property="og:image:type" content="image/png" />
@@ -29,32 +29,32 @@ if ($_COOKIE['tg_lang'] == 'en') {
 	</head>
 	<body>
 <?php echo file_get_contents('../../sandstone/header.shtml'); ?>
-		<p>切換語言<select id="lang" onchange="change_lang()">
-			<option value="zh" selected="selected">Chinese</option>
-			<option value="en">English</option>
+		<p>Change Language<select id="lang" onchange="change_lang()">
+			<option value="en" selected="selected">English</option>
+			<option value="zh">Chinese</option>
 		</select></p>
 		<div id="recaptcha">
-			<p>為了防止廣告機器人進入群組，麻煩您點選下面的「我不是機器人」</p>
+			<p>Please click "I am not a robot"</p>
 			<!-- Google reCAPTCHA -->
 			<div class="g-recaptcha" data-sitekey="<?php echo SiteKey ?>" data-callback="recaptcha"></div>
 		</div>
 
 		<div id="waiting" style="display: none">
-			<p>處理中，請稍候..</p>
+			<p>Processing, please wait...</p>
 		</div>
 
 		<div id="join" style="display: none">
-			<p>非常感謝您的配合，加入連結：</p>
+			<p>Thank you very much! you can join group via following link:</p>
 			<div id="links"></div>
 		</div>
 
 		<div id="error" style="display: none">
-			<p>驗證失敗，<a href=".">點我重試</a></p>
+			<p>Verification failed. <a href=".">Retry</a></p>
 		</div>
 
 		<!-- Public to bots -->
 		<div id="sticker" style="display: none">
-			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank" title="Foxmosa Telegram 貼圖">Foxmosa Sticker</a>
+			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank" title="Foxmosa Telegram Sticker">Foxmosa Sticker</a>
 		</div>
 
 		<script type="text/javascript">
@@ -72,7 +72,7 @@ if ($_COOKIE['tg_lang'] == 'en') {
 			$("#recaptcha").hide();
 			$("#waiting").show();
 
-			var url = 'ajax.php?recaptcha=' + $("#g-recaptcha-response").val();
+			var url = 'ajax.php?tag=en&recaptcha=' + $("#g-recaptcha-response").val();
 			$.get(url, {}, function (result) {
 				submit(result);
 			});
@@ -88,7 +88,7 @@ if ($_COOKIE['tg_lang'] == 'en') {
 				$("#sticker").show();
 			} else {
 				$("#waiting").hide();
-				alert("驗證失敗\n麻煩您再試一次");
+				alert("Verification failed.\nPlease retry.");
 				document.location.href = ".";
 				$("#error").show();
 			}

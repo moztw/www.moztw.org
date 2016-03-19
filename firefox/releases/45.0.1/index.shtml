@@ -1,0 +1,58 @@
+<!--#set var="release_date" value="2016-03-19" -->
+<!--#set var="version" value="45.0.1" -->
+<!--#set var="previous_version" value="45.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正在 Youtube 等網站的潛在效能問題（<a href="https://bugzilla.mozilla.org/1220502">bug 1220502</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正特定情況下，遺失搜尋引擎順序、關鍵字設定的問題（<a href="https://bugzilla.mozilla.org/1254694">bug 1254694</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>重新啟用非標準的 <code>jar:</code> URI 以修正對 IBM iNotes 的相容性（<a href="https://bugzilla.mozilla.org/1255139">bug 1255139</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正使用 <code>&lt;import&gt;</code> 時 <code>XSLTProcessor.importStylesheet</code> 會失敗的問題（<a href="https://bugzilla.mozilla.org/1249572">bug 1249572</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正搜尋引擎清單變成空白的問題（<a href="https://bugzilla.mozilla.org/1255605">bug 1255605</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正搜尋工具列輸入 http:// 或 https:// 時，無法使用的問題（<a href="https://bugzilla.mozilla.org/1254503">bug 1254503</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正設定「接受來自第三方的 Cookies」為「永不」時，部分網站載入不正常的問題（<a href="https://bugzilla.mozilla.org/1254856">bug 1254856</a>）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>停用 Graphite 字體成型元件庫。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2045&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox45&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla45&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
