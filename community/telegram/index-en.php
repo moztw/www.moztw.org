@@ -11,6 +11,8 @@ if (!isset($_COOKIE['tg_lang'])) {
 
 if ($_COOKIE['tg_lang'] == 'zh') {
 	header('Location: ' . PATH, True, 302);
+} else {
+	header('Location: ' . PATH . '/' . $_COOKIE['tg_lang'], True, 302);
 }
 ?>
 
@@ -64,7 +66,7 @@ if ($_COOKIE['tg_lang'] == 'zh') {
 			if (lang == "zh") {
 				location.href = "<?php echo PATH; ?>";
 			} else {
-				location.href = "<?php echo PATH; ?>" + lang;
+				location.href = "<?php echo PATH; ?>/" + lang;
 			}
 		}
 
