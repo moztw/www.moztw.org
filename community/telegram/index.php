@@ -3,9 +3,9 @@ require('config.php');
 
 if (!isset($_COOKIE['tg_lang'])) {
 	if (preg_match('/zh/', $SERVER['HTTP_ACCEPT_LANGUAGE'])) {
-		setcookie('tg_lang', 'zh', time() + 365*24*60*60, PATH);
+		setcookie('tg_lang', 'zh', time() + 365*24*60*60, '/community/telegram');
 	} else {
-		setcookie('tg_lang', 'en', time() + 365*24*60*60, PATH);
+		setcookie('tg_lang', 'en', time() + 365*24*60*60, '/community/telegram');
 	}
 }
 
