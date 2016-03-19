@@ -24,7 +24,7 @@ if ($_COOKIE['tg_lang'] == 'en') {
 		<meta property="og:image:width" content="553" />
 		<meta property="og:image:height" content="526" />
 		<script src="//www.google.com/recaptcha/api.js"></script>
-		<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+		<script src="//code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" media="all" href="/css/telegram.css">
 <?php echo file_get_contents('../../sandstone/iefix.shtml'); ?>
 	</head>
