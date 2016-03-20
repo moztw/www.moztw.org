@@ -98,7 +98,7 @@ if ($_COOKIE['tg_lang'] == 'zh') {
 
 		function showLinks(datas) {
 			var HTML = '';
-			for (key in datas) {
+			for (var key in datas) {
 				var data = datas[key];
 
 				var link = 'https://telegram.me/joinchat/' + data["id"];
