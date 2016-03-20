@@ -11,8 +11,6 @@ if (!isset($_COOKIE['tg_lang'])) {
 
 if ($_COOKIE['tg_lang'] == 'zh') {
 	header('Location: ' . PATH, True, 302);
-} else {
-	header('Location: ' . PATH . '/' . $_COOKIE['tg_lang'], True, 302);
 }
 ?>
 
@@ -68,7 +66,7 @@ if ($_COOKIE['tg_lang'] == 'zh') {
 			if (lang == "zh") {
 				location.href = "<?php echo PATH; ?>";
 			} else {
-				location.href = "<?php echo PATH; ?>/" + lang;
+				location.href = "<?php echo PATH; ?>" + lang;
 			}
 		}
 
@@ -100,7 +98,7 @@ if ($_COOKIE['tg_lang'] == 'zh') {
 
 		function showLinks(datas) {
 			var HTML = '';
-			for (var key in datas) {
+			for (key in datas) {
 				var data = datas[key];
 
 				var link = 'https://telegram.me/joinchat/' + data["id"];
