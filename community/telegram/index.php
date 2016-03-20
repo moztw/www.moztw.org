@@ -3,14 +3,14 @@ require('config.php');
 
 if (!isset($_COOKIE['tg_lang'])) {
 	if (preg_match('/zh/', $SERVER['HTTP_ACCEPT_LANGUAGE'])) {
-		setcookie('tg_lang', 'zh', time() + 365*24*60*60, '/community/telegram');
+		setcookie('tg_lang', 'zh', time() + 365*24*60*60, PATH);
 	} else {
-		setcookie('tg_lang', 'en', time() + 365*24*60*60, '/community/telegram');
+		setcookie('tg_lang', 'en', time() + 365*24*60*60, PATH);
 	}
 }
 
-if ($_COOKIE['tg_lang'] == 'en') {
-	header('Location: ' . PATH . 'en', True, 302);
+if ($_COOKIE['tg_lang'] != 'zh') {
+	header('Location: ' . PATH . '/' . $_COOKIE['tg_lang'], True, 302);
 }
 ?>
 
@@ -64,7 +64,7 @@ if ($_COOKIE['tg_lang'] == 'en') {
 			if (lang == "zh") {
 				location.href = "<?php echo PATH; ?>";
 			} else {
-				location.href = "<?php echo PATH; ?>" + lang;
+				location.href = "<?php echo PATH; ?>" + "/" + lang;
 			}
 		}
 
