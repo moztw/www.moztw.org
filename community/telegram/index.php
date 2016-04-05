@@ -31,10 +31,6 @@ if ($_COOKIE['tg_lang'] != 'zh') {
 	<body>
 <?php echo file_get_contents('../../sandstone/header.shtml'); ?>
   <div id="wrap">
-		<p>切換語言<select id="lang" onchange="change_lang()">
-			<option value="zh" selected="selected">Chinese</option>
-			<option value="en">English</option>
-		</select></p>
 		<div id="recaptcha">
 			<p>為了防止廣告機器人進入群組，麻煩您點選下面的「我不是機器人」</p>
 			<!-- Google reCAPTCHA -->
@@ -58,6 +54,11 @@ if ($_COOKIE['tg_lang'] != 'zh') {
 		<div id="sticker" style="display: none">
 			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank" title="Foxmosa Telegram 貼圖">Foxmosa Sticker</a>
 		</div>
+
+		<p>切換語言 <select id="lang" onchange="change_lang()">
+			<option value="zh" selected="selected">Chinese</option>
+			<option value="en">English</option>
+		</select></p>
 
 		<script type="text/javascript">
 		function change_lang() {
