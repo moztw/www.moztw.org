@@ -2,14 +2,18 @@
 // March 2011: modified by littlebtc orz
 // March 2011: modified by petercpg for detecting mobile platforms
 function getPlatform() {
-  if (navigator.platform.indexOf("Win32") != -1 || navigator.platform.indexOf("Win64") != -1)
+  if (navigator.platform.indexOf("Win32") != -1)
     return "win";
+  if (navigator.platform.indexOf("Win64") != -1 || navigator.platform.indexOf("WOW64") != -1)
+    return "win64";
   
   //Linux 放在最後，以免其他 Linux based 裝置也被當成桌面 linux
   if (navigator.userAgent.indexOf("Android") != -1)
     return "android";
-  if (navigator.platform.indexOf("Linux") != -1)
+  if (navigator.platform.indexOf("Linux") != -1 && navigator.platform.indexOf("i686") != -1)
     return "linux";    
+  if (navigator.platform.indexOf("Linux") != -1 && navigator.platform.indexOf("x86_64") != -1)
+    return "linux64";
   
   //Mac 放在最後，以免其他 OSX based 裝置也被當成桌面 OSX
   if(navigator.userAgent.match(/iP(hone|od|ad)/i))

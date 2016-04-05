@@ -8,58 +8,6 @@
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="MozTW 過去、現在及未來的活動">
 <link rel="stylesheet" type="text/css" href="events.css" media="screen">
-<script>
-jQuery(function($) {
-  var e = {
-    article: $('article'),
-    pointer: 0,
-    max: $('article').length - 1,
-
-    init: function() {
-      e.article.each(function(index) {
-        $(this).mouseenter(function() {
-          e.pointer = index;
-
-          var t = $(this);
-          var desc = t.find('.content');
-          $('.event-des').css('top', t.position().top);
-
-          if (desc.length > 0) {    // big events
-            $('.event-des .content').html(desc.html());
-          }
-          else {                //small events
-            $('.event-des .content').html(t.find('time').html() + " " + t.find('h2').html());
-          };
-
-          e.article.removeClass('on');
-          t.addClass('on');
-
-          return false;
-        });
-      });
-
-      $('.event-des .btn').click(function() {
-        if ($(this).hasClass('prev-event')) {    // up
-          if (e.pointer == 0) return false;
-          target = $(e.article[e.pointer - 1]).mouseenter();
-          $('html, body').animate({'scrollTop': (target.offset().top - 150) + 'px'}, 'slow');
-        }
-        else {    // down
-          if (e.pointer == e.max) return false;
-          target = $(e.article[e.pointer + 1]).mouseenter();
-          $('html, body').animate({'scrollTop': (target.offset().top - 150) + 'px'}, 'slow');
-        };
-
-        return false;
-      });
-
-      $(e.article[0]).mouseenter();
-    }
-  };
-
-  e.init();
-});
-</script>
 
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
@@ -568,4 +516,56 @@ jQuery(function($) {
 <!--[if lt IE 9]><script src="/js/library/IE9.js"></script><![endif]-->
 <script type="text/javascript" src="sylvester.js"></script>
 <script type="text/javascript" src="transformie.js"></script>
+<script>
+jQuery(function($) {
+  var e = {
+    article: $('article'),
+    pointer: 0,
+    max: $('article').length - 1,
+
+    init: function() {
+      e.article.each(function(index) {
+        $(this).mouseenter(function() {
+          e.pointer = index;
+
+          var t = $(this);
+          var desc = t.find('.content');
+          $('.event-des').css('top', t.position().top);
+
+          if (desc.length > 0) {    // big events
+            $('.event-des .content').html(desc.html());
+          }
+          else {                //small events
+            $('.event-des .content').html(t.find('time').html() + " " + t.find('h2').html());
+          };
+
+          e.article.removeClass('on');
+          t.addClass('on');
+
+          return false;
+        });
+      });
+
+      $('.event-des .btn').click(function() {
+        if ($(this).hasClass('prev-event')) {    // up
+          if (e.pointer == 0) return false;
+          target = $(e.article[e.pointer - 1]).mouseenter();
+          $('html, body').animate({'scrollTop': (target.offset().top - 150) + 'px'}, 'slow');
+        }
+        else {    // down
+          if (e.pointer == e.max) return false;
+          target = $(e.article[e.pointer + 1]).mouseenter();
+          $('html, body').animate({'scrollTop': (target.offset().top - 150) + 'px'}, 'slow');
+        };
+
+        return false;
+      });
+
+      $(e.article[0]).mouseenter();
+    }
+  };
+
+  e.init();
+});
+</script>
 <!--#include virtual="/inc/footer.html" -->

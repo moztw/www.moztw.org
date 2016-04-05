@@ -3,14 +3,14 @@ require('config.php');
 
 if (!isset($_COOKIE['tg_lang'])) {
 	if (preg_match('/zh/', $SERVER['HTTP_ACCEPT_LANGUAGE'])) {
-		setcookie('tg_lang', 'zh', time() + 365*24*60*60, '/community/telegram');
+		setcookie('tg_lang', 'zh', time() + 365*24*60*60, PATH);
 	} else {
-		setcookie('tg_lang', 'en', time() + 365*24*60*60, '/community/telegram');
+		setcookie('tg_lang', 'en', time() + 365*24*60*60, PATH);
 	}
 }
 
-if ($_COOKIE['tg_lang'] == 'en') {
-	header('Location: ' . PATH . 'en', True, 302);
+if ($_COOKIE['tg_lang'] != 'zh') {
+	header('Location: ' . PATH . '/' . $_COOKIE['tg_lang'], True, 302);
 }
 ?>
 
@@ -24,11 +24,13 @@ if ($_COOKIE['tg_lang'] == 'en') {
 		<meta property="og:image:width" content="553" />
 		<meta property="og:image:height" content="526" />
 		<script src="//www.google.com/recaptcha/api.js"></script>
-		<script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+		<script src="//code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" media="all" href="/css/telegram.css">
 <?php echo file_get_contents('../../sandstone/iefix.shtml'); ?>
 	</head>
 	<body>
 <?php echo file_get_contents('../../sandstone/header.shtml'); ?>
+  <div id="wrap">
 		<p>切換語言<select id="lang" onchange="change_lang()">
 			<option value="zh" selected="selected">Chinese</option>
 			<option value="en">English</option>
@@ -64,7 +66,7 @@ if ($_COOKIE['tg_lang'] == 'en') {
 			if (lang == "zh") {
 				location.href = "<?php echo PATH; ?>";
 			} else {
-				location.href = "<?php echo PATH; ?>" + lang;
+				location.href = "<?php echo PATH; ?>" + "/" + lang;
 			}
 		}
 
@@ -96,7 +98,7 @@ if ($_COOKIE['tg_lang'] == 'en') {
 
 		function showLinks(datas) {
 			var HTML = '';
-			for (key in datas) {
+			for (var key in datas) {
 				var data = datas[key];
 
 				var link = 'https://telegram.me/joinchat/' + data["id"];
@@ -108,5 +110,6 @@ if ($_COOKIE['tg_lang'] == 'en') {
 			$("#links").html(HTML);
 		}
 		</script>
+	</div>
 
 <?php echo file_get_contents('../../sandstone/footer.shtml'); ?>
