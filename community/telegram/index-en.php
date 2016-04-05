@@ -2,7 +2,7 @@
 require('config.php');
 
 if (!isset($_COOKIE['tg_lang'])) {
-	if (preg_match('/zh/', $SERVER['HTTP_ACCEPT_LANGUAGE'])) {
+	if (preg_match('/zh/', $_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
 		setcookie('tg_lang', 'zh', time() + 365*24*60*60, '/community/telegram');
 	} else {
 		setcookie('tg_lang', 'en', time() + 365*24*60*60, '/community/telegram');
@@ -33,10 +33,6 @@ if ($_COOKIE['tg_lang'] == 'zh') {
 	<body>
 <?php echo file_get_contents('../../sandstone/header.shtml'); ?>
   <div id="wrap">
-		<p>Change Language<select id="lang" onchange="change_lang()">
-			<option value="en" selected="selected">English</option>
-			<option value="zh">Chinese</option>
-		</select></p>
 		<div id="recaptcha">
 			<p>Please click "I am not a robot"</p>
 			<!-- Google reCAPTCHA -->
@@ -60,6 +56,11 @@ if ($_COOKIE['tg_lang'] == 'zh') {
 		<div id="sticker" style="display: none">
 			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank" title="Foxmosa Telegram Sticker">Foxmosa Sticker</a>
 		</div>
+
+		<p>Change Language <select id="lang" onchange="change_lang()">
+			<option value="en" selected="selected">English</option>
+			<option value="zh">Chinese</option>
+		</select></p>
 
 		<script type="text/javascript">
 		function change_lang() {
