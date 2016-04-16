@@ -2,15 +2,13 @@
 require('config.php');
 require('links.php');
 
-if (!isset($_GET['recaptcha']) || $_GET['recaptcha'] == '') {
+if (!isset($_GET['recaptcha']) || $_GET['recaptcha'] == '')
 	fail();
-}
 
-if (isset($_GET['tag']) && array_key_exists($_GET['tag'], $tags)) {
+if (isset($_GET['tag']) && array_key_exists($_GET['tag'], $tags))
 	$tag = $_GET['tag'];
-} else {
+else
 	$tag = 'all';
-}
 
 $curl = curl_init();
 curl_setopt_array($curl, Array(
@@ -26,11 +24,10 @@ $data = curl_exec($curl);
 curl_close($curl);
 $data = json_decode($data, True);
 
-if (isset($data['success']) && $data['success']) {   # if verify success
+if (isset($data['success']) && $data['success'])   # if verify success
 	success($tag);
-} else {
+else
 	fail();
-}
 
 function fail() {
 	$respone = Array(
@@ -58,10 +55,8 @@ function genLinks($tag) {
 	$result = Array($links[0]);   # MozTW
 	$links = array_slice($links, 1);   # Remove MozTW form all group list
 
-	foreach ($links as $link) {
-		if (in_array($tag, $link['tags'])) {
+	foreach ($links as $link)
+		if (in_array($tag, $link['tags']))
 			$result[] = $link;
-		}
-	}
 	return $result;
 }
