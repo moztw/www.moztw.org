@@ -2,21 +2,19 @@
 require('config.php');
 
 if (!isset($_COOKIE['tg_lang'])) {
-	if (preg_match('/zh/', $_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
+	if (preg_match('/zh/', $_SERVER['HTTP_ACCEPT_LANGUAGE']))
 		setcookie('tg_lang', 'zh', time() + 365*24*60*60, '/community/telegram');
-	} else {
+	else
 		setcookie('tg_lang', 'en', time() + 365*24*60*60, '/community/telegram');
-	}
 }
 
-if ($_COOKIE['tg_lang'] == 'zh') {
+if ($_COOKIE['tg_lang'] == 'zh')
 	header('Location: ' . PATH, True, 302);
-} elseif ($_COOKIE['tg_lang'] != 'en') {
+elseif ($_COOKIE['tg_lang'] != 'en')
 	header('Location: ' . PATH . '/' . $_COOKIE['tg_lang'], True, 302);
-}
-?>
 
-<?php echo file_get_contents('../../sandstone/meta.shtml'); ?>
+echo file_get_contents('../../sandstone/meta.shtml');
+?>
 		<title>MozTW Telegram Group</title>
 		<meta property="og:title" content="MozTW Telegeam Groups">
 		<meta property="og:locale" content="en">
@@ -63,11 +61,10 @@ if ($_COOKIE['tg_lang'] == 'zh') {
 		function change_lang() {
 			var lang = $("#lang").val();
 			document.cookie = "tg_lang=" + lang;
-			if (lang == "zh") {
+			if (lang == "zh")
 				location.href = "<?php echo PATH; ?>";
-			} else {
+			else
 				location.href = "<?php echo PATH; ?>/" + lang;
-			}
 		}
 
 		function recaptcha() {
