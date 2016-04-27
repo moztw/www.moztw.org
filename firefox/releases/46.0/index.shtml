@@ -1,0 +1,68 @@
+<!--#set var="release_date" value="2016-04-26" -->
+<!--#set var="version" value="46.0" -->
+<!--#set var="previous_version" value="45.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>改善 JavaScript JIT (Just In Time) 編譯器<a href="http://jandemooij.nl/blog/2015/12/29/wx-jit-code-enabled-in-firefox/">安全性</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>GTK3 整合（限 GNU/Linux）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>正確處理使用 clip 和 mask 的 SVG 縮放繪圖。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正 Google Docs 螢幕閱讀器處理空白的行為。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox46">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>改善 <a href="https://wiki.mozilla.org/Media/WebRTC/ReleaseNotes/46">WebRTC</a> 效能和穩定性。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://developer.mozilla.org/en-US/docs/Tools/Memory">記憶體工具</a>新增 dominator 顯示。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://developer.mozilla.org/en-US/docs/Tools/Performance/Allocations">效能面板</a>可以剖析記憶體配置和 garbage collection 暫停的清況。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>樣式編輯器 <a href="https://developer.mozilla.org/en-US/docs/Tools/Style_Editor#The_media_sidebar">@media 側邊欄</a>可配合適應性設計檢視模式縮放畫面。</span>
+
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>支援 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/elementsFromPoint">document.elementsFromPoint</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API">Web Crypto API</a> 新增 HKDF 支援。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2046&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox46&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla46&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
