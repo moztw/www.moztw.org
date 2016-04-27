@@ -58,7 +58,7 @@ $links = Array(
 	),
 
 	Array(
-		'id' => 'AutpyAabEGXdg2mplRTBXw',
+		'id' => 'AutpyAabEGXHORHTPng6nQ',
 		'name' => 'MozTW dev/add-on',
 		'description' => 'Mozilla 套件與開發相關技術討論',
 		'tags' => Array(
