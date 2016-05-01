@@ -101,11 +101,13 @@ if ($_COOKIE['tg_lang'] != 'zh') {
 			var HTML = '';
 			for (var key in datas) {
 				var data = datas[key];
-
-				var link = 'https://telegram.me/joinchat/' + data["id"];
-				var name = data["name"];
-				var title = data['description'];
-
+        if (data.id.match(/^@/)) {
+				  var link = 'https://telegram.me/' + data.id.replace('@','');
+        } else {
+          var link = 'https://telegram.me/joinchat/' + data.id;
+        }
+				var name = data.name;
+				var title = data.description;
 				HTML += '<a href="' + link + '" title="' + title + '" target="_blank">' + name + '</a><br>\n';
 			}
 			$("#links").html(HTML);

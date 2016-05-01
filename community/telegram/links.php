@@ -18,7 +18,7 @@ $links = Array(
 	),
 
 	Array(
-		'id' => 'AutpyAC4ZZFBxqYV0reM2w',
+		'id' => 'AutpyAC4ZZEyZXJt9fuRyw',
 		'name' => 'MozTW 字幕組',
 		'description' => 'Mozilla 相關影片中英文字幕製作',
 		'tags' => Array(
@@ -28,7 +28,7 @@ $links = Array(
 	),
 
 	Array(
-		'id' => 'AutpyAHfYs36856lXGTZrA',
+		'id' => 'AutpyAHfYs0pkzmAhUYHdw',
 		'name' => 'MozTW Design',
 		'description' => 'Foxmosa 插畫、社群設計討論',
 		'tags' => Array(
@@ -48,8 +48,8 @@ $links = Array(
 	),
 
 	Array(
-		'id' => 'AutpyAJlAH8jqV6ZgyAr_Q',
-		'name' => 'Foxfooder',
+		'id' => 'AutpyAJlAH9QUsil-Rut1w',
+		'name' => 'Foxfooders (zh)',
 		'description' => 'B2G OS 中文討論群',
 		'tags' => Array(
 			'all',
@@ -58,7 +58,7 @@ $links = Array(
 	),
 
 	Array(
-		'id' => 'AutpyAabEGXHORHTPng6nQ',
+		'id' => 'AutpyAabEGUV5IXK4bReIw',
 		'name' => 'MozTW dev/add-on',
 		'description' => 'Mozilla 套件與開發相關技術討論',
 		'tags' => Array(
@@ -68,7 +68,7 @@ $links = Array(
 	),
 
 	Array(
-		'id' => 'AutpyDvFHJHFTwwS0JyTrA',
+		'id' => '@mozillian',
 		'name' => 'Mozillians',
 		'description' => 'Mozills general discussion group',
 		'tags' => Array(
@@ -78,7 +78,7 @@ $links = Array(
 	),
 
 	Array(
-		'id' => 'AutpyAGi7CJR02wP1AnY_g',
+		'id' => '@mozvideol10n',
 		'name' => 'mozilla-videol10n',
 		'description' => 'Mozilla\'s video subtitle group',
 		'tags' => Array(
