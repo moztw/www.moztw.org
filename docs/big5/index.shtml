@@ -53,7 +53,7 @@
 	<dd>
 	台灣政府單位正式制定的最新 Big5 標準，目前以 
 	<a href='http://www.cns11643.gov.tw'>CNS11643</a>的
-	<a href='http://www.cns11643.gov.tw/web/big5/'>附錄</a>形式發行。<br/>
+	<a href='http://www.cns11643.gov.tw/AIDB/encodings.do'>附錄</a>形式發行。<br/>
 	由於 Big5-2003 試圖減少 Unicode 字寬有問題的 Ambigious CJK 部份，
 	它把某些符號的 b2u 做了改變，導致 CP950 並不完全是 Big5-2003 的子集合
 	(或說 Big5-2003 不是 CP950 的 superset)。 某些字 (共 14 個符號)
