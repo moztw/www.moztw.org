@@ -151,7 +151,7 @@ div[class^=grid-] {
   text-align: center;
 }
 
-#sensorweb div{
+#sensorweb div.grid-4{
   text-align: center;
 }
 
