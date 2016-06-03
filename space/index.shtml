@@ -179,7 +179,19 @@
     </section>
 
     <section id="sensorweb" class="grids">
-      <div class="grid-12">
+      <header>
+        <div class="hgroup">
+          <h1>特別企劃：看看工寮空氣如何</h1>
+          <h2>Check the air quality in the Space</h2>
+        </div>
+      </header>
+      <div class="grid-8">
+        <p><strong>Project SensorWeb</strong> 是 Mozilla 實驗規劃中的物聯網開放資料平台，目前正在測試簡易的眾包式 PM2.5 空氣品質監測網絡，請<a href="http://sensorweb.io/">參考他們的網站</a>進一步了解這個專案。</p>
+        <p><strong>Project SensorWeb</strong> is an open data platform for IoT from Mozilla's Connected Device "Product Innovation." They are running a
+          pilot to build a crowdsourced PM2.5 air pollution sensor network on the platform.
+           <a href="http://sensorweb.io/">Check the website</a> for more information.</p>
+      </div>
+      <div class="grid-4">
         <iframe width="125" height="125" src="http://sensorweb.io/widget.html?id=rJujLq2M" frameborder="0" scrolling="no"></iframe>
       </div>
     </section>
