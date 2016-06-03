@@ -68,7 +68,7 @@ $links = Array(
 	),
   
   Array(
-		'id' => 'BFXgdgEbXYxPF7ib4YENEw',
+		'id' => '@moztwkaohsiung',
 		'name' => 'MozTW@高雄',
 		'description' => 'MozTW 社群在高雄的一個分支',
 		'tags' => Array(

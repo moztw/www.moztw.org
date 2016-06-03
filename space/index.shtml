@@ -143,6 +143,7 @@
           <li><a href="https://mozillians.org/u/fourdollars/" title="看 Shih-Yuan Lee 的摩茲人資料"><img src="//www.gravatar.com/avatar/60a42aadf0f45d6810734a477b36700b?s=200" alt="Shih-Yuan Lee"></a></li>
           <li><a href="https://mozillians.org/u/shangkuanlc/" title="看 Liang-chih ShangKuan 的摩茲人資料"><img src="images/moz-shangkuanlc.jpg" alt="Liang-chih ShangKuan"></a></li>
           <li><a href="https://mozillians.org/u/ettoolong/" title="看 Ett Chung 的摩茲人資料"><img src="//mozillians.org/media/uploads/sorl-cache/4d/7e/4d7ec00f7c9fb4b75ea637070395aa3d.jpg" alt="Ett Chung"></a></li>
+          <li><a href="https://mozillians.org/u/wpan/" title="看 Wei-Cheng Pan 的摩茲人資料"><img src="//secure.gravatar.com/avatar/8404e9b516233e6f2fdb0a21fac2848e?s=150x150" alt="Wei-Cheng Pan"></a></li>
         </ul>
       </div>
     </section>
@@ -171,10 +172,28 @@
         <a href="mailto:space@moztw.org">聯絡摩茲工寮</a>
       </div>
       <div class="grid-4">
-        <a href="https://etherpad.mozilla.org/moztw-taipei-space">營運中心</a>
+        <a href="http://folder.moztw.org/moztw-space">營運中心</a>
       </div>
       <div class="grid-4">
-        <a href="https://etherpad.mozilla.org/moztw-taipei-space-guildline">使用規範</a>
+        <a href="http://folder.moztw.org/moztw-space/https%253A%252F%252Fetherpad.mozilla.org%252Fmoztw-taipei-space-guildline">使用規範</a>
+      </div>
+    </section>
+
+    <section id="sensorweb" class="grids">
+      <header>
+        <div class="hgroup">
+          <h1>特別企劃：看看工寮空氣如何</h1>
+          <h2>Check the air quality in the Space</h2>
+        </div>
+      </header>
+      <div class="grid-8">
+        <p><strong>Project SensorWeb</strong> 是 Mozilla 實驗規劃中的物聯網開放資料平台，目前正在測試簡易的眾包式 PM2.5 空氣品質監測網絡，請<a href="http://sensorweb.io/">參考他們的網站</a>進一步了解這個專案。</p>
+        <p><strong>Project SensorWeb</strong> is an open data platform for IoT from Mozilla's Connected Device "Product Innovation." They are running a
+          pilot to build a crowdsourced PM2.5 air pollution sensor network on the platform.
+           <a href="http://sensorweb.io/">Check the website</a> for more information.</p>
+      </div>
+      <div class="grid-4">
+        <iframe width="125" height="125" src="http://sensorweb.io/widget.html?id=rJujLq2M" frameborder="0" scrolling="no"></iframe>
       </div>
     </section>
   </main>
