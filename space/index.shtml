@@ -171,10 +171,16 @@
         <a href="mailto:space@moztw.org">聯絡摩茲工寮</a>
       </div>
       <div class="grid-4">
-        <a href="https://etherpad.mozilla.org/moztw-taipei-space">營運中心</a>
+        <a href="http://folder.moztw.org/moztw-space">營運中心</a>
       </div>
       <div class="grid-4">
-        <a href="https://etherpad.mozilla.org/moztw-taipei-space-guildline">使用規範</a>
+        <a href="http://folder.moztw.org/moztw-space/https%253A%252F%252Fetherpad.mozilla.org%252Fmoztw-taipei-space-guildline">使用規範</a>
+      </div>
+    </section>
+
+    <section id="sensorweb" class="grids">
+      <div class="grid-12">
+        <iframe width="125" height="125" src="http://sensorweb.io/widget.html?id=rJujLq2M" frameborder="0" scrolling="no"></iframe>
       </div>
     </section>
   </main>

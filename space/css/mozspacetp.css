@@ -121,12 +121,12 @@ div[class^=grid-] {
     margin: 0px;
     position: relative;
     text-align: center;
-    padding: 0;  
+    padding: 0;
     background: rgba(0,0,0,.4) center center url(../images/bg_masthead.jpg);
     background-size:cover;
 }
 
- 
+
 #wrap { /* from OneMozilla */
   margin: 0 auto;
   position: relative;
@@ -151,6 +151,9 @@ div[class^=grid-] {
   text-align: center;
 }
 
+#sensorweb div{
+  text-align: center;
+}
 
 /* RWD */
 
@@ -164,7 +167,7 @@ div[class^=grid-] {
   #masthead h1 {
     font-size: 50px;
   }
-  
+
   h3 {font-size: 22px;}
 
   .grids {
@@ -182,7 +185,7 @@ div[class^=grid-] {
   }
 
   #wrap { width: 100%; }
-  main {padding: 0 20px;}  
+  main {padding: 0 20px;}
 
   #keyholders li {
     width: 64px;
@@ -205,11 +208,11 @@ div[class^=grid-] {
   }
 }
 
-@media only screen and (max-width:650px) {  
+@media only screen and (max-width:650px) {
   #intro header {
     display: none;
   }
-  
+
   #intro {margin-top: 1em;}
 
   h3 {
@@ -237,10 +240,10 @@ div[class^=grid-] {
     width: 238px;
     margin: 10px auto 0;
   }
-  
+
   #eqm {width: 330px; margin: 0 auto;}
 }
-@media only screen and (max-width:430px) {  
+@media only screen and (max-width:430px) {
   #eqm {width: 220px;}
 }
 @media only screen and (max-width:250px) {
