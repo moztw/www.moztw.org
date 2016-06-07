@@ -1,0 +1,117 @@
+<!--#set var="release_date" value="2016-06-07" -->
+<!--#set var="version" value="47.0" -->
+<!--#set var="previous_version" value="46.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>於 Windows、Mac OS X <a href="https://blog.mozilla.org/futurereleases/2016/04/08/mozilla-to-test-widevine-cdm-in-firefox-nightly/">支援 Google Widevine CDM</a>，自動將 Amazon Video 等影片串流服務的 Silverlight 影片轉為 HTML5 播放。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>在速度較佳的裝置啟用 VP9 視訊解碼器。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>未安裝 Flash 時，使用 HTML5 播放內嵌的 YouTube 影片。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>在「已同步的分頁」側欄檢視、搜尋您智慧型手機、其他電腦上的分頁。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>可以在 &apos;no-cache&apos; HTTPS 資源使用上一頁、下一頁功能。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>新增 Latgalu [ltg]（拉脫維亞語）語系支援。根據 Wikipedia，每日有 164,500 人使用這個語言。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox47">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>移除 FUEL（Firefox User Extension Library）支援，相依的附加元件也將失效。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>重設 <code>browser.sessionstore.restore_on_demand</code> 偏好設定為預設值 <code>true</code> 以<a href="https://support.mozilla.org/kb/allow-firefox-load-multiple-tabs-multiprocess">避免 e10s 效能問題</a>，快就是好！</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>移除 Firefox<a href="https://blog.mozilla.org/futurereleases/2013/09/24/plugin-activation-in-firefox/">「點擊後播放」白名單</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://developer.mozilla.org/en-US/Firefox/Releases/47#Changes_for_Web_developers">「網頁開發者」相關變更</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>使用「Service Workers」開發者工具檢視、啟動、除錯已註冊的 Service Worker。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>使用 Service Workers 工具模擬送出 Push 訊息</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>使用 about:debugging 工具中的 service worker「開始」按鈕啟動已註冊的 Service Worker。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>影響<a href="https://blog.mozilla.org/addons/2016/04/07/compatibility-for-firefox-47/">附加元件相容性</a>的變更。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>支援 ChaCha20/Poly1305 密文組。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>在適應性設計檢視模式中自訂使用者代理字串。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>網頁主控台的智慧多行輸入。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>支援 TextTrack 物件 <a href="https://html.spec.whatwg.org/multipage/embedded-content.html#event-media-cuechange">cuechange</a> 事件。</span>
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>WebCrypto：PBKDF2 支援 SHA-2 雜湊演算法。</span>
+    </li>
+    <li>
+      <span class="tag tag-html5">HTML5</span>
+      <span>WebCrypto：支援 RSA-PSS 簽章。</span>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>無效列印設定造成<a href="https://support.mozilla.org/kb/pages-appear-tiny-when-i-print-or-print-preview-firefox">預覽列印的頁面尺寸異常</a>（<a href="https://bugzilla.mozilla.org/1276717">bug 1276717</a>）。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2047&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox47&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla47&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
