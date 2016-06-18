@@ -28,6 +28,8 @@ function highlightDownload() {
   if (platform != "unknown") { // Unknown 的情況就不 Prefer 任何平台的連結
     if (platform == "linux64") {
       document.getElementById('download-link-linux').parentNode.className += ' hide';
+    } else {
+      document.getElementById('download-link-linux64').parentNode.className += ' hide';
     }
     var e = document.getElementById("download-link-" + platform);
     if (e) {
