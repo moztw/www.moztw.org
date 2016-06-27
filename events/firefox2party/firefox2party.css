@@ -81,12 +81,6 @@ ul#global-info li{
 div.information {
 	background: fixed no-repeat url(ff_all_emoti.gif) 10% 50%;
 }
-.information div {
-	margin-left: 25%;
-}
-.information div h2 {
-	margin-left: -2.2em;
-}
 .information div h2 img{
 	width: 1em;
 	height: 1em;
