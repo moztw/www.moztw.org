@@ -94,6 +94,9 @@ ul#global-info li{
 	width: 1em;
 	height: 1em;
 }
+.information iframe{
+  width: 100%;
+}
 
 .information div table {
 	width: 98%;
