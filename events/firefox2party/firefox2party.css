@@ -1,5 +1,7 @@
 #mainContent{
+	float: left;
 	margin-left: 0;
+	width: 100%;
 }
 .key-point {
 	background: #e4ecec url("/images/feature-firefox-2-party.jpg") 130% 30% no-repeat;
