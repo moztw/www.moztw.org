@@ -1,0 +1,137 @@
+<!--#set var="release_date" value="2016-08-02" -->
+<!--#set var="version" value="48.0" -->
+<!--#set var="previous_version" value="47.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>改善<a href="https://blog.mozilla.org/security/2016/08/01/enhancing-download-protection-in-firefox/">對有害下載檔案的防護</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>開始對部分使用者啟用<a href="https://blog.mozilla.org/futurereleases/2016/08/02/whats-next-for-multi-process-firefox/">多程序模式</a>（Electrolysis，e10s）。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>未經 Mozilla <a href="https://support.mozilla.org/kb/add-on-signing-in-firefox">驗證簽署</a>的附加元件將不會再被載入。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>GNU/Linux: 支援 Skia 繪圖引擎以提升 canvas 效能。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>WebRTC 改善：</span>
+      <ul>
+        <li>啟用 Delay-agnostic AEC。</li>
+        <li>支援 GNU/Linux full duplex。</li>
+        <li>支援 <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Session_lifetime#ICE_restart">ICE Restart</a> 與 Update。</li>
+        <li>支援複製 MediaStream 和 MediaStreamTrack。</li>
+      </ul>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>在網址列搜尋書籤或已開啟分頁時，會顯示相應的圖示。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Windows: Tab（移動焦點）和 Shift + F10（右鍵選單）在 Firefox 自訂模式中也能正常使用。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>以 <a href="https://hacks.mozilla.org/2016/07/shipping-rust-in-firefox/">Rust 程式語言</a>重新開發了媒體解析器。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Windows: 不能使用平台更新的系統，可以使用 D3D11 WARP。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox48">安全性修正</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正 Heyo、Jabra 和 Logitech C920 webcam 由於 WebRTC 臭蟲引起的雜音。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>改善除錯工具 step 在函數最後一行時的行為。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>Mac OS X: <a href="https://blog.mozilla.org/futurereleases/2016/04/29/update-on-firefox-support-for-os-x/">停止支援 OS X 10.6、10.7 和 10.8</a>，專注於 10.9 的支援；建議舊版使用者升級系統。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>Windows: 此版本開始要求 CPU 支援 SSE2 延伸指令集。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>停止支援 Windows Remote Access Service modem Autodial。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://blog.mozilla.org/addons/2016/04/29/webextensions-in-firefox-48/">WebExtension</a> 已進入穩定狀態。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>Worker 可以使用 <a href="https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto">Web Crypto API</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>在畫面上直接<a href="https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Reposition_elements_in_the_page">調整 position 定位元素的位移</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>記憶體面板新增 <a href="https://developer.mozilla.org/en-US/docs/Tools/Memory/Tree_map_view">Tree Map</a> 檢視。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>可以對 WebExtension 於背景執行的網頁或 content script 進行除錯。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>WebExtension 開始強制執行 CSP (Content Security Policy)。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://developer.mozilla.org/en-US/docs/Tools/Browser_Console">瀏覽器主控台</a>取代了舊的「錯誤主控台」。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>附加元件可以在 about:debugging 中重新載入，方便開發與除錯。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>開發者工具新增<a href="https://developer.mozilla.org/en-US/docs/Tools/Tools_Toolbox#Choose_DevTools_theme">「Firebug」佈景主題</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Console_messages#Viewing_network_request_details">展開主控台中的網路請求</a>，檢視詳細檔頭、回應、cookie 資訊。</span>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>在某些使用大量 cookie 的網站，特定情況下會導致使用者被登出（<a href="https://bugzilla.mozilla.org/1264192">bug 1264192</a>）。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2048&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox48&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla48&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
