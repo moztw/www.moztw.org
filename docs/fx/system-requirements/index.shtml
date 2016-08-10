@@ -13,7 +13,7 @@
 	<!-- closes #side -->
 	<hr class="hide">
 	<div id="mainContent">
-		<h2>Firefox 46.0 系統需求</h2>
+		<h2>Firefox 48.0 系統需求</h2>
 		<h3>Windows</h3>
 		<h6>作業系統版本（32 或 64 位元）</h6>
 		<ul>
@@ -58,9 +58,6 @@
 		<h3>Mac</h3>
 		<h6>作業系統版本</h6>
 		<ul>
-      <li>Mac OS X 10.6</li>
-      <li>Mac OS X 10.7</li>
-      <li>Mac OS X 10.8</li>
       <li>Mac OS X 10.9</li>
       <li>Mac OS X 10.10</li>
       <li>Mac OS X 10.11</li>
