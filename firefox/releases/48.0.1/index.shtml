@@ -1,0 +1,57 @@
+<!--#set var="release_date" value="2016-08-19" -->
+<!--#set var="version" value="48.0.1" -->
+<!--#set var="previous_version" value="48.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正影響數個主要網站的聲音播放問題（<a href="https://bugzilla.mozilla.org/1295296">bug 1295296</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正一個 JavaScript 引擎當機問題（<a href="https://bugzilla.mozilla.org/1290469">bug 1290469</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正 Websence 引起的啟動時當機問題（<a href="https://bugzilla.mozilla.org/1291738">bug 1291738</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正 e10s / 非 e10s 之間 <code>&lt;select&gt;</code> 和滑鼠事件的不一致行為（<a href="https://bugzilla.mozilla.org/1291078">bug 1291078</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正一個外掛程式問題造成的當機狀況（<a href="https://bugzilla.mozilla.org/1264530">bug 1264530</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正一個 Windows 上關於未簽署附加元件的問題。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正一個結束程式時的問題（<a href="https://bugzilla.mozilla.org/1276920">bug 1276920</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正 WebRTC 當機問題。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2048&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox48&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla48&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
