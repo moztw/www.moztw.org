@@ -9,7 +9,7 @@ if (!isset($_GET['recaptcha']) || $_GET['recaptcha'] == '') {
 if (isset($_GET['tag']) && array_key_exists($_GET['tag'], $tags)) {
 	$tag = $_GET['tag'];
 } else {
-	$tag = 'all';
+	$tag = 'zh-tw';
 }
 
 $curl = curl_init();
@@ -54,9 +54,6 @@ function success($tag) {
 
 function genLinks($tag) {
 	global $links;
-
-	$result = Array($links[0]);   # MozTW
-	$links = array_slice($links, 1);   # Remove MozTW form all group list
 
 	foreach ($links as $link) {
 		if (in_array($tag, $link['tags'])) {
