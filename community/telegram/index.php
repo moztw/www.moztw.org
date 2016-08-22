@@ -53,6 +53,7 @@ if ($_COOKIE['tg_lang'] != 'zh') {
 		<!-- Public to bots -->
 		<div id="sticker" style="display: none">
 			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank" title="Foxmosa Telegram 貼圖">Foxmosa Sticker</a>
+			<div>加入狐爾摩莎（小莎）的 Telegram 貼圖之連結。</div>
 		</div>
 
 		<p>切換語言 <select id="lang" onchange="change_lang()">
@@ -108,7 +109,8 @@ if ($_COOKIE['tg_lang'] != 'zh') {
         }
 				var name = data.name;
 				var title = data.description;
-				HTML += '<a href="' + link + '" title="' + title + '" target="_blank">' + name + '</a><br>\n';
+				var introduction = data.introduction;
+				HTML += '<a href="' + link + '" title="' + title + '" target="_blank">' + name + '</a><div>' + introduction + '</div><br>\n';
 			}
 			$("#links").html(HTML);
 		}
