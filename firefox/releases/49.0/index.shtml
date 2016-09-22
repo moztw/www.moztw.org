@@ -1,0 +1,92 @@
+<!--#set var="release_date" value="2016-09-21" -->
+<!--#set var="version" value="49.0" -->
+<!--#set var="previous_version" value="48.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>允許 HTTPS 網站使用已儲存的 HTTP 登入資訊。這是 Firefox 支持 <a href="https://letsencrypt.org/">Let’s Encrypt</a> 計畫、<a href="https://matthew.noorenberghe.com/blog/2016/08/filling-saved-http-logins-over-https-same-domain">迎向更安全網路世界</a>的方式之一。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>「閱讀模式」視與聽的改善：</span>
+      <ul>
+        <li>字體控制：可以調整文字寬度和行高。</li>
+        <li>朗讀：大聲唸出網頁內容。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>沒有硬體加速時，支援以 SSSE3 改善影片處理效能。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>HTML5 audio 與 video 右鍵選單新增「循環」和 1.25 倍速播放功能。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Mac OS X：</span>
+      <ul>
+        <li>改善無硬體加速時的效能。</li>
+        <li>改善反鋸齒字型的顯示。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>about:memory 能報告字型相關的記憶體用量。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Windows: 改善無硬體加速時的效能。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Mac: 修正原始 Firefox 安裝者以外的使用者，無法更新 Firefox 的問題。修改為具有管理權限的使用者皆能更新 Firefox。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox49">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>終止對 <a href="https://blog.mozilla.org/futurereleases/2016/04/29/update-on-firefox-support-for-os-x/">OS X 10.6、10.7 和 10.8</a> 的支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>終止對 Windows SSE 處理器的支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>移除 <a href="https://support.mozilla.org/en-US/kb/hello-status">Firefox Hello</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>重新啟用 <a href="http://graphite.sil.org/">Graphite2 字體成型元件庫</a>預設值。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>網路監控器新增「<a href="https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor#Cause_column">原因</a>」欄位，顯示網路請求的由來。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>導入 <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API#Speech_synthesis">web speech synthesis API</a>。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2049&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox49&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla49&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
