@@ -13,7 +13,7 @@
 	<!-- closes #side -->
 	<hr class="hide">
 	<div id="mainContent">
-		<h2>Firefox 48.0 系統需求</h2>
+		<h2>Firefox 49.0 系統需求</h2>
 		<h3>Windows</h3>
 		<h6>作業系統版本（32 或 64 位元）</h6>
 		<ul>
@@ -23,11 +23,11 @@
       <li>Windows 7</li>
       <li>Windows 8</li>
       <li>Windows 10</li>
+      <li>Pentium 4 或更新處理器，需支援 SSE2 指令集</li>
 		</ul>
 		<p>請留意：僅支援在 Windows 7 或更新版本上使用 64 位元版 Firefox。</p>
 		<h6>建議硬體需求</h6>
 		<ul>
-			<li>Pentium 4 或更新處理器，需支援 SSE2 指令集</li>
 			<li>512MB RAM</li>
 			<li>200MB 硬碟空間</li>
 		</ul>

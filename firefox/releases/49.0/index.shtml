@@ -59,7 +59,7 @@
     </li>
     <li>
       <span class="tag tag-changed">變更</span>
-      <span>終止對 Windows SSE 處理器的支援。</span>
+      <span>Windows 版本終止對不含 SSE 指令集處理器的支援。</span>
     </li>
     <li>
       <span class="tag tag-changed">變更</span>
@@ -69,7 +69,10 @@
       <span class="tag tag-changed">變更</span>
       <span>重新啟用 <a href="http://graphite.sil.org/">Graphite2 字體成型元件庫</a>預設值。</span>
     </li>
-
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>正體中文版：預設改用 <a href="https://tw.yahoo.com/">Yahoo! 奇摩</a>搜尋引擎。</span>
+    </li>
     <li>
       <span class="tag tag-developer">開發功能</span>
       <span>網路監控器新增「<a href="https://developer.mozilla.org/en-US/docs/Tools/Network_Monitor#Cause_column">原因</a>」欄位，顯示網路請求的由來。</span>
