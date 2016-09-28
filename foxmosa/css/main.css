@@ -22,7 +22,7 @@
   float: right;
 }
 
-#foxmosa-pairs h2, #foxmosa-social h2, #foxmosa-stickers h2 {
+#foxmosa-games h2, #foxmosa-social h2, #foxmosa-stickers h2 {
   font-size: 32px;
   letter-spacing: -1px;
   line-height: 100%;
@@ -321,13 +321,13 @@
   text-indent: -3em;
 }
 
-#foxmosa-pairs{
+#foxmosa-games{
   height: 50px;
   position: relative;
   margin: 60px 0 !important;
 }
 
-#foxmosa-pairs a.pairslogo{
+#foxmosa-games a.foxmosa-games-logo{
   position: absolute;
   left: 220px;
   top: 50%;
@@ -341,22 +341,26 @@
   box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
 
-#foxmosa-pairs a.pairslogo{
-  background: url(../images/pairslogo.jpg) no-repeat;
-}
-
-#foxmosa-pairs a.github{
+#foxmosa-games a.github{
   float: right;
 }
 
-#foxmosa-pairs a.playthegame{
+#foxmosa-games a.playthegame{
   float: right;
   margin-right: 20px;
 }
 
-#foxmosa-pairs header{
+#foxmosa-games header{
   display: block !important;
   float: left;
+}
+
+#foxmosa-games a.pairslogo{
+  background: url(../images/pairslogo.jpg) no-repeat;
+}
+
+#foxmosa-games a.starslogo{
+  background: url(../images/starslogo.png) no-repeat;
 }
 
 .whitebox,#foxmosa-gallery{
@@ -597,25 +601,25 @@
     top: 123px;
     right: 20px;
   }
-  #foxmosa-pairs {
+  #foxmosa-games {
     height: 100px;
   }
 
-  #foxmosa-pairs header, #foxmosa-social header {
+  #foxmosa-games header, #foxmosa-social header {
     float: none;
   }
 
-  #foxmosa-pairs a.button.playthegame {
+  #foxmosa-games a.button.playthegame {
     float: left;
     margin: 0 0 0 20px;
   }
 
-  #foxmosa-pairs a.button.github {
+  #foxmosa-games a.button.github {
     float: left;
     margin: 0;
   }
 
-  #foxmosa-pairs a.pairslogo {
+  #foxmosa-games a.foxmosa-games-logo {
     right: 10px;
     left: auto;
   }
@@ -684,16 +688,16 @@
     height: auto;
     width: 100%;
   }
-  #foxmosa-pairs {
+  #foxmosa-games {
     text-align: center;
     height: auto;
   }
 
-  #foxmosa-pairs header {
+  #foxmosa-games header {
     text-align: left;
   }
 
-  #foxmosa-pairs a.button {
+  #foxmosa-games a.button {
     float: none !important;
     margin: 5px 0 !important;
     width: 90%;
@@ -717,7 +721,7 @@
     width: 235px;
   }
 
-  #foxmosa-pairs a.pairslogo {
+  #foxmosa-games a.foxmosa-games-logo {
     display: none;
   }
 
