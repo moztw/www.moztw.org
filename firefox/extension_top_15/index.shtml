@@ -87,7 +87,7 @@ function hidden_descript(obj) {
 			<!--#include virtual="/inc/dlff.html" -->
 	</div><ul>
 			<li><a class="ancilliaryLink" href="/firefox/">Firefox 中文版介紹</a></li>
-			<li><a class="ancilliaryLink" href="http://forum.moztw.org/viewforum.php?f=11">MozTW 擴充套件討論區</a></li>
+			<li><a class="ancilliaryLink" href="https://forum.moztw.org/viewforum.php?f=11">MozTW 擴充套件討論區</a></li>
                         </ul>
 			
 	
@@ -129,7 +129,7 @@ function hidden_descript(obj) {
 	<h3 id="adblockplus" class="highlight"><span>No.3</span> Adblock Plus</h3>	
 	<div class="extension-info highlight">
 	<ul>
-		<li><a href="http://adblockplus.org/en/">套件網站</a></li>
+		<li><a href="https://adblockplus.org/en/">套件網站</a></li>
 		<li><a href="https://addons.mozilla.org/firefox/addon/1865">Mozilla 附加元件網站</a></li>
 		<li>原生中文</li>
 	</ul>
@@ -251,12 +251,12 @@ function hidden_descript(obj) {
 		<li><a href="http://www.downthemall.net/">套件網站</a></li>
 		<li><a href="https://addons.mozilla.org/firefox/addon/201">Mozilla 附加元件網站</a></li>
 		<li>簡體中文</li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=22676">另有正體中文版</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=22676">另有正體中文版</a></li>
 	</ul>
 	<div class="install-options">
 	列入安裝清單：
 	<label title="點選此處，將此套件列入安裝清單。"><input name="DownThemAll!" value="https://addons.mozilla.org/zh-TW/firefox/downloads/latest/201/addon-201-latest.xpi" type="checkbox" onclick="return checkDup(1, this.name)">原文版</label>
-	<label title="點選此處，將此套件列入安裝清單。"><input name="DownThemAll! 正體中文修改版" value="http://forum.moztw.org/download.php/7742/files/downthemall_-1.0.3-fx_tb_sm-zhtw_129.xpi" type="checkbox" onclick="return checkDup(1, this.name)">正體中文修改版</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="DownThemAll! 正體中文修改版" value="https://forum.moztw.org/download.php/7742/files/downthemall_-1.0.3-fx_tb_sm-zhtw_129.xpi" type="checkbox" onclick="return checkDup(1, this.name)">正體中文修改版</label>
 	</div>
 	<blockquote>「可以掃描整個網頁裡的連結、嵌入圖檔，支援續傳、多線程分割下載檔案，與專業的下載工具 Flashget、Orbit 相比也毫不遜色。」<cite>--社群成員 shyangs</cite></blockquote>
 	<p>與 Firefox 整合的下載管理程式。</p>
@@ -333,7 +333,7 @@ function hidden_descript(obj) {
 加入信任網站，再行按下「安裝套件」鈕。</li>
 <li>Firefox 會對各套件檔案的網址分別進行確認，若點選套件較多則反應會稍慢，請耐心等候。</li>
 <li>此服務提供目前（2008/8/22）最新套件，所有套件皆由作者提供。請參閱相關訊息後再行安裝，並自負責任。</li>
-<!--<li>亦可參考由社群成員蕭易玄所製作的 <a href="http://forum.moztw.org/viewtopic.php?t=6243">Firefox PowerPack 4 特別版</a>。</li>-->
+<!--<li>亦可參考由社群成員蕭易玄所製作的 <a href="https://forum.moztw.org/viewtopic.php?t=6243">Firefox PowerPack 4 特別版</a>。</li>-->
       </ul>
 	</div>
 	</div>
@@ -341,7 +341,7 @@ function hidden_descript(obj) {
     <h3>擴充套件是什麼玩意？</h3>
     <div style="margin: 6px 0pt 0pt 4px;">
     <p>Firefox 有符合上網需求的基礎功能，若想加強它的能力，可安裝擴充套件。這些套件大多與 Firefox 完美整合，您只會感到 Firefox「長」出了一個功能，而不會當作使用另一套軟體。</p>
-    <p>其他資訊可參考社群成員路人乙撰寫的<a href="http://forum.moztw.org/viewtopic.php?t=4162">擴充套件 Q&amp;A</a>。</p>
+    <p>其他資訊可參考社群成員路人乙撰寫的<a href="https://forum.moztw.org/viewtopic.php?t=4162">擴充套件 Q&amp;A</a>。</p>
     </div>
     <h3>這些套件裝了安全嗎？</h3>
     <div style="margin: 6px 0pt 0pt 4px;">
@@ -359,7 +359,7 @@ function hidden_descript(obj) {
 	當然有！Firefox 有近萬個擴充套件等待您去摸索，設計出供您個人使用，讀一無二的 Firefox！
 	</div>
     <ul>
-    <li>MozTW <a href="http://forum.moztw.org/viewforum.php?f=11">擴充套件討論區</a>有許多熱心的台灣本地社群成員<a href="http://forum.moztw.org/index.php?c=22">推薦的擴充套件</a>。</li>
+    <li>MozTW <a href="https://forum.moztw.org/viewforum.php?f=11">擴充套件討論區</a>有許多熱心的台灣本地社群成員<a href="https://forum.moztw.org/index.php?c=22">推薦的擴充套件</a>。</li>
     <li>Mozilla 總部亦維護一個<a href="https://addons.mozilla.org/zh-TW/firefox/">附加元件網站</a>，供作者發佈自己的作品。</li>
     </ul>	
     <h3>第三屆 Top 15 票選活動擴充套件名單</h3>

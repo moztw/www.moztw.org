@@ -18,7 +18,7 @@
 <li> 重製 Cookie 相關的對話方塊，讓它們更為易用。</li>
 <li> 增進日期掌控能力，特別在 OS X 上更為顯著。</li>
 <li> 您現在可以經由調整 dom.popup_maximum 與 dom.popup_allowed_events 兩值來更動 Mozilla 1.7 中的「阻擋彈出視窗」功能，但目前尚未有使用者介面可供調整。即使還未有使用者介面，使用者也應注意到 Mozilla 阻擋了更多種彈出視窗(主要是 mouseover 的彈出視窗)；此外也會發現無論阻擋彈出視窗的選項是否啟動，最多都只能開啟大約二十個視窗，這讓您不受某些以迴圈方式使用視窗炸彈(不斷的開啟新視窗)的站台影響。</li>
-<li> 現在下載的檔案會在指定儲存目錄後移至適當目錄，這是曾被提起數次的 <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=55690">[bug 55690]</a>。</li>
+<li> 現在下載的檔案會在指定儲存目錄後移至適當目錄，這是曾被提起數次的 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=55690">[bug 55690]</a>。</li>
 <li>「平滑捲動 (Smooth Scrolling)」功能現已使用者介面(偏好設定 Preferences -> 外觀 Appearance)供啟動。</li>
 <li> 這一版的 Mozilla 開始提供基本的 FTP 上傳功能。</li>
 </ul>
@@ -53,10 +53,10 @@
 <li> 支援伺服器以 multipart/x-mixed-replace 及 XMLHttpRequest<a href="http://noellab.net/ernest/tavi/edit/XMLHttpRequest">?</a> 所推送的 XML 文件檔。</li>
 <li> 現在當 Java applet 的 codebase 跨網域時，Liveconnect 可以運行無誤。</li>
 <li> 在 Mac 上已能顯示非常寬（多過 4095 像素）的影像。</li>
-<li> 支援 CSS3 的 <a href="http://www.w3.org/TR/css3-color/#transparency">[opacity]</a> 屬性。（譯註：透明度）</li>
-<li> Mozilla 現已支援 <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=68215">[onbeforeunload]</a> 事件，這讓網站應用程式開發者可以加上程式碼、在使用者關閉視窗前提供資料將遺失等的警告，或在使用者離開頁面時提供相關資訊。</li>
+<li> 支援 CSS3 的 <a href="https://www.w3.org/TR/css3-color/#transparency">[opacity]</a> 屬性。（譯註：透明度）</li>
+<li> Mozilla 現已支援 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=68215">[onbeforeunload]</a> 事件，這讓網站應用程式開發者可以加上程式碼、在使用者關閉視窗前提供資料將遺失等的警告，或在使用者離開頁面時提供相關資訊。</li>
 <li> 此版本提供了新的 SVG 後端程式。雖然 SVG 在 mozilla.org 釋出版本預設中並不啟動，但開發人員或許想要自己編譯、讓這個功能啟動。</li>
-<li> Mozilla 對動態更換樣式的掌控已更上層樓。(詳細資訊見  <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=15608">[bug 15608]</a>。) </li>
+<li> Mozilla 對動態更換樣式的掌控已更上層樓。(詳細資訊見  <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=15608">[bug 15608]</a>。) </li>
 <li> Mozilla 已將 NSS 函式庫升級至 3.9 版。<a href="http://www.mozilla.org/projects/security/pki/nss/nss-3.9/nss-3.9-release-notes.html">[NSS 3.9]</a> 通過全部的 NISCC <a href="http://www.uniras.gov.uk/vuls/2003/006489/tls.htm">[SSL/TLS]</a> 與 <a href="http://www.uniras.gov.uk/vuls/2003/006489/smime.htm">[S/MIME]</a> 測試 (一百六十萬個無效輸入值的測試個案) 而沒有造成當機或記憶體損耗。</li>
 </ul>
 </li>
@@ -65,8 +65,8 @@
 <h3>新議題</h3><p>以下是從上個里程碑起被列入「<a href="http://www.mozilla.org/releases/mozilla1.7/known-issues.html">[已知問題]</a>」頁的項目，即便該錯誤本身已於過往版本出現過亦然。</p>
 
 
-<ul ><li>一般<ul ><li> 使用者回報 <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=76831">[bug 76831]</a>：將 Windows 版的 Mozilla 最小化數小時後，若每每於還原時延遲非常久的時間，則將 config.trim_on_minimize 設定為 false 可能可以解決問題。詳見該 bug <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=76831#c0">[第 0]</a> 及<a href="http://bugzilla.mozilla.org/show_bug.cgi?id=76831#c303">[第 303 篇評論]</a>。</li>
-<li> 在 Mac OS X 上預設關閉 IPv6 的支援。這是因為在 Mac OS X 中尚未找到能關閉 IPv6 DNS lookups 的方法，而它會讓 severe slowdowns in the presence of broken DNS servers and/or home routers，請參照 <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=68796">[bug 68796]</a> 及 <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=231607">[bug 231607]</a>。在 OS X 10.3 中，您可以將 network.dns.disableIPv6 的偏好設定改為 false 來重啟 IPv6 功能。</li>
+<ul ><li>一般<ul ><li> 使用者回報 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=76831">[bug 76831]</a>：將 Windows 版的 Mozilla 最小化數小時後，若每每於還原時延遲非常久的時間，則將 config.trim_on_minimize 設定為 false 可能可以解決問題。詳見該 bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=76831#c0">[第 0]</a> 及<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=76831#c303">[第 303 篇評論]</a>。</li>
+<li> 在 Mac OS X 上預設關閉 IPv6 的支援。這是因為在 Mac OS X 中尚未找到能關閉 IPv6 DNS lookups 的方法，而它會讓 severe slowdowns in the presence of broken DNS servers and/or home routers，請參照 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=68796">[bug 68796]</a> 及 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=231607">[bug 231607]</a>。在 OS X 10.3 中，您可以將 network.dns.disableIPv6 的偏好設定改為 false 來重啟 IPv6 功能。</li>
 <li> Users of Fedora Core 2 may experience unusually long delays in resolving hostnames. This results from the fact that IPv6 is enabled by default in Fedora Core 2. If you do not need IPv6 support (which is most likely the case), then it is advised that you disable it in the kernel. To do this run the following command as root: echo "alias net-pf-10 off" &gt;&gt; /etc/modprobe.conf You will need to reboot to have this take effect (or simply unload the ipv6 kernel module).</li>
 </ul>
 </li>

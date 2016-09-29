@@ -127,8 +127,8 @@
 </style>
 <meta property="og:title" content="Happy Chinese New Year with Foxmosa! 2012 狐耳摩莎賀新年">
 <meta property="og:type" content="activity">
-<meta property="og:url" content="http://moztw.org/events/newyear2012/">
-<meta property="og:image" content="http://moztw.org/events/newyear2012/foxmosa-2012ny.png">
+<meta property="og:url" content="https://moztw.org/events/newyear2012/">
+<meta property="og:image" content="https://moztw.org/events/newyear2012/foxmosa-2012ny.png">
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="fb:admins" content="1820041029">
 <meta property="og:description" content="With best wishes from MozTW Community & Mozilla Taiwan. Send greeting cards to your friends, and celebrate Chinese Dragon New Year with Foxmosa!">
@@ -160,8 +160,8 @@
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
     <!--plurk-->
-    <a class="plurk" title="Share to Plurk" href="javascript:void(window.open('http://www.plurk.com/?qualifier=shares&status=http://moztw.org/foxmosa/images/foxmosa-2012newyear.png http://moztw.org/events/newyear2012/ (Happy Chinese New Year with Foxmosa ! 2012 狐耳摩莎賀新年) via @foxmosa'));">
-    <img class="plurk" title="share" src="http://statics.plurk.com/23d30a60b81915a637d1c3d2cd966a59.png" width="65" height="20" align="absmiddle" border="0" />
+    <a class="plurk" title="Share to Plurk" href="javascript:void(window.open('http://www.plurk.com/?qualifier=shares&status=https://moztw.org/foxmosa/images/foxmosa-2012newyear.png https://moztw.org/events/newyear2012/ (Happy Chinese New Year with Foxmosa ! 2012 狐耳摩莎賀新年) via @foxmosa'));">
+    <img class="plurk" title="share" src="https://statics.plurk.com/23d30a60b81915a637d1c3d2cd966a59.png" width="65" height="20" align="absmiddle" border="0" />
     </a>
 
     <!--fb-->

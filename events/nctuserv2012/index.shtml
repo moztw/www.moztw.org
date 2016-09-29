@@ -3,7 +3,7 @@
 <title>交大資工100學年度第二學期服務學習成果總覽 - MozTW, Mozilla Taiwan Community</title>
 <meta name="description" content="2012 年 5 月到 7 月，MozTW 參與 OSSACC 教育部校園自由軟體數位資源推廣服務中心服務學習專案， 共有 22 位交大資訊工程系學生，貢獻個人專長進行 Mozilla 開發文件、補助說明及影片字幕在地化工作。">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://moztw.org/events/nctuserv2012/">
+<meta property="og:url" content="https://moztw.org/events/nctuserv2012/">
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="2012 年 5 月到 7 月，MozTW 參與 OSSACC 教育部校園自由軟體數位資源推廣服務中心服務學習專案， 共有 22 位交大資訊工程系學生，貢獻個人專長進行 Mozilla 開發文件、補助說明及影片字幕在地化工作。">
 <link href="style.css" rel="stylesheet" />
@@ -25,11 +25,11 @@
 
     <h3>自訂、個性化、威力增強<span class="appendix">darkx</span></h3>
     <div class="video">
-      <script type="text/javascript" src="http://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+      <script type="text/javascript" src="https://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
       (
         {
           "base_state": {"language": "zh-tw"},
-          "video_url": "http://videos-cdn.mozilla.net/serv/marketing/696470/FF%20576%20h264%20v6.webm",
+          "video_url": "https://videos-cdn.mozilla.net/serv/marketing/696470/FF%20576%20h264%20v6.webm",
           "alternate_video_urls": ["https://www.youtube.com/watch?v=gZWU2estR10"],
           "video_config": { width: 640, height: 360 }
         }
@@ -39,11 +39,11 @@
 
     <h3>Add-on Builder &amp; Add-on SDK 簡介<span class="appendix">darkx</span></h3>
     <div class="video">
-      <script type="text/javascript" src="http://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+      <script type="text/javascript" src="https://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
       (
         {
           "base_state": {"language": "zh-tw"},
-          "video_url": "http://videos-cdn.mozilla.net/serv/marketing/Firefox5/AddOnsBuilderOverview.webm",
+          "video_url": "https://videos-cdn.mozilla.net/serv/marketing/Firefox5/AddOnsBuilderOverview.webm",
           "alternate_video_urls": ["https://www.youtube.com/watch?v=EaoEdoxmJek"],
           "video_config": { width: 640, height: 360 }
         }
@@ -53,12 +53,12 @@
 
     <h3>Add-on Builder 教學<span class="appendix">a9103041 &amp; huichun</span></h3>
     <div class="video">
-      <script type="text/javascript" src="http://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+      <script type="text/javascript" src="https://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
       (
         {
           "base_state": {"language": "zh-tw"},
-          "video_url": "http://videos-cdn.mozilla.net/serv/marketing/Firefox5/AddOnsBuilderTutorial.webm",
-          "alternate_video_urls": ["http://www.youtube.com/watch?v=DAl0tOYDHxg"],
+          "video_url": "https://videos-cdn.mozilla.net/serv/marketing/Firefox5/AddOnsBuilderTutorial.webm",
+          "alternate_video_urls": ["https://www.youtube.com/watch?v=DAl0tOYDHxg"],
           "video_config": { width: 640, height: 360 }
         }
       )
@@ -68,11 +68,11 @@
     <h3>History Of Mozilla Mitchell Baker<span class="appendix">黃健豪</span></h3>
     <p>註：字幕包含影片前十分鐘部分</p>
     <div class="video">
-      <script type="text/javascript" src="http://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+      <script type="text/javascript" src="https://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
       (
         {
           "base_state": {"language": "zh-tw"},
-          "video_url": "http://www.youtube.com/watch?v=UDFVBleAC-E",
+          "video_url": "https://www.youtube.com/watch?v=UDFVBleAC-E",
           "video_config": { width: 640, height: 360 }
         }
       )

@@ -99,7 +99,7 @@ li {
 <div id="mainContent" class="right">
 	<h3>SUMO 專案是？</h3>
 	<p>SUMO 是 SUpport.MOzilla.org 的縮寫字。</p>
-	<p>透過文件、討論區、論壇、郵件清單等方式，支援全球各個在地語言介面的 Mozilla 產品使用者，支援的 Mozilla 產品如：Firefox、Firefox for Android、Firefox OS、Webmaker、Thunderbird、Open Badges 等等。更多介紹請<a href="http://www.slideshare.net/dwchiang/moztw-about-sumo-20140315">參考這裡</a>。</p>
+	<p>透過文件、討論區、論壇、郵件清單等方式，支援全球各個在地語言介面的 Mozilla 產品使用者，支援的 Mozilla 產品如：Firefox、Firefox for Android、Firefox OS、Webmaker、Thunderbird、Open Badges 等等。更多介紹請<a href="https://www.slideshare.net/dwchiang/moztw-about-sumo-20140315">參考這裡</a>。</p>
 	<h3>SUMO 專案近況</h3>
 	<p>(理想狀況會在半年到一年內更新資訊，但如果被遺忘太久，歡迎到 MozTW 郵件群組鞭策 <a href="http://talk.ernestchiang.com/search/label/moztw">Ernest</a>，或是把「更新專案近況」這件事情隨手撿去更新也不錯（歡迎來到社群）。)</p>
 	<div>
@@ -121,7 +121,7 @@ li {
   <h3>SUMO 網站界面</h3>
   <div>
 		<ul>
-			<li><strong>SUMO 網站介面中文化</strong>：於在地化功能網站 （<a href="https://localize.mozilla.org/zh_TW/">Mozilla Verbatim</a> ）協助翻譯 <a href="http://support.mozilla.com/zh-TW/">Support Mozilla</a> (SUMO) 的字、詞、句資料庫。（英文--&gt;中文）
+			<li><strong>SUMO 網站介面中文化</strong>：於在地化功能網站 （<a href="https://localize.mozilla.org/zh_TW/">Mozilla Verbatim</a> ）協助翻譯 <a href="https://support.mozilla.com/zh-TW/">Support Mozilla</a> (SUMO) 的字、詞、句資料庫。（英文--&gt;中文）
 				<h4>流程</h4> 
 				<ol> 
 					<li>在 <a href="https://localize.mozilla.org/zh_TW/">Mozilla Verbatim</a> 註冊一個帳號，然後設定值選為：語系 = 中文台灣 zh_TW，專案 = Support Mozilla。儲存後即可在自己的儀表板上看到這個專案。</li> 
@@ -144,17 +144,17 @@ li {
 			</li>
 			<li><strong>SUMO 常用連結</strong>：
 				<ul> 
-					<li>SUMO 首頁: <a href="http://support.mozilla.com/zh-TW/home">http://support.mozilla.com/zh-TW/home</a></li>
+					<li>SUMO 首頁: <a href="https://support.mozilla.com/zh-TW/home">https://support.mozilla.com/zh-TW/home</a></li>
 					<li>建議優先翻譯「<a href="https://support.mozilla.org/zh-TW/localization/most-visited-translations">最常被閱讀</a>」文件清單。</li>
 					<li><a href="https://support.mozilla.org/zh-TW/localization/template-translations">知識庫範本清單</a>。</li>
-					<li><a href="http://support-release.allizom.org/zh-TW/home">SUMO Stage Server</a>。(翻譯 Verbatim 後，檢查用)</li>
+					<li><a href="https://support-release.allizom.org/zh-TW/home">SUMO Stage Server</a>。(翻譯 Verbatim 後，檢查用)</li>
 					<li><a href="https://localize.mozilla.org/zh_TW/">Translate (l10n)</a>。</li> 
-          <li>不確定某個字或詞該怎麼翻譯嗎？MozFR 的 Transvision 能讓你快速參閱其他人對同一個字的翻譯。例如：「<a href="http://transvision.mozfr.org/?recherche=plugin&amp;repo=central&amp;sourcelocale=en-US&amp;locale=zh-TW&amp;search_type=strings">plugin</a>」 </li>
+          <li>不確定某個字或詞該怎麼翻譯嗎？MozFR 的 Transvision 能讓你快速參閱其他人對同一個字的翻譯。例如：「<a href="https://transvision.mozfr.org/?recherche=plugin&amp;repo=central&amp;sourcelocale=en-US&amp;locale=zh-TW&amp;search_type=strings">plugin</a>」 </li>
 				</ul>
 			</li>
 			<li><strong>Mozilla SUMO Team Resources</strong>(in English)：
 				<ul>
-					<li><a href="http://blog.mozilla.com/sumo/">SUMO Blog</a></li> 
+					<li><a href="https://blog.mozilla.com/sumo/">SUMO Blog</a></li> 
 					<li><a href="https://wiki.mozilla.org/Support/Weekly_Meetings">SUMO Weekly Meeting Wiki</a></li> 
 					<li>IRC: <a href="irc://irc.mozilla.org/#sumo">irc.mozilla.org #sumo</a></li>    
 					<li>Forum: <a href="https://support.mozilla.com/en-US/forums">https://support.mozilla.com/en-US/forums</a></li> 
@@ -181,7 +181,7 @@ li {
   <h3>MozTW 郵件群組</h3>
   <p>歡迎您至 MozTW 的 Google Groups 郵件討論群組「<a href="https://groups.google.com/group/moztw-general">moztw-general</a>」參與我們的討論。請注意：</p>
   <ul>
-    <li>這<strong>不是技術支援信箱</strong>——Firefox 疑難雜症請至<a href="http://forum.moztw.org/">討論區</a>發問。</li>
+    <li>這<strong>不是技術支援信箱</strong>——Firefox 疑難雜症請至<a href="https://forum.moztw.org/">討論區</a>發問。</li>
     <li>您可以使用任何的信箱訂閱與發言，但網頁介面發言需使用 Google 帳號（這是技術限制）</li>
     <li>為了抵禦 spam，首次發言將經過人工審核；請保持耐心，謝謝！</li>
   </ul>

@@ -70,7 +70,7 @@ function hidden_descript(obj) {
 <div id="product-desc" class="active-extensiontop15">
 	
 <h2>第三屆 Top 15 已經開始票選！</h2>
-<p>您心目中的最佳套件，在 Firefox 3 出爐後的一陣更新是否有所變更？快來票選<a href="http://forum.moztw.org/viewtopic.php?t=23623">第三屆 MozTW 社群嚴選套件</a>、把你的最愛推薦給大家！</p>
+<p>您心目中的最佳套件，在 Firefox 3 出爐後的一陣更新是否有所變更？快來票選<a href="https://forum.moztw.org/viewtopic.php?t=23623">第三屆 MozTW 社群嚴選套件</a>、把你的最愛推薦給大家！</p>
 <hr/>
 <p>想試試大家在 2006 年票選的最佳套件嗎？勾選套件的「列入安裝清單」後，按下頁尾的「安裝這些套件」便可一次安裝喔！您必須以 Firefox 觀看本頁才能安裝這些套件。</p>
 			<div><form name="hide_desc"><label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;"><input id="hidden_desc" value="true" type="checkbox" onclick="hidden_descript(this)">進階選項：隱藏套件說明及相關連結</label></form></div> 
@@ -83,7 +83,7 @@ function hidden_descript(obj) {
 			<!--#include virtual="/inc/dlff.html" -->
 	</div><ul>
 			<li><a class="ancilliaryLink" href="/firefox/">Firefox 中文版介紹</a></li>
-			<li><a class="ancilliaryLink" href="http://forum.moztw.org/viewforum.php?f=11">MozTW 擴充套件討論區</a></li>
+			<li><a class="ancilliaryLink" href="https://forum.moztw.org/viewforum.php?f=11">MozTW 擴充套件討論區</a></li>
                         </ul>
 			
 	
@@ -97,7 +97,7 @@ function hidden_descript(obj) {
 	<ul>
 		<li><a href="http://ietab.mozdev.org/">套件網站</a></li>
 		<li><a href="https://addons.mozilla.org/firefox/addon/1419">Mozilla 附加元件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=12573">相關討論</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=12573">相關討論</a></li>
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
@@ -110,11 +110,11 @@ function hidden_descript(obj) {
 	<div class="extension-info">
 	<ul>
 		<li><a href="http://rt.openfoundry.org/Foundry/Project/Download/?Queue=333">套件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?p=19073">相關討論</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?p=19073">相關討論</a></li>
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
-<!--	<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂" value="http://forum.moztw.org/download.php?id=3295" type="checkbox">列入安裝清單</label>-->
+<!--	<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂" value="https://forum.moztw.org/download.php?id=3295" type="checkbox">列入安裝清單</label>-->
 	<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂 0.3.8.8" value="http://rt.openfoundry.org/Foundry/Project/Download/Attachment/91957/63271/tongwen_0.3.8.8.xpi" type="checkbox" onclick="return checkDup(0, this.name)">版本 0.3.8.8（供 Firefox 2.0 使用）</label>
 	<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂 0.3.9.1" value="http://rt.openfoundry.org/Foundry/Project/Download/Attachment/98215/66594/tongwen_0.3.9.1.xpi" type="checkbox" onclick="return checkDup(0, this.name)">測試版本 0.3.9.1（供 Firefox 3.0 使用）</label>
 	
@@ -126,11 +126,11 @@ function hidden_descript(obj) {
 	<h3 id="flashgot">No.3 FlashGot 1.0.4.2</h3>
 	<div class="extension-info">
 	<ul>
-		<li><a href="http://www.flashgot.net/">套件網站</a></li>
+		<li><a href="https://www.flashgot.net/">套件網站</a></li>
 		<li><a href="https://addons.mozilla.org/firefox/addon/220">Mozilla 附加元件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=6077">配合 NetTransport</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=5724">配合 FlashGet</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=5431">配合其他軟體</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=6077">配合 NetTransport</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=5724">配合 FlashGet</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=5431">配合其他軟體</a></li>
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
@@ -145,7 +145,7 @@ function hidden_descript(obj) {
 	<ul>
 		<li><a href="http://adblockplus.mozdev.org/">套件網站</a></li>
 		<li><a href="https://addons.mozilla.org/firefox/addon/1865">Mozilla 附加元件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=9402">相關討論</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=9402">相關討論</a></li>
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
@@ -158,10 +158,10 @@ function hidden_descript(obj) {
 	<div class="extension-info">
 	<ul>
 		<li><a href="http://heygom.com/extensions/categories/right-encoding/">套件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=5455">相關討論</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=5455">相關討論</a></li>
 	</ul>
 	<div class="install-options">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="Right Encoding" value="http://forum.moztw.org/download.php/7964/files/rightencoding_0.2.2_125_106.xpi" type="checkbox">列入安裝清單</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Right Encoding" value="https://forum.moztw.org/download.php/7964/files/rightencoding_0.2.2_125_106.xpi" type="checkbox">列入安裝清單</label>
 	</div>
 	<blockquote>「第一次用火狐狸時，就覺得好像少了什麼功能，後來才發現是右鍵編碼的功能。」<cite>--社群成員 浩</cite></blockquote>
 	<p>當網頁編碼顯示錯誤時，原本只能從「檢視／語系及字元編碼」裡加以調整，加裝這個套件以後便會直接在右鍵選單中放入語系及字元編碼選單，方便點選。</p>
@@ -171,7 +171,7 @@ function hidden_descript(obj) {
 	<ul>
 		<li><a href="http://downloadstatusbar.mozdev.org/index.html">套件網站</a></li>
 		<li><a href="https://addons.mozilla.org/firefox/addon/26">Mozilla 附加元件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=5519">相關討論</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=5519">相關討論</a></li>
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
@@ -184,22 +184,22 @@ function hidden_descript(obj) {
 	<div class="extension-info">
 	<ul>
 		<li><a href="http://tmp.garyr.net/">套件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=10888">相關討論</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=10888">相關討論</a></li>
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="Tab Mix Plus" value="http://forum.moztw.org/download.php/7960/files/tab_mix_plus-dev-build_160.xpi" type="checkbox">列入安裝清單</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Tab Mix Plus" value="https://forum.moztw.org/download.php/7960/files/tab_mix_plus-dev-build_160.xpi" type="checkbox">列入安裝清單</label>
 	</div>
 	<blockquote>「覺得 Fx 的分頁功能不滿意？試試看這款吧 」<cite>--社群成員 浩</cite></blockquote>
 	<p>Tab Mix Plus 允許你自訂鏈結、書籤、網址列、搜尋列是否要強制開啟在新分頁、可自動切換分頁焦點、復原已關閉的分頁、還原關閉前的瀏覽狀態、標籤顯示頁面載入進度、支援拖曳改變分頁位置、自訂分頁右鍵功能選單...等諸多分頁加強功能。</p>
-	<!--<p>這裡提供的是 <a href="http://forum.moztw.org/viewtopic.php?t=10181">yuoo2k 製作的社群修改版</a>，增加自訂 target 屬性鏈結的開啟行為等其他功能。</p>-->
+	<!--<p>這裡提供的是 <a href="https://forum.moztw.org/viewtopic.php?t=10181">yuoo2k 製作的社群修改版</a>，增加自訂 target 屬性鏈結的開啟行為等其他功能。</p>-->
 	</div>
 	<h3 id="scrapbook">No.8 ScrapBook 1.3.3.7 </h3>
 	<div class="extension-info">
 	<ul>
 		<li><a href="http://amb.vis.ne.jp/mozilla/scrapbook/">套件網站</a></li>
 		<li><a href="https://addons.mozilla.org/firefox/addon/427">Mozilla 附加元件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=4035">相關討論</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=4035">相關討論</a></li>
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
@@ -213,8 +213,8 @@ function hidden_descript(obj) {
 	<ul>
 		<li><a href="http://perso.wanadoo.fr/marc.boullet/ext/extensions-en.html">套件網站</a></li>
 		<li><a href="https://addons.mozilla.org/firefox/addon/12">Mozilla 附加元件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=3481">相關討論 (1)</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=5485">相關討論 (2)</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=3481">相關討論 (1)</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=5485">相關討論 (2)</a></li>
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
@@ -227,13 +227,13 @@ function hidden_descript(obj) {
 	<div class="extension-info">
 	<ul>
 		<li><a href="http://superdragandgo.mozdev.org/">套件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=2722">相關討論</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=4256">另有中文版</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=2722">相關討論</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=4256">另有中文版</a></li>
 	</ul>
 	<div class="install-options">
-	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go" value="http://forum.moztw.org/download.php/3994/files/super_drag_and_go-0.2.4_643.xpi" type="checkbox" onclick="return checkDup(0, this.name)">原文版</label>
-	<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go 中文修改版" value="http://forum.moztw.org/download.php/3993/files/super_drag_and_go_0.2.4_zh-tw_157.xpi" type="checkbox" onclick="return checkDup(0, this.name)">中文修改版</label>-->
-	<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go 中文修改版" value="http://forum.moztw.org/download.php?id=3993" type="checkbox">列入安裝清單（僅供 Firefox 2.0 使用）</label>
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go" value="https://forum.moztw.org/download.php/3994/files/super_drag_and_go-0.2.4_643.xpi" type="checkbox" onclick="return checkDup(0, this.name)">原文版</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go 中文修改版" value="https://forum.moztw.org/download.php/3993/files/super_drag_and_go_0.2.4_zh-tw_157.xpi" type="checkbox" onclick="return checkDup(0, this.name)">中文修改版</label>-->
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go 中文修改版" value="https://forum.moztw.org/download.php?id=3993" type="checkbox">列入安裝清單（僅供 Firefox 2.0 使用）</label>
 	</div>
 	<blockquote>「一直為純文字網址困擾的我，都是使用笨方法的複製貼上來開啟網頁。或是遇上要查詢之字詞，也是複製再到搜尋列搜尋...。在某日經由大人指點此套件的強大功能之後，我也加入懶人一族了...XD」<cite>--社群成員 Lestat</cite></blockquote>
 	<p>就如同 Maxthon (myIE2) 的「超級拖放（Super Drag and Drop）」功能，用滑鼠拖拉後放開便可達到搜尋、存圖、開啟純文字網址、開新分頁等功能。</p>
@@ -245,7 +245,7 @@ function hidden_descript(obj) {
 	<ul>
 		<li><a href="http://sage.mozdev.org/" title="Sage 官方網站">套件網站</a></li>
 		<li><a href="https://addons.mozilla.org/firefox/addon/77">Mozilla 附加元件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=5018" title="好用而且免費的 RSS Reader">相關討論</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=5018" title="好用而且免費的 RSS Reader">相關討論</a></li>
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
@@ -253,7 +253,7 @@ function hidden_descript(obj) {
 	</div>
 	<blockquote>「這個套件太棒了以至於忘了它的存在 :Q」<cite>--社群成員 milo</cite></blockquote>
 	<p>快速瀏覽許多 RSS 新聞的好工具，方便輕巧到會讓你以為這是 Firefox 的一部份，完全忘了他的存在。</p>
-	<p>這裡提供的是 <a href="http://forum.moztw.org/viewtopic.php?t=14180">yuoo2k 製作的社群修改版</a>，縮小工具列大小、自動更新第一項來源、強化尋找功能等。</p>
+	<p>這裡提供的是 <a href="https://forum.moztw.org/viewtopic.php?t=14180">yuoo2k 製作的社群修改版</a>，縮小工具列大小、自動更新第一項來源、強化尋找功能等。</p>
 	</div>
 	<h3 id="showimage">No.12 Show Image 0.4.2</h3>
 	<div class="extension-info">
@@ -262,7 +262,7 @@ function hidden_descript(obj) {
 		<li>原生中文</li>
 	</ul>
 	<div class="install-options">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="Show Image" value="http://forum.moztw.org/download.php/7963/files/showimage-0.4.2_601_169.xpi" type="checkbox">列入安裝清單</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Show Image" value="https://forum.moztw.org/download.php/7963/files/showimage-0.4.2_601_169.xpi" type="checkbox">列入安裝清單</label>
 	</div>
 	<blockquote>「如果你沒裝這個套件，會覺得 Firefox 像是斷了隻腳」<cite>--社群成員 Sheng</cite></blockquote>
 	<p>這個套件可以在 Firefox 的右鍵選單中加上 Show Image 的功能，讓你在發現 Firefox 讀取漏掉／失敗某張圖片時不用大費周章的按下 Reload 重新來過。</p>
@@ -271,22 +271,22 @@ function hidden_descript(obj) {
 	<div class="extension-info">
 	<ul>
 		<li><a href="http://pcmanmoz.mozdev.org/" title="PCMan Plugin 官方網站">套件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=13766">相關討論</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=13766">相關討論</a></li>
 	</ul>
 	<div class="install-options">
-	<label title="點選此處，將此套件列入安裝清單。"><input name="PCMan Plug-in" value="http://forum.moztw.org/download.php/7913/files/pcman-1.0.5-enhanced-beta2-_pcman_fx_test_20080701_mouse_support__202.xpi" type="checkbox">列入安裝清單</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="PCMan Plug-in" value="https://forum.moztw.org/download.php/7913/files/pcman-1.0.5-enhanced-beta2-_pcman_fx_test_20080701_mouse_support__202.xpi" type="checkbox">列入安裝清單</label>
 	</div>
 	<blockquote>「讓你的瀏覽器認得 telnet，用瀏覽器分頁上 BBS。 」<cite>--社群成員 BBCALL</cite></blockquote>
 	<p>使 Firefox 能直接於分頁連上 BBS。</p>
-	<p>這裡提供的是 <a href="http://forum.moztw.org/viewtopic.php?p=128271#128271">ptt 使用者 neopro 所開發的測試版</a>。</p>
-	<!--<p>這裡提供的是 <a href="http://forum.moztw.org/viewtopic.php?t=13766#73613">Milx 製作、evascat2 打包的社群修改版</a>，使畫面置中並加入選項視窗。</p>-->
+	<p>這裡提供的是 <a href="https://forum.moztw.org/viewtopic.php?p=128271#128271">ptt 使用者 neopro 所開發的測試版</a>。</p>
+	<!--<p>這裡提供的是 <a href="https://forum.moztw.org/viewtopic.php?t=13766#73613">Milx 製作、evascat2 打包的社群修改版</a>，使畫面置中並加入選項視窗。</p>-->
 	
 	</div>
 	<h3 id="forecastfox">No.14 Forecastfox™ 0.9.7.6</h3>
 	<div class="extension-info">
 	<ul>
 		<li><a href="http://forecastfox.mozdev.org/">套件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=4394">相關討論</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=4394">相關討論</a></li>
 		<li>簡體中文版</li>
 	</ul>
 	<div class="install-options">
@@ -298,16 +298,16 @@ function hidden_descript(obj) {
 	<h3 id="webdeveloper">No.15 Web Developer 1.1.6</h3>
 	<div class="extension-info">
 	<ul>
-		<li><a href="http://www.chrispederick.com/work/firefox/webdeveloper/">套件網站</a></li>
+		<li><a href="https://www.chrispederick.com/work/firefox/webdeveloper/">套件網站</a></li>
 		<li><a href="https://addons.mozilla.org/firefox/addon/60">Mozilla 附加元件網站</a></li>
-		<li><a href="http://forum.moztw.org/viewtopic.php?t=1368">相關討論</a></li>
+		<li><a href="https://forum.moztw.org/viewtopic.php?t=1368">相關討論</a></li>
 		<li>原生中文（位於套件作者網站）</li>
-		<!--<li><a href="http://forum.moztw.org/viewtopic.php?t=6273">另有中文修改版</a></li>-->
+		<!--<li><a href="https://forum.moztw.org/viewtopic.php?t=6273">另有中文修改版</a></li>-->
 	</ul>
 	<div class="install-options">
 	<label title="點選此處，將此套件列入安裝清單。"><input name="Web Developer" value="http://downloads.chrispederick.com/work/web-developer/web-developer-localized.xpi" type="checkbox">列入安裝清單</label>
-<!--	<label title="點選此處，將此套件列入安裝清單。"><input name="Web Developer" value="http://forum.moztw.org/download.php/3310/files/webdeveloper_1.0.2_721.xpi" type="checkbox" onclick="return checkDup(1, this.name)">原文版</label>
-	<label title="點選此處，將此套件列入安裝清單。"><input name="Web Developer 中文修改版" value="http://forum.moztw.org/download.php/3992/files/webdeveloper_1.0.2_zh-tw_667.xpi" type="checkbox" onclick="return checkDup(1, this.name)">中文修改版</label>-->
+<!--	<label title="點選此處，將此套件列入安裝清單。"><input name="Web Developer" value="https://forum.moztw.org/download.php/3310/files/webdeveloper_1.0.2_721.xpi" type="checkbox" onclick="return checkDup(1, this.name)">原文版</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Web Developer 中文修改版" value="https://forum.moztw.org/download.php/3992/files/webdeveloper_1.0.2_zh-tw_667.xpi" type="checkbox" onclick="return checkDup(1, this.name)">中文修改版</label>-->
 	</div>
 	<blockquote>「我認為 Firefox 的 User 若不裝 Web Developer 就太可惜了，應該內建 Web Developer 功能在 Firefox 裏。」<cite>--社群成員 hurart</cite></blockquote>
 	<p>這是一個為網頁設計師量身訂做的套件，可以隨時關閉圖片、JavaScript、CSS 樣式等效果，也可以輕鬆檢閱別人寫的 JavaScript 與 CSS，還有更改網頁尺寸、標示區塊元素等功能。</p>
@@ -322,7 +322,7 @@ function hidden_descript(obj) {
 <li>如果您按下「安裝套件」卻無反應，請依序按下上方淡黃色訊息列之「編輯選項」、「允許」、「確定」以便將 moztw.org 
 加入信任網站，再行按下「安裝套件」鈕。</li> 
 <li>此服務提供目前（2008/7/5）最新套件，所有套件皆由作者提供。請參閱相關訊息後再行安裝，並自負責任。</li>
-<!--<li>亦可參考由社群成員蕭易玄所製作的 <a href="http://forum.moztw.org/viewtopic.php?t=6243">Firefox PowerPack 4 特別版</a>。</li>-->
+<!--<li>亦可參考由社群成員蕭易玄所製作的 <a href="https://forum.moztw.org/viewtopic.php?t=6243">Firefox PowerPack 4 特別版</a>。</li>-->
       </ul>
 	</div>
 	</div>
@@ -330,7 +330,7 @@ function hidden_descript(obj) {
     <h3>擴充套件是什麼玩意？</h3>
     <div style="margin: 6px 0pt 0pt 4px;">
     <p>Firefox 有符合上網需求的基礎功能，若想加強它的能力，可安裝擴充套件。這些套件大多與 Firefox 完美整合，您只會感到 Firefox「長」出了一個功能，而不會當作使用另一套軟體。</p>
-    <p>其他資訊可參考社群成員路人乙撰寫的<a href="http://forum.moztw.org/viewtopic.php?t=4162">擴充套件 Q&amp;A</a>。</p>
+    <p>其他資訊可參考社群成員路人乙撰寫的<a href="https://forum.moztw.org/viewtopic.php?t=4162">擴充套件 Q&amp;A</a>。</p>
     </div>
     <h3>這些套件裝了安全嗎？</h3>
     <div style="margin: 6px 0pt 0pt 4px;">

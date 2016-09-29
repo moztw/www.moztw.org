@@ -9,7 +9,7 @@
   <ul class="tags">
     <li>
       <span class="tag tag-new">全新功能</span>
-      <span>改善 JavaScript JIT (Just In Time) 編譯器<a href="http://jandemooij.nl/blog/2015/12/29/wx-jit-code-enabled-in-firefox/">安全性</a>。</span>
+      <span>改善 JavaScript JIT (Just In Time) 編譯器<a href="https://jandemooij.nl/blog/2015/12/29/wx-jit-code-enabled-in-firefox/">安全性</a>。</span>
     </li>
     <li>
       <span class="tag tag-new">全新功能</span>

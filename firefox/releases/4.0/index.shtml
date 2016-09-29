@@ -61,9 +61,9 @@ table {
           <div id="product-desc" class="firefox-releasenotes-v4">
 <!-- Introduction -->
 
-          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 4 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 4 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
 
-          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozTW</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
+          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozTW</a> 的 <a href="https://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
         </div>
       </div>
       <!-- What's New -->
@@ -75,47 +75,47 @@ table {
         </p>
 
         <ul>
-          <li>Firefox&nbsp;4 提供超過 <a href="http://www.mozilla.com/firefox/all-beta.html">80 種語言支援</a>。</li>
-          <li>採用 <a href="http://blog.mozilla.com/dmandelin/2010/09/08/presenting-jagermonkey/">J&auml;gerMonkey</a>——更新、更快的 JavaScript 引擎——比  Firefox 3.6 快六倍。</li>
+          <li>Firefox&nbsp;4 提供超過 <a href="https://www.mozilla.com/firefox/all-beta.html">80 種語言支援</a>。</li>
+          <li>採用 <a href="https://blog.mozilla.com/dmandelin/2010/09/08/presenting-jagermonkey/">J&auml;gerMonkey</a>——更新、更快的 JavaScript 引擎——比  Firefox 3.6 快六倍。</li>
           <li>支援「別追蹤我」（<a href="http://blog.sidstamm.com/2011/01/opting-out-of-behavioral-ads.html">Do Not Track, "DNT"</a>）網頁標頭，擺脫被追蹤網路瀏覽的行為。</li>
-          <li>預設開啟了 <a href="http://www.mozilla.com/mobile/sync/">Firefox Sync</a> 功能，安全同步多台電腦、行動裝置上的設定。</li>
-          <li>使用 Direct3D 9 (Windows XP)、Direct3D 10 (Windows Vista 或 7)、OpenGL (Mac OS) 對特定圖形進行<a href="http://hacks.mozilla.org/2010/09/hardware-acceleration/">硬體加速</a>。（將來會增加 Linux 上的 OpenGL 支援）</li>
+          <li>預設開啟了 <a href="https://www.mozilla.com/mobile/sync/">Firefox Sync</a> 功能，安全同步多台電腦、行動裝置上的設定。</li>
+          <li>使用 Direct3D 9 (Windows XP)、Direct3D 10 (Windows Vista 或 7)、OpenGL (Mac OS) 對特定圖形進行<a href="https://hacks.mozilla.org/2010/09/hardware-acceleration/">硬體加速</a>。（將來會增加 Linux 上的 OpenGL 支援）</li>
           <li>為 Windows 7 使用者預設啟用了 <a href="https://wiki.mozilla.org/Platform/GFX/Direct2DDemo">Direct2D 硬體加速</a>。</li>
           <li>為所有平台啟用了 WebGL（需要顯示卡與驅動程式支援）。</li>
-          <li>原生支援 HD HTML5 <a href="http://hacks.mozilla.org/2010/05/firefox-youtube-and-webm/">WebM</a> 影片格式，支援時也啟用硬體加速。</li>
+          <li>原生支援 HD HTML5 <a href="https://hacks.mozilla.org/2010/05/firefox-youtube-and-webm/">WebM</a> 影片格式，支援時也啟用硬體加速。</li>
           <li>Firefox 按鈕在 Windows Vista 和 Windows 7 有了新的外觀。</li>
-          <li><a href="http://blog.mozilla.com/faaborg/2010/06/24/why-tabs-are-on-top-in-firefox-4/">分頁列置頂</a>在 Windows、Mac OS X 與 Linux 成為預設選項。</li>
-          <li>您可以用聰明的位址列<a href="http://www.mozilla.com/en-US/firefox/beta/features/#feature-switch">搜尋並切換至已開啟的分頁</a>。</li>
+          <li><a href="https://blog.mozilla.com/faaborg/2010/06/24/why-tabs-are-on-top-in-firefox-4/">分頁列置頂</a>在 Windows、Mac OS X 與 Linux 成為預設選項。</li>
+          <li>您可以用聰明的位址列<a href="https://www.mozilla.com/en-US/firefox/beta/features/#feature-switch">搜尋並切換至已開啟的分頁</a>。</li>
           <li>於 Windows、Mac OS X 和 Linux，「停止」和「重新載入」按鈕被合併為一個按鈕。</li>
           <li>以一個「書籤」按鈕取代書籤工具列（您也可以切換回原本的型式）。</li>
           <li>Windows、Linux 和 Mac OS X 針對 Adobe Flash、Apple Quicktime 或 Microsoft Silverlight 的當機防護功能。</li>
           <li>您可以將任何分頁轉為「應用程式分頁」，在分頁上按右鍵並選擇「釘選成應用程式分頁」。</li>
           <li>預設的首頁也有了<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=627301">重新設計</a>。</li>
-          <li>大幅翻修<a href="http://shawnwilsher.com/archives/473">書籤和歷史的程式</a>，改善書籤與啟動效能。</li>
-          <li>啟用垃圾回收的預先分配（<a href="http://andreasgal.wordpress.com/2010/10/13/compartments/">Per-compartment garbage collection</a>），減少複雜動畫中的處理工作。</li>
+          <li>大幅翻修<a href="https://shawnwilsher.com/archives/473">書籤和歷史的程式</a>，改善書籤與啟動效能。</li>
+          <li>啟用垃圾回收的預先分配（<a href="https://andreasgal.wordpress.com/2010/10/13/compartments/">Per-compartment garbage collection</a>），減少複雜動畫中的處理工作。</li>
           <li>更加改良的 Firefox 附加元件管理員。</li>
-          <li>使用 <a href="http://hacks.mozilla.org/2010/11/firefox-4-font-feature-support/">OpenType</a> 增進網頁字體對連字（ligatures）、字距（kerning）和字型變體（font variants）的支援。</li>
+          <li>使用 <a href="https://hacks.mozilla.org/2010/11/firefox-4-font-feature-support/">OpenType</a> 增進網頁字體對連字（ligatures）、字距（kerning）和字型變體（font variants）的支援。</li>
           <li>網頁開發者可以使用 <a href="https://developer.mozilla.org/en/CSS/CSS_transitions">CSS Transitions</a> 作網頁內容的動畫。</li>
           <li>使用新的 <a href="http://weblogs.mozillazine.org/roc/archives/2010/07/retained_layers.html">retained layers</a> 佈局系統增進反應和捲動速度。</li>
           <li><a href="http://blog.oldworld.fr/index.php?post/2010/11/17/HTML5-Forms-Validation-in-Firefox-4">HTML5 Forms API</a> 讓網頁表單更容易實作和驗證。</li>
           <li>支援新建議的 <a href="https://wiki.mozilla.org/Audio_Data_API">Audio Data API</a>。</li>
           <li>支援 <a href="http://blog.sidstamm.com/2010/08/http-strict-transport-security-has.html">HSTS 安全協定</a> 允許網站要求只能由 SSL 讀取。</li>
           <li>新的<a href="http://www.azarask.in/blog/post/designing-tab-candy/">分頁群組</a>（Panorama）功能，提供使用者視覺化的概觀所有已開啟分頁，並可以自由排序或分組。</li>
-          <li>引進一個<a href="http://hacks.mozilla.org/2010/08/more-efficient-javascript-animations-with-mozrequestanimationframe/">實驗性的 API</a> 以更加增進 Javascript 動畫的效能。</li>
-          <li>Firefox 現在支援 <a href="http://hacks.mozilla.org/2010/08/html5-video-buffered-property-available-in-firefox-4/">HTML5 影片的「buffered」屬性</a>。</li>
+          <li>引進一個<a href="https://hacks.mozilla.org/2010/08/more-efficient-javascript-animations-with-mozrequestanimationframe/">實驗性的 API</a> 以更加增進 Javascript 動畫的效能。</li>
+          <li>Firefox 現在支援 <a href="https://hacks.mozilla.org/2010/08/html5-video-buffered-property-available-in-firefox-4/">HTML5 影片的「buffered」屬性</a>。</li>
           <li><a href="https://developer.mozilla.org/en/XPCOM/XPCOM_changes_in_Gecko_2.0">改變 XPCOM 元件的註冊方式</a> 協助改善啟動時間與程序分離。</li>
           <li>新的附加元件管理員和擴充套件 API。</li>
           <li>重大的 API 改進也可用於 JS-ctypes（用於擴充套件的外部函式介面）。</li>
           <li>部分地支援 <a href="https://developer.mozilla.org/en/CSS/-moz-transition">CSS Transitions</a>。</li>
           <li>Mac OS X 外掛程式用的核心動畫描繪模型，支援的外掛程式可以更有效率地繪圖。</li>
           <li>網頁開發者可使用 <a href="https://developer.mozilla.org/en/DOM/Manipulating_the_browser_history#Adding_and_modifying_history_entries">HTML History API</a> 更新 URL 而不必重新讀取網頁。</li>
-          <li>使用 <a href="http://hacks.mozilla.org/2010/05/better-performance-with-lazy-frame-construction/">lazy frame construction</a> 改善頁面描繪的回應性。</li>
+          <li>使用 <a href="https://hacks.mozilla.org/2010/05/better-performance-with-lazy-frame-construction/">lazy frame construction</a> 改善頁面描繪的回應性。</li>
           <li>非同步地查詢連結記錄，改善載入網頁時的回應性。</li>
-          <li>CSS :visited 選擇器現在<a href="http://hacks.mozilla.org/2010/03/privacy-related-changes-coming-to-css-vistited/">不允許網站檢查使用者的瀏覽記錄</a>。</li>
-          <li>新的 <a href="http://hacks.mozilla.org/2010/05/firefox-4-the-html5-parser-inline-svg-speed-and-more/">HTML5 解析器</a>。</li>
+          <li>CSS :visited 選擇器現在<a href="https://hacks.mozilla.org/2010/03/privacy-related-changes-coming-to-css-vistited/">不允許網站檢查使用者的瀏覽記錄</a>。</li>
+          <li>新的 <a href="https://hacks.mozilla.org/2010/05/firefox-4-the-html5-parser-inline-svg-speed-and-more/">HTML5 解析器</a>。</li>
           <li>支援更多 HTML5 表單控制。</li>
           <li>網頁可取得 Windows 7 上 Firefox 使用者的<a href="https://developer.mozilla.org/en/DOM/Touch_events">各種 touch 事件</a>。</li>
-          <li><a href="http://blog.mozilla.com/rob-sayre/2010/08/02/mozillas-new-javascript-value-representation/">JavaScript 數值的新表示方式</a> 讓 Firefox 得以更有效地執行繁重數值的運算（通常用在圖形和動畫）。</li>
+          <li><a href="https://blog.mozilla.com/rob-sayre/2010/08/02/mozillas-new-javascript-value-representation/">JavaScript 數值的新表示方式</a> 讓 Firefox 得以更有效地執行繁重數值的運算（通常用在圖形和動畫）。</li>
         </ul>
 
         <p>開發者可以在 <a href="https://developer.mozilla.org/">Mozilla Developer Center</a> 找到關於<a href="https://developer.mozilla.org/En/Firefox_4_for_developers">所有變更和新功能</a>的資料。</p>
@@ -162,7 +162,7 @@ table {
       <dd>
         <ul class="spaced">
           <li>使用者降級至 Firefox&nbsp;4 beta 8 之前的 beta 版本時，會感到書籤和歷史的許多不相容。但使用者仍可降級至 Firefox&nbsp;3.6（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=620723">bug 620723</a> 和 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=614439">bug 614439</a>）。</li>
-          <li>在行動裝置使用 <a href="http://www.mozilla.com/mobile/sync/">同步功能（Firefox Sync）</a> 的使用者必須更新至最新版 <a href="http://www.mozilla.com/mobile/">Firefox Mobile</a>。</li>
+          <li>在行動裝置使用 <a href="https://www.mozilla.com/mobile/sync/">同步功能（Firefox Sync）</a> 的使用者必須更新至最新版 <a href="https://www.mozilla.com/mobile/">Firefox Mobile</a>。</li>
           <li>部分使用者在 GMail 視窗，捲動捲軸可能會變慢（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=579260">bug 579260</a>）。</li>
           <li>以被鎖定的個人設定檔重新啟動 Firefox 時，程式會當掉（見 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573369">bug 573369</a>）。</li>
         </ul>
@@ -219,7 +219,7 @@ table {
       <ol class="faq">
 
         <li>我該怎麼幫忙呢？
-          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://hendrix.mozilla.org/">回饋表單</a>表達意見。</p>
+          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://hendrix.mozilla.org/">回饋表單</a>表達意見。</p>
 
         </li>
 
@@ -240,7 +240,7 @@ table {
 
           Firefox 4 的原始碼在何處？
           <p>Firefox 4 原始碼已<a href=
-             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/4.0/source/">開放下載</a>，目前開發中的最新程式碼可由 <a href=
+             "https://releases.mozilla.org/pub/mozilla.org/firefox/releases/4.0/source/">開放下載</a>，目前開發中的最新程式碼可由 <a href=
              "https://developer.mozilla.org/En/Developer_Guide/Source_Code/Mercurial">Mercurial</a> 取得。Firefox 相關程式碼在 mozilla-central 的 browser, toolkit 及 chrome 目錄下，請參考<a href=
              "http://developer.mozilla.org/En/docs/Build_Documentation">建製步驟</a>。</p>
         </li>
@@ -253,11 +253,11 @@ table {
       </ol>
 
       <h2 id="contributedbuilds">非官方建製版</h2>
-      <p>Mozilla 代表<a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="http://www.mozilla.com/en-US/firefox/all-beta.html" onclick="urchinTracker('/outgoing/fx3download');">Firefox 4 下載頁</a>取得檔案。
+      <p>Mozilla 代表<a href="https://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="https://www.mozilla.com/en-US/firefox/all-beta.html" onclick="urchinTracker('/outgoing/fx3download');">Firefox 4 下載頁</a>取得檔案。
       </p>
 
 
-      <p>其他尚未被官方 Firefox 4 驗證通過的本地化版本可以在<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/4.0/contrib/">官方站台</a>取得。</p>
+      <p>其他尚未被官方 Firefox 4 驗證通過的本地化版本可以在<a href="https://releases.mozilla.org/pub/mozilla.org/firefox/releases/4.0/contrib/">官方站台</a>取得。</p>
       <h2 id="links">其他資源和連結</h2>
       <p>下面提供了幾個有用的連結：</p>
 
@@ -265,7 +265,7 @@ table {
         <li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a></li>
     <li><a href="http://kb.mozillazine.org/">MozillaZine's Knowledge Base</a></li>
     <li><a href="https://www.mozilla.org/projects/firefox/">Developer Information</a></li>
-    <li><a href="http://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li>
+    <li><a href="https://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li>
     </ul>
 
 </div>

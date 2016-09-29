@@ -24,9 +24,9 @@ table {
 <!-- Introduction -->
 
           <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3 的 <a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
-  <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+  <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
 
-          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
+          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的 <a href="https://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
         </div>
       </div> 
       <!-- What's New -->
@@ -38,13 +38,13 @@ table {
 				<dt id="secure">更安全 
 			<dd><ul class="spaced"><li>網站安全資訊：點選位址列網站圖示即可查閱此網站的識別資訊，該網站的驗證資料會在點選後以輕鬆易懂的方式呈現。若該網站使用 SSL 延伸驗證（Extended Validation），則網站圖示鈕將轉以綠色顯示，並列出你連到的網站公司名稱。 (<a href="https://www.paypal.com/">按此測試！</a>) 
 			</li>
-			<li>阻擋有害軟體：當使用者到達某個已知會安裝病毒、間諜軟體、木馬等有害軟體時，有害軟體阻擋功能將警告使用者。您可<a href="http://www.mozilla.com/firefox/its-an-attack.html">在此測試</a>
-			</li><li>阻擋偽造網頁：新版裡不會顯示偽造網頁的內容，您可<a href="http://www.mozilla.com/firefox/its-a-trap.html">按此測試！</a>。 
+			<li>阻擋有害軟體：當使用者到達某個已知會安裝病毒、間諜軟體、木馬等有害軟體時，有害軟體阻擋功能將警告使用者。您可<a href="https://www.mozilla.com/firefox/its-an-attack.html">在此測試</a>
+			</li><li>阻擋偽造網頁：新版裡不會顯示偽造網頁的內容，您可<a href="https://www.mozilla.com/firefox/its-a-trap.html">按此測試！</a>。 
 			</li><li>新的 SSL 錯誤資訊頁面：當 Firefox 碰上<a href="https://amazon.com/">無效的 SSL 驗證資訊</a>時，將出現更加簡潔的錯誤資訊頁。 </li>
 			<li>附加元件及外掛程式版本確認：現在 Firefox 能夠自動更新附加元件及外掛程式版本，並且停用較舊、較不安全的版本。</li>
 			<li>附加元件安全更新：為增強附加元件更新時的安全性，無法提供安全連線更新的套件將予以停用。 
 			</li><li>整合防毒軟體： Firefox 會與呼叫您安裝的防毒軟體同對下載的檔案掃毒。</li><li>Vista 家長控制：Firefox 現在可依據 Windows&nbsp;Vista 系統上的家長控制設定來停用檔案下載功能。 
-			</li><li>增加有效頂級域名服務 (<a title="Effective top-level domain" href="http://wiki.mozilla.org/Gecko:Effective_TLD_List" id="lqgx">Effective top-level domain</a>, eTLD)，更能確保 Cookies 及其他受限內容僅在同一網域名稱下運作。</li><li>更有效的防範&nbsp;<a href="http://ejohn.org/blog/re-securing-json/">跨網站 JSON 資料外洩</a>。</li></ul>
+			</li><li>增加有效頂級域名服務 (<a title="Effective top-level domain" href="https://wiki.mozilla.org/Gecko:Effective_TLD_List" id="lqgx">Effective top-level domain</a>, eTLD)，更能確保 Cookies 及其他受限內容僅在同一網域名稱下運作。</li><li>更有效的防範&nbsp;<a href="http://ejohn.org/blog/re-securing-json/">跨網站 JSON 資料外洩</a>。</li></ul>
 			</dd>
 			<dt id="easy">更容易使用 
 			</dt><dd>
@@ -105,7 +105,7 @@ table {
 
       <h3 id="requirements">系統需求</h3>
 
-      <p>在安裝 Firefox 前請先確定您的電腦是否合乎 <a href="http://www.mozilla.com/en-US/firefox/system-requirements-v3.html">
+      <p>在安裝 Firefox 前請先確定您的電腦是否合乎 <a href="https://www.mozilla.com/en-US/firefox/system-requirements-v3.html">
          系統需求</a>。</p>
 
       <h3 id="download">下載 Firefox 3</h3>
@@ -198,7 +198,7 @@ table {
 
           <li>透過 PPP 連線的使用者(即撥接或者寬頻)將會發現 Firefox 一直處於&quot;離線&quot;狀態。目前您可以使用「檔案&gt;離線模式」來作為暫時的解決方案。(bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=424626">424626 </a>)</li>
           <li> NVIDIA 驅動程式與某些版本的 X server 的不相容可能會導致灰階圖片顯示不正確。 ( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=411831">bug 411831 </a>) </li>
-          <li>Orca 螢幕朗讀軟體無法閱讀某些文字，像是儲存密碼的通告、網頁個人隱私資料、或者是搜尋欄中預設的文字－這三點是 Orca 已知的問題 (詳情請見<a href="http://bugzilla.gnome.org/show_bug.cgi?id=533109">Gnome bug 533109 </a> 以及<a href="http://bugzilla.gnome.org/show_bug.cgi?id=533125">533125 </a>) </li>
+          <li>Orca 螢幕朗讀軟體無法閱讀某些文字，像是儲存密碼的通告、網頁個人隱私資料、或者是搜尋欄中預設的文字－這三點是 Orca 已知的問題 (詳情請見<a href="https://bugzilla.gnome.org/show_bug.cgi?id=533109">Gnome bug 533109 </a> 以及<a href="https://bugzilla.gnome.org/show_bug.cgi?id=533125">533125 </a>) </li>
           <li>Ubuntu 7.10 的使用者需要更新認證才能送出當機報告 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=407748#c4">bug 407748</a>) </li>
 		<li>多功能滑鼠中，控制上、下頁的按鍵必須重新設定  (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=420294">bug 420294</a>)</li>
 		</ul></dl>
@@ -224,7 +224,7 @@ table {
       <ol class="faq">
 
         <li>我該怎麼幫忙呢？
-          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
+          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
 
         </li>
 
@@ -245,7 +245,7 @@ table {
 
           Firefox 3 的原始碼在何處？
           <p>Firefox 3原始碼已<a href=
-             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
+             "https://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
              "http://developer.mozilla.org/en/docs/Mozilla_Source_Code_Via_CVS">以 CVS 取得</a>。Firefox 相關程式為「mozilla/browser」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href=
              "http://developer.mozilla.org/en/docs/Build_Documentation">建製步驟</a>。</p>
         </li>
@@ -258,20 +258,20 @@ table {
       </ol>
 
       <h2 id="contributedbuilds">非官方建製版</h2>
-      <p>Mozilla 代表 <a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="http://www.mozilla.com/en-US/firefox/all-beta.html" onclick="urchinTracker('/outgoing/fx3download');">Firefox 3 下載頁</a>取得檔案。
+      <p>Mozilla 代表 <a href="https://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="https://www.mozilla.com/en-US/firefox/all-beta.html" onclick="urchinTracker('/outgoing/fx3download');">Firefox 3 下載頁</a>取得檔案。
       </p>
 
          
       <p>其他尚未被官方 Firefox 3 驗證通過的本地化版本可以在
-         <a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0/contrib-localized/">FTP 站台</a>取得。</p>      <h2 id="links">其他資源和連結</h2>  
+         <a href="https://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0/contrib-localized/">FTP 站台</a>取得。</p>      <h2 id="links">其他資源和連結</h2>  
       <p>下面提供了幾個有用的連結：</p>
 
 		<ul class="spaced"> 
 		</li><li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a> 
-		</li><li><a href="http://wiki.mozilla.org/Firefox3">Firefox 3 Project Page</a> 
+		</li><li><a href="https://wiki.mozilla.org/Firefox3">Firefox 3 Project Page</a> 
 		</li><li><a href="http://kb.mozillazine.org/">MozillaZine's Knowledge Base</a> 
 		</li><li><a href="https://www.mozilla.org/projects/firefox/">Developer Information</a> 
-		</li><li><a href="http://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li></ul>
+		</li><li><a href="https://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li></ul>
 
 </div>
 

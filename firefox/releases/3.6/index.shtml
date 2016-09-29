@@ -28,9 +28,9 @@ table {
 <!-- Introduction -->
 
           <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3.6 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
-  <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+  <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
 
-          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozTW</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
+          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozTW</a> 的 <a href="https://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
         </div>
       </div> 
       <!-- What's New -->
@@ -45,13 +45,13 @@ table {
         <p>值得一提的功能包括：</p>
 
         <ul>
-            <li>提供超過 70 種語言支援——取得您的<a href="http://www.mozilla.com/en-US/firefox/all.html#languages">本地化版本</a>。</li>
+            <li>提供超過 70 種語言支援——取得您的<a href="https://www.mozilla.com/en-US/firefox/all.html#languages">本地化版本</a>。</li>
             <li>支援新型態的佈景主題 <a href="http://www.getpersonas.com/">Personas</a> 個性面板，只要點一下滑鼠即可更換 Firefox 的外觀。</li>
-            <li>藉由停用<a href="http://theunfocused.net/2009/10/06/firefox-3-6-knows-when-your-plugins-are-out-of-date/">久未更新的外掛程式</a>提供使用者較安全的瀏覽環境。</li>
+            <li>藉由停用<a href="https://theunfocused.net/2009/10/06/firefox-3-6-knows-when-your-plugins-are-out-of-date/">久未更新的外掛程式</a>提供使用者較安全的瀏覽環境。</li>
             <li>開放、原生的影片現在可以<a href="http://mozillalinks.org/wp/2009/10/firefox-3-6-gets-full-screen-native-video/">全螢幕</a>顯示，且支援 <a href="https://developer.mozilla.org/En/HTML/Element/Video">poster frames</a>。</li>
             <li>增進 JavaScript 效能，強化瀏覽器整體反應性及啟動時間。</li>
             <li>網頁開發者能夠藉著<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=503481">非同步運行的程式碼</a>加速網頁的讀取。
-            <li>持續支援網頁字型下載，使用新的 <a href="http://hacks.mozilla.org/2009/10/woff/">WOFF 字型格式</a>。</li>
+            <li>持續支援網頁字型下載，使用新的 <a href="https://hacks.mozilla.org/2009/10/woff/">WOFF 字型格式</a>。</li>
             <li>支援諸如漸層、背景圖縮放、pointer 事件等新的 CSS 屬性。</li>
             <li>支援包含滑鼠拖放 API、檔案 API 等新的 DOM 與 HTML5 標準，讓網頁更具互動性。</li>
             <li>變更一些<a href="https://developer.mozilla.org/devnews/index.php/2009/11/16/component-directory-lockdown-new-in-firefox-3-6/">第三方軟體與 Firefox 的整合方式</a>以避免當機狀況。</li>
@@ -171,7 +171,7 @@ table {
       <ol class="faq">
 
         <li>我該怎麼幫忙呢？
-          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
+          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
 
         </li>
 
@@ -192,7 +192,7 @@ table {
 
           Firefox 3.6 的原始碼在何處？
           <p>Firefox 3.6 原始碼已<a href=
-             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.6/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
+             "https://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.6/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
              "http://developer.mozilla.org/En/docs/Mozilla_Source_Code_Via_CVS">以 CVS 取得</a>。Firefox 相關程式為「mozilla/browser」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href=
              "http://developer.mozilla.org/En/docs/Build_Documentation">建製步驟</a>。</p>
         </li>
@@ -205,20 +205,20 @@ table {
       </ol>
 
       <h2 id="contributedbuilds">非官方建製版</h2>
-      <p>Mozilla 代表<a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="http://www.mozilla.com/en-US/firefox/all-beta.html" onclick="urchinTracker('/outgoing/fx3download');">Firefox 3.6 下載頁</a>取得檔案。
+      <p>Mozilla 代表<a href="https://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="https://www.mozilla.com/en-US/firefox/all-beta.html" onclick="urchinTracker('/outgoing/fx3download');">Firefox 3.6 下載頁</a>取得檔案。
       </p>
 
          
-      <p>其他尚未被官方 Firefox 3.6 驗證通過的本地化版本可以在<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.6/contrib/">官方站台</a>取得。</p>
+      <p>其他尚未被官方 Firefox 3.6 驗證通過的本地化版本可以在<a href="https://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.6/contrib/">官方站台</a>取得。</p>
       <h2 id="links">其他資源和連結</h2>  
       <p>下面提供了幾個有用的連結：</p>
 
 		<ul class="spaced"> 
 		<li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a></li>
-    <li><a href="http://wiki.mozilla.org/Firefox3.6">Firefox 3.6 Project Page</a></li>
+    <li><a href="https://wiki.mozilla.org/Firefox3.6">Firefox 3.6 Project Page</a></li>
     <li><a href="http://kb.mozillazine.org/">MozillaZine's Knowledge Base</a></li>
     <li><a href="https://www.mozilla.org/projects/firefox/">Developer Information</a></li>
-    <li><a href="http://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li>
+    <li><a href="https://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li>
     </ul>
 
 </div>

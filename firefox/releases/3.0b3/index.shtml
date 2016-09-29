@@ -11,9 +11,9 @@
           <!-- Introduction -->
 
           <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3 Beta 3 的 <a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
-  <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+  <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
 
-          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的<a href="http://forum.moztw.org/viewforum.php?f=18">Firefox Beta
+          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的<a href="https://forum.moztw.org/viewforum.php?f=18">Firefox Beta
     中文討論區</a>與我們分享意見。</p>
         </div>
       </div> 
@@ -25,7 +25,7 @@
 				<p>Beta版本釋出的目的是讓網站開發者及測試社群能在下一個釋出階段前能得到使用者的回饋。當我們認為產品的品質演進到一定水準時，我們才會對使用者釋出最終的版本。然而，使用者如果安裝<a id="v7e7" title="最新版本的Firefox" href="http://www.getfirefox.com/">最新版本的Firefox</a>，必須要有附加元件無法正常在beta版本使用的心理準備。</p>
 				<p>Beta的版本可以讓使用者對Firefox 3的模樣及功能有更清楚的認知，但是仍有新功能尚未包含在這個測試版本中，而且目前看到的許多部分仍會修改補強。</p>
 
-				<p>如有發現任何問題，我們非常歡迎您到 <a href="http://forum.moztw.org/viewforum.php?f=4">Mozilla Taiwan 討論區</a> 與我們參與討論或是直接到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報錯誤訊息。</p>
+				<p>如有發現任何問題，我們非常歡迎您到 <a href="https://forum.moztw.org/viewforum.php?f=4">Mozilla Taiwan 討論區</a> 與我們參與討論或是直接到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報錯誤訊息。</p>
 				<br>
 				<h2 id="whatsnew">What's New in Firefox 3 </h2>
 				<p>Firefox 3 Beta 1 以新版 Gecko 1.9 網頁佈局引擎構成。研發此全新的引擎耗時 27 個月、更改了近兩百萬行程式碼，亦改善了超過一萬一千個大小問題。Gecko 1.9 為<a href="http://mozlinks.moztw.org/2007/11/firefox-3-beta-1.html#performance">提升效能</a>、穩定度、正確性，重構了部份程式架構，因此 Firefox 3 <a href="http://mozlinks.moztw.org/2007/11/firefox-3-beta-1.html#secure">更加安全</a>、<a href="http://mozlinks.moztw.org/2007/11/firefox-3-beta-1.html#easy">更容易使用</a>、<a href="http://mozlinks.moztw.org/2007/11/firefox-3-beta-1.html#personal">自訂更輕鬆</a>，同時提供許多給網 頁及擴充套件開發員的<a href="http://mozlinks.moztw.org/2007/11/firefox-3-beta-1.html#engine">內部修改</a>。</p>
@@ -35,14 +35,14 @@
 			<dd>
 			<ul class="spaced">
 			<li><span style="font-size: 80%;"><b>[Beta 3 新功能！]</b></span> 網站安全資訊：點選位址列網站圖示即可查閱此網站的識別資訊，該網站的驗證資料會在點選後以輕鬆易懂的方式呈現。在之後 的版本裡，SSL 延伸驗證（Extended Validation）資訊也將一併顯示。 (<a href="https://www.britishairways.com/">Try it here!</a>) 
-			</li><li><span style="font-size: 80%;"><b>[Beta 3 新功能！]</b></span> 阻擋有害軟體：當使用者到達某個已知會安裝病毒、間諜軟體、木馬等有害軟體時，有害軟體阻擋功能將警告使用者。您可<a href="http://www.mozilla.com/firefox/its-an-attack.html">在此測試</a>（註：有害軟體網站黑名單 目前尚未正式啟用） 
-			</li><li>阻擋偽造網頁：新版裡不會顯示偽造網頁的內容，您可<a href="http://www.mozilla.com/firefox/its-a-trap.html">在此測試</a>。 
+			</li><li><span style="font-size: 80%;"><b>[Beta 3 新功能！]</b></span> 阻擋有害軟體：當使用者到達某個已知會安裝病毒、間諜軟體、木馬等有害軟體時，有害軟體阻擋功能將警告使用者。您可<a href="https://www.mozilla.com/firefox/its-an-attack.html">在此測試</a>（註：有害軟體網站黑名單 目前尚未正式啟用） 
+			</li><li>阻擋偽造網頁：新版裡不會顯示偽造網頁的內容，您可<a href="https://www.mozilla.com/firefox/its-a-trap.html">在此測試</a>。 
 			</li><li>新的 SSL 錯誤資訊頁面：當 Firefox 碰上<a href="https://amazon.com/">無效的 SSL 驗證資訊</a>時，將出現更加簡潔的錯誤資訊頁。 
 			</li><li>附加元件安全更新：為增強附加元件更新時的安全性，無法提供安全連線更新的套件將予以停用。 
 			</li><li>整合防毒軟體： Firefox 會與呼叫您安裝的防毒軟體同對下載的檔案掃毒。<br>
 
 			</li><li>Vista 家長控制：Firefox 現在可依據 Windows&nbsp;Vista 系統上的家長控制設定來停用檔案下載功能。 
-			</li><li>增加有效頂級域名服務 (<a title="Effective top-level domain" href="http://wiki.mozilla.org/Gecko:Effective_TLD_List" id="lqgx">Effective top-level domain</a>, eTLD)，更能確保 Cookies 及其他受限內容僅在同一網域名稱下運作。</li><li>更有效的防範&nbsp;<a href="http://ejohn.org/blog/re-securing-json/">cross-site JSON data leaks</a>. </li></ul>
+			</li><li>增加有效頂級域名服務 (<a title="Effective top-level domain" href="https://wiki.mozilla.org/Gecko:Effective_TLD_List" id="lqgx">Effective top-level domain</a>, eTLD)，更能確保 Cookies 及其他受限內容僅在同一網域名稱下運作。</li><li>更有效的防範&nbsp;<a href="http://ejohn.org/blog/re-securing-json/">cross-site JSON data leaks</a>. </li></ul>
 			</dd><dt id="easy">更容易使用 
 			</dt><dd>
 			<ul class="spaced">
@@ -91,7 +91,7 @@
 
       <h3 id="requirements">系統需求</h3>
 
-      <p>在安裝 Firefox 前請先確定您的電腦合乎 <a href="http://www.mozilla.com/en-US/firefox/system-requirements-v3.html">
+      <p>在安裝 Firefox 前請先確定您的電腦合乎 <a href="https://www.mozilla.com/en-US/firefox/system-requirements-v3.html">
          系統需求</a>。</p>
 
       <h3 id="download">下載 Firefox 3 Beta 3</h3>
@@ -258,7 +258,7 @@
       <ol class="faq">
 
         <li>我該怎麼幫忙呢？
-          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
+          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
 
         </li>
 
@@ -279,7 +279,7 @@
 
           Firefox 3 Beta 3 的原始碼在何處？
           <p>Firefox 3 Beta 3 原始碼已<a href=
-             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
+             "https://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
              "http://developer.mozilla.org/en/docs/Mozilla_Source_Code_Via_CVS">以 CVS 取得</a>。Firefox 相關程式為「mozilla/browser」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href=
              "http://developer.mozilla.org/en/docs/Build_Documentation">建製步驟</a>。</p>
 
@@ -292,21 +292,21 @@
         </li>
       </ol>
       <h2 id="contributedbuilds">非官方建製版</h2>
-      <p>Mozilla 代表 <a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="http://www.mozilla.com/en-US/firefox/all-beta.html">Firefox 3 Beta 3 下載頁</a>取得檔案。
+      <p>Mozilla 代表 <a href="https://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="https://www.mozilla.com/en-US/firefox/all-beta.html">Firefox 3 Beta 3 下載頁</a>取得檔案。
       </p>
 
          
       <p>其他尚未被官方 Firefox 3 Beta 3 驗證通過的本地化版本可以在
-         <a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0/contrib-localized/">FTP 站台</a>取得。</p>      <h2 id="links">其他資源和連結</h2>  
+         <a href="https://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0/contrib-localized/">FTP 站台</a>取得。</p>      <h2 id="links">其他資源和連結</h2>  
       <p>下面提供了幾個有用的連結：</p>
 		<ul class="spaced">
 		<li><a id="iuwe" title="帶您深入探索 Firefox 3 Beta 3 (part 1)" href="http://mozlinks.moztw.org/2008/02/firefox-3-beta-3-part-1.html">帶您深入探索 Firefox 3 Beta 3</a> 
 		</li><li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a> 
 		</li><li><a href="http://mozillalinks.org/wp/2008/02/a-deep-look-to-firefox-3-beta-3/">MozillaLinks Overview of Firefox 3 Beta 3</a> 
-		</li><li><a href="http://wiki.mozilla.org/Firefox3">Firefox 3 Project Page</a> 
+		</li><li><a href="https://wiki.mozilla.org/Firefox3">Firefox 3 Project Page</a> 
 		</li><li><a href="http://kb.mozillazine.org/">MozillaZine's Knowledge Base</a> 
 		</li><li><a href="https://www.mozilla.org/projects/firefox/">Developer Information</a> 
-		</li><li><a href="http://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li></ul>
+		</li><li><a href="https://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li></ul>
 
 </div>
 

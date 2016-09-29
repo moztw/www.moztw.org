@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-TW">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="zh-TW">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -113,7 +113,7 @@ Mozilla 專案是由開放源碼 (Open Source) 的組織
 
 <h3>其它資源與鏈結</h3>
 <ul>
-<li><a href="http://forum.moztw.org/" hreflang="zh-TW">MozTW 中文討論區</a></li>
+<li><a href="https://forum.moztw.org/" hreflang="zh-TW">MozTW 中文討論區</a></li>
 <li><a href="http://mozilla-taiwan.org/firefox/" hreflang="zh-TW">專案資訊</a></li>
 <li><a href="http://www.spreadfirefox.com/" hreflang="en">推廣 Firefox! [英]</a></li>
 </ul>

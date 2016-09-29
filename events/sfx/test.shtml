@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
+"https://www.w3.org/TR/html4/loose.dtd">
 <!--#set var="titleString" value="Mozilla Party 1.0" -->
 <html>
 <head>
@@ -28,8 +28,8 @@
   	<div id="topmenu">
 	
 	
-	<a class="menulink" href="http://forum.moztw.org">MozTW 討論區</a>
-	<a class="menulink" href="http://wiki.moztw.org/">MozTW Wiki</a>
+	<a class="menulink" href="https://forum.moztw.org">MozTW 討論區</a>
+	<a class="menulink" href="https://wiki.moztw.org/">MozTW Wiki</a>
 	<a class="menulink" href="http://photos.moztw.org/">MozTW 相簿</a>
 	<a class="menulink" href="activity.htm">推廣活動</a>
 	<a class="partyday" href="partyday.htm">Party Day</a>

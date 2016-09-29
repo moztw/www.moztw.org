@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/meta.html" -->
-<meta property="og:url" content="http://moztw.org/thunderbird/releases/1.5/">
+<meta property="og:url" content="https://moztw.org/thunderbird/releases/1.5/">
 <meta property="og:title" content="Mozilla Thunderbird 版本資訊 (1.5)">
 <!--#include virtual="/thunderbird/inc/ogtag.shtml" -->
 <title>Mozilla Thunderbird 1.5 版本資訊</title>
@@ -15,7 +15,7 @@
           <!-- Introduction -->
           <p>Thunderbird 是一套快速、安全而簡單的全功能電子郵件、RSS 和新聞群組管理程式。其它關於 Thunderbird 的訊息，請參考 <a href="/thunderbird/">Thunderbird 產品首頁</a>。</p>
           <p>此版本資訊包含了 Thunderbird 1.5 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#links">其他連結</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/thunderbird/bugs">錯誤回報注意事項</a>閱讀完畢，再到
-          <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+          <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
           <p>我們想知道您對 Thunderbird 的意見。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/viewforum.php?f=39">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的<a href="/forum/viewforum.php?f=9">Thunderbird
     中文討論區</a>與我們分享意見。</p>
         </div>
@@ -53,9 +53,9 @@
 
       <h3 id="download"><a name="download">下載 Thunderbird</a></h3>
        <p>Mozilla 基金會提供 Windows 版、Linux 版和 Mac OS X 版的 Thunderbird。</p>
-       <p><strong>Windows</strong>: <a href="http://download.mozilla.org/?product=thunderbird-1.5&amp;os=win&amp;lang=zh-TW">安裝程式</a></p>
-       <p><strong>Linux</strong>: <a href="http://download.mozilla.org/?product=thunderbird-1.5&amp;os=linux&amp;lang=zh-TW">GTK2 + XFT</a> （無安裝程式）</p>
-       <p><strong>Mac OS X</strong>: <a href="http://download.mozilla.org/?product=thunderbird-1.5&amp;os=osx&amp;lang=zh-TW">壓縮磁碟映像檔</a></p>
+       <p><strong>Windows</strong>: <a href="https://download.mozilla.org/?product=thunderbird-1.5&amp;os=win&amp;lang=zh-TW">安裝程式</a></p>
+       <p><strong>Linux</strong>: <a href="https://download.mozilla.org/?product=thunderbird-1.5&amp;os=linux&amp;lang=zh-TW">GTK2 + XFT</a> （無安裝程式）</p>
+       <p><strong>Mac OS X</strong>: <a href="https://download.mozilla.org/?product=thunderbird-1.5&amp;os=osx&amp;lang=zh-TW">壓縮磁碟映像檔</a></p>
 
        <p>其他 Mozilla.org 未提供的系統或語系，請閱讀文件最後的「非官方建製版」一節。</p>
 
@@ -148,7 +148,7 @@
         </li>
         <li>
           Windows 用戶只要安裝 Thunderbird 版的
-          <a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/extensions/palmsync/1.5/palmsync.xpi">Palm 同步擴充套件</a> 就可以與 Palm 裝置互相同步通訊錄。
+          <a href="https://ftp.mozilla.org/pub/mozilla.org/thunderbird/extensions/palmsync/1.5/palmsync.xpi">Palm 同步擴充套件</a> 就可以與 Palm 裝置互相同步通訊錄。
           將檔案下載回來之後儲存，然後從 Thunderbird 的「擴充套件」視窗中安裝這個擴充套件。此套件安裝後將不會在擴充套件列表中顯示，安裝之後記得重新啟動 Thunderbird 套件才會有作用。
 
         </li>
@@ -233,7 +233,7 @@
 
       <h3 id="othersystems">其他系統</h3>
 
-      <p>Mozilla.org 除了官方版本還提供了其他平台的版本，您可以在 <a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5/contrib/">FTP 站</a> 找到。</p>
+      <p>Mozilla.org 除了官方版本還提供了其他平台的版本，您可以在 <a href="https://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5/contrib/">FTP 站</a> 找到。</p>
 
         <!--
             Build contributors, please put your builds under:

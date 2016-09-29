@@ -3,7 +3,7 @@
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 600px)">
 <!--<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 300pt)"> this is a failed attemp to detect physical size of mobile devices-->
-<link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan Community News" href="http://moztw.org/xmlnews.rdf" />
+<link rel="alternate" type="application/rss+xml" title="MozTW.org: Mozilla Taiwan Community News" href="https://moztw.org/xmlnews.rdf" />
 <style type="text/css">
 <!--
 .front-feature { background: #E4EcEc url(images/4-feature-win.png) top right no-repeat;}
@@ -65,7 +65,7 @@
     	<li><a href="//forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a></li>
     	<li><a href="/events/">主題活動</a></li>
     	<li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
-    	<li><a href="http://wiki.moztw.org/index.php/%E7%B6%B2%E8%B7%AF%E8%B3%87%E6%BA%90">網路資源</a></li>
+    	<li><a href="https://wiki.moztw.org/index.php/%E7%B6%B2%E8%B7%AF%E8%B3%87%E6%BA%90">網路資源</a></li>
     </ul>
     </div>
 	<br style="clear: both;">

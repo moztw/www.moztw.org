@@ -14,7 +14,7 @@ please fork and checkout as you need.
     gfx.tw - Repo for http://gfx.tw, personal Firefox promotion and product page platform
     irclog.moztw.org - IRC Archive for #mozilla-taiwan of irc.mozilla.org
     translate.moztw.org - Localization system related stuff
-    planet.moztw.org - A Planetplanet installation for MozTW Planet http://planet.moztw.org/
+    planet.moztw.org - A Planetplanet installation for MozTW Planet https://planet.moztw.org/
 
 
     Demos:
@@ -34,7 +34,7 @@ please fork and checkout as you need.
 4. Make changes, test, and commit. Be sure to mention the issue id in the commit message.
 5. File a pull request to **master** branch (or create a new branch to remote if you need to collaborate your work with someone else). direct PRs to `production` branch will be rejected.
 6. Someone will review the request, you may ping moztw-general@googlegroups.com if there's no progress after a while.
-7. The content will go live at [www-stage](http://www-stage.moztw.org) once the PR is accepted, and will go live at [production site](http://moztw.org) when ready.
+7. The content will go live at [www-stage](http://www-stage.moztw.org) once the PR is accepted, and will go live at [production site](https://moztw.org) when ready.
 
 ## Development
 

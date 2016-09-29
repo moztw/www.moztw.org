@@ -1,4 +1,4 @@
-http://bugzilla.mozilla.org/show_bug.cgi?id=130079
+https://bugzilla.mozilla.org/show_bug.cgi?id=130079
 
 
 

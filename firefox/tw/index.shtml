@@ -94,7 +94,7 @@
         <p>以下是 MozTW 社群成員分析「美商謀智台灣版 Firefox」的功能介紹、安裝說明、及各內建附加套件說明。您也可以在原版的 Firefox 中，選擇安裝以下部分套件，以使用台灣版的某些功能。</p>
         <p>MozTW 社群長期以來負責維護 Firefox 與 Mozilla 產品正體中文版本的在地化，包含原始中文版 Firefox 的內建搜索引擎清單及預載的書籤項目。我們對於「Firefox 台灣版」所開發的客製化功能無所置喙。MozTW 社群將持續在 moztw.org 首頁提供美國原廠的 Firefox 正體中文版本下載。</p>
         <p><strong>請注意：</strong>我們發現由 Mozilla Taiwan 所製作的美商謀智台灣版 Firefox當中包含的某些附加元件內含使用者行為追蹤相關程式，根據程式碼研判，Mozilla Taiwan 公司（台北）與 Mozilla Online（北京）將會針對某些套件安裝後新增加的功能進行行為追蹤。在以下將會特別標示出個別套件的行為追蹤狀態，請使用者斟酌使用。</p>
-        <p>「Firefox 台灣版」將收集您使用 Firefox 過程的行為資訊，以進行分析統計。以下將以「<img src="eye.png" alt="" style="width: 1.25em;vertical-align: text-bottom;" />」標示出相關套件。使用者可隨時在偏好設定中將其開啟或關閉，詳情請參考美商謀智 Mozilla Taiwan <a href="http://mozilla.com.tw/firefox/ueip/" onclick="ga('send', 'event', 'Outgoing', 'mozilla.com.tw/firefox/ueip', 'firefox-tw');" target="_blank">使用者體驗改善計畫</a>。</p>
+        <p>「Firefox 台灣版」將收集您使用 Firefox 過程的行為資訊，以進行分析統計。以下將以「<img src="eye.png" alt="" style="width: 1.25em;vertical-align: text-bottom;" />」標示出相關套件。使用者可隨時在偏好設定中將其開啟或關閉，詳情請參考美商謀智 Mozilla Taiwan <a href="https://mozilla.com.tw/firefox/ueip/" onclick="ga('send', 'event', 'Outgoing', 'mozilla.com.tw/firefox/ueip', 'firefox-tw');" target="_blank">使用者體驗改善計畫</a>。</p>
     </section>
     
     <section id="tw-screenshot" class="contentboard screenshot">
@@ -407,11 +407,11 @@
     <footer id="colophon">
         <div class="container">
             <div class="logo">
-                <a href="/"><span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Mozilla 台灣社群 | Mozilla Taiwan Community</span></a>
+                <a href="/"><span xmlns:cc="https://creativecommons.org/ns#" property="cc:attributionName">Mozilla 台灣社群 | Mozilla Taiwan Community</span></a>
             </div>
 
             <div class="copyright">
-                <p>除另有註明外，本站內容皆採 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/tw/deed.zh_TW"  onclick="ga('send', 'event', 'Outgoing', 'CC', 'firefox-tw');">創用CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a> 或更新版本授權大眾使用</p>
+                <p>除另有註明外，本站內容皆採 <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/deed.zh_TW"  onclick="ga('send', 'event', 'Outgoing', 'CC', 'firefox-tw');">創用CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a> 或更新版本授權大眾使用</p>
             </div>
         </div>
     </footer>

@@ -3,8 +3,8 @@
 <link rel="stylesheet" type="text/css" href="firefox4party.css" media="screen">
 <meta name="description" content="慶祝全新的 Firefox 4 正式登場！4 月 24 日，一起來會場狂歡吧！">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://moztw.org/events/firefox4party/">
-<meta property="og:image" content="http://moztw.org/events/firefox4party/200x60.gif">
+<meta property="og:url" content="https://moztw.org/events/firefox4party/">
+<meta property="og:image" content="https://moztw.org/events/firefox4party/200x60.gif">
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="慶祝全新的 Firefox 4 正式登場！4 月 24 日，一起來會場狂歡吧！">
 <!--#include virtual="/inc/class_press.html" -->
@@ -57,7 +57,7 @@
 
 	<h2 id="photo"><img src="extension_icon.png" alt="">活動相片</h3>
 	<p>請把相片標上 <u>firefox4party</u> 標籤，上傳至 <a href="https://www.flickr.com/groups/moztw/">Flickr MozTW 群組</a>，就會出現在這裡嘍！</p>
-	<div><object width="500" height="412"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fsearch%2Fgroups%2Fshow%2F%3Fq%3Dfirefox4party%26m%3Dpool%26s%3Dint%26w%3D774566%2540N20&page_show_back_url=%2Fsearch%2Fgroups%2F%3Fq%3Dfirefox4party%26m%3Dpool%26s%3Dint%26w%3D774566%2540N20&method=flickr.photos.search&api_params_str=&api_text=firefox4party&api_group_id=774566%40N20&api_sort=interestingness-desc&jump_to=&start_index=0"></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=71649"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=71649" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fsearch%2Fgroups%2Fshow%2F%3Fq%3Dfirefox4party%26m%3Dpool%26s%3Dint%26w%3D774566%2540N20&page_show_back_url=%2Fsearch%2Fgroups%2F%3Fq%3Dfirefox4party%26m%3Dpool%26s%3Dint%26w%3D774566%2540N20&method=flickr.photos.search&api_params_str=&api_text=firefox4party&api_group_id=774566%40N20&api_sort=interestingness-desc&jump_to=&start_index=0" width="500" height="412"></embed></object></div>
+	<div><object width="500" height="412"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fsearch%2Fgroups%2Fshow%2F%3Fq%3Dfirefox4party%26m%3Dpool%26s%3Dint%26w%3D774566%2540N20&page_show_back_url=%2Fsearch%2Fgroups%2F%3Fq%3Dfirefox4party%26m%3Dpool%26s%3Dint%26w%3D774566%2540N20&method=flickr.photos.search&api_params_str=&api_text=firefox4party&api_group_id=774566%40N20&api_sort=interestingness-desc&jump_to=&start_index=0"></param> <param name="movie" value="https://www.flickr.com/apps/slideshow/show.swf?v=71649"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/slideshow/show.swf?v=71649" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fsearch%2Fgroups%2Fshow%2F%3Fq%3Dfirefox4party%26m%3Dpool%26s%3Dint%26w%3D774566%2540N20&page_show_back_url=%2Fsearch%2Fgroups%2F%3Fq%3Dfirefox4party%26m%3Dpool%26s%3Dint%26w%3D774566%2540N20&method=flickr.photos.search&api_params_str=&api_text=firefox4party&api_group_id=774566%40N20&api_sort=interestingness-desc&jump_to=&start_index=0" width="500" height="412"></embed></object></div>
 
 	<h2 id="doc-link"><img src="extension_icon.png" alt="">Blog、相簿大串連</h3>
 	<p>將你寫下 Firefox 4 Party 的 Blog 文章與照片相簿與大家分享，請留下你的 <a href="https://spreadsheets.google.com/spreadsheet/viewform?formkey=dGNzbDN1djRMMmw4WldnSjYyVnE0OFE6MQ">Blog 網址</a> 與 <a href="https://spreadsheets.google.com/spreadsheet/viewform?formkey=dEFQNjJNVkRBbEYzSEp1YmlicGVwU0E6MQ&ifq">相簿網址</a>。</p>

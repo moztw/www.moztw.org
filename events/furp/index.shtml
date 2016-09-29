@@ -4,8 +4,8 @@
 <link href="css/style.css" rel="stylesheet" />
 <meta name="description" content="從 4.0 開始進入快速更新週期的 Firefox 12，與每半年一版，兩年一長期支援的 Ubuntu 12.04 LTS Precise Pangolin，分別於 4 月 23 及 26 日正式釋出。為了響應如此難得的機會，MozTW 與 Ubuntu-TW 將在台中聯合舉辦 Party 啦！">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://moztw.org/events/furp/">
-<meta property="og:image" content="http://moztw.org/events/furp/images/Ubuntu_x_Firefox_12_.04__Release_Party_-_Landscape_520.png">
+<meta property="og:url" content="https://moztw.org/events/furp/">
+<meta property="og:image" content="https://moztw.org/events/furp/images/Ubuntu_x_Firefox_12_.04__Release_Party_-_Landscape_520.png">
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="從 4.0 開始進入快速更新週期的 Firefox 12，與每半年一版，兩年一長期支援的 Ubuntu 12.04 LTS Precise Pangolin，分別於 4 月 23 及 26 日正式釋出。為了響應如此難得的機會，MozTW 與 Ubuntu-TW 將在台中聯合舉辦 Party 啦！">
 <body>
@@ -169,7 +169,7 @@
 
     <section id="sponsership">
       <h2>熱情支援</h2>
-      <a title="Mozilla Taiwan 美商謀智" href="http://mozilla.com.tw">
+      <a title="Mozilla Taiwan 美商謀智" href="https://mozilla.com.tw">
         <img src="images/sponsor-moztw-240.png" alt="Mozilla Taiwan 美商謀智">
       </a>
     </section>

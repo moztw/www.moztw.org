@@ -63,11 +63,11 @@
 			<div id="firefox-beta">
 				<h3>Firefox 3 RC2 (<strong class="warning">測試版</strong>)</h3>
 				<ul>
-					<li><a href="http://download.mozilla.org/?product=firefox-3.0rc2&os=win&lang=zh-TW" class="download-windows"  onclick="urchinTracker('/download_trace/fx3rc2win');">Windows</a></li>
+					<li><a href="https://download.mozilla.org/?product=firefox-3.0rc2&os=win&lang=zh-TW" class="download-windows"  onclick="urchinTracker('/download_trace/fx3rc2win');">Windows</a></li>
 
-					<li><a href="http://download.mozilla.org/?product=firefox-3.0rc2&os=osx&lang=zh-TW" class="download-osx-uni"  onclick="urchinTracker('/download_trace/fx3rc2mac');">Mac OS X</a></li>
-					<li><a href="http://download.mozilla.org/?product=firefox-3.0rc2&os=linux&lang=zh-TW" class="download-linux"  onclick="urchinTracker('/download_trace/fx3rc2linux');">Linux</a></li>
-					<li><a href="http://www.mozilla.com/en-US/firefox/all-rc.html">其他語言或平台</a></li>
+					<li><a href="https://download.mozilla.org/?product=firefox-3.0rc2&os=osx&lang=zh-TW" class="download-osx-uni"  onclick="urchinTracker('/download_trace/fx3rc2mac');">Mac OS X</a></li>
+					<li><a href="https://download.mozilla.org/?product=firefox-3.0rc2&os=linux&lang=zh-TW" class="download-linux"  onclick="urchinTracker('/download_trace/fx3rc2linux');">Linux</a></li>
+					<li><a href="https://www.mozilla.com/en-US/firefox/all-rc.html">其他語言或平台</a></li>
 				</ul>
 			</div>
 		</div>
@@ -78,7 +78,7 @@
 
 <div id="mainContent" class="right">
 <h2>Firefox 3 Beta 4 已知問題</h2>
-<p>目前未及翻譯 RC 2 已知問題，請前往<a href="http://www.mozilla.com/en-US/firefox/3.0rc2/releasenotes/">版本資訊原文</a>閱讀，或閱讀以下 Firefox 3 Beta 4 的問題做為參考。(如您願意協助翻譯，請<a href="mailto:bobchao+web.beta@gmail.com">寄信給柏強</a>。)</p>
+<p>目前未及翻譯 RC 2 已知問題，請前往<a href="https://www.mozilla.com/en-US/firefox/3.0rc2/releasenotes/">版本資訊原文</a>閱讀，或閱讀以下 Firefox 3 Beta 4 的問題做為參考。(如您願意協助翻譯，請<a href="mailto:bobchao+web.beta@gmail.com">寄信給柏強</a>。)</p>
 <p>Firefox 3 Beta 4 以新版 Gecko 1.9 網頁佈局引擎構成。研發此全新的引擎耗時 31 個月，改善了超過一萬兩千個大小問題。以下簡要列出此版本的已知問題，請閱讀後再回報新的程式錯誤。新功能及其他詳細內容，請參考<a href="/firefox/release/3.0b4/">版本資訊</a></p>
       <dl>
 
@@ -126,7 +126,7 @@
     <p>MozTW 為提昇軟體中文翻譯品質，提供軟體中文測試版。</p>
 
     <ul>
-    <li>如軟體操作時發生錯誤或有建議，請至 <a href="http://bugzilla.mozilla.org">Buzilla</a> 回報。</li>
+    <li>如軟體操作時發生錯誤或有建議，請至 <a href="https://bugzilla.mozilla.org">Buzilla</a> 回報。</li>
 
     <li>若發現任何中文翻譯錯誤或建議，請至 <a href="//forum.moztw.org/viewforum.php?f=4"> MozTW 討論區</a>回報。</li></ul>
     <p>本區檔案來源為 Mozilla.org Nightly Builds
@@ -151,12 +151,12 @@
 	</form>
 	<h3>逐日測試版</h3>
 	<p>每天依照修補測試項目更新的測試版，更新、更前衛、更容易採到地雷 :P 一般使用者切勿進入，歡迎熟手協助測試：</p>
-	<ul><li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk/">Firefox</a></li>
-	<li><a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk-l10n/">Firefox (多語)</a></li>
-	<li><a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-trunk/">Thunderbird</a></li>
-	<li><a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-trunk-l10n/">Thunderbird (多語)</a></li></ul>
+	<ul><li><a href="https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk/">Firefox</a></li>
+	<li><a href="https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-trunk-l10n/">Firefox (多語)</a></li>
+	<li><a href="https://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-trunk/">Thunderbird</a></li>
+	<li><a href="https://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/latest-trunk-l10n/">Thunderbird (多語)</a></li></ul>
 	<h3>其他資訊</h3>
-		<ul><li><a href="http://bugzilla.mozilla.org/">Bugzilla 錯誤回報</a></li>
+		<ul><li><a href="https://bugzilla.mozilla.org/">Bugzilla 錯誤回報</a></li>
 		<li><a href="//forum.moztw.org/">MozTW 討論區</a></li></ul>
 </div>
 <!--#include virtual="/inc/footer.html" -->

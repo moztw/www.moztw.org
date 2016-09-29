@@ -1,5 +1,5 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
+"https://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -26,8 +26,8 @@
 	<a class="menulink" href="conference">研討會</a>
 	<a class="menulink" href="activity">推廣活動</a>
 	<a class="menulink" href="http://photos.moztw.org/">相簿</a>
-	<a class="menulink" href="http://wiki.moztw.org/">Wiki</a>
-	<a class="menulink" href="http://forum.moztw.org">討論區</a>
+	<a class="menulink" href="https://wiki.moztw.org/">Wiki</a>
+	<a class="menulink" href="https://forum.moztw.org">討論區</a>
 	</div>
 </div>
 <div style="clear:both"><hr></div>
@@ -60,7 +60,7 @@
 				<ol>
 					<li>到<a href="http://www.openforce.at/mozparty2/?view=TW"> mozilla party2 </a>報名，如果你們是一個團體，
 					請按右上角的 "Add your party"，就可以新建一個了，當然，如果您一個人的話，也可以自行挑選一個場地參加。</li>
-					<li>到台灣 mozilla 的 <a href="http://wiki.moztw.org/index.php/Current_events">wiki 系統</a>上回報。</li>
+					<li>到台灣 mozilla 的 <a href="https://wiki.moztw.org/index.php/Current_events">wiki 系統</a>上回報。</li>
 					<li>最後，如果可以的話，傳回您的 Party 照片到<a href="http://photos.moztw.org/"> Moztw 相簿</a>上，因為，
 					會讓全世界都看到!!<img src="pics/XD.gif"></li>
 				</ol>
@@ -87,7 +87,7 @@
 			<li>記得拍下您的宣傳照片</li>
 		</ul>
 		
-		<h4>2.上 wiki 回報：<a href="http://wiki.moztw.org/index.php/FirefoxWeek/Spread:Camp">大專院校串連放火聯絡區</a></h4>
+		<h4>2.上 wiki 回報：<a href="https://wiki.moztw.org/index.php/FirefoxWeek/Spread:Camp">大專院校串連放火聯絡區</a></h4>
 		<div id="textbox">
 			在這個地方，您可以號名更多的同好，您可以討論你們的活動，更可以參考其他學校的做法，達到全台串連的效果哦!!
 		</div>
@@ -100,8 +100,8 @@
 	
 		<h4>4.對 Firefox 傾訴您的愛</h4>
 		<div id="textbox">
-		你有什麼祝福的話，或者對 Firefox 鼓勵的話，我們都相當歡迎哦!! 來這裡訴說您的浪漫吧!!網址是：<a href="http://wiki.moztw.org/index.php/Firefox_bless">
-		http://wiki.moztw.org/index.php/Firefox_bless</a>
+		你有什麼祝福的話，或者對 Firefox 鼓勵的話，我們都相當歡迎哦!! 來這裡訴說您的浪漫吧!!網址是：<a href="https://wiki.moztw.org/index.php/Firefox_bless">
+		https://wiki.moztw.org/index.php/Firefox_bless</a>
 		</div>		
 	</p>
 	
