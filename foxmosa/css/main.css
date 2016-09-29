@@ -332,8 +332,6 @@
   left: 220px;
   top: 50%;
   margin-top: -60px;
-  height: 120px;
-  width: 120px;
   text-indent: -99999px;
   overflow: hidden;
   -ms-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
@@ -357,10 +355,14 @@
 
 #foxmosa-games a.pairslogo{
   background: url(../images/pairslogo.jpg) no-repeat;
+  height: 120px;
+  width: 120px;
 }
 
 #foxmosa-games a.starslogo{
   background: url(../images/starslogo.png) no-repeat;
+  height: 120px;
+  width: 111px;
 }
 
 .whitebox,#foxmosa-gallery{
