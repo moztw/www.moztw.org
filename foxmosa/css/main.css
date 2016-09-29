@@ -360,9 +360,11 @@
 }
 
 #foxmosa-games a.starslogo{
-  background: url(../images/starslogo.png) no-repeat;
+  background: url(../images/starslogo.png);
   height: 120px;
-  width: 111px;
+  width: 120px;
+  background-position: center;
+  background-size: cover;
 }
 
 .whitebox,#foxmosa-gallery{
