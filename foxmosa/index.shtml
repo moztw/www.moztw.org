@@ -52,7 +52,7 @@
                             </header>
                             <a href="game/stars/" class="foxmosa-games-logo starslogo">Star Pusher</a>
                             <a href="https://github.com/moztw/star-pusher" class="button github" onclick="ga('send', 'event', 'Outgoing', 'Github-StarsPusher', 'foxmosa');">Fork me on Github</a>
-                            <a href="game/starts/" class="button playthegame">Play</a>
+                            <a href="game/stars/" class="button playthegame">Play</a>
                         </div>
                     </section>
 
