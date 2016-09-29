@@ -38,13 +38,21 @@
                     </section>
 
                     <section class="container block">
-                        <div id="foxmosa-pairs" class="module whitebox">
+                        <div id="foxmosa-games" class="module whitebox">
                             <header>
                                 <h2 class="block-title">BrowserPairs</h2>
                             </header>
-                            <a href="game/pairs/" class="pairslogo">BrowserPairs</a>
+                            <a href="game/pairs/" class="foxmosa-games-logo pairslogo">BrowserPairs</a>
                             <a href="https://github.com/moztw/browser-pairs" class="button github" onclick="ga('send', 'event', 'Outgoing', 'Github-BrowserPairs', 'foxmosa');">Fork me on Github</a>
                             <a href="game/pairs/" class="button playthegame">Play</a>
+                        </div>
+                        <div id="foxmosa-games" class="module whitebox">
+                            <header>
+                                <h2 class="block-title">Star Pusher</h2>
+                            </header>
+                            <a href="game/stars/" class="foxmosa-games-logo starslogo">Star Pusher</a>
+                            <a href="https://github.com/moztw/star-pusher" class="button github" onclick="ga('send', 'event', 'Outgoing', 'Github-StarsPusher', 'foxmosa');">Fork me on Github</a>
+                            <a href="game/stars/" class="button playthegame">Play</a>
                         </div>
                     </section>
 
