@@ -12,7 +12,9 @@
         <p><a rel="contact" href="/about" onclick="ga('send', 'event', 'FooterLink', 'Contact', 'sandstone-footer');">聯絡資訊 Contact</a> |
           Powered by <a href="http://ubuntu-tw.org/" onclick="ga('send', 'event', 'Outgoing', 'Ubuntu-TW', 'new-footer');">Ubuntu-TW</a> / <a href="http://bluet.org/" onclick="ga('send', 'event', 'Outgoing', 'BlueT', 'new-footer');">BlueT</a> and <a href="http://www.cc.ncnu.edu.tw/" onclick="ga('send', 'event', 'Outgoing', 'NCNU-CC', 'new-footer');">NCNU-CC</a>
         </p>
-				<p><a rel="source code" href="https://github.com/moztw/www.moztw.org" onclick="ga('send', 'event', 'FooterLink', 'Contact', 'sandstone-footer');">本站原始碼 Source code form GitHub Repo</a></p>
+		<p>
+			<a rel="source code" href="https://github.com/moztw/www.moztw.org" onclick="ga('send', 'event', 'FooterLink', 'Contact', 'sandstone-footer');">本站原始碼 Source code form GitHub Repo</a>
+		</p>
       </div>
     </div>
   </div>
