@@ -87,6 +87,16 @@ $links = Array(
 	),
 
 	Array(
+		'id' => '@rust_tw',
+		'name' => 'RustTW',
+		'description' => 'RustTW 社群',
+		'introduction' => 'Rust 台灣社群子頻道。',
+		'tags' => Array(
+			'zh-tw',
+		),
+	),
+
+	Array(
 		'id' => '@mozillian',
 		'name' => 'Mozillians',
 		'description' => 'Mozills general discussion group',
