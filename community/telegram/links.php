@@ -16,6 +16,17 @@ $links = Array(
 		),
 	),
 
+  Array(
+    'id' => 'AbrE40GFna0Clf1GBDg1fw',
+    'name' => 'MozTW zh-TW L10n Channel',
+    'description' => 'MozTW 正體中文在地化討論群組',
+    'introduction' => '討論 Mozilla/MozTW 各產品/網頁的正體中文在地化事項。',
+    'tags' => Array(
+      'zh-tw',
+      'en'
+    ),
+  ),
+
 	Array(
 		'id' => 'AmWeuT0XZKuwaB9m3AXfyw',
 		'name' => 'MozTW',
