@@ -2,8 +2,8 @@
 <title>使用 Firefox 體驗 IE8 最新功能 - MozTW, Mozilla Taiwan Community</title>
 <meta name="description" content="現在就跟我們一起藉助 Firefox 超強擴充功能，馬上體驗 IE8 的新功能吧！">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://moztw.org/events/ie8/">
-<meta property="og:image" content="http://moztw.org/events/ie8/ie8bg.png">
+<meta property="og:url" content="https://moztw.org/events/ie8/">
+<meta property="og:image" content="https://moztw.org/events/ie8/ie8bg.png">
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="現在就跟我們一起藉助 Firefox 超強擴充功能，馬上體驗 IE8 的新功能吧！">
 <style type="text/css">
@@ -180,11 +180,11 @@ ul#tab-menu li a img {
 	</div>
 	<div id="smartscreen" class="tab-block">
 		<h3>阻擋壞網站，保全您的網路體驗</h3>
-		<p><img src="fig-smartscreen.png" alt="SmartScreen" class="fig" />2006 年的 Firefox 2 起，你家的火狐早已內建阻擋惡意網站功能，與 IE8 的「SmartScreen 篩選器」相似。Firefox 阻擋這些壞網站的能力藉助了 <a href="http://www.google.com/">Google</a> 及 <a href="http://www.phishtank.com/">PhishTank</a> 提供的惡意網站資訊，保全您的網路體驗。</p>
+		<p><img src="fig-smartscreen.png" alt="SmartScreen" class="fig" />2006 年的 Firefox 2 起，你家的火狐早已內建阻擋惡意網站功能，與 IE8 的「SmartScreen 篩選器」相似。Firefox 阻擋這些壞網站的能力藉助了 <a href="https://www.google.com/">Google</a> 及 <a href="http://www.phishtank.com/">PhishTank</a> 提供的惡意網站資訊，保全您的網路體驗。</p>
 	</div>
 	<div id="speed" class="tab-block">
 		<h3>速度快</h3>
-		<p><img src="fig-speed.png" alt="速度快" class="fig" />微軟的測試表示 Internet Explorer 8 顯示網頁的速度跟其他瀏覽器<a href="http://www.microsoft.com/windows/internet-explorer/videos.aspx?mname=IE8_Perf_Test2">都差不多快</a> —— 甚至開啟某些網站時比 Firefox 快 <em>0.02</em> 秒！事實上，如果將目前許多網站必備的「JavaScript」執行速度也列入考量，根據 <a href="http://taiwan.cnet.com/crave/0,2000088746,20136427,00.htm">CNET</a> 的測試 (縱軸為時間，越短越快)、很顯然 IE8 還得多努力一下… 很多下。</p>
+		<p><img src="fig-speed.png" alt="速度快" class="fig" />微軟的測試表示 Internet Explorer 8 顯示網頁的速度跟其他瀏覽器<a href="https://www.microsoft.com/windows/internet-explorer/videos.aspx?mname=IE8_Perf_Test2">都差不多快</a> —— 甚至開啟某些網站時比 Firefox 快 <em>0.02</em> 秒！事實上，如果將目前許多網站必備的「JavaScript」執行速度也列入考量，根據 <a href="http://taiwan.cnet.com/crave/0,2000088746,20136427,00.htm">CNET</a> 的測試 (縱軸為時間，越短越快)、很顯然 IE8 還得多努力一下… 很多下。</p>
 		<p>JavaScript 帶給您更豐富的網路生活，也可以說是所謂「Web 2.0」網站的重要技術之一。提升 JavaScript 的執行速度才能帶給我們充滿創意的網路未來，因此下一版 Firefox (3.5 版) 開發中的版本 (圖中的 Mindfield) 全面更新 JavaScript 顯示技術，與先進網頁瀏覽器互有所長、良性競爭，相信您在 Plurk、Google 文件、Yahoo! 地圖等有趣的先進網站都能得到更美好的體驗。</p>
 	</div>
 	<div><h3>Firefox 還有什麼先進功能？</h3>

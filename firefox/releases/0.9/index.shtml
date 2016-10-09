@@ -44,7 +44,7 @@
 </dd>
 </dl>
 
-<p>請參考 <a href="http://www.squarefree.com/burningedge/bigger-picture.html">[Burning Edge's Bigger Picture]</a>，以獲取更多相關訊息。</p>
+<p>請參考 <a href="https://www.squarefree.com/burningedge/bigger-picture.html">[Burning Edge's Bigger Picture]</a>，以獲取更多相關訊息。</p>
 
 <h2>系統需求</h2><p>在安裝 Firefox 前請先確定您的電腦合乎<a href="https://www.mozilla.org/products/firefox/system-requirements.html">[系統需求]</a>。</p>
 
@@ -53,9 +53,9 @@
 
 <p>英文版：</p>
 
-<ul ><li><strong>Windows</strong>: <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.9.3/FirefoxSetup-0.9.3.exe">[安裝程式]</a></li>
-<li><strong>Linux</strong>: <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.9.3/firefox-0.9.3-i686-linux-gtk2+xft-installer.tar.gz">[GTK]</a> 或 <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.9.3/firefox-0.9.3-i686-linux-gtk2+xft.tar.gz">[GTK2 + XFT]</a> (無安裝程式)</li>
-<li><strong>MacOS X</strong>: <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.9.3/firefox-0.9.3-mac.dmg.gz">[已壓縮磁碟影像檔]</a></li>
+<ul ><li><strong>Windows</strong>: <a href="https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.9.3/FirefoxSetup-0.9.3.exe">[安裝程式]</a></li>
+<li><strong>Linux</strong>: <a href="https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.9.3/firefox-0.9.3-i686-linux-gtk2+xft-installer.tar.gz">[GTK]</a> 或 <a href="https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.9.3/firefox-0.9.3-i686-linux-gtk2+xft.tar.gz">[GTK2 + XFT]</a> (無安裝程式)</li>
+<li><strong>MacOS X</strong>: <a href="https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.9.3/firefox-0.9.3-mac.dmg.gz">[已壓縮磁碟影像檔]</a></li>
 </ul>
 
 <p>中文化的版本，可至 <a href="http://www.csie.ntu.edu.tw/~r91034/mozilla/">[Mozilla 正體中文網站]</a>下載。</p>

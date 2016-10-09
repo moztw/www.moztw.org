@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
+"https://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
     <title>Mozilla Firefox 1.0 Party!! - MozTW, Mozilla Taiwan Community</title>
     <meta name="description" content="開始了! 開始了! 全台 Firefox 迷趕快動起來吧! 你還坐在電腦前嗎? 趕快去看看推廣活動的內容， 和 Firefox 一起同樂吧! 你今天放火沒?! ">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://moztw.org/events/sfx/">
-    <meta property="og:image" content="http://moztw.org/events/sfx/pics/newfirefox_newlogo.png">
+    <meta property="og:url" content="https://moztw.org/events/sfx/">
+    <meta property="og:image" content="https://moztw.org/events/sfx/pics/newfirefox_newlogo.png">
     <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
     <meta property="og:description" content="開始了! 開始了! 全台 Firefox 迷趕快動起來吧! 你還坐在電腦前嗎? 趕快去看看推廣活動的內容， 和 Firefox 一起同樂吧! 你今天放火沒?! ">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -31,7 +31,7 @@
 	<h4>活動列表</h4>
 	<ul>
 		<li><a href="activity">放火行動</a></li>
-		<li><a href="http://wiki.moztw.org/index.php/Firefox_bless">Firefox 祝福話</a></li>
+		<li><a href="https://wiki.moztw.org/index.php/Firefox_bless">Firefox 祝福話</a></li>
 		<li><a href="activity">推廣週</a></li>
 		<li><a href="party">Party</a></li>
 		<li><a href="conference">研討會<span class="fire">(免費)</span></a></li>
@@ -53,9 +53,9 @@
     <div class="leftbox">
 		<h4>MozTW 相關網站</h4>
 		<ul>
-			<li><a href="http://moztw.org/">台灣官方站</a></li>
-			<li><a href="http://wiki.moztw.org/">wiki 站</a></li>
-			<li><a href="http://forum.moztw.org">討論區</a> </li>
+			<li><a href="https://moztw.org/">台灣官方站</a></li>
+			<li><a href="https://wiki.moztw.org/">wiki 站</a></li>
+			<li><a href="https://forum.moztw.org">討論區</a> </li>
 			<li><a href="http://photos.moztw.org/">寫真館 </a></li>
 		</ul>
 	</div>
@@ -85,7 +85,7 @@
 		如果您有熱誠，歡迎參與我們的工作，如果您熱愛 Firefox 或是自由軟體，那麼參與這樣的活動一定會是您最佳的
 		選擇，讓我們一起來帶動全台灣帶動所有人的熱情，燃繞全台吧!! ....<img src="pics/XD.gif" alt="">
 		<ul>
-			<li>參與前請先看<a href="http://wiki.moztw.org/index.php/FirefoxWeek">會議詳情</a></li>
+			<li>參與前請先看<a href="https://wiki.moztw.org/index.php/FirefoxWeek">會議詳情</a></li>
 			<li>開會時歡迎來參加幫忙認領工作</li>
 			<li>線上會議：irc.seed.net.tw</li>
 			<li>頻道：#sfx.tw</li>
@@ -101,7 +101,7 @@
 	
 	<div class="hh2">有其他問題怎麼辦?</div>
 	<div class="textbox">
-		您可以到我們的<a href="http://forum.moztw.org/index.php">討論區</a>，有個<a href="http://forum.moztw.org/viewforum.php?f=21">「推廣討論區」</a>詢問有關活動的任何問題...^_^
+		您可以到我們的<a href="https://forum.moztw.org/index.php">討論區</a>，有個<a href="https://forum.moztw.org/viewforum.php?f=21">「推廣討論區」</a>詢問有關活動的任何問題...^_^
 	</div>
 </div>
 </div>
@@ -162,9 +162,9 @@
 		<div class="bottomline">&nbsp;</div>
 	</div>
 	<div id="check">
-	<a id="css" href="http://validator.w3.org/check?uri=referer">
+	<a id="css" href="https://validator.w3.org/check?uri=referer">
 	<img border="0" src="pics/valid-html401.png" alt="Valid HTML 4.01!" height="31" width="88"></a>
-	<a id="html" href="http://jigsaw.w3.org/css-validator/validator?uri=http://moztw.org/sfx/">
+	<a id="html" href="https://jigsaw.w3.org/css-validator/validator?uri=https://moztw.org/sfx/">
 	<img style="border:0;width:88px;height:31px" src="pics/vcss.png"alt="Valid CSS!"></a>
 	</div>
 </div>

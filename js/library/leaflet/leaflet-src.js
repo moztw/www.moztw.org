@@ -4607,7 +4607,7 @@ L.Map.include({
  * Extends L.Path with SVG-specific rendering code.
  */
 
-L.Path.SVG_NS = 'http://www.w3.org/2000/svg';
+L.Path.SVG_NS = 'https://www.w3.org/2000/svg';
 
 L.Browser.svg = !!(document.createElementNS && document.createElementNS(L.Path.SVG_NS, 'svg').createSVGRect);
 
@@ -7171,7 +7171,7 @@ L.extend(L.DomEvent, {
 
 	// Provides a touch events wrapper for (ms)pointer events.
 	// Based on changes by veproza https://github.com/CloudMade/Leaflet/pull/1019
-	//ref http://www.w3.org/TR/pointerevents/ https://www.w3.org/Bugs/Public/show_bug.cgi?id=22890
+	//ref https://www.w3.org/TR/pointerevents/ https://www.w3.org/Bugs/Public/show_bug.cgi?id=22890
 
 	addPointerListener: function (obj, type, handler, id) {
 
@@ -8514,7 +8514,7 @@ L.Control.Layers = L.Control.extend({
 		}
 	},
 
-	// IE7 bugs out if you create a radio dynamically, so you have to do it this hacky way (see http://bit.ly/PqYLBe)
+	// IE7 bugs out if you create a radio dynamically, so you have to do it this hacky way (see https://bit.ly/PqYLBe)
 	_createRadioElement: function (name, checked) {
 
 		var radioHtml = '<input type="radio" class="leaflet-control-layers-selector" name="' + name + '"';

@@ -41,8 +41,8 @@
     <div class="grids">
       <div class="grid-4">
         <article class="module">
-          <h3><a href="http://moztw.org/thunderbird/">Thunderbird</a></h3>
-          <p><a href="http://moztw.org/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
+          <h3><a href="https://moztw.org/thunderbird/">Thunderbird</a></h3>
+          <p><a href="https://moztw.org/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
         </article>
       </div>
       <div class="grid-4">
@@ -53,8 +53,8 @@
       </div>
       <div class="grid-4">
         <article class="module">
-          <h3><a href="http://moztw.org/contribute/">參與我們</a></h3>
-              <p>我們想要讓網路變得更好。歡迎<a href="http://moztw.org/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！ </p>
+          <h3><a href="https://moztw.org/contribute/">參與我們</a></h3>
+              <p>我們想要讓網路變得更好。歡迎<a href="https://moztw.org/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！ </p>
               <p><a href="https://groups.google.com/group/moztw-general">MozTW 社群郵件群組</a></p>
         </article>
       </div>
@@ -90,14 +90,14 @@
       <div class="grid-4">
         <section class="module">
           <h3>最新消息與公告</h3>
-          <ul class="list feed" data-feed="http://moztw.org/xmlnews.rdf">
+          <ul class="list feed" data-feed="https://moztw.org/xmlnews.rdf">
           </ul>
         </section>
       </div>
       <div class="grid-4">
         <section class="module">
           <h3>摩茲工寮</h3>
-          <ul class="list feed" data-feed="http://planet.moztw.org/atom.xml">
+          <ul class="list feed" data-feed="https://planet.moztw.org/atom.xml">
           </ul>
         </section>
       </div>
@@ -109,8 +109,8 @@
 			  <li><a href="/events/moztw-lab/">MozTW Lab 定期聚會</a></li>
 			  <li><a href="https://webmaker.org/" onClick="ga('send', 'event', 'Outgoing', 'Webmaker', 'frontpage');">Mozilla Webmaker</a></li>
 			  <li><a href="http://mozlinks.moztw.org/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla Links', 'frontpage');">Mozilla Links 正體中文版</a></li>
-			  <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 未來發行版本</a></li>
-			  <li><a href="http://wiki.moztw.org/">共筆系統</a></li>
+			  <li><a href="https://www.mozilla.com/zh-TW/firefox/channel/" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 未來發行版本</a></li>
+			  <li><a href="https://wiki.moztw.org/">共筆系統</a></li>
 			  <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
 			  <li><a href="/foxmosa/">Foxmosa 狐耳摩莎</a></li>
 			</ul>

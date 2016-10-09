@@ -3,8 +3,8 @@
 	<title>贊助 Mozilla</title>
 	<meta name="description" content="Mozilla 全球社群依循 Mozilla 宣言，致力於打造更開放自由的網路、提升人們的網路體驗、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的在地參與可辦不到！">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://moztw.org/donate/">
-	<meta property="og:image" content="http://moztw.org/images/foxmosa-icon.gif">
+	<meta property="og:url" content="https://moztw.org/donate/">
+	<meta property="og:image" content="https://moztw.org/images/foxmosa-icon.gif">
 	<meta property="og:site_name" content="Mozilla 台灣社群">
 	<meta property="og:description" content="Mozilla 全球社群依循 Mozilla 宣言，致力於打造更開放自由的網路、提升人們的網路體驗、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的在地參與可辦不到！">
 <!--#include virtual="/inc/new_header.html" -->

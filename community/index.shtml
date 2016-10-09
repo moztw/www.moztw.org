@@ -4,7 +4,7 @@
 <meta name="description" content="Mozilla 全球社群依循 Mozilla 宣言，致力於打造更開放自由的網路、提升人們的網路體驗、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的在地參與可辦不到！">
 <meta property="og:type" content="website">
 <meta property="og:url" content="http://mozilla.tw">
-<meta property="og:image" content="http://moztw.org/images/foxmosa-icon.gif">
+<meta property="og:image" content="https://moztw.org/images/foxmosa-icon.gif">
 <meta property="og:site_name" content="Mozilla 台灣社群">
 <meta property="og:description" content="Mozilla 全球社群依循 Mozilla 宣言，致力於打造更開放自由的網路、提升人們的網路體驗、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的在地參與可辦不到！">
 <script>
@@ -87,13 +87,13 @@
         </section>
 
         <section>
-            <h3><a href="http://mozilla.com.tw/">Mozilla Taiwan 美商謀智台灣分公司</a></h3>
+            <h3><a href="https://mozilla.com.tw/">Mozilla Taiwan 美商謀智台灣分公司</a></h3>
             <p class="engName">Mozilla Taiwan</p>
             <p>Mozilla 台灣分公司是 Mozilla 全球第九個辦公室，初期預計招募 40 位軟體研發人員，除肩負 Firefox OS 研發中心的重責大任，也會密切與在地的開放社群合作，建構行動上網的開放平台。</p>
             <p class="link">→
-                <a href="http://mozilla.com.tw" target="_blank">Mozilla Taiwan</a>、
+                <a href="https://mozilla.com.tw" target="_blank">Mozilla Taiwan</a>、
                 <a href="https://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=5e604325345c3e673c423b1d1d1d1d5f2443a363189j01" target="_blank">工作機會</a>、
-                <a href="http://mozilla.com.tw/about/contact/" target="_blank">聯絡資訊</a>
+                <a href="https://mozilla.com.tw/about/contact/" target="_blank">聯絡資訊</a>
             </p>
         </section>
 
@@ -107,7 +107,7 @@
         </section>
 
         <section>
-            <h3><a href="http://mozilla.com.tw/community/student/">美商謀智 Firefox 校園大使</a></h3>
+            <h3><a href="https://mozilla.com.tw/community/student/">美商謀智 Firefox 校園大使</a></h3>
             <p class="engName">Mozilla Taiwan Firefox Campus Ambassador</p>
             <p>Mozilla Taiwan 號召台灣青年學子加入 Firefox 校園大使的行列。透過成為 Firefox 校園大使，在校園內協助推廣 Firefox，成立 Firefox 社團，作為 Firefox 小幫手解決疑難雜症。</p>
             <p class="link">→
@@ -168,7 +168,7 @@
           </h3>
           <p>SUMO 是 SUpport MOzilla 的縮寫字，讓使用者透過搜尋功能，查詢 Mozilla 相關產品的說明文件。SUMO 中的說明文件主要由全球社群志工撰寫與翻譯，當使用者點選 Firefox 的「說明」→「Firefox 說明」時，就會開啟 SUMO 網站。</p>
           <p class="link">→
-            <a href="http://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012" target="_blank">更多介紹</a>、
+            <a href="https://www.slideshare.net/dwchiang/moztw-sumo-introduction-2012" target="_blank">更多介紹</a>、
             <a href="https://support.mozilla.org/zh-TW/kb/superheroes-wanted">徵求超人義工</a></a>
           </p>
         </section>

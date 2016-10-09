@@ -10,8 +10,8 @@
   		  <div id="product-desc" class="firefox-releasenotes-v2">
           <!-- Introduction -->
           <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 2 的 <a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
-  <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
-          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的<a href="http://forum.moztw.org/viewforum.php?f=2">Firefox
+  <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的<a href="https://forum.moztw.org/viewforum.php?f=2">Firefox
     中文討論區</a>與我們分享意見。</p>
         </div>
       </div> 
@@ -107,7 +107,7 @@
       <ul class="spaced">
 <li>隨 Java SE 6.0u1 (J2SE6.0.01) 安裝的 Java Console 擴充套件不相容於 Firefox（參考 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=364390">Bugzilla 上的回報</a>）。Java 本身運行無誤，但「工具」選單中不會出現「Java Console」選項。此問題已於  Java SE 6.0u2 (J2SE6.0.02) 修復，<a href="http://java.sun.com/javase/downloads/index.jsp">可於 Java 網站上下載更新</a>。</li>
       <li>在某些程式中（例如某些即時通訊軟體）按下連結可能無法用 Firefox 開啟網頁，就算你已經設為預設瀏覽器也一樣。要解決這個問題請到「開始＞預設程式＞設定此台電腦的預設程式」，展開「自訂」欄位後選擇你想要設定為預設使用的應用程式（就是 Firefox）後點「套用」即可。</li>
-      <li>Windows Vista 並不提供 Windows Media Player (WMP) plugin，若要觀看 Windows Media 內容，可安裝 <a href="http://www.microsoft.com/windows/windowsmedia/player/version64/plugin.aspx">WMP Plugin v6.4 for Netscape Navigator</a>。</li>
+      <li>Windows Vista 並不提供 Windows Media Player (WMP) plugin，若要觀看 Windows Media 內容，可安裝 <a href="https://www.microsoft.com/windows/windowsmedia/player/version64/plugin.aspx">WMP Plugin v6.4 for Netscape Navigator</a>。</li>
       <li>尚未能完全遵循 Vista 家長控制的設定，下載的檔案<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=355554">並不遵從</a> Vista 的家長控制設定，這點往後會處理。</li>
       <li>自 Internet Explorer 7 轉移至 Firefox 時，<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=369910">cookies</a> 與<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=369916">既存表單內容</a>無法匯入。</li>
       <li>以 install-global-extension 及 install-global-theme 命令參數安裝附加元件時，只能安裝已經下載到本地主機 (或已連線之網路磁碟機) 的元件，無法再安裝分享資料夾中的元件。</li>
@@ -121,7 +121,7 @@
       <li>一旦開啟的分頁超過二十個，快捷選單的「關閉其他分頁」功能就可能失效。      </li>
       <li>有些使用者發現在 Intel 核心的麥金塔電腦上瀏覽 Macromedia Flash 內容會有問題，此時您可以自<tt>/Library/Internet Plug-Ins</tt> 當中將 PowerPC 版的「Flash Player」刪除。      </li>
       <li>安裝新 plug-in 後，在 about:plugins 有可能會依然顯示舊版的資訊，此時請離開
-          Firefox，將<a href="http://wiki.moztw.org/index.php/%E8%A8%AD%E5%AE%9A%E6%AA%94%E8%A9%B3%E8%A7%A3#.E8.A8.AD.E5.AE.9A.E6.AA.94.E7.9A.84.E9.A0.90.E8.A8.AD.E5.AD.98.E6.94.BE.E4.BD.8D.E7.BD.AE.E5.9C.A8.EF.BC.9F">個人設定資料夾</a>中的「pluginreg.dat」刪除，然後重新啟動 Firefox。</li>
+          Firefox，將<a href="https://wiki.moztw.org/index.php/%E8%A8%AD%E5%AE%9A%E6%AA%94%E8%A9%B3%E8%A7%A3#.E8.A8.AD.E5.AE.9A.E6.AA.94.E7.9A.84.E9.A0.90.E8.A8.AD.E5.AD.98.E6.94.BE.E4.BD.8D.E7.BD.AE.E5.9C.A8.EF.BC.9F">個人設定資料夾</a>中的「pluginreg.dat」刪除，然後重新啟動 Firefox。</li>
 
       <li>Java 無法於 Intel 核心的 Rosetta 下執行。      </li>
       <li>在 Intel 核心的麥金塔電腦上執行時，不論原生執行或是透過 Rosetta 執行，都沒有 Talkback（錯誤回報）功能。當錯誤發生時，Apple Crash report 程式會自動執行。      </li>
@@ -162,7 +162,7 @@
       <ol class="faq">
 
         <li>我該怎麼幫忙呢？
-          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
+          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
         </li>
 
         <li>你們為什麼都沒有回信？
@@ -179,7 +179,7 @@
 
           Firefox&nbsp;2 的原始碼在何處？
           <p>Firefox 2 原始碼已<a href=
-             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
+             "https://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
              "http://developer.mozilla.org/en/docs/Mozilla_Source_Code_Via_CVS">以 CVS 取得</a>。Firefox 相關程式為「mozilla/browser」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href=
              "http://developer.mozilla.org/en/docs/Build_Documentation">建製步驟</a>。</p>
         </li>
@@ -193,15 +193,15 @@
       <h2 id="localizedbuilds">在地化版本</h2>
       <p>Firefox 現提供下列語言版本供測試：</p>
       <ul>
-        <li>Kurdish 庫德爾語 (ku) - <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.11&os=win&lang=ku">Windows</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.11&os=osx&lang=ku">Mac</a>, <a href="http://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.11&amp;os=linux&amp;lang=ku">Linux</a></li>
+        <li>Kurdish 庫德爾語 (ku) - <a href="https://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.11&os=win&lang=ku">Windows</a>, <a href="https://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.11&os=osx&lang=ku">Mac</a>, <a href="https://www.mozilla.com/en-US/products/download.html?product=firefox-2.0.0.11&amp;os=linux&amp;lang=ku">Linux</a></li>
       </ul>
       <h2 id="contributedbuilds">非官方建製版</h2>
 
-      <p>Mozilla 代表 <a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="https://www.mozilla.org/projects/firefox/all.html">Firefox&nbsp;2 下載頁</a>取得檔案。
+      <p>Mozilla 代表 <a href="https://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="https://www.mozilla.org/projects/firefox/all.html">Firefox&nbsp;2 下載頁</a>取得檔案。
       </p>
          
       <p>其他尚未被官方 Firefox 2 驗證通過的本地化版本可以在
-         <a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0/contrib-localized/">FTP 站台</a>取得。</p>
+         <a href="https://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0/contrib-localized/">FTP 站台</a>取得。</p>
 
       <h2 id="links">其他資源和連結</h2>  
       下面提供了幾個有用的連結：
@@ -210,7 +210,7 @@
         <li><a href="http://kb.mozillazine.org/Mozilla_Firefox">* MozillaZine 知識庫</a></li>
         <li><a href="https://www.mozilla.org/projects/firefox/">* 開發者資訊</a></li>
         <li><a href="/docs/">中文相關說明文件</a></li>
-        <li><a href="http://forum.moztw.org">Firefox 中文討論區</a></li>
+        <li><a href="https://forum.moztw.org">Firefox 中文討論區</a></li>
       </ol>
       <p> * 此為英文網站</p>
     </div>

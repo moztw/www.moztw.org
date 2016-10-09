@@ -42,11 +42,11 @@ if ( navigator.appVersion.indexOf('Safari') !== -1 ) {
 	<h3>接下來您可以...</h3>
 	<h4>尋求中文社群支援、協助</h4>
 	<ul>
-		<li><a href="http://wiki.moztw.org/index.php?title=FAQ:Firefox" onClick="ga('send', 'event', 'landingpage_trace', 'faq', 'osx');">常見問題解答</a></li>
+		<li><a href="https://wiki.moztw.org/index.php?title=FAQ:Firefox" onClick="ga('send', 'event', 'landingpage_trace', 'faq', 'osx');">常見問題解答</a></li>
 		<li><a href="/firefox/extension_top_15/" onClick="ga('send', 'event', 'landingpage_trace', 'ext_top_15', 'osx');">社群嚴選：年度最佳擴充套件</a></li>
-		<li><a href="http://wiki.moztw.org/index.php?title=FireAnything" onClick="ga('send', 'event', 'landingpage_trace', 'fireanything', 'osx');">某瀏覽器功能，Firefox 有沒有？</a></li>
+		<li><a href="https://wiki.moztw.org/index.php?title=FireAnything" onClick="ga('send', 'event', 'landingpage_trace', 'fireanything', 'osx');">某瀏覽器功能，Firefox 有沒有？</a></li>
 		<li><a href="/dl/search" onClick="ga('send', 'event', 'landingpage_trace', 'searchengine', 'osx');">新增中文搜尋引擎</a></li>
-		<li><a href="http://forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'landingpage_trace', 'forum', 'osx');">Firefox 討論區</a></li>
+		<li><a href="https://forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'landingpage_trace', 'forum', 'osx');">Firefox 討論區</a></li>
 	</ul>
 	<h4>其他資源與鏈結</h4>
 	<ul>
@@ -73,7 +73,7 @@ if ( navigator.appVersion.indexOf('Safari') !== -1 ) {
 	</ul>
 	<p>* 連結至 Mozilla 網站</p>
 	<h3>協助改善</h3>
-	<p>本下載頁面實驗中，有任何建議歡迎<a href="http://forum.moztw.org/viewtopic.php?p=142359#142359">協助我們改善</a>。</p>
+	<p>本下載頁面實驗中，有任何建議歡迎<a href="https://forum.moztw.org/viewtopic.php?p=142359#142359">協助我們改善</a>。</p>
 </div>
 
 <!--#include virtual="/inc/footer.html" -->

@@ -4,7 +4,7 @@ var map = new L.Map('map', {
 });
 
 var cloudmade = new L.TileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: 'Map data <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> <a href="http://openstreetmap.org">OpenStreetMap</a> contributors.',
+    attribution: 'Map data <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA 2.0</a> <a href="http://openstreetmap.org">OpenStreetMap</a> contributors.',
     zoom: 17
 });
 
@@ -70,7 +70,7 @@ showPhotos = function(){
           .data("mImage", item.media.m)
           .data("largeImage", item.media.m.replace(/_m\./, "_b."))
           .data("author", item.author.match(authorReg)[1])
-          .data("authorLink", "http://www.flickr.com/photos/"+item.author_id)
+          .data("authorLink", "https://www.flickr.com/photos/"+item.author_id)
           .data("link", item.link);
 
     $("<li/>")

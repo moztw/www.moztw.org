@@ -42,13 +42,13 @@
     * Mozilla supports standard HTML, DOM and CSS. IE sucks.
     </DT><DD> 
     ref: <a href="http://www.w3c.org"> w3c </a>pages, especially 
-    <a href="http://www.w3.org/Style/CSS/"> CSS </A>
+    <a href="https://www.w3.org/Style/CSS/"> CSS </A>
     </DD> <DT class="ch"> <!-- py:ch --> 
 <IMG src="ch.png" alt="Chinese">
     * Mozilla 對 HTML 及 CSS, DOM 的支援遠較 IE 完整。
     </dt> <DD> 
     請參考: <a href="http://www.w3c.org"> w3c </a>網頁, 特別是
-    <a href="http://www.w3.org/Style/CSS/"> CSS </A>。
+    <a href="https://www.w3.org/Style/CSS/"> CSS </A>。
     CSS的網頁本來是一個半透明的 menu 固定在 browser 右半邊不會被被捲動走，
     IE 看起來是不透明的醜 menu 在文件開頭左邊而且會捲走。
     再來，該網頁用 Mozilla 可由「檢視」「使用 Stylesheet 」選用不同 style

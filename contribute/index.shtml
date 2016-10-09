@@ -2,8 +2,8 @@
 <title>參與我們 - MozTW, Mozilla Taiwan Community</title>
 <meta name="description" content="MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！歡迎加入我們成為志工。">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://moztw.org/contribute/">
-<meta property="og:image" content="http://moztw.org/images/foxmosa-icon.gif">
+<meta property="og:url" content="https://moztw.org/contribute/">
+<meta property="og:image" content="https://moztw.org/images/foxmosa-icon.gif">
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="MozTW 是台灣的 Mozilla 社群。依循 Mozilla 宣言，從 2004 年起便在台灣致力推廣自由文化、維護大眾的選擇權，要打造更美好的網路未來。這樣的任務，沒有您的參與可辦不到！歡迎加入我們成為志工。">
 <style type="text/css">
@@ -279,7 +279,7 @@ h3.toggle, span.toggle {
 				<p>我們希望能協助畫家將作品帶入網路的世界，歡迎繪製漂亮圖片，協助我們妝點大家的螢幕與生活。需要視覺設計的專案包含 MozTW 網站、活動宣傳、貼紙及印刷文宣，以及為 MozTW 吉祥物<a href="/foxmosa">狐耳摩莎</a>繪製圖像；您也可以試著製作 Firefox 的佈景主題。</p>
 				<a href="https://groups.google.com/d/topic/moztw-general/dU2FxHxH-D0/discussion"  onClick="ga('send', 'event', 'contribute', 'art', 'detail');"><span class="button detail">詳細資訊 》</span></a>
 				<a href="https://www.getpersonas.com/en-US/demo_create" onClick="ga('send', 'event', 'contribute', 'art', 'getpersonas');"><span class="button">製作 Firefox 佈景</span></a>
-				<a href="http://www.slideshare.net/irvinfly/foxmosa" onClick="ga('send', 'event', 'contribute', 'art', 'foxmosa');"><span class="button">Foxmosa 繪師招募</span></a>
+				<a href="https://www.slideshare.net/irvinfly/foxmosa" onClick="ga('send', 'event', 'contribute', 'art', 'foxmosa');"><span class="button">Foxmosa 繪師招募</span></a>
 			</div>
 		</div>
 		<div class="content_block clearfix">

@@ -57,7 +57,7 @@ module.exports = function(grunt) {
 				'!**/index2*'
 				],
 				siteRoot: './',
-				homepage: "http://moztw.org/",
+				homepage: "https://moztw.org/",
 				changefreq: "monthly",
 			}
 		}

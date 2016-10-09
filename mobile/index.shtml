@@ -336,7 +336,7 @@ body {
     </div>
 
 	<div id="download">
-		<a class="btn" href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'GooglePlay');">
+		<a class="btn" href="https://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'GooglePlay');">
 		從 Google Play 下載
 		<div class="desc">正式版</div>
 		</a>

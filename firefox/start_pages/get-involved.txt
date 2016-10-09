@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+"https://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-TW">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="zh-TW">
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -43,9 +43,9 @@ Mozilla 專案中的學生貢獻者們一向能給予我們不少幫助，
 <!-- END NON-EUROPEAN LANGUAGE ONLY -->
 
 <h3 id="localization">MozTW</h3>
-<p>如果你對中文的部份特別感興趣， <a href="http://moztw.org/">MozTW</a>
+<p>如果你對中文的部份特別感興趣， <a href="https://moztw.org/">MozTW</a>
 歡迎你的加入。 你可以幫忙翻譯各類文件或套件、整理資訊、測試與回報錯誤、... 
-等等，請至 <a href="http://forum.moztw.org"> MozTW 討論區 </a>
+等等，請至 <a href="https://forum.moztw.org"> MozTW 討論區 </a>
 參與討論以獲得進一步資訊。
 </p>
 

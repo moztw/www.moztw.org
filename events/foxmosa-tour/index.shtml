@@ -3,8 +3,8 @@
 <link rel="stylesheet" type="text/css" href="foxmosa.css" media="screen">
 <meta name="description" content="全台狐迷瘋狂慶祝 Firefox 3 上市，MozTW 的吉祥物 狐耳摩莎 足跡將遍佈全台灣！">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://moztw.org/events/foxmosa-tour/">
-<meta property="og:image" content="http://moztw.org/events/foxmosa-tour/feature-foxmosa.png">
+<meta property="og:url" content="https://moztw.org/events/foxmosa-tour/">
+<meta property="og:image" content="https://moztw.org/events/foxmosa-tour/feature-foxmosa.png">
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="全台狐迷瘋狂慶祝 Firefox 3 上市，MozTW 的吉祥物 狐耳摩莎 足跡將遍佈全台灣！">
 <!--#include virtual="/inc/class_press.html" -->

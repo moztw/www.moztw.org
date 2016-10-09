@@ -29,7 +29,7 @@
         (
           {
             "base_state": {"language": "zh-tw"},
-            "video_url": "http://www.youtube.com/watch?v=oNgsvxTaqao",
+            "video_url": "https://www.youtube.com/watch?v=oNgsvxTaqao",
             "video_config": { width: 640, height: 360 }
           }
         )
@@ -38,11 +38,11 @@
 
       <h3>Improve the Knowledge Base <span class="appendix">林志峰</span></h3>
       <div class="video">
-        <script type="text/javascript" src="http://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
+        <script type="text/javascript" src="https://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
         (
           {
             "base_state": {"language": "zh-tw"},
-            "video_url": "http://www.youtube.com/watch?v=y4B5UDW_D9s",
+            "video_url": "https://www.youtube.com/watch?v=y4B5UDW_D9s",
             "video_config": { width: 640, height: 360 }
           }
         )

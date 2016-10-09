@@ -168,7 +168,7 @@
         <tr>
             <td>
                 <p id="dear">Dear <input type="text" name="toname" placeholder="收件人姓名 Recipient" required> ,</p>
-                <a href="http://moztw.org/events/newyear2012/" target="_blank"><img src="//moztw.org/foxmosa/images/foxmosa-2012newyear.png" width="600" height="393" alt="Foxmosa 2012 New Year Card" /></a>
+                <a href="https://moztw.org/events/newyear2012/" target="_blank"><img src="//moztw.org/foxmosa/images/foxmosa-2012newyear.png" width="600" height="393" alt="Foxmosa 2012 New Year Card" /></a>
                 <textarea name="say" maxlength="300" placeholder="卡片內容 Your message"></textarea>
                 <p id="senderName">~ <input type="text" name="sendname" placeholder="你的名字 Your Name" required></p>
             </td>
@@ -188,7 +188,7 @@
     <script type="text/javascript" src="//www.google.com/recaptcha/api/challenge?k=6LdtN8wSAAAAACw4KwmQ1FRoyguSknr9buwDiE_G"></script>
 
 <noscript>
-  <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdtN8wSAAAAACw4KwmQ1FRoyguSknr9buwDiE_G" height="300" width="500" frameborder="0"></iframe><br />
+  <iframe src="https://www.google.com/recaptcha/api/noscript?k=6LdtN8wSAAAAACw4KwmQ1FRoyguSknr9buwDiE_G" height="300" width="500" frameborder="0"></iframe><br />
   <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
   <input type='hidden' name='recaptcha_response_field' value='manual_challenge' />
 </noscript>

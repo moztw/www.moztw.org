@@ -30,13 +30,13 @@ Mozilla 裡有「兩個半」的佈局模式，分別是「Quirks」、「近乎
 <br />
 要確保 HTML 的「標準」模式啟動，最簡單的方法是使用這種 doctype 宣告：
 <br />
- &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+ &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "https://www.w3.org/TR/html4/strict.dtd"&gt;
 <br />
 
 <br />
  要確保 HTML 的「近乎標準」模式啟動，最簡單的方法是使用這種 doctype 宣告：
 <br />
-&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd"&gt;
 <br />
 
 <br />
@@ -60,7 +60,7 @@ Mozilla 裡有「兩個半」的佈局模式，分別是「Quirks」、「近乎
 <br />
 
 <br />
-舊的瀏覽器與 CSS2 box layout model 兩者在「<a href="http://www.w3.org/TR/REC-CSS2/visudet.html#q15" target="_blank" class="postlink">版面區塊的預設垂直尺寸</a>」跟「<a href="http://www.w3.org/TR/REC-CSS2/visudet.html#propdef-vertical-align" target="_blank" class="postlink">圖片的預設垂直對齊方式</a>」方面略有出入，而如果明確指定圖片的 CSS 屬性（加上圍繞圖片的&lt;a&gt;標籤）可以解決這種排版上的問題。
+舊的瀏覽器與 CSS2 box layout model 兩者在「<a href="https://www.w3.org/TR/REC-CSS2/visudet.html#q15" target="_blank" class="postlink">版面區塊的預設垂直尺寸</a>」跟「<a href="https://www.w3.org/TR/REC-CSS2/visudet.html#propdef-vertical-align" target="_blank" class="postlink">圖片的預設垂直對齊方式</a>」方面略有出入，而如果明確指定圖片的 CSS 屬性（加上圍繞圖片的&lt;a&gt;標籤）可以解決這種排版上的問題。
 <br />
 
 <br />
@@ -80,11 +80,11 @@ Mozilla 裡有「兩個半」的佈局模式，分別是「Quirks」、「近乎
 <br />
 以下是一份檢查清單：
 <br />
-<ul>該 HTML 文件是否能通過<a href="http://validator.w3.org/" target="_blank" class="postlink">驗證</a>？CSS 在標籤大雜燴中可起不了作用。
+<ul>該 HTML 文件是否能通過<a href="https://validator.w3.org/" target="_blank" class="postlink">驗證</a>？CSS 在標籤大雜燴中可起不了作用。
 <br />
 <ul>&lt;link&gt; 跟 &lt;style&gt; 元素都應該在 &lt;head&gt; 元素的內部出現。</ul> </ul>
 <br />
-<ul>該 CSS 樣式是否能通過<a href="http://jigsaw.w3.org/css-validator/" target="_blank" class="postlink">語法檢查</a>？
+<ul>該 CSS 樣式是否能通過<a href="https://jigsaw.w3.org/css-validator/" target="_blank" class="postlink">語法檢查</a>？
 <br />
 <ul>所有非 0 的數字後面都該附加適當的單位，數字及單位之間不含空白字元（例：1.2em）。</ul>
 <br />
@@ -176,7 +176,7 @@ Mozilla 並不將 alt 屬性顯示為工具提示，因為如此一來是變相�
 <br />
 
 <br />
-只有使用了正確命名空間（namespace）的元素才能被視為 XHTML 標籤。XHTML 的正確命名空間 URI 為「http://www.w3.org/1999/xhtml」，並非 HTML 4.0 規格書的 URL。此外，所有的 XHTML 元素及屬性皆必須為小寫。
+只有使用了正確命名空間（namespace）的元素才能被視為 XHTML 標籤。XHTML 的正確命名空間 URI 為「https://www.w3.org/1999/xhtml」，並非 HTML 4.0 規格書的 URL。此外，所有的 XHTML 元素及屬性皆必須為小寫。
 <br />
 
 <br />

@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/meta.html" -->
-<meta property="og:url" content="http://moztw.org/thunderbird/releases/2.0.0.0/">
+<meta property="og:url" content="https://moztw.org/thunderbird/releases/2.0.0.0/">
 <meta property="og:title" content="Mozilla Thunderbird 版本資訊 (2.0.0.0)">
 <!--#include virtual="/thunderbird/inc/ogtag.shtml" -->
 <title>Mozilla Thunderbird 2.0 版本資訊</title>
@@ -14,9 +14,9 @@
   		  <div id="product-desc" class="thunderbird-releasenotes-v2">
           <!-- Introduction -->
           <p>Thunderbird 2 是頗受好評的 Mozilla Thunderbird 電子郵件軟體第二版。</p>
-          <p>此版本資訊包含 Thunderbird 2 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#links">技術支援與意見回饋</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.com/support/thunderbird/bugs">錯誤回報注意事項</a>閱讀完畢，再到
-          <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
-          <p>我們想知道您對 Thunderbird 的意見。您可填寫<a href="http://feedback.mozilla.org/">回報表單</a>，或到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/viewforum.php?f=39">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=9">Thunderbird
+          <p>此版本資訊包含 Thunderbird 2 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#links">技術支援與意見回饋</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="https://www.mozilla.com/support/thunderbird/bugs">錯誤回報注意事項</a>閱讀完畢，再到
+          <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+          <p>我們想知道您對 Thunderbird 的意見。您可填寫<a href="http://feedback.mozilla.org/">回報表單</a>，或到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/viewforum.php?f=39">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的 <a href="https://forum.moztw.org/viewforum.php?f=9">Thunderbird
     中文討論區</a>與我們分享意見。</p>
         </div>
       </div>
@@ -37,7 +37,7 @@
         <li><strong>隨打即找：</strong>只要隨時隨地輸入文字，Thunderbird 就會開始搜尋。 </li>
         <li><strong>強化的郵件管理工具：</strong>複製或移動郵件到最近使用過的目錄變得更簡單，還能使用「再次移動／複製」的新功能。</li>
         <li><strong>新擴充套件管理系統：</strong>新的擴充套件管理系統提供了更好的安全性，在地化也更容易。</li>
-        <li><strong>新的 Windows 安裝程式：</strong>基於 <a href="http://sourceforge.net/projects/nsis/">Nullsoft Scriptable
+        <li><strong>新的 Windows 安裝程式：</strong>基於 <a href="https://sourceforge.net/projects/nsis/">Nullsoft Scriptable
               Install System</a> 的新 Windows 安裝程式解決了許多問題。</li>
         <li><strong>支援 Windows Vista：</strong>許多針對 Windows Vista 的強化和修正。</li>
         </ul>
@@ -48,7 +48,7 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
       從 1.5 開始，Mac OS X 用戶必須在 MacOX X 10.2 以上版本運行本程式。</p>
 
       <h2 id="download">下載 Thunderbird</h3>
-       <p>Mozilla.org 提供 Windows 版、Linux 版和 Mac OS X 版多種語言的 Thunderbird。您可<a href="http://www.mozilla.com/thunderbird/all.html">由此下載最新的 Thunderbird 2</a>。若想自行編譯其他不支援的平台或語言，請見本文件最末節。</p>
+       <p>Mozilla.org 提供 Windows 版、Linux 版和 Mac OS X 版多種語言的 Thunderbird。您可<a href="https://www.mozilla.com/thunderbird/all.html">由此下載最新的 Thunderbird 2</a>。若想自行編譯其他不支援的平台或語言，請見本文件最末節。</p>
 
       <h2 id="install">安裝 Thunderbird</h3>
       <p>請注意：安裝 Thunderbird 2 將<em>覆蓋</em>您現存的 Thunderbird 程式，這並不會遺失你的任何郵件，但有些附加元件可能需要更新才能繼續使用。</p>
@@ -97,7 +97,7 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
 
       <h2><a name="issues">已知問題</a></h2>
       <p>以下列出 Thunderbird 2 部分已知問題，請閱讀後再回報新的程式錯誤，並請定期檢查本欄的更新內容
-      （如在此版本發現新問題，我們會隨時在<a href="http://www.mozilla.com/products/thunderbird/2.0.0.0/releasenotes/">英文網頁</a>更新此欄）。</p>
+      （如在此版本發現新問題，我們會隨時在<a href="https://www.mozilla.com/products/thunderbird/2.0.0.0/releasenotes/">英文網頁</a>更新此欄）。</p>
 
       <dl>
       <dt>所有系統</dt>
@@ -178,16 +178,16 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
   <li>哪些人正致力於 Thunderbird 的開發工作？
   <p>很多人。詳細列表請參考「說明＞關於 Mozilla Thunderbird」</p></li>
   <li>Thunderbird 2 的原始碼在何處？
-  <p>Thunderbird 2 原始碼已開放<a href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/2.0.0.0/source/">下載</a>，而目前開發中的最新程式碼則需以 <a href="http://developer.mozilla.org/en/docs/Mozilla_Source_Code_Via_CVS">CVS</a> 取得。Thunderbird 相關程式為「mozilla/mail」、「mozilla/mailnews」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href="http://developer.mozilla.org/en/docs/Build_Documentation">建置步驟</a>。</p></li>
+  <p>Thunderbird 2 原始碼已開放<a href="https://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/2.0.0.0/source/">下載</a>，而目前開發中的最新程式碼則需以 <a href="http://developer.mozilla.org/en/docs/Mozilla_Source_Code_Via_CVS">CVS</a> 取得。Thunderbird 相關程式為「mozilla/mail」、「mozilla/mailnews」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href="http://developer.mozilla.org/en/docs/Build_Documentation">建置步驟</a>。</p></li>
    </ol>
 
       <h2 id="contributedbuilds">非官方建製版</h2>
 
-      <p>Mozilla 代表<a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="http://www.mozilla.com/thunderbird/all.html">Thunderbird 2 下載頁</a>取得檔案。
+      <p>Mozilla 代表<a href="https://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="https://www.mozilla.com/thunderbird/all.html">Thunderbird 2 下載頁</a>取得檔案。
       </p>
 
       <p>其他尚未被官方 Firefox 2 驗證通過的本地化版本可以在
-         <a href="http://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/2.0.0.0/contrib-localized/">FTP 站台</a>取得。</p>
+         <a href="https://releases.mozilla.org/pub/mozilla.org/thunderbird/releases/2.0.0.0/contrib-localized/">FTP 站台</a>取得。</p>
 
       <h2 id="links">其他資源和連結</h2>
       <p>下面提供了幾個有用的連結：</p>
@@ -198,7 +198,7 @@ Rumbling Edge 有更多<a href="http://weblogs.mozillazine.org/rumblingedge/arch
         <li><a href="/support/thunderbird/">Mozilla Thunderbird 使用說明</a>（FAQ、小技巧而其他自訂功能）</li>
         <li><a href="http://forums.mozillazine.org/index.php?c=10">Mozilla Thunderbird 討論區</a>（<a href="http://www.mozillazine.org/">
             MozillaZine</a> 上的一般討論、問題回報與使用者支援）</li>
-        <li><a href="http://wiki.mozilla.org/Thunderbird2">Thunderbird 2 計畫網頁</a>（看看關於 Thunderbird 的開發資訊）</li>
+        <li><a href="https://wiki.mozilla.org/Thunderbird2">Thunderbird 2 計畫網頁</a>（看看關於 Thunderbird 的開發資訊）</li>
         <li><a href="http://www.mozilla.org/projects/thunderbird/">開發者資訊</a>（看看你該如何幫助 Thunderbird）</li>
       </ul>
 

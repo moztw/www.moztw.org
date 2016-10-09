@@ -49,7 +49,7 @@
     <p>Firefox 1.0 Preview Release（以下簡稱為 1.0PR）為「<strong>技術預覽</strong>」版。即使本軟體性能良好，在大多數情形下足以成為您的主要瀏覽器，但我們不對其性能與可靠性做任何保證。這是尚未完工的版本，不應在重要關鍵作業上使用。詳情請見<a href="https://www.mozilla.org/MPL/"><!-- ../../../MPL/ -->使用同意書</a>。</p>
     <p>此版本資訊包含了 Firefox 1.0PR 版的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#FAQ">常見問題集</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://texturizer.net/firefox/bugs.html">錯誤回報注意事項</a>閱讀完畢，再到
   Bugzilla 回報。</p>
-    <p>我們想知道您對 Firefox 的意見。歡迎到討論區討論相關議題：您可至<a href="http://www.mozillazine.org/">MozillaZine</a>上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a>的<a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
+    <p>我們想知道您對 Firefox 的意見。歡迎到討論區討論相關議題：您可至<a href="http://www.mozillazine.org/">MozillaZine</a>上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a>的<a href="https://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
 
 
 <!-- What's New -->
@@ -77,14 +77,14 @@
       </li>
       <li>當然還修正了許多程式錯誤…</li>
     </ul>
-    <p>詳情請見<a href="http://www.squarefree.com/burningedge/bigger-picture.html">The Burning Edge's Bigger Picture</a>。</p>
+    <p>詳情請見<a href="https://www.squarefree.com/burningedge/bigger-picture.html">The Burning Edge's Bigger Picture</a>。</p>
     <h2 id="requirements">系統需求</h2>
     <p>在安裝 Firefox 前請先確定您的電腦合乎<a href="/docs/ff/system-requirements"><!--/products/firefox/system-requirements.html-->系統需求</a>。</p>
     <h2 id="download"><a name="download" id="download">下載 Firefox</a></h2>
     <p>mozilla.org 提供了 Windows、Linux 及 Mac OS X 版的 Firefox。</p>
-    <p><strong>Windows</strong>: <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.10/FirefoxSetup-0.10.exe">安裝程式</a></p>
-    <p><strong>Linux</strong>: <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.10/firefox-0.10-i686-linux-gtk2+xft-installer.tar.gz">GTK2+ XFT 安裝程式</a></p>
-    <p><strong>MacOS X</strong>: <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.10/firefox-0.10-mac.dmg.gz">已壓縮磁碟映像檔</a></p>
+    <p><strong>Windows</strong>: <a href="https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.10/FirefoxSetup-0.10.exe">安裝程式</a></p>
+    <p><strong>Linux</strong>: <a href="https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.10/firefox-0.10-i686-linux-gtk2+xft-installer.tar.gz">GTK2+ XFT 安裝程式</a></p>
+    <p><strong>MacOS X</strong>: <a href="https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/0.10/firefox-0.10-mac.dmg.gz">已壓縮磁碟映像檔</a></p>
     <p><strong>中文化版本</strong>可至<a href="/">Mozilla Taiwan</a>下載，此外尚有其他作業系統的非官方版本，請到<a href="https://www.mozilla.org/products/firefox/releases/">英文版 Release Notes</a>下載。</p>
 	<h2><a name="install" id="install">安裝 Firefox</a></h2>
     <p>下載 Firefox 安裝程式或壓縮檔後，請依下列步驟進行安裝：</p>
@@ -156,7 +156,7 @@
       <li>擴充套件及佈景主題的作者必須在每回 Firefox 推出新版本時更新 update.mozilla.org（或私有更新服務）的項目，以便讓我們知道是否相容。如果您發現您愛用的擴充套件及佈景主題於升級至
         1.0PR 後無法使用，請寫信給作者並鼓勵他們更新或更動它們私有的升級服務檔。如果他們未將製品送上 update.mozilla.org，也請鼓勵他們送過來，這麼一來控制版本會容易許多。 </li>
     </ul>
-    <p>欲取得其他問題的訊息、常見問題集、使用技巧以及一般 Firefox 協助，請到 David Tenser 非常有用的 <a href="http://texturizer.net/firefox/">Firefox Help</a>網站、<a href="http://www.mozillazine.org/">MozillaZine</a>的<a href="http://forums.mozillazine.org/index.php?c=4">Firefox 英文討論區</a>或林弘德所維護的<a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>。 </p>
+    <p>欲取得其他問題的訊息、常見問題集、使用技巧以及一般 Firefox 協助，請到 David Tenser 非常有用的 <a href="http://texturizer.net/firefox/">Firefox Help</a>網站、<a href="http://www.mozillazine.org/">MozillaZine</a>的<a href="http://forums.mozillazine.org/index.php?c=4">Firefox 英文討論區</a>或林弘德所維護的<a href="https://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>。 </p>
     <h2><a name="troubleshooting" id="troubleshooting">疑難排解</a></h2>
     <p>從舊版 Firefox 升級並<strong>不需</strong>建立新的設定檔，只要您在升級前<strong>先停用舊版中所有的擴充套件</strong>即可。您可以開啟舊版 Firefox，打開「<span class="mnu">工具＞選項</span>」，然後選擇「<strong>擴充套件</strong>」，點選列表中每一個擴充套件，並且按下「<strong>停用擴充套件</strong>」以將其關閉。按下「<strong>確定</strong>」關閉選項視窗，便可放心安裝新版 Firefox 了。</p>
     <p>Firefox 安裝完畢後，請檢查您使用的擴充套件是否更新以支援新版 Firefox，並下載安裝。未來這個動作將會自動處理。</p>

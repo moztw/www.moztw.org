@@ -28,9 +28,9 @@ table {
 <!-- Introduction -->
 
           <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3.5 的<a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
-  <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+  <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
 
-          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
+          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的 <a href="https://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
         </div>
       </div> 
       <!-- What's New -->
@@ -41,13 +41,13 @@ table {
 
           <ul>
             <li>提供超過 70 種語言支援。（取得您的<a href="/en-US/firefox/all.html#languages">本地化版本</a>！）</li>
-            <li>支援 HTML5 &lt;video&gt; 和 &lt;audio&gt; 元素，包括對 <a href="http://hacks.mozilla.org/2009/06/update-on-open-video-quality/">Ogg Theora 編碼影像</a>和 Vorbis 編碼聲音的原生支援。（<a href="http://www.mozilla.com/firefox/video/">在這裡試試！</a>）</li>
-            <li>增進您控制個人隱私資料的工具，包括<a href="http://support.mozilla.com/en-US/kb/Private+Browsing">私密瀏覽模式</a>。</li>
+            <li>支援 HTML5 &lt;video&gt; 和 &lt;audio&gt; 元素，包括對 <a href="https://hacks.mozilla.org/2009/06/update-on-open-video-quality/">Ogg Theora 編碼影像</a>和 Vorbis 編碼聲音的原生支援。（<a href="https://www.mozilla.com/firefox/video/">在這裡試試！</a>）</li>
+            <li>增進您控制個人隱私資料的工具，包括<a href="https://support.mozilla.com/en-US/kb/Private+Browsing">私密瀏覽模式</a>。</li>
             <li>更好的網頁應用程式效能，使用新的 <a href="https://wiki.mozilla.org/JavaScript:TraceMonkey">TraceMonkey</a> JavaScript 引擎。</li>
-            <li><a href="http://www.mozilla.com/firefox/geolocation">地理定位功能</a>可以將您的地理位置資訊分享給網站。（<a href="http://www.flickr.com/map">在這裡試試！</a>）</li>
-            <li><a href="http://blog.mozilla.com/webdev/2009/02/12/native-json-in-firefox-31/">原生的 JSON 支援</a> 和 <a href="https://developer.mozilla.org/En/Using_DOM_workers">網頁工作執行緒</a>。</li>
+            <li><a href="https://www.mozilla.com/firefox/geolocation">地理定位功能</a>可以將您的地理位置資訊分享給網站。（<a href="https://www.flickr.com/map">在這裡試試！</a>）</li>
+            <li><a href="https://blog.mozilla.com/webdev/2009/02/12/native-json-in-firefox-31/">原生的 JSON 支援</a> 和 <a href="https://developer.mozilla.org/En/Using_DOM_workers">網頁工作執行緒</a>。</li>
             <li>Gecko 排版引擎的加強，包括預測解析以加速頁面描繪。</li>
-            <li>支援新的網頁技術，例如：動態下載字型、CSS 媒體型態查詢、新的變形與屬性、JavaScript 查詢選擇器、HTML5 本地端儲存及離線應用程式儲存、&lt;canvas&gt; 文字、<a href="http://hacks.mozilla.org/2009/06/color-correction/">ICC 設定檔</a>，以及 SVG 變形特效。</li>
+            <li>支援新的網頁技術，例如：動態下載字型、CSS 媒體型態查詢、新的變形與屬性、JavaScript 查詢選擇器、HTML5 本地端儲存及離線應用程式儲存、&lt;canvas&gt; 文字、<a href="https://hacks.mozilla.org/2009/06/color-correction/">ICC 設定檔</a>，以及 SVG 變形特效。</li>
 			    </ul>
 			    
 			    <p>開發者可以在 <a href="https://developer.mozilla.org/">Mozilla Developer Center</a> 找到關於<a href="https://developer.mozilla.org/En/Firefox_3.5_for_developers">所有變更和新功能</a>的資料。</p>
@@ -58,7 +58,7 @@ table {
 
       <h3 id="requirements">系統需求</h3>
 
-      <p>在安裝 Firefox 3.5 前請先確定您的電腦是否合乎 <a href="http://www.mozilla.com/en-US/firefox/system-requirements-v3.html">
+      <p>在安裝 Firefox 3.5 前請先確定您的電腦是否合乎 <a href="https://www.mozilla.com/en-US/firefox/system-requirements-v3.html">
          系統需求</a>。</p>
 
       <h3 id="download">下載 Firefox 3.5</h3>
@@ -184,7 +184,7 @@ table {
       <ol class="faq">
 
         <li>我該怎麼幫忙呢？
-          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
+          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="https://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
 
         </li>
 
@@ -205,7 +205,7 @@ table {
 
           Firefox 3.5 的原始碼在何處？
           <p>Firefox 3.5 原始碼已<a href=
-             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.5/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
+             "https://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.5/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
              "http://developer.mozilla.org/en/docs/Mozilla_Source_Code_Via_CVS">以 CVS 取得</a>。Firefox 相關程式為「mozilla/browser」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href=
              "http://developer.mozilla.org/en/docs/Build_Documentation">建製步驟</a>。</p>
         </li>
@@ -218,21 +218,21 @@ table {
       </ol>
 
       <h2 id="contributedbuilds">非官方建製版</h2>
-      <p>Mozilla 代表<a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="http://www.mozilla.com/en-US/firefox/all-beta.html" onclick="urchinTracker('/outgoing/fx3download');">Firefox 3.5 下載頁</a>取得檔案。
+      <p>Mozilla 代表<a href="https://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="https://www.mozilla.com/en-US/firefox/all-beta.html" onclick="urchinTracker('/outgoing/fx3download');">Firefox 3.5 下載頁</a>取得檔案。
       </p>
 
          
-      <p>其他尚未被官方 Firefox 3.5 驗證通過的本地化版本可以在<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.5/contrib/">官方站台</a>取得。</p>
+      <p>其他尚未被官方 Firefox 3.5 驗證通過的本地化版本可以在<a href="https://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.5/contrib/">官方站台</a>取得。</p>
       <h2 id="links">其他資源和連結</h2>  
       <p>下面提供了幾個有用的連結：</p>
 
 		<ul class="spaced"> 
 		<li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a></li>
-    <li><a href="http://wiki.mozilla.org/Firefox3.5">Firefox 3.5 Project Page</a></li>
+    <li><a href="https://wiki.mozilla.org/Firefox3.5">Firefox 3.5 Project Page</a></li>
     <li><a href="http://kb.mozillazine.org/">MozillaZine's Knowledge Base</a></li>
     <li><a href="https://www.mozilla.org/projects/firefox/">Developer Information</a></li>
-    <li><a href="http://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li>
-    <li><a href="http://www.google.com/privacy-lsf.html">Google Geolocation Privacy Policy</a></li>
+    <li><a href="https://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li>
+    <li><a href="https://www.google.com/privacy-lsf.html">Google Geolocation Privacy Policy</a></li>
     </ul>
 
 </div>

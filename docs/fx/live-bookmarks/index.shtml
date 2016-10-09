@@ -9,7 +9,7 @@
   <p>當你在 Firefox 右下角看到「<img alt="" src="/images/livemarks16.png" style="vertical-align: middle;">」圖示時，表示此站台可以使用「即時書籤」功能。點擊該圖示並選一個 RSS 收取點（RSS feed）後會出現「加入書籤」對話方塊。選「OK」之後，您就可以看到「即時書籤」和其他書籤排在一起。很多人會把「即時書籤」存放於書籤工具列資料夾中，覺得這樣子特別方便。</p>
   <h2>實際瞧瞧</h2>
   <p>許多網站和部落格用 RSS 出版最新的文章，顯示的標題數及更新週期是由網站本身決定的。</p>
-<p style="padding-bottom: 2em;"><img alt="「及時書籤」畫面" src="http://www.mozilla.org/images/lb-screen.gif" style="width: 300px; height: 241px; margin: 0 1em 0 0;" align="left"> 書籤方塊中顯示來自 <a href="http://www.slashdot.org">Slashdot</a>（<a href="http://slashdot.org/index.rss">RSS</a>）及 <a href="http://news.bbc.co.uk">BBC 新聞</a>（<a href="http://news.bbc.co.uk/rss/newsonline_world_edition/front_page/rss091.xml">RSS</a>）的文章標題，在標題上點擊滑鼠可直接前往所選文章。</p><p style="clear: both;">&nbsp;</p>
+<p style="padding-bottom: 2em;"><img alt="「及時書籤」畫面" src="http://www.mozilla.org/images/lb-screen.gif" style="width: 300px; height: 241px; margin: 0 1em 0 0;" align="left"> 書籤方塊中顯示來自 <a href="http://www.slashdot.org">Slashdot</a>（<a href="https://slashdot.org/index.rss">RSS</a>）及 <a href="http://news.bbc.co.uk">BBC 新聞</a>（<a href="http://news.bbc.co.uk/rss/newsonline_world_edition/front_page/rss091.xml">RSS</a>）的文章標題，在標題上點擊滑鼠可直接前往所選文章。</p><p style="clear: both;">&nbsp;</p>
 <h2>進階技巧</h2>
   <dl>
    <dt>手動添加「即時書籤」</dt>
@@ -31,6 +31,6 @@
   <p>許多網站都有 RSS 收取點，像是 <a href="http://news.bbc.co.uk">BBC News</a>（<a href="http://news.bbc.co.uk/rss/newsonline_world_edition/front_page/rss091.xml">RSS</a>）、<a href="http://news.yahoo.com">Yahoo News</a>（<a href="http://rss.news.yahoo.com/rss/topstories">RSS</a>）及你喜歡的部落格等。RSS 本身也有諸多風貌，包括 RSS 0.9、RSS 1.0、RSS 2.0 及 Atom－－這些格式， Mozilla Firefox 全都支援。</p>
   <p>您可以在 <a href="http://technorati.com/">Technorati</a> 及 <a href="http://www.syndic8.com/">Syndic8.com</a> 找到許多 RSS 收取點。</p>
 
-  <p><em><a href="http://www.mozilla.org/products/firefox/live-bookmarks.html" title="本文出處">本文件原文</a>由 Mozilla Wordsmiths 團隊協助撰寫，<a href="http://forum.moztw.org/viewtopic.php?t=3025" title="翻譯文件張貼／討論處">中文版由 MilchFlasche 翻譯</a>、Bob Chao 編修。</em></p>
+  <p><em><a href="http://www.mozilla.org/products/firefox/live-bookmarks.html" title="本文出處">本文件原文</a>由 Mozilla Wordsmiths 團隊協助撰寫，<a href="https://forum.moztw.org/viewtopic.php?t=3025" title="翻譯文件張貼／討論處">中文版由 MilchFlasche 翻譯</a>、Bob Chao 編修。</em></p>
  </div>
  <!--#include virtual="/inc/footer.html" -->

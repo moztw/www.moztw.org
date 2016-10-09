@@ -56,7 +56,7 @@ var msgManualInstall = "新版 Mozilla 有的只接受被認可的網站。\n" +
 
     function genEntry(dispClass, lpi, faction) {
 	clp = lpList[lpi];
-	var BaseURL = "http://moztw.org/dls/lp/";
+	var BaseURL = "https://moztw.org/dls/lp/";
 	var url = BaseURL + "langzhtw-" + clp["fv"] + "-" + clp["date"] + ".xpi";
 	entry = "<a onClick='alert(msgManualInstall);' class='flat' href='" + url + "'> " +
 		clp["dv"] + " ( " + clp["s"] + "/" + clp["date"] + " )" +

@@ -11,7 +11,7 @@
 	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
 ]>
 <svg version="1.2" baseProfile="tiny" id="圖層_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="141.73px"
+	 xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" width="141.73px"
 	 height="141.73px" viewBox="0 0 141.73 141.73" xml:space="preserve">
 <metadata>
 	<sfw  xmlns="&ns_sfw;">

@@ -2,7 +2,7 @@
 <title>ICOS 2013 - HTML5 議程 - MozTW, Mozilla 台灣社群</title>
 <meta name="description" content="ICOS 2013 HTML5 議程">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://moztw.org/events/icos2013-html5/">
+<meta property="og:url" content="https://moztw.org/events/icos2013-html5/">
 <meta property="og:site_name" content="MozTW, Mozilla 台灣社群">
 <meta property="og:description" content="ICOS 2013 - HTML5 議程">
 <link rel="stylesheet" type="text/css" href="/css/cavendish/home.css" title="Cavendish" media="screen">
@@ -77,7 +77,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="timing"><a href="http://www.slideshare.net/othree/web-developer-tools-for-icos" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a><br>09:35~10:05</td>
+                    <td class="timing"><a href="https://www.slideshare.net/othree/web-developer-tools-for-icos" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a><br>09:35~10:05</td>
                     <td class="subject">
                         <h3 class="caption">現代網頁開發工具</h3>
                         <div class="intro">現代瀏覽器內建的開發工具所提供的功能已經和以往不可同日而語了，不但可以即時的修改網頁樣式、內容，監看網路狀態，還可以進行 JavaScript 的逐步除錯、效能問題的追蹤等等，而在行動裝置上網量越來越多的現在，各家開發工具也都加入相關的功能，本議題旨就在介紹這些現代的瀏覽器內建開發工具。</div>
@@ -109,7 +109,7 @@
                 </tr>
                 <tr>
                     <td class="timing">
-                        <a href="http://www.slideshare.net/mobile/lis186/icos2013-appcelerator-titanium" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a><br>10:45~11:05</td>
+                        <a href="https://www.slideshare.net/mobile/lis186/icos2013-appcelerator-titanium" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a><br>10:45~11:05</td>
                     <td class="subject">
                         <div class="intro">
                             <h4 class="caption">Titanium Mobile</h4>
@@ -123,7 +123,7 @@
                 </tr>
                 <tr>
                     <td class="timing">
-                        <a href="http://www.slideshare.net/kurotanshi/icos-2013-phonegap-html5" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a>
+                        <a href="https://www.slideshare.net/kurotanshi/icos-2013-phonegap-html5" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a>
                         11:05~11:25
                     </td>
                     <td class="subject">
@@ -138,7 +138,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="timing"><a href="http://www.slideshare.net/irvinfly/201304-icos-webmaker" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a><br>11:30~12:00</td>
+                    <td class="timing"><a href="https://www.slideshare.net/irvinfly/201304-icos-webmaker" title="投影片連結" target="_blank"><img src="/images/iconfinder_1367062485_PowerPoint" alt=""></a><br>11:30~12:00</td>
                     <td class="subject">
                         <h3 class="caption">Mozilla WebMaker</h3>
                         <div class="intro">WebMaker 是 Mozilla 著眼於推動網路素養教育的專案，透過提供多樣化的網頁工具與教案等資源，希望能幫助大家一起來協助育成新世代的網路創作者。</div>

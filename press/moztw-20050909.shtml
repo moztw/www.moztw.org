@@ -28,7 +28,7 @@ overflow) 的安全性漏洞</h1>
   <li>您可以依照以下步驟安裝給 Firefox 或 Mozilla Suite 的修正檔案：
     <ol>
 
-      <li>Firefox 及 Mozilla Suite 使用者請按一下此連結：<a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0.6/patches/307259.xpi">http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0.6/patches/307259.xpi</a>
+      <li>Firefox 及 Mozilla Suite 使用者請按一下此連結：<a href="https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0.6/patches/307259.xpi">https://ftp.mozilla.org/pub/mozilla.org/firefox/releases/1.0.6/patches/307259.xpi</a>
       <li>接下來會出現「軟體安裝」的視窗，等待三秒後，按一下「立刻安裝」按鈕。
       <li>關閉並重新啟動 Mozilla 或 Firefox 瀏覽器。
     </ol>

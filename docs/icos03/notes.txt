@@ -11,7 +11,7 @@ Notes after icos'03:
 		    Sherlock (MacOS 9) 的語法相同！
 (3) [hlb] CSS3 還早呢：
     19:24 <hlb> 喔對了, 昨天提到 CSS 的部分, CSS3 離 Recommendation
-    還有很遠的路要走.  http://www.w3.org/Style/CSS/current-work#table
+    還有很遠的路要走.  https://www.w3.org/Style/CSS/current-work#table
 (4) [hlb] IE 的 box model:
     http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnie60/html/cssenhancements.asp
     19:27 <hlb> 另外這個是 IE 的 box model 問題(及其他 :/)

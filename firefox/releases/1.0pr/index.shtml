@@ -26,7 +26,7 @@
 <div id="mainContent" class="right">
     <h3>使用 Firefox 的理由</h3>
     <p>&ldquo;<strong><a href="http://www.usatoday.com/tech/news/computersecurity/2004-09-08-zombieinfect_x.htm">Beware of spyware. If you can, use the Firefox browser.</a></strong>&rdquo; <em>-&nbsp;USA&nbsp;Today</em></p>
-    <p>&ldquo;<strong><a href="http://forbes.com/infoimaging/2004/02/04/cx_ah_0204tentech.html">...a breath of fresh air... Microsoft should be worried</a>.</strong>&rdquo; <em>-&nbsp;FORBES</em></p>
+    <p>&ldquo;<strong><a href="https://forbes.com/infoimaging/2004/02/04/cx_ah_0204tentech.html">...a breath of fresh air... Microsoft should be worried</a>.</strong>&rdquo; <em>-&nbsp;FORBES</em></p>
     <dl id="features">
 	<dt>阻擋彈出廣告視窗</dt>
 	<dd>Firefox 內建阻擋彈出視窗功能，將煩人的彈出視窗阻殺於半途之中。</dd>
@@ -67,9 +67,9 @@
     <h3>其它資源與鏈結</h3>
     <ul class="compact">
 	<li><a href="http://update.mozilla.org/?application=firefox">取得擴充套件及佈景主題</a></li>
-	<li><a href="http://mozilla.org/products/firefox/buttons.html">推廣用按鈕圖</a></li>
+	<li><a href="https://mozilla.org/products/firefox/buttons.html">推廣用按鈕圖</a></li>
 	<li><a href="/thunderbird">下載 Thunderbird</a></li>
-	<li><a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區(中)</a></li>
+	<li><a href="https://forum.moztw.org/viewforum.php?f=2">Firefox 討論區(中)</a></li>
 	<li><a href="http://forums.mozillazine.org/viewforum.php?f=38">技術支援(英)</a></li>
 	<li><a href="http://forums.mozillazine.org/index.php?c=4">Firefox 討論區(英)</a></li>
     </ul>	   

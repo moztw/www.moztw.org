@@ -93,7 +93,7 @@
       <div class="grid-4">
         <section class="module">
           <h3>摩茲工寮</h3>
-          <ul class="list feed" data-feed="http://planet.moztw.org/atom.xml">
+          <ul class="list feed" data-feed="https://planet.moztw.org/atom.xml">
           </ul>
         </section>
       </div>

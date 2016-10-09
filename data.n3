@@ -1,6 +1,6 @@
-@prefix : <http://moztw.org/data#>.
+@prefix : <https://moztw.org/data#>.
 @prefix foaf:  <http://xmlns.com/foaf/0.1/>.
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdfs:  <https://www.w3.org/2000/01/rdf-schema#>.
 @prefix dc: <http://purl.org/dc/terms/>.
 
 :moztw	a	foaf:Group;
@@ -13,6 +13,6 @@
 
 # Drop admins a line with your URI if you want be included here.
 
-	foaf:homepage <http://moztw.org/>;
+	foaf:homepage <https://moztw.org/>;
 	foaf:birthday "09-06";
-	rdfs:seeAlso <http://moztw.org/about>.
+	rdfs:seeAlso <https://moztw.org/about>.

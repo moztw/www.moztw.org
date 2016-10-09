@@ -2,8 +2,8 @@
 <title>Firefox Download Day 2008 - MozTW, Mozilla Taiwan Community</title>>
 <meta name="description" content="恭喜，我們成功了！Firefox 以 8,002,530 次的下載次數，成功登上發表首日下載量最大軟體金氏世界紀錄寶座！">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://moztw.org/events/record2008/">
-<meta property="og:image" content="http://moztw.org/events/record2008/dday_header.jpg">
+<meta property="og:url" content="https://moztw.org/events/record2008/">
+<meta property="og:image" content="https://moztw.org/events/record2008/dday_header.jpg">
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="恭喜，我們成功了！Firefox 以 8,002,530 次的下載次數，成功登上發表首日下載量最大軟體金氏世界紀錄寶座！">
 <style type="text/css">
@@ -18,7 +18,7 @@ a[href="#firefox3party"]{ color: red;}
 <h1>Firefox Download Day 2008</h1>
 <p>這裡是 MozTW 社群特製的 Firefox <a href="http://www.spreadfirefox.com/en-US/worldrecord/">Download Day 2008</a> 正體中文自助版，邀請你一同加入，跟著全新的火狐一起創下世界紀錄！</p>
 </div>
-<p class="inline-nav"><a href="#description">手滑創記錄</a> | <a href="#whatisfirefox">火狐是啥？</a> | <a href="#promoting">一起推廣！</a> | <a href="http://wiki.moztw.org/index.php/Firefox_Download_Day_2008_%E5%95%8F%E7%AD%94%E9%9B%86">活動問答集</a> | <a href="#firefox3party">其他 Firefox 3 活動</a></p>
+<p class="inline-nav"><a href="#description">手滑創記錄</a> | <a href="#whatisfirefox">火狐是啥？</a> | <a href="#promoting">一起推廣！</a> | <a href="https://wiki.moztw.org/index.php/Firefox_Download_Day_2008_%E5%95%8F%E7%AD%94%E9%9B%86">活動問答集</a> | <a href="#firefox3party">其他 Firefox 3 活動</a></p>
 <h2 id="description">超炫瀏覽器，手滑創紀錄</h2>
 
 <p><strong>恭喜，我們成功了！</strong>Firefox 以 8,002,530 次的下載次數，成功登上發表首日下載量最大軟體金氏世界紀錄寶座！</p>
@@ -29,7 +29,7 @@ a[href="#firefox3party"]{ color: red;}
   <script type="text/javascript" src="http://www.spreadfirefox.com/misc/downloadday.js"></script>
 
 <div id="flashcontent" style="width: 740px; margin: 0 auto;">
-            <p id="flash_needed">此地圖需要安裝<a href="http://www.adobe.com/tw/products/flashplayer/">Adobe Flash Player</a>才能觀看，如果不想裝也可以到<a href="http://www.spreadfirefox.com/en-US/worldrecord/?showtable=true" id="view_table">原來的網站檢視表格版本</a>。</p>
+            <p id="flash_needed">此地圖需要安裝<a href="https://www.adobe.com/tw/products/flashplayer/">Adobe Flash Player</a>才能觀看，如果不想裝也可以到<a href="http://www.spreadfirefox.com/en-US/worldrecord/?showtable=true" id="view_table">原來的網站檢視表格版本</a>。</p>
         </div>
 
         <script type="text/javascript">
@@ -44,11 +44,11 @@ a[href="#firefox3party"]{ color: red;}
         </script>
 <p>嫌 Taiwan 的數字太少？就是缺你一個啊！快快下載吧！</p>
 <p style="text-align:center; font-size: 3em;"><a href="/firefox/">立即下載！</a></p>
-<p class="inline-nav"><a href="#description">手滑創記錄</a> | <a href="#whatisfirefox">火狐是啥？</a> | <a href="#promoting">一起推廣！</a> | <a href="http://wiki.moztw.org/index.php/Firefox_Download_Day_2008_%E5%95%8F%E7%AD%94%E9%9B%86">活動問答集</a> | <a href="#firefox3party">其他 Firefox 3 活動</a></p>
+<p class="inline-nav"><a href="#description">手滑創記錄</a> | <a href="#whatisfirefox">火狐是啥？</a> | <a href="#promoting">一起推廣！</a> | <a href="https://wiki.moztw.org/index.php/Firefox_Download_Day_2008_%E5%95%8F%E7%AD%94%E9%9B%86">活動問答集</a> | <a href="#firefox3party">其他 Firefox 3 活動</a></p>
 <h2 id="whatisfirefox">所以「火狐」到底是啥？</h2>
 <p>火狐是 Firefox 的中文暱稱，Firefox 是個超級好用的網頁瀏覽器，即將推出第三版，更快、更方便、更能保障你的網際資訊安全！如果你從來沒有用過別的東西逛網頁，不妨先看看 <a href="/firefox/">Firefox 2</a> 有什麼好用的功能，也可參考 Mozilla Links 上的 <a href="http://mozlinks.moztw.org/2008/05/firefox-3-1.html">Firefox 3 新功能</a>介紹。</p>
 <p><a href="/firefox/">試試無妨</a>！Firefox 是免費的，安全無毒，不喜歡也可以先刪除、一起等待 Firefox 3 的到來。</p>
-<p class="inline-nav"><a href="#description">手滑創記錄</a> | <a href="#whatisfirefox">火狐是啥？</a> | <a href="#promoting">一起推廣！</a> | <a href="http://wiki.moztw.org/index.php/Firefox_Download_Day_2008_%E5%95%8F%E7%AD%94%E9%9B%86">活動問答集</a> | <a href="#firefox3party">其他 Firefox 3 活動</a></p>
+<p class="inline-nav"><a href="#description">手滑創記錄</a> | <a href="#whatisfirefox">火狐是啥？</a> | <a href="#promoting">一起推廣！</a> | <a href="https://wiki.moztw.org/index.php/Firefox_Download_Day_2008_%E5%95%8F%E7%AD%94%E9%9B%86">活動問答集</a> | <a href="#firefox3party">其他 Firefox 3 活動</a></p>
 <h2 id="promoting">宣傳貼紙</h2>
 <p>除了 <a href="http://www.spreadfirefox.com/?q=affiliates/homepage">Download Day 網站上的貼紙</a>之外，這邊我們也再度請出前年轟動武林的 MozTW 小狐狸 -- 狐耳摩莎登場，化身為正體中文特製貼紙，看官請慢用！</p><form>
 <p><a href="/events/record2008/"><img src="record2008_1_788.png" alt="火狐鬥陣拼紀錄，有你一份！" border="0"></a><br>199x60<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href=&quot;//moztw.org/events/record2008/&quot;&gt;&lt;img src=&quot;//moztw.org/events/record2008/record2008_1_788.png&quot; alt=&quot;火狐鬥陣拼紀錄，有你一份！&quot; border=&quot;0&quot;&gt;&lt;/a&gt;</textarea></p>
@@ -57,8 +57,8 @@ a[href="#firefox3party"]{ color: red;}
 <p><a href="/events/record2008/"><img src="record2008_2_134.png" alt="火狐鬥陣拼紀錄，有你一份！" border="0"></a><br>92x22<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href=&quot;//moztw.org/events/record2008/&quot;&gt;&lt;img src=&quot;//moztw.org/events/record2008/record2008_2_134.png&quot; alt=&quot;火狐鬥陣拼紀錄，有你一份！&quot; border=&quot;0&quot;&gt;&lt;/a&gt;</textarea></p>
 <p>您也可以貼上 <a href="/firefox/buttons/">Firefox 3 預告貼紙</a>：</p>
 <p><a href="/firefox/"><img src="/firefox/buttons/type06-3.png" alt="Firefox 3 火熱上映" border="0"></a><br>531x140<br><textarea style="font-size: 8pt; height: 5em; width: 35em;" onclick="this.select()">&lt;a href="//moztw.org/firefox/"&gt;&lt;img src="//moztw.org/firefox/buttons/type06-3.png" alt="Firefox 3 火熱上映" border="0"&gt;&lt;/a&gt;</textarea></p>
-<p>覺得這些貼紙太醜？歡迎你發揮創意製作更棒的版本，貼到<a href="http://forum.moztw.org/viewtopic.php?t=22548">討論區</a>與我們共襄盛舉！</p>
-<p class="inline-nav"><a href="#description">手滑創記錄</a> | <a href="#whatisfirefox">火狐是啥？</a> | <a href="#promoting">一起推廣！</a> | <a href="http://wiki.moztw.org/index.php/Firefox_Download_Day_2008_%E5%95%8F%E7%AD%94%E9%9B%86">活動問答集</a> | <a href="#firefox3party">其他 Firefox 3 活動</a></p>
+<p>覺得這些貼紙太醜？歡迎你發揮創意製作更棒的版本，貼到<a href="https://forum.moztw.org/viewtopic.php?t=22548">討論區</a>與我們共襄盛舉！</p>
+<p class="inline-nav"><a href="#description">手滑創記錄</a> | <a href="#whatisfirefox">火狐是啥？</a> | <a href="#promoting">一起推廣！</a> | <a href="https://wiki.moztw.org/index.php/Firefox_Download_Day_2008_%E5%95%8F%E7%AD%94%E9%9B%86">活動問答集</a> | <a href="#firefox3party">其他 Firefox 3 活動</a></p>
 
 </form>
 

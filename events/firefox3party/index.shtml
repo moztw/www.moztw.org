@@ -3,8 +3,8 @@
 <link rel="stylesheet" type="text/css" href="firefox3party.css" media="screen">
 <meta name="description" content="慶祝 Firefox 3 正式發行！第三屆社群嚴選套件票選、Firefox Party 3.0、狐耳摩莎遊台灣接連登場！">
 <meta property="og:type" content="website">
-<meta property="og:url" content="http://moztw.org/events/firefox3party/">
-<meta property="og:image" content="http://moztw.org/events/firefox3party/feature-firefox-3-party.png">
+<meta property="og:url" content="https://moztw.org/events/firefox3party/">
+<meta property="og:image" content="https://moztw.org/events/firefox3party/feature-firefox-3-party.png">
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="慶祝 Firefox 3 正式發行！第三屆社群嚴選套件票選、Firefox Party 3.0、狐耳摩莎遊台灣接連登場！">
 <!--#include virtual="/inc/class_press.html" -->
@@ -42,15 +42,15 @@
   <div id="extension">
     <h2><img src="extension_icon.png" alt="">第三屆附加元件票選</h2>
 	 <p>第三屆<a href="/firefox/extension_top_15/">社群嚴選附加元件</a>票選活動即將於 7/1 開始接受提名、7/22-8/12 投票。歡迎提名好用的套件，提供初學者更快上手的入門選擇！投票結果將於 <a href="http://addons.mozilla.org">addons.mozilla.org 正體中文區</a>同步推薦，並在 8/23 號舉辦的 <a href="http://coscup.org">COSCUP 2008</a> 上發表！</p>
-	 <p style="font-size: 2em;">票選已經開始了，你準備好了嗎？<a href="http://forum.moztw.org/viewtopic.php?t=23623">馬上去投票！</a></p>
-	 <ul><li><a href="http://forum.moztw.org/viewtopic.php?t=23044">主辦人 Timdream 的預告文</a></li><li><a href="http://forum.moztw.org/viewforum.php?f=44">票選提名討論區</a></li></ul>
+	 <p style="font-size: 2em;">票選已經開始了，你準備好了嗎？<a href="https://forum.moztw.org/viewtopic.php?t=23623">馬上去投票！</a></p>
+	 <ul><li><a href="https://forum.moztw.org/viewtopic.php?t=23044">主辦人 Timdream 的預告文</a></li><li><a href="https://forum.moztw.org/viewforum.php?f=44">票選提名討論區</a></li></ul>
         <h3 id="share">Party 社群分享套件使用</h3>
         <p>有什麼套件使用密技不吐不快嗎？除了在討論區提名擴充套件，分享使用經驗以外，在 Party 現場也有宣傳的機會！只要願意上台發表使用套
 件心得、密技等，<strong>Party 報名費是全免的喔</strong>！有興趣報名者，請到討論區丟私人訊息給主辦人 timdream，或寄信到螢幕上這個 email: timdream 在 mail 點 moztw.org。</p>
 
 	 <h3>我們需要你！</h3>
-	 <p><strong>套件中文說明：</strong>Firefox 3 的附加元件管理員內建了推薦套件功能，你是否跟我們一樣、對大部分套件說明都是英文感到遺憾？敦請四方大德協助，提供套件作者中文翻譯！<a href="http://forum.moztw.org/viewtopic.php?t=22585">進一步說明…</a></p>
-	 <p><strong>套件相容敦促升級：</strong>你最愛的附加元件是否還沒搭上 Firefox 3 特快車？我們提供了簡單的標準信，方便你向套件作者表達急切的渴望！ <a href="http://forum.moztw.org/viewtopic.php?p=127689">看看標準信</a></p>
+	 <p><strong>套件中文說明：</strong>Firefox 3 的附加元件管理員內建了推薦套件功能，你是否跟我們一樣、對大部分套件說明都是英文感到遺憾？敦請四方大德協助，提供套件作者中文翻譯！<a href="https://forum.moztw.org/viewtopic.php?t=22585">進一步說明…</a></p>
+	 <p><strong>套件相容敦促升級：</strong>你最愛的附加元件是否還沒搭上 Firefox 3 特快車？我們提供了簡單的標準信，方便你向套件作者表達急切的渴望！ <a href="https://forum.moztw.org/viewtopic.php?p=127689">看看標準信</a></p>
 	 </div>
   <div id="foxmosa">
     <h2><img src="foxmosa_icon.png" alt="">火狐鬥陣遊台灣</h2>
@@ -75,7 +75,7 @@
     <h3>資訊</h3>
       <p>日期時間：2008 年 7 月 19 日 14:00 - 17:30 (13:30 開始入場)<a href="//www.google.com/calendar/event?action=TEMPLATE&amp;text=Firefox Party 3.0&amp;dates=20080719T060000Z/20080719T093000Z&amp;details=華碩電腦企業營運總部三樓咖啡廳13%3A30 開始入場&amp;location=台北市北投區立德路15號&amp;trp=true&amp;sprop=http%3A//moztw.org&amp;sprop=name:Mozilla Taiwan" title="加到 Google Calendar 中"><img src="/images/ical.png" alt=""></a></p>
       <p>地點：華碩電腦企業營運總部三樓咖啡廳<br>
-        台北市北投區立德路15號 <a href="http://www.urmap.com/?link=Qhs10-0sd11s1T000W0E0101010W0Q0E0Q0s0-0s0W0a0YWE0W0T0W0W0Q0Q0W0W010Q000d0-0Q010s0YWa0W0a0T0-TRTE0a0shRT112ThgEfQW2gdf2Ydf11-fT0-TRTE0a0shRT112ThgEfh2QTTY1fhEEfTfEfhEEfR1EfQs10-0sd11s1T0Q0T0-0T000W0E0101010W0Q0E0Q0s0-0s0W0a0YWE0W0T0W0W0Q0Q0W0W010Q000d0-0Q010s0YWa0W0a0">(UrMap)</a> <a href="http://ehr.asus.com/directions.htm#a">(交通資訊)</a></p>
+        台北市北投區立德路15號 <a href="http://www.urmap.com/?link=Qhs10-0sd11s1T000W0E0101010W0Q0E0Q0s0-0s0W0a0YWE0W0T0W0W0Q0Q0W0W010Q000d0-0Q010s0YWa0W0a0T0-TRTE0a0shRT112ThgEfQW2gdf2Ydf11-fT0-TRTE0a0shRT112ThgEfh2QTTY1fhEEfTfEfhEEfR1EfQs10-0sd11s1T0Q0T0-0T000W0E0101010W0Q0E0Q0s0-0s0W0a0YWE0W0T0W0W0Q0Q0W0W010Q000d0-0Q010s0YWa0W0a0">(UrMap)</a> <a href="https://ehr.asus.com/directions.htm#a">(交通資訊)</a></p>
 
 	<p>費用：分攤價 150 元 (分攤餐點設備等費用)</p>
 
