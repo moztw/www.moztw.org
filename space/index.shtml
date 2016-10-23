@@ -193,7 +193,7 @@
            <a href="http://sensorweb.io/">Check the website</a> for more information.</p>
       </div>
       <div class="grid-4">
-        <iframe width="125" height="125" src="http://sensorweb.io/widget.html?id=rJujLq2M" frameborder="0" scrolling="no"></iframe>
+        <iframe width="125" height="125" src="https://sensorweb.io/widget.html?id=rJujLq2M" frameborder="0" scrolling="no"></iframe>
       </div>
     </section>
   </main>
