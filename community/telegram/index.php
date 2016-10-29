@@ -55,6 +55,9 @@ if ($_COOKIE['tg_lang'] != 'zh') {
 			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank" title="Foxmosa Telegram 貼圖">Foxmosa Sticker</a>
 			<div>加入狐爾摩莎（小莎）的 Telegram 貼圖之連結。</div>
 		</div>
+		<div id="fullList" style="display: none; margin-top: 20px;">
+			<a href="https://wiki.mozilla.org/Telegram" target="_blank" >看更多 Telegram 頻道</a>
+		</div>
 
 		<p>切換語言 <select id="lang" onchange="change_lang()">
 			<option value="zh" selected="selected">Chinese</option>
@@ -90,6 +93,7 @@ if ($_COOKIE['tg_lang'] != 'zh') {
 				$("#waiting").hide();
 				$("#join").show();
 				$("#sticker").show();
+				$("#fullList").show();
 			} else {
 				$("#waiting").hide();
 				alert("驗證失敗\n麻煩您再試一次");
