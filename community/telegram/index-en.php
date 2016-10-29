@@ -58,6 +58,10 @@ if ($_COOKIE['tg_lang'] == 'zh') {
 			<div>Download Foxmosa stickers in Telegram.</div>
 		</div>
 
+		<div id="fullList" style="display: none; margin-top: 20px;">
+			<a href="https://wiki.mozilla.org/Telegram" target="_blank" >See more Telegram channels</a>
+		</div>
+
 		<p>Change Language <select id="lang" onchange="change_lang()">
 			<option value="en" selected="selected">English</option>
 			<option value="zh">Chinese</option>
@@ -92,6 +96,7 @@ if ($_COOKIE['tg_lang'] == 'zh') {
 				$("#waiting").hide();
 				$("#join").show();
 				$("#sticker").show();
+				$("#fullList").show();
 			} else {
 				$("#waiting").hide();
 				alert("Verification failed.\nPlease retry.");
