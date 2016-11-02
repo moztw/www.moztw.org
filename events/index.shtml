@@ -47,7 +47,7 @@
           <span class="arrow"></span>
         </header>
 
-        <div class="photo" style="background:url(sumo-party-2015/landing.png) 0 -100px;"></div>
+        <div class="photo" style="background:url(https://photos-1.dropbox.com/t/2/AADpxYBU23V0twJ43Cw7B7bckn766QRkgwy_vvnE_3G_tw/12/1796573/png/32x32/3/1478120400/0/2/sfd-cake.png/EK2K55UBGKsmIAIoAg/FSxZIBOSyyVhJx2NFZV_127ol1AoMscgzk9kBF-cGHQ?size_mode=3&dl=0&size=2048x1536) 0 -100px;"></div>
 
         <div class="content">
           根據先遣隊的回報，王國東南方的雨林深處，發現了為數眾多的神秘遺跡，這些遺跡很可能是古 SUMO 王國的一部份！為了探索出更多有用的情報，我們必需突破重重難關，並設法開啟被封印的深層遺跡！
@@ -55,6 +55,24 @@
 
       </article>
     </a>
+
+    <a href="https://public.etherpad-mozilla.org/p/sfd-taipei-2015" title="2015 軟體自由日">
+      <article class="on">
+        <header>
+          <h2>2015 軟體自由日</h2>
+          <time pubdate="pubdate">2015/9/20</time>
+          <span class="arrow"></span>
+        </header>
+
+        <div class="photo" style="background:url(img/sfd-cake.png) -400px -300px;"></div>
+
+        <div class="content">
+            2015 軟體自由日
+        </div>
+
+      </article>
+    </a>
+
 
     <div class="group">
       <a href="service2014-2/" title="103 學年度第二學期服務學習成果總覽" id="service2014-2">
