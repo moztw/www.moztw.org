@@ -72,6 +72,22 @@
       </article>
     </a>
 
+    <a href="https://discourse.mozilla-community.org/t/mozillians-hkoscon-2015/2909" title="2015 HKOSCon">
+      <article class="on">
+        <header>
+          <h2>2015 HKOSCon</h2>
+          <time pubdate="pubdate">2015/7/15</time>
+          <span class="arrow"></span>
+        </header>
+
+        <div class="photo" style="background:url(img/HKOSCon.jpg) 0px -50px; background-size: 440px 330px;"></div>
+
+        <div class="content">
+            2015 HKOSCon
+        </div>
+
+      </article>
+    </a>
 
     <div class="group">
       <a href="service2014-2/" title="103 學年度第二學期服務學習成果總覽" id="service2014-2">
