@@ -30,7 +30,7 @@
 
 			<h2>線上觀看</h2>
 			<p style="text-align: center;">
-			<iframe width="640" height="360" src="https://www.youtube.com/embed/VoLUvE-ny1k" frameborder="0" allowfullscreen></iframe>
+			<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/VoLUvE-ny1k" frameborder="0" allowfullscreen></iframe>
 			</p>
 			<ul>
 			<li><a onClick="ga('send', 'event', 'Outgoing', 'Youtube', 'Code Rush');" href="https://www.youtube.com/watch?v=XVdN3gH9d64&list=PLOHV-5SHjI8gbguX4vRowEmVboHLMevCT&hd=1">本次放映會全片單</a>（包含正片前預告及片尾字幕）</li>
