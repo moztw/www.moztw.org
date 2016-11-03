@@ -72,6 +72,22 @@
       </article>
     </a>
 
+    <a href="https://reps.mozilla.org/e/coscup-2015/" title="COSCUP 2015">
+      <article class="on">
+        <header>
+          <h2>COSCUP 2015</h2>
+          <time pubdate="pubdate">2015/8/15</time>
+          <span class="arrow"></span>
+        </header>
+
+        <div class="photo" style="background:url(img/coscup2015.jpg) 600px 300px;" ></div>
+
+        <div class="content">
+          COSCUP 2015
+        </div>
+
+      </article>
+    </a>
 
     <div class="group">
       <a href="service2014-2/" title="103 學年度第二學期服務學習成果總覽" id="service2014-2">
