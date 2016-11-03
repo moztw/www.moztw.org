@@ -63,7 +63,7 @@
           <span class="arrow"></span>
         </header>
 
-        <div class="photo" style="background:url(img/sfd-cake.png) -400px -300px;"></div>
+        <div class="photo" style="background:url(img/sfd-cake.png) 20px -120px; background-size: 400px 300px"></div>
 
         <div class="content">
             2015 軟體自由日
