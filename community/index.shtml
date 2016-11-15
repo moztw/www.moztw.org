@@ -50,7 +50,7 @@
         <em>Many Voice, One Mozilla.</em>Mozilla 由世界各地眾多社群、貢獻者及與各種專案計畫所構成，在此為您介紹正體中文的諸多社群與重點專案，歡迎自由探索與加入 Mozilla 這個廣大豐富的家族。</p>
     <div id="video">
         <h2 style="display: none">Video</h2>
-        <iframe width="100%" height="563" src="https://www.youtube.com/embed/Z7sv7JMMCBI?list=PLC5649BCA6BF1F17F" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="563" src="https://www.youtube-nocookie.com/embed/Z7sv7JMMCBI?list=PLC5649BCA6BF1F17F" frameborder="0" allowfullscreen></iframe>
     </div>
 </section>
 
