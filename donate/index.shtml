@@ -23,7 +23,7 @@
 
 	<section id="youtube" class="row">
 		<div class="left">
-			<iframe src="https://www.youtube.com/embed/Q1n2q_YSZUE" frameborder="0" allowfullscreen></iframe>
+			<iframe src="https://www.youtube-nocookie.com/embed/Q1n2q_YSZUE" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div class="right">
 			<a id="donate-button" href="https://sendto.mozilla.org/page/contribute" target="_blank" onClick="ga('send', 'event', 'Outgoing', '/donate', 'donate.mozilla.org');">

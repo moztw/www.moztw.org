@@ -134,8 +134,8 @@
 
 		<section id="video">
 			<h2>影音紀錄</h2>
-			<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PL3C34D7CED91F661D&amp;hl=zh_TW" frameborder="0" allowfullscreen></iframe>
-			<iframe width="640" height="360" src="https://www.youtube.com/embed/videoseries?list=PL52FB3B7D6B961F52&amp;hl=zh_TW" frameborder="0" allowfullscreen></iframe>
+			<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL3C34D7CED91F661D&amp;hl=zh_TW" frameborder="0" allowfullscreen></iframe>
+			<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/videoseries?list=PL52FB3B7D6B961F52&amp;hl=zh_TW" frameborder="0" allowfullscreen></iframe>
 		</section>
 
 		<section id="information">
