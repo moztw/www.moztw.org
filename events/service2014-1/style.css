@@ -1,0 +1,109 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: "Heiti TC", "LiHei Pro", "微軟正黑體", "WenQuanYi - Micro Hei", "Arial", sans-serif;
+  color:#666;
+  background:#F1F1F1 url(../../images/furley_bg.png);
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+a{
+  text-decoration:none;
+  color:#1AB4FF;
+}
+
+.right{
+  float:right;
+}
+
+.left{
+  float:left;
+}
+
+.container{
+  width: 760px;
+  margin: 0 auto;
+}
+
+#header{
+  width: 760px;
+  margin: 0 auto;
+}
+
+h1{
+  border: none;
+  font-size: 2em;
+  margin-top: 2em;
+  text-align: center;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    margin: 1em 15px;
+}
+
+#main section{
+  margin-top: 3em;
+}
+
+#main h2{
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+  font-size: 1.8em;
+  margin: 2em 0 0.8em 0;
+  text-align: center;
+}
+
+#main h3{
+  border-bottom: medium none;
+  border-left: 2px solid #999999;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 3em 0 1em;
+  padding-left: 10px;
+}
+
+#main .appendix{
+  border-left: 2px solid #BBB;
+  font-size: 0.9em;
+  font-weight: normal;
+  margin-left: 2em;
+  padding-left: 5px;
+}
+
+#main li {
+  border-left: 2px solid #999999;
+  display: block;
+  line-height: 1.5em;
+  margin: 1em 0;
+  padding-left: 10px;
+}
+
+#main #mdn li {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+#introduction{
+  text-align: center;
+  line-height: 30px;
+}
+
+#sponsership{
+  text-align: center;
+  margin: 3em 0;
+}
+
+
+#footer{
+  border-top: 1px #CCC solid;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin: 40px auto 20px;
+  width: 760px;
+  margin: 0 auto;
+}
