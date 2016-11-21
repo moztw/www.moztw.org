@@ -1,0 +1,80 @@
+<!--#set var="release_date" value="2016-11-15" -->
+<!--#set var="version" value="50.0" -->
+<!--#set var="previous_version" value="49.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>關於鍵盤快速鍵的更新：</span>
+      <ul>
+        <li>可設定按下 <kbd>Ctrl</kbd>+<kbd>Tab</kbd> 時，依照最近使用分頁的順序切換分頁標籤。</li>
+        <li>按下 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>R</kbd>（在 Mac 是 <kbd>command</kbd>+<kbd>alt</kbd>+<kbd>r</kbd>）以閱讀模式檢視網頁。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>頁面中搜尋功能可以只尋找符合「整個文字」的項目。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>新增 Guarani (gn) 語系支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>提升 Windows 7 以上系統的 WebGL 支援，讓 WebGL 普及至 98% 的使用者。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>下載檔案防護功能支援更多 Windows、Mac 和 Linux 的<a href="https://hg.mozilla.org/mozilla-central/file/054d4856cea6/toolkit/components/downloads/ApplicationReputation.cpp#l399">可執行檔</a>類型。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>改善 SDK 擴充元件（或使用 SDK module loader 的擴充元件）效能。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Windows 和 Mac 可藉由 Widevine 的 WebM EME 支援在更多網站上播放影片，而不需要外掛程式。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正虛線、點線在圓角部位的描繪（見 <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius">border-radius</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox50">安全性修正</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>在使用大量 cookie 的網站也能正確儲存登入 cookie （<a href="https://bugzilla.mozilla.org/1264192">bug 1264192</a>）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>新增一組內建 Emoji，供沒有原生 Emoji 字型的系統（Windows 8.0 以下和 Linux）使用。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>停用 54.35.1 之前的舊版 libavcodec。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>見 <a href="https://developer.mozilla.org/Firefox/Releases/50#Changes_for_Web_developers">Changes for web developers</a>。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2050&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox50&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla50&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
