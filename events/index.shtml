@@ -39,6 +39,29 @@
       </article>
     </a>
 
+    <div class="group">
+      <a href="https://www.flickr.com/search/?group_id=774566%40N20&min_taken_date=1478793600&max_taken_date=1478879999&view_all=1" title="Happy Birthday, Firefox!!!" id="Firfox-12-birthday">
+        <article class="small">
+          <header>
+            <h2>在雙十一這個寂寞的日子裡，我們為 Firefox 的 12 歲生日獻上最大的祝福</h2>
+            <time pubdate="pubdate">2016/11/11</time>
+            <span class="arrow"></span>
+          </header>
+          <img src="img/Firefox-12-birthday.jpg">
+        </article>
+      </a>
+      <a href="http://irvin.sto.tw/2016/08/tw-mozillians-in-hkoscon.html" title="2016 HKOSCon 心得" id="HKOSCon-2014-to-2016">
+        <article class="small">
+          <header>
+            <h2>3 different types of participation - TW Mozillians in HKOSCon from 2014-2016</h2>
+            <time pubdate="pubdate">2016/8/09</time>
+            <span class="arrow"></span>
+          </header>
+          <img src="img/HKOSCon2014-to-2016.jpg">
+        </article>
+      </a>
+    </div>
+
     <a href="sumo-party-2015/" title="SUMO 王國群雄爭霸，小莎軍團正在招兵買馬！">
       <article class="on">
         <header>
