@@ -16,8 +16,7 @@
 <h3>2016</h3>
 
 <ul class="news">
-  <li><div class="date"> 11 月 30</div>
-    <a href="/firefox/releases/50.0.2/">Firefox 50.0.2</a> 更新</li>
+  <li><div class="date"> 11 月 30</div></li>
   <li><div class="date"> 11 月 19</div>
     <a href="/thunderbird/">Thunderbird</a> 45.5.0 更新</li>
   <li><div class="date"> 11 月 15</div>
