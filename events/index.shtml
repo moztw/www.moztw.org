@@ -94,7 +94,18 @@
 
       </article>
     </a>
-
+    <div class="group">
+      <a href="https://reps.mozilla.org/e/coscup-2015/" title="COSCUP 2015">
+        <article class="small">
+          <header>
+            <h2>COSCUP 2015</h2>
+            <time pubdate="pubdate">2015/8/15</time>
+            <span class="arrow"></span>
+          </header>
+          <img src="img/coscup2015.jpg">
+        </article>
+      </a>
+    </div>
     <a href="https://discourse.mozilla-community.org/t/mozillians-hkoscon-2015/2909" title="2015 HKOSCon">
       <article class="on">
         <header>
