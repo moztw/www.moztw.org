@@ -287,8 +287,8 @@
       <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 未來發行版本</a></li>
       <li><a href="http://wiki.moztw.org/">共筆系統</a></li>
       <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
-      <li><a href="/donate">捐款贊助 Mozilla</a></li>
       <li><a href="/foxmosa/">Foxmosa 狐耳摩莎</a></li>
+      <li><a href="/donate">捐款贊助 Mozilla</a></li>
     </ul>
   </div>
 </div>
