@@ -1,6 +1,6 @@
-<!--#set var="WINVER" value="45.5.0" -->
-<!--#set var="LINUXVER" value="45.5.0" -->
-<!--#set var="OSXVER" value="45.5.0" -->
+<!--#set var="WINVER" value="45.5.1" -->
+<!--#set var="LINUXVER" value="45.5.1" -->
+<!--#set var="OSXVER" value="45.5.1" -->
 
 <!--#set var="WINTAG" value="${WINVER}-Windows" -->
 <!--#set var="LINUXTAG" value="${LINUXVER}-Linux" -->
