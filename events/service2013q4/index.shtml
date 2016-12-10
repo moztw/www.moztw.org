@@ -25,28 +25,12 @@
 
       <h3>WebAPIs - Firefox OS for developers: the platform HTML5 deserves <span class="appendix">謝家銘</span></h3>
       <div class="video">
-        <script type="text/javascript" src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-            "base_state": {"language": "zh-tw"},
-            "video_url": "http://www.youtube.com/watch?v=oNgsvxTaqao",
-            "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-initial-language="zh-tw" data-height="360px" data-width="640px" data-url="https://www.youtube.com/watch?v=oNgsvxTaqao"></div>
       </div>
 
       <h3>Improve the Knowledge Base <span class="appendix">林志峰</span></h3>
       <div class="video">
-        <script type="text/javascript" src="http://s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-            "base_state": {"language": "zh-tw"},
-            "video_url": "http://www.youtube.com/watch?v=y4B5UDW_D9s",
-            "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-initial-language="zh-tw" data-height="360px" data-width="640px" data-url="https://www.youtube.com/watch?v=y4B5UDW_D9s"></div>
       </div>
     </section>
 
@@ -106,5 +90,6 @@
     </section>
 
   </div>
-
+  <!-- amara embedder -->
+  <script type="text/javascript" src='https://amara.org/embedder-iframe'></script>
 <!--#include virtual="/inc/footer.html" -->
