@@ -25,175 +25,71 @@
 
       <h3>Firefox Marketplace 夥伴：Evernote<span class="appendix">蘇士傑</span></h3>
       <div class="video">
-          <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-          (
-            {
-                "base_state": {"language": "zh-tw"},
-                "video_url": "https://www.youtube.com/watch?v=qf0SNKwZ_SY",
-                "video_config": { width: 640, height: 360 }
-            }
-          )
-          </script>
+        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="zh-tw" data-url="https://www.youtube.com/watch?v=qf0SNKwZ_SY"></div>
       </div>
 
       <h3>Firefox Marketplace 夥伴：box<span class="appendix">張峯銘</span></h3>
       <div class="video">
-        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-              "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=zr6NA_O8E3Q",
-              "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="zh-tw" data-url="https://www.youtube.com/watch?v=zr6NA_O8E3Q"></div>
       </div>
 
       <h3>網路無障礙 @ Mozilla：簡介<span class="appendix">陳炫樺</span></h3>
       <div class="video">
-        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-              "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=GmnHY6vNeQM",
-              "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="zh-tw" data-url="https://www.youtube.com/watch?v=GmnHY6vNeQM"></div>
       </div>
 
       <h3>Firefox OS 展示<span class="appendix">薛煜霖、周鼎鈞、黃思誼</span></h3>
       <div class="video">
-        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-              "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=-9vktI70iHc",
-              "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="zh-tw" data-url="https://www.youtube.com/watch?v=-9vktI70iHc"></div>
       </div>
 
       <h3>History Of Mozilla By Mitchell Baker<span class="appendix">胡乃元、宋俊德、余睿洋、吳長恩、陳學呈</span></h3>
       <p>胡乃元、宋俊德和余睿洋同學完成 10 - 15 分</p>
       <p>吳長恩同學完成 15 - 20 分，陳學呈同學完成 20 - 25 分</p>
       <div class="video">
-        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-              "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=UDFVBleAC-E",
-              "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="zh-tw" data-url="https://www.youtube.com/watch?v=UDFVBleAC-E"></div>
       </div>
 
       <h3>參與 Mozilla - 小技巧<span class="appendix">趙守恩</span></h3>
       <div class="video">
-        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-              "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=zp-M73Cju7g",
-              "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="zh-tw" data-url="https://www.youtube.com/watch?v=zp-M73Cju7g"></div>
       </div>
 
       <h3>Who's tracking you online? Find out with Mozilla's Collusion<span class="appendix">李宜霖</span></h3>
       <p>英文字幕</p>
       <div class="video">
-        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-              "base_state": {"language": "en-US"},
-              "video_url": "https://www.youtube.com/watch?v=_ckCpKeAHMk",
-              "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="en" data-url="https://www.youtube.com/watch?v=_ckCpKeAHMk"></div>
       </div>
 
       <h3>Firefox Developer Command Line<span class="appendix">李宜霖</span></h3>
       <p>英文字幕</p>
       <div class="video">
-        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-              "base_state": {"language": "en-US"},
-              "video_url": "https://www.youtube.com/watch?v=YwOwJ1_JaKE",
-              "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="en" data-url="https://www.youtube.com/watch?v=YwOwJ1_JaKE"></div>
       </div>
 
       <h3>Firefox 分頁群組<span class="appendix">吳柏諺</span></h3>
       <div class="video">
-        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-              "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=5r0TQJ-gGi0",
-              "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="zh-tw" data-url="https://www.youtube.com/watch?v=5r0TQJ-gGi0"></div>
       </div>
 
       <h3>Firefox 的用戶研究 — 來自 Test Pilot 團隊的 Jinghua 與 Jono<span class="appendix">吳柏諺</span></h3>
       <div class="video">
-        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-              "base_state": {"language": "zh-tw"},
-              "video_url": "https://vimeo.com/12373225",
-              "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="zh-tw" data-url="https://vimeo.com/12373225"></div>
       </div>
 
       <h3>Firefox Flicks 2013<span class="appendix">吳柏諺</span></h3>
       <div class="video">
-        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-              "base_state": {"language": "zh-tw"},
-              "video_url": "https://vimeo.com/57743653",
-              "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="zh-tw" data-url="https://vimeo.com/57743653"></div>
       </div>
 
       <h3>Firefox 隱私瀏覽視窗<span class="appendix">吳柏諺</span></h3>
       <div class="video">
-        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-              "base_state": {"language": "zh-tw"},
-              "video_url": "https://www.youtube.com/watch?v=7EQHYcs8sl0",
-              "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="zh-tw" data-url="https://www.youtube.com/watch?v=7EQHYcs8sl0"></div>
       </div>
 
       <h3>Mozilla 貢獻者群像: Chit Thiri Maung<span class="appendix">吳柏諺</span></h3>
       <div class="video">
-        <script src="//s3.amazonaws.com/s3.www.universalsubtitles.org/embed.js">
-        (
-          {
-              "base_state": {"language": "zh-tw"},
-              "video_url": "//videos-cdn.mozilla.net/serv/drafts/Contributorstory1.webm",
-              "video_config": { width: 640, height: 360 }
-          }
-        )
-        </script>
+        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="zh-tw" data-url="//videos-cdn.mozilla.net/serv/drafts/Contributorstory1.webm"></div>
       </div>
     </section>
 
@@ -232,7 +128,7 @@ http://mozlinks.moztw.org/2013/03/firefox.html">Firefox 小秘笈：三種方法
 
     <section id="sponsership">
       <h2>合作單位</h2>
-      <a title="OSSACC 教育部校園自由軟體數位資源推廣服務中心" href="//ossacc.moe.edu.tw/">
+      <a title="OSSACC 教育部校園自由軟體數位資源推廣服務中心" href="htto://ossacc.moe.edu.tw/">
           <img src="logo.gif" alt="">
           <img src="logo2.gif" alt="">
       </a>
@@ -240,4 +136,5 @@ http://mozlinks.moztw.org/2013/03/firefox.html">Firefox 小秘笈：三種方法
 
   </div>
 
+  <script type="text/javascript" src='https://amara.org/embedder-iframe'></script>
 <!--#include virtual="/inc/footer.html" -->
