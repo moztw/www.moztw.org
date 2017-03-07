@@ -16,6 +16,8 @@
 <h3>2017</h3>
 
 <ul class="news">
+  <li><div class="date"> 3 月 7</div>
+    Firefox 52.0 更新</li>
   <li><div class="date"> 1 月 27</div>
     <a href="/firefox/releases/51.0.1/">Firefox 51.0.1</a> 更新、<a href="/thunderbird/">Thunderbird</a> 45.7.0 更新</li>
   <li><div class="date"> 1 月 24</div>
