@@ -2377,12 +2377,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://moztw.org/firefox/download/downloadurl.txt</loc>
-    <lastmod>2015-03-27T13:01:42.000Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://moztw.org/firefox/start_pages/about.txt</loc>
     <lastmod>2015-03-27T13:01:42.000Z</lastmod>
     <changefreq>monthly</changefreq>
