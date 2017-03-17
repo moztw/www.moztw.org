@@ -151,13 +151,7 @@ div[class^=grid-] {
   text-align: center;
 }
 
-#sensorweb div.grid-4{
-  text-align: center;
-}
-
 /* RWD */
-
-
 
 @media only screen and (max-width:960px) {
 
