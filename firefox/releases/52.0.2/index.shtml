@@ -13,7 +13,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>採用 nirmala ui 作為印度（indic）語言的備用字型（<a href="https://bugzilla.mozilla.org/1342787">bug 1342787</a>）。</span>
+      <span>採用 Nirmala UI 作為印度（Indic）語言的備用字型（<a href="https://bugzilla.mozilla.org/1342787">bug 1342787</a>）。</span>
     </li>
     <li>
       <span class="tag tag-fixed">修正</span>
@@ -21,7 +21,7 @@
     </li>
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>修正一個 linux 上的啟動時當機問題（<a href="https://bugzilla.mozilla.org/1345413">bug 1345413</a>）。</span>
+      <span>修正一個 Linux 上的啟動時當機問題（<a href="https://bugzilla.mozilla.org/1345413">bug 1345413</a>）。</span>
     </li>
     <li>
       <span class="tag tag-fixed">修正</span>
