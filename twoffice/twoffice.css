@@ -40,17 +40,17 @@
     line-height: 1.7em;
     margin-bottom: 2.5em;
     padding: 15px 15px 3px;
-    width: 610px;
+    max-width: 610px;
 }
 
 .key-point div.title p {
     margin: 1em 0;
 }
 
-.key-point div.stamp104 {
+.key-point .stamp104 {
     background: none repeat scroll 0 0 #F1F5F5;
-    padding: 10px 0 30px 10px;
-    width: 630px;
+    padding: 10px 10px 30px;
+    max-width: 630px;
     box-shadow: 1px 1px 2px #999999;
 }
 
@@ -66,6 +66,12 @@
 #right {
     float: right;
     margin-top: 2em;
+}
+
+@media (max-width: 500px) {
+  #right {
+    float: none;
+  }
 }
 
 #right a {
