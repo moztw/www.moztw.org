@@ -1,0 +1,86 @@
+<!--#set var="release_date" value="2017-04-19" -->
+<!--#set var="version" value="53.0" -->
+<!--#set var="previous_version" value="52.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Windows: 分離影像合成程序（採用 Quantum Compositor）以改善效能，並<a href="https://ashughes.com/?p=426">減少圖像顯示相關的當機情形</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>新增「精簡」亮色、暗色佈景主題（基於 Firefox 開發者版本的設計）。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>佈景主題（lightweight theme）現在也能套用在隱私視窗。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>閱讀模式會顯示預估的閱讀時間。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Windows 7 以上的 64 位元系統中，安裝程式會提供 32 或 64 位元的版本選擇。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox53">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>改善網站<a href="https://medium.com/@pastith/feeling-safer-online-with-firefox-b9fe13af6600">要求權限</a>的通知介面，減少被輕易忽略的狀況。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>不再支援 Windows XP 和 Vista。但會持續提供延長支援版本（ESR）的安全性更新給 <a href="https://support.mozilla.org/en-US/kb/end-support-windows-xp-and-vista">XP 和 Vista 的 Firefox 52 使用者</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>不再支援 32 位元的 Mac OS X。舊使用者可以<a href="https://www.mozilla.org/firefox/organizations/faq/">轉移至 Firefox ESR 52</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>減少 Mac OS X 更新程式的檔案大小。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>影片、聲音控制介面有了新的視覺設計。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>Linux: 停止支援低於 Pentium 4 和 AMD Opteron 的處理器。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>分頁標題過長的部分，使用淡出效果而非省略符號，保留較多可見文字。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>更多<a href="https://developer.mozilla.org/en-US/Firefox/Releases/53#Changes_for_Web_developers">開發者功能</a>改進。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>支援帶有 alpha 頻道的 WebM 影像，可以播放具有透明背景的影片。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2053&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox53&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla53&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
