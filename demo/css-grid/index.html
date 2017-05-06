@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html class="windows x86 js win7up x64 firefox-has-grid loaded" dir="ltr" data-latest-firefox="53.0.2" data-esr-versions="45.9.0 52.1.1" data-statcounter-project-id="11297457" data-statcounter-security-id="d8541690" data-optimizely-project-id="246059135" data-gtm-container-id="GTM-MW3R8V" data-stub-attribution-rate="1.0" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <script type="text/javascript" src="js/site-bundle.js" charset="utf-8"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Firefox 的 CSS 格線與格線檢測器 — Mozilla</title>
+    <meta name="description" content="利用 CSS 格線與 Firefox 的格線檢測器，來探索網頁設計的新願景">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mozilla">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="CSS Grid and Grid Inspector in Firefox">
+    <meta property="og:description" content="利用 CSS 格線與 Firefox 的格線檢測器，來探索網頁設計的新願景">
+    <meta property="fb:page_id" content="262134952380">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@mozilla">
+    <meta name="twitter:domain" content="mozilla.org">
+    <meta name="twitter:app:name:googleplay" content="Firefox">
+    <meta name="twitter:app:id:googleplay" content="org.mozilla.firefox">
+    <meta name="twitter:app:name:iphone" content="Firefox">
+    <meta name="twitter:app:id:iphone" content="989804926">
+    <meta name="twitter:app:name:ipad" content="Firefox">
+    <meta name="twitter:app:id:ipad" content="989804926">
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="https://www.mozilla.org/media/img/favicon/apple-touch-icon-180x180.8772ec154918.png">
+    <link rel="icon" type="image/png" sizes="196x196" href="https://www.mozilla.org/media/img/favicon/favicon-196x196.c80e6abe0767.png">
+    <link rel="shortcut icon" href="https://www.mozilla.org/media/img/favicon.d4f1f46b91f4.ico">
+    <!--[if lte IE 8]>
+      <script src="/media/js/libs/html5shiv.d580a4cd1cb4.js"></script>
+      <link href="/media/css/oldIE-pebbles-bundle.107ec6ff82c6.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <!--[if !lte IE 8]><!-->
+    <link href="css/pebbles-bundle.css" rel="stylesheet" type="text/css">
+    <link href="css/css-grid-demo-bundle.css" rel="stylesheet" type="text/css">
+    <!--<![endif]-->
+      <!--
+Read more about our custom configuration and use of Google Analytics here:
+https://bugzilla.mozilla.org/show_bug.cgi?id=1122305#c8
+-->
+<!-- Google Tag Manager -->
+<!-- Customized for Mozilla.org-->
+<!-- Region Container: NONE -->
+<!-- Rollup Container: System Filtered -->
+<!-- Site Container: NONE -->
+  <script type="text/javascript" src="js/gtm-snippet-bundle.js" charset="utf-8"></script>
+<!-- End Google Tag Manager -->
+  <style type="text/css"></style><link rel="stylesheet" type="text/css" href="css/socialwidgets.css">
+  </head>
+  <body id="css-grid-demo" class="html-ltr ">
+    <div id="strings" data-global-close="Close" data-global-next="Next" data-global-previous="Previous" data-global-update-firefox="Update your Firefox"></div>
+  <div id="outer-wrapper">
+<main role="main">
+  <header id="page-intro" class="section">
+    <nav id="page-nav" class="content">
+      <ul class="page-nav-menu">
+        <li><a href="#demos">展示</a></li>
+        <li><a href="#inspector">開發工具之格線檢測器</a></li>
+        <li><a href="#resources">資源</a></li>
+      </ul>
+    </nav>
+    <div class="content grid-content">
+      <h1 class="page-title">CSS 格線</h1>
+      <p class="moz-logo"><a href="https://www.mozilla.org/zh-TW/"><img src="img/moz-wordmark-dark-reverse.svg" alt="Mozilla"></a></p>
+      <p class="tagline-1">CSS 格線格線簡化了當今的設計模式<br> <em>並</em> 開創了平面設計的可能性。</p>
+      <p class="tagline-2">這是個沒有框架<br>的排版框架。</p>
+      <p class="tagline-3">
+        <span>佈局。</span>
+        <span>檢測。</span>
+        <span>設計。</span>
+        <span>欣賞。</span>
+      </p>
+      <span class="a" role="presentation"></span>
+      <span class="b" role="presentation"></span>
+      <span class="c" role="presentation"></span>
+      <span class="d" role="presentation"></span>
+      <span class="e" role="presentation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+      <span class="f" role="presentation"></span>
+      <span class="g" role="presentation"></span>
+    </div>
+  </header>
+  <section id="demos">
+    <article id="demo-one" class="section demo-section example-1">
+      <div class="content grid-content">
+        <header>
+          <h2>能屈能伸</h2>
+        </header>
+        <div class="demo-intro">
+          <p>
+          你創建的格線可以是固定的尺寸、也可以是靈活的百分比、或新生的<a href="https://www.w3.org/TR/css3-grid-layout/#fr-unit" rel="external">分塊單位 <code>fr</code></a>。
+          </p>
+        </div>
+        <ul class="demo-controls">
+          <li><button type="button" class="example-switch active" data-example-class="example-1" data-example="demo-1-example-1" aria-controls="demo-1-example-1">示例一</button></li>
+          <li><button type="button" class="example-switch" data-example-class="example-2" data-example="demo-1-example-2" aria-controls="demo-1-example-2">示例二</button></li>
+          <li><button type="button" class="example-switch" data-example-class="example-3" data-example="demo-1-example-3" aria-controls="demo-1-example-3">示例三</button></li>
+        </ul>
+        <div class="demo-space">
+          <div class="fallback">
+            <img src="img/screen-demo1.jpg" alt="" width="800" height="440">
+            <p>
+            看來你的瀏覽器不支援 CSS 格線功能呢。<br>
+            要觀賞本展示的話，請用<a href="https://www.mozilla.org/zh-TW/firefox/new">最新版 Firefox</a> 來看吧。
+            </p>
+          </div>
+          <div class="grid-container">
+            <div class="item-1">1</div>
+            <div class="item-2">2</div>
+            <div class="item-3">3</div>
+            <div class="item-4">4</div>
+            <div class="item-5">5</div>
+            <div class="item-6">6</div>
+          </div>
+        </div>
+        <div id="demo-one-code" class="demo-code">
+          <h3>CSS</h3>
+          <div id="demo-1-ex-1" class="code-example code-1">
+<pre>/* 總共三列：每列都是 100px */
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap: 20px;
+}</pre>
+          </div>
+
+          <div id="demo-1-ex-2" class="code-example code-2">
+<pre>/* 總共三列：由左到右，個別是一分塊、兩分塊、與三分塊 */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-gap: 20px;
+}</pre>
+          </div>
+          <div id="demo-1-ex-3" class="code-example code-3">
+<pre>/* 總共三列：由左到右，個別為 50%、100px、接著是剩下的分塊 */
+/* 總共兩行：第一行 100px 第二行 200px */
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 100px 1fr;
+    grid-template-rows: 100px 200px;
+    grid-gap: 20px;
+}</pre>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article id="demo-two" class="section demo-section example-1">
+      <div class="content grid-content">
+        <header>
+          <h2>各得其所</h2>
+        </header>
+        <div class="demo-intro">
+          <p>
+          你可以在不改動 HTML 原始碼順序的情況下，精確定位格線區域內的各單位。對齊功能可控制各單位在格線區域內如何對齊、還有整個格線又該如何對齊。
+          </p>
+        </div>
+        <ul class="demo-controls">
+          <li><button type="button" class="example-switch active" data-example-class="example-1" data-example="demo-2-example-1" aria-controls="demo-2-example-1">示例一</button></li>
+          <li><button type="button" class="example-switch" data-example-class="example-2" data-example="demo-2-example-2" aria-controls="demo-2-example-2">示例二</button></li>
+          <li><button type="button" class="example-switch" data-example-class="example-3" data-example="demo-3-example-3" aria-controls="demo-2-example-3">示例三</button></li>
+        </ul>
+        <div class="demo-space">
+          <div class="fallback">
+            <img src="img/screen-demo2.jpg" alt="" width="800" height="440">
+            <p>
+            看來你的瀏覽器不支援 CSS 格線功能呢。<br>
+            要觀賞本展示的話，請用<a href="https://www.mozilla.org/zh-TW/firefox/new">最新版 Firefox</a> 來看吧。
+            </p>
+          </div>
+          <div class="grid-container">
+            <div class="item-1">1</div>
+            <div class="item-2">2</div>
+            <div class="item-3">3</div>
+            <div class="item-4">4</div>
+          </div>
+        </div>
+        <div class="demo-code">
+          <h3>CSS</h3>
+          <div id="demo-2-example-1" class="code-example code-1">
+<pre>/* 1fr 的列重複三次 */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.item-1 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.item-2 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.item-3 {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.item-4 {
+    grid-column: 3;
+    grid-row: 1;
+}</pre>
+          </div>
+          <div id="demo-2-example-2" class="code-example code-2" aria-hidden="true">
+<pre>/* 一個重複四次 1fr 的列、還有一個重複三次 1fr 的列 */
+/* 還給每個單位起了名字 */
+.grid-container {
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-template-areas:
+        'header header header'
+        'sidebar content content'
+        'sidebar content content'
+        'footer footer footer';
+}
+
+.item-1 {
+    grid-area: content;
+}
+
+.item-2 {
+    grid-area: sidebar;
+}
+
+.item-3 {
+    grid-area: header;
+}
+
+.item-4 {
+    grid-area: footer;
+}</pre>
+          </div>
+          <div id="demo-2-example-3" class="code-example code-3" aria-hidden="true">
+<pre>/* 重複四次 1fr 的列 */
+/* 自動啟行，每行高度最少 100px 最多 1fr */
+/* 給每個格線單位起了名字 */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(100px, 1fr);
+    grid-gap: 20px;
+    grid-template-areas:
+        'a a b b'
+        'a a b b'
+        'c c d d'
+        'c c d d';
+}
+
+.item-1 {
+    grid-area: a;
+    align-self: start;
+}
+
+.item-2 {
+    grid-area: b;
+    align-self: end;
+}
+
+.item-3 {
+    grid-area: c;
+    align-self: start;
+}
+
+.item-4 {
+    grid-area: d;
+    align-self: end;
+}</pre>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article id="demo-three" class="section demo-section example-1">
+      <div class="content grid-content">
+        <header>
+          <h2>跨山壓海</h2>
+        </header>
+        <div class="demo-intro">
+          <p>
+          各單位可以跨越格線的格子、並各自交會與重疊。你可以透過 <a href="https://developer.mozilla.org/docs/Web/CSS/z-index" rel="external">z-index</a> 控制重疊分層的規則。
+          </p>
+        </div>
+        <ul class="demo-controls">
+          <li><button type="button" class="example-switch active" data-example-class="example-1" data-example="demo-3-example-1" aria-controls="demo-3-example-1">示例一</button></li>
+          <li><button type="button" class="example-switch" data-example-class="example-2" data-example="demo-3-example-2" aria-controls="demo-3-example-2">示例二</button></li>
+          <li><button type="button" class="example-switch" data-example-class="example-3" data-example="demo-3-example-3" aria-controls="demo-3-example-3">示例三</button></li>
+        </ul>
+        <div class="demo-space">
+          <div class="fallback">
+            <img src="img/screen-demo3.jpg" alt="" width="800" height="440">
+            <p>
+            看來你的瀏覽器不支援 CSS 格線功能呢。<br>
+            要觀賞本展示的話，請用<a href="https://www.mozilla.org/zh-TW/firefox/new">最新版 Firefox</a> 來看吧。
+            </p>
+          </div>
+          <div class="grid-container">
+            <div class="item-1">1</div>
+            <div class="item-2">2</div>
+            <div class="item-3">3</div>
+            <div class="item-4">4</div>
+            <div class="item-5">5</div>
+            <div class="item-6">6</div>
+          </div>
+        </div>
+        <div class="demo-code">
+          <h3>CSS</h3>
+          <div id="demo-3-example-1" class="code-example code-1">
+<pre>/* 重複三個稱為 "row" 的行，每個高度都介於 120px 與 1fr 之間。 */
+/* 重複四個稱為 "col" 的列，每個長度都會是 1fr */
+.grid-container {
+    display: grid;
+    grid-template: repeat(3, [row] minmax(120px, 1fr)) / repeat(4, [col] 1fr);
+    grid-gap: 20px;
+}
+
+.item-1 {
+    grid-column: col 1 / span 4;
+    grid-row: row 1;
+}
+
+.item-2 {
+    grid-column: col 4;
+    grid-row: row 1 / span 3;
+}
+
+.item-3 {
+    grid-column: col 1;
+    grid-row: row 2;
+}
+
+.item-4 {
+    grid-column: col 2 / span 2;
+    grid-row: row 2;
+}
+
+.item-5 {
+    grid-column: col 1;
+    grid-row: row 3;
+}
+
+.item-6 {
+    grid-column: col 2 / span 2;
+    grid-row: row 3;
+}</pre>
+          </div>
+          <div id="demo-3-example-2" class="code-example code-2" aria-hidden="true">
+<pre>/* 重複四個稱為 "row"、長度是 1fr 的行，還有五個稱為 "col"、長度是 1fr 的列 */
+.grid-container {
+    display: grid;
+    grid-template: repeat(4, [row] 1fr) / repeat(5, [col] 1fr);
+    grid-gap: 20px;
+}
+
+.item-1 {
+    grid-column: col 1;
+    grid-row: row 1;
+    z-index: 1;
+}
+
+.item-2 {
+    grid-column: col 1 / span 2;
+    grid-row: row 1 / span 2;
+    z-index: 2;
+}
+
+.item-3 {
+    grid-column: col 1 / span 3;
+    grid-row: row 1 / span 3;
+    z-index: 3;
+}
+
+.item-4 {
+    grid-column: col 3 / span 3;
+    grid-row: row 2 / span 3;
+    z-index: 3;
+}
+
+.item-5 {
+    grid-column: col 4 / span 2;
+    grid-row: row 3 / span 2;
+    z-index: 2;
+}
+
+.item-6 {
+    grid-column: col 5;
+    grid-row: row 4;
+    z-index: 1;
+}</pre>
+          </div>
+          <div id="demo-3-example-3" class="code-example code-3" aria-hidden="true">
+<pre>/* 重複六個稱為 "row"、長度是 1fr 的行，還有六個稱為 "col"、長度也是 1fr 的列 */
+.grid-container {
+    display: grid;
+    grid-template: repeat(6, [row] 1fr) / repeat(6, [col] 1fr);
+    grid-gap: 20px;
+}
+
+.item-1 {
+    grid-column: col 1 / span 3;
+    grid-row: row 1 / span 2;
+    z-index: 3;
+}
+
+.item-2 {
+    grid-column: col 3 / span 4;
+    grid-row: row 2 / span 3;
+    z-index: 3;
+}
+
+.item-3 {
+    grid-column: col 5 / span 2;
+    grid-row: row 1 / span 5;
+    z-index: 3;
+}
+
+.item-4 {
+    grid-column: col 2;
+    grid-row:  row 2 / span 4;
+    z-index: 2;
+}
+
+.item-5 {
+    grid-column: col 1 / span 3;
+    grid-row: row 4 / span 3;
+    z-index: 1;
+}
+
+.item-6 {
+    grid-column: col 4 / span 3;
+    grid-row: row 5 / span 2;
+    z-index: 4;
+}</pre>
+          </div>
+        </div>
+      </div>
+    </article>
+  </section>
+  <article id="inspector" class="section">
+    <div class="content grid-content">
+      <header>
+        <h2>檢測你的設計</h2>
+        <p>
+        Firefox 的<a href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts">格線檢測工具</a>能讓你在建立佈局、
+          或觀察其他 CSS 格線展示時，看到該格線的套路。
+          其實這整個頁面都是用 CSS 格線完成的喔。試試看吧！
+        </p>
+      </header>
+      <ol class="gallery inspector-steps">
+        <li>
+          <figure>
+            <img class="screenshot" src="img/inspect-step1.jpg" alt="" width="440" height="242">
+            <figcaption>
+            在 Firefox 點一下滑鼠右鍵，選擇「檢測元素」。
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img class="screenshot" src="img/inspect-step2.jpg" alt="" width="440" height="242">
+            <figcaption>
+            在開發者工具內，找到有 <code>display: grid;</code> 宣告的元素，並點擊 <img class="" src="img/grid-icon.png" alt="Grid" width="12" height="12"> 圖標。
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <img class="screenshot" src="img/inspect-step3.jpg" alt="" width="440" height="242">
+            <figcaption>
+            你會發現整個格線用線條及區域覆蓋住了。
+            </figcaption>
+          </figure>
+        </li>
+      </ol>
+      <figure class="video">
+        <div class="video-wrap">
+          <iframe id="grid-video" class="video-frame" src="" allowfullscreen="" data-frame-src="https://www.youtube-nocookie.com/embed/16enLRDbOyY?rel=0" width="853" height="480" frameborder="0">
+            &lt;p&gt;&lt;a
+href="https://www.youtube.com/watch?v=16enLRDbOyY"
+rel="external"&gt;看看影片&lt;/a&gt;&lt;/p&gt;
+          </iframe>
+        </div>
+      </figure>
+    </div>
+  </article>
+  <article id="resources">
+    <section class="section resources-top">
+      <div class="content">
+        <header>
+          <h2>還想多知道點嗎？</h2>
+          <p>這裡列了一些我們最愛用的資源。</p>
+        </header>
+        <ul class="gallery top-resources">
+          <li>
+            <a href="https://developer.mozilla.org/docs/Web/CSS/CSS_Grid_Layout" rel="external">
+              <img class="screenshot" src="img/resource-mdn.png" alt="" width="440" height="242">
+              MDN 參考文件 <span><span>多讀一點</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="http://gridbyexample.com/" rel="external">
+              <img class="screenshot" src="img/resource-gridbyexample.png" alt="" width="440" height="242">
+              Rachel Andrew 的格線示例 <span><span>多讀一點</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="http://labs.jensimmons.com/" rel="external">
+              <img class="screenshot" src="img/resource-simmonslab.png" alt="" width="440" height="242">
+              Jen Simmons 的佈局實驗室 <span><span>多讀一點</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="http://jensimmons.com/post/feb-27-2017/learn-css-grid" rel="external">
+              <img class="screenshot" src="img/resource-learngrid.png" alt="" width="440" height="242">
+              了解 CSS 格線 <span><span>多讀一點</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="http://jensimmons.com/post/feb-28-2017/benefits-learning-how-code-layouts-css" rel="external">
+              <img class="screenshot" src="img/resource-benefits.png" alt="" width="440" height="242">
+              學習如何透過程式碼佈置 CSS 之益 <span><span>多讀一點</span></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://rachelandrew.co.uk/archives/2017/02/20/a-box-alignment-cheatsheet/" rel="external">
+              <img class="screenshot" src="img/resource-alignmentcheat.png" alt="" width="440" height="242">
+              區塊對齊速記表 <span><span>多讀一點</span></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section resources-further">
+      <div class="content">
+        <h3>參閱</h3>
+        <ul class="further-reading">
+          <li><a href="http://jensimmons.com/" rel="external">Jen Simmons 的網站</a></li>
+          <li><a href="https://rachelandrew.co.uk/" rel="external">Rachel Andrew 的網站</a></li>
+          <li>W3C 規範：<a href="https://www.w3.org/TR/css-grid-1/" rel="external">CSS 格線佈局模塊第一階段</a></li>
+          <li><a href="https://developer.mozilla.org/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout" rel="external">格線佈局的基本概念</a></li>
+          <li>Rachel Andrew 在 <a href="https://github.com/rachelandrew/cssgrid-ama" rel="external">Github 的「問我 CSS 任何事」</a></li>
+          <li><a href="http://gridbyexample.com/learn/2016/12/17/learning-grid-day17/" rel="external">CSS 格線檢測工具的示範影片</a></li>
+          <li><a href="https://hacks.mozilla.org/2016/12/css-grid-and-grid-highlighter-now-in-firefox-developer-edition/" rel="external">Firefox Developer Edition 的 CSS 格線與格線高亮器</a></li>
+
+          <li>格線檢測工具文件：<a href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts" rel="external">如何檢驗格線佈局</a></li>
+          <li><a href="https://hacks.mozilla.org/2015/09/the-future-of-layout-with-css-grid-layouts/" rel="external">用 CSS 的佈局遠景：格線佈局</a></li>
+          <li>
+          有關狀態 CSS 格線支援的最新消息請參見 <a href="http://gridbyexample.com/browsers/" rel="external">gridbyexample.com/browsers</a> 或 <a href="http://caniuse.com/#feat=css-grid" rel="external">caniuse</a>。
+          </li>
+        </ul>
+      </div>
+    </section>
+  </article>
+  <section id="download-firefox" class="section stuck" style="bottom: 0px;">
+    <div class="not-fx">
+      <div class="content grid-content">
+        <div class="cta">
+          <h2><span>沒有 Firefox <br>卻又想試試格線檢測工具嗎？</span></h2>
+        </div>
+        <div class="fx-download">
+<div id="btn-download-notfx" class="download-button">
+  <div class="nojs-download">
+  <div class="download download-dumb">
+    <p role="heading" class="download-heading">
+        下載 Firefox
+        — 正體中文
+    </p>
+    <ul>
+      <li><a href="https://download-sha1.allizom.org/?product=firefox-stub&amp;os=win&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="winsha1" data-download-os="Desktop">Windows (XP/Vista)</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-stub&amp;os=win&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="win" data-download-os="Desktop">Windows</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=win64&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="win64" data-download-os="Desktop">Windows 64 位元</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=osx&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="osx" data-download-os="Desktop">macOS</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=linux&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="linux" data-download-os="Desktop">Linux</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=linux64&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="linux64" data-download-os="Desktop">Linux 64 位元</a>
+        </li><li><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;referrer=utm_source%3Dmozilla%26utm_medium%3DReferral%26utm_campaign%3Dmozilla-org" class="download-link button button-green" data-link-type="download" data-download-version="android" data-download-os="Android">Android</a>
+        </li><li><a href="https://itunes.apple.com/us/app/apple-store/id989804926?pt=373246&amp;mt=8" class="download-link button button-green" data-link-type="download" data-download-version="ios" data-download-os="iOS">iOS</a>
+        </li>
+    </ul>
+  </div>
+  </div>
+    <div class="unrecognized-download">
+      <p>你的系統可能無法滿足 Firefox 的需求，但可以試看看以下版本：</p>
+  <div class="download download-dumb">
+    <p role="heading" class="download-heading">
+        下載 Firefox
+        — 正體中文
+    </p>
+    <ul>
+      <li><a href="https://download-sha1.allizom.org/?product=firefox-stub&amp;os=win&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="winsha1" data-download-os="Desktop">Windows (XP/Vista)</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-stub&amp;os=win&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="win" data-download-os="Desktop">Windows</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=win64&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="win64" data-download-os="Desktop">Windows 64-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=osx&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="osx" data-download-os="Desktop">macOS</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=linux&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="linux" data-download-os="Desktop">Linux</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=linux64&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="linux64" data-download-os="Desktop">Linux 64-bit</a>
+        </li><li><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;referrer=utm_source%3Dmozilla%26utm_medium%3DReferral%26utm_campaign%3Dmozilla-org" class="download-link button button-green" data-link-type="download" data-download-version="android" data-download-os="Android">Android</a>
+        </li><li><a href="https://itunes.apple.com/us/app/apple-store/id989804926?pt=373246&amp;mt=8" class="download-link button button-green" data-link-type="download" data-download-version="ios" data-download-os="iOS">iOS</a>
+        </li>
+    </ul>
+  </div>
+    </div>
+    <p class="unsupported-download">
+      你的系統無法滿足 Firefox 的<a href="https://www.mozilla.org/zh-TW/firefox/system-requirements/">需求</a>。
+    </p>
+    <p class="unsupported-download-osx">
+      你的系統無法滿足 Firefox 的<a href="https://support.mozilla.org/kb/firefox-osx">需求</a>。
+    </p>
+    <p class="linux-arm-download">
+      要安裝 Firefox 的話請遵循<a href="https://support.mozilla.org/kb/install-firefox-linux">本指引</a>。
+    </p>
+  <ul class="download-list" role="presentation">
+      <li class="os_winsha1">
+        <a class="download-link button button-hollow button-light" href="https://www.mozilla.org/firefox/new/?scene=2" data-direct-link="https://download-sha1.allizom.org/?product=firefox-stub&amp;os=win&amp;lang=zh-TW" data-link-type="download" data-display-name="Windows (XP/Vista)" data-download-version="winsha1" data-download-os="Desktop">
+          <strong class="download-title">
+                  下載 Firefox
+          </strong>
+        </a>
+      </li>
+      <li class="os_win">
+        <a class="download-link button button-hollow button-light" href="https://www.mozilla.org/firefox/new/?scene=2" data-direct-link="https://download.mozilla.org/?product=firefox-stub&amp;os=win&amp;lang=zh-TW" data-link-type="download" data-display-name="Windows" data-download-version="win" data-download-os="Desktop">
+          <strong class="download-title">
+
+
+
+                  下載 Firefox
+
+
+
+          </strong>
+        </a>
+      </li>
+
+      <li class="os_win64">
+        <a class="download-link button button-hollow button-light" href="https://www.mozilla.org/firefox/new/?scene=2" data-direct-link="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=win64&amp;lang=zh-TW" data-link-type="download" data-display-name="Windows 64-bit" data-download-version="win64" data-download-os="Desktop">
+          <strong class="download-title">
+
+
+
+                  下載 Firefox
+
+
+
+          </strong>
+        </a>
+      </li>
+
+      <li class="os_osx">
+        <a class="download-link button button-hollow button-light" href="https://www.mozilla.org/firefox/new/?scene=2" data-direct-link="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=osx&amp;lang=zh-TW" data-link-type="download" data-display-name="macOS" data-download-version="osx" data-download-os="Desktop">
+          <strong class="download-title">
+
+
+
+                  下載 Firefox
+
+
+
+          </strong>
+        </a>
+      </li>
+
+      <li class="os_linux">
+        <a class="download-link button button-hollow button-light" href="https://www.mozilla.org/firefox/new/?scene=2" data-direct-link="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=linux&amp;lang=zh-TW" data-link-type="download" data-display-name="Linux" data-download-version="linux" data-download-os="Desktop">
+          <strong class="download-title">
+
+
+
+                  下載 Firefox
+
+
+
+          </strong>
+        </a>
+      </li>
+
+      <li class="os_linux64">
+        <a class="download-link button button-hollow button-light" href="https://www.mozilla.org/firefox/new/?scene=2" data-direct-link="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=linux64&amp;lang=zh-TW" data-link-type="download" data-display-name="Linux 64-bit" data-download-version="linux64" data-download-os="Desktop">
+          <strong class="download-title">
+
+
+
+                  下載 Firefox
+
+
+
+          </strong>
+        </a>
+      </li>
+
+      <li class="os_android">
+        <a class="download-link button button-hollow button-light" href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;referrer=utm_source%3Dmozilla%26utm_medium%3DReferral%26utm_campaign%3Dmozilla-org" data-link-type="download" data-display-name="Android" data-download-version="android" data-download-os="Android">
+          <strong class="download-title">
+
+
+
+                  <span>Firefox</span> for Android
+
+
+
+          </strong>
+        </a>
+      </li>
+
+      <li class="os_ios">
+        <a class="download-link button button-hollow button-light" href="https://itunes.apple.com/us/app/apple-store/id989804926?pt=373246&amp;mt=8" data-link-type="download" data-display-name="iOS" data-download-version="ios" data-download-os="iOS">
+          <strong class="download-title">
+
+
+                <span>Firefox</span> for iOS
+
+
+          </strong>
+        </a>
+      </li>
+
+  </ul>
+  <small class="fx-privacy-link">
+    <a href="https://www.mozilla.org/zh-TW/privacy/firefox/">Firefox 隱私權政策</a>
+  </small>
+</div>
+        </div>
+      </div>
+    </div>
+    <div class="old-fx">
+      <div class="content grid-content">
+        <div class="cta">
+          <h2><span>看來你還在用不支援 CSS 格線的 Firefox 舊版本呢。</span></h2>
+        </div>
+        <div class="fx-download">
+<div id="btn-download-oldfx" class="download-button">
+
+  <div class="nojs-download">
+
+  <div class="download download-dumb">
+    <p role="heading" class="download-heading">
+
+        Download Firefox
+        — English (US)
+    </p>
+    <ul>
+      <li><a href="https://download-sha1.allizom.org/?product=firefox-stub&amp;os=win&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="winsha1" data-download-os="Desktop">Windows (XP/Vista)</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-stub&amp;os=win&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="win" data-download-os="Desktop">Windows</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=win64&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="win64" data-download-os="Desktop">Windows 64-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=osx&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="osx" data-download-os="Desktop">macOS</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=linux&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="linux" data-download-os="Desktop">Linux</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=linux64&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="linux64" data-download-os="Desktop">Linux 64-bit</a>
+        </li><li><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;referrer=utm_source%3Dmozilla%26utm_medium%3DReferral%26utm_campaign%3Dmozilla-org" class="download-link button button-green" data-link-type="download" data-download-version="android" data-download-os="Android">Android</a>
+        </li><li><a href="https://itunes.apple.com/us/app/apple-store/id989804926?pt=373246&amp;mt=8" class="download-link button button-green" data-link-type="download" data-download-version="ios" data-download-os="iOS">iOS</a>
+        </li>
+    </ul>
+  </div>
+
+  </div>
+
+
+    <div class="unrecognized-download">
+      <p>Your system may not meet the requirements for Firefox, but you can try one of these versions:</p>
+
+  <div class="download download-dumb">
+    <p role="heading" class="download-heading">
+
+        Download Firefox
+        — English (US)
+    </p>
+    <ul>
+      <li><a href="https://download-sha1.allizom.org/?product=firefox-stub&amp;os=win&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="winsha1" data-download-os="Desktop">Windows (XP/Vista)</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-stub&amp;os=win&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="win" data-download-os="Desktop">Windows</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=win64&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="win64" data-download-os="Desktop">Windows 64-bit</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=osx&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="osx" data-download-os="Desktop">macOS</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=linux&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="linux" data-download-os="Desktop">Linux</a>
+        </li><li><a href="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=linux64&amp;lang=zh-TW" class="download-link button button-green" data-link-type="download" data-download-version="linux64" data-download-os="Desktop">Linux 64-bit</a>
+        </li><li><a href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;referrer=utm_source%3Dmozilla%26utm_medium%3DReferral%26utm_campaign%3Dmozilla-org" class="download-link button button-green" data-link-type="download" data-download-version="android" data-download-os="Android">Android</a>
+        </li><li><a href="https://itunes.apple.com/us/app/apple-store/id989804926?pt=373246&amp;mt=8" class="download-link button button-green" data-link-type="download" data-download-version="ios" data-download-os="iOS">iOS</a>
+        </li>
+    </ul>
+  </div>
+
+    </div>
+    <p class="unsupported-download">
+      Your system doesn't meet the <a href="https://www.mozilla.org/zh-TW/firefox/system-requirements/">requirements</a> to run Firefox.
+    </p>
+    <p class="unsupported-download-osx">
+      Your system doesn't meet the <a href="https://support.mozilla.org/kb/firefox-osx">requirements</a> to run Firefox.
+    </p>
+    <p class="linux-arm-download">
+      Please follow <a href="https://support.mozilla.org/kb/install-firefox-linux">these instructions</a> to install Firefox.
+    </p>
+
+  <ul class="download-list" role="presentation">
+
+      <li class="os_winsha1">
+        <a class="download-link button button-hollow button-light" href="https://www.mozilla.org/firefox/new/?scene=2" data-direct-link="https://download-sha1.allizom.org/?product=firefox-stub&amp;os=win&amp;lang=zh-TW" data-link-type="download" data-display-name="Windows (XP/Vista)" data-download-version="winsha1" data-download-os="Desktop">
+          <strong class="download-title">
+
+              Update Firefox Now
+
+          </strong>
+        </a>
+      </li>
+
+      <li class="os_win">
+        <a class="download-link button button-hollow button-light" href="https://www.mozilla.org/firefox/new/?scene=2" data-direct-link="https://download.mozilla.org/?product=firefox-stub&amp;os=win&amp;lang=zh-TW" data-link-type="download" data-display-name="Windows" data-download-version="win" data-download-os="Desktop">
+          <strong class="download-title">
+
+              Update Firefox Now
+
+          </strong>
+        </a>
+      </li>
+
+      <li class="os_win64">
+        <a class="download-link button button-hollow button-light" href="https://www.mozilla.org/firefox/new/?scene=2" data-direct-link="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=win64&amp;lang=zh-TW" data-link-type="download" data-display-name="Windows 64-bit" data-download-version="win64" data-download-os="Desktop">
+          <strong class="download-title">
+
+              Update Firefox Now
+
+          </strong>
+        </a>
+      </li>
+
+      <li class="os_osx">
+        <a class="download-link button button-hollow button-light" href="https://www.mozilla.org/firefox/new/?scene=2" data-direct-link="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=osx&amp;lang=zh-TW" data-link-type="download" data-display-name="macOS" data-download-version="osx" data-download-os="Desktop">
+          <strong class="download-title">
+
+              Update Firefox Now
+
+          </strong>
+        </a>
+      </li>
+
+      <li class="os_linux">
+        <a class="download-link button button-hollow button-light" href="https://www.mozilla.org/firefox/new/?scene=2" data-direct-link="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=linux&amp;lang=zh-TW" data-link-type="download" data-display-name="Linux" data-download-version="linux" data-download-os="Desktop">
+          <strong class="download-title">
+
+              Update Firefox Now
+
+          </strong>
+        </a>
+      </li>
+
+      <li class="os_linux64">
+        <a class="download-link button button-hollow button-light" href="https://www.mozilla.org/firefox/new/?scene=2" data-direct-link="https://download.mozilla.org/?product=firefox-53.0.2-SSL&amp;os=linux64&amp;lang=zh-TW" data-link-type="download" data-display-name="Linux 64-bit" data-download-version="linux64" data-download-os="Desktop">
+          <strong class="download-title">
+
+              Update Firefox Now
+
+          </strong>
+        </a>
+      </li>
+
+      <li class="os_android">
+        <a class="download-link button button-hollow button-light" href="https://play.google.com/store/apps/details?id=org.mozilla.firefox&amp;referrer=utm_source%3Dmozilla%26utm_medium%3DReferral%26utm_campaign%3Dmozilla-org" data-link-type="download" data-display-name="Android" data-download-version="android" data-download-os="Android">
+          <strong class="download-title">
+
+              Update Firefox Now
+
+          </strong>
+        </a>
+      </li>
+
+      <li class="os_ios">
+        <a class="download-link button button-hollow button-light" href="https://itunes.apple.com/us/app/apple-store/id989804926?pt=373246&amp;mt=8" data-link-type="download" data-display-name="iOS" data-download-version="ios" data-download-os="iOS">
+          <strong class="download-title">
+
+              Update Firefox Now
+
+          </strong>
+        </a>
+      </li>
+
+  </ul>
+  <small class="fx-privacy-link">
+    <a href="https://www.mozilla.org/zh-TW/privacy/firefox/">Firefox 隱私權</a>
+  </small>
+</div>
+        </div>
+      </div>
+    </div>
+  <button type="button" class="close" title="Close">關閉</button></section>
+  <svg class="clip-paths" xmlns="http://www.w3.org/2000/svg" width="0" height="0" overflow="visible">
+  <defs>
+    <clipPath id="angle-up-right" clipPathUnits="objectBoundingBox">
+      <path d="M0,.95 L1,0 L1,1 L0,1 z"></path>
+    </clipPath>
+    <clipPath id="angle-up-left" clipPathUnits="objectBoundingBox">
+      <path d="M0,0 L1,.95 L1,1 L0,1 z"></path>
+    </clipPath>
+  </defs>
+</svg>
+</main>
+  </div>
+  <!--[if IE 9]>
+    <script type="text/javascript" src="/media/js/matchmedia-bundle.4bd52fa6725f.js" charset="utf-8"></script>
+  <![endif]-->
+  <script type="text/javascript" src="js/common-bundle.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/stub-attribution-bundle.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/css-grid-demo-bundle.js" charset="utf-8"></script>
+</body></html>
