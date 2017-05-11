@@ -23,6 +23,22 @@
       </iframe>
     </div>
 
+    <a href="https://discourse.mozilla-community.org/t/the-discussion-review-workshop-of-draft-convergence-bills-in-taiwan/13683">
+      <article class="on">
+        <header>
+          <h2>2017 匯流法討論會</h2>
+          <time pubdate="pubdate">2017/2/18</time>
+          <span class="arrow"></span>
+        </header>
+
+        <div class="photo" style="background:url(draft-convergence-bills-workshop/workshop.jpg) -110px -76px">
+        </div>
+        <div class="content">
+          2017 匯流法討論會
+        </div>
+      </article>
+    </a>
+
     <a href="moztw-lab/" id="moztwlab">
       <article class="on">
         <header>
