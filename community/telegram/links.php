@@ -78,7 +78,7 @@ $links = Array(
 	),
 
 	Array(
-		'id' => 'AutpyAabEGUV5IXK4bReIw',
+		'id' => 'AAAAAEEH1sx1XsuPD2Mpnw',
 		'name' => 'MozTW dev/add-on',
 		'description' => 'Mozilla 套件與開發相關技術討論',
 		'introduction' => '開發者及套件子頻道。',
@@ -146,4 +146,15 @@ $links = Array(
 			'en',
 		),
 	),
+  
+  Array(
+		'id' => '@MozillaVR',
+		'name' => 'Mozilla VR',
+		'description' => 'Mozilla VR community \'s channel',
+		'introduction' => 'A group of awesome MozillaVR Contributors, working on A-Frame & WebVR.',
+		'tags' => Array(
+			'en',
+		),
+	)
+
 );
