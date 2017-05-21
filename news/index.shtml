@@ -17,7 +17,7 @@
 
 <ul class="news">
   <li><div class="date"> 5 月 20</div>
-    Firefox 53.0.3 更新</li>
+    <a href="/firefox/releases/53.0.3/">Firefox 53.0.3</a> 更新</li>
   <li><div class="date"> 5 月 6</div>
     <a href="/firefox/releases/53.0.2/">Firefox 53.0.2</a> 更新</li>
   <li><div class="date"> 5 月 2</div>
