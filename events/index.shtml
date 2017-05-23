@@ -39,6 +39,22 @@
       </article>
     </a>
 
+    <a href="https://discourse.mozilla-community.org/t/the-discussion-review-workshop-of-draft-convergence-bills-in-taiwan/13683">
+      <article class="on">
+        <header>
+          <h2>2017 匯流法討論會</h2>
+          <time pubdate="pubdate">2017/2/18</time>
+          <span class="arrow"></span>
+        </header>
+
+        <div class="photo" style="background:url(draft-convergence-bills-workshop/workshop.jpg) -110px -76px">
+        </div>
+        <div class="content">
+          MozTW 與推動網路中立性立法粉絲團合作，這一天我們邀集數十位關心「數位通訊傳播法」與「電信管理法」等兩部匯流法草案的朋友與業界先進，一起在摩茲工寮閱讀與討論法條，並彙集意見送到政府 Join 意見募集平台及承辦人信箱。
+        </div>
+      </article>
+    </a>
+
     <div class="group">
       <a href="https://www.flickr.com/search/?group_id=774566%40N20&min_taken_date=1478793600&max_taken_date=1478879999&view_all=1" title="Happy Birthday, Firefox!!!" id="Firfox-12-birthday">
         <article class="small">
@@ -48,22 +64,6 @@
             <span class="arrow"></span>
           </header>
           <img src="img/Firefox-12-birthday.jpg">
-        </article>
-      </a>
-
-      <a href="https://discourse.mozilla-community.org/t/the-discussion-review-workshop-of-draft-convergence-bills-in-taiwan/13683">
-        <article class="on">
-          <header>
-            <h2>2017 匯流法討論會</h2>
-            <time pubdate="pubdate">2017/2/18</time>
-            <span class="arrow"></span>
-          </header>
-
-          <div class="photo" style="background:url(draft-convergence-bills-workshop/workshop.jpg) -110px -76px">
-          </div>
-          <div class="content">
-            MozTW 與推動網路中立性立法粉絲團合作，這一天我們邀集數十位關心「數位通訊傳播法」與「電信管理法」等兩部匯流法草案的朋友與業界先進，一起在摩茲工寮閱讀與討論法條，並彙集意見送到政府 Join 意見募集平台及承辦人信箱。
-          </div>
         </article>
       </a>
 
@@ -77,7 +77,6 @@
           <img src="img/MozFest-2016.jpg">
         </article>
       </a>
-
 
       <a href="http://irvin.sto.tw/2016/08/tw-mozillians-in-hkoscon.html" title="2016 HKOSCon 心得" id="HKOSCon-2014-to-2016">
         <article class="small">
