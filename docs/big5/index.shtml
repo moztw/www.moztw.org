@@ -53,7 +53,7 @@
 	<dd>
 	台灣政府單位正式制定的最新 Big5 標準，目前以 
 	<a href='http://www.cns11643.gov.tw'>CNS11643</a>的
-	<a href='http://www.cns11643.gov.tw/web/big5/'>附錄</a>形式發行。<br/>
+	<a href='http://www.cns11643.gov.tw/AIDB/encodings.do'>附錄</a>形式發行。<br/>
 	由於 Big5-2003 試圖減少 Unicode 字寬有問題的 Ambigious CJK 部份，
 	它把某些符號的 b2u 做了改變，導致 CP950 並不完全是 Big5-2003 的子集合
 	(或說 Big5-2003 不是 CP950 的 superset)。 某些字 (共 14 個符號)
@@ -97,10 +97,10 @@
 	所以下面另外提供 b2u-strict 是不使用 UAO 的標準 Big5-2003。
 	如果您的系統有另行支援 HKSCS, 可使用標準 b2u; 若您的系統無法分開處理
 	Big5-hkscs 與 Big5, 則請用 b2u-strict)<br/>
-	<b>此字碼表已於 2006 年 6 月 29 進入 Mozilla Respitory，Firefox 在 2 
+	此字碼表已於 2006 年 6 月 29 進入 Mozilla Respitory，Firefox 在 2
 	之後的版本皆使用此「非雙向」字碼表轉碼，以求最大相容性
-	(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=310299">bug 310299</a>)。</b>
-	<br/><b>字碼表: 
+	(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=310299">bug 310299</a>)。
+	<br/><b>字碼表:
 	    <a href='table/moz18-b2u.txt'>Mozilla 1.8 b2u</a>&nbsp;
 	    <a href='table/moz18-u2b.txt'>Mozilla 1.8 u2b</a>&nbsp;
 	    &nbsp; * <a href='table/moz18-b2u-strict.txt' title='以跟 HKSCS 相容'>b2u-strict(不使用UAO字集)</a>&nbsp;
@@ -127,6 +127,19 @@
 	    <a href='table/hkscs2001.txt'>Big5HKSCS-2001</a> &nbsp;
 	    <a href='table/hkscs2004.txt'>Big5HKSCS-2004</a> </b>
 	</dd>
+  <dt>WHATWG Encoding Standard</dt>
+  <dd>
+  <a href="https://encoding.spec.whatwg.org/">Encoding Standard</a> 是以 WHATWG 為名義發表的，針對 Web 設計的編碼標準。它試圖以 UTF-8 轉換目標，統一瀏覽器處理舊式編碼的對照表。
+  2013 年，標準規格書編輯與社群成員首次提出了統一 Web 使用 Big5 編碼的問題。
+  經過冗長的討論之後，我們發現 Web 上並沒有大量使用 Big5-UAO 字集的例子（目前的 Big5 環境例如 PTT，其網頁版也都轉為 UTF-8 呈現），因此 Encoding Standard 最後使用的 Big5 表格為盡量與 Big5-hkscs 相容（因為其在 Web 上依然有顯著使用的編碼），且特別避免一些 PUA 等對照的對稱表格。
+  <br/><b>此字碼表在 2015 年 9 月 11 日進入 Firefox 43，成為目前使用的 Big5 編碼 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=912470">Bug 912470</a>)。</b>
+  <br/><b>字碼表：<a href="https://encoding.spec.whatwg.org/index-big5.txt">index-big5.txt</a>&nbsp;
+      <a href="https://encoding.spec.whatwg.org/#legacy-multi-byte-chinese-(traditional)-encodings">編碼規則</a></b>
+  <br /><b>相關討論：[<a href="https://lists.w3.org/Archives/Public/public-whatwg-archive/2012Apr/thread.html#msg42">whatwg #1</a>]&nbsp;
+      [<a href="https://lists.w3.org/Archives/Public/public-whatwg-archive/2012Mar/thread.html#msg259">whatwg #2</a>]&nbsp;
+      [<a href="https://lists.w3.org/Archives/Public/public-whatwg-archive/2012Apr/thread.html#msg95">whatwg #3</a>]&nbsp;
+      [<a href="https://groups.google.com/forum/m/#!msg/moztw-general/d5nRslb9h1k/_n8qPw0WmuYJ">moztw-general</a>]</b>
+  </dd>
     </dl>
     <h3> 其它舊 Big5 字碼表 </h3>
     下面的 Big5 版本比較<b style='color: red;'>不建議</b>使用。

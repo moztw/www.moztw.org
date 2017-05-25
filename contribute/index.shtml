@@ -163,19 +163,7 @@ h3.toggle, span.toggle {
 	</div>
 	<div id="video">
 		<iframe width="360" height="200" src="https://www.youtube-nocookie.com/embed/Z7sv7JMMCBI?list=PLOHV-5SHjI8hJTZ6rW-cLmPp7tzgI8bji" frameborder="0" allowfullscreen></iframe>
-<!--			<script type="text/javascript" src="http://s3.www.universalsubtitles.org/embed.js">
-		({
-			"base_state": {"language": "zh-tw"},
-			"video_url": "https://videos.mozilla.org/serv/brand/Mozilla_Firefox_Manifesto_v0.1.ogv",
-			"video_config": {
-				click_to_play: true,
-				color: 'FF0000',
-				poster: "poster-brand.jpg",
-				id: "videoPlayer"
-			}
-		})
-		</script>
-		-->
+    <!-- <div class="amara-embed" data-initial-language="zh-tw" data-url="https://videos.mozilla.org/serv/brand/Mozilla_Firefox_Manifesto_v0.1.ogv"></div>	-->
 	</div>
 </div>
 
@@ -309,18 +297,18 @@ h3.toggle, span.toggle {
 			<div class="intro_desc">
 				<h2>Mozilla、Firefox 軟體開發</h2>
 				<p>替 Mozilla 軟體開發新功能、或幫 Firefox 除錯，透過解 Bug 挑戰自己的程式功力，躋身 Mozilla 全球開發者的一員。你可以在 IRC 頻道上找到許多開發者，那裡是很棒的發問管道，Mozilla 的網站也歡迎網頁忍者來駭一駭。</p>
-				<a href="http://whatcanidoformozilla.org/" onClick="ga('send', 'event', 'contribute', 'dev', 'WhatCanIDoForMozilla');"><span class="button">我能在 Mozilla 做些什麼</span></a>
+				<a href="https://whatcanidoformozilla.org/" onClick="ga('send', 'event', 'contribute', 'dev', 'WhatCanIDoForMozilla');"><span class="button">我能在 Mozilla 做些什麼</span></a>
 				<a href="https://lists.mozilla.org/listinfo/dev-general-zh" onClick="ga('send', 'event', 'contribute', 'dev', 'ldev-general-zh');"><span class="button">中文開發者郵件群組</span></a>
 				<br style="clear: both;">
 				<a href="https://groups.google.com/d/topic/moztw-general/V-21VIdcLhk/discussion" onClick="ga('send', 'event', 'contribute', 'dev', 'detail');"><span class="button detail">詳細資訊 》</span></a>
 				<a href="irc://irc.mozilla.org/mozilla-taiwan" onClick="ga('send', 'event', 'contribute', 'dev', 'irc-mozilla-taiwan');"><span class="button">Mozillia-Taiwan IRC</span></a>
-				<a href="http://www.joshmatthews.net/bugsahoy/" onClick="ga('send', 'event', 'contribute', 'dev', 'ldev-general-zh');"><span class="button">新手Bug</span></a>
+				<a href="https://www.joshmatthews.net/bugsahoy/" onClick="ga('send', 'event', 'contribute', 'dev', 'ldev-general-zh');"><span class="button">新手Bug</span></a>
 			</div>
 		</div>
 	</div>
 
 	<div id="tabs-3">
-		<iframe src="http://whatcanidoformozilla.org/" width="530" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+		<iframe src="https://whatcanidoformozilla.org/" width="530" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 	</div>
 <!--
 	<div id="tabs-3-old">
@@ -330,7 +318,7 @@ h3.toggle, span.toggle {
 -->
 	<div id="tabs-4">
 		<h1>填寫資料給我們</h1>
-		<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDdDdUlyWWhQQTczelZZb1k5VjAwbnc6MQ" width="530" height="3000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeodR18WdcQPaf8EtIMH93_U8PL1rUgTf9B_yxC2593QXxH_A/viewform?embedded=true" width="530" height="500" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
 	</div>
 </div>
 </div>
@@ -379,6 +367,7 @@ h3.toggle, span.toggle {
 <!--#include virtual="/inc/footer.html" -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript" src="../js/library/jquery-ui-1.7.3.custom.min.js"></script>
+<script type="text/javascript" src='https://amara.org/embedder-iframe'></script>
 <script type="text/javascript">
 $(function() {
   $("#tabs").tabs({ selected: 0 });	//設定預設分頁

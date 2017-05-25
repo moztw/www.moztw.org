@@ -1,0 +1,59 @@
+<!--#set var="release_date" value="2016-10-22" -->
+<!--#set var="version" value="49.0.2" -->
+<!--#set var="previous_version" value="49.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>預設啟用 Adobe Flash 外掛程式的非同步繪圖功能，改善對應網站效能並減少當機情形（<a href="https://bugzilla.mozilla.org/1307108">bug 1307108</a>）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>調整 D3D9 fallback 預設值（<a href="https://bugzilla.mozilla.org/1306465">bug 1306465</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正啟動時因網路問題造成看不見 Firefox UI 的狀況（<a href="https://bugzilla.mozilla.org/1305436">bug 1305436</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span><code>Array.prototype.values</code> 相容性問題（<a href="https://bugzilla.mozilla.org/1299593">bug 1299593</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox49.0.2">安全性修正</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>檔案上傳相容性問題（<a href="https://bugzilla.mozilla.org/1306472">bug 1306472</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>HTML5 app 中的 Canvas filter 顯示問題（<a href="https://bugzilla.mozilla.org/1304539">bug 1304539</a>）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>調整關於切換分頁時機的診斷用訊息（<a href="https://bugzilla.mozilla.org/1304113">bug 1304113</a>）。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2049&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox49&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla49&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

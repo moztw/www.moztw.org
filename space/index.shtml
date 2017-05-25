@@ -3,8 +3,8 @@
 <meta name="description" content="摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。摩茲工寮歡迎社群成員免費使用，歡迎加入、一同塑造屬於我們的 Web。" />
 <meta property="og:title" content="摩茲工寮 Mozilla Community Space Taipei | MozTW, Mozilla Taiwan Community" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://moztw.org/space/" />
-<meta property="og:image" content="http://moztw.org/space/images/bg_masthead.jpg" />
+<meta property="og:url" content="https://moztw.org/space/" />
+<meta property="og:image" content="https://moztw.org/space/images/bg_masthead.jpg" />
 <meta property="og:description" content="摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。摩茲工寮歡迎社群成員免費使用，歡迎加入、一同塑造屬於我們的 Web。" />
 
 
@@ -79,7 +79,7 @@
       <div class="grid-12">
         <div id="eventphotos"></div>
         <p>本場地座位約可容納 20 人、站位或無桌椅則可達 30 人以上。</p>
-        <p>我們歡迎大家到這個空間舉辦與自由文化（<a href="https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6" target="_blank">自由軟體、<a href="https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E5%85%A7%E5%AE%B9" target="_blank">自由內容</a>、<a href="https://zh.wikipedia.org/wiki/%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99" target="_blank">開放資料</a>、<a href="https://zh.wikipedia.org/wiki/%E5%86%85%E5%AE%B9%E5%BC%80%E6%94%BE" target="_blank">開放內容</a>……）的相關活動，並且能在活動中安排時間介紹 Mozilla。如果您有相關需求，歡迎寄封信到<a href="https://groups.google.com/forum/#!forum/moztw-general">郵件群組</a>與大家討論。（欲直接聯絡 keyholders，亦可聯繫 <a href="mailto:space@moztw.org">space@moztw.org</a>）</p>
+        <p>我們歡迎大家到這個空間舉辦與自由文化（<a href="https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6" target="_blank">自由軟體</a>、<a href="https://zh.wikipedia.org/wiki/%E8%87%AA%E7%94%B1%E5%85%A7%E5%AE%B9" target="_blank">自由內容</a>、<a href="https://zh.wikipedia.org/wiki/%E9%96%8B%E6%94%BE%E8%B3%87%E6%96%99" target="_blank">開放資料</a>、<a href="https://zh.wikipedia.org/wiki/%E5%86%85%E5%AE%B9%E5%BC%80%E6%94%BE" target="_blank">開放內容</a>……）的相關活動，並且能在活動中安排時間介紹 Mozilla。如果您有相關需求，歡迎<a href="https://docs.google.com/forms/d/1eeG8Raw1kxa9zoldTmnSBsdxfZj1urDyX2Gp7WoTyRk/viewform">填寫此線上表單</a>與我們討論。</p>
       </div>
     </section>
 
@@ -87,7 +87,7 @@
       <header>
         <div class="hgroup">
           <h1>申請摩茲工寮鑰匙</h1>
-          <h2>Be a Keyholder</h2>
+          <h2>Becoming a Keyholder</h2>
         </div>
       </header>
 
@@ -98,9 +98,9 @@
       <div class="grid-4">
         <h3>Keyholder 權利</h3>
         <ol>
-          <li>獲得工寮鑰匙</li>
-          <li>可 24 小時進出、使用工寮各項資源</li>
-          <li>優先決定值班時間的活動</li>
+          <li>獲得工寮鑰匙，可 24 小時進出、使用工寮各項資源</li>
+          <li>優先決定你值班時間的活動</li>
+          <li>參與工寮管理規劃</li>
           <li>這裡就是你的空間！值班時間「以外」的使用時間，要開不開隨便你 XD</li>
         </ol>
       </div>
@@ -137,10 +137,14 @@
           <li><a href="https://mozillians.org/u/veloci85/" title="看 Vel Chen 的摩茲人資料"><img src="//mozillians.org/media/uploads/sorl-cache/f4/d4/f4d49513881c4aa19950d786be988dfc.jpg" alt="Vel Chen"></a></li>
           <li><a href="https://mozillians.org/u/shadowcrow/" title="看 Ying ui, Lora chen 的摩茲人資料"><img src="//mozillians.org/media/uploads/sorl-cache/ce/f9/cef9c41b3e4444e237088bfe4da413cd.jpg" alt="Ying ui, Lora chen"></a></li>
           <li><a href="https://mozillians.org/u/GDH_Fang/" title="看 chiung-Hui, Fang 的摩茲人資料"><img src="//mozillians.org/media/uploads/sorl-cache/a1/ef/a1efe849e82a5804a174a33c17dc2c42.jpg" alt="chiung-Hui, Fang"></a></li>
-          <li><a href="https://mozillians.org/u/mingtsay/" title="看 Ming Tsay 的摩茲人資料"><img src="//mozillians.org/media/uploads/sorl-cache/13/62/1362f822d91222910b47b54ce1410145.jpg" alt="Ming Tsay"></a></li>
+          <li><a href="https://mozillians.org/u/mingtsay/" title="看 Ming Tsay 的摩茲人資料"><img src="images/moz-mingtsay.jpg" alt="Ming Tsay"></a></li>
           <li><a href="https://mozillians.org/u/medicalwei/" title="看 Yao Wei 的摩茲人資料"><img src="//mozillians.org/media/uploads/sorl-cache/d9/13/d91352db6ded1f08d97db35e422be340.jpg" alt="Yao Wei"></a></li>
           <li><a href="https://mozillians.org/u/RJ/" title="看 RJ Hsiao 的摩茲人資料"><img src="//mozillians.org/media/uploads/sorl-cache/fd/1f/fd1fbf03b87d7da657ec38b92cccbbed.jpg" alt="RJ Hsiao"></a></li>
           <li><a href="https://mozillians.org/u/fourdollars/" title="看 Shih-Yuan Lee 的摩茲人資料"><img src="//www.gravatar.com/avatar/60a42aadf0f45d6810734a477b36700b?s=200" alt="Shih-Yuan Lee"></a></li>
+          <li><a href="https://mozillians.org/u/shangkuanlc/" title="看 Liang-chih ShangKuan 的摩茲人資料"><img src="images/moz-shangkuanlc.jpg" alt="Liang-chih ShangKuan"></a></li>
+          <li><a href="https://mozillians.org/u/ettoolong/" title="看 Ett Chung 的摩茲人資料"><img src="//mozillians.org/media/uploads/sorl-cache/4d/7e/4d7ec00f7c9fb4b75ea637070395aa3d.jpg" alt="Ett Chung"></a></li>
+          <li><a href="https://mozillians.org/u/wpan/" title="看 Wei-Cheng Pan 的摩茲人資料"><img src="//secure.gravatar.com/avatar/8404e9b516233e6f2fdb0a21fac2848e?s=150x150" alt="Wei-Cheng Pan"></a></li>
+          <li><a href="https://mozillians.org/u/wildsky/" title="看 Wildsky 的摩茲人資料"><img src="//mozillians.org/media/uploads/sorl-cache/b2/a8/b2a832f8e22a1962d185b686b054c50d.jpg" alt="Wildsky"></a></li>
         </ul>
       </div>
     </section>
@@ -154,13 +158,13 @@
       </header>
 
       <div class="grid-6">
-        <p>Mozilla Community Space initiative 希望探索「志工社群自主空間」這樣的領域，期望能讓更多人認識 Mozilla 的信念、任務、產品，並加深社群成員彼此之間的連結，也讓 Mozilla 志工社群更有力量。</p>
+        <p>Mozilla Community Space Project 希望探索「志工社群自主空間」這樣的領域，期待讓更多人認識 Mozilla 的信念、任務、產品，並加深社群成員彼此之間的連結，也讓 Mozilla 志工社群更有力量。</p>
         <p>摩茲工寮是全球第一個啟動的前導實驗空間，由 MozTW（Mozilla 台灣社群）企劃、管理，於 2014 年 7 月中正式開幕，與全球其他前導實驗空間試圖找出與社群自主空間相關的各項經營因素，讓這個計劃更能順利推動。</p>
-        <p>想更深入了解這個計劃嗎？請參考 <a href="https://wiki.mozilla.org/Contribute/WPR/Community_Space_Initiative">MozillaWiki</a>。</p>
+        <p>想更深入了解這個計劃嗎？請參考 <a href="https://wiki.mozilla.org/Participation/Community_Spaces">MozillaWiki</a>。</p>
       </div>
       <div class="grid-6">
-        <p>Mozilla's Community Space initiative is a project to explore how volunteer-managed physical spaces can effectively support community building efforts regionally, helping more people know about Mozilla's mission and products, strengthening the connection between community members, and empowering the community.</p>
-        <p>Inaugurated in July 2014, Mozilla Community Space Taipei (摩茲工寮) is the first pilot  of the Mozilla Community Space initiative, propelled and managed by Mozilla Taiwan Community (MozTW). Together with other pilots around the world , we are seeking for the right way to help the Mozilla Community Space project.To learn more about the Project, check the <a href="https://wiki.mozilla.org/Contribute/WPR/Community_Space_Initiative">project page on MozillaWiki</a>.</p>
+        <p>Mozilla's Community Space Project is a project to explore how volunteer-managed physical spaces can effectively support community building efforts regionally, helping more people know about Mozilla's mission and products, strengthening the connection between community members, and empowering the community.</p>
+        <p>Inaugurated in July 2014, Mozilla Community Space Taipei (摩茲工寮) is the first pilot of the Mozilla Community Space initiative, propelled and managed by Mozilla Taiwan Community (MozTW). Together with other pilots around the world, we are seeking for the right way to help the Mozilla Community Space project. To learn more about the Project, check the <a href="https://wiki.mozilla.org/Participation/Community_Spaces">project page on MozillaWiki</a>.</p>
       </div>
     </section>
 
@@ -169,10 +173,10 @@
         <a href="mailto:space@moztw.org">聯絡摩茲工寮</a>
       </div>
       <div class="grid-4">
-        <a href="https://etherpad.mozilla.org/moztw-taipei-space">營運中心</a>
+        <a href="http://folder.moztw.org/moztw-space">營運中心</a>
       </div>
       <div class="grid-4">
-        <a href="https://etherpad.mozilla.org/moztw-taipei-space-guildline">使用規範</a>
+        <a href="http://folder.moztw.org/moztw-space/https%253A%252F%252Fetherpad.mozilla.org%252Fmoztw-taipei-space-guildline">使用規範</a>
       </div>
     </section>
   </main>

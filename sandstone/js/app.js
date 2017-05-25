@@ -10,7 +10,7 @@ define([], function () {
       if (window.console && window.console.log) {
         console.log(Array.prototype.join.call(arguments, ',\n - '));
       }
-      return app;s
+      return app;
     },
     init: function (config) {
       app.log('app init');

@@ -1,43 +1,40 @@
 # Repository of moztw.org
 
-This is the git repository of moztw.org web sites, including static pages. If you are willing to contribute, feel free to fork, modify, and send pull request.
+This is the git repository of moztw.org web sites, including static pages. Feel free to fork, modify, and send pull request to us.
 
-## Repos structure
+## Repo structure
 
 moztw.org website contains sections from the following different sub-domain-based repos,
-each repo is independent executed and not relying on others.
+each repo is hosted as different virtualhosts and not relying on others.
 please fork and checkout as you need.
 
     base - Server configurations and automatic scripts
     www.moztw.org - Main MozTW website
-    forum.moztw.org - MozTW Forum
-    gfx.tw - Repo for http://gfx.tw, personal Firefox promotion and product page platform
-    irclog.moztw.org - IRC Archive for #mozilla-taiwan of irc.mozilla.org
+    forum.moztw.org - MozTW Forum    
+    irclog.moztw.org - Log Archive for #mozilla-taiwan on irc.mozilla.org and #moztw on Telegram.
     translate.moztw.org - Localization system related stuff
     planet.moztw.org - A Planetplanet installation for MozTW Planet http://planet.moztw.org/
 
-
     Demos:
-
     browser-pairs - Foxmosa pairs game at moztw.org/foxmosa/game/pairs
     star-pusher - Foxmosa Sokuban game at moztw.org/foxmosa/game/stars
     moztw.org-demo - HTML5 demos located at moztw.org/demo
 
     Deprecated:
-    wiki.moztw.org - Wiki which is not in active usage
+    wiki.moztw.org - Wiki which is not actively used
     photos.moztw.org - Picture Gallery of MozTW prior to Firefox 1.5 times.
+    gfx.tw - Repo for http://gfx.tw, personal Firefox promotion and product page platform (readonly, will retire on August 2017)
 
-## I want to contribute, how?
+## How do I contribute?
 1. Report issues at [Issue tracker](https://github.com/moztw/www.moztw.org/issues)
 2. Make a fork of this repo and clone to your working space (See steps in next section)
 3. Go to your cloned repository, create a new branch with meaningful name, e.g. `git checkout -b issue123-fix-something`
 4. Make changes, test, and commit. Be sure to mention the issue id in the commit message.
-5. File a pull request to **master** branch (or create a new branch to remote if you need to collaborate your work with someone else). direct PRs to `production` branch will be rejected.
+5. File a pull request to **master** branch (or create a new branch if you need to collaborate with someone else). direct PRs to `production` branch will be rejected.
 6. Someone will review the request, you may ping moztw-general@googlegroups.com if there's no progress after a while.
 7. The content will go live at [www-stage](http://www-stage.moztw.org) once the PR is accepted, and will go live at [production site](http://moztw.org) when ready.
 
 ## Development
-
 You can do shallow clone to get this repo more quickly.
 
 `git clone https://github.com/moztw/www.moztw.org.git --depth 1`
@@ -58,9 +55,10 @@ You can do shallow clone to get this repo more quickly.
 10. To stop the script, go back to the terminal and hit Ctrl-C.
    Also if you want to stop the virtual machine running, run `vagrant halt`.
 
-
 ### Using Node.js directly
-1. Install [nodejs](http://nodejs.org/) and [npm](https://www.npmjs.org/) in your system. (You also need `Microsoft Visual C++ Redistributable Package` on Windows)
+1. Install [nodejs](http://nodejs.org/) and [npm](https://www.npmjs.org/) in your system. 
+   * On Windows, you also need `Microsoft Visual C++ Redistributable Package`.
+   * On Ubuntu/Debian, you also need `nodejs-legacy` package.
 2. Run `npm install` in repo directory.
 3. Run `npm start` in repo directory, the output will stay at `Watching files`.
 4. Open `localhost:3000`, modify and see the [browswersync](http://browsersync.io/) result.

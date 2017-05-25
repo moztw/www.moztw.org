@@ -1,0 +1,118 @@
+<!--#set var="release_date" value="2017-03-07" -->
+<!--#set var="version" value="52.0" -->
+<!--#set var="previous_version" value="51.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>支援 WebAssembly 標準，帶來接近原生效能的 Web 遊戲、App 和軟體庫，而不需要外掛程式。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>對持有觸控螢幕的 Windows 使用者啟用多程序 Firefox。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>
+        <a href="https://blog.mozilla.org/security/2017/01/20/communicating-the-dangers-of-non-secure-http/">在不安全的 HTTP 網站輸入登入資訊</a>時顯示警告。
+        當網站未使用 HTTPS 時，Firefox 會在密碼輸入欄顯示「此連線並不安全，輸入的登入資訊可能會被竊聽」訊息。
+      </span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>
+        實作 Strict Secure Cookies 規範，禁止不安全的 HTTP 網站設定帶有 <code>&quot;secure&quot;</code> 屬性的 cookie。
+        可避免某些情況下，不安全網站利用同 base domain 安全網站的 cookie 進行設定。
+      </span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>同步功能「將分頁傳送至裝置」。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox52">安全性修正</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>改善 Windows 的第三方鍵盤輸入，處理以下鍵盤配置：</span>
+      <ul>
+        <li>具有連鎖的死鍵（chained dead key）。</li>
+        <li>使用 non-printable 按鍵或死鍵輸入兩個以上字元。</li>
+        <li>在死鍵無法組成下個字時繼續輸入。</li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span><a href="https://blog.mozilla.org/futurereleases/2015/10/08/npapi-plugins-in-firefox/">停止支援</a> Flash 以外的 Netscape Plugin API (NPAPI) 外掛程式。Silverlight、Java、Acrobat 等外掛程式都不再被支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>移除電池狀態（Battery Status）API 以減低使用者依此被追蹤的可能性。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>改善下載體驗：</span>
+      <ul>
+        <li>下載失敗時，顯示工具列通知。</li>
+        <li>快速存取最近的五件下載（原本只顯示三件）。</li>
+        <li>加大「取消」和「重試」按鈕。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>
+        當 SHA-1 憑證上層有包括於 <a href="https://wiki.mozilla.org/CA:IncludedCAs">Mozilla CA 憑證清單</a>中的根憑證時，顯示「<a href="https://support.mozilla.org/en-US/kb/connection-untrusted-error-message">不受信任的連線</a>」錯誤（使用者可關閉此提示功能）。註：Firefox 仍允許 SHA-1 憑證串聯至手動匯入的根憑證，更多資訊詳見 <a href="https://blog.mozilla.org/security/2017/02/23/the-end-of-sha-1-on-the-public-web/">Mozilla 安全團隊對棄用 SHA-1 的說明</a>。
+      </span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span><a href="https://blog.mozilla.org/futurereleases/2016/12/23/firefox-support-for-xp-and-vista/">Windows XP 和 Windows Vista 的使用者</a>將轉移至延長支援版本（ESR, extended support release）的 Firefox。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>Windows 未使用 Direct2D 時，使用 Skia 進行內容描繪。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>改善<a href="https://medium.com/@pastith/feeling-safer-online-with-firefox-b9fe13af6600#0594">分享畫面的安全性</a>，在分享前顯示預覽，且不再限制網域需在白名單內。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>啟用 <a href="https://developer.mozilla.org/docs/Web/CSS/CSS_Grid_Layout">CSS Grid Layout</a>，開啟圖像設計的新可能性。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>重新設計 <a href="https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode">適應性設計模式</a>，包含裝置選擇、網路頻寬模擬及更多功能。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>更多開發功能，詳見 <a href="https://developer.mozilla.org/Firefox/Releases/52">Firefox 52 for developers</a>。</span>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span><a href="https://support.mozilla.org/t5/Fix-problems-with-websites/Google-Hangouts-temporarily-won-t-work-on-Firefox/ta-p/1368368">Google Hangouts 暫時無法使用</a>。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2052&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox52&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla52&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

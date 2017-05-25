@@ -1,3 +1,4 @@
+<!--#include virtual="/inc/dlfx_var.shtml" -->
 <!--#include virtual="/inc/meta.html" -->
 <title>下載 Mozilla Firefox 中文版 - MozTW</title>
 <style type="text/css">
@@ -32,8 +33,8 @@ if ( navigator.appVersion.indexOf('Safari') !== -1 ) {
 	<div id="ffcentral-desc">
 		<div>
 			<!--<h2>感謝您選擇 <span lang="en-US">Firefox</span>！</h2>-->
-			<p id="wait-a-sec">下載即將在幾秒內開始，如果沒有請按<a id="download-url" href="<!--#include virtual="downloadurl.txt" -->&amp;os=linux">這裡</a>。</p>
-			<p id="click-to-download">請按<a href="<!--#include virtual="downloadurl.txt" -->&amp;os=linux">這裡</a>開始您的下載。</p>
+			<p id="wait-a-sec">下載即將在幾秒內開始，如果沒有請按<a id="download-url" href="<!--#echo var="LINUXURL" -->">這裡</a>。</p>
+			<p id="click-to-download">請按<a href="<!--#echo var="LINUXURL" -->">這裡</a>開始您的下載。</p>
 		</div>
 	</div>
 </div>

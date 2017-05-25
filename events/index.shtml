@@ -8,58 +8,6 @@
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
 <meta property="og:description" content="MozTW 過去、現在及未來的活動">
 <link rel="stylesheet" type="text/css" href="events.css" media="screen">
-<script>
-jQuery(function($) {
-  var e = {
-    article: $('article'),
-    pointer: 0,
-    max: $('article').length - 1,
-
-    init: function() {
-      e.article.each(function(index) {
-        $(this).mouseenter(function() {
-          e.pointer = index;
-
-          var t = $(this);
-          var desc = t.find('.content');
-          $('.event-des').css('top', t.position().top);
-
-          if (desc.length > 0) {    // big events
-            $('.event-des .content').html(desc.html());
-          }
-          else {                //small events
-            $('.event-des .content').html(t.find('time').html() + " " + t.find('h2').html());
-          };
-
-          e.article.removeClass('on');
-          t.addClass('on');
-
-          return false;
-        });
-      });
-
-      $('.event-des .btn').click(function() {
-        if ($(this).hasClass('prev-event')) {    // up
-          if (e.pointer == 0) return false;
-          target = $(e.article[e.pointer - 1]).mouseenter();
-          $('html, body').animate({'scrollTop': (target.offset().top - 150) + 'px'}, 'slow');
-        }
-        else {    // down
-          if (e.pointer == e.max) return false;
-          target = $(e.article[e.pointer + 1]).mouseenter();
-          $('html, body').animate({'scrollTop': (target.offset().top - 150) + 'px'}, 'slow');
-        };
-
-        return false;
-      });
-
-      $(e.article[0]).mouseenter();
-    }
-  };
-
-  e.init();
-});
-</script>
 
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/inc/header.html" -->
@@ -91,6 +39,57 @@ jQuery(function($) {
       </article>
     </a>
 
+    <a href="https://discourse.mozilla-community.org/t/the-discussion-review-workshop-of-draft-convergence-bills-in-taiwan/13683">
+      <article class="on">
+        <header>
+          <h2>2017 匯流法討論會</h2>
+          <time pubdate="pubdate">2017/2/18</time>
+          <span class="arrow"></span>
+        </header>
+
+        <div class="photo" style="background:url(draft-convergence-bills-workshop/workshop.jpg) -110px -76px">
+        </div>
+        <div class="content">
+          MozTW 與推動網路中立性立法粉絲團合作，這一天我們邀集數十位關心「數位通訊傳播法」與「電信管理法」等兩部匯流法草案的朋友與業界先進，一起在摩茲工寮閱讀與討論法條，並彙集意見送到政府 Join 意見募集平台及承辦人信箱。
+        </div>
+      </article>
+    </a>
+
+    <div class="group">
+      <a href="https://www.flickr.com/search/?group_id=774566%40N20&min_taken_date=1478793600&max_taken_date=1478879999&view_all=1" title="Happy Birthday, Firefox!!!" id="Firfox-12-birthday">
+        <article class="small">
+          <header>
+            <h2>在雙十一這個寂寞的日子裡，我們為 Firefox 的 12 歲生日獻上最大的祝福</h2>
+            <time pubdate="pubdate">2016/11/11</time>
+            <span class="arrow"></span>
+          </header>
+          <img src="img/Firefox-12-birthday.jpg">
+        </article>
+      </a>
+
+      <a href="https://blog.mozilla.org/community/2016/12/20/mozilla-festival-2016-in-asia/" title="Mozilla Festival 2016 in Asia" id="Mozilla Festival 2016 in Asia">
+        <article class="small">
+          <header>
+            <h2>Mozilla Festival 2016 in Asia</h2>
+            <time pubdate="pubdate">2016/10/29</time>
+            <span class="arrow"></span>
+          </header>
+          <img src="img/MozFest-2016.jpg">
+        </article>
+      </a>
+
+      <a href="http://irvin.sto.tw/2016/08/tw-mozillians-in-hkoscon.html" title="2016 HKOSCon 心得" id="HKOSCon-2014-to-2016">
+        <article class="small">
+          <header>
+            <h2>2016 HKOSCon</h2>
+            <time pubdate="pubdate">2016/8/09</time>
+            <span class="arrow"></span>
+          </header>
+          <img src="img/HKOSCon2014-to-2016.jpg">
+        </article>
+      </a>
+    </div>
+
     <a href="sumo-party-2015/" title="SUMO 王國群雄爭霸，小莎軍團正在招兵買馬！">
       <article class="on">
         <header>
@@ -99,10 +98,54 @@ jQuery(function($) {
           <span class="arrow"></span>
         </header>
 
-        <div class="photo" style="background:url(sumo-party-2015/landing.png) 0 -100px;"></div>
-
+               <div class="photo" style="background:url(sumo-party-2015/landing.png) 0 -100px;"></div>
         <div class="content">
           根據先遣隊的回報，王國東南方的雨林深處，發現了為數眾多的神秘遺跡，這些遺跡很可能是古 SUMO 王國的一部份！為了探索出更多有用的情報，我們必需突破重重難關，並設法開啟被封印的深層遺跡！
+        </div>
+
+      </article>
+    </a>
+
+    <a href="https://public.etherpad-mozilla.org/p/r.04009f653dd91d3fe7faede39eb75b12" title="2015 軟體自由日">
+      <article class="on">
+        <header>
+          <h2>2015 軟體自由日</h2>
+          <time pubdate="pubdate">2015/9/20</time>
+          <span class="arrow"></span>
+        </header>
+
+        <div class="photo" style="background:url(img/sfd-cake.png) 20px -120px; background-size: 400px 300px"></div>
+
+        <div class="content">
+            摩茲人齊聚台灣微軟，與擁抱開源的朋友一同慶祝 2015 軟體自由日
+        </div>
+
+      </article>
+    </a>
+    <div class="group">
+      <a href="https://reps.mozilla.org/e/coscup-2015/" title="COSCUP 2015">
+        <article class="small">
+          <header>
+            <h2>COSCUP 2015</h2>
+            <time pubdate="pubdate">2015/8/15</time>
+            <span class="arrow"></span>
+          </header>
+          <img src="img/coscup2015.jpg">
+        </article>
+      </a>
+    </div>
+    <a href="https://discourse.mozilla-community.org/t/mozillians-hkoscon-2015/2909" title="2015 HKOSCon">
+      <article class="on">
+        <header>
+          <h2>2015 HKOSCon</h2>
+          <time pubdate="pubdate">2015/7/15</time>
+          <span class="arrow"></span>
+        </header>
+
+        <div class="photo" style="background:url(img/HKOSCon.jpg) 0px -50px; background-size: 440px 330px;"></div>
+
+        <div class="content">
+            七位台灣摩茲人前進香港開源年會 HKOSCon，設置「FoxYeah」活動攤位，與香港狐狸愛好者們歡樂合影交流。
         </div>
 
       </article>
@@ -483,7 +526,7 @@ jQuery(function($) {
       <article>
         <header>
           <h2>火狐鬥陣遊台灣</h2>
-          <time pubdate="pubdate">2009/05</time>
+          <time pubdate="pubdate">2008/07-08</time>
           <span class="arrow"></span>
         </header>
         <div class="photo" style="background:url(foxmosa-tour/feature-foxmosa.png) right center">
@@ -568,4 +611,56 @@ jQuery(function($) {
 <!--[if lt IE 9]><script src="/js/library/IE9.js"></script><![endif]-->
 <script type="text/javascript" src="sylvester.js"></script>
 <script type="text/javascript" src="transformie.js"></script>
+<script>
+jQuery(function($) {
+  var e = {
+    article: $('article'),
+    pointer: 0,
+    max: $('article').length - 1,
+
+    init: function() {
+      e.article.each(function(index) {
+        $(this).mouseenter(function() {
+          e.pointer = index;
+
+          var t = $(this);
+          var desc = t.find('.content');
+          $('.event-des').css('top', t.position().top);
+
+          if (desc.length > 0) {    // big events
+            $('.event-des .content').html(desc.html());
+          }
+          else {                //small events
+            $('.event-des .content').html(t.find('time').html() + " " + t.find('h2').html());
+          };
+
+          e.article.removeClass('on');
+          t.addClass('on');
+
+          return false;
+        });
+      });
+
+      $('.event-des .btn').click(function() {
+        if ($(this).hasClass('prev-event')) {    // up
+          if (e.pointer == 0) return false;
+          target = $(e.article[e.pointer - 1]).mouseenter();
+          $('html, body').animate({'scrollTop': (target.offset().top - 150) + 'px'}, 'slow');
+        }
+        else {    // down
+          if (e.pointer == e.max) return false;
+          target = $(e.article[e.pointer + 1]).mouseenter();
+          $('html, body').animate({'scrollTop': (target.offset().top - 150) + 'px'}, 'slow');
+        };
+
+        return false;
+      });
+
+      $(e.article[0]).mouseenter();
+    }
+  };
+
+  e.init();
+});
+</script>
 <!--#include virtual="/inc/footer.html" -->
