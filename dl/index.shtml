@@ -16,6 +16,7 @@ ul {
 	vertical-align: middle;
 	margin-right: 1em;
 	margin-bottom: -1.2em;
+	float: left;
 }
 #main .hgroup ul li p{
 	font-size: 1.1em;
@@ -35,6 +36,7 @@ ul {
     width: 60%;
     height: auto;
     margin: 0 auto;
+    float: none;
   }
   #main .hgroup ul li p{
     margin-left: 0;
