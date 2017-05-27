@@ -36,6 +36,7 @@ ul {
     width: 60%;
     height: auto;
     margin: 0 auto;
+    float: none;
   }
   #main .hgroup ul li p{
     margin-left: 0;
