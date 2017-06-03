@@ -26,32 +26,32 @@
       <h2>Yuan</h2>
       <p>Amara 字幕聽打</p>
       <ul>
-	<li><a href="http://amara.org/en/videos/PBtBn60cvltb/en/1282127/" target="_blank">[English subtitle] Contributor Story - Orabile Mudongo</a></li>
-	<li><a href="https://www.amara.org/en/videos/cmIM8kJ46weo/en/1282750/" target="_blank">[English subtitle] Contributor Story - Candy Tricia Khohliwe</a></li>
-	<li><a href="http://www.amara.org/kn/videos/lQfwWdV1NvQY/zh-tw/1285563/" target="_blank">[English subtitle] Contributor Story - San Emanuel James</a></li>
-	<li><a href="https://www.amara.org/en/videos/feY1kanbs4fM/en/1282803/" target="_blank">[English subtitle] Contributor Story - Alifa Ganiji</a></li>
-	<li><a href="https://www.amara.org/en/videos/r4knaGo4OZCi/en/1270069/" target="_blank">[English subtitle] Inside Mozilla, the Apple & FBI Encryption Case</a></li>
-	<li><a href="https://www.amara.org/en/videos/Kxal4fctrPxa/info/unboxing-the-new-firefox/" target="_blank">[English subtitle] Unboxing the New Firefox</a></li>
-	<li><a href="https://www.amara.org/en/videos/XDvDyhpThz3A/zh-tw/1375302/" target="_blank">[English subtitle] Sh!t mozillians say</a></li>
-	<li><a href="https://www.amara.org/en/videos/jgYwLToRQvIo/en/1295272/" target="_blank">[Eng] Introduction to Let's Encrypt</a></li>
-	<li><a href="https://www.amara.org/en/videos/67RK7mJwVZ5L/zh-tw/1344272/" target="_blank">[Chinese subtitle] Firefox Test Pilot: Suit up and take experimental features for a test flight</a></li>
-	<li><a href="https://www.amara.org/en/videos/4v2O4bfmiw4y/zh-tw/1326667/" target="_blank">[Chinese subtitle] Stand Up for Strong Encryption</a></li>
-	<li><a href="https://www.amara.org/en/videos/OlXdxgCjKDrz/zh-tw/1320066/" target="_blank">[Chinese subtitle] Encryption, Journalism, and Free Expression</a></li>
+        <li><a href="https://www.amara.org/en/videos/PBtBn60cvltb/en/1282127/" target="_blank">[English subtitle] Contributor Story - Orabile Mudongo</a></li>
+        <li><a href="https://www.amara.org/en/videos/cmIM8kJ46weo/en/1282750/" target="_blank">[English subtitle] Contributor Story - Candy Tricia Khohliwe</a></li>
+        <li><a href="https://www.amara.org/en/videos/lQfwWdV1NvQY/zh-tw/1285563/" target="_blank">[English subtitle] Contributor Story - San Emanuel James</a></li>
+        <li><a href="https://www.amara.org/en/videos/feY1kanbs4fM/en/1282803/" target="_blank">[English subtitle] Contributor Story - Alifa Ganiji</a></li>
+        <li><a href="https://www.amara.org/en/videos/r4knaGo4OZCi/en/1270069/" target="_blank">[English subtitle] Inside Mozilla, the Apple & FBI Encryption Case</a></li>
+        <li><a href="https://www.amara.org/en/videos/Kxal4fctrPxa/info/unboxing-the-new-firefox/" target="_blank">[English subtitle] Unboxing the New Firefox</a></li>
+        <li><a href="https://www.amara.org/en/videos/XDvDyhpThz3A/zh-tw/1375302/" target="_blank">[English subtitle] Sh!t mozillians say</a></li>
+        <li><a href="https://www.amara.org/en/videos/jgYwLToRQvIo/en/1295272/" target="_blank">[Eng] Introduction to Let's Encrypt</a></li>
+        <li><a href="https://www.amara.org/en/videos/67RK7mJwVZ5L/zh-tw/1344272/" target="_blank">[Chinese subtitle] Firefox Test Pilot: Suit up and take experimental features for a test flight</a></li>
+        <li><a href="https://www.amara.org/en/videos/4v2O4bfmiw4y/zh-tw/1326667/" target="_blank">[Chinese subtitle] Stand Up for Strong Encryption</a></li>
+        <li><a href="https://www.amara.org/en/videos/OlXdxgCjKDrz/zh-tw/1320066/" target="_blank">[Chinese subtitle] Encryption, Journalism, and Free Expression</a></li>
       </ul>
     </section>
 
     <section id="Ming">
       <h2>Ming</h2>
       <ul>
-	<li><a style="color:black">修復Servo專案之</a><a href="https://github.com/servo/servo/issues/10884" target="_blank">issue#10884</a><a style="color:black">，並提交</a><a href="https://github.com/servo/servo/pull/10892">PR#10892</a></li>
-        <li><a style="color:black">修復Saltfs專案之</a><a href="https://github.com/servo/saltfs/issues/343" target="_blank">issue#343</a><a style="color:black">，並提交</a><a href="https://github.com/servo/saltfs/pull/345">PR#345</a></li>
+      	<li><a style="color:black">修復 Servo 專案之</a><a href="https://github.com/servo/servo/issues/10884" target="_blank">issue#10884</a>，並提交<a href="https://github.com/servo/servo/pull/10892">PR#10892</a></li>
+        <li><a style="color:black">修復 Saltfs 專案之</a><a href="https://github.com/servo/saltfs/issues/343" target="_blank">issue#343</a>，並提交<a href="https://github.com/servo/saltfs/pull/345">PR#345</a></li>
       </ul>
     </section>
 
     <section id="蒼天炎劍">
       <h2>蒼天炎劍</h2>
+      <p>翻譯</p>
       <ul>
-        <p>翻譯</p>
         <li><a href="http://mozlinks.moztw.org/2017/01/adblock-plus-firefox.html" target="_blank">Firefox 41 will use less memory when running AdBlock Plus</a></li>
       </ul>
     </section>
