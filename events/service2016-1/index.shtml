@@ -1,11 +1,11 @@
 <!--#include virtual="/inc/meta.html" -->
 
-<title>105 學年度第一學期服務學習成果總覽 - MozTW, Mozilla Taiwan Community</title>
-<meta name="description" content="105 學年度第二學期，MozTW 持續偕同 OSSACC 教育部校園自由軟體中心，共同執行服務學習專案。經交通大學資訊工程學系林正中教授指導，共有三位學生貢獻個人時間，協助貢獻 Servo 專案、翻譯 Amara 影片與 Mozilla Links 文章等事項，在此彙整所有同學的成果，感謝大家的貢獻。">
+<title>104 學年度第二學期服務學習成果總覽 - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="104 學年度第二學期，MozTW 持續偕同 OSSACC 教育部校園自由軟體中心，共同執行服務學習專案。經交通大學資訊工程學系林正中教授指導，共有三位學生貢獻個人時間，協助貢獻 Servo 專案、翻譯 Amara 影片與 Mozilla Links 文章等事項，在此彙整所有同學的成果，感謝大家的貢獻。">
 <meta property="og:type" content="website">
 <meta property="og:url" content="//moztw.org/events/service2014-2/">
 <meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
-<meta property="og:description" content="105 學年度第二學期，MozTW 持續偕同 OSSACC 教育部校園自由軟體中心，共同執行服務學習專案。經交通大學資訊工程學系林正中教授指導，共有三位學生貢獻個人時間，協助貢獻 Servo 專案、翻譯 Amara 影片與 Mozilla Links 文章等事項，在此彙整所有同學的成果，感謝大家的貢獻。">
+<meta property="og:description" content="104 學年度第二學期，MozTW 持續偕同 OSSACC 教育部校園自由軟體中心，共同執行服務學習專案。經交通大學資訊工程學系林正中教授指導，共有三位學生貢獻個人時間，協助貢獻 Servo 專案、翻譯 Amara 影片與 Mozilla Links 文章等事項，在此彙整所有同學的成果，感謝大家的貢獻。">
 <link href="style.css" rel="stylesheet" />
 
 <!--#include virtual="/inc/class_homepage.html" -->
@@ -17,7 +17,7 @@
 
     <section id="introduction">
       <h2>簡介</h2>
-      <p>105 學年度第二學期，MozTW 持續偕同 OSSACC 教育部校園自由軟體中心，共同執行服務學習專案。<br>
+      <p>104 學年度第二學期，MozTW 持續偕同 OSSACC 教育部校園自由軟體中心，共同執行服務學習專案。<br>
         經交通大學資訊工程學系林正中教授指導，共有三位學生貢獻個人時間，協助貢獻 Servo 專案、翻譯 Amara 影片與 Mozilla Links 文章等事項，在此彙整所有同學的成果，感謝大家的貢獻。</p>
       <p>歡迎各大專院校老師一同推廣，以貢獻自由軟體作為服務學習課程內容，詳情請聯繫 <a href="//ossacc.moe.edu.tw/modules/tinyd0/index.php?id=1" target="_blank">OSSACC</a>。</p>
     </section>
