@@ -21,7 +21,7 @@ ul {
 #main .hgroup ul li p{
 	font-size: 1.1em;
 	margin-left: 6.7em;
-	margin-bottom: 2.3em;
+	margin-bottom: 3em;
 }
 
 @media (max-width: 500px) {
