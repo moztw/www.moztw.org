@@ -52,11 +52,11 @@ if ($_COOKIE['tg_lang'] != 'zh') {
 
 		<!-- Public to bots -->
 		<div id="sticker" style="display: none">
-			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank" title="Foxmosa Telegram 貼圖">Foxmosa Sticker</a>
-			<div>加入狐爾摩莎（小莎）的 Telegram 貼圖之連結。</div>
+			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank" title="Foxmosa Telegram 貼圖">Foxmosa 貼圖</a>
+			<div>Foxmosa 狐爾摩莎（小莎）的 Telegram 貼圖。</div>
 		</div>
 		<div id="fullList" style="display: none; margin-top: 20px;">
-			<a href="https://wiki.mozilla.org/Telegram" target="_blank" >看更多 Telegram 頻道</a>
+			<a href="https://wiki.mozilla.org/Telegram" target="_blank" >更多 Mozilla 相關 Telegram 頻道</a>
 		</div>
 
 		<p>切換語言 <select id="lang" onchange="change_lang()">
