@@ -54,8 +54,8 @@ if ($_COOKIE['tg_lang'] == 'zh') {
 
 		<!-- Public to bots -->
 		<div id="sticker" style="display: none">
-			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank" title="Foxmosa Telegram Sticker">Foxmosa Sticker</a>
-			<div>Download Foxmosa stickers in Telegram.</div>
+			<a href="https://telegram.me/addstickers/Foxmosa" target="_blank" title="Foxmosa Telegram Sticker">Foxmosa Stickers</a>
+			<div>Install Foxmosa stickers in Telegram.</div>
 		</div>
 
 		<div id="fullList" style="display: none; margin-top: 20px;">
