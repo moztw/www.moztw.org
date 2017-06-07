@@ -28,7 +28,7 @@ $links = Array(
   ),
 
 	Array(
-		'id' => 'AmWeuT0XZKuwaB9m3AXfyw',
+		'id' => 'AmWeuT0XZKu55YVMu6QEGw',
 		'name' => 'MozTW',
 		'description' => 'General channel. Mainly uses Chinese, but most people understands English.',
 		'introduction' => 'General channel. Mainly uses Chinese, but most people understands English.',
