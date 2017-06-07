@@ -7,6 +7,16 @@ $tags = Array(
 
 $links = Array(
 	Array(
+		'id' => '@mozillian',
+		'name' => 'Mozillians',
+		'description' => 'Mozills general discussion group',
+		'introduction' => 'International Mozillians\'s general channel.',
+		'tags' => Array(
+			'en',
+		),
+	),
+
+  Array(
 		'id' => 'AmWeuT0XZKu55YVMu6QEGw',
 		'name' => 'MozTW',
 		'description' => 'MozTW 社群綜合討論群組',
@@ -16,11 +26,21 @@ $links = Array(
 		),
 	),
 
+	Array(
+		'id' => '@mozillian',
+		'name' => 'Mozillians (en)',
+		'description' => 'Mozills general discussion group',
+		'introduction' => '國際 Mozillian 頻道，以英文為主要溝通語言。',
+		'tags' => Array(
+			'zh-tw',
+		),
+	),
+
   Array(
     'id' => 'AbrE40GFna0Clf1GBDg1fw',
-    'name' => 'MozTW zh-TW L10n Channel',
+    'name' => 'MozTW (zh-TW) L10n Channel',
     'description' => 'MozTW 正體中文在地化討論群組',
-    'introduction' => '討論 Mozilla/MozTW 各產品/網頁的正體中文在地化事項。',
+    'introduction' => '討論 Mozilla/MozTW 各產品與網頁的正體中文在地化事項。',
     'tags' => Array(
       'zh-tw',
       'en'
@@ -30,8 +50,8 @@ $links = Array(
 	Array(
 		'id' => 'AmWeuT0XZKu55YVMu6QEGw',
 		'name' => 'MozTW',
-		'description' => 'General channel. Mainly uses Chinese, but most people understands English.',
-		'introduction' => 'General channel. Mainly uses Chinese, but most people understands English.',
+		'description' => 'Mozilla Taiwan Community channel',
+		'introduction' => 'Mozilla Taiwan Community\'s channel. Mainly uses Chinese, most people also understands English.',
 		'tags' => Array(
 			'en',
 		),
@@ -45,6 +65,36 @@ $links = Array(
 		'tags' => Array(
 			'zh-tw',
       'en'
+		),
+	),
+
+  Array(
+		'id' => 'AAAAAEEH1sx1XsuPD2Mpnw',
+		'name' => 'MozTW dev/add-on',
+		'description' => 'Mozilla 套件與開發相關技術討論',
+		'introduction' => '開發子頻道。Mozilla 軟體技術及套件開發。',
+		'tags' => Array(
+			'zh-tw',
+		),
+	),
+
+  Array(
+		'id' => '@MozillaVR',
+		'name' => 'Mozilla VR',
+		'description' => 'Mozilla VR community \'s channel',
+		'introduction' => 'A group of awesome MozillaVR Contributors, working on A-Frame & WebVR.',
+		'tags' => Array(
+			'en',
+		),
+	),
+
+  Array(
+		'id' => '@MozillaVR',
+		'name' => 'Mozilla VR (en)',
+		'description' => 'Mozilla VR 社群頻道',
+		'introduction' => 'MozillaVR 貢獻者討論頻道，包含 A-Frame & WebVR。以英文為主。',
+		'tags' => Array(
+			'zh',
 		),
 	),
 
@@ -62,7 +112,7 @@ $links = Array(
 		'id' => 'AutpyAHfYs0pkzmAhUYHdw',
 		'name' => 'MozTW Design',
 		'description' => 'Foxmosa 插畫、社群設計討論',
-		'introduction' => '設計子頻道。關於 Mozilla 相關的美工、圖案的設計討論。',
+		'introduction' => '設計子頻道。關於 Mozilla 相關的美工、繪圖等設計相關討論。',
 		'tags' => Array(
 			'zh-tw',
 		),
@@ -82,17 +132,7 @@ $links = Array(
 		'id' => 'AutpyAJlAH9QUsil-Rut1w',
 		'name' => 'Foxfooders (zh)',
 		'description' => 'B2G OS 中文討論群',
-		'introduction' => 'Foxfooder 專案台灣子頻道（專案已停止）。另有 B2G 頻道。',
-		'tags' => Array(
-			'zh-tw',
-		),
-	),
-
-	Array(
-		'id' => 'AAAAAEEH1sx1XsuPD2Mpnw',
-		'name' => 'MozTW dev/add-on',
-		'description' => 'Mozilla 套件與開發相關技術討論',
-		'introduction' => '開發者及套件子頻道。',
+		'introduction' => 'Foxfooder 專案台灣子頻道，B2G OS 中文討論群（專案已中止）。',
 		'tags' => Array(
 			'zh-tw',
 		),
@@ -119,30 +159,10 @@ $links = Array(
 	),
 
 	Array(
-		'id' => '@mozillian',
-		'name' => 'Mozillians',
-		'description' => 'Mozills general discussion group',
-		'introduction' => '國際摩茲人子頻道，以英文為主要溝通語言。',
-		'tags' => Array(
-			'zh-tw',
-		),
-	),
-
-	Array(
-		'id' => '@mozillian',
-		'name' => 'Mozillians',
-		'description' => 'Mozills general discussion group',
-		'introduction' => 'Sub channel for international Mozillians.',
-		'tags' => Array(
-			'en',
-		),
-	),
-
-	Array(
 		'id' => '@mozvideol10n',
-		'name' => 'mozilla-videol10n',
+		'name' => 'mozilla-videol10n (en)',
 		'description' => 'Mozilla\'s video subtitle group',
-		'introduction' => '摩茲影片國際在地化頻道，以英文為主要溝通語言。',
+		'introduction' => 'Mozilla 相關影片在地化頻道，以英文為主要溝通語言。',
 		'tags' => Array(
 			'zh-tw',
 		),
@@ -153,16 +173,6 @@ $links = Array(
 		'name' => 'mozilla-videol10n',
 		'description' => 'Mozilla\'s video subtitle group',
 		'introduction' => 'Sub channel for localization of Mozilla related videos.',
-		'tags' => Array(
-			'en',
-		),
-	),
-  
-  Array(
-		'id' => '@MozillaVR',
-		'name' => 'Mozilla VR',
-		'description' => 'Mozilla VR community \'s channel',
-		'introduction' => 'A group of awesome MozillaVR Contributors, working on A-Frame & WebVR.',
 		'tags' => Array(
 			'en',
 		),
