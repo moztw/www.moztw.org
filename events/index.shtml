@@ -88,6 +88,17 @@
           <img src="img/HKOSCon2014-to-2016.jpg">
         </article>
       </a>
+
+      <a href="service2016-1/" title="105 學年度第二學期服務學習成果總覽" id="service2016-1">
+        <article class="small">
+          <header>
+            <h2>105 學年度第二學期，MozTW 持續偕同 OSSACC 教育部校園自由軟體中心，共同執行服務學習專案。經交通大學資訊工程學系林正中教授指導，共有三位學生貢獻個人時間，協助貢獻 Servo 專案、翻譯 Amara 影片與 Mozilla Links 文章等事項，在此彙整所有同學的成果。</h2>
+            <time pubdate="pubdate">2016/2~6</time>
+            <span class="arrow"></span>
+          </header>
+          <img src="service2016-1/service2016-1.gif">
+        </article>
+      </a>
     </div>
 
     <a href="sumo-party-2015/" title="SUMO 王國群雄爭霸，小莎軍團正在招兵買馬！">
