@@ -26,7 +26,7 @@ $links = Array(
       'en'
     ),
   ),
-
+  
 	Array(
 		'id' => 'AmWeuT0XZKu55YVMu6QEGw',
 		'name' => 'MozTW',
@@ -34,6 +34,17 @@ $links = Array(
 		'introduction' => 'General channel. Mainly uses Chinese, but most people understands English.',
 		'tags' => Array(
 			'en',
+		),
+	),
+  
+  Array(
+		'id' => 'AAAAAD7njcPEZGzr84AIZw',
+		'name' => 'Mozilla HK',
+		'description' => 'Mozilla Hong Kong',
+		'introduction' => '香港社群討論頻道。Mozilla Hong Kong community channel.',
+		'tags' => Array(
+			'zh-tw',
+      'en'
 		),
 	),
 
