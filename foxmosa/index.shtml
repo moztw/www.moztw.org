@@ -19,6 +19,7 @@
                         <div id="earth">
                             <img src="images/a.svg" alt="Spinning Earth" />
                         </div>
+                        <div id="earth-shadow"></div>
                         <ul id="foxmosa-profile" class="left">
                             <li class="l10n" data-l10n="foxmosa-profile-name">暱稱：小莎、莎莎</li>
                             <li class="l10n" data-l10n="foxmosa-profile-sex">性別：女</li>
