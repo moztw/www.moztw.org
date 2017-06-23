@@ -301,10 +301,6 @@
   animation-timing-function: linear;
 }
 
-#earth-shadow{
-    display: none;
-}
-
 #foxmosa-avatar{
   width: 150px;
   height: 150px;
@@ -686,29 +682,18 @@
     position: relative;
     float: none;
     top: -30px;
-    left: 0;
-    padding-left: 10px;
+    left: 2.6%;
     height: 30vw;
     width: 100%;
     text-align: center;
+    box-shadow: inset 0px -11px 12px -10px;
+    border-bottom: 2px solid rgba(0,0,0,0.7);
   }
   #earth > img {
     height: auto;
     width: 100%;
   }
-  #earth-shadow{
-    display: block;
-    margin: 0 auto;
-    margin-top: -31px;
-    margin-left: 13px;
-    width: 98%;
-    height: 15px;
-    background: -webkit-linear-gradient(rgba(145, 152, 159, 0.8),transparent);
-    background: -o-linear-gradient(rgba(145, 152, 159, 0.8),transparent);
-    background: -moz-linear-gradient(rgba(145, 152, 159, 0.8),transparent);
-    background: linear-gradient(rgba(145, 152, 159, 0.8),transparent);
-    border-radius: 10px;
-  }
+
   #foxmosa-games {
     text-align: center;
     height: auto;
