@@ -687,6 +687,7 @@
     float: none;
     top: -30px;
     left: 0;
+    padding-left: 10px;
     height: 30vw;
     width: 100%;
     text-align: center;
@@ -699,6 +700,7 @@
     display: block;
     margin: 0 auto;
     margin-top: -31px;
+    margin-left: 13px;
     width: 98%;
     height: 15px;
     background: -webkit-linear-gradient(rgba(179, 0, 134,0.7),transparent);
