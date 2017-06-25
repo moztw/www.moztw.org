@@ -16,6 +16,8 @@
 <h3>2017</h3>
 
 <ul class="news">
+  <li><div class="date"> 6 月 25</div>
+    <a href="/thunderbird/">Thunderbird</a> 52.2.1 更新</li>
   <li><div class="date"> 6 月 15</div>
     <a href="/thunderbird/">Thunderbird</a> 52.2.0 更新</li>
   <li><div class="date"> 6 月 14</div>
