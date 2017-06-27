@@ -351,5 +351,9 @@
    );
 })(jQuery);
 </script>
-
+<script type="text/javascript">
+	if (/(iPhone|iPad|iPod)/i.test(navigator.userAgent)) {   
+    	$("#mobile_link").css("background-image",'url("/images/firefox_mobile14_trans_ios.png")',"left","bottom","no-repeat","scroll","transparent");   
+	};  
+</script>
 <!--#include virtual="/inc/end.html" -->
