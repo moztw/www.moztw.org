@@ -1,0 +1,69 @@
+<!--#include virtual="/inc/meta.html" -->
+
+<title>104 學年度第二學期服務學習成果總覽 - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="104 學年度第二學期，MozTW 持續偕同 OSSACC 教育部校園自由軟體中心，共同執行服務學習專案。經交通大學資訊工程學系林正中教授指導，共有三位學生貢獻個人時間，協助貢獻 Servo 專案、翻譯 Amara 影片與 Mozilla Links 文章等事項，在此彙整所有同學的成果，感謝大家的貢獻。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="//moztw.org/events/service2014-2/">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="104 學年度第二學期，MozTW 持續偕同 OSSACC 教育部校園自由軟體中心，共同執行服務學習專案。經交通大學資訊工程學系林正中教授指導，共有三位學生貢獻個人時間，協助貢獻 Servo 專案、翻譯 Amara 影片與 Mozilla Links 文章等事項，在此彙整所有同學的成果，感謝大家的貢獻。">
+<link href="style.css" rel="stylesheet" />
+
+<!--#include virtual="/inc/class_homepage.html" -->
+<!--#include virtual="/inc/header.html" -->
+
+  <h1>104 學年度第二學期服務學習成果總覽</h1>
+
+  <div id="main" class="container">
+
+    <section id="introduction">
+      <h2>簡介</h2>
+      <p>104 學年度第二學期，MozTW 持續偕同 OSSACC 教育部校園自由軟體中心，共同執行服務學習專案。<br>
+        共有三位台師大資訊社的同學貢獻個人時間，協助貢獻 Servo 專案、翻譯 Amara 影片與 Mozilla Links 文章等事項，在此彙整所有同學的成果，感謝大家的貢獻。</p>
+      <p>歡迎各大專院校老師一同推廣，以貢獻自由軟體作為服務學習課程內容，詳情請聯繫 <a href="//ossacc.moe.edu.tw/modules/tinyd0/index.php?id=1" target="_blank">OSSACC</a>。</p>
+    </section>
+
+    <section id="Yuan">
+      <h2>Yuan</h2>
+      <p>Amara 字幕聽打</p>
+      <ul>
+        <li><a href="https://www.amara.org/en/videos/PBtBn60cvltb/en/1282127/" target="_blank">[English subtitle] Contributor Story - Orabile Mudongo</a></li>
+        <li><a href="https://www.amara.org/en/videos/cmIM8kJ46weo/en/1282750/" target="_blank">[English subtitle] Contributor Story - Candy Tricia Khohliwe</a></li>
+        <li><a href="https://www.amara.org/en/videos/lQfwWdV1NvQY/zh-tw/1285563/" target="_blank">[English subtitle] Contributor Story - San Emanuel James</a></li>
+        <li><a href="https://www.amara.org/en/videos/feY1kanbs4fM/en/1282803/" target="_blank">[English subtitle] Contributor Story - Alifa Ganiji</a></li>
+        <li><a href="https://www.amara.org/en/videos/r4knaGo4OZCi/en/1270069/" target="_blank">[English subtitle] Inside Mozilla, the Apple & FBI Encryption Case</a></li>
+        <li><a href="https://www.amara.org/en/videos/Kxal4fctrPxa/info/unboxing-the-new-firefox/" target="_blank">[English subtitle] Unboxing the New Firefox</a></li>
+        <li><a href="https://www.amara.org/en/videos/XDvDyhpThz3A/zh-tw/1375302/" target="_blank">[English subtitle] Sh!t mozillians say</a></li>
+        <li><a href="https://www.amara.org/en/videos/jgYwLToRQvIo/en/1295272/" target="_blank">[Eng] Introduction to Let's Encrypt</a></li>
+        <li><a href="https://www.amara.org/en/videos/67RK7mJwVZ5L/zh-tw/1344272/" target="_blank">[Chinese subtitle] Firefox Test Pilot: Suit up and take experimental features for a test flight</a></li>
+        <li><a href="https://www.amara.org/en/videos/4v2O4bfmiw4y/zh-tw/1326667/" target="_blank">[Chinese subtitle] Stand Up for Strong Encryption</a></li>
+        <li><a href="https://www.amara.org/en/videos/OlXdxgCjKDrz/zh-tw/1320066/" target="_blank">[Chinese subtitle] Encryption, Journalism, and Free Expression</a></li>
+      </ul>
+    </section>
+
+    <section id="Ming">
+      <h2>Ming</h2>
+      <ul>
+      	<li>修復 Servo 專案之<a href="https://github.com/servo/servo/issues/10884" target="_blank">issue#10884</a>，並提交<a href="https://github.com/servo/servo/pull/10892">PR#10892</a></li>
+        <li>修復 Saltfs 專案之<a href="https://github.com/servo/saltfs/issues/343" target="_blank">issue#343</a>，並提交<a href="https://github.com/servo/saltfs/pull/345">PR#345</a></li>
+      </ul>
+    </section>
+
+    <section id="蒼天炎劍">
+      <h2>蒼天炎劍</h2>
+      <p>翻譯</p>
+      <ul>
+        <li><a href="http://mozlinks.moztw.org/2017/01/adblock-plus-firefox.html" target="_blank">Firefox 41 will use less memory when running AdBlock Plus</a></li>
+      </ul>
+    </section>
+
+    <section id="sponsership">
+      <h2>合作單位</h2>
+      <a title="OSSACC 教育部校園自由軟體數位資源推廣服務中心" href="//ossacc.moe.edu.tw/" target="_blank">
+          <img src="logo.gif" alt="">
+          <img src="logo2.gif" alt="">
+      </a>
+    </section>
+
+  </div>
+
+<!--#include virtual="/inc/footer.html" -->

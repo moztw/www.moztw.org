@@ -31,15 +31,32 @@ define(['jquery', 'app', 'goog!feeds,1'], function ($, app) {
       if (!result.error) {
         var $container = $('#page-home-foxmosa-feed-container');
         var html = '<ul class="page-home-foxmosa-ul">';
-        var len = result.feed.entries.length;
-        while (len) {
-          len -= 1;
-          var entry = result.feed.entries.shift();
-          html += '<li class="page-home-foxmosa-item">' + (entry.title.length > 50 ? entry.title.substr(0, 47) + '...' : entry.title) + '</li>';
-        }
+        result.feed.entries.forEach(function(entry){
+          html += '<li class="page-home-foxmosa-item">' + entry.title + '</li>';
+        });
         html += '</ul>';
         $container.html(html);
         slider($container);
+
+        // dynamically calculate the height of foxmosa-say
+        var maxHeight = 57;
+        var $foxItems = $('.page-home-foxmosa-item').toArray();
+        $foxItems.forEach(function(item){
+          var itemHeight = parseInt($(item).css('height'));
+          if(itemHeight > maxHeight)
+            maxHeight = itemHeight;
+        });
+        maxHeight += 20;
+        $('.page-home-foxmosa-feed').css('height', maxHeight);
+        $foxItems.forEach(function(item){
+          var $item = $(item);
+          var itemHeight = parseInt($item.css('height'));
+          var padding = (maxHeight - itemHeight) / 2;
+          console.log(padding);
+          $item.css('paddingTop',    padding);
+          $item.css('paddingBottom', padding);
+        });
+
       }
     });
   };

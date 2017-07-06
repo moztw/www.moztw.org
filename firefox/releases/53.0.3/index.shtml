@@ -1,0 +1,38 @@
+<!--#set var="release_date" value="2017-05-20" -->
+<!--#set var="version" value="53.0.3" -->
+<!--#set var="previous_version" value="53.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正 captive portal 偵測服務耗用過多資源的問題（<a href="https://bugzilla.mozilla.org/1359697">bug 1359697</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正使用 NTLM proxy 時的當機問題（<a href="https://bugzilla.mozilla.org/1360574">bug 1360574</a>）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>延展安全資訊的到期時間（<a href="https://bugzilla.mozilla.org/1364240">bug 1364240</a>）。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2052&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox52&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla52&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

@@ -11,14 +11,17 @@ ul {
 	width: auto;
 }
 #main .hgroup ul li img {
-	width:60px;
-	height:60px;
+	width:75px;
+	height:75px;
 	vertical-align: middle;
 	margin-right: 1em;
+	margin-bottom: -1.2em;
+	float: left;
 }
 #main .hgroup ul li p{
-	margin-left: 6.5em;
-	margin-bottom: 1em;
+	font-size: 1.1em;
+	margin-left: 6.7em;
+	margin-bottom: 2.3em;
 }
 
 @media (max-width: 500px) {
@@ -33,6 +36,7 @@ ul {
     width: 60%;
     height: auto;
     margin: 0 auto;
+    float: none;
   }
   #main .hgroup ul li p{
     margin-left: 0;

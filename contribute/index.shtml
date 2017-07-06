@@ -318,7 +318,7 @@ h3.toggle, span.toggle {
 -->
 	<div id="tabs-4">
 		<h1>填寫資料給我們</h1>
-		<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dDdDdUlyWWhQQTczelZZb1k5VjAwbnc6MQ" width="530" height="3000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeodR18WdcQPaf8EtIMH93_U8PL1rUgTf9B_yxC2593QXxH_A/viewform?embedded=true" width="530" height="500" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
 	</div>
 </div>
 </div>
