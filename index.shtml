@@ -294,9 +294,8 @@
 </div>
   </div>
 <!--#include virtual="/inc/footer.html" -->
+<script type="text/javascript">getPlatform();</script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script type="text/javascript" src="/js/download.js"></script>
-<script>changeCoverImage();</script>
 <script type="text/javascript">
 /*
  * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery

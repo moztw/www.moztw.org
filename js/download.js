@@ -16,17 +16,15 @@ function getPlatform() {
     return "linux64";
   
   //Mac 放在最後，以免其他 OSX based 裝置也被當成桌面 OSX
-  if(navigator.userAgent.match(/iP(hone|od|ad)/i))
-    return "ios";
-  if (navigator.userAgent.indexOf("Mac OS X") != -1)
-    return "mac";
-  return "unknown";
-}
-function changeCoverImage(){
-  var platform = getPlatform();
-  if (platform=="ios"||platform=="mac") {  
+  if(navigator.userAgent.match(/iP(hone|od|ad)/i)){
     document.getElementById("mobile_link").style.backgroundImage="url('/images/firefox_mobile14_trans_ios.png')";
-  };  
+    return "ios";
+  }
+  if (navigator.userAgent.indexOf("Mac OS X") != -1){
+    document.getElementById("mobile_link").style.backgroundImage="url('/images/firefox_mobile14_trans_ios.png')";
+    return "mac";
+  }
+  return "unknown";
 }
 function highlightDownload() {
   var platform = getPlatform();
