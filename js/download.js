@@ -22,7 +22,12 @@ function getPlatform() {
     return "mac";
   return "unknown";
 }
-
+function changeCoverImage(){
+  var platform = getPlatform();
+  if (platform=="ios"||platform=="mac") {  
+    document.getElementById("mobile_link").style.backgroundImage="url('/images/firefox_mobile14_trans_ios.png')";
+  };  
+}
 function highlightDownload() {
   var platform = getPlatform();
   if (platform != "unknown") { // Unknown 的情況就不 Prefer 任何平台的連結

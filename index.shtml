@@ -295,6 +295,8 @@
   </div>
 <!--#include virtual="/inc/footer.html" -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="/js/download.js"></script>
+<script>changeCoverImage();</script>
 <script type="text/javascript">
 /*
  * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
@@ -351,9 +353,5 @@
    );
 })(jQuery);
 </script>
-<script type="text/javascript">
-	if (/(iPhone|iPad|iPod)/i.test(navigator.userAgent)) {   
-    	$("#mobile_link").css("background-image",'url("/images/firefox_mobile14_trans_ios.png")',"left","bottom","no-repeat","scroll","transparent");   
-	};  
-</script>
+
 <!--#include virtual="/inc/end.html" -->
