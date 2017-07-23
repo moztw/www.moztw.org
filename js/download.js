@@ -16,13 +16,16 @@ function getPlatform() {
     return "linux64";
   
   //Mac 放在最後，以免其他 OSX based 裝置也被當成桌面 OSX
-  if(navigator.userAgent.match(/iP(hone|od|ad)/i))
+  if(navigator.userAgent.match(/iP(hone|od|ad)/i)){
+    document.getElementById("mobile_link").style.backgroundImage="url('/images/firefox_mobile14_trans_ios.png')";
     return "ios";
-  if (navigator.userAgent.indexOf("Mac OS X") != -1)
+  }
+  if (navigator.userAgent.indexOf("Mac OS X") != -1){
+    document.getElementById("mobile_link").style.backgroundImage="url('/images/firefox_mobile14_trans_ios.png')";
     return "mac";
+  }
   return "unknown";
 }
-
 function highlightDownload() {
   var platform = getPlatform();
   if (platform != "unknown") { // Unknown 的情況就不 Prefer 任何平台的連結
