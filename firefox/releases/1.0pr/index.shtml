@@ -15,6 +15,7 @@
     <div id="product-side">
 	<div class="download">
 	    <h3>馬上下載</h3>
+	    <!--#if expr="" --><!-- point to .shtml while test locally --><!--#endif -->
 	    <!--#include virtual="/inc/dlff.html" -->
 	    </div><ul>
 	    <li><a class="ancilliaryLink" href="/docs/ff/system-requirements">系統需求</a></li>
