@@ -19,6 +19,7 @@
     <div class="download">
 		<h3><a href="/firefox/"><strong class="downloadText">下載 Firefox</strong></a></h3>
  		<div style='background: url(/images/product-download-firefox.png) no-repeat;margin-top: 5px;'>
+		<!--#if expr="" --><!-- point to .shtml while test locally --><!--#endif -->
 		<!--#include virtual="/inc/dlff.html" -->
 		</div>
     </div>

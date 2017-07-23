@@ -9,6 +9,7 @@
 <H1>下載 Mozilla Firefox</H1>
 <div class='dlall'>
 <div><h3> 最新版本 </h3>
+	<!--#if expr="" --><!-- point to .shtml while test locally --><!--#endif -->
 	<!--#include virtual="/inc/dlff.html" -->
 <br/>
 
