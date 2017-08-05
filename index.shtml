@@ -212,6 +212,7 @@
     <div class="download dl-box">
 		<h3><a href="/firefox/" title="最好的瀏覽器"><strong class="downloadText">Firefox 正體中文版</strong></a></h3>
  		<div style='margin-top: 5px;'>
+		<!--#if expr="" --><!-- point to .shtml while test locally --><!--#endif -->
 		<!--#include virtual="/inc/dlff.html" -->
 		</div>
     </div>

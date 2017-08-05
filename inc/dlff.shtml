@@ -16,7 +16,7 @@
 		*/
 		if (navigator.appVersion.indexOf('MSIE') !== -1) {
 			window.open(
-				'<!--#echo var='WINURL' -->',
+				'<!--#echo var="WINURL" -->',
 				'_blank',
 				'height=150, width=260, location=no, menubar=no, resizable=no, scrollbars=no, status=no, toolbar=no'
 			);
