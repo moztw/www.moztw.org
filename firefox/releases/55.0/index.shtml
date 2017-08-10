@@ -1,0 +1,102 @@
+<!--#set var="release_date" value="2017-08-08" -->
+<!--#set var="version" value="55.0" -->
+<!--#set var="previous_version" value="54.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>於 Windows 平台支援 <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebVR_API">WebVR</a>，帶來身歴其境的網路體驗。請見 <a href="https://mozvr.com/">Mozilla VR</a> 上實際運行的範例。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>新增效能調校選項：</span>
+      <ul>
+        <li>啟用 Windows 10 周年更新版的 VP9 硬體加速，減少觀看影片時的電池消耗和 CPU 使用率。</li>
+        <li><a href="https://support.mozilla.org/en-US/kb/performance-settings">調整內容處理程序的數量</a>，改進網頁載入和切換分頁的速度。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>提供 Windows 版線上（stub）安裝檔，簡化安裝程序：</span>
+      <ul>
+        <li>在具備 2GB 以上 RAM 的 64 位元 Windows 系統，預設會安裝 64 位元版的 Firefox。</li>
+        <li>仍可下載<a href="https://www.mozilla.org/firefox/all/">完整版的安裝檔</a>。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>網址列功能改進：</span>
+      <ul>
+        <li>直接在網址列以指定搜尋引擎搜尋。</li>
+        <li>預設會顯示搜尋建議。</li>
+        <li>輸入網域名稱時，Firefox 會優先使用 <code>https</code> 而非 <code>http</code> 連線。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>更新<a href="https://support.mozilla.org/kb/firefox-sidebar-access-bookmarks-history-social">書籤、歷史、已同步分頁等側邊欄</a>，可將側邊欄移至右方。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>WebRTC 支援立體聲麥克風。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>在預覽列印中簡化列印內容。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>OS X、macOS 可以在「系統偏好設定」設定<a href="https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly">快速鍵</a>存取 Firefox 選單項目。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>即使上次瀏覽的分頁數量很多，也能快速復原。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>使用 <a href="https://screenshots.firefox.com/">screenshots</a> 功能拍攝網頁擷圖，儲存於本地或上傳至雲端。此功能以 A/B 測試模式進行，並未開放給所有使用者。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>新增白俄羅斯語（Belarusian, be）語系支援。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/#firefox55">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>Adobe Flash 外掛程式將預設為 click-to-play（點擊後播放），且僅允許在 <code>http</code> 和 <code>https</code> 網站使用。此變更並未對所有使用者生效，詳見 <a href="https://developer.mozilla.org/docs/Plugins/Roadmap">Firefox plugin roadmap</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>雖然在過去版本可行，但 Firefox 並不支援版本降級。升級 Firefox 55+ 後，個人設定檔將無法以舊版 Firefox 開啟，未來的降級亦可能遇到問題。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>改進程式更新介面，採用低侵擾性、更融入瀏覽器其他部分的設計。只有更新後 8 天都未重啟，以及關閉自動更新的使用者會看到這個變更。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>未使用 SSL 的網站將無法存取 Geolocation API。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2055&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox55&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla55&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
