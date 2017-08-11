@@ -58,7 +58,13 @@ function highlightDownload() {
 		eFeature.className += " hide";
 		eFeature = document.getElementById("mobile-feature-ios");
 		eFeature.className = eFeature.className.replace(/\bhide\b/,'');
-	} 
+    eFeature = document.getElementById("mobile_link");
+    eFeature.style.background="url('/images/firefox_mobile14_trans_ios.png')";
+	}
+  if (platform == "mac"){
+    eFeature = document.getElementById("mobile_link");
+    eFeature.style.background="url('/images/firefox_mobile14_trans_ios.png')";
+  }
 	/* disable when featuring Firefox android period. 
     else if (platform == "android"){
 		eFeature.className += " hide";
