@@ -371,11 +371,11 @@ h3.toggle, span.toggle {
 <script type="text/javascript">
 $(function() {
   $("#tabs").tabs({ selected: 0 });	//設定預設分頁
-});
 
-if (location.hash) {
-	$('a[href="' + location.hash + '"]').click();
-}
+	if (location.hash) {
+		$('a[href="' + location.hash + '"]').click();
+	}
+});
 </script>
 <script type="text/javascript">
 /*
