@@ -171,10 +171,10 @@ h3.toggle, span.toggle {
 <div id="tabs">
 	<ul>
 		<!--<li><a href="#tabs-1">新手上路</a></li>-->
-		<li><a href="#tabs-2">依興趣檢視</a></li>
-		<li><a href="#tabs-3">依程式語言選擇</a></li>
+		<li><a href="#interest">依興趣檢視</a></li>
+		<li><a href="#program">依程式語言選擇</a></li>
 		<!--<li><a href="#tabs-3-old">依所需時間檢視</a></li>-->
-		<li><a href="#tabs-4">留下資料由專人與您聯繫</a></li>
+		<li><a href="#form">留下資料由專人與您聯繫</a></li>
 		<!-- <li><a href="amazing.htm">神奇海螺</a></li> -->
 	</ul>
 <!--
@@ -189,7 +189,7 @@ h3.toggle, span.toggle {
 	</div>
 -->
 
-	<div id="tabs-2">
+	<div id="interest">
 		<p style="text-align: right; margin-top: 0;">誠摯邀請您貢獻自己的時間與心力，自由協助推行下列工作。<br/>　　——請不用擔心自己的能力不夠，我們歡迎您邊做邊學！</p>
 		<div class="content_block clearfix">
 			<img src="/foxmosa/images/30series/30foxmosa-12.png" class="intro_icon" alt="幫助新手">
@@ -307,7 +307,7 @@ h3.toggle, span.toggle {
 		</div>
 	</div>
 
-	<div id="tabs-3">
+	<div id="program">
 		<iframe src="https://whatcanidoformozilla.org/" width="530" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 	</div>
 <!--
@@ -316,7 +316,7 @@ h3.toggle, span.toggle {
 		<h1>依時間序編排專案、介紹與連結</h1>
 	</div>
 -->
-	<div id="tabs-4">
+	<div id="form">
 		<h1>填寫資料給我們</h1>
 		<iframe src="form.html" width="530" height="500" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>
 	</div>
@@ -372,6 +372,13 @@ h3.toggle, span.toggle {
 $(function() {
   $("#tabs").tabs({ selected: 0 });	//設定預設分頁
 });
+
+if (location.hash) {
+	var $tabButton = $('a[href="' + location.hash + '"]');
+	if ($tabButton.length !== 0) {
+	 	$tabButton.click();
+	}
+}
 </script>
 <script type="text/javascript">
 /*
