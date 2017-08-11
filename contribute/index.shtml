@@ -374,10 +374,7 @@ $(function() {
 });
 
 if (location.hash) {
-	var $tabButton = $('a[href="' + location.hash + '"]');
-	if ($tabButton.length !== 0) {
-	 	$tabButton.click();
-	}
+	$('a[href="' + location.hash + '"]').click();
 }
 </script>
 <script type="text/javascript">
