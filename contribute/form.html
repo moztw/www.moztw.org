@@ -26,52 +26,52 @@
         </div>
         <div id="interests">
             <h2>您的興趣</h2>
-            
+
             <input type="checkbox" id="support" value="support">
             <label for="support">幫助使用者</label><br>
-            
+
             <input type="checkbox" id="qa" value="qa">
             <label for="qa">品質檢測</label><br>
-            
+
             <input type="checkbox" id="coding" value="coding">
             <label for="coding">寫程式</label><br>
-            
+
             <input type="checkbox" id="marketing" value="marketing">
             <label for="marketing">協助宣傳</label><br>
-            
+
             <input type="checkbox" id="localization" value="localization">
             <label for="localization">在地化與翻譯</label><br>
-            
+
             <input type="checkbox" id="webdev" value="webdev">
             <label for="webdev">網頁開發</label><br>
-            
+
             <input type="checkbox" id="addons" value="addons">
             <label for="addons">附加元件</label><br>
-            
+
             <input type="checkbox" id="design" value="design">
             <label for="design">視覺設計</label><br>
-            
+
             <input type="checkbox" id="documentation" value="documentation">
             <label for="documentation">撰寫文件</label><br>
-            
+
             <input type="checkbox" id="education" value="education">
             <label for="education">教育</label><br>
-            
+
             <input type="checkbox" id="suggestions" value="suggestions">
             <label for="suggestions">我有關於 Firefox 的建議</label><br>
-            
+
             <input type="checkbox" id="issues" value="issues">
             <label for="issues">我遇到了 Firefox 的問題，需要幫助</label><br>
-            
+
             <input type="checkbox" id="other" value="other">
             <label for="other">其他</label><br>
-            
+
         </div>
         <p>上列資料僅作為發送參與社群文件與未來活動通知之用，Mozilla 及 Mozilla 台灣社群不會將您的個人資料外流，並將依照 Mozilla 隱私資料處理原則處理您的資料。</p>
         <button id="submit" type="submit">送出</button>
     </form>
     <script charset="utf-8">
-      REQUEST_URL = "https://i6w785e1ld.execute-api.us-west-2.amazonaws.com/prod/SendVolunteerMail";
+      REQUEST_URL = "https://23wx06e8rc.execute-api.us-west-2.amazonaws.com/prod/SendVolunteerMail";
       document.getElementById("contact_form").onsubmit = function(evt){
         evt.preventDefault();
 
@@ -87,7 +87,7 @@
           "interests": interests,
         }
         // Debug logging
-        console.log(data)
+        // console.log(data)
 
         // The following submission code is inspired by https://github.com/roman01la/JSONFormData
 
