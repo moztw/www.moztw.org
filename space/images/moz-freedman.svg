@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-630 -630 1261 1261">
+<circle fill="red" r="630"/>
+<circle fill="white" r="366"/>
+<g id="h">
+    <circle fill="red" cx="-429" cy="0" r="118"/>
+    <circle fill="white" cx="-429" cy="0" r="84"/>
+    <rect x="267" y="-22" fill="red" width="100" height="44"/>
+</g>
+<use xlink:href="#h" transform="rotate(120)"/>
+<use xlink:href="#h" transform="rotate(240)"/>
+<circle fill="blue" r="270"/>
+<circle fill="white" r="100"/>
+<g id="c">
+    <g id="b">
+        <path id="a" fill="white" d="m0,-200 l24,89 a114,114 0 0 0 -48,0 z"/>
+        <use xlink:href="#a" transform="rotate(30)"/>
+    </g>
+    <use xlink:href="#b" transform="rotate(60)"/>
+</g>
+<use xlink:href="#c" transform="rotate(120)"/>
+<use xlink:href="#c" transform="rotate(240)"/>
+</svg>
