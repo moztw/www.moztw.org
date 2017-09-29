@@ -1,0 +1,98 @@
+<!--#set var="release_date" value="2017-09-28" -->
+<!--#set var="version" value="56.0" -->
+<!--#set var="previous_version" value="55.0.3" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span><a href="https://screenshots.firefox.com/#tour">Firefox Screenshots</a>，在瀏覽器中拍照、存檔及分享畫面擷圖。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span><a href="https://support.mozilla.org/kb/automatically-fill-your-address-forms">自動填寫</a>表單中的地址資料（目前僅 en-US 版本提供）。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>「選項」相關更新：</span>
+      <ul>
+        <li>新增搜尋框，方便快速找到項目。</li>
+        <li>重新分類選項，更容易掃視各項設定。</li>
+        <li>改善各選項的描述文字，協助瞭解不同選擇及實際套用的效果。</li>
+        <li>改善資料收集相關選項，符合<a href="https://blog.mozilla.org/netpolicy/2017/09/06/making-privacy-transparent/">新版隱私權公告</a>和<a href="https://blog.mozilla.org/futurereleases/2017/09/06/data-just-living/">資料收集策略</a>。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>於背景開啟的分頁將不會自動播放媒體內容（選擇該分頁後才會播放）。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>改善 iOS 和 Android 的「<a href="https://www.mozilla.org/en-US/firefox/features/send-tabs">將分頁傳送至裝置</a>」功能，而且即使沒有 Firefox 帳號也能使用。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>採用以 Rust 開發的 <a href="https://encoding.spec.whatwg.org/">Encoding 標準</a>實作取代原本的字元編碼轉換程式。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>新增 <a href="https://www.franziskuskiefer.de/post/aes-gcm-speedup/">AES-GCM</a> 硬體加速。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>升級 Safe Browsing 協定至第 4 版。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>減少約 20% 安裝檔案大小。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>改善下載檔案的安全性驗證。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>檢測器新增 <a href="https://medium.com/mozilla-tech/master-css-grid-with-firefox-devtools-e3420a8d58fd">CSS「格線」</a>面板。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>更多<a href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/56">開發者功能</a>改進。</span>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>安裝 RelevantKnowledge 廣告軟體後可能無法正確啟動。在 Firefox Support 可以找到<a href="https://support.mozilla.org/kb/troubleshoot-firefox-issues-caused-malware">如何移除它的指引</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>使用 Windows 遠端桌面協定（RDP）執行的 Firefox 可能因為縮限的安全限制而無法播放聲音。在下個修正之前，可參考<a href="https://support.mozilla.org/kb/i-cant-play-audio-remote-desktop-connection">此問題的暫時性解法</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span></span>
+      Lenove IdeaPad 的「OneKey Theater」軟體可能造成 64 位元 Windows 7 的 Firefox 啟動失敗。重新安裝 <a href="https://www.mozilla.org/firefox/all/">32 位元版本的 Firefox</a> 可以解決這個問題。
+    </li>
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>Mac OS X High Sierra 的 bug 造成全螢幕模式有一些問題。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2056&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox56&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla56&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
