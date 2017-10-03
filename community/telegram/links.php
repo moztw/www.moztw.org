@@ -46,7 +46,7 @@ $links = Array(
       'en'
     ),
   ),
-  
+
 	Array(
 		'id' => 'AmWeuT0XZKu55YVMu6QEGw',
 		'name' => 'MozTW',
@@ -56,7 +56,7 @@ $links = Array(
 			'en',
 		),
 	),
-  
+
   Array(
 		'id' => 'AAAAAD7njcPEZGzr84AIZw',
 		'name' => 'Mozilla HK',
@@ -71,8 +71,8 @@ $links = Array(
   Array(
 		'id' => 'AAAAAEEH1sx1XsuPD2Mpnw',
 		'name' => 'MozTW dev/add-on',
-		'description' => 'Mozilla 套件與開發相關技術討論',
-		'introduction' => '開發子頻道。Mozilla 軟體技術及套件開發。',
+		'description' => 'Mozilla/Firefox 套件與開發相關技術討論',
+		'introduction' => '開發子頻道。Mozilla/Firefox 軟體技術及套件開發。',
 		'tags' => Array(
 			'zh-tw',
 		),
@@ -105,6 +105,26 @@ $links = Array(
 		'introduction' => 'Rust 台灣社群子頻道。',
 		'tags' => Array(
 			'zh-tw',
+		),
+	),
+
+	Array(
+		'id' => 'AutpyEAh0k-DEhG8mkA76g',
+		'name' => '數位人權/網路治理勉強團',
+		'description' => '網路政策與法規研究討論與倡議社群',
+		'introduction' => '台灣網路政策、法規與數位人權討論與倡議行動頻道',
+		'tags' => Array(
+			'zh-tw',
+		),
+	),
+
+	Array(
+		'id' => 'AutpyEAh0k-DEhG8mkA76g',
+		'name' => 'Digital Human Rights / Internet Governance Working Group',
+		'description' => 'Taiwan\'s Internet policy and action',
+		'introduction' => 'Taiwan\'s Internet policy discussion and action channel, diuscussing mainly in Chinese.',
+		'tags' => Array(
+			'en',
 		),
 	),
 
