@@ -89,7 +89,8 @@
 
       <h3>Mozilla 貢獻者群像: Chit Thiri Maung<span class="appendix">吳柏諺</span></h3>
       <div class="video">
-        <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="zh-tw" data-url="//videos-cdn.mozilla.net/serv/drafts/Contributorstory1.webm"></div>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7vhPZ5FujYw?rel=0" frameborder="0" allowfullscreen></iframe>
+        <!-- <div class="amara-embed" data-height="360px" data-width="640px" data-initial-language="zh-tw" data-url="//videos-cdn.mozilla.net/serv/drafts/Contributorstory1.webm"></div> -->
       </div>
     </section>
 
