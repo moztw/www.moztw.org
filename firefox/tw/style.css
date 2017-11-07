@@ -8,6 +8,14 @@
 #main-feature h2 {
     font-size: 24px;
 }
+#warn-message p {
+    border: 1px solid #FFE384;
+    background: #F5DEB3;
+    margin-bottom: 24px;
+    text-align: center;
+    padding: 10px;
+}
+
 /* screenshot */
  #tw-screenshot #imgs {
     text-align: center;
