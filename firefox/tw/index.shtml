@@ -18,10 +18,9 @@
         <h2>「美商謀智台灣版 Firefox」是美商謀智台灣分公司（Mozilla Taiwan）以一般版 Firefox 為基礎，加上下述特製附加元件，增加各種便利使用者與商業合作面向功能的客製化版本。</h2>
     </div>
 
-
-    本版本已終止開發，下載最新版 Firefox 請至 <a href="http://moztw.org/firefox">Firefox 正體中文版</a> 頁面
-
-
+    <div id="warn-message">
+      <p> 本版本已終止開發，下載最新版 Firefox 請至 <a         href="http://moztw.org/firefox">Firefox 正體中文版</a> 頁面</p>
+    </div>
 
     <section id="fxtw-download" class="billboard no-js">
         <header>
