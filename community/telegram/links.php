@@ -196,15 +196,6 @@ $links = Array(
 		'tags' => Array(
 			'en',
 		),
-
-	Array(
-		'id' => 'GCSnhkt5WJNl8OGyt6kB9Q',
-		'name' => 'MozTW Gamers',
-		'description' => 'MozTW 台灣社群 遊戲玩家',
-		'introduction' => '為提供綜合群組更清新的聊天體驗，特別將遊戲相關話題獨立至此群組，也同時更能凝聚各個遊戲玩家的情感。',
-		'tags' => Array(
-			'zh-tw',
-		),
 	)
 
 );
