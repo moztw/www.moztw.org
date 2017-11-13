@@ -6,8 +6,7 @@ $recaptcha = $_POST['recaptcha'] ?? '';
 if ('' === $recaptcha) failed();
 if (!recaptcha_verify($recaptcha)) failed();
 
-$tag = $tags[$_GET['tag'] ?? ''] ?? 'zh-tw';
-success(get_links($tag));
+success($links);
 
 /**
  * Verify the recaptcha.
@@ -58,22 +57,4 @@ function success($links)
         'success' => true,
         'links' => $links,
     ]);
-}
-
-/**
- * Get links with the specified tag.
- * @param string $tag Specified the tag that the links should contain.
- * @return array Returns the links.
- */
-function get_links($tag)
-{
-    global $links;
-
-    $result = [];
-    foreach ($links as $link) {
-        if (in_array($tag, $link['tags'])) {
-            $result[] = $link;
-        }
-    }
-    return $result;
 }
