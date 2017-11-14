@@ -13,7 +13,7 @@
 }
 
 .front-feature #firefox_quantum {
-    background: url("/images/browser-high-res.png") right top no-repeat scroll transparent;
+    background: url(/images/browser-high-res.png) right top no-repeat scroll transparent;
     color: #FFFFFF;
     display: block;
     font-family: "DFHei Std", "DFLiHei Std","Heiti TC", "华文细黑", "Microsoft JhengHei", sans-serif;
@@ -24,7 +24,7 @@
     top: 45px;
     text-decoration: none;
     width: 600px;
-    height: 100%;
+    height: 453px;
     z-index: 0;
     background-size: 100%;
 }
@@ -62,8 +62,9 @@
     height: 82px;
     line-height: 82px;
     font-size: 38px;
-    font-weight: 400;
     margin-bottom: 10px;
+    font-family: "PingFang TC", 微軟正黑體, arial, verdana, sans-serif;
+    font-weight: 400;
 }
 .front-feature a.fx-link:hover {
     background-color: transparent;
@@ -141,7 +142,7 @@
 }
 
 .key-point {
-    background-color: #003eaa;
+    background-color: #0060df;
     background: url("/images/fox-tail-header.png"), linear-gradient(to bottom,#003eaa 40%,#004ec2 60%,#0060df 80%,#0080ff 90%,#00c7ff 100%);
     background-repeat: no-repeat;
     background-size: 150% auto;
@@ -168,14 +169,14 @@
     #front-feature {
         background-position: right center;
         background-size: 115% auto;
-        padding-bottom: 200px;
+        padding-bottom: 180px;
     }
     .front-feature #firefox_quantum {
         width: 425px;
         background-position: 100% top;
         background-size: 100% auto;
-        right: -75px;
-        top: 40px;
+        right: -90px;
+        top: 60px;
     }
     .front-feature #firefox_quantum a {
         height: 500px;
@@ -190,7 +191,7 @@
 <!--[if lte IE 8]>
 <style>
 .key-point {
-    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png")
+    background-image: url(/images/fox-tail-header.png);
 }
 .frontcolumn {
     padding-right: 2%;
@@ -198,9 +199,8 @@
 #front-feature .download ul, #planets ul {
     margin-left: 0;
 }
-.front-feature #mobile_link {
-    height: 330px;
-    width: 70%;
+.front-feature #firefox_quantum {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/browser-high-res.png', sizingMethod='scale');
 }
 </style>
 <![endif]-->
@@ -218,7 +218,7 @@
 		<h3><a href="/firefox/" title="最好的瀏覽器"><strong class="downloadText">Firefox 正體中文版</strong></a></h3>
  		<div style='margin-top: 5px;'>
 		<!--#if expr="" --><!-- point to .shtml while test locally --><!--#endif -->
-		<!--#include virtual="/inc/dlff.html" -->
+		<!--#include virtual="/inc/dlff.shtml" -->
 		</div>
     </div>
     <div class="download dl-mobile" onclick="">
