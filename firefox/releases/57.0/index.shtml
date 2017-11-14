@@ -1,0 +1,117 @@
+<!--#set var="release_date" value="2017-11-14" -->
+<!--#set var="version" value="57.0" -->
+<!--#set var="previous_version" value="56.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>嶄新的<a href="https://blog.mozilla.org/blog/2017/11/14/introducing-firefox-quantum/">瀏覽器引擎</a>，致力於<a href="https://medium.com/mozilla-tech/a-quantum-leap-for-the-web-a3b7174b3c12">徹底運用現今電腦的計算能力</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>重新設計使用者介面，具備簡潔時髦的外觀、一致性的視覺元素，同時對觸控螢幕進行最佳化。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>整合網址列和搜尋列。新使用者將看見合併的網址列，您也能<a href="https://support.mozilla.org/kb/my-search-bar-gone-how-add-it-back">自行調整為分離的搜尋列</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>更新「新分頁」頁面，包含最常造訪的、最近造訪的網頁和來自 Pocket（限美國、加拿大和德國版）的建議網頁。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>更新給新使用者的導覽教學功能。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>支援 AMD VP9 硬體加速，播放影片將消費更少電力。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>選項畫面新增網站「權限」管理區塊。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox57">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>Firefox 現在只支援採用 WebExtenstion API 的附加元件，不再支援舊式元件。請參考<a href="https://support.mozilla.org/kb/firefox-add-technology-modernizing">我們為提升元件效能和安全性所做的努力</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>自動捲動、鍵盤操作的捲動、觸控螢幕上的拖曳捲動現在都會以非同步方式處理，提供類似滑鼠滾輪等操作般的順暢體驗。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>Linux 上的內容處理程序採用了更嚴格的安全沙箱，將<a href="http://www.morbo.org/2017/11/linux-sandboxing-improvements-in.html">阻擋對檔案系統的讀寫</a>，如同 Firefox 56 在 Windows 和 macOS 提供的保護。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>Unix 系統預設行為調整：在網頁內容使用滑鼠中鍵貼上時，不會直接前往該網址。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>移除工具列中的「分享」按鈕。仍需要的使用者可自行安裝 <a href="https://addons.mozilla.org/firefox/addon/share-backported/">Share Backported</a> 擴充套件。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>在 64 位元 Windows 停用有當機問題的舊版 ATOK IME（包括 ATOK 2006、2008、2009 和 2010），請安裝新版 ATOK 或其他 IME 以解決此相容問題。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>預設日文字型改為 Meiryo。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>伴隨 Firefox Quantum 視覺設計，翻新<a href="https://hacks.mozilla.org/2017/09/developer-edition-devtools-update-now-with-photon-ui/">開發者工具亮色／暗色佈景主題</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>檢測器中的 CSS 變數，在滑鼠移上時會顯示變數的值。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>重新設計主控台面板，和<a href="https://hacks.mozilla.org/2016/09/introducing-debugger-html/">除錯器</a>、<a href="https://hacks.mozilla.org/2017/06/network-monitor-reloaded/">網路監測器</a>一樣採用 React、Redux 技術重寫，同時新增檢測物件各層內容的功能。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>更多<a href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/57">開發者功能</a>改進。</span>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>使用 Windows 遠端桌面協定（RDP）執行的 Firefox 可能因為縮限的安全限制而無法播放聲音。在下個修正之前，可參考<a href="https://support.mozilla.org/kb/i-cant-play-audio-remote-desktop-connection">此問題的暫時性解法</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>使用螢幕閱讀器時可能有效能問題，建議在新版修正前，先暫時使用 <a href="https://support.mozilla.org/kb/can-i-use-my-screen-reader-new-firefox">Firefox ESR</a> 版本。</span>
+    </li>
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>在 Windows 和 Linux 使用 <a href="https://support.mozilla.org/en-US/kb/broadwell-u-microcode">Intel Broadwell-U 處理器配合舊版 microcode</a> 時有機會當機。Windows 用戶請開啟 Windows Update，Linux 用戶請安裝目前發佈版本提供的 Intel microcode。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2057&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox57&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla57&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
