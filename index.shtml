@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/meta.html" -->
-<meta name="description" content="Firefox 正體中文版 / Android 版 Firefox / Thunderbird 正體中文版下載、中文討論區及 Mozilla 專案推廣活動。MozTW（Mozilla 台灣社群）是一群愛好網路的人，想要讓網路變得更好，不論你的專長是什麼，都歡迎加入一同快樂貢獻！（中文版火狐瀏覽器下載）" />
+<meta name="description" content="Firefox 正體中文版 / Thunderbird 正體中文版下載、中文討論區及 Mozilla 專案推廣活動。MozTW（Mozilla 台灣社群）是一群愛好網路的人，想要讓網路變得更好，不論你的專長是什麼，都歡迎加入一同快樂貢獻！（中文版火狐瀏覽器下載）" />
 <!--#include virtual="/inc/title.html" -->
 <link rel="stylesheet" href="/css/cavendish/home.css" title="Cavendish" media="screen">
 <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
@@ -12,74 +12,85 @@
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
 }
 
-.front-feature #mobile_link {
-    background: url("/images/firefox_mobile14_trans.png") left bottom no-repeat scroll transparent;
-    bottom: -15px;
+.front-feature #firefox_quantum {
+    background: url(/images/browser-high-res.png) right top no-repeat scroll transparent;
     color: #FFFFFF;
     display: block;
     font-family: "DFHei Std", "DFLiHei Std","Heiti TC", "华文细黑", "Microsoft JhengHei", sans-serif;
     font-weight: 300;
-    height: 100%;
     padding: 0;
     position: absolute;
-    right: 0;
+    right: -100px;
+    top: 45px;
     text-decoration: none;
-    width: 595px;
+    width: 600px;
+    height: 453px;
     z-index: 0;
+    background-size: 100%;
 }
-.front-feature #mobile_link a {
+.front-feature #firefox_quantum a {
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 595px;
 }
-.front-feature #mobile_link a:hover {
-    background: none;
-}
-.front-feature #mobile_link p {
-    position: absolute;
-    display: none;
-}
-.front-feature #mobile_link p.show {
-    display: block;
-}
-.front-feature #mobile_link:hover p {
-    text-shadow: 1px 1px 6px black;
+.front-feature #firefox_quantum a:hover {
+  background: none;
 }
 
-.front-feature #mobile_link #mobile_faster {
-    font-size: 46px;
-    left: 365px;
+.front-feature #firefox_quantum #quantum_better {
+    position: absolute;
+    font-size: 29px;
+    left: 0;
     line-height: 1.2em;
-    top: 53px;
+    text-shadow: 1px 1px 6px black;
+    bottom: 50px;
+    visibility: hidden;
 }
-.front-feature #mobile_link #mobile_respect {
-    font-size: 24px;
-    left: 367px;
-    line-height: 1.25em;
-    top: 237px;
+.front-feature:hover #firefox_quantum #quantum_better {
+    visibility: visible;
 }
 
 #feature-content h2 {
     margin-bottom: 5px;
 }
 
+.front-feature a.fx-link {
+    color: white;
+    display: inline-block;
+    height: 82px;
+    line-height: 82px;
+    font-size: 38px;
+    margin-bottom: 10px;
+    font-family: "PingFang TC", 微軟正黑體, arial, verdana, sans-serif;
+    font-weight: 400;
+}
 .front-feature a.fx-link:hover {
     background-color: transparent;
 }
 
 .front-feature a.fx-link img {
-    border-radius: 35px;
+    vertical-align: bottom;
+    margin-right: 0.3em;
+    height: 82px;
+    width: auto;
 }
 
-.front-feature a.fx-link:hover img {
-    background-color: rgba(255, 255, 255, 0.2);
-    height: 86px;
-    margin-left: -10px;
-    margin-top: -9px;
-    padding: 5px 10px 0;
-    width: 230px;
+@media only screen and (min-width : 501px) {
+    .front-feature a.fx-link:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        height: 90px;
+        line-height: 90px;
+        margin: -5px 0 10px -15px;
+        padding: 3px 10px 5px;
+        border-radius: 35px;
+        font-size: 40px;
+    }
+
+    .front-feature a.fx-link:hover img {
+        height: 88px;
+    }
 }
 
 #front-feature .download {
@@ -116,10 +127,6 @@
     padding: 10px 485px 5px 20px;
 }
 
-#feature-content p {
-    font-size: 1.1em;
-    margin: 0 0 25px;
-}
 
 .mobile-header { text-shadow:1px 1px 1px #d44000, 1px 1px 2px #fbba20; }
 #planets ul {
@@ -135,11 +142,11 @@
 }
 
 .key-point {
-    background-color:#05a0dc;
-    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
-    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -moz-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
-    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -o-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
-    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png") repeat 0px -10px, -webkit-linear-gradient(rgb(15, 159, 219), rgb(0, 85, 160));
+    background-color: #0060df;
+    background: url("/images/fox-tail-header.png"), linear-gradient(to bottom,#003eaa 40%,#004ec2 60%,#0060df 80%,#0080ff 90%,#00c7ff 100%);
+    background-repeat: no-repeat;
+    background-size: 150% auto;
+    background-position: -100px center;
     border-bottom: none;
 }
 
@@ -149,41 +156,42 @@
 
 @media only screen and (max-width : 500px) {
     #front-feature #feature-content {
+        height: 86px;
+        overflow: hidden;
+        position: absolute;
+        width: 80px;
+        padding: 0;
+    }
+    #front-feature #feature-content .download {
         display: none;
     }
+
     #front-feature {
         background-position: right center;
-        background-size: auto 150%;
-        padding-bottom: 240px;
+        background-size: 115% auto;
+        padding-bottom: 180px;
     }
-    .front-feature #mobile_link {
-        width: 500px;
-        background-position: 82px bottom;
-        background-size: auto 98%;
+    .front-feature #firefox_quantum {
+        width: 425px;
+        background-position: 100% top;
+        background-size: 100% auto;
+        right: -90px;
+        top: 60px;
     }
-    .front-feature #mobile_link #mobile_faster {
-        font-size: 32px;
-        left: 340px;
-        top: 50px;
-        line-height: 1.25em;
-        letter-spacing: 0.05em;
+    .front-feature #firefox_quantum a {
+        height: 500px;
+        left: -150px;
+        position: absolute;
+        top: -50px;
+        width: 1000px;
     }
-    .front-feature #mobile_link #mobile_respect {
-        font-size: 19px;
-        left: 340px;
-        right: 25px;
-        top: 180px;
-        line-height: 1.45em;
-        letter-spacing: 0.05em;
-    }
-
 }
 -->
 </style>
 <!--[if lte IE 8]>
 <style>
 .key-point {
-    background: url("/images/FFxOSDevs_BlueprintBG_PRINT.png")
+    background-image: url(/images/fox-tail-header.png);
 }
 .frontcolumn {
     padding-right: 2%;
@@ -191,9 +199,8 @@
 #front-feature .download ul, #planets ul {
     margin-left: 0;
 }
-.front-feature #mobile_link {
-    height: 330px;
-    width: 70%;
+.front-feature #firefox_quantum {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/browser-high-res.png', sizingMethod='scale');
 }
 </style>
 <![endif]-->
@@ -202,15 +209,13 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div class="key-point front-feature" id="front-feature">
-  <div id="mobile_link">
-    <p id="mobile_faster">更快<br>更聰明<br>更加安全</p>
-    <p id="mobile_respect">絕對尊重您的<br>行動瀏覽器</p>
-    <a href="/mobile/"></a>
+  <div id="firefox_quantum">
+    <a href="https://mozilla.org/firefox/" title="全新 Firefox Quantum，更快、更多好事。" onclick="ga('send', 'event', 'Outgoing', 'mozilla.org/firefox', 'home_feature');"></a>
   </div>
   <div id="feature-content">
-    <h2><a class="fx-link" href="/firefox/"><img src="images/firefox_logo-wordmark-horiz_RGB_480w.png" alt="Firefox" height="82" width="220"></a></h2>
+    <h2><a class="fx-link" href="https://mozilla.org/firefox/" onclick="ga('send', 'event', 'Outgoing', 'mozilla.org/firefox', 'home_logo');"><img src="images/firefox_logo_57_512w.png" alt="Firefox" height="82" width="79">全新 Firefox</a></h2>
     <div class="download dl-box">
-		<h3><a href="/firefox/" title="最好的瀏覽器"><strong class="downloadText">Firefox 正體中文版</strong></a></h3>
+		<h3><a href="https://mozilla.org/firefox/" title="全新 Firefox Quantum，更快、更多好事。" onclick="ga('send', 'event', 'Outgoing', 'mozilla.org/firefox', 'home_dl_title');"><strong class="downloadText">Firefox 正體中文版</strong></a></h3>
  		<div style='margin-top: 5px;'>
 		<!--#if expr="" --><!-- point to .shtml while test locally --><!--#endif -->
 		<!--#include virtual="/inc/dlff.html" -->
@@ -220,8 +225,8 @@
       <h3><a href="/mobile/"><strong class="downloadText">Firefox 行動版</strong></a></h3>
       <div>
         <ul>
-          <li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'GooglePlay');">Firefox for Android</a></li>
-          <li><a href="https://itunes.apple.com/app/id989804926" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'iTunesStore');">Firefox for iOS</a></li>
+          <li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onclick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'GooglePlay');">Firefox for Android</a></li>
+          <li><a href="https://itunes.apple.com/app/id989804926" target="_blank" onclick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'iTunesStore');">Firefox for iOS</a></li>
         </ul>
       </div>
     </div>
@@ -231,7 +236,7 @@
 <div id="mBody">
 
   <div class="frontcolumn hide" id="mobile-feature-ios">
-    <h2 class="mobile-header"><a href="https://itunes.apple.com/app/id989804926" onClick="ga('send', 'event', 'Outgoing', 'iOS-AppStore-Firefox', 'frontpage-frontcolumn');">Firefox for iOS<img src="/images/product-firefox-ios.png" alt="Firefox for iOS" class="promo"></a></h2>
+    <h2 class="mobile-header"><a href="https://itunes.apple.com/app/id989804926" onclick="ga('send', 'event', 'Outgoing', 'iOS-AppStore-Firefox', 'frontpage-frontcolumn');">Firefox for iOS<img src="/images/product-firefox-ios.png" alt="Firefox for iOS" class="promo"></a></h2>
     <p>在您的 iPhone、iPad 及 iPod touch 上，時時取用 Firefox 的瀏覽歷史、書籤及開啟分頁；還有滿滿的安全功能，保護您的隱私資訊。</p>
   </div>
   <!-- <div class="frontcolumn hide">
@@ -256,7 +261,7 @@
   <div class="frontcolumnlast">
     <h2><a href="/contribute/">參與我們<img src="/images/toy_gold_32.png" alt="Contribute Logo" class="promo"></a></h2>
     <p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！
-      <br>　　　→ <a href="https://groups.google.com/group/moztw-general" onClick="ga('send', 'event', 'Outgoing', 'moztw-general', 'Frontpage');">MozTW 社群郵件群組</a></p>
+      <br>　　　→ <a href="https://groups.google.com/group/moztw-general" onclick="ga('send', 'event', 'Outgoing', 'moztw-general', 'Frontpage');">MozTW 社群郵件群組</a></p>
   </div>
 </div>
 <br style="clear: both;">
@@ -281,11 +286,11 @@
   <div class="frontcolumnlast">
     <h2>快速捷徑</h2>
     <ul class="news">
-      <li><a href="//forum.moztw.org/viewforum.php?f=2" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 中文討論區</a></li>
+      <li><a href="//forum.moztw.org/viewforum.php?f=2" onclick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 中文討論區</a></li>
       <li><a href="/events/moztw-lab/">MozTW Lab 定期聚會</a></li>
-      <li><a href="https://learning.mozilla.org/" onClick="ga('send', 'event', 'Outgoing', 'Webmaker', 'frontpage');">Mozilla Webmaker</a></li>
-      <li><a href="http://mozlinks.moztw.org/" onClick="ga('send', 'event', 'Outgoing', 'Mozilla Links', 'frontpage');">Mozilla Links 正體中文版</a></li>
-      <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onClick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 未來發行版本</a></li>
+      <li><a href="https://learning.mozilla.org/" onclick="ga('send', 'event', 'Outgoing', 'Webmaker', 'frontpage');">Mozilla Webmaker</a></li>
+      <li><a href="http://mozlinks.moztw.org/" onclick="ga('send', 'event', 'Outgoing', 'Mozilla Links', 'frontpage');">Mozilla Links 正體中文版</a></li>
+      <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onclick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 未來發行版本</a></li>
       <li><a href="http://wiki.moztw.org/">共筆系統</a></li>
       <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
       <li><a href="/foxmosa/">Foxmosa 狐耳摩莎</a></li>
