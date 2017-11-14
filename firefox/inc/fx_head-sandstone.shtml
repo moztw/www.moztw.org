@@ -4,8 +4,8 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MozTW">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:url" content="http://moztw.org/firefox/releases/">
-<meta property="og:image" content="https://moztw.org/firefox/images/firefox-independent-1200.jpg">
+<meta property="og:url" content="https://moztw.org/firefox/releases/">
+<meta property="og:image" content="http://moztw.org/images/page-image-quantum.png">
 <meta property="og:title" content="Mozilla Firefox 版本資訊 (<!--#echo var="version" -->)">
 <meta property="og:description" content="Firefox 版本資訊 <!--#echo var="1" --> 年 <!--#echo var="2" --> 月 <!--#echo var="3" --> 日 v<!--#echo var="version" --> 此版本資訊包含了 Firefox 新鮮事、已知問題、下載安裝指示、以及常見問題等訊息。 我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的英文討論區或 MozTW 的 Firefox 中文討論區與我們分享意見。">
 <meta property="fb:page_id" content="109362359103769">
