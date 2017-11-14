@@ -210,10 +210,10 @@
 
 <div class="key-point front-feature" id="front-feature">
   <div id="firefox_quantum">
-    <a href="https://mozilla.org/firefox/" title="全新 Firefox Quantum，更快、更多好事。"></a>
+    <a href="https://mozilla.org/firefox/" title="全新 Firefox Quantum，更快、更多好事。" onclick="ga('send', 'event', 'Outgoing', 'ozilla.org/firefox', 'home_feature');"></a>
   </div>
   <div id="feature-content">
-    <h2><a class="fx-link" href="https://mozilla.org/firefox/"><img src="images/firefox_logo_57_512w.png" alt="Firefox" height="82" width="79">全新 Firefox</a></h2>
+    <h2><a class="fx-link" href="https://mozilla.org/firefox/" onclick="ga('send', 'event', 'Outgoing', 'ozilla.org/firefox', 'home_logo');"><img src="images/firefox_logo_57_512w.png" alt="Firefox" height="82" width="79">全新 Firefox</a></h2>
     <div class="download dl-box">
 		<h3><a href="/firefox/" title="最好的瀏覽器"><strong class="downloadText">Firefox 正體中文版</strong></a></h3>
  		<div style='margin-top: 5px;'>
