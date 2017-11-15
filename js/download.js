@@ -16,7 +16,7 @@ function getPlatform() {
     return "linux64";
 
   //Mac 放在最後，以免其他 OSX based 裝置也被當成桌面 OSX
-  if(navigator.userAgent.match(/iP(hone|od|ad)/i))
+  if (navigator.userAgent.match(/iP(hone|od|ad)/i))
     return "ios";
   if (navigator.userAgent.indexOf("Mac OS X") != -1)
     return "mac";
@@ -36,6 +36,7 @@ function highlightDownload() {
       e.className = e.className + ' preselected';
     }
   }
+
   // 換首頁圖
   /* disable for flicks events
   var eFeature = document.getElementById("front-feature");
@@ -43,6 +44,7 @@ function highlightDownload() {
     eFeature.style.backgroundImage = "url(images/4-feature-" + platform + ".png)";
   }
   */
+
   /*
   if ((platform == "ios") || (platform == "android" && navigator.userAgent.indexOf("Firefox") != -1 )){
 		// COSCUP Mission
@@ -54,30 +56,29 @@ function highlightDownload() {
   // 換首頁 Feature Block
 
   eFeature = document.getElementById("feature-thunderbird");
-  if (eFeature && platform != "unknown"){
-	if (platform == "ios"){
-		eFeature.className += " hide";
-		eFeature = document.getElementById("mobile-feature-ios");
-		eFeature.className = eFeature.className.replace(/\bhide\b/,'');
+  if (eFeature && platform != "unknown") {
+    if (platform == "ios") {
+      eFeature.className += " hide";
+      eFeature = document.getElementById("mobile-feature-ios");
+      eFeature.className = eFeature.className.replace(/\bhide\b/, '');
+      /*
+      eFeature = document.getElementById("mobile_link");
+      eFeature.style.background="url('/images/firefox_mobile14_trans_ios.png')";
+      */
+    }
     /*
-    eFeature = document.getElementById("mobile_link");
-    eFeature.style.background="url('/images/firefox_mobile14_trans_ios.png')";
+    if (platform == "mac"){
+      eFeature = document.getElementById("mobile_link");
+      eFeature.style.background="url('/images/firefox_mobile14_trans_ios.png')";
+    }
     */
-	}
-  /*
-  if (platform == "mac"){
-    eFeature = document.getElementById("mobile_link");
-    eFeature.style.background="url('/images/firefox_mobile14_trans_ios.png')";
-  }
-*/
 
-	/* disable when featuring Firefox android period.
+    /* disable when featuring Firefox android period.
     else if (platform == "android"){
 		eFeature.className += " hide";
 		eFeature = document.getElementById("mobile-feature-android");
 		eFeature.className = eFeature.className.replace(/\bhide\b/,'');
-
 	}
 	*/
-}
+  }
 }
