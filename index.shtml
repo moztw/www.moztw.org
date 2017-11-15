@@ -167,7 +167,7 @@
     #front-feature {
       background-position: right center;
       background-size: 115% auto;
-      padding-bottom: 180px;
+      padding-bottom: 160px;
     }
     #front-feature #feature-content {
       height: 65px;
@@ -184,10 +184,10 @@
       display: none;
     }
     .front-feature #firefox_quantum {
-      width: 100%;
+      width: 130%;
       background-position: 100% top;
       background-size: 100% auto;
-      right: -45px;
+      right: -130px;
       top: 60px;
     }
     .front-feature #firefox_quantum a {
