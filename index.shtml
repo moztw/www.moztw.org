@@ -5,18 +5,17 @@
 <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
 <link rel="alternate" type="application/rss+xml" title="moztw.org: Mozilla Taiwan 社群新聞" href="/xmlnews.rdf">
 <style>
-<!--
-
-.front-feature {
+  <!--
+  .front-feature {
     position: relative;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
-}
+  }
 
-.front-feature #firefox_quantum {
+  .front-feature #firefox_quantum {
     background: url(/images/browser-high-res.png) right top no-repeat scroll transparent;
     color: #FFFFFF;
     display: block;
-    font-family: "DFHei Std", "DFLiHei Std","Heiti TC", "华文细黑", "Microsoft JhengHei", sans-serif;
+    font-family: "DFHei Std", "DFLiHei Std", "Heiti TC", "华文细黑", "Microsoft JhengHei", sans-serif;
     font-weight: 300;
     padding: 0;
     position: absolute;
@@ -27,19 +26,21 @@
     height: 453px;
     z-index: 0;
     background-size: 100%;
-}
-.front-feature #firefox_quantum a {
+  }
+
+  .front-feature #firefox_quantum a {
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 595px;
-}
-.front-feature #firefox_quantum a:hover {
-  background: none;
-}
+  }
 
-.front-feature #firefox_quantum #quantum_better {
+  .front-feature #firefox_quantum a:hover {
+    background: none;
+  }
+
+  .front-feature #firefox_quantum #quantum_better {
     position: absolute;
     font-size: 29px;
     left: 0;
@@ -47,16 +48,17 @@
     text-shadow: 1px 1px 6px black;
     bottom: 50px;
     visibility: hidden;
-}
-.front-feature:hover #firefox_quantum #quantum_better {
+  }
+
+  .front-feature:hover #firefox_quantum #quantum_better {
     visibility: visible;
-}
+  }
 
-#feature-content h2 {
+  #feature-content h2 {
     margin-bottom: 5px;
-}
+  }
 
-.front-feature a.fx-link {
+  .front-feature a.fx-link {
     color: white;
     display: inline-block;
     height: 82px;
@@ -65,128 +67,136 @@
     margin-bottom: 10px;
     font-family: "PingFang TC", 微軟正黑體, arial, verdana, sans-serif;
     font-weight: 400;
-}
-.front-feature a.fx-link:hover {
-    background-color: transparent;
-}
+  }
 
-.front-feature a.fx-link img {
+  .front-feature a.fx-link:hover {
+    background-color: transparent;
+  }
+
+  .front-feature a.fx-link img {
     vertical-align: bottom;
     margin-right: 0.3em;
     height: 82px;
     width: auto;
-}
+  }
 
-@media only screen and (min-width : 501px) {
+  @media only screen and (min-width: 501px) {
     .front-feature a.fx-link:hover {
-        background-color: rgba(255, 255, 255, 0.2);
-        height: 90px;
-        line-height: 90px;
-        margin: -5px 0 10px -15px;
-        padding: 3px 10px 5px;
-        border-radius: 35px;
-        font-size: 40px;
+      background-color: rgba(255, 255, 255, 0.2);
+      height: 90px;
+      line-height: 90px;
+      margin: -5px 0 10px -15px;
+      padding: 3px 10px 5px;
+      border-radius: 35px;
+      font-size: 40px;
     }
 
     .front-feature a.fx-link:hover img {
-        height: 88px;
+      height: 88px;
     }
-}
+  }
 
-#front-feature .download {
+  #front-feature .download {
     padding: 12px 0 10px 15px !important;
     margin-bottom: 15px;
     box-shadow: 0 0 3px #5F8FBE;
-}
+  }
 
-#front-feature .dl-mobile {
+  #front-feature .dl-mobile {
     margin-bottom: 0px;
-}
+  }
 
-#front-feature .dl-mobile div {
+  #front-feature .dl-mobile div {
     height: 0px;
     overflow: hidden;
-}
+  }
 
-#front-feature .dl-mobile:hover div {
+  #front-feature .dl-mobile:hover div {
     height: 45px;
     margin-top: 5px;
     -webkit-transition: all 0.8s;
     transition: all 0.8s;
-}
+  }
 
-#front-feature .download ul {
+  #front-feature .download ul {
     padding-left: 30px;
-}
+  }
 
-#front-feature .download ul li.mbl {
+  #front-feature .download ul li.mbl {
     display: none;
-}
+  }
 
-#front-feature #feature-content {
+  #front-feature #feature-content {
     padding: 10px 485px 5px 20px;
-}
+  }
 
 
-.mobile-header { text-shadow:1px 1px 1px #d44000, 1px 1px 2px #fbba20; }
-#planets ul {
-	padding-left: 1.5em; margin-top: 0.5em;
-}
-#planets ul li {
-	margin-bottom: 1em;
-}
-.promo {
-	border: 0;
-	width: 72px;
-	height: 72px;
-}
+  .mobile-header {
+    text-shadow: 1px 1px 1px #d44000, 1px 1px 2px #fbba20;
+  }
 
-.key-point {
+  #planets ul {
+    padding-left: 1.5em;
+    margin-top: 0.5em;
+  }
+
+  #planets ul li {
+    margin-bottom: 1em;
+  }
+
+  .promo {
+    border: 0;
+    width: 72px;
+    height: 72px;
+  }
+
+  .key-point {
     background-color: #0060df;
-    background: url("/images/fox-tail-header.png"), linear-gradient(to bottom,#003eaa 40%,#004ec2 60%,#0060df 80%,#0080ff 90%,#00c7ff 100%);
+    background: url("/images/fox-tail-header.png"), linear-gradient(to bottom, #003eaa 40%, #004ec2 60%, #0060df 80%, #0080ff 90%, #00c7ff 100%);
     background-repeat: no-repeat;
     background-size: 150% auto;
     background-position: -100px center;
     border-bottom: none;
-}
+  }
 
-.homepage .download {
+  .homepage .download {
     width: 250px;
-}
+  }
 
-@media only screen and (max-width : 500px) {
+  @media only screen and (max-width: 500px) {
     #front-feature #feature-content {
-        height: 86px;
-        overflow: hidden;
-        position: absolute;
-        width: 80px;
-        padding: 0;
+      height: 86px;
+      overflow: hidden;
+      position: absolute;
+      width: 80px;
+      padding: 0;
     }
     #front-feature #feature-content .download {
-        display: none;
+      display: none;
     }
 
     #front-feature {
-        background-position: right center;
-        background-size: 115% auto;
-        padding-bottom: 180px;
+      background-position: right center;
+      background-size: 115% auto;
+      padding-bottom: 180px;
     }
     .front-feature #firefox_quantum {
-        width: 425px;
-        background-position: 100% top;
-        background-size: 100% auto;
-        right: -90px;
-        top: 60px;
+      width: 425px;
+      background-position: 100% top;
+      background-size: 100% auto;
+      right: -90px;
+      top: 60px;
     }
     .front-feature #firefox_quantum a {
-        height: 500px;
-        left: -150px;
-        position: absolute;
-        top: -50px;
-        width: 1000px;
+      height: 500px;
+      left: -150px;
+      position: absolute;
+      top: -50px;
+      width: 1000px;
     }
-}
--->
+  }
+
+  -->
 </style>
 <!--[if lte IE 8]>
 <style>
@@ -215,11 +225,13 @@
   <div id="feature-content">
     <h2><a class="fx-link" href="https://mozilla.org/firefox/" onclick="ga('send', 'event', 'Outgoing', 'mozilla.org/firefox', 'home_logo');"><img src="images/firefox_logo_57_512w.png" alt="Firefox" height="82" width="79">全新 Firefox</a></h2>
     <div class="download dl-box">
-		<h3><a href="https://mozilla.org/firefox/" title="全新 Firefox Quantum，更快、更多好事。" onclick="ga('send', 'event', 'Outgoing', 'mozilla.org/firefox', 'home_dl_title');"><strong class="downloadText">Firefox 正體中文版</strong></a></h3>
- 		<div style='margin-top: 5px;'>
-		<!--#if expr="" --><!-- point to .shtml while test locally --><!--#endif -->
-		<!--#include virtual="/inc/dlff.html" -->
-		</div>
+      <h3><a href="https://mozilla.org/firefox/" title="全新 Firefox Quantum，更快、更多好事。" onclick="ga('send', 'event', 'Outgoing', 'mozilla.org/firefox', 'home_dl_title');"><strong class="downloadText">Firefox 正體中文版</strong></a></h3>
+      <div style="margin-top: 5px;">
+        <!--#if expr="" -->
+        <!-- point to .shtml while test locally -->
+        <!--#endif -->
+        <!--#include virtual="/inc/dlff.html" -->
+      </div>
     </div>
     <div class="download dl-mobile" onclick="">
       <h3><a href="/mobile/"><strong class="downloadText">Firefox 行動版</strong></a></h3>
@@ -244,8 +256,8 @@
   	<p>Android 版 Firefox 全面更新，更快、更聰明、更加安全，輕巧又靈活，讓您更快到達想去的地方。</p>
   </div> -->
   <div class="frontcolumn" id="feature-thunderbird">
-      <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-thunderbird-v3.png" style="height:72px;width:72px;" alt="Thunderbird Logo" class="promo"></a></h2>
-	  <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
+    <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-thunderbird-v3.png" style="height:72px;width:72px;" alt="Thunderbird Logo" class="promo"></a></h2>
+    <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
   </div>
   <!--  <div class="frontcolumn">
     <h2><a href="https://webmaker.org/"><img src="/images/webmaker.png" style="" alt="Webmaker" class="promo">Mozilla Webmaker</a></h2>
@@ -266,20 +278,21 @@
 </div>
 <br style="clear: both;">
 
-  <!-- Start News Columns -->
+<!-- Start News Columns -->
 
-  <div>
-    <div class="frontcolumndouble" id="news_columns">
-      <a href="/xmlnews.rdf">
+<div>
+  <div class="frontcolumndouble" id="news_columns">
+    <a href="/xmlnews.rdf">
         <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16">
       </a>
-      <h2>
+    <h2>
         <a href="/news">最新消息與公告</a>
       </h2>
-      <!--#include virtual="/inc/news.html" -->
-    </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
+    <!--#include virtual="/inc/news.html" -->
+    </ul>
+    <!-- start tag is in inc/news.html, DO NOT REMOVE -->
     <br style="clear: both;">
-    <a href='news'>所有公告記錄</a>
+    <a href="news">所有公告記錄</a>
   </div>
   <!-- End News Columns -->
 
@@ -298,64 +311,72 @@
     </ul>
   </div>
 </div>
-  </div>
+</div>
 <!--#include virtual="/inc/footer.html" -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script type="text/javascript">
-/*
- * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
- *
- * Copyright (c) 2009 jQuery HowTo
- *
- * Licensed under the GPL license:
- *   http://www.gnu.org/licenses/gpl.html
- *
- * URL:
- *   http://jquery-howto.blogspot.com
- *
- * Author URL:
- *   http://me.boo.uz
- *
- * Revised by petercpg to adapt for Yahoo's YQL output
- */
-(function($){
-  $.extend({
-    jGFeed:function(YQL,fnk,num,key){
-      if(YQL==null){return false;}
-      if(num!=null){YQL+=" LIMIT "+num;}
-      if(key!=null){YQL+="&key="+key;}  // Not used in YQL
-      var yurl="https://query.yahooapis.com/v1/public/yql?q="+YQL+"&format=json";
-      $.getJSON(yurl,function(data){
-        if(typeof(fnk)=="function"){
-          fnk.call(this, data.query ? data.query : false);
-        }else{
+  /*
+   * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
+   *
+   * Copyright (c) 2009 jQuery HowTo
+   *
+   * Licensed under the GPL license:
+   *   http://www.gnu.org/licenses/gpl.html
+   *
+   * URL:
+   *   http://jquery-howto.blogspot.com
+   *
+   * Author URL:
+   *   http://me.boo.uz
+   *
+   * Revised by petercpg to adapt for Yahoo's YQL output
+   */
+  (function($) {
+    $.extend({
+      jGFeed: function(YQL, fnk, num, key) {
+        if (YQL == null) {
           return false;
         }
-      });
-    }
-  });
-  $.jGFeed(
-    'SELECT * FROM atom WHERE url = "https://planet.moztw.org/atom.xml"',
-    function (feed) {
-      $(function () {
-        $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').after('<div id="planets" class="frontcolumn"><a href="https://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"/></a><h2><a href="https://planet.moztw.org/">摩茲星球</a></h2><ul></div>');
-        $ul = $('#planets ul');
-        $.each(
-          feed.results.entry,
-          function (i, o) {
-            if (o.link.constructor === Array) { // 有的人的部落格會有多個網址，在回傳結果會變成 Array
-              linkhref = o.link[0].href;
-            } else {
-              linkhref = o.link.href;
-            }
-            $ul.append('<li><a href="' + linkhref + '">' + o.title.substr(o.title.indexOf(':') + 2)  + '</a> &ndash; ' + o.title.substr(0, o.title.indexOf(':')) + '</li>');
+        if (num != null) {
+          YQL += " LIMIT " + num;
+        }
+        if (key != null) {
+          YQL += "&key=" + key;
+        } // Not used in YQL
+        var yurl = "https://query.yahooapis.com/v1/public/yql?q=" + YQL + "&format=json";
+        $.getJSON(yurl, function(data) {
+          if (typeof(fnk) == "function") {
+            fnk.call(this, data.query ? data.query : false);
+          } else {
+            return false;
           }
+        });
+      }
+    });
+    $.jGFeed(
+      'SELECT * FROM atom WHERE url = "https://planet.moztw.org/atom.xml"',
+      function(feed) {
+        $(function() {
+          $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').after(
+            '<div id="planets" class="frontcolumn"><a href="https://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"/></a><h2><a href="https://planet.moztw.org/">摩茲星球</a></h2><ul></div>'
           );
-      });
-    },
-    5
-   );
-})(jQuery);
+          $ul = $('#planets ul');
+          $.each(
+            feed.results.entry,
+            function(i, o) {
+              if (o.link.constructor === Array) { // 有的人的部落格會有多個網址，在回傳結果會變成 Array
+                linkhref = o.link[0].href;
+              } else {
+                linkhref = o.link.href;
+              }
+              $ul.append('<li><a href="' + linkhref + '">' + o.title.substr(o.title.indexOf(':') + 2) + '</a> &ndash; ' + o.title.substr(0, o.title.indexOf(':')) + '</li>');
+            }
+          );
+        });
+      },
+      5
+    );
+  })(jQuery);
 </script>
 
 <!--#include virtual="/inc/end.html" -->
