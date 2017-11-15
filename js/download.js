@@ -53,16 +53,18 @@ function highlightDownload() {
 
   // 換首頁 Feature Block
 
-/*
   eFeature = document.getElementById("feature-thunderbird");
   if (eFeature && platform != "unknown"){
 	if (platform == "ios"){
 		eFeature.className += " hide";
 		eFeature = document.getElementById("mobile-feature-ios");
 		eFeature.className = eFeature.className.replace(/\bhide\b/,'');
+    /*
     eFeature = document.getElementById("mobile_link");
     eFeature.style.background="url('/images/firefox_mobile14_trans_ios.png')";
+    */
 	}
+  /*
   if (platform == "mac"){
     eFeature = document.getElementById("mobile_link");
     eFeature.style.background="url('/images/firefox_mobile14_trans_ios.png')";
@@ -77,4 +79,5 @@ function highlightDownload() {
 
 	}
 	*/
+}
 }
