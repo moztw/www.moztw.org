@@ -1,64 +1,59 @@
 <?php
-require('config.php');
 require('links.php');
 
-if (!isset($_GET['recaptcha']) || $_GET['recaptcha'] == '') {
-	fail();
+$recaptcha = $_POST['recaptcha'] ?? '';
+if ('' === $recaptcha) failed();
+if (!recaptcha_verify($recaptcha)) failed();
+
+success($links);
+
+/**
+ * Verify the recaptcha.
+ * @param  string $recaptcha_response The recaptcha field value.
+ * @return boolean Recaptcha verify state.
+ */
+function recaptcha_verify($recaptcha_response)
+{
+    return json_decode(file_get_contents('https://www.google.com/recaptcha/api/siteverify', false, stream_context_create(['http' => [
+        'method' => 'POST',
+        'header' => 'Content-type: application/x-www-form-urlencoded',
+        'content' => http_build_query([
+            'secret' => '6LdlOxYTAAAAAAlL-GdqeU_KWOYt1WrHNGtW6m2E',
+            'response' => $recaptcha_response,
+            'remoteip' => $_SERVER['REMOTE_ADDR'],
+        ])]])), true)['success'];
 }
 
-if (isset($_GET['tag']) && array_key_exists($_GET['tag'], $tags)) {
-	$tag = $_GET['tag'];
-} else {
-	$tag = 'zh-tw';
+/**
+ * @param array $contents
+ */
+function response_json($contents)
+{
+    $json = json_encode($contents);
+    header('Content-Type: application/json');
+    header('Length: ' . strlen($json));
+    echo($json);
+    exit();
 }
 
-$curl = curl_init();
-curl_setopt_array($curl, Array(
-	CURLOPT_URL => 'https://www.google.com/recaptcha/api/siteverify',   # Google reCAPTCHA Veritication API
-	CURLOPT_RETURNTRANSFER => True,   # Don't show respone
-	CURLOPT_POST => True,   # Use POST
-	CURLOPT_POSTFIELDS => Array(
-		'secret' => SiteSecret,
-		'response' => $_GET['recaptcha'],
-	),
-));
-$data = curl_exec($curl);
-curl_close($curl);
-$data = json_decode($data, True);
-
-if (isset($data['success']) && $data['success']) {   # if verify success
-	success($tag);
-} else {
-	fail();
+/**
+ * Failed the verify.
+ */
+function failed()
+{
+    response_json([
+        'success' => false,
+    ]);
 }
 
-function fail() {
-	$respone = Array(
-		'success' => False
-	);
-	$respone = json_encode($respone);
-	echo $respone;
-	exit;
-}
-
-function success($tag) {
-	$link = genLinks($tag);
-	$respone = Array(
-		'success' => True,
-		'data' => $link,
-	);
-	$respone = json_encode($respone);
-	echo $respone;
-	exit;
-}
-
-function genLinks($tag) {
-	global $links;
-
-	foreach ($links as $link) {
-		if (in_array($tag, $link['tags'])) {
-			$result[] = $link;
-		}
-	}
-	return $result;
+/**
+ * Passed the verify and output the links.
+ * @param array $links The links for the output.
+ */
+function success($links)
+{
+    response_json([
+        'success' => true,
+        'links' => $links,
+    ]);
 }
