@@ -10,6 +10,7 @@
 
 #releasenotes .download.firefox .download-button-small .download-link .download-content{
 	background-image: url(/sandstone/images/firefox-small.png);
+  background-size: 57px 60px;
 	background-position: left center;
 	margin-left: -30px;
 	padding: 10px 20px 10px 83px;
