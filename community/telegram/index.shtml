@@ -60,8 +60,8 @@
     </div>
 
     <div id="failure">
-        <p lang="zh-tw">驗證失敗，<a href=".">點我重試</a></p>
-        <p lang="en">Verification failed. <a href=".">Retry</a></p>
+        <p lang="zh-tw">驗證失敗，<a href="javascript:onrecaptchareset();">點我重試</a></p>
+        <p lang="en">Verification failed. <a href="javascript:onrecaptchareset();">Retry</a></p>
     </div>
 
     <!-- Public to bots -->
@@ -118,9 +118,13 @@
             onlinksload(result.links);
         } else {
             $('#failure').show();
-            alert('zh-tw' === getLanguage() ? '驗證失敗\n麻煩您再試一次' : 'Verification failed.\nPlease retry.');
-            window.location = '.';
         }
+    }
+
+    function onrecaptchareset() {
+        $('#failure').hide();
+        $('#recaptcha').show();
+        grecaptcha.reset();
     }
 
     function recaptcha() {
