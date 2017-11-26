@@ -16,11 +16,13 @@
         text-align: center;
     }
 
-    #wrap [lang] {
+    #wrap [lang], #wrap .lang {
         display: none;
     }
 
+    #wrap.lang-zh-tw .lang-zh-tw,
     #wrap.lang-zh-tw [lang="zh-tw"],
+    #wrap.lang-en .lang-en,
     #wrap.lang-en [lang="en"] {
         display: inherit;
     }
@@ -85,7 +87,7 @@
             <span lang="en">Change Language</span>
         </label>
         <select id="language">
-            <option value="zh-tw">Chinese</option>
+            <option value="zh-tw">Chinese (Taiwan)</option>
             <option value="en">English</option>
         </select>
     </p>
@@ -95,16 +97,17 @@
     function onlinksload(links) {
         for (var i = 0; i < links.length; ++i) {
             var link = links[i];
-            link.id = '@' === link.id.charAt(0) ? link.id.substr(1) : 'joinchat/' + link.id;
+            var url = '@' === link.id.charAt(0) ? link.id.substr(1) : 'joinchat/' + link.id;
 
-            var url = 'https://t.me/' + link.id;
-            var name = link.name;
-            var description = link.description;
-            var introduction = link.introduction;
-
-            $('<a>', {href: url, title: description, target: '_blank', text: name}).appendTo('#links');
-            $('<div>', {text: introduction}).appendTo('#links');
-            $('<br>').appendTo('#links');
+            var $container = $('<div>', {'class': 'lang lang-' + link.tags.join(' lang-')});
+            $('<a>', {
+                href: 'https://t.me/' + url,
+                title: link.description,
+                target: '_blank',
+                text: link.name
+            }).appendTo($container);
+            $('<div>', {text: link.introduction}).appendTo($container);
+            $container.appendTo('#links');
         }
     }
 
@@ -124,7 +127,7 @@
         $('#recaptcha').hide();
         $('#processing').show();
 
-        $.post('ajax.php?tag=' + getLanguage(), {recaptcha: $('#g-recaptcha-response').val()}, onrecaptcha, 'json');
+        $.post('ajax.php', {recaptcha: $('#g-recaptcha-response').val()}, onrecaptcha, 'json');
     }
 
     function setLanguage(language) {
