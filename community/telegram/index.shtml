@@ -42,7 +42,7 @@
 <div id="wrap">
     <div id="recaptcha">
         <p lang="zh-tw">為了防止廣告機器人進入群組，麻煩您點選下面的「我不是機器人」</p>
-        <p lang="en">Please click "I am not a robot"</p>
+        <p lang="en">Please check the &ldquo;I am not a robot&rdquo;</p>
         <!-- Google reCAPTCHA -->
         <div class="g-recaptcha" data-callback="recaptcha"
              data-sitekey="6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO"></div>
@@ -55,7 +55,7 @@
 
     <div id="links-wrap">
         <p lang="zh-tw">非常感謝您的配合，加入連結：</p>
-        <p lang="en">Thank you very much! You can join groups via following link:</p>
+        <p lang="en">Thank you! Now you can join the groups via the following links:</p>
         <div id="links"></div>
     </div>
 
