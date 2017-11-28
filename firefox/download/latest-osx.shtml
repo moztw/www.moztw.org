@@ -9,6 +9,9 @@
 	background: url("t-firefoxdownload.png") no-repeat;
 	height: 95px; float: none;
 }
+#ffcentral-desc p{
+	margin-top: 13px;
+}
 
 </style>
 <script type="text/javascript">
