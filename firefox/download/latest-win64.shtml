@@ -6,8 +6,8 @@
 	display: none;
 }
 #ffcentral-desc {
-background: url("t-firefoxdownload.png") no-repeat;
-height: 95px; float: none;
+	background: url("t-firefoxdownload.png") no-repeat;
+	height: 95px; float: none;
 }
 #ffcentral-desc p{
 	margin-top: 13px;
