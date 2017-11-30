@@ -1,0 +1,46 @@
+<!--#set var="release_date" value="2017-11-30" -->
+<!--#set var="version" value="57.0.1" -->
+<!--#set var="previous_version" value="57.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>部分 AMD 裝置在 YouTube 等影像網站的色彩失真問題（<a href="https://bugzilla.mozilla.org/1417442">bug 1417442</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>設定檔路徑含有非 ascii 字元時，prefs.js 的變更未儲存的問題（<a href="https://bugzilla.mozilla.org/1420427">bug 1420427</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox57">安全性修正</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>使用 Intel HD Graphics 3000 時，Google Map 於 OSX 上的當機問題。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>由於會造成 Firefox 效能問題，阻擋一個與 RealPlayer Free player 有關的程式庫（<a href="https://bugzilla.mozilla.org/1418535">bug 1418535</a>）。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2057&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox57&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla57&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
