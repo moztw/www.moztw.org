@@ -1,0 +1,92 @@
+<!--#set var="release_date" value="2018-01-23" -->
+<!--#set var="version" value="58.0" -->
+<!--#set var="previous_version" value="57.0.4" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>效能改善：</span>
+      <ul>
+        <li>Windows: 使用 <a href="https://mozillagfx.wordpress.com/2017/12/05/off-main-thread-painting/">Off-Main-Thread Painting (OMTP)</a> 加速圖像描繪。</li>
+        <li>調整 <a href="https://blog.mozilla.org/javascript/2017/12/12/javascript-startup-bytecode-cache/">JavaScript 快取機制</a>以提升網頁載入速度。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox Screenshots 相關改進：</span>
+      <ul>
+        <li>直接複製、貼上到系統剪貼簿。</li>
+        <li>在隱私瀏覽模式也能使用。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>支援<a href="https://support.mozilla.org/kb/automatically-fill-address-and-credit-cards">信用卡自動輸入</a>功能（僅 en-US 語系）。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>新增尼泊爾語（Nepali, ne-NP）語系支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span><em>為免您錯過</em>—— 57 釋出的隱私與效能改善：使用者可以<a href="https://blog.mozilla.org/blog/2018/01/23/latest-firefox-quantum-release-now-available-with-new-features">永遠啟用追蹤保護</a>，請參考如何<a href="https://support.mozilla.org/kb/tracking-protection#w_how-to-turn-tracking-protection-on">開啟追蹤保護</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Linux 上安裝於非預設目錄的字型顯示為空白的問題。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox58">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>以 Firefox 58 及未來版本建立的使用者設定檔將無法被舊版 Firefox 開啟。需要降級的使用者，請另外建立新的設定檔。參考<a href="https://support.mozilla.org/kb/install-older-version-of-firefox">降級與其他替代方案</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>顯示關於 <a href="https://blog.mozilla.org/security/2017/10/31/statement-digicerts-proposed-purchase-symantec/">Symantec 憑證</a>將被<a href="https://wiki.mozilla.org/CA/Upcoming_Distrust_Actions">撤銷</a>的警告，提醒受影響的使用者和管理者。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>實作 <a href="https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming">PerformanceNavigationTiming</a> API。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>新增 <a href="https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/workerStart">PerformanceResourceTiming.workerStart</a>，網站將可以測量 service worker 的啟動時間。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>更多<a href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/58">開發者功能</a>改進。</span>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>使用 Windows 遠端桌面協定（RDP）執行的 Firefox 可能因為縮限的安全限制而無法播放聲音。在下個修正之前，可參考<a href="https://support.mozilla.org/kb/i-cant-play-audio-remote-desktop-connection">此問題的暫時性解法</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>使用螢幕閱讀器時可能有效能問題，建議在新版修正前，先暫時使用 <a href="https://support.mozilla.org/kb/can-i-use-my-screen-reader-new-firefox">Firefox ESR</a> 版本。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2058&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox58&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla58&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
