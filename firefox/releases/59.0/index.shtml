@@ -1,0 +1,88 @@
+<!--#set var="release_date" value="2018-03-13" -->
+<!--#set var="version" value="59.0" -->
+<!--#set var="previous_version" value="58.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>效能改善：</span>
+      <ul>
+        <li>提升 Firefox 首頁的內容載入進度。</li>
+        <li>由網路／硬碟之一載入快取（Race Cache With Network），加速頁面讀取。</li>
+        <li>Mac 系統也採用 <a href="https://mozillagfx.wordpress.com/2017/12/05/off-main-thread-painting/">Off-Main-Thread Painting (OMTP)</a> 改善圖像描繪速度。（Windows 版已於 Firefox 58 釋出）。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>拖曳排序 Firefox 首頁的熱門網站，及其他<a href="https://support.mozilla.org/kb/customize-new-tab-page#w_rearrange-top-sites">關於新視窗、分頁的客製化</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span><a href="https://screenshots.firefox.com/">Firefox Screenshots</a> 的<a href="https://support.mozilla.org/kb/firefox-screenshots#w_how-do-i-edit-screenshots">新功能</a>：</span>
+      <ul>
+        <li>使用筆和螢光筆工具在已儲存擷圖上標記。</li>
+        <li>裁切已儲存的擷圖。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span><a href="https://blog.mozilla.org/addons/2018/01/26/extensions-firefox-59/">WebExtensions API 相關改進</a>，包括對去中心化通訊協定的支援、動態註冊內容腳本等。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Real-Time Communications (RTC) 相關改進：</span>
+      <ul>
+        <li>實作 RTP Transceiver，可以對各個呼叫進行更細膩的控制。</li>
+        <li>實作用於<a href="https://developer.mozilla.org/Firefox/Releases/59#Media_and_WebRTC">支援大規模會議</a>的功能。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>支援 W3C 標準的 <a href="https://wiki.mozilla.org/TPE_DOM/Pointer_events">pointer events</a>，改善各平台滑鼠、觸控筆和觸控螢幕等指標裝置輸入的整合。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>德語版新增 Ecosia 搜尋引擎。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>法語版新增 Qwant 搜尋引擎。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>增加可以阻擋特定網站要求通知、攝影機、麥克風、位址等權限的 <a href="https://support.mozilla.org/kb/firefox-options-preferences-and-settings#w_privacy-security-panel">about:preferences 選項</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/advisories/mfsa2018-06/">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>隱私瀏覽模式將移除 referrer 中的路徑資訊，以避免跨網站追蹤。</span>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>Windows 7 輕鬆存取功能（例如螢幕小鍵盤）可能在升級 Firefox 59 後引起瀏覽器當機，受影響的使用者可參考<a href="https://support.mozilla.org/kb/accessibility-services#w_how-do-i-disable-firefox-accessibility-service">此問題的暫時性解法</a>（阻止外部程式在 Firefox 中取用輕鬆存取功能）。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2059&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox59&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla59&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
