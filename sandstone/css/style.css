@@ -161,7 +161,7 @@ ol.list,ol.list ol{list-style:number}
 .download-button .download-link .download-title{font-size:22px;padding-top:0;margin-bottom:0}
 .download-button .download-link .download-title span{padding-top:0;margin-bottom:5px;font-size:20px}
 .download-button .download-link .download-subtitle{text-shadow:0 -1px 0 rgba(0,0,0,0.25);margin-right:auto}
-.download-button .download-link .download-lang{display:block;color:#346012;padding-top:2px;font-size:11px;line-height:100%;text-shadow:0 1px rgba(255,255,255,0.2);position:absolute;top:33px;right:10px;text-align:right;width:100px}
+.download-button .download-link .download-lang{display:block;color:#346012;font-size:11px;line-height:100%;text-shadow:0 1px rgba(255,255,255,0.2);position:absolute;top:39px;right:10px;text-align:right;width:100px}
 .download-button .download-link .download-platform{display:none}
 .linux .download-button .os_linux{display:inline-block !important;margin-left:1em}
 .windows .download-button .os_windows,.osx .download-button .os_osx,.unrecognized .download-button .unrecognized-download{display:block !important}
