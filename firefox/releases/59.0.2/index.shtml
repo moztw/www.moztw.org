@@ -1,0 +1,61 @@
+<!--#set var="release_date" value="2018-03-27" -->
+<!--#set var="version" value="59.0.2" -->
+<!--#set var="previous_version" value="59.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>啟用硬體加速時，頁面描繪錯誤的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1435472">bug 1435472</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Windows 7 輕鬆存取和某些應用程式一起使用時，可能造成瀏覽器當機，已知受影響的應用程式：StickyPassword、Windows 7 觸控螢幕（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1424505">bug 1424505</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>使用 resistFingerprinting 的網站可能和瀏覽器快速鍵（例如 <kbd>Ctrl + C</kbd> 複製）衝突（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1433592">bug 1433592</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>特定第三方軟體在某些電腦會大量耗用 CPU 與記憶體（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1446280">bug 1446280</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>「選項 → 網路代理伺服器」畫面中，選擇「Proxy 自動設定網址」時無法點選「重新載入」（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1445991">bug 1445991</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>URL fragment identifier 造成 Service Worker 回應錯誤（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1443850">bug 1443850</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>在列印完成時嘗試取消列印，會斷斷續續地發生當機（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1441598">bug 1441598</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>getUserMedia 在 DragonFly、FreeBSD、NetBSD、OpenBSD 無法取得聲音。聊天軟體無法運作，或只能靜音（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1444074">bug 1444074</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox59.0.2">安全性修正</a>。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2059&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox59&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla59&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
