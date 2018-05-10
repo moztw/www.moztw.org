@@ -1,0 +1,106 @@
+<!--#set var="release_date" value="2018-05-09" -->
+<!--#set var="version" value="60.0" -->
+<!--#set var="previous_version" value="59.0.3" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>以 Windows 群組原則或跨平台 JSON 設定檔，自訂部署 <a href="https://www.mozilla.org/firefox/enterprise/">Firefox 企業版</a>時的政策設定。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>新分頁／Firefox 首頁相關改進：</span>
+      <ul>
+        <li>適應性設計，在寬螢幕顯示更多內容。</li>
+        <li>精選網站將包括已儲存到 Pocket 的網頁。</li>
+        <li>更多段落、內容用的排序選項。</li>
+        <li>部分 US 使用者將開始看到 Pocket 贊助內容，參閱<a href="https://blog.mozilla.org/futurereleases/2018/04/30/a-privacy-conscious-approach-to-sponsored-content/">考量使用者隱私的贊助內容進行方式</a>。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>改進「Cookie 與網站資料」選項設計，更清楚呈現與控制第一方、第三方 cookie。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>應用 <a href="https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/">Quantum CSS</a> 描繪瀏覽器使用介面。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>支援 Web Authentication API，允許採用 USB token 進行網站認證。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>改善攝影機隱私權提示：禁用錄影功能時，Firefox 會將攝影鏡頭和燈光關閉，並於繼續錄影時再度開啟。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Linux: 新增是否顯示瀏覽器頂端標題列的選項。在瀏覽器主選單「自訂」面板中的「標題列」選項。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Linux: 改善 WebRTC 聲音效能。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>預設即啟用最新 draft 版 TLS 1.3 支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>新增奧克語（Occitan, oc）語系支援。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox60">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>進入閱讀模式的快速鍵改為 F9，與使用 AltGr 的鍵盤配置更為一致。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>不再支援於同一 URL 的書籤設定複數關鍵字，除非該請求有不同的 POST 資料。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span><a href="https://blog.mozilla.org/security/2018/03/12/distrust-symantec-tls-certificates/">不再信任</a> 2016 六月一日前由 Symantec 發行的 TLS 憑證。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>升級 Skia 圖像引擎至 milestone 66。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>參考<a href="https://developer.mozilla.org/Firefox/Releases/60">開發者功能</a>改進。</span>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>在新分頁停用 Sponsored Stories 後，下一次開啟分頁可能仍會顯示贊助磚塊（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1458906">bug 1458906</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>macOS 上使用 Vive 耳機組可能無法正常使用 WebVR（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1454204">bug 1454204</a>）。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2060&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox60&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla60&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
