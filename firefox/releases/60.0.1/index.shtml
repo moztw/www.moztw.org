@@ -1,0 +1,58 @@
+<!--#set var="release_date" value="2018-05-17" -->
+<!--#set var="version" value="60.0.1" -->
+<!--#set var="previous_version" value="60.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>安裝某些附加元件後，過度資源回收造成的回應緩慢（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1449033">bug 1449033</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>取消 Pocket 贊助內容後，「新分頁」未立即移除贊助卡片（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1458906">bug 1458906</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>使用觸控裝置時，在不能縮放的頁面上的捲動行為（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1457743">bug 1457743</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>macOS: 更新 Nvidia Web 驅動程式後，Google 地圖顯示黑畫面（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1458553">bug 1458553</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>使用高對比佈景主題時，新分頁／視窗未套用正確的背景樣式（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1458956">bug 1458956</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Windows 上的 Firefox 移除程式沒有被翻譯（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1436662">bug 1436662</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>部分語言沒有完整的「選項」翻譯（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1461590">bug 1461590</a>）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>macOS: 預設不啟用 WebVR（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1459362">bug 1459362</a>）。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2059&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox59&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla59&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
