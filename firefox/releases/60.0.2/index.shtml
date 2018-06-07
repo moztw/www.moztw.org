@@ -1,0 +1,43 @@
+<!--#set var="release_date" value="2018-06-07" -->
+<!--#set var="version" value="60.0.2" -->
+<!--#set var="previous_version" value="60.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>開發者工具：檢測器未正確顯示節點的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1460223">bug 1460223</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>OS X 10.11 前的版本，使用第三方字型管理工具時的描繪問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1460917">bug 1460917</a>）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>更新 NSS 版本 3.36.1 至 3.36.4：</span>
+      <ul>
+        <li>連線到近期升級 TLS 1.3 的伺服器時，產生 <code>SSL_RX_MALFORMED_SERVER_HELLO</code> 錯誤（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1462303">bug 1462303</a>）。</li>
+        <li>macOS 進行 PK11、WebAuthn 等 token 認證時的當機狀況（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1461731">bug 1461731</a>）。</li>
+      </ul>
+      <span>參考 NSS 更新記錄 <a href="https://developer.mozilla.org/docs/Mozilla/Projects/NSS/NSS_3.36.2_release_notes">3.36.2</a> 和 <a href="https://developer.mozilla.org/docs/Mozilla/Projects/NSS/NSS_3.36.4_release_notes">3.36.4</a>。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2060&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox60&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla60&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
