@@ -128,8 +128,9 @@ You nead to go `travis-ci.org`, open project to build, and modify project build 
 Detailed description: https://docs.travis-ci.com/user/getting-started/
 
 - `.travis.yml` is Travis CI config file. It do about Install apache , Config apache , web craker all website page and then git push gh-pages branch.
-- `build.js` will web craker all website page.
-- `moztw-apache.conf` is apache config file in Travis CI.
+- `.build/patch.js` will patch all shtml file #include path.
+- `.build/build.js` will web craker all website page.
+- `.build/moztw-apache.conf` is apache config file in Travis CI.
 
 Modify `CNAME` file to config github page custom domain.
 
