@@ -11,7 +11,7 @@ cache:
   - nvm
 branches:
   only:
-  - master
+  - production
 before_deploy:
   - sudo apt-get update
   - sudo apt-get install -y --force-yes apache2 rsync
