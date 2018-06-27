@@ -34,4 +34,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   local_dir: dist/moztw.org/
   on:
-    branch: master
+    branch: production
