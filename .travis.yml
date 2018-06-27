@@ -4,7 +4,7 @@ node_js:
 - '8'
 addons:
   hosts:
-    - moztw.mcuisc.club
+    - moztw.org
 cache:
   - apt
   - npm
@@ -19,7 +19,7 @@ before_deploy:
   - sudo a2enmod include
   - sudo rm -rf /etc/apache2/sites-available/*
   - cat ./moztw-apache.conf | sed -e "s,PATH,`pwd`/web,g" | sudo tee /etc/apache2/sites-available/000-default.conf > /dev/null
-  - echo "ServerName moztw.mcuisc.club" | sudo tee /etc/apache2/conf-available/servername.conf > /dev/null
+  - echo "ServerName moztw.org" | sudo tee /etc/apache2/conf-available/servername.conf > /dev/null
   - sudo a2enconf servername
   - sudo a2ensite 000-default
   - mkdir web
@@ -28,11 +28,11 @@ before_deploy:
   - sudo chown -R www-data:www-data ~/
   - sudo service apache2 restart
   - npm run build
-  - cp CNAME ./dist/moztw.mcuisc.club/
+  - cp CNAME ./dist/moztw.org/
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: dist/moztw.mcuisc.club/
+  local_dir: dist/moztw.org/
   on:
     branch: master

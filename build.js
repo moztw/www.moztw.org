@@ -1,8 +1,8 @@
 var scrape = require('website-scraper');
 var options = {
-  urls: ['http://moztw.mcuisc.club/'],
+  urls: ['http://moztw.org/'],
   directory: './dist/',
-  urlFilter: (url) => url.startsWith('http://moztw.mcuisc.club'),
+  urlFilter: (url) => url.startsWith('http://moztw.org'),
   filenameGenerator: 'bySiteStructure',
   recursive: true
 };
