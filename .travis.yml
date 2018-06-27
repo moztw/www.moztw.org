@@ -26,6 +26,7 @@ before_deploy:
   - rsync -av --exclude web/ --exclude .build/  ./  web/ > /dev/null
   - sudo chmod -R 777 ~/
   - sudo chown -R www-data:www-data ~/
+  - npm run patch
   - sudo service apache2 restart
   - npm run build
   - cp CNAME ./dist/moztw.org/

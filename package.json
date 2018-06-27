@@ -6,7 +6,8 @@
   "scripts": {
     "start": "browser-sync start --config bs-config.js",
     "build": "node build.js",
-    "test": "echo 'No test'"
+    "test": "echo 'No test'",
+    "patch": "node .build/patch.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "devDependencies": {
     "browser-sync": "^2.9.3",
     "connect-modrewrite": "~0.8.2",
+    "fast-glob": "^2.2.2",
     "grunt": "~0.4.5",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-copy": "^0.8.2",
