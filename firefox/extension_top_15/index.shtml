@@ -84,8 +84,7 @@ function hidden_descript(obj) {
 
 <div class="download">
 				<h3>下載 Firefox 中文版</h3>
-			<!--#if expr="" --><!-- point to .shtml while test locally --><!--#endif -->
-			<!--#include virtual="/inc/dlff.html" -->
+			<!--#include virtual="/inc/dlff.shtml" -->
 	</div><ul>
 			<li><a class="ancilliaryLink" href="/firefox/">Firefox 中文版介紹</a></li>
 			<li><a class="ancilliaryLink" href="http://forum.moztw.org/viewforum.php?f=11">MozTW 擴充套件討論區</a></li>
