@@ -1,7 +1,8 @@
-var scrape = require('website-scraper');
-var options = {
+let scrape = require('website-scraper');
+let path = require('path')
+let options = {
   urls: ['http://moztw.org/'],
-  directory: './dist/',
+  directory: path.resolve(__dirname, '../dist/'),
   urlFilter: (url) => url.startsWith('http://moztw.org'),
   filenameGenerator: 'bySiteStructure',
   recursive: true

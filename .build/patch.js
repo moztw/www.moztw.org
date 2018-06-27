@@ -7,7 +7,7 @@ const directiveRegex = /<!--#include([ ]+([a-z]+)="(.+?)")* -->/g
 console.log('Start patch ......')
 console.time('cost')
 
-let stream = fg.stream('**/*.shtml', { cwd: process.cwd() })
+let stream = fg.stream('**/*.shtml', { cwd: path.resolve(__dirname, '../') })
 let dealFilenums = 0
 let patchLine = 0
 
