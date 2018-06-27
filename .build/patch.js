@@ -1,3 +1,8 @@
+/*
+ * This file is doing about patch.
+ * It will find <!--#include .. --> and check url exists.
+ * if (not exist) replace .html to .shtml
+ */
 let fs = require('fs')
 let path = require('path')
 let fg = require('fast-glob')

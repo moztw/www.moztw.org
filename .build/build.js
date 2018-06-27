@@ -1,3 +1,7 @@
+/*
+ * This file is doing about website scraper.
+ * Will output on /dist/ folder.
+ */
 let scrape = require('website-scraper');
 let path = require('path')
 let options = {
