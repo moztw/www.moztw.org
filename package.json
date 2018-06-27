@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "browser-sync start --config bs-config.js",
-    "build": "node build.js",
+    "build": "node .build/build.js",
     "test": "echo 'No test'",
     "patch": "node .build/patch.js"
   },
