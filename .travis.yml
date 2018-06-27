@@ -14,16 +14,14 @@ branches:
   - production
 before_deploy:
   - sudo apt-get update
-  - sudo apt-get install -y --force-yes apache2 rsync
+  - sudo apt-get install -y --force-yes apache2
   - sudo a2enmod rewrite
   - sudo a2enmod include
   - sudo rm -rf /etc/apache2/sites-available/*
-  - cat ./.build/moztw-apache.conf | sed -e "s,PATH,`pwd`/web,g" | sudo tee /etc/apache2/sites-available/000-default.conf > /dev/null
+  - cat ./.build/moztw-apache.conf | sed -e "s,PATH,`pwd`,g" | sudo tee /etc/apache2/sites-available/000-default.conf > /dev/null
   - echo "ServerName moztw.org" | sudo tee /etc/apache2/conf-available/servername.conf > /dev/null
   - sudo a2enconf servername
   - sudo a2ensite 000-default
-  - mkdir web
-  - rsync -av --exclude web/ --exclude .build/  ./  web/ > /dev/null
   - sudo chmod -R 777 ~/
   - sudo chown -R www-data:www-data ~/
   - npm run patch
