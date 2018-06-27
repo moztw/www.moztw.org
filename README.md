@@ -121,6 +121,19 @@ server {
 
 Note that we're not running Nginx server on the hosting site, you might encounter some problems, e.g., _.htaccess_ is not supported.
 
+### Travis CI
+You nead to go `travis-ci.org`, open project to build, and modify project build settings to add Environment Variables of `GITHUB_TOKEN`.
+`GITHUB_TOKEN` can get in Settings > Developer settings > Personal access tokens > Generate new token.
+
+Detailed description: https://docs.travis-ci.com/user/getting-started/
+
+- `.travis.yml` is Travis CI config file. It do about Install apache , Config apache , web craker all website page and then git push gh-pages branch.
+- `build.js` will web craker all website page.
+- `moztw-apache.conf` is apache config file in Travis CI.
+
+Modify `CNAME` file to config github page custom domain.
+
+
 ## Coding Style
 * Please always use LF on line ending, and set 2/4 space characters as indent according to the original style of each files.
 * Please take [Mozilla Coding Style](https://developer.mozilla.org/en-US/docs/Mozilla_Coding_Style_Guide) as reference.
