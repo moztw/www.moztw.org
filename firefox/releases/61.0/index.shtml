@@ -1,0 +1,76 @@
+<!--#set var="release_date" value="2018-06-26" -->
+<!--#set var="version" value="61.0" -->
+<!--#set var="previous_version" value="60.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>效能提升：</span>
+      <ul>
+        <li>藉由 Quantum CSS 改良和 retained display list 功能加速頁面描繪。</li>
+        <li>改善 Windows 和 Linux 中的分頁切換速度。</li>
+        <li>MacOS: 在獨立執行緒中運行 WebExtensions。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>瀏覽提供 OpenSearch 功能的網站時，可以直接在網址列的「頁面操作」新增該搜尋引擎。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>MacOS: 在網址列「頁面操作」選單中「分享」所在網址。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>安全性改善：</span>
+      <ul>
+        <li>預設啟用最新 <a href="https://developer.mozilla.org/docs/Web/Security/Transport_Layer_Security#TLS_1.3">TLS 1.3</a> 標準。</li>
+        <li><a href="https://blog.mozilla.org/security/2018/05/07/blocking-ftp-subresource-loads-within-non-ftp-documents-in-firefox-61/">封鎖</a> http(s) 頁面中對於 FTP 資源的存取。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>暗色主題擴大涵蓋至整個 Firefox 介面。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>附加元件支援「隱藏分頁」功能。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>改善進書籤同步功能。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox61">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>首頁和新分頁的設定移至「選項」中的新區塊，可以由 <code>about:preferences#home</code> 或「新分頁」的齒輪圖示前往。</span>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>瀏覽安全網頁時，Avast 或 AVG 資安軟體的 HTTPS 掃描可能出現錯誤訊息（<code>SSL_ERROR_RX_RECORD_TOO_LONG</code>），在 Avast、AVG 修正前，可參考<a href="https://support.mozilla.org/kb/secure-connection-failed-error-message#w_avast-and-avg-security-products">暫時性的解決方案</a>。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2061&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox61&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla61&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
