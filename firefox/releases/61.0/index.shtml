@@ -46,6 +46,11 @@
     </li>
 
     <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>正體中文版: <a href="https://groups.google.com/d/msg/moztw-general/rTKkSKedm5E/jElvgR03dCMJ">RSS 訂閱服務增加 Netvibes、Feedly、InoReader、The Old Reader</a>（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=918375">bug 918375</a>）。</span>
+    </li>
+
+    <li>
       <span class="tag tag-fixed">修正</span>
       <span>各種<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox61">安全性修正</a>。</span>
     </li>
