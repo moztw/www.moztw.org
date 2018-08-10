@@ -1,0 +1,45 @@
+<!--#set var="release_date" value="2018-08-09" -->
+<!--#set var="version" value="61.0.2" -->
+<!--#set var="previous_version" value="61.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>
+        重新啟動 Windows 時，<a href="https://support.mozilla.org/kb/firefox-starts-automatically-when-i-restart-window">自動回復</a>先前未關閉的 Firefox。
+        此功能將逐步對所有使用者生效。
+      </span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>啟用 Retained Display List 時的網頁繪圖行為（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1474402">bug 1474402</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>部分附加元件造成開發工具面板無法使用（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1474379">bug 1474379</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>使用某些親和力工具時的當機問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1474007">bug 1474007</a>）。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2061&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox61&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla61&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
