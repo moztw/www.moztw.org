@@ -109,7 +109,7 @@ $links = [
     ],
 
     [
-        'id' => 'AutpyEAh0k-DEhG8mkA76g',
+        'id' => 'AutpyEAh0k-sGoUeY_bCsg',
         'name' => '數位人權/網路治理勉強團',
         'description' => '網路政策與法規研究討論與倡議社群',
         'introduction' => '台灣網路政策、法規與數位人權討論與倡議行動頻道',
