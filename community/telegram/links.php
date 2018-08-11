@@ -46,6 +46,17 @@ $links = [
             'en'
         ],
     ],
+  
+    [
+        'id' => '@moztwCV',
+        'name' => 'Common Voice in Taiwan',
+        'description' => 'Common Voice 台灣討論群組',
+        'introduction' => '討論 Common Voice 繁體中文與本地語言拓展',
+        'tags' => [
+            'zh-tw'
+        ],
+    ],
+
 
     [
         'id' => 'AmWeuT0XZKu55YVMu6QEGw',
