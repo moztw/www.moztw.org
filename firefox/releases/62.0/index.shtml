@@ -1,0 +1,98 @@
+<!--#set var="release_date" value="2018-09-05" -->
+<!--#set var="version" value="62.0" -->
+<!--#set var="previous_version" value="61.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox 首頁可選擇呈現最多 4 列的熱門網站、Pocket 頁面或精選網站。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>啟用「容器」的使用者，分頁選單會出現「使用容器開啟」以便進行切換。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>在移除所有對 Symantec 發行憑證的信任前，在 about:config 提供 <code>security.pki.distrust_ca_policy</code> 選項讓使用者自行收回信任，設定為 <code>2</code> 便能撤除信任。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>支援 FreeBSD WebAuthn。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Windows: 藉由 Parallel-Off-Main-Thread Painting 改善圖像描繪。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>支援 CSS Shape，帶來更豐富的版面配置能力。同時 CSS 檢測器也提供了新的 Shape Path 編輯器。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>支援 CSS Variable Fonts (OpenType Font Variations)，單一字型檔案就能提供美麗的文字。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox <a href="https://support.mozilla.org/products/firefox-enterprise">企業版</a>更新：</span>
+      <ul>
+        <li>
+          AutoConfig 預設受到 <a href="https://support.mozilla.org/kb/customizing-firefox-using-autoconfig">API 文件</a>所述的沙盒限制。
+          目前可將 <code>general.config.sandbox_enabled</code> 設為 false 來關閉沙盒，但長遠而言我們會移除關閉沙盒的功能。
+          若仍要以 AutoConfig 指令碼進行微調，請使用 <a href="https://www.mozilla.org/firefox/organizations/">Firefox Extended Support Release (ESR)</a> 版本。
+        </li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>新增加拿大英語 (en-CA) 語系支援。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>移除書籤的「描述」欄位。曾經手動編輯的使用者可將資料以 <a href="https://support.mozilla.org/kb/export-firefox-bookmarks-to-backup-or-transfer">html</a> 或 <a href="https://support.mozilla.org/kb/restore-bookmarks-from-backup-or-move-them#w_backup-and-restore">json</a> 格式匯出，未來版本將刪除這些資料。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>暗色佈景主題在 macOS 10.14 dark mode 中會自動套用。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>調整 <code>security.pki.name_matching_mode</code> 選項的預設值為 3（強制允許）。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>macOS: 在更安全的沙盒中執行 <a href="https://www.adobe.com/products/flashplayer.html">Adobe Flash</a>，詳見<a href="https://support.mozilla.org/kb/changes-affecting-adobe-flash-firefox-mac">說明</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>中斷 Firefox Sync 後，提供選項以清除裝置上的個人資料（包括書籤、密碼、歷史、cookie 和網站資料）。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>WebRTC 螢幕分享：共享視窗時，會將視窗移到前景。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>三欄檢測器，可將「規則」分離為獨立面板。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>參考<a href="https://developer.mozilla.org/Firefox/Releases/62">開發者功能</a>改進。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2062&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox62&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla62&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
