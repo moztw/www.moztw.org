@@ -16,6 +16,8 @@
 <h3>2018</h3>
 
 <ul class="news">
+  <li><div class="date"> 9 月 22</div>
+    <a href="/firefox/releases/62.0.2/">Firefox 62.0.2</a> 更新</li>
   <li><div class="date"> 9 月 5</div>
     <a href="/firefox/releases/62.0/">Firefox 62.0</a> 更新</li>
   <li><div class="date"> 8 月 9</div>
