@@ -1,0 +1,73 @@
+<!--#set var="release_date" value="2018-09-22" -->
+<!--#set var="version" value="62.0.2" -->
+<!--#set var="previous_version" value="62.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>未造訪過的書籤無法於網址列自動完成（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1488879">bug 1488879</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>WebGL 繪圖問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1489099">bug 1489099</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>從 unpack 語言套件安裝的 Firefox 升級會出現錯誤（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1488934">bug 1488934</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>缺少語言套件時無法啟動的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1492459">bug 1492459</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>安裝程式自動重啟功能的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1491999">bug 1491999</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Windows: 重新啟動時，正確還原視窗大小和位置（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1489852">bug 1489852</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>避免和未發行新版本共享設定檔時的當機問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1490585">bug 1490585</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>採用語言套件時，不要加回已移除的搜尋引擎（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1489820">bug 1489820</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>於部分網站的描繪問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1421885">bug 1421885</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>與已棄用 TLS 設定的相容問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487517">bug 1487517</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>MacOS: 多顯示器下的共享畫面問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1487419">bug 1487419</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/advisories/mfsa2018-22/">安全性修正</a>。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2062&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox62&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla62&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
