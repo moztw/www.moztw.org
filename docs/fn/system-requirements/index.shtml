@@ -4,113 +4,28 @@
 <!--#include virtual="/inc/header.html" -->
 
 <div id="mBody">
-	<div id="side" class="left">
-		<ul id="nav">
-			<li><a href="/mobile">回到 Firefox Mobile 首頁</a></li>
-			<li><a href="/mobile/releases/">版本資訊</a></li>
-		</ul>
-	</div>
-	<!-- closes #side -->
-	<hr class="hide">
-	<div id="mainContent">
-		<div id="fnRequiresments">
-			<h2>Firefox 行動版系統需求</h2>
-			<p>Firefox 可於 Android 2.1 或更新版本裝置相容。</p>
-			<p>需要大約 17MB 的內部儲存或記憶卡空間，以及 512MB 的記憶體。</p>
-			
-			<h3>支援裝置</h3>
-			<p>下列是經過測試，確認支援 Firefox 的行動裝置清單</p>
+  <div id="side" class="left">
+    <ul id="nav">
+      <li><a href="/mobile">回到 Firefox Mobile 首頁</a></li>
+      <li><a href="/mobile/releases/">版本資訊</a></li>
+    </ul>
+  </div>
+  <!-- closes #side -->
+  <hr class="hide">
+  <div id="mainContent">
+      <h2>Firefox for Android 62.0 系統需求</h2>
+      <h3>作業系統版本</h3>
+      <p>Firefox 與 Android 4.1 或更新版本裝置相容。</p>
 
-			<div id="phones">
-			<p>手機</p>
-			<ul>
-				<li>HTC<ul>
-					<li>HTC Amaze 4G</li>
-					<li>Desire</li>
-					<li>Desire S</li>
-					<li>Desire Z (T-Mobile G2)</li>
-					<li>Desire HD (AT&amp;T Inspire 4G)</li>
-					<li>Droid Bionic</li>
-					<li>Droid Incredible</li>
-					<li>EVO 3D</li>
-					<li>EVO 4G</li>
-					<li>EVO Shift 4G</li>
-					<li>Glacier (T-Mobile myTouch 4G)</li>
-					<li>Incredible S (HTC Droid Incredible 2)</li>
-					<li>Nexus One</li>
-					<li>Raider 4G LTE</li>
-					<li>Sensation (HTC Pyramid)</li>
-					<li>Sensation 4G</li>
-					<li>Thunderbolt 4G</li></ul></li>
-				<li>Huawei Impulse 4G</li>
-				<li>Kyocera M9300 (Echo)</li>
-				<li>LG<ul>
-					<li>G2X (T-Mobile P999)</li>
-					<li>Optimus 2X</li>
-					<li>Optimus 3G</li>
-					<li>Optimus Black (P970)</li>
-					<li>Optimuz Z</li>
-					<li>Thrill 4G</li></ul></li>
-				<li>Motorola<ul>
-					<li>Atrix 4G</li>
-					<li>Bravo</li>
-					<li>Cliq 2</li>
-					<li>Defy</li>
-					<li>Droid 2, Droid 2 Global</li>
-					<li>Droid 3</li>
-					<li>Droid Pro</li>
-					<li>Droid X</li>
-					<li>Droid X2</li>
-					<li>Flipside MB508</li>
-					<li>Photon 4G (MB855)</li>
-					<li>XT860 4G</li></ul></li>
-				<li>NEC Medias WP N-06C (NTT Docomo)</li>
-				<li>Samsung<ul>
-					<li>4G LTE SCH-i520/Inspiration/Droid Charge/Stealth V</li>
-					<li>Continuum (i400)</li>
-					<li>Infuse 4G</li>
-					<li>Galaxy Nexus</li>
-					<li>Galaxy S (i9000, Captivate, Fascinate, Vibrant, Epic 4G)</li>
-					<li>Galaxy S2</li>
-					<li>Nexus S</li></ul></li>
-				<li>Sharp<ul>
-					<li>Aquos SH-12C (NTT Docomo)</li>
-					<li>Galapagos 003SH</li>
-					<li>Galapagos 005SH</li></ul></li>
-				<li>Sony Ericsson<ul>
-					<li>Xperia PLAY R800 / R800i (SE Zeus)</li>
-					<li>Xperia NEO</li></ul></li>
-				<li>T-Mobile SGH-T839 (Sidekick 4G)</li>
-			</ul>
-			</div>
-			<div id="tablets">
-			<p>平板</p>
-			<ul>
-				<li>Acer Iconia Tab A500</li>
-				<li>Asus EEE Pad Transformer Tablet</li>
-				<li>Advent Vega (P10AN01)</li>
-				<li>Archos 101 Internet Tablet</li>
-				<li>Dell<ul>
-					<li>Streak</li>
-					<li>Streak 7</li></ul></li>
-				<li>HTC Flyer</li>
-				<li>Huawei Ideos S7</li>
-				<li>Kindle Fire</li>
-				<li>Motorola Xoom</li>
-				<li>POV Mobii Tegra Tablet</li>
-				<li>Samsung<ul>
-					<li>Galaxy Note</li>
-					<li>Galaxy Tab</li>
-					<li>Galaxy Tab 10.1</li></ul></li>
-				<li>Viewsonic gTablet</li>
-			</ul>
-			</div>
-			<p>您可以參考 Mozilla Wiki 上的 <a href="https://wiki.mozilla.org/Mobile/Platforms/Android#System_Requirements">系統需求列表</a> 以取得更完整的支援與未支援裝置清單。</p>
-		</div>
-		<!-- closes #fnRequiresments -->
-		
-	</div>
-	<!-- closes #mainContent-->
+      <h3>系統需求</h3>
+      <ul>
+        <li>50MB 的內部儲存空間</li>
+        <li>384MB 的記憶體</li>
+        <li>螢幕解析度至少為 320px 高與 240px 寬</li>
+      </ul>
+      <p>您可以參考 Mozilla Wiki 上的 <a href="https://wiki.mozilla.org/Mobile/Platforms/Android#System_Requirements">系統需求列表</a> 以取得更完整的系統需求清單。</p>
+  </div>
+  <!-- closes #mainContent-->
 </div>
 <!-- closes #mBody-->
 <!--#include virtual="/inc/footer.html" -->
