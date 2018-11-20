@@ -172,7 +172,6 @@
         <p>Inaugurated in July 2014, Mozilla Community Space Taipei (摩茲工寮) is the first pilot of the Mozilla Community Space initiative, propelled and managed by Mozilla Taiwan Community (MozTW). Together with other pilots around the world, we are seeking for the right way to help the Mozilla Community Space project. To learn more about the Project, check the <a href="https://wiki.mozilla.org/Participation/Community_Spaces">project page on MozillaWiki</a>.</p>
       </div>
     </section>
-
     <section id="moreinfo" class="grids">
       <div class="grid-4">
         <a href="mailto:space@moztw.org">聯絡摩茲工寮</a>
@@ -184,6 +183,23 @@
         <a href="http://folder.moztw.org/moztw-space/https%253A%252F%252Fetherpad.mozilla.org%252Fmoztw-taipei-space-guildline">使用規範</a>
       </div>
     </section>
+    <!-- CO2Sensor Section -->
+    <section id="CO2Sensor" class="grids">
+      <header>
+        <div class="hgroup" style="text-align: center; letter-spacing: 1px">
+          <h1>連接摩茲工寮的空氣檢測器</h1>
+        </div>
+      </header>
+      <div class="grid-8" style="letter-spacing: 0.9px; padding: 6px">
+        <p>這是一台放置於工寮、利用現成材料製作出來，且連線到工寮無線網路的一台空氣檢測器，其將會把工寮目前的二氧化碳（CO2）濃度資訊顯示於右方所顯示的視窗中。該檢測器為開放原始碼的專案。<small>[1]</small></p>
+        <p>自然的背景值應該是 440 PPM 左右，也就是空氣最乾淨的狀態，<strong>一般辦公室環境為 600 PM 左右，算是空氣優質的環境，而超過 1000 PPM，則會讓人感到不舒服。</strong>因為曾經發生過工寮空氣使人不舒服的情況，因此製作了這樣的工具來通知工寮的工作人員來開工寮的排氣扇。</p>
+        <p style="font-size: 8px">[1] <small>Git 原始碼位址：<a href="https://github.com/miaoski/esp8266-co2" target="_black" style="color: #000000; font-weight: bold">https://github.com/miaoski/esp8266-co2</a></small></p>
+      </div>
+      <div class="grid-4" style="margin: 3px">
+        <iframe src="https://thingspeak.com/channels/631210/widgets/21165" width=400 height=210 frameborder=0 scrolling=0 />
+      </div>
+    </section>
+    <!-- CO2Sensor Section END -->
   </main>
 </div>
 
