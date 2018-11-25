@@ -68,6 +68,23 @@
       </div>
     </section>
 
+    <section id="cpg" class="grids">
+      <header>
+        <div class="hgroup">
+          <h1>社群參與準則</h1>
+          <h2>Community Participation Guideline</h2>
+        </div>
+      </header>
+      <div class="grid-6">
+        <p>摩茲工寮為多元且包容的空間，我們要求所有使用者同意並遵循 <a href="https://www.mozilla.org/zh-TW/about/governance/policies/participation/">Mozilla 社群參與準則</a>，尊重他人，一同維護任何人都能安心參與的環境。</p>
+        <p>如果您在工寮中遭遇任何困擾，請立刻告知現場負責的 keyholder，或郵件聯絡 <a href="mailto:space@moztw.org">space @ moztw.org</a>。</p>
+        <p>本空間指定聯絡人為 <a href="https://mozillians.org/u/Irvin/">Irvin</a> 與 <a href="https://mozillians.org/u/bobchao/">BobChao</a>。</p>
+      </div>
+      <div class="grid-6">
+        <p>Mozilla Community Space Taipei is a diverse and inclusive place. We expect everyone to follow the <a href="https://www.mozilla.org/zh-TW/about/governance/policies/participation/">community participation guidelines</a> and be Respectful to others.</p>
+        <p>If you find any issues regards your participating, please notice the on site keyholder immidietely, or contact us <a href="mailto:space@moztw.org">via email</a>. The space's designated contact are <a href="https://mozillians.org/u/Irvin/">Irvin Chen</a> and <a href="https://mozillians.org/u/bobchao/">BobChao</a>.</p>
+      </div>
+    </section>
 
     <section id="hostevent" class="grids">
       <header>
@@ -124,8 +141,6 @@
         <p>詳見<a href="https://public.etherpad-mozilla.org/p/moztw-taipei-space-key">申請辦法</a>，歡迎有志之士<a href="mailto:space@moztw.org">聯絡我們</a>。</p>
       </div>
 
-
-
       <div id="keyholders" class="grid-12">
         <h3>現任 Keyholders</h3>
         <ul class="clearfix">
@@ -173,6 +188,23 @@
       </div>
     </section>
 
+    <section id="CO2Sensor" class="grids">
+      <header>
+        <div class="hgroup">
+          <h1>工寮二氧化碳濃度</h1>
+          <h2>CO2 Sensors in Space</h2>
+        </div>
+      </header>
+      <div class="grid-8">
+        <p>摩茲工寮的二氧化碳即時濃度。自然背景值約為 400ppm，<a href="https://iaq.epa.gov.tw/indoorair/page/News_7_1.aspx">環保署建議室內標準為 600-800ppm</a>。當超過 800ppm 時，請提醒 Keyholder 打開抽風扇換氣。</p>
+        <p>The current CO2 level in the community space. If it raises above 800ppm, please notice keyholder to turn on the exhaust fan.</p>
+        <p>Contributed by Miaoski, (<a href="https://github.com/miaoski/esp8266-co2" target="_blank">source repo</a>).</p>
+      </div>
+      <div class="grid-4">
+        <iframe src="https://thingspeak.com/channels/631210/widgets/21165" style="border:none;" height="140"></iframe>
+      </div>
+    </section>
+
     <section id="moreinfo" class="grids">
       <div class="grid-4">
         <a href="mailto:space@moztw.org">聯絡摩茲工寮</a>
@@ -181,7 +213,7 @@
         <a href="http://folder.moztw.org/moztw-space">營運中心</a>
       </div>
       <div class="grid-4">
-        <a href="http://folder.moztw.org/moztw-space/https%253A%252F%252Fetherpad.mozilla.org%252Fmoztw-taipei-space-guildline">使用規範</a>
+        <a href="https://www.mozilla.org/zh-TW/about/governance/policies/participation/">社群參與準則</a>
       </div>
     </section>
   </main>
