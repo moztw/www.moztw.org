@@ -68,6 +68,24 @@
       </div>
     </section>
 
+    <section id="cpg" class="grids">
+      <header>
+        <div class="hgroup">
+          <h1>社群參與準則</h1>
+          <h2>Community Participation Guideline</h2>
+        </div>
+      </header>
+      <div class="grid-6">
+        <p>摩茲工寮為多元且包容的空間，我們要求所有使用者同意並遵循 <a href="https://www.mozilla.org/zh-TW/about/governance/policies/participation/">Mozilla 社群參與準則</a>，尊重他人，一同維護任何人都能安心參與的環境。</p>
+        <p>如果您在工寮中遭遇任何困擾，請立刻告知現場負責的 keyholder，或郵件聯絡 <a href="mailto:space@moztw.org">space @ moztw.org</a>。</p>
+        <p>本空間指定聯絡人為 <a href="https://mozillians.org/u/Irvin/">Irvin</a> 與 <a href="https://mozillians.org/u/bobchao/">BobChao</a>。</p>
+      </div>
+      <div class="grid-6">
+        <p>Mozilla Community Space Taipei is a diverse and inclusive place. We expect everyone to follow the <a href="https://www.mozilla.org/zh-TW/about/governance/policies/participation/">community participation guidelines</a> and be Respectful to others.</p>
+        <p>If you find any issues regards your participating, please notice the on site keyholder immidietely, or contact us <a href="mailto:space@moztw.org">via email</a>. The space's designated contact are <a href="https://mozillians.org/u/Irvin/">Irvin Chen</a> and <a href="https://mozillians.org/u/bobchao/">BobChao</a>.</p>
+      </div>
+    </section>
+
     <section id="hostevent" class="grids">
       <header>
         <div class="hgroup">
