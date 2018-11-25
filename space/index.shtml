@@ -68,23 +68,6 @@
       </div>
     </section>
 
-    <section id="CO2Sensor" class="grids">
-      <header>
-        <div class="hgroup">
-          <h1>工寮二氧化碳濃度</h1>
-          <h2>CO2 Sensors in Space</h2>
-        </div>
-      </header>
-      <div class="grid-8">
-        <p>摩茲工寮的二氧化碳即時濃度。自然背景值約為 400ppm，<a href="https://iaq.epa.gov.tw/indoorair/page/News_7_1.aspx">環保署建議室內標準為 600-800ppm</a>。當超過 800ppm 時，請提醒 Keyholder 打開抽風扇換氣。</p>
-        <p>The current CO2 level in the community space. If it raises above 800ppm, please notice keyholder to turn on the exhaust fan.</p>
-        <p>Contributed by Miaoski, (<a href="https://github.com/miaoski/esp8266-co2" target="_blank">source repo</a>).</p>
-      </div>
-      <div class="grid-4">
-        <iframe src="https://thingspeak.com/channels/631210/widgets/21165" style="border:none;" height="140"></iframe>
-      </div>
-    </section>
-
     <section id="hostevent" class="grids">
       <header>
         <div class="hgroup">
@@ -187,6 +170,23 @@
       </div>
     </section>
 
+    <section id="CO2Sensor" class="grids">
+      <header>
+        <div class="hgroup">
+          <h1>工寮二氧化碳濃度</h1>
+          <h2>CO2 Sensors in Space</h2>
+        </div>
+      </header>
+      <div class="grid-8">
+        <p>摩茲工寮的二氧化碳即時濃度。自然背景值約為 400ppm，<a href="https://iaq.epa.gov.tw/indoorair/page/News_7_1.aspx">環保署建議室內標準為 600-800ppm</a>。當超過 800ppm 時，請提醒 Keyholder 打開抽風扇換氣。</p>
+        <p>The current CO2 level in the community space. If it raises above 800ppm, please notice keyholder to turn on the exhaust fan.</p>
+        <p>Contributed by Miaoski, (<a href="https://github.com/miaoski/esp8266-co2" target="_blank">source repo</a>).</p>
+      </div>
+      <div class="grid-4">
+        <iframe src="https://thingspeak.com/channels/631210/widgets/21165" style="border:none;" height="140"></iframe>
+      </div>
+    </section>
+
     <section id="moreinfo" class="grids">
       <div class="grid-4">
         <a href="mailto:space@moztw.org">聯絡摩茲工寮</a>
@@ -195,7 +195,7 @@
         <a href="http://folder.moztw.org/moztw-space">營運中心</a>
       </div>
       <div class="grid-4">
-        <a href="http://folder.moztw.org/moztw-space/https%253A%252F%252Fetherpad.mozilla.org%252Fmoztw-taipei-space-guildline">使用規範</a>
+        <a href="https://www.mozilla.org/zh-TW/about/governance/policies/participation/">社群參與準則</a>
       </div>
     </section>
   </main>
