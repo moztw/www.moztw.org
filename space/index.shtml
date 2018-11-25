@@ -186,17 +186,18 @@
     <!-- CO2Sensor Section -->
     <section id="CO2Sensor" class="grids">
       <header>
-        <div class="hgroup" style="text-align: center; letter-spacing: 1px">
-          <h1>連接摩茲工寮的空氣檢測器</h1>
+        <div class="hgroup">
+          <h1>工寮二氧化碳濃度</h1>
+          <h2>CO2 Sensors in Space</h2>
         </div>
       </header>
-      <div class="grid-8" style="letter-spacing: 0.9px; padding: 6px">
-        <p>這是一台放置於工寮、利用現成材料製作出來，且連線到工寮無線網路的一台空氣檢測器，其將會把工寮目前的二氧化碳（CO2）濃度資訊顯示於右方所顯示的視窗中。該檢測器為開放原始碼的專案。<small>[1]</small></p>
-        <p>自然的背景值應該是 440 PPM 左右，也就是空氣最乾淨的狀態，<strong>一般辦公室環境為 600 PM 左右，算是空氣優質的環境，而超過 1000 PPM，則會讓人感到不舒服。</strong>因為曾經發生過工寮空氣使人不舒服的情況，因此製作了這樣的工具來通知工寮的工作人員來開工寮的排氣扇。</p>
-        <p style="font-size: 8px">[1] <small>Git 原始碼位址：<a href="https://github.com/miaoski/esp8266-co2" target="_black" style="color: #000000; font-weight: bold">https://github.com/miaoski/esp8266-co2</a></small></p>
+      <div class="grid-8">
+        <p>摩茲工寮的二氧化碳即時濃度。自然背景值約為 400ppm，<a href="https://iaq.epa.gov.tw/indoorair/page/News_7_1.aspx">環保署建議室內標準為 600-800ppm</a>。當超過 800ppm 時，請提醒 Keyholder 打開抽風扇換氣。</p>
+        <p>The current CO2 level in the community space. If it raises above 800ppm, please notice keyholder to turn on the exhaust fan.</p>
+        <p>Contributed by Miaoski, (<a href="https://github.com/miaoski/esp8266-co2" target="_blank">source repo</a>).</p>
       </div>
-      <div class="grid-4" style="margin: 3px">
-        <iframe src="https://thingspeak.com/channels/631210/widgets/21165" width=400 height=210 frameborder=0 scrolling=0 />
+      <div class="grid-4">
+        <iframe src="https://thingspeak.com/channels/631210/widgets/21165" style="border:none;" height="140"></iframe>
       </div>
     </section>
     <!-- CO2Sensor Section END -->
