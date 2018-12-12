@@ -1,8 +1,8 @@
-<!--#set var="WINVER" value="63.0.3" -->
-<!--#set var="LINUXVER" value="63.0.3" -->
-<!--#set var="OSXVER" value="63.0.3" -->
+<!--#set var="WINVER" value="64.0" -->
+<!--#set var="LINUXVER" value="64.0" -->
+<!--#set var="OSXVER" value="64.0" -->
 
-<!--#set var="TAGVER" value="6303" -->
+<!--#set var="TAGVER" value="640" -->
 
 <!--#set var="WINURL" value="https://download.mozilla.org/?product=firefox-${WINVER}&os=win&lang=zh-TW" -->
 <!--#set var="WIN64URL" value="https://download.mozilla.org/?product=firefox-${WINVER}&os=win64&lang=zh-TW" -->
