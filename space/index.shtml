@@ -198,7 +198,7 @@
       <div class="grid-8">
         <p>摩茲工寮的二氧化碳即時濃度。自然背景值約為 400ppm，<a href="https://iaq.epa.gov.tw/indoorair/page/News_7_1.aspx">環保署建議室內標準為 600-800ppm</a>。當超過 800ppm 時，請提醒 Keyholder 打開抽風扇換氣。</p>
         <p>The current CO2 level in the community space. If it raises above 800ppm, please notice keyholder to turn on the exhaust fan.</p>
-        <p>Contributed by Miaoski, (<a href="https://github.com/miaoski/esp8266-co2" target="_blank">source repo</a>).</p>
+        <p>貢獻者 Contributed by Miaoski，<a href="https://github.com/miaoski/esp8266-co2" target="_blank">原始碼 source repo</a>、<a target="_blank" href="https://thingspeak.com/channels/631210">詳細資料 detailed data</a>。</p>
       </div>
       <div class="grid-4">
         <iframe src="https://thingspeak.com/channels/631210/widgets/21165" style="border:none;" height="140"></iframe>
