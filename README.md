@@ -10,7 +10,7 @@ please fork and checkout as you need.
 
     base - Server configurations and automatic scripts
     www.moztw.org - Main MozTW website
-    forum.moztw.org - MozTW Forum    
+    forum.moztw.org - MozTW Forum
     irclog.moztw.org - Log Archive for #mozilla-taiwan on irc.mozilla.org and #moztw on Telegram.
     translate.moztw.org - Localization system related stuff
     planet.moztw.org - A Planetplanet installation for MozTW Planet http://planet.moztw.org/
@@ -56,7 +56,7 @@ You can do shallow clone to get this repo more quickly.
    Also if you want to stop the virtual machine running, run `vagrant halt`.
 
 ### Using Node.js directly
-1. Install [nodejs](http://nodejs.org/) and [npm](https://www.npmjs.org/) in your system. 
+1. Install [nodejs](http://nodejs.org/) and [npm](https://www.npmjs.org/) in your system.
    * On Windows, you also need `Microsoft Visual C++ Redistributable Package`.
    * On Ubuntu/Debian, you also need `nodejs-legacy` package.
 2. Run `npm install` in repo directory.
@@ -84,7 +84,7 @@ The second step is adding virtual host configs to your Apache configuration:
   DocumentRoot /path/to/this/repo/
   <Directory /path/to/this/repo>
     Options FollowSymLinks Includes
-    SSILegacyExprParse on
+    SSILegacyExprParser on
     AllowOverride All
     Order allow,deny
     Require all granted
