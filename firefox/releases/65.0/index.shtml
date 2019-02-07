@@ -1,0 +1,81 @@
+<!--#set var="release_date" value="2019-01-30" -->
+<!--#set var="version" value="65.0" -->
+<!--#set var="previous_version" value="64.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>強化追蹤防護：內容封鎖設定簡化為「標準」、「嚴格」與「自訂」三種選項，「網站資訊」面板（在網址列的 <strong>i</strong> 圖示）內容追蹤區塊也做了重新設計，顯示 Firefox 在各網站偵測到的內容。詳情參考 <a href="https://blog.mozilla.org/blog/2019/01/29/todays-firefox-gives-users-more-control-over-their-privacy/">Mozilla Blog</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>改善多語系使用者體驗：語言選項中的「<a href="https://support.mozilla.org/kb/use-firefox-another-language">設定其他語言</a>」允許安裝額外語言供 Firefox 介面、網頁使用，而不必安裝特定語言版本的 Firefox。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>macOS: 支援 Handoff，在 iOS 瀏覽到一半的網頁（使用 Firefox 或 Safari），可以在 Mac Firefox 上繼續。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Windows 64-bit: 支援次世次免費影片壓縮技術 AV1，參考 Mozilla 為此<a href="https://medium.com/mozilla-tech/mozilla-celebrates-release-of-free-high-quality-video-compression-technology-av1-in-firefox-65-7c95f2b7e56">新開放標準</a>進行的努力。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>改進效能與 web 相容性，支援 <a href="https://developers.google.com/speed/webp/">WebP 圖片格式</a>，帶來同樣的影像品質，只需較小檔案大小。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/advisories/mfsa2019-01/">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>macOS, Linux 和 Android 上的安全性改進：預設啟用較強的 stack smashing 防護。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>無論是否設定在重啟時自動還原瀏覽階段，關閉視窗時都會發出警告。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>簡化效能管理：由 <code>about:performance</code> 進入重新設計的<a href="https://support.mozilla.org/kb/task-manager-tabs-or-extensions-are-slowing-firefox">工作管理員</a>頁面，檢視各分頁、附加元件的記憶體用量。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>改善封鎖視窗功能，防止網頁同時開啟多個彈出視窗。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <span>Windows: 提供 <a href="https://support.mozilla.org/kb/firefox-customization-msi-installers">32 和 64 位元版的 MSI 安裝檔</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>改善 Flexbox 支援：新的 <a href="https://hacks.mozilla.org/2019/01/new-in-firefox-devtools-65/">Flexbox 檢測器</a>能檢視 Flexbox 容器細節以利除錯。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>所有在「規則」面板變動的 CSS 都能在新的「變更」面板中追溯。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>於各桌面版平台皆支援 <a href="https://developer.mozilla.org/docs/Web/API/Storage_Access_API">Storage Access API</a>。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2065&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox65&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla65&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
