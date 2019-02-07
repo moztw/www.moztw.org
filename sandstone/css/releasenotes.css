@@ -67,7 +67,8 @@
   width: 120px;
 }
 
-#releasenotes .tag-new {
+#releasenotes .tag-new,
+#releasenotes .tag-enterprise {
   background-color: #FFEDCF;
 }
 
