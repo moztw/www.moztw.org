@@ -1,0 +1,66 @@
+<!--#set var="release_date" value="2019-02-13" -->
+<!--#set var="version" value="65.0.1" -->
+<!--#set var="previous_version" value="65.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>顯示推薦附加元件時，錯誤地發送請求至 addons.mozilla.org（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1526387">bug 1526387</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>改善 Netflix 互動影片播放（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1524500">bug 1524500</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>macOS 色彩管理不正確（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1506495">bug 1506495</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>特定情形下「清除最近的歷史記錄」視窗大小不正常（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1523696">bug 1523696</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>呼叫 WebRTC 時的影音延遲問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1521577">bug 1521577</a> 和 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1523817">bug 1523817</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>某些 WebRTC 呼叫會造成影片不正確縮放（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1520200">bug 1520200</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>在 proxy server 內使用 HTTP/2 WebSocket 發生的循環 CONNECT 請求狀況（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1523427">bug 1523427</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>部分 Linux 發行版中 <kbd>Enter</kbd> 鍵在密碼欄位沒有效用（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1523635">bug 1523635</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種穩定性與<a href="https://www.mozilla.org/security/advisories/mfsa2019-04/">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>適應性設計模式支援 <code>&lt;meta&gt;</code> viewport 標籤，最初於 Firefox 64 導入，現預設為關閉（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1521814">bug 1521814</a>），若要回復舊版行為，可於 <code>about:config</code>將 <code>devtools.responsive.metaViewport.enabled</code> 改為 <code>true</code>。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2065&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox65&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla65&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
