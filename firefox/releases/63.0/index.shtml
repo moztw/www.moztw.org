@@ -1,0 +1,105 @@
+<!--#set var="release_date" value="2018-10-23" -->
+<!--#set var="version" value="63.0" -->
+<!--#set var="previous_version" value="62.0.3" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>針對 Windows 的效能與視覺改進：</span>
+      <ul>
+        <li>改用 Clang 工具鏈建置 Windows 版 Firefox，帶來可觀的效能提升。</li>
+        <li>和 Windows 10 OS Dark / Light 模式更契合的主題。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>針對 macOS 的效能改進：</span>
+      <ul>
+        <li>響應性提升。</li>
+        <li>更快的分頁切換。</li>
+        <li>在多 GPU 系統下，WebGL 電源選項可允許效能要求較低的應用程式、applet 優先選用低速 GPU。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>新增「內容封鎖」設定，讓使用者掌握上網時的追蹤、監控行為。使用者可選擇啟用第三方 cookie 或阻擋所有追蹤器，同時自訂例外名單，讓需要追蹤的網站正常運作。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Linux: WebExtensions 會在獨立程序中執行。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>由主選單離開 Firefox 時，若已開啟多個視窗／分頁則會顯示警告。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>辨識作業系統的親和力功能，減少不必要的動畫效果。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox 首頁（新分頁）搜尋捷徑：「熱門網站」會出現 Amazon 和 Google，點選後會移至網址列以便搜尋（目前僅 US 版本有效）。 </span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>特定情況下，網址列無法自動完成書籤網址。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>收藏庫：移除各別書籤「在側邊欄開啟」功能。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>移除「不要檢查更新」選項，您可使用 <a href="https://github.com/mozilla/policy-templates/blob/master/README.md">DisableAppUpdate</a> 政策替代。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span><code>Ctrl + Tab</code> 快速鍵現在會顯示各分頁縮圖，並依最近使用的順序切換。僅新的使用者會套用此行為，舊使用者可自行調整設定。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>更新開發者工具選單外觀，改善導覽功能與一致性。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>預設啟用輔助功能檢測器，幫助了解頁面上不足或應留意的輔助功能。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>支援 <a href="https://github.com/w3c/webcomponents/">Web Components</a> 自訂元素和 shadow DOM。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>檢測器增加<a href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Edit_fonts">字型編輯器</a>，方便控制一般、可變字型。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>參考<a href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/63">開發者功能</a>改進。</span>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>Quick Heal 資安軟體可能造成 32 位元 Windows Firefox 當機，在 Quick Heal 修正前，可參考<a href="https://support.mozilla.org/kb/firefox-tab-crashes-quick-heal-security-software">暫時性的解決方案</a>。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2063&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox63&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla63&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

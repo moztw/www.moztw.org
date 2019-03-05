@@ -1,0 +1,96 @@
+<!--#set var="release_date" value="2018-12-12" -->
+<!--#set var="version" value="64.0" -->
+<!--#set var="previous_version" value="63.0.3" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>根據瀏覽習慣推薦 Firefox 功能、服務、附加元件（僅 US 版本有效）。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>選取複數分頁，方便一次關閉、移動、加入書籤、釘選等。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>在新增的 <code>about:performance</code>「工作管理員」中檢視各分頁使用能源的狀況，也可以直接關閉分頁。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>利用 Clang LTO (Link Time Optimization) 改善 Mac 和 Linux 上的效能。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Windows: 直接在「頁面操作」(Page Action) 中分享目前網頁至其他裝置。 </span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>在附加元件的工具列按鈕上，可以直接移除元件。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>企業版：更新 macOS 版 policy 引擎，允許以設定檔調整<a href="https://www.mozilla.org/firefox/enterprise/">部署政策</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/security/advisories/mfsa2018-29/">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>移除 RSS 預覽和<a href="https://support.mozilla.org/kb/live-bookmarks-migration">即時書籤</a>功能，需要的使用者可安裝<a href="https://support.mozilla.org/kb/feed-reader-replacements-firefox">附加元件</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span><a href="https://blog.mozilla.org/security/2018/07/30/update-on-the-distrust-of-symantec-tls-certificates/">不再信任</a> Symantec 發行的 TLS 憑證。網站管理者應<a href="https://blog.mozilla.org/security/2018/10/10/delaying-further-symantec-tls-certificate-distrust/">儘速撤換現存的 Symantec TLS 憑證</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>改進 <code>about:crashes</code> 設計，清楚呈現錯誤報告傳送至 Mozilla 的時間，並說明本地端移除的錯誤仍會於 <a href="https://crash-stats.mozilla.com/">crash-stats.mozilla.com</a> 保留。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>macOS：用來增加 <code>www</code> 和 <code>.com</code> 至網址的鍵盤快速鍵，由 <code>⌘[cmd]-enter</code> 改為 <code>ctrl-enter</code>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts">CSS 格線檢測器</a>支援同時啟用三層覆蓋格線顯示。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>網頁主控台支援 JavaScript 語法上色。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>滑鼠移至「輔助功能」面板中的元素時，會指出文字與背景色的對比率。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>支援 <a href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/64#CSS">CSS scrollbar 標準</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>macOS 的 <a href="https://developer.mozilla.org/docs/Web/API/WebVR_API">WebVR</a> 支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>參考<a href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/64">開發者功能</a>改進。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2064&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox64&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla64&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

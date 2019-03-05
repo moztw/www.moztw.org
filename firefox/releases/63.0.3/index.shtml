@@ -1,0 +1,45 @@
+<!--#set var="release_date" value="2018-11-16" -->
+<!--#set var="version" value="63.0.3" -->
+<!--#set var="previous_version" value="63.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>以 Unity 製作的 WebGL 遊戲在遊玩一段時間後會卡住（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1502748">bug 1502748</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>特定代理伺服器設定下，頁面載入變慢的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1495024">bug 1495024</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>由於會引起背景分頁影片的問題，預設先停用 HTTP 回應限速功能（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1503354">bug 1503354</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>無法開放 magnet 鏈結（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1498934">bug 1498934</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>當機狀況（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1498510">bug 1498510</a>、<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1503424">bug 1503424</a>）。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2062&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox62&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla62&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

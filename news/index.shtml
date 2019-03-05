@@ -13,9 +13,40 @@
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
 <h1>過去的公告記錄</h1>
 
+<h3>2019</h3>
+
+<ul class="news">
+  <li><div class="date"> 3 月 1</div>
+    <a href="/firefox/releases/65.0.2/">Firefox 65.0.2</a> 更新</li>
+  <li><div class="date"> 2 月 13</div>
+    <a href="/firefox/releases/65.0.1/">Firefox 65.0.1</a> 更新</li>
+  <li><div class="date"> 1 月 30</div>
+    <a href="/firefox/releases/65.0/">Firefox 65.0</a> 更新</li>
+  <li><div class="date"> 1 月 10</div>
+    <a href="/firefox/releases/64.0.2/">Firefox 64.0.2</a> 更新</li>
+</ul>
+
 <h3>2018</h3>
 
 <ul class="news">
+  <li><div class="date"> 12 月 12</div>
+    <a href="/firefox/releases/64.0/">Firefox 64.0</a> 更新</li>
+  <li><div class="date"> 11 月 16</div>
+    <a href="/firefox/releases/63.0.3/">Firefox 63.0.3</a> 更新</li>
+  <li><div class="date"> 11 月 1</div>
+    <a href="/firefox/releases/63.0.1/">Firefox 63.0.1</a> 更新</li>
+  <li><div class="date"> 10 月 23</div>
+    <a href="/firefox/releases/63.0/">Firefox 63.0</a> 更新</li>
+  <li><div class="date"> 10 月 3</div>
+    <a href="/firefox/releases/62.0.3/">Firefox 62.0.3</a> 更新</li>
+  <li><div class="date"> 9 月 5</div>
+    <a href="/firefox/releases/62.0/">Firefox 62.0</a> 更新</li>
+  <li><div class="date"> 8 月 9</div>
+    <a href="/firefox/releases/61.0.2/">Firefox 61.0.2</a> 更新</li>
+  <li><div class="date"> 7 月 6</div>
+    <a href="/firefox/releases/61.0.1/">Firefox 61.0.1</a> 更新</li>
+  <li><div class="date"> 6 月 26</div>
+    <a href="/firefox/releases/61.0/">Firefox 61.0</a> 更新</li>
   <li><div class="date"> 6 月 7</div>
     <a href="/firefox/releases/60.0.2/">Firefox 60.0.2</a> 更新</li>
   <li><div class="date"> 5 月 17</div>
