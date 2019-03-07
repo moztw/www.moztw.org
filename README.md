@@ -85,8 +85,8 @@ The second step is adding virtual host configs to your Apache configuration:
   <Directory /path/to/this/repo/>
     DirectoryIndex index.shtml
     Options FollowSymLinks Includes
-    AllowOverride All
     SSILegacyExprParser on
+    AllowOverride All
     Require all granted
   </Directory>
 </VirtualHost>
