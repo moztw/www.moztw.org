@@ -1,0 +1,45 @@
+<!--#set var="release_date" value="2019-01-10" -->
+<!--#set var="version" value="64.0.2" -->
+<!--#set var="previous_version" value="64.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>MacOS 當機問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1510058">bug 1510058</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>更新缺少的日文翻譯（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1513259">bug 1513259</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>正確還原開發者工具中的檢測器欄寬（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1503175">bug 1503175</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Youtube 影片延滯問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1513511">bug 1513511</a>）。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>部分輕量佈景主題的更新問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1508777">bug 1508777</a>）。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2064&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox64&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla64&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

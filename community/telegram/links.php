@@ -46,6 +46,17 @@ $links = [
             'en'
         ],
     ],
+  
+    [
+        'id' => '@moztwCV',
+        'name' => 'Common Voice in Taiwan',
+        'description' => 'Common Voice 台灣討論群組',
+        'introduction' => '討論 Common Voice 繁體中文與本地語言拓展',
+        'tags' => [
+            'zh-tw'
+        ],
+    ],
+
 
     [
         'id' => 'AmWeuT0XZKu55YVMu6QEGw',
@@ -109,7 +120,7 @@ $links = [
     ],
 
     [
-        'id' => 'AutpyEAh0k-DEhG8mkA76g',
+        'id' => 'AutpyEAh0k-sGoUeY_bCsg',
         'name' => '數位人權/網路治理勉強團',
         'description' => '網路政策與法規研究討論與倡議社群',
         'introduction' => '台灣網路政策、法規與數位人權討論與倡議行動頻道',
