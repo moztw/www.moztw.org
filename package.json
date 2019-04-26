@@ -4,7 +4,10 @@
   "description": "Mozilla Taiwan community web site",
   "main": "index.html",
   "scripts": {
-    "start": "browser-sync start --config bs-config.js"
+    "start": "browser-sync start --config bs-config.js",
+    "build": "node .build/build.js",
+    "test": "echo 'No test'",
+    "patch": "node .build/patch.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,7 @@
   "devDependencies": {
     "browser-sync": "^2.9.3",
     "connect-modrewrite": "~0.8.2",
+    "fast-glob": "^2.2.2",
     "grunt": "~0.4.5",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-copy": "^0.8.2",
@@ -26,6 +30,7 @@
     "grunt-update-submodules": "~0.4.1",
     "gulp": "^3.9.0",
     "load-grunt-tasks": "^3.4.0",
-    "ssi": "^0.3.0"
+    "ssi": "^0.3.0",
+    "website-scraper": "^3.3.3"
   }
 }
