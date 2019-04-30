@@ -121,6 +121,10 @@ server {
 
 Note that we're not running Nginx server on the hosting site, you might encounter some problems, e.g., _.htaccess_ is not supported.
 
+### PHP
+
+PHP is only required for GitHub Webhook and Online Update mechanisms to work. Only tested with PHP 7.1, with cURL extension required to call GitHub API for hook source range verification.
+
 ## Coding Style
 * Please always use LF on line ending, and set 2/4 space characters as indent according to the original style of each files.
 * Please take [Mozilla Coding Style](https://developer.mozilla.org/en-US/docs/Mozilla_Coding_Style_Guide) as reference.
