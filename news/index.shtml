@@ -16,6 +16,8 @@
 <h3>2019</h3>
 
 <ul class="news">
+  <li><div class="date"> 5 月 21</div>
+    Firefox 67.0 更新</li>
   <li><div class="date"> 5 月 7</div>
     Firefox 66.0.5 更新，進一步修正附加元件問題</li>
   <li><div class="date"> 5 月 6</div>
