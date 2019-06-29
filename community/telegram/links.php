@@ -46,7 +46,7 @@ $links = [
             'en'
         ],
     ],
-  
+
     [
         'id' => '@moztwCV',
         'name' => 'Common Voice in Taiwan',
@@ -170,7 +170,7 @@ $links = [
     ],
 
     [
-        'id' => 'AfQlCwDFQfpL6bDCEJuv8g',
+        'id' => 'AiAgbgDFQfqkX-4q43FEhw',
         'name' => 'MozTW 手工藝群組',
         'description' => 'MozTW 手工藝設計討論',
         'introduction' => '手工藝子頻道。Mozilla 主題為主的拼豆、布偶、烘培⋯⋯等，好玩吸引人，軟性的設計討論。',
