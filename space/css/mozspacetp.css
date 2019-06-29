@@ -105,6 +105,7 @@ div[class^=grid-] {
 #keyholders li img {
   border-radius: 100%;
   background-clip: padding-box;
+  background-color: white;
   width: 100%;
   height: auto;
 }
