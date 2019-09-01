@@ -13,17 +13,15 @@
  <!-- closes #side -->
  <hr class="hide">
  <div id="mainContent">
-  <h2>Thunderbird 系統需求</h2>
+  <h2>Thunderbird 68.0 系統需求</h2>
   <h3>Windows</h3>
   <h6>作業系統版本</h6>
   <ul>
-    <li>Windows XP SP2</li>
-    <li>Windows Server 2003</li>
-    <li>Windows Vista</li>
     <li>Windows 7</li>
     <li>Windows 8</li>
+    <li>Windows 10</li>
+    <li>Windows Server 2008 R2</li>
   </ul>
-  <p>請留意：雖然 32 與 64 位元版本的 Windows Vista 與 Windows 7 皆可執行 Thunderbird，但我們目前只支援 32 位元版本的 Thunderbird。</p>
   <h6>建議硬體需求</h6>
   <ul>
     <li>Pentium 4 或更新處理器，需支援 SSE2 指令集</li>
@@ -31,42 +29,43 @@
     <li>200 MB 硬碟空間</li>
   </ul>
 
-  <h3>Linux</h3>
+  <h3>GNU/Linux</h3>
   <h6>軟體需求</h6>
-  <p>請留意：各 Linux 發行版隨附的 Thunderbird 套件可能有其不同需求。</p>
+  <p>請留意：各 GNU/Linux 發行版隨附的 Thunderbird 套件可能有其不同需求。</p>
   <ul>
-    <li>Thunderbird 需要以下函式庫以正常執行：
-		<ul>
-		<li>GTK+ - 2.18 或以上版本</li>
-		<li>GLib - 2.22 或以上版本</li>
-		<li>Pango - 1.14 或以上版本</li>
-		<li>X.Org - 1.0 或以上版本（建議使用 1.7 或以上版本）</li>
-		<li>libstdc++ - 4.3 或以上版本</li>
-      </ul>
+    <li>Thunderbird 需要以下函式庫才能執行：
+    <ul>
+      <li>GTK+ - 3.4 或以上版本</li>
+      <li>GLib - 2.22 或以上版本</li>
+      <li>Pango - 1.14 或以上版本</li>
+      <li>X.Org - 1.0 或以上版本（建議使用 1.7 或以上版本）</li>
+      <li>libstdc++ - 4.6.1 或以上版本</li>
+    </ul>
     </li>
     <li>我們建議安裝以下函式庫或套件，以取得最佳效能：
-	  <ul>
-		<li>NetworkManager - 0.7 或以上版本</li>
-		<li>DBus - 1.0 或以上版本</li>
-		<li>HAL - 0.5.8 或以上版本</li>
-		<li>GNOME - 2.16 或以上版本</li>
-	  </ul>
+    <ul>
+      <li>NetworkManager - 0.7 或以上版本</li>
+      <li>DBus - 1.0 或以上版本</li>
+      <li>GNOME - 2.16 或以上版本</li>
+    </ul>
   </ul>
 
   <h3>Mac</h3>
   <h6>作業系統版本</h6>
   <ul>
-    <li>Mac OS X 10.6</li>
-    <li>Mac OS X 10.7</li>
-    <li>Mac OS X 10.8</li>
     <li>Mac OS X 10.9</li>
+    <li>Mac OS X 10.10</li>
+    <li>Mac OS X 10.11</li>
+    <li>Mac OS X 10.12</li>
+    <li>Mac OS X 10.13</li>
+    <li>Mac OS X 10.14</li>
   </ul>
   <h6>建議硬體需求</h6>
   <ul>
     <li>使用 Intel x86 處理器之麥金塔電腦</li>
     <li>512 MB RAM</li>
     <li>200 MB 硬碟空間</li>
-  </ul>  
+  </ul>
  </div>
  <!-- closes #mainContent-->
 </div>

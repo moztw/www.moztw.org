@@ -13,6 +13,7 @@
 <div><h3> 最新版本 </h3><ul>
   <li><a href="<!--#echo var='WINURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='WINTAG' -->');">Windows</a></li>
   <li><a href="<!--#echo var='LINUXURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='LINUXTAG' -->');">Linux</a></li>
+  <li><a href="<!--#echo var='LINUX64URL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='LINUX64TAG' -->');">Linux（64 位元）</a></li>
   <li><a href="<!--#echo var='OSXURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='OSXTAG' -->');">MAC OS X</a></li>
 </ul>
 <br/>

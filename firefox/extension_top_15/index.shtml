@@ -70,6 +70,8 @@ function hidden_descript(obj) {
 }
 </script>
 
+<!--#include virtual="/inc/outdated_banner.html" -->
+
 	<div class="key-point">
 	
 <div id="product-desc" class="active-extensiontop15">

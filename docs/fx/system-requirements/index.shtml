@@ -13,7 +13,7 @@
   <!-- closes #side -->
   <hr class="hide">
   <div id="mainContent">
-    <h2>Firefox 62.0 系統需求</h2>
+    <h2>Firefox 68.0.2 系統需求</h2>
     <h3>Windows</h3>
     <h6>作業系統版本（32 或 64 位元）</h6>
     <ul>
@@ -36,7 +36,7 @@
         <ul>
           <li>GTK+ - 3.4 或以上版本</li>
           <li>GLib - 2.22 或以上版本</li>
-          <li>Pango - 1.14 或以上版本</li>
+          <li>Pango - 1.22 或以上版本</li>
           <li>X.Org - 1.0 或以上版本（建議使用 1.7 或以上版本）</li>
           <li>libstdc++ - 4.6.1 或以上版本</li>
         </ul>
@@ -59,6 +59,7 @@
       <li>Mac OS X 10.11</li>
       <li>Mac OS X 10.12</li>
       <li>Mac OS X 10.13</li>
+      <li>Mac OS X 10.14</li>
     </ul>
     <h6>建議硬體需求</h6>
     <ul>
