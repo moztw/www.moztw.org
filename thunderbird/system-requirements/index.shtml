@@ -34,20 +34,20 @@
   <p>請留意：各 GNU/Linux 發行版隨附的 Thunderbird 套件可能有其不同需求。</p>
   <ul>
     <li>Thunderbird 需要以下函式庫才能執行：
-		<ul>
-  		<li>GTK+ - 3.4 或以上版本</li>
-	  	<li>GLib - 2.22 或以上版本</li>
-		  <li>Pango - 1.14 或以上版本</li>
-  		<li>X.Org - 1.0 或以上版本（建議使用 1.7 或以上版本）</li>
-	  	<li>libstdc++ - 4.6.1 或以上版本</li>
+    <ul>
+      <li>GTK+ - 3.4 或以上版本</li>
+      <li>GLib - 2.22 或以上版本</li>
+      <li>Pango - 1.14 或以上版本</li>
+      <li>X.Org - 1.0 或以上版本（建議使用 1.7 或以上版本）</li>
+      <li>libstdc++ - 4.6.1 或以上版本</li>
     </ul>
     </li>
     <li>我們建議安裝以下函式庫或套件，以取得最佳效能：
-	  <ul>
-		  <li>NetworkManager - 0.7 或以上版本</li>
-  		<li>DBus - 1.0 或以上版本</li>
-		  <li>GNOME - 2.16 或以上版本</li>
-	  </ul>
+    <ul>
+      <li>NetworkManager - 0.7 或以上版本</li>
+      <li>DBus - 1.0 或以上版本</li>
+      <li>GNOME - 2.16 或以上版本</li>
+    </ul>
   </ul>
 
   <h3>Mac</h3>
