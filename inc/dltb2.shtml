@@ -1,11 +1,17 @@
-<!--#set var="WINVER" value="60.4.0" -->
-<!--#set var="LINUXVER" value="60.4.0" -->
-<!--#set var="OSXVER" value="60.4.0" -->
+<!--#set var="WINVER" value="68.0-SSL" -->
+<!--#set var="WIN64VER" value="68.0-SSL" -->
+<!--#set var="LINUXVER" value="68.0-SSL" -->
+<!--#set var="LINUX64VER" value="68.0-SSL" -->
+<!--#set var="OSXVER" value="68.0-SSL" -->
 
 <!--#set var="WINTAG" value="${WINVER}-Windows" -->
+<!--#set var="WIN64TAG" value="${WINVER}-Windows" -->
 <!--#set var="LINUXTAG" value="${LINUXVER}-Linux" -->
+<!--#set var="LINUX64TAG" value="${LINUX64VER}-Linux64" -->
 <!--#set var="OSXTAG" value="${OSXVER}-Mac" -->
 
 <!--#set var="WINURL" value="https://download.mozilla.org/?product=thunderbird-${WINVER}&os=win&lang=zh-TW" -->
+<!--#set var="WIN64URL" value="https://download.mozilla.org/?product=thunderbird-${WINVER}&os=win64&lang=zh-TW" -->
 <!--#set var="LINUXURL" value="https://download.mozilla.org/?product=thunderbird-${LINUXVER}&os=linux&lang=zh-TW" -->
+<!--#set var="LINUX64URL" value="https://download.mozilla.org/?product=thunderbird-${LINUX64VER}&os=linux64&lang=zh-TW" -->
 <!--#set var="OSXURL" value="https://download.mozilla.org/?product=thunderbird-${OSXVER}&os=osx&lang=zh-TW" -->
