@@ -2,10 +2,11 @@
 // March 2011: modified by littlebtc orz
 // March 2011: modified by petercpg for detecting mobile platforms
 function getPlatform() {
+  //Win32 放在最後，因為 User Agent 當中不會包含相關資料
+  if (navigator.userAgent.indexOf("Win64") != -1 || navigator.userAgent.indexOf("WOW64") != -1)
+    return "win64";
   if (navigator.platform.indexOf("Win32") != -1)
     return "win";
-  if (navigator.platform.indexOf("Win64") != -1 || navigator.platform.indexOf("WOW64") != -1)
-    return "win64";
 
   //Linux 放在最後，以免其他 Linux based 裝置也被當成桌面 linux
   if (navigator.userAgent.indexOf("Android") != -1)
@@ -26,9 +27,12 @@ function getPlatform() {
 function highlightDownload() {
   var platform = getPlatform();
   if (platform != "unknown") { // Unknown 的情況就不 Prefer 任何平台的連結
-    if (platform == "linux64") {
+
+    if (platform.match(/64/)) {
+      document.getElementById('download-link-win').parentNode.className += ' hide';
       document.getElementById('download-link-linux').parentNode.className += ' hide';
     } else {
+      document.getElementById('download-link-win64').parentNode.className += ' hide';
       document.getElementById('download-link-linux64').parentNode.className += ' hide';
     }
     var e = document.getElementById("download-link-" + platform);
