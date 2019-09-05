@@ -1,0 +1,295 @@
+<!--#set var="release_year" value="2019" -->
+<!--#set var="release_month" value="8" -->
+<!--#set var="release_date" value="27" -->
+<!--#set var="version" value="68.0" -->
+
+<!--#include virtual="../../inc/tb_head-sandstone.shtml" -->
+
+<h3 id="whatsnew">Thunderbird 新鮮事</h3>
+<ul class="tags">
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      現在起可以重新連結雲端鏈結附件，不需重新上傳。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      可將單一帳號的所有信件匣標示為已讀。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      可定期執行過濾器，也改善了過濾器執行紀錄。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      針對 Yandex 支援 OAuth2 驗證。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      現在起，可在「進階選項」中選擇語言套件。（需要先設定 intl.multilingual.enabled 偏好設定，可能還需要將 extensions.langpacks.signatures.required 設定為 false）
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      針對 Windows 平台推出 64 位元一般安裝程式及 MSI 安裝程式。請參考 <a href="https://www.thunderbird.net/organizations/">Thunderbird for Organisations</a> 頁面當中的詳細資訊。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      加入可於企業環境使用 Windows 群組原則或跨平台 JSON 檔案來自訂 Thunderbird 部署的政策引擎。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      針對 IMAP 通訊協定支援 TCP keepalive。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      針對 MAPI 介面完整支援 Unicode：新增支援 MAPISendMailW。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      為了保護您的設定檔資料不受舊版程式破壞，Thunderbird 68 版起，會顯示「您啟動了舊版的 Thunderbird」的訊息，且不允許開啟某些設定檔。暫時替代方法：加入 --allow-downgrade 參數啟動。若需詳細資訊，請參考<a href="https://support.mozilla.org/kb/unable-launch-older-version-profile">這篇技術支援文章</a>。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      行事曆：現在起，時區資料會包含過去與未來的異動資料。已包含所有於 2018-2022 年間的異動資料。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      聊天：現在起，可於每個對話中指定不同的拼字檢查語言。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      <b>附加元件支援：僅支援作者修改過的附加元件。</b>
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      <b>字典支援</b>：現在起僅支援 WebExtension 格式的字典。現在起 addons.mozilla.org 及 addons.thunderbird.net 皆提供 WebExtension 格式的字典。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      <b>佈景主題支援</b>：現在起僅支援 WebExtension 格式的佈景主題。現在起 addons.mozilla.org 及 addons.thunderbird.net 皆提供 WebExtension 格式的佈景主題。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      已移除獨立的選項視窗，現在起所有選項都會顯示於分頁中。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      調整了安裝附加元件時的介面。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      針對佈景主題有許多改進，包含暗色訊息清單、討論串窗格。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      應用程式選單，或稱「漢堡選單」。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      改善寫信視窗當中的輸入、選擇及移除收件者的功能。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      檔案鏈結功能：加入 WeTransfer。另可安裝使用新版 WebExtensions FileLink API 的 <a href="https://addons.thunderbird.net/thunderbird/addon/cloudfile-provider-for-dropbox/">Dropbox</a> 及 <a href="https://addons.thunderbird.net/thunderbird/addon/filelink-provider-for-box/">Box.com</a> 的附加元件。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      寫信視窗的文字顏色、背景色、標籤自訂色彩不再受限於 10x7 種 HTML 色彩。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      預設不再送出編輯文字色彩與背景色。於「工具 -&gt; 選項、編輯」加入新選項。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      針對外部與取消附加的附件介面做改進。現在起以鏈結顯示，且可使用新選單選項「開啟所在資料夾」。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      不再於行內顯示文字附件（純文字、HTML、XML 等格式）。可切換 mail.inline_attachments.text 偏好設定即可再次於行內顯示。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      改進某些格式的釣魚信件偵測功能。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      改進詐騙郵件警告功能。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      回信給自己時會搜尋所有身分（mailnews.reply_to_self_check_all_ident 偏好設定預設值更改為 true）
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      Maildir 現在起改用 message ID 作為主檔名及 .eml 副檔名
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      自動壓實重整功能門檻，從 20 MB 調整為 200 MB。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      行事曆：改善事件對話框的使用者介面。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      行事曆：Thunderbird 的行事曆附加元件 Lightning 現在起使用與 Thunderbird 相同的版本編號方式。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      重新啟動後，會遺失「搜尋訊息」對話框中的欄位選擇與排序順序。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      某些情況下，全域索引器會造成高 CPU 資源占用。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      有時候其他使用者看不到設定在 IMAP 信件匣的標籤。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      附加元件詳細資訊的「贊助」按鈕無法正常運作。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      帳號刪除或伺服器或帳號名稱變更後，不會清除 SMTP 密碼。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      若開啟 Windows 搜尋整合功能後，無法從 Mbox 轉換為 Maildir。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      使用 Maildir 的情況下，不會從垃圾桶清除郵件。<br>
+      註：其他與 Maildir 相關的刪除問題可能仍然存在。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      因安全性問題造成訊息傳送失敗時，僅會顯示「未知錯誤」。現在會提供更多資訊。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      改進 SMTP 5.7.1 訊息。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      行事曆：無法以多個使用者帳號對同一 CalDAV 伺服器進行連線。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      聊天：修正使用 SASL 的 XMPP 驗證問題。
+    </span>
+  </li>
+</ul>
+
+<h3 id="knownissues">已知問題</h3>
+<ul class="tags">
+  <li>
+    <span class="tag tag-unresolved">尚未修復</span>
+    <span>
+      編輯標籤功能無法正常運作（將於 68.1 版修正）
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-unresolved">尚未修復</span>
+    <span>
+      無法正常於「搜尋訊息」結果對話框移動訊息（將於 68.1 版修正）
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-unresolved">尚未修復</span>
+    <span>
+      收到的附件清單當中的內容類型/操作的相關使用問題（將於 68.1 版修正）
+    </span>
+  </li>
+</ul>
+
+</article>
+
+<!--#include virtual="../../inc/tb_tail-sandstone.shtml" -->

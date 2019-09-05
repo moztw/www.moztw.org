@@ -1,0 +1,260 @@
+<!--#set var="release_year" value="2017" -->
+<!--#set var="release_month" value="4" -->
+<!--#set var="release_date" value="10" -->
+<!--#set var="version" value="52.0" -->
+
+<!--#include virtual="../../inc/tb_head-sandstone.shtml" -->
+
+<h3 id="whatsnew">Thunderbird 新鮮事</h3>
+<ul class="tags">
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      資料夾窗格工具列與資料夾畫面選擇器（取代資料夾畫面中的箭頭）。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      從 Thunderbird 移除帳號時，亦可刪除對應的資料檔案。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      可從 Becky! Internet Mail 匯入設定。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      可複製訊息過濾器。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      編輯草稿時會恢復字典設定。<br>
+      訊息中會包含 Content-Language 檔頭（RFC 3282）。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      行事曆：現在起可在分頁中建立或編輯事件。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      行事曆：可針對收到的邀請處理反對提議。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      聊天：支援 Twitter 的私訊功能（Direct Messages）。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      聊天：對 Twitter 的推文打心或加入最愛。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      聊天：XMPP：支援 SASL SCRAM 驗證機制。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      聊天：支援 Jabber/XMPP 的訊息副本功能（XEP-280）。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      <b>重要</b>：圖片放入編輯視窗的行為有所異動。現在起將以 Data URI 的方式加入圖片，而不參照到其他訊息當中的內容或作業系統中的檔案。這個行為可與 MS Office 或 LibreOffice 等辦公室軟體有更好的互操作性。<br>
+      <b>將不再</b>下載或自動附加網際網路上的圖片。可以於 mail.compose.attach_http_images 偏好設定統一調整，或是逐一到每張圖片的「圖片屬性」對話框調整此行為。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      所有新信件匣將預設顯示收件者欄位，可使用 mail.threadpane.use_correspondents 偏好設定關閉。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      在 Linux 上必須安裝 PulseAudio 才可播放音效。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      現在起，郵件傳遞格式切換成純文字時，格式化工具列將保留於原地。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      除非將 mailnews.allowMboxOver4GB 偏好設定設為 false，否則將直接支援大於 4GB 的 mbox 格式信件匣儲存空間，不顯示警告。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      IMAP 快取將使用 Mozilla 最新的快取技術。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      於編輯視窗中插入超鏈結的快速鍵從 CTRL+L 更改為 CTRL+K，以與其他辦公室套裝軟體相容。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      由於 <a href="https://web.archive.org/web/20160730080614/https://help.yahoo.com/kb/yahoo-messenger-for-web/SLN26860.html">Yahoo 停止即時通服務</a>，故移除相關功能。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      IMAP 信件匣更名或移動後，訊息預覽窗格無法使用。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      編輯段落格式時，有時按下 Shift+Enter 無法換行。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      修正以段落格式撰寫訊息時的許多問題。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      「以引言方式貼上」功能有時無法使用。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      以純文字格式回覆較長的文字時不會正確換行。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      段落格式簽名前出現多於的空白。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      無法使用附件時，撰寫視窗出現無限的「附加中…」而非顯示錯誤。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      有時回覆的文字編碼有時會不正確（使用檢視上一封訊息使用的編碼）。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      顯示、回覆或轉寄訊息的文字編碼有時會不正確（使用附件的編碼）。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      儲存草稿時不會保留傳送格式（自動偵測、純文字、HTML、兩者皆有）。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      未使用正確身分回覆郵件給自己。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      IMAP 訊息部分快取。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      無法點擊使用跳脫的非 ASCII（國際）字元超鏈結。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      行事曆：指定於「本地時間」時區的事件，會於 UTC 時間產生警示。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      聊天：XMPP 資源衝突。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      許多<a href="https://www.mozilla.org/security/known-vulnerabilities/thunderbird/#thunderbird52">安全性修正</a>。
+    </span>
+  </li>
+</ul>
+
+<h3 id="knownissues">已知問題</h3>
+<ul class="tags">
+  <li>
+    <span class="tag tag-unresolved">尚未修復</span>
+    <span>
+      某些情況下會印出大量空白頁面。<b>要修正這個問題</b>，請到設定編輯器中清除所有印表機相關偏好設定。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-unresolved">尚未修復</span>
+    <span>
+      若訊息儲存在沒有同步供離線使用的 IMAP 信件匣，大型附件可能不會正常顯示或儲存。<b>暫時替代方法</b>：將 browser.cache.memory.max_entry_size 偏好設定設為 -1（不限制），並建立整數型偏好設定 browser.cache.memory.capacity，將值設定為 200000（200 MB，每封訊息 25 MB）。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-unresolved">尚未修復</span>
+    <span>
+      與 McAfee Anti-SPAM 附加元件不相容，發生程式錯誤。<b>暫時替代方法</b>：以安全模式開啟，並停用 McAfee Anti-Spam 擴充套件。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-unresolved">尚未修復</span>
+    <span>
+      無法使用背景圖片，以及撰寫郵件時與嵌入圖片相關的其他問題。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-unresolved">尚未修復</span>
+    <span>
+      壓實重整 IMAP 信件匣時發生程式錯誤。
+    </span>
+  </li>
+</ul>
+
+</article>
+
+<!--#include virtual="../../inc/tb_tail-sandstone.shtml" -->

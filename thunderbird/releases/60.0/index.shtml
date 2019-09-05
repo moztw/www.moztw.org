@@ -1,0 +1,351 @@
+<!--#set var="release_year" value="2018" -->
+<!--#set var="release_month" value="8" -->
+<!--#set var="release_date" value="6" -->
+<!--#set var="version" value="60.0" -->
+
+<!--#include virtual="../../inc/tb_head-sandstone.shtml" -->
+
+<h3 id="whatsnew">Thunderbird 新鮮事</h3>
+<ul class="tags">
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      撰寫訊息時，將顯示刪除按鈕讓您移除收件者。將游標移動至收件者/副本/密件副本選擇器即可顯示此按鈕。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      針對撰寫郵件時的附件處理過程有許多改進：現在可使用對話框、快速鍵或拖曳方式來排序附件。「附加」按鈕移動到畫面右方的附件窗格上方。附件窗格快速鍵（Alt+M 或 Mac 上是 Ctrl+M，視在地化情況可能有所不同）也可以用來顯示或隱藏窗格。<br>
+      撰寫新訊息時對檔頭按右鍵，即可選擇預設開啟附件窗格。隱藏有附件的窗格時將顯示迴紋針圖示，表示存有附件，避免不小心傳送出去。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      「編輯範本」指令。也解決了儲存為範本時的許多問題（重複建立、遺失訊息 ID）。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      「以範本建立新訊息」指令。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      可從狀態列切換拼字檢查語言。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      亮色與暗色佈景主題。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      Thunderbird 中已支援 WebExtension。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      可設定通訊錄視窗預設開啟的目錄。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      針對單一資訊來源設定更新頻率。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      「工具 -&gt; 選項、進階、一般」當中可選擇日期時間顯示格式需依照應用程式語系（根據作業系統當中該語系格式調整），或是作業系統的地區設定。也就是說，使用中文版的 Thunderbird 也可以英文版的格式顯示。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      為 Yahoo 及 AOL 提供 OAuth2 驗證。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      支援 FIDO U2F。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      現在起 Thunderbird 可將信件匣在 mbox 與 maildir 格式間互相轉換。此功能<b>還在實驗中</b>，需設定 mail.store_conversion_enabled 偏好設定。請注意若勾選「允許 Windows Search/Spotlight 搜尋訊息」，將無法使用此功能。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      行事曆：允許複製、剪下或刪除重複發生的事件當中所選擇的事件，或所有事件。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      行事曆：提供於週及日畫面中顯示事件地點的選項。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      行事曆：提供直接傳送或不傳送會議通知，而不顯示彈出視窗的功能。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      行事曆：貼上事件或任務時，可選擇目標行事曆。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      行事曆：允許於支援伺服器端排程的 CalDAV 伺服器進行郵件排程。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      Thunderbird Chat 現在包含了多套內建的訊息佈景主題。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      <b>重要</b>：將停用未經作者標示為相容於 Thunderbird 60 的附加元件。（可透過 extensions.strictCompatibility 偏好設定關閉此行為）
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      IMAP：寄出先前傳送失敗的郵件後，可儲存於本機資料夾中。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      無法再透過「附加元件管理員」頁面設定附加元件的選項。可於「工具」選單新的「附加元件選項」項目設定。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      當訊息透過段落格式撰寫時，按下 Enter 即可將「主文」與拆分的引文轉換為段落。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      「作為新訊息編輯」功能將忽略訊息原有的格式，並轉換為帳號預設的 HTML 或純文字格式進行撰寫。修改後將還原原始格式。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      「編輯草稿」指令現在起也將根據編輯草稿時是否按下 Shift 鍵於 HTML 與純文字格式間互相轉換。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      已改進「作為新訊息編輯」功能，或是按住 Shift 再使用「編輯草稿」、「使用範本撰寫新訊息」功能時，當純文字格式轉換為 HTML 格式的行為。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      輸入地址時，與通訊錄內容相符的部分將以粗體顯示。可使用 mail.autoComplete.commentColumn 偏好設定來顯示該地址儲存的通訊錄。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      透過滑鼠拖曳訊息作為附件時，將使用訊息主旨而非「附加郵件」作為附件名稱。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      改進通訊錄照片處理功能：可直接拖曳將照片到通訊錄中新增，所有照片的副本將儲存於 Thunderbird 設定檔中。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      首次啟動時，Thunderbird 將顯示帳號設定對話框，而非註冊新帳號對話框。
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      Thunderbird 使用 Firefox 的 Photon 設計，當中包含長方形的分頁標籤與許多佈景主題的改進。
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      自訂寄件地址時，Thunderbird 將使用此地址作為 SMTP 寄件時的「MAIL FROM」地址。以往使用的是身分識別資料中的地址，可調整 mail.smtp.useSenderForSmtpMailFrom 偏好設定改回原有行為。
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      已重新啟用 Linux 上的原生通知功能。
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      現在起，Thunderbird 使用 Mozilla 最新的代理伺服器技術。（已支援 FoxyProxy 附加元件）
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      現在起，Thunderbird 也使用 Mozilla 以 Rust 為基礎的最新技術，包含 Quantum CSS 引擎（以 Servo 為基礎）及用來顯示編碼過的訊息的 encoding_rs。
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      自 Thunderbird 60 版起，所有於 2016 年 6 月 1 日前由賽門鐵克根憑證所簽發的憑證，將不再被信任用於 TLS 加密連線。當中包含所有賽門鐵克品牌的憑證：Thawte、RapidSSL、GeoTrust、Verisign、Symantec 等品牌。<br>
+      憑證用於 S/MIME 仍然有效，詳情請參考<a href="https://wiki.mozilla.org/CA/Additional_Trust_Changes#Symantec">此處</a>。
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      行事曆：已移除發送邀請函給相容於 Outlook 2012 及舊版的功能
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      行事曆：現在起可解除唯讀行事曆上的提醒，但選擇「為可寫入的行事曆顯示錯過的提醒」後才會為可寫入的的行事曆顯示錯過的提醒。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      Thunderbird Chat：訊息中的暱稱將上色，以與參與者清單中的色彩相符。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      當使用許多 Thunderbird 或其他郵件軟體開啟相同 IMAP 草稿匣後，有時訊息會以錯誤的身分識別寄出。已修正此問題，若無任何身分與草稿符合的話也會收到通知。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      修正了與處理 IMAP 垃圾桶的許多問題：選擇的垃圾桶信件匣在某些情況下（舉例來說，當名稱包含非 ASCII 字元，或在 Thunderbird 的非英語版本）於程式關閉後不會保留。有時候會建立多餘的垃圾桶，或是點擊垃圾桶沒有反應。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      某些情況下，共享 IMAP 信件匣不會顯示於訂閱視窗中。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      某些情況下，在不同 IMAP 帳號間移動的訊息會缺少嵌入的圖片或附件部分。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      改善訊息檔頭的編碼與解碼。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      無法選擇通訊錄卡片畫面當中的文字。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      現在起密碼可以包含非 ASCII 字元及特殊符號，例如 &aacute;&auml;&szlig;、&euro;&sect;&pound;。<br>
+      註：根據 RFC 5721，密碼應使用 UTF-8 格式編碼，可能會在某些不符合標準的網站，例如 office365.com 造成問題。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      從 Outlook 匯入。註：「匯入全部」功能暫時無法使用，需分開匯入郵件、通訊錄、設定。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      在地化翻譯版本的 Thunderbird 不會顯示翻譯過的 Hotmail「已刪除」信件匣。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      聯絡人側邊欄：選擇與右鍵選單的行為
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      使用者更改儲存的密碼後，Thunderbird 仍會使用快取中的原密碼。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      行事曆：某些時區的時間格式錯誤。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      行事曆：無法從事件對話框中複製收到的邀請函的相關資訊
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      許多<a href="https://www.mozilla.org/security/known-vulnerabilities/thunderbird/#thunderbird60">安全性修正</a>。
+    </span>
+  </li>
+</ul>
+
+<h3 id="knownissues">已知問題</h3>
+<ul class="tags">
+  <li>
+    <span class="tag tag-unresolved">尚未修復</span>
+    <span>
+      在寫信視窗中雙擊文字，有時會啟動「進階屬性編輯器」或「鏈結屬性」對話框。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-unresolved">尚未修復</span>
+    <span>
+      無法正常連線至某些 CalDav 伺服器。暫時替代方法：將 network.cookie.same-site.enabled 設定為 false。
+    </span>
+  </li>
+</ul>
+
+</article>
+
+<!--#include virtual="../../inc/tb_tail-sandstone.shtml" -->
