@@ -66,7 +66,7 @@
 
     <li>
       <span class="tag tag-developer">開發功能</span>
-      <span>我們的行動網頁開發者們，我們已將 WebIDE 遠端除錯功能搬到全新設計的  <i>關於：除錯</i>，藉由 USB 穩當當地在<a href="https://hacks.mozilla.org/2019/06/geckoview-in-2019/">遠端除錯 GeckoView </a>。</span>
+      <span>我們的行動網頁開發者們，我們已將 WebIDE 遠端除錯功能搬到全新設計的<i>about:debugging</i>，可藉由 USB 穩當當地在<a href="https://hacks.mozilla.org/2019/06/geckoview-in-2019/">遠端除錯 GeckoView</a>。</span>
     </li>
  <li>
       <span class="tag tag-developer">開發功能</span>
