@@ -78,7 +78,7 @@
     </li>
  <li>
       <span class="tag tag-developer">開發功能</span>
-      <span>Firefox 開發者工具會提供一段音訊，作為現有的文字內容替代方案，表示非文字內容，a11y 面板 check 工具列已進化以協助開發者跟上 <a href="https://www.w3.org/TR/WCAG21/#text-alternativesWCAG">  Guideline 1.1.</a>。</span>
+      <span>Firefox 開發者工具現在起可針對非文字內容檢查是否包含替代文字內容，輔助功能面板可檢查工具列是否已加入輔助內容，以協助開發者更完整遵守 <a href="https://www.w3.org/TR/WCAG21/#text-alternativesWCAG">Guideline 1.1</a>。</span>
     </li>
 
   </ul>
