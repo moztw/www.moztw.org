@@ -1,0 +1,95 @@
+<!--#set var="release_date" value="2019-09-03" -->
+<!--#set var="version" value="69.0" -->
+
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+<li>
+      <span class="tag tag-new">全新功能</span>
+      <span><a href="https://blog.mozilla.org/blog/2019/09/03/todays-firefox-blocks-third-party-tracking-cookies-and-cryptomining-by-default/">強化追蹤防護</a>：預設標準設定中此功能現在可以封鎖第三方追蹤 cookie 和加密貨幣礦工，而標準設定和選擇嚴格設定都能封鎖數位指紋。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span><a href="https://support.mozilla.org/zh-TW/kb/block-autoplay">封鎖自動播放</a>：除了自動播放聲音的影片以外，現在還能選擇封鎖任何影片自動播放。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>嶄新的「全新分頁」即將推出，呈現最棒的 Pocket 內容（僅 US 版本有效）。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Windows: 將支援 Windows Hello 的 Web Authentication Hmac Secret extension，2019 年 5 月 10 日後釋出的版本即配備有無密碼上網體驗。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>這一版將支援多種視訊解碼器，網路即時通訊會議服務整合不同客戶的影像時將更趨便利。</span>
+    </li>
+ <li>
+      <span class="tag tag-new">全新功能</span>
+      <span> Windows 10：可設定內容行程的優先級別，意即處理器花越多時間在主動處理的任務上，在背景工作的所花時間就越少（影片和音訊重播除外）。還可以在 Win10 的工作列上輕鬆找到 Firefox 的捷徑。</span>
+    </li>
+ <li>
+      <span class="tag tag-new">全新功能</span>
+      <span> macOS：雙核心處理器（例如 MacBook Pro）將回歸到更有衝力且低耗電，有助提升電池壽命。Finder 現在也能在檔案下載的同時顯示進度了。</span>
+    </li>
+<li>
+      <span class="tag tag-new">全新功能</span>
+      <span> 為改善 JavaScript 最佳化 JIT 編譯器性能，現在 JIT 已經可以支援 ARM64 了。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span> 各種<a href="https://www.mozilla.org/en-US/security/advisories/mfsa2019-25/">安全性修正</a>。</span>
+    </li>
+<li>
+      <span class="tag tag-changed">變更</span>
+      <span>Firefox 前一版的<a href="https://developer.mozilla.org/zh-TW/docs/Plugins/Roadmap">Plugin Roadmap</a> 中，flash 外掛程式的內容「總是啟用」已移除，從現在起會徵求使用者許可後再播放網站上的 flash 內容。</span>
+    </li>
+<li>
+      <span class="tag tag-changed">變更</span>
+      <span>不再採用 Adobe Flash 播放器以來，Firefox 也不再需要驗證使用者是否在 64-bit 作業系統上跑 32-bit 的 Firefox，減少使用者代理和數位指紋等並提供更進階的隱私同時，下載其他應用程式的體驗也獲得了改善。</span>
+    </li>
+<li>
+      <span class="tag tag-changed">變更</span>
+      <span>Firefox 不再提供預設載入 userChrome.css 和 userContent.css 以增進啟動性能，想使用前述文件來自訂 Firefox 的使用者可以將 toolkit.legacyUserProfileCustomizations.stylesheets preference 設定為 <strong>ture<strong/>，就能重啟此種功能。</span>
+    </li>
+ <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <span>管理 macOS 電腦的企業版系統管理員們，Mozilla 簽署的 package 安裝包即將推出，簡化您的佈署。。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>我們的行動網頁開發者們，我們已將 WebIDE 遠端除錯功能搬到全新設計的  <i>關於：除錯</i>，藉由 USB 穩當當地在<a href="https://hacks.mozilla.org/2019/06/geckoview-in-2019/">遠端除錯 GeckoView </a>。</span>
+    </li>
+ <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>網路資訊面板現在可以顯示封鎖的來源，讓開發者充分感受到內容封鎖的威力，還有這版能讓我們為所有使用者送上持續進化的強化追蹤防護。</span>
+    </li>
+ <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>全新的事件監聽器的中斷點功能可讓開發者暫停在不同事件類型的 host，舉凡動畫、DOM、媒體、滑鼠、使用者觸碰、工人，以及其他許多情境類型。</span>
+    </li>
+ <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>Firefox 開發者工具會提供一段音訊，作為現有的文字內容替代方案，表示非文字內容，a11y 面板 check 工具列已進化以協助開發者跟上 <a href="https://www.w3.org/TR/WCAG21/#text-alternativesWCAG">  Guideline 1.1.</a>。</span>
+    </li>
+
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2065&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox65&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla65&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
