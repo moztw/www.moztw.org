@@ -57,7 +57,7 @@
     </li>
 <li>
       <span class="tag tag-changed">變更</span>
-      <span>Firefox 不再提供預設載入 userChrome.css 和 userContent.css 以增進啟動性能，想使用前述文件來自訂 Firefox 的使用者可以將 toolkit.legacyUserProfileCustomizations.stylesheets preference 設定為 <strong>ture<strong/>，就能重啟此種功能。</span>
+      <span>Firefox 不再提供預設載入 userChrome.css 和 userContent.css 以增進啟動性能，想使用前述文件來自訂 Firefox 的使用者可以將 toolkit.legacyUserProfileCustomizations.stylesheets preference 設定為 <strong>true</strong>，就能重啟此種功能。</span>
     </li>
  <li>
       <span class="tag tag-enterprise">企業版</span>
