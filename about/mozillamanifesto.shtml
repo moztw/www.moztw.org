@@ -6,8 +6,19 @@
 	<!--
 To Future Editors: Please submit any changes to Bugzilla so that the translation hosted on Mozilla.org can also be changed.
 Manifesto on Mozilla.org: http://www.mozilla.org/about/manifesto.zh-tw.html
-	-->
-  <h2>Mozilla 宣言 (<a href="http://www.mozilla.org/about/manifesto.en.html">原文</a>)</h2>
+-->
+  <h2>Mozilla 宣言增補條款（<a href="https://www.mozilla.org/about/manifesto/">原文</a>）</h2>
+  <h3>發願維護一個更健康的網際網路環境</h3>
+  <p>開放而全球化的網際網路是我們所見過最強大的傳播與協作工具。它展現了人類發展過程中最深層的渴望，也為學習、打造共享人性並解決世界各地的人們所遇到的問題，帶來全新機會。</p>
+  <p>過去十年來，我們看到這個諾言以各種方式達成；也看到網際網路被用來放大分裂、激起暴力、推升仇恨、操弄事實的威力。我們也了解到，應該更加明確地定義出人們上網時的體驗為何。現在，我們就要做這些事。</p>
+  <ol>
+    <li>我們致力於讓網際網路能夠包容地球上的所有人。無論年齡、性別、族群、國籍、教育程度或收入為何，都不影響他們能夠使用網路的機會，以及獲得的體驗與品質。</li>
+    <li>我們致力於讓網際網路能夠促進公民論述、人性尊嚴以及個人表達。</li>
+    <li>我們致力於讓網際網路能夠啟發出批判性思考、有意義的論點、知識共享以及可驗證的事實。</li>
+    <li>我們致力於讓網際網路變成能催化多元社群，一同為了所有人的利益所合作的環境。</li>
+  </ol>
+  <hr>
+  <h2>Mozilla 宣言 (<a href="https://www.mozilla.org/about/manifesto/#sec-principles">原文</a>)</h2>
   <h3>引言</h3>
   <p>網際網路在我們生命中的重要性日漸增加。</p>
   <p>Mozilla 專案為全球性社群，成員們信奉開放、創新及機會是網際網路健全發展的關鍵因素。我們自 1998 年起為確保網際網路的發展裨益全民而生，以創作 Mozilla Firefox 網頁瀏覽器聞名。</p>

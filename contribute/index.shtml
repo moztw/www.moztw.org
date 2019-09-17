@@ -255,7 +255,7 @@ h3.toggle, span.toggle {
 			<img src="/foxmosa/images/30series/30foxmosa-10.png" class="intro_icon" alt="軟體與網頁在地化">
 			<div class="intro_desc">
 				<h2>軟體與網頁在地化</h2>
-				<p>和 Mozilla 一起打造 Firefox、Tunderbird 和其他專案屬於你的語言。並且透過翻譯我們網站上的內容，協助我們告訴世界 Mozilla 正在打造更棒的網際網路。</p>
+				<p>和 Mozilla 一起打造 Firefox、Thunderbird 和其他專案屬於你的語言。並且透過翻譯我們網站上的內容，協助我們告訴世界 Mozilla 正在打造更棒的網際網路。</p>
 				<a href="https://github.com/moztw/contribute-reply-letters/blob/master/emails/localization.txt"  onClick="ga('send', 'event', 'contrubute', 'l10n', 'detail');"><span class="button detail">詳細資訊 》</span></a>
 				<a href="https://wiki.mozilla.org/L10n:Teams:zh-TW"  onClick="ga('send', 'event', 'contribute', 'l10n', 'wiki.mozilla.org-L10n');"><span class="button">軟體網頁在地化專案</span></a>
 			</div>
