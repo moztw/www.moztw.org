@@ -25,7 +25,7 @@
     </li>
     <li>
       <span class="tag tag-new">全新功能</span>
-      <span>Windows: 將支援 Windows Hello 的 Web Authentication Hmac Secret extension，2019 年 5 月 10 日後釋出的版本即配備有密碼上網體驗。</span>
+      <span>Windows: 支援 Windows Hello 的 Web Authentication Hmac Secret 擴充功能，使用 2019 年 5 月 10 日後釋出的 Windows 即可支援無密碼上網體驗。</span>
     </li>
     <li>
       <span class="tag tag-new">全新功能</span>
@@ -71,7 +71,7 @@
     </li>
     <li>
       <span class="tag tag-developer">開發功能</span>
-      <span>我們的行動網頁開發者們，我們已將 WebIDE 遠端除錯功能搬到全新設計的<i>about:debugging</i>，可藉由 USB 穩當當地在<a href="https://hacks.mozilla.org/2019/06/geckoview-in-2019/">遠端除錯 GeckoView</a>。</span>
+      <span>我們的行動網頁開發者們，我們已將 WebIDE 遠端除錯功能搬到全新設計的<i>about:debugging</i>，可藉由 USB 穩當當地在遠端對 <a href="https://hacks.mozilla.org/2019/06/geckoview-in-2019/">GeckoView</a> 除錯。</span>
     </li>
     <li>
       <span class="tag tag-developer">開發功能</span>
