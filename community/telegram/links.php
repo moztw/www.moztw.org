@@ -217,6 +217,17 @@ $links = [
         'tags' => [
             'zh-tw',
         ],
+    ],
+  
+    
+    [
+        'id' => 'AutpyEWCsVgEInowXE6eAQ',
+        'name' => 'MozTW / PrideZilla',
+        'description' => 'MozTW 臺灣社群 驕傲狐狸',
+        'introduction' => 'Diversity & Inclusion 多元包容倡議。',
+        'tags' => [
+            'zh-tw',
+        ],
     ]
 
 ];
