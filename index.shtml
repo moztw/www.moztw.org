@@ -130,14 +130,8 @@
     padding: 10px 485px 5px 20px;
   }
 
-
   .mobile-header {
     text-shadow: 1px 1px 1px #d44000, 1px 1px 2px #fbba20;
-  }
-
-  #planet-rss-list {
-    max-height: 20em;
-    overflow: auto;
   }
 
   #planets ul {
