@@ -5,7 +5,6 @@
 <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
 <link rel="alternate" type="application/rss+xml" title="moztw.org: Mozilla Taiwan 社群新聞" href="/xmlnews.rdf">
 <style>
-  <!--
   .front-feature {
     position: relative;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
@@ -196,7 +195,9 @@
       left: -50px;
     }
   }
-  -->
+  .hide {
+    display: none;
+  }
 </style>
 <!--[if lte IE 8]>
 <style>
@@ -281,7 +282,7 @@
 <!-- Start News Columns -->
 
 <div>
-  <div class="frontcolumn" id="news_columns">
+  <div class="frontcolumndouble" id="news_columns">
     <a href="/xmlnews.rdf">
         <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16">
       </a>
@@ -294,16 +295,14 @@
     <br style="clear: both;">
     <a href="news">所有公告記錄</a>
   </div>
-  <div id="planets" class="frontcolumn">
+  <div id="planets" class="frontcolumn hide">
     <a href="https://planet.moztw.org/atom.xml">
       <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"/>
     </a>
     <h2>
       <a href="https://planet.moztw.org/">摩茲星球</a>
     </h2>
-    <ul id='planet-rss-list'>
-      <li class='planet-rss-list-placeholder'>正在載入…<br>若許久都沒有動靜，請檢查是否開啟 JavaScript 或網路是否受阻。</li>
-    </ul>
+    <ul id='planet-rss-list'></ul>
   </div>
   <!-- End News Columns -->
 
@@ -332,6 +331,7 @@ jQuery(function ($) {
     dataType: 'json',
     success: function (data) {
       var counter = 0
+
       $.each(data.items, function (_, val) {
         if (counter++ >= 6) return // 最多顯示 6 項
         if (val.title.length > 50) val.title = val.title.substr(0, 50) + "..." // 超過 50 個字就截斷並加上 '...'
@@ -339,7 +339,10 @@ jQuery(function ($) {
         // val.title: 文章標題
         $('#planet-rss-list').append('<li><a href="' + val.url + '">' + val.title.substr(val.title.indexOf(':') + 2) + '</a> &ndash; ' + val.title.substr(0, val.title.indexOf(':')) + '</li>')
       })
-      $('.planet-rss-list-placeholder').remove()
+
+      // 顯示摩茲星球欄
+      $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn') // 預留空間給摩茲星球
+      $('#planets').removeClass('hide') // 解除隱藏
     }
   })
 })
