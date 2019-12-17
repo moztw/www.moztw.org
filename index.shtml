@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
 <link rel="alternate" type="application/rss+xml" title="moztw.org: Mozilla Taiwan 社群新聞" href="/xmlnews.rdf">
 <style>
+  <!--
   .front-feature {
     position: relative;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
@@ -129,6 +130,7 @@
     padding: 10px 485px 5px 20px;
   }
 
+
   .mobile-header {
     text-shadow: 1px 1px 1px #d44000, 1px 1px 2px #fbba20;
   }
@@ -195,6 +197,7 @@
       left: -50px;
     }
   }
+  -->
   .hide {
     display: none;
   }
@@ -323,7 +326,7 @@
 </div>
 </div>
 <!--#include virtual="/inc/footer.html" -->
-<script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 <script>
 /* 為相容舊版瀏覽器使用 jQuery，否則我超想用現代 fetch() 的啊！ */
 jQuery(function ($) {
