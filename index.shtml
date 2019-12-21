@@ -337,10 +337,13 @@ jQuery(function ($) {
 
       $.each(data.items, function (_, val) {
         if (counter++ >= 6) return // 最多顯示 6 項
-        if (val.title.length > 50) val.title = val.title.substr(0, 50) + "..." // 超過 50 個字就截斷並加上 '...'
         // val.url: 文章網址
         // val.title: 文章標題
-        $('#planet-rss-list').append('<li><a href="' + val.url + '">' + val.title.substr(val.title.indexOf(':') + 2) + '</a> &ndash; ' + val.title.substr(0, val.title.indexOf(':')) + '</li>')
+        var author = val.title.substring(0, val.title.indexOf(':'))
+        val.title = val.title.substring(author.length + 2)
+        if (val.title.length > 100) val.title = val.title.substring(0, 100) + "..." // 超過 100 個字就截斷並加上 '...'
+
+        $('#planet-rss-list').append('<li><a href="' + val.url + '">' + val.title + '</a> &ndash; ' + author + '</li>')
       })
 
       // 顯示摩茲星球欄
