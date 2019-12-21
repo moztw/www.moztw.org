@@ -198,6 +198,9 @@
     }
   }
   -->
+  .hide {
+    display: none;
+  }
 </style>
 <!--[if lte IE 8]>
 <style>
@@ -287,13 +290,22 @@
         <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16">
       </a>
     <h2>
-        <a href="/news">最新消息與公告</a>
-      </h2>
+      <a href="/news">最新消息與公告</a>
+    </h2>
     <!--#include virtual="/inc/news.html" -->
     </ul>
     <!-- start tag is in inc/news.html, DO NOT REMOVE -->
     <br style="clear: both;">
     <a href="news">所有公告記錄</a>
+  </div>
+  <div id="planets" class="frontcolumn hide">
+    <a href="https://planet.moztw.org/atom.xml">
+      <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"/>
+    </a>
+    <h2>
+      <a href="https://planet.moztw.org/">摩茲星球</a>
+    </h2>
+    <ul id='planet-rss-list'></ul>
   </div>
   <!-- End News Columns -->
 
@@ -314,70 +326,31 @@
 </div>
 </div>
 <!--#include virtual="/inc/footer.html" -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script type="text/javascript">
-  /*
-   * jGFeed 1.0 - Google Feed API abstraction plugin for jQuery
-   *
-   * Copyright (c) 2009 jQuery HowTo
-   *
-   * Licensed under the GPL license:
-   *   http://www.gnu.org/licenses/gpl.html
-   *
-   * URL:
-   *   http://jquery-howto.blogspot.com
-   *
-   * Author URL:
-   *   http://me.boo.uz
-   *
-   * Revised by petercpg to adapt for Yahoo's YQL output
-   */
-  (function($) {
-    $.extend({
-      jGFeed: function(YQL, fnk, num, key) {
-        if (YQL == null) {
-          return false;
-        }
-        if (num != null) {
-          YQL += " LIMIT " + num;
-        }
-        if (key != null) {
-          YQL += "&key=" + key;
-        } // Not used in YQL
-        var yurl = "https://query.yahooapis.com/v1/public/yql?q=" + YQL + "&format=json";
-        $.getJSON(yurl, function(data) {
-          if (typeof(fnk) == "function") {
-            fnk.call(this, data.query ? data.query : false);
-          } else {
-            return false;
-          }
-        });
-      }
-    });
-    $.jGFeed(
-      'SELECT * FROM atom WHERE url = "https://planet.moztw.org/atom.xml"',
-      function(feed) {
-        $(function() {
-          $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn').after(
-            '<div id="planets" class="frontcolumn"><a href="https://planet.moztw.org/atom.xml"><img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"/></a><h2><a href="https://planet.moztw.org/">摩茲星球</a></h2><ul></div>'
-          );
-          $ul = $('#planets ul');
-          $.each(
-            feed.results.entry,
-            function(i, o) {
-              if (o.link.constructor === Array) { // 有的人的部落格會有多個網址，在回傳結果會變成 Array
-                linkhref = o.link[0].href;
-              } else {
-                linkhref = o.link.href;
-              }
-              $ul.append('<li><a href="' + linkhref + '">' + o.title.substr(o.title.indexOf(':') + 2) + '</a> &ndash; ' + o.title.substr(0, o.title.indexOf(':')) + '</li>');
-            }
-          );
-        });
-      },
-      5
-    );
-  })(jQuery);
-</script>
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>
+/* 為相容舊版瀏覽器使用 jQuery，否則我超想用現代 fetch() 的啊！ */
+jQuery(function ($) {
+  $.ajax('https://cors-anywhere.herokuapp.com/https://feed2json.org/convert?url=https%3A%2F%2Fplanet.moztw.org%2Fatom.xml', {
+    dataType: 'json',
+    success: function (data) {
+      var counter = 0
 
+      $.each(data.items, function (_, val) {
+        if (counter++ >= 6) return // 最多顯示 6 項
+        // val.url: 文章網址
+        // val.title: 文章標題
+        var author = val.title.substring(0, val.title.indexOf(':'))
+        val.title = val.title.substring(author.length + 2)
+        if (val.title.length > 100) val.title = val.title.substring(0, 100) + "..." // 超過 100 個字就截斷並加上 '...'
+
+        $('#planet-rss-list').append('<li><a href="' + val.url + '">' + val.title + '</a> &ndash; ' + author + '</li>')
+      })
+
+      // 顯示摩茲星球欄
+      $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn') // 預留空間給摩茲星球
+      $('#planets').removeClass('hide') // 解除隱藏
+    }
+  })
+})
+</script>
 <!--#include virtual="/inc/end.html" -->
