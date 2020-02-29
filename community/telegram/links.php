@@ -80,7 +80,7 @@ $links = [
     ],
 
     [
-        'id' => 'AZ8giUEH1sydBRTFCqw3BQ',
+        'id' => '@moztw_dev',
         'name' => 'MozTW dev/add-on',
         'description' => 'Mozilla/Firefox 套件與開發相關技術討論',
         'introduction' => '開發子頻道。Mozilla/Firefox 軟體技術及套件開發。',
