@@ -13,13 +13,28 @@
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
 <h1>過去的公告記錄</h1>
 
-<h3>2019</h3>
+<h3>2020</h3>
 
 <ul class="news">
+  <li><div class="date"> 4 月 3</div>
+    Firefox 74.0.1 更新</li>
+  <li><div class="date"> 3 月 10</div>
+    Firefox 74.0 更新</li>
+  <li><div class="date"> 2 月 18</div>
+    Firefox 73.0.1 更新</li>
+  <li><div class="date"> 2 月 11</div>
+    Firefox 73.0 更新</li>
+  <li><div class="date"> 1 月 20</div>
+    Firefox 72.0.2 更新</li>
   <li><div class="date"> 1 月 8</div>
     Firefox 72.0.1 更新</li>
   <li><div class="date"> 1 月 7</div>
     Firefox 72.0 更新</li>
+</ul>
+
+<h3>2019</h3>
+
+<ul class="news">
   <li><div class="date"> 12 月 3</div>
     Firefox 71.0 更新</li>
   <li><div class="date"> 10 月 22</div>
