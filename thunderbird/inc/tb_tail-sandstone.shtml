@@ -61,4 +61,4 @@
 </div>
 </section>
 
-<!--#include virtual="/sandstone/footer.html" -->
+<!--#include virtual="/sandstone/footer.shtml" -->

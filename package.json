@@ -4,7 +4,8 @@
   "description": "Mozilla Taiwan community web site",
   "main": "index.html",
   "scripts": {
-    "start": "browser-sync start --config bs-config.js"
+    "start": "browser-sync start --config bs-config.js",
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "grunt-update-submodules": "~0.4.1",
     "gulp": "^3.9.0",
     "load-grunt-tasks": "^3.4.0",
+    "mkdirp": "^0.5.1",
     "ssi": "^0.3.0"
   }
 }
