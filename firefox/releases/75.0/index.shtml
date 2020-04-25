@@ -1,0 +1,71 @@
+<!--#set var="release_date" value="2020-04-07" -->
+<!--#set var="version" value="75.0" -->
+<!--#set var="previous_version" value="69.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+			<span>今天的發行帶來許多的改進，幫助你搜尋更加聰明、快速。<a href="https://blog.mozilla.org/blog/2020/04/07/latest-firefox-updates-address-bar-making-search-easier-than-eve">打得更少，尋找更多</a>，使用Firefox <a href="https://support.mozilla.org/en-US/kb/search-firefox-address-bar">翻新的網址列</a>：
+        <ul>
+          <li>專為小螢幕筆電最佳化，專注、簡潔的搜尋體驗。</li>
+          <li>選擇網址列時將會出現熱門網站。</li>
+          <li>改善了搜尋字詞建議的可讀性，凸顯新的搜索關鍵字。</li>
+          <li>搜尋建議加入 Firefox 常見問題的解決方案。</li>
+          <li>在 Linux 平台上，點擊網址列與搜尋列的行為現在與其他桌面平台相同：單擊選擇全部，但不進行快速複製（Primary Selection），雙點會複製單詞，三點則選取全部並進行快速複製。</li></ul>
+      </span>
+    </li> 
+    <li>
+      <span class="tag tag-new">全新功能</span>
+			<span>Firefox 會在本地暫存所有 Mozila 已知的網路憑證機構所簽發的憑證，這將會改善錯誤配置伺服器的 HTTPS 相容性與提高安全性。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox 在 Flatpak 上架了。Flatpak 是一個在更容易在 Linux 上安裝與使用 Firefox 的方式。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>對於我們的 Windows 使用者，Direct Composition 目前已被整合，以改善效能，同時有益於 Intel 顯示卡的 Windows 10 筆記型電腦預載 Firefox。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/en-US/security/advisories/mfsa2020-12/">安全性修正</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>設定 <code>security.osclientcerts.autoload</code> 為 true ，以啟用對本地作業系統憑證的實驗性支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>可使用企業政策來停止透過 DNS over HTTPS 的可信任供應商（TRR, Trusted Recursive Resolver）解析網址。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>請參閱 Mozilla Hacks 部落格上的 <a href="https://hacks.mozilla.org/zh-hant/2020/04/firefox-75/">Firefox 75: 四月新氣象</a> 一文。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>網路資訊面板現在可以顯示封鎖的資源，讓開發者充分感受到內容封鎖功能的威力，還有這版能讓我們為所有使用者送上持續進化的加強型追蹤保護功能。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>在 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img">&lt;img&gt;</a> 使用 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-loading">loading</a> 屬性來節省頻寬與減少瀏覽器記憶體使用量。預設值 eager 會讓圖片立即載入，而 lazy 延遲載入圖片，直到進入 viewport 的範圍內。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>主控台的<a href="https://developer.mozilla.org/en-US/docs/Tools/Web_Console/The_command_line_interpreter#Instant_evaluation">即時求值</a>功能，使開發者可以比以往更快找出與修正錯誤。只要無副作用（side-effect free）的表達式一輸入到網頁主控台中，就可以即時預覽結果。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2069&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox69&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla69&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
