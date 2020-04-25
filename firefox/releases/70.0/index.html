@@ -1,0 +1,130 @@
+<!--#set var="release_date" value="2019-10-22" -->
+<!--#set var="version" value="70.0" -->
+<!--#set var="previous_version" value="69.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span><a href="https://support.mozilla.org/zh-TW/kb/trackers-and-scripts-firefox-blocks-enhanced-track#w_social-media-trackers">加強型追蹤保護（ETP）</a>：推出更多隱私保護功能：
+  <ul>
+    <li>
+      <span><a href="https://support.mozilla.org/zh-TW/kb/trackers-and-scripts-firefox-blocks-enhanced-track#w_social-media-trackers">社交追蹤保護功能</a>現在已納入<span><a href="https://support.mozilla.org/zh-TW/kb/enhanced-tracking-protection-firefox-desktop”>加強型追蹤保護</a>的標準功能，它能封鎖跨站追蹤的 Cookie，像是來自 Facebook、Twitter 和 LinkedIn。</li>
+    <li>
+      <span><a href="https://www.mozilla.org/en-US/firefox/privacy/products/">隱私保護報告</a>可概觀顯示 Firefox 封鎖的追蹤器，也可提供詳細資訊；其提供的綜合報告來自 Firefox Monitor 和 Lockwise。</li></ul>
+      </span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+  <ul>      
+       <span>我們的數位身分和密碼管理工具 Firefox Lockwise 提供更多安全保護：</span>
+       <span>桌面版的 Lockwise 讓您的密碼與登入可<a href="https://support.mozilla.org/products/firefox-lockwise/lockwise-settings">同步到所有裝置</a>囉！舉凡 Lockwise 手機 APP 和 Firefox 手機版瀏覽器，都可輕鬆<a href="https://support.mozilla.org/zh-TW/kb/manage-passwords-firefox-desktop-firefox-lockwise">創建、更新或刪除</a>登入記錄和密碼。</span>
+    </li>
+    <li>
+       <span class="tag tag-new">全新功能</span>
+       <span>Firefox Monitor 的<a href="https://support.mozilla.org/zh-TW/kb/firefox-lockwise-alerts-breached-websites”>綜合外洩警報</a> (Integrated breach alerts) 在儲存的登入資訊和密碼等線上數據外洩時會發出警示提醒。</span>
+    </li>
+    <li>
+       <span class="tag tag-new">全新功能</span>
+       <span>在網站上註冊新帳號時，可透過複雜密碼產生器 (Complex password generation) 來自動產生並儲存強密碼。</span>
+    </li>
+    <li>
+       <span class="tag tag-new">全新功能</span>
+       <span>為提升網站瀏覽體驗，核心引擎零件改善了以下功能：</span>
+  <ul>
+    <li>
+        <span>Javascript Baseline 直譯器處理現代化網頁的龐大程式庫更快了！網頁載入速度加快率高達 8%。</span></li>
+    <li>
+        <span>為更多<a href="https://wiki.mozilla.org/Platform/GFX/WebRender_Where”>Windows 的 Firefox 使用者開啟</a> WebRender 功能：現在起，使用 Intel 內建顯示卡，螢幕解析度又小於 1920x1200的 Windows 桌上型電腦使用者，將獲得更好的算繪效果。</span>
+    </li>
+    <li>
+        <span><a href="https://mozillagfx.wordpress.com/2019/10/22/dramatically-reduced-power-usage-in-firefox-70-on-macos-with-core-animation/”>macOS 版的 Firefox 排版改善</a>，上網更省電，網頁載入速度加快 <a href="https://treeherder.mozilla.org/perf.html#/compare?originalProject=try&originalRevision=18718d1edd41872634b49cbcaf3fe570ce6ad6a3&newProject=try&newRevision=18ef3e9d206ef3ceb3fec3c4170c844a924d0520&framework=10”>22%</a>，播放影片所使用的資源則降低了<a href="https://treeherder.mozilla.org/perf.html#/compare?originalProject=mozilla-central&newProject=try&newRevision=3d7adefc36d5d5edae6b144dff82919adbb9339e&framework=10&selectedTimeRange=172800#table-header-2242869665”>37%</a>。</span>
+    </li>
+  <ul>
+      <span class="tag tag-new">全新功能</span>
+      Firefox 新產品與服務帶來更多的瀏覽器功能<ul>
+    <li>獨立運作的 Firefox 帳戶選單能讓 Firefox Monitor 和 Firefox Send 等服務操作更簡便。</li>
+    <li>工具列上的禮物圖示訊息提示能迅速呈現新版本當中有哪些新鮮事</li>
+    <li>如果網站需要存取您的所在位置，會在網址列跳出提示告知您。</li>
+  </ul>
+    　</span>
+    </li>
+    
+    <li>    
+    　<span class="tag tag-fixed">修正</span>
+    　<span>各種<a href="https://www.mozilla.org/en-US/security/advisories/mfsa2019-34/">安全性修正</a>。</span>
+    </li>
+    <li>
+    　<span class="tag tag-changed">變更</span>
+    　<span>Firefox 的內建頁面現在可以依您系統設定的偏好，以夜間模式呈現囉。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+     　<span><a href="https://blog.mozilla.org/addons/2019/07/25/upcoming-deprecations-in-firefox-70/”>佈景主題的別名屬性將被移除</a>，有些佈景主題可能因此受到影響。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>現在從 macOS 上的 Chrome 瀏覽器和 Windows 都可以匯入密碼囉。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>文字上方或下方畫有上方線或底線者，像是超連結文字，其可讀性已獲得顯著改善了！這些線會自動略過字符本身，不會直接畫在字上。</span>
+    </li>
+    　<span class="tag tag-changed">變更</span>
+      <span><a href="https://blog.mozilla.org/security/2019/10/15/improved-security-and-privacy-indicators-in-firefox-70/">隱私與安全性標示</a>再進化</span>
+  <ul>
+    <li>不安全的 HTTP 網站上會顯示全新的「斜槓鎖頭」圖示</li>
+    <li>以前全綠色的鎖頭圖示現在改成灰色的囉</li>
+    <li>擴充驗證（The Extended Validation）指標現在移到身份驗證框上了，當您點擊鎖頭圖示，身份驗證框就會彈出來囉</li>
+</ul>
+    <li>
+     <span class="tag tag-developer">開發功能</span>
+     <span>如需閱覽 Mozilla 的附加開發功能資源，歡迎每週收看我們的<a href="https://youtube.com/MozillaDeveloper"> Mozilla 開發者 Youtube 頻道</a>最新的影片。
+     </span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>開發者工具的「輔助功能」面板已可檢查鍵盤操作的易用性，也將色弱模擬器納入使用 Firefox WebRender 的系統中。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>未啟用的 CSS：不對任何元素生效的 CSS 顯示為灰色之外，檢測器會一併提示原因及修復方法。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+　　　　<span>開發者工具中的新 DOM Mutation 中斷點能在指令碼新增、移除或更新頁面內容時協助判斷問題，能讓複雜的指令碼互動和除錯輕鬆許多！。</span>
+    </li>
+    <li>
+       <span class="tag tag-developer">開發功能</span>
+       <span>WebExtensions 開發者現在可以用 Firefox 開發者工具的附加元件除錯工具箱，檢查 browser.storage.local 的資料囉。</span>
+    </li>
+    <li>
+       <span class="tag tag-developer">開發功能</span>
+       <span>使用開發者工具中的<a href="https://developer.mozilla.org/zh-TW/docs/Tools/Network_Monitor">網路監視器</a>，您就能迅速找到資源的請求與回應資料，包含標頭、cookie 和內容。    
+  </ul>
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags"> 
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span> <span>
+      <span>有些網站或網頁元素還是沒辦法載入動態 JavaScript，可使用<a href="https://support.mozilla.org/zh-TW/kb/some-pages-or-page-elements-fail-load-after-updating">暫時的解法</a>。</span>
+  </li>
+  <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+  <ul class="tags">
+      <span>鍵盤導覽無法在 macOS 10.15 環境中正常運作。</span>
+      </li>
+</ul>
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&amp;f1=target_milestone&amp;o3=equals&amp;v3=Firefox%2069&amp;o1=equals&amp;resolution=FIXED&amp;o2=anyexact&amp;query_format=advanced&amp;f3=target_milestone&amp;f2=cf_status_firefox69&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;v1=mozilla69&amp;v2=fixed%2Cverified&amp;limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
+
+
+
