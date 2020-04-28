@@ -17,7 +17,7 @@
 
 <ul class="news">
   <li><div class="date"> 4 月 7</div>
-    Firefox 75.0 更新</li>
+    <a href="/firefox/releases/75.0/">Firefox 75.0</a> 更新</li>
   <li><div class="date"> 4 月 3</div>
     Firefox 74.0.1 更新</li>
   <li><div class="date"> 3 月 10</div>
@@ -40,7 +40,7 @@
   <li><div class="date"> 12 月 3</div>
     Firefox 71.0 更新</li>
   <li><div class="date"> 10 月 22</div>
-    Firefox 70.0 更新</li>
+    <a href="/firefox/releases/70.0/">Firefox 70.0</a> 更新</li>
   <li><div class="date"> 9 月 4</div>
     <a href="/firefox/releases/69.0/">Firefox 69.0</a> 更新</li>
   <li><div class="date"> 9 月 2</div>
