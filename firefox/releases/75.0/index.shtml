@@ -1,6 +1,6 @@
 <!--#set var="release_date" value="2020-04-07" -->
 <!--#set var="version" value="75.0" -->
-<!--#set var="previous_version" value="69.0" -->
+<!--#set var="previous_version" value="70.0" -->
 
 <!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
 
