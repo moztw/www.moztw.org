@@ -72,10 +72,11 @@
 			<article class="module">
 				<h2 id="links">資源和連結</h2>
 				<ul>
+					<li><a title="Mozilla Hacks 新版開發者資訊" href="https://hacks.mozilla.org/zh-hant/category/未分類/">Firefox 新版開發者資訊</a></li>
 					<li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a></li>
-					<li><a href="http://support.mozilla.org/zh-TW/">Firefox 技術支援</a></li>
-					<li><a href="https://developer.mozilla.org/zh-TW/">Mozilla Developer Network</a></li>
-					<li><a href="http://blog.mozilla.org/futurereleases/">Future of Firefox Blog</a></li>
+					<li><a title="Mozilla 技術支援" href="http://support.mozilla.org/zh-TW/">Mozilla 技術支援</a></li>
+					<li><a title="MDN Web Docs" href="https://developer.mozilla.org/zh-TW/">MDN Web Docs</a></li>
+					<li><a title="Future Releases Blog" href="http://blog.mozilla.org/futurereleases/">Future Releases Blog</a></li>
 				</ul>
 			</article>
 		</div>

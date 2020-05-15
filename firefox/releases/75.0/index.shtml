@@ -6,6 +6,7 @@
 
 <article id="whatsnew" class="module">
   <h2>Firefox 新鮮事</h2>
+
   <ul class="tags">
     <li>
       <span class="tag tag-new">全新功能</span>
@@ -17,7 +18,7 @@
           <li>搜尋建議加入 Firefox 常見問題的解決方式。</li>
           <li>在 Linux 平台上，點擊網址列與搜尋列的行為現在與其他桌面平台相同：單擊選擇全部，但不進行快速複製（Primary Selection），雙擊會選擇單詞，三擊則選取全部並進行快速複製。</li></ul>
       </span>
-    </li> 
+    </li>
     <li>
       <span class="tag tag-new">全新功能</span>
 			<span>Firefox 會在本地暫存所有 Mozilla 已知且信任的 Web PKI 憑證機構所簽發的憑證，將會改善設定錯誤的網頁伺服器的 HTTPS 相容性並提高安全性。</span>
@@ -60,6 +61,9 @@
     <li class="complete">
       請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2075&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox75&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla75&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
       您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+    <li class="complete">
+      也請閱讀 Mozilla Hacks 開發者部落格：<a href="https://hacks.mozilla.org/zh-hant/2020/04/firefox-75/">Firefox 75: 四月新氣象</a>。
     </li>
   </ul>
 </article>
