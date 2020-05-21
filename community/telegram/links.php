@@ -140,7 +140,7 @@ $links = [
     ],
 
     [
-        'id' => 'AutpyAC4ZZEyZXJt9fuRyw',
+        'id' => 'AutpyEPG2nZoWUp_yZo75g',
         'name' => 'MozTW 字幕組',
         'description' => 'Mozilla 相關影片中英文字幕製作',
         'introduction' => '影片字幕子頻道。Mozilla 相關影片的字幕翻譯製作。',
