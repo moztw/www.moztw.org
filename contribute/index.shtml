@@ -207,7 +207,6 @@ h3.toggle, span.toggle {
 			<div class="intro_desc">
 				<h2>推廣 Mozilla</h2>
 				<p>幫我們推廣 Firefox 及其他 Mozilla 專案，讓你的朋友了解 Mozilla 精神。登錄 Mozillians 社群通訊錄即可獲得 Mozilla 社群第一手資訊；透過 Firefox 夥伴計畫在您的網站放上按鈕，簡單分享您對 Mozilla 產品的喜愛。</p>
-				<a href="https://affiliates.mozilla.org"  onClick="ga('send', 'event', 'contribute', 'promote', 'affiliates.mozilla.org');"><span class="button">Firefox 夥伴計畫</span></a>
 				<a href="https://mozillians.org" onClick="ga('send', 'event', 'contribute', 'promote', 'mozillians.org');"><span class="button">Mozillians 通訊錄</span></a>
 			</div>
 		</div>
