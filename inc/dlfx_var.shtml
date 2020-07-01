@@ -4,7 +4,7 @@
 <!--#set var="LINUX64VER" value="78.0" -->
 <!--#set var="OSXVER" value="78.0" -->
 
-<!--#set var="TAGVER" value="780" -->
+<!--#set var="TAGVER" value="7800" -->
 
 <!--#set var="WINURL" value="https://download.mozilla.org/?product=firefox-${WINVER}&os=win&lang=zh-TW" -->
 <!--#set var="WIN64URL" value="https://download.mozilla.org/?product=firefox-${WINVER}&os=win64&lang=zh-TW" -->
