@@ -1,0 +1,132 @@
+<!--#set var="release_date" value="2020-06-30" -->
+<!--#set var="version" value="78.0" -->
+<!--#set var="previous_version" value="75.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+			<span>
+        <a href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_protections-dashboard">保護資訊儀錶板</a>提供包含追蹤保護、資料洩漏與密碼儲存的綜合報告。新的功能提供了：
+        <ul>
+          <li>從儀錶板追蹤多少洩漏事件已被解決</li>
+          <li>檢查有沒有儲存的密碼因洩漏事件而暴露</li>
+        </ul>
+        若要檢視你的儀錶板，在網址列輸入 <code>about:protections</code>，或者從主選單中選取「保護資訊儀錶板」。
+      </span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+			<span>我們發現很多人會為了解決某些只需<a href="https://support.mozilla.org/kb/refresh-firefox-reset-add-ons-and-settings">重設就可解決的問題</a>而重裝整個 Firefox，所以在安裝工具中加入了重設按鈕。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>畫面擷圖工具不再會打斷 Firefox 上的 WebRTC 通話了，讓 Firefox 上的會議與影像通話體驗更好。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>我們推出了 WebRender 給<a href="https://wiki.mozilla.org/Platform/GFX/WebRender_Where">使用 Intel GPU 的 Windows 使用者</a>們，將更好的圖形效能提供給更多人。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>
+        Firefox 78 也是我們長期支援版本（ESR），前十個更新的功能將開始提供給 ESR 的使用者。主要有：
+        <ul>
+          <li>Kiosk 模式</li>
+          <li>客戶端憑證</li>
+          <li>啟用 Service Worker 與 Push API</li>
+          <li>啟用封鎖自動播放</li>
+          <li>支援子母畫面</li>
+          <li>在 <code>about:certificate</code> 中檢視與管理 Web 憑證</li>
+        </ul>
+      </span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>展示網路上最佳內容的 <a href="https://blog.mozilla.org/blog/2020/06/02/pocket-provides-fascinating-reads-from-trusted-sources-in-the-uk-with-newest-firefox/">Pocket 推薦</a>將會在所有英國使用者的新分頁中顯示。如果你沒有看到，你可以在新分頁中開啟 Pocket 文章，<a href="https://support.mozilla.org/kb/hide-or-display-content-new-tab">請參閱教學</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>各種<a href="https://www.mozilla.org/en-US/security/advisories/mfsa2020-24/">安全性修正</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修復了搜尋結果品質組成，並且改進了合作夥伴提供的搜尋建議文字。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>Linux 的<a href="https://www.mozilla.org/firefox/78.0/system-requirements">最低系統需求</a>更新。現在 Firefox 需要 GNU GNU libc 2.17、libstdc++ 4.8.1 與 GTK+ 3.14 或更新。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>由於我們正在努力廢止過時的加密法，所有現存的 DHE-based TLS 加密套件將預設停用。</span>
+      <ul>
+        <li>為了緩和因停用 DHE-based TLS 加密套件帶來的 Web 相容性問題，Firefox 78 啟用了額外兩個 AES-GCM SHA2-based 加密套件</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span><a href="https://hacks.mozilla.org/2020/02/its-the-boot-for-tls-1-0-and-tls-1-1/">停用 TLS 1.0 與 TLS 1.1</a> 以優化網站連線。不支援 TLS 1.2 的網站將會顯示錯誤頁面。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>環境選單（通過右鍵點擊分頁開啟）可以復原關閉多個分頁的操握，「關閉右方分頁」與「關閉其它分頁」被移到子選單中。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>優化了幾個無障礙體驗：</span>
+      <ul>
+        <li>當使用 JAWS 螢幕閱讀器時，點選具有資料清單的 HTML 輸入控制項中的下箭頭不再錯誤地移動游標到輸入控制項的下一個元素。</li>
+        <li>在螢幕閱讀器上聚焦到麥克風、相機與螢幕分享指示器時，不再導致嚴重的 Lag 或停止回應。</li>
+        <li>大幅提高了有數千行的表格對於螢幕閱讀器的使用者的載入速度。</li>
+        <li>文字輸入控制項在有自訂樣式時，能夠適當的顯示聚焦輪廓。</li>
+        <li>在螢幕閱讀器開啟主要的開發者工具視窗時，不再會錯誤的切換成文件瀏覽模式。</li>
+        <li>減少像是懸停分頁、展開搜尋列之類的動畫，以降低對患有頭痛與癲癇使用者的視覺刺激。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>將實驗性偏好設定 <code>security.osclientcerts.autoload</code> 設成 true ，即可啟用儲存在 macOS 或 Windows 的客戶端憑證的支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>提供新的政策以設置應用程式處理器、停用子母畫面與要求主控密碼（在未來的更新將從 Master password 更名為 Primary password）。</span>
+    </li>
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>詳細資訊請參閱<a href="https://support.mozilla.org/kb/firefox-enterprise-78-release-notes">企業版 Firefox 78 版本資訊</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>開發工具箱主控台現在會對未捕捉的 Promise 錯誤紀錄更詳細的名稱、堆疊與屬性，特別是對 JavaScript 框架的除錯。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>除錯器中最小化過的變數的自動對應現在可以在 <a href="https://developer.mozilla.org/docs/Tools/Debugger/Set_a_logpoint">LogPoints</a> 中使用，讓 Source-mapped 專案的除錯者感到更流暢。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>開發工具箱的網路面板將標記阻擋請求的插件或 CORS 限制，開發者將能讓網站更加彈性與安全。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>SpiderMonkey 使用新的 <a href="https://developer.mozilla.org/docs/Web/JavaScript/Guide/Regular_Expressions">RegExp</a> 引擎，加入了 dotAll 標誌、Unicode 跳脫序列、向後參考與命名擷取的支援。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2078&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox78&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla78&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+    <li class="complete">
+      Firefox 78 是最後一個<a href="https://blog.mozilla.org/futurereleases/2020/06/23/update-on-firefox-support-for-macos-10-9-10-10-and-10-11/">可供 macOS 版本 10.9, 10.10, 10.11 使用</a>的主要更新。若您使用這些版本，接下來幾年的更新將由 Firefox ESR （長期支援版本） 78.x 接續提供。
+    </li>
+  </ul>
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
