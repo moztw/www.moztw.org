@@ -1,0 +1,132 @@
+<!--#set var="release_date" value="2020-06-30" -->
+<!--#set var="version" value="78.0" -->
+<!--#set var="previous_version" value="75.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+
+  <ul class="tags">
+    <li class="untagged">
+      Firefox 78，此版本<a href="https://blog.mozilla.org/futurereleases/2020/06/23/update-on-firefox-support-for-macos-10-9-10-10-and-10-11/">支援 10.9、10.10 與 10.11 版的 macOS</a>。如果您是這三種 macOS 版本的用戶，接下來一年都將享有 Firefox 78.x 長期支援版 (Extended Support Release，ESR) 的穩定支援。
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+			<span>
+        <a href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_protections-dashboard">保護資訊儀錶板</a>彙整關於追蹤保護、資料外洩事件與密碼管理的摘要報告。新功能可讓使用者：
+        <ul>
+          <li>在儀錶板中檢閱已處理的資料外洩事件數目</li>
+          <li>檢查已儲存的密碼是否曾於外洩事件中洩漏</li>
+        </ul>
+        若要進入儀錶板，您可在 Firefox 網址列輸入 <code>about:protections</code>，或在主選單中按「保護資訊儀錶板」。
+      </span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+			<span>因為我們知道，有些人會為了解決問題而重新安裝 Firefox，但其實<a href="https://support.mozilla.org/kb/refresh-firefox-reset-add-ons-and-settings">重新整理可能是更有效的做法</a>，所以，我們幫 Firefox 的卸載程式增加｢重新整理」(Refresh) 的按鍵。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>螢幕保護程式將無法再干擾此版本 Firefox 上的 WebRTC 呼叫，而能帶來更流暢的視訊與會議體驗。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>針對內建 <a href="https://wiki.mozilla.org/Platform/GFX/WebRender_Where">內建 Intel GPU 的 Windows 電腦用戶</a>釋出 WebRender，讓更多使用者都能享受到更高的繪圖效能。</span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>
+        Firefox 78 也是長期支援版 (ESR) 的產品，也就是說，我們將對 ESR 使用者同步釋出 Firefox 過去 10 次更新所做的變更。值得一提的功能與特點包括：
+        <ul>
+          <li>Kiosk 模式</li>
+          <li>用戶端憑證</li>
+          <li>支援 Service Worker 與 Push API</li>
+          <li>增加阻擋自動播放的功能</li>
+          <li>支援子母畫面 (picture-in-picture)</li>
+          <li>在 <code>about:certificate</code> 中檢視與管理網頁憑證</li>
+        </ul>
+      </span>
+    </li>
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span><a href="https://blog.mozilla.org/blog/2020/06/02/pocket-provides-fascinating-reads-from-trusted-sources-in-the-uk-with-newest-firefox/">Pocket 推薦</a>精選網路上的奇文妙作，英國境內所有的 Firefox 使用者都可在新分頁中看到這些精彩文章。如果您人在英國，但沒看到這些內容的話，您可到新分頁打開 Pocket 文章。<a href="https://support.mozilla.org/kb/hide-or-display-content-new-tab">請到此參閱步驟說明</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修補幾種不同的<a href="https://www.mozilla.org/en-US/security/advisories/mfsa2020-24/">安全弱點</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修復影響搜尋結果品質的程式缺陷，並依合作夥伴的建議改善搜尋結果的文字。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>Linux 的最低<a href="https://www.mozilla.org/firefox/78.0/system-requirements">系統需求</a>已有所調整，Firefox 現在需要 GNU libc 2.17、libstdc++ 4.8.1 和 GTK+ 3.14 或以上版本。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>配合我們淘汰過時密碼學的策略，僅剩的一些基於 DHE 的 TLS 密碼套件已全都預設關閉。</span>
+      <ul>
+        <li>為解決因停用此種密碼套件而產生的網頁相容性問題，Firefox 78 另採用兩個基於 AES-GCM SHA2 的密碼套件。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>停用 <a href="https://hacks.mozilla.org/2020/02/its-the-boot-for-tls-1-0-and-tls-1-1/">TLS 1.0 與 TLS 1.1</a> ，以改善網站連線品質。不支援 TLS 1.2 的網站將顯示錯誤頁。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>在右鍵選單 (在分頁上點滑鼠右鍵即可叫出) 中，只按一鍵便能復原多個已關閉的分頁，並可於子選單上點選「關閉右方分頁」或「關閉其他分頁」。</span>
+    </li>
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>優化了幾個無障礙體驗：</span>
+      <ul>
+        <li>當使用 JAWS 螢幕閱讀器時，點選具有資料清單的 HTML 輸入控制項中的下箭頭不再錯誤地移動游標到輸入控制項的下一個元素。</li>
+        <li>在螢幕閱讀器上聚焦到麥克風、相機與螢幕分享指示器時，不再導致嚴重的 Lag 或停止回應。</li>
+        <li>大幅提高了有數千行的表格對於螢幕閱讀器的使用者的載入速度。</li>
+        <li>文字輸入控制項在有自訂樣式時，能夠適當的顯示聚焦輪廓。</li>
+        <li>在螢幕閱讀器開啟主要的開發者工具視窗時，不再會錯誤的切換成文件瀏覽模式。</li>
+        <li>減少像是懸停分頁、展開搜尋列之類的動畫，以降低對患有頭痛與癲癇使用者的視覺刺激。</li>
+      </ul>
+    </li>
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>將 <code>security.osclientcerts.autoload</code> 的偏好設定設成 <code>true</code>，即可啟用對儲存在 macOS 和 Windows 系統上用戶端憑證的實驗性支援。</span>
+    </li>
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>新政策可讓您配置應用程式的處理程序、停用子母畫面、要求使用者設定主控密碼 (未來將改名為「主密碼 (primary password)」)。</span>
+    </li>
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>詳細資訊請參閱<a href="https://support.mozilla.org/kb/firefox-enterprise-78-release-notes">企業版 Firefox 78 版本資訊</a>。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>DevTools 主控台現在會更詳細記錄未捕捉的 promise 錯誤，提供更多關於名稱 (names)、堆疊 (stacks) 與屬性 (properties) 的訊息，而特別有助於加強 JavaScript 框架除錯的效率。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>除錯器 (Debugger) 的最小變數名稱自動映射功能現亦支援 <a href="https://developer.mozilla.org/docs/Tools/Debugger/Set_a_logpoint">LogPoints</a> 可提升源映射 (source-mapped) 專案除錯的流暢度。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>Firefox DevTools’ Network 面板現在會顯著顯示哪一個擴充套件或 CORS (跨來源資源共用) 的限制造成請求遭到封鎖，以便開發者改善網站的復原性與安全性。</span>
+    </li>
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>SpiderMonkey 新的 <a href="https://developer.mozilla.org/docs/Web/JavaScript/Guide/Regular_Expressions">RegExp</a> 引擎功能已進一步強化，增加對 dotAll flag、Unicode 脫逸序列 (escape sequences)、lookbehind 參照和命名捕捉 (named captures) 的支援。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2078&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox78&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla78&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
