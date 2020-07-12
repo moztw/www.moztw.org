@@ -1,0 +1,44 @@
+<!--#set var="release_date" value="2020-07-09" -->
+<!--#set var="version" value="78.0.2" -->
+<!--#set var="previous_version" value="78.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <span>參考 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 新鮮事</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span><a href="https://www.mozilla.org/security/advisories/mfsa2020-28/">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正一個閱讀器模式中的無障礙體驗失效問題 (<a href="https://bugzilla.mozilla.org/1650922">bug 1650922</a>)。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>使網址列對使用者設定檔損毀的處理更加彈性 (<a href="https://bugzilla.mozilla.org/1649981">bug 1649981</a>)。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修正一個在開啟某些外部程式時會導致的失效 (<a href="https://bugzilla.mozilla.org/1650162">bug 1650162</a>)。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2078&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox78&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla78&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
