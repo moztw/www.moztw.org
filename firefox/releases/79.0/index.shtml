@@ -14,7 +14,7 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <span>在德國的 Firefox 使用者現在會在新分頁看到更多的 Pocket 推薦，裡面精選網路上的奇文妙作。如果您沒看到這些內容的話，您可到新分頁打開 Pocket 文章。<a href="https://support.mozilla.org/kb/hide-or-display-content-new-tab">請到此參閱步驟說明</a>。</span>
+      <span>在德國的 Firefox 使用者現在會在新分頁看到 Pocket 推薦，精選網路上的奇文妙作。如果您沒看到這些內容的話，您可 <a href="https://support.mozilla.org/kb/hide-or-display-content-new-tab">參閱此步驟</a> 打開新分頁的 Pocket 文章。</span>
     </li>
 
     <li>
@@ -24,32 +24,32 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>修復一些在螢幕閱讀器上的故障，包含在 JAWS 螢幕閱讀器上經常遇到的問題。</span>
+      <span>修復一些在螢幕閱讀器上的故障，包含在 JAWS 螢幕閱讀器上經常當掉的問題。</span>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Firefox 網頁工具箱獲得一些修正，使螢幕閱讀器的使用者可以從過去無法使用的工具中獲益。</span>
+      <span>Firefox 網頁工具箱獲得一些重要的修正，使螢幕閱讀器的使用者可以從過去無法使用的工具中獲益。</span>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>SVG 元素 <code>title</code> 與 <code>desc</code>（標籤與描述）現在可以正確地提供給輔助技術產品（例如螢幕閱讀器）。</span>
+      <span>SVG 元素的 <code>title</code> 與 <code>desc</code>（標籤與描述）現在可以正確地提供給輔助技術產品（例如螢幕閱讀器）。</span>
     </li>
 
     <li>
       <span class="tag tag-enterprise">企業版</span>
-			<span>一些 Bug 修復與新的政策加入到最新版本的 Firefox，您可以在 <a href="https://support.mozilla.org/kb/firefox-enterprise-79-release-notes">Firefox 企業版 79 Release Notes</a> 獲得詳情。</span>
+			<span>最新版本的 Firefox 加入了一些 Bug 修復與新的政策，您可以在 <a href="https://support.mozilla.org/kb/firefox-enterprise-79-release-notes">Firefox 企業版 79 Release Notes</a> 獲得詳情。</span>
     </li>
 
     <li>
       <span class="tag tag-enterprise">企業版</span>
-			<span><a href="https://github.com/mozilla/policy-templates/blob/master/README.md#primarypassword">密碼政策</a> 的更新使管理員可以強制使用主密碼（過去稱主控密碼），先前的政策可以關閉主密碼但無法強制使用。被強制使用主密碼的使用者將只會在第一次嘗試儲存密碼時被要求建立主密碼。</span>
+			<span><a href="https://github.com/mozilla/policy-templates/blob/master/README.md#primarypassword">密碼政策</a> 的更新使管理員可以強制使用主控密碼。先前的政策可停用主控密碼，但無法強制使用。被要求必須使用主控密碼的使用者，將會在第一次嘗試儲存密碼時，被要求建立主控密碼。</span>
     </li>
 
     <li>
       <span class="tag tag-developer">開發功能</span>
-			<span>新加入的 <a href="https://developer.mozilla.org/docs/Learn/JavaScript/Asynchronous">非同步呼叫堆疊</a> 讓開發者得以追蹤在事件、Timeout、Promise 的非同步程式碼。非同步執行鏈會被顯示在除錯器中的呼叫堆疊，以及在主控台的錯誤和網路的發起人裡的追蹤堆疊。</span>
+			<span>新加入的 <a href="https://developer.mozilla.org/docs/Learn/JavaScript/Asynchronous">非同步呼叫堆疊</a> 讓開發者得以追蹤在事件、逾時（Timeout）、Promise 的非同步程式碼。非同步執行鏈會被顯示在除錯器中的呼叫堆疊，以及在主控台的錯誤和網路的發起人裡的追蹤堆疊。</span>
     </li>
 
     <li>
@@ -69,7 +69,7 @@
 
     <li>
       <span class="tag tag-developer">開發功能</span>
-			<span>瀏覽器快捷選單項中的 <a href="https://developer.mozilla.org/zh-TW/docs/Tools/Accessibility_inspector">檢測無障礙體驗屬性</a> 現在預設開放給所有使用者。</span>
+			<span>瀏覽器快捷選單（右鍵選單）中的 <a href="https://developer.mozilla.org/zh-TW/docs/Tools/Accessibility_inspector">檢測輔助功能環境屬性</a> 現在預設開放給所有使用者。</span>
     </li>
   </ul>
 
