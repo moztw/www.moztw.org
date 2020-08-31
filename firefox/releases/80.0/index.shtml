@@ -1,0 +1,85 @@
+<!--#set var="release_date" value="2020-08-26" -->
+<!--#set var="version" value="80.0" -->
+<!--#set var="previous_version" value="79.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox 現在可以被設為系統的預設 PDF 閱讀軟體。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>輔助功能環境工具回報的多層樹狀控制項中的物件名稱不再錯誤的包含更深層的資訊，提供螢幕閱讀器使用者正確層級的內容。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修補幾種不同的<a href="https://www.mozilla.org/en-US/security/advisories/mfsa2020-36/">安全弱點</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修復一些在螢幕閱讀器上的故障，包含在 JAWS 螢幕閱讀器上經常當掉的問題。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Firefox 網頁工具箱獲得一些重要的修正，使螢幕閱讀器的使用者可以從過去無法使用的工具中獲益。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>SVG 元素的 <code>title</code> 與 <code>desc</code>（標籤與描述）現在可以正確地提供給輔助技術產品（例如螢幕閱讀器）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>對設定減少動態效果的使用者，我們降低了像是分頁載入時的動畫數量，為有偏頭痛和癲癇的使用者減少動態效果。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>新的附加元件黑名單已經啟用，以提升效能和可擴充性。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>最新版本的 Firefox 加入了一些 Bug 修復與新的政策，您可以在 <a href="https://support.mozilla.org/kb/firefox-enterprise-80-release-notes">Firefox 企業版 80 Release Notes</a> 獲得詳情。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>今天是 Firefox 68 ESR (68.12) 最後一次的預定釋出，除非有重要的安全問題在 2020 年 9 月 22 日的 Firefox ERS 78.3 釋出前被發現。Firefox 68 ESR 的使用者將會在 Firefox 78.3 釋出時自動升級到 Firefox 78 ESR 系列。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>我們在 Firefox Developer Edition 的檢測器加入了 <a href="https://wiki.developer.mozilla.org/en-US/docs/Tools/Page_Inspector/UI_Tour#Compatibility_view">實驗性的側欄面板</a>，幫助開發者利用 MDN 的資料來更快的識別潛在的瀏覽器相容問題。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>在 <a href="https://developer.mozilla.org/docs/Tools/Network_Monitor/request_list#Network_request_columns">網路監視器的請求清單</a> 中，超過等待門檻的慢速請求上會顯示一個烏龜圖示。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>Firefox 現在支援 RTX 與 Transport-cc 以增強弱網路環境中的通話品質與提供更好的流量估計。這些功能也為許多運用 WebRTC 的網站提供更好的相容性。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2080&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox80&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla80&v2=fixed,verified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
