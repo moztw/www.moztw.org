@@ -1,0 +1,107 @@
+<!--#set var="release_date" value="2020-09-23" -->
+<!--#set var="version" value="81.0" -->
+<!--#set var="previous_version" value="80.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>您可以通過鍵盤或耳機來<a href="https://support.mozilla.org/kb/control-audio-or-video-playback-your-headset-or-keyboard">暫停或撥放 Firefox 中的音訊或影片</a>了，使您可以輕易的存取並控制您的媒體，即便正在其他分頁、程式、甚至在您的電腦鎖定時。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>在原有的亮色與暗色佈景主題外，在這次的更新中 Firefox 加入了 Alpenglow 佈景主題：一個多彩的外觀，包含按鈕、選單、視窗。您可以在選項或偏好設定中<a href="https://support.mozilla.org/kb/use-themes-change-look-of-firefox">更換您的 Firefox 佈景主題</a>。</span>
+      <img alt="Alpenglow Theme Screenshot" src="https://www.mozilla.org/media/img/firefox/releasenotes/note-images/alpenglow.png">
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>對於我們在美國與加拿大的使用者，Firefox 現在可以替您<a href="https://support.mozilla.org/kb/credit-card-autofill">儲存、管理與自動填入信用卡資訊</a>，在 Firefox 上購物將會更加便利。為了確保最穩定的使用體驗，這個功能將會逐步推出給使用者。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox 支援 AcroForm，在之後讓您可以<a href="https://support.mozilla.org/kb/view-pdf-files-firefox-or-choose-another-viewer">填入、列印與儲存支援的 PDF 表格</a>，此外 PDF 閱讀器有了新的外觀。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>位於澳大利亞、比利時、瑞士的德文版 Firefox 使用者現在會在新分頁看到 Pocket 推薦，精選網路上的奇文妙作。如果您沒看到這些內容的話，您可 <a href="https://support.mozilla.org/kb/hide-or-display-content-new-tab">參閱此步驟</a> 打開新分頁的 Pocket 文章。除了 Firefox 的分頁，Pocket 也在 iOS 與 Android 上以應用程式的方式提供</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修補幾種不同的<a href="https://www.mozilla.org/security/advisories/mfsa2020-42/">安全弱點</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>我們修復了語言包的使用者更新 Firefox 後會使預設語言重設成英文的問題。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>瀏覽器原生的 HTML5 音訊／影片控制項獲得了數個重要的輔助功能修正：</span>
+      <ul>
+        <li>音訊／影片控制項仍然可以在螢幕閱讀器上被存取，即使在視覺上暫時性的被隱藏。</li>
+        <li>音訊／影片已經撥放的時間與總時間現在可以在螢幕閱讀器上被存取，在之前的版本則無法。</li>
+        <li>多個原本沒有被標記的控制項現在被標記了，使他們可以被螢幕閱讀器辨認。</li>
+        <li>螢幕閱讀器不再侵入式的回報進度資訊，直到使用者要求。</li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>在之後您可以更輕易的在觀看的影片中找到有新圖示的子母畫面（Picture-in-Picture）按鈕。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>當匯入書籤到 Firefox 時，書籤工具列將會自動顯示，使您更容易地找到重要的網站。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>我們加入了更多檔案的支援，包含 .xml、.svg 與 .webp，因此當您下載這些檔案後，可以直接在 Firefox 開啟。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>最新版本的 Firefox 加入了一些 Bug 修復與新的政策，您可以在 <a href="https://support.mozilla.org/kb/firefox-enterprise-81-release-notes">Firefox 企業版 81 Release Notes</a> 獲得詳情。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>TypeScript 現在能在除錯器中適當地被<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1642769">辨別</a>並以相應的圖示標記，使您可以更容易的在檔案清單中找到。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>使用 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1635835">XSSI 防護字元</a>的 HTTP JSON 現在會適當的解析，並以可展開的樹狀結構顯示 JSON 資料。使得這類 HTTP 回應可以透過傳統（可展開式）樹狀 UI 輕易的檢測。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>現在暫停在腳本的<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=917963">第一個陳述式</a>是可能的，這在某些狀況非常有用，像是開發者想對腳本執行或計時器產生的副作用除錯時。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>網頁工具箱中位於輔助功能的色弱模擬現在<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1655053">更加準確</a>。我們移除了紅色色弱、綠色色弱、藍色色弱的模擬，並且加入了全色盲模擬。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2081&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox81&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla81&v2=fixed,verified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
