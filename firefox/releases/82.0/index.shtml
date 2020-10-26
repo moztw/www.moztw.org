@@ -1,0 +1,80 @@
+<!--#set var="release_date" value="2020-10-21" -->
+<!--#set var="version" value="82.0" -->
+<!--#set var="previous_version" value="81.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>在本次更新，Firefox 引進許多改進使影片觀賞更舒適：</span>
+      <ul>
+        <li>子母畫面（Picture-in-Picture）按鈕有新的樣貌與位置，使您更容易的找到並使用。</li>
+        <li>對於 Mac 使用者，子母畫面現在有了快捷鍵（Option + Command + Shift + 右方向鍵），可以在開始播放前使用。</li>
+        <li>對於 Windows 使用者，Firefox 現在在硬體解碼影片上使用 DirectComposition，加強了播放期間的 CPU 與 GPU 的運用並改善電池壽命。</li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox 比以往更快了，頁面載入與啟動時間都有效能改善：</span>
+      <ul>
+        <li>基於 flexbox 佈局的網站載入相較過去加快了 20%。</li>
+        <li>回復瀏覽階段快了 17%，代表您可以更快的找回離開的頁面。</li>
+        <li>對於 Windows 使用者，開啟新視窗快了 10%。</li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>在從 Firefox 工具列儲存網頁到 Pocket 後，您可以瀏覽新的文章。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>WebRender 持續推出給 <a href="https://wiki.mozilla.org/Platform/GFX/WebRender_Where">更多 Windows 上的 Firefox 使用者</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>螢幕閱讀器的段落回報功能現在正確的回報 Firefox 中的段落而非行數。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修補幾種不同的<a href="https://www.mozilla.org/security/advisories/mfsa2020-45/">安全弱點</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>現在可以根據卡片類型更方便地自動填入信用卡，此外卡片編輯器裡的卡片號碼現在可以被螢幕閱讀器取得。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>列印對話框中無效輸入導致的錯誤現在會回報給螢幕閱讀器。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>MediaSession API 現在預設啟用，這允許網站作者自訂標準媒體撥放互動的行為，提供比以往更多選項。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>網站工具箱中的網路現在會顯示 <a href="https://developer.mozilla.org/docs/Web/API/Server-sent_events/Using_server-sent_events">server-sent 事件</a>。這允許伺服器在任何時間發送新的資料到網頁上，開發者可以看到過去無法獲取的事件以進行更底層的故障排除。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2082&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox82&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla82&v2=fixed,verified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
