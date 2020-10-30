@@ -1,0 +1,47 @@
+<!--#set var="release_date" value="2020-10-28" -->
+<!--#set var="version" value="82.0.1" -->
+<!--#set var="previous_version" value="82.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>去除在 Windows 上的完整安裝程式多餘的重新啟動要求。（<a href="https://bugzilla.mozilla.org/1671715">Bug 1671715</a>）</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>復原列印紙張高度或寬度大於 100 英吋（例如收據）的功能。（<a href="https://bugzilla.mozilla.org/1672370">Bug 1672370</a>）</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修復無邊框文件（例如某些 PDF）的列印功能。（<a href="https://bugzilla.mozilla.org/1672529">Bug 1672529</a>）</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修復 marionette 測試框架中的 <code>WebDriver:ClickElement</code> 指令處理。（<a href="https://bugzilla.mozilla.org/1666755">Bug 1666755</a>）</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>穩定性修復。（<a href="https://bugzilla.mozilla.org/1660539">Bug 1660539</a>）</span>
+    </li>
+
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2082&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox82&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla82&v2=fixed,verified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
