@@ -1,0 +1,110 @@
+<!--#set var="release_date" value="2020-11-18" -->
+<!--#set var="version" value="83.0" -->
+<!--#set var="previous_version" value="82.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>由於我們的 JavaScript 引擎 SpiderMonkey 重大的更新，Firefox 持續變得更快。您將會體驗到頁面載入性能提升 15%、頁面反應速度提升 12%、記憶體使用率降低 8%。我們已經替換一部分為您編譯與呈現網站的 JavaScript 引擎，同時加強引擎的安全性與維護性。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span><a href="https://blog.mozilla.org/security/2020/11/17/firefox-83-introduces-https-only-mode/">Firefox 引進了純 HTTPS 模式</a>。啟用這個新模式後，將使所有的 Firefox 網路連線都是安全的，並在無法使用安全連線警示您。<a href="https://support.mozilla.org/kb/https-only-prefs#w_enable-https-only-mode">您可以在選項裡啟用它。</a></span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>現在捏拉縮放（Pinch Zoom）功能將提供給 Windows 觸控螢幕裝置與 Mac 裝置上觸控板的使用者。Firefox 使用者現在可在支援觸控的裝置上通過捏拉來縮放網頁。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>子母畫面（Picture-in-Picture）現在提供鍵盤快捷鍵來快轉或倒帶影片：同時使用方向鍵與音量控制來快轉或倒帶 15 秒。在 <a href="https://support.mozilla.org/kb/about-picture-picture-firefox#w_keyboard-shortcuts">Firefox 說明</a>上有支援的指令清單。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>當您透過 Firefox 在視訊會議分享螢幕時，您將會看到我們新改進的使用者介面，更清楚的顯示哪個裝置或螢幕正在被分享。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>我們改進了數個 Firefox 搜尋功能的功能性與設計：</span>
+      <ul>
+        <li>在搜尋面板底部選擇搜尋引擎現在會進入該引擎的搜尋模式，使您看見您的搜尋詞的搜尋建議（若有）。舊的行為（立刻執行搜尋）則改為按著 Shift 並點擊。</li>
+        <li>當 Firefox 自動補完其中一個搜尋引擎的 URL，您現在可以直接在網址列選擇捷徑來使用該引擎搜尋。</li>
+        <li>我們在搜尋面板的底部加入了按鈕使您可以搜尋書籤、開啟的分頁、瀏覽歷史。</li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox 支援 AcroForm，讓您可以<a href="https://support.mozilla.org/kb/view-pdf-files-firefox-or-choose-another-viewer">填入、列印與儲存支援的 PDF 表格</a>，此外 PDF 閱讀器有了新的外觀。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>位於印度的英文版 Firefox 使用者現在會在新分頁看到 Pocket 推薦，精選網路上的奇文妙作。如果您沒看到這些內容的話，您可<a href="https://support.mozilla.org/kb/hide-or-display-content-new-tab">參閱此步驟</a>打開新分頁的 Pocket 文章。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>對於最近釋出使用 Apple Silicon CPU 的 Apple 裝置，您可以使用 Firefox 83 和之後的版本而無須改變。這個版本（83）將透過與 macOS Big Sur 一同釋出的 <a href="https://www.apple.com/rosetta/index.html">Apple Rosseta 2</a> 支援模擬。我們正努力使 Firefox 在未來可以在這些 CPU 原生編譯。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>這是一個 WebRender 的主要版本，推出給在 Window 7、8 和 macOS 10.12 到 12.15 的<a href="https://wiki.mozilla.org/Platform/GFX/WebRender_Where">更多 Firefox 使用者</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>這個版本加入了 <a href="https://developer.mozilla.org/docs/Web/CSS/conic-gradient">CSS 的 conic-gradients 的支援</a>，幫助圍繞中心旋轉的顏色漸變，而不是從中心往外圍的方式。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>這個版本也包括數個無障礙體驗修正：</span>
+      <ul>
+        <li>螢幕閱讀器的段落回報功能現在正確地回報 Google Docs 中的段落而非行數。</li>
+        <li>當使用螢幕閱讀器的逐字閱讀時，有標點符號在附近的字會正確的被回報。</li>
+        <li>在進入子母畫面（Picture-in-Picture）視窗後，方向鍵現在會正常運作。</li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>對 macOS 的使用者，自最小化視窗復原瀏覽階段時，Firefox 現在使用較少的電力，您應該可以看見更長的電池剩餘時間。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修補幾種不同的<a href="https://www.mozilla.org/security/advisories/mfsa2020-50/">安全弱點</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span><a href="https://support.mozilla.org/kb/firefox-enterprise-83-release-notes">企業版資訊</a></span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+			<span>開發者可以在<a href="https://developer.mozilla.org/docs/Tools/Page_Inspector">頁面檢測器</a>使用 <code>scroll</code> 徽章來<a href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Debug_Scrollable_Overflow">除錯可捲動元素溢出</a>。選取徽章會提示<i>造成</i>溢出的元素並以 <code>overflow</code> 徽章標記。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2083&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox83&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla8&v2=fixed,verified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
