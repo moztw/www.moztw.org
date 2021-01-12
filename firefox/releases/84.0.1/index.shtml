@@ -1,0 +1,40 @@
+<!--#set var="release_date" value="2020-12-23" -->
+<!--#set var="version" value="84.0.1" -->
+<!--#set var="previous_version" value="84.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修復某些使用第三方 PKCS11 模組與安裝智慧卡的使用者在載入安全網站時當機的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1682881">bug 1682881</a>）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修復一些 Windows 使用者弱於預期的效能與 Canvas 元素的閃爍問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1683116">bug 1683116</a>）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修復一個因不正確偵測作業系統版本而使一些 Unity JS 遊戲無法在 Apple Silicon 裝置上載入的問題（<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1680516">bug 1680516</a>）。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修復多個第三方防毒軟體導致的當機。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2084&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox84&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla8&v2=fixed,verified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
