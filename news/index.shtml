@@ -16,6 +16,18 @@
 <h3>2020</h3>
 
 <ul class="news">
+  <li><div class="date"> 10 月 29</div>
+    <a href="/firefox/releases/82.0.2/">Firefox 82.0.2</a> 更新</li>
+  <li><div class="date"> 10 月 28</div>
+    <a href="/firefox/releases/82.0.1/">Firefox 82.0.1</a> 更新</li>
+  <li><div class="date"> 10 月 21</div>
+    <a href="/firefox/releases/82.0/">Firefox 82.0</a> 更新</li>
+  <li><div class="date"> 9 月 23</div>
+    <a href="/firefox/releases/81.0/">Firefox 81.0</a> 更新</li>
+  <li><div class="date"> 8 月 26</div>
+    <a href="/firefox/releases/80.0/">Firefox 80.0</a> 更新</li>
+  <li><div class="date"> 7 月 28</div>
+    <a href="/firefox/releases/79.0/">Firefox 79.0</a> 更新</li>
   <li><div class="date"> 7 月 9</div>
     <a href="/firefox/releases/78.0.2/">Firefox 78.0.2</a> 更新</li>
   <li><div class="date"> 7 月 1</div>
