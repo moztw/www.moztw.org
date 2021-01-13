@@ -1,0 +1,75 @@
+<!--#set var="release_date" value="2020-12-16" -->
+<!--#set var="version" value="84.0" -->
+<!--#set var="previous_version" value="83.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      2020 是不同以往的一年。三月時，整個世界有著劇烈的變動。即便如此，我們仍按照計畫每個月發佈一版新的 Firefox 以讓 Firefox 可為您所用。雖然我們期待 2020 的結束，但我們想回顧這無法預期的一年。除了這一版本的新功能外，<a href="https://blog.mozilla.org/blog/2020/12/15/our-year-in-review-how-weve-kept-firefox-working-for-you-in-2020/">請參閱我們列出使 2020 好點的主要功能</a>。
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>對 Apple Silicon CPU 提供原生支援，相比 Firefox 83 的非原生的建置帶來顯著的效能改善。Firefox 啟動快了 2.5 倍，網路應用程式現在的響應速度則快了兩倍（每個 SpeedoMeter 2.0 測試）。如果您使用新的 Apple 裝置，<a href="https://support.mozilla.org/kb/upgrading-new-version-firefox-84-apple-silicon">參考這些步驟來升級到最新的 Firefox</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>推出 WebRender 給 MacOS Big Sur、搭載 Intel Gen 6 GPU 的 Windows 裝置、運行 Windows 7 與 8 的 Intel 筆記型電腦。此外，我們將首次為 Linux/GNOME/X11 的使用者提供加速渲染管道。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox 現在使用更多現代技術以在 Linux 上分配共用記憶體，改善效能並提生與 Docker 的相容性。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox 84 是<a href="https://support.mozilla.org/kb/end-support-adobe-flash">最後一個支援 Adobe Flash 的版本</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修補幾種不同的<a href="https://www.mozilla.org/security/advisories/mfsa2020-54/">安全弱點</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>多個 Bug 修復與新政策加入到最新的 Firefox 版本。您可在 <a href="https://support.mozilla.org/kb/firefox-enterprise-84-release-notes">Firefox 84 企業版版本資訊</a>找到更多資訊。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>網路面板現在可以處理非預期的當機並顯示有用的除錯資訊，像是相關的 Stack-trace。使用者可以簡單地透過點擊連結來送出 Bug 報告，幫助改善這個工具的穩定性。</span>
+      <img alt="Network Panel Bug Report Submission Screenshot" src="https://www.mozilla.org/media/img/firefox/releasenotes/note-images/network_panel_crash.png">
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>輔助功能面板現在包含一個選項來顯示元素的 Tab 跳轉順序，以幫助開發者檢視哪些元素是可透過 Tab 按鍵聚焦與其順序。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>運行在 Apple Silicon 系統上的 macOS 使用者如果沒有安裝 Rosetta 系統軟體，在播放加密內容時<a href="https://support.mozilla.org/kb/netflix-hulu-disney-or-prime-error-mac-apple-silicon">可能遇到播放錯誤</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span>
+      <span>運行 Cylance 防毒軟體的 macOS 使用者可能會看到 Firefox 安裝過程被誤判為惡意軟體而中斷。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2084&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox84&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla8&v2=fixed,verified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
