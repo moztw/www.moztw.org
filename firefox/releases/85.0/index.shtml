@@ -1,0 +1,66 @@
+<!--#set var="release_date" value="2021-01-27" -->
+<!--#set var="version" value="85.0" -->
+<!--#set var="previous_version" value="84.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox 現在能為您抵擋 <a href="https://blog.mozilla.org/security/2021/01/26/supercookie-protections/">supercookie</a>，這是一種可以隱藏在您瀏覽器中並在線上追蹤您的追蹤器，即使您清除了 cookie。透過隔離 supercookie，Firefox 避免您在瀏覽不同網站時被追蹤。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>儲存與取用您的書籤更為容易了。Firefox 現在會記得您偏好的書籤儲存位置、預設在新的分頁中顯示書籤列並讓您通過工作列資料夾取用所有您的<a href="https://support.mozilla.org/kb/bookmarks-firefox">書籤</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>您現在可於密碼管理員中一鍵<a href="https://support.mozilla.org/kb/password-manager-remember-delete-edit-logins#w_remove-all-saved-logins">清除所有已儲存的登入資訊</a>，而不必逐個刪除。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修補幾種不同的<a href="https://www.mozilla.org/security/advisories/mfsa2021-03/">安全弱點</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>Firefox <a href="https://support.mozilla.org/kb/end-support-adobe-flash">不再支援 Adobd Flash</a>，已不再有重新啟用 Flash 支援的設定選項。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>多個 Bug 修復與新政策加入到最新的 Firefox 版本。您可在 <a href="https://support.mozilla.org/kb/firefox-enterprise-85-release-notes">Firefox 85 企業版版本資訊</a>找到更多資訊。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>CSS: 我們加入了對 <a href="https://developer.mozilla.org/docs/Web/CSS/:focus-visible">:focus-visible</a> 虛擬類別的支援。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>在主控台中原始碼編輯器（多行編輯器模式下可用）可使用新的工具列按鈕來美化 JS 陳述式。</span>
+      <img alt="Console Editor Pretty Print Expression Screenshot" src="https://www.mozilla.org/media/img/firefox/releasenotes/note-images/prettyfy_js_console_button.png">
+    </li>
+
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2085&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox85&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla85&v2=fixed,verified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
