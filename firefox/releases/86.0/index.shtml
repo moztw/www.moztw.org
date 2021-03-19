@@ -83,24 +83,24 @@
 
     <li>
       <span class="tag tag-developer">開發功能</span>
-      <span>CSS image-set() function in CSS is now enabled, allowing for responsive images in CSS.</span>
+      <span>CSS: CSS 中的 image-set() 函數已經啟用，讓 CSS 中圖片的反應可以更快。</span>
     </li>
     
     <li>
       <span class="tag tag-developer">開發功能</span>
-      <span>Inactive CSS tool is now showing a warning when margin or padding is set on internal table elements. 這邊有一張圖要加</span>
+      <span>互動式的 CSS 工具現在在你設定 internal table element 的 margin 或 padding 屬性時會顯示警告訊息了。（這邊有一張圖要加）</span>
     </li>
     
     <li>
       <span class="tag tag-developer">開發功能</span>
-      <span>Developer Tools Toolbox is now showing a number of errors on the current page. This is a quick way to surface information to a developer that something is wrong with their page. Clicking on the red exclamation icon navigates the user to the Console panel. 這邊有一張圖要加</span>
+      <span>開發者工具箱現在會在當前的頁面上顯示總共有幾個錯誤。這可以加速訊息浮現，讓開發者得知當前的頁面可能有些問題。點擊紅色驚嘆號會將使用者帶到 Console 面板。（這邊有一張圖要加）</span>
     </li>
 
   </ul>
 
   <ul class="tags">
     <li class="complete">
-      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2085&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox85&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla85&v2=fixed,verified&limit=0">完整變更清單</a>。
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2086&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox86&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla86&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
       您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
     </li>
   </ul>
