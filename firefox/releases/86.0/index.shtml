@@ -13,22 +13,22 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <span>Firefox now <a href="https://support.mozilla.org/kb/about-picture-picture-firefox">supports</a> simultaneously watching <a href="https://blog.mozilla.org/blog/2021/02/23/latest-firefox-release-includes-multiple-picture-in-picture-and-total-cookie-protection/">multiple videos in Picture-in-Picture.</a></span>
+      <span>Firefox 現在 <a href="https://support.mozilla.org/kb/about-picture-picture-firefox">支援</a> 以 Picture-in-Picture 模式同時觀賞 <a href="https://blog.mozilla.org/blog/2021/02/23/latest-firefox-release-includes-multiple-picture-in-picture-and-total-cookie-protection/">數個影片。</a></span>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <span>Today, Firefox introduces <a href="https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/">Total Cookie Protection</a> to Strict Mode. In Total Cookie Protection, every website gets its own “cookie jar,” <a href="https://support.mozilla.org/kb/third-party-trackers">preventing cookies from being used to track you from site to site</a>.</span>
+      <span>今天，Firefox 加入了 <a href="https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/">Total Cookie Protection</a> 到 Strict 模式中。 在 Total Cookie Protection 裡，每個網站都會有它自己的 "cookie jar"， <a href="https://support.mozilla.org/kb/third-party-trackers">避免您在瀏覽不同網站時被追蹤</a>.</span>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <span>We've improved our Print functionality with a cleaner design and better integration with your computer's printer settings. 這邊有一張圖要加</span>
+      <span>我們現在改善了網頁列印功能，有更乾淨的設計並更好的整合了您電腦上的印表機設定。（這邊有一張圖要加）</span>
     </li>
     
     <li>
       <span class="tag tag-new">全新功能</span>
-      <span>For Firefox users in Canada, <a href="https://support.mozilla.org/kb/credit-card-autofill">redit card management and auto-fill</a> are now enabled.</span>
+      <span>現在加拿大的 Firefox 使用者來可以使用 <a href="https://support.mozilla.org/kb/credit-card-autofill">信用卡管理及自動填入功能</a> 了</span>
     </li>
 
     <li>
