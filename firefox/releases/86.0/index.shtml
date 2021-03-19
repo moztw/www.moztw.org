@@ -33,27 +33,30 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Reader mode now works with local HTML pages.</span>
+      <span>Reader 模式現在可以開啟本機上的 HTML 頁面了。</span>
     </li>
     
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Using screen reader quick navigation to move to editable text controls no longer incorrectly reaches non-editable cells in some grids such as on messenger.com.</span>
+      
+      <span>使用 screen reader quick navigation 來快速移動到可以編輯的文字控制區塊時，再也不會於某些 grid 中錯誤的移動到無法編輯的文字區塊了，比方說像 messenger.com。</span>
     </li>
     
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>The Orca screen reader's mouse review feature now works correctly after switching tabs in Firefox.</span>
+      
+      <span>Orca screen reader 的游標預覽功能現在在 Firefox 切換頁面後可以正常運作了。</span>
     </li>
     
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Screen readers no longer report column headers incorrectly in tables containing cells spanning multiple columns.</span>
+      
+      <span>Screen reader 再也不會把橫跨多個欄位的標頭標示錯誤了。</span>
     </li>
     
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Links in Reader View now have more color contrast.</span>
+      <span>Reader View 的連結現在有更佳的顏色對比度了。</span>
     </li>
     
     <li>
