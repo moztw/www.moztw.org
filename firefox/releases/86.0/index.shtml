@@ -1,0 +1,110 @@
+<!--#set var="release_date" value="2021-02-23" -->
+<!--#set var="version" value="86.0" -->
+<!--#set var="previous_version" value="85.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox now <a href="https://support.mozilla.org/kb/about-picture-picture-firefox">supports</a> simultaneously watching <a href="https://blog.mozilla.org/blog/2021/02/23/latest-firefox-release-includes-multiple-picture-in-picture-and-total-cookie-protection/">multiple videos in Picture-in-Picture.</a></span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Today, Firefox introduces <a href="https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/">Total Cookie Protection</a> to Strict Mode. In Total Cookie Protection, every website gets its own “cookie jar,” <a href="https://support.mozilla.org/kb/third-party-trackers">preventing cookies from being used to track you from site to site</a>.</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>We've improved our Print functionality with a cleaner design and better integration with your computer's printer settings. 這邊有一張圖要加</span>
+    </li>
+    
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>For Firefox users in Canada, <a href="https://support.mozilla.org/kb/credit-card-autofill">redit card management and auto-fill</a> are now enabled.</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Reader mode now works with local HTML pages.</span>
+    </li>
+    
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Using screen reader quick navigation to move to editable text controls no longer incorrectly reaches non-editable cells in some grids such as on messenger.com.</span>
+    </li>
+    
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>The Orca screen reader's mouse review feature now works correctly after switching tabs in Firefox.</span>
+    </li>
+    
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Screen readers no longer report column headers incorrectly in tables containing cells spanning multiple columns.</span>
+    </li>
+    
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Links in Reader View now have more color contrast.</span>
+    </li>
+    
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修補幾種不同的<a href="https://www.mozilla.org/security/advisories/mfsa2021-07/">安全弱點</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>On Linux and Android, the protection to mitigate the <a href="https://blog.llvm.org/posts/2021-01-05-stack-clash-protection/">stack clash attack</a> has been activated.</span>
+    </li>
+    
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>From Firefox 86 onward, DTLS 1.0 is no longer supported for establishing WebRTC's PeerConnections. All WebRTC services need to support DTLS 1.2 from now on as the minimum version.</span>
+    </li>
+    
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>Consolidated all video decoding in the new RDD process which results in a more secure Firefox.</span>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>多個 Bug 修復與新政策加入到最新的 Firefox 版本。您可在 <a href="https://support.mozilla.org/kb/firefox-enterprise-86-release-notes">Firefox 86 企業版版本資訊</a>找到更多資訊。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>CSS image-set() function in CSS is now enabled, allowing for responsive images in CSS.</span>
+    </li>
+    
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>Inactive CSS tool is now showing a warning when margin or padding is set on internal table elements. 這邊有一張圖要加</span>
+    </li>
+    
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>Developer Tools Toolbox is now showing a number of errors on the current page. This is a quick way to surface information to a developer that something is wrong with their page. Clicking on the red exclamation icon navigates the user to the Console panel. 這邊有一張圖要加</span>
+    </li>
+
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2085&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox85&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla85&v2=fixed,verified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
