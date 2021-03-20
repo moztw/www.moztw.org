@@ -23,7 +23,9 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <span>我們現在改善了網頁列印功能，有更乾淨的設計並更好的整合了您電腦上的印表機設定。（這邊有一張圖要加）</span>
+      <span>我們現在改善了網頁列印功能，有更乾淨的設計並更好的整合了您電腦上的印表機設定。</span>
+      <br>
+      <img alt="New print preview screenshot" src="print_preview.png">
     </li>
     
     <li>
@@ -88,12 +90,16 @@
     
     <li>
       <span class="tag tag-developer">開發功能</span>
-      <span>互動式的 CSS 工具現在在你設定 internal table element 的 margin 或 padding 屬性時會顯示警告訊息了。（這邊有一張圖要加）</span>
+      <span>互動式的 CSS 工具現在在你設定 internal table element 的 margin 或 padding 屬性時會顯示警告訊息了。</span>
+      <br>
+      <img alt="Inactive CSS screenshot" src="devtools_inactive_css.png">
     </li>
     
     <li>
       <span class="tag tag-developer">開發功能</span>
-      <span>開發者工具箱現在會在當前的頁面上顯示總共有幾個錯誤。這可以加速訊息浮現，讓開發者得知當前的頁面可能有些問題。點擊紅色驚嘆號會將使用者帶到 Console 面板。（這邊有一張圖要加）</span>
+      <span>開發者工具箱現在會在當前的頁面上顯示總共有幾個錯誤。這可以加速訊息浮現，讓開發者得知當前的頁面可能有些問題。點擊紅色驚嘆號會將使用者帶到 Console 面板。</span>
+      <br>
+      <img alt="Develeoper tools: screenshot of number of errors" src="devtools_show_errors.png">
     </li>
 
   </ul>
