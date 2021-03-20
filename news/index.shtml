@@ -13,9 +13,24 @@
 </ul><!-- start tag is in inc/news.html, DO NOT REMOVE -->
 <h1>過去的公告記錄</h1>
 
+<h3>2021</h3>
+
+<ul class="news">
+  <li><div class="date"> 1 月 7</div>
+    <a href="/firefox/releases/84.0.2/">Firefox 84.0.2</a> 更新</li>
+</ul>
+
 <h3>2020</h3>
 
 <ul class="news">
+  <li><div class="date"> 1 月 7</div>
+    <a href="/firefox/releases/84.0.2/">Firefox 84.0.2</a> 更新</li>
+  <li><div class="date"> 12 月 23</div>
+    <a href="/firefox/releases/84.0.1/">Firefox 84.0.1</a> 更新</li>
+  <li><div class="date"> 12 月 17</div>
+    <a href="/firefox/releases/84.0/">Firefox 84.0</a> 更新</li>
+  <li><div class="date"> 11 月 18</div>
+    <a href="/firefox/releases/83.0/">Firefox 83.0</a> 更新</li>
   <li><div class="date"> 10 月 29</div>
     <a href="/firefox/releases/82.0.2/">Firefox 82.0.2</a> 更新</li>
   <li><div class="date"> 10 月 28</div>

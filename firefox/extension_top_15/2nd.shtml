@@ -12,8 +12,8 @@
 <script type="application/x-javascript">
 var dupArray=new Array(
 	["新同文堂 0.3.8.8", "新同文堂 0.3.9.1"]
-	); 
-// 相衝套件 name, 這個可以設定多組, 應該要讓 Script 自己去 
+	);
+// 相衝套件 name, 這個可以設定多組, 應該要讓 Script 自己去
 // assign event handler 給每個 input 比較有效率, 以後再說吧
 
 // 第一個參數：要比對的 dupArray 群組
@@ -46,11 +46,11 @@ function doInstall(){
 
 	if (tongwenObj.checked) {
 		if (jslibObj.checked == true) return;
-	
+
 		if (confirm("同文堂系列必須先安裝 jslib (另一組程式用的套件)，如果您不確定是否已安裝，請務必連同 jslib 一起安裝。\n\n您是否要一併選取 jslib？"))
 			jslibObj.checked = true;
 	}else{
-		jslibObj.checked = false; //一併取消 jslib... 好還是不好就不管了 =.= 
+		jslibObj.checked = false; //一併取消 jslib... 好還是不好就不管了 =.=
 	}
 }*/
 
@@ -66,28 +66,28 @@ function hidden_descript(obj) {
 </script>
 
 	<div class="key-point">
-	
+
 <div id="product-desc" class="active-extensiontop15">
-	
+
 <h2>第三屆 Top 15 已經開始票選！</h2>
 <p>您心目中的最佳套件，在 Firefox 3 出爐後的一陣更新是否有所變更？快來票選<a href="http://forum.moztw.org/viewtopic.php?t=23623">第三屆 MozTW 社群嚴選套件</a>、把你的最愛推薦給大家！</p>
 <hr/>
 <p>想試試大家在 2006 年票選的最佳套件嗎？勾選套件的「列入安裝清單」後，按下頁尾的「安裝這些套件」便可一次安裝喔！您必須以 Firefox 觀看本頁才能安裝這些套件。</p>
-			<div><form name="hide_desc"><label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;"><input id="hidden_desc" value="true" type="checkbox" onclick="hidden_descript(this)">進階選項：隱藏套件說明及相關連結</label></form></div> 
-			
-			</div> 
+			<div><form name="hide_desc"><label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;"><input id="hidden_desc" value="true" type="checkbox" onclick="hidden_descript(this)">進階選項：隱藏套件說明及相關連結</label></form></div>
+
+			</div>
 		<div id="product-side">
 
 <div class="download">
 				<h3>下載 Firefox 中文版</h3>
-			<!--#if expr="" --><!-- point to .shtml while test locally --><!--#endif -->
+			<!--#comment NOTE: Point to .shtml while test locally -->
 			<!--#include virtual="/inc/dlff.html" -->
 	</div><ul>
 			<li><a class="ancilliaryLink" href="/firefox/">Firefox 中文版介紹</a></li>
 			<li><a class="ancilliaryLink" href="http://forum.moztw.org/viewforum.php?f=11">MozTW 擴充套件討論區</a></li>
                         </ul>
-			
-	
+
+
 </div>
 	</div>
 	<form name="select_and_install" onsubmit="doInstall(); return false;">
@@ -118,7 +118,7 @@ function hidden_descript(obj) {
 <!--	<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂" value="http://forum.moztw.org/download.php?id=3295" type="checkbox">列入安裝清單</label>-->
 	<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂 0.3.8.8" value="http://rt.openfoundry.org/Foundry/Project/Download/Attachment/91957/63271/tongwen_0.3.8.8.xpi" type="checkbox" onclick="return checkDup(0, this.name)">版本 0.3.8.8（供 Firefox 2.0 使用）</label>
 	<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂 0.3.9.1" value="http://rt.openfoundry.org/Foundry/Project/Download/Attachment/98215/66594/tongwen_0.3.9.1.xpi" type="checkbox" onclick="return checkDup(0, this.name)">測試版本 0.3.9.1（供 Firefox 3.0 使用）</label>
-	
+
 	</div>
 	<blockquote>「一個好用又簡單的繁簡轉換，還有提供「自動轉換」、「網址過濾」、「文字縮放」等好用的功能！」<cite>--社群成員 janson04</cite></blockquote>
 	<p>同文堂能把網頁上的簡體字轉為繁體（或繁體轉簡體）。</p>
@@ -281,7 +281,7 @@ function hidden_descript(obj) {
 	<p>使 Firefox 能直接於分頁連上 BBS。</p>
 	<p>這裡提供的是 <a href="http://forum.moztw.org/viewtopic.php?p=128271#128271">ptt 使用者 neopro 所開發的測試版</a>。</p>
 	<!--<p>這裡提供的是 <a href="http://forum.moztw.org/viewtopic.php?t=13766#73613">Milx 製作、evascat2 打包的社群修改版</a>，使畫面置中並加入選項視窗。</p>-->
-	
+
 	</div>
 	<h3 id="forecastfox">No.14 Forecastfox™ 0.9.7.6</h3>
 	<div class="extension-info">
@@ -317,11 +317,11 @@ function hidden_descript(obj) {
 	</div>
 	<div class="download">
 	<h3>我要試試這些套件！</h3>
-	
+
 	<span style="display:block; text-align: right; position: relative; top: -2.2em;"><input value="安裝套件" type="submit" id="install-extensions"></span>
-	      <ul> 
-<li>如果您按下「安裝套件」卻無反應，請依序按下上方淡黃色訊息列之「編輯選項」、「允許」、「確定」以便將 moztw.org 
-加入信任網站，再行按下「安裝套件」鈕。</li> 
+	      <ul>
+<li>如果您按下「安裝套件」卻無反應，請依序按下上方淡黃色訊息列之「編輯選項」、「允許」、「確定」以便將 moztw.org
+加入信任網站，再行按下「安裝套件」鈕。</li>
 <li>此服務提供目前（2008/7/5）最新套件，所有套件皆由作者提供。請參閱相關訊息後再行安裝，並自負責任。</li>
 <!--<li>亦可參考由社群成員蕭易玄所製作的 <a href="http://forum.moztw.org/viewtopic.php?t=6243">Firefox PowerPack 4 特別版</a>。</li>-->
       </ul>
@@ -364,10 +364,10 @@ function hidden_descript(obj) {
  	</ol>
       <h3>活動記實</h3>
       <ul>
- 
+
 <li>主辦：社群成員孫偉倫</li>
       <li>活動期間：2006/03/28 - 04/10</li>
- 
+
 <li>總投票人數：223 人</li>
       </ul>
 <!--      <h3>感謝</h3>

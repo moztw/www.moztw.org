@@ -1,0 +1,121 @@
+<!--#set var="release_date" value="2021-02-23" -->
+<!--#set var="version" value="86.0" -->
+<!--#set var="previous_version" value="85.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>Firefox 現在 <a href="https://support.mozilla.org/kb/about-picture-picture-firefox">支援</a> 以子母畫面模式 <a href="https://blog.mozilla.org/blog/2021/02/23/latest-firefox-release-includes-multiple-picture-in-picture-and-total-cookie-protection/">同時觀賞數個影片。</a></span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>今天，Firefox 加入了 <a href="https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/">Total Cookie Protection</a> 到 Strict 模式中。 在 Total Cookie Protection 裡，每個網站都會有它自己的「餅乾罐（cookie jar）」， <a href="https://support.mozilla.org/kb/third-party-trackers">避免 Cookie 被用於在您瀏覽不同網站時進行跨網站追蹤</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>我們現在改善了網頁列印功能，呈現更乾淨的設計，並與您電腦上的印表機設定整合的更好了。</span>
+      <br>
+      <img alt="New print preview screenshot" src="print_preview.png">
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>現在加拿大的 Firefox 使用者可以使用 <a href="https://support.mozilla.org/kb/credit-card-autofill">信用卡管理及自動填入功能</a> 了</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>閱讀模式現在可以開啟本機上的 HTML 頁面。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>使用螢幕閱讀器 quick navigation 來快速移動到可編輯的文字控制區塊時，再也不會於某些 grid 中錯誤的移動到無法編輯的文字區塊，比方說在 messenger.com 上時。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>Orca 螢幕閱讀器的游標預覽（mouse review）功能，現在在 Firefox 切換分頁後可以正常運作了。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>在有橫跨多個欄位的儲存格的表格上，螢幕閱讀器回報欄位標題時再也不會發生錯誤。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>閱讀模式上的連結現在有更佳的顏色對比度。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修補幾種不同的<a href="https://www.mozilla.org/security/advisories/mfsa2021-07/">安全弱點</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>在 Linux 和 Android 上，阻擋 <a href="https://blog.llvm.org/posts/2021-01-05-stack-clash-protection/">stack clash attack</a> 的防護功能已被啟動。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>從 Firefox 86 開始，WebRTC PeerConnections 已經不再支援 DTLS 1.0 了。從現在起，所有 WebRTC 服務將必須要至少支援 DTLS 1.2。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>所有影像解碼都被整合到 RDD 程序中，這使得 Firefox 更加安全。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>多個 Bug 修復與新政策加入到最新的 Firefox 版本。您可在 <a href="https://support.mozilla.org/kb/firefox-enterprise-86-release-notes">Firefox 86 企業版版本資訊</a>找到更多資訊。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/86">Firefox 86 for developers 開發者資訊</a></span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>CSS: CSS 中的 image-set() 函數已經啟用，讓 CSS 中圖片的反應可以更快。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>非作用中的 CSS 工具上，現在在你設定 internal table element 的 margin 或 padding 屬性時會顯示警告訊息。</span>
+      <br>
+      <img alt="Inactive CSS screenshot" src="devtools_inactive_css.png">
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>開發者工具箱現在會顯示當前的頁面上總共有幾個錯誤。這可以加速訊息浮現，讓開發者得知當前的頁面可能有些問題。點擊紅色驚嘆號，會將使用者帶到 Console 面板。</span>
+      <br>
+      <img alt="Develeoper tools: screenshot of number of errors" src="devtools_show_errors.png">
+    </li>
+
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2086&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox86&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla86&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

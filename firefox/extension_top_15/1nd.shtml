@@ -19,8 +19,8 @@ var dupArray=new Array(
 	["Download Status Bar","Download Status Bar 中文修改版"],
 	["Web Developer","Web Developer 中文修改版"],
 	["All-in-One Gestures Extension","All-in-One Gestures Extension 中文修改版"]
-	); 
-// 相衝套件 name, 這個可以設定多組, 應該要讓 Script 自己去 
+	);
+// 相衝套件 name, 這個可以設定多組, 應該要讓 Script 自己去
 // assign event handler 給每個 input 比較有效率, 以後再說吧
 
 // 第一個參數：要比對的 dupArray 群組
@@ -53,11 +53,11 @@ function doInstall(){
 
 	if (tongwenObj.checked) {
 		if (jslibObj.checked == true) return;
-	
+
 		if (confirm("同文堂系列必須先安裝 jslib (另一組程式用的套件)，如果您不確定是否已安裝，請務必連同 jslib 一起安裝。\n\n您是否要一併選取 jslib？"))
 			jslibObj.checked = true;
 	}else{
-		jslibObj.checked = false; //一併取消 jslib... 好還是不好就不管了 =.= 
+		jslibObj.checked = false; //一併取消 jslib... 好還是不好就不管了 =.=
 	}
 }*/
 
@@ -73,28 +73,28 @@ function hidden_descript(obj) {
 </script>
 
 	<div class="key-point">
-	
+
 <div id="product-desc" class="active-extensiontop15">
-	
+
 <h2>Firefox 擴充套件 Top 15</h2>
 			<p>在你心目中最棒的 Firefox 擴充套件是哪些呢？現在就來看看社群成員在 2005 年一月共同推舉的十五個最佳幫手！</p>
 			<p>想親自試試嗎？勾選套件的「列入安裝清單」後，按下頁尾的「安裝這些套件」便可一次安裝喔！您必須以 Firefox 觀看本頁才能安裝這些套件。</p>
 			<p style="color:red">配合 Firefox 1.5 釋出，此處套件更新為支援 1.5 的新版本。</p>
-			<div><form name="hide_desc"><label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;"><input id="hidden_desc" value="true" type="checkbox" onclick="hidden_descript(this)">進階選項：隱藏套件說明及相關連結</label></form></div> 
-			
-			</div> 
+			<div><form name="hide_desc"><label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;"><input id="hidden_desc" value="true" type="checkbox" onclick="hidden_descript(this)">進階選項：隱藏套件說明及相關連結</label></form></div>
+
+			</div>
 		<div id="product-side">
 
 <div class="download">
 				<h3>下載 Firefox 中文版</h3>
-		<!--#if expr="" --><!-- point to .shtml while test locally --><!--#endif -->
+		<!--#comment NOTE: Point to .shtml while test locally -->
 		<!--#include virtual="/inc/dlff.html" -->
 	</div><ul>
 			<li><a class="ancilliaryLink" href="/firefox/">Firefox 中文版介紹</a></li>
 			<li><a class="ancilliaryLink" href="http://forum.moztw.org/viewforum.php?f=11">Mozilla Taiwan 擴充套件討論區</a></li>
                         </ul>
-			
-	
+
+
 </div>
 	</div>
 	<form name="select_and_install" onsubmit="doInstall(); return false;">
@@ -319,11 +319,11 @@ function hidden_descript(obj) {
 	</div>
 	<div class="download">
 	<h3>我要試試這些套件！</h3>
-	
+
 	<span style="display:block; text-align: right; position: relative; top: -2.2em;"><input value="安裝套件" type="submit" id="install-extensions"></span>
-	      <ul> 
-<li>如果您按下「安裝套件」卻無反應，請依序按下上方淡黃色訊息列之「編輯選項」、「允許」、「確定」以便將 moztw.org 
-加入信任網站，再行按下「安裝套件」鈕。</li> 
+	      <ul>
+<li>如果您按下「安裝套件」卻無反應，請依序按下上方淡黃色訊息列之「編輯選項」、「允許」、「確定」以便將 moztw.org
+加入信任網站，再行按下「安裝套件」鈕。</li>
 <li>此服務提供目前（2006/01/23）最新套件，所有套件皆由作者提供。請參閱相關訊息後再行安裝，並自負責任。</li>
 <!--<li>亦可參考由社群成員蕭易玄所製作的 <a href="http://forum.moztw.org/viewtopic.php?t=6243">Firefox PowerPack 4 特別版</a>。</li>-->
       </ul>
@@ -348,22 +348,22 @@ function hidden_descript(obj) {
     </div>
     <h3>擴充套件 Top 15 名單</h3>
 	      <ol>
-	     <li>(150 票) Tongwen 同文堂  </li> 
-<li>(135 票) FlashGot </li> <li>(131 票) IEView </li> <li>(122 票) Adblock 
-</li> <li>(99 票) All-in-One Gestures Extension </li> 
-<li>(97 票) Tab Mix (原 TBP Lite Repackaged) </li> <li>(87 票) Super Drag 
-and Go </li> <li>(81 票) Right Encoding </li> <li>(70 票) Tabbrowser 
-Extensions (TBE) </li> <li>(67 票) ScrapBook </li> <li>(63 票) Web 
-Developer </li> <li value="11">(63 票) ForecastFox </li> <li 
-value="13">(61 票) Sage </li> <li>(51 票) Download Status Bar </li> 
+	     <li>(150 票) Tongwen 同文堂  </li>
+<li>(135 票) FlashGot </li> <li>(131 票) IEView </li> <li>(122 票) Adblock
+</li> <li>(99 票) All-in-One Gestures Extension </li>
+<li>(97 票) Tab Mix (原 TBP Lite Repackaged) </li> <li>(87 票) Super Drag
+and Go </li> <li>(81 票) Right Encoding </li> <li>(70 票) Tabbrowser
+Extensions (TBE) </li> <li>(67 票) ScrapBook </li> <li>(63 票) Web
+Developer </li> <li value="11">(63 票) ForecastFox </li> <li
+value="13">(61 票) Sage </li> <li>(51 票) Download Status Bar </li>
 <li>(47 票) Show Image </li>
 	      </ol>
       <h3>活動記實</h3>
       <ul>
- 
+
 <li>主辦：社群成員蕭易玄、趙柏強</li>
       <li>活動期間：2005/01/01 - 01/22</li>
- 
+
 <li>總投票人數：249 人</li>
 <li>每人最多 15 票，平均每人投 9 票</li>
       </ul>
