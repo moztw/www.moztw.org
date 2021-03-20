@@ -14,27 +14,27 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Prevent access to NTFS special paths that could lead to filesystem corruption.</span>
+      <span>禁止訪問可能導致文件系統損壞的 NTFS 特殊路徑。</span>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Fixed a crash when authenticating to websites using SPNEGO on macOS devices with Apple Silicon CPUs (<a href="https://bugzilla.mozilla.org/1685427">bug 1685427</a>).</span>
+      <span>修復了在具有 Apple Silicon CPU 的 macOS 設備上使用 SPNEGO 對網站進行身份驗證時崩潰的問題 (<a href="https://bugzilla.mozilla.org/1685427">bug 1685427</a>)。</span>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Avoid printing an extra blank page at the end of some documents (<a href="https://bugzilla.mozilla.org/1689789">bug 1689789</a>).</span>
+      <span>避免在某些文檔的末尾打印多餘的空白頁 (<a href="https://bugzilla.mozilla.org/1689789">bug 1689789</a>)。</span>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Fixed a browser crash in case of unexpected Cache API state (<a href="https://bugzilla.mozilla.org/1684838">bug 1684838</a>)./span>
+      <span>修復了意外的 Cache API 狀態時瀏覽器崩潰的問題 (<a href="https://bugzilla.mozilla.org/1684838">bug 1684838</a>)。</span>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Fixed external URL scheme handlers when using the <a href="https://flathub.org/apps/details/org.mozilla.firefox">Firefox flatpak</a> (<a href="https://bugzilla.mozilla.org/1688966">bug 1688966</a>)</span>
+      <span>修復了使用 <a href="https://flathub.org/apps/details/org.mozilla.firefox">Firefox flatpak</a> 時的外部 URL 方案處理程序 (<a href="https://bugzilla.mozilla.org/1688966">bug 1688966</a>)。</span>
     </li>
   </ul>
 
