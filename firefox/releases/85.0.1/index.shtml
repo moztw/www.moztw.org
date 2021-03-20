@@ -24,17 +24,17 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>避免在某些文檔的末尾打印多餘的空白頁 (<a href="https://bugzilla.mozilla.org/1689789">bug 1689789</a>)。</span>
+      <span>避免在某些文件的末尾會列印出多餘的空白頁 (<a href="https://bugzilla.mozilla.org/1689789">bug 1689789</a>)。</span>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>修復了意外的 Cache API 狀態時瀏覽器崩潰的問題 (<a href="https://bugzilla.mozilla.org/1684838">bug 1684838</a>)。</span>
+      <span>修復了非預期的 Cache API 狀態導致瀏覽器崩潰的問題 (<a href="https://bugzilla.mozilla.org/1684838">bug 1684838</a>)。</span>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>修復了使用 <a href="https://flathub.org/apps/details/org.mozilla.firefox">Firefox flatpak</a> 時的外部 URL 方案處理程序 (<a href="https://bugzilla.mozilla.org/1688966">bug 1688966</a>)。</span>
+      <span>修復了使用 <a href="https://flathub.org/apps/details/org.mozilla.firefox">Firefox flatpak</a> 時的外部 URL scheme 處理程序 (<a href="https://bugzilla.mozilla.org/1688966">bug 1688966</a>)。</span>
     </li>
   </ul>
 
