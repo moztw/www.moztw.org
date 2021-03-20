@@ -13,27 +13,27 @@
     
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Fixed an issue on Apple Silicon machines that caused Firefox to be unresponsive after system sleep (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1682713">bug 1682713</a>)</span>
+      <span>修正了 Apple Silicon 晶片裝置上導致 Firefox 在系統休眠之後沒有反應的問題。 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1682713">bug 1682713</a>)</span>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Fixed an issue causing windows to gain or lose focus unexpectedly (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1694927">bug 1694927</a>)</span>
+      <span>修正了視窗意外獲取或失去焦點的問題。 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1694927">bug 1694927</a>)</span>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Fixed truncation of date and time widgets due to incorrect width calculation (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1695578">bug 1695578</a>)</span>
+      <span>修正寬度運算錯誤導致日期和時間選擇器 (date and time widget) 被裁切的問題。 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1695578">bug 1695578</a>)</span>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Fixed an issue causing unexpected behavior with extensions managing tab groups (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1694699">bug 1694699</a>)</span>
+      <span>修正導致分頁管理擴充套件行為異常的問題。 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1694699">bug 1694699</a>)</span>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <span>Fixed a frequent Linux crash on browser launch (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1694670">bug 1694670</a>)</span>
+      <span>修正 Linux 開啟瀏覽器時時常 crash 的問題。 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1694670">bug 1694670</a>)</span>
     </li>
 
   </ul>
