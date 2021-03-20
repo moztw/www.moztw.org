@@ -18,7 +18,7 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <span>今天，Firefox 在加強型追蹤保護的「嚴格」模式中加入了 <a href="https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/">Total Cookie Protection</a> 功能。在 Total Cookie Protection 裡，每個網站都會有它自己的「餅乾罐（cookie jar）」， <a href="https://support.mozilla.org/kb/third-party-trackers">在您瀏覽不同網站時，避免 Cookie 被用於跨網站追蹤</a>。</span>
+      <span>今天，Firefox 在加強型追蹤保護的「嚴格」模式中加入了 <a href="https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/">Total Cookie Protection</a> 功能。在 Total Cookie Protection 裡，每個網站都會有它自己的「餅乾罐（cookie jar）」，在您瀏覽不同網站時，<a href="https://support.mozilla.org/kb/third-party-trackers">避免 Cookie 被用於跨網站追蹤</a>。</span>
     </li>
 
     <li>
