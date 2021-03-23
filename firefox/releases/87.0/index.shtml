@@ -1,0 +1,112 @@
+<!--#set var="release_date" value="2021-03-23" -->
+<!--#set var="version" value="87.0" -->
+<!--#set var="previous_version" value="86.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>You’ll encounter less website breakage in Private Browsing and Strict Enhanced Tracking Protection with <a href="https://blog.mozilla.org/security/2021/03/23/introducing-smartblock/">SmartBlock</a>, which provides stand-in scripts so that websites load properly.</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>To further protect your privacy, our new <a href="https://blog.mozilla.org/security/2021/03/22/firefox-87-trims-http-referrers-by-default-to-protect-user-privacy/">default HTTP Referrer policy</a> will trim path and query string information from referrer headers to prevent sites from accidentally leaking sensitive user data.</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>The “Highlight All” feature on Find in Page now displays tick marks alongside your scrollbar that correspond to the location of matches found on that page.</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>We’re proud to announce full support for macOS built-in screen reader, <a href="https://blog.mozilla.org/accessibility/voiceover-support-for-macos-in-firefox-87/">VoiceOver</a>.</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>We’ve added a new locale: Silesian (szl)</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>We’ve fixed several significant accessibility issues:</span>
+        <ul>
+          <li>Video controls now have visible focus styling and video and audio controls are now keyboard navigable. (<a href="https://bugzilla.mozilla.org/1681007">Bug 1681007</a>) </li>
+          <li>HTML &lt;meter&gt; is now spoken by screen readers. (<a href="https://bugzilla.mozilla.org/1460378">Bug 1460378</a>) </li>
+          <li>Firefox now sets a useful initial focus in Add-ons Manager. (<a href="https://bugzilla.mozilla.org/580537">Bug 580537</a>) </li>
+          <li>Firefox will now fire a name/description change event when aria-labelledby/describedby content changes. (<a href="https://bugzilla.mozilla.org/493683">Bug 493683</a>)</li>
+        </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修補幾種不同的<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox87">安全弱點</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>To prevent user data loss when filling out forms, we’ve disabled the Backspace key as a navigation shortcut for the back navigation button. To re-enable the Backspace keyboard shortcut, you can change the about:config preference <code>browser.backspace_action</code> to 0. You can also use the recommended Alt + Left arrow (Command + Left arrow on Mac) shortcut instead.<br>
+        <a href="https://support.mozilla.org/kb/keyboard-shortcuts-perform-firefox-tasks-quickly">Firefox keyboard shortcuts</a></span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>We've removed items from the Library menu that weren't used often or have other access points in the browser: Synced tabs, Recent highlights, and Pocket list.</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>We've simplified the Help menu by reducing redundant items, such as those that point to Firefox support pages that can also be accessed via the Get Help item.</span>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>多個 Bug 修復與新政策加入到最新的 Firefox 版本。您可在 <a href="https://support.mozilla.org/kb/firefox-enterprise-87-release-notes">Firefox 87 企業版版本資訊</a>找到更多資訊。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>We've greatly simplified the Web Developer menu. Go to Application Menu &gt; Web Developer &gt; Web Developer Tools  to access Inspector, Web Console, Debugger, Network Style Error, Performance, Storage Inspector, Accessibility, and Application</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>Developers can now use the <a href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Examine_and_edit_CSS#view_media_rules_for_prefers-color-scheme">Page Inspector</a> to simulate <a href="https://developer.mozilla.org/docs/Web/CSS/@media/prefers-color-scheme">prefers-color-scheme</a> media queries, without having to change the operating system to light or dark mode.</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>Developers can now use the Page Inspector to toggle the <a href="https://developer.mozilla.org/docs/Web/CSS/:target"><code>:target</code></a> pseudo-class for the currently selected element in addition to the pseudo-classes that were previously supported: <a href="https://developer.mozilla.org/docs/Web/CSS/:hover"><code>:hover</code></a>, <a href="https://developer.mozilla.org/docs/Web/CSS/:active"><code>:active</code></a> and <a href="https://developer.mozilla.org/docs/Web/CSS/:focus"><code>:focus</code></a>, <a href="https://developer.mozilla.org/docs/Web/CSS/:focus-within"><code>:focus-within</code></a>, <a href="https://developer.mozilla.org/docs/Web/CSS/:focus-visible"><code>:focus-visible</code></a>, and <a href="https://developer.mozilla.org/docs/Web/CSS/:visited"><code>:visited</code></a>.</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>There is a number of Page Inspector improvements and bug fixes related to inactive CSS rules:</span>
+        <ul>
+          <li>The <a href="https://developer.mozilla.org/docs/Web/CSS/table-layout"><code>table-layout</code></a> property is now marked as inactive for non-table elements.</li>
+          <li>The <a href="https://developer.mozilla.org/docs/Web/CSS/scroll-padding"><code>scroll-padding</code></a> properties (shorthand and longhand) are now marked as inactive for non-scrollable elements.</li>
+          <li>The <a href="https://developer.mozilla.org/docs/Web/CSS/text-overflow"><code>text-overflow</code></a> property was previously incorrectly marked as inactive for some <a href="https://developer.mozilla.org/docs/Web/CSS/overflow"><code>overflow</code></a> values.</li>
+        </ul>
+    </li>
+
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2087&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox87&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla87&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
