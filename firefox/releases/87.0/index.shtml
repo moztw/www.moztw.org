@@ -1,0 +1,112 @@
+<!--#set var="release_date" value="2021-03-23" -->
+<!--#set var="version" value="87.0" -->
+<!--#set var="previous_version" value="86.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>在隱私視窗和<a href="https://blog.mozilla.org/security/2021/03/23/introducing-smartblock/">SmartBlock</a>中，您不會遇到網站破損的情況，該功能提供了替代腳本，可以使網站正確加載。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>為了進一步保護您的隱私，我們新的<a href="https://blog.mozilla.org/security/2021/03/22/firefox-87-trims-http-referrers-by-default-to-protect-user-privacy/">預設 HTTP Referrer 政策</a>將去除來自 Referrer 標頭的路徑和查詢字符串資訊，以防止站點意外洩漏敏感用戶數據。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>現在，「在頁面中搜尋」上的「強調全部」功能會在滾動條旁邊顯示刻度線，這些刻度線與在該頁面上找到的匹配項相對應。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>我們很自豪地宣布全面支持 macOS 內置螢幕閱讀器 <a href="https://blog.mozilla.org/accessibility/voiceover-support-for-macos-in-firefox-87/">VoiceOver</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <span>我們添加了一個新的語言環境：西里西亞語（szl）</span>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>我們修復了幾個重大的輔助功能問題：</span>
+        <ul>
+          <li>影像控制元件現在具有明顯的聚焦風格，並且影像和聲音控制元件現在可以透過鍵盤操控。 (<a href="https://bugzilla.mozilla.org/1681007">Bug 1681007</a>) </li>
+          <li>HTML &lt;meter&gt; 現在是由螢幕閱讀器唸出。 (<a href="https://bugzilla.mozilla.org/1460378">Bug 1460378</a>) </li>
+          <li>Firefox 現在在「附加元件管理員」中設置了一個實用的初始焦點。 (<a href="https://bugzilla.mozilla.org/580537">Bug 580537</a>) </li>
+          <li>現在，當 aria-labelledby/describedby 內容改變時，Firefox 將觸發一個 name/description 更動事件。 (<a href="https://bugzilla.mozilla.org/493683">Bug 493683</a>)</li>
+        </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修補幾種不同的<a href="https://www.mozilla.org/security/known-vulnerabilities/firefox/#firefox87">安全弱點</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>為了防止用戶在填寫表單時丟失數據，我們已將 Backspace 鍵禁用為後退導航按鈕的導航快捷方式。要重新啟用 Backspace 鍵盤快捷鍵，可以將 about:config 中的 <code>browser.backspace_action</code> 更改為 0。您也可以改用建議的 Alt +左​​箭頭（在 Mac 上為 Command +左箭頭）<br>
+        <a href="https://support.mozilla.org/kb/keyboard-shortcuts-perform-firefox-tasks-quickly">Firefox 鍵盤快捷鍵</a></span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>我們已從「收藏庫」選單中刪除了不常用的項目或瀏覽器中具有其他訪問點的項目：「同步的分頁」，「近期焦點」和「檢視 Pocket 清單」。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <span>我們刪減了「說明」選單，例如那些指向 Firefox 技術支援頁面的內容；這些內容仍可以透過「取得幫助」獲取。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>多個 Bug 修復與新政策加入到最新的 Firefox 版本。您可在 <a href="https://support.mozilla.org/kb/firefox-enterprise-87-release-notes">Firefox 87 企業版版本資訊</a>找到更多資訊。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>我們大幅簡化了網絡開發者選單。請改由 開啟選單&gt;網絡開發者&gt; 網路開發工具 來使用檢測器、主控台、除錯器、網路、樣式編輯器、效能、記憶體、儲存空間、輔助功能、應用程式。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>開發者現在可以使用<a href="https://developer.mozilla.org/docs/Tools/Page_Inspector/How_to/Examine_and_edit_CSS#view_media_rules_for_prefers-color-scheme">檢測器</a>模擬<a href="https://developer.mozilla.org/docs/Web/CSS/@media/prefers-color-scheme">prefers-color-scheme</a>，而不必將操作系統更改為亮或暗模式。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>除了以前支援的 <a href="https://developer.mozilla.org/docs/Web/CSS/:hover"><code>:hover</code></a>、<a href="https://developer.mozilla.org/docs/Web/CSS/:active"><code>:active</code></a>、<a href="https://developer.mozilla.org/docs/Web/CSS/:focus"><code>:focus</code></a>、<a href="https://developer.mozilla.org/docs/Web/CSS/:focus-within"><code>:focus-within</code></a>、<a href="https://developer.mozilla.org/docs/Web/CSS/:focus-visible"><code>:focus-visible</code></a> 和 <a href="https://developer.mozilla.org/docs/Web/CSS/:visited"><code>:visited</code></a> 這些 pseudo-classes 以外，開發者現在可以使用檢測器為當前選定的元素切換 <a href="https://developer.mozilla.org/docs/Web/CSS/:target"><code>:target</code></a> pseudo-class</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span>與無效 CSS 規則有關的檢測器改良及錯誤修復：</span>
+        <ul>
+          <li><a href="https://developer.mozilla.org/docs/Web/CSS/table-layout"><code>table-layout</code></a> 屬性對於 table 以外的元素會被標記為無用。</li>
+          <li><a href="https://developer.mozilla.org/docs/Web/CSS/scroll-padding"><code>scroll-padding</code></a> 屬性（縮寫和全稱）對於 non-scrollable 的元素會被標記為無用。</li>
+          <li><a href="https://developer.mozilla.org/docs/Web/CSS/text-overflow"><code>text-overflow</code></a> 屬性之前對一些 <a href="https://developer.mozilla.org/docs/Web/CSS/overflow"><code>overflow</code></a> 值會錯誤的顯示為無用。</li>
+        </ul>
+    </li>
+
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2087&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox87&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla87&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
