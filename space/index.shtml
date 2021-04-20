@@ -78,11 +78,11 @@
       <div class="grid-6">
         <p>摩茲工寮為多元且包容的空間，我們要求所有使用者同意並遵循 <a href="https://www.mozilla.org/zh-TW/about/governance/policies/participation/">Mozilla 社群參與準則</a>，尊重他人，一同維護任何人都能安心參與的環境。</p>
         <p>如果您在工寮中遭遇任何困擾，請立刻告知現場負責的 keyholder，或郵件聯絡 <a href="mailto:space@moztw.org">space @ moztw.org</a>。</p>
-        <p>本空間指定聯絡人為 <a href="https://mozillians.org/u/Irvin/">Irvin</a> 與 <a href="https://mozillians.org/u/bobchao/">BobChao</a>。</p>
+        <p>本空間指定聯絡人為 <a href="https://mozillians.org/en-US/u/Irvin/">Irvin</a> 與 <a href="https://mozillians.org/en-US/u/bobchao/">BobChao</a>。</p>
       </div>
       <div class="grid-6">
         <p>Mozilla Community Space Taipei is a diverse and inclusive place. We expect everyone to follow the <a href="https://www.mozilla.org/zh-TW/about/governance/policies/participation/">community participation guidelines</a> and be Respectful to others.</p>
-        <p>If you find any issues regards your participating, please notice the on site keyholder immidietely, or contact us <a href="mailto:space@moztw.org">via email</a>. The space's designated contact are <a href="https://mozillians.org/u/Irvin/">Irvin Chen</a> and <a href="https://mozillians.org/u/bobchao/">BobChao</a>.</p>
+        <p>If you find any issues regards your participating, please notice the on site keyholder immidietely, or contact us <a href="mailto:space@moztw.org">via email</a>. The space's designated contact are <a href="https://mozillians.org/en-US/u/Irvin/">Irvin Chen</a> and <a href="https://mozillians.org/en-US/u/bobchao/">BobChao</a>.</p>
       </div>
     </section>
 
@@ -144,31 +144,31 @@
       <div id="keyholders" class="grid-12">
         <h3>現任 Keyholders</h3>
         <ul class="clearfix">
-          <li><a href="https://mozillians.org/u/bobchao/" title="看 Po-chiang Bob Chao 的摩茲人資料"><img src="images/moz-bobchao.jpg" alt="Po-chiang Bob Chao"></a></li>
-          <li><a href="https://mozillians.org/u/Irvin/" title="看 Irvin Chen 的摩茲人資料"><img src="images/moz-Irvin.jpg" alt="Irvin Chen"></a></li>
-          <li><a href="https://mozillians.org/u/GDH_Fang/" title="看 chiung-Hui, Fang 的摩茲人資料"><img src="images/moz-GDH_Fang.jpg" alt="chiung-Hui, Fang"></a></li>
-          <li><a href="https://mozillians.org/u/mingtsay/" title="看 Ming Tsay 的摩茲人資料"><img src="images/moz-mingtsay.jpg" alt="Ming Tsay"></a></li>
-          <li><a href="https://mozillians.org/u/medicalwei/" title="看 Yao Wei 的摩茲人資料"><img src="images/moz-medicalwei.jpg" alt="Yao Wei"></a></li>
-          <li><a href="https://mozillians.org/u/RJ/" title="看 RJ Hsiao 的摩茲人資料"><img src="images/moz-RJ.jpg" alt="RJ Hsiao"></a></li>
-          <li><a href="https://mozillians.org/u/ettoolong/" title="看 Ett Chung 的摩茲人資料"><img src="images/moz-ettoolong.jpg" alt="Ett Chung"></a></li>
-          <li><a href="https://mozillians.org/u/freedman/" title="看 Freedman 的摩茲人資料"><img src="images/moz-freedman.svg" alt="Freedman"></a></li>
-          <li><a href="https://mozillians.org/u/chyuaner/" title="看 Yuan Chiu 的摩茲人資料"><img src="https://s.gravatar.com/avatar/2d6640facbfa0f2c584076385d53db3a?s=200" alt="Yuan Chiu"></a></li>
-          <li><a href="https://mozillians.org/u/lili668668/" title="看 Ballfish 的摩茲人資料"><img src="https://s.gravatar.com/avatar/86d3bee674f1962af04b0192f0c959f3?s=200" alt="Ballfish"></a></li>
-          <li><a href="https://mozillians.org/u/Alllen/" title="看 Allen Wang 的摩茲人資料"><img src="images/moz-allen.png" alt="Allen Wang"></a></li>
-          <li><a href="https://mozillians.org/u/hinotochen/" title="看 HinotoChen 的摩茲人資料"><img src="images/moz-hinotochen.jpg" alt="HinotoChen"></a></li>
-          <li><a href="https://mozillians.org/u/tsunalu/" title="看 Tsuna Lu 的摩茲人資料"><img src="images/moz-tsuna.jpg" alt="Tsuna Lu"></a></li>
+          <li><a href="https://people.mozilla.org/p/bobchao/" title="看 Po-chiang Chao 的摩茲人資料"><img src="images/moz-bobchao.jpg" alt="Po-chiang Chao"></a></li>
+          <li><a href="https://people.mozilla.org/p/irvin/" title="看 Irvin Chen 的摩茲人資料"><img src="images/moz-Irvin.jpg" alt="Irvin Chen"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/GDH_Fang/" title="看 chiung-Hui, Fang 的摩茲人資料"><img src="images/moz-GDH_Fang.jpg" alt="chiung-Hui, Fang"></a></li>
+          <li><a href="https://people.mozilla.org/p/mingtsay/" title="看 Ming Tsay 的摩茲人資料"><img src="images/moz-mingtsay.jpg" alt="Ming Tsay"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/medicalwei/" title="看 Yao Wei 的摩茲人資料"><img src="images/moz-medicalwei.jpg" alt="Yao Wei"></a></li>
+          <li><a href="https://people.mozilla.org/p/rj_hsiao" title="看 RJ 的摩茲人資料"><img src="images/moz-RJ.jpg" alt="RJ"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/ettoolong/" title="看 Ett Chung 的摩茲人資料"><img src="images/moz-ettoolong.jpg" alt="Ett Chung"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/freedman/" title="看 Freedman 的摩茲人資料"><img src="images/moz-freedman.svg" alt="Freedman"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/chyuaner/" title="看 Yuan Chiu 的摩茲人資料"><img src="https://s.gravatar.com/avatar/2d6640facbfa0f2c584076385d53db3a?s=200" alt="Yuan Chiu"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/lili668668/" title="看 Ballfish 的摩茲人資料"><img src="https://s.gravatar.com/avatar/86d3bee674f1962af04b0192f0c959f3?s=200" alt="Ballfish"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/Alllen/" title="看 Allen Wang 的摩茲人資料"><img src="images/moz-allen.png" alt="Allen Wang"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/hinotochen/" title="看 HinotoChen 的摩茲人資料"><img src="images/moz-hinotochen.jpg" alt="HinotoChen"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/tsunalu/" title="看 Tsuna Lu 的摩茲人資料"><img src="images/moz-tsuna.jpg" alt="Tsuna Lu"></a></li>
         </ul>
         <h3>畢業生 Alumni</h3>
         <ul class="clearfix">
-          <li><a href="https://mozillians.org/u/wpan/" title="看 Wei-Cheng Pan 的摩茲人資料"><img src="//secure.gravatar.com/avatar/8404e9b516233e6f2fdb0a21fac2848e?s=150x150" alt="Wei-Cheng Pan"></a></li>
-          <li><a href="https://mozillians.org/u/wildsky/" title="看 Wildsky 的摩茲人資料"><img src="images/moz-wildsky.jpg" alt="Wildsky"></a></li>
-          <li><a href="https://mozillians.org/u/shangkuanlc/" title="看 Liang-chih ShangKuan 的摩茲人資料"><img src="images/moz-shangkuanlc.jpg" alt="Liang-chih ShangKuan"></a></li>
-          <li><a href="https://mozillians.org/u/fourdollars/" title="看 Shih-Yuan Lee 的摩茲人資料"><img src="//www.gravatar.com/avatar/60a42aadf0f45d6810734a477b36700b?s=200" alt="Shih-Yuan Lee"></a></li>
-          <li><a href="https://mozillians.org/u/ernestchiang/" title="看 Ernest Chiang (Deng-Wei) 的摩茲人資料"><img src="images/moz-ernestchiang.jpg" alt="Ernest Chiang (Deng-Wei)"></a></li>
-          <li><a href="https://mozillians.org/u/orin/" title="看 Orin Chen 的摩茲人資料"><img src="images/moz-orin.jpg" alt="Orin Chen"></a></li>
-          <li><a href="https://mozillians.org/u/petercpg/" title="看 Pin-guang Chen 的摩茲人資料"><img src="images/moz-petercpg.jpg" alt="Pin-guang Chen"></a></li>
-          <li><a href="https://mozillians.org/u/veloci85/" title="看 Vel Chen 的摩茲人資料"><img src="images/moz-veloci85.jpeg" alt="Vel Chen"></a></li>
-          <li><a href="https://mozillians.org/u/shadowcrow/" title="看 Ying ui, Lora chen 的摩茲人資料"><img src="images/moz-shadowcrow.jpg" alt="Ying ui, Lora chen"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/wpan/" title="看 Wei-Cheng Pan 的摩茲人資料"><img src="//secure.gravatar.com/avatar/8404e9b516233e6f2fdb0a21fac2848e?s=150x150" alt="Wei-Cheng Pan"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/wildsky/" title="看 Wildsky 的摩茲人資料"><img src="images/moz-wildsky.jpg" alt="Wildsky"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/shangkuanlc/" title="看 Liang-chih ShangKuan 的摩茲人資料"><img src="images/moz-shangkuanlc.jpg" alt="Liang-chih ShangKuan"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/fourdollars/" title="看 Shih-Yuan Lee 的摩茲人資料"><img src="//www.gravatar.com/avatar/60a42aadf0f45d6810734a477b36700b?s=200" alt="Shih-Yuan Lee"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/ernestchiang/" title="看 Ernest Chiang (Deng-Wei) 的摩茲人資料"><img src="images/moz-ernestchiang.jpg" alt="Ernest Chiang (Deng-Wei)"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/orin/" title="看 Orin Chen 的摩茲人資料"><img src="images/moz-orin.jpg" alt="Orin Chen"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/petercpg/" title="看 Pin-guang Chen 的摩茲人資料"><img src="images/moz-petercpg.jpg" alt="Pin-guang Chen"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/veloci85/" title="看 Vel Chen 的摩茲人資料"><img src="images/moz-veloci85.jpeg" alt="Vel Chen"></a></li>
+          <li><a href="https://web.archive.org/web/https://mozillians.org/en-US/u/shadowcrow/" title="看 Ying ui, Lora chen 的摩茲人資料"><img src="images/moz-shadowcrow.jpg" alt="Ying ui, Lora chen"></a></li>
         </ul>
       </div>
     </section>
