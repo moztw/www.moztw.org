@@ -16,6 +16,12 @@
 <h3>2021</h3>
 
 <ul class="news">
+  <li><div class="date"> 2 月 9</div>
+    <a href="/firefox/releases/85.0.2/">Firefox 85.0.2</a> 更新</li>
+  <li><div class="date"> 2 月 5</div>
+      <a href="/firefox/releases/85.0.1/">Firefox 85.0.1</a> 更新</li>
+  <li><div class="date"> 1 月 27</div>
+    <a href="/firefox/releases/85.0/">Firefox 85.0</a> 更新</li>
   <li><div class="date"> 1 月 7</div>
     <a href="/firefox/releases/84.0.2/">Firefox 84.0.2</a> 更新</li>
 </ul>
@@ -23,8 +29,6 @@
 <h3>2020</h3>
 
 <ul class="news">
-  <li><div class="date"> 1 月 7</div>
-    <a href="/firefox/releases/84.0.2/">Firefox 84.0.2</a> 更新</li>
   <li><div class="date"> 12 月 23</div>
     <a href="/firefox/releases/84.0.1/">Firefox 84.0.1</a> 更新</li>
   <li><div class="date"> 12 月 17</div>
