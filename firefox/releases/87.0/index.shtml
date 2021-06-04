@@ -7,10 +7,6 @@
 <article id="whatsnew" class="module">
   <h2>Firefox 新鮮事</h2>
   <ul class="tags">
-    <li class="untagged">
-      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
-    </li>
-
     <li>
       <span class="tag tag-new">全新功能</span>
       <span>在隱私視窗及加強型追蹤保護的「嚴格」模式下，<a href="https://blog.mozilla.org/security/2021/03/23/introducing-smartblock/">SmartBlock</a> 會減少您遇到網站破損的情況。該功能提供了替代腳本，使網站可以正確載入。</span>
