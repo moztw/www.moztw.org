@@ -16,13 +16,13 @@
       <p>向全新的 Firefox 説嗨！設計來讓你更快地抵達想去的地方。我們重新設計了核心體驗，更加現代化、迷人、容易使用。</p>
       <p>從 89 開始，你會注意到以下變化：</p>
       <p><strong>簡化的瀏覽器介面與工具列</strong>： 移除較為少用的項目，聚焦在瀏覽上更重要的物件。</p>
-      <p><img alt="（螢幕截圖）簡化的瀏覽器介面與工具列" src="/media/img/firefox/releasenotes/note-images/proton_simplified_chrome.png"></p>
+      <p><img alt="（螢幕截圖）簡化的瀏覽器介面與工具列" src="proton_simplified_chrome.png"></p>
       <p><strong>乾淨、簡化的選單</strong>：根據使用狀態重新排序選單內容。更新標籤文字並移除圖示。</p>
-      <p><img alt="（螢幕截圖）乾淨、簡化的選單" src="/media/img/firefox/releasenotes/note-images/proton_clear_menu.png"></p>
+      <p><img alt="（螢幕截圖）乾淨、簡化的選單" src="proton_clear_menu.png"></p>
       <p><strong>更新提示框（prompts）</strong>：資訊列（infobar）、面板（panel）與對話框（modal）有更乾淨的設計與明確的用語。</p>
-      <p><img alt="Updated prompts screenshot" src="/media/img/firefox/releasenotes/note-images/proton_updated_prompts.png"></p>
+      <p><img alt="Updated prompts screenshot" src="proton_updated_prompts.png"></p>
       <p><strong>啟發的分頁設計</strong>：浮動的分頁內含整齊的資訊與在你需要時出現的介面提示，如聲音控制的視覺指引。四方形的設計凸顯焦點，並提示可以隨需輕易的移動分頁。</p>
-      <p><img alt="Inspired tab design screenshot" src="/media/img/firefox/releasenotes/note-images/proton_inspired_tab_design.png"></p>
+      <p><img alt="Inspired tab design screenshot" src="proton_inspired_tab_design.png"></p>
       <p><strong>更少干擾</strong>：減少警示與訊息的數量，讓你瀏覽時更加專心。</p>
       <p><strong>更凝聚、安靜的視覺</strong>：較淡的圖示、改善的調色盤、更加一致的樣式。</p>
       <p>本版本同時強化了以下隱私功能：</p>
@@ -42,7 +42,7 @@
     <li>
       <span class="tag tag-new">全新功能</span>
       <p><strong>原生的右鍵選單</strong>：macOS 上的右鍵選單現在改用原生的介面，並支援深色模式。</p>
-      <p><img alt="（螢幕截圖）macOS 原生的右鍵選單" src="/media/img/firefox/releasenotes/note-images/native_macos_context_menus.png"></p>
+      <p><img alt="（螢幕截圖）macOS 原生的右鍵選單" src="native_macos_context_menus.png"></p>
     </li>
 
     <li>
