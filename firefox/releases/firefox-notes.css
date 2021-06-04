@@ -218,7 +218,7 @@
     -moz-border-radius-topleft: 6px;
     -moz-border-radius-bottomleft: 6px;
     border-top-left-radius: 6px;
-    border-bottom-left-radius: 6px; 
+    border-bottom-left-radius: 6px;
 }
 
 #relnoteswitcher a {
@@ -458,6 +458,10 @@
 #firefox-notes #sidebar section#try h3 {
     padding: 20px 30px 15px 30px;
     margin: 0;
+}
+
+#firefox-notes #whatsnew p {
+  margin: 14px 0;
 }
 
 #try ol {
