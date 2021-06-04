@@ -203,6 +203,10 @@
 }
 }
 
+#whatsnew p {
+  margin: 14px 0;
+}
+
 @media screen and (max-width: 479px) {
 #releasenotes ul.tags li {
 	padding-left: 0;
