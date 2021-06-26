@@ -1,0 +1,64 @@
+<!--#set var="release_date" value="2021-06-17" -->
+<!--#set var="version" value="89.0.1" -->
+<!--#set var="previous_version" value="89.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!-- <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li> -->
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>Windows: 修正一個造成某些螢幕閱讀器與 Firefox 互動不正常的問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1708224">bug 1714212</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>更新翻譯，含完整墨西哥西班牙文與其餘在地化改善 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1714946">bug 1714946</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正多個字體相關的回退（regressions）錯誤 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1708224">bug 1694174</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>Linux: 修正 WebRender 上效能與穩定性的回退錯誤 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1708224">bug 1715895</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>macOS: 修正在外接螢幕上捲動網頁時的閃動 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1715452">bug 1715452</a>) (bug 1715452)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>企業版：修正 <code>DisableDeveloperTools</code> 政策失效的問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1715777">bug 1715777</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>Linux: 修正某些 GTK 佈景上的捲軸故障 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1714103">bug 1714103</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>數個穩定性與<a href="https://www.mozilla.org/security/advisories/mfsa2021-27/">安全性修正</a>。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2089&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox89&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla89&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

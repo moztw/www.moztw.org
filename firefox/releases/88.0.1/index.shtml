@@ -1,0 +1,44 @@
+<!--#set var="release_date" value="2021-05-05" -->
+<!--#set var="version" value="88.0.1" -->
+<!--#set var="previous_version" value="88.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!-- <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li> -->
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正近期的 Widevine 外掛更新造成已購買影片無法正常播放的問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1705138">bug 1705138</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正某些 Gen6 Intel 顯示晶片上 Twitter 或 WebRTC 視訊時的影片播放錯誤 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1708937">bug 1708937</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正啟動高對比模式時，偏好設定中的選單選項無法閱讀 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1706496">bug 1706496</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>數個穩定性與<a href="https://www.mozilla.org/security/advisories/mfsa2021-20/">安全性修正</a>。</span>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2089&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox89&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla89&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
