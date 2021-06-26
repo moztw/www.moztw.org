@@ -74,7 +74,7 @@
     </li>
 
     <li>
-      <span class="tag tag-html5">已知問題</span>
+      <span class="tag tag-html5">網路平台</span>
       <p>開始支援 <a href="https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming">Event Timing API</a>。</p>
     </li>
 
@@ -87,7 +87,7 @@
   <h3 id="knownissues">已知問題</h3>
   <ul class="tags">
     <li>
-      <span class="tag tag-unresolved">尚未修復</span> <span></span>
+      <span class="tag tag-unresolved">尚待修復</span> <span></span>
       <p>由於近期的 Widevine 外掛更新 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1705138">bug 1705138</a>)，有些已購買的影片可能無法正確播放。這個問題已在 <a href="https://www.mozilla.org/firefox/all/">Firefox 88.0.1</a> 與其後版本修復。</p>
     </li>
   </ul>
