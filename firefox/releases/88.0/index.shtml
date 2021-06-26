@@ -1,0 +1,104 @@
+<!--#set var="release_date" value="2021-04-19" -->
+<!--#set var="version" value="88.0" -->
+<!--#set var="previous_version" value="87.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!-- <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li> -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>PDF 表單現在支援 嵌入於 PDF 檔案內的 JavaScript。有一些 PDF 表單使用 JavaScript 來進行驗證，或提供其他互動功能。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>列印功能更新：文件邊界（Margin）的單位目前已ㄎ翻譯。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Linux 開始支援觸控板進行畫面平滑縮放（pinch-zooming）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>為了避免跨網站隱私外洩，Firefox 現在會隔離 window.name 的資料，僅限建立的網站可取用。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>螢幕閱讀器現在會避免讀出網站內視覺上隱藏的內容，如 Google Help 面板中的文章。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>數個<a href="https://www.mozilla.org/security/advisories/mfsa2021-16/">安全性修正</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>如果你在過去 50 秒內曾在相同網站的同一個分頁內許可使用攝影機與麥克風的，Firefox 會避免再次要求你許可存取。這個新的寬限期，將減少收到裝置權限請求的次數。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>畫面截圖功能將從網址列中的網頁動作選單移除。請透過右鍵選單<a href="https://support.mozilla.org/kb/take-screenshots-firefox">拍攝螢幕截圖</a>。你也可以透過自訂選單功能，新增「畫面截圖」按鈕到工具列上：打開 Firefox 選單並選擇「自訂...」。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>FTP 支援已預設停用，並且將在未來的版本中完全移除。此變更是為了減少相關的安全問題，並漸次停止支援未經加密的通訊協定。</p>
+    </li>
+
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>在最新的 Firefox 修復多個 Bug 與加入新政策。您可在 <a href="https://support.mozilla.org/kb/firefox-enterprise-88-release-notes">Firefox 88 企業版版本資訊</a>找到更多資訊。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/88">Firefox 88 開發者資訊</a></span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>「網路」面板中新增「原始」切換鈕，可切換以 JSON 格式顯示的 HTTP 回應或原始資料（一如從線上直接收到的資訊）。</p>
+      <p><img alt="" src="network_panel_json_toggle.png"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">已知問題</span>
+      <p>開始支援 <a href="https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming">Event Timing API</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>開始支援 CSS <a href="https://developer.mozilla.org/docs/Web/CSS/@media/forced-colors">forced-colors media query</a>。</p>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚未修復</span> <span></span>
+      <p>由於近期的 Widevine 外掛更新 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1705138">bug 1705138</a>)，有些已購買的影片可能無法正確播放。這個問題已在 <a href="https://www.mozilla.org/firefox/all/">Firefox 88.0.1</a> 與其後版本修復。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2087&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox87&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla87&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
