@@ -1,0 +1,118 @@
+<!--#set var="release_date" value="2021-06-01" -->
+<!--#set var="version" value="89.0" -->
+<!--#set var="previous_version" value="88.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!-- <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li> -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>向全新的 Firefox 説嗨！為了讓你更快抵達想去的地方，我們重新設計了核心體驗，現代化、更加迷人、容易使用。</p>
+      <p>從 Firefox 89 開始，你會注意到以下變化：</p>
+      <p><strong>簡化的瀏覽器介面與工具列</strong>： 移除較少用的項目，聚焦在瀏覽時更重要的元件。</p>
+      <p><img alt="（螢幕截圖）簡化的瀏覽器介面與工具列" src="proton_simplified_chrome.png"></p>
+      <p><strong>乾淨、簡化的選單</strong>：根據使用狀態重新排序選單內容。更新標籤文字，並移除圖示。</p>
+      <p><img alt="（螢幕截圖）乾淨、簡化的選單" src="proton_clear_menu.png"></p>
+      <p><strong>更新提示框（prompts）</strong>：資訊列（infobar）、面板（panel）與對話框（modal）獲得更乾淨的設計與明確的用語。</p>
+      <p><img alt="Updated prompts screenshot" src="proton_updated_prompts.png"></p>
+      <p><strong>啟發的分頁設計</strong>：浮出的分頁內置整齊的資訊，與在你需要時出現的介面提示，例如聲音控制器的視覺指引。四方形的設計凸顯焦點，提示你可以隨所需輕易的移動分頁。</p>
+      <p><img alt="Inspired tab design screenshot" src="proton_inspired_tab_design.png"></p>
+      <p><strong>更少干擾</strong>：減少警示與訊息的數量，讓你瀏覽時更加專心。</p>
+      <p><strong>更凝聚、安靜的視覺</strong>：較淡的圖示、改善的色彩組合、更加一致的樣式。</p>
+      <p>本版本同時強化了以下隱私功能：</p>
+      <ul>
+        <li>
+          <a href="https://blog.mozilla.org/security/2021/06/01/total-cookie-protection-in-private-browsing">我們強化了 Firefox 瀏覽器的隱私瀏覽模式，加入全面 Cookie 保護（Total Cookie Protection）功能</a>，將 cookie 限制在產生他們的網站上，避免<a href="https://blog.mozilla.org/security/2021/02/23/total-cookie-protection/">企業使用 cookie 跨站追蹤你的瀏覽</a>。這個功能原先於 Firefox 加強型追蹤保護的嚴格模式（ETP Strict mode）中提供。
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在 macOS 上，我們加入許多程式都有的彈性「捲過頭」效果（elastic overscroll effect），以溫和的彈跳動畫，來提示你已捲到頁面底部。</p>
+      <p>此外，我們還加入了智慧縮放：雙指雙點觸控版，或在 Magic Mouse 上單指雙點，可縮放畫面並聚焦到游標下的內容。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><strong>原生的右鍵選單</strong>：macOS 上的右鍵選單，現在改用原生的介面，並支援深色模式。</p>
+      <p><img alt="（螢幕截圖）macOS 原生的右鍵選單" src="native_macos_context_menus.png"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在有 NVIDIA 二進位驅動程式的 Linux 桌面環境上啟用 WebRender。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>在廣色域的顯示器上，macOS 的 Firefox 顏色不再過度飽和。沒有標記的圖片會正確的以 sRGB 格式處理。標記為 sRGB 的圖片顏色能對應到 CSS 顏色。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>macOS 的全螢幕模式中，將滑鼠移到螢幕最上方時，分頁列不再會被系統選單蓋住。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>也是在 macOS 的全螢幕模式中，現在可以隱藏工具列，以獲得更具沈浸感的全螢幕體驗。這讓 macOS 的體驗與 Windows 及 Linux 版看齊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修補幾種不同的穩定性與<a href="https://www.mozilla.org/security/advisories/mfsa2021-23/">安全弱點</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>引入非原生的網頁表單控制項實作，提供更現代的設計，部分改善網頁載入速度。監控會影響表單控制項大小或樣式猜測的網頁版面問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>畫面截圖功能現在已移到右鍵選單內。你也可以在工具列新增「畫面截圖」按鈕。<a href="https://blog.mozilla.org/en/products/firefox/how-to-capture-screenshots-with-firefox/">深入瞭解</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+			<span>在最新的 Firefox 修復多個 Bug 與加入新政策。您可在 <a href="https://support.mozilla.org/kb/firefox-enterprise-89-release-notes">Firefox 89 企業版版本資訊</a>找到更多資訊。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/89">Firefox 89 開發者資訊</a></span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>在檢測器面板中可編輯的 <em>BoxModel</em> 屬性上提供更好的鍵盤導覽功能。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>開始支援 <a href="https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming">Event Timing API</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>開始支援 CSS <a href="https://developer.mozilla.org/docs/Web/CSS/@media/forced-colors">forced-colors media query</a>。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2087&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox91&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla91&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
