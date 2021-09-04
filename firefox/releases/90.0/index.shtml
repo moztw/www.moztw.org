@@ -1,0 +1,113 @@
+<!--#set var="release_date" value="2021-07-13" -->
+<!--#set var="version" value="90.0" -->
+<!--#set var="previous_version" value="89.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!-- <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li> -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在 Windows 上, Firefox 未執行時 <a href="https://support.mozilla.org/kb/enable-background-updates-firefox-windows">仍可以在背景套用更新</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Windows 版 Firefox 新增了 <a href="https://support.mozilla.org/kb/identify-problems-third-party-modules-firefox-windows">about:third-party</a> 頁面，提供第三方程式造成的相容性問題資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>可以在 about:preferences#privacy 中管理<a href="https://support.mozilla.org/kb/https-only-prefs">純 HTTPS 模式的例外網站</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>列印的「儲存為 PDF」功能會生成可使用的超連結。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a href="https://blog.mozilla.org/security/2021/07/13/smartblock-v2/">第二版的 Firefox SmartBlock 功能</a> 進一步改善隱私瀏覽體驗。雖然仍會阻擋第三方 Facebook 程式避免你被追蹤，但當你決定使用「透過 Facebook 登入」時，會自動即時載入。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <span>修補多個<a href="https://www.mozilla.org/security/advisories/mfsa2021-28/">安全弱點</a>。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>右鍵選單「用新分頁開啟圖片」功能，現在預設在背景分頁打開圖片與媒體。<a href="https://support.mozilla.org/kb/tab-preferences-and-settings">進一步了解</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>大部分未擁有支援硬體加速 WebRender 的使用者，現在會使用軟體 WebRender。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>改善軟體 WebRender 的效能。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>現已移除 FTP 支援。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <span>在最新的 Firefox 修復多個 Bug 與加入新政策。您可在 <a href="https://support.mozilla.org/kb/firefox-enterprise-90-release-notes">Firefox 90 企業版版本資訊</a>找到更多資訊。</span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/90">Firefox 90 開發者資訊</a></span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>開發工具支援 Private Fields （<a href="https://github.com/tc39/proposal-class-fields#private-fields">TC39 提案</a> 第三階段），範圍包含：object inspection、autocompletion、expression evaluation、variable tooltips 與 pretty printing (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1650188">bug</a>)。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>網路監控器面板在字體相關的 HTTP 請求的回應分頁中顯示預覽。 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=872078">bug</a>)</p>
+      <p><img alt="Network panel font preview screenshot" src="devtools_network_font_preview.png"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>支援 <a href="https://blog.mozilla.org/security/2021/07/12/firefox-90-supports-fetch-metadata-request-headers/">Fetch Metadata Request Headers</a>，讓網路應用程式能強化自我及對使用者的保護，抵抗多種跨來源（cross-origin）威脅。</p>
+    </li>
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>支援使用儲存於硬體 Token 或作業系統儲存空間中的用戶端驗證憑證。
+        </p>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span> <span></span>
+      <p>當列印經縮放的頁面時，可能會產生截斷的結果 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1720621">bug 1720621</a>)</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%2087&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox87&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla87&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
