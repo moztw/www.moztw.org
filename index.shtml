@@ -328,22 +328,21 @@
 
 <script>
 /* 為相容舊版瀏覽器使用 jQuery，否則我超想用現代 fetch() 的啊！ */
-$(function() {
+$(function () {
   var $rssList = $('#planet-rss-list');
 
-  $.getJSON('https://hook.us1.integromat.com/5kbri6of73o35in26x17mwik9ri53oag', function (data) {
+  $.getJSON('https://hook.us1.integromat.com/lvow76y9di4s3swd8hj27preuwjm053u', function (data) {
     if (!(Object.prototype.toString.call(data) === '[object Array]')) return; // = array.isArray
     if (!data.length) return;
 
     var counter = 0
-
     $.each(data, function (_, val) {
       if (counter++ >= 6) return; // 最多顯示 6 項
 
-      var author = val.title[0].substring(0, val.title[0].indexOf(':'));
-      var title = val.title[0].substring(author.length + 2);
+      var author = val.title.substring(0, val.title.indexOf(':'));
+      var title = val.title.substring(author.length + 2);
       if (title > 100) title = title.substring(0, 100) + "..."; // 超過 100 個字就截斷並加上 '...'
-      var url = val.link[0]._attributes.href;
+      var url = val.link;
       url = url.substring(0, url.indexOf('?source'));
 
       $rssList.append('<li><a href="' + url + '">' + title + '</a> &ndash; ' + author + '</li>');
