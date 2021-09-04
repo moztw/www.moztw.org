@@ -13,22 +13,22 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>在全面 Cookie 保護的基礎上，增加了更全面的清除 Cookie 的邏輯，以防止洩漏隱藏的資料，並讓使用者易於了解哪些網站正在存儲本地資訊。<a href="https://blog.mozilla.org/security/2021/06/01/total-cookie-protection-in-private-browsing">我們強化了 Firefox 瀏覽器的隱私瀏覽模式，加入全面 Cookie 保護（Total Cookie Protection）功能</a>，將 cookie 限制在產生他們的網站上，避免<a href="https://blog.mozilla.org/security/2021/08/10/firefox-91-introduces-enhanced-cookie-clearing/">了解更多</a></p>
+      <p>在全面 Cookie 保護的基礎上，增加了更全面的 Cookie 清除邏輯，以防止洩漏隱藏的資料，並讓使用者易於了解哪些網站正在存儲本地資訊。<a href="https://blog.mozilla.org/security/2021/08/10/firefox-91-introduces-enhanced-cookie-clearing/">了解更多</a></p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>Firefox 現在支援使用 Windows 單一登入(SSO)登入 Microsoft、工作和學校帳戶。<a href="https://support.mozilla.org/kb/windows-sso">了解更多</a></p>
+      <p>Firefox 現在支援使用 Windows 單一登入（SSO）登入 Microsoft、工作和學校帳戶。<a href="https://support.mozilla.org/kb/windows-sso">了解更多</a></p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>列印時的簡化頁面功能回來了！列印時，在 “更多設定” > “格式” 下選擇 “簡化” 選項（如果可用）以獲得整潔的頁面。<a href="https://support.mozilla.org/kb/print-friendly-pages-firefox-clutter-free-printing">了解更多</a></p>
+      <p>列印時的簡化頁面功能回來了！列印時，在「更多設定」>「格式」下選擇「簡化版本」選項（如果可用）以獲得整潔的頁面。<a href="https://support.mozilla.org/kb/print-friendly-pages-firefox-clutter-free-printing">了解更多</a></p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>HTTPS 優先策略：Firefox 隱私瀏覽視窗現在嘗試在所有網站使用安全連線，並且只在網站不支援時才使用非安全連線。<a href="https://blog.mozilla.org/security/2021/08/10/firefox-91-introduces-https-by-default-in-private-browsing">了解更多</a></p>
+      <p>HTTPS 優先策略：Firefox 隱私瀏覽視窗現在會嘗試在所有網站使用安全連線，並且只在網站不支援時才使用非安全連線。<a href="https://blog.mozilla.org/security/2021/08/10/firefox-91-introduces-https-by-default-in-private-browsing">了解更多</a></p>
     </li>
 
     <li>
@@ -43,12 +43,12 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>當在 MacOS 上選擇“增加對比”時，Firefox 現在會自動啟用高對比度模式 。</p>
+      <p>當在 MacOS 上選擇「增加對比」時，Firefox 現在會自動啟用高對比度模式 。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>Firefox 現在幾乎對所有使用者用互動執行catch-up paints，使大多數使用者用互動的反應時間縮短了 10-20%。</p>
+      <p>Firefox 現在幾乎對所有使用者用互動執行catch-up paints，使大多數使用者互動的反應時間縮短了 10-20%。</p>
     </li>
 
     <li>
@@ -59,6 +59,11 @@
     <li>
       <span class="tag tag-enterprise">企業版</span>
       <p>在最新版本的 Firefox 中實作了數個錯誤修正和新政策。在 <a href="https://support.mozilla.org/kb/firefox-enterprise-91-release-notes">Firefox 91 企業版發行說明</a> 中查看更多詳細資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/91">Firefox 91 開發者資訊</a></span>
     </li>
 
     <li>
