@@ -325,30 +325,34 @@
 </div>
 <!--#include virtual="/inc/footer.html" -->
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
 <script>
 /* 為相容舊版瀏覽器使用 jQuery，否則我超想用現代 fetch() 的啊！ */
-jQuery(function ($) {
-  $.ajax('https://cors-anywhere.herokuapp.com/https://feed2json.org/convert?url=https%3A%2F%2Fplanet.moztw.org%2Fatom.xml', {
-    dataType: 'json',
-    success: function (data) {
-      var counter = 0
+$(function() {
+  var $rssList = $('#planet-rss-list');
 
-      $.each(data.items, function (_, val) {
-        if (counter++ >= 6) return // 最多顯示 6 項
-        // val.url: 文章網址
-        // val.title: 文章標題
-        var author = val.title.substring(0, val.title.indexOf(':'))
-        val.title = val.title.substring(author.length + 2)
-        if (val.title.length > 100) val.title = val.title.substring(0, 100) + "..." // 超過 100 個字就截斷並加上 '...'
+  $.getJSON('https://hook.us1.integromat.com/5kbri6of73o35in26x17mwik9ri53oag', function (data) {
+    if (!(Object.prototype.toString.call(data) === '[object Array]')) return; // = array.isArray
+    if (!data.length) return;
 
-        $('#planet-rss-list').append('<li><a href="' + val.url + '">' + val.title + '</a> &ndash; ' + author + '</li>')
-      })
+    var counter = 0
 
-      // 顯示摩茲星球欄
-      $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn') // 預留空間給摩茲星球
-      $('#planets').removeClass('hide') // 解除隱藏
-    }
-  })
-})
+    $.each(data, function (_, val) {
+      if (counter++ >= 6) return; // 最多顯示 6 項
+
+      var author = val.title[0].substring(0, val.title[0].indexOf(':'));
+      var title = val.title[0].substring(author.length + 2);
+      if (title > 100) title = title.substring(0, 100) + "..."; // 超過 100 個字就截斷並加上 '...'
+      var url = val.link[0]._attributes.href;
+      url = url.substring(0, url.indexOf('?source'));
+
+      $rssList.append('<li><a href="' + url + '">' + title + '</a> &ndash; ' + author + '</li>');
+    });
+
+    // 顯示摩茲星球欄
+    $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn'); // 預留空間給摩茲星球
+    $('#planets').removeClass('hide'); // 解除隱藏
+  });
+});
 </script>
 <!--#include virtual="/inc/end.html" -->
