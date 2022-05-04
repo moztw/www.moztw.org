@@ -1,10 +1,10 @@
-<!--#set var="WINVER" value="96.0.1" -->
-<!--#set var="WIN64VER" value="96.0.1" -->
-<!--#set var="LINUXVER" value="96.0.1" -->
-<!--#set var="LINUX64VER" value="96.0.1" -->
-<!--#set var="OSXVER" value="96.0.1" -->
+<!--#set var="WINVER" value="100.0" -->
+<!--#set var="WIN64VER" value="100.0" -->
+<!--#set var="LINUXVER" value="100.0" -->
+<!--#set var="LINUX64VER" value="100.0" -->
+<!--#set var="OSXVER" value="100.0" -->
 
-<!--#set var="TAGVER" value="9601" -->
+<!--#set var="TAGVER" value="10000" -->
 
 <!--#set var="WINURL" value="https://download.mozilla.org/?product=firefox-${WINVER}&os=win&lang=zh-TW" -->
 <!--#set var="WIN64URL" value="https://download.mozilla.org/?product=firefox-${WINVER}&os=win64&lang=zh-TW" -->
