@@ -330,11 +330,11 @@
 $(function () {
   var $rssList = $('#planet-rss-list');
 
-  $.getJSON('https://hook.us1.integromat.com/lvow76y9di4s3swd8hj27preuwjm053u', function (data) {
-    // 檢查 data 是否是個 Array 且其長度 > 0。
-    if (!($.isArray(data) && data.length > 0)) return;
+  $.getJSON('https://moztw.github.io/planet-rss-json/planet.json', function (data) {
+    // 檢查 data 是否是個 object、data.items 是否是個 Array 且長度 > 0。
+    if (!(typeof data === 'object' && $.isArray(data.items) && data.items.length > 0)) return;
 
-    $.each(data, function (index, val) {
+    $.each(data.items, function (index, val) {
       if (index >= 6) return; // 最多顯示 6 項
 
       var author = val.title.substring(0, val.title.indexOf(':'));
