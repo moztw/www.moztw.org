@@ -327,13 +327,12 @@
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 
 <script>
-/* 為相容舊版瀏覽器使用 jQuery，否則我超想用現代 fetch() 的啊！ */
 $(function () {
   var $rssList = $('#planet-rss-list');
 
   $.getJSON('https://hook.us1.integromat.com/lvow76y9di4s3swd8hj27preuwjm053u', function (data) {
-    if (!(Object.prototype.toString.call(data) === '[object Array]')) return; // = array.isArray
-    if (!data.length) return;
+    // 檢查 data 是否是個 Array 且其長度 > 0。
+    if (!($.isArray(data) && data.length > 0)) return;
 
     var counter = 0
     $.each(data, function (_, val) {
