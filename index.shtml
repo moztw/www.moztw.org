@@ -334,9 +334,8 @@ $(function () {
     // 檢查 data 是否是個 Array 且其長度 > 0。
     if (!($.isArray(data) && data.length > 0)) return;
 
-    var counter = 0
-    $.each(data, function (_, val) {
-      if (counter++ >= 6) return; // 最多顯示 6 項
+    $.each(data, function (index, val) {
+      if (index >= 6) return; // 最多顯示 6 項
 
       var author = val.title.substring(0, val.title.indexOf(':'));
       var title = val.title.substring(author.length + 2);
