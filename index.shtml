@@ -341,7 +341,6 @@ $(function () {
       var title = val.title.substring(author.length + 2);
       if (title > 100) title = title.substring(0, 100) + "……"; // 超過 100 個字就截斷並加上 '……'
       var url = val.link;
-      url = url.substring(0, url.indexOf('?source'));
 
       $rssList.append('<li><a href="' + url + '">' + title + '</a> &ndash; ' + author + '</li>');
     });
