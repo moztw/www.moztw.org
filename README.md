@@ -58,13 +58,12 @@ You can do shallow clone to get this repo more quickly.
 -->
 
 ### Using Node.js directly
-0. You will need to [modify index.shtml](https://github.com/moztw/www.moztw.org/blob/2296093f518003b18fb355178161f09222c206f3/index.shtml#L235), change `dlff.html` to dlff.**s**html for web server to work.
 1. Install [nodejs](http://nodejs.org/) and [npm](https://www.npmjs.org/) in your system.
    * On Windows, you also need `Microsoft Visual C++ Redistributable Package`.
    * On Ubuntu/Debian, you also need `nodejs-legacy` package.
 2. Run `npm install` in repo directory.
 3. Run `npm start` in repo directory, the output will stay at `Watching files`.
-4. Open `localhost:3000`, modify html and [browswersync](http://browsersync.io/) will reload the preview page.
+4. Open `localhost:3000`, modify html and [browsersync](http://browsersync.io/) will reload the preview page.
 
 
 ## Static Pages Local Installation
