@@ -30,19 +30,20 @@ module.exports = {
     var pathname = require('url').parse(req.originalUrl || req.url).pathname;
     var filename = require('path').join(baseDir, pathname.substr(-1) === '/' ? pathname + 'index.shtml' : pathname);
     var parser = new ssi(baseDir, baseDir, '/**/*.shtml');
-    
-    // HTML content.
-    var content = fs.readFileSync(filename, {
-      encoding: 'utf8'
-    });
 
-    content = content.replace(
-      '<!--#include virtual="/inc/dlff.html" -->',
-      '<!--#include virtual="/inc/dlff.shtml" -->',
-    );
-    
-    if (filename.indexOf('.shtml') > -1 && fs.existsSync(filename))
+    if (filename.indexOf('.shtml') > -1 && fs.existsSync(filename)) {
+      // HTML content.
+      var content = fs.readFileSync(filename, {
+        encoding: 'utf8'
+      });
+
+      content = content.replace(
+        '<!--#include virtual="/inc/dlff.html" -->',
+        '<!--#include virtual="/inc/dlff.shtml" -->',
+      );
+
       res.end(parser.parse(filename, content).contents);
+    }
     else
       next();
   }]
