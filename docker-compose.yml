@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  httpd:
+    container_name: moztw-httpd
+    image: httpd
+    restart: unless-stopped
+    ports:
+      - "8080:80" # change 8080 to whatever you want to listen to, e.g. "8888:80" will listen to port 8888
+    volumes:
+      - .:/var/www/html
+      - ./docker-apache.conf:/usr/local/apache2/conf/httpd.conf
+    healthcheck:
+      test: [ "CMD", "service" ,"apache2", "status" ]
+      interval: 5s
+      timeout: 20s
+      retries: 10
