@@ -65,6 +65,14 @@ You can do shallow clone to get this repo more quickly.
 3. Run `npm start` in repo directory, the output will stay at `Watching files`.
 4. Open `localhost:3000`, modify html and [browsersync](http://browsersync.io/) will reload the preview page.
 
+### Using Docker Compose
+1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+   * On Ubuntu/Debian, you may install `docker-ce` and `docker-compose-plugin` instead by running `sudo apt install docker-ce docker-compose-plugin`.
+2. (optional) Edit `./docker-compose.yml` if you need to change listen port. Default: `8080`
+3. (optional) Edit `./docker-apache.conf` if you need to change configurations for `httpd`.
+4. Run `docker compose up -d` in repo directory to build and run the container.
+5. Open http://localhost:8080 in your browser.
+6. Run `docker compose down` in repo directory to remove the container.
 
 ## Static Pages Local Installation
 
