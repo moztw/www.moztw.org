@@ -1,0 +1,45 @@
+<!--#set var="release_date" value="2022-06-09" -->
+<!--#set var="version" value="101.0.1" -->
+<!--#set var="previous_version" value="101.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!-- <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li> -->
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修復 MacOS 版 Firefox 於關閉程式時意外清除剪貼簿內容 (<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1771823">bug 1771823</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修復某些 Windows 系統上啟用 <a href="https://hacks.mozilla.org/2022/05/improved-process-isolation-in-firefox-100/">win32k 鎖定</a> 後導致功能嚴重受損的相容性問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1769845">bug 1769845</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修復某些 Linux 系統上右鍵點擊子母畫面時不顯示右鍵選單 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1771914">bug 1771914)</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>各種穩定性問題修復。</p>
+    </li>
+
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      您可能也想瞭解 <a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'> Firefox <!--#echo var="previous_version" --> 更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
