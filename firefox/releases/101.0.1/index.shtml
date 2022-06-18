@@ -35,7 +35,7 @@
 
   <ul class="tags">
     <li class="complete">
-      您可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'> Firefox <!--#echo var="previous_version" --> 更新資訊</a>。
+      您可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'> Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
     </li>
   </ul>
 
