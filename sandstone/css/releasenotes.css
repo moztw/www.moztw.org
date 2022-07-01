@@ -1,20 +1,20 @@
 #releasenotes .intro {
-	margin-right: 290px;
+  margin-right: 290px;
 }
 
 #releasenotes .download {
-	position: absolute;
-	right: 40px;
-	top: 40px;
+  position: absolute;
+  right: 40px;
+  top: 40px;
 }
 
-#releasenotes .download.firefox .download-button-small .download-link .download-content{
-	background-image: url(/sandstone/images/firefox-small.png);
-	background-size: 65px auto;
-	background-position: left top;
-	margin-left: -37px;
-	padding: 14px 20px 12px 83px;
-	margin-top: -6px;
+#releasenotes .download.firefox .download-button-small .download-link .download-content {
+  background-image: url(/sandstone/images/firefox-small.png);
+  background-size: 65px auto;
+  background-position: left top;
+  margin-left: -37px;
+  padding: 14px 20px 12px 83px;
+  margin-top: -6px;
 }
 
 #releasenotes ul.tags {
@@ -22,16 +22,17 @@
   padding: 0;
 }
 
-#releasenotes ul.tags > li {
+#releasenotes ul.tags>li {
   line-height: 1.5;
   list-style-type: none;
   margin: 0;
   min-height: 25px;
   padding-left: 135px;
-	margin-bottom: 10px;
+  margin-bottom: 10px;
   position: relative;
 }
-#releasenotes ul.tags > li > ul {
+
+#releasenotes ul.tags>li>ul {
   padding-left: 20px;
   margin: 2px 0;
 }
@@ -53,7 +54,7 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.2) inset;
   color: #383838;
   display: block;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 11px;
   font-style: normal;
   left: 0;
@@ -101,13 +102,14 @@
   background: none repeat scroll 0 0 #E9F2FF;
   border-radius: 3px 3px 3px 3px;
   color: #383838;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 11px;
   font-style: normal;
   padding: 1px 6px;
 }
 
-#releasenotes .status .status-unresolved, #thunderbird-notes .status .status-resolved {
+#releasenotes .status .status-unresolved,
+#thunderbird-notes .status .status-resolved {
   background: url(/thunderbird/images/status-icons.png) no-repeat scroll 0 4px transparent;
   display: inline-block;
   margin-right: 1em;
@@ -120,100 +122,120 @@
 
 /* Sandstone fix */
 #releasenotes article.module {
-	margin-bottom: 20px;
-	position: relative;
+  margin-bottom: 20px;
+  position: relative;
 }
 
 #releasenotes article.module h2 {
-	margin: 1em 0 0.5em;
+  margin: 1em 0 0.5em;
 }
 
 #releasenotes article.module h3 {
-	margin: 1em 0 0.5em;
+  margin: 1em 0 0.5em;
 }
 
-#releasenotes article.module h2:first-child, #releasenotes article.module h3:first-child {
-	margin-top: 0;
+#releasenotes article.module h2:first-child,
+#releasenotes article.module h3:first-child {
+  margin-top: 0;
 }
 
 /* grid need a total offset, please. */
 #releasenotes .grids {
-	margin-left: -20px;
+  margin-left: -20px;
 }
 
-#releasenotes .grids .grid-12{
-	margin-left: 20px;
+#releasenotes .grids .grid-12 {
+  margin-left: 20px;
 }
 
 #releasenotes .sidebar article.module {
-	padding: 20px;
+  padding: 20px;
 }
 
-#releasenotes .sidebar ul{
-	padding: 0;
-	margin: 0;
-	list-style: none;
+#releasenotes .sidebar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
-#releasenotes .sidebar li{
-	margin-bottom: 0.3em;
+#releasenotes .sidebar li {
+  margin-bottom: 0.3em;
 }
 
 /* responsive layout */
 @media screen and (max-width: 940px) {
-#releasenotes .intro {
-	margin-right: 0;
-}
+  #releasenotes .intro {
+    margin-right: 0;
+  }
 
-#releasenotes .download {
-	position: static;
-	margin-top: 10px;
-	text-align: right;
-}
+  #releasenotes .download {
+    position: static;
+    margin-top: 10px;
+    text-align: right;
+  }
 
-#releasenotes .download .download-button-small .download-list,
-#releasenotes .download .download-button-small .download-link {
-	width: 200px;
-}
+  #releasenotes .download .download-button-small .download-list,
+  #releasenotes .download .download-button-small .download-link {
+    width: 200px;
+  }
 
-#releasenotes .download .download-button-small .download-other {
-	width: 190px;
-}
+  #releasenotes .download .download-button-small .download-other {
+    width: 190px;
+  }
 
-#releasenotes ul.tags > li {
-	padding-left: 100px;
-}
-#releasenotes ul.tags > li > ul {
-  padding-left: 16px;
-}
+  #releasenotes ul.tags>li {
+    padding-left: 100px;
+  }
 
-#releasenotes .tag {
-	width: 90px;
-  padding: 0 10px 0 30px;
-	min-width: auto;
-  border-radius: 2px;
-}
+  #releasenotes ul.tags>li>ul {
+    padding-left: 16px;
+  }
 
-#releasenotes .hide-mobile {
-	display: none;
-}
+  #releasenotes .tag {
+    width: 90px;
+    padding: 0 10px 0 30px;
+    min-width: auto;
+    border-radius: 2px;
+  }
 
-#releasenotes article.module {
-	padding: 20px;
-}
+  #releasenotes .hide-mobile {
+    display: none;
+  }
+
+  #releasenotes article.module {
+    padding: 20px;
+  }
 }
 
 #whatsnew p {
   margin: 14px 0;
 }
 
-@media screen and (max-width: 479px) {
-#releasenotes ul.tags li {
-	padding-left: 0;
+#whatsnew p code {
+  background: rgba( 0, 0, 0, .06 );
+  padding: 0.1em 0.2em;
+  font-size: 0.95em;
 }
 
-#releasenotes .tag {
-	position: static;
-	margin-right: 10px;
+#whatsnew .mdn-icon:after {
+  background-image: url(/images/mdn-icon.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  content: " ";
+  display: inline-block;
+  height: 20px;
+  margin-left: 5px;
+  vertical-align: bottom;
+  width: 20px;
 }
+
+@media screen and (max-width: 479px) {
+  #releasenotes ul.tags li {
+    padding-left: 0;
+  }
+
+  #releasenotes .tag {
+    position: static;
+    margin-right: 10px;
+  }
 }

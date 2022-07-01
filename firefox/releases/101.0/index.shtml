@@ -1,0 +1,108 @@
+<!--#set var="release_date" value="2022-05-31" -->
+<!--#set var="version" value="101.0" -->
+<!--#set var="previous_version" value="100.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!-- <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li> -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>藉由 <code>prefers-contrast</code> media query 讓閱讀更輕鬆。網站現在可以得知「使用者要求以更高（或更低）的對比顯示網頁內容」。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在檔案下載完成後，可針對未設定的 MIME types 指定自定行為，都聽你的！</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 現在支援使用者在視訊會議時同時使用多個麥克風。最大的好處是（如果會議服務有支援時）你可以隨時切換來源麥克風。 </p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修補多個<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2022-20/">安全弱點</a>。 </p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>憑證驗證移除「subject common name」回退支援。過去這個 fallback 模式只對人工安裝的憑證啟動。CA Browser Forum Baseline Requirements 自 2012 年起即要求必須使用「subjectAltName」擴充，「subject common name」已在 RFC 2818 標記為棄用（deprecated）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>在最新的 Firefox 中修復多個 Bug 與加入新政策，您可在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-101-release-notes">Firefox 101 企業版版本資訊</a> 找到更多資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/101">Firefox 101 開發者資訊</a></span>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><strong>檢測器面板:</strong> 在現有的 HTML 元件（透過「規則」檢視的 .cls 按鈕）加入／移除 class 名稱時，自動補完下拉選單會提供頁面上的所有 class 名稱列表。在 Firefox 101 中，當使用者用上下鈕變更選擇的 class 會即時套用。這在快速測試多個樣式時特別有用。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><strong>檢測器面板:</strong> 新增選項以停用「規則」視圖中的「拖曳變更」功能（諸如 size 等 CSS 屬性可以透過滑鼠水平拖曳來變更）</p>
+      <p><img alt="" src="101_devtools.png"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><strong>WebDriver BiDi:</strong> 在正式版本頻道中啟用這個 <a target="_blank" href="https://w3c.github.io/webdriver-bidi/">協定</a> 以支援 Selenium 等計畫透過 WebDriver BiDi 支援 Firefox 的外部工具。WebDriver-BiDi 的目標是透過跨瀏覽器的通訊協定來達到瀏覽器自動化，以滿足當代網頁應用程式自動測試工具的需求。這同時允許伺服器及服務端發送與接收需求及回應。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 新增 <a target="_blank" href="https://drafts.csswg.org/css-values/#viewport-variants">large, small, dynamic viewport units</a> 及 (<a target="_blank" href="https://drafts.csswg.org/css-values/#valdef-length-vi">*vi</a> 與 <a target="_blank" href="https://drafts.csswg.org/css-values/#valdef-length-vb">*vb</a>) 等邏輯變數支援，提供使用者選擇讓網頁元素縮放到「最小」（動態工具列可視時）、「最大」（動態工具列隱藏時）或「變動」的 viewport 尺寸（根據動態工具列的現有狀態而定）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 101 在網路視訊會議時支援透過 navigator.mediaDevices.enumerateDevices() 支援多重聲音輸入裝置的列舉 (以減少轉換或輸錯代碼的相關錯誤）及選取（同時同步的錄製與處理多重音源）。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20101&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox101&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla101&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 101 的釋出，我們非常開心的歡迎以下首次貢獻程式到 Firefox 的貢獻者。與我們一起感謝這些勤奮與熱情的個人貢獻者，並看看他們的貢獻：</p>
+
+  <ul>
+    <li>av: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1762483">Bug 1762483</a> and <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1763262">Bug 1763262</a></li>
+    <li>irwp: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1762785">Bug 1762785</a> and <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1762909">Bug 1762909</a></li>
+    <li>johann.koenig: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1759324">Bug 1759324</a></li>
+    <li>karnikk1406120: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1762683">Bug 1762683</a> and <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1763000">Bug 1763000</a></li>
+    <li>Manisha.singh2019: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1739139">Bug 1739139</a>, <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1763865">Bug 1763865</a>, and <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1765459">Bug 1765459</a></li>
+    <li>michel: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1661450">Bug 1661450</a></li>
+    <li>Samuraix221: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1708511">Bug 1708511</a> and <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1762459">Bug 1762459</a></li>
+    <li>aline_g: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1765639">Bug 1765639</a></li>
+    <li>Dmitrij Feller: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1757751">Bug 1757751</a> and <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1766409">Bug 1766409</a></li>
+    <li>Jakub Šebek: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1764118">Bug 1764118</a></li>
+    <li>Janvi Bajoria: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1763717">Bug 1763717</a></li>
+    <li>Max: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1762316">Bug 1762316</a> and <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1762499">Bug 1762499</a></li>
+    <li>Michel Le Bihan: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1706354">Bug 1706354</a> and <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1764541">Bug 1764541</a></li>
+    <li>Roy Christo: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1762749">Bug 1762749</a></li>
+    <li>Simon McVittie: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1494436">Bug 1494436</a></li>
+    <li>sayuree: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1624984">Bug 1624984</a>, <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1666456">Bug 1666456</a>, <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1702491">Bug 1702491</a>, and <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1762259">Bug 1762259</a></li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
