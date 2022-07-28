@@ -1,8 +1,8 @@
-<!--#set var="WINVER" value="68.0-SSL" -->
-<!--#set var="WIN64VER" value="68.0-SSL" -->
-<!--#set var="LINUXVER" value="68.0-SSL" -->
-<!--#set var="LINUX64VER" value="68.0-SSL" -->
-<!--#set var="OSXVER" value="68.0-SSL" -->
+<!--#set var="WINVER" value="102.0.3-SSL" -->
+<!--#set var="WIN64VER" value="102.0.3-SSL" -->
+<!--#set var="LINUXVER" value="102.0.3-SSL" -->
+<!--#set var="LINUX64VER" value="102.0.3-SSL" -->
+<!--#set var="OSXVER" value="102.0.3-SSL" -->
 
 <!--#set var="WINTAG" value="${WINVER}-Windows" -->
 <!--#set var="WIN64TAG" value="${WINVER}-Windows" -->
