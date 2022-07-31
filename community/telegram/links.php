@@ -37,7 +37,7 @@ $links = [
     ],
 
     [
-        'id' => 'AbrE40GFna0Clf1GBDg1fw',
+        'id' => '+DqQyg9qjmuFkMzhl',
         'name' => 'MozTW (zh-TW) L10n Channel',
         'description' => 'MozTW 正體中文在地化討論群組',
         'introduction' => '討論 Mozilla/MozTW 各產品與網頁的正體中文在地化事項。',
