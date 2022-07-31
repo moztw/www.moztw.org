@@ -17,7 +17,7 @@ $links = [
     ],
 
     [
-        'id' => 'AmWeuT0XZKu55YVMu6QEGw',
+        'id' => 'DqQyg9qjmuFkMzhl',
         'name' => 'MozTW',
         'description' => 'MozTW 社群綜合討論群組',
         'introduction' => '通用頻道。歡迎新手從此開始參與，各式各樣的專案、想法都可以在此提出。',
@@ -37,7 +37,7 @@ $links = [
     ],
 
     [
-        'id' => '+DqQyg9qjmuFkMzhl',
+        'id' => 'AbrE40GFna0Clf1GBDg1fw',
         'name' => 'MozTW (zh-TW) L10n Channel',
         'description' => 'MozTW 正體中文在地化討論群組',
         'introduction' => '討論 Mozilla/MozTW 各產品與網頁的正體中文在地化事項。',
