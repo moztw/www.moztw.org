@@ -55,7 +55,7 @@ const thunderbirdTemplateFile = getAbsPath("../inc/dltb2.shtml");
 
 function succeedLog(succeed: boolean, message: string) {
   console.log(
-    `\x1b[1m[${succeed ? "  OK  " : "\x1b[31m FAIL "}\x1b[0m] ${message}`
+    `\x1b[1m[${succeed ? "  OK  " : "\x1b[31m FAIL "}\x1b[0m] ${message}`,
   );
 }
 
@@ -81,8 +81,9 @@ function expandStringVar(value: string, fullVarTable: VarTable): string {
   const foundVariables = value.matchAll(extractor);
 
   for (const variable of foundVariables) {
-    if (!variable.groups)
+    if (!variable.groups) {
       throw new Error("variable.group is unexpectly undefined");
+    }
 
     const { key, interpolation } = variable.groups;
     const expandedValue = fullVarTable.get(key);
@@ -116,9 +117,18 @@ function getExpandedUrls(varTable: VarTable): string[] {
  * request successfully.
  */
 async function tryRequest(url: string): Promise<boolean> {
-  const response = await fetch(url);
+  const ac = new AbortController();
+  const id = setTimeout(() => ac.abort(), 5000);
 
-  return response.ok;
+  try {
+    const response = await fetch(url, { signal: ac.signal });
+    return response.ok;
+  } catch (e) {
+    console.error(e);
+    return false;
+  } finally {
+    clearTimeout(id);
+  }
 }
 
 function tagVarCheck(actualVer: string, tagVar: string): [boolean, string] {
@@ -148,7 +158,7 @@ const [firefoxTemplate, thunderbirdTemplate] = await Promise.all(
     const fileStr = decoder.decode(fileBuf);
 
     return fileStr;
-  })
+  }),
 );
 
 /**
@@ -165,11 +175,11 @@ const [firefoxVariables, _] = await Promise.all(
         const result = await tryRequest(url);
 
         succeedLog(result, url);
-      })
+      }),
     );
 
     return extractedVariables;
-  })
+  }),
 );
 
 /**
@@ -177,8 +187,7 @@ const [firefoxVariables, _] = await Promise.all(
  */
 void (function () {
   const tagVar = firefoxVariables.get("TAGVER");
-  const actualVer =
-    firefoxVariables.get("WINVER") ||
+  const actualVer = firefoxVariables.get("WINVER") ||
     firefoxVariables.get("WIN64VER") ||
     firefoxVariables.get("LINUXVER") ||
     firefoxVariables.get("LINUX64VER") ||
@@ -187,7 +196,7 @@ void (function () {
   if (!tagVar) {
     succeedLog(
       false,
-      "TAGVER is not defined. You should specify it in dlfx_var.shtml."
+      "TAGVER is not defined. You should specify it in dlfx_var.shtml.",
     );
     return;
   }
@@ -204,7 +213,7 @@ void (function () {
   } else {
     succeedLog(
       false,
-      `TAGVER is not as expected. You should change the TAGVER in dlfx_var.shtml to “${expected}“.`
+      `TAGVER is not as expected. You should change the TAGVER in dlfx_var.shtml to “${expected}“.`,
     );
   }
 })();
