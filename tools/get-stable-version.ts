@@ -40,12 +40,12 @@ const [fxLatestVer, tbLatestVer] = await Promise.all(
     return deserializedResponse[
       id === "fx" ? "LATEST_FIREFOX_VERSION" : "LATEST_THUNDERBIRD_VERSION"
     ];
-  })
+  }),
 );
 
 console.log(
-  `The latest stable version of \x1b[1;33mFirefox\x1b[0m is \x1b[1m${fxLatestVer}\x1b[0m.`
+  `The latest stable version of \x1b[1;33mFirefox\x1b[0m is \x1b[1m${fxLatestVer}\x1b[0m.`,
 );
 console.log(
-  `The latest stable version of \x1b[1;34mThunderbird\x1b[0m is \x1b[1m${tbLatestVer}\x1b[0m.`
+  `The latest stable version of \x1b[1;34mThunderbird\x1b[0m is \x1b[1m${tbLatestVer}\x1b[0m.`,
 );
