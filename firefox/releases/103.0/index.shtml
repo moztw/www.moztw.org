@@ -1,0 +1,103 @@
+<!--#set var="release_date" value="2022-05-31" -->
+<!--#set var="version" value="101.0" -->
+<!--#set var="previous_version" value="100.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!-- <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li> -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>透過切換至更為現代的鎖API（<code>Mordon Lock API</code>），提高了在macOS在高CPU負載期間的反應能力。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>你總是會忘記什麼嗎? PDF表單中的必填欄位現在會突出顯示。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>改進了高更新率顯示器(120Hz+)的性能。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>喜歡<a target="_blank" href="https://support.mozilla.org/en-US/kb/about-picture-picture-firefox">子母畫面</a>的字幕功能嗎? 它變得更好了：你現在可以直接從子母畫面的視窗更改字幕字體的大小。此外它現在也可以在Funimation, Dailymotion, Tubi, Hotstar 和 SonyLIV 上使用。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可以使用Tab、Shift+Tab 和 Arrow 鍵來存取工作列中的各項按鈕。更多詳細資訊可以查看<a target="_blank" href="https://support.mozilla.org/en-US/kb/access-toolbar-functions-using-keyboard">此文章</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Windows的大文字輔助功能設定，現在會影響到所有UI及內容頁面，而不是應用於系統字體大小。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>開心! 現在在全新安裝Firefox後會在Windows 10和11中的任務列上固定，往後可以更方便的使用Firefox。（這也將允許Firefox在安裝後能更快的啟動。）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修補多個<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2022-28/">安全弱點</a>。 </p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>刪除了設定選項中允許SHA-1簽名選項:現在不支援證書中的SHA-1簽名（早已確定不再足夠安全）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/103">Firefox 103 開發者資訊</a></span>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 新增 <a target="_blank" href="https://drafts.csswg.org/css-values/#viewport-variants">large, small, dynamic viewport units</a> 及 (<a target="_blank" href="https://drafts.csswg.org/css-values/#valdef-length-vi">*vi</a> 與 <a target="_blank" href="https://drafts.csswg.org/css-values/#valdef-length-vb">*vb</a>) 等邏輯變數支援，提供使用者選擇讓網頁元素縮放到「最小」（動態工具列可視時）、「最大」（動態工具列隱藏時）或「變動」的 viewport 尺寸（根據動態工具列的現有狀態而定）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>你的資訊現在透過預設啟用的「全面Cookie保護」增強了對於線上追蹤的保護。所有第三方Cookie現在都隔離到分離的儲存區當中。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20101&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox101&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla101&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 103 的釋出，我們非常開心的歡迎以下首次貢獻程式到 Firefox 的貢獻者。與我們一起感謝這些勤奮與熱情的個人貢獻者，並看看他們的貢獻：</p>
+
+  <ul>
+    <li>martinh: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1475232">Bug 1475232</li>
+    <li>Anthony Hung: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=11774385">Bug 1774385</a></li>
+    <li>Eng_Esther: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1741787">Bug 1741787</a></li>
+    <li>Janika Neuberger: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1775011">Bug 1775011</a></li>
+    <li>Jason Prickett: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1770067">Bug 11770067</a></li>
+    <li>Jon Gjengset: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1710421">Bug 1710421</a></li>
+    <li>Pierre de La Morinerie: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=359303">Bug 359303</a></li>
+    <li>Salil Mishra: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1771760">Bug 1771760</a></li>
+    <li>Seweryn Pajor: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1769485">Bug 1769485</a></li>
+    <li>Wong Yi Xiong: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1768675">Bug 1768675</a> and <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1770545">Bug 1770545</a></li>
+    <li>Zoltán Szatmáry: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1595635">Bug 1595635</a> and <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1766821">Bug 1766821</a></li>
+    <li>kingwl: <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1704385">Bug 1704385</a></li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
