@@ -18,12 +18,12 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>Firefox 現在同時支援 <code>scroll-snap-stop</code> 以及<code>re-snapping</code>屬性。您可以使用 <code>scroll-snap-stop</code> 屬性的 always 和 normal 值來指定是否通過捕捉點，即使在快速滾動時也是如此。 在任何內容/佈局更改後，<code>Re-snapping</code>會嘗試保持最後的捕捉位置。</p>
+      <p>Firefox 現在同時支援 <code>scroll-snap-stop</code> 以及<code>re-snapping</code>屬性。您可以使用 <code>scroll-snap-stop</code> 屬性的 always 和 normal 值來指定是否通過捕捉點，即使在快速滾動時也是如此。 在任何內容/佈局更改後，<code>Re-snapping</code> 會嘗試保持最後的捕捉位置。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>Firefox 分析器可以分析網站的電源使用率。(僅限於Apple M1 及 Windows 11)</p>
+      <p>Firefox 分析器可以分析網站的電源使用率。(僅限於 Apple M1 及 Windows 11)</p>
       <p><img alt="" src="104_relnote.png"></p>
     </li>
     
@@ -34,17 +34,17 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>在Yahoo Mail及Outlook Mail的編輯器當中按下<code>Enter</code>鍵之後，突出顯示顏色將正確保留下來。</p>
+      <p>在 Yahoo Mail 及 Outlook Mail 的編輯器當中按下 <code>Enter</code> 鍵之後，突出顯示顏色將正確保留下來。</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>在繞過HTTPS的錯誤頁面之後，返回上一頁將帶你至先前已經關閉的錯誤頁面。現在會正確的帶你回到先前你所瀏覽的網站。</p>
+      <p>在繞過 HTTPS 的錯誤頁面之後，返回上一頁將帶你至先前已經關閉的錯誤頁面。現在會正確的帶你回到先前你所瀏覽的網站。</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>黏貼無格式的內容(shift+ctrl/cmd+v) 現在適用於純文字環境，例如輸入欄位和文字區域。</p>
+      <p>黏貼無格式的內容（shift+ctrl/cmd+v）現在適用於純文字環境，例如輸入欄位和文字區域。</p>
     </li>
 
     <li>
@@ -59,7 +59,8 @@
 
     <li>
       <span class="tag tag-enterprise">企業版</span>
-      <p>在最新的 Firefox 中修復多個 Bug 與加入新政策，您可在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-104-release-notes">Firefox 104 企業版版本資訊</a> 之中找到更多資訊。</p><br>Firefox 102 是新的擴展支援版本 （ESR）。Firefox 91 ESR 將於 2022 年 9 月 20 日停止支援。（有關詳細資訊，請參閱 102 ESR 發行說明）
+      <p>在最新的 Firefox 中修復多個 Bug 與加入新政策，您可在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-104-release-notes">Firefox 104 企業版版本資訊</a> 之中找到更多資訊。<br>
+      Firefox 102 是新的擴展支援版本 （ESR）。Firefox 91 ESR 將於 2022 年 9 月 20 日停止支援。（有關詳細資訊，請參閱 102 ESR 發行說明）
       </p>
     </li>
 
