@@ -1,0 +1,82 @@
+<!--#set var="release_date" value="2022-08-23" -->
+<!--#set var="version" value="104.0" -->
+<!--#set var="previous_version" value="103.0.2" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!-- <li class="untagged">
+      在 Mozilla，我們相信您有隱私權。您不該在上線時被追蹤，不論您正在查看銀行餘額、尋找最好的醫師或者買鞋子，不道德的追蹤公司不該有辦法在您瀏覽網路時追蹤您。因此，我們持續強化 Firefox，以替我們的使用者抵抗線上追蹤。
+    </li> -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Disney+ 的子母畫面已經推出。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 現在同時支援 <code>scroll-snap-stop</code> 以及<code>re-snapping</code>屬性。您可以使用 <code>scroll-snap-stop</code> 屬性的 always 和 normal 值來指定是否通過捕捉點，即使在快速滾動時也是如此。 在任何內容/佈局更改後，<code>Re-snapping</code> 會嘗試保持最後的捕捉位置。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 分析器可以分析網站的電源使用率。(僅限於 Apple M1 及 Windows 11)</p>
+      <p><img alt="" src="104_relnote.png"></p>
+    </li>
+    
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox UI 現在將於視窗最小化或是受到遮擋石限制效能及電池使用量，就如同背景分頁的效果一樣。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>在 Yahoo Mail 及 Outlook Mail 的編輯器當中按下 <code>Enter</code> 鍵之後，突出顯示顏色將正確保留下來。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>在繞過 HTTPS 的錯誤頁面之後，返回上一頁將帶你至先前已經關閉的錯誤頁面。現在會正確的帶你回到先前你所瀏覽的網站。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>黏貼無格式的內容（shift+ctrl/cmd+v）現在適用於純文字環境，例如輸入欄位和文字區域。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修補多個<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2022-33/">安全弱點</a>。 </p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>透過將音訊解碼移動到<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1722051">更加嚴格的沙盒單獨處理程序</a>中以提高安全性，從而改善程序隔離。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>在最新的 Firefox 中修復多個 Bug 與加入新政策，您可在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-104-release-notes">Firefox 104 企業版版本資訊</a> 之中找到更多資訊。<br>
+      Firefox 102 是新的擴展支援版本 （ESR）。Firefox 91 ESR 將於 2022 年 9 月 20 日停止支援。（有關詳細資訊，請參閱 102 ESR 發行說明）
+      </p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <span><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/104">Firefox 104 開發者資訊</a></span>
+    </li>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20101&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox101&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla101&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
