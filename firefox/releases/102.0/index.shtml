@@ -18,17 +18,17 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>如果你啟用了隱私保護的嚴格模式，Firefox現在可以減少你瀏覽網站時，網站連結自動帶入的追蹤參數。（如fbcid或utm_*）</p>
+      <p>如果你啟用了隱私保護的嚴格模式，Firefox 現在可以減少你瀏覽網站時，網站連結自動帶入的追蹤參數。（如 fbcid 或 utm_*）</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修復在Windows系統上使用螢幕閱讀器時，按下Enter鍵後不會在觸發錯誤的網頁元素或是切換到其他應用程式的視窗。對於那些盲人或視力非常有限的人，這項技術可以大聲朗讀螢幕上的內容，使用者可以根據自己的需求進行調整。</p>
+      <p>修復在 Windows 系統上使用螢幕閱讀器時，按下 Enter 鍵後不會在觸發錯誤的網頁元素或是切換到其他應用程式的視窗。對於那些盲人或視力非常有限的人，這項技術可以大聲朗讀螢幕上的內容，使用者可以根據自己的需求進行調整。</p>
     </li>
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修補多個<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2022-24/">安全弱點</a>。 </p>
+      <p>修補多個<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2022-24/">安全弱點</a>。</p>
     </li>
 
     <li>
@@ -38,7 +38,7 @@
 
     <li>
       <span class="tag tag-enterprise">企業版</span>
-      <p>在最新的 Firefox 中修復多個 Bug 與加入新政策，您可在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-102-release-notes">Firefox 102 企業版版本資訊</a> 之中找到更多資訊。</p><br>Firefox 102 是新的擴展支援版本 （ESR）。Firefox 91 ESR 將於 2022 年 9 月 20 日停止支援。（有關詳細資訊，請參閱 102 ESR 發行說明）
+      <p>在最新的 Firefox 中修復多個 Bug 與加入新政策，您可在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-102-release-notes">Firefox 102 企業版版本資訊</a> 之中找到更多資訊。</p><br>Firefox 102 是新的擴展支援版本（ESR）。Firefox 91 ESR 將於 2022 年 9 月 20 日停止支援。（有關詳細資訊，請參閱 102 ESR 發行說明）
       </p>
     </li>
 
