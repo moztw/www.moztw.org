@@ -13,12 +13,12 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>透過切換至更為現代的鎖API（<code>Mordon Lock API</code>），提高了在macOS在高CPU負載期間的反應能力。</p>
+      <p>更換至更為現代的上鎖 API（<code>modern lock API</code>），提高了在 macOS 在高 CPU 負載期間的反應能力。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>你總是會忘記什麼嗎? PDF表單中的必填欄位現在會突出顯示。</p>
+      <p>你總是會忘記什麼嗎? PDF 表單中現在會突顯必填欄位。</p>
     </li>
 
     <li>
@@ -28,22 +28,22 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>喜歡<a target="_blank" href="https://support.mozilla.org/en-US/kb/about-picture-picture-firefox">子母畫面</a>的字幕功能嗎? 它變得更好了：你現在可以直接從子母畫面的視窗更改字幕字體的大小。此外它現在也可以在Funimation, Dailymotion, Tubi, Hotstar 和 SonyLIV 上使用。</p>
+      <p>喜歡<a target="_blank" href="https://support.mozilla.org/en-US/kb/about-picture-picture-firefox">子母畫面</a>的字幕功能嗎? 它變得更好了：你現在可以直接從子母畫面的視窗更改字幕字體的大小。此外它現在也可以在 Funimation, Dailymotion, Tubi, Hotstar 和 SonyLIV 上使用。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>現在可以使用Tab、Shift+Tab 和 Arrow 鍵來存取工作列中的各項按鈕。更多詳細資訊可以查看<a target="_blank" href="https://support.mozilla.org/en-US/kb/access-toolbar-functions-using-keyboard">此文章</a>。</p>
+      <p>現在可以使用 Tab、Shift+Tab 和 Arrow 鍵來存取工作列中的各項按鈕。更多詳細資訊可以查看<a target="_blank" href="https://support.mozilla.org/en-US/kb/access-toolbar-functions-using-keyboard">此文章</a>。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>Windows的大文字輔助功能設定，現在會影響到所有UI及內容頁面，而不是應用於系統字體大小。</p>
+      <p>Windows 的大文字輔助功能設定，現在會影響到所有 UI 及內容頁面，而不是應用於系統字體大小。</p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>開心! 現在在全新安裝Firefox後會在Windows 10和11中的任務列上固定，往後可以更方便的使用Firefox。（這也將允許Firefox在安裝後能更快的啟動。）</p>
+      <p>開心! 現在在全新安裝的 Firefox 會固定到 Windows 10 和 11 的任務列上，往後可以更方便的使用 Firefox。（這也將允許 Firefox 在安裝後能更快的啟動。）</p>
     </li>
 
     <li>
@@ -53,7 +53,7 @@
 
     <li>
       <span class="tag tag-changed">變更</span>
-      <p>刪除了設定選項中允許SHA-1簽名選項:現在不支援證書中的SHA-1簽名（早已確定不再足夠安全）</p>
+      <p>刪除了設定選項中允許 SHA-1 簽名選項：不再支援證書中的 SHA-1 簽名（早已確定不再足夠安全）</p>
     </li>
 
     <li>
@@ -68,7 +68,7 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>你的資訊現在透過預設啟用的「全面Cookie保護」增強了對於線上追蹤的保護。所有第三方Cookie現在都隔離到分離的儲存區當中。</p>
+      <p>你的資訊現在透過預設啟用的「全面 Cookie 保護」增強了對於線上追蹤的保護。所有第三方 Cookie 現在都隔離到分離的儲存區當中。</p>
     </li>
   </ul>
 
