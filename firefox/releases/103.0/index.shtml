@@ -1,6 +1,6 @@
-<!--#set var="release_date" value="2022-05-31" -->
-<!--#set var="version" value="101.0" -->
-<!--#set var="previous_version" value="100.0.2" -->
+<!--#set var="release_date" value="2022-07-26" -->
+<!--#set var="version" value="103.0" -->
+<!--#set var="previous_version" value="102.5.0" -->
 
 <!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
 
