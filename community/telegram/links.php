@@ -17,7 +17,7 @@ $links = [
     ],
 
     [
-        'id' => 'DqQyg9qjmuFkMzhl',
+        'id' => 'VwuZEIkToMEyYTZl',
         'name' => 'MozTW',
         'description' => 'MozTW 社群綜合討論群組',
         'introduction' => '通用頻道。歡迎新手從此開始參與，各式各樣的專案、想法都可以在此提出。',
