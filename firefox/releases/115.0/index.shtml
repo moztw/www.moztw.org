@@ -123,7 +123,7 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>現已支援 <a href="https://developer.mozilla.org/docs/Web/CSS/animation-composition" target="_blank">animation-composition</a> 屬性，當多個動畫效果同時影響同個屬性時，允許以宣告方式定義複合時的行為。</p>
+      <p>現已支援 <a href="https://developer.mozilla.org/docs/Web/CSS/animation-composition" target="_blank">animation-composition</a> 屬性，當多個動畫效果同時影響同個屬性時，提供一種宣告方式以定義應使用何種合成行為。</p>
     </li>
 
     <li>
