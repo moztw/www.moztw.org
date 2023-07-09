@@ -26,7 +26,7 @@
       <p>Firefox 分析器可以分析網站的電源使用率。(僅限於 Apple M1 及 Windows 11)</p>
       <p><img alt="" src="104_relnote.png"></p>
     </li>
-    
+
     <li>
       <span class="tag tag-new">全新功能</span>
       <p>Firefox UI 現在將於視窗最小化或是受到遮擋石限制效能及電池使用量，就如同背景分頁的效果一樣。</p>
@@ -68,6 +68,7 @@
       <span class="tag tag-developer">開發功能</span>
       <span><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/104">Firefox 104 開發者資訊</a></span>
     </li>
+  </ul>
 
   <ul class="tags">
     <li class="complete">
