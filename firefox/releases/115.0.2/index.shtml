@@ -1,0 +1,52 @@
+<!--#set var="release_date" value="2023-07-11" -->
+<!--#set var="version" value="115.0.2" -->
+<!--#set var="previous_version" value="115.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li id="note-789653">
+      <span class="tag tag-fixed">修正</span>
+      <p>阻擋某個可疑的注入 DLL 以修復某些 Windows 10 與 11 使用者啟動時遭遇的當機 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1841751">bug 1841751</a>)</p>
+    </li>
+
+    <li id="note-789654">
+      <span class="tag tag-fixed">修正</span>
+      <p>修正在某些網站的文字編輯器中顯示插入符號（<code>^</code>）的問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1840804">bug 1840804</a>)</p>
+    </li>
+
+    <li id="note-789655">
+      <span class="tag tag-fixed">修正</span>
+      <p>修正某些網站上的聲音渲染問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1841982">bug 1841982</a>)</p>
+    </li>
+
+    <li id="note-789656">
+      <span class="tag tag-fixed">修正</span>
+      <p>修正在計算 <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/patternTransform">patternTransform</a> 時使用了錯誤單位 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1840746">bug 1840746</a>) </p>
+    </li>
+
+    <li id="note-789657">
+      <span class="tag tag-fixed">修正</span>
+      <p>一個<a href="https://www.mozilla.org/security/advisories/mfsa2023-26/">安全性更新</a>。</p>
+    </li>
+
+    <li id="note-789658">
+      <span class="tag tag-fixed">修正</span>
+      <p>修正影響 Windows 7 使用者的一個跟 <a href="https://hacks.mozilla.org/2023/03/letting-users-block-injected-third-party-dlls-in-firefox/">DLL 阻擋清單</a>有關的當機。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20115&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox115&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla115&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
