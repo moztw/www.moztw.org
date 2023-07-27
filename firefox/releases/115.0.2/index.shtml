@@ -8,14 +8,9 @@
 
   <h2>Firefox 新鮮事</h2>
   <ul class="tags">
-    <li>
-      <span class="tag tag-fixed">修正</span>
-      <p>在安裝 Kingsoft 防毒軟體的 Windows 上修正啟動時的當機問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1837242" target="_blank">bug 1837242</a>)</p>
-    </li>
-
     <li id="note-789653">
       <span class="tag tag-fixed">修正</span>
-      <p>阻擋某些可疑的注入 DLL 以修復某些 Windows 10 與 11 使用者遭遇的啟動當機 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1841751">bug 1841751</a>)</p>
+      <p>阻擋某個可疑的注入 DLL 以修復某些 Windows 10 與 11 使用者啟動時遭遇的當機 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1841751">bug 1841751</a>)</p>
     </li>
 
     <li id="note-789654">
@@ -30,7 +25,7 @@
 
     <li id="note-789656">
       <span class="tag tag-fixed">修正</span>
-      <p>修正在 <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/patternTransform">patternTransform</a> 計算時使用了錯誤單位的問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1840746">bug 1840746</a>) </p>
+      <p>修正在計算 <a href="https://developer.mozilla.org/docs/Web/SVG/Attribute/patternTransform">patternTransform</a> 時使用了錯誤單位 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1840746">bug 1840746</a>) </p>
     </li>
 
     <li id="note-789657">
@@ -40,7 +35,7 @@
 
     <li id="note-789658">
       <span class="tag tag-fixed">修正</span>
-      <p>修正影響 Windows 7 使用者的一個跟 <a href="https://hacks.mozilla.org/2023/03/letting-users-block-injected-third-party-dlls-in-firefox/">DLL 阻擋清單</a> 有關的當機。</p>
+      <p>修正影響 Windows 7 使用者的一個跟 <a href="https://hacks.mozilla.org/2023/03/letting-users-block-injected-third-party-dlls-in-firefox/">DLL 阻擋清單</a>有關的當機。</p>
     </li>
   </ul>
 
