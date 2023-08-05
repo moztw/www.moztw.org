@@ -1,0 +1,133 @@
+<!--#set var="release_date" value="2023-08-01" -->
+<!--#set var="version" value="116.0" -->
+<!--#set var="previous_version" value="115.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!--
+    <li class="untagged">
+      <p>
+        2023 年的 1 月，Microsoft 終止了對 Windows 7 以及 Windows 8 的支援；因此，這個 Firefox 版本將是這些作業系統使用者最後能收到的版本。Windows 7 和 Windows 8 的使用者將會自動轉移到 Firefox ESR 115 版，以便繼續接收重要的安全更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-windows-7-8-and-81-moving-extended-support" target="_blank">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        同樣地，這個 Firefox 版本也會是最後一個支援 Apple macOS 10.12、10.13 和 10.14 的主要版本。這些作業系統的使用者將會自動轉移到 Firefox 的 ESR 115 版本，使這些使用者依然可以接收重要的安全性更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        這裡我們想特別感謝所有為此次 Firefox 發行版做出貢獻的新摩茲人！
+      </p>
+    </li>
+    -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>側邊欄讓使用者可以輕鬆地存取書籤、歷史記錄和同步的分頁等面板，快速在它們之間切換，將側邊欄移動到視窗的另一側，或關閉側邊欄。現在，用鍵盤也可以輕鬆完成這些操作，無論是否運行任何輔助技術，也不需要記憶鍵盤快捷鍵來存取這些面板。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>當英文版有可用的更新時，使用者可以透過更新通知中的「Learn More」連結來閱讀版本說明。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可以從作業系統中複製任何文件，並將其貼上到 Firefox 中。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>您提出要求，我們從善如流！現在影片的子母畫面中有音量滾動條了。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>我們在 PDF 中增加了編輯現有文本註釋（text annotations）的功能。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>HTTP/2 的上傳效能從 Firefox 115.0 開始顯著提高，特別是對於具有較高的頻寬延遲的產品（同時有高頻寬與高延遲特徵的網路）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2023-29/">安全性修正</a>。 </p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>密碼輸入欄位現已支援「復原」與「取消復原」。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>重新打開已關閉分頁的鍵盤快速鍵（command + shift + t），現在會按照關閉的順序，重新開啟最後關閉的分頁及視窗。如果沒有任何分頁或視窗可以重開，此命令將恢復上一個瀏覽狀態（session）。此一調整旨在迎接「最近關閉的分頁」即將到來的改變。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-116-release-notes">Firefox 116 企業版版本資訊</a>中找到政策更新和企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/116">Firefox 116 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>支援 <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#dirname"><code>dirname</code></a> 屬性，可提供伺服器 input 與 textarea 元件的文字方向資訊。（<a target="_blank" href="https://www.w3.org/International/questions/qa-html-dir#reportingdirection">深入了解</a>）
+        </p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>Firefox 現在支持 CSP3 <a target="_blank" href="https://w3c.github.io/webappsec-csp/#external-hash">external hashes</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Audio_Output_Devices_API">聲音輸出設備 API</a> 現在使網站能夠將媒體元件的聲音導向到非系統預設裝置的輸出設備（喇叭）。例如，WebRTC 會議網站現在可以將聲音導向到耳機中的喇叭或外部喇叭。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>使用自訂格式化套件（custom formatters），網站可以定義如何在開發者工具的多處顯示特定的 JavaScript 物件和函式。此功能預設停用，可通過<a href="https://firefox-source-docs.mozilla.org/devtools-user/settings/index.html" target="_blank">設定面板</a>啟動。（<a href="https://fxdx.dev/firefox-devtools-custom-object-formatters/" target="_blank" rel="noopener">深入了解</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>本版本現在支援 Fetch 和 WebTransport 上真正的 BYOB 讀取器，讓開發人員可以準備 ArrayBuffer，以便讀取請求時重複使用以節省記憶體分配。先前的版本中已支持 Fetch 和 WebTransport 串流上的 <code>.getReader({ mode: "byob" })</code>，但並非真正的 BYOB 支援，因為內部仍然會重新分配新的記憶體。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20116&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox116&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla116&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 116 的發布，我們非常開心的歡迎以下首次貢獻程式到 Firefox 的貢獻者，其中有 9 位是全新的志工！請與我們一同感謝這些勤奮和熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Amin Bandali [:bandali]: <a href="https://bugzilla.mozilla.org/1836718">1836718</a></li>
+    <li>Hunseop Jeong: <a href="https://bugzilla.mozilla.org/1826904">1826904</a></li>
+    <li>Jake Senne: <a href="https://bugzilla.mozilla.org/1840882">1840882</a></li>
+    <li>jijnyasa.goat: <a href="https://bugzilla.mozilla.org/1834752">1834752</a></li>
+    <li>Matt Moldenhauer [:TheMattHatter01] (He/Him): <a href="https://bugzilla.mozilla.org/1802152">1802152</a></li>
+    <li>Mitesh: <a href="https://bugzilla.mozilla.org/1838149">1838149</a></li>
+    <li>Nicolas Avrutin: <a href="https://bugzilla.mozilla.org/1838322">1838322</a></li>
+    <li>patrickkettner: <a href="https://bugzilla.mozilla.org/1835723">1835723</a></li>
+    <li>thiagoms.15: <a href="https://bugzilla.mozilla.org/1837832">1837832</a></li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
