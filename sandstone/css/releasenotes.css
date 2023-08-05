@@ -22,7 +22,7 @@
   padding: 0;
 }
 
-#releasenotes ul.tags>li {
+#releasenotes ul.tags > li {
   line-height: 1.5;
   list-style-type: none;
   margin: 0;
@@ -32,7 +32,7 @@
   position: relative;
 }
 
-#releasenotes ul.tags>li>ul {
+#releasenotes ul.tags > li > ul {
   padding-left: 20px;
   margin: 2px 0;
 }
@@ -215,6 +215,14 @@
   background: rgba( 0, 0, 0, .06 );
   padding: 0.1em 0.2em;
   font-size: 0.95em;
+}
+
+#whatsnew a {
+  text-decoration: underline;
+}
+
+#whatsnew a:hover {
+  text-decoration: none;
 }
 
 #whatsnew .mdn-icon:after {
