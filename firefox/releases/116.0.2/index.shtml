@@ -1,0 +1,27 @@
+<!--#set var="release_date" value="2023-08-07" -->
+<!--#set var="version" value="116.0.2" -->
+<!--#set var="previous_version" value="116.0.1" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+
+    <li id="note-789696">
+      <p>修正使用 ZoneAlarm 反按鍵紀錄軟體（anti-keylogger）的使用者，其按鍵輸入會被打亂的問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1847033">bug 1847033</a>)</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      <!--請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20116&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox116&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla116&v2=fixed%2Cverified&limit=0">完整變更清單</a>。-->
+      您可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
