@@ -1,0 +1,107 @@
+<!--#set var="release_date" value="2023-09-26" -->
+<!--#set var="version" value="118.0" -->
+<!--#set var="previous_version" value="117.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!--
+    <li class="untagged">
+      <p>
+        2023 年的 1 月，Microsoft 終止了對 Windows 7 以及 Windows 8 的支援；因此，這個 Firefox 版本將是這些作業系統使用者最後能收到的版本。Windows 7 和 Windows 8 的使用者將會自動轉移到 Firefox ESR 115 版，以便繼續接收重要的安全更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-windows-7-8-and-81-moving-extended-support" target="_blank">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        同樣地，這個 Firefox 版本也會是最後一個支援 Apple macOS 10.12、10.13 和 10.14 的主要版本。這些作業系統的使用者將會自動轉移到 Firefox 的 ESR 115 版本，使這些使用者依然可以接收重要的安全性更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        這裡我們想特別感謝所有為此次 Firefox 發行版做出貢獻的新摩茲人！
+      </p>
+    </li>
+    -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現已為 Firefox 使用者提供網頁內容的自動翻譯功能！與雲端為基礎的替代產品不同，翻譯是在 Firefox 中本地進行的，因此翻譯的文本不會離開您的電腦。感謝歐盟 <a href="https://blog.mozilla.org/en/mozilla/local-translation-add-on-project-bergamot/" target="_blank">Bergamot</a> 研發專案的各個合作夥伴。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 中的 Web Audio 現在在所有系統上使用 FDLIBM 數學函式庫，以提高<a href="https://support.mozilla.org/kb/firefox-protection-against-fingerprinting" target="_blank">指紋保護</a>的匿名性。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在為了緩解隱私視窗中的字體指紋識別，網站對字體的可見性已經限制在系統字體和語言包字體。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在 Firefox 使用者可以在 Google Meet 上使用視覺效果和背景模糊！（附註：這些效果也已經向前相容到 Firefox 115。）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox Suggest 使用者（目前僅限美國）現在可以直接在網址列中看到根據關鍵字提供的建議瀏覽器附加元件。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/en-US/security/advisories/mfsa2023-41/">安全性修正</a>。 </p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-118-release-notes">Firefox 118 企業版版本資訊</a>中找到政策更新和企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/118">Firefox 118 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>現在支持 10 個新的 CSS 數學函數：<code>round</code>、<code>mod</code>、<code>rem</code>、<code>pow</code>、<code>sqrt</code>、<code>hypot</code>、<code>log</code>、<code>exp</code>、<code>abs</code>、<code>sign</code>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>現在已經預設啟用 <a href="https://github.com/annevk/orb" target="_blank">OpaqueResponseBlocking</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>開始支援 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/search" target="_blank"><code>&lt;search&gt;</code></a> 元素。 <code>&lt;search&gt;</code> 元素是一個群組元素，用以容納所有用於搜尋或篩選操作的元素。</p>
+    </li>
+
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20118&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox118&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla118&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 118 的發布，我們非常開心的歡迎以下首次貢獻程式到 Firefox 的貢獻者，其中有 8 位是全新的志工！請與我們一同感謝這些勤奮和熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Andrew de Rozario: <a target="_blank" href="https://bugzilla.mozilla.org/1791983">1791983</a></li>
+    <li>jackyzy823: <a target="_blank" href="https://bugzilla.mozilla.org/1847513">1847513</a></li>
+    <li>Janne Heß: <a target="_blank" href="https://bugzilla.mozilla.org/1460986">1460986</a></li>
+    <li>Krishna Ravishankar: <a target="_blank" href="https://bugzilla.mozilla.org/1578994">1578994</a></li>
+    <li>Rayyan: <a target="_blank" href="https://bugzilla.mozilla.org/1844745">1844745</a></li>
+    <li>Shauryadubey123: <a target="_blank" href="https://bugzilla.mozilla.org/1819352">1819352</a></li>
+    <li>Simon Thoby: <a target="_blank" href="https://bugzilla.mozilla.org/1832576">1832576</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1847763">1847763</a></li>
+    <li>wujiahuan: <a target="_blank" href="https://bugzilla.mozilla.org/1782159">1782159</a></li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

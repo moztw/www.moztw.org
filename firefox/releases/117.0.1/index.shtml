@@ -1,0 +1,65 @@
+<!--#set var="release_date" value="2023-09-12" -->
+<!--#set var="version" value="117.0.1" -->
+<!--#set var="previous_version" value="117.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+
+    <li id="note-789740">
+      <span class="tag tag-fixed">修正</span>
+      <p>在 macOS 上，修正從 Firefox 以外的地方開啟連結時無法開啟的問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1850828">bug 1850828</a>)</p>
+    </li>
+
+    <li id="note-789739">
+      <span class="tag tag-fixed">修正</span>
+      <p>修正使用事件頁面來執行長時間任務的擴充套件，會在執行時被終止，而導致意外的行為變更 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1851373">bug 1851373</a>)</p>
+    </li>
+
+    <li id="note-789738">
+      <span class="tag tag-fixed">修正</span>
+      <p>暫時還原了一項計畫中的行為變更，該變更會阻止 Javascript 更動 <code>URL.protocol</code> (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1850954">bug 1850954</a>)。<br>
+      <strong>附註：</strong>此項改變仍將會在稍後的 Firefox 版本中與其他網頁瀏覽器一同發布。如需變更協定時，我們鼓勵網站以其他方式進行。</p>
+    </li>
+
+    <li id="note-789737">
+      <span class="tag tag-fixed">修正</span>
+      <p>修正使用 WebAssembly 例外處理的網站 audio worklets 無法運作的問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1851468">bug 1851468</a>)</p>
+    </li>
+
+    <li id="note-789736">
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 <code>最近關閉的分頁</code> 選單中的 <code>回復所有分頁</code> 有時無法開啟所有分頁的問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1850856">bug 1850856</a>)</p>
+    </li>
+
+    <li id="note-789735">
+      <span class="tag tag-fixed">修正</span>
+      <p>修正書籤選單有時在最小化 Firefox 時仍然部分可見的問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1843700">bug 1843700</a>)</p>
+    </li>
+
+    <li id="note-789734">
+      <span class="tag tag-fixed">修正</span>
+      <p>修正某些網站偵測到的時區不正確的問題 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1848615">bug 1848615</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p><a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2023-40/">安全性修正</a>。</p>
+    </li>
+
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      <!--請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20116&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox116&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla116&v2=fixed%2Cverified&limit=0">完整變更清單</a>。-->
+      您可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
