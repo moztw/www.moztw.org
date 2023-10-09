@@ -291,8 +291,7 @@
       <a href="/news">最新消息與公告</a>
     </h2>
     <!--#include virtual="/inc/news.html" -->
-    </ul>
-    <!-- start tag is in inc/news.html, DO NOT REMOVE -->
+
     <br style="clear: both;">
     <a href="news">所有公告記錄</a>
   </div>
