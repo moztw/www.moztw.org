@@ -1,0 +1,124 @@
+<!--#set var="release_date" value="2023-08-29" -->
+<!--#set var="version" value="117.0" -->
+<!--#set var="previous_version" value="116.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!--
+    <li class="untagged">
+      <p>
+        2023 年的 1 月，Microsoft 終止了對 Windows 7 以及 Windows 8 的支援；因此，這個 Firefox 版本將是這些作業系統使用者最後能收到的版本。Windows 7 和 Windows 8 的使用者將會自動轉移到 Firefox ESR 115 版，以便繼續接收重要的安全更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-windows-7-8-and-81-moving-extended-support" target="_blank">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        同樣地，這個 Firefox 版本也會是最後一個支援 Apple macOS 10.12、10.13 和 10.14 的主要版本。這些作業系統的使用者將會自動轉移到 Firefox 的 ESR 115 版本，使這些使用者依然可以接收重要的安全性更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        這裡我們想特別感謝所有為此次 Firefox 發行版做出貢獻的新摩茲人！
+      </p>
+    </li>
+    -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在信用卡自動填充功能已擴展到 IT、ES、AT、BE 和 PL 語系的 Firefox 使用者。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>macOS 用戶現在可以在 about:preferences 內切換是否使用 Tab 在表單控制元件和鏈接間移動焦點（tabability）。</p>
+      <img src="117_macos_tab_key.png" alt="Firefox 設定視窗內的 Tab 焦點切換抓圖" />
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在那些擁有自訂行為的網站上，為了避免在按下 shift+右鍵 時出現非預期結果，Firefox 現在有一個 <code>dom.event.contextmenu.shift_suppresses_event</code> 偏好設置，可以停止右鍵選單出現。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>使用螢幕閱讀器來瀏覽時，YouTube 影片列表時現在可以正確捲動。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2023-34/">安全性修正</a>。 </p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>在 Wayland 桌面環境中，Firefox 不再顯示自己的螢幕分享指示。將使用系統預設的分享指示。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-117-release-notes">Firefox 117 企業版版本資訊</a>中找到政策更新和企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/117">Firefox 117 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>開發者工具的相容性面板，現在增加了新的 CSS 相容性資訊。有相容性問題的屬性旁邊會出現圖示。當游標指向圖示時，工具提示會指出哪些瀏覽器不支援。且該屬性會連結到對應的 MDN 頁面，以便使用者了解更多資訊。</p>
+      <img src="117_devtools_compat.png" alt="Firefox 開發工具中的 CSS 相容性工具抓圖" />
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>如果啟用了「保留紀錄」選項，<code>console.clear()</code> 現在不再會清除主控台輸出。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>現在已預設啟動改進 CSS 嵌套（improved CSS nesting）支援。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <code>RTCRtpScriptTransform</code>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>現在支援 <a href="https://developer.mozilla.org/docs/Web/API/ReadableStream/from_static" target="_blank"><code>ReadableStream.from</code></a>，允許從（非同步的）可迭代物件建立 ReadableStream。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a href="https://developer.mozilla.org/docs/Web/CSS/math-style" target="_blank"><code>math-style</code></a> 和 <a href="https://developer.mozilla.org/docs/Web/CSS/math-depth" target="_blank"><code>math-depth</code></a> CSS 屬性，以及 <a href="https://developer.mozilla.org/docs/Web/CSS/font-size" target="_blank"><code>font-size: math</code></a> 值。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20117&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox117&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla117&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 117 的發布，我們非常開心的歡迎以下首次貢獻程式到 Firefox 的貢獻者，其中有 9 位是全新的志工！請與我們一同感謝這些勤奮和熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Cassio Neri: <a target="_blank" href="https://bugzilla.mozilla.org/1828326">1828326</a></li>
+    <li>David Turner: <a target="_blank" href="https://bugzilla.mozilla.org/1836063">1836063</a></li>
+    <li>Devesh Bisen: <a target="_blank" href="https://bugzilla.mozilla.org/1840583">1840583</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1841131">1841131</a></li>
+    <li>Lin Runze: <a target="_blank" href="https://bugzilla.mozilla.org/1842131">1842131</a></li>
+    <li>Logan Rosen [:Logan]: <a target="_blank" href="https://bugzilla.mozilla.org/1692849">1692849</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1843815">1843815</a></li>
+    <li>ren: <a target="_blank" href="https://bugzilla.mozilla.org/1753033">1753033</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1842971">1842971</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1844492">1844492</a></li>
+    <li>Vinny Diehl: <a target="_blank" href="https://bugzilla.mozilla.org/1262782">1262782</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1707974">1707974</a></li>
+    <li>Willy R. Vasquez: <a target="_blank" href="https://bugzilla.mozilla.org/1829765">1829765</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1843418">1843418</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1843419">1843419</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1845186">1845186</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1845798">1845798</a></li>
+    <li>Xi Ruoyao: <a target="_blank" href="https://bugzilla.mozilla.org/1841040">1841040</a></li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
