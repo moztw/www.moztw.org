@@ -10,18 +10,22 @@
   <ul class="tags">
 
     <li id="note-789698">
+      <span class="tag tag-fixed">修正</span>
       <p>修正使用 OPFS 的使用者（尤其是 Adobe Photoshop 的使用者）無法存取先前版本中已經在本機快取的檔案的問題 (<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1847989">bug 1847989</a>, <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1847619">bug 1847619</a>)</p>
     </li>
 
     <li id="note-789699">
+      <span class="tag tag-fixed">修正</span>
       <p>修正在 Wayland 上，某些使用者無法分享螢幕的問題 (<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1841851">bug 1841851</a>)</p>
     </li>
 
     <li id="note-789700">
+      <span class="tag tag-fixed">修正</span>
       <p>修正使用者即使已經停用全螢幕通知，但仍然持續顯示的問題 (<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1847901">bug 1847901</a>)</p>
     </li>
 
     <li id="note-789701">
+      <span class="tag tag-fixed">修正</span>
       <p>修正 Firefox 在進行 Google 搜尋時會當機的問題 (<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1847066">bug 1847066</a>)</p>
     </li>
   </ul>
