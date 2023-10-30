@@ -1,0 +1,155 @@
+<!--#set var="release_date" value="2023-10-24" -->
+<!--#set var="version" value="119.0" -->
+<!--#set var="previous_version" value="118.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!--
+    <li class="untagged">
+      <p>
+        2023 年的 1 月，Microsoft 終止了對 Windows 7 以及 Windows 8 的支援；因此，這個 Firefox 版本將是這些作業系統使用者最後能收到的版本。Windows 7 和 Windows 8 的使用者將會自動轉移到 Firefox ESR 115 版，以便繼續接收重要的安全更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-windows-7-8-and-81-moving-extended-support" target="_blank">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        同樣地，這個 Firefox 版本也會是最後一個支援 Apple macOS 10.12、10.13 和 10.14 的主要版本。這些作業系統的使用者將會自動轉移到 Firefox 的 ESR 115 版本，使這些使用者依然可以接收重要的安全性更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        這裡我們想特別感謝所有為此次 Firefox 發行版做出貢獻的新摩茲人！
+      </p>
+    </li>
+    -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>對 Firefox 119 使用者逐步釋出包含更多內容的 <a href="https://support.mozilla.org/kb/how-set-tab-pickup-firefox-view" target="_blank">Firefox View</a>。你現在可以看到所有視窗的已開啟分頁，以及來自其他裝置的分頁（如有啟用「開啟分頁」同步）。現在也會列出瀏覽記錄，可以按日期或按網站排序。一如過往，「最近關閉的分頁」也列在 Firefox View 中。</p>
+      <p>若要使用 Firefox View，請點擊分頁列最左方的「資料夾」圖示。</p>
+      <img src="119_firefox_view.png" alt="螢幕截圖：Firefox View 顯示開啟分頁與其他裝置的分頁的" />
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>對 Firefox 119 使用者逐步釋出：在編輯 PDF 時，除了加入文字和繪畫之外，現在還可以新增圖片和替代文字。</p>
+      <img src="119_pdf_alt_text.png" alt="螢幕截圖：一個紅色狐狸的圖片被加入 PDF 中。替代文字工具在照片的左方開啟並得以加入圖片說明文字" />
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>「最近關閉的分頁」現在會在未啟用「開啟先前的視窗與分頁」時保留。手動「回復先前的瀏覽狀態」仍將重新打開任何先前開啟的分頁與視窗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>如果你從 Chrome 匯入資料，Firefox 現在提供匯入部分擴充套件的功能。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>作為 <a href="https://blog.mozilla.org/mozilla/firefox-rolls-out-total-cookie-protection-by-default-to-all-users-worldwide/" target="_blank">全方位 Cookie 保護</a> 的一部分，Firefox 現在支援 <a href="https://developer.mozilla.org/docs/Web/API/Blob" target="_blank">Blob URL</a> 的分隔儲存，以減少第三方代理可用來追蹤個人的潛在要素。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在「<a href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop#w_strict-enhanced-tracking-protection" target="_blank" rel="noopener">加強型追蹤保護</a>」的嚴格模式下，網站可見的字體限制在系統字體和語言包字體等，以減緩字體指紋辨識。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>更新 <a href="https://developer.mozilla.org/docs/Web/API/Storage_Access_API" target="_blank">Storage Access API</a> 網路標準，以提高安全性，同時減少網站故障，並使 Firefox 向淘汰第三方 Cookie 再進一步。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>加密客戶端問候 (Encrypted Client Hello, ECH) 現在可供 Firefox 使用者使用，提供更隱私的瀏覽體驗。ECH 將 TLS 連線時的加密擴展到更多的握手步驟，並更好地保護敏感欄位。<a href="https://blog.mozilla.org/en/products/firefox/encrypted-hello/" target="_blank">到 Mozilla Distilled</a> 進一步閱讀 ECH 釋出的更多資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>多媒體探測（Media sniffing）不再用於 <code>application/octet-stream</code> 類型的檔案，現在會下載這些檔案而非嘗試播放。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在 Windows 上，如果在 <a href="https://support.microsoft.com/zh-tw/windows/%E8%AE%8A%E6%9B%B4%E6%BB%91%E9%BC%A0%E8%A8%AD%E5%AE%9A-e81356a4-0e74-fe38-7d01-9d79fbf8712b" target="_blank" rel="noopener">滑鼠設定</a> 中啟用「打字時隱藏指標」，則輸入時將會隱藏滑鼠指標。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 現在提供桑塔利文（Santali, sat）版本。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修復了導致在 Facebook 上捲動位置時意外跳動的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2023-45/">安全性修正</a>。 </p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-119-release-notes">Firefox 119 企業版版本資訊</a>中找到政策更新和企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/119">Firefox 119 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>對非作用 CSS 樣式（Inactive CSS styles）功能進行數個改進。此功能協助辨識對元素沒有影響的 CSS 屬性。現在完整支援諸如 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1842175" target="_blank">::first-letter</a>、<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1849235" target="_blank">::cue</a> 和 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1849255" target="_blank">::placeholder</a> 等偽元素。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>JSON 檢視器在 REST API 除錯時特別有用，它會以格式化的樣式顯示回應的 JSON 內容。現在，如果 JSON 無效或損毀，會自動<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1764897" target="_blank" rel="noopener">切換回</a>原始資料檢視，改善使用者體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>現在支援 <a href="https://developer.mozilla.org/docs/Web/API/ElementInternals#instance_properties_included_from_aria" target="_blank">Custom Elements</a> 的簡單屬性（simple attributes）和預設可及性語意（default Accessibility Semantics）的 <a href="https://developer.mozilla.org/docs/Web/API/Element#instance_properties_included_from_aria" target="_blank">ARIA reflection</a> 。請注意，這包括布林值、枚舉、數字和字串屬性，但不包括參考其他元素的屬性。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><a href="https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy" target="_blank">Cross-Origin-Embedder-Policy</a> 現在支援 <code >credentialless</code>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>CSS <a href="https://developer.mozilla.org/docs/Web/CSS/attr" target="_blank">attr()</a> 函數現在支援帶入一個預設參數，例如 <code>attr(foobar, &quot;Default value&quot;)</code>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>透過使用 <code>Object.groupBy</code> 或 <code>Map.groupBy</code> 方法，現在更容易對陣列（和可迭代物件）中的項目進行分組。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox 119&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox119&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla119&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 119 的發布，我們喜迎以下首次貢獻程式到 Firefox 的貢獻者，其中有 4 位是全新的志工！請與我們一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Abdullah Farweez): <a target="_blank" href="https://bugzilla.mozilla.org/1850608">1850608</a></li>
+    <li>fanzhuyifan (Yifan Zhu): <a target="_blank" href="https://bugzilla.mozilla.org/148624">148624</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1852191">1852191</a></li>
+    <li>Nagendra: <a target="_blank" href="https://bugzilla.mozilla.org/1849316">1849316</a></li>
+    <li>pommicket: <a target="_blank" href="https://bugzilla.mozilla.org/1248186">1248186</a></li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
