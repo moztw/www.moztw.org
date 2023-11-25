@@ -1,0 +1,158 @@
+<!--#set var="release_date" value="2023-11-21" -->
+<!--#set var="version" value="120.0" -->
+<!--#set var="previous_version" value="119.0" -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!--
+    <li class="untagged">
+      <p>
+        2023 年的 1 月，Microsoft 終止了對 Windows 7 以及 Windows 8 的支援；因此，這個 Firefox 版本將是這些作業系統使用者最後能收到的版本。Windows 7 和 Windows 8 的使用者將會自動轉移到 Firefox ESR 115 版，以便繼續接收重要的安全更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-windows-7-8-and-81-moving-extended-support" target="_blank">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        同樣地，這個 Firefox 版本也會是最後一個支援 Apple macOS 10.12、10.13 和 10.14 的主要版本。這些作業系統的使用者將會自動轉移到 Firefox 的 ESR 115 版本，使這些使用者依然可以接收重要的安全性更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        這裡我們想特別感謝所有為此次 Firefox 發行版做出貢獻的新摩茲人！
+      </p>
+    </li>
+    -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>右鍵選單中新增「複製不含追蹤碼的鏈結」功能，確保複製的連結不包含追蹤資訊。</p>
+      <img src="120_relnote_copylink.png" alt="複製鏈結功能的螢幕截圖" />
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 「偏好設定 → 隱私權與安全性」中新增 <a href="hhttps://globalprivacycontrol.org/" target="_blank">全球隱私控制 (Global Privacy Control, GPC)</a> 選項。透過這項自願勾選的功能，Firefox 會告知網站「使用者不希望其資料被共享或出售」。此功能在隱私瀏覽模式下預設啟用。</p>
+      <img src="120_relnote_GCP.png" alt="全球隱私控制選項的螢幕截圖" />
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 的隱私視窗和「加強型追蹤保護」的「嚴格」模式，現在強化了 Canvas API 的指紋保護，以持續保護我們使用者的線上隱私。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在接下來的幾週內，Firefox 將會在德國使用者的隱私視窗中預設啟動「Cookie 橫幅阻擋器」（Cookie Banner Blocker）。Firefox 現在將自動拒絕 cookie，並關閉支援網站上討人厭的 cookie 橫幅。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在德國所有使用者的隱私視窗中預設啟用 URL 追蹤保護。Firefox 將移除經常用來追蹤使用者的非必要 URL 查詢參數。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 現在會從作業系統的根憑證庫匯入 TLS 信任錨點（例如憑證）。此功能在 Windows、macOS 和 Android 上預設啟用，如有需要的話，可在設定中關閉（偏好設定 → 隱私權與安全性 → 憑證）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><code>about:logins</code> 中新增了編輯和刪除選定憑證的鍵盤快速鍵。編輯為 <code>Alt + enter</code>（macOS 上為 <code>Option + return</code>），刪除為 <code>Alt + Backspace</code>（macOS 上為 <code>Option + Delete</code>）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在 Ubuntu Linux 上，當 Chromium 和 Firefox 皆透過 Snap 安裝時，即可從 Chromium 匯入資料。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>子母畫面在 Windows 和 Linux 上支援角落吸附功能－只需在移動子母畫面時按住 <code>Ctrl</code> 鍵。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項 <a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2023-49/">安全性修正</a>。 </p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-120-release-notes">Firefox 120 企業版版本資訊</a> 中找到政策更新和企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/120">Firefox 120 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>新增 <a href="https://developer.mozilla.org/docs/Web/API/UserActivation" target="_blank">User Activation API</a>，使 JavaScript 可透過 <code>navigator.userActivation</code> 檢查使用者目前或是否曾經與頁面產生互動（如點擊等）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>啟用「Early Hints Preconnect」（預先連線的提前提示），支援提供資訊的 <a href="https://developer.mozilla.org/docs/Web/HTTP/Status/103" target="_blank">103 Early Hints</a> 狀態碼，使伺服器能夠在最終 HTTP 回應之前先行傳送含所需資源連結的檔頭，為使用此功能的伺服器改善效能。（<a href="https://blog.cloudflare.com/early-hints/" target="_blank">詳細資訊</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>使用者現在可以透過新增的開發者工具，來模擬瀏覽器分頁處於離線狀態。（網路 → 不限速 → Offline）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>樣式編輯器面板底部現新增了一個「Pretty print 樣式表」按鈕，類似於除錯器面板中的 Pretty Print 原始碼按鈕。可用於格式化樣式表（例如哪些被壓縮過的樣式表）。先前自動格式化壓縮文件的功能已移除。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>檢測器面板中的規則面板，不再將新的 CSS Color 4 顏色（例如 OKLCH）顯示為十六進位／命名顏色，以確保它與原來使用的值相符。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>現在可以正確解析和計算 <code>lh</code> 及 <code>rlh</code> 單位為 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/length">長度</a>，讓作者能根據元素（或根元素）的行高來指定長度。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>現已預設啟用 <a href="https://github.com/WebAssembly/gc/blob/main/proposals/gc/Overview.md" target="_blank">WebAssembly GC</a>，允許新的語言──如 <a href="https://docs.flutter.dev/platform-integration/web/wasm" target="_blank">Dart</a> 或 <a href="https://kotlinlang.org/docs/wasm-overview.html#browser-support" target="_blank">Kotlin</a>──在 Firefox 上運行。這使得客戶語言和主瀏覽器之間的參考循環可以被回收。</p>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span> <span></span>
+      <p>我們已注意到某些分頁大小非 4KB 的 aarch64 系統（如 Apple Silicon）上的 Linux 使用者的啟動時當機問題。為繞過此問題，請使用 <code>--disable-phc</code> 參數編譯 Firefox。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20120&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox120&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla120&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 120 的發布，我們喜迎以下首次貢獻程式到 Firefox 的貢獻者，其中有 10 位全新的志工！請與我們一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Ajay: <a target="_blank" href="https://bugzilla.mozilla.org/1857745">1857745</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1857750">1857750</a></li>
+    <li>Alexander Sergeyev: <a target="_blank" href="https://bugzilla.mozilla.org/1855731">1855731</a></li>
+    <li>Antoine: <a target="_blank" href="https://bugzilla.mozilla.org/1857751">1857751</a></li>
+    <li>Calum Smith [:cpmsmith]: <a target="_blank" href="https://bugzilla.mozilla.org/1859079">1859079</a></li>
+    <li>Fidelius: <a target="_blank" href="https://bugzilla.mozilla.org/1856287">1856287</a></li>
+    <li>Kushal Pokharel: <a target="_blank" href="https://bugzilla.mozilla.org/1857752">1857752</a></li>
+    <li>Scott Jehl: <a target="_blank" href="https://bugzilla.mozilla.org/1836128">1836128</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1841432">1841432</a></li>
+    <li>Sebastian [:sebcode]: <a target="_blank" href="https://bugzilla.mozilla.org/366374">366374</a></li>
+    <li>tiuna.angelini: <a target="_blank" href="https://bugzilla.mozilla.org/1857747">1857747</a></li>
+    <li>vitaspiros: <a target="_blank" href="https://bugzilla.mozilla.org/1013947">1013947</a></li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
