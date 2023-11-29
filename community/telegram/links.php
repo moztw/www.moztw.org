@@ -57,9 +57,8 @@ $links = [
         ],
     ],
 
-
     [
-        'id' => 'AmWeuT0XZKu55YVMu6QEGw',
+        'id' => '@moztw_general',
         'name' => 'MozTW',
         'description' => 'Mozilla Taiwan Community channel',
         'introduction' => 'Mozilla Taiwan Community\'s channel. Chinese mainly, most people also known English.',
@@ -130,7 +129,7 @@ $links = [
     ],
 
     [
-        'id' => 'AutpyEAh0k-DEhG8mkA76g',
+        'id' => 'AutpyEAh0k-sGoUeY_bCsg',
         'name' => 'Digital Human Rights / Internet Governance Working Group',
         'description' => 'Taiwan\'s Internet policy and action',
         'introduction' => 'Taiwan\'s Internet policy discussion and action channel, discussing mainly in Chinese.',
@@ -160,7 +159,7 @@ $links = [
     ],
 
     [
-        'id' => 'AutpyAHfYs0pkzmAhUYHdw',
+        'id' => 'JoTSHcKbS2UyNzY1',
         'name' => 'MozTW Design',
         'description' => 'Foxmosa 插畫、社群設計討論',
         'introduction' => '設計子頻道。以 Mozilla 為主題的設計、繪圖等相關討論。',
@@ -180,7 +179,7 @@ $links = [
     ],
 
     [
-        'id' => 'AutpyAJlAH9QUsil-Rut1w',
+        'id' => '1wWIZNrDHC83NWY1',
         'name' => 'Foxfooders (zh)',
         'description' => 'B2G OS 中文討論群',
         'introduction' => 'Foxfooder 專案子頻道，B2G OS 中文討論群（專案已停止）。',
