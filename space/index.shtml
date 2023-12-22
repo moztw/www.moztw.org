@@ -175,6 +175,26 @@
       </div>
     </section>
 
+    <section id="donate" class="grids">
+      <header>
+        <div class="hgroup">
+          <h1>營運數據與募款</h1>
+          <h2>Performance Report &amp; Sponsorship</h2>
+        </div>
+      </header>
+
+      <div class="grid-12">
+        <h3>營運數據</h3>
+        <p>摩茲工寮在 2022/5～2023/6 間共承接 183 場開放文化活動及聚會，合計超過 1600 人次到訪。歷年營運數據請參閱：<a href="https://medium.com/mozilla-related/moztw-space-status-2023-27dd60ffe7d8" target="_blank">摩茲工寮成果報告 2014/5~2023/6</a>。</p>
+      </div>
+
+      <div class="grid-12">
+        <h3>捐款徵信</h3>
+        <p>自 2024 年起，摩茲工寮空間的營運費用，將由 Mozilla 全額贊助轉為社群自籌。請至 <a href="https://donate.moztw.space" target="_blank">donate.moztw.space</a> 定期定額支持開放自由的社群空間。</p>
+        <p>感謝以下夥伴支持摩茲工寮：蔡ＯＯ、PENNYKEN、鍾ＯＯ、劉庭嘉、洪ＯＯ、吳建達。（2023/11/30 更新，逐月與最新細目詳見<a href="https://blog.ocf.tw/2023/12/2023-11.html">開放文化基金會捐款徵信</a>）</p>
+      </div>
+    </section>
+
     <section id="about" class="grids">
       <header>
         <div class="hgroup">
