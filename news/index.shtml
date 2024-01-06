@@ -16,6 +16,8 @@
 <h3>2023</h3>
 
 <ul class="news">
+  <li><div class="date"> 10 月 10</div>
+    Firefox 118.0.2 更新</li>
   <li><div class="date"> 9 月 28</div>
     <a href="/firefox/releases/118.0.1/">Firefox 118.0.1</a>、<a href="/firefox/releases/115.3.1/">Firefox 115.3.1 ESR</a> 更新</li>
   <li><div class="date"> 9 月 26</div>
