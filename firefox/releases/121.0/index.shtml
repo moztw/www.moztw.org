@@ -1,0 +1,156 @@
+<!--#set var="release_date" value="2023-12-19" -->
+<!--#set var="version" value="121.0" -->
+<!--#set var="previous_version" value="120.0" -->
+
+<!-- 翻譯共筆：https://hackmd.io/@moztw/firefox-release-notes-121 -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!--
+    <li class="untagged">
+      <p>
+        2023 年的 1 月，Microsoft 終止了對 Windows 7 以及 Windows 8 的支援；因此，這個 Firefox 版本將是這些作業系統使用者最後能收到的版本。Windows 7 和 Windows 8 的使用者將會自動轉移到 Firefox ESR 115 版，以便繼續接收重要的安全更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-windows-7-8-and-81-moving-extended-support" target="_blank">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        同樣地，這個 Firefox 版本也會是最後一個支援 Apple macOS 10.12、10.13 和 10.14 的主要版本。這些作業系統的使用者將會自動轉移到 Firefox 的 ESR 115 版本，使這些使用者依然可以接收重要的安全性更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        這裡我們想特別感謝所有為此次 Firefox 發行版做出貢獻的新摩茲人！
+      </p>
+    </li>
+    -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>如果尚未安裝的話，Firefox 現在會於 <code>about:support</code> 頁面提示 Windows 使用者安裝微軟的 <a target="_blank" href="https://apps.microsoft.com/detail/9MVZQVXJBQ9V">AV1 Video Extension</a>，以支援 AV1 媒體的硬體解碼。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 現在已支援 macOS 平台的<a target="_blank" href="https://support.apple.com/guide/mac-help/use-voice-control-commands-mh40719/mac">「語音控制」指令</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在 Linux 上，當可用時，Firefox 現在預設使用 Wayland 合成器取代 XWayland，以支援觸控板和觸控螢幕的手勢與滑動導航，個別顯示器的 DPI 設定，更好的圖形效能與其他優點。</p>
+
+      <p>要注意的是，由於 Wayland 協議的限制，子母畫面視窗（Picture-in-Picture）需要額外的使用者互動（通常是於視窗上右鍵點擊），或需另行調整 shell / 桌面環境設定。相關的討論請追蹤 <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1621261">bug 1621261</a>。<a target="_blank" href="https://www.reddit.com/r/kde/comments/osjt3p/firefox_wayland_pip_workaround_or_how_i_learned/">這篇文章</a> 包含相關的 KDE 設定；在 GNOME 可安裝 <a target="_blank"  href="https://extensions.gnome.org/extension/4691/pip-on-top/">此擴充功能</a>。此外目前有個已知問題：當開啟並恢復前一個作業階段時，視窗尚未正確放置。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 現在可以強制連結永遠顯示底線。請在 Firefox 設定的「瀏覽」內啟用這個選項。</p>
+      <img src="121_underline_links.png" alt="「總是幫鏈結加上底線」選項的螢幕截圖">
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>於 PDF 檢視器內新增的繪圖、文字和圖片下方新增浮動按鈕，以簡化刪除操作。</p>
+      <img src="121_pdf_image_button.png" alt="螢幕截圖顯示 PDF 新插入的圖片下方出現浮動刪除按鈕">
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項 <a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2023-56/">安全性修正</a>。 </p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>Firefox 121 發布初期，Ubuntu 的 Firefox Snap 編譯版在某些系統上未如預期使用 Wayland 繪製。現已修復。更新版亦可以通過 Ubuntu 軟體更新器安裝。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-121-release-notes">Firefox 121 企業版版本資訊</a> 中找到政策更新和企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/121">Firefox 121 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>Firefox 除錯器面板的新功能：在當前頁面停用 <code>debugger;</code> 陳述式的選項。此功能可以透過切換側邊欄中斷點內的 <code>暫停於 debugger 陳述式</code> 核取方塊來取用，就位於現有的 <code>發生例外時暫停</code> 上方。此選項預設為勾選，意味著除手動停用外，debugger 宣告將維持生效的狀態。</p>
+      <img src="121_devtools_disable_debugger_statement.png" alt="新的「暫停於 debugger 陳述式」選項的螢幕截圖">
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>Firefox 開發者工具可及性（accessibility）改善工程的部分成果：我們統一了工具箱中的焦點（focus）提示。焦點提示現在更大、對比度更高，使用白色下落式陰影以提升藍色背景上的可見度。共用元件和常用面板也同時進行調整，以確保清晰可見，避免與元素邊框或背景重疊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>現已支援 <a href="https://developer.mozilla.org/docs/Web/CSS/:has"><code>:has()</code></a> 選擇器，在至少有一個元件符合該選擇條件時，允許匹配或「定錨」（anchors）到該元件。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>CSS 屬性 <a href="https://developer.mozilla.org/docs/Web/CSS/text-indent">text-indent</a> 現在支援 <code>hanging</code> 和 <code>each-line</code> 關鍵字，為書目、詩詞等內容提供更便利的段落佈局樣式。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>CSS 屬性 <a href="https://developer.mozilla.org/docs/Web/CSS/text-wrap">text-wrap</a> 現在支援 <code>balance</code> 關鍵字，通過一致化行長，以改善短多行文字區塊（如長標題或標題）的外觀。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>iframes 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/Performance/Lazy_loading">Lazy loading</a> 延遲載入（<code>&lt;iframe loading=lazy&gt;</code>）。延遲載入的 iframes 只在可見時才開始載入，因此可在需要時才加載非關鍵的 iframe，以加快初始頁面載入速度，並減少初始網路用量⋯⋯等。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>為 WebAssembly 語言添加了尾呼叫最佳化（<a target="_blank" href="https://github.com/WebAssembly/tail-call/blob/main/proposals/tail-call/Overview.md">tail call elimination</a>）支援，以改善對函數式語言的支援。</p>
+    </li>
+  </ul>
+
+  <!--
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span> <span></span>
+      <p>我們已注意到某些分頁大小非 4KB 的 aarch64 系統（如 Apple Silicon）上的 Linux 使用者的啟動時當機問題。為繞過此問題，請使用 <code>--disable-phc</code> 參數編譯 Firefox。</p>
+    </li>
+  </ul>
+  -->
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20121&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox121&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla121&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 121 的發布，我們喜迎以下首次貢獻程式到 Firefox 的貢獻者，其中有 16 位全新的志工！請與我們一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>andreas221b: <a href="https://bugzilla.mozilla.org/1860232">1860232</a></li>
+    <li>Andy: <a href="https://bugzilla.mozilla.org/1855926">1855926</a></li>
+    <li>astrid: <a href="https://bugzilla.mozilla.org/1862509">1862509</a></li>
+    <li>bbhtt: <a href="https://bugzilla.mozilla.org/1863116">1863116</a></li>
+    <li>Debadree Chatterjee: <a href="https://bugzilla.mozilla.org/1827733">1827733</a>, <a href="https://bugzilla.mozilla.org/1831412">1831412</a></li>
+    <li>Freya: <a href="https://bugzilla.mozilla.org/1857749">1857749</a></li>
+    <li>jerome: <a href="https://bugzilla.mozilla.org/1861722">1861722</a></li>
+    <li>Komuhangi Tumuhairwe: <a href="https://bugzilla.mozilla.org/1860231">1860231</a></li>
+    <li>Luke: <a href="https://bugzilla.mozilla.org/1864331">1864331</a></li>
+    <li>Mohak: <a href="https://bugzilla.mozilla.org/1862513">1862513</a></li>
+    <li>Nagata Aptana: <a href="https://bugzilla.mozilla.org/1860230">1860230</a></li>
+    <li>nzai: <a href="https://bugzilla.mozilla.org/1855726">1855726</a>, <a href="https://bugzilla.mozilla.org/1863869">1863869</a></li>
+    <li>Patryk Gruszka: <a href="https://bugzilla.mozilla.org/1862507">1862507</a>, <a href="https://bugzilla.mozilla.org/1864834">1864834</a></li>
+    <li>RAN1: <a href="https://bugzilla.mozilla.org/1837824">1837824</a></li>
+    <li>Tamsin: <a href="https://bugzilla.mozilla.org/1840621">1840621</a></li>
+    <li>Victor Boivie: <a href="https://bugzilla.mozilla.org/1464914">1464914</a>, <a href="https://bugzilla.mozilla.org/1859759">1859759</a>, <a href="https://bugzilla.mozilla.org/1862740">1862740</a></li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
