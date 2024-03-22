@@ -13,9 +13,32 @@
 
 <h1>過去的公告記錄</h1>
 
+<h3>2024</h3>
+
+<ul class="news">
+  <li><div class="date"> 3 月 19</div>
+    Firefox 124.0、Firefox 115.9.0 ESR 更新</li>
+  <li><div class="date"> 3 月 5</div>
+    Firefox 123.0.1 更新</li>
+  <li><div class="date"> 2 月 23</div>
+    <a href="/space/#donate">摩茲工寮 2024/1 捐款資訊</a></li>
+  <li><div class="date"> 2 月 20</div>
+    Firefox 123.0、Firefox 115.8.0 ESR 更新</li>
+  <li><div class="date"> 2 月 6</div>
+    Firefox 122.0.1 更新</li>
+  <li><div class="date"> 1 月 23</div>
+    Firefox 122.0、Firefox 115.7.0 ESR 更新</li>
+  <li><div class="date"> 1 月 12</div>
+    <a href="/space/#donate">摩茲工寮 2023/12 捐款資訊</a></li>
+  <li><div class="date"> 1 月 9</div>
+    Firefox 121.0.1 更新</li>
+</ul>
+
 <h3>2023</h3>
 
 <ul class="news">
+  <li><div class="date"> 12 月 19</div>
+    <a href="/firefox/releases/121.0/">Firefox 121.0</a>、Firefox 115.6.0 ESR 更新</li>
   <li><div class="date"> 11 月 30</div>
     Firefox 120.0.1 更新</li>
   <li><div class="date"> 11 月 21</div>
