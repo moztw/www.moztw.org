@@ -1,0 +1,39 @@
+<!--#set var="release_date" value="2024-3-22" -->
+<!--#set var="version" value="124.0.1" -->
+<!--#set var="previous_version" value="124.0" -->
+
+<!-- 翻譯共筆：https://hackmd.io/@moztw/firefox-release-notes-121 -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項 <a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2024-15/">安全性修正</a>。 </p>
+    </li>
+  </ul>
+
+  <!--
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span> <span></span>
+      <p>我們已注意到某些分頁大小非 4KB 的 aarch64 系統（如 Apple Silicon）上的 Linux 使用者的啟動時當機問題。為繞過此問題，請使用 <code>--disable-phc</code> 參數編譯 Firefox。</p>
+    </li>
+  </ul>
+  -->
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20124&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox124&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla124&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
