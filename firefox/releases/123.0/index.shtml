@@ -1,0 +1,137 @@
+<!--#set var="release_date" value="2024-2-20" -->
+<!--#set var="version" value="123.0" -->
+<!--#set var="previous_version" value="122.0" -->
+
+<!-- 翻譯共筆：https://hackmd.io/@moztw/firefox-release-notes-123/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!--
+    <li class="untagged">
+      <p>
+        2023 年的 1 月，Microsoft 終止了對 Windows 7 以及 Windows 8 的支援；因此，這個 Firefox 版本將是這些作業系統使用者最後能收到的版本。Windows 7 和 Windows 8 的使用者將會自動轉移到 Firefox ESR 115 版，以便繼續接收重要的安全更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-windows-7-8-and-81-moving-extended-support" target="_blank">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        同樣地，這個 Firefox 版本也會是最後一個支援 Apple macOS 10.12、10.13 和 10.14 的主要版本。這些作業系統的使用者將會自動轉移到 Firefox 的 ESR 115 版本，使這些使用者依然可以接收重要的安全性更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        這裡我們想特別感謝所有為此次 Firefox 發行版做出貢獻的新摩茲人！
+      </p>
+    </li>
+    -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>我們已將搜索整合進 Firefox View。你現在可以搜索每個類別子頁面上的所有分頁——近期瀏覽、開啟的分頁、最近關閉的分頁、來自其他裝置的分頁、或瀏覽記錄。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在 Firefox 上遇到網站問題，但該網站似乎在其他瀏覽器上運行良好？現在你可以通過「網路相容性工具」告訴我們！通過提交網路相容性問題，你可以直接幫助我們檢測、定位和修復影響最大的網站，讓你在 Firefox 上的瀏覽體驗更加順暢。（<a target="_blank" href="support.mozilla.org/kb/report-breakage-due-blocking">網址列的盾牌圖示 → 回報網站問題，或下拉選單 → 回報網站問題</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>翻譯網頁時，我們現在還會翻譯提示（tooltips）的 title 文字，以及表單控制項中顯示的提示文字（placeholder）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項 <a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2024-05/">安全性修正</a>。 </p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>現在可以在 Firefox 偏好設定的「搜索」中找到網址列相關設定。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>改進了 macOS ARM64 和 Android 的 PGO 優化。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>改進了 macOS、Linux 和 Android 的非主執行緒（off-main-thread）canvas。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-123-release-notes">Firefox 123 企業版版本資訊</a> 中找到政策更新和企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/123">Firefox 123 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>網路監控器現在支援通過「另存回覆內容」右鍵選單將回覆內容（response body）儲存到硬碟。這也取代了僅支援保存圖片的「另存圖片為」右鍵選單。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>我們現在實作了 <a target="_blank" href="https://developer.mozilla.org/docs/Web/SVG/Attribute/color-interpolation">SVG 漸變的線性 RGB （linearRGB） 補插值</a>，以補充現有的 sRGB 補插值。您可以通過 color-interpolation 屬性選擇使用哪一種插值。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>以前，指向 SVG 內容的 SVG feImage 元素要求 SVG 文件具有非百分比寬度和高度值的根元素。此類內容現在將回退到使用默認替換元素值的 300px 寬度和 150px 高度，因而 feImage 將不再顯示失敗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>啓用預載入（Preload）和模塊預載（Modulepreload），現已完整支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/HTTP/Status/103">Early Hints</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>當聲音輸出被 <code>setSinkId()</code> 重定向到其他設備時，現在可以套用回音消除到麥克風輸入。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支持 Declarative ShadowDOM，為直接使用 HTML 中的 ShadowDOM 的開發人員提供更大的靈活度和工程面上的改善。</p>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span> <span></span>
+      <p>一些具有較老的 AMD CPU 的機器，可能會在檔案對話框中看到圖片的縮圖全部呈現為不正確的黑色。如果發生這種情況，更新顯示卡驅動程式應該可以解決此問題。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20123&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox123&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla123&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 123 的發布，我們喜迎以下首次貢獻程式到 Firefox 的貢獻者，其中有 9 位全新的志工！請與我們一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Aaron: <a href="https://bugzilla.mozilla.org/1221964">1221964</a></li>
+    <li>Eliot Jacobs: <a href="https://bugzilla.mozilla.org/1843720">1843720</a>, <a href="https://bugzilla.mozilla.org/1860845">1860845</a>, <a href="https://bugzilla.mozilla.org/1867908">1867908</a></li>
+    <li>jfernandez@igalia.com: <a href="https://bugzilla.mozilla.org/1806693">1806693</a></li>
+    <li>Jon Parise: <a href="https://bugzilla.mozilla.org/1872505">1872505</a></li>
+    <li>Jordan Petridis: <a href="https://bugzilla.mozilla.org/1871863">1871863</a></li>
+    <li>Kaiido: <a href="https://bugzilla.mozilla.org/1872237">1872237</a></li>
+    <li>Kate Galich: <a href="https://bugzilla.mozilla.org/1867610">1867610</a></li>
+    <li>Redfire: <a href="https://bugzilla.mozilla.org/1872151">1872151</a>, <a href="https://bugzilla.mozilla.org/1873317">1873317</a></li>
+    <li>toe_head2001: <a href="https://bugzilla.mozilla.org/1872457">1872457</a></li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
