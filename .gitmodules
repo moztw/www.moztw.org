@@ -7,3 +7,6 @@
 [submodule "foxmosa/game/stars"]
 	path = foxmosa/game/stars
 	url = https://github.com/moztw/star-pusher.git
+[submodule "contribute/asknot"]
+	path = contribute/asknot
+	url = https://github.com/jdm/asknot.git
