@@ -308,7 +308,7 @@ h3.toggle, span.toggle {
 	</div>
 
 	<div id="program">
-		<iframe src="https://whatcanidoformozilla.org/" width="530" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+		<iframe src="asknot/" width="530" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 	</div>
 <!--
 	<div id="tabs-3-old">
