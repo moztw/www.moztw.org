@@ -30,7 +30,7 @@
     <li>
       <span class="tag tag-new">全新功能</span>
       <p>macOS 用戶現在可以在 about:preferences 內切換是否使用 Tab 在表單控制元件和鏈接間移動焦點（tabability）。</p>
-      <img src="117_macos_tab_key.png" alt="Firefox 設定視窗內的 Tab 焦點切換抓圖" />
+      <p><img src="117_macos_tab_key.png" alt="Firefox 設定視窗內的 Tab 焦點切換抓圖" /></p>
     </li>
 
     <li>
@@ -66,7 +66,7 @@
     <li>
       <span class="tag tag-developer">開發功能</span>
       <p>開發者工具的相容性面板，現在增加了新的 CSS 相容性資訊。有相容性問題的屬性旁邊會出現圖示。當游標指向圖示時，工具提示會指出哪些瀏覽器不支援。且該屬性會連結到對應的 MDN 頁面，以便使用者了解更多資訊。</p>
-      <img src="117_devtools_compat.png" alt="Firefox 開發工具中的 CSS 相容性工具抓圖" />
+      <p><img src="117_devtools_compat.png" alt="Firefox 開發工具中的 CSS 相容性工具抓圖" /></p>
     </li>
 
     <li>
