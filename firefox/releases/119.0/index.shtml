@@ -26,13 +26,13 @@
       <span class="tag tag-new">全新功能</span>
       <p>對 Firefox 119 使用者逐步釋出包含更多內容的 <a href="https://support.mozilla.org/kb/how-set-tab-pickup-firefox-view" target="_blank">Firefox View</a>。你現在可以看到所有視窗的已開啟分頁，以及來自其他裝置的分頁（如有啟用「開啟分頁」同步）。現在也會列出瀏覽記錄，可以按日期或按網站排序。一如過往，「最近關閉的分頁」也列在 Firefox View 中。</p>
       <p>若要使用 Firefox View，請點擊分頁列最左方的「資料夾」圖示。</p>
-      <img src="119_firefox_view.png" alt="螢幕截圖：Firefox View 顯示開啟分頁與其他裝置的分頁的" />
+      <p><img src="119_firefox_view.png" alt="螢幕截圖：Firefox View 顯示開啟分頁與其他裝置的分頁的" /></p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
       <p>對 Firefox 119 使用者逐步釋出：在編輯 PDF 時，除了加入文字和繪畫之外，現在還可以新增圖片和替代文字。</p>
-      <img src="119_pdf_alt_text.png" alt="螢幕截圖：一個紅色狐狸的圖片被加入 PDF 中。替代文字工具在照片的左方開啟並得以加入圖片說明文字" />
+      <p><img src="119_pdf_alt_text.png" alt="螢幕截圖：一個紅色狐狸的圖片被加入 PDF 中。替代文字工具在照片的左方開啟並得以加入圖片說明文字" /></p>
     </li>
 
     <li>

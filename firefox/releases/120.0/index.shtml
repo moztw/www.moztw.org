@@ -25,13 +25,13 @@
     <li>
       <span class="tag tag-new">全新功能</span>
       <p>右鍵選單中新增「複製不含追蹤碼的鏈結」功能，確保複製的連結不包含追蹤資訊。</p>
-      <img src="120_relnote_copylink.png" alt="複製鏈結功能的螢幕截圖" />
+      <p><img src="120_relnote_copylink.png" alt="複製鏈結功能的螢幕截圖" /></p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
       <p>Firefox 「偏好設定 → 隱私權與安全性」中新增 <a href="hhttps://globalprivacycontrol.org/" target="_blank">全球隱私控制 (Global Privacy Control, GPC)</a> 選項。透過這項自願勾選的功能，Firefox 會告知網站「使用者不希望其資料被共享或出售」。此功能在隱私瀏覽模式下預設啟用。</p>
-      <img src="120_relnote_GCP.png" alt="全球隱私控制選項的螢幕截圖" />
+      <p><img src="120_relnote_GCP.png" alt="全球隱私控制選項的螢幕截圖" /></p>
     </li>
 
     <li>

@@ -15,7 +15,7 @@
     <li>
       <span class="tag tag-new">全新功能</span>
       <span>在原有的亮色與暗色佈景主題外，在這次的更新中 Firefox 加入了 Alpenglow 佈景主題：一個多彩的外觀，包含按鈕、選單、視窗。您可以在選項或偏好設定中<a href="https://support.mozilla.org/kb/use-themes-change-look-of-firefox">更換您的 Firefox 佈景主題</a>。</span>
-      <img alt="Alpenglow Theme Screenshot" src="https://www.mozilla.org/media/img/firefox/releasenotes/note-images/alpenglow.png">
+      <p><img alt="Alpenglow Theme Screenshot" src="https://www.mozilla.org/media/img/firefox/releasenotes/note-images/alpenglow.png"></p>
     </li>
 
     <li>

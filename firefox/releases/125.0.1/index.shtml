@@ -1,0 +1,184 @@
+<!--#set var="release_date" value="2024-4-16" -->
+<!--#set var="version" value="125.0.1" -->
+<!--#set var="previous_version" value="124.0" -->
+
+<!-- 翻譯共筆：https://hackmd.io/@moztw/firefox-release-notes-125/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li class="untagged">
+      <strong>附註：</strong>因為在釋出後短時間內發現的高嚴重性問題，125.0 版將直接跳過，以 125.0.1 版取代。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 現在支援用於加密媒體擴充（Encrypted Media Extensions, EME）的 AV1 編碼器，讓影片串流媒體提供商能提供更高品質的影片。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox PDF 檢視器現在支援文字螢光標示（text highlight）。</p>
+      <p><img src="RN-image-highlight.png" alt="「PDF 文字螢光標示」的螢幕截圖"></p>
+      <p class="progressive-roll">此功能逐步釋出中：某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox View 「開啟的分頁」區塊現在會顯示釘選的分頁，還新增了分頁提示指標（indicators），使用者可以看到哪些分頁正在播放影音，也可以跨視窗快速靜音或取消靜音。同時還有「書籤」跟「帶通知的分頁」等更多指示！</p>
+      <p><img src="125_fxview_pinned_tabs.png" alt="螢幕截圖：Firefox View 中顯示不同視窗的釘選分頁，其中包含媒體播放中的提示指標"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在美國和加拿大，當使用者提交地址表單時，Firefox 會提示使用者儲存地址，讓 Firefox 未來能自動填入儲存的地址資訊。
+      </p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 現在會更積極地阻止來自潛在不可信任的來源網址的下載。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>網址貼上建議功能（URL Paste Suggestion）為使用者提供便利的方法，可從網址列快速前往剪貼簿中複製的網址。當剪貼簿中包含網址，且點入網址列時，會自動出現建議連結。此時單點就可以瀏覽到該網址。</p>
+      <p><img src="125_url_paste_suggestion.png" alt="螢幕截圖：顯示「從剪貼簿訪問」的網址建議功能按鈕"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>分頁特定的容器（tab-specific Container）附加元件的使用者，現在可以在地址欄中搜索不同容器中打開的分頁。特別感謝志工貢獻者 atararx 為此功能的開發起了頭！</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>使用系統 Proxy 設定時，Firefox 已提供 Web Proxy 自動尋找（Web Proxy Auto-Discovery, WPAD）選項。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項 <a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2024-18/">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>在未選取任何選項的單選按鈕（radio）上，Tab 鍵現在只會抵達第一個選項，不再循環遍歷所有可用項目。當已選擇任一選項時，方向鍵則可以在選項間切換。如此使鍵盤瀏覽更加高效和一致。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-125-release-notes">Firefox 125 企業版版本資訊</a> 中找到政策更新和企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/125">Firefox 125 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>因應多個請求，我們重新引入停用 Pause Debugger 面板（<code>devtools.debugger.features.overlay</code>）的選項。當除錯器暫停 JavaScript 執行時，此面板會出現在頁面內容之上。在某些情況下，例如評估底下的顏色陰影時，此面板會很煩，讓人難以跟頁面互動。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>我們在除錯器面板的原始碼檢視底部新增了選單按鈕，用以操作原始碼對應表（Source Map）相關的功能。使用者現在可以輕鬆關閉或開啟原始碼對應支援，在新分頁中打開原始碼對應表，在原始碼和生成的組合程式（generated bundle）之間切換，啟動「預設顯示並開啟原始位置」，或查看原始碼對應表的狀態——如錯誤或載入狀態等。</p>
+      <p><img src="125_devtools_sourcemaps_menu.png" alt="螢幕截圖：顯示新的原始碼對應表選項與下拉選單"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a target="_blank" href="https://html.spec.whatwg.org/#the-popover-attribute"><code>popover</code></a> 全域屬性，用於將元素設定為彈出元件。該元件在轉為可見之前不會被繪製，變為可見後會顯示在其他頁面內容之上。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>預設啟用 WebAssembly multi-memory。Wasm 多重記憶體允許 Wasm 模組使用和引入多個獨立的線性記憶體。這使模組之間的互操作性更高效，並為即將到來的 Wasm 標準（如組件模型）提供更好的 Polyfill。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>增加 JavaScript 對 Unicode 文字分段（Unicode Text Segmentation）的支援。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>在 HTMLCanvasElement 和 OffscreenCanvas 上增加了對 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/contextlost_event"><code>contextlost</code></a> 和 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/contextrestored_event"><code>contextrestored</code></a> 事件的支援，允許使用者程式從硬體加速的 2D 畫布上下文丟失（context loss）中恢復。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Clipboard_API"><code>navigator.clipboard.readText()</code></a> Web API。在試圖讀取非同源頁面提供的剪貼簿資料時，會顯示一個貼上的對話框供使使用者確認。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>增加支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/transform-box"><code>transform-box</code></a> CSS 屬性的 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/transform-box#content-box"><code>content-box</code></a> 和 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/transform-box#stroke-box"><code>stroke-box</code></a> 關鍵字。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/CSS_box_alignment/Box_alignment_in_block_abspos_tables"><code>align-content</code></a> 屬性現在在區塊佈局中作動，允許區塊方向對齊，而無需使用 Flex 或 Grid 容器。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>移除對 <code>SVGAElement.text</code> 的支持，轉向被廣泛支援的 <code>SVGAElement.textContent</code> 方法。</p>
+    </li>
+
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p>最近推出的功能「積極地阻止來自不信任來源的下載」功能未如預期運作，導致在合法情況下無法下載文件。我們立即通過遠端停用此功能來處理這個問題，也將在即將發布的 Firefox 125.0.2 版本中移除此變更。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p>在 Firefox 已經開啟的情況下嘗試再次啟動 Firefox 時，有時會出現一個地址為<code>https://0.0.0.1</code> 的額外空白分頁。這個問題的成因已確認，將在 Firefox 125.0.3 釋出時解決。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p>由於新的剪貼簿建議功能，有一些使用者回報點擊網址列時會出現長時間當掉的情況。在 <code>about:preferences#search</code> 中取消勾選「剪貼簿」，可以解決受影響使用者的當機問題。後續的 Firefox 版本將解決此一潛在的性能問題。</p>
+      <p><img src="125_clipboard_suggest_disable.png" alt="螢幕截圖：偏好設定頁面中「網址列」部分的「剪貼簿」選項被取消勾選"></p>
+    </li>
+
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20125&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox125&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla125&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 125 的發布，我們喜迎以下首次貢獻程式到 Firefox 的貢獻者，其中有 12 位全新的志工！請與我們一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Artem Manushenkov: <a target="_blank" href="https://bugzilla.mozilla.org/1619201">1619201</a></li>
+    <li>Bojidar Marinov [:bojidar-bg]: <a target="_blank" href="https://bugzilla.mozilla.org/1839845">1839845</a></li>
+    <li>daxpedda: <a target="_blank" href="https://bugzilla.mozilla.org/1873642">1873642</a></li>
+    <li>Dmitri: <a target="_blank" href="https://bugzilla.mozilla.org/1881682">1881682</a></li>
+    <li>Hovav Shacham: <a target="_blank" href="https://bugzilla.mozilla.org/1880366">1880366</a></li>
+    <li>jsharp@fastly.com: <a target="_blank" href="https://bugzilla.mozilla.org/1861533">1861533</a></li>
+    <li>marten.richter: <a target="_blank" href="https://bugzilla.mozilla.org/1872496">1872496</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1873263">1873263</a></li>
+    <li>Nikki Bernobic [:echrs]: <a target="_blank" href="https://bugzilla.mozilla.org/1862253">1862253</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1878635">1878635</a></li>
+    <li>Patrycja Rosa [:ptrcnull] (she/her): <a target="_blank" href="https://bugzilla.mozilla.org/1881979">1881979</a></li>
+    <li>rushliu: <a target="_blank" href="https://bugzilla.mozilla.org/1883600">1883600</a></li>
+    <li>uhhadd: <a target="_blank" href="https://bugzilla.mozilla.org/1883184">1883184</a></li>
+    <li>zhanghe9702: <a target="_blank" href="https://bugzilla.mozilla.org/1881896">1881896</a></li>
+  </ul>
+
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

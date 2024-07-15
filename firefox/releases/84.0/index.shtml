@@ -44,7 +44,7 @@
     <li>
       <span class="tag tag-developer">開發功能</span>
       <span>網路面板現在可以處理非預期的當機並顯示有用的除錯資訊，像是相關的 Stack-trace。使用者可以簡單地透過點擊連結來送出 Bug 報告，幫助改善這個工具的穩定性。</span>
-      <img alt="Network Panel Bug Report Submission Screenshot" src="https://www.mozilla.org/media/img/firefox/releasenotes/note-images/network_panel_crash.png">
+      <p><img alt="Network Panel Bug Report Submission Screenshot" src="https://www.mozilla.org/media/img/firefox/releasenotes/note-images/network_panel_crash.png"></p>
     </li>
 
     <li>
