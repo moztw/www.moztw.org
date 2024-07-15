@@ -44,13 +44,13 @@
     <li>
       <span class="tag tag-new">全新功能</span>
       <p>Firefox 現在可以強制連結永遠顯示底線。請在 Firefox 設定的「瀏覽」內啟用這個選項。</p>
-      <p><img src="/firefox/releases/121.0/121_underline_links.png" alt="「總是幫鏈結加上底線」選項的螢幕截圖"></p>
+      <p><img src="121_underline_links.png" alt="「總是幫鏈結加上底線」選項的螢幕截圖"></p>
     </li>
 
     <li>
       <span class="tag tag-new">全新功能</span>
       <p>於 PDF 檢視器內新增的繪圖、文字和圖片下方新增浮動按鈕，以簡化刪除操作。</p>
-      <p><img src="/firefox/releases/121.0/121_pdf_image_button.png" alt="螢幕截圖顯示 PDF 新插入的圖片下方出現浮動刪除按鈕"></p>
+      <p><img src="121_pdf_image_button.png" alt="螢幕截圖顯示 PDF 新插入的圖片下方出現浮動刪除按鈕"></p>
     </li>
 
     <li>
@@ -76,7 +76,7 @@
     <li>
       <span class="tag tag-developer">開發功能</span>
       <p>Firefox 除錯器面板的新功能：在當前頁面停用 <code>debugger;</code> 陳述式的選項。此功能可以透過切換側邊欄中斷點內的 <code>暫停於 debugger 陳述式</code> 核取方塊來取用，就位於現有的 <code>發生例外時暫停</code> 上方。此選項預設為勾選，意味著除手動停用外，debugger 宣告將維持生效的狀態。</p>
-      <p><img src="/firefox/releases/121.0/121_devtools_disable_debugger_statement.png" alt="新的「暫停於 debugger 陳述式」選項的螢幕截圖"></p>
+      <p><img src="121_devtools_disable_debugger_statement.png" alt="新的「暫停於 debugger 陳述式」選項的螢幕截圖"></p>
     </li>
 
     <li>
