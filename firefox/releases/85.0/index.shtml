@@ -49,7 +49,7 @@
     <li>
       <span class="tag tag-developer">開發功能</span>
       <span>在主控台中原始碼編輯器（多行編輯器模式下可用）可使用新的工具列按鈕來美化 JS 陳述式。</span>
-      <img alt="Console Editor Pretty Print Expression Screenshot" src="https://www.mozilla.org/media/img/firefox/releasenotes/note-images/prettyfy_js_console_button.png">
+      <p><img alt="Console Editor Pretty Print Expression Screenshot" src="https://www.mozilla.org/media/img/firefox/releasenotes/note-images/prettyfy_js_console_button.png"></p>
     </li>
 
   </ul>

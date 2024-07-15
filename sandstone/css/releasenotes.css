@@ -98,6 +98,17 @@
   background-position: -750px 50%;
 }
 
+#releasenotes .progressive-roll {
+  font-size: 0.9em;
+  background-image: url(/sandstone/images/progressive.svg);
+  background-repeat: no-repeat;
+  background-size: 3.75em auto;
+  margin-left: -4em;
+  padding-left: 4em;
+  padding-right: 2em;
+  padding-top: 0.6em;
+}
+
 #releasenotes .status {
   background: none repeat scroll 0 0 #E9F2FF;
   border-radius: 3px 3px 3px 3px;
