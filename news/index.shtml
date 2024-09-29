@@ -16,7 +16,32 @@
 <h3>2024</h3>
 
 <ul class="news">
-  <li><div class="date"> 4 月 2</div>
+  <li><div class="date"> 7 月 26</div>
+    Firefox 128.0.3 更新</li>
+  <li><div class="date"> 7 月 23</div>
+    Firefox 128.0.2 更新</li>
+  <li><div class="date"> 7 月 12</div>
+    <a href="/space/#donate">摩茲工寮 2024/5 捐款資訊</a></li>
+  <li><div class="date"> 7 月 9</div>
+    Firefox 128.0、Firefox 128.0 ESR、Firefox 115.13.0 ESR 更新</li>
+  <li><div class="date"> 6 月 25</div>
+    Firefox 127.0.2 更新</li>
+  <li><div class="date"> 6 月 19</div>
+    Firefox 127.0.1 更新</li>
+  <li><div class="date"> 6 月 11</div>
+    Firefox 127.0、Firefox 115.12.0 ESR 更新</li>
+  <li><div class="date"> 5 月 28</div>
+    Firefox 126.0.1 更新</li>
+  <li><div class="date"> 5 月 14</div>
+    Firefox 126.0、Firefox 115.11.0 ESR 更新</li>
+  <li><div class="date"> 5 月 5</div>
+    <a href="/space/#donate">摩茲工寮 2024/3-4 捐款資訊、支出細目</a></li>
+  <li><div class="date"> 4 月 29</div>
+    Firefox 125.0.3 更新</li>
+  <li><div class="date"> 4 月 22</div>
+    Firefox 125.0.2 更新</li>
+  <li><div class="date"> 4 月 16</div>
+    <a href="/firefox/releases/125.0.1/">Firefox 125.0.1</a>、Firefox 115.10.0 ESR 更新</li>  <li><div class="date"> 4 月 2</div>
     Firefox 124.0.2 更新</li>
   <li><div class="date"> 3 月 22</div>
     <a href="/firefox/releases/124.0.1/">Firefox 124.0.1</a>、Firefox 115.9.1 ESR 更新</li>
