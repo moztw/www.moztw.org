@@ -1,0 +1,42 @@
+<!--#set var="release_date" value="2024-9-17" -->
+<!--#set var="version" value="130.0.1" -->
+<!--#set var="previous_version" value="130.0" -->
+
+<!-- 翻譯共筆：https://hackmd.io/@moztw/firefox-release-notes-125/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!-- <li class="untagged">
+      <strong>附註：</strong>因為在釋出後短時間內發現的高嚴重性問題，125.0 版將直接跳過，以 125.0.1 版取代。</p>
+    </li> -->
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修復了最近的一個回退（regressions）問題，導致 Saraiki 語系版本的某些 UI 元件錯誤以「從左到右」顯示，而非「從右到左」。(<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1917175">bug 1917175</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>Linux：修正了在使用 GCC 編譯 Firefox 時，AVIF 圖片渲染成黑色的問題。(<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1916038">bug 1916038</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>新增了一個企業政策，用於停用設定中的「Firefox 實驗室」。(<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1911826">bug 1911826</a>)</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20125&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox125&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla125&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
