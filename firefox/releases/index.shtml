@@ -1,1 +1,2 @@
-<!--#include virtual="./121.0/index.shtml" -->
+<!--#include virtual="/inc/dlfx_var.shtml" -->
+<!--#include virtual="./${LATEST_RELEASE_NOTES_VER}/index.shtml" -->
