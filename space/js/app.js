@@ -1,5 +1,5 @@
 var map = new L.map('map', { scrollWheelZoom: false, dragging: false })
-    .setView([25.044154, 121.532212], 16);
+    .setView([25.0431013, 121.5133411], 16);
 
 // add an OpenStreetMap tile layer
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
