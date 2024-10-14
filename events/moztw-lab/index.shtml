@@ -83,19 +83,16 @@
         <article id="location" class="module">
             <h2>那裡有 MozTW Lab？
                 <br/>Where are MozTW Labs ?</h2>
-            <p>這位客官你運氣真好，台北跟新竹剛好都有一個：
-                <br/>You are so lucky that we got MozTW Labs at Taipei and Hsinchu:</p>
+            <p>這位客官你運氣真好，台北剛好有一個：
+                <br/>You are so lucky that we got MozTW Labs at Taipei:</p>
             <p>（場地資訊可能隨時會變動，請記得注意一下 Twitter 資訊 : P）
                 <br/>(In case that venues vary at times, follow up at Twitter in advance :P)</p>
-            <ul class="nav">
-                <li class="nv lb sel" id="taipei_lab_nav">
-                    <a href="#taipei">台北 Taipei</a>
-                </li>
-                <li class="nv rb" id="hsinchu_lab_nav">
-                    <a href="#hsinchu">新竹 Hsinchu</a>
-                </li>
+            <!-- <ul class="nav"> -->
+                <!-- <li class="nv lb sel" id="taipei_lab_nav"> -->
+                    <!-- <a href="#taipei">台北 Taipei</a> -->
+                <!-- </li> -->
                 <!-- add more places here, last button must have class 'rb' -->
-            </ul>
+            <!-- </ul> -->
             <div class="toggle_pad">
                 <!-- Taipei Lab Info -->
                 <div class="details" id="taipei_lab">
@@ -111,25 +108,6 @@
                     </ul>
                     <div class="mapcover">
                         <div class="map" id="map_taipei"></div>
-                    </div>
-                </div>
-                <!-- Hsinchu Lab Info -->
-                <div class="details" id="hsinchu_lab" style="display: none;">
-                    <ul>
-                        <li>雙週四晚間 Every Two Thursday night 19:30-22:00</li>
-                        <li>綠蓋茶館 新竹誠品站前店 LATTEA Hsinchi eslite
-                            <br/>
-                            <a onClick="ga('send', 'event', 'Outgoing', 'MozTW Lab', 'HSU');" href="http://www.lattea.com.tw/"><span class="locality">新竹市</span><span class="street-address">東區信義街68號3樓 No.68 3F, Xinyi St., East Dist., Hsinchu City.</span></a>
-                        </li>
-                        <li>電話：03-522-1937
-                            <br/>Tel: 03-522-1937</li>
-                        <li>低消：約60元，附 Wi-Fi 與電源。
-                            <br/>Minimum charge: NTD 60, with Wi-Fi and power.</li>
-                        <li>「免費參加，餐飲自理。」
-                            <br/>"Free to participate. Beverages and food on your own."</li>
-                    </ul>
-                    <div class="mapcover">
-                        <div class="map" id="map_hsinchu"></div>
                     </div>
                 </div>
                 <!-- More Labs… -->
