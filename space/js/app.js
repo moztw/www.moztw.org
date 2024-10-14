@@ -7,7 +7,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 // add a marker in the given location, attach some popup content to it and open the popup
-L.marker([25.044154, 121.532212]).addTo(map)
+L.marker([25.0431013, 121.5133411]).addTo(map)
     .bindPopup('摩茲工寮 Mozilla Community Space Taipei')
     .openPopup();
 
