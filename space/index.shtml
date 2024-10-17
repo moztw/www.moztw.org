@@ -46,8 +46,8 @@
         <h3>地圖</h3>
         <div id="map"></div>
         <p>(or in <a href="https://goo.gl/maps/eAd7X">Google Maps</a>)</p>
-        <p>地址：100 臺北市中正區重慶南路一段 99 號 11F 之4, 世界大樓 1105<br>
-        Rm. 1105, 11F.-4, No. 99, Sec. 1, Chongqing S. Rd., Zhongzheng Dist., Taipei City 100, Taiwan</p>
+        <p>地址：100 臺北市中正區重慶南路一段 99 號，世界大樓 11 樓 1105 室<br>
+        Rm. 1105, 11F, 99 Chongqing S. Rd. Sec I, Zhongzheng Dist., Taipei City 100, Taiwan</p>
       </div>
     </section>
 
