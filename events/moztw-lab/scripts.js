@@ -2,15 +2,15 @@ var lab_locs = {
     "taipei_lab": {
         "oid": "map_taipei",
         "place": "摩茲工寮 Mozilla Community Space Taipei",
-        "lat": 25.044154,
-        "lng": 121.532212
+        "lat": 25.0431013,
+        "lng": 121.5133411
     },
-    "hsinchu_lab": {
-        "oid": "map_hsinchu",
-        "place": "綠蓋茶館新竹誠品站前店 LATTEA Hsinchi eslite",
-        "lat": 24.802893,
-        "lng": 120.970515
-    }
+    // "hsinchu_lab": {
+    //     "oid": "map_hsinchu",
+    //     "place": "綠蓋茶館新竹誠品站前店 LATTEA Hsinchi eslite",
+    //     "lat": 24.802893,
+    //     "lng": 120.970515
+    // }
 };
 
 function makeMaps(loc_data) {
