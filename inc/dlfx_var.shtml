@@ -12,5 +12,5 @@
 <!--#set var="LINUX64URL" value="https://download.mozilla.org/?product=firefox-${LINUX64VER}&os=linux64&lang=zh-TW" -->
 <!--#set var="OSXURL" value="https://download.mozilla.org/?product=firefox-${OSXVER}&os=osx&lang=zh-TW" -->
 
-<!--#set var="LATEST_RELEASE_NOTES_VER" value="130.0.3" -->
+<!--#set var="LATEST_RELEASE_NOTES_VER" value="131.0.3" -->
 <!-- latest release notes page that we had published -->
