@@ -16,6 +16,12 @@
 <h3>2024</h3>
 
 <ul class="news">
+  <li><div class="date"> 8 月 20</div>
+    Firefox 129.0.2 更新</li>
+  <li><div class="date"> 8 月 13</div>
+    Firefox 129.0.1 更新</li>
+  <li><div class="date"> 8 月 6</div>
+    Firefox 129.0、Firefox 128.1.0 ESR、Firefox 115.14.0 ESR 更新</li>
   <li><div class="date"> 7 月 26</div>
     Firefox 128.0.3 更新</li>
   <li><div class="date"> 7 月 23</div>
