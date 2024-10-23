@@ -1,0 +1,48 @@
+<!--#set var="release_date" value="2024-10-14" -->
+<!--#set var="version" value="131.0.3" -->
+<!--#set var="previous_version" value="131.0.2" -->
+
+<!-- 翻譯共筆：https://hackmd.io/@moztw/firefox-release-notes-125/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正了部分使用者無法進入其銀行網站的帳單支付相關功能的問題。(<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1923500">Bug 1923500</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正一個導致 180 與 360 VR 影片無法在 YouTube 上正常顯示的問題。 (<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1922278">Bug 1922278</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修復使用 Avast 或 AVG 安全軟體的 Windows 使用者訪問特定網站時遇到的當掉問題。(<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1919678">Bug 1919678</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正「列出所有分頁」按鈕無法從工具列移除。(<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=1918681">Bug 1918681</a>)</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>一項 <a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2024-53/">安全性修正</a>。 </p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20131&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox131&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla131&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解<a target="_blank" href='/firefox/releases/<!--#echo var="previous_version" -->/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+</article>
+
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
