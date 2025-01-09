@@ -97,38 +97,64 @@
         </div>
       </header>
       <div class="grid-12">
-        <p>錄音結果以 CC0 公眾領域授權釋出，Mozilla 不對其作出任何版權限制，任何人跟任何公司都可以自由的下載與使用於自己的研究、開發專案上。</p>
+        <p>錄音結果以 <em>CC0 公眾領域授權</em>釋出，Mozilla 不對其作出任何版權限制，任何人跟任何公司都可以自由的下載與使用於自己的研究、開發專案上。</p>
         <p>現在你就可以在這邊下載到國語、台語及其他一百三十種語言的錄音檔： <a href="https://commonvoice.mozilla.org/datasets" target="_blank">https://commonvoice.mozilla.org/datasets</a></p>
         <p>網站上的錄音定期每三個月釋出一次。本次族語錄音的成果，預期將會於 2025 年四月公布於上述頁面。</p>
       </div>
     </section>
 
-    <section id="result" class="grids">
+    <section id="record" class="grids">
       <header>
         <div class="hgroup">
-          <h1>補助費用細節</h1>
+          <h1>錄音方式</h1>
+        </div>
+      </header>
+      <div class="grid-12">
+
+        <p>
+          以下為各語言的錄音頁面：<br>
+          <ul>
+            <li>排灣 <a href="https://commonvoice.mozilla.org/pwn/speak" target="_blank">commonvoice.mozilla.org/pwn/speak</a></li>
+            <li>賽德克 <a href="https://commonvoice.mozilla.org/trv/speak" target="_blank">commonvoice.mozilla.org/trv/speak</a></li>
+            <li>撒奇萊雅 <a href="https://commonvoice.mozilla.org/szy/speak" target="_blank">commonvoice.mozilla.org/szy/speak</a></li>
+            <li>泰雅（含汶水、萬大） <a href="https://commonvoice.mozilla.org/tay/speak" target="_blank">commonvoice.mozilla.org/tay/speak</a></li>
+            <li>魯凱（含多納、萬山、茂林） <a href="https://commonvoice.mozilla.org/dru/speak" target="_blank">commonvoice.mozilla.org/dru/speak</a></li>
+            <li>布農 <a href="https://commonvoice.mozilla.org/bnn/speak" target="_blank">commonvoice.mozilla.org/bnn/speak</a></li>
+          </ul>
+        </p>
+
+        <p>註冊與操作方式，請參考《<a href="https://docs.google.com/document/d/1Du9DKVQmvAUUSVGOZ0PeapStqsGR38hUxIkTv8j-SUY/edit?tab=t.0" target="_blank">族語補助專案與錄音網站操作手冊</a>》</p>
+      </div>
+    </section>
+
+    <section id="stipend" class="grids">
+      <header>
+        <div class="hgroup">
+          <h1>補助費用</h1>
         </div>
       </header>
       <div class="grid-12">
         <p>本專案經 Mozilla 贊助台灣維基媒體協會進行原住民族語錄音，以建制開放自由的族語語音資料庫。</p>
-        <p>補助範圍包含以下六大語群，及其下各方言語類：<br>
-          <ul>
-            <li>排灣</li>
-            <li>賽德克</li>
-            <li>撒奇萊雅</li>
-            <li>泰雅（含汶水、萬大）</li>
-            <li>魯凱（含多納、萬山、茂林）</li>
-            <li>布農</li>
-          </ul>
-        </p>
-        <p>每個語群我們將補助 20 人次錄製 30 分鐘（每句 3-5 秒，預估 450 句，需操作 2-3 小時），每人次費用新台幣 $2500 元。</p>
-        <p>如果以語推組織名義申請，我們將區分為：錄音者本人 $1250，語推組織／聯絡小幫手 $1250 元。（語推組織幫手的工作包含協助錄音操作、重聽錄音的驗證工作、協助簽回領據。另小幫手本人也可以參加錄音）</p>
-        <p>1/31 前，各語言錄音總長度達 5 小時（約莫完成 10 人次），該語言聯絡人及語推組織另有目標獎金 7000 元（按完成長度均分）。</p>
-        <p>3/15 前，各語言音檔達總長度 10 小時（約莫完成 20 人次），也另有第二階段的目標獎金 7000 元。（按完成長度均分）。</p>
-        <p>一月中與三月初時，我們會計算每個語言的長度還差多少，請聯絡人協助補足。</p>
-        <p>最後，如果結案時，我們整個計劃六個語類都有達標（各十小時，總長度 60 小時），那麼每個語言，都將會有額外的結案獎金各 $22,000 元，提供予語推組織及聯絡人！（按照錄製人次均分）</p>
+        <p>補助範圍包含「排灣、賽德克、撒奇萊雅、泰雅（含汶水、萬大）、魯凱（含多納、萬山、茂林）、布農」等六大語群，及其下各方言語類。</p>
+        <p>每個語群我們將提供 50,000 元預算，補助 20 人次錄製 30 分鐘。另設有兩階段的達標獎勵金每個語言各 14,000 元，及完整六個語言全數完成的達標獎勵金合計 130,000 元。達標時限將在 1/31 及 3/15 結算各語言的錄音與驗證長度，請大家多多協助分享宣傳。</p>
       </div>
     </section>
+
+    <section id="application" class="grids">
+      <header>
+        <div class="hgroup">
+          <h1>如何申請</h1>
+        </div>
+      </header>
+      <div class="grid-6">
+        <p>如您想進一步了解本專案目標與補助細節，歡迎加入以下 Line 群組聯繫：<a href="https://line.me/ti/g/DkTvRAy7ba" target="_blank">https://line.me/ti/g/DkTvRAy7ba</a></p>
+        <p>如果你需要申請錄音補助經費，請填寫此一線上表格：<a href="https://forms.gle/2jsESFM2bZvufqE39">https://forms.gle/2jsESFM2bZvufqE39</a></p>
+      </div>
+      <div class="grid-6">
+        <img src="images/line.jpg" alt="common voice in taiwan 群組" style="width: 100%; max-width: 200px; margin: 0 auto; display: block;">
+      </div>
+    </section>
+
     <section id="about" class="grids">
       <header>
         <div class="hgroup">
@@ -167,7 +193,8 @@
         </ul>
       </div>
     </section>
-    <section id="intro" class="grids">
+
+    <section id="moreinfo" class="grids">
       <header>
         <div class="hgroup">
           <h1>相關資訊</h1>
@@ -214,13 +241,13 @@
       </div>
 
       <div class="grid-6">
-        <h2>其他問題 FAQ</h2>
-        <p>請參考 <a href="https://docs.google.com/document/d/1Du9DKVQmvAUUSVGOZ0PeapStqsGR38hUxIkTv8j-SUY/edit?tab=t.0" target="_blank">族語補助專案與錄音網站操作手冊</a></p>
+        <h2>常見問題</h2>
+        <p>更多資訊與 FAQ 請參考：<a href="https://docs.google.com/document/d/1Du9DKVQmvAUUSVGOZ0PeapStqsGR38hUxIkTv8j-SUY/edit?tab=t.0" target="_blank">族語補助專案與錄音網站操作手冊</a></p>
       </div>
 
       <div class="grid-6">
         <h2>聯絡資料</h2>
-        <p>台灣維基媒體協會<br>Common Voice 族語錄音補助專案<br> 專案執行 Irvin Chen (陳心一)<br> 0933561278 / irvin@moztw.org</p>
+        <p>台灣維基媒體協會 Common Voice 族語錄音補助專案<br> 專案執行 Irvin Chen (陳心一)<br> 0933561278 / irvin@moztw.org</p>
       </div>
 
     </section>
