@@ -61,7 +61,6 @@
       </div>
     </section>
 
-
     <section id="what-is-common-voice" class="grids">
       <header>
         <div class="hgroup">
@@ -75,7 +74,7 @@
         <p>目前 Mozilla 自己未進行相關的 ASR 等語音模型開發。本專案僅處理收集、整理與開放資料等流程，並公開資料集，予以世界各地的科技廠商及研究者自由下載、免費使用。</p>
       </div>
     </section>
-    
+
     <section id="history" class="grids">
       <header>
         <div class="hgroup">
@@ -87,6 +86,7 @@
         <p>Common Voice 在台灣起始自 <a href="https://moztw.kktix.cc/events/voice-jam">2017 年的 Voice Jam</a> 活動。</p>
         <p>Common Voice 網站開放之後，MozTW 志工（及廣大的自由軟體社群參與者，如 g0v 成員）即刻於 2018 年開始著手國語（台灣華語）的開設與推廣事宜，至今已累積 <a href="https://commonvoice.mozilla.org/zh-TW/languages" target="_blank">125 個小時以上的國語語料</a>。2020 年我們協助 Mozilla 香港社群上線香港廣東話。於 2022 年，我們推動台語錄音上線，至今也累積了 <a href="https://commonvoice.mozilla.org/nan-tw/languages" target="_blank">23 小時的免費開放語料</a>。</p>
         <p>2024 年末，我們有幸爭取到原廠對於小型語言的補助，開始進行此原住民族語的語音錄音專案。</p>
+        <p>關於 Common Voice 多年來在台灣的進展，推薦閱讀此篇最新的英文專訪，有提到台灣志工參與的脈絡：<a href="https://www.fastcompany.com/91224595/mozilla-is-now-offering-free-ai-voice-training-data-in-180-languages" target="_blank">Mozilla is now offering free AI voice training data in 180 languages - Fast Company</a></p>
       </div>
     </section>
 
@@ -97,38 +97,64 @@
         </div>
       </header>
       <div class="grid-12">
-        <p>錄音結果以 CC0 公眾領域授權釋出，Mozilla 不對其作出任何版權限制，任何人跟任何公司都可以自由的下載與使用於自己的研究、開發專案上。</p>
+        <p>錄音結果以 <em>CC0 公眾領域授權</em>釋出，Mozilla 不對其作出任何版權限制，任何人跟任何公司都可以自由的下載與使用於自己的研究、開發專案上。</p>
         <p>現在你就可以在這邊下載到國語、台語及其他一百三十種語言的錄音檔： <a href="https://commonvoice.mozilla.org/datasets" target="_blank">https://commonvoice.mozilla.org/datasets</a></p>
         <p>網站上的錄音定期每三個月釋出一次。本次族語錄音的成果，預期將會於 2025 年四月公布於上述頁面。</p>
       </div>
     </section>
 
-    <section id="result" class="grids">
+    <section id="record" class="grids">
       <header>
         <div class="hgroup">
-          <h1>補助費用細節</h1>
+          <h1>錄音方式</h1>
+        </div>
+      </header>
+      <div class="grid-12">
+
+        <div>
+          以下為各語言的錄音頁面：<br>
+          <ul>
+            <li>排灣 <a href="https://commonvoice.mozilla.org/pwn/speak" target="_blank">commonvoice.mozilla.org/pwn/speak</a></li>
+            <li>賽德克 <a href="https://commonvoice.mozilla.org/trv/speak" target="_blank">commonvoice.mozilla.org/trv/speak</a></li>
+            <li>撒奇萊雅 <a href="https://commonvoice.mozilla.org/szy/speak" target="_blank">commonvoice.mozilla.org/szy/speak</a></li>
+            <li>泰雅（含汶水、萬大） <a href="https://commonvoice.mozilla.org/tay/speak" target="_blank">commonvoice.mozilla.org/tay/speak</a></li>
+            <li>魯凱（含多納、萬山、茂林） <a href="https://commonvoice.mozilla.org/dru/speak" target="_blank">commonvoice.mozilla.org/dru/speak</a></li>
+            <li>布農 <a href="https://commonvoice.mozilla.org/bnn/speak" target="_blank">commonvoice.mozilla.org/bnn/speak</a></li>
+          </ul>
+        </div>
+
+        <p>註冊與操作方式，請參考《<a href="https://docs.google.com/document/d/1Du9DKVQmvAUUSVGOZ0PeapStqsGR38hUxIkTv8j-SUY/edit?tab=t.0" target="_blank">族語補助專案與錄音網站操作手冊</a>》</p>
+      </div>
+    </section>
+
+    <section id="stipend" class="grids">
+      <header>
+        <div class="hgroup">
+          <h1>補助費用</h1>
         </div>
       </header>
       <div class="grid-12">
         <p>本專案經 Mozilla 贊助台灣維基媒體協會進行原住民族語錄音，以建制開放自由的族語語音資料庫。</p>
-        <p>補助範圍包含以下六大語群，及其下各方言語類：<br>
-          <ul>
-            <li>排灣</li>
-            <li>賽德克</li>
-            <li>撒奇萊雅</li>
-            <li>泰雅（含汶水、萬大）</li>
-            <li>魯凱（含多納、萬山、茂林）</li>
-            <li>布農</li>
-          </ul>
-        </p>
-        <p>每個語群我們將補助 20 人次錄製 30 分鐘（每句 3-5 秒，預估 450 句，需操作 2-3 小時），每人次費用新台幣 $2500 元。</p>
-        <p>如果以語推組織名義申請，我們將區分為：錄音者本人 $1250，語推組織／聯絡小幫手 $1250 元。（語推組織幫手的工作包含協助錄音操作、重聽錄音的驗證工作、協助簽回領據。另小幫手本人也可以參加錄音）</p>
-        <p>1/31 前，各語言錄音總長度達 5 小時（約莫完成 10 人次），該語言聯絡人及語推組織另有目標獎金 7000 元（按完成長度均分）。</p>
-        <p>3/15 前，各語言音檔達總長度 10 小時（約莫完成 20 人次），也另有第二階段的目標獎金 7000 元。（按完成長度均分）。</p>
-        <p>一月中與三月初時，我們會計算每個語言的長度還差多少，請聯絡人協助補足。</p>
-        <p>最後，如果結案時，我們整個計劃六個語類都有達標（各十小時，總長度 60 小時），那麼每個語言，都將會有額外的結案獎金各 $22,000 元，提供予語推組織及聯絡人！（按照錄製人次均分）</p>
+        <p>補助範圍包含「排灣、賽德克、撒奇萊雅、泰雅（含汶水、萬大）、魯凱（含多納、萬山、茂林）、布農」等六大語群，及其下各方言語類。</p>
+        <p>每個語群我們將提供 50,000 元預算，補助 20 人次錄製 30 分鐘。另設有兩階段的達標獎勵金每個語言各 14,000 元，及完整六個語言全數完成的達標獎勵金合計 130,000 元。達標時限將在 1/31 及 3/15 結算各語言的錄音與驗證長度，請大家多多協助分享宣傳。</p>
       </div>
     </section>
+
+    <section id="application" class="grids">
+      <header>
+        <div class="hgroup">
+          <h1>如何申請</h1>
+        </div>
+      </header>
+      <div class="grid-6">
+        <p>如您想進一步了解本專案目標與補助細節，歡迎加入以下 Line 群組聯繫：<a href="https://line.me/ti/g/DkTvRAy7ba" target="_blank">https://line.me/ti/g/DkTvRAy7ba</a></p>
+        <p>如果你需要申請錄音補助經費，請填寫此一線上表格：<a href="https://forms.gle/2jsESFM2bZvufqE39" target="_blank">https://forms.gle/2jsESFM2bZvufqE39</a></p>
+      </div>
+      <div class="grid-6">
+        <img src="images/line.jpg" alt="common voice in taiwan 群組" style="width: 100%; max-width: 200px; margin: 0 auto; display: block;">
+      </div>
+    </section>
+
     <section id="about" class="grids">
       <header>
         <div class="hgroup">
@@ -137,14 +163,13 @@
       </header>
       <div class="grid-12">
         <h2>MozTW, Mozilla 台灣社群</h2>
-        <p>Mozilla 台灣社群（ https://moztw.org ）是一群在台灣的 Firefox 志工與支持者。我們自 2002 年開始，持續進行 Firefox 等自由軟體跟開放文化相關的翻譯跟推廣活動。</p>
-        <p>2024 年末，我們有幸爭取到原廠對於小型語言的補助，因此開始推動原住民族語的語音資料收集。</p>
-        <p>關於 Common Voice 多年來在台灣的進展，推薦閱讀此篇最新的英文專訪，有提到台灣志工參與的脈絡：<a href="https://www.fastcompany.com/91224595/mozilla-is-now-offering-free-ai-voice-training-data-in-180-languages" target="_blank">Mozilla is now offering free AI voice training data in 180 languages - Fast Company</a></p>
+        <p><a href="https://moztw.org" target="_blank">Mozilla 台灣社群</a>（ https://moztw.org ）是一群在台灣的 Firefox 志工與支持者。我們自 2002 年開始，持續進行 Firefox 等自由軟體跟開放文化相關的翻譯跟推廣活動。</p>
+        <p>MozTW 社群另在台北經營一個實體的社群活動空間 「<a href="/space" target="_blank">摩茲工寮 MozTW Space</a>」 hackerspace，每週五晚上都有 Mozilla 與維基百科志工的定期聚會 <a href="/events/moztw-lab/" target="_blank">MozTW Lab</a>，歡迎隨時來訪。</p>
       </div>
       <div class="grid-12">
         <h2>台灣維基媒體協會</h2>
-        <p><a href="https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/zh" target="_blank">台灣維基媒體協會</a>（Wikimedia
-          Taiwan</a>），是台灣的維基媒體分會，維基百科在台灣的志工與編輯社團。過去數年持續推動<a href="https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/IncuWPTA" target="_blank">原住民族語維基百科</a>，如撒奇萊雅語維基百科（<a href="https://szy.wikipedia.org" target="_blank">Sakizaya Wikipitiya</a>）、泰雅族語維基百科（<a href="https://tay.wikipedia.org/">Wikibitia na Tayal</a>）、排灣族語維基百科（<a href="https://pwn.wikipedia.org/" target="_blank">wikipidiya nua pinayuanan</a>）、賽德克／太魯閣族語維基百科（<a href="https://trv.wikipedia.org/" target="_blank">Seediq Wikipidiya</a>）等計畫。</p>
+
+        <p><a href="https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/zh" target="_blank">台灣維基媒體協會</a>（Wikimedia Taiwan），是台灣的維基媒體分會，包括維基百科在內的各項計畫在台灣的推廣組織。過去數年持續協助政大原民中心，推動<a href="https://meta.wikimedia.org/wiki/Wikimedia_Taiwan/IncuWPTA" target="_blank">原住民族語維基百科</a>，如撒奇萊雅語維基百科（<a href="https://szy.wikipedia.org" target="_blank">Sakizaya Wikipitiya</a>）、泰雅語維基百科（<a href="https://tay.wikipedia.org/">Wikibitia na Tayal</a>）、排灣語維基百科（<a href="https://pwn.wikipedia.org/" target="_blank">wikipidiya nua pinayuanan</a>）、賽德克／太魯閣語維基百科（<a href="https://trv.wikipedia.org/" target="_blank">Seediq Wikipidiya</a>）、阿美語維基百科（<a href="https://ami.wikipedia.org/" target="_blank">Wikipitiya</a>）等。</p>
         <p>本次的族語錄音補助專案，由台灣維基媒體協會負責財務、稅務跟行政相關事務，並結合族語百科的參與者社群一同進行。</p>
       </div>
     </section>
@@ -167,7 +192,8 @@
         </ul>
       </div>
     </section>
-    <section id="intro" class="grids">
+
+    <section id="moreinfo" class="grids">
       <header>
         <div class="hgroup">
           <h1>相關資訊</h1>
@@ -214,13 +240,13 @@
       </div>
 
       <div class="grid-6">
-        <h2>其他問題 FAQ</h2>
-        <p>請參考 <a href="https://docs.google.com/document/d/1Du9DKVQmvAUUSVGOZ0PeapStqsGR38hUxIkTv8j-SUY/edit?tab=t.0" target="_blank">族語補助專案與錄音網站操作手冊</a></p>
+        <h2>常見問題</h2>
+        <p>更多資訊與 FAQ 請參考：<a href="https://docs.google.com/document/d/1Du9DKVQmvAUUSVGOZ0PeapStqsGR38hUxIkTv8j-SUY/edit?tab=t.0" target="_blank">族語補助專案與錄音網站操作手冊</a></p>
       </div>
 
       <div class="grid-6">
         <h2>聯絡資料</h2>
-        <p>台灣維基媒體協會<br>Common Voice 族語錄音補助專案<br> 專案執行 Irvin Chen (陳心一)<br> 0933561278 / irvin@moztw.org</p>
+        <p>台灣維基媒體協會 Common Voice 族語錄音補助專案<br> 專案執行 Irvin Chen (陳心一)<br> 0933561278 / irvin@moztw.org</p>
       </div>
 
     </section>
