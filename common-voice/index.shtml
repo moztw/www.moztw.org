@@ -61,7 +61,6 @@
       </div>
     </section>
 
-
     <section id="what-is-common-voice" class="grids">
       <header>
         <div class="hgroup">
@@ -75,7 +74,7 @@
         <p>目前 Mozilla 自己未進行相關的 ASR 等語音模型開發。本專案僅處理收集、整理與開放資料等流程，並公開資料集，予以世界各地的科技廠商及研究者自由下載、免費使用。</p>
       </div>
     </section>
-    
+
     <section id="history" class="grids">
       <header>
         <div class="hgroup">
