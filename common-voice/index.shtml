@@ -4,7 +4,7 @@
 <meta property="og:title" content="Common Voice 原住民族語錄音補助計畫 | MozTW x Wikimedia Taiwan" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://moztw.org/common-voice/" />
-<meta property="og:image" content="images/common-voice-sakizaya.jpg" />
+<meta property="og:image" content="http://moztw.org/common-voice/images/common-voice-sakizaya.jpg" />
 <meta property="og:description" content="MozTW 社群與台灣維基媒體協會，推動六個台灣原住民族語的錄音補貼專案，建構第一套自由開放的族語語音資料庫。" />
 <link href="css/mozspacetp.css" rel="stylesheet" />
 <style>
