@@ -1,11 +1,11 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
 <title>Common Voice 原住民族語錄音補助計畫 | MozTW x Wikimedia Taiwan</title>
-<meta name="description" content="MozTW社群與台灣維基媒體協會，推動六個台灣原住民族語的錄音補貼專案，建構第一套自由開放的台灣原住民族語語音資料庫。" />
+<meta name="description" content="MozTW 社群與台灣維基媒體協會，推動六個台灣原住民族語的錄音補貼專案，建構第一套自由開放的族語語音資料庫。" />
 <meta property="og:title" content="Common Voice 原住民族語錄音補助計畫 | MozTW x Wikimedia Taiwan" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://moztw.org/common-voice/" />
 <meta property="og:image" content="images/common-voice-sakizaya.jpg" />
-<meta property="og:description" content="MozTW社群與台灣維基媒體協會，推動六個台灣原住民族語的錄音補貼專案，建構第一套自由開放的台灣原住民族語語音資料庫。" />
+<meta property="og:description" content="MozTW 社群與台灣維基媒體協會，推動六個台灣原住民族語的錄音補貼專案，建構第一套自由開放的族語語音資料庫。" />
 <link href="css/mozspacetp.css" rel="stylesheet" />
 <style>
   #masthead {
@@ -41,7 +41,7 @@
 <header id="masthead" role="banner">
   <div class="hgroup">
     <h1 id="site-title">Common Voice 族語錄音補助計畫</h1>
-    <h2 id="site-description">pahakiw tu ngiha!</h2>
+    <h2 id="site-description">pahaykiw tu ngiha!</h2>
     <span class="small">撒奇萊雅語的「捐出你的聲音」</span>
   </div>
 </header>
@@ -57,7 +57,7 @@
         </div>
       </header>
       <div class="grid-12">
-        <p>2024 年 12 月至 2025 年 3 月，MozTW 社群與台灣維基媒體協會協力，正在推動六個台灣原住民族語的錄音補貼，以建構第一套自由開放的台灣原住民族語語音資料庫，促進本土語言的語音科技發展。</p>
+        <p>2024 年 12 月至 2025 年 3 月，MozTW 社群與台灣維基媒體協會協力，正在推動六個台灣原住民族語的錄音補貼，以建構第一套自由開放的族語語音資料庫，促進本土語言的語音科技發展。</p>
       </div>
     </section>
 
@@ -206,7 +206,7 @@
         <ul>
           <li>
             <span class="date">2024/12/7</span>
-            <a href="https://medium.com/mozilla-related/common-voice-formosan-languages-ee33ffe2a9f7" target="_blank">Pahakiw tu ngiha! Common Voice 納入原住民族語計畫開跑</a>
+            <a href="https://medium.com/mozilla-related/common-voice-formosan-languages-ee33ffe2a9f7" target="_blank">pahaykiw tu ngiha! Common Voice 納入原住民族語計畫開跑</a>
           </li>
           <li>
             <span class="date">2022/2/18</span>
