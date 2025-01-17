@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html class="os-windows no-js" lang="zh-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/tabzilla.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="//fonts.googleapis.com/css?family=Open+Sans:400,300" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/style.css" />
+  <script type="text/javascript" src="/sandstone/js/os_detector.js"></script>
+  <!--[if lt IE 9]>
+    <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script data-main="/sandstone/js/main.js" src="/sandstone/js/lib/require.js"></script>
+
+<title>MozTW Lab - MozTW, Mozilla Taiwan Community</title>
+<meta name="description" lang="zh-tw" content="交朋友、聊是非、互助研究的好所在。聊聊 Web 界的八卦、找人幫你的作品給點意見、與志同道合的夥伴見面">
+<meta name="description" lang="en" content="A place for making friends, gossiping, and studying with each other. Unveil secrets of Web, get some comments for your works, and meet partners with common interest.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://moztw.org/events/moztw-lab/">
+<meta property="og:image" content="http://moztw.org/events/moztw-lab/images/moztwlab.jpg">
+<meta property="og:site_name" content="MozTW, Mozilla Taiwan Community">
+<meta property="og:description" content="交朋友、聊是非、互助研究的好所在。聊聊 Web 界的八卦、找人幫你的作品給點意見、與志同道合的夥伴見面">
+<meta property="og:description" lang="en" content="A place for making friends, gossiping, and studying with each other. Unveil secrets of Web, get some comments for your works, and meet partners with common interest.">
+<script>
+    // let tabzilla not clickable
+      Tabzilla.onReady = function() {
+        Tabzilla.setStatic();
+      }
+</script>
+<link href="/js/library/leaflet/leaflet.css" media="screen, projection" rel="stylesheet" type="text/css">
+<!--[if lte IE 8]><link rel="stylesheet" href="/js/library/leaflet/leaflet.ie.css" /><![endif]-->
+<link href="style.css" rel="stylesheet" />
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800italic,800' rel='stylesheet' type='text/css'>
+<!--[if lte IE 7]>
+<style>
+.header-site-title { float: left; }
+.header-menu li { float: left; }
+.header-menu li a { color: #807E78; }
+.header-menu .header-menu-item:hover a {
+  background-color: #C1BEB5;
+  color: #007BB7;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 8]>
+<style>
+.header-search { display: none; }
+</style>
+<![endif]-->
+
+</head><body id="www-moztw-org">
+
+  <header id="header">
+    <div class="container">
+      <a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
+      <h1 class="header-site-title"><a href="/" title="回首頁">MozTW</a></h1>
+      <a class="header-menu-btn" href=""><i class="icon-reorder"></i></a>
+      <div class="header-search">
+        <div class="header-search-btn">
+          <i class="icon-search header-search-icon"></i>
+        </div>
+        <div class="header-search-form-background">
+        </div>
+        <form class="header-search-form" action="//forum.moztw.org/google_results.php">
+          <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa">
+          <input type="hidden" name="cof" value="FORID:9">
+          <input type="hidden" name="ie" value="UTF-8">
+          <input placeholder="搜尋…" class="header-search-form-input" type="text" id="q" name="q" accesskey="s" size="30" maxlength="64">
+        </form>
+      </div>
+      <ul class="header-menu">
+        <li id="header-menu-dl" class="header-menu-item"><a href="/dl">下載</a></li>
+        <li id="header-menu-forum" class="header-menu-item"><a href="//forum.moztw.org/">討論區</a></li>
+        <li id="header-menu-events" class="header-menu-item"><a href="/events">活動</a></li>
+<!--        <li id="header-menu-wiki" class="header-menu-item"><a href="http://wiki.moztw.org/">共筆系統</a></li>-->
+        <li id="header-menu-space" class="header-menu-item"><a href="/space">摩茲工寮</a></li>
+        <li id="header-menu-planet" class="header-menu-item"><a href="http://planet.moztw.org/">摩茲星球</a></li>
+        <li id="header-menu-contribute" class="header-menu-item"><a href="/contribute">參與我們</a></li>
+        <li id="header-menu-about" class="header-menu-item"><a href="/about">關於本站</a></li>
+      </ul>
+    </div>
+  </header>
+
+<div id="main" class="container">
+    <section id="introduction" class="container block">
+        <article class="module">
+            <div>
+                <div id="header2">
+                    <img src="images/moztwlab.jpg" alt="MozTW Lab" />
+                </div>
+                <h2 class="event-title">MozTW Lab</h2>
+                <p style="text-align: center;">交朋友、聊是非、互助研究的好所在
+                    <br/>A place where you can make friends, gossip, and study with each other.</p>
+            </div>
+            <div class="block">
+                <div>
+                    <h2>你可以在這裡…
+                        <br/>A place where you can…</h2>
+                </div>
+                <div>
+                    <ul>
+                        <li>聊聊 Web 界的八卦 Unveil gossips of the Web</li>
+                        <li>找人幫你的作品給點意見 Get comments for your works</li>
+                        <li>與志同道合的夥伴見面 Meet partners with common interests</li>
+                        <li>
+                            <del>約團購面交 Shop together to get discounts</del>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a class="event-link" href="#location">我要參加 Join Us</a>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="container">
+        <article id="whatsthis" class="module">
+            <div>
+                <div>
+                    <h2>什麼是 MozTW Lab？
+                        <br/>What is MozTW Lab ?</h2>
+                </div>
+                <div>
+                    <blockquote cite="http://blog.bobchao.net/2010/04/moztw-lab.html">台北這邊的 Lab 從來都不是為了有什麼目標或者要作什麼事情而聚的，<br>有新消息聊、有困難找人討論，但不需要有統一的目標。
+                        <br/>We do not need a certain goal or something to do for Lab at Taipei.<br>There is new information to discuss, and difficulties to solve, but there is no unified target.<br>
+                         -- BobChao，<a href="http://blog.bobchao.net/2010/04/moztw-lab.html" title="台北的 MozTW Lab，都在幹麼？">〈台北的 MozTW Lab，都在幹麼？〉</a>
+                    </blockquote>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="container block">
+        <article id="photos" class="module">
+            <h2>活動剪影 Photos</h2>
+            <div class="content">
+                <a href="javascript:void(0)" class="left-btn"></a>
+                <a href="javascript:void(0)" class="right-btn"></a>
+                <ul></ul>
+            </div>
+        </article>
+    </section>
+    <section class="container block">
+        <article id="location" class="module">
+            <h2>那裡有 MozTW Lab？
+                <br/>Where are MozTW Labs ?</h2>
+            <p>這位客官你運氣真好，台北剛好有一個：
+                <br/>You are so lucky that we got MozTW Labs at Taipei:</p>
+            <p>（場地資訊可能隨時會變動，請記得注意一下 Twitter 資訊 : P）
+                <br/>(In case that venues vary at times, follow up at Twitter in advance :P)</p>
+            <!-- <ul class="nav"> -->
+                <!-- <li class="nv lb sel" id="taipei_lab_nav"> -->
+                    <!-- <a href="#taipei">台北 Taipei</a> -->
+                <!-- </li> -->
+                <!-- add more places here, last button must have class 'rb' -->
+            <!-- </ul> -->
+            <div class="toggle_pad">
+                <!-- Taipei Lab Info -->
+                <div class="details" id="taipei_lab">
+                    <ul>
+                        <li>每週五晚間 19:30~22:00 Every Friday night</li>
+                        <li>
+                          <a href="/space">摩茲工寮 Mozilla Community Space Taipei<br/>
+                            <span class="locality">臺北市</span><span class="street-address">中正區重慶南路一段 99 號，世界大樓 11 樓 1105 室</span><br />
+                            <span class="street-address">Rm. 1105, 11F, 99 Chongqing S. Rd. Sec I, Zhongzheng Dist.</span>, <span class="locality">Taipei City</span> 100, Taiwan</a>
+                        </li>
+                        <li>現場備有 Wi-Fi 與電源，免費參加，餐點自備。
+                            <br/>Free to join. Wi-Fi and power are available, food and drinks on your own.</li>
+                    </ul>
+                    <div class="mapcover">
+                        <div class="map" id="map_taipei"></div>
+                    </div>
+                </div>
+                <!-- More Labs… -->
+            </div>
+        </article>
+    </section>
+    <div id="twit" class="container block" style="text-align: center;">
+        <a class="twitter-timeline" href="https://twitter.com/search?q=moztw+lab" data-widget-id="332149668068859905">Tweets about "moztw lab"</a>
+        <script>
+            ! function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0],
+                      p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                      js = d.createElement(s);
+                      js.id = id;
+                      js.src = p + "://platform.twitter.com/widgets.js";
+                      fjs.parentNode.insertBefore(js, fjs);
+                    }
+                  }(document, "script", "twitter-wjs");
+        </script>
+    </div>
+    <section class="container block">
+        <article id="host" class="module">
+            <h2>來開 Lab！ Start a new Lab!</h2>
+            <p>你也想在自己的所在地開一個定期的 MozTW Lab 嗎？請上
+                <a href="https://groups.google.com/group/moztw-general" target="_blank">MozTW-General</a> 郵件群組呼朋引伴。
+                <br/>Do you want to start a MozTW Lab at your location in Taiwan periodically? Hail your friends on
+                <a href="https://groups.google.com/group/moztw-general" target="_blank">MozTW-General</a>.</p>
+        </article>
+    </section>
+</div>
+<script type="text/javascript" charset="utf-8" src="/js/library/leaflet/leaflet.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="scripts.js"></script>
+<footer id="footer" class="block">
+  <div class="container">
+    <div class="grids">
+      <div class="grid-logo">
+        <a href="//moztw.org/">
+          <img src="/sandstone/images/footer-moztw.png" alt="MozTW.org" />
+        </a>
+      </div>
+
+      <div class="grid-text">
+        <p>除另有註明外，本站內容皆採 <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/deed.zh_TW" onclick="ga('send', 'event', 'Outgoing', 'CC', 'sandstone-footer');">創用 CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a> 或更新版本授權大眾使用</p>
+        <p><a rel="source" href="https://github.com/moztw/www.moztw.org" onclick="ga('send', 'event', 'Outgoing', 'GitHub','sandstone-footer');">貢獻本網站 Source</a> |
+          <a rel="contact" href="/about" onclick="ga('send', 'event', 'FooterLink', 'Contact', 'sandstone-footer');">聯絡資訊 Contact</a> |
+          Powered by <a href="http://ubuntu-tw.org/" onclick="ga('send', 'event', 'Outgoing', 'Ubuntu-TW', 'new-footer');">Ubuntu-TW</a> / <a href="http://bluet.org/" onclick="ga('send', 'event', 'Outgoing', 'BlueT', 'new-footer');">BlueT</a> and <a href="http://www.cc.ncnu.edu.tw/" onclick="ga('send', 'event', 'Outgoing', 'NCNU-CC', 'new-footer');">NCNU-CC</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="/sandstone/js/tabzilla.js"></script>
+<script>
+  // let tabzilla not clickable
+  Tabzilla.onReady = function() {
+    Tabzilla.setStatic();
+  }
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-1035080-1', 'moztw.org');
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html class="os-windows no-js" lang="zh-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/tabzilla.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="//fonts.googleapis.com/css?family=Open+Sans:400,300" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/style.css" />
+  <script type="text/javascript" src="/sandstone/js/os_detector.js"></script>
+  <!--[if lt IE 9]>
+    <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script data-main="/sandstone/js/main.js" src="/sandstone/js/lib/require.js"></script>
+
+    <title>Foxmosa 狐耳摩莎</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/buttons.css" rel="stylesheet" />
+    <link href="/js/library/fancybox2/jquery.fancybox.css" rel="stylesheet" />
+</head>
+    <body>
+                  <header id="header">
+    <div class="container">
+      <a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
+      <h1 class="header-site-title"><a href="/" title="回首頁">MozTW</a></h1>
+      <a class="header-menu-btn" href=""><i class="icon-reorder"></i></a>
+      <div class="header-search">
+        <div class="header-search-btn">
+          <i class="icon-search header-search-icon"></i>
+        </div>
+        <div class="header-search-form-background">
+        </div>
+        <form class="header-search-form" action="//forum.moztw.org/google_results.php">
+          <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa">
+          <input type="hidden" name="cof" value="FORID:9">
+          <input type="hidden" name="ie" value="UTF-8">
+          <input placeholder="搜尋…" class="header-search-form-input" type="text" id="q" name="q" accesskey="s" size="30" maxlength="64">
+        </form>
+      </div>
+      <ul class="header-menu">
+        <li id="header-menu-dl" class="header-menu-item"><a href="/dl">下載</a></li>
+        <li id="header-menu-forum" class="header-menu-item"><a href="//forum.moztw.org/">討論區</a></li>
+        <li id="header-menu-events" class="header-menu-item"><a href="/events">活動</a></li>
+<!--        <li id="header-menu-wiki" class="header-menu-item"><a href="http://wiki.moztw.org/">共筆系統</a></li>-->
+        <li id="header-menu-space" class="header-menu-item"><a href="/space">摩茲工寮</a></li>
+        <li id="header-menu-planet" class="header-menu-item"><a href="http://planet.moztw.org/">摩茲星球</a></li>
+        <li id="header-menu-contribute" class="header-menu-item"><a href="/contribute">參與我們</a></li>
+        <li id="header-menu-about" class="header-menu-item"><a href="/about">關於本站</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+                <div id="title_area" class="container block">
+                    <h1 id="site-title" class="large">Foxmosa</h1>
+                    <h2 id="site-description">狐耳摩莎</h2>
+                </div>
+
+                <div id="content-area">
+                    <section id="foxmosa-info" class="container block row">
+                        <h2 class="block-title hide l10n" data-l10n="foxmosa-info-h2">小莎資料</h2>
+                        <canvas id="foxmosa-run" width="680" height="200"></canvas>
+                        <div id="earth">
+                            <img src="images/a.svg" alt="Spinning Earth" />
+                        </div>
+                        <ul id="foxmosa-profile" class="left">
+                            <li class="l10n" data-l10n="foxmosa-profile-name">暱稱：小莎、莎莎</li>
+                            <li class="l10n" data-l10n="foxmosa-profile-sex">性別：女</li>
+                            <li class="l10n" data-l10n="foxmosa-profile-age">年齡：未成年</li>
+                            <li class="l10n" data-l10n="foxmosa-profile-birth">生日：十月，天枰座</li>
+                            <li class="l10n" data-l10n="foxmosa-profile-personality">個性：活潑、調皮 、友善、分享、好奇心、正義感</li>
+                            <li class="l10n" data-l10n="foxmosa-profile-interest">興趣：逛網路、跟大家閒聊</li>
+                            <li class="l10n" data-l10n="foxmosa-profile-feature">特徵：
+                                <ol>
+                                    <li>頭上的楓葉中有台灣形狀的印記</li>
+                                    <li>像顆蕃薯的臉</li>
+                                    <li>毛茸茸的大尾巴</li>
+                                </ol>
+                            </li>
+                        </ul>
+                        <div id="foxmosa-pictures"></div>
+                    </section>
+
+                    <section class="container block">
+                        <div id="foxmosa-games" class="module whitebox">
+                            <header>
+                                <h2 class="block-title">BrowserPairs</h2>
+                            </header>
+                            <a href="game/pairs/" class="foxmosa-games-logo pairslogo">BrowserPairs</a>
+                            <a href="https://github.com/moztw/browser-pairs" class="button github" onclick="ga('send', 'event', 'Outgoing', 'Github-BrowserPairs', 'foxmosa');">Fork me on Github</a>
+                            <a href="game/pairs/" class="button playthegame">Play</a>
+                        </div>
+                        <div id="foxmosa-games" class="module whitebox">
+                            <header>
+                                <h2 class="block-title">Star Pusher</h2>
+                            </header>
+                            <a href="game/stars/" class="foxmosa-games-logo starslogo">Star Pusher</a>
+                            <a href="https://github.com/moztw/star-pusher" class="button github" onclick="ga('send', 'event', 'Outgoing', 'Github-StarsPusher', 'foxmosa');">Fork me on Github</a>
+                            <a href="game/stars/" class="button playthegame">Play</a>
+                        </div>
+                    </section>
+
+                    <section class="container block">
+                        <div id="foxmosa-social" class="module whitebox">
+                            <header>
+                                <h2 class="block-title">Social Network</h2>
+                            </header>
+                            <ul>
+                                <li class="plurk"><a class="button" href="http://www.plurk.com/foxmosa" onclick="ga('send', 'event', 'Outgoing', 'Plurk-Foxmosa', 'foxmosa');">Plurk</a>
+                                <li class="facebook"><a class="button" href="https://facebook.com/Foxmosa" onclick="ga('send', 'event', 'Outgoing', 'Facebook-Foxmosa', 'foxmosa');">Facebook</a>
+                                <li class="twitter"><a class="button" href="https://twitter.com/Foxmosa" onclick="ga('send', 'event', 'Outgoing', 'Twitter-Foxmosa', 'foxmosa');">Twitter</a>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section id="foxmosa-gallery" class="row">
+                        <h2 class="block-title hide">Gallery</h2>
+                    </section>
+
+                    <section class="container block">
+                      <div id="foxmosa-stickers" class="module whitebox">
+                        <header>
+                          <h2 class="block-title l10n" data-l10n="foxmosa-sticker-h2">想在更多地方看到小莎嗎？</h2>
+                          <p class="l10n" data-l10n="foxmosa-sticker-content">小莎也有 LINE 和 Telegram 的貼圖唷！快找朋友來和小莎一起玩吧！</p>
+                        </header>
+                        <ul>
+                          <li class="telegram"><a data-l10n="foxmosa-sticker-link1" class="button l10n" href="https://telegram.me/addstickers/FoxmosaTW" onclick="ga('send', 'event', 'Outgoing', 'TelegramStore-Foxmosa', 'foxmosa');">安裝 Telegram 貼圖</a>
+                          <li class="line"><a data-l10n="foxmosa-sticker-link2" class="button l10n" href="https://store.line.me/stickershop/product/1005599/" onclick="ga('send', 'event', 'Outgoing', 'LineStore-Foxmosa', 'foxmosa');">前往 Line Store</a>
+                        </ul>
+                      </div>
+                    </section>
+
+                    <section id="foxmosa-join" class="block container row whitebox">
+                        <h2 class="block-title hide l10n" data-l10n="foxmosa-join-h2">如何加入呢？</h2>
+                        <div>
+                            <h3 class="block-title l10n" data-l10n="foxmosa-license">授權</h3>
+                            <p class="l10n" data-l10n="foxmosa-license-cc">Foxmosa 以<b>創用 CC: by-nc-sa 3.0 tw 姓名標示-非商業性-相同方式分享</b>條款公開授權，你可以自由以她為主題進行創作，但是：</p>
+                            <ol>
+                                <li class="l10n" data-l10n="foxmosa-license-1">你必須在作品的任一處標示「moztw.org」網址</li>
+                                <li class="l10n" data-l10n="foxmosa-license-2">你的作品必須以完全相同的授權方式，再釋出供他人使用</li>
+                                <li class="l10n" data-l10n="foxmosa-license-3">如果要進行商業利用，例如：製作週邊進行販售，就必須事先取得 MozTW 許可：irvin[at]mail.moztw.org（代表）</li>
+                            </ol>
+                        </div>
+                        <div>
+                            <img src="images/join.png" alt="Join us!">
+                        </div>
+                        <div>
+                            <h3 class="block-title l10n" data-l10n="foxmosa-painter-h3">加入 Foxmosa 繪師行列</h3>
+                            <p class="l10n" data-l10n="foxmosa-painter-content">如果有興趣加入 MozTW 社群的志工行列，以繪圖方式來協助 MozTW 進行各種推廣 Mozilla 和 Firefox 的各種計畫（網站、海報、小遊戲......等），請至以下網址填表，並勾選「美術設計」項目，我們會盡速以 email 與您聯繫：<a href="http://bit.ly/joinmoztw" onclick="ga('send', 'event', 'Outgoing', 'GoogleDoc-JoinMozTW', 'foxmosa');">http://bit.ly/joinmoztw</a></p>
+                        </div>
+                    </section>
+                </div>
+    <!--[if lte IE 8]>
+    <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
+    <![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="/js/library/fancybox2/jquery.fancybox.js"></script>
+    <script src="js/l10n.js"></script>
+    <script src="js/picwall.js"></script>
+    <script src="js/main.js"></script>
+
+<footer id="footer" class="block">
+  <div class="container">
+    <div class="grids">
+      <div class="grid-logo">
+        <a href="//moztw.org/">
+          <img src="/sandstone/images/footer-moztw.png" alt="MozTW.org" />
+        </a>
+      </div>
+
+      <div class="grid-text">
+        <p>除另有註明外，本站內容皆採 <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/deed.zh_TW" onclick="ga('send', 'event', 'Outgoing', 'CC', 'sandstone-footer');">創用 CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a> 或更新版本授權大眾使用</p>
+        <p><a rel="source" href="https://github.com/moztw/www.moztw.org" onclick="ga('send', 'event', 'Outgoing', 'GitHub','sandstone-footer');">貢獻本網站 Source</a> |
+          <a rel="contact" href="/about" onclick="ga('send', 'event', 'FooterLink', 'Contact', 'sandstone-footer');">聯絡資訊 Contact</a> |
+          Powered by <a href="http://ubuntu-tw.org/" onclick="ga('send', 'event', 'Outgoing', 'Ubuntu-TW', 'new-footer');">Ubuntu-TW</a> / <a href="http://bluet.org/" onclick="ga('send', 'event', 'Outgoing', 'BlueT', 'new-footer');">BlueT</a> and <a href="http://www.cc.ncnu.edu.tw/" onclick="ga('send', 'event', 'Outgoing', 'NCNU-CC', 'new-footer');">NCNU-CC</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="/sandstone/js/tabzilla.js"></script>
+<script>
+  // let tabzilla not clickable
+  Tabzilla.onReady = function() {
+    Tabzilla.setStatic();
+  }
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-1035080-1', 'moztw.org');
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+

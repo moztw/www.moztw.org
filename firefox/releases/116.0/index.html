@@ -1,0 +1,469 @@
+
+
+
+
+<!DOCTYPE html>
+<html class="os-windows no-js" lang="zh-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/tabzilla.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="//fonts.googleapis.com/css?family=Open+Sans:400,300" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/style.css" />
+  <script type="text/javascript" src="/sandstone/js/os_detector.js"></script>
+  <!--[if lt IE 9]>
+    <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script data-main="/sandstone/js/main.js" src="/sandstone/js/lib/require.js"></script>
+
+
+<meta name="description" content="Firefox 版本資訊 2023 年 8 月 1 日 v116.0 此版本資訊包含了 Firefox 新鮮事、已知問題、下載安裝指示、以及常見問題等訊息。 我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的英文討論區或 MozTW 的 Firefox 中文討論區與我們分享意見。" />
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MozTW">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://moztw.org/firefox/releases/">
+<meta property="og:image" content="http://moztw.org/images/page-image-quantum.png">
+<meta property="og:title" content="Mozilla Firefox 版本資訊 (116.0)">
+<meta property="og:description" content="Firefox 版本資訊 2023 年 8 月 1 日 v116.0 此版本資訊包含了 Firefox 新鮮事、已知問題、下載安裝指示、以及常見問題等訊息。 我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的英文討論區或 MozTW 的 Firefox 中文討論區與我們分享意見。">
+<meta property="fb:page_id" content="109362359103769">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@moztw">
+<meta name="twitter:domain" content="moztw.org">
+<meta name="twitter:app:name:googleplay" content="Firefox">
+<meta name="twitter:app:id:googleplay" content="org.mozilla.firefox">
+
+<title>Mozilla Firefox v116.0 版本資訊</title>
+
+<link href="/sandstone/css/releasenotes.css" rel="stylesheet" />
+<link href="/thunderbird/css/features.css" rel="stylesheet" />
+<!--[if lte IE 7]>
+<style>
+.header-site-title { float: left; }
+.header-menu li { float: left; }
+.header-menu li a { color: #807E78; }
+.header-menu .header-menu-item:hover a {
+  background-color: #C1BEB5;
+  color: #007BB7;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 8]>
+<style>
+.header-search { display: none; }
+</style>
+<![endif]-->
+
+</head><body id="www-moztw-org">
+
+  <header id="header">
+    <div class="container">
+      <a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
+      <h1 class="header-site-title"><a href="/" title="回首頁">MozTW</a></h1>
+      <a class="header-menu-btn" href=""><i class="icon-reorder"></i></a>
+      <div class="header-search">
+        <div class="header-search-btn">
+          <i class="icon-search header-search-icon"></i>
+        </div>
+        <div class="header-search-form-background">
+        </div>
+        <form class="header-search-form" action="//forum.moztw.org/google_results.php">
+          <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa">
+          <input type="hidden" name="cof" value="FORID:9">
+          <input type="hidden" name="ie" value="UTF-8">
+          <input placeholder="搜尋…" class="header-search-form-input" type="text" id="q" name="q" accesskey="s" size="30" maxlength="64">
+        </form>
+      </div>
+      <ul class="header-menu">
+        <li id="header-menu-dl" class="header-menu-item"><a href="/dl">下載</a></li>
+        <li id="header-menu-forum" class="header-menu-item"><a href="//forum.moztw.org/">討論區</a></li>
+        <li id="header-menu-events" class="header-menu-item"><a href="/events">活動</a></li>
+<!--        <li id="header-menu-wiki" class="header-menu-item"><a href="http://wiki.moztw.org/">共筆系統</a></li>-->
+        <li id="header-menu-space" class="header-menu-item"><a href="/space">摩茲工寮</a></li>
+        <li id="header-menu-planet" class="header-menu-item"><a href="http://planet.moztw.org/">摩茲星球</a></li>
+        <li id="header-menu-contribute" class="header-menu-item"><a href="/contribute">參與我們</a></li>
+        <li id="header-menu-about" class="header-menu-item"><a href="/about">關於本站</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+<section class="container block firefox" id="releasenotes">
+	<article class="module">
+		<div class="intro">
+			<h2>Firefox 116.0 版本資訊</h2>
+			<p id="release-date">
+        <time datetime='2023-08-01'>
+          2023 年
+          8 月
+          1 日
+				</time>
+				v116.0
+			</p>
+			<p>此頁面包含了 <a href="#whatsnew">Firefox 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
+			<p>我們想知道您對 Firefox 的想法。歡迎到 Mozilla Discourse 上的 <a href="https://discourse.mozilla.org/c/firefox-development/178" target="_blank">Firefox Development</a> 英文討論區，或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
+		</div>
+		<div class="download firefox">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- latest release notes page that we had published -->
+
+    <script type='text/javascript'>
+    	function initDownloadInIE () {
+    		/*
+    		For IE, open up a small popup and point it to the mozilla server
+    		We cannot use window.onload to initiate download from latest-win.html (security bar will pop)
+    		*/
+    		if (navigator.appVersion.indexOf('MSIE') !== -1) {
+    			window.open(
+    				"<!--#echo var='WINURL' -->",
+    				'_blank',
+    				'height=150, width=260, location=no, menubar=no, resizable=no, scrollbars=no, status=no, toolbar=no'
+    			);
+    		}
+    	}
+    </script>
+
+    <div id="download-button-desktop-release" class="download-button download-button-small">
+      <ul class="download-list" role="presentation">
+        <li class="os_windows">
+          <a class="download-link" href="/firefox/download/latest-win.html" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Windows');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Windows</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_windows64">
+          <a class="download-link" href="/firefox/download/latest-win.html" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Windows');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Windows（64 位元）</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_linux">
+          <a class="download-link" href="/firefox/download/latest-linux.html" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Linux');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Linux</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_linux64">
+          <a class="download-link" href="/firefox/download/latest-linux64.html" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Linux');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Linux（64 位元）</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_osx">
+          <a class="download-link" href="/firefox/download/latest-osx.html" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Mac');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Mac OS X</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_android">
+          <a class="download-link" href="https://play.google.com/store/apps/details?id=org.mozilla.firefox" onClick="ga('send', 'event', 'Download', 'Firefox', 'Android');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Android</span>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <small class="download-other">
+        <a href="https://www.mozilla.org/en-US/firefox/all/">系統語系</a> |
+        <a href="/firefox/releases">最新功能</a> |
+        <a href="https://www.mozilla.org/en-US/legal/privacy/firefox.html">隱私政策</a>
+      </small>
+    </div>
+
+		</div>
+	</article>
+	<div class="grids">
+		<div class="grid-9">
+
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <!--
+    <li class="untagged">
+      <p>
+        2023 年的 1 月，Microsoft 終止了對 Windows 7 以及 Windows 8 的支援；因此，這個 Firefox 版本將是這些作業系統使用者最後能收到的版本。Windows 7 和 Windows 8 的使用者將會自動轉移到 Firefox ESR 115 版，以便繼續接收重要的安全更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-windows-7-8-and-81-moving-extended-support" target="_blank">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        同樣地，這個 Firefox 版本也會是最後一個支援 Apple macOS 10.12、10.13 和 10.14 的主要版本。這些作業系統的使用者將會自動轉移到 Firefox 的 ESR 115 版本，使這些使用者依然可以接收重要的安全性更新。深入資訊可參閱<a href="https://support.mozilla.org/kb/firefox-users-macos-1012-1013-1014-moving-to-extended-support">本 Firefox 支援文件</a>。
+      </p>
+      <p>
+        這裡我們想特別感謝所有為此次 Firefox 發行版做出貢獻的新摩茲人！
+      </p>
+    </li>
+    -->
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>側邊欄讓使用者可以輕鬆地存取書籤、歷史記錄和同步的分頁等面板，快速在它們之間切換，將側邊欄移動到視窗的另一側，或關閉側邊欄。現在，用鍵盤也可以輕鬆完成這些操作，無論是否運行任何輔助技術，也不需要記憶鍵盤快捷鍵來存取這些面板。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>當英文版有可用的更新時，使用者可以透過更新通知中的「Learn More」連結來閱讀版本說明。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可以從作業系統中複製任何文件，並將其貼上到 Firefox 中。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>您提出要求，我們從善如流！現在影片的子母畫面中有音量滾動條了。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>我們在 PDF 中增加了編輯現有文本註釋（text annotations）的功能。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>HTTP/2 的上傳效能從 Firefox 115.0 開始顯著提高，特別是對於具有較高的頻寬延遲的產品（同時有高頻寬與高延遲特徵的網路）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2023-29/">安全性修正</a>。 </p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>密碼輸入欄位現已支援「復原」與「取消復原」。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>重新打開已關閉分頁的鍵盤快速鍵（command + shift + t），現在會按照關閉的順序，重新開啟最後關閉的分頁及視窗。如果沒有任何分頁或視窗可以重開，此命令將恢復上一個瀏覽狀態（session）。此一調整旨在迎接「最近關閉的分頁」即將到來的改變。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-116-release-notes">Firefox 116 企業版版本資訊</a>中找到政策更新和企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/116">Firefox 116 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>支援 <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#dirname"><code>dirname</code></a> 屬性，可提供伺服器 input 與 textarea 元件的文字方向資訊。（<a target="_blank" href="https://www.w3.org/International/questions/qa-html-dir#reportingdirection">深入了解</a>）
+        </p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>Firefox 現在支持 CSP3 <a target="_blank" href="https://w3c.github.io/webappsec-csp/#external-hash">external hashes</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/API/Audio_Output_Devices_API">聲音輸出設備 API</a> 現在使網站能夠將媒體元件的聲音導向到非系統預設裝置的輸出設備（喇叭）。例如，WebRTC 會議網站現在可以將聲音導向到耳機中的喇叭或外部喇叭。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>使用自訂格式化套件（custom formatters），網站可以定義如何在開發者工具的多處顯示特定的 JavaScript 物件和函式。此功能預設停用，可通過<a href="https://firefox-source-docs.mozilla.org/devtools-user/settings/index.html" target="_blank">設定面板</a>啟動。（<a href="https://fxdx.dev/firefox-devtools-custom-object-formatters/" target="_blank" rel="noopener">深入了解</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>本版本現在支援 Fetch 和 WebTransport 上真正的 BYOB 讀取器，讓開發人員可以準備 ArrayBuffer，以便讀取請求時重複使用以節省記憶體分配。先前的版本中已支持 Fetch 和 WebTransport 串流上的 <code>.getReader({ mode: "byob" })</code>，但並非真正的 BYOB 支援，因為內部仍然會重新分配新的記憶體。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20116&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox116&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla116&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      您可能也想瞭解<a target="_blank" href='/firefox/releases/115.0/'>前一個版本的更新</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 116 的發布，我們非常開心的歡迎以下首次貢獻程式到 Firefox 的貢獻者，其中有 9 位是全新的志工！請與我們一同感謝這些勤奮和熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Amin Bandali [:bandali]: <a href="https://bugzilla.mozilla.org/1836718">1836718</a></li>
+    <li>Hunseop Jeong: <a href="https://bugzilla.mozilla.org/1826904">1826904</a></li>
+    <li>Jake Senne: <a href="https://bugzilla.mozilla.org/1840882">1840882</a></li>
+    <li>jijnyasa.goat: <a href="https://bugzilla.mozilla.org/1834752">1834752</a></li>
+    <li>Matt Moldenhauer [:TheMattHatter01] (He/Him): <a href="https://bugzilla.mozilla.org/1802152">1802152</a></li>
+    <li>Mitesh: <a href="https://bugzilla.mozilla.org/1838149">1838149</a></li>
+    <li>Nicolas Avrutin: <a href="https://bugzilla.mozilla.org/1838322">1838322</a></li>
+    <li>patrickkettner: <a href="https://bugzilla.mozilla.org/1835723">1835723</a></li>
+    <li>thiagoms.15: <a href="https://bugzilla.mozilla.org/1837832">1837832</a></li>
+  </ul>
+
+</article>
+
+
+			<article id="downloadandinstall" class="module">
+				<h2>下載與安裝</h2>
+
+				<h3 id="requirements">系統需求</h3>
+				<p>在安裝 Firefox 前請先確定您的電腦是否合乎<a target="_blank" href="https://www.mozilla.org/zh-TW/firefox/116.0/system-requirements/">系統需求</a>。</p>
+
+				<h3 id="download">下載 Firefox</h3>
+				<p>您可以<a href="/firefox/">由此下載最新的 Firefox</a>，或取得 Windows、Linux 及 Mac OS X 平台上的<a target="_blank" href="https://www.mozilla.org/zh-TW/firefox/all/">各國語言版本</a>，或<a target="_blank" href="https://www.mozilla.org/zh-TW/firefox/channel/desktop/">由此下載 Firefox 未來發行版本</a>（測試版）。若需自行編譯其他平台或語言的版本，請見本文件最末節。</p>
+
+				<h3 id="install">安裝 Firefox</h3>
+				<p>請注意：安裝新版 Firefox 將<em>覆蓋</em>現存的 Firefox 程式，您不會遺失書籤或瀏覽記錄，但有些附加元件可能要更新才能繼續使用。詳細安裝步驟請參見<a target="_blank" href="https://support.mozilla.org/zh-TW/products/firefox/install-and-update-firefox">如何安裝與更新 Firefox</a>。</p>
+
+				<h3 id="uninstall">移除 Firefox</h3>
+				<p>在 Windows 作業系統中，您可以使用「新增或移除程式」移除 Firefox。macOS 的使用者請將 Firefox 程式移至垃圾筒；Linux 使用者則請移除包含 Firefox 的資料夾。</p>
+				<p>一般狀況下，移除 Firefox 時不會把書籤、瀏覽記錄、擴充套件和其他附加元件一併刪除，這些資料會保留在您的「<em>個人設定資料夾</em>」內，此資料夾可以在「<span class="location-item">說明</span>」選單的「<span class="location-item">更多疑難排解資訊</span>」找到，按下「<span class="location-item">應用程式一般資訊</span>」中「設定檔目錄」旁的按鈕便可開啟它。</p>
+				<p>請留意，若您沒有手動刪除個人設定資料夾，移除後重新安裝 Firefox 將繼續沿用原本的設定檔。</p>
+
+				<h3 id="extensions">附加元件及佈景主題</h3>
+				<p>您可以由「附加元件管理員」或<a target="_blank" href="http://addons.mozilla.org">附加元件網站</a>取得附加元件及佈景主題。 當 Firefox 升級時，附加元件可能因不相容於新版 Firefox 而被停用，此時則需要原作者進行升級。</p>
+			</article>
+
+
+			<article id="troubleshooting" class="module">
+				<h2>疑難排解</h2>
+				<ul class="compact">
+					<li>設計不良或不相容的套件將導致瀏覽器發生問題，包含當機或網頁瀏覽速度變慢等等狀況。如果您碰上瀏覽器無法開啟、視窗顯示不正常等等狀況，便可能是擴充套件或佈景主題的問題。這時請參考「<a href="https://support.mozilla.org/zh-TW/kb/troubleshoot-firefox-issues-using-safe-mode">Firefox 輔助說明：安全模式</a>」一文開啟 Firefox 安全模式。在安全模式下，所有附加元件及佈景主題將被停用。請您在安全模式下移除有問題的擴充套件或佈景主題，再正常地啟動瀏覽器。</li>
+					<li>如果您遇到與書籤、下載、視窗位置、工具列、瀏覽記錄或其他奇怪問題，建議您在回報問題前先建立新的使用者設定檔試試。請參考「<a href="https://support.mozilla.org/zh-TW/kb/profile-manager-create-and-remove-firefox-profiles">Firefox 輔助說明：使用設定檔管理員建立或移除 Firefox 設定檔</a>」一文建立新的使用者設定檔，並將各種設定（書籤、儲存的密碼等）從舊的設定檔中分次轉移到新的設定檔（可透過 <a href="https://support.mozilla.org/zh-TW/kb/firefox-sync-take-your-bookmarks-and-tabs-with-you">Firefox Sync 同步功能</a>進行）。</li>
+				</ul>
+				<h3 id="FAQ">常見問題集</h3>
+				<ol class="faq">
+					<li>我該怎麼幫忙呢？
+						<p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先查閱 <a href="http://support.mozilla.org/">Firefox 輔助說明</a>看看有沒有相關解答，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報你發現的錯誤；您也可以使用<a href="http://input.mozilla.com/zh-TW/feedback">意見回饋功能</a>表達意見。</p>
+					</li>
+					<li>我如何預覽未來的 Firefox 版本？
+						<p>加入 <a href="http://www.mozilla.com/firefox/channel/">Aurora 或 Beta 開發頻道</a>就可以搶先試用  Firefox 開發中版本。</p>
+					</li>
+					<li>我該到哪裡才能用中文問問題跟表示意見？
+						<p>請使用 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 討論區</a>，MozTW 社群團隊與熱心的 Firefox 用戶會定期閱讀上面的文章。</p>
+					</li>
+					<li>我該去哪裡取得新的佈景主題與擴充功能 (附加元件)？
+						<p>請到 <a href="https://addons.mozilla.org/firefox/">Mozilla 附加元件中心</a>下載 Firefox 的擴充套件及佈景主題。</p>
+					</li>
+					<li>Firefox 是哪些人做出來的？
+						<p>Firefox 是由世界各地的 <a href="https://www.mozilla.org/contact/communities/">Mozilla 社群</a>成員與員工合力開發。<a href="https://www.mozilla.org/credits/">這裡有份長長的名單</a>，列出部分曾對 Firefox 有重要貢獻的人。<a href="https://www.mozilla.org/contribute/">想要加入我們的大家庭嗎？</a>或者<a href="/contribute/">加入 Mozilla 台灣社群？</a></p>
+					</li>
+					<li>Firefox 的原始碼在何處？
+						<p>請參照 <a href="https://developer.mozilla.org/en-US/docs/Developer_Guide/Source_Code/Mercurial">Getting Mozilla Source Code Using Mercurial</a> 一文取得 Firefox 原始碼；如需編譯 Firefox，請參考 <a href="https://developer.mozilla.org/en-US/docs/Developer_Guide/Build_Instructions">Build Instructions</a>。</p>
+					</li>
+					<li>電子郵件程式呢？
+						<p>Firefox 能與您預設的任何郵件程式協同運作，而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="/thunderbird/">Mozilla Thunderbird</a>。</p>
+					</li>
+				</ol>
+
+				<h3 id="contributedbuilds">非官方建製版</h3>
+				<p>您可以在 MozTW 討論區的<a href="http://forum.moztw.org/viewforum.php?f=43">社群自訂版本</a>討論版找到網友自行編譯調整的非官方版 Firefox。</p>
+			</article>
+		</div>
+
+		<div class="grid-3 sidebar">
+			<article class="module hide-mobile">
+				<ul id="nav">
+					<li><a href="/firefox/">&lt; 回到 <span> Firefox 首頁 </span></a></li>
+					<li><a href="#downloadandinstall">下載<span>安裝</span></a></li>
+					<li><a href="#knownissues">已知<span>問題</span></a></li>
+					<li><a href="#troubleshooting">疑難<span>排解</span></a></li>
+					<li><a href="#FAQ">常見<span>問題</span></a></li>
+					<li><a href="#contributedbuilds">非官方<span>建製版</span></a></li>
+					<li><a href="#links">其他資源<span>連結</span></a></li>
+				</ul>
+			</article>
+
+			<article class="module">
+				<h2 id="links">資源和連結</h2>
+				<ul>
+					<li><a title="Mozilla Hacks 新版開發者資訊" href="https://hacks.mozilla.org/zh-hant/category/未分類/">Firefox 新版開發者資訊</a></li>
+					<li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a></li>
+					<li><a title="Mozilla 技術支援" href="http://support.mozilla.org/zh-TW/">Mozilla 技術支援</a></li>
+					<li><a title="MDN Web Docs" href="https://developer.mozilla.org/zh-TW/">MDN Web Docs</a></li>
+					<li><a title="Future Releases Blog" href="http://blog.mozilla.org/futurereleases/">Future Releases Blog</a></li>
+				</ul>
+			</article>
+		</div>
+	</div>
+</section>
+
+<footer id="footer" class="block">
+  <div class="container">
+    <div class="grids">
+      <div class="grid-logo">
+        <a href="//moztw.org/">
+          <img src="/sandstone/images/footer-moztw.png" alt="MozTW.org" />
+        </a>
+      </div>
+
+      <div class="grid-text">
+        <p>除另有註明外，本站內容皆採 <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/deed.zh_TW" onclick="ga('send', 'event', 'Outgoing', 'CC', 'sandstone-footer');">創用 CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a> 或更新版本授權大眾使用</p>
+        <p><a rel="source" href="https://github.com/moztw/www.moztw.org" onclick="ga('send', 'event', 'Outgoing', 'GitHub','sandstone-footer');">貢獻本網站 Source</a> |
+          <a rel="contact" href="/about" onclick="ga('send', 'event', 'FooterLink', 'Contact', 'sandstone-footer');">聯絡資訊 Contact</a> |
+          Powered by <a href="http://ubuntu-tw.org/" onclick="ga('send', 'event', 'Outgoing', 'Ubuntu-TW', 'new-footer');">Ubuntu-TW</a> / <a href="http://bluet.org/" onclick="ga('send', 'event', 'Outgoing', 'BlueT', 'new-footer');">BlueT</a> and <a href="http://www.cc.ncnu.edu.tw/" onclick="ga('send', 'event', 'Outgoing', 'NCNU-CC', 'new-footer');">NCNU-CC</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="/sandstone/js/tabzilla.js"></script>
+<script>
+  // let tabzilla not clickable
+  Tabzilla.onReady = function() {
+    Tabzilla.setStatic();
+  }
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-1035080-1', 'moztw.org');
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+
+

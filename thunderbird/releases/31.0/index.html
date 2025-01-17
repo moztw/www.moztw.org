@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta property="fb:page_id" content="109362359103769" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+  <link rel="home" title="Home" href="//moztw.org">
+  <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="/css/base/content.css" media="all">
+  <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+  <link rel="stylesheet" href="/css/base/template.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+  <link rel="stylesheet" href="/css/moztw.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/xmlnews.rdf">
+  <meta name="facebook-domain-verification" content="v9cjc40llat0ll8rbfy3iiy16md0vq" />
+  <!--[if IE 6]>
+  <style type="text/css">img, div, a { behavior: url(/js/library/iepngfix/iepngfix.htc) }</style>
+  <![endif]-->
+<meta property="og:url" content="http://moztw.org/thunderbird/releases/31.0/">
+<meta property="og:title" content="Mozilla Thunderbird 版本資訊 (31.0)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MozTW">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="http://moztw.org/images/product-thunderbird-v3.png">
+<meta property="fb:page_id" content="109362359103769">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@moztw">
+<meta name="twitter:domain" content="moztw.org">
+
+<title>Mozilla Thunderbird 版本資訊</title>
+<style type="text/css">
+<!--
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,300italic,400italic,600italic,700,800,700italic,800italic);
+
+#mBody {
+  background: url("/thunderbird/images/main-furry.png") no-repeat scroll 270px -15px transparent;
+}
+
+#mBody:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#mainContent.right {
+  width: 78%;
+}
+
+#mainContent, #side {
+  background: none;
+  color: #000000;
+  line-height: 1.3;
+}
+
+#main-feature {
+  border: 1px solid #9ABED9;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 5px #E3F3FE inset, 0 -2px rgba(192, 216, 233, 0.61) inset;
+  overflow: hidden;
+  padding: 20px 280px 20px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+#main-feature h2 {
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+  line-height: 1em;
+  margin: 0;
+  padding: 20px 0 20px 115px;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  color: #484848;
+}
+
+#main-feature h2 img {
+  left: 15px;
+  position: absolute;
+  top: 20px;
+}
+
+#main-feature h2 .small {
+  color: #727A99;
+  font-size: 16px;
+}
+
+#main-feature #release_dates {
+  font-size: 1.1em;
+}
+
+#main-feature p {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 7px 7px 7px 7px;
+  color: #484848;
+  font-size: 1em;
+  line-height: 1.5em;
+  padding: 2px 20px 2px 0;
+  text-shadow: 1px 1px 2px #FFFFFF, 1px 1px 6px #FFFFFF, 1px 1px 8px #FFFFFF;
+}
+
+#main-feature p a {
+  color: #62A5E8;
+}
+
+a.download-link, a.download-link:link, a.download-link:visited {
+  -moz-transition: box-shadow 0.2s ease-in-out 0s;
+  background: -moz-linear-gradient(center top , #84C63C 0%, #489615 100%) repeat scroll 0 0 transparent;
+  background: -ms-linear-gradient(center top , #84C63C 0%, #489615 100%) repeat scroll 0 0 transparent;
+  background: -o-linear-gradient(center top , #84C63C 0%, #489615 100%) repeat scroll 0 0 transparent;
+  background: -webkit-linear-gradient(center top , #84C63C 0%, #489615 100%) repeat scroll 0 0 transparent;
+  background: linear-gradient(center top , #84C63C 0%, #489615 100%) repeat scroll 0 0 transparent;
+  border-radius: 6px;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.1), 0 -4px rgba(0, 0, 0, 0.1) inset;
+  color: #FFFFFF;
+  overflow: visible;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+a.download-link:hover, a.download-link:active {
+  -moz-transition: box-shadow 0.2s ease-in-out 0s;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.15), 0 -4px rgba(0, 0, 0, 0.15) inset, 0 0 80px rgba(255, 255, 255, 0.3) inset;
+  background-position: -300px 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a.download-link span.download-content {
+  font-family: open sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.home-download a.download-link span.download-title {
+  font-size: 26px;
+}
+
+#side.right {
+  background: none repeat scroll 0 0 #E0E9E9;
+  border-radius: 7px;
+  padding: 10px 0;
+  width: 20%;
+}
+
+#side.right #nav {
+  margin: 0;
+}
+#side.right #nav:before, #side.right #nav:after {
+  content: '';
+  background: none;
+  height: 0;
+  background-image: none;
+}
+
+#thunderbird-notes #main-content h3 {
+  background: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.61) 75%, rgba(236, 241, 249, 0.61) 100%);
+  background: -ms-linear-gradient(center top , rgba(255, 255, 255, 0.61) 75%, rgba(236, 241, 249, 0.61) 100%);
+  background: -webkit-linear-gradient(center top , rgba(255, 255, 255, 0.61) 75%, rgba(236, 241, 249, 0.61) 100%);
+  background: -o-linear-gradient(center top , rgba(255, 255, 255, 0.61) 75%, rgba(236, 241, 249, 0.61) 100%);
+  background: linear-gradient(center top , rgba(255, 255, 255, 0.61) 75%, rgba(236, 241, 249, 0.61) 100%);
+  border: 1px solid #9ABED9;
+  border-radius: 6px 6px 2px 2px;
+  box-shadow: 0 0 5px #E3F3FE inset, 0 -2px rgba(192, 216, 233, 0.61) inset;
+  color: #465875;
+  font-family: "Open Sans",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 30px 0 2px;
+  padding: 20px 30px 15px;
+  text-shadow: 0 1px #FFFFFF;
+}
+
+#thunderbird-notes #main-content section .appendix h3 {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #CCCCCC;
+  box-shadow: none;
+  padding: 0;
+}
+
+#thunderbird-notes #main-content .section-contents {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+  border: 1px solid #9ABED9;
+  border-radius: 2px 2px 6px 6px;
+  box-shadow: 0 0 5px #E3F3FE inset, 0 -2px rgba(192, 216, 233, 0.61) inset;
+}
+
+#thunderbird-notes #main-content .section-contents ul {
+  margin: 0;
+  padding: 20px 30px;
+}
+
+#thunderbird-notes #main-content .section-contents li {
+  line-height: 1.5;
+  border-bottom: 1px dotted #9F9F9F;
+  list-style-type: none;
+  margin: 0;
+  min-height: 25px;
+  padding: 10px 0px 10px 150px;
+  position: relative;
+}
+
+#thunderbird-notes #main-content .section-contents li:last-child {
+  border-bottom: none;
+}
+
+#thunderbird-notes #main-content .section-contents li.complete {
+  line-height: 1;
+  min-height: 20px;
+  padding: 20px 0 0;
+}
+
+#thunderbird-notes .tag {
+  background: url(/thunderbird/images/tags.png) no-repeat scroll 0 50% #999999;
+  border-bottom-left-radius: 2px;
+  border-top-left-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 -1px 0 rgba(0, 0, 0, 0.2) inset;
+  color: #383838;
+  display: inline-block;
+  font-family: "Open Sans",sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  left: 0;
+  line-height: 22px;
+  min-width: 85px;
+  padding: 0 15px 0 20px;
+  position: absolute;
+  text-align: right;
+  text-shadow: 1px 1px 0 #FFFFFF;
+  text-transform: uppercase;
+  top: 12px;
+  width: 85px;
+}
+
+#thunderbird-notes .tag-new {
+  background-color: #FFEDCF;
+}
+
+#thunderbird-notes .tag-html5 {
+  background-color: #F8DFD8;
+  background-position: -450px 50%;
+}
+
+#thunderbird-notes .tag-developer {
+  background-color: #E7E7E7;
+  background-position: -900px 50%;
+}
+
+#thunderbird-notes .tag-changed {
+  background-color: #E9CFFF;
+  background-position: -150px 50%;
+}
+
+#thunderbird-notes .tag-fixed {
+  background-color: #F0FFE1;
+  background-position: -300px 50%;
+}
+
+#thunderbird-notes .tag-unresolved {
+  background-color: #FFC8C8;
+  background-position: -750px 50%;
+}
+
+#thunderbird-notes .status {
+  background: none repeat scroll 0 0 #E9F2FF;
+  border-radius: 3px 3px 3px 3px;
+  color: #383838;
+  font-family: "Open Sans",sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  padding: 1px 6px;
+}
+
+#thunderbird-notes .status .status-unresolved, #thunderbird-notes .status .status-resolved {
+  background: url(/thunderbird/images/status-icons.png) no-repeat scroll 0 4px transparent;
+  display: inline-block;
+  margin-right: 1em;
+  padding: 2px 2px 2px 16px;
+}
+
+#thunderbird-notes .status .status-resolved {
+  background-position: 0 -46px;
+}
+
+#thunderbird-notes ul h5 {
+  font: normal 16px "Open Sans",sans-serif;
+  margin: 0;
+  text-shadow: 0 1px 2px #FFFFFF;
+}
+
+#nav li a {
+  padding: 15px 10px;
+  font-size: 1.2em;
+}
+
+#side section, section .appendix {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(174, 174, 174, 0.6);
+  border-radius: 6px 6px 6px 6px;
+  box-shadow: 0 0 5px rgba(230, 230, 230, 0.15) inset, 0 -2px rgba(0, 0, 0, 0.05) inset;
+  display: block;
+  font-size: 15px;
+  margin: 0 0 10px;
+  padding: 30px;
+  text-shadow: 1px 1px 1px #FFFFFF;
+}
+
+section .appendix {
+  margin-top: 40px;
+}
+
+#side section#try {
+  margin-top: 30px;
+  padding: 0;
+}
+
+#side section h3 {
+  color: #545454;
+  font-family: "Open Sans",sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0 0 5px;
+}
+-->
+</style>
+<link rel="stylesheet" href="/css/cavendish/releasenote_narrow.css" media="screen">
+</head><body id="www-moztw-org">
+
+<div id="container">
+
+<p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
+
+<div id="header">
+<h1><a href="//moztw.org/" title="回到 MozTW 首頁" accesskey="1">MozTW 正體中文在地化</a></h1>
+ <ul>
+  <li id="menu_aboutus"><a href="/about" title="About this website">關於本站</a></li>
+  <li id="menu_contribute"><a href="/contribute" title="了解我們正在做什麼，看看您能幫上什麼忙！">參與我們</a></li>
+  <li id="menu_planet"><a href="http://planet.moztw.org/" title="社群成員 Blog Planet" onClick="ga('send', 'event', 'inGoing', 'planet', 'header');">摩茲星球</a></li>
+<!--  <li id="menu_wiki"><a href="http://wiki.moztw.org/" title="MozTW 共筆系統" onClick="ga('send', 'event', 'inGoing', 'wiki', 'header');">共筆系統</a></li>-->
+  <li id="menu_space"><a href="/space" title="摩茲工寮 | Mozilla Community Space Taipei" onClick="ga('send', 'event', 'inGoing', 'space', 'header');">摩茲工寮</a></li>
+  <li id="menu_events"><a href="/events" title="MozTW 活動">活動</a></li>
+  <li id="menu_forum"><a href="//forum.moztw.org/" title="MozTW 社群討論區" onClick="ga('send', 'event', 'inGoing', 'forum', 'header');">討論區</a></li>
+  <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
+ </ul>
+
+
+<!-- Google 自訂搜索 -->
+<form id="search" action="//forum.moztw.org/google_results.php">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+<!-- End of Google Search -->
+
+</div>
+<!-- closes #header-->
+
+<hr class="hide">
+
+
+<div id="mBody">
+  <div id="mainContent" class="right">
+    <div id="main-feature">
+      <h2><img src="/images/product-thunderbird-v3.png" width="104" height="104" alt="Thunderbird">Thunderbird<br><span class="small">版本資訊</span></h2>
+      <p id="release_dates">2014 年 7 月 22 日 v.31.0</p>
+      <p>此版本資訊包含了 <a href="#whatsnew">Thunderbird 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
+      <p>我們想知道您對 Thunderbird 的想法。歡迎到 MozillaZine 上的<a href="http://forums.mozillazine.org/viewforum.php?f=50">英文討論區</a>或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Thunderbird 中文討論區</a>與我們分享意見。</p>
+
+  <!--    <a href="http://download.mozilla.org/?product=thunderbird-13.0.1&amp;os=osx&amp;lang=zh-TW" onclick="init_download('http://download.mozilla.org/?product=thunderbird-13.0.1&amp;os=osx&amp;lang=zh-TW');" class="download-link download-thunderbird"><span class="download-content">
+        <span class="download-title">Thunderbird</span> 免費下載</span>-->
+      </a>
+    </div>
+    <!-- What's New -->
+    <div id="thunderbird-notes">
+      <div id="main-content">
+        <section id="whatsnew">
+          <h3>Thunderbird 新鮮事</h3>
+          <div class="section-contents">
+            <ul>
+              <li>
+                <span class="tag tag-new">新增</span>
+                <h5>
+                  信箱地址自動完成的部分，現已支援使用部分名稱或地址進行配對 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=529584">bug 529584</a>)
+                </h5>
+              </li>
+              <li>
+                <span class="tag tag-new">新增</span>
+                <h5>
+                  新聞群組的部分，現已支援群組名稱自動完成 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=61491">bug 61491</a>)
+                </h5>
+              </li>
+              <li>
+                <span class="tag tag-fixed">修正</span>
+                <h5>
+                  停用不安全的 NTLM (pre-NTLMv2) 認證 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=828183">詳見 828183</a>)
+                </h5>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <div class="appendix">
+          <h2 id="downloadandinstall">下載與安裝</h2>
+            <h3 id="requirements">系統需求</h3>
+            <p>在安裝 Thunderbird 前請先確定您的電腦是否合乎<a href="/thunderbird/system-requirements/">系統需求</a>。</p>
+
+            <h3 id="download">下載 Thunderbird</h3>
+            <p>您可以<a href="/thunderbird/">由此下載最新的 Thunderbird</a>，或取得 Windows、Linux 及 Mac OS X 平台上的<a href="http://www.mozilla.com/thunderbird/all.html">各國語言版本</a>，或<a href="http://www.mozilla.com/thunderbird/channel/">由此下載 Thunderbird 未來發行版本</a>（測試版）。若需自行編譯其他平台或語言的版本，請見本文件最末節。</p>
+
+            <h3 id="install">安裝 Thunderbird</h3>
+            <p>
+            請注意：安裝新版 Thunderbird 將<em>覆蓋</em>現存的 Thunderbird 程式，您不會遺失書籤或瀏覽記錄，但有些附加元件可能要更新才能繼續使用。詳細安裝步驟請參見<a href="https://support.mozillamessaging.com/zh-TW/kb/Installing%20Thunderbird">如何安裝 Thunderbird ( 英 )</a>。
+            </p>
+
+            <h3 id="uninstall">移除 Thunderbird</h3>
+            <p>在 Windows 作業系統中，您可以使用「新增或移除程式」移除 Thunderbird。OS X 的使用者請將 Thunderbird 程式移至垃圾筒；Linux 使用者則請移除包含 Thunderbird 的資料夾。</p>
+            <p>一般狀況下，移除 Thunderbird 時不會把書籤、瀏覽記錄、擴充套件和其他附加元件一併刪除，這些資料會保留在您的「<em>個人設定資料夾</em>」內，此資料夾可以在「<span class="location-item">說明</span>」選單的「<span class="location-item">疑難排解資訊…</span>」找到，按下「<span class="location-item">應用程式一般資訊</span>」中「設定檔目錄」旁的按鈕便可開啟它。</p>
+            <p>請留意若您沒有手動刪除個人設定資料夾，移除後重新安裝 Thunderbird 將繼續沿用原本的設定檔。</p>
+
+            <h3 id="extensions">附加元件及佈景主題</h3>
+            <p>您可以由「附加元件管理員」或<a href="http://addons.mozilla.org">附加元件網站</a>取得附加元件及佈景主題。 當 Thunderbird 升級時，附加元件可能因不相容於新版 Thunderbird 而被停用，此時則需要原作者進行升級。若您想協助回報升級 Thunderbird 後功能有問題的附加元件，請<a href="https://addons.mozilla.org/thunderbird/addon/add-on-compatibility-reporter/">安裝 Add-on Compatibility Reporter</a> 擴充套件 —— 您喜愛的元件作者會相當感激！</p>
+
+            <h2 id="links">其他資源和連結</h2>
+            <p>下面提供了幾個有用的連結：</p>
+            <ul class="spaced">
+              <li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a></li>
+              <li><a href="http://support.mozilla.com/">Thunderbird 技術支援</a></li>
+              <li><a href="http://developer.mozilla.org/">Mozilla Developer Network</a></li>
+              <li><a href="http://blog.mozilla.com/futurereleases/">Future of Thunderbird Blog</a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <div id="side" class="right">
+    <ul id="nav">
+    <li><a href="/thunderbird/">回 Thunderbird 首頁</a></li>
+    <li><a href="#downloadandinstall">下載與安裝</a></li>
+    <li><a href="#knownissues">已知問題</a></li>
+    <li><a href="#links">其他資源與連結</a></li>
+    </ul>
+  </div>
+</div>
+
+<hr class="hide">
+  <div id="footer">
+   <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a xmlns:cc="http://creativecommons.org/ns#" href="//moztw.org/" property="cc:attributionName" rel="cc:attributionURL" title="Mozilla 軟體正體中文在地化專案/台灣社群">MozTW，Mozilla 正體中文/台灣社群</a></li>
+	<li><a href="https://github.com/moztw/www.moztw.org" title="貢獻本網站 Source">貢獻本網站 Source</a></li>
+	<li><a href="/about">聯絡資訊 Contact</a></li>
+   </ul>
+	<p>除另有註明外，本站內容皆採<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>或更新版本授權大眾使用<br />
+		<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');"><img alt="Creative Commons License" style="border-width:0; margin-top: 10px;" src="https://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" /></a>
+   </p>
+  </div>
+  <!-- closes #footer-->
+</div>
+<!-- closes #container -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant"></script>
+<!--[if IE 6]>
+  <script type="text/javascript" src="/js/library/iepngfix/iepngfix_tilebg.js"></script>
+<![endif]-->
+<!-- Google Analytic -->
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-1', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+

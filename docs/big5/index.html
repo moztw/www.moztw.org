@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta property="fb:page_id" content="109362359103769" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+  <link rel="home" title="Home" href="//moztw.org">
+  <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="/css/base/content.css" media="all">
+  <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+  <link rel="stylesheet" href="/css/base/template.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+  <link rel="stylesheet" href="/css/moztw.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/xmlnews.rdf">
+  <meta name="facebook-domain-verification" content="v9cjc40llat0ll8rbfy3iiy16md0vq" />
+  <!--[if IE 6]>
+  <style type="text/css">img, div, a { behavior: url(/js/library/iepngfix/iepngfix.htc) }</style>
+  <![endif]-->
+<title>Big5 Variants in Mozilla: Mozilla 系列與 Big5 中文字碼</title>
+<style>
+    <!--
+    .big5list dt {
+	color: #55f;
+    }
+    b.g {
+	color: green;
+    }
+    b.b {
+	color: blue;
+    }
+    b.r {
+	color: red;
+    }
+    -->
+</style>
+</head><body id="www-moztw-org" class="deepLevel">
+
+<div id="container">
+
+<p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
+
+<div id="header">
+<h1><a href="//moztw.org/" title="回到 MozTW 首頁" accesskey="1">MozTW 正體中文在地化</a></h1>
+ <ul>
+  <li id="menu_aboutus"><a href="/about" title="About this website">關於本站</a></li>
+  <li id="menu_contribute"><a href="/contribute" title="了解我們正在做什麼，看看您能幫上什麼忙！">參與我們</a></li>
+  <li id="menu_planet"><a href="http://planet.moztw.org/" title="社群成員 Blog Planet" onClick="ga('send', 'event', 'inGoing', 'planet', 'header');">摩茲星球</a></li>
+<!--  <li id="menu_wiki"><a href="http://wiki.moztw.org/" title="MozTW 共筆系統" onClick="ga('send', 'event', 'inGoing', 'wiki', 'header');">共筆系統</a></li>-->
+  <li id="menu_space"><a href="/space" title="摩茲工寮 | Mozilla Community Space Taipei" onClick="ga('send', 'event', 'inGoing', 'space', 'header');">摩茲工寮</a></li>
+  <li id="menu_events"><a href="/events" title="MozTW 活動">活動</a></li>
+  <li id="menu_forum"><a href="//forum.moztw.org/" title="MozTW 社群討論區" onClick="ga('send', 'event', 'inGoing', 'forum', 'header');">討論區</a></li>
+  <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
+ </ul>
+
+
+<!-- Google 自訂搜索 -->
+<form id="search" action="//forum.moztw.org/google_results.php">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+<!-- End of Google Search -->
+
+</div>
+<!-- closes #header-->
+
+<hr class="hide">
+
+
+<div >
+    <h1>Mozilla 系列與 Big5 中文字碼</h1>
+    <h3> Big5 主要版本及字碼表</h3>
+    下面列出目前主要常見的 Big5 版本，及 MozTW 所收集的字碼表。
+    字碼表一律以 Big5 與 Unicode 的對應關係表示，每行的格式一律是 
+    <b class='g'>[Big5 Unicode]</b> ，每種版本各有一份 
+    <b class='g'>Big5 &raquo; Unicode (b2u) </b>與 
+    <b class='g'>Unicode &raquo; Big5 (u2b) </b>的表格。
+    b2u 的表格照 Big5 碼的順序排序，u2b 的表格則照 Unicode 的順序排列。
+    <br/>
+    如果這裡沒有你想找的，還可以再參考
+    <a href='http://www.haible.de/bruno/charsets/conversion-tables/Big5.html'>
+	這裡</a> (感謝 rafan/ericyu 提供此鏈結)。 注意該網站及下面部份 Big5
+    只有 Unicode Mapping Table (下面寫「參考對照表」的)，並沒有分 b2u 跟 u2b 的資料，
+    若要實際使用時 u2b 通常要再手動調整。
+    <br/>
+    <dl class='big5list'>
+	<dt>CP950</dt>
+	<dd>Microsoft Windows 使用的表格。 除了某些字(如日文假名)
+	沒有正確的 Unicode 對映(mapping)外，還算是個滿正確的表。 
+	若想避免程式產生別人可能會看不到的內容，請使用 CP950
+	的 u2b 表格。
+	<br/><b>字碼表: 
+	    <a href='table/cp950-b2u.txt'>
+		 CP950 b2u</a>&nbsp;
+	    <a href='table/cp950-u2b.txt'>
+		CP950 u2b</a></b> &nbsp;
+	(來源: <a href='http://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/WINDOWS/CP950.TXT'>
+	    Unicode.org</a>)
+	</dd>
+	<dt>Big5-2003</dt>
+	<dd>
+	台灣政府單位正式制定的最新 Big5 標準，目前以 
+	<a href='http://www.cns11643.gov.tw'>CNS11643</a>的
+	<a href='http://www.cns11643.gov.tw/AIDB/encodings.do'>附錄</a>形式發行。<br/>
+	由於 Big5-2003 試圖減少 Unicode 字寬有問題的 Ambigious CJK 部份，
+	它把某些符號的 b2u 做了改變，導致 CP950 並不完全是 Big5-2003 的子集合
+	(或說 Big5-2003 不是 CP950 的 superset)。 某些字 (共 14 個符號)
+	字型 "看起來" 一樣，但在 Unicode 的位置不一樣。 另外 Big5-2003 把部首區的字
+	對應到 Unicode 的康熙字典部首區，但遺憾的是目前大多數字型都沒有準備這區。
+
+	<br/><b>字碼表: 
+	    <a href='table/big5_2003-b2u.txt'>Big5-2003 b2u</a>&nbsp;
+	    <a href='table/big5_2003-u2b.txt'>Big5-2003 u2b</a> </b><br/>
+	(此為 2004/08/12 修訂版， 感謝
+	<a href='http://www.csie.ntu.edu.tw/~r92030/project/big5/'>kcwu</a> 
+	提供)
+	</dd>
+	<dt>Unicode-at-on (UAO)</dt>
+	<dd>
+	「<a href='http://cpatch.org/unicode'>Unicode 補完計畫</a>」，
+	舊名「BIG5 Extension」，由 <a href='http://cpatch.org'>cpatch</a>
+	主導，最早是為了解決所謂 CP950 沒有正確對應日文假名的問題，
+	並加入了中國海字集（DOS 時代最流行的外字集）的部份，
+	2.0 後又自訂編碼在 Big5 的造字區加入了大量日文漢字及簡体字。
+	不相容 Big5-HKSCS。
+	<br/><b>字碼表: 
+	    <a href='table/uao241-b2u.txt'>UAO 2.41 b2u</a>&nbsp;
+	    <a href='table/uao241-u2b.txt'>UAO 2.41 u2b</a></b> &nbsp;
+            <a href='table/uao250-b2u.txt'>UAO 2.50 b2u</a>&nbsp;
+            <a href='table/uao250-u2b.txt'>UAO 2.50 u2b</a></b> &nbsp;
+	(感謝 UAO / witchfive 提供 / UAO 安裝程式中取出)
+	</dd>
+	<dt>Mozilla 1.8</dt>
+	<dd>
+	為了解決 Big5 眾多版本的問題、獲得最大的可用性， 
+	Mozilla 台灣社群於 2005 年與 UAO 合作，重新整理的版本。
+	<a href='table/moz18-b2u-rule.txt'>主體是以 Big5-2003 為主，
+	但在造字與保留區則引入 UAO 的字集。</a>
+	另外為了避免其它 Big5 使用者看不到， Unicode 轉 Big5 的部份
+	則是以 CP950 為主，加進 Big5-2003 與 UAO 內增加的異體字對映，
+	但不增加 CP950 原本會指到造字區區域的字集對映。<br/>
+	(註: 由於 UAO 同時也在為與 Big5-2003 相容而修訂，
+	最後此修訂版的 mozilla1.8 b2u 與 UAO 2.41 的 b2u 一致。
+	另外由於這樣的字碼表與其它有使用到造字區的外字集不相容 [如 HKSCS]，
+	所以下面另外提供 b2u-strict 是不使用 UAO 的標準 Big5-2003。
+	如果您的系統有另行支援 HKSCS, 可使用標準 b2u; 若您的系統無法分開處理
+	Big5-hkscs 與 Big5, 則請用 b2u-strict)<br/>
+	此字碼表已於 2006 年 6 月 29 進入 Mozilla Respitory，Firefox 在 2
+	之後的版本皆使用此「非雙向」字碼表轉碼，以求最大相容性
+	(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=310299">bug 310299</a>)。
+	<br/><b>字碼表:
+	    <a href='table/moz18-b2u.txt'>Mozilla 1.8 b2u</a>&nbsp;
+	    <a href='table/moz18-u2b.txt'>Mozilla 1.8 u2b</a>&nbsp;
+	    &nbsp; * <a href='table/moz18-b2u-strict.txt' title='以跟 HKSCS 相容'>b2u-strict(不使用UAO字集)</a>&nbsp;
+	    </b> &nbsp; (Mozilla 台灣社群製作)
+	</dd>
+	<dt>Big5-HKSCS</dt>
+	<dd>
+	香港增補字符集 (Hong Kong Supplementary Character Set)，
+	香港地區政府單位正式制定的專用字集。 雖說不相容 UAO，
+	但注意在香港地區也是有人直接用 UAO 而不用 HKSCS 的。
+	目前為止有 1999、2001、2004 三版。 許多字碼在三次版本中逐次移動，
+	從造字區(PUA; Private User Area)移向 Unihan、最後移向 ext A/ext B (U+2XXXX 的都是)。
+	使用上請務必小心。<br/>
+	Mozilla 應用程式因為 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=162431">bug 162431</a>，
+	無法完全遵守 2004 版將外字完全移至 extA/ext B 區，故截至目前(2009年初)使用的字碼表依然是 
+	<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=343129">bug 343129</a> 所折衷設計的 2001/2004 混合字碼表，
+	即將部份 HKSCS 外字集對應到 ext A，對應到 ext B 的部份則留在舊版所定義造字區碼位。
+	<br/><b>字碼表(舊版，新版請參考 bug 343129): 
+	    <a href='table/hkscs2001-b2u.txt'>Big5HKSCS-2001 b2u</a>&nbsp;
+	    <a href='table/hkscs2001-u2b.txt'>Big5HKSCS-2001 u2b</a></b>
+	    &nbsp;(來源: Mozilla source, last update by Anthony Fok)
+	<Br/><b>參考對照表:
+	    <a href='table/hkscs1999.txt'>Big5HKSCS-1999</a> &nbsp;
+	    <a href='table/hkscs2001.txt'>Big5HKSCS-2001</a> &nbsp;
+	    <a href='table/hkscs2004.txt'>Big5HKSCS-2004</a> </b>
+	</dd>
+  <dt>WHATWG Encoding Standard</dt>
+  <dd>
+  <a href="https://encoding.spec.whatwg.org/">Encoding Standard</a> 是以 WHATWG 為名義發表的，針對 Web 設計的編碼標準。它試圖以 UTF-8 轉換目標，統一瀏覽器處理舊式編碼的對照表。
+  2013 年，標準規格書編輯與社群成員首次提出了統一 Web 使用 Big5 編碼的問題。
+  經過冗長的討論之後，我們發現 Web 上並沒有大量使用 Big5-UAO 字集的例子（目前的 Big5 環境例如 PTT，其網頁版也都轉為 UTF-8 呈現），因此 Encoding Standard 最後使用的 Big5 表格為盡量與 Big5-hkscs 相容（因為其在 Web 上依然有顯著使用的編碼），且特別避免一些 PUA 等對照的對稱表格。
+  <br/><b>此字碼表在 2015 年 9 月 11 日進入 Firefox 43，成為目前使用的 Big5 編碼 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=912470">Bug 912470</a>)。</b>
+  <br/><b>字碼表：<a href="https://encoding.spec.whatwg.org/index-big5.txt">index-big5.txt</a>&nbsp;
+      <a href="https://encoding.spec.whatwg.org/#legacy-multi-byte-chinese-(traditional)-encodings">編碼規則</a></b>
+  <br /><b>相關討論：[<a href="https://lists.w3.org/Archives/Public/public-whatwg-archive/2012Apr/thread.html#msg42">whatwg #1</a>]&nbsp;
+      [<a href="https://lists.w3.org/Archives/Public/public-whatwg-archive/2012Mar/thread.html#msg259">whatwg #2</a>]&nbsp;
+      [<a href="https://lists.w3.org/Archives/Public/public-whatwg-archive/2012Apr/thread.html#msg95">whatwg #3</a>]&nbsp;
+      [<a href="https://groups.google.com/forum/m/#!msg/moztw-general/d5nRslb9h1k/_n8qPw0WmuYJ">moztw-general</a>]</b>
+  </dd>
+    </dl>
+    <h3> 其它舊 Big5 字碼表 </h3>
+    下面的 Big5 版本比較<b style='color: red;'>不建議</b>使用。
+    <dl class='big5list'>
+	<dt>Big5-1984</dt>
+	<dd>
+	最早 (1984) 的 Big5 版本，由台灣資策會所制定。 遺憾的是它並不是 CP950 
+	的子集合，因為 CP950 沒有 Big5-1984 定義的控制區 A3C0-A3E0。
+	<br/><b>字碼表: 
+	    <a href='table/big5_1984-b2u.txt'>Big5-1984 b2u</a>&nbsp;
+	    <a href='table/big5_1984-u2b.txt'>Big5-1984 u2b</a></b>
+	    &nbsp;(來源: Big5-2003 整理資料)<br/>
+	<Br/><b>參考對照表:
+	    <a href='table/big5_1984.txt'>Big5-1984</a> </b>
+	</dd>
+
+	<dt>IBM(5550)</dt>
+	<dd>
+	IBM 舊型機器(IBM-5550與同時代機種為主)所使用的版本。 現僅供參考，不建議使用。
+	<br/><b>字碼表: 
+	    <a href='table/ibm-b2u.txt'>IBM b2u</a>&nbsp;
+	    <a href='table/ibm-u2b.txt'>IBM u2b</a></b>
+	    &nbsp; (來源: Big5-2003 整理資料)
+	</dd>
+
+	<dt> Big5-ETEN (倚天)</dt>
+	<dd>
+	DOS 時代最重要的倚天中文(ETEN)所使用的版本，可惜與 CP950
+	略有不同(主要有日文假名區等)。
+	<Br/><b>參考對照表:
+	    <a href='table/eten.txt'>ETEN</a> </b>
+	</dd>
+
+	<dt> Mozilla 1.5 </dt>
+	<dd>
+	這是 Mozilla 1.5 (2003/07) 起使用的表格，主要是在
+	<a href='https://bugzilla.mozilla.org/show_bug.cgi?id=9686'>Bug#9686</a>
+	根據 OpenI18N-Big5 subgroup 的 TW-Big5 所做的對照表。基本上可視為
+	CP950 加上日文假名與部份數字及符號。 但由於是雙向的對照表，會造成與 CP950 系統
+	不相容的問題。 預計於 2005/09 的 Mozilla 1.8 中修正為新版。
+	<br/><b>字碼表: 
+	    <a href='table/moz15-b2u.txt'>Mozilla 1.5 b2u</a>&nbsp;
+	    <a href='table/moz15-u2b.txt'>Mozilla 1.5 u2b</a></b><br/>
+	(來源: Mozilla Source)
+	</dd>
+
+	<dt> Big5-GCCS </dt>
+	<dd> 香港政府通用中文字庫(Government Chinese Character Set)，
+	可說是 HKSCS 的前身。 1995 年公佈，收了 3049 個字，
+	可惜 1999 年的 HKSCS-1999 並非完全相容於 GCCS ，只保留了 2943 個。
+	<br/><b>參考對照表:
+	    <a href='table/gccs.txt'>
+		Big5-GCCS Mapping Table 
+	   </a></b>
+	</dd>
+
+	<dt>Unicode 1.1</dt>
+	<dd>這是一份非常糟糕的字碼表，其中有不少錯誤，
+	它有所謂的日文假名，但也是錯的。 
+	雖說 Unicode.org 宣稱這些表格已過時(OBSOLETE)了，
+	不幸的是國外有不少軟體因為不知道上哪找 Big5 標準，
+	所以仍直接使用這個表格。
+	所以如果你發現某個軟體怪怪的，請給它前面列的其它表格。
+	真的，前面隨便任何一個其它的表都比這個好。
+	<Br/><b>參考對照表(僅供參考，千萬別用這個！):
+	    <a href='http://www.unicode.org/Public/MAPPINGS/OBSOLETE/EASTASIA/OTHER/BIG5.TXT'>
+		Unicode 1.1 Big5 Mapping (OBSOLETE, uncode.org)
+	   </a>&nbsp;
+	    <a href='table/unicode1.1-obsolete.txt'>
+		本地複本
+	</a></b>
+	</dd>
+
+	<dt>Big5+ (Big5 Plus)</dt>
+	<dd>如果有比 Unicode1.1 更糟糕的字碼表，那一定就是它了:
+	Big5+, 從被公佈到宣告死亡間從沒有系統實際支援過
+	(除了發行者中推會自己的一些程式)。
+	Big5+ 試圖從 Unicode 塞進跟 GBK 一樣多的字，但很不幸的它改變了原始
+	Big5 的範圍以塞進兩萬多個字(史上最大的 Big5 字集)，以至於無人問津。 
+	Big5+ 很快的就被修正版的 Big5-E 取代掉了。
+	<br/><b>參考對照表(僅供參考，千萬別用這個！):
+	    <a href='table/big5plus-obsolete.txt'>
+		Big5+ Mapping Table (OBSOLETE and NEVER USED)
+	   </a></b>
+	</dd>
+
+	<dt>Big5E (Big5-Ext)</dt>
+	<dd>由於 Big5+ 明顯的失敗， Bi5E 拿掉了許多字碼以塞回傳統 Big5
+	的範圍內。 但同樣的，沒什麼系統支援它。
+	<br/><b>參考對照表:
+	    <a href='table/big5e.txt'>
+		Big5E Mapping Table 
+	   </a></b>
+	</dd>
+    </dl>
+</div>
+
+<!--
+<div id="side" class="right">
+	<ul id="nav">
+		<li><a href="/">^回 MozTW.org 首頁</a></li>
+	</ul>
+</div>
+-->
+<hr class="hide">
+  <div id="footer">
+   <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a xmlns:cc="http://creativecommons.org/ns#" href="//moztw.org/" property="cc:attributionName" rel="cc:attributionURL" title="Mozilla 軟體正體中文在地化專案/台灣社群">MozTW，Mozilla 正體中文/台灣社群</a></li>
+	<li><a href="https://github.com/moztw/www.moztw.org" title="貢獻本網站 Source">貢獻本網站 Source</a></li>
+	<li><a href="/about">聯絡資訊 Contact</a></li>
+   </ul>
+	<p>除另有註明外，本站內容皆採<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>或更新版本授權大眾使用<br />
+		<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');"><img alt="Creative Commons License" style="border-width:0; margin-top: 10px;" src="https://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" /></a>
+   </p>
+  </div>
+  <!-- closes #footer-->
+</div>
+<!-- closes #container -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant"></script>
+<!--[if IE 6]>
+  <script type="text/javascript" src="/js/library/iepngfix/iepngfix_tilebg.js"></script>
+<![endif]-->
+<!-- Google Analytic -->
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-1', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+

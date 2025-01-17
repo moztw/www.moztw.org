@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta property="fb:page_id" content="109362359103769" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+  <link rel="home" title="Home" href="//moztw.org">
+  <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="/css/base/content.css" media="all">
+  <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+  <link rel="stylesheet" href="/css/base/template.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+  <link rel="stylesheet" href="/css/moztw.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/xmlnews.rdf">
+  <meta name="facebook-domain-verification" content="v9cjc40llat0ll8rbfy3iiy16md0vq" />
+  <!--[if IE 6]>
+  <style type="text/css">img, div, a { behavior: url(/js/library/iepngfix/iepngfix.htc) }</style>
+  <![endif]-->
+<title>MozTW, Mozilla 台灣社群 | Firefox / Thunderbird 正體中文版</title>
+
+<style type="text/css">
+#phones, #tablets {
+display: inline-block;
+width: 48%;
+vertical-align: top;
+}
+</style>
+</head><body id="www-moztw-org" class="secondLevel sectionDocs">
+
+<div id="container">
+
+<p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
+
+<div id="header">
+<h1><a href="//moztw.org/" title="回到 MozTW 首頁" accesskey="1">MozTW 正體中文在地化</a></h1>
+ <ul>
+  <li id="menu_aboutus"><a href="/about" title="About this website">關於本站</a></li>
+  <li id="menu_contribute"><a href="/contribute" title="了解我們正在做什麼，看看您能幫上什麼忙！">參與我們</a></li>
+  <li id="menu_planet"><a href="http://planet.moztw.org/" title="社群成員 Blog Planet" onClick="ga('send', 'event', 'inGoing', 'planet', 'header');">摩茲星球</a></li>
+<!--  <li id="menu_wiki"><a href="http://wiki.moztw.org/" title="MozTW 共筆系統" onClick="ga('send', 'event', 'inGoing', 'wiki', 'header');">共筆系統</a></li>-->
+  <li id="menu_space"><a href="/space" title="摩茲工寮 | Mozilla Community Space Taipei" onClick="ga('send', 'event', 'inGoing', 'space', 'header');">摩茲工寮</a></li>
+  <li id="menu_events"><a href="/events" title="MozTW 活動">活動</a></li>
+  <li id="menu_forum"><a href="//forum.moztw.org/" title="MozTW 社群討論區" onClick="ga('send', 'event', 'inGoing', 'forum', 'header');">討論區</a></li>
+  <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
+ </ul>
+
+
+<!-- Google 自訂搜索 -->
+<form id="search" action="//forum.moztw.org/google_results.php">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+<!-- End of Google Search -->
+
+</div>
+<!-- closes #header-->
+
+<hr class="hide">
+
+<div class='article'>
+<H1>關於文件物件模型(DOM)</H1>
+<a href='http://www.mozilla.org/docs/dom/about/'>About the Document Object Model</a>
+<h3>什麼是 DOM？</h3>
+<p>
+文件物件模型（Document Object Model，DOM）是給 HTML 與 XML 文件使用的一組 API。它提供了文件的結構表述（representation），讓你可以更動其中的內容及可見物。其本質是建立網頁與 Script 或程式語言溝通的橋樑。
+<p>
+所有網頁設計師可操作及建立文件的屬性、方法及事件都以[物件]來展現（例如，document 就代表「文件本身」這個物件，table 物件則代表 HTML 的表格物件等等）。這些物件可以由當今大多數的瀏覽器以 Script 來取用。
+<p>
+DOM 最常被用以[與 JavaScript 溝通]，也就是說雖然程式以 JavaScript? 寫成，但使用 DOM 來存取頁面及其元素。無論如何，DOM 本身是設計為一種獨立的程式語言，以一致的 API 存取文件的結構表述；是以雖然本站的焦點放在 JavaScript? 上，但 DOM 其實可以與[任何程式語言]共同運作。
+<p>[全球資訊網協會]（World Wide Web Consortium，W3C）建立了 [DOM] 的標準，稱之為「W3C DOM」。在當今主要瀏覽器都已正確實作的情況下，W3C DOM 使強大、跨瀏覽器的應用程式成真。這是眾網頁設計師在 Netscape 4 與 MSIE 多不相容的時代從未夢想過的事情。
+<h3>為什麼在 Mozilla 中支援 DOM 如此重要？</h3>
+<p>
+某些提倡者以「動態 HTML」這個字眼描述 HTML、樣式表及 script 程式語言三者結合，讓文件栩栩如生。W3C DOM WG（Working Group）為此致力於建立可互聯並中立於各程式語言之外的解決方案（參見 [W3C 常見問題集]）。 Mozilla 自許為「網際網路應用程式平台」，支援 DOM 便成為最需要的功能之一，也是 Mozilla 與其他瀏覽器競爭之時的必備要件。現在我們對 W3C DOM 的支援已然技冠群雄，但依然有人可以找出我們實做中的缺失，揮舞「Mozilla 爛透了」的旗幟。
+<p>
+我們的重點在於，我們需要你的幫助才能讓 Mozilla 成為眾所皆知、網頁設計中的最佳平台。這也就是為何要有「[如何貢獻]」等文章的原因 ;-)。
+
+</div>
+<hr class="hide">
+  <div id="footer">
+   <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a xmlns:cc="http://creativecommons.org/ns#" href="//moztw.org/" property="cc:attributionName" rel="cc:attributionURL" title="Mozilla 軟體正體中文在地化專案/台灣社群">MozTW，Mozilla 正體中文/台灣社群</a></li>
+	<li><a href="https://github.com/moztw/www.moztw.org" title="貢獻本網站 Source">貢獻本網站 Source</a></li>
+	<li><a href="/about">聯絡資訊 Contact</a></li>
+   </ul>
+	<p>除另有註明外，本站內容皆採<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>或更新版本授權大眾使用<br />
+		<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');"><img alt="Creative Commons License" style="border-width:0; margin-top: 10px;" src="https://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" /></a>
+   </p>
+  </div>
+  <!-- closes #footer-->
+</div>
+<!-- closes #container -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant"></script>
+<!--[if IE 6]>
+  <script type="text/javascript" src="/js/library/iepngfix/iepngfix_tilebg.js"></script>
+<![endif]-->
+<!-- Google Analytic -->
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-1', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+

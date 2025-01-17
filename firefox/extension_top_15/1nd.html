@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta property="fb:page_id" content="109362359103769" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+  <link rel="home" title="Home" href="//moztw.org">
+  <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="/css/base/content.css" media="all">
+  <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+  <link rel="stylesheet" href="/css/base/template.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+  <link rel="stylesheet" href="/css/moztw.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/xmlnews.rdf">
+  <meta name="facebook-domain-verification" content="v9cjc40llat0ll8rbfy3iiy16md0vq" />
+  <!--[if IE 6]>
+  <style type="text/css">img, div, a { behavior: url(/js/library/iepngfix/iepngfix.htc) }</style>
+  <![endif]-->
+<title>Firefox 擴充套件 Top 15</title>
+<style type='text/css'>
+    <!--
+    @import url(extensiontop15.css);
+    -->
+</style>
+<link title="隱藏套件說明" href="hidden-description.css" type="text/css" rel="alternate stylesheet" />
+</head><body id="www-moztw-org" class="deepLevel">
+
+<div id="container">
+
+<p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
+
+<div id="header">
+<h1><a href="//moztw.org/" title="回到 MozTW 首頁" accesskey="1">MozTW 正體中文在地化</a></h1>
+ <ul>
+  <li id="menu_aboutus"><a href="/about" title="About this website">關於本站</a></li>
+  <li id="menu_contribute"><a href="/contribute" title="了解我們正在做什麼，看看您能幫上什麼忙！">參與我們</a></li>
+  <li id="menu_planet"><a href="http://planet.moztw.org/" title="社群成員 Blog Planet" onClick="ga('send', 'event', 'inGoing', 'planet', 'header');">摩茲星球</a></li>
+<!--  <li id="menu_wiki"><a href="http://wiki.moztw.org/" title="MozTW 共筆系統" onClick="ga('send', 'event', 'inGoing', 'wiki', 'header');">共筆系統</a></li>-->
+  <li id="menu_space"><a href="/space" title="摩茲工寮 | Mozilla Community Space Taipei" onClick="ga('send', 'event', 'inGoing', 'space', 'header');">摩茲工寮</a></li>
+  <li id="menu_events"><a href="/events" title="MozTW 活動">活動</a></li>
+  <li id="menu_forum"><a href="//forum.moztw.org/" title="MozTW 社群討論區" onClick="ga('send', 'event', 'inGoing', 'forum', 'header');">討論區</a></li>
+  <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
+ </ul>
+
+
+<!-- Google 自訂搜索 -->
+<form id="search" action="//forum.moztw.org/google_results.php">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+<!-- End of Google Search -->
+
+</div>
+<!-- closes #header-->
+
+<hr class="hide">
+
+
+<script type="application/x-javascript">
+var dupArray=new Array(
+	["Tab Mix Lite", "Tabbrowser Extensions", "Tabbrowser Extensions 中文修改版"],
+	["IEView","IEView 中文修改版"],
+	["AdBlock","AdBlock 中文修改版"],
+	["Super Drag and Go","Super Drag and Go 中文修改版"],
+	["Show Image","Show Image 中文修改版"],
+	["Download Status Bar","Download Status Bar 中文修改版"],
+	["Web Developer","Web Developer 中文修改版"],
+	["All-in-One Gestures Extension","All-in-One Gestures Extension 中文修改版"]
+	);
+// 相衝套件 name, 這個可以設定多組, 應該要讓 Script 自己去
+// assign event handler 給每個 input 比較有效率, 以後再說吧
+
+// 第一個參數：要比對的 dupArray 群組
+// 第二個參數：目前的 input name
+function checkDup(checkId, clickName){
+	for (i=0; i<dupArray[checkId].length; i++){
+		if (dupArray[checkId][i]!=clickName && document.forms['select_and_install'].elements[dupArray[checkId][i]].checked==true){
+			if (confirm("您現在選的「"+clickName+"」與之前選的「"+dupArray[checkId][i]+"」兩者不可同時安裝，否則可能導致錯誤或其他問題。\n\n您要安裝「"+clickName+"」並取消「"+dupArray[checkId][i]+"」嗎？（按下「取消」則不會選擇此項。）")){
+				document.forms['select_and_install'].elements[dupArray[checkId][i]].checked = false;
+				return true;
+			} else {
+				return false;
+			}
+		}
+	}
+}
+
+function doInstall(){
+  var installObj = {}
+  var boxObjs = document.getElementById("installList").getElementsByTagName("input");
+  for (i=0; i<boxObjs.length; i++) {
+    if (boxObjs[i].checked) installObj[boxObjs[i].name]=boxObjs[i].value;
+  }
+  InstallTrigger.install(installObj);
+}
+
+/*function tongwen_click(){
+	var tongwenObj = document.forms['select_and_install'].elements['新同文堂'];
+	var jslibObj = document.forms['select_and_install'].elements['jslib'];
+
+	if (tongwenObj.checked) {
+		if (jslibObj.checked == true) return;
+
+		if (confirm("同文堂系列必須先安裝 jslib (另一組程式用的套件)，如果您不確定是否已安裝，請務必連同 jslib 一起安裝。\n\n您是否要一併選取 jslib？"))
+			jslibObj.checked = true;
+	}else{
+		jslibObj.checked = false; //一併取消 jslib... 好還是不好就不管了 =.=
+	}
+}*/
+
+function hidden_descript(obj) {
+   var i, a;
+   for(i=0; (a = document.getElementsByTagName('link')[i]); i++) {
+     if(a.getAttribute("rel").indexOf("style") != -1
+        && a.getAttribute("title")== "隱藏套件說明") {
+       a.disabled = !obj.checked;
+     }
+   }
+}
+</script>
+
+	<div class="key-point">
+
+<div id="product-desc" class="active-extensiontop15">
+
+<h2>Firefox 擴充套件 Top 15</h2>
+			<p>在你心目中最棒的 Firefox 擴充套件是哪些呢？現在就來看看社群成員在 2005 年一月共同推舉的十五個最佳幫手！</p>
+			<p>想親自試試嗎？勾選套件的「列入安裝清單」後，按下頁尾的「安裝這些套件」便可一次安裝喔！您必須以 Firefox 觀看本頁才能安裝這些套件。</p>
+			<p style="color:red">配合 Firefox 1.5 釋出，此處套件更新為支援 1.5 的新版本。</p>
+			<div><form name="hide_desc"><label title="隱藏套件說明及相關連結，適用瞭解套件功用、想快速點選安裝者" style="display:block; text-align:right; color: gray;"><input id="hidden_desc" value="true" type="checkbox" onclick="hidden_descript(this)">進階選項：隱藏套件說明及相關連結</label></form></div>
+
+			</div>
+		<div id="product-side">
+
+<div class="download">
+				<h3>下載 Firefox 中文版</h3>
+		<!--#comment NOTE: Point to .shtml while test locally -->
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- latest release notes page that we had published -->
+
+<script type='text/javascript' src='/js/download.js'></script>
+<script type='text/javascript'>
+	<!--
+//	window.onload = highlightDownload;
+
+    if (window.addEventListener)
+        window.addEventListener('load', function(){ highlightDownload() }, false);
+    else if (window.attachEvent)
+        window.attachEvent('on' + 'load', function(){ highlightDownload() });
+
+	function initDownloadInIE () {
+		/*
+		For IE, open up a small popup and point it to the mozilla server
+		We cannot use window.onload to initiate download from latest-win.html (security bar will pop)
+		*/
+		if (navigator.appVersion.indexOf('MSIE') !== -1) {
+			window.open(
+				'https://download.mozilla.org/?product=firefox-131.0.3&os=win&lang=zh-TW',
+				'_blank',
+				'height=150, width=260, location=no, menubar=no, resizable=no, scrollbars=no, status=no, toolbar=no'
+			);
+		}
+	}
+
+	// -->
+</script><ul>
+<li><a href="/firefox/download/latest-win.html" id="download-link-win"
+    title="" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Windows');">Windows</a>
+<li><a href="/firefox/download/latest-win64.html" id="download-link-win64" title="" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Windows64');">Windows (64-bit)</a>
+<li><a href="/firefox/download/latest-linux.html" id="download-link-linux" title="" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Linux');">Linux</a>
+<li><a href="/firefox/download/latest-linux64.html" id="download-link-linux64" title="" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Linux64');">Linux (64-bit)</a>
+<li><a href="/firefox/download/latest-osx.html" id="download-link-mac" title="" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Mac');">Mac OS X</a>
+<li class="mbl"><a href="/mobile" id="download-link-mobile" title="">Firefox 行動版</a>
+<li><a href="https://www.mozilla.org/firefox/all/" onClick="ga('send', 'event', 'Outgoing', 'Firefox', 'Other Platform');">其它語言與平台</a>
+</ul>
+
+	</div><ul>
+			<li><a class="ancilliaryLink" href="/firefox/">Firefox 中文版介紹</a></li>
+			<li><a class="ancilliaryLink" href="http://forum.moztw.org/viewforum.php?f=11">Mozilla Taiwan 擴充套件討論區</a></li>
+                        </ul>
+
+
+</div>
+	</div>
+	<form name="select_and_install" onsubmit="doInstall(); return false;">
+	<div id="mainContent" class="right">
+	<div id="installList">
+	<h3 id="tongwen">NO.1 New Tong Wen Tang 新同文堂 0.2.7.9</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://forum.moztw.org/viewtopic.php?p=23891">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=12022">相關討論</a></li>
+		<li>原生中文</li>
+	</ul>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂" value="http://forum.moztw.org/files/tongwen_0.2.7.9_175.xpi" type="checkbox">列入安裝清單</label>
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="新同文堂" value="http://forum.moztw.org/download.php?id=503" type="checkbox" onclick="tongwen_click()">主程式</label>-->
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="jslib" value="http://moztw.org/dls/xpi/jslib_current_lite.xpi" type="checkbox">jslib</label>-->
+	</div>
+	<blockquote>「同文堂真是看不習慣簡體字者的救星」<cite>--社群成員 leolinfly</cite></blockquote>
+	<p>同文堂能把網頁上的簡體字轉為繁體（或繁體轉簡體）。此處提供由 softcup 與 passerby 更新改版的「新同文堂」，此版不再需要 jslib 即可運作。</p>
+	</div>
+	<h3 id="flashgot">NO.2 FlashGot 0.5.9.99</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://www.flashgot.net/whats">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=6077">配合 NetTransport</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=5724">配合 FlashGet</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=5431">配合其他軟體</a></li>
+		<li>原生中文</li>
+	</ul>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="FlashGot" value="http://forum.moztw.org/download.php/3295/files/flashgot_0.5.9.99_911.xpi" type="checkbox">列入安裝清單</label>
+	</div>
+	<blockquote>「Firefox 終於可以方便地使用右鍵輕鬆下載檔案！FlashGot，我不能沒有你啊！」<cite>--社群成員 coolcd</cite></blockquote>
+	<p>這是 FlashGet 等下載軟體的遙控器，安裝後可自動判斷您的下載程式。此後欲下載檔案時，按下滑鼠右鍵就可以看到「使用XXXX下載此鏈結」等選項！亦有「下載選取部份包含的所有鏈結」及自行加入參考頁等功能。</p>
+	<p class="targetuser">適合安裝了 FlashGet 等下載軟體的人</p>
+	</div>
+	<h3 id="ieview">NO.3 IEView 1.2.7</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://ieview.mozdev.org">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=1613">相關討論</a></li>
+		<li>原生中文</li>
+	</ul>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="IEView" value="http://forum.moztw.org/download.php/3296/files/ieview_1.2.7_102.xpi" type="checkbox">列入安裝清單</label>
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="IEView" value="http://moztw.org/dls/xpi/ieview.xpi" type="checkbox" onclick="return checkDup(1, this.name)">原文版</label>-->
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="IEView 中文修改版" value="http://forum.moztw.org/download.php?id=534" type="checkbox" onclick="return checkDup(1, this.name)">中文修改版</label>-->
+	</div>
+	<blockquote>「IEView 使本人可以在大部分時間都用 Firefox 瀏覽，直到某些 IE Only 網站再『勉為其難』用 IE 開啟」<cite>--社群成員 zero_ngan</cite></blockquote>
+	<p>有某些網站還是只支援 IE，安裝這個套件可以讓你的 Firefox 右鍵選單多出一個選項，選擇後便可直接以 IE 開啟目前網頁。有鑑於國內網頁設計的標準風潮尚未吹起，這算是過渡時期不得已必備的選擇 ^^;</p>
+	<p class="targetuser">適合 Windows 作業系統</p>
+	</div>
+	<h3 id="adblock">NO.4 Adblock Plus 0.5.11.2</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://adblockplus.mozdev.org/">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=9402">相關討論</a></li>
+		<li>原生中文</li>
+	</ul>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Adblock Plus" value="http://forum.moztw.org/download.php/3297/files/adblock_plus_0.5.11.2_748.xpi" type="checkbox">列入安裝清單</label>
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="AdBlock" value="http://moztw.org/dls/xpi/adblock-0.5-dev.xpi" type="checkbox" onclick="return checkDup(2, this.name)">原文版</label>-->
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="AdBlock 中文修改版" value="http://forum.moztw.org/download.php?id=554" type="checkbox" onclick="return checkDup(2, this.name)">中文修改版</label>-->
+	</div>
+	<blockquote>「Adblock 是我個人認為 Firefox 最重要的套件之一」<cite>--社群成員 路人乙</cite></blockquote>
+	<p>Adblock 可以幫你檔掉你不想要看到的東西，例如圖片、Flash、Script、Frame 甚至 Popup。你可以自己設定要擋掉的網域跟內容。此處提供愛好者修改的 Plus 版本，新增白名單功能。</p>
+	</div>
+	<h3 id="allinone">NO.5 All-in-One Gestures Extension 0.17.3</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://perso.wanadoo.fr/marc.boullet/ext/extensions-en.html">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=3481">相關討論 (1)</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=5485">相關討論 (2)</a></li>
+		<li>原生中文</li>
+	</ul>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="All-in-One Gestures Extension" value="http://forum.moztw.org/download.php/3298/files/allinonegest_017_483.xpi" type="checkbox">列入安裝清單</label>
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="All-in-One Gestures Extension" value="http://moztw.org/dls/xpi/allinonegest013.xpi" type="checkbox" onclick="return checkDup(7, this.name)">原文版</label>-->
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="All-in-One Gestures Extension 中文修改版" value="http://forum.moztw.org/download.php?id=652" type="checkbox" onclick="return checkDup(7, this.name)">中文修改版</label>-->
+	</div>
+	<blockquote>「有了它，幾乎所有動作都可以滑鼠手勢解決。」<cite>--社群成員 hemiola</cite></blockquote>
+	<p>按住滑鼠右鍵劃出上下左右，就能夠控制 Firefox 的許多功能(如上一頁、下一頁等)，也可自訂滑鼠手勢的功能。特別推薦想學哈利波特揮舞魔杖耍法術的朋友使用。</p>
+	</div>
+	<h3 id="tabmix">NO.6 Tab Mix Lite 1.5.10</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://hemiolapei.free.fr/divers/tabmix/tabmixlite.html">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=4148">相關討論</a></li>
+		<li>原生中文</li>
+	</ul>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Tab Mix Lite" value="http://forum.moztw.org/download.php/3299/files/tabmixlite-1.5.10_198.xpi" type="checkbox" onclick="return checkDup(0, this.name)">列入安裝清單</label>
+	</div>
+	<blockquote>「她讓 FireFox 的分頁瀏覽功能發揮得淋漓盡致！」<cite>--社群成員 zero_ngan</cite></blockquote>
+	<p>有了 Tab Mix，我們毋須再安裝許許多多分頁相關的套件，因為她已經整合了其他套件最受推崇的功能。Tab Mix 就是這麼一個小巧簡單 且功能全面的分頁瀏覽套件。此處提供的 Tab Mix Lite 為套件作者提供的新版本。</p>
+	</div>
+	<h3 id="superdrag">NO.7 Super Drag and Go 0.2.4</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://superdragandgo.mozdev.org/">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=2722">相關討論</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=4256">另有中文版</a></li>
+	</ul>
+	<div class="install-options">列入安裝清單：
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go" value="http://forum.moztw.org/download.php/3301/files/super_drag_and_go_0.2.4_138.xpi" type="checkbox" onclick="return checkDup(3, this.name)">原文版</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Super Drag and Go 中文修改版" value="http://forum.moztw.org/download.php/3300/files/super_drag_and_go_0.2.4_patch_zh-tw_932.xpi" type="checkbox" onclick="return checkDup(3, this.name)">中文修改版</label>
+	</div>
+	<blockquote>「推薦這個套件的拖曳圖片存檔功能，太方便了！」<cite>--社群成員 BobChao</cite></blockquote>
+	<p>就如同 Maxthon (myIE2) 的「超級拖放（Super Drag and Drop）」功能，用滑鼠拖拉後放開便可達到搜尋、存圖、開啟純文字網址、開新分頁等功能。</p>
+	</div>
+	<h3 id="rightencoding">NO.8 Right Encoding 0.2.1</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://heygom.com/extensions/categories/right-encoding/">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=5455">相關討論</a></li>
+	</ul>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Right Encoding" value="http://forum.moztw.org/download.php/3302/files/rightencoding_0.2.1_189.xpi" type="checkbox">列入安裝清單</label>
+	</div>
+	<blockquote>「進很多網站編碼不對，都要辛苦地去檢視裡找這個設定，現在點一下右鍵就得了！」<cite>--社群成員 Chris</cite></blockquote>
+	<p>當網頁編碼顯示錯誤時，原本只能從「檢視／語系及字元編碼」裡加以調整，加裝這個套件以後便會直接在右鍵選單中放入語系及字元編碼選單，方便點選。</p>
+	</div>
+	<h3 id="tbe">NO.9 Tabbrowser Extensions 2.0.2005121301</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://piro.sakura.ne.jp/xul/_tabextensions.html.en">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=3954">相關討論</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=3954">另有中文版</a></li>
+	</ul>
+	<div class="install-options">列入安裝清單：
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Tabbrowser Extensions" value="http://forum.moztw.org/download.php/3304/files/tabextensions_202005121301_201.xpi" type="checkbox" onclick="return checkDup(0, this.name)">原文版</label>
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Tabbrowser Extensions 中文修改版" value="http://forum.moztw.org/download.php/3303/files/tabextensions_202005121301_zh-tw_158.xpi" type="checkbox" onclick="return checkDup(0, this.name)">中文修改版</label>
+	</div>
+	<blockquote>「即使有這麼多缺點，說實在這個套件還是我安裝 Firefox 第一個會安裝的套件，功能真的太強大了。」<cite>--社群成員 ghost</cite></blockquote>
+	<p>這個分頁瀏覽相關套件有分頁群組、分頁自動重新載入、自訂中鍵等包羅萬象的功能，號稱是所有分頁套件中最強也最完備的套件。目前對於效能等問題爭議頗多，但依然是許多網友心中的第一名。</p>
+	<p class="targetuser">適合進階使用者</p>
+	</div>
+	<h3 id="scrapbook">NO.10 ScrapBook 0.18.5</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://amb.vis.ne.jp/mozilla/scrapbook/">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=4035">相關討論</a></li>
+		<li>原生中文</li>
+	</ul>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="ScrapBook" value="http://forum.moztw.org/download.php/3305/files/scrapbook_0185_193.xpi" type="checkbox">列入安裝清單</label>
+	</div>
+	<blockquote>「逛網拍、看到好文時，狂抓 － 真幸福呀！￣▽￣」<cite>--社群成員 Chris</cite></blockquote>
+	<p>堪稱知識工作者必備套件，方便您擷取全部或部分網頁資料，並有方便的註解、標記、搜尋等功能。擷取下來的資料也可以離線閱讀或匯出供他人使用。</p>
+	</div>
+	<h3 id="webdeveloper">NO.11 Web Developer 0.9.4</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://www.chrispederick.com/work/firefox/webdeveloper/">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=1368">相關討論</a></li>
+		<li><a href="">原生中文</a></li>
+	</ul>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Web Developer" value="http://forum.moztw.org/download.php/3306/files/webdeveloper_0.9.4_zh-tw_150.xpi" type="checkbox">列入安裝清單</label>
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="Web Developer" value="http://moztw.org/dls/xpi/webdevelope0.9.2.xpi" type="checkbox" onclick="return checkDup(6, this.name)">原文版</label>-->
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="Web Developer 中文修改版" value="http://forum.moztw.org/download.php?id=649" type="checkbox" onclick="return checkDup(6, this.name)">中文修改版</label>-->
+	</div>
+	<blockquote>「對網頁寫作者來說，這是一個相當好用的套件；就算不會寫，衝著可以關閉網頁裡的各種元件也值得一試！」<cite>--社群成員 raphael</cite></blockquote>
+	<p>這是一個為網頁設計師量身訂做的套件，可以隨時關閉圖片、JavaScript、CSS 樣式等效果，也可以輕鬆檢閱別人寫的 JavaScript 與 CSS，還有更改網頁尺寸、標示區塊元素等功能。</p>
+	<p class="targetuser">適合網頁設計師使用</p>
+	</div>
+	<h3 id="forecastfox">NO.11  ForecastFox 0.8.2.5</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://forecastfox.mozdev.org/">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=4394">相關討論</a></li>
+		<li>原生中文</li>
+	</ul>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="ForecastFox" value="http://forum.moztw.org/download.php/3307/files/forecastfox-0.8.2.5_177.xpi" type="checkbox">列入安裝清單</label>
+	</div>
+	<blockquote>「從此不再漏失天氣的資訊，對於平常生活或工作外出都是一個很好的功能」<cite>--社群成員 bise</cite></blockquote>
+	<p>假如你想知道目前的天氣，可以到氣象網站查詢。不過為了查個天氣特地連到氣象網站也算是大費周章，只要安裝這個套件，Firefox 的狀態列上就可以顯示最近幾天的天氣預報喔！</p>
+	</div>
+	<h3 id="sage">NO.13 Sage 1.3.6</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://sage.mozdev.org/" title="Sage 官方網站">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=5018" title="好用而且免費的 RSS Reader">相關討論</a></li>
+		<li>原生中文</li>
+	</ul>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Sage" value="http://forum.moztw.org/download.php/3308/files/sage-1.3.6_189.xpi" type="checkbox">列入安裝清單</label>
+	</div>
+	<blockquote>「這個套件太棒了以至於忘了它的存在 :Q」<cite>--社群成員 milo</cite></blockquote>
+	<p>快速瀏覽許多 RSS 新聞的好工具，方便輕巧到會讓你以為這是 Firefox 的一部份，完全忘了他的存在。</p>
+	</div>
+	<h3 id="downloadbar">NO.14 Download Statusbar 0.9.4</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://downloadstatusbar.mozdev.org/index.html">套件網站</a></li>
+		<li><a href="http://forum.moztw.org/viewtopic.php?t=5519">相關討論</a></li>
+		<li>原生中文</li>
+	</ul>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Download Statusbar" value="http://forum.moztw.org/download.php/3309/files/downbar_094_617.xpi" type="checkbox">列入安裝清單</label>
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="Download Status Bar" value="http://moztw.org/dls/xpi/downbar0.9.2.xpi" type="checkbox" onclick="return checkDup(5, this.name)">原文版</label>-->
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="Download Status Bar 中文修改版" value="http://forum.moztw.org/download.php?id=637" type="checkbox" onclick="return checkDup(5, this.name)">中文修改版</label>-->
+	</div>
+	<blockquote>「整合在一起就乾淨多了！」<cite>--社群成員 ufgsemil</cite></blockquote>
+	<p>Download Status Bar 可以在你下載檔案時，使用視窗底端的一行下載列取代 Firefox 的下載視窗。直覺、下載進度一目瞭然，也免去下載視窗的干擾。</p>
+	</div>
+	<h3 id="showimage">NO.15 Show Image 0.4.1</h3>
+	<div class="extension-info">
+	<ul>
+		<li><a href="http://showimage.mozdev.org/">套件網站</a></li>
+		<li>原生中文</li>
+	</ul>
+	<div class="install-options">
+	<label title="點選此處，將此套件列入安裝清單。"><input name="Show Image" value="http://forum.moztw.org/download.php/3310/files/showimage-0.4.1_190.xpi" type="checkbox">列入安裝清單</label>
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="Show Image" value="http://moztw.org/dls/xpi/showimage-0.3.xpi" type="checkbox" onclick="return checkDup(4, this.name)">原文版</label>-->
+	<!--<label title="點選此處，將此套件列入安裝清單。"><input name="Show Image 中文修改版" value="http://forum.moztw.org/download.php?id=434" type="checkbox" onclick="return checkDup(4, this.name)">中文修改版</label>-->
+	</div>
+	<blockquote>「如果你沒裝這個外掛，會覺得 Firefox 像是斷了隻腳」<cite>--社群成員 Sheng</cite></blockquote>
+	<p>這個套件可以在 Firefox 的右鍵選單中加上 Show Image 的功能，讓你在發現 Firefox 讀取漏掉／失敗某張圖片時不用大費周章的按下 Reload 重新來過。</p>
+	</div>
+	</div>
+	<div class="download">
+	<h3>我要試試這些套件！</h3>
+
+	<span style="display:block; text-align: right; position: relative; top: -2.2em;"><input value="安裝套件" type="submit" id="install-extensions"></span>
+	      <ul>
+<li>如果您按下「安裝套件」卻無反應，請依序按下上方淡黃色訊息列之「編輯選項」、「允許」、「確定」以便將 moztw.org
+加入信任網站，再行按下「安裝套件」鈕。</li>
+<li>此服務提供目前（2006/01/23）最新套件，所有套件皆由作者提供。請參閱相關訊息後再行安裝，並自負責任。</li>
+<!--<li>亦可參考由社群成員蕭易玄所製作的 <a href="http://forum.moztw.org/viewtopic.php?t=6243">Firefox PowerPack 4 特別版</a>。</li>-->
+      </ul>
+	</div>
+	</div>
+    <div id="side" class="right">
+    <h3>擴充套件是什麼玩意？</h3>
+    <div style="margin: 6px 0pt 0pt 4px;">
+    <p>Firefox 有符合上網需求的基礎功能，若想加強它的能力，可安裝擴充套件。這些套件大多與 Firefox 完美整合，您只會感到 Firefox「長」出了一個功能，而不會當作使用另一套軟體。</p>
+    <p>其他資訊可參考社群成員路人乙撰寫的<a href="http://forum.moztw.org/viewtopic.php?t=4162">擴充套件 Q&amp;A</a>。</p>
+    </div>
+    <h3>這些套件裝了安全嗎？</h3>
+    <div style="margin: 6px 0pt 0pt 4px;">
+    Mozilla 台灣社群無法提供任何保證，若有顧慮建議您先參考隨附的連結：
+    </div>
+    <ul>
+    <li>原文版或原生中文套件皆由套件作者提供，您可前往套件網站查閱相關資訊。</li>
+    <li>「中文修改版」為社群成員製作，您可檢閱「另有中文版」的資訊。</li>
+    </ul>
+    <div style="margin: 6px 0pt 0pt 4px;">
+    您也可到擴充套件討論區或各修改版討論串發表意見，互助合作抓問題。
+    </div>
+    <h3>擴充套件 Top 15 名單</h3>
+	      <ol>
+	     <li>(150 票) Tongwen 同文堂  </li>
+<li>(135 票) FlashGot </li> <li>(131 票) IEView </li> <li>(122 票) Adblock
+</li> <li>(99 票) All-in-One Gestures Extension </li>
+<li>(97 票) Tab Mix (原 TBP Lite Repackaged) </li> <li>(87 票) Super Drag
+and Go </li> <li>(81 票) Right Encoding </li> <li>(70 票) Tabbrowser
+Extensions (TBE) </li> <li>(67 票) ScrapBook </li> <li>(63 票) Web
+Developer </li> <li value="11">(63 票) ForecastFox </li> <li
+value="13">(61 票) Sage </li> <li>(51 票) Download Status Bar </li>
+<li>(47 票) Show Image </li>
+	      </ol>
+      <h3>活動記實</h3>
+      <ul>
+
+<li>主辦：社群成員蕭易玄、趙柏強</li>
+      <li>活動期間：2005/01/01 - 01/22</li>
+
+<li>總投票人數：249 人</li>
+<li>每人最多 15 票，平均每人投 9 票</li>
+      </ul>
+      <h3>網頁協助</h3>
+      <div style="margin: 6px 0pt 0pt 4px;">
+      此網頁由社群成員 Chris、jht、coolcd、MrBenson、irvin、bise、walay、josesun 等人共同協助完成。
+      </div>
+    </div>
+    </form>
+<hr class="hide">
+  <div id="footer">
+   <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a xmlns:cc="http://creativecommons.org/ns#" href="//moztw.org/" property="cc:attributionName" rel="cc:attributionURL" title="Mozilla 軟體正體中文在地化專案/台灣社群">MozTW，Mozilla 正體中文/台灣社群</a></li>
+	<li><a href="https://github.com/moztw/www.moztw.org" title="貢獻本網站 Source">貢獻本網站 Source</a></li>
+	<li><a href="/about">聯絡資訊 Contact</a></li>
+   </ul>
+	<p>除另有註明外，本站內容皆採<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>或更新版本授權大眾使用<br />
+		<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');"><img alt="Creative Commons License" style="border-width:0; margin-top: 10px;" src="https://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" /></a>
+   </p>
+  </div>
+  <!-- closes #footer-->
+</div>
+<!-- closes #container -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant"></script>
+<!--[if IE 6]>
+  <script type="text/javascript" src="/js/library/iepngfix/iepngfix_tilebg.js"></script>
+<![endif]-->
+<!-- Google Analytic -->
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-1', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+

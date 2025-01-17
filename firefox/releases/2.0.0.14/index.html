@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta property="fb:page_id" content="109362359103769" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+  <link rel="home" title="Home" href="//moztw.org">
+  <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="/css/base/content.css" media="all">
+  <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+  <link rel="stylesheet" href="/css/base/template.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+  <link rel="stylesheet" href="/css/moztw.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/xmlnews.rdf">
+  <meta name="facebook-domain-verification" content="v9cjc40llat0ll8rbfy3iiy16md0vq" />
+  <!--[if IE 6]>
+  <style type="text/css">img, div, a { behavior: url(/js/library/iepngfix/iepngfix.htc) }</style>
+  <![endif]-->
+<title>Mozilla Firefox 2.0.0.14 版本資訊</title>
+<link rel="stylesheet" href="/css/cavendish/releasenote_narrow.css" media="screen">
+</head><body id="www-moztw-org">
+
+<div id="container">
+
+<p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
+
+<div id="header">
+<h1><a href="//moztw.org/" title="回到 MozTW 首頁" accesskey="1">MozTW 正體中文在地化</a></h1>
+ <ul>
+  <li id="menu_aboutus"><a href="/about" title="About this website">關於本站</a></li>
+  <li id="menu_contribute"><a href="/contribute" title="了解我們正在做什麼，看看您能幫上什麼忙！">參與我們</a></li>
+  <li id="menu_planet"><a href="http://planet.moztw.org/" title="社群成員 Blog Planet" onClick="ga('send', 'event', 'inGoing', 'planet', 'header');">摩茲星球</a></li>
+<!--  <li id="menu_wiki"><a href="http://wiki.moztw.org/" title="MozTW 共筆系統" onClick="ga('send', 'event', 'inGoing', 'wiki', 'header');">共筆系統</a></li>-->
+  <li id="menu_space"><a href="/space" title="摩茲工寮 | Mozilla Community Space Taipei" onClick="ga('send', 'event', 'inGoing', 'space', 'header');">摩茲工寮</a></li>
+  <li id="menu_events"><a href="/events" title="MozTW 活動">活動</a></li>
+  <li id="menu_forum"><a href="//forum.moztw.org/" title="MozTW 社群討論區" onClick="ga('send', 'event', 'inGoing', 'forum', 'header');">討論區</a></li>
+  <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
+ </ul>
+
+
+<!-- Google 自訂搜索 -->
+<form id="search" action="//forum.moztw.org/google_results.php">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+<!-- End of Google Search -->
+
+</div>
+<!-- closes #header-->
+
+<hr class="hide">
+
+
+<div id="mBody">
+    <div id="mainContent" class="right">
+  	  <div class="key-point">
+  		  <div id="product-desc" class="firefox-releasenotes-v2">
+          <!-- Introduction -->
+          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 2 的 <a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
+  <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的<a href="http://forum.moztw.org/viewforum.php?f=2">Firefox
+    中文討論區</a>與我們分享意見。</p>
+        </div>
+      </div> 
+      <!-- What's New -->
+               <h2 id="whatsnew">Firefox&nbsp;2.0.0.14 新鮮事</h2>
+
+               <ul class="news spaced">
+                   <dl>
+      					<dt><strong>發行日期：</strong></dt>
+				        <dd>2008 年 4 月 16 日</dd>
+      					<dt><strong>安全性更新：</strong></dt>
+      					<dd>下列 <a href="https://www.mozilla.org/projects/security/known-vulnerabilities.html#firefox2.0.0.14">安全問題</a> 已修復。</dd>
+      					<dt><strong>前一版：</strong></dt>
+						<dd>欲知 2.0.0.13 版更新項目，請參考 <a href="../../2.0.0.13/releasenotes/">Firefox 2.0.0.13 版本資訊</a>。</dd>
+				        <dt><strong>Firefox&nbsp;2 特色：</strong></dt>
+      					<dd>欲知 Firefox 2 的所有功能，請見 <a href="/en-US/firefox/features.html">Firefox&nbsp;2 功能介紹</a>。</dd>
+			    </dl>
+               <h2 id="downloadandinstall">下載與安裝</h2>
+
+      <h3 id="requirements">系統需求</h3>
+
+      <p>在安裝 Firefox 前請先確定您的電腦合乎 <a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/system-requirements.html">
+         系統需求</a>。</p>
+
+      <h3 id="download">下載 Firefox&nbsp;2</h3>
+      <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上多種語言版的 Firefox 2，您可<a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/all.html">由此下載最新的 Firefox 2</a>。若想自行編譯其他不支援的平台或語言，請見本文件最末節。</p>
+
+      <h3 id="install">安裝 Firefox&nbsp;2</h3>
+      <p>請注意：安裝 Firefox&nbsp;2 將<em>覆蓋</em>您現存的 Firefox 程式，這並不會造成書籤或瀏覽記錄遺失，但可能會有些附加元件要更新才能繼續使用。</p>
+
+      <h3 id="uninstall">移除 Firefox&nbsp;2</h3>
+
+      <p>在 Windows 作業系統中，您可以自「開始」選單中的「控制台」移除 Firefox&nbsp;2。OS X 的使用者請移除「<tt>Firefox</tt>」 程式、Linux 使用者則請移除「<tt>firefox</tt>」 資料夾。</p>
+
+      <p>移除 Firefox&nbsp;2 並不會將書籤、瀏覽記錄、擴充套件和其他附加元件一併刪除，這些資料會留在您的「<em>個人設定資料夾</em>」中，此資料夾存放位置則視作業系統而定：</p>
+
+      <table style="font-size: small;" border="1" cellspacing="0">
+        <tr>
+          <td>Windows Vista</td>
+          <td>Users\&lt;使用者名稱&gt;\AppData\Roaming\Mozilla\Firefox</td>
+        </tr>
+        <tr>
+          <td>Windows 2000, XP</td>
+          <td>Documents and Settings\&lt;使用者名稱&gt;\Application Data\Mozilla\Firefox</td>
+        </tr>
+        <tr>
+          <td>Windows NT</td>
+          <td>WINNT\Profiles\&lt;使用者名稱&gt;\Application Data\Mozilla\Firefox</td>
+        </tr>
+        <tr>
+          <td>Windows 98, ME</td>
+
+          <td>Windows\Application Data\Mozilla\Firefox</td>
+        </tr>
+        <tr>
+          <td>Mac&nbsp;OS&nbsp;X</td>
+          <td>~/Library/Application Support/Firefox</td>
+        </tr>
+
+        <tr>
+          <td>Linux 及 Unix 系統</td>
+          <td>~/.mozilla/firefox</td>
+        </tr>
+      </table>
+      <p>移除 Firefox&nbsp;2 後所安裝的任一版本 Firefox 將繼續使用個人設定資料夾中的資料。</p>
+
+   <h3 id="extensions">擴充套件及佈景主題</h3>
+
+      <p>Firefox 1.5 安裝的擴充套件可能已不相容於 Firefox 2 而應加以升級，如發生此類問題，請回報附加元件原作者。一旦安裝 Firefox 2，所有擴充套件及佈景主題會先停用，待 Firefox 2 偵測出此套件無相容問題或能升級才會啟用。</p>
+
+      <h2 id="issues">已知問題</h2>
+
+
+      <p>以下列出部分 Firefox 2 已知問題，請閱讀後再回報新的程式錯誤。</p>
+      <dl>
+      <dt>所有系統</dt>
+      <dd>
+      <ul class="spaced">
+      <li>某些軟體防火牆執行時會悄悄封鎖 Firefox 的對外連線，此類問題通常會在 Firefox 升級或自舊版覆蓋安裝時發生。您可參考<a href="http://kb.mozillazine.org/Firewalls">防火牆設定步驟</a>確保 Firefox 於網路上通行無阻。      </li>
+      <li>程式中無法內建各地區的不同字典，所以有些拼字檢查用的字典必須要手動下載安裝。Mozilla 附加元件中心常會放上新字典，您可以在文字輸入區中按下滑鼠右鍵，選擇「新增字典」來下載新字典。      </li>
+      <li>網頁提供的快速鍵 (Access key) 現在在 Windows 上請以 Alt+Shift+Key 來使用，在 Mac OS X 為 Ctrl+key，Unix 則是 Ctrl+Shift+key。      </li>
+      <li>Firefox 2 的瀏覽狀態復原功能在啟動時一樣會保存 cookies 狀態以便在 GMail 那類需要登入的網站保持登入，若您有安全上的顧慮，可以考慮將 <tt>browser.sessionstore.resume_from_crash</tt> 之值改為 false。      </li>
+
+      <li>「自動調整圖片大小」的設定項目在 Firefox&nbsp;2 中刪掉了，如果您想調整這個設定，可以修改 <tt>browser.enable_automatic_image_resizing</tt> 之值。      </li>
+      <li>若您未擁有 Firefox 安裝處的檔案寫入權限，軟體更新程序便無法進行，這是因為軟體更新必須於安裝處替換或建立檔案。      </li>
+      <li>有些金融機關會使用 563 埠行安全登入之用，這麼一來會出現錯誤訊息。如果您遇到這個問題，請將 563 這個數字加到 <tt>network.security.ports.banned.override</tt> 的逗點分隔清單中，以便更改內定的通訊埠阻擋設定。      </li>
+      </ul>
+      </dd>
+      <dt id="vista">Windows 及 Windows Vista</dt>
+      <dd>
+      <ul class="spaced">
+<li>隨 Java SE 6.0u1 (J2SE6.0.01) 安裝的 Java Console 擴充套件不相容於 Firefox（參考 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=364390">Bugzilla 上的回報</a>）。Java 本身運行無誤，但「工具」選單中不會出現「Java Console」選項。此問題已於  Java SE 6.0u2 (J2SE6.0.02) 修復，<a href="http://java.sun.com/javase/downloads/index.jsp">可於 Java 網站上下載更新</a>。</li>
+      <li>在某些程式中（例如某些即時通訊軟體）按下連結可能無法用 Firefox 開啟網頁，就算你已經設為預設瀏覽器也一樣。要解決這個問題請到「開始＞預設程式＞設定此台電腦的預設程式」，展開「自訂」欄位後選擇你想要設定為預設使用的應用程式（就是 Firefox）後點「套用」即可。</li>
+      <li>Windows Vista 並不提供 Windows Media Player (WMP) plugin，若要觀看 Windows Media 內容，可安裝 <a href="http://www.microsoft.com/windows/windowsmedia/player/version64/plugin.aspx">WMP Plugin v6.4 for Netscape Navigator</a>。</li>
+      <li>尚未能完全遵循 Vista 家長控制的設定，下載的檔案<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=355554">並不遵從</a> Vista 的家長控制設定，這點往後會處理。</li>
+      <li>自 Internet Explorer 7 轉移至 Firefox 時，<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=369910">cookies</a> 與<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=369916">既存表單內容</a>無法匯入。</li>
+      <li>以 install-global-extension 及 install-global-theme 命令參數安裝附加元件時，只能安裝已經下載到本地主機 (或已連線之網路磁碟機) 的元件，無法再安裝分享資料夾中的元件。</li>
+      </ul>
+      </dd>
+      <dt id="macosx">Mac OS X</dt>
+
+      <dd>
+      <ul class="spaced">
+<li>在 OS X 10.5（Leopard）上，有些內含 binary 元件的 plugin 或套件可能有問題，此外「偏好設定＞進階」下的頁籤顯示上有問題。</li>
+      <li>一旦開啟的分頁超過二十個，快捷選單的「關閉其他分頁」功能就可能失效。      </li>
+      <li>有些使用者發現在 Intel 核心的麥金塔電腦上瀏覽 Macromedia Flash 內容會有問題，此時您可以自<tt>/Library/Internet Plug-Ins</tt> 當中將 PowerPC 版的「Flash Player」刪除。      </li>
+      <li>安裝新 plug-in 後，在 about:plugins 有可能會依然顯示舊版的資訊，此時請離開
+          Firefox，將<a href="http://wiki.moztw.org/index.php/%E8%A8%AD%E5%AE%9A%E6%AA%94%E8%A9%B3%E8%A7%A3#.E8.A8.AD.E5.AE.9A.E6.AA.94.E7.9A.84.E9.A0.90.E8.A8.AD.E5.AD.98.E6.94.BE.E4.BD.8D.E7.BD.AE.E5.9C.A8.EF.BC.9F">個人設定資料夾</a>中的「pluginreg.dat」刪除，然後重新啟動 Firefox。</li>
+
+      <li>Java 無法於 Intel 核心的 Rosetta 下執行。      </li>
+      <li>在 Intel 核心的麥金塔電腦上執行時，不論原生執行或是透過 Rosetta 執行，都沒有 Talkback（錯誤回報）功能。當錯誤發生時，Apple Crash report 程式會自動執行。      </li>
+      </ul>
+      </dd>
+      <dt>Linux 及 Unix</dt>
+      <dd>
+      <ul class="spaced"> 
+      <li>若 Firefox 的安裝路徑中含有空白字元，可能便無法設定為預設瀏覽器、並將於啟動時不斷詢問是否設定。目前的解決方法是安裝到無空白字元的路徑下。      </li>
+
+      <li>在 Fedora Core 3 無法與 GNOME 正常整合。
+          Fedora Core 3 的使用者必須先下載 
+          <a href="http://download.fedora.redhat.com/pub/fedora/linux/core/2/i386/os/Fedora/RPMS/linc-1.0.3-3.1.i386.rpm">linc-1.0.3-3.1.i386.rpm</a> 後安裝，安裝完畢後在 Firefox 的安裝目錄下執行此命令 (需要寫入權限)：
+          <p>
+            <code>touch .autoreg</code>          </p>
+          下回使用 Firefox 時，便應該能正確整合至 GNOME 環境。</li>
+      </ul>
+      </dd>
+      </dl>
+    
+
+      <h2 id="troubleshooting">疑難排解</h2>
+      <ul class="spaced">
+
+        <li>設計不良或不相容的套件將導致瀏覽器發生問題，發生的問題包含當機或網頁瀏覽速度變慢等等。如果您碰上瀏覽器無法開啟、視窗顯示不正常等等狀況，便可能是擴充套件或佈景主題的問題。這時，請將瀏覽器重新啟動在安全模式：</li>
+        <ul><li>在 Windows 下用「Safe Mode」捷徑或在命令列中輸入 firefox.exe -safe-mode 指令。</li>
+        <li>在 Linux 下請執行./firefox -safe-mode 指令。</li>
+        <li>在 MacOS X 下請輸入
+          <p> cd /Applications/Firefox.app/Contents/MacOS/<br>
+            ./firefox-bin -safe-mode </p></ul>
+          當啟動安全模式時，所有的附加元件將停用並使用預設的佈景主題。在安全模式下移除有問題的擴充套件/佈景主題，然後再正常的啟動瀏覽器。 
+          </li>
+      
+      <li>如果您想在移除某擴充套件後，以 -install-global-extension 指令將同一擴充套件裝到每個使用者設定檔中，則必須在重新安裝前先重開瀏覽器一次，以便徹底移除擴充套件。如果您沒這麼做，則擴充套件清單可能會有衝突項目而不能為所有設定檔安裝。        </li>
+      <li>如果您遇到的怪問題與書籤、下載、視窗位置、工具列、瀏覽記錄或其他設定項目有關，建議您在回報問題前先行建立新的使用者設定檔，並查看能否重現該問題。建立新設定檔的方式如下：執行 Firefox 時加上 -P  的命令列參數，選擇「管理使用者設定檔」按鈕，然後選擇「建立使用者設定檔」。將各種設定(書籤、儲存的密碼等)從舊的設定檔中分次轉移到新的設定檔，每移轉一項便檢查是否發生問題。如果您發現某特定設定檔資料會造成問題，請回報錯誤並且附上該檔案。</li>
+      </ul>
+      <h2 id="FAQ">常見問題集</h2>
+      <ol class="faq">
+
+        <li>我該怎麼幫忙呢？
+          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
+        </li>
+
+        <li>你們為什麼都沒有回信？
+          <p>請使用<a href="http://forums.mozillazine.org/index.php?c=4">討論區</a>， Firefox 團隊會定期閱讀上面的文章。我們常常都收到大量的信件，而您的可能不小心漏失了。</p>
+        </li>
+        <li>我該去哪裡取得新的佈景主題與擴充功能 (附加元件)？
+          <p><a href="https://zh-TW.add-ons.mozilla.com/zh-TW/firefox/extensions/">擴充套件</a>及<a href="https://zh-TW.add-ons.mozilla.com/zh-TW/firefox/themes/">佈景主題</a>可自 <a href="https://zh-TW.add-ons.mozilla.com/zh-TW/firefox/">Mozilla 附加元件中心</a>下載。</p>
+        </li>
+        <li>
+          Firefox&nbsp;2 是哪些人做出來的？
+          <p>很多人。「說明＞關於 Mozilla Firefox」中有份名單，列出部分曾對 Firefox 2 有所貢獻的人。</p>
+        </li>
+        <li>
+
+          Firefox&nbsp;2 的原始碼在何處？
+          <p>Firefox 2 原始碼已<a href=
+             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
+             "http://developer.mozilla.org/en/docs/Mozilla_Source_Code_Via_CVS">以 CVS 取得</a>。Firefox 相關程式為「mozilla/browser」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href=
+             "http://developer.mozilla.org/en/docs/Build_Documentation">建製步驟</a>。</p>
+        </li>
+        <li>
+
+          電子郵件程式呢？
+          <p>Firefox 2 能與您預設的任何郵件程式協同運作， 而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="/thunderbird/">Mozilla Thunderbird</a>。</p>
+        </li>
+      </ol>
+
+    <h2 id="contributedbuilds">非官方建製版</h2>
+    <p>Mozilla 代表 <a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="https://www.mozilla.org/projects/firefox/all.html">Firefox&nbsp;2 下載頁</a>取得檔案。</p>
+
+    <p>其他尚未被官方 Firefox 2 驗證通過的本地化版本可以在
+         <a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0/contrib-localized/">FTP 站台</a>取得。</p>
+ 
+      <h3 id="solarisbuilds">Solaris (由 SUN Desktop 北京團隊提供)</h3> 
+      <p><strong><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/README.txt">README</a></strong></p> 
+      <p><strong>Tarball 格式</strong></p> 
+      <ul> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris10-i386.tar.bz2">firefox-2.0.0.14.en-US.solaris10-i386.tar.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris10-i386.tar.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris10-sparc.tar.bz2">firefox-2.0.0.14.en-US.solaris10-sparc.tar.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris10-sparc.tar.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris8-i386-gtk1.tar.bz2">firefox-2.0.0.14.en-US.solaris8-i386-gtk1.tar.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris8-i386-gtk1.tar.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris8-sparc-gtk1.tar.bz2">firefox-2.0.0.14.en-US.solaris8-sparc-gtk1.tar.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_tarball/firefox-2.0.0.14.en-US.solaris8-sparc-gtk1.tar.bz2.cksum">cksum</a>)<br /></li> 
+      </ul> 
+      <p><strong>Pkgadd 格式</strong></p> 
+      <ul> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris10-i386-pkg.bz2">firefox-2.0.0.14.en-US.solaris10-i386-pkg.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris10-i386-pkg.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris10-sparc-pkg.bz2">firefox-2.0.0.14.en-US.solaris10-sparc-pkg.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris10-sparc-pkg.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris8-i386-gtk1-pkg.bz2">firefox-2.0.0.14.en-US.solaris8-i386-gtk1-pkg.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris8-i386-gtk1-pkg.bz2.cksum">cksum</a>)<br /></li> 
+      <li><a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris8-sparc-gtk1-pkg.bz2">firefox-2.0.0.14.en-US.solaris8-sparc-gtk1-pkg.bz2</a> 
+        (<a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/2.0.0.14/contrib/solaris_pkgadd/firefox-2.0.0.14.en-US.solaris8-sparc-gtk1-pkg.bz2.cksum">cksum</a>)<br /></li> 
+      </ul> 
+
+      <h2 id="links">其他資源和連結</h2>  
+      下面提供了幾個有用的連結：
+      <ol>
+        <li><a href="https://www.mozilla.org/support/firefox/">* Firefox 線上說明</a></li>
+        <li><a href="http://kb.mozillazine.org/Mozilla_Firefox">* MozillaZine 知識庫</a></li>
+        <li><a href="https://www.mozilla.org/projects/firefox/">* 開發者資訊</a></li>
+        <li><a href="/docs/">中文相關說明文件</a></li>
+        <li><a href="http://forum.moztw.org">Firefox 中文討論區</a></li>
+      </ol>
+      <p> * 此為英文網站</p>
+    </div>
+
+    <div id="side" class="right">
+      <ul id="nav">
+        <li><a href="/firefox/">回到 Firefox 首頁</a></li>
+      </ul>
+      
+      <ul id="nav">
+        <li><a href="#downloadandinstall">下載與安裝</a></li>
+        <li><a href="#requirements">系統需求</a></li>
+        <li><a href="#download">下載</a></li>
+        <li><a href="#install">安裝</a></li>
+        <li><a href="#uninstall">移除</a></li>
+        <li><a href="#otherchanges">其他更動</a></li>
+        <li><a href="#issues">已知問題</a></li>
+        <li><a href="#troubleshooting">疑難排解</a></li>
+        <li><a href="#FAQ">常見問題</a></li>
+        <li><a href="#contributedbuilds">非官方建製版</a></li>
+        <li><a href="#links">其他資源與連結</a></li>
+      </ul>
+    </div>
+</div>
+<hr class="hide">
+  <div id="footer">
+   <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a xmlns:cc="http://creativecommons.org/ns#" href="//moztw.org/" property="cc:attributionName" rel="cc:attributionURL" title="Mozilla 軟體正體中文在地化專案/台灣社群">MozTW，Mozilla 正體中文/台灣社群</a></li>
+	<li><a href="https://github.com/moztw/www.moztw.org" title="貢獻本網站 Source">貢獻本網站 Source</a></li>
+	<li><a href="/about">聯絡資訊 Contact</a></li>
+   </ul>
+	<p>除另有註明外，本站內容皆採<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>或更新版本授權大眾使用<br />
+		<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');"><img alt="Creative Commons License" style="border-width:0; margin-top: 10px;" src="https://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" /></a>
+   </p>
+  </div>
+  <!-- closes #footer-->
+</div>
+<!-- closes #container -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant"></script>
+<!--[if IE 6]>
+  <script type="text/javascript" src="/js/library/iepngfix/iepngfix_tilebg.js"></script>
+<![endif]-->
+<!-- Google Analytic -->
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-1', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+
+

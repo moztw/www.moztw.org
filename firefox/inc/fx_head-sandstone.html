@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html class="os-windows no-js" lang="zh-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/tabzilla.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="//fonts.googleapis.com/css?family=Open+Sans:400,300" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/style.css" />
+  <script type="text/javascript" src="/sandstone/js/os_detector.js"></script>
+  <!--[if lt IE 9]>
+    <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script data-main="/sandstone/js/main.js" src="/sandstone/js/lib/require.js"></script>
+
+
+<meta name="description" content="Firefox 版本資訊  年  月  日 v 此版本資訊包含了 Firefox 新鮮事、已知問題、下載安裝指示、以及常見問題等訊息。 我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的英文討論區或 MozTW 的 Firefox 中文討論區與我們分享意見。" />
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MozTW">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:url" content="https://moztw.org/firefox/releases/">
+<meta property="og:image" content="http://moztw.org/images/page-image-quantum.png">
+<meta property="og:title" content="Mozilla Firefox 版本資訊 ()">
+<meta property="og:description" content="Firefox 版本資訊  年  月  日 v 此版本資訊包含了 Firefox 新鮮事、已知問題、下載安裝指示、以及常見問題等訊息。 我們想知道您對 Firefox 的想法。歡迎到 MozillaZine 上的英文討論區或 MozTW 的 Firefox 中文討論區與我們分享意見。">
+<meta property="fb:page_id" content="109362359103769">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@moztw">
+<meta name="twitter:domain" content="moztw.org">
+<meta name="twitter:app:name:googleplay" content="Firefox">
+<meta name="twitter:app:id:googleplay" content="org.mozilla.firefox">
+
+<title>Mozilla Firefox v 版本資訊</title>
+
+<link href="/sandstone/css/releasenotes.css" rel="stylesheet" />
+<link href="/thunderbird/css/features.css" rel="stylesheet" />
+<!--[if lte IE 7]>
+<style>
+.header-site-title { float: left; }
+.header-menu li { float: left; }
+.header-menu li a { color: #807E78; }
+.header-menu .header-menu-item:hover a {
+  background-color: #C1BEB5;
+  color: #007BB7;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 8]>
+<style>
+.header-search { display: none; }
+</style>
+<![endif]-->
+
+</head><body id="www-moztw-org">
+
+  <header id="header">
+    <div class="container">
+      <a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
+      <h1 class="header-site-title"><a href="/" title="回首頁">MozTW</a></h1>
+      <a class="header-menu-btn" href=""><i class="icon-reorder"></i></a>
+      <div class="header-search">
+        <div class="header-search-btn">
+          <i class="icon-search header-search-icon"></i>
+        </div>
+        <div class="header-search-form-background">
+        </div>
+        <form class="header-search-form" action="//forum.moztw.org/google_results.php">
+          <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa">
+          <input type="hidden" name="cof" value="FORID:9">
+          <input type="hidden" name="ie" value="UTF-8">
+          <input placeholder="搜尋…" class="header-search-form-input" type="text" id="q" name="q" accesskey="s" size="30" maxlength="64">
+        </form>
+      </div>
+      <ul class="header-menu">
+        <li id="header-menu-dl" class="header-menu-item"><a href="/dl">下載</a></li>
+        <li id="header-menu-forum" class="header-menu-item"><a href="//forum.moztw.org/">討論區</a></li>
+        <li id="header-menu-events" class="header-menu-item"><a href="/events">活動</a></li>
+<!--        <li id="header-menu-wiki" class="header-menu-item"><a href="http://wiki.moztw.org/">共筆系統</a></li>-->
+        <li id="header-menu-space" class="header-menu-item"><a href="/space">摩茲工寮</a></li>
+        <li id="header-menu-planet" class="header-menu-item"><a href="http://planet.moztw.org/">摩茲星球</a></li>
+        <li id="header-menu-contribute" class="header-menu-item"><a href="/contribute">參與我們</a></li>
+        <li id="header-menu-about" class="header-menu-item"><a href="/about">關於本站</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+<section class="container block firefox" id="releasenotes">
+	<article class="module">
+		<div class="intro">
+			<h2>Firefox  版本資訊</h2>
+			<p id="release-date">
+        <time datetime=''>
+           年
+           月
+           日
+				</time>
+				v
+			</p>
+			<p>此頁面包含了 <a href="#whatsnew">Firefox 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。</p>
+			<p>我們想知道您對 Firefox 的想法。歡迎到 Mozilla Discourse 上的 <a href="https://discourse.mozilla.org/c/firefox-development/178" target="_blank">Firefox Development</a> 英文討論區，或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
+		</div>
+		<div class="download firefox">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- latest release notes page that we had published -->
+
+    <script type='text/javascript'>
+    	function initDownloadInIE () {
+    		/*
+    		For IE, open up a small popup and point it to the mozilla server
+    		We cannot use window.onload to initiate download from latest-win.html (security bar will pop)
+    		*/
+    		if (navigator.appVersion.indexOf('MSIE') !== -1) {
+    			window.open(
+    				"<!--#echo var='WINURL' -->",
+    				'_blank',
+    				'height=150, width=260, location=no, menubar=no, resizable=no, scrollbars=no, status=no, toolbar=no'
+    			);
+    		}
+    	}
+    </script>
+
+    <div id="download-button-desktop-release" class="download-button download-button-small">
+      <ul class="download-list" role="presentation">
+        <li class="os_windows">
+          <a class="download-link" href="/firefox/download/latest-win.html" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Windows');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Windows</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_windows64">
+          <a class="download-link" href="/firefox/download/latest-win.html" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Windows');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Windows（64 位元）</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_linux">
+          <a class="download-link" href="/firefox/download/latest-linux.html" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Linux');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Linux</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_linux64">
+          <a class="download-link" href="/firefox/download/latest-linux64.html" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Linux');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Linux（64 位元）</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_osx">
+          <a class="download-link" href="/firefox/download/latest-osx.html" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Mac');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Mac OS X</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_android">
+          <a class="download-link" href="https://play.google.com/store/apps/details?id=org.mozilla.firefox" onClick="ga('send', 'event', 'Download', 'Firefox', 'Android');">
+            <span class="download-content">
+              <strong class="download-title">Firefox</strong>
+              <span class="download-subtitle">免費下載</span>
+              <span class="download-lang">正體中文（繁體）</span>
+              <span class="download-platform">Android</span>
+            </span>
+          </a>
+        </li>
+      </ul>
+      <small class="download-other">
+        <a href="https://www.mozilla.org/en-US/firefox/all/">系統語系</a> |
+        <a href="/firefox/releases">最新功能</a> |
+        <a href="https://www.mozilla.org/en-US/legal/privacy/firefox.html">隱私政策</a>
+      </small>
+    </div>
+
+		</div>
+	</article>
+	<div class="grids">
+		<div class="grid-9">

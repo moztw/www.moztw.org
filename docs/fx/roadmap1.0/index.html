@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta property="fb:page_id" content="109362359103769" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+  <link rel="home" title="Home" href="//moztw.org">
+  <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="/css/base/content.css" media="all">
+  <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+  <link rel="stylesheet" href="/css/base/template.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+  <link rel="stylesheet" href="/css/moztw.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/xmlnews.rdf">
+  <meta name="facebook-domain-verification" content="v9cjc40llat0ll8rbfy3iiy16md0vq" />
+  <!--[if IE 6]>
+  <style type="text/css">img, div, a { behavior: url(/js/library/iepngfix/iepngfix.htc) }</style>
+  <![endif]-->
+<title>MozTW, Mozilla 台灣社群 | Firefox / Thunderbird 正體中文版</title>
+
+<style type="text/css">
+#phones, #tablets {
+display: inline-block;
+width: 48%;
+vertical-align: top;
+}
+</style>
+</head><body id="www-moztw-org" class="secondLevel sectionDocs">
+
+<div id="container">
+
+<p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
+
+<div id="header">
+<h1><a href="//moztw.org/" title="回到 MozTW 首頁" accesskey="1">MozTW 正體中文在地化</a></h1>
+ <ul>
+  <li id="menu_aboutus"><a href="/about" title="About this website">關於本站</a></li>
+  <li id="menu_contribute"><a href="/contribute" title="了解我們正在做什麼，看看您能幫上什麼忙！">參與我們</a></li>
+  <li id="menu_planet"><a href="http://planet.moztw.org/" title="社群成員 Blog Planet" onClick="ga('send', 'event', 'inGoing', 'planet', 'header');">摩茲星球</a></li>
+<!--  <li id="menu_wiki"><a href="http://wiki.moztw.org/" title="MozTW 共筆系統" onClick="ga('send', 'event', 'inGoing', 'wiki', 'header');">共筆系統</a></li>-->
+  <li id="menu_space"><a href="/space" title="摩茲工寮 | Mozilla Community Space Taipei" onClick="ga('send', 'event', 'inGoing', 'space', 'header');">摩茲工寮</a></li>
+  <li id="menu_events"><a href="/events" title="MozTW 活動">活動</a></li>
+  <li id="menu_forum"><a href="//forum.moztw.org/" title="MozTW 社群討論區" onClick="ga('send', 'event', 'inGoing', 'forum', 'header');">討論區</a></li>
+  <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
+ </ul>
+
+
+<!-- Google 自訂搜索 -->
+<form id="search" action="//forum.moztw.org/google_results.php">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+<!-- End of Google Search -->
+
+</div>
+<!-- closes #header-->
+
+<hr class="hide">
+
+<div class='article'>
+<p>source: <a href="http://www.mozilla.org/projects/firefox/roadmap.html">http://www.mozilla.org/projects/firefox/roadmap.html</a></p>
+
+
+<h1>Firefox 1.0 開發準則</h1><p><a href="mailto:ben@mozilla.org">[Ben Goodger]</a> (05/24/2004)</p>
+
+
+<h2>該完成的工作</h2>
+<p>Firefox 應該是接下來幾個月裡所有 Gecko 技術應用中的最急件。Gecko 是我們軟體所依存的平台，而為了讓投入在建立此平台上的數年辛勞有最佳回報，我們必需在品質及效能上有遵守嚴格的規律。我們 1.0 版的目標是成為 Windows、Linux 及 MacOS<a href="http://noellab.net/ernest/tavi/edit/MacOS">?</a> X 平台上的「最佳品種」，而在我們夠資格獲得此稱號前，有一些事情得先完成。這些任務將被打散到從今起至 1.0 前的各個里程碑中。</p>
+
+
+<h2>里程碑計畫</h2>
+<p>一如以往，以下這些都很可能再行更動。</p>
+
+<p><code>中文版僅翻譯 1.0 RC1 以後的資訊</code></p>
+
+
+<table border="1"><tr><td>里程碑</td><td>釋出日期</td><td>Bugs</td><td>概要</td></tr><tr><td>1.0 RC1 </td><td>2004/7</td><td><a href="http://bugzilla.mozilla.org/buglist.cgi?product=Firefox&amp;target_milestone=Firefox0.10&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED">[Bugs]</a> <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking1.0%2B">[+]</a> <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking1.0-%20">[-]</a> <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking1.0%3F">[?]</a></td><td>較複雜/高風險的程式錯誤及本地化造成的影響，見查詢。</td></tr><tr><td>1.0</td><td>2004/9</td><td><a href="http://bugzilla.mozilla.org/buglist.cgi?product=Firefox&amp;target_milestone=Firefox1.0&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED">[Bugs]</a> <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking1.0%2B">[+]</a> <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking1.0-%20">[-]</a> <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking1.0%3F">[?]</a></td><td>最要緊的 Bugs, Beta 的回饋事項 (Mac 1.0 Alpha 2)</td></tr><tr><td>1.0 Beta (MacOS<a href="http://noellab.net/ernest/tavi/edit/MacOS">?</a> X) </td><td>2004/?</td><td><a href="http://bugzilla.mozilla.org/buglist.cgi?product=Firefox&amp;target_milestone=Firefox0.12&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED">[Bugs]</a> <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking1.0mac%2B">[+]</a> <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking1.0mac-%20">[-]</a> <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking1.0mac%3F">[?]</a></td><td>與 MacOS<a href="http://noellab.net/ernest/tavi/edit/MacOS">?</a> X 介面整合化(Aquafication)，特別關注於 MacOS<a href="http://noellab.net/ernest/tavi/edit/MacOS">?</a> X 上的傑出介面，重建使用者介面以支援 cross platform nature 等等。</td></tr><tr><td>1.0 (MacOS<a href="http://noellab.net/ernest/tavi/edit/MacOS">?</a> X) </td><td>2004/?</td><td><a href="http://bugzilla.mozilla.org/buglist.cgi?product=Firefox&amp;target_milestone=Firefox1.0&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED">[Bugs]</a> <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking1.0mac%2B">[+]</a> <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking1.0mac-%20">[-]</a> <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking1.0mac%3F">[?]</a></td><td>最要緊的 Bugs, Beta 的回饋事項</td></tr></table>
+<h2>不在 1.0 規劃之中的項目</h2>
+<p>字型選項介面、書籤管理介面、任何說明系統的大更動、安全性介面更新、頁面資訊的對話方塊介面以及預選的擴充套件 (Ben, et al)。</p>
+
+
+<h2>0.9 之後的分支</h2>
+<p>所有 0.9 及 1.0 版的開發工作必須置於 AVIARY_1_0_20040515_BRANCH 分支。We need to focus on superior stability which means we can't really afford to wait until the dust settles on 1.8 mid year to see whether or not we have stable bits. By 1.0 time mid-year any critical issues with 1.7 should have been identified and we believe it will be a safer platform on which to release software.</p>
+
+
+<h2>1.0 版進度策略</h2><p><img src="http://www.mozilla.org/projects/firefox/rm-20040703.png" alt="rm-20040703.png" /></p>
+
+<p>我們大膽的將 Fireofx 1.0 版的釋出目標日期訂於 9/14。While it is possible that we may slip past this we want to set that date now so that it gives us a near term goal to target and then slip from, rather than wait for things to "fall into place" or setting a later date that will result in further slipping. In order to hit this date and meet our goals for stability and localization, we are targeting a RC1 at or around 8/10 by which time the most risky/complex/localization impacting changes will have been made. Localization teams should be able to begin translating shortly after this point (the exact date of the localization freeze has not yet been set - we will post information about this closer to the time) and we will do two more release candidates focusing on stability and polish before the 1.0 release. We will be requiring extra discipline and vigilance on the branch to keep things stable and ensure quick turnaround for releases so as not to slow down the schedule.</p>
+
+
+<p><a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking-aviary1.0RC1%2B">[1.0RC1+ Bugs, P1-P3]</a>, <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking-aviary1.0RC1%3F">[1.0RC1? Bugs, P1-P3]</a></p>
+
+<p><a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;priority=P1&amp;priority=P2&amp;priority=P3&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking-aviary1.0%2B">[1.0+ Bugs, P1-P3]</a>, <a href="http://bugzilla.mozilla.org/buglist.cgi?query_format=&amp;short_desc_type=allwordssubstr&amp;short_desc=&amp;long_desc_type=substring&amp;long_desc=&amp;bug_file_loc_type=allwordssubstr&amp;bug_file_loc=&amp;status_whiteboard_type=allwordssubstr&amp;status_whiteboard=&amp;keywords_type=allwords&amp;keywords=&amp;bug_status=NEW&amp;bug_status=ASSIGNED&amp;bug_status=REOPENED&amp;emailassigned_to1=1&amp;emailtype1=exact&amp;email1=&amp;emailassigned_to2=1&amp;emailreporter2=1&amp;emailqa_contact2=1&amp;emailtype2=exact&amp;email2=&amp;bugidtype=include&amp;bug_id=&amp;votes=&amp;chfieldfrom=&amp;chfieldto=Now&amp;chfieldvalue=&amp;cmdtype=doit&amp;order=Reuse+same+sort+as+last+time&amp;field0-0-0=flagtypes.name&amp;type0-0-0=equals&amp;value0-0-0=blocking-aviary1.0%3F">[1.0? Bugs, P1-P3]</a></p>
+
+
+<h2>新版釋出</h2>
+<p>由於增加了一些必要的工作，我們必需新增一些釋出版本：現已增加兩個給 Windows、Linux 及 MacOS<a href="http://noellab.net/ernest/tavi/edit/MacOS">?</a> X 的版本 (0.10 和 0.11)及一個給 MacOS<a href="http://noellab.net/ernest/tavi/edit/MacOS">?</a> X 的版本 (0.12)。這使我們在 0.12 完成前不會釋出 MacOS<a href="http://noellab.net/ernest/tavi/edit/MacOS">?</a> X 上的 1.0 版，也是為了確保在符合該平台規格之前不推出一項有所遺憾的產品。</p>
+
+
+<h2>行銷</h2>
+<p>我們將建立一個最具戰力的活動，以行銷 Gecko 技術應用中的最急件－Firefox 瀏覽器。「<a href="http://www.mozilla.org/products/firefox/why/">[為何]</a>」一文是我們行銷成功的開始，而在將來的里程碑中還會有其他提議陸續而來﹝包括新的<a href="http://www.mozilla.org/products/firefox/">[產品網頁]</a>﹞。</p>
+
+
+<h2>品牌</h2>
+<p>Firefox 1.0 將簡單的稱為「Mozilla Firefox」或簡稱為「Firefox」。版本的詳細資訊將顯示在「關於」對話方塊中。</p>
+
+
+<h2>支援網</h2>
+<p>Firefox 的支持社群眾多，我們想特別介紹以下兩個網站：涵括 Firefox 擴充功能、佈景主題及其他有用資訊的 <a href="http://texturizer.net/firebird/">[Firefox Help]</a>，以及我們提供給使用者及開發者的主要討論站－<a href="http://forums.mozillazine.org/index.php?c=4">[MozillaZine Forums]</a>。</p>
+
+</div>
+</div>
+</div>
+<hr class="hide">
+  <div id="footer">
+   <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a xmlns:cc="http://creativecommons.org/ns#" href="//moztw.org/" property="cc:attributionName" rel="cc:attributionURL" title="Mozilla 軟體正體中文在地化專案/台灣社群">MozTW，Mozilla 正體中文/台灣社群</a></li>
+	<li><a href="https://github.com/moztw/www.moztw.org" title="貢獻本網站 Source">貢獻本網站 Source</a></li>
+	<li><a href="/about">聯絡資訊 Contact</a></li>
+   </ul>
+	<p>除另有註明外，本站內容皆採<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>或更新版本授權大眾使用<br />
+		<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');"><img alt="Creative Commons License" style="border-width:0; margin-top: 10px;" src="https://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" /></a>
+   </p>
+  </div>
+  <!-- closes #footer-->
+</div>
+<!-- closes #container -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant"></script>
+<!--[if IE 6]>
+  <script type="text/javascript" src="/js/library/iepngfix/iepngfix_tilebg.js"></script>
+<![endif]-->
+<!-- Google Analytic -->
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-1', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+

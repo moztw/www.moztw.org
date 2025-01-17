@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta property="fb:page_id" content="109362359103769" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+  <link rel="home" title="Home" href="//moztw.org">
+  <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="/css/base/content.css" media="all">
+  <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+  <link rel="stylesheet" href="/css/base/template.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+  <link rel="stylesheet" href="/css/moztw.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/xmlnews.rdf">
+  <meta name="facebook-domain-verification" content="v9cjc40llat0ll8rbfy3iiy16md0vq" />
+  <!--[if IE 6]>
+  <style type="text/css">img, div, a { behavior: url(/js/library/iepngfix/iepngfix.htc) }</style>
+  <![endif]-->
+<meta name="description" content="Firefox 正體中文版 / Thunderbird 正體中文版下載、中文討論區及 Mozilla 專案推廣活動。MozTW（Mozilla 台灣社群）是一群愛好網路的人，想要讓網路變得更好，不論你的專長是什麼，都歡迎加入一同快樂貢獻！（中文版火狐瀏覽器下載）" />
+<title>MozTW, Mozilla 台灣社群 | Firefox / Thunderbird 正體中文版</title>
+
+<link rel="stylesheet" href="/css/cavendish/home.css" title="Cavendish" media="screen">
+<link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+<link rel="alternate" type="application/rss+xml" title="moztw.org: Mozilla Taiwan 社群新聞" href="/xmlnews.rdf">
+<style>
+  <!--
+  .front-feature {
+    position: relative;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.33) inset;
+  }
+
+  .front-feature #firefox_quantum {
+    background: url(/images/browser-high-res.png) right top no-repeat scroll transparent;
+    color: #FFFFFF;
+    display: block;
+    font-family: "DFHei Std", "DFLiHei Std", "Heiti TC", "华文细黑", "Microsoft JhengHei", sans-serif;
+    font-weight: 300;
+    padding: 0;
+    position: absolute;
+    right: -100px;
+    top: 45px;
+    text-decoration: none;
+    width: 600px;
+    height: 453px;
+    z-index: 0;
+    background-size: 100%;
+  }
+
+  .front-feature #firefox_quantum a {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 595px;
+  }
+
+  .front-feature #firefox_quantum a:hover {
+    background: none;
+  }
+
+  .front-feature #firefox_quantum #quantum_better {
+    position: absolute;
+    font-size: 29px;
+    left: 0;
+    line-height: 1.2em;
+    text-shadow: 1px 1px 6px black;
+    bottom: 50px;
+    visibility: hidden;
+  }
+
+  .front-feature:hover #firefox_quantum #quantum_better {
+    visibility: visible;
+  }
+
+  #feature-content h2 {
+    margin-bottom: 5px;
+  }
+
+  .front-feature a.fx-link {
+    color: white;
+    display: inline-block;
+    height: 82px;
+    line-height: 82px;
+    font-size: 38px;
+    margin-bottom: 10px;
+    font-family: "PingFang TC", 微軟正黑體, arial, verdana, sans-serif;
+    font-weight: 400;
+  }
+
+  .front-feature a.fx-link:hover {
+    background-color: transparent;
+  }
+
+  .front-feature a.fx-link img {
+    vertical-align: bottom;
+    margin-right: 0.3em;
+    height: 82px;
+    width: auto;
+  }
+
+  @media only screen and (min-width: 501px) {
+    .front-feature a.fx-link:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      height: 90px;
+      line-height: 90px;
+      margin: -5px 0 10px -15px;
+      padding: 3px 10px 5px;
+      border-radius: 35px;
+      font-size: 40px;
+    }
+
+    .front-feature a.fx-link:hover img {
+      height: 88px;
+    }
+  }
+
+  #front-feature .download {
+    padding: 12px 0 10px 15px !important;
+    margin-bottom: 15px;
+    box-shadow: 0 0 3px #5F8FBE;
+  }
+
+  #front-feature .dl-mobile {
+    margin-bottom: 0px;
+  }
+
+  #front-feature .dl-mobile div {
+    height: 0px;
+    overflow: hidden;
+  }
+
+  #front-feature .dl-mobile:hover div {
+    height: 45px;
+    margin-top: 5px;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+
+  #front-feature .download ul {
+    padding-left: 30px;
+  }
+
+  #front-feature .download ul li.mbl {
+    display: none;
+  }
+
+  #front-feature #feature-content {
+    padding: 10px 485px 5px 20px;
+  }
+
+
+  .mobile-header {
+    text-shadow: 1px 1px 1px #d44000, 1px 1px 2px #fbba20;
+  }
+
+  #planets ul {
+    padding-left: 1.5em;
+    margin-top: 0.5em;
+  }
+
+  #planets ul li {
+    margin-bottom: 1em;
+  }
+
+  .promo {
+    border: 0;
+    width: 72px;
+    height: 72px;
+  }
+
+  .key-point {
+    background-color: #0060df;
+    background: url("/images/fox-tail-header.png"), linear-gradient(to bottom, #003eaa 40%, #004ec2 60%, #0060df 80%, #0080ff 90%, #00c7ff 100%);
+    background-repeat: no-repeat;
+    background-size: 150% auto;
+    background-position: -100px center;
+    border-bottom: none;
+  }
+
+  .homepage .download {
+    width: 250px;
+  }
+
+  @media only screen and (max-width: 500px) {
+    #front-feature {
+      background-position: right center;
+      background-size: 115% auto;
+      padding-bottom: 160px;
+    }
+    #front-feature #feature-content {
+      height: 75px;
+      position: absolute;
+      width: 100%;
+      padding: 0;
+      background: url(images/firefox_logo_57-wordmark-horiz_RGB_512w.png) no-repeat;
+      background-size: auto 100%;
+      filter: drop-shadow(0px 1px 2px rgba(0,0,0,0.5));
+      -webkit-filter: drop-shadow(0px 1px 2px rgba(0,0,0,0.5));
+      pointer-events: none;
+    }
+    #front-feature #feature-content h2 {
+      display: none;
+    }
+    .front-feature #firefox_quantum {
+      width: 420px;
+      background-position: 100% top;
+      background-size: 100% auto;
+      right: -90px;
+      top: 65px;
+    }
+    .front-feature #firefox_quantum a {
+      width: 500px;
+      height: 300px;
+      top: -100px;
+      left: -50px;
+    }
+  }
+  -->
+  .hide {
+    display: none;
+  }
+</style>
+<!--[if lte IE 8]>
+<style>
+.key-point {
+    background-image: url(/images/fox-tail-header.png);
+}
+.frontcolumn {
+    padding-right: 2%;
+}
+#front-feature .download ul, #planets ul {
+    margin-left: 0;
+}
+.front-feature #firefox_quantum {
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/browser-high-res.png', sizingMethod='scale');
+}
+</style>
+<![endif]-->
+
+</head><body id="www-moztw-org" class="homepage">
+
+<div id="container">
+
+<p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
+
+<div id="header">
+<h1><a href="//moztw.org/" title="回到 MozTW 首頁" accesskey="1">MozTW 正體中文在地化</a></h1>
+ <ul>
+  <li id="menu_aboutus"><a href="/about" title="About this website">關於本站</a></li>
+  <li id="menu_contribute"><a href="/contribute" title="了解我們正在做什麼，看看您能幫上什麼忙！">參與我們</a></li>
+  <li id="menu_planet"><a href="http://planet.moztw.org/" title="社群成員 Blog Planet" onClick="ga('send', 'event', 'inGoing', 'planet', 'header');">摩茲星球</a></li>
+<!--  <li id="menu_wiki"><a href="http://wiki.moztw.org/" title="MozTW 共筆系統" onClick="ga('send', 'event', 'inGoing', 'wiki', 'header');">共筆系統</a></li>-->
+  <li id="menu_space"><a href="/space" title="摩茲工寮 | Mozilla Community Space Taipei" onClick="ga('send', 'event', 'inGoing', 'space', 'header');">摩茲工寮</a></li>
+  <li id="menu_events"><a href="/events" title="MozTW 活動">活動</a></li>
+  <li id="menu_forum"><a href="//forum.moztw.org/" title="MozTW 社群討論區" onClick="ga('send', 'event', 'inGoing', 'forum', 'header');">討論區</a></li>
+  <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
+ </ul>
+
+
+<!-- Google 自訂搜索 -->
+<form id="search" action="//forum.moztw.org/google_results.php">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+<!-- End of Google Search -->
+
+</div>
+<!-- closes #header-->
+
+<hr class="hide">
+
+
+<div class="key-point front-feature" id="front-feature">
+  <div id="firefox_quantum">
+    <a href="https://mozilla.org/firefox/" title="全新 Firefox Quantum，更快、更多好事。" onclick="ga('send', 'event', 'Outgoing', 'mozilla.org/firefox', 'home_feature');"></a>
+  </div>
+  <div id="feature-content">
+    <h2><a class="fx-link" href="https://mozilla.org/firefox/" onclick="ga('send', 'event', 'Outgoing', 'mozilla.org/firefox', 'home_logo');"><img src="images/firefox_logo_57_512w.png" alt="Firefox" height="82" width="79">全新 Firefox</a></h2>
+    <div class="download dl-box">
+      <h3><a href="https://mozilla.org/firefox/" title="全新 Firefox Quantum，更快、更多好事。" onclick="ga('send', 'event', 'Outgoing', 'mozilla.org/firefox', 'home_dl_title');"><strong class="downloadText">Firefox 正體中文版</strong></a></h3>
+      <div style="margin-top: 5px;">
+        <!--#comment NOTE: Point to .shtml while test locally -->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- latest release notes page that we had published -->
+
+<script type='text/javascript' src='/js/download.js'></script>
+<script type='text/javascript'>
+	<!--
+//	window.onload = highlightDownload;
+
+    if (window.addEventListener)
+        window.addEventListener('load', function(){ highlightDownload() }, false);
+    else if (window.attachEvent)
+        window.attachEvent('on' + 'load', function(){ highlightDownload() });
+
+	function initDownloadInIE () {
+		/*
+		For IE, open up a small popup and point it to the mozilla server
+		We cannot use window.onload to initiate download from latest-win.html (security bar will pop)
+		*/
+		if (navigator.appVersion.indexOf('MSIE') !== -1) {
+			window.open(
+				'https://download.mozilla.org/?product=firefox-131.0.3&os=win&lang=zh-TW',
+				'_blank',
+				'height=150, width=260, location=no, menubar=no, resizable=no, scrollbars=no, status=no, toolbar=no'
+			);
+		}
+	}
+
+	// -->
+</script><ul>
+<li><a href="/firefox/download/latest-win.html" id="download-link-win"
+    title="" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Windows');">Windows</a>
+<li><a href="/firefox/download/latest-win64.html" id="download-link-win64" title="" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Windows64');">Windows (64-bit)</a>
+<li><a href="/firefox/download/latest-linux.html" id="download-link-linux" title="" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Linux');">Linux</a>
+<li><a href="/firefox/download/latest-linux64.html" id="download-link-linux64" title="" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Linux64');">Linux (64-bit)</a>
+<li><a href="/firefox/download/latest-osx.html" id="download-link-mac" title="" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Mac');">Mac OS X</a>
+<li class="mbl"><a href="/mobile" id="download-link-mobile" title="">Firefox 行動版</a>
+<li><a href="https://www.mozilla.org/firefox/all/" onClick="ga('send', 'event', 'Outgoing', 'Firefox', 'Other Platform');">其它語言與平台</a>
+</ul>
+
+      </div>
+    </div>
+    <div class="download dl-mobile" onclick="">
+      <h3><a href="/mobile/"><strong class="downloadText">Firefox 行動版</strong></a></h3>
+      <div>
+        <ul>
+          <li><a href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onclick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'GooglePlay');">Firefox for Android</a></li>
+          <li><a href="https://itunes.apple.com/app/id989804926" target="_blank" onclick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'iTunesStore');">Firefox for iOS</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="mBody">
+
+  <div class="frontcolumn hide" id="mobile-feature-ios">
+    <h2 class="mobile-header"><a href="https://itunes.apple.com/app/id989804926" onclick="ga('send', 'event', 'Outgoing', 'iOS-AppStore-Firefox', 'frontpage-frontcolumn');">Firefox for iOS<img src="/images/product-firefox-ios.png" alt="Firefox for iOS" class="promo"></a></h2>
+    <p>在您的 iPhone、iPad 及 iPod touch 上，時時取用 Firefox 的瀏覽歷史、書籤及開啟分頁；還有滿滿的安全功能，保護您的隱私資訊。</p>
+  </div>
+  <!-- <div class="frontcolumn hide">
+    <h2><a href="/mobile/"><img src="/images/foxmosa-android.png" style="float: left;height: 125px;margin:-5px 9px 0 -10px;width: 107px;" alt="Foxmosa love Android" class="promo">Android 版 Firefox</a></h2>
+  	<p>Android 版 Firefox 全面更新，更快、更聰明、更加安全，輕巧又靈活，讓您更快到達想去的地方。</p>
+  </div> -->
+  <div class="frontcolumn" id="feature-thunderbird">
+    <h2><a href="/thunderbird/">Thunderbird<img src="/images/product-thunderbird-v3.png" style="height:72px;width:72px;" alt="Thunderbird Logo" class="promo"></a></h2>
+    <p><a href="/thunderbird/">Thunderbird</a> 電子郵件軟體全新登場，帶來分頁、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗。</p>
+  </div>
+  <!--  <div class="frontcolumn">
+    <h2><a href="https://webmaker.org/"><img src="/images/webmaker.png" style="" alt="Webmaker" class="promo">Mozilla Webmaker</a></h2>
+    <p>網路發展至今，人人都該具備在網路上創作的能力，Webmaker 計畫以各種簡單有趣的專案，讓大家嘗試混搭網頁、踏出網頁創作的第一步。</p>
+  </div>-->
+  <div class="frontcolumn">
+    <h2><a href="/space/">摩茲工寮<img src="/images/product-firefox-home.png" alt="" class="promo"></a></h2>
+    <p>
+      <a href="/space/" style="font-size: 0.9em;">Mozilla Community Space Taipei</a> 是位於台北的社群空間，提供電力、網路與激發創意的 Mozilla 小物，讓摩茲人在此一起貢獻各種開放專案，歡迎來訪。
+    </p>
+  </div>
+
+  <div class="frontcolumnlast">
+    <h2><a href="/contribute/">參與我們<img src="/images/toy_gold_32.png" alt="Contribute Logo" class="promo"></a></h2>
+    <p>我們想要讓網路變得更好。歡迎<a href="/contribute/">參與我們的任務</a>，成為推廣網路自由的一份子！
+      <br>→ <a href="https://groups.google.com/group/moztw-general" onclick="ga('send', 'event', 'Outgoing', 'moztw-general', 'Frontpage');">Email 郵件群組</a>、<a href="/community/telegram/">Telegram 聊天頻道</a></p>
+  </div>
+</div>
+<br style="clear: both;">
+
+<!-- Start News Columns -->
+
+<div>
+  <div class="frontcolumndouble" id="news_columns">
+    <a href="/xmlnews.rdf">
+        <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16">
+      </a>
+    <h2>
+      <a href="/news">最新消息與公告</a>
+    </h2>
+    <!-- update release news according to https://www.mozilla.org/en-US/firefox/releases/ -->
+<ul class="news">
+  <!-- NOTE: the URL and news content must be in same line or it will break RSS output! -->
+  <li>
+    <div class="date"> 1 月 8</div>
+    <a href="/common-voice/">Common Voice 原住民族語錄音補助計畫</a> 公布</li>
+  </li>
+  <li><div class="date"> 10 月 14</div>
+    <a href="/firefox/releases/131.0.3/">Firefox 131.0.3</a> 更新</li>
+  <li><div class="date"> 10 月 18</div>
+    <a href="/space/moved.png">摩茲工寮搬遷至重慶南路世界大樓</a>、<a href="/space/#donate">2024/8-9 捐款資訊</a></li>
+  <li><div class="date"> 10 月 9</div>
+    <a href="/firefox/releases/131.0.2/">Firefox 131.0.2</a>、Firefox 128.3.1 ESR、Firefox 115.16.1 ESR 更新</li>
+  <li><div class="date"> 10 月 1</div>
+    <a href="/firefox/releases/131.0/">Firefox 131.0</a> 更新</li>
+  <li><div class="date"> 9 月 17</div>
+    <a href="/firefox/releases/130.0.1/">Firefox 130.0.1</a> 更新</li>
+  <li><div class="date"> 9 月 7</div>
+    <a href="/space/#donate">摩茲工寮 2024/6-7 捐款資訊</a></li>
+</ul>
+
+
+    <br style="clear: both;">
+    <a href="news">所有公告記錄</a>
+  </div>
+  <div id="planets" class="frontcolumn hide">
+    <a href="https://planet.moztw.org/atom.xml">
+      <img class="rss" src="/images/rss.png" alt="Announcements in RSS" width="28" height="16"/>
+    </a>
+    <h2>
+      <a href="https://planet.moztw.org/">摩茲星球</a>
+    </h2>
+    <ul id='planet-rss-list'></ul>
+  </div>
+  <!-- End News Columns -->
+
+  <div class="frontcolumnlast">
+    <h2>快速捷徑</h2>
+    <ul class="news">
+      <li><a href="//forum.moztw.org/viewforum.php?f=2" onclick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 中文討論區</a></li>
+      <li><a href="/events/moztw-lab/">MozTW Lab 定期聚會</a></li>
+      <li><a href="https://learning.mozilla.org/" onclick="ga('send', 'event', 'Outgoing', 'Webmaker', 'frontpage');">Mozilla Webmaker</a></li>
+      <li><a href="http://mozlinks.moztw.org/" onclick="ga('send', 'event', 'Outgoing', 'Mozilla Links', 'frontpage');">Mozilla Links 正體中文版</a></li>
+      <li><a href="http://www.mozilla.com/zh-TW/firefox/channel/" onclick="ga('send', 'event', 'Outgoing', 'Firefox Mozilla - Channel', 'frontpage');">Firefox 未來發行版本</a></li>
+      <li><a href="http://wiki.moztw.org/">共筆系統</a></li>
+      <li><a href="/firefox/extension_top_15/">社群嚴選：擴充套件 Top 15</a></li>
+      <li><a href="/foxmosa/">Foxmosa 狐耳摩莎</a></li>
+      <li><a href="/donate">捐款贊助 Mozilla</a></li>
+      <li><a href="/space#donate">支持摩茲工寮營運<br>Sopport MozTW Space</a></li>
+    </ul>
+  </div>
+</div>
+</div>
+<hr class="hide">
+  <div id="footer">
+   <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a xmlns:cc="http://creativecommons.org/ns#" href="//moztw.org/" property="cc:attributionName" rel="cc:attributionURL" title="Mozilla 軟體正體中文在地化專案/台灣社群">MozTW，Mozilla 正體中文/台灣社群</a></li>
+	<li><a href="https://github.com/moztw/www.moztw.org" title="貢獻本網站 Source">貢獻本網站 Source</a></li>
+	<li><a href="/about">聯絡資訊 Contact</a></li>
+   </ul>
+	<p>除另有註明外，本站內容皆採<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>或更新版本授權大眾使用<br />
+		<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');"><img alt="Creative Commons License" style="border-width:0; margin-top: 10px;" src="https://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" /></a>
+   </p>
+  </div>
+  <!-- closes #footer-->
+</div>
+<!-- closes #container -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant"></script>
+<!--[if IE 6]>
+  <script type="text/javascript" src="/js/library/iepngfix/iepngfix_tilebg.js"></script>
+<![endif]-->
+<!-- Google Analytic -->
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-1', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<script>
+$(function () {
+  var $rssList = $('#planet-rss-list');
+
+  $.getJSON('https://moztw.github.io/planet-rss-json/planet.json', function (data) {
+    // 檢查 data 是否是個 object、data.items 是否是個 Array 且長度 > 0。
+    if (!(typeof data === 'object' && $.isArray(data.items) && data.items.length > 0)) return;
+
+    $.each(data.items, function (index, val) {
+      if (index >= 6) return; // 最多顯示 6 項
+
+      var author = val.title.substring(0, val.title.indexOf(':'));
+      var title = val.title.substring(author.length + 2);
+      if (title > 100) title = title.substring(0, 100) + "……"; // 超過 100 個字就截斷並加上 '……'
+      var url = val.link;
+
+      $rssList.append('<li><a href="' + url + '">' + title + '</a> &ndash; ' + author + '</li>');
+    });
+
+    // 顯示摩茲星球欄
+    $('#news_columns').removeClass('frontcolumndouble').addClass('frontcolumn'); // 預留空間給摩茲星球
+    $('#planets').removeClass('hide'); // 解除隱藏
+  });
+});
+</script>
+</body></html>
+

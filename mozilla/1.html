@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta property="fb:page_id" content="109362359103769" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+  <link rel="home" title="Home" href="//moztw.org">
+  <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="/css/base/content.css" media="all">
+  <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+  <link rel="stylesheet" href="/css/base/template.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+  <link rel="stylesheet" href="/css/moztw.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/xmlnews.rdf">
+  <meta name="facebook-domain-verification" content="v9cjc40llat0ll8rbfy3iiy16md0vq" />
+  <!--[if IE 6]>
+  <style type="text/css">img, div, a { behavior: url(/js/library/iepngfix/iepngfix.htc) }</style>
+  <![endif]-->
+<title>MozTW, Mozilla 台灣社群 | Firefox / Thunderbird 正體中文版</title>
+
+</head><body id="www-moztw-org">
+
+<div id="container">
+
+<p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
+
+<div id="header">
+<h1><a href="//moztw.org/" title="回到 MozTW 首頁" accesskey="1">MozTW 正體中文在地化</a></h1>
+ <ul>
+  <li id="menu_aboutus"><a href="/about" title="About this website">關於本站</a></li>
+  <li id="menu_contribute"><a href="/contribute" title="了解我們正在做什麼，看看您能幫上什麼忙！">參與我們</a></li>
+  <li id="menu_planet"><a href="http://planet.moztw.org/" title="社群成員 Blog Planet" onClick="ga('send', 'event', 'inGoing', 'planet', 'header');">摩茲星球</a></li>
+<!--  <li id="menu_wiki"><a href="http://wiki.moztw.org/" title="MozTW 共筆系統" onClick="ga('send', 'event', 'inGoing', 'wiki', 'header');">共筆系統</a></li>-->
+  <li id="menu_space"><a href="/space" title="摩茲工寮 | Mozilla Community Space Taipei" onClick="ga('send', 'event', 'inGoing', 'space', 'header');">摩茲工寮</a></li>
+  <li id="menu_events"><a href="/events" title="MozTW 活動">活動</a></li>
+  <li id="menu_forum"><a href="//forum.moztw.org/" title="MozTW 社群討論區" onClick="ga('send', 'event', 'inGoing', 'forum', 'header');">討論區</a></li>
+  <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
+ </ul>
+
+
+<!-- Google 自訂搜索 -->
+<form id="search" action="//forum.moztw.org/google_results.php">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+<!-- End of Google Search -->
+
+</div>
+<!-- closes #header-->
+
+<hr class="hide">
+
+
+<div class='article'>
+<h2>Mozilla 1.7 新鮮事</h2>
+<p>本文件列出在 Mozilla 1.7 中實作的一些新功能、重要的錯誤修復事宜及新問題。如欲得到更廣泛的修正項目列表，請參閱「<a href="http://www.mozilla.org/releases/mozilla1.7/changelog.html">[更動記錄略表]</a>」。本列表含括 1.7 Alpha、1.7 Beta 及各備選版以來所有的新功能及修正。</p>
+
+
+<h3>新鮮事</h3>
+<ul ><li>瀏覽器部分<ul ><li> Mozilla 1.7 的 Windows、Linux 及 <strong>Mac</strong> 版的官方安裝程式內含 Talkback 回報工具。為了協助我們讓 1.7 成為有史以來最穩定的版本，請將程式無效而關閉的資料回報給我們。</li>
+<li> 新增一個可以防止網站以 JavaScript 鎖住瀏覽器快捷選單的選項。</li>
+<li> 為 Mozilla 的關連檔案提供了一組新的圖示。</li>
+<li> 密碼管理員提供了「顯示密碼」模式，可以顯示既存的密碼。如果您設定了主密碼，則在使用這個功能前，您必須先輸入主密碼。</li>
+<li> 「設定為桌布」功能現在將跳出對話方塊，要求使用者確認此動作。</li>
+<li> Linux GTK2 版增進對作業系統佈景主題的支援。</li>
+<li> 重製 Cookie 相關的對話方塊，讓它們更為易用。</li>
+<li> 增進日期掌控能力，特別在 OS X 上更為顯著。</li>
+<li> 您現在可以經由調整 dom.popup_maximum 與 dom.popup_allowed_events 兩值來更動 Mozilla 1.7 中的「阻擋彈出視窗」功能，但目前尚未有使用者介面可供調整。即使還未有使用者介面，使用者也應注意到 Mozilla 阻擋了更多種彈出視窗(主要是 mouseover 的彈出視窗)；此外也會發現無論阻擋彈出視窗的選項是否啟動，最多都只能開啟大約二十個視窗，這讓您不受某些以迴圈方式使用視窗炸彈(不斷的開啟新視窗)的站台影響。</li>
+<li> 現在下載的檔案會在指定儲存目錄後移至適當目錄，這是曾被提起數次的 <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=55690">[bug 55690]</a>。</li>
+<li>「平滑捲動 (Smooth Scrolling)」功能現已使用者介面(偏好設定 Preferences -> 外觀 Appearance)供啟動。</li>
+<li> 這一版的 Mozilla 開始提供基本的 FTP 上傳功能。</li>
+</ul>
+</li>
+<li>郵件部份<ul ><li> 在與 Palm 的同步化部分大有長進。</li>
+<li> 支援 IMAP IDLE。</li>
+<li> Support for "MSN Authentication" and Secure Password Authentication using SSPI NTLM auth for SMTP and POP3.（這個要斷句有點麻煩，待我問問）</li>
+<li> 新的「回信時永遠使用預設的字元編碼」設定，可以不用原信件所使用的編碼。</li>
+<li> 增進關於下載、檢視及儲存信件的效能。</li>
+<li> 支援「單一帳號、多重身分」的設定方式，相關訊息請見「<a href="http://www.mozilla.org/projects/thunderbird/identities.html">[多重身份支援]</a>」文件。</li>
+<li> 您現在可以在 prefs.js 中以相對路徑指定郵件資料夾，如此一來複製使用者設定檔後便不需另行修正 prefs.js 檔案。</li>
+<li> 您現在可以編輯含有「姓，名」(Last, First)格式名稱的通訊錄了。</li>
+<li> 當編輯郵件時，你現在可以用上下鍵在收件人/附件收件人/隱藏附件收件人列表中游走了。</li>
+<li> 於 Mac OS X 中，附加檔案名稱已不再以 decomposed Unicode 顯示，而能正常轉換為 composed Unicode。</li>
+<li> 所有 Mozilla LDAP 的查詢現在預設使用 LDAPv3 (之前使用的是 LDAPv2)，而如果未能發現 v3 ，Mozilla 也能自動改用原先的 v2。</li>
+</ul>
+</li>
+<li>Chatzilla 部份<ul ><li> Chatzilla 現在支援以快速鍵（Ctrl + 與 Ctrl -）控制字型縮放的功能，與「檢視」選單底下的選項效果相同。</li>
+<li> 增進日期掌控的能力；使用本地的日期／時間格式。</li>
+<li> 支援 /ignore 指令。 </li>
+<li> 現在可以更換字體及字型尺寸。</li>
+<li> 自訂音效在 Windows 及 Linux 中已可正確運行。 </li>
+<li> 增強 half-op 模式的使用者界面。</li>
+</ul>
+</li>
+</ul>
+
+<ul ><li>深入內部<ul ><li> Mozilla 自 1.7 版起於檔案大小及效能方面有著顯著的提升：比起 Mozilla 1.6 來說，Mozilla 1.7 RC 1 的速度在啟動時快了 7%、在開啟視窗時快了 8%、在頁面讀取時快了 9%，並且降低了 5% 的檔案大小。</li>
+<li> 長久以來處理表格元素的 CSS 背景時有個問題，在此版中 (的標準模式裡) 已經被修復了。</li>
+<li> 使用 GSSAPI 以支援 的 Kerberos HTTP 認證，此讓 Unix-like 的平台 (包括 Linux 及 OS X) 皆能受惠。</li>
+<li> 使用 gnome-vfs 函式庫以支援「smb://」URL 協定 (此功能僅於 GTK2+XFT Linux 版上啟用)。</li>
+<li> 支援伺服器以 multipart/x-mixed-replace 及 XMLHttpRequest<a href="http://noellab.net/ernest/tavi/edit/XMLHttpRequest">?</a> 所推送的 XML 文件檔。</li>
+<li> 現在當 Java applet 的 codebase 跨網域時，Liveconnect 可以運行無誤。</li>
+<li> 在 Mac 上已能顯示非常寬（多過 4095 像素）的影像。</li>
+<li> 支援 CSS3 的 <a href="http://www.w3.org/TR/css3-color/#transparency">[opacity]</a> 屬性。（譯註：透明度）</li>
+<li> Mozilla 現已支援 <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=68215">[onbeforeunload]</a> 事件，這讓網站應用程式開發者可以加上程式碼、在使用者關閉視窗前提供資料將遺失等的警告，或在使用者離開頁面時提供相關資訊。</li>
+<li> 此版本提供了新的 SVG 後端程式。雖然 SVG 在 mozilla.org 釋出版本預設中並不啟動，但開發人員或許想要自己編譯、讓這個功能啟動。</li>
+<li> Mozilla 對動態更換樣式的掌控已更上層樓。(詳細資訊見  <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=15608">[bug 15608]</a>。) </li>
+<li> Mozilla 已將 NSS 函式庫升級至 3.9 版。<a href="http://www.mozilla.org/projects/security/pki/nss/nss-3.9/nss-3.9-release-notes.html">[NSS 3.9]</a> 通過全部的 NISCC <a href="http://www.uniras.gov.uk/vuls/2003/006489/tls.htm">[SSL/TLS]</a> 與 <a href="http://www.uniras.gov.uk/vuls/2003/006489/smime.htm">[S/MIME]</a> 測試 (一百六十萬個無效輸入值的測試個案) 而沒有造成當機或記憶體損耗。</li>
+</ul>
+</li>
+</ul>
+
+<h3>新議題</h3><p>以下是從上個里程碑起被列入「<a href="http://www.mozilla.org/releases/mozilla1.7/known-issues.html">[已知問題]</a>」頁的項目，即便該錯誤本身已於過往版本出現過亦然。</p>
+
+
+<ul ><li>一般<ul ><li> 使用者回報 <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=76831">[bug 76831]</a>：將 Windows 版的 Mozilla 最小化數小時後，若每每於還原時延遲非常久的時間，則將 config.trim_on_minimize 設定為 false 可能可以解決問題。詳見該 bug <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=76831#c0">[第 0]</a> 及<a href="http://bugzilla.mozilla.org/show_bug.cgi?id=76831#c303">[第 303 篇評論]</a>。</li>
+<li> 在 Mac OS X 上預設關閉 IPv6 的支援。這是因為在 Mac OS X 中尚未找到能關閉 IPv6 DNS lookups 的方法，而它會讓 severe slowdowns in the presence of broken DNS servers and/or home routers，請參照 <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=68796">[bug 68796]</a> 及 <a href="http://bugzilla.mozilla.org/show_bug.cgi?id=231607">[bug 231607]</a>。在 OS X 10.3 中，您可以將 network.dns.disableIPv6 的偏好設定改為 false 來重啟 IPv6 功能。</li>
+<li> Users of Fedora Core 2 may experience unusually long delays in resolving hostnames. This results from the fact that IPv6 is enabled by default in Fedora Core 2. If you do not need IPv6 support (which is most likely the case), then it is advised that you disable it in the kernel. To do this run the following command as root: echo "alias net-pf-10 off" &gt;&gt; /etc/modprobe.conf You will need to reboot to have this take effect (or simply unload the ipv6 kernel module).</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<hr class="hide">
+  <div id="footer">
+   <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a xmlns:cc="http://creativecommons.org/ns#" href="//moztw.org/" property="cc:attributionName" rel="cc:attributionURL" title="Mozilla 軟體正體中文在地化專案/台灣社群">MozTW，Mozilla 正體中文/台灣社群</a></li>
+	<li><a href="https://github.com/moztw/www.moztw.org" title="貢獻本網站 Source">貢獻本網站 Source</a></li>
+	<li><a href="/about">聯絡資訊 Contact</a></li>
+   </ul>
+	<p>除另有註明外，本站內容皆採<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>或更新版本授權大眾使用<br />
+		<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');"><img alt="Creative Commons License" style="border-width:0; margin-top: 10px;" src="https://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" /></a>
+   </p>
+  </div>
+  <!-- closes #footer-->
+</div>
+<!-- closes #container -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant"></script>
+<!--[if IE 6]>
+  <script type="text/javascript" src="/js/library/iepngfix/iepngfix_tilebg.js"></script>
+<![endif]-->
+<!-- Google Analytic -->
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-1', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+

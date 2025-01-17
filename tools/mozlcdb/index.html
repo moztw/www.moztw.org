@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta property="fb:page_id" content="109362359103769" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+  <link rel="home" title="Home" href="//moztw.org">
+  <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="/css/base/content.css" media="all">
+  <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+  <link rel="stylesheet" href="/css/base/template.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+  <link rel="stylesheet" href="/css/moztw.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/xmlnews.rdf">
+  <meta name="facebook-domain-verification" content="v9cjc40llat0ll8rbfy3iiy16md0vq" />
+  <!--[if IE 6]>
+  <style type="text/css">img, div, a { behavior: url(/js/library/iepngfix/iepngfix.htc) }</style>
+  <![endif]-->
+<title>MozLCDB: Excellent Localization Tool for Mozilla Products, from MozTW / Hung-Te Lin</title>
+</head><body id="www-moztw-org">
+
+<div id="container">
+
+<p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
+
+<div id="header">
+<h1><a href="//moztw.org/" title="回到 MozTW 首頁" accesskey="1">MozTW 正體中文在地化</a></h1>
+ <ul>
+  <li id="menu_aboutus"><a href="/about" title="About this website">關於本站</a></li>
+  <li id="menu_contribute"><a href="/contribute" title="了解我們正在做什麼，看看您能幫上什麼忙！">參與我們</a></li>
+  <li id="menu_planet"><a href="http://planet.moztw.org/" title="社群成員 Blog Planet" onClick="ga('send', 'event', 'inGoing', 'planet', 'header');">摩茲星球</a></li>
+<!--  <li id="menu_wiki"><a href="http://wiki.moztw.org/" title="MozTW 共筆系統" onClick="ga('send', 'event', 'inGoing', 'wiki', 'header');">共筆系統</a></li>-->
+  <li id="menu_space"><a href="/space" title="摩茲工寮 | Mozilla Community Space Taipei" onClick="ga('send', 'event', 'inGoing', 'space', 'header');">摩茲工寮</a></li>
+  <li id="menu_events"><a href="/events" title="MozTW 活動">活動</a></li>
+  <li id="menu_forum"><a href="//forum.moztw.org/" title="MozTW 社群討論區" onClick="ga('send', 'event', 'inGoing', 'forum', 'header');">討論區</a></li>
+  <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
+ </ul>
+
+
+<!-- Google 自訂搜索 -->
+<form id="search" action="//forum.moztw.org/google_results.php">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+<!-- End of Google Search -->
+
+</div>
+<!-- closes #header-->
+
+<hr class="hide">
+
+
+<style type='text/css'>
+<!--
+code { white-space: pre; display: block; background: black; color: white; padding: 5px; margin: 3px; }
+pre { white-space: pre; display: block; background: black; color: white; padding: 5px; margin: 3px; }
+b { color: blue; }
+u { color: green; }
+blockquote {margin: 1px; padding: 1px; margin-left: 2em;}
+-->
+</style>
+<div>
+<H1>MozLCDB: Mozilla Locale Database</H1>
+<h3> MozLCDB: What is it? </h3>
+<p> MozLCDB is a tool made for localization of various Mozilla (Gecko) based products.
+It is designed to resolve issues introduced since Mozilla Firefox 1.0 branch, and
+a replacement for MozillaTranslator.
+<h3> The author and "Why a new tool?"</h3>
+<p> &nbsp; This is <a href='http://ntu.csie.org/~piaip/' title="piaip@csie.ntu.edu.tw">Hung-Te Lin</a>,
+maintainer of <a href='/'>Traditional Chinese Mozilla Localization</a>,
+<!-- Traditional Chinese VIM Localization,-->
+and the famous <a href='/tools/'> "mozip" </a>
+(a tool to make Win32 localized builds).<br/>
+<p>&nbsp; I have been using MozillaTranslator for years
+(whether the official builds or my own tweaked versions) since Mozilla M14
+(Milestone 14, not 1.4. The M series are older than Mozilla 0.6).
+During these years MT works O.K although more and more extra works have to
+be done because Mozilla locale structure changes all the time.<br/>
+<p>&nbsp; Since the landing of Mozilla Firefox 1.0PR, localizers of Mozilla* suffered from
+the huge changes in Mozilla locale structure and new CVS requirements.
+Unfortunately, MozillaTranslator does not work anymore. Although MT has released
+new versions to solve issues, after trying MT5.04 I think it's time to develop
+a new tool which is more robust or I have to manually do many extra work for all
+versions. With my experience in localization, I proposed
+what I need and made a new tool, named MozLCDB. This name is a little weird
+because the better name 'MLDB' is already taken by others. Hmmm. Maybe MLD?<br/>
+<p>&nbsp; I'm not an perl guru so this script is not perfect nor elegant now, but it helped
+me to generate a working Firefox 1.0PR locale without too much effort (in
+comparision to fight with MozillaTranslator).
+<h3> Features of MozLCDB </h3>
+MozLCDB is focused to Mozilla Localization. In comparsion to MozillaTranslator,
+you'll notice that:
+<ul>
+	<li> MozLCDB is just a perl script with command line only, no GUI.<br/>
+	You can (and you have to) edit all stuff with your favorite editor.
+	<li><B style='color: red'> Targeted for Multiple Product maintaince.</b><br/>
+	That is, you can really localize Mozilla, Firefox, Thunderbird, Netscape,
+	and keep only <b>one instance</b> for same chrome node.
+	<li> Works for both CVS and downloaded ZIP language packs
+	<li> The stored database is more human readable/editable
+	<li> Single locale per database file. Does not support multiple locale (MT does).<br/>
+	You have to use multiple database files if you need multiple locale.
+	<li> Easily modified if you understand Perl.
+</ul>
+<h3> Requirements </h3>
+You  need these stuff:
+<ul>
+	<li style='color: red;'> Perl 5.8 or later versions
+	<li> Your favorite editor (with the ability to open/save UTF-8, like
+	<a href='http://www.vim.org'> VIM </a> which is my own choice)
+	<li style='color: #aaa;'> (optional) Any ZIP archiver if you want to use ZIP/JAR languagepack
+		or if you want to import MozillaTralsator glossary
+	<li style='color: #aaa;'> (optional) Python 2.0+ if you want to import MozillaTranslator glossary
+	<li style='color: #aaa;'> (optional) Knowledge of Perl if you got problems or want to modify it
+</ul>
+<h3> Download </h3>
+Get these files:
+<ul>
+	<li>Releases: <ul>
+	<li><a href='archive/mozlcdb_v0.4.zip'> Version 0.4 </a>(Current, approved with Fx1.5b/moz1.8, 2005/10/26)
+	<br/> <i>- added: output string table by specified timestamp<br/>
+                 - fixed: support DTD Reference entries and #expand preprocessing</i>
+        </li>
+
+	<li><a href='archive/mozlcdb_v0.3.zip'> Version 0.3 </a>(Stable, approved with Fx1.1trunk,Tb1.1trunk, 2005/07/20)
+	<br/> <i>- added: N-way merge, better root guessing, check db, ... lots of new features</i>
+	</li>
+	<li><a href='archive/mozlcdb_v0.2.zip'> Version 0.2 </a>(Stable, approved with FF1.0/TB0.8, 2004/09/27)</li>
+	<li><a href='archive/mozlcdb_v0.1.zip'> Version 0.1 </a>(Deprecated)</li>
+	</ul>
+	<li style='padding-top: 10px;'>Latest beta: <ul><li><a href='archive/mozlcdb_latest.zip'> 2009/9/27 </a> (hack on your own!)</li>
+	</ul>
+    </ul>
+</ul>
+<h3> Background Knowledge </h3>
+<b>This section explains the basic idea about MozLCDB. It helps you to understand it more
+	although you may use it without knowing anything explained here.
+	Yes, you can go to "Usage:" sections if you are in a hurry.
+	However it is highly recommended to get things clear before you start.</b><br/>
+<dl>
+<dt> Workflow </dt>
+<dd>
+&nbsp;&nbsp; I'm trying to explain the workflow of MozLCDB here. Don't worry about the terms quoted,
+they will be explained in following subsections.<br/>
+<p>&nbsp;&nbsp; Basically, MozLCDB works in this manner: MozLCDB tries to '<u>import</u>' from
+a '<u>prepared directory</u>' (pulled from CVS or ZIP language pack), then save and merge
+into a '<u>(glossary) database</u>'. If any new locale string or updated ones are found,
+these entries will be written to an '<u>input (editing) table</u>'. You can then edit the
+input table to do localization. After everything is done, you have to '<u>update</u>'
+the '<u>(glossary) database</u>' with your '<u>input (editing) table</u>'.
+Then you can '<u>export</u>' the locales to another '<u>prepared
+directory</u>'. Finally, the '<u>prepared directory</u>' will contain
+all the localized stuff.
+</dd>
+<dt> File Format and Default Filenames </dt>
+<dd>&nbsp;&nbsp;  MozLCDB tries to record everything in a text file named '<b>mozlcdb.txt</b>'.
+It is saved in perl Dump format, however it is still readble ( if you know a little perl)
+and also called as the '<u>glossary</u>' (due to MT) or '<u>database</u>'.
+And there's another format of input that MozLCDB can read: <u>the input (editing)
+table</u>. It is more human readble and looks like DOS/WIN INI or GNU PO format.
+The default file name of this kind file is '<b>current.txt</b>'.  When importing from
+and exporting to Mozilla locale directories, currently MozLCDB recognizes only
+DTD and ".properties" files.
+</dd>
+<dt> Import, Export, and Update </dt>
+<dd>
+<u>import</u> means to read locales from Mozilla files into the database.<br/>
+<u>export</u> means to write locales from database into real Mozilla files.<br/>
+<u>update</u> means to read locales from an input (editing table) into the database.<br/>
+</dd>
+<dt> Directory Structure </dt>
+<dd>
+&nbsp;&nbsp; Mozilla locale is stored in a hierarchical directory structure, also refered as
+<u>chrome node</u>. So you will see a very long path like
+"<b>locale/en-US/global/global.dtd</b>" in the directory you pulled from CVS or
+extracted from a language pack. MozLCDB mostly runs with the level just after
+where 'en-US' sits, so whether you're working with CVS or language pack, you
+must move directories (or move mozlcdb program and files) and assign
+correct <u>ROOT</u> path to fit thie rule.
+Then it can be called as a '<u>prepared directory</u>'. (P.S: Actually, you can
+run in any level of directories. But you may get problems if you work in that
+way.)<br/>
+</dd><dt> ROOT </dt><dd>
+&nbsp;&nbsp; What's the <u>ROOT</u>? It's a PATH to help MozLCDB find corresponding locale path.
+For example, if my current directory is D:\Mozilla\LC (Win) or /home/moz/lc (UNIX)
+and my locale is in full path of D:\Mozilla\LC\locale\en-US\global\... or
+/home/moz/lc/locale/en-US/global/..., then you have to use ROOT as <b>locale/en-US</b>.
+</dd>
+<dt>The procedure of 'Import'and Multiple Product </dt><dd>
+&nbsp;&nbsp; What really happened when you 'import'? MozLCDB will scan and walk through all
+files inside the '<u>prepared directory</u>' assigned by <u>ROOT</u>.
+Currently, only <b>*.dtd</b> and <b>*.properties</b> will be processed. All other
+files will be ignored.
+<p>&nbsp;&nbsp; When one DTD or properties file was found, MozLCDB first reads its
+content for the 'key's and original locales.
+If a key was not found (never seen), it will be inserted into database as a 'new' entry.
+If a key was found, MozLCDB will determine what to do depending on the original (en-US)
+locale message.  If it is exactly same as some version recorded in database,
+it is considered a 'same' entry with no new entries introduced. If no entries
+with same original could be found, MozLCDB will append one entry with timestamp
+into database. This is the magic to make multiple product possible. We keep all versions
+of original messages.
+
+<dt>The procedure of 'Export'</dt><dd>
+&nbsp;&nbsp; What really happened when you 'export'? MozLCDB will scan and walk through all
+files inside the '<u>prepared directory</u>' assigned by <u>ROOT</u>.
+Currently, only <b>*.dtd</b> and <b>*.properties</b> will be processed. All other
+files will be ignored.
+<p>&nbsp;&nbsp; When one DTD or properties file was found, MozLCDB first reads its
+content for the 'key's and original locales, then try to lookup database to decide
+what localized string to put in. If you export with '-x', MozLCDB assume you are
+working with a clean original copy exactly just what you have imported, so it will
+check for existence of keys and original locale message. However, you may want to
+export to a working (trial) copy. In that usage, -x will warn and stop because
+original message is filled with your localized strings. In this case you may use '-X'
+which will not check for keys.
+</dd>
+</dl>
+
+<h3> Usage: Syntax Overview </h3>
+<ul><li>
+Run 'mozlcdb.pl -h' to see its syntax:
+<pre>usage: mozlcdb.pl [-uUixXen] [PATH] ...
+
+[-u]   : (default) update editing table (current.txt) to database
+-U [files...]: import/update from editing table
+-i ROOT: import files from ROOT(jar file or directory root)
+-x ROOT: extract and update files in ROOT.
+-X ROOT: extract and update files in ROOT, ignore errors.
+-e     : generate latest version of full table from database
+-n ROOT1 ROOT2: init with ROOT1 as en while ROOT2 as tr [CARE]
+-c     : check database
+-r aa-BB DispName: update "contents.rdf" locale entries
+         from en-US to aa-BB with DispName
+</pre>
+</ul>
+
+<h3> Usage: Import from MozillaTranslator </h3>
+<b>If you don't need to import from MozillaTranslator, skip this section.<br/>
+	You must have python working before you start the procedure.</b><br/><br/>
+I know this is weird: why python, not perl? Because this python script
+is modified by another python script I wrote years ago and I'm tired
+of making another perl version.<br/>
+<ul>
+	<li> First, unzip your glossary.zip which is in same directory of
+	MozillaTranslator.  You will find a "glossary.txt". Then run
+	<b>mt2mldb.py</b> which is included in the program archive in same
+	directory. <pre>python&nbsp;mt2mldb.py</pre>
+	<li>If no errors occurs, You will see a "mldb.out".
+	<li>Run the main program: <pre>perl&nbsp;mozlcdb.pl&nbsp;-U&nbsp;mldb.out</pre>
+	Usually you'll get some warnings about "Not sync". Don't worry about that.
+	<li>If you have a "<b>mozlcdb.txt</b>" which is not 0 bytes in your
+	directory now, congradulations, you have successfully imported MT glossary.
+	<li>Check mozlcdb.txt. Entries of chrome nodes should be look like
+	"browser/metaData.dtd". If you see "locale/en-US/...." of "en-US/...",
+	please use the replace feature of your editor to fix this error. This is caused
+	by some different MozillaTranslator.
+</ul>
+
+<h3> Usage: Import from an already localized language pack </h3>
+<b>If you have an already working language pack, say aa-BB,  you must get
+its matching version of en-US package or importing may be useless.</b><br/>
+<ul>
+	<li>Unzip your language pack jar files (both for aa-BB and en-US).
+	<li>If region directory is included as BB and US, move all stuff inside
+	BB/ and US/ to aa-BB/ and en-US/
+	<li>Move directories so that you can see en-US/ and aa-BB/ and your
+	<b> mozlcdb.pl</b> in <b>same</b> directory.
+	<li><pre>perl mozlcdb.pl -n en-US aa-BB</pre>
+	<li>If it stopped and giving you errors, try to identify what file stopped it.
+	Try to resolve on your own if you know perl (feedback welcome), or mail me.
+	<li>If you have a "<b>mozlcdb.txt</b>" which is not 0 bytes in your
+	directory now, congradulations, you have successfully imported MT glossary.
+</ul>
+
+<h3> Usage: Import from CVS directory </h3>
+Remember to backup your <u>glossary database (mozlcdb.txt)</u> before you import
+because you can rollback if anything goes wrong.
+<ul>
+	<li> First, you must pull from CVS directory. I'm not going to explain details here.
+	<a href='http://www.mozilla.org/projects/firefox/l10n/using-cvs.html'> Check here. </a></li>
+	<li> Now make sure what's your ROOT. Look at the previous section of 'Background Knowledge'.
+	If you have CVS pulled as 'mozilla/toolkit/locales' and 'mozilla/browser/locales' in
+	your current directory, please use ROOT as
+	"<u>mozilla/toolkit/locales/en-US/chrome mozilla/browser/locales/en-US/chrome</u>".
+	<li>Run this command: <pre> perl mozlcdb.pl -i ROOT</pre>
+	Example: <pre> perl&nbsp;mozlcdb.pl&nbsp;-i&nbsp;mozilla/toolkit/locales/en-US/chrome&nbsp;mozilla/browser/locales/en-US/chrome</pre>
+	<li>You should see a 'current.txt' generated now.
+</ul>
+
+<h3> Usage: Import from ZIP(JAR) language pack </h3>
+Remember to backup your <u>glossary database (mozlcdb.txt)</u> before you import
+because you can rollback if anything goes wrong.
+<ul>
+	<li> Extract en-US.jar (and en-[win|unix|mac].jar, US.jar if you have them) to some place
+	<li> Now make sure what's your ROOT. Look at the previous section of 'Background Knowledge'.
+	If you are working with Firefox 1.0PR, you'll see a directory named 'locale'. That's the ROOT.
+	<li>Run this command: <pre> perl mozlcdb.pl -i ROOT</pre>
+	Example: <pre> perl&nbsp;mozlcdb.pl&nbsp;-i&nbsp;locale</pre>
+	<li>You should see a 'current.txt' generated now.
+</ul>
+<h3> Usage: Working with input(editing) table</h3>
+The input(editing) table is named '<b>current.txt</b>'. You should see it after you
+imported something (except importing from MozillaTranslator or already localized language pack).
+<br/>
+The format is very simple. Take this for example:
+<ul><li><pre><font color="#00ffff">;comment</font>
+<font color="#ff6060">[browser/aboutDialog.dtd]</font>
+
+<font color="#00ff00">id=</font>aboutVersion
+<font color="#00ff00">en=</font>version
+<font color="#00ff00">tr=</font>PUT YOUR LOCALIZED STRING HERE.
+</pre>
+<li>All lines stared with '<b>;</b>' are comments.
+<li><b>[ ]</b> marks the chrome node. i.e., the file path after ROOT. DO NOT CHANGE THIS.
+<li><b>id=</b> means the 'key' in file. DO NOT CHANGE THIS.
+<li><b>en=</b> Original en-US locale string. DO NOT CHANGE THIS.
+<li><b>tr=</b> Translated locale. This is really what you are going to work with.<br/>
+<blockquote>
+P.S: Updated and newly found strings will be ";tr=" commented at first.
+Remeber to remove the ";" mark when you localized one.</blockquote>
+<li><b>kp=</b> Just like keep in MT. kp=1 will ignore tr= when exporting.
+<li><b>cm=</b> Comment. Similiar to 'localization note' in MT. Does nothing.
+</ul>
+Keep in mind that you should use UTF-8 file encoding.
+<h3> Usage: Update database with an input table</h3>
+When you finished editing, you have to update database.
+This is the default action if you give no arguments to MozLCDB.
+<ul><li><pre>perl mozlcdb.pl<br/><b style='color: cyan;'>(or)</b> perl mozlcdb.pl -u</pre>
+</ul>
+<h3> Usage: Export database to CVS </h3>
+Before you export, you have to request for CVS account. Although you may already checked in
+your locale module, for example aa-BB, but we're not going to use it. Please review
+the section of 'Background Knowledge' for 'The procedure of Export'. You have to use the
+original dtd and properties files from en-US.
+<ul>
+	<li>Prepare a directory of original files. You may just copy from original
+	en-US directory, like<pre>cp -R mozilla/toolkit/locales/en-US/chrome aa-BB-toolkit<br/>
+cp -R mozilla/browser/locales/en-US/chrome aa-BB-browser</pre>
+	The commands (UNIX only) above will generate ROOT of "<b>aa-BB-toolkit aa-BB-browser</b>".<Br/>
+	If you use Windows, you can use Explorer to copy.<br/>
+	<blockquote style='color: #666; background: #eee;'>
+	For me, I'd like to copy original files into aa-BB CVS directory:
+	(the aa-BB is exactly the CVS directory of locale aa-BB in the example, and
+	the commands are witten with bash. You have to modify it to fit your own environment.)
+<pre style='background: #888; color: aaa;'>find aa-BB -name "*.dtd" -delete; find aa-BB -name "*.properties" -delete;
+for X in `find en-US -name "*.dtd"` ; do cp $X ${X/en-US/aa-BB} ; cvs add ${X/en-US/aa-BB}; done </pre>
+	</blockquote>
+	<li>Run the export command. <pre>perl mozlcdb.pl -x ROOT</pre>For example:
+	<pre>perl mozlcdb.pl -x aa-BB-toolkit aa-BB-browser</pre>
+	<li>After your first export, you may try (see the next subsection)the exported stuff.
+	Then you can modify the input table and 'update' database again.
+	And for the second time you want to 'export', things get easier.
+	You don't have to prepare directory again. just use same ROOT and change -x to -X:
+	<pre>perl mozlcdb.pl -X ROOT</pre>
+	<li> Finally, after you get a stable version, pleas make sure you have all *.dtd and
+	*.properties added into CVS. And CVS commit!
+</ul>
+
+<h3> Usage: Export database to a standalone language pack, or JAR files </h3>
+Before you start, there's something you have to know.
+Currently we don't have a really good method for changing locale in Firefox
+(maybe we will never do),
+and the bug of "using extensions without corresponding
+locale leads to crashing" is still there (maybe will be solved in 1.0 release),
+so trying to provide language packs for end user is <b>really a mess</b>.
+<p> The better way is to export to CVS files and let mozilla.org build
+a official localized build. And if you want to make end user happy,
+due to the issues I mentioned above, here I described is
+kind of 'hacked' language pack. I'll export files, and make them with en-US
+chrome node path, and save to an 'en-US.jar' to replace the original en-US.jar.
+<p> This is <b>NOT GOOD</b>, but seems like making most end user happy.
+If you don't want to make such evil language packs, you have to go manually
+edit every *.rdf in directories, and prepare install.rdf or install.js.
+<p> OK... But if you are happy with evil packs, or
+<b>you're just trying your newly localized stuff</b>
+(this is mainly what I use this feature now for) ,
+here's how to make it work:
+<ul>
+	<li>Prepare a directory of original files.
+	You may extract from en-US.jar, and mostly you will have a directory named 'locale'.
+	Now identify your ROOT. In the case above, it is just 'locale'.
+	<li>Export with: <pre>perl mozlcdb.pl -x ROOT </pre>
+	For example, <pre>perl mozlcdb.pl -x locale </pre>
+
+	<li>If you are building a jar with new locale instead of replacing en-US, use
+	<pre>perl mozlcdb.perl -r aa-BB "Language Name" ROOT</pre>
+	which will update all the 'contents.rdf' in ROOT. However, using a new locale
+	name will require a mechanism of locale switching.
+	<li> Package your ROOT to a jar(ZIP) just like the layout of en-US.jar. <br/>
+	For Windows, use your favorite archiver (WinRAR, or WinZIP, ... etc)<br/>
+	For UNIX:
+	<pre>zip -r0 en-US.jar locale</pre>
+	<li>Now move the newly created jar to where your Firefox's en-US.jar is,
+	replace it, and restart Firefox! You should be able to see your results,
+        a localized Firefox now.
+	<li>After your first export, you may try the exported stuff.
+	Then you can modify the input table and 'update' database again.
+	And for the second time you want to 'export', things get easier.
+	You don't have to prepare directory again. just use same ROOT and change -x to -X:
+	<pre>perl mozlcdb.pl -X ROOT</pre>
+	<li>If you want to create language pack or localized builds (again, this is NOT EASY
+	and NOT SUGGESTED if you want to release files in this way.
+	You should use CVS and let mozilla.org do this work.
+	Care....  files made in this way cannot be called 'Official' due to new
+	<a href='http://www.mozilla.org/foundation/trademarks/l10n-policy.html'> L10N policy</a>),
+	please see
+	<a href='http://www.mozilla.org/projects/firefox/l10n/localize-release.html'>
+		Creating a Localized Installera</a> and
+	<a href='http://www.mozilla.org/projects/firefox/l10n/'> Localizing Firefox </a> .<br/>
+	An easy hack is just to put the new en-US.jar into a Firefox installer, anyway.
+	</li>
+</ul>
+<h3> Usage: Things left </h3>
+Some commands are not explained in previous sections.<br/>
+<ul>
+	<li>-e can export whole keys in a database (used if your input table is broken).
+	<li>-U can update database with editing tables with less checking.
+	<li>-c can check database with some rules to help you find buggy phrases like
+	a typo of %s and %S or "&amp;nbsp;" without the trailing ';'.
+</ul>
+<h3> Usage: Tips </h3>
+<ul>
+	<li>This program is still under development. Please backup your database (mozlcdb.txt)
+	before doing any big changes, like -U or -i.
+	<li>Each time you have imported something, the 'current.txt' will be overwritten by
+	a new one. So before you do an import, make a copy of last edited 'current.txt'.
+	<li> If you find any file with all-new locales (the information was displayed when
+	you import/...etc), try to take a look at it. Maybe it's file just being renamed/moved.
+	You may edit database to change/duplicate a copy of that to avoid doing all stuff
+	again.
+	<li> A smarter rule of guessing new values is on plan.
+</ul>
+<h3> Epilogue </h3>
+<p>This program is still under development. I used it sucessfully to make a
+working language pack (well, the en-US.jar) for Mozilla Firefox 1.0PR,
+Traditional Chinese. I'm not sure whether it is easy enough for most people or
+not, but it is designed for all what I need.  So here I present it to all who
+needs to localize new Mozilla products but could not find any working tools to
+go on.
+<p>If you have any suggestions/problems, feel free to contact me.
+You can also use mozilla-l10n mailing list.
+<h3> Copyright </h3>
+MozLCDB is licensed under <a href='http://www.mozilla.org/MPL/MPL-1.1.html'> MPL 1.1 </a>.
+This program and document is made by <a href="mailto:piaip@csie.ntu.edu.tw?Subject=[MozLCDB]:"> Hung-Te Lin</a>.
+Allrights reserved.
+</div>
+<hr class="hide">
+  <div id="footer">
+   <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a xmlns:cc="http://creativecommons.org/ns#" href="//moztw.org/" property="cc:attributionName" rel="cc:attributionURL" title="Mozilla 軟體正體中文在地化專案/台灣社群">MozTW，Mozilla 正體中文/台灣社群</a></li>
+	<li><a href="https://github.com/moztw/www.moztw.org" title="貢獻本網站 Source">貢獻本網站 Source</a></li>
+	<li><a href="/about">聯絡資訊 Contact</a></li>
+   </ul>
+	<p>除另有註明外，本站內容皆採<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>或更新版本授權大眾使用<br />
+		<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');"><img alt="Creative Commons License" style="border-width:0; margin-top: 10px;" src="https://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" /></a>
+   </p>
+  </div>
+  <!-- closes #footer-->
+</div>
+<!-- closes #container -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant"></script>
+<!--[if IE 6]>
+  <script type="text/javascript" src="/js/library/iepngfix/iepngfix_tilebg.js"></script>
+<![endif]-->
+<!-- Google Analytic -->
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-1', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+

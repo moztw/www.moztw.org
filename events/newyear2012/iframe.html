@@ -1,0 +1,202 @@
+<!DOCTYPE HTML>
+<head>
+<style>
+    body {
+        margin: 0;
+    }
+    #limit {
+        font-size: 0.9em;
+        line-height: 1.3em;
+        margin: 2.5em 0 0;
+        text-align: right;
+    }
+    #limit-out {
+        font-size: 0.9em;
+        line-height: 1.3em;
+        margin: 2.5em 0 0;
+        text-align: right;
+    }
+    form {
+        border-top: 1px solid #BBBBBB;
+        display: block;
+        margin: 0;
+    }
+    form #mail-header {
+        font-size: 1em;
+        margin-bottom: 1.5em;
+        line-height: 2.5em;
+        padding: 15px 40px 0;
+        text-align: left;
+        width: 700px;
+    }
+    form input[type=email] {
+         width: 300px;
+    }
+    form input[type=email] {
+         width: 300px;
+    }
+    form input[name=subject] {
+        width: 500px;
+    }
+    #card {
+        border: 1px solid #AAAAAA;
+        margin: 0 auto;
+        padding: 1em;
+        text-align: center;
+        width: 750px;
+    }
+    #card #dear {
+        text-align: left;
+    }
+    #card input[type=text] {
+        width: 150px;
+    }
+    #card img {
+        margin: 0.75em 0 1.25em;
+        box-shadow: 1px 2px 3px #AAAAAA;
+    }
+    #card a:hover {
+        background: none;
+    }
+    #card input {
+        border: none;
+        font-size: 1em;
+        margin: 1px;
+    }
+    #card textarea {
+        border: none;
+        font-size: 12pt;
+        height: 120px;
+        line-height: 14pt;
+        margin: 1px;
+        width: 600px;
+        text-align: center;
+    }
+    #card:hover input, #card:hover textarea {
+        border: 1px inset;
+        margin: 0;
+    }
+    #card input:focus, #card textarea:focus {
+        border: 1px inset;
+        margin: 0;
+    }
+    #card #senderName {
+        text-align: right; margin-top: 0.5em;
+    }
+    #control, #control_capcha {
+        margin-left: 100px;
+        text-align: center;
+    }
+    #control input, #control_capcha input {
+        font-size: 0.9em;
+        font-weight: bold;
+        height: 2.5em;
+        margin: 1em;
+        width: 8em;
+    }
+    #recaptcha_widget_div {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+    }
+
+    #control.hide {
+        display: none;
+    }
+
+    #recaptcha_holder {
+        display: none;
+    }
+
+    #recaptcha_holder.show {
+        display: block;
+    }
+
+    /* out of limited */
+
+    body #control {
+     display: block;
+    }
+
+    body #control-out {
+     display: none;
+    }
+
+    body.out #control {
+        display: none;
+    }
+
+    body.out #control-out {
+        display: block;
+    }
+
+    body #limit {
+        display: block;
+    }
+    body #limit-out {
+        display: none;
+    }
+    body.out #limit {
+        display: none;
+    }
+    body.out #limit-out {
+        display: block;
+    }
+
+</style>
+<title>Happy Chinese New Year with Foxmosa! 2012 狐耳摩莎賀新年 - MozTW</title>
+</head>
+
+<body>
+
+<p id="limit">每日限量∞封，還剩下<b>∞</b>封，寄完就沒有了喔！<br>
+∞ cards limited per day, <b>∞</b> cards left.</p>
+
+<p id="limit-out">每日限量300封，本日已發送完畢，請明天再來喔！<br>
+ We're out of cards due to daily limits. Come back tomorrow!</p>
+
+<form action="/send" method="POST">
+
+    <p id="mail-header">
+        收件人 To: <input type="email" name="tomail" placeholder="收件人信箱 Recipient's e-mail" required><br>
+        寄件人 From: <input type="email" name="sendmail" placeholder="你的信箱 Your e-mail" required><br>
+        主旨 Subject: <input type="text" name="subject" value="Chinese New Year Greetings! 2012 龍年快樂" required>
+    </p>
+
+
+    <table id="card">
+        <tr>
+            <td>
+                <p id="dear">Dear <input type="text" name="toname" placeholder="收件人姓名 Recipient" required> ,</p>
+                <a href="http://moztw.org/events/newyear2012/" target="_blank"><img src="//moztw.org/foxmosa/images/foxmosa-2012newyear.png" width="600" height="393" alt="Foxmosa 2012 New Year Card" /></a>
+                <textarea name="say" maxlength="300" placeholder="卡片內容 Your message"></textarea>
+                <p id="senderName">~ <input type="text" name="sendname" placeholder="你的名字 Your Name" required></p>
+            </td>
+
+        </tr>
+    </table>
+
+  <div id='control'>
+    <input type="reset" value="重置 Reset" /><input type="button" value="寄出 Submit" onclick="javascript:document.getElementById('recaptcha_holder').style.display = 'block';document.getElementById('control').style.display = 'none';">
+
+  </div>
+  <div id="CAPT" style="display:none;">
+    <input type="submit" value="寄出 Send" />
+  </div>
+
+<div id='recaptcha_holder'>
+    <script type="text/javascript" src="//www.google.com/recaptcha/api/challenge?k=6LdtN8wSAAAAACw4KwmQ1FRoyguSknr9buwDiE_G"></script>
+
+<noscript>
+  <iframe src="http://www.google.com/recaptcha/api/noscript?k=6LdtN8wSAAAAACw4KwmQ1FRoyguSknr9buwDiE_G" height="300" width="500" frameborder="0"></iframe><br />
+  <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+  <input type='hidden' name='recaptcha_response_field' value='manual_challenge' />
+</noscript>
+<br>
+
+    <div id='control_capcha'>
+        <input type="submit" value="確定 Send it!" /><input type="button" value="取消 Cancel" onclick="javascript:document.getElementById('recaptcha_holder').style.display = 'none';document.getElementById('control').style.display = 'block';" /><br>
+    </div>
+</div>
+</form>
+</body>

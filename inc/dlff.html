@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- latest release notes page that we had published -->
+
+<script type='text/javascript' src='/js/download.js'></script>
+<script type='text/javascript'>
+	<!--
+//	window.onload = highlightDownload;
+
+    if (window.addEventListener)
+        window.addEventListener('load', function(){ highlightDownload() }, false);
+    else if (window.attachEvent)
+        window.attachEvent('on' + 'load', function(){ highlightDownload() });
+
+	function initDownloadInIE () {
+		/*
+		For IE, open up a small popup and point it to the mozilla server
+		We cannot use window.onload to initiate download from latest-win.html (security bar will pop)
+		*/
+		if (navigator.appVersion.indexOf('MSIE') !== -1) {
+			window.open(
+				'https://download.mozilla.org/?product=firefox-131.0.3&os=win&lang=zh-TW',
+				'_blank',
+				'height=150, width=260, location=no, menubar=no, resizable=no, scrollbars=no, status=no, toolbar=no'
+			);
+		}
+	}
+
+	// -->
+</script><ul>
+<li><a href="/firefox/download/latest-win.html" id="download-link-win"
+    title="" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Windows');">Windows</a>
+<li><a href="/firefox/download/latest-win64.html" id="download-link-win64" title="" onClick="initDownloadInIE(); ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Windows64');">Windows (64-bit)</a>
+<li><a href="/firefox/download/latest-linux.html" id="download-link-linux" title="" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Linux');">Linux</a>
+<li><a href="/firefox/download/latest-linux64.html" id="download-link-linux64" title="" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Linux64');">Linux (64-bit)</a>
+<li><a href="/firefox/download/latest-osx.html" id="download-link-mac" title="" onClick="ga('send', 'event', 'Download', 'Firefox', '<!--#echo var='TAGVER' -->-Mac');">Mac OS X</a>
+<li class="mbl"><a href="/mobile" id="download-link-mobile" title="">Firefox 行動版</a>
+<li><a href="https://www.mozilla.org/firefox/all/" onClick="ga('send', 'event', 'Outgoing', 'Firefox', 'Other Platform');">其它語言與平台</a>
+</ul>

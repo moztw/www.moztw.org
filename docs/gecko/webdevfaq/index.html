@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta property="fb:page_id" content="109362359103769" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+  <link rel="home" title="Home" href="//moztw.org">
+  <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="/css/base/content.css" media="all">
+  <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+  <link rel="stylesheet" href="/css/base/template.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+  <link rel="stylesheet" href="/css/moztw.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/xmlnews.rdf">
+  <meta name="facebook-domain-verification" content="v9cjc40llat0ll8rbfy3iiy16md0vq" />
+  <!--[if IE 6]>
+  <style type="text/css">img, div, a { behavior: url(/js/library/iepngfix/iepngfix.htc) }</style>
+  <![endif]-->
+<title>MozTW, Mozilla 台灣社群 | Firefox / Thunderbird 正體中文版</title>
+
+<style type="text/css">
+#phones, #tablets {
+display: inline-block;
+width: 48%;
+vertical-align: top;
+}
+</style>
+</head><body id="www-moztw-org" class="secondLevel sectionDocs">
+
+<div id="container">
+
+<p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
+
+<div id="header">
+<h1><a href="//moztw.org/" title="回到 MozTW 首頁" accesskey="1">MozTW 正體中文在地化</a></h1>
+ <ul>
+  <li id="menu_aboutus"><a href="/about" title="About this website">關於本站</a></li>
+  <li id="menu_contribute"><a href="/contribute" title="了解我們正在做什麼，看看您能幫上什麼忙！">參與我們</a></li>
+  <li id="menu_planet"><a href="http://planet.moztw.org/" title="社群成員 Blog Planet" onClick="ga('send', 'event', 'inGoing', 'planet', 'header');">摩茲星球</a></li>
+<!--  <li id="menu_wiki"><a href="http://wiki.moztw.org/" title="MozTW 共筆系統" onClick="ga('send', 'event', 'inGoing', 'wiki', 'header');">共筆系統</a></li>-->
+  <li id="menu_space"><a href="/space" title="摩茲工寮 | Mozilla Community Space Taipei" onClick="ga('send', 'event', 'inGoing', 'space', 'header');">摩茲工寮</a></li>
+  <li id="menu_events"><a href="/events" title="MozTW 活動">活動</a></li>
+  <li id="menu_forum"><a href="//forum.moztw.org/" title="MozTW 社群討論區" onClick="ga('send', 'event', 'inGoing', 'forum', 'header');">討論區</a></li>
+  <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
+ </ul>
+
+
+<!-- Google 自訂搜索 -->
+<form id="search" action="//forum.moztw.org/google_results.php">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+<!-- End of Google Search -->
+
+</div>
+<!-- closes #header-->
+
+<hr class="hide">
+
+<div class='article'>
+<span class="Forum"><div align="center">Mozilla@Taiwan</div></span><br />
+<span class="Topic">問題網頁與技術傳教 - [翻譯] Mozilla 網站設計常見問題</span><br />
+   <hr />
+  <b>BobChao</b> - 星期四 二月 12, 2004 2:31 am<br />
+  <b>文章主題: </b>[翻譯] Mozilla 網站設計常見問題<hr width=95% class="sep"/>
+  <span style="font-size: 18px; line-height: normal"><span style="font-weight: bold">Mozilla 網站設計常見問題</span></span>
+<br />
+原文: <a href="http://www.mozilla.org/docs/web-developer/faq.html" target="_blank" class="postlink">http://www.mozilla.org/docs/web-developer/faq.html</a>
+<br />
+
+<br />
+這份文件回答了一些與 Mozilla 相關的網頁設計常見問題，而文件最後也附上其他一般網頁常見問題的連結。
+<br />
+
+<br />
+<span style="font-weight: bold">Q: 什麼是「Quirks」模式與標準模式？</span>
+<br />
+
+<br />
+A:
+<br />
+Mozilla 裡有「兩個半」的佈局模式，分別是「Quirks」、「近乎標準」及「標準」模式。在「標準」模式裡，Mozilla 的目標是將符合全球資訊網協會（World Wide Web Consortium，W3C）推薦書的網頁以推薦書中闡述的方式處理。而在以「與舊版回溯相容」為目標的「Quirks」模式中，Mozilla 會仿照過去瀏覽器的幾種行為來處理網頁，這可能會讓符合 W3C 推薦書的文件以不符規格的方式顯現。「近乎標準」模式則與「標準」模式非常相似，但因某些緣故（下一個問題會闡述）其將以傳統方式來描繪含有圖片的表格。佈局模式的挑選取決於 HTML 文件起始處 doctype 的宣告與否及宣告模式。
+<br />
+
+<br />
+要確保 HTML 的「標準」模式啟動，最簡單的方法是使用這種 doctype 宣告：
+<br />
+ &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"&gt;
+<br />
+
+<br />
+ 要確保 HTML 的「近乎標準」模式啟動，最簡單的方法是使用這種 doctype 宣告：
+<br />
+&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;
+<br />
+
+<br />
+兩種宣告中，前者是給不含任何宣告失效標籤的文件；後者則是給可能含有宣告失效標籤的文件。無論是何者，此文件都該合乎並通過 CSS2 佈局模組的驗證。
+<br />
+
+<br />
+而要啟動 HTML 的「Quirks」模式，最簡單的方法是省略 doctype 宣告。但不管怎樣，我們並不鼓勵建立依賴 quirks 模式的文件。
+<br />
+
+<br />
+「近乎標準」模式在 Mozilla 1.1 beta 及 Mozilla 1.0.1 中才出現的，在更早的版本中，現在以「近乎標準」模式佈局的文件會直接啟用「標準」模式。
+<br />
+
+<br />
+這種依照 doctype 來辨別佈局模式的方法只適用於標為「text/html」的文件，而 XML 文件則必然會啟動「標準」佈局模式（標為「application/xhtml+xml」的文件亦同）。這代表一份符合 XHTML 1.0 Transitional 規格並標記為「text/html」的文件，會因附錄 C 的理由以「近乎標準」模式佈局；而同一份文件，標記為「application/xhtml+xml」後則會用應有的準則，以「標準」模式對待。
+<br />
+
+<br />
+<span style="font-weight: bold">Q: 為什麼在「標準」模式下時，表格中的圖片邊緣會有間隔？</span>
+<br />
+
+<br />
+舊的瀏覽器與 CSS2 box layout model 兩者在「<a href="http://www.w3.org/TR/REC-CSS2/visudet.html#q15" target="_blank" class="postlink">版面區塊的預設垂直尺寸</a>」跟「<a href="http://www.w3.org/TR/REC-CSS2/visudet.html#propdef-vertical-align" target="_blank" class="postlink">圖片的預設垂直對齊方式</a>」方面略有出入，而如果明確指定圖片的 CSS 屬性（加上圍繞圖片的&lt;a&gt;標籤）可以解決這種排版上的問題。
+<br />
+
+<br />
+如果某個以「&lt;td class="imgcell"&gt;」定義的表格儲存格內只有一個圖片，則所需的 CSS 定義便是:
+<br />
+.imgcell img, .imgcell a { display: block; }
+<br />
+
+<br />
+<a href="http://devedge.netscape.com/viewsource/2002/img-table/" target="_blank" class="postlink">更長的說明…</a>
+<br />
+
+<br />
+<span style="font-weight: bold">Q:我設定的樣式沒有用！為什麼會這樣？</span>
+<br />
+
+<br />
+以下是一份檢查清單：
+<br />
+<ul>該 HTML 文件是否能通過<a href="http://validator.w3.org/" target="_blank" class="postlink">驗證</a>？CSS 在標籤大雜燴中可起不了作用。
+<br />
+<ul>&lt;link&gt; 跟 &lt;style&gt; 元素都應該在 &lt;head&gt; 元素的內部出現。</ul> </ul>
+<br />
+<ul>該 CSS 樣式是否能通過<a href="http://jigsaw.w3.org/css-validator/" target="_blank" class="postlink">語法檢查</a>？
+<br />
+<ul>所有非 0 的數字後面都該附加適當的單位，數字及單位之間不含空白字元（例：1.2em）。</ul>
+<br />
+<ul>屬性名稱及屬性值之間該放的是「冒號」而非「等號」。</ul>
+<br />
+<ul>.css 的檔案中不該出現任何 HTML 標籤（像是 &lt;style&gt;）。</ul>
+<br />
+<ul>font-face 並非 CSS 的屬性之一，正確的屬性名稱是「font-family」而 @font-fact 屬於 at-rule。</ul>
+<br />
+<ul>如果你使用了 @import，則應該將其置放在 CSS 檔案的最上頭。</ul></ul>
+<br />
+<ul>該 CSS 檔案的 HTTP 檔頭中「Content-Type」一項是否為「 text/css 」？
+<br />
+<ul>在<a href="http://www.mozilla.org/docs/web-developer/faq.html#layoutmode" target="_blank" class="postlink">「標準」佈局模式</a>中，只有標示為「text/css」的檔案才能被視為 CSS 樣式表。</ul>
+<br />
+<ul><a href="http://webtools.mozilla.org/web-sniffer/" target="_blank" class="postlink">Web sniffer</a> 可以幫你檢查檔案的 HTTP 檔頭資訊。</ul></ul>
+<br />
+<ul>樣式類別（class）及 ID 名稱都有大小寫之別（case-sensitive）。</ul>
+<br />
+<ul>在 XML 中，element selector（譯註: Type selector）有大小寫之別。</ul>
+<br />
+<ul>樣式表的處理指令（processing instruction）只能出現於 XML 檔的前言（prolog）之中，另外它們也只能在 XML 檔案中使用，而不能用於標示為「text/html」的檔案。</ul>
+<br />
+<ul>寬（width）及高（height）不能套用在 inline 的元素上（如預設的 &lt;span&gt;）。（譯註：表示如果 &lt;span&gt; 的 display 設定為 block 則不在此限。）</ul>
+<br />
+<ul>「text-align: center;」是將某個區塊（block）內的 inline 內容置中，而不是（也不該是）用來將區塊本身置中的。要將區塊置中，可以將「margin-left」及「margin-right」屬性設定為 auto，並將「width」指定一數值、讓該區塊比其容器區塊（containing block）來得小即可。</ul>
+<br />
+
+<br />
+當然也可能（雖然機會不大）是你碰上了程式錯誤，這裡有份<a href="http://www.mozilla.org/docs/web-developer/bugspecs/REC-CSS1.html" target="_blank" class="postlink">加註 Mozilla 程式錯誤的 CSS1 規格書</a>。
+<br />
+
+<br />
+<span style="font-weight: bold">Q:圖層（Layer）沒用！為何會這樣？</span>
+<br />
+
+<br />
+&lt;layer&gt; 是個特有的擴充標籤，並非 HTML 規格的一份子。我們不支援 &lt;layer&gt; 標籤，請<a href="http://www.mozilla.org/docs/web-developer/upgrade_2.html#layer" target="_blank" class="postlink">改用 &lt;div&gt; 標籤</a>。
+<br />
+
+<br />
+<span style="font-weight: bold">Q:JavaScript 沒用！為何會這樣？</span>
+<br />
+
+<br />
+有些 document 物件的屬性如 document.all 與 document.layers 並非 W3C DOM 標準的一份子。Mozilla 不支援它們，請<a href="http://www.mozilla.org/docs/web-developer/upgrade_2.html#dom" target="_blank" class="postlink">改用 document.getElementById() 方法</a>。
+<br />
+
+<br />
+此外，某些老舊的瀏覽器偵測程式（client sniffer）會將新瀏覽器排除在外。公用 API（W3C DOM）的目的在於互通（interoperability），再額外偵測出不支援此公用 API 的特定瀏覽器。當使用 DOM 時，最好先檢查一下你想用的物件及方法。舉例而言，你可以用如下方式檢查瀏覽器是否支援 document.getElementById()：
+<br />
+
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>代碼:</b></span></td>	</tr>	<tr>	  <td class="code">if&#40;document.getElementById&#41; &#123;
+<br />
+&nbsp; /* 在此放置支援 document.getElementById&#40;&#41; 時所要執行的&#65533;&#123;式碼 */
+<br />
+&#125;</td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+<span style="font-weight: bold">Q:為何 Mozilla 不將我設定的 alt 屬性顯示為工具提示（tooltips）？</span>
+<br />
+
+<br />
+alt 屬性的本意不是拿來作為「工具提示」的，其用意是做為「替代文字」、在圖片無法顯示時才取而代之。眾多 Windows 平台上瀏覽器的做法反而背道而馳。
+<br />
+
+<br />
+Mozilla 並不將 alt 屬性顯示為工具提示，因為如此一來是變相鼓勵網頁作者誤用屬性。
+<br />
+
+<br />
+<ul> 一旦將替代文字顯示為工具提示，網頁作者就可能寫出不良的替代文字，因為他們會將其視為輔助的工具提示，而非「圖片的替代品」。（「不良」指的是在圖片無法顯示時，文字涵義不足以替代圖片的情形。）</ul>
+<br />
+<ul>一旦將替代文字顯示為工具提示，有些作者就不會想要寫替代文字了，因為他們不想要顯示工具提示。（如此一來，無緣得見圖片的參觀者就越發難懂網頁的意思了。）</ul>
+<br />
+
+<br />
+有另外一種屬性可以讓 Mozilla 將其顯示為工具提示：「title」。事實上，在 HTML 4.01 規格書中建議可讓 title 屬性顯示為工具提示。不過當然這種建議不見得必為所有瀏覽器採納，例如有些瀏覽器就將 title 屬性顯示在狀態列中。
+<br />
+
+<br />
+此時或許有些人會在討論區或 Bugzilla 中貼篇「不過 IE...」的文章，但請注意：即便是 Mac 版的 IE 5 在遇到 alt 及 title 屬性時，處理方式也與 Mozilla 相同；另外，Windows 版的 IE 也可以將 title 屬性顯示為工具提示。
+<br />
+
+<br />
+<span style="font-weight: bold">Q: 為什麼我不能在 XML 文件中使用 HTML？</span>
+<br />
+
+<br />
+只有使用了正確命名空間（namespace）的元素才能被視為 XHTML 標籤。XHTML 的正確命名空間 URI 為「http://www.w3.org/1999/xhtml」，並非 HTML 4.0 規格書的 URL。此外，所有的 XHTML 元素及屬性皆必須為小寫。
+<br />
+
+<br />
+<span style="font-weight: bold">Q: Mozilla 是否支援動態下載的字形？</span>
+<br />
+
+<br />
+Mozilla 不支援動態下載字形。
+<br />
+
+<br />
+動態下載字形通常被用來作為過去瀏覽器支援不足情形下的補救措施。這些網站（例如某些印度網站）將文字以某種拉丁語調編寫，然後讓瀏覽器用某種字體使那些文字看起來像是梵文，那些語調加上字型之後就成了某種人類可讀的語言。同樣的做法也常在希臘文字及數學符號的情形下發生。
+<br />
+
+<br />
+顯然，當了解 Unicode 的瀏覽器面世時，「某種拉丁語調」轉換後依舊只能是「某種拉丁語調」（從 Unicode 的觀點來看，原來書寫時是什麼顯示出來就是什麼）。所以與其支援動態下載的字型，Mozilla 選擇將焦點放在背後真正的問題上：擴大 Unicode 的支援範圍。
+<br />
+
+<br />
+不過，在某些平台上的印度語至今仍有些許問題。舉例來說 Mac OS X 上的 Mozilla 不使用系統上的梵文字體，卻可使用協力廠商的字體（如 TITUS Cyberbit）。
+<br />
+
+<br />
+Mozilla 在 Unicode 的支援上已經費了很大的工夫。支援動態下載字型勢必得再花費大量心力，亦有可能受到重重專利權問題的阻礙，但即便成功效果也有限。因此，對於非 ISO-8859-1 的字元集 Mozilla 提供了 Unicode 的支援，比個別網站分開下載字型還更為符合需求。
+<br />
+
+<br />
+<span style="font-weight: bold">Q: Mozilla 支援 XSL 嗎？</span>
+<br />
+
+<br />
+Mozilla 支援 XSLT，但不支援 XSL-FO。
+<br />
+
+<br />
+Mozilla 的佈局引擎是為 CSS 格式模型所設計的。CSS 非常適合用以在互動程式中為結構式 HTML 或類似語言套用樣式，不需知曉輸出裝置的真實屬性。也就是說，CSS 適合在網頁瀏覽器上運作。
+<br />
+
+<br />
+</span><table width="90%" cellspacing="1" cellpadding="3" border="0" align="center"><tr> 	  <td><span class="genmed"><b>引言回覆:</b></span></td>	</tr>	<tr>	  <td class="quote">Bob: 下面這個翻得有點心虛, 有什麼錯誤麻煩一定要告訴我... @_@...</td>	</tr></table><span class="postbody">
+<br />
+
+<br />
+<span style="font-weight: bold">Q:為什麼我的網頁在 Mozilla 上看起來不如我所想？我的網頁的確不合標準，但好的瀏覽器應該要如作者所想般顯示網頁！</span>
+<br />
+
+<br />
+網頁作者們該以網站標準傳達心中所想，否則便需人類般的心智能力，才能猜測每個作者的想法、找出其意圖－這在軟體中辦不到。即使有人類能推斷他人意圖，在軟體中要做到如此境界必然也會異常緩慢且錯誤連連。
+<br />
+
+<br />
+一般常見的爭論不做他想：「Mozilla 應該要能夠跟某 x 瀏覽器一樣如何如何...」（其中的 x 是該使用者最喜歡的「非」Mozilla 瀏覽器），但要在各方面都做得跟某 x 瀏覽器一樣並非如此容易，即使是看起來簡單至極的動作也可能有很大的難度。
+<br />
+
+<br />
+不同的人都有不同的那個「 x」，而第二個問題是網站作者在偏離標準的方式上實在五花八門，太有創造力了。事實上由於網頁的長度無所現制，所以偏離標準方式的數量也從來沒有上限。所以，要去測試 Mozilla 是否能與其它「x」瀏覽器在各方面皆完全相同，實在是強人所難。（同樣的，標準之間相結合所產生的功能數量也從來沒有上限，這讓軟體品質管制上多了一層挑戰。）
+<br />
+
+<br />
+況且，「x」瀏覽器在面對不符規格的輸入時所產生的反應也並非總在意料之中，有些情況的反應是源於複雜程式裡出乎意料的交互作用。就算你能修改「x」瀏覽器的原始碼，也無法擔保不會引發更多程式交互上的意外。
+<br />
+
+<br />
+其他常見的爭論是要求 Mozilla 只要在某種特定情況下的行為跟「x」瀏覽器一樣就好，但事實常常證明 Mozilla 早就是那樣做了。Mozilla 的「標準」模式顯然已與其他遵照相同規格、正確實做的瀏覽器行為一致。另一方面，Mozilla 的 quirks 模式也已能接納一般舊瀏覽器能支援的非標準程式。
+<br />
+
+<br />
+與其花時間精力去做反向工程來複製一個某瀏覽器的分身，向標準看齊才是更有意義的舉動。（他人訂立的）標準可以確保交互流通，比連錯誤都一起複製過來的瀏覽器分身好多了。
+<br />
+
+<br />
+<span style="font-weight: bold">Q: 我找不到我要的答案，該去哪裡詢問呢？</span>
+<br />
+
+<br />
+試著在與你問題相關的 comp.infosystems.www.authoring.* 新聞群組中發問，如果你的問題與 JavaScript/ECMAScript 或 DOM 相關，可於 comp.lang.javascript 中發問（當然，請記得先閱讀該群組的常見問題集）。請勿於 Mozilla 開發新聞群組中張貼網頁設計的相關問題。
+<br />
+
+<br />
+    * <a href="http://www.htmlhelp.com/faq/html/" target="_blank" class="postlink">comp.infosystems.www.authoring.html Web Authoring FAQ</a>
+<br />
+    * <a href="http://css.nu/faq/ciwas-mFAQ.html" target="_blank" class="postlink">comp.infosystems.www.authoring.stylesheets FAQ</a>
+<br />
+    * <a href="http://css.nu/faq/ciwas-aFAQ.html" target="_blank" class="postlink">ciwas stylesheet authoring FAQ</a>
+<br />
+    * <a href="http://www.jibbering.com/faq/" target="_blank" class="postlink">comp.lang.javascript FAQ</a>
+<br />
+
+<br />
+作者:Henri Sivonen (原文有email地址, 請不要寄信問網頁設計的問題)
+<br />
+翻譯: <a href="http://leolo.ath.cx/~bobchao/" target="_blank" class="postlink">Bob Chao</a>
+<br />
+
+<br />
+===
+<br />
+2004/3/18, 修正一句：否則便需人類般的心智能力，才能猜測每個作者的想法、找出其意圖
+<br />
+thx lockchou
+  <hr />
+<div align="center">
+  Powered by phpBB 2.0 .0.10 &copy; 2003 <a href="http://www.phpbb.com/" target="_phpbb" class="copyright">phpBB
+  Group</a></div>
+
+</div>
+<hr class="hide">
+  <div id="footer">
+   <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a xmlns:cc="http://creativecommons.org/ns#" href="//moztw.org/" property="cc:attributionName" rel="cc:attributionURL" title="Mozilla 軟體正體中文在地化專案/台灣社群">MozTW，Mozilla 正體中文/台灣社群</a></li>
+	<li><a href="https://github.com/moztw/www.moztw.org" title="貢獻本網站 Source">貢獻本網站 Source</a></li>
+	<li><a href="/about">聯絡資訊 Contact</a></li>
+   </ul>
+	<p>除另有註明外，本站內容皆採<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>或更新版本授權大眾使用<br />
+		<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');"><img alt="Creative Commons License" style="border-width:0; margin-top: 10px;" src="https://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" /></a>
+   </p>
+  </div>
+  <!-- closes #footer-->
+</div>
+<!-- closes #container -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant"></script>
+<!--[if IE 6]>
+  <script type="text/javascript" src="/js/library/iepngfix/iepngfix_tilebg.js"></script>
+<![endif]-->
+<!-- Google Analytic -->
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-1', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+

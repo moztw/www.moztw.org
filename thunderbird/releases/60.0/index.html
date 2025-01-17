@@ -1,0 +1,678 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html class="os-windows no-js" lang="zh-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/tabzilla.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="//fonts.googleapis.com/css?family=Open+Sans:400,300" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/style.css" />
+  <script type="text/javascript" src="/sandstone/js/os_detector.js"></script>
+  <!--[if lt IE 9]>
+    <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script data-main="/sandstone/js/main.js" src="/sandstone/js/lib/require.js"></script>
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MozTW">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="http://moztw.org/images/product-thunderbird-v3.png">
+<meta property="fb:page_id" content="109362359103769">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@moztw">
+<meta name="twitter:domain" content="moztw.org">
+
+
+<meta property="og:url" content='http://moztw.org/thunderbird/releases/60.0/'>
+<meta property="og:title" content='Mozilla Thunderbird 版本資訊 (60.0)'>
+
+<title>Mozilla Thunderbird v
+	60.0版本資訊</title>
+
+<link href="/sandstone/css/releasenotes.css" rel="stylesheet" />
+<link href="/thunderbird/css/features.css" rel="stylesheet" />
+<!--[if lte IE 7]>
+<style>
+.header-site-title { float: left; }
+.header-menu li { float: left; }
+.header-menu li a { color: #807E78; }
+.header-menu .header-menu-item:hover a {
+  background-color: #C1BEB5;
+  color: #007BB7;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 8]>
+<style>
+.header-search { display: none; }
+</style>
+<![endif]-->
+
+</head><body id="www-moztw-org">
+
+  <header id="header">
+    <div class="container">
+      <a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
+      <h1 class="header-site-title"><a href="/" title="回首頁">MozTW</a></h1>
+      <a class="header-menu-btn" href=""><i class="icon-reorder"></i></a>
+      <div class="header-search">
+        <div class="header-search-btn">
+          <i class="icon-search header-search-icon"></i>
+        </div>
+        <div class="header-search-form-background">
+        </div>
+        <form class="header-search-form" action="//forum.moztw.org/google_results.php">
+          <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa">
+          <input type="hidden" name="cof" value="FORID:9">
+          <input type="hidden" name="ie" value="UTF-8">
+          <input placeholder="搜尋…" class="header-search-form-input" type="text" id="q" name="q" accesskey="s" size="30" maxlength="64">
+        </form>
+      </div>
+      <ul class="header-menu">
+        <li id="header-menu-dl" class="header-menu-item"><a href="/dl">下載</a></li>
+        <li id="header-menu-forum" class="header-menu-item"><a href="//forum.moztw.org/">討論區</a></li>
+        <li id="header-menu-events" class="header-menu-item"><a href="/events">活動</a></li>
+<!--        <li id="header-menu-wiki" class="header-menu-item"><a href="http://wiki.moztw.org/">共筆系統</a></li>-->
+        <li id="header-menu-space" class="header-menu-item"><a href="/space">摩茲工寮</a></li>
+        <li id="header-menu-planet" class="header-menu-item"><a href="http://planet.moztw.org/">摩茲星球</a></li>
+        <li id="header-menu-contribute" class="header-menu-item"><a href="/contribute">參與我們</a></li>
+        <li id="header-menu-about" class="header-menu-item"><a href="/about">關於本站</a></li>
+      </ul>
+    </div>
+  </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="container block">
+  <div class="key-point grids">
+    <div id="product-desc" class="grid-8">
+      <h2 class="block-title hide">Thunderbird
+        <span class="sub">以你為本的郵件體驗，讓收發電子郵件變得更簡單</span>
+      </h2>
+      <p>Thunderbird 有分頁標籤、威力倍增的搜索及郵件備存功能，並提供您個人專屬的郵件體驗</p>
+    </div>
+    <div id="download-button-thunderbird" class="grid-4 download-button download-promo">
+      <noscript>
+        <div class="download download-dumb">
+          <h4>Thunderbird 立即下載</h4>
+          <ul>
+            <li>
+              <a href="<!--#echo var='WINURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='WINTAG' -->');">Windows</a>
+            </li>
+            <li>
+              <a href="<!--#echo var='LINUXURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='LINUXTAG' -->');">Linux</a>
+            </li>
+            <li>
+              <a href="<!--#echo var='LINUX64URL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='LINUX64TAG' -->');">Linux（64 位元）</a>
+            </li>
+            <li>
+              <a href="<!--#echo var='OSXURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='OSXTAG' -->');">MAC OS X</a>
+            </li>
+          </ul>
+        </div>
+      </noscript>
+      <div class="unrecognized-download">
+        <div class="download download-dumb">
+          <h4>Thunderbird 立即下載</h4>
+          <ul>
+            <li>
+              <a href="<!--#echo var='WINURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='WINTAG' -->');">Windows</a>
+            </li>
+            <li>
+              <a href="<!--#echo var='LINUXURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='LINUXTAG' -->');">Linux</a>
+            </li>
+            <li>
+              <a href="<!--#echo var='LINUX64URL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='LINUX64TAG' -->');">Linux（64 位元）</a>
+            </li>
+            <li>
+              <a href="<!--#echo var='OSXURL' -->" class="button-green" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='OSXTAG' -->');">Mac OS X</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <ul role="presentation" class="download-list">
+        <li class="os_windows">
+          <a class="download-link" href="<!--#echo var='WINURL' -->" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='WINTAG' -->');">
+              <span class="download-content">
+                 <strong class="download-title">Thunderbird</strong>
+                 <span class="download-subtitle">立即下載</span>
+                 <span class="download-lang">正體中文</span>
+                 <span class="download-platform">Windows</span>
+              </span>
+           </a>
+        </li>
+        <li class="os_linux">
+          <a class="download-link" href="<!--#echo var='LINUXURL' -->" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='LINUXTAG' -->');">
+              <span class="download-content">
+                 <strong class="download-title">Thunderbird</strong>
+                 <span class="download-subtitle">立即下載</span>
+                 <span class="download-lang">正體中文</span>
+                 <span class="download-platform">Linux</span>
+              </span>
+           </a>
+        </li>
+        <li class="os_linux64">
+          <a class="download-link" href="<!--#echo var='LINUX64URL' -->" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='LINUX64TAG' -->');">
+            <span class="download-content">
+              <strong class="download-title">Thunderbird</strong>
+              <span class="download-subtitle">立即下載</span>
+              <span class="download-lang">正體中文</span>
+              <span class="download-platform">Linux（64 位元）</span>
+            </span>
+          </a>
+        </li>
+        <li class="os_osx">
+          <a class="download-link" href="<!--#echo var='OSXURL' -->" onclick="ga('send', 'event', 'Download', 'Thunderbird', '<!--#echo var='OSXTAG' -->');">
+              <span class="download-content">
+                 <strong class="download-title">Thunderbird</strong>
+                 <span class="download-subtitle">立即下載</span>
+                 <span class="download-lang">正體中文</span>
+                 <span class="download-platform">Mac OS X</span>
+              </span>
+           </a>
+        </li>
+      </ul>
+      <small class="download-other os_linux os_linux64 os_osx os_windows unrecognized-download">
+        <a href="/thunderbird/system-requirements/">系統需求</a>|
+        <a href="/thunderbird/releases/">版本資訊</a>|
+        <a href="https://www.thunderbird.net/thunderbird/all/" onclick="ga('send', 'event', 'Outgoing', 'Thunderbird', 'Other Platform');">其它語言與平台</a>
+      </small>
+    </div>
+  </div>
+</section>
+
+
+<section class="container block" id="releasenotes">
+	<div class="grids">
+		<div class="grid-9">
+			<article class="module">
+
+				<h2>Thunderbird 版本資訊</h2>
+
+				<p id="release_dates">
+					<time datetime='2018-8-6'>
+						2018 年
+						8 月
+						6 日
+					</time> v.60.0
+				</p>
+
+				<p>
+					此版本資訊包含了 <a href="#whatsnew">Thunderbird 新鮮事</a>、<a href="#knownissues">已知問題</a>、<a href="#downloadandinstall">下載安裝指示</a>、以及<a href="#FAQ">常見問題</a>等訊息。
+				</p>
+				<p>
+					我們想知道您對 Thunderbird 的想法。歡迎到 MozillaZine 上的<a href="http://forums.mozillazine.org/viewforum.php?f=50">英文討論區</a>或 MozTW 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Thunderbird 中文討論區</a>與我們分享意見。
+					若您有興趣的話，也可至 Bugzilla 看看這個版本的<a href="https://bugzilla.mozilla.org/buglist.cgi?classification=Client%20Software&amp;query_format=advanced&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;bug_status=CLOSED&amp;target_milestone=Thunderbird%2031.0&amp;product=Thunderbird&amp;resolution=FIXED">完整變更清單</a>。
+				</p>
+
+
+<h3 id="whatsnew">Thunderbird 新鮮事</h3>
+<ul class="tags">
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      撰寫訊息時，將顯示刪除按鈕讓您移除收件者。將游標移動至收件者/副本/密件副本選擇器即可顯示此按鈕。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      針對撰寫郵件時的附件處理過程有許多改進：現在可使用對話框、快速鍵或拖曳方式來排序附件。「附加」按鈕移動到畫面右方的附件窗格上方。附件窗格快速鍵（Alt+M 或 Mac 上是 Ctrl+M，視在地化情況可能有所不同）也可以用來顯示或隱藏窗格。<br>
+      撰寫新訊息時對檔頭按右鍵，即可選擇預設開啟附件窗格。隱藏有附件的窗格時將顯示迴紋針圖示，表示存有附件，避免不小心傳送出去。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      「編輯範本」指令。也解決了儲存為範本時的許多問題（重複建立、遺失訊息 ID）。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      「以範本建立新訊息」指令。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      可從狀態列切換拼字檢查語言。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      亮色與暗色佈景主題。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      Thunderbird 中已支援 WebExtension。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      可設定通訊錄視窗預設開啟的目錄。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      針對單一資訊來源設定更新頻率。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      「工具 -&gt; 選項、進階、一般」當中可選擇日期時間顯示格式需依照應用程式語系（根據作業系統當中該語系格式調整），或是作業系統的地區設定。也就是說，使用中文版的 Thunderbird 也可以英文版的格式顯示。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      為 Yahoo 及 AOL 提供 OAuth2 驗證。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      支援 FIDO U2F。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      現在起 Thunderbird 可將信件匣在 mbox 與 maildir 格式間互相轉換。此功能<b>還在實驗中</b>，需設定 mail.store_conversion_enabled 偏好設定。請注意若勾選「允許 Windows Search/Spotlight 搜尋訊息」，將無法使用此功能。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      行事曆：允許複製、剪下或刪除重複發生的事件當中所選擇的事件，或所有事件。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      行事曆：提供於週及日畫面中顯示事件地點的選項。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      行事曆：提供直接傳送或不傳送會議通知，而不顯示彈出視窗的功能。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      行事曆：貼上事件或任務時，可選擇目標行事曆。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      行事曆：允許於支援伺服器端排程的 CalDAV 伺服器進行郵件排程。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-new">新增</span>
+    <span>
+      Thunderbird Chat 現在包含了多套內建的訊息佈景主題。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      <b>重要</b>：將停用未經作者標示為相容於 Thunderbird 60 的附加元件。（可透過 extensions.strictCompatibility 偏好設定關閉此行為）
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      IMAP：寄出先前傳送失敗的郵件後，可儲存於本機資料夾中。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      無法再透過「附加元件管理員」頁面設定附加元件的選項。可於「工具」選單新的「附加元件選項」項目設定。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      當訊息透過段落格式撰寫時，按下 Enter 即可將「主文」與拆分的引文轉換為段落。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      「作為新訊息編輯」功能將忽略訊息原有的格式，並轉換為帳號預設的 HTML 或純文字格式進行撰寫。修改後將還原原始格式。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      「編輯草稿」指令現在起也將根據編輯草稿時是否按下 Shift 鍵於 HTML 與純文字格式間互相轉換。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      已改進「作為新訊息編輯」功能，或是按住 Shift 再使用「編輯草稿」、「使用範本撰寫新訊息」功能時，當純文字格式轉換為 HTML 格式的行為。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      輸入地址時，與通訊錄內容相符的部分將以粗體顯示。可使用 mail.autoComplete.commentColumn 偏好設定來顯示該地址儲存的通訊錄。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      透過滑鼠拖曳訊息作為附件時，將使用訊息主旨而非「附加郵件」作為附件名稱。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      改進通訊錄照片處理功能：可直接拖曳將照片到通訊錄中新增，所有照片的副本將儲存於 Thunderbird 設定檔中。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      首次啟動時，Thunderbird 將顯示帳號設定對話框，而非註冊新帳號對話框。
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      Thunderbird 使用 Firefox 的 Photon 設計，當中包含長方形的分頁標籤與許多佈景主題的改進。
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      自訂寄件地址時，Thunderbird 將使用此地址作為 SMTP 寄件時的「MAIL FROM」地址。以往使用的是身分識別資料中的地址，可調整 mail.smtp.useSenderForSmtpMailFrom 偏好設定改回原有行為。
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      已重新啟用 Linux 上的原生通知功能。
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      現在起，Thunderbird 使用 Mozilla 最新的代理伺服器技術。（已支援 FoxyProxy 附加元件）
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      現在起，Thunderbird 也使用 Mozilla 以 Rust 為基礎的最新技術，包含 Quantum CSS 引擎（以 Servo 為基礎）及用來顯示編碼過的訊息的 encoding_rs。
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      自 Thunderbird 60 版起，所有於 2016 年 6 月 1 日前由賽門鐵克根憑證所簽發的憑證，將不再被信任用於 TLS 加密連線。當中包含所有賽門鐵克品牌的憑證：Thawte、RapidSSL、GeoTrust、Verisign、Symantec 等品牌。<br>
+      憑證用於 S/MIME 仍然有效，詳情請參考<a href="https://wiki.mozilla.org/CA/Additional_Trust_Changes#Symantec">此處</a>。
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      行事曆：已移除發送邀請函給相容於 Outlook 2012 及舊版的功能
+    </span>
+  </li>
+    <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      行事曆：現在起可解除唯讀行事曆上的提醒，但選擇「為可寫入的行事曆顯示錯過的提醒」後才會為可寫入的的行事曆顯示錯過的提醒。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-changed">變更</span>
+    <span>
+      Thunderbird Chat：訊息中的暱稱將上色，以與參與者清單中的色彩相符。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      當使用許多 Thunderbird 或其他郵件軟體開啟相同 IMAP 草稿匣後，有時訊息會以錯誤的身分識別寄出。已修正此問題，若無任何身分與草稿符合的話也會收到通知。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      修正了與處理 IMAP 垃圾桶的許多問題：選擇的垃圾桶信件匣在某些情況下（舉例來說，當名稱包含非 ASCII 字元，或在 Thunderbird 的非英語版本）於程式關閉後不會保留。有時候會建立多餘的垃圾桶，或是點擊垃圾桶沒有反應。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      某些情況下，共享 IMAP 信件匣不會顯示於訂閱視窗中。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      某些情況下，在不同 IMAP 帳號間移動的訊息會缺少嵌入的圖片或附件部分。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      改善訊息檔頭的編碼與解碼。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      無法選擇通訊錄卡片畫面當中的文字。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      現在起密碼可以包含非 ASCII 字元及特殊符號，例如 &aacute;&auml;&szlig;、&euro;&sect;&pound;。<br>
+      註：根據 RFC 5721，密碼應使用 UTF-8 格式編碼，可能會在某些不符合標準的網站，例如 office365.com 造成問題。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      從 Outlook 匯入。註：「匯入全部」功能暫時無法使用，需分開匯入郵件、通訊錄、設定。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      在地化翻譯版本的 Thunderbird 不會顯示翻譯過的 Hotmail「已刪除」信件匣。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      聯絡人側邊欄：選擇與右鍵選單的行為
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      使用者更改儲存的密碼後，Thunderbird 仍會使用快取中的原密碼。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      行事曆：某些時區的時間格式錯誤。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      行事曆：無法從事件對話框中複製收到的邀請函的相關資訊
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-fixed">修正</span>
+    <span>
+      許多<a href="https://www.mozilla.org/security/known-vulnerabilities/thunderbird/#thunderbird60">安全性修正</a>。
+    </span>
+  </li>
+</ul>
+
+<h3 id="knownissues">已知問題</h3>
+<ul class="tags">
+  <li>
+    <span class="tag tag-unresolved">尚未修復</span>
+    <span>
+      在寫信視窗中雙擊文字，有時會啟動「進階屬性編輯器」或「鏈結屬性」對話框。
+    </span>
+  </li>
+  <li>
+    <span class="tag tag-unresolved">尚未修復</span>
+    <span>
+      無法正常連線至某些 CalDav 伺服器。暫時替代方法：將 network.cookie.same-site.enabled 設定為 false。
+    </span>
+  </li>
+</ul>
+
+</article>
+
+<article id="downloadandinstall" class="module">
+	<h2>下載與安裝</h2>
+	<h3 id="requirements">系統需求</h3>
+	<p>
+		在安裝 Thunderbird 前請先確定您的電腦是否合乎<a href="/thunderbird/system-requirements/">系統需求</a>。
+	</p>
+
+	<h3 id="download">下載 Thunderbird</h3>
+	<p>
+		您可以<a href="/thunderbird/">由此下載最新的 Thunderbird</a>，或取得 Windows、Linux 及 Mac OS X 平台上的<a href="https://www.mozilla.org/en-US/thunderbird/all.html">各國語言版本</a>，或<a href="https://www.mozilla.org/en-US/thunderbird/channel/">由此下載 Thunderbird 未來發行版本</a>（測試版）。若需自行編譯其他平台或語言的版本，請見本文件最末節。
+	</p>
+
+	<h3 id="install">安裝 Thunderbird</h3>
+	<p>
+		請注意：安裝新版 Thunderbird 將
+		<em>覆蓋</em>現存的 Thunderbird 程式，您不會遺失書籤或瀏覽記錄，但有些附加元件可能要更新才能繼續使用。
+		詳細安裝步驟請參見<a href="https://support.mozilla.org/zh-TW/kb/Installing%20Thunderbird">如何安裝 Thunderbird</a>。
+	</p>
+
+	<h3 id="uninstall">移除 Thunderbird</h3>
+	<p>
+		在 Windows 作業系統中，您可以使用「新增或移除程式」移除 Thunderbird。OS X 的使用者請將 Thunderbird 程式移至垃圾筒；Linux 使用者則請移除包含 Thunderbird 的資料夾。
+	</p>
+	<p>
+		一般狀況下，移除 Thunderbird 時不會把書籤、瀏覽記錄、擴充套件和其他附加元件一併刪除，
+		這些資料會保留在您的「<em>個人設定資料夾</em>」內，
+		此資料夾可以在「<span class="location-item">說明</span>」選單的「<span class="location-item">疑難排解資訊…</span>」找到，
+		按下「<span class="location-item">應用程式一般資訊</span>」中「設定檔目錄」旁的按鈕便可開啟它。
+	</p>
+	<p>
+		請留意若您沒有手動刪除個人設定資料夾，移除後重新安裝 Thunderbird 將繼續沿用原本的設定檔。
+	</p>
+
+	<h3 id="extensions">附加元件及佈景主題</h3>
+	<p>
+		您可以由「附加元件管理員」或<a href="http://addons.mozilla.org">附加元件網站</a>取得附加元件及佈景主題。
+	</p>
+
+</article>
+</div>
+
+<div class="grid-3 sidebar">
+	<article id="nav" class="module hide-mobile">
+		<ul>
+			<li><a href="/thunderbird/">&lt; 回 Thunderbird 首頁</a></li>
+			<li><a href="#downloadandinstall">下載與安裝</a></li>
+			<li><a href="#knownissues">已知問題</a></li>
+		</ul>
+	</article>
+
+	<article id="links" class="module">
+		<h2>資源和連結</h2>
+		<ul>
+			<li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a></li>
+			<li><a href="https://support.mozilla.org/">Thunderbird 技術支援</a></li>
+			<li><a href="https://developer.mozilla.org/">Mozilla Developer Network</a></li>
+			<li><a href="http://blog.mozilla.org/futurereleases/">Future of Thunderbird Blog</a></li>
+		</ul>
+	</article>
+</div>
+</div>
+</section>
+
+<footer id="footer" class="block">
+  <div class="container">
+    <div class="grids">
+      <div class="grid-logo">
+        <a href="//moztw.org/">
+          <img src="/sandstone/images/footer-moztw.png" alt="MozTW.org" />
+        </a>
+      </div>
+
+      <div class="grid-text">
+        <p>除另有註明外，本站內容皆採 <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/deed.zh_TW" onclick="ga('send', 'event', 'Outgoing', 'CC', 'sandstone-footer');">創用 CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a> 或更新版本授權大眾使用</p>
+        <p><a rel="source" href="https://github.com/moztw/www.moztw.org" onclick="ga('send', 'event', 'Outgoing', 'GitHub','sandstone-footer');">貢獻本網站 Source</a> |
+          <a rel="contact" href="/about" onclick="ga('send', 'event', 'FooterLink', 'Contact', 'sandstone-footer');">聯絡資訊 Contact</a> |
+          Powered by <a href="http://ubuntu-tw.org/" onclick="ga('send', 'event', 'Outgoing', 'Ubuntu-TW', 'new-footer');">Ubuntu-TW</a> / <a href="http://bluet.org/" onclick="ga('send', 'event', 'Outgoing', 'BlueT', 'new-footer');">BlueT</a> and <a href="http://www.cc.ncnu.edu.tw/" onclick="ga('send', 'event', 'Outgoing', 'NCNU-CC', 'new-footer');">NCNU-CC</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="/sandstone/js/tabzilla.js"></script>
+<script>
+  // let tabzilla not clickable
+  Tabzilla.onReady = function() {
+    Tabzilla.setStatic();
+  }
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-1035080-1', 'moztw.org');
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html class="os-windows no-js" lang="zh-TW">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/normalize.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/tabzilla.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="//fonts.googleapis.com/css?family=Open+Sans:400,300" />
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" media="all" href="/sandstone/css/style.css" />
+  <script type="text/javascript" src="/sandstone/js/os_detector.js"></script>
+  <!--[if lt IE 9]>
+    <script src="/js/library/html5shiv/html5shiv-printshiv.js"></script>
+  <![endif]-->
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script data-main="/sandstone/js/main.js" src="/sandstone/js/lib/require.js"></script>
+
+<title>MozTW Telegram Group</title>
+<meta property="og:title" content="MozTW Telegram Groups">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://moztw.org/foxmosa/images/30series/30foxmosa-12.png">
+<meta property="og:image:secure_url" content="https://moztw.org/foxmosa/images/30series/30foxmosa-12.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="553">
+<meta property="og:image:height" content="526">
+<script src="//www.google.com/recaptcha/api.js"></script>
+<style>
+    #wrap {
+        margin: 40px auto;
+        max-width: 640px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #wrap [lang], #wrap .lang {
+        display: none;
+    }
+
+    #wrap.lang-zh-tw .lang-zh-tw,
+    #wrap.lang-zh-tw [lang="zh-tw"],
+    #wrap.lang-en .lang-en,
+    #wrap.lang-en [lang="en"] {
+        display: inherit;
+    }
+
+    #links > div, #sticker {
+        margin: 20px 0;
+    }
+
+    .g-recaptcha {
+        display: inline-block;
+    }
+</style>
+<!--[if lte IE 7]>
+<style>
+.header-site-title { float: left; }
+.header-menu li { float: left; }
+.header-menu li a { color: #807E78; }
+.header-menu .header-menu-item:hover a {
+  background-color: #C1BEB5;
+  color: #007BB7;
+}
+</style>
+<![endif]-->
+<!--[if lte IE 8]>
+<style>
+.header-search { display: none; }
+</style>
+<![endif]-->
+
+</head>
+<body>
+  <header id="header">
+    <div class="container">
+      <a href="https://www.mozilla.org/" id="tabzilla">mozilla</a>
+      <h1 class="header-site-title"><a href="/" title="回首頁">MozTW</a></h1>
+      <a class="header-menu-btn" href=""><i class="icon-reorder"></i></a>
+      <div class="header-search">
+        <div class="header-search-btn">
+          <i class="icon-search header-search-icon"></i>
+        </div>
+        <div class="header-search-form-background">
+        </div>
+        <form class="header-search-form" action="//forum.moztw.org/google_results.php">
+          <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa">
+          <input type="hidden" name="cof" value="FORID:9">
+          <input type="hidden" name="ie" value="UTF-8">
+          <input placeholder="搜尋…" class="header-search-form-input" type="text" id="q" name="q" accesskey="s" size="30" maxlength="64">
+        </form>
+      </div>
+      <ul class="header-menu">
+        <li id="header-menu-dl" class="header-menu-item"><a href="/dl">下載</a></li>
+        <li id="header-menu-forum" class="header-menu-item"><a href="//forum.moztw.org/">討論區</a></li>
+        <li id="header-menu-events" class="header-menu-item"><a href="/events">活動</a></li>
+<!--        <li id="header-menu-wiki" class="header-menu-item"><a href="http://wiki.moztw.org/">共筆系統</a></li>-->
+        <li id="header-menu-space" class="header-menu-item"><a href="/space">摩茲工寮</a></li>
+        <li id="header-menu-planet" class="header-menu-item"><a href="http://planet.moztw.org/">摩茲星球</a></li>
+        <li id="header-menu-contribute" class="header-menu-item"><a href="/contribute">參與我們</a></li>
+        <li id="header-menu-about" class="header-menu-item"><a href="/about">關於本站</a></li>
+      </ul>
+    </div>
+  </header>
+
+<div id="wrap">
+    <div id="recaptcha">
+        <p lang="zh-tw">為了防止廣告機器人進入群組，麻煩您點選下面的「我不是機器人」</p>
+        <p lang="en">Please check the &ldquo;I am not a robot&rdquo;</p>
+        <!-- Google reCAPTCHA -->
+        <div class="g-recaptcha" data-callback="recaptcha"
+             data-sitekey="6LdlOxYTAAAAALp47v-OJ69P3s1fuOPsR987xpGO"></div>
+    </div>
+
+    <div id="processing">
+        <p lang="zh-tw">處理中，請稍候&hellip;</p>
+        <p lang="en">Processing, please wait&hellip;</p>
+    </div>
+
+    <div id="links-wrap">
+        <p lang="zh-tw">非常感謝您的配合，加入連結：</p>
+        <p lang="en">Thank you! Now you can join the groups via the following links:</p>
+        <div id="links"></div>
+    </div>
+
+    <div id="failure">
+        <p lang="zh-tw">驗證失敗，<a href="javascript:onrecaptchareset();">點我重試</a></p>
+        <p lang="en">Verification failed. <a href="javascript:onrecaptchareset();">Retry</a></p>
+    </div>
+
+    <!-- Public to bots -->
+    <div id="sticker">
+        <a href="https://telegram.me/addstickers/FoxmosaTW" target="_blank">
+            <span lang="zh-tw" title="Foxmosa Telegram 貼圖">Foxmosa 貼圖</span>
+            <span lang="en" title="Foxmosa Telegram Sticker">Foxmosa Stickers</span>
+        </a>
+        <div lang="zh-tw">Foxmosa 狐爾摩莎（小莎）的 Telegram 貼圖</div>
+        <div lang="en">Install Foxmosa stickers in Telegram.</div>
+    </div>
+
+    <div id="more-links">
+        <a href="https://wiki.mozilla.org/Telegram" target="_blank">
+            <span lang="zh-tw">更多 Mozilla 相關 Telegram 頻道</span>
+            <span lang="en">See more Telegram channels.</span>
+        </a>
+    </div>
+
+    <p>
+        <label for="language">
+            <span lang="zh-tw">切換語言</span>
+            <span lang="en">Change Language</span>
+        </label>
+        <select id="language">
+            <option value="zh-tw">Chinese (Taiwan)</option>
+            <option value="en">English</option>
+        </select>
+    </p>
+</div>
+<script src="//code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    function onlinksload(links) {
+        for (var i = 0; i < links.length; ++i) {
+            var link = links[i];
+            var url = '@' === link.id.charAt(0) ? link.id.substr(1) : 'joinchat/' + link.id;
+
+            var $container = $('<div>', {'class': 'lang lang-' + link.tags.join(' lang-')});
+            $('<a>', {
+                href: 'https://t.me/' + url,
+                title: link.description,
+                target: '_blank',
+                text: link.name
+            }).appendTo($container);
+            $('<div>', {text: link.introduction}).appendTo($container);
+            $container.appendTo('#links');
+        }
+    }
+
+    function onrecaptcha(result) {
+        $('#processing').hide();
+        if (result.success) {
+            $('#links-wrap, #sticker, #more-links').show();
+            onlinksload(result.links);
+        } else {
+            $('#failure').show();
+        }
+    }
+
+    function onrecaptchareset() {
+        $('#failure').hide();
+        $('#recaptcha').show();
+        grecaptcha.reset();
+    }
+
+    function recaptcha() {
+        $('#recaptcha').hide();
+        $('#processing').show();
+
+        $.post('ajax.php', {recaptcha: $('#g-recaptcha-response').val()}, onrecaptcha, 'json');
+    }
+
+    function setLanguage(language) {
+        document.cookie = 'language=' + language;
+    }
+
+    function getLanguage() {
+        var browserLanguage = /zh/.test(navigator.language || navigator.userLanguage) ? 'zh-tw' : 'en';
+        var cookieLanguage = (/language=([^;]+)/.exec(document.cookie) || [])[1];
+        return cookieLanguage || browserLanguage;
+    }
+
+    $(function () {
+        var language = getLanguage();
+        setLanguage(language);
+        $('#wrap').addClass('lang-' + language);
+        $('#language').val(language).change(function () {
+            setLanguage($(this).val());
+            $('#wrap').removeClass(function (index, className) {
+                return (className.match(/(^|\s)lang-\S+/g) || []).join(' ');
+            }).addClass('lang-' + $(this).val());
+        });
+
+        $('#processing, #links-wrap, #failure, #sticker, #more-links').hide();
+    });
+</script>
+<footer id="footer" class="block">
+  <div class="container">
+    <div class="grids">
+      <div class="grid-logo">
+        <a href="//moztw.org/">
+          <img src="/sandstone/images/footer-moztw.png" alt="MozTW.org" />
+        </a>
+      </div>
+
+      <div class="grid-text">
+        <p>除另有註明外，本站內容皆採 <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/deed.zh_TW" onclick="ga('send', 'event', 'Outgoing', 'CC', 'sandstone-footer');">創用 CC 姓名標示-相同方式分享 3.0 台灣 授權條款</a> 或更新版本授權大眾使用</p>
+        <p><a rel="source" href="https://github.com/moztw/www.moztw.org" onclick="ga('send', 'event', 'Outgoing', 'GitHub','sandstone-footer');">貢獻本網站 Source</a> |
+          <a rel="contact" href="/about" onclick="ga('send', 'event', 'FooterLink', 'Contact', 'sandstone-footer');">聯絡資訊 Contact</a> |
+          Powered by <a href="http://ubuntu-tw.org/" onclick="ga('send', 'event', 'Outgoing', 'Ubuntu-TW', 'new-footer');">Ubuntu-TW</a> / <a href="http://bluet.org/" onclick="ga('send', 'event', 'Outgoing', 'BlueT', 'new-footer');">BlueT</a> and <a href="http://www.cc.ncnu.edu.tw/" onclick="ga('send', 'event', 'Outgoing', 'NCNU-CC', 'new-footer');">NCNU-CC</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script type="text/javascript" src="/sandstone/js/tabzilla.js"></script>
+<script>
+  // let tabzilla not clickable
+  Tabzilla.onReady = function() {
+    Tabzilla.setStatic();
+  }
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-1035080-1', 'moztw.org');
+ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+

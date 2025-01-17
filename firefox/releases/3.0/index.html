@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta property="fb:page_id" content="109362359103769" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+  <link rel="home" title="Home" href="//moztw.org">
+  <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="/css/base/content.css" media="all">
+  <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+  <link rel="stylesheet" href="/css/base/template.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+  <link rel="stylesheet" href="/css/moztw.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/xmlnews.rdf">
+  <meta name="facebook-domain-verification" content="v9cjc40llat0ll8rbfy3iiy16md0vq" />
+  <!--[if IE 6]>
+  <style type="text/css">img, div, a { behavior: url(/js/library/iepngfix/iepngfix.htc) }</style>
+  <![endif]-->
+<title>Mozilla Firefox 3.0 版本資訊</title>
+<style type="text/css">
+<!--
+td {
+	border-top:1px solid #DDDDDD;
+	font-size:85%;
+	padding:5px;
+	text-align:left;
+}
+table {
+	border-collapse:collapse;
+}
+-->
+</style>
+<link rel="stylesheet" href="/css/cavendish/releasenote_narrow.css" media="screen">
+</head><body id="www-moztw-org">
+
+<div id="container">
+
+<p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
+
+<div id="header">
+<h1><a href="//moztw.org/" title="回到 MozTW 首頁" accesskey="1">MozTW 正體中文在地化</a></h1>
+ <ul>
+  <li id="menu_aboutus"><a href="/about" title="About this website">關於本站</a></li>
+  <li id="menu_contribute"><a href="/contribute" title="了解我們正在做什麼，看看您能幫上什麼忙！">參與我們</a></li>
+  <li id="menu_planet"><a href="http://planet.moztw.org/" title="社群成員 Blog Planet" onClick="ga('send', 'event', 'inGoing', 'planet', 'header');">摩茲星球</a></li>
+<!--  <li id="menu_wiki"><a href="http://wiki.moztw.org/" title="MozTW 共筆系統" onClick="ga('send', 'event', 'inGoing', 'wiki', 'header');">共筆系統</a></li>-->
+  <li id="menu_space"><a href="/space" title="摩茲工寮 | Mozilla Community Space Taipei" onClick="ga('send', 'event', 'inGoing', 'space', 'header');">摩茲工寮</a></li>
+  <li id="menu_events"><a href="/events" title="MozTW 活動">活動</a></li>
+  <li id="menu_forum"><a href="//forum.moztw.org/" title="MozTW 社群討論區" onClick="ga('send', 'event', 'inGoing', 'forum', 'header');">討論區</a></li>
+  <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
+ </ul>
+
+
+<!-- Google 自訂搜索 -->
+<form id="search" action="//forum.moztw.org/google_results.php">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+<!-- End of Google Search -->
+
+</div>
+<!-- closes #header-->
+
+<hr class="hide">
+
+
+<div id="mBody">
+    <div id="mainContent" class="right">
+  	  <div class="key-point">
+  		  <div id="product-desc" class="firefox-releasenotes-v3">
+<!-- Introduction -->
+
+          <p>此版本資訊包含了<a href="#whatsnew">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及 Firefox 3 的 <a href="#FAQ">常見問題</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>閱讀完畢，再到
+  <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+
+          <p>我們想知道您對 Firefox 的想法。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/index.php?c=4">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的 <a href="http://forum.moztw.org/viewforum.php?f=2">Firefox 中文討論區</a>與我們分享意見。</p>
+        </div>
+      </div> 
+      <!-- What's New -->
+
+               <h2 id="whatsnew">Firefox 3 新鮮事</h2>
+
+				<p>Firefox 3 以全新 Gecko 1.9 網頁佈局引擎構成。此引擎研發耗時 31 個月、修正了近兩百萬行程式碼，亦改善了超過一萬兩千個大小問題。Gecko 1.9 為<a href="#performance">提升效能</a>、穩定度、正確性，重構了部份程式架構，因此 Firefox 3 <a href="#secure">更加安全</a>、<a href="#easy">更容易使用</a>、<a href="#personal">自訂更輕鬆</a>，同時提供許多給網頁及擴充套件開發員的<a href="#engine">內部修改</a>。</p>
+
+				<dt id="secure">更安全 
+			<dd><ul class="spaced"><li>網站安全資訊：點選位址列網站圖示即可查閱此網站的識別資訊，該網站的驗證資料會在點選後以輕鬆易懂的方式呈現。若該網站使用 SSL 延伸驗證（Extended Validation），則網站圖示鈕將轉以綠色顯示，並列出你連到的網站公司名稱。 (<a href="https://www.paypal.com/">按此測試！</a>) 
+			</li>
+			<li>阻擋有害軟體：當使用者到達某個已知會安裝病毒、間諜軟體、木馬等有害軟體時，有害軟體阻擋功能將警告使用者。您可<a href="http://www.mozilla.com/firefox/its-an-attack.html">在此測試</a>
+			</li><li>阻擋偽造網頁：新版裡不會顯示偽造網頁的內容，您可<a href="http://www.mozilla.com/firefox/its-a-trap.html">按此測試！</a>。 
+			</li><li>新的 SSL 錯誤資訊頁面：當 Firefox 碰上<a href="https://amazon.com/">無效的 SSL 驗證資訊</a>時，將出現更加簡潔的錯誤資訊頁。 </li>
+			<li>附加元件及外掛程式版本確認：現在 Firefox 能夠自動更新附加元件及外掛程式版本，並且停用較舊、較不安全的版本。</li>
+			<li>附加元件安全更新：為增強附加元件更新時的安全性，無法提供安全連線更新的套件將予以停用。 
+			</li><li>整合防毒軟體： Firefox 會與呼叫您安裝的防毒軟體同對下載的檔案掃毒。</li><li>Vista 家長控制：Firefox 現在可依據 Windows&nbsp;Vista 系統上的家長控制設定來停用檔案下載功能。 
+			</li><li>增加有效頂級域名服務 (<a title="Effective top-level domain" href="http://wiki.mozilla.org/Gecko:Effective_TLD_List" id="lqgx">Effective top-level domain</a>, eTLD)，更能確保 Cookies 及其他受限內容僅在同一網域名稱下運作。</li><li>更有效的防範&nbsp;<a href="http://ejohn.org/blog/re-securing-json/">跨網站 JSON 資料外洩</a>。</li></ul>
+			</dd>
+			<dt id="easy">更容易使用 
+			</dt><dd>
+			<ul class="spaced">
+			<li>密碼儲存：登入網站時改以資訊列方式提示儲存密碼，這麼一來您可以確定登入成功再儲存。 
+			</li><li>簡化附加元件安裝程序：不再強制使用附加套件的「白名單」安裝程序，如此在其他協力網站上安裝套件將可以少按幾次鍵。 
+			</li><li>新的下載管理員: 更新後的介面可方便地搜尋、存取既有的下載檔案。 在狀態列中會顯示目前下載檔案的資訊及剩餘時間。
+			</li>
+			<li>支援檔案下載續傳功能：您現在可以在重新啟動 Firefox 或是重新設定連線後恢復檔案下載。 
+			</li><li>全頁面縮放：改良後的頁面縮放功能，可以從「檢視」選單或以快速鍵決定要單純縮放文字或縮放頁面全體。</li>
+			<li>網路廣播 (Podcasts）及影片廣播 (Videocast) 可以與媒體播放工具連結。 </li><li>分頁工具列：當開啟較多的分頁時，可以利用滑鼠滾輪來捲動分頁工具列 <br></li><li>儲存瀏覽現況：當退出 Firefox 時可以選擇紀錄當下開啟的頁面 
+			</li><li>改良「在分頁中開啟」功能：將書籤資料夾開啟至分頁時會全數開啟於新分頁，現有的分頁依然可以保留。 
+			</li><li>網址列與搜尋列可以自訂調整寬度<br>
+
+			</li><li>改善文字選取方式：搭配 Ctrl（Cmd）鍵可選取不連續文字區段、「雙點滑鼠並拖曳」能以「字」（而非字母）為單位快速選取相鄰文字、點三下滑鼠鍵更可選取整個段落。 
+			</li><li>尋找工具列：尋找工具列開啟時，將自動含括目前選取區的文字。 
+			</li>
+			<li>外掛程式管理頁面：您可以在附加元件中關閉、開啟所安裝的 Plugin 
+			</li><li>整合 Vista：使用為 Vista 設計的圖示，選單等介面亦採用 Vista 原生佈景主題。 
+			</li>
+			<li>整合 Mac：現在看起來完全就像是 OS X 原生風格的程式，並且使用 OS X 的拼字檢查工具、支援以 Growl 提示已完成的下載及更新通知 。整合的上、下一頁鍵讓瀏覽更方便。
+			</li>
+			<li>整合 Linux ：Firefox 於圖示、選單、按鈕等樣式都全面使用 Linux 原生的 GTK 佈景主題。</li>
+			</ul>
+			</dd><dt id="personal">自訂更輕鬆 
+			</dt><dd>
+
+			<ul class="spaced">
+
+			<li>星星按鈕：網址列加入星星圖示，按一次圖示可以快速的加入書籤；再按一次可以編輯相關書籤資訊 。
+			</li><li>標籤功能：為書籤加上關鍵字，方便你以其主題排序及搜尋 。
+			</li><li>在位址列裡輸入網頁的部份標題、標籤或網址，即可自瀏覽歷史中查找要看的網頁。此建議清單以網頁的使用率等數據排序，更能聰明地依據你的使用方式調整，方便使用。
+			</li>
+			<li>智慧書籤夾：有了書籤工具列中的智慧書籤夾，您可快速查閱最常閱讀或最近加入書籤、標籤的網頁。</li>
+			<li>組織書籤及瀏覽歷史：使用多種檢視模式及智慧資料夾，搭配更好的搜尋功能在書籤及瀏覽歷史中查找資訊 。</li>
+			<li>整合網頁式協定處理程式：可以用網際網路應用程式（像是 Gmail）處理各式協定的連結，以代替一般的單機軟體。網際應用程式需先行在 Firefox 中登記其協定方能使用
+。			</li>
+			<li>下載及安裝附加元件: 可以透過附加元件管理員(工具&gt; 附加元件)，從<a id="zwxs" title="附加元件社群網站" href="https://addons.mozilla.org/">附加元件社群網站</a>的數千種選擇中下載及安裝客制化的附加元件。當首次開啟附加元件管理員時，也會看到推薦的附加元件清單
+。				</li><li>自訂下載後動作：新的「應用程式」設定面板，可供調整各式檔案類型及協定的處理方式 </li></ul>
+
+			</dd>
+			<dt id="engine">開發平台改良 
+			</dt><dd>
+			<ul class="spaced">
+			<li>更新圖像及字型掌控方式：Gecko 1.9 擁有新的圖片及文字繪製架構，使得 CSS、SVG 及字型顯示方面都有長足進步。 
+			</li><li>色彩管理：Firefox 現在能以圖片中嵌入的色彩資訊調整圖片色彩。（此功能需以 about:config 設定gfx.color_management.enabled 並重新啟動瀏覽器方能啟用。) 
+			</li><li>離線應用程式：提供離線使用網際應用程式的能力。（當然，網站作者必須提供相對應的支援，一般使用者才能享用此功能。） 
+			</li><li>各項內部功能概觀的完整清單可參考 <a href="http://developer.mozilla.org/zh_TW/docs/Firefox_3_for_developers">Firefox 3 for developers</a>。 </li></ul>
+			</dd><dt id="performance">改善效能 
+			</dt><dd>
+
+			<ul class="spaced"><li>更快速：大幅調整架構（使用 Cairo、重寫網頁佈局程序、改良 JavaScript 引擎等）提升程式效能。以 Gmail 及 Zoho Office 為例，速度約達 Firefox 2 的兩倍快，Apple 的 SunSpider 效能測試證實了我們的進步。
+			</li>
+			<li> 更有效使用記憶體：加入數項處理記憶體的新科技，記憶體碎裂將以自動回收程式掌控，另處理了進百個的記憶體流失問題，快取策略也有了調整。</li>
+			<li>更可靠：使用者的書籤、瀏覽歷史、Cookies 及偏好設定現在存放在具安全異動能力（transaction）的資料庫格式中，即使系統當機也能避免資料流失。 
+			</li></ul></dd></dl>
+               <h2 id="downloadandinstall">下載與安裝</h2>
+
+      <h3 id="requirements">系統需求</h3>
+
+      <p>在安裝 Firefox 前請先確定您的電腦是否合乎 <a href="http://www.mozilla.com/en-US/firefox/system-requirements-v3.html">
+         系統需求</a>。</p>
+
+      <h3 id="download">下載 Firefox 3</h3>
+
+      <p>Mozilla.org 提供了 Windows、Linux 及 Mac OS X 平台上多種語言版的 Firefox 3，您可<a href="http://zh-tw.www.mozilla.com/zh-TW/firefox/all-beta.html"  onclick="urchinTracker('/outgoing/fx3download');">由此下載最新的 Firefox 3 </a>。若想自行編譯其他不支援的平台或語言，請見本文件最末節。</p>
+
+      <h3 id="install">安裝 Firefox 3</h3>
+      <p>請注意：安裝 Firefox 3 將<em>覆蓋</em>您現存的 Firefox 程式，這並不會造成書籤或瀏覽記錄遺失，但可能會有些附加元件要更新才能繼續使用。</p>
+
+      <h3 id="uninstall">移除 Firefox 3</h3>
+
+      <p>在 Windows 作業系統中，您可以自「開始」選單中的「控制台」移除 Firefox 3。OS X 的使用者請移除「<tt>Firefox</tt>」 程式、Linux 使用者則請移除「<tt>firefox</tt>」 資料夾。</p>
+
+      <p>移除 Firefox 3 並不會將書籤、瀏覽記錄、擴充套件和其他附加元件一併刪除，這些資料會留在您的「<em>個人設定資料夾</em>」中，此資料夾存放位置則視作業系統而定：</p>
+<table>
+	<tbody>
+		<tr>
+          <td><img src="/images/ico-win.png" alt=""> Windows Vista</td>
+          <td>Users\&lt;UserName&gt;\AppData\Roaming\Mozilla\Firefox</td>
+        </tr>
+        <tr>
+          <td><img src="/images/ico-win.png" alt=""> Windows 2000, XP, Server 2003</td>
+
+          <td>Documents and Settings\&lt;UserName&gt;\Application Data\Mozilla\Firefox</td>
+        </tr>
+        <tr>
+          <td><img src="/images/ico-osx-uni.png" alt=""> Mac&nbsp;OS&nbsp;X</td>
+          <td>~/Library/Application Support/Firefox</td>
+
+        </tr>
+        <tr>
+          <td><img src="/images/ico-tux.png" alt=""> Linux and Unix systems</td>
+          <td>~/.mozilla/firefox</td>
+        </tr>
+      </tbody>
+</table>
+      <p>移除 Firefox 3 後所安裝的任一版本 Firefox 將繼續使用個人設定資料夾中的資料。</p>
+
+   <h3 id="extensions">擴充套件及佈景主題</h3>
+
+      <p>Firefox 3 安裝的擴充套件可能已不相容於先前的版本而應加以升級，如發生此類問題，請回報附加元件原作者。一旦安裝 Firefox 3 ，所有擴充套件及佈景主題會先停用，待 Firefox 3  偵測出此套件無相容問題或能升級才會啟用。</p>
+
+      <h2 id="issues">已知問題</h2>
+
+      <p>以下列出部分 Firefox 3 已知問題，請閱讀後再回報新的程式錯誤。</p>
+      <dl>
+
+      <dt>所有系統</dt>
+      <dd>
+      <ul class="spaced">
+        <li>在已經安裝 Firefox 3 的路徑中安裝 Firefox 2 可能會使 Firefox 2 不穩定。( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=423226">bug 423226 </a>) </li>
+        <li>如果 Firefox 發生錯誤時 Flash 是開啟的，那麼錯誤回報器可能不會執行。 ( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=422308">bug 422308 </a>) </li>
+        <li>在「歷史收藏庫」中刪除一筆紀錄，然後使用「清除隱私資料」可能會導致 Firefox 發生錯誤。 ( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=426275">bug 426275 </a>) </li>
+        <li>一些透過不適用的安裝碼安裝的套件可能無法正確安裝。(詳情請見<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=406807">bug 406807 </a>) </li>
+        <li>「工具&gt;選項」中的「個人隱私&gt;歷史&gt;保存我的歷史最少…天」，輸入 "0" 沒有反應。( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=366075">bug 366075 </a>) </li>
+        <li>如果一些使用者自訂工具列，然後發現「上一頁」、「下一頁」的按鈕不見了，請重新設定他們。(bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=426026">426026 </a>) </li>
+        <li>某些網頁(像是 mlb.com)無法正確的偵測「Silverlight」是否被安裝，並且無法執行功能。( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=432371">bug 432371 </a>) </li>
+        <li>
+		當使用 Window-Eyes 時，新的網址列、加入書籤對話框與下載管理員通知的訊息不一致，請使用 JAWS 8.0
+		或其他螢幕閱讀程式來測試 Firefox 3。
+		(<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=393398">bug
+		393398</a>)
+		</li>
+		<li>
+		DOM 觀查器已被移除，以額外的<a href="https://addons.mozilla.org/zh-TW/firefox/addon/6622">擴充套件</a>形式提供。</li>
+      </ul>
+      </dd>
+      <dt id="vista">Windows 及 Windows Vista</dt>
+
+      <dd>
+		<ul class="spaced">
+		<li>Windows Vista 及某些其他版本Windows並沒有提供一個Windows Media Player (WMP) 的plugin。必須透過一些步驟才能安裝plugin及開啟Windows Media檔案。安裝完畢後可能也需要做Windows Updates才能讓plugin正常地顯示這些檔案。
+		</li></ul>
+
+		</dd>
+      </dd>
+      <dt id="macosx">Mac OS X</dt>
+
+		<dd>
+		<ul class="spaced">
+          <li>中文、韓文、日文、印度文無法透過 IME 在  Flash 物件中輸入文字。( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=357670">bug 357670 </a>) </li>
+          <li>如果您正利用 IPv6 從一個不支援 IPv6 路由偵測的網路位置，這可能會變得非常慢。您可以透過將 &quot;network.dns.disableIPv6&quot; 設為「否」作為作為替代辦法。 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=417689">bug 417689 </a>) </li>
+          <li>網站認證對話方塊的「更多資訊」鈕無法正確叫出網頁資訊視窗  (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=415704">bug 415704</a>) </li>
+		</ul>
+
+		</dd>
+     <dt>Linux 及 Unix</dt>
+     <dd>
+		<ul class="spaced">
+
+          <li>透過 PPP 連線的使用者(即撥接或者寬頻)將會發現 Firefox 一直處於&quot;離線&quot;狀態。目前您可以使用「檔案&gt;離線模式」來作為暫時的解決方案。(bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=424626">424626 </a>)</li>
+          <li> NVIDIA 驅動程式與某些版本的 X server 的不相容可能會導致灰階圖片顯示不正確。 ( <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=411831">bug 411831 </a>) </li>
+          <li>Orca 螢幕朗讀軟體無法閱讀某些文字，像是儲存密碼的通告、網頁個人隱私資料、或者是搜尋欄中預設的文字－這三點是 Orca 已知的問題 (詳情請見<a href="http://bugzilla.gnome.org/show_bug.cgi?id=533109">Gnome bug 533109 </a> 以及<a href="http://bugzilla.gnome.org/show_bug.cgi?id=533125">533125 </a>) </li>
+          <li>Ubuntu 7.10 的使用者需要更新認證才能送出當機報告 (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=407748#c4">bug 407748</a>) </li>
+		<li>多功能滑鼠中，控制上、下頁的按鍵必須重新設定  (<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=420294">bug 420294</a>)</li>
+		</ul></dl>
+      <h2 id="troubleshooting">疑難排解</h2>
+      <ul class="spaced">
+
+        <li>設計不良或不相容的套件將導致瀏覽器發生問題，發生的問題包含當機或網頁瀏覽速度變慢等等。如果您碰上瀏覽器無法開啟、視窗顯示不正常等等狀況，便可能是擴充套件或佈景主題的問題。這時，請將瀏覽器重新啟動在安全模式：</li>
+        <ul><li>在 Windows 下用「Safe Mode」捷徑或在命令列中輸入 firefox.exe -safe-mode 指令。</li>
+        <li>在 Linux 下請執行./firefox -safe-mode 指令。</li>
+
+        <li>在 MacOS X 下請輸入
+          <p> cd /Applications/Firefox.app/Contents/MacOS/<br>
+            ./firefox-bin -safe-mode </p></ul>
+
+          當啟動安全模式時，所有的附加元件將停用並使用預設的佈景主題。在安全模式下移除有問題的擴充套件/佈景主題，然後再正常的啟動瀏覽器。 
+          </li>
+      
+      <li>如果您想在移除某擴充套件後，以 -install-global-extension 指令將同一擴充套件裝到每個使用者設定檔中，則必須在重新安裝前先重開瀏覽器一次，以便徹底移除擴充套件。如果您沒這麼做，則擴充套件清單可能會有衝突項目而不能為所有設定檔安裝。        </li>
+      <li>如果您遇到的怪問題與書籤、下載、視窗位置、工具列、瀏覽記錄或其他設定項目有關，建議您在回報問題前先行建立新的使用者設定檔，並查看能否重現該問題。建立新設定檔的方式如下：執行 Firefox 時加上 -P  的命令列參數，選擇「管理使用者設定檔」按鈕，然後選擇「建立使用者設定檔」。將各種設定(書籤、儲存的密碼等)從舊的設定檔中分次轉移到新的設定檔，每移轉一項便檢查是否發生問題。如果您發現某特定設定檔資料會造成問題，請回報錯誤並且附上該檔案。</li>
+
+      </ul>
+      <h2 id="FAQ">常見問題集</h2>
+      <ol class="faq">
+
+        <li>我該怎麼幫忙呢？
+          <p>我們需要開發員和測試社群回饋建議，幫我們將 Firefox 變得更盡善盡美。請先閱讀<a href="https://www.mozilla.org/support/firefox/bugs">錯誤回報注意事項</a>，再到 <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。您也可以使用<a href="http://feedback.mozilla.org/">回饋表單</a>表達意見。</p>
+
+        </li>
+
+        <li>你們為什麼都沒有回信？
+          <p>請使用<a href="http://forums.mozillazine.org/index.php?c=4">討論區</a>， Firefox 團隊會定期閱讀上面的文章。我們常常都收到大量的信件，而您的可能不小心漏失了。</p>
+
+        </li>
+        <li>我該去哪裡取得新的佈景主題與擴充功能 (附加元件)？
+          <p><a href="https://zh-TW.add-ons.mozilla.com/zh-TW/firefox/extensions/">擴充套件</a>及<a href="https://zh-TW.add-ons.mozilla.com/zh-TW/firefox/themes/">佈景主題</a>可自 <a href="https://zh-TW.add-ons.mozilla.com/zh-TW/firefox/">Mozilla 附加元件中心</a>下載。</p>
+
+        </li>
+        <li>
+
+          Firefox 3 是哪些人做出來的？
+          <p>很多人。「說明＞關於 Mozilla Firefox」中有份名單，列出部分曾對 Firefox 3 有所貢獻的人。</p>
+        </li>
+        <li>
+
+          Firefox 3 的原始碼在何處？
+          <p>Firefox 3原始碼已<a href=
+             "http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0/source/">開放下載</a>，而目前開發中的最新程式碼則需<a href=
+             "http://developer.mozilla.org/en/docs/Mozilla_Source_Code_Via_CVS">以 CVS 取得</a>。Firefox 相關程式為「mozilla/browser」、「mozilla/toolkit」及「mozilla/chrome」，請參考<a href=
+             "http://developer.mozilla.org/en/docs/Build_Documentation">建製步驟</a>。</p>
+        </li>
+
+        <li>
+
+          電子郵件程式呢？
+          <p>Firefox 3能與您預設的任何郵件程式協同運作， 而我們推薦您試試我們下一代的郵件軟體：與 Firefox 合作無間的 <a href="/thunderbird/">Mozilla Thunderbird</a>。</p>
+        </li>
+      </ol>
+
+      <h2 id="contributedbuilds">非官方建製版</h2>
+      <p>Mozilla 代表 <a href="http://wiki.mozilla.org/L10n:Localization_Teams" title="Mozilla Localization Teams">各國作者</a>提供了各國語系的地方化版本，您可至<a href="http://www.mozilla.com/en-US/firefox/all-beta.html" onclick="urchinTracker('/outgoing/fx3download');">Firefox 3 下載頁</a>取得檔案。
+      </p>
+
+         
+      <p>其他尚未被官方 Firefox 3 驗證通過的本地化版本可以在
+         <a href="http://releases.mozilla.org/pub/mozilla.org/firefox/releases/3.0/contrib-localized/">FTP 站台</a>取得。</p>      <h2 id="links">其他資源和連結</h2>  
+      <p>下面提供了幾個有用的連結：</p>
+
+		<ul class="spaced"> 
+		</li><li><a title="Mozilla Links 正體中文版" href="http://mozlinks.moztw.org/">Mozilla Links 正體中文版</a> 
+		</li><li><a href="http://wiki.mozilla.org/Firefox3">Firefox 3 Project Page</a> 
+		</li><li><a href="http://kb.mozillazine.org/">MozillaZine's Knowledge Base</a> 
+		</li><li><a href="https://www.mozilla.org/projects/firefox/">Developer Information</a> 
+		</li><li><a href="http://code.google.com/apis/safebrowsing/firefox3_privacy.html">SafeBrowsing Service Privacy Policy</a> (for anti-phishing/anti-malware feature) </li></ul>
+
+</div>
+
+    <div id="side" class="right">
+      <ul id="nav">
+        <li><a href="/firefox/">回到 Firefox 首頁</a></li>
+      </ul>
+      
+      <ul id="nav">
+
+        <li><a href="#downloadandinstall">下載與安裝</a></li>
+
+        <li><a href="#requirements">系統需求</a></li>
+        <li><a href="#download">下載</a></li>
+        <li><a href="#install">安裝</a></li>
+        <li><a href="#uninstall">移除</a></li>
+        <li><a href="#issues">已知問題</a></li>
+        <li><a href="#troubleshooting">疑難排解</a></li>
+
+        <li><a href="#FAQ">常見問題</a></li>
+        <li><a href="#contributedbuilds">非官方建製版</a></li>
+        <li><a href="#links">其他資源與連結</a></li>
+      </ul>
+
+    </div>
+</div>
+<hr class="hide">
+  <div id="footer">
+   <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a xmlns:cc="http://creativecommons.org/ns#" href="//moztw.org/" property="cc:attributionName" rel="cc:attributionURL" title="Mozilla 軟體正體中文在地化專案/台灣社群">MozTW，Mozilla 正體中文/台灣社群</a></li>
+	<li><a href="https://github.com/moztw/www.moztw.org" title="貢獻本網站 Source">貢獻本網站 Source</a></li>
+	<li><a href="/about">聯絡資訊 Contact</a></li>
+   </ul>
+	<p>除另有註明外，本站內容皆採<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>或更新版本授權大眾使用<br />
+		<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');"><img alt="Creative Commons License" style="border-width:0; margin-top: 10px;" src="https://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" /></a>
+   </p>
+  </div>
+  <!-- closes #footer-->
+</div>
+<!-- closes #container -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant"></script>
+<!--[if IE 6]>
+  <script type="text/javascript" src="/js/library/iepngfix/iepngfix_tilebg.js"></script>
+<![endif]-->
+<!-- Google Analytic -->
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-1', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+
+

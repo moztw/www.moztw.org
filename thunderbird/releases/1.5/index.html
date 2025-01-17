@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta property="fb:page_id" content="109362359103769" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+  <link rel="home" title="Home" href="//moztw.org">
+  <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="/css/base/content.css" media="all">
+  <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+  <link rel="stylesheet" href="/css/base/template.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+  <link rel="stylesheet" href="/css/moztw.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/xmlnews.rdf">
+  <meta name="facebook-domain-verification" content="v9cjc40llat0ll8rbfy3iiy16md0vq" />
+  <!--[if IE 6]>
+  <style type="text/css">img, div, a { behavior: url(/js/library/iepngfix/iepngfix.htc) }</style>
+  <![endif]-->
+<meta property="og:url" content="http://moztw.org/thunderbird/releases/1.5/">
+<meta property="og:title" content="Mozilla Thunderbird 版本資訊 (1.5)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MozTW">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="http://moztw.org/images/product-thunderbird-v3.png">
+<meta property="fb:page_id" content="109362359103769">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@moztw">
+<meta name="twitter:domain" content="moztw.org">
+
+<title>Mozilla Thunderbird 1.5 版本資訊</title>
+<link rel="stylesheet" href="/css/cavendish/releasenote_narrow.css" media="screen">
+</head><body id="www-moztw-org">
+
+<div id="container">
+
+<p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
+
+<div id="header">
+<h1><a href="//moztw.org/" title="回到 MozTW 首頁" accesskey="1">MozTW 正體中文在地化</a></h1>
+ <ul>
+  <li id="menu_aboutus"><a href="/about" title="About this website">關於本站</a></li>
+  <li id="menu_contribute"><a href="/contribute" title="了解我們正在做什麼，看看您能幫上什麼忙！">參與我們</a></li>
+  <li id="menu_planet"><a href="http://planet.moztw.org/" title="社群成員 Blog Planet" onClick="ga('send', 'event', 'inGoing', 'planet', 'header');">摩茲星球</a></li>
+<!--  <li id="menu_wiki"><a href="http://wiki.moztw.org/" title="MozTW 共筆系統" onClick="ga('send', 'event', 'inGoing', 'wiki', 'header');">共筆系統</a></li>-->
+  <li id="menu_space"><a href="/space" title="摩茲工寮 | Mozilla Community Space Taipei" onClick="ga('send', 'event', 'inGoing', 'space', 'header');">摩茲工寮</a></li>
+  <li id="menu_events"><a href="/events" title="MozTW 活動">活動</a></li>
+  <li id="menu_forum"><a href="//forum.moztw.org/" title="MozTW 社群討論區" onClick="ga('send', 'event', 'inGoing', 'forum', 'header');">討論區</a></li>
+  <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
+ </ul>
+
+
+<!-- Google 自訂搜索 -->
+<form id="search" action="//forum.moztw.org/google_results.php">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+<!-- End of Google Search -->
+
+</div>
+<!-- closes #header-->
+
+<hr class="hide">
+
+
+<div id="mBody">
+
+    <div id="mainContent" class="right">
+  	  <div class="key-point">
+  		  <div id="product-desc" class="thunderbird-releasenotes">
+          <!-- Introduction -->
+          <p>Thunderbird 是一套快速、安全而簡單的全功能電子郵件、RSS 和新聞群組管理程式。其它關於 Thunderbird 的訊息，請參考 <a href="/thunderbird/">Thunderbird 產品首頁</a>。</p>
+          <p>此版本資訊包含了 Thunderbird 1.5 的<a href="#new">新鮮事</a>、<a href="#download">下載</a>與<a href="#install">安裝指示</a>、<a href="#issues">已知問題</a>以及<a href="#links">其他連結</a>等訊息。如發現任何程式錯誤，請先行將版本資訊與<a href="http://www.mozilla.org/support/thunderbird/bugs">錯誤回報注意事項</a>閱讀完畢，再到
+          <a href="http://bugzilla.mozilla.org/">Bugzilla</a> 回報。</p>
+          <p>我們想知道您對 Thunderbird 的意見。歡迎到討論區討論相關議題：您可至 <a href="http://www.mozillazine.org/">MozillaZine</a> 上的<a href="http://forums.mozillazine.org/viewforum.php?f=39">英文討論區</a>或 <a href="/">MozillaTaiwan</a> 的<a href="/forum/viewforum.php?f=9">Thunderbird
+    中文討論區</a>與我們分享意見。</p>
+        </div>
+      </div>
+
+      <!-- What's New -->
+      <h2><a name="new">Thunderbird 1.5 新鮮事</a></h2>
+      <p>Thunderbird 1.5 是一套獲得無數獎項的電子郵件程式。</p>
+
+      <p><strong>以下是值得一提的 Thunderbird 1.5 新鮮事：</strong></p>
+
+      <ul class="news">
+        <li>全新的線上更新功能會用更明顯的方式提醒用戶有新的更新，且所需下載的檔案大小可能不到 0.5 MB。此外擴充套件的更新方式也更加友善。</li>
+        <li>郵件地址自動完成功能現在會依您寄信給對方的次數排序。</li>
+        <li>即時拼字檢查。</li>
+        <li>已存搜尋夾現在能跨多個帳號搜尋。</li>
+        <li>內建防詐騙偵測功能，保護用戶不受詐騙郵件的侵擾。</li>
+        <li>Podcast 和其他 RSS 功能增強。</li>
+        <li>從郵件中刪除附件。</li>
+        <li>與伺服器端的垃圾信過濾機制整合。</li>
+        <li>從郵件過濾器中直接回覆或轉寄郵件。</li>
+        <li>Kerbero 認證。</li>
+        <li>撰寫郵件時自動儲存草稿。</li>
+        <li>自動刪除郵件。</li>
+        <li>全域資料夾的過濾器。</li>
+        <li>產品使用體驗的改進，包括重新設計的選項介面和 SMTP 伺服器管理等。</li>
+        <li>其他的安全性修正。</li>
+      </ul>
+
+      <h2 id="downloadandinstall">下載與安裝</h2>
+
+      <h3 id="requirements">系統需求</h3>
+      <p>在安裝 Thunderbird 前請先確定您的電腦合乎<a href="/docs/ff/system-requirements">系統需求</a>。
+      從 1.5 開始，Mac OS X 用戶必須在 MacOX X 10.2 以上版本運行本程式。</p>
+
+      <h3 id="download"><a name="download">下載 Thunderbird</a></h3>
+       <p>Mozilla 基金會提供 Windows 版、Linux 版和 Mac OS X 版的 Thunderbird。</p>
+       <p><strong>Windows</strong>: <a href="http://download.mozilla.org/?product=thunderbird-1.5&amp;os=win&amp;lang=zh-TW">安裝程式</a></p>
+       <p><strong>Linux</strong>: <a href="http://download.mozilla.org/?product=thunderbird-1.5&amp;os=linux&amp;lang=zh-TW">GTK2 + XFT</a> （無安裝程式）</p>
+       <p><strong>Mac OS X</strong>: <a href="http://download.mozilla.org/?product=thunderbird-1.5&amp;os=osx&amp;lang=zh-TW">壓縮磁碟映像檔</a></p>
+
+       <p>其他 Mozilla.org 未提供的系統或語系，請閱讀文件最後的「非官方建製版」一節。</p>
+
+      <h3><a name="install">安裝 Thunderbird</a></h3>
+      <p>下載 Thundbird 安裝程式或壓縮檔後，請依下列步驟進行安裝：</p><br>
+      <h3>Windows</h3>
+    <p>以滑鼠左鍵雙點 <tt class="filename">Thunderbird Setup 1.5.exe</tt> 安裝程式圖示以開始安裝。</p>
+    <h3>Mac OS X</h3>
+    <p>下載 Thunderbird 1.5.dmg 檔後，請雙點 Thunderbird 磁碟映像檔圖示以便開啟於 Finder 中，隨後將 Thunderbird 應用程式拖曳至您的硬碟中。<strong>請不要直接雙點磁碟映像檔中的圖示！</strong>一定要將 Thunderbird相關檔案拖進硬碟後才執行。您亦可將圖示拖曳至 Dock 上方便取用。</p>
+      <h3>其他系統</h3>
+      <p>解壓縮下載回來的壓縮檔後執行 <tt>thunderbird</tt></p>
+
+      <h3 id="uninstall">移除 Thunderbird</h3>
+      <p>欲移除 Thunderbird，請依下列步驟操作：</p>
+      <h3>Windows</h3>
+		<p>選擇「<kbd>開始＞控制台</kbd>」，當控制台出現時，請以滑鼠左鍵雙點「<kbd>新增或移除程式</kbd>」，
+		然後在清單中找到「<kbd>Mozilla Thunderbird (1.5)</kbd>」並按下「<kbd>移除</kbd>」。</p>
+      <h3>Mac OS X</h3>
+		<p>將 <tt class="filename">Thunderbird</tt> 程式拖曳至垃圾桶。</p>
+      <h3>其他系統</h3>
+      <p>移除 <tt class="filename">thunderbird</tt> 資料夾。</p>
+		<p>上述步驟將保留您的個人設定檔，供日後重新安裝時使用。如果您想移除 Thunderbird 的個人設定檔資料夾，請依循「個人設定資料夾」一節的步驟。
+		請注意：這麼一來您將失去所有信件、通訊錄、設定及其他資訊，重新安裝 Thunderbird 時就必須重新建立個人設定。</p>
+
+      <h2>其他資訊</h2>
+      <h3 id="profilefolder">個人設定資料夾</h3>
+      <p>Thunderbird 將您的個人設定檔存放在下列位置之一：</p>
+      <table style="font-size: smaller;" border="1" cellspacing="0">
+        <tr>
+          <td><img src="../../../images/ico-win.png" alt=""> Windows 2000, XP</td>
+          <td>Documents and Settings\&lt;UserName&gt;\Application Data\Mozilla Thunderbird</td>
+        </tr>
+        <tr>
+          <td><img src="../../../images/ico-win.png" alt=""> Windows NT</td>
+          <td>WINNT\Profiles\&lt;UserName&gt;\Application Data\Mozilla Thunderbird</td>
+        </tr>
+        <tr>
+          <td><img src="../../../images/ico-win.png" alt=""> Windows 98, ME</td>
+          <td>Windows\Application Data\Mozilla Thunderbird</td>
+        </tr>
+        <tr>
+          <td><img src="../../../images/ico-osx.png" alt=""> Mac OS X</td>
+          <td>~/Library/Thunderbird</td>
+        </tr>
+        <tr>
+          <td><img src="../../../images/ico-tux.png" alt=""> Linux 及 Unix 系統</td>
+          <td>~/.thunderbird</td>
+        </tr>
+      </table>
+
+      <h2><a name="issues">已知問題</a></h2>
+      <p>以下列出 Thunderbird 1.5 部分已知問題，請閱讀後再回報新的程式錯誤，並請定期檢查本欄的更新內容
+      （如在此版本發現新問題，我們會隨時在<a href="http://www.mozilla.org/products/thunderbird/releases/1.5.html">英文網頁</a>更新此欄）。</p>
+
+	  <h3 id="extensions">擴充套件與佈景主題</h3>
+
+		<p>您可能會在我們新設計的擴充套件相容和更新機制上遇到問題。下面列出了已知三個問題的簡單解決方法。</p>
+		<ul><li>當您執行 Thunderbird 安裝程式後，沒有出現擴充套件相容性和更新精靈的話，您可以打開「擴充套件管理員」，手動檢查更新檔。</li>
+
+		<li>如果擴充套件相容性和更新精靈有出現，但顯示不完全，請先試著點選其他視窗後再點選回該視窗。如果還是沒有解決問題，按一下「取消」後，打開「擴充套件管理員」手動檢查更新檔。</li>
+		<li>如果擴充套件相容性和更新精靈下載並安裝了更新檔，但是安裝失敗的話，請打開「擴充套件管理員」再次檢查有無更新檔。</li>
+		</ul>
+
+		<p>在 Thunderbird 1.0 安裝的擴充套件，到了 Thunderbird 1.5 時可能並不相容。這時您需要檢查該套件有無更新檔，使其可在 Thunderbird 1.5 上運作。如果您喜歡的擴充套件或佈景主題未能相容新版，請寫信給作者，鼓勵作者更新。當您升級到 Thunderbird 1.5 時，所有的擴充套件及佈景主題會自動停用，直到 Thunderbird 發現  1) 此套件原本就相容於 Thunderbird 1.5 或 2) 有新版套件可相容於 Thunderbird 1.5。這是因為 Thunderbird 每一版都有所更新，與擴充套件的整合模式也不盡相同，如果使用舊版套件反而可能發生問題。
+      </p>
+
+      <h3>所有系統</h3>
+      <ul>
+        <li>
+          安裝 Thunderbird 1.5 前，請確保您安裝在新目錄中，切勿直接覆蓋任何舊版 Thunderbird。</li>
+        <li>
+        如果您將 Thunderbird 安裝於權限有所管制的區域，那麼就得先由擁有權限的使用者啟動一次 Thunderbird，以便建立應有的初始啟動檔案。若由權限不足的使用者先行啟動，則可能會因為無法完整建立初始啟動檔案而不斷重新啟動。
+        </li>
+        <li>
+          預設的拼字檢查字典只有英文。想加入其他非英文的字典，請閱讀
+          the <a href="http://www.mozilla.org/products/thunderbird/dictionaries.html">安裝說明</a>。
+        </li>
+        <li>
+          在全域收件匣和 POP3 帳號的收件匣之間切換時，請確定已將郵件備份到其他資料夾。
+        </li>
+        <li>若您未擁有 Thunderbird 安裝處的檔案寫入權限，軟體升級程序便無法進行，這是因為軟體升級必須於安裝處替換或建立檔案。
+
+        </li>
+      </ul>
+
+      <h3>Windows</h3>
+      <ul>
+        <li>
+          以權力受限的一般使用者身份安裝 Thunderbird 時，就算安裝在可寫入的地方，有時依然會發生些許問題（像是預設郵件程式設定錯誤等），但程式還是可以用。當以受限使用者身份安裝時，請<strong>不要</strong>在未移除舊版的情況下指定安裝於同一資料夾，否則可能無效。
+        </li>
+        <li>
+          Windows 用戶只要安裝 Thunderbird 版的
+          <a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/extensions/palmsync/1.5/palmsync.xpi">Palm 同步擴充套件</a> 就可以與 Palm 裝置互相同步通訊錄。
+          將檔案下載回來之後儲存，然後從 Thunderbird 的「擴充套件」視窗中安裝這個擴充套件。此套件安裝後將不會在擴充套件列表中顯示，安裝之後記得重新啟動 Thunderbird 套件才會有作用。
+
+        </li>
+
+      </ul>
+
+      <h3>Mac OS X</h3>
+      <ul>
+       <li>
+        <strong>不要由磁碟映像檔中直接啟動 Thunderbird！</strong>這麼一來 Thunderbird 可能會不斷重新啟動（症狀是 Thunderbird 圖示在 Dock 中不斷跳起、消失再出現）。若要從不斷啟動的情形中終止 Thunderbird，請開啟
+      終端機（Terminal）後輸入「killall thunderbird-bin」並按下 Enter。之後請將 Thunderbird 安裝於有權寫入的位置、再試一次。若安裝於多人共用的電腦上，可以管理員身份安裝於共用位置，執行一次後所有使用者就都能用了。
+      </li>
+		</ul>
+
+      <h3>Linux 和 Unix 系統</h3>
+      <ul>
+	<li>
+		在 Fedora Core 3(FC3) 中，GNOME integration 並不能適當的運作。
+		FC3 的使用者需要安裝 <a href="http://download.fedora.redhat.com/pub/fedora/linux/core/2/i386/os/Fedora/RPMS/linc-1.0.3-3.1.i386.rpm">linc-1.0.3-3.1.i386.rpm</a>。安裝好這個 RPM 後，在您安裝 Thunderbird 的目錄下執行以下的命令(您需要有寫入的權限)：
+		<p>
+		<code>touch .autoreg</code>
+		</p>
+		<p>下一次您啟動 Thunderbird 時，GNOME integration 將會正常的運作。</p>
+        </li>
+      </ul>
+
+      <p>&nbsp;</p>
+      <h2><a name="FAQ">常見問題集</a></h2>
+<ol class="faq">
+  <li>我該怎麼幫忙呢？
+  <p>我們需要大量曝光。讓推廣 Thunderbird 成為您的任務，使您的親朋好友上司下屬都認識它： 如果您是個學生，就讓它廣佈校園之中；寫篇文章投稿至<a href="http://www.slashdot.org/">Slashdot</a>等新聞站台上，發布
+      Thunderbird 新版的新聞；也可以在您的 Blog 上透漏一點相關訊息； 總之，儘可能的在網際網路中散佈，就像 Kazaa 的威力一樣，處處<a href="http://www.spreadThunderbird.com/">推廣 Thunderbird</a>！ </p> </li>
+  <li>我使用其他瀏覽器，因為…
+  <p>如果您不願使用 Thunderbird，請告訴開發團隊您的理由。我們會持續注意<a href="http://forums.mozillazine.org/index.php?c=4">Thunderbird
+        forums</a>中的使用者意見。</p></li>
+  <li>你們為什麼都沒有回信？
+  <p>請使用<a href="http://forums.mozillazine.org/index.php?c=10">討論區</a>， Thunderbird
+      團隊會定期閱讀上面的文章。我們常常都收到大量的信件，而您的可能不小心漏失了。</p></li>
+  <li>我該去哪裡取得新的佈景主題與擴充功能？
+  <p><a href="http://update.mozilla.org/extensions/?application=thunderbird">擴充套件</a>及<a href="http://update.mozilla.org/themes/?application=thunderbird">佈景主題</a>可自<a href="http://update.mozilla.org/?application=thunderbird">Mozilla
+        Update</a>下載。</p></li>
+  <li>哪些人正致力於 Thunderbird 的開發工作？
+  <p>很多人。詳細列表請參考「說明＞關於 Thunderbird」</p></li>
+   </ol>
+
+      <p>&nbsp;</p>
+      <h2 id="links">其他資源和連結</h2>
+      <p>下面提供了幾個有用的連結：</p>
+
+      <ul>
+        <li><a href="http://opensourcearticles.com/articles/thunderbird_15/english/part_01">Mozilla
+            Thunderbird 簡介</a>（閱讀此文件快速上手，這是英文網頁）</li>
+        <li><a href="/support/thunderbird/">Mozilla Thunderbird 線上說明</a>
+           （常見問題集、小技巧與密技和其他自訂說明，英文網頁）</li>
+        <li><a href="http://kb.mozillazine.org/Thunderbird">MozillaZine 知識庫</a>
+           （常見問題集、小技巧與密技和其他有用資訊，英文網頁）<</li>
+        <li><a href="http://forums.mozillazine.org/index.php?c=10">Mozilla Thunderbird forums</a>
+           （一般討論、錯誤回報和用戶個別支援，也是英文網頁）< 由 <a href="http://www.mozillazine.org/">
+            MozillaZine</a> 提供</li>
+      </ul>
+
+      <p>&nbsp;</p>
+      <h2>非官方建製版</h2>
+      <p>下面提供的非官方建製版的設定值可能和 Mozilla.org 官方版本不同。通常這些版本會針對特定 CPU 或平台特別設計。</p>
+
+<p><strong>Solaris （北京 SUN 團隊提供） </strong><br>
+
+<!--
+<a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5b1/contrib/thunderbird1.5b1-en-US.solaris2.10-i386.tar.bz2">thunderbird1.5b1-en-US.solaris2.10-i386.tar.bz2</a>
+<a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5b1/contrib/thunderbird1.5b1-en-US.solaris2.10-i386.readme">(readme)</a>
+<a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5b1/contrib/thunderbird1.5b1-en-US.solaris2.10-i386.tar.bz2.MD5SUM">(MD5SUM)</a><br>
+<a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5b1/contrib/thunderbird1.5b1-en-US.solaris2.10-sparc.tar.bz2">thunderbird1.5b1-en-US.solaris2.10-sparc.tar.bz2</a>
+<a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5b1/contrib/thunderbird1.5b1-en-US.solaris2.10-sparc.readme">(readme)</a>
+<a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5b1/contrib/thunderbird1.5b1-en-US.solaris2.10-sparc.tar.bz2.MD5SUM">(MD5SUM)</a><br>
+<a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5b1/contrib/thunderbird1.5b1-en-US.solaris2.8-i386-gtk1.tar.bz2">thunderbird1.5b1-en-US.solaris2.8-i386-gtk1.tar.bz2</a>
+<a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5b1/contrib/thunderbird1.5b1-en-US.solaris2.8-i386-gtk1.readme">(readme)</a>
+<a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5b1/contrib/thunderbird1.5b1-en-US.solaris2.8-i386-gtk1.tar.bz2.MD5SUM">(MD5SUM)</a><br>
+<a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5b1/contrib/thunderbird1.5b1-en-US.solaris2.8-sparc-gtk1.tar.bz2">thunderbird1.5b1-en-US.solaris2.8-sparc-gtk1.tar.bz2</a>
+<a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5b1/contrib/thunderbird1.5b1-en-US.solaris2.8-sparc-gtk1.readme">(readme)</a>
+<a href="ftp://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5b1/contrib/thunderbird1.5b1-en-US.solaris2.8-sparc-gtk1.tar.bz2.MD5SUM">(MD5SUM)</a><br>
+-->
+
+      <h3 id="othersystems">其他系統</h3>
+
+      <p>Mozilla.org 除了官方版本還提供了其他平台的版本，您可以在 <a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/1.5/contrib/">FTP 站</a> 找到。</p>
+
+        <!--
+            Build contributors, please put your builds under:
+              pub/mozilla.org/thunderbird/releases/<version>/contrib/
+
+            Your build file name should match the pattern set by official builds
+            and include a README explaining any build peculiarities and identifying
+            yourself as the contributor. Thanks.
+          -->
+
+      <h3 id="otherlanguages">Localized Builds</h3>
+      <p>Mozilla 代表<a href="http://www.mozilla.org/projects/l10n/mlp_otherproj.html#firefox" title="Mozilla Localization Project">
+      各國作者</a>提供了各國語系的地方化版本。您可以到 <a href="http://getthunderbird.com/">GetThunderbird.com</a> 或 <a href="http://www.mozilla.org/products/thunderbird/all">
+      所有系統與語言列表</a> 下載我們提供各種語言的官方版本。
+
+
+<!--     <p>&nbsp;</p>
+    	  <small>舊版本資訊: <a href="0.1-release-notes.html">
+            0.1</a> | <a href="0.2-release-notes.html">
+            0.2</a> | <a href="0.3-release-notes.html">
+            0.3</a> | <a href="0.4-release-notes.html">
+            0.4</a> | <a href="0.5-release-notes.html">
+            0.5</a> | <a href="0.6-release-notes.html">
+            0.6</a> | <a href="0.7-release-notes.html">
+            0.7</a> | <a href="0.8-release-notes.html">
+            0.8</a> | <a href="0.9-release-notes.html">
+            0.9</a> | <a href="1.0-release-notes.html">
+            1.0</a> | <a href="1.0.2-release-notes.html">
+            1.0.2</a> |<a href="1.0.5-release-notes.html">
+            1.0.5</a> | <a href="1.0.6-release-notes.html">
+            1.0.6</a> | <a href="1.0.7-release-notes.html">
+            1.0.7</a>
+            </small>
+-->
+
+    </div><!-- close #mainContent -->
+    <div id="side" class="right">
+      <ul id="nav">
+        <li><a href="/thunderbird/">回到 Thunderbird 首頁</a></li>
+      </ul>
+
+      <ul id="nav">
+        <li><a href="#downloadandinstall">下載與安裝</a></li>
+        <li><a href="#requirements">系統需求</a></li>
+        <li><a href="#download">下載</a></li>
+        <li><a href="#install">安裝</a></li>
+        <li><a href="#uninstall">移除</a></li>
+        <li><a href="#profilefolder">個人設定資料夾</a></li>
+        <li><a href="#extensions">擴充套件及佈景主題</a></li>
+        <li><a href="#otherchanges">其他更動</a></li>
+        <li><a href="#issues">已知問題</a></li>
+        <li><a href="#troubleshooting">疑難排解</a></li>
+        <li><a href="#FAQ">常見問題</a></li>
+        <li><a href="#othersystems">其他系統</a></li>
+        <li><a href="#otherlanguages">其他語言</a></li>
+        <li><a href="#links">其他資源與連結</a></li>
+      </ul>
+    </div>
+</div>
+<hr class="hide">
+  <div id="footer">
+   <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a xmlns:cc="http://creativecommons.org/ns#" href="//moztw.org/" property="cc:attributionName" rel="cc:attributionURL" title="Mozilla 軟體正體中文在地化專案/台灣社群">MozTW，Mozilla 正體中文/台灣社群</a></li>
+	<li><a href="https://github.com/moztw/www.moztw.org" title="貢獻本網站 Source">貢獻本網站 Source</a></li>
+	<li><a href="/about">聯絡資訊 Contact</a></li>
+   </ul>
+	<p>除另有註明外，本站內容皆採<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>或更新版本授權大眾使用<br />
+		<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');"><img alt="Creative Commons License" style="border-width:0; margin-top: 10px;" src="https://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" /></a>
+   </p>
+  </div>
+  <!-- closes #footer-->
+</div>
+<!-- closes #container -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant"></script>
+<!--[if IE 6]>
+  <script type="text/javascript" src="/js/library/iepngfix/iepngfix_tilebg.js"></script>
+<![endif]-->
+<!-- Google Analytic -->
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-1', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+  <meta charset="utf-8">
+  <meta property="fb:page_id" content="109362359103769" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/images/mozilla-16.png" type="image/png">
+  <link rel="home" title="Home" href="//moztw.org">
+  <meta name="keywords" content="web browser mozilla firefox netscape thunderbird localization l10n chinese taiwan traditional zh-TW 中文 正體中文 繁體中文 本地化 在地化 中文化 翻譯 瀏覽器 www 自由軟體 開放源碼 開放原始碼 free 自由">
+  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="/css/base/content.css" media="all">
+  <link rel="stylesheet" href="/css/cavendish/content.css" title="Cavendish" media="all">
+  <link rel="stylesheet" href="/css/base/template.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/template.css" title="Cavendish" media="screen">
+  <link rel="stylesheet" href="/css/moztw.css" media="screen">
+  <link rel="stylesheet" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 500px)">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/xmlnews.rdf">
+  <meta name="facebook-domain-verification" content="v9cjc40llat0ll8rbfy3iiy16md0vq" />
+  <!--[if IE 6]>
+  <style type="text/css">img, div, a { behavior: url(/js/library/iepngfix/iepngfix.htc) }</style>
+  <![endif]-->
+<title>Android 版 Firefox 正體中文下載 | MozTW, Mozilla Taiwan Community</title>
+<meta name="description" content="Firefox Android 正體中文版下載：更快、更安全、更聰明的行動瀏覽器；滿滿的創新設計，讓您輸入更少、瀏覽更多，更簡單到達您想去的網站。" />
+<link href='//fonts.googleapis.com/css?family=Open+Sans:600,400' rel='stylesheet' type='text/css'>
+<style type="text/css">
+/*
+本頁的 Responsive Design 設計：
+
+一般狀態頁面寬度: 960px
+WinWidth
+    > 1000: 使用 fancybox 開啟影片 iframe
+    > 640: 桌面模式，Mobile Device 上會 fit viewport
+        WinHeight > 800: 手機上下移動的動畫
+    < 640: 手機模式
+    < 480: 手機模式2
+*/
+
+body {
+    margin: 20px 15px;
+}
+#container{
+	width:930px; /*因為所以這頁的伸縮很難做就....*/
+}
+
+#mobiImg {
+    background: url("images/Foxmosa-in-Device.png");
+    height: 446px;
+    left: 330px;
+    position: absolute;
+    top: 0px;
+    width: 242px;
+    -moz-transition: all 1.5s ease 0s;
+    -o-transition: all 1.5s ease 0s;
+    -webkit-transition: all 1.5s ease 0s;
+    -ie-transition: all 1.5s ease 0s;
+    transition: all 1.5s ease 0s;
+}
+.down #mobiImg {
+    background: url("images/Start-Page-in-Device.png");
+    top: 460px;
+    -moz-transition: all 1.5s ease 0s;
+    -o-transition: all 1.5s ease 0s;
+    -webkit-transition: all 1.5s ease 0s;
+    -ie-transition: all 1.5s ease 0s;
+    transition: all 1.5s ease 0s;
+}
+.key-point {
+	margin-bottom: 80px;
+	background: none repeat scroll 0 0 #E4ECEC;
+    height: 330px;
+    padding-top: 45px;
+    position:relative;
+    overflow:visible;
+}
+#desc{
+	float: right;
+	margin-right: 15px;
+	width: 280px;
+}
+#desc h2{
+    font-family: "Open Sans" ,sans-serif;
+    font-size: 58px;
+    font-weight: bold;
+    line-height: 1em;
+    margin-bottom: 0.33em;
+    margin-top: -0.4em;
+}
+#desc h2 .and {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 0.15em;
+}
+#desc p {
+    color: #4C5C5C;
+    font-size: 1.05em;
+}
+
+#new-feature{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+    background-color: #F4F4F4;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    color: #555555;
+    margin-top: 1.8em;
+    padding: 0;
+    width: 255px;
+}
+#new-feature li {
+    display: block;
+    margin: 0;
+}
+
+#new-feature li:hover {
+    background: #F8F8F8;
+}
+
+#new-feature li#supported a {
+    background-position: 0 -400px;
+    border-bottom: 1px solid #CCCCCC;
+}
+#new-feature li#release-notes a {
+    background-position: 0 -595px;
+}
+
+#new-feature li a.link {
+    background: url("images/sub-feature-icons.png") no-repeat scroll 0 0 transparent;
+    color: #666666;
+    display: block;
+    line-height: 65px;
+    margin: 0 12px;
+    padding-left: 75px;
+    text-decoration: none;
+}
+
+#download{
+    float: left;
+    margin-top: 60px;
+    padding: 1em;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    width: 260px;
+}
+#download .desc{
+    color: #B5E786;
+    font-size: 0.8em;
+}
+
+#download a.btn,#download a.btn:visited {
+	font-size:130%;
+	color:#fff;
+	background:url('images/arrow-large.png') no-repeat 10px 50%;
+	background:url('images/arrow-large.png') no-repeat 10px 50%, -webkit-gradient(linear, left top, left bottom, from(#83c53c), to(#519d1b));
+	background:url('images/arrow-large.png') no-repeat 10px 50%, linear-gradient(#83c53c, #519d1b);
+	background-color:#4a1;
+	text-decoration:none;
+	padding: 1em;
+	padding-left: 50px;
+	border-radius: 5px;
+	border-bottom: 2px solid #481;
+	margin-top: 1em;
+	display:block;
+	transition: box-shadow 1s;
+	-moz-transition: box-shadow 1s;
+	-webkit-transition: box-shadow 1s;
+	-o-transition: box-shadow 1s;
+}
+
+#download a.btn:hover{
+	box-shadow:
+		0 2px 0 0 rgba(0,0,0,0.1),
+		inset 0 -2px 0 0 rgba(0,0,0,0.2),
+		inset 0 12px 24px 2px #83d822;
+}
+
+#download p {
+	color: #4C5C5C;
+	font-size: 1.05em;
+	text-shadow: none;
+    margin-left: 50px;
+}
+
+
+/*
+ * Style below modefied from http://www.mozilla.org/en-US/firefox/mobile/features/
+ */
+
+#main-content:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+#main-content .col1, #main-content .col2 {
+    float: left;
+    margin: 0 10px;
+    width: 400px;
+}
+
+#main-content .col2 {
+    float: right;
+}
+
+.anime #main-content .col1, .anime #main-content .col2{
+	width: 280px;
+}
+
+#main-content h2 {
+    border: none;
+    color: #484848;
+    display: block;
+    font-family: sans-serif;
+    font-size: 46px;
+    font-weight: normal;
+    line-height: 1em;
+    margin: 0 0 18px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+#main-content p {
+    font-size: 1.05em;
+    line-height: 1.75em;
+    margin: 0 0 12px;
+}
+
+#main-content a:hover {
+    background-color: white;
+    text-decoration: underline;
+}
+
+#main-content .icon {
+    padding-left: 60px;
+}
+
+#fast, #smart {
+    border-bottom: 1px dotted #D6D6D6;
+    margin-bottom: 24px;
+}
+
+#fast .tab {
+    margin-bottom: 24px;
+}
+
+#smart p {
+    margin-bottom: 24px;
+}
+
+#main-content .icon .img {
+    background: url("images/feature-icons.png") no-repeat;
+    float: left;
+    height: 60px;
+    margin-left: -60px;
+    width: 60px;
+}
+
+#safe .privacy .img {
+    background-position: 0 0;
+}
+
+#smart .html5 .img {
+    background-position: 0 -60px;
+}
+
+#smart .sync .img {
+    background-position: 0 -120px;
+}
+
+#smart .addons .img {
+    background-position: 0 -180px;
+}
+
+#get a .movie {
+    width: 230px;
+}
+
+.anime #get a .movie {
+    width: 100%;
+}
+
+#main-content a.more:after {
+    content: " »";
+}
+#main-content a {
+    color: #2983C8;
+    text-decoration: none;
+}
+</style>
+
+<!-- Responsive design below -->
+<link rel="stylesheet" type="text/css" href="/css/cavendish/narrow.css" title="Cavendish" media="screen and (max-width: 640px)">
+<style type="text/css" media="screen and (max-width: 640px)">
+#container{width:auto;}
+#mobiImg{ display:none; }
+.col1, .col2 { width:auto !important; }
+.col1 p, .col2 p { min-height: 2em; }
+.key-point{
+    padding:1em 23% 0 0;
+    height:auto;
+    background: #e4ecec url("images/Start-Page-in-Device.png") 95% 1em no-repeat;
+    background-size:30%;
+    margin-bottom: 40px;
+}
+#desc, #download{float:none;margin:0; width:auto;}
+#download .btn{width:70%;}
+#download a.btn, #download a.btn:visited { font-size: 1em; }
+#desc {margin:1em;}
+#new-feature{display:none;}
+#fast .tab {
+    margin-bottom: 12px;
+}
+#safe {border-bottom: 1px dotted #D6D6D6;margin-bottom: 24px;}
+.anime #get a .movie {
+    width: 100%;
+}
+</style>
+
+<style type="text/css" media="screen and (max-width: 480px)">
+.key-point{padding:1em 22% 0 0; background-position: 94% 6%; background-size:23%;}
+#download .btn{width:100%;}
+#main-content p { font-size: 1em;}
+#main-content h2 { font-size: 2.5em; }
+</style>
+
+<link rel="stylesheet" href="/js/library/fancybox2/jquery.fancybox.css" type="text/css" media="screen and (min-width: 1000px)" />
+<style type="text/css">
+.fancybox-outer {
+    background: black;
+}
+</style>
+
+<!--[if lte IE 8]>
+<style type="text/css">
+.movie {
+    width: 230px !important;
+}
+</style>
+<![endif]-->
+
+</head><body id="www-moztw-org" class="deepLevel">
+
+<div id="container">
+
+<p class="skipLink"><a href="#mainContent" accesskey="2">[Main]</a></p>
+
+<div id="header">
+<h1><a href="//moztw.org/" title="回到 MozTW 首頁" accesskey="1">MozTW 正體中文在地化</a></h1>
+ <ul>
+  <li id="menu_aboutus"><a href="/about" title="About this website">關於本站</a></li>
+  <li id="menu_contribute"><a href="/contribute" title="了解我們正在做什麼，看看您能幫上什麼忙！">參與我們</a></li>
+  <li id="menu_planet"><a href="http://planet.moztw.org/" title="社群成員 Blog Planet" onClick="ga('send', 'event', 'inGoing', 'planet', 'header');">摩茲星球</a></li>
+<!--  <li id="menu_wiki"><a href="http://wiki.moztw.org/" title="MozTW 共筆系統" onClick="ga('send', 'event', 'inGoing', 'wiki', 'header');">共筆系統</a></li>-->
+  <li id="menu_space"><a href="/space" title="摩茲工寮 | Mozilla Community Space Taipei" onClick="ga('send', 'event', 'inGoing', 'space', 'header');">摩茲工寮</a></li>
+  <li id="menu_events"><a href="/events" title="MozTW 活動">活動</a></li>
+  <li id="menu_forum"><a href="//forum.moztw.org/" title="MozTW 社群討論區" onClick="ga('send', 'event', 'inGoing', 'forum', 'header');">討論區</a></li>
+  <li id="menu_products"><a href="/dl" title="Moztw.org 提供的中文化軟體一覽">下載</a></li>
+ </ul>
+
+
+<!-- Google 自訂搜索 -->
+<form id="search" action="//forum.moztw.org/google_results.php">
+  <div>
+    <input type="hidden" name="cx" value="004834718651483963205:4eo-sv95xaa" />
+    <input type="hidden" name="cof" value="FORID:9" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" id="q" name="q" accesskey="s" size="30" maxlength="64"  />
+    <input type="submit" id="submit" name="sa" value="搜尋" />
+  </div>
+</form>
+<!-- End of Google Search -->
+
+</div>
+<!-- closes #header-->
+
+<hr class="hide">
+
+
+<div class="key-point">
+	<div id="mobiImg"></div>
+    <div id="desc" >
+	<h2><span class="and">Android 版</span><br> Firefox</h2>
+	<p>新界面、新功能……滿滿的創新設計，讓您輸入更少、更簡單到達您想去的網站，快、又有效！</p>
+	<ul id="new-feature">
+        <li id="supported">
+            <a class="link" target="_blank" href="https://www.mozilla.org/firefox/mobile/platforms" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'mozilla-firefox-mobile-platform');">支援裝置 (英) »</a>
+        </li>
+        <li id="release-notes">
+            <a class="link" target="_blank" href="https://www.mozilla.org/mobile/notes" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'mozilla-firefox-mobile-releasenotes');">版本資訊 (英) »</a>
+        </li>
+	</ul>
+    </div>
+
+	<div id="download">
+		<a class="btn" href="http://mzl.la/Firefox-Android-zh-TW" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'GooglePlay');">
+		從 Google Play 下載
+		<div class="desc">正式版</div>
+		</a>
+
+		<a class="btn" href="//apple.co/1PFezFR" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile', 'AppStore');">
+		從 App Store 下載
+        <div class="desc">正式版</div>
+        </a>
+        <p><a href="//bit.ly/Firefox-Android-Beta-zh-TW" target="_blank" onClick="ga('send', 'event', 'Outgoing', 'FirefoxMobile','GooglePlay-Beta');">下載 Firefox for Android Beta 測試版</a></p>
+	</div>
+
+</div>
+
+<div id="main-content">
+  <div class="col1">
+    <section id="fast">
+      <h2>更快</h2>
+      <p>啟動及網頁載入更快，立即到達想去之處。</p>
+      <p>隨著您持續使用 Firefox，<a target="_blank" href="https://support.mozilla.org/kb/use-awesome-screen-search-firefox-android" onClick="ga('send', 'event', 'Outgoing', 'SUMO', 'FirefoxMobileAwesomeScreen');">智慧畫面</a>將會越來越懂你，讓你更加容易搜索及瀏覽。</p>
+      <p class="tab">透過動態的已開啟分頁即時縮圖，更有效率地<a target="_blank" href="https://support.mozilla.org/kb/tabs-quickly-switch-websites-firefox-mobile" onClick="ga('send', 'event', 'Outgoing', 'SUMO', 'FirefoxMobileTabSwitch');">切換分頁</a>。</p>
+    </section>
+
+    <section id="safe">
+      <h2>更安全</h2>
+      <p class="icon privacy"><span class="img"></span>啟用「別追蹤我（Do Not Track）」保護您的隱私，決定想要在網路上分享多少資訊。 <a target="_blank" href="https://support.mozilla.org/kb/configure-mobile-privacy-and-security-settings" class="more" onClick="ga('send', 'event', 'Outgoing', 'SUMO', 'FirefoxMobilePrivacy');">了解更多</a></p>
+      <p>透過最新的安全隱私設定，簡單自訂您的密碼、隱私資料、Cookies、圖片與套件設定。</p>
+    </section>
+  </div>
+
+  <div class="col2">
+    <section id="smart">
+      <h2>更聰明</h2>
+      <p class="icon html5"><span class="img"></span>親自體驗 HTML5 與 Web API 所帶來的無窮可能性。 <a href="https://developer.mozilla.org/en/Mobile" target="_blank" class="more" onClick="ga('send', 'event', 'Outgoing', 'MDN', 'FirefoxMobile');">了解更多</a></p>
+      <p class="icon sync"><span class="img"></span><a href="https://support.mozilla.org/kb/how-do-i-set-up-firefox-sync" onClick="ga('send', 'event', 'Outgoing', 'SUMO', 'FirefoxSync');">同步</a>您的瀏覽歷史、書籤、密碼到所有行動裝置，瀏覽變得更為輕鬆。</p>
+      <p class="icon addons"><span class="img"></span>安裝行動附加元件，打造出獨一無二專屬於您的 Android 版 Firefox。 <a target="_blank" href="https://addons.mozilla.org/mobile/" class="more" onClick="ga('send', 'event', 'Outgoing', 'AMO', 'FirefoxMobile');">下載附加元件</a></p>
+    </section>
+
+    <section id="get">
+        <a class="fancybox-iframe" href="movie.html" title="全新Android版Firefox新鮮事影片" target="_blank"><img class="movie" src="images/FirefoxForAndroidUpdateOverview_overlay.png" alt=""></a>
+    </section>
+  </div>
+</div>
+
+<hr class="hide">
+  <div id="footer">
+   <ul id="bn">
+	   <li><img style='vertical-align: bottom;' src='/images/moztw_80x15.png' alt='moztw.org' title='moztw.org'>
+	   <li><a xmlns:cc="http://creativecommons.org/ns#" href="//moztw.org/" property="cc:attributionName" rel="cc:attributionURL" title="Mozilla 軟體正體中文在地化專案/台灣社群">MozTW，Mozilla 正體中文/台灣社群</a></li>
+	<li><a href="https://github.com/moztw/www.moztw.org" title="貢獻本網站 Source">貢獻本網站 Source</a></li>
+	<li><a href="/about">聯絡資訊 Contact</a></li>
+   </ul>
+	<p>除另有註明外，本站內容皆採<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" class="subfoot" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');">創用 CC 姓名標示—相同方式分享條款 3.0 台灣版</a>或更新版本授權大眾使用<br />
+		<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/tw/" onClick="ga('send', 'event', 'Outgoing', 'CreativeCommons', 'footer');"><img alt="Creative Commons License" style="border-width:0; margin-top: 10px;" src="https://i.creativecommons.org/l/by-sa/3.0/tw/80x15.png" /></a>
+   </p>
+  </div>
+  <!-- closes #footer-->
+</div>
+<!-- closes #container -->
+<script type="text/javascript" src="https://www.google.com/jsapi"></script>
+<script type="text/javascript">google.load("elements", "1", {packages: "transliteration"});</script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/t13n?form=cse-search-box&amp;t13n_langs=zh-Hant"></script>
+<script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=zh-Hant"></script>
+<!--[if IE 6]>
+  <script type="text/javascript" src="/js/library/iepngfix/iepngfix_tilebg.js"></script>
+<![endif]-->
+<!-- Google Analytic -->
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1035080-1', 'moztw.org');
+  ga('send', 'pageview');
+</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="/js/library/fancybox2/jquery.fancybox.pack.js"></script>
+
+<script>
+$(document).ready(function() {
+    // Adjust viewport scale based on window width/document width ratio on pad.
+    var winWidth = $(window).innerWidth();
+//    var docuWidth = 960;
+
+    if (winWidth > 640){
+//        var scale = winWidth / docuWidth;    // initial-scale default to fit screen.
+        $('meta[name=viewport]').attr('content','width=960');
+    };
+
+    if (winWidth > 1000){    // Fancy box of movie
+        $(".fancybox-iframe").fancybox({
+    		width          : '640px',
+    		height 	       : '400px',
+    		scrolling      : 'no',
+    		openEffect     : 'fade',
+    		closeEffect    : 'none',
+    		type           : 'iframe',
+    		helpers        : {
+    	        title:  null
+    	    }
+    	});
+	};
+});
+
+$(window).load(function() {
+
+    if ($(window).innerHeight() > 800) return;
+
+    $('body').addClass('anime');
+
+    // Animation of phone
+    var offset = $('#main-content').offset().top;
+
+	$(window).scroll(function() {
+		var windowOffset = $(window).scrollTop();
+		var spos = $('.btn.beta').offset().top;
+
+		if (windowOffset > spos) {
+		    $('body').addClass('down');
+		}else {
+		    $('body').removeClass('down');
+		};
+	}).scroll();
+});
+</script>
+</body></html>
+
