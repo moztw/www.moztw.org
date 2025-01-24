@@ -81,4 +81,7 @@ module.exports = function(grunt) {
 	});
 	//grunt.registerTask('default', ['copy', 'ssi', 'browserSync', 'watch']);
 	grunt.registerTask('default', ['browserSync']);
+
+	// 新增 build 任務
+	grunt.registerTask('build', ['copy', 'ssi']);
 };
