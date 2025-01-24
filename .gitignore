@@ -2,6 +2,3 @@ node_modules
 
 .DS_Store
 Thumbs.db
-
-**/releases/index.html
-**/releases/*/*.html

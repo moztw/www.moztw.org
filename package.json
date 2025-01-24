@@ -4,7 +4,8 @@
   "description": "Mozilla Taiwan community web site",
   "main": "index.html",
   "scripts": {
-    "start": "browser-sync start --config bs-config.js"
+    "start": "grunt",
+    "build": "grunt build"
   },
   "repository": {
     "type": "git",
