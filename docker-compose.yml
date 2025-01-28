@@ -36,3 +36,23 @@ services:
     command: sleep infinity
     profiles:
       - dev
+
+  # Environment for testing the project
+  test-environment:
+    container_name: www-moztw-org-test
+    hostname: www-moztw-org-test
+    image: nginx:1.27-alpine
+    volumes:
+      - type: bind
+        source: ./_site
+        target: /usr/share/nginx/html
+        read_only: true
+      - type: bind
+        source: ./dev-utils/nginx-default.conf
+        target: /etc/nginx/conf.d/default.conf
+        read_only: true
+    ports:
+      # For serving the website
+      - 8080:80
+    profiles:
+      - test
