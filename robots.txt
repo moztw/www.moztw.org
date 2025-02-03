@@ -1,7 +1,6 @@
 User-agent: *
 Disallow: /.*
 Disallow: /auto_update.php
-Disallow: /*-dev
 Disallow: /inc/
 Disallow: /js/
 Disallow: /sandstone/
