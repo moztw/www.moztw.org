@@ -9,20 +9,19 @@
 <link href="css/mozspacetp.css" rel="stylesheet" />
 <style>
   #masthead {
-    background-image: url(images/banner.jpeg);
+    background-image: url(images/common-voice-sakizaya.jpg);
     background-size: 100% 100%;
+    padding-bottom: 52.5%;
     box-shadow: 0 10px 10px #ddd;
+
+    margin-bottom: 25px;
+    font-size: 0;
   }
-  #site-title {
-    font-size: 4em;
+  #masthead h1, #masthead h2, #masthead .small {
+    font-size: 0;
   }
-  #masthead h2 {
-    margin-top: 0.5em;
-  }
-  #masthead .small {
-    margin-top: 1em;
-    color: #999;
-    display: block;
+  #masthead .hgroup {
+    padding: 0 !important;
   }
   main header {
     margin-bottom: 25px;
