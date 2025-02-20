@@ -204,6 +204,10 @@
         <h3>最新消息</h3>
         <ul>
           <li>
+            <span class="date">2025/2/21</span>
+            <a href="https://medium.com/mozilla-related/common-voice-eight-formosan-languages-65b79fbd2c38" target="_blank">Mozilla 拓展志工主導的語音資料，催生含括台灣原住民族語的 AI</a>
+          </li>
+          <li>
             <span class="date">2024/12/7</span>
             <a href="https://medium.com/mozilla-related/common-voice-formosan-languages-ee33ffe2a9f7" target="_blank">pahaykiw tu ngiha! Common Voice 納入原住民族語計畫開跑</a>
           </li>
@@ -230,10 +234,19 @@
         <h3>相關報導</h3>
         <ul>
           <li>
+            <a href="https://www.ipcf.org.tw/-/Radio/Radio_News_Page?newsId=25022016581098188" target="_blank">原住民族廣播電台: 結合AI打造族語語音資料庫 台灣維基媒體協會推動〝台灣原住民族語計畫〞 (2025/2/18)</a>
+          </li>
+
+          <li>
             <a href="https://www.ithome.com.tw/tags/common-voice" target="_blank">ithome 對 Common Voice 的持續追蹤報導</a>
           </li>
+
           <li>
             <a href="https://www.google.com/search?lr=lang_zh-TW&q=%22common+voice%22&tbm=nws" target="_blank">Google 相關新聞彙整</a>
+          </li>
+
+          <li>
+            <a href="https://hackmd.io/@moztw/common-voice-news" target="_blank">歷年 Common Voice 相關新聞與研究彙整共筆</a>
           </li>
         </ul>
       </div>
