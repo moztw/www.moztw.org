@@ -33,6 +33,12 @@
     font-size: 28px;
     margin-bottom: 0.33em;
   }
+  .news-block .date {
+    min-width: 5.5em;
+    font-family: monospace;
+    font-size: 0.85em;
+    display: inline-block
+  }
 </style>
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
@@ -146,8 +152,11 @@
         </div>
       </header>
       <div class="grid-6">
+        <p>本計劃已於 2025/4 結束</p>
+        <del>
         <p>如您想進一步了解本專案目標與補助細節，歡迎加入以下 Line 群組聯繫：<a href="https://line.me/ti/g/DkTvRAy7ba" target="_blank">https://line.me/ti/g/DkTvRAy7ba</a></p>
         <p>如果你需要申請錄音補助經費，請填寫此一線上表格：<a href="https://forms.gle/2jsESFM2bZvufqE39" target="_blank">https://forms.gle/2jsESFM2bZvufqE39</a></p>
+        </del>
       </div>
       <div class="grid-6">
         <img src="images/line.png" alt="common voice in taiwan 群組" style="width: 100%; max-width: 200px; margin: 0 auto; display: block;">
@@ -185,9 +194,7 @@
         <ul>
           <li><a href="https://web.alcd.center/" target="_blank">國立政治大學原住民族研究中心</a> ALCD Center for Aboriginal Studies NCCU 黃季平老師</li>
           <li><a href="https://corpus.linguistics.ntu.edu.tw" target="_blank">臺灣大學語言學研究所 台大台灣南島語語料庫</a> NTU Corpus of Formosan Languages 宋麗梅老師</li>
-          <li><a href="https://www.edu.tw/cp.aspx?n=1651E228E175FB7D&s=C7BFF7B3ABFE1465" target="_blank">教育部葉丙成政務次長</a>
-          <li><a href="https://www.k12ea.gov.tw/" target="_blank">教育部國民及學前教育署</a> 授權十二年國教課程原住民族語文教材（九階教材）</li>
-          </li>
+          <li><a href="https://www.edu.tw/cp.aspx?n=1651E228E175FB7D&s=C7BFF7B3ABFE1465" target="_blank">教育部葉丙成政務次長</a> 及 <a href="https://www.k12ea.gov.tw/" target="_blank">國民及學前教育署</a> 協助授權十二年國教課程原住民族語文教材（族語九階教材）</li>
         </ul>
       </div>
     </section>
@@ -200,7 +207,7 @@
         </div>
       </header>
 
-      <div class="grid-12">
+      <div class="grid-12 news-block">
         <h3>最新消息</h3>
         <ul>
           <li>
@@ -230,15 +237,57 @@
         </ul>
       </div>
 
-      <div class="grid-12">
+      <div class="grid-12 news-block">
         <h3>相關報導</h3>
         <ul>
           <li>
-            <a href="https://www.ipcf.org.tw/-/Radio/Radio_News_Page?newsId=25022016581098188" target="_blank">原住民族廣播電台: 結合AI打造族語語音資料庫 台灣維基媒體協會推動〝台灣原住民族語計畫〞 (2025/2/18)</a>
+            <span class="date">2025/2/21</span>
+            <a href="https://mashdigi.com/the-worlds-largest-open-voice-database-mozilla-simultaneous-voice-project-includes-8-taiwanese-aboriginal-languages/" target="_blank">mashdigi － 全球最大的開放語音資料庫，Mozilla 同聲計畫收錄8種台灣原住民族語 | </a>
+          </li>
+          
+          <li>
+            <span class="date">2025/2/21</span>
+            <a href="https://newstaiwan.net/2025/02/21/283319/" target="_blank">台灣好報 － 2/21 國際母語日 Mozilla Common Voice 平台　新收錄八種台灣原住民族語 AI</a>
           </li>
 
           <li>
-            <a href="https://www.ithome.com.tw/tags/common-voice" target="_blank">ithome 對 Common Voice 的持續追蹤報導</a>
+            <span class="date">2025/2/21</span>
+            <a href="https://www.cool3c.com/article/235282" target="_blank">Cool3c － 全球最大開放語音資料庫 Mozilla 同聲計劃納入 8 種台灣原住民語</a>
+          </li>
+
+          <li>
+            <span class="date">2025/2/18</span>
+            <a href="https://www.ipcf.org.tw/-/Radio/Radio_News_Page?newsId=25022016581098188" target="_blank">原住民族廣播電台 － 結合 AI 打造族語語音資料庫 台灣維基媒體協會推動〝台灣原住民族語計畫〞</a>
+          </li>
+
+          <li>
+            <span class="date">2021/9/1</span>
+            <a href="https://www.cool3c.com/article/164863" target="_blank">Cool3c － NVIDIA 以 AI 人工智慧打造擬人化語音應用提供更自然的人機互動 #Mozilla Common Voice</a>
+          </li>
+
+          <li>
+            <span class="date">2020/7/6</span>
+            <a href="https://www.ithome.com.tw/news/138597" target="_blank">iThome － Mozilla 釋出最新長達 7,226 個小時的 Common Voice 語音資料集</a>
+          </li>
+          
+          <li>
+            <span class="date">2019/3/1</span>
+            <a href="https://www.ithome.com.tw/news/129042" target="_blank">iThome － Mozilla 公開全球最大公共領域轉錄語音資料集</a>
+          </li>
+
+          <li>
+            <span class="date">2019/1/24</span>
+            <a href="https://technews.tw/2019/01/24/mozilla-common-voice-multi-language-package-beta-is-release-to-the-community/" target="_blank">TechNews 科技新報 － 總長 30 小時鄉民貢獻聲音，Mozilla 同聲計畫中文語音資料搶鮮版開放下載</a> 
+          </li>
+
+          <li>
+            <span class="date">2018/7/20</span>
+            <a href="https://www.bnext.com.tw/article/45432/mozilla-asks-everyone-to-donate-their-voice" target="_blank">數位時代 － Mozilla 號召網友「獻聲」，要打造開源語音辨識系統</a> 
+          </li>
+
+          <li>
+            <span class="date">2018/7/19</span>
+            <a href="https://www.ithome.com.tw/news/124656" target="_blank">iThome － 捐出你的聲音! Mozilla 開源語音資料專案 Common Voice 開始募集正體中文音檔</a> 
           </li>
 
           <li>
@@ -251,6 +300,26 @@
         </ul>
       </div>
 
+      <div class="grid-12 news-block">
+        <h3>外媒介紹</h3>
+        <ul>
+          <li>
+            <!-- <span class="date">2024/11/15</span> -->
+            <a href="https://www.technologyreview.com/2024/11/15/1106935/how-this-grassroots-effort-could-make-ai-voices-more-diverse/" target="_blank">MIT Technology Review  －  How this grassroots effort could make AI voices more diverse</a> 
+          </li>
+
+          <li>
+            <!-- <span class="date">2024/11/8</span> -->
+            <a href="https://www.fastcompany.com/91224595/mozilla-is-now-offering-free-ai-voice-training-data-in-180-languages" target="_blank">Fast Company  －  Mozilla is now offering free AI voice training data in 180 languages</a>
+          </li>
+
+          <li>
+            <!-- <span class="date">2024/10/16</span> -->
+            <a href="https://www.ft.com/content/bdab80fe-e800-4c1c-926d-a6faa750cd57" target="_blank">Financial Times  －  Can AI help Africa close the development gap?</a>    
+          </li>
+        </ul>
+      </div>
+
       <div class="grid-6">
         <h2>常見問題</h2>
         <p>更多資訊與 FAQ 請參考：<a href="https://docs.google.com/document/d/1Du9DKVQmvAUUSVGOZ0PeapStqsGR38hUxIkTv8j-SUY/edit?tab=t.0" target="_blank">族語補助專案與錄音網站操作手冊</a></p>
@@ -258,7 +327,7 @@
 
       <div class="grid-6">
         <h2>聯絡資料</h2>
-        <p>台灣維基媒體協會 Common Voice 族語錄音補助專案<br> 專案執行 Irvin Chen (陳心一)<br> 0933561278 / irvin@moztw.org</p>
+        <p>台灣維基媒體協會 Common Voice 族語錄音補助專案<br> 專案執行 Irvin Chen (陳心一)<br> irvin@moztw.org</p>
       </div>
 
     </section>
