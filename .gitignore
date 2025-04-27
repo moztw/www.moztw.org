@@ -2,3 +2,6 @@ node_modules
 
 .DS_Store
 Thumbs.db
+
+# Don't track the built site files'
+/_site/
