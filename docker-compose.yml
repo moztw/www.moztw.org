@@ -1,17 +1,58 @@
-version: '3.4'
-
+# Docker Compose configuration file
+#
+# References:
+#
+# * Compose Specification | Compose file reference | Reference | Docker Docs
+#   https://docs.docker.com/compose/compose-file/
+#
+# Copyright 2025 林博仁(Buo-ren Lin) <buo.ren.lin@gmail.com>
+# SPDX-License-Identifier: MPL-2.0
+name: www-moztw-org
 services:
-  httpd:
-    container_name: moztw-httpd
-    image: httpd
-    restart: unless-stopped
-    ports:
-      - "8080:80" # change 8080 to whatever you want to listen to, e.g. "8888:80" will listen to port 8888
+  # Environment for developing the project
+  dev-environment:
+    container_name: www-moztw-org-dev
+    hostname: www-moztw-org-dev
+    image: ubuntu:24.04
     volumes:
-      - .:/var/www/html
-      - ./docker-apache.conf:/usr/local/apache2/conf/httpd.conf
-    healthcheck:
-      test: [ "CMD", "service" ,"apache2", "status" ]
-      interval: 5s
-      timeout: 20s
-      retries: 10
+      - type: bind
+        source: ./
+        target: /project
+      - type: bind
+        source: ./dev-utils/deploy-dev-env.sh
+        target: /etc/profile.d/20-deploy-dev-env.sh
+    environment:
+      # Set this environment variable to your local timezone settings for proper operation timestamp
+      - TZ=CST-8
+
+      # Avoid debconf interactive prompts on Debian-like systems
+      - DEBIAN_FRONTEND=noninteractive
+    ports:
+      # For serving the website
+      - 127.0.0.1:3000:3000
+      # Browsersync
+      - 127.0.0.1:3001:3001
+    init: true
+    command: sleep infinity
+    profiles:
+      - dev
+
+  # Environment for testing the project
+  test-environment:
+    container_name: www-moztw-org-test
+    hostname: www-moztw-org-test
+    image: nginx:1.27-alpine
+    volumes:
+      - type: bind
+        source: ./_site
+        target: /usr/share/nginx/html
+        read_only: true
+      - type: bind
+        source: ./dev-utils/nginx-default.conf
+        target: /etc/nginx/conf.d/default.conf
+        read_only: true
+    ports:
+      # For serving the website
+      - 8080:80
+    profiles:
+      - test
