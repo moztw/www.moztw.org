@@ -1,0 +1,324 @@
+<!--#include virtual="/sandstone/meta.shtml" -->
+<title>2025 年在台灣經營一個網路平台，上頭有多少個主管機關？ | MozTW</title>
+<!-- <meta name="description" content="" /> -->
+<meta property="og:title" content="猜猜看！2025 年在台灣，經營一個網路平台，上頭有多少個主管機關？" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://moztw.org/events/web-regulation/" />
+<!-- <meta property="og:image" content="http://moztw.org/common-voice/images/common-voice-sakizaya.jpg" /> -->
+<!-- <meta property="og:description" content="" /> -->
+<link href="css/mozspacetp.css" rel="stylesheet" />
+<style>
+/*
+  #masthead {
+    background-image: url(images/common-voice-sakizaya.jpg);
+    background-size: 100% 100%;
+    padding-bottom: 52.5%;
+    box-shadow: 0 10px 10px #ddd;
+
+    margin-bottom: 25px;
+    font-size: 0;
+  }
+  #masthead h1, #masthead h2, #masthead .small {
+    font-size: 0;
+  }
+*/
+  #masthead .hgroup {
+    padding: 0 !important;
+  }
+  main header {
+    margin-bottom: 25px;
+  }
+  main h3 {
+    margin-top: 0;
+  }
+  main section h2 {
+    font-size: 28px;
+    margin-bottom: 0.33em;
+  }
+  .news-block .date {
+    min-width: 5.5em;
+    font-family: monospace;
+    font-size: 0.85em;
+    display: inline-block
+  }
+</style>
+<!--#include virtual="/inc/class_homepage.html" -->
+<!--#include virtual="/sandstone/header.shtml" -->
+
+<header id="masthead" role="banner">
+  <div class="hgroup">
+    <h1 id="site-title">（ＷＩＰ，請暫勿轉出）2025 年在台灣，經營一個網路平台，<br>上頭有多少個主管機關？ </h1>
+    <!-- <h2 id="site-description"></h2> -->
+    <span class="small">MozTW 攤位活動 @ COSCUP 2025</span>
+  </div>
+</header>
+
+
+
+<div id="wrap">
+  <main>
+
+    <section id="guess" class="grids">
+      <header>
+        <div class="hgroup">
+          <h2>猜猜看！</h2>
+        </div>
+      </header>
+      <div class="grid-12">
+        <ul>
+          <li><a href="#answer_1">1個</a></li>
+          <li><a href="#answer_2">2個</a></li>
+          <li><a href="#answer_3">3個</a></li>
+          <li><a href="#answer_4">4個</a></li>
+          <li><a href="#answer_unlimited">超過5個</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="answer_1" class="grids answer">
+      <header>
+        <div class="hgroup">
+          <h2>一個</h2>
+        </div>
+      </header>
+      <div class="grid-12">
+        <p>你以為在台灣經營網站，只有數發部長來腦控？</p>
+        <p>錯，<a href="#guess">再猜一次！</a></p>
+      </div>
+    </section>
+
+    <section id="answer_2" class="grids">
+      <header>
+        <div class="hgroup">
+          <h2>兩個</h2>
+        </div>
+      </header>
+      <div class="grid-12">
+        <p>數發部＋ＮＣＣ，你說誰才負責封網？</p>
+        <p>錯，<a href="#guess">再猜一次！</a></p>
+      </div>
+    </section>
+
+    <section id="answer_3" class="grids">
+      <header>
+        <div class="hgroup">
+          <h2>三個</h2>
+        </div>
+      </header>
+      <div class="grid-12">
+        <p>數發部＋ＮＣＣ＋衛福部，WIN 了嗎！</p>
+        <p>錯，<a href="#guess">再猜一次！</a></p>
+      </div>
+    </section>
+
+    <section id="answer_4" class="grids">
+      <header>
+        <div class="hgroup">
+          <h2>四個</h2>
+        </div>
+      </header>
+      <div class="grid-12">
+        <p>數發部＋ＮＣＣ＋衛福部＋法務部，人說賺錢的方式都寫在刑法⋯⋯</p>
+        <p>錯，<a href="#guess">再猜一次！</a></p>
+      </div>
+    </section>
+
+    <section id="answer_unlimited" class="grids">
+      <header>
+        <div class="hgroup">
+          <h2>正確答案：數不清的主管機關</h2>
+        </div>
+      </header>
+      <div class="grid-12">
+        <p>數發部＋ＮＣＣ＋衛福部＋法務部＋內政部＋經濟部＋金管會＋公平會＋縣市政府＋⋯⋯⋯⋯</p>
+        <p>2025 年的台灣，這個<u>拒絕了《中介法》</u>的時間線，上述任一個機關，都可能隨時發函、來電、帶隊來訪，要求你<em>依法</em>下架內容、提供個資、配合調查，或直接對你開立罰單⋯⋯</p>
+        <p>這是我們要的自由的網路嗎？</p>
+        <p>這麼多單位在監管網路，誰來保護使用者的言論自由，減輕平台經營者無止盡增長，又標準不一的法遵壓力？</p>
+      </div>
+    </section>
+
+    <section id="advocate" class="grids">
+      <div class="grid-12">
+        <p>我們主張：</p>
+      </div>
+      <header>
+        <div class="hgroup">
+          <h2>台灣需要單一專業的網路平台主管機關，以及一部保護網路言論自由的法規</h2>
+        </div>
+      </header>
+    </section>
+
+    <section id="detail" class="grids">
+      <!-- <header>
+        <div class="hgroup">
+          <h2>背景說明</h2>
+        </div>
+      </header> -->
+      <div class="grid-12">
+        <p>自 2022 年 8 月《數位中介服務法》草案暫停推動至今，在「平台需負起責任」的社會共識與大眾要求之下，各目的事業主管機關，紛紛制定新法或修法，對於網路上的違法資訊與行為進行監管。</p>
+        <p>諸如打詐條例、疫區豬肉、菸害防制法、選舉罷免法、性剝削防制條例、著作權法⋯⋯等，不同的主題、平台樣態與內容類型，各有不同的規則與監管執行強度，有的法規對於網站上的使用者內容（User-Generated Content）採行「通知與下架」的規定，有的採行第三方機構中介，有的則是對網站直接且連續開罰。</p>
+
+        <p>甚至部分法規的框架與內涵，已迫使網路平台業者需建立實質「自我審查」與「關鍵字封鎖」的機制；抑或缺乏平台樣貌的考量，將單一或或粗糙的規則，套用到不同類型（短影音、討論區、拍賣、搜索、媒體、廣告⋯⋯）與規模（百人千人的小眾社群、數十萬使用者的中型網站、使用率達到九成以上、超越國家規模）的平台上。</p>
+
+        <p>以上諸多現象，令我們深切擔憂。網路平台不應自外於民主法治社會，但管理網路業者，應有更一致性標準，合理的自律與協力機制，以多方利害關係人的共識為基礎，並由單一專業的主管機關來主責，協助與推動台灣的數位科技產業。</p>
+
+        <p>MozTW 社群自 2012 年 SOPA/PIPA 開始關注網路平台管制議題，並在 2019 年與 OCF 開放文化基金會及公民科技社群成員們，共同發起「網路自由小聚」，以一個月一次的頻率，持續討論各項網路自由與數位人權議題。</p>
+
+        <p>近來我們關注到此一負面趨勢，希望依此表達對於現況的憂心與期許。邀請您一起加入我們的行列，共同捍衛網路自由與數位人權，持續維護網路及民主社會的發展與持續創新。</p>
+
+        <p>如您願意一起關切此議題，請透過以下管道參與：
+        </p>
+
+        <ul>
+          <li>訂閱 <a target="_blank" href="https://groups.google.com/u/1/g/coffee-circumvention-tw">「網路自由小聚」郵件群組</a>，將會寄信通知您每個月的討論主題與活動資訊</li>
+          <li>加入 MozTW 社群<a target="_blank" href="https://moztw.org/community/telegram/">「數位人權與網路治理」Telegram 群組</a></li>
+          <li>參加每週五晚上<a target="_blank" href="https://moztw.org/events/moztw-lab/">「MozTW Lab」定期聚會</a></li>
+          <li>追蹤 MozTW 社群，按讚訂閱分享小鈴噹： <a target="_blank" href="https://www.facebook.com/MozTW/">Facebook</a>、<a target="_blank" href="https://www.youtube.com/@MozTW/">YouTube</a></li>
+          <li>還可以每月<a target="_blank" href="http://moztw.space/donate">抖內一杯咖啡的錢，支持「摩茲工寮」社群空間</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="readmore" class="grids">
+      <header>
+        <div class="hgroup">
+          <h3>延伸閱讀</h3>
+        </div>
+      </header>
+      <div class="grid-12">
+
+        <ul>
+          <li><a target="_blank" href="https://hackmd.io/efBMZl4ITImkxUOjlmByHg?view#20250618-網路言論自由的界線---UGC、法律與我們的言論權利">網路自由小聚「網路言論自由的界線」討論共筆</a></li>
+          <li><a target="_blank" href="https://hackmd.io/@moztw/taiwan-internet-laws">台灣現行的網路平台監管相關法規</a></li>
+          <li><a target="_blank" href="https://blog.ocf.tw/2025/07/e-cigar.html">防制電子煙的代價是台灣的網路言論自由？ | 開放文化基金會</a></li>
+          <li><a target="_blank" href="https://newsweb.ncc.gov.tw/202412/ch5.html">網路中介平臺內容管制模式最近發展：從「通知即下架」到被「封網」</a></li>
+          <li><a target="_blank" href="https://www.bnext.com.tw/topic/view/867">一紙電子煙禁令，如何引爆網路平台史上最嚴裁處風暴？ | 數位時代深度專題</a></li>
+          <li><a target="_blank" href="https://www.ncc.gov.tw/chinese/files/24071/5705_50457_240716_1.pdf">網際網路傳播政策白皮書（初稿）：平臺自律、部會協力、共識治理</a></li>
+        </ul>
+
+      </div>
+    </section>
+
+    <section id="laws" class="grids">
+      <header>
+        <div class="hgroup">
+          <h3>現行（部分的）網路監管法規</h3>
+        </div>
+      </header>
+      <div class="grid-12">
+        <p class="issue-type" id="投資詐騙">投資、詐騙</p>
+        <p>(YT, 廣告平台)</p>
+        <ul>
+        <li>「證券投資信託及顧問法」第70條之1 <code>金管會</code>
+        <ul>
+        <li>如平臺推播含有違法招攬或勸誘投資之廣告，平臺將與違法刊登廣告者及出資者，對於受害者之損失連帶負責。</li>
+        </ul>
+        </li>
+        <li>「詐欺犯罪危害防制條例」（打詐條例）<code>內政部；直轄市與縣市政府</code>
+        <ul>
+        <li>網路廣告平臺業者於知悉其刊登或推播之廣告為詐欺廣告或明顯涉及詐欺時，如未履行依規定主動或經通知下架廣告等義務時，經與廣告委託刊播者、出資者對於受害者負連帶損害賠償責任</li>
+        </ul>
+        </li>
+        <li>刑法第339條之4條（加重詐欺）第三項 <code>法務部</code>
+        <ul>
+        <li>以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，對公眾散布而犯之。</li>
+        </ul>
+        </li>
+        </ul>
+        <p class="issue-type" id="豬肉">豬肉</p>
+        <ul>
+        <li>「網際網路內容涉及境外應施檢疫物販賣至國內或輸入時應採取措施」<code>農委會防檢局</code>
+        <ul>
+        <li>電商平臺業者應依公告採取相關防範措施，例如在其平臺網頁應張貼警語、限制接取、瀏覽或移除應施檢疫物廣告等，另依該措施第5點第2項後段規定，電商平臺業者得採內部系統篩檢或經由一般民眾檢舉，對來自非洲豬瘟疫區之豬肉產品於知悉時即應下架網頁。違反前述規定者，依動物傳染病防治條例第45條可處最高15萬元罰鍰。</li>
+        </ul>
+        </li>
+        <li>動物傳染病防治條例第45條 <code>行政院農業委員會；直轄市與縣市政府</code></li>
+        </ul>
+        <p class="issue-type" id="菸酒">菸酒</p>
+        <p>(電子煙)</p>
+        <ul>
+        <li>菸害防制法第15條 <code>衛生福利部；直轄市與縣市政府</code>
+        <ul>
+        <li>廣告業或傳播媒體業者如製作廣告、接受傳播或刊載，處新臺幣40萬元至2百萬元罰鍰；製造業、輸入業、廣告業、傳播媒體業者或廣告委託人以外之人，則處新臺幣20萬元至1百萬元罰鍰。販賣、展示類菸品或其組合元件，處新臺幣20萬元至1百萬元罰鍰。 （2023/3 修法）</li>
+        </ul>
+        </li>
+        <li>《菸酒管理法》第30條第1項 <code>財政部；直轄市與縣市政府。</code>
+        <ul>
+        <li>酒之販賣或轉讓，不得以自動販賣機、郵購、電子購物或其他無法辨識購買者或受讓者年齡等 方式為之。</li>
+        </ul>
+        </li>
+        <li>《兒童及少年福利與權益保障法》第43、44條與第91條</li>
+        </ul>
+        <p class="issue-type" id="藥毒品">藥、毒品</p>
+        <ul>
+        <li>《毒品危害防制條例》 <code>法務部</code></li>
+        <li>《藥事法》第27條與第92條 <code>衛生福利部；直轄市與縣市政府</code></li>
+        </ul>
+        <p class="issue-type" id="色情內容性剝削影像">色情內容、性剝削影像</p>
+        <ul>
+        <li>《刑法》第235條 <code>法務部</code></li>
+        <li>《兒童及少年性剝削防制條例》 <code>衛生福利部；直轄市與縣市政府</code></li>
+        <li>衛部護字第1130014287號函釋</li>
+        </ul>
+        <p class="issue-type" id="誹謗侮辱">誹謗侮辱</p>
+        <ul>
+        <li>刑法第310、311條 <code>法務部</code>
+        <ul>
+        <li>平台不得縱容誹謗、侮辱行為，若明知不移除可被追究共犯。</li>
+        </ul>
+        </li>
+        </ul>
+        <p class="issue-type" id="錯假訊息">錯假訊息</p>
+        <ul>
+        <li>《社會秩序維護法》第63條第一項第五款 <code>內政部</code>
+        <ul>
+        <li>散佈謠言，足以影響公共之安寧者。</li>
+        </ul>
+        </li>
+        <li>《傳染病防治法》第63條 <code>衛生福利部；直轄市與縣市政府</code>
+        <ul>
+        <li>散布有關傳染病流行疫情之謠言或傳播不實之流行疫情消息，足以生損害於公眾或他人者</li>
+        </ul>
+        </li>
+        </ul>
+        <p class="issue-type" id="選舉">選舉</p>
+        <p>(廣告留存方式)</p>
+        <ul>
+        <li>《公職人員選舉罷免法》第104-106條（意圖使候選人當選或不當選） <code>內政部</code></li>
+        <li>競選罷免廣告刊播及其留存紀錄辦法 <code>中央選舉委員會</code>
+        <ul>
+        <li>第六條應載明事項</li>
+        <li>第七條留存資料</li>
+        </ul>
+        </li>
+        </ul>
+        <p class="issue-type" id="消費者保護">消費者保護</p>
+        <ul>
+        <li>《消費者保護法》第19條（七日內退貨） <code>目的事業主管機關；直轄市與縣市政府</code></li>
+        <li>《公平交易法》第21條（不實廣告，含網紅代言）  <code>公平交易委員會</code></li>
+        </ul>
+        <p class="issue-type" id="智慧財產權">智慧財產權</p>
+        <ul>
+        <li>《著作權法》第87-88條（侵害著作權） <code>經濟部</code>
+        <ul>
+        <li>第六章之一 網路業者免責條款（90-4條~90-12條）(避風港)</li>
+        </ul>
+        </li>
+        <li>《商標法》第68條 <code>經濟部</code>
+        <ul>
+        <li>未得商標權人同意，為行銷目的而製造、販賣、持有、陳列、輸出或輸入附有相同或近似於註冊商標之標籤、吊牌、包裝容器或與服務有關之物品者，亦為侵害商標權。</li>
+        </ul>
+        </li>
+        </ul>
+
+
+      </div>
+    </section>
+
+
+
+
+
+  </main>
+</div>
+<!--#include virtual="/sandstone/footer.shtml" -->
