@@ -1,20 +1,20 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
-<title>2025 年的台灣，經營一個網路平台，有多少個主管機關？ | MozTW</title>
+<title>2025 年的台灣，經營一個網路平台，上頭有多少主管機關？ | MozTW</title>
 <!-- <meta name="description" content="" /> -->
-<meta property="og:title" content="猜猜看！2025 年在台灣，經營一個網路平台，上頭有多少個主管機關？" />
+<meta property="og:title" content="猜猜看！2025 年在台灣，經營一個網路平台，上頭有多少主管機關？" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://moztw.org/events/web-regulation/" />
-<!-- <meta property="og:image" content="http://moztw.org/common-voice/images/common-voice-sakizaya.jpg" /> -->
-<!-- <meta property="og:description" content="" /> -->
+<meta property="og:image" content="https://moztw.org/events/service-regulator/images/og.png" />
+<meta property="og:description" content="有多少個政府單位會來「關心」你？" />
 <link href="css/styles.css" rel="stylesheet" />
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
 <header id="masthead" role="banner">
   <div class="hgroup">
-    <h1 id="site-title">2025 年的台灣，一個網路平台，<br>上頭有多少個主管機關？ </h1>
+    <h1 id="site-title">2025 年的台灣，一個網路平台，<br>上頭有多少主管機關？ </h1>
     <!-- <h2 id="site-description"></h2> -->
-    <span class="small">MozTW 攤位活動 @ COSCUP 2025</span>
+    <span class="small">MozTW @ COSCUP 2025</span>
   </div>
 </header>
 
@@ -25,7 +25,7 @@
       <header>
         <div class="hgroup">
           <h2>猜猜看！</h2>
-          <p>在台灣經營一個網站，會有多少個政府單位「關心」你？</p>
+          <p>在台灣經營一個網站，會有多少個政府單位來「關心」你？</p>
         </div>
       </header>
       <div>
