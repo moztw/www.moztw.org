@@ -6,42 +6,7 @@
 <meta property="og:url" content="https://moztw.org/events/web-regulation/" />
 <!-- <meta property="og:image" content="http://moztw.org/common-voice/images/common-voice-sakizaya.jpg" /> -->
 <!-- <meta property="og:description" content="" /> -->
-<link href="css/mozspacetp.css" rel="stylesheet" />
-<style>
-/*
-  #masthead {
-    background-image: url(images/common-voice-sakizaya.jpg);
-    background-size: 100% 100%;
-    padding-bottom: 52.5%;
-    box-shadow: 0 10px 10px #ddd;
-
-    margin-bottom: 25px;
-    font-size: 0;
-  }
-  #masthead h1, #masthead h2, #masthead .small {
-    font-size: 0;
-  }
-*/
-  #masthead .hgroup {
-    padding: 0 !important;
-  }
-  main header {
-    margin-bottom: 25px;
-  }
-  main h3 {
-    margin-top: 0;
-  }
-  main section h2 {
-    font-size: 28px;
-    margin-bottom: 0.33em;
-  }
-  .news-block .date {
-    min-width: 5.5em;
-    font-family: monospace;
-    font-size: 0.85em;
-    display: inline-block
-  }
-</style>
+<link href="css/styles.css" rel="stylesheet" />
 <!--#include virtual="/inc/class_homepage.html" -->
 <!--#include virtual="/sandstone/header.shtml" -->
 
@@ -53,92 +18,90 @@
   </div>
 </header>
 
-
-
 <div id="wrap">
   <main>
 
-    <section id="guess" class="grids">
+    <section id="guess">
       <header>
         <div class="hgroup">
           <h2>猜猜看！</h2>
         </div>
       </header>
-      <div class="grid-12">
-        <ul>
-          <li><a href="#answer_1">1個</a></li>
-          <li><a href="#answer_2">2個</a></li>
-          <li><a href="#answer_3">3個</a></li>
-          <li><a href="#answer_4">4個</a></li>
-          <li><a href="#answer_unlimited">超過5個</a></li>
-        </ul>
+      <div>
+        <div class="guess-options">
+          <div class="guess-option" data-answer="answer_1">1個</div>
+          <div class="guess-option" data-answer="answer_2">2個</div>
+          <div class="guess-option" data-answer="answer_3">3個</div>
+          <div class="guess-option" data-answer="answer_4">4個</div>
+          <div class="guess-option" data-answer="answer_unlimited">5個以上</div>
+        </div>
       </div>
     </section>
 
-    <section id="answer_1" class="grids answer">
+    <section id="answer_1" class="answer">
       <header>
         <div class="hgroup">
-          <h2>一個</h2>
+          <h2>一個？</h2>
         </div>
       </header>
-      <div class="grid-12">
-        <p>你以為在台灣經營網站，只有數發部長來腦控？</p>
-        <p>錯，<a href="#guess">再猜一次！</a></p>
+      <div>
+        <p>你以為在台灣經營網站，只有數發部一個主管機關嗎？</p>
+        <p><a href="#" class="back-to-guess">錯，再猜一次！</a></p>
       </div>
     </section>
 
-    <section id="answer_2" class="grids">
+    <section id="answer_2" class="answer">
       <header>
         <div class="hgroup">
-          <h2>兩個</h2>
+          <h2>兩個？</h2>
         </div>
       </header>
-      <div class="grid-12">
-        <p>數發部＋ＮＣＣ，你說誰才負責封網？</p>
-        <p>錯，<a href="#guess">再猜一次！</a></p>
+      <div>
+        <p>數發部＋ＮＣＣ，誰來封網？</p>
+        <p><a href="#" class="back-to-guess">錯，再猜一次！</a></p>
       </div>
     </section>
 
-    <section id="answer_3" class="grids">
+    <section id="answer_3" class="answer">
       <header>
         <div class="hgroup">
-          <h2>三個</h2>
+          <h2>三個？</h2>
         </div>
       </header>
-      <div class="grid-12">
+      <div>
         <p>數發部＋ＮＣＣ＋衛福部，WIN 了嗎！</p>
-        <p>錯，<a href="#guess">再猜一次！</a></p>
+        <p><a href="#" class="back-to-guess">錯，再猜一次！</a></p>
       </div>
     </section>
 
-    <section id="answer_4" class="grids">
+    <section id="answer_4" class="answer">
       <header>
         <div class="hgroup">
-          <h2>四個</h2>
+          <h2>四個？</h2>
         </div>
       </header>
-      <div class="grid-12">
-        <p>數發部＋ＮＣＣ＋衛福部＋法務部，人說賺錢的方式都寫在刑法⋯⋯</p>
-        <p>錯，<a href="#guess">再猜一次！</a></p>
+      <div>
+        <p>數發部＋ＮＣＣ＋衛福部＋法務部，人說賺錢的方式都寫在刑法？</p>
+        <p><a href="#" class="back-to-guess">錯，再猜一次！</a></p>
       </div>
     </section>
 
-    <section id="answer_unlimited" class="grids">
+    <section id="answer_unlimited" class="answer correct">
       <header>
         <div class="hgroup">
           <h2>正確答案：數不清的主管機關</h2>
         </div>
       </header>
-      <div class="grid-12">
+      <div>
         <p>數發部＋ＮＣＣ＋衛福部＋法務部＋內政部＋經濟部＋金管會＋公平會＋縣市政府＋⋯⋯⋯⋯</p>
-        <p>2025 年的台灣，這個<u>拒絕了《中介法》</u>的時間線，上述任一個機關，都可能隨時發函、來電、帶隊來訪，要求你<em>依法</em>下架內容、提供個資、配合調查，或直接對你開立罰單⋯⋯</p>
-        <p>這是我們要的自由的網路嗎？</p>
-        <p>這麼多單位在監管網路，誰來保護使用者的言論自由，減輕平台經營者無止盡增長，又標準不一的法遵壓力？</p>
+        <p>2025 年在台灣，這個拒絕了《中介法》草案的時間線，上述任一個機關，都可能隨時發函「請求」你（或任何在台灣經營的網站）下架內容、提供個資，配合調查。</p>
+        <p>這真的是我們要的「網路自由」嗎？</p>
+        <p>這麼多主管機關來監管網路，誰來保護使用者的言論自由，降低網站平台經營無止盡、標準不一、節節升高的法遵風險？</p>
       </div>
     </section>
 
-    <section id="advocate" class="grids">
-      <div class="grid-12">
+    <section id="advocate">
+      <div>
         <p>我們主張：</p>
       </div>
       <header>
@@ -148,13 +111,13 @@
       </header>
     </section>
 
-    <section id="detail" class="grids">
+    <section id="detail">
       <!-- <header>
         <div class="hgroup">
           <h2>背景說明</h2>
         </div>
       </header> -->
-      <div class="grid-12">
+      <div>
         <p>自 2022 年 8 月《數位中介服務法》草案暫停推動至今，在「平台需負起責任」的社會共識與大眾要求之下，各目的事業主管機關，紛紛制定新法或修法，對於網路上的違法資訊與行為進行監管。</p>
         <p>諸如打詐條例、疫區豬肉、菸害防制法、選舉罷免法、性剝削防制條例、著作權法⋯⋯等，不同的主題、平台樣態與內容類型，各有不同的規則與監管執行強度，有的法規對於網站上的使用者內容（User-Generated Content）採行「通知與下架」的規定，有的採行第三方機構中介，有的則是對網站直接且連續開罰。</p>
 
@@ -179,13 +142,13 @@
       </div>
     </section>
 
-    <section id="readmore" class="grids">
+    <section id="readmore">
       <header>
         <div class="hgroup">
           <h3>延伸閱讀</h3>
         </div>
       </header>
-      <div class="grid-12">
+      <div>
 
         <ul>
           <li><a target="_blank" href="https://hackmd.io/efBMZl4ITImkxUOjlmByHg?view#20250618-網路言論自由的界線---UGC、法律與我們的言論權利">網路自由小聚「網路言論自由的界線」討論共筆</a></li>
@@ -199,13 +162,13 @@
       </div>
     </section>
 
-    <section id="laws" class="grids">
+    <section id="laws">
       <header>
         <div class="hgroup">
           <h3>現行（部分的）網路監管法規</h3>
         </div>
       </header>
-      <div class="grid-12">
+      <div>
         <p class="issue-type" id="投資詐騙">投資、詐騙</p>
         <p>(YT, 廣告平台)</p>
         <ul>
@@ -321,4 +284,5 @@
 
   </main>
 </div>
+<script src="js/activity.js"></script>
 <!--#include virtual="/sandstone/footer.shtml" -->
