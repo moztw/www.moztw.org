@@ -1,5 +1,5 @@
 <!--#include virtual="/sandstone/meta.shtml" -->
-<title>2025 年在台灣經營一個網路平台，上頭有多少個主管機關？ | MozTW</title>
+<title>2025 年的台灣，經營一個網路平台，有多少個主管機關？ | MozTW</title>
 <!-- <meta name="description" content="" /> -->
 <meta property="og:title" content="猜猜看！2025 年在台灣，經營一個網路平台，上頭有多少個主管機關？" />
 <meta property="og:type" content="website" />
@@ -12,7 +12,7 @@
 
 <header id="masthead" role="banner">
   <div class="hgroup">
-    <h1 id="site-title">（ＷＩＰ，請暫勿轉出）2025 年在台灣，經營一個網路平台，<br>上頭有多少個主管機關？ </h1>
+    <h1 id="site-title">2025 年的台灣，一個網路平台，<br>上頭有多少個主管機關？ </h1>
     <!-- <h2 id="site-description"></h2> -->
     <span class="small">MozTW 攤位活動 @ COSCUP 2025</span>
   </div>
@@ -25,6 +25,7 @@
       <header>
         <div class="hgroup">
           <h2>猜猜看！</h2>
+          <p>在台灣經營一個網站，會有多少個政府單位「關心」你？</p>
         </div>
       </header>
       <div>
@@ -33,7 +34,8 @@
           <div class="guess-option" data-answer="answer_2">２個</div>
           <div class="guess-option" data-answer="answer_3">３個</div>
           <div class="guess-option" data-answer="answer_4">４個</div>
-          <div class="guess-option" data-answer="answer_unlimited">５個以上</div>
+          <div class="guess-option" data-answer="answer_unlimited">５個⋯⋯以上？
+          </div>
         </div>
       </div>
     </section>
@@ -45,7 +47,7 @@
         </div>
       </header>
       <div>
-        <p>你以為在台灣經營網站，只有數發部一個主管機關嗎？</p>
+        <p>你以為只有唐鳳會來煩你？</p>
         <p><a href="#" class="back-to-guess">錯，再猜一次！</a></p>
       </div>
     </section>
@@ -69,7 +71,7 @@
         </div>
       </header>
       <div>
-        <p>數發部＋ＮＣＣ＋衛福部，WIN 了嗎！</p>
+        <p>數發部＋ＮＣＣ＋衛福部，你 WIN 了嗎！</p>
         <p><a href="#" class="back-to-guess">錯，再猜一次！</a></p>
       </div>
     </section>
@@ -81,7 +83,7 @@
         </div>
       </header>
       <div>
-        <p>數發部＋ＮＣＣ＋衛福部＋法務部，人說賺錢的方式都寫在刑法？</p>
+        <p>數發部＋ＮＣＣ＋衛福部＋法務部，賺錢之前請研讀刑法</p>
         <p><a href="#" class="back-to-guess">錯，再猜一次！</a></p>
       </div>
     </section>
@@ -94,19 +96,19 @@
       </header>
       <div>
         <p>數發部＋ＮＣＣ＋衛福部＋法務部＋內政部＋經濟部＋金管會＋公平會＋縣市政府＋⋯⋯⋯⋯</p>
-        <p>2025 年在台灣，這個拒絕了《中介法》草案的時間線，上述任一個機關，都可能隨時發函「請求」你（或任何在台灣經營的網站）下架內容、提供個資，配合調查。</p>
-        <p>這真的是我們要的「網路自由」嗎？</p>
-        <p>這麼多主管機關來監管網路，誰來保護使用者的言論自由，降低網站平台經營無止盡、標準不一、節節升高的法遵風險？</p>
+        <p>在這個拒絕了《中介法》草案的時間線，上述任何一個機關都可能隨時發函，依法「請求」你下架內容、提供個資、配合調查。</p>
+        <p>這是我們想要的「網路自由」嗎？</p>
+        <p>這麼多機關同時監管資訊，誰來守護使用者的言論自由？誰能協助平台守住底線，因應基準不一、強弱難計、節節升高的法遵風險？</p>
       </div>
     </section>
 
     <section id="advocate">
       <div>
-        <p>我們認為：</p>
+        <p>我們認為</p>
       </div>
       <header>
         <div class="hgroup">
-          <h2>台灣需要單一專業的網路平台主管機關，以及一部保護網路言論自由的法規</h2>
+          <h2>台灣需要單一專業的<strong>網路平台主管機關</strong>，<br>以及<strong>保護網路言論自由的專法</strong></h2>
         </div>
       </header>
     </section>
@@ -118,30 +120,34 @@
         </div>
       </header> -->
       <div>
-        <p>自 2022 年 8 月《數位中介服務法》草案暫停推動至今，在「平台需負起責任」的社會共識與大眾要求之下，各目的事業主管機關，紛紛制定新法或修法，對於網路上的違法資訊與行為進行監管。</p>
-        <p>諸如打詐條例、疫區豬肉、菸害防制法、選舉罷免法、性剝削防制條例、著作權法⋯⋯等，不同的主題、平台樣態與內容類型，各有不同的規則與監管執行強度，有的法規對於網站上的使用者內容（User-Generated Content）採行「通知與下架」的規定，有的採行第三方機構中介，有的則是對網站直接且連續開罰。</p>
+        <p>自 2022 年 8 月，《數位中介服務法》草案暫停推動至今，在「平台需負起責任」的社會共識與民眾要求之下，各目的事業主管機關紛紛透過新法或修法，陸續開始控管網路上的違法資訊與行為。</p>
+        <p>這些規範涵蓋多種領域，諸如打詐條例、疫區豬肉、菸害防制法、選舉罷免法、性剝削防制條例、著作權法⋯⋯等，不同法規規範差異很大，有的採行「通知與下架」、有的透過第三方機構中介，有的直接對平台連續開罰。</p>
 
-        <p>甚至部分法規的框架與內涵，已迫使網路平台業者需建立實質「自我審查」與「關鍵字封鎖」的機制；抑或缺乏平台樣貌的考量，將單一或或粗糙的規則，套用到不同類型（短影音、討論區、拍賣、搜索、媒體、廣告⋯⋯）與規模（百人千人的小眾社群、數十萬使用者的中型網站、使用率達到九成以上、超越國家規模）的平台上。</p>
+        <p>某些規範忽略了平台規模與性質的差異，同時套用單一標準在短影音、討論區、拍賣網站、搜尋引擎、網路媒體、廣告平台等不同樣態上，或是從小型、中型、大型，以至超越國家規模的網站。</p>
 
-        <p>以上諸多現象，令我們深切擔憂。網路平台不應自外於民主法治社會，但管理網路業者，應有更一致性標準，合理的自律與協力機制，以多方利害關係人的共識為基礎，並由單一專業的主管機關來主責，協助與推動台灣的數位科技產業。</p>
+        <p>部分法規的框架內涵，以及特定主管機關的執行強度，甚至已迫使在台的網路業者，建立實質的「自我審查」與「關鍵字封鎖」機制。</p>
 
-        <p>MozTW 社群自 2012 年 SOPA/PIPA 開始關注網路平台管制議題，並在 2019 年與 OCF 開放文化基金會及公民科技社群成員們，共同發起「網路自由小聚」，以一個月一次的頻率，持續討論各項網路自由與數位人權議題。</p>
+        <p>我們對此深感憂慮。</p>
 
-        <p>近來我們關注到此一負面趨勢，希望依此表達對於現況的憂心與期許。邀請您一起加入我們的行列，共同捍衛網路自由與數位人權，持續維護網路及民主社會的發展與持續創新。</p>
+        <p>網路不應自外於民主法治社會，但管理應具備一致性標準。以多方利害關係人的共識為基礎，建立合理的自律與協力機制，由單一專業主管機關主責，才能繼續推動台灣的數位科技產業發展。</p>
+
+        <p>MozTW 自 2012 年 SOPA/PIPA 運動開始，長期關注網路平台監管議題，並在 2019 年協同 OCF 開放文化基金會及公民科技社群成員，共同發起「網路自由小聚」。至今持續以每月一次的頻率，討論與關注各項網路自由與數位人權議題。</p>
+
+        <p>此一負面發展令我們深感憂慮。我們希望藉此活動，凝聚更多人的關注，以共同捍衛網路自由與數位人權，讓台灣的網路環境及民主社會持續創新與成長。</p>
       </div>
     </section>
 
     <section id="action">
       <div>
-        <p>如您願意一起關切此議題，請透過以下管道參與：
+        <p>如您願意一起關切，請透過以下管道參與：
         </p>
 
         <ul>
-          <li>訂閱 <a target="_blank" href="https://groups.google.com/u/1/g/coffee-circumvention-tw">「網路自由小聚」郵件群組</a>，將會寄信通知您每個月的討論主題與活動資訊</li>
-          <li>加入 MozTW 社群<a target="_blank" href="https://moztw.org/community/telegram/">「數位人權與網路治理」Telegram 群組</a></li>
-          <li>參加每週五晚上<a target="_blank" href="https://moztw.org/events/moztw-lab/">「MozTW Lab」定期聚會</a></li>
+          <li><a target="_blank" href="https://groups.google.com/u/1/g/coffee-circumvention-tw">訂閱「網路自由小聚」郵件群組</a> 追蹤每月的討論主題與活動資訊</li>
+          <li>加入 MozTW<a target="_blank" href="https://moztw.org/community/telegram/">「數位人權與網路治理」Telegram 群組</a></li>
+          <li><a target="_blank" href="https://moztw.org/events/moztw-lab/">參加每週五晚上「MozTW Lab」定期聚會</a></li>
           <li>追蹤 MozTW 社群，按讚訂閱分享小鈴噹： <a target="_blank" href="https://www.facebook.com/MozTW/">Facebook</a>、<a target="_blank" href="https://www.youtube.com/@MozTW/">YouTube</a></li>
-          <li>還可以每月<a target="_blank" href="http://moztw.space/donate">抖內一杯咖啡的錢，支持「摩茲工寮」社群空間</a></li>
+          <li>還可以每月抖內一杯咖啡的錢，<a target="_blank" href="https://ocf.tw/donate">支持開放文化基金會</a>，或<a target="_blank" href="http://moztw.space/donate">「摩茲工寮」社群空間</a>持續營運</li>
         </ul>
       </div>
     </section>
@@ -272,7 +278,7 @@
         </li>
         </ul>
 
-
+        <a href="https://hackmd.io/@moztw/taiwan-internet-laws" target="_blank">一起整理共筆</a>
       </div>
     </section>
 

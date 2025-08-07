@@ -1,10 +1,12 @@
 /* 倡議活動頁面樣式 */
 :root {
-  --primary-color: #0060df;
+  --primary-color: #0095dd;
+  --primary-color-dark: #007bb7;
   --secondary-color: #ff7139;
-  --success-color: #30d158;
+  --success-color: #ff453a;
   --warning-color: #ff9f0a;
   --error-color: #ff453a;
+  --error-color-dark: #ff0000;
   --text-color: #15141a;
   --bg-color: #f8f9fa;
   --border-color: #cfcfd8;
@@ -18,12 +20,13 @@
 
 /* header */
 #masthead {
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  background: linear-gradient(180deg, var(--secondary-color), var(--error-color));
   color: var(--bg-color);
   padding: 60px 0;
   text-align: center;
   margin-bottom: 40px;
 
+  position: relative;
   /*
   background-image: url(images/common-voice-sakizaya.jpg);
   background-size: 100% 100%;
@@ -35,23 +38,66 @@
   */
 }
 
+#masthead:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url(../images/foxmosa-sticker-22.png) no-repeat left;
+  background-position: 5% bottom;
+  background-size: auto 90%;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  z-index: 1;
+}
+
+@media (max-width: 1200px) {
+  #masthead:after {
+    background-position: left bottom;
+    background-size: auto 85%;
+  }
+}
+@media (max-width: 980px) {
+  #masthead {
+    padding-bottom: 100px;
+  }
+  #masthead:after {
+    background-size: auto 66%;
+  }
+}
+@media (max-width: 768px) {
+  #masthead:after {
+    background-size: auto 60%;
+  }
+}
+@media (max-width: 480px) {
+  #masthead:after {
+    top: 30px;
+    background-size: auto 150px;
+  }
+}
+
 #masthead .hgroup {
   background: transparent;
-  padding: 0 !important;
   padding: 0;
+  position: relative;
+  z-index: 2;
 }
 
 #site-title {
   font-size: 2.5rem;
-  font-weight: 700;
+  /* font-weight: 500; */
+  line-height: 1.25em;
   margin-bottom: 10px;
-  text-shadow: none;
+  text-shadow: var(--shadow);
 }
 
 #masthead .small {
+  margin-top: 1em;
   font-size: 1.1rem;
-  opacity: 0.9;
+  display: block;
 }
+
 
 /*
   #masthead h1, #masthead h2, #masthead .small {
@@ -100,7 +146,8 @@ main section .hgroup h2 {
 
 main section h3 {
   font-size: 1.5rem;
-  margin-bottom: 25px;
+  margin-top: 0.5em;
+  margin-bottom: 0.75em;
   text-align: center;
   color: var(--text-color);
 }
@@ -108,6 +155,10 @@ main section h3 {
 /* 倡議活動頁面特定樣式 */
 
 /* 猜測區域 */
+#guess {
+  text-align: center;
+}
+
 #guess h2, #answer h2 {
   color: var(--primary-color);
 }
@@ -176,24 +227,23 @@ main section h3 {
 
 .back-to-guess {
   display: inline-block;
-  background: var(--primary-color);
+  background: var(--error-color);
   color: white;
   padding: 12px 24px;
   border-radius: 8px;
   text-decoration: none;
-  font-weight: 600;
-  margin-top: 20px;
+  margin-top: 10px;
   transition: background-color 0.3s ease;
 }
 
 .back-to-guess:hover {
-  background: #0050c9;
+  background: var(--error-color-dark);
   color: white;
 }
 
 /* 倡議區域 */
 #advocate {
-  background: linear-gradient(135deg, var(--success-color), #00c853);
+  background: linear-gradient(180deg, var(--secondary-color), var(--success-color));
   color: white;
   text-align: center;
 }
@@ -277,21 +327,23 @@ main section h3 {
 }
 
 #readmore li {
-  background: white;
-  padding: 15px 20px;
   margin-bottom: 10px;
-  border-radius: 8px;
-  box-shadow: var(--shadow);
-  transition: transform 0.3s ease;
-}
-
-#readmore li:hover {
-  transform: translateX(5px);
 }
 
 #readmore a {
+  color: var(--text-color);
+  display: block;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
   text-decoration: none;
-  font-weight: 500;
+}
+
+#readmore a:hover {
+  transform: translateX(5px);
+  text-decoration: none;
 }
 
 #readmore a:hover {
