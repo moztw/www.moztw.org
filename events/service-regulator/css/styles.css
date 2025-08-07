@@ -59,13 +59,16 @@
 }
 @media (max-width: 980px) {
   #masthead {
-    padding-bottom: 100px;
+    padding-bottom: 80px;
   }
   #masthead:after {
     background-size: auto 66%;
   }
 }
 @media (max-width: 768px) {
+  #masthead {
+    padding-bottom: 100px;
+  }
   #masthead:after {
     background-size: auto 60%;
   }
@@ -246,6 +249,7 @@ main section h3 {
   background: linear-gradient(180deg, var(--secondary-color), var(--success-color));
   color: white;
   text-align: center;
+  margin-top: 40px;
 }
 
 #advocate h2 {
