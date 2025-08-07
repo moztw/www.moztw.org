@@ -70,7 +70,13 @@
   -o-transition: padding, width .5s ease-out;
   -webkit-transition: padding, width .5s ease-out;
   transition: padding, width .5s ease-out;
-  width: 960px; /* was 1000px here */
+  width: 100%;
+  max-width: 960px;
+}
+
+main {
+  font-size: 1.1rem;
+  line-height: 1.5em;
 }
 
 main header {
@@ -161,7 +167,6 @@ main section h3 {
 
 .answer p {
   font-size: 1.1rem;
-  margin-bottom: 15px;
   text-align: center;
 }
 
@@ -190,22 +195,21 @@ main section h3 {
 #advocate {
   background: linear-gradient(135deg, var(--success-color), #00c853);
   color: white;
-  padding: 60px 0;
   text-align: center;
 }
 
 #advocate h2 {
   font-size: 2rem;
-  margin-bottom: 20px;
+  line-height: 1.5em;
 }
 
 /* 詳細說明區域 */
-#detail ul {
+#action ul {
   list-style: none;
   padding: 0;
 }
 
-#detail li {
+#action li {
   background: white;
   padding: 15px 20px;
   margin-bottom: 10px;
@@ -214,41 +218,56 @@ main section h3 {
   box-shadow: var(--shadow);
 }
 
-#detail a {
-  color: var(--primary-color);
+#action a {
   text-decoration: none;
   font-weight: 600;
 }
 
-#detail a:hover {
+#action a:hover {
   text-decoration: underline;
 }
 
 /* 法規列表 */
-.issue-type {
+#laws #laws-context .issue-type {
   font-weight: 600;
   margin: 20px 0 15px 0;
 }
 
+#laws #laws-context {
+  font-size: 0.8em;
+}
+#laws #laws-context p {
+  margin: 0;
+  line-height: 1.25em;
+}
+
 #laws ul {
   list-style: none;
-  padding-left: 20px;
+  padding: 0;
+  margin-top: 0;
 }
 
 #laws li {
-  margin-bottom: 10px;
-  padding: 10px;
+  /* margin-bottom: 10px; */
+  padding: 0.5em;
   background: white;
   border-radius: 6px;
+  line-height: 1.25em;
 }
+#laws li + li {
+  margin-bottom: 10px;
+}
+
 
 #laws code {
   background: var(--warning-color);
   color: white;
-  padding: 2px 8px;
+  padding: 2px 0.5em;
+  margin-left: 0.25em;
   border-radius: 4px;
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 0.95em;
+  position: relative;
+  top: -1px;
 }
 
 /* 延伸閱讀 */
@@ -271,7 +290,6 @@ main section h3 {
 }
 
 #readmore a {
-  color: var(--primary-color);
   text-decoration: none;
   font-weight: 500;
 }

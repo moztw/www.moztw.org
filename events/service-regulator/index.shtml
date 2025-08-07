@@ -29,11 +29,11 @@
       </header>
       <div>
         <div class="guess-options">
-          <div class="guess-option" data-answer="answer_1">1個</div>
-          <div class="guess-option" data-answer="answer_2">2個</div>
-          <div class="guess-option" data-answer="answer_3">3個</div>
-          <div class="guess-option" data-answer="answer_4">4個</div>
-          <div class="guess-option" data-answer="answer_unlimited">5個以上</div>
+          <div class="guess-option" data-answer="answer_1">１個</div>
+          <div class="guess-option" data-answer="answer_2">２個</div>
+          <div class="guess-option" data-answer="answer_3">３個</div>
+          <div class="guess-option" data-answer="answer_4">４個</div>
+          <div class="guess-option" data-answer="answer_unlimited">５個以上</div>
         </div>
       </div>
     </section>
@@ -89,7 +89,7 @@
     <section id="answer_unlimited" class="answer correct">
       <header>
         <div class="hgroup">
-          <h2>正確答案：數不清的主管機關</h2>
+          <h2>正確答案：數不完的主管機關</h2>
         </div>
       </header>
       <div>
@@ -102,7 +102,7 @@
 
     <section id="advocate">
       <div>
-        <p>我們主張：</p>
+        <p>我們認為：</p>
       </div>
       <header>
         <div class="hgroup">
@@ -128,7 +128,11 @@
         <p>MozTW 社群自 2012 年 SOPA/PIPA 開始關注網路平台管制議題，並在 2019 年與 OCF 開放文化基金會及公民科技社群成員們，共同發起「網路自由小聚」，以一個月一次的頻率，持續討論各項網路自由與數位人權議題。</p>
 
         <p>近來我們關注到此一負面趨勢，希望依此表達對於現況的憂心與期許。邀請您一起加入我們的行列，共同捍衛網路自由與數位人權，持續維護網路及民主社會的發展與持續創新。</p>
+      </div>
+    </section>
 
+    <section id="action">
+      <div>
         <p>如您願意一起關切此議題，請透過以下管道參與：
         </p>
 
@@ -165,24 +169,23 @@
     <section id="laws">
       <header>
         <div class="hgroup">
-          <h3>現行（部分的）網路監管法規</h3>
+          <h3>現行的（部分）網路監管法規</h3>
         </div>
       </header>
-      <div>
+      <div id="laws-context">
         <p class="issue-type" id="投資詐騙">投資、詐騙</p>
-        <p>(YT, 廣告平台)</p>
         <ul>
-        <li>「證券投資信託及顧問法」第70條之1 <code>金管會</code>
+        <li>《證券投資信託及顧問法》第70條之1 <code>金管會</code>
         <ul>
         <li>如平臺推播含有違法招攬或勸誘投資之廣告，平臺將與違法刊登廣告者及出資者，對於受害者之損失連帶負責。</li>
         </ul>
         </li>
-        <li>「詐欺犯罪危害防制條例」（打詐條例）<code>內政部；直轄市與縣市政府</code>
+        <li>《詐欺犯罪危害防制條例》（打詐條例）<code>內政部</code> <code>直轄市與縣市政府</code>
         <ul>
         <li>網路廣告平臺業者於知悉其刊登或推播之廣告為詐欺廣告或明顯涉及詐欺時，如未履行依規定主動或經通知下架廣告等義務時，經與廣告委託刊播者、出資者對於受害者負連帶損害賠償責任</li>
         </ul>
         </li>
-        <li>刑法第339條之4條（加重詐欺）第三項 <code>法務部</code>
+        <li>《刑法》第339條之4條（加重詐欺）第三項 <code>法務部</code>
         <ul>
         <li>以廣播電視、電子通訊、網際網路或其他媒體等傳播工具，對公眾散布而犯之。</li>
         </ul>
@@ -190,22 +193,21 @@
         </ul>
         <p class="issue-type" id="豬肉">豬肉</p>
         <ul>
-        <li>「網際網路內容涉及境外應施檢疫物販賣至國內或輸入時應採取措施」<code>農委會防檢局</code>
+        <li>《網際網路內容涉及境外應施檢疫物販賣至國內或輸入時應採取措施》<code>農委會防檢局</code>
         <ul>
         <li>電商平臺業者應依公告採取相關防範措施，例如在其平臺網頁應張貼警語、限制接取、瀏覽或移除應施檢疫物廣告等，另依該措施第5點第2項後段規定，電商平臺業者得採內部系統篩檢或經由一般民眾檢舉，對來自非洲豬瘟疫區之豬肉產品於知悉時即應下架網頁。違反前述規定者，依動物傳染病防治條例第45條可處最高15萬元罰鍰。</li>
         </ul>
         </li>
-        <li>動物傳染病防治條例第45條 <code>行政院農業委員會；直轄市與縣市政府</code></li>
+        <li>《動物傳染病防治條例》第45條 <code>行政院農業委員會</code> <code>直轄市與縣市政府</code></li>
         </ul>
-        <p class="issue-type" id="菸酒">菸酒</p>
-        <p>(電子煙)</p>
+        <p class="issue-type" id="菸酒">菸酒（電子煙）</p>
         <ul>
-        <li>菸害防制法第15條 <code>衛生福利部；直轄市與縣市政府</code>
+        <li>《菸害防制法》第15條 <code>衛生福利部</code> <code>直轄市與縣市政府</code>
         <ul>
         <li>廣告業或傳播媒體業者如製作廣告、接受傳播或刊載，處新臺幣40萬元至2百萬元罰鍰；製造業、輸入業、廣告業、傳播媒體業者或廣告委託人以外之人，則處新臺幣20萬元至1百萬元罰鍰。販賣、展示類菸品或其組合元件，處新臺幣20萬元至1百萬元罰鍰。 （2023/3 修法）</li>
         </ul>
         </li>
-        <li>《菸酒管理法》第30條第1項 <code>財政部；直轄市與縣市政府。</code>
+        <li>《菸酒管理法》第30條第1項 <code>財政部</code> <code>直轄市與縣市政府。</code>
         <ul>
         <li>酒之販賣或轉讓，不得以自動販賣機、郵購、電子購物或其他無法辨識購買者或受讓者年齡等 方式為之。</li>
         </ul>
@@ -215,17 +217,17 @@
         <p class="issue-type" id="藥毒品">藥、毒品</p>
         <ul>
         <li>《毒品危害防制條例》 <code>法務部</code></li>
-        <li>《藥事法》第27條與第92條 <code>衛生福利部；直轄市與縣市政府</code></li>
+        <li>《藥事法》第27條與第92條 <code>衛生福利部</code> <code>直轄市與縣市政府</code></li>
         </ul>
         <p class="issue-type" id="色情內容性剝削影像">色情內容、性剝削影像</p>
         <ul>
         <li>《刑法》第235條 <code>法務部</code></li>
-        <li>《兒童及少年性剝削防制條例》 <code>衛生福利部；直轄市與縣市政府</code></li>
-        <li>衛部護字第1130014287號函釋</li>
+        <li>《兒童及少年性剝削防制條例》 <code>衛生福利部</code> <code>直轄市與縣市政府</code></li>
+        <li>《衛部護字第1130014287號函釋》</li>
         </ul>
         <p class="issue-type" id="誹謗侮辱">誹謗侮辱</p>
         <ul>
-        <li>刑法第310、311條 <code>法務部</code>
+        <li>《刑法》第310、311條 <code>法務部</code>
         <ul>
         <li>平台不得縱容誹謗、侮辱行為，若明知不移除可被追究共犯。</li>
         </ul>
@@ -238,35 +240,31 @@
         <li>散佈謠言，足以影響公共之安寧者。</li>
         </ul>
         </li>
-        <li>《傳染病防治法》第63條 <code>衛生福利部；直轄市與縣市政府</code>
+        <li>《傳染病防治法》第63條 <code>衛生福利部</code> <code>直轄市與縣市政府</code>
         <ul>
         <li>散布有關傳染病流行疫情之謠言或傳播不實之流行疫情消息，足以生損害於公眾或他人者</li>
         </ul>
         </li>
         </ul>
         <p class="issue-type" id="選舉">選舉</p>
-        <p>(廣告留存方式)</p>
         <ul>
         <li>《公職人員選舉罷免法》第104-106條（意圖使候選人當選或不當選） <code>內政部</code></li>
-        <li>競選罷免廣告刊播及其留存紀錄辦法 <code>中央選舉委員會</code>
-        <ul>
-        <li>第六條應載明事項</li>
-        <li>第七條留存資料</li>
-        </ul>
+        <li>《競選罷免廣告刊播及其留存紀錄辦法》第六條（應載明事項）第七條（廣告留存資料） <code>中央選舉委員會</code>
         </li>
         </ul>
         <p class="issue-type" id="消費者保護">消費者保護</p>
         <ul>
-        <li>《消費者保護法》第19條（七日內退貨） <code>目的事業主管機關；直轄市與縣市政府</code></li>
+        <li>《消費者保護法》第19條（七日內退貨） <code>目的事業主管機關</code> <code>直轄市與縣市政府</code></li>
         <li>《公平交易法》第21條（不實廣告，含網紅代言）  <code>公平交易委員會</code></li>
         </ul>
         <p class="issue-type" id="智慧財產權">智慧財產權</p>
         <ul>
-        <li>《著作權法》第87-88條（侵害著作權） <code>經濟部</code>
-        <ul>
-        <li>第六章之一 網路業者免責條款（90-4條~90-12條）(避風港)</li>
+        <li>《著作權法》第87-88條（侵害著作權） <code>經濟部</code></li>
         </ul>
-        </li>
+        <ul>
+        <li>《著作權法》第六章之一 網路業者免責條款（90-4條~90-12條）(避風港)</li>
+        </ul>
+        <ul>
         <li>《商標法》第68條 <code>經濟部</code>
         <ul>
         <li>未得商標權人同意，為行銷目的而製造、販賣、持有、陳列、輸出或輸入附有相同或近似於註冊商標之標籤、吊牌、包裝容器或與服務有關之物品者，亦為侵害商標權。</li>
