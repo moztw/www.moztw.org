@@ -16,6 +16,10 @@
 <h3>2024</h3>
 
 <ul class="news">
+  <li><div class="date"> 9 月 17</div>
+    <a href="/firefox/releases/130.0.1/">Firefox 130.0.1</a> 更新</li>
+  <li><div class="date"> 9 月 7</div>
+    <a href="/space/#donate">摩茲工寮 2024/6-7 捐款資訊</a></li>
   <li><div class="date"> 9 月 3</div>
     Firefox 130.0、Firefox 128.2.0 ESR、Firefox 115.15.0 ESR 更新</li>
   <li><div class="date"> 8 月 20</div>
