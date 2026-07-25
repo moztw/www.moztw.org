@@ -1,0 +1,54 @@
+<!--#set var="release_date" value="2026-06-30" -->
+<!--#set var="version" value="152.0.4" -->
+<!--#set var="previous_version" value="152.0.3" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/152.0.4/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://www.firefox.com/smart-window">Smart Window</a> 包含多項改進：</p>
+      <ul>
+        <li>現在可請它關閉分頁；必要時會要求確認，之後也可復原。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2040769">Bug 2040769</a>）</li>
+        <li>瀏覽記錄結果現在會顯示圖片。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2038069">Bug 2038069</a>）</li>
+        <li>對回應提供回饋時，現在可選擇常見原因，並在送出前預覽將分享的內容。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2033002">Bug 2033002</a>）</li>
+      </ul>
+      <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 系統對話框（例如儲存與開啟面板）內，複製、貼上、復原、重做等鍵盤快捷鍵無法使用的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2040851">Bug 2040851</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2040844">Bug 2040844</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正從設定搜尋結果開啟「管理 Cookie 與網站資料」對話框時，清單為空白的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2041077">Bug 2041077</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正跟隨頁面內連結後鍵盤焦點落在錯誤位置，導致按 Tab 無法從連結處繼續的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2049307">Bug 2049307</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-62">安全性修正</a>。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20152&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox152&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla152&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

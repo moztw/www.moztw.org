@@ -1,0 +1,212 @@
+<!--#set var="release_date" value="2026-07-21" -->
+<!--#set var="version" value="153.0" -->
+<!--#set var="previous_version" value="152.0.6" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/153.0/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Windows 現已支援高動態範圍（HDR）影片播放；需在 Windows「設定」→「系統」→「顯示器」啟用 HDR 模式。目前不支援僅提供「HDR 影片串流」的筆記型電腦螢幕；部分以特定方向在手機錄製的影片目前也不會以 HDR 顯示。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/how-use-firefox-containers">容器</a>可讓你在同一個瀏覽器視窗中，將工作、購物、個人、銀行等線上生活分開登入不同帳號，同時把 Cookie 與廣告追蹤隔離在各容器內。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>可用 QR code 分享任何已開啟的頁面。對分頁按右鍵，選擇「分享」→「產生 QR Code」。適合海報、邀請函、橫幅與其他印刷品。</p>
+      <p><img src="/firefox/releases/153.0/153_qr_code.png" alt="螢幕截圖：Firefox 產生頁面 QR Code"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可將 PDF 拖曳到 PDF 側邊欄，直接合併多個 PDF。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可使用 Firefox PDF 編輯器，將圖片新增為 PDF 中的新頁面。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在網址列輸入「pick color」、「color picker」或「eyedropper」，並選擇「Pick a color」快速動作，即可快速從任何頁面挑選並複製顏色。</p>
+      <p><img src="/firefox/releases/153.0/153_pick_color_action.png" alt="螢幕截圖：網址列 Pick a color 快速動作"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>新增支援 Apple 系統層級全螢幕鍵盤指令（Globe-F）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 現在依 eIDAS 規範驗證並顯示<a target="_blank" href="https://en.wikipedia.org/wiki/Qualified_website_authentication_certificate">合格網站驗證憑證</a>（QWACs）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>改善對含疊加層影片的支援，讓使用者更容易從右鍵選單存取影片操作。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>當網站取得你的位置權限時，Firefox 現在會以紅色醒目顯示位置權限圖示。搜尋結果頁上先前隱藏的權限圖示現在也會顯示。</p>
+      <p><img src="/firefox/releases/153.0/153_geolocation_icon.png" alt="螢幕截圖：以紅色醒目顯示的位置權限圖示"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://www.firefox.com/smart-window">Smart Window</a>：</p>
+      <ul>
+        <li>可直接從 Smart Window 助手查看並選擇 AI 模型。</li>
+        <li>新分頁現在包含熟悉的網址列，可輸入網站與搜尋網路。</li>
+      </ul>
+      <p><img src="/firefox/releases/153.0/153_smart_window.png" alt="螢幕截圖：Firefox Smart Window 助手介面"></p>
+      <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可在網址列輸入「labs」或「experiment」，並選擇「Open Firefox Labs」快速動作，快速開啟 Firefox Labs。</p>
+      <p><img src="/firefox/releases/153.0/153_labs_quickaction.png" alt="螢幕截圖：網址列開啟 Firefox Labs 的快速動作"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox Labs 現在提供實驗性的 <a target="_blank" href="https://jpegxl.info/">JPEG XL</a> 圖片格式支援，通常比 WebP、JPEG、PNG、GIF 有更好的壓縮，並設計為可取代這些格式。可在設定的 Firefox Labs 面板啟用。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-68/">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>擴充套件預設不再可存取本機檔案。使用者可透過新的「Access local files on your computer」權限授予或撤銷，與「Access your data for all websites」分開。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>區域網路存取限制現在預設對所有使用者啟用。Firefox 要求網站在連線到你區域網路上的裝置，或你裝置上的應用程式與服務之前必須請求權限。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>已從設定介面移除過時的 Cookie 設定。仍使用該模式的使用者應改為預設行為「Isolate cross-site cookies」。<a target="_blank" href="https://groups.google.com/a/mozilla.org/g/firefox-dev/c/dXvMLkzyFqM">更多資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-153-release-notes">Firefox 153 企業版版本資訊</a> 中找到政策更新與企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/153">Firefox 153 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>選項面板新增「Local Mode」設定，讓開發者可透過自訂來源載入本機目錄。這可簡化對無法在標準 <code>file://</code> URL 上運作之 API 的測試，不必再跑本機網頁伺服器，並支援多組目錄對應。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援非標準 <code>::-webkit-scrollbar</code> 虛擬元素的有限子集，以改善網頁相容性：</p>
+      <ul>
+        <li>含非零 <code>width</code>/<code>height</code> 的規則會為受影響容器停用 overlay 捲軸。</li>
+        <li>在 <code>::-webkit-scrollbar</code> 上使用 <code>display: none</code> 的行為如同 <code>scrollbar-width: none</code>，會隱藏捲軸。</li>
+        <li><code>@supports selector(::-webkit-scrollbar)</code> 現在會評估為 true。</li>
+        <li>刻意不支援完整樣式能力（顏色、<code>border-radius</code> 等）。</li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><code>vertical-align</code> 屬性在 Firefox 149 已轉換為 <code>baseline-source</code>、<code>alignment-baseline</code> 與 <code>baseline-shift</code> 的簡寫。現在 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/alignment-baseline"><code>alignment-baseline</code></a> 支援新關鍵字 <code>alphabetic</code>、<code>ideographic</code>、<code>central</code>、<code>mathematical</code>、<code>hanging</code>，擴充可用於對齊的基線種類。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>實作新的 <code>popover=hint</code> 規格，<a target="_blank" href="https://github.com/whatwg/html/issues/12304">移除</a>一系列不一致且非預期的行為。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/circle"><code>circle()</code></a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/basic-shape/ellipse"><code>ellipse()</code></a> 函式接受兩個新關鍵字 <code>closest-corner</code> 與 <code>farthest-corner</code>，用於徑向尺寸。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>新增的 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/stackTraceLimit"><code>Error.stackTraceLimit</code></a> 屬性可設定擷取 JavaScript 錯誤堆疊的最大深度，作為效能優化。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>開發者現在可使用 <code>text</code> import attribute，透過模組系統<a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import/with#text_modules_type_text">匯入文字檔</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Picture-in-Picture_API">Picture-in-Picture API</a> 讓網頁開發者可使用使用者代理的子母畫面功能。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><code>Intl.LocaleInfo</code> 提案新增查詢<a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale#instance_methods">Locale 資訊</a>的能力，例如週資料（一週的第一天、週末起訖日）、文字方向與該 Locale 使用的小時週期。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><code>MediaCapabilities.decodingInfo()</code> 與 <code>MediaCapabilities.encodingInfo()</code> 方法現在接受 <code>"webrtc"</code> 組態類型，讓網站可查詢特定音訊或視訊組態是否可為 WebRTC 解碼或編碼，以及是否流暢與／或省電。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><a target="_blank" href="https://datatracker.ietf.org/doc/rfc9842/">HTTP Compression Dictionaries</a> 在 153 以逐步釋出方式啟用，將在未來版本永久啟用。對有使用的網站可大幅減少網路流量大小。</p>
+      <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20153&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox153&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla153&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 153 的發布，我們喜迎以下首次貢獻程式到 Firefox 的開發者，其中有 15 位是全新的志工！一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Alan Liu: <a target="_blank" href="https://bugzilla.mozilla.org/2009570">2009570</a></li>
+    <li>Dineth De SIlva: <a target="_blank" href="https://bugzilla.mozilla.org/2042443">2042443</a></li>
+    <li>Freya Arbjerg [:freyacodes]: <a target="_blank" href="https://bugzilla.mozilla.org/2036767">2036767</a></li>
+    <li>Garbee: <a target="_blank" href="https://bugzilla.mozilla.org/2045887">2045887</a></li>
+    <li>Jessica Foley: <a target="_blank" href="https://bugzilla.mozilla.org/2041062">2041062</a></li>
+    <li>John ARNZEN: <a target="_blank" href="https://bugzilla.mozilla.org/2046279">2046279</a></li>
+    <li>Max Emig [:maxe]: <a target="_blank" href="https://bugzilla.mozilla.org/230112">230112</a></li>
+    <li>metamuffin: <a target="_blank" href="https://bugzilla.mozilla.org/2045549">2045549</a></li>
+    <li>mtan: <a target="_blank" href="https://bugzilla.mozilla.org/2039500">2039500</a></li>
+    <li>ozcoder: <a target="_blank" href="https://bugzilla.mozilla.org/2020186">2020186</a></li>
+    <li>Pedram Yektamaram: <a target="_blank" href="https://bugzilla.mozilla.org/2042437">2042437</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2042438">2042438</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2042440">2042440</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2042441">2042441</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2042442">2042442</a></li>
+    <li>Peter Lafreniere [:n8pjl]: <a target="_blank" href="https://bugzilla.mozilla.org/2041463">2041463</a></li>
+    <li>Phone Khant Kyaw Swa: <a target="_blank" href="https://bugzilla.mozilla.org/2008877">2008877</a></li>
+    <li>pullmana8: <a target="_blank" href="https://bugzilla.mozilla.org/2031735">2031735</a></li>
+    <li>Ryan McCartney: <a target="_blank" href="https://bugzilla.mozilla.org/2039853">2039853</a></li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

@@ -1,0 +1,53 @@
+<!--#set var="release_date" value="2026-07-14" -->
+<!--#set var="version" value="152.0.6" -->
+<!--#set var="previous_version" value="152.0.5" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/152.0.6/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://www.firefox.com/smart-window">Smart Window</a> 包含多項改進：</p>
+      <ul>
+        <li>在頁面上選取文字後，可快速透過內建助手進行摘要、說明等操作。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2034921">Bug 2034921</a>）</li>
+        <li>新分頁新增一列捷徑，方便回到常用網站。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2048338">Bug 2048338</a>）</li>
+      </ul>
+      <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正重新設計的 Firefox 設定中，無法停用電子郵件追蹤保護的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2049331">Bug 2049331</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 26 上使用檔案選擇對話框後可能發生的掛起。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2053177">Bug 2053177</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分使用舊版 autoconfig 格式設定首頁的企業組態下，首頁無法載入的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2047962">Bug 2047962</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-67">安全性修正</a>。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20152&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox152&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla152&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

@@ -1,14 +1,14 @@
-<!--#set var="WINVER" value="151.0.3" -->
-<!--#set var="WIN64VER" value="151.0.3" -->
-<!--#set var="LINUXVER" value="151.0.3" -->
-<!--#set var="LINUX64VER" value="151.0.3" -->
-<!--#set var="OSXVER" value="151.0.3" -->
+<!--#set var="WINVER" value="153.0" -->
+<!--#set var="WIN64VER" value="153.0" -->
+<!--#set var="LINUXVER" value="153.0" -->
+<!--#set var="LINUX64VER" value="153.0" -->
+<!--#set var="OSXVER" value="153.0" -->
 
-<!--#set var="TAGVER" value="15103" -->
+<!--#set var="TAGVER" value="15300" -->
 
 <!--#set var="WINURL" value="https://download.mozilla.org/?product=firefox-${WINVER}&os=win&lang=zh-TW" -->
 <!--#set var="WIN64URL" value="https://download.mozilla.org/?product=firefox-${WINVER}&os=win64&lang=zh-TW" -->
 <!--#set var="LINUX64URL" value="https://download.mozilla.org/?product=firefox-${LINUX64VER}&os=linux64&lang=zh-TW" -->
 <!--#set var="OSXURL" value="https://download.mozilla.org/?product=firefox-${OSXVER}&os=osx&lang=zh-TW" -->
 
-<!--#set var="LATEST_RELEASE_NOTES_VER" value="151.0.3" -->
+<!--#set var="LATEST_RELEASE_NOTES_VER" value="153.0" -->

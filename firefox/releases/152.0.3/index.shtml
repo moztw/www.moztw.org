@@ -1,0 +1,28 @@
+<!--#set var="release_date" value="2026-06-25" -->
+<!--#set var="version" value="152.0.3" -->
+<!--#set var="previous_version" value="152.0.2" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/152.0.3/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正已安裝語言套件的使用者，啟動時可能極度耗用記憶體並凍結的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2049845">Bug 2049845</a>）</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20152&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox152&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla152&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

@@ -1,0 +1,176 @@
+<!--#set var="release_date" value="2026-06-16" -->
+<!--#set var="version" value="152.0" -->
+<!--#set var="previous_version" value="151.0.4" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/152.0/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/firefox-options-preferences-and-settings">Firefox 設定</a>採用全新外觀：組織更精簡、分組更清楚、導覽更順暢，方便自訂。</p>
+      <p><img src="/firefox/releases/152.0/152_srd.png" alt="螢幕截圖：Firefox 152 重新設計的設定頁面"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在隱私瀏覽視窗中，若追蹤器封鎖導致網站無法正常運作，現在可暫時為該分頁停用追蹤器封鎖。重新載入曾封鎖追蹤器的頁面時，Firefox 會顯示訊息，提供以較寬鬆保護重新載入的選項；其餘追蹤保護仍會維持啟用。</p>
+      <p><img src="/firefox/releases/152.0/152_pbm_tp.png" alt="螢幕截圖：隱私瀏覽中暫時停用追蹤器封鎖的提示"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可從網址列將瀏覽器靜音：輸入「mute」（或「shush」、「sssh」），並使用網址列<a target="_blank" href="https://support.mozilla.org/kb/quick-actions-firefox-search-bar">快速動作</a>，靜音所有 Firefox 視窗中目前正在播放聲音的分頁。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>改善 macOS 上較進階游標移動指令的支援，包含與段落邊界相關的指令。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在 Windows 與 Linux 上，現在可透過分頁右鍵選單複製連結：對分頁按右鍵，選擇「分享」→「複製連結」，不必先切換到該分頁。選取多個分頁時，可一次複製所有選取的連結。Windows 使用者仍可從「分享」選單使用 Microsoft 分享選項。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可透過「更多工具」→「自訂工具列」加入「傳送分頁」工具列按鈕。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/website-translation">翻譯</a>新增語言：巴斯克語、加利西亞語。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>克羅埃西亞語、英語（英國）、喬治亞語、波斯語、斯洛維尼亞語、塔吉克語、坦米爾語、藏語、土耳其語、威爾斯語與科薩語的 Firefox 組建，現在內建<a target="_blank" href="https://support.mozilla.org/kb/how-do-i-use-firefox-spell-checker">拼字檢查</a>字典。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox Labs 現在提供實驗性的 <a target="_blank" href="https://jpegxl.info/">JPEG XL</a> 圖片格式支援，通常比 WebP、JPEG、PNG、GIF 有更好的壓縮，並設計為可取代這些格式。可在設定的 Firefox Labs 面板啟用。</p>
+      <p><img src="/firefox/releases/152.0/152_labs_jxl.png" alt="螢幕截圖：Firefox Labs 中啟用 JPEG XL 的選項"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正在 Squarespace、LinkedIn、eBay 等網站編輯內容時，右鍵選單可能缺少「貼上」選項的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>改善 macOS 上將圖片從 Firefox 拖曳到桌面或 Finder：圖片現在會可靠儲存，並落到你放開的位置。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>在多螢幕環境中，「關於 Firefox」視窗現在更可靠地開啟在最近使用 Firefox 視窗的顯示器上。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 與 Linux 上，在由右至左文字中方向鍵文字導覽與單字選取指令移動方向錯誤的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-57">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>透過鍵盤或滑鼠縮放網站時，現在提供更多縮放等級，且級距更小。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>當 Firefox 直接開啟的 PDF 或其他檔案下載完成時，若你已切換分頁或關閉原始頁面，現在會在背景分頁開啟。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>側邊欄「來自其他裝置的分頁」面板現在可從右鍵選單以新分頁或新容器分頁開啟分頁。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-152-release-notes">Firefox 152 企業版版本資訊</a> 中找到政策更新與企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/152">Firefox 152 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>開發者工具的<a target="_blank" href="https://firefox-source-docs.mozilla.org/devtools-user/settings/index.html#settings-inspector">設定面板</a>新增選項，可切換是否在檢測器中顯示註解節點。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Web Notifications 現在可透過 <code>actions</code> 選項加入操作按鈕，會顯示在通知文字下方，或在 macOS 的 Options 列表中。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/field-sizing"><code>field-sizing</code></a> 屬性現已可用，讓表單控制項可依內容調整大小。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 WebAuthn Related Origin Request 功能，讓 Passkey 可跨多個網域使用，簡化登入流程。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Pointer Lock API 現在支援 <code>unadjustedMovement</code> 選項，讓網站可取得不受作業系統加速影響的原始滑鼠移動資料。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20152&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox152&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla152&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 152 的發布，我們喜迎以下首次貢獻程式到 Firefox 的開發者，其中有 25 位是全新的志工！一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>:23rd: <a target="_blank" href="https://bugzilla.mozilla.org/1812100">1812100</a></li>
+    <li>:Vincent: <a target="_blank" href="https://bugzilla.mozilla.org/2033780">2033780</a></li>
+    <li>Akeem Omosanya: <a target="_blank" href="https://bugzilla.mozilla.org/2031351">2031351</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2035252">2035252</a></li>
+    <li>Amin Amir: <a target="_blank" href="https://bugzilla.mozilla.org/2031353">2031353</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2031355">2031355</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2031599">2031599</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2033820">2033820</a></li>
+    <li>Amine Zroual: <a target="_blank" href="https://bugzilla.mozilla.org/1392125">1392125</a></li>
+    <li>Andrew Gaul: <a target="_blank" href="https://bugzilla.mozilla.org/2032275">2032275</a></li>
+    <li>Andy [:rgbcmy]: <a target="_blank" href="https://bugzilla.mozilla.org/1611643">1611643</a></li>
+    <li>Eugeniusz Lewandowski: <a target="_blank" href="https://bugzilla.mozilla.org/1650944">1650944</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2036580">2036580</a></li>
+    <li>Helmut Januschka: <a target="_blank" href="https://bugzilla.mozilla.org/2006340">2006340</a></li>
+    <li>Jak: <a target="_blank" href="https://bugzilla.mozilla.org/2030070">2030070</a></li>
+    <li>JIANG Zhirui: <a target="_blank" href="https://bugzilla.mozilla.org/2036199">2036199</a></li>
+    <li>liz: <a target="_blank" href="https://bugzilla.mozilla.org/1875083">1875083</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2008119">2008119</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2011485">2011485</a></li>
+    <li>Mubashshir: <a target="_blank" href="https://bugzilla.mozilla.org/1803078">1803078</a></li>
+    <li>Noah Peterson: <a target="_blank" href="https://bugzilla.mozilla.org/1829401">1829401</a></li>
+    <li>Rahman Mahmutović [:r_m]: <a target="_blank" href="https://bugzilla.mozilla.org/1717176">1717176</a></li>
+    <li>Sahaj: <a target="_blank" href="https://bugzilla.mozilla.org/2031015">2031015</a></li>
+    <li>Takeru Mitsumori: <a target="_blank" href="https://bugzilla.mozilla.org/2038948">2038948</a></li>
+    <li>Tim Elliott: <a target="_blank" href="https://bugzilla.mozilla.org/2031507">2031507</a></li>
+    <li>tom.passarelli: <a target="_blank" href="https://bugzilla.mozilla.org/2031328">2031328</a></li>
+    <li>Tymur Boiko: <a target="_blank" href="https://bugzilla.mozilla.org/2035749">2035749</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2036839">2036839</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2039309">2039309</a></li>
+    <li>Vignesh B [:vsr-b]: <a target="_blank" href="https://bugzilla.mozilla.org/1895393">1895393</a>, <a target="_blank" href="https://bugzilla.mozilla.org/1966844">1966844</a></li>
+    <li>vinitjangir: <a target="_blank" href="https://bugzilla.mozilla.org/790194">790194</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2000360">2000360</a></li>
+    <li>vyofgod: <a target="_blank" href="https://bugzilla.mozilla.org/2031349">2031349</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2031356">2031356</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2031357">2031357</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2031371">2031371</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2031377">2031377</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2031381">2031381</a></li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

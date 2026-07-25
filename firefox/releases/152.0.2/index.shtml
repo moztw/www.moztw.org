@@ -1,0 +1,43 @@
+<!--#set var="release_date" value="2026-06-23" -->
+<!--#set var="version" value="152.0.2" -->
+<!--#set var="previous_version" value="152.0.1" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/152.0.2/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分語言下，設定區段標題顯示佔位文字而非翻譯名稱的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2047983">Bug 2047983</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正變更瀏覽器顯示語言後，新分頁內容未對應新語言的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2046945">Bug 2046945</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正可能導致部分 MP4 影片無法播放的迴歸問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2047467">Bug 2047467</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正可能讓同時進行大量加解密操作的網站（例如 Proton Drive）變慢的效能迴歸。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2046401">Bug 2046401</a>）</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20152&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox152&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla152&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

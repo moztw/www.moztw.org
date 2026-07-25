@@ -1,0 +1,43 @@
+<!--#set var="release_date" value="2026-06-09" -->
+<!--#set var="version" value="151.0.4" -->
+<!--#set var="previous_version" value="151.0.3" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/151.0.4/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 上使用上一頁／下一頁按鈕時，Firefox 可能無回應的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2039866">Bug 2039866</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分較舊 GPU 上 Firefox 可能退回軟體渲染，導致圖形效能下降的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2043249">Bug 2043249</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 上 Firefox 與無障礙服務互動時可能發生的當機。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2043307">Bug 2043307</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分文字輸入欄位可能錯誤顯示調整大小控制點的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2044051">Bug 2044051</a>）</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20151&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox151&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla151&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
