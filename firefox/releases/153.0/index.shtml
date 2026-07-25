@@ -59,7 +59,7 @@
 
     <li>
       <span class="tag tag-new">全新功能</span>
-      <p>當網站取得你的位置權限時，Firefox 現在會以紅色醒目顯示位置權限圖示。搜尋結果頁上先前隱藏的權限圖示現在也會顯示。</p>
+      <p>當網站可存取你的位置時，Firefox 現在會以紅色醒目顯示位置權限圖示。搜尋結果頁上先前隱藏的權限圖示現在也會顯示。</p>
       <p><img src="/firefox/releases/153.0/153_geolocation_icon.png" alt="螢幕截圖：以紅色醒目顯示的位置權限圖示"></p>
     </li>
 
@@ -75,13 +75,13 @@
     </li>
 
     <li>
-      <span class="tag tag-new">全新功能</span>
+      <span class="tag tag-labs">實驗中</span>
       <p>現在可在網址列輸入「labs」或「experiment」，並選擇「Open Firefox Labs」快速動作，快速開啟 Firefox Labs。</p>
       <p><img src="/firefox/releases/153.0/153_labs_quickaction.png" alt="螢幕截圖：網址列開啟 Firefox Labs 的快速動作"></p>
     </li>
 
     <li>
-      <span class="tag tag-new">全新功能</span>
+      <span class="tag tag-labs">實驗中</span>
       <p>Firefox Labs 現在提供實驗性的 <a target="_blank" href="https://jpegxl.info/">JPEG XL</a> 圖片格式支援，通常比 WebP、JPEG、PNG、GIF 有更好的壓縮，並設計為可取代這些格式。可在設定的 Firefox Labs 面板啟用。</p>
     </li>
 
@@ -127,13 +127,13 @@
         <li>含非零 <code>width</code>/<code>height</code> 的規則會為受影響容器停用 overlay 捲軸。</li>
         <li>在 <code>::-webkit-scrollbar</code> 上使用 <code>display: none</code> 的行為如同 <code>scrollbar-width: none</code>，會隱藏捲軸。</li>
         <li><code>@supports selector(::-webkit-scrollbar)</code> 現在會評估為 true。</li>
-        <li>刻意不支援完整樣式能力（顏色、<code>border-radius</code> 等）。</li>
+        <li>刻意不支援完整的樣式設定功能（顏色、<code>border-radius</code> 等）。</li>
       </ul>
     </li>
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p><code>vertical-align</code> 屬性在 Firefox 149 已轉換為 <code>baseline-source</code>、<code>alignment-baseline</code> 與 <code>baseline-shift</code> 的簡寫。現在 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/alignment-baseline"><code>alignment-baseline</code></a> 支援新關鍵字 <code>alphabetic</code>、<code>ideographic</code>、<code>central</code>、<code>mathematical</code>、<code>hanging</code>，擴充可用於對齊的基線種類。</p>
+      <p><code>vertical-align</code> 屬性在 Firefox 149 已成為 <code>baseline-source</code>、<code>alignment-baseline</code> 與 <code>baseline-shift</code> 的簡寫屬性。現在 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/alignment-baseline"><code>alignment-baseline</code></a> 支援新關鍵字 <code>alphabetic</code>、<code>ideographic</code>、<code>central</code>、<code>mathematical</code>、<code>hanging</code>，擴充可用於對齊的基線種類。</p>
     </li>
 
     <li>
@@ -163,7 +163,7 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p><code>Intl.LocaleInfo</code> 提案新增查詢<a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale#instance_methods">Locale 資訊</a>的能力，例如週資料（一週的第一天、週末起訖日）、文字方向與該 Locale 使用的小時週期。</p>
+      <p><code>Intl.LocaleInfo</code> 提案新增查詢<a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale#instance_methods">語系資訊</a>的能力，例如週資料（一週的第一天、週末起訖日）、文字方向與該語系使用的小時週期。</p>
     </li>
 
     <li>

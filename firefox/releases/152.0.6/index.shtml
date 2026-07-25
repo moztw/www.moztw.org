@@ -27,7 +27,7 @@
 
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>修正 macOS 26 上使用檔案選擇對話框後可能發生的掛起。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2053177">Bug 2053177</a>）</p>
+      <p>修正 macOS 26 上使用檔案選擇對話框後，Firefox 可能停止回應的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2053177">Bug 2053177</a>）</p>
     </li>
 
     <li>

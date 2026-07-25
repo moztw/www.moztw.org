@@ -53,7 +53,7 @@
     </li>
 
     <li>
-      <span class="tag tag-new">全新功能</span>
+      <span class="tag tag-labs">實驗中</span>
       <p>Firefox Labs 現在提供實驗性的 <a target="_blank" href="https://jpegxl.info/">JPEG XL</a> 圖片格式支援，通常比 WebP、JPEG、PNG、GIF 有更好的壓縮，並設計為可取代這些格式。可在設定的 Firefox Labs 面板啟用。</p>
       <p><img src="/firefox/releases/152.0/152_labs_jxl.png" alt="螢幕截圖：Firefox Labs 中啟用 JPEG XL 的選項"></p>
     </li>

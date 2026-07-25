@@ -31,6 +31,14 @@
     </li>
   </ul>
 
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p><s>部分安裝語言套件的使用者可能會在啟動時遇到記憶體用量過高且瀏覽器無回應的問題。</s>（已在 Firefox 152.0.3 的 <a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2049845">Bug 2049845</a> 修正）</p>
+    </li>
+  </ul>
+
   <ul class="tags">
     <li class="complete">
       請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20152&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox152&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla152&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
