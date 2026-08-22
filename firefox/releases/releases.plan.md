@@ -34,6 +34,9 @@
   - `release_date` 設為新版釋出日期
   - `version` 設為新版版本號
   - `previous_version` 設為前一版版本號
+  - 版本鏈結規則：大版本連到大版本，小版本連到同一大版本的小版本。
+    - 大版本 `X.0` 的 `previous_version` 設為上一個大版本 `X-1.0`，例如 `154.0 → 153.0`。
+    - 小版本 `X.0.Y` 的 `previous_version` 設為上一個同系列版本 `X.0.(Y-1)`；第一個小版本 `X.0.1` 則連到 `X.0`。
 - 內容以繁體中文整理以下段落與重點，沿用 `tag-new/tag-fixed/tag-changed/tag-enterprise/tag-developer/tag-html5` 等樣式：
   - `(Learn More)` 一律翻譯成「深入瞭解」。
   - 全新功能：
