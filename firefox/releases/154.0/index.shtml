@@ -1,0 +1,232 @@
+<!--#set var="release_date" value="2026-08-18" -->
+<!--#set var="version" value="154.0" -->
+<!--#set var="previous_version" value="153.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/154.0/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 的<a target="_blank" href="https://support.mozilla.org/kb/control-personal-device-local-network-permissions-firefox">區域網路存取保護</a>現在也套用至 WebSocket 連線。嘗試透過 WebSocket 連線到區域網路裝置的網站，現在必須先取得權限。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>在<a target="_blank" href="https://support.mozilla.org/kb/smart-window">智慧視窗</a>中，Firefox 現在可以建議相關分頁群組，並為每個群組提出名稱。</p>
+      <p><img src="/firefox/releases/154.0/154_organize_tabs.png" alt="螢幕截圖：智慧視窗整理相關分頁並建議群組名稱"></p>
+      <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Windows 上的 Firefox 現已支援 <a target="_blank" href="https://play.geforcenow.com/">NVIDIA GeForce NOW</a>，可直接在瀏覽器中串流支援的 PC 遊戲。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>除了 Windows 和 Linux 之外，macOS 現在也提供 <a target="_blank" href="https://support.mozilla.org/kb/firefox-backup">Firefox 本機設定檔備份</a>功能，且備份可以在這三個平台之間進行還原。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可以將網站排除在「關閉時清除 Cookie 和網站資料」之外，而無需同時將其排除在追蹤保護和其他 Cookie 限制之外。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/website-translation">全頁翻譯</a>功能現在也會翻譯 <code>&lt;iframe&gt;</code> 內容。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>全頁翻譯功能現在於所有頁面載入時均會執行語言辨識，從而為使用者提供更好的翻譯建議體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Windows 使用者現在可以在設定中選擇不同的 Firefox 應用程式圖示。MSIX 安裝、macOS 與 Linux 目前尚不支援，但很快就會加入了。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>網址列現在包含「管理 AI」<a target="_blank" href="https://support.mozilla.org/kb/quick-actions-firefox-search-bar">快速動作</a>，可開啟設定中的 <a target="_blank" href="https://support.mozilla.org/kb/firefox-ai-controls">AI 控制</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>對頁面進行強制重新整理（在按住 Shift 鍵的同時點擊重新整理按鈕）現在也會清除並更新其快取的網站圖示（favicons）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修復了 macOS 上的一個問題：關閉瀏覽器視窗後可能會留下一個不可見的視窗，並持續在原先區域擷取滑鼠點擊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修復了 Windows 上的一個問題：在啟動後，自動隱藏的工作列直到 Firefox 視窗最小化並恢復後才會出現。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修復了 Windows 工作列會出現在全螢幕子母畫面視窗前方的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修復了垂直分頁側邊欄在<a target="_blank" href="https://support.mozilla.org/kb/how-make-firefox-and-websites-go-full-screen">全螢幕模式</a>下保持可見的問題。現在它會隨工具列一起隱藏，並在游標移至螢幕邊緣時重新出現。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修復了在使用「配合頁面寬度」選項時，PDF 文件在列印預覽中未能正確縮放的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-74/">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>影片播放位置的跳轉速度在所有作業系統上都已顯著提升，能更快跳到影片中的特定位置。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>PDF 中選取的文字現在會以與網頁文字相同的方式醒目提示，且醒目提示顏色會遵循作業系統設定（例如高對比模式）。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>對於新設定檔以及最近未使用 Firefox View 的設定檔，Firefox View 預設將移出工具列。你仍可透過「列出所有分頁」>「檢視所有分頁」來開啟它，或透過「自訂工具列」選單將其加回。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-enterprise-154-release-notes">Firefox 154 企業版版本資訊</a> 中找到政策更新與企業版相關的錯誤修復資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/154">Firefox 154 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>JSON 檢視器現在會在底部顯示所選項目的麵包屑路徑。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box-trim"><code>text-box-trim</code></a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box-edge"><code>text-box-edge</code></a> CSS 屬性，以及相關的 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box"><code>text-box</code></a> 簡寫屬性。這些屬性可控制文字上下的前導空白，讓垂直間距與對齊更簡單且一致。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sibling-index"><code>sibling-index()</code></a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Values/sibling-count"><code>sibling-count()</code></a> CSS 函式。這些函式可利用元素在兄弟元素中的索引，以及兄弟元素的總數（包括該元素本身）進行計算，並據此設定元素樣式。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/time"><code>&lt;input type="time"&gt;</code></a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/HTML/Reference/Elements/input/datetime-local"><code>&lt;input type="datetime-local"&gt;</code></a> 新增時間選擇器介面，讓選取時間更無障礙且更直覺。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>新增對 HTTP 磁碟快取之 <a target="_blank" href="https://developer.mozilla.org/docs/Web/HTTP/Reference/Headers/No-Vary-Search">No-Vary-Search</a> HTTP 回應標頭的支援。現在伺服器可以宣告哪些 URL 查詢參數與回應無關，讓 Firefox 能夠在不同參數變化間重複使用快取資源，進而提高快取命中率。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援新的 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/chunks"><code>Iterator.prototype.chunks</code></a> 與 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/windows"><code>Iterator.prototype.windows</code></a> 方法，允許將迭代器取用為可配置大小的重疊或非重疊子序列。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/includes"><code>Iterator.prototype.includes()</code></a>，讓開發者可以直接檢查迭代器是否包含特定值，而無需先將其轉換為陣列。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Iterator/join"><code>Iterator.prototype.join</code></a> 方法，該方法允許將迭代器連接成一個字串，類似於 <code>Array.prototype.join</code>。</p>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p><del>Firefox 最近調整地址自動填寫的處理邏輯後，部分使用者在自動填寫地址時可能失敗。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2065145">Bug 2065145</a>）</del>已於 <a target="_blank" href="https://www.firefox.com/en-US/firefox/154.0.1/releasenotes/">Firefox 154.0.1</a> 修復。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p><del>Firefox 最近調整密碼儲存機制後，部分使用者在 Firefox 存取已儲存的密碼時可能遇到效能變慢。啟用主要密碼的使用者也可能在啟動 Firefox 或開啟特定內容時，意外看到密碼提示。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2064411">Bug 2064411</a>）</del>已於 <a target="_blank" href="https://www.firefox.com/en-US/firefox/154.0.1/releasenotes/">Firefox 154.0.1</a> 修復。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p>啟用垂直分頁的使用者，側邊欄可能在 Firefox 重新啟動後無法維持顯示。重新啟動後，可點擊側邊欄工具列按鈕再次啟動垂直分頁。修正正在開發中。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2065431">Bug 2065431</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p>在全螢幕模式下隱藏工具列時（Windows 與 Linux 的預設行為），將游標移至螢幕左緣時，垂直分頁側邊欄不會出現。暫時解法：將游標移至螢幕頂端，以同時顯示工具列與側邊欄；或者右鍵點擊工具列，取消勾選「隱藏工具列」。我們正在修復中。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2064638">Bug 2064638</a>）</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20154&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox154&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla154&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 154 的發布，我們喜迎以下首次貢獻程式到 Firefox 的開發者，其中有 32 位是全新的志工！一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Ale Camara [:ale]: <a target="_blank" href="https://bugzilla.mozilla.org/2054573">2054573</a></li>
+    <li>andra: <a target="_blank" href="https://bugzilla.mozilla.org/2022992">2022992</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2046118">2046118</a></li>
+    <li>andrea.distefano: <a target="_blank" href="https://bugzilla.mozilla.org/1470011">1470011</a></li>
+    <li>Anil Verman: <a target="_blank" href="https://bugzilla.mozilla.org/2040057">2040057</a></li>
+    <li>Benoit: <a target="_blank" href="https://bugzilla.mozilla.org/2047559">2047559</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2049316">2049316</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2050403">2050403</a></li>
+    <li>Brieuc Gommard: <a target="_blank" href="https://bugzilla.mozilla.org/2031346">2031346</a>, <a target="_blank" href="https://bugzilla.mozilla.org/2049309">2049309</a></li>
+    <li>christopher.staite: <a target="_blank" href="https://bugzilla.mozilla.org/2037813">2037813</a></li>
+    <li>conor: <a target="_blank" href="https://bugzilla.mozilla.org/1988166">1988166</a></li>
+    <li>Cornelius | CE student: <a target="_blank" href="https://bugzilla.mozilla.org/2046119">2046119</a></li>
+    <li>Devin Rousso: <a target="_blank" href="https://bugzilla.mozilla.org/2052932">2052932</a></li>
+    <li>Diego: <a target="_blank" href="https://bugzilla.mozilla.org/2018728">2018728</a></li>
+    <li>elvyria: <a target="_blank" href="https://bugzilla.mozilla.org/2027522">2027522</a></li>
+    <li>Gabe: <a target="_blank" href="https://bugzilla.mozilla.org/2049141">2049141</a></li>
+    <li>Hagen: <a target="_blank" href="https://bugzilla.mozilla.org/2049264">2049264</a></li>
+    <li>Hillwood Yang: <a target="_blank" href="https://bugzilla.mozilla.org/2048250">2048250</a></li>
+    <li>Jaimukund Bhan: <a target="_blank" href="https://bugzilla.mozilla.org/2034642">2034642</a></li>
+    <li>Kafji: <a target="_blank" href="https://bugzilla.mozilla.org/2051493">2051493</a></li>
+    <li>Kometes: <a target="_blank" href="https://bugzilla.mozilla.org/1954212">1954212</a></li>
+    <li>Luiz Henrique Vieira: <a target="_blank" href="https://bugzilla.mozilla.org/2050546">2050546</a></li>
+    <li>Majed El-Barbari: <a target="_blank" href="https://bugzilla.mozilla.org/2040240">2040240</a></li>
+    <li>Marcelo Camargo: <a target="_blank" href="https://bugzilla.mozilla.org/2009295">2009295</a></li>
+    <li>Mayank Bansal: <a target="_blank" href="https://bugzilla.mozilla.org/2055744">2055744</a></li>
+    <li>muhammad shaikh: <a target="_blank" href="https://bugzilla.mozilla.org/2016932">2016932</a></li>
+    <li>Raimund Hook: <a target="_blank" href="https://bugzilla.mozilla.org/2050794">2050794</a></li>
+    <li>Rebekah: <a target="_blank" href="https://bugzilla.mozilla.org/2052857">2052857</a></li>
+    <li>Riza: <a target="_blank" href="https://bugzilla.mozilla.org/2044167">2044167</a></li>
+    <li>Ronak Sheth: <a target="_blank" href="https://bugzilla.mozilla.org/2048099">2048099</a></li>
+    <li>taylor: <a target="_blank" href="https://bugzilla.mozilla.org/1419649">1419649</a></li>
+    <li>Tim McNulty: <a target="_blank" href="https://bugzilla.mozilla.org/2052560">2052560</a></li>
+    <li>Yogeshdangal66: <a target="_blank" href="https://bugzilla.mozilla.org/2031348">2031348</a></li>
+    <li>Zehui Xu: <a target="_blank" href="https://bugzilla.mozilla.org/2028402">2028402</a></li>
+    <li>占旭哲: <a target="_blank" href="https://bugzilla.mozilla.org/1992363">1992363</a></li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
