@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "start": "grunt",
-    "build": "grunt build"
+    "build": "grunt build",
+    "dist": "grunt dist"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "connect-modrewrite": "~0.8.2",
     "grunt": "~0.4.5",
     "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^2.0.1",
     "grunt-contrib-copy": "^0.8.2",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-sitemap": "^1.2.1",

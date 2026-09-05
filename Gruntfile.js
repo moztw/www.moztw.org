@@ -35,7 +35,31 @@ module.exports = function(grunt) {
 				files: [{
 					expand: true,
 					src: ['**/*.shtml', '!node_modules/**/*.shtml', '!**/thunderbird/inc/hero.shtml'],
+					dest: './',
 					ext: '.html'
+				}]
+			},
+			dist: {
+				files: [{
+					expand: true,
+					src: [
+						'**/*',
+						'!**/*.shtml',
+						'!**/*.php',
+						'!bs-config.js',
+						'!docker-*',
+						'!package*.json',
+						'!Gruntfile.js',
+						'!gulpfile.js',
+						'!inc/**',
+						'!node_modules/**',
+						'!_site/**',
+						'!Vagrantfile',
+						'!.git/**',
+						'!.github/**'
+					],
+					dest: './_site/',
+					filter: 'isFile'
 				}]
 			}
 		},
@@ -60,6 +84,9 @@ module.exports = function(grunt) {
 				homepage: "https://moztw.org/",
 				changefreq: "monthly",
 			}
+		},
+		clean: {
+			dist: ['_site/']
 		}
 	});
 	grunt.event.on('watch', function(action, filepath) {
@@ -96,6 +123,9 @@ module.exports = function(grunt) {
 	//grunt.registerTask('default', ['copy', 'ssi', 'browserSync', 'watch']);
 	grunt.registerTask('default', ['browserSync']);
 
-	// 新增 build 任務
+	// 新增 build 任務（本地建構，產出在專案根目錄）
 	grunt.registerTask('build', ['copy', 'ssi']);
+
+	// Build to _site/ (CI then rsyncs _site/ into gh-pages worktree and pushes).
+	grunt.registerTask('dist', ['clean:dist', 'copy:main', 'ssi', 'copy:dist']);
 };
