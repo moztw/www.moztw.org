@@ -11,4 +11,9 @@
 <!--#set var="LINUX64URL" value="https://download.mozilla.org/?product=firefox-${LINUX64VER}&os=linux64&lang=zh-TW" -->
 <!--#set var="OSXURL" value="https://download.mozilla.org/?product=firefox-${OSXVER}&os=osx&lang=zh-TW" -->
 
+<!-- IE 6/7 (Windows XP) 專用：XP 最後支援的 Firefox 版本，且必須走純 http。
+     ?product= 轉址器會把 ESR 導到 https，IE 6 跟不上，所以直連 CDN。見 #801 -->
+<!--#set var="IEVER" value="52.9.0esr" -->
+<!--#set var="WINURL_IE" value="http://download.cdn.mozilla.net/pub/firefox/releases/${IEVER}/win32/zh-TW/Firefox%20Setup%20${IEVER}.exe" -->
+
 <!--#set var="LATEST_RELEASE_NOTES_VER" value="154.0" -->

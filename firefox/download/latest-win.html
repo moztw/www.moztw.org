@@ -1,3 +1,10 @@
+<!-- IE 6/7 (Windows XP) 專用：XP 最後支援的 Firefox 版本，且必須走純 http。
+     ?product= 轉址器會把 ESR 導到 https，IE 6 跟不上，所以直連 CDN。見 #801 -->
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="zh-tw">
 <head>
@@ -94,6 +101,38 @@ if ( navigator.appVersion.indexOf('Safari') !== -1 ) {
 			<!--<h2>感謝您選擇 <span lang="en-US">Firefox</span>！</h2>-->
 			<p id="wait-a-sec">下載即將在幾秒內開始，如果沒有請按<a id="download-url" href="https://download.mozilla.org/?product=firefox-155.0&os=win&lang=zh-TW">這裡</a>。</p>
 			<p id="click-to-download">請按<a href="https://download.mozilla.org/?product=firefox-155.0&os=win&lang=zh-TW">這裡</a>開始您的下載。</p>
+			<!--[if lte IE 7]>
+<div id="ie-legacy-download">
+	<p><strong>您的系統只能安裝 Firefox 52.9.0esr</strong>，這是最後支援 Windows XP 的版本。上方連結已自動指向該版本。</p>
+	<p>這個版本自 2018 年起不再更新，已知的安全性問題不會修補。如果您之後有機會更換作業系統，建議改用最新版 Firefox。</p>
+</div>
+<script type="text/javascript">
+/*
+ * IE 6/7 (Windows XP) 有兩個問題，這裡一起處理：
+ *
+ * 1. 連不上 —— IE 6/7 不支援 SNI 與現代 TLS，握不上 https 的
+ *    download.mozilla.org。
+ * 2. 裝不起來 —— 目前的 Firefox 需要 Windows 10 以上，XP 最後支援的是
+ *    52.9.0 ESR。
+ *
+ * 所以不是把協定降成 http 就好，連版本也要換。WINURL_IE 定義在
+ * /inc/dlfx_var.shtml，直連 CDN 而不走 ?product= 轉址器 —— 後者會把 ESR
+ * 導到 https，IE 6 一樣跟不上。
+ *
+ * 參見 https://github.com/moztw/www.moztw.org/issues/801
+ */
+(function () {
+	var url = 'http://download.cdn.mozilla.net/pub/firefox/releases/52.9.0esr/win32/zh-TW/Firefox%20Setup%2052.9.0esr.exe';
+	var links = document.getElementsByTagName('a');
+	for (var i = 0; i < links.length; ++i) {
+		if (links[i].href.indexOf('download.mozilla.org/') !== -1) {
+			links[i].href = url;
+		}
+	}
+})();
+</script>
+<![endif]-->
+
 		</div>
 	</div>
 </div>
