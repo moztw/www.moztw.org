@@ -228,17 +228,46 @@
     <section id="CO2Sensor" class="grids">
       <header>
         <div class="hgroup">
-          <h1>工寮二氧化碳濃度</h1>
-          <h2>CO2 Sensors in Space</h2>
+          <h1>工寮環境資訊</h1>
+          <h2>Environmental Sensors</h2>
         </div>
       </header>
-      <div class="grid-8">
-        <p>摩茲工寮的二氧化碳即時濃度。自然背景值約為 400ppm，<a href="https://iaq.epa.gov.tw/indoorair/page/News_7_1.aspx">環保署建議室內標準為 600-800ppm</a>。當超過 800ppm 時，請提醒 Keyholder 打開抽風扇換氣。</p>
-        <p>The current CO2 level in the community space. If it raises above 800ppm, please notice keyholder to turn on the exhaust fan.</p>
-        <p>貢獻者 Contributed by Miaoski，<a href="https://github.com/miaoski/esp8266-co2" target="_blank">原始碼 source repo</a>、<a target="_blank" href="https://thingspeak.com/channels/631210">詳細資料 detailed data</a>。</p>
+      <div class="grid-12">
+        <div id="space-environment" class="sensor-dashboard" data-state="unknown">
+          <div class="sensor-primary">
+            <div class="sensor-primary-left" role="group" aria-label="室內 CO₂">
+              <p class="sensor-reading"><strong class="sensor-value" data-sensor="carbondioxide" data-location="inside" data-unit="ppm">—</strong><span class="sensor-unit">ppm</span></p>
+              <div class="sensor-co2-track" aria-hidden="true"><span id="space-co2-bar"></span></div>
+              <p class="sensor-hint">建議 600–800 ppm</p>
+            </div>
+            <div class="sensor-primary-right" role="group" aria-label="室內溫濕度">
+              <p class="sensor-reading" aria-label="室內溫度"><strong class="sensor-value" data-sensor="temperature" data-location="inside" data-unit="°C">—</strong><span class="sensor-unit">°C</span></p>
+              <p class="sensor-humidity"><span class="sensor-humidity-value"><strong data-sensor="humidity" data-location="inside" data-unit="%">—</strong>%</span><span>相對濕度</span></p>
+            </div>
+          </div>
+          <hr class="sensor-divider" aria-hidden="true">
+          <p class="sensor-locations">
+            <span class="sensor-location">
+              <span class="sensor-location-name">陽台</span>
+              <span><span data-sensor="temperature" data-location="balcony" data-unit="°C">—</span> °C</span>
+              <span><span data-sensor="humidity" data-location="balcony" data-unit="%">—</span>%</span>
+            </span>
+            <span class="sensor-location">
+              <span class="sensor-location-name">走廊</span>
+              <span><span data-sensor="temperature" data-location="corridor" data-unit="°C">—</span> °C</span>
+              <span><span data-sensor="humidity" data-location="corridor" data-unit="%">—</span>%</span>
+            </span>
+          </p>
+          <hr class="sensor-divider" aria-hidden="true">
+          <div class="sensor-update">
+            <p id="space-environment-timestamp" hidden>資料更新：<time id="space-environment-time"></time>（台北時間）</p>
+            <p id="space-environment-notice" role="status" aria-live="polite">目前無法取得環境資料 · API unavailable</p>
+          </div>
+        </div>
       </div>
-      <div class="grid-4">
-        <iframe src="https://thingspeak.com/channels/631210/widgets/21165" style="border:none;" height="140"></iframe>
+      <div class="grid-12">
+        <p>CO₂ 過高時，可提醒 Keyholder 開啟抽風扇換氣。</p>
+        <p><a href="https://github.com/moztw/moztw-co2" target="_blank" rel="noopener">原始碼</a> · <a href="https://thingspeak.com/channels/631210" target="_blank" rel="noopener">詳細資料</a></p>
       </div>
     </section>
 

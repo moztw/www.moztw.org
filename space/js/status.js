@@ -2,12 +2,19 @@
   'use strict';
 
   var container = document.getElementById('space-status');
-  if (!container || !window.fetch || !window.AbortController) {
+  var environment = document.getElementById('space-environment');
+  if ((!container && !environment) || !window.fetch || !window.AbortController) {
     return;
   }
 
   var text = document.getElementById('space-status-text');
   var warning = document.getElementById('space-status-warning');
+  var readings = environment ? environment.querySelectorAll('[data-sensor]') : [];
+  var notice = document.getElementById('space-environment-notice');
+  var timestamp = document.getElementById('space-environment-timestamp');
+  var time = document.getElementById('space-environment-time');
+  var co2Bar = document.getElementById('space-co2-bar');
+  var hasSensorReadings = false;
   var refreshInterval = 60000;
   var requestTimeout = 8000;
   var timer;
@@ -21,13 +28,112 @@
     unknown: '目前無法確認開放狀態 · API unavailable'
   };
 
-  function render(state, stale) {
-    container.setAttribute('data-state', state);
+  function setText(element, value) {
     // Avoid repeatedly announcing an unchanged status to screen readers.
-    if (text.textContent !== messages[state]) {
-      text.textContent = messages[state];
+    if (element.textContent !== value) {
+      element.textContent = value;
     }
+  }
+
+  function renderStatus(state, stale) {
+    if (!container) {
+      return;
+    }
+    container.setAttribute('data-state', state);
+    setText(text, messages[state]);
     warning.hidden = !stale;
+  }
+
+  function getCO2Bar(co2) {
+    if (!Number.isFinite(co2) || co2 < 0) {
+      return null;
+    }
+    return {
+      width: Math.max(10, Math.min(100, ((co2 - 400) / 800) * 100)) + '%',
+      color: co2 <= 600 ? '#299764' : co2 <= 800 ? '#E39A26' : '#D94B45'
+    };
+  }
+
+  function renderEnvironment(data) {
+    if (!environment) {
+      return;
+    }
+    var sensors = data.sensors || {};
+    var available = 0;
+    for (var i = 0; i < readings.length; i++) {
+      var field = readings[i];
+      var type = field.getAttribute('data-sensor');
+      var location = field.getAttribute('data-location');
+      var unit = field.getAttribute('data-unit');
+      var sensor = Array.isArray(sensors[type]) ? sensors[type].find(function (item) {
+        return item && item.location === location && item.unit === unit &&
+          Number.isFinite(item.value) && (type !== 'carbondioxide' || item.value >= 0);
+      }) : undefined;
+      var value = '—';
+      if (sensor) {
+        available++;
+        value = type === 'temperature' ? sensor.value.toFixed(1) :
+          type === 'carbondioxide' ? String(Math.round(sensor.value)) :
+          String(Math.round(sensor.value * 10) / 10);
+      }
+      setText(field, value);
+      if (field.classList.contains('sensor-value')) {
+        // Keep 48px when it fits; only shrink long numbers in narrow columns.
+        var characters = value.length - (value.match(/[.\-]/g) || []).length * 0.5;
+        field.style.setProperty('--sensor-character-width', Math.max(1, characters) * 0.6);
+      }
+      if (type === 'carbondioxide' && location === 'inside' && co2Bar) {
+        var bar = getCO2Bar(sensor ? sensor.value : NaN);
+        co2Bar.style.width = bar ? bar.width : '0%';
+        co2Bar.style.backgroundColor = bar ? bar.color : 'transparent';
+      }
+    }
+
+    hasSensorReadings = available > 0;
+    var metadata = data.sensors_meta || {};
+    var stale = metadata.stale === true;
+    var fetchedAt = typeof metadata.fetched_at === 'string' ?
+      Date.parse(metadata.fetched_at) : NaN;
+    timestamp.hidden = !hasSensorReadings || !Number.isFinite(fetchedAt);
+    if (!timestamp.hidden) {
+      time.dateTime = new Date(fetchedAt).toISOString();
+      setText(time, new Date(fetchedAt).toLocaleString('zh-TW', {
+        timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
+        hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23'
+      }));
+    }
+
+    var message = !hasSensorReadings ? '目前無法取得環境資料 · API unavailable' :
+      available < readings.length ? '部分感測資料暫未提供' : '';
+    if (hasSensorReadings && stale) {
+      message += (message ? ' ' : '') + '(API stale and is waiting for update)';
+    }
+    setText(notice, message);
+    notice.hidden = !message;
+    environment.setAttribute('data-state', hasSensorReadings ?
+      (stale ? 'stale' : 'ready') : 'unknown');
+  }
+
+  function renderLoading() {
+    renderStatus('loading', false);
+    if (environment) {
+      environment.setAttribute('data-state', 'loading');
+      setText(notice, hasSensorReadings ?
+        '正在更新，以上為最後取得資料 · API updating...' :
+        '正在查詢環境資料 · API updating...');
+      notice.hidden = false;
+    }
+  }
+
+  function renderError() {
+    renderStatus('unknown', false);
+    if (environment) {
+      environment.setAttribute('data-state', 'unavailable');
+      setText(notice, hasSensorReadings ?
+        '目前無法更新，以上為最後取得資料 · API unavailable' :
+        '目前無法取得環境資料 · API unavailable');
+      notice.hidden = false;
+    }
   }
 
   async function refresh() {
@@ -54,13 +160,16 @@
         throw new Error('Status request failed');
       }
       var data = await response.json();
-      if (!data || !data.state || typeof data.state.open !== 'boolean') {
-        throw new Error('Status unavailable');
+      if (!data || typeof data !== 'object' || Array.isArray(data)) {
+        throw new Error('Invalid API response');
       }
-      render(data.state.open ? 'open' : 'closed',
+      var state = data.state && typeof data.state.open === 'boolean' ?
+        (data.state.open ? 'open' : 'closed') : 'unknown';
+      renderStatus(state, state !== 'unknown' &&
         Boolean(data.sensors_meta && data.sensors_meta.stale === true));
+      renderEnvironment(data);
     } catch (error) {
-      render('unknown', false);
+      renderError();
     } finally {
       window.clearTimeout(timeout);
       controller = null;
@@ -79,7 +188,7 @@
     window.clearTimeout(timer);
     refreshPending = false;
     if (!document.hidden) {
-      render('loading', false);
+      renderLoading();
       refresh();
     }
   });
@@ -96,11 +205,11 @@
   window.addEventListener('pageshow', function (event) {
     if (event.persisted) {
       suspended = false;
-      render('loading', false);
+      renderLoading();
       refresh();
     }
   });
 
-  render('loading', false);
+  renderLoading();
   refresh();
 }());

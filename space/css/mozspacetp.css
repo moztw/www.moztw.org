@@ -79,6 +79,170 @@ h3 {
   color: #96362d;
 }
 
+.sensor-dashboard {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto 20px;
+  padding: 20px;
+  border: 1px solid #D5D9E6;
+  border-radius: 12px;
+  background: #fff;
+  color: #333;
+}
+
+.sensor-primary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.sensor-primary-left,
+.sensor-primary-right {
+  min-width: 0;
+  container-type: inline-size;
+}
+
+.sensor-primary-left {
+  padding-right: 16px;
+}
+
+.sensor-primary-right {
+  --sensor-unit-space: 32px;
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #D9D9D9;
+  padding-left: 16px;
+}
+
+.sensor-reading {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.sensor-value {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 1.2;
+  font-variant-numeric: tabular-nums;
+}
+
+.sensor-unit {
+  font-size: 20px;
+  font-weight: 400;
+  color: #666;
+}
+
+.sensor-humidity {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+  margin: auto 0 0;
+  padding-top: 16px;
+  font-size: 14px;
+  color: #777;
+}
+
+.sensor-humidity-value,
+.sensor-humidity-value strong {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  font-variant-numeric: tabular-nums;
+}
+
+.sensor-co2-track {
+  height: 6px;
+  margin-top: 16px;
+  border-radius: 9999px;
+  overflow: hidden;
+  background: #E9E9E9;
+}
+
+#space-co2-bar {
+  display: block;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  background: transparent;
+  transition: width 300ms, background-color 300ms;
+}
+
+.sensor-hint {
+  margin: 8px 0 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #777;
+}
+
+.sensor-divider {
+  height: 0;
+  margin: 16px 0;
+  border: 0;
+  border-top: 1px solid #D9D9D9;
+}
+
+.sensor-locations {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.sensor-location {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: baseline;
+  gap: 4px 8px;
+  min-width: 0;
+  padding-right: 16px;
+}
+
+.sensor-location + .sensor-location {
+  border-left: 1px solid #D9D9D9;
+  padding: 0 0 0 16px;
+}
+
+.sensor-location-name {
+  color: #777;
+}
+
+.sensor-location > span:not(.sensor-location-name) {
+  min-width: 0;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.sensor-location > span:last-child {
+  text-align: right;
+}
+
+.sensor-update {
+  font-size: 12px;
+  font-weight: 400;
+  color: #777;
+}
+
+.sensor-update p {
+  margin: 0;
+}
+
+@supports (font-size: 1cqi) {
+  .sensor-value {
+    font-size: clamp(24px, calc((100cqi - var(--sensor-unit-space, 48px)) / var(--sensor-character-width, 2.4)), 48px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #space-co2-bar {
+    transition: none;
+  }
+}
+
 #moreinfo {
   margin-top: 40px;
 }
@@ -245,6 +409,10 @@ div[class^=grid-] {
 }
 
 @media only screen and (max-width:650px) {
+  .sensor-dashboard {
+    padding: 16px;
+  }
+
   #intro header {
     display: none;
   }
@@ -281,6 +449,20 @@ div[class^=grid-] {
 }
 @media only screen and (max-width:430px) {
   #eqm {width: 220px;}
+}
+@media only screen and (max-width:400px) {
+  .sensor-primary-left {
+    padding-right: 8px;
+  }
+  .sensor-primary-right {
+    padding-left: 8px;
+  }
+  .sensor-location {
+    padding-right: 8px;
+  }
+  .sensor-location + .sensor-location {
+    padding: 0 0 0 8px;
+  }
 }
 @media only screen and (max-width:250px) {
   #eqm {width: 110px;}
