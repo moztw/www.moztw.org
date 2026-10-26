@@ -32,6 +32,13 @@
       <div class="grid-12">
         <p>摩茲工寮是為社群所設計、也由社群共同管理的空間。我們有桌椅、電力與網路、激發創意的小物，當然還有許多的 Mozillians，聚集在此討論、研究 Mozilla 與開放文化等領域，為自己熱愛的 Open Web 加柴添火。</p>
       </div>
+      <div id="space-status" class="grid-12" data-state="unknown">
+        <p role="status" aria-live="polite" aria-atomic="true">
+          <span class="space-status-icon" aria-hidden="true"></span>
+          <strong id="space-status-text">目前無法確認開放狀態 · API unavailable</strong>
+          <span id="space-status-warning" class="space-status-warning" hidden>(API stale and is waiting for update)</span>
+        </p>
+      </div>
       <div class="grid-6">
         <h3>場地提供</h3>
         <ul id="eqm">
@@ -45,7 +52,7 @@
       <div class="grid-6">
         <h3>地圖</h3>
         <div id="map"></div>
-        <p>(or in <a href="https://maps.app.goo.gl/n2mx6Hduieem1wjf9">Google Maps</a>)</p>
+        <p>(<a href="https://maps.app.goo.gl/n2mx6Hduieem1wjf9" target="_blank" rel="noopener">Google Maps</a> / <a href="https://www.openstreetmap.org/node/12231809761" target="_blank" rel="noopener">OpenStreetMap</a>)</p>
         <p>地址：100 臺北市中正區重慶南路一段 99 號，世界大樓 11 樓 1105 室<br>
         Rm. 1105, 11F, 99 Chongqing S. Rd. Sec I, Zhongzheng Dist., Taipei City 100, Taiwan</p>
       </div>
@@ -59,9 +66,9 @@
         </div>
       </header>
       <div class="grid-6">
-        <p>原則上，週一至週五晚間 19:30-22:00 皆對全體 Mozilla 社群成員開放，而每週五晚的 <a href="/events/moztw-lab/">MozTW Lab 台北場</a>也在此舉辦。確實開放時間，請參考日曆（排班表）。</p>
-        <p lang="zh-TW">如果你不確定有沒有人在，可以前往<a href="https://groups.google.com/forum/#!forum/moztw-general">郵件群組</a>、<a href="ircs://irc.mozilla.org/#mozilla-taiwan">IRC</a> 或我們的 <a href="/community/telegram/">Telegram</a> 群組上面問一下。</p>
-        <p lang="en-US">If you're wondering if it's opened, please check <a href="https://groups.google.com/forum/#!forum/moztw-general">Google Group</a>, <a href="ircs://irc.mozilla.org/#mozilla-taiwan">IRC</a> or <a href="/community/telegram/">Telegram</a>.</p>
+        <p>原則上，週一至週五晚間 19:30-22:00，且有預排活動時，對全體 Mozilla 社群成員開放。而每週五晚的 <a href="/events/moztw-lab/">MozTW Lab 台北場</a>也在此舉辦。活動與預定開放時間，請參考<a href="https://cal.moztw.space" target="_blank" rel="noopener">日曆</a>。</p>
+        <p lang="zh-TW">目前開放狀態請見<a href="#intro">工寮開放狀態</a>。若狀態無法確認，歡迎至 <a href="https://t.me/moztw_general">Telegram</a> 詢問。</p>
+        <p lang="en-US">Check the <a href="#space-status">space status</a> to see whether the space is open. If the status is unavailable or you have questions about visiting, please ask on <a href="https://t.me/moztw_general">Telegram</a>.</p>
       </div>
       <div class="grid-6">
         <iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=260&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=3fs8qeakm6ij88hibpb5bsg3mc%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=Asia%2FTaipei" width="100%" height="260" frameborder="0" scrolling="no"></iframe>
@@ -250,5 +257,6 @@
 </div>
 
 <script src="/js/library/leaflet/leaflet.js"></script>
+<script src="js/status.js"></script>
 <script src="js/app.js"></script>
 <!--#include virtual="/sandstone/footer.shtml" -->

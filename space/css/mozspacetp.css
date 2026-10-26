@@ -44,6 +44,41 @@ h3 {
   padding: 70px 0;
 }
 
+#space-status > p {
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 4px 8px;
+}
+
+.space-status-icon {
+  display: none;
+  flex: 0 0 auto;
+  width: 17.5px;
+  height: 22.5px;
+  background: no-repeat center;
+  background-size: contain;
+}
+
+#space-status[data-state="open"] .space-status-icon {
+  display: inline-block;
+  background-image: url(../images/open.png);
+}
+
+#space-status[data-state="open"] strong {
+  color: #14663b;
+}
+
+#space-status[data-state="closed"] .space-status-icon,
+#space-status[data-state="unknown"] .space-status-icon {
+  display: inline-block;
+  background-image: url(../images/closed.png);
+}
+
+#space-status[data-state="closed"] strong {
+  color: #96362d;
+}
+
 #moreinfo {
   margin-top: 40px;
 }
