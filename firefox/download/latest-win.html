@@ -136,6 +136,32 @@ if ( navigator.appVersion.indexOf('Safari') !== -1 ) {
 	<p>本下載頁面實驗中，有任何建議歡迎<a href="http://forum.moztw.org/viewtopic.php?p=142359#142359">協助我們改善</a>。</p>
 </div>
 
+<!--[if lte IE 7]>
+<script type="text/javascript">
+/*
+ * IE 6/7 不支援 SNI 與現代 TLS，連不上 https 的 download.mozilla.org，
+ * 等於拿不到 Firefox —— 而讓這些使用者取得現代瀏覽器正是本站的目的之一。
+ *
+ * 下載網址只在 /inc/dlfx_var.shtml 寫一次，這裡只負責把通訊協定降回
+ * http，其餘瀏覽器一律維持 https。http://download.mozilla.org/ 會轉址到
+ * http://download.cdn.mozilla.net/ ，純 HTTP 全程可用。
+ *
+ * 注意：這只解決「連得上」。目前連結指向的 Firefox 版本需要 Windows 10
+ * 以上，在 XP 上裝不起來，該部分仍待處理，討論見 issue #801。
+ *
+ * 參見 https://github.com/moztw/www.moztw.org/issues/801
+ */
+(function () {
+	var links = document.getElementsByTagName('a');
+	for (var i = 0; i < links.length; ++i) {
+		if (links[i].href.indexOf('https://download.mozilla.org/') === 0) {
+			links[i].href = 'http' + links[i].href.substr('https'.length);
+		}
+	}
+})();
+</script>
+<![endif]-->
+
 <hr class="hide">
   <div id="footer">
    <ul id="bn">

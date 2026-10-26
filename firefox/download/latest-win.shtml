@@ -82,4 +82,5 @@ if ( navigator.appVersion.indexOf('Safari') !== -1 ) {
 	<p>本下載頁面實驗中，有任何建議歡迎<a href="http://forum.moztw.org/viewtopic.php?p=142359#142359">協助我們改善</a>。</p>
 </div>
 
+<!--#include virtual="/inc/dlfx_ie.shtml" -->
 <!--#include virtual="/inc/footer.html" -->
