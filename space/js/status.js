@@ -92,7 +92,8 @@
       if (field.classList.contains('sensor-value')) {
         // Keep 48px when it fits; only shrink long numbers in narrow columns.
         var characters = value.length - (value.match(/[.\-]/g) || []).length * 0.5;
-        field.style.setProperty('--sensor-character-width', Math.max(1, characters) * 0.6);
+        var characterWidth = type === 'temperature' ? 0.57 : 0.6;
+        field.style.setProperty('--sensor-character-width', Math.max(1, characters) * characterWidth);
       }
       if (type === 'carbondioxide' && location === 'inside' && co2Bar) {
         var bar = getCO2Bar(sensor ? sensor.value : NaN);

@@ -117,11 +117,11 @@ h3 {
 }
 
 .sensor-primary-right {
-  --sensor-unit-space: 32px;
+  --sensor-unit-space: 26px;
   display: flex;
   flex-direction: column;
   border-left: 1px solid #D9D9D9;
-  padding-left: 16px;
+  padding-left: 12px;
 }
 
 .sensor-reading {
@@ -459,19 +459,18 @@ div[class^=grid-] {
 }
 @media only screen and (max-width:430px) {
   #eqm {width: 220px;}
-}
-@media only screen and (max-width:400px) {
+
   .sensor-primary-left {
     padding-right: 8px;
   }
-  .sensor-primary-right {
-    padding-left: 8px;
+  .sensor-locations {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 8px;
   }
-  .sensor-location {
-    padding-right: 8px;
-  }
+  .sensor-location,
   .sensor-location + .sensor-location {
-    padding: 0 0 0 8px;
+    border-left: 0;
+    padding: 0;
   }
 }
 @media only screen and (max-width:250px) {
