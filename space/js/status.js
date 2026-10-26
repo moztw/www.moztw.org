@@ -8,7 +8,7 @@
   }
 
   var text = document.getElementById('space-status-text');
-  var warning = document.getElementById('space-status-warning');
+  var statusTimestamp = document.getElementById('space-status-timestamp');
   var readings = environment ? environment.querySelectorAll('[data-sensor]') : [];
   var notice = document.getElementById('space-environment-notice');
   var timestamp = document.getElementById('space-environment-timestamp');
@@ -35,13 +35,25 @@
     }
   }
 
-  function renderStatus(state, stale) {
+  function formatUpdatedAt(value) {
+    var parsed = typeof value === 'string' ? Date.parse(value) : NaN;
+    return Number.isFinite(parsed) ? new Date(parsed).toLocaleString('zh-TW', {
+      timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23'
+    }) : '';
+  }
+
+  function renderStatus(state, fetchedAt, stale) {
     if (!container) {
       return;
     }
     container.setAttribute('data-state', state);
     setText(text, messages[state]);
-    warning.hidden = !stale;
+    var updatedAt = formatUpdatedAt(fetchedAt);
+    statusTimestamp.hidden = stale !== true || !updatedAt || (state !== 'open' && state !== 'closed');
+    if (!statusTimestamp.hidden) {
+      setText(statusTimestamp, '（資料更新：' + updatedAt + '）');
+    }
   }
 
   function getCO2Bar(co2) {
@@ -97,10 +109,7 @@
     timestamp.hidden = !hasSensorReadings || !Number.isFinite(fetchedAt);
     if (!timestamp.hidden) {
       time.dateTime = new Date(fetchedAt).toISOString();
-      setText(time, new Date(fetchedAt).toLocaleString('zh-TW', {
-        timeZone: 'Asia/Taipei', year: 'numeric', month: '2-digit', day: '2-digit',
-        hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23'
-      }));
+      setText(time, formatUpdatedAt(metadata.fetched_at));
     }
 
     var message = !hasSensorReadings ? '目前無法取得環境資料 · API unavailable' :
@@ -115,7 +124,7 @@
   }
 
   function renderLoading() {
-    renderStatus('loading', false);
+    renderStatus('loading');
     if (environment) {
       environment.setAttribute('data-state', 'loading');
       setText(notice, hasSensorReadings ?
@@ -126,7 +135,7 @@
   }
 
   function renderError() {
-    renderStatus('unknown', false);
+    renderStatus('unknown');
     if (environment) {
       environment.setAttribute('data-state', 'unavailable');
       setText(notice, hasSensorReadings ?
@@ -165,8 +174,8 @@
       }
       var state = data.state && typeof data.state.open === 'boolean' ?
         (data.state.open ? 'open' : 'closed') : 'unknown';
-      renderStatus(state, state !== 'unknown' &&
-        Boolean(data.sensors_meta && data.sensors_meta.stale === true));
+      renderStatus(state, data.sensors_meta && data.sensors_meta.fetched_at,
+        data.sensors_meta && data.sensors_meta.stale);
       renderEnvironment(data);
     } catch (error) {
       renderError();

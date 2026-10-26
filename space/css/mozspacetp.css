@@ -51,6 +51,16 @@ h3 {
   gap: 4px 8px;
 }
 
+#space-status strong {
+  font-weight: bold;
+}
+
+.space-status-timestamp {
+  flex-basis: 100%;
+  font-size: calc(1em - 2px);
+  font-weight: normal;
+}
+
 .space-status-icon {
   display: none;
   flex: 0 0 auto;
