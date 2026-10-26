@@ -14,10 +14,10 @@ This repo uses `.shtml` as source templates and generates `.html` files via Grun
 1. Edit source files first:
    - Prefer updating `.shtml` and include files under `inc/`.
    - Do not manually hand-edit generated `.html` files unless the task explicitly requires it.
-2. Build command:
-   - Before running `npm run build`, always wait for manual confirmation from the user that source changes (such as `.shtml` or `inc/*`) are reviewed and approved.
-   - Run `npm run build` (same as `grunt build`) only after that confirmation, then commit generated files as `commit build results`.
-   - `grunt build` runs `copy` (`*.shtml` -> `*.html`) and `ssi` (flatten includes).
+2. Build and deploy:
+   - **Deployment**: Pushing to **main** triggers GitHub Actions to run `grunt dist` in CI and push the built `_site/` to the **gh-pages** branch; GitHub Pages deploys from that branch. Do **not** commit generated `.html` files (see PR #755 / issue #753).
+   - **Local build**: For local preview or checking, run `npm run build` (same as `grunt build`) after source changes are approved. `grunt build` runs `copy` (`*.shtml` -> `*.html`) and `ssi` (flatten includes). Do not commit these build results.
+   - **CI build**: Workflow runs `npm run dist` (output to `_site/`), syncs `_site/` into the gh-pages worktree (`_ghp`), then commits and pushes. One build command, no extra tasks.
 3. Local preview:
    - Run `npm start` to start BrowserSync for local checking.
 4. News update rule:

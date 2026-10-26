@@ -1,0 +1,56 @@
+# Build from main and push static output to gh-pages. gh-pages = clean static site only.
+# Repo Settings > Pages: choose "Deploy from a branch", branch gh-pages, / (root).
+#
+# Copyright 2025 林博仁(Buo-ren Lin) <buo.ren.lin@gmail.com>
+# SPDX-License-Identifier: CC-BY-SA-4.0
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
+      - name: Build and push to gh-pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin gh-pages 2>/dev/null || true
+          if git show-ref --quiet refs/remotes/origin/gh-pages; then
+            git worktree add _ghp origin/gh-pages
+          else
+            git worktree add -b gh-pages _ghp origin/main
+          fi
+          npm run dist
+          rsync -a --delete --exclude='.git' _site/ _ghp/
+          cd _ghp
+          git add -A
+          if ! git diff --staged --quiet || ! git diff --quiet; then
+            git commit -m "Deploy from main (${{ github.sha }})"
+            git push origin HEAD:gh-pages
+          fi
+          cd ..
+          git worktree remove _ghp --force
