@@ -121,7 +121,7 @@ h3 {
   display: flex;
   flex-direction: column;
   border-left: 1px solid #D9D9D9;
-  padding-left: 12px;
+  padding-left: 16px;
 }
 
 .sensor-reading {
@@ -462,6 +462,9 @@ div[class^=grid-] {
 
   .sensor-primary-left {
     padding-right: 8px;
+  }
+  .sensor-primary-right {
+    padding-left: 12px;
   }
   .sensor-locations {
     grid-template-columns: minmax(0, 1fr);
