@@ -47,6 +47,26 @@ You can do shallow clone to get this repo more quickly.
 4. Open `localhost:3000`, modify html and [browsersync](http://browsersync.io/) will reload the preview page.
 5. Run `npm run build` to build the static results before you commit to moztw.pages.dev branch.
 
+### Browser support: keep IE 6 working
+
+One of the reasons this site exists is to let people whose computer has no modern
+browser download Mozilla Firefox. In practice that means users still running
+Internet Explorer 6 on Windows XP. Two things follow from that:
+
+* **Do not enable "Enforce HTTPS" in the GitHub Pages settings.** moztw.org is
+  served behind a `*.github.io` certificate, so HTTPS on the custom domain
+  requires SNI, which IE 6 on Windows XP does not support. With the setting on,
+  plain HTTP requests are redirected and those users cannot reach the site at
+  all — not a styling glitch, the whole site becomes unreachable for exactly the
+  audience it is meant to serve.
+* **The IE compatibility code is kept deliberately**; please do not remove it as
+  dead weight: `js/library/IE9.js`, `js/library/html5shiv/`,
+  `js/library/iepngfix/`, `inc/dlfx_ie.shtml`, and the `<!--[if IE 6]>`
+  conditional comments on individual pages.
+
+Download URLs are written once in `inc/dlfx_var.shtml`. See
+[#799](https://github.com/moztw/www.moztw.org/issues/799) for background.
+
 ## Agent notes
 Please see `AGENTS.md` for collaboration rules used by coding agents.
 
