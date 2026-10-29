@@ -187,7 +187,7 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>Firefox 現在支援 await dictionary 提案中的 <code>Promise.allKeyed</code> 與 <code>Promise.allSettledKeyed</code> 方法，可接收由 Promise 組成的物件，並解析為具有相同鍵值名稱的結果物件。</p>
+      <p>Firefox 現在支援 await dictionary 提案中的 <code>Promise.allKeyed</code> 與 <code>Promise.allSettledKeyed</code> 方法。這些方法接受以 Promise 為屬性值的物件，並回傳一個 Promise；成功完成時，結果物件會沿用輸入物件的鍵名。</p>
     </li>
 
     <li>
@@ -232,7 +232,7 @@
 
     <li>
       <span class="tag tag-html5">網路平台</span>
-      <p>WebTransport 現在支援傳送群組（<code>createSendGroup()</code>），以控制串流間的頻寬分配；也支援可寫入的資料報串流（<code>createWritable()</code>），以及用來衍生與 TLS 工作階段綁定金鑰的 <code>exportKeyingMaterial()</code>。另新增 <code>draining</code> Promise，並可透過建構子的 <code>protocols</code> 選項與 <code>protocol</code> 屬性協商子協定。</p>
+      <p>WebTransport 現在支援傳送群組（<code>createSendGroup()</code>），以控制串流間的頻寬分配；也支援可寫入的資料報串流（<code>createWritable()</code>），以及用來衍生與 TLS 工作階段綁定金鑰的 <code>exportKeyingMaterial()</code>。另新增 <code>draining</code> Promise 與子協定協商支援，可透過建構子的 <code>protocols</code> 選項提供候選子協定，並由 <code>protocol</code> 屬性取得協商結果。</p>
     </li>
 
     <li>

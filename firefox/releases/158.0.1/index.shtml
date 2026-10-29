@@ -12,7 +12,7 @@
   <ul class="tags">
     <li>
       <span class="tag tag-fixed">修正</span>
-      <p>Mozilla 已於 10 月 17 日透過 OneCRL 封鎖遭入侵的 eMudhra 中繼憑證，並在同一天透過 Remote Settings 將封鎖資訊傳送至用戶端。此更新內含最新的 OneCRL 封鎖清單，確保即使 Remote Settings 被原則停用，或因使用者的網路環境而無法使用，用戶端仍會封鎖這些遭入侵的憑證。（<a target="_blank" href="https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/">深入瞭解</a>）</p>
+      <p>Mozilla 已於 10 月 17 日透過 OneCRL 封鎖私密金鑰遭洩漏的 eMudhra 中繼憑證，並在同一天透過 Remote Settings 將封鎖資訊傳送至用戶端。此更新內含最新的 OneCRL 封鎖清單，確保即使 Remote Settings 被原則停用，或因使用者的網路環境而無法使用，用戶端仍會封鎖這些受影響的憑證。（<a target="_blank" href="https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/">深入瞭解</a>）</p>
     </li>
 
     <li>
