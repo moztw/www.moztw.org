@@ -1,0 +1,125 @@
+<!--#set var="release_date" value="2026-09-15" -->
+<!--#set var="version" value="156.0" -->
+<!--#set var="previous_version" value="155.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/156.0/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>macOS 上的 Firefox 現在可在設定的「啟動」區段中，設為在電腦開機時<a target="_blank" href="https://support.mozilla.org/kb/open-firefox-automatically-when-you-start-computer">自動開啟</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>法國、德國與義大利的網址列現在提供在地化的維基百科建議，以及偶爾出現的贊助建議。你可在 <a target="_blank" href="https://support.mozilla.org/kb/firefox-suggest">Firefox Suggest 設定</a>中關閉這些建議。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正在富文字編輯器中將圖片拖曳至新位置時，圖片可能被一長串文字取代，而非移動的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Bilibili 等網站無法播放 MP4 中高取樣率 FLAC 音訊的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正開啟子母畫面視窗後，才在影片播放器中啟用字幕時，字幕未顯示於子母畫面視窗的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正在書籤側邊欄中同時選取並拖曳資料夾及其內部書籤時，書籤移出原資料夾的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正反轉分割檢視的左右面板後，分頁中的尋找列持續無法使用的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正啟用 DNS over HTTPS 後，部分不支援 HTTPS 的網站無法載入的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分使用者啟用內建 VPN 後，Firefox 完全無法連線至網路的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 上 Firefox 可能阻止自動隱藏的工作列顯示的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-90/">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>Firefox 內建 PDF 檢視器的啟動速度，現在最高可提升 45%。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>改善 Firefox 將大型 JPEG 圖片縮小至符合頁面大小時的記憶體與 CPU 使用量。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>搭載 ARM64 處理器的 Windows 裝置，現在進行 WebRTC 視訊通話時可使用 H264 硬體解碼，不必再退回軟體解碼。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://firefox-admin-docs.mozilla.org/release-notes/version/firefox-156/">Firefox 156 企業版版本資訊</a> 中找到政策更新與企業版相關的錯誤修正資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/156">Firefox 156 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/text-box-trim"><code>text-box-trim</code></a> 現在會在適用時採用 <code>::first-line</code> 偽元素的字型度量，與其他瀏覽器及規格保持一致。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20156&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox156&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla156&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 156 的發布，我們喜迎以下首次貢獻程式到 Firefox 的開發者，其中有 10 位是全新的志工！一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Aaron Ma: <a href="https://bugzilla.mozilla.org/2063818" target="_blank">2063818</a></li>
+    <li>Dominik Bay [:eimann]: <a href="https://bugzilla.mozilla.org/2066736" target="_blank">2066736</a></li>
+    <li>ExplodingJoysticks: <a href="https://bugzilla.mozilla.org/1728637" target="_blank">1728637</a>, <a href="https://bugzilla.mozilla.org/1890400" target="_blank">1890400</a>, <a href="https://bugzilla.mozilla.org/1910664" target="_blank">1910664</a>, <a href="https://bugzilla.mozilla.org/1928343" target="_blank">1928343</a>, <a href="https://bugzilla.mozilla.org/1944206" target="_blank">1944206</a>, <a href="https://bugzilla.mozilla.org/2000658" target="_blank">2000658</a>, <a href="https://bugzilla.mozilla.org/2003000" target="_blank">2003000</a>, <a href="https://bugzilla.mozilla.org/2059911" target="_blank">2059911</a>, <a href="https://bugzilla.mozilla.org/2061541" target="_blank">2061541</a></li>
+    <li>Gopalarathnam Venkatesan: <a href="https://bugzilla.mozilla.org/2003172" target="_blank">2003172</a>, <a href="https://bugzilla.mozilla.org/2042426" target="_blank">2042426</a>, <a href="https://bugzilla.mozilla.org/2062096" target="_blank">2062096</a>, <a href="https://bugzilla.mozilla.org/2062952" target="_blank">2062952</a>, <a href="https://bugzilla.mozilla.org/2062989" target="_blank">2062989</a></li>
+    <li>Hugo Osvaldo Barrera: <a href="https://bugzilla.mozilla.org/2063808" target="_blank">2063808</a></li>
+    <li>Kana: <a href="https://bugzilla.mozilla.org/2062133" target="_blank">2062133</a></li>
+    <li>Kerissa Grubb: <a href="https://bugzilla.mozilla.org/2042422" target="_blank">2042422</a></li>
+    <li>Louis-Philippe Manette: <a href="https://bugzilla.mozilla.org/2062972" target="_blank">2062972</a>, <a href="https://bugzilla.mozilla.org/2063867" target="_blank">2063867</a></li>
+    <li>Seunghyun An: <a href="https://bugzilla.mozilla.org/2063033" target="_blank">2063033</a></li>
+    <li>William McDonald: <a href="https://bugzilla.mozilla.org/1034964" target="_blank">1034964</a></li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
