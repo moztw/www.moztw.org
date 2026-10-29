@@ -1,0 +1,175 @@
+<!--#set var="release_date" value="2026-10-27" -->
+<!--#set var="version" value="159.0" -->
+<!--#set var="previous_version" value="158.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/159.0/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>macOS 的分享功能現在使用系統原生分享選擇器，除了 AirDrop、「訊息」與其他應用程式，也會顯示網頁預覽與最近聯絡人。你也可以一次分享多個選取的分頁。</p>
+      <p><img src="/firefox/releases/159.0/159_macos_share_picker.png" alt="macOS 原生分享選擇器顯示網頁預覽與分享對象"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在預設即可從側邊欄存取已儲存的密碼，不必先加入密碼工具。</p>
+      <p><img src="/firefox/releases/159.0/159_passwords_sidebar.png" alt="在 Firefox 側邊欄存取已儲存的密碼"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p><a target="_blank" href="https://www.firefox.com/smart-window">智慧視窗</a>現在可監看網頁是否降價、補貨等變更。在對話中輸入 <code>/watch</code> 即可設定，Firefox 發現符合條件的變更時會傳送桌面通知。你可透過工具列上的工作按鈕，或 <code>about:smartwindowtasks</code> 頁面管理監看項目。</p>
+      <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正上傳檔案對話框開啟的是上次儲存檔案的資料夾（例如「下載項目」），而非上次用於上傳的資料夾。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Zoom 網頁版等網站在最小化視窗中持續開啟時，記憶體使用量快速增加的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 上啟用 NVIDIA RTX Video HDR 時，部分影片顯示異常的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正無法從已登入 Google 帳號的 Google Chrome 設定檔匯入書籤的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 上 Apple「書寫工具」的「取代」按鈕，在 Gmail 等部分網站插入剪貼簿內容，而非改寫後文字的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正網頁中較長的下拉選單，有時在捲動前以空白取代最後幾個選項的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Slack 等部分網站拒絕 HTTP/3 請求時，Firefox 未退回 HTTP/2 而導致網站無法載入的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Linux 搭配 AMD 顯示卡時，在 ChatGPT 等網站檢視地圖或地點結果，導致 Firefox 使用過多記憶體的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 上的網頁遊戲有時漏掉快速按下遊戲控制器按鈕的操作。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Linux 使用 Wayland 時，點擊分頁有時使分頁脫離成為新視窗的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 與 Linux 上已關閉作業系統動畫效果時，選單與面板仍以淡入動畫顯示的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-118/">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>macOS 上，當 Firefox 為預設瀏覽器時，ChatGPT 等透過預設瀏覽器登入的應用程式，現在會在 Firefox 開啟登入頁面，而非 Safari。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p><a target="_blank" href="https://support.mozilla.org/kb/ai-chatbot">AI 聊天機器人</a>的「摘要頁面」選項，現在會將網頁網址傳送給聊天機器人服務提供者，取代網頁文字，因此較長的頁面不再因內容遭截斷而只能產生部分摘要。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>現在可使用鍵盤快捷鍵搜尋已開啟的分頁：Windows 與 Linux 為 <code>Ctrl+Shift+A</code>，macOS 為 <code>Cmd+Shift+A</code>。「擴充套件與佈景主題」的快捷鍵則改為 Windows 與 Linux 的 <code>Ctrl+Shift+F</code>，以及 macOS 的 <code>Cmd+Shift+E</code>。這些快捷鍵可在 <code>about:keyboard</code> 中變更。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>以爪哇文、峇里文、加拿大原住民音節文字與西非書面文字（N’Ko）撰寫的網址，現在會以原文字顯示，不再顯示為以 <code>xn--</code> 開頭的編碼文字。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>Firefox 企業版的更新與修正，請參考 <a target="_blank" href="https://www.firefox.com/firefox/enterprise/159.0/releasenotes/">Firefox 企業版版本資訊</a>；原則變更請參考 <a target="_blank" href="https://firefox-admin-docs.mozilla.org/release-notes/version/firefox-159/">Firefox 管理文件變更紀錄</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/159">Firefox 159 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>網頁主控台現在允許重新宣告 <code>let</code>、<code>const</code> 與 <code>class</code> 變數，讓你編輯程式碼片段後重新執行，不會遇到重複宣告錯誤。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援<a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Guides/Scroll-driven_animations">捲動驅動動畫</a>，讓 CSS 動畫與 Web Animations API 動畫能隨容器的捲動位置，或元素捲入可見範圍時的可見程度推進。這項支援新增 <code>animation-timeline</code>、<code>scroll-timeline</code>、<code>view-timeline</code> 與 <code>animation-range</code> 屬性，以及 <code>ScrollTimeline</code> 與 <code>ViewTimeline</code> 介面。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援<a target="_blank" href="https://developer.mozilla.org/docs/Web/API/CustomElementRegistry/CustomElementRegistry">限定作用範圍的自訂元素登錄表</a>。透過 <code>CustomElementRegistry()</code> 建構子建立的登錄表，與全域的 <code>window.customElements</code> 登錄表互相獨立，讓使用相同標籤名稱的自訂元素能在同一頁面共存。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>相容裝置上的 WebGL 現在支援 <code>EXT_clip_control</code> 與 <code>EXT_texture_mirror_clamp_to_edge</code> 擴充功能，WebGL 2 則支援 <code>EXT_texture_norm16</code>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><a target="_blank" href="https://developer.mozilla.org/docs/Web/API/HTML_Sanitizer_API">Sanitizer API</a> 現在會在解析 HTML 的同時清理內容，而非解析完成後才清理，因此被清理器移除的元素不再執行自訂元素建構子。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20159&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox159&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla159&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 159 的發布，我們喜迎以下首次貢獻程式到 Firefox 的開發者，其中有 12 位是全新的志工！一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Abhinav Singh: <a href="https://bugzilla.mozilla.org/2070629" target="_blank">2070629</a></li>
+    <li>Atharva Wadodkar[:atharva]: <a href="https://bugzilla.mozilla.org/2070702" target="_blank">2070702</a></li>
+    <li>corpus_e: <a href="https://bugzilla.mozilla.org/2070325" target="_blank">2070325</a></li>
+    <li>csalinezh: <a href="https://bugzilla.mozilla.org/1970969" target="_blank">1970969</a></li>
+    <li>Dmitry Gozman: <a href="https://bugzilla.mozilla.org/2076389" target="_blank">2076389</a></li>
+    <li>eldjiikgull (EDS): <a href="https://bugzilla.mozilla.org/2076744" target="_blank">2076744</a></li>
+    <li>Fabio: <a href="https://bugzilla.mozilla.org/1735401" target="_blank">1735401</a></li>
+    <li>Feng Yu: <a href="https://bugzilla.mozilla.org/2073811" target="_blank">2073811</a></li>
+    <li>Jaron: <a href="https://bugzilla.mozilla.org/2069726" target="_blank">2069726</a></li>
+    <li>Jason Salerno: <a href="https://bugzilla.mozilla.org/2076831" target="_blank">2076831</a></li>
+    <li>Lander Feldman: <a href="https://bugzilla.mozilla.org/2067952" target="_blank">2067952</a></li>
+    <li>赤坂理子: <a href="https://bugzilla.mozilla.org/2044440" target="_blank">2044440</a></li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

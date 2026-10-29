@@ -1,0 +1,51 @@
+<!--#set var="release_date" value="2026-09-04" -->
+<!--#set var="version" value="155.0.1" -->
+<!--#set var="previous_version" value="155.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/155.0.1/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分同時使用 CSS 模糊與背景濾鏡的網頁，導致 Firefox 無回應的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2068836">Bug 2068836</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正啟用「隱藏分頁與側邊欄」選項後，重新啟動 Firefox 時側邊欄未重新顯示的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2065431">Bug 2065431</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正帳號與應用程式選單中，部分設定檔圖示未顯示的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2064729">Bug 2064729</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2067734">Bug 2067734</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正帳號選單將目前使用的裝置也列入已連線裝置清單的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2059763">Bug 2059763</a>）</p>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p>macOS 上部分格式的標準動態範圍（SDR）影片，色彩可能顯得泛白。此問題正在調查中，將於未來版本修正。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2068961">Bug 2068961</a>）</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20155&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox155&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla155&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

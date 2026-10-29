@@ -1,0 +1,43 @@
+<!--#set var="release_date" value="2026-10-06" -->
+<!--#set var="version" value="157.0.1" -->
+<!--#set var="previous_version" value="157.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/157.0.1/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 上 Firefox 設為每次詢問檔案儲存位置，但沒有「下載項目」資料夾存取權限時，下載失敗的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2077390">Bug 2077390</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分使用者的側邊欄卡在書籤或 AI 聊天機器人面板的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2076296">Bug 2076296</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 上初次使用的引導流程中，未顯示「從備份還原」選項的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2073401">Bug 2073401</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p><a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-104/">安全性修正</a>。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20157&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox157&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla157&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

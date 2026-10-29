@@ -1,0 +1,159 @@
+<!--#set var="release_date" value="2026-10-13" -->
+<!--#set var="version" value="158.0" -->
+<!--#set var="previous_version" value="157.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/158.0/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>現在可在<a target="_blank" href="https://support.mozilla.org/kb/smart-window">智慧視窗</a>中更快速地填寫表單。點擊表單欄位，或從來源中選擇「填入」時，智慧視窗會根據相關的已開啟分頁與已儲存的自動填寫資料，建議可填入的內容。</p>
+      <p class="progressive-roll">某些新的 Firefox 功能採行逐步釋出（progressive roll out），意味著某些使用者會比其他人更早看到此功能。如此有助於獲取早期回饋，迅速發現錯誤與改善行為，從而提升整體 Firefox 使用者的體驗。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>將網頁儲存為 PDF，以及在 Linux 與 macOS 上列印時，Firefox 現在會產生無障礙支援更完善的 PDF。這也修正了數學符號缺漏等多項 PDF 顯示問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 現在支援 <a target="_blank" href="https://jpeg.org/jpegxl/">JPEG XL 圖片格式</a>，通常比 WebP、JPEG、PNG 與 GIF 具有更佳的壓縮率。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>新分頁現在會在「你的圖片」中保留多張自訂桌布，不再只保留最近使用的一張。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox 的<a target="_blank" href="https://support.mozilla.org/kb/website-translation">翻譯</a>功能現在支援下列語言：</p>
+      <ul>
+        <li>阿爾巴尼亞語</li>
+        <li>白俄羅斯語</li>
+        <li>菲律賓語</li>
+      </ul>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Ubuntu 預設佈景主題下，使用鍵盤選取網址列結果時，網站圖示（favicon）與反白底色混在一起的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Firefox 載入網站圖示（favicon）時，可能發生當機的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 與 Linux 網址列的整合搜尋按鈕選單中，每個搜尋引擎名稱的首字母都加上底線，可能造成鍵盤快捷鍵衝突的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正使用 Windows 高對比佈景主題時，「列出所有分頁」「設定」與「整合搜尋」等選單難以閱讀的問題。選單背景與文字現在會採用 Windows 設定中自訂對比佈景主題所選的「背景」與「文字」色彩。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-106">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>Firefox 不再將捲動位置四捨五入至整數螢幕像素，讓捲動更平順、更精確，尤其是在高解析度顯示器或頁面縮放時。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>Firefox 企業版的更新與修正，請參考 <a target="_blank" href="https://www.firefox.com/firefox/enterprise/158.0/releasenotes/">Firefox 企業版版本資訊</a>；原則變更請參考 <a target="_blank" href="https://firefox-admin-docs.mozilla.org/release-notes/version/firefox-158/">Firefox 管理文件變更紀錄</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/158">Firefox 158 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p>修正 WebSocket 訊息在連線建立後立即送達時，網路監控器可能漏掉這些訊息的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 CSS <code>calc()</code> 中的<a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Guides/Values_and_units/Using_typed_arithmetic">帶型別算術運算</a>，允許在數學函式內對單位進行乘除運算。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p><code>Notification</code> 建構子與 <code>ServiceWorkerRegistration.showNotification()</code> 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/Notification/navigate"><code>navigate</code></a> 選項，可指定點擊通知後要前往的 URL。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>具有 <code>autocomplete="webauthn"</code> 屬性的輸入元素，現在也會顯示 <a target="_blank" href="https://github.com/w3c/webauthn/blob/main/explainers/conditional-ui.md">WebAuthn 條件式介面</a>。先前只有在該屬性包含另一個自動填寫欄位值時才會顯示，例如 <code>autocomplete="username webauthn"</code>。（<a target="_blank" href="https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill-processing-model">深入瞭解</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 <a target="_blank" href="https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/deliveryType"><code>PerformanceResourceTiming.deliveryType</code></a> 的 <code>cache</code> 值，讓網站能辨識由 HTTP 快取提供的資源。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>相容裝置現在可使用 WebGL 擴充功能 <a target="_blank" href="https://registry.khronos.org/webgl/extensions/EXT_polygon_offset_clamp/"><code>EXT_polygon_offset_clamp</code></a>。</p>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p>透過第三方 PWAsForFirefox 工具啟動的網頁應用程式，可能無法在 Firefox 158 中啟動，並顯示「The installation seems to be incomplete.」（安裝似乎不完整）錯誤。將 PWAsForFirefox 更新至 2.20.1 或更新版本即可修復。若錯誤仍然出現，請在 PWAsForFirefox 擴充套件設定中，依序選擇「Reinstall runtime」（重新安裝執行環境）與「Patch profiles and runtime」（修補設定檔與執行環境）。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20158&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox158&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla158&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 158 的發布，我們喜迎以下首次貢獻程式到 Firefox 的開發者，其中有 20 位是全新的志工！一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>:cat: <a href="https://bugzilla.mozilla.org/2071142" target="_blank">2071142</a></li>
+    <li>Adham: <a href="https://bugzilla.mozilla.org/1985986" target="_blank">1985986</a></li>
+    <li>Anand Balaji: <a href="https://bugzilla.mozilla.org/2072754" target="_blank">2072754</a></li>
+    <li>Calvin Lei-Cramer: <a href="https://bugzilla.mozilla.org/1975584" target="_blank">1975584</a></li>
+    <li>Collins Kubu: <a href="https://bugzilla.mozilla.org/2069323" target="_blank">2069323</a></li>
+    <li>Daniel mungai chege: <a href="https://bugzilla.mozilla.org/2072565" target="_blank">2072565</a></li>
+    <li>f3tch [:f3tchcodes]: <a href="https://bugzilla.mozilla.org/1492357" target="_blank">1492357</a>, <a href="https://bugzilla.mozilla.org/1917288" target="_blank">1917288</a>, <a href="https://bugzilla.mozilla.org/1957843" target="_blank">1957843</a>, <a href="https://bugzilla.mozilla.org/2068045" target="_blank">2068045</a>, <a href="https://bugzilla.mozilla.org/2070577" target="_blank">2070577</a></li>
+    <li>foued: <a href="https://bugzilla.mozilla.org/2070398" target="_blank">2070398</a></li>
+    <li>harry75369: <a href="https://bugzilla.mozilla.org/2000420" target="_blank">2000420</a>, <a href="https://bugzilla.mozilla.org/2006226" target="_blank">2006226</a>, <a href="https://bugzilla.mozilla.org/2071759" target="_blank">2071759</a></li>
+    <li>HojunCho: <a href="https://bugzilla.mozilla.org/2066829" target="_blank">2066829</a></li>
+    <li>ianlewisuk1: <a href="https://bugzilla.mozilla.org/2072737" target="_blank">2072737</a></li>
+    <li>Jakub Stasiak [:jstasiak]: <a href="https://bugzilla.mozilla.org/1719394" target="_blank">1719394</a></li>
+    <li>Lavindeep: <a href="https://bugzilla.mozilla.org/2069768" target="_blank">2069768</a></li>
+    <li>Ole Baumann [:darkintaqt]: <a href="https://bugzilla.mozilla.org/2070873" target="_blank">2070873</a></li>
+    <li>Rehan: <a href="https://bugzilla.mozilla.org/1688932" target="_blank">1688932</a></li>
+    <li>Ruslan Semchenko: <a href="https://bugzilla.mozilla.org/105707" target="_blank">105707</a>, <a href="https://bugzilla.mozilla.org/2041999" target="_blank">2041999</a>, <a href="https://bugzilla.mozilla.org/2071549" target="_blank">2071549</a></li>
+    <li>Sho Sakuma: <a href="https://bugzilla.mozilla.org/2072520" target="_blank">2072520</a></li>
+    <li>Thomas Nibler [:tnibler]: <a href="https://bugzilla.mozilla.org/2071644" target="_blank">2071644</a>, <a href="https://bugzilla.mozilla.org/2072008" target="_blank">2072008</a>, <a href="https://bugzilla.mozilla.org/2072750" target="_blank">2072750</a></li>
+    <li>Vir Patel: <a href="https://bugzilla.mozilla.org/1865119" target="_blank">1865119</a>, <a href="https://bugzilla.mozilla.org/2073619" target="_blank">2073619</a></li>
+    <li>Yeet: <a href="https://bugzilla.mozilla.org/1973441" target="_blank">1973441</a></li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
