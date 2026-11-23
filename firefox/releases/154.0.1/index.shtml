@@ -1,0 +1,66 @@
+<!--#set var="release_date" value="2026-08-25" -->
+<!--#set var="version" value="154.0.1" -->
+<!--#set var="previous_version" value="154.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/154.0.1/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正近期密碼儲存機制變更導致存取已儲存密碼變慢，以及非預期出現主要密碼提示的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2064411">Bug 2064411</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2065593">Bug 2065593</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2063993">Bug 2063993</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分網站無法自動填寫地址的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2065145">Bug 2065145</a>、<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2063599">Bug 2063599</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 上 Firefox 每次啟動都新增一個開始功能表捷徑的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2064652">Bug 2064652</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分透過 HTTP 載入的網站，連線至區域網路裝置時未顯示權限提示就連線失敗的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2059274">Bug 2059274</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正開啟設有區域網路共用檔案連結的內部網路網站時，可能發生當機的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2064648">Bug 2064648</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 系統字型為 MS UI Gothic 時，分頁標題開頭遭到截斷的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2056856">Bug 2056856</a>）</p>
+    </li>
+  </ul>
+
+  <h3 id="knownissues">已知問題</h3>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p><del>啟用垂直分頁的使用者重新啟動 Firefox 後，側邊欄可能不再顯示。重新啟動後可點擊工具列上的側邊欄按鈕，重新啟用垂直分頁。</del>已於 <a target="_blank" href="https://www.firefox.com/firefox/155.0.1/releasenotes/">Firefox 155.0.1</a> 修復。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-unresolved">尚待修復</span>
+      <p>在全螢幕模式下隱藏工具列時（Windows 與 Linux 的預設行為），將游標移到螢幕左側邊緣不會顯示垂直分頁側邊欄。暫時可將游標移至螢幕頂端，同時顯示工具列與側邊欄；也可以在工具列上按右鍵，取消勾選「隱藏工具列」。我們正在修正此問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2064638">Bug 2064638</a>）</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20154&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox154&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla154&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

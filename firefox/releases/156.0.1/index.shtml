@@ -1,0 +1,53 @@
+<!--#set var="release_date" value="2026-09-22" -->
+<!--#set var="version" value="156.0.1" -->
+<!--#set var="previous_version" value="156.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/156.0.1/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正滑鼠游標移至網址列按鈕上時，NVDA 螢幕閱讀器未朗讀按鈕的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2069276">Bug 2069276</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正連結內的元素在點擊時，未呈現 CSS <code>:active</code> 樣式的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2067272">Bug 2067272</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分使用 CSS 錨點定位的網頁導致 Firefox 無回應的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2070171">Bug 2070171</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 27 上連按兩下標題列以還原 Firefox 視窗後，視窗立即再次最大化的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2066632">Bug 2066632</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 上內容處理程序啟動與結束時，Firefox 洩漏系統控制代碼的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2069644">Bug 2069644</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>按下 Tab 鍵，焦點現在會直接移至網址列與搜尋列的文字欄位，不再先停留在搜尋引擎按鈕上。仍可使用 Shift+Tab 將焦點移至該按鈕。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20156&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox156&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla156&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

@@ -1,0 +1,58 @@
+<!--#set var="release_date" value="2026-10-20" -->
+<!--#set var="version" value="158.0.1" -->
+<!--#set var="previous_version" value="158.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/158.0.1/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>Mozilla 已於 10 月 17 日透過 OneCRL 封鎖私密金鑰遭洩漏的 eMudhra 中繼憑證，並在同一天透過 Remote Settings 將封鎖資訊傳送至用戶端。此更新內含最新的 OneCRL 封鎖清單，確保即使 Remote Settings 被原則停用，或因使用者的網路環境而無法使用，用戶端仍會封鎖這些受影響的憑證。（<a target="_blank" href="https://blog.mozilla.org/security/2026/10/20/protecting-firefox-users-following-the-compromise-of-emudhra-intermediate-certificates/">深入瞭解</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正選取文字時，頁面非預期捲回頂端的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2081016">Bug 2081016</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 上執行螢幕閱讀器或其他輔助技術時，列印網頁或將網頁儲存為 PDF 可能發生當機的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2082376">Bug 2082376</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Linux 多螢幕配置下，Firefox 在錯誤螢幕上開啟視窗的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2076558">Bug 2076558</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正部分使用者無法啟用內建 VPN 的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2055094">Bug 2055094</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 macOS 上從其他應用程式拖曳檔案至 Firefox 時，檔案未放置到網頁上的問題。（<a target="_blank" href="https://bugzilla.mozilla.org/show_bug.cgi?id=2078954">Bug 2078954</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-111">安全性修正</a>。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20158&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox158&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla158&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->

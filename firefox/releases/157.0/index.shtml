@@ -1,0 +1,153 @@
+<!--#set var="release_date" value="2026-09-29" -->
+<!--#set var="version" value="157.0" -->
+<!--#set var="previous_version" value="156.0" -->
+
+<!-- 翻譯來源：https://www.firefox.com/en-US/firefox/157.0/releasenotes/ -->
+
+<!--#include virtual="/firefox/inc/fx_head-sandstone.shtml" -->
+
+<article id="whatsnew" class="module">
+
+  <h2>Firefox 新鮮事</h2>
+  <ul class="tags">
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox <a target="_blank" href="https://blog.mozilla.org/en/firefox/new-firefox-design-is-here/">多年來最大幅度的外觀更新</a>正式登場，透過更新後的設計系統，為瀏覽器工具列、側邊欄、選單與各項功能帶來更現代的外觀。另外也包含：</p>
+      <ul>
+        <li>全新內建佈景主題，同時提供亮色與暗色版本，一鍵即可打造個人化的 Firefox 外觀。</li>
+        <li>全新精簡模式，縮小工具列與分頁間距，為網頁內容保留更多空間，尤其適合小螢幕與分割畫面配置。</li>
+      </ul>
+      <p><img src="/firefox/releases/157.0/fx157_nova_800.png" alt="Firefox 全新外觀與瀏覽器介面"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>WebRTC 視訊通話現在可在支援的裝置上使用 AV1 硬體解碼，不再一律以軟體解碼 AV1 影片。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>當 Firefox 設定為記錄加密金鑰時，現在會在網站資訊面板（網址列上的盾牌圖示）與設定中顯示警告，因為這可能讓電腦上的其他軟體讀取加密的網路流量。</p>
+      <p><img src="/firefox/releases/157.0/fx157_tls_key_logging.png" alt="Firefox 顯示記錄 TLS 加密金鑰的警告"></p>
+    </li>
+
+    <li>
+      <span class="tag tag-new">全新功能</span>
+      <p>Firefox Suggest 現在於奧地利、比利時、捷克、丹麥、芬蘭、匈牙利、愛爾蘭、盧森堡、荷蘭、挪威、波蘭、葡萄牙、斯洛伐克、西班牙、瑞典與瑞士的網址列提供建議。你可以在 Firefox Suggest 設定中管理這些建議。（<a target="_blank" href="https://support.mozilla.org/kb/firefox-suggest">深入瞭解</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正手機與平板電腦的影像在 WebRTC 通話中橫轉或上下顛倒的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正頁面仍在載入時（例如 Firefox 剛啟動後不久），網址列搜尋輸入的文字，而非開啟已選取建議的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 上部分以 8 位元色彩格式編碼的 HDR 影片，畫面黯淡灰白，未以 HDR 顯示的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>改善反覆變更影片播放速度時的影音同步，例如在 YouTube 上調整播放速度。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正全螢幕模式下將游標移至螢幕邊緣時，垂直分頁側邊欄未重新顯示的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>修正 Windows 上影片切換為全螢幕後，工作列仍顯示在影片上方的問題。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-fixed">修正</span>
+      <p>多項<a target="_blank" href="https://www.mozilla.org/security/advisories/mfsa2026-97/">安全性修正</a>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>按下 Tab 鍵，焦點現在會直接移至網址列與搜尋列的文字欄位，不再先停留在搜尋引擎按鈕上。仍可使用 Shift+Tab 將焦點移至該按鈕。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>Amazon 不再列為內建搜尋引擎。你仍可在搜尋設定中，將它加入為自訂搜尋引擎。（<a target="_blank" href="https://support.mozilla.org/kb/add-custom-search-engine-firefox">深入瞭解</a>）</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>更新後的側邊欄現在已為所有使用者啟用。原本仍使用舊版側邊欄的使用者，將保留類似的配置，面板切換器位於側邊欄頂端。此外，設定中的「顯示側邊欄」選項已移除。</p>
+      <p>我們持續改善新設計的同時，你仍可在 <code>about:config</code> 中將 <code>sidebar.revamp</code> 設為 <code>false</code>，還原舊版側邊欄，但這也會關閉垂直分頁。此偏好設定將保留至 2027 年底。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-changed">變更</span>
+      <p>網頁的 <code>alert()</code>、<code>confirm()</code> 與 <code>prompt()</code> 對話框、色彩與日期選擇器，以及表單自動完成下拉選單，現在會配合網頁的亮色或暗色配色。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-enterprise">企業版</span>
+      <p>你可以在 <a target="_blank" href="https://firefox-admin-docs.mozilla.org/release-notes/version/firefox-157/">Firefox 157 企業版版本資訊</a> 中找到政策更新與企業版相關的錯誤修正資訊。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-developer">開發功能</span>
+      <p><a class="mdn-icon" target="_blank" href="https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/157">Firefox 157 開發者資訊</a></p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援在 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@supports"><code>@supports</code></a> 中使用 <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/At-rules/@supports#at-rule"><code>at-rule()</code></a> 函式，讓開發者能偵測瀏覽器是否支援特定 at-rule，例如 <code>@supports at-rule(@scope)</code>。</p>
+    </li>
+
+    <li>
+      <span class="tag tag-html5">網路平台</span>
+      <p>Firefox 現在支援 CSS <a target="_blank" href="https://developer.mozilla.org/docs/Web/CSS/Reference/Properties/overscroll-behavior"><code>overscroll-behavior</code></a> 屬性的 <code>chain</code> 值。</p>
+    </li>
+  </ul>
+
+  <ul class="tags">
+    <li class="complete">
+      請參考此版本的<a target="_blank" href="https://bugzilla.mozilla.org/buglist.cgi?j_top=OR&f1=target_milestone&o3=equals&v3=Firefox%20157&o1=equals&resolution=FIXED&o2=anyexact&query_format=advanced&f3=target_milestone&f2=cf_status_firefox157&bug_status=RESOLVED&bug_status=VERIFIED&bug_status=CLOSED&v1=mozilla157&v2=fixed%2Cverified&limit=0">完整變更清單</a>。
+      你可能也想瞭解 <a href='/firefox/releases/<!--#echo var="previous_version" -->/'>Firefox <!--#echo var="previous_version" --> 版本更新資訊</a>。
+    </li>
+  </ul>
+
+  <h3>社群貢獻者</h3>
+
+  <p>隨著 Firefox 157 的發布，我們喜迎以下首次貢獻程式到 Firefox 的開發者，其中有 21 位是全新的志工！一同感謝這些勤奮又熱情的人，並查看他們的貢獻：</p>
+
+  <ul>
+    <li>Alexander Gankov: <a href="https://bugzilla.mozilla.org/2033184" target="_blank">2033184</a></li>
+    <li>Amadi: <a href="https://bugzilla.mozilla.org/2053549" target="_blank">2053549</a>, <a href="https://bugzilla.mozilla.org/2053553" target="_blank">2053553</a>, <a href="https://bugzilla.mozilla.org/2065302" target="_blank">2065302</a>, <a href="https://bugzilla.mozilla.org/2066478" target="_blank">2066478</a></li>
+    <li>Andrew: <a href="https://bugzilla.mozilla.org/2031465" target="_blank">2031465</a></li>
+    <li>Caleb Pickard: <a href="https://bugzilla.mozilla.org/2058970" target="_blank">2058970</a></li>
+    <li>David Torcivia: <a href="https://bugzilla.mozilla.org/2057758" target="_blank">2057758</a></li>
+    <li>dchen705: <a href="https://bugzilla.mozilla.org/2065655" target="_blank">2065655</a></li>
+    <li>Ekerin Agboola: <a href="https://bugzilla.mozilla.org/2064541" target="_blank">2064541</a></li>
+    <li>Giddeon Card: <a href="https://bugzilla.mozilla.org/2067328" target="_blank">2067328</a></li>
+    <li>gustavokrm: <a href="https://bugzilla.mozilla.org/2051536" target="_blank">2051536</a></li>
+    <li>Hanzala Sohrab: <a href="https://bugzilla.mozilla.org/2068111" target="_blank">2068111</a></li>
+    <li>Ivan Smagin: <a href="https://bugzilla.mozilla.org/2061540" target="_blank">2061540</a></li>
+    <li>Jieke Jiang: <a href="https://bugzilla.mozilla.org/2067179" target="_blank">2067179</a></li>
+    <li>Nazeer Ahmed Shaikh: <a href="https://bugzilla.mozilla.org/1703780" target="_blank">1703780</a>, <a href="https://bugzilla.mozilla.org/2064544" target="_blank">2064544</a></li>
+    <li>Noah Varghese: <a href="https://bugzilla.mozilla.org/1625924" target="_blank">1625924</a>, <a href="https://bugzilla.mozilla.org/2021799" target="_blank">2021799</a></li>
+    <li>perdomojuan755: <a href="https://bugzilla.mozilla.org/2069230" target="_blank">2069230</a></li>
+    <li>Raúl: <a href="https://bugzilla.mozilla.org/2066877" target="_blank">2066877</a></li>
+    <li>Rév O'Conner: <a href="https://bugzilla.mozilla.org/1594489" target="_blank">1594489</a></li>
+    <li>Samuel Mbabhazi: <a href="https://bugzilla.mozilla.org/2054228" target="_blank">2054228</a></li>
+    <li>sfshah: <a href="https://bugzilla.mozilla.org/2004273" target="_blank">2004273</a>, <a href="https://bugzilla.mozilla.org/2067302" target="_blank">2067302</a></li>
+    <li>Valerie Racine  (:v-racine): <a href="https://bugzilla.mozilla.org/1849963" target="_blank">1849963</a></li>
+    <li>Xiaosen Zhuang: <a href="https://bugzilla.mozilla.org/2069280" target="_blank">2069280</a></li>
+  </ul>
+
+</article>
+
+<!--#include virtual="/firefox/inc/fx_tail-sandstone.shtml" -->
